@@ -19,7 +19,7 @@ for(const file of files){
 const D=ctx.window.RADAR_PARTS, opps=D.opportunities||[], datasets=D.datasets||[], tools=D.tools||[];
 const dateRx=/^\d{4}-\d{2}-\d{2}$/;
 const opportunityStatuses=new Set(["aberta","monitorar","preparar","encerrada","descartada"]);
-const eligibilityStatuses=new Set(["elegível","parcial","inelegível"]);
+const eligibilityStatuses=new Set(["elegível","parcial","inelegível","restrita"]);
 const investigationStageStatuses=new Set(["estruturado","em_apuracao","parcial","planejado"]);
 const investigationSourceStatuses=new Set(["usada","planejada","nao_obtida"]);
 const todayInBahia=new Intl.DateTimeFormat("en-CA",{timeZone:"America/Bahia",year:"numeric",month:"2-digit",day:"2-digit"}).format(new Date());
