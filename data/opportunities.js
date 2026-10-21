@@ -3416,13 +3416,13 @@ window.RADAR_PARTS.opportunities=[
     "scope": "Estados Unidos",
     "deadline": "2026-11-11",
     "deadlineStatus": "confirmado",
-    "eligibility": "inelegível",
-    "fit": 4,
-    "status": "descartada",
+    "eligibility": "restrita",
+    "fit": 0,
+    "status": "aberta",
     "rules": "https://dowjonesnewsfund.org/djnfinternships/",
-    "apply": null,
-    "verified": "2026-10-02",
-    "desc": "Arquivado: exige estudante full-time e, para internacionais, presença nos EUA com visto de trabalho; profissionais com um ano ou mais de trabalho jornalístico também não são elegíveis."
+    "apply": "https://dowjonesnewsfund.org/djnfinternships/",
+    "verified": "2026-10-21",
+    "desc": "Estágios remunerados de verão de 2027 em jornalismo de dados e outras áreas. Inscrições até 11/11/2026; teste classificatório até 15/11/2026, às 23h59 ET. Exige matrícula universitária integral em 11/11/2026; estudantes internacionais devem já estar nos EUA com autorização de trabalho. Profissionais com um ano ou mais de experiência jornalística integral não são elegíveis. Documentos e formulário na página oficial."
   },
   {
     "value": "US$75 mil",
@@ -3840,13 +3840,13 @@ window.RADAR_PARTS.opportunities=[
     "scope": "Internacional / estudantes",
     "deadline": "2027-01-10",
     "deadlineStatus": "abre_2026-10-01",
-    "eligibility": "inelegível",
-    "fit": 5,
-    "status": "descartada",
+    "eligibility": "restrita",
+    "fit": 0,
+    "status": "preparar",
     "rules": "https://citp.princeton.edu/programs/siegel-public-interest-technology-summer-fellowship-pit-sf",
-    "apply": null,
-    "verified": "2026-10-02",
-    "desc": "Fellowship de tecnologia de interesse público voltada a estudantes de graduação."
+    "apply": "https://citp.princeton.edu/programs/siegel-public-interest-technology-summer-fellowship-pit-sf",
+    "verified": "2026-10-21",
+    "desc": "Fellowship de verão de 2027 em tecnologia de interesse público para estudantes de graduação (rising juniors e seniors) de universidades dos EUA. Prazo 10/01/2027; oferece bolsa e colocação em organização parceira. Estudantes internacionais podem concorrer, mas há menos colocações disponíveis e responsabilidade por questões de visto. Confirmar abertura efetiva do formulário na fonte oficial."
   },
   {
     "value": null,
