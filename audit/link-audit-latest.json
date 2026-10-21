@@ -1,10 +1,10 @@
 {
-  "checkedAt": "2026-10-21T20:58:49.393Z",
+  "checkedAt": "2026-10-21T21:53:38.355Z",
   "policy": "404/410 becomes broken only after appearing as suspect or broken in the previous audit; blocked and network results are inconclusive",
   "counts": {
-    "ok": 340,
+    "ok": 339,
     "blocked": 37,
-    "network": 46
+    "network": 47
   },
   "results": [
     {
@@ -1699,6 +1699,7 @@
       "finalUrl": "https://www.ba.gov.br/ssp/publicacoes",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -1710,6 +1711,7 @@
       "finalUrl": "https://www.ba.gov.br/ssp/dados-abertos",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -1733,6 +1735,7 @@
       "finalUrl": "https://dados.ons.org.br/",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -1956,6 +1959,7 @@
       "finalUrl": "https://www.ba.gov.br/saude/suvisa/vigilancia-epidemiologica",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -2860,7 +2864,7 @@
       "class": "network",
       "error": "TypeError:fetch failed",
       "attempts": [
-        "TypeError:fetch failed",
+        "AbortError:This operation was aborted",
         "TypeError:fetch failed"
       ]
     },
@@ -3501,11 +3505,13 @@
       "type": "source",
       "id": "MapBiomas Alerta",
       "url": "https://alerta.mapbiomas.org/metodo-mapbiomas-alerta/",
-      "status": 200,
-      "finalUrl": "https://alerta.mapbiomas.org/metodo-mapbiomas-alerta/",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "AbortError:This operation was aborted",
       "attempts": [
-        200
+        "AbortError:This operation was aborted",
+        "AbortError:This operation was aborted"
       ]
     },
     {
@@ -4440,7 +4446,6 @@
       "finalUrl": "https://www.generonumero.media/artigos/cartilha-violencia-de-genero/",
       "class": "ok",
       "attempts": [
-        "TypeError:fetch failed",
         200
       ]
     },
