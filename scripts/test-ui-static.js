@@ -18,4 +18,11 @@ for(const p of paths) {
  const s=fs.readFileSync(p,"utf8");
  new vm.Script(s,{filename:p});
 }
+// Global catalog must not be filtered by a user's private editorial decision.
+assert(/function presetOk\(o\)[\s\S]*?return true\}function personalOk\(o\)/.test(app),
+  "Default opportunity listing must not exclude personal sem_interesse state");
+assert(/factual:o=>\["encerrada","descartada"\]\.includes\(o\.status\)/.test(app),
+  "Factual archive must be based on factual status, not personal eligibility");
+assert(!/return st!==["']sem_interesse["']/.test(app),
+  "Personal no-interest state must not hide global catalog entries");
 console.log("Static UI checks passed: scripts, navigation, viewport, escaping helper and responsive CSS.");
