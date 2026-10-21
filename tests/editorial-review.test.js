@@ -22,3 +22,23 @@ test('category-specific editorial checks and distinct candidate IDs',()=>{
   assert.ok(out.candidates.every(x=>!x.publicationReady));
  }finally{fs.rmSync(dir,{recursive:true,force:true})}
 });
+
+test('canonical URLs are deduplicated and malformed URLs excluded',()=>{
+ const dir=fs.mkdtempSync(path.join(os.tmpdir(),'radar-review-dedupe-'));
+ try{
+  fs.mkdirSync(path.join(dir,'intake'));
+  const leads=[
+   {classification:'needs-editorial-review',category:'opportunities',url:'https://example.org/call?utm_source=mail',title:'First',source:'Newsletter'},
+   {classification:'needs-editorial-review',category:'opportunities',url:'https://example.org/call',title:'Duplicate',source:'Website'},
+   {classification:'needs-editorial-review',category:'tools',url:'javascript:alert(1)',title:'Invalid',source:'Unknown'}
+  ];
+  fs.writeFileSync(path.join(dir,'intake/candidate-triage.json'),JSON.stringify({leads}));
+  fs.writeFileSync(path.join(dir,'intake/lead-evidence.json'),JSON.stringify({results:[]}));
+  cp.execFileSync(process.execPath,[script],{cwd:dir});
+  const out=JSON.parse(fs.readFileSync(path.join(dir,'intake/editorial-review.json')));
+  assert.equal(out.candidates.length,1);
+  assert.equal(out.candidates[0].title,'First');
+  assert.equal(out.candidates[0].publicationReady,false);
+  assert.equal(out.counts.opportunities,1);
+ }finally{fs.rmSync(dir,{recursive:true,force:true})}
+});
