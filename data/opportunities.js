@@ -37,7 +37,7 @@ window.RADAR_PARTS.opportunities=[
     "rules": "https://www.newamerica.org/insights/care-journalists-apply-reporting-grants/",
     "apply": "https://airtable.com/appeAzA6SPRWk4LdE/paghyAWcVp0j1pEpl/form",
     "discoveredVia": [
-      "Solutions Journalism Network — Above the Fold"
+      "Solutions Journalism Network"
     ],
     "discoveryUrl": "https://us1.campaign-archive.com/?u=08368885cad8bf75d17e3863a&id=f8f829283f",
     "opens": "2026-09-02",
