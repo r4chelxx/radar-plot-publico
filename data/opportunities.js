@@ -2606,13 +2606,13 @@ window.RADAR_PARTS.opportunities=[
     "scope": "Internacional / Europa",
     "deadline": "2026-10-29",
     "deadlineStatus": "confirmado",
-    "eligibility": "inelegível",
-    "fit": 2,
-    "status": "descartada",
+    "eligibility": "parcial",
+    "fit": 0,
+    "status": "aberta",
     "rules": "https://grants.journalismfund.eu/en/the-invisible-life-grant",
-    "apply": null,
-    "verified": "2026-10-02",
-    "desc": "Arquivado por baixa aderência temática: financiamento é dedicado a investigações cross-border sobre bem-estar de animais de produção."
+    "apply": "https://grants.journalismfund.eu/en/the-invisible-life-grant",
+    "verified": "2026-10-21",
+    "desc": "Financiamento para investigações jornalísticas transnacionais sobre o bem-estar de animais de produção, com interesse ou ligação europeia. A seleção depende da composição da equipe e dos requisitos específicos do edital; consultar o regulamento oficial antes da candidatura. Prazo indicado: 29/10/2026, às 13h no horário de Bruxelas. A especialização temática não é motivo para excluir a oportunidade do Radar."
   },
   {
     "value": "Bolsa integral cobre voo internacional, transfer aeroporto-hotel, quatro noites de hotel, inscrição e refeições selecionadas; possibilidade de bolsa parcial. Não cobre visto, diárias nem transporte até aeroporto de origem.",
