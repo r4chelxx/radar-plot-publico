@@ -1,0 +1,4700 @@
+{
+  "checkedAt": "2026-10-21T05:03:06.380Z",
+  "policy": "404/410 becomes broken only after appearing as suspect or broken in the previous audit; blocked and network results are inconclusive",
+  "counts": {
+    "ok": 344,
+    "blocked": 36,
+    "server": 2,
+    "network": 37
+  },
+  "results": [
+    {
+      "type": "opportunity",
+      "id": "dvs-board-2027-2028",
+      "url": "https://datavisualizationsociety.org/nominations/",
+      "status": 200,
+      "finalUrl": "https://datavisualizationsociety.org/nominations/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "fapesp-tt3-metadados-metafavela-2026",
+      "url": "https://fapesp.br/oportunidades/centro-de-estudos-da-favela-(cefavela)/9915/",
+      "status": 200,
+      "finalUrl": "https://fapesp.br/oportunidades/centro-de-estudos-da-favela-(cefavela)/9915/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Atlantic Fellows for Social and Economic Equity — LSE",
+      "url": "https://afsee.atlanticfellows.lse.ac.uk/en-gb/apply",
+      "status": 200,
+      "finalUrl": "https://afsee.atlanticfellows.lse.ac.uk/en-gb/apply",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Informed Earth — Climate Journalism Network",
+      "url": "https://informedstories.org/en/informed-earth/opportunities/apply-informed-climate-journalism-network/",
+      "status": 403,
+      "finalUrl": "https://informedstories.org/en/informed-earth/opportunities/apply-informed-climate-journalism-network/",
+      "class": "blocked",
+      "attempts": [
+        403
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Columbia Journalism School — Knight-Bagehot",
+      "url": "https://journalism.columbia.edu/kb-apply",
+      "status": 403,
+      "finalUrl": "https://journalism.columbia.edu/kb-apply",
+      "class": "blocked",
+      "attempts": [
+        403
+      ]
+    },
+    {
+      "type": "source",
+      "id": "TJBA — Narrativas que Salvam",
+      "url": "https://www.narrativasquesalvam.com.br/edital",
+      "status": 200,
+      "finalUrl": "https://www.narrativasquesalvam.com.br/edital",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "The Open Notebook — Early-Career Fellowship",
+      "url": "https://www.theopennotebook.com/early-career-fellowship-program/",
+      "status": 200,
+      "finalUrl": "https://www.theopennotebook.com/early-career-fellowship-program/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "mit-ksj-academic-2027-28",
+      "url": "https://ksj.mit.edu/fellowships/academic-year-fellowship/",
+      "status": 200,
+      "finalUrl": "https://ksj.mit.edu/fellowships/academic-year-fellowship/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "ARI/Banrisul — Prêmio de Jornalismo",
+      "url": "https://www.premioaridejornalismo.com/pages/regulamento",
+      "status": 200,
+      "finalUrl": "https://www.premioaridejornalismo.com/pages/regulamento",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "yale-world-fellows-2027",
+      "url": "https://jackson.yale.edu/international-leadership-center/yale-world-fellows",
+      "status": 200,
+      "finalUrl": "https://jackson.yale.edu/international-leadership-center/yale-world-fellows",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "pulitzer-rainforest-reporting-grant",
+      "url": "https://pulitzercenter.org/journalism/initiatives/rainforest-reporting",
+      "status": 403,
+      "finalUrl": "https://pulitzercenter.org/journalism/initiatives/rainforest-reporting",
+      "class": "blocked",
+      "attempts": [
+        403
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Instituto Combustível Legal — Prêmio de Jornalismo",
+      "url": "https://www.combustivellegal.com.br/premiodejornalismo/regulamento/",
+      "status": 200,
+      "finalUrl": "https://www.combustivellegal.com.br/premiodejornalismo/regulamento/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "ACI/OCESC — Prêmio de Jornalismo",
+      "url": "https://premioaciocesc.com.br/",
+      "status": 200,
+      "finalUrl": "https://premioaciocesc.com.br/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "FIEPE — Prêmio de Jornalismo",
+      "url": "https://www.premiofiepedejornalismo.com.br/",
+      "status": 200,
+      "finalUrl": "https://www.premiofiepedejornalismo.com.br/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "mjdh-direitos-humanos-2026",
+      "url": "https://direitoshumanosbr.org.br/home/download/regulamento_por.pdf",
+      "status": 200,
+      "finalUrl": "https://direitoshumanosbr.org.br/home/download/regulamento_por.pdf",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "almt-premio-jornalismo-2026",
+      "url": "https://diariooficial.al.mt.gov.br/publicacoes/36040/",
+      "status": 200,
+      "finalUrl": "https://diariooficial.al.mt.gov.br/publicacoes/36040/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "FASPE — Journalism Fellowship",
+      "url": "https://www.faspe-ethics.org/journalism/",
+      "status": 200,
+      "finalUrl": "https://www.faspe-ethics.org/journalism/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Poder360 — Programa de Trainees",
+      "url": "https://www.poder360.com.br/trainee-2027/",
+      "status": 200,
+      "finalUrl": "https://www.poder360.com.br/trainee-2027/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "livrejor-premio-mosca-2026",
+      "url": "https://livre.jor.br/regulamento-do-premio-livre-jor-de-jornalismo-mosca/",
+      "status": 200,
+      "finalUrl": "https://livre.jor.br/regulamento-do-premio-livre-jor-de-jornalismo-mosca/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Type Investigations",
+      "url": "https://typeinvestigations.org/initiatives/springboard-project/",
+      "status": 200,
+      "finalUrl": "https://typeinvestigations.org/initiatives/springboard-project/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "tmu-global-migration-journalism-fellowship-2027",
+      "url": "https://www.torontomu.ca/global-migration-institute/opportunities/fellowships/journalism-fellowship/",
+      "status": 200,
+      "finalUrl": "https://www.torontomu.ca/global-migration-institute/opportunities/fellowships/journalism-fellowship/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "national-geographic-human-thread-2026",
+      "url": "https://funding.nationalgeographic.org/s/fundingopportunity/119Hr000000CohcIAC/rfp-the-human-thread",
+      "status": 200,
+      "finalUrl": "https://funding.nationalgeographic.org/s/fundingopportunity/119Hr000000CohcIAC/rfp-the-human-thread",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "True Story Award",
+      "url": "https://truestoryfestival.org/en/award",
+      "status": 200,
+      "finalUrl": "https://truestoryfestival.org/en/award",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "tarbell-institutional-grants-2026",
+      "url": "https://www.tarbellcenter.org/institutional-grants",
+      "status": 200,
+      "finalUrl": "https://www.tarbellcenter.org/institutional-grants",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "ij4eu-investigation-support-second-call-2026",
+      "url": "https://investigativejournalismforeu.net/grants/investigation-support-scheme/",
+      "status": 200,
+      "finalUrl": "https://investigativejournalismforeu.net/grants/investigation-support-scheme/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "ij4eu-freelancer-support-second-call-2026",
+      "url": "https://investigativejournalismforeu.net/grants/freelancer-support-scheme/",
+      "status": 200,
+      "finalUrl": "https://investigativejournalismforeu.net/grants/freelancer-support-scheme/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "our-world-in-data-writer-2026",
+      "url": "https://ourworldindata.org/hiring-writer-2026",
+      "status": 200,
+      "finalUrl": "https://ourworldindata.org/hiring-writer-2026",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "pulitzer-center-ai-program-coordinator-2026",
+      "url": "https://ats.rippling.com/the-pulitzer-center-on-crisis-reporting/jobs/5379f55c-5765-47c1-89ca-e4b341861774",
+      "status": 200,
+      "finalUrl": "https://ats.rippling.com/the-pulitzer-center-on-crisis-reporting/jobs/5379f55c-5765-47c1-89ca-e4b341861774",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "demographics-planetary-health-story-prize-2026",
+      "url": "https://gatesinstitute.org/demographics-planetary-health-story-prize/",
+      "status": 200,
+      "finalUrl": "https://gatesinstitute.org/demographics-planetary-health-story-prize/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "npf-rare-disease-2026",
+      "url": "https://nationalpress.org/training/apply-2026-rare-disease-reporting-fellowship-and-grants/",
+      "status": 200,
+      "finalUrl": "https://nationalpress.org/training/apply-2026-rare-disease-reporting-fellowship-and-grants/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "derechos-digitales-jornalismo-2026",
+      "url": "https://www.derechosdigitales.org/pt/noticias/inscricoes-abertas-para-a-primeira-edicao-do-programa-jornalismo-para-os-direitos-digitais/",
+      "status": 200,
+      "finalUrl": "https://www.derechosdigitales.org/pt/noticias/inscricoes-abertas-para-a-primeira-edicao-do-programa-jornalismo-para-os-direitos-digitais/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "John S. Knight Journalism Fellowships",
+      "url": "https://jsk.stanford.edu/become-a-fellow",
+      "status": 200,
+      "finalUrl": "https://jsk.stanford.edu/become-a-fellow",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Nieman Foundation",
+      "url": "https://nieman.harvard.edu/fellowships/how-to-apply/",
+      "status": 200,
+      "finalUrl": "https://nieman.harvard.edu/fellowships/how-to-apply/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "pulitzer-ocean-reporting-network",
+      "url": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/apply-join-ocean-reporting-network-orn",
+      "status": 200,
+      "finalUrl": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/apply-join-ocean-reporting-network-orn",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "fapesp-bridge-jc-ii",
+      "url": "https://fapesp.br/oportunidades/cepid-bridge%3A-gestao-de-ecossistemas-para-transicoes-sustentaveis/9850/",
+      "status": 200,
+      "finalUrl": "https://fapesp.br/oportunidades/cepid-bridge%3A-gestao-de-ecossistemas-para-transicoes-sustentaveis/9850/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Equality Fund — Journalism Fellowship",
+      "url": "https://equalityfund.ca/en/posts/application-journalism-fellowship",
+      "status": 200,
+      "finalUrl": "https://equalityfund.ca/en/posts/application-journalism-fellowship",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Global Center for Journalism & Trauma — Fellowships",
+      "url": "https://gcjt.org/resources/call-applications-2027-ochberg-fellowships",
+      "status": 403,
+      "finalUrl": "https://gcjt.org/resources/call-applications-2027-ochberg-fellowships",
+      "class": "blocked",
+      "attempts": [
+        403
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "climatexc-story-to-life-2026",
+      "url": "https://www.climatexc.org/grants/climate-action-in-your-community",
+      "status": 200,
+      "finalUrl": "https://www.climatexc.org/grants/climate-action-in-your-community",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "ctrlj-research-hub26",
+      "url": "https://www.ctrl-j.info/programs/research-hub",
+      "status": 200,
+      "finalUrl": "https://www.ctrl-j.info/programs/research-hub",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "ctrlj-microgrants26",
+      "url": "https://www.ctrl-j.info/programs/microgrants",
+      "status": 200,
+      "finalUrl": "https://www.ctrl-j.info/programs/microgrants",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "dvs",
+      "url": "https://datavisualizationsociety.org/mentorship/",
+      "status": 200,
+      "finalUrl": "https://datavisualizationsociety.org/mentorship/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "wcsj",
+      "url": "https://registration.wcsj2027.org/wcsj27/fellowships",
+      "status": 200,
+      "finalUrl": "https://registration.wcsj2027.org/wcsj27/fellowships",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "kw",
+      "url": "https://wallacehouse.umich.edu/knight-wallace/how-to-apply/international-applicants/",
+      "status": 403,
+      "finalUrl": "https://wallacehouse.umich.edu/knight-wallace/how-to-apply/international-applicants/",
+      "class": "blocked",
+      "attempts": [
+        403
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "reuters",
+      "url": "https://reutersinstitute.politics.ox.ac.uk/our-journalist-fellowship-programme",
+      "status": 200,
+      "finalUrl": "https://reutersinstitute.politics.ox.ac.uk/our-journalist-fellowship-programme",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "pulitzer-data",
+      "url": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/data-journalism-grants",
+      "status": 200,
+      "finalUrl": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/data-journalism-grants",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Dialogue Earth",
+      "url": "https://dialogue.earth/",
+      "status": 200,
+      "finalUrl": "https://dialogue.earth/en/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "row-labor",
+      "url": "https://restofworld.org/about/labor-x-tech-reporting-network/",
+      "status": 200,
+      "finalUrl": "https://restofworld.org/about/labor-x-tech-reporting-network/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "techpolicy27",
+      "url": "https://www.techpolicy.press/call-for-applications-2027-tech-policy-press-fellowship-program/",
+      "status": 200,
+      "finalUrl": "https://www.techpolicy.press/call-for-applications-2027-tech-policy-press-fellowship-program/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "gabo-clima",
+      "url": "https://fundaciongabo.org/es/convocatorias/taller-virtual-como-encontrar-y-contar-historias-climaticas-que-importen-tu-audiencia",
+      "status": 200,
+      "finalUrl": "https://fundaciongabo.org/es/convocatorias/taller-virtual-como-encontrar-y-contar-historias-climaticas-que-importen-tu-audiencia",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "pulitzer-env",
+      "url": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/our-work-environment-grants",
+      "status": 200,
+      "finalUrl": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/our-work-environment-grants",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "iwmf-fw",
+      "url": "https://www.iwmf.org/programs/fund-for-women-journalists/",
+      "status": 200,
+      "finalUrl": "https://www.iwmf.org/programs/fund-for-women-journalists/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "pulitzer-ai-2627",
+      "url": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/ai-accountability-fellowships",
+      "status": 200,
+      "finalUrl": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/ai-accountability-fellowships",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "jf-crossborder",
+      "url": "https://grants.journalismfund.eu/nl/node/99",
+      "status": 200,
+      "finalUrl": "https://grants.journalismfund.eu/nl/node/99",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "jf-pascal",
+      "url": "https://grants.journalismfund.eu/en/pascal-decroos-fund",
+      "status": 200,
+      "finalUrl": "https://grants.journalismfund.eu/en/pascal-decroos-fund",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "jf-belgian",
+      "url": "https://grants.journalismfund.eu/en/belgian-bridge",
+      "status": 200,
+      "finalUrl": "https://grants.journalismfund.eu/en/belgian-bridge",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "jf-invisible",
+      "url": "https://grants.journalismfund.eu/en/the-invisible-life-grant",
+      "status": 200,
+      "finalUrl": "https://grants.journalismfund.eu/en/the-invisible-life-grant",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "gijc27",
+      "url": "https://gijn.org/stories/gijc2027-fellowship-application/",
+      "status": 403,
+      "finalUrl": "https://gijn.org/stories/gijc2027-fellowship-application/",
+      "class": "blocked",
+      "attempts": [
+        403
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "coda26",
+      "url": "https://ok.org.br/noticia/chamada-aberta-inscreva-sua-atividade-para-o-coda-br-2026/",
+      "status": 503,
+      "finalUrl": "https://ok.org.br/noticia/chamada-aberta-inscreva-sua-atividade-para-o-coda-br-2026/",
+      "class": "server",
+      "attempts": [
+        503,
+        503
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Solutions Journalism Network",
+      "url": "https://www.solutionsjournalism.org/",
+      "status": 200,
+      "finalUrl": "https://www.solutionsjournalism.org/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "pulitzer-ai-grant",
+      "url": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/ai-reporting-grants",
+      "status": 200,
+      "finalUrl": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/ai-reporting-grants",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "pulitzer-ml",
+      "url": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/machine-learning-reporting-grants",
+      "status": 200,
+      "finalUrl": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/machine-learning-reporting-grants",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "ahcj-int",
+      "url": "https://healthjournalism.org/fellowships/ahcj-international-health-study-fellowships/",
+      "status": 200,
+      "finalUrl": "https://healthjournalism.org/fellowships/ahcj-international-health-study-fellowships/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "fij-investigative-grants",
+      "url": "https://fij.org/apply-for-a-grant/",
+      "status": 200,
+      "finalUrl": "https://fij.org/apply-for-a-grant/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "alicia",
+      "url": "https://fij.org/40k-fellowship-application-open-webinar-aug-12-on-how-to-apply/",
+      "status": 200,
+      "finalUrl": "https://fij.org/40k-fellowship-application-open-webinar-aug-12-on-how-to-apply/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "persephone-2027",
+      "url": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/persephone-miel-fellowships",
+      "status": 200,
+      "finalUrl": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/persephone-miel-fellowships",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "mcgraw-fall26",
+      "url": "https://www.mcgrawcenter.org/the-harold-w-mcgraw-jr-business-journalism-fellowships/",
+      "status": 403,
+      "finalUrl": "https://www.mcgrawcenter.org/the-harold-w-mcgraw-jr-business-journalism-fellowships/",
+      "class": "blocked",
+      "attempts": [
+        403
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "allard-cartography",
+      "url": "https://www.allardpierson.nl/en/fellowships/allard-pierson-fellowship-for-cartography",
+      "status": 200,
+      "finalUrl": "https://www.allardpierson.nl/en/fellowships/allard-pierson-fellowship-for-cartography",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "usc-data26",
+      "url": "https://centerforhealthjournalism.org/fellowships-grants/data-fellowship",
+      "status": 200,
+      "finalUrl": "https://centerforhealthjournalism.org/fellowships-grants/data-fellowship",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "fapesp-bridge-jc",
+      "url": "https://fapesp.br/oportunidades/cepid-bridge%3A-gestao-de-ecossistemas-para-transicoes-sustentaveis/9851/",
+      "status": 200,
+      "finalUrl": "https://fapesp.br/oportunidades/cepid-bridge%3A-gestao-de-ecossistemas-para-transicoes-sustentaveis/9851/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "ifl-cartography",
+      "url": "https://leibniz-ifl.de/en/career-1/open-positions/open-positions-details/journalist-in-residence-stipendium",
+      "status": 200,
+      "finalUrl": "https://leibniz-ifl.de/en/career-1/open-positions/open-positions-details/journalist-in-residence-stipendium",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "CatchLight",
+      "url": "https://www.catchlight.io/",
+      "status": 200,
+      "finalUrl": "https://www.catchlight.io/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "djnf-data",
+      "url": "https://dowjonesnewsfund.org/djnfinternships/",
+      "status": 200,
+      "finalUrl": "https://dowjonesnewsfund.org/djnfinternships/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "rji27-emerging",
+      "url": "https://rjionline.org/about-rji-fellowships/",
+      "status": 200,
+      "finalUrl": "https://rjionline.org/about-rji-fellowships/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Swiss Viz",
+      "url": "https://www.swissviz.org/",
+      "status": 200,
+      "finalUrl": "https://www.swissviz.org/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Sigma Awards / GIJN",
+      "url": "https://www.sigmaawards.org/",
+      "status": 200,
+      "finalUrl": "https://www.sigmaawards.org/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "oja27",
+      "url": "https://awards.journalists.org/about/",
+      "status": 200,
+      "finalUrl": "https://awards.journalists.org/about/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "pamela26",
+      "url": "https://www.pressclubinstitute.org/2026/06/08/applications-open-for-the-pamela-tobey-award-for-excellence-in-visual-storytelling/",
+      "status": 200,
+      "finalUrl": "https://www.pressclubinstitute.org/2026/06/08/applications-open-for-the-pamela-tobey-award-for-excellence-in-visual-storytelling/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "usc-civic27",
+      "url": "https://www.usccmf.org/faq",
+      "status": 200,
+      "finalUrl": "https://www.usccmf.org/faq",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "tarbell27",
+      "url": "https://www.tarbellcenter.org/fellowship",
+      "status": 200,
+      "finalUrl": "https://www.tarbellcenter.org/fellowship",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "tactical-residency26",
+      "url": "https://www.exposingtheinvisible.org/en/news/call-investigation-residency-2026/",
+      "status": 200,
+      "finalUrl": "https://www.exposingtheinvisible.org/en/news/call-investigation-residency-2026/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "princeton-pit27",
+      "url": "https://citp.princeton.edu/programs/siegel-public-interest-technology-summer-fellowship-pit-sf",
+      "status": 403,
+      "finalUrl": "https://citp.princeton.edu/programs/siegel-public-interest-technology-summer-fellowship-pit-sf",
+      "class": "blocked",
+      "attempts": [
+        403
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "icfj-staiger27",
+      "url": "https://www.icfj.org/our-work/hans-staiger-investigative-reporting-award",
+      "status": 200,
+      "finalUrl": "https://www.icfj.org/our-work/hans-staiger-investigative-reporting-award",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "ijweek26",
+      "url": "https://gijn.org/stories/ij-week-full-program-release/",
+      "status": 403,
+      "finalUrl": "https://gijn.org/stories/ij-week-full-program-release/",
+      "class": "blocked",
+      "attempts": [
+        403
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Agência Petrobras — Seleção de Jornalismo",
+      "url": "https://agencia.petrobras.com.br/selecao",
+      "status": 403,
+      "finalUrl": "https://agencia.petrobras.com.br/selecao",
+      "class": "blocked",
+      "attempts": [
+        403
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "media-party-wb26",
+      "url": "https://mediaparty.org/2026/05/14/journalism-micro-grants-media-party-world-bank/",
+      "status": 200,
+      "finalUrl": "https://mediaparty.org/en/2026/05/14/journalism-micro-grants-media-party-world-bank/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "play-the-game-fund",
+      "url": "https://www.playthegame.org/journalism-fund/pitch-your-story/",
+      "status": 200,
+      "finalUrl": "https://www.playthegame.org/journalism-fund/pitch-your-story/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "pulitzer-gender",
+      "url": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/gender-equality-grant",
+      "status": 200,
+      "finalUrl": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/gender-equality-grant",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "pulitzer-global",
+      "url": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/global-reporting-grants",
+      "status": 200,
+      "finalUrl": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/global-reporting-grants",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "iwmf-rgws",
+      "url": "https://www.iwmf.org/programs/reporting-grants-for-womens-stories/",
+      "status": 200,
+      "finalUrl": "https://www.iwmf.org/programs/reporting-grants-for-womens-stories/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "iwmf-kari-next",
+      "url": "https://www.iwmf.org/programs/kari-howard-fund/",
+      "status": 200,
+      "finalUrl": "https://www.iwmf.org/programs/kari-howard-fund/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "iwmf-kim-next",
+      "url": "https://www.iwmf.org/programs/kim-wall-memorial-fund/",
+      "status": 200,
+      "finalUrl": "https://www.iwmf.org/programs/kim-wall-memorial-fund/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "ewa-next",
+      "url": "https://ewa.org/fellowships",
+      "status": 200,
+      "finalUrl": "https://ewa.org/fellowships",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "egab-pitches",
+      "url": "https://www.egab.co/faqs",
+      "status": 200,
+      "finalUrl": "https://www.egab.co/faqs",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "type-investigations-pitches",
+      "url": "https://typeinvestigations.org/about/faq/",
+      "status": 200,
+      "finalUrl": "https://typeinvestigations.org/about/faq/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "fire-virtual-newsroom",
+      "url": "https://www.firenewsroom.org/about-us/fire-frequently-asked-questions",
+      "status": 200,
+      "finalUrl": "https://www.firenewsroom.org/about-us/fire-frequently-asked-questions",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "genero-numero-dados-abertos",
+      "url": "https://www.generonumero.media/dados-abertos/",
+      "status": 200,
+      "finalUrl": "https://www.generonumero.media/dados-abertos/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "cvm-fundos-informe-diario",
+      "url": "https://dados.cvm.gov.br/dataset/fi-doc-inf_diario",
+      "status": 200,
+      "finalUrl": "https://dados.cvm.gov.br/dataset/fi-doc-inf_diario",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "cvm-fundos-cadastro",
+      "url": "https://dados.cvm.gov.br/dataset/fi-cad",
+      "status": 200,
+      "finalUrl": "https://dados.cvm.gov.br/dataset/fi-cad",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "opensanctions-default",
+      "url": "https://www.opensanctions.org/datasets/default/",
+      "status": 200,
+      "finalUrl": "https://www.opensanctions.org/datasets/default/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "who-health-inequality-data-repository",
+      "url": "https://www.who.int/data/inequality-monitor/data",
+      "status": 200,
+      "finalUrl": "https://www.who.int/data/inequality-monitor/data",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "pni-doses-aplicadas-2026",
+      "url": "https://dadosabertos.saude.gov.br/dataset/doses-aplicadas-pelo-programa-de-nacional-de-imunizacoes-pni-2026",
+      "status": 200,
+      "finalUrl": "https://dadosabertos.saude.gov.br/dataset/doses-aplicadas-pelo-programa-de-nacional-de-imunizacoes-pni-2026",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "United Nations — Mandate Registry",
+      "url": "https://mandates.un.org/secretariat",
+      "status": 200,
+      "finalUrl": "https://mandates.un.org/secretariat",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "midr-recuperacao-pos-desastres-2023-2026",
+      "url": "https://drive.google.com/drive/folders/1r1UxTEy0exMN4vg-EvHaAmA_Sy-R0PFJ",
+      "status": 200,
+      "finalUrl": "https://drive.google.com/drive/folders/1r1UxTEy0exMN4vg-EvHaAmA_Sy-R0PFJ",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "telegram-antivacina-brasil-2020-2025",
+      "url": "https://redu.unicamp.br/dataset.xhtml?persistentId=doi%3A10.25824%2Fredu%2F5JIVDT",
+      "status": 200,
+      "finalUrl": "https://redu.unicamp.br/dataset.xhtml?persistentId=doi%3A10.25824%2Fredu%2F5JIVDT",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "fundacion-gabo-desiertos-noticias-locales",
+      "url": "https://desiertosdenoticiaslocales.fundaciongabo.org/dashboard/",
+      "status": 200,
+      "finalUrl": "https://desiertosdenoticiaslocales.fundaciongabo.org/dashboard/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "siops-orcamentos-saude",
+      "url": "https://www.gov.br/saude/pt-br/acesso-a-informacao/siops/indicadores/indicadores",
+      "status": 200,
+      "finalUrl": "https://www.gov.br/saude/pt-br/acesso-a-informacao/siops/indicadores/indicadores",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "SIOPE — FNDE",
+      "url": "https://www.gov.br/fnde/pt-br/assuntos/sistemas/siope",
+      "status": 200,
+      "finalUrl": "https://www.gov.br/fnde/pt-br/assuntos/sistemas/siope",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "SISAB — Ministério da Saúde",
+      "url": "https://sisab.saude.gov.br/paginas/acessoPublico/faq/IndexFaq.xhtml",
+      "status": 200,
+      "finalUrl": "https://sisab.saude.gov.br/paginas/acessoPublico/faq/IndexFaq.xhtml",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "dados-por-direitos-data-drops",
+      "url": "https://escoladedados.org/tag/dados-por-direitos/",
+      "status": 200,
+      "finalUrl": "https://escoladedados.org/tag/dados-por-direitos/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Amazon Mining Watch",
+      "url": "https://amazonminingwatch.org/pt",
+      "status": 200,
+      "finalUrl": "https://amazonminingwatch.org/pt",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "health-at-a-glance-lac-2026",
+      "url": "https://www.oecd.org/en/publications/health-at-a-glance-latin-america-and-the-caribbean-2026_445b3259-en.html",
+      "status": 403,
+      "finalUrl": "https://www.oecd.org/en/publications/health-at-a-glance-latin-america-and-the-caribbean-2026_445b3259-en.html",
+      "class": "blocked",
+      "attempts": [
+        403
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "reuters-digital-news-report-interactive",
+      "url": "https://reutersinstitute.politics.ox.ac.uk/digital-news-report/interactive",
+      "status": 200,
+      "finalUrl": "https://reutersinstitute.politics.ox.ac.uk/digital-news-report/interactive",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "sisagua-amostras-fora-padrao",
+      "url": "https://dadosabertos.saude.gov.br/dataset/sisagua-controle-mensal-amostras-fora-do-padrao",
+      "status": 200,
+      "finalUrl": "https://dadosabertos.saude.gov.br/dataset/sisagua-controle-mensal-amostras-fora-do-padrao",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "sisagua-controle-mensal-parametros-basicos",
+      "url": "https://dadosabertos.saude.gov.br/dataset/sisagua-controle-mensal-parametros-basicos",
+      "status": 200,
+      "finalUrl": "https://dadosabertos.saude.gov.br/dataset/sisagua-controle-mensal-parametros-basicos",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "ana-outorgas-federais-geoservico",
+      "url": "https://www.snirh.gov.br/arcgis/rest/services/SRE/OutorgasDireitodeUso/FeatureServer/0",
+      "status": 200,
+      "finalUrl": "https://www.snirh.gov.br/arcgis/rest/services/SRE/OutorgasDireitodeUso/FeatureServer/0",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Climate TRACE",
+      "url": "https://climatetrace.org/data",
+      "status": 200,
+      "finalUrl": "https://climatetrace.org/data",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "overture-maps-buildings",
+      "url": "https://docs.overturemaps.org/guides/buildings/",
+      "status": 200,
+      "finalUrl": "https://docs.overturemaps.org/guides/buildings/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "sfb-painel-regularizacao-ambiental-rural",
+      "url": "https://dados.florestal.gov.br/dataset/painel-da-regularizacao-ambiental-rural",
+      "status": 200,
+      "finalUrl": "https://dados.florestal.gov.br/dataset/painel-da-regularizacao-ambiental-rural",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Conecta gov.br — Catálogo de APIs Governamentais",
+      "url": "https://www.gov.br/conecta/catalogo/",
+      "status": 200,
+      "finalUrl": "https://www.gov.br/conecta/catalogo/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "opensanctions-br-pep",
+      "url": "https://www.opensanctions.org/datasets/br_pep/",
+      "status": 200,
+      "finalUrl": "https://www.opensanctions.org/datasets/br_pep/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Compras.gov.br — Dados Abertos",
+      "url": "https://www.gov.br/compras/pt-br/cidadao/portal-de-dados-abertos/portal-de-dados-abertos",
+      "status": 200,
+      "finalUrl": "https://www.gov.br/compras/acl_users/credentials_cookie_auth/require_login?came_from=https%3A//www.gov.br/compras/pt-br/cidadao/portal-de-dados-abertos/portal-de-dados-abertos",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Receita Federal — Benefícios e Renúncias Fiscais",
+      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/dados-abertos/beneficios-e-renuncias-fiscais",
+      "status": 200,
+      "finalUrl": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/dados-abertos/beneficios-e-renuncias-fiscais",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Transferegov.br — Dados Abertos",
+      "url": "https://api-publica.transferegov.gestao.gov.br/",
+      "status": 200,
+      "finalUrl": "https://api-publica.transferegov.gestao.gov.br/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Obrasgov.br — Dados Abertos",
+      "url": "https://api-publica.obrasgov.gestao.gov.br/",
+      "status": 200,
+      "finalUrl": "https://api-publica.obrasgov.gestao.gov.br/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Ministério da Fazenda — Desonerações Tributárias",
+      "url": "https://www.gov.br/fazenda/pt-br/assuntos/politica-fiscal/atuacao-spe/plataforma-de-desoneracoes-tributarias",
+      "status": 200,
+      "finalUrl": "https://www.gov.br/fazenda/pt-br/assuntos/politica-fiscal/atuacao-spe/plataforma-de-desoneracoes-tributarias",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "World Bank Data360",
+      "url": "https://data360.worldbank.org/",
+      "status": 200,
+      "finalUrl": "https://data.worldbank.org/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Ibama — Áreas Embargadas",
+      "url": "https://dadosabertos.ibama.gov.br/dataset/fiscalizacao-termo-de-embargo",
+      "status": 200,
+      "finalUrl": "https://dadosabertos.ibama.gov.br/dataset/fiscalizacao-termo-de-embargo",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "CVM — Dados Abertos",
+      "url": "https://dados.cvm.gov.br/",
+      "status": 200,
+      "finalUrl": "https://dados.cvm.gov.br/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Banco Central do Brasil — Dados Abertos",
+      "url": "https://dadosabertos.bcb.gov.br/",
+      "status": 200,
+      "finalUrl": "https://dadosabertos.bcb.gov.br/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Anatel — Dados Abertos",
+      "url": "https://www.gov.br/anatel/pt-br/dados/dados-abertos",
+      "status": 200,
+      "finalUrl": "https://www.gov.br/anatel/pt-br/dados/dados-abertos",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "anp-revendedores-combustiveis",
+      "url": "https://www.gov.br/anp/pt-br/centrais-de-conteudo/dados-abertos/dados-cadastrais-dos-revendedores-varejistas-de-combustiveis-automotivos",
+      "status": 200,
+      "finalUrl": "https://www.gov.br/anp/pt-br/centrais-de-conteudo/dados-abertos/dados-cadastrais-dos-revendedores-varejistas-de-combustiveis-automotivos",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "anp-precos-combustiveis",
+      "url": "https://www.gov.br/anp/pt-br/centrais-de-conteudo/dados-abertos/serie-historica-de-precos-de-combustiveis",
+      "status": 200,
+      "finalUrl": "https://www.gov.br/anp/pt-br/centrais-de-conteudo/dados-abertos/serie-historica-de-precos-de-combustiveis",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "ondh-disque100-ligue180",
+      "url": "https://www.gov.br/mdh/pt-br/acesso-a-informacao/dados-abertos/disque100",
+      "status": 200,
+      "finalUrl": "https://www.gov.br/mdh/pt-br/acesso-a-informacao/dados-abertos/disque100",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "ceis-cnep-sancoes",
+      "url": "https://portaldatransparencia.gov.br/download-de-dados/ceis",
+      "status": 200,
+      "finalUrl": "https://portaldatransparencia.gov.br/download-de-dados/ceis",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "CGU — Dados Abertos de Ouvidoria",
+      "url": "https://www.gov.br/cgu/pt-br/acesso-a-informacao/dados-abertos/arquivos/ouvidoria",
+      "status": 200,
+      "finalUrl": "https://www.gov.br/cgu/pt-br/acesso-a-informacao/dados-abertos/arquivos/ouvidoria",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Fala.BR / CGU",
+      "url": "https://www.gov.br/acessoainformacao/pt-br/falabr/visao-geral/busca-de-pedidos-e-respostas-download-de-dados",
+      "status": 200,
+      "finalUrl": "https://www.gov.br/acessoainformacao/pt-br/falabr/visao-geral/busca-de-pedidos-e-respostas-download-de-dados",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "mapbiomas-alerta",
+      "url": "https://plataforma.alerta.mapbiomas.org/",
+      "status": 200,
+      "finalUrl": "https://plataforma.alerta.mapbiomas.org/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "seeg-emissoes",
+      "url": "https://seeg.eco.br/dados/",
+      "status": 403,
+      "finalUrl": "https://seeg.eco.br/dados/",
+      "class": "blocked",
+      "attempts": [
+        403
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "jindex-ai-news",
+      "url": "https://jindex.ai/",
+      "status": 200,
+      "finalUrl": "https://jindex.ai/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "camara-dados-abertos",
+      "url": "https://dadosabertos.camara.leg.br/swagger/api.html",
+      "status": 200,
+      "finalUrl": "https://dadosabertos.camara.leg.br/swagger/api.html",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "hdx-humanitarian-data",
+      "url": "https://data.humdata.org/",
+      "status": 406,
+      "finalUrl": "https://data.humdata.org/",
+      "class": "blocked",
+      "attempts": [
+        406
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "salvador-compras",
+      "url": "https://transparencia.salvador.ba.gov.br/",
+      "status": 200,
+      "finalUrl": "https://transparencia.salvador.ba.gov.br/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "salvador-educacao-numeros",
+      "url": "https://sistemas.educacao.salvador.ba.gov.br/relatorios/inicio",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
+      "attempts": [
+        "AbortError:This operation was aborted",
+        "TypeError:fetch failed"
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "salvador-geo-negocios",
+      "url": "https://www2.sefaz.salvador.ba.gov.br/servico/geo-negocios",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
+      "attempts": [
+        "TypeError:fetch failed",
+        "TypeError:fetch failed"
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "sei-geoportal-rest",
+      "url": "https://map.geo.sei.ba.gov.br/arcgis/rest/services",
+      "status": 200,
+      "finalUrl": "https://map.geo.sei.ba.gov.br/arcgis/rest/services",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "sei-regionalizacao",
+      "url": "https://map.geo.sei.ba.gov.br/arcgis/rest/services/servicos_sei/REGIONALIZACAO_VIGENTE/FeatureServer",
+      "status": 200,
+      "finalUrl": "https://map.geo.sei.ba.gov.br/arcgis/rest/services/servicos_sei/REGIONALIZACAO_VIGENTE/FeatureServer",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "sei-localidades",
+      "url": "https://map.geo.sei.ba.gov.br/arcgis/rest/services/servicos_sei/LOCALIDADE_BAHIA/MapServer",
+      "status": 200,
+      "finalUrl": "https://map.geo.sei.ba.gov.br/arcgis/rest/services/servicos_sei/LOCALIDADE_BAHIA/MapServer",
+      "class": "ok",
+      "attempts": [
+        "AbortError:This operation was aborted",
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "sei-divisao-municipal",
+      "url": "https://map.geo.sei.ba.gov.br/arcgis/rest/services/servicos_sei/DPA_A_100K_VIGENTE_GCS_SIR_SEI/FeatureServer/0",
+      "status": 200,
+      "finalUrl": "https://map.geo.sei.ba.gov.br/arcgis/rest/services/servicos_sei/DPA_A_100K_VIGENTE_GCS_SIR_SEI/FeatureServer/0",
+      "class": "ok",
+      "attempts": [
+        "AbortError:This operation was aborted",
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "bahia-dados-abertos",
+      "url": "https://dados.ba.gov.br/",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
+      "attempts": [
+        "AbortError:This operation was aborted",
+        "TypeError:fetch failed"
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "bahia-transparencia",
+      "url": "https://www.transparencia.ba.gov.br/Portal",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
+      "attempts": [
+        "AbortError:This operation was aborted",
+        "TypeError:fetch failed"
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "sspba-estatisticas",
+      "url": "https://www.ba.gov.br/ssp/publicacoes",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
+      "attempts": [
+        "AbortError:This operation was aborted",
+        "TypeError:fetch failed"
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "sspba-dados-abertos",
+      "url": "https://www.ba.gov.br/ssp/dados-abertos",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
+      "attempts": [
+        "AbortError:This operation was aborted",
+        "TypeError:fetch failed"
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "aneel",
+      "url": "https://dadosabertos.aneel.gov.br/",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
+      "attempts": [
+        "AbortError:This operation was aborted",
+        "TypeError:fetch failed"
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "ons",
+      "url": "https://dados.ons.org.br/",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
+      "attempts": [
+        "AbortError:This operation was aborted",
+        "TypeError:fetch failed"
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "ons-constrained-off-fotovoltaica",
+      "url": "https://dados.ons.org.br/dataset/restricao_coff_fotovoltaica",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
+      "attempts": [
+        "AbortError:This operation was aborted",
+        "TypeError:fetch failed"
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "ons-coff-solar-detail",
+      "url": "https://dados.ons.org.br/dataset/restricao_coff_fotovoltaica_detail",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
+      "attempts": [
+        "AbortError:This operation was aborted",
+        "TypeError:fetch failed"
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "saude",
+      "url": "https://datasus.saude.gov.br/",
+      "status": 200,
+      "finalUrl": "https://datasus.saude.gov.br/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "aneel-interrupcoes",
+      "url": "https://sidra.ibge.gov.br/",
+      "status": 403,
+      "finalUrl": "https://sidra.ibge.gov.br/",
+      "class": "blocked",
+      "attempts": [
+        403
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "dadosgov",
+      "url": "https://dados.gov.br/",
+      "status": 200,
+      "finalUrl": "https://dados.gov.br/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "transparencia",
+      "url": "https://portaldatransparencia.gov.br/",
+      "status": 405,
+      "finalUrl": "https://portaldatransparencia.gov.br/",
+      "class": "blocked",
+      "attempts": [
+        405
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "ouvidorsus",
+      "url": "https://dadosabertos.saude.gov.br/dataset/ouvidorsus",
+      "status": 200,
+      "finalUrl": "https://dadosabertos.saude.gov.br/dataset/ouvidorsus",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "cnes",
+      "url": "https://dadosabertos.saude.gov.br/dataset/cnes-cadastro-nacional-de-estabelecimentos-de-saude",
+      "status": 200,
+      "finalUrl": "https://dadosabertos.saude.gov.br/dataset/cnes-cadastro-nacional-de-estabelecimentos-de-saude",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "sisagua-captacao",
+      "url": "https://dadosabertos.saude.gov.br/dataset/sisagua-pontos-de-captacao",
+      "status": 200,
+      "finalUrl": "https://dadosabertos.saude.gov.br/dataset/sisagua-pontos-de-captacao",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "aneel-emergencias",
+      "url": "https://dadosabertos.aneel.gov.br/dataset/ocorrencias-emergenciais-nas-redes-de-distribuicao",
+      "status": 200,
+      "finalUrl": "https://dadosabertos.aneel.gov.br/dataset/ocorrencias-emergenciais-nas-redes-de-distribuicao",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "basedosdados",
+      "url": "https://basedosdados.org/",
+      "status": 200,
+      "finalUrl": "https://basedosdados.org/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "bd-inep-censo-escolar",
+      "url": "https://basedosdados.org/dataset/dae21af4-4b6a-42f4-b94a-4c2061ea9de5",
+      "status": 200,
+      "finalUrl": "https://basedosdados.org/dataset/dae21af4-4b6a-42f4-b94a-4c2061ea9de5",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "bd-inep-catalogo-escolas",
+      "url": "https://basedosdados.org/dataset/c320e0ad-7551-4c01-8bbd-39a59b1c4914",
+      "status": 200,
+      "finalUrl": "https://basedosdados.org/dataset/c320e0ad-7551-4c01-8bbd-39a59b1c4914",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "inema-geobahia",
+      "url": "https://www.ba.gov.br/inema/servicos/dados-geoespaciais",
+      "status": 200,
+      "finalUrl": "https://www.ba.gov.br/inema/servicos/dados-geoespaciais",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "inema-atos-outorga",
+      "url": "https://www.ba.gov.br/inema/atende/outorga",
+      "status": 200,
+      "finalUrl": "https://www.ba.gov.br/inema/atende/outorga",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "seia-bahia",
+      "url": "https://sistema.seia.ba.gov.br/",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
+      "attempts": [
+        "AbortError:This operation was aborted",
+        "TypeError:fetch failed"
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "tcmba-dados-abertos",
+      "url": "https://www.tcm.ba.gov.br/dados-abertos/",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
+      "attempts": [
+        "AbortError:This operation was aborted",
+        "TypeError:fetch failed"
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "tceba-transparencia",
+      "url": "https://www.tce.ba.gov.br/",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
+      "attempts": [
+        "AbortError:This operation was aborted",
+        "TypeError:fetch failed"
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "sesab-obitos",
+      "url": "https://www.saude.ba.gov.br/suvisa/vigilancia-epidemiologica/",
+      "status": 200,
+      "finalUrl": "https://www.ba.gov.br/saude/suvisa/vigilancia-epidemiologica",
+      "class": "ok",
+      "attempts": [
+        "AbortError:This operation was aborted",
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "inep-microdados",
+      "url": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados",
+      "status": 200,
+      "finalUrl": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "pncp",
+      "url": "https://www.gov.br/pncp/pt-br",
+      "status": 200,
+      "finalUrl": "https://www.gov.br/pncp/pt-br",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "siconfi",
+      "url": "https://siconfi.tesouro.gov.br/",
+      "status": 200,
+      "finalUrl": "https://siconfi.tesouro.gov.br/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "ana-hidroweb",
+      "url": "https://www.snirh.gov.br/hidroweb/",
+      "status": 200,
+      "finalUrl": "https://www.snirh.gov.br/hidroweb/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "ana-cnarh",
+      "url": "https://www.gov.br/ana/pt-br/assuntos/regulacao-e-fiscalizacao/cadastro-nacional-de-usuarios-recursos-hidricos-cnarh",
+      "status": 200,
+      "finalUrl": "https://www.gov.br/ana/pt-br/assuntos/regulacao-e-fiscalizacao/cadastro-nacional-de-usuarios-recursos-hidricos-cnarh",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "compras-bahia",
+      "url": "https://comprasnet.ba.gov.br/",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
+      "attempts": [
+        "AbortError:This operation was aborted",
+        "TypeError:fetch failed"
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "ibge-geociencias",
+      "url": "https://www.ibge.gov.br/geociencias/downloads-geociencias.html",
+      "status": 403,
+      "finalUrl": "https://www.ibge.gov.br/geociencias/downloads-geociencias.html",
+      "class": "blocked",
+      "attempts": [
+        403
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "inep-censo-escolar",
+      "url": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/censo-escolar",
+      "status": 200,
+      "finalUrl": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/censo-escolar",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "sigeduc-escolas-ba",
+      "url": "https://sigeduc.educacao.ba.gov.br/sigeduc/public/transparencia/pages/consulta/relatorio_escolas/relEscolasEtapaModalidadeAnalitico.jsf",
+      "status": 200,
+      "finalUrl": "https://sigeduc.educacao.ba.gov.br/sigeduc/public/transparencia/pages/consulta/relatorio_escolas/relEscolasEtapaModalidadeAnalitico.jsf",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "sinasc",
+      "url": "https://dadosabertos.saude.gov.br/dataset/sistema-de-informacao-sobre-nascidos-vivos-sinasc",
+      "status": 200,
+      "finalUrl": "https://dadosabertos.saude.gov.br/dataset/sistema-de-informacao-sobre-nascidos-vivos-sinasc",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "sim-mortalidade",
+      "url": "https://dadosabertos.saude.gov.br/dataset/sim",
+      "status": 200,
+      "finalUrl": "https://dadosabertos.saude.gov.br/dataset/sim",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "salvador-geo",
+      "url": "https://www.salvador.ba.gov.br/",
+      "status": 200,
+      "finalUrl": "https://salvador.ba.gov.br/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "tse-dados-eleitorais",
+      "url": "https://dadosabertos.tse.jus.br/",
+      "status": 200,
+      "finalUrl": "https://dadosabertos.tse.jus.br/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "rais",
+      "url": "https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/estatisticas-trabalho/rais",
+      "status": 200,
+      "finalUrl": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/acoes-e-programas/programas-projetos-acoes-obras-e-atividades/estatisticas-trabalho/rais/rais-2025/rais-2025",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "novo-caged",
+      "url": "https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/estatisticas-trabalho/novo-caged",
+      "status": 200,
+      "finalUrl": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/acoes-e-programas/programas-projetos-acoes-obras-e-atividades/estatisticas-trabalho/novo-caged/2026/agosto/pagina-inicial",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "salvador-cartografia",
+      "url": "https://www2.sefaz.salvador.ba.gov.br/",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
+      "attempts": [
+        "TypeError:fetch failed",
+        "TypeError:fetch failed"
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "salvador-cadastro-imobiliario",
+      "url": "https://www2.sefaz.salvador.ba.gov.br/servico/consulta-cib-cadastro-imobiliario-brasileiro",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
+      "attempts": [
+        "TypeError:fetch failed",
+        "TypeError:fetch failed"
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "salvador-itiv",
+      "url": "https://www2.sefaz.salvador.ba.gov.br/servicos",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
+      "attempts": [
+        "TypeError:fetch failed",
+        "TypeError:fetch failed"
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "bahia-contratos",
+      "url": "https://dados.ba.gov.br/dataset/contratos",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
+      "attempts": [
+        "TypeError:fetch failed",
+        "TypeError:fetch failed"
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "bahia-licitacoes",
+      "url": "https://dados.ba.gov.br/dataset/licitacoes",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
+      "attempts": [
+        "TypeError:fetch failed",
+        "TypeError:fetch failed"
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "bahia-obras",
+      "url": "https://dados.ba.gov.br/dataset/obras",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
+      "attempts": [
+        "TypeError:fetch failed",
+        "TypeError:fetch failed"
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "bahia-bens-imoveis",
+      "url": "https://dados.ba.gov.br/dataset/bens-imoveis",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
+      "attempts": [
+        "TypeError:fetch failed",
+        "TypeError:fetch failed"
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "bahia-doe",
+      "url": "https://www.doe.ba.gov.br/",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
+      "attempts": [
+        "TypeError:fetch failed",
+        "TypeError:fetch failed"
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "bahia-pagamentos",
+      "url": "https://dados.ba.gov.br/dataset/pagamentos",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
+      "attempts": [
+        "TypeError:fetch failed",
+        "TypeError:fetch failed"
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "bahia-nfe-compras",
+      "url": "https://dados.ba.gov.br/dataset/notas-fiscais",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
+      "attempts": [
+        "TypeError:fetch failed",
+        "TypeError:fetch failed"
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "bahia-convenios-parcerias",
+      "url": "https://dados.ba.gov.br/dataset/convenios-e-parcerias",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
+      "attempts": [
+        "TypeError:fetch failed",
+        "TypeError:fetch failed"
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "datasus-sih-procedimentos-obstetricos",
+      "url": "https://datasus.saude.gov.br/acesso-a-informacao/producao-hospitalar-sih-sus/",
+      "status": 200,
+      "finalUrl": "https://datasus.saude.gov.br/acesso-a-informacao/producao-hospitalar-sih-sus/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "cnes-leitos",
+      "url": "https://datasus.saude.gov.br/cnes-recursos-fisicos/",
+      "status": 200,
+      "finalUrl": "https://datasus.saude.gov.br/cnes-recursos-fisicos/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "sesab-mortalidade-materna",
+      "url": "https://biobr.saude.ba.gov.br/static/obitomaterno.php",
+      "status": 200,
+      "finalUrl": "https://biobr.saude.ba.gov.br/static/obitomaterno.php",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "sesab-sinasc-perfil",
+      "url": "https://www.saude.ba.gov.br/",
+      "status": 200,
+      "finalUrl": "https://www.ba.gov.br/saude/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "cnes-profissionais",
+      "url": "https://datasus.saude.gov.br/cnes-recursos-humanos-a-partir-de-agosto-de-2007/",
+      "status": 200,
+      "finalUrl": "https://datasus.saude.gov.br/cnes-recursos-humanos-a-partir-de-agosto-de-2007-ocupacoes-classificadas-pela-cbo-2002/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "sigtap",
+      "url": "https://wiki.datasus.gov.br/sigtap/index.php/P%C3%A1gina_principal",
+      "status": 200,
+      "finalUrl": "https://wiki.datasus.gov.br/sigtap/index.php/P%C3%A1gina_principal",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "ana-snirh-usos-agua",
+      "url": "https://www.snirh.gov.br/",
+      "status": 200,
+      "finalUrl": "https://www.snirh.gov.br/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "aneel-siga",
+      "url": "https://dadosabertos.aneel.gov.br/dataset/siga-sistema-de-informacoes-de-geracao-da-aneel",
+      "status": 200,
+      "finalUrl": "https://dadosabertos.aneel.gov.br/dataset/siga-sistema-de-informacoes-de-geracao-da-aneel",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "aneel-sigel",
+      "url": "https://sigel.aneel.gov.br/",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
+      "attempts": [
+        "AbortError:This operation was aborted",
+        "TypeError:fetch failed"
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "inema-consulta-processos",
+      "url": "https://www.ba.gov.br/inema/banner/consulta-de-processos",
+      "status": 200,
+      "finalUrl": "https://www.ba.gov.br/inema/banner/consulta-de-processos",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "inema-formularios-outorga",
+      "url": "https://www.ba.gov.br/inema/atende/formularios/outorga",
+      "status": 200,
+      "finalUrl": "https://www.ba.gov.br/inema/atende/formularios/outorga",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "inema-normas-licenciamento",
+      "url": "https://www.ba.gov.br/inema/legislacao/normas-tecnicas-e-portarias",
+      "status": 200,
+      "finalUrl": "https://www.ba.gov.br/inema/legislacao/normas-tecnicas-e-portarias",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "datacenters-aneel-mme-atos",
+      "url": "https://www.gov.br/aneel/pt-br",
+      "status": 200,
+      "finalUrl": "https://www.gov.br/aneel/pt-br",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "cbf-convocacoes-feminina",
+      "url": "https://www.cbf.com.br/",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
+      "attempts": [
+        "TypeError:fetch failed",
+        "TypeError:fetch failed"
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "apeb-aforamentos-codices",
+      "url": "https://www.ba.gov.br/fpc/arquivo-publico-acervo",
+      "status": 200,
+      "finalUrl": "https://www.ba.gov.br/fpc/arquivo-publico-acervo",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "aneel-siget",
+      "url": "https://dadosabertos.aneel.gov.br/dataset/sistema-de-gestao-da-transmissao-siget",
+      "status": 200,
+      "finalUrl": "https://dadosabertos.aneel.gov.br/dataset/sistema-de-gestao-da-transmissao-siget",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "aneel-samp",
+      "url": "https://dadosabertos.aneel.gov.br/dataset/samp",
+      "status": 200,
+      "finalUrl": "https://dadosabertos.aneel.gov.br/dataset/samp",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "bahia-sde-incentivos",
+      "url": "https://www.ba.gov.br/sde/incentivos",
+      "status": 200,
+      "finalUrl": "https://www.ba.gov.br/sde/incentivos",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "bahia-tce-renuncia-fiscal",
+      "url": "https://www.tce.ba.gov.br/controle-externo/contas-de-governo",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
+      "attempts": [
+        "AbortError:This operation was aborted",
+        "TypeError:fetch failed"
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "salvador-vva",
+      "url": "https://www2.sefaz.salvador.ba.gov.br/servico/ITIV",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
+      "attempts": [
+        "TypeError:fetch failed",
+        "TypeError:fetch failed"
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "ibge-setores-2022",
+      "url": "https://www.ibge.gov.br/geociencias/organizacao-do-territorio/malhas-territoriais/26565-malhas-de-setores-censitarios-divisoes-intramunicipais.html",
+      "status": 403,
+      "finalUrl": "https://www.ibge.gov.br/geociencias/organizacao-do-territorio/malhas-territoriais/26565-malhas-de-setores-censitarios-divisoes-intramunicipais.html",
+      "class": "blocked",
+      "attempts": [
+        403
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "ibge-agregados-setores-2022",
+      "url": "https://www.ibge.gov.br/estatisticas/sociais/populacao/22827-censo-demografico-2022.html?edicao=41852&t=resultados",
+      "status": 403,
+      "finalUrl": "https://www.ibge.gov.br/estatisticas/sociais/populacao/22827-censo-demografico-2022.html?edicao=41852&t=resultados",
+      "class": "blocked",
+      "attempts": [
+        403
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "aneel-bdgd",
+      "url": "https://dadosabertos.aneel.gov.br/dataset/base-de-dados-geografica-da-distribuidora-bdgd",
+      "status": 200,
+      "finalUrl": "https://dadosabertos.aneel.gov.br/dataset/base-de-dados-geografica-da-distribuidora-bdgd",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "datajud-api-publica",
+      "url": "https://www.cnj.jus.br/sistemas/datajud/api-publica/",
+      "status": 200,
+      "finalUrl": "https://www.cnj.jus.br/sistemas/datajud/api-publica/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "ibama-autos-infracao",
+      "url": "https://dadosabertos.ibama.gov.br/dataset/fiscalizacao-auto-de-infracao",
+      "status": 200,
+      "finalUrl": "https://dadosabertos.ibama.gov.br/dataset/fiscalizacao-auto-de-infracao",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "inpe-terrabrasilis",
+      "url": "https://terrabrasilis.dpi.inpe.br/",
+      "status": 200,
+      "finalUrl": "https://terrabrasilis.dpi.inpe.br/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "sinisa-saneamento",
+      "url": "https://www.gov.br/cidades/pt-br/acesso-a-informacao/acoes-e-programas/saneamento/sinisa",
+      "status": 200,
+      "finalUrl": "https://www.gov.br/cidades/pt-br/acesso-a-informacao/acoes-e-programas/saneamento/sinisa",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "fifa-professional-womens-landscape",
+      "url": "https://landscape.fifa.com/en/women/landscape",
+      "status": 200,
+      "finalUrl": "https://landscape.fifa.com/en/women/landscape",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "fifa-womens-benchmarking-2025",
+      "url": "https://inside.fifa.com/womens-football/fifa-benchmarking-report",
+      "status": 200,
+      "finalUrl": "https://inside.fifa.com/womens-football/fifa-benchmarking-report",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "esporte-lie-painel",
+      "url": "https://paineis.mds.gov.br/public/extensions/lei-de-incentivo-v2/lei-de-incentivo-v2.html",
+      "status": 200,
+      "finalUrl": "https://paineis.mds.gov.br/public/extensions/lei-de-incentivo-v2/lei-de-incentivo-v2.html",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "cbf-futebol-feminino-panorama-2026",
+      "url": "https://www.cbf.com.br/futebol-brasileiro/noticias/competicoes-campeonato-brasileiro-feminino/a/com-copa-2027-no-horizonte-cbf-apresenta-panorama-do-futebol-feminino-no-brasil",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
+      "attempts": [
+        "TypeError:fetch failed",
+        "TypeError:fetch failed"
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "cbf-governanca",
+      "url": "https://portaldegovernanca.cbf.com.br/",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
+      "attempts": [
+        "TypeError:fetch failed",
+        "TypeError:fetch failed"
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "cbf-bid",
+      "url": "https://bid.cbf.com.br/",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
+      "attempts": [
+        "AbortError:This operation was aborted",
+        "TypeError:fetch failed"
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "bn-hemeroteca-digital",
+      "url": "https://bndigital.bn.gov.br/hemeroteca-digital/",
+      "status": 403,
+      "finalUrl": "https://bndigital.bn.gov.br/hemeroteca-digital/",
+      "class": "blocked",
+      "attempts": [
+        403
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "cnj-justica-aberta-extrajudicial",
+      "url": "https://justicaaberta.cnj.jus.br/",
+      "status": 200,
+      "finalUrl": "https://justicaaberta.cnj.jus.br/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "cnj-srei",
+      "url": "https://www.cnj.jus.br/sistemas/srei-2/",
+      "status": 200,
+      "finalUrl": "https://www.cnj.jus.br/sistemas/srei-2/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "ons-constrained-off-eolica",
+      "url": "https://dados.ons.org.br/dataset/restricao_coff_eolica_detail",
+      "status": 200,
+      "finalUrl": "https://dados.ons.org.br/dataset/restricao_coff_eolica_detail",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "plataforma-brasil-dados-abertos",
+      "url": "https://dadosabertos.saude.gov.br/dataset/plataforma_brasil",
+      "status": 200,
+      "finalUrl": "https://dadosabertos.saude.gov.br/dataset/plataforma_brasil",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "ms-pda-2026-2028",
+      "url": "https://www.gov.br/saude/pt-br/acesso-a-informacao/dados-abertos/pda",
+      "status": 200,
+      "finalUrl": "https://www.gov.br/saude/pt-br/acesso-a-informacao/dados-abertos/pda",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "rfb-cnpj-dados-abertos",
+      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/dados-abertos/cadastros",
+      "status": 200,
+      "finalUrl": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/dados-abertos/cadastros",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Abraji",
+      "url": "https://abraji.org.br/",
+      "status": 200,
+      "finalUrl": "https://abraji.org.br/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Jeduca — Editais e Prêmios",
+      "url": "https://jeduca.org.br/",
+      "status": 200,
+      "finalUrl": "https://jeduca.org.br/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Fundación Gabo — Premio Roche",
+      "url": "https://premiorochedeperiodismo.com/",
+      "status": 200,
+      "finalUrl": "https://premiorochedeperiodismo.com/es/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "One World Media — Awards e Fellowship",
+      "url": "https://oneworldmedia.org.uk/awards/",
+      "status": 200,
+      "finalUrl": "https://oneworldmedia.org.uk/awards/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Prêmio Javier Valdez",
+      "url": "https://premiojaviervaldes.org/",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
+      "attempts": [
+        "TypeError:fetch failed",
+        "TypeError:fetch failed"
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Conselho Federal de Administração — Prêmio CFA",
+      "url": "https://cfa.org.br/",
+      "status": 200,
+      "finalUrl": "https://cfa.org.br/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Talanoa — Instituto",
+      "url": "https://institutotalanoa.org/",
+      "status": 200,
+      "finalUrl": "https://institutotalanoa.org/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Transparência Internacional Brasil",
+      "url": "https://transparenciainternacional.org.br/",
+      "status": 200,
+      "finalUrl": "https://transparenciainternacional.org.br/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Prêmio Vladimir Herzog",
+      "url": "https://premiovladimirherzog.org/regulamento-2026/",
+      "status": 200,
+      "finalUrl": "https://premiovladimirherzog.org/regulamento-2026/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Prêmio Sebrae de Jornalismo",
+      "url": "https://premiosebraedejornalismo.com.br/",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
+      "attempts": [
+        "AbortError:This operation was aborted",
+        "TypeError:fetch failed"
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Prêmio CNT de Jornalismo",
+      "url": "https://www.cnt.org.br/",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
+      "attempts": [
+        "TypeError:fetch failed",
+        "TypeError:fetch failed"
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Prêmio BNB de Jornalismo",
+      "url": "https://www.bnb.gov.br/",
+      "status": 200,
+      "finalUrl": "https://www.bnb.gov.br/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Prêmio ESPM de Jornalismo",
+      "url": "https://www.espm.br/",
+      "status": 200,
+      "finalUrl": "https://www.espm.br/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Fundación Gabo — Premio Gabo",
+      "url": "https://www.fundaciongabo.org/es/convocatorias/premio-gabo-2026",
+      "status": 200,
+      "finalUrl": "https://www.fundaciongabo.org/es/convocatorias/premio-gabo-2026",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Yale World Fellows",
+      "url": "https://worldfellows.yale.edu/",
+      "status": 200,
+      "finalUrl": "https://jackson.yale.edu/international-leadership-center/yale-world-fellows",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Kiplinger Program in Public Affairs Journalism",
+      "url": "https://kiplingerprogram.org/",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
+      "attempts": [
+        "TypeError:fetch failed",
+        "TypeError:fetch failed"
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Rory Peck Trust",
+      "url": "https://rorypecktrust.org/",
+      "status": 200,
+      "finalUrl": "https://rorypecktrust.org/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Free Press Unlimited — Reporters Respond",
+      "url": "https://www.freepressunlimited.org/en/projects/reporters-respond-emergency-and-legal-support",
+      "status": 200,
+      "finalUrl": "https://www.freepressunlimited.org/en/projects/reporters-respond-emergency-and-legal-support",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "MIT Knight Science Journalism",
+      "url": "https://ksj.mit.edu/",
+      "status": 200,
+      "finalUrl": "https://ksj.mit.edu/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Assembleia Legislativa de Mato Grosso — ALMT",
+      "url": "https://www.al.mt.gov.br/",
+      "status": 200,
+      "finalUrl": "https://www.al.mt.gov.br/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Movimento de Justiça e Direitos Humanos — MJDH",
+      "url": "https://direitoshumanosbr.org.br/home/inscricao.php?id=566917",
+      "status": 200,
+      "finalUrl": "https://direitoshumanosbr.org.br/home/inscricao.php?id=566917",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Amado Mundo — oportunidades de formação",
+      "url": "https://amadomundo.com/",
+      "status": 200,
+      "finalUrl": "https://amadomundo.com/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "LatAm Journalism Review — Knight Center",
+      "url": "https://latamjournalismreview.org/",
+      "status": 200,
+      "finalUrl": "https://latamjournalismreview.org/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Livre.jor — Prêmio Mosca",
+      "url": "https://livre.jor.br/premiomosca/",
+      "status": 200,
+      "finalUrl": "https://livre.jor.br/premiomosca/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "WHO — Health Inequality Monitor",
+      "url": "https://www.who.int/data/inequality-monitor",
+      "status": 200,
+      "finalUrl": "https://www.who.int/data/inequality-monitor",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Toronto Metropolitan University — Global Migration Institute",
+      "url": "https://www.torontomu.ca/global-migration-institute/opportunities/",
+      "status": 200,
+      "finalUrl": "https://www.torontomu.ca/global-migration-institute/opportunities/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Repositório de Dados de Pesquisa da Unicamp (REDU)",
+      "url": "https://redu.unicamp.br/",
+      "status": 200,
+      "finalUrl": "https://redu.unicamp.br/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "SIOPS — Ministério da Saúde",
+      "url": "https://www.gov.br/saude/pt-br/acesso-a-informacao/siops/siops",
+      "status": 200,
+      "finalUrl": "https://www.gov.br/saude/pt-br/acesso-a-informacao/siops/siops",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "open-measures-public-app",
+      "url": "https://openmeasures.io/platform",
+      "status": 200,
+      "finalUrl": "https://openmeasures.io/platform",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "IJ4EU",
+      "url": "https://investigativejournalismforeu.net/grants/",
+      "status": 200,
+      "finalUrl": "https://investigativejournalismforeu.net/grants/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "OECD Data",
+      "url": "https://www.oecd.org/en/data.html",
+      "status": 403,
+      "finalUrl": "https://www.oecd.org/en/data.html",
+      "class": "blocked",
+      "attempts": [
+        403
+      ]
+    },
+    {
+      "type": "source",
+      "id": "INPE — BiomasBR / DesagregaBiomasBR",
+      "url": "https://data.inpe.br/biomasbr/",
+      "status": 200,
+      "finalUrl": "https://data.inpe.br/biomasbr/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "GFMD — Funding Opportunities",
+      "url": "https://gfmd.info/fundings/",
+      "status": 200,
+      "finalUrl": "https://gfmd.info/fundings/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Grants for Journalists — catálogo",
+      "url": "https://grantsforjournalists.com/",
+      "status": 200,
+      "finalUrl": "https://grantsforjournalists.com/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Grants for Journalists — LinkedIn",
+      "url": "https://www.linkedin.com/company/grants-for-journalists/",
+      "status": 200,
+      "finalUrl": "https://www.linkedin.com/company/grants-for-journalists/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "quiteria-azmina",
+      "url": "https://www.elasnocongresso.com.br/",
+      "status": 200,
+      "finalUrl": "https://www.elasnocongresso.com.br/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Wikimedia XTools",
+      "url": "https://www.mediawiki.org/wiki/XTools",
+      "status": 200,
+      "finalUrl": "https://www.mediawiki.org/wiki/XTools",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Portal de Dados Abertos do SUS",
+      "url": "https://dadosabertos.saude.gov.br/dataset",
+      "status": 200,
+      "finalUrl": "https://dadosabertos.saude.gov.br/dataset",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "ANA/SNIRH — Geosserviços de Outorgas",
+      "url": "https://www.snirh.gov.br/arcgis/rest/services/SRE/OutorgasDireitodeUso/FeatureServer",
+      "status": 200,
+      "finalUrl": "https://www.snirh.gov.br/arcgis/rest/services/SRE/OutorgasDireitodeUso/FeatureServer",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Observatório da Imprensa",
+      "url": "https://www.observatoriodaimprensa.com.br/",
+      "status": 200,
+      "finalUrl": "https://www.observatoriodaimprensa.com.br/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "JEO Maps / InfoAmazonia",
+      "url": "https://jeowp.org/",
+      "status": 200,
+      "finalUrl": "https://jeowp.org/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "ocrmypdf",
+      "url": "https://ocrmypdf.readthedocs.io/en/latest/",
+      "status": 200,
+      "finalUrl": "https://ocrmypdf.readthedocs.io/en/latest/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Overture Maps Foundation",
+      "url": "https://docs.overturemaps.org/",
+      "status": 200,
+      "finalUrl": "https://docs.overturemaps.org/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "ProPublica Open Source",
+      "url": "https://github.com/propublica",
+      "status": 200,
+      "finalUrl": "https://github.com/propublica",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Serviço Florestal Brasileiro — Dados Abertos",
+      "url": "https://dados.florestal.gov.br/",
+      "status": 200,
+      "finalUrl": "https://dados.florestal.gov.br/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "William H. Gates Sr. Institute",
+      "url": "https://gatesinstitute.org/",
+      "status": 200,
+      "finalUrl": "https://gatesinstitute.org/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Open Journalism",
+      "url": "https://openjournalism.news/",
+      "status": 200,
+      "finalUrl": "https://openjournalism.news/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "backfield-local-angle",
+      "url": "https://github.com/localangle/backfield",
+      "status": 200,
+      "finalUrl": "https://github.com/localangle/backfield",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "opencorporates-api",
+      "url": "https://api.opencorporates.com/",
+      "status": 200,
+      "finalUrl": "https://api.opencorporates.com/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "bellingcat-online-investigations-toolkit",
+      "url": "https://www.bellingcat.com/resources/2024/09/24/bellingcat-online-investigations-toolkit/",
+      "status": 200,
+      "finalUrl": "https://www.bellingcat.com/resources/2024/09/24/bellingcat-online-investigations-toolkit/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "OpenSanctions",
+      "url": "https://www.opensanctions.org/",
+      "status": 200,
+      "finalUrl": "https://www.opensanctions.org/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "National Press Foundation",
+      "url": "https://nationalpress.org/programs/",
+      "status": 200,
+      "finalUrl": "https://nationalpress.org/programs/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Derechos Digitales",
+      "url": "https://www.derechosdigitales.org/",
+      "status": 200,
+      "finalUrl": "https://www.derechosdigitales.org/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Codesinfo",
+      "url": "https://codesinfo.com.br/solucoes/",
+      "status": 200,
+      "finalUrl": "https://codesinfo.com.br/solucoes/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "tesseract-ocr",
+      "url": "https://tesseract-ocr.github.io/tessdoc/",
+      "status": 200,
+      "finalUrl": "https://tesseract-ocr.github.io/tessdoc/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Mapshaper",
+      "url": "https://mapshaper.org/docs/",
+      "status": 200,
+      "finalUrl": "https://mapshaper.org/docs/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "overpass-turbo",
+      "url": "https://overpass-turbo.eu/",
+      "status": 200,
+      "finalUrl": "https://overpass-turbo.eu/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "nominatim",
+      "url": "https://nominatim.org/",
+      "status": 200,
+      "finalUrl": "https://nominatim.org/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "DuckDB",
+      "url": "https://duckdb.org/docs/current/guides/overview",
+      "status": 200,
+      "finalUrl": "https://duckdb.org/docs/current/guides/overview",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "datasette",
+      "url": "https://datasette.io/",
+      "status": 200,
+      "finalUrl": "https://datasette.io/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "ANP — Dados Abertos",
+      "url": "https://www.gov.br/anp/pt-br/centrais-de-conteudo/dados-abertos/dados-abertos",
+      "status": 200,
+      "finalUrl": "https://www.gov.br/anp/pt-br/centrais-de-conteudo/dados-abertos/dados-abertos",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "MDHC — ONDH",
+      "url": "https://www.gov.br/mdh/pt-br/ondh/dados-e-estudos",
+      "status": 200,
+      "finalUrl": "https://www.gov.br/mdh/pt-br/ondh/dados-e-estudos",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Portal da Transparência / CGU",
+      "url": "https://portaldatransparencia.gov.br/download-de-dados/",
+      "status": 200,
+      "finalUrl": "https://portaldatransparencia.gov.br/download-de-dados/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "openrefine",
+      "url": "https://openrefine.org/",
+      "status": 200,
+      "finalUrl": "https://openrefine.org/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "tabula",
+      "url": "https://tabula.technology/",
+      "status": 200,
+      "finalUrl": "https://tabula.technology/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "qgis",
+      "url": "https://qgis.org/",
+      "status": 200,
+      "finalUrl": "https://qgis.org/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "esri-wayback",
+      "url": "https://livingatlas.arcgis.com/wayback/",
+      "status": 200,
+      "finalUrl": "https://livingatlas.arcgis.com/wayback/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "MapBiomas Alerta",
+      "url": "https://alerta.mapbiomas.org/metodo-mapbiomas-alerta/",
+      "status": 200,
+      "finalUrl": "https://alerta.mapbiomas.org/metodo-mapbiomas-alerta/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "SEEG / Observatório do Clima",
+      "url": "https://seeg.eco.br/metodologia/",
+      "status": 403,
+      "finalUrl": "https://seeg.eco.br/metodologia/",
+      "class": "blocked",
+      "attempts": [
+        403
+      ]
+    },
+    {
+      "type": "source",
+      "id": "GIJN",
+      "url": "https://gijn.org/",
+      "status": 403,
+      "finalUrl": "https://gijn.org/",
+      "class": "blocked",
+      "attempts": [
+        403
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Knight Center",
+      "url": "https://knightcenter.utexas.edu/",
+      "status": 200,
+      "finalUrl": "https://knightcenter.utexas.edu/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Escola de Dados / OKBR",
+      "url": "https://escoladedados.org/",
+      "status": 200,
+      "finalUrl": "https://escoladedados.org/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "ICIJ",
+      "url": "https://www.icij.org/",
+      "status": 200,
+      "finalUrl": "https://www.icij.org/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "OCCRP",
+      "url": "https://www.occrp.org/",
+      "status": 200,
+      "finalUrl": "https://www.occrp.org/en?",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Fiquem Sabendo",
+      "url": "https://fiquemsabendo.com.br/",
+      "status": 200,
+      "finalUrl": "https://fiquemsabendo.com.br/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "The Pudding",
+      "url": "https://pudding.cool/",
+      "status": 200,
+      "finalUrl": "https://pudding.cool/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Tech Policy Press",
+      "url": "https://www.techpolicy.press/",
+      "status": 200,
+      "finalUrl": "https://www.techpolicy.press/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Agência Tatu",
+      "url": "https://www.agenciatatu.com.br/",
+      "status": 200,
+      "finalUrl": "https://www.agenciatatu.com.br/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Gênero e Número",
+      "url": "https://www.generonumero.media/",
+      "status": 200,
+      "finalUrl": "https://www.generonumero.media/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Pulitzer Center",
+      "url": "https://pulitzercenter.org/grants-fellowships",
+      "status": 403,
+      "finalUrl": "https://pulitzercenter.org/grants-fellowships",
+      "class": "blocked",
+      "attempts": [
+        403
+      ]
+    },
+    {
+      "type": "source",
+      "id": "ICFJ",
+      "url": "https://www.icfj.org/our-programs",
+      "status": 200,
+      "finalUrl": "https://www.icfj.org/our-programs",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "IWMF",
+      "url": "https://www.iwmf.org/",
+      "status": 200,
+      "finalUrl": "https://www.iwmf.org/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Journalismfund Europe",
+      "url": "https://www.journalismfund.eu/",
+      "status": 200,
+      "finalUrl": "https://www.journalismfund.eu/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "IJNet",
+      "url": "https://ijnet.org/en/opportunities",
+      "status": 200,
+      "finalUrl": "https://ijnet.org/en/opportunities",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Fundación Gabo",
+      "url": "https://fundaciongabo.org/es/convocatorias",
+      "status": 200,
+      "finalUrl": "https://fundaciongabo.org/es/convocatorias",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Reuters Institute",
+      "url": "https://reutersinstitute.politics.ox.ac.uk/",
+      "status": 200,
+      "finalUrl": "https://reutersinstitute.politics.ox.ac.uk/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Wallace House",
+      "url": "https://wallacehouse.umich.edu/knight-wallace/",
+      "status": 403,
+      "finalUrl": "https://wallacehouse.umich.edu/knight-wallace/",
+      "class": "blocked",
+      "attempts": [
+        403
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Earth Journalism Network",
+      "url": "https://earthjournalism.net/",
+      "status": 403,
+      "finalUrl": "https://earthjournalism.net/",
+      "class": "blocked",
+      "attempts": [
+        403
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Covering Climate Now",
+      "url": "https://coveringclimatenow.org/",
+      "status": 200,
+      "finalUrl": "https://coveringclimatenow.org/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Climate Tracker",
+      "url": "https://climatetracker.org/",
+      "status": 200,
+      "finalUrl": "https://climatetracker.org/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Data Visualization Society",
+      "url": "https://datavisualizationsociety.org/",
+      "status": 200,
+      "finalUrl": "https://datavisualizationsociety.org/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "IRE / NICAR",
+      "url": "https://www.ire.org/",
+      "status": 200,
+      "finalUrl": "https://www.ire.org/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Rest of World",
+      "url": "https://restofworld.org/",
+      "status": 200,
+      "finalUrl": "https://restofworld.org/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "WFSJ / WCSJ",
+      "url": "https://wfsj.org/",
+      "status": 200,
+      "finalUrl": "https://wfsj.org/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Mozilla Foundation",
+      "url": "https://www.mozillafoundation.org/",
+      "status": 403,
+      "finalUrl": "https://www.mozillafoundation.org/",
+      "class": "blocked",
+      "attempts": [
+        403
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Open Knowledge Brasil",
+      "url": "https://ok.org.br/",
+      "status": 503,
+      "finalUrl": "https://ok.org.br/",
+      "class": "server",
+      "attempts": [
+        503,
+        503
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Garimpo",
+      "url": "https://garimpo.news/",
+      "status": 200,
+      "finalUrl": "https://garimpo.news/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Núcleo Jornalismo / Prensadão",
+      "url": "https://nucleo.jor.br/",
+      "status": 200,
+      "finalUrl": "https://nucleo.jor.br/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Agência Pública",
+      "url": "https://apublica.org/",
+      "status": 200,
+      "finalUrl": "https://apublica.org/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Cajueira",
+      "url": "https://redecajueira.com.br/",
+      "status": 200,
+      "finalUrl": "https://redecajueira.com.br/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Farol Jornalismo",
+      "url": "https://faroljornalismo.cc/",
+      "status": 200,
+      "finalUrl": "http://faroljornalismo.cc/blog/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Quantum of Sollazzo",
+      "url": "https://quantumofsollazzo.com/",
+      "status": 200,
+      "finalUrl": "https://quantumofsollazzo.com/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "CJR",
+      "url": "https://www.cjr.org/",
+      "status": 200,
+      "finalUrl": "https://www.cjr.org/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Poynter",
+      "url": "https://www.poynter.org/",
+      "status": 200,
+      "finalUrl": "https://www.poynter.org/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "The Open Notebook",
+      "url": "https://www.theopennotebook.com/",
+      "status": 200,
+      "finalUrl": "https://www.theopennotebook.com/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Association of Health Care Journalists",
+      "url": "https://healthjournalism.org/",
+      "status": 200,
+      "finalUrl": "https://healthjournalism.org/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Internews",
+      "url": "https://internews.org/",
+      "status": 200,
+      "finalUrl": "https://www.internews.org/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Bertha Foundation",
+      "url": "https://www.berthafoundation.org/",
+      "status": 200,
+      "finalUrl": "https://www.berthafoundation.org/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Open Data Charter",
+      "url": "https://opendatacharter.org/",
+      "status": 200,
+      "finalUrl": "https://opendatacharter.org/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "McGraw Center for Business Journalism",
+      "url": "https://www.mcgrawcenter.org/",
+      "status": 403,
+      "finalUrl": "https://www.mcgrawcenter.org/",
+      "class": "blocked",
+      "attempts": [
+        403
+      ]
+    },
+    {
+      "type": "source",
+      "id": "USC Center for Health Journalism",
+      "url": "https://centerforhealthjournalism.org/",
+      "status": 200,
+      "finalUrl": "https://centerforhealthjournalism.org/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "FAPESP Oportunidades",
+      "url": "https://fapesp.br/oportunidades/",
+      "status": 200,
+      "finalUrl": "https://fapesp.br/oportunidades/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Leibniz Institute for Regional Geography / VisLab",
+      "url": "https://leibniz-ifl.de/",
+      "status": 200,
+      "finalUrl": "https://leibniz-ifl.de/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Allard Pierson / University of Amsterdam",
+      "url": "https://www.allardpierson.nl/",
+      "status": 200,
+      "finalUrl": "https://www.allardpierson.nl/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Society of Environmental Journalists",
+      "url": "https://www.sej.org/",
+      "status": 200,
+      "finalUrl": "https://www.sej.org/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Center for Cooperative Media",
+      "url": "https://centerforcooperativemedia.org/",
+      "status": 200,
+      "finalUrl": "https://centerforcooperativemedia.org/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Stanford Big Local News",
+      "url": "https://biglocalnews.org/",
+      "status": 200,
+      "finalUrl": "https://biglocalnews.org/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Reynolds Journalism Institute",
+      "url": "https://rjionline.org/",
+      "status": 200,
+      "finalUrl": "https://rjionline.org/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Online News Association / OJA",
+      "url": "https://awards.journalists.org/",
+      "status": 200,
+      "finalUrl": "https://awards.journalists.org/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Tactical Tech / Exposing the Invisible",
+      "url": "https://www.exposingtheinvisible.org/",
+      "status": 200,
+      "finalUrl": "https://www.exposingtheinvisible.org/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Tarbell Center for AI Journalism",
+      "url": "https://www.tarbellcenter.org/",
+      "status": 200,
+      "finalUrl": "https://www.tarbellcenter.org/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "USC Annenberg Innovation Lab",
+      "url": "https://www.usccmf.org/",
+      "status": 200,
+      "finalUrl": "https://www.usccmf.org/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Princeton CITP",
+      "url": "https://citp.princeton.edu/",
+      "status": 403,
+      "finalUrl": "https://citp.princeton.edu/",
+      "class": "blocked",
+      "attempts": [
+        403
+      ]
+    },
+    {
+      "type": "source",
+      "id": "National Press Club Journalism Institute",
+      "url": "https://www.pressclubinstitute.org/",
+      "status": 200,
+      "finalUrl": "https://www.pressclubinstitute.org/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "GIJN Jobs Board",
+      "url": "https://gijn.org/jobs",
+      "status": 403,
+      "finalUrl": "https://gijn.org/jobs",
+      "class": "blocked",
+      "attempts": [
+        403
+      ]
+    },
+    {
+      "type": "source",
+      "id": "GIJN Saved Links",
+      "url": "https://gijn.org/rounduplink/",
+      "status": 403,
+      "finalUrl": "https://gijn.org/rounduplink/",
+      "class": "blocked",
+      "attempts": [
+        403
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Media Party",
+      "url": "https://mediaparty.org/",
+      "status": 200,
+      "finalUrl": "https://mediaparty.org/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "OpenNews / Source",
+      "url": "https://source.opennews.org/",
+      "status": 200,
+      "finalUrl": "https://source.opennews.org/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Dart Center for Journalism and Trauma",
+      "url": "https://dartcenter.org/",
+      "status": 403,
+      "finalUrl": "https://dartcenter.org/",
+      "class": "blocked",
+      "attempts": [
+        403
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Carter Center Mental Health Journalism",
+      "url": "https://www.cartercenter.org/",
+      "status": 200,
+      "finalUrl": "https://www.cartercenter.org/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Our World in Data — Jobs",
+      "url": "https://ourworldindata.org/jobs",
+      "status": 200,
+      "finalUrl": "https://ourworldindata.org/jobs",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "CTRL+J Alliance",
+      "url": "https://www.ctrl-j.info/",
+      "status": 200,
+      "finalUrl": "https://www.ctrl-j.info/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Repórteres sem Fronteiras — Fellowships e oportunidades",
+      "url": "https://resources.rsf.org/fellowship-opportunities/",
+      "status": 403,
+      "finalUrl": "https://resources.rsf.org/fellowship-opportunities/",
+      "class": "blocked",
+      "attempts": [
+        403
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Rádio Novelo",
+      "url": "https://radionovelo.com.br/",
+      "status": 200,
+      "finalUrl": "https://radionovelo.com.br/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Indicator",
+      "url": "https://indicator.media/",
+      "status": 200,
+      "finalUrl": "https://indicator.media/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Google Journalist Studio",
+      "url": "https://journaliststudio.google.com/",
+      "status": 200,
+      "finalUrl": "https://journaliststudio.google.com/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "indicator-guides",
+      "url": "https://indicator.media/guides",
+      "status": 200,
+      "finalUrl": "https://indicator.media/guides",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "flowsint-osint-graph",
+      "url": "https://www.flowsint.io/",
+      "status": 200,
+      "finalUrl": "https://www.flowsint.io/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "bellingcat-auto-archiver",
+      "url": "https://github.com/bellingcat/auto-archiver",
+      "status": 200,
+      "finalUrl": "https://github.com/bellingcat/auto-archiver",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "bellingcat-turnstone",
+      "url": "https://www.bellingcat.com/resources/2026/03/05/turnstone-flight-tracking-tool/",
+      "status": 200,
+      "finalUrl": "https://www.bellingcat.com/resources/2026/03/05/turnstone-flight-tracking-tool/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "abraji-cruzagrafos",
+      "url": "https://www.abraji.org.br/projetos/cruzagrafos",
+      "status": 200,
+      "finalUrl": "https://www.abraji.org.br/projetos/cruzagrafos",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "who-heat-health-equity-assessment-toolkit",
+      "url": "https://www.who.int/data/inequality-monitor/assessment_toolkit",
+      "status": 200,
+      "finalUrl": "https://www.who.int/data/inequality-monitor/assessment_toolkit",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "gijn-investigative-impact",
+      "url": "https://impact.gijn.org/",
+      "status": 200,
+      "finalUrl": "https://impact.gijn.org/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "gijn-international-research-guide",
+      "url": "https://gijn.org/resource/henk-van-ess-international-research-guide-online",
+      "status": 403,
+      "finalUrl": "https://gijn.org/resource/henk-van-ess-international-research-guide-online",
+      "class": "blocked",
+      "attempts": [
+        403
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "terrabrasilis-sala-situacao-municipal",
+      "url": "https://terrabrasilis.dpi.inpe.br/ams/",
+      "status": 200,
+      "finalUrl": "https://terrabrasilis.dpi.inpe.br/ams/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "escola-dados-ebook-analise-educacional",
+      "url": "https://escoladedados.org/wp-content/uploads/2022/01/Ebook-DadosEducacionais.pdf",
+      "status": 200,
+      "finalUrl": "https://escoladedados.org/wp-content/uploads/2022/01/Ebook-DadosEducacionais.pdf",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "yt-dlp",
+      "url": "https://github.com/yt-dlp/yt-dlp",
+      "status": 200,
+      "finalUrl": "https://github.com/yt-dlp/yt-dlp",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "gijn-icij-crypto-investigation-guide",
+      "url": "https://gijn.org/resource/reporters-guide-to-investigating-cryptocurrency/",
+      "status": 403,
+      "finalUrl": "https://gijn.org/resource/reporters-guide-to-investigating-cryptocurrency/",
+      "class": "blocked",
+      "attempts": [
+        403
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "caixa-ferramentas-jornalismo-dados",
+      "url": "https://kit.jornalismodedados.org.br/",
+      "status": 403,
+      "finalUrl": "https://kit.jornalismodedados.org.br/",
+      "class": "blocked",
+      "attempts": [
+        403
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "traceon-re",
+      "url": "https://traceon.re/",
+      "status": 403,
+      "finalUrl": "https://traceon.re/",
+      "class": "blocked",
+      "attempts": [
+        403
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "opencheck-world",
+      "url": "https://opencheck.world/",
+      "status": 200,
+      "finalUrl": "https://opencheck.world/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "genero-numero-do-dado-a-decisao",
+      "url": "https://www.generonumero.media/artigos/cartilha-violencia-de-genero/",
+      "status": 200,
+      "finalUrl": "https://www.generonumero.media/artigos/cartilha-violencia-de-genero/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "solutions-journalism-basic-toolkit",
+      "url": "https://www.solutionsjournalism.org/learning-lab/toolkits-guides/kit-de-ferramentas-basicas",
+      "status": 200,
+      "finalUrl": "https://www.solutionsjournalism.org/learning-lab/toolkits-guides/kit-de-ferramentas-basicas",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "desagrega-biomas-br",
+      "url": "https://plugins.qgis.org/plugins/DesagregaBiomasBR/",
+      "status": 200,
+      "finalUrl": "https://plugins.qgis.org/plugins/DesagregaBiomasBR/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "meaningfully-semantic-search",
+      "url": "https://github.com/jeremybmerrill/meaningfully",
+      "status": 200,
+      "finalUrl": "https://github.com/jeremybmerrill/meaningfully",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "wikimedia-xtools",
+      "url": "https://xtools.wmcloud.org/",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
+      "attempts": [
+        "TypeError:fetch failed",
+        "TypeError:fetch failed"
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "infoamazonia-jeo-maps",
+      "url": "https://wordpress.org/plugins/jeowp/",
+      "status": 200,
+      "finalUrl": "https://wordpress.org/plugins/jeowp/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "llamaindex-liteparse",
+      "url": "https://github.com/run-llama/liteparse",
+      "status": 200,
+      "finalUrl": "https://github.com/run-llama/liteparse",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "propublica-looper-skills",
+      "url": "https://github.com/propublica/looper-skills",
+      "status": 200,
+      "finalUrl": "https://github.com/propublica/looper-skills",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "occrp-id",
+      "url": "https://id.occrp.org/als.php",
+      "status": 200,
+      "finalUrl": "https://id.occrp.org/als.php",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "opensanctions-api",
+      "url": "https://api.opensanctions.org/docs",
+      "status": 200,
+      "finalUrl": "https://api.opensanctions.org/docs",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "monitor-diario",
+      "url": "https://codesinfo.com.br/solucoes/monitor-diario/",
+      "status": 200,
+      "finalUrl": "https://codesinfo.com.br/solucoes/monitor-diario/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "jor-mcp",
+      "url": "https://codesinfo.com.br/solucoes/jor-mcp/",
+      "status": 200,
+      "finalUrl": "https://codesinfo.com.br/solucoes/jor-mcp/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "jeo-infoamazonia",
+      "url": "https://codesinfo.com.br/solucoes/jeo/",
+      "status": 200,
+      "finalUrl": "https://codesinfo.com.br/solucoes/jeo/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "mamute-politico",
+      "url": "https://codesinfo.com.br/solucoes/mamute-politico/",
+      "status": 200,
+      "finalUrl": "https://codesinfo.com.br/solucoes/mamute-politico/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "world-bank-data360-api",
+      "url": "https://data360.worldbank.org/en/api",
+      "status": 200,
+      "finalUrl": "https://data360.worldbank.org/en/api",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "mapshaper",
+      "url": "https://mapshaper.org/",
+      "status": 200,
+      "finalUrl": "https://mapshaper.org/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "indicator-lab",
+      "url": "https://indicator.media/indicator-lab",
+      "status": 200,
+      "finalUrl": "https://indicator.media/indicator-lab",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "osint-navigator",
+      "url": "https://navigator.indicator.media/",
+      "status": 200,
+      "finalUrl": "https://navigator.indicator.media/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "duckdb",
+      "url": "https://duckdb.org/",
+      "status": 200,
+      "finalUrl": "https://duckdb.org/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "arbiter",
+      "url": "https://arbiter.simppl.org/",
+      "status": 200,
+      "finalUrl": "https://arbiter.simppl.org/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "detector-bbt",
+      "url": "https://bancadadasbigtechs.org/",
+      "status": 200,
+      "finalUrl": "https://bancadadasbigtechs.org/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "datawrapper",
+      "url": "https://www.datawrapper.de/",
+      "status": 200,
+      "finalUrl": "https://www.datawrapper.de/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "react-simple-maps",
+      "url": "https://www.react-simple-maps.io/",
+      "status": 200,
+      "finalUrl": "https://www.react-simple-maps.io/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "geowhisperer",
+      "url": "https://www.geowhisperer.org/",
+      "status": 200,
+      "finalUrl": "https://www.geowhisperer.org/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "digga",
+      "url": "https://digga.dev/",
+      "status": 200,
+      "finalUrl": "https://digga.dev/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "decryptads",
+      "url": "https://decryptads.com/",
+      "status": 200,
+      "finalUrl": "https://decryptads.com/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "agenda-transparente",
+      "url": "https://agendas.fiquemsabendo.com.br/",
+      "status": 200,
+      "finalUrl": "https://agendas.fiquemsabendo.com.br/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "google-pinpoint",
+      "url": "https://journaliststudio.google.com/pinpoint/about/pt-BR_br/",
+      "status": 200,
+      "finalUrl": "https://journaliststudio.google.com/pinpoint/about/pt-BR_br/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "occrp-aleph-pro",
+      "url": "https://aleph.occrp.org/",
+      "status": 200,
+      "finalUrl": "https://aleph.occrp.org/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    }
+  ]
+}
