@@ -1,13 +1,23 @@
 {
-  "checkedAt": "2026-10-21T05:03:06.380Z",
+  "checkedAt": "2026-10-21T17:18:34.836Z",
   "policy": "404/410 becomes broken only after appearing as suspect or broken in the previous audit; blocked and network results are inconclusive",
   "counts": {
-    "ok": 344,
-    "blocked": 36,
-    "server": 2,
-    "network": 37
+    "ok": 350,
+    "blocked": 39,
+    "network": 34
   },
   "results": [
+    {
+      "type": "opportunity",
+      "id": "new-america-better-life-lab-care-reporting-2026-27",
+      "url": "https://www.newamerica.org/insights/care-journalists-apply-reporting-grants/",
+      "status": 200,
+      "finalUrl": "https://www.newamerica.org/insights/care-journalists-apply-reporting-grants/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
     {
       "type": "opportunity",
       "id": "dvs-board-2027-2028",
@@ -573,11 +583,11 @@
       "type": "opportunity",
       "id": "pulitzer-ai-2627",
       "url": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/ai-accountability-fellowships",
-      "status": 200,
+      "status": 403,
       "finalUrl": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/ai-accountability-fellowships",
-      "class": "ok",
+      "class": "blocked",
       "attempts": [
-        200
+        403
       ]
     },
     {
@@ -639,12 +649,11 @@
       "type": "opportunity",
       "id": "coda26",
       "url": "https://ok.org.br/noticia/chamada-aberta-inscreva-sua-atividade-para-o-coda-br-2026/",
-      "status": 503,
+      "status": 200,
       "finalUrl": "https://ok.org.br/noticia/chamada-aberta-inscreva-sua-atividade-para-o-coda-br-2026/",
-      "class": "server",
+      "class": "ok",
       "attempts": [
-        503,
-        503
+        200
       ]
     },
     {
@@ -772,11 +781,13 @@
       "type": "opportunity",
       "id": "ifl-cartography",
       "url": "https://leibniz-ifl.de/en/career-1/open-positions/open-positions-details/journalist-in-residence-stipendium",
-      "status": 200,
-      "finalUrl": "https://leibniz-ifl.de/en/career-1/open-positions/open-positions-details/journalist-in-residence-stipendium",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "AbortError:This operation was aborted",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -959,22 +970,22 @@
       "type": "opportunity",
       "id": "pulitzer-gender",
       "url": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/gender-equality-grant",
-      "status": 200,
+      "status": 403,
       "finalUrl": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/gender-equality-grant",
-      "class": "ok",
+      "class": "blocked",
       "attempts": [
-        200
+        403
       ]
     },
     {
       "type": "opportunity",
       "id": "pulitzer-global",
       "url": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/global-reporting-grants",
-      "status": 200,
+      "status": 403,
       "finalUrl": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/global-reporting-grants",
-      "class": "ok",
+      "class": "blocked",
       "attempts": [
-        200
+        403
       ]
     },
     {
@@ -1049,6 +1060,17 @@
       "url": "https://www.firenewsroom.org/about-us/fire-frequently-asked-questions",
       "status": 200,
       "finalUrl": "https://www.firenewsroom.org/about-us/fire-frequently-asked-questions",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "fiquem-sabendo-contas-irregulares-candidatos-2026",
+      "url": "https://docs.google.com/spreadsheets/d/1UY3iAuXoO4DLABdNTPOq08o2A1Z3uXFj/edit",
+      "status": 200,
+      "finalUrl": "https://docs.google.com/spreadsheets/d/1UY3iAuXoO4DLABdNTPOq08o2A1Z3uXFj/edit",
       "class": "ok",
       "attempts": [
         200
@@ -1627,7 +1649,6 @@
       "finalUrl": "https://map.geo.sei.ba.gov.br/arcgis/rest/services/servicos_sei/LOCALIDADE_BAHIA/MapServer",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -1639,7 +1660,6 @@
       "finalUrl": "https://map.geo.sei.ba.gov.br/arcgis/rest/services/servicos_sei/DPA_A_100K_VIGENTE_GCS_SIR_SEI/FeatureServer/0",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -1652,7 +1672,7 @@
       "class": "network",
       "error": "TypeError:fetch failed",
       "attempts": [
-        "AbortError:This operation was aborted",
+        "TypeError:fetch failed",
         "TypeError:fetch failed"
       ]
     },
@@ -1660,91 +1680,77 @@
       "type": "dataset",
       "id": "bahia-transparencia",
       "url": "https://www.transparencia.ba.gov.br/Portal",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://www.transparencia.ba.gov.br/Portal",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
       "type": "dataset",
       "id": "sspba-estatisticas",
       "url": "https://www.ba.gov.br/ssp/publicacoes",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://www.ba.gov.br/ssp/publicacoes",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
       "type": "dataset",
       "id": "sspba-dados-abertos",
       "url": "https://www.ba.gov.br/ssp/dados-abertos",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://www.ba.gov.br/ssp/dados-abertos",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
       "type": "dataset",
       "id": "aneel",
       "url": "https://dadosabertos.aneel.gov.br/",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://dadosabertos.aneel.gov.br/",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
       "type": "dataset",
       "id": "ons",
       "url": "https://dados.ons.org.br/",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://dados.ons.org.br/",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
       "type": "dataset",
       "id": "ons-constrained-off-fotovoltaica",
       "url": "https://dados.ons.org.br/dataset/restricao_coff_fotovoltaica",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://dados.ons.org.br/dataset/restricao_coff_fotovoltaica",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
       "type": "dataset",
       "id": "ons-coff-solar-detail",
       "url": "https://dados.ons.org.br/dataset/restricao_coff_fotovoltaica_detail",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://dados.ons.org.br/dataset/restricao_coff_fotovoltaica_detail",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -1832,6 +1838,7 @@
       "finalUrl": "https://dadosabertos.aneel.gov.br/dataset/ocorrencias-emergenciais-nas-redes-de-distribuicao",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -1937,7 +1944,6 @@
       "finalUrl": "https://www.ba.gov.br/saude/suvisa/vigilancia-epidemiologica",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -1949,6 +1955,7 @@
       "finalUrl": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados",
       "class": "ok",
       "attempts": [
+        "TypeError:fetch failed",
         200
       ]
     },
@@ -2582,11 +2589,13 @@
       "type": "dataset",
       "id": "esporte-lie-painel",
       "url": "https://paineis.mds.gov.br/public/extensions/lei-de-incentivo-v2/lei-de-incentivo-v2.html",
-      "status": 200,
-      "finalUrl": "https://paineis.mds.gov.br/public/extensions/lei-de-incentivo-v2/lei-de-incentivo-v2.html",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "TypeError:fetch failed",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -2707,6 +2716,17 @@
     },
     {
       "type": "source",
+      "id": "Fiquem Sabendo — Don’t LAI to Me",
+      "url": "https://news.fiquemsabendo.com.br/",
+      "status": 200,
+      "finalUrl": "https://news.fiquemsabendo.com.br/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
       "id": "Abraji",
       "url": "https://abraji.org.br/",
       "status": 200,
@@ -2815,7 +2835,7 @@
       "class": "network",
       "error": "TypeError:fetch failed",
       "attempts": [
-        "AbortError:This operation was aborted",
+        "TypeError:fetch failed",
         "TypeError:fetch failed"
       ]
     },
@@ -3762,12 +3782,11 @@
       "type": "source",
       "id": "Open Knowledge Brasil",
       "url": "https://ok.org.br/",
-      "status": 503,
+      "status": 200,
       "finalUrl": "https://ok.org.br/",
-      "class": "server",
+      "class": "ok",
       "attempts": [
-        503,
-        503
+        200
       ]
     },
     {
@@ -3950,11 +3969,13 @@
       "type": "source",
       "id": "Leibniz Institute for Regional Geography / VisLab",
       "url": "https://leibniz-ifl.de/",
-      "status": 200,
-      "finalUrl": "https://leibniz-ifl.de/",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "AbortError:This operation was aborted",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -4212,6 +4233,17 @@
     },
     {
       "type": "tool",
+      "id": "knight-lab-timelinejs",
+      "url": "https://timeline.knightlab.com/",
+      "status": 200,
+      "finalUrl": "https://timeline.knightlab.com/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
       "id": "indicator-guides",
       "url": "https://indicator.media/guides",
       "status": 200,
@@ -4379,11 +4411,13 @@
       "type": "tool",
       "id": "genero-numero-do-dado-a-decisao",
       "url": "https://www.generonumero.media/artigos/cartilha-violencia-de-genero/",
-      "status": 200,
-      "finalUrl": "https://www.generonumero.media/artigos/cartilha-violencia-de-genero/",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "TypeError:fetch failed",
+        "TypeError:fetch failed"
       ]
     },
     {
