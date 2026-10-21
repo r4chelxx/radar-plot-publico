@@ -31,6 +31,7 @@ jobs:
         run: |
           set -euo pipefail
           echo "Checking published Radar 1.0 at $RADAR_URL"
+          echo "Expected revision: $GITHUB_SHA"
           # Retry while GitHub Pages catches up with the main branch.
           for attempt in 1 2 3 4 5; do
             if curl --fail --location --silent --show-error --max-time 25 "$RADAR_URL/index.html?monitor=$GITHUB_RUN_ID" -o /tmp/radar-live-index.html \
