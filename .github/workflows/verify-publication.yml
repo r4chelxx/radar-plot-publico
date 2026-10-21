@@ -1,0 +1,63 @@
+name: Verify public Radar publication
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'index.html'
+      - 'data/**'
+      - '.github/workflows/verify-publication.yml'
+  schedule:
+    - cron: '15 13 * * *'
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: verify-public-radar
+  cancel-in-progress: false
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - name: Verify GitHub Pages and public editorial catalog
+        env:
+          RADAR_URL: https://r4chelxx.github.io/radar-plot-publico
+        run: |
+          set -euo pipefail
+          expected_date=$(TZ=America/Bahia date +%F)
+          echo "Checking published Radar 1.0 at $RADAR_URL"
+          # Retry while GitHub Pages catches up with the main branch.
+          for attempt in 1 2 3 4 5; do
+            if curl --fail --location --silent --show-error --max-time 25 "$RADAR_URL/index.html?monitor=$GITHUB_RUN_ID" -o index.html \
+              && curl --fail --location --silent --show-error --max-time 25 "$RADAR_URL/data/changelog.js?monitor=$GITHUB_RUN_ID" -o changelog.js \
+              && grep -q 'RADAR_PARTS.changelog' changelog.js; then
+              if [ "$GITHUB_EVENT_NAME" != "push" ] || grep -q '2026-10-21' changelog.js; then
+                echo "Pages reachable and public editorial changelog verified"
+                echo "### Radar 1.0: public site reachable; editorial changelog served" >> "$GITHUB_STEP_SUMMARY"
+                exit 0
+              fi
+            fi
+            echo "Attempt $attempt/5 not confirmed; retrying"
+            sleep 45
+          done
+          echo "::error::Public Pages verification failed. Check Pages deployment, cache and public assets."
+          exit 1
+      - name: Open publication incident on failure
+        if: failure() && github.ref == 'refs/heads/main'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          day=$(TZ=America/Bahia date +%F)
+          title="Radar 1.0: publicação não confirmada $day"
+          report="Falha na verificação do site público. Execução: https://github.com/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}. Confirmar Pages, cache e conteúdo servido. Não confundir com descoberta de pistas ou revisão editorial."
+          issue=$(gh issue list --state open --search "$title in:title" --json number,title --jq ".[] | select(.title == \"$title\") | .number" | head -n 1)
+          if [ -n "$issue" ]; then
+            gh issue comment "$issue" --body "$report"
+          else
+            gh issue create --title "$title" --body "$report"
+          fi
