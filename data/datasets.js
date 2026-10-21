@@ -1,6 +1,36 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.datasets=[
   {
+    "id": "fiquem-sabendo-contas-irregulares-candidatos-2026",
+    "name": "Fiquem Sabendo — Gestores com contas irregulares e candidatos nas Eleições 2026",
+    "org": "Fiquem Sabendo, com dados originais de Tribunais de Contas e TSE",
+    "territoryTier": "Brasil",
+    "kind": "dataset",
+    "themes": [
+      "Eleições",
+      "Transparência",
+      "Contas públicas",
+      "Candidaturas",
+      "Controle",
+      "Política"
+    ],
+    "coverage": "Relação consolidada de mais de 38 mil agentes públicos com contas julgadas irregulares ou rejeitadas e aba específica que cruza as listas de 23 Tribunais de Contas com candidaturas das Eleições 2026",
+    "frequency": "Atualização editorial; planilha consolidada e situação das candidaturas atualizadas em 15/09/2026",
+    "format": "Planilha Google originada de arquivo XLSX, com abas vigente, histórico, fontes e candidatos_2026",
+    "period": "Safras e períodos variáveis conforme cada Tribunal de Contas; fotografia consolidada em 15/09/2026 e candidaturas de 2026",
+    "granularity": "Agente ou gestor, decisão/lista do Tribunal de Contas e, na aba eleitoral, candidatura pareada por CPF ou nome com dígitos compatíveis do CPF mascarado",
+    "geoUnit": "Brasil, unidade da federação, jurisdição e órgão ou entidade quando informado pela fonte",
+    "api": "Sem API pública documentada; consulta e download pela planilha",
+    "docs": "https://news.fiquemsabendo.com.br/p/candidatos-com-contas-irregulares",
+    "limitations": "A presença na lista não determina inelegibilidade nem comprova crime. Decisões podem ser suspensas ou reformadas; a situação eleitoral muda com recursos. Tribunais usam períodos, conceitos e formatos distintos, e as listas não são diretamente comparáveis. O cruzamento exclui fontes sem identificação suficiente e preserva alertas de qualidade e proveniência na aba de fontes.",
+    "lastChecked": "2026-10-21",
+    "url": "https://docs.google.com/spreadsheets/d/1UY3iAuXoO4DLABdNTPOq08o2A1Z3uXFj/edit",
+    "discoveredVia": [
+      "Fiquem Sabendo — Don’t LAI to Me"
+    ],
+    "discoveryUrl": "https://news.fiquemsabendo.com.br/p/candidatos-com-contas-irregulares"
+  },
+  {
     "id": "genero-numero-dados-abertos",
     "name": "Gênero e Número — Dados abertos de reportagens",
     "org": "Gênero e Número",
