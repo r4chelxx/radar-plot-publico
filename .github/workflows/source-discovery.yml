@@ -35,7 +35,6 @@ on:
       - 'scripts/build-editorial-review.js'
       - 'scripts/inspect-lead-pages.js'
       - 'tests/lead-privacy.test.js'
-      - 'tests/normalize-lead-link.test.js'
       - 'tests/source-catalog.test.js'
       - 'tests/inspection-order.test.js'
       - 'scripts/update-lead-history.js'
@@ -137,6 +136,7 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
+          set -euo pipefail
           gh api "repos/${GITHUB_REPOSITORY}/contents/state/lead-history.json?ref=radar-state" --jq .content | base64 --decode > intake/lead-history-confirmed.json
           cmp intake/lead-history-next.json intake/lead-history-confirmed.json
           node -e "const fs=require('fs');const s=JSON.parse(fs.readFileSync('intake/lead-history-confirmed.json'));if(s.schemaVersion!==1||!s.updatedAt||!s.leads||Array.isArray(s.leads))process.exit(1);console.log('Confirmed persisted leads:',Object.keys(s.leads).length)"
