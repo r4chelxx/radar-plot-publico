@@ -1,18 +1,6 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.sources=[
   {
-    "name": "GIJN Academy — cursos e oficinas de investigação",
-    "url": "https://gijn.org/academy/",
-    "type": "Agenda oficial de formação em jornalismo investigativo",
-    "scope": "Internacional / online",
-    "role": "monitorar oficinas gratuitas, cursos pagos, inscrições e mudanças de agenda diretamente na GIJN",
-    "priority": "Alta",
-    "cadence": "semanal",
-    "category": "formação/jornalismo",
-    "lastChecked": "2026-10-21",
-    "checkStatus": "verificada"
-  },
-  {
     "name": "Fiquem Sabendo — Don’t LAI to Me",
     "url": "https://news.fiquemsabendo.com.br/",
     "type": "Newsletter e agência de dados públicos obtidos por LAI",
