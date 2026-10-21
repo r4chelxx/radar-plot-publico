@@ -1,6 +1,13 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.tools=[
   {
+    "id": "knight-lab-timelinejs",
+    "name": "Knight Lab — TimelineJS",
+    "kind": "linha do tempo interativa e narrativa visual",
+    "url": "https://timeline.knightlab.com/",
+    "desc": "Ferramenta gratuita e de código aberto do Knight Lab para criar linhas do tempo multimídia incorporáveis. A versão clássica pode ser alimentada por um modelo de Google Sheets e aceita texto, imagens, áudio, vídeo e mapas; pessoas com experiência técnica também podem usar JSON e personalizar a biblioteca. Em 2026 o laboratório apresentou uma versão reimaginada, ainda descrita como nova geração. Para publicar pela planilha, os dados precisam ficar públicos na web: não use informações pessoais ou apurações sigilosas, restrinja a permissão de edição e teste o embed em celular e desktop antes de publicar."
+  },
+  {
     "id": "indicator-guides",
     "name": "Indicator Guides",
     "kind": "acervo de guias práticos de OSINT e investigação digital",

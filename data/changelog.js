@@ -1,6 +1,70 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
   {
+    "date": "2026-10-21",
+    "type": "prazo",
+    "title": "Prazo da Ochberg Fellowship 2027 encerrado",
+    "items": [
+      {
+        "id": "ochberg-2027",
+        "title": "Ochberg Fellowship 2027"
+      }
+    ],
+    "detail": "O prazo oficial terminou em 20/10/2026; o registro foi movido de aberto para encerrado."
+  },
+  {
+    "date": "2026-10-21",
+    "type": "nova-oportunidade",
+    "title": "Better Life Lab abre bolsas contínuas para reportagens sobre cuidado",
+    "items": [
+      {
+        "id": "new-america-better-life-lab-care-reporting-2026-27",
+        "title": "Better Life Lab — Bolsas de reportagem sobre cuidado 2026–2027"
+      }
+    ],
+    "detail": "Chamada da New America recebe propostas em fluxo contínuo para reportagens orientadas a soluções sobre cuidado. Valor típico, foco temático, prazo de produção, pagamento após publicação e ausência de confirmação explícita de elegibilidade brasileira foram registrados."
+  },
+  {
+    "date": "2026-10-21",
+    "type": "dados",
+    "title": "Fiquem Sabendo cruza contas irregulares com candidaturas de 2026",
+    "items": [
+      {
+        "id": "fiquem-sabendo-contas-irregulares-candidatos-2026",
+        "title": "Fiquem Sabendo — Gestores com contas irregulares e candidatos nas Eleições 2026"
+      }
+    ],
+    "detail": "Planilha consolidada reúne listas de Tribunais de Contas, histórico, fontes e aba eleitoral pareada com dados do TSE. O Radar explicita que inclusão não significa inelegibilidade, que decisões podem mudar e que as listas estaduais não são diretamente comparáveis."
+  },
+  {
+    "date": "2026-10-21",
+    "type": "ferramentas",
+    "title": "TimelineJS amplia recursos para narrativas cronológicas",
+    "items": [
+      {
+        "id": "knight-lab-timelinejs",
+        "title": "Knight Lab — TimelineJS"
+      }
+    ],
+    "detail": "Ferramenta aberta permite criar e incorporar linhas do tempo multimídia com planilha ou JSON. O registro alerta sobre publicação dos dados da planilha, permissões de edição, testes responsivos e a transição para a versão reimaginada apresentada em 2026."
+  },
+  {
+    "date": "2026-10-21",
+    "type": "fontes",
+    "title": "Transparência pública e jornalismo de soluções entram no monitoramento",
+    "items": [
+      {
+        "id": "fiquem-sabendo-dont-lai-to-me-source",
+        "title": "Fiquem Sabendo — Don’t LAI to Me"
+      },
+      {
+        "id": "solutions-journalism-above-the-fold-source",
+        "title": "Solutions Journalism Network — Above the Fold"
+      }
+    ],
+    "detail": "Duas fontes recorrentes de alta utilidade passam a ser acompanhadas: bases brasileiras obtidas por LAI e oportunidades e recursos internacionais de jornalismo de soluções. Achados continuam sujeitos à confirmação na fonte oficial."
+  },
+  {
     "date": "2026-10-20",
     "type": "fontes",
     "title": "Reporters Respond corrige endereço oficial de apoio emergencial",

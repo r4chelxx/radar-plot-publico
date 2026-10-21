@@ -1,6 +1,18 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.sources=[
   {
+    "name": "Fiquem Sabendo — Don’t LAI to Me",
+    "url": "https://news.fiquemsabendo.com.br/",
+    "type": "Newsletter e agência de dados públicos obtidos por LAI",
+    "scope": "Brasil",
+    "role": "curadoria e descoberta de bases de transparência pública; confirmar metodologia e arquivos específicos",
+    "priority": "Alta",
+    "cadence": "quinzenal",
+    "category": "dados/transparência",
+    "lastChecked": "2026-10-21",
+    "checkStatus": "verificada"
+  },
+  {
     "name": "Atlantic Fellows for Social and Economic Equity — LSE",
     "url": "https://afsee.atlanticfellows.lse.ac.uk/en-gb/apply",
     "type": "Fellowship de liderança e formação",
