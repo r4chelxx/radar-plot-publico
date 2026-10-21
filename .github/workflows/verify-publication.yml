@@ -38,8 +38,7 @@ jobs:
               && grep -q 'RADAR_PARTS.changelog' /tmp/radar-live-changelog.js; then
               if ! cmp -s index.html /tmp/radar-live-index.html; then
                 echo "Public index.html differs from main"
-                continue
-              fi
+              else
               all_match=true
               for file in data/*.js; do
                 if ! curl --fail --location --silent --show-error --max-time 25 "$RADAR_URL/$file?monitor=$GITHUB_RUN_ID" -o "/tmp/radar-live-$(basename "$file")" \
@@ -54,9 +53,10 @@ jobs:
                 echo "### Radar 1.0: index and all data assets match the checked-out main branch" >> "$GITHUB_STEP_SUMMARY"
                 exit 0
               fi
+              fi
             fi
             echo "Attempt $attempt/5 not confirmed; retrying"
-            sleep 45
+            if [ "$attempt" -lt 5 ]; then sleep 45; fi
           done
           echo "::error::Public Pages verification failed. Check Pages deployment, cache and public assets."
           exit 1
