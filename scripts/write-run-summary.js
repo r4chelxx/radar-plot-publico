@@ -3,7 +3,7 @@ const fs=require('node:fs');
 const read=name=>JSON.parse(fs.readFileSync('intake/'+name,'utf8'));
 const intake=read('source-review.json'),triage=read('candidate-triage.json'),review=read('editorial-review.json'),history=read('lead-history-delta.json');
 const coverage=intake.coverage||{},s=history.summary||{};
-const persistent=['schedule','workflow_dispatch'].includes(process.env.GITHUB_EVENT_NAME);
+const persistent=['schedule','workflow_dispatch','push'].includes(process.env.GITHUB_EVENT_NAME) && process.env.GITHUB_REF==='refs/heads/main';
 const rows=[
  '# Radar PLOT — relatório de descoberta',
  '',
