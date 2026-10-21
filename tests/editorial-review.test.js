@@ -42,3 +42,18 @@ test('canonical URLs are deduplicated and malformed URLs excluded',()=>{
   assert.equal(out.counts.opportunities,1);
  }finally{fs.rmSync(dir,{recursive:true,force:true})}
 });
+
+test('canonical evidence is associated even when tracking parameters differ',()=>{
+ const dir=fs.mkdtempSync(path.join(os.tmpdir(),'radar-review-evidence-'));
+ try{
+  fs.mkdirSync(path.join(dir,'intake'));
+  const url='https://example.org/call?utm_source=newsletter';
+  fs.writeFileSync(path.join(dir,'intake/candidate-triage.json'),JSON.stringify({leads:[{classification:'needs-editorial-review',category:'opportunities',url,title:'Call',source:'Test'}]}));
+  fs.writeFileSync(path.join(dir,'intake/lead-evidence.json'),JSON.stringify({results:[{url:'https://example.org/call',pageStatus:'accessible',pageTitle:'Official call',dateMentionsUnclassified:['2026']}]}));
+  cp.execFileSync(process.execPath,[script],{cwd:dir});
+  const out=JSON.parse(fs.readFileSync(path.join(dir,'intake/editorial-review.json')));
+  assert.equal(out.candidates[0].pageStatus,'accessible');
+  assert.equal(out.candidates[0].pageTitle,'Official call');
+  assert.equal(out.candidates[0].publicationReady,false);
+ }finally{fs.rmSync(dir,{recursive:true,force:true})}
+});
