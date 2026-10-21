@@ -1,6 +1,50 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.opportunities=[
   {
+    "id": "new-america-better-life-lab-care-reporting-2026-27",
+    "title": "Better Life Lab — Bolsas de reportagem sobre cuidado 2026–2027",
+    "org": "New America — Better Life Lab",
+    "summary": "Bolsas para reportagens multimídia orientadas a soluções sobre a crise do cuidado nos Estados Unidos, incluindo infância, deficiência, envelhecimento, fim da vida, igualdade de gênero e infraestrutura pública de cuidado.",
+    "type": "Bolsa de reportagem",
+    "themes": [
+      "Jornalismo de soluções",
+      "Cuidado",
+      "Gênero",
+      "Políticas públicas",
+      "Saúde",
+      "Trabalho"
+    ],
+    "scope": "Foco editorial nos Estados Unidos; a página oficial não informa restrição de nacionalidade",
+    "deadline": null,
+    "deadlineStatus": "fluxo contínuo; comissões começam em outubro de 2026 e não há data final informada",
+    "eligibility": "parcial",
+    "fit": 8,
+    "status": "aberta",
+    "value": "Cerca de US$ 1.000 para matéria tradicional impressa ou digital; valores adicionais podem ser negociados para formatos multimídia, gráficos ou não tradicionais",
+    "duration": "Até seis meses para publicar, com atualizações no segundo e no quarto mês",
+    "modality": "Produção independente; apoio editorial, conexões com veículos, assistência de pitching e participação opcional em coorte",
+    "documents": [
+      "Formulário de candidatura",
+      "Proposta de pauta orientada a soluções",
+      "Plano de formato e publicação"
+    ],
+    "restrictions": [
+      "A pauta deve abordar soluções para cuidado infantil ou investimentos em cuidado ao longo da vida",
+      "O foco descrito pela chamada é a crise e a infraestrutura de cuidado dos Estados Unidos",
+      "Pagamento ocorre após a publicação",
+      "Elegibilidade de residentes no Brasil não é explicitada; confirmar com a organização antes de investir na candidatura"
+    ],
+    "rules": "https://www.newamerica.org/insights/care-journalists-apply-reporting-grants/",
+    "apply": "https://airtable.com/appeAzA6SPRWk4LdE/paghyAWcVp0j1pEpl/form",
+    "discoveredVia": [
+      "Solutions Journalism Network — Above the Fold"
+    ],
+    "discoveryUrl": "https://us1.campaign-archive.com/?u=08368885cad8bf75d17e3863a&id=f8f829283f",
+    "opens": "2026-09-02",
+    "verified": "2026-10-21",
+    "verificationHistory": []
+  },
+  {
     "value": "Não informado; posição de governança em organização sem fins lucrativos",
     "duration": "Mandato de janeiro de 2027 a dezembro de 2028",
     "modality": "Internacional; entrevistas virtuais por Zoom",
