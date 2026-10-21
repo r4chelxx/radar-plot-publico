@@ -13,6 +13,8 @@ const rows=[
  '| Links temáticos encontrados | '+(triage.summary?.linkLeads??0)+' |',
  '| Referências históricas sinalizadas | '+(triage.summary?.historicalReferences??0)+' |',
  '| Candidatos aguardando revisão | '+(review.candidates||[]).length+' |',
+ '| Pistas com página acessível | '+(review.candidates||[]).filter(x=>x.pageStatus==='accessible').length+' |',
+ '| Pistas sem página acessível confirmada | '+(review.candidates||[]).filter(x=>x.pageStatus!=='accessible').length+' |',
  '| Oportunidades candidatas | '+(review.counts?.opportunities??0)+' |',
  '| Bases e dados candidatos | '+(review.counts?.datasets??0)+' |',
  '| Ferramentas candidatas | '+(review.counts?.tools??0)+' |',
@@ -27,6 +29,7 @@ const rows=[
  !s.stateLoaded?'**Atenção:** não foi carregado histórico anterior; “inédito” significa apenas novo para esta execução.':'Histórico anterior carregado para comparação.',
  '',
  '**Verificação editorial:** nenhuma oportunidade foi automaticamente aprovada ou publicada.',
+ '**Próxima ação:** revisar os candidatos priorizados no artefato editorial-review.json; confirmar fonte primária, escopo, prazo, elegibilidade e duplicatas antes de qualquer inclusão no catálogo.',
  'Menções a datas não equivalem a prazos confirmados. As candidaturas exigem checagem de fonte primária, prazo, elegibilidade e duplicatas.',
  ''
 ];
