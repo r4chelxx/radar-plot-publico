@@ -1,0 +1,73 @@
+name: Radar daily publication monitor
+on:
+  schedule:
+    - cron: '20 11 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'index.html'
+      - 'app.js'
+      - 'data/changelog.js'
+      - 'scripts/check-publication.js'
+      - '.github/workflows/daily-publication-monitor.yml'
+permissions:
+  contents: read
+  actions: read
+  issues: write
+concurrency:
+  group: radar-publication-monitor
+  cancel-in-progress: false
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate published source
+        run: node scripts/validate-data.js
+      - name: Wait for Pages deployment on push
+        id: pages
+        if: github.event_name == 'push'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          for attempt in $(seq 1 20); do
+            status=$(gh api "repos/${GITHUB_REPOSITORY}/actions/runs?per_page=20" --jq '[.workflow_runs[] | select(.name == "pages build and deployment" and .head_sha == "'"$GITHUB_SHA"'")] | .[0].conclusion // empty')
+            if [ "$status" = success ]; then exit 0; fi
+            if [ "$status" = cancelled ]; then
+              latest=$(gh api "repos/${GITHUB_REPOSITORY}/commits/main" --jq .sha)
+              if [ "$latest" != "$GITHUB_SHA" ]; then
+                echo "superseded=true" >> "$GITHUB_OUTPUT"
+                echo "Deployment superseded by newer main commit $latest"
+                exit 0
+              fi
+              exit 1
+            fi
+            if [ "$status" = failure ]; then exit 1; fi
+            sleep 15
+          done
+          echo "Pages deployment did not complete in 5 minutes" >&2
+          exit 1
+      - name: Check Pages content and freshness
+        if: github.event_name != 'push' || steps.pages.outputs.superseded != 'true'
+        env:
+          RADAR_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
+          FAIL_ON_EDITORIAL_STALE: ${{ github.event_name == 'schedule' && 'true' || 'false' }}
+        run: node scripts/check-publication.js
+      - name: Create or update a single failure issue
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          issue=$(gh issue list --state open --label radar-monitor --json number --jq '.[0].number' || true)
+          message="Radar publication monitor flagged a failure or editorial catalog older than one day on $(date -u +%FT%TZ). Inspect run: https://github.com/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}. Technical checks alone do not confirm an editorial publication; investigate whether a full editorial sweep found no new verified records or whether publication is blocked."
+          if [ -n "$issue" ]; then
+            gh issue comment "$issue" --body "$message"
+          else
+            gh label create radar-monitor --color B60205 --description "Radar monitoring failure" --force
+            gh issue create --title "Radar: publication monitor failure" --label radar-monitor --body "$message"
+          fi

@@ -1,0 +1,34 @@
+name: Radar daily editorial intake
+on:
+  schedule:
+    - cron: '0 10 * * *'
+  workflow_dispatch:
+permissions:
+  contents: read
+  issues: write
+concurrency:
+  group: radar-editorial-intake
+  cancel-in-progress: false
+jobs:
+  intake:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate current catalog
+        run: node scripts/validate-data.js
+      - name: Create one dated editorial review issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          day=$(TZ=America/Bahia date +%F)
+          title="Radar editorial: $day"
+          existing=$(gh issue list --state all --search "$title in:title" --json number,title --jq ".[] | select(.title == \"$title\") | .number" | head -n 1)
+          if [ -n "$existing" ]; then
+            echo "Already tracked in issue #$existing"
+            exit 0
+          fi
+          gh issue create --title "$title" --body "Revisão editorial diária pendente. Verificar fontes oficiais, datas de encerramento, elegibilidade e duplicatas antes de atualizar data/*.js. A rotina não afirma ter lido Gmail nem pesquisado oportunidades. Registre fontes e resultados nesta issue. Feche somente após merge, validação e deploy Pages."

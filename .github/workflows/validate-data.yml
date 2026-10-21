@@ -1,0 +1,47 @@
+name: Validate Radar data
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "app.js"
+      - "data.js"
+      - "data/**"
+      - "scripts/validate-data.js"
+      - "scripts/test-ui-static.js"
+      - "scripts/publish-approved-opportunities.js"
+      - "scripts/test-approved-publication.js"
+      - "editorial/approved-opportunities.json"
+      - ".github/workflows/validate-data.yml"
+  pull_request:
+    paths:
+      - "app.js"
+      - "data.js"
+      - "data/**"
+      - "scripts/validate-data.js"
+      - ".github/workflows/validate-data.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Check JavaScript syntax
+        run: |
+          node --check app.js
+          node --check data.js
+          for file in data/*.js; do node --check "$file"; done
+      - name: Static UI regression checks
+        run: node scripts/test-ui-static.js
+      - name: Validate Radar records
+        run: node scripts/validate-data.js
+      - name: Test public access and private editorial boundaries
+        run: node --test tests/*.test.js
+      - name: Test editorial publication gates
+        run: node scripts/test-approved-publication.js

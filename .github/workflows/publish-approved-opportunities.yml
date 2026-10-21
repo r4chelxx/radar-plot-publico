@@ -1,0 +1,42 @@
+name: Publish approved Radar opportunities
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'editorial/approved-opportunities.json'
+  workflow_dispatch:
+permissions:
+  contents: write
+  pull-requests: write
+concurrency:
+  group: radar-approved-publication
+  cancel-in-progress: false
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Publish only editorially approved queue
+        run: node scripts/publish-approved-opportunities.js
+      - name: Validate entire catalog
+        run: node scripts/validate-data.js
+      - name: Create reviewable publication PR
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if git diff --quiet -- data/opportunities.js data/changelog.js editorial/approved-opportunities.json; then
+            echo "No approved entries to publish"
+            exit 0
+          fi
+          branch="automation/approved-publication-${GITHUB_RUN_ID}"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -b "$branch"
+          git add data/opportunities.js data/changelog.js editorial/approved-opportunities.json
+          git commit -m "Publish editorially approved Radar opportunities"
+          git push origin "$branch"
+          gh pr create --base main --head "$branch" --title "Publicar oportunidades aprovadas editorialmente" --body "Gerado somente de editorial/approved-opportunities.json, com aprovação explícita e validação do catálogo. Revisar o diff e integrar após checks. Não inclui pistas brutas do Gmail."

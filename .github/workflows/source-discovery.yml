@@ -1,0 +1,133 @@
+name: Radar source discovery
+on:
+  schedule:
+    - cron: '30 10 * * *'
+  workflow_dispatch:
+  push:
+    paths:
+      - 'data/sources.js'
+      - 'scripts/source-intake.js'
+      - 'scripts/normalize-lead-link.js'
+      - 'tests/normalize-lead-link.test.js'
+      - 'scripts/load-source-catalog.js'
+      - 'tests/source-catalog.test.js'
+      - 'scripts/triage-candidates.js'
+      - 'scripts/update-lead-history.js'
+      - 'scripts/lead-identity.js'
+      - 'tests/lead-privacy.test.js'
+      - 'scripts/order-lead-inspection.js'
+      - 'tests/inspection-order.test.js'
+      - 'scripts/prioritize-editorial-review.js'
+      - 'tests/editorial-priority.test.js'
+      - 'scripts/write-run-summary.js'
+      - 'tests/lead-history.test.js'
+      - 'tests/editorial-review.test.js'
+      - 'scripts/build-editorial-review.js'
+      - 'scripts/inspect-lead-pages.js'
+      - '.github/workflows/source-discovery.yml'
+  pull_request:
+    paths:
+      - 'data/sources.js'
+      - 'scripts/source-intake.js'
+      - 'scripts/normalize-lead-link.js'
+      - 'tests/normalize-lead-link.test.js'
+      - 'scripts/triage-candidates.js'
+      - 'scripts/update-lead-history.js'
+      - 'scripts/lead-identity.js'
+      - 'scripts/prioritize-editorial-review.js'
+      - 'tests/editorial-priority.test.js'
+      - 'tests/editorial-review.test.js'
+      - 'scripts/write-run-summary.js'
+      - 'tests/lead-history.test.js'
+      - '.github/workflows/source-discovery.yml'
+permissions:
+  contents: read
+concurrency:
+  group: radar-source-discovery-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Test persistent lead history
+        run: node --test tests/lead-history.test.js tests/source-catalog.test.js tests/editorial-review.test.js tests/editorial-priority.test.js tests/inspection-order.test.js tests/lead-privacy.test.js tests/normalize-lead-link.test.js
+      - name: Inspect monitored source websites
+        run: node scripts/source-intake.js
+      - name: Compare extracted titles against catalog entries
+        run: node scripts/triage-candidates.js
+      - name: Restore public lead history
+        if: github.ref == 'refs/heads/main' && (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch' || github.event_name == 'push')
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh api "repos/${GITHUB_REPOSITORY}/contents/state/lead-history.json?ref=radar-state" --jq .content | base64 --decode > intake/lead-history-previous.json
+      - name: Inspect individual lead pages for evidence
+        run: node scripts/inspect-lead-pages.js
+      - name: Build editorial review queue
+        run: node scripts/build-editorial-review.js
+      - name: Compare against persistent public lead history
+        run: node scripts/update-lead-history.js
+      - name: Prioritize editorial review from historical changes
+        run: node scripts/prioritize-editorial-review.js
+      - name: Publish run summary in GitHub Actions
+        run: node scripts/write-run-summary.js
+      - uses: actions/upload-artifact@v4
+        with:
+          name: source-intake-${{ github.run_id }}
+          path: |
+            intake/source-review.json
+            intake/candidate-triage.json
+            intake/lead-evidence.json
+            intake/editorial-review.json
+            intake/lead-history-delta.json
+            intake/lead-history-next.json
+            intake/run-summary.md
+          if-no-files-found: error
+  persist:
+    needs: discover
+    env:
+      GH_REPO: ${{ github.repository }}
+    if: github.ref == 'refs/heads/main' && (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch' || github.event_name == 'push')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: source-intake-${{ github.run_id }}
+          path: intake
+      - name: Persist public history with write-scoped token
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          sha=$(gh api "repos/${GITHUB_REPOSITORY}/contents/state/lead-history.json?ref=radar-state" --jq .sha)
+          payload=$(base64 -w 0 intake/lead-history-next.json)
+          gh api --method PUT "repos/${GITHUB_REPOSITORY}/contents/state/lead-history.json" -f branch=radar-state -f message="Update public lead history from run ${GITHUB_RUN_ID}" -f content="$payload" -f sha="$sha" --silent
+      - name: Verify remote state matches uploaded history
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh api "repos/${GITHUB_REPOSITORY}/contents/state/lead-history.json?ref=radar-state" --jq .content | base64 --decode > intake/lead-history-confirmed.json
+          cmp intake/lead-history-next.json intake/lead-history-confirmed.json
+          node -e "const fs=require('fs');const s=JSON.parse(fs.readFileSync('intake/lead-history-confirmed.json'));if(s.schemaVersion!==1||!s.updatedAt||!s.leads||Array.isArray(s.leads))process.exit(1);console.log('Confirmed persisted leads:',Object.keys(s.leads).length)"
+          echo "### Persistência do Radar confirmada" >> "$GITHUB_STEP_SUMMARY"
+          echo "O conteúdo salvo na branch radar-state corresponde exatamente ao histórico gerado nesta execução." >> "$GITHUB_STEP_SUMMARY"
+      - name: Link report in daily editorial queue
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          day=$(TZ=America/Bahia date +%F)
+          title="Radar editorial: $day"
+          issue=$(gh issue list --state open --search "$title in:title" --json number,title --jq ".[] | select(.title == \"$title\") | .number" | head -n 1)
+          report="Relatório técnico: https://github.com/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}. Pistas não verificadas; revisão editorial obrigatória antes de publicar."
+          if [ -n "$issue" ]; then
+            gh issue comment "$issue" --body "$report"
+          else
+            gh issue create --title "$title" --body "$report"
+          fi
