@@ -37,7 +37,7 @@ window.RADAR_PARTS.opportunities=[
     "verified": "2026-10-21",
     "notes": "Ciclo histórico. Edital publicado em 12/07/2026; inscrições 13/07 a 10/08. IPYS anunciou quatro projetos selecionados em 07/09/2026. O formulário de 2026 não deve ser tratado como aberto.",
     "discoveredVia": [
-      "GIJN newsletter de 29/07/2026"
+      "GIJN"
     ],
     "discoveryUrl": "https://ipys.org/periodismo-de-investigaci%C3%B3n/ipys-anuncia-los-ganadores-de-la-convocatoria-de-financiamiento-para"
   },
