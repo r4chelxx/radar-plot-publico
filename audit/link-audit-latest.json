@@ -1,10 +1,10 @@
 {
-  "checkedAt": "2026-10-21T17:18:34.836Z",
+  "checkedAt": "2026-10-21T20:58:49.393Z",
   "policy": "404/410 becomes broken only after appearing as suspect or broken in the previous audit; blocked and network results are inconclusive",
   "counts": {
-    "ok": 350,
-    "blocked": 39,
-    "network": 34
+    "ok": 340,
+    "blocked": 37,
+    "network": 46
   },
   "results": [
     {
@@ -781,13 +781,11 @@
       "type": "opportunity",
       "id": "ifl-cartography",
       "url": "https://leibniz-ifl.de/en/career-1/open-positions/open-positions-details/journalist-in-residence-stipendium",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://leibniz-ifl.de/en/career-1/open-positions/open-positions-details/journalist-in-residence-stipendium",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -970,22 +968,22 @@
       "type": "opportunity",
       "id": "pulitzer-gender",
       "url": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/gender-equality-grant",
-      "status": 403,
+      "status": 200,
       "finalUrl": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/gender-equality-grant",
-      "class": "blocked",
+      "class": "ok",
       "attempts": [
-        403
+        200
       ]
     },
     {
       "type": "opportunity",
       "id": "pulitzer-global",
       "url": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/global-reporting-grants",
-      "status": 403,
+      "status": 200,
       "finalUrl": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/global-reporting-grants",
-      "class": "blocked",
+      "class": "ok",
       "attempts": [
-        403
+        200
       ]
     },
     {
@@ -1135,11 +1133,13 @@
       "type": "dataset",
       "id": "pni-doses-aplicadas-2026",
       "url": "https://dadosabertos.saude.gov.br/dataset/doses-aplicadas-pelo-programa-de-nacional-de-imunizacoes-pni-2026",
-      "status": 200,
-      "finalUrl": "https://dadosabertos.saude.gov.br/dataset/doses-aplicadas-pelo-programa-de-nacional-de-imunizacoes-pni-2026",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "TypeError:fetch failed",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -1267,22 +1267,26 @@
       "type": "dataset",
       "id": "sisagua-amostras-fora-padrao",
       "url": "https://dadosabertos.saude.gov.br/dataset/sisagua-controle-mensal-amostras-fora-do-padrao",
-      "status": 200,
-      "finalUrl": "https://dadosabertos.saude.gov.br/dataset/sisagua-controle-mensal-amostras-fora-do-padrao",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "TypeError:fetch failed",
+        "TypeError:fetch failed"
       ]
     },
     {
       "type": "dataset",
       "id": "sisagua-controle-mensal-parametros-basicos",
       "url": "https://dadosabertos.saude.gov.br/dataset/sisagua-controle-mensal-parametros-basicos",
-      "status": 200,
-      "finalUrl": "https://dadosabertos.saude.gov.br/dataset/sisagua-controle-mensal-parametros-basicos",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "TypeError:fetch failed",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -1717,6 +1721,7 @@
       "finalUrl": "https://dadosabertos.aneel.gov.br/",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -1757,11 +1762,13 @@
       "type": "dataset",
       "id": "saude",
       "url": "https://datasus.saude.gov.br/",
-      "status": 200,
-      "finalUrl": "https://datasus.saude.gov.br/",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "TypeError:fetch failed",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -1801,33 +1808,39 @@
       "type": "dataset",
       "id": "ouvidorsus",
       "url": "https://dadosabertos.saude.gov.br/dataset/ouvidorsus",
-      "status": 200,
-      "finalUrl": "https://dadosabertos.saude.gov.br/dataset/ouvidorsus",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "TypeError:fetch failed",
+        "TypeError:fetch failed"
       ]
     },
     {
       "type": "dataset",
       "id": "cnes",
       "url": "https://dadosabertos.saude.gov.br/dataset/cnes-cadastro-nacional-de-estabelecimentos-de-saude",
-      "status": 200,
-      "finalUrl": "https://dadosabertos.saude.gov.br/dataset/cnes-cadastro-nacional-de-estabelecimentos-de-saude",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "TypeError:fetch failed",
+        "TypeError:fetch failed"
       ]
     },
     {
       "type": "dataset",
       "id": "sisagua-captacao",
       "url": "https://dadosabertos.saude.gov.br/dataset/sisagua-pontos-de-captacao",
-      "status": 200,
-      "finalUrl": "https://dadosabertos.saude.gov.br/dataset/sisagua-pontos-de-captacao",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "TypeError:fetch failed",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -1838,7 +1851,6 @@
       "finalUrl": "https://dadosabertos.aneel.gov.br/dataset/ocorrencias-emergenciais-nas-redes-de-distribuicao",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -1955,7 +1967,6 @@
       "finalUrl": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados",
       "class": "ok",
       "attempts": [
-        "TypeError:fetch failed",
         200
       ]
     },
@@ -2053,22 +2064,26 @@
       "type": "dataset",
       "id": "sinasc",
       "url": "https://dadosabertos.saude.gov.br/dataset/sistema-de-informacao-sobre-nascidos-vivos-sinasc",
-      "status": 200,
-      "finalUrl": "https://dadosabertos.saude.gov.br/dataset/sistema-de-informacao-sobre-nascidos-vivos-sinasc",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "TypeError:fetch failed",
+        "TypeError:fetch failed"
       ]
     },
     {
       "type": "dataset",
       "id": "sim-mortalidade",
       "url": "https://dadosabertos.saude.gov.br/dataset/sim",
-      "status": 200,
-      "finalUrl": "https://dadosabertos.saude.gov.br/dataset/sim",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "TypeError:fetch failed",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -2262,22 +2277,26 @@
       "type": "dataset",
       "id": "datasus-sih-procedimentos-obstetricos",
       "url": "https://datasus.saude.gov.br/acesso-a-informacao/producao-hospitalar-sih-sus/",
-      "status": 200,
-      "finalUrl": "https://datasus.saude.gov.br/acesso-a-informacao/producao-hospitalar-sih-sus/",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "TypeError:fetch failed",
+        "TypeError:fetch failed"
       ]
     },
     {
       "type": "dataset",
       "id": "cnes-leitos",
       "url": "https://datasus.saude.gov.br/cnes-recursos-fisicos/",
-      "status": 200,
-      "finalUrl": "https://datasus.saude.gov.br/cnes-recursos-fisicos/",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "TypeError:fetch failed",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -2306,22 +2325,26 @@
       "type": "dataset",
       "id": "cnes-profissionais",
       "url": "https://datasus.saude.gov.br/cnes-recursos-humanos-a-partir-de-agosto-de-2007/",
-      "status": 200,
-      "finalUrl": "https://datasus.saude.gov.br/cnes-recursos-humanos-a-partir-de-agosto-de-2007-ocupacoes-classificadas-pela-cbo-2002/",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "TypeError:fetch failed",
+        "TypeError:fetch failed"
       ]
     },
     {
       "type": "dataset",
       "id": "sigtap",
       "url": "https://wiki.datasus.gov.br/sigtap/index.php/P%C3%A1gina_principal",
-      "status": 200,
-      "finalUrl": "https://wiki.datasus.gov.br/sigtap/index.php/P%C3%A1gina_principal",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "TypeError:fetch failed",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -2685,11 +2708,13 @@
       "type": "dataset",
       "id": "plataforma-brasil-dados-abertos",
       "url": "https://dadosabertos.saude.gov.br/dataset/plataforma_brasil",
-      "status": 200,
-      "finalUrl": "https://dadosabertos.saude.gov.br/dataset/plataforma_brasil",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "TypeError:fetch failed",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -3144,11 +3169,13 @@
       "type": "source",
       "id": "Portal de Dados Abertos do SUS",
       "url": "https://dadosabertos.saude.gov.br/dataset",
-      "status": 200,
-      "finalUrl": "https://dadosabertos.saude.gov.br/dataset",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "TypeError:fetch failed",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -3969,13 +3996,11 @@
       "type": "source",
       "id": "Leibniz Institute for Regional Geography / VisLab",
       "url": "https://leibniz-ifl.de/",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://leibniz-ifl.de/",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -4411,13 +4436,12 @@
       "type": "tool",
       "id": "genero-numero-do-dado-a-decisao",
       "url": "https://www.generonumero.media/artigos/cartilha-violencia-de-genero/",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://www.generonumero.media/artigos/cartilha-violencia-de-genero/",
+      "class": "ok",
       "attempts": [
         "TypeError:fetch failed",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
