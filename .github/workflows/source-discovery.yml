@@ -102,13 +102,25 @@ jobs:
         with:
           name: source-intake-${{ github.run_id }}
           path: intake
+      - name: Validate generated public history before persistence
+        run: |
+          node -e "const fs=require('fs');const s=JSON.parse(fs.readFileSync('intake/lead-history-next.json'));if(s.schemaVersion!==1||!s.updatedAt||!s.leads||Array.isArray(s.leads))process.exit(1);console.log('Validated lead history:',Object.keys(s.leads).length)"
       - name: Persist public history with write-scoped token
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          sha=$(gh api "repos/${GITHUB_REPOSITORY}/contents/state/lead-history.json?ref=radar-state" --jq .sha)
+          set -euo pipefail
           payload=$(base64 -w 0 intake/lead-history-next.json)
-          gh api --method PUT "repos/${GITHUB_REPOSITORY}/contents/state/lead-history.json" -f branch=radar-state -f message="Update public lead history from run ${GITHUB_RUN_ID}" -f content="$payload" -f sha="$sha" --silent
+          for attempt in 1 2 3; do
+            sha=$(gh api "repos/${GITHUB_REPOSITORY}/contents/state/lead-history.json?ref=radar-state" --jq .sha)
+            if gh api --method PUT "repos/${GITHUB_REPOSITORY}/contents/state/lead-history.json" -f branch=radar-state -f message="Update public lead history from run ${GITHUB_RUN_ID}" -f content="$payload" -f sha="$sha" --silent; then
+              echo "Public lead history saved on attempt $attempt"
+              exit 0
+            fi
+            if [ "$attempt" -lt 3 ]; then sleep 10; fi
+          done
+          echo "::error::Failed to persist lead history after three attempts"
+          exit 1
       - name: Verify remote state matches uploaded history
         env:
           GH_TOKEN: ${{ github.token }}
