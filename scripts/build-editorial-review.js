@@ -3,7 +3,7 @@ const fs=require('node:fs');
 const {identity}=require('./lead-identity');
 const triage=JSON.parse(fs.readFileSync('intake/candidate-triage.json','utf8'));
 const evidence=JSON.parse(fs.readFileSync('intake/lead-evidence.json','utf8'));
-const byUrl=new Map((evidence.results||[]).map(x=>[x.url,x]));
+const byUrl=new Map((evidence.results||[]).flatMap(x=>{try{return [[identity(x.url).id,x]]}catch{return []}}));
 const seen=new Set();
 const candidates=(triage.leads||[]).filter(x=>x.classification==='needs-editorial-review').filter(x=>{
  if(typeof x.url!=='string'||!/^https?:\/\//i.test(x.url))return false;
@@ -13,7 +13,7 @@ const candidates=(triage.leads||[]).filter(x=>x.classification==='needs-editoria
  seen.add(key);
  return true;
 }).map(x=>{
- const ev=byUrl.get(x.url);
+ const ev=byUrl.get(identity(x.url).id);
  const checks={
   primarySourceVerified:false,
   duplicateReviewed:false,
