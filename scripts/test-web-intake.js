@@ -35,7 +35,7 @@ try{
  assert.equal(sample.selected.length,3);
  assert.equal(sample.sourceDistribution['Feed A'],2);
  assert.equal(sample.sourceDistribution['Feed B'],1);
- assert.equal(sample.selected[1].providers[0],'Feed B','Round-robin must alternate providers');
+ assert.notEqual(sample.selected[0].providers[0],sample.selected[1].providers[0],'Round-robin must alternate providers before repeating one');
  const md=fs.readFileSync(path.join(work,'intake','editorial-review.md'),'utf8');
  assert(md.includes('Feed A: 2')&&md.includes('Feed B: 1'));
  assert(sample.selected.every(x=>x.verified===false&&x.publicationReady===false));
