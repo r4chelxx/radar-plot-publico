@@ -2617,7 +2617,7 @@ window.RADAR_PARTS.opportunities=[
     "status": "descartada",
     "rules": "https://grants.journalismfund.eu/en/pascal-decroos-fund",
     "apply": null,
-    "verified": "2026-10-02",
+    "verified": "2026-10-22",
     "desc": "Fundo para jornalismo investigativo com exigência de publicação em veículo neerlandófono na Bélgica."
   },
   {
@@ -2656,7 +2656,7 @@ window.RADAR_PARTS.opportunities=[
     "status": "descartada",
     "rules": "https://grants.journalismfund.eu/en/belgian-bridge",
     "apply": null,
-    "verified": "2026-10-02",
+    "verified": "2026-10-22",
     "desc": "Arquivado: exige residência legal na Bélgica e equipe envolvendo jornalismo neerlandófono e francófono."
   },
   {
@@ -3085,7 +3085,7 @@ window.RADAR_PARTS.opportunities=[
     "status": "descartada",
     "rules": "https://healthjournalism.org/fellowships/ahcj-international-health-study-fellowships/",
     "apply": null,
-    "verified": "2026-10-02",
+    "verified": "2026-10-22",
     "desc": "Apesar do nome internacional, é restrita a jornalistas baseados nos EUA. Arquivada para evitar falso positivo em futuras buscas."
   },
   {
