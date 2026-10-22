@@ -1,5 +1,46 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.opportunities=[
+{
+    "id": "ipys-transnational-investigations-2026",
+    "title": "IPYS — Financiamento de investigações transnacionais 2026",
+    "org": "Instituto Prensa y Sociedad (IPYS)",
+    "summary": "Quatro bolsas para investigações transnacionais sobre crime organizado, corrupção e abuso de poder na América Latina. Ciclo de 2026 encerrado, com projetos selecionados anunciados em setembro.",
+    "type": "Grant",
+    "themes": [
+      "Jornalismo investigativo",
+      "Crime organizado",
+      "Corrupção",
+      "América Latina"
+    ],
+    "scope": "América Latina",
+    "deadline": "2026-08-10",
+    "deadlineStatus": "confirmado; encerrado",
+    "eligibility": "restrita",
+    "fit": 0,
+    "status": "encerrada",
+    "value": "Até US$ 3.000 por projeto; quatro bolsas",
+    "duration": "Até três meses, entre agosto e outubro de 2026",
+    "modality": "Financiamento de investigação com acompanhamento editorial",
+    "documents": [
+      "Trabalhos investigativos publicados recentemente",
+      "Orçamento detalhado",
+      "Cronograma de até três meses",
+      "Carta de compromisso de publicação do veículo parceiro"
+    ],
+    "restrictions": [
+      "Jornalistas de investigação vinculados a veículos latino-americanos ou freelancers com carta de compromisso de publicação",
+      "Proposta original de investigação transnacional sobre crime organizado, corrupção ou abuso de poder",
+      "Experiência recente comprovada em jornalismo investigativo"
+    ],
+    "rules": "https://ipys.org/periodismo-de-investigaci%C3%B3n/ipys-lanza-convocatoria-de-financiamiento-de-investigaciones",
+    "apply": "https://docs.google.com/forms/d/e/1FAIpQLSfjWXFeJWahY0bTtgrxed48L4Yy-fL4d9NpVHYzpNVzWyRJMg/viewform",
+    "verified": "2026-10-21",
+    "notes": "Ciclo histórico. Edital publicado em 12/07/2026; inscrições 13/07 a 10/08. IPYS anunciou quatro projetos selecionados em 07/09/2026. O formulário de 2026 não deve ser tratado como aberto.",
+    "discoveredVia": [
+      "GIJN"
+    ],
+    "discoveryUrl": "https://ipys.org/periodismo-de-investigaci%C3%B3n/ipys-anuncia-los-ganadores-de-la-convocatoria-de-financiamiento-para"
+  },
   {
     "id": "ejn-bbnj-cop1-reporting-fellowship-2027",
     "title": "EJN — Bolsas de cobertura da BBNJ COP1 2027",
