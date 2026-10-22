@@ -6,6 +6,9 @@ on:
       - 'scripts/discover-public-feeds.mjs'
       - 'scripts/discover-dvs-public.mjs'
       - 'scripts/test-web-intake.js'
+      - 'scripts/check-public-health.js'
+      - 'scripts/test-rls-owner-model.js'
+      - '.github/workflows/public-health.yml'
       - 'scripts/unify-discovery.js'
       - 'scripts/quality-gate-discovery.js'
       - 'scripts/sample-editorial-review.js'
@@ -29,6 +32,12 @@ jobs:
           node-version: "22"
       - name: Test web intake safeguards
         run: node scripts/test-web-intake.js
+      - name: Validate operational probe syntax
+        run: node --check scripts/check-public-health.js
+      - name: Test cross-account ownership model
+        run: node scripts/test-rls-owner-model.js
+      - name: Verify currently deployed public site
+        run: node scripts/check-public-health.js
       - name: Discover new public feed entries
         id: feeds
         continue-on-error: true
