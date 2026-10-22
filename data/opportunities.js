@@ -3093,12 +3093,12 @@ window.RADAR_PARTS.opportunities=[
     "duration": null,
     "modality": null,
     "documents": [],
-    "restrictions": [],
+    "restrictions": ["Reportagem internacional precisa ter forte conexão com os Estados Unidos","Publicação em inglês em veículo sediado nos Estados Unidos","Grant regular exige carta de compromisso de publicação; seed grant dispensa"],
     "opens": null,
     "verificationHistory": [
       {
         "date": "2026-09-24",
-        "status": "descartada",
+        "status": "monitorar",
         "source": "https://fij.org/apply-for-a-grant/"
       },
       {
@@ -3108,7 +3108,7 @@ window.RADAR_PARTS.opportunities=[
       }
     ],
     "id": "fij",
-    "summary": "Fund for Investigative Journalism — Regular/Seed Grants. Consulte os requisitos, condições e detalhes na fonte oficial.",
+    "summary": "Bolsas regulares e seed grants para investigações com foco nos EUA; candidatura internacional depende de pauta e publicação adequadas.",
     "title": "Fund for Investigative Journalism — Regular/Seed Grants",
     "org": "Fund for Investigative Journalism",
     "type": "Grant",
@@ -3116,15 +3116,15 @@ window.RADAR_PARTS.opportunities=[
       "Investigação"
     ],
     "scope": "Estados Unidos",
-    "deadline": "2026-09-14",
-    "deadlineStatus": "encerrado",
-    "eligibility": "inelegível",
+    "deadline": "2027-01-29",
+    "deadlineStatus": "próximo prazo anunciado para 29/01/2027",
+    "eligibility": "restrita",
     "fit": 7,
     "status": "descartada",
     "rules": "https://fij.org/apply-for-a-grant/",
     "apply": null,
-    "verified": "2026-10-02",
-    "desc": "Arquivado no registro de exclusões. Chamadas internacionais exigem forte ângulo dos EUA e publicação em inglês por veículo baseado nos EUA; além disso, o ciclo regular de setembro está encerrado."
+    "verified": "2026-10-22",
+    "desc": "Reclassificada: elegibilidade condicionada a forte conexão com os EUA e publicação em inglês em veículo norte-americano. Próximo prazo: 29/01/2027."
   },
   {
     "value": null,
