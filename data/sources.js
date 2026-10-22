@@ -50,27 +50,27 @@ window.RADAR_PARTS.sources=[
   },
   {
     "name": "Prêmio Jeduca de Jornalismo de Educação",
-    "url": "https://jeduca.org.br/",
+    "url": "https://jeduca.org.br/edital/",
     "type": "Prêmio e chamadas jornalísticas",
     "scope": "Brasil e internacional",
-    "role": "monitorar próximas edições; confirmar edital específico",
+    "role": "Edital de bolsas para reportagens sobre educação pública; categoria Jornalista 2026 encerrada e categoria Estudante prevista para novembro",
     "priority": "Média",
     "cadence": "mensal",
     "category": "oportunidades/jornalismo",
-    "lastChecked": "2026-10-19",
-    "checkStatus": "pendente de auditoria"
+    "lastChecked": "2026-10-22",
+    "checkStatus": "verificada"
   },
   {
     "name": "Prêmio Roche de Jornalismo em Saúde",
-    "url": "https://premiorochedeperiodismo.com/",
+    "url": "https://premiorochedeperiodismo.com/pt-br/bases-do-premio-roche-de-jornalismo-em-saude/",
     "type": "Prêmio e chamadas jornalísticas",
     "scope": "Brasil e internacional",
-    "role": "monitorar próximas edições; confirmar edital específico",
+    "role": "Prêmio Roche 2026 com inscrições encerradas em 11/05/2026; monitorar próxima edição",
     "priority": "Média",
     "cadence": "mensal",
     "category": "oportunidades/jornalismo",
-    "lastChecked": "2026-10-19",
-    "checkStatus": "pendente de auditoria"
+    "lastChecked": "2026-10-22",
+    "checkStatus": "verificada"
   },
   {
     "name": "One World Media Awards",
@@ -86,15 +86,15 @@ window.RADAR_PARTS.sources=[
   },
   {
     "name": "Fundación Gabo — Premio Roche",
-    "url": "https://premiorochedeperiodismo.com/",
+    "url": "https://premiorochedeperiodismo.com/pt-br/",
     "type": "Instituição promotora de prêmios, bolsas ou editais",
     "scope": "Brasil e internacional",
-    "role": "monitoramento de editais futuros; sem confirmação de abertura",
+    "role": "Referência à secretaria técnica do mesmo Prêmio Roche; não cadastrar como segunda oportunidade",
     "priority": "Média",
     "cadence": "mensal",
     "category": "oportunidades/jornalismo",
-    "lastChecked": "2026-10-19",
-    "checkStatus": "pendente de auditoria"
+    "lastChecked": "2026-10-22",
+    "checkStatus": "verificada"
   },
   {
     "name": "Prêmio Javier Valdez",
@@ -110,15 +110,15 @@ window.RADAR_PARTS.sources=[
   },
   {
     "name": "Jeduca — Editais e Prêmios",
-    "url": "https://jeduca.org.br/",
+    "url": "https://jeduca.org.br/edital/",
     "type": "Instituição promotora de prêmios, bolsas ou editais",
     "scope": "Brasil e internacional",
-    "role": "monitoramento de editais futuros; sem confirmação de abertura",
+    "role": "Fonte institucional de monitoramento do Edital Jeduca; não representa uma segunda oportunidade ativa",
     "priority": "Média",
     "cadence": "mensal",
     "category": "oportunidades/jornalismo",
-    "lastChecked": "2026-10-19",
-    "checkStatus": "pendente de auditoria"
+    "lastChecked": "2026-10-22",
+    "checkStatus": "verificada"
   },
   {
     "name": "Conselho Federal de Administração — Prêmio CFA",
