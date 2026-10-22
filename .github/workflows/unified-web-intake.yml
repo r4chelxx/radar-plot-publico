@@ -13,6 +13,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: "22"
+      - name: Test web intake safeguards
+        run: node scripts/test-web-intake.js
       - name: Discover new public feed entries
         run: node scripts/discover-public-feeds.mjs
       - name: Convert previously audited web candidates
