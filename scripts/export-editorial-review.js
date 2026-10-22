@@ -3,7 +3,8 @@
 const fs=require('node:fs');
 const sample=JSON.parse(fs.readFileSync('intake/editorial-review-sample.json','utf8'));
 const safe=s=>String(s||'').replace(/[\r\n|]/g,' ').trim();
-const lines=['# Radar PLOT — Conferência editorial','','Amostra de candidatos não verificados. Confirmar fonte oficial, prazo, elegibilidade, categoria e duplicatas antes de publicar.','','| Prioridade | Título | URL | Procedência |','| --- | --- | --- | --- |'];
+const distribution=Object.entries(sample.sourceDistribution||{}).sort((a,b)=>b[1]-a[1]);
+const lines=['# Radar PLOT — Conferência editorial','','## Distribuição por fonte',...distribution.map(([name,count])=>'- '+safe(name)+': '+count),'','Amostra de candidatos não verificados. Confirmar fonte oficial, prazo, elegibilidade, categoria e duplicatas antes de publicar.','','| Prioridade | Título | URL | Procedência |','| --- | --- | --- | --- |'];
 for(const item of sample.selected||[])lines.push('| '+safe(item.priority)+' | '+safe(item.title)+' | '+safe(item.url)+' | '+safe((item.providers?.length?item.providers:item.origins||[]).map(x=>typeof x==='string'?x:(x.source||'unknown')).join(', '))+' |');
 lines.push('','Nenhum item desta lista foi aprovado ou publicado automaticamente.','');
 fs.writeFileSync('intake/editorial-review.md',lines.join('\n'));
