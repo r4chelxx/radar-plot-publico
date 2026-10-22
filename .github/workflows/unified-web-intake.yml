@@ -1,0 +1,26 @@
+name: Unified public web intake
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "30 12 * * *"
+permissions:
+  contents: read
+jobs:
+  collect-web:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Convert audited web candidates
+        run: node scripts/collect-web-leads.js
+      - name: Consolidate available source
+        run: node scripts/unify-discovery.js intake/web-discovery-input.json
+      - name: Upload non-publishing discovery queue
+        uses: actions/upload-artifact@v4
+        with:
+          name: radar-unified-web-intake
+          path: |
+            intake/web-discovery-input.json
+            intake/unified-discovery.json
