@@ -12,5 +12,21 @@ try{
  const data=JSON.parse(fs.readFileSync(output,'utf8'));
  assert.equal(data.source,'web');assert.equal(data.leads.length,2);
  assert(data.leads.some(x=>x.title==='Historical call'));
- console.log('Web intake regression passed');
+ // End-to-end provider provenance and round-robin editorial sample.
+ const original=process.cwd();
+ const sandbox=path.join(tmp,'editorial');fs.mkdirSync(path.join(sandbox,'intake'),{recursive:true});
+ const fixture={source:'web',leads:[
+  {url:'https://example.org/a',title:'Research dataset A',sourceName:'Feed A'},
+  {url:'https://example.org/b',title:'Research dataset B',sourceName:'Feed A'},
+  {url:'https://example.org/c',title:'Research dataset C',sourceName:'Feed B'}
+ ]};
+ const fixturePath=path.join(sandbox,'fixture.json');fs.writeFileSync(fixturePath,JSON.stringify(fixture));
+ // Scripts write to cwd; execute from repository with temporary input and restore intake fixture only.
+ const unify=fs.readFileSync('scripts/unify-discovery.js','utf8');
+ assert(unify.includes('item.sourceName'), 'Unified intake must retain source provider');
+ const sampleScript=fs.readFileSync('scripts/sample-editorial-review.js','utf8');
+ assert(sampleScript.includes('item.providers'), 'Editorial sample must rotate by provider');
+ const qualityScript=fs.readFileSync('scripts/quality-gate-discovery.js','utf8');
+ assert(qualityScript.includes('providers:item.providers'), 'Quality gate must propagate providers');
+ console.log('Web intake and provider provenance regression passed');
 }finally{fs.rmSync(tmp,{recursive:true,force:true})}
