@@ -17,10 +17,12 @@ jobs:
         run: node scripts/test-web-intake.js
       - name: Discover new public feed entries
         run: node scripts/discover-public-feeds.mjs
+      - name: Discover public DVS toolkit links
+        run: node scripts/discover-dvs-public.mjs
       - name: Convert previously audited web candidates
         run: node scripts/collect-web-leads.js
       - name: Consolidate live and historical candidates
-        run: node scripts/unify-discovery.js intake/live-web-discovery.json intake/web-discovery-input.json
+        run: node scripts/unify-discovery.js intake/live-web-discovery.json intake/dvs-public-discovery.json intake/web-discovery-input.json
       - name: Upload non-publishing discovery queue
         uses: actions/upload-artifact@v4
         with:
@@ -28,5 +30,7 @@ jobs:
           path: |
             intake/live-web-discovery.json
             intake/live-web-health.json
+            intake/dvs-public-discovery.json
+            intake/dvs-public-health.json
             intake/web-discovery-input.json
             intake/unified-discovery.json
