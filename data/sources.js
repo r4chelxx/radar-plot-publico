@@ -1,6 +1,18 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.sources=[
   {
+    "name": "Copernicus Climate Data Store",
+    "url": "https://cds.climate.copernicus.eu/",
+    "type": "Catálogo oficial de dados climáticos, reanálises, indicadores e APIs",
+    "scope": "Global",
+    "role": "descoberta e verificação de bases climáticas; conferir documentação, versão, licença e limitações de cada conjunto",
+    "priority": "Alta",
+    "cadence": "semanal",
+    "category": "dados/clima",
+    "lastChecked": "2026-10-22",
+    "checkStatus": "verificada"
+  },
+  {
     "name": "Fiquem Sabendo — Don’t LAI to Me",
     "url": "https://news.fiquemsabendo.com.br/",
     "type": "Newsletter e agência de dados públicos obtidos por LAI",
@@ -669,7 +681,7 @@ window.RADAR_PARTS.sources=[
     "priority": "Alta",
     "cadence": "semanal",
     "category": "oportunidades",
-    "lastChecked": "2026-10-15",
+    "lastChecked": "2026-10-22",
     "checkStatus": "verificada"
   },
   {
@@ -693,7 +705,7 @@ window.RADAR_PARTS.sources=[
     "priority": "Alta",
     "cadence": "diária",
     "category": "oportunidades",
-    "lastChecked": "2026-10-20",
+    "lastChecked": "2026-10-22",
     "checkStatus": "verificada"
   },
   {
@@ -897,7 +909,7 @@ window.RADAR_PARTS.sources=[
     "priority": "Alta",
     "cadence": "mensal",
     "category": "investigação",
-    "lastChecked": "2026-10-02",
+    "lastChecked": "2026-10-22",
     "checkStatus": "verificada"
   },
   {
@@ -1469,7 +1481,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://ijnet.org/en/opportunities",
     "cadence": "diária",
     "category": "oportunidades",
-    "lastChecked": "2026-10-20",
+    "lastChecked": "2026-10-22",
     "checkStatus": "verificada"
   },
   {
@@ -1513,7 +1525,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://earthjournalism.net/",
     "cadence": "semanal",
     "category": "clima/ambiente",
-    "lastChecked": "2026-10-02",
+    "lastChecked": "2026-10-22",
     "checkStatus": "verificada"
   },
   {
@@ -1634,7 +1646,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://garimpo.news/",
     "cadence": "semanal",
     "category": "tecnologia/política pública",
-    "lastChecked": "2026-10-15",
+    "lastChecked": "2026-10-22",
     "checkStatus": "verificada"
   },
   {
@@ -1690,7 +1702,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://quantumofsollazzo.com/",
     "cadence": "semanal",
     "category": "dados/visual",
-    "lastChecked": "2026-10-15",
+    "lastChecked": "2026-10-22",
     "checkStatus": "verificada"
   },
   {
@@ -1723,7 +1735,7 @@ window.RADAR_PARTS.sources=[
     "url": null,
     "cadence": "diária",
     "category": "ecossistema/formação",
-    "lastChecked": "2026-10-20",
+    "lastChecked": "2026-10-22",
     "checkStatus": "verificada"
   },
   {
@@ -1811,7 +1823,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://fapesp.br/oportunidades/",
     "cadence": "diária",
     "category": "oportunidades",
-    "lastChecked": "2026-10-20",
+    "lastChecked": "2026-10-22",
     "checkStatus": "verificada"
   },
   {
@@ -1987,7 +1999,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://gijn.org/jobs",
     "cadence": "diária",
     "category": "dados/visual",
-    "lastChecked": "2026-10-20",
+    "lastChecked": "2026-10-22",
     "checkStatus": "verificada"
   },
   {
@@ -1998,7 +2010,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://gijn.org/rounduplink/",
     "cadence": "diária",
     "category": "oportunidades",
-    "lastChecked": "2026-10-20",
+    "lastChecked": "2026-10-22",
     "checkStatus": "verificada"
   },
   {
@@ -2064,7 +2076,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://ourworldindata.org/jobs",
     "cadence": "quinzenal",
     "category": "dados/visual",
-    "lastChecked": "2026-10-07",
+    "lastChecked": "2026-10-22",
     "checkStatus": "verificada"
   },
   {
