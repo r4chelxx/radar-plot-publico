@@ -172,3 +172,12 @@ O registro `fij` foi reclassificado de `inelegível/descartada` para `restrita/m
 **Correção de prazo:** Media Party + World Bank 2026 teve deadline em 17/05/2026, não 15/06/2026, conforme regulamento https://mediaparty.org/2026/05/14/ai-data-journalism-program-2026/ . A limitação de residência aos quatro países participantes continua apenas informativa.
 
 **Pendências técnicas prioritárias:** conferir se `app.js` apresenta arquivo de encerradas e se algum filtro personalizado oculta programas globais; adicionar campos próprios de `nextCheckAt`/cadência por programa, monitoramento automatizado e reabertura por edição. A normalização de elegibilidade não substitui a verificação do estado pessoal privado `sem_interesse`, que não deve ser confundido com arquivo factual. Nenhum merge neste lote.
+
+
+## Lote 15 — interface de arquivo e periodicidade
+
+**Implementado:** `app.js` deixou de remover `encerrada` da listagem de Oportunidades; adicionada navegação direta ao `#arquivo/factual`, preservando `#arquivo/sem_interesse` como decisão pessoal. O arquivo factual já existia e lista encerradas; agora fica descobrível a partir do catálogo principal.
+
+**Inventário de fontes:** 187 registros em `data/sources.js`: 8 com cadência diária, 43 semanal, 50 quinzenal e 86 mensal; 15 pendentes de auditoria, 34 em auditoria inicial, 137 verificadas e 1 canal editorial a monitorar. A cadência já é armazenada, mas a execução automática e a atualização de cada oportunidade a partir da fonte ainda exigem teste e implementação; **não afirmar que a reverificação está automatizada**.
+
+**Testes ainda necessários:** validar o JS em ambiente local/CI; garantir que `#arquivo/factual` mostre todas as encerradas, que a busca inclua o arquivo e que os filtros pessoais não afetem o catálogo global. Não publicar sem regressão.
