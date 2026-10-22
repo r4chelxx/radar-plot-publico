@@ -36,6 +36,8 @@ jobs:
         run: node --check scripts/check-public-health.js
       - name: Test cross-account ownership model
         run: node scripts/test-rls-owner-model.js
+      - name: Verify currently deployed public site
+        run: node scripts/check-public-health.js
       - name: Discover new public feed entries
         id: feeds
         continue-on-error: true
