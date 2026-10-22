@@ -119,3 +119,18 @@ Inspeção do arquivo `data/opportunities.js` na branch principal: 103 oportunid
 **Decisões “Não vou fazer”:** `app.js` representa o estado pessoal como `sem_interesse` em `EDITORIAL.states`, carregado apenas com sessão autenticada. Portanto, a auditoria de `data/opportunities.js` **não cobre essa seção privada**. Exige consulta read-only às políticas e, mediante acesso autorizado, contagem e inspeção dos estados pessoais sem expor conteúdo privado no relatório público.
 
 **Critérios para próximo lote:** evidência oficial específica para cada restrição; diferenciar inelegibilidade jurídica, inadequação editorial, prazo encerrado e decisão pessoal; preservar registros sem alterar estados privados.
+
+
+## Lote 10 — auditoria de critérios de inelegibilidade (22/10/2026)
+
+Cinco registros priorizados por impacto editorial. O arquivo atual apresenta critérios heterogêneos e nem sempre a fonte oficial sustenta a classificação pessoal.
+
+| ID | Evidência / observação | Avaliação | Ação |
+| --- | --- | --- | --- |
+| `fij` | https://fij.org/apply-for-a-grant/ ; página oficial informa que grants financiam reportagens sobre os Estados Unidos, inclusive projetos de repórteres de fora dos EUA | **Inelegibilidade não comprovada apenas pela nacionalidade**; pauta pode ser incompatível com foco geográfico, mas isso não é vedação universal ao candidato | Reavaliar `inelegível` e `descartada` com foco na pauta; não mudar sem confirmar a regra aplicável |
+| `almt-premio-jornalismo-2026` | https://diariooficial.al.mt.gov.br/publicacoes/36040/ ; exige veículo/instituição sediado em MT e cobertura da ALMT | Restrições objetivas documentadas, mas `status=aberta` exige rechecagem do prazo atual | Preservar restrições; separar status da chamada e elegibilidade |
+| `mcgraw-fall26` | https://www.mcgrawcenter.org/the-harold-w-mcgraw-jr-business-journalism-fellowships/ ; FAQ https://www.mcgrawcenter.org/faq/ | A exigência fiscal/territorial registrada no catálogo deve ser confrontada com as regras atuais; não extrapolar uma regra de edição anterior | Manter em revisão até confirmação textual da condição |
+| `fapesp-bridge-jc` | https://fapesp.br/oportunidades/cepid-bridge%3A-gestao-de-ecossistemas-para-transicoes-sustentaveis/9851/ | Registro exige doutorado, curso de jornalismo científico e dedicação integral: restrições verificáveis no edital | Preservar inelegibilidade condicional, ligada a requisitos acadêmicos, não ao tema |
+| `usc-civic27` | https://www.usccmf.org/faq ; https://www.usccmf.org/ | FAQ exige presença em janela de fuso de quatro horas do Pacífico; inviabilidade geográfica não é sinônimo de proibição de nacionalidade | Preservar como incompatibilidade operacional, documentando motivo específico |
+
+**Importante:** esta rodada é auditoria de fundamentos, não atualização automática dos estados pessoais. Os cinco itens permanecem no catálogo sem modificação até revisão final das regras e das decisões individuais.
