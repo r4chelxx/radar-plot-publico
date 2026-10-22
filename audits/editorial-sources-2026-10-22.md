@@ -152,3 +152,12 @@ Três registros de `data/opportunities.js` corrigidos com critérios explícitos
 O registro `fij` foi reclassificado de `inelegível/descartada` para `restrita/monitorar`, com próximo prazo anunciado em 29/01/2027, segundo https://fij.org/apply-for-a-grant/ e https://fij.org/grants-faq/. Para reportagens internacionais, exige forte ângulo norte-americano, publicação em inglês por veículo nos EUA; grant regular requer carta de compromisso, seed grant não. A antiga classificação confundia restrição de pauta com inelegibilidade geral do candidato. Alteração apenas na branch do PR #35; decisões pessoais preservadas.
 
 **Alicia Patterson:** continua pendente de revalidação individual, incluindo confirmação de edital, URL canônica e condições específicas; não inferir que critérios dos grants regulares do FIJ se aplicam automaticamente ao fellowship.
+
+
+## Lote 13 — três verificações paralelas (22/10/2026)
+
+- **Alicia Patterson (`alicia`)**: corrigida a URL para https://fij.org/alicia-patterson-fellowships/ e a elegibilidade de `inelegível` para `restrita`; o edital atual permite fellows residentes fora dos EUA, mas exige reportagem escrita centrada nos EUA para veículos dos EUA. A edição 2027 encerrou em 01/10/2026; `status=encerrada`. A página antiga da fundação descreve requisitos históricos mais restritivos; prevalece o regulamento de 2027 da administradora atual, FIJ.
+- **Media Party + World Bank (`media-party-wb26`)**: URL oficial https://mediaparty.org/en/2026/05/14/journalism-micro-grants-media-party-world-bank/ ; países contemplados Argentina, Bolívia, México e Equador. A exclusão de projeto brasileiro é sustentada geograficamente.
+- **Allard Pierson (`allard-cartography`)**: https://www.allardpierson.nl/en/fellowships/allard-pierson-fellowship-for-cartography e https://www.allardpierson.nl/en/fellowships/fellowships-2027 ; inscrições 2027 encerradas. Mantida classificação, esclarecida restrição de pesquisa e status.
+
+**Controle:** arquivo `data/opportunities.js` revalidado como JSON após as alterações. Nenhum estado pessoal `sem_interesse` alterado. PR permanece em rascunho.
