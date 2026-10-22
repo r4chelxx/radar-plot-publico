@@ -8,6 +8,8 @@ on:
       - 'scripts/test-web-intake.js'
       - 'scripts/unify-discovery.js'
       - 'scripts/quality-gate-discovery.js'
+      - 'scripts/sample-editorial-review.js'
+      - 'scripts/export-editorial-review.js'
       - 'scripts/report-discovery-operations.js'
       - 'scripts/summarize-discovery.js'
       - 'data/sources.js'

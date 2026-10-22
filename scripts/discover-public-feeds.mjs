@@ -26,7 +26,7 @@ for(const feed of feeds){
    const atom=body.match(/<link\b[^>]*href=["']([^"']+)["']/i);
    const raw=kind.toLowerCase()==='entry'?(atom?.[1]||pick(body,'link')):pick(body,'link');
    if(!raw||!title)continue;
-   try{leads.push({url:canonical(raw),title,category:'uncategorized'});count++}catch{}
+   try{leads.push({url:canonical(raw),title,category:'uncategorized',sourceName:feed.name});count++}catch{}
   }
   health.push({source:feed.name,status:'ok',items:count});
  }catch(e){health.push({source:feed.name,status:'error',reason:String(e.message||e).slice(0,160),items:0})}

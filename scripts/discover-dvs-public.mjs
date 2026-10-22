@@ -27,7 +27,7 @@ for(const page of pages){
    const title=m[2].replace(/<[^>]*>/g,' ').replace(/&amp;/g,'&').replace(/\s+/g,' ').trim();
    if(title.length<3||title.length>180)continue;
    if(/^(?:subscribe|log in|sign in|share|follow|contact|donate|privacy|terms|cookie|read more|learn more|view all)$/i.test(title))continue;
-   seen.add(url);leads.push({url,title,category:'uncategorized'});added++;
+   seen.add(url);leads.push({url,title,category:'uncategorized',sourceName:'Data Visualization Society'});added++;
   }
   health.push({page,status:'ok',candidates:added});
  }catch(e){health.push({page,status:'error',reason:String(e.message||e).slice(0,120)})}

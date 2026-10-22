@@ -19,7 +19,7 @@ for(const item of queue.candidates||[]){
  const nav=generic.test(String(item.title||'').trim());
  const classification=match?'catalog-match':nav?'generic-navigation':'needs-editorial-review';
  report.counts.total++;report.counts[match?'catalogMatches':nav?'genericNavigation':'needsReview']++;
- report.review.push({id:item.id,url:item.url,title:item.title,origins:item.origins,classification,reviewPriority:classification!=='needs-editorial-review'?'excluded':topical.test(String(item.title||''))?'high':'normal',publicationReady:false});
+ report.review.push({id:item.id,url:item.url,title:item.title,origins:item.origins,providers:item.providers||[],classification,reviewPriority:classification!=='needs-editorial-review'?'excluded':topical.test(String(item.title||''))?'high':'normal',publicationReady:false});
 }
 report.summary={highPriority:report.review.filter(x=>x.reviewPriority==='high').length,normalPriority:report.review.filter(x=>x.reviewPriority==='normal').length,excludedFromReview:report.review.filter(x=>x.reviewPriority==='excluded').length,byOrigin:{}};
 for(const item of report.review)for(const origin of item.origins||[]){const key=typeof origin==='string'?origin:String(origin.source||'unknown');report.summary.byOrigin[key]=(report.summary.byOrigin[key]||0)+1;}
