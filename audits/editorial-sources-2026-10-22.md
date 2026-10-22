@@ -16,3 +16,16 @@ Escopo: verificação de fontes oficiais e distinção entre chamada aberta, enc
 - Não apagar duplicatas até mapear vínculos com itens publicados, IDs e referências.
 - A fonte Jeduca menciona futura categoria Estudante: monitorar em novembro, sem antecipar inscrição.
 - Próximo lote: verificar demais prêmios e fellowships pendentes, links oficiais e duplicidades semânticas.
+
+
+## Lote 2 — prêmios brasileiros (22/10/2026)
+
+| Fonte | Evidência oficial | Situação verificada | Encaminhamento |
+| --- | --- | --- | --- |
+| Prêmio Vladimir Herzog 2026 | https://premiovladimirherzog.org/regulamento-2026/ ; https://inscricoes.premiovladimirherzog.org/cadastro/ | Encerrado em 20/06/2026 às 23h59; regulamento exige registro profissional (MTb) do responsável | Atualizar URL da fonte para regulamento específico; classificar edição 2026 como encerrada |
+| Prêmio Sebrae de Jornalismo 2026 | https://premiosebraejornalismo.com.br/ ; https://premiosebraejornalismo.com.br/login/ | Inscrições encerradas em 08/06/2026; site oficial explicita encerramento | Manter para monitoramento da próxima edição, não exibir como aberto |
+| Prêmio CNT de Jornalismo 2026 | https://hmgforumdebates.cnt.org.br/ | Página em subdomínio `hmg` (homologação) informa inscrições 24/06–07/08/2026; ainda falta validação em domínio público oficial de produção | Não trocar link principal por homologação; registrar data como evidência provisória e buscar edital oficial |
+| Prêmio Banco do Nordeste 2026 | https://www.bnb.gov.br/web/guest/premio-bnb-de-jornalismo/regulamento | Regulamento oficial: inscrições 05/01–30/06/2026; encerradas; total de R$ 290 mil em prêmios | Preferir URL específica do regulamento, manter fonte recorrente e marcar 2026 encerrado |
+| Prêmio ESPM de Jornalismo | Sem regulamento 2026 localizado nesta rodada | Insuficiente para certificar edição ativa | Manter pendente, sem data inventada |
+
+**Observação de qualidade:** a página de homologação da CNT não deve ser tratada como fonte canônica. Nenhuma alteração no catálogo de produção até validar URLs e referências internas.
