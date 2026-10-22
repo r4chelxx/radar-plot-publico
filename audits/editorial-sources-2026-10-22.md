@@ -263,3 +263,10 @@ Run `Radar source discovery` **39872703432**: sucesso, gate sintaxe/cobertura ap
 Pesquisa em páginas públicas oficiais identificou alternativas **editoriais**, não comprovadamente acessíveis via coletor Node: Informed Earth `https://informedstories.org/en/informed-earth/opportunities/` e página geral `https://informedstories.org/en/opportunities/`; Pulitzer Center `https://pulitzercenter.org/opportunities/grants-fellowships` (caminho diferente do monitorado); GIJN `https://gijn.org/follow/` para canais oficiais e `https://gijn.org/jobs/` para vagas. Acesso pelo mecanismo de busca **não comprova** HTTP 200 no GitHub Actions. Não substituir URLs no catálogo nem prometer feeds RSS/API sem validação técnica. Manter monitoramento e triagem manual de 403/429.
 
 Próximas etapas: identificar sexta fonte via artefato; testar URLs alternativas sem burlar proteções; examinar execução `main` para comprovar gravação em `radar-state`. PR segue draft.
+
+
+## Lote 26 — identificação da sexta falha
+
+Inspecionado o artefato `source-intake-39872703432` (ID 12467022513), arquivo `source-review.json`. Os cinco HTTP 403 permanecem Informed Earth, Pulitzer Center, Earth Journalism Network, GIJN Jobs Board e GIJN Saved Links. A sexta falha é **HTTP 500** na `Assembleia Legislativa de Mato Grosso — ALMT` (`https://www.al.mt.gov.br/`). HTTP 500 não justifica exclusão, despublicação nem substituição automática da fonte. É necessário repetir a consulta em rodada posterior e verificar se o erro persiste.
+
+A coleta teve 31 URLs acessíveis, seis erros HTTP, 22 URLs diárias selecionadas e 106 links candidatos. Manter distinção entre disponibilidade HTTP e verificação editorial. Persistência de histórico na `main` ainda não verificada nesta auditoria.
