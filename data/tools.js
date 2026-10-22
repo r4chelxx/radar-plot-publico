@@ -1,12 +1,5 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.tools=[
-{
-    "id": "bellingcat-wildfire-satellite-imagery-guide",
-    "name": "Bellingcat — Guia para investigar incêndios com imagens de satélite",
-    "kind": "guia de investigação geoespacial e verificação por satélite",
-    "url": "https://www.bellingcat.com/resources/2026/07/23/how-to-use-satellite-imagery-to-investigate-wildfires/",
-    "desc": "Guia metodológico da Bellingcat sobre investigação de incêndios florestais com imagens de satélite e fontes abertas. Explica como comparar imagens, localizar focos e delimitar áreas atingidas. A disponibilidade, resolução e frequência das imagens variam conforme a plataforma e a região; imagens de satélite, por si só, não demonstram autoria ou causa do incêndio. Cruzar resultados com registros oficiais, meteorologia e verificação independente."
-  },
   {
     "id": "normal-tools",
     "name": "Normal Tools",
