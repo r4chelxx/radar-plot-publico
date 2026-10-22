@@ -13,14 +13,18 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: "22"
-      - name: Convert audited web candidates
+      - name: Discover new public feed entries
+        run: node scripts/discover-public-feeds.mjs
+      - name: Convert previously audited web candidates
         run: node scripts/collect-web-leads.js
-      - name: Consolidate available source
-        run: node scripts/unify-discovery.js intake/web-discovery-input.json
+      - name: Consolidate live and historical candidates
+        run: node scripts/unify-discovery.js intake/live-web-discovery.json intake/web-discovery-input.json
       - name: Upload non-publishing discovery queue
         uses: actions/upload-artifact@v4
         with:
           name: radar-unified-web-intake
           path: |
+            intake/live-web-discovery.json
+            intake/live-web-health.json
             intake/web-discovery-input.json
             intake/unified-discovery.json
