@@ -1,8 +1,9 @@
 #!/usr/bin/env node
 // Daily public web discovery from explicitly approved RSS/Atom feeds.
 // Candidate-only: never claims a call is open or editorially verified.
-const fs=require('node:fs');
-const {canonical}=require('./lead-identity');
+import fs from 'node:fs';
+import identityModule from './lead-identity.js';
+const {canonical}=identityModule;
 const feeds=[
  {name:'GIJN',url:'https://gijn.org/feed/'},
  {name:'Journalism.co.uk',url:'https://www.journalism.co.uk/rss/news'},
