@@ -1,0 +1,55 @@
+name: Unified public web intake
+on:
+  pull_request:
+    paths:
+      - 'scripts/collect-web-leads.js'
+      - 'scripts/discover-public-feeds.mjs'
+      - 'scripts/discover-dvs-public.mjs'
+      - 'scripts/test-web-intake.js'
+      - 'scripts/unify-discovery.js'
+      - 'data/sources.js'
+      - '.github/workflows/unified-web-intake.yml'
+  workflow_dispatch:
+  schedule:
+    - cron: "30 12 * * *"
+permissions:
+  contents: read
+jobs:
+  collect-web:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Test web intake safeguards
+        run: node scripts/test-web-intake.js
+      - name: Discover new public feed entries
+        id: feeds
+        continue-on-error: true
+        run: node scripts/discover-public-feeds.mjs
+      - name: Discover public DVS toolkit links
+        id: dvs
+        continue-on-error: true
+        run: node scripts/discover-dvs-public.mjs
+      - name: Require at least one live discovery source
+        run: |
+          if [ "${{ steps.feeds.outcome }}" != "success" ] && [ "${{ steps.dvs.outcome }}" != "success" ]; then
+            echo 'All live discovery collectors failed'
+            exit 1
+          fi
+      - name: Convert previously audited web candidates
+        run: node scripts/collect-web-leads.js
+      - name: Consolidate live and historical candidates
+        run: node scripts/unify-discovery.js intake/live-web-discovery.json intake/dvs-public-discovery.json intake/web-discovery-input.json
+      - name: Upload non-publishing discovery queue
+        uses: actions/upload-artifact@v4
+        with:
+          name: radar-unified-web-intake
+          path: |
+            intake/live-web-discovery.json
+            intake/live-web-health.json
+            intake/dvs-public-discovery.json
+            intake/dvs-public-health.json
+            intake/web-discovery-input.json
+            intake/unified-discovery.json
