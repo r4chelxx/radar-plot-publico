@@ -11,6 +11,7 @@ on:
       - 'tests/normalize-lead-link.test.js'
       - 'scripts/load-source-catalog.js'
       - 'tests/source-catalog.test.js'
+      - 'tests/source-intake-coverage.test.js'
       - 'scripts/triage-candidates.js'
       - 'scripts/update-lead-history.js'
       - 'scripts/lead-identity.js'
@@ -36,6 +37,7 @@ on:
       - 'scripts/inspect-lead-pages.js'
       - 'tests/lead-privacy.test.js'
       - 'tests/source-catalog.test.js'
+      - 'tests/source-intake-coverage.test.js'
       - 'tests/inspection-order.test.js'
       - 'scripts/update-lead-history.js'
       - 'scripts/lead-identity.js'
@@ -59,6 +61,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
+      - name: Check source collector syntax and daily coverage
+        run: node --test tests/source-intake-coverage.test.js
       - name: Test persistent lead history
         run: node --test tests/lead-history.test.js tests/source-catalog.test.js tests/editorial-review.test.js tests/editorial-priority.test.js tests/inspection-order.test.js tests/lead-privacy.test.js tests/normalize-lead-link.test.js
       - name: Inspect monitored source websites
