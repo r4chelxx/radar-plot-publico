@@ -247,7 +247,7 @@ window.RADAR_PARTS.sources=[
     "scope": "Internacional ou ibero-americano",
     "role": "fonte oficial",
     "priority": "Alta",
-    "cadence": "semanal",
+    "cadence": "diária",
     "category": "oportunidades/jornalismo",
     "lastChecked": "2026-10-19",
     "checkStatus": "verificada"
@@ -295,7 +295,7 @@ window.RADAR_PARTS.sources=[
     "scope": "Brasil e internacional, conforme edital",
     "role": "fonte oficial",
     "priority": "Alta",
-    "cadence": "semanal",
+    "cadence": "diária",
     "category": "oportunidades/jornalismo",
     "lastChecked": "2026-10-19",
     "checkStatus": "verificada"
@@ -487,7 +487,7 @@ window.RADAR_PARTS.sources=[
     "scope": "América Latina",
     "role": "agregador editorial",
     "priority": "Alta",
-    "cadence": "semanal",
+    "cadence": "diária",
     "category": "oportunidades/jornalismo",
     "lastChecked": "2026-10-19",
     "checkStatus": "pendente de auditoria"
@@ -643,7 +643,7 @@ window.RADAR_PARTS.sources=[
     "scope": "Europa / colaboração internacional condicionada",
     "role": "fonte oficial",
     "priority": "Alta",
-    "cadence": "semanal",
+    "cadence": "diária",
     "category": "oportunidades",
     "lastChecked": "2026-10-19",
     "checkStatus": "verificada"
@@ -679,7 +679,7 @@ window.RADAR_PARTS.sources=[
     "scope": "Global / América Latina / Brasil",
     "role": "curadoria / descoberta",
     "priority": "Alta",
-    "cadence": "semanal",
+    "cadence": "diária",
     "category": "oportunidades",
     "lastChecked": "2026-10-22",
     "checkStatus": "verificada"
@@ -691,7 +691,7 @@ window.RADAR_PARTS.sources=[
     "scope": "Global, com concentração histórica nos EUA",
     "role": "curadoria / descoberta",
     "priority": "Alta",
-    "cadence": "semanal",
+    "cadence": "diária",
     "category": "oportunidades",
     "lastChecked": "2026-10-19",
     "checkStatus": "verificada"
@@ -955,7 +955,7 @@ window.RADAR_PARTS.sources=[
     "scope": "Global / EUA",
     "role": "fonte oficial",
     "priority": "Alta",
-    "cadence": "semanal",
+    "cadence": "diária",
     "category": "oportunidades",
     "lastChecked": "2026-10-19",
     "checkStatus": "verificada"
@@ -979,7 +979,7 @@ window.RADAR_PARTS.sources=[
     "scope": "Global",
     "role": "fonte oficial",
     "priority": "Alta",
-    "cadence": "semanal",
+    "cadence": "diária",
     "category": "oportunidades",
     "lastChecked": "2026-10-19",
     "checkStatus": "verificada"
@@ -991,7 +991,7 @@ window.RADAR_PARTS.sources=[
     "scope": "Global",
     "role": "fonte oficial",
     "priority": "Alta",
-    "cadence": "semanal",
+    "cadence": "diária",
     "category": "oportunidades",
     "lastChecked": "2026-10-19",
     "checkStatus": "verificada"
@@ -1435,7 +1435,7 @@ window.RADAR_PARTS.sources=[
     "scope": "Global",
     "priority": "Alta",
     "url": "https://pulitzercenter.org/grants-fellowships",
-    "cadence": "semanal",
+    "cadence": "diária",
     "category": "dados/visual",
     "lastChecked": "2026-10-15",
     "checkStatus": "verificada"
@@ -1446,7 +1446,7 @@ window.RADAR_PARTS.sources=[
     "scope": "Global",
     "priority": "Alta",
     "url": "https://www.icfj.org/our-programs",
-    "cadence": "semanal",
+    "cadence": "diária",
     "category": "oportunidades",
     "lastChecked": "2026-10-19",
     "checkStatus": "verificada"
@@ -1457,7 +1457,7 @@ window.RADAR_PARTS.sources=[
     "scope": "Global",
     "priority": "Alta",
     "url": "https://www.iwmf.org/",
-    "cadence": "semanal",
+    "cadence": "diária",
     "category": "oportunidades",
     "lastChecked": "2026-10-19",
     "checkStatus": "verificada"
@@ -1490,7 +1490,7 @@ window.RADAR_PARTS.sources=[
     "scope": "Ibero-América",
     "priority": "Alta",
     "url": "https://fundaciongabo.org/es/convocatorias",
-    "cadence": "semanal",
+    "cadence": "diária",
     "category": "oportunidades",
     "lastChecked": "2026-10-19",
     "checkStatus": "verificada"
@@ -1501,7 +1501,7 @@ window.RADAR_PARTS.sources=[
     "scope": "Global",
     "priority": "Alta",
     "url": "https://reutersinstitute.politics.ox.ac.uk/",
-    "cadence": "semanal",
+    "cadence": "diária",
     "category": "oportunidades",
     "lastChecked": "2026-10-19",
     "checkStatus": "verificada"
@@ -1523,7 +1523,7 @@ window.RADAR_PARTS.sources=[
     "scope": "Global",
     "priority": "Alta",
     "url": "https://earthjournalism.net/",
-    "cadence": "semanal",
+    "cadence": "diária",
     "category": "clima/ambiente",
     "lastChecked": "2026-10-22",
     "checkStatus": "verificada"
