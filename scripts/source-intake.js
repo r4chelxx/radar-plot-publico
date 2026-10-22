@@ -4,14 +4,15 @@ const crypto = require('node:crypto');
 const {normalizeLink}=require('./normalize-lead-link');
 
 const {sources:unique,registryCount,invalidOrDuplicate}=require('./load-source-catalog').loadSources();
-// Rotate batches across the complete catalog. The report includes coverage metadata.
+// Inspect all daily sources every run; rotate a separate batch of other sources.
+// SOURCE_LIMIT controls the rotating batch only, not the daily source count.
 const limit = Math.max(1, Number(process.env.SOURCE_LIMIT || 15));
-const batchCount = Math.max(1,Math.ceil(unique.length / limit));
+const daily = unique.filter(s=>s.cadence==='diária');
+const rotating = unique.filter(s=>s.cadence!=='diária');
+const batchCount = Math.max(1,Math.ceil(rotating.length / limit));
 const batchIndex = Math.floor(Date.now()/86400000) % batchCount;
-const selected = unique.slice(batchIndex*limit, (batchIndex+1)*limit);
-// Check priority aggregators on every run without abandoning catalog rotation.
-const priority = unique.filter(s=>/grants for journalists|gfmd/i.test(s.name));
-const selectedSources = [...new Map([...priority,...selected].map(s=>[s.url,s])).values()];
+const selected = rotating.slice(batchIndex*limit, (batchIndex+1)*limit);
+const selectedSources = [...new Map([...daily,...selected].map(s=>[s.url,s])).values()];
 async function inspect(s) {
   const controller = new AbortController();
   const timer = setTimeout(()=>controller.abort(),12000);
@@ -30,6 +31,6 @@ async function inspect(s) {
   const results=[];
   for (const s of selectedSources) results.push(await inspect(s));
   fs.mkdirSync('intake',{recursive:true});
-  fs.writeFileSync('intake/source-review.json',JSON.stringify({note:'Leads only: no opportunities or deadlines verified. HTTP success does not imply successful content extraction.',coverage:{totalSources:unique.length,registryCount,invalidOrDuplicate,batchIndex:batchIndex+1,batchCount,checked:results.length,unreviewed:unique.length-results.length,prioritySources:priority.map(s=>s.name),limitations:'LinkedIn, JavaScript-rendered and paginated content may be inaccessible; HTTP success does not imply complete coverage'},results},null,2)+'\n');
+  fs.writeFileSync('intake/source-review.json',JSON.stringify({note:'Leads only: no opportunities or deadlines verified. HTTP success does not imply successful content extraction.',coverage:{totalSources:unique.length,registryCount,invalidOrDuplicate,batchIndex:batchIndex+1,batchCount,checked:results.length,unreviewed:unique.length-results.length,dailySources:daily.map(s=>s.name),rotatingBatchSize:selected.length,prioritySources:daily.map(s=>s.name),limitations:'LinkedIn, JavaScript-rendered and paginated content may be inaccessible; HTTP success does not imply complete coverage'},results},null,2)+'\n');
   console.log('Sources inspected:',results.length,'of',unique.length,'batch',batchIndex+1,'of',batchCount);
 })().catch(e=>{console.error(e);process.exitCode=1});
