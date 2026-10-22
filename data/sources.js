@@ -185,24 +185,24 @@ window.RADAR_PARTS.sources=[
     "url": "https://premiovladimirherzog.org/regulamento-2026/",
     "type": "Prêmio de jornalismo",
     "scope": "Brasil",
-    "role": "monitorar editais oficiais futuros; sem confirmação de inscrições 2027",
+    "role": "Regulamento oficial da 48ª edição; inscrições 20/05 a 20/06/2026 encerradas; monitorar próxima edição",
     "priority": "Média",
     "cadence": "mensal",
     "category": "oportunidades/jornalismo",
-    "lastChecked": "2026-10-19",
-    "checkStatus": "pendente de auditoria"
+    "lastChecked": "2026-10-22",
+    "checkStatus": "verificada"
   },
   {
     "name": "Prêmio Sebrae de Jornalismo",
-    "url": "https://premiosebraedejornalismo.com.br/",
+    "url": "https://premiosebraejornalismo.com.br/",
     "type": "Prêmio de jornalismo",
     "scope": "Brasil",
-    "role": "monitorar editais oficiais futuros; sem confirmação de inscrições 2027",
+    "role": "Página oficial confirma inscrições encerradas em 08/06/2026; acompanhar resultados e próxima edição",
     "priority": "Média",
     "cadence": "mensal",
     "category": "oportunidades/jornalismo",
-    "lastChecked": "2026-10-19",
-    "checkStatus": "pendente de auditoria"
+    "lastChecked": "2026-10-22",
+    "checkStatus": "verificada"
   },
   {
     "name": "Prêmio CNT de Jornalismo",
@@ -218,15 +218,15 @@ window.RADAR_PARTS.sources=[
   },
   {
     "name": "Prêmio BNB de Jornalismo",
-    "url": "https://www.bnb.gov.br/",
+    "url": "https://www.bancodonordeste.gov.br/premio-bnb-de-jornalismo/regulamento",
     "type": "Prêmio de jornalismo",
     "scope": "Brasil",
-    "role": "monitorar editais oficiais futuros; sem confirmação de inscrições 2027",
+    "role": "Regulamento oficial da edição 2026: inscrições 05/01 a 30/06/2026 encerradas; monitorar próxima edição",
     "priority": "Média",
     "cadence": "mensal",
     "category": "oportunidades/jornalismo",
-    "lastChecked": "2026-10-19",
-    "checkStatus": "pendente de auditoria"
+    "lastChecked": "2026-10-22",
+    "checkStatus": "verificada"
   },
   {
     "name": "Prêmio ESPM de Jornalismo",
