@@ -134,3 +134,14 @@ Cinco registros priorizados por impacto editorial. O arquivo atual apresenta cri
 | `usc-civic27` | https://www.usccmf.org/faq ; https://www.usccmf.org/ | FAQ exige presença em janela de fuso de quatro horas do Pacífico; inviabilidade geográfica não é sinônimo de proibição de nacionalidade | Preservar como incompatibilidade operacional, documentando motivo específico |
 
 **Importante:** esta rodada é auditoria de fundamentos, não atualização automática dos estados pessoais. Os cinco itens permanecem no catálogo sem modificação até revisão final das regras e das decisões individuais.
+
+
+## Lote 11 — exclusões com restrições oficiais (22/10/2026)
+
+Três registros de `data/opportunities.js` corrigidos com critérios explícitos e data de verificação, sem alterar decisões pessoais:
+
+- `jf-pascal`: publicação em veículo neerlandófono belga e relevância para Flandres; prazo 01/10/2026 encerrado. https://grants.journalismfund.eu/en/pascal-decroos-fund ; https://grants.journalismfund.eu/en/grant-details
+- `jf-belgian`: residência legal na Bélgica, equipe com idiomas neerlandês/francês e publicação nas duas comunidades; prazo 15/10/2026 encerrado. https://grants.journalismfund.eu/en/belgian-bridge ; https://grants.journalismfund.eu/en/grant-details-2
+- `ahcj-int`: candidatura exclusiva para jornalistas baseados nos EUA; edição 2027 fechada. https://healthjournalism.org/fellowships/ahcj-international-health-study-fellowships/
+
+**Limitação:** classificação `inelegível` é contextual, não um juízo universal sobre nacionalidade. Próximos lotes devem revisar os 14 registros restantes, em especial FIJ e Alicia Patterson (há suspeita de URL de regulamento incorreta).
