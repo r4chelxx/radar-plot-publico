@@ -22,9 +22,11 @@ for(const page of pages){
    try{url=canonical(new URL(href,page).toString())}catch{continue}
    const host=new URL(url).hostname;
    if(host.endsWith('datavisualizationsociety.org')||host.endsWith('nightingaledvs.com'))continue;
+   if(/(?:^|\\.)(?:facebook|instagram|linkedin|twitter|x|youtube|tiktok|pinterest|discord|medium)\\.com$/i.test(host)||host==='youtu.be')continue;
    if(seen.has(url))continue;
    const title=m[2].replace(/<[^>]*>/g,' ').replace(/&amp;/g,'&').replace(/\s+/g,' ').trim();
    if(title.length<3||title.length>180)continue;
+   if(/^(?:subscribe|log in|sign in|share|follow|contact|donate|privacy|terms|cookie|read more|learn more|view all)$/i.test(title))continue;
    seen.add(url);leads.push({url,title,category:'uncategorized'});added++;
   }
   health.push({page,status:'ok',candidates:added});
