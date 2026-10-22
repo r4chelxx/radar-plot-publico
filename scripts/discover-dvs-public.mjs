@@ -1,8 +1,9 @@
 #!/usr/bin/env node
 // Discover candidate tool and dataset links on DVS public guide pages.
 // This is discovery, not independent verification of linked products.
-const fs=require('node:fs');
-const {canonical}=require('./lead-identity');
+import fs from 'node:fs';
+import identityModule from './lead-identity.js';
+const {canonical}=identityModule;
 const pages=[
  'https://datavisualizationsociety.org/new-to-data-viz/',
  'https://new.datavisualizationsociety.org/familiar-with-data-viz/'
