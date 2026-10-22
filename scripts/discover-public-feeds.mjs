@@ -7,9 +7,10 @@ const {canonical}=identityModule;
 const feeds=[
  {name:'GIJN',url:'https://gijn.org/feed/'},
  {name:'Journalism.co.uk',url:'https://www.journalism.co.uk/rss/news'},
- {name:'Data Is Plural',url:'https://www.data-is-plural.com/feed.xml'}
+ {name:'Data Is Plural',url:'https://www.data-is-plural.com/feed.xml'},
+ {name:'Nieman Lab',url:'https://www.niemanlab.org/feed/'},
+ {name:'The Fix Media',url:'https://thefix.media/feed/'}
 ];
-const deadline=AbortSignal.timeout(12000);
 const decode=s=>String(s||'').replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g,'$1').replace(/<[^>]*>/g,' ').replace(/&amp;/g,'&').replace(/&quot;/g,'"').replace(/&#39;/g,"'").trim();
 const pick=(xml,tag)=>{const m=xml.match(new RegExp('<(?:[\\w-]+:)?'+tag+'(?:\\s[^>]*)?>([\\s\\S]*?)<\\/(?:[\\w-]+:)?'+tag+'>','i'));return m?decode(m[1]):''};
 const leads=[],health=[];
