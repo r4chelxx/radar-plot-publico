@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-22T13:14:37.322Z",
+  "checkedAt": "2026-10-22T18:35:54.922Z",
   "policy": "404/410 becomes broken only after appearing as suspect or broken in the previous audit; blocked and network results are inconclusive",
   "counts": {
     "ok": 346,
@@ -1115,7 +1115,6 @@
       "finalUrl": "https://www.generonumero.media/dados-abertos/",
       "class": "ok",
       "attempts": [
-        "TypeError:fetch failed",
         200
       ]
     },
@@ -2503,7 +2502,6 @@
       "finalUrl": "https://dadosabertos.aneel.gov.br/dataset/samp",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -2596,6 +2594,7 @@
       "finalUrl": "https://dadosabertos.ibama.gov.br/dataset/fiscalizacao-auto-de-infracao",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -2831,11 +2830,11 @@
       "type": "source",
       "id": "One World Media — Awards e Fellowship",
       "url": "https://oneworldmedia.org.uk/awards/",
-      "status": 200,
+      "status": 202,
       "finalUrl": "https://oneworldmedia.org.uk/awards/",
       "class": "ok",
       "attempts": [
-        200
+        202
       ]
     },
     {
@@ -3226,13 +3225,11 @@
       "type": "source",
       "id": "ANA/SNIRH — Geosserviços de Outorgas",
       "url": "https://www.snirh.gov.br/arcgis/rest/services/SRE/OutorgasDireitodeUso/FeatureServer",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "AbortError:This operation was aborted",
+      "status": 200,
+      "finalUrl": "https://www.snirh.gov.br/arcgis/rest/services/SRE/OutorgasDireitodeUso/FeatureServer",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "AbortError:This operation was aborted"
+        200
       ]
     },
     {
@@ -3547,11 +3544,13 @@
       "type": "source",
       "id": "MapBiomas Alerta",
       "url": "https://alerta.mapbiomas.org/metodo-mapbiomas-alerta/",
-      "status": 200,
-      "finalUrl": "https://alerta.mapbiomas.org/metodo-mapbiomas-alerta/",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "AbortError:This operation was aborted",
       "attempts": [
-        200
+        "AbortError:This operation was aborted",
+        "AbortError:This operation was aborted"
       ]
     },
     {
@@ -4315,6 +4314,17 @@
     },
     {
       "type": "tool",
+      "id": "osint-navigator",
+      "url": "https://navigator.indicator.media/",
+      "status": 200,
+      "finalUrl": "https://navigator.indicator.media/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
       "id": "normal-tools",
       "url": "https://www.normaltools.com/",
       "status": 200,
@@ -4519,6 +4529,7 @@
       "finalUrl": "https://www.generonumero.media/artigos/cartilha-violencia-de-genero/",
       "class": "ok",
       "attempts": [
+        "TypeError:fetch failed",
         200
       ]
     },
@@ -4695,17 +4706,6 @@
       "url": "https://indicator.media/indicator-lab",
       "status": 200,
       "finalUrl": "https://indicator.media/indicator-lab",
-      "class": "ok",
-      "attempts": [
-        200
-      ]
-    },
-    {
-      "type": "tool",
-      "id": "osint-navigator",
-      "url": "https://navigator.indicator.media/",
-      "status": 200,
-      "finalUrl": "https://navigator.indicator.media/",
       "class": "ok",
       "attempts": [
         200
