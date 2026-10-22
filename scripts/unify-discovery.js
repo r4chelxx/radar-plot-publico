@@ -12,7 +12,8 @@ const merged=new Map(),errors=[],sources={web:0,gmail:0,linkedin:0},sourceHealth
 for(const file of inputs){
  let parsed;
  try{parsed=JSON.parse(fs.readFileSync(file,'utf8'))}catch(e){errors.push({file,error:'Unreadable JSON'});continue}
- if(!allowed.has(parsed.source)||!Array.isArray(parsed.leads)){errors.push({file,error:'Expected {source:web|gmail|linkedin,leads:[]}'});continue}\n sourceHealth[parsed.source].files++;
+ if(!allowed.has(parsed.source)||!Array.isArray(parsed.leads)){errors.push({file,error:'Expected {source:web|gmail|linkedin,leads:[]}'});continue}
+ sourceHealth[parsed.source].files++;
  for(const item of parsed.leads){
   try{
    if(!item||typeof item.url!=='string')throw Error('Missing URL');
