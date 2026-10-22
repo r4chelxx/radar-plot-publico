@@ -47,6 +47,8 @@ jobs:
         run: node scripts/unify-discovery.js intake/live-web-discovery.json intake/dvs-public-discovery.json intake/web-discovery-input.json
       - name: Classify duplicate and navigation candidates
         run: node scripts/quality-gate-discovery.js
+      - name: Prepare editorial review sample
+        run: node scripts/sample-editorial-review.js
       - name: Summarize collector reliability
         run: node scripts/report-discovery-operations.js
       - name: Show source failures in workflow summary
@@ -64,3 +66,4 @@ jobs:
             intake/unified-discovery.json
             intake/discovery-quality.json
             intake/discovery-operations.json
+            intake/editorial-review-sample.json
