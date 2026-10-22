@@ -2,6 +2,9 @@ name: Browser regression tests
 on:
   pull_request:
     paths:
+      - 'scripts/test-web-intake.js'
+      - 'scripts/sample-editorial-review.js'
+      - 'scripts/export-editorial-review.js'
       - 'app.js'
       - 'index.html'
       - 'styles.css'
