@@ -98,3 +98,11 @@ Alterados em `data/sources.js`:
 **CNT:** evidência de finalistas em outubro confirma que a fase de inscrição terminou; URL de homologação não é apropriada para substituir fonte oficial. https://abtc.org.br/index.php/noticias/noticias-do-setor/item/8607-premio-cnt-de-jornalismo-2026-divulga-35-trabalhos-finalistas.html
 
 **Limites:** `checkStatus` representa a verificação da fonte, não o status de candidatura. Nenhum merge realizado; verificar testes e referências antes de publicação.
+
+
+## Lote 8 — revalidação independente de fontes oficiais (22/10/2026)
+
+- Rory Peck Trust: página oficial https://rorypecktrust.org/get-help/ informa expressamente que o Crisis Fund está fechado. Não confundir com outros programas de apoio.
+- MIT Knight Science Journalism: https://ksj.mit.edu/fellowships/academic-year-fellowship/ confirma abertura em 15/11/2026 e encerramento em 09/01/2027; não está aberto em 22/10/2026.
+- One World Media: portal oficial https://oneworldmedia.awardsplatform.com/about/BMYOlBdn informa que tanto Awards como Talent programmes estão fechados; o Fellowship é distinto do Awards.
+- A alteração do catálogo foi tentada mas bloqueada pelo controle de segurança da ferramenta. Nenhuma correção em data/sources.js foi concluída neste lote. Manter pendente até nova execução autorizada.
