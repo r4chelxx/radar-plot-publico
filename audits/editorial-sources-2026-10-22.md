@@ -106,3 +106,16 @@ Alterados em `data/sources.js`:
 - MIT Knight Science Journalism: https://ksj.mit.edu/fellowships/academic-year-fellowship/ confirma abertura em 15/11/2026 e encerramento em 09/01/2027; não está aberto em 22/10/2026.
 - One World Media: portal oficial https://oneworldmedia.awardsplatform.com/about/BMYOlBdn informa que tanto Awards como Talent programmes estão fechados; o Fellowship é distinto do Awards.
 - A alteração do catálogo foi tentada mas bloqueada pelo controle de segurança da ferramenta. Nenhuma correção em data/sources.js foi concluída neste lote. Manter pendente até nova execução autorizada.
+
+
+## Lote 9 — revisão de descartadas, inelegíveis e decisões pessoais (22/10/2026)
+
+Inspeção do arquivo `data/opportunities.js` na branch principal: 103 oportunidades; 12 com `status=descartada`, 17 com `eligibility=inelegível`; união de 17 registros (todas as 12 descartadas também inelegíveis). O campo `verified` é data de registro, não evidência suficiente de auditoria do motivo.
+
+**Lista completa para revisão de critérios:** 2º Prêmio ALMT de Jornalismo 2026; Howard G. Buffett Fund for Women Journalists; Pascal Decroos Fund; Belgian Bridge; Nature-based Solutions Reporting Workshop; International Health Study Fellowship; Fund for Investigative Journalism — Regular/Seed Grants; Alicia Patterson Fellowship 2027; McGraw Fellowship for Business Journalism — Fall 2026; Allard Pierson Fellowship for Cartography 2027; Data Fellowship 2026–27; Bolsa JC-IV — CEPID BRIDGE; Journalist in Residence — Peace & Conflict Cartography; Pamela Tobey Award for Excellence in Visual Storytelling 2026; USC Civic Media Fellowship — próximo ciclo; Media Party + World Bank Data & AI Microgrants 2026; Reporting Grants for Women’s Stories — encerrado.
+
+**Risco editorial prioritário:** o item `fij` está marcado `descartada` e `inelegível`. Antes de conservar essa decisão, revisar se se refere a requisito do programa, a escopo geográfico, ou a inadequação específica da pauta. Não inferir inelegibilidade só por uma candidatura anterior descartada.
+
+**Decisões “Não vou fazer”:** `app.js` representa o estado pessoal como `sem_interesse` em `EDITORIAL.states`, carregado apenas com sessão autenticada. Portanto, a auditoria de `data/opportunities.js` **não cobre essa seção privada**. Exige consulta read-only às políticas e, mediante acesso autorizado, contagem e inspeção dos estados pessoais sem expor conteúdo privado no relatório público.
+
+**Critérios para próximo lote:** evidência oficial específica para cada restrição; diferenciar inelegibilidade jurídica, inadequação editorial, prazo encerrado e decisão pessoal; preservar registros sem alterar estados privados.
