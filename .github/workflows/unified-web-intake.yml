@@ -7,6 +7,7 @@ on:
       - 'scripts/discover-dvs-public.mjs'
       - 'scripts/test-web-intake.js'
       - 'scripts/unify-discovery.js'
+      - 'scripts/quality-gate-discovery.js'
       - 'data/sources.js'
       - '.github/workflows/unified-web-intake.yml'
   workflow_dispatch:
@@ -42,6 +43,8 @@ jobs:
         run: node scripts/collect-web-leads.js
       - name: Consolidate live and historical candidates
         run: node scripts/unify-discovery.js intake/live-web-discovery.json intake/dvs-public-discovery.json intake/web-discovery-input.json
+      - name: Classify duplicate and navigation candidates
+        run: node scripts/quality-gate-discovery.js
       - name: Upload non-publishing discovery queue
         uses: actions/upload-artifact@v4
         with:
@@ -53,3 +56,4 @@ jobs:
             intake/dvs-public-health.json
             intake/web-discovery-input.json
             intake/unified-discovery.json
+            intake/discovery-quality.json
