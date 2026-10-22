@@ -4,7 +4,7 @@ window.RADAR_PARTS.datasets=[
     "id": "copernicus-igcc-climate-change-indicators",
     "name": "Copernicus CDS — Indicators of Global Climate Change (IGCC)",
     "org": "Copernicus Climate Change Service / ECMWF e equipe científica IGCC coordenada pela University of Leeds",
-    "territoryTier": "Global",
+    "territoryTier": "Outros",
     "kind": "dataset",
     "themes": [
       "Clima",
