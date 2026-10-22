@@ -270,3 +270,8 @@ Próximas etapas: identificar sexta fonte via artefato; testar URLs alternativas
 Inspecionado o artefato `source-intake-39872703432` (ID 12467022513), arquivo `source-review.json`. Os cinco HTTP 403 permanecem Informed Earth, Pulitzer Center, Earth Journalism Network, GIJN Jobs Board e GIJN Saved Links. A sexta falha é **HTTP 500** na `Assembleia Legislativa de Mato Grosso — ALMT` (`https://www.al.mt.gov.br/`). HTTP 500 não justifica exclusão, despublicação nem substituição automática da fonte. É necessário repetir a consulta em rodada posterior e verificar se o erro persiste.
 
 A coleta teve 31 URLs acessíveis, seis erros HTTP, 22 URLs diárias selecionadas e 106 links candidatos. Manter distinção entre disponibilidade HTTP e verificação editorial. Persistência de histórico na `main` ainda não verificada nesta auditoria.
+
+
+## Lote 28 — persistência e acompanhamento
+
+Verificada leitura direta do histórico em `radar-state`: 197 leads, `updatedAt=2026-10-22T15:27:29.440Z`. A leitura posterior não mostrou atualização mais recente. Isto não comprova falha do job, mas também não permite afirmar que a persistência esteja atualizando continuamente. O job `persist` só roda na `main`; sua execução foi intencionalmente ignorada nos runs de PR. O teste preventivo de sintaxe/cobertura e a classificação `blockedSources` passaram no CI. Próximo passo é examinar um run programado/dispatch da `main` e seu job `persist`, sem mudar permissões ou gravar estado por meio da branch de auditoria.
