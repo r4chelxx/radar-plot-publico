@@ -4251,7 +4251,7 @@ window.RADAR_PARTS.opportunities=[
     "verified": "2026-10-01",
     "scope": "Internacional",
     "fit": 8,
-    "eligibility": "inelegível",
+    "eligibility": "restrita",
     "id": "iwmf-rgws",
     "title": "Reporting Grants for Women’s Stories — encerrado",
     "org": "IWMF",
