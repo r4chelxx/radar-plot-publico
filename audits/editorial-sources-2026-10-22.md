@@ -208,3 +208,12 @@ Workflow `Radar source discovery` run **39867295897** (commit `8e6e30b`) termino
 **Atenção:** o log agregado não separa acessos HTTP bem-sucedidos de falhas individuais; sucesso do workflow não é garantia de qualidade de extração. Para tornar a cobertura auditável, `scripts/source-intake.js` passa a registrar `dailyExpected` e `dailySelected` no JSON de resultados. Conferir ambos na próxima execução e auditar o artefato por fonte.
 
 **Risco técnico remanescente:** o lote rotativo usa índice baseado no dia do calendário módulo quantidade de lotes; alterações na quantidade de fontes podem reordenar a cobertura. Não alterar essa política sem teste de continuidade. Persistência de histórico permanece a validar (job `persist` foi ignorado nesta execução).
+
+
+## Lote 19 — falhas individuais e histórico
+
+O workflow `Radar source discovery` run 39867868676 concluiu com sucesso e confirmou 37/183 fontes únicas inspecionadas. Job `persist` foi **skipped**; logo, não há evidência de persistência do histórico nesse run. `scripts/update-lead-history.js` prepara `lead-history-next.json` e `lead-history-delta.json`, mas a gravação persistente depende do job e da configuração do workflow.
+
+O coletor `scripts/source-intake.js` agora inclui no relatório JSON e nos logs: `dailyExpected`, `dailySelected`, `dailyAccessible`, `dailyFailures` (nome, URL, status, HTTP e erro), `accessSummary` e `leadsFound`. Isso permite auditar os erros por fonte e comparar cobertura esperada/real. **O novo resumo ainda requer execução pós-commit**; não inferir contagem de falhas a partir de logs anteriores.
+
+Pendências: conferir workflow persist e suas condições de execução; preservar histórico público de leads entre rodadas; adicionar testes automatizados para cobertura diária e tolerância a falhas individuais. Sem merge/publicação.
