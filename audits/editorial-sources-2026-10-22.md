@@ -63,3 +63,15 @@ Escopo: verificação de fontes oficiais e distinção entre chamada aberta, enc
 - **OWM:** Awards e Fellowship são produtos distintos da mesma instituição; não deduplicar entre eles.
 - **Fontes secundárias:** datas históricas não podem migrar automaticamente para o estado de inscrições abertas.
 - Nenhuma linha de `data/sources.js` foi alterada neste lote; aguardar reconciliação de IDs e links antes de atualizar catálogo.
+
+
+## Lote 5 — reconciliação aplicada na branch (22/10/2026)
+
+**Alterações realizadas em `data/sources.js`:**
+- Jeduca — prêmio e fonte institucional passam a apontar para a página oficial do edital; distinção explícita entre a oportunidade e a fonte de monitoramento.
+- Roche — registro do prêmio aponta para o regulamento; registro da Fundación Gabo identifica corretamente a secretaria técnica do mesmo prêmio, evitando contagem duplicada.
+- Quatro entradas receberam `lastChecked: 2026-10-22` e `checkStatus: verificada`, sem apagar registros e sem declarar inscrições abertas.
+
+**Fontes de confirmação:** https://jeduca.org.br/noticia/resultado-do-8-edital-de-jornalismo-de-educacao-esta-no-ar ; https://premiorochedeperiodismo.com/pt-br/conheca-os-resultados-das-inscricoes-ao-premio-roche-2026/ .
+
+**Pendente:** conciliar One World Media Awards vs Fellowship (programas distintos), Abraji institucional vs prêmio, e validar impacto das alterações nos testes antes de merge.
