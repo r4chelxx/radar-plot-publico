@@ -181,3 +181,10 @@ O registro `fij` foi reclassificado de `inelegível/descartada` para `restrita/m
 **Inventário de fontes:** 187 registros em `data/sources.js`: 8 com cadência diária, 43 semanal, 50 quinzenal e 86 mensal; 15 pendentes de auditoria, 34 em auditoria inicial, 137 verificadas e 1 canal editorial a monitorar. A cadência já é armazenada, mas a execução automática e a atualização de cada oportunidade a partir da fonte ainda exigem teste e implementação; **não afirmar que a reverificação está automatizada**.
 
 **Testes ainda necessários:** validar o JS em ambiente local/CI; garantir que `#arquivo/factual` mostre todas as encerradas, que a busca inclua o arquivo e que os filtros pessoais não afetem o catálogo global. Não publicar sem regressão.
+
+
+## Lote 16 — aumento de monitoramento diário
+
+Promovidas 15 fontes prioritárias de cadência semanal para diária em `data/sources.js`: IJ4EU, GFMD Funding Opportunities, Grants for Journalists catálogo, National Press Foundation, John S. Knight, Nieman Foundation, Pulitzer Center, ICFJ, IWMF, Fundación Gabo, Reuters Institute, Earth Journalism Network, LatAm Journalism Review, The Open Notebook e Informed Earth. Total diário: **8 → 23 fontes** (de 187). Os registros foram preservados, sem mudanças em URLs ou prioridades.
+
+**Limitação operacional:** alteração de metadados não equivale a agendamento ou execução diária efetiva. Ainda é preciso identificar o job/workflow existente e comprovar que lê `cadence`, registrar `lastChecked`, produzir evidência de execução e tratar falhas. Não publicar como automação concluída sem essa validação. JSON do catálogo validado após edição.
