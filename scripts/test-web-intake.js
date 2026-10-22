@@ -17,6 +17,7 @@ try{
  assert(unify.includes('item.sourceName'), 'Unified intake must retain source provider');
  const sampleScript=fs.readFileSync('scripts/sample-editorial-review.js','utf8');
  assert(sampleScript.includes('item.providers'), 'Editorial sample must rotate by provider');
+ assert(sampleScript.includes('sourceDistribution'), 'Editorial sample must report source mix');
  const qualityScript=fs.readFileSync('scripts/quality-gate-discovery.js','utf8');
  assert(qualityScript.includes('providers:item.providers'), 'Quality gate must propagate providers');
  console.log('Web intake and provider provenance regression passed');
