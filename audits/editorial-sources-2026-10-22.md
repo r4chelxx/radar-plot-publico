@@ -254,3 +254,12 @@ Pendências: avaliar fontes oficiais alternativas acessíveis, feeds e acesso vi
 `source-intake.js` agora produz `coverage.blockedSources` com nome, URL, HTTP 403/429, status editorial `unverified` e encaminhamento `manual-or-official-feed-review`. O resumo de logs informa a quantidade bloqueada, sem tratar HTTP 403/429 como página inexistente. Nenhuma URL ou fonte foi removida. Corrigida documentação do algoritmo de rotação: alterações de tamanho de lote podem modificar a ordem de cobertura, portanto não há garantia de round-robin estável quando `SOURCE_LIMIT` muda.
 
 Próximas verificações: execução CI para o novo campo; levantar feeds/APIs oficiais de GIJN, Pulitzer Center, EJN e Informed Earth e validar acessibilidade sem contornar bloqueios; consultar runs `main` para evidência real de persistência `radar-state`. O job `persist` em PR segue intencionalmente desabilitado. Sem merge.
+
+
+## Lote 25 — CI, bloqueios e alternativas oficiais
+
+Run `Radar source discovery` **39872703432**: sucesso, gate sintaxe/cobertura aprovado; `dailyExpected=22`, `dailySelected=22`, `dailyAccessible=17`, `dailyFailures=5`, `blockedSources=5`, `accessSummary={http-error:6,accessible:31}`, `leadsFound=106`. A diferença entre seis erros HTTP totais e cinco bloqueios exige inspeção do artefato mais recente para identificar a sexta fonte (possivelmente fora do subconjunto diário). Não deduzir qual é.
+
+Pesquisa em páginas públicas oficiais identificou alternativas **editoriais**, não comprovadamente acessíveis via coletor Node: Informed Earth `https://informedstories.org/en/informed-earth/opportunities/` e página geral `https://informedstories.org/en/opportunities/`; Pulitzer Center `https://pulitzercenter.org/opportunities/grants-fellowships` (caminho diferente do monitorado); GIJN `https://gijn.org/follow/` para canais oficiais e `https://gijn.org/jobs/` para vagas. Acesso pelo mecanismo de busca **não comprova** HTTP 200 no GitHub Actions. Não substituir URLs no catálogo nem prometer feeds RSS/API sem validação técnica. Manter monitoramento e triagem manual de 403/429.
+
+Próximas etapas: identificar sexta fonte via artefato; testar URLs alternativas sem burlar proteções; examinar execução `main` para comprovar gravação em `radar-state`. PR segue draft.
