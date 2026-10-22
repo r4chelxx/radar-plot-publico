@@ -247,3 +247,10 @@ Run `Radar source discovery` **39869273419**: novo gate `Check source collector 
 Artefato de execução anterior `source-intake-39868530120` (ID 12464064491) inspecionado individualmente. As cinco fontes com HTTP **403** foram: Informed Earth — Climate Journalism Network (`informedstories.org/en/informed-earth/opportunities/apply-informed-climate-journalism-network/`), Pulitzer Center (`pulitzercenter.org/grants-fellowships`), Earth Journalism Network (`earthjournalism.net/`), GIJN Jobs Board (`gijn.org/jobs`) e GIJN Saved Links (`gijn.org/rounduplink/`). Erro 403 significa acesso negado ao coletor, **não** comprova que as páginas estão fora do ar nem que as fontes sejam inválidas. Manter todas no catálogo e na cadência diária; não trocar URLs sem validação editorial.
 
 Pendências: avaliar fontes oficiais alternativas acessíveis, feeds e acesso via navegador respeitando bloqueios; sinalizar bloqueio HTTP como questão técnica sem reclassificar status editorial. Investigar execução da main para confirmar persistência em `radar-state`.
+
+
+## Lote 24 — bloqueios 403/429 e revisão assistida
+
+`source-intake.js` agora produz `coverage.blockedSources` com nome, URL, HTTP 403/429, status editorial `unverified` e encaminhamento `manual-or-official-feed-review`. O resumo de logs informa a quantidade bloqueada, sem tratar HTTP 403/429 como página inexistente. Nenhuma URL ou fonte foi removida. Corrigida documentação do algoritmo de rotação: alterações de tamanho de lote podem modificar a ordem de cobertura, portanto não há garantia de round-robin estável quando `SOURCE_LIMIT` muda.
+
+Próximas verificações: execução CI para o novo campo; levantar feeds/APIs oficiais de GIJN, Pulitzer Center, EJN e Informed Earth e validar acessibilidade sem contornar bloqueios; consultar runs `main` para evidência real de persistência `radar-state`. O job `persist` em PR segue intencionalmente desabilitado. Sem merge.
