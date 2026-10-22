@@ -1,10 +1,10 @@
 {
-  "checkedAt": "2026-10-22T12:53:42.761Z",
+  "checkedAt": "2026-10-22T13:14:37.322Z",
   "policy": "404/410 becomes broken only after appearing as suspect or broken in the previous audit; blocked and network results are inconclusive",
   "counts": {
-    "ok": 339,
-    "blocked": 37,
-    "network": 53
+    "ok": 346,
+    "blocked": 38,
+    "network": 46
   },
   "results": [
     {
@@ -748,11 +748,11 @@
       "type": "opportunity",
       "id": "persephone-2027",
       "url": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/persephone-miel-fellowships",
-      "status": 200,
+      "status": 403,
       "finalUrl": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/persephone-miel-fellowships",
-      "class": "ok",
+      "class": "blocked",
       "attempts": [
-        200
+        403
       ]
     },
     {
@@ -1115,6 +1115,7 @@
       "finalUrl": "https://www.generonumero.media/dados-abertos/",
       "class": "ok",
       "attempts": [
+        "TypeError:fetch failed",
         200
       ]
     },
@@ -1326,13 +1327,11 @@
       "type": "dataset",
       "id": "ana-outorgas-federais-geoservico",
       "url": "https://www.snirh.gov.br/arcgis/rest/services/SRE/OutorgasDireitodeUso/FeatureServer/0",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "AbortError:This operation was aborted",
+      "status": 200,
+      "finalUrl": "https://www.snirh.gov.br/arcgis/rest/services/SRE/OutorgasDireitodeUso/FeatureServer/0",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "AbortError:This operation was aborted"
+        200
       ]
     },
     {
@@ -1654,7 +1653,7 @@
       "class": "network",
       "error": "TypeError:fetch failed",
       "attempts": [
-        "AbortError:This operation was aborted",
+        "TypeError:fetch failed",
         "TypeError:fetch failed"
       ]
     },
@@ -1662,52 +1661,44 @@
       "type": "dataset",
       "id": "sei-geoportal-rest",
       "url": "https://map.geo.sei.ba.gov.br/arcgis/rest/services",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://map.geo.sei.ba.gov.br/arcgis/rest/services",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
       "type": "dataset",
       "id": "sei-regionalizacao",
       "url": "https://map.geo.sei.ba.gov.br/arcgis/rest/services/servicos_sei/REGIONALIZACAO_VIGENTE/FeatureServer",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://map.geo.sei.ba.gov.br/arcgis/rest/services/servicos_sei/REGIONALIZACAO_VIGENTE/FeatureServer",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
       "type": "dataset",
       "id": "sei-localidades",
       "url": "https://map.geo.sei.ba.gov.br/arcgis/rest/services/servicos_sei/LOCALIDADE_BAHIA/MapServer",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://map.geo.sei.ba.gov.br/arcgis/rest/services/servicos_sei/LOCALIDADE_BAHIA/MapServer",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
       "type": "dataset",
       "id": "sei-divisao-municipal",
       "url": "https://map.geo.sei.ba.gov.br/arcgis/rest/services/servicos_sei/DPA_A_100K_VIGENTE_GCS_SIR_SEI/FeatureServer/0",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://map.geo.sei.ba.gov.br/arcgis/rest/services/servicos_sei/DPA_A_100K_VIGENTE_GCS_SIR_SEI/FeatureServer/0",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -1719,7 +1710,7 @@
       "class": "network",
       "error": "TypeError:fetch failed",
       "attempts": [
-        "AbortError:This operation was aborted",
+        "TypeError:fetch failed",
         "TypeError:fetch failed"
       ]
     },
@@ -1727,26 +1718,23 @@
       "type": "dataset",
       "id": "bahia-transparencia",
       "url": "https://www.transparencia.ba.gov.br/Portal",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://www.transparencia.ba.gov.br/Portal",
+      "class": "ok",
       "attempts": [
         "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
       "type": "dataset",
       "id": "sspba-estatisticas",
       "url": "https://www.ba.gov.br/ssp/publicacoes",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://www.ba.gov.br/ssp/publicacoes",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -1768,7 +1756,6 @@
       "finalUrl": "https://dadosabertos.aneel.gov.br/",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -2003,7 +1990,6 @@
       "finalUrl": "https://www.ba.gov.br/saude/suvisa/vigilancia-epidemiologica",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -2015,7 +2001,6 @@
       "finalUrl": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -2518,6 +2503,7 @@
       "finalUrl": "https://dadosabertos.aneel.gov.br/dataset/samp",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -2918,7 +2904,7 @@
       "class": "network",
       "error": "TypeError:fetch failed",
       "attempts": [
-        "AbortError:This operation was aborted",
+        "TypeError:fetch failed",
         "TypeError:fetch failed"
       ]
     },
@@ -3823,6 +3809,17 @@
     },
     {
       "type": "source",
+      "id": "DVS — New to Data Viz (guia público de ferramentas)",
+      "url": "https://datavisualizationsociety.org/new-to-data-viz/",
+      "status": 200,
+      "finalUrl": "https://datavisualizationsociety.org/new-to-data-viz/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
       "id": "IRE / NICAR",
       "url": "https://www.ire.org/",
       "status": 200,
@@ -4522,7 +4519,6 @@
       "finalUrl": "https://www.generonumero.media/artigos/cartilha-violencia-de-genero/",
       "class": "ok",
       "attempts": [
-        "TypeError:fetch failed",
         200
       ]
     },
