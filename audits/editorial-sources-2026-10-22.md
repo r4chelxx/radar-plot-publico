@@ -231,3 +231,10 @@ Os testes anteriores do workflow passaram (15/15), mas não detectaram a falha p
 GitHub Actions `Radar source discovery` run **39868530120** após correção de sintaxe: sucesso; **37/183 URLs únicas** inspecionadas; `dailyExpected=22`, `dailySelected=22`, `dailyAccessible=17`, `dailyFailures=5`; `accessSummary={accessible:32,http-error:5}`; `leadsFound=102`. O cadastro possui 23 registros diários, mas o loader deduplica URLs e expõe 22 únicas. Cinco falhas diárias requerem inspeção do artefato para identificar domínios/causas; não se pode inferir isso do resumo agregado.
 
 Adicionado `tests/source-intake-coverage.test.js` para validar sintaxe do coletor, presença da seleção diária, indicadores de falha e piso de 20 URLs diárias únicas. **Pendente:** confirmar que o CI executa o novo teste e verificar o resultado no Actions; teste ainda não equivale a gate integrado. Persistência do histórico (`persist` skipped) permanece em aberto. Sem merge/publicação.
+
+
+## Lote 22 — integração de teste ao workflow e explicação da persistência
+
+Inspecionado `.github/workflows/source-discovery.yml`: cron diário `30 10 * * *` (UTC), workflow_dispatch, push e pull_request; o job `persist` tem condição explícita `github.ref == 'refs/heads/main'` e eventos `schedule|workflow_dispatch|push`. Logo, **persist skipped em PR/branch é comportamento esperado**, evitando escrita em `radar-state` durante testes. Em `main`, o job baixa o artefato, valida `lead-history-next.json`, faz PUT em `radar-state`, compara o conteúdo remoto e cria/comenta issue editorial. Não há ainda evidência examinada de run da main com `persist` concluído.
+
+Atualizado o workflow para incluir `tests/source-intake-coverage.test.js` nos filtros de push/PR e executá-lo antes de `scripts/source-intake.js`. O teste valida sintaxe e seleção de fontes diárias. **Pendente:** observar execução CI do commit e inspecionar as cinco URLs diárias com falha no artefato da run 39868530120. Não alterar a política de persistência da main sem necessidade.
