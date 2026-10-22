@@ -1,12 +1,23 @@
 {
-  "checkedAt": "2026-10-21T21:53:38.355Z",
+  "checkedAt": "2026-10-22T12:18:44.470Z",
   "policy": "404/410 becomes broken only after appearing as suspect or broken in the previous audit; blocked and network results are inconclusive",
   "counts": {
-    "ok": 339,
-    "blocked": 37,
-    "network": 47
+    "blocked": 38,
+    "ok": 338,
+    "network": 52
   },
   "results": [
+    {
+      "type": "opportunity",
+      "id": "ejn-bbnj-cop1-reporting-fellowship-2027",
+      "url": "https://earthjournalism.net/opportunities/reporting-fellowships-for-journalists-to-cover-bbnj-cop1-in-new-york-city-usa",
+      "status": 403,
+      "finalUrl": "https://earthjournalism.net/opportunities/reporting-fellowships-for-journalists-to-cover-bbnj-cop1-in-new-york-city-usa",
+      "class": "blocked",
+      "attempts": [
+        403
+      ]
+    },
     {
       "type": "opportunity",
       "id": "new-america-better-life-lab-care-reporting-2026-27",
@@ -1065,6 +1076,17 @@
     },
     {
       "type": "dataset",
+      "id": "copernicus-igcc-climate-change-indicators",
+      "url": "https://cds.climate.copernicus.eu/datasets/multi-origin-igcc-climate-change-indicators?tab=overview",
+      "status": 200,
+      "finalUrl": "https://cds.climate.copernicus.eu/datasets/multi-origin-igcc-climate-change-indicators?tab=overview",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
       "id": "fiquem-sabendo-contas-irregulares-candidatos-2026",
       "url": "https://docs.google.com/spreadsheets/d/1UY3iAuXoO4DLABdNTPOq08o2A1Z3uXFj/edit",
       "status": 200,
@@ -1293,11 +1315,13 @@
       "type": "dataset",
       "id": "ana-outorgas-federais-geoservico",
       "url": "https://www.snirh.gov.br/arcgis/rest/services/SRE/OutorgasDireitodeUso/FeatureServer/0",
-      "status": 200,
-      "finalUrl": "https://www.snirh.gov.br/arcgis/rest/services/SRE/OutorgasDireitodeUso/FeatureServer/0",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "AbortError:This operation was aborted",
       "attempts": [
-        200
+        "AbortError:This operation was aborted",
+        "AbortError:This operation was aborted"
       ]
     },
     {
@@ -1631,6 +1655,7 @@
       "finalUrl": "https://map.geo.sei.ba.gov.br/arcgis/rest/services",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -1649,22 +1674,26 @@
       "type": "dataset",
       "id": "sei-localidades",
       "url": "https://map.geo.sei.ba.gov.br/arcgis/rest/services/servicos_sei/LOCALIDADE_BAHIA/MapServer",
-      "status": 200,
-      "finalUrl": "https://map.geo.sei.ba.gov.br/arcgis/rest/services/servicos_sei/LOCALIDADE_BAHIA/MapServer",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "AbortError:This operation was aborted",
+        "TypeError:fetch failed"
       ]
     },
     {
       "type": "dataset",
       "id": "sei-divisao-municipal",
       "url": "https://map.geo.sei.ba.gov.br/arcgis/rest/services/servicos_sei/DPA_A_100K_VIGENTE_GCS_SIR_SEI/FeatureServer/0",
-      "status": 200,
-      "finalUrl": "https://map.geo.sei.ba.gov.br/arcgis/rest/services/servicos_sei/DPA_A_100K_VIGENTE_GCS_SIR_SEI/FeatureServer/0",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "AbortError:This operation was aborted",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -1676,7 +1705,7 @@
       "class": "network",
       "error": "TypeError:fetch failed",
       "attempts": [
-        "TypeError:fetch failed",
+        "AbortError:This operation was aborted",
         "TypeError:fetch failed"
       ]
     },
@@ -1684,35 +1713,39 @@
       "type": "dataset",
       "id": "bahia-transparencia",
       "url": "https://www.transparencia.ba.gov.br/Portal",
-      "status": 200,
-      "finalUrl": "https://www.transparencia.ba.gov.br/Portal",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "AbortError:This operation was aborted",
+        "TypeError:fetch failed"
       ]
     },
     {
       "type": "dataset",
       "id": "sspba-estatisticas",
       "url": "https://www.ba.gov.br/ssp/publicacoes",
-      "status": 200,
-      "finalUrl": "https://www.ba.gov.br/ssp/publicacoes",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
         "AbortError:This operation was aborted",
-        200
+        "TypeError:fetch failed"
       ]
     },
     {
       "type": "dataset",
       "id": "sspba-dados-abertos",
       "url": "https://www.ba.gov.br/ssp/dados-abertos",
-      "status": 200,
-      "finalUrl": "https://www.ba.gov.br/ssp/dados-abertos",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
         "AbortError:This operation was aborted",
-        200
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -1723,7 +1756,6 @@
       "finalUrl": "https://dadosabertos.aneel.gov.br/",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -1735,7 +1767,6 @@
       "finalUrl": "https://dados.ons.org.br/",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -2234,7 +2265,7 @@
       "class": "network",
       "error": "TypeError:fetch failed",
       "attempts": [
-        "TypeError:fetch failed",
+        "AbortError:This operation was aborted",
         "TypeError:fetch failed"
       ]
     },
@@ -2616,13 +2647,11 @@
       "type": "dataset",
       "id": "esporte-lie-painel",
       "url": "https://paineis.mds.gov.br/public/extensions/lei-de-incentivo-v2/lei-de-incentivo-v2.html",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://paineis.mds.gov.br/public/extensions/lei-de-incentivo-v2/lei-de-incentivo-v2.html",
+      "class": "ok",
       "attempts": [
-        "TypeError:fetch failed",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -2738,6 +2767,17 @@
       "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/dados-abertos/cadastros",
       "status": 200,
       "finalUrl": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/dados-abertos/cadastros",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Copernicus Climate Data Store",
+      "url": "https://cds.climate.copernicus.eu/",
+      "status": 200,
+      "finalUrl": "https://cds.climate.copernicus.eu/",
       "class": "ok",
       "attempts": [
         200
@@ -3186,11 +3226,13 @@
       "type": "source",
       "id": "ANA/SNIRH — Geosserviços de Outorgas",
       "url": "https://www.snirh.gov.br/arcgis/rest/services/SRE/OutorgasDireitodeUso/FeatureServer",
-      "status": 200,
-      "finalUrl": "https://www.snirh.gov.br/arcgis/rest/services/SRE/OutorgasDireitodeUso/FeatureServer",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "AbortError:This operation was aborted",
       "attempts": [
-        200
+        "AbortError:This operation was aborted",
+        "AbortError:This operation was aborted"
       ]
     },
     {
@@ -3505,13 +3547,11 @@
       "type": "source",
       "id": "MapBiomas Alerta",
       "url": "https://alerta.mapbiomas.org/metodo-mapbiomas-alerta/",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "AbortError:This operation was aborted",
+      "status": 200,
+      "finalUrl": "https://alerta.mapbiomas.org/metodo-mapbiomas-alerta/",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "AbortError:This operation was aborted"
+        200
       ]
     },
     {
@@ -4264,6 +4304,28 @@
     },
     {
       "type": "tool",
+      "id": "normal-tools",
+      "url": "https://www.normaltools.com/",
+      "status": 200,
+      "finalUrl": "https://www.normaltools.com/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "bellingcat-wildfire-damage-guide",
+      "url": "https://www.bellingcat.com/resources/how-tos/2026/06/30/burning-forests-tools-for-tracking-and-reporting-wildfire-damage/",
+      "status": 200,
+      "finalUrl": "https://www.bellingcat.com/resources/how-tos/2026/06/30/burning-forests-tools-for-tracking-and-reporting-wildfire-damage/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
       "id": "knight-lab-timelinejs",
       "url": "https://timeline.knightlab.com/",
       "status": 200,
@@ -4489,10 +4551,10 @@
       "status": null,
       "finalUrl": null,
       "class": "network",
-      "error": "TypeError:fetch failed",
+      "error": "AbortError:This operation was aborted",
       "attempts": [
-        "TypeError:fetch failed",
-        "TypeError:fetch failed"
+        "AbortError:This operation was aborted",
+        "AbortError:This operation was aborted"
       ]
     },
     {
