@@ -161,3 +161,14 @@ O registro `fij` foi reclassificado de `inelegível/descartada` para `restrita/m
 - **Allard Pierson (`allard-cartography`)**: https://www.allardpierson.nl/en/fellowships/allard-pierson-fellowship-for-cartography e https://www.allardpierson.nl/en/fellowships/fellowships-2027 ; inscrições 2027 encerradas. Mantida classificação, esclarecida restrição de pesquisa e status.
 
 **Controle:** arquivo `data/opportunities.js` revalidado como JSON após as alterações. Nenhum estado pessoal `sem_interesse` alterado. PR permanece em rascunho.
+
+
+## Lote 14 — diretriz global de retenção (22/10/2026)
+
+**Decisão editorial da responsável pelo produto:** o Radar é global; nenhuma oportunidade pode ser excluída do catálogo por país, residência, fuso, formação ou adequação ao perfil individual. Requisitos continuam descritos como metadados, nunca como exclusão do acervo. Inscrições encerradas são arquivadas (registro preservado) e todas as fontes/programas devem ser reverificados periodicamente para identificar reaberturas.
+
+**Aplicado em `data/opportunities.js`:** 12 registros anteriormente `descartada` migrados para `encerrada` (10, incluindo FIJ/Alicia, quando já corrigidos) ou `monitorar` (programas sem data corrente). FIJ confirmado `monitorar`, com prazo 29/01/2027. Todas as classificações `inelegível` foram convertidas para `restrita`, sem apagar regras de participação. Auditoria final da estrutura: 103 registros; **0 `descartada` e 0 `inelegível`**. Os programas encerrados continuam no acervo, mas devem permanecer consultáveis na área de arquivo.
+
+**Correção de prazo:** Media Party + World Bank 2026 teve deadline em 17/05/2026, não 15/06/2026, conforme regulamento https://mediaparty.org/2026/05/14/ai-data-journalism-program-2026/ . A limitação de residência aos quatro países participantes continua apenas informativa.
+
+**Pendências técnicas prioritárias:** conferir se `app.js` apresenta arquivo de encerradas e se algum filtro personalizado oculta programas globais; adicionar campos próprios de `nextCheckAt`/cadência por programa, monitoramento automatizado e reabertura por edição. A normalização de elegibilidade não substitui a verificação do estado pessoal privado `sem_interesse`, que não deve ser confundido com arquivo factual. Nenhum merge neste lote.
