@@ -23,6 +23,8 @@ for(const file of inputs){
    const entry=merged.get(key.id)||{id:key.id,url:key.url,title,category,origins:[],classification:'needs-editorial-review',publicationReady:false};
    if(entry.category==='uncategorized'&&category!=='uncategorized')entry.category=category;
    if(!entry.origins.includes(parsed.source))entry.origins.push(parsed.source);
+   const provider=String(item.sourceName||'').slice(0,100);
+   if(provider){entry.providers=entry.providers||[];if(!entry.providers.includes(provider))entry.providers.push(provider);}
    merged.set(key.id,entry);sources[parsed.source]++;sourceHealth[parsed.source].leads++;
   }catch(e){errors.push({file,error:String(e.message||e)})}
  }
