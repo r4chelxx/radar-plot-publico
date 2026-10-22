@@ -199,3 +199,12 @@ GitHub Actions identificados na branch: `Radar source discovery`, `Unified publi
 **Outros resultados da execução anterior:** `Unified public web intake` registrou 368 candidatos, 365 para revisão, 61 de alta prioridade, com duas fontes falhando; `Radar source discovery` registrou 36 candidatos após inspeção adicional, mas **0 novas oportunidades/bases/ferramentas verificadas** na etapa inicial de triagem. A execução bem-sucedida do job não equivale a publicação de achados verificados.
 
 **Próximos testes:** executar workflow no commit atualizado, conferir cobertura real das 23 diárias, tempos de execução, erros HTTP, relatórios e persistência de histórico. Não houve merge nem publicação neste lote.
+
+
+## Lote 18 — validação pós-correção
+
+Workflow `Radar source discovery` run **39867295897** (commit `8e6e30b`) terminou com sucesso. Logs confirmam **37 fontes únicas inspecionadas de 183**, em comparação com 18 antes da correção; lote rotativo 3/11. Jobs `Validate Radar data`, `Browser regression tests` e `Unified public web intake` também concluíram com sucesso. Artefato `source-intake-39867295897` foi produzido (ID 12464696273).
+
+**Atenção:** o log agregado não separa acessos HTTP bem-sucedidos de falhas individuais; sucesso do workflow não é garantia de qualidade de extração. Para tornar a cobertura auditável, `scripts/source-intake.js` passa a registrar `dailyExpected` e `dailySelected` no JSON de resultados. Conferir ambos na próxima execução e auditar o artefato por fonte.
+
+**Risco técnico remanescente:** o lote rotativo usa índice baseado no dia do calendário módulo quantidade de lotes; alterações na quantidade de fontes podem reordenar a cobertura. Não alterar essa política sem teste de continuidade. Persistência de histórico permanece a validar (job `persist` foi ignorado nesta execução).
