@@ -1,5 +1,14 @@
 name: Unified public web intake
 on:
+  pull_request:
+    paths:
+      - 'scripts/collect-web-leads.js'
+      - 'scripts/discover-public-feeds.mjs'
+      - 'scripts/discover-dvs-public.mjs'
+      - 'scripts/test-web-intake.js'
+      - 'scripts/unify-discovery.js'
+      - 'data/sources.js'
+      - '.github/workflows/unified-web-intake.yml'
   workflow_dispatch:
   schedule:
     - cron: "30 12 * * *"
