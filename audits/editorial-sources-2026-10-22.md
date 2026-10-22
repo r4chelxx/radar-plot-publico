@@ -46,3 +46,20 @@ Escopo: verificação de fontes oficiais e distinção entre chamada aberta, enc
 - A modalidade HEFAT não equivale aos fundos emergenciais da Rory Peck Trust.
 - Yale tem abertura confirmada em comunicação institucional, mas prazo do agregador requer validação oficial.
 - Knight-Wallace foi descoberta fora da lista inicial: avaliar inclusão sem duplicar registros existentes.
+
+
+## Lote 4 — fundos de emergência e curadoria (22/10/2026)
+
+| Fonte | URL oficial | Verificação | Decisão editorial |
+| --- | --- | --- | --- |
+| Free Press Unlimited — Reporters Respond | https://www.freepressunlimited.org/en/projects/reporters-respond-emergency-and-legal-support ; https://www.freepressunlimited.org/en/application-form-reporters-respond | Programa de assistência emergencial mundial com formulário de candidatura acessível. Abrange apoio jurídico, segurança, saúde, equipamentos e subsistência; exige emergência decorrente do jornalismo e confirmação por duas fontes externas | Classificar como **apoio emergencial de demanda contínua**, não como grant de reportagem nem fellowship |
+| Rory Peck Trust — Crisis Fund | https://rorypecktrust.org/get-help/ ; https://rorypecktrust.org/get-help/crisis/crisis-fund/ | Página central oficial declara **THE CRISIS FUND IS NOW CLOSED**, embora a página detalhada ainda mostre links de formulário | Priorizar aviso explícito de encerramento; **não** classificar como aberto; manter distinção entre Crisis Fund e HEFAT |
+| One World Media Fellowship | https://oneworldmedia.org.uk/fellowship/ ; https://oneworldmedia.org.uk/fellowship/apply/ | Programa recorrente de apoio a reportagens do Sul Global, até £3 mil e mentoria; página oficial descreve ciclo anual fevereiro–março, mas não confirma chamada atual de outubro | Classificar como **fellowship recorrente, sem inscrições atuais confirmadas**; separar de One World Media Awards |
+| LatAm Journalism Review — Knight Center | https://latamjournalismreview.org/pt-br/articles/fellowships-bolsas-e-oportunidades-abertas-para-jornalistas-da-america-latina-para-2025-e-2026/ | Lista de bolsas de 29/10/2024, útil como descoberta histórica, mas inadequada para comprovar inscrições em 2026 | Classificar como **fonte secundária de prospecção**; exigir confirmação oficial de cada chamada |
+| John S. Knight Journalism Fellowships — Stanford | https://jsk.stanford.edu/become-a-fellow | Inscrições 2027–28 abertas; prazo oficial 02/12/2026, 13h horário do Pacífico; experiência mínima cinco anos | Candidatura ativa confirmada; conferir duplicação com entradas JSK antes de inserir |
+
+### Alertas de integridade
+- **Conflito de páginas Rory Peck:** usar a página principal de status como referência para a abertura; a existência de formulário antigo não prova chamada aberta.
+- **OWM:** Awards e Fellowship são produtos distintos da mesma instituição; não deduplicar entre eles.
+- **Fontes secundárias:** datas históricas não podem migrar automaticamente para o estado de inscrições abertas.
+- Nenhuma linha de `data/sources.js` foi alterada neste lote; aguardar reconciliação de IDs e links antes de atualizar catálogo.
