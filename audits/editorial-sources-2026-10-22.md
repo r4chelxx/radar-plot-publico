@@ -217,3 +217,10 @@ O workflow `Radar source discovery` run 39867868676 concluiu com sucesso e confi
 O coletor `scripts/source-intake.js` agora inclui no relatório JSON e nos logs: `dailyExpected`, `dailySelected`, `dailyAccessible`, `dailyFailures` (nome, URL, status, HTTP e erro), `accessSummary` e `leadsFound`. Isso permite auditar os erros por fonte e comparar cobertura esperada/real. **O novo resumo ainda requer execução pós-commit**; não inferir contagem de falhas a partir de logs anteriores.
 
 Pendências: conferir workflow persist e suas condições de execução; preservar histórico público de leads entre rodadas; adicionar testes automatizados para cobertura diária e tolerância a falhas individuais. Sem merge/publicação.
+
+
+## Lote 20 — correção de falha de sintaxe no coletor
+
+O run `Radar source discovery` **39868079195** (commit `ee262f3`) falhou na etapa `node scripts/source-intake.js` por `SyntaxError: Invalid or unexpected token` na linha de log do resumo. A alteração anterior havia inserido os caracteres literais `\\n` no código JavaScript, em vez de uma quebra de linha real. Corrigido no commit `a968690`.
+
+Os testes anteriores do workflow passaram (15/15), mas não detectaram a falha porque o arquivo do coletor não estava incluído no teste de sintaxe executado antes da coleta. **Pendente:** validar a execução pós-correção e acrescentar `node --check scripts/source-intake.js` ao gate de CI apropriado. Nenhuma publicação realizada.
