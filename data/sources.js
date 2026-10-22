@@ -1552,13 +1552,26 @@ window.RADAR_PARTS.sources=[
   },
   {
     "name": "Data Visualization Society",
-    "type": "Dataviz / mentoria",
+    "type": "Curadoria global de ferramentas, bases, guias e oportunidades de visualização",
     "scope": "Global",
     "priority": "Alta",
     "url": "https://datavisualizationsociety.org/",
-    "cadence": "semanal",
+    "cadence": "diária",
     "category": "dados/visual",
-    "lastChecked": "2026-10-20",
+    "role": "Descobrir ferramentas e bases citadas nos guias e na biblioteca; confirmar URL, condições de acesso e documentação em cada site oficial. A biblioteca integral DVS Plus exige associação.",
+    "lastChecked": "2026-10-22",
+    "checkStatus": "verificada"
+  },
+  {
+    "name": "DVS — New to Data Viz (guia público de ferramentas)",
+    "url": "https://datavisualizationsociety.org/new-to-data-viz/",
+    "type": "Diretório editorial de ferramentas, bibliotecas e fontes de dados",
+    "scope": "Global",
+    "role": "Auditar ferramentas e bases referenciadas na seção pública Toolkit e Finding Data; conferir origem e licenças no fornecedor antes de catalogar.",
+    "priority": "Alta",
+    "cadence": "diária",
+    "category": "dados/visual",
+    "lastChecked": "2026-10-22",
     "checkStatus": "verificada"
   },
   {
