@@ -9,6 +9,7 @@ on:
       - 'scripts/unify-discovery.js'
       - 'scripts/quality-gate-discovery.js'
       - 'scripts/report-discovery-operations.js'
+      - 'scripts/summarize-discovery.js'
       - 'data/sources.js'
       - '.github/workflows/unified-web-intake.yml'
   workflow_dispatch:
@@ -48,6 +49,8 @@ jobs:
         run: node scripts/quality-gate-discovery.js
       - name: Summarize collector reliability
         run: node scripts/report-discovery-operations.js
+      - name: Show source failures in workflow summary
+        run: node scripts/summarize-discovery.js
       - name: Upload non-publishing discovery queue
         uses: actions/upload-artifact@v4
         with:
