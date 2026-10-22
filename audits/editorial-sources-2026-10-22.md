@@ -145,3 +145,10 @@ Três registros de `data/opportunities.js` corrigidos com critérios explícitos
 - `ahcj-int`: candidatura exclusiva para jornalistas baseados nos EUA; edição 2027 fechada. https://healthjournalism.org/fellowships/ahcj-international-health-study-fellowships/
 
 **Limitação:** classificação `inelegível` é contextual, não um juízo universal sobre nacionalidade. Próximos lotes devem revisar os 14 registros restantes, em especial FIJ e Alicia Patterson (há suspeita de URL de regulamento incorreta).
+
+
+## Lote 12 — correção substantiva FIJ (22/10/2026)
+
+O registro `fij` foi reclassificado de `inelegível/descartada` para `restrita/monitorar`, com próximo prazo anunciado em 29/01/2027, segundo https://fij.org/apply-for-a-grant/ e https://fij.org/grants-faq/. Para reportagens internacionais, exige forte ângulo norte-americano, publicação em inglês por veículo nos EUA; grant regular requer carta de compromisso, seed grant não. A antiga classificação confundia restrição de pauta com inelegibilidade geral do candidato. Alteração apenas na branch do PR #35; decisões pessoais preservadas.
+
+**Alicia Patterson:** continua pendente de revalidação individual, incluindo confirmação de edital, URL canônica e condições específicas; não inferir que critérios dos grants regulares do FIJ se aplicam automaticamente ao fellowship.
