@@ -1,6 +1,15 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.tools=[
   {
+    "id": "indicator-osint-navigator",
+    "name": "Indicator — OSINT Navigator",
+    "kind": "busca e recomendação de ferramentas de investigação em fontes abertas",
+    "url": "https://navigator.indicator.media/",
+    "desc": "Catálogo pesquisável de ferramentas OSINT para encontrar recursos por tarefa investigativa. Reúne ferramentas de diretórios independentes e oferece recomendações contextualizadas; a busca pública é gratuita, enquanto limites e recursos avançados podem variar conforme a modalidade de acesso. O próprio serviço não executa as ferramentas nem verifica automaticamente os resultados de uma investigação. Confira documentação, disponibilidade, custos, privacidade e adequação jurídica antes de utilizar qualquer ferramenta recomendada.",
+    "discoveredVia": ["Indicator"],
+    "discoveryUrl": "https://indicator.media/p/osint-navigator-is-now-publicly-available"
+  },
+  {
     "id": "normal-tools",
     "name": "Normal Tools",
     "kind": "coleção de utilitários locais para texto, dados, arquivos e desenvolvimento",
