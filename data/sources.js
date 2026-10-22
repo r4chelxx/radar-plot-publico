@@ -38,15 +38,15 @@ window.RADAR_PARTS.sources=[
   },
   {
     "name": "Prêmio Brasileiro de Jornalismo Investigativo — Abraji/TI",
-    "url": "https://abraji.org.br/",
+    "url": "https://congresso.abraji.org.br/noticia/21-congresso-da-abraji-reune-mais-de-17-mil-pessoas-e-debate-o-futuro-do-jornalismo",
     "type": "Prêmio e chamadas jornalísticas",
     "scope": "Brasil e internacional",
-    "role": "monitorar próximas edições; confirmar edital específico",
+    "role": "Prêmio lançado pela Abraji e Transparência Internacional para trabalhos publicados em 2026; aguardar regulamento e abertura oficial de inscrições",
     "priority": "Média",
     "cadence": "mensal",
     "category": "oportunidades/jornalismo",
-    "lastChecked": "2026-10-19",
-    "checkStatus": "pendente de auditoria"
+    "lastChecked": "2026-10-22",
+    "checkStatus": "verificada"
   },
   {
     "name": "Prêmio Jeduca de Jornalismo de Educação",
@@ -77,12 +77,12 @@ window.RADAR_PARTS.sources=[
     "url": "https://oneworldmedia.org.uk/awards/",
     "type": "Prêmio e chamadas jornalísticas",
     "scope": "Brasil e internacional",
-    "role": "monitorar próximas edições; confirmar edital específico",
+    "role": "Premiação anual One World Media; monitorar edital de próxima edição, sem inscrições abertas confirmadas",
     "priority": "Média",
     "cadence": "mensal",
     "category": "oportunidades/jornalismo",
-    "lastChecked": "2026-10-19",
-    "checkStatus": "pendente de auditoria"
+    "lastChecked": "2026-10-22",
+    "checkStatus": "verificada"
   },
   {
     "name": "Fundación Gabo — Premio Roche",
@@ -137,12 +137,12 @@ window.RADAR_PARTS.sources=[
     "url": "https://abraji.org.br/",
     "type": "Instituição promotora de prêmios, bolsas ou editais",
     "scope": "Brasil e internacional",
-    "role": "monitoramento de editais futuros; sem confirmação de abertura",
+    "role": "Fonte institucional para monitorar oportunidades da Abraji; não equivale a edital aberto",
     "priority": "Média",
     "cadence": "mensal",
     "category": "oportunidades/jornalismo",
-    "lastChecked": "2026-10-19",
-    "checkStatus": "pendente de auditoria"
+    "lastChecked": "2026-10-22",
+    "checkStatus": "verificada"
   },
   {
     "name": "Talanoa — Instituto",
@@ -434,14 +434,14 @@ window.RADAR_PARTS.sources=[
   },
   {
     "name": "One World Media — Awards e Fellowship",
-    "url": "https://oneworldmedia.org.uk/awards/",
+    "url": "https://oneworldmedia.org.uk/fellowship/",
     "type": "Prêmios internacionais de jornalismo e fellowship para narrativas do Sul Global",
     "scope": "Internacional",
-    "role": "fonte oficial",
+    "role": "Fonte institucional para Fellowship (programa distinto do Awards); chamadas geralmente fevereiro–março, sem abertura atual confirmada",
     "priority": "Alta",
     "cadence": "mensal",
     "category": "oportunidades/jornalismo",
-    "lastChecked": "2026-10-19",
+    "lastChecked": "2026-10-22",
     "checkStatus": "verificada"
   },
   {
