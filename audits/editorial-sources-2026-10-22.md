@@ -224,3 +224,10 @@ Pendências: conferir workflow persist e suas condições de execução; preserv
 O run `Radar source discovery` **39868079195** (commit `ee262f3`) falhou na etapa `node scripts/source-intake.js` por `SyntaxError: Invalid or unexpected token` na linha de log do resumo. A alteração anterior havia inserido os caracteres literais `\\n` no código JavaScript, em vez de uma quebra de linha real. Corrigido no commit `a968690`.
 
 Os testes anteriores do workflow passaram (15/15), mas não detectaram a falha porque o arquivo do coletor não estava incluído no teste de sintaxe executado antes da coleta. **Pendente:** validar a execução pós-correção e acrescentar `node --check scripts/source-intake.js` ao gate de CI apropriado. Nenhuma publicação realizada.
+
+
+## Lote 21 — cobertura comprovada e teste preventivo
+
+GitHub Actions `Radar source discovery` run **39868530120** após correção de sintaxe: sucesso; **37/183 URLs únicas** inspecionadas; `dailyExpected=22`, `dailySelected=22`, `dailyAccessible=17`, `dailyFailures=5`; `accessSummary={accessible:32,http-error:5}`; `leadsFound=102`. O cadastro possui 23 registros diários, mas o loader deduplica URLs e expõe 22 únicas. Cinco falhas diárias requerem inspeção do artefato para identificar domínios/causas; não se pode inferir isso do resumo agregado.
+
+Adicionado `tests/source-intake-coverage.test.js` para validar sintaxe do coletor, presença da seleção diária, indicadores de falha e piso de 20 URLs diárias únicas. **Pendente:** confirmar que o CI executa o novo teste e verificar o resultado no Actions; teste ainda não equivale a gate integrado. Persistência do histórico (`persist` skipped) permanece em aberto. Sem merge/publicação.
