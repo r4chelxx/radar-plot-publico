@@ -1,6 +1,36 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.datasets=[
   {
+    "id": "copernicus-igcc-climate-change-indicators",
+    "name": "Copernicus CDS — Indicators of Global Climate Change (IGCC)",
+    "org": "Copernicus Climate Change Service / ECMWF e equipe científica IGCC coordenada pela University of Leeds",
+    "territoryTier": "Outros",
+    "kind": "dataset",
+    "themes": [
+      "Clima",
+      "Aquecimento global",
+      "Emissões",
+      "Oceanos",
+      "Extremos climáticos",
+      "Políticas públicas"
+    ],
+    "coverage": "Onze indicadores de referência que encadeiam causas, estado e impactos da mudança climática: emissões e concentrações de gases de efeito estufa, forçamento radiativo, desequilíbrio energético da Terra, temperatura observada e atribuída à ação humana, orçamento de carbono, nível do mar, ondas de calor marinhas, extremos de temperatura terrestre e precipitação sobre terra",
+    "frequency": "Anual, após a publicação da avaliação científica IGCC revisada por pares",
+    "format": "NetCDF e CSV, convenção CF-1.9; catálogo também exposto por STAC e CSW",
+    "period": "De 1750 ao presente, variando conforme o indicador; versão inicial 2025a inclui séries até 2025 e orçamento de carbono a partir de 2026",
+    "granularity": "Séries temporais anuais e valores-síntese globais por indicador; alguns arquivos trazem médias móveis, taxas, projeções, métodos de atribuição e conjuntos de entrada",
+    "geoUnit": "Global; média única por indicador, com camadas ou recortes adicionais conforme a variável",
+    "api": "Download pelo Climate Data Store e acesso programático pela API CDS; metadados por STAC e CSW",
+    "docs": "https://cds.climate.copernicus.eu/datasets/multi-origin-igcc-climate-change-indicators?tab=documentation",
+    "limitations": "É uma síntese avaliada construída sobre inventários, observações, reanálises e métodos estatísticos, não um registro observacional primário. A cobertura temporal e as linhas de base variam entre indicadores; incertezas devem ser usadas com os valores centrais. Algumas séries são globais e não permitem análise subnacional.",
+    "lastChecked": "2026-10-22",
+    "url": "https://cds.climate.copernicus.eu/datasets/multi-origin-igcc-climate-change-indicators?tab=overview",
+    "discoveredVia": [
+      "Copernicus Climate Data Store"
+    ],
+    "discoveryUrl": "https://cds.climate.copernicus.eu/datasets/multi-origin-igcc-climate-change-indicators?tab=overview"
+  },
+  {
     "id": "fiquem-sabendo-contas-irregulares-candidatos-2026",
     "name": "Fiquem Sabendo — Gestores com contas irregulares e candidatos nas Eleições 2026",
     "org": "Fiquem Sabendo, com dados originais de Tribunais de Contas e TSE",

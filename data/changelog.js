@@ -1,6 +1,58 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
   {
+    "date": "2026-10-22",
+    "type": "nova-oportunidade",
+    "title": "EJN abre bolsas para cobertura da primeira COP do Tratado do Alto-Mar",
+    "items": [
+      {
+        "id": "ejn-bbnj-cop1-reporting-fellowship-2027",
+        "title": "EJN — Bolsas de cobertura da BBNJ COP1 2027"
+      }
+    ],
+    "detail": "Chamada internacional selecionará dez jornalistas de países costeiros para cobrir a BBNJ COP1 em Nova York. O Radar registrou prazo, custos cobertos, exigência de experiência em oceanos, carta para freelancers, trabalho em inglês e elegibilidade brasileira."
+  },
+  {
+    "date": "2026-10-22",
+    "type": "dados",
+    "title": "Copernicus lança série anual de indicadores globais do clima",
+    "items": [
+      {
+        "id": "copernicus-igcc-climate-change-indicators",
+        "title": "Copernicus CDS — Indicators of Global Climate Change (IGCC)"
+      }
+    ],
+    "detail": "Base recém-publicada reúne onze indicadores climáticos rastreáveis ao IPCC, com CSV, NetCDF, STAC, documentação, incertezas e séries que chegam a 2025. Cobertura, granularidade e limites de uso foram individualizados."
+  },
+  {
+    "date": "2026-10-22",
+    "type": "ferramentas",
+    "title": "Investigação de incêndios e utilitários locais entram no Radar",
+    "items": [
+      {
+        "id": "bellingcat-wildfire-damage-guide",
+        "title": "Bellingcat — guia para investigar danos de incêndios florestais"
+      },
+      {
+        "id": "normal-tools",
+        "title": "Normal Tools"
+      }
+    ],
+    "detail": "Duas ferramentas verificadas: metodologia da Bellingcat para medir danos de incêndios com satélite e SIG; e coleção de utilitários sem login para texto, dados e arquivos, com alertas de privacidade e validação."
+  },
+  {
+    "date": "2026-10-22",
+    "type": "fontes",
+    "title": "Copernicus Climate Data Store entra no monitoramento",
+    "items": [
+      {
+        "id": "copernicus-climate-data-store-source",
+        "title": "Copernicus Climate Data Store"
+      }
+    ],
+    "detail": "O catálogo oficial passa a ser acompanhado semanalmente para novas bases climáticas, versões, documentação e APIs."
+  },
+  {
     "date": "2026-10-21",
     "type": "prazo",
     "title": "Prazo da Ochberg Fellowship 2027 encerrado",

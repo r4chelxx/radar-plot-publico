@@ -1,6 +1,50 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.opportunities=[
   {
+    "id": "ejn-bbnj-cop1-reporting-fellowship-2027",
+    "title": "EJN — Bolsas de cobertura da BBNJ COP1 2027",
+    "org": "Internews — Earth Journalism Network",
+    "summary": "Dez bolsas para jornalistas de países costeiros cobrirem, em Nova York, a primeira Conferência das Partes do tratado internacional sobre biodiversidade além das jurisdições nacionais.",
+    "type": "Fellowship de cobertura",
+    "themes": [
+      "Clima",
+      "Oceanos",
+      "Biodiversidade",
+      "Políticas públicas",
+      "Jornalismo ambiental"
+    ],
+    "scope": "Internacional; países costeiros, com equilíbrio entre Sul e Norte Global",
+    "deadline": "2026-10-27",
+    "deadlineStatus": "confirmado",
+    "eligibility": "elegível",
+    "fit": 9,
+    "status": "aberta",
+    "value": "Cobertura de passagem aérea econômica não reembolsável, hospedagem, refeições, seguro médico de viagem e transporte terrestre relacionados à participação",
+    "duration": "Cobertura presencial em Nova York de 11 a 22/01/2027",
+    "modality": "Presencial, Nova York (Estados Unidos)",
+    "documents": [
+      "Formulário de candidatura",
+      "Currículo e exemplos de trabalhos",
+      "Proposta de cobertura",
+      "Carta de apoio de veículo para freelancers"
+    ],
+    "restrictions": [
+      "Ser jornalista profissional de um país costeiro ou representar veículo estabelecido e reportar a partir de um país costeiro",
+      "Ter compromisso de longo prazo com jornalismo e cobertura de oceanos",
+      "Disponibilidade integral para a programação e capacidade de trabalhar em inglês",
+      "Responsabilidade por passaporte e requisitos de visto; custos só são cobertos conforme as regras oficiais da bolsa"
+    ],
+    "opens": "2026-10-07",
+    "rules": "https://earthjournalism.net/opportunities/reporting-fellowships-for-journalists-to-cover-bbnj-cop1-in-new-york-city-usa",
+    "apply": "https://earthjournalism.net/opportunities/reporting-fellowships-for-journalists-to-cover-bbnj-cop1-in-new-york-city-usa",
+    "discoveredVia": [
+      "Earth Journalism Network"
+    ],
+    "discoveryUrl": "https://earthjournalism.net/opportunities/reporting-fellowships-for-journalists-to-cover-bbnj-cop1-in-new-york-city-usa",
+    "verified": "2026-10-22",
+    "verificationHistory": []
+  },
+  {
     "id": "new-america-better-life-lab-care-reporting-2026-27",
     "title": "Better Life Lab — Bolsas de reportagem sobre cuidado 2026–2027",
     "org": "New America — Better Life Lab",

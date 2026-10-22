@@ -1,6 +1,28 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.tools=[
   {
+    "id": "normal-tools",
+    "name": "Normal Tools",
+    "kind": "coleção de utilitários locais para texto, dados, arquivos e desenvolvimento",
+    "url": "https://www.normaltools.com/",
+    "desc": "Coleção gratuita de 193 utilitários web sem login ou instalação, incluindo diff de texto, formatação e validação de JSON, conversões CSV/JSON e delimitadores, visualizador de CSV, hashes, Markdown, imagens e PDFs. A maioria roda no navegador e o site afirma não salvar as entradas, mas convém evitar material confidencial e verificar a política e o código da ferramenta usada. Alguns cálculos seguem pressupostos ou formatos específicos e resultados críticos exigem conferência independente.",
+    "discoveredVia": [
+      "Quantum of Sollazzo"
+    ],
+    "discoveryUrl": "https://buttondown.com/puntofisso/archive/674-quantum-of-sollazzo/"
+  },
+  {
+    "id": "bellingcat-wildfire-damage-guide",
+    "name": "Bellingcat — guia para investigar danos de incêndios florestais",
+    "kind": "guia prático de investigação ambiental com imagens de satélite e SIG",
+    "url": "https://www.bellingcat.com/resources/how-tos/2026/06/30/burning-forests-tools-for-tracking-and-reporting-wildfire-damage/",
+    "desc": "Guia reproduzível para localizar, medir e contextualizar incêndios com Sentinel-2 no Copernicus Browser, índice NBR, QGIS, Protected Planet e séries históricas do EFFIS. Mostra como delimitar área queimada, estimar severidade, cruzar áreas protegidas e comparar recorrência. Nuvens, datas aproximadas, limiares de NBR, resolução e cobertura dos catálogos podem alterar o resultado; trate estimativas como análise geoespacial documentada e confirme fatos locais antes de publicar.",
+    "discoveredVia": [
+      "Bellingcat"
+    ],
+    "discoveryUrl": "https://www.bellingcat.com/resources/how-tos/2026/06/30/burning-forests-tools-for-tracking-and-reporting-wildfire-damage/"
+  },
+  {
     "id": "knight-lab-timelinejs",
     "name": "Knight Lab — TimelineJS",
     "kind": "linha do tempo interativa e narrativa visual",
