@@ -21,6 +21,7 @@ function diverseSample(items,limit){
  return selected;
 }
 const selected=[...diverseSample(groups.high,25),...diverseSample(groups.normal,10)];
-const out={generatedAt:new Date().toISOString(),selection:'Up to 25 high-priority and 10 normal-priority candidates, round-robin by source, for manual verification only.',totalPending:items.length,selected:selected.map(x=>({title:x.title,url:x.url,origins:x.origins,providers:x.providers||[],priority:x.reviewPriority,verified:false,publicationReady:false}))};
+const sourceDistribution={};for(const item of selected){const key=originKey(item);sourceDistribution[key]=(sourceDistribution[key]||0)+1;}
+const out={generatedAt:new Date().toISOString(),selection:'Up to 25 high-priority and 10 normal-priority candidates, round-robin by source, for manual verification only.',totalPending:items.length,sourceDistribution,selected:selected.map(x=>({title:x.title,url:x.url,origins:x.origins,providers:x.providers||[],priority:x.reviewPriority,verified:false,publicationReady:false}))};
 fs.writeFileSync('intake/editorial-review-sample.json',JSON.stringify(out,null,2)+'\n');
 console.log(JSON.stringify({pending:items.length,sample:selected.length}));
