@@ -10,7 +10,7 @@ const limit = Math.max(1, Number(process.env.SOURCE_LIMIT || 15));
 const daily = unique.filter(s=>s.cadence==='diária');
 const rotating = unique.filter(s=>s.cadence!=='diária');
 const batchCount = Math.max(1,Math.ceil(rotating.length / limit));
-// Stable round-robin: changing the batch count must not skip source groups.
+// Day-based rotation of non-daily sources. Changes to batch size may alter the rotation.
 const batchIndex = Math.floor(Date.now()/86400000) % batchCount;
 const selected = rotating.slice(batchIndex*limit, (batchIndex+1)*limit);
 const selectedSources = [...new Map([...daily,...selected].map(s=>[s.url,s])).values()];
@@ -36,8 +36,9 @@ async function inspect(s) {
   const accessSummary=results.reduce((summary,item)=>{summary[item.accessStatus]=(summary[item.accessStatus]||0)+1;return summary;},{});
   const dailyResults=results.filter(item=>daily.some(source=>source.url===item.url));
   const dailyFailures=dailyResults.filter(item=>item.accessStatus!=='accessible').map(item=>({name:item.name,url:item.url,status:item.accessStatus,httpStatus:item.httpStatus||null,error:item.error||null}));
+  const blockedSources=results.filter(item=>item.httpStatus===403||item.httpStatus===429).map(item=>({name:item.name,url:item.url,httpStatus:item.httpStatus,followUp:'manual-or-official-feed-review',editorialStatus:'unverified'}));
   const leadsFound=results.reduce((total,item)=>total+(item.leads||[]).length,0);
-  fs.writeFileSync('intake/source-review.json',JSON.stringify({note:'Leads only: no opportunities or deadlines verified. HTTP success does not imply successful content extraction.',coverage:{totalSources:unique.length,registryCount,invalidOrDuplicate,batchIndex:batchIndex+1,batchCount,checked:results.length,unreviewed:unique.length-results.length,dailySources:daily.map(s=>s.name),dailyExpected,dailySelected:dailyResults.length,dailyAccessible:dailyResults.filter(item=>item.accessStatus==='accessible').length,dailyFailures,accessSummary,leadsFound,rotatingBatchSize:selected.length,prioritySources:daily.map(s=>s.name),limitations:'LinkedIn, JavaScript-rendered and paginated content may be inaccessible; HTTP success does not imply complete coverage'},results},null,2)+'\n');
+  fs.writeFileSync('intake/source-review.json',JSON.stringify({note:'Leads only: no opportunities or deadlines verified. HTTP success does not imply successful content extraction.',coverage:{totalSources:unique.length,registryCount,invalidOrDuplicate,batchIndex:batchIndex+1,batchCount,checked:results.length,unreviewed:unique.length-results.length,dailySources:daily.map(s=>s.name),dailyExpected,dailySelected:dailyResults.length,dailyAccessible:dailyResults.filter(item=>item.accessStatus==='accessible').length,dailyFailures,blockedSources,accessSummary,leadsFound,rotatingBatchSize:selected.length,prioritySources:daily.map(s=>s.name),limitations:'LinkedIn, JavaScript-rendered and paginated content may be inaccessible; HTTP success does not imply complete coverage'},results},null,2)+'\n');
   console.log('Sources inspected:',results.length,'of',unique.length,'batch',batchIndex+1,'of',batchCount);
-  console.log('Coverage summary:',JSON.stringify({dailyExpected,dailySelected:dailyResults.length,dailyAccessible:dailyResults.filter(item=>item.accessStatus==='accessible').length,dailyFailures:dailyFailures.length,accessSummary,leadsFound}));
+  console.log('Coverage summary:',JSON.stringify({dailyExpected,dailySelected:dailyResults.length,dailyAccessible:dailyResults.filter(item=>item.accessStatus==='accessible').length,dailyFailures:dailyFailures.length,blockedSources:blockedSources.length,accessSummary,leadsFound}));
 })().catch(e=>{console.error(e);process.exitCode=1});
