@@ -3131,12 +3131,12 @@ window.RADAR_PARTS.opportunities=[
     "duration": null,
     "modality": null,
     "documents": [],
-    "restrictions": [],
+    "restrictions": ["Projeto de reportagem escrita com foco nos Estados Unidos e publicação em veículo dos EUA","Candidatos podem residir fora dos Estados Unidos","Profissional em emprego integral precisa se afastar durante a fellowship"],
     "opens": null,
     "verificationHistory": [
       {
         "date": "2026-09-24",
-        "status": "descartada",
+        "status": "encerrada",
         "source": "https://fij.org/40k-fellowship-application-open-webinar-aug-12-on-how-to-apply/"
       },
       {
@@ -3146,7 +3146,7 @@ window.RADAR_PARTS.opportunities=[
       }
     ],
     "id": "alicia",
-    "summary": "Fellowship investigativa com exigência de forte foco editorial nos Estados Unidos.",
+    "summary": "Fellowship para reportagem investigativa escrita sobre os Estados Unidos, inclusive com candidatos residentes fora do país; edição 2027 encerrada em 01/10/2026.",
     "title": "Alicia Patterson Fellowship 2027",
     "org": "Fund for Investigative Journalism",
     "type": "Fellowship",
@@ -3155,14 +3155,14 @@ window.RADAR_PARTS.opportunities=[
     ],
     "scope": "Estados Unidos",
     "deadline": "2026-10-01",
-    "deadlineStatus": "confirmado",
-    "eligibility": "inelegível",
+    "deadlineStatus": "encerrado em 01/10/2026",
+    "eligibility": "restrita",
     "fit": 6,
     "status": "descartada",
-    "rules": "https://fij.org/40k-fellowship-application-open-webinar-aug-12-on-how-to-apply/",
+    "rules": "https://fij.org/alicia-patterson-fellowships/",
     "apply": null,
-    "verified": "2026-10-02",
-    "desc": "US$40 mil por 12 meses ou US$20 mil por seis, mas requer investigação com forte foco nos EUA; mantida no arquivo, não nas oportunidades acionáveis."
+    "verified": "2026-10-22",
+    "desc": "A edição 2027 encerrou em 01/10/2026. Critério central é foco nos EUA e publicação em veículo norte-americano; residência nos EUA não é obrigatória."
   },
   {
     "value": null,
@@ -3259,11 +3259,7 @@ window.RADAR_PARTS.opportunities=[
       "proposta de pesquisa",
       "2 cartas de recomendação"
     ],
-    "restrictions": [
-      "exige mestrado concluído e capacidade acadêmica demonstrável",
-      "pesquisa deve se basear nas coleções cartográficas do Allard Pierson",
-      "proposta de até 800 palavras, CV e dois referees acadêmicos"
-    ],
+    "restrictions": ["Pesquisa acadêmica baseada nas coleções cartográficas digitalizadas do Allard Pierson","Exige mestrado concluído e experiência em pesquisa, conforme regulamento da edição","Inscrições para fellowships 2027 encerradas"],
     "opens": null,
     "verificationHistory": [
       {
@@ -3290,13 +3286,13 @@ window.RADAR_PARTS.opportunities=[
     ],
     "scope": "Internacional",
     "deadline": "2026-09-30",
-    "deadlineStatus": "confirmado",
+    "deadlineStatus": "inscrições para 2027 encerradas",
     "eligibility": "inelegível",
     "fit": 8,
     "status": "descartada",
     "rules": "https://www.allardpierson.nl/en/fellowships/allard-pierson-fellowship-for-cartography",
     "apply": "https://www.allardpierson.nl/en/fellowships/allard-pierson-fellowship-for-cartography",
-    "verified": "2026-10-02",
+    "verified": "2026-10-22",
     "desc": "Fellowship de pesquisa em cartografia com espaço para GIS, deep mapping e métodos digitais."
   },
   {
@@ -4062,7 +4058,7 @@ window.RADAR_PARTS.opportunities=[
     "duration": null,
     "modality": null,
     "documents": [],
-    "restrictions": [],
+    "restrictions": ["Microgrants destinados a projetos da Argentina, Bolívia, México e Equador","Brasil não está entre os quatro países contemplados nesta edição"],
     "opens": null,
     "verificationHistory": [
       {
@@ -4087,10 +4083,10 @@ window.RADAR_PARTS.opportunities=[
     "eligibility": "inelegível",
     "fit": 7,
     "status": "descartada",
-    "rules": "https://mediaparty.org/2026/05/14/journalism-micro-grants-media-party-world-bank/",
+    "rules": "https://mediaparty.org/en/2026/05/14/journalism-micro-grants-media-party-world-bank/",
     "apply": null,
-    "verified": "2026-09-24",
-    "desc": "Ciclo encerrado e restrito a quatro países latino-americanos. Mantido porque Media Party é uma boa fonte regional para novas chamadas de dados e IA."
+    "verified": "2026-10-22",
+    "desc": "Edição 2026 direcionada a Argentina, Bolívia, México e Equador; Brasil não contemplado."
   },
   {
     "value": null,
