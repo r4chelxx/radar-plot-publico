@@ -188,3 +188,14 @@ O registro `fij` foi reclassificado de `inelegível/descartada` para `restrita/m
 Promovidas 15 fontes prioritárias de cadência semanal para diária em `data/sources.js`: IJ4EU, GFMD Funding Opportunities, Grants for Journalists catálogo, National Press Foundation, John S. Knight, Nieman Foundation, Pulitzer Center, ICFJ, IWMF, Fundación Gabo, Reuters Institute, Earth Journalism Network, LatAm Journalism Review, The Open Notebook e Informed Earth. Total diário: **8 → 23 fontes** (de 187). Os registros foram preservados, sem mudanças em URLs ou prioridades.
 
 **Limitação operacional:** alteração de metadados não equivale a agendamento ou execução diária efetiva. Ainda é preciso identificar o job/workflow existente e comprovar que lê `cadence`, registrar `lastChecked`, produzir evidência de execução e tratar falhas. Não publicar como automação concluída sem essa validação. JSON do catálogo validado após edição.
+
+
+## Lote 17 — inspeção real dos workflows e correção do coletor
+
+GitHub Actions identificados na branch: `Radar source discovery`, `Unified public web intake`, `Validate Radar data`, `Browser regression tests`, `Audit Radar links`. Na execução 39866970346, o coletor `scripts/source-intake.js` inspecionou **18 de 183 fontes únicas** (lote 1/13), apesar de 23 fontes cadastradas como diárias. Seu código original usava rotação por `SOURCE_LIMIT` (padrão 15) e incluía apenas agregadores `grants for journalists|gfmd` em toda execução: **a cadência `diária` era ignorada**.
+
+**Correção:** o coletor agora seleciona todas as fontes com `cadence==='diária'` em toda execução e acrescenta um lote rotativo de outras fontes. O resumo inclui `dailySources` e `rotatingBatchSize`. As 187 entradas do catálogo podem corresponder a 183 URLs únicas, por deduplicação no loader. É esperado inspecionar aproximadamente 23 fontes diárias mais 15 fontes rotativas por rodada (menos duplicatas), sujeito à execução do workflow.
+
+**Outros resultados da execução anterior:** `Unified public web intake` registrou 368 candidatos, 365 para revisão, 61 de alta prioridade, com duas fontes falhando; `Radar source discovery` registrou 36 candidatos após inspeção adicional, mas **0 novas oportunidades/bases/ferramentas verificadas** na etapa inicial de triagem. A execução bem-sucedida do job não equivale a publicação de achados verificados.
+
+**Próximos testes:** executar workflow no commit atualizado, conferir cobertura real das 23 diárias, tempos de execução, erros HTTP, relatórios e persistência de histórico. Não houve merge nem publicação neste lote.
