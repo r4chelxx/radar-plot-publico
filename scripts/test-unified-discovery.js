@@ -10,7 +10,8 @@ try{
  const files=['web','gmail','linkedin'].map(x=>path.join(tmp,x+'.json'));
  cp.execFileSync(process.execPath,['scripts/unify-discovery.js',...files],{cwd:process.cwd(),stdio:'pipe'});
  const out=JSON.parse(fs.readFileSync('intake/unified-discovery.json','utf8'));
- assert.equal(out.candidates.length,1);\n for(const source of ['web','gmail','linkedin']){assert.equal(out.sourceHealth[source].files,1);assert.equal(out.sourceHealth[source].leads,1)}
+ assert.equal(out.candidates.length,1);
+ for(const source of ['web','gmail','linkedin']){assert.equal(out.sourceHealth[source].files,1);assert.equal(out.sourceHealth[source].leads,1)}
  assert.deepEqual(out.candidates[0].origins,['web','gmail','linkedin']);
  assert.equal(out.candidates[0].publicationReady,false);
  assert.equal(out.candidates[0].classification,'needs-editorial-review');
