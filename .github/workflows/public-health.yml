@@ -1,0 +1,21 @@
+name: Public Radar operational health
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '15 13 * * *'
+permissions:
+  contents: read
+jobs:
+  public-health:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Check deployed public site and assets
+        run: node scripts/check-public-health.js
+      - name: Record health result
+        if: always()
+        run: echo "Public Radar health check result: ${{ job.status }}" >> "$GITHUB_STEP_SUMMARY"
