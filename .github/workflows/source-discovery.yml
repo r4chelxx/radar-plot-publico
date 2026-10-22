@@ -121,10 +121,10 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           set -euo pipefail
-          payload=$(base64 -w 0 intake/lead-history-next.json)
           for attempt in 1 2 3; do
             sha=$(gh api "repos/${GITHUB_REPOSITORY}/contents/state/lead-history.json?ref=radar-state" --jq .sha)
-            if gh api --method PUT "repos/${GITHUB_REPOSITORY}/contents/state/lead-history.json" -f branch=radar-state -f message="Update public lead history from run ${GITHUB_RUN_ID}" -f content="$payload" -f sha="$sha" --silent; then
+            SHA="$sha" node -e "const fs=require('fs');const body={branch:'radar-state',message:'Update public lead history from run '+process.env.GITHUB_RUN_ID,content:fs.readFileSync('intake/lead-history-next.json').toString('base64'),sha:process.env.SHA};fs.writeFileSync('intake/lead-history-update.json',JSON.stringify(body))"
+            if gh api --method PUT "repos/${GITHUB_REPOSITORY}/contents/state/lead-history.json" --input intake/lead-history-update.json --silent; then
               echo "Public lead history saved on attempt $attempt"
               exit 0
             fi
