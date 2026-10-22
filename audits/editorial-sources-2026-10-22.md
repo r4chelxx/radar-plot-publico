@@ -75,3 +75,14 @@ Escopo: verificação de fontes oficiais e distinção entre chamada aberta, enc
 **Fontes de confirmação:** https://jeduca.org.br/noticia/resultado-do-8-edital-de-jornalismo-de-educacao-esta-no-ar ; https://premiorochedeperiodismo.com/pt-br/conheca-os-resultados-das-inscricoes-ao-premio-roche-2026/ .
 
 **Pendente:** conciliar One World Media Awards vs Fellowship (programas distintos), Abraji institucional vs prêmio, e validar impacto das alterações nos testes antes de merge.
+
+
+## Lote 6 — One World Media e Abraji (22/10/2026)
+
+**Quatro registros atualizados em `data/sources.js`:**
+- One World Media Awards: manter como prêmio recorrente; não há confirmação de inscrições abertas nesta data. https://oneworldmedia.org.uk/awards/
+- One World Media — Awards e Fellowship: referência institucional redirecionada para o Fellowship, distinto da premiação; candidaturas geralmente abrem em fevereiro e encerram em março. https://oneworldmedia.org.uk/fellowship/
+- Abraji — Oportunidades e Editais: preservar como fonte institucional de monitoramento, não chamada específica. https://abraji.org.br/
+- Prêmio Brasileiro de Jornalismo Investigativo — Abraji/TI: URL substituída por notícia institucional de lançamento; prêmio voltado a trabalhos publicados de janeiro a dezembro de 2026; anúncio de regulamento/abertura previsto para outubro, **sem edital oficial de abertura localizado nesta verificação**. https://congresso.abraji.org.br/noticia/21-congresso-da-abraji-reune-mais-de-17-mil-pessoas-e-debate-o-futuro-do-jornalismo
+
+**Atenção:** `checkStatus: verificada` sinaliza a conferência da fonte e sua classificação, não a abertura das inscrições. Os quatro registros preservados evitam perda de referências, com funções distintas explicitadas.
