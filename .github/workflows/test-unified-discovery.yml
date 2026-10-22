@@ -1,0 +1,18 @@
+name: Test unified discovery intake
+on:
+  pull_request:
+    paths:
+      - "scripts/unify-discovery.js"
+      - "scripts/test-unified-discovery.js"
+      - "scripts/lead-identity.js"
+      - ".github/workflows/test-unified-discovery.yml"
+  workflow_dispatch:
+jobs:
+  test-intake:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - run: node scripts/test-unified-discovery.js
