@@ -238,3 +238,12 @@ Adicionado `tests/source-intake-coverage.test.js` para validar sintaxe do coleto
 Inspecionado `.github/workflows/source-discovery.yml`: cron diário `30 10 * * *` (UTC), workflow_dispatch, push e pull_request; o job `persist` tem condição explícita `github.ref == 'refs/heads/main'` e eventos `schedule|workflow_dispatch|push`. Logo, **persist skipped em PR/branch é comportamento esperado**, evitando escrita em `radar-state` durante testes. Em `main`, o job baixa o artefato, valida `lead-history-next.json`, faz PUT em `radar-state`, compara o conteúdo remoto e cria/comenta issue editorial. Não há ainda evidência examinada de run da main com `persist` concluído.
 
 Atualizado o workflow para incluir `tests/source-intake-coverage.test.js` nos filtros de push/PR e executá-lo antes de `scripts/source-intake.js`. O teste valida sintaxe e seleção de fontes diárias. **Pendente:** observar execução CI do commit e inspecionar as cinco URLs diárias com falha no artefato da run 39868530120. Não alterar a política de persistência da main sem necessidade.
+
+
+## Lote 23 — teste CI aprovado e diagnóstico nominal de 403
+
+Run `Radar source discovery` **39869273419**: novo gate `Check source collector syntax and daily coverage` passou; `uniqueSources=183`, `dailyUnique=22`, `collectorDailySelection=ok`; coleta 37/183, `dailyExpected=22`, `dailySelected=22`, `dailyAccessible=17`, `dailyFailures=5`, `accessSummary={accessible:32,http-error:5}`, `leadsFound=106`.
+
+Artefato de execução anterior `source-intake-39868530120` (ID 12464064491) inspecionado individualmente. As cinco fontes com HTTP **403** foram: Informed Earth — Climate Journalism Network (`informedstories.org/en/informed-earth/opportunities/apply-informed-climate-journalism-network/`), Pulitzer Center (`pulitzercenter.org/grants-fellowships`), Earth Journalism Network (`earthjournalism.net/`), GIJN Jobs Board (`gijn.org/jobs`) e GIJN Saved Links (`gijn.org/rounduplink/`). Erro 403 significa acesso negado ao coletor, **não** comprova que as páginas estão fora do ar nem que as fontes sejam inválidas. Manter todas no catálogo e na cadência diária; não trocar URLs sem validação editorial.
+
+Pendências: avaliar fontes oficiais alternativas acessíveis, feeds e acesso via navegador respeitando bloqueios; sinalizar bloqueio HTTP como questão técnica sem reclassificar status editorial. Investigar execução da main para confirmar persistência em `radar-state`.
