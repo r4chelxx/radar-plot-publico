@@ -4,9 +4,9 @@
 import fs from 'node:fs';
 import identityModule from './lead-identity.js';
 const {canonical}=identityModule;
+// Removed Journalism.co.uk endpoint after repeatable HTTP 404; retain source in catalog for manual review.
 const feeds=[
  {name:'GIJN',url:'https://gijn.org/feed/'},
- {name:'Journalism.co.uk',url:'https://www.journalism.co.uk/rss/news'},
  {name:'Data Is Plural',url:'https://www.data-is-plural.com/feed.xml'},
  {name:'Nieman Lab',url:'https://www.niemanlab.org/feed/'},
  {name:'The Fix Media',url:'https://thefix.media/feed/'}
