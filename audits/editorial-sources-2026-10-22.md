@@ -29,3 +29,20 @@ Escopo: verificação de fontes oficiais e distinção entre chamada aberta, enc
 | Prêmio ESPM de Jornalismo | Sem regulamento 2026 localizado nesta rodada | Insuficiente para certificar edição ativa | Manter pendente, sem data inventada |
 
 **Observação de qualidade:** a página de homologação da CNT não deve ser tratada como fonte canônica. Nenhuma alteração no catálogo de produção até validar URLs e referências internas.
+
+
+## Lote 3 — fellowships e assistência internacional (22/10/2026)
+
+| Fonte | Evidência | Estado editorial | Próxima ação |
+| --- | --- | --- | --- |
+| Yale World Fellows 2027 | https://www.linkedin.com/posts/yale-world-fellows_were-pleased-to-share-that-were-now-accepting-activity-7511145234739720208-3Qrm ; https://openopportunities.org/opportunities/yale-2027-world-fellows-program/ | Instituição anunciou inscrições abertas; agregador aponta prazo 02/12/2026. Prazo ainda requer confirmação na página oficial de candidatura | Prioridade alta para localizar edital oficial e verificar data, custos e elegibilidade |
+| MIT Knight Science Journalism 2027–28 | https://ksj.mit.edu/fellowships/academic-year-fellowship/ | Fonte oficial: abre 15/11/2026 e encerra 09/01/2027; ainda não aberta em 22/10 | Agendar monitoramento de abertura; classificar como futura |
+| Rory Peck Trust — HEFAT Bursaries | https://rorypecktrust.submittable.com/submit | Portal oficial apresenta chamada 2026 com prazo 01/12/2026; modalidade de treinamento de segurança, distinta de fundo de emergência | Cadastrar modalidade como oportunidade específica, sem confundir com Crisis/Therapy Funds |
+| Kiplinger Fellowship — Ohio University | https://www.ohio.edu/scripps-college/journalism/kiplinger/about/faq-kiplinger-fellowship | FAQ oficial confirma elegibilidade internacional e mínimo de cinco anos de jornalismo; sem prazo de candidatura 2026–27 confirmado nesta rodada | Manter fonte de monitoramento; localizar edital anual antes de publicar como aberta |
+| Knight-Wallace Fellowship 2027–28 | https://wallacehouse.umich.edu/knight-wallace/how-to-apply/ | Página oficial: candidaturas abertas; prazo internacional 01/12/2026, EUA 01/02/2027; mínimo cinco anos de experiência | Nova oportunidade confirmada para triagem de elegibilidade e inclusão editorial |
+
+### Controle de qualidade
+- Datas futuras e inscrições abertas são estados diferentes.
+- A modalidade HEFAT não equivale aos fundos emergenciais da Rory Peck Trust.
+- Yale tem abertura confirmada em comunicação institucional, mas prazo do agregador requer validação oficial.
+- Knight-Wallace foi descoberta fora da lista inicial: avaliar inclusão sem duplicar registros existentes.
