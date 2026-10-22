@@ -86,3 +86,15 @@ Escopo: verificação de fontes oficiais e distinção entre chamada aberta, enc
 - Prêmio Brasileiro de Jornalismo Investigativo — Abraji/TI: URL substituída por notícia institucional de lançamento; prêmio voltado a trabalhos publicados de janeiro a dezembro de 2026; anúncio de regulamento/abertura previsto para outubro, **sem edital oficial de abertura localizado nesta verificação**. https://congresso.abraji.org.br/noticia/21-congresso-da-abraji-reune-mais-de-17-mil-pessoas-e-debate-o-futuro-do-jornalismo
 
 **Atenção:** `checkStatus: verificada` sinaliza a conferência da fonte e sua classificação, não a abertura das inscrições. Os quatro registros preservados evitam perda de referências, com funções distintas explicitadas.
+
+
+## Lote 7 — prêmios brasileiros: links canônicos e encerramentos
+
+Alterados em `data/sources.js`:
+- **Vladimir Herzog** — URL do regulamento 2026, inscrições 20/05–20/06 encerradas. https://premiovladimirherzog.org/regulamento-2026/
+- **Sebrae de Jornalismo** — página oficial confirma encerramento em 08/06/2026. https://premiosebraejornalismo.com.br/
+- **Banco do Nordeste** — URL canônica do regulamento 2026, prazo 05/01–30/06 encerrado. https://www.bancodonordeste.gov.br/premio-bnb-de-jornalismo/regulamento
+
+**CNT:** evidência de finalistas em outubro confirma que a fase de inscrição terminou; URL de homologação não é apropriada para substituir fonte oficial. https://abtc.org.br/index.php/noticias/noticias-do-setor/item/8607-premio-cnt-de-jornalismo-2026-divulga-35-trabalhos-finalistas.html
+
+**Limites:** `checkStatus` representa a verificação da fonte, não o status de candidatura. Nenhum merge realizado; verificar testes e referências antes de publicação.
