@@ -27,6 +27,8 @@ on:
       - 'scripts/build-editorial-review.js'
       - 'scripts/inspect-lead-pages.js'
       - 'scripts/select-historical-backlog.js'
+      - 'scripts/import-public-editorial-queue.js'
+      - 'tests/import-public-editorial-queue.test.js'
       - 'scripts/apply-editorial-decisions.js'
       - 'scripts/build-historical-review-batch.js'
       - 'tests/historical-editorial-batch.test.js'
@@ -43,6 +45,8 @@ on:
       - 'scripts/triage-candidates.js'
       - 'scripts/build-editorial-review.js'
       - 'scripts/inspect-lead-pages.js'
+      - 'scripts/import-public-editorial-queue.js'
+      - 'tests/import-public-editorial-queue.test.js'
       - 'tests/lead-privacy.test.js'
       - 'tests/source-catalog.test.js'
       - 'tests/source-intake-coverage.test.js'
@@ -77,6 +81,8 @@ jobs:
         run: node --test tests/source-intake-coverage.test.js
       - name: Test persistent lead history
         run: node --test tests/historical-backlog.test.js tests/historical-editorial-batch.test.js tests/lead-history.test.js tests/source-catalog.test.js tests/editorial-review.test.js tests/editorial-priority.test.js tests/inspection-order.test.js tests/lead-privacy.test.js tests/normalize-lead-link.test.js
+      - name: Test public queue integration
+        run: node --test tests/import-public-editorial-queue.test.js
       - name: Inspect monitored source websites
         run: node scripts/source-intake.js
       - name: Diagnose official alternative URLs (non-mutating)
@@ -90,6 +96,15 @@ jobs:
           set -euo pipefail
           gh api "repos/${GITHUB_REPOSITORY}/contents/state/lead-history.json?ref=radar-state" --jq .content | base64 --decode > intake/lead-history-previous.json
           node -e "const fs=require('fs');const s=JSON.parse(fs.readFileSync('intake/lead-history-previous.json'));if(s.schemaVersion!==1||!s.leads||Array.isArray(s.leads))process.exit(1)"
+      - name: Restore public unified discovery candidates
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          gh api "repos/${GITHUB_REPOSITORY}/contents/intake/editorial-queue.json?ref=radar-state" --jq .content | base64 --decode > intake/editorial-queue-public.json
+          node -e "const q=require('./intake/editorial-queue-public.json');if(q.schemaVersion!==1||!Array.isArray(q.candidates))process.exit(1)"
+      - name: Merge DVS and public web candidates into daily historical backlog
+        run: node scripts/import-public-editorial-queue.js
       - name: Inspect historical backlog in rotating batches
         env:
           LEAD_PAGE_LIMIT: '15'
@@ -116,6 +131,7 @@ jobs:
             intake/alternative-access.json
             intake/candidate-triage.json
             intake/lead-evidence.json
+            intake/editorial-queue-public.json
             intake/editorial-review.json
             intake/historical-editorial-batch.json
             intake/historical-editorial-batch.md

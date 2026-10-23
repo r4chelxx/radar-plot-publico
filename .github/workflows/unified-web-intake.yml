@@ -41,6 +41,10 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: "22"
+      - name: Check collector JavaScript syntax
+        run: |
+          node --check scripts/discover-public-feeds.mjs
+          node --check scripts/discover-dvs-public.mjs
       - name: Test web intake safeguards
         run: node scripts/test-web-intake.js
       - name: Test daily discovery source health reporting
