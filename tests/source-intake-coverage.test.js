@@ -13,4 +13,8 @@ assert.match(source,/const daily = unique\.filter\(s=>s\.cadence==='diária'\)/)
 assert.match(source,/\[\.\.\.daily,\.\.\.selected\]/);
 assert.match(source,/dailyFailures/);
 assert.match(source,/accessSummary/);
+assert.match(source,/const blockedSources=results\.filter\(item=>item\.httpStatus===403\|\|item\.httpStatus===429\)/);
+assert.match(source,/const httpFailures=results\.filter\(item=>item\.accessStatus==='http-error'\)/);
+assert.match(source,/dailyFailures,blockedSources,httpFailures,accessSummary/);
+assert.match(source,/httpFailures:httpFailures\.length/);
 console.log(JSON.stringify({syntax:'ok',uniqueSources:sources.length,dailyUnique:daily.length,collectorDailySelection:'ok'}));
