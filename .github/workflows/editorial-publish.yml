@@ -90,3 +90,8 @@ jobs:
           echo "Created $pr_url"
           gh pr merge "$pr_url" --squash --delete-branch
           echo "Published via $pr_url" >> "$GITHUB_STEP_SUMMARY"
+      - name: Verify approved records on deployed public site
+        env:
+          RADAR_DEPLOY_RETRIES: "10"
+          RADAR_DEPLOY_DELAY_MS: "15000"
+        run: node scripts/verify-published-records.js
