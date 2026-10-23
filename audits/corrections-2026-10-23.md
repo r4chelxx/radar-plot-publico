@@ -36,4 +36,12 @@ A CNT respondeu nesta amostra, apesar da falha de rede anterior. Os demais resul
 
 35 testes de unidade aprovados; validação com 103 oportunidades, 153 registros de dados, 187 fontes e 66 ferramentas, zero erros e zero avisos de campos obrigatórios. Interface estática e sete verificações dos controles de publicação aprovadas. O resultado estrutural não elimina as ressalvas de acesso e de completude registradas acima.
 
-O PR permanece em rascunho. Confirmar os checks remotos da nova revisão antes da integração; a auditoria da revisão anterior ainda usava a URL antiga da ANA.
+## Pendência reencontrada: ANA/SNIRH
+
+A inspeção do histórico mostrou que o commit `251c425` (PR #44), posterior ao PR #37, voltou a usar `https://www.snirh.gov.br/arcgis/rest/services/SRE/OutorgasDireitodeUso/FeatureServer/0` nos campos `url` e `api`, mas manteve a referência alternativa em `discoveryUrl`. Essa divergência também está na main atual e foi preservada na sincronização deste lote.
+
+Na consulta direta desta sessão, tanto esse endereço quanto `https://portal1.snirh.gov.br/arcgis/rest/services/SRE/OutorgasFederais_FeatureLayer/FeatureServer/0`, com `?f=pjson`, retornaram HTTP 200 com objeto `error`, código 404 e mensagem `Service not found`. A busca web ainda consegue recuperar metadados do primeiro endereço em conteúdo previamente indexado; isso não confirma a disponibilidade atual do serviço.
+
+Não substituir um endereço pelo outro nesta rodada sem uma resposta válida de camada e de consulta. A auditoria de links atual só interpreta o status HTTP, portanto um HTTP 200 contendo erro de ArcGIS também precisa ser tratado em lote posterior. Nenhum resultado JSON com erro deve ser anunciado como serviço confirmado.
+
+O PR permanece em rascunho. Confirmar os checks remotos e resolver a pendência do serviço da ANA antes da integração. Dados, navegador e coleta da revisão `7921b87` passaram no GitHub; a auditoria completa de links ainda estava em andamento no momento desta nota.
