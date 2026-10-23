@@ -1502,7 +1502,7 @@ window.RADAR_PARTS.opportunities=[
     "deadlineStatus": "confirmado",
     "eligibility": "elegível",
     "fit": 7.5,
-    "status": "aberta",
+    "status": "encerrada",
     "rules": "https://nationalpress.org/training/apply-2026-rare-disease-reporting-fellowship-and-grants/",
     "apply": "https://nationalpress.org/training/apply-2026-rare-disease-reporting-fellowship-and-grants/",
     "verified": "2026-10-19",
