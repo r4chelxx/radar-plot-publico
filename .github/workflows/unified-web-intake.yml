@@ -14,6 +14,7 @@ on:
       - 'scripts/sample-editorial-review.js'
       - 'scripts/export-editorial-review.js'
       - 'scripts/merge-editorial-queue.js'
+      - 'tests/editorial-queue-reconcile.test.js'
       - 'scripts/test-editorial-pipeline.js'
       - 'scripts/publish-approved.js'
       - 'scripts/verify-published-records.js'
@@ -49,6 +50,8 @@ jobs:
         run: node scripts/test-web-intake.js
       - name: Test daily discovery source health reporting
         run: node --test tests/discovery-operations.test.js
+      - name: Test editorial queue reconciliation
+        run: node --test tests/editorial-queue-reconcile.test.js
       - name: Test editorial publication safeguards
         run: |
           node scripts/test-editorial-pipeline.js
@@ -94,6 +97,8 @@ jobs:
         run: |
           cp intake/discovery-quality.json /tmp/radar-discovery-quality.json
           cp scripts/merge-editorial-queue.js /tmp/radar-merge-editorial-queue.js
+          cp scripts/lead-identity.js /tmp/lead-identity.js
+          cp intake/historical-decisions.json /tmp/radar-historical-decisions.json
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           if git ls-remote --exit-code --heads origin radar-state >/dev/null; then
@@ -102,7 +107,7 @@ jobs:
           else
             git switch -c radar-state
           fi
-          node /tmp/radar-merge-editorial-queue.js /tmp/radar-discovery-quality.json intake/editorial-queue.json
+          node /tmp/radar-merge-editorial-queue.js /tmp/radar-discovery-quality.json intake/editorial-queue.json state/lead-history.json /tmp/radar-historical-decisions.json
           git add intake/editorial-queue.json
           if ! git diff --cached --quiet; then
             git commit -m "Editorial: persist pending public candidates [skip ci]"
