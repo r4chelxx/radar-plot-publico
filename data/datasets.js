@@ -636,11 +636,11 @@ window.RADAR_PARTS.datasets=[
     "period": "Período de cobertura não confirmado para esta camada alternativa; conferir datas e completude dos registros antes da análise",
     "granularity": "Registro individual de outorga, uso e localização; campos específicos conforme metadados da camada",
     "geoUnit": "Brasil; pontos/registros georreferenciados das outorgas federais, com possibilidade de recorte por estado e bacia",
-    "api": "https://www.snirh.gov.br/arcgis/rest/services/SRE/OutorgasDireitodeUso/MapServer/0 — camada Outorgas Federais (0), consultas REST JSON; MaxRecordCount 2000 por requisição, exigir paginação",
+    "api": "https://www.snirh.gov.br/arcgis/rest/services/SRE/OutorgasDireitodeUso/MapServer — camada Outorgas Federais (0), consultas REST JSON; MaxRecordCount 2000 por requisição, exigir paginação",
     "docs": "https://www.snirh.gov.br/portal/snirh-1/paineis-de-indicadores/regulacao-de-usos-de-recursos-hidricos-1",
     "limitations": "A base cobre outorgas federais emitidas pela ANA, não a totalidade de captações nem outorgas estaduais, como as administradas pelo INEMA na Bahia. Outorga é autorização, não volume efetivamente captado. Para investigar data centers e disputa por água, cruzar com registros do INEMA, licenciamento ambiental e dados de consumo, validando a vigência e a precisão geográfica dos registros. A documentação não explicita frequência de atualização.",
     "lastChecked": "2026-10-23",
-    "url": "https://www.snirh.gov.br/arcgis/rest/services/SRE/OutorgasDireitodeUso/MapServer/0",
+    "url": "https://www.snirh.gov.br/arcgis/rest/services/SRE/OutorgasDireitodeUso/MapServer",
     "discoveredVia": [
       "ANA/SNIRH — Geosserviços de Outorgas"
     ],

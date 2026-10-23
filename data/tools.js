@@ -1,6 +1,14 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.tools=[
 {
+  "id": "rji-chalkbeat-source-auditing-tool",
+  "name": "RJI + Chalkbeat — Source Auditing Tool",
+  "kind": "auditoria de diversidade de fontes jornalísticas",
+  "url": "https://rjionline.org/source-auditing-tool/",
+  "desc": "Ferramenta gratuita do Reynolds Journalism Institute e da Chalkbeat para registrar e analisar a diversidade de fontes ouvidas por uma redação. Permite personalizar perguntas, incluir fontes sem e-mail e evitar múltiplas solicitações. A configuração requer contato ou demonstração; o preenchimento é opcional e dados pessoais exigem consentimento, minimização e proteção.",
+  "discoveryUrl": "https://rjionline.org/source-auditing-tool"
+},
+{
   "id": "quiteria-ia-feminista-azmina",
   "name": "QuitérIA — IA feminista de monitoramento legislativo",
   "kind": "monitoramento legislativo e análise de projetos de lei",

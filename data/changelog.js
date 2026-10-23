@@ -3,6 +3,18 @@ window.RADAR_PARTS.changelog=[
 {
   "date": "2026-10-23",
   "type": "ferramentas",
+  "title": "RJI + Chalkbeat — Source Auditing Tool",
+  "items": [
+    {
+      "id": "rji-chalkbeat-source-auditing-tool",
+      "title": "RJI + Chalkbeat — Source Auditing Tool"
+    }
+  ],
+  "detail": "Ferramenta gratuita de auditoria de diversidade de fontes, revisada na fonte oficial, com ressalvas de privacidade e acesso por demonstração."
+},
+{
+  "date": "2026-10-23",
+  "type": "ferramentas",
   "title": "QuitérIA — ferramenta de monitoramento legislativo verificada",
   "items": [
     {
