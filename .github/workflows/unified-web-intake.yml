@@ -7,6 +7,8 @@ on:
       - 'scripts/discover-dvs-public.mjs'
       - 'scripts/test-web-intake.js'
       - 'scripts/check-public-health.js'
+      - 'scripts/check-deployed-revision.js'
+      - 'tests/deployed-revision.test.js'
       - 'scripts/test-rls-owner-model.js'
       - '.github/workflows/public-health.yml'
       - 'scripts/unify-discovery.js'
@@ -50,6 +52,8 @@ jobs:
           node --check scripts/discover-dvs-public.mjs
       - name: Test web intake safeguards
         run: node scripts/test-web-intake.js
+      - name: Test production deployment revision checks
+        run: node --test tests/deployed-revision.test.js
       - name: Test daily discovery source health reporting
         run: node --test tests/discovery-operations.test.js
       - name: Test editorial queue reconciliation
