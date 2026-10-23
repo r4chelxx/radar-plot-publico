@@ -6,9 +6,7 @@ window.RADAR_PARTS.tools=[
     "kind": "pesquisa histórica de publicações e comentários do Reddit",
     "url": "https://arctic-shift.photon-reddit.com/search",
     "desc": "Pesquisa posts, comentários e comunidades do Reddit, com API para consultas, agregações e séries temporais. Útil para rastrear discussões e mudanças em comunidades públicas. A cobertura histórica é incompleta, a disponibilidade não é garantida e resultados devem ser confirmados com contexto, data e fonte original. Respeite privacidade e regras de uso dos dados.",
-    "discoveredVia": [
-      "Pesquisa editorial PLOT."
-    ],
+    "discoveredVia": ["Indicator"],
     "discoveryUrl": "https://github.com/ArthurHeitmann/arctic_shift/blob/master/api/README.md"
   },
   {
@@ -17,9 +15,7 @@ window.RADAR_PARTS.tools=[
     "kind": "extensão de navegador para consultar arquivos históricos da web",
     "url": "https://webinternetarchive.com/",
     "desc": "Consulta URLs em oito arquivos públicos, incluindo Wayback Machine, Archive.today, Arquivo.pt e Common Crawl. Busca e abertura de capturas são gratuitas, sem cadastro; comparação avançada, exportações e pesquisa em lote podem exigir plano Pro. Uma captura não comprova, isoladamente, autenticidade ou integridade da página original; confirme datas, contexto e conteúdo.",
-    "discoveredVia": [
-      "Pesquisa editorial PLOT."
-    ],
+    "discoveredVia": ["Indicator"],
     "discoveryUrl": "https://webinternetarchive.com/faq"
   },
   {
@@ -28,9 +24,7 @@ window.RADAR_PARTS.tools=[
     "kind": "verificação local de riscos de vazamento em PDFs com tarjas",
     "url": "https://dochush.com/tools/pdf-redaction-checker/",
     "desc": "Verificador gratuito e de código aberto executado no navegador para identificar texto recuperável sob tarjas, camadas invisíveis, metadados, anexos e revisões anteriores em PDFs. Segundo o projeto, os arquivos não são enviados ao servidor. A análise tem cobertura limitada: não lê texto dentro de imagens por OCR nem garante ausência de vazamentos. Não confundir com o aplicativo comercial DocHush para redação de PDFs.",
-    "discoveredVia": [
-      "Pesquisa editorial PLOT."
-    ],
+    "discoveredVia": ["Indicator"],
     "discoveryUrl": "https://github.com/dochush/pdf-redaction-checker"
   },
   {
@@ -39,10 +33,7 @@ window.RADAR_PARTS.tools=[
     "kind": "triagem probabilística de possível autoria por inteligência artificial",
     "url": "https://www.pangram.com/",
     "desc": "Analisa textos para estimar sinais estatísticos de geração ou assistência por IA, inclusive em português. Plano gratuito anunciado de até 2.000 palavras por dia; uso intensivo e API são pagos. A avaliação é probabilística, não prova autoria nem fraude: há falsos positivos e negativos, sobretudo em textos curtos, traduções, conteúdos editados ou muito formatados. Nunca usar como evidência única para acusar uma pessoa ou publicar conclusões.",
-    "discoveredVia": [
-      "Columbia Journalism Review",
-      "Pesquisa editorial PLOT."
-    ],
+    "discoveredVia": ["Indicator"],
     "discoveryUrl": "https://www.pangram.com/blog/is-pangram-accurate"
   },
   {
