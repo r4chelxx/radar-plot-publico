@@ -1432,7 +1432,8 @@ window.RADAR_PARTS.datasets=[
     "coverage": "Salvador",
     "frequency": "Variável por módulo",
     "format": "Portal / dados abertos / downloads",
-    "url": "https://transparencia.salvador.ba.gov.br/"
+    "url": "https://transparencia.salvador.ba.gov.br/",
+    "limitations": "Portal de consulta, não uma base única: conferir período, filtros, unidade de análise e data de atualização em cada módulo antes de exportar ou cruzar registros. A tentativa de acesso de 23/10/2026 não foi concluída; a disponibilidade atual e os recursos de exportação permanecem sem confirmação nesta revisão."
   },
   {
     "id": "salvador-educacao-numeros",
@@ -1625,7 +1626,8 @@ window.RADAR_PARTS.datasets=[
     "coverage": "Bahia",
     "frequency": "Variável",
     "format": "Portal / painéis",
-    "url": "https://www.transparencia.ba.gov.br/Portal"
+    "url": "https://www.transparencia.ba.gov.br/Portal",
+    "limitations": "Os módulos têm coberturas e datas de atualização próprias. Registrar filtros, período e estágio da despesa; não somar valores de empenho, liquidação e pagamento como se fossem despesas distintas. A tentativa de acesso direto de 23/10/2026 não foi concluída; conferir o módulo e sua atualização antes da análise."
   },
   {
     "id": "sspba-estatisticas",
@@ -1693,7 +1695,8 @@ window.RADAR_PARTS.datasets=[
     "coverage": "Brasil",
     "frequency": "Variável por conjunto",
     "format": "CSV/API",
-    "url": "https://dadosabertos.aneel.gov.br/"
+    "url": "https://dadosabertos.aneel.gov.br/",
+    "limitations": "O catálogo reúne conjuntos distintos, inclusive recursos descontinuados. Conferir o dicionário, a data de geração, a cobertura e os identificadores do recurso selecionado antes de combinar arquivos. A existência de um conjunto ou autorização não comprova operação efetiva, consumo de energia ou conexão de um empreendimento específico."
   },
   {
     "id": "ons",
@@ -3243,7 +3246,10 @@ window.RADAR_PARTS.datasets=[
     "coverage": "Brasil / Bahia",
     "frequency": "Conforme publicação de atos",
     "format": "Portarias / despachos / documentos oficiais",
-    "url": "https://www.gov.br/aneel/pt-br"
+    "url": "https://www.gov.br/aneel/pt-br",
+    "docs": "ANEEL — orientação de consulta à legislação: https://www.gov.br/aneel/pt-br/centrais-de-conteudos/biblioteca ; MME — legislação: https://www.gov.br/mme/pt-br/acesso-a-informacao/legislacao",
+    "limitations": "Ponto de entrada para localizar atos, não uma relação pronta de data centers. Pesquisar por empresa, empreendimento, processo e localidade; registrar número, órgão, data, objeto e eventuais alterações de cada ato. Uma autorização ou ato de transmissão não comprova implantação, operação, demanda efetiva ou conexão de um data center. Os atos específicos ainda precisam ser selecionados e conferidos.",
+    "lastChecked": "2026-10-23"
   },
   {
     "id": "cbf-convocacoes-feminina",
@@ -3262,14 +3268,17 @@ window.RADAR_PARTS.datasets=[
     "coverage": "Brasil",
     "frequency": "Por convocação",
     "format": "Publicações oficiais / páginas web",
-    "url": "https://www.cbf.com.br/"
+    "url": "https://www.cbf.com.br/",
+    "docs": "Publicações oficiais da CBF por evento; exemplo localizado: https://www.cbf.com.br/selecao-brasileira/noticias/selecao-feminina-principal/a/arthur-elias-apresenta-convocadas-para-amistosos-contra-eua-e-periodo-de-preparacao",
+    "limitations": "Fonte para coleta manual por evento, não uma base histórica consolidada. Distinguir lista inicial, cortes, substituições e períodos de treino; preservar data, categoria e clube informado em cada publicação. Convocação não equivale a participação em partida. A referência oficial foi localizada em 23/10/2026, mas a leitura direta retornou erro; completude histórica e listas individuais ainda precisam de conferência.",
+    "lastChecked": "2026-10-23"
   },
   {
     "id": "apeb-aforamentos-codices",
     "territoryTier": "Salvador",
     "kind": "curated-source",
     "api": "não aplicável",
-    "name": "APEB — Aforamentos e códices",
+    "name": "APEB — acervo para pesquisa de aforamentos e códices",
     "org": "Arquivo Público do Estado da Bahia",
     "themes": [
       "Salvador",
@@ -3281,7 +3290,10 @@ window.RADAR_PARTS.datasets=[
     "coverage": "Salvador / Bahia",
     "frequency": "Acervo histórico",
     "format": "Códices / documentos arquivísticos",
-    "url": "https://www.ba.gov.br/fpc/arquivo-publico-acervo"
+    "url": "https://www.ba.gov.br/fpc/arquivo-publico-acervo",
+    "docs": "APEB — apresentação do acervo e orientação de pesquisa em inventários, Guia de Fundos, AtoM e SICRO: https://www.ba.gov.br/fpc/arquivo-publico-acervo",
+    "limitations": "A página descreve o acervo geral do APEB; esta referência não confirma um fundo ou série de aforamentos específico nem sua digitalização integral. Localizar fundo, série e código de referência antes de solicitar documentos; parte da pesquisa pode exigir consulta presencial. Não usar uma descrição arquivística como prova de titularidade, cobrança ou vigência de obrigação sobre um imóvel.",
+    "lastChecked": "2026-10-23"
   },
   {
     "id": "aneel-siget",
