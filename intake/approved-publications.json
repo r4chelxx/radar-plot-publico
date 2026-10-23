@@ -59,6 +59,24 @@
         "officialUrl": "https://vitalimpacts.org/pages/the-vital-impacts-environmental-photography-grant",
         "evidence": "Edital oficial e termos da plataforma Picter confirmam inscrições de 31/08 a 30/11/2026, uma bolsa de US$ 20 mil, seis bolsas de US$ 5 mil, dez mentorias, documentação exigida, taxas e possibilidade de isenção; conferida ausência do ID no catálogo público em 23/10."
       }
+    },
+    {
+      "category": "tools",
+      "record": {
+        "id": "quiteria-ia-feminista-azmina",
+        "name": "QuitérIA — IA feminista de monitoramento legislativo",
+        "kind": "monitoramento legislativo e análise de projetos de lei",
+        "url": "https://www.elasnocongresso.com.br/ia-feminista",
+        "desc": "Ferramenta do Elas no Congresso/AzMina que utiliza modelos BERTimbau para classificar projetos de lei federais em dez temas de gênero e estimar desfavorabilidade. Disponibiliza metodologia, dados, código e documentação de API. Classificações automatizadas exigem conferência humana; os resultados não substituem análise jurídica, contexto legislativo nem verificação das proposições originais.",
+        "discoveryUrl": "https://www.elasnocongresso.com.br/quiteria"
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Radar PLOT — revisão editorial assistida",
+        "reviewedAt": "2026-10-23",
+        "officialUrl": "https://www.elasnocongresso.com.br/ia-feminista",
+        "evidence": "Página primária de Elas no Congresso/AzMina confirma a QuitérIA, o uso de BERTimbau, classificação de proposições legislativas em dez temas, supervisão humana, documentação pública e limitações; URL histórica /quiteria redireciona à página oficial /ia-feminista. Busca no catálogo do Radar em 23/10 não encontrou o endereço oficial nem o ID."
+      }
     }
   ]
 }
