@@ -1,0 +1,4243 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-10-23T17:21:05.512Z",
+  "policy": "Public web leads only; pending does not mean verified or approved.",
+  "candidates": [
+    {
+      "id": "018d1cd62cafbb640600d2a5ac940ae52b50dff5592d9dc7843bc1fbdeb7e565",
+      "title": "Cédric Scherer",
+      "url": "https://cedricscherer.com/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "018e9e1d538e2e91eb673b632a0644f7d81c596395097fc3d759f15295921c3b",
+      "title": "Conference theGATE Festival 2026",
+      "url": "https://thegate-festival.com/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "028175f78b97a791bbc371ed9ff5e421e84bc68b7030aa18c951db8902a3d95f",
+      "title": "Playwright",
+      "url": "https://playwright.dev/python",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "0318c0f5e89306f055192a6b5885ae0afc0ecd9117bb2dd73f03ec2721ccff20",
+      "title": "Google Earth Engine",
+      "url": "https://earthengine.google.com/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "0378c1199bf9d7c9a8b0eb67f816e2909200f145edad23ab8f7db400d8d9b701",
+      "title": "Conference Computation + Journalism Symposium",
+      "url": "https://www.cj2026.northwestern.edu/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "03994a06bcaa39adaed080c9dc6e16ce856b943438f35987bb36e45c363c9d99",
+      "title": "spatialintelligence.ai",
+      "url": "https://www.spatialintelligence.ai/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "03af9321249e93311539dc91981848f7bdc47f60a27f46a128b46af809ecb405",
+      "title": "gislounge.com",
+      "url": "https://www.gislounge.com/contribute-to-gis-lounge",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "0658bf2a598109b153b8755299f2c6ca59a9f7dc99c0cd8296ca5204f9266725",
+      "title": "spatial-sql.com",
+      "url": "https://spatial-sql.com/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "06dc0ae93e23a140b5d6b38f5ad62053464823e6216861a92f99f9e9f620a714",
+      "title": "not-ship.com",
+      "url": "https://www.not-ship.com/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "0746b124adec3af5acf22a36b9bbba4d07b911f916ab779bbc16390aeab40cf2",
+      "title": "journalism.berkeley.edu",
+      "url": "https://multimedia.journalism.berkeley.edu/tutorials/qgis-basics-journalists",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "087cb75c7b2334be96149b1ffb2db1a00e862983551fc3d8821aa9fd49d0a234",
+      "title": "OpenLayers",
+      "url": "https://openlayers.org/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "096a1caa67e05a2dec8b135c547428cfc6761cad4313f2cf51c7f418381a6ae1",
+      "title": "Conference Esri User Conference (Esri UC)",
+      "url": "https://esri.com/en-us/about/events/uc/overview",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "09942999dbeb28f59fd928bdc24a918d7fc370f33bb80d521aa347925939dba0",
+      "title": "Award TDWI Best Practices Awards",
+      "url": "https://tdwi.org/pages/best-practices-awards/tdwi-best-practice-awards.aspx",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "high"
+    },
+    {
+      "id": "0a0fc8db9bf1f5542380dca471a80659e591c0afb1d9fe8129e8486fe606822b",
+      "title": "Conference Source Conference for Open Journalism (SRCCON)",
+      "url": "https://srccon.org/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "0a3679ba3550fcf1b07bf8410a05fe6dc1488ac45d01bd001a527069fdfb3f99",
+      "title": "Award The Philip Meyer Journalism Award",
+      "url": "https://www.ire.org/awards",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "high"
+    },
+    {
+      "id": "0a9917eb1cca681f5ddb94bb903f31014dc3d72a9dea0588f84972b35733daf8",
+      "title": "STAC",
+      "url": "https://stacspec.org/en",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "0b802c5f3138e40e8343203d56bebeb31c9f629949ee64d3836386af462f66d9",
+      "title": "substack.com",
+      "url": "https://fairwarning.substack.com/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "0b8ea2c3432d91e632babe8b168ecb26782aa44fded9fb094d0f976397861b77",
+      "title": "Award DataIQ Awards",
+      "url": "https://www.dataiq.global/2026-dataiq-awards-categories",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "high"
+    },
+    {
+      "id": "0bae48d554d6616e03292adbff1808f3224bb5337e35350cc900edde35f3dd62",
+      "title": "allthingsspatial.com",
+      "url": "https://allthingsspatial.com/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "0c7f801d3f93263f938ae8114beead13c87b2e8298af0867fa8c7d1942e26fd4",
+      "title": "Pentagram",
+      "url": "https://pentagram.com/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "0cf655279807dfaa71fae923900063c09ff01bb71d3266c8393b25748e2a53cd",
+      "title": "wearedatafolks.com↗",
+      "url": "https://wearedatafolks.com/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "0d0693b31c255fa6f2a7c4282c740e44c3c4b77078c6bb49b4eef0cfce0f7801",
+      "title": "Conference SND Digital (Society for News Design)",
+      "url": "https://snd.org/category/events/annual_conference",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "0d30fb1d35d16b1026ddd66c90e0a98cdb84be25955fb9ddd252b25342538a4d",
+      "title": "The Guardian",
+      "url": "https://www.theguardian.com/interactive",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "0d595c8ce1113ec4916614a9f1aa1cd609ee921445d0cd219c4267562391eac3",
+      "title": "Bluesky",
+      "url": "https://bsky.app/profile/datavizsociety.bsky.social",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "0e6dfe26364d670ec119c77dbd0f27f42f4d8c210f7dc356a44d3b9eba29f9f5",
+      "title": "Tiziana Alocci",
+      "url": "https://www.tizianaalocci.com/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "0e8057193f2977f78238b17c8b4be09dd5fc1ab7d851b9bac58ef0b7b73f3a5f",
+      "title": "When Slate went back to its 1996 homepage, it learned some web design lessons for 2026",
+      "url": "https://www.niemanlab.org/2026/10/when-slate-went-back-to-its-1996-homepage-it-learned-some-web-design-lessons-for-2026",
+      "providers": [
+        "Nieman Lab"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "0eb0540dca903f9ca244f908bd13e32d49b9ba42ff621f7465a29428dd829121",
+      "title": "Felt",
+      "url": "https://felt.com/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "0eb1c4ed8ff4cd8aca02f45c3892bf5a156b99ff0e58f96f98858e77ae905b61",
+      "title": "Conference Ada Lovelace Day",
+      "url": "https://findingada.com/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "0f6d61b27d94fbd16a69def041494c603cbbf6fc0a30a031602633af95a72351",
+      "title": "spatialedge.co",
+      "url": "https://www.spatialedge.co/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "0f8eb502c422784b58200f6768a83521c3492df4816c1ecf313edbf3c321293f",
+      "title": "Microsoft Fabric & Power BI User Groups",
+      "url": "https://community.fabric.microsoft.com/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "0fd9378938e6fbbfaa2bae93e7381f2e0438b17ac070a4aaab65b0bfdb0af40e",
+      "title": "reactable",
+      "url": "https://glin.github.io/reactable",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "11f6a6a3300804eb8be8154344a83bcca373bda9a4aa1d1b65ce5afb8578d78a",
+      "title": "EPI &#8211; Environmental Peacebuilding",
+      "url": "https://environmentalpeacebuilding.org/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "121a8bc4a5b928e9479d4daf0001a9181030f7aa35996dfa121b15e0b84c6506",
+      "title": "pudding.cool",
+      "url": "https://pudding.cool/pitch",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "149bf5aa344dcb4364370f275286edbffc60fe06500d81514394a10151f72447",
+      "title": "Conference Dataharvest (The European Investigative Journalism Conference)",
+      "url": "https://dataharvest.eu/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "14b0ae3cf0761989afa2831f545f32b36d188a312806f43cfc82d9f0065d6d50",
+      "title": "playfairdata.com",
+      "url": "https://playfairdata.com/written-visual-analytics-tutorials",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "15cb819ab90b89beb071f37ab46c0357e4e90ace075a9d9f3d3cf242336fe7b1",
+      "title": "The New York Times",
+      "url": "https://nytimes.com/section/climate",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "172b791d5c8c3ee897e91a183c66b64af8826b69b0480ca88b923adbcf6ff5cf",
+      "title": "Conference Tableau Conference (Salesforce)",
+      "url": "https://tableau.com/community/events/conference",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "17a4c28f80871ff69c811767563b1cbe3736e0c00e3e5d07685dc65d3fbcfe99",
+      "title": "BigQuery GIS",
+      "url": "https://docs.cloud.google.com/bigquery/docs/geospatial-intro",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "17f1c41fb6e2091673852fb006f710c7d51794eafad3c3a89a95b2b204260f06",
+      "title": "Conference PUSH UX",
+      "url": "https://push-conference.com/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "1963b7b3df8b23f3cfdb3e5e0b7f41832b27c00b6acb5a0ffbba14ab4c28a72e",
+      "title": "Award Gartner Data & Analytics Excellence Awards",
+      "url": "https://www.gartner.com/en/conferences/hub/data-analytics-conferences/awards",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "high"
+    },
+    {
+      "id": "196ba32ed8c0cce51be9328526cfe7b676736c04dced66c6233738fec3060613",
+      "title": "In the AI age, publishers who understand what readers want will do best, a new report argues",
+      "url": "https://www.niemanlab.org/2026/10/in-the-ai-age-publishers-who-understand-what-readers-want-will-do-best-a-new-report-argues",
+      "providers": [
+        "Nieman Lab"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "1995b49a17729e2441c8f7d750f0af5f54a472dfc138d62318efedc1cd30ee4f",
+      "title": "Kim Albrecht",
+      "url": "https://kimalbrecht.com/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "1a333dc7b2c597c335a75494fa334767479b8afd9c530ad6e74e3f1423af541a",
+      "title": "Giorgia Lupi",
+      "url": "https://giorgialupi.com/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "1ad346fb03303d24f90efb78aebe016804557612b3a07100946455ce3d0a9d41",
+      "title": "color.adobe.com ↗",
+      "url": "https://color.adobe.com/create/color-wheel",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "1afc7f24e5db42c85fafe9e7dd30b176d757af83dd3f791408bec72af234e330",
+      "title": "utwente.nl",
+      "url": "https://www.utwente.nl/en/itc/big-geodata/newsletter",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "1b6d5942594c35866f49363722c29b13a5cad3e1b9eecd9f820572eeeda80195",
+      "title": "Responsive scrollytelling",
+      "url": "https://pudding.cool/process/responsive-scrollytelling",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "1ca65dbfcd3c79769811576671609d5cf4ffab7e63cd5e7034454f4506c9187c",
+      "title": "Columbia Journalism School will pause its M.A. program (and launch an online degree)",
+      "url": "https://www.niemanlab.org/2026/10/columbia-journalism-school-will-temporarily-pause-its-m-a-program-and-launch-an-online-degree",
+      "providers": [
+        "Nieman Lab"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "1d7e7b7e4a5912be421d1d433fd6a15e8cbc074462e1e467a5ff17bd10663e05",
+      "title": "El País",
+      "url": "https://elpais.com/narrativa-visual",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "1f84a9a42615fad481b2dc097faa1e33264354aaa6ec5fe1a91997c6934f66bb",
+      "title": "Award European Press Prize (Innovation Award)",
+      "url": "https://europeanpressprize.com/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "high"
+    },
+    {
+      "id": "1fa6f485af6f2f2edfdb240e38ff0d05196ed21ac41a428a308bd52bd2e20e10",
+      "title": "Scikit-learn",
+      "url": "https://scikit-learn.org/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "200093c156771796db4cdb6f5597c6b20b1b4d991e7c96099c584f82b906e82a",
+      "title": "TouchDesigner",
+      "url": "https://derivative.ca/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "205694bf8037f237556626686c0876143c9bbcde63d969f1639beaf770562e3c",
+      "title": "earthdatascience.org",
+      "url": "https://www.earthdatascience.org/courses/use-data-science-tools",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "2170a314eb31f5023557bdd738626970b61acce96b2477efa6df658d88bc83b9",
+      "title": "ChatGPT is adding real cartoonists&#8217; signatures to fake New Yorker cartoons",
+      "url": "https://www.niemanlab.org/2026/10/chatgpt-is-adding-real-cartoonists-signatures-to-fake-new-yorker-cartoons",
+      "providers": [
+        "Nieman Lab"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "24f87c4bf66f238ff27487ff4d072de90b9ffc6c5f09c57b1d5c845ebd26307a",
+      "title": "The Markup",
+      "url": "https://themarkup.org/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "2510b4ab187aef42de7343753c19c1fdef18cc7a15c3938785c9759cada5eb2e",
+      "title": "chromote",
+      "url": "https://rstudio.github.io/chromote",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "27719650287b06f198231d39f54b65054bc53ab461c1236a3193274a2c2c7668",
+      "title": "Visit tool ↗",
+      "url": "https://www.mapbox.com/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "high"
+    },
+    {
+      "id": "2799001a26f5610d3d7ccc75bd5a05f8f5c0f4d70125c81b352803fa10ba9b09",
+      "title": "Accurat",
+      "url": "https://accurat.it/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "27b499286de15df52482e833ca96233a16d93bdf2f0b5eeeb52c8f3b6fe962d6",
+      "title": "Stefanie Posavec",
+      "url": "https://stefanieposavec.com/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "27d789de59d5782f2dece6402ae567fd861c393fd3966d260e16df68f848b4af",
+      "title": "Award Communication Arts Interactive",
+      "url": "https://www.commarts.com/competitions",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "high"
+    },
+    {
+      "id": "27d7bcae001f174bcba3dd2a9ba882f110947aa6bcc0309d5b68d0298bd3b597",
+      "title": "Award The Kenneth D. Gardels Award (OGC)",
+      "url": "https://www.ogc.org/about/awards/gardels",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "high"
+    },
+    {
+      "id": "280862e005817e8275c3b0a385e5b3436150a36ab1770c8024e422de53c5a3a6",
+      "title": "Part 1: You Need a Data Story",
+      "url": "https://pudding.cool/process/how-to-make-dope-shit-part-1",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "296e94f0be2c6c8832ec1f80abbdbd4b31c93538ad8430741e10eb821a945428",
+      "title": "Global Fishing Watch",
+      "url": "https://globalfishingwatch.org/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "29f46d3ac3590a74d2a38051398c4030ba2a0abd19be51d84e78bd83af22e1b2",
+      "title": "React Three Fiber (R3F)",
+      "url": "https://docs.pmnd.rs/react-three-fiber",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "2a2be78ed2cd1db6f40e7a90fb69598fe550a2ff6b9758d9ae61e536d3858e87",
+      "title": "Shirley Wu",
+      "url": "https://www.shirleywu.studio/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "2c0aa65aea8c63e360318305024b07774053b56bd466c4638d89f8d64e6c2437",
+      "title": "weeklyosm.eu",
+      "url": "https://weeklyosm.eu/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "2defa2f0774c56c5446fcde2747ddb9864fa23ead33ebf08fd8d3460763e05ab",
+      "title": "Visit tool ↗",
+      "url": "https://flourish.studio/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "high"
+    },
+    {
+      "id": "2f19efb8b5b14971b275a87a40da78fc77472827304f401316c997d884261d49",
+      "title": "vizheads.com ↗",
+      "url": "https://vizheads.com/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "305390937a26a7aa555623b14fac7e0911dd4e0a444afdcad8f0192afcaf0da1",
+      "title": "Valentino D&#8217;Efilippo",
+      "url": "https://apostrophe.one/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "309ae39f1ab65d8e994200d770dbc0aa20d2fcd5e4ffd2b58c801c475be02c20",
+      "title": "Le Monde",
+      "url": "https://lemonde.fr/les-decodeurs",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "30b1f7757473231b49b8d21d8869a538eb26904d483afdf28eb83cd23d821144",
+      "title": "datavisualizationwithsvelte.com",
+      "url": "https://datavisualizationwithsvelte.com/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "high"
+    },
+    {
+      "id": "33c2842da453322e732087a204b8b8cff109b5c6a2e2ba71a321e669a3b5f021",
+      "title": "tidyverse",
+      "url": "https://www.tidyverse.org/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "35bafe73c6e75cb1cc11a9ef03253ba878953520ffe49a94876645a034c7cddb",
+      "title": "Conference International Journalism Festival",
+      "url": "https://journalismfestival.com/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "37099375d69ab8e30f3bc68652b7e86f79470c525bf97c70fb73d503b2454f60",
+      "title": "The Ringer bets on Substack&#8217;s network over its own website",
+      "url": "https://www.niemanlab.org/2026/10/the-ringer-bets-on-substacks-network-over-its-own-website",
+      "providers": [
+        "Nieman Lab"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "37f2c7ffed32bfa6354bdb36b357d24e6d22810a5a5943b91ba62b0f137b53de",
+      "title": "data.census.gov ↗",
+      "url": "https://data.census.gov/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "37f8c459b4123fe01cd711847fff109835afb3a306b85493652a8fc062ff9454",
+      "title": "Conference Cloud-Native Geospatial Outreach Day",
+      "url": "https://cloudnativegeo.org/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "390158fb6d60b0995dabfebbc5dfd1203cefd961206800fd110f822179674776",
+      "title": "Bellingcat",
+      "url": "https://bellingcat.com/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "39153342c3fd396d7b60bdfae034535601b0c7ed1ee454f9839c02c5d078198a",
+      "title": "The Straits Times",
+      "url": "https://straitstimes.com/multimedia/graphics",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "3a4b48c6b7b1200272575f06d90ee6d0ca1e01de8273cc7bce802401b01fb38f",
+      "title": "scientificamerican.com",
+      "url": "https://www.scientificamerican.com/page/submission-instructions",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "3a612d3b0026605c96abe95b17102fd7ec515303f91661745ecd97a722bed17a",
+      "title": "Visit tool ↗",
+      "url": "https://www.python.org/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "high"
+    },
+    {
+      "id": "3a7a9ff67322a5266a579fb5a6a3504f9f7c01c8c9e91206df5166db6e4473af",
+      "title": "Fabric",
+      "url": "https://learn.microsoft.com/en-us/fabric/onelake/onelake-overview",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "3af9e64861761c535449a1bd3fd3d6e8d5bd522ff6aba0f99c39c0d4a6428bf4",
+      "title": "kaggle.com ↗",
+      "url": "https://www.kaggle.com/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "3b4984fed83e5941b32809e411bc2293509a57bf92195d57bde4cb11e4051bfb",
+      "title": "Camelot-py",
+      "url": "https://camelot-py.readthedocs.io/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "3b85d7792f9ca1bee1e5d5eb99e18ff38c4c891f426361132de2af2839287c76",
+      "title": "World Wide Web Consortium (W3C) Community Groups — GPU for the Web",
+      "url": "https://www.w3.org/community/gpu",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "3b9174f1dffecf927eaf7dec61df5b07a26d948aa0a2d8ec73d24e48548282d2",
+      "title": "datawrapper.de ↗",
+      "url": "https://www.datawrapper.de/blog/colorguide",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "3b9a903debebd599d79f0d51bcb26fdce3ebe4c08722f52b070def0dcf12493e",
+      "title": "thenodeinstitute.org",
+      "url": "https://thenodeinstitute.org/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "3c39884183add7b36ae8401cf99300278842cd9fc37f23cd5df07a22c5d60ee6",
+      "title": "Die Zeit",
+      "url": "https://www.zeit.de/daten-und-visualisierung",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "3c78f3e2789f3bd48c164e6a18da696b7dfaab20271fe86d32cd70ccaf9b1eb8",
+      "title": "Indigenous Mapping Collective",
+      "url": "https://indigenousmaps.com/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "high"
+    },
+    {
+      "id": "3f3a95c2043cd44f9608ee5291e4531b43c1eed34edfc0975866e497c17348b2",
+      "title": "PostGIS",
+      "url": "https://postgis.net/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "4025b6ea41d5f6fa45084e43c6e594268c5e68967dd20efeb6c1bcf73944c346",
+      "title": "Visit tool ↗",
+      "url": "https://leafletjs.com/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "high"
+    },
+    {
+      "id": "410d57a7e1c9f7971573e2ad6ac60aa5a132c29f79b9e49fb976d534a6c081b9",
+      "title": "Conference GIJC (Global Investigative Journalism Conference)",
+      "url": "https://gijc2025.org/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "417fecfa46ee4f86cc5cd58651876a11bcb2b98a4dc130b0f03a17107db330dd",
+      "title": "How publishers are rethinking audience engagement: Five takeaways from the Future of Media Technology Conference",
+      "url": "https://www.niemanlab.org/2026/09/how-publishers-are-rethinking-audience-engagement-five-takeaways-from-the-future-of-media-technology-conference",
+      "providers": [
+        "Nieman Lab"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "42bbe600160e80a212e3a57ced68938ece957c7a35de219f4614af4cada01d8c",
+      "title": "dear-data.com ↗",
+      "url": "https://www.dear-data.com/theproject",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "43cdfc61aac8f79b5cb505c8d7aacca96135949f4f00c83a8c55d223e7b97582",
+      "title": "Nieman Lab has a new look",
+      "url": "https://www.niemanlab.org/2026/10/nieman-lab-has-a-new-look",
+      "providers": [
+        "Nieman Lab"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "44c356fe0245f678072a34ff62205f526b8a35fb05640f38a9b94f8966ce999b",
+      "title": "Subscribers are up, but growth is down. Here&#8217;s what worker-owned Hell Gate is trying next.",
+      "url": "https://www.niemanlab.org/2026/10/subscribers-are-up-but-growth-is-down-heres-what-worker-owned-hell-gate-is-trying-next",
+      "providers": [
+        "Nieman Lab"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "45286c14b1832877ffa0c0a260849d088bbedc00dceb2c6efead79620cc40210",
+      "title": "datawrapper.de ↗",
+      "url": "https://www.datawrapper.de/blog/chart-types-guide",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "45541c09503159a479896330cf3a044b95e43073fdfd9f8cad6585f5f16f1992",
+      "title": "Observable Framework",
+      "url": "https://observablehq.com/framework",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "45e50a7d9b58b5153f393a18b5667d1c2cb2070cab54533ea636d2c01c22b242",
+      "title": "ft.com",
+      "url": "https://www.ft.com/newsletters",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "46094c069ad6b19c7acbbbbf579fd3f2ffabc4fa3a6bb5f917940d5b8a984d1b",
+      "title": "Fox News attacks the media roughly every 15 minutes, our study finds. (CNN? Every 140 minutes.)",
+      "url": "https://www.niemanlab.org/2026/10/fox-news-attacks-the-media-roughly-every-15-minutes-our-study-finds-cnn-every-140-minutes",
+      "providers": [
+        "Nieman Lab"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "463cf06dc127048b7cb605aad30f553ba68a47dcc49214e0cba46b60cdb3a620",
+      "title": "maproomblog.com",
+      "url": "https://www.maproomblog.com/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "high"
+    },
+    {
+      "id": "4649507fc65177567db59e17562400338347df4919874be8ed383c7fed5e34a7",
+      "title": "storytellingwithdata.com ↗",
+      "url": "https://www.storytellingwithdata.com/blog/swdchallenge-annotate-it",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "47112e6670322f8d184bc20c12d10660693fd3a49860712a4ec8f3ab7b7e2155",
+      "title": "substack.com",
+      "url": "https://geospatialnext.substack.com/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "4776d6eb4053b5298d28054d9c955930f18d7b36b4625807d816dfd2f422725b",
+      "title": "tmap",
+      "url": "https://r-tmap.github.io/tmap",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "high"
+    },
+    {
+      "id": "483c5944a10521dde5f808f0c5a7f8905fcf5f0d7041f337d200f27096fecbc5",
+      "title": "Omni",
+      "url": "https://omni.co/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "48cd2f42cea94cf9d25734ae66b9e0076ac813ab34bbf1a423ad3692609534ed",
+      "title": "The Washington Post",
+      "url": "https://washingtonpost.com/climate-environment",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "4974752ee5b2a80c905efac20bcc64abb7108085374363f0653078f1975c84a6",
+      "title": "Visit tool ↗",
+      "url": "https://lookerstudio.google.com/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "high"
+    },
+    {
+      "id": "4a011c6a3f567b9c74eb77d0a2bc50158e443caa9c5ad01cf1e178f56de81054",
+      "title": "Conference National Institute for Computer-Assisted Reporting (NICAR)",
+      "url": "https://ire.org/conferences/nicar-2026",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "4a7c60da3579bf07d7f79f2347805a5519d7979711aa61c31c4091eedd176054",
+      "title": "WebGPU & WGSL",
+      "url": "https://www.w3.org/TR/webgpu",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "4d24029225385fa19b391964dd75225526493f93f58a57fcb3718e3a2ce55dde",
+      "title": "Conference Microsoft Fabric Community Conference",
+      "url": "https://fabricconf.com/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "4f8fb014256b7dbd0318f5164097f37060aab934f8fd8e6963387315333d99ad",
+      "title": "storytellingwithdata.com ↗",
+      "url": "https://community.storytellingwithdata.com/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "51fc56bc81fdb0082223f496f8ab4da4aa2c05d79cf4c8aa35b3d33de2e8ed34",
+      "title": "Deck.gl",
+      "url": "https://deck.gl/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "5208406ff10520ad769b59036515e053a164ac5bc4ebecb15ef3ec91e8ced7b1",
+      "title": "r-spatial.org",
+      "url": "https://r-spatial.org/book",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "523a861d21eafb5ed7c23e495938271fdad067bc512470e5c737419607d68d02",
+      "title": "Award Esri StoryMaps Competition",
+      "url": "https://www.esri.com/en-us/arcgis/products/arcgis-storymaps/contest",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "high"
+    },
+    {
+      "id": "529d351f36cac9b54f6d792c966037e2b3e5b84d840415fda83803e1335229ea",
+      "title": "mapbox.com",
+      "url": "https://www.mapbox.com/impact/resources",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "high"
+    },
+    {
+      "id": "52eb19f79058a7be1b1ae392289d18d01d30a96b2f306741d9702163a141b77a",
+      "title": "Two 23-year-olds used AI to create a daily audio briefing. It&#8217;s now the top news app in Argentina.",
+      "url": "https://www.niemanlab.org/2026/10/two-23-year-olds-used-ai-to-create-a-daily-audio-briefing-its-now-the-top-news-app-in-argentina",
+      "providers": [
+        "Nieman Lab"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "53702db8311a85fcdcd3e094d160b4f65c85966274a0f8a083eeac9de0f92101",
+      "title": "tableautim.com",
+      "url": "https://www.tableautim.com/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "53721ed24dba14d0bdd63254bc453f29cb40905e0ab8251a7eac27524978f873",
+      "title": "oscarbaruffa.com ↗",
+      "url": "https://oscarbaruffa.com/data",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "53f6a5ac478d71b1ae382d9dda68ae3f87849a085e3dd1bc4a6fd545c97fcc53",
+      "title": "Datylon",
+      "url": "https://www.datylon.com/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "540ebc47c656f9759c1d017f559ec0716a5c88fa64a4c5dcde41339e85bed528",
+      "title": "Matthias Shahl",
+      "url": "https://beyondtellerrand.com/events/dusseldorf-2021/speakers/matthias-stahl",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "560588bb174c8055c7bd49990095bfe64dff3a976d535a0120b422e88c405a1b",
+      "title": "Financial Times",
+      "url": "https://ft.com/visual-and-data-journalism",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "56371ff7353f3399cb51fb4ee454ca91c2b0aaf256add0a5a7212f563697d87b",
+      "title": "The Washington Post",
+      "url": "https://www.washingtonpost.com/visual-stories",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "56ebbe4ebcc655aac7aee9aa2ca4234425506b7277e4e3977182c3afc1a35c93",
+      "title": "sqlbi.com",
+      "url": "https://www.sqlbi.com/tv/introducing-free-dax-tools-video-course",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "58e87acfecb36438d73aa6be91646a687227e1ac7fa0d967a846ec383e5e9e22",
+      "title": "duckdb",
+      "url": "https://duckdb.org/docs/api/r",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "59d5f0574824f826a21e7212b474e537d0894992de59fcce6eae3bf6a79819fd",
+      "title": "Overture Maps",
+      "url": "https://overturemaps.org/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "high"
+    },
+    {
+      "id": "59fb8bff0d005828c589638516fc33d71d98a22696b082762dc41f67012b9d09",
+      "title": "&#8220;Uber agents,&#8221; undercover AI personas, and other ways newsrooms are using AI in investigations",
+      "url": "https://www.niemanlab.org/2026/10/uber-agents-undercover-ai-personas-and-other-ways-newsrooms-are-using-ai-in-investigations",
+      "providers": [
+        "Nieman Lab"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "5a9875b195c86a4d914f694c642c1d98bcb693c248efeade75666cccfa426b89",
+      "title": "p5.js 2.0",
+      "url": "https://p5js.org/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "5b70350d3db597c76152890b7d29190b3f58a89e3680688bc4ea2c325b51ea0f",
+      "title": "Federica Frangapane",
+      "url": "https://www.behance.net/FedericaFragapane",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "5c1be986e488cd7da4221e6f239cdd4b9259d573f9151cf5b6d1b348b06b2dbe",
+      "title": "Visit tool ↗",
+      "url": "https://www.r-project.org/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "high"
+    },
+    {
+      "id": "5c8b6670648744bb0e41b197a9095e43602c82ed4beffead62ab05ede49760c3",
+      "title": "Award IBCS Certified Reports & Dashboards",
+      "url": "https://www.ibcs.com/certification",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "high"
+    },
+    {
+      "id": "5dee27d6a6130dabe94cbffa1b04ecbfd04a7c1426cdfffb883b2ac0f609cb9a",
+      "title": "Canvas & SVG API",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "5e7222386154610197efe38e5ef9216257465146a87c27d2a387b15f500b13f6",
+      "title": "tableau.com ↗",
+      "url": "https://public.tableau.com/app/discover/viz-of-the-day",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "5f21e4549c41ae3b232654d33565534676a4a041a32c73db6de2df2fc1d41e57",
+      "title": "A study of nonprofit newsrooms reveals some cracks in the model&#8217;s foundation",
+      "url": "https://www.niemanlab.org/2026/10/a-study-of-nonprofit-newsrooms-reveals-some-cracks-in-the-models-foundation",
+      "providers": [
+        "Nieman Lab"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "5f38966f3345bf06a57028922fd4a50a10a035d97b2239ec83b8e9dff98e06e3",
+      "title": "NewsMatch will shift from a year-end campaign to a year-round model",
+      "url": "https://www.niemanlab.org/2026/09/newsmatch-will-shift-from-a-year-end-campaign-to-a-year-round-model",
+      "providers": [
+        "Nieman Lab"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "5facb9ae65e7884e094d122c16516f682b3e40802731bc53d4deafc3274409d3",
+      "title": "Award Awwwards",
+      "url": "https://awwwards.com/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "high"
+    },
+    {
+      "id": "60a6227b5d803cd8eaf13b137b70be275ab448bf2466af685879078bce375687",
+      "title": "Conference State of the Map (OpenStreetMap)",
+      "url": "https://2026.stateofthemap.org/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "high"
+    },
+    {
+      "id": "62e2a9e99007d4f08dc07314726f152eb79e541b949cc55acca61f841668bc14",
+      "title": "Women in GIS",
+      "url": "https://womeningis.org/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "651929ba8a401dbf26ef8caf5a76e60df78cf5da529f319b35ea46f1fc107132",
+      "title": "Award BARC Start-up Award for Data and AI",
+      "url": "https://barc.com/events/barc-start-up-award",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "high"
+    },
+    {
+      "id": "679ba5a130af00183d127499c17a20a85e30c4753c0c2637c9c038765de781c8",
+      "title": "LinkedIn",
+      "url": "https://www.linkedin.com/company/data-visualization-society",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "680da594a73b6119cbce9031fd510f66e17fc6d9f72b583680af84ab9775f301",
+      "title": "Processing (Java/Python)",
+      "url": "https://processing.org/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "68fedf64924894e13bb99abb21c12be64ecfb0387bc39c7acd2c64cd5949932f",
+      "title": "Visit tool ↗",
+      "url": "https://www.figma.com/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "high"
+    },
+    {
+      "id": "69b85928322045fdd50418800418511a4fdc9dbd7137ac39a2d31f1e8fb718b6",
+      "title": "Conference Ars Electronica Festival",
+      "url": "https://ars.electronica.art/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "6a7310641413880317d62f678c248f1cef045297f8ee04c6a53c11e79907a5fb",
+      "title": "esri.com",
+      "url": "https://www.esri.com/en-us/news-publications/esri-brief",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "6b096fea767db224de5ca98bfd30735c8cef35a0508230fc1677cedab74b103d",
+      "title": "Conference Sónar Barcelona / Sónar+D",
+      "url": "https://sonar.es/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "6b996352654623d8f6e8242b121a2b91f1ed3c0ad4188aa19c180013d2a77777",
+      "title": "Conference QGIS User Conference 2026",
+      "url": "https://conference.qgis.org/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "6c668d3c43d8be3ab14e5db6f8dcafe7f5e3ba2351961c72792b3064fc7cea64",
+      "title": "GSAP (GreenSock Animation Platform)",
+      "url": "https://gsap.com/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "high"
+    },
+    {
+      "id": "6d49155eca3efdabd2d3681c83e054317a8b6a5956de2a27b97c38c85f01045e",
+      "title": "Snowflake Geospatial",
+      "url": "https://www.snowflake.com/en/developers/guides/getting-started-with-geospatial-geography",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "6d8bee2bb020f9fd35e6fc27edabdb976dccf1c39359502b978be881777e1584",
+      "title": "El Confidencial",
+      "url": "https://elconfidencial.com/datos",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "6dbd1048de521b8d6c31e41693f9aed74511e558ece6cac05e9166cc40e6bb01",
+      "title": "Graphics",
+      "url": "https://www.nytimes.com/spotlight/graphics",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "6e479e8180a85df026332c043a732640b8d85c2c6b9cf3047240d73284a2cd43",
+      "title": "Conference CIJ Summer Conference",
+      "url": "https://tcij.org/summer-conference",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "6fd2b7a86d663b077640440524ee613d77fc8f91a0fcb668af02e6a92d4a5e07",
+      "title": "highcharter",
+      "url": "https://jkunst.com/highcharter",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "high"
+    },
+    {
+      "id": "7088b3a76d1a6a696213fc4a6621614fef6be25590aae8322af85caac5b971ff",
+      "title": "yorku.ca ↗",
+      "url": "https://researchguides.library.yorku.ca/datavisualization/designprinciples",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "70f40c54bd1bf80ba4abd39091f4b5f5d6f952dd3c82f4408ef8658bfd0bdf74",
+      "title": "Segment Anything Model (SAM) for Geospatial",
+      "url": "https://samgeo.gishub.org/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "71345396ffbac38cacbee666d66d472339481712d8470ebd0f99fe68f3eb184f",
+      "title": "datavizproject.com ↗",
+      "url": "https://datavizproject.com/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "71a70a244b0d861f973caa08fc2a0f9644c04cd41ee7806ce1d2d5b3ba455498",
+      "title": "Conference xCoAx (Computation, Communication, Aesthetics & X)",
+      "url": "https://xcoax.org/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "733c36409f57a6d64b4eb49ac945a060082aa3ebc58f68ebc56d21824af048b3",
+      "title": "fedmatch",
+      "url": "https://cran.r-project.org/package=fedmatch",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "7346507aa9807dbed58991a8f5b526795addec49e723c4fed91dc99f66e3c296",
+      "title": "Conference Future Technologies Conference (FTC)",
+      "url": "https://saiconference.com/FTC",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "7375c1939a34f89f749fdba9341a0fb1a9b647e50e52b8eb20ccce226af380fd",
+      "title": "Federal appeals court upholds Thomson Reuters&#8217; landmark AI copyright win",
+      "url": "https://www.niemanlab.org/2026/09/federal-appeals-court-upholds-thomson-reuters-landmark-ai-copyright-win",
+      "providers": [
+        "Nieman Lab"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "737895fe0c3b6bc993c79deb146a66c57e5897febd81679b3b7342c8cf8fe96c",
+      "title": "Conference dbt Summit (formerly Coalesce)",
+      "url": "https://www.getdbt.com/dbt-summit",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "73d4a0db8404ae46da3265799325d106c4d30169b88ecfe775f3d406b2967e45",
+      "title": "Award Data Breakthrough Awards",
+      "url": "https://databreakthroughawards.com/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "high"
+    },
+    {
+      "id": "749452df2e1692f56f4db2eb391e11c5e95abb8075586a9b5dc494d634814e8f",
+      "title": "Conference IBCS Annual Conference",
+      "url": "https://ibcs.com/annual-conference",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "7521ae0fcb32324071083a237b99ba4318cda03787f3f10b8ff9e6a8506e7a44",
+      "title": "Stories",
+      "url": "https://scmp.com/infographics",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "7540add9b53dd9fe9e7d6b0ce42f8b600bf2e578a2e1159c7c8ee6fe50d5bbda",
+      "title": "economist.com",
+      "url": "https://www.economist.com/newsletters/off-the-charts",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "76d0ca4b6a76e2a88236ae03c305e5de33904cddb0fc52ef06a5b6a1787c802a",
+      "title": "Clever°Franke",
+      "url": "https://cleverfranke.com/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "78af21568f19303a4a8a13408d2a320114ecb94434cbd18f33517315520693e9",
+      "title": "Nadia Bremeh",
+      "url": "https://www.visualcinnamon.com/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "78b7a11294f5e332bf8ed33d08a8d7151c67f4de4588753cb629a48375d6c337",
+      "title": "tabulapdf",
+      "url": "https://github.com/ropensci/tabulapdf",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "79b90a44f8fcb00c0fda2ba99275a70dba5d6a5246bc614990a40a0dfdaddd03",
+      "title": "coolors.co ↗",
+      "url": "https://coolors.co/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "79c035874e3077250acc327858af49220f91d97e5ae9de9cb5f5bd4b2f362a0f",
+      "title": "Award AGI Awards for Geospatial Excellence",
+      "url": "https://www.agi.org.uk/agi-awards",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "high"
+    },
+    {
+      "id": "7a55b8874edaedef90987c3502dd86ee6c51faa47b0ba57f934cdd19dbab16d1",
+      "title": "datawrapper.de ↗",
+      "url": "https://www.datawrapper.de/blog/create-good-color-palettes",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "7a674f5f3ebbeeb8923c0eb474d3dbf00e8dd7a7ed8076fe9c5455d90526ad3f",
+      "title": "Award WAN-IFRA Digital Media Awards (Best Data Visualization)",
+      "url": "https://wan-ifra.org/events/digital-media-awards-worldwide",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "high"
+    },
+    {
+      "id": "7af28718c6a2beeda804afa107d9f6d265733906d48fbb976aa2f8276a3cae75",
+      "title": "natureofcode.com",
+      "url": "https://natureofcode.com/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "7cbdafe458ca476238453728c46dee46728b4663b81ba0341abed24eca943087",
+      "title": "North American Cartographic Information Society (NACIS)",
+      "url": "https://nacis.org/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "7d5bbb97cfd0fe6746b713d0d118ef74e8de8887e4249c5553f751d4a738dd6a",
+      "title": "Part 3: Making It Public",
+      "url": "https://pudding.cool/process/how-to-make-dope-shit-part-3",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "7e26ead2ab970d600d3b2c415544706d6d4f6f6c28f67ae08b04963b867a5158",
+      "title": "Visit tool ↗",
+      "url": "https://inkscape.org/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "high"
+    },
+    {
+      "id": "7e356086eb10bca8974696d81268d768a7c5d6a5d1c0141e25dead3c27b6d67c",
+      "title": "Conference OFFF Barcelona",
+      "url": "https://offf.barcelona/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "7e40f3f016fcc672f9a53218a5180485067c666ef0a61c0b9a3acadb1f388a22",
+      "title": "pudding.cool ↗",
+      "url": "https://pudding.cool/pudding-cup",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "7e5425bc1aab648ed78bcd3997e7f00e324f5ef03a0c0b59d3fdf2d1d14a23c4",
+      "title": "ArcPy",
+      "url": "https://pro.arcgis.com/en/pro-app/3.4/arcpy/get-started/what-is-arcpy-.htm",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "7eaf7c339e67f37837d3093e063d9f476ad961b434159b8f8a66e26d53d59a11",
+      "title": "The Wall Street Journal’s new AI tool, “Doppler,” forecasts the issues that will shape the midterm elections",
+      "url": "https://www.niemanlab.org/2026/10/the-wall-street-journals-new-ai-tool-doppler-forecasts-the-issues-that-will-shape-the-midterm-elections",
+      "providers": [
+        "Nieman Lab"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "high"
+    },
+    {
+      "id": "7eb92490044a586a66f7134e5f6c889c01185bbc01891d577892bb5ac77389f0",
+      "title": "Folium",
+      "url": "https://python-visualization.github.io/folium",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "7ed11e13fc7c4748b07cf10363669bcf3d40afa224ad47139cf096bf2936dd9c",
+      "title": "openvisualizationacademy.org ↗",
+      "url": "https://openvisualizationacademy.org/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "high"
+    },
+    {
+      "id": "7f01fdf357bd95fec8d79c027bcec1e0f93d444f5213510c5eb5d59e191aea42",
+      "title": "Conference State of the Map US 2026",
+      "url": "https://openstreetmap.us/events/state-of-the-map-us/2026",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "high"
+    },
+    {
+      "id": "7f332a5313ca04b5297cc3a1f368a47f0b3d28fc16284a5cd6840aadd8bbb7fb",
+      "title": "Schema Design",
+      "url": "https://schemadesign.com/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "800f59f218e8df1cb049e548f39cf736afb8a6f8ff0a95120b54e00292fb6325",
+      "title": "Cloud-Native Geospatial, COG",
+      "url": "https://cogeo.org/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "80b3a36bc32b874256e675493db452de9c5e04cb25b98648d340a315a67a3fbd",
+      "title": "Zebra BI",
+      "url": "https://zebrabi.com/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "81362c083eaed51edd71a883ab75ce205ba45e4e5a96858948cfc9362c7b5f15",
+      "title": "academy.zebrabi.com",
+      "url": "https://academy.zebrabi.com/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "81771b79564bfd74b69920aff9589d4b27fcff41e6c367141022f76b533c007f",
+      "title": "BeautifulSoup",
+      "url": "https://www.crummy.com/software/BeautifulSoup",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "8283d26fce142ac5363b4bd05bb79f6682b2fdec0a76ad859e908dd03a496c83",
+      "title": "Conference SIGGRAPH 2026 (North America)",
+      "url": "https://s2026.siggraph.org/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "8324999055459130595b56479e6386ce9cae5e324d014aaff5e15561ad1d2d04",
+      "title": "datajournalism.com",
+      "url": "https://datajournalism.com/read/handbook/two",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "859cca020748f7af9ff30e55543a493406b72320c0864064f036228620367060",
+      "title": "momentum.js",
+      "url": "https://www.creativeapplications.net/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "87d587fb19392bb7866daeeb6b83219beda45f46b058d876c647f27e3e0253d4",
+      "title": "RecordLinkage",
+      "url": "https://recordlinkage.readthedocs.io/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "893c54e9a4ea67ecf19200a9e9cdc22391eb6951020d50c2760b6b7c451ded01",
+      "title": "themarkup.org",
+      "url": "https://themarkup.org/series/blueprints",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "8960df5ea200923e3c4c3cce81c5d0020bfe7228a43a2198cb1fb4679fd2f493",
+      "title": "Playwright",
+      "url": "https://playwright.dev/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "8a098a7a93f7eb00a6420d2313c73ea55d23f32edea7364e8a9613c46ea21a67",
+      "title": "theconversation.com",
+      "url": "https://theconversation.com/us/pitching",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "8acc0951ade6f2ae60b491bf4f1e45c8d9b2520f105e27d556bffbe97c2e8aa5",
+      "title": "datawrapper.de ↗",
+      "url": "https://www.datawrapper.de/blog/category/datavis-dos-and-donts",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "8b9f567a078562560a07a047abea38055ed3442b42bd3b7f621746ba406ccb59",
+      "title": "Interactive Things",
+      "url": "https://interactivethings.com/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "8bd915e862f18d8b768ebd9d76bcc6bdf3b230e2c5477918441f7ab8ece65466",
+      "title": "Stamen Design",
+      "url": "https://stamen.com/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "8c69a7bafba7ddd1615d7cb77a6d643e3f283bf08d2bf8f6f74bb96e26642a66",
+      "title": "Pandas",
+      "url": "https://pandas.pydata.org/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "8ccdce543913e2af137941b13f03b4f34e9a544dfc8befeff78dafc28b85ebf5",
+      "title": "PowerUI",
+      "url": "https://www.powerui.com/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "8eb764664a4aabaceebcefc8ed482a2309132e4cfdbc1e02794d0976854dd9af",
+      "title": "YouTube",
+      "url": "https://www.youtube.com/channel/UCDvDHr5CYKBrbwaqRs04LPw",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "9074bd0330d7cf1e7b676cd5fa22eacf03a786e13009162ac6f99e121dca4cf6",
+      "title": "quanteda",
+      "url": "https://quanteda.io/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "90e425e01a4262623506c4e1117ed70ce75c7c28ff791250d1209ec300ccd7a6",
+      "title": "Legal experts warn Meta’s new terms still grant broad scraping permissions, despite language changes",
+      "url": "https://www.niemanlab.org/2026/10/legal-experts-warn-metas-new-terms-still-grant-broad-scraping-permissions-despite-language-changes",
+      "providers": [
+        "Nieman Lab"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "high"
+    },
+    {
+      "id": "91679ce709752a9f799a25e7802b83c674ee244fb8322380678de206ffd52650",
+      "title": "ProPublica",
+      "url": "https://propublica.org/data",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "91ca2c9bd789712abb4e5853d76cd27a174947356e69a398687d9d435489844a",
+      "title": "Conference Geospatial World Forum (GWF) 2026",
+      "url": "https://geospatialworldforum.org/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "923498027410156bdb290caa6143c5f64138c7d4b3df2b6b22ae27402d1578db",
+      "title": "Visit tool ↗",
+      "url": "https://www.adobe.com/products/illustrator.html",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "high"
+    },
+    {
+      "id": "9398ea504b077e4971ce256f1c061ea40fb6f72d59e28df478d1bc22f04d46a4",
+      "title": "rvest",
+      "url": "https://rvest.tidyverse.org/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "93a671c14ff0b157a94a576380170bcc83e339a61950e9f5011e065108b32bf2",
+      "title": "Visit tool ↗",
+      "url": "https://kepler.gl/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "high"
+    },
+    {
+      "id": "955dbc2789044dd0e467ca81c46d61ae43f48509d917c0efddbdf349925721b7",
+      "title": "Print Arcade",
+      "url": "https://multimedia.scmp.com/culture/article/SCMP-printed-graphics-memory",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "9630490488e6ecff1428878b8ae4725c94565cc0e233acbab23e52f35b95aaa5",
+      "title": "Conference Online News Association (ONA) Conference",
+      "url": "https://www.journalists.org/conference",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "96d56224d321d3e9e913cf723207b982804e9fa9987ccb8f3e4b2dd0babdb829",
+      "title": "Conference Gartner Data & Analytics Summit",
+      "url": "https://gartner.com/en/conferences/emea/data-analytics-germany",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "97abedd979d853fef5304dc41c82b1d0c13475a652e6f15cb2ed20ee24b3ecf0",
+      "title": "Upshot",
+      "url": "https://www.nytimes.com/section/upshot",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "983a4e6c4c0f7cb8007e1b900144a6868407463f1b51fa259caef87c4f40ba31",
+      "title": "geoawesomeness.com",
+      "url": "https://geoawesomeness.com/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "996eeb96fa09736824430c957c9d6f37c83cf649c26e93b9c0eea7cd1733228c",
+      "title": "storytellingwithdata.com ↗",
+      "url": "https://www.storytellingwithdata.com/podcast/feedback",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "99f40b0318625ab4e53aed4536a5da67e937f4dde00247d65114d2e503bfbd20",
+      "title": "Publishers pressure Meta to nix new terms that would let the company scrape their websites",
+      "url": "https://www.niemanlab.org/2026/10/publishers-pressure-meta-to-nix-new-terms-that-would-let-it-scrape-their-websites",
+      "providers": [
+        "Nieman Lab"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "9ae0f1ae5d0ce9b9c2030699abe0b7f8df2e655be8be3097c31aeda05170d784",
+      "title": "spatialreserves.wordpress.com",
+      "url": "https://spatialreserves.wordpress.com/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "9b2e68bf8d438642a38b49fa5783ef6b6854a6863bbc9ff7fc0af7eb0d19ec0a",
+      "title": "British Cartographic Society (BCS)",
+      "url": "https://cartography.org.uk/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "9b414a5f2ba33bc29cd484711b0e604cae2ddaf11b7fd386623240ec2f535381",
+      "title": "Award Ventana Research Digital Leadership Awards",
+      "url": "https://research.isg-one.com/market-perspectives/tag/data",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "high"
+    },
+    {
+      "id": "9b677b28eb7e1e068945f53532915ec267b799c870d851437bb86a2088f630cd",
+      "title": "Two out of five Americans regularly get their news on Facebook",
+      "url": "https://www.niemanlab.org/2026/10/two-out-of-five-americans-are-regularly-getting-their-news-on-facebook",
+      "providers": [
+        "Nieman Lab"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "9bd8ddc7e54f671a719f88ecf05587513be9dd0497ed1c9a4fe6826af1349dc1",
+      "title": "Lighthouse Reports",
+      "url": "https://lighthousereports.com/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "9c5ba3482c99afb86168cf876ff4d77f446be978492df7971a39f1cff224c425",
+      "title": "Society for News Design (SND)",
+      "url": "https://snd.org/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "9c6858f503af6d3b6409b0f7da845ec1354b326dd0fdb270bc8573daa39a7523",
+      "title": "Award The &#8220;Iron Viz&#8221; (Tableau)",
+      "url": "https://www.tableau.com/iron-viz",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "high"
+    },
+    {
+      "id": "9d0d53cbfd221c3c7baeb8ce92da27644b3bf4f76ff34f899cc26c70ed165d6d",
+      "title": "Humanitarian OpenStreetMap Team (HOT OSM)",
+      "url": "https://hotosm.org/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "high"
+    },
+    {
+      "id": "9d3438920fb5cafac0c653850f9bfa1cebb4700f1f510a239be7aa9a81d40d03",
+      "title": "Instagram",
+      "url": "https://www.instagram.com/datavizsociety",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "9d6e471600b94bdf994613306625b8122eaddff5c19df28363ed44c4f91406d1",
+      "title": "Segment Anything Model (SAM) for Design",
+      "url": "https://segment-anything.com/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "9d702124fab2af9db50f747524cd9183c027e8de90a2f80f0c5a1a3c736d54d8",
+      "title": "DensityDesign Research Lab",
+      "url": "https://densitydesign.org/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "high"
+    },
+    {
+      "id": "9e9f372d43783678308a716471246e23fb75ad2672191b1e4a2e70159b53bc46",
+      "title": "Sinclair&#8217;s new Substack repackages its local TV reporting into a video podcast",
+      "url": "https://www.niemanlab.org/2026/10/sinclairs-new-substack-repackages-its-local-tv-reporting-into-a-video-podcast",
+      "providers": [
+        "Nieman Lab"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "9f08b5a99c6c9f62c7b1c97611500f5db6b140a14c8c8c4a5b34b00faaad2427",
+      "title": "Tableau",
+      "url": "https://www.tableau.com/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "9f76ad136e0747e3d9d2adff99b7fbb71d45c98c00cc4c9801c6fcf3e06ddb7a",
+      "title": "Grid-Arendal",
+      "url": "https://grida.no/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "a02338f4fe623f3439b8786a9b7802c727b03e86caa0c77cb613edfa55be263c",
+      "title": "World Resources Institute",
+      "url": "https://globalforestwatch.org/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "a0f70dfa1ac5c504e15340f1977496d630e79383b5961303adb30b80c64c97ea",
+      "title": "Garden Eight",
+      "url": "https://garden-eight.com/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "a351b739f283546cc7557c9d61adf5cf45cdbfed9330ee2c5d53b8e0abb15ee5",
+      "title": "U.K. politicians and German publishers call on regulators to pause Meta’s new terms before October 30 deadline",
+      "url": "https://www.niemanlab.org/2026/10/u-k-politicians-and-german-publishers-call-on-regulators-to-pause-metas-new-terms-before-october-30-deadline",
+      "providers": [
+        "Nieman Lab"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "a37aa7f4ba6800f3f87e49201dc56ac9317268edede2ffdf69a2b1c2aa2eec2a",
+      "title": "Award Online Journalism Awards (OJAs)",
+      "url": "https://awards.journalists.org/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "high"
+    },
+    {
+      "id": "a3befff228e64417340eb83f568180fffb05403d8f7b634cb8efed79948e81dd",
+      "title": "Conference GeoPython 2026",
+      "url": "https://www.python.org/events/python-events/2147",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "a46b01540fcec5c2674a90f0a45dfbe820aa8ebafc5d9512fbbb50ada82a53e4",
+      "title": "Forensic Architecture / Forensis",
+      "url": "https://forensic-architecture.org/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "a6943fe0aa51788e6f02a85895ba465cd40dfb9c7cc5462996acf7e81b148ff2",
+      "title": "Visit tool ↗",
+      "url": "https://vega.github.io/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "high"
+    },
+    {
+      "id": "a7d2f4c7c79baef9ee617edff8e1ecd43d1b0f9a402d8b604aa71ff82ec76976",
+      "title": "workout-wednesday.com ↗",
+      "url": "https://www.workout-wednesday.com/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "a81b8cbd62f5ef441c7fa51aa82b094e23c1e0c76162079add5ab94d413386ae",
+      "title": "Conference NACIS (North American Cartographic Information Society) Annual Meeting",
+      "url": "https://nacis.org/annual-meeting/current-meeting",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "a885d3598864c165e24e1b2ef3adbae9ab652fcac0ff2db2ff1304a3f4b47dae",
+      "title": "GeoPandas",
+      "url": "https://geopandas.org/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "a9055e53398757f89ebdf58ce1a969dde62231c0777ab55a01648c04d39add23",
+      "title": "SkyTruth",
+      "url": "https://skytruth.org/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "a913b2409cc15a21f100bb0ae2743939dc92577e070fe0198d8f952f25ef69c5",
+      "title": "spaCy",
+      "url": "https://spacy.io/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "a967502f960441bdbb3e0d5d351edb962358d2ff7e9809056d4593e7a48ed139",
+      "title": "womenindata.org ↗",
+      "url": "https://www.womenindata.org/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "a98169861e7955fbb93d5a11b9dfa7d9d6892c09e62e52a93fcc332da57d943c",
+      "title": "PyQGIS",
+      "url": "https://qgis.org/pyqgis/master",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "aa1835c1602c647d652a3c34ced0484f1b751c38b22d2e0e29a8830162aaf199",
+      "title": "DVS Geospatial Interest Group",
+      "url": "https://www.linkedin.com/showcase/data-visualization-society-geospatial-group",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "aa2a902c167720f5401e1939df54dbb2e4da7c81db30141ffabee5a313903eed",
+      "title": "github.com ↗",
+      "url": "https://github.com/30DayChartChallenge",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "aa2df1be7bc0b11b97a5648d44f242cdfa7bb653e518ec9d78baf1a2cb20fbf5",
+      "title": "Hacks/Hackers",
+      "url": "https://hackshackers.com/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "aa4eab8d418ae75e1b767185e418165b0bf77aeed7aa4470f53788dc6c17f36e",
+      "title": "datawrapper.de",
+      "url": "https://www.datawrapper.de/blog/category/data-vis-dispatch",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "ac86bf5547086bcc4eedd9dee1ba6cc437674815bafd4d62fbe952ecc7880df0",
+      "title": "data-to-viz.com ↗",
+      "url": "https://www.data-to-viz.com/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "aebbc9e809651186b1a79408a3a0d8f43abefdc54e8ddefdf1ccdc3c57cbf7b2",
+      "title": "Conference EuroCarto 2026",
+      "url": "https://eurocarto2026.org/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "af5b20cf3c276aeeb804caf536b25a2823c36b4cd6af342db3f096f9143906ac",
+      "title": "A new report argues newsrooms need to do more experiments — like, the kind with randomization and results",
+      "url": "https://www.niemanlab.org/2026/10/a-new-report-argues-newsrooms-need-to-do-more-experiments-like-the-kind-with-randomization-and-results",
+      "providers": [
+        "Nieman Lab"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "afa5da81cf749d51b4404ea849650ce1399f36f33401b1d9f907c49817b7e571",
+      "title": "Figma2html",
+      "url": "https://www.figma.com/community/plugin/1109185297790825980/figma2html",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "b0493264ed732f8f2a3e97b56aa1f79eacba088f5a2bf70e6fe6acc250bd96e8",
+      "title": "ArchieML",
+      "url": "https://archieml.org/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "b05ef540fa614a123ef39950eaa108e160e26486d7d2d965ffb323e683b4ee63",
+      "title": "Two creators went to NYU&#8217;s business school, then decided to make a show about the news",
+      "url": "https://www.niemanlab.org/2026/10/two-creators-went-to-nyus-business-school-then-decided-to-make-a-show-about-the-news",
+      "providers": [
+        "Nieman Lab"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "b175dfb2f5e5f25d301da8821964296afbed9d5b7a7af33277f524330cdf60e0",
+      "title": "ibcs.com",
+      "url": "https://www.ibcs.com/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "b209bddd02b23ce19bc58d4148cc978bba91e6c24a470f56df8a7c4b4f44b0d1",
+      "title": "github.com ↗",
+      "url": "https://github.com/rfordatascience/tidytuesday",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "b2ac080bafbf480915808b447b697f05ca69cf357b786a374ba344357ddbb7bc",
+      "title": "Visit tool ↗",
+      "url": "https://www.rawgraphs.io/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "high"
+    },
+    {
+      "id": "b2fe067db0bda6cbafbbd234607d420008211686575bb85241e05c1593b00fbb",
+      "title": "Award S+T+ARTS Prize",
+      "url": "https://starts-prize.aec.at/en",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "high"
+    },
+    {
+      "id": "b37c5e2f6a2c927b8714d63cf237cf625b601f6a8f31d3556a924cef39dcb2be",
+      "title": "Domestic Data Streamers",
+      "url": "https://domesticdatastreamers.com/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "b3edae2f8ac397ba349bdc103ee53e03d221577ced0d4385a6b32482467cdc46",
+      "title": "thebookofshaders.com",
+      "url": "https://thebookofshaders.com/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "b59e9589dc06fc20b515d1a14b220564b1e4729bcda8a443f6975967c6510263",
+      "title": "tidymodels",
+      "url": "https://www.tidymodels.org/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "b6535c07e972b63b6e121b01a6ff6c7d81dbe1c823cc8cc75f22ac4469719473",
+      "title": "WhiteboxTools",
+      "url": "https://www.whiteboxgeo.com/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "high"
+    },
+    {
+      "id": "b6c2e0bc4cf06836beb17689fd9a1d821b38c14b780e028a629de017f8af8426",
+      "title": "Texty.org",
+      "url": "https://texty.org.ua/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "b6f6100f1ca2d4ad4375e06327bcf5767a0202725016c7a88d05f19944073ed1",
+      "title": "Processing Foundation (Fellowships & Community)",
+      "url": "https://processingfoundation.org/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "high"
+    },
+    {
+      "id": "b79e678afbabf04481aad8bab61bb418bfb45da00bef96aa665e1e5b3a9fe52c",
+      "title": "propublica.org",
+      "url": "https://www.propublica.org/collaborate",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "b7a13ea5d857ee4d7c83d7b9c2ede255a7f139faabf5555c08ed943851e99b29",
+      "title": "Award The Sigma Awards",
+      "url": "https://sigmaawards.org/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "high"
+    },
+    {
+      "id": "b7a95c0fde895d3c618cc8db1b2882806800ec5b9e5e7170d1bfa3cf3d08079c",
+      "title": "Open Source Geospatial Foundation (OSGeo)",
+      "url": "https://osgeo.org/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "b94185652166fb7b44b52a73bedd69f58ac8d8f6930d095627007357000a76ce",
+      "title": "Creative Applications Network (CAN)",
+      "url": "https://creativeapplications.net/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "bac5fbb42b0d9792f965f4a1403458a88dc393115dbe6becf3b2db0c90f3347a",
+      "title": "Visit tool ↗",
+      "url": "https://d3js.org/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "high"
+    },
+    {
+      "id": "baf66510e3dbc33435fc38c5e87a7200cbf85c54596a0ec0ec90b067448c703b",
+      "title": "Investigative Reporters and Editors (IRE)",
+      "url": "https://www.ire.org/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "bb9d1721320a0ff45d37b84175724a75b83544bc1c4086691da2f1a980194801",
+      "title": "Bloomberg CityLab",
+      "url": "https://www.bloomberg.com/citylab",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "bc16f0241d1dcc19f1985d9e7979be7183960959bbc9d4de99f57f112249bbc0",
+      "title": "Award D&AD Awards (Digital Design)",
+      "url": "https://www.dandad.org/awards/d-ad-awards",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "high"
+    },
+    {
+      "id": "bc6cb1d62b4e4bee51454f38a97adc1e67edeb268d7ec81694807f0fdb57c31c",
+      "title": "improvado.io",
+      "url": "https://improvado.io/blog/business-intelligence-strategy",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "bcf905a7d1b746329b76590ec887f5b37fe0993d4c6f81fd8269f04c0829e6d7",
+      "title": "DAX",
+      "url": "https://learn.microsoft.com/en-us/dax",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "bdea2fc42ee13d16c882f2d03b77a835d4841b7cf025b6213ea4f1c5d2bf68e6",
+      "title": "Conference FITC Toronto",
+      "url": "https://fitc.ca/event/to26",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "be1172c4bc8882655941b7a0f86fe2de617228e6bc0017861b965bbad5495026",
+      "title": "nacis.org",
+      "url": "https://cartographicperspectives.org/index.php/journal/about/submissions",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "be98477b5103247255c4b642b3fab540fce9d66f0c27c6ee10aac78954c07ae9",
+      "title": "National Geographic",
+      "url": "https://nationalgeographic.org/maps",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "be9e40b9672b7d79a68ce0c91d7c97b541c7e742d6681c8ed5f43e55e2401e5b",
+      "title": "Three.js (with WebGPU)",
+      "url": "https://threejs.org/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "bf0f70ab6377c8041e340bdf48e30a2e326e89cb07d78998b89ba0c7ee5fb0be",
+      "title": "Sigma Computing",
+      "url": "https://www.sigmacomputing.com/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "bf53057e9742e585e1f928c7d50ae97ea98083f601b45961fc9a939c5b8ebc2f",
+      "title": "opendata.cityofnewyork.us ↗",
+      "url": "https://opendata.cityofnewyork.us/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "bfc35d216afa6afdd5dd251b60c1c07a4bcd13eb12488eea03466802f0873895",
+      "title": "The Marshall Project",
+      "url": "https://themarshallproject.org/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "c131d1327f795550b9220d2e64450a84fd1cff74506c1cae0be40c87530dfbb5",
+      "title": "PMTiles",
+      "url": "https://pmtiles.io/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "c1ae2dd35ed4f2db3e974c2a68ed2ae35abc7579c5b0b3736fc48cb2a10e9890",
+      "title": "nationalgeographic.org",
+      "url": "https://www.nationalgeographic.org/funding-opportunities/grants",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "c1e2f6de8c99783c1ecf60daeb15e490d348b14d3332c1811515d5d9cb51eb69",
+      "title": "Conference FOSS4G (Free and Open Source Software for Geospatial)",
+      "url": "https://foss4g.org/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "high"
+    },
+    {
+      "id": "c2658fe9680224b4c0eaf1d03c6fb8eab770202b330b85b9cffc1905e5a04037",
+      "title": "NASA Earth Observatory",
+      "url": "https://earthobservatory.nasa.gov/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "c2ee2f71ce77c43a7a985d95d7cbaa66f179f6fdbc4424ac9f4d85441953b2a8",
+      "title": "Layercake.graphics framework for Svelte",
+      "url": "https://layercake.graphics/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "c41c375f46c24b39bc7fa9a2bdc8872d613712294c9937a97bdde0c85b701589",
+      "title": "Conference GEO Week (Group on Earth Observations)",
+      "url": "https://earthobservations.org/about-us/events",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "c57c5a0d16e184437d49f475d0507ad2ad43c1e121c0c86934e94c97e1e79fa9",
+      "title": "Award The Lumen Prize",
+      "url": "https://lumenprize.com/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "high"
+    },
+    {
+      "id": "c5f15aecdf6bc87919d62292dc60b0f6b69084ce7976df38f87c12e896235815",
+      "title": "California&#8217;s big local news bill becomes law",
+      "url": "https://www.niemanlab.org/2026/10/californias-big-local-news-bill-becomes-law",
+      "providers": [
+        "Nieman Lab"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "c78a0a8ea1d3c62b00ee4e4ee69688c14724fdd385f6b360a2e0c54b06169d04",
+      "title": "makeovermonday.co.uk ↗",
+      "url": "https://makeovermonday.co.uk/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "c7ccfca7f039f1e25c544ab9ad38d2c542f21b7762a37ba22515a6faa969784e",
+      "title": "data.un.org ↗",
+      "url": "https://data.un.org/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "ca670bb91c9bf8b5cec12c93d7c13f272c04718be4f15c3ae790b5b9843b2680",
+      "title": "datawrapper.de ↗",
+      "url": "https://www.datawrapper.de/blog/fonts-for-data-visualization",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "cb69eeee81cab226bbdd29b855e6ec846a011dfda4b983fb497d59b81a8c943d",
+      "title": "canva.com ↗",
+      "url": "https://www.canva.com/colors/color-wheel",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "cbcf1207daf6bdd681a32b245a2509a15e85242808741c346412f447100b05fa",
+      "title": "Power BI",
+      "url": "https://www.microsoft.com/en-us/power-platform/products/power-bi",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "cc19c21fadd439e93002dafe6ced47035f367310ec15a5bb54384f82c927d8f4",
+      "title": "pudding.cool ↗",
+      "url": "https://pudding.cool/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "ceae0043fab5fda02a7a6988f72b95ffeb898e68a23181f4707e5eac213bf75b",
+      "title": "bloomberg.com",
+      "url": "https://bloomberg.com/citylab/maps",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "cf0866f8e642512b064246899145bf70f9ce023021853a5fdfa3137a2ea0a640",
+      "title": "eventbrite.com ↗",
+      "url": "https://www.eventbrite.com/o/data-visualization-society-44097727323",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "d1d9f0e8c01b765eace5a461bb293de7d52b785ffc9cc6df2a3b0a40b3bde74f",
+      "title": "Selenium",
+      "url": "https://www.selenium.dev/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "d1f59345a709f859d151366ab20f2b7a6d0de702702db6f0a1025a1e2d48f11d",
+      "title": "flerlagetwins.com",
+      "url": "https://www.flerlagetwins.com/2026/02/ten-tableau-tips-table-of-contents.html",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "d2abd8c5002003cfbba62b5b71209bbf34878294b852d300cd906fb4ab6c0263",
+      "title": "Truth & Beauty (Moritz Stefaner)",
+      "url": "https://truth-and-beauty.net/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "d2f4206cdeb0416f0449b8e47c54e4a08c0e7e62389fb669acf22a022acf0383",
+      "title": "DataIQ",
+      "url": "https://dataiq.global/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "d2f8e4e03f7039542269c22b68eb5b54fa341006c9685b6af22fd3ae39598778",
+      "title": "Plotly",
+      "url": "https://plotly.com/python",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "d433deea3e5953290c967c82fc9eca7a05ca73c2e9f4ea94f9900cef87f8c789",
+      "title": "Visit tool ↗",
+      "url": "https://observablehq.com/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "high"
+    },
+    {
+      "id": "d44010afa4bde5ce250f66ba45a88a5777285e640ae95f9cd682afa19b468640",
+      "title": "informationisbeautiful.net ↗",
+      "url": "https://informationisbeautiful.net/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "d44ff50e28b5a376cfd7de10e386c1768de50bcb62445d380f3ecb27a13ff627",
+      "title": "&#8220;Convenings&#8221; for CEOs will help Semafor reach a second profitable year",
+      "url": "https://www.niemanlab.org/2026/10/convenings-for-ceos-will-help-semafor-reach-a-second-profitable-year",
+      "providers": [
+        "Nieman Lab"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "d5ce42d3352af3144b253670b8c6e9d274edd84ae1a6d00f4bcb57078b7e303f",
+      "title": "Svelte",
+      "url": "https://svelte.dev/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "d7f4156985f38e2ea4b0cdc38b65bf41f64553dffb6c92f179775408725006fe",
+      "title": "googlemapsmania.blogspot.com",
+      "url": "https://googlemapsmania.blogspot.com/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "high"
+    },
+    {
+      "id": "d8eb615d2b507715b16310a4d66dde8470fcc615eb2c00699b869cda81a01ab9",
+      "title": "Award RSS Awards for Statistical Excellence in Journalism",
+      "url": "https://rss.org.uk/journalism-awards",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "high"
+    },
+    {
+      "id": "da1f6080427b369b499cdcd1bc7dde0f6a6db2743eec74998ec503507a299a3c",
+      "title": "Online News Association (ONA)",
+      "url": "https://journalists.org/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "da78f914dea3509a590be16f26fe0de8013e0050c05940387e678758409548d8",
+      "title": "The Hindu",
+      "url": "https://thehindu.com/data",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "dba49a40a2c2f165b1572b38bc23355c56ea2623708cb78cc7ef87cb1e12f8dd",
+      "title": "Meta’s new commercial terms will allow the scraping of news sites, legal experts say",
+      "url": "https://www.niemanlab.org/2026/10/metas-new-commercial-terms-will-allow-the-scraping-of-news-sites-legal-experts-say",
+      "providers": [
+        "Nieman Lab"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "dc5785aeb06bd6d23d1943c5b123725f30f896e176a999d7101d653d653ddb76",
+      "title": "flowingdata.com ↗",
+      "url": "https://flowingdata.com/membership",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "dcbceb6cad8ab99920c51c6a80b06e512a129b897c2ef3e54886b1cd7b5ea857",
+      "title": "theguardian.com",
+      "url": "https://www.theguardian.com/info/1999/nov/22/contributors-guide-and-contacts",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "dce3a2754b0384c1743cea0d15ce568d73d0b1d41d64118f347a717cbd4f7bba",
+      "title": "Looker (LookML)",
+      "url": "https://docs.cloud.google.com/looker/docs/reference/lookml-quick-reference",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "dcebb49e2a2303a228f89a1b4afc125061257beca3726966188257b772f766c3",
+      "title": "Award Geospatial World Forum Innovation Awards",
+      "url": "https://geospatialworld.net/gwf/2023/previous-winners.html",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "high"
+    },
+    {
+      "id": "dcfa0487c540be0e50474bdc6332858180f97a84e0b91c826ac43f897db13474",
+      "title": "Cube",
+      "url": "https://cube.dev/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "dd1dfb3cb86c0457315bb0ba377fc75d5bb9a1a12d36e677f14fc04ec965d891",
+      "title": "Part 2: Let the Data Breathe",
+      "url": "https://pudding.cool/process/how-to-make-dope-shit-part-2",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "dd5d60974b329b919ceca514fa4341605744a365f7674cf949dba70e9d6ab506",
+      "title": "Utsubo",
+      "url": "https://utsubo.com/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "dee6611cf339c8dc83ffc75d15b9c07807b0a3365016c13cdd6ce92a250c7ad0",
+      "title": "Group on Earth Observations (GEO)",
+      "url": "https://earthobservations.org/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "df6eae8df9e30071a42cd920b1cd99808a443d417131b121092d94a22d6fc0c7",
+      "title": "Conference Processing Community Day (PCD) 2026",
+      "url": "https://day.processing.org/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "dfcca41ab5f1e2af84dcf407a677ee2a8abd7b050d17b59644216c7eb9742271",
+      "title": "susielu.com ↗",
+      "url": "https://projects.susielu.com/viz-palette",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "e0d6eac029a2cee91c835808882f39a7a3a4760194101eb1ee2754dd2b969afa",
+      "title": "H3 (Hexagonal Hierarchical Geospatial Indexing)",
+      "url": "https://h3geo.org/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "e1bdb4377e1fc15406b3bdd1f06e78d1af5425a2d8e76443471f6b32e27d1f7a",
+      "title": "economist.com",
+      "url": "https://www.economist.com/topics/graphic-detail",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "e4ecc99e166ddc793cf5c1d85b96e978d2c2dd7debd5328136b3e8223034a5fb",
+      "title": "DuckDB (Spatial Extension)",
+      "url": "https://duckdb.org/docs/extensions/spatial",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "e78b18f6ffca6c7351f1dcb144e11332ccd12d54b029476eb63177c9c0047a50",
+      "title": "Visit tool ↗",
+      "url": "https://public.tableau.com/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "high"
+    },
+    {
+      "id": "e7a76a6d3f58e299094dda53efff0b42479f1b16a1c32d0818a5499e60d45173",
+      "title": "When hackers become sources: Inside the new craft of reporting on hacked data",
+      "url": "https://www.niemanlab.org/2026/10/when-hackers-become-sources-inside-the-new-craft-of-reporting-on-hacked-data",
+      "providers": [
+        "Nieman Lab"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "e89410cfa6857b483ee3abf6866968745ecac6f82036de9c4e0c57bd6d8196e8",
+      "title": "Multimedia Collection",
+      "url": "https://www.scmp.com/infographic",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "e8a71d32858b91b6e60a49c79f5460fe82793175ac76a6e1d35cfb5e31ef795c",
+      "title": "webgpufundamentals.org",
+      "url": "https://webgpufundamentals.org/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "e9ae7bab0060062b6d95975d8d9668142ad45a1f4c496dd47b274b310ecba871",
+      "title": "dbt (Core & Semantic Layer)",
+      "url": "https://docs.getdbt.com/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "eacbc6fc3266175bfd7d604056363d8e99b9bd718ae874c9ae6a9ef13afe909c",
+      "title": "Conference MUTEK Montréal",
+      "url": "https://montreal.mutek.org/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "ec5409a518f98fb8f8e376dfbb9852d09fde35da09dec70b29ae4241ab1bd69f",
+      "title": "grayarea.org",
+      "url": "https://grayarea.org/course/creative-code-intensive",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "ec6de7af3271ca5771aeeb8cff19422fd35853394caedd1530e2136f7d8ca205",
+      "title": "ArcGIS Pro & Online",
+      "url": "https://www.esri.com/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "ec7990c1230d70e3d823087fd54a7662081ddf2bbe03c21c87d7fa90f01ee853",
+      "title": "RAWGraphs",
+      "url": "https://rawgraphs.io/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "ec96afe278b3651a5fe6216c6afc1b010410750a489a9e1bd8590c078a087e49",
+      "title": "carto.com",
+      "url": "https://carto.com/blog",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "ecefe4eea3ad0a38879502dcefbceed388315698d57fcb9f144ac79022401d2c",
+      "title": "datavizcatalogue.com ↗",
+      "url": "https://datavizcatalogue.com/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "ed6455b1ef9d6dc73f1a1eb9042c10d730df6e41a5f3306083d0b06bd534a02a",
+      "title": "Gray Area (San Francisco & Online)",
+      "url": "https://grayarea.org/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "edc59990c6b7cd3e302080bc6295ca462029cf5af38121540be43595b9456c99",
+      "title": "datawrapper.de ↗",
+      "url": "https://www.datawrapper.de/blog/colors",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "ee76fbba779289eb77a3c0b752cd1001a89602ced7ccb52407990528087bc43d",
+      "title": "Visit tool ↗",
+      "url": "https://www.canva.com/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "high"
+    },
+    {
+      "id": "efbe02dbd4651105739a44cc65ced3c5d128a9393525ebbbfdb6ee1779c1259f",
+      "title": "Award The Walkley Awards (Data Journalism Category)",
+      "url": "https://www.walkleys.com/awards/walkleys",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "high"
+    },
+    {
+      "id": "f0e0245606feb3c47ac7e20dd1592b16a8a9fc9a84d8e2bc0cf7e267b1ffe8c0",
+      "title": "Reuters Graphics",
+      "url": "https://reuters.com/graphics",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "f18a8035f4aa502c67b74fc9188ab9df5623b4a34947e35c3457bb34ee9621ba",
+      "title": "Tableau Community (Forums & User Groups)",
+      "url": "https://community.tableau.com/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "f37f81bee46784c220fce2966b9efffb01fcb2b631888078ac9b3137daf1c41c",
+      "title": "Neue Zürcher Zeitung",
+      "url": "https://nzz.ch/visuals",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "f439d8b3e2baf8a2eb9bd37ea90d259253f50f92ad14603f08f8d1cf428cca50",
+      "title": "jhu.edu ↗",
+      "url": "https://guides.library.jhu.edu/datavisualization/design",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "f4e61144e83ff0860693885402ddadb6de129a45053a36be9e13bb708647c163",
+      "title": "Conference IGARSS 2026 (IEEE International Geoscience and Remote Sensing Symposium)",
+      "url": "https://2026.ieeeigarss.org/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "f55edae7229e6319556b4b0fc2381dcfa3175cbd9a943f663e63391d2169fa52",
+      "title": "How to implement scrollytelling",
+      "url": "https://pudding.cool/process/how-to-implement-scrollytelling",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "f6d0c866f61bbafb2c52b53f01784c261f625d656b1e2496e070347e1b06431d",
+      "title": "storytellingwithdata.com ↗",
+      "url": "https://www.storytellingwithdata.com/book/downloads",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "f722d10ac8ea7b6b94feafd75f9e3ac69c228974fd71bab4caf3ede3a67db9d0",
+      "title": "How a plan to turn the Spokane Spokesman-Review into &#8220;The People&#8217;s Paper&#8221; ended in a newsroom revolt",
+      "url": "https://www.niemanlab.org/2026/10/how-a-plan-to-turn-the-spokane-spokesman-review-into-the-peoples-paper-ended-in-a-newsroom-revolt",
+      "providers": [
+        "Nieman Lab"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "f7e6ad83e2721c7c1a8e8ce72a896ffa7c867921db0a6068421df2d121461d32",
+      "title": "&#8220;We&#8217;re in their shit. They&#8217;re not in ours&#8221;: USA Today Co. execs defend Palantir deal",
+      "url": "https://www.niemanlab.org/2026/10/were-in-their-shit-theyre-not-in-ours-usa-today-co-execs-defend-palantir-deal",
+      "providers": [
+        "Nieman Lab"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "fa5203e799730e1e5194ce9d9c5855ac4675c66b124862e2cf4d6d20aa7fd634",
+      "title": "The Global Investigative Journalism Network (GIJN)",
+      "url": "https://gijn.org/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "fb993e9d1683b070fb62a3f312f35075b5c4cd37f2054e6e870a368929aef8f1",
+      "title": "Google’s News AI pilot expands to over 400 publications, including U.S. local news outlets",
+      "url": "https://www.niemanlab.org/2026/10/googles-news-ai-pilot-expands-to-over-400-publications-including-u-s-local-news-outlets",
+      "providers": [
+        "Nieman Lab"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "fc1f739ba7e2ee5157efba10802e79a4b3f0c51ef80a40c81245a028ef6c7d28",
+      "title": "TULP interactive",
+      "url": "https://tulpinteractive.com/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "fc81dd742efa22458d42763600b429627177639ea6b3d6b976dbebdfcb2d691a",
+      "title": "dataelixir.com",
+      "url": "https://dataelixir.com/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "fcfd55c619057e7395439a32154ab0a684a6317e34070512e22c1d40dc1ad160",
+      "title": "Award The Webby Awards",
+      "url": "https://webbyawards.com/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "high"
+    },
+    {
+      "id": "fdfd52e29e7478e431a2464482dc48be56fe7d724bcc8c46839aaf8f5670e132",
+      "title": "From bad to worse: 2026 is shaping up to be “a super El Niño year for local news”",
+      "url": "https://www.niemanlab.org/2026/10/from-bad-to-worse-2026-is-shaping-up-to-be-a-super-el-nino-year-for-local-news",
+      "providers": [
+        "Nieman Lab"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "fe53c3d1c66648c22c9075ac61dc0e173fcafe589b2effafc69e4d9119ea134b",
+      "title": "Cloudinary",
+      "url": "https://cloudinary.com/",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "febca61020ebceedc3a33f7db521300ecf3feca890cb457d78823e47a5b57fc0",
+      "title": "storytellingwithdata.com ↗",
+      "url": "https://community.storytellingwithdata.com/challenges",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    },
+    {
+      "id": "ff06f15409ea9f670cf37713f224c30d36e9b77aa00b75cca64c70626add5f01",
+      "title": "Award The British Cartographic Society (BCS) Awards",
+      "url": "https://www.cartography.org.uk/awards",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "high"
+    },
+    {
+      "id": "ff2f3e8998890cf82946a68cb43c7e2b3d2e71d1d8ffd5b96f11dec3ed32cb3f",
+      "title": "learn.microsoft.com",
+      "url": "https://learn.microsoft.com/en-us/power-bi/guidance/fabric-adoption-roadmap-center-of-excellence",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-23T17:21:05.512Z",
+      "lastSeen": "2026-10-23T17:21:05.512Z",
+      "status": "pending",
+      "reviewPriority": "normal"
+    }
+  ]
+}
