@@ -52,6 +52,10 @@ on:
       - 'tests/editorial-review.test.js'
       - 'scripts/write-run-summary.js'
       - 'tests/lead-history.test.js'
+      - 'scripts/select-historical-backlog.js'
+      - 'scripts/apply-editorial-decisions.js'
+      - 'intake/historical-decisions.json'
+      - 'tests/historical-backlog.test.js'
       - '.github/workflows/source-discovery.yml'
 permissions:
   contents: read
