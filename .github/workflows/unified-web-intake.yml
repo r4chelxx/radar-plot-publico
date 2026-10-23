@@ -17,6 +17,7 @@ on:
       - 'scripts/test-editorial-pipeline.js'
       - 'scripts/publish-approved.js'
       - 'scripts/verify-published-records.js'
+      - 'scripts/validate-approved-manifest.js'
       - 'intake/approved-publications.json'
       - '.github/workflows/editorial-publish.yml'
       - 'scripts/report-discovery-operations.js'
@@ -45,6 +46,8 @@ jobs:
         run: |
           node scripts/test-editorial-pipeline.js
           node --check scripts/verify-published-records.js
+      - name: Dry-run actual approved editorial manifest without publishing
+        run: node scripts/validate-approved-manifest.js
       - name: Validate operational probe syntax
         run: node --check scripts/check-public-health.js
       - name: Test cross-account ownership model
