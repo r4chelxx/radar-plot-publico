@@ -88,6 +88,46 @@
       "status": "duplicate",
       "officialUrl": "https://www.bellingcat.com/resources/2026/03/05/turnstone-flight-tracking-tool/",
       "reason": "Fonte primária Bellingcat confirma Turnstone e ressalvas de ADS-B/MLAT e acesso seletivo; o Radar já possui ferramenta bellingcat-turnstone com o mesmo artigo oficial, código-fonte, acesso e limitações. Não republicar duplicata."
+    },
+    {
+      "url": "https://rjionline.org/source-auditing-tool",
+      "status": "approved",
+      "officialUrl": "https://rjionline.org/source-auditing-tool/",
+      "reason": "Ferramenta oficial RJI/Chalkbeat verificada na fonte primária: gratuita, auditoria de diversidade de fontes, perguntas personalizáveis e recursos de privacidade; aprovação correspondente registrada no manifesto.",
+      "reviewedBy": "Radar PLOT — revisão editorial assistida",
+      "reviewedAt": "2026-10-23"
+    },
+    {
+      "url": "https://www.opensanctions.org/datasets/default",
+      "status": "duplicate",
+      "officialUrl": "https://www.opensanctions.org/datasets/default/",
+      "reason": "O Radar já possui o dataset opensanctions-default, com cobertura de sanções, PEPs, proveniência, formatos e limitações. O endereço original é o mesmo recurso, com barra final; não publicar duplicata.",
+      "reviewedBy": "Radar PLOT — revisão editorial assistida",
+      "reviewedAt": "2026-10-23"
+    },
+    {
+      "url": "https://apidadosabertos.saude.gov.br/",
+      "status": "duplicate",
+      "officialUrl": "https://apidadosabertos.saude.gov.br/",
+      "reason": "Portal oficial de API do Ministério da Saúde já consta do catálogo de bases do Radar, incluindo o mesmo domínio e escopo. Não republicar como nova base sem dados ou endpoints específicos.",
+      "reviewedBy": "Radar PLOT — revisão editorial assistida",
+      "reviewedAt": "2026-10-23"
+    },
+    {
+      "url": "https://www.gov.br/saude/pt-br/acesso-a-informacao/dados-abertos/pda/plano-de-dados-abertos_ms_2024-2026.pdf/@@download/file",
+      "status": "rejected",
+      "officialUrl": "https://www.gov.br/saude/pt-br/acesso-a-informacao/dados-abertos/pda/plano-de-dados-abertos_ms_2024-2026.pdf/@@download/file",
+      "reason": "Documento de planejamento institucional (Plano de Dados Abertos 2024–2026), não um conjunto de dados acessível ou API independente. Pode servir como referência para encontrar bases, mas não deve virar item do catálogo.",
+      "reviewedBy": "Radar PLOT — revisão editorial assistida",
+      "reviewedAt": "2026-10-23"
+    },
+    {
+      "url": "https://www.gov.br/saude/pt-br/acesso-a-informacao/dados-abertos/pda/plano-de-dados-abertos-2026-2028.pdf/@@download/file",
+      "status": "rejected",
+      "officialUrl": "https://www.gov.br/saude/pt-br/acesso-a-informacao/dados-abertos/pda/plano-de-dados-abertos-2026-2028.pdf/@@download/file",
+      "reason": "Plano institucional 2026–2028 descreve política de abertura de dados, mas não é dataset ou ferramenta de apuração em si; manter como documento de referência, não publicar como base autônoma.",
+      "reviewedBy": "Radar PLOT — revisão editorial assistida",
+      "reviewedAt": "2026-10-23"
     }
   ]
 }
