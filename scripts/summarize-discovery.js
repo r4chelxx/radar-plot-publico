@@ -9,6 +9,10 @@ const lines=['## Radar PLOT — Descoberta diária','',
  '| Links candidatos | '+r.totals.candidates+' |',
  '| Links já no catálogo | '+r.totals.catalogMatches+' |',
  '| Revisão editorial pendente | '+r.totals.needsReview+' |','','### Fontes com falha'];
+lines.push('','### Cobertura por família de fontes');
+for(const [name,x] of Object.entries(r.coverage||{}))lines.push('- '+name+': '+x.healthy+'/'+x.total+' fontes acessíveis; '+x.candidates+' links coletados');
+lines.push('','**Estado da coleta:** '+(r.overallStatus||'unknown'));
+for(const warning of r.warnings||[])lines.push('- Atenção: '+warning);
 const failures=r.sources.filter(x=>x.status!=='ok');
 if(!failures.length)lines.push('Nenhuma falha identificada.');
 else for(const item of failures)lines.push('- '+item.name+': '+(item.error||'falha desconhecida').replace(/[\r\n]/g,' '));
