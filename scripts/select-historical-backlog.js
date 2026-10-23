@@ -17,6 +17,7 @@ function selectBacklog(previous,current,limit=10,now=new Date()){
  // First visit every historical lead; retries and recurring checks follow afterwards.
  const ready=all.filter(x=>!x.lastInspectedAt||Number.isFinite(Date.parse(x.lastInspectedAt))&&nowMs-Date.parse(x.lastInspectedAt)>=((x.pageStatus==='fetch-failed'||x.pageStatus==='http-error')?7:30)*86400000);
  ready.sort((a,b)=>Number(Boolean(a.lastInspectedAt))-Number(Boolean(b.lastInspectedAt))||
+  Number(a.origin!=='historical')-Number(b.origin!=='historical')||
   String(a.lastInspectedAt||a.firstSeen||'').localeCompare(String(b.lastInspectedAt||b.firstSeen||''))||
   String(a.id).localeCompare(String(b.id)));
  return {selected:ready.slice(0,Math.min(Math.max(1,limit),50)),total:all.length,ready:ready.length,waiting:all.length-ready.length};
