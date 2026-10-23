@@ -178,7 +178,7 @@ jobs:
           day=$(TZ=America/Bahia date +%F)
           title="Radar editorial: $day"
           issue=$(gh issue list --state open --search "$title in:title" --json number,title --jq ".[] | select(.title == \"$title\") | .number" | head -n 1)
-          report="Relatório técnico: https://github.com/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}. Pistas não verificadas; revisão editorial obrigatória antes de publicar."
+          report="Lote histórico de 15 candidatos e evidências (historical-editorial-batch.json/.md): https://github.com/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}. Revisar fontes oficiais, prazos, elegibilidade e duplicidades. Registrar decisões no manifesto; não publicar pistas não verificadas."
           if [ -n "$issue" ]; then
             gh issue comment "$issue" --body "$report"
           else
