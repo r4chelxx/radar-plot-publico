@@ -13,7 +13,8 @@ const spec={
 const ctx={window:{RADAR_PARTS:{}}};vm.createContext(ctx);
 for(const name of [...Object.keys(spec).map(x=>spec[x].path),'data/changelog.js'])vm.runInContext(fs.readFileSync(name,'utf8'),ctx,{filename:name});
 const D=ctx.window.RADAR_PARTS,insertions={opportunities:[],datasets:[],tools:[]},log=[];
-const today=new Intl.DateTimeFormat('en-CA',{timeZone:'America/Bahia',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());
+const dateParts=Object.fromEntries(new Intl.DateTimeFormat('en-US',{timeZone:'America/Bahia',year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(new Date()).map(p=>[p.type,p.value]));
+const today=[dateParts.year,dateParts.month,dateParts.day].join('-');
 const safeUrl=x=>{try{const u=new URL(x);return u.protocol==='https:'&&!!u.hostname}catch{return false}};
 const approvedIds=new Set();
 for(const entry of source.approved){
@@ -27,7 +28,7 @@ for(const entry of source.approved){
  if(new URL(proof.officialUrl).hostname!==new URL(record[rule.field]).hostname)throw Error('Official source does not match record: '+record.id);
  if(category==='opportunities'&&(!record.deadlineStatus||!record.eligibility||!record.status))throw Error('Opportunity requires deadline status, eligibility and status: '+record.id);
  if(category==='datasets'&&(!record.coverage||!record.limitations))throw Error('Dataset requires coverage and limitations: '+record.id);
- if(category==='tools'&&(!record.description||!record.limitations))throw Error('Tool requires description and limitations: '+record.id);
+ if(category==='tools'&&(!record.kind||!record.desc||record.desc.length<70))throw Error('Tool requires kind and substantive description with limitations: '+record.id);
  const old=D[category].find(x=>x.id===record.id);
  if(old){if(old[rule.field]!==record[rule.field])throw Error('Existing record requires explicit update workflow: '+record.id);continue}
  insertions[category].push(record);
