@@ -1,6 +1,37 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.datasets=[
   {
+    "id": "paraiba-portal-dados-abertos-api",
+    "name": "Paraíba — Portal de Dados Abertos e API",
+    "org": "Governo do Estado da Paraíba / Controladoria-Geral do Estado / CODATA",
+    "territoryTier": "Brasil",
+    "kind": "portal",
+    "themes": [
+      "Transparência",
+      "Administração pública",
+      "Orçamento público",
+      "Compras públicas",
+      "Servidores públicos",
+      "Saúde",
+      "Políticas públicas"
+    ],
+    "coverage": "Catálogo estadual de dados abertos com conjuntos sobre compras, convênios, despesas, orçamento, receita, remuneração de servidores e saúde, integrado ao Portal da Transparência e a uma API pública",
+    "frequency": "Varia por conjunto; o portal não informa uma cadência única de atualização",
+    "format": "Portal CKAN, arquivos reutilizáveis e respostas estruturadas em JSON pela API",
+    "period": "Varia por conjunto; consultar os metadados e recursos de cada base",
+    "granularity": "Varia por conjunto, incluindo registros administrativos de compras, convênios, receitas, despesas e remuneração",
+    "geoUnit": "Estado da Paraíba; detalhamento por órgão, entidade, fornecedor, servidor ou município varia conforme o conjunto",
+    "api": "https://api.dados.pb.gov.br/swagger/",
+    "docs": "https://dados.pb.gov.br/about",
+    "limitations": "O catálogo estava em versão 1.0 e reunia sete conjuntos na verificação de 23/10/2026. Cobertura, período, granularidade e frequência variam entre recursos; a presença no portal não garante completude nem atualização uniforme. Conferir metadados, dicionários e a fonte administrativa antes de comparar séries ou atribuir responsabilidades.",
+    "lastChecked": "2026-10-23",
+    "url": "https://dados.pb.gov.br/",
+    "discoveredVia": [
+      "Portal de Dados Abertos da Paraíba"
+    ],
+    "discoveryUrl": "https://codata.pb.gov.br/noticias/codata-desenvolve-nova-versao-do-portal-da-transparencia-da-paraiba-lancada-pelo-governo-do-estado/"
+  },
+  {
     "id": "copernicus-igcc-climate-change-indicators",
     "name": "Copernicus CDS — Indicators of Global Climate Change (IGCC)",
     "org": "Copernicus Climate Change Service / ECMWF e equipe científica IGCC coordenada pela University of Leeds",
