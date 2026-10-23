@@ -1,11 +1,10 @@
 {
-  "checkedAt": "2026-10-23T18:51:16.609Z",
+  "checkedAt": "2026-10-23T19:20:03.573Z",
   "policy": "404/410 becomes broken only after appearing as suspect or broken in the previous audit; blocked and network results are inconclusive",
   "counts": {
-    "ok": 357,
-    "blocked": 37,
-    "network": 45,
-    "suspect": 1
+    "ok": 356,
+    "blocked": 39,
+    "network": 45
   },
   "results": [
     {
@@ -595,11 +594,11 @@
       "type": "opportunity",
       "id": "pulitzer-env",
       "url": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/our-work-environment-grants",
-      "status": 200,
+      "status": 403,
       "finalUrl": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/our-work-environment-grants",
-      "class": "ok",
+      "class": "blocked",
       "attempts": [
-        200
+        403
       ]
     },
     {
@@ -617,11 +616,11 @@
       "type": "opportunity",
       "id": "pulitzer-ai-2627",
       "url": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/ai-accountability-fellowships",
-      "status": 200,
+      "status": 403,
       "finalUrl": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/ai-accountability-fellowships",
-      "class": "ok",
+      "class": "blocked",
       "attempts": [
-        200
+        403
       ]
     },
     {
@@ -1098,6 +1097,17 @@
       ]
     },
     {
+      "type": "source",
+      "id": "Portal de Dados Abertos da Paraíba",
+      "url": "https://dados.pb.gov.br/",
+      "status": 200,
+      "finalUrl": "https://dados.pb.gov.br/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
       "type": "dataset",
       "id": "copernicus-igcc-climate-change-indicators",
       "url": "https://cds.climate.copernicus.eu/datasets/multi-origin-igcc-climate-change-indicators?tab=overview",
@@ -1123,11 +1133,13 @@
       "type": "dataset",
       "id": "genero-numero-dados-abertos",
       "url": "https://www.generonumero.media/dados-abertos/",
-      "status": 200,
-      "finalUrl": "https://www.generonumero.media/dados-abertos/",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "TypeError:fetch failed",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -1335,15 +1347,14 @@
       ]
     },
     {
-      "type": "dataset",
-      "id": "ana-outorgas-federais-geoservico",
-      "url": "https://www.snirh.gov.br/arcgis/rest/services/SRE/OutorgasDireitodeUso/MapServer",
-      "status": 404,
-      "finalUrl": "https://www.snirh.gov.br/arcgis/rest/services/SRE/OutorgasDireitodeUso/MapServer",
-      "class": "suspect",
+      "type": "source",
+      "id": "ANA/SNIRH — Geosserviços de Outorgas",
+      "url": "https://www.snirh.gov.br/arcgis/rest/services/SRE/OutorgasDireitodeUso/FeatureServer",
+      "status": 200,
+      "finalUrl": "https://www.snirh.gov.br/arcgis/rest/services/SRE/OutorgasDireitodeUso/FeatureServer",
+      "class": "ok",
       "attempts": [
-        404,
-        404
+        200
       ]
     },
     {
@@ -1734,7 +1745,6 @@
       "finalUrl": "https://www.transparencia.ba.gov.br/Portal",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -3266,17 +3276,6 @@
     },
     {
       "type": "source",
-      "id": "ANA/SNIRH — Geosserviços de Outorgas",
-      "url": "https://www.snirh.gov.br/arcgis/rest/services/SRE/OutorgasDireitodeUso/FeatureServer",
-      "status": 200,
-      "finalUrl": "https://www.snirh.gov.br/arcgis/rest/services/SRE/OutorgasDireitodeUso/FeatureServer",
-      "class": "ok",
-      "attempts": [
-        200
-      ]
-    },
-    {
-      "type": "source",
       "id": "Observatório da Imprensa",
       "url": "https://www.observatoriodaimprensa.com.br/",
       "status": 200,
@@ -3712,6 +3711,7 @@
       "finalUrl": "https://www.generonumero.media/",
       "class": "ok",
       "attempts": [
+        "TypeError:fetch failed",
         200
       ]
     },
@@ -3961,13 +3961,11 @@
       "type": "source",
       "id": "Farol Jornalismo",
       "url": "https://faroljornalismo.cc/",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "http://faroljornalismo.cc/blog/",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
