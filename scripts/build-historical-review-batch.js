@@ -9,8 +9,8 @@ const byId=new Map((review.candidates||[]).map(x=>[x.id,x]));
 const byEvidence=new Map((evidence.results||[]).flatMap(x=>{try{return [[identity(x.url).id,x]]}catch{return []}}));
 const limit=Math.min(30,Math.max(1,Number(process.env.EDITORIAL_BATCH_LIMIT||15)));
 const leads=Object.entries(state.leads||{}).filter(([,x])=>x.classification==='needs-editorial-review'&&!['published','rejected','duplicate','archived'].includes(x.editorialStatus));
-leads.sort((a,b)=>Number(Boolean(b[1].lastInspectedAt))-Number(Boolean(a[1].lastInspectedAt))||
- String(a[1].reviewedAt||'').localeCompare(String(b[1].reviewedAt||''))||
+leads.sort((a,b)=>String(a[1].lastEditorialQueuedAt||'').localeCompare(String(b[1].lastEditorialQueuedAt||''))||
+ Number(Boolean(b[1].lastInspectedAt))-Number(Boolean(a[1].lastInspectedAt))||
  String(a[1].lastInspectedAt||'').localeCompare(String(b[1].lastInspectedAt||''))||
  String(a[0]).localeCompare(String(b[0])));
 const candidates=leads.slice(0,limit).map(([id,x])=>{
@@ -22,6 +22,12 @@ const candidates=leads.slice(0,limit).map(([id,x])=>{
  pendingChecks:r?.missing||['primarySourceVerified','duplicateReviewed','editorialApproval'],
  nextAction:'Verify official source, active deadline, eligibility, relevance and catalog duplicates; document decision in historical-decisions.json and approved-publications.json when applicable.'};
 });
+const queuedAt=new Date().toISOString();
+for(const item of candidates){
+ const lead=state.leads[item.id];
+ if(lead){lead.lastEditorialQueuedAt=queuedAt;lead.editorialQueueCount=(lead.editorialQueueCount||0)+1}
+}
+fs.writeFileSync(process.argv[2]||'intake/lead-history-next.json',JSON.stringify(state,null,2)+'\n');
 const counts={totalHistorical:Object.keys(state.leads||{}).length,needsEditorialReview:leads.length,
  technicalInspections:leads.filter(([,x])=>x.lastInspectedAt).length,
  editorialDecisions:Object.values(state.leads||{}).filter(x=>x.reviewedAt).length,
