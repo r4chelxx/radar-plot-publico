@@ -48,7 +48,7 @@ jobs:
           let html=fs.readFileSync('index.html','utf8');
           for(const part of ['opportunities','datasets','tools','changelog']){
             const rx=new RegExp('data/'+part+'[.]js[?]v=[^" ]+','g');
-            html=html.replace(rx,(_,prefix)=>prefix+'editorial-'+process.env.RUN_ID);
+            html=html.replace(rx,'data/'+part+'.js?v=editorial-'+process.env.RUN_ID);
           }
           fs.writeFileSync('index.html',html);
           NODE
