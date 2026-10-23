@@ -30,6 +30,7 @@ on:
   pull_request:
     paths:
       - 'data/sources.js'
+      - 'scripts/check-source-alternatives.js'
       - 'scripts/source-intake.js'
       - 'scripts/normalize-lead-link.js'
       - 'tests/normalize-lead-link.test.js'
