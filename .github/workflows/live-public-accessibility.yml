@@ -1,5 +1,14 @@
 name: Live public accessibility smoke
 on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/live-public-accessibility.yml'
+      - 'tests/accessibility-public.spec.cjs'
+      - 'playwright.config.cjs'
+      - 'index.html'
+      - 'app.js'
+      - 'styles.css'
   workflow_dispatch:
   schedule:
     - cron: '0 12 * * 1'
