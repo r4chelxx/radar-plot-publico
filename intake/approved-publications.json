@@ -77,6 +77,24 @@
         "officialUrl": "https://www.elasnocongresso.com.br/ia-feminista",
         "evidence": "Página primária de Elas no Congresso/AzMina confirma a QuitérIA, o uso de BERTimbau, classificação de proposições legislativas em dez temas, supervisão humana, documentação pública e limitações; URL histórica /quiteria redireciona à página oficial /ia-feminista. Busca no catálogo do Radar em 23/10 não encontrou o endereço oficial nem o ID."
       }
+    },
+    {
+      "category": "tools",
+      "record": {
+        "id": "rji-chalkbeat-source-auditing-tool",
+        "name": "RJI + Chalkbeat — Source Auditing Tool",
+        "kind": "auditoria de diversidade de fontes jornalísticas",
+        "url": "https://rjionline.org/source-auditing-tool/",
+        "desc": "Ferramenta gratuita do Reynolds Journalism Institute e da Chalkbeat para registrar e analisar a diversidade de fontes ouvidas por uma redação. Permite personalizar perguntas, incluir fontes sem e-mail e evitar múltiplas solicitações. A configuração requer contato ou demonstração; o preenchimento é opcional e dados pessoais exigem consentimento, minimização e proteção.",
+        "discoveryUrl": "https://rjionline.org/source-auditing-tool"
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Radar PLOT — revisão editorial assistida",
+        "reviewedAt": "2026-10-23",
+        "officialUrl": "https://rjionline.org/source-auditing-tool/",
+        "evidence": "Fonte primária do Reynolds Journalism Institute descreve parceria com Chalkbeat, gratuidade, perguntas personalizáveis, participação de fontes sem e-mail, prevenção de solicitações repetidas e medidas de privacidade. O uso é iniciado por demonstração ou contato com a equipe; não é cadastro instantâneo. Verificada ausência da URL e do ID no catálogo do Radar."
+      }
     }
   ]
 }
