@@ -18,14 +18,26 @@ function fetch(target,redirects=0){
   req.on('error',reject);
  });
 }
-(async()=>{
- const home=await fetch(url);
+async function checkPublicHealth(targetUrl=url,request=fetch){
+ const home=await request(targetUrl);
  assert.equal(home.status,200,'Public homepage must return HTTP 200');
  assert(home.body.includes('id="app"'),'Expected Radar application container');
- for(const asset of ['app.js','styles.css','data.js']){
-  const r=await fetch(new URL(asset,url).toString());
-  assert.equal(r.status,200,asset+' must return HTTP 200');
-  assert(r.body.length>100,asset+' unexpectedly empty');
+ // Check the assets actually referenced by the deployed HTML, including catalog partitions.
+ const publicBase=new URL(targetUrl);
+ const assets=[...home.body.matchAll(/(?:src|href)="([^"]+)"/g)]
+  .map(match=>new URL(match[1],publicBase))
+  .filter(target=>target.origin===publicBase.origin&&/\.(?:js|css)$/.test(target.pathname));
+ const paths=[...new Set(assets.map(target=>target.pathname))];
+ for(const required of ['app.js','styles.css','data.js','data/opportunities.js','data/sources.js','data/tools.js','data/datasets.js','data/changelog.js']){
+  assert(paths.some(path=>path.endsWith('/'+required)),'Missing asset reference: '+required);
  }
- console.log(JSON.stringify({ok:true,checkedAt:new Date().toISOString(),url,checks:['homepage','app.js','styles.css','data.js']}));
-})().catch(e=>{console.error(JSON.stringify({ok:false,checkedAt:new Date().toISOString(),url,error:e.message}));process.exitCode=1;});
+ for(const asset of assets){
+  const r=await request(asset.toString());
+  assert.equal(r.status,200,asset.pathname+' must return HTTP 200');
+  assert(r.body.length>100,asset.pathname+' unexpectedly empty');
+  assert(!/^\s*(?:<!doctype html|<html)\b/i.test(r.body),asset.pathname+' returned HTML instead of an asset');
+ }
+ return {ok:true,checkedAt:new Date().toISOString(),url:targetUrl,checks:['homepage',...paths]};
+}
+module.exports={checkPublicHealth};
+if(require.main===module)checkPublicHealth().then(result=>console.log(JSON.stringify(result))).catch(e=>{console.error(JSON.stringify({ok:false,checkedAt:new Date().toISOString(),url,error:e.message}));process.exitCode=1;});
