@@ -1,10 +1,11 @@
 {
-  "checkedAt": "2026-10-22T18:35:54.922Z",
+  "checkedAt": "2026-10-23T11:56:01.208Z",
   "policy": "404/410 becomes broken only after appearing as suspect or broken in the previous audit; blocked and network results are inconclusive",
   "counts": {
-    "ok": 346,
-    "blocked": 38,
-    "network": 46
+    "ok": 350,
+    "blocked": 37,
+    "network": 45,
+    "suspect": 1
   },
   "results": [
     {
@@ -736,9 +737,9 @@
     {
       "type": "opportunity",
       "id": "alicia",
-      "url": "https://fij.org/40k-fellowship-application-open-webinar-aug-12-on-how-to-apply/",
+      "url": "https://fij.org/alicia-patterson-fellowships/",
       "status": 200,
-      "finalUrl": "https://fij.org/40k-fellowship-application-open-webinar-aug-12-on-how-to-apply/",
+      "finalUrl": "https://fij.org/alicia-patterson-fellowships/",
       "class": "ok",
       "attempts": [
         200
@@ -748,11 +749,11 @@
       "type": "opportunity",
       "id": "persephone-2027",
       "url": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/persephone-miel-fellowships",
-      "status": 403,
+      "status": 200,
       "finalUrl": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/persephone-miel-fellowships",
-      "class": "blocked",
+      "class": "ok",
       "attempts": [
-        403
+        200
       ]
     },
     {
@@ -967,7 +968,7 @@
     {
       "type": "opportunity",
       "id": "media-party-wb26",
-      "url": "https://mediaparty.org/2026/05/14/journalism-micro-grants-media-party-world-bank/",
+      "url": "https://mediaparty.org/en/2026/05/14/journalism-micro-grants-media-party-world-bank/",
       "status": 200,
       "finalUrl": "https://mediaparty.org/en/2026/05/14/journalism-micro-grants-media-party-world-bank/",
       "class": "ok",
@@ -1183,6 +1184,7 @@
       "finalUrl": "https://mandates.un.org/secretariat",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -1326,11 +1328,12 @@
       "type": "dataset",
       "id": "ana-outorgas-federais-geoservico",
       "url": "https://www.snirh.gov.br/arcgis/rest/services/SRE/OutorgasDireitodeUso/FeatureServer/0",
-      "status": 200,
+      "status": 404,
       "finalUrl": "https://www.snirh.gov.br/arcgis/rest/services/SRE/OutorgasDireitodeUso/FeatureServer/0",
-      "class": "ok",
+      "class": "suspect",
       "attempts": [
-        200
+        404,
+        404
       ]
     },
     {
@@ -1721,7 +1724,6 @@
       "finalUrl": "https://www.transparencia.ba.gov.br/Portal",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -1733,6 +1735,7 @@
       "finalUrl": "https://www.ba.gov.br/ssp/publicacoes",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -1744,6 +1747,7 @@
       "finalUrl": "https://www.ba.gov.br/ssp/dados-abertos",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -1985,11 +1989,13 @@
       "type": "dataset",
       "id": "sesab-obitos",
       "url": "https://www.saude.ba.gov.br/suvisa/vigilancia-epidemiologica/",
-      "status": 200,
-      "finalUrl": "https://www.ba.gov.br/saude/suvisa/vigilancia-epidemiologica",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "AbortError:This operation was aborted",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -2594,7 +2600,6 @@
       "finalUrl": "https://dadosabertos.ibama.gov.br/dataset/fiscalizacao-auto-de-infracao",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -2795,10 +2800,10 @@
     },
     {
       "type": "source",
-      "id": "Abraji",
-      "url": "https://abraji.org.br/",
+      "id": "Prêmio Brasileiro de Jornalismo Investigativo — Abraji/TI",
+      "url": "https://congresso.abraji.org.br/noticia/21-congresso-da-abraji-reune-mais-de-17-mil-pessoas-e-debate-o-futuro-do-jornalismo",
       "status": 200,
-      "finalUrl": "https://abraji.org.br/",
+      "finalUrl": "https://congresso.abraji.org.br/noticia/21-congresso-da-abraji-reune-mais-de-17-mil-pessoas-e-debate-o-futuro-do-jornalismo",
       "class": "ok",
       "attempts": [
         200
@@ -2807,9 +2812,9 @@
     {
       "type": "source",
       "id": "Jeduca — Editais e Prêmios",
-      "url": "https://jeduca.org.br/",
+      "url": "https://jeduca.org.br/edital/",
       "status": 200,
-      "finalUrl": "https://jeduca.org.br/",
+      "finalUrl": "https://jeduca.org.br/edital/",
       "class": "ok",
       "attempts": [
         200
@@ -2817,10 +2822,10 @@
     },
     {
       "type": "source",
-      "id": "Fundación Gabo — Premio Roche",
-      "url": "https://premiorochedeperiodismo.com/",
+      "id": "Prêmio Roche de Jornalismo em Saúde",
+      "url": "https://premiorochedeperiodismo.com/pt-br/bases-do-premio-roche-de-jornalismo-em-saude/",
       "status": 200,
-      "finalUrl": "https://premiorochedeperiodismo.com/es/",
+      "finalUrl": "https://premiorochedeperiodismo.com/pt-br/bases-do-premio-roche-de-jornalismo-em-saude/",
       "class": "ok",
       "attempts": [
         200
@@ -2828,13 +2833,24 @@
     },
     {
       "type": "source",
-      "id": "One World Media — Awards e Fellowship",
+      "id": "One World Media Awards",
       "url": "https://oneworldmedia.org.uk/awards/",
       "status": 202,
       "finalUrl": "https://oneworldmedia.org.uk/awards/",
       "class": "ok",
       "attempts": [
         202
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Fundación Gabo — Premio Roche",
+      "url": "https://premiorochedeperiodismo.com/pt-br/",
+      "status": 200,
+      "finalUrl": "https://premiorochedeperiodismo.com/pt-br/",
+      "class": "ok",
+      "attempts": [
+        200
       ]
     },
     {
@@ -2856,6 +2872,17 @@
       "url": "https://cfa.org.br/",
       "status": 200,
       "finalUrl": "https://cfa.org.br/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Abraji",
+      "url": "https://abraji.org.br/",
+      "status": 200,
+      "finalUrl": "https://abraji.org.br/",
       "class": "ok",
       "attempts": [
         200
@@ -2897,14 +2924,12 @@
     {
       "type": "source",
       "id": "Prêmio Sebrae de Jornalismo",
-      "url": "https://premiosebraedejornalismo.com.br/",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "url": "https://premiosebraejornalismo.com.br/",
+      "status": 200,
+      "finalUrl": "https://premiosebraejornalismo.com.br/",
+      "class": "ok",
       "attempts": [
-        "TypeError:fetch failed",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -2923,9 +2948,9 @@
     {
       "type": "source",
       "id": "Prêmio BNB de Jornalismo",
-      "url": "https://www.bnb.gov.br/",
+      "url": "https://www.bancodonordeste.gov.br/premio-bnb-de-jornalismo/regulamento",
       "status": 200,
-      "finalUrl": "https://www.bnb.gov.br/",
+      "finalUrl": "https://www.bancodonordeste.gov.br/premio-bnb-de-jornalismo/regulamento",
       "class": "ok",
       "attempts": [
         200
@@ -2981,11 +3006,11 @@
       "type": "source",
       "id": "Rory Peck Trust",
       "url": "https://rorypecktrust.org/",
-      "status": 200,
+      "status": 202,
       "finalUrl": "https://rorypecktrust.org/",
       "class": "ok",
       "attempts": [
-        200
+        202
       ]
     },
     {
@@ -3034,13 +3059,24 @@
     },
     {
       "type": "source",
+      "id": "One World Media — Awards e Fellowship",
+      "url": "https://oneworldmedia.org.uk/fellowship/",
+      "status": 202,
+      "finalUrl": "https://oneworldmedia.org.uk/fellowship/",
+      "class": "ok",
+      "attempts": [
+        202
+      ]
+    },
+    {
+      "type": "source",
       "id": "Amado Mundo — oportunidades de formação",
       "url": "https://amadomundo.com/",
-      "status": 200,
+      "status": 202,
       "finalUrl": "https://amadomundo.com/",
       "class": "ok",
       "attempts": [
-        200
+        202
       ]
     },
     {
@@ -3544,13 +3580,11 @@
       "type": "source",
       "id": "MapBiomas Alerta",
       "url": "https://alerta.mapbiomas.org/metodo-mapbiomas-alerta/",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "AbortError:This operation was aborted",
+      "status": 200,
+      "finalUrl": "https://alerta.mapbiomas.org/metodo-mapbiomas-alerta/",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "AbortError:This operation was aborted"
+        200
       ]
     },
     {
@@ -4529,7 +4563,6 @@
       "finalUrl": "https://www.generonumero.media/artigos/cartilha-violencia-de-genero/",
       "class": "ok",
       "attempts": [
-        "TypeError:fetch failed",
         200
       ]
     },
