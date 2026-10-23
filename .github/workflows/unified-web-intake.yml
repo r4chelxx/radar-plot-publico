@@ -13,6 +13,10 @@ on:
       - 'scripts/quality-gate-discovery.js'
       - 'scripts/sample-editorial-review.js'
       - 'scripts/export-editorial-review.js'
+      - 'scripts/merge-editorial-queue.js'
+      - 'scripts/publish-approved.js'
+      - 'intake/approved-publications.json'
+      - '.github/workflows/editorial-publish.yml'
       - 'scripts/report-discovery-operations.js'
       - 'scripts/summarize-discovery.js'
       - 'data/sources.js'
@@ -20,8 +24,11 @@ on:
   workflow_dispatch:
   schedule:
     - cron: "30 12 * * *"
+concurrency:
+  group: radar-daily-intake
+  cancel-in-progress: false
 permissions:
-  contents: read
+  contents: write
 jobs:
   collect-web:
     runs-on: ubuntu-latest
@@ -66,6 +73,25 @@ jobs:
         run: node scripts/report-discovery-operations.js
       - name: Show source failures in workflow summary
         run: node scripts/summarize-discovery.js
+      - name: Persist candidates on radar-state branch
+        if: github.event_name != 'pull_request'
+        run: |
+          cp intake/discovery-quality.json /tmp/radar-discovery-quality.json
+          cp scripts/merge-editorial-queue.js /tmp/radar-merge-editorial-queue.js
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git ls-remote --exit-code --heads origin radar-state >/dev/null; then
+            git fetch origin radar-state
+            git switch -c radar-state --track origin/radar-state
+          else
+            git switch -c radar-state
+          fi
+          node /tmp/radar-merge-editorial-queue.js /tmp/radar-discovery-quality.json intake/editorial-queue.json
+          git add intake/editorial-queue.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Editorial: persist pending public candidates [skip ci]"
+            git push origin radar-state
+          fi
       - name: Upload non-publishing discovery queue
         uses: actions/upload-artifact@v4
         with:
