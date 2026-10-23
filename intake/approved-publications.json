@@ -1,4 +1,64 @@
 {
   "policy": "Only records with independently reviewed primary-source evidence and explicit editorial approval may be published. This file contains no unverified leads.",
-  "approved": []
+  "approved": [
+    {
+      "category": "opportunities",
+      "record": {
+        "id": "vital-impacts-environmental-photography-2027",
+        "title": "Vital Impacts — Environmental Photography Fellowships 2027",
+        "org": "Vital Impacts",
+        "summary": "Uma bolsa de US$ 20 mil e seis de US$ 5 mil para projetos documentais fotográficos de longo prazo sobre meio ambiente, conservação e soluções comunitárias; dez mentorias adicionais.",
+        "type": "Fellowship / bolsa de fotografia documental",
+        "themes": [
+          "Meio ambiente",
+          "Fotojornalismo",
+          "Conservação",
+          "Biodiversidade",
+          "Comunidades",
+          "Narrativas visuais"
+        ],
+        "scope": "Internacional",
+        "deadline": "2026-11-30",
+        "deadlineStatus": "confirmado (horário exato não especificado na página consultada)",
+        "eligibility": "elegível",
+        "fit": 8,
+        "status": "aberta",
+        "value": "Uma bolsa de US$ 20.000; seis bolsas de US$ 5.000; dez mentorias sem bolsa informada",
+        "duration": "Projetos desenvolvidos ao longo de 2027, com acompanhamento editorial e mentoria",
+        "modality": "Fellowship para projeto de fotografia documental",
+        "documents": [
+          "Portfólio de até 20 fotografias JPEG, organizado em um ou dois trabalhos",
+          "Sinopse do projeto em 25 palavras",
+          "Proposta de projeto em até 500 palavras",
+          "Biografia de até 1.500 caracteres",
+          "Concordância com código de ética e termos"
+        ],
+        "restrictions": [
+          "Projetos documentais fotográficos ambientais de longo prazo com foco em soluções e relações sustentadas com comunidades",
+          "A experiência de publicação anterior não é exigida",
+          "Taxa de inscrição de US$ 25; isenção para candidatos de países em desenvolvimento ou por dificuldade financeira, mediante solicitação",
+          "Não usar IA generativa para criar ou alterar materialmente conteúdo fotográfico"
+        ],
+        "rules": "https://vitalimpacts.org/pages/the-vital-impacts-environmental-photography-grant",
+        "apply": "https://site.picter.com/vital-impacts-environmental-photography-fellowship-2027",
+        "verified": "2026-10-23",
+        "desc": "Edital internacional para fotógrafos documentais que já tenham relação significativa com as comunidades e questões ambientais retratadas. A organização confirma uma bolsa de US$ 20 mil, seis de US$ 5 mil e dez mentorias, com prazo de 30/11/2026. Taxa de US$ 25 com isenções previstas. Conferir horário final no formulário e termos completos antes de enviar.",
+        "discoveryUrl": "https://www.sej.org/calendar/deadline-vital-impacts-environmental-photography-fellowships-and-mentorships",
+        "verificationHistory": [
+          {
+            "date": "2026-10-23",
+            "status": "aberta",
+            "source": "https://vitalimpacts.org/pages/the-vital-impacts-environmental-photography-grant"
+          }
+        ]
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Radar PLOT — revisão editorial assistida",
+        "reviewedAt": "2026-10-23",
+        "officialUrl": "https://vitalimpacts.org/pages/the-vital-impacts-environmental-photography-grant",
+        "evidence": "Edital oficial e termos da plataforma Picter confirmam inscrições de 31/08 a 30/11/2026, uma bolsa de US$ 20 mil, seis bolsas de US$ 5 mil, dez mentorias, documentação exigida, taxas e possibilidade de isenção; conferida ausência do ID no catálogo público em 23/10."
+      }
+    }
+  ]
 }
