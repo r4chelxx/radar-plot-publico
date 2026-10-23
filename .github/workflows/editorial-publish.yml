@@ -33,6 +33,20 @@ jobs:
           else
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
+      - name: Refresh cache keys for updated public catalogs
+        if: steps.changes.outputs.changed == 'true'
+        env:
+          RUN_ID: ${{ github.run_id }}
+        run: |
+          node - <<'NODE'
+          const fs=require('fs');
+          let html=fs.readFileSync('index.html','utf8');
+          for(const part of ['opportunities','datasets','tools','changelog']){
+            const rx=new RegExp('(data/'+part+'\\\\.js\\\\?v=)[^"\\\\s]+','g');
+            html=html.replace(rx,(_,prefix)=>prefix+'editorial-'+process.env.RUN_ID);
+          }
+          fs.writeFileSync('index.html',html);
+          NODE
       - name: Validate editorial data
         if: steps.changes.outputs.changed == 'true'
         run: node scripts/validate-data.js
@@ -64,7 +78,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git switch -c "$branch"
-          git add data/opportunities.js data/datasets.js data/tools.js data/changelog.js
+          git add data/opportunities.js data/datasets.js data/tools.js data/changelog.js index.html
           git commit -m "Editorial: publish verified records"
           git push origin "$branch"
           pr_url=$(gh pr create --base main --head "$branch" --title "Radar editorial: approved publications ${{ github.run_id }}" --body "Only entries explicitly approved in intake/approved-publications.json. Validation, static UI, web-intake regression, Playwright browser tests and link audit passed in this publishing workflow. No unverified leads are promoted.")
