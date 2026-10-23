@@ -22,7 +22,7 @@ for(const entry of source.approved){
  if(!record.id||!/^[-a-z0-9]+$/.test(record.id))throw Error('Invalid record ID');
  if(approvedIds.has(record.id))throw Error('Duplicate approval: '+record.id);
  approvedIds.add(record.id);
- if(proof.decision!=='approved'||!proof.reviewedBy||!/^\\d{4}-\\d{2}-\\d{2}$/.test(proof.reviewedAt||'')||!safeUrl(proof.officialUrl)||!proof.evidence||String(proof.evidence).length<25)throw Error('Missing editorial verification: '+record.id);
+ if(proof.decision!=='approved'||!proof.reviewedBy||!/^\d{4}-\d{2}-\d{2}$/.test(proof.reviewedAt||'')||!safeUrl(proof.officialUrl)||!proof.evidence||String(proof.evidence).length<25)throw Error('Missing editorial verification: '+record.id);
  if(!record[rule.title]||!safeUrl(record[rule.field]))throw Error('Missing public record fields: '+record.id);
  if(new URL(proof.officialUrl).hostname!==new URL(record[rule.field]).hostname)throw Error('Official source does not match record: '+record.id);
  if(category==='opportunities'&&(!record.deadlineStatus||!record.eligibility||!record.status))throw Error('Opportunity requires deadline status, eligibility and status: '+record.id);
@@ -38,7 +38,7 @@ function prepend(path,variable,records){
  let content=fs.readFileSync(path,'utf8'),marker='window.RADAR_PARTS.'+variable+'=[',pos=content.indexOf(marker);
  if(pos<0)throw Error('Missing catalog array: '+path);
  pos+=marker.length;
- content=content.slice(0,pos)+'\\n'+records.map(x=>JSON.stringify(x,null,2)).join(',\\n')+', '+content.slice(pos);
+ content=content.slice(0,pos)+'\n'+records.map(x=>JSON.stringify(x,null,2)).join(',\n')+', '+content.slice(pos);
  fs.writeFileSync(path,content);
 }
 for(const [category,records] of Object.entries(insertions))prepend(spec[category].path,category,records);
