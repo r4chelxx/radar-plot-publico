@@ -13,6 +13,10 @@ try{
  assert(fs.readFileSync(path.join(root,'data','tools.js'),'utf8').includes('example-verified-tool'));
  assert(fs.readFileSync(path.join(root,'data','changelog.js'),'utf8').includes('example-verified-tool'));
  const second=JSON.parse(run('publish-approved.js',input));assert.equal(second.published,0);
+ const duplicate=JSON.parse(JSON.stringify(manifest.approved[0]));duplicate.record.id='same-url-different-id';duplicate.record.url='https://example.org/tool/';
+ manifest.approved.push(duplicate);fs.writeFileSync(input,JSON.stringify(manifest));
+ assert.throws(()=>run('publish-approved.js',input),/Command failed|Official URL already published/);
+ manifest.approved.pop();fs.writeFileSync(input,JSON.stringify(manifest));
  const workflow=fs.readFileSync(path.resolve('.github/workflows/editorial-publish.yml'),'utf8');
  assert(workflow.includes('  push:')&&workflow.includes('    branches: [main]'));
  assert(workflow.includes('intake/approved-publications.json'));

@@ -16,6 +16,9 @@ const D=ctx.window.RADAR_PARTS,insertions={opportunities:[],datasets:[],tools:[]
 const dateParts=Object.fromEntries(new Intl.DateTimeFormat('en-US',{timeZone:'America/Bahia',year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(new Date()).map(p=>[p.type,p.value]));
 const today=[dateParts.year,dateParts.month,dateParts.day].join('-');
 const safeUrl=x=>{try{const u=new URL(x);return u.protocol==='https:'&&!!u.hostname}catch{return false}};
+const canonicalUrl=x=>{const u=new URL(x);u.hash='';u.hostname=u.hostname.toLowerCase();u.pathname=u.pathname.replace(new RegExp('/+$'),'')||'/';return u.toString()};
+const existingUrls=new Map();
+for(const [category,rule] of Object.entries(spec))for(const existing of D[category]||[]){const value=existing[rule.field];if(safeUrl(value))existingUrls.set(canonicalUrl(value),existing.id)}
 const approvedIds=new Set();
 for(const entry of source.approved){
  const category=entry.category,rule=spec[category],record=entry.record||{},proof=entry.review||{};
@@ -30,6 +33,10 @@ for(const entry of source.approved){
  if(category==='datasets'&&(!record.coverage||!record.limitations))throw Error('Dataset requires coverage and limitations: '+record.id);
  if(category==='tools'&&(!record.kind||!record.desc||record.desc.length<70))throw Error('Tool requires kind and substantive description with limitations: '+record.id);
  const old=D[category].find(x=>x.id===record.id);
+ const canonical=canonicalUrl(record[rule.field]);
+ const matchingId=existingUrls.get(canonical);
+ if(matchingId&&matchingId!==record.id)throw Error('Official URL already published under '+matchingId+': '+record.id);
+ if(!old)existingUrls.set(canonical,record.id);
  if(old){if(old[rule.field]!==record[rule.field])throw Error('Existing record requires explicit update workflow: '+record.id);continue}
  insertions[category].push(record);
  log.push({type:rule.type,id:record.id,title:record[rule.title],date:today,detail:proof.evidence});
