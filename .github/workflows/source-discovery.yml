@@ -186,6 +186,37 @@ jobs:
           node -e "const fs=require('fs');const s=JSON.parse(fs.readFileSync('intake/lead-history-confirmed.json'));if(s.schemaVersion!==1||!s.updatedAt||!s.leads||Array.isArray(s.leads))process.exit(1);console.log('Confirmed persisted leads:',Object.keys(s.leads).length)"
           echo "### Persistência do Radar confirmada" >> "$GITHUB_STEP_SUMMARY"
           echo "O conteúdo salvo na branch radar-state corresponde exatamente ao histórico gerado nesta execução." >> "$GITHUB_STEP_SUMMARY"
+      - name: Reconcile and persist the public editorial queue
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          for attempt in 1 2 3; do
+            gh api "repos/${GITHUB_REPOSITORY}/contents/intake/editorial-queue.json?ref=radar-state" > intake/queue-response.json
+            node - <<'NODE'
+          const fs=require('node:fs');
+          const response=JSON.parse(fs.readFileSync('intake/queue-response.json','utf8'));
+          fs.writeFileSync('intake/queue-reconciled.json',Buffer.from(response.content,'base64'));
+          fs.writeFileSync('intake/queue-empty-review.json',JSON.stringify({review:[]}));
+          NODE
+            node scripts/merge-editorial-queue.js intake/queue-empty-review.json intake/queue-reconciled.json intake/lead-history-confirmed.json intake/historical-decisions.json
+            node scripts/check-operational-state.js intake/queue-reconciled.json intake/lead-history-confirmed.json intake/historical-decisions.json
+            node - <<'NODE'
+          const fs=require('node:fs');
+          const response=JSON.parse(fs.readFileSync('intake/queue-response.json','utf8'));
+          fs.writeFileSync('intake/queue-update.json',JSON.stringify({branch:'radar-state',message:'Reconcile public queue after source run '+process.env.GITHUB_RUN_ID,sha:response.sha,content:fs.readFileSync('intake/queue-reconciled.json').toString('base64')}));
+          NODE
+            if gh api --method PUT "repos/${GITHUB_REPOSITORY}/contents/intake/editorial-queue.json" --input intake/queue-update.json --silent; then
+              gh api "repos/${GITHUB_REPOSITORY}/contents/intake/editorial-queue.json?ref=radar-state" --jq .content | base64 --decode > intake/queue-confirmed.json
+              cmp intake/queue-reconciled.json intake/queue-confirmed.json
+              node scripts/check-operational-state.js intake/queue-confirmed.json intake/lead-history-confirmed.json intake/historical-decisions.json
+              echo "### Fila editorial sincronizada com o histórico persistente" >> "$GITHUB_STEP_SUMMARY"
+              exit 0
+            fi
+            if [ "$attempt" -lt 3 ]; then sleep 10; fi
+          done
+          echo "::error::Failed to persist reconciled public queue" >&2
+          exit 1
       - name: Link report in daily editorial queue
         env:
           GH_TOKEN: ${{ github.token }}
