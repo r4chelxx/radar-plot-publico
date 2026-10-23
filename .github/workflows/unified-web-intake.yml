@@ -26,7 +26,7 @@ on:
   schedule:
     - cron: "30 12 * * *"
 concurrency:
-  group: radar-daily-intake
+  group: ${{ github.event_name == 'pull_request' && format('radar-unified-pr-{0}', github.event.pull_request.number) || 'radar-state-writers' }}
   cancel-in-progress: false
 permissions:
   contents: write
