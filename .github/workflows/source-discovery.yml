@@ -26,6 +26,10 @@ on:
       - 'tests/editorial-review.test.js'
       - 'scripts/build-editorial-review.js'
       - 'scripts/inspect-lead-pages.js'
+      - 'scripts/select-historical-backlog.js'
+      - 'scripts/apply-editorial-decisions.js'
+      - 'intake/historical-decisions.json'
+      - 'tests/historical-backlog.test.js'
       - '.github/workflows/source-discovery.yml'
   pull_request:
     paths:
@@ -57,7 +61,7 @@ concurrency:
 jobs:
   discover:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -66,7 +70,7 @@ jobs:
       - name: Check source collector syntax and daily coverage
         run: node --test tests/source-intake-coverage.test.js
       - name: Test persistent lead history
-        run: node --test tests/lead-history.test.js tests/source-catalog.test.js tests/editorial-review.test.js tests/editorial-priority.test.js tests/inspection-order.test.js tests/lead-privacy.test.js tests/normalize-lead-link.test.js
+        run: node --test tests/historical-backlog.test.js tests/lead-history.test.js tests/source-catalog.test.js tests/editorial-review.test.js tests/editorial-priority.test.js tests/inspection-order.test.js tests/lead-privacy.test.js tests/normalize-lead-link.test.js
       - name: Inspect monitored source websites
         run: node scripts/source-intake.js
       - name: Diagnose official alternative URLs (non-mutating)
@@ -81,12 +85,16 @@ jobs:
           set -euo pipefail
           gh api "repos/${GITHUB_REPOSITORY}/contents/state/lead-history.json?ref=radar-state" --jq .content | base64 --decode > intake/lead-history-previous.json
           node -e "const fs=require('fs');const s=JSON.parse(fs.readFileSync('intake/lead-history-previous.json'));if(s.schemaVersion!==1||!s.leads||Array.isArray(s.leads))process.exit(1)"
-      - name: Inspect individual lead pages for evidence
+      - name: Inspect historical backlog in rotating batches
+        env:
+          LEAD_PAGE_LIMIT: '15'
         run: node scripts/inspect-lead-pages.js
       - name: Build editorial review queue
         run: node scripts/build-editorial-review.js
       - name: Compare against persistent public lead history
         run: node scripts/update-lead-history.js
+      - name: Apply verified editorial decisions to historical state
+        run: node scripts/apply-editorial-decisions.js
       - name: Prioritize editorial review from historical changes
         run: node scripts/prioritize-editorial-review.js
       - name: Publish run summary in GitHub Actions
