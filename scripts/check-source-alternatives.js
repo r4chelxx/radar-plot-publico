@@ -6,7 +6,8 @@ const targets=[
 ['Pulitzer Center','https://pulitzercenter.org/opportunities/grants-fellowships'],
 ['GIJN Jobs','https://gijn.org/jobs/'],
 ['GIJN Follow','https://gijn.org/follow/'],
-['SUS Open Data','https://dadosabertos.saude.gov.br/dataset']
+['SUS Open Data','https://dadosabertos.saude.gov.br/dataset'],
+['SUS portal home','https://dadosabertos.saude.gov.br/']
 ];
 async function inspect([name,url]){
  const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),12000);
@@ -14,7 +15,7 @@ async function inspect([name,url]){
   const response=await fetch(url,{signal:controller.signal,headers:{'user-agent':'RadarPLOT-monitor/1.0'}});
   const html=(await response.text()).slice(0,100000);
   return {name,url,status:response.status,ok:response.ok,finalUrl:response.url,hasTitle:/<title[^>]*>/i.test(html),anchorCount:(html.match(/<a\b/gi)||[]).length};
- }catch(error){return {name,url,ok:false,error:String(error)}}
+ }catch(error){return {name,url,ok:false,error:String(error),networkCode:error.cause&&error.cause.code||null}}
  finally{clearTimeout(timer)}
 }
 (async()=>{
