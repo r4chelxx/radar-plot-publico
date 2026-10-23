@@ -14,6 +14,7 @@ on:
       - 'scripts/sample-editorial-review.js'
       - 'scripts/export-editorial-review.js'
       - 'scripts/merge-editorial-queue.js'
+      - 'scripts/test-editorial-pipeline.js'
       - 'scripts/publish-approved.js'
       - 'intake/approved-publications.json'
       - '.github/workflows/editorial-publish.yml'
@@ -39,6 +40,8 @@ jobs:
           node-version: "22"
       - name: Test web intake safeguards
         run: node scripts/test-web-intake.js
+      - name: Test editorial publication safeguards
+        run: node scripts/test-editorial-pipeline.js
       - name: Validate operational probe syntax
         run: node --check scripts/check-public-health.js
       - name: Test cross-account ownership model
