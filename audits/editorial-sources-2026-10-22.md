@@ -314,3 +314,8 @@ Commit `6e29668`: validação de dados, regressão de navegador, descoberta de f
 ## Lote 47 — pendências operacionais verificadas
 
 Commit `78ee943`: Validate Radar data, Unified public web intake, Browser regression tests e Radar source discovery concluíram com sucesso. `Audit Radar links` run `39927534709` estava em progresso na consulta. `radar-state` continua com 197 leads e `updatedAt=2026-10-22T15:27:29.440Z`. A configuração do workflow no PR tem restauração, persistência e comparação byte a byte restritas à `main`; não há confirmação de que uma execução da `main` tenha gravado histórico após essa data. O commit `438c079` da `main` refere-se ao monitoramento de saúde da publicação, não é prova de persistência. Próxima ação: consultar run agendado/dispatch na `main`, conferir jobs `discover` e `persist` e logs de verificação, sem mudar o gate do PR.
+
+
+## Lotes 49–50 — pré-encerramento técnico (23/10/2026)
+
+No commit `7328adf`, Validate Radar data, Browser regression tests, Radar source discovery e Unified public web intake passaram. `Audit Radar links` run `39927934478` estava em progresso na consulta; não declarar aprovação antes de sua conclusão. Histórico remoto `radar-state` ainda registra 197 leads, `updatedAt=2026-10-22T15:27:29.440Z`. `dc2aba1` incluiu `scripts/check-source-alternatives.js` também nos gatilhos de PR (já estava em push), para garantir CI quando o diagnóstico mudar. A verificação real do job `persist` em `main` requer um run da branch principal e seus logs; não executar gravação de histórico pelo PR. Fechamento condicionado à conclusão da auditoria de links e confirmação de persistência na main. Catálogo e publicação preservados.
