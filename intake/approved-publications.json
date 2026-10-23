@@ -131,6 +131,60 @@
         "officialUrl": "https://rawgraphs.io/",
         "evidence": "README oficial do projeto confirma entrada tabular, exportação SVG, processamento dos dados inseridos no navegador e execução local: https://github.com/rawgraphs/rawgraphs-app . Site principal teve timeout na consulta web desta sessão; documentação primária acessível. Conferência do catálogo não encontrou RAWGraphs."
       }
+    },
+    {
+      "category": "tools",
+      "record": {
+        "id": "flourish",
+        "name": "Flourish",
+        "kind": "gráficos, mapas e narrativas interativas sem programação",
+        "url": "https://flourish.studio/",
+        "desc": "Editor para criar e incorporar gráficos, mapas e narrativas interativas a partir de dados. O plano gratuito permite publicação pública com atribuição; recursos como exportação, colaboração e personalização variam por plano. Exige cadastro. Antes de publicar, revisar privacidade, permissões e exposição dos dados, além da qualidade estatística e acessibilidade da visualização.",
+        "discoveryUrl": "https://flourish.studio/"
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Radar PLOT — revisão editorial assistida",
+        "reviewedAt": "2026-10-23",
+        "officialUrl": "https://flourish.studio/",
+        "evidence": "Página oficial de produto confirma gráficos, mapas e narrativas sem programação; tabela oficial de planos confirma publicação pública com atribuição no plano gratuito, privacidade dos projetos não publicados e recursos distintos de exportação. Conferido em https://flourish.studio/pricing/ ; nenhum registro equivalente no catálogo."
+      }
+    },
+    {
+      "category": "tools",
+      "record": {
+        "id": "kepler-gl",
+        "name": "kepler.gl",
+        "kind": "exploração visual de dados geoespaciais",
+        "url": "https://kepler.gl/",
+        "desc": "Aplicação aberta para explorar dados geográficos em camadas, filtros e agregações, com importação de CSV e GeoJSON e integração em aplicações React. Segundo a documentação, os dados importados são processados no navegador. O desempenho depende do equipamento e do volume; conferir coordenadas em WGS84, tipos de campos e serviços externos usados no mapa antes de trabalhar com material sensível.",
+        "discoveryUrl": "https://kepler.gl/"
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Radar PLOT — revisão editorial assistida",
+        "reviewedAt": "2026-10-23",
+        "officialUrl": "https://kepler.gl/",
+        "evidence": "Documentação oficial confirma exploração visual geoespacial, licença MIT e integração React. Guia de importação confirma CSV/GeoJSON, processamento no navegador e coordenadas WGS84: https://docs.kepler.gl/docs/user-guides/b-kepler-gl-workflow/a-add-data-to-the-map . Catálogo não continha kepler.gl."
+      }
+    },
+    {
+      "category": "tools",
+      "record": {
+        "id": "leaflet",
+        "name": "Leaflet",
+        "kind": "biblioteca JavaScript para mapas interativos",
+        "url": "https://leafletjs.com/",
+        "desc": "Biblioteca aberta para construir mapas interativos para web e celular, com camadas de tiles, WMS, marcadores e GeoJSON. Exige programação e uma fonte de dados ou mapas de fundo; a biblioteca não fornece, por si, hospedagem nem uma base cartográfica. Serviços de tiles têm regras, atribuição e limites próprios. Revisar acessibilidade, coordenadas e privacidade de dados e requisições externas.",
+        "discoveryUrl": "https://leafletjs.com/"
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Radar PLOT — revisão editorial assistida",
+        "reviewedAt": "2026-10-23",
+        "officialUrl": "https://leafletjs.com/",
+        "evidence": "Página e documentação oficiais confirmam biblioteca JavaScript aberta, uso em dispositivos móveis, camadas WMS/tiles/GeoJSON e escolha independente do provedor cartográfico; o exemplo oficial exige atribuição ao provedor. Não havia Leaflet no catálogo."
+      }
     }
   ]
 }

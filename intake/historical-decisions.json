@@ -160,6 +160,126 @@
       "reason": "Página primária Meta-Wiki é um redirecionamento interwiki para XTools/PageInfo; o conjunto XTools já está catalogado sob wikimedia-xtools. Preservar como referência sem criar registro duplicado.",
       "reviewedBy": "Radar PLOT — revisão editorial assistida",
       "reviewedAt": "2026-10-23"
+    },
+    {
+      "url": "https://flourish.studio/",
+      "status": "approved",
+      "officialUrl": "https://flourish.studio/",
+      "reason": "Página oficial de produto confirma gráficos, mapas e narrativas sem programação; tabela oficial de planos confirma publicação pública com atribuição no plano gratuito, privacidade dos projetos não publicados e recursos distintos de exportação. Conferido em https://flourish.studio/pricing/ ; nenhum registro equivalente no catálogo.",
+      "reviewedBy": "Radar PLOT — revisão editorial assistida",
+      "reviewedAt": "2026-10-23"
+    },
+    {
+      "url": "https://kepler.gl/",
+      "status": "approved",
+      "officialUrl": "https://kepler.gl/",
+      "reason": "Documentação oficial confirma exploração visual geoespacial, licença MIT e integração React. Guia de importação confirma CSV/GeoJSON, processamento no navegador e coordenadas WGS84: https://docs.kepler.gl/docs/user-guides/b-kepler-gl-workflow/a-add-data-to-the-map . Catálogo não continha kepler.gl.",
+      "reviewedBy": "Radar PLOT — revisão editorial assistida",
+      "reviewedAt": "2026-10-23"
+    },
+    {
+      "url": "https://leafletjs.com/",
+      "status": "approved",
+      "officialUrl": "https://leafletjs.com/",
+      "reason": "Página e documentação oficiais confirmam biblioteca JavaScript aberta, uso em dispositivos móveis, camadas WMS/tiles/GeoJSON e escolha independente do provedor cartográfico; o exemplo oficial exige atribuição ao provedor. Não havia Leaflet no catálogo.",
+      "reviewedBy": "Radar PLOT — revisão editorial assistida",
+      "reviewedAt": "2026-10-23"
+    },
+    {
+      "url": "https://www.datawrapper.de/",
+      "status": "duplicate",
+      "officialUrl": "https://www.datawrapper.de/",
+      "reason": "Página primária acessível confirma o mesmo editor de gráficos e mapas já catalogado sob datawrapper. Nenhum registro novo é criado por esta referência.",
+      "reviewedBy": "Radar PLOT — revisão editorial assistida",
+      "reviewedAt": "2026-10-23"
+    },
+    {
+      "url": "https://qgis.org/",
+      "status": "duplicate",
+      "officialUrl": "https://qgis.org/",
+      "reason": "Página primária confirma o mesmo SIG aberto já publicado sob qgis. Nenhum registro novo é criado por esta referência.",
+      "reviewedBy": "Radar PLOT — revisão editorial assistida",
+      "reviewedAt": "2026-10-23"
+    },
+    {
+      "url": "https://xtools.wmcloud.org/",
+      "status": "duplicate",
+      "officialUrl": "https://xtools.wmcloud.org/",
+      "reason": "URL exata já publicada sob wikimedia-xtools. A consulta web apresentou timeout nesta sessão; a duplicidade é comprovada pela igualdade de URL no catálogo, sem afirmar funcionamento atual. Nenhum registro novo é criado por esta referência.",
+      "reviewedBy": "Radar PLOT — revisão editorial assistida",
+      "reviewedAt": "2026-10-23"
+    },
+    {
+      "url": "https://mapshaper.org/docs/essentials/command-line.html",
+      "status": "duplicate",
+      "officialUrl": "https://mapshaper.org/",
+      "reason": "Documentação primária explica que a linha de comando e a aplicação web são distribuições do mesmo Mapshaper, já catalogado sob mapshaper. Nenhum registro novo é criado por esta referência.",
+      "reviewedBy": "Radar PLOT — revisão editorial assistida",
+      "reviewedAt": "2026-10-23"
+    },
+    {
+      "url": "https://www.bellingcat.com/resources/2025/08/13/the-open-source-tool-that-has-preserved-150000-pieces-of-online-evidence",
+      "status": "duplicate",
+      "officialUrl": "https://github.com/bellingcat/auto-archiver",
+      "reason": "Artigo primário Bellingcat identifica e liga diretamente ao Auto Archiver, já catalogado sob bellingcat-auto-archiver. Nenhum registro novo é criado por esta referência.",
+      "reviewedBy": "Radar PLOT — revisão editorial assistida",
+      "reviewedAt": "2026-10-23"
+    },
+    {
+      "url": "https://abraji.org.br/help-desk/manual-do-cruzagrafos",
+      "status": "duplicate",
+      "officialUrl": "https://www.abraji.org.br/projetos/cruzagrafos",
+      "reason": "Manual primário descreve o mesmo projeto de cruzamento em grafos já catalogado sob abraji-cruzagrafos; manter como documentação complementar. Nenhum registro novo é criado por esta referência.",
+      "reviewedBy": "Radar PLOT — revisão editorial assistida",
+      "reviewedAt": "2026-10-23"
+    },
+    {
+      "url": "https://data.inpe.br/biomasbr/sala-de-situacao-municipal-e-a-nova-ferramenta-do-terrabrasilis-para-apoiar-estados-e-municipios-no-controle-do-desmatamento-e-fogo",
+      "status": "duplicate",
+      "officialUrl": "https://terrabrasilis.dpi.inpe.br/ams/",
+      "reason": "Notícia primária do INPE descreve a Sala de Situação Municipal já publicada sob terrabrasilis-sala-situacao-municipal; não criar item para a notícia de lançamento. Nenhum registro novo é criado por esta referência.",
+      "reviewedBy": "Radar PLOT — revisão editorial assistida",
+      "reviewedAt": "2026-10-23"
+    },
+    {
+      "url": "https://www.rawgraphs.io/",
+      "status": "duplicate",
+      "officialUrl": "https://rawgraphs.io/",
+      "reason": "Variante www do site oficial do RAWGraphs publicado pelo PR #68. Consulta HTTP anterior confirmou o redirecionamento do domínio sem www para www; não duplicar o mesmo recurso. Nenhum registro novo é criado por esta referência.",
+      "reviewedBy": "Radar PLOT — revisão editorial assistida",
+      "reviewedAt": "2026-10-23"
+    },
+    {
+      "url": "https://www.mediawiki.org/wiki/XTools/ArticleInfo.js",
+      "status": "blocked",
+      "officialUrl": "https://www.mediawiki.org/wiki/XTools/ArticleInfo.js",
+      "reason": "Consulta direta da página primária pela ferramenta web não retornou conteúdo legível nesta sessão. Não aprovar nem inferir descontinuação; manter para nova tentativa e conferir eventual relação com o XTools já catalogado.",
+      "reviewedBy": "Radar PLOT — revisão editorial assistida",
+      "reviewedAt": "2026-10-23"
+    },
+    {
+      "url": "https://www.mediawiki.org/wiki/Special:MyLanguage/XTools/Development",
+      "status": "blocked",
+      "officialUrl": "https://www.mediawiki.org/wiki/Special:MyLanguage/XTools/Development",
+      "reason": "Consulta direta da página primária pela ferramenta web não retornou conteúdo legível nesta sessão. Não aprovar nem inferir descontinuação; manter para nova tentativa e conferir eventual relação com o XTools já catalogado.",
+      "reviewedBy": "Radar PLOT — revisão editorial assistida",
+      "reviewedAt": "2026-10-23"
+    },
+    {
+      "url": "https://www.sigmaawards.org/gijn-webinar-behind-the-data-tools-and-techniques-from-the-2025-sigma-award-winners",
+      "status": "rejected",
+      "officialUrl": "https://www.sigmaawards.org/gijn-webinar-behind-the-data-tools-and-techniques-from-the-2025-sigma-award-winners/",
+      "reason": "Fonte primária confirma anúncio de webinar para 03/06/2025, não uma ferramenta autônoma. Cursos e webinars ficam fora das categorias do catálogo conforme a regra editorial da usuária.",
+      "reviewedBy": "Radar PLOT — revisão editorial assistida",
+      "reviewedAt": "2026-10-23"
+    },
+    {
+      "url": "https://www.sej.org/headlines/bringing-more-beavers-watersheds-powerful-drought-fighting-tool",
+      "status": "rejected",
+      "officialUrl": "https://www.sej.org/headlines/bringing-more-beavers-watersheds-powerful-drought-fighting-tool",
+      "reason": "Página da SEJ é chamada de reportagem da AP sobre castores e secas, não ferramenta de investigação. A palavra tool no título gerou um falso positivo de coleta; não publicar como software, base ou oportunidade.",
+      "reviewedBy": "Radar PLOT — revisão editorial assistida",
+      "reviewedAt": "2026-10-23"
     }
   ]
 }
