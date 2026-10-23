@@ -1,13 +1,24 @@
 {
-  "checkedAt": "2026-10-23T15:46:16.218Z",
+  "checkedAt": "2026-10-23T16:52:35.894Z",
   "policy": "404/410 becomes broken only after appearing as suspect or broken in the previous audit; blocked and network results are inconclusive",
   "counts": {
-    "ok": 354,
+    "ok": 355,
     "blocked": 37,
     "network": 45,
-    "broken": 1
+    "suspect": 1
   },
   "results": [
+    {
+      "type": "opportunity",
+      "id": "vital-impacts-environmental-photography-2027",
+      "url": "https://vitalimpacts.org/pages/the-vital-impacts-environmental-photography-grant",
+      "status": 200,
+      "finalUrl": "https://vitalimpacts.org/pages/the-vital-impacts-environmental-photography-grant",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
     {
       "type": "opportunity",
       "id": "ipys-transnational-investigations-2026",
@@ -16,7 +27,6 @@
       "finalUrl": "https://ipys.org/periodismo-de-investigaci%C3%B3n/ipys-lanza-convocatoria-de-financiamiento-de-investigaciones",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -314,7 +324,6 @@
       "finalUrl": "https://investigativejournalismforeu.net/grants/investigation-support-scheme/",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -601,7 +610,6 @@
       "finalUrl": "https://www.iwmf.org/programs/fund-for-women-journalists/",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -1020,7 +1028,6 @@
       "finalUrl": "https://www.iwmf.org/programs/reporting-grants-for-womens-stories/",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -1032,7 +1039,6 @@
       "finalUrl": "https://www.iwmf.org/programs/kari-howard-fund/",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -1331,10 +1337,10 @@
     {
       "type": "dataset",
       "id": "ana-outorgas-federais-geoservico",
-      "url": "https://portal1.snirh.gov.br/arcgis/rest/services/SRE/OutorgasFederais_FeatureLayer/FeatureServer/0",
+      "url": "https://www.snirh.gov.br/arcgis/rest/services/SRE/OutorgasDireitodeUso/FeatureServer/0",
       "status": 404,
-      "finalUrl": "https://portal1.snirh.gov.br/arcgis/rest/services/SRE/OutorgasFederais_FeatureLayer/FeatureServer/0",
-      "class": "broken",
+      "finalUrl": "https://www.snirh.gov.br/arcgis/rest/services/SRE/OutorgasDireitodeUso/FeatureServer/0",
+      "class": "suspect",
       "attempts": [
         404,
         404
@@ -1513,7 +1519,6 @@
       "finalUrl": "https://www.gov.br/anp/pt-br/centrais-de-conteudo/dados-abertos/dados-cadastrais-dos-revendedores-varejistas-de-combustiveis-automotivos",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -1717,7 +1722,7 @@
       "class": "network",
       "error": "TypeError:fetch failed",
       "attempts": [
-        "AbortError:This operation was aborted",
+        "TypeError:fetch failed",
         "TypeError:fetch failed"
       ]
     },
@@ -1729,7 +1734,6 @@
       "finalUrl": "https://www.transparencia.ba.gov.br/Portal",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -1741,7 +1745,6 @@
       "finalUrl": "https://www.ba.gov.br/ssp/publicacoes",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -1760,11 +1763,13 @@
       "type": "dataset",
       "id": "aneel",
       "url": "https://dadosabertos.aneel.gov.br/",
-      "status": 200,
-      "finalUrl": "https://dadosabertos.aneel.gov.br/",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "AbortError:This operation was aborted",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -1893,6 +1898,7 @@
       "finalUrl": "https://dadosabertos.aneel.gov.br/dataset/ocorrencias-emergenciais-nas-redes-de-distribuicao",
       "class": "ok",
       "attempts": [
+        "TypeError:fetch failed",
         200
       ]
     },
@@ -2053,6 +2059,7 @@
       "finalUrl": "https://www.gov.br/ana/pt-br/assuntos/regulacao-e-fiscalizacao/cadastro-nacional-de-usuarios-recursos-hidricos-cnarh",
       "class": "ok",
       "attempts": [
+        "TypeError:fetch failed",
         200
       ]
     },
@@ -2136,7 +2143,6 @@
       "finalUrl": "https://salvador.ba.gov.br/",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -2159,6 +2165,7 @@
       "finalUrl": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/acoes-e-programas/programas-projetos-acoes-obras-e-atividades/estatisticas-trabalho/rais/rais-2025/rais-2025",
       "class": "ok",
       "attempts": [
+        "TypeError:fetch failed",
         200
       ]
     },
@@ -2170,6 +2177,7 @@
       "finalUrl": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/acoes-e-programas/programas-projetos-acoes-obras-e-atividades/estatisticas-trabalho/novo-caged/2026/agosto/pagina-inicial",
       "class": "ok",
       "attempts": [
+        "TypeError:fetch failed",
         200
       ]
     },
@@ -2582,7 +2590,6 @@
       "finalUrl": "https://dadosabertos.aneel.gov.br/dataset/base-de-dados-geografica-da-distribuidora-bdgd",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -2605,6 +2612,7 @@
       "finalUrl": "https://dadosabertos.ibama.gov.br/dataset/fiscalizacao-auto-de-infracao",
       "class": "ok",
       "attempts": [
+        502,
         200
       ]
     },
@@ -3169,7 +3177,6 @@
       "finalUrl": "https://investigativejournalismforeu.net/grants/",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -4382,7 +4389,6 @@
       "finalUrl": "https://dochush.com/tools/pdf-redaction-checker/",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -4438,7 +4444,6 @@
       "finalUrl": "https://timeline.knightlab.com/",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -4501,13 +4506,11 @@
       "type": "tool",
       "id": "who-heat-health-equity-assessment-toolkit",
       "url": "https://www.who.int/data/inequality-monitor/assessment_toolkit",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "AbortError:This operation was aborted",
+      "status": 200,
+      "finalUrl": "https://www.who.int/data/inequality-monitor/assessment_toolkit",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "AbortError:This operation was aborted"
+        200
       ]
     },
     {
