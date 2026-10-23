@@ -746,14 +746,14 @@ window.RADAR_PARTS.sources=[
   },
   {
     "name": "ANA/SNIRH — Geosserviços de Outorgas",
-    "url": "https://www.snirh.gov.br/arcgis/rest/services/SRE/OutorgasDireitodeUso/FeatureServer",
-    "type": "Geosserviço oficial com registros de outorgas federais de uso de recursos hídricos e consultas ArcGIS REST",
+    "url": "https://www.gov.br/ana/pt-br/assuntos/regulacao-e-fiscalizacao/outorga/outorgas-emitidas",
+    "type": "Fonte oficial de outorgas emitidas, mapa, painel e planilha; endpoint ArcGIS com erro interno em 23/10/2026",
     "scope": "Brasil",
     "role": "fonte oficial",
     "priority": "Alta",
     "cadence": "mensal",
     "category": "dados/visual",
-    "lastChecked": "2026-10-08",
+    "lastChecked": "2026-10-23",
     "checkStatus": "verificada"
   },
   {
