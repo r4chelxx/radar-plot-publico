@@ -275,3 +275,10 @@ A coleta teve 31 URLs acessíveis, seis erros HTTP, 22 URLs diárias selecionada
 ## Lote 28 — persistência e acompanhamento
 
 Verificada leitura direta do histórico em `radar-state`: 197 leads, `updatedAt=2026-10-22T15:27:29.440Z`. A leitura posterior não mostrou atualização mais recente. Isto não comprova falha do job, mas também não permite afirmar que a persistência esteja atualizando continuamente. O job `persist` só roda na `main`; sua execução foi intencionalmente ignorada nos runs de PR. O teste preventivo de sintaxe/cobertura e a classificação `blockedSources` passaram no CI. Próximo passo é examinar um run programado/dispatch da `main` e seu job `persist`, sem mudar permissões ou gravar estado por meio da branch de auditoria.
+
+
+## Lote 30 — CI e relatório HTTP integral
+
+Run `Radar source discovery` **39878295910**: sucesso. Todos os cinco workflows do commit `686895d` passaram, inclusive `Audit Radar links`. O coletor examinou 37/183 URLs, selecionou 22/22 diárias e informou `dailyAccessible=17`, `dailyFailures=5`, `blockedSources=6`, `httpFailures=7`, `accessSummary={http-error:7,accessible:29,failed:1}` e `leadsFound=89`. O lote rotativo mudou para 4/11, de modo que totais de rodadas diferentes não são diretamente comparáveis. Artefato `source-intake-39878295910` (ID 12468743607) disponível para investigação individual de URLs; ainda não atribuir causas específicas às oito falhas sem inspecionar seus registros.
+
+A política de persistência continua isolando PRs: job `persist` foi skipped, conforme configuração. Próximos passos: diagnóstico por fonte a partir do artefato, análise de runs da main e teste de alternativas oficiais sem contornar bloqueios. Nenhum merge/publicação.
