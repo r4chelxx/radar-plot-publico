@@ -40,3 +40,14 @@ A verificação de interface começa com `node scripts/test-ui-static.js`, execu
 Próximas verificações: testes Playwright em viewport móvel e desktop (navegação de páginas e pautas, filtros, autenticação e estado pessoal), teste de acessibilidade por teclado/leitor de tela, revisão de políticas RLS no Supabase e tratamento de erros de sincronização. As credenciais publicáveis do Supabase no cliente são esperadas; a segurança dos dados depende de políticas RLS efetivas, que não podem ser certificadas apenas pelo repositório.
 
 Regra de publicação: validar dados, regressão de interface e links antes do merge. Depois do merge, confirmar o deploy e a leitura pública. Uma falha intermediária não deve ser reportada como falha final sem conferir a execução de recuperação.
+
+
+## Fila persistente e publicação editorial (23/10/2026)
+
+A coleta diária em `.github/workflows/unified-web-intake.yml` produz uma fila **de candidatos não verificados**. O job agendado grava apenas URLs públicas, títulos e fontes em `intake/editorial-queue.json` na branch `radar-state`, preservando pendências entre execuções. O arquivo não contém dados privados, credenciais, pautas ou e-mails.
+
+A promoção ao catálogo exige um registro em `intake/approved-publications.json` na branch `main`. Cada entrada precisa conter `category` (`opportunities`, `datasets` ou `tools`), `record` com os campos do catálogo, e `review` com `decision: "approved"`, `reviewedBy`, `reviewedAt`, `officialUrl` e evidência factual detalhada em `evidence`. Não basta a descoberta, um HTTP 200 ou uma classificação automática. O publicador rejeita aprovação incompleta, duplicidade, URL insegura e registros sem campos mínimos. Itens já presentes não são republicados.
+
+O workflow `.github/workflows/editorial-publish.yml` verifica diariamente o manifesto aprovado e, havendo novos registros, atualiza catálogo e histórico com a data de Salvador, roda validações de dados, UI, regressão Playwright e auditoria de links, cria PR e tenta squash merge. Se o GitHub impedir a criação/integração por permissões ou proteção de branch, o job falhará sem publicar; revisar as configurações de Actions e os logs. **Não existe aprovação editorial automática de leads**: a etapa de verificação substantiva permanece necessária para evitar chamadas falsas, prazos incorretos ou ferramentas inadequadas.
+
+Testes locais: `node scripts/test-editorial-pipeline.js`. Para uma execução de publicação de teste sem novos registros, `node scripts/publish-approved.js` é idempotente e não modifica os catálogos quando o manifesto está vazio.
