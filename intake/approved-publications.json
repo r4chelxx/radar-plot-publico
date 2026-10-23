@@ -95,6 +95,42 @@
         "officialUrl": "https://rjionline.org/source-auditing-tool/",
         "evidence": "Fonte primária do Reynolds Journalism Institute descreve parceria com Chalkbeat, gratuidade, perguntas personalizáveis, participação de fontes sem e-mail, prevenção de solicitações repetidas e medidas de privacidade. O uso é iniciado por demonstração ou contato com a equipe; não é cadastro instantâneo. Verificada ausência da URL e do ID no catálogo do Radar."
       }
+    },
+    {
+      "category": "tools",
+      "record": {
+        "id": "h3-geospatial-index",
+        "name": "H3 — índice geoespacial hierárquico",
+        "kind": "indexação e agregação geoespacial",
+        "url": "https://h3geo.org/",
+        "desc": "Biblioteca aberta para agrupar coordenadas em células e cruzar bases geográficas em diferentes resoluções. Possui implementações para linguagens como Python e JavaScript. Exige programação; a hierarquia oferece contenção lógica exata, mas contenção geométrica aproximada entre resoluções. Para limites territoriais exatos, complementar com verificações ponto-em-polígono.",
+        "discoveryUrl": "https://h3geo.org/docs/"
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Radar PLOT — revisão editorial assistida",
+        "reviewedAt": "2026-10-23",
+        "officialUrl": "https://h3geo.org/",
+        "evidence": "Documentação primária H3 confirma licença Apache 2, conversão de coordenadas em células, vizinhança e agregação; explicita contenção geométrica aproximada entre resoluções. Conferência do catálogo não encontrou registro H3. Fonte adicional: https://h3geo.org/docs/highlights/indexing/"
+      }
+    },
+    {
+      "category": "tools",
+      "record": {
+        "id": "rawgraphs",
+        "name": "RAWGraphs",
+        "kind": "visualização de dados e exportação vetorial",
+        "url": "https://rawgraphs.io/",
+        "desc": "Ferramenta aberta para transformar dados tabulares em visualizações exportáveis em SVG e refináveis em editores vetoriais. Segundo o projeto, os dados inseridos são processados no navegador; também pode ser executada localmente. Requer revisão da qualidade dos dados e das escolhas gráficas; não substitui limpeza, análise estatística ou avaliação de acessibilidade.",
+        "discoveryUrl": "https://rawgraphs.io/"
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Radar PLOT — revisão editorial assistida",
+        "reviewedAt": "2026-10-23",
+        "officialUrl": "https://rawgraphs.io/",
+        "evidence": "README oficial do projeto confirma entrada tabular, exportação SVG, processamento dos dados inseridos no navegador e execução local: https://github.com/rawgraphs/rawgraphs-app . Site principal teve timeout na consulta web desta sessão; documentação primária acessível. Conferência do catálogo não encontrou RAWGraphs."
+      }
     }
   ]
 }

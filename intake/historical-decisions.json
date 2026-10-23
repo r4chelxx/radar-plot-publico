@@ -128,6 +128,38 @@
       "reason": "Plano institucional 2026–2028 descreve política de abertura de dados, mas não é dataset ou ferramenta de apuração em si; manter como documento de referência, não publicar como base autônoma.",
       "reviewedBy": "Radar PLOT — revisão editorial assistida",
       "reviewedAt": "2026-10-23"
+    },
+    {
+      "url": "https://h3geo.org/",
+      "status": "approved",
+      "officialUrl": "https://h3geo.org/",
+      "reason": "Biblioteca H3 verificada na documentação primária, com licença e limites geométricos documentados; aprovação correspondente no manifesto, sem registro equivalente no catálogo.",
+      "reviewedBy": "Radar PLOT — revisão editorial assistida",
+      "reviewedAt": "2026-10-23"
+    },
+    {
+      "url": "https://rawgraphs.io/",
+      "status": "approved",
+      "officialUrl": "https://rawgraphs.io/",
+      "reason": "RAWGraphs verificado pelo README oficial em https://github.com/rawgraphs/rawgraphs-app ; aprovação no manifesto. Timeout no site principal registrado como limite de acesso desta sessão.",
+      "reviewedBy": "Radar PLOT — revisão editorial assistida",
+      "reviewedAt": "2026-10-23"
+    },
+    {
+      "url": "https://bellingcat.gitbook.io/toolkit",
+      "status": "duplicate",
+      "officialUrl": "https://www.bellingcat.com/resources/2024/09/24/bellingcat-online-investigations-toolkit/",
+      "reason": "Página primária do toolkit liga explicitamente ao artigo já catalogado sob bellingcat-online-investigations-toolkit; são duas entradas para o mesmo recurso, sem nova publicação.",
+      "reviewedBy": "Radar PLOT — revisão editorial assistida",
+      "reviewedAt": "2026-10-23"
+    },
+    {
+      "url": "https://meta.wikimedia.org/wiki/User:Hedonil/XTools",
+      "status": "duplicate",
+      "officialUrl": "https://xtools.wmcloud.org/",
+      "reason": "Página primária Meta-Wiki é um redirecionamento interwiki para XTools/PageInfo; o conjunto XTools já está catalogado sob wikimedia-xtools. Preservar como referência sem criar registro duplicado.",
+      "reviewedBy": "Radar PLOT — revisão editorial assistida",
+      "reviewedAt": "2026-10-23"
     }
   ]
 }

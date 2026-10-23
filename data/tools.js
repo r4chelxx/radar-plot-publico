@@ -1,6 +1,22 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.tools=[
 {
+  "id": "h3-geospatial-index",
+  "name": "H3 — índice geoespacial hierárquico",
+  "kind": "indexação e agregação geoespacial",
+  "url": "https://h3geo.org/",
+  "desc": "Biblioteca aberta para agrupar coordenadas em células e cruzar bases geográficas em diferentes resoluções. Possui implementações para linguagens como Python e JavaScript. Exige programação; a hierarquia oferece contenção lógica exata, mas contenção geométrica aproximada entre resoluções. Para limites territoriais exatos, complementar com verificações ponto-em-polígono.",
+  "discoveryUrl": "https://h3geo.org/docs/"
+},
+{
+  "id": "rawgraphs",
+  "name": "RAWGraphs",
+  "kind": "visualização de dados e exportação vetorial",
+  "url": "https://rawgraphs.io/",
+  "desc": "Ferramenta aberta para transformar dados tabulares em visualizações exportáveis em SVG e refináveis em editores vetoriais. Segundo o projeto, os dados inseridos são processados no navegador; também pode ser executada localmente. Requer revisão da qualidade dos dados e das escolhas gráficas; não substitui limpeza, análise estatística ou avaliação de acessibilidade.",
+  "discoveryUrl": "https://rawgraphs.io/"
+}, 
+{
   "id": "rji-chalkbeat-source-auditing-tool",
   "name": "RJI + Chalkbeat — Source Auditing Tool",
   "kind": "auditoria de diversidade de fontes jornalísticas",

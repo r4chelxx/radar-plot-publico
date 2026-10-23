@@ -1,5 +1,21 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
+{
+  "date": "2026-10-23",
+  "type": "ferramentas",
+  "title": "Publicação editorial verificada — 2026-10-23",
+  "items": [
+    {
+      "id": "h3-geospatial-index",
+      "title": "H3 — índice geoespacial hierárquico"
+    },
+    {
+      "id": "rawgraphs",
+      "title": "RAWGraphs"
+    }
+  ],
+  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: H3 — índice geoespacial hierárquico; RAWGraphs."
+}, 
   {
     "date": "2026-10-23",
     "type": "dados",
