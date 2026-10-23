@@ -1,0 +1,26 @@
+name: Daily updates mobile regression
+on:
+  pull_request:
+    paths:
+      - 'app.js'
+      - 'styles.css'
+      - 'index.html'
+      - 'data/changelog.js'
+      - 'data/tools.js'
+      - 'tests/daily-updates-mobile.test.js'
+      - '.github/workflows/daily-updates-ui-test.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  daily-updates:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Check application JavaScript syntax
+        run: node --check app.js
+      - name: Test mobile daily updates and individual record summaries
+        run: node --test tests/daily-updates-mobile.test.js
