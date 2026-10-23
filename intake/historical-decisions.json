@@ -107,9 +107,9 @@
     },
     {
       "url": "https://apidadosabertos.saude.gov.br/",
-      "status": "duplicate",
+      "status": "rejected",
       "officialUrl": "https://apidadosabertos.saude.gov.br/",
-      "reason": "Portal oficial de API do Ministério da Saúde já consta do catálogo de bases do Radar, incluindo o mesmo domínio e escopo. Não republicar como nova base sem dados ou endpoints específicos.",
+      "reason": "Portal geral de documentação de APIs do Ministério da Saúde, sem seleção de dataset ou endpoint específico. O Radar já cataloga bases de saúde individualizadas; este link genérico serve como fonte de descoberta, não como registro de base independente.",
       "reviewedBy": "Radar PLOT — revisão editorial assistida",
       "reviewedAt": "2026-10-23"
     },
