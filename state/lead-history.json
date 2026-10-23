@@ -501,12 +501,16 @@
       "firstSeen": "2026-10-11T12:00:43.913Z",
       "lastSeen": "2026-10-15T15:17:31.649Z",
       "seenCount": 4,
-      "editorialStatus": "unverified",
+      "editorialStatus": "rejected",
       "lastInspectedAt": "2026-10-23T15:20:32.627Z",
       "pageStatus": "html-fetched",
       "inspectionCount": 1,
       "lastEditorialQueuedAt": "2026-10-23T17:55:51.868Z",
-      "editorialQueueCount": 1
+      "editorialQueueCount": 1,
+      "reviewedAt": "2026-10-23",
+      "reviewedBy": "Radar PLOT — triagem editorial assistida",
+      "decisionReason": "Página institucional 'About' do Portal de Dados Abertos do Serviço Florestal Brasileiro; não é uma base individual com escopo, cobertura e limitações. Manter o portal como fonte para futuras bases específicas.",
+      "editorialEvidence": "https://dados.florestal.gov.br/about"
     },
     "364dc52376831971b5bf063139e7d0aa3ec288e6a0bee921001a81f2bb255911": {
       "url": "https://www.gov.br/conecta/catalogo/apis/api-portal-de-dados-abertos",
@@ -533,12 +537,16 @@
       "firstSeen": "2026-10-11T12:00:43.913Z",
       "lastSeen": "2026-10-15T15:17:31.649Z",
       "seenCount": 4,
-      "editorialStatus": "unverified",
+      "editorialStatus": "in-review",
       "lastInspectedAt": "2026-10-23T15:20:32.627Z",
       "pageStatus": "html-fetched",
       "inspectionCount": 1,
       "lastEditorialQueuedAt": "2026-10-23T17:55:51.868Z",
-      "editorialQueueCount": 1
+      "editorialQueueCount": 1,
+      "reviewedAt": "2026-10-23",
+      "reviewedBy": "Radar PLOT — triagem editorial assistida",
+      "decisionReason": "API governamental sobre projetos com financiamento externo, potencial fonte para apurações de financiamento público. O coletor classificou como oportunidade, mas é recurso de dados; verificar acesso, documentação, cobertura e duplicidade antes de eventual inclusão como base.",
+      "editorialEvidence": "https://www.gov.br/conecta/catalogo/apis/cofiex"
     },
     "bc740c785012fa580e1d9c841108b1234e9a3d4c6fabb61b4395d923a4a3af5b": {
       "url": "https://www.gov.br/conecta/catalogo/apis/siconfi-extratos-das-declaracoes-contabeis",
@@ -549,12 +557,16 @@
       "firstSeen": "2026-10-11T12:00:43.913Z",
       "lastSeen": "2026-10-15T15:17:31.649Z",
       "seenCount": 4,
-      "editorialStatus": "unverified",
+      "editorialStatus": "duplicate",
       "lastInspectedAt": "2026-10-23T15:20:32.627Z",
       "pageStatus": "html-fetched",
       "inspectionCount": 1,
       "lastEditorialQueuedAt": "2026-10-23T17:55:51.868Z",
-      "editorialQueueCount": 1
+      "editorialQueueCount": 1,
+      "reviewedAt": "2026-10-23",
+      "reviewedBy": "Radar PLOT — triagem editorial assistida",
+      "decisionReason": "A API SICONFI foi confirmada no catálogo oficial do governo, mas o Radar já publica a base Siconfi — Finanças públicas dos entes (id siconfi) no catálogo de datasets, com cobertura, granularidade, API e limitações. Evitar duplicação do mesmo sistema; guardar o link da API como fonte complementar.",
+      "editorialEvidence": "https://siconfi.tesouro.gov.br/"
     },
     "e8d1848a47f41fc92f917242636907557346b7d1180dd889c55d76a5d8b33e3c": {
       "url": "https://opencorporates.com/info/our-data",
@@ -627,12 +639,16 @@
       "firstSeen": "2026-10-11T12:00:43.913Z",
       "lastSeen": "2026-10-16T14:59:17.726Z",
       "seenCount": 6,
-      "editorialStatus": "unverified",
+      "editorialStatus": "duplicate",
       "lastInspectedAt": "2026-10-23T15:20:32.627Z",
       "pageStatus": "html-fetched",
       "inspectionCount": 1,
       "lastEditorialQueuedAt": "2026-10-23T17:55:51.868Z",
-      "editorialQueueCount": 1
+      "editorialQueueCount": 1,
+      "reviewedAt": "2026-10-23",
+      "reviewedBy": "Radar PLOT — triagem editorial assistida",
+      "decisionReason": "Fonte primária Bellingcat confirma Turnstone e ressalvas de ADS-B/MLAT e acesso seletivo; o Radar já possui ferramenta bellingcat-turnstone com o mesmo artigo oficial, código-fonte, acesso e limitações. Não republicar duplicata.",
+      "editorialEvidence": "https://www.bellingcat.com/resources/2026/03/05/turnstone-flight-tracking-tool/"
     },
     "69f45a6d12d19e9e33355c6545d76b0d4bd750c4892213448608bf4c871b19da": {
       "url": "https://www.bellingcat.com/resources/2025/08/13/the-open-source-tool-that-has-preserved-150000-pieces-of-online-evidence",
@@ -837,12 +853,16 @@
       "firstSeen": "2026-10-11T12:00:43.913Z",
       "lastSeen": "2026-10-16T14:59:17.726Z",
       "seenCount": 4,
-      "editorialStatus": "unverified",
+      "editorialStatus": "rejected",
       "lastInspectedAt": "2026-10-23T15:20:32.627Z",
       "pageStatus": "html-fetched",
       "inspectionCount": 1,
       "lastEditorialQueuedAt": "2026-10-23T17:55:51.868Z",
-      "editorialQueueCount": 1
+      "editorialQueueCount": 1,
+      "reviewedAt": "2026-10-23",
+      "reviewedBy": "Radar PLOT — triagem editorial assistida",
+      "decisionReason": "Avisos de leilões de mercadorias da Receita Federal; o coletor classificou como oportunidade, mas não se trata de financiamento, bolsa, fellowship ou edital para jornalistas.",
+      "editorialEvidence": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/licitacoes-e-contratos/avisos-de-edital-de-leilao"
     },
     "504089496e25001f03d585f33ce9f0f3082e9ce9b7a2d3c72abf150baa6197a5": {
       "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/dados-abertos",
@@ -987,10 +1007,14 @@
       "firstSeen": "2026-10-11T22:54:27.583Z",
       "lastSeen": "2026-10-11T22:54:27.583Z",
       "seenCount": 1,
-      "editorialStatus": "unverified",
+      "editorialStatus": "rejected",
       "lastInspectedAt": "2026-10-23T16:55:13.151Z",
       "pageStatus": "http-error",
-      "inspectionCount": 1
+      "inspectionCount": 1,
+      "reviewedAt": "2026-10-23",
+      "reviewedBy": "Radar PLOT — triagem editorial assistida",
+      "decisionReason": "Bolsa acadêmica de pós-doutorado em físico-química, com prazo indicado em 11/10/2026; fora do escopo de oportunidades jornalísticas e já encerrada na data da revisão.",
+      "editorialEvidence": "https://fapesp.br/oportunidades/microestrutura-e-propriedades-de-materiais-hibridos-porosos/9871"
     },
     "b59bbb32825d222f0531b0190c4b40f1918a496f45c6cfd4bf9973e9a2018633": {
       "url": "https://fapesp.br/oportunidades/influencia-da-matriz-na-conectividade-funcional-de-paisagens-de-cerrado/9843",
@@ -1015,10 +1039,14 @@
       "firstSeen": "2026-10-11T22:54:27.583Z",
       "lastSeen": "2026-10-11T22:54:27.583Z",
       "seenCount": 1,
-      "editorialStatus": "unverified",
+      "editorialStatus": "rejected",
       "lastInspectedAt": "2026-10-23T16:47:22.494Z",
       "pageStatus": "http-error",
-      "inspectionCount": 1
+      "inspectionCount": 1,
+      "reviewedAt": "2026-10-23",
+      "reviewedBy": "Radar PLOT — triagem editorial assistida",
+      "decisionReason": "Bolsa acadêmica de administração institucional da FAPESP; oportunidade de contratação científica, não bolsa de reportagem ou apoio a projeto jornalístico.",
+      "editorialEvidence": "https://fapesp.br/oportunidades/cepid-bridge:-gestao-de-ecossistemas-para-transicoes-sustentaveis/9850"
     },
     "5419557898cd92e66fca797eba99baaa4390f0f99575cc4ef7e0de3b9e6a2168": {
       "url": "https://fapesp.br/oportunidades/cepid-bridge:-gestao-de-ecossistemas-para-transicoes-sustentaveis/9851",
