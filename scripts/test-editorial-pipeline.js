@@ -14,7 +14,7 @@ try{
  assert(fs.readFileSync(path.join(root,'data','changelog.js'),'utf8').includes('example-verified-tool'));
  const second=JSON.parse(run('publish-approved.js',input));assert.equal(second.published,0);
  const workflow=fs.readFileSync(path.resolve('.github/workflows/editorial-publish.yml'),'utf8');
- assert(workflow.includes('push:\\n    branches: [main]'));
+ assert(workflow.includes('  push:')&&workflow.includes('    branches: [main]'));
  assert(workflow.includes('intake/approved-publications.json'));
  assert(workflow.includes('cron: "0 14 * * *"'));
  manifest.approved[0].review.decision='pending';fs.writeFileSync(input,JSON.stringify(manifest));
