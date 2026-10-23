@@ -22,10 +22,19 @@ function fetch(target,redirects=0){
  const home=await fetch(url);
  assert.equal(home.status,200,'Public homepage must return HTTP 200');
  assert(home.body.includes('id="app"'),'Expected Radar application container');
- for(const asset of ['app.js','styles.css','data.js']){
-  const r=await fetch(new URL(asset,url).toString());
-  assert.equal(r.status,200,asset+' must return HTTP 200');
-  assert(r.body.length>100,asset+' unexpectedly empty');
+ // Check the assets actually referenced by the deployed HTML, including catalog partitions.
+ const publicBase=new URL(url);
+ const assets=[...home.body.matchAll(/(?:src|href)="([^"]+)"/g)]
+  .map(match=>new URL(match[1],publicBase))
+  .filter(target=>target.origin===publicBase.origin&&/\\.(?:js|css)$/.test(target.pathname));
+ const paths=[...new Set(assets.map(target=>target.pathname))];
+ for(const required of ['app.js','styles.css','data.js','data/opportunities.js','data/sources.js','data/tools.js']){
+  assert(paths.some(path=>path.endsWith('/'+required)),'Missing asset reference: '+required);
  }
- console.log(JSON.stringify({ok:true,checkedAt:new Date().toISOString(),url,checks:['homepage','app.js','styles.css','data.js']}));
+ for(const asset of assets){
+  const r=await fetch(asset.toString());
+  assert.equal(r.status,200,asset.pathname+' must return HTTP 200');
+  assert(r.body.length>100,asset.pathname+' unexpectedly empty');
+ }
+ console.log(JSON.stringify({ok:true,checkedAt:new Date().toISOString(),url,checks:['homepage',...paths]}));
 })().catch(e=>{console.error(JSON.stringify({ok:false,checkedAt:new Date().toISOString(),url,error:e.message}));process.exitCode=1;});
