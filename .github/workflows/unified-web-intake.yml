@@ -14,6 +14,8 @@ on:
       - 'scripts/sample-editorial-review.js'
       - 'scripts/export-editorial-review.js'
       - 'scripts/merge-editorial-queue.js'
+      - 'scripts/check-operational-state.js'
+      - 'tests/operational-state.test.js'
       - 'tests/editorial-queue-reconcile.test.js'
       - 'scripts/test-editorial-pipeline.js'
       - 'scripts/publish-approved.js'
@@ -52,6 +54,8 @@ jobs:
         run: node --test tests/discovery-operations.test.js
       - name: Test editorial queue reconciliation
         run: node --test tests/editorial-queue-reconcile.test.js
+      - name: Test operational editorial state reconciliation
+        run: node --test tests/operational-state.test.js
       - name: Test editorial publication safeguards
         run: |
           node scripts/test-editorial-pipeline.js

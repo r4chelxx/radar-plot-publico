@@ -9,6 +9,10 @@ on:
       - 'styles.css'
       - 'tests/public-health.test.js'
       - 'scripts/check-public-health.js'
+      - 'scripts/check-operational-state.js'
+      - 'tests/operational-state.test.js'
+      - 'scripts/verify-published-records.js'
+      - 'intake/approved-publications.json'
       - '.github/workflows/public-health.yml'
   workflow_dispatch:
   schedule:
@@ -26,8 +30,25 @@ jobs:
           node-version: '22'
       - name: Test public health failure detection
         run: node --test tests/public-health.test.js
+      - name: Test daily editorial state consistency
+        run: node --test tests/operational-state.test.js
       - name: Check deployed public site and assets
         run: node scripts/check-public-health.js
+      - name: Verify approved catalog records actually reached public deployment
+        env:
+          RADAR_DEPLOY_RETRIES: '2'
+          RADAR_DEPLOY_DELAY_MS: '1000'
+        run: node scripts/verify-published-records.js
+      - name: Download latest persisted public discovery state
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/radar-operational
+          gh api "repos/${GITHUB_REPOSITORY}/contents/intake/editorial-queue.json?ref=radar-state" --jq .content | base64 --decode > /tmp/radar-operational/queue.json
+          gh api "repos/${GITHUB_REPOSITORY}/contents/state/lead-history.json?ref=radar-state" --jq .content | base64 --decode > /tmp/radar-operational/history.json
+      - name: Confirm reviewed leads are not reopened in daily queue
+        run: node scripts/check-operational-state.js /tmp/radar-operational/queue.json /tmp/radar-operational/history.json intake/historical-decisions.json
       - name: Record health result
         if: always()
         run: echo "Public Radar health check result: ${{ job.status }}" >> "$GITHUB_STEP_SUMMARY"
