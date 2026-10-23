@@ -32,6 +32,62 @@
       "status": "rejected",
       "officialUrl": "https://www.mediawiki.org/w/index.php",
       "reason": "Endereço genérico de entrada do MediaWiki sem parâmetros do artigo original; não representa uma ferramenta específica verificável nem conteúdo autônomo apropriado ao catálogo."
+    },
+    {
+      "reviewedBy": "Radar PLOT — triagem editorial assistida",
+      "reviewedAt": "2026-10-23",
+      "url": "https://dados.florestal.gov.br/about",
+      "status": "rejected",
+      "officialUrl": "https://dados.florestal.gov.br/about",
+      "reason": "Página institucional 'About' do Portal de Dados Abertos do Serviço Florestal Brasileiro; não é uma base individual com escopo, cobertura e limitações. Manter o portal como fonte para futuras bases específicas."
+    },
+    {
+      "reviewedBy": "Radar PLOT — triagem editorial assistida",
+      "reviewedAt": "2026-10-23",
+      "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/licitacoes-e-contratos/avisos-de-edital-de-leilao",
+      "status": "rejected",
+      "officialUrl": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/licitacoes-e-contratos/avisos-de-edital-de-leilao",
+      "reason": "Avisos de leilões de mercadorias da Receita Federal; o coletor classificou como oportunidade, mas não se trata de financiamento, bolsa, fellowship ou edital para jornalistas."
+    },
+    {
+      "reviewedBy": "Radar PLOT — triagem editorial assistida",
+      "reviewedAt": "2026-10-23",
+      "url": "https://fapesp.br/oportunidades/microestrutura-e-propriedades-de-materiais-hibridos-porosos/9871",
+      "status": "rejected",
+      "officialUrl": "https://fapesp.br/oportunidades/microestrutura-e-propriedades-de-materiais-hibridos-porosos/9871",
+      "reason": "Bolsa acadêmica de pós-doutorado em físico-química, com prazo indicado em 11/10/2026; fora do escopo de oportunidades jornalísticas e já encerrada na data da revisão."
+    },
+    {
+      "reviewedBy": "Radar PLOT — triagem editorial assistida",
+      "reviewedAt": "2026-10-23",
+      "url": "https://fapesp.br/oportunidades/cepid-bridge:-gestao-de-ecossistemas-para-transicoes-sustentaveis/9850",
+      "status": "rejected",
+      "officialUrl": "https://fapesp.br/oportunidades/cepid-bridge:-gestao-de-ecossistemas-para-transicoes-sustentaveis/9850",
+      "reason": "Bolsa acadêmica de administração institucional da FAPESP; oportunidade de contratação científica, não bolsa de reportagem ou apoio a projeto jornalístico."
+    },
+    {
+      "reviewedBy": "Radar PLOT — triagem editorial assistida",
+      "reviewedAt": "2026-10-23",
+      "url": "https://www.gov.br/conecta/catalogo/apis/cofiex",
+      "status": "in-review",
+      "officialUrl": "https://www.gov.br/conecta/catalogo/apis/cofiex",
+      "reason": "API governamental sobre projetos com financiamento externo, potencial fonte para apurações de financiamento público. O coletor classificou como oportunidade, mas é recurso de dados; verificar acesso, documentação, cobertura e duplicidade antes de eventual inclusão como base."
+    },
+    {
+      "reviewedBy": "Radar PLOT — triagem editorial assistida",
+      "reviewedAt": "2026-10-23",
+      "url": "https://www.gov.br/conecta/catalogo/apis/siconfi-extratos-das-declaracoes-contabeis",
+      "status": "in-review",
+      "officialUrl": "https://www.gov.br/conecta/catalogo/apis/siconfi-extratos-das-declaracoes-contabeis",
+      "reason": "API do SICONFI sobre extratos de declarações contábeis e fiscais, potencial fonte para jornalismo de dados. Exige verificação da documentação oficial, endpoint operacional, cobertura e eventual duplicidade; não aprovada para publicação."
+    },
+    {
+      "reviewedBy": "Radar PLOT — triagem editorial assistida",
+      "reviewedAt": "2026-10-23",
+      "url": "https://www.bellingcat.com/resources/2026/03/05/turnstone-flight-tracking-tool",
+      "status": "in-review",
+      "officialUrl": "https://www.bellingcat.com/resources/2026/03/05/turnstone-flight-tracking-tool",
+      "reason": "Artigo do Bellingcat sobre ferramenta de rastreamento histórico e espacial de voos. É necessário confirmar a ferramenta original, disponibilidade, funcionalidades, licenças e limitações antes de incluir no catálogo."
     }
   ]
 }
