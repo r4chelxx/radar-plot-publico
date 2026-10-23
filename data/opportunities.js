@@ -405,8 +405,19 @@ window.RADAR_PARTS.opportunities=[
       "Disponibilidade para entrevistas e mentorias em horários úteis dos EUA"
     ],
     "opens": null,
-    "verificationHistory": [],
-    "verified": "2026-10-19",
+    "verificationHistory": [
+      {
+        "date": "2026-09-25",
+        "status": "aberta",
+        "source": "https://www.theopennotebook.com/early-career-fellowship-program/"
+      },
+      {
+        "date": "2026-10-02",
+        "status": "aberta",
+        "source": "https://www.theopennotebook.com/early-career-fellowship-program/"
+      }
+    ],
+    "verified": "2026-10-23",
     "id": "the-open-notebook-early-career-2027",
     "title": "The Open Notebook — Early-Career Fellowship 2027",
     "org": "The Open Notebook / Burroughs Wellcome Fund",
@@ -1791,7 +1802,8 @@ window.RADAR_PARTS.opportunities=[
       "mínimo de 3 anos de experiência",
       "fluência em inglês",
       "reuniões em horário diurno do fuso leste",
-      "uso de IA proibido na proposta e candidatura"
+      "uso de IA proibido na proposta e candidatura",
+      "Prazo: 08/11/2026 às 23h EST como limite conservador; a página oficial também informa meia-noite EST, sem esclarecer a divergência"
     ],
     "opens": null,
     "verificationHistory": [
@@ -3004,50 +3016,6 @@ window.RADAR_PARTS.opportunities=[
     "apply": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/machine-learning-reporting-grants",
     "verified": "2026-10-02",
     "desc": "Grant para investigações que usem aprendizado de máquina, análise geoespacial ou outras técnicas computacionais."
-  },
-  {
-    "value": "US$6.600",
-    "duration": "12 meses",
-    "modality": "Remota · part-time",
-    "documents": [],
-    "restrictions": [
-      "voltada a pessoas em início de carreira em jornalismo científico",
-      "candidatos internacionais são aceitos"
-    ],
-    "opens": null,
-    "verificationHistory": [
-      {
-        "date": "2026-09-25",
-        "status": "aberta",
-        "source": "https://www.theopennotebook.com/early-career-fellowship-program/"
-      },
-      {
-        "date": "2026-10-02",
-        "status": "aberta",
-        "source": "https://www.theopennotebook.com/early-career-fellowship-program/"
-      }
-    ],
-    "id": "ton-2027",
-    "summary": "Fellowship remota de jornalismo científico voltada a profissionais em início de trajetória na área.",
-    "title": "Early-Career Fellowship 2027",
-    "org": "The Open Notebook",
-    "type": "Fellowship",
-    "themes": [
-      "Ciência",
-      "Saúde",
-      "Ambiente",
-      "Formação"
-    ],
-    "scope": "Internacional / remoto",
-    "deadline": "2026-10-31",
-    "deadlineStatus": "confirmado",
-    "eligibility": "elegível",
-    "fit": 7.5,
-    "status": "aberta",
-    "rules": "https://www.theopennotebook.com/early-career-fellowship-program/",
-    "apply": "https://www.theopennotebook.com/early-career-fellowship-program/",
-    "verified": "2026-10-02",
-    "desc": "Fellowship remota e part-time de 12 meses para início de carreira em jornalismo científico. Aceita candidatos internacionais, paga US$6.600 e recebe inscrições até 31/10/2026. O programa combina mentoring e produção editorial para The Open Notebook."
   },
   {
     "value": null,
