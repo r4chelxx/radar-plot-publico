@@ -6,13 +6,35 @@ import identityModule from './lead-identity.js';
 const {canonical}=identityModule;
 // Removed Journalism.co.uk endpoint after repeatable HTTP 404; retain source in catalog for manual review.
 const feeds=[
- {name:'GIJN',url:'https://gijn.org/feed/'},
+ {name:'GIJN',url:'https://gijn.org/feed/',fallback:'https://gijn.org/'},
  {name:'Data Is Plural',url:'https://www.data-is-plural.com/feed.xml'},
  {name:'Nieman Lab',url:'https://www.niemanlab.org/feed/'},
- {name:'The Fix Media',url:'https://thefix.media/feed/'}
+ {name:'The Fix Media',url:'https://thefix.media/feed/',fallback:'https://thefix.media/'}
 ];
 const decode=s=>String(s||'').replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g,'$1').replace(/<[^>]*>/g,' ').replace(/&amp;/g,'&').replace(/&quot;/g,'"').replace(/&#39;/g,"'").trim();
 const pick=(xml,tag)=>{const m=xml.match(new RegExp('<(?:[\\w-]+:)?'+tag+'(?:\\s[^>]*)?>([\\s\\S]*?)<\\/(?:[\\w-]+:)?'+tag+'>','i'));return m?decode(m[1]):''};
+// Official publisher homepage fallback only when RSS is blocked or missing.
+const relevant=/(?:grant|fellowship|scholarship|funding|call for|open call|job opening|tool|dataset|database|open data|bolsa|edital|financiamento|ferramenta|research)/i;
+async function homepageFallback(feed){
+ const r=await fetch(feed.fallback,{signal:AbortSignal.timeout(12000),headers:{'user-agent':'Radar-PLOT-Discovery/1.0','accept':'text/html'}});
+ if(!r.ok)throw Error('Homepage HTTP '+r.status);
+ const html=(await r.text()).slice(0,1000000),found=[];
+ const host=new URL(feed.fallback).hostname.replace(/^www\\./,'');
+ for(const m of html.matchAll(/<a\\b([^>]*?)>([\\s\\S]*?)<\\/a>/gi)){
+  const href=m[1].match(/\\bhref\\s*=\\s*["']([^"']+)["']/i)?.[1];
+  if(!href)continue;
+  const title=decode(m[2]).replace(/\\s+/g,' ').slice(0,220);
+  if(title.length<12||!relevant.test(title))continue;
+  try{
+   const u=new URL(href,feed.fallback);
+   if(u.hostname.replace(/^www\\./,'')!==host)continue;
+   const url=canonical(u.toString());
+   if(!found.some(x=>x.url===url))found.push({url,title,category:'uncategorized',sourceName:feed.name});
+  }catch{}
+  if(found.length>=40)break;
+ }
+ return found;
+}
 const leads=[],health=[];
 for(const feed of feeds){
  try{
@@ -29,7 +51,17 @@ for(const feed of feeds){
    try{leads.push({url:canonical(raw),title,category:'uncategorized',sourceName:feed.name});count++}catch{}
   }
   health.push({source:feed.name,status:'ok',items:count});
- }catch(e){health.push({source:feed.name,status:'error',reason:String(e.message||e).slice(0,160),items:0})}
+ }catch(e){
+  if(feed.fallback){
+   try{
+    const found=await homepageFallback(feed);
+    leads.push(...found);
+    health.push({source:feed.name,status:'ok',mode:'official-homepage-fallback',items:found.length,feedError:String(e.message||e).slice(0,120)});
+   }catch(fallbackError){
+    health.push({source:feed.name,status:'error',reason:'Feed: '+String(e.message||e).slice(0,75)+'; homepage: '+String(fallbackError.message||fallbackError).slice(0,75),items:0});
+   }
+  }else health.push({source:feed.name,status:'error',reason:String(e.message||e).slice(0,160),items:0});
+ }
 }
 const seen=new Set(),unique=leads.filter(x=>{if(seen.has(x.url))return false;seen.add(x.url);return true});
 fs.mkdirSync('intake',{recursive:true});
