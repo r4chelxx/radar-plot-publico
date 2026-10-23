@@ -3,11 +3,25 @@ const fs=require('node:fs');
 const read=name=>JSON.parse(fs.readFileSync('intake/'+name,'utf8'));
 const intake=read('source-review.json'),triage=read('candidate-triage.json'),review=read('editorial-review.json'),history=read('lead-history-delta.json');
 const coverage=intake.coverage||{},s=history.summary||{};
+const state=read('lead-history-next.json'),leads=Object.values(state.leads||{});
+const historical=leads.filter(x=>x.classification==='needs-editorial-review');
+const visited=historical.filter(x=>x.lastInspectedAt).length;
+const reviewed=historical.filter(x=>x.reviewedAt).length;
+const approved=historical.filter(x=>x.editorialStatus==='approved').length;
+const published=historical.filter(x=>x.editorialStatus==='published').length;
 const persistent=['schedule','workflow_dispatch','push'].includes(process.env.GITHUB_EVENT_NAME) && process.env.GITHUB_REF==='refs/heads/main';
 const rows=[
  '# Radar PLOT — relatório de descoberta',
  '',
  '| Indicador | Resultado |','|---|---:|',
+ '| Total histórico persistido | '+leads.length+' |',
+ '| Pendências históricas classificadas para revisão | '+historical.length+' |',
+ '| Links históricos com inspeção técnica registrada | '+visited+' |',
+ '| Links históricos ainda sem inspeção técnica | '+(historical.length-visited)+' |',
+ '| Inspeções técnicas realizadas nesta rodada | '+(s.inspectedHistorical??0)+' |',
+ '| Links com decisão editorial registrada | '+reviewed+' |',
+ '| Links aprovados no histórico | '+approved+' |',
+ '| Links publicados com confirmação no histórico | '+published+' |',
  '| Fontes consultadas nesta rodada | '+(coverage.checked??(intake.results||[]).length)+' |',
  '| Fontes cadastradas | '+(coverage.totalSources??'não informado')+' |',
  '| Links temáticos encontrados | '+(triage.summary?.linkLeads??0)+' |',
@@ -28,7 +42,7 @@ const rows=[
  persistent?'**Persistência:** gravação programada em job separado; confirmar sucesso do job persist.':'**Persistência:** não gravada (execução de teste/PR).',
  !s.stateLoaded?'**Atenção:** não foi carregado histórico anterior; “inédito” significa apenas novo para esta execução.':'Histórico anterior carregado para comparação.',
  '',
- '**Verificação editorial:** nenhuma oportunidade foi automaticamente aprovada ou publicada.',
+ '**Verificação editorial:** inspeção técnica não equivale a aprovação. As decisões registradas exigem evidências explícitas.',
  '**Próxima ação:** revisar os candidatos priorizados no artefato editorial-review.json; confirmar fonte primária, escopo, prazo, elegibilidade e duplicatas antes de qualquer inclusão no catálogo.',
  'Menções a datas não equivalem a prazos confirmados. As candidaturas exigem checagem de fonte primária, prazo, elegibilidade e duplicatas.',
  ''
