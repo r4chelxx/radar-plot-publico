@@ -2,7 +2,7 @@ name: Publish approved editorial records
 on:
   workflow_dispatch:
   schedule:
-    - cron: "30 14 * * *"
+    - cron: "30 13 * * *"
 concurrency:
   group: radar-editorial-publish
   cancel-in-progress: false
