@@ -1,0 +1,31 @@
+name: Live public accessibility smoke
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 12 * * 1'
+permissions:
+  contents: read
+jobs:
+  public-accessibility:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install Playwright browser
+        run: |
+          npm install --no-save @playwright/test@1.56.1
+          npx playwright install --with-deps chromium
+      - name: Verify keyboard navigation and landmarks on deployed public site
+        env:
+          RADAR_LIVE_BASE_URL: https://r4chelxx.github.io/radar-plot-publico/
+        run: npx playwright test tests/accessibility-public.spec.cjs
+      - name: Save browser traces on failure
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: public-accessibility-traces
+          path: test-results/
+          retention-days: 7
