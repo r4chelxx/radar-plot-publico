@@ -95,6 +95,7 @@ jobs:
             git commit -m "Editorial: persist pending public candidates [skip ci]"
             git push origin radar-state
           fi
+          git switch -
       - name: Upload non-publishing discovery queue
         uses: actions/upload-artifact@v4
         with:
