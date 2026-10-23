@@ -7,7 +7,7 @@ const byUrl=new Map((evidence.results||[]).flatMap(x=>{try{return [[identity(x.u
 const historyPath='intake/lead-history-previous.json';
 const historical=fs.existsSync(historyPath)?Object.values(JSON.parse(fs.readFileSync(historyPath,'utf8')).leads||{}):[];
 const seen=new Set();
-const candidates=[...historical,...(triage.leads||[])].filter(x=>x.classification==='needs-editorial-review').filter(x=>{
+const candidates=[...historical,...(triage.leads||[])].filter(x=>x.classification==='needs-editorial-review'&&!['published','duplicate','rejected','archived'].includes(x.editorialStatus)).filter(x=>{
  if(typeof x.url!=='string'||!/^https?:\/\//i.test(x.url))return false;
  let key;
  try{key=identity(x.url).id}catch{return false}
