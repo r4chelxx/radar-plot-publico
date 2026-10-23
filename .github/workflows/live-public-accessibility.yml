@@ -1,5 +1,14 @@
 name: Live public accessibility smoke
 on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/live-public-accessibility.yml'
+      - 'tests/accessibility-public.spec.cjs'
+      - 'playwright.config.cjs'
+      - 'index.html'
+      - 'app.js'
+      - 'styles.css'
   workflow_dispatch:
   schedule:
     - cron: '0 12 * * 1'
@@ -18,6 +27,11 @@ jobs:
         run: |
           npm install --no-save @playwright/test@1.56.1
           npx playwright install --with-deps chromium
+      - name: Wait for current main revision on GitHub Pages
+        env:
+          RADAR_DEPLOY_RETRIES: '12'
+          RADAR_DEPLOY_DELAY_MS: '10000'
+        run: node scripts/check-deployed-revision.js
       - name: Verify keyboard navigation and landmarks on deployed public site
         env:
           RADAR_LIVE_BASE_URL: https://r4chelxx.github.io/radar-plot-publico/
