@@ -1,6 +1,11 @@
 name: Publish approved editorial records
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'intake/approved-publications.json'
+      - '.github/workflows/editorial-publish.yml'
   schedule:
     - cron: "0 14 * * *"
 concurrency:
