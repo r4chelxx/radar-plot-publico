@@ -26,7 +26,7 @@ function fetch(target,redirects=0){
  const publicBase=new URL(url);
  const assets=[...home.body.matchAll(/(?:src|href)="([^"]+)"/g)]
   .map(match=>new URL(match[1],publicBase))
-  .filter(target=>target.origin===publicBase.origin&&/\\.(?:js|css)$/.test(target.pathname));
+  .filter(target=>target.origin===publicBase.origin&&/\.(?:js|css)$/.test(target.pathname));
  const paths=[...new Set(assets.map(target=>target.pathname))];
  for(const required of ['app.js','styles.css','data.js','data/opportunities.js','data/sources.js','data/tools.js']){
   assert(paths.some(path=>path.endsWith('/'+required)),'Missing asset reference: '+required);
