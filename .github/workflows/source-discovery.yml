@@ -60,7 +60,7 @@ on:
 permissions:
   contents: read
 concurrency:
-  group: radar-source-discovery-${{ github.ref }}
+  group: ${{ github.event_name == 'pull_request' && format('radar-source-pr-{0}', github.event.pull_request.number) || 'radar-state-writers' }}
   cancel-in-progress: false
 jobs:
   discover:
