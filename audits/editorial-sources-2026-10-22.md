@@ -319,3 +319,8 @@ Commit `78ee943`: Validate Radar data, Unified public web intake, Browser regres
 ## Lotes 49–50 — pré-encerramento técnico (23/10/2026)
 
 No commit `7328adf`, Validate Radar data, Browser regression tests, Radar source discovery e Unified public web intake passaram. `Audit Radar links` run `39927934478` estava em progresso na consulta; não declarar aprovação antes de sua conclusão. Histórico remoto `radar-state` ainda registra 197 leads, `updatedAt=2026-10-22T15:27:29.440Z`. `dc2aba1` incluiu `scripts/check-source-alternatives.js` também nos gatilhos de PR (já estava em push), para garantir CI quando o diagnóstico mudar. A verificação real do job `persist` em `main` requer um run da branch principal e seus logs; não executar gravação de histórico pelo PR. Fechamento condicionado à conclusão da auditoria de links e confirmação de persistência na main. Catálogo e publicação preservados.
+
+
+## Lote 51 — suíte completa aprovada (23/10/2026)
+
+Commit `12c2318`: cinco workflows concluídos com sucesso: Validate Radar data (`39928450400`), Unified public web intake (`39928450454`), Browser regression tests (`39928450406`), Radar source discovery (`39928450421`) e Audit Radar links (`39928450415`). No run de descoberta, `discover=success`, `persist=skipped` como esperado para PR. Artefato `source-intake-39928450421`, ID `12490272280`. O workflow da `main` contém `schedule` 10:30 UTC e passos de persistência e verificação, mas isso não demonstra que foram executados. Branch `radar-state` continua com 197 leads, atualização `2026-10-22T15:27:29.440Z`. Não liberar merge nem afirmar persistência na `main` sem observar execução com `persist=success`. Nenhuma publicação realizada.
