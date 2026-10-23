@@ -21,6 +21,7 @@ on:
       - 'intake/approved-publications.json'
       - '.github/workflows/editorial-publish.yml'
       - 'scripts/report-discovery-operations.js'
+      - 'tests/discovery-operations.test.js'
       - 'scripts/summarize-discovery.js'
       - 'data/sources.js'
       - '.github/workflows/unified-web-intake.yml'
@@ -42,6 +43,8 @@ jobs:
           node-version: "22"
       - name: Test web intake safeguards
         run: node scripts/test-web-intake.js
+      - name: Test daily discovery source health reporting
+        run: node --test tests/discovery-operations.test.js
       - name: Test editorial publication safeguards
         run: |
           node scripts/test-editorial-pipeline.js
