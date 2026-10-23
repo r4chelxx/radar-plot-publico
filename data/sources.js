@@ -1,6 +1,18 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.sources=[
   {
+    "name": "Portal de Dados Abertos da Paraíba",
+    "url": "https://dados.pb.gov.br/",
+    "type": "Catálogo oficial CKAN e API estadual de dados abertos",
+    "scope": "Paraíba",
+    "role": "descoberta e verificação de bases estaduais sobre orçamento, compras, convênios, despesas, receitas, pessoal e saúde",
+    "priority": "Alta",
+    "cadence": "mensal",
+    "category": "dados/transparência",
+    "lastChecked": "2026-10-23",
+    "checkStatus": "verificada"
+  },
+  {
     "name": "Copernicus Climate Data Store",
     "url": "https://cds.climate.copernicus.eu/",
     "type": "Catálogo oficial de dados climáticos, reanálises, indicadores e APIs",
@@ -249,7 +261,7 @@ window.RADAR_PARTS.sources=[
     "priority": "Alta",
     "cadence": "diária",
     "category": "oportunidades/jornalismo",
-    "lastChecked": "2026-10-19",
+    "lastChecked": "2026-10-23",
     "checkStatus": "verificada"
   },
   {
@@ -297,7 +309,7 @@ window.RADAR_PARTS.sources=[
     "priority": "Alta",
     "cadence": "diária",
     "category": "oportunidades/jornalismo",
-    "lastChecked": "2026-10-19",
+    "lastChecked": "2026-10-23",
     "checkStatus": "verificada"
   },
   {
@@ -489,7 +501,7 @@ window.RADAR_PARTS.sources=[
     "priority": "Alta",
     "cadence": "diária",
     "category": "oportunidades/jornalismo",
-    "lastChecked": "2026-10-19",
+    "lastChecked": "2026-10-23",
     "checkStatus": "pendente de auditoria"
   },
   {
@@ -645,7 +657,7 @@ window.RADAR_PARTS.sources=[
     "priority": "Alta",
     "cadence": "diária",
     "category": "oportunidades",
-    "lastChecked": "2026-10-19",
+    "lastChecked": "2026-10-23",
     "checkStatus": "verificada"
   },
   {
@@ -681,7 +693,7 @@ window.RADAR_PARTS.sources=[
     "priority": "Alta",
     "cadence": "diária",
     "category": "oportunidades",
-    "lastChecked": "2026-10-22",
+    "lastChecked": "2026-10-23",
     "checkStatus": "verificada"
   },
   {
@@ -693,7 +705,7 @@ window.RADAR_PARTS.sources=[
     "priority": "Alta",
     "cadence": "diária",
     "category": "oportunidades",
-    "lastChecked": "2026-10-19",
+    "lastChecked": "2026-10-23",
     "checkStatus": "verificada"
   },
   {
@@ -705,7 +717,7 @@ window.RADAR_PARTS.sources=[
     "priority": "Alta",
     "cadence": "diária",
     "category": "oportunidades",
-    "lastChecked": "2026-10-22",
+    "lastChecked": "2026-10-23",
     "checkStatus": "verificada"
   },
   {
@@ -861,7 +873,7 @@ window.RADAR_PARTS.sources=[
     "priority": "Alta",
     "cadence": "quinzenal",
     "category": "dados/visual",
-    "lastChecked": "2026-10-09",
+    "lastChecked": "2026-10-23",
     "checkStatus": "verificada"
   },
   {
@@ -957,7 +969,7 @@ window.RADAR_PARTS.sources=[
     "priority": "Alta",
     "cadence": "diária",
     "category": "oportunidades",
-    "lastChecked": "2026-10-19",
+    "lastChecked": "2026-10-23",
     "checkStatus": "verificada"
   },
   {
@@ -981,7 +993,7 @@ window.RADAR_PARTS.sources=[
     "priority": "Alta",
     "cadence": "diária",
     "category": "oportunidades",
-    "lastChecked": "2026-10-19",
+    "lastChecked": "2026-10-23",
     "checkStatus": "verificada"
   },
   {
@@ -993,7 +1005,7 @@ window.RADAR_PARTS.sources=[
     "priority": "Alta",
     "cadence": "diária",
     "category": "oportunidades",
-    "lastChecked": "2026-10-19",
+    "lastChecked": "2026-10-23",
     "checkStatus": "verificada"
   },
   {
@@ -1448,7 +1460,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://www.icfj.org/our-programs",
     "cadence": "diária",
     "category": "oportunidades",
-    "lastChecked": "2026-10-19",
+    "lastChecked": "2026-10-23",
     "checkStatus": "verificada"
   },
   {
@@ -1459,7 +1471,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://www.iwmf.org/",
     "cadence": "diária",
     "category": "oportunidades",
-    "lastChecked": "2026-10-19",
+    "lastChecked": "2026-10-23",
     "checkStatus": "verificada"
   },
   {
@@ -1470,7 +1482,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://www.journalismfund.eu/",
     "cadence": "quinzenal",
     "category": "oportunidades",
-    "lastChecked": "2026-10-09",
+    "lastChecked": "2026-10-23",
     "checkStatus": "verificada"
   },
   {
@@ -1481,7 +1493,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://ijnet.org/en/opportunities",
     "cadence": "diária",
     "category": "oportunidades",
-    "lastChecked": "2026-10-22",
+    "lastChecked": "2026-10-23",
     "checkStatus": "verificada"
   },
   {
@@ -1492,7 +1504,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://fundaciongabo.org/es/convocatorias",
     "cadence": "diária",
     "category": "oportunidades",
-    "lastChecked": "2026-10-19",
+    "lastChecked": "2026-10-23",
     "checkStatus": "verificada"
   },
   {
@@ -1503,7 +1515,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://reutersinstitute.politics.ox.ac.uk/",
     "cadence": "diária",
     "category": "oportunidades",
-    "lastChecked": "2026-10-19",
+    "lastChecked": "2026-10-23",
     "checkStatus": "verificada"
   },
   {
@@ -1559,7 +1571,7 @@ window.RADAR_PARTS.sources=[
     "cadence": "diária",
     "category": "dados/visual",
     "role": "Descobrir ferramentas e bases citadas nos guias e na biblioteca; confirmar URL, condições de acesso e documentação em cada site oficial. A biblioteca integral DVS Plus exige associação.",
-    "lastChecked": "2026-10-22",
+    "lastChecked": "2026-10-23",
     "checkStatus": "verificada"
   },
   {
@@ -1571,7 +1583,7 @@ window.RADAR_PARTS.sources=[
     "priority": "Alta",
     "cadence": "diária",
     "category": "dados/visual",
-    "lastChecked": "2026-10-22",
+    "lastChecked": "2026-10-23",
     "checkStatus": "verificada"
   },
   {
@@ -1748,7 +1760,7 @@ window.RADAR_PARTS.sources=[
     "url": null,
     "cadence": "diária",
     "category": "ecossistema/formação",
-    "lastChecked": "2026-10-22",
+    "lastChecked": "2026-10-23",
     "checkStatus": "verificada"
   },
   {
@@ -1836,7 +1848,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://fapesp.br/oportunidades/",
     "cadence": "diária",
     "category": "oportunidades",
-    "lastChecked": "2026-10-22",
+    "lastChecked": "2026-10-23",
     "checkStatus": "verificada"
   },
   {
@@ -2012,7 +2024,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://gijn.org/jobs",
     "cadence": "diária",
     "category": "dados/visual",
-    "lastChecked": "2026-10-22",
+    "lastChecked": "2026-10-23",
     "checkStatus": "verificada"
   },
   {
@@ -2023,7 +2035,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://gijn.org/rounduplink/",
     "cadence": "diária",
     "category": "oportunidades",
-    "lastChecked": "2026-10-22",
+    "lastChecked": "2026-10-23",
     "checkStatus": "verificada"
   },
   {
@@ -2034,7 +2046,7 @@ window.RADAR_PARTS.sources=[
     "url": "https://mediaparty.org/",
     "cadence": "semanal",
     "category": "dados/visual",
-    "lastChecked": "2026-10-15",
+    "lastChecked": "2026-10-23",
     "checkStatus": "verificada"
   },
   {
