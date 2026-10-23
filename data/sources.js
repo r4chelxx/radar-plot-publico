@@ -38,63 +38,63 @@ window.RADAR_PARTS.sources=[
   },
   {
     "name": "Prêmio Brasileiro de Jornalismo Investigativo — Abraji/TI",
-    "url": "https://abraji.org.br/",
+    "url": "https://congresso.abraji.org.br/noticia/21-congresso-da-abraji-reune-mais-de-17-mil-pessoas-e-debate-o-futuro-do-jornalismo",
     "type": "Prêmio e chamadas jornalísticas",
     "scope": "Brasil e internacional",
-    "role": "monitorar próximas edições; confirmar edital específico",
+    "role": "Prêmio lançado pela Abraji e Transparência Internacional para trabalhos publicados em 2026; aguardar regulamento e abertura oficial de inscrições",
     "priority": "Média",
     "cadence": "mensal",
     "category": "oportunidades/jornalismo",
-    "lastChecked": "2026-10-19",
-    "checkStatus": "pendente de auditoria"
+    "lastChecked": "2026-10-22",
+    "checkStatus": "verificada"
   },
   {
     "name": "Prêmio Jeduca de Jornalismo de Educação",
-    "url": "https://jeduca.org.br/",
+    "url": "https://jeduca.org.br/edital/",
     "type": "Prêmio e chamadas jornalísticas",
     "scope": "Brasil e internacional",
-    "role": "monitorar próximas edições; confirmar edital específico",
+    "role": "Edital de bolsas para reportagens sobre educação pública; categoria Jornalista 2026 encerrada e categoria Estudante prevista para novembro",
     "priority": "Média",
     "cadence": "mensal",
     "category": "oportunidades/jornalismo",
-    "lastChecked": "2026-10-19",
-    "checkStatus": "pendente de auditoria"
+    "lastChecked": "2026-10-22",
+    "checkStatus": "verificada"
   },
   {
     "name": "Prêmio Roche de Jornalismo em Saúde",
-    "url": "https://premiorochedeperiodismo.com/",
+    "url": "https://premiorochedeperiodismo.com/pt-br/bases-do-premio-roche-de-jornalismo-em-saude/",
     "type": "Prêmio e chamadas jornalísticas",
     "scope": "Brasil e internacional",
-    "role": "monitorar próximas edições; confirmar edital específico",
+    "role": "Prêmio Roche 2026 com inscrições encerradas em 11/05/2026; monitorar próxima edição",
     "priority": "Média",
     "cadence": "mensal",
     "category": "oportunidades/jornalismo",
-    "lastChecked": "2026-10-19",
-    "checkStatus": "pendente de auditoria"
+    "lastChecked": "2026-10-22",
+    "checkStatus": "verificada"
   },
   {
     "name": "One World Media Awards",
     "url": "https://oneworldmedia.org.uk/awards/",
     "type": "Prêmio e chamadas jornalísticas",
     "scope": "Brasil e internacional",
-    "role": "monitorar próximas edições; confirmar edital específico",
+    "role": "Premiação anual One World Media; monitorar edital de próxima edição, sem inscrições abertas confirmadas",
     "priority": "Média",
     "cadence": "mensal",
     "category": "oportunidades/jornalismo",
-    "lastChecked": "2026-10-19",
-    "checkStatus": "pendente de auditoria"
+    "lastChecked": "2026-10-22",
+    "checkStatus": "verificada"
   },
   {
     "name": "Fundación Gabo — Premio Roche",
-    "url": "https://premiorochedeperiodismo.com/",
+    "url": "https://premiorochedeperiodismo.com/pt-br/",
     "type": "Instituição promotora de prêmios, bolsas ou editais",
     "scope": "Brasil e internacional",
-    "role": "monitoramento de editais futuros; sem confirmação de abertura",
+    "role": "Referência à secretaria técnica do mesmo Prêmio Roche; não cadastrar como segunda oportunidade",
     "priority": "Média",
     "cadence": "mensal",
     "category": "oportunidades/jornalismo",
-    "lastChecked": "2026-10-19",
-    "checkStatus": "pendente de auditoria"
+    "lastChecked": "2026-10-22",
+    "checkStatus": "verificada"
   },
   {
     "name": "Prêmio Javier Valdez",
@@ -110,15 +110,15 @@ window.RADAR_PARTS.sources=[
   },
   {
     "name": "Jeduca — Editais e Prêmios",
-    "url": "https://jeduca.org.br/",
+    "url": "https://jeduca.org.br/edital/",
     "type": "Instituição promotora de prêmios, bolsas ou editais",
     "scope": "Brasil e internacional",
-    "role": "monitoramento de editais futuros; sem confirmação de abertura",
+    "role": "Fonte institucional de monitoramento do Edital Jeduca; não representa uma segunda oportunidade ativa",
     "priority": "Média",
     "cadence": "mensal",
     "category": "oportunidades/jornalismo",
-    "lastChecked": "2026-10-19",
-    "checkStatus": "pendente de auditoria"
+    "lastChecked": "2026-10-22",
+    "checkStatus": "verificada"
   },
   {
     "name": "Conselho Federal de Administração — Prêmio CFA",
@@ -137,12 +137,12 @@ window.RADAR_PARTS.sources=[
     "url": "https://abraji.org.br/",
     "type": "Instituição promotora de prêmios, bolsas ou editais",
     "scope": "Brasil e internacional",
-    "role": "monitoramento de editais futuros; sem confirmação de abertura",
+    "role": "Fonte institucional para monitorar oportunidades da Abraji; não equivale a edital aberto",
     "priority": "Média",
     "cadence": "mensal",
     "category": "oportunidades/jornalismo",
-    "lastChecked": "2026-10-19",
-    "checkStatus": "pendente de auditoria"
+    "lastChecked": "2026-10-22",
+    "checkStatus": "verificada"
   },
   {
     "name": "Talanoa — Instituto",
@@ -185,24 +185,24 @@ window.RADAR_PARTS.sources=[
     "url": "https://premiovladimirherzog.org/regulamento-2026/",
     "type": "Prêmio de jornalismo",
     "scope": "Brasil",
-    "role": "monitorar editais oficiais futuros; sem confirmação de inscrições 2027",
+    "role": "Regulamento oficial da 48ª edição; inscrições 20/05 a 20/06/2026 encerradas; monitorar próxima edição",
     "priority": "Média",
     "cadence": "mensal",
     "category": "oportunidades/jornalismo",
-    "lastChecked": "2026-10-19",
-    "checkStatus": "pendente de auditoria"
+    "lastChecked": "2026-10-22",
+    "checkStatus": "verificada"
   },
   {
     "name": "Prêmio Sebrae de Jornalismo",
-    "url": "https://premiosebraedejornalismo.com.br/",
+    "url": "https://premiosebraejornalismo.com.br/",
     "type": "Prêmio de jornalismo",
     "scope": "Brasil",
-    "role": "monitorar editais oficiais futuros; sem confirmação de inscrições 2027",
+    "role": "Página oficial confirma inscrições encerradas em 08/06/2026; acompanhar resultados e próxima edição",
     "priority": "Média",
     "cadence": "mensal",
     "category": "oportunidades/jornalismo",
-    "lastChecked": "2026-10-19",
-    "checkStatus": "pendente de auditoria"
+    "lastChecked": "2026-10-22",
+    "checkStatus": "verificada"
   },
   {
     "name": "Prêmio CNT de Jornalismo",
@@ -218,15 +218,15 @@ window.RADAR_PARTS.sources=[
   },
   {
     "name": "Prêmio BNB de Jornalismo",
-    "url": "https://www.bnb.gov.br/",
+    "url": "https://www.bancodonordeste.gov.br/premio-bnb-de-jornalismo/regulamento",
     "type": "Prêmio de jornalismo",
     "scope": "Brasil",
-    "role": "monitorar editais oficiais futuros; sem confirmação de inscrições 2027",
+    "role": "Regulamento oficial da edição 2026: inscrições 05/01 a 30/06/2026 encerradas; monitorar próxima edição",
     "priority": "Média",
     "cadence": "mensal",
     "category": "oportunidades/jornalismo",
-    "lastChecked": "2026-10-19",
-    "checkStatus": "pendente de auditoria"
+    "lastChecked": "2026-10-22",
+    "checkStatus": "verificada"
   },
   {
     "name": "Prêmio ESPM de Jornalismo",
@@ -247,7 +247,7 @@ window.RADAR_PARTS.sources=[
     "scope": "Internacional ou ibero-americano",
     "role": "fonte oficial",
     "priority": "Alta",
-    "cadence": "semanal",
+    "cadence": "diária",
     "category": "oportunidades/jornalismo",
     "lastChecked": "2026-10-19",
     "checkStatus": "verificada"
@@ -295,7 +295,7 @@ window.RADAR_PARTS.sources=[
     "scope": "Brasil e internacional, conforme edital",
     "role": "fonte oficial",
     "priority": "Alta",
-    "cadence": "semanal",
+    "cadence": "diária",
     "category": "oportunidades/jornalismo",
     "lastChecked": "2026-10-19",
     "checkStatus": "verificada"
@@ -434,14 +434,14 @@ window.RADAR_PARTS.sources=[
   },
   {
     "name": "One World Media — Awards e Fellowship",
-    "url": "https://oneworldmedia.org.uk/awards/",
+    "url": "https://oneworldmedia.org.uk/fellowship/",
     "type": "Prêmios internacionais de jornalismo e fellowship para narrativas do Sul Global",
     "scope": "Internacional",
-    "role": "fonte oficial",
+    "role": "Fonte institucional para Fellowship (programa distinto do Awards); chamadas geralmente fevereiro–março, sem abertura atual confirmada",
     "priority": "Alta",
     "cadence": "mensal",
     "category": "oportunidades/jornalismo",
-    "lastChecked": "2026-10-19",
+    "lastChecked": "2026-10-22",
     "checkStatus": "verificada"
   },
   {
@@ -487,7 +487,7 @@ window.RADAR_PARTS.sources=[
     "scope": "América Latina",
     "role": "agregador editorial",
     "priority": "Alta",
-    "cadence": "semanal",
+    "cadence": "diária",
     "category": "oportunidades/jornalismo",
     "lastChecked": "2026-10-19",
     "checkStatus": "pendente de auditoria"
@@ -643,7 +643,7 @@ window.RADAR_PARTS.sources=[
     "scope": "Europa / colaboração internacional condicionada",
     "role": "fonte oficial",
     "priority": "Alta",
-    "cadence": "semanal",
+    "cadence": "diária",
     "category": "oportunidades",
     "lastChecked": "2026-10-19",
     "checkStatus": "verificada"
@@ -679,7 +679,7 @@ window.RADAR_PARTS.sources=[
     "scope": "Global / América Latina / Brasil",
     "role": "curadoria / descoberta",
     "priority": "Alta",
-    "cadence": "semanal",
+    "cadence": "diária",
     "category": "oportunidades",
     "lastChecked": "2026-10-22",
     "checkStatus": "verificada"
@@ -691,7 +691,7 @@ window.RADAR_PARTS.sources=[
     "scope": "Global, com concentração histórica nos EUA",
     "role": "curadoria / descoberta",
     "priority": "Alta",
-    "cadence": "semanal",
+    "cadence": "diária",
     "category": "oportunidades",
     "lastChecked": "2026-10-19",
     "checkStatus": "verificada"
@@ -955,7 +955,7 @@ window.RADAR_PARTS.sources=[
     "scope": "Global / EUA",
     "role": "fonte oficial",
     "priority": "Alta",
-    "cadence": "semanal",
+    "cadence": "diária",
     "category": "oportunidades",
     "lastChecked": "2026-10-19",
     "checkStatus": "verificada"
@@ -979,7 +979,7 @@ window.RADAR_PARTS.sources=[
     "scope": "Global",
     "role": "fonte oficial",
     "priority": "Alta",
-    "cadence": "semanal",
+    "cadence": "diária",
     "category": "oportunidades",
     "lastChecked": "2026-10-19",
     "checkStatus": "verificada"
@@ -991,7 +991,7 @@ window.RADAR_PARTS.sources=[
     "scope": "Global",
     "role": "fonte oficial",
     "priority": "Alta",
-    "cadence": "semanal",
+    "cadence": "diária",
     "category": "oportunidades",
     "lastChecked": "2026-10-19",
     "checkStatus": "verificada"
@@ -1435,7 +1435,7 @@ window.RADAR_PARTS.sources=[
     "scope": "Global",
     "priority": "Alta",
     "url": "https://pulitzercenter.org/grants-fellowships",
-    "cadence": "semanal",
+    "cadence": "diária",
     "category": "dados/visual",
     "lastChecked": "2026-10-15",
     "checkStatus": "verificada"
@@ -1446,7 +1446,7 @@ window.RADAR_PARTS.sources=[
     "scope": "Global",
     "priority": "Alta",
     "url": "https://www.icfj.org/our-programs",
-    "cadence": "semanal",
+    "cadence": "diária",
     "category": "oportunidades",
     "lastChecked": "2026-10-19",
     "checkStatus": "verificada"
@@ -1457,7 +1457,7 @@ window.RADAR_PARTS.sources=[
     "scope": "Global",
     "priority": "Alta",
     "url": "https://www.iwmf.org/",
-    "cadence": "semanal",
+    "cadence": "diária",
     "category": "oportunidades",
     "lastChecked": "2026-10-19",
     "checkStatus": "verificada"
@@ -1490,7 +1490,7 @@ window.RADAR_PARTS.sources=[
     "scope": "Ibero-América",
     "priority": "Alta",
     "url": "https://fundaciongabo.org/es/convocatorias",
-    "cadence": "semanal",
+    "cadence": "diária",
     "category": "oportunidades",
     "lastChecked": "2026-10-19",
     "checkStatus": "verificada"
@@ -1501,7 +1501,7 @@ window.RADAR_PARTS.sources=[
     "scope": "Global",
     "priority": "Alta",
     "url": "https://reutersinstitute.politics.ox.ac.uk/",
-    "cadence": "semanal",
+    "cadence": "diária",
     "category": "oportunidades",
     "lastChecked": "2026-10-19",
     "checkStatus": "verificada"
@@ -1523,7 +1523,7 @@ window.RADAR_PARTS.sources=[
     "scope": "Global",
     "priority": "Alta",
     "url": "https://earthjournalism.net/",
-    "cadence": "semanal",
+    "cadence": "diária",
     "category": "clima/ambiente",
     "lastChecked": "2026-10-22",
     "checkStatus": "verificada"
