@@ -77,17 +77,17 @@
       "reviewedBy": "Radar PLOT — triagem editorial assistida",
       "reviewedAt": "2026-10-23",
       "url": "https://www.gov.br/conecta/catalogo/apis/siconfi-extratos-das-declaracoes-contabeis",
-      "status": "in-review",
-      "officialUrl": "https://www.gov.br/conecta/catalogo/apis/siconfi-extratos-das-declaracoes-contabeis",
-      "reason": "API do SICONFI sobre extratos de declarações contábeis e fiscais, potencial fonte para jornalismo de dados. Exige verificação da documentação oficial, endpoint operacional, cobertura e eventual duplicidade; não aprovada para publicação."
+      "status": "duplicate",
+      "officialUrl": "https://siconfi.tesouro.gov.br/",
+      "reason": "A API SICONFI foi confirmada no catálogo oficial do governo, mas o Radar já publica a base Siconfi — Finanças públicas dos entes (id siconfi) no catálogo de datasets, com cobertura, granularidade, API e limitações. Evitar duplicação do mesmo sistema; guardar o link da API como fonte complementar."
     },
     {
       "reviewedBy": "Radar PLOT — triagem editorial assistida",
       "reviewedAt": "2026-10-23",
       "url": "https://www.bellingcat.com/resources/2026/03/05/turnstone-flight-tracking-tool",
-      "status": "in-review",
-      "officialUrl": "https://www.bellingcat.com/resources/2026/03/05/turnstone-flight-tracking-tool",
-      "reason": "Artigo do Bellingcat sobre ferramenta de rastreamento histórico e espacial de voos. É necessário confirmar a ferramenta original, disponibilidade, funcionalidades, licenças e limitações antes de incluir no catálogo."
+      "status": "duplicate",
+      "officialUrl": "https://www.bellingcat.com/resources/2026/03/05/turnstone-flight-tracking-tool/",
+      "reason": "Fonte primária Bellingcat confirma Turnstone e ressalvas de ADS-B/MLAT e acesso seletivo; o Radar já possui ferramenta bellingcat-turnstone com o mesmo artigo oficial, código-fonte, acesso e limitações. Não republicar duplicata."
     }
   ]
 }
