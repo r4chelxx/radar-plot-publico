@@ -20,6 +20,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: "22"
+      - name: Test editorial publication safeguards
+        run: node scripts/test-editorial-pipeline.js
       - name: Build catalog additions from approved evidence only
         run: node scripts/publish-approved.js
       - name: Detect whether any approved records are new
