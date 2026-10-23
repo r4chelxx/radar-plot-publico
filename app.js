@@ -77,9 +77,9 @@ function updateItemHref(type,id){if(type==="nova-oportunidade")return"#oportunid
 function dailyUpdatePanel(){
  const types=[["nova-oportunidade","Oportunidades"],["dados","Dados & Bases"],["ferramentas","Ferramentas"]];
  const entries=(D.changelog||[]).filter(x=>types.some(([type])=>type===x.type)&&x.date).sort((a,b)=>b.date.localeCompare(a.date));
- const dates=[...new Set(entries.map(x=>x.date))].slice(0,2);
- if(!dates.length)return"";
- const updates=entries.filter(x=>dates.includes(x.date));
+ const latest=entries[0]?.date;
+ if(!latest)return"";
+ const updates=entries.filter(x=>x.date===latest);
  const groups=types.map(([type,label])=>{
   const seen=new Set(),items=[];
   for(const x of updates.filter(x=>x.type===type)){
@@ -87,14 +87,13 @@ function dailyUpdatePanel(){
     const key=item.id||item.title;
     if(seen.has(key))continue;
     seen.add(key);
-    items.push({...item,date:x.date,detail:item.detail||x.detail});
+    items.push({...item,detail:item.detail||x.detail});
    }
   }
   return{type,label,items};
  });
  const total=groups.reduce((n,g)=>n+g.items.length,0);
- const title=dates.length===1?"Entrou no Radar em "+fmt(dates[0]):"Entrou no Radar em "+fmt(dates[1])+" e "+fmt(dates[0]);
- return'<section class="dailyupdates"><div class="dailyupdatehead"><div class="eyebrow">Atualizações recentes</div><h2>'+title+'</h2><p>Últimas duas datas com publicações em oportunidades, bases e ferramentas. As datas de cada registro são preservadas.</p></div><div class="dailyactions"><span>'+total+' registros nas últimas '+dates.length+' '+(dates.length===1?"data":"datas")+'</span><a class="btn" href="#metodologia/mudancas">Histórico completo</a></div></div><div class="updategrid">'+groups.map(({type,label,items})=>'<div class="updategroup '+type+'"><div class="updategrouptitle"><h3>'+label+'</h3><b>'+items.length+'</b></div>'+(items.length?items.map(i=>'<a class="updateitem" href="'+updateItemHref(type,i.id||"")+'"><b>'+escHTML(i.title)+'</b><span class="meta">Publicado em '+fmt(i.date)+'</span>'+(i.detail?'<span>'+escHTML(i.detail)+'</span>':"")+'</a>').join(""):'<p class="meta">Nenhuma inclusão nas datas exibidas.</p>')+'</div>').join("")+'</div></section>';
+ return'<section class="dailyupdates"><div class="dailyupdatehead"><div><div class="eyebrow">Atualização diária</div><h2>Entrou no Radar em '+fmt(latest)+'</h2><p>Publicações registradas nesta data em oportunidades, bases e ferramentas.</p></div><div class="dailyactions"><span>'+total+' novos registros</span><a class="btn" href="#metodologia/mudancas">Histórico completo</a></div></div><div class="updategrid">'+groups.map(({type,label,items})=>'<div class="updategroup '+type+'"><div class="updategrouptitle"><h3>'+label+'</h3><b>'+items.length+'</b></div>'+(items.length?items.map(i=>'<a class="updateitem" href="'+updateItemHref(type,i.id||"")+'"><b>'+escHTML(i.title)+'</b>'+(i.detail?'<span>'+escHTML(i.detail)+'</span>':"")+'</a>').join(""):'<p class="meta">Nenhuma inclusão registrada nesta data.</p>')+'</div>').join("")+'</div></section>';
 }
 function publicHome(){
  const active=D.opportunities.filter(o=>!["encerrada","descartada"].includes(o.status));
