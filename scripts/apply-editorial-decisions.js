@@ -23,8 +23,9 @@ for(const d of decisions.decisions){
  if(['approved','published','duplicate','rejected','archived'].includes(d.status)&&(!d.officialUrl||!/^https:\/\//.test(d.officialUrl)))throw Error('Missing official evidence: '+d.url);
  if(d.status==='approved'&&!approved.some(x=>x.review?.decision==='approved'&&x.review?.officialUrl===d.officialUrl))throw Error('Approval not present in publishing manifest: '+d.url);
  if(d.status==='published'&&!urls.has(d.officialUrl))throw Error('Publication not present in public catalog: '+d.url);
- input.leads[id]={...lead,editorialStatus:d.status,reviewedAt:d.reviewedAt,reviewedBy:d.reviewedBy,decisionReason:d.reason,editorialEvidence:d.officialUrl||null};
- counts[d.status]=(counts[d.status]||0)+1;
+ const effectiveStatus=d.status==='approved'&&urls.has(d.officialUrl)?'published':d.status;
+ input.leads[id]={...lead,editorialStatus:effectiveStatus,reviewedAt:d.reviewedAt,reviewedBy:d.reviewedBy,decisionReason:d.reason,editorialEvidence:d.officialUrl||null};
+ counts[effectiveStatus]=(counts[effectiveStatus]||0)+1;
 }
 fs.writeFileSync('intake/lead-history-next.json',JSON.stringify(input,null,2)+'\n');
 console.log(JSON.stringify({applied:seen.size,counts}));
