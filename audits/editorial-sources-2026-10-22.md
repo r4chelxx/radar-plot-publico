@@ -287,3 +287,10 @@ A política de persistência continua isolando PRs: job `persist` foi skipped, c
 ## Lote 31 — oito falhas individualizadas no artefato
 
 Inspecionado `source-review.json` do artefato **12468743607**, run **39878295910**. HTTP 403: Informed Earth, Pulitzer Center, Earth Journalism Network, GIJN Jobs Board, GIJN Saved Links e **OECD Data** (`https://www.oecd.org/en/data.html`). HTTP 503: **ANA/SNIRH — Geosserviços de Outorgas** (`https://www.snirh.gov.br/arcgis/rest/services/SRE/OutorgasDireitodeUso/FeatureServer`). Falha não HTTP: **Portal de Dados Abertos do SUS** (`https://dadosabertos.saude.gov.br/dataset`), `TypeError: fetch failed`. Os cinco primeiros HTTP 403 persistem entre as rodadas; a OECD e a ANA/SNIRH foram inspecionadas no lote rotativo 4/11. Nenhuma dessas ocorrências autoriza remoção do cadastro. Repetir consulta, investigar conectividade e validar páginas oficiais alternativas antes de mudanças de URL. O run do PR marcou `persist` como skipped intencionalmente; isso não diagnostica a execução agendada da main.
+
+
+## Lotes 34–35 — validação e alternativas oficiais (23/10/2026)
+
+Commit `de336c4`: `Validate Radar data`, `Browser regression tests`, `Radar source discovery` e `Unified public web intake` passaram no GitHub Actions; `Audit Radar links` ainda estava em progresso na consulta. O erro anterior foi o status `aberta` da NPF Rare Disease Fellowship após o prazo 22/10; status corrigido para `encerrada`, sem remoção.
+
+Inspeção web (não equivale a teste no runner GitHub): URLs oficiais com conteúdo legível: `https://informedstories.org/en/informed-earth/opportunities/`, `https://informedstories.org/en/opportunities/`, `https://pulitzercenter.org/opportunities/grants-fellowships`, `https://gijn.org/jobs/`, `https://gijn.org/follow/`. Página original ICJN também acessível via navegação web, prazo 01/11/2026. `gijn.org/follow/` divulga canais e não é substituto semântico de Jobs Board ou Saved Links. Não alterar URLs automaticamente: verificar HTTP e extração de links no runner GitHub, evitar duplicatas e preservar catálogo. Persistência `radar-state` da main continua pendente de confirmação por job agendado/dispatch.
