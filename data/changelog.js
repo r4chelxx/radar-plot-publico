@@ -1,6 +1,30 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
   {
+    "date": "2026-10-23",
+    "type": "ferramentas",
+    "title": "Quatro ferramentas verificadas para investigação digital e segurança documental",
+    "items": [
+      {
+        "id": "arctic-shift-reddit-archive",
+        "title": "Arctic Shift — arquivo e API do Reddit"
+      },
+      {
+        "id": "web-archive-viewer",
+        "title": "Web Archive Viewer"
+      },
+      {
+        "id": "dochush-pdf-redaction-checker",
+        "title": "DocHush — PDF Redaction Checker"
+      },
+      {
+        "id": "pangram-ai-detector",
+        "title": "Pangram — detector de texto gerado por IA"
+      }
+    ],
+    "detail": "Adicionados Arctic Shift, Web Archive Viewer, DocHush PDF Redaction Checker e Pangram, com fontes oficiais, limites de acesso e ressalvas de cobertura, privacidade e confiabilidade. Pangram é ferramenta de triagem probabilística e não prova autoria."
+  },
+  {
     "date": "2026-10-22",
     "type": "nova-oportunidade",
     "title": "EJN abre bolsas para cobertura da primeira COP do Tratado do Alto-Mar",
