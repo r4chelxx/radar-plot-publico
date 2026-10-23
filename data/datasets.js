@@ -1,6 +1,37 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.datasets=[
   {
+    "id": "paraiba-portal-dados-abertos-api",
+    "name": "Paraíba — Portal de Dados Abertos e API",
+    "org": "Governo do Estado da Paraíba / Controladoria-Geral do Estado / CODATA",
+    "territoryTier": "Brasil",
+    "kind": "portal",
+    "themes": [
+      "Transparência",
+      "Administração pública",
+      "Orçamento público",
+      "Compras públicas",
+      "Servidores públicos",
+      "Saúde",
+      "Políticas públicas"
+    ],
+    "coverage": "Catálogo estadual de dados abertos com conjuntos sobre compras, convênios, despesas, orçamento, receita, remuneração de servidores e saúde, integrado ao Portal da Transparência e a uma API pública",
+    "frequency": "Varia por conjunto; o portal não informa uma cadência única de atualização",
+    "format": "Portal CKAN, arquivos reutilizáveis e respostas estruturadas em JSON pela API",
+    "period": "Varia por conjunto; consultar os metadados e recursos de cada base",
+    "granularity": "Varia por conjunto, incluindo registros administrativos de compras, convênios, receitas, despesas e remuneração",
+    "geoUnit": "Estado da Paraíba; detalhamento por órgão, entidade, fornecedor, servidor ou município varia conforme o conjunto",
+    "api": "https://api.dados.pb.gov.br/swagger/",
+    "docs": "https://dados.pb.gov.br/about",
+    "limitations": "O catálogo estava em versão 1.0 e reunia sete conjuntos na verificação de 23/10/2026. Cobertura, período, granularidade e frequência variam entre recursos; a presença no portal não garante completude nem atualização uniforme. Conferir metadados, dicionários e a fonte administrativa antes de comparar séries ou atribuir responsabilidades.",
+    "lastChecked": "2026-10-23",
+    "url": "https://dados.pb.gov.br/",
+    "discoveredVia": [
+      "Portal de Dados Abertos da Paraíba"
+    ],
+    "discoveryUrl": "https://codata.pb.gov.br/noticias/codata-desenvolve-nova-versao-do-portal-da-transparencia-da-paraiba-lancada-pelo-governo-do-estado/"
+  },
+  {
     "id": "copernicus-igcc-climate-change-indicators",
     "name": "Copernicus CDS — Indicators of Global Climate Change (IGCC)",
     "org": "Copernicus Climate Change Service / ECMWF e equipe científica IGCC coordenada pela University of Leeds",
@@ -636,11 +667,11 @@ window.RADAR_PARTS.datasets=[
     "period": "Período de cobertura não confirmado para esta camada alternativa; conferir datas e completude dos registros antes da análise",
     "granularity": "Registro individual de outorga, uso e localização; campos específicos conforme metadados da camada",
     "geoUnit": "Brasil; pontos/registros georreferenciados das outorgas federais, com possibilidade de recorte por estado e bacia",
-    "api": "https://www.snirh.gov.br/arcgis/rest/services/SRE/OutorgasDireitodeUso/MapServer — camada Outorgas Federais (0), consultas REST JSON; MaxRecordCount 2000 por requisição, exigir paginação",
+    "api": "https://www.snirh.gov.br/arcgis/rest/services/SRE/OutorgasDireitodeUso/FeatureServer — camada Outorgas Federais (0), consultas REST JSON; MaxRecordCount 2000 por requisição, exigir paginação",
     "docs": "https://www.snirh.gov.br/portal/snirh-1/paineis-de-indicadores/regulacao-de-usos-de-recursos-hidricos-1",
     "limitations": "A base cobre outorgas federais emitidas pela ANA, não a totalidade de captações nem outorgas estaduais, como as administradas pelo INEMA na Bahia. Outorga é autorização, não volume efetivamente captado. Para investigar data centers e disputa por água, cruzar com registros do INEMA, licenciamento ambiental e dados de consumo, validando a vigência e a precisão geográfica dos registros. A documentação não explicita frequência de atualização.",
     "lastChecked": "2026-10-23",
-    "url": "https://www.snirh.gov.br/arcgis/rest/services/SRE/OutorgasDireitodeUso/MapServer",
+    "url": "https://www.snirh.gov.br/arcgis/rest/services/SRE/OutorgasDireitodeUso/FeatureServer",
     "discoveredVia": [
       "ANA/SNIRH — Geosserviços de Outorgas"
     ],

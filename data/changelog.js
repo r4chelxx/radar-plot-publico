@@ -1,5 +1,29 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
+  {
+    "date": "2026-10-23",
+    "type": "dados",
+    "title": "Paraíba — Portal de Dados Abertos e API",
+    "items": [
+      {
+        "id": "paraiba-portal-dados-abertos-api",
+        "title": "Paraíba — Portal de Dados Abertos e API"
+      }
+    ],
+    "detail": "O novo ecossistema estadual foi catalogado com portal CKAN, API pública documentada, sete grupos temáticos, licença CC BY 4.0 e ressalvas sobre cobertura e atualização variáveis por conjunto."
+  },
+  {
+    "date": "2026-10-23",
+    "type": "fontes",
+    "title": "Portal de Dados Abertos da Paraíba",
+    "items": [
+      {
+        "id": "fonte-portal-dados-abertos-paraiba",
+        "title": "Portal de Dados Abertos da Paraíba"
+      }
+    ],
+    "detail": "Nova fonte oficial recorrente para monitorar bases estaduais de transparência, orçamento, compras, convênios, pessoal e saúde."
+  },
 {
   "date": "2026-10-23",
   "type": "ferramentas",
