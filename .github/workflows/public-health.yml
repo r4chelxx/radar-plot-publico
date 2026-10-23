@@ -57,12 +57,17 @@ jobs:
           RADAR_DEPLOY_RETRIES: '12'
           RADAR_DEPLOY_DELAY_MS: '10000'
         run: node scripts/check-deployed-revision.js
+      - name: Dry-run approved records before integration
+        run: node scripts/validate-approved-manifest.js
       - name: Verify approved catalog records actually reached public deployment
+        if: github.event_name != 'pull_request'
         env:
           RADAR_DEPLOY_RETRIES: '2'
           RADAR_DEPLOY_DELAY_MS: '1000'
         run: node scripts/verify-published-records.js
+      # Pushes may precede the discovery writer; check persisted state in the daily probe.
       - name: Download latest persisted public discovery state
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
@@ -71,7 +76,9 @@ jobs:
           gh api "repos/${GITHUB_REPOSITORY}/contents/intake/editorial-queue.json?ref=radar-state" --jq .content | base64 --decode > /tmp/radar-operational/queue.json
           gh api "repos/${GITHUB_REPOSITORY}/contents/state/lead-history.json?ref=radar-state" --jq .content | base64 --decode > /tmp/radar-operational/history.json
       - name: Confirm reviewed leads are not reopened in daily queue
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
         run: node scripts/check-operational-state.js /tmp/radar-operational/queue.json /tmp/radar-operational/history.json intake/historical-decisions.json
       - name: Record health result
         if: always()
-        run: echo "Public Radar health check result: ${{ job.status }}" >> "$GITHUB_STEP_SUMMARY"
+        run: |
+          echo "Public Radar health check result: ${{ job.status }}" >> "$GITHUB_STEP_SUMMARY"
