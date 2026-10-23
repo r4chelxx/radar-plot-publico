@@ -2,6 +2,11 @@ name: Public Radar operational health
 on:
   pull_request:
     paths:
+      - 'index.html'
+      - 'data.js'
+      - 'data/*.js'
+      - 'app.js'
+      - 'styles.css'
       - 'scripts/check-public-health.js'
       - '.github/workflows/public-health.yml'
   workflow_dispatch:
