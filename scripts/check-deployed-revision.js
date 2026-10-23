@@ -10,16 +10,16 @@ async function checkRevision({base=process.env.RADAR_PUBLIC_URL||'https://r4chel
  let missing=[];
  for(let attempt=1;attempt<=attempts;attempt++){
   missing=[];
-  for(const asset of assets){
+  missing=(await Promise.all(assets.map(async asset=>{
    const expected=hash(read(asset));
    try{
     const url=new URL(asset,base);url.searchParams.set('radar_revision_check',String(Date.now()));
-    const response=await request(url.toString(),{headers:{'cache-control':'no-cache'},signal:AbortSignal.timeout(15000)});
-    if(!response.ok){missing.push({asset,status:response.status});continue}
+    const response=await request(url.toString(),{headers:{'cache-control':'no-cache'},signal:AbortSignal.timeout(12000)});
+    if(!response.ok)return {asset,status:response.status};
     const actual=hash(Buffer.from(await response.arrayBuffer()));
-    if(actual!==expected)missing.push({asset,status:'content-mismatch'});
-   }catch(e){missing.push({asset,status:'request-error',message:String(e.message).slice(0,120)})}
-  }
+    return actual===expected?null:{asset,status:'content-mismatch'};
+   }catch(e){return {asset,status:'request-error',message:String(e.message).slice(0,120)}}
+  }))).filter(Boolean);
   console.log(JSON.stringify({attempt,assets:assets.length,outOfSync:missing}));
   if(!missing.length)return {ok:true,attempt,assets:assets.length};
   if(attempt<attempts)await sleep(Math.max(0,delayMs));
