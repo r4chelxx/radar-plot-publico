@@ -1,5 +1,18 @@
 name: Public Radar operational health
 on:
+  push:
+    branches: [main]
+    paths:
+      - 'index.html'
+      - 'data.js'
+      - 'data/*.js'
+      - 'app.js'
+      - 'styles.css'
+      - 'scripts/check-public-health.js'
+      - 'scripts/check-operational-state.js'
+      - 'scripts/verify-published-records.js'
+      - 'intake/approved-publications.json'
+      - '.github/workflows/public-health.yml'
   pull_request:
     paths:
       - 'index.html'
