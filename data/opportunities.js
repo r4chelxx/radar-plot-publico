@@ -1,55 +1,55 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.opportunities=[
   {
-  "id": "vital-impacts-environmental-photography-2027",
-  "title": "Vital Impacts — Environmental Photography Fellowships 2027",
-  "org": "Vital Impacts",
-  "summary": "Uma bolsa de US$ 20 mil e seis de US$ 5 mil para projetos documentais fotográficos de longo prazo sobre meio ambiente, conservação e soluções comunitárias; dez mentorias adicionais.",
-  "type": "Fellowship / bolsa de fotografia documental",
-  "themes": [
-    "Meio ambiente",
-    "Fotojornalismo",
-    "Conservação",
-    "Biodiversidade",
-    "Comunidades",
-    "Narrativas visuais"
-  ],
-  "scope": "Internacional",
-  "deadline": "2026-11-30",
-  "deadlineStatus": "confirmado (horário exato não especificado na página consultada)",
-  "eligibility": "elegível",
-  "fit": 8,
-  "status": "aberta",
-  "value": "Uma bolsa de US$ 20.000; seis bolsas de US$ 5.000; dez mentorias sem bolsa informada",
-  "duration": "Projetos desenvolvidos ao longo de 2027, com acompanhamento editorial e mentoria",
-  "modality": "Fellowship para projeto de fotografia documental",
-  "documents": [
-    "Portfólio de até 20 fotografias JPEG, organizado em um ou dois trabalhos",
-    "Sinopse do projeto em 25 palavras",
-    "Proposta de projeto em até 500 palavras",
-    "Biografia de até 1.500 caracteres",
-    "Concordância com código de ética e termos"
-  ],
-  "restrictions": [
-    "Projetos documentais fotográficos ambientais de longo prazo com foco em soluções e relações sustentadas com comunidades",
-    "A experiência de publicação anterior não é exigida",
-    "Taxa de inscrição de US$ 25; isenção para candidatos de países em desenvolvimento ou por dificuldade financeira, mediante solicitação",
-    "Não usar IA generativa para criar ou alterar materialmente conteúdo fotográfico"
-  ],
-  "rules": "https://vitalimpacts.org/pages/the-vital-impacts-environmental-photography-grant",
-  "apply": "https://site.picter.com/vital-impacts-environmental-photography-fellowship-2027",
-  "verified": "2026-10-23",
-  "desc": "Edital internacional para fotógrafos documentais que já tenham relação significativa com as comunidades e questões ambientais retratadas. A organização confirma uma bolsa de US$ 20 mil, seis de US$ 5 mil e dez mentorias, com prazo de 30/11/2026. Taxa de US$ 25 com isenções previstas. Conferir horário final no formulário e termos completos antes de enviar.",
-  "discoveryUrl": "https://www.sej.org/calendar/deadline-vital-impacts-environmental-photography-fellowships-and-mentorships",
-  "verificationHistory": [
-    {
-      "date": "2026-10-23",
-      "status": "aberta",
-      "source": "https://vitalimpacts.org/pages/the-vital-impacts-environmental-photography-grant"
-    }
-  ]
-},
-{
+    "id": "vital-impacts-environmental-photography-2027",
+    "title": "Vital Impacts — Environmental Photography Fellowships 2027",
+    "org": "Vital Impacts",
+    "summary": "Uma bolsa de US$ 20 mil e seis de US$ 5 mil para projetos documentais fotográficos de longo prazo sobre meio ambiente, conservação e soluções comunitárias; dez mentorias adicionais.",
+    "type": "Fellowship / bolsa de fotografia documental",
+    "themes": [
+      "Meio ambiente",
+      "Fotojornalismo",
+      "Conservação",
+      "Biodiversidade",
+      "Comunidades",
+      "Narrativas visuais"
+    ],
+    "scope": "Internacional",
+    "deadline": "2026-11-30",
+    "deadlineStatus": "confirmado (horário exato não especificado na página consultada)",
+    "eligibility": "elegível",
+    "fit": 8,
+    "status": "aberta",
+    "value": "Uma bolsa de US$ 20.000; seis bolsas de US$ 5.000; dez mentorias sem bolsa informada",
+    "duration": "Projetos desenvolvidos ao longo de 2027, com acompanhamento editorial e mentoria",
+    "modality": "Fellowship para projeto de fotografia documental",
+    "documents": [
+      "Portfólio de até 20 fotografias JPEG, organizado em um ou dois trabalhos",
+      "Sinopse do projeto em 25 palavras",
+      "Proposta de projeto em até 500 palavras",
+      "Biografia de até 1.500 caracteres",
+      "Concordância com código de ética e termos"
+    ],
+    "restrictions": [
+      "Projetos documentais fotográficos ambientais de longo prazo com foco em soluções e relações sustentadas com comunidades",
+      "A experiência de publicação anterior não é exigida",
+      "Taxa de inscrição de US$ 25; isenção para candidatos de países em desenvolvimento ou por dificuldade financeira, mediante solicitação",
+      "Não usar IA generativa para criar ou alterar materialmente conteúdo fotográfico"
+    ],
+    "rules": "https://vitalimpacts.org/pages/the-vital-impacts-environmental-photography-grant",
+    "apply": "https://site.picter.com/vital-impacts-environmental-photography-fellowship-2027",
+    "verified": "2026-10-23",
+    "desc": "Edital internacional para fotógrafos documentais que já tenham relação significativa com as comunidades e questões ambientais retratadas. A organização confirma uma bolsa de US$ 20 mil, seis de US$ 5 mil e dez mentorias, com prazo de 30/11/2026. Taxa de US$ 25 com isenções previstas. Conferir horário final no formulário e termos completos antes de enviar.",
+    "discoveryUrl": "https://www.sej.org/calendar/deadline-vital-impacts-environmental-photography-fellowships-and-mentorships",
+    "verificationHistory": [
+      {
+        "date": "2026-10-23",
+        "status": "aberta",
+        "source": "https://vitalimpacts.org/pages/the-vital-impacts-environmental-photography-grant"
+      }
+    ]
+  },
+  {
     "id": "ipys-transnational-investigations-2026",
     "title": "IPYS — Financiamento de investigações transnacionais 2026",
     "org": "Instituto Prensa y Sociedad (IPYS)",
@@ -454,8 +454,19 @@ window.RADAR_PARTS.opportunities=[
       "Disponibilidade para entrevistas e mentorias em horários úteis dos EUA"
     ],
     "opens": null,
-    "verificationHistory": [],
-    "verified": "2026-10-19",
+    "verificationHistory": [
+      {
+        "date": "2026-09-25",
+        "status": "aberta",
+        "source": "https://www.theopennotebook.com/early-career-fellowship-program/"
+      },
+      {
+        "date": "2026-10-02",
+        "status": "aberta",
+        "source": "https://www.theopennotebook.com/early-career-fellowship-program/"
+      }
+    ],
+    "verified": "2026-10-23",
     "id": "the-open-notebook-early-career-2027",
     "title": "The Open Notebook — Early-Career Fellowship 2027",
     "org": "The Open Notebook / Burroughs Wellcome Fund",
@@ -1840,7 +1851,8 @@ window.RADAR_PARTS.opportunities=[
       "mínimo de 3 anos de experiência",
       "fluência em inglês",
       "reuniões em horário diurno do fuso leste",
-      "uso de IA proibido na proposta e candidatura"
+      "uso de IA proibido na proposta e candidatura",
+      "Prazo: 08/11/2026 às 23h EST como limite conservador; a página oficial também informa meia-noite EST, sem esclarecer a divergência"
     ],
     "opens": null,
     "verificationHistory": [
@@ -3055,50 +3067,6 @@ window.RADAR_PARTS.opportunities=[
     "desc": "Grant para investigações que usem aprendizado de máquina, análise geoespacial ou outras técnicas computacionais."
   },
   {
-    "value": "US$6.600",
-    "duration": "12 meses",
-    "modality": "Remota · part-time",
-    "documents": [],
-    "restrictions": [
-      "voltada a pessoas em início de carreira em jornalismo científico",
-      "candidatos internacionais são aceitos"
-    ],
-    "opens": null,
-    "verificationHistory": [
-      {
-        "date": "2026-09-25",
-        "status": "aberta",
-        "source": "https://www.theopennotebook.com/early-career-fellowship-program/"
-      },
-      {
-        "date": "2026-10-02",
-        "status": "aberta",
-        "source": "https://www.theopennotebook.com/early-career-fellowship-program/"
-      }
-    ],
-    "id": "ton-2027",
-    "summary": "Fellowship remota de jornalismo científico voltada a profissionais em início de trajetória na área.",
-    "title": "Early-Career Fellowship 2027",
-    "org": "The Open Notebook",
-    "type": "Fellowship",
-    "themes": [
-      "Ciência",
-      "Saúde",
-      "Ambiente",
-      "Formação"
-    ],
-    "scope": "Internacional / remoto",
-    "deadline": "2026-10-31",
-    "deadlineStatus": "confirmado",
-    "eligibility": "elegível",
-    "fit": 7.5,
-    "status": "aberta",
-    "rules": "https://www.theopennotebook.com/early-career-fellowship-program/",
-    "apply": "https://www.theopennotebook.com/early-career-fellowship-program/",
-    "verified": "2026-10-02",
-    "desc": "Fellowship remota e part-time de 12 meses para início de carreira em jornalismo científico. Aceita candidatos internacionais, paga US$6.600 e recebe inscrições até 31/10/2026. O programa combina mentoring e produção editorial para The Open Notebook."
-  },
-  {
     "value": null,
     "duration": null,
     "modality": null,
@@ -3142,7 +3110,11 @@ window.RADAR_PARTS.opportunities=[
     "duration": null,
     "modality": null,
     "documents": [],
-    "restrictions": ["Reportagem internacional precisa ter forte conexão com os Estados Unidos","Publicação em inglês em veículo sediado nos Estados Unidos","Grant regular exige carta de compromisso de publicação; seed grant dispensa"],
+    "restrictions": [
+      "Reportagem internacional precisa ter forte conexão com os Estados Unidos",
+      "Publicação em inglês em veículo sediado nos Estados Unidos",
+      "Grant regular exige carta de compromisso de publicação; seed grant dispensa"
+    ],
     "opens": null,
     "verificationHistory": [
       {
@@ -3180,7 +3152,11 @@ window.RADAR_PARTS.opportunities=[
     "duration": null,
     "modality": null,
     "documents": [],
-    "restrictions": ["Projeto de reportagem escrita com foco nos Estados Unidos e publicação em veículo dos EUA","Candidatos podem residir fora dos Estados Unidos","Profissional em emprego integral precisa se afastar durante a fellowship"],
+    "restrictions": [
+      "Projeto de reportagem escrita com foco nos Estados Unidos e publicação em veículo dos EUA",
+      "Candidatos podem residir fora dos Estados Unidos",
+      "Profissional em emprego integral precisa se afastar durante a fellowship"
+    ],
     "opens": null,
     "verificationHistory": [
       {
@@ -3308,7 +3284,11 @@ window.RADAR_PARTS.opportunities=[
       "proposta de pesquisa",
       "2 cartas de recomendação"
     ],
-    "restrictions": ["Pesquisa acadêmica baseada nas coleções cartográficas digitalizadas do Allard Pierson","Exige mestrado concluído e experiência em pesquisa, conforme regulamento da edição","Inscrições para fellowships 2027 encerradas"],
+    "restrictions": [
+      "Pesquisa acadêmica baseada nas coleções cartográficas digitalizadas do Allard Pierson",
+      "Exige mestrado concluído e experiência em pesquisa, conforme regulamento da edição",
+      "Inscrições para fellowships 2027 encerradas"
+    ],
     "opens": null,
     "verificationHistory": [
       {
@@ -4107,7 +4087,10 @@ window.RADAR_PARTS.opportunities=[
     "duration": null,
     "modality": null,
     "documents": [],
-    "restrictions": ["Microgrants destinados a projetos da Argentina, Bolívia, México e Equador","Brasil não está entre os quatro países contemplados nesta edição"],
+    "restrictions": [
+      "Microgrants destinados a projetos da Argentina, Bolívia, México e Equador",
+      "Brasil não está entre os quatro países contemplados nesta edição"
+    ],
     "opens": null,
     "verificationHistory": [
       {

@@ -663,15 +663,15 @@ window.RADAR_PARTS.datasets=[
     ],
     "coverage": "Brasil · outorgas preventivas e de direito de uso de recursos hídricos emitidas pela ANA em corpos d'água de domínio federal, com identificação de usos e referência à resolução da agência",
     "frequency": "Não informada na documentação pública do serviço; conferir atualização da camada antes de cada uso",
-    "format": "Serviço geográfico ArcGIS FeatureServer com consultas REST em JSON e coordenadas WGS 84 (EPSG:4326)",
+    "format": "Consulta oficial por mapa, painel e planilha de outorgas; ArcGIS REST geoespacial indisponível na última auditoria.",
     "period": "Período de cobertura não confirmado para esta camada alternativa; conferir datas e completude dos registros antes da análise",
     "granularity": "Registro individual de outorga, uso e localização; campos específicos conforme metadados da camada",
     "geoUnit": "Brasil; pontos/registros georreferenciados das outorgas federais, com possibilidade de recorte por estado e bacia",
-    "api": "https://www.snirh.gov.br/arcgis/rest/services/SRE/OutorgasDireitodeUso/FeatureServer — camada Outorgas Federais (0), consultas REST JSON; MaxRecordCount 2000 por requisição, exigir paginação",
+    "api": "ArcGIS REST (camada Outorgas Federais): https://www.snirh.gov.br/arcgis/rest/services/SRE/OutorgasDireitodeUso/MapServer/0 — indisponível na verificação automatizada de 23/10/2026: HTTP 200 com erro de aplicação; não presumir acesso à API. Usar planilha, mapa e painel oficiais na página de outorgas emitidas até restabelecimento e validação da API.",
     "docs": "https://www.snirh.gov.br/portal/snirh-1/paineis-de-indicadores/regulacao-de-usos-de-recursos-hidricos-1",
-    "limitations": "A base cobre outorgas federais emitidas pela ANA, não a totalidade de captações nem outorgas estaduais, como as administradas pelo INEMA na Bahia. Outorga é autorização, não volume efetivamente captado. Para investigar data centers e disputa por água, cruzar com registros do INEMA, licenciamento ambiental e dados de consumo, validando a vigência e a precisão geográfica dos registros. A documentação não explicita frequência de atualização.",
+    "limitations": "A base cobre outorgas federais emitidas pela ANA, não a totalidade de captações nem outorgas estaduais, como as administradas pelo INEMA na Bahia. Outorga é autorização, não volume efetivamente captado. Para investigar data centers e disputa por água, cruzar com registros do INEMA, licenciamento ambiental e dados de consumo, validando a vigência e a precisão geográfica dos registros. A documentação não explicita frequência de atualização. Em 23/10/2026 o endpoint ArcGIS respondeu HTTP 200 com erro JSON, sem camada operacional confirmada. A página de outorgas emitidas da ANA oferece rotas oficiais de consulta alternativas. Não confundir URL institucional acessível com disponibilidade da API.",
     "lastChecked": "2026-10-23",
-    "url": "https://www.snirh.gov.br/arcgis/rest/services/SRE/OutorgasDireitodeUso/FeatureServer",
+    "url": "https://www.gov.br/ana/pt-br/assuntos/regulacao-e-fiscalizacao/outorga/outorgas-emitidas",
     "discoveredVia": [
       "ANA/SNIRH — Geosserviços de Outorgas"
     ],
@@ -1463,7 +1463,8 @@ window.RADAR_PARTS.datasets=[
     "coverage": "Salvador",
     "frequency": "Variável por módulo",
     "format": "Portal / dados abertos / downloads",
-    "url": "https://transparencia.salvador.ba.gov.br/"
+    "url": "https://transparencia.salvador.ba.gov.br/",
+    "limitations": "Portal de consulta, não uma base única: conferir período, filtros, unidade de análise e data de atualização em cada módulo antes de exportar ou cruzar registros. A tentativa de acesso de 23/10/2026 não foi concluída; a disponibilidade atual e os recursos de exportação permanecem sem confirmação nesta revisão."
   },
   {
     "id": "salvador-educacao-numeros",
@@ -1656,7 +1657,8 @@ window.RADAR_PARTS.datasets=[
     "coverage": "Bahia",
     "frequency": "Variável",
     "format": "Portal / painéis",
-    "url": "https://www.transparencia.ba.gov.br/Portal"
+    "url": "https://www.transparencia.ba.gov.br/Portal",
+    "limitations": "Os módulos têm coberturas e datas de atualização próprias. Registrar filtros, período e estágio da despesa; não somar valores de empenho, liquidação e pagamento como se fossem despesas distintas. A tentativa de acesso direto de 23/10/2026 não foi concluída; conferir o módulo e sua atualização antes da análise."
   },
   {
     "id": "sspba-estatisticas",
@@ -1724,7 +1726,8 @@ window.RADAR_PARTS.datasets=[
     "coverage": "Brasil",
     "frequency": "Variável por conjunto",
     "format": "CSV/API",
-    "url": "https://dadosabertos.aneel.gov.br/"
+    "url": "https://dadosabertos.aneel.gov.br/",
+    "limitations": "O catálogo reúne conjuntos distintos, inclusive recursos descontinuados. Conferir o dicionário, a data de geração, a cobertura e os identificadores do recurso selecionado antes de combinar arquivos. A existência de um conjunto ou autorização não comprova operação efetiva, consumo de energia ou conexão de um empreendimento específico."
   },
   {
     "id": "ons",
@@ -3274,7 +3277,10 @@ window.RADAR_PARTS.datasets=[
     "coverage": "Brasil / Bahia",
     "frequency": "Conforme publicação de atos",
     "format": "Portarias / despachos / documentos oficiais",
-    "url": "https://www.gov.br/aneel/pt-br"
+    "url": "https://www.gov.br/aneel/pt-br",
+    "docs": "ANEEL — orientação de consulta à legislação: https://www.gov.br/aneel/pt-br/centrais-de-conteudos/biblioteca ; MME — legislação: https://www.gov.br/mme/pt-br/acesso-a-informacao/legislacao",
+    "limitations": "Ponto de entrada para localizar atos, não uma relação pronta de data centers. Pesquisar por empresa, empreendimento, processo e localidade; registrar número, órgão, data, objeto e eventuais alterações de cada ato. Uma autorização ou ato de transmissão não comprova implantação, operação, demanda efetiva ou conexão de um data center. Os atos específicos ainda precisam ser selecionados e conferidos.",
+    "lastChecked": "2026-10-23"
   },
   {
     "id": "cbf-convocacoes-feminina",
@@ -3293,14 +3299,17 @@ window.RADAR_PARTS.datasets=[
     "coverage": "Brasil",
     "frequency": "Por convocação",
     "format": "Publicações oficiais / páginas web",
-    "url": "https://www.cbf.com.br/"
+    "url": "https://www.cbf.com.br/",
+    "docs": "Publicações oficiais da CBF por evento; exemplo localizado: https://www.cbf.com.br/selecao-brasileira/noticias/selecao-feminina-principal/a/arthur-elias-apresenta-convocadas-para-amistosos-contra-eua-e-periodo-de-preparacao",
+    "limitations": "Fonte para coleta manual por evento, não uma base histórica consolidada. Distinguir lista inicial, cortes, substituições e períodos de treino; preservar data, categoria e clube informado em cada publicação. Convocação não equivale a participação em partida. A referência oficial foi localizada em 23/10/2026, mas a leitura direta retornou erro; completude histórica e listas individuais ainda precisam de conferência.",
+    "lastChecked": "2026-10-23"
   },
   {
     "id": "apeb-aforamentos-codices",
     "territoryTier": "Salvador",
     "kind": "curated-source",
     "api": "não aplicável",
-    "name": "APEB — Aforamentos e códices",
+    "name": "APEB — acervo para pesquisa de aforamentos e códices",
     "org": "Arquivo Público do Estado da Bahia",
     "themes": [
       "Salvador",
@@ -3312,7 +3321,10 @@ window.RADAR_PARTS.datasets=[
     "coverage": "Salvador / Bahia",
     "frequency": "Acervo histórico",
     "format": "Códices / documentos arquivísticos",
-    "url": "https://www.ba.gov.br/fpc/arquivo-publico-acervo"
+    "url": "https://www.ba.gov.br/fpc/arquivo-publico-acervo",
+    "docs": "APEB — apresentação do acervo e orientação de pesquisa em inventários, Guia de Fundos, AtoM e SICRO: https://www.ba.gov.br/fpc/arquivo-publico-acervo",
+    "limitations": "A página descreve o acervo geral do APEB; esta referência não confirma um fundo ou série de aforamentos específico nem sua digitalização integral. Localizar fundo, série e código de referência antes de solicitar documentos; parte da pesquisa pode exigir consulta presencial. Não usar uma descrição arquivística como prova de titularidade, cobrança ou vigência de obrigação sobre um imóvel.",
+    "lastChecked": "2026-10-23"
   },
   {
     "id": "aneel-siget",

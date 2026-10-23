@@ -2,6 +2,12 @@ name: Public Radar operational health
 on:
   pull_request:
     paths:
+      - 'index.html'
+      - 'data.js'
+      - 'data/*.js'
+      - 'app.js'
+      - 'styles.css'
+      - 'tests/public-health.test.js'
       - 'scripts/check-public-health.js'
       - '.github/workflows/public-health.yml'
   workflow_dispatch:
@@ -18,6 +24,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
+      - name: Test public health failure detection
+        run: node --test tests/public-health.test.js
       - name: Check deployed public site and assets
         run: node scripts/check-public-health.js
       - name: Record health result
