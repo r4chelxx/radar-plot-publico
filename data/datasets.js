@@ -633,18 +633,18 @@ window.RADAR_PARTS.datasets=[
     "coverage": "Brasil · outorgas preventivas e de direito de uso de recursos hídricos emitidas pela ANA em corpos d'água de domínio federal, com identificação de usos e referência à resolução da agência",
     "frequency": "Não informada na documentação pública do serviço; conferir atualização da camada antes de cada uso",
     "format": "Serviço geográfico ArcGIS FeatureServer com consultas REST em JSON e coordenadas WGS 84 (EPSG:4326)",
-    "period": "Outorgas registradas a partir de 2001, conforme descrição oficial do serviço; data final e completude devem ser conferidas na camada",
+    "period": "Período de cobertura não confirmado para esta camada alternativa; conferir datas e completude dos registros antes da análise",
     "granularity": "Registro individual de outorga, uso e localização; campos específicos conforme metadados da camada",
     "geoUnit": "Brasil; pontos/registros georreferenciados das outorgas federais, com possibilidade de recorte por estado e bacia",
     "api": "https://www.snirh.gov.br/arcgis/rest/services/SRE/OutorgasDireitodeUso/FeatureServer/0 — camada Outorgas Federais (0), consultas REST JSON; MaxRecordCount 2000 por requisição, exigir paginação",
     "docs": "https://www.snirh.gov.br/portal/snirh-1/paineis-de-indicadores/regulacao-de-usos-de-recursos-hidricos-1",
     "limitations": "A base cobre outorgas federais emitidas pela ANA, não a totalidade de captações nem outorgas estaduais, como as administradas pelo INEMA na Bahia. Outorga é autorização, não volume efetivamente captado. Para investigar data centers e disputa por água, cruzar com registros do INEMA, licenciamento ambiental e dados de consumo, validando a vigência e a precisão geográfica dos registros. A documentação não explicita frequência de atualização.",
-    "lastChecked": "2026-10-08",
+    "lastChecked": "2026-10-23",
     "url": "https://www.snirh.gov.br/arcgis/rest/services/SRE/OutorgasDireitodeUso/FeatureServer/0",
     "discoveredVia": [
       "ANA/SNIRH — Geosserviços de Outorgas"
     ],
-    "discoveryUrl": "https://www.snirh.gov.br/arcgis/rest/services/SRE/OutorgasDireitodeUso/FeatureServer"
+    "discoveryUrl": "https://portal1.snirh.gov.br/arcgis/rest/services/SRE/OutorgasFederais_FeatureLayer/FeatureServer"
   },
   {
     "id": "climate-trace-emissions-inventory",
@@ -1420,6 +1420,7 @@ window.RADAR_PARTS.datasets=[
     "geoUnit": "Município de Salvador; detalhamento varia por consulta",
     "api": "portal com consultas e downloads; confirmar interface de extração por módulo",
     "docs": "documentação institucional da CGM e recursos do Portal Transparência Salvador",
+    "limitations": "Portal de consulta, não uma base única: conferir período, filtros, unidade de análise e data de atualização em cada módulo antes de exportar ou cruzar registros. A tentativa de acesso de 23/10/2026 não foi concluída; a disponibilidade atual e os recursos de exportação permanecem sem confirmação nesta revisão.",
     "lastChecked": "2026-09-25",
     "name": "Transparência Salvador",
     "org": "Prefeitura de Salvador / CGM",
@@ -1613,6 +1614,7 @@ window.RADAR_PARTS.datasets=[
     "geoUnit": "Estado da Bahia; filtros variam por módulo",
     "api": "acesso por painéis e recursos disponibilizados pelo portal",
     "docs": "informações e módulos oficiais do Portal Transparência Bahia",
+    "limitations": "Os módulos têm coberturas e datas de atualização próprias. Registrar filtros, período e estágio da despesa; não somar valores de empenho, liquidação e pagamento como se fossem despesas distintas. A tentativa de acesso direto de 23/10/2026 não foi concluída; conferir o módulo e sua atualização antes da análise.",
     "lastChecked": "2026-09-24",
     "name": "Portal Transparência Bahia",
     "org": "SEFAZ-BA / AGE",
@@ -1683,6 +1685,7 @@ window.RADAR_PARTS.datasets=[
     "geoUnit": "varia conforme o conjunto publicado",
     "api": "catálogo CKAN com APIs e recursos por conjunto",
     "docs": "metadados e dicionários disponíveis nas páginas de cada conjunto",
+    "limitations": "O catálogo reúne conjuntos distintos, inclusive recursos descontinuados. Conferir o dicionário, a data de geração, a cobertura e os identificadores do recurso selecionado antes de combinar arquivos. A existência de um conjunto ou autorização não comprova operação efetiva, consumo de energia ou conexão de um empreendimento específico.",
     "lastChecked": "2026-09-24",
     "name": "ANEEL Dados Abertos",
     "org": "ANEEL",
@@ -3231,6 +3234,9 @@ window.RADAR_PARTS.datasets=[
     "id": "datacenters-aneel-mme-atos",
     "territoryTier": "Bahia",
     "kind": "curated-source",
+    "docs": "ANEEL — orientação de consulta à legislação: https://www.gov.br/aneel/pt-br/centrais-de-conteudos/biblioteca ; MME — legislação: https://www.gov.br/mme/pt-br/acesso-a-informacao/legislacao",
+    "limitations": "Ponto de entrada para localizar atos, não uma relação pronta de data centers. Pesquisar por empresa, empreendimento, processo e localidade; registrar número, órgão, data, objeto e eventuais alterações de cada ato. Uma autorização ou ato de transmissão não comprova implantação, operação, demanda efetiva ou conexão de um data center. Os atos específicos ainda precisam ser selecionados e conferidos.",
+    "lastChecked": "2026-10-23",
     "name": "ANEEL/MME — Atos de energia e transmissão",
     "org": "ANEEL / Ministério de Minas e Energia",
     "themes": [
@@ -3252,6 +3258,9 @@ window.RADAR_PARTS.datasets=[
     "granularity": "convocação/evento e lista de atletas",
     "geoUnit": "Seleção Brasileira Feminina",
     "api": "não identificada; consulta por publicações oficiais",
+    "docs": "Publicações oficiais da CBF por evento; exemplo localizado: https://www.cbf.com.br/selecao-brasileira/noticias/selecao-feminina-principal/a/arthur-elias-apresenta-convocadas-para-amistosos-contra-eua-e-periodo-de-preparacao",
+    "limitations": "Fonte para coleta manual por evento, não uma base histórica consolidada. Distinguir lista inicial, cortes, substituições e períodos de treino; preservar data, categoria e clube informado em cada publicação. Convocação não equivale a participação em partida. A referência oficial foi localizada em 23/10/2026, mas a leitura direta retornou erro; completude histórica e listas individuais ainda precisam de conferência.",
+    "lastChecked": "2026-10-23",
     "name": "CBF — convocações oficiais da Seleção Brasileira Feminina",
     "org": "CBF",
     "themes": [
@@ -3269,7 +3278,10 @@ window.RADAR_PARTS.datasets=[
     "territoryTier": "Salvador",
     "kind": "curated-source",
     "api": "não aplicável",
-    "name": "APEB — Aforamentos e códices",
+    "docs": "APEB — apresentação do acervo e orientação de pesquisa em inventários, Guia de Fundos, AtoM e SICRO: https://www.ba.gov.br/fpc/arquivo-publico-acervo",
+    "limitations": "A página descreve o acervo geral do APEB; esta referência não confirma um fundo ou série de aforamentos específico nem sua digitalização integral. Localizar fundo, série e código de referência antes de solicitar documentos; parte da pesquisa pode exigir consulta presencial. Não usar uma descrição arquivística como prova de titularidade, cobrança ou vigência de obrigação sobre um imóvel.",
+    "lastChecked": "2026-10-23",
+    "name": "APEB — acervo para pesquisa de aforamentos e códices",
     "org": "Arquivo Público do Estado da Bahia",
     "themes": [
       "Salvador",

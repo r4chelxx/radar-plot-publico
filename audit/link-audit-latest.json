@@ -1,13 +1,24 @@
 {
-  "checkedAt": "2026-10-23T11:56:01.208Z",
+  "checkedAt": "2026-10-23T16:52:35.894Z",
   "policy": "404/410 becomes broken only after appearing as suspect or broken in the previous audit; blocked and network results are inconclusive",
   "counts": {
-    "ok": 350,
+    "ok": 355,
     "blocked": 37,
     "network": 45,
     "suspect": 1
   },
   "results": [
+    {
+      "type": "opportunity",
+      "id": "vital-impacts-environmental-photography-2027",
+      "url": "https://vitalimpacts.org/pages/the-vital-impacts-environmental-photography-grant",
+      "status": 200,
+      "finalUrl": "https://vitalimpacts.org/pages/the-vital-impacts-environmental-photography-grant",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
     {
       "type": "opportunity",
       "id": "ipys-transnational-investigations-2026",
@@ -1184,7 +1195,6 @@
       "finalUrl": "https://mandates.un.org/secretariat",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -1735,7 +1745,6 @@
       "finalUrl": "https://www.ba.gov.br/ssp/publicacoes",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -1747,7 +1756,6 @@
       "finalUrl": "https://www.ba.gov.br/ssp/dados-abertos",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -1755,11 +1763,13 @@
       "type": "dataset",
       "id": "aneel",
       "url": "https://dadosabertos.aneel.gov.br/",
-      "status": 200,
-      "finalUrl": "https://dadosabertos.aneel.gov.br/",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "AbortError:This operation was aborted",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -1888,6 +1898,7 @@
       "finalUrl": "https://dadosabertos.aneel.gov.br/dataset/ocorrencias-emergenciais-nas-redes-de-distribuicao",
       "class": "ok",
       "attempts": [
+        "TypeError:fetch failed",
         200
       ]
     },
@@ -1989,13 +2000,11 @@
       "type": "dataset",
       "id": "sesab-obitos",
       "url": "https://www.saude.ba.gov.br/suvisa/vigilancia-epidemiologica/",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://www.ba.gov.br/saude/suvisa/vigilancia-epidemiologica",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -2050,6 +2059,7 @@
       "finalUrl": "https://www.gov.br/ana/pt-br/assuntos/regulacao-e-fiscalizacao/cadastro-nacional-de-usuarios-recursos-hidricos-cnarh",
       "class": "ok",
       "attempts": [
+        "TypeError:fetch failed",
         200
       ]
     },
@@ -2155,6 +2165,7 @@
       "finalUrl": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/acoes-e-programas/programas-projetos-acoes-obras-e-atividades/estatisticas-trabalho/rais/rais-2025/rais-2025",
       "class": "ok",
       "attempts": [
+        "TypeError:fetch failed",
         200
       ]
     },
@@ -2166,6 +2177,7 @@
       "finalUrl": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/acoes-e-programas/programas-projetos-acoes-obras-e-atividades/estatisticas-trabalho/novo-caged/2026/agosto/pagina-inicial",
       "class": "ok",
       "attempts": [
+        "TypeError:fetch failed",
         200
       ]
     },
@@ -2600,6 +2612,7 @@
       "finalUrl": "https://dadosabertos.ibama.gov.br/dataset/fiscalizacao-auto-de-infracao",
       "class": "ok",
       "attempts": [
+        502,
         200
       ]
     },
@@ -2835,11 +2848,11 @@
       "type": "source",
       "id": "One World Media Awards",
       "url": "https://oneworldmedia.org.uk/awards/",
-      "status": 202,
+      "status": 200,
       "finalUrl": "https://oneworldmedia.org.uk/awards/",
       "class": "ok",
       "attempts": [
-        202
+        200
       ]
     },
     {
@@ -3006,11 +3019,11 @@
       "type": "source",
       "id": "Rory Peck Trust",
       "url": "https://rorypecktrust.org/",
-      "status": 202,
+      "status": 200,
       "finalUrl": "https://rorypecktrust.org/",
       "class": "ok",
       "attempts": [
-        202
+        200
       ]
     },
     {
@@ -3061,22 +3074,22 @@
       "type": "source",
       "id": "One World Media — Awards e Fellowship",
       "url": "https://oneworldmedia.org.uk/fellowship/",
-      "status": 202,
+      "status": 200,
       "finalUrl": "https://oneworldmedia.org.uk/fellowship/",
       "class": "ok",
       "attempts": [
-        202
+        200
       ]
     },
     {
       "type": "source",
       "id": "Amado Mundo — oportunidades de formação",
       "url": "https://amadomundo.com/",
-      "status": 202,
+      "status": 200,
       "finalUrl": "https://amadomundo.com/",
       "class": "ok",
       "attempts": [
-        202
+        200
       ]
     },
     {
@@ -4341,6 +4354,50 @@
       "url": "https://journaliststudio.google.com/",
       "status": 200,
       "finalUrl": "https://journaliststudio.google.com/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "arctic-shift-reddit-archive",
+      "url": "https://arctic-shift.photon-reddit.com/search",
+      "status": 200,
+      "finalUrl": "https://arctic-shift.photon-reddit.com/search",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "web-archive-viewer",
+      "url": "https://webinternetarchive.com/",
+      "status": 200,
+      "finalUrl": "https://webinternetarchive.com/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "dochush-pdf-redaction-checker",
+      "url": "https://dochush.com/tools/pdf-redaction-checker/",
+      "status": 200,
+      "finalUrl": "https://dochush.com/tools/pdf-redaction-checker/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "pangram-ai-detector",
+      "url": "https://www.pangram.com/",
+      "status": 200,
+      "finalUrl": "https://www.pangram.com/",
       "class": "ok",
       "attempts": [
         200

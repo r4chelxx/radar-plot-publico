@@ -1,0 +1,97 @@
+name: Publish approved editorial records
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'intake/approved-publications.json'
+      - '.github/workflows/editorial-publish.yml'
+  schedule:
+    - cron: "0 14 * * *"
+concurrency:
+  group: radar-editorial-publish
+  cancel-in-progress: false
+permissions:
+  contents: write
+  pull-requests: write
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Test editorial publication safeguards
+        run: node scripts/test-editorial-pipeline.js
+      - name: Build catalog additions from approved evidence only
+        run: node scripts/publish-approved.js
+      - name: Detect whether any approved records are new
+        id: changes
+        shell: bash
+        run: |
+          if git diff --quiet -- data/opportunities.js data/datasets.js data/tools.js data/changelog.js; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Refresh cache keys for updated public catalogs
+        if: steps.changes.outputs.changed == 'true'
+        env:
+          RUN_ID: ${{ github.run_id }}
+        run: |
+          node - <<'NODE'
+          const fs=require('fs');
+          let html=fs.readFileSync('index.html','utf8');
+          for(const part of ['opportunities','datasets','tools','changelog']){
+            const rx=new RegExp('data/'+part+'[.]js[?]v=[^" ]+','g');
+            html=html.replace(rx,'data/'+part+'.js?v=editorial-'+process.env.RUN_ID);
+          }
+          fs.writeFileSync('index.html',html);
+          NODE
+      - name: Validate editorial data
+        if: steps.changes.outputs.changed == 'true'
+        run: node scripts/validate-data.js
+      - name: Test static UI
+        if: steps.changes.outputs.changed == 'true'
+        run: node scripts/test-ui-static.js
+      - name: Test discovery safeguards
+        if: steps.changes.outputs.changed == 'true'
+        run: node scripts/test-web-intake.js
+      - name: Install browser test dependencies
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          npm install --no-save @playwright/test@1.56.1
+          npx playwright install --with-deps chromium
+      - name: Test desktop and mobile
+        if: steps.changes.outputs.changed == 'true'
+        run: npx playwright test
+      - name: Audit public links before publication
+        if: steps.changes.outputs.changed == 'true'
+        run: node scripts/check-links.js
+      - name: Create and merge verified editorial PR
+        if: steps.changes.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          branch="radar-approved-${{ github.run_id }}"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git switch -c "$branch"
+          git add data/opportunities.js data/datasets.js data/tools.js data/changelog.js index.html
+          git commit -m "Editorial: publish verified records"
+          git push origin "$branch"
+          pr_url=$(gh pr create --base main --head "$branch" --title "Radar editorial: approved publications ${{ github.run_id }}" --body "Only entries explicitly approved in intake/approved-publications.json. Validation, static UI, web-intake regression, Playwright browser tests and link audit passed in this publishing workflow. No unverified leads are promoted.")
+          echo "Created $pr_url"
+          gh pr merge "$pr_url" --squash --delete-branch
+          echo "Published via $pr_url" >> "$GITHUB_STEP_SUMMARY"
+      - name: Verify approved records on deployed public site
+        env:
+          RADAR_DEPLOY_RETRIES: "10"
+          RADAR_DEPLOY_DELAY_MS: "15000"
+        run: node scripts/verify-published-records.js

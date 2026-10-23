@@ -1,6 +1,42 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
   {
+  "date": "2026-10-23",
+  "type": "nova-oportunidade",
+  "title": "Vital Impacts abre bolsas internacionais para fotografia documental ambiental",
+  "items": [
+    {
+      "id": "vital-impacts-environmental-photography-2027",
+      "title": "Vital Impacts — Environmental Photography Fellowships 2027"
+    }
+  ],
+  "detail": "Edital oficial confirmado: uma bolsa de US$ 20 mil, seis de US$ 5 mil e dez mentorias para fotografia documental ambiental. Prazo em 30/11/2026, com exigências de portfólio, proposta e critérios de isenção de taxa."
+},
+  {
+    "date": "2026-10-23",
+    "type": "ferramentas",
+    "title": "Quatro ferramentas verificadas para investigação digital e segurança documental",
+    "items": [
+      {
+        "id": "arctic-shift-reddit-archive",
+        "title": "Arctic Shift — arquivo e API do Reddit"
+      },
+      {
+        "id": "web-archive-viewer",
+        "title": "Web Archive Viewer"
+      },
+      {
+        "id": "dochush-pdf-redaction-checker",
+        "title": "DocHush — PDF Redaction Checker"
+      },
+      {
+        "id": "pangram-ai-detector",
+        "title": "Pangram — detector de texto gerado por IA"
+      }
+    ],
+    "detail": "Adicionados Arctic Shift, Web Archive Viewer, DocHush PDF Redaction Checker e Pangram, com fontes oficiais, limites de acesso e ressalvas de cobertura, privacidade e confiabilidade. Pangram é ferramenta de triagem probabilística e não prova autoria."
+  },
+  {
     "date": "2026-10-22",
     "type": "nova-oportunidade",
     "title": "EJN abre bolsas para cobertura da primeira COP do Tratado do Alto-Mar",

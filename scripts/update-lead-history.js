@@ -16,7 +16,10 @@ for(const lead of triage.leads||[]){
  const old=next.leads[id];
  const item={url,title:lead.title,source:lead.source,category:lead.category,classification:lead.classification,
   firstSeen:old?.firstSeen||now,lastSeen:now,seenCount:(old?.seenCount||0)+1,
-  editorialStatus:old?.editorialStatus||'unverified'};
+  editorialStatus:old?.editorialStatus||'unverified',
+  lastInspectedAt:old?.lastInspectedAt||null,pageStatus:old?.pageStatus||null,
+  inspectionCount:old?.inspectionCount||0,reviewedAt:old?.reviewedAt||null,reviewedBy:old?.reviewedBy||null,
+  editorialEvidence:old?.editorialEvidence||null,decisionReason:old?.decisionReason||null};
  next.leads[id]=item;
  if(!old)delta.new.push({id,url,title:lead.title,category:lead.category});
  else{
@@ -25,7 +28,24 @@ for(const lead of triage.leads||[]){
    delta.changed.push({id,url,previous:{title:old.title,category:old.category,classification:old.classification},current:{title:item.title,category:item.category,classification:item.classification}});
  }
 }
-const summary={generatedAt:now,stateLoaded:loaded,storedTotal:Object.keys(next.leads).length,seenThisRun:currentIds.size,new:delta.new.length,returning:delta.returning.length,changed:delta.changed.length,invalid:delta.invalid.length,
+// Record attempts from the full historical pool, including links absent from today's feeds.
+const evidencePath='intake/lead-evidence.json';
+let inspectedHistorical=0,unreachable=0;
+if(fs.existsSync(evidencePath)){
+ const evidence=JSON.parse(fs.readFileSync(evidencePath,'utf8'));
+ for(const item of evidence.results||[]){
+  let id;try{id=identity(item.url).id}catch{continue}
+  const old=next.leads[id]||previous.leads[id];
+  if(!old)continue;
+  next.leads[id]={...old,lastInspectedAt:now,pageStatus:item.pageStatus,
+   inspectionCount:(old.inspectionCount||0)+1,
+   // HTTP success or a fetched page is NOT an editorial decision.
+   editorialStatus:old.editorialStatus||'unverified'};
+  inspectedHistorical++;
+  if(item.pageStatus!=='html-fetched')unreachable++;
+ }
+}
+const summary={generatedAt:now,stateLoaded:loaded,storedTotal:Object.keys(next.leads).length,seenThisRun:currentIds.size,inspectedHistorical,unreachable,new:delta.new.length,returning:delta.returning.length,changed:delta.changed.length,invalid:delta.invalid.length,
  policy:'Only public web links. New means unseen in persisted history, not a new or eligible opportunity. No Gmail data.'};
 fs.writeFileSync('intake/lead-history-next.json',JSON.stringify(next,null,2)+'\n');
 fs.writeFileSync('intake/lead-history-delta.json',JSON.stringify({summary,delta},null,2)+'\n');
