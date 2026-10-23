@@ -9,6 +9,8 @@ on:
       - 'app.js'
       - 'styles.css'
       - 'scripts/check-public-health.js'
+      - 'scripts/check-deployed-revision.js'
+      - 'tests/deployed-revision.test.js'
       - 'scripts/check-operational-state.js'
       - 'scripts/verify-published-records.js'
       - 'intake/approved-publications.json'
@@ -35,7 +37,7 @@ permissions:
 jobs:
   public-health:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 7
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -45,8 +47,16 @@ jobs:
         run: node --test tests/public-health.test.js
       - name: Test daily editorial state consistency
         run: node --test tests/operational-state.test.js
+      - name: Test deployed revision detection
+        run: node --test tests/deployed-revision.test.js
       - name: Check deployed public site and assets
         run: node scripts/check-public-health.js
+      - name: Confirm deployed assets match main after propagation
+        if: github.event_name != 'pull_request'
+        env:
+          RADAR_DEPLOY_RETRIES: '12'
+          RADAR_DEPLOY_DELAY_MS: '10000'
+        run: node scripts/check-deployed-revision.js
       - name: Verify approved catalog records actually reached public deployment
         env:
           RADAR_DEPLOY_RETRIES: '2'
