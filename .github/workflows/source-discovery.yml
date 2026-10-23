@@ -84,7 +84,6 @@ jobs:
       - name: Compare extracted titles against catalog entries
         run: node scripts/triage-candidates.js
       - name: Restore public lead history
-        if: github.ref == 'refs/heads/main' && (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch' || github.event_name == 'push')
         env:
           GH_TOKEN: ${{ github.token }}
         run: |

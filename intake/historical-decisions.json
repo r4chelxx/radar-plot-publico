@@ -1,4 +1,37 @@
 {
   "policy": "Explicit editorial decisions for public historical links. Do not mark approved without a verified publication manifest or published without a matching catalog URL.",
-  "decisions": []
+  "decisions": [
+    {
+      "reviewedBy": "Radar PLOT — revisão editorial assistida",
+      "reviewedAt": "2026-10-23",
+      "url": "https://www.elasnocongresso.com.br/quiteria",
+      "status": "approved",
+      "officialUrl": "https://www.elasnocongresso.com.br/ia-feminista",
+      "reason": "Ferramenta de monitoramento legislativo com metodologia pública, modelos e limitações documentados na fonte primária AzMina/Elas no Congresso; registro aprovado no manifesto de ferramentas, sem duplicidade no catálogo."
+    },
+    {
+      "reviewedBy": "Radar PLOT — revisão editorial assistida",
+      "reviewedAt": "2026-10-23",
+      "url": "https://www.gov.br/pt-br/temas/servicos-para-imigrantes",
+      "status": "rejected",
+      "officialUrl": "https://www.gov.br/pt-br/temas/servicos-para-imigrantes",
+      "reason": "Página genérica de serviços administrativos para imigrantes, extraída de fonte de dados de ouvidoria; não constitui ferramenta investigativa específica, base de dados ou oportunidade editorial para o catálogo."
+    },
+    {
+      "reviewedBy": "Radar PLOT — revisão editorial assistida",
+      "reviewedAt": "2026-10-23",
+      "url": "https://www.gov.br/pt-br/servicos/receber-o-bolsa-familia",
+      "status": "rejected",
+      "officialUrl": "https://www.gov.br/pt-br/servicos/receber-o-bolsa-familia",
+      "reason": "Serviço de solicitação/recebimento de benefício social, capturado como link incidental da fonte Compras.gov.br; não é conjunto de dados, ferramenta de investigação ou edital para jornalistas."
+    },
+    {
+      "reviewedBy": "Radar PLOT — revisão editorial assistida",
+      "reviewedAt": "2026-10-23",
+      "url": "https://www.mediawiki.org/w/index.php",
+      "status": "rejected",
+      "officialUrl": "https://www.mediawiki.org/w/index.php",
+      "reason": "Endereço genérico de entrada do MediaWiki sem parâmetros do artigo original; não representa uma ferramenta específica verificável nem conteúdo autônomo apropriado ao catálogo."
+    }
+  ]
 }
