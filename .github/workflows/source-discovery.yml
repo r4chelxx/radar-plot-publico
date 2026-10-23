@@ -7,6 +7,7 @@ on:
     paths:
       - 'data/sources.js'
       - 'scripts/source-intake.js'
+      - 'scripts/check-source-alternatives.js'
       - 'scripts/normalize-lead-link.js'
       - 'tests/normalize-lead-link.test.js'
       - 'scripts/load-source-catalog.js'
@@ -67,6 +68,8 @@ jobs:
         run: node --test tests/lead-history.test.js tests/source-catalog.test.js tests/editorial-review.test.js tests/editorial-priority.test.js tests/inspection-order.test.js tests/lead-privacy.test.js tests/normalize-lead-link.test.js
       - name: Inspect monitored source websites
         run: node scripts/source-intake.js
+      - name: Diagnose official alternative URLs (non-mutating)
+        run: node scripts/check-source-alternatives.js
       - name: Compare extracted titles against catalog entries
         run: node scripts/triage-candidates.js
       - name: Restore public lead history
@@ -92,6 +95,7 @@ jobs:
           name: source-intake-${{ github.run_id }}
           path: |
             intake/source-review.json
+            intake/alternative-access.json
             intake/candidate-triage.json
             intake/lead-evidence.json
             intake/editorial-review.json
