@@ -1,5 +1,13 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.tools=[
+{
+  "id": "quiteria-ia-feminista-azmina",
+  "name": "QuitérIA — IA feminista de monitoramento legislativo",
+  "kind": "monitoramento legislativo e análise de projetos de lei",
+  "url": "https://www.elasnocongresso.com.br/ia-feminista",
+  "desc": "Ferramenta do Elas no Congresso/AzMina que utiliza modelos BERTimbau para classificar projetos de lei federais em dez temas de gênero e estimar desfavorabilidade. Disponibiliza metodologia, dados, código e documentação de API. Classificações automatizadas exigem conferência humana; os resultados não substituem análise jurídica, contexto legislativo nem verificação das proposições originais.",
+  "discoveryUrl": "https://www.elasnocongresso.com.br/quiteria"
+},
   {
     "id": "arctic-shift-reddit-archive",
     "name": "Arctic Shift — arquivo e API do Reddit",

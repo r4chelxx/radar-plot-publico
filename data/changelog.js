@@ -1,5 +1,17 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
+{
+  "date": "2026-10-23",
+  "type": "ferramentas",
+  "title": "QuitérIA — ferramenta de monitoramento legislativo verificada",
+  "items": [
+    {
+      "id": "quiteria-ia-feminista-azmina",
+      "title": "QuitérIA — IA feminista de monitoramento legislativo"
+    }
+  ],
+  "detail": "Ferramenta Elas no Congresso/AzMina incorporada após auditoria do acervo histórico, com documentação oficial e ressalvas sobre limitações da classificação automatizada."
+},
   {
   "date": "2026-10-23",
   "type": "nova-oportunidade",
