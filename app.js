@@ -75,9 +75,26 @@ function shortDesc(o){let s=(o.summary||o.desc||"").trim();if(!s)return"";let fi
 function orow(o){return'<div class="row clickable" onclick="location.hash=\'oportunidade/'+o.id+'\'"><div><div class="org">'+o.org+'</div><h3>'+o.title+' '+stateMark("opportunity",o.id)+'</h3>'+discoveryLine(o)+'<p class="oppsummary">'+shortDesc(o)+'</p>'+(o.themes||[]).map(x=>badge(x)).join("")+quickActions(o)+'</div><div><div class="meta">'+(o.deadline?fmt(o.deadline):o.deadlineStatus==="rolling"?"Fluxo contínuo":"Sem data confirmada")+'</div></div><div>'+(personalReady()?'<span class="score">'+o.fit+'</span><span class="meta"> / 10 · PLOT.</span>':'Requisitos na fonte oficial')+'</div><div>'+(personalReady()?badge(o.eligibility,false):'<a href="'+o.rules+'" target="_blank" rel="noopener">Consultar regras ↗</a>')+'</div></div>'}
 function updateItemHref(type,id){if(type==="nova-oportunidade")return"#oportunidade/"+id;if(type==="dados")return"#base/"+id;return"#ferramentas"}
 function dailyUpdatePanel(){
- let types=[["nova-oportunidade","Oportunidades"],["dados","Dados & Bases"],["ferramentas","Ferramentas"]],entries=(D.changelog||[]).filter(x=>types.some(([type])=>type===x.type)).sort((a,b)=>b.date.localeCompare(a.date)),latest=entries[0]?.date,updates=entries.filter(x=>x.date===latest);
- if(!latest||!updates.length)return"";
- return'<section class="dailyupdates"><div class="dailyupdatehead"><div><div class="eyebrow">Atualização diária</div><h2>Entrou no Radar em '+fmt(latest)+'</h2><p>Última rodada publicada nas três frentes do Radar: oportunidades, bases e ferramentas.</p></div><div class="dailyactions"><span>'+updates.reduce((n,x)=>n+(x.items?.length||1),0)+' novos registros</span><a class="btn" href="#metodologia/mudancas">Histórico completo</a></div></div><div class="updategrid">'+types.map(([type,label])=>{let rows=updates.filter(x=>x.type===type),items=rows.flatMap(x=>(x.items?.length?x.items:[{title:x.title,detail:x.detail}]).map(i=>({...i,detail:i.detail||x.detail})));return'<div class="updategroup '+type+'"><div class="updategrouptitle"><h3>'+label+'</h3><b>'+items.length+'</b></div>'+(items.length?items.map(i=>'<a class="updateitem" href="'+updateItemHref(type,i.id||"")+'"><b>'+escHTML(i.title)+'</b>'+(i.detail?'<span>'+escHTML(i.detail)+'</span>':"")+'</a>').join(""):'<p class="meta">Nenhuma inclusão nesta execução.</p>')+'</div>'}).join("")+'</div></section>'
+ const types=[["nova-oportunidade","Oportunidades"],["dados","Dados & Bases"],["ferramentas","Ferramentas"]];
+ const entries=(D.changelog||[]).filter(x=>types.some(([type])=>type===x.type)&&x.date).sort((a,b)=>b.date.localeCompare(a.date));
+ const dates=[...new Set(entries.map(x=>x.date))].slice(0,2);
+ if(!dates.length)return"";
+ const updates=entries.filter(x=>dates.includes(x.date));
+ const groups=types.map(([type,label])=>{
+  const seen=new Set(),items=[];
+  for(const x of updates.filter(x=>x.type===type)){
+   for(const item of x.items?.length?x.items:[{title:x.title,detail:x.detail}]){
+    const key=item.id||item.title;
+    if(seen.has(key))continue;
+    seen.add(key);
+    items.push({...item,date:x.date,detail:item.detail||x.detail});
+   }
+  }
+  return{type,label,items};
+ });
+ const total=groups.reduce((n,g)=>n+g.items.length,0);
+ const title=dates.length===1?"Entrou no Radar em "+fmt(dates[0]):"Entrou no Radar em "+fmt(dates[1])+" e "+fmt(dates[0]);
+ return'<section class="dailyupdates"><div class="dailyupdatehead"><div class="eyebrow">Atualizações recentes</div><h2>'+title+'</h2><p>Últimas duas datas com publicações em oportunidades, bases e ferramentas. As datas de cada registro são preservadas.</p></div><div class="dailyactions"><span>'+total+' registros nas últimas '+dates.length+' '+(dates.length===1?"data":"datas")+'</span><a class="btn" href="#metodologia/mudancas">Histórico completo</a></div></div><div class="updategrid">'+groups.map(({type,label,items})=>'<div class="updategroup '+type+'"><div class="updategrouptitle"><h3>'+label+'</h3><b>'+items.length+'</b></div>'+(items.length?items.map(i=>'<a class="updateitem" href="'+updateItemHref(type,i.id||"")+'"><b>'+escHTML(i.title)+'</b><span class="meta">Publicado em '+fmt(i.date)+'</span>'+(i.detail?'<span>'+escHTML(i.detail)+'</span>':"")+'</a>').join(""):'<p class="meta">Nenhuma inclusão nas datas exibidas.</p>')+'</div>').join("")+'</div></section>';
 }
 function publicHome(){
  const active=D.opportunities.filter(o=>!["encerrada","descartada"].includes(o.status));
