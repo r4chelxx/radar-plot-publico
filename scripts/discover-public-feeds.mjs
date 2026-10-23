@@ -19,15 +19,15 @@ async function homepageFallback(feed){
  const r=await fetch(feed.fallback,{signal:AbortSignal.timeout(12000),headers:{'user-agent':'Radar-PLOT-Discovery/1.0','accept':'text/html'}});
  if(!r.ok)throw Error('Homepage HTTP '+r.status);
  const html=(await r.text()).slice(0,1000000),found=[];
- const host=new URL(feed.fallback).hostname.replace(/^www\\./,'');
- for(const m of html.matchAll(/<a\\b([^>]*?)>([\\s\\S]*?)<\\/a>/gi)){
-  const href=m[1].match(/\\bhref\\s*=\\s*["']([^"']+)["']/i)?.[1];
+ const host=new URL(feed.fallback).hostname.replace(/^www\./,'');
+ for(const m of html.matchAll(/<a\b([^>]*?)>([\s\S]*?)<\/a>/gi)){
+  const href=m[1].match(/\bhref\s*=\s*["']([^"']+)["']/i)?.[1];
   if(!href)continue;
-  const title=decode(m[2]).replace(/\\s+/g,' ').slice(0,220);
+  const title=decode(m[2]).replace(/\s+/g,' ').slice(0,220);
   if(title.length<12||!relevant.test(title))continue;
   try{
    const u=new URL(href,feed.fallback);
-   if(u.hostname.replace(/^www\\./,'')!==host)continue;
+   if(u.hostname.replace(/^www\./,'')!==host)continue;
    const url=canonical(u.toString());
    if(!found.some(x=>x.url===url))found.push({url,title,category:'uncategorized',sourceName:feed.name});
   }catch{}
