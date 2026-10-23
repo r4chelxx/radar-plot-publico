@@ -16,6 +16,7 @@ on:
       - 'scripts/merge-editorial-queue.js'
       - 'scripts/test-editorial-pipeline.js'
       - 'scripts/publish-approved.js'
+      - 'scripts/verify-published-records.js'
       - 'intake/approved-publications.json'
       - '.github/workflows/editorial-publish.yml'
       - 'scripts/report-discovery-operations.js'
@@ -41,7 +42,9 @@ jobs:
       - name: Test web intake safeguards
         run: node scripts/test-web-intake.js
       - name: Test editorial publication safeguards
-        run: node scripts/test-editorial-pipeline.js
+        run: |
+          node scripts/test-editorial-pipeline.js
+          node --check scripts/verify-published-records.js
       - name: Validate operational probe syntax
         run: node --check scripts/check-public-health.js
       - name: Test cross-account ownership model

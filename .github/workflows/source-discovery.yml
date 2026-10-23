@@ -28,6 +28,8 @@ on:
       - 'scripts/inspect-lead-pages.js'
       - 'scripts/select-historical-backlog.js'
       - 'scripts/apply-editorial-decisions.js'
+      - 'scripts/build-historical-review-batch.js'
+      - 'tests/historical-editorial-batch.test.js'
       - 'intake/historical-decisions.json'
       - 'tests/historical-backlog.test.js'
       - '.github/workflows/source-discovery.yml'
@@ -74,7 +76,7 @@ jobs:
       - name: Check source collector syntax and daily coverage
         run: node --test tests/source-intake-coverage.test.js
       - name: Test persistent lead history
-        run: node --test tests/historical-backlog.test.js tests/lead-history.test.js tests/source-catalog.test.js tests/editorial-review.test.js tests/editorial-priority.test.js tests/inspection-order.test.js tests/lead-privacy.test.js tests/normalize-lead-link.test.js
+        run: node --test tests/historical-backlog.test.js tests/historical-editorial-batch.test.js tests/lead-history.test.js tests/source-catalog.test.js tests/editorial-review.test.js tests/editorial-priority.test.js tests/inspection-order.test.js tests/lead-privacy.test.js tests/normalize-lead-link.test.js
       - name: Inspect monitored source websites
         run: node scripts/source-intake.js
       - name: Diagnose official alternative URLs (non-mutating)
@@ -99,6 +101,10 @@ jobs:
         run: node scripts/update-lead-history.js
       - name: Apply verified editorial decisions to historical state
         run: node scripts/apply-editorial-decisions.js
+      - name: Build actionable historical editorial review batch
+        env:
+          EDITORIAL_BATCH_LIMIT: '15'
+        run: node scripts/build-historical-review-batch.js
       - name: Prioritize editorial review from historical changes
         run: node scripts/prioritize-editorial-review.js
       - name: Publish run summary in GitHub Actions
@@ -112,6 +118,8 @@ jobs:
             intake/candidate-triage.json
             intake/lead-evidence.json
             intake/editorial-review.json
+            intake/historical-editorial-batch.json
+            intake/historical-editorial-batch.md
             intake/lead-history-delta.json
             intake/lead-history-next.json
             intake/run-summary.md
@@ -170,7 +178,7 @@ jobs:
           day=$(TZ=America/Bahia date +%F)
           title="Radar editorial: $day"
           issue=$(gh issue list --state open --search "$title in:title" --json number,title --jq ".[] | select(.title == \"$title\") | .number" | head -n 1)
-          report="Relatório técnico: https://github.com/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}. Pistas não verificadas; revisão editorial obrigatória antes de publicar."
+          report="Lote histórico de 15 candidatos e evidências (historical-editorial-batch.json/.md): https://github.com/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}. Revisar fontes oficiais, prazos, elegibilidade e duplicidades. Registrar decisões no manifesto; não publicar pistas não verificadas."
           if [ -n "$issue" ]; then
             gh issue comment "$issue" --body "$report"
           else

@@ -18,7 +18,7 @@ for(const lead of triage.leads||[]){
   firstSeen:old?.firstSeen||now,lastSeen:now,seenCount:(old?.seenCount||0)+1,
   editorialStatus:old?.editorialStatus||'unverified',
   lastInspectedAt:old?.lastInspectedAt||null,pageStatus:old?.pageStatus||null,
-  inspectionCount:old?.inspectionCount||0,reviewedAt:old?.reviewedAt||null,
+  inspectionCount:old?.inspectionCount||0,reviewedAt:old?.reviewedAt||null,reviewedBy:old?.reviewedBy||null,
   editorialEvidence:old?.editorialEvidence||null,decisionReason:old?.decisionReason||null};
  next.leads[id]=item;
  if(!old)delta.new.push({id,url,title:lead.title,category:lead.category});

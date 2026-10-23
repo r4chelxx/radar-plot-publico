@@ -48,7 +48,7 @@ jobs:
           let html=fs.readFileSync('index.html','utf8');
           for(const part of ['opportunities','datasets','tools','changelog']){
             const rx=new RegExp('data/'+part+'[.]js[?]v=[^" ]+','g');
-            html=html.replace(rx,(_,prefix)=>prefix+'editorial-'+process.env.RUN_ID);
+            html=html.replace(rx,'data/'+part+'.js?v=editorial-'+process.env.RUN_ID);
           }
           fs.writeFileSync('index.html',html);
           NODE
@@ -90,3 +90,8 @@ jobs:
           echo "Created $pr_url"
           gh pr merge "$pr_url" --squash --delete-branch
           echo "Published via $pr_url" >> "$GITHUB_STEP_SUMMARY"
+      - name: Verify approved records on deployed public site
+        env:
+          RADAR_DEPLOY_RETRIES: "10"
+          RADAR_DEPLOY_DELAY_MS: "15000"
+        run: node scripts/verify-published-records.js
