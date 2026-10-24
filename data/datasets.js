@@ -3990,5 +3990,127 @@ window.RADAR_PARTS.datasets=[
     "frequency": "Conforme publicação da Receita Federal",
     "format": "Arquivos estruturados / metadados / consulta individual",
     "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/dados-abertos/cadastros"
+  },
+  {
+    "id": "cvm-crowdfunding-plataformas-cadastro",
+    "name": "CVM — cadastro de plataformas de crowdfunding",
+    "org": "Comissão de Valores Mobiliários (CVM) / Superintendência de Supervisão de Securitização",
+    "territoryTier": "Brasil",
+    "kind": "dataset",
+    "themes": [
+      "Mercado de capitais",
+      "Crowdfunding",
+      "Fintech",
+      "Empresas",
+      "Transparência",
+      "Regulação"
+    ],
+    "coverage": "Dados cadastrais das plataformas de crowdfunding reguladas pela CVM, referentes à posição do último dia útil",
+    "frequency": "Diária",
+    "format": "Arquivo ZIP e dicionário de dados",
+    "period": "Fotografia cadastral do último dia útil; conjunto criado em junho de 2021",
+    "granularity": "Plataforma de crowdfunding / participante regulado",
+    "geoUnit": "Brasil; entidade cadastrada na CVM",
+    "api": "Download de arquivos pelo portal CKAN da CVM; não há API específica documentada para este conjunto",
+    "docs": "https://dados.cvm.gov.br/dataset/crowdfunding-cad",
+    "limitations": "É uma fotografia cadastral, não uma série histórica garantida. Estar cadastrado não comprova oferta ativa, regularidade de campanha ou desempenho financeiro; confirme situação e documentos regulatórios no momento da apuração.",
+    "lastChecked": "2026-10-24",
+    "url": "https://dados.cvm.gov.br/dataset/crowdfunding-cad",
+    "discoveredVia": [
+      "CVM — Dados Abertos"
+    ],
+    "discoveryUrl": "https://dados.cvm.gov.br/dataset/crowdfunding-cad"
+  },
+  {
+    "id": "fnde-dados-abertos-catalogo",
+    "name": "FNDE — catálogo de dados abertos",
+    "org": "Fundo Nacional de Desenvolvimento da Educação (FNDE)",
+    "territoryTier": "Brasil",
+    "kind": "catalog",
+    "themes": [
+      "Educação",
+      "Financiamento educacional",
+      "Orçamento público",
+      "Programas públicos",
+      "Transparência"
+    ],
+    "coverage": "Ponto oficial de acesso ao Plano de Dados Abertos 2026–2028 e aos conjuntos publicados pelo FNDE sobre políticas, transferências, programas e financiamento da educação",
+    "frequency": "Varia por conjunto; o Plano de Dados Abertos é atualizado a cada biênio",
+    "format": "Catálogo e recursos em formatos que variam por conjunto no dados.gov.br",
+    "period": "Varia por base e programa; consultar metadados do recurso específico",
+    "granularity": "Varia por conjunto, incluindo programa, repasse, ente, escola ou beneficiário quando previsto",
+    "geoUnit": "Brasil, UF, município, escola ou unidade administrativa, conforme o conjunto",
+    "api": "Não há API unificada confirmada; verificar recursos e documentação de cada conjunto",
+    "docs": "https://www.gov.br/fnde/pt-br/acesso-a-informacao/dados-abertos",
+    "limitations": "A página é uma porta de entrada, não uma base única. Cobertura, atualização, granularidade, licença e qualidade variam; registre o conjunto e a data de extração e confirme a fonte administrativa antes de comparar indicadores.",
+    "lastChecked": "2026-10-24",
+    "url": "https://www.gov.br/fnde/pt-br/acesso-a-informacao/dados-abertos",
+    "discoveredVia": [
+      "FNDE — Dados Abertos"
+    ],
+    "discoveryUrl": "https://www.gov.br/fnde/pt-br/acesso-a-informacao/dados-abertos"
+  },
+  {
+    "id": "bcb-estatisticas-pix",
+    "name": "Banco Central — Estatísticas do Pix",
+    "org": "Banco Central do Brasil / Departamento de Competição e de Estrutura do Mercado Financeiro",
+    "territoryTier": "Brasil",
+    "kind": "dataset",
+    "themes": [
+      "Pix",
+      "Sistema financeiro",
+      "Fraudes",
+      "Municípios",
+      "Inclusão financeira",
+      "Economia",
+      "Tecnologia"
+    ],
+    "coverage": "Chaves e usuários no DICT, fraudes registradas no MED e transações Pix consolidadas por município, natureza, idade, tipo de pessoa, região, iniciação e finalidade",
+    "frequency": "Mensal",
+    "format": "JSON, API Swagger, navegador de dados e endpoint OData",
+    "period": "Desde 30/11/2020",
+    "granularity": "Agregados mensais por recurso, município, região, perfil de usuário ou recebedor e participante do Pix",
+    "geoUnit": "Brasil, região, município e participante do Pix, conforme o recurso",
+    "api": "https://dadosabertos.bcb.gov.br/dataset/pix/resource/ad02192b-67c7-47bf-b8c3-c90e2a54c5eb",
+    "docs": "https://dadosabertos.bcb.gov.br/dataset/pix",
+    "limitations": "Dados agregados não permitem identificar transações individuais. Fraudes referem-se aos registros do MED e não equivalem a todas as perdas; definições, revisões, unidades e sigilo precisam ser conferidos na documentação de cada recurso.",
+    "lastChecked": "2026-10-24",
+    "url": "https://dadosabertos.bcb.gov.br/dataset/pix",
+    "discoveredVia": [
+      "Banco Central do Brasil — Dados Abertos"
+    ],
+    "discoveryUrl": "https://dadosabertos.bcb.gov.br/dataset/pix"
+  },
+  {
+    "id": "ararenda-dados-abertos-api",
+    "name": "Ararendá — Dados Abertos e API de transparência",
+    "org": "Prefeitura Municipal de Ararendá (CE)",
+    "territoryTier": "Brasil",
+    "kind": "portal",
+    "themes": [
+      "Transparência",
+      "Orçamento público",
+      "Contratos",
+      "Licitações",
+      "Servidores públicos",
+      "Obras públicas",
+      "Políticas públicas"
+    ],
+    "coverage": "Portal municipal com conjuntos de receitas, despesas, transferências, pessoal, licitações, contratos, obras, atos e pesquisa de satisfação, além de API REST",
+    "frequency": "Diária, semanal, mensal, trimestral ou sob demanda, conforme o conjunto",
+    "format": "CSV, JSON, XML, ODS e API REST",
+    "period": "Em geral desde 2020 para receitas e despesas; varia nos demais conjuntos",
+    "granularity": "Registros administrativos como empenho, pagamento, receita, processo licitatório, contrato, servidor, obra e ato",
+    "geoUnit": "Município de Ararendá (CE), com detalhamento por secretaria, favorecido, contratado, servidor ou localização conforme a base",
+    "api": "https://ararenda.ce.gov.br/api/v1/",
+    "docs": "https://ararenda.ce.gov.br/transparencia/dados-abertos/",
+    "limitations": "O portal declara nove conjuntos e 27 endpoints, com cadências distintas. Downloads podem ser volumosos; use paginação e filtros. Dados de pessoal são parcialmente ocultados e a publicação municipal deve ser confrontada com contratos, diários oficiais e sistemas estaduais/federais em apurações.",
+    "lastChecked": "2026-10-24",
+    "url": "https://ararenda.ce.gov.br/transparencia/dados-abertos/",
+    "discoveredVia": [
+      "Prefeitura de Ararendá — Dados Abertos"
+    ],
+    "discoveryUrl": "https://ararenda.ce.gov.br/transparencia/dados-abertos/"
   }
 ];
+
