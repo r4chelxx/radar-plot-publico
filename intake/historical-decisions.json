@@ -400,30 +400,6 @@
       "reason": "Página oficial do FNDE reúne o PDA 2026–2028 e encaminha ao catálogo de conjuntos da autarquia. É um catálogo nacional recorrente e distinto do registro específico do SIOPE.",
       "reviewedBy": "Radar PLOT — revisão editorial assistida",
       "reviewedAt": "2026-10-24"
-    },
-    {
-      "url": "https://dadosabertos.bcb.gov.br/dataset/pix",
-      "status": "approved",
-      "officialUrl": "https://dadosabertos.bcb.gov.br/dataset/pix",
-      "reason": "Conjunto oficial do Banco Central com estatísticas mensais de chaves, usuários, transações e fraudes Pix, recursos JSON e APIs Swagger/OData desde novembro de 2020; não havia registro específico equivalente.",
-      "reviewedBy": "Radar PLOT — revisão editorial assistida",
-      "reviewedAt": "2026-10-24"
-    },
-    {
-      "url": "https://ararenda.ce.gov.br/transparencia/dados-abertos/",
-      "status": "approved",
-      "officialUrl": "https://ararenda.ce.gov.br/transparencia/dados-abertos/",
-      "reason": "Portal oficial municipal com nove conjuntos, downloads CSV/JSON/XML/ODS e API REST pública documentada para finanças, pessoal, contratos, obras e outros temas. Downloads estruturados responderam na verificação e não havia registro equivalente.",
-      "reviewedBy": "Radar PLOT — revisão editorial assistida",
-      "reviewedAt": "2026-10-24"
-    },
-    {
-      "url": "https://arxiv.org/abs/2606.12648",
-      "status": "blocked",
-      "officialUrl": "https://arxiv.org/abs/2606.12648",
-      "reason": "O artigo descreve o OpenRoundup como sistema aberto e útil a jornalistas, mas a verificação não localizou aplicação operacional, repositório oficial ou documentação de uso pública. Mantido como pista até que o recurso utilizável seja confirmado.",
-      "reviewedBy": "Radar PLOT — revisão editorial assistida",
-      "reviewedAt": "2026-10-24"
     }
   ]
 }
