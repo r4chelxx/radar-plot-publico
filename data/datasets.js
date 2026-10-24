@@ -4019,7 +4019,8 @@ window.RADAR_PARTS.datasets=[
     "discoveredVia": [
       "CVM — Dados Abertos"
     ],
-    "discoveryUrl": "https://dados.cvm.gov.br/dataset/crowdfunding-cad"
+    "discoveryUrl": "https://dados.cvm.gov.br/dataset/crowdfunding-cad",
+    "description": "Cadastro diário da CVM das plataformas de crowdfunding, com fotografia do último dia útil, arquivo ZIP e dicionário de dados."
   },
   {
     "id": "fnde-dados-abertos-catalogo",
@@ -4048,7 +4049,8 @@ window.RADAR_PARTS.datasets=[
     "discoveredVia": [
       "FNDE — Dados Abertos"
     ],
-    "discoveryUrl": "https://www.gov.br/fnde/pt-br/acesso-a-informacao/dados-abertos"
+    "discoveryUrl": "https://www.gov.br/fnde/pt-br/acesso-a-informacao/dados-abertos",
+    "description": "Porta de entrada oficial para o PDA 2026–2028 e para os conjuntos do FNDE sobre programas e financiamento da educação."
   },
   {
     "id": "bcb-estatisticas-pix",
@@ -4079,7 +4081,8 @@ window.RADAR_PARTS.datasets=[
     "discoveredVia": [
       "Banco Central do Brasil — Dados Abertos"
     ],
-    "discoveryUrl": "https://dadosabertos.bcb.gov.br/dataset/pix"
+    "discoveryUrl": "https://dadosabertos.bcb.gov.br/dataset/pix",
+    "description": "Séries mensais do Banco Central sobre DICT, fraudes no MED e transações Pix, com recursos JSON e APIs Swagger/OData."
   },
   {
     "id": "ararenda-dados-abertos-api",
@@ -4110,7 +4113,8 @@ window.RADAR_PARTS.datasets=[
     "discoveredVia": [
       "Prefeitura de Ararendá — Dados Abertos"
     ],
-    "discoveryUrl": "https://ararenda.ce.gov.br/transparencia/dados-abertos/"
+    "discoveryUrl": "https://ararenda.ce.gov.br/transparencia/dados-abertos/",
+    "description": "Portal municipal com dados de finanças, pessoal, contratos e obras em formatos abertos e API REST pública documentada."
   }
 ];
 
