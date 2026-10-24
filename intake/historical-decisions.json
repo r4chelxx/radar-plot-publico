@@ -280,6 +280,150 @@
       "reason": "Página da SEJ é chamada de reportagem da AP sobre castores e secas, não ferramenta de investigação. A palavra tool no título gerou um falso positivo de coleta; não publicar como software, base ou oportunidade.",
       "reviewedBy": "Radar PLOT — revisão editorial assistida",
       "reviewedAt": "2026-10-23"
+    },
+    {
+      "url": "https://sistemas.anatel.gov.br/anexar-api/publico/anexos/download/2aae4d9e934daf59b307c7d0896736b1",
+      "status": "duplicate",
+      "officialUrl": "https://www.gov.br/anatel/pt-br/dados/dados-abertos",
+      "reason": "O PDF é o Plano de Dados Abertos 2025–2027 da Anatel, documento de governança e não uma base autônoma. O catálogo oficial da Anatel já está registrado no Radar; fragmentar o PDA criaria duplicidade sem ampliar o acesso aos dados.",
+      "reviewedBy": "Radar PLOT — revisão editorial assistida",
+      "reviewedAt": "2026-10-24"
+    },
+    {
+      "url": "https://www.gov.br/mdh/pt-br/navegue-por-temas/migrantes-refugiados-e-apatridas",
+      "status": "rejected",
+      "officialUrl": "https://www.gov.br/mdh/pt-br/navegue-por-temas/migrantes-refugiados-e-apatridas",
+      "reason": "Página temática institucional sobre migrantes, refugiados e apátridas; não apresenta chamada concreta, prazo, valor ou processo seletivo e, portanto, não se qualifica como oportunidade editorial.",
+      "reviewedBy": "Radar PLOT — revisão editorial assistida",
+      "reviewedAt": "2026-10-24"
+    },
+    {
+      "url": "https://www.gov.br/anatel/pt-br/acesso-a-informacao/dados-abertos",
+      "status": "duplicate",
+      "officialUrl": "https://www.gov.br/anatel/pt-br/dados/dados-abertos",
+      "reason": "Endereço antigo/sucedido do portal de dados abertos da Anatel. O Radar já contém o catálogo atual e a fonte recorrente, com escopo equivalente e URL oficial vigente.",
+      "reviewedBy": "Radar PLOT — revisão editorial assistida",
+      "reviewedAt": "2026-10-24"
+    },
+    {
+      "url": "https://datasette.io/blog/2026/sql-write-queries",
+      "status": "duplicate",
+      "officialUrl": "https://datasette.io/",
+      "reason": "Nota de versão sobre consultas SQL de escrita no Datasette. O produto Datasette já está catalogado como ferramenta; a funcionalidade não justifica um segundo registro independente.",
+      "reviewedBy": "Radar PLOT — revisão editorial assistida",
+      "reviewedAt": "2026-10-24"
+    },
+    {
+      "url": "https://dados.cvm.gov.br/dataset/crowdfunding-cad",
+      "status": "approved",
+      "officialUrl": "https://dados.cvm.gov.br/dataset/crowdfunding-cad",
+      "reason": "Base oficial da CVM, diária e licenciada em ODbL, com cadastro das plataformas de crowdfunding no último dia útil, arquivo ZIP e dicionário. Não havia registro específico equivalente no catálogo.",
+      "reviewedBy": "Radar PLOT — revisão editorial assistida",
+      "reviewedAt": "2026-10-24"
+    },
+    {
+      "url": "https://openrefine.org/docs/manual/reconciling",
+      "status": "duplicate",
+      "officialUrl": "https://openrefine.org/",
+      "reason": "Documentação de reconciliação do OpenRefine, ferramenta que já possui registro próprio no Radar. A página amplia o uso do mesmo produto, mas não constitui ferramenta ou base autônoma.",
+      "reviewedBy": "Radar PLOT — revisão editorial assistida",
+      "reviewedAt": "2026-10-24"
+    },
+    {
+      "url": "https://datasette.io/blog/2026/api-extras",
+      "status": "duplicate",
+      "officialUrl": "https://datasette.io/",
+      "reason": "Nota de versão sobre campos adicionais na API do Datasette; conteúdo coberto pelo registro já existente da ferramenta Datasette.",
+      "reviewedBy": "Radar PLOT — revisão editorial assistida",
+      "reviewedAt": "2026-10-24"
+    },
+    {
+      "url": "https://datasette.io/blog/2026/jump-menu",
+      "status": "duplicate",
+      "officialUrl": "https://datasette.io/",
+      "reason": "Nota de versão sobre o menu extensível do Datasette; funcionalidade interna do produto já catalogado, sem recurso independente a registrar.",
+      "reviewedBy": "Radar PLOT — revisão editorial assistida",
+      "reviewedAt": "2026-10-24"
+    },
+    {
+      "url": "https://datasette.io/blog/2026/datasette-apps",
+      "status": "duplicate",
+      "officialUrl": "https://datasette.io/",
+      "reason": "Anúncio de aplicações hospedadas dentro do Datasette. É extensão do produto já catalogado e seria duplicação semântica se publicada separadamente.",
+      "reviewedBy": "Radar PLOT — revisão editorial assistida",
+      "reviewedAt": "2026-10-24"
+    },
+    {
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSchqzyg6bnf8vj8aYdlAtOsJ5YW8QXGUeS2m0hQNyqzXcnzfQ/viewform",
+      "status": "blocked",
+      "officialUrl": "https://docs.google.com/forms/d/e/1FAIpQLSchqzyg6bnf8vj8aYdlAtOsJ5YW8QXGUeS2m0hQNyqzXcnzfQ/viewform",
+      "reason": "O formulário isolado não permitiu confirmar em fonte primária acessível o responsável, a vigência, o prazo, os critérios ou o uso dos dados coletados. Mantido fora do catálogo até existir página oficial verificável.",
+      "reviewedBy": "Radar PLOT — revisão editorial assistida",
+      "reviewedAt": "2026-10-24"
+    },
+    {
+      "url": "https://rjionline.org/news/back-in-the-spotlight-student-innovation-fellowships-evolve-into-full-time-jobs-for-2-recent-missouri-school-of-journalism-graduates",
+      "status": "rejected",
+      "officialUrl": "https://rjionline.org/news/back-in-the-spotlight-student-innovation-fellowships-evolve-into-full-time-jobs-for-2-recent-missouri-school-of-journalism-graduates",
+      "reason": "Reportagem retrospectiva sobre ex-bolsistas de 2025 que obtiveram empregos; não é chamada aberta, futura ou recorrente com inscrição ativa.",
+      "reviewedBy": "Radar PLOT — revisão editorial assistida",
+      "reviewedAt": "2026-10-24"
+    },
+    {
+      "url": "https://evision.lse.ac.uk/urd/sits.urd/run/siw_ipp_lgn.login",
+      "status": "blocked",
+      "officialUrl": "https://afsee.atlanticfellows.lse.ac.uk/en-gb/apply",
+      "reason": "Tela genérica de autenticação da LSE sem regras, prazo ou elegibilidade. Não é publicável de forma autônoma; eventual chamada deve ser verificada e registrada pela página oficial do programa.",
+      "reviewedBy": "Radar PLOT — revisão editorial assistida",
+      "reviewedAt": "2026-10-24"
+    },
+    {
+      "url": "https://fiquemsabendo.com.br/educacao/microbolsa-fiscais-do-clima",
+      "status": "rejected",
+      "officialUrl": "https://fiquemsabendo.com.br/educacao/microbolsa-fiscais-do-clima",
+      "reason": "Microbolsa Fiscais do Clima com prazo encerrado em 15/12/2025. A edição não está ativa em 2026 e não há confirmação de recorrência ou de nova chamada.",
+      "reviewedBy": "Radar PLOT — revisão editorial assistida",
+      "reviewedAt": "2026-10-24"
+    },
+    {
+      "url": "https://forum.ecmwf.int/t/new-dataset-published-in-cds-indicators-of-global-climate-change-igcc-from-1750-to-present",
+      "status": "duplicate",
+      "officialUrl": "https://cds.climate.copernicus.eu/datasets/derived-indicators-global-climate-change",
+      "reason": "Anúncio oficial do conjunto IGCC, já publicado no Radar como Copernicus CDS — Indicators of Global Climate Change. Não há mudança factual que justifique novo registro.",
+      "reviewedBy": "Radar PLOT — revisão editorial assistida",
+      "reviewedAt": "2026-10-24"
+    },
+    {
+      "url": "https://www.gov.br/fnde/pt-br/acesso-a-informacao/dados-abertos",
+      "status": "approved",
+      "officialUrl": "https://www.gov.br/fnde/pt-br/acesso-a-informacao/dados-abertos",
+      "reason": "Página oficial do FNDE reúne o PDA 2026–2028 e encaminha ao catálogo de conjuntos da autarquia. É um catálogo nacional recorrente e distinto do registro específico do SIOPE.",
+      "reviewedBy": "Radar PLOT — revisão editorial assistida",
+      "reviewedAt": "2026-10-24"
+    },
+    {
+      "url": "https://dadosabertos.bcb.gov.br/dataset/pix",
+      "status": "approved",
+      "officialUrl": "https://dadosabertos.bcb.gov.br/dataset/pix",
+      "reason": "Conjunto oficial do Banco Central com estatísticas mensais de chaves, usuários, transações e fraudes Pix, recursos JSON e APIs Swagger/OData desde novembro de 2020; não havia registro específico equivalente.",
+      "reviewedBy": "Radar PLOT — revisão editorial assistida",
+      "reviewedAt": "2026-10-24"
+    },
+    {
+      "url": "https://ararenda.ce.gov.br/transparencia/dados-abertos/",
+      "status": "approved",
+      "officialUrl": "https://ararenda.ce.gov.br/transparencia/dados-abertos/",
+      "reason": "Portal oficial municipal com nove conjuntos, downloads CSV/JSON/XML/ODS e API REST pública documentada para finanças, pessoal, contratos, obras e outros temas. Downloads estruturados responderam na verificação e não havia registro equivalente.",
+      "reviewedBy": "Radar PLOT — revisão editorial assistida",
+      "reviewedAt": "2026-10-24"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.12648",
+      "status": "blocked",
+      "officialUrl": "https://arxiv.org/abs/2606.12648",
+      "reason": "O artigo descreve o OpenRoundup como sistema aberto e útil a jornalistas, mas a verificação não localizou aplicação operacional, repositório oficial ou documentação de uso pública. Mantido como pista até que o recurso utilizável seja confirmado.",
+      "reviewedBy": "Radar PLOT — revisão editorial assistida",
+      "reviewedAt": "2026-10-24"
     }
   ]
 }
