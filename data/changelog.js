@@ -41,6 +41,22 @@ window.RADAR_PARTS.changelog=[
     "detail": "O monitoramento passa a incluir o catálogo geral do FNDE e o portal/API municipal de Ararendá, com escopo, cadência e papel editorial registrados."
   },
   {
+    "date": "2026-10-24",
+    "type": "prazo",
+    "title": "Dois prazos de oportunidade encerrados em 23/10",
+    "items": [
+      {
+        "id": "fapesp-tt3-metadados-metafavela-2026",
+        "title": "FAPESP/UFABC — Bolsa TT-III em Metadados (MetaFavela)"
+      },
+      {
+        "id": "wcsj",
+        "title": "World Conference of Science Journalists 2027 — Travel Fellowship"
+      }
+    ],
+    "detail": "Os prazos confirmados terminaram em 23/10/2026; os registros da bolsa FAPESP/UFABC MetaFavela e da travel fellowship da WCSJ foram movidos de abertos para encerrados."
+  },
+  {
     "date": "2026-10-23",
     "type": "ferramentas",
     "title": "Publicação editorial verificada — 2026-10-23",
