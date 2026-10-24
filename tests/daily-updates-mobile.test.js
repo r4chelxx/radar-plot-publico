@@ -20,7 +20,7 @@ test('daily update cards show each verified record description, not a repeated b
  for(const id of ['cvm-crowdfunding-plataformas-cadastro','fnde-dados-abertos-catalogo','bcb-estatisticas-pix','ararenda-dados-abertos-api']){
   const record=D.datasets.find(x=>x.id===id);
   assert(record,'missing dataset '+id);
-  assert(html.includes(record.coverage),'individual description missing '+id);
+  assert(html.includes(record.description),'individual description missing '+id);
   assert(html.includes('#base/'+id),'deep link missing '+id);
  }
  const shared=D.changelog.find(x=>x.items?.some(i=>i.id==='cvm-crowdfunding-plataformas-cadastro')).detail;
