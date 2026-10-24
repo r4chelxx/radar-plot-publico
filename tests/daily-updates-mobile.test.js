@@ -12,16 +12,18 @@ test('daily update cards show each verified record description, not a repeated b
  vm.createContext(context);
  vm.runInContext(app.slice(from,to),context);
  const html=vm.runInContext('dailyUpdatePanel()',context);
- const day=D.changelog.filter(x=>x.date==='2026-10-23'&&['nova-oportunidade','dados','ferramentas'].includes(x.type));
+ const eligible=D.changelog.filter(x=>['nova-oportunidade','dados','ferramentas'].includes(x.type));
+ const latest=eligible.map(x=>x.date).sort().at(-1);
+ const day=eligible.filter(x=>x.date===latest);
  const unique=new Set(day.flatMap(x=>x.items||[]).map(x=>x.id));
  assert(html.includes(unique.size+' novos registros'));
- for(const id of ['arctic-shift-reddit-archive','web-archive-viewer','dochush-pdf-redaction-checker','pangram-ai-detector']){
-  const record=D.tools.find(x=>x.id===id);
-  assert(record,'missing tool '+id);
-  assert(html.includes(record.desc),'individual description missing '+id);
-  assert(html.includes('#ferramentas/'+id),'deep link missing '+id);
+ for(const id of ['cvm-crowdfunding-plataformas-cadastro','fnde-dados-abertos-catalogo','bcb-estatisticas-pix','ararenda-dados-abertos-api']){
+  const record=D.datasets.find(x=>x.id===id);
+  assert(record,'missing dataset '+id);
+  assert(html.includes(record.coverage),'individual description missing '+id);
+  assert(html.includes('#base/'+id),'deep link missing '+id);
  }
- const shared=D.changelog.find(x=>x.items?.some(i=>i.id==='arctic-shift-reddit-archive')).detail;
+ const shared=D.changelog.find(x=>x.items?.some(i=>i.id==='cvm-crowdfunding-plataformas-cadastro')).detail;
  assert.equal(html.split(shared).length-1,0,'batch summary should not repeat on every card');
 });
 test('mobile sticky header is opaque and scripts have a fresh cache version',()=>{
