@@ -1,6 +1,30 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.tools=[
 {
+  "id": "flourish",
+  "name": "Flourish",
+  "kind": "gráficos, mapas e narrativas interativas sem programação",
+  "url": "https://flourish.studio/",
+  "desc": "Editor para criar e incorporar gráficos, mapas e narrativas interativas a partir de dados. O plano gratuito permite publicação pública com atribuição; recursos como exportação, colaboração e personalização variam por plano. Exige cadastro. Antes de publicar, revisar privacidade, permissões e exposição dos dados, além da qualidade estatística e acessibilidade da visualização.",
+  "discoveryUrl": "https://flourish.studio/"
+},
+{
+  "id": "kepler-gl",
+  "name": "kepler.gl",
+  "kind": "exploração visual de dados geoespaciais",
+  "url": "https://kepler.gl/",
+  "desc": "Aplicação aberta para explorar dados geográficos em camadas, filtros e agregações, com importação de CSV e GeoJSON e integração em aplicações React. Segundo a documentação, os dados importados são processados no navegador. O desempenho depende do equipamento e do volume; conferir coordenadas em WGS84, tipos de campos e serviços externos usados no mapa antes de trabalhar com material sensível.",
+  "discoveryUrl": "https://kepler.gl/"
+},
+{
+  "id": "leaflet",
+  "name": "Leaflet",
+  "kind": "biblioteca JavaScript para mapas interativos",
+  "url": "https://leafletjs.com/",
+  "desc": "Biblioteca aberta para construir mapas interativos para web e celular, com camadas de tiles, WMS, marcadores e GeoJSON. Exige programação e uma fonte de dados ou mapas de fundo; a biblioteca não fornece, por si, hospedagem nem uma base cartográfica. Serviços de tiles têm regras, atribuição e limites próprios. Revisar acessibilidade, coordenadas e privacidade de dados e requisições externas.",
+  "discoveryUrl": "https://leafletjs.com/"
+}, 
+{
   "id": "h3-geospatial-index",
   "name": "H3 — índice geoespacial hierárquico",
   "kind": "indexação e agregação geoespacial",

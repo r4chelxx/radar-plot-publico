@@ -250,10 +250,10 @@ window.RADAR_PARTS.opportunities=[
     ],
     "scope": "Brasil; trabalho em São Bernardo do Campo (SP)",
     "deadline": "2026-10-23",
-    "deadlineStatus": "confirmado",
+    "deadlineStatus": "confirmado; encerrado",
     "eligibility": "parcial",
     "fit": 8,
-    "status": "aberta",
+    "status": "encerrada",
     "rules": "https://fapesp.br/oportunidades/centro-de-estudos-da-favela-(cefavela)/9915/",
     "apply": "https://cefavela.ufabc.edu.br/cefavela-seleciona-bolsista-de-treinamento-tecnico-para-o-projeto-metafavela",
     "discoveredVia": [
@@ -2175,10 +2175,10 @@ window.RADAR_PARTS.opportunities=[
     ],
     "scope": "Internacional",
     "deadline": "2026-10-23",
-    "deadlineStatus": "confirmado",
+    "deadlineStatus": "confirmado; encerrado",
     "eligibility": "elegível",
     "fit": 9,
-    "status": "aberta",
+    "status": "encerrada",
     "rules": "https://registration.wcsj2027.org/wcsj27/fellowships",
     "apply": "https://registration.wcsj2027.org/wcsj27/fellowships",
     "verified": "2026-10-02",
@@ -4618,3 +4618,4 @@ window.RADAR_PARTS.opportunities=[
     "desc": "FIRE aceita freelancers investigativos fora dos EUA e sem restrição de cidadania, mas trabalha apenas com histórias para veículos em inglês. O caminho real começa pela FIRE Consultancy; grants da Virtual Newsroom dependem de convite posterior."
   }
 ];
+

@@ -1137,7 +1137,7 @@ window.RADAR_PARTS.sources=[
     "priority": "Alta",
     "cadence": "mensal",
     "category": "dados/visual",
-    "lastChecked": "2026-10-19",
+    "lastChecked": "2026-10-24",
     "checkStatus": "verificada"
   },
   {
@@ -1149,7 +1149,7 @@ window.RADAR_PARTS.sources=[
     "priority": "Alta",
     "cadence": "mensal",
     "category": "dados/visual",
-    "lastChecked": "2026-10-01",
+    "lastChecked": "2026-10-24",
     "checkStatus": "verificada"
   },
   {
@@ -2184,5 +2184,30 @@ window.RADAR_PARTS.sources=[
     "category": "oportunidades",
     "lastChecked": "2026-10-19",
     "checkStatus": "verificada"
+  },
+  {
+    "name": "FNDE — Dados Abertos",
+    "url": "https://www.gov.br/fnde/pt-br/acesso-a-informacao/dados-abertos",
+    "type": "Catálogo oficial e Plano de Dados Abertos do financiamento e dos programas federais de educação",
+    "scope": "Brasil",
+    "role": "descoberta e verificação de bases do FNDE; conferir metadados, documentação e origem administrativa de cada conjunto",
+    "priority": "Alta",
+    "cadence": "mensal",
+    "category": "dados/educação",
+    "lastChecked": "2026-10-24",
+    "checkStatus": "verificada"
+  },
+  {
+    "name": "Prefeitura de Ararendá — Dados Abertos",
+    "url": "https://ararenda.ce.gov.br/transparencia/dados-abertos/",
+    "type": "Portal municipal de dados abertos, downloads estruturados e API REST",
+    "scope": "Ararendá (CE)",
+    "role": "descoberta e verificação de dados locais de finanças, pessoal, compras, contratos, obras e atos públicos",
+    "priority": "Média",
+    "cadence": "mensal",
+    "category": "dados/transparência",
+    "lastChecked": "2026-10-24",
+    "checkStatus": "verificada"
   }
 ];
+
