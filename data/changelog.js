@@ -1,41 +1,81 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
-{
-  "date": "2026-10-23",
-  "type": "ferramentas",
-  "title": "Publicação editorial verificada — 2026-10-23",
-  "items": [
-    {
-      "id": "flourish",
-      "title": "Flourish"
-    },
-    {
-      "id": "kepler-gl",
-      "title": "kepler.gl"
-    },
-    {
-      "id": "leaflet",
-      "title": "Leaflet"
-    }
-  ],
-  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Flourish; kepler.gl; Leaflet."
-}, 
-{
-  "date": "2026-10-23",
-  "type": "ferramentas",
-  "title": "Publicação editorial verificada — 2026-10-23",
-  "items": [
-    {
-      "id": "h3-geospatial-index",
-      "title": "H3 — índice geoespacial hierárquico"
-    },
-    {
-      "id": "rawgraphs",
-      "title": "RAWGraphs"
-    }
-  ],
-  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: H3 — índice geoespacial hierárquico; RAWGraphs."
-}, 
+  {
+    "date": "2026-10-24",
+    "type": "dados",
+    "title": "Quatro bases verificadas para finanças, educação, Pix e transparência municipal",
+    "items": [
+      {
+        "id": "cvm-crowdfunding-plataformas-cadastro",
+        "title": "CVM — cadastro de plataformas de crowdfunding"
+      },
+      {
+        "id": "fnde-dados-abertos-catalogo",
+        "title": "FNDE — catálogo de dados abertos"
+      },
+      {
+        "id": "bcb-estatisticas-pix",
+        "title": "Banco Central — Estatísticas do Pix"
+      },
+      {
+        "id": "ararenda-dados-abertos-api",
+        "title": "Ararendá — Dados Abertos e API de transparência"
+      }
+    ],
+    "detail": "Publicação editorial individualizada após verificação em fontes primárias: cadastro de plataformas de crowdfunding da CVM, catálogo de dados abertos do FNDE, estatísticas do Pix do Banco Central e portal/API de transparência de Ararendá."
+  },
+  {
+    "date": "2026-10-24",
+    "type": "fontes",
+    "title": "Duas novas fontes oficiais recorrentes de dados públicos",
+    "items": [
+      {
+        "id": "fonte-fnde-dados-abertos",
+        "title": "FNDE — Dados Abertos"
+      },
+      {
+        "id": "fonte-ararenda-dados-abertos",
+        "title": "Prefeitura de Ararendá — Dados Abertos"
+      }
+    ],
+    "detail": "O monitoramento passa a incluir o catálogo geral do FNDE e o portal/API municipal de Ararendá, com escopo, cadência e papel editorial registrados."
+  },
+  {
+    "date": "2026-10-23",
+    "type": "ferramentas",
+    "title": "Publicação editorial verificada — 2026-10-23",
+    "items": [
+      {
+        "id": "flourish",
+        "title": "Flourish"
+      },
+      {
+        "id": "kepler-gl",
+        "title": "kepler.gl"
+      },
+      {
+        "id": "leaflet",
+        "title": "Leaflet"
+      }
+    ],
+    "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Flourish; kepler.gl; Leaflet."
+  },
+  {
+    "date": "2026-10-23",
+    "type": "ferramentas",
+    "title": "Publicação editorial verificada — 2026-10-23",
+    "items": [
+      {
+        "id": "h3-geospatial-index",
+        "title": "H3 — índice geoespacial hierárquico"
+      },
+      {
+        "id": "rawgraphs",
+        "title": "RAWGraphs"
+      }
+    ],
+    "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: H3 — índice geoespacial hierárquico; RAWGraphs."
+  },
   {
     "date": "2026-10-23",
     "type": "dados",
@@ -60,42 +100,42 @@ window.RADAR_PARTS.changelog=[
     ],
     "detail": "Nova fonte oficial recorrente para monitorar bases estaduais de transparência, orçamento, compras, convênios, pessoal e saúde."
   },
-{
-  "date": "2026-10-23",
-  "type": "ferramentas",
-  "title": "RJI + Chalkbeat — Source Auditing Tool",
-  "items": [
-    {
-      "id": "rji-chalkbeat-source-auditing-tool",
-      "title": "RJI + Chalkbeat — Source Auditing Tool"
-    }
-  ],
-  "detail": "Ferramenta gratuita de auditoria de diversidade de fontes, revisada na fonte oficial, com ressalvas de privacidade e acesso por demonstração."
-},
-{
-  "date": "2026-10-23",
-  "type": "ferramentas",
-  "title": "QuitérIA — ferramenta de monitoramento legislativo verificada",
-  "items": [
-    {
-      "id": "quiteria-ia-feminista-azmina",
-      "title": "QuitérIA — IA feminista de monitoramento legislativo"
-    }
-  ],
-  "detail": "Ferramenta Elas no Congresso/AzMina incorporada após auditoria do acervo histórico, com documentação oficial e ressalvas sobre limitações da classificação automatizada."
-},
   {
-  "date": "2026-10-23",
-  "type": "nova-oportunidade",
-  "title": "Vital Impacts abre bolsas internacionais para fotografia documental ambiental",
-  "items": [
-    {
-      "id": "vital-impacts-environmental-photography-2027",
-      "title": "Vital Impacts — Environmental Photography Fellowships 2027"
-    }
-  ],
-  "detail": "Edital oficial confirmado: uma bolsa de US$ 20 mil, seis de US$ 5 mil e dez mentorias para fotografia documental ambiental. Prazo em 30/11/2026, com exigências de portfólio, proposta e critérios de isenção de taxa."
-},
+    "date": "2026-10-23",
+    "type": "ferramentas",
+    "title": "RJI + Chalkbeat — Source Auditing Tool",
+    "items": [
+      {
+        "id": "rji-chalkbeat-source-auditing-tool",
+        "title": "RJI + Chalkbeat — Source Auditing Tool"
+      }
+    ],
+    "detail": "Ferramenta gratuita de auditoria de diversidade de fontes, revisada na fonte oficial, com ressalvas de privacidade e acesso por demonstração."
+  },
+  {
+    "date": "2026-10-23",
+    "type": "ferramentas",
+    "title": "QuitérIA — ferramenta de monitoramento legislativo verificada",
+    "items": [
+      {
+        "id": "quiteria-ia-feminista-azmina",
+        "title": "QuitérIA — IA feminista de monitoramento legislativo"
+      }
+    ],
+    "detail": "Ferramenta Elas no Congresso/AzMina incorporada após auditoria do acervo histórico, com documentação oficial e ressalvas sobre limitações da classificação automatizada."
+  },
+  {
+    "date": "2026-10-23",
+    "type": "nova-oportunidade",
+    "title": "Vital Impacts abre bolsas internacionais para fotografia documental ambiental",
+    "items": [
+      {
+        "id": "vital-impacts-environmental-photography-2027",
+        "title": "Vital Impacts — Environmental Photography Fellowships 2027"
+      }
+    ],
+    "detail": "Edital oficial confirmado: uma bolsa de US$ 20 mil, seis de US$ 5 mil e dez mentorias para fotografia documental ambiental. Prazo em 30/11/2026, com exigências de portfólio, proposta e critérios de isenção de taxa."
+  },
   {
     "date": "2026-10-23",
     "type": "ferramentas",
@@ -1795,3 +1835,4 @@ window.RADAR_PARTS.changelog=[
     "detail": "O menu fecha automaticamente após a navegação em telas pequenas."
   }
 ];
+
