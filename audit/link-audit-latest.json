@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-24T13:55:28.034Z",
+  "checkedAt": "2026-10-24T14:26:43.267Z",
   "policy": "404/410 and ArcGIS application errors within HTTP 200 become broken only after appearing as suspect or broken in the previous audit; blocked and network results are inconclusive",
   "counts": {
     "ok": 366,
@@ -594,11 +594,11 @@
       "type": "opportunity",
       "id": "pulitzer-env",
       "url": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/our-work-environment-grants",
-      "status": 403,
+      "status": 200,
       "finalUrl": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/our-work-environment-grants",
-      "class": "blocked",
+      "class": "ok",
       "attempts": [
-        403
+        200
       ]
     },
     {
@@ -616,11 +616,11 @@
       "type": "opportunity",
       "id": "pulitzer-ai-2627",
       "url": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/ai-accountability-fellowships",
-      "status": 403,
+      "status": 200,
       "finalUrl": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/ai-accountability-fellowships",
-      "class": "blocked",
+      "class": "ok",
       "attempts": [
-        403
+        200
       ]
     },
     {
@@ -752,6 +752,7 @@
       "finalUrl": "https://fij.org/alicia-patterson-fellowships/",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -1001,22 +1002,22 @@
       "type": "opportunity",
       "id": "pulitzer-gender",
       "url": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/gender-equality-grant",
-      "status": 200,
+      "status": 403,
       "finalUrl": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/gender-equality-grant",
-      "class": "ok",
+      "class": "blocked",
       "attempts": [
-        200
+        403
       ]
     },
     {
       "type": "opportunity",
       "id": "pulitzer-global",
       "url": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/global-reporting-grants",
-      "status": 200,
+      "status": 403,
       "finalUrl": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/global-reporting-grants",
-      "class": "ok",
+      "class": "blocked",
       "attempts": [
-        200
+        403
       ]
     },
     {
@@ -1663,7 +1664,7 @@
       "class": "network",
       "error": "TypeError:fetch failed",
       "attempts": [
-        "AbortError:This operation was aborted",
+        "TypeError:fetch failed",
         "TypeError:fetch failed"
       ]
     },
@@ -1699,7 +1700,6 @@
       "finalUrl": "https://map.geo.sei.ba.gov.br/arcgis/rest/services/servicos_sei/REGIONALIZACAO_VIGENTE/FeatureServer?f=json",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -1711,7 +1711,6 @@
       "finalUrl": "https://map.geo.sei.ba.gov.br/arcgis/rest/services/servicos_sei/LOCALIDADE_BAHIA/MapServer?f=json",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -1723,7 +1722,6 @@
       "finalUrl": "https://map.geo.sei.ba.gov.br/arcgis/rest/services/servicos_sei/DPA_A_100K_VIGENTE_GCS_SIR_SEI/FeatureServer/0?f=json",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -1736,7 +1734,7 @@
       "class": "network",
       "error": "TypeError:fetch failed",
       "attempts": [
-        "AbortError:This operation was aborted",
+        "TypeError:fetch failed",
         "TypeError:fetch failed"
       ]
     },
@@ -1759,6 +1757,7 @@
       "finalUrl": "https://www.ba.gov.br/ssp/publicacoes",
       "class": "ok",
       "attempts": [
+        "TypeError:fetch failed",
         200
       ]
     },
@@ -1781,7 +1780,6 @@
       "finalUrl": "https://dadosabertos.aneel.gov.br/",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -1827,7 +1825,7 @@
       "class": "network",
       "error": "TypeError:fetch failed",
       "attempts": [
-        "AbortError:This operation was aborted",
+        "TypeError:fetch failed",
         "TypeError:fetch failed"
       ]
     },
@@ -1850,7 +1848,6 @@
       "finalUrl": "https://dados.gov.br/",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -1874,7 +1871,7 @@
       "class": "network",
       "error": "TypeError:fetch failed",
       "attempts": [
-        "AbortError:This operation was aborted",
+        "TypeError:fetch failed",
         "TypeError:fetch failed"
       ]
     },
@@ -1992,7 +1989,7 @@
       "class": "network",
       "error": "TypeError:fetch failed",
       "attempts": [
-        "AbortError:This operation was aborted",
+        "TypeError:fetch failed",
         "TypeError:fetch failed"
       ]
     },
@@ -2017,6 +2014,7 @@
       "finalUrl": "https://www.ba.gov.br/saude/suvisa/vigilancia-epidemiologica",
       "class": "ok",
       "attempts": [
+        "TypeError:fetch failed",
         200
       ]
     },
@@ -2118,6 +2116,7 @@
       "finalUrl": "https://sigeduc.educacao.ba.gov.br/sigeduc/public/transparencia/pages/consulta/relatorio_escolas/relEscolasEtapaModalidadeAnalitico.jsf",
       "class": "ok",
       "attempts": [
+        "TypeError:fetch failed",
         200
       ]
     },
@@ -2177,6 +2176,7 @@
       "finalUrl": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/acoes-e-programas/programas-projetos-acoes-obras-e-atividades/estatisticas-trabalho/rais/rais-2025/rais-2025",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -2304,7 +2304,7 @@
       "class": "network",
       "error": "TypeError:fetch failed",
       "attempts": [
-        "TypeError:fetch failed",
+        "AbortError:This operation was aborted",
         "TypeError:fetch failed"
       ]
     },
@@ -2795,6 +2795,7 @@
       "finalUrl": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/dados-abertos/cadastros",
       "class": "ok",
       "attempts": [
+        "TypeError:fetch failed",
         200
       ]
     },
@@ -2817,6 +2818,7 @@
       "finalUrl": "https://www.gov.br/fnde/pt-br/acesso-a-informacao/dados-abertos",
       "class": "ok",
       "attempts": [
+        "TypeError:fetch failed",
         200
       ]
     },
@@ -2901,11 +2903,11 @@
       "type": "source",
       "id": "One World Media Awards",
       "url": "https://oneworldmedia.org.uk/awards/",
-      "status": 202,
+      "status": 200,
       "finalUrl": "https://oneworldmedia.org.uk/awards/",
       "class": "ok",
       "attempts": [
-        202
+        200
       ]
     },
     {
@@ -3072,11 +3074,11 @@
       "type": "source",
       "id": "Rory Peck Trust",
       "url": "https://rorypecktrust.org/",
-      "status": 202,
+      "status": 200,
       "finalUrl": "https://rorypecktrust.org/",
       "class": "ok",
       "attempts": [
-        202
+        200
       ]
     },
     {
@@ -3109,6 +3111,7 @@
       "finalUrl": "https://www.al.mt.gov.br/",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -3127,22 +3130,22 @@
       "type": "source",
       "id": "One World Media — Awards e Fellowship",
       "url": "https://oneworldmedia.org.uk/fellowship/",
-      "status": 202,
+      "status": 200,
       "finalUrl": "https://oneworldmedia.org.uk/fellowship/",
       "class": "ok",
       "attempts": [
-        202
+        200
       ]
     },
     {
       "type": "source",
       "id": "Amado Mundo — oportunidades de formação",
       "url": "https://amadomundo.com/",
-      "status": 202,
+      "status": 200,
       "finalUrl": "https://amadomundo.com/",
       "class": "ok",
       "attempts": [
-        202
+        200
       ]
     },
     {
@@ -3760,7 +3763,6 @@
       "finalUrl": "https://www.generonumero.media/",
       "class": "ok",
       "attempts": [
-        "TypeError:fetch failed",
         200
       ]
     },
