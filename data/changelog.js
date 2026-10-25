@@ -1,5 +1,49 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
+{
+  "date": "2026-10-25",
+  "type": "dados",
+  "title": "Publicação editorial verificada — 2026-10-25",
+  "items": [
+    {
+      "id": "global-fishing-watch-apis",
+      "title": "Global Fishing Watch — conjuntos e APIs marítimas"
+    },
+    {
+      "id": "us-census-data-portal",
+      "title": "U.S. Census Bureau — data.census.gov"
+    }
+  ],
+  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Global Fishing Watch — conjuntos e APIs marítimas; U.S. Census Bureau — data.census.gov."
+},
+{
+  "date": "2026-10-25",
+  "type": "ferramentas",
+  "title": "Publicação editorial verificada — 2026-10-25",
+  "items": [
+    {
+      "id": "camelot-pdf-tables",
+      "title": "Camelot — extração de tabelas de PDF"
+    },
+    {
+      "id": "observable-framework",
+      "title": "Observable Framework"
+    },
+    {
+      "id": "postgis",
+      "title": "PostGIS"
+    },
+    {
+      "id": "whitebox-geospatial-tools",
+      "title": "Whitebox — ferramentas geoespaciais"
+    },
+    {
+      "id": "tmap-r",
+      "title": "tmap — mapas temáticos em R"
+    }
+  ],
+  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Camelot — extração de tabelas de PDF; Observable Framework; PostGIS; Whitebox — ferramentas geoespaciais; tmap — mapas temáticos em R."
+}, 
   {
     "date": "2026-10-24",
     "type": "dados",
@@ -1851,4 +1895,5 @@ window.RADAR_PARTS.changelog=[
     "detail": "O menu fecha automaticamente após a navegação em telas pequenas."
   }
 ];
+
 
