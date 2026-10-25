@@ -350,6 +350,195 @@
         "officialUrl": "https://ararenda.ce.gov.br/transparencia/dados-abertos/",
         "evidence": "O portal oficial de Ararendá informa nove conjuntos, 27 endpoints, formatos CSV/JSON/XML/ODS, API REST sem autenticação e cadências por conjunto; downloads CSV/JSON responderam na verificação, e não havia registro equivalente."
       }
+    },
+    {
+      "category": "datasets",
+      "record": {
+        "id": "global-fishing-watch-apis",
+        "name": "Global Fishing Watch — conjuntos e APIs marítimas",
+        "org": "Global Fishing Watch",
+        "territoryTier": "Outros",
+        "kind": "system",
+        "themes": [
+          "Oceanos",
+          "Pesca",
+          "Meio ambiente",
+          "Embarcações",
+          "Sensoriamento remoto",
+          "Fiscalização",
+          "Jornalismo investigativo"
+        ],
+        "coverage": "Atividade e presença de embarcações, identidade, eventos de pesca, encontros, visitas a portos, lacunas de AIS, detecções por radar e infraestrutura fixa no oceano, conforme o conjunto e o endpoint",
+        "frequency": "Varia por conjunto; versões e alias latest são atualizados pela plataforma, e alguns produtos derivados ou de infraestrutura têm atualização mensal",
+        "format": "JSON, CSV, GeoJSON, TIFF, PNG e MVT, conforme API, relatório ou download",
+        "period": "Varia por conjunto e versão; consultar os metadados do dataset e a data de cobertura devolvida pelo endpoint",
+        "granularity": "Embarcação, evento, posição, célula espaço-temporal, área, porto ou detecção de infraestrutura, conforme o produto",
+        "geoUnit": "Global, com filtros por região, área ou coordenadas nos endpoints compatíveis",
+        "api": "https://globalfishingwatch.org/our-apis/documentation/",
+        "docs": "https://globalfishingwatch.org/our-apis/documentation/docs/v3/general-api-doc/key-concepts",
+        "limitations": "Exige conta, chave de API, atribuição e observância dos termos. AIS não cobre todas as embarcações nem garante transmissão contínua; eventos e atividade aparente são inferências algorítmicas. Há conjuntos em estágio de protótipo, versões são descontinuadas e produtos de sensoriamento remoto podem conter falsos positivos. Conferir caveats, versão, cobertura temporal e fonte original antes de concluir infrações ou identidades.",
+        "lastChecked": "2026-10-25",
+        "url": "https://globalfishingwatch.org/our-apis/documentation/",
+        "discoveredVia": [
+          "Data Visualization Society"
+        ],
+        "discoveryUrl": "https://globalfishingwatch.org/",
+        "description": "APIs e downloads globais para investigar atividade, identidade e eventos de embarcações, pesca aparente e infraestrutura marítima."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Radar PLOT — revisão editorial assistida",
+        "reviewedAt": "2026-10-25",
+        "officialUrl": "https://globalfishingwatch.org/our-apis/documentation/",
+        "evidence": "Documentação primária da Global Fishing Watch confirma APIs v3, conjuntos de atividade aparente, presença e identidade de embarcações, eventos, detecções e infraestrutura, formatos de relatório/download, autenticação e ressalvas de cobertura. Conferida ausência de URL e registro equivalentes no catálogo público."
+      }
+    },
+    {
+      "category": "datasets",
+      "record": {
+        "id": "us-census-data-portal",
+        "name": "U.S. Census Bureau — data.census.gov",
+        "org": "United States Census Bureau",
+        "territoryTier": "Outros",
+        "kind": "portal",
+        "themes": [
+          "Demografia",
+          "Economia",
+          "Habitação",
+          "Trabalho",
+          "Desigualdade",
+          "Políticas públicas"
+        ],
+        "coverage": "Tabelas oficiais sobre população e economia dos Estados Unidos, incluindo Censo Decenal, American Community Survey e outros produtos estatísticos disponibilizados no portal",
+        "frequency": "Varia por programa e tabela; consultar ano, release e notas metodológicas do produto selecionado",
+        "format": "Tabelas interativas e downloads CSV; APIs oficiais para produtos compatíveis",
+        "period": "Varia por programa, edição e tabela; o portal permite selecionar anos e produtos disponíveis",
+        "granularity": "Pessoa ou domicílio em estimativas agregadas por tabela, indicador, grupo e geografia; microdados não são expostos diretamente por todas as tabelas",
+        "geoUnit": "Estados Unidos; país, estado, condado, município, setor censitário e outras geografias conforme o produto",
+        "api": "https://www.census.gov/data/developers/data-sets.html",
+        "docs": "https://www.census.gov/data/what-is-data-census-gov.html",
+        "limitations": "Estimativas amostrais, especialmente da ACS, têm margens de erro e não devem ser tratadas como contagens exatas. Definições, universos, anos e limites geográficos variam entre tabelas; comparar somente séries metodologicamente compatíveis e respeitar alertas de qualidade para pequenas populações.",
+        "lastChecked": "2026-10-25",
+        "url": "https://data.census.gov/",
+        "discoveredVia": [
+          "Data Visualization Society"
+        ],
+        "discoveryUrl": "https://data.census.gov/",
+        "description": "Portal oficial para explorar, filtrar e baixar tabelas demográficas e econômicas do U.S. Census Bureau."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Radar PLOT — revisão editorial assistida",
+        "reviewedAt": "2026-10-25",
+        "officialUrl": "https://data.census.gov/",
+        "evidence": "A plataforma oficial confirma exploração, personalização e download de tabelas sobre população e economia dos EUA; páginas de tabelas indicam integração com APIs do Census. Conferidas a origem governamental, as ressalvas metodológicas e a ausência do portal no catálogo do Radar."
+      }
+    },
+    {
+      "category": "tools",
+      "record": {
+        "id": "camelot-pdf-tables",
+        "name": "Camelot — extração de tabelas de PDF",
+        "kind": "extração programática de tabelas em PDF",
+        "url": "https://camelot-py.readthedocs.io/",
+        "desc": "Biblioteca Python aberta para detectar e extrair tabelas de PDFs para DataFrame, CSV, JSON, Excel, HTML, Markdown e SQLite, com métricas de acurácia e espaço em branco para triagem. Funciona principalmente com PDFs baseados em texto; documentos digitalizados exigem OCR prévio. A extração pode deslocar colunas ou células e sempre deve ser comparada visualmente com o original.",
+        "discoveredVia": [
+          "Data Visualization Society"
+        ],
+        "discoveryUrl": "https://camelot-py.readthedocs.io/"
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Radar PLOT — revisão editorial assistida",
+        "reviewedAt": "2026-10-25",
+        "officialUrl": "https://camelot-py.readthedocs.io/",
+        "evidence": "Documentação oficial da versão 2.0 confirma instalação, quatro métodos de extração, interface de linha de comando, DataFrames e exportação estruturada; também explicita a limitação a PDFs baseados em texto. Busca no catálogo não encontrou Camelot."
+      }
+    },
+    {
+      "category": "tools",
+      "record": {
+        "id": "observable-framework",
+        "name": "Observable Framework",
+        "kind": "publicação de aplicações, painéis e reportagens de dados",
+        "url": "https://observablehq.com/framework",
+        "desc": "Gerador aberto de sites estáticos para aplicações, painéis e reportagens de dados. Combina páginas Markdown, JavaScript reativo e carregadores em SQL, Python, R ou outras linguagens, com bibliotecas de visualização e deploy em hospedagem estática. Exige programação e processo de build; dados carregados no cliente ficam expostos, e fontes dinâmicas só se atualizam quando a rotina de geração é executada novamente.",
+        "discoveredVia": [
+          "Data Visualization Society"
+        ],
+        "discoveryUrl": "https://observablehq.com/framework"
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Radar PLOT — revisão editorial assistida",
+        "reviewedAt": "2026-10-25",
+        "officialUrl": "https://observablehq.com/framework",
+        "evidence": "Documentação oficial confirma licença aberta, geração estática, Markdown, JavaScript reativo, data loaders em múltiplas linguagens, bibliotecas incorporadas e hospedagem independente. Verificada ausência do Framework no catálogo."
+      }
+    },
+    {
+      "category": "tools",
+      "record": {
+        "id": "postgis",
+        "name": "PostGIS",
+        "kind": "banco de dados e análise geoespacial",
+        "url": "https://postgis.net/",
+        "desc": "Extensão aberta do PostgreSQL para armazenar, indexar, consultar e processar geometrias, geografias e rasters com SQL. Útil para cruzamentos espaciais reprodutíveis em grandes bases. Requer administração de banco e escolha correta de sistema de referência; erros de CRS, unidades ou validade geométrica podem produzir distâncias, áreas e interseções incorretas.",
+        "discoveredVia": [
+          "Data Visualization Society"
+        ],
+        "discoveryUrl": "https://postgis.net/"
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Radar PLOT — revisão editorial assistida",
+        "reviewedAt": "2026-10-25",
+        "officialUrl": "https://postgis.net/",
+        "evidence": "Manual oficial define o PostGIS como extensão espacial do PostgreSQL com tipos, índices, funções, vetores e rasters; o projeto oferece documentação e materiais de treinamento públicos. Conferida ausência de registro equivalente no Radar."
+      }
+    },
+    {
+      "category": "tools",
+      "record": {
+        "id": "whitebox-geospatial-tools",
+        "name": "Whitebox — ferramentas geoespaciais",
+        "kind": "análise de terreno, hidrologia, LiDAR e sensoriamento remoto",
+        "url": "https://www.whiteboxgeo.com/",
+        "desc": "Plataforma com mais de 700 operações geoespaciais para Python, R e QGIS, cobrindo terreno, hidrologia, LiDAR, raster, vetores e sensoriamento remoto, com núcleo local e camada gratuita. Parte dos fluxos avançados pertence a planos Pro. Parâmetros, projeções e algoritmos devem ser documentados e validados contra amostras conhecidas antes de sustentar conclusões jornalísticas.",
+        "discoveredVia": [
+          "Data Visualization Society"
+        ],
+        "discoveryUrl": "https://www.whiteboxgeo.com/"
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Radar PLOT — revisão editorial assistida",
+        "reviewedAt": "2026-10-25",
+        "officialUrl": "https://www.whiteboxgeo.com/",
+        "evidence": "Páginas oficiais e manuais confirmam mais de 700 ferramentas, interfaces Python/R/QGIS, execução local e camada gratuita, além da separação entre núcleo aberto e pacotes Pro. Catálogo não continha Whitebox."
+      }
+    },
+    {
+      "category": "tools",
+      "record": {
+        "id": "tmap-r",
+        "name": "tmap — mapas temáticos em R",
+        "kind": "cartografia temática estática e interativa",
+        "url": "https://r-tmap.github.io/tmap/",
+        "desc": "Pacote R para criar mapas temáticos com gramática de camadas semelhante ao ggplot2, incluindo coropléticos, símbolos, facetas, animações e visualização interativa. Exige programação e dados espaciais preparados. A escolha de projeção, classificação, intervalos e normalização altera a leitura do mapa e deve ser justificada e revisada.",
+        "discoveredVia": [
+          "Data Visualization Society"
+        ],
+        "discoveryUrl": "https://r-tmap.github.io/tmap/"
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Radar PLOT — revisão editorial assistida",
+        "reviewedAt": "2026-10-25",
+        "officialUrl": "https://r-tmap.github.io/tmap/",
+        "evidence": "Documentação e referência oficiais confirmam pacote R ativo, gramática em camadas e suporte a mapas temáticos estáticos e interativos. Verificada ausência da URL e do ID no catálogo público."
+      }
     }
   ]
 }
+
