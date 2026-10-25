@@ -1,6 +1,61 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.tools=[
 {
+  "id": "camelot-pdf-tables",
+  "name": "Camelot — extração de tabelas de PDF",
+  "kind": "extração programática de tabelas em PDF",
+  "url": "https://camelot-py.readthedocs.io/",
+  "desc": "Biblioteca Python aberta para detectar e extrair tabelas de PDFs para DataFrame, CSV, JSON, Excel, HTML, Markdown e SQLite, com métricas de acurácia e espaço em branco para triagem. Funciona principalmente com PDFs baseados em texto; documentos digitalizados exigem OCR prévio. A extração pode deslocar colunas ou células e sempre deve ser comparada visualmente com o original.",
+  "discoveredVia": [
+    "Data Visualization Society"
+  ],
+  "discoveryUrl": "https://camelot-py.readthedocs.io/"
+},
+{
+  "id": "observable-framework",
+  "name": "Observable Framework",
+  "kind": "publicação de aplicações, painéis e reportagens de dados",
+  "url": "https://observablehq.com/framework",
+  "desc": "Gerador aberto de sites estáticos para aplicações, painéis e reportagens de dados. Combina páginas Markdown, JavaScript reativo e carregadores em SQL, Python, R ou outras linguagens, com bibliotecas de visualização e deploy em hospedagem estática. Exige programação e processo de build; dados carregados no cliente ficam expostos, e fontes dinâmicas só se atualizam quando a rotina de geração é executada novamente.",
+  "discoveredVia": [
+    "Data Visualization Society"
+  ],
+  "discoveryUrl": "https://observablehq.com/framework"
+},
+{
+  "id": "postgis",
+  "name": "PostGIS",
+  "kind": "banco de dados e análise geoespacial",
+  "url": "https://postgis.net/",
+  "desc": "Extensão aberta do PostgreSQL para armazenar, indexar, consultar e processar geometrias, geografias e rasters com SQL. Útil para cruzamentos espaciais reprodutíveis em grandes bases. Requer administração de banco e escolha correta de sistema de referência; erros de CRS, unidades ou validade geométrica podem produzir distâncias, áreas e interseções incorretas.",
+  "discoveredVia": [
+    "Data Visualization Society"
+  ],
+  "discoveryUrl": "https://postgis.net/"
+},
+{
+  "id": "whitebox-geospatial-tools",
+  "name": "Whitebox — ferramentas geoespaciais",
+  "kind": "análise de terreno, hidrologia, LiDAR e sensoriamento remoto",
+  "url": "https://www.whiteboxgeo.com/",
+  "desc": "Plataforma com mais de 700 operações geoespaciais para Python, R e QGIS, cobrindo terreno, hidrologia, LiDAR, raster, vetores e sensoriamento remoto, com núcleo local e camada gratuita. Parte dos fluxos avançados pertence a planos Pro. Parâmetros, projeções e algoritmos devem ser documentados e validados contra amostras conhecidas antes de sustentar conclusões jornalísticas.",
+  "discoveredVia": [
+    "Data Visualization Society"
+  ],
+  "discoveryUrl": "https://www.whiteboxgeo.com/"
+},
+{
+  "id": "tmap-r",
+  "name": "tmap — mapas temáticos em R",
+  "kind": "cartografia temática estática e interativa",
+  "url": "https://r-tmap.github.io/tmap/",
+  "desc": "Pacote R para criar mapas temáticos com gramática de camadas semelhante ao ggplot2, incluindo coropléticos, símbolos, facetas, animações e visualização interativa. Exige programação e dados espaciais preparados. A escolha de projeção, classificação, intervalos e normalização altera a leitura do mapa e deve ser justificada e revisada.",
+  "discoveredVia": [
+    "Data Visualization Society"
+  ],
+  "discoveryUrl": "https://r-tmap.github.io/tmap/"
+}, 
+{
   "id": "flourish",
   "name": "Flourish",
   "kind": "gráficos, mapas e narrativas interativas sem programação",
@@ -743,3 +798,4 @@ window.RADAR_PARTS.tools=[
     "discoveryUrl": "https://docs.aleph.occrp.org/"
   }
 ];
+

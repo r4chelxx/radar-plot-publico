@@ -17,14 +17,19 @@ test('daily update cards show each verified record description, not a repeated b
  const day=eligible.filter(x=>x.date===latest);
  const unique=new Set(day.flatMap(x=>x.items||[]).map(x=>x.id));
  assert(html.includes(unique.size+' novos registros'));
- for(const id of ['cvm-crowdfunding-plataformas-cadastro','fnde-dados-abertos-catalogo','bcb-estatisticas-pix','ararenda-dados-abertos-api']){
-  const record=D.datasets.find(x=>x.id===id);
-  assert(record,'missing dataset '+id);
-  assert(html.includes(record.description),'individual description missing '+id);
-  assert(html.includes('#base/'+id),'deep link missing '+id);
+ const catalogs={'nova-oportunidade':D.opportunities,dados:D.datasets,ferramentas:D.tools};
+ const hrefs={'nova-oportunidade':'#oportunidade/',dados:'#base/',ferramentas:'#ferramentas/'};
+ for(const entry of day){
+  for(const item of entry.items||[]){
+   const record=catalogs[entry.type].find(x=>x.id===item.id);
+   assert(record,'missing '+entry.type+' record '+item.id);
+   const detail=item.detail||record.desc||record.summary||record.description||entry.detail||'';
+   assert(detail,'missing individual description '+item.id);
+   assert(html.includes(detail),'individual description missing '+item.id);
+   assert(html.includes(hrefs[entry.type]+item.id),'deep link missing '+item.id);
+  }
+  assert.equal(html.split(entry.detail).length-1,0,'batch summary should not repeat on cards');
  }
- const shared=D.changelog.find(x=>x.items?.some(i=>i.id==='cvm-crowdfunding-plataformas-cadastro')).detail;
- assert.equal(html.split(shared).length-1,0,'batch summary should not repeat on every card');
 });
 test('mobile sticky header is opaque and scripts have a fresh cache version',()=>{
  const css=fs.readFileSync('styles.css','utf8'),index=fs.readFileSync('index.html','utf8');

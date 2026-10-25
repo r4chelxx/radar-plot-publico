@@ -400,6 +400,127 @@
       "reason": "Página oficial do FNDE reúne o PDA 2026–2028 e encaminha ao catálogo de conjuntos da autarquia. É um catálogo nacional recorrente e distinto do registro específico do SIOPE.",
       "reviewedBy": "Radar PLOT — revisão editorial assistida",
       "reviewedAt": "2026-10-24"
+    },
+    {
+      "url": "https://www.rtdna.org/scholarships-and-fellowships",
+      "status": "rejected",
+      "officialUrl": "https://www.rtdna.org/scholarships-and-fellowships",
+      "reason": "A chamada 2026 encerrou em 22/10/2026 e a elegibilidade é restrita a estudantes e profissionais que estudam ou trabalham nos Estados Unidos. Não é uma oportunidade ativa nem elegível para candidaturas a partir do Brasil.",
+      "reviewedBy": "Radar PLOT — revisão editorial assistida",
+      "reviewedAt": "2026-10-25"
+    },
+    {
+      "url": "https://rjionline.org/about-rji-fellowships",
+      "status": "duplicate",
+      "officialUrl": "https://rjionline.org/about-rji-fellowships/",
+      "reason": "A página oficial da chamada 2027 já sustenta os registros RJI Professional Innovation Fellowship — Individual e Emerging Technology no catálogo, ambos com abertura em 02/11/2026 e prazo em 08/01/2027.",
+      "reviewedBy": "Radar PLOT — revisão editorial assistida",
+      "reviewedAt": "2026-10-25"
+    },
+    {
+      "url": "https://www.tarbellcenter.org/institutional-grants",
+      "status": "duplicate",
+      "officialUrl": "https://www.tarbellcenter.org/institutional-grants",
+      "reason": "O programa institucional de US$ 50 mil a US$ 500 mil ou mais, com prazo em 11/12/2026, já está publicado como tarbell-institutional-grants-2026; a fonte não traz alteração factual que exija novo registro.",
+      "reviewedBy": "Radar PLOT — revisão editorial assistida",
+      "reviewedAt": "2026-10-25"
+    },
+    {
+      "url": "https://journaliststudio.google.com/",
+      "status": "duplicate",
+      "officialUrl": "https://journaliststudio.google.com/",
+      "reason": "Página agregadora do Google Journalist Studio; o recurso jornalístico específico e utilizável Pinpoint já está publicado e a página também já consta no catálogo de fontes. Não criar uma ferramenta guarda-chuva duplicada.",
+      "reviewedBy": "Radar PLOT — revisão editorial assistida",
+      "reviewedAt": "2026-10-25"
+    },
+    {
+      "url": "https://nieman.harvard.edu/fellowships/how-to-apply",
+      "status": "duplicate",
+      "officialUrl": "https://nieman.harvard.edu/fellowships/how-to-apply/",
+      "reason": "A candidatura internacional 2027–2028, com prazo oficial em 01/12, já está publicada no catálogo. A página geral de inscrição não constitui oportunidade adicional.",
+      "reviewedBy": "Radar PLOT — revisão editorial assistida",
+      "reviewedAt": "2026-10-25"
+    },
+    {
+      "url": "https://www.gov.br/anatel/pt-br/dados/dados-abertos",
+      "status": "duplicate",
+      "officialUrl": "https://www.gov.br/anatel/pt-br/dados/dados-abertos",
+      "reason": "O catálogo oficial e o PDA 2025–2027 da Anatel já estão publicados em Dados & Bases, com cobertura, formatos, granularidade e limitações documentados.",
+      "reviewedBy": "Radar PLOT — revisão editorial assistida",
+      "reviewedAt": "2026-10-25"
+    },
+    {
+      "url": "https://www.theopennotebook.com/early-career-fellowship-program",
+      "status": "duplicate",
+      "officialUrl": "https://www.theopennotebook.com/early-career-fellowship-program/",
+      "reason": "A fellowship remota 2027 já está publicada, com prazo de 31/10/2026, bolsa de US$ 6.600 e elegibilidade internacional condicionada à experiência inicial em jornalismo científico.",
+      "reviewedBy": "Radar PLOT — revisão editorial assistida",
+      "reviewedAt": "2026-10-25"
+    },
+    {
+      "url": "https://camelot-py.readthedocs.io/",
+      "status": "approved",
+      "officialUrl": "https://camelot-py.readthedocs.io/",
+      "reason": "Documentação oficial confirma biblioteca Python ativa para extração de tabelas de PDFs baseados em texto, exportação em formatos estruturados e métricas de qualidade; não havia registro equivalente no Radar.",
+      "reviewedBy": "Radar PLOT — revisão editorial assistida",
+      "reviewedAt": "2026-10-25"
+    },
+    {
+      "url": "https://observablehq.com/framework",
+      "status": "approved",
+      "officialUrl": "https://observablehq.com/framework",
+      "reason": "Fonte oficial confirma gerador aberto de sites estáticos para aplicações, painéis e reportagens de dados com Markdown, JavaScript, SQL, Python e R; recurso distinto dos itens já catalogados.",
+      "reviewedBy": "Radar PLOT — revisão editorial assistida",
+      "reviewedAt": "2026-10-25"
+    },
+    {
+      "url": "https://postgis.net/",
+      "status": "approved",
+      "officialUrl": "https://postgis.net/",
+      "reason": "Projeto oficial documenta extensão espacial aberta do PostgreSQL com armazenamento, índices e funções para dados vetoriais e raster; não havia registro PostGIS no catálogo.",
+      "reviewedBy": "Radar PLOT — revisão editorial assistida",
+      "reviewedAt": "2026-10-25"
+    },
+    {
+      "url": "https://globalfishingwatch.org/",
+      "status": "approved",
+      "officialUrl": "https://globalfishingwatch.org/our-apis/documentation/",
+      "reason": "A documentação primária oferece mapa, conjuntos e APIs para atividade, identidade e eventos de embarcações, detecções e infraestrutura marítima, com exemplos e ressalvas metodológicas; o Radar não possuía registro equivalente.",
+      "reviewedBy": "Radar PLOT — revisão editorial assistida",
+      "reviewedAt": "2026-10-25"
+    },
+    {
+      "url": "https://data.census.gov/",
+      "status": "approved",
+      "officialUrl": "https://data.census.gov/",
+      "reason": "Plataforma oficial do U.S. Census Bureau permite explorar, filtrar e baixar tabelas demográficas e econômicas, com produtos também acessíveis por API; não havia registro equivalente no Radar.",
+      "reviewedBy": "Radar PLOT — revisão editorial assistida",
+      "reviewedAt": "2026-10-25"
+    },
+    {
+      "url": "https://www.whiteboxgeo.com/",
+      "status": "approved",
+      "officialUrl": "https://www.whiteboxgeo.com/",
+      "reason": "Fonte oficial confirma mais de 700 ferramentas geoespaciais para terreno, hidrologia, LiDAR, sensoriamento remoto e vetores em Python, R e QGIS, com camada gratuita e documentação pública; item inédito no Radar.",
+      "reviewedBy": "Radar PLOT — revisão editorial assistida",
+      "reviewedAt": "2026-10-25"
+    },
+    {
+      "url": "https://overturemaps.org/",
+      "status": "duplicate",
+      "officialUrl": "https://overturemaps.org/",
+      "reason": "O catálogo global aberto da Overture Maps já está publicado em Dados & Bases, com formatos GeoParquet/PMTiles, atualização mensal e limitações de cobertura documentadas.",
+      "reviewedBy": "Radar PLOT — revisão editorial assistida",
+      "reviewedAt": "2026-10-25"
+    },
+    {
+      "url": "https://r-tmap.github.io/tmap",
+      "status": "approved",
+      "officialUrl": "https://r-tmap.github.io/tmap/",
+      "reason": "Documentação oficial confirma pacote R ativo para mapas temáticos estáticos e interativos com gramática de camadas; não havia ferramenta tmap publicada no catálogo.",
+      "reviewedBy": "Radar PLOT — revisão editorial assistida",
+      "reviewedAt": "2026-10-25"
     }
   ]
 }
+
