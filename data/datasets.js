@@ -1,5 +1,68 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.datasets=[
+{
+  "id": "global-fishing-watch-apis",
+  "name": "Global Fishing Watch — conjuntos e APIs marítimas",
+  "org": "Global Fishing Watch",
+  "territoryTier": "Outros",
+  "kind": "system",
+  "themes": [
+    "Oceanos",
+    "Pesca",
+    "Meio ambiente",
+    "Embarcações",
+    "Sensoriamento remoto",
+    "Fiscalização",
+    "Jornalismo investigativo"
+  ],
+  "coverage": "Atividade e presença de embarcações, identidade, eventos de pesca, encontros, visitas a portos, lacunas de AIS, detecções por radar e infraestrutura fixa no oceano, conforme o conjunto e o endpoint",
+  "frequency": "Varia por conjunto; versões e alias latest são atualizados pela plataforma, e alguns produtos derivados ou de infraestrutura têm atualização mensal",
+  "format": "JSON, CSV, GeoJSON, TIFF, PNG e MVT, conforme API, relatório ou download",
+  "period": "Varia por conjunto e versão; consultar os metadados do dataset e a data de cobertura devolvida pelo endpoint",
+  "granularity": "Embarcação, evento, posição, célula espaço-temporal, área, porto ou detecção de infraestrutura, conforme o produto",
+  "geoUnit": "Global, com filtros por região, área ou coordenadas nos endpoints compatíveis",
+  "api": "https://globalfishingwatch.org/our-apis/documentation/",
+  "docs": "https://globalfishingwatch.org/our-apis/documentation/docs/v3/general-api-doc/key-concepts",
+  "limitations": "Exige conta, chave de API, atribuição e observância dos termos. AIS não cobre todas as embarcações nem garante transmissão contínua; eventos e atividade aparente são inferências algorítmicas. Há conjuntos em estágio de protótipo, versões são descontinuadas e produtos de sensoriamento remoto podem conter falsos positivos. Conferir caveats, versão, cobertura temporal e fonte original antes de concluir infrações ou identidades.",
+  "lastChecked": "2026-10-25",
+  "url": "https://globalfishingwatch.org/our-apis/documentation/",
+  "discoveredVia": [
+    "Data Visualization Society"
+  ],
+  "discoveryUrl": "https://globalfishingwatch.org/",
+  "description": "APIs e downloads globais para investigar atividade, identidade e eventos de embarcações, pesca aparente e infraestrutura marítima."
+},
+{
+  "id": "us-census-data-portal",
+  "name": "U.S. Census Bureau — data.census.gov",
+  "org": "United States Census Bureau",
+  "territoryTier": "Outros",
+  "kind": "portal",
+  "themes": [
+    "Demografia",
+    "Economia",
+    "Habitação",
+    "Trabalho",
+    "Desigualdade",
+    "Políticas públicas"
+  ],
+  "coverage": "Tabelas oficiais sobre população e economia dos Estados Unidos, incluindo Censo Decenal, American Community Survey e outros produtos estatísticos disponibilizados no portal",
+  "frequency": "Varia por programa e tabela; consultar ano, release e notas metodológicas do produto selecionado",
+  "format": "Tabelas interativas e downloads CSV; APIs oficiais para produtos compatíveis",
+  "period": "Varia por programa, edição e tabela; o portal permite selecionar anos e produtos disponíveis",
+  "granularity": "Pessoa ou domicílio em estimativas agregadas por tabela, indicador, grupo e geografia; microdados não são expostos diretamente por todas as tabelas",
+  "geoUnit": "Estados Unidos; país, estado, condado, município, setor censitário e outras geografias conforme o produto",
+  "api": "https://www.census.gov/data/developers/data-sets.html",
+  "docs": "https://www.census.gov/data/what-is-data-census-gov.html",
+  "limitations": "Estimativas amostrais, especialmente da ACS, têm margens de erro e não devem ser tratadas como contagens exatas. Definições, universos, anos e limites geográficos variam entre tabelas; comparar somente séries metodologicamente compatíveis e respeitar alertas de qualidade para pequenas populações.",
+  "lastChecked": "2026-10-25",
+  "url": "https://data.census.gov/",
+  "discoveredVia": [
+    "Data Visualization Society"
+  ],
+  "discoveryUrl": "https://data.census.gov/",
+  "description": "Portal oficial para explorar, filtrar e baixar tabelas demográficas e econômicas do U.S. Census Bureau."
+}, 
   {
     "id": "paraiba-portal-dados-abertos-api",
     "name": "Paraíba — Portal de Dados Abertos e API",
@@ -4117,4 +4180,5 @@ window.RADAR_PARTS.datasets=[
     "description": "Portal municipal com dados de finanças, pessoal, contratos e obras em formatos abertos e API REST pública documentada."
   }
 ];
+
 
