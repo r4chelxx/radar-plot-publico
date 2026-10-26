@@ -3,6 +3,8 @@ on:
   pull_request:
     paths:
       - 'scripts/collect-web-leads.js'
+      - 'scripts/import-linkedin-public-posts.js'
+      - 'tests/linkedin-public-import.test.js'
       - 'scripts/discover-public-feeds.mjs'
       - 'scripts/discover-dvs-public.mjs'
       - 'scripts/test-web-intake.js'
@@ -50,6 +52,8 @@ jobs:
         run: |
           node --check scripts/discover-public-feeds.mjs
           node --check scripts/discover-dvs-public.mjs
+      - name: Test public LinkedIn import safeguards
+        run: node --test tests/linkedin-public-import.test.js
       - name: Test web intake safeguards
         run: node scripts/test-web-intake.js
       - name: Test production deployment revision checks
@@ -88,8 +92,15 @@ jobs:
           fi
       - name: Convert previously audited web candidates
         run: node scripts/collect-web-leads.js
+      - name: Import reviewed public LinkedIn post URLs if provided
+        run: |
+          if [ -f intake/linkedin-public-posts.json ]; then
+            node scripts/import-linkedin-public-posts.js intake/linkedin-public-posts.json intake/linkedin-public-candidates.json
+          else
+            printf '{"source":"linkedin","leads":[],"coverageStatus":"partial"}\n' > intake/linkedin-public-candidates.json
+          fi
       - name: Consolidate live and historical candidates
-        run: node scripts/unify-discovery.js intake/live-web-discovery.json intake/dvs-public-discovery.json intake/web-discovery-input.json
+        run: node scripts/unify-discovery.js intake/live-web-discovery.json intake/dvs-public-discovery.json intake/web-discovery-input.json intake/linkedin-public-candidates.json
       - name: Classify duplicate and navigation candidates
         run: node scripts/quality-gate-discovery.js
       - name: Prepare editorial review sample
@@ -132,6 +143,7 @@ jobs:
             intake/dvs-public-discovery.json
             intake/dvs-public-health.json
             intake/web-discovery-input.json
+            intake/linkedin-public-candidates.json
             intake/unified-discovery.json
             intake/discovery-quality.json
             intake/discovery-operations.json
