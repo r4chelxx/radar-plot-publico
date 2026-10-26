@@ -29,7 +29,7 @@ if(require.main===module){
  if(!input)throw Error('Usage: node scripts/import-linkedin-public-posts.js input.json [output.json]');
  const result=convert(JSON.parse(fs.readFileSync(input,'utf8')));
  fs.mkdirSync(require('node:path').dirname(output),{recursive:true});
- fs.writeFileSync(output,JSON.stringify({source:'web',...result},null,2)+'\\n');
+ fs.writeFileSync(output,JSON.stringify({source:'linkedin',...result},null,2)+'\\n');
  console.log(JSON.stringify({accepted:result.leads.length,rejected:result.errors.length,coverageStatus:result.coverageStatus}));
  if(result.errors.length)process.exitCode=1;
 }
