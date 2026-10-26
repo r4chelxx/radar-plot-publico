@@ -4,6 +4,8 @@
 import fs from 'node:fs';
 import identityModule from './lead-identity.js';
 const {canonical}=identityModule;
+import relevance from './public-feed-relevance.js';
+const {isRelevant}=relevance;
 // Removed Journalism.co.uk endpoint after repeatable HTTP 404; retain source in catalog for manual review.
 const feeds=[
  {name:'GIJN',url:'https://gijn.org/feed/',fallback:'https://gijn.org/'},
@@ -14,7 +16,6 @@ const feeds=[
 const decode=s=>String(s||'').replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g,'$1').replace(/<[^>]*>/g,' ').replace(/&amp;/g,'&').replace(/&quot;/g,'"').replace(/&#39;/g,"'").trim();
 const pick=(xml,tag)=>{const m=xml.match(new RegExp('<(?:[\\w-]+:)?'+tag+'(?:\\s[^>]*)?>([\\s\\S]*?)<\\/(?:[\\w-]+:)?'+tag+'>','i'));return m?decode(m[1]):''};
 // Official publisher homepage fallback only when RSS is blocked or missing.
-const relevant=/(?:grant|fellowship|scholarship|funding|call for|open call|job opening|tool|dataset|database|open data|bolsa|edital|financiamento|ferramenta|research)/i;
 async function homepageFallback(feed){
  const r=await fetch(feed.fallback,{signal:AbortSignal.timeout(12000),headers:{'user-agent':'Radar-PLOT-Discovery/1.0','accept':'text/html'}});
  if(!r.ok)throw Error('Homepage HTTP '+r.status);
@@ -24,7 +25,7 @@ async function homepageFallback(feed){
   const href=m[1].match(/\bhref\s*=\s*["']([^"']+)["']/i)?.[1];
   if(!href)continue;
   const title=decode(m[2]).replace(/\s+/g,' ').slice(0,220);
-  if(title.length<12||!relevant.test(title))continue;
+  if(!isRelevant(title))continue;
   try{
    const u=new URL(href,feed.fallback);
    if(u.hostname.replace(/^www\./,'')!==host)continue;
@@ -47,10 +48,10 @@ for(const feed of feeds){
    const title=pick(body,'title');
    const atom=body.match(/<link\b[^>]*href=["']([^"']+)["']/i);
    const raw=kind.toLowerCase()==='entry'?(atom?.[1]||pick(body,'link')):pick(body,'link');
-   if(!raw||!title)continue;
+   if(!raw||!isRelevant(title))continue;
    try{leads.push({url:canonical(raw),title,category:'uncategorized',sourceName:feed.name});count++}catch{}
   }
-  health.push({source:feed.name,status:'ok',items:count});
+  health.push({source:feed.name,status:'ok',items:count,coverageStatus:count?'partial':'no-relevant-items'});
  }catch(e){
   if(feed.fallback){
    try{
