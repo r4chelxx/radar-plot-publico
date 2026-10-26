@@ -11,7 +11,7 @@ function convert(entries){
   try{
    if(!item||typeof item!=='object')throw Error('Invalid record');
    const post=new URL(String(item.postUrl||''));
-   if(!/(^|\\.)linkedin\\.com$/i.test(post.hostname))throw Error('Not a LinkedIn post');
+   if(post.hostname!=='linkedin.com'&&!post.hostname.endsWith('.linkedin.com'))throw Error('Not a LinkedIn post');
    if(!['/posts/','/feed/update/','/pulse/'].some(prefix=>post.pathname.startsWith(prefix)))throw Error('Not a public post permalink');
    const url=canonical(String(item.officialUrl||''));
    if(!url.startsWith('https://')&&!url.startsWith('http://'))throw Error('Invalid official URL');
