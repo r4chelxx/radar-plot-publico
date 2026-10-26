@@ -1,6 +1,50 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.tools=[
 {
+  "id": "tableau-public",
+  "name": "Tableau Public",
+  "kind": "visualização interativa e portfólio público de dados",
+  "url": "https://www.tableau.com/products/public",
+  "desc": "Plataforma gratuita para criar, explorar, compartilhar e incorporar visualizações interativas em navegador ou com o aplicativo Tableau Public. Todo conteúdo publicado fica acessível publicamente e pode expor dados subjacentes; por isso não deve receber bases sigilosas ou inéditas. Atualizações, conectores e recursos são mais limitados que nos planos comerciais, e a publicação exige conta.",
+  "discoveredVia": [
+    "Data Visualization Society"
+  ],
+  "discoveryUrl": "https://public.tableau.com/"
+},
+{
+  "id": "canva-charts",
+  "name": "Canva — gráficos e visualização",
+  "kind": "produção visual com gráficos e importação de planilhas",
+  "url": "https://www.canva.com/help/charts/",
+  "desc": "Ambiente de design com mais de 30 tipos de gráficos, importação de planilhas e composição de peças para web, redes sociais e apresentações. Exige conta e não substitui uma ferramenta de análise: escalas, agregações, fontes, contraste e acessibilidade precisam de revisão editorial. Privacidade, colaboração e disponibilidade de recursos variam conforme o plano e as configurações do projeto.",
+  "discoveredVia": [
+    "Data Visualization Society"
+  ],
+  "discoveryUrl": "https://www.canva.com/"
+},
+{
+  "id": "openlayers",
+  "name": "OpenLayers",
+  "kind": "biblioteca JavaScript aberta para mapas web",
+  "url": "https://openlayers.org/",
+  "desc": "Biblioteca JavaScript de código aberto para incorporar mapas dinâmicos em páginas web, com camadas de tiles e vetores, marcadores, Canvas/WebGL e formatos como GeoJSON, TopoJSON, KML, GML e MVT. Requer programação, hospedagem e fontes cartográficas próprias. Licenças, atribuições, cotas de APIs, projeções e privacidade dos dados devem ser verificadas em cada projeto.",
+  "discoveredVia": [
+    "Data Visualization Society"
+  ],
+  "discoveryUrl": "https://openlayers.org/"
+},
+{
+  "id": "stac-specification",
+  "name": "STAC — SpatioTemporal Asset Catalog",
+  "kind": "especificação e ecossistema para catálogos geoespaciais",
+  "url": "https://stacspec.org/en/",
+  "desc": "Especificação aberta e ecossistema de APIs, catálogos e bibliotecas para descrever, pesquisar e acessar imagens de satélite e outros ativos espaço-temporais com metadados padronizados. Não é uma base única: disponibilidade, cobertura, licença, autenticação e qualidade variam entre os catálogos conectados. O uso costuma exigir familiaridade com dados geoespaciais, JSON e APIs.",
+  "discoveredVia": [
+    "Data Visualization Society"
+  ],
+  "discoveryUrl": "https://stacspec.org/en"
+}, 
+{
   "id": "camelot-pdf-tables",
   "name": "Camelot — extração de tabelas de PDF",
   "kind": "extração programática de tabelas em PDF",

@@ -790,8 +790,14 @@ window.RADAR_PARTS.opportunities=[
       "Concessão de uso e direitos autorais nos termos do regulamento"
     ],
     "opens": null,
-    "verificationHistory": [],
-    "verified": "2026-10-19",
+    "verificationHistory": [
+      {
+        "date": "2026-10-26",
+        "status": "encerrada",
+        "source": "https://direitoshumanosbr.org.br/home/download/regulamento_por.pdf"
+      }
+    ],
+    "verified": "2026-10-26",
     "id": "mjdh-direitos-humanos-2026",
     "title": "43º Prêmio Direitos Humanos de Jornalismo 2026",
     "org": "MJDH / OAB-RS",
@@ -807,7 +813,7 @@ window.RADAR_PARTS.opportunities=[
     "deadlineStatus": "confirmado",
     "eligibility": "elegível",
     "fit": 7,
-    "status": "aberta",
+    "status": "encerrada",
     "rules": "https://direitoshumanosbr.org.br/home/download/regulamento_por.pdf",
     "apply": "https://direitoshumanosbr.org.br/home/inscricao.php?id=566917",
     "discoveredVia": [
@@ -976,6 +982,11 @@ window.RADAR_PARTS.opportunities=[
         "date": "2026-10-19",
         "status": "aberta",
         "source": "https://livre.jor.br/regulamento-do-premio-livre-jor-de-jornalismo-mosca/"
+      },
+      {
+        "date": "2026-10-26",
+        "status": "encerrada",
+        "source": "https://livre.jor.br/regulamento-do-premio-livre-jor-de-jornalismo-mosca/"
       }
     ],
     "id": "livrejor-premio-mosca-2026",
@@ -994,10 +1005,10 @@ window.RADAR_PARTS.opportunities=[
     "deadlineStatus": "confirmado",
     "eligibility": "elegível",
     "fit": 8.5,
-    "status": "aberta",
+    "status": "encerrada",
     "rules": "https://livre.jor.br/regulamento-do-premio-livre-jor-de-jornalismo-mosca/",
     "apply": "https://livre.jor.br/premiomosca/",
-    "verified": "2026-10-19",
+    "verified": "2026-10-26",
     "discoveredVia": [
       "Livre.jor — Prêmio Mosca"
     ],
@@ -4618,4 +4629,5 @@ window.RADAR_PARTS.opportunities=[
     "desc": "FIRE aceita freelancers investigativos fora dos EUA e sem restrição de cidadania, mas trabalha apenas com histórias para veículos em inglês. O caminho real começa pela FIRE Consultancy; grants da Virtual Newsroom dependem de convite posterior."
   }
 ];
+
 

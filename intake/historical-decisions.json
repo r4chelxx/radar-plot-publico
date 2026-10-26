@@ -520,6 +520,126 @@
       "reason": "Documentação oficial confirma pacote R ativo para mapas temáticos estáticos e interativos com gramática de camadas; não havia ferramenta tmap publicada no catálogo.",
       "reviewedBy": "Radar PLOT — revisão editorial assistida",
       "reviewedAt": "2026-10-25"
+    },
+    {
+      "url": "https://fapesp.br/oportunidades/estabelecendo-uma-assinatura-epigenetica-para-a-sindrome-de-noonan/9917",
+      "status": "rejected",
+      "officialUrl": "https://fapesp.br/oportunidades/estabelecendo-uma-assinatura-epigenetica-para-a-sindrome-de-noonan/9917",
+      "reason": "A fonte oficial confirma bolsa de pós-doutorado em endocrinologia genética com encerramento em 23/10/2026. O prazo expirou antes desta revisão e o perfil científico especializado não constitui oportunidade editorial para o escopo do Radar.",
+      "reviewedBy": "Radar PLOT — revisão editorial assistida",
+      "reviewedAt": "2026-10-26"
+    },
+    {
+      "url": "https://public.tableau.com/",
+      "status": "approved",
+      "officialUrl": "https://www.tableau.com/products/public",
+      "reason": "A página oficial confirma plataforma gratuita para criar, explorar, compartilhar e incorporar visualizações públicas. O catálogo não continha Tableau Public; a exposição pública dos dados e as limitações de atualização foram registradas.",
+      "reviewedBy": "Radar PLOT — revisão editorial assistida",
+      "reviewedAt": "2026-10-26"
+    },
+    {
+      "url": "https://fapesp.br/oportunidades/-sistema-de-slam-visual-integrado-vestivel-para-realidade-aumentada./9916",
+      "status": "rejected",
+      "officialUrl": "https://fapesp.br/oportunidades/-sistema-de-slam-visual-integrado-vestivel-para-realidade-aumentada./9916",
+      "reason": "A fonte oficial confirma bolsa de doutorado em engenharia mecatrônica com encerramento em 23/10/2026. O prazo expirou antes desta revisão e a chamada acadêmica especializada não se enquadra como oportunidade editorial do Radar.",
+      "reviewedBy": "Radar PLOT — revisão editorial assistida",
+      "reviewedAt": "2026-10-26"
+    },
+    {
+      "url": "https://www.canva.com/",
+      "status": "approved",
+      "officialUrl": "https://www.canva.com/help/charts/",
+      "reason": "A documentação oficial confirma mais de 30 tipos de gráficos, importação de planilhas e criação de visualizações para publicação. A ferramenta não constava no catálogo; foram documentados conta, privacidade, planos e necessidade de revisão estatística e de acessibilidade.",
+      "reviewedBy": "Radar PLOT — revisão editorial assistida",
+      "reviewedAt": "2026-10-26"
+    },
+    {
+      "url": "https://fapesp.br/oportunidades/participacao-do-sistema-complemento-na-patogenese-da-sindrome-hemorragica-pulmonar-associada-a-leptospirose.-identificacao-de-ligantes-leptospirais-de-c3-e-caracterizacao-bioquimica-e-estrutural-de-proteinas-de-leptospirase-/9927",
+      "status": "rejected",
+      "officialUrl": "https://fapesp.br/oportunidades/participacao-do-sistema-complemento-na-patogenese-da-sindrome-hemorragica-pulmonar-associada-a-leptospirose.-identificacao-de-ligantes-leptospirais-de-c3-e-caracterizacao-bioquimica-e-estrutural-de-proteinas-de-leptospirase-/9927",
+      "reason": "A chamada oficial estava aberta até 28/10/2026, mas exige doutorado recente em imunologia e experiência laboratorial especializada. É uma vaga científica, sem aderência editorial suficiente ao público e às pautas do Radar.",
+      "reviewedBy": "Radar PLOT — revisão editorial assistida",
+      "reviewedAt": "2026-10-26"
+    },
+    {
+      "url": "https://www.southarts.org/grants-opportunities/arts-journalism-grants",
+      "status": "rejected",
+      "officialUrl": "https://www.southarts.org/grants-opportunities/arts-journalism-grants",
+      "reason": "A fonte oficial confirma bolsas de jornalismo de artes com prazo em 20/11/2026, mas exige cidadania ou residência permanente nos Estados Unidos e, na maioria das modalidades, residência ou sede em nove estados do sul do país. Não há elegibilidade brasileira.",
+      "reviewedBy": "Radar PLOT — revisão editorial assistida",
+      "reviewedAt": "2026-10-26"
+    },
+    {
+      "url": "https://spatial-sql.com/",
+      "status": "duplicate",
+      "officialUrl": "https://spatial-sql.com/",
+      "reason": "A fonte é a página comercial de um livro de formação em SQL espacial, PostGIS e ferramentas correlatas. O recurso central, PostGIS, já foi publicado no Radar; a página não oferece uma ferramenta autônoma distinta para novo registro.",
+      "reviewedBy": "Radar PLOT — revisão editorial assistida",
+      "reviewedAt": "2026-10-26"
+    },
+    {
+      "url": "https://www.not-ship.com/",
+      "status": "rejected",
+      "officialUrl": "https://www.not-ship.com/",
+      "reason": "A fonte oficial descreve uma publicação/newsletter sobre dados e tecnologia. Não é oportunidade concreta, conjunto de dados nem ferramenta operacional para as categorias públicas do Radar.",
+      "reviewedBy": "Radar PLOT — revisão editorial assistida",
+      "reviewedAt": "2026-10-26"
+    },
+    {
+      "url": "https://multimedia.journalism.berkeley.edu/tutorials/qgis-basics-journalists",
+      "status": "duplicate",
+      "officialUrl": "https://multimedia.journalism.berkeley.edu/tutorials/qgis-basics-journalists/",
+      "reason": "O tutorial institucional aborda versões 1.6/1.7 do QGIS e está tecnicamente desatualizado. O QGIS atualizado já consta do catálogo, portanto a página não justifica um segundo registro de ferramenta.",
+      "reviewedBy": "Radar PLOT — revisão editorial assistida",
+      "reviewedAt": "2026-10-26"
+    },
+    {
+      "url": "https://openlayers.org/",
+      "status": "approved",
+      "officialUrl": "https://openlayers.org/",
+      "reason": "A documentação oficial confirma biblioteca JavaScript aberta e ativa para mapas web, com camadas raster e vetoriais, múltiplos formatos e renderização Canvas/WebGL. Não havia OpenLayers no catálogo e as exigências técnicas e de atribuição foram documentadas.",
+      "reviewedBy": "Radar PLOT — revisão editorial assistida",
+      "reviewedAt": "2026-10-26"
+    },
+    {
+      "url": "https://esri.com/en-us/about/events/uc/overview",
+      "status": "rejected",
+      "officialUrl": "https://www.esri.com/en-us/about/events/uc/overview",
+      "reason": "A página oficial informa a conferência Esri User Conference de 12 a 16/07/2027, porém não apresenta nesta revisão uma chamada, bolsa ou inscrição concreta aberta com prazo e elegibilidade verificáveis.",
+      "reviewedBy": "Radar PLOT — revisão editorial assistida",
+      "reviewedAt": "2026-10-26"
+    },
+    {
+      "url": "https://tdwi.org/pages/best-practices-awards/tdwi-best-practice-awards.aspx",
+      "status": "rejected",
+      "officialUrl": "https://tdwi.org/pages/best-practices-awards/tdwi-best-practice-awards.aspx",
+      "reason": "A página oficial disponível permanece vinculada ao ciclo de 2023, com prazo encerrado em 30/06/2023, sem confirmação de uma edição atual. Não há chamada vigente publicável.",
+      "reviewedBy": "Radar PLOT — revisão editorial assistida",
+      "reviewedAt": "2026-10-26"
+    },
+    {
+      "url": "https://srccon.org/",
+      "status": "rejected",
+      "officialUrl": "https://srccon.org/",
+      "reason": "A página oficial indica SRCCON 2027 como ainda a anunciar e não oferece nesta revisão chamada, inscrição ou apoio com prazo e condições confirmados. Não há oportunidade concreta publicável.",
+      "reviewedBy": "Radar PLOT — revisão editorial assistida",
+      "reviewedAt": "2026-10-26"
+    },
+    {
+      "url": "https://www.ire.org/awards",
+      "status": "rejected",
+      "officialUrl": "https://www.ire.org/awards/",
+      "reason": "A página oficial de prêmios não apresenta um ciclo aberto do Philip Meyer Journalism Award; o concurso de 2025 encerrou em 21/01/2026. Sem novo edital e prazo confirmados, não há oportunidade vigente para publicar.",
+      "reviewedBy": "Radar PLOT — revisão editorial assistida",
+      "reviewedAt": "2026-10-26"
+    },
+    {
+      "url": "https://stacspec.org/en",
+      "status": "approved",
+      "officialUrl": "https://stacspec.org/en/",
+      "reason": "A documentação oficial confirma especificação aberta e ecossistema operacional para catalogar, pesquisar e acessar ativos espaço-temporais, com API, tutoriais e implementações. O recurso era inédito no Radar e as variações de acesso, cobertura e qualidade entre catálogos foram documentadas.",
+      "reviewedBy": "Radar PLOT — revisão editorial assistida",
+      "reviewedAt": "2026-10-26"
     }
   ]
 }

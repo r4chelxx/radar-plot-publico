@@ -1,6 +1,30 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
 {
+  "date": "2026-10-26",
+  "type": "ferramentas",
+  "title": "Publicação editorial verificada — 2026-10-26",
+  "items": [
+    {
+      "id": "tableau-public",
+      "title": "Tableau Public"
+    },
+    {
+      "id": "canva-charts",
+      "title": "Canva — gráficos e visualização"
+    },
+    {
+      "id": "openlayers",
+      "title": "OpenLayers"
+    },
+    {
+      "id": "stac-specification",
+      "title": "STAC — SpatioTemporal Asset Catalog"
+    }
+  ],
+  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Tableau Public; Canva — gráficos e visualização; OpenLayers; STAC — SpatioTemporal Asset Catalog."
+}, 
+{
   "date": "2026-10-25",
   "type": "dados",
   "title": "Publicação editorial verificada — 2026-10-25",
