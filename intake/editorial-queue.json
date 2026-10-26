@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-25T17:11:50.111Z",
+  "updatedAt": "2026-10-26T13:51:40.830Z",
   "policy": "Public web leads only; pending does not mean verified or approved.",
   "candidates": [
     {
@@ -96,7 +96,7 @@
       ],
       "firstSeen": "2026-10-23T17:21:05.512Z",
       "lastSeen": "2026-10-25T16:39:00.512Z",
-      "status": "pending",
+      "status": "duplicate",
       "reviewPriority": "normal"
     },
     {
@@ -108,7 +108,7 @@
       ],
       "firstSeen": "2026-10-23T17:21:05.512Z",
       "lastSeen": "2026-10-25T16:39:00.512Z",
-      "status": "pending",
+      "status": "rejected",
       "reviewPriority": "normal"
     },
     {
@@ -120,7 +120,7 @@
       ],
       "firstSeen": "2026-10-23T17:21:05.512Z",
       "lastSeen": "2026-10-25T16:39:00.512Z",
-      "status": "pending",
+      "status": "duplicate",
       "reviewPriority": "normal"
     },
     {
@@ -132,7 +132,7 @@
       ],
       "firstSeen": "2026-10-23T17:21:05.512Z",
       "lastSeen": "2026-10-25T16:39:00.512Z",
-      "status": "pending",
+      "status": "published",
       "reviewPriority": "normal"
     },
     {
@@ -144,7 +144,7 @@
       ],
       "firstSeen": "2026-10-23T17:21:05.512Z",
       "lastSeen": "2026-10-25T16:39:00.512Z",
-      "status": "pending",
+      "status": "rejected",
       "reviewPriority": "normal"
     },
     {
@@ -156,7 +156,7 @@
       ],
       "firstSeen": "2026-10-23T17:21:05.512Z",
       "lastSeen": "2026-10-25T16:39:00.512Z",
-      "status": "pending",
+      "status": "rejected",
       "reviewPriority": "high"
     },
     {
@@ -168,7 +168,7 @@
       ],
       "firstSeen": "2026-10-23T17:21:05.512Z",
       "lastSeen": "2026-10-25T16:39:00.512Z",
-      "status": "pending",
+      "status": "rejected",
       "reviewPriority": "normal"
     },
     {
@@ -180,7 +180,7 @@
       ],
       "firstSeen": "2026-10-23T17:21:05.512Z",
       "lastSeen": "2026-10-25T16:39:00.512Z",
-      "status": "pending",
+      "status": "rejected",
       "reviewPriority": "high"
     },
     {
@@ -192,7 +192,7 @@
       ],
       "firstSeen": "2026-10-23T17:21:05.512Z",
       "lastSeen": "2026-10-25T16:39:00.512Z",
-      "status": "pending",
+      "status": "published",
       "reviewPriority": "normal"
     },
     {
@@ -3840,7 +3840,7 @@
       ],
       "firstSeen": "2026-10-23T17:21:05.512Z",
       "lastSeen": "2026-10-25T16:39:00.512Z",
-      "status": "pending",
+      "status": "published",
       "reviewPriority": "high"
     },
     {
@@ -3996,7 +3996,7 @@
       ],
       "firstSeen": "2026-10-23T17:21:05.512Z",
       "lastSeen": "2026-10-25T16:39:00.512Z",
-      "status": "pending",
+      "status": "published",
       "reviewPriority": "high"
     },
     {
