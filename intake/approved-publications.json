@@ -538,6 +538,90 @@
         "officialUrl": "https://r-tmap.github.io/tmap/",
         "evidence": "Documentação e referência oficiais confirmam pacote R ativo, gramática em camadas e suporte a mapas temáticos estáticos e interativos. Verificada ausência da URL e do ID no catálogo público."
       }
+    },
+    {
+      "category": "tools",
+      "record": {
+        "id": "tableau-public",
+        "name": "Tableau Public",
+        "kind": "visualização interativa e portfólio público de dados",
+        "url": "https://www.tableau.com/products/public",
+        "desc": "Plataforma gratuita para criar, explorar, compartilhar e incorporar visualizações interativas em navegador ou com o aplicativo Tableau Public. Todo conteúdo publicado fica acessível publicamente e pode expor dados subjacentes; por isso não deve receber bases sigilosas ou inéditas. Atualizações, conectores e recursos são mais limitados que nos planos comerciais, e a publicação exige conta.",
+        "discoveredVia": [
+          "Data Visualization Society"
+        ],
+        "discoveryUrl": "https://public.tableau.com/"
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Radar PLOT — revisão editorial assistida",
+        "reviewedAt": "2026-10-26",
+        "officialUrl": "https://www.tableau.com/products/public",
+        "evidence": "A página oficial confirma oferta gratuita para criar, explorar, compartilhar e incorporar visualizações públicas, além das restrições de privacidade e atualização. Verificada ausência de Tableau Public por ID, nome e URL no catálogo."
+      }
+    },
+    {
+      "category": "tools",
+      "record": {
+        "id": "canva-charts",
+        "name": "Canva — gráficos e visualização",
+        "kind": "produção visual com gráficos e importação de planilhas",
+        "url": "https://www.canva.com/help/charts/",
+        "desc": "Ambiente de design com mais de 30 tipos de gráficos, importação de planilhas e composição de peças para web, redes sociais e apresentações. Exige conta e não substitui uma ferramenta de análise: escalas, agregações, fontes, contraste e acessibilidade precisam de revisão editorial. Privacidade, colaboração e disponibilidade de recursos variam conforme o plano e as configurações do projeto.",
+        "discoveredVia": [
+          "Data Visualization Society"
+        ],
+        "discoveryUrl": "https://www.canva.com/"
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Radar PLOT — revisão editorial assistida",
+        "reviewedAt": "2026-10-26",
+        "officialUrl": "https://www.canva.com/help/charts/",
+        "evidence": "A central de ajuda oficial confirma mais de 30 tipos de gráficos, importação de planilhas e edição visual. Verificada ausência de Canva por ID, nome e URL no catálogo; limitações editoriais e de acesso foram registradas."
+      }
+    },
+    {
+      "category": "tools",
+      "record": {
+        "id": "openlayers",
+        "name": "OpenLayers",
+        "kind": "biblioteca JavaScript aberta para mapas web",
+        "url": "https://openlayers.org/",
+        "desc": "Biblioteca JavaScript de código aberto para incorporar mapas dinâmicos em páginas web, com camadas de tiles e vetores, marcadores, Canvas/WebGL e formatos como GeoJSON, TopoJSON, KML, GML e MVT. Requer programação, hospedagem e fontes cartográficas próprias. Licenças, atribuições, cotas de APIs, projeções e privacidade dos dados devem ser verificadas em cada projeto.",
+        "discoveredVia": [
+          "Data Visualization Society"
+        ],
+        "discoveryUrl": "https://openlayers.org/"
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Radar PLOT — revisão editorial assistida",
+        "reviewedAt": "2026-10-26",
+        "officialUrl": "https://openlayers.org/",
+        "evidence": "Documentação oficial confirma biblioteca ativa sob licença BSD, suporte a camadas raster e vetoriais, múltiplos formatos e renderização Canvas/WebGL. Verificada ausência de OpenLayers no catálogo."
+      }
+    },
+    {
+      "category": "tools",
+      "record": {
+        "id": "stac-specification",
+        "name": "STAC — SpatioTemporal Asset Catalog",
+        "kind": "especificação e ecossistema para catálogos geoespaciais",
+        "url": "https://stacspec.org/en/",
+        "desc": "Especificação aberta e ecossistema de APIs, catálogos e bibliotecas para descrever, pesquisar e acessar imagens de satélite e outros ativos espaço-temporais com metadados padronizados. Não é uma base única: disponibilidade, cobertura, licença, autenticação e qualidade variam entre os catálogos conectados. O uso costuma exigir familiaridade com dados geoespaciais, JSON e APIs.",
+        "discoveredVia": [
+          "Data Visualization Society"
+        ],
+        "discoveryUrl": "https://stacspec.org/en"
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Radar PLOT — revisão editorial assistida",
+        "reviewedAt": "2026-10-26",
+        "officialUrl": "https://stacspec.org/en/",
+        "evidence": "O site e a documentação oficiais confirmam especificação aberta, API, tutoriais e implementações para descoberta e acesso de ativos espaço-temporais. Verificada ausência de STAC por ID, nome e URL no catálogo."
+      }
     }
   ]
 }
