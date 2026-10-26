@@ -1,10 +1,11 @@
 {
-  "checkedAt": "2026-10-25T14:58:33.986Z",
+  "checkedAt": "2026-10-26T13:54:58.490Z",
   "policy": "404/410 and ArcGIS application errors within HTTP 200 become broken only after appearing as suspect or broken in the previous audit; blocked and network results are inconclusive",
   "counts": {
-    "ok": 371,
-    "blocked": 40,
-    "network": 45
+    "ok": 372,
+    "blocked": 41,
+    "network": 45,
+    "server": 2
   },
   "results": [
     {
@@ -1225,11 +1226,13 @@
       "type": "source",
       "id": "United Nations — Mandate Registry",
       "url": "https://mandates.un.org/secretariat",
-      "status": 200,
-      "finalUrl": "https://mandates.un.org/secretariat",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "AbortError:This operation was aborted",
       "attempts": [
-        200
+        "AbortError:This operation was aborted",
+        "AbortError:This operation was aborted"
       ]
     },
     {
@@ -1732,7 +1735,6 @@
       "finalUrl": "https://map.geo.sei.ba.gov.br/arcgis/rest/services/servicos_sei/LOCALIDADE_BAHIA/MapServer?f=json",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -2173,7 +2175,6 @@
       "finalUrl": "https://salvador.ba.gov.br/",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -2383,13 +2384,11 @@
       "type": "dataset",
       "id": "sesab-mortalidade-materna",
       "url": "https://biobr.saude.ba.gov.br/static/obitomaterno.php",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://biobr.saude.ba.gov.br/static/obitomaterno.php",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -2922,11 +2921,11 @@
       "type": "source",
       "id": "One World Media Awards",
       "url": "https://oneworldmedia.org.uk/awards/",
-      "status": 200,
+      "status": 202,
       "finalUrl": "https://oneworldmedia.org.uk/awards/",
       "class": "ok",
       "attempts": [
-        200
+        202
       ]
     },
     {
@@ -3093,11 +3092,11 @@
       "type": "source",
       "id": "Rory Peck Trust",
       "url": "https://rorypecktrust.org/",
-      "status": 200,
+      "status": 202,
       "finalUrl": "https://rorypecktrust.org/",
       "class": "ok",
       "attempts": [
-        200
+        202
       ]
     },
     {
@@ -3148,22 +3147,22 @@
       "type": "source",
       "id": "One World Media — Awards e Fellowship",
       "url": "https://oneworldmedia.org.uk/fellowship/",
-      "status": 200,
+      "status": 202,
       "finalUrl": "https://oneworldmedia.org.uk/fellowship/",
       "class": "ok",
       "attempts": [
-        200
+        202
       ]
     },
     {
       "type": "source",
       "id": "Amado Mundo — oportunidades de formação",
       "url": "https://amadomundo.com/",
-      "status": 200,
+      "status": 202,
       "finalUrl": "https://amadomundo.com/",
       "class": "ok",
       "attempts": [
-        200
+        202
       ]
     },
     {
@@ -3656,11 +3655,12 @@
       "type": "source",
       "id": "MapBiomas Alerta",
       "url": "https://alerta.mapbiomas.org/metodo-mapbiomas-alerta/",
-      "status": 200,
+      "status": 500,
       "finalUrl": "https://alerta.mapbiomas.org/metodo-mapbiomas-alerta/",
-      "class": "ok",
+      "class": "server",
       "attempts": [
-        200
+        "AbortError:This operation was aborted",
+        500
       ]
     },
     {
@@ -4424,6 +4424,50 @@
     },
     {
       "type": "tool",
+      "id": "tableau-public",
+      "url": "https://www.tableau.com/products/public",
+      "status": 200,
+      "finalUrl": "https://www.tableau.com/products/public",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "canva-charts",
+      "url": "https://www.canva.com/help/charts/",
+      "status": 403,
+      "finalUrl": "https://www.canva.com/help/charts/",
+      "class": "blocked",
+      "attempts": [
+        403
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "openlayers",
+      "url": "https://openlayers.org/",
+      "status": 200,
+      "finalUrl": "https://openlayers.org/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "stac-specification",
+      "url": "https://stacspec.org/en/",
+      "status": 200,
+      "finalUrl": "https://stacspec.org/en/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
       "id": "camelot-pdf-tables",
       "url": "https://camelot-py.readthedocs.io/",
       "status": 200,
@@ -4559,11 +4603,12 @@
       "type": "tool",
       "id": "arctic-shift-reddit-archive",
       "url": "https://arctic-shift.photon-reddit.com/search",
-      "status": 200,
+      "status": 530,
       "finalUrl": "https://arctic-shift.photon-reddit.com/search",
-      "class": "ok",
+      "class": "server",
       "attempts": [
-        200
+        530,
+        530
       ]
     },
     {
