@@ -90,7 +90,12 @@ jobs:
           echo "Created $pr_url"
           gh pr merge "$pr_url" --squash --delete-branch
           echo "Published via $pr_url" >> "$GITHUB_STEP_SUMMARY"
+      - name: Report no new approved publications
+        if: steps.changes.outputs.changed != 'true'
+        run: |
+          echo "No new approved editorial records; no publication or deployment was triggered." >> "$GITHUB_STEP_SUMMARY"
       - name: Verify approved records on deployed public site
+        if: steps.changes.outputs.changed == 'true'
         env:
           RADAR_DEPLOY_RETRIES: "10"
           RADAR_DEPLOY_DELAY_MS: "15000"
