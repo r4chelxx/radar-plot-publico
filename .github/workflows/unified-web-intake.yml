@@ -7,6 +7,8 @@ on:
       - 'tests/linkedin-public-import.test.js'
       - 'tests/linkedin-unified-e2e.test.js'
       - 'scripts/discover-public-feeds.mjs'
+      - 'scripts/discover-public-funding-pages.js'
+      - 'tests/public-funding-pages.test.js'
       - 'scripts/public-feed-relevance.js'
       - 'tests/public-feed-relevance.test.js'
       - 'scripts/discover-dvs-public.mjs'
@@ -55,6 +57,8 @@ jobs:
         run: |
           node --check scripts/discover-public-feeds.mjs
           node --check scripts/discover-dvs-public.mjs
+      - name: Test public funding page discovery
+        run: node --test tests/public-funding-pages.test.js
       - name: Test public feed relevance safeguards
         run: node --test tests/public-feed-relevance.test.js
       - name: Test public LinkedIn import safeguards
@@ -87,6 +91,8 @@ jobs:
         id: feeds
         continue-on-error: true
         run: node scripts/discover-public-feeds.mjs
+      - name: Discover public Grants for Journalists and GFMD links
+        run: node scripts/discover-public-funding-pages.js
       - name: Discover public DVS toolkit links
         id: dvs
         continue-on-error: true
@@ -107,7 +113,7 @@ jobs:
             printf '{"source":"linkedin","leads":[],"coverageStatus":"partial"}\n' > intake/linkedin-public-candidates.json
           fi
       - name: Consolidate live and historical candidates
-        run: node scripts/unify-discovery.js intake/live-web-discovery.json intake/dvs-public-discovery.json intake/web-discovery-input.json intake/linkedin-public-candidates.json
+        run: node scripts/unify-discovery.js intake/live-web-discovery.json intake/dvs-public-discovery.json intake/web-discovery-input.json intake/linkedin-public-candidates.json intake/public-funding-pages.json
       - name: Classify duplicate and navigation candidates
         run: node scripts/quality-gate-discovery.js
       - name: Prepare editorial review sample
@@ -147,6 +153,8 @@ jobs:
           path: |
             intake/live-web-discovery.json
             intake/live-web-health.json
+            intake/public-funding-pages.json
+            intake/public-funding-health.json
             intake/dvs-public-discovery.json
             intake/dvs-public-health.json
             intake/web-discovery-input.json
