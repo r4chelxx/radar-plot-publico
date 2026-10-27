@@ -1,11 +1,11 @@
 {
-  "checkedAt": "2026-10-27T15:12:45.807Z",
+  "checkedAt": "2026-10-27T16:21:14.680Z",
   "policy": "404/410 and ArcGIS application errors within HTTP 200 become broken only after appearing as suspect or broken in the previous audit; blocked and network results are inconclusive",
   "counts": {
-    "ok": 376,
-    "blocked": 40,
-    "server": 2,
-    "network": 44
+    "ok": 379,
+    "blocked": 38,
+    "network": 44,
+    "server": 1
   },
   "results": [
     {
@@ -991,34 +991,33 @@
       "type": "opportunity",
       "id": "play-the-game-fund",
       "url": "https://www.playthegame.org/journalism-fund/pitch-your-story/",
-      "status": 500,
+      "status": 200,
       "finalUrl": "https://www.playthegame.org/journalism-fund/pitch-your-story/",
-      "class": "server",
+      "class": "ok",
       "attempts": [
-        500,
-        500
+        200
       ]
     },
     {
       "type": "opportunity",
       "id": "pulitzer-gender",
       "url": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/gender-equality-grant",
-      "status": 403,
+      "status": 200,
       "finalUrl": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/gender-equality-grant",
-      "class": "blocked",
+      "class": "ok",
       "attempts": [
-        403
+        200
       ]
     },
     {
       "type": "opportunity",
       "id": "pulitzer-global",
       "url": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/global-reporting-grants",
-      "status": 403,
+      "status": 200,
       "finalUrl": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/global-reporting-grants",
-      "class": "blocked",
+      "class": "ok",
       "attempts": [
-        403
+        200
       ]
     },
     {
@@ -1163,7 +1162,6 @@
       "finalUrl": "https://www.generonumero.media/dados-abertos/",
       "class": "ok",
       "attempts": [
-        "TypeError:fetch failed",
         200
       ]
     },
@@ -1724,6 +1722,7 @@
       "finalUrl": "https://map.geo.sei.ba.gov.br/arcgis/rest/services/servicos_sei/REGIONALIZACAO_VIGENTE/FeatureServer?f=json",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -1735,6 +1734,7 @@
       "finalUrl": "https://map.geo.sei.ba.gov.br/arcgis/rest/services/servicos_sei/LOCALIDADE_BAHIA/MapServer?f=json",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -1770,7 +1770,6 @@
       "finalUrl": "https://www.transparencia.ba.gov.br/Portal",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -1793,7 +1792,6 @@
       "finalUrl": "https://www.ba.gov.br/ssp/dados-abertos",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -2552,7 +2550,6 @@
       "finalUrl": "https://dadosabertos.aneel.gov.br/dataset/samp",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -2667,7 +2664,6 @@
       "finalUrl": "https://www.gov.br/cidades/pt-br/acesso-a-informacao/acoes-e-programas/saneamento/sinisa",
       "class": "ok",
       "attempts": [
-        "TypeError:fetch failed",
         200
       ]
     },
