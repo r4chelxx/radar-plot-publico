@@ -1,160 +1,160 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.tools=[
-{
-  "id": "tableau-public",
-  "name": "Tableau Public",
-  "kind": "visualização interativa e portfólio público de dados",
-  "url": "https://www.tableau.com/products/public",
-  "desc": "Plataforma gratuita para criar, explorar, compartilhar e incorporar visualizações interativas em navegador ou com o aplicativo Tableau Public. Todo conteúdo publicado fica acessível publicamente e pode expor dados subjacentes; por isso não deve receber bases sigilosas ou inéditas. Atualizações, conectores e recursos são mais limitados que nos planos comerciais, e a publicação exige conta.",
-  "discoveredVia": [
-    "Data Visualization Society"
-  ],
-  "discoveryUrl": "https://public.tableau.com/"
-},
-{
-  "id": "canva-charts",
-  "name": "Canva — gráficos e visualização",
-  "kind": "produção visual com gráficos e importação de planilhas",
-  "url": "https://www.canva.com/help/charts/",
-  "desc": "Ambiente de design com mais de 30 tipos de gráficos, importação de planilhas e composição de peças para web, redes sociais e apresentações. Exige conta e não substitui uma ferramenta de análise: escalas, agregações, fontes, contraste e acessibilidade precisam de revisão editorial. Privacidade, colaboração e disponibilidade de recursos variam conforme o plano e as configurações do projeto.",
-  "discoveredVia": [
-    "Data Visualization Society"
-  ],
-  "discoveryUrl": "https://www.canva.com/"
-},
-{
-  "id": "openlayers",
-  "name": "OpenLayers",
-  "kind": "biblioteca JavaScript aberta para mapas web",
-  "url": "https://openlayers.org/",
-  "desc": "Biblioteca JavaScript de código aberto para incorporar mapas dinâmicos em páginas web, com camadas de tiles e vetores, marcadores, Canvas/WebGL e formatos como GeoJSON, TopoJSON, KML, GML e MVT. Requer programação, hospedagem e fontes cartográficas próprias. Licenças, atribuições, cotas de APIs, projeções e privacidade dos dados devem ser verificadas em cada projeto.",
-  "discoveredVia": [
-    "Data Visualization Society"
-  ],
-  "discoveryUrl": "https://openlayers.org/"
-},
-{
-  "id": "stac-specification",
-  "name": "STAC — SpatioTemporal Asset Catalog",
-  "kind": "especificação e ecossistema para catálogos geoespaciais",
-  "url": "https://stacspec.org/en/",
-  "desc": "Especificação aberta e ecossistema de APIs, catálogos e bibliotecas para descrever, pesquisar e acessar imagens de satélite e outros ativos espaço-temporais com metadados padronizados. Não é uma base única: disponibilidade, cobertura, licença, autenticação e qualidade variam entre os catálogos conectados. O uso costuma exigir familiaridade com dados geoespaciais, JSON e APIs.",
-  "discoveredVia": [
-    "Data Visualization Society"
-  ],
-  "discoveryUrl": "https://stacspec.org/en"
-}, 
-{
-  "id": "camelot-pdf-tables",
-  "name": "Camelot — extração de tabelas de PDF",
-  "kind": "extração programática de tabelas em PDF",
-  "url": "https://camelot-py.readthedocs.io/",
-  "desc": "Biblioteca Python aberta para detectar e extrair tabelas de PDFs para DataFrame, CSV, JSON, Excel, HTML, Markdown e SQLite, com métricas de acurácia e espaço em branco para triagem. Funciona principalmente com PDFs baseados em texto; documentos digitalizados exigem OCR prévio. A extração pode deslocar colunas ou células e sempre deve ser comparada visualmente com o original.",
-  "discoveredVia": [
-    "Data Visualization Society"
-  ],
-  "discoveryUrl": "https://camelot-py.readthedocs.io/"
-},
-{
-  "id": "observable-framework",
-  "name": "Observable Framework",
-  "kind": "publicação de aplicações, painéis e reportagens de dados",
-  "url": "https://observablehq.com/framework",
-  "desc": "Gerador aberto de sites estáticos para aplicações, painéis e reportagens de dados. Combina páginas Markdown, JavaScript reativo e carregadores em SQL, Python, R ou outras linguagens, com bibliotecas de visualização e deploy em hospedagem estática. Exige programação e processo de build; dados carregados no cliente ficam expostos, e fontes dinâmicas só se atualizam quando a rotina de geração é executada novamente.",
-  "discoveredVia": [
-    "Data Visualization Society"
-  ],
-  "discoveryUrl": "https://observablehq.com/framework"
-},
-{
-  "id": "postgis",
-  "name": "PostGIS",
-  "kind": "banco de dados e análise geoespacial",
-  "url": "https://postgis.net/",
-  "desc": "Extensão aberta do PostgreSQL para armazenar, indexar, consultar e processar geometrias, geografias e rasters com SQL. Útil para cruzamentos espaciais reprodutíveis em grandes bases. Requer administração de banco e escolha correta de sistema de referência; erros de CRS, unidades ou validade geométrica podem produzir distâncias, áreas e interseções incorretas.",
-  "discoveredVia": [
-    "Data Visualization Society"
-  ],
-  "discoveryUrl": "https://postgis.net/"
-},
-{
-  "id": "whitebox-geospatial-tools",
-  "name": "Whitebox — ferramentas geoespaciais",
-  "kind": "análise de terreno, hidrologia, LiDAR e sensoriamento remoto",
-  "url": "https://www.whiteboxgeo.com/",
-  "desc": "Plataforma com mais de 700 operações geoespaciais para Python, R e QGIS, cobrindo terreno, hidrologia, LiDAR, raster, vetores e sensoriamento remoto, com núcleo local e camada gratuita. Parte dos fluxos avançados pertence a planos Pro. Parâmetros, projeções e algoritmos devem ser documentados e validados contra amostras conhecidas antes de sustentar conclusões jornalísticas.",
-  "discoveredVia": [
-    "Data Visualization Society"
-  ],
-  "discoveryUrl": "https://www.whiteboxgeo.com/"
-},
-{
-  "id": "tmap-r",
-  "name": "tmap — mapas temáticos em R",
-  "kind": "cartografia temática estática e interativa",
-  "url": "https://r-tmap.github.io/tmap/",
-  "desc": "Pacote R para criar mapas temáticos com gramática de camadas semelhante ao ggplot2, incluindo coropléticos, símbolos, facetas, animações e visualização interativa. Exige programação e dados espaciais preparados. A escolha de projeção, classificação, intervalos e normalização altera a leitura do mapa e deve ser justificada e revisada.",
-  "discoveredVia": [
-    "Data Visualization Society"
-  ],
-  "discoveryUrl": "https://r-tmap.github.io/tmap/"
-}, 
-{
-  "id": "flourish",
-  "name": "Flourish",
-  "kind": "gráficos, mapas e narrativas interativas sem programação",
-  "url": "https://flourish.studio/",
-  "desc": "Editor para criar e incorporar gráficos, mapas e narrativas interativas a partir de dados. O plano gratuito permite publicação pública com atribuição; recursos como exportação, colaboração e personalização variam por plano. Exige cadastro. Antes de publicar, revisar privacidade, permissões e exposição dos dados, além da qualidade estatística e acessibilidade da visualização.",
-  "discoveryUrl": "https://flourish.studio/"
-},
-{
-  "id": "kepler-gl",
-  "name": "kepler.gl",
-  "kind": "exploração visual de dados geoespaciais",
-  "url": "https://kepler.gl/",
-  "desc": "Aplicação aberta para explorar dados geográficos em camadas, filtros e agregações, com importação de CSV e GeoJSON e integração em aplicações React. Segundo a documentação, os dados importados são processados no navegador. O desempenho depende do equipamento e do volume; conferir coordenadas em WGS84, tipos de campos e serviços externos usados no mapa antes de trabalhar com material sensível.",
-  "discoveryUrl": "https://kepler.gl/"
-},
-{
-  "id": "leaflet",
-  "name": "Leaflet",
-  "kind": "biblioteca JavaScript para mapas interativos",
-  "url": "https://leafletjs.com/",
-  "desc": "Biblioteca aberta para construir mapas interativos para web e celular, com camadas de tiles, WMS, marcadores e GeoJSON. Exige programação e uma fonte de dados ou mapas de fundo; a biblioteca não fornece, por si, hospedagem nem uma base cartográfica. Serviços de tiles têm regras, atribuição e limites próprios. Revisar acessibilidade, coordenadas e privacidade de dados e requisições externas.",
-  "discoveryUrl": "https://leafletjs.com/"
-}, 
-{
-  "id": "h3-geospatial-index",
-  "name": "H3 — índice geoespacial hierárquico",
-  "kind": "indexação e agregação geoespacial",
-  "url": "https://h3geo.org/",
-  "desc": "Biblioteca aberta para agrupar coordenadas em células e cruzar bases geográficas em diferentes resoluções. Possui implementações para linguagens como Python e JavaScript. Exige programação; a hierarquia oferece contenção lógica exata, mas contenção geométrica aproximada entre resoluções. Para limites territoriais exatos, complementar com verificações ponto-em-polígono.",
-  "discoveryUrl": "https://h3geo.org/docs/"
-},
-{
-  "id": "rawgraphs",
-  "name": "RAWGraphs",
-  "kind": "visualização de dados e exportação vetorial",
-  "url": "https://rawgraphs.io/",
-  "desc": "Ferramenta aberta para transformar dados tabulares em visualizações exportáveis em SVG e refináveis em editores vetoriais. Segundo o projeto, os dados inseridos são processados no navegador; também pode ser executada localmente. Requer revisão da qualidade dos dados e das escolhas gráficas; não substitui limpeza, análise estatística ou avaliação de acessibilidade.",
-  "discoveryUrl": "https://rawgraphs.io/"
-}, 
-{
-  "id": "rji-chalkbeat-source-auditing-tool",
-  "name": "RJI + Chalkbeat — Source Auditing Tool",
-  "kind": "auditoria de diversidade de fontes jornalísticas",
-  "url": "https://rjionline.org/source-auditing-tool/",
-  "desc": "Ferramenta gratuita do Reynolds Journalism Institute e da Chalkbeat para registrar e analisar a diversidade de fontes ouvidas por uma redação. Permite personalizar perguntas, incluir fontes sem e-mail e evitar múltiplas solicitações. A configuração requer contato ou demonstração; o preenchimento é opcional e dados pessoais exigem consentimento, minimização e proteção.",
-  "discoveryUrl": "https://rjionline.org/source-auditing-tool"
-},
-{
-  "id": "quiteria-ia-feminista-azmina",
-  "name": "QuitérIA — IA feminista de monitoramento legislativo",
-  "kind": "monitoramento legislativo e análise de projetos de lei",
-  "url": "https://www.elasnocongresso.com.br/ia-feminista",
-  "desc": "Ferramenta do Elas no Congresso/AzMina que utiliza modelos BERTimbau para classificar projetos de lei federais em dez temas de gênero e estimar desfavorabilidade. Disponibiliza metodologia, dados, código e documentação de API. Classificações automatizadas exigem conferência humana; os resultados não substituem análise jurídica, contexto legislativo nem verificação das proposições originais.",
-  "discoveryUrl": "https://www.elasnocongresso.com.br/quiteria"
-},
+  {
+    "id": "tableau-public",
+    "name": "Tableau Public",
+    "kind": "visualização interativa e portfólio público de dados",
+    "url": "https://www.tableau.com/products/public",
+    "desc": "Plataforma gratuita para criar, explorar, compartilhar e incorporar visualizações interativas em navegador ou com o aplicativo Tableau Public. Todo conteúdo publicado fica acessível publicamente e pode expor dados subjacentes; por isso não deve receber bases sigilosas ou inéditas. Atualizações, conectores e recursos são mais limitados que nos planos comerciais, e a publicação exige conta.",
+    "discoveredVia": [
+      "Data Visualization Society"
+    ],
+    "discoveryUrl": "https://public.tableau.com/"
+  },
+  {
+    "id": "canva-charts",
+    "name": "Canva — gráficos e visualização",
+    "kind": "produção visual com gráficos e importação de planilhas",
+    "url": "https://www.canva.com/help/charts/",
+    "desc": "Ambiente de design com mais de 30 tipos de gráficos, importação de planilhas e composição de peças para web, redes sociais e apresentações. Exige conta e não substitui uma ferramenta de análise: escalas, agregações, fontes, contraste e acessibilidade precisam de revisão editorial. Privacidade, colaboração e disponibilidade de recursos variam conforme o plano e as configurações do projeto.",
+    "discoveredVia": [
+      "Data Visualization Society"
+    ],
+    "discoveryUrl": "https://www.canva.com/"
+  },
+  {
+    "id": "openlayers",
+    "name": "OpenLayers",
+    "kind": "biblioteca JavaScript aberta para mapas web",
+    "url": "https://openlayers.org/",
+    "desc": "Biblioteca JavaScript de código aberto para incorporar mapas dinâmicos em páginas web, com camadas de tiles e vetores, marcadores, Canvas/WebGL e formatos como GeoJSON, TopoJSON, KML, GML e MVT. Requer programação, hospedagem e fontes cartográficas próprias. Licenças, atribuições, cotas de APIs, projeções e privacidade dos dados devem ser verificadas em cada projeto.",
+    "discoveredVia": [
+      "Data Visualization Society"
+    ],
+    "discoveryUrl": "https://openlayers.org/"
+  },
+  {
+    "id": "stac-specification",
+    "name": "STAC — SpatioTemporal Asset Catalog",
+    "kind": "especificação e ecossistema para catálogos geoespaciais",
+    "url": "https://stacspec.org/en/",
+    "desc": "Especificação aberta e ecossistema de APIs, catálogos e bibliotecas para descrever, pesquisar e acessar imagens de satélite e outros ativos espaço-temporais com metadados padronizados. Não é uma base única: disponibilidade, cobertura, licença, autenticação e qualidade variam entre os catálogos conectados. O uso costuma exigir familiaridade com dados geoespaciais, JSON e APIs.",
+    "discoveredVia": [
+      "Data Visualization Society"
+    ],
+    "discoveryUrl": "https://stacspec.org/en"
+  },
+  {
+    "id": "camelot-pdf-tables",
+    "name": "Camelot — extração de tabelas de PDF",
+    "kind": "extração programática de tabelas em PDF",
+    "url": "https://camelot-py.readthedocs.io/",
+    "desc": "Biblioteca Python aberta para detectar e extrair tabelas de PDFs para DataFrame, CSV, JSON, Excel, HTML, Markdown e SQLite, com métricas de acurácia e espaço em branco para triagem. Funciona principalmente com PDFs baseados em texto; documentos digitalizados exigem OCR prévio. A extração pode deslocar colunas ou células e sempre deve ser comparada visualmente com o original.",
+    "discoveredVia": [
+      "Data Visualization Society"
+    ],
+    "discoveryUrl": "https://camelot-py.readthedocs.io/"
+  },
+  {
+    "id": "observable-framework",
+    "name": "Observable Framework",
+    "kind": "publicação de aplicações, painéis e reportagens de dados",
+    "url": "https://observablehq.com/framework",
+    "desc": "Gerador aberto de sites estáticos para aplicações, painéis e reportagens de dados. Combina páginas Markdown, JavaScript reativo e carregadores em SQL, Python, R ou outras linguagens, com bibliotecas de visualização e deploy em hospedagem estática. Exige programação e processo de build; dados carregados no cliente ficam expostos, e fontes dinâmicas só se atualizam quando a rotina de geração é executada novamente.",
+    "discoveredVia": [
+      "Data Visualization Society"
+    ],
+    "discoveryUrl": "https://observablehq.com/framework"
+  },
+  {
+    "id": "postgis",
+    "name": "PostGIS",
+    "kind": "banco de dados e análise geoespacial",
+    "url": "https://postgis.net/",
+    "desc": "Extensão aberta do PostgreSQL para armazenar, indexar, consultar e processar geometrias, geografias e rasters com SQL. Útil para cruzamentos espaciais reprodutíveis em grandes bases. Requer administração de banco e escolha correta de sistema de referência; erros de CRS, unidades ou validade geométrica podem produzir distâncias, áreas e interseções incorretas.",
+    "discoveredVia": [
+      "Data Visualization Society"
+    ],
+    "discoveryUrl": "https://postgis.net/"
+  },
+  {
+    "id": "whitebox-geospatial-tools",
+    "name": "Whitebox — ferramentas geoespaciais",
+    "kind": "análise de terreno, hidrologia, LiDAR e sensoriamento remoto",
+    "url": "https://www.whiteboxgeo.com/",
+    "desc": "Plataforma com mais de 700 operações geoespaciais para Python, R e QGIS, cobrindo terreno, hidrologia, LiDAR, raster, vetores e sensoriamento remoto, com núcleo local e camada gratuita. Parte dos fluxos avançados pertence a planos Pro. Parâmetros, projeções e algoritmos devem ser documentados e validados contra amostras conhecidas antes de sustentar conclusões jornalísticas.",
+    "discoveredVia": [
+      "Data Visualization Society"
+    ],
+    "discoveryUrl": "https://www.whiteboxgeo.com/"
+  },
+  {
+    "id": "tmap-r",
+    "name": "tmap — mapas temáticos em R",
+    "kind": "cartografia temática estática e interativa",
+    "url": "https://r-tmap.github.io/tmap/",
+    "desc": "Pacote R para criar mapas temáticos com gramática de camadas semelhante ao ggplot2, incluindo coropléticos, símbolos, facetas, animações e visualização interativa. Exige programação e dados espaciais preparados. A escolha de projeção, classificação, intervalos e normalização altera a leitura do mapa e deve ser justificada e revisada.",
+    "discoveredVia": [
+      "Data Visualization Society"
+    ],
+    "discoveryUrl": "https://r-tmap.github.io/tmap/"
+  },
+  {
+    "id": "flourish",
+    "name": "Flourish",
+    "kind": "gráficos, mapas e narrativas interativas sem programação",
+    "url": "https://flourish.studio/",
+    "desc": "Editor para criar e incorporar gráficos, mapas e narrativas interativas a partir de dados. O plano gratuito permite publicação pública com atribuição; recursos como exportação, colaboração e personalização variam por plano. Exige cadastro. Antes de publicar, revisar privacidade, permissões e exposição dos dados, além da qualidade estatística e acessibilidade da visualização.",
+    "discoveryUrl": "https://flourish.studio/"
+  },
+  {
+    "id": "kepler-gl",
+    "name": "kepler.gl",
+    "kind": "exploração visual de dados geoespaciais",
+    "url": "https://kepler.gl/",
+    "desc": "Aplicação aberta para explorar dados geográficos em camadas, filtros e agregações, com importação de CSV e GeoJSON e integração em aplicações React. Segundo a documentação, os dados importados são processados no navegador. O desempenho depende do equipamento e do volume; conferir coordenadas em WGS84, tipos de campos e serviços externos usados no mapa antes de trabalhar com material sensível.",
+    "discoveryUrl": "https://kepler.gl/"
+  },
+  {
+    "id": "leaflet",
+    "name": "Leaflet",
+    "kind": "biblioteca JavaScript para mapas interativos",
+    "url": "https://leafletjs.com/",
+    "desc": "Biblioteca aberta para construir mapas interativos para web e celular, com camadas de tiles, WMS, marcadores e GeoJSON. Exige programação e uma fonte de dados ou mapas de fundo; a biblioteca não fornece, por si, hospedagem nem uma base cartográfica. Serviços de tiles têm regras, atribuição e limites próprios. Revisar acessibilidade, coordenadas e privacidade de dados e requisições externas.",
+    "discoveryUrl": "https://leafletjs.com/"
+  },
+  {
+    "id": "h3-geospatial-index",
+    "name": "H3 — índice geoespacial hierárquico",
+    "kind": "indexação e agregação geoespacial",
+    "url": "https://h3geo.org/",
+    "desc": "Biblioteca aberta para agrupar coordenadas em células e cruzar bases geográficas em diferentes resoluções. Possui implementações para linguagens como Python e JavaScript. Exige programação; a hierarquia oferece contenção lógica exata, mas contenção geométrica aproximada entre resoluções. Para limites territoriais exatos, complementar com verificações ponto-em-polígono.",
+    "discoveryUrl": "https://h3geo.org/docs/"
+  },
+  {
+    "id": "rawgraphs",
+    "name": "RAWGraphs",
+    "kind": "visualização de dados e exportação vetorial",
+    "url": "https://rawgraphs.io/",
+    "desc": "Ferramenta aberta para transformar dados tabulares em visualizações exportáveis em SVG e refináveis em editores vetoriais. Segundo o projeto, os dados inseridos são processados no navegador; também pode ser executada localmente. Requer revisão da qualidade dos dados e das escolhas gráficas; não substitui limpeza, análise estatística ou avaliação de acessibilidade.",
+    "discoveryUrl": "https://rawgraphs.io/"
+  },
+  {
+    "id": "rji-chalkbeat-source-auditing-tool",
+    "name": "RJI + Chalkbeat — Source Auditing Tool",
+    "kind": "auditoria de diversidade de fontes jornalísticas",
+    "url": "https://rjionline.org/source-auditing-tool/",
+    "desc": "Ferramenta gratuita do Reynolds Journalism Institute e da Chalkbeat para registrar e analisar a diversidade de fontes ouvidas por uma redação. Permite personalizar perguntas, incluir fontes sem e-mail e evitar múltiplas solicitações. A configuração requer contato ou demonstração; o preenchimento é opcional e dados pessoais exigem consentimento, minimização e proteção.",
+    "discoveryUrl": "https://rjionline.org/source-auditing-tool"
+  },
+  {
+    "id": "quiteria-ia-feminista-azmina",
+    "name": "QuitérIA — IA feminista de monitoramento legislativo",
+    "kind": "monitoramento legislativo e análise de projetos de lei",
+    "url": "https://www.elasnocongresso.com.br/ia-feminista",
+    "desc": "Ferramenta do Elas no Congresso/AzMina que utiliza modelos BERTimbau para classificar projetos de lei federais em dez temas de gênero e estimar desfavorabilidade. Disponibiliza metodologia, dados, código e documentação de API. Classificações automatizadas exigem conferência humana; os resultados não substituem análise jurídica, contexto legislativo nem verificação das proposições originais.",
+    "discoveryUrl": "https://www.elasnocongresso.com.br/quiteria"
+  },
   {
     "id": "arctic-shift-reddit-archive",
     "name": "Arctic Shift — arquivo e API do Reddit",
@@ -185,7 +185,9 @@ window.RADAR_PARTS.tools=[
     "kind": "triagem probabilística de possível autoria por inteligência artificial",
     "url": "https://www.pangram.com/",
     "desc": "Analisa textos para estimar sinais estatísticos de geração ou assistência por IA, inclusive em português. Plano gratuito anunciado de até 2.000 palavras por dia; uso intensivo e API são pagos. A avaliação é probabilística, não prova autoria nem fraude: há falsos positivos e negativos, sobretudo em textos curtos, traduções, conteúdos editados ou muito formatados. Nunca usar como evidência única para acusar uma pessoa ou publicar conclusões.",
-    "discoveredVia": ["CJR"],
+    "discoveredVia": [
+      "CJR"
+    ],
     "discoveryUrl": "https://www.cjr.org/laurels-and-darts/slippery-slop-wall-street-journal-opinion-artificial-intelligence-druckenmiller-gigot-bessent-florida-climate-change-textbook-removal-desantis-joliet-illinois-prison-fires-deaths-treatment-center.php"
   },
   {
@@ -194,7 +196,9 @@ window.RADAR_PARTS.tools=[
     "kind": "busca e recomendação de ferramentas de investigação em fontes abertas",
     "url": "https://navigator.indicator.media/",
     "desc": "Catálogo pesquisável de ferramentas OSINT para encontrar recursos por tarefa investigativa. Reúne ferramentas de diretórios independentes e oferece recomendações contextualizadas; a busca pública é gratuita, enquanto limites e recursos avançados podem variar conforme a modalidade de acesso. O próprio serviço não executa as ferramentas nem verifica automaticamente os resultados de uma investigação. Confira documentação, disponibilidade, custos, privacidade e adequação jurídica antes de utilizar qualquer ferramenta recomendada.",
-    "discoveredVia": ["Indicator"],
+    "discoveredVia": [
+      "Indicator"
+    ],
     "discoveryUrl": "https://indicator.media/p/osint-navigator-is-now-publicly-available"
   },
   {
@@ -840,6 +844,28 @@ window.RADAR_PARTS.tools=[
       "OCCRP"
     ],
     "discoveryUrl": "https://docs.aleph.occrp.org/"
+  },
+  {
+    "id": "gsap-greensock",
+    "name": "GSAP (GreenSock Animation Platform)",
+    "kind": "animação web e narrativas visuais",
+    "url": "https://gsap.com/",
+    "desc": "Biblioteca JavaScript para animações, transições, timelines e experiências narrativas interativas na web, incluindo recursos de rolagem e manipulação de elementos SVG. O projeto informa disponibilização gratuita inclusive para uso comercial, sujeita à licença padrão; exige desenvolvimento web e atenção à acessibilidade e ao desempenho.",
+    "discoveredVia": [
+      "Data Visualization Society"
+    ],
+    "discoveryUrl": "https://github.com/greensock/GSAP"
+  },
+  {
+    "id": "highcharter-r",
+    "name": "highcharter (R)",
+    "kind": "visualização interativa com R",
+    "url": "https://jkunst.com/highcharter/",
+    "desc": "Pacote R que integra a biblioteca Highcharts a gráficos interativos, mapas e séries temporais em projetos de análise e jornalismo de dados. A licença do pacote não concede automaticamente licença comercial do Highcharts, que deve ser verificada separadamente antes de publicação profissional.",
+    "discoveredVia": [
+      "Data Visualization Society"
+    ],
+    "discoveryUrl": "https://github.com/jbkunst/highcharter"
   }
 ];
 
