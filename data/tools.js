@@ -852,7 +852,7 @@ window.RADAR_PARTS.tools=[
     "url": "https://gsap.com/",
     "desc": "Biblioteca JavaScript para animações, transições, timelines e experiências narrativas interativas na web, incluindo recursos de rolagem e manipulação de elementos SVG. O projeto informa disponibilização gratuita inclusive para uso comercial, sujeita à licença padrão; exige desenvolvimento web e atenção à acessibilidade e ao desempenho.",
     "discoveredVia": [
-      "Data Visualization Society — diretório de ferramentas"
+      "Data Visualization Society"
     ],
     "discoveryUrl": "https://github.com/greensock/GSAP"
   },
@@ -863,7 +863,7 @@ window.RADAR_PARTS.tools=[
     "url": "https://jkunst.com/highcharter/",
     "desc": "Pacote R que integra a biblioteca Highcharts a gráficos interativos, mapas e séries temporais em projetos de análise e jornalismo de dados. A licença do pacote não concede automaticamente licença comercial do Highcharts, que deve ser verificada separadamente antes de publicação profissional.",
     "discoveredVia": [
-      "Data Visualization Society — diretório de ferramentas"
+      "Data Visualization Society"
     ],
     "discoveryUrl": "https://github.com/jbkunst/highcharter"
   }
