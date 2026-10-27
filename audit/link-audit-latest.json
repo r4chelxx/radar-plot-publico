@@ -1,9 +1,10 @@
 {
-  "checkedAt": "2026-10-26T17:15:49.242Z",
+  "checkedAt": "2026-10-27T15:12:45.807Z",
   "policy": "404/410 and ArcGIS application errors within HTTP 200 become broken only after appearing as suspect or broken in the previous audit; blocked and network results are inconclusive",
   "counts": {
-    "ok": 377,
-    "blocked": 39,
+    "ok": 376,
+    "blocked": 40,
+    "server": 2,
     "network": 44
   },
   "results": [
@@ -990,33 +991,34 @@
       "type": "opportunity",
       "id": "play-the-game-fund",
       "url": "https://www.playthegame.org/journalism-fund/pitch-your-story/",
-      "status": 200,
+      "status": 500,
       "finalUrl": "https://www.playthegame.org/journalism-fund/pitch-your-story/",
-      "class": "ok",
+      "class": "server",
       "attempts": [
-        200
+        500,
+        500
       ]
     },
     {
       "type": "opportunity",
       "id": "pulitzer-gender",
       "url": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/gender-equality-grant",
-      "status": 200,
+      "status": 403,
       "finalUrl": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/gender-equality-grant",
-      "class": "ok",
+      "class": "blocked",
       "attempts": [
-        200
+        403
       ]
     },
     {
       "type": "opportunity",
       "id": "pulitzer-global",
       "url": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/global-reporting-grants",
-      "status": 200,
+      "status": 403,
       "finalUrl": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/global-reporting-grants",
-      "class": "ok",
+      "class": "blocked",
       "attempts": [
-        200
+        403
       ]
     },
     {
@@ -1161,6 +1163,7 @@
       "finalUrl": "https://www.generonumero.media/dados-abertos/",
       "class": "ok",
       "attempts": [
+        "TypeError:fetch failed",
         200
       ]
     },
@@ -1439,7 +1442,7 @@
       "id": "Compras.gov.br — Dados Abertos",
       "url": "https://www.gov.br/compras/pt-br/cidadao/portal-de-dados-abertos/portal-de-dados-abertos",
       "status": 200,
-      "finalUrl": "https://www.gov.br/compras/acl_users/credentials_cookie_auth/require_login?came_from=https%3A//www.gov.br/compras/pt-br/cidadao/portal-de-dados-abertos/portal-de-dados-abertos",
+      "finalUrl": "https://www.gov.br/compras/pt-br/cidadao/portal-de-dados-abertos/portal-de-dados-abertos",
       "class": "ok",
       "attempts": [
         200
@@ -1790,6 +1793,7 @@
       "finalUrl": "https://www.ba.gov.br/ssp/dados-abertos",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -2548,6 +2552,7 @@
       "finalUrl": "https://dadosabertos.aneel.gov.br/dataset/samp",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -2662,6 +2667,7 @@
       "finalUrl": "https://www.gov.br/cidades/pt-br/acesso-a-informacao/acoes-e-programas/saneamento/sinisa",
       "class": "ok",
       "attempts": [
+        "TypeError:fetch failed",
         200
       ]
     },
@@ -4379,11 +4385,12 @@
       "type": "source",
       "id": "Repórteres sem Fronteiras — Fellowships e oportunidades",
       "url": "https://resources.rsf.org/fellowship-opportunities/",
-      "status": 403,
+      "status": 503,
       "finalUrl": "https://resources.rsf.org/fellowship-opportunities/",
-      "class": "blocked",
+      "class": "server",
       "attempts": [
-        403
+        503,
+        503
       ]
     },
     {
@@ -4857,7 +4864,6 @@
       "finalUrl": "https://www.generonumero.media/artigos/cartilha-violencia-de-genero/",
       "class": "ok",
       "attempts": [
-        "TypeError:fetch failed",
         200
       ]
     },
@@ -5153,6 +5159,28 @@
       "url": "https://aleph.occrp.org/",
       "status": 200,
       "finalUrl": "https://aleph.occrp.org/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "gsap-greensock",
+      "url": "https://gsap.com/",
+      "status": 200,
+      "finalUrl": "https://gsap.com/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "highcharter-r",
+      "url": "https://jkunst.com/highcharter/",
+      "status": 200,
+      "finalUrl": "https://jkunst.com/highcharter/",
       "class": "ok",
       "attempts": [
         200
