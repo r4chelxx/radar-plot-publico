@@ -15,3 +15,19 @@ test('reports blocked pages without claiming full coverage',async()=>{
  assert.equal(result.health.length,2);
  assert.ok(result.health.every(x=>x.status==='error'&&x.coverageStatus==='partial'));
 });
+
+test('GFMD funding detail pages are candidates even when title omits generic funding terms',()=>{
+ const leads=extract('<a href="/fundings/international-nieman-2027/">International Nieman Programme 2027</a><a href="/fundings/">Browse all funding</a>','https://gfmd.info/fundings/','GFMD funding');
+ assert.equal(leads.length,1);
+ assert.equal(leads[0].url,'https://gfmd.info/fundings/international-nieman-2027');
+});
+test('GFMD fallback is attempted when archive has no relevant static links',async()=>{
+ const requested=[];
+ const result=await collect(async url=>{
+  requested.push(url);
+  return {ok:true,status:200,url,text:async()=>url.endsWith('/find-funding/')?'<a href="/fundings/international-nieman-2027/">International Nieman Programme 2027</a>':'<a href="/about/">About us</a>'};
+ });
+ assert.equal(requested.length,3);
+ assert.equal(result.leads.length,1);
+ assert.equal(result.health[1].fallbackStatus,'found-candidates');
+});
