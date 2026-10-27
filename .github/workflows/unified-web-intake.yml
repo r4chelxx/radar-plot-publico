@@ -7,6 +7,8 @@ on:
       - 'tests/linkedin-public-import.test.js'
       - 'tests/linkedin-unified-e2e.test.js'
       - 'scripts/discover-public-feeds.mjs'
+      - 'scripts/public-feed-relevance.js'
+      - 'tests/public-feed-relevance.test.js'
       - 'scripts/discover-dvs-public.mjs'
       - 'scripts/test-web-intake.js'
       - 'scripts/check-public-health.js'
@@ -53,6 +55,8 @@ jobs:
         run: |
           node --check scripts/discover-public-feeds.mjs
           node --check scripts/discover-dvs-public.mjs
+      - name: Test public feed relevance safeguards
+        run: node --test tests/public-feed-relevance.test.js
       - name: Test public LinkedIn import safeguards
         run: node --test tests/linkedin-public-import.test.js
       - name: Test LinkedIn and web cross-source deduplication
