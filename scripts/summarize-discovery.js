@@ -16,7 +16,7 @@ for(const warning of r.warnings||[])lines.push('- Atenção: '+warning);
 const failures=r.sources.filter(x=>x.status!=='ok');
 if(!failures.length)lines.push('Nenhuma falha identificada.');
 else for(const item of failures)lines.push('- '+item.name+': '+(item.error||'falha desconhecida').replace(/[\r\n]/g,' '));
-lines.push('','**Observação:** links candidatos não são publicados sem verificação editorial. Gmail e LinkedIn ainda não fazem parte da coleta automática.');
+lines.push('','**Observação:** links candidatos não são publicados sem verificação editorial. Gmail não é coletado por este workflow; LinkedIn depende de arquivo público de entrada previamente revisado.');
 const text=lines.join('\n')+'\n';
 if(process.env.GITHUB_STEP_SUMMARY)fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY,text);
 else process.stdout.write(text);
