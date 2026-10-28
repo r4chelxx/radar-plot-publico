@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-28T18:25:24.985Z",
+  "updatedAt": "2026-10-28T19:01:36.736Z",
   "policy": "Public web leads only; pending does not mean verified or approved.",
   "candidates": [
     {
@@ -36,7 +36,7 @@
       ],
       "firstSeen": "2026-10-23T17:21:05.512Z",
       "lastSeen": "2026-10-27T18:08:41.567Z",
-      "status": "in-review",
+      "status": "published",
       "reviewPriority": "normal"
     },
     {
