@@ -89,7 +89,7 @@ jobs:
           pr_url=$(gh pr create --base main --head "$branch" --title "Radar editorial: approved publications ${{ github.run_id }}" --body "Only entries explicitly approved in intake/approved-publications.json. Validation, static UI, web-intake regression, Playwright browser tests and link audit passed in this publishing workflow. No unverified leads are promoted.")
           echo "Created $pr_url"
           gh pr merge "$pr_url" --squash --delete-branch
-          echo "Published via $pr_url" >> "$GITHUB_STEP_SUMMARY"
+          echo "Editorial PR merged: $pr_url" >> "$GITHUB_STEP_SUMMARY"
       - name: Report no new approved publications
         if: steps.changes.outputs.changed != 'true'
         run: |
