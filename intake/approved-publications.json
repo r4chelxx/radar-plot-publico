@@ -622,7 +622,27 @@
         "officialUrl": "https://stacspec.org/en/",
         "evidence": "O site e a documentação oficiais confirmam especificação aberta, API, tutoriais e implementações para descoberta e acesso de ativos espaço-temporais. Verificada ausência de STAC por ID, nome e URL no catálogo."
       }
+    },
+    {
+      "category": "tools",
+      "record": {
+        "id": "playwright-browser-automation",
+        "name": "Playwright — automação e testes de navegadores",
+        "kind": "automação de navegador, testes de interface e coleta web",
+        "url": "https://playwright.dev/python/",
+        "desc": "Framework aberto de automação de navegadores para testes de interface, captura de páginas e coleta programática, com suporte a Chromium, Firefox e WebKit e APIs para Python, JavaScript, .NET e Java. Exige programação, instalação de navegadores e dependências; raspagens devem respeitar termos de uso, limites de acesso, privacidade e LGPD. Não contorna autenticação ou bloqueios de acesso.",
+        "discoveredVia": [
+          "Data Visualization Society"
+        ],
+        "discoveryUrl": "https://playwright.dev/python"
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Radar PLOT — revisão editorial assistida",
+        "reviewedAt": "2026-10-28",
+        "officialUrl": "https://playwright.dev/python/",
+        "evidence": "Documentação primária do Playwright confirma automação de Chromium, Firefox e WebKit, APIs multiplataforma, testes de interface e instalação dos binários; repositório oficial microsoft/playwright declara licença Apache-2.0. Conferidos em 28/10/2026 ausência de ID e URL no catálogo de ferramentas e de bases do Radar. Ferramenta sem prazo de candidatura ou restrição de elegibilidade; exige dependências e conformidade na coleta."
+      }
     }
   ]
 }
-
