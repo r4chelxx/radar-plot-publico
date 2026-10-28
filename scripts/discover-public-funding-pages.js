@@ -19,6 +19,8 @@ function extract(html,base,name){
    const host=new URL(url).hostname;
    const path=new URL(url).pathname;
    if(name==='GFMD funding'&&host==='gfmd.info'&&/^\/(?:fundings|find-funding)\/?$/.test(path))continue;
+   // Category/directory navigation is not an individual funding opportunity.
+   if(name==='Grants for Journalists'&&['grantsforjournalists.com','www.grantsforjournalists.com'].includes(host)&&['/grants-for-journalists','/all-grants','/grants-for-journalists/','/all-grants/'].includes(path))continue;
    const isGfmdDetail=name==='GFMD funding'&&host==='gfmd.info'&&/^\/fundings\/[^/]+\/?$/.test(path);
    if(!isRelevant(title)&&!(isGfmdDetail&&title.length>=12))continue;
    if(/(?:^|\.)(?:linkedin\.com|facebook\.com|instagram\.com|x\.com|twitter\.com)$/.test(host))continue;
