@@ -43,7 +43,7 @@ async function collect(fetcher=fetch){
    // A page may contain generic relevant links but no individual GFMD funding detail.
    const hasGfmdDetail=found.some(item=>{
     const u=new URL(item.url);
-    return u.hostname==='gfmd.info'&&/^\\/fundings\\/[^/]+\\/?$/.test(u.pathname);
+    return u.hostname==='gfmd.info'&&new RegExp('^/fundings/[^/]+/?$').test(u.pathname);
    });
    if(source.fallback&&!hasGfmdDetail){
     try{
