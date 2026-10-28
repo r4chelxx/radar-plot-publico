@@ -1,13 +1,23 @@
 {
-  "checkedAt": "2026-10-27T16:21:14.680Z",
+  "checkedAt": "2026-10-28T15:05:44.672Z",
   "policy": "404/410 and ArcGIS application errors within HTTP 200 become broken only after appearing as suspect or broken in the previous audit; blocked and network results are inconclusive",
   "counts": {
-    "ok": 379,
-    "blocked": 38,
-    "network": 44,
-    "server": 1
+    "ok": 385,
+    "blocked": 39,
+    "network": 40
   },
   "results": [
+    {
+      "type": "opportunity",
+      "id": "hiig-impact-ai-fellowship-2027",
+      "url": "https://www.hiig.de/impact-ai-call-for-fellows/",
+      "status": 200,
+      "finalUrl": "https://www.hiig.de/impact-ai-call-for-fellows/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
     {
       "type": "opportunity",
       "id": "vital-impacts-environmental-photography-2027",
@@ -1213,13 +1223,11 @@
       "type": "dataset",
       "id": "pni-doses-aplicadas-2026",
       "url": "https://dadosabertos.saude.gov.br/dataset/doses-aplicadas-pelo-programa-de-nacional-de-imunizacoes-pni-2026",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://dadosabertos.saude.gov.br/dataset/doses-aplicadas-pelo-programa-de-nacional-de-imunizacoes-pni-2026",
+      "class": "ok",
       "attempts": [
-        "TypeError:fetch failed",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -1347,26 +1355,22 @@
       "type": "dataset",
       "id": "sisagua-amostras-fora-padrao",
       "url": "https://dadosabertos.saude.gov.br/dataset/sisagua-controle-mensal-amostras-fora-do-padrao",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://dadosabertos.saude.gov.br/dataset/sisagua-controle-mensal-amostras-fora-do-padrao",
+      "class": "ok",
       "attempts": [
-        "TypeError:fetch failed",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
       "type": "dataset",
       "id": "sisagua-controle-mensal-parametros-basicos",
       "url": "https://dadosabertos.saude.gov.br/dataset/sisagua-controle-mensal-parametros-basicos",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://dadosabertos.saude.gov.br/dataset/sisagua-controle-mensal-parametros-basicos",
+      "class": "ok",
       "attempts": [
-        "TypeError:fetch failed",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -1509,6 +1513,7 @@
       "finalUrl": "https://dadosabertos.ibama.gov.br/dataset/fiscalizacao-termo-de-embargo",
       "class": "ok",
       "attempts": [
+        502,
         200
       ]
     },
@@ -1722,7 +1727,6 @@
       "finalUrl": "https://map.geo.sei.ba.gov.br/arcgis/rest/services/servicos_sei/REGIONALIZACAO_VIGENTE/FeatureServer?f=json",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -1734,7 +1738,6 @@
       "finalUrl": "https://map.geo.sei.ba.gov.br/arcgis/rest/services/servicos_sei/LOCALIDADE_BAHIA/MapServer?f=json",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -1799,11 +1802,13 @@
       "type": "dataset",
       "id": "aneel",
       "url": "https://dadosabertos.aneel.gov.br/",
-      "status": 200,
-      "finalUrl": "https://dadosabertos.aneel.gov.br/",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "AbortError:This operation was aborted",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -1889,32 +1894,39 @@
       "type": "dataset",
       "id": "ouvidorsus",
       "url": "https://dadosabertos.saude.gov.br/dataset/ouvidorsus",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://dadosabertos.saude.gov.br/dataset/ouvidorsus",
+      "class": "ok",
       "attempts": [
-        "TypeError:fetch failed",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
       "type": "dataset",
       "id": "cnes",
       "url": "https://dadosabertos.saude.gov.br/dataset/cnes-cadastro-nacional-de-estabelecimentos-de-saude",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://dadosabertos.saude.gov.br/dataset/cnes-cadastro-nacional-de-estabelecimentos-de-saude",
+      "class": "ok",
       "attempts": [
-        "TypeError:fetch failed",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
       "type": "dataset",
       "id": "sisagua-captacao",
       "url": "https://dadosabertos.saude.gov.br/dataset/sisagua-pontos-de-captacao",
+      "status": 200,
+      "finalUrl": "https://dadosabertos.saude.gov.br/dataset/sisagua-pontos-de-captacao",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "aneel-emergencias",
+      "url": "https://dadosabertos.aneel.gov.br/dataset/ocorrencias-emergenciais-nas-redes-de-distribuicao",
       "status": null,
       "finalUrl": null,
       "class": "network",
@@ -1922,17 +1934,6 @@
       "attempts": [
         "TypeError:fetch failed",
         "TypeError:fetch failed"
-      ]
-    },
-    {
-      "type": "dataset",
-      "id": "aneel-emergencias",
-      "url": "https://dadosabertos.aneel.gov.br/dataset/ocorrencias-emergenciais-nas-redes-de-distribuicao",
-      "status": 200,
-      "finalUrl": "https://dadosabertos.aneel.gov.br/dataset/ocorrencias-emergenciais-nas-redes-de-distribuicao",
-      "class": "ok",
-      "attempts": [
-        200
       ]
     },
     {
@@ -2037,6 +2038,7 @@
       "finalUrl": "https://www.ba.gov.br/saude/suvisa/vigilancia-epidemiologica",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -2145,26 +2147,22 @@
       "type": "dataset",
       "id": "sinasc",
       "url": "https://dadosabertos.saude.gov.br/dataset/sistema-de-informacao-sobre-nascidos-vivos-sinasc",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://dadosabertos.saude.gov.br/dataset/sistema-de-informacao-sobre-nascidos-vivos-sinasc",
+      "class": "ok",
       "attempts": [
-        "TypeError:fetch failed",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
       "type": "dataset",
       "id": "sim-mortalidade",
       "url": "https://dadosabertos.saude.gov.br/dataset/sim",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://dadosabertos.saude.gov.br/dataset/sim",
+      "class": "ok",
       "attempts": [
-        "TypeError:fetch failed",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -2443,11 +2441,13 @@
       "type": "dataset",
       "id": "aneel-siga",
       "url": "https://dadosabertos.aneel.gov.br/dataset/siga-sistema-de-informacoes-de-geracao-da-aneel",
-      "status": 200,
-      "finalUrl": "https://dadosabertos.aneel.gov.br/dataset/siga-sistema-de-informacoes-de-geracao-da-aneel",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "TypeError:fetch failed",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -2535,22 +2535,26 @@
       "type": "dataset",
       "id": "aneel-siget",
       "url": "https://dadosabertos.aneel.gov.br/dataset/sistema-de-gestao-da-transmissao-siget",
-      "status": 200,
-      "finalUrl": "https://dadosabertos.aneel.gov.br/dataset/sistema-de-gestao-da-transmissao-siget",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "TypeError:fetch failed",
+        "TypeError:fetch failed"
       ]
     },
     {
       "type": "dataset",
       "id": "aneel-samp",
       "url": "https://dadosabertos.aneel.gov.br/dataset/samp",
-      "status": 200,
-      "finalUrl": "https://dadosabertos.aneel.gov.br/dataset/samp",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "TypeError:fetch failed",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -2616,11 +2620,13 @@
       "type": "dataset",
       "id": "aneel-bdgd",
       "url": "https://dadosabertos.aneel.gov.br/dataset/base-de-dados-geografica-da-distribuidora-bdgd",
-      "status": 200,
-      "finalUrl": "https://dadosabertos.aneel.gov.br/dataset/base-de-dados-geografica-da-distribuidora-bdgd",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "TypeError:fetch failed",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -2787,13 +2793,11 @@
       "type": "dataset",
       "id": "plataforma-brasil-dados-abertos",
       "url": "https://dadosabertos.saude.gov.br/dataset/plataforma_brasil",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://dadosabertos.saude.gov.br/dataset/plataforma_brasil",
+      "class": "ok",
       "attempts": [
-        "TypeError:fetch failed",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -3137,7 +3141,7 @@
       "id": "Movimento de Justiça e Direitos Humanos — MJDH",
       "url": "https://direitoshumanosbr.org.br/home/inscricao.php?id=566917",
       "status": 200,
-      "finalUrl": "https://direitoshumanosbr.org.br/home/inscricao.php?id=566917",
+      "finalUrl": "https://direitoshumanosbr.org.br/home/index.php",
       "class": "ok",
       "attempts": [
         200
@@ -3334,13 +3338,11 @@
       "type": "source",
       "id": "Portal de Dados Abertos do SUS",
       "url": "https://dadosabertos.saude.gov.br/dataset",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://dadosabertos.saude.gov.br/dataset",
+      "class": "ok",
       "attempts": [
-        "TypeError:fetch failed",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -3780,6 +3782,7 @@
       "finalUrl": "https://www.generonumero.media/",
       "class": "ok",
       "attempts": [
+        "TypeError:fetch failed",
         200
       ]
     },
@@ -4381,12 +4384,11 @@
       "type": "source",
       "id": "Repórteres sem Fronteiras — Fellowships e oportunidades",
       "url": "https://resources.rsf.org/fellowship-opportunities/",
-      "status": 503,
+      "status": 403,
       "finalUrl": "https://resources.rsf.org/fellowship-opportunities/",
-      "class": "server",
+      "class": "blocked",
       "attempts": [
-        503,
-        503
+        403
       ]
     },
     {
@@ -4417,6 +4419,17 @@
       "url": "https://journaliststudio.google.com/",
       "status": 200,
       "finalUrl": "https://journaliststudio.google.com/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "playwright-browser-automation",
+      "url": "https://playwright.dev/python/",
+      "status": 200,
+      "finalUrl": "https://playwright.dev/python/",
       "class": "ok",
       "attempts": [
         200
