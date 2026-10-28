@@ -1,0 +1,69 @@
+{
+  "reviewDate": "2026-10-28",
+  "discoveryDate": "2026-10-27",
+  "policy": "Review is not approval for public catalog. Require primary source, current access, deduplication, editorial manifest approval.",
+  "candidates": [
+    {
+      "url": "https://wfsj.org/resources/louise-behan-reporting-grant",
+      "status": "historical-restricted",
+      "reason": "WFSJ official page states awards are invitation/participation restricted; last located open call is closed (2024). Do not publish as open."
+    },
+    {
+      "url": "https://www.solutionsjournalism.org/events/new-americas-reporting-grants-amplify-caregiving-stories",
+      "status": "primary-source-verified",
+      "reason": "New America Better Life Lab 2026–2027 rolling applications open; official application Airtable accessible, FAQ cites typical US$1,000 digital story and larger multimedia awards, payment on publication; no explicit international eligibility confirmed. Candidate for approval with eligibility marked restricted/uncertain.",
+      "officialUrl": "https://www.newamerica.org/insights/care-journalists-apply-reporting-grants/",
+      "applicationUrl": "https://airtable.com/appeAzA6SPRWk4LdE/paghyAWcVp0j1pEpl/form"
+    },
+    {
+      "url": "https://ok.org.br/projetos/qd-tecnologias-educacao",
+      "status": "historical-project",
+      "reason": "OKBR lists as completed project; independently verify service availability."
+    },
+    {
+      "url": "https://www.solutionsjournalism.org/learning-lab",
+      "status": "index-not-individual-resource",
+      "reason": "Learning Lab homepage, not an individual tool or opportunity."
+    },
+    {
+      "url": "https://www.solutionsjournalism.org/learning-lab/toolkits-guides",
+      "status": "collection-review",
+      "reason": "Toolkit index; review specific tools individually and deduplicate."
+    },
+    {
+      "url": "https://ok.org.br/projetos/open-data-day",
+      "status": "event-project",
+      "reason": "Event project, not an open grant or directly usable dataset."
+    },
+    {
+      "url": "https://ok.org.br/projetos/cerveja-com-dados",
+      "status": "event-project",
+      "reason": "Community meeting series, not directly catalog-ready."
+    },
+    {
+      "url": "https://grantsforjournalists.com/all-grants",
+      "status": "rejected",
+      "reason": "Generic listing page, not individual opportunity."
+    },
+    {
+      "url": "https://fapesp.br/oportunidades/memorias-diferencas-e-relacoes/9906",
+      "status": "needs-eligibility-review",
+      "reason": "Institution-specific JC-II press office fellowship; verify current call, dates and journalist relevance before publishing."
+    },
+    {
+      "url": "https://ok.org.br/projetos/indice-dados-abertos",
+      "status": "historical-data-resource",
+      "reason": "OKBR describes a past assessment; verify current datasets and access, label historical if published."
+    },
+    {
+      "url": "https://ok.org.br/projetos/monitor-da-inda",
+      "status": "historical-monitor",
+      "reason": "OKBR describes monitoring 2021–2022 plan; do not present as current without verification."
+    },
+    {
+      "url": "https://ok.org.br/projetos/euvoto",
+      "status": "historical-project",
+      "reason": "Listed among OKBR completed projects; not an active tool without fresh access proof."
+    }
+  ]
+}
