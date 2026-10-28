@@ -72,7 +72,7 @@ jobs:
       - name: Audit public links before publication
         if: steps.changes.outputs.changed == 'true'
         run: node scripts/check-links.js
-      - name: Create and merge verified editorial PR
+      - name: Create verified editorial PR for review and merge
         if: steps.changes.outputs.changed == 'true'
         env:
           GH_TOKEN: ${{ github.token }}
@@ -88,15 +88,11 @@ jobs:
           git push origin "$branch"
           pr_url=$(gh pr create --base main --head "$branch" --title "Radar editorial: approved publications ${{ github.run_id }}" --body "Only entries explicitly approved in intake/approved-publications.json. Validation, static UI, web-intake regression, Playwright browser tests and link audit passed in this publishing workflow. No unverified leads are promoted.")
           echo "Created $pr_url"
-          gh pr merge "$pr_url" --squash --delete-branch
-          echo "Published via $pr_url" >> "$GITHUB_STEP_SUMMARY"
+          echo "Editorial PR ready for merge: $pr_url" >> "$GITHUB_STEP_SUMMARY"
       - name: Report no new approved publications
         if: steps.changes.outputs.changed != 'true'
         run: |
           echo "No new approved editorial records; no publication or deployment was triggered." >> "$GITHUB_STEP_SUMMARY"
-      - name: Verify approved records on deployed public site
+      - name: Explain deployment verification boundary
         if: steps.changes.outputs.changed == 'true'
-        env:
-          RADAR_DEPLOY_RETRIES: "10"
-          RADAR_DEPLOY_DELAY_MS: "15000"
-        run: node scripts/verify-published-records.js
+        run: echo "Publication is pending until the editorial PR is merged and the public site is verified. This workflow only creates a validated PR." >> "$GITHUB_STEP_SUMMARY"
