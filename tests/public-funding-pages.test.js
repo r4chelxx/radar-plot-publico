@@ -31,3 +31,10 @@ test('GFMD fallback is attempted when archive has no relevant static links',asyn
  assert.equal(result.leads.length,1);
  assert.equal(result.health[1].fallbackStatus,'found-candidates');
 });
+
+test('Grants for Journalists category navigation is not treated as an individual grant',()=>{
+ const html='<a href="/grants-for-journalists/">FIND A GRANT</a><a href="/all-grants/">View All Fellowships/Grants</a><a href="/opportunities/investigative-fellowship-2027/">Investigative Journalism Fellowship 2027</a>';
+ const leads=extract(html,'https://grantsforjournalists.com/grants-for-journalists/','Grants for Journalists');
+ assert.equal(leads.length,1);
+ assert.equal(leads[0].url,'https://grantsforjournalists.com/opportunities/investigative-fellowship-2027');
+});
