@@ -38,3 +38,14 @@ test('Grants for Journalists category navigation is not treated as an individual
  assert.equal(leads.length,1);
  assert.equal(leads[0].url,'https://grantsforjournalists.com/opportunities/investigative-fellowship-2027');
 });
+
+test('GFMD fallback runs when archive has only generic relevant links',async()=>{
+ const requested=[];
+ const result=await collect(async url=>{
+  requested.push(url);
+  return {ok:true,status:200,url,text:async()=>url.endsWith('/find-funding/')?'<a href="/fundings/specific-reporting-2027/">Specific Reporting Programme 2027</a>':'<a href="/about/">Journalism funding information and resources</a>'};
+ });
+ assert.equal(requested.length,3);
+ assert.equal(result.leads.filter(x=>x.url==='https://gfmd.info/fundings/specific-reporting-2027').length,1);
+ assert.equal(result.health[1].fallbackStatus,'found-candidates');
+});

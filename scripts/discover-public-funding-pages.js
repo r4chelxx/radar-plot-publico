@@ -40,12 +40,18 @@ async function collect(fetcher=fetch){
    const html=(await response.text()).slice(0,1200000);
    let found=extract(html,response.url||source.url,source.name);
    let fallbackStatus='not-needed';
-   if(!found.length&&source.fallback){
+   // A page may contain generic relevant links but no individual GFMD funding detail.
+   const hasGfmdDetail=found.some(item=>{
+    const u=new URL(item.url);
+    return u.hostname==='gfmd.info'&&new RegExp('^/fundings/[^/]+/?$').test(u.pathname);
+   });
+   if(source.fallback&&!hasGfmdDetail){
     try{
      const alternate=await fetcher(source.fallback,{signal:AbortSignal.timeout(12000),headers:{'user-agent':'Radar-PLOT-Discovery/1.0','accept':'text/html'}});
      if(!alternate.ok)throw Error('HTTP '+alternate.status);
-     found=extract((await alternate.text()).slice(0,1200000),alternate.url||source.fallback,source.name);
-     fallbackStatus=found.length?'found-candidates':'no-relevant-static-links';
+     const alternateLeads=extract((await alternate.text()).slice(0,1200000),alternate.url||source.fallback,source.name);
+     found=[...new Map([...found,...alternateLeads].map(item=>[item.url,item])).values()];
+     fallbackStatus=alternateLeads.length?'found-candidates':'no-relevant-static-links';
     }catch(error){fallbackStatus='error: '+String(error.message||error).slice(0,100)}
    }
    leads.push(...found);
