@@ -1,5 +1,50 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.opportunities=[
+{
+  "id": "hiig-impact-ai-fellowship-2027",
+  "title": "HIIG — Impact AI Fellowship 2027",
+  "org": "Alexander von Humboldt Institute for Internet and Society (HIIG)",
+  "summary": "Fellowship interdisciplinar para avaliar impactos sociais e ambientais de aplicações reais de inteligência artificial.",
+  "type": "Fellowship de pesquisa e avaliação de IA",
+  "themes": [
+    "Inteligência artificial",
+    "Jornalismo",
+    "Tecnologia",
+    "Meio ambiente",
+    "Pesquisa"
+  ],
+  "scope": "Internacional; requer mestrado e participação presencial em Berlim",
+  "deadline": "2027-01-15",
+  "deadlineStatus": "confirmado",
+  "eligibility": "restrita",
+  "fit": 8,
+  "status": "aberta",
+  "value": "€ 5.000 por 10 semanas; apoio para viagem e hospedagem conforme disponibilidade",
+  "duration": "16 de agosto a 22 de outubro de 2027; preparação obrigatória online em 11 de maio",
+  "modality": "Híbrida; semanas 1 e 7 presenciais em Berlim, demais semanas com possibilidade de trabalho remoto parcial",
+  "documents": [
+    "Currículo de até 4 páginas",
+    "Carta de motivação de até 2 páginas",
+    "Descrição opcional de projeto de IA de até 2 páginas"
+  ],
+  "restrictions": [
+    "Mestrado obrigatório",
+    "Participação presencial nas semanas 1 e 7 e sessões regulares obrigatórias",
+    "Despesas adicionais como visto, seguro e alimentação podem ficar a cargo da pessoa selecionada"
+  ],
+  "rules": "https://www.hiig.de/impact-ai-call-for-fellows/",
+  "apply": "https://www.hiig.de/impact-ai-call-for-fellows/",
+  "verified": "2026-10-28",
+  "desc": "Programa do HIIG para profissionais de jornalismo, pesquisa, sociedade civil e outros setores avaliarem empiricamente aplicações de IA com metodologia de impacto social e ambiental. Requer mestrado, participação presencial em Berlim e relatório final. Bolsa fixa de € 5.000, com apoio adicional condicionado à capacidade financeira do instituto.",
+  "discoveryUrl": "https://www.hiig.de/impact-ai-call-for-fellows/",
+  "verificationHistory": [
+    {
+      "date": "2026-10-28",
+      "status": "aberta",
+      "source": "https://www.hiig.de/impact-ai-call-for-fellows/"
+    }
+  ]
+}, 
   {
     "id": "vital-impacts-environmental-photography-2027",
     "title": "Vital Impacts — Environmental Photography Fellowships 2027",
@@ -108,7 +153,7 @@ window.RADAR_PARTS.opportunities=[
     "deadlineStatus": "confirmado",
     "eligibility": "elegível",
     "fit": 9,
-    "status": "aberta",
+    "status": "encerrada",
     "value": "Cobertura de passagem aérea econômica não reembolsável, hospedagem, refeições, seguro médico de viagem e transporte terrestre relacionados à participação",
     "duration": "Cobertura presencial em Nova York de 11 a 22/01/2027",
     "modality": "Presencial, Nova York (Estados Unidos)",
