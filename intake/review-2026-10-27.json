@@ -1,0 +1,52 @@
+{
+  "reviewDate": "2026-10-28",
+  "discoveryDate": "2026-10-27",
+  "policy": "Review is not approval for public catalog. Require primary source, current access, deduplication, editorial manifest approval.",
+  "candidates": [
+    {
+      "url": "https://wfsj.org/resources/louise-behan-reporting-grant",
+      "status": "historical-restricted",
+      "reason": "WFSJ official page states awards are invitation/participation restricted; last located open call is closed (2024). Do not publish as open."
+    },
+    {
+      "url": "https://www.solutionsjournalism.org/events/new-americas-reporting-grants-amplify-caregiving-stories",
+      "status": "needs-primary-source",
+      "reason": "SJN lists rolling commissioning from October 2026; verify New America application page, terms, eligibility and deadline before approval."
+    },
+    {
+      "url": "https://ok.org.br/projetos/qd-tecnologias-educacao",
+      "status": "needs-current-availability",
+      "reason": "Official OKBR project page lists 2022–2024; verify current explorer access before publishing as active tool."
+    },
+    {
+      "url": "https://www.solutionsjournalism.org/learning-lab",
+      "status": "index-not-individual-resource",
+      "reason": "Learning Lab homepage, not an individual tool or opportunity."
+    },
+    {
+      "url": "https://www.solutionsjournalism.org/learning-lab/toolkits-guides",
+      "status": "collection-review",
+      "reason": "Toolkit index; review specific tools individually and deduplicate."
+    },
+    {
+      "url": "https://www.solutionsjournalism.org/events/new-americas-reporting-grants-amplify-caregiving-stories",
+      "status": "needs-primary-source",
+      "reason": "Cross-reference New America grant call."
+    },
+    {
+      "url": "https://ok.org.br/projetos/open-data-day",
+      "status": "event-project",
+      "reason": "Event project, not an open grant or directly usable dataset."
+    },
+    {
+      "url": "https://ok.org.br/projetos/cerveja-com-dados",
+      "status": "event-project",
+      "reason": "Community meeting series, not directly catalog-ready."
+    },
+    {
+      "url": "https://grantsforjournalists.com/all-grants",
+      "status": "rejected",
+      "reason": "Generic listing page, not individual opportunity."
+    }
+  ]
+}
