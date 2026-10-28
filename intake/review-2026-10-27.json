@@ -15,8 +15,8 @@
     },
     {
       "url": "https://ok.org.br/projetos/qd-tecnologias-educacao",
-      "status": "needs-current-availability",
-      "reason": "Official OKBR project page lists 2022–2024; verify current explorer access before publishing as active tool."
+      "status": "historical-project",
+      "reason": "OKBR lists as completed project; independently verify service availability."
     },
     {
       "url": "https://www.solutionsjournalism.org/learning-lab",
@@ -42,6 +42,26 @@
       "url": "https://grantsforjournalists.com/all-grants",
       "status": "rejected",
       "reason": "Generic listing page, not individual opportunity."
+    },
+    {
+      "url": "https://fapesp.br/oportunidades/memorias-diferencas-e-relacoes/9906",
+      "status": "needs-eligibility-review",
+      "reason": "Institution-specific JC-II press office fellowship; verify current call, dates and journalist relevance before publishing."
+    },
+    {
+      "url": "https://ok.org.br/projetos/indice-dados-abertos",
+      "status": "historical-data-resource",
+      "reason": "OKBR describes a past assessment; verify current datasets and access, label historical if published."
+    },
+    {
+      "url": "https://ok.org.br/projetos/monitor-da-inda",
+      "status": "historical-monitor",
+      "reason": "OKBR describes monitoring 2021–2022 plan; do not present as current without verification."
+    },
+    {
+      "url": "https://ok.org.br/projetos/euvoto",
+      "status": "historical-project",
+      "reason": "Listed among OKBR completed projects; not an active tool without fresh access proof."
     }
   ]
 }
