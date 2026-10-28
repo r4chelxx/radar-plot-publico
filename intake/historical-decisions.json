@@ -696,6 +696,14 @@
       "status": "rejected",
       "officialUrl": "https://grantsforjournalists.com/all-grants",
       "reason": "Página de navegação/diretório da Grants for Journalists, não é edital individual. Não há prazo, elegibilidade ou formulário específico para um grant; não publicar como oportunidade. Preservar a fonte para descoberta de chamadas concretas."
+    },
+    {
+      "reviewedBy": "Radar PLOT — revisão editorial assistida",
+      "reviewedAt": "2026-10-28",
+      "url": "https://playwright.dev/python",
+      "status": "approved",
+      "officialUrl": "https://playwright.dev/python/",
+      "reason": "Ferramenta de automação e testes com documentação primária e licença Apache-2.0, aprovada em intake/approved-publications.json após verificação de duplicidade. Não confundir aprovação com publicação efetiva."
     }
   ]
 }
