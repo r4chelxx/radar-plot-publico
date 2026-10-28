@@ -1,5 +1,16 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.tools=[
+{
+  "id": "playwright-browser-automation",
+  "name": "Playwright — automação e testes de navegadores",
+  "kind": "automação de navegador, testes de interface e coleta web",
+  "url": "https://playwright.dev/python/",
+  "desc": "Framework aberto de automação de navegadores para testes de interface, captura de páginas e coleta programática, com suporte a Chromium, Firefox e WebKit e APIs para Python, JavaScript, .NET e Java. Exige programação, instalação de navegadores e dependências; raspagens devem respeitar termos de uso, limites de acesso, privacidade e LGPD. Não contorna autenticação ou bloqueios de acesso.",
+  "discoveredVia": [
+    "Data Visualization Society"
+  ],
+  "discoveryUrl": "https://playwright.dev/python"
+}, 
   {
     "id": "tableau-public",
     "name": "Tableau Public",
