@@ -1,6 +1,30 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
 {
+  "date": "2026-10-28",
+  "type": "ferramentas",
+  "title": "Publicação editorial verificada — 2026-10-28",
+  "items": [
+    {
+      "id": "playwright-browser-automation",
+      "title": "Playwright — automação e testes de navegadores"
+    }
+  ],
+  "detail": "Registro aprovado com fonte oficial e revisão editorial: Playwright — automação e testes de navegadores."
+},
+{
+  "date": "2026-10-28",
+  "type": "nova-oportunidade",
+  "title": "Publicação editorial verificada — 2026-10-28",
+  "items": [
+    {
+      "id": "hiig-impact-ai-fellowship-2027",
+      "title": "HIIG — Impact AI Fellowship 2027"
+    }
+  ],
+  "detail": "Registro aprovado com fonte oficial e revisão editorial: HIIG — Impact AI Fellowship 2027."
+}, 
+{
   "date": "2026-10-26",
   "type": "ferramentas",
   "title": "Publicação editorial verificada — 2026-10-26",
