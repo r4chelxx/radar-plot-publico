@@ -100,3 +100,25 @@ jobs:
           RADAR_DEPLOY_RETRIES: "10"
           RADAR_DEPLOY_DELAY_MS: "15000"
         run: node scripts/verify-published-records.js
+
+      - name: Summarize editorial run outcome
+        if: always()
+        env:
+          JOB_STATUS: ${{ job.status }}
+          CHANGED: ${{ steps.changes.outputs.changed }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        shell: bash
+        run: |
+          {
+            echo "### Radar PLOT 1.0 — publicação editorial"
+            echo "- Resultado do job: ${JOB_STATUS}"
+            echo "- Alterações detectadas: ${CHANGED:-não determinado}"
+            echo "- Execução: ${RUN_URL}"
+            if [ "$JOB_STATUS" != "success" ]; then
+              echo "- Ação necessária: consultar a primeira etapa com falha; não presumir publicação."
+            elif [ "$CHANGED" = "true" ]; then
+              echo "- Ação: PR integrado e verificação pública executada nesta rodada."
+            else
+              echo "- Ação: nenhuma publicação nova necessária nesta rodada."
+            fi
+          } >> "$GITHUB_STEP_SUMMARY"
