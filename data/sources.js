@@ -1,5 +1,17 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.sources=[
+{
+  "name": "Opportunity Desk — oportunidades globais",
+  "url": "https://opportunitydesk.org/latest-posts/",
+  "type": "Agregador internacional de bolsas, grants, fellowships, prêmios e formação",
+  "scope": "Global",
+  "role": "Descoberta diária de chamadas individuais; confirmar datas, requisitos e inscrição na fonte oficial do organizador antes da publicação; elegibilidade geográfica não bloqueia cadastro",
+  "priority": "Alta",
+  "cadence": "diária",
+  "category": "oportunidades/financiamento",
+  "lastChecked": "2026-10-29",
+  "checkStatus": "verificada como fonte de descoberta; execução diária ainda depende do workflow"
+},
   {
     "name": "Portal de Dados Abertos da Paraíba",
     "url": "https://dados.pb.gov.br/",
