@@ -1,6 +1,7 @@
 // Evidence gathering only: NEVER confirms a deadline, eligibility or publication.
 const fs=require('node:fs'),crypto=require('node:crypto');
 const {selectBacklog}=require('./select-historical-backlog');
+const {auditCapacity}=require('./audit-capacity');
 const input=JSON.parse(fs.readFileSync('intake/candidate-triage.json','utf8'));
 const limit=Math.min(50,Math.max(1,Number(process.env.LEAD_PAGE_LIMIT||15)));
 function allowed(raw){
@@ -26,11 +27,13 @@ async function inspect(lead){
 }
 (async()=>{
  const previous=fs.existsSync('intake/lead-history-previous.json')?JSON.parse(fs.readFileSync('intake/lead-history-previous.json','utf8')):null;
- const backlog=selectBacklog(previous,input.leads||[],limit);
+ const capacity=previous?auditCapacity(previous.leads):{limit,pressure:null,policy:'no-history'};
+ const effectiveLimit=Math.min(50,Math.max(limit,capacity.limit));
+ const backlog=selectBacklog(previous,input.leads||[],effectiveLimit);
  const selected=backlog.selected;
  const results=[];
  for(const item of selected)results.push({...await inspect(item),historicalId:item.id,historyAtSelection:item.origin});
- const out={generatedAt:new Date().toISOString(),policy:'Unverified evidence only. Date mentions are NOT deadlines.',eligibleForPublication:0,eligibleCandidates:backlog.total,inspected:results.length,selection:{historyLoaded:previous!==null,backlogTotal:backlog.total,ready:backlog.ready,waiting:backlog.waiting,priorities:selected.reduce((a,x)=>(a[x.origin]=(a[x.origin]||0)+1,a),{})},results};
+ const out={generatedAt:new Date().toISOString(),policy:'Unverified evidence only. Date mentions are NOT deadlines.',eligibleForPublication:0,eligibleCandidates:backlog.total,inspected:results.length,capacity:{configured:limit,effective:effectiveLimit,pressure:capacity.pressure,policy:capacity.policy},selection:{historyLoaded:previous!==null,backlogTotal:backlog.total,ready:backlog.ready,waiting:backlog.waiting,priorities:selected.reduce((a,x)=>(a[x.origin]=(a[x.origin]||0)+1,a),{})},results};
  fs.writeFileSync('intake/lead-evidence.json',JSON.stringify(out,null,2)+'\n');
  console.log(JSON.stringify({inspected:results.length,htmlFetched:results.filter(x=>x.pageStatus==='html-fetched').length}));
 })().catch(e=>{console.error(e);process.exitCode=1});
