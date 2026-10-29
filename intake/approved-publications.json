@@ -698,6 +698,46 @@
         "officialUrl": "https://www.hiig.de/impact-ai-call-for-fellows/",
         "evidence": "Edital primário HIIG de 14/10/2026 confirma prazo de 15/01/2027, mestrado obrigatório, bolsa fixa de € 5.000, 10 semanas, presença obrigatória em Berlim nas semanas 1 e 7, preparação online em 11/05/2027, documentos exigidos e apoio condicional a viagens. ID e nome ausentes no catálogo público em 28/10/2026."
       }
+    },
+    {
+      "category": "datasets",
+      "record": {
+        "id": "okbr-odi-cidades-2023",
+        "name": "OKBR — Índice de Dados Abertos para Cidades 2023",
+        "org": "Open Knowledge Brasil",
+        "territoryTier": "Brasil",
+        "kind": "indicador histórico",
+        "themes": [
+          "Dados abertos",
+          "Transparência",
+          "Municípios",
+          "Administração pública",
+          "Jornalismo de dados"
+        ],
+        "coverage": "Avaliação de disponibilidade e qualidade de dados abertos nas 26 capitais estaduais brasileiras, por município e dimensão temática, referente ao levantamento de 2023.",
+        "frequency": "Levantamento histórico de 2023; não interpretar como monitoramento contínuo.",
+        "format": "Painel interativo, tabelas e publicação metodológica",
+        "period": "2023",
+        "granularity": "Capital brasileira e dimensão temática",
+        "geoUnit": "26 capitais estaduais brasileiras",
+        "api": "",
+        "docs": "https://indicedadosabertos.ok.org.br/",
+        "limitations": "Fotografia histórica de 2023; pontuações não representam a situação atual em 2026. O índice avalia disponibilidade e qualidade conforme metodologia própria; não equivale a auditoria integral de cada portal.",
+        "lastChecked": "2026-10-28",
+        "url": "https://indicedadosabertos.ok.org.br/",
+        "discoveredVia": [
+          "Open Knowledge Brasil"
+        ],
+        "discoveryUrl": "https://ok.org.br/projetos/indice-dados-abertos",
+        "description": "Painel histórico de 2023 para comparar abertura de dados públicos nas capitais brasileiras e identificar lacunas por dimensão temática."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Radar PLOT — revisão editorial assistida",
+        "reviewedAt": "2026-10-28",
+        "officialUrl": "https://indicedadosabertos.ok.org.br/",
+        "evidence": "Página oficial da OKBR acessível em outubro de 2026, intitulada ODI Cidades 2023, com pontuações por capital e dimensões temáticas. Publicar explicitamente como dados históricos, sem sugerir atualização contínua."
+      }
     }
   ]
 }
