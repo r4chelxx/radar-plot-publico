@@ -17,8 +17,8 @@
     },
     {
       "url": "https://ok.org.br/projetos/qd-tecnologias-educacao",
-      "status": "historical-project",
-      "reason": "OKBR lists as completed project; independently verify service availability."
+      "status": "historical-tool-verified",
+      "reason": "Fonte oficial descreve explorador de atos municipais e alertas; projeto 2022–2024. Verificar endereço direto do explorador e disponibilidade atual antes de aprovar."
     },
     {
       "url": "https://www.solutionsjournalism.org/learning-lab",
@@ -52,18 +52,20 @@
     },
     {
       "url": "https://ok.org.br/projetos/indice-dados-abertos",
-      "status": "historical-data-resource",
-      "reason": "OKBR describes a past assessment; verify current datasets and access, label historical if published."
+      "status": "historical-dataset-verified",
+      "reason": "ODI Cidades 2023 consultável em https://indicedadosabertos.ok.org.br/; resultados e metodologia disponíveis. Classificar como levantamento histórico de 2023, não dados correntes."
     },
     {
       "url": "https://ok.org.br/projetos/monitor-da-inda",
-      "status": "historical-monitor",
-      "reason": "OKBR describes monitoring 2021–2022 plan; do not present as current without verification."
+      "status": "historical-dataset-verified",
+      "reason": "Monitor oficial https://ok.org.br/inda/ descreve Plano de Ação 2023–2025 e disponibiliza CSV. Identificar período e confirmar link direto do CSV antes de publicar."
     },
     {
       "url": "https://ok.org.br/projetos/euvoto",
-      "status": "historical-project",
-      "reason": "Listed among OKBR completed projects; not an active tool without fresh access proof."
+      "status": "historical-project-no-active-proof",
+      "reason": "OKBR lista EuVoto entre projetos realizados; não há comprovação de ferramenta ativa nesta rodada."
     }
-  ]
+  ],
+  "reviewStatus": "partially-verified",
+  "publicationDecision": "ODI Cidades 2023 and Monitor da INDA are historical dataset candidates; QD Tecnologias na Educação is a historical tool candidate. Confirm final links, catalog schema and deduplication before approval. Geographic eligibility is not a standalone exclusion."
 }
