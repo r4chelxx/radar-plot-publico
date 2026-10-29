@@ -22,6 +22,8 @@ on:
       - 'scripts/prioritize-editorial-review.js'
       - 'tests/editorial-priority.test.js'
       - 'scripts/write-run-summary.js'
+      - 'scripts/backlog-health.js'
+      - 'tests/backlog-health.test.js'
       - 'tests/lead-history.test.js'
       - 'tests/editorial-review.test.js'
       - 'scripts/build-editorial-review.js'
@@ -80,7 +82,7 @@ jobs:
       - name: Check source collector syntax and daily coverage
         run: node --test tests/source-intake-coverage.test.js
       - name: Test persistent lead history
-        run: node --test tests/historical-backlog.test.js tests/historical-editorial-batch.test.js tests/lead-history.test.js tests/source-catalog.test.js tests/editorial-review.test.js tests/editorial-priority.test.js tests/inspection-order.test.js tests/lead-privacy.test.js tests/normalize-lead-link.test.js
+        run: node --test tests/backlog-health.test.js tests/historical-backlog.test.js tests/historical-editorial-batch.test.js tests/lead-history.test.js tests/source-catalog.test.js tests/editorial-review.test.js tests/editorial-priority.test.js tests/inspection-order.test.js tests/lead-privacy.test.js tests/normalize-lead-link.test.js
       - name: Test public queue integration
         run: node --test tests/import-public-editorial-queue.test.js
       - name: Inspect monitored source websites
