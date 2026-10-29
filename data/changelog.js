@@ -1,6 +1,34 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
 {
+  "date": "2026-10-29",
+  "type": "dados",
+  "title": "Publicação editorial verificada — 2026-10-29",
+  "items": [
+    {
+      "id": "okbr-odi-cidades-2023",
+      "title": "OKBR — Índice de Dados Abertos para Cidades 2023"
+    },
+    {
+      "id": "okbr-monitor-inda-2023-2025",
+      "title": "Open Knowledge Brasil — Monitor da INDA 2023–2025"
+    }
+  ],
+  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: OKBR — Índice de Dados Abertos para Cidades 2023; Open Knowledge Brasil — Monitor da INDA 2023–2025."
+},
+{
+  "date": "2026-10-29",
+  "type": "ferramentas",
+  "title": "Publicação editorial verificada — 2026-10-29",
+  "items": [
+    {
+      "id": "okbr-querido-diario-tecnologias-educacao",
+      "title": "Querido Diário — Tecnologias na Educação"
+    }
+  ],
+  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Querido Diário — Tecnologias na Educação."
+}, 
+{
   "date": "2026-10-28",
   "type": "ferramentas",
   "title": "Publicação editorial verificada — 2026-10-28",

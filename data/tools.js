@@ -1,6 +1,17 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.tools=[
 {
+  "id": "okbr-querido-diario-tecnologias-educacao",
+  "name": "Querido Diário — Tecnologias na Educação",
+  "kind": "busca em diários oficiais e monitoramento de contratações educacionais",
+  "url": "https://ok.org.br/projetos/qd-tecnologias-educacao/",
+  "desc": "Projeto da Open Knowledge Brasil que identifica e organiza atos de diários oficiais municipais sobre tecnologia na educação, incluindo conectividade, infraestrutura, softwares e serviços. Permite pesquisa por cidade, período e categoria e criação de alertas, conforme a documentação do projeto. Desenvolvido entre 2022 e 2024; confirmar a disponibilidade atual da interface e a cobertura municipal antes de depender dos resultados em investigação.",
+  "discoveredVia": [
+    "Open Knowledge Brasil"
+  ],
+  "discoveryUrl": "https://ok.org.br/projetos/qd-tecnologias-educacao/"
+}, 
+{
   "id": "playwright-browser-automation",
   "name": "Playwright — automação e testes de navegadores",
   "kind": "automação de navegador, testes de interface e coleta web",

@@ -1,6 +1,66 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.datasets=[
 {
+  "id": "okbr-odi-cidades-2023",
+  "name": "OKBR — Índice de Dados Abertos para Cidades 2023",
+  "org": "Open Knowledge Brasil",
+  "territoryTier": "Brasil",
+  "kind": "portal",
+  "themes": [
+    "Dados abertos",
+    "Transparência",
+    "Municípios",
+    "Administração pública",
+    "Jornalismo de dados"
+  ],
+  "coverage": "Avaliação de disponibilidade e qualidade de dados abertos nas 26 capitais estaduais brasileiras, por município e dimensão temática, referente ao levantamento de 2023.",
+  "frequency": "Levantamento histórico de 2023; não interpretar como monitoramento contínuo.",
+  "format": "Painel interativo, tabelas e publicação metodológica",
+  "period": "2023",
+  "granularity": "Capital brasileira e dimensão temática",
+  "geoUnit": "26 capitais estaduais brasileiras",
+  "api": "",
+  "docs": "https://indicedadosabertos.ok.org.br/",
+  "limitations": "Fotografia histórica de 2023; pontuações não representam a situação atual em 2026. O índice avalia disponibilidade e qualidade conforme metodologia própria; não equivale a auditoria integral de cada portal.",
+  "lastChecked": "2026-10-28",
+  "url": "https://indicedadosabertos.ok.org.br/",
+  "discoveredVia": [
+    "Open Knowledge Brasil"
+  ],
+  "discoveryUrl": "https://ok.org.br/projetos/indice-dados-abertos",
+  "description": "Painel histórico de 2023 para comparar abertura de dados públicos nas capitais brasileiras e identificar lacunas por dimensão temática."
+},
+{
+  "id": "okbr-monitor-inda-2023-2025",
+  "name": "Open Knowledge Brasil — Monitor da INDA 2023–2025",
+  "org": "Open Knowledge Brasil",
+  "territoryTier": "Brasil",
+  "kind": "portal",
+  "themes": [
+    "Transparência",
+    "Dados abertos",
+    "Administração pública",
+    "LAI",
+    "Políticas públicas"
+  ],
+  "coverage": "Acompanhamento de ações, entregas e andamento do Plano de Ação 2023–2025 da Infraestrutura Nacional de Dados Abertos, com dados compilados pela OKBR.",
+  "frequency": "Histórico do plano 2023–2025; não presumir atualização após encerramento do ciclo.",
+  "format": "Painel e planilha CSV disponibilizada no portal",
+  "period": "2023–2025",
+  "granularity": "Ação e atividade do plano federal",
+  "geoUnit": "Brasil — governo federal",
+  "api": "",
+  "docs": "https://ok.org.br/inda/",
+  "limitations": "Monitoramento independente da OKBR a partir de registros oficiais e LAI; atualizações e evidências podem ter lacunas. Refere-se ao plano 2023–2025 e não deve ser interpretado como execução corrente de 2026.",
+  "lastChecked": "2026-10-29",
+  "url": "https://ok.org.br/inda/",
+  "discoveredVia": [
+    "Open Knowledge Brasil"
+  ],
+  "discoveryUrl": "https://ok.org.br/projetos/monitor-da-inda",
+  "description": "Monitor histórico de implementação do Plano de Ação da INDA 2023–2025, com acompanhamento de atividades e possibilidade de consulta à base CSV."
+}, 
+{
   "id": "global-fishing-watch-apis",
   "name": "Global Fishing Watch — conjuntos e APIs marítimas",
   "org": "Global Fishing Watch",
