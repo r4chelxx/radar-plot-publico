@@ -74,3 +74,14 @@ test('Pulitzer Center extracts grant detail pages and excludes directories',()=>
  assert.equal(leads.length,1);
  assert.equal(leads[0].editorialStatus,'unverified');
 });
+
+test('blocked primary uses the official fallback without fabricating access',async()=>{
+ const result=await collect(async url=>({ok:!url.endsWith('/latest-posts/'),status:url.endsWith('/latest-posts/')?403:200,url,text:async()=>url.includes('category/fellowships')?'<a href="/2026/10/28/journalism-fellowship-2027/">Journalism Fellowship 2027</a>':'<a href="/about">About us</a>'}));
+ assert.equal(result.health[2].status,'fallback');
+ assert.equal(result.health[2].fallbackStatus,'primary-http-403');
+ assert.equal(result.leads.filter(x=>x.sourceName==='Opportunity Desk').length,1);
+});
+test('generic navigation on detail URLs is not treated as an opportunity',()=>{
+ const leads=extract('<a href="/opportunities/123">Learn more</a><a href="/opportunities/124">Investigative Reporting Grant 2027</a>','https://newsfuel.org/opportunities','NewsFuel');
+ assert.equal(leads.length,1);
+});
