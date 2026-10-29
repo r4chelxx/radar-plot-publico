@@ -1,11 +1,10 @@
 {
-  "checkedAt": "2026-10-28T17:06:42.457Z",
+  "checkedAt": "2026-10-29T12:10:08.243Z",
   "policy": "404/410 and ArcGIS application errors within HTTP 200 become broken only after appearing as suspect or broken in the previous audit; blocked and network results are inconclusive",
   "counts": {
-    "ok": 388,
-    "blocked": 41,
-    "network": 34,
-    "server": 1
+    "ok": 389,
+    "blocked": 42,
+    "network": 36
   },
   "results": [
     {
@@ -133,11 +132,11 @@
       "type": "source",
       "id": "The Open Notebook — Early-Career Fellowship",
       "url": "https://www.theopennotebook.com/early-career-fellowship-program/",
-      "status": 200,
+      "status": 403,
       "finalUrl": "https://www.theopennotebook.com/early-career-fellowship-program/",
-      "class": "ok",
+      "class": "blocked",
       "attempts": [
-        200
+        403
       ]
     },
     {
@@ -1013,22 +1012,22 @@
       "type": "opportunity",
       "id": "pulitzer-gender",
       "url": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/gender-equality-grant",
-      "status": 403,
+      "status": 200,
       "finalUrl": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/gender-equality-grant",
-      "class": "blocked",
+      "class": "ok",
       "attempts": [
-        403
+        200
       ]
     },
     {
       "type": "opportunity",
       "id": "pulitzer-global",
       "url": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/global-reporting-grants",
-      "status": 403,
+      "status": 200,
       "finalUrl": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/global-reporting-grants",
-      "class": "blocked",
+      "class": "ok",
       "attempts": [
-        403
+        200
       ]
     },
     {
@@ -1110,6 +1109,28 @@
     },
     {
       "type": "dataset",
+      "id": "okbr-odi-cidades-2023",
+      "url": "https://indicedadosabertos.ok.org.br/",
+      "status": 200,
+      "finalUrl": "https://indicedadosabertos.ok.org.br/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "okbr-monitor-inda-2023-2025",
+      "url": "https://ok.org.br/inda/",
+      "status": 200,
+      "finalUrl": "https://ok.org.br/inda/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
       "id": "global-fishing-watch-apis",
       "url": "https://globalfishingwatch.org/our-apis/documentation/",
       "status": 200,
@@ -1173,7 +1194,6 @@
       "finalUrl": "https://www.generonumero.media/dados-abertos/",
       "class": "ok",
       "attempts": [
-        "TypeError:fetch failed",
         200
       ]
     },
@@ -1467,11 +1487,11 @@
       "type": "source",
       "id": "Transferegov.br — Dados Abertos",
       "url": "https://api-publica.transferegov.gestao.gov.br/",
-      "status": 200,
+      "status": 403,
       "finalUrl": "https://api-publica.transferegov.gestao.gov.br/",
-      "class": "ok",
+      "class": "blocked",
       "attempts": [
-        200
+        403
       ]
     },
     {
@@ -1692,7 +1712,7 @@
       "class": "network",
       "error": "TypeError:fetch failed",
       "attempts": [
-        "AbortError:This operation was aborted",
+        "TypeError:fetch failed",
         "TypeError:fetch failed"
       ]
     },
@@ -1770,12 +1790,11 @@
       "type": "dataset",
       "id": "bahia-transparencia",
       "url": "https://www.transparencia.ba.gov.br/Portal",
-      "status": 500,
+      "status": 200,
       "finalUrl": "https://www.transparencia.ba.gov.br/Portal",
-      "class": "server",
+      "class": "ok",
       "attempts": [
-        500,
-        500
+        200
       ]
     },
     {
@@ -1804,11 +1823,13 @@
       "type": "dataset",
       "id": "aneel",
       "url": "https://dadosabertos.aneel.gov.br/",
-      "status": 200,
-      "finalUrl": "https://dadosabertos.aneel.gov.br/",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "AbortError:This operation was aborted",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -1848,13 +1869,11 @@
       "type": "dataset",
       "id": "saude",
       "url": "https://datasus.saude.gov.br/",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://datasus.saude.gov.br/",
+      "class": "ok",
       "attempts": [
-        "TypeError:fetch failed",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -1927,11 +1946,13 @@
       "type": "dataset",
       "id": "aneel-emergencias",
       "url": "https://dadosabertos.aneel.gov.br/dataset/ocorrencias-emergenciais-nas-redes-de-distribuicao",
-      "status": 200,
-      "finalUrl": "https://dadosabertos.aneel.gov.br/dataset/ocorrencias-emergenciais-nas-redes-de-distribuicao",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "AbortError:This operation was aborted",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -2353,26 +2374,22 @@
       "type": "dataset",
       "id": "datasus-sih-procedimentos-obstetricos",
       "url": "https://datasus.saude.gov.br/acesso-a-informacao/producao-hospitalar-sih-sus/",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://datasus.saude.gov.br/acesso-a-informacao/producao-hospitalar-sih-sus/",
+      "class": "ok",
       "attempts": [
-        "TypeError:fetch failed",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
       "type": "dataset",
       "id": "cnes-leitos",
       "url": "https://datasus.saude.gov.br/cnes-recursos-fisicos/",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://datasus.saude.gov.br/cnes-recursos-fisicos/",
+      "class": "ok",
       "attempts": [
-        "TypeError:fetch failed",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -2401,13 +2418,11 @@
       "type": "dataset",
       "id": "cnes-profissionais",
       "url": "https://datasus.saude.gov.br/cnes-recursos-humanos-a-partir-de-agosto-de-2007/",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://datasus.saude.gov.br/cnes-recursos-humanos-a-partir-de-agosto-de-2007-ocupacoes-classificadas-pela-cbo-2002/",
+      "class": "ok",
       "attempts": [
-        "TypeError:fetch failed",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -2438,11 +2453,13 @@
       "type": "dataset",
       "id": "aneel-siga",
       "url": "https://dadosabertos.aneel.gov.br/dataset/siga-sistema-de-informacoes-de-geracao-da-aneel",
-      "status": 200,
-      "finalUrl": "https://dadosabertos.aneel.gov.br/dataset/siga-sistema-de-informacoes-de-geracao-da-aneel",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "AbortError:This operation was aborted",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -2530,22 +2547,26 @@
       "type": "dataset",
       "id": "aneel-siget",
       "url": "https://dadosabertos.aneel.gov.br/dataset/sistema-de-gestao-da-transmissao-siget",
-      "status": 200,
-      "finalUrl": "https://dadosabertos.aneel.gov.br/dataset/sistema-de-gestao-da-transmissao-siget",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "AbortError:This operation was aborted",
+        "TypeError:fetch failed"
       ]
     },
     {
       "type": "dataset",
       "id": "aneel-samp",
       "url": "https://dadosabertos.aneel.gov.br/dataset/samp",
-      "status": 200,
-      "finalUrl": "https://dadosabertos.aneel.gov.br/dataset/samp",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "AbortError:This operation was aborted",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -2611,11 +2632,13 @@
       "type": "dataset",
       "id": "aneel-bdgd",
       "url": "https://dadosabertos.aneel.gov.br/dataset/base-de-dados-geografica-da-distribuidora-bdgd",
-      "status": 200,
-      "finalUrl": "https://dadosabertos.aneel.gov.br/dataset/base-de-dados-geografica-da-distribuidora-bdgd",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "AbortError:This operation was aborted",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -3584,6 +3607,7 @@
       "finalUrl": "https://www.gov.br/mdh/pt-br/ondh/dados-e-estudos",
       "class": "ok",
       "attempts": [
+        "TypeError:fetch failed",
         200
       ]
     },
@@ -4064,11 +4088,11 @@
       "type": "source",
       "id": "The Open Notebook",
       "url": "https://www.theopennotebook.com/",
-      "status": 200,
+      "status": 403,
       "finalUrl": "https://www.theopennotebook.com/",
-      "class": "ok",
+      "class": "blocked",
       "attempts": [
-        200
+        403
       ]
     },
     {
@@ -4407,6 +4431,17 @@
       "url": "https://journaliststudio.google.com/",
       "status": 200,
       "finalUrl": "https://journaliststudio.google.com/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "okbr-querido-diario-tecnologias-educacao",
+      "url": "https://ok.org.br/projetos/qd-tecnologias-educacao/",
+      "status": 200,
+      "finalUrl": "https://ok.org.br/projetos/qd-tecnologias-educacao/",
       "class": "ok",
       "attempts": [
         200
