@@ -30,6 +30,7 @@ function extract(html,base,name){
    if(name==='Pulitzer Center'&&!(['pulitzercenter.org','www.pulitzercenter.org'].includes(host)&&(/\/opportunities\/(?:reporting-grants-fellowships|grants-fellowships)\/[^/]+\/?$/.test(path)||/\/grants-fellowships\/[^/]+\/?$/.test(path))))continue;
    const isGfmdDetail=name==='GFMD funding'&&host==='gfmd.info'&&/^\/fundings\/[^/]+\/?$/.test(path);
    if(!isRelevant(title)&&!(isGfmdDetail&&title.length>=12)&&!(['NewsFuel','Pulitzer Center'].includes(name)&&title.length>=12))continue;
+   if(/^(?:home|about(?: us)?|contact|sign in|log in|register|subscribe|privacy|terms|browse|view all|learn more|read more|next|previous)$/i.test(title))continue;
    if(/(?:^|\.)(?:linkedin\.com|facebook\.com|instagram\.com|x\.com|twitter\.com)$/.test(host))continue;
    if(seen.has(url))continue;
    seen.add(url);leads.push({url,title,category:'uncategorized',sourceName:name,editorialStatus:'unverified'});
@@ -43,7 +44,20 @@ async function collect(fetcher=fetch){
  for(const source of sources){
   try{
    const response=await fetcher(source.url,{signal:AbortSignal.timeout(12000),headers:{'user-agent':'Radar-PLOT-Discovery/1.0','accept':'text/html'}});
-   if(!response.ok)throw Error('HTTP '+response.status);
+   if(!response.ok){
+    if(source.fallback){
+     try{
+      const alternate=await fetcher(source.fallback,{signal:AbortSignal.timeout(12000),headers:{'user-agent':'Radar-PLOT-Discovery/1.0','accept':'text/html'}});
+      if(alternate.ok){
+       const found=extract((await alternate.text()).slice(0,1200000),alternate.url||source.fallback,source.name);
+       leads.push(...found);
+       health.push({source:source.name,status:'fallback',items:found.length,coverageStatus:found.length?'partial':'no-relevant-static-links',fallbackStatus:'primary-http-'+response.status});
+       continue;
+      }
+     }catch{}
+    }
+    throw Error('HTTP '+response.status);
+   }
    const html=(await response.text()).slice(0,1200000);
    let found=extract(html,response.url||source.url,source.name);
    let fallbackStatus='not-needed';
