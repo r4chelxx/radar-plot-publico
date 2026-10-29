@@ -26,7 +26,7 @@ function extract(html,base,name){
    if(name==='Grants for Journalists'&&['grantsforjournalists.com','www.grantsforjournalists.com'].includes(host)&&['/grants-for-journalists','/all-grants','/grants-for-journalists/','/all-grants/'].includes(path))continue;
    const isOpportunityDeskDetail=name==='Opportunity Desk'&&['opportunitydesk.org','www.opportunitydesk.org'].includes(host)&&/^\/20\d{2}\/\d{2}\/\d{2}\/[^/]+\/?$/.test(path);
    if(name==='Opportunity Desk'&&!isOpportunityDeskDetail)continue;
-   if(name==='NewsFuel'&&!(['newsfuel.org','www.newsfuel.org'].includes(host)&&/^\/opportunities?\/[^/]+\/?$/.test(path)))continue;
+   if(name==='NewsFuel'&&!(['newsfuel.org','www.newsfuel.org'].includes(host)&&/^\/opportunit(?:y|ies)\/[^/]+\/?$/.test(path)))continue;
    if(name==='Pulitzer Center'&&!(['pulitzercenter.org','www.pulitzercenter.org'].includes(host)&&(/\/opportunities\/(?:reporting-grants-fellowships|grants-fellowships)\/[^/]+\/?$/.test(path)||/\/grants-fellowships\/[^/]+\/?$/.test(path))))continue;
    const isGfmdDetail=name==='GFMD funding'&&host==='gfmd.info'&&/^\/fundings\/[^/]+\/?$/.test(path);
    if(!isRelevant(title)&&!(isGfmdDetail&&title.length>=12)&&!(['NewsFuel','Pulitzer Center'].includes(name)&&title.length>=12))continue;
