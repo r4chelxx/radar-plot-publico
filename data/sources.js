@@ -1,6 +1,30 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.sources=[
 {
+  "name": "NewsFuel — financiamento para jornalismo",
+  "url": "https://newsfuel.org/opportunities",
+  "type": "Diretório de grants, fellowships e financiadores para jornalismo",
+  "scope": "América do Norte e internacional conforme edital",
+  "role": "Descoberta diária de oportunidades individuais; preservar arquivo, prazo e elegibilidade; verificar sempre o edital oficial",
+  "priority": "Alta",
+  "cadence": "diária",
+  "category": "oportunidades/financiamento",
+  "lastChecked": "2026-10-29",
+  "checkStatus": "fonte oficial consultada; extração diária a validar"
+},
+{
+  "name": "Pulitzer Center — Grants & Fellowships",
+  "url": "https://pulitzercenter.org/opportunities/grants-fellowships",
+  "type": "Página institucional de grants e fellowships jornalísticos",
+  "scope": "Global, conforme programa",
+  "role": "Monitorar diariamente programas e chamadas individuais; distinguir grants, fellowships e apoios a organizações; confirmar datas na página específica",
+  "priority": "Alta",
+  "cadence": "diária",
+  "category": "oportunidades/jornalismo",
+  "lastChecked": "2026-10-29",
+  "checkStatus": "fonte oficial consultada; extração diária a validar"
+},
+{
   "name": "Opportunity Desk — oportunidades globais",
   "url": "https://opportunitydesk.org/latest-posts/",
   "type": "Agregador internacional de bolsas, grants, fellowships, prêmios e formação",
