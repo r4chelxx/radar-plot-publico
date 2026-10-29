@@ -113,3 +113,14 @@ test('NewsFuel accepts real singular /opportunity/ detail paths',()=>{
  assert.equal(leads.length,1);
  assert.equal(leads[0].url,'https://newsfuel.org/opportunity/data-journalism-grants');
 });
+
+test('GFMD tries official fellowship taxonomy only after empty primary and fallback',async()=>{
+ const calls=[];
+ const result=await collect(async url=>{
+  calls.push(url);
+  return {ok:true,status:200,url,text:async()=>url.includes('/type_fund/fellowship/')?'<a href="/fundings/international-nieman-fellowship/">International Nieman Fellowship</a>':'<a href="/about">About us</a>'};
+ });
+ assert(calls.includes('https://gfmd.info/type_fund/fellowship/'));
+ assert.equal(result.health[1].fallbackStatus,'official-fellowship-taxonomy');
+ assert(result.leads.some(x=>x.url==='https://gfmd.info/fundings/international-nieman-fellowship'));
+});
