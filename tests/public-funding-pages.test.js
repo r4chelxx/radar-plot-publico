@@ -96,3 +96,11 @@ test('fallback records primary HTTP error while preserving candidate provenance'
  assert.equal(result.health[2].primaryHttpStatus,403);
  assert.equal(result.health[2].needsReview,false);
 });
+
+test('diagnoses accessible HTML with no static links separately from irrelevant links',async()=>{
+ const result=await collect(async url=>({ok:true,status:200,url,text:async()=>url.includes('newsfuel.org')?'<div id="app"></div>':'<a href="/about">About us</a>'}));
+ assert.equal(result.health[3].source,'NewsFuel');
+ assert.equal(result.health[3].extractionStatus,'no-static-links');
+ assert.equal(result.health[3].staticAnchorCount,0);
+ assert.equal(result.health[0].extractionStatus,'no-relevant-static-links');
+});

@@ -51,7 +51,7 @@ async function collect(fetcher=fetch){
       if(alternate.ok){
        const found=extract((await alternate.text()).slice(0,1200000),alternate.url||source.fallback,source.name);
        leads.push(...found);
-       health.push({source:source.name,status:'fallback',items:found.length,coverageStatus:found.length?'partial':'no-relevant-static-links',fallbackStatus:'primary-http-'+response.status,primaryHttpStatus:response.status,needsReview:found.length===0});
+       health.push({source:source.name,status:'fallback',items:found.length,coverageStatus:found.length?'partial':'no-relevant-static-links',fallbackStatus:'primary-http-'+response.status,primaryHttpStatus:response.status,extractionStatus:found.length?'candidate-links':'fallback-no-relevant-static-links',needsReview:found.length===0});
        continue;
       }
      }catch{}
@@ -60,6 +60,8 @@ async function collect(fetcher=fetch){
    }
    const html=(await response.text()).slice(0,1200000);
    let found=extract(html,response.url||source.url,source.name);
+   const staticAnchorCount=[...html.matchAll(/<a\b[^>]*\bhref\s*=/gi)].length;
+   const primaryExtractionStatus=found.length?'candidate-links':staticAnchorCount?'no-relevant-static-links':'no-static-links';
    let fallbackStatus='not-needed';
    // A page may contain generic relevant links but no individual GFMD funding detail.
    const hasGfmdDetail=found.some(item=>{
@@ -76,7 +78,7 @@ async function collect(fetcher=fetch){
     }catch(error){fallbackStatus='error: '+String(error.message||error).slice(0,100)}
    }
    leads.push(...found);
-   health.push({source:source.name,status:'ok',items:found.length,coverageStatus:found.length?'partial':'no-relevant-static-links',fallbackStatus,needsReview:found.length===0});
+   health.push({source:source.name,status:'ok',items:found.length,coverageStatus:found.length?'partial':'no-relevant-static-links',fallbackStatus,extractionStatus:found.length?'candidate-links':primaryExtractionStatus,staticAnchorCount,needsReview:found.length===0});
   }catch(e){health.push({source:source.name,status:'error',items:0,coverageStatus:'partial',reason:String(e.message||e).slice(0,160),needsReview:true})}
  }
  return {source:'web',leads,health};
