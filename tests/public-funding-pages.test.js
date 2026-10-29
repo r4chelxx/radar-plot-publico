@@ -27,7 +27,7 @@ test('GFMD fallback is attempted when archive has no relevant static links',asyn
   requested.push(url);
   return {ok:true,status:200,url,text:async()=>url.endsWith('/find-funding/')?'<a href="/fundings/international-nieman-2027/">International Nieman Programme 2027</a>':'<a href="/about/">About us</a>'};
  });
- assert.equal(requested.length,3);
+ assert.equal(requested.length,5);
  assert.equal(result.leads.length,1);
  assert.equal(result.health[1].fallbackStatus,'found-candidates');
 });
@@ -45,7 +45,7 @@ test('GFMD fallback runs when archive has only generic relevant links',async()=>
   requested.push(url);
   return {ok:true,status:200,url,text:async()=>url.endsWith('/find-funding/')?'<a href="/fundings/specific-reporting-2027/">Specific Reporting Programme 2027</a>':'<a href="/about/">Journalism funding information and resources</a>'};
  });
- assert.equal(requested.length,3);
+ assert.equal(requested.length,5);
  assert.equal(result.leads.filter(x=>x.url==='https://gfmd.info/fundings/specific-reporting-2027').length,1);
  assert.equal(result.health[1].fallbackStatus,'found-candidates');
 });
