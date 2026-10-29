@@ -85,3 +85,14 @@ test('generic navigation on detail URLs is not treated as an opportunity',()=>{
  const leads=extract('<a href="/opportunities/123">Learn more</a><a href="/opportunities/124">Investigative Reporting Grant 2027</a>','https://newsfuel.org/opportunities','NewsFuel');
  assert.equal(leads.length,1);
 });
+
+test('empty accessible sources are flagged for editorial follow-up',async()=>{
+ const result=await collect(async url=>({ok:true,status:200,url,text:async()=>'<a href="/about">About us</a>'}));
+ assert.equal(result.health.length,5);
+ assert.ok(result.health.every(x=>x.items===0&&x.needsReview===true));
+});
+test('fallback records primary HTTP error while preserving candidate provenance',async()=>{
+ const result=await collect(async url=>({ok:!url.endsWith('/latest-posts/'),status:url.endsWith('/latest-posts/')?403:200,url,text:async()=>url.includes('category/fellowships')?'<a href="/2026/10/28/journalism-fellowship-2027/">Journalism Fellowship 2027</a>':'<a href="/about">About us</a>'}));
+ assert.equal(result.health[2].primaryHttpStatus,403);
+ assert.equal(result.health[2].needsReview,false);
+});
