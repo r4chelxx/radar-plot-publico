@@ -5,7 +5,8 @@ const {canonical}=require('./lead-identity');
 const {isRelevant}=require('./public-feed-relevance');
 const sources=[
  {name:'Grants for Journalists',url:'https://grantsforjournalists.com/grants-for-journalists/'},
- {name:'GFMD funding',url:'https://gfmd.info/fundings/',fallback:'https://gfmd.info/find-funding/'}
+ {name:'GFMD funding',url:'https://gfmd.info/fundings/',fallback:'https://gfmd.info/find-funding/'},
+ {name:'Opportunity Desk',url:'https://opportunitydesk.org/latest-posts/',fallback:'https://opportunitydesk.org/category/fellowships/'}
 ];
 function decode(s){return String(s||'').replace(/<[^>]*>/g,' ').replace(/&amp;/g,'&').replace(/&quot;/g,'"').replace(/&#39;/g,"'").replace(/\s+/g,' ').trim()}
 function extract(html,base,name){
@@ -21,6 +22,8 @@ function extract(html,base,name){
    if(name==='GFMD funding'&&host==='gfmd.info'&&/^\/(?:fundings|find-funding)\/?$/.test(path))continue;
    // Category/directory navigation is not an individual funding opportunity.
    if(name==='Grants for Journalists'&&['grantsforjournalists.com','www.grantsforjournalists.com'].includes(host)&&['/grants-for-journalists','/all-grants','/grants-for-journalists/','/all-grants/'].includes(path))continue;
+   const isOpportunityDeskDetail=name==='Opportunity Desk'&&['opportunitydesk.org','www.opportunitydesk.org'].includes(host)&&/^\/20\d{2}\/\d{2}\/\d{2}\/[^/]+\/?$/.test(path);
+   if(name==='Opportunity Desk'&&!isOpportunityDeskDetail)continue;
    const isGfmdDetail=name==='GFMD funding'&&host==='gfmd.info'&&/^\/fundings\/[^/]+\/?$/.test(path);
    if(!isRelevant(title)&&!(isGfmdDetail&&title.length>=12))continue;
    if(/(?:^|\.)(?:linkedin\.com|facebook\.com|instagram\.com|x\.com|twitter\.com)$/.test(host))continue;
@@ -45,7 +48,7 @@ async function collect(fetcher=fetch){
     const u=new URL(item.url);
     return u.hostname==='gfmd.info'&&new RegExp('^/fundings/[^/]+/?$').test(u.pathname);
    });
-   if(source.fallback&&!hasGfmdDetail){
+   if(source.fallback&&(source.name==='Opportunity Desk'?found.length===0:!hasGfmdDetail)){
     try{
      const alternate=await fetcher(source.fallback,{signal:AbortSignal.timeout(12000),headers:{'user-agent':'Radar-PLOT-Discovery/1.0','accept':'text/html'}});
      if(!alternate.ok)throw Error('HTTP '+alternate.status);
