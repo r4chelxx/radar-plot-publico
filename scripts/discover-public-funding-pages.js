@@ -6,7 +6,9 @@ const {isRelevant}=require('./public-feed-relevance');
 const sources=[
  {name:'Grants for Journalists',url:'https://grantsforjournalists.com/grants-for-journalists/'},
  {name:'GFMD funding',url:'https://gfmd.info/fundings/',fallback:'https://gfmd.info/find-funding/'},
- {name:'Opportunity Desk',url:'https://opportunitydesk.org/latest-posts/',fallback:'https://opportunitydesk.org/category/fellowships/'}
+ {name:'Opportunity Desk',url:'https://opportunitydesk.org/latest-posts/',fallback:'https://opportunitydesk.org/category/fellowships/'},
+ {name:'NewsFuel',url:'https://newsfuel.org/opportunities'},
+ {name:'Pulitzer Center',url:'https://pulitzercenter.org/opportunities/grants-fellowships'}
 ];
 function decode(s){return String(s||'').replace(/<[^>]*>/g,' ').replace(/&amp;/g,'&').replace(/&quot;/g,'"').replace(/&#39;/g,"'").replace(/\s+/g,' ').trim()}
 function extract(html,base,name){
@@ -24,8 +26,10 @@ function extract(html,base,name){
    if(name==='Grants for Journalists'&&['grantsforjournalists.com','www.grantsforjournalists.com'].includes(host)&&['/grants-for-journalists','/all-grants','/grants-for-journalists/','/all-grants/'].includes(path))continue;
    const isOpportunityDeskDetail=name==='Opportunity Desk'&&['opportunitydesk.org','www.opportunitydesk.org'].includes(host)&&/^\/20\d{2}\/\d{2}\/\d{2}\/[^/]+\/?$/.test(path);
    if(name==='Opportunity Desk'&&!isOpportunityDeskDetail)continue;
+   if(name==='NewsFuel'&&!(['newsfuel.org','www.newsfuel.org'].includes(host)&&/^\/opportunities?\/[^/]+\/?$/.test(path)))continue;
+   if(name==='Pulitzer Center'&&!(['pulitzercenter.org','www.pulitzercenter.org'].includes(host)&&(/\/opportunities\/(?:reporting-grants-fellowships|grants-fellowships)\/[^/]+\/?$/.test(path)||/\/grants-fellowships\/[^/]+\/?$/.test(path))))continue;
    const isGfmdDetail=name==='GFMD funding'&&host==='gfmd.info'&&/^\/fundings\/[^/]+\/?$/.test(path);
-   if(!isRelevant(title)&&!(isGfmdDetail&&title.length>=12))continue;
+   if(!isRelevant(title)&&!(isGfmdDetail&&title.length>=12)&&!(['NewsFuel','Pulitzer Center'].includes(name)&&title.length>=12))continue;
    if(/(?:^|\.)(?:linkedin\.com|facebook\.com|instagram\.com|x\.com|twitter\.com)$/.test(host))continue;
    if(seen.has(url))continue;
    seen.add(url);leads.push({url,title,category:'uncategorized',sourceName:name,editorialStatus:'unverified'});
