@@ -26,3 +26,6 @@ console.log(JSON.stringify({syntax:'ok',uniqueSources:sources.length,dailyUnique
 const summary=fs.readFileSync('scripts/write-run-summary.js','utf8');
 for(const indicator of ['Fontes diárias esperadas','Fontes diárias consultadas','Fontes diárias acessíveis','Fontes diárias com falha','Fontes com links temáticos extraídos','Fontes acessíveis sem links temáticos','Fontes bloqueadas ou com falha de rede'])assert.ok(summary.includes(indicator),'Missing source health indicator: '+indicator);
 assert.match(summary,/sourceDiagnostics/);
+
+assert.match(source,/const leads=\(response\.ok\?links:\[\]\)\.filter/,'HTTP error pages must not contribute discovery leads');
+assert.match(source,/http-error-page/,'HTTP error pages must be explicitly diagnosed');
