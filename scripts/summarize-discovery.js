@@ -10,10 +10,14 @@ const lines=['## Radar PLOT — Descoberta diária','',
  '| Links já no catálogo | '+r.totals.catalogMatches+' |',
  '| Revisão editorial pendente | '+r.totals.needsReview+' |','','### Fontes com falha'];
 lines.push('','### Cobertura por família de fontes');
-for(const [name,x] of Object.entries(r.coverage||{}))lines.push('- '+name+': '+x.healthy+'/'+x.total+' fontes acessíveis; '+x.candidates+' links coletados');
+for(const [name,x] of Object.entries(r.coverage||{}))lines.push('- '+name+': '+x.healthy+'/'+x.total+' fontes acessíveis ('+(x.recovered||0)+' recuperadas); '+x.candidates+' links coletados');
 lines.push('','**Estado da coleta:** '+(r.overallStatus||'unknown'));
 for(const warning of r.warnings||[])lines.push('- Atenção: '+warning);
-const failures=r.sources.filter(x=>x.status!=='ok');
+const failures=r.sources.filter(x=>x.status!=='ok'&&x.status!=='fallback');
+const recovered=r.sources.filter(x=>x.status==='fallback');
+lines.push('','### Fontes recuperadas por alternativa oficial');
+if(!recovered.length)lines.push('Nenhuma recuperação necessária.');
+else for(const item of recovered)lines.push('- '+item.name+': '+item.candidates+' candidatos; origem primária indisponível.');
 if(!failures.length)lines.push('Nenhuma falha identificada.');
 else for(const item of failures)lines.push('- '+item.name+': '+(item.error||'falha desconhecida').replace(/[\r\n]/g,' '));
 lines.push('','**Observação:** links candidatos não são publicados sem verificação editorial. Gmail não é coletado por este workflow; LinkedIn depende de arquivo público de entrada previamente revisado.');
