@@ -107,3 +107,9 @@ test('diagnoses accessible HTML with no static links separately from irrelevant 
  assert.equal(result.health[0].extractionStatus,'no-relevant-static-links');
  assert.equal(result.health[0].followUp,'review-link-structure-and-relevance');
 });
+
+test('NewsFuel accepts real singular /opportunity/ detail paths',()=>{
+ const leads=extract('<a href="/opportunity/data-journalism-grants/">Data Journalism Grants</a><a href="/opportunities">Browse all opportunities</a>','https://newsfuel.org/opportunities','NewsFuel');
+ assert.equal(leads.length,1);
+ assert.equal(leads[0].url,'https://newsfuel.org/opportunity/data-journalism-grants');
+});
