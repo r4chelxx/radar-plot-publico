@@ -95,6 +95,7 @@ test('fallback records primary HTTP error while preserving candidate provenance'
  const result=await collect(async url=>({ok:!url.endsWith('/latest-posts/'),status:url.endsWith('/latest-posts/')?403:200,url,text:async()=>url.includes('category/fellowships')?'<a href="/2026/10/28/journalism-fellowship-2027/">Journalism Fellowship 2027</a>':'<a href="/about">About us</a>'}));
  assert.equal(result.health[2].primaryHttpStatus,403);
  assert.equal(result.health[2].needsReview,false);
+ assert.equal(result.health[2].followUp,null);
 });
 
 test('diagnoses accessible HTML with no static links separately from irrelevant links',async()=>{
@@ -102,5 +103,7 @@ test('diagnoses accessible HTML with no static links separately from irrelevant 
  assert.equal(result.health[3].source,'NewsFuel');
  assert.equal(result.health[3].extractionStatus,'no-static-links');
  assert.equal(result.health[3].staticAnchorCount,0);
+ assert.equal(result.health[3].followUp,'review-javascript-rendering-or-official-feed');
  assert.equal(result.health[0].extractionStatus,'no-relevant-static-links');
+ assert.equal(result.health[0].followUp,'review-link-structure-and-relevance');
 });
