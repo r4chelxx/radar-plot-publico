@@ -1,6 +1,42 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.sources=[
 {
+  "name": "Egab — pitches e comissionamento editorial",
+  "url": "https://www.egab.co/journalists",
+  "type": "Plataforma de envio e avaliação de pitches para jornalistas do Sul Global",
+  "scope": "Sul Global",
+  "role": "Acompanhar condições de submissão e eventuais chamadas específicas; aprovação de pitch não garante comissão; não classificar a plataforma permanente como grant aberto",
+  "priority": "Média",
+  "cadence": "semanal",
+  "category": "oportunidades/pitches",
+  "lastChecked": "2026-10-29",
+  "checkStatus": "referência do comparativo; chamadas individuais exigem verificação"
+},
+{
+  "name": "ProPublica — colaboração editorial",
+  "url": "https://www.propublica.org/collaborate",
+  "type": "Programas e parcerias de colaboração jornalística",
+  "scope": "Estados Unidos e outras regiões conforme programa",
+  "role": "Monitorar chamadas e programas específicos; diferenciar parceria, apoio editorial e financiamento; página institucional não é edital individual",
+  "priority": "Média",
+  "cadence": "semanal",
+  "category": "oportunidades/colaboração",
+  "lastChecked": "2026-10-29",
+  "checkStatus": "referência do comparativo; chamadas individuais exigem verificação"
+},
+{
+  "name": "J-Lab — recursos para jornalismo comunitário",
+  "url": "https://j-lab.org/tools/",
+  "type": "Diretório de recursos, ferramentas e referências a grants de mídia",
+  "scope": "Internacional conforme oportunidade",
+  "role": "Revisar oportunidades de formação, inovação e financiamento; não tratar diretório de ferramentas como chamada aberta",
+  "priority": "Média",
+  "cadence": "quinzenal",
+  "category": "oportunidades/capacitação",
+  "lastChecked": "2026-10-29",
+  "checkStatus": "referência do comparativo; chamadas individuais exigem verificação"
+},
+{
   "name": "NewsFuel — financiamento para jornalismo",
   "url": "https://newsfuel.org/opportunities",
   "type": "Diretório de grants, fellowships e financiadores para jornalismo",
