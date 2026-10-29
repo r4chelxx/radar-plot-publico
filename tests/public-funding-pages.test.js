@@ -59,7 +59,7 @@ test('Opportunity Desk accepts individual dated opportunity pages but excludes d
 });
 test('Opportunity Desk failure is reported separately and does not block other sources',async()=>{
  const result=await collect(async url=>({ok:!url.includes('opportunitydesk.org'),status:url.includes('opportunitydesk.org')?403:200,url,text:async()=>'<a href="/about/">About</a>'}));
- assert.equal(result.health.length,3);
+ assert.equal(result.health.length,5);
  assert.equal(result.health[2].source,'Opportunity Desk');
  assert.equal(result.health[2].status,'error');
 });
