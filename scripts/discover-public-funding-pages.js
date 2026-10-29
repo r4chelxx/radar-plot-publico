@@ -51,7 +51,7 @@ async function collect(fetcher=fetch){
       if(alternate.ok){
        const found=extract((await alternate.text()).slice(0,1200000),alternate.url||source.fallback,source.name);
        leads.push(...found);
-       health.push({source:source.name,status:'fallback',items:found.length,coverageStatus:found.length?'partial':'no-relevant-static-links',fallbackStatus:'primary-http-'+response.status});
+       health.push({source:source.name,status:'fallback',items:found.length,coverageStatus:found.length?'partial':'no-relevant-static-links',fallbackStatus:'primary-http-'+response.status,primaryHttpStatus:response.status,needsReview:found.length===0});
        continue;
       }
      }catch{}
@@ -76,8 +76,8 @@ async function collect(fetcher=fetch){
     }catch(error){fallbackStatus='error: '+String(error.message||error).slice(0,100)}
    }
    leads.push(...found);
-   health.push({source:source.name,status:'ok',items:found.length,coverageStatus:found.length?'partial':'no-relevant-static-links',fallbackStatus});
-  }catch(e){health.push({source:source.name,status:'error',items:0,coverageStatus:'partial',reason:String(e.message||e).slice(0,160)})}
+   health.push({source:source.name,status:'ok',items:found.length,coverageStatus:found.length?'partial':'no-relevant-static-links',fallbackStatus,needsReview:found.length===0});
+  }catch(e){health.push({source:source.name,status:'error',items:0,coverageStatus:'partial',reason:String(e.message||e).slice(0,160),needsReview:true})}
  }
  return {source:'web',leads,health};
 }
@@ -86,7 +86,7 @@ if(require.main===module){
   fs.mkdirSync('intake',{recursive:true});
   fs.writeFileSync('intake/public-funding-pages.json',JSON.stringify({source:result.source,leads:result.leads},null,2)+'\n');
   fs.writeFileSync('intake/public-funding-health.json',JSON.stringify({generatedAt:new Date().toISOString(),health:result.health},null,2)+'\n');
-  console.log(JSON.stringify({candidates:result.leads.length,health:result.health}));
+  console.log(JSON.stringify({candidates:result.leads.length,productiveSources:result.health.filter(x=>x.items>0).length,emptySources:result.health.filter(x=>x.items===0&&x.status!=='error').map(x=>x.source),failedSources:result.health.filter(x=>x.status==='error').map(x=>({source:x.source,reason:x.reason})),health:result.health}));
  }).catch(e=>{console.error(e);process.exitCode=1});
 }
 module.exports={extract,collect};
