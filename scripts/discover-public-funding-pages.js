@@ -5,7 +5,7 @@ const {canonical}=require('./lead-identity');
 const {isRelevant}=require('./public-feed-relevance');
 const sources=[
  {name:'Grants for Journalists',url:'https://grantsforjournalists.com/grants-for-journalists/'},
- {name:'GFMD funding',url:'https://gfmd.info/fundings/',fallback:'https://gfmd.info/find-funding/'},
+ {name:'GFMD funding',url:'https://gfmd.info/fundings/',fallback:'https://gfmd.info/find-funding/',additionalFallback:'https://gfmd.info/type_fund/fellowship/'},
  {name:'Opportunity Desk',url:'https://opportunitydesk.org/latest-posts/',fallback:'https://opportunitydesk.org/category/fellowships/'},
  {name:'NewsFuel',url:'https://newsfuel.org/opportunities'},
  {name:'Pulitzer Center',url:'https://pulitzercenter.org/opportunities/grants-fellowships'}
@@ -77,6 +77,16 @@ async function collect(fetcher=fetch){
      found=[...new Map([...found,...alternateLeads].map(item=>[item.url,item])).values()];
      fallbackStatus=alternateLeads.length?'found-candidates':'no-relevant-static-links';
     }catch(error){fallbackStatus='error: '+String(error.message||error).slice(0,100)}
+   }
+   if(source.additionalFallback&&!found.length){
+    try{
+     const extra=await fetcher(source.additionalFallback,{signal:AbortSignal.timeout(12000),headers:{'user-agent':'Radar-PLOT-Discovery/1.0','accept':'text/html'}});
+     if(extra.ok){
+      const additionalLeads=extract((await extra.text()).slice(0,1200000),extra.url||source.additionalFallback,source.name);
+      found=[...new Map([...found,...additionalLeads].map(item=>[item.url,item])).values()];
+      fallbackStatus=additionalLeads.length?'official-fellowship-taxonomy':'official-fellowship-taxonomy-empty';
+     }
+    }catch(error){fallbackStatus='official-fellowship-taxonomy-error: '+String(error.message||error).slice(0,80)}
    }
    leads.push(...found);
    health.push({source:source.name,status:'ok',items:found.length,coverageStatus:found.length?'partial':'no-relevant-static-links',fallbackStatus,extractionStatus:found.length?'candidate-links':primaryExtractionStatus,staticAnchorCount,followUp:found.length?null:followUp,needsReview:found.length===0});
