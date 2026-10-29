@@ -1,10 +1,10 @@
 {
-  "checkedAt": "2026-10-29T17:28:49.824Z",
+  "checkedAt": "2026-10-29T20:10:25.164Z",
   "policy": "404/410 and ArcGIS application errors within HTTP 200 become broken only after appearing as suspect or broken in the previous audit; blocked and network results are inconclusive",
   "counts": {
-    "ok": 368,
-    "blocked": 46,
-    "network": 54
+    "ok": 400,
+    "blocked": 42,
+    "network": 28
   },
   "results": [
     {
@@ -132,11 +132,11 @@
       "type": "source",
       "id": "The Open Notebook — Early-Career Fellowship",
       "url": "https://www.theopennotebook.com/early-career-fellowship-program/",
-      "status": 403,
+      "status": 200,
       "finalUrl": "https://www.theopennotebook.com/early-career-fellowship-program/",
-      "class": "blocked",
+      "class": "ok",
       "attempts": [
-        403
+        200
       ]
     },
     {
@@ -231,13 +231,11 @@
       "type": "opportunity",
       "id": "almt-premio-jornalismo-2026",
       "url": "https://diariooficial.al.mt.gov.br/publicacoes/36040/",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://diariooficial.al.mt.gov.br/publicacoes/36040/",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -1489,11 +1487,11 @@
       "type": "source",
       "id": "Transferegov.br — Dados Abertos",
       "url": "https://api-publica.transferegov.gestao.gov.br/",
-      "status": 403,
+      "status": 200,
       "finalUrl": "https://api-publica.transferegov.gestao.gov.br/",
-      "class": "blocked",
+      "class": "ok",
       "attempts": [
-        403
+        200
       ]
     },
     {
@@ -1533,11 +1531,11 @@
       "type": "source",
       "id": "Ibama — Áreas Embargadas",
       "url": "https://dadosabertos.ibama.gov.br/dataset/fiscalizacao-termo-de-embargo",
-      "status": 403,
+      "status": 200,
       "finalUrl": "https://dadosabertos.ibama.gov.br/dataset/fiscalizacao-termo-de-embargo",
-      "class": "blocked",
+      "class": "ok",
       "attempts": [
-        403
+        200
       ]
     },
     {
@@ -1735,52 +1733,44 @@
       "type": "dataset",
       "id": "sei-geoportal-rest",
       "url": "https://map.geo.sei.ba.gov.br/arcgis/rest/services",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://map.geo.sei.ba.gov.br/arcgis/rest/services",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
       "type": "dataset",
       "id": "sei-regionalizacao",
       "url": "https://map.geo.sei.ba.gov.br/arcgis/rest/services/servicos_sei/REGIONALIZACAO_VIGENTE/FeatureServer",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://map.geo.sei.ba.gov.br/arcgis/rest/services/servicos_sei/REGIONALIZACAO_VIGENTE/FeatureServer?f=json",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
       "type": "dataset",
       "id": "sei-localidades",
       "url": "https://map.geo.sei.ba.gov.br/arcgis/rest/services/servicos_sei/LOCALIDADE_BAHIA/MapServer",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://map.geo.sei.ba.gov.br/arcgis/rest/services/servicos_sei/LOCALIDADE_BAHIA/MapServer?f=json",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
       "type": "dataset",
       "id": "sei-divisao-municipal",
       "url": "https://map.geo.sei.ba.gov.br/arcgis/rest/services/servicos_sei/DPA_A_100K_VIGENTE_GCS_SIR_SEI/FeatureServer/0",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://map.geo.sei.ba.gov.br/arcgis/rest/services/servicos_sei/DPA_A_100K_VIGENTE_GCS_SIR_SEI/FeatureServer/0?f=json",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -1811,39 +1801,33 @@
       "type": "dataset",
       "id": "sspba-estatisticas",
       "url": "https://www.ba.gov.br/ssp/publicacoes",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://www.ba.gov.br/ssp/publicacoes",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
       "type": "dataset",
       "id": "sspba-dados-abertos",
       "url": "https://www.ba.gov.br/ssp/dados-abertos",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://www.ba.gov.br/ssp/dados-abertos",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
       "type": "dataset",
       "id": "aneel",
       "url": "https://dadosabertos.aneel.gov.br/",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://dadosabertos.aneel.gov.br/",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -1960,13 +1944,11 @@
       "type": "dataset",
       "id": "aneel-emergencias",
       "url": "https://dadosabertos.aneel.gov.br/dataset/ocorrencias-emergenciais-nas-redes-de-distribuicao",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://dadosabertos.aneel.gov.br/dataset/ocorrencias-emergenciais-nas-redes-de-distribuicao",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -2006,26 +1988,22 @@
       "type": "dataset",
       "id": "inema-geobahia",
       "url": "https://www.ba.gov.br/inema/servicos/dados-geoespaciais",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://www.ba.gov.br/inema/servicos/dados-geoespaciais",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
       "type": "dataset",
       "id": "inema-atos-outorga",
       "url": "https://www.ba.gov.br/inema/atende/outorga",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://www.ba.gov.br/inema/atende/outorga",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -2058,26 +2036,22 @@
       "type": "dataset",
       "id": "tceba-transparencia",
       "url": "https://www.tce.ba.gov.br/",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://www.tce.ba.gov.br/",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
       "type": "dataset",
       "id": "sesab-obitos",
       "url": "https://www.saude.ba.gov.br/suvisa/vigilancia-epidemiologica/",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://www.ba.gov.br/saude/suvisa/vigilancia-epidemiologica",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -2174,13 +2148,11 @@
       "type": "dataset",
       "id": "sigeduc-escolas-ba",
       "url": "https://sigeduc.educacao.ba.gov.br/sigeduc/public/transparencia/pages/consulta/relatorio_escolas/relEscolasEtapaModalidadeAnalitico.jsf",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://sigeduc.educacao.ba.gov.br/sigeduc/public/transparencia/pages/consulta/relatorio_escolas/relEscolasEtapaModalidadeAnalitico.jsf",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -2246,6 +2218,7 @@
       "finalUrl": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/acoes-e-programas/programas-projetos-acoes-obras-e-atividades/estatisticas-trabalho/novo-caged/2026/agosto/pagina-inicial",
       "class": "ok",
       "attempts": [
+        "TypeError:fetch failed",
         200
       ]
     },
@@ -2349,7 +2322,7 @@
       "class": "network",
       "error": "TypeError:fetch failed",
       "attempts": [
-        "AbortError:This operation was aborted",
+        "TypeError:fetch failed",
         "TypeError:fetch failed"
       ]
     },
@@ -2418,17 +2391,6 @@
       "type": "dataset",
       "id": "sesab-mortalidade-materna",
       "url": "https://biobr.saude.ba.gov.br/static/obitomaterno.php",
-      "status": 200,
-      "finalUrl": "https://biobr.saude.ba.gov.br/static/obitomaterno.php",
-      "class": "ok",
-      "attempts": [
-        200
-      ]
-    },
-    {
-      "type": "dataset",
-      "id": "sesab-sinasc-perfil",
-      "url": "https://www.saude.ba.gov.br/",
       "status": null,
       "finalUrl": null,
       "class": "network",
@@ -2436,6 +2398,17 @@
       "attempts": [
         "AbortError:This operation was aborted",
         "TypeError:fetch failed"
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "sesab-sinasc-perfil",
+      "url": "https://www.saude.ba.gov.br/",
+      "status": 200,
+      "finalUrl": "https://www.ba.gov.br/saude/",
+      "class": "ok",
+      "attempts": [
+        200
       ]
     },
     {
@@ -2475,13 +2448,11 @@
       "type": "dataset",
       "id": "aneel-siga",
       "url": "https://dadosabertos.aneel.gov.br/dataset/siga-sistema-de-informacoes-de-geracao-da-aneel",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://dadosabertos.aneel.gov.br/dataset/siga-sistema-de-informacoes-de-geracao-da-aneel",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -2501,39 +2472,33 @@
       "type": "dataset",
       "id": "inema-consulta-processos",
       "url": "https://www.ba.gov.br/inema/banner/consulta-de-processos",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://www.ba.gov.br/inema/banner/consulta-de-processos",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
       "type": "dataset",
       "id": "inema-formularios-outorga",
       "url": "https://www.ba.gov.br/inema/atende/formularios/outorga",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://www.ba.gov.br/inema/atende/formularios/outorga",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
       "type": "dataset",
       "id": "inema-normas-licenciamento",
       "url": "https://www.ba.gov.br/inema/legislacao/normas-tecnicas-e-portarias",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://www.ba.gov.br/inema/legislacao/normas-tecnicas-e-portarias",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -2564,65 +2529,55 @@
       "type": "dataset",
       "id": "apeb-aforamentos-codices",
       "url": "https://www.ba.gov.br/fpc/arquivo-publico-acervo",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://www.ba.gov.br/fpc/arquivo-publico-acervo",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
       "type": "dataset",
       "id": "aneel-siget",
       "url": "https://dadosabertos.aneel.gov.br/dataset/sistema-de-gestao-da-transmissao-siget",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://dadosabertos.aneel.gov.br/dataset/sistema-de-gestao-da-transmissao-siget",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
       "type": "dataset",
       "id": "aneel-samp",
       "url": "https://dadosabertos.aneel.gov.br/dataset/samp",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://dadosabertos.aneel.gov.br/dataset/samp",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
       "type": "dataset",
       "id": "bahia-sde-incentivos",
       "url": "https://www.ba.gov.br/sde/incentivos",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://www.ba.gov.br/sde/incentivos",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
       "type": "dataset",
       "id": "bahia-tce-renuncia-fiscal",
       "url": "https://www.tce.ba.gov.br/controle-externo/contas-de-governo",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://www.tce.ba.gov.br/controle-externo/contas-de-governo",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -2664,13 +2619,11 @@
       "type": "dataset",
       "id": "aneel-bdgd",
       "url": "https://dadosabertos.aneel.gov.br/dataset/base-de-dados-geografica-da-distribuidora-bdgd",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://dadosabertos.aneel.gov.br/dataset/base-de-dados-geografica-da-distribuidora-bdgd",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -2688,11 +2641,11 @@
       "type": "dataset",
       "id": "ibama-autos-infracao",
       "url": "https://dadosabertos.ibama.gov.br/dataset/fiscalizacao-auto-de-infracao",
-      "status": 403,
+      "status": 200,
       "finalUrl": "https://dadosabertos.ibama.gov.br/dataset/fiscalizacao-auto-de-infracao",
-      "class": "blocked",
+      "class": "ok",
       "attempts": [
-        403
+        200
       ]
     },
     {
@@ -2785,7 +2738,7 @@
       "class": "network",
       "error": "TypeError:fetch failed",
       "attempts": [
-        "AbortError:This operation was aborted",
+        "TypeError:fetch failed",
         "TypeError:fetch failed"
       ]
     },
@@ -2912,6 +2865,28 @@
     },
     {
       "type": "source",
+      "id": "NewsFuel — financiamento para jornalismo",
+      "url": "https://newsfuel.org/opportunities",
+      "status": 200,
+      "finalUrl": "https://newsfuel.org/opportunities",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Pulitzer Center — Grants & Fellowships",
+      "url": "https://pulitzercenter.org/opportunities/grants-fellowships",
+      "status": 403,
+      "finalUrl": "https://pulitzercenter.org/opportunities/grants-fellowships",
+      "class": "blocked",
+      "attempts": [
+        403
+      ]
+    },
+    {
+      "type": "source",
       "id": "Opportunity Desk — oportunidades globais",
       "url": "https://opportunitydesk.org/latest-posts/",
       "status": 403,
@@ -3015,13 +2990,11 @@
       "type": "source",
       "id": "Conselho Federal de Administração — Prêmio CFA",
       "url": "https://cfa.org.br/",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "AbortError:This operation was aborted",
+      "status": 200,
+      "finalUrl": "https://cfa.org.br/",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "AbortError:This operation was aborted"
+        200
       ]
     },
     {
@@ -3186,13 +3159,11 @@
       "type": "source",
       "id": "Assembleia Legislativa de Mato Grosso — ALMT",
       "url": "https://www.al.mt.gov.br/",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://www.al.mt.gov.br/",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -4134,11 +4105,11 @@
       "type": "source",
       "id": "The Open Notebook",
       "url": "https://www.theopennotebook.com/",
-      "status": 403,
+      "status": 200,
       "finalUrl": "https://www.theopennotebook.com/",
-      "class": "blocked",
+      "class": "ok",
       "attempts": [
-        403
+        200
       ]
     },
     {
