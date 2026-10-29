@@ -34,3 +34,13 @@ test('recently inspected leads wait, terminal decisions stay out',()=>{
  ]),[],15,now);
  assert.deepEqual(result.selected.map(x=>x.url).sort(),[lead(3).url,lead(5).url].sort());
 });
+
+test('opportunities are rechecked after seven days while datasets wait 21 days',()=>{
+ const older='2026-10-15T13:00:00Z';
+ const result=selectBacklog(state([lead('grant',{lastInspectedAt:older}),lead('dataset',{category:'datasets',lastInspectedAt:older})]),[],40,now);
+ assert.deepEqual(result.selected.map(x=>x.url),[lead('grant').url]);
+});
+test('failed pages retry after three days but not after one day',()=>{
+ const result=selectBacklog(state([lead('retry',{pageStatus:'http-error',lastInspectedAt:'2026-10-19T13:00:00Z'}),lead('wait',{pageStatus:'fetch-failed',lastInspectedAt:'2026-10-22T13:00:00Z'})]),[],40,now);
+ assert.deepEqual(result.selected.map(x=>x.url),[lead('retry').url]);
+});
