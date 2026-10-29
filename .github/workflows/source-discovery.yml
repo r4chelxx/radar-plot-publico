@@ -107,7 +107,7 @@ jobs:
         run: node scripts/import-public-editorial-queue.js
       - name: Inspect historical backlog in rotating batches
         env:
-          LEAD_PAGE_LIMIT: '15'
+          LEAD_PAGE_LIMIT: '40'
         run: node scripts/inspect-lead-pages.js
       - name: Build editorial review queue
         run: node scripts/build-editorial-review.js
@@ -117,7 +117,7 @@ jobs:
         run: node scripts/apply-editorial-decisions.js
       - name: Build actionable historical editorial review batch
         env:
-          EDITORIAL_BATCH_LIMIT: '15'
+          EDITORIAL_BATCH_LIMIT: '30'
         run: node scripts/build-historical-review-batch.js
       - name: Prioritize editorial review from historical changes
         run: node scripts/prioritize-editorial-review.js
