@@ -1,5 +1,6 @@
 // Human-readable, public-only GitHub Actions run summary.
 const fs=require('node:fs');
+const {summarizeBacklog}=require('./backlog-health');
 const read=name=>JSON.parse(fs.readFileSync('intake/'+name,'utf8'));
 const intake=read('source-review.json'),triage=read('candidate-triage.json'),review=read('editorial-review.json'),history=read('lead-history-delta.json');
 const coverage=intake.coverage||{},s=history.summary||{};
@@ -11,6 +12,7 @@ const dailyFailures=coverage.dailyFailures||[];
 const sourceDiagnostics=[...empty.map(x=>({name:x.name,status:'acessível sem links temáticos'})),...failed.map(x=>({name:x.name,status:x.accessStatus+(x.httpStatus?' HTTP '+x.httpStatus:'')}))];
 const state=read('lead-history-next.json'),leads=Object.values(state.leads||{});
 const historical=leads.filter(x=>x.classification==='needs-editorial-review');
+const backlog=summarizeBacklog(state.leads);
 const visited=historical.filter(x=>x.lastInspectedAt).length;
 const reviewed=historical.filter(x=>x.reviewedAt).length;
 const approved=historical.filter(x=>x.editorialStatus==='approved').length;
@@ -21,6 +23,12 @@ const rows=[
  '',
  '| Indicador | Resultado |','|---|---:|',
  '| Total histórico persistido | '+leads.length+' |',
+ '| Fila ativa pendente | '+backlog.pending+' |',
+ '| Oportunidades pendentes | '+backlog.pendingOpportunities+' |',
+ '| Oportunidades com rechecagem vencida | '+backlog.overdueOpportunities+' |',
+ '| Rechecagens vencidas (todas as categorias) | '+backlog.overdueRechecks+' |',
+ '| Idade máxima de links sem inspeção (dias) | '+backlog.oldestUninspectedDays+' |',
+ '| Dias estimados para primeira passagem, sem novas entradas | '+backlog.estimatedFirstPassDays+' |',
  '| Pendências históricas classificadas para revisão | '+historical.length+' |',
  '| Links históricos com inspeção técnica registrada | '+visited+' |',
  '| Links históricos ainda sem inspeção técnica | '+(historical.length-visited)+' |',
@@ -52,6 +60,7 @@ const rows=[
  '| Links recorrentes | '+(s.returning??0)+' |',
  '| Links com mudanças detectadas | '+(s.changed??0)+' |',
  '',
+ '**Pressão da fila:** '+backlog.status+'; a estimativa de dias é um limite teórico com 40 inspeções/dia e não garante prazo.',
  '**Diagnóstico de fontes:** HTTP 200 não confirma extração produtiva; links temáticos ainda não são oportunidades verificadas.',
  ...sourceDiagnostics.slice(0,30).map(x=>'- '+String(x.name||'Fonte sem nome').replace(/[|\\n\\r]/g,' ')+' — '+x.status),
  sourceDiagnostics.length>30?'- Mais '+(sourceDiagnostics.length-30)+' fontes com lacunas no artefato source-review.json.':'',
