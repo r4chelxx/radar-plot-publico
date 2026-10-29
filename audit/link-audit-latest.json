@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-10-29T20:10:25.164Z",
+  "checkedAt": "2026-10-29T20:34:07.604Z",
   "policy": "404/410 and ArcGIS application errors within HTTP 200 become broken only after appearing as suspect or broken in the previous audit; blocked and network results are inconclusive",
   "counts": {
-    "ok": 400,
+    "ok": 403,
     "blocked": 42,
     "network": 28
   },
@@ -1794,6 +1794,7 @@
       "finalUrl": "https://www.transparencia.ba.gov.br/Portal",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -1805,6 +1806,7 @@
       "finalUrl": "https://www.ba.gov.br/ssp/publicacoes",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -1816,6 +1818,7 @@
       "finalUrl": "https://www.ba.gov.br/ssp/dados-abertos",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -1827,6 +1830,7 @@
       "finalUrl": "https://dadosabertos.aneel.gov.br/",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -1838,6 +1842,7 @@
       "finalUrl": "https://dados.ons.org.br/",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -1849,6 +1854,7 @@
       "finalUrl": "https://dados.ons.org.br/dataset/restricao_coff_fotovoltaica",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -1860,6 +1866,7 @@
       "finalUrl": "https://dados.ons.org.br/dataset/restricao_coff_fotovoltaica_detail",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -2218,7 +2225,6 @@
       "finalUrl": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/acoes-e-programas/programas-projetos-acoes-obras-e-atividades/estatisticas-trabalho/novo-caged/2026/agosto/pagina-inicial",
       "class": "ok",
       "attempts": [
-        "TypeError:fetch failed",
         200
       ]
     },
@@ -2408,6 +2414,7 @@
       "finalUrl": "https://www.ba.gov.br/saude/",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -2645,6 +2652,7 @@
       "finalUrl": "https://dadosabertos.ibama.gov.br/dataset/fiscalizacao-auto-de-infracao",
       "class": "ok",
       "attempts": [
+        502,
         200
       ]
     },
@@ -2738,7 +2746,7 @@
       "class": "network",
       "error": "TypeError:fetch failed",
       "attempts": [
-        "TypeError:fetch failed",
+        "AbortError:This operation was aborted",
         "TypeError:fetch failed"
       ]
     },
@@ -2858,6 +2866,39 @@
       "url": "https://ararenda.ce.gov.br/transparencia/dados-abertos/",
       "status": 200,
       "finalUrl": "https://ararenda.ce.gov.br/transparencia/dados-abertos/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "Egab — pitches e comissionamento editorial",
+      "url": "https://www.egab.co/journalists",
+      "status": 200,
+      "finalUrl": "https://www.egab.co/journalists",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "ProPublica — colaboração editorial",
+      "url": "https://www.propublica.org/collaborate",
+      "status": 200,
+      "finalUrl": "https://www.propublica.org/collaborate",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "source",
+      "id": "J-Lab — recursos para jornalismo comunitário",
+      "url": "https://j-lab.org/tools/",
+      "status": 200,
+      "finalUrl": "https://j-lab.org/tools/",
       "class": "ok",
       "attempts": [
         200
