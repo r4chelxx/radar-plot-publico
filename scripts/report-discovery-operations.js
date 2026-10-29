@@ -23,7 +23,7 @@ for(const [name,x] of Object.entries(coverage)){
 }
 for(const item of funding.health||[])if((item.status==='ok'||item.status==='fallback')&&!item.items)warnings.push('fundingPages: '+item.source+' returned no relevant static links; manual or feed review needed');
 const queue=fs.existsSync('intake/editorial-queue.json')?read('intake/editorial-queue.json'):{candidates:[]};
-const manifest=read('intake/approved-publications.json');
+const manifest=fs.existsSync('intake/approved-publications.json')?read('intake/approved-publications.json'):{approved:[]};
 const funnel=editorialFunnel(queue,manifest);
 const report={editorialFunnel:funnel,generatedAt:new Date().toISOString(),sources,coverage,warnings,overallStatus:warnings.length?'degraded':'healthy',sourcePerformance:{successful:successful.map(x=>({name:x.name,candidates:x.candidates})).sort((a,b)=>b.candidates-a.candidates),failed:failed.map(x=>({name:x.name,error:x.error}))},opportunities:{queries:(opportunity.health||[]).length,queryFailures:(opportunity.health||[]).filter(x=>x.status!=='ok').length,searchCandidates:(opportunity.health||[]).reduce((n,x)=>n+(x.items||0),0),note:'Search candidates are unverified leads, not published opportunities.'},totals:{healthy:successful.length,failed:failed.length,candidates:quality.counts.total,catalogMatches:quality.counts.catalogMatches,needsReview:quality.counts.needsReview,highPriority:quality.summary?.highPriority||0,normalPriority:quality.summary?.normalPriority||0},notes:'Candidate links require editorial verification. Gmail is not collected by this workflow; LinkedIn posts are imported only when a curated public input file is provided.'};
 fs.writeFileSync('intake/discovery-operations.json',JSON.stringify(report,null,2)+'\n');
