@@ -22,3 +22,7 @@ assert.match(source,/networkCode/);
 assert.match(source,/coverageGaps=results\.filter/);
 assert.match(source,/coverageStatus:'partial'/);
 console.log(JSON.stringify({syntax:'ok',uniqueSources:sources.length,dailyUnique:daily.length,collectorDailySelection:'ok'}));
+
+const summary=fs.readFileSync('scripts/write-run-summary.js','utf8');
+for(const indicator of ['Fontes diárias esperadas','Fontes diárias consultadas','Fontes diárias acessíveis','Fontes diárias com falha','Fontes com links temáticos extraídos','Fontes acessíveis sem links temáticos','Fontes bloqueadas ou com falha de rede'])assert.ok(summary.includes(indicator),'Missing source health indicator: '+indicator);
+assert.match(summary,/sourceDiagnostics/);
