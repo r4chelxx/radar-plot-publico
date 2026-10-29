@@ -738,6 +738,67 @@
         "officialUrl": "https://indicedadosabertos.ok.org.br/",
         "evidence": "Página oficial da OKBR acessível em outubro de 2026, intitulada ODI Cidades 2023, com pontuações por capital e dimensões temáticas. Publicar explicitamente como dados históricos, sem sugerir atualização contínua."
       }
+    },
+    {
+      "category": "datasets",
+      "record": {
+        "id": "okbr-monitor-inda-2023-2025",
+        "name": "Open Knowledge Brasil — Monitor da INDA 2023–2025",
+        "org": "Open Knowledge Brasil",
+        "territoryTier": "Brasil",
+        "kind": "monitoramento histórico",
+        "themes": [
+          "Transparência",
+          "Dados abertos",
+          "Administração pública",
+          "LAI",
+          "Políticas públicas"
+        ],
+        "coverage": "Acompanhamento de ações, entregas e andamento do Plano de Ação 2023–2025 da Infraestrutura Nacional de Dados Abertos, com dados compilados pela OKBR.",
+        "frequency": "Histórico do plano 2023–2025; não presumir atualização após encerramento do ciclo.",
+        "format": "Painel e planilha CSV disponibilizada no portal",
+        "period": "2023–2025",
+        "granularity": "Ação e atividade do plano federal",
+        "geoUnit": "Brasil — governo federal",
+        "api": "",
+        "docs": "https://ok.org.br/inda/",
+        "limitations": "Monitoramento independente da OKBR a partir de registros oficiais e LAI; atualizações e evidências podem ter lacunas. Refere-se ao plano 2023–2025 e não deve ser interpretado como execução corrente de 2026.",
+        "lastChecked": "2026-10-29",
+        "url": "https://ok.org.br/inda/",
+        "discoveredVia": [
+          "Open Knowledge Brasil"
+        ],
+        "discoveryUrl": "https://ok.org.br/projetos/monitor-da-inda",
+        "description": "Monitor histórico de implementação do Plano de Ação da INDA 2023–2025, com acompanhamento de atividades e possibilidade de consulta à base CSV."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Radar PLOT — revisão editorial assistida",
+        "reviewedAt": "2026-10-29",
+        "officialUrl": "https://ok.org.br/inda/",
+        "evidence": "Página oficial da Open Knowledge Brasil exibe Monitoramento da INDA do Plano de Ação 2023–2025, com seção 'Veja a base completa' e opção 'Baixar em CSV'. Registros de monitoramento e análises de 2023–2025 publicados pela OKBR; período histórico explicitado."
+      }
+    },
+    {
+      "category": "tools",
+      "record": {
+        "id": "okbr-querido-diario-tecnologias-educacao",
+        "name": "Querido Diário — Tecnologias na Educação",
+        "kind": "busca em diários oficiais e monitoramento de contratações educacionais",
+        "url": "https://ok.org.br/projetos/qd-tecnologias-educacao/",
+        "desc": "Projeto da Open Knowledge Brasil que identifica e organiza atos de diários oficiais municipais sobre tecnologia na educação, incluindo conectividade, infraestrutura, softwares e serviços. Permite pesquisa por cidade, período e categoria e criação de alertas, conforme a documentação do projeto. Desenvolvido entre 2022 e 2024; confirmar a disponibilidade atual da interface e a cobertura municipal antes de depender dos resultados em investigação.",
+        "discoveredVia": [
+          "Open Knowledge Brasil"
+        ],
+        "discoveryUrl": "https://ok.org.br/projetos/qd-tecnologias-educacao/"
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Radar PLOT — revisão editorial assistida",
+        "reviewedAt": "2026-10-29",
+        "officialUrl": "https://ok.org.br/projetos/qd-tecnologias-educacao/",
+        "evidence": "A página oficial da OKBR documenta Querido Diário: Tecnologias na Educação, lançado em março de 2023 e projeto de 2022–2024, com explorador de tecnologias e alertas. Publicar como recurso histórico documentado, sem afirmar que a interface específica está operacional hoje."
+      }
     }
   ]
 }
