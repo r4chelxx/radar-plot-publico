@@ -36,6 +36,8 @@ on:
       - '.github/workflows/editorial-publish.yml'
       - 'scripts/report-discovery-operations.js'
       - 'scripts/editorial-funnel.js'
+      - 'scripts/load-persisted-editorial-queue.js'
+      - 'tests/persisted-editorial-queue.test.js'
       - 'tests/editorial-funnel.test.js'
       - 'tests/discovery-operations.test.js'
       - 'scripts/summarize-discovery.js'
@@ -76,7 +78,7 @@ jobs:
       - name: Test production deployment revision checks
         run: node --test tests/deployed-revision.test.js
       - name: Test daily discovery source health reporting
-        run: node --test tests/discovery-operations.test.js tests/editorial-funnel.test.js
+        run: node --test tests/discovery-operations.test.js tests/editorial-funnel.test.js tests/persisted-editorial-queue.test.js
       - name: Test editorial queue reconciliation
         run: node --test tests/editorial-queue-reconcile.test.js
       - name: Test operational editorial state reconciliation
@@ -134,6 +136,13 @@ jobs:
         run: node scripts/sample-editorial-review.js
       - name: Export readable editorial review
         run: node scripts/export-editorial-review.js
+      - name: Load persisted editorial queue for operational reporting
+        run: |
+          if git ls-remote --exit-code --heads origin radar-state >/dev/null; then
+            git fetch --depth=1 origin radar-state
+            git show FETCH_HEAD:intake/editorial-queue.json > /tmp/radar-persisted-editorial-queue.json || true
+          fi
+          node scripts/load-persisted-editorial-queue.js /tmp/radar-persisted-editorial-queue.json intake/editorial-queue-report.json
       - name: Summarize collector reliability
         run: node scripts/report-discovery-operations.js
       - name: Show source failures in workflow summary
