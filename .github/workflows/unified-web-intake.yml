@@ -59,6 +59,8 @@ jobs:
         run: |
           node --check scripts/discover-public-feeds.mjs
           node --check scripts/discover-dvs-public.mjs
+      - name: Test targeted opportunity discovery
+        run: node --test tests/opportunity-web-discovery.test.js
       - name: Test public funding page discovery
         run: node --test tests/public-funding-pages.test.js
       - name: Test public feed relevance safeguards
