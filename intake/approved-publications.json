@@ -1331,8 +1331,8 @@
         "decision": "approved",
         "reviewedBy": "Radar PLOT — revisão editorial assistida",
         "reviewedAt": "2026-10-30",
-        "officialUrl": "https://help.openalex.org/api/",
-        "evidence": "Documentação primária OpenAlex confirma grafo de trabalhos, autores, instituições, API REST, licença CC0, snapshot público e limites de acesso; verificado que não existe no catálogo de 164 bases."
+        "officialUrl": "https://explore.openalex.org/",
+        "evidence": "Documentação primária OpenAlex confirma grafo de trabalhos, autores, instituições, API REST, licença CC0, snapshot público e limites de acesso; verificado que não existe no catálogo de 164 bases. Site primário de exploração OpenAlex usado como URL oficial; documentação detalhada em help.openalex.org."
       }
     }
   ]
