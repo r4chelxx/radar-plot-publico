@@ -124,3 +124,18 @@ test('GFMD tries official fellowship taxonomy only after empty primary and fallb
  assert.equal(result.health[1].fallbackStatus,'official-fellowship-taxonomy');
  assert(result.leads.some(x=>x.url==='https://gfmd.info/fundings/international-nieman-fellowship'));
 });
+
+test('Grants for Journalists listing cards yield titled detail URLs instead of generic View Details',()=>{
+ const html='<h2>The Open Notebook Early-Career Fellowship Program</h2><p>Deadline 10/31/2026</p><a href="/grant/the-open-notebook-early-career-fellowship-program/">View Details</a><a href="/all-grants/">View all grants</a>';
+ const leads=extract(html,'https://grantsforjournalists.com/all-grants/','Grants for Journalists');
+ assert.equal(leads.length,1);
+ assert.equal(leads[0].title,'The Open Notebook Early-Career Fellowship Program');
+ assert.equal(leads[0].url,'https://grantsforjournalists.com/grant/the-open-notebook-early-career-fellowship-program');
+ assert.equal(leads[0].editorialStatus,'unverified');
+});
+test('public collector requests the actual grants listing, not the empty search form',async()=>{
+ const requested=[];
+ await collect(async url=>{requested.push(url);return {ok:true,status:200,url,text:async()=>'<a href="/about">About</a>'}});
+ assert(requested.includes('https://grantsforjournalists.com/all-grants/'));
+ assert(!requested.includes('https://grantsforjournalists.com/grants-for-journalists/'));
+});
