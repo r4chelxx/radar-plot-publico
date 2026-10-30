@@ -22,16 +22,32 @@ async function collect(fetcher=fetch,env=process.env){
   const labels=await api('labels');
   const found=(labels.labels||[]).find(x=>x.name===label);
   if(!found)throw Error('Gmail label not found');
-  const list=await api('messages?'+new URLSearchParams({labelIds:found.id,maxResults:'100',q:'newer_than:7d'}));
-  const leads=[],seen=new Set();
-  for(const m of list.messages||[]){
+  // Page through the label rather than silently truncating to the last seven days.
+  // Keep each run bounded; the cursor is saved only when the batch succeeds.
+  const cursorFile=env.RADAR_GMAIL_CURSOR_FILE||'intake/gmail-backfill-cursor.json';
+  let cursor={pageToken:'',processed:0};
+  try{cursor=JSON.parse(fs.readFileSync(cursorFile,'utf8'))}catch{}
+  const maxPages=Math.min(20,Math.max(1,Number(env.RADAR_GMAIL_MAX_PAGES||3)));
+  const leads=[],seen=new Set();let scanned=0,pages=0,nextToken=cursor.pageToken||'';
+  for(let page=0;page<maxPages;page++){
+   const params=new URLSearchParams({labelIds:found.id,maxResults:'100'});
+   if(nextToken)params.set('pageToken',nextToken);
+   const list=await api('messages?'+params);
+   pages++;
+   for(const m of list.messages||[]){
+   scanned++;
    const item=await api('messages/'+encodeURIComponent(m.id)+'?format=full');
    const subject=(item.payload?.headers||[]).find(x=>x.name.toLowerCase()==='subject')?.value||'';
    if(!allowed.test(subject+' '+(item.snippet||'')))continue;
    const parts=[];const walk=p=>{if(p?.body?.data){try{parts.push(Buffer.from(p.body.data,'base64url').toString('utf8').slice(0,100000))}catch{}}for(const child of p?.parts||[])walk(child)};walk(item.payload);
    for(const lead of extract({subject,snippet:item.snippet,body:parts.join(' ').replace(/<[^>]+>/g,' ')})){if(!seen.has(lead.url)){seen.add(lead.url);leads.push(lead)}}
+   }
+   nextToken=list.nextPageToken||'';
+   if(!nextToken)break;
   }
-  return {source:'gmail',leads,health:[{source:'Gmail Radar PLOT',status:'ok',items:leads.length,scanned:(list.messages||[]).length,coverageStatus:list.nextPageToken?'partial':'recent-window'}]};
+  fs.mkdirSync(require('node:path').dirname(cursorFile),{recursive:true});
+  fs.writeFileSync(cursorFile,JSON.stringify({pageToken:nextToken,processed:(cursor.processed||0)+scanned,updatedAt:new Date().toISOString(),complete:!nextToken},null,2)+'\n');
+  return {source:'gmail',leads,health:[{source:'Gmail Radar PLOT',status:'ok',items:leads.length,scanned,pages,coverageStatus:nextToken?'partial':'complete',checkpoint:cursorFile}]};
  }catch(e){return {source:'gmail',leads:[],health:[{...health,status:'error',reason:String(e.message||e).slice(0,140)}]}}
 }
 if(require.main===module)collect().then(r=>{fs.mkdirSync('intake',{recursive:true});fs.writeFileSync('intake/gmail-discovery.json',JSON.stringify({source:r.source,leads:r.leads},null,2)+'\n');fs.writeFileSync('intake/gmail-health.json',JSON.stringify({health:r.health},null,2)+'\n');console.log(JSON.stringify({gmailCandidates:r.leads.length,health:r.health}));});
