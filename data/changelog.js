@@ -2,6 +2,22 @@ window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
 {
   "date": "2026-10-30",
+  "type": "dados",
+  "title": "Publicação editorial verificada — 2026-10-30",
+  "items": [
+    {
+      "id": "nyc-open-data-portal",
+      "title": "NYC Open Data — portal de dados públicos de Nova York"
+    },
+    {
+      "id": "un-system-data-commons",
+      "title": "UN System Data Commons — portal de dados do sistema ONU"
+    }
+  ],
+  "detail": "Dois portais de dados oficiais verificados, com escopo, atualização variável e limitações de comparabilidade documentados."
+}, 
+{
+  "date": "2026-10-30",
   "type": "ferramentas",
   "title": "Publicação editorial verificada — 2026-10-30",
   "items": [
