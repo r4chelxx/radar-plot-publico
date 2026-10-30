@@ -24,3 +24,10 @@ test('Gmail historical pagination advances and saves a bounded checkpoint',async
   assert(calls.some(x=>x.includes('pageToken=next')));
  }finally{fs.rmSync(dir,{recursive:true,force:true})}
 });
+
+test('Gmail scans body even when subject and snippet omit funding keywords',async()=>{
+ const fs=require('node:fs'),os=require('node:os'),path=require('node:path');
+ const dir=fs.mkdtempSync(path.join(os.tmpdir(),'radar-gmail-body-'));
+ const fetcher=async url=>({ok:true,json:async()=>String(url).includes('oauth2.googleapis.com')?{access_token:'test'}:String(url).endsWith('/labels')?{labels:[{id:'L',name:'Radar PLOT.'}]}:String(url).includes('/messages?')?{messages:[{id:'a'}]}:{payload:{headers:[{name:'Subject',value:'Weekly digest'}],body:{data:Buffer.from('Journalism grant https://example.org/fellowship').toString('base64url')}},snippet:'New issue'}});
+ try{const r=await gmail.collect(fetcher,{RADAR_GMAIL_CLIENT_ID:'x',RADAR_GMAIL_CLIENT_SECRET:'y',RADAR_GMAIL_REFRESH_TOKEN:'z',RADAR_GMAIL_CURSOR_FILE:path.join(dir,'cursor.json')});assert.equal(r.leads.length,1)}finally{fs.rmSync(dir,{recursive:true,force:true})}
+});
