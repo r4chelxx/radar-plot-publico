@@ -1,6 +1,22 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
 {
+  "date": "2026-10-30",
+  "type": "nova-oportunidade",
+  "title": "Publicação editorial verificada — 2026-10-30",
+  "items": [
+    {
+      "id": "massey-gordon-fisher-jhr-2027-28",
+      "title": "Gordon N. Fisher / JHR Journalism Fellowship 2027–28"
+    },
+    {
+      "id": "eu-journalism-partnerships-collaborations-2027",
+      "title": "União Europeia — Journalism Partnerships: Collaborations 2027"
+    }
+  ],
+  "detail": "Duas chamadas verificadas em fontes primárias em 30/10/2026, com prazo, elegibilidade restrita e ausência de duplicidade conferidos."
+}, 
+{
   "date": "2026-10-29",
   "type": "ferramentas",
   "title": "Publicação editorial verificada — 2026-10-29",
