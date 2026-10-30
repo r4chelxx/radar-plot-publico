@@ -1,10 +1,11 @@
 {
-  "checkedAt": "2026-10-30T12:19:24.327Z",
+  "checkedAt": "2026-10-30T12:29:07.049Z",
   "policy": "404/410 and ArcGIS application errors within HTTP 200 become broken only after appearing as suspect or broken in the previous audit; blocked and network results are inconclusive",
   "counts": {
-    "ok": 408,
-    "blocked": 45,
-    "network": 33
+    "ok": 412,
+    "blocked": 48,
+    "network": 28,
+    "server": 1
   },
   "results": [
     {
@@ -176,11 +177,11 @@
       "type": "source",
       "id": "The Open Notebook — Early-Career Fellowship",
       "url": "https://www.theopennotebook.com/early-career-fellowship-program/",
-      "status": 403,
+      "status": 200,
       "finalUrl": "https://www.theopennotebook.com/early-career-fellowship-program/",
-      "class": "blocked",
+      "class": "ok",
       "attempts": [
-        403
+        200
       ]
     },
     {
@@ -264,11 +265,11 @@
       "type": "opportunity",
       "id": "mjdh-direitos-humanos-2026",
       "url": "https://direitoshumanosbr.org.br/home/download/regulamento_por.pdf",
-      "status": 200,
+      "status": 403,
       "finalUrl": "https://direitoshumanosbr.org.br/home/download/regulamento_por.pdf",
-      "class": "ok",
+      "class": "blocked",
       "attempts": [
-        200
+        403
       ]
     },
     {
@@ -770,11 +771,11 @@
       "type": "opportunity",
       "id": "pulitzer-ml",
       "url": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/machine-learning-reporting-grants",
-      "status": 403,
+      "status": 200,
       "finalUrl": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/machine-learning-reporting-grants",
-      "class": "blocked",
+      "class": "ok",
       "attempts": [
-        403
+        200
       ]
     },
     {
@@ -1144,11 +1145,46 @@
       "type": "opportunity",
       "id": "fire-virtual-newsroom",
       "url": "https://www.firenewsroom.org/about-us/fire-frequently-asked-questions",
-      "status": 200,
+      "status": 403,
       "finalUrl": "https://www.firenewsroom.org/about-us/fire-frequently-asked-questions",
+      "class": "blocked",
+      "attempts": [
+        403
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "gem-global-integrated-power-tracker",
+      "url": "https://globalenergymonitor.org/projects/global-integrated-power-tracker",
+      "status": 200,
+      "finalUrl": "https://globalenergymonitor.org/projects/global-integrated-power-tracker",
       "class": "ok",
       "attempts": [
         200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "gem-global-solar-power-tracker",
+      "url": "https://globalenergymonitor.org/projects/global-solar-power-tracker",
+      "status": 200,
+      "finalUrl": "https://globalenergymonitor.org/projects/global-solar-power-tracker",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "openalex-scholarly-graph",
+      "url": "https://explore.openalex.org/",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
+      "attempts": [
+        "TypeError:fetch failed",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -1260,6 +1296,7 @@
       "finalUrl": "https://www.generonumero.media/dados-abertos/",
       "class": "ok",
       "attempts": [
+        "TypeError:fetch failed",
         200
       ]
     },
@@ -1553,11 +1590,11 @@
       "type": "source",
       "id": "Transferegov.br — Dados Abertos",
       "url": "https://api-publica.transferegov.gestao.gov.br/",
-      "status": 403,
+      "status": 200,
       "finalUrl": "https://api-publica.transferegov.gestao.gov.br/",
-      "class": "blocked",
+      "class": "ok",
       "attempts": [
-        403
+        200
       ]
     },
     {
@@ -1778,7 +1815,7 @@
       "class": "network",
       "error": "TypeError:fetch failed",
       "attempts": [
-        "TypeError:fetch failed",
+        "AbortError:This operation was aborted",
         "TypeError:fetch failed"
       ]
     },
@@ -1889,13 +1926,11 @@
       "type": "dataset",
       "id": "aneel",
       "url": "https://dadosabertos.aneel.gov.br/",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://dadosabertos.aneel.gov.br/",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -2012,13 +2047,11 @@
       "type": "dataset",
       "id": "aneel-emergencias",
       "url": "https://dadosabertos.aneel.gov.br/dataset/ocorrencias-emergenciais-nas-redes-de-distribuicao",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://dadosabertos.aneel.gov.br/dataset/ocorrencias-emergenciais-nas-redes-de-distribuicao",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -2255,6 +2288,7 @@
       "finalUrl": "https://salvador.ba.gov.br/",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -2288,6 +2322,7 @@
       "finalUrl": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/acoes-e-programas/programas-projetos-acoes-obras-e-atividades/estatisticas-trabalho/novo-caged/2026/agosto/pagina-inicial",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -2365,7 +2400,7 @@
       "class": "network",
       "error": "TypeError:fetch failed",
       "attempts": [
-        "TypeError:fetch failed",
+        "AbortError:This operation was aborted",
         "TypeError:fetch failed"
       ]
     },
@@ -2378,7 +2413,7 @@
       "class": "network",
       "error": "TypeError:fetch failed",
       "attempts": [
-        "TypeError:fetch failed",
+        "AbortError:This operation was aborted",
         "TypeError:fetch failed"
       ]
     },
@@ -2515,13 +2550,11 @@
       "type": "dataset",
       "id": "aneel-siga",
       "url": "https://dadosabertos.aneel.gov.br/dataset/siga-sistema-de-informacoes-de-geracao-da-aneel",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://dadosabertos.aneel.gov.br/dataset/siga-sistema-de-informacoes-de-geracao-da-aneel",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -2609,26 +2642,22 @@
       "type": "dataset",
       "id": "aneel-siget",
       "url": "https://dadosabertos.aneel.gov.br/dataset/sistema-de-gestao-da-transmissao-siget",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://dadosabertos.aneel.gov.br/dataset/sistema-de-gestao-da-transmissao-siget",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
       "type": "dataset",
       "id": "aneel-samp",
       "url": "https://dadosabertos.aneel.gov.br/dataset/samp",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://dadosabertos.aneel.gov.br/dataset/samp",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -2692,13 +2721,11 @@
       "type": "dataset",
       "id": "aneel-bdgd",
       "url": "https://dadosabertos.aneel.gov.br/dataset/base-de-dados-geografica-da-distribuidora-bdgd",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://dadosabertos.aneel.gov.br/dataset/base-de-dados-geografica-da-distribuidora-bdgd",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -2727,11 +2754,12 @@
       "type": "dataset",
       "id": "inpe-terrabrasilis",
       "url": "https://terrabrasilis.dpi.inpe.br/",
-      "status": 200,
+      "status": 502,
       "finalUrl": "https://terrabrasilis.dpi.inpe.br/",
-      "class": "ok",
+      "class": "server",
       "attempts": [
-        200
+        502,
+        502
       ]
     },
     {
@@ -2913,7 +2941,6 @@
       "finalUrl": "https://www.gov.br/fnde/pt-br/acesso-a-informacao/dados-abertos",
       "class": "ok",
       "attempts": [
-        "TypeError:fetch failed",
         200
       ]
     },
@@ -2965,11 +2992,11 @@
       "type": "source",
       "id": "J-Lab — recursos para jornalismo comunitário",
       "url": "https://j-lab.org/tools/",
-      "status": 200,
+      "status": 403,
       "finalUrl": "https://j-lab.org/tools/",
-      "class": "ok",
+      "class": "blocked",
       "attempts": [
-        200
+        403
       ]
     },
     {
@@ -3064,11 +3091,11 @@
       "type": "source",
       "id": "One World Media Awards",
       "url": "https://oneworldmedia.org.uk/awards/",
-      "status": 200,
+      "status": 202,
       "finalUrl": "https://oneworldmedia.org.uk/awards/",
       "class": "ok",
       "attempts": [
-        200
+        202
       ]
     },
     {
@@ -3091,7 +3118,7 @@
       "class": "network",
       "error": "TypeError:fetch failed",
       "attempts": [
-        "TypeError:fetch failed",
+        "AbortError:This operation was aborted",
         "TypeError:fetch failed"
       ]
     },
@@ -3235,11 +3262,11 @@
       "type": "source",
       "id": "Rory Peck Trust",
       "url": "https://rorypecktrust.org/",
-      "status": 200,
+      "status": 202,
       "finalUrl": "https://rorypecktrust.org/",
       "class": "ok",
       "attempts": [
-        200
+        202
       ]
     },
     {
@@ -3279,33 +3306,33 @@
       "type": "source",
       "id": "Movimento de Justiça e Direitos Humanos — MJDH",
       "url": "https://direitoshumanosbr.org.br/home/inscricao.php?id=566917",
-      "status": 200,
-      "finalUrl": "https://direitoshumanosbr.org.br/home/index.php",
-      "class": "ok",
+      "status": 403,
+      "finalUrl": "https://direitoshumanosbr.org.br/home/inscricao.php?id=566917",
+      "class": "blocked",
       "attempts": [
-        200
+        403
       ]
     },
     {
       "type": "source",
       "id": "One World Media — Awards e Fellowship",
       "url": "https://oneworldmedia.org.uk/fellowship/",
-      "status": 200,
+      "status": 202,
       "finalUrl": "https://oneworldmedia.org.uk/fellowship/",
       "class": "ok",
       "attempts": [
-        200
+        202
       ]
     },
     {
       "type": "source",
       "id": "Amado Mundo — oportunidades de formação",
       "url": "https://amadomundo.com/",
-      "status": 200,
+      "status": 202,
       "finalUrl": "https://amadomundo.com/",
       "class": "ok",
       "attempts": [
-        200
+        202
       ]
     },
     {
@@ -4093,11 +4120,11 @@
       "type": "source",
       "id": "WFSJ / WCSJ",
       "url": "https://wfsj.org/",
-      "status": 200,
+      "status": 403,
       "finalUrl": "https://wfsj.org/",
-      "class": "ok",
+      "class": "blocked",
       "attempts": [
-        200
+        403
       ]
     },
     {
@@ -4214,11 +4241,11 @@
       "type": "source",
       "id": "The Open Notebook",
       "url": "https://www.theopennotebook.com/",
-      "status": 403,
+      "status": 200,
       "finalUrl": "https://www.theopennotebook.com/",
-      "class": "blocked",
+      "class": "ok",
       "attempts": [
-        403
+        200
       ]
     },
     {
@@ -4599,11 +4626,11 @@
       "type": "tool",
       "id": "inkscape-svg-editor",
       "url": "https://inkscape.org/",
-      "status": 200,
+      "status": 403,
       "finalUrl": "https://inkscape.org/",
-      "class": "ok",
+      "class": "blocked",
       "attempts": [
-        200
+        403
       ]
     },
     {
@@ -5099,7 +5126,6 @@
       "finalUrl": "https://www.generonumero.media/artigos/cartilha-violencia-de-genero/",
       "class": "ok",
       "attempts": [
-        "TypeError:fetch failed",
         200
       ]
     },
@@ -5404,11 +5430,11 @@
       "type": "tool",
       "id": "gsap-greensock",
       "url": "https://gsap.com/",
-      "status": 200,
+      "status": 403,
       "finalUrl": "https://gsap.com/",
-      "class": "ok",
+      "class": "blocked",
       "attempts": [
-        200
+        403
       ]
     },
     {
