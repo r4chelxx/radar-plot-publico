@@ -1,10 +1,10 @@
 {
-  "checkedAt": "2026-10-30T12:10:02.394Z",
+  "checkedAt": "2026-10-30T12:19:24.327Z",
   "policy": "404/410 and ArcGIS application errors within HTTP 200 become broken only after appearing as suspect or broken in the previous audit; blocked and network results are inconclusive",
   "counts": {
-    "ok": 410,
-    "blocked": 42,
-    "network": 30
+    "ok": 408,
+    "blocked": 45,
+    "network": 33
   },
   "results": [
     {
@@ -176,11 +176,11 @@
       "type": "source",
       "id": "The Open Notebook — Early-Career Fellowship",
       "url": "https://www.theopennotebook.com/early-career-fellowship-program/",
-      "status": 200,
+      "status": 403,
       "finalUrl": "https://www.theopennotebook.com/early-career-fellowship-program/",
-      "class": "ok",
+      "class": "blocked",
       "attempts": [
-        200
+        403
       ]
     },
     {
@@ -1553,11 +1553,11 @@
       "type": "source",
       "id": "Transferegov.br — Dados Abertos",
       "url": "https://api-publica.transferegov.gestao.gov.br/",
-      "status": 200,
+      "status": 403,
       "finalUrl": "https://api-publica.transferegov.gestao.gov.br/",
-      "class": "ok",
+      "class": "blocked",
       "attempts": [
-        200
+        403
       ]
     },
     {
@@ -1778,7 +1778,7 @@
       "class": "network",
       "error": "TypeError:fetch failed",
       "attempts": [
-        "AbortError:This operation was aborted",
+        "TypeError:fetch failed",
         "TypeError:fetch failed"
       ]
     },
@@ -1889,11 +1889,13 @@
       "type": "dataset",
       "id": "aneel",
       "url": "https://dadosabertos.aneel.gov.br/",
-      "status": 200,
-      "finalUrl": "https://dadosabertos.aneel.gov.br/",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "AbortError:This operation was aborted",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -2010,11 +2012,13 @@
       "type": "dataset",
       "id": "aneel-emergencias",
       "url": "https://dadosabertos.aneel.gov.br/dataset/ocorrencias-emergenciais-nas-redes-de-distribuicao",
-      "status": 200,
-      "finalUrl": "https://dadosabertos.aneel.gov.br/dataset/ocorrencias-emergenciais-nas-redes-de-distribuicao",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "AbortError:This operation was aborted",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -2128,7 +2132,6 @@
       "finalUrl": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados",
       "class": "ok",
       "attempts": [
-        "TypeError:fetch failed",
         200
       ]
     },
@@ -2274,7 +2277,6 @@
       "finalUrl": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/acoes-e-programas/programas-projetos-acoes-obras-e-atividades/estatisticas-trabalho/rais/rais-2025/rais-2025",
       "class": "ok",
       "attempts": [
-        "TypeError:fetch failed",
         200
       ]
     },
@@ -2458,13 +2460,11 @@
       "type": "dataset",
       "id": "sesab-mortalidade-materna",
       "url": "https://biobr.saude.ba.gov.br/static/obitomaterno.php",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://biobr.saude.ba.gov.br/static/obitomaterno.php",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -2515,11 +2515,13 @@
       "type": "dataset",
       "id": "aneel-siga",
       "url": "https://dadosabertos.aneel.gov.br/dataset/siga-sistema-de-informacoes-de-geracao-da-aneel",
-      "status": 200,
-      "finalUrl": "https://dadosabertos.aneel.gov.br/dataset/siga-sistema-de-informacoes-de-geracao-da-aneel",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "AbortError:This operation was aborted",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -2607,22 +2609,26 @@
       "type": "dataset",
       "id": "aneel-siget",
       "url": "https://dadosabertos.aneel.gov.br/dataset/sistema-de-gestao-da-transmissao-siget",
-      "status": 200,
-      "finalUrl": "https://dadosabertos.aneel.gov.br/dataset/sistema-de-gestao-da-transmissao-siget",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "AbortError:This operation was aborted",
+        "TypeError:fetch failed"
       ]
     },
     {
       "type": "dataset",
       "id": "aneel-samp",
       "url": "https://dadosabertos.aneel.gov.br/dataset/samp",
-      "status": 200,
-      "finalUrl": "https://dadosabertos.aneel.gov.br/dataset/samp",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "AbortError:This operation was aborted",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -2686,11 +2692,13 @@
       "type": "dataset",
       "id": "aneel-bdgd",
       "url": "https://dadosabertos.aneel.gov.br/dataset/base-de-dados-geografica-da-distribuidora-bdgd",
-      "status": 200,
-      "finalUrl": "https://dadosabertos.aneel.gov.br/dataset/base-de-dados-geografica-da-distribuidora-bdgd",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "AbortError:This operation was aborted",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -2734,7 +2742,6 @@
       "finalUrl": "https://www.gov.br/cidades/pt-br/acesso-a-informacao/acoes-e-programas/saneamento/sinisa",
       "class": "ok",
       "attempts": [
-        "TypeError:fetch failed",
         200
       ]
     },
@@ -3364,7 +3371,6 @@
       "finalUrl": "https://www.gov.br/saude/pt-br/acesso-a-informacao/siops/siops",
       "class": "ok",
       "attempts": [
-        "TypeError:fetch failed",
         200
       ]
     },
@@ -3724,13 +3730,11 @@
       "type": "source",
       "id": "MDHC — ONDH",
       "url": "https://www.gov.br/mdh/pt-br/ondh/dados-e-estudos",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://www.gov.br/mdh/pt-br/ondh/dados-e-estudos",
+      "class": "ok",
       "attempts": [
-        "TypeError:fetch failed",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -4210,11 +4214,11 @@
       "type": "source",
       "id": "The Open Notebook",
       "url": "https://www.theopennotebook.com/",
-      "status": 200,
+      "status": 403,
       "finalUrl": "https://www.theopennotebook.com/",
-      "class": "ok",
+      "class": "blocked",
       "attempts": [
-        200
+        403
       ]
     },
     {
@@ -4553,6 +4557,50 @@
       "url": "https://journaliststudio.google.com/",
       "status": 200,
       "finalUrl": "https://journaliststudio.google.com/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "chartist-responsive-svg-charts",
+      "url": "https://chartist.dev/",
+      "status": 200,
+      "finalUrl": "https://chartist.dev/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "rustgis-opengeos",
+      "url": "https://rustgis.app/",
+      "status": 200,
+      "finalUrl": "https://rustgis.app/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "vega-lite-visualization-grammar",
+      "url": "https://vega.github.io/vega-lite/",
+      "status": 200,
+      "finalUrl": "https://vega.github.io/vega-lite/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "inkscape-svg-editor",
+      "url": "https://inkscape.org/",
+      "status": 200,
+      "finalUrl": "https://inkscape.org/",
       "class": "ok",
       "attempts": [
         200
@@ -5047,13 +5095,12 @@
       "type": "tool",
       "id": "genero-numero-do-dado-a-decisao",
       "url": "https://www.generonumero.media/artigos/cartilha-violencia-de-genero/",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://www.generonumero.media/artigos/cartilha-violencia-de-genero/",
+      "class": "ok",
       "attempts": [
         "TypeError:fetch failed",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
