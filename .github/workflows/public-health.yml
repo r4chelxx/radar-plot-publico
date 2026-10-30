@@ -79,6 +79,14 @@ jobs:
         if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
         run: |
           node scripts/check-operational-state.js /tmp/radar-operational/queue.json /tmp/radar-operational/history.json intake/historical-decisions.json | tee /tmp/radar-operational/consistency-report.json
+      - name: Summarize editorial consistency results
+        if: always() && (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch')
+        run: |
+          if [ -s /tmp/radar-operational/consistency-report.json ]; then
+            node -e 'const fs=require("fs");const d=JSON.parse(fs.readFileSync("/tmp/radar-operational/consistency-report.json","utf8"));const lines=["### Editorial state consistency",`Result: ${d.ok?"PASS":"FAIL"}`,`Queue: ${d.queueCount}; history: ${d.historyCount}; decisions: ${d.decisionCount}`,`Discrepancies: ${d.errors.length}`,...d.errors.slice(0,10).map(e=>`- ${e}`)];fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY,lines.join("\n")+"\n")'
+          else
+            echo 'Editorial consistency diagnostics unavailable; inspect the preceding step.' >> "$GITHUB_STEP_SUMMARY"
+          fi
       - name: Upload editorial consistency diagnostics
         if: always() && (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch')
         uses: actions/upload-artifact@v4
