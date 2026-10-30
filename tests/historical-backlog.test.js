@@ -61,3 +61,11 @@ test('terminal leads are not resurrected by fresh daily discovery',()=>{
  const r=selectBacklog(st,[lead('rejected'),lead('archived')],40,new Date('2026-10-30T12:00:00Z'));
  assert.equal(r.selected.length,0);
 });
+
+test('direct primary source precedes indirect Google News RSS link within the same cohort',()=>{
+ const indirect=lead('rss',{url:'https://news.google.com/rss/articles/example',firstSeen:'2026-10-01T00:00:00Z'});
+ const direct=lead('official',{url:'https://example.org/grants/official',firstSeen:'2026-10-22T00:00:00Z'});
+ const result=selectBacklog(state([indirect,direct]),[],2,now);
+ assert.equal(result.selected[0].url,direct.url);
+ assert.equal(result.selected[1].url,indirect.url);
+});
