@@ -1151,6 +1151,42 @@
         "officialUrl": "https://www.iwmf.org/programs/fund-for-indigenous-journalists/",
         "evidence": "Página oficial IWMF confirma fluxo contínuo, projetos sobre pessoas indígenas desaparecidas/assassinadas nos EUA, elegibilidade de jornalistas de todos os gêneros, freelancers e vinculados. Valor não informado; duplicidade checada no catálogo e histórico em 30/10."
       }
+    },
+    {
+      "category": "tools",
+      "record": {
+        "id": "vega-lite-visualization-grammar",
+        "name": "Vega-Lite — gramática declarativa de visualização",
+        "kind": "visualização interativa de dados e gráficos declarativos",
+        "url": "https://vega.github.io/vega-lite/",
+        "desc": "Biblioteca aberta para especificar gráficos e visualizações interativas em JSON, incluindo camadas, múltiplas visões, filtros, agregações e seleções. Compila especificações para Vega; útil para visualizações reproduzíveis de dados jornalísticos. Exige conhecimentos de estrutura de dados, JSON e integração web; não substitui auditoria estatística, acessibilidade nem verificação de fontes. Documentação e editor online no projeto oficial.",
+        "discoveryUrl": "https://vega.github.io/"
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Radar PLOT — revisão editorial assistida",
+        "reviewedAt": "2026-10-30",
+        "officialUrl": "https://vega.github.io/vega-lite/",
+        "evidence": "Site e documentação oficial Vega-Lite confirmam gramática JSON, gráficos interativos, camadas e integração com Vega; projeto primário github.com/vega/vega-lite. Duplicidade ausente em 89 ferramentas, fila e histórico conferidos."
+      }
+    },
+    {
+      "category": "tools",
+      "record": {
+        "id": "inkscape-svg-editor",
+        "name": "Inkscape — editor vetorial SVG livre",
+        "kind": "edição de gráficos vetoriais e acabamento de visualizações",
+        "url": "https://inkscape.org/",
+        "desc": "Editor de código aberto para trabalhar com SVG, caminhos, camadas, textos e ilustrações vetoriais; útil para finalizar gráficos jornalísticos exportados em SVG e criar diagramas. Disponível para Windows, macOS e Linux, sem assinatura. É um editor de desenho, não uma ferramenta de análise estatística; revisar acessibilidade, fontes, licença de elementos externos e integridade dos dados antes da publicação.",
+        "discoveryUrl": "https://inkscape.org/"
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Radar PLOT — revisão editorial assistida",
+        "reviewedAt": "2026-10-30",
+        "officialUrl": "https://inkscape.org/",
+        "evidence": "Repositório oficial Inkscape no GitLab e documentação de licença confirmam editor SVG livre, multiplataforma, GPL. Site principal apresentou bloqueio de consulta web, mas código e documentação primários estão acessíveis. Duplicidade ausente em 89 ferramentas, fila e histórico conferidos."
+      }
     }
   ]
 }
