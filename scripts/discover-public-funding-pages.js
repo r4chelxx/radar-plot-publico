@@ -78,7 +78,32 @@ async function collect(fetcher=fetch){
      fallbackStatus=alternateLeads.length?'found-candidates':'no-relevant-static-links';
     }catch(error){fallbackStatus='error: '+String(error.message||error).slice(0,100)}
    }
-   if(source.additionalFallback&&!found.some(item=>{try{const u=new URL(item.url);return u.hostname==='gfmd.info'&&/^\\/fundings\\/[^/]+\\/?$/.test(u.pathname)}catch{return false}})){
+   if(source.additionalFallback&&!found.some(item=>{try{const u=new URL(item.url);return u.hostname==='gfmd.info'&&new RegExp('^/fundings/[^/]+/?}catch{return false}})){
+    try{
+     const extra=await fetcher(source.additionalFallback,{signal:AbortSignal.timeout(12000),headers:{'user-agent':'Radar-PLOT-Discovery/1.0','accept':'text/html'}});
+     if(extra.ok){
+      const additionalLeads=extract((await extra.text()).slice(0,1200000),extra.url||source.additionalFallback,source.name);
+      found=[...new Map([...found,...additionalLeads].map(item=>[item.url,item])).values()];
+      fallbackStatus=additionalLeads.length?'official-fellowship-taxonomy':'official-fellowship-taxonomy-empty';
+     }
+    }catch(error){fallbackStatus='official-fellowship-taxonomy-error: '+String(error.message||error).slice(0,80)}
+   }
+   leads.push(...found);
+   health.push({source:source.name,status:'ok',items:found.length,coverageStatus:found.length?'partial':'no-relevant-static-links',fallbackStatus,extractionStatus:found.length?'candidate-links':primaryExtractionStatus,staticAnchorCount,followUp:found.length?null:followUp,needsReview:found.length===0});
+  }catch(e){health.push({source:source.name,status:'error',items:0,coverageStatus:'partial',reason:String(e.message||e).slice(0,160),followUp:'review-official-access-or-alternate-public-source',needsReview:true})}
+ }
+ return {source:'web',leads,health};
+}
+if(require.main===module){
+ collect().then(result=>{
+  fs.mkdirSync('intake',{recursive:true});
+  fs.writeFileSync('intake/public-funding-pages.json',JSON.stringify({source:result.source,leads:result.leads},null,2)+'\n');
+  fs.writeFileSync('intake/public-funding-health.json',JSON.stringify({generatedAt:new Date().toISOString(),health:result.health},null,2)+'\n');
+  console.log(JSON.stringify({candidates:result.leads.length,productiveSources:result.health.filter(x=>x.items>0).length,emptySources:result.health.filter(x=>x.items===0&&x.status!=='error').map(x=>x.source),failedSources:result.health.filter(x=>x.status==='error').map(x=>({source:x.source,reason:x.reason})),health:result.health}));
+ }).catch(e=>{console.error(e);process.exitCode=1});
+}
+module.exports={extract,collect};
+).test(u.pathname)}catch{return false}})){
     try{
      const extra=await fetcher(source.additionalFallback,{signal:AbortSignal.timeout(12000),headers:{'user-agent':'Radar-PLOT-Discovery/1.0','accept':'text/html'}});
      if(extra.ok){
