@@ -9,10 +9,11 @@ function editorialFunnel(queue,manifest,discovery={}){
  const high=pending.filter(x=>x.reviewPriority==='high');
  const byProvider={};for(const x of pending)for(const provider of new Set(x.providers||[]))byProvider[provider]=(byProvider[provider]||0)+1;
  const oldestPending=pending.reduce((old,x)=>!x.firstSeen?old:(!old||x.firstSeen<old?x.firstSeen:old),null);
+ const pendingByCategory={};for(const x of pending){const category=x.category||'unknown';pendingByCategory[category]=(pendingByCategory[category]||0)+1;}
  const opportunitySignals=pending.filter(x=>/grant|fund|fellowship|opportun|journalist|bolsa|edital|financiamento/i.test([x.title,...(x.providers||[])].join(' '))).length;
  const current=(discovery.review||[]).filter(x=>x.classification==='needs-editorial-review'&&x.id);
  const existing=new Set(items.map(x=>x.id));
  const newCandidates=current.filter(x=>!existing.has(x.id));
- return {currentRunReviewCandidates:current.length,currentRunNewCandidates:new Set(newCandidates.map(x=>x.id)).size,projectedQueueTotal:items.length+new Set(newCandidates.map(x=>x.id)).size,queueTotal:items.length,pending:pending.length,oldestPendingFirstSeen:oldestPending,opportunitySignalPending:opportunitySignals,pendingByProvider:Object.entries(byProvider).sort((a,b)=>b[1]-a[1]).slice(0,15).map(([provider,count])=>({provider,count})),highPriorityPending:high.length,queueStatuses:byStatus,approvedManifestTotal:approved.length,approvedManifestByCategory:byCategory,publicationConfirmedByThisReport:false,warning:'Manifest approval and queue status do not confirm actual catalog publication or live deployment.'};
+ return {currentRunReviewCandidates:current.length,currentRunNewCandidates:new Set(newCandidates.map(x=>x.id)).size,projectedQueueTotal:items.length+new Set(newCandidates.map(x=>x.id)).size,queueTotal:items.length,pending:pending.length,oldestPendingFirstSeen:oldestPending,opportunitySignalPending:opportunitySignals,pendingByCategory,pendingByProvider:Object.entries(byProvider).sort((a,b)=>b[1]-a[1]).slice(0,15).map(([provider,count])=>({provider,count})),highPriorityPending:high.length,queueStatuses:byStatus,approvedManifestTotal:approved.length,approvedManifestByCategory:byCategory,publicationConfirmedByThisReport:false,warning:'Manifest approval and queue status do not confirm actual catalog publication or live deployment.'};
 }
 module.exports={editorialFunnel};
