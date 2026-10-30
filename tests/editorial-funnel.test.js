@@ -6,3 +6,5 @@ test('distinguishes pending leads, approved manifest and confirmed publications'
  assert.equal(r.approvedManifestByCategory.opportunities,1);
  assert.equal(r.publicationConfirmedByThisReport,false);
 });
+
+test('reports current-run new leads without claiming persistence',()=>{const r=editorialFunnel({candidates:[{id:'old',status:'pending'}]},{approved:[]},{review:[{id:'old',classification:'needs-editorial-review'},{id:'new',classification:'needs-editorial-review'}]});assert.equal(r.currentRunNewCandidates,1);assert.equal(r.projectedQueueTotal,2);assert.equal(r.queueTotal,1);});
