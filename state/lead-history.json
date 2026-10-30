@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-30T03:29:27.017Z",
+  "updatedAt": "2026-10-30T03:37:42.416Z",
   "leads": {
     "21d08dec9013d505e3e682633dc64ac66d18d9ce040e2b381ea738cf297fd16d": {
       "url": "https://data.inpe.br/biomasbr/sala-de-situacao-municipal-e-a-nova-ferramenta-do-terrabrasilis-para-apoiar-estados-e-municipios-no-controle-do-desmatamento-e-fogo",
@@ -4745,16 +4745,20 @@
       "firstSeen": "2026-10-23T17:21:05.512Z",
       "lastSeen": "2026-10-30T03:29:27.017Z",
       "seenCount": 28,
-      "editorialStatus": "unverified",
+      "editorialStatus": "archived",
       "lastInspectedAt": "2026-10-23T20:33:22.672Z",
       "pageStatus": "http-error",
       "inspectionCount": 1,
-      "reviewedAt": null,
-      "reviewedBy": null,
-      "editorialEvidence": null,
-      "decisionReason": null,
+      "reviewedAt": "2026-10-30",
+      "reviewedBy": "Radar PLOT — revisão editorial assistida",
+      "editorialEvidence": "https://www.dataiq.global/2026-dataiq-awards-faq/",
+      "decisionReason": "DataIQ Awards 2026 encerrado; cerimônia realizada em 17/09/2026. Prazo final exato não confirmado; monitorar 2027.",
       "lastEditorialQueuedAt": "2026-10-26T13:51:24.500Z",
-      "editorialQueueCount": 1
+      "editorialQueueCount": 1,
+      "archiveKind": "closed-opportunity",
+      "deadline": null,
+      "archiveSource": "https://www.dataiq.global/2026-dataiq-awards-faq/",
+      "archiveVerifiedAt": "2026-10-30"
     },
     "0bae48d554d6616e03292adbff1808f3224bb5337e35350cc900edde35f3dd62": {
       "url": "https://allthingsspatial.com/",
@@ -9365,16 +9369,20 @@
       "firstSeen": "2026-10-23T17:21:05.512Z",
       "lastSeen": "2026-10-30T03:29:27.017Z",
       "seenCount": 28,
-      "editorialStatus": "unverified",
+      "editorialStatus": "archived",
       "lastInspectedAt": "2026-10-29T20:07:28.411Z",
       "pageStatus": "http-error",
       "inspectionCount": 1,
-      "reviewedAt": null,
-      "reviewedBy": null,
-      "editorialEvidence": null,
-      "decisionReason": null,
+      "reviewedAt": "2026-10-30",
+      "reviewedBy": "Radar PLOT — revisão editorial assistida",
+      "editorialEvidence": "https://www.sigmaawards.org/sigma-awards-2026-for-data-journalism-are-open-for-entries/",
+      "decisionReason": "Inscrições Sigma 2026 encerradas; vencedores 2026 anunciados. Reauditar próximo ciclo, sem confundir com chamada aberta.",
       "lastEditorialQueuedAt": "2026-10-29T22:35:40.705Z",
-      "editorialQueueCount": 1
+      "editorialQueueCount": 1,
+      "archiveKind": "closed-opportunity",
+      "deadline": "2026-01-18",
+      "archiveSource": "https://www.sigmaawards.org/sigma-awards-2026-for-data-journalism-are-open-for-entries/",
+      "archiveVerifiedAt": "2026-10-30"
     },
     "b7a95c0fde895d3c618cc8db1b2882806800ec5b9e5e7170d1bfa3cf3d08079c": {
       "url": "https://osgeo.org/",
