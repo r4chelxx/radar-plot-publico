@@ -14,9 +14,9 @@ async function inspect(lead){
  if(!allowed(lead.url))return {...lead,pageStatus:'blocked-url',editoriallyVerified:false};
  const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),9000);
  try{
-  const response=await fetch(lead.url,{signal:controller.signal,redirect:'follow',headers:{'user-agent':'RadarPLOT-monitor/1.0'}});
+  const response=await fetch(lead.url,{signal:controller.signal,redirect:'follow',headers:{'user-agent':'RadarPLOT-monitor/1.0','accept':'text/html,application/xhtml+xml;q=0.9,*/*;q=0.8'}});
   const contentType=response.headers.get('content-type')||'';
-  if(!response.ok||!contentType.includes('text/html'))return {...lead,pageStatus:response.ok?'non-html':'http-error',httpStatus:response.status,finalUrl:response.url||lead.url,editoriallyVerified:false};
+  if(!response.ok||!/(text\/html|application\/xhtml\+xml)/i.test(contentType))return {...lead,pageStatus:response.ok?'non-html':'http-error',httpStatus:response.status,finalUrl:response.url||lead.url,editoriallyVerified:false};
   const html=(await response.text()).slice(0,120000);
   const title=((html.match(/<title[^>]*>([\s\S]*?)<\/title>/i)||[])[1]||'').replace(/<[^>]+>/g,' ').replace(/\s+/g,' ').trim().slice(0,240);
   const description=((html.match(/<meta[^>]+name=["']description["'][^>]+content=["']([^"']{1,500})/i)||[])[1]||'').trim();
@@ -33,7 +33,10 @@ async function inspect(lead){
  const selected=backlog.selected;
  const results=[];
  for(const item of selected)results.push({...await inspect(item),historicalId:item.id,historyAtSelection:item.origin,archivedRecheck:item.editorialStatus==='archived',requiresReopeningReview:item.editorialStatus==='archived'});
- const out={generatedAt:new Date().toISOString(),policy:'Unverified evidence only. Date mentions are NOT deadlines.',eligibleForPublication:0,eligibleCandidates:backlog.total,inspected:results.length,archivedRechecks:results.filter(x=>x.archivedRecheck).length,capacity:{configured:limit,effective:effectiveLimit,pressure:capacity.pressure,policy:capacity.policy},selection:{historyLoaded:previous!==null,backlogTotal:backlog.total,ready:backlog.ready,waiting:backlog.waiting,priorities:selected.reduce((a,x)=>(a[x.origin]=(a[x.origin]||0)+1,a),{})},results};
+ const statusCounts=results.reduce((a,x)=>(a[x.pageStatus]=(a[x.pageStatus]||0)+1,a),{});
+ const httpStatusCounts=results.reduce((a,x)=>(x.httpStatus&&(a[x.httpStatus]=(a[x.httpStatus]||0)+1),a),{});
+ const htmlFetched=statusCounts['html-fetched']||0;
+ const out={statusCounts,httpStatusCounts,degraded:results.length>0&&htmlFetched===0,generatedAt:new Date().toISOString(),policy:'Unverified evidence only. Date mentions are NOT deadlines.',eligibleForPublication:0,eligibleCandidates:backlog.total,inspected:results.length,archivedRechecks:results.filter(x=>x.archivedRecheck).length,capacity:{configured:limit,effective:effectiveLimit,pressure:capacity.pressure,policy:capacity.policy},selection:{historyLoaded:previous!==null,backlogTotal:backlog.total,ready:backlog.ready,waiting:backlog.waiting,priorities:selected.reduce((a,x)=>(a[x.origin]=(a[x.origin]||0)+1,a),{})},results};
  fs.writeFileSync('intake/lead-evidence.json',JSON.stringify(out,null,2)+'\n');
- console.log(JSON.stringify({inspected:results.length,htmlFetched:results.filter(x=>x.pageStatus==='html-fetched').length}));
+ console.log(JSON.stringify({inspected:results.length,htmlFetched,statusCounts,httpStatusCounts,degraded:out.degraded}));
 })().catch(e=>{console.error(e);process.exitCode=1});
