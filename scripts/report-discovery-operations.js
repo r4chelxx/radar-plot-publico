@@ -5,8 +5,8 @@ const {editorialFunnel}=require('./editorial-funnel');
 const read=file=>JSON.parse(fs.readFileSync(file,'utf8'));
 const feed=read('intake/live-web-health.json'),dvs=read('intake/dvs-public-health.json'),funding=read('intake/public-funding-health.json'),quality=read('intake/discovery-quality.json');
 const opportunity=fs.existsSync('intake/opportunity-web-health.json')?read('intake/opportunity-web-health.json'):{health:[]};
-const gmail=fs.existsSync('intake/gmail-health.json')?read('intake/gmail-health.json'):{health:[{source:'Gmail Radar PLOT',status:'unconfigured',items:0}]};
-const linkedin=fs.existsSync('intake/linkedin-indexed-health.json')?read('intake/linkedin-indexed-health.json'):{health:[{source:'LinkedIn indexed search',status:'unconfigured',items:0}]};
+const gmail=fs.existsSync('intake/gmail-health.json')?read('intake/gmail-health.json'):{health:[]};
+const linkedin=fs.existsSync('intake/linkedin-indexed-health.json')?read('intake/linkedin-indexed-health.json'):{health:[]};
 const sources=[
  ...(gmail.health||[]).map(x=>({name:x.source,status:x.status,candidates:x.items||0,error:x.reason||null})),
  ...(linkedin.health||[]).map(x=>({name:x.source+': '+(x.query||'public'),status:x.status,candidates:x.items||0,error:x.reason||null})),
