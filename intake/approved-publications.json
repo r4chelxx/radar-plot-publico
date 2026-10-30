@@ -929,6 +929,42 @@
         "officialUrl": "https://digital-strategy.ec.europa.eu/en/funding/call-proposals-journalism-partnerships-collaborations-2027",
         "evidence": "Comissão Europeia confirma publicação 21/10/2026, abertura 22/10, encerramento 04/02/2027, consórcios de ao menos três entidades de três países Creative Europe, teto € 2 milhões e cofinanciamento 80%; ausência de título, ID e URL no catálogo e no manifesto aprovado verificada em 30/10. GFMD é apenas fonte secundária de descoberta."
       }
+    },
+    {
+      "category": "tools",
+      "record": {
+        "id": "google-earth-engine",
+        "name": "Google Earth Engine — análise geoespacial em nuvem",
+        "kind": "sensoriamento remoto e análise geoespacial de imagens de satélite",
+        "url": "https://earthengine.google.com/",
+        "desc": "Plataforma para consultar imagens de satélite e conjuntos geoespaciais, processar séries temporais, detectar mudanças ambientais e construir análises em Python ou JavaScript. Inclui editor de código e catálogo de dados. Requer conta, projeto Google Cloud registrado e conhecimento técnico; uso gratuito depende de elegibilidade e verificação periódica de finalidade não comercial, com cotas de processamento. A cobertura e a resolução variam por coleção, e resultados de classificação exigem validação independente.",
+        "discoveryUrl": "https://earthengine.google.com/"
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Radar PLOT — revisão editorial assistida",
+        "reviewedAt": "2026-10-30",
+        "officialUrl": "https://earthengine.google.com/",
+        "evidence": "Página primária do Earth Engine confirma editor web, APIs Python/JavaScript, acervo geoespacial e análise de imagens; documentação Google sobre acesso e noncommercial tiers confirma exigência de projeto, verificação de elegibilidade e cotas. Descoberto na fila pública DVS, sem ID, URL ou nome equivalentes nos três catálogos e manifesto em 30/10/2026."
+      }
+    },
+    {
+      "category": "tools",
+      "record": {
+        "id": "folium-python-leaflet-maps",
+        "name": "Folium — mapas interativos em Python",
+        "kind": "cartografia interativa e visualização geoespacial em Python",
+        "url": "https://python-visualization.github.io/folium/latest/",
+        "desc": "Biblioteca de código aberto que transforma dados tratados em Python em mapas interativos baseados em Leaflet, com marcadores, camadas, coropléticos e dados GeoJSON. Permite exportar mapas HTML e integrar resultados a notebooks. Requer programação e conferência de projeções, atribuição de mapas-base e licenças das fontes; mapas exportados podem depender de recursos externos para carregar tiles e scripts, e a interatividade não substitui verificação cartográfica nem acessibilidade.",
+        "discoveryUrl": "https://python-visualization.github.io/folium/"
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Radar PLOT — revisão editorial assistida",
+        "reviewedAt": "2026-10-30",
+        "officialUrl": "https://python-visualization.github.io/folium/latest/",
+        "evidence": "Documentação oficial Folium consultada em 30/10/2026 confirma mapas Leaflet a partir de Python, coropléticos, camadas, GeoJSON e exportação HTML; repositório do projeto python-visualization/folium documenta instalação e código aberto. Presente como candidato na fila DVS, sem registro de mesmo nome, ID ou URL nos catálogos e manifesto."
+      }
     }
   ]
 }
