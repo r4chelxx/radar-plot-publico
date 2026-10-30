@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-30T03:29:43.588Z",
+  "updatedAt": "2026-10-30T03:37:49.000Z",
   "policy": "Public web leads only; pending does not mean verified or approved.",
   "candidates": [
     {
@@ -218,14 +218,18 @@
       "id": "0b8ea2c3432d91e632babe8b168ecb26782aa44fded9fb094d0f976397861b77",
       "title": "Award DataIQ Awards",
       "url": "https://www.dataiq.global/2026-dataiq-awards-categories",
-      "category": "uncategorized",
+      "category": "opportunities",
       "providers": [
         "Data Visualization Society"
       ],
       "firstSeen": "2026-10-23T17:21:05.512Z",
       "lastSeen": "2026-10-30T01:50:41.483Z",
-      "status": "pending",
-      "reviewPriority": "high"
+      "status": "archived",
+      "reviewPriority": "high",
+      "archiveKind": "closed-opportunity",
+      "deadline": null,
+      "officialUrl": "https://www.dataiq.global/2026-dataiq-awards-faq/",
+      "archiveVerifiedAt": "2026-10-30"
     },
     {
       "id": "0bae48d554d6616e03292adbff1808f3224bb5337e35350cc900edde35f3dd62",
@@ -3343,14 +3347,18 @@
       "id": "b7a13ea5d857ee4d7c83d7b9c2ede255a7f139faabf5555c08ed943851e99b29",
       "title": "Award The Sigma Awards",
       "url": "https://sigmaawards.org/",
-      "category": "uncategorized",
+      "category": "opportunities",
       "providers": [
         "Data Visualization Society"
       ],
       "firstSeen": "2026-10-23T17:21:05.512Z",
       "lastSeen": "2026-10-30T01:50:41.483Z",
-      "status": "pending",
-      "reviewPriority": "high"
+      "status": "archived",
+      "reviewPriority": "high",
+      "archiveKind": "closed-opportunity",
+      "deadline": "2026-01-18",
+      "officialUrl": "https://www.sigmaawards.org/sigma-awards-2026-for-data-journalism-are-open-for-entries/",
+      "archiveVerifiedAt": "2026-10-30"
     },
     {
       "id": "b7a95c0fde895d3c618cc8db1b2882806800ec5b9e5e7170d1bfa3cf3d08079c",
