@@ -14,14 +14,14 @@ async function inspect(lead){
  if(!allowed(lead.url))return {...lead,pageStatus:'blocked-url',editoriallyVerified:false};
  const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),9000);
  try{
-  const response=await fetch(lead.url,{signal:controller.signal,redirect:'manual',headers:{'user-agent':'RadarPLOT-monitor/1.0'}});
+  const response=await fetch(lead.url,{signal:controller.signal,redirect:'follow',headers:{'user-agent':'RadarPLOT-monitor/1.0'}});
   const contentType=response.headers.get('content-type')||'';
-  if(!response.ok||!contentType.includes('text/html'))return {...lead,pageStatus:response.ok?'non-html':'http-error',httpStatus:response.status,editoriallyVerified:false};
+  if(!response.ok||!contentType.includes('text/html'))return {...lead,pageStatus:response.ok?'non-html':'http-error',httpStatus:response.status,finalUrl:response.url||lead.url,editoriallyVerified:false};
   const html=(await response.text()).slice(0,120000);
   const title=((html.match(/<title[^>]*>([\s\S]*?)<\/title>/i)||[])[1]||'').replace(/<[^>]+>/g,' ').replace(/\s+/g,' ').trim().slice(0,240);
   const description=((html.match(/<meta[^>]+name=["']description["'][^>]+content=["']([^"']{1,500})/i)||[])[1]||'').trim();
   const dateMentions=[...html.replace(/<script\b[\s\S]*?<\/script>/gi,' ').replace(/<style\b[\s\S]*?<\/style>/gi,' ').replace(/<[^>]+>/g,' ').matchAll(/\b20\d{2}[-\/]\d{2}[-\/]\d{2}\b/g)].slice(0,12).map(x=>x[0]);
-  return {...lead,pageStatus:'html-fetched',httpStatus:response.status,pageTitle:title,pageDescription:description,dateMentionsUnclassified:[...new Set(dateMentions)],fingerprint:crypto.createHash('sha256').update(html).digest('hex').slice(0,16),editoriallyVerified:false};
+  return {...lead,pageStatus:'html-fetched',httpStatus:response.status,finalUrl:response.url||lead.url,pageTitle:title,pageDescription:description,dateMentionsUnclassified:[...new Set(dateMentions)],fingerprint:crypto.createHash('sha256').update(html).digest('hex').slice(0,16),editoriallyVerified:false};
  }catch(e){return {...lead,pageStatus:'fetch-failed',error:String(e).slice(0,200),editoriallyVerified:false}}
  finally{clearTimeout(timer)}
 }
