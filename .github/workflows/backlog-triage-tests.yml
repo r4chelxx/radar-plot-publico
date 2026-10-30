@@ -1,0 +1,25 @@
+name: Radar backlog triage tests
+on:
+  pull_request:
+    paths:
+      - 'scripts/report-backlog-triage.js'
+      - 'tests/backlog-triage.test.js'
+      - '.github/workflows/backlog-triage-tests.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/report-backlog-triage.js'
+      - 'tests/backlog-triage.test.js'
+      - '.github/workflows/backlog-triage-tests.yml'
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node --test tests/backlog-triage.test.js
