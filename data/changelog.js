@@ -2,6 +2,22 @@ window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
 {
   "date": "2026-10-30",
+  "type": "nova-oportunidade",
+  "title": "Duas bolsas de reportagem IWMF — 30/10/2026",
+  "items": [
+    {
+      "id": "iwmf-fault-lines-reporting-fund",
+      "title": "IWMF — Fault Lines Reporting Fund"
+    },
+    {
+      "id": "iwmf-fund-indigenous-journalists-mmip",
+      "title": "IWMF — Fund for Indigenous Journalists (MMIP/WG2T)"
+    }
+  ],
+  "detail": "Fontes oficiais IWMF verificadas; ambas recebem candidaturas contínuas, têm elegibilidade restrita aos Estados Unidos e não possuem prazo final fixo informado."
+},
+{
+  "date": "2026-10-30",
   "type": "dados",
   "title": "Publicação editorial verificada — 2026-10-30",
   "items": [
