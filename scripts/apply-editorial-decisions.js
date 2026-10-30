@@ -22,9 +22,11 @@ for(const d of decisions.decisions){
  if(!lead)throw Error('Editorial decision references unknown lead: '+d.url);
  if(['approved','published','duplicate','rejected','archived'].includes(d.status)&&(!d.officialUrl||!/^https:\/\//.test(d.officialUrl)))throw Error('Missing official evidence: '+d.url);
  if(d.status==='approved'&&!approved.some(x=>x.review?.decision==='approved'&&x.review?.officialUrl===d.officialUrl))throw Error('Approval not present in publishing manifest: '+d.url);
+ if(d.status==='archived'&&d.archiveKind!=='closed-opportunity')throw Error('Archived opportunity must identify archiveKind: '+d.url);
  if(d.status==='published'&&!urls.has(d.officialUrl))throw Error('Publication not present in public catalog: '+d.url);
  const effectiveStatus=d.status==='approved'&&urls.has(d.officialUrl)?'published':d.status;
- input.leads[id]={...lead,editorialStatus:effectiveStatus,reviewedAt:d.reviewedAt,reviewedBy:d.reviewedBy,decisionReason:d.reason,editorialEvidence:d.officialUrl||null};
+ input.leads[id]={...lead,editorialStatus:effectiveStatus,reviewedAt:d.reviewedAt,reviewedBy:d.reviewedBy,decisionReason:d.reason,editorialEvidence:d.officialUrl||null,
+  ...(d.status==='archived'?{archiveKind:d.archiveKind||'closed-opportunity',deadline:d.deadline||null,archiveVerifiedAt:d.reviewedAt,archiveSource:d.officialUrl}:{} )};
  counts[effectiveStatus]=(counts[effectiveStatus]||0)+1;
 }
 fs.writeFileSync('intake/lead-history-next.json',JSON.stringify(input,null,2)+'\n');
