@@ -9,6 +9,17 @@ window.RADAR_PARTS.changelog=[
       "id": "gem-global-integrated-power-tracker",
       "title": "Global Energy Monitor — Global Integrated Power Tracker"
     },
+    {
+      "id": "gem-global-solar-power-tracker",
+      "title": "Global Energy Monitor — Global Solar Power Tracker"
+    },
+    {
+      "id": "openalex-scholarly-graph",
+      "title": "OpenAlex — catálogo aberto de pesquisa científica"
+    }
+  ],
+  "detail": "Global Integrated Power Tracker, Global Solar Power Tracker e OpenAlex, com fontes primárias, cadência, escopo, licenciamento e limitações documentados."
+},
 {
   "date": "2026-10-30",
   "type": "ferramentas",
