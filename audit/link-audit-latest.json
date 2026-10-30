@@ -1,10 +1,10 @@
 {
-  "checkedAt": "2026-10-29T20:34:07.604Z",
+  "checkedAt": "2026-10-30T02:56:55.136Z",
   "policy": "404/410 and ArcGIS application errors within HTTP 200 become broken only after appearing as suspect or broken in the previous audit; blocked and network results are inconclusive",
   "counts": {
-    "ok": 403,
+    "ok": 405,
     "blocked": 42,
-    "network": 28
+    "network": 27
   },
   "results": [
     {
@@ -1794,7 +1794,6 @@
       "finalUrl": "https://www.transparencia.ba.gov.br/Portal",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -1897,7 +1896,7 @@
       "id": "dadosgov",
       "url": "https://dados.gov.br/",
       "status": 200,
-      "finalUrl": "https://landpage.cgu.gov.br/dadosabertos/index.html",
+      "finalUrl": "https://dados.gov.br/",
       "class": "ok",
       "attempts": [
         200
@@ -2113,6 +2112,7 @@
       "finalUrl": "https://www.gov.br/ana/pt-br/assuntos/regulacao-e-fiscalizacao/cadastro-nacional-de-usuarios-recursos-hidricos-cnarh",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -2397,13 +2397,11 @@
       "type": "dataset",
       "id": "sesab-mortalidade-materna",
       "url": "https://biobr.saude.ba.gov.br/static/obitomaterno.php",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://biobr.saude.ba.gov.br/static/obitomaterno.php",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -2652,7 +2650,6 @@
       "finalUrl": "https://dadosabertos.ibama.gov.br/dataset/fiscalizacao-auto-de-infracao",
       "class": "ok",
       "attempts": [
-        502,
         200
       ]
     },
@@ -4489,6 +4486,17 @@
       "url": "https://journaliststudio.google.com/",
       "status": 200,
       "finalUrl": "https://journaliststudio.google.com/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "crawlback-common-crawl",
+      "url": "https://crawlback.cc/",
+      "status": 200,
+      "finalUrl": "https://crawlback.cc/",
       "class": "ok",
       "attempts": [
         200
