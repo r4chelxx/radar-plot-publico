@@ -1,7 +1,7 @@
 'use strict';
 const {test}=require('node:test');
 const assert=require('node:assert/strict');
-const {extract,collect}=require('../scripts/discover-public-funding-pages');
+const {extract,extractGfmdEmbeddedPaths,collect}=require('../scripts/discover-public-funding-pages');
 test('extracts relevant public links without claiming editorial approval',()=>{
  const html='<a href="/funding/grant-2026">Journalism funding grant for investigations</a><a href="/about">About us</a><a href="javascript:alert(1)">Open call for journalists</a>';
  const leads=extract(html,'https://gfmd.info/fundings/','GFMD funding');
@@ -138,4 +138,12 @@ test('public collector requests the actual grants listing, not the empty search 
  await collect(async url=>{requested.push(url);return {ok:true,status:200,url,text:async()=>'<a href="/about">About</a>'}});
  assert(requested.includes('https://grantsforjournalists.com/all-grants/'));
  assert(!requested.includes('https://grantsforjournalists.com/grants-for-journalists/'));
+});
+
+test('GFMD embedded funding detail paths are recovered without auto-approval',()=>{
+ const html='<script type="application/json">{"url":"https://gfmd.info/fundings/international-nieman-fellowship-2027/"}</script><div data-url="/fundings/fault-lines-reporting-fund/"></div>';
+ const leads=extractGfmdEmbeddedPaths(html);
+ assert.equal(leads.length,2);
+ assert(leads.some(x=>x.url==='https://gfmd.info/fundings/international-nieman-fellowship-2027'));
+ assert(leads.every(x=>x.editorialStatus==='unverified'));
 });
