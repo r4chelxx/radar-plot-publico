@@ -9,6 +9,16 @@ const lines=['## Radar PLOT — Descoberta diária','',
  '| Links candidatos | '+r.totals.candidates+' |',
  '| Links já no catálogo | '+r.totals.catalogMatches+' |',
  '| Revisão editorial pendente | '+r.totals.needsReview+' |','','### Fontes com falha'];
+const funnel=r.editorialFunnel||{};
+lines.push('','### Funil editorial persistido',
+ '- Origem do snapshot: '+(r.editorialQueueSource||'indisponível'),
+ '- Atualizado em: '+(r.editorialQueueUpdatedAt||'não informado'),
+ '- Pendentes: '+(funnel.pending??'indisponível'),
+ '- Candidatos novos nesta execução (comparação com snapshot): '+(funnel.currentRunNewCandidates??'indisponível'),
+ '- Pendências por categoria: '+Object.entries(funnel.pendingByCategory||{}).map(([k,v])=>k+'='+v).join(', '),
+ '- Sinais heurísticos de oportunidades: '+(funnel.opportunitySignalPending??'indisponível'),
+ '- Pendência mais antiga: '+(funnel.oldestPendingFirstSeen||'não informado'));
+lines.push('A categoria desconhecida indica registros legados sem classificação. Sinais por palavras-chave não equivalem a editais verificados.');
 lines.push('','### Cobertura por família de fontes');
 for(const [name,x] of Object.entries(r.coverage||{}))lines.push('- '+name+': '+x.healthy+'/'+x.total+' fontes acessíveis ('+(x.recovered||0)+' recuperadas); '+x.candidates+' links coletados');
 lines.push('','**Estado da coleta:** '+(r.overallStatus||'unknown'));
