@@ -2,6 +2,18 @@ window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
 {
   "date": "2026-10-29",
+  "type": "ferramentas",
+  "title": "Publicação editorial verificada — 2026-10-29",
+  "items": [
+    {
+      "id": "crawlback-common-crawl",
+      "title": "Crawlback — busca em páginas arquivadas do Common Crawl"
+    }
+  ],
+  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Crawlback — busca em páginas arquivadas do Common Crawl."
+}, 
+{
+  "date": "2026-10-29",
   "type": "dados",
   "title": "Publicação editorial verificada — 2026-10-29",
   "items": [
