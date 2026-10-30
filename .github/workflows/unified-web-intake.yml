@@ -180,7 +180,13 @@ jobs:
           git switch -
       - name: Reload current persisted editorial queue for reporting
         if: github.event_name != 'pull_request'
-        run: node scripts/load-persisted-editorial-queue.js intake/editorial-queue.json intake/editorial-queue-report.json
+        run: |
+          # The workflow switched back to main after persisting. Its local queue
+          # may be missing or stale, so read the just-persisted remote branch.
+          git fetch --depth=1 origin radar-state
+          git show FETCH_HEAD:intake/editorial-queue.json > /tmp/radar-persisted-editorial-queue.json
+          node scripts/load-persisted-editorial-queue.js /tmp/radar-persisted-editorial-queue.json intake/editorial-queue-report.json
+          node -e "const r=require('./intake/editorial-queue-report.json');if(r.source!=='radar-state')process.exit(1)"
       - name: Summarize collector reliability
         run: node scripts/report-discovery-operations.js
       - name: Show source failures in workflow summary
