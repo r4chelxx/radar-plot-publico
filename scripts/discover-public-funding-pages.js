@@ -4,7 +4,7 @@ const fs=require('node:fs');
 const {canonical}=require('./lead-identity');
 const {isRelevant}=require('./public-feed-relevance');
 const sources=[
- {name:'Grants for Journalists',url:'https://grantsforjournalists.com/grants-for-journalists/'},
+ {name:'Grants for Journalists',url:'https://grantsforjournalists.com/all-grants/'},
  {name:'GFMD funding',url:'https://gfmd.info/fundings/',fallback:'https://gfmd.info/find-funding/',additionalFallback:'https://gfmd.info/type_fund/fellowship/'},
  {name:'Opportunity Desk',url:'https://opportunitydesk.org/latest-posts/',fallback:'https://opportunitydesk.org/category/fellowships/'},
  {name:'NewsFuel',url:'https://newsfuel.org/opportunities'},
@@ -15,12 +15,17 @@ function extract(html,base,name){
  const seen=new Set(),leads=[];
  for(const match of html.matchAll(/<a\b([^>]*?)>([\s\S]*?)<\/a>/gi)){
   const href=match[1].match(/\bhref\s*=\s*["']([^"']+)["']/i)?.[1];
-  const title=decode(match[2]).slice(0,220);
+  let title=decode(match[2]).slice(0,220);
   if(!href)continue;
   try{
    const url=canonical(new URL(href,base).toString());
    const host=new URL(url).hostname;
    const path=new URL(url).pathname;
+   if(name==='Grants for Journalists'&&['grantsforjournalists.com','www.grantsforjournalists.com'].includes(host)&&/^\/grant\/[^/]+\/?$/.test(path)&&/^(?:view details|details)$/i.test(title)){
+    const preceding=html.slice(Math.max(0,match.index-2200),match.index);
+    const headings=[...preceding.matchAll(/<h[1-6]\b[^>]*>([\s\S]*?)<\/h[1-6]>/gi)];
+    title=decode(headings.at(-1)?.[1]||'').slice(0,220)||decodeURIComponent(path.split('/').filter(Boolean).at(-1)).replace(/-/g,' ');
+   }
    if(name==='GFMD funding'&&host==='gfmd.info'&&/^\/(?:fundings|find-funding)\/?$/.test(path))continue;
    // Category/directory navigation is not an individual funding opportunity.
    if(name==='Grants for Journalists'&&['grantsforjournalists.com','www.grantsforjournalists.com'].includes(host)&&['/grants-for-journalists','/all-grants','/grants-for-journalists/','/all-grants/'].includes(path))continue;
