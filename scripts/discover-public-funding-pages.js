@@ -44,6 +44,18 @@ function extract(html,base,name){
  }
  return leads;
 }
+function extractGfmdEmbeddedPaths(html){
+ const leads=[],seen=new Set();
+ for(const m of html.matchAll(/(?:https?:\/\/(?:www\.)?gfmd\.info)?\/fundings\/([a-z0-9][a-z0-9-]{7,})\/?/gi)){
+  const slug=m[1].toLowerCase();
+  if(seen.has(slug)||/^(?:archive|category|search|page|fundings)$/.test(slug))continue;
+  seen.add(slug);
+  const url=canonical('https://gfmd.info/fundings/'+slug+'/');
+  leads.push({url,title:slug.replace(/-/g,' '),category:'uncategorized',sourceName:'GFMD funding',editorialStatus:'unverified'});
+  if(leads.length>=60)break;
+ }
+ return leads;
+}
 async function collect(fetcher=fetch){
  const leads=[],health=[];
  for(const source of sources){
@@ -65,6 +77,7 @@ async function collect(fetcher=fetch){
    }
    const html=(await response.text()).slice(0,1200000);
    let found=extract(html,response.url||source.url,source.name);
+   if(source.name==='GFMD funding')found=[...new Map([...found,...extractGfmdEmbeddedPaths(html)].map(x=>[x.url,x])).values()];
    const staticAnchorCount=[...html.matchAll(/<a\b[^>]*\bhref\s*=/gi)].length;
    const primaryExtractionStatus=found.length?'candidate-links':staticAnchorCount?'no-relevant-static-links':'no-static-links';
    const followUp=found.length?null:staticAnchorCount?'review-link-structure-and-relevance':'review-javascript-rendering-or-official-feed';
@@ -78,7 +91,9 @@ async function collect(fetcher=fetch){
     try{
      const alternate=await fetcher(source.fallback,{signal:AbortSignal.timeout(12000),headers:{'user-agent':'Radar-PLOT-Discovery/1.0','accept':'text/html'}});
      if(!alternate.ok)throw Error('HTTP '+alternate.status);
-     const alternateLeads=extract((await alternate.text()).slice(0,1200000),alternate.url||source.fallback,source.name);
+     const alternateHtml=(await alternate.text()).slice(0,1200000);
+     const alternateLeads=extract(alternateHtml,alternate.url||source.fallback,source.name);
+     if(source.name==='GFMD funding')alternateLeads.push(...extractGfmdEmbeddedPaths(alternateHtml));
      found=[...new Map([...found,...alternateLeads].map(item=>[item.url,item])).values()];
      fallbackStatus=alternateLeads.length?'found-candidates':'no-relevant-static-links';
     }catch(error){fallbackStatus='error: '+String(error.message||error).slice(0,100)}
@@ -87,7 +102,9 @@ async function collect(fetcher=fetch){
     try{
      const extra=await fetcher(source.additionalFallback,{signal:AbortSignal.timeout(12000),headers:{'user-agent':'Radar-PLOT-Discovery/1.0','accept':'text/html'}});
      if(extra.ok){
-      const additionalLeads=extract((await extra.text()).slice(0,1200000),extra.url||source.additionalFallback,source.name);
+      const extraHtml=(await extra.text()).slice(0,1200000);
+      const additionalLeads=extract(extraHtml,extra.url||source.additionalFallback,source.name);
+      additionalLeads.push(...extractGfmdEmbeddedPaths(extraHtml));
       found=[...new Map([...found,...additionalLeads].map(item=>[item.url,item])).values()];
       fallbackStatus=additionalLeads.length?'official-fellowship-taxonomy':'official-fellowship-taxonomy-empty';
      }
@@ -107,4 +124,4 @@ if(require.main===module){
   console.log(JSON.stringify({candidates:result.leads.length,productiveSources:result.health.filter(x=>x.items>0).length,emptySources:result.health.filter(x=>x.items===0&&x.status!=='error').map(x=>x.source),failedSources:result.health.filter(x=>x.status==='error').map(x=>({source:x.source,reason:x.reason})),health:result.health}));
  }).catch(e=>{console.error(e);process.exitCode=1});
 }
-module.exports={extract,collect};
+module.exports={extract,extractGfmdEmbeddedPaths,collect};
