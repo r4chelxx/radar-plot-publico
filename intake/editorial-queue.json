@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-30T03:38:21.854Z",
+  "updatedAt": "2026-10-30T03:38:57.365Z",
   "policy": "Public web leads only; pending does not mean verified or approved.",
   "candidates": [
     {
@@ -6021,6 +6021,29 @@
       "lastSeen": "2026-10-30T01:50:41.483Z",
       "status": "pending",
       "reviewPriority": "high"
+    },
+    {
+      "id": "26e1184f436bf31921aa6f3a94af7824b112f4c89e10d43021015602c24af4e8",
+      "title": "Tow Center — AI Deals and Disputes Tracker",
+      "url": "https://tow.cjr.org/ai-deals-lawsuits",
+      "category": "datasets",
+      "providers": [
+        "Tow Center / CJR (newsletter Radar PLOT.)"
+      ],
+      "firstSeen": "2026-10-30T03:38:57.365Z",
+      "lastSeen": "2026-10-30T03:38:57.365Z",
+      "status": "pending",
+      "reviewPriority": "high",
+      "officialSource": "https://www.cjr.org/tow_center/who-wins-who-sues-who-pays-the-price-tow-ai-deals-tracker-lawsuits-complex-geographic-inequities.php",
+      "pendingChecks": [
+        "data-access",
+        "download-or-export",
+        "methodology",
+        "coverage",
+        "license",
+        "duplication"
+      ],
+      "publicationReady": false
     }
   ]
 }
