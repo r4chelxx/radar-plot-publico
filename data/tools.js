@@ -1,6 +1,22 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.tools=[
 {
+  "id": "google-earth-engine",
+  "name": "Google Earth Engine — análise geoespacial em nuvem",
+  "kind": "sensoriamento remoto e análise geoespacial de imagens de satélite",
+  "url": "https://earthengine.google.com/",
+  "desc": "Plataforma para consultar imagens de satélite e conjuntos geoespaciais, processar séries temporais, detectar mudanças ambientais e construir análises em Python ou JavaScript. Inclui editor de código e catálogo de dados. Requer conta, projeto Google Cloud registrado e conhecimento técnico; uso gratuito depende de elegibilidade e verificação periódica de finalidade não comercial, com cotas de processamento. A cobertura e a resolução variam por coleção, e resultados de classificação exigem validação independente.",
+  "discoveryUrl": "https://earthengine.google.com/"
+},
+{
+  "id": "folium-python-leaflet-maps",
+  "name": "Folium — mapas interativos em Python",
+  "kind": "cartografia interativa e visualização geoespacial em Python",
+  "url": "https://python-visualization.github.io/folium/latest/",
+  "desc": "Biblioteca de código aberto que transforma dados tratados em Python em mapas interativos baseados em Leaflet, com marcadores, camadas, coropléticos e dados GeoJSON. Permite exportar mapas HTML e integrar resultados a notebooks. Requer programação e conferência de projeções, atribuição de mapas-base e licenças das fontes; mapas exportados podem depender de recursos externos para carregar tiles e scripts, e a interatividade não substitui verificação cartográfica nem acessibilidade.",
+  "discoveryUrl": "https://python-visualization.github.io/folium/"
+}, 
+{
   "id": "crawlback-common-crawl",
   "name": "Crawlback — busca em páginas arquivadas do Common Crawl",
   "kind": "investigação digital e recuperação de versões arquivadas de páginas",
