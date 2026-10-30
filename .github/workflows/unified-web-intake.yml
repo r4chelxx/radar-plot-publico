@@ -143,10 +143,6 @@ jobs:
             git show FETCH_HEAD:intake/editorial-queue.json > /tmp/radar-persisted-editorial-queue.json || true
           fi
           node scripts/load-persisted-editorial-queue.js /tmp/radar-persisted-editorial-queue.json intake/editorial-queue-report.json
-      - name: Summarize collector reliability
-        run: node scripts/report-discovery-operations.js
-      - name: Show source failures in workflow summary
-        run: node scripts/summarize-discovery.js
       - name: Persist candidates on radar-state branch
         if: github.event_name != 'pull_request'
         run: |
@@ -169,6 +165,13 @@ jobs:
             git push origin radar-state
           fi
           git switch -
+      - name: Reload current persisted editorial queue for reporting
+        if: github.event_name != 'pull_request'
+        run: node scripts/load-persisted-editorial-queue.js intake/editorial-queue.json intake/editorial-queue-report.json
+      - name: Summarize collector reliability
+        run: node scripts/report-discovery-operations.js
+      - name: Show source failures in workflow summary
+        run: node scripts/summarize-discovery.js
       - name: Upload non-publishing discovery queue
         uses: actions/upload-artifact@v4
         with:
