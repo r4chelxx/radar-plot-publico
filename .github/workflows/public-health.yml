@@ -78,6 +78,15 @@ jobs:
       - name: Confirm reviewed leads are not reopened in daily queue
         if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
         run: node scripts/check-operational-state.js /tmp/radar-operational/queue.json /tmp/radar-operational/history.json intake/historical-decisions.json
+      - name: Verify deployed current-main records during PR review
+        if: github.event_name == 'pull_request'
+        env:
+          RADAR_DEPLOY_RETRIES: '8'
+          RADAR_DEPLOY_DELAY_MS: '5000'
+        run: |
+          git fetch origin main --depth=1
+          git checkout --detach FETCH_HEAD
+          node scripts/verify-published-records.js
       - name: Record health result
         if: always()
         run: |
