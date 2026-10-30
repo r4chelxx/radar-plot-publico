@@ -31,3 +31,32 @@ test('Gmail scans body even when subject and snippet omit funding keywords',asyn
  const fetcher=async url=>({ok:true,json:async()=>String(url).includes('oauth2.googleapis.com')?{access_token:'test'}:String(url).endsWith('/labels')?{labels:[{id:'L',name:'Radar PLOT.'}]}:String(url).includes('/messages?')?{messages:[{id:'a'}]}:{payload:{headers:[{name:'Subject',value:'Weekly digest'}],body:{data:Buffer.from('Journalism grant https://example.org/fellowship').toString('base64url')}},snippet:'New issue'}});
  try{const r=await gmail.collect(fetcher,{RADAR_GMAIL_CLIENT_ID:'x',RADAR_GMAIL_CLIENT_SECRET:'y',RADAR_GMAIL_REFRESH_TOKEN:'z',RADAR_GMAIL_CURSOR_FILE:path.join(dir,'cursor.json')});assert.equal(r.leads.length,1)}finally{fs.rmSync(dir,{recursive:true,force:true})}
 });
+
+
+test('Gmail checkpoint skips previously read message IDs without storing raw IDs',async()=>{
+ const fs=require('node:fs'),os=require('node:os'),path=require('node:path'),crypto=require('node:crypto');
+ const dir=fs.mkdtempSync(path.join(os.tmpdir(),'radar-gmail-idempotent-'));
+ const cursor=path.join(dir,'cursor.json');
+ let reads=0;
+ const fetcher=async url=>({ok:true,json:async()=>{
+  const u=String(url);
+  if(u.includes('oauth2.googleapis.com'))return {access_token:'test'};
+  if(u.endsWith('/labels'))return {labels:[{id:'L',name:'Radar PLOT.'}]};
+  if(u.includes('/messages?'))return {messages:[{id:'known-message'}]};
+  reads++;return {payload:{headers:[{name:'Subject',value:'Journalism grant'}]},snippet:'https://example.org/grant'};
+ }});
+ const env={RADAR_GMAIL_CLIENT_ID:'x',RADAR_GMAIL_CLIENT_SECRET:'y',RADAR_GMAIL_REFRESH_TOKEN:'z',RADAR_GMAIL_CURSOR_FILE:cursor};
+ try{
+  const a=await gmail.collect(fetcher,env);
+  assert.equal(a.health[0].scanned,1);assert.equal(reads,1);
+  const stored=JSON.parse(fs.readFileSync(cursor));
+  assert.equal(stored.processed,1);
+  assert.deepEqual(stored.processedIdHashes,[crypto.createHash('sha256').update('known-message').digest('hex')]);
+  assert(!fs.readFileSync(cursor,'utf8').includes('known-message'));
+  const b=await gmail.collect(fetcher,env);
+  assert.equal(b.health[0].scanned,0);
+  assert.equal(b.health[0].skippedAlready,1);
+  assert.equal(b.leads.length,0);
+  assert.equal(reads,1);
+ }finally{fs.rmSync(dir,{recursive:true,force:true})}
+});
