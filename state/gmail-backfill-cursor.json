@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "labelName": "Radar PLOT.",
   "labelId": "Label_3603240905167932728",
-  "pageToken": "18047109303394940572",
+  "pageToken": "",
   "processed": 140,
   "processedIdHashes": [
     "d834ea370cc911923dfd5d30418092772cf86d2ebefc5b4e79cd7ea71ec6bec1",
@@ -158,5 +158,7 @@
   ],
   "lastPageMessageCount": 50,
   "publicationVerifiedByThisCursor": false,
-  "githubOAuthAutonomy": false
+  "githubOAuthAutonomy": false,
+  "connectorPageToken": "18047109303394940572",
+  "cursorCompatibility": "GitHub API starts at first page, skips hashed message IDs; ChatGPT connector may resume from connectorPageToken."
 }
