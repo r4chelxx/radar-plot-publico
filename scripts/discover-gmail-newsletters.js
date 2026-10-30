@@ -28,7 +28,8 @@ async function collect(fetcher=fetch,env=process.env){
   let cursor={pageToken:'',processed:0};
   try{cursor=JSON.parse(fs.readFileSync(cursorFile,'utf8'))}catch{}
   const maxPages=Math.min(20,Math.max(1,Number(env.RADAR_GMAIL_MAX_PAGES||3)));
-  const leads=[],seen=new Set();let scanned=0,pages=0,nextToken=cursor.pageToken||'';
+  // A completed historical pass must restart at the newest page on the next run.
+  const leads=[],seen=new Set();let scanned=0,pages=0,nextToken=cursor.complete?'':(cursor.pageToken||'');
   for(let page=0;page<maxPages;page++){
    const params=new URLSearchParams({labelIds:found.id,maxResults:'100'});
    if(nextToken)params.set('pageToken',nextToken);
@@ -38,9 +39,10 @@ async function collect(fetcher=fetch,env=process.env){
    scanned++;
    const item=await api('messages/'+encodeURIComponent(m.id)+'?format=full');
    const subject=(item.payload?.headers||[]).find(x=>x.name.toLowerCase()==='subject')?.value||'';
-   if(!allowed.test(subject+' '+(item.snippet||'')))continue;
    const parts=[];const walk=p=>{if(p?.body?.data){try{parts.push(Buffer.from(p.body.data,'base64url').toString('utf8').slice(0,100000))}catch{}}for(const child of p?.parts||[])walk(child)};walk(item.payload);
-   for(const lead of extract({subject,snippet:item.snippet,body:parts.join(' ').replace(/<[^>]+>/g,' ')})){if(!seen.has(lead.url)){seen.add(lead.url);leads.push(lead)}}
+   const body=parts.join(' ').replace(/<[^>]+>/g,' ');
+   if(!allowed.test(subject+' '+(item.snippet||'')+' '+body))continue;
+   for(const lead of extract({subject,snippet:item.snippet,body})){if(!seen.has(lead.url)){seen.add(lead.url);leads.push(lead)}}
    }
    nextToken=list.nextPageToken||'';
    if(!nextToken)break;
