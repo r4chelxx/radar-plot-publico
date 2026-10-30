@@ -5,6 +5,7 @@ on:
       - 'scripts/report-backlog-triage.js'
       - 'tests/backlog-triage.test.js'
       - '.github/workflows/backlog-triage-tests.yml'
+      - '.github/workflows/unified-web-intake.yml'
   push:
     branches: [main]
     paths:
