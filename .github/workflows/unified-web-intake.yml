@@ -20,6 +20,9 @@ on:
       - 'tests/deployed-revision.test.js'
       - 'scripts/test-rls-owner-model.js'
       - '.github/workflows/public-health.yml'
+      - 'scripts/discover-gmail-newsletters.js'
+      - 'scripts/discover-linkedin-indexed.js'
+      - 'tests/daily-external-discovery.test.js'
       - 'scripts/unify-discovery.js'
       - 'scripts/quality-gate-discovery.js'
       - 'scripts/sample-editorial-review.js'
@@ -126,12 +129,20 @@ jobs:
           else
             printf '{"source":"linkedin","leads":[],"coverageStatus":"partial"}\n' > intake/linkedin-public-candidates.json
           fi
+      - name: Discover Gmail newsletters (read-only; optional credentials)
+        env:
+          RADAR_GMAIL_CLIENT_ID: ${{ secrets.RADAR_GMAIL_CLIENT_ID }}
+          RADAR_GMAIL_CLIENT_SECRET: ${{ secrets.RADAR_GMAIL_CLIENT_SECRET }}
+          RADAR_GMAIL_REFRESH_TOKEN: ${{ secrets.RADAR_GMAIL_REFRESH_TOKEN }}
+        run: node scripts/discover-gmail-newsletters.js
+      - name: Discover indexed public LinkedIn posts (partial coverage)
+        run: node scripts/discover-linkedin-indexed.js
       - name: Consolidate live and historical candidates
         run: |
           if [ ! -f intake/opportunity-web-discovery.json ]; then
             printf '{"source":"web","leads":[]}\n' > intake/opportunity-web-discovery.json
           fi
-          node scripts/unify-discovery.js intake/live-web-discovery.json intake/dvs-public-discovery.json intake/web-discovery-input.json intake/linkedin-public-candidates.json intake/public-funding-pages.json intake/opportunity-web-discovery.json
+          node scripts/unify-discovery.js intake/live-web-discovery.json intake/dvs-public-discovery.json intake/web-discovery-input.json intake/linkedin-public-candidates.json intake/public-funding-pages.json intake/opportunity-web-discovery.json intake/gmail-discovery.json intake/linkedin-indexed-discovery.json
       - name: Classify duplicate and navigation candidates
         run: node scripts/quality-gate-discovery.js
       - name: Prepare editorial review sample
@@ -189,6 +200,10 @@ jobs:
             intake/dvs-public-health.json
             intake/web-discovery-input.json
             intake/linkedin-public-candidates.json
+            intake/gmail-discovery.json
+            intake/gmail-health.json
+            intake/linkedin-indexed-discovery.json
+            intake/linkedin-indexed-health.json
             intake/unified-discovery.json
             intake/discovery-quality.json
             intake/discovery-operations.json
