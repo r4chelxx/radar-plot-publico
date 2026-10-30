@@ -63,6 +63,8 @@ jobs:
         run: |
           node --check scripts/discover-public-feeds.mjs
           node --check scripts/discover-dvs-public.mjs
+      - name: Test daily Gmail and LinkedIn collector safeguards
+        run: node --test tests/daily-external-discovery.test.js
       - name: Test targeted opportunity discovery
         run: node --test tests/opportunity-web-discovery.test.js
       - name: Test public funding page discovery

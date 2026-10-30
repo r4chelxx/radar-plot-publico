@@ -1,0 +1,38 @@
+#!/usr/bin/env node
+// Read-only Gmail newsletter discovery. Never persist email bodies or credentials.
+const fs=require('node:fs');
+const {canonical}=require('./lead-identity');
+const label=process.env.RADAR_GMAIL_LABEL||'Radar PLOT.';
+const allowed=/grant|fellowship|funding|scholarship|award|bolsa|edital|financiamento|journalism|jornalismo|dataset|database|ferramenta|tool/i;
+function extract(message){
+ const text=[message.snippet||'',message.subject||'',message.body||''].join(' ');
+ const links=[...text.matchAll(/https?:\/\/[^\s<>"')]+/g)].map(x=>x[0]);
+ return links.filter(x=>{try{return /^https:\/\//.test(canonical(x))}catch{return false}}).map(url=>({url:canonical(url),title:(message.subject||'Newsletter candidate').slice(0,220),category:'uncategorized',sourceName:'Gmail Radar PLOT newsletter',editorialStatus:'unverified'}));
+}
+async function collect(fetcher=fetch,env=process.env){
+ const health={source:'Gmail Radar PLOT',status:'unconfigured',items:0,coverageStatus:'unavailable'};
+ const {RADAR_GMAIL_CLIENT_ID:id,RADAR_GMAIL_CLIENT_SECRET:secret,RADAR_GMAIL_REFRESH_TOKEN:refresh}=env;
+ if(!id||!secret||!refresh)return {source:'gmail',leads:[],health:[{...health,reason:'OAuth read-only credentials not configured'}]};
+ try{
+  const tokenResponse=await fetcher('https://oauth2.googleapis.com/token',{method:'POST',headers:{'content-type':'application/x-www-form-urlencoded'},body:new URLSearchParams({client_id:id,client_secret:secret,refresh_token:refresh,grant_type:'refresh_token'})});
+  if(!tokenResponse.ok)throw Error('OAuth HTTP '+tokenResponse.status);
+  const token=(await tokenResponse.json()).access_token;
+  if(!token)throw Error('Missing access token');
+  const api=async path=>{const r=await fetcher('https://gmail.googleapis.com/gmail/v1/users/me/'+path,{headers:{authorization:'Bearer '+token}});if(!r.ok)throw Error('Gmail API HTTP '+r.status);return r.json()};
+  const labels=await api('labels');
+  const found=(labels.labels||[]).find(x=>x.name===label);
+  if(!found)throw Error('Gmail label not found');
+  const list=await api('messages?'+new URLSearchParams({labelIds:found.id,maxResults:'100',q:'newer_than:7d'}));
+  const leads=[],seen=new Set();
+  for(const m of list.messages||[]){
+   const item=await api('messages/'+encodeURIComponent(m.id)+'?format=full');
+   const subject=(item.payload?.headers||[]).find(x=>x.name.toLowerCase()==='subject')?.value||'';
+   if(!allowed.test(subject+' '+(item.snippet||'')))continue;
+   const parts=[];const walk=p=>{if(p?.body?.data){try{parts.push(Buffer.from(p.body.data,'base64url').toString('utf8').slice(0,100000))}catch{}}for(const child of p?.parts||[])walk(child)};walk(item.payload);
+   for(const lead of extract({subject,snippet:item.snippet,body:parts.join(' ').replace(/<[^>]+>/g,' ')})){if(!seen.has(lead.url)){seen.add(lead.url);leads.push(lead)}}
+  }
+  return {source:'gmail',leads,health:[{source:'Gmail Radar PLOT',status:'ok',items:leads.length,scanned:(list.messages||[]).length,coverageStatus:list.nextPageToken?'partial':'recent-window'}]};
+ }catch(e){return {source:'gmail',leads:[],health:[{...health,status:'error',reason:String(e.message||e).slice(0,140)}]}}
+}
+if(require.main===module)collect().then(r=>{fs.mkdirSync('intake',{recursive:true});fs.writeFileSync('intake/gmail-discovery.json',JSON.stringify({source:r.source,leads:r.leads},null,2)+'\n');fs.writeFileSync('intake/gmail-health.json',JSON.stringify({health:r.health},null,2)+'\n');console.log(JSON.stringify({gmailCandidates:r.leads.length,health:r.health}));});
+module.exports={collect,extract};

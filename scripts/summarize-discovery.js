@@ -21,6 +21,13 @@ lines.push('','### Funil editorial persistido',
 lines.push('A categoria desconhecida indica registros legados sem classificação. Sinais por palavras-chave não equivalem a editais verificados.');
 lines.push('','### Cobertura por família de fontes');
 for(const [name,x] of Object.entries(r.coverage||{}))lines.push('- '+name+': '+x.healthy+'/'+x.total+' fontes acessíveis ('+(x.recovered||0)+' recuperadas); '+x.candidates+' links coletados');
+lines.push('','### Gmail e LinkedIn — cobertura diária');
+for(const name of ['gmail','linkedin']){
+ const family=r.coverage?.[name];
+ if(!family)continue;
+ lines.push('- '+name+': '+family.healthy+'/'+family.total+' consultas disponíveis; '+family.candidates+' candidatos; '+family.failed+' falhas.');
+}
+lines.push('**Limitação:** Gmail depende de credenciais OAuth de leitura configuradas; LinkedIn usa busca pública indexada, sem garantia de cobertura completa.');
 lines.push('','**Estado da coleta:** '+(r.overallStatus||'unknown'));
 for(const warning of r.warnings||[])lines.push('- Atenção: '+warning);
 const failures=r.sources.filter(x=>x.status!=='ok'&&x.status!=='fallback');
