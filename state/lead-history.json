@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-30T03:38:08.107Z",
+  "updatedAt": "2026-10-30T03:38:50.167Z",
   "leads": {
     "21d08dec9013d505e3e682633dc64ac66d18d9ce040e2b381ea738cf297fd16d": {
       "url": "https://data.inpe.br/biomasbr/sala-de-situacao-municipal-e-a-nova-ferramenta-do-terrabrasilis-para-apoiar-estados-e-municipios-no-controle-do-desmatamento-e-fogo",
@@ -14761,6 +14761,26 @@
       "reviewedBy": null,
       "editorialEvidence": null,
       "decisionReason": null,
+      "lastEditorialQueuedAt": null,
+      "editorialQueueCount": 0
+    },
+    "26e1184f436bf31921aa6f3a94af7824b112f4c89e10d43021015602c24af4e8": {
+      "url": "https://tow.cjr.org/ai-deals-lawsuits",
+      "title": "Tow Center — AI Deals and Disputes Tracker",
+      "source": "Tow Center / Columbia Journalism Review (fonte pública identificada em newsletter Radar PLOT.)",
+      "category": "datasets",
+      "classification": "needs-editorial-review",
+      "firstSeen": "2026-10-30T03:38:50.167Z",
+      "lastSeen": "2026-10-30T03:38:50.167Z",
+      "seenCount": 1,
+      "editorialStatus": "unverified",
+      "lastInspectedAt": null,
+      "pageStatus": null,
+      "inspectionCount": 0,
+      "reviewedAt": null,
+      "reviewedBy": null,
+      "editorialEvidence": "https://www.cjr.org/tow_center/who-wins-who-sues-who-pays-the-price-tow-ai-deals-tracker-lawsuits-complex-geographic-inequities.php",
+      "decisionReason": "Fonte primária confirma existência e escopo; interface interativa não retornou dados parseáveis na consulta. Revisar exportação, cobertura, licenciamento e limitações antes de aprovar.",
       "lastEditorialQueuedAt": null,
       "editorialQueueCount": 0
     }
