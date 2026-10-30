@@ -809,7 +809,7 @@
         "url": "https://crawlback.cc/",
         "desc": "Pesquisa capturas históricas de páginas e domínios no índice público do Common Crawl, com datas de captura, visualização de HTML em ambiente isolado e exportação de listas em CSV ou HTML em ZIP. As consultas são realizadas no navegador e o histórico local pode ser apagado. A cobertura do Common Crawl é amostral e não garante recuperar todas as páginas ou versões; confirme o contexto, a integridade e a data antes de usar como evidência jornalística.",
         "discoveredVia": [
-          "Indicator — Briefing de 23/10/2026"
+          "Indicator"
         ],
         "discoveryUrl": "https://crawlback.cc/"
       },
@@ -818,7 +818,7 @@
         "reviewedBy": "Radar PLOT — revisão editorial assistida",
         "reviewedAt": "2026-10-29",
         "officialUrl": "https://crawlback.cc/",
-        "evidence": "Fonte primária crawlback.cc consultada em 29/10/2026 confirma busca por URL/domínio no índice Common Crawl, datas das capturas, visualização isolada, exportação CSV/ZIP e histórico local. Duplicidade conferida em data/tools.js, data/datasets.js, data/opportunities.js, intake/approved-publications.json e radar-state/intake/editorial-queue.json; nenhum registro com URL crawlback.cc ou título Crawlback. Sem prazo ou elegibilidade de edital, pois é ferramenta de consulta pública."
+        "evidence": "Fonte primária crawlback.cc consultada em 29/10/2026 confirma busca por URL/domínio no índice Common Crawl, datas das capturas, visualização isolada, exportação CSV/ZIP e histórico local. Duplicidade conferida em data/tools.js, data/datasets.js, data/opportunities.js, intake/approved-publications.json e radar-state/intake/editorial-queue.json; nenhum registro com URL crawlback.cc ou título Crawlback. Sem prazo ou elegibilidade de edital, pois é ferramenta de consulta pública. Fonte de descoberta registrada sob o nome monitorado Indicator."
       }
     }
   ]
