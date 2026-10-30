@@ -10,6 +10,7 @@ const empty=sourceResults.filter(x=>x.accessStatus==='accessible'&&!(x.leads||[]
 const failed=sourceResults.filter(x=>x.accessStatus!=='accessible');
 const dailyFailures=coverage.dailyFailures||[];
 const sourceDiagnostics=[...empty.map(x=>({name:x.name,status:'acessível sem links temáticos'})),...failed.map(x=>({name:x.name,status:x.accessStatus+(x.httpStatus?' HTTP '+x.httpStatus:'')}))];
+const evidence=read('lead-evidence.json');
 const state=read('lead-history-next.json'),leads=Object.values(state.leads||{});
 const historical=leads.filter(x=>x.classification==='needs-editorial-review');
 const backlog=summarizeBacklog(state.leads);
@@ -33,6 +34,7 @@ const rows=[
  '| Links históricos com inspeção técnica registrada | '+visited+' |',
  '| Links históricos ainda sem inspeção técnica | '+(historical.length-visited)+' |',
  '| Inspeções técnicas realizadas nesta rodada | '+(s.inspectedHistorical??0)+' |',
+ '| Oportunidades arquivadas reauditoradas (reabertura exige revisão) | '+(evidence.archivedRechecks??0)+' |',
  '| Links com decisão editorial registrada | '+reviewed+' |',
  '| Links aprovados no histórico | '+approved+' |',
  '| Links publicados com confirmação no histórico | '+published+' |',
