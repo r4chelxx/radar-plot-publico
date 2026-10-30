@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-30T12:10:45.133Z",
+  "updatedAt": "2026-10-30T12:15:00Z",
   "leads": {
     "21d08dec9013d505e3e682633dc64ac66d18d9ce040e2b381ea738cf297fd16d": {
       "url": "https://data.inpe.br/biomasbr/sala-de-situacao-municipal-e-a-nova-ferramenta-do-terrabrasilis-para-apoiar-estados-e-municipios-no-controle-do-desmatamento-e-fogo",
@@ -14783,6 +14783,30 @@
       "decisionReason": "Fonte primária confirma existência e escopo; interface interativa não retornou dados parseáveis na consulta. Revisar exportação, cobertura, licenciamento e limitações antes de aprovar.",
       "lastEditorialQueuedAt": null,
       "editorialQueueCount": 0
+    },
+    "04c45003af5de8b0deb66e0074ef2ee5375ea530eee8c262692208adad300699": {
+      "url": "https://pacificdatavizchallenge.org/",
+      "title": "Pacific Dataviz Challenge 2026 — inscrições encerradas",
+      "source": "Gmail Radar PLOT. — Quantum of Sollazzo #680; site oficial",
+      "category": "opportunities",
+      "classification": "needs-editorial-review",
+      "firstSeen": "2026-10-30T12:15:00Z",
+      "lastSeen": "2026-10-30T12:15:00Z",
+      "seenCount": 1,
+      "editorialStatus": "archived",
+      "archiveKind": "closed-opportunity",
+      "archiveStatus": "encerrada",
+      "deadline": "2026-08-31",
+      "nextRecheckAt": "2026-11-29",
+      "lastInspectedAt": null,
+      "pageStatus": null,
+      "inspectionCount": 0,
+      "reviewedAt": "2026-10-30",
+      "reviewedBy": "Radar PLOT — revisão editorial assistida",
+      "editorialEvidence": "https://pacificdatavizchallenge.org/",
+      "decisionReason": "Site oficial do Pacific Dataviz Challenge 2026 informa inscrições entre 1º de junho e 31 de agosto de 2026 e premiação em 15 de outubro. Arquivado para reauditoria na rotina histórica existente, sem publicação como aberto.",
+      "lastEditorialQueuedAt": "2026-10-30T12:15:00Z",
+      "editorialQueueCount": 1
     }
   }
 }
