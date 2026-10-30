@@ -3,6 +3,9 @@ on:
   pull_request:
     paths:
       - 'scripts/collect-web-leads.js'
+      - 'scripts/discover-gmail-newsletters.js'
+      - 'scripts/discover-linkedin-indexed.js'
+      - 'tests/daily-external-discovery.test.js'
       - 'scripts/import-linkedin-public-posts.js'
       - 'tests/linkedin-public-import.test.js'
       - 'tests/linkedin-unified-e2e.test.js'
@@ -115,6 +118,14 @@ jobs:
             echo 'All live discovery collectors failed'
             exit 1
           fi
+      - name: Collect Gmail newsletter candidates (read-only)
+        env:
+          RADAR_GMAIL_CLIENT_ID: ${{ secrets.RADAR_GMAIL_CLIENT_ID }}
+          RADAR_GMAIL_CLIENT_SECRET: ${{ secrets.RADAR_GMAIL_CLIENT_SECRET }}
+          RADAR_GMAIL_REFRESH_TOKEN: ${{ secrets.RADAR_GMAIL_REFRESH_TOKEN }}
+        run: node scripts/discover-gmail-newsletters.js
+      - name: Discover indexed public LinkedIn posts
+        run: node scripts/discover-linkedin-indexed.js
       - name: Convert previously audited web candidates
         run: node scripts/collect-web-leads.js
       - name: Import reviewed public LinkedIn post URLs if provided
@@ -129,7 +140,7 @@ jobs:
           if [ ! -f intake/opportunity-web-discovery.json ]; then
             printf '{"source":"web","leads":[]}\n' > intake/opportunity-web-discovery.json
           fi
-          node scripts/unify-discovery.js intake/live-web-discovery.json intake/dvs-public-discovery.json intake/web-discovery-input.json intake/linkedin-public-candidates.json intake/public-funding-pages.json intake/opportunity-web-discovery.json
+          node scripts/unify-discovery.js intake/live-web-discovery.json intake/dvs-public-discovery.json intake/web-discovery-input.json intake/linkedin-public-candidates.json intake/public-funding-pages.json intake/opportunity-web-discovery.json intake/gmail-discovery.json intake/linkedin-indexed-discovery.json
       - name: Classify duplicate and navigation candidates
         run: node scripts/quality-gate-discovery.js
       - name: Prepare editorial review sample
@@ -187,6 +198,8 @@ jobs:
             intake/dvs-public-health.json
             intake/web-discovery-input.json
             intake/linkedin-public-candidates.json
+            intake/gmail-health.json
+            intake/linkedin-indexed-health.json
             intake/unified-discovery.json
             intake/discovery-quality.json
             intake/discovery-operations.json
