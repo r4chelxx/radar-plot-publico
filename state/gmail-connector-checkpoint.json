@@ -4,7 +4,7 @@
   "labelId": "Label_3603240905167932728",
   "source": "ChatGPT Gmail connector read-only",
   "updatedAt": "2026-10-30",
-  "messagesActuallyRead": 198,
+  "messagesActuallyRead": 200,
   "processedMessageIds": [
     "1a18c96e14ac6a04",
     "1a18c7c2c68e5208",
@@ -203,9 +203,11 @@
     "1a1204d3d5a6da7c",
     "1a1203a36e4fb798",
     "1a11e917eead2d58",
-    "1a11de1597f6cdb7"
+    "1a11de1597f6cdb7",
+    "1a146fd7665a192e",
+    "1a13cc6c9a0498d7"
   ],
-  "rawUrlOccurrences": 5041,
+  "rawUrlOccurrences": 5080,
   "uniqueDirectNonTrackingUrls": 12,
   "urlsForEditorialReview": [],
   "validatedCandidates": 0,
@@ -220,9 +222,9 @@
     },
     {
       "requested": 100,
-      "read": 98,
+      "read": 100,
       "nextPageTokenPresent": true
     }
   ],
-  "notes": "Connector-only ledger, distinct from the GitHub Actions OAuth cursor. Only IDs are evidence of actual connector reads. No emails or labels modified. Newsletter redirects require separate resolution; URL counts are not validated leads."
+  "notes": "Connector-only ledger, distinct from the GitHub Actions OAuth cursor. Only IDs are evidence of actual connector reads. No emails or labels modified. Newsletter redirects require separate resolution; URL counts are not validated leads. Retried transient per-message read errors on second page."
 }
