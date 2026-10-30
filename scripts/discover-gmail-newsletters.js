@@ -5,7 +5,7 @@ const {canonical}=require('./lead-identity');
 const label=process.env.RADAR_GMAIL_LABEL||'Radar PLOT.';
 const allowed=/grant|fellowship|funding|scholarship|award|bolsa|edital|financiamento|journalism|jornalismo|dataset|database|ferramenta|tool/i;
 function extract(message){
- const text=[message.snippet||'',message.subject||''].join(' ');
+ const text=[message.snippet||'',message.subject||'',message.body||''].join(' ');
  const links=[...text.matchAll(/https?:\/\/[^\s<>"')]+/g)].map(x=>x[0]);
  return links.filter(x=>{try{return /^https:\/\//.test(canonical(x))}catch{return false}}).map(url=>({url:canonical(url),title:(message.subject||'Newsletter candidate').slice(0,220),category:'uncategorized',sourceName:'Gmail Radar PLOT newsletter',editorialStatus:'unverified'}));
 }
@@ -25,10 +25,11 @@ async function collect(fetcher=fetch,env=process.env){
   const list=await api('messages?'+new URLSearchParams({labelIds:found.id,maxResults:'100',q:'newer_than:7d'}));
   const leads=[],seen=new Set();
   for(const m of list.messages||[]){
-   const item=await api('messages/'+encodeURIComponent(m.id)+'?format=metadata&metadataHeaders=Subject');
+   const item=await api('messages/'+encodeURIComponent(m.id)+'?format=full');
    const subject=(item.payload?.headers||[]).find(x=>x.name.toLowerCase()==='subject')?.value||'';
    if(!allowed.test(subject+' '+(item.snippet||'')))continue;
-   for(const lead of extract({subject,snippet:item.snippet})){if(!seen.has(lead.url)){seen.add(lead.url);leads.push(lead)}}
+   const parts=[];const walk=p=>{if(p?.body?.data){try{parts.push(Buffer.from(p.body.data,'base64url').toString('utf8').slice(0,100000))}catch{}}for(const child of p?.parts||[])walk(child)};walk(item.payload);
+   for(const lead of extract({subject,snippet:item.snippet,body:parts.join(' ').replace(/<[^>]+>/g,' ')})){if(!seen.has(lead.url)){seen.add(lead.url);leads.push(lead)}}
   }
   return {source:'gmail',leads,health:[{source:'Gmail Radar PLOT',status:'ok',items:leads.length,scanned:(list.messages||[]).length,coverageStatus:list.nextPageToken?'partial':'recent-window'}]};
  }catch(e){return {source:'gmail',leads:[],health:[{...health,status:'error',reason:String(e.message||e).slice(0,140)}]}}
