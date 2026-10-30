@@ -78,7 +78,7 @@ async function collect(fetcher=fetch){
      fallbackStatus=alternateLeads.length?'found-candidates':'no-relevant-static-links';
     }catch(error){fallbackStatus='error: '+String(error.message||error).slice(0,100)}
    }
-   if(source.additionalFallback&&!found.some(item=>{try{const u=new URL(item.url);return u.hostname==='gfmd.info'&&new RegExp('^/fundings/[^/]+/?}catch{return false}})){
+   if(source.additionalFallback&&!found.some(item=>{try{const u=new URL(item.url);return u.hostname==='gfmd.info'&&u.pathname.startsWith('/fundings/')&&u.pathname.split('/').filter(Boolean).length===2}catch{return false}})){
     try{
      const extra=await fetcher(source.additionalFallback,{signal:AbortSignal.timeout(12000),headers:{'user-agent':'Radar-PLOT-Discovery/1.0','accept':'text/html'}});
      if(extra.ok){
