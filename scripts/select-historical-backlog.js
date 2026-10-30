@@ -1,7 +1,9 @@
 // Deterministic backlog rotation across historical public leads, not just today's discovery.
 const {identity}=require('./lead-identity');
-const TERMINAL=new Set(['published','duplicate','rejected','archived']);
+const TERMINAL=new Set(['published','duplicate','rejected']);
+const isArchivedOpportunity=lead=>lead.editorialStatus==='archived'&&lead.archiveKind==='closed-opportunity';
 function recheckDays(lead){
+ if(isArchivedOpportunity(lead))return 30;
  if(lead.pageStatus==='fetch-failed'||lead.pageStatus==='http-error')return 3;
  if(lead.category==='opportunities')return 7;
  return 21;
@@ -9,19 +11,26 @@ function recheckDays(lead){
 function selectBacklog(previous,current,limit=10,now=new Date()){
  const seen=new Map();
  for(const [id,lead] of Object.entries(previous?.leads||{})){
-  if(lead.classification!=='needs-editorial-review'||TERMINAL.has(lead.editorialStatus))continue;
+  if(lead.classification!=='needs-editorial-review'||TERMINAL.has(lead.editorialStatus)||(lead.editorialStatus==='archived'&&!isArchivedOpportunity(lead)))continue;
   seen.set(id,{...lead,id,origin:'historical'});
  }
  for(const lead of current||[]){
   if(lead.classification!=='needs-editorial-review')continue;
   let id;try{id=identity(lead.url).id}catch{continue}
+  const historical=previous?.leads?.[id];
+  if(historical&&(TERMINAL.has(historical.editorialStatus)||historical.editorialStatus==='archived'))continue;
   if(!seen.has(id))seen.set(id,{...lead,id,origin:'new'});
  }
  const nowMs=now.getTime();
  const all=[...seen.values()];
  // First visit every historical lead; retries and recurring checks follow afterwards.
- const ready=all.filter(x=>!x.lastInspectedAt||Number.isFinite(Date.parse(x.lastInspectedAt))&&nowMs-Date.parse(x.lastInspectedAt)>=recheckDays(x)*86400000);
- ready.sort((a,b)=>Number(Boolean(a.lastInspectedAt))-Number(Boolean(b.lastInspectedAt))||
+ const inspectedAnchor=x=>{
+  if(!isArchivedOpportunity(x))return x.lastInspectedAt;
+  const timestamps=[x.reviewedAt,x.lastInspectedAt].map(v=>Date.parse(v||'')).filter(Number.isFinite);
+  return timestamps.length?new Date(Math.max(...timestamps)).toISOString():null;
+ };
+ const ready=all.filter(x=>{const at=inspectedAnchor(x);return !at||(Number.isFinite(Date.parse(at))&&nowMs-Date.parse(at)>=recheckDays(x)*86400000)});
+ ready.sort((a,b)=>Number(isArchivedOpportunity(a))-Number(isArchivedOpportunity(b))||Number(Boolean(a.lastInspectedAt))-Number(Boolean(b.lastInspectedAt))||
   Number(a.origin!=='historical')-Number(b.origin!=='historical')||
   String(a.lastInspectedAt||a.firstSeen||'').localeCompare(String(b.lastInspectedAt||b.firstSeen||''))||
   String(a.id).localeCompare(String(b.id)));
