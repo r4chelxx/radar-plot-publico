@@ -43,3 +43,21 @@ test('failed pages retry after three days but not after one day',()=>{
  const result=selectBacklog(state([lead('retry',{pageStatus:'http-error',lastInspectedAt:'2026-10-19T13:00:00Z'}),lead('wait',{pageStatus:'fetch-failed',lastInspectedAt:'2026-10-22T13:00:00Z'})]),[],40,now);
  assert.deepEqual(result.selected.map(x=>x.url),[lead('retry').url]);
 });
+
+test('archived closed opportunities wait 30 days and reenter the existing inspection rotation',()=>{
+ const archived=lead('closed',{editorialStatus:'archived',archiveKind:'closed-opportunity',reviewedAt:'2026-10-01',lastInspectedAt:null});
+ const st=state([archived]);
+ assert.equal(selectBacklog(st,[archived],40,new Date('2026-10-30T12:00:00Z')).selected.length,0);
+ const r=selectBacklog(st,[archived],40,new Date('2026-11-01T12:00:00Z'));
+ assert.equal(r.selected.length,1);assert.equal(r.selected[0].editorialStatus,'archived');
+});
+test('archived rechecks never displace eligible active leads',()=>{
+ const st=state([lead('active'),lead('closed',{editorialStatus:'archived',archiveKind:'closed-opportunity',reviewedAt:'2026-08-01'})]);
+ const r=selectBacklog(st,[],1,new Date('2026-10-30T12:00:00Z'));
+ assert.equal(r.selected[0].url,lead('active').url);
+});
+test('terminal leads are not resurrected by fresh daily discovery',()=>{
+ const st=state([lead('rejected',{editorialStatus:'rejected'}),lead('archived',{editorialStatus:'archived',archiveKind:'closed-opportunity',reviewedAt:'2026-10-30'})]);
+ const r=selectBacklog(st,[lead('rejected'),lead('archived')],40,new Date('2026-10-30T12:00:00Z'));
+ assert.equal(r.selected.length,0);
+});

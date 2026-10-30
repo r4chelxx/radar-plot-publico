@@ -736,6 +736,26 @@
       "reason": "Portal UN System Data Commons publicado em data/datasets.js no PR #139 após validação da interface atual, origem oficial, escopo e duplicidade; deploy Pages do commit ecf63a9 confirmado em 30/10/2026.",
       "reviewedBy": "Radar PLOT — revisão editorial assistida",
       "reviewedAt": "2026-10-30"
+    },
+    {
+      "url": "https://sigmaawards.org/",
+      "status": "archived",
+      "archiveKind": "closed-opportunity",
+      "deadline": "2026-01-18",
+      "officialUrl": "https://www.sigmaawards.org/sigma-awards-2026-for-data-journalism-are-open-for-entries/",
+      "reason": "Edição 2026 encerrada: a fonte primária informa prazo prorrogado de 18/01/2026 para trabalhos de 2025 e a página oficial já publicou vencedores em maio de 2026. A página apresenta um erro de ano isolado (2025) no rodapé; usar 2026 segundo cabeçalho e contexto. Arquivar para reauditoria de abertura de nova edição, sem apresentar como aberta.",
+      "reviewedBy": "Radar PLOT — revisão editorial assistida",
+      "reviewedAt": "2026-10-30"
+    },
+    {
+      "url": "https://www.dataiq.global/2026-dataiq-awards-categories",
+      "status": "archived",
+      "archiveKind": "closed-opportunity",
+      "deadline": null,
+      "officialUrl": "https://www.dataiq.global/2026-dataiq-awards-faq/",
+      "reason": "A fonte oficial confirma inscrições encerradas e cerimônia em 17/09/2026; data exata de encerramento não foi confirmada e não deve ser inventada. Prêmio de dados e IA, sem bolsa jornalística específica; manter histórico para reauditoria da edição 2027 e não contar como edital aberto.",
+      "reviewedBy": "Radar PLOT — revisão editorial assistida",
+      "reviewedAt": "2026-10-30"
     }
   ]
 }
