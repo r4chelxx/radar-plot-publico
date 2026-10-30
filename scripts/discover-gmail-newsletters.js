@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 // Read-only Gmail newsletter discovery. Never persist email bodies or credentials.
-const fs=require('node:fs');
+const fs=require('node:fs'),crypto=require('node:crypto');
 const {canonical}=require('./lead-identity');
 const label=process.env.RADAR_GMAIL_LABEL||'Radar PLOT.';
 const allowed=/grant|fellowship|funding|scholarship|award|bolsa|edital|financiamento|journalism|jornalismo|dataset|database|ferramenta|tool/i;
@@ -29,15 +29,17 @@ async function collect(fetcher=fetch,env=process.env){
   try{cursor=JSON.parse(fs.readFileSync(cursorFile,'utf8'))}catch{}
   const maxPages=Math.min(20,Math.max(1,Number(env.RADAR_GMAIL_MAX_PAGES||3)));
   // A completed historical pass must restart at the newest page on the next run.
-  const leads=[],seen=new Set();let scanned=0,pages=0,nextToken=cursor.complete?'':(cursor.pageToken||'');
+  const leads=[],seen=new Set(),processedIds=new Set(cursor.processedIdHashes||[]);let scanned=0,skippedAlready=0,pages=0,nextToken=cursor.complete?'':(cursor.pageToken||'');
   for(let page=0;page<maxPages;page++){
    const params=new URLSearchParams({labelIds:found.id,maxResults:'100'});
    if(nextToken)params.set('pageToken',nextToken);
    const list=await api('messages?'+params);
    pages++;
    for(const m of list.messages||[]){
-   scanned++;
+   const messageHash=crypto.createHash('sha256').update(m.id).digest('hex');
+   if(processedIds.has(messageHash)){skippedAlready++;continue;}
    const item=await api('messages/'+encodeURIComponent(m.id)+'?format=full');
+   processedIds.add(messageHash);scanned++;
    const subject=(item.payload?.headers||[]).find(x=>x.name.toLowerCase()==='subject')?.value||'';
    const parts=[];const walk=p=>{if(p?.body?.data){try{parts.push(Buffer.from(p.body.data,'base64url').toString('utf8').slice(0,100000))}catch{}}for(const child of p?.parts||[])walk(child)};walk(item.payload);
    const body=parts.join(' ').replace(/<[^>]+>/g,' ');
@@ -48,8 +50,8 @@ async function collect(fetcher=fetch,env=process.env){
    if(!nextToken)break;
   }
   fs.mkdirSync(require('node:path').dirname(cursorFile),{recursive:true});
-  fs.writeFileSync(cursorFile,JSON.stringify({pageToken:nextToken,processed:(cursor.processed||0)+scanned,updatedAt:new Date().toISOString(),complete:!nextToken},null,2)+'\n');
-  return {source:'gmail',leads,health:[{source:'Gmail Radar PLOT',status:'ok',items:leads.length,scanned,pages,coverageStatus:nextToken?'partial':'complete',checkpoint:cursorFile}]};
+  fs.writeFileSync(cursorFile,JSON.stringify({...cursor,pageToken:nextToken,processed:processedIds.size,processedIdHashes:[...processedIds],updatedAt:new Date().toISOString(),complete:!nextToken},null,2)+'\n');
+  return {source:'gmail',leads,health:[{source:'Gmail Radar PLOT',status:'ok',items:leads.length,scanned,skippedAlready,checkpointIds:processedIds.size,pages,coverageStatus:nextToken?'partial':'complete',checkpoint:cursorFile}]};
  }catch(e){return {source:'gmail',leads:[],health:[{...health,status:'error',reason:String(e.message||e).slice(0,140)}]}}
 }
 if(require.main===module)collect().then(r=>{fs.mkdirSync('intake',{recursive:true});fs.writeFileSync('intake/gmail-discovery.json',JSON.stringify({source:r.source,leads:r.leads},null,2)+'\n');fs.writeFileSync('intake/gmail-health.json',JSON.stringify({health:r.health},null,2)+'\n');console.log(JSON.stringify({gmailCandidates:r.leads.length,health:r.health}));});
