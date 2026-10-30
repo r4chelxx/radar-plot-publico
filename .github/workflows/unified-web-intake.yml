@@ -129,12 +129,27 @@ jobs:
           else
             printf '{"source":"linkedin","leads":[],"coverageStatus":"partial"}\n' > intake/linkedin-public-candidates.json
           fi
+      - name: Restore historical Gmail backfill cursor
+        if: github.event_name != 'pull_request'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p intake
+          if gh api "repos/${GITHUB_REPOSITORY}/contents/state/gmail-backfill-cursor.json?ref=radar-state" --jq .content > /tmp/radar-gmail-cursor-base64 2>/dev/null; then
+            base64 --decode /tmp/radar-gmail-cursor-base64 > intake/gmail-backfill-cursor.json
+          fi
       - name: Discover Gmail newsletters (read-only; optional credentials)
         env:
           RADAR_GMAIL_CLIENT_ID: ${{ secrets.RADAR_GMAIL_CLIENT_ID }}
           RADAR_GMAIL_CLIENT_SECRET: ${{ secrets.RADAR_GMAIL_CLIENT_SECRET }}
           RADAR_GMAIL_REFRESH_TOKEN: ${{ secrets.RADAR_GMAIL_REFRESH_TOKEN }}
         run: node scripts/discover-gmail-newsletters.js
+      - name: Save historical Gmail cursor to persistent state
+        if: github.event_name != 'pull_request'
+        run: |
+          if [ -f intake/gmail-backfill-cursor.json ]; then
+            cp intake/gmail-backfill-cursor.json /tmp/radar-gmail-backfill-cursor.json
+          fi
       - name: Discover indexed public LinkedIn posts (partial coverage)
         run: node scripts/discover-linkedin-indexed.js
       - name: Consolidate live and historical candidates
@@ -172,7 +187,11 @@ jobs:
             git switch -c radar-state
           fi
           node /tmp/radar-merge-editorial-queue.js /tmp/radar-discovery-quality.json intake/editorial-queue.json state/lead-history.json /tmp/radar-historical-decisions.json
-          git add intake/editorial-queue.json
+          if [ -f /tmp/radar-gmail-backfill-cursor.json ]; then
+            mkdir -p state
+            cp /tmp/radar-gmail-backfill-cursor.json state/gmail-backfill-cursor.json
+          fi
+          git add intake/editorial-queue.json state/gmail-backfill-cursor.json 2>/dev/null || git add intake/editorial-queue.json
           if ! git diff --cached --quiet; then
             git commit -m "Editorial: persist pending public candidates [skip ci]"
             git push origin radar-state
