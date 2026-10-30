@@ -1,6 +1,95 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.opportunities=[
 {
+  "id": "massey-gordon-fisher-jhr-2027-28",
+  "title": "Gordon N. Fisher / JHR Journalism Fellowship 2027–28",
+  "org": "Massey College / Journalists for Human Rights",
+  "summary": "Fellowship acadêmico de oito meses na Universidade de Toronto para jornalista da África Subsaariana ou do Oriente Médio, com bolsa mensal, taxas universitárias e passagem.",
+  "type": "Fellowship",
+  "themes": [
+    "Jornalismo",
+    "Formação",
+    "Direitos humanos",
+    "Internacional"
+  ],
+  "scope": "África Subsaariana e Oriente Médio; estudos em Toronto, Canadá",
+  "deadline": "2026-12-01",
+  "deadlineStatus": "confirmado no site oficial; horário não especificado",
+  "eligibility": "restrita",
+  "fit": 5,
+  "status": "aberta",
+  "value": "CAD 4.900 por mês durante oito meses; taxas universitárias e passagem aérea de ida e volta",
+  "duration": "Ano acadêmico 2027–28, setembro a abril",
+  "modality": "Presencial em Toronto, sem trabalho profissional durante o fellowship",
+  "documents": [
+    "Biografia profissional e currículo",
+    "Carta de intenções com plano de estudos",
+    "Três amostras de trabalho do último ano",
+    "Contatos de duas referências"
+  ],
+  "restrictions": [
+    "Destinada a jornalista da África Subsaariana ou do Oriente Médio",
+    "Inglês falado e escrito exigido",
+    "Participação acadêmica presencial e suspensão do trabalho profissional durante o programa"
+  ],
+  "rules": "https://masseycollege.ca/community/william-southam-journalism-fellows/",
+  "apply": "https://masseycollege.ca/community/william-southam-journalism-fellows/",
+  "verified": "2026-10-30",
+  "desc": "Programa Gordon N. Fisher/JHR administrado pelo Massey College, distinto das bolsas William Southam destinadas a jornalistas canadenses. Inscrições de 1º/10 a 1º/12/2026 para o ciclo 2027–28; a página oficial detalha a elegibilidade geográfica, documentos, apoio financeiro e exigência de presença em Toronto. Não é bolsa aberta globalmente.",
+  "discoveryUrl": "https://gfmd.info/find-funding/",
+  "verificationHistory": [
+    {
+      "date": "2026-10-30",
+      "status": "aberta",
+      "source": "https://masseycollege.ca/community/william-southam-journalism-fellows/"
+    }
+  ]
+},
+{
+  "id": "eu-journalism-partnerships-collaborations-2027",
+  "title": "União Europeia — Journalism Partnerships: Collaborations 2027",
+  "org": "Comissão Europeia / Creative Europe",
+  "summary": "Edital para consórcios transnacionais de organizações jornalísticas desenvolverem colaboração, inovação e sustentabilidade de mídia na Europa; até € 2 milhões por projeto.",
+  "type": "Grant institucional",
+  "themes": [
+    "Jornalismo",
+    "Inovação",
+    "Sustentabilidade",
+    "Colaboração internacional",
+    "Tecnologia"
+  ],
+  "scope": "Países participantes do programa Creative Europe",
+  "deadline": "2027-02-04",
+  "deadlineStatus": "confirmado na página oficial; horário final deve ser conferido no portal Funding & Tenders",
+  "eligibility": "restrita",
+  "fit": 4,
+  "status": "aberta",
+  "value": "Até € 2 milhões por projeto; cofinanciamento máximo de 80%; orçamento total € 7 milhões",
+  "duration": "Projetos com duração prevista de 24 meses",
+  "modality": "Candidatura institucional por consórcio, via portal europeu Funding & Tenders",
+  "documents": [
+    "Proposta colaborativa transnacional",
+    "Documentação e orçamento exigidos pelo edital completo no portal Funding & Tenders"
+  ],
+  "restrictions": [
+    "Consórcio de pelo menos três parceiros de três países participantes diferentes do Creative Europe",
+    "Pessoas físicas em regra não elegíveis; exceção para empresários individuais sem personalidade jurídica separada",
+    "Necessidade de cofinanciamento de ao menos 20% dos custos elegíveis"
+  ],
+  "rules": "https://digital-strategy.ec.europa.eu/en/funding/call-proposals-journalism-partnerships-collaborations-2027",
+  "apply": "https://digital-strategy.ec.europa.eu/en/funding/call-proposals-journalism-partnerships-collaborations-2027",
+  "verified": "2026-10-30",
+  "desc": "Chamada publicada em 21/10/2026 e aberta em 22/10/2026 para propostas transnacionais de colaboração entre meios jornalísticos, incluindo modelos de negócio, formatos, padrões técnicos e soluções compartilhadas. Prazo 04/02/2027. Não é financiamento para jornalista individual nem candidatura brasileira isolada.",
+  "discoveryUrl": "https://gfmd.info/find-funding/",
+  "verificationHistory": [
+    {
+      "date": "2026-10-30",
+      "status": "aberta",
+      "source": "https://digital-strategy.ec.europa.eu/en/funding/call-proposals-journalism-partnerships-collaborations-2027"
+    }
+  ]
+}, 
+{
   "id": "hiig-impact-ai-fellowship-2027",
   "title": "HIIG — Impact AI Fellowship 2027",
   "org": "Alexander von Humboldt Institute for Internet and Society (HIIG)",
@@ -2807,13 +2896,14 @@ window.RADAR_PARTS.opportunities=[
     ],
     "scope": "Internacional / Europa",
     "deadline": "2026-10-29",
-    "deadlineStatus": "confirmado",
+    "deadlineStatus": "confirmado; encerrado em 29/10/2026 às 13h, horário de Bruxelas",
     "eligibility": "parcial",
     "fit": 0,
-    "status": "aberta",
+    "status": "encerrada",
     "rules": "https://grants.journalismfund.eu/en/the-invisible-life-grant",
     "apply": "https://grants.journalismfund.eu/en/the-invisible-life-grant",
-    "verified": "2026-10-21",
+    "verified": "2026-10-30",
+    "verificationHistory": [{"date":"2026-10-30","status":"encerrada","source":"https://grants.journalismfund.eu/en/the-invisible-life-grant"}],
     "desc": "Financiamento para investigações jornalísticas transnacionais sobre o bem-estar de animais de produção, com interesse ou ligação europeia. A seleção depende da composição da equipe e dos requisitos específicos do edital; consultar o regulamento oficial antes da candidatura. Prazo indicado: 29/10/2026, às 13h no horário de Bruxelas. A especialização temática não é motivo para excluir a oportunidade do Radar."
   },
   {
