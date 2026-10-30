@@ -1,6 +1,17 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.tools=[
 {
+  "id": "crawlback-common-crawl",
+  "name": "Crawlback — busca em páginas arquivadas do Common Crawl",
+  "kind": "investigação digital e recuperação de versões arquivadas de páginas",
+  "url": "https://crawlback.cc/",
+  "desc": "Pesquisa capturas históricas de páginas e domínios no índice público do Common Crawl, com datas de captura, visualização de HTML em ambiente isolado e exportação de listas em CSV ou HTML em ZIP. As consultas são realizadas no navegador e o histórico local pode ser apagado. A cobertura do Common Crawl é amostral e não garante recuperar todas as páginas ou versões; confirme o contexto, a integridade e a data antes de usar como evidência jornalística.",
+  "discoveredVia": [
+    "Indicator"
+  ],
+  "discoveryUrl": "https://crawlback.cc/"
+}, 
+{
   "id": "okbr-querido-diario-tecnologias-educacao",
   "name": "Querido Diário — Tecnologias na Educação",
   "kind": "busca em diários oficiais e monitoramento de contratações educacionais",
