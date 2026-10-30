@@ -2896,13 +2896,14 @@ window.RADAR_PARTS.opportunities=[
     ],
     "scope": "Internacional / Europa",
     "deadline": "2026-10-29",
-    "deadlineStatus": "confirmado",
+    "deadlineStatus": "confirmado; encerrado em 29/10/2026 às 13h, horário de Bruxelas",
     "eligibility": "parcial",
     "fit": 0,
-    "status": "aberta",
+    "status": "encerrada",
     "rules": "https://grants.journalismfund.eu/en/the-invisible-life-grant",
     "apply": "https://grants.journalismfund.eu/en/the-invisible-life-grant",
-    "verified": "2026-10-21",
+    "verified": "2026-10-30",
+    "verificationHistory": [{"date":"2026-10-30","status":"encerrada","source":"https://grants.journalismfund.eu/en/the-invisible-life-grant"}],
     "desc": "Financiamento para investigações jornalísticas transnacionais sobre o bem-estar de animais de produção, com interesse ou ligação europeia. A seleção depende da composição da equipe e dos requisitos específicos do edital; consultar o regulamento oficial antes da candidatura. Prazo indicado: 29/10/2026, às 13h no horário de Bruxelas. A especialização temática não é motivo para excluir a oportunidade do Radar."
   },
   {
