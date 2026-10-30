@@ -3,6 +3,22 @@ window.RADAR_PARTS.changelog=[
 {
   "date": "2026-10-30",
   "type": "ferramentas",
+  "title": "Chartist e RustGIS — ferramentas encontradas em newsletter",
+  "items": [
+    {
+      "id": "chartist-responsive-svg-charts",
+      "title": "Chartist — gráficos SVG responsivos em JavaScript"
+    },
+    {
+      "id": "rustgis-opengeos",
+      "title": "RustGIS — SIG livre para desktop e navegador"
+    }
+  ],
+  "detail": "Duas ferramentas extraídas de links rastreados na newsletter Quantum of Sollazzo #680 e verificadas em fontes primárias, com limites técnicos e de privacidade documentados."
+},
+{
+  "date": "2026-10-30",
+  "type": "ferramentas",
   "title": "Vega-Lite e Inkscape — ferramentas de visualização verificadas",
   "items": [
     {
