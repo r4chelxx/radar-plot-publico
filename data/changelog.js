@@ -2,6 +2,22 @@ window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
 {
   "date": "2026-10-30",
+  "type": "ferramentas",
+  "title": "Vega-Lite e Inkscape — ferramentas de visualização verificadas",
+  "items": [
+    {
+      "id": "vega-lite-visualization-grammar",
+      "title": "Vega-Lite — gramática declarativa de visualização"
+    },
+    {
+      "id": "inkscape-svg-editor",
+      "title": "Inkscape — editor vetorial SVG livre"
+    }
+  ],
+  "detail": "Ferramentas de código aberto verificadas em documentação primária, com limites de uso e exigências de validação jornalística registrados."
+},
+{
+  "date": "2026-10-30",
   "type": "nova-oportunidade",
   "title": "Duas bolsas de reportagem IWMF — 30/10/2026",
   "items": [
