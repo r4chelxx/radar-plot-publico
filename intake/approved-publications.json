@@ -1187,6 +1187,42 @@
         "officialUrl": "https://inkscape.org/",
         "evidence": "Repositório oficial Inkscape no GitLab e documentação de licença confirmam editor SVG livre, multiplataforma, GPL. Site principal apresentou bloqueio de consulta web, mas código e documentação primários estão acessíveis. Duplicidade ausente em 89 ferramentas, fila e histórico conferidos."
       }
+    },
+    {
+      "category": "tools",
+      "record": {
+        "id": "chartist-responsive-svg-charts",
+        "name": "Chartist — gráficos SVG responsivos em JavaScript",
+        "kind": "gráficos responsivos e visualização web em SVG",
+        "url": "https://chartist.dev/",
+        "desc": "Biblioteca JavaScript de código aberto para gráficos responsivos renderizados em SVG e estilizados por CSS, com séries, barras, linhas e composição de gráficos. Pode ser integrada por módulo ES ou npm; útil para infográficos web leves e personalizáveis. Requer programação e validação de dados, escalas, contraste, acessibilidade e comportamento em dispositivos móveis. Recursos avançados de zoom e tooltips podem depender de plugins.",
+        "discoveryUrl": "https://buttondown.com/puntofisso/archive/680-quantum-of-sollazzo/"
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Radar PLOT — revisão editorial assistida",
+        "reviewedAt": "2026-10-30",
+        "officialUrl": "https://chartist.dev/",
+        "evidence": "Site oficial chartist.dev e repositório primário chartist-js/chartist confirmam gráficos SVG responsivos, CSS e biblioteca aberta; origem newsletter Quantum of Sollazzo #680 (Gmail Radar PLOT.), mensagem ID 1a17d31f385e9c39, com link decodificado; ausência de duplicidade verificada em catálogo, fila e histórico."
+      }
+    },
+    {
+      "category": "tools",
+      "record": {
+        "id": "rustgis-opengeos",
+        "name": "RustGIS — SIG livre para desktop e navegador",
+        "kind": "sistema de informação geográfica e análise espacial",
+        "url": "https://rustgis.app/",
+        "desc": "Aplicativo GIS de código aberto escrito em Rust, disponível para desktop e navegador (WebAssembly), com importação de GeoJSON, CSV, GeoTIFF e projetos espaciais, além de ferramentas de análise e exportação. O processamento local não implica envio automático dos dados, mas mapas-base, plugins e recursos opcionais de IA podem acessar serviços externos. A compatibilidade depende do navegador (WebGPU/WebGL2) e da maturidade das funções; conferir projeções, resultados e privacidade antes de uso jornalístico.",
+        "discoveryUrl": "https://web.rustgis.app/"
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Radar PLOT — revisão editorial assistida",
+        "reviewedAt": "2026-10-30",
+        "officialUrl": "https://rustgis.app/",
+        "evidence": "Site de documentação rustgis.app e repositório primário opengeos/RustGIS confirmam GIS em Rust, WebAssembly, formatos suportados e limites de privacidade; origem newsletter Quantum of Sollazzo #680 (Gmail Radar PLOT.), mensagem ID 1a17d31f385e9c39; ausência de duplicidade verificada em catálogo, fila e histórico."
+      }
     }
   ]
 }
