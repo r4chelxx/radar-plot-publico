@@ -1,6 +1,62 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.datasets=[
 {
+  "id": "nyc-open-data-portal",
+  "name": "NYC Open Data — portal de dados públicos de Nova York",
+  "org": "City of New York",
+  "territoryTier": "Outros",
+  "kind": "portal",
+  "themes": [
+    "Dados abertos",
+    "Cidades",
+    "Habitação",
+    "Clima",
+    "Mobilidade",
+    "Administração pública"
+  ],
+  "coverage": "Conjuntos disponibilizados por órgãos municipais de Nova York, com busca por agência e temas como clima, habitação, alimentação e mobilidade.",
+  "frequency": "Varia por conjunto e agência; consultar atualização e metadados de cada base.",
+  "format": "Portal de consulta e acesso a conjuntos de dados; formatos e possibilidades de exportação variam por dataset.",
+  "period": "Variável conforme a série e o órgão responsável.",
+  "granularity": "Variável: registro administrativo, endereço, bairro, área geográfica ou agregado temporal, conforme a base.",
+  "geoUnit": "Cidade de Nova York, Estados Unidos",
+  "api": "",
+  "docs": "https://www.nyc.gov/opendata",
+  "limitations": "Não pressupor cobertura universal de todos os registros municipais. Qualidade, atualização, granularidade, anonimização e disponibilidade dependem do órgão e da base. Verificar documentação, mudanças de esquema, dados ausentes e regras de privacidade antes de cruzamentos ou publicação.",
+  "lastChecked": "2026-10-30",
+  "url": "https://www.nyc.gov/opendata",
+  "discoveryUrl": "https://opendata.cityofnewyork.us/",
+  "description": "Portal oficial de dados abertos da Prefeitura de Nova York para encontrar bases administrativas e estatísticas por tema ou agência."
+},
+{
+  "id": "un-system-data-commons",
+  "name": "UN System Data Commons — portal de dados do sistema ONU",
+  "org": "United Nations Statistics Division / United Nations",
+  "territoryTier": "Outros",
+  "kind": "portal",
+  "themes": [
+    "Estatísticas internacionais",
+    "Demografia",
+    "Saúde",
+    "Educação",
+    "Meio ambiente",
+    "Desenvolvimento sustentável"
+  ],
+  "coverage": "Portal de descoberta e consulta de dados de entidades do sistema ONU, com séries e indicadores internacionais conforme cada provedor e conjunto disponível.",
+  "frequency": "Variável por entidade e conjunto; não assumir atualização simultânea ou automática de todas as séries.",
+  "format": "Interface de pesquisa e consulta; formatos e downloads variam por conjunto e serviço.",
+  "period": "Variável por fonte e indicador; conferir período disponível e ano da última revisão.",
+  "granularity": "País, região, período e indicador, ou outras unidades conforme cada conjunto.",
+  "geoUnit": "Global; cobertura geográfica variável por indicador",
+  "api": "",
+  "docs": "https://data.un.org/",
+  "limitations": "O portal reúne dados de diferentes entidades, métodos e calendários de atualização. Comparabilidade internacional, revisões históricas, metadados, cobertura de países e acesso programático variam por série; verificar definições e origem antes de comparar. Não confundir a interface atual UN System Data Commons com páginas legadas do antigo UNdata.",
+  "lastChecked": "2026-10-30",
+  "url": "https://data.un.org/",
+  "discoveryUrl": "https://data.un.org/",
+  "description": "Ponto de acesso a estatísticas e indicadores de diversas entidades das Nações Unidas para investigações comparativas e análises internacionais."
+}, 
+{
   "id": "okbr-odi-cidades-2023",
   "name": "OKBR — Índice de Dados Abertos para Cidades 2023",
   "org": "Open Knowledge Brasil",

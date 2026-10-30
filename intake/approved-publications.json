@@ -965,6 +965,82 @@
         "officialUrl": "https://python-visualization.github.io/folium/latest/",
         "evidence": "Documentação oficial Folium consultada em 30/10/2026 confirma mapas Leaflet a partir de Python, coropléticos, camadas, GeoJSON e exportação HTML; repositório do projeto python-visualization/folium documenta instalação e código aberto. Presente como candidato na fila DVS, sem registro de mesmo nome, ID ou URL nos catálogos e manifesto."
       }
+    },
+    {
+      "category": "datasets",
+      "record": {
+        "id": "nyc-open-data-portal",
+        "name": "NYC Open Data — portal de dados públicos de Nova York",
+        "org": "City of New York",
+        "territoryTier": "Outros",
+        "kind": "portal",
+        "themes": [
+          "Dados abertos",
+          "Cidades",
+          "Habitação",
+          "Clima",
+          "Mobilidade",
+          "Administração pública"
+        ],
+        "coverage": "Conjuntos disponibilizados por órgãos municipais de Nova York, com busca por agência e temas como clima, habitação, alimentação e mobilidade.",
+        "frequency": "Varia por conjunto e agência; consultar atualização e metadados de cada base.",
+        "format": "Portal de consulta e acesso a conjuntos de dados; formatos e possibilidades de exportação variam por dataset.",
+        "period": "Variável conforme a série e o órgão responsável.",
+        "granularity": "Variável: registro administrativo, endereço, bairro, área geográfica ou agregado temporal, conforme a base.",
+        "geoUnit": "Cidade de Nova York, Estados Unidos",
+        "api": "",
+        "docs": "https://www.nyc.gov/opendata",
+        "limitations": "Não pressupor cobertura universal de todos os registros municipais. Qualidade, atualização, granularidade, anonimização e disponibilidade dependem do órgão e da base. Verificar documentação, mudanças de esquema, dados ausentes e regras de privacidade antes de cruzamentos ou publicação.",
+        "lastChecked": "2026-10-30",
+        "url": "https://www.nyc.gov/opendata",
+        "discoveryUrl": "https://opendata.cityofnewyork.us/",
+        "description": "Portal oficial de dados abertos da Prefeitura de Nova York para encontrar bases administrativas e estatísticas por tema ou agência."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Radar PLOT — revisão editorial assistida",
+        "reviewedAt": "2026-10-30",
+        "officialUrl": "https://www.nyc.gov/opendata",
+        "evidence": "Página oficial NYC Open Data consultada em 30/10/2026 confirma busca de datasets, navegação por agência, temas clima/habitação/alimentação/mobilidade e novo site anunciado em setembro de 2026; o endereço da fila DVS opendata.cityofnewyork.us redireciona para nyc.gov/opendata. Ausência de registro equivalente nos três catálogos e manifesto verificada."
+      }
+    },
+    {
+      "category": "datasets",
+      "record": {
+        "id": "un-system-data-commons",
+        "name": "UN System Data Commons — portal de dados do sistema ONU",
+        "org": "United Nations Statistics Division / United Nations",
+        "territoryTier": "Outros",
+        "kind": "portal",
+        "themes": [
+          "Estatísticas internacionais",
+          "Demografia",
+          "Saúde",
+          "Educação",
+          "Meio ambiente",
+          "Desenvolvimento sustentável"
+        ],
+        "coverage": "Portal de descoberta e consulta de dados de entidades do sistema ONU, com séries e indicadores internacionais conforme cada provedor e conjunto disponível.",
+        "frequency": "Variável por entidade e conjunto; não assumir atualização simultânea ou automática de todas as séries.",
+        "format": "Interface de pesquisa e consulta; formatos e downloads variam por conjunto e serviço.",
+        "period": "Variável por fonte e indicador; conferir período disponível e ano da última revisão.",
+        "granularity": "País, região, período e indicador, ou outras unidades conforme cada conjunto.",
+        "geoUnit": "Global; cobertura geográfica variável por indicador",
+        "api": "",
+        "docs": "https://data.un.org/",
+        "limitations": "O portal reúne dados de diferentes entidades, métodos e calendários de atualização. Comparabilidade internacional, revisões históricas, metadados, cobertura de países e acesso programático variam por série; verificar definições e origem antes de comparar. Não confundir a interface atual UN System Data Commons com páginas legadas do antigo UNdata.",
+        "lastChecked": "2026-10-30",
+        "url": "https://data.un.org/",
+        "discoveryUrl": "https://data.un.org/",
+        "description": "Ponto de acesso a estatísticas e indicadores de diversas entidades das Nações Unidas para investigações comparativas e análises internacionais."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Radar PLOT — revisão editorial assistida",
+        "reviewedAt": "2026-10-30",
+        "officialUrl": "https://data.un.org/",
+        "evidence": "Página oficial data.un.org consultada em 30/10/2026 identifica UN System Data Commons e 26 entidades do sistema ONU; documentação da UNSD confirma diversidade de fontes e calendários de atualização. Conferida ausência de URL, ID e nome equivalentes nos catálogos e manifesto. Limitações de cobertura e comparabilidade explicitadas."
+      }
     }
   ]
 }
