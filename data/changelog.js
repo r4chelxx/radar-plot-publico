@@ -2,6 +2,22 @@ window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
 {
   "date": "2026-10-30",
+  "type": "ferramentas",
+  "title": "Publicação editorial verificada — 2026-10-30",
+  "items": [
+    {
+      "id": "google-earth-engine",
+      "title": "Google Earth Engine — análise geoespacial em nuvem"
+    },
+    {
+      "id": "folium-python-leaflet-maps",
+      "title": "Folium — mapas interativos em Python"
+    }
+  ],
+  "detail": "Ferramentas de geoprocessamento verificadas em documentação primária, com limitações de acesso, licenciamento e validação de dados descritas."
+}, 
+{
+  "date": "2026-10-30",
   "type": "nova-oportunidade",
   "title": "Publicação editorial verificada — 2026-10-30",
   "items": [
