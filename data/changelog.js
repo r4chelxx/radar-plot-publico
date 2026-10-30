@@ -2,6 +2,38 @@ window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
 {
   "date": "2026-10-30",
+  "type": "ferramentas",
+  "title": "Chartist e RustGIS — ferramentas encontradas em newsletter",
+  "items": [
+    {
+      "id": "chartist-responsive-svg-charts",
+      "title": "Chartist — gráficos SVG responsivos em JavaScript"
+    },
+    {
+      "id": "rustgis-opengeos",
+      "title": "RustGIS — SIG livre para desktop e navegador"
+    }
+  ],
+  "detail": "Duas ferramentas extraídas de links rastreados na newsletter Quantum of Sollazzo #680 e verificadas em fontes primárias, com limites técnicos e de privacidade documentados."
+},
+{
+  "date": "2026-10-30",
+  "type": "ferramentas",
+  "title": "Vega-Lite e Inkscape — ferramentas de visualização verificadas",
+  "items": [
+    {
+      "id": "vega-lite-visualization-grammar",
+      "title": "Vega-Lite — gramática declarativa de visualização"
+    },
+    {
+      "id": "inkscape-svg-editor",
+      "title": "Inkscape — editor vetorial SVG livre"
+    }
+  ],
+  "detail": "Ferramentas de código aberto verificadas em documentação primária, com limites de uso e exigências de validação jornalística registrados."
+},
+{
+  "date": "2026-10-30",
   "type": "nova-oportunidade",
   "title": "Duas bolsas de reportagem IWMF — 30/10/2026",
   "items": [

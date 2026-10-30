@@ -1,6 +1,38 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.tools=[
 {
+  "id": "chartist-responsive-svg-charts",
+  "name": "Chartist — gráficos SVG responsivos em JavaScript",
+  "kind": "gráficos responsivos e visualização web em SVG",
+  "url": "https://chartist.dev/",
+  "desc": "Biblioteca JavaScript de código aberto para gráficos responsivos renderizados em SVG e estilizados por CSS, com séries, barras, linhas e composição de gráficos. Pode ser integrada por módulo ES ou npm; útil para infográficos web leves e personalizáveis. Requer programação e validação de dados, escalas, contraste, acessibilidade e comportamento em dispositivos móveis. Recursos avançados de zoom e tooltips podem depender de plugins.",
+  "discoveryUrl": "https://buttondown.com/puntofisso/archive/680-quantum-of-sollazzo/"
+},
+{
+  "id": "rustgis-opengeos",
+  "name": "RustGIS — SIG livre para desktop e navegador",
+  "kind": "sistema de informação geográfica e análise espacial",
+  "url": "https://rustgis.app/",
+  "desc": "Aplicativo GIS de código aberto escrito em Rust, disponível para desktop e navegador (WebAssembly), com importação de GeoJSON, CSV, GeoTIFF e projetos espaciais, além de ferramentas de análise e exportação. O processamento local não implica envio automático dos dados, mas mapas-base, plugins e recursos opcionais de IA podem acessar serviços externos. A compatibilidade depende do navegador (WebGPU/WebGL2) e da maturidade das funções; conferir projeções, resultados e privacidade antes de uso jornalístico.",
+  "discoveryUrl": "https://web.rustgis.app/"
+},
+{
+  "id": "vega-lite-visualization-grammar",
+  "name": "Vega-Lite — gramática declarativa de visualização",
+  "kind": "visualização interativa de dados e gráficos declarativos",
+  "url": "https://vega.github.io/vega-lite/",
+  "desc": "Biblioteca aberta para especificar gráficos e visualizações interativas em JSON, incluindo camadas, múltiplas visões, filtros, agregações e seleções. Compila especificações para Vega; útil para visualizações reproduzíveis de dados jornalísticos. Exige conhecimentos de estrutura de dados, JSON e integração web; não substitui auditoria estatística, acessibilidade nem verificação de fontes. Documentação e editor online no projeto oficial.",
+  "discoveryUrl": "https://vega.github.io/"
+},
+{
+  "id": "inkscape-svg-editor",
+  "name": "Inkscape — editor vetorial SVG livre",
+  "kind": "edição de gráficos vetoriais e acabamento de visualizações",
+  "url": "https://inkscape.org/",
+  "desc": "Editor de código aberto para trabalhar com SVG, caminhos, camadas, textos e ilustrações vetoriais; útil para finalizar gráficos jornalísticos exportados em SVG e criar diagramas. Disponível para Windows, macOS e Linux, sem assinatura. É um editor de desenho, não uma ferramenta de análise estatística; revisar acessibilidade, fontes, licença de elementos externos e integridade dos dados antes da publicação.",
+  "discoveryUrl": "https://inkscape.org/"
+},
+{
   "id": "google-earth-engine",
   "name": "Google Earth Engine — análise geoespacial em nuvem",
   "kind": "sensoriamento remoto e análise geoespacial de imagens de satélite",
