@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-30T12:27:53.420Z",
+  "updatedAt": "2026-10-30T12:31:25.158Z",
   "policy": "Public web leads only; pending does not mean verified or approved.",
   "candidates": [
     {
@@ -770,8 +770,11 @@
       ],
       "firstSeen": "2026-10-23T17:21:05.512Z",
       "lastSeen": "2026-10-30T01:50:41.483Z",
-      "status": "pending",
-      "reviewPriority": "high"
+      "status": "rejected",
+      "reviewPriority": "high",
+      "reviewedAt": "2026-10-30",
+      "reviewEvidence": "https://www.ogc.org/about/awards/gardels/",
+      "decisionReason": "Prêmio honorífico OGC por indicação de vencedores anteriores e aprovação do conselho; não existe edital aberto de financiamento ou candidatura individual para jornalistas."
     },
     {
       "id": "280862e005817e8275c3b0a385e5b3436150a36ab1770c8024e422de53c5a3a6",
@@ -2205,8 +2208,11 @@
       ],
       "firstSeen": "2026-10-23T17:21:05.512Z",
       "lastSeen": "2026-10-30T01:50:41.483Z",
-      "status": "pending",
-      "reviewPriority": "high"
+      "status": "duplicate",
+      "reviewPriority": "high",
+      "reviewedAt": "2026-10-30",
+      "reviewEvidence": "https://inkscape.org/",
+      "decisionReason": "URL oficial já consta como ferramenta inkscape-svg-editor no catálogo público, verificada no deploy de 30/10."
     },
     {
       "id": "7e356086eb10bca8974696d81268d768a7c5d6a5d1c0141e25dead3c27b6d67c",
