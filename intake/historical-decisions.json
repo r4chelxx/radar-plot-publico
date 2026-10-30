@@ -704,6 +704,38 @@
       "status": "approved",
       "officialUrl": "https://playwright.dev/python/",
       "reason": "Ferramenta de automação e testes com documentação primária e licença Apache-2.0, aprovada em intake/approved-publications.json após verificação de duplicidade. Não confundir aprovação com publicação efetiva."
+    },
+    {
+      "url": "https://earthengine.google.com/",
+      "status": "published",
+      "officialUrl": "https://earthengine.google.com/",
+      "reason": "Ferramenta Google Earth Engine publicada em data/tools.js no PR #138 após revisão de fonte primária, elegibilidade de uso e duplicidade; deploy Pages do commit 8cde322 confirmado em 30/10/2026.",
+      "reviewedBy": "Radar PLOT — revisão editorial assistida",
+      "reviewedAt": "2026-10-30"
+    },
+    {
+      "url": "https://python-visualization.github.io/folium",
+      "status": "published",
+      "officialUrl": "https://python-visualization.github.io/folium/latest/",
+      "reason": "Biblioteca Folium publicada em data/tools.js no PR #138 com documentação oficial, limitações e duplicidade verificadas; deploy Pages do commit 8cde322 confirmado em 30/10/2026.",
+      "reviewedBy": "Radar PLOT — revisão editorial assistida",
+      "reviewedAt": "2026-10-30"
+    },
+    {
+      "url": "https://opendata.cityofnewyork.us/",
+      "status": "published",
+      "officialUrl": "https://www.nyc.gov/opendata",
+      "reason": "Portal NYC Open Data publicado em data/datasets.js no PR #139 após conferência de redirecionamento ao site municipal, documentação e duplicidade; deploy Pages do commit ecf63a9 confirmado em 30/10/2026.",
+      "reviewedBy": "Radar PLOT — revisão editorial assistida",
+      "reviewedAt": "2026-10-30"
+    },
+    {
+      "url": "https://data.un.org/",
+      "status": "published",
+      "officialUrl": "https://data.un.org/",
+      "reason": "Portal UN System Data Commons publicado em data/datasets.js no PR #139 após validação da interface atual, origem oficial, escopo e duplicidade; deploy Pages do commit ecf63a9 confirmado em 30/10/2026.",
+      "reviewedBy": "Radar PLOT — revisão editorial assistida",
+      "reviewedAt": "2026-10-30"
     }
   ]
 }
