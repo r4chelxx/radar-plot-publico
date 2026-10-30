@@ -206,6 +206,12 @@ jobs:
           git show FETCH_HEAD:intake/editorial-queue.json > /tmp/radar-persisted-editorial-queue.json
           node scripts/load-persisted-editorial-queue.js /tmp/radar-persisted-editorial-queue.json intake/editorial-queue-report.json
           node -e "const r=require('./intake/editorial-queue-report.json');if(r.source!=='radar-state')process.exit(1)"
+      - name: Generate read-only backlog triage suggestions
+        run: |
+          if [ -f /tmp/radar-persisted-editorial-queue.json ]; then
+            node scripts/report-backlog-triage.js /tmp/radar-persisted-editorial-queue.json > intake/backlog-triage-report.json
+            node -e 'const fs=require("fs");const r=require("./intake/backlog-triage-report.json");fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY,["### Editorial backlog triage",`Pending: ${r.pending}; uncategorized: ${r.uncategorized}`,`Suggestions: ${JSON.stringify(r.counts)}`].join("\n")+"\n")'
+          fi
       - name: Summarize collector reliability
         run: node scripts/report-discovery-operations.js
       - name: Show source failures in workflow summary
@@ -234,3 +240,4 @@ jobs:
             intake/discovery-operations.json
             intake/editorial-review-sample.json
             intake/editorial-review.md
+            intake/backlog-triage-report.json
