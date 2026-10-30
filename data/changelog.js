@@ -2,6 +2,15 @@ window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
 {
   "date": "2026-10-30",
+  "type": "dados",
+  "title": "Três bases verificadas: energia global e pesquisa acadêmica",
+  "items": [
+    {
+      "id": "gem-global-integrated-power-tracker",
+      "title": "Global Energy Monitor — Global Integrated Power Tracker"
+    },
+{
+  "date": "2026-10-30",
   "type": "ferramentas",
   "title": "Chartist e RustGIS — ferramentas encontradas em newsletter",
   "items": [
