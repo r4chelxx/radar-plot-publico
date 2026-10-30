@@ -31,9 +31,12 @@ for(const candidate of current.review||[]){
  if(candidate.classification!=='needs-editorial-review')continue;
  if(!candidate.id||!/^https:\/\//.test(candidate.url||''))continue;
  const old=queue.get(candidate.id);
- if(old&&terminal.has(old.status))continue;
+ if(old&&terminal.has(old.status)){
+  if((!old.category||old.category==='uncategorized')&&candidate.category&&candidate.category!=='uncategorized')queue.set(candidate.id,{...old,category:candidate.category});
+  continue;
+ }
  const providers=[...new Set([...(old?.providers||[]),...(candidate.providers||[])])].slice(0,30);
- queue.set(candidate.id,{id:candidate.id,title:candidate.title,url:candidate.url,category:candidate.category||old?.category||'uncategorized',providers,firstSeen:old?.firstSeen||now,lastSeen:now,status:resolvedStatus(candidate)||old?.status||'pending',reviewPriority:candidate.reviewPriority||'normal'});
+ queue.set(candidate.id,{id:candidate.id,title:candidate.title,url:candidate.url,category:(!candidate.category||candidate.category==='uncategorized')?(old?.category||'uncategorized'):candidate.category,providers,firstSeen:old?.firstSeen||now,lastSeen:now,status:resolvedStatus(candidate)||old?.status||'pending',reviewPriority:candidate.reviewPriority||'normal'});
 }
 const out={schemaVersion:1,updatedAt:now,policy:'Public web leads only; pending does not mean verified or approved.',candidates:[...queue.values()].sort((a,b)=>a.firstSeen.localeCompare(b.firstSeen))};
 fs.mkdirSync(require('node:path').dirname(dest),{recursive:true});

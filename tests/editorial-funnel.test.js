@@ -12,3 +12,5 @@ test('reports current-run new leads without claiming persistence',()=>{const r=e
 test('reports opportunity signals and pending backlog without approving them',()=>{const r=editorialFunnel({candidates:[{id:'a',status:'pending',title:'Journalism fellowship',providers:['Public feed'],firstSeen:'2026-10-01'},{id:'b',status:'rejected',title:'Grant',providers:['Public feed']}]},{approved:[]});assert.equal(r.opportunitySignalPending,1);assert.equal(r.oldestPendingFirstSeen,'2026-10-01');assert.deepEqual(r.pendingByProvider,[{provider:'Public feed',count:1}]);});
 
 test('reports categorized backlog separately from keyword signals',()=>{const r=editorialFunnel({candidates:[{id:'1',status:'pending',category:'opportunities',title:'Open call'},{id:'2',status:'pending',category:'tools',title:'Grant tool'}]},{approved:[]});assert.equal(r.pendingByCategory.opportunities,1);assert.equal(r.pendingByCategory.tools,1);});
+
+test('legacy unknown categories remain explicit until reclassified',()=>{const r=editorialFunnel({candidates:[{id:'legacy',status:'pending',title:'Unclassified lead'}]},{approved:[]});assert.equal(r.pendingByCategory.unknown,1);});
