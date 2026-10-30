@@ -9,6 +9,8 @@ function suggest(item){
   ['tools',/\b(tool|software|visualization|mapping|chart|editor|scraping|python|javascript|gis)\b|mapbox\.com|figma\.com/],
   ['datasets',/\b(dataset|datasets|open.data|data.portal|statistics|data.catalog)\b/]
  ];
+ // An award or competition is not necessarily a journalism funding opportunity.
+ if(/\b(award|awards|competition|contest|conference)\b/.test(text)&&! /\b(grant|fellowship|funding|scholarship)\b/.test(text))return {category:null,confidence:'manual-review-event-or-award'};
  const matches=patterns.filter(([,p])=>p.test(text)).map(([c])=>c);
  return matches.length===1?{category:matches[0],confidence:'heuristic-review-required'}:{category:null,confidence:matches.length?'ambiguous':'insufficient-evidence'};
 }
