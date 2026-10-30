@@ -1,6 +1,96 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.opportunities=[
 {
+  "id": "iwmf-fault-lines-reporting-fund",
+  "title": "IWMF — Fault Lines Reporting Fund",
+  "org": "International Women's Media Foundation (IWMF)",
+  "summary": "Bolsas de US$ 2.500 a US$ 10.000 para reportagens investigativas nos Estados Unidos sobre narrativas de intolerância, misoginia e discriminação; candidaturas em fluxo contínuo.",
+  "type": "Grant de reportagem investigativa",
+  "themes": [
+    "Jornalismo investigativo",
+    "Desinformação",
+    "Direitos humanos",
+    "Discriminação",
+    "Estados Unidos"
+  ],
+  "scope": "Estados Unidos — jornalistas atuantes no país",
+  "deadline": null,
+  "deadlineStatus": "Fluxo contínuo; sem data final anunciada na página oficial em 30/10/2026",
+  "eligibility": "restrita",
+  "fit": 4,
+  "status": "aberta",
+  "value": "US$ 2.500 a US$ 10.000; valores superiores considerados excepcionalmente",
+  "duration": "Reportagem concluída e publicada até um ano após concessão",
+  "modality": "Inscrição online, análise contínua",
+  "documents": [
+    "Proposta investigativa fundamentada",
+    "Histórico profissional de pelo menos três anos",
+    "Prova de interesse editorial ou portfólio de publicações"
+  ],
+  "restrictions": [
+    "Candidatura individual de jornalista mulher ou pessoa não binária, ou equipe de qualquer gênero liderada por mulher/pessoa não binária",
+    "Atuação jornalística nos Estados Unidos; reportagens sobre intolerância e discriminação nos EUA",
+    "Três anos ou mais de experiência profissional; proposta em inglês"
+  ],
+  "rules": "https://www.iwmf.org/programs/fault-lines/",
+  "apply": "https://www.iwmf.org/programs/fault-lines/",
+  "verified": "2026-10-30",
+  "desc": "O programa informa candidaturas e concessões em fluxo contínuo, sem prazo final fixo. Elegibilidade geográfica e de liderança é restrita; o edital não deve ser apresentado como bolsa global. Conferir formulário antes da inscrição.",
+  "discoveryUrl": "https://gfmd.info/fundings/",
+  "verificationHistory": [
+    {
+      "date": "2026-10-30",
+      "status": "aberta",
+      "source": "https://www.iwmf.org/our-programs/faq-fault-lines/"
+    }
+  ]
+},
+{
+  "id": "iwmf-fund-indigenous-journalists-mmip",
+  "title": "IWMF — Fund for Indigenous Journalists (MMIP/WG2T)",
+  "org": "International Women's Media Foundation (IWMF)",
+  "summary": "Apoio financeiro e editorial a reportagens nos Estados Unidos sobre pessoas indígenas desaparecidas e assassinadas, com candidaturas analisadas continuamente.",
+  "type": "Grant de reportagem",
+  "themes": [
+    "Povos indígenas",
+    "Direitos humanos",
+    "Jornalismo investigativo",
+    "Violência de gênero",
+    "Estados Unidos"
+  ],
+  "scope": "Estados Unidos — projetos de reportagem sobre comunidades indígenas no país",
+  "deadline": null,
+  "deadlineStatus": "Inscrições em fluxo contínuo; sem prazo final informado em 30/10/2026",
+  "eligibility": "restrita",
+  "fit": 3,
+  "status": "aberta",
+  "value": "Apoio financeiro, editorial e de apresentação de pautas; valor não especificado na página consultada",
+  "duration": "Conforme proposta aprovada",
+  "modality": "Candidatura online e avaliação contínua",
+  "documents": [
+    "Proposta jornalística sobre MMIP/WG2T",
+    "Informações sobre experiência e vínculo jornalístico",
+    "Documentação exigida pelo formulário oficial"
+  ],
+  "restrictions": [
+    "Projeto de reportagem nos Estados Unidos sobre pessoas indígenas desaparecidas e assassinadas",
+    "Jornalistas indígenas e não indígenas, de todos os gêneros, vinculados a veículos ou freelancers podem candidatar-se",
+    "Prioridade editorial a narrativas indígenas e apuração responsável"
+  ],
+  "rules": "https://www.iwmf.org/programs/fund-for-indigenous-journalists/",
+  "apply": "https://www.iwmf.org/programs/fund-for-indigenous-journalists/",
+  "verified": "2026-10-30",
+  "desc": "A IWMF confirma inscrições e análise contínuas. Não há valor fixo nem data de encerramento publicados na página principal; não inferir tais dados. Escopo restrito aos Estados Unidos.",
+  "discoveryUrl": "https://www.iwmf.org/",
+  "verificationHistory": [
+    {
+      "date": "2026-10-30",
+      "status": "aberta",
+      "source": "https://www.iwmf.org/programs/fund-for-indigenous-journalists/"
+    }
+  ]
+},
+{
   "id": "massey-gordon-fisher-jhr-2027-28",
   "title": "Gordon N. Fisher / JHR Journalism Fellowship 2027–28",
   "org": "Massey College / Journalists for Human Rights",
