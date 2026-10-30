@@ -7,6 +7,6 @@ function editorialFunnel(queue,manifest){
  for(const x of approved)if(Object.hasOwn(byCategory,x.category))byCategory[x.category]++;
  const pending=items.filter(x=>x.status==='pending');
  const high=pending.filter(x=>x.reviewPriority==='high');
- return {queueTotal:items.length,pending:pending.length,highPriorityPending:high.length,queueStatuses:byStatus,approvedManifestTotal:approved.length,approvedManifestByCategory:byCategory,publicationConfirmedByThisReport:false,warning:'Manifest approval and queue status do not confirm actual catalog publication or live deployment.'};
+ const current=(arguments[2]?.review||[]).filter(x=>x.classification==='needs-editorial-review'&&x.id);\n const existing=new Set(items.map(x=>x.id));\n const newCandidates=current.filter(x=>!existing.has(x.id));\n return {currentRunReviewCandidates:current.length,currentRunNewCandidates:new Set(newCandidates.map(x=>x.id)).size,projectedQueueTotal:items.length+new Set(newCandidates.map(x=>x.id)).size,queueTotal:items.length,pending:pending.length,highPriorityPending:high.length,queueStatuses:byStatus,approvedManifestTotal:approved.length,approvedManifestByCategory:byCategory,publicationConfirmedByThisReport:false,warning:'Manifest approval and queue status do not confirm actual catalog publication or live deployment.'};
 }
 module.exports={editorialFunnel};
