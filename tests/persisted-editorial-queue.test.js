@@ -18,3 +18,11 @@ test('missing persisted queue is flagged unavailable, not mistaken for empty',()
   assert.equal(JSON.parse(fs.readFileSync(out)).source,'unavailable');
  }finally{fs.rmSync(dir,{recursive:true,force:true})}
 });
+
+test('daily workflow reloads the confirmed remote queue rather than the main checkout',()=>{
+ const yaml=fs.readFileSync(path.resolve('.github/workflows/unified-web-intake.yml'),'utf8');
+ const step=yaml.split('      - name: Reload current persisted editorial queue for reporting')[1]?.split('      - name: Summarize collector reliability')[0]||'';
+ assert.match(step,/git fetch --depth=1 origin radar-state/);
+ assert.match(step,/git show FETCH_HEAD:intake\/editorial-queue\.json/);
+ assert.doesNotMatch(step,/node scripts\/load-persisted-editorial-queue\.js intake\/editorial-queue\.json/);
+});
