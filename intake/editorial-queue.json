@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-30T12:11:01.358Z",
+  "updatedAt": "2026-10-30T12:15:00Z",
   "policy": "Public web leads only; pending does not mean verified or approved.",
   "candidates": [
     {
@@ -6044,6 +6044,26 @@
         "duplication"
       ],
       "publicationReady": false
+    },
+    {
+      "id": "04c45003af5de8b0deb66e0074ef2ee5375ea530eee8c262692208adad300699",
+      "url": "https://pacificdatavizchallenge.org/",
+      "title": "Pacific Dataviz Challenge 2026 — encerrado",
+      "category": "opportunities",
+      "providers": [
+        "Quantum of Sollazzo #680",
+        "Pacific Dataviz Challenge"
+      ],
+      "firstSeen": "2026-10-30T12:15:00Z",
+      "lastSeen": "2026-10-30T12:15:00Z",
+      "status": "archived",
+      "archiveKind": "closed-opportunity",
+      "archiveStatus": "encerrada",
+      "deadline": "2026-08-31",
+      "reviewedAt": "2026-10-30",
+      "officialUrl": "https://pacificdatavizchallenge.org/",
+      "nextRecheckAt": "2026-11-29",
+      "reviewPriority": "normal"
     }
   ]
 }
