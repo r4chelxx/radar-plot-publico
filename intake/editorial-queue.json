@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-31T12:35:38.717Z",
+  "updatedAt": "2026-10-31T12:40:24.503Z",
   "policy": "Public web leads only; pending does not mean verified or approved.",
   "candidates": [
     {
@@ -6568,6 +6568,54 @@
       "officialUrl": "https://altavozlab.com/2026-community-journalist-fellowship/",
       "archiveVerifiedAt": "2026-10-31",
       "nextRecheckAt": "2026-11-30"
+    },
+    {
+      "id": "926495fd2d46d163a36920341bd421e0544e93d48e2aa242f2161150500f65dd",
+      "title": "PondPilot — exploração SQL de dados no navegador",
+      "url": "https://pondpilot.io/app",
+      "category": "tools",
+      "providers": [
+        "Gmail Radar PLOT. — Quantum of Sollazzo #672"
+      ],
+      "firstSeen": "2026-10-31T12:40:24.503Z",
+      "lastSeen": "2026-10-31T12:40:24.503Z",
+      "status": "published",
+      "reviewPriority": "excluded",
+      "officialUrl": "https://pondpilot.io/app/",
+      "publicationUrl": "https://r4chelxx.github.io/radar-plot-publico/#ferramentas/pondpilot-duckdb-browser-sql",
+      "reviewedAt": "2026-10-31"
+    },
+    {
+      "id": "26f186425f8821987b8a69689ec0b6d3f3835ae7914787231103512cb3d2e030",
+      "title": "Happy Planet Index 2026 — bem-estar sustentável por país",
+      "url": "https://happyplanetindex.org/accessible-hpi",
+      "category": "datasets",
+      "providers": [
+        "Gmail Radar PLOT. — Quantum of Sollazzo #673; edição 2026 confirmada no site"
+      ],
+      "firstSeen": "2026-10-31T12:40:24.503Z",
+      "lastSeen": "2026-10-31T12:40:24.503Z",
+      "status": "published",
+      "reviewPriority": "excluded",
+      "officialUrl": "https://happyplanetindex.org/accessible-hpi/",
+      "publicationUrl": "https://r4chelxx.github.io/radar-plot-publico/#base/happy-planet-index-2026-global",
+      "reviewedAt": "2026-10-31"
+    },
+    {
+      "id": "bacf345dba4539a4e22e786bb1a91f76b8f1507a137e04d3d9358a7cf801af2d",
+      "title": "ONU — DPoA MTR Journalism Fellowship 2027",
+      "url": "https://www.un.org/ohrlls/content/dpoa-mtr-journalism-fellowship",
+      "category": "opportunities",
+      "providers": [
+        "Pesquisa web — UN-OHRLLS"
+      ],
+      "firstSeen": "2026-10-31T12:40:24.503Z",
+      "lastSeen": "2026-10-31T12:40:24.503Z",
+      "status": "published",
+      "reviewPriority": "excluded",
+      "officialUrl": "https://www.un.org/ohrlls/content/dpoa-mtr-journalism-fellowship",
+      "publicationUrl": "https://r4chelxx.github.io/radar-plot-publico/#oportunidade/un-dpoa-mtr-journalism-fellowship-2027",
+      "reviewedAt": "2026-10-31"
     }
   ]
 }
