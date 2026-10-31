@@ -10,3 +10,11 @@ test('historical category and inspection are evidence, not automatic approval',(
  const h={leads:{z:{category:'tools',source:'DVS',pageStatus:'html-fetched',lastInspectedAt:'2026-10-30T12:00:00Z'}}};
  const x=report(q,h);assert.equal(x.historyCoverage.inspectedHtml,1);assert.equal(x.historyCoverage.conflicts,1);assert.equal(x.suggestions[0].historyConflict,true);assert.equal(q.candidates[0].category,undefined);
 });
+
+test('review order favors high-priority opportunities and preserves other categories',()=>{
+ const q={candidates:[{id:'a',title:'Dataset',url:'https://example.org/dataset',status:'pending',reviewPriority:'high'},{id:'b',title:'Reporting Grant',url:'https://example.org/grant',status:'pending',reviewPriority:'high'},{id:'c',title:'Python Tool',url:'https://example.org/python',status:'pending',reviewPriority:'normal'}]};
+ const result=report(q);
+ assert.deepEqual(result.suggestions.map(x=>x.id),['b','a','c']);
+ assert.equal(result.reviewReady.highPriority,2);
+ assert.equal(q.candidates[0].category,undefined);
+});
