@@ -46,3 +46,11 @@ test('queue delta distinguishes new, resolved, reopened and removed candidates',
  assert.deepEqual(d,{previousPending:3,currentPending:3,netChange:0,newPending:1,reopened:1,resolved:1,removedFromQueue:1});
  assert.equal(report(curr).backlogChange,null);
 });
+
+test('inspected review excludes uninspected leads and retains category coverage',()=>{
+ const q={candidates:[{id:'grant',title:'Reporting Grant',url:'https://example.org/grant',status:'pending',reviewPriority:'high'},{id:'tool',title:'Python Tool',url:'https://example.org/python',status:'pending',reviewPriority:'high'},{id:'data',title:'Open Data Portal',url:'https://example.org/open-data',status:'pending',reviewPriority:'high'}]};
+ const h={leads:{grant:{pageStatus:'html-fetched'},tool:{pageStatus:'html-fetched'},data:{pageStatus:'fetch-error'}}};
+ const x=report(q,h);
+ assert.deepEqual(x.inspectedReview.map(y=>y.id).sort(),['grant','tool']);
+ assert.equal(x.dailyReview.length,3);
+});
