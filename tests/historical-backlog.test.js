@@ -69,3 +69,15 @@ test('direct primary source precedes indirect Google News RSS link within the sa
  assert.equal(result.selected[0].url,direct.url);
  assert.equal(result.selected[1].url,indirect.url);
 });
+
+test('direct new page precedes indirect historical link',()=>{
+ const indirect=lead('rss',{url:'https://news.google.com/rss/articles/old'});
+ const direct=lead('direct');
+ const result=selectBacklog(state([indirect]),[direct],1,now);
+ assert.equal(result.selected[0].url,direct.url);
+});
+test('404 cooldown is longer than transient HTTP failures',()=>{
+ const st=state([lead('missing',{pageStatus:'http-error',httpStatus:404,lastInspectedAt:'2026-10-15T13:00:00Z'}),lead('blocked',{pageStatus:'http-error',httpStatus:403,lastInspectedAt:'2026-10-15T13:00:00Z'})]);
+ const result=selectBacklog(st,[],10,now);
+ assert.deepEqual(result.selected.map(x=>x.url),[lead('blocked').url]);
+});
