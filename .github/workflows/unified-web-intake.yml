@@ -209,7 +209,8 @@ jobs:
       - name: Generate read-only backlog triage suggestions
         run: |
           if [ -f /tmp/radar-persisted-editorial-queue.json ]; then
-            node scripts/report-backlog-triage.js /tmp/radar-persisted-editorial-queue.json > intake/backlog-triage-report.json
+            git show FETCH_HEAD:state/lead-history.json > /tmp/radar-persisted-lead-history.json
+            node scripts/report-backlog-triage.js /tmp/radar-persisted-editorial-queue.json /tmp/radar-persisted-lead-history.json > intake/backlog-triage-report.json
             node -e 'const fs=require("fs");const r=require("./intake/backlog-triage-report.json");fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY,["### Editorial backlog triage",`Pending: ${r.pending}; uncategorized: ${r.uncategorized}`,`Suggestions: ${JSON.stringify(r.counts)}`].join("\n")+"\n")'
           fi
       - name: Summarize collector reliability
