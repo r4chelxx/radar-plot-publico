@@ -73,3 +73,11 @@ test('indirect news URLs require primary-source resolution before daily review',
  assert.equal(r.suggestions.length,0);
  assert.equal(r.reviewReady.highPriority,1);
 });
+
+test('indirect candidates remain in source-resolution batch',()=>{
+ const q={candidates:[{id:'news',title:'Journalism Grant',url:'https://news.google.com/rss/articles/example',category:'opportunities',reviewPriority:'high',status:'pending'}]};
+ const r=report(q);
+ assert.equal(r.sourceResolution.length,1);
+ assert.equal(r.sourceResolution[0].id,'news');
+ assert.equal(r.dailyReview.length,0);
+});
