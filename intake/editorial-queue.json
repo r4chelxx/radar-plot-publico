@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-31T12:13:31.771Z",
+  "updatedAt": "2026-10-31T12:17:07.429Z",
   "policy": "Public web leads only; pending does not mean verified or approved.",
   "candidates": [
     {
@@ -6536,6 +6536,19 @@
       "lastSeen": "2026-10-30T18:07:58.707Z",
       "status": "pending",
       "reviewPriority": "high"
+    },
+    {
+      "id": "ee798069041a9ddc05b197971875d4bc3970b6228c56e7c98d5aa7d1acba0545",
+      "title": "SJN — HEAL & Youth Building and Belonging Fellowships 2026",
+      "url": "https://www.solutionsjournalism.org/events/apply-now-heal-youth-building-and-belonging-fellowships",
+      "providers": [
+        "Gmail Radar PLOT. — Above the Fold (23/09/2026)",
+        "Solutions Journalism Network"
+      ],
+      "firstSeen": "2026-10-31T12:17:07.429Z",
+      "lastSeen": "2026-10-31T12:17:07.429Z",
+      "status": "pending",
+      "reviewPriority": "normal"
     }
   ]
 }
