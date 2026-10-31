@@ -37,7 +37,7 @@ window.RADAR_PARTS.opportunities=[
   "apply": "https://www.un.org/ohrlls/content/dpoa-mtr-journalism-fellowship",
   "verified": "2026-10-31",
   "desc": "O edital oficial informa prazo de 30/11, mas a tabela de marcos do próprio site menciona 19/11 para o período de chamada. Recomendável tratar 19/11 como alerta antecipado e confirmar no formulário; elegibilidade estritamente limitada aos 44 LDCs.",
-  "discoveryUrl": "https://medwomenjournalists.org/resources/middle-east-eye-fellowship-2027-middle-east-eye-middle-east",
+  "discoveryUrl": "https://www.un.org/ohrlls/",
   "verificationHistory": [
     {
       "date": "2026-10-31",
