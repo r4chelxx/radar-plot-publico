@@ -1760,6 +1760,117 @@
         "officialUrl": "https://digital-strategy.ec.europa.eu/en/funding/call-proposals-media-freedom-rapid-response-mechanism-2027",
         "evidence": "Comissão Europeia confirma chamada de 21/10/2026, aberta 22/10 e com prazo 27/01/2027, €3 milhões, dois anos, cofinanciamento 90%, consórcios de pelo menos duas entidades em dois países. Duplicidade conferida por ID, título e URL no catálogo em 31/10."
       }
+    },
+    {
+      "category": "opportunities",
+      "record": {
+        "id": "un-dpoa-mtr-journalism-fellowship-2027",
+        "title": "ONU — DPoA MTR Journalism Fellowship 2027",
+        "org": "United Nations / UN-OHRLLS",
+        "summary": "Fellowship com viagem e diárias para jornalistas nacionais de 44 países menos desenvolvidos cobrirem revisão do Programa de Ação de Doha em março de 2027.",
+        "type": "Fellowship de cobertura internacional",
+        "themes": [
+          "Desenvolvimento sustentável",
+          "Jornalismo internacional",
+          "Mudanças climáticas",
+          "Políticas públicas",
+          "Nações Unidas"
+        ],
+        "scope": "Apenas nacionais dos 44 países classificados pela ONU como Least Developed Countries (LDC); Brasil não elegível",
+        "deadline": "2026-11-30",
+        "deadlineStatus": "Página e homepage oficiais indicam 30/11/2026, mas cronograma interno menciona 19/11; confirmar imediatamente no formulário antes de candidatar-se",
+        "eligibility": "restrita",
+        "fit": 4,
+        "status": "aberta",
+        "value": "Viagem aérea econômica, diárias para hospedagem e alimentação, acesso a briefings; valor monetário não fixado",
+        "duration": "Cobertura da revisão de 25 a 27/03/2027; entregas até 30/04/2027",
+        "modality": "Fellowship presencial em Doha, Catar, com orientação e três produtos jornalísticos",
+        "documents": [
+          "Biografia até 300 palavras",
+          "Duas amostras de trabalhos publicados, ao menos uma sobre desenvolvimento",
+          "Proposta de reportagem até 400 palavras"
+        ],
+        "restrictions": [
+          "Nacionalidade de um dos 44 países menos desenvolvidos listados no edital; jornalistas brasileiros não elegíveis por nacionalidade brasileira",
+          "Pelo menos dois anos de experiência profissional em jornalismo",
+          "Jornalista freelancer ou vinculado a veículo com trabalhos publicados",
+          "Compromisso com três reportagens antes, durante e após o encontro; viagem sujeita a visto e credenciamento"
+        ],
+        "rules": "https://www.un.org/ohrlls/content/dpoa-mtr-journalism-fellowship",
+        "apply": "https://www.un.org/ohrlls/content/dpoa-mtr-journalism-fellowship",
+        "verified": "2026-10-31",
+        "desc": "O edital oficial informa prazo de 30/11, mas a tabela de marcos do próprio site menciona 19/11 para o período de chamada. Recomendável tratar 19/11 como alerta antecipado e confirmar no formulário; elegibilidade estritamente limitada aos 44 LDCs.",
+        "discoveryUrl": "https://www.un.org/ohrlls/",
+        "verificationHistory": [
+          {
+            "date": "2026-10-31",
+            "status": "aberta",
+            "source": "https://www.un.org/ohrlls/content/dpoa-mtr-journalism-fellowship"
+          }
+        ]
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Radar PLOT — revisão editorial assistida",
+        "reviewedAt": "2026-10-31",
+        "officialUrl": "https://www.un.org/ohrlls/content/dpoa-mtr-journalism-fellowship",
+        "evidence": "UN-OHRLLS e homepage oficial consultadas em 31/10 confirmam fellowship para nacionais de 44 LDCs, mínimo dois anos de jornalismo, viagem e diárias, três produtos, revisão em Doha 25–27/03/2027 e prazo anunciado 30/11. Cronograma interno conflitante 19/11 explicitado. URL e ID ausentes do catálogo."
+      }
+    },
+    {
+      "category": "tools",
+      "record": {
+        "id": "pondpilot-duckdb-browser-sql",
+        "name": "PondPilot — exploração SQL de dados no navegador",
+        "kind": "análise de dados tabulares, SQL e DuckDB-WASM",
+        "url": "https://pondpilot.io/app/",
+        "desc": "Aplicação gratuita e aberta para consultar arquivos CSV, Parquet, JSON, planilhas e bases DuckDB diretamente no navegador, com editor SQL, resultados tabulares e exportação. Processamento básico ocorre localmente via DuckDB-WASM; funções opcionais de IA usam chaves e provedores externos, exigindo avaliação de privacidade. No Safari, algumas funções de persistência de arquivos são limitadas; não substitui validação e limpeza dos dados.",
+        "discoveryUrl": "https://github.com/pondpilot/pondpilot"
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Radar PLOT — revisão editorial assistida",
+        "reviewedAt": "2026-10-31",
+        "officialUrl": "https://pondpilot.io/app/",
+        "evidence": "Documentação primária pondpilot.io e repositório github.com/pondpilot/pondpilot confirmam DuckDB-WASM, formatos, SQL, processamento local, exportação e diferenças entre navegadores; recursos opcionais de IA dependem de provedores externos. URL, nome e ID ausentes do catálogo em 31/10; descoberto na newsletter Quantum of Sollazzo #672."
+      }
+    },
+    {
+      "category": "datasets",
+      "record": {
+        "id": "happy-planet-index-2026-global",
+        "name": "Happy Planet Index 2026 — bem-estar sustentável por país",
+        "org": "Hot or Cool Institute / Happy Planet Index",
+        "territoryTier": "Outros",
+        "kind": "dataset",
+        "themes": [
+          "Desenvolvimento sustentável",
+          "Bem-estar",
+          "Saúde",
+          "Meio ambiente",
+          "Indicadores globais"
+        ],
+        "coverage": "Comparações internacionais do índice de bem-estar sustentável, com séries históricas por país; cobertura de países e anos varia conforme disponibilidade das fontes.",
+        "frequency": "Edições periódicas do índice; versão 2026 disponível e séries anuais históricas.",
+        "format": "Tabelas HTML acessíveis, visualização interativa e opção de download no portal oficial (formato do arquivo não confirmado nesta auditoria).",
+        "period": "Série histórica desde 2006, com edição publicada em 2026 e resultados recentes baseados em dados disponíveis.",
+        "granularity": "País e ano; componentes de expectativa de vida, bem-estar subjetivo e pegada ecológica.",
+        "geoUnit": "País",
+        "api": "",
+        "docs": "https://happyplanetindex.org/learn-about-the-happy-planet-index/",
+        "limitations": "Índice composto sujeito a escolhas metodológicas e dados estimados; cobertura varia por país/ano; não é medida direta de direitos humanos, renda ou causalidade. Licença e formato exato do download não confirmados; conferir antes de reutilização massiva. O site apresenta erro de JavaScript em algumas páginas.",
+        "lastChecked": "2026-10-31",
+        "url": "https://happyplanetindex.org/accessible-hpi/",
+        "discoveryUrl": "https://happyplanetindex.org/countries/",
+        "description": "Tabela internacional com índices e componentes de bem-estar sustentável, pegada ecológica e expectativa de vida, incluindo série histórica e edição 2026."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Radar PLOT — revisão editorial assistida",
+        "reviewedAt": "2026-10-31",
+        "officialUrl": "https://happyplanetindex.org/accessible-hpi/",
+        "evidence": "Fonte primária Happy Planet Index confirma edição 2026, tabela acessível por país, série histórica, componentes e opção anunciada de download; metodologia oficial disponível. Licença e arquivo de download não foram verificados e essa limitação consta na ficha. Duplicidade por URL e nome ausente no catálogo em 31/10; descoberta via Quantum of Sollazzo #673."
+      }
     }
   ]
 }

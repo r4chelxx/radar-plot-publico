@@ -1,6 +1,33 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.datasets=[
 {
+  "id": "happy-planet-index-2026-global",
+  "name": "Happy Planet Index 2026 — bem-estar sustentável por país",
+  "org": "Hot or Cool Institute / Happy Planet Index",
+  "territoryTier": "Outros",
+  "kind": "dataset",
+  "themes": [
+    "Desenvolvimento sustentável",
+    "Bem-estar",
+    "Saúde",
+    "Meio ambiente",
+    "Indicadores globais"
+  ],
+  "coverage": "Comparações internacionais do índice de bem-estar sustentável, com séries históricas por país; cobertura de países e anos varia conforme disponibilidade das fontes.",
+  "frequency": "Edições periódicas do índice; versão 2026 disponível e séries anuais históricas.",
+  "format": "Tabelas HTML acessíveis, visualização interativa e opção de download no portal oficial (formato do arquivo não confirmado nesta auditoria).",
+  "period": "Série histórica desde 2006, com edição publicada em 2026 e resultados recentes baseados em dados disponíveis.",
+  "granularity": "País e ano; componentes de expectativa de vida, bem-estar subjetivo e pegada ecológica.",
+  "geoUnit": "País",
+  "api": "",
+  "docs": "https://happyplanetindex.org/learn-about-the-happy-planet-index/",
+  "limitations": "Índice composto sujeito a escolhas metodológicas e dados estimados; cobertura varia por país/ano; não é medida direta de direitos humanos, renda ou causalidade. Licença e formato exato do download não confirmados; conferir antes de reutilização massiva. O site apresenta erro de JavaScript em algumas páginas.",
+  "lastChecked": "2026-10-31",
+  "url": "https://happyplanetindex.org/accessible-hpi/",
+  "discoveryUrl": "https://happyplanetindex.org/countries/",
+  "description": "Tabela internacional com índices e componentes de bem-estar sustentável, pegada ecológica e expectativa de vida, incluindo série histórica e edição 2026."
+},
+{
   "id": "global-forest-watch-open-data-portal",
   "name": "Global Forest Watch — portal aberto de dados florestais",
   "org": "World Resources Institute / Global Forest Watch",

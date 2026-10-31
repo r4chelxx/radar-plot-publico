@@ -1,6 +1,52 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.opportunities=[
 {
+  "id": "un-dpoa-mtr-journalism-fellowship-2027",
+  "title": "ONU — DPoA MTR Journalism Fellowship 2027",
+  "org": "United Nations / UN-OHRLLS",
+  "summary": "Fellowship com viagem e diárias para jornalistas nacionais de 44 países menos desenvolvidos cobrirem revisão do Programa de Ação de Doha em março de 2027.",
+  "type": "Fellowship de cobertura internacional",
+  "themes": [
+    "Desenvolvimento sustentável",
+    "Jornalismo internacional",
+    "Mudanças climáticas",
+    "Políticas públicas",
+    "Nações Unidas"
+  ],
+  "scope": "Apenas nacionais dos 44 países classificados pela ONU como Least Developed Countries (LDC); Brasil não elegível",
+  "deadline": "2026-11-30",
+  "deadlineStatus": "Página e homepage oficiais indicam 30/11/2026, mas cronograma interno menciona 19/11; confirmar imediatamente no formulário antes de candidatar-se",
+  "eligibility": "restrita",
+  "fit": 4,
+  "status": "aberta",
+  "value": "Viagem aérea econômica, diárias para hospedagem e alimentação, acesso a briefings; valor monetário não fixado",
+  "duration": "Cobertura da revisão de 25 a 27/03/2027; entregas até 30/04/2027",
+  "modality": "Fellowship presencial em Doha, Catar, com orientação e três produtos jornalísticos",
+  "documents": [
+    "Biografia até 300 palavras",
+    "Duas amostras de trabalhos publicados, ao menos uma sobre desenvolvimento",
+    "Proposta de reportagem até 400 palavras"
+  ],
+  "restrictions": [
+    "Nacionalidade de um dos 44 países menos desenvolvidos listados no edital; jornalistas brasileiros não elegíveis por nacionalidade brasileira",
+    "Pelo menos dois anos de experiência profissional em jornalismo",
+    "Jornalista freelancer ou vinculado a veículo com trabalhos publicados",
+    "Compromisso com três reportagens antes, durante e após o encontro; viagem sujeita a visto e credenciamento"
+  ],
+  "rules": "https://www.un.org/ohrlls/content/dpoa-mtr-journalism-fellowship",
+  "apply": "https://www.un.org/ohrlls/content/dpoa-mtr-journalism-fellowship",
+  "verified": "2026-10-31",
+  "desc": "O edital oficial informa prazo de 30/11, mas a tabela de marcos do próprio site menciona 19/11 para o período de chamada. Recomendável tratar 19/11 como alerta antecipado e confirmar no formulário; elegibilidade estritamente limitada aos 44 LDCs.",
+  "discoveryUrl": "https://www.un.org/ohrlls/",
+  "verificationHistory": [
+    {
+      "date": "2026-10-31",
+      "status": "aberta",
+      "source": "https://www.un.org/ohrlls/content/dpoa-mtr-journalism-fellowship"
+    }
+  ]
+},
+{
   "id": "eu-journalism-partnerships-pluralism-2027",
   "title": "União Europeia — Journalism Partnerships: Pluralism 2027",
   "org": "Comissão Europeia / Creative Europe",
