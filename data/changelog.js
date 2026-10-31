@@ -2,6 +2,26 @@ window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
 {
   "date": "2026-10-31",
+  "type": "atualizacao-editorial",
+  "title": "Três recursos verificados — ONU, PondPilot e Happy Planet Index 2026",
+  "items": [
+    {
+      "id": "un-dpoa-mtr-journalism-fellowship-2027",
+      "title": "ONU — DPoA MTR Journalism Fellowship 2027"
+    },
+    {
+      "id": "pondpilot-duckdb-browser-sql",
+      "title": "PondPilot — exploração SQL de dados no navegador"
+    },
+    {
+      "id": "happy-planet-index-2026-global",
+      "title": "Happy Planet Index 2026 — bem-estar sustentável por país"
+    }
+  ],
+  "detail": "Fellowship restrita a nacionais de países menos desenvolvidos, ferramenta de SQL local e índice global de bem-estar; ressalvas de prazo, privacidade e licença nas fichas."
+},
+{
+  "date": "2026-10-31",
   "type": "nova-oportunidade",
   "title": "Duas chamadas europeias de apoio institucional ao jornalismo — 31/10/2026",
   "items": [
