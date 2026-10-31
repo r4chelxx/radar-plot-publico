@@ -2,6 +2,7 @@
 const fs=require('node:fs'),crypto=require('node:crypto');
 const {selectBacklog}=require('./select-historical-backlog');
 const {auditCapacity}=require('./audit-capacity');
+const {inspectionHealth}=require('./inspection-health');
 const input=JSON.parse(fs.readFileSync('intake/candidate-triage.json','utf8'));
 const limit=Math.min(50,Math.max(1,Number(process.env.LEAD_PAGE_LIMIT||15)));
 function allowed(raw){
@@ -35,8 +36,9 @@ async function inspect(lead){
  for(const item of selected)results.push({...await inspect(item),historicalId:item.id,historyAtSelection:item.origin,archivedRecheck:item.editorialStatus==='archived',requiresReopeningReview:item.editorialStatus==='archived'});
  const statusCounts=results.reduce((a,x)=>(a[x.pageStatus]=(a[x.pageStatus]||0)+1,a),{});
  const httpStatusCounts=results.reduce((a,x)=>(x.httpStatus&&(a[x.httpStatus]=(a[x.httpStatus]||0)+1),a),{});
- const htmlFetched=statusCounts['html-fetched']||0;
- const out={statusCounts,httpStatusCounts,degraded:results.length>0&&htmlFetched===0,generatedAt:new Date().toISOString(),policy:'Unverified evidence only. Date mentions are NOT deadlines.',eligibleForPublication:0,eligibleCandidates:backlog.total,inspected:results.length,archivedRechecks:results.filter(x=>x.archivedRecheck).length,capacity:{configured:limit,effective:effectiveLimit,pressure:capacity.pressure,policy:capacity.policy},selection:{historyLoaded:previous!==null,backlogTotal:backlog.total,ready:backlog.ready,waiting:backlog.waiting,priorities:selected.reduce((a,x)=>(a[x.origin]=(a[x.origin]||0)+1,a),{})},results};
+ const health=inspectionHealth(statusCounts,results.length);
+ const htmlFetched=health.htmlFetched;
+ const out={statusCounts,httpStatusCounts,degraded:health.degraded,inspectionHealth:health,generatedAt:new Date().toISOString(),policy:'Unverified evidence only. Date mentions are NOT deadlines.',eligibleForPublication:0,eligibleCandidates:backlog.total,inspected:results.length,archivedRechecks:results.filter(x=>x.archivedRecheck).length,capacity:{configured:limit,effective:effectiveLimit,pressure:capacity.pressure,policy:capacity.policy},selection:{historyLoaded:previous!==null,backlogTotal:backlog.total,ready:backlog.ready,waiting:backlog.waiting,priorities:selected.reduce((a,x)=>(a[x.origin]=(a[x.origin]||0)+1,a),{})},results};
  fs.writeFileSync('intake/lead-evidence.json',JSON.stringify(out,null,2)+'\n');
- console.log(JSON.stringify({inspected:results.length,htmlFetched,statusCounts,httpStatusCounts,degraded:out.degraded}));
+ console.log(JSON.stringify({inspected:results.length,htmlFetched,statusCounts,httpStatusCounts,degraded:out.degraded,inspectionStatus:health.status,successRate:health.successRate}));
 })().catch(e=>{console.error(e);process.exitCode=1});
