@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-31T12:40:24.503Z",
+  "updatedAt": "2026-10-31T12:40:50.991Z",
   "policy": "Public web leads only; pending does not mean verified or approved.",
   "candidates": [
     {
@@ -6615,6 +6615,40 @@
       "reviewPriority": "excluded",
       "officialUrl": "https://www.un.org/ohrlls/content/dpoa-mtr-journalism-fellowship",
       "publicationUrl": "https://r4chelxx.github.io/radar-plot-publico/#oportunidade/un-dpoa-mtr-journalism-fellowship-2027",
+      "reviewedAt": "2026-10-31"
+    },
+    {
+      "id": "f2a1c88a1998cc4c1c3fe4ded7865cf31a9ac4ea4d20dd2fd6144c7fd362e047",
+      "title": "União Europeia — Journalism Partnerships: Pluralism 2027",
+      "url": "https://digital-strategy.ec.europa.eu/en/funding/call-proposals-journalism-partnerships-pluralism-2027",
+      "category": "opportunities",
+      "providers": [
+        "GFMD",
+        "Comissão Europeia"
+      ],
+      "firstSeen": "2026-10-31T12:40:50.991Z",
+      "lastSeen": "2026-10-31T12:40:50.991Z",
+      "status": "published",
+      "reviewPriority": "excluded",
+      "officialUrl": "https://digital-strategy.ec.europa.eu/en/funding/call-proposals-journalism-partnerships-pluralism-2027",
+      "publicationUrl": "https://r4chelxx.github.io/radar-plot-publico/#oportunidade/eu-journalism-partnerships-pluralism-2027",
+      "reviewedAt": "2026-10-31"
+    },
+    {
+      "id": "6d31824403cda53630176cd675f9c8ffeb1c899f83a50f04d0b74b0fdc9a50ca",
+      "title": "União Europeia — Media Freedom Rapid Response Mechanism 2027",
+      "url": "https://digital-strategy.ec.europa.eu/en/funding/call-proposals-media-freedom-rapid-response-mechanism-2027",
+      "category": "opportunities",
+      "providers": [
+        "GFMD",
+        "Comissão Europeia"
+      ],
+      "firstSeen": "2026-10-31T12:40:50.991Z",
+      "lastSeen": "2026-10-31T12:40:50.991Z",
+      "status": "published",
+      "reviewPriority": "excluded",
+      "officialUrl": "https://digital-strategy.ec.europa.eu/en/funding/call-proposals-media-freedom-rapid-response-mechanism-2027",
+      "publicationUrl": "https://r4chelxx.github.io/radar-plot-publico/#oportunidade/eu-media-freedom-rapid-response-2027",
       "reviewedAt": "2026-10-31"
     }
   ]
