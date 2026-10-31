@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-30T21:45:34.470Z",
+  "updatedAt": "2026-10-31T12:05:39.825Z",
   "policy": "Public web leads only; pending does not mean verified or approved.",
   "candidates": [
     {
@@ -6524,6 +6524,18 @@
       "lastSeen": "2026-10-30T18:07:58.707Z",
       "status": "pending",
       "reviewPriority": "high"
+    },
+    {
+      "id": "828dd27f180d45f8950b0c0ec0b4c86e75e3f2abee0b67d5bddcbc694ee78805",
+      "title": "DVS — Board of Directors 2027–28 (encerrada)",
+      "url": "https://datavisualizationsociety.org/news/2026/10/2/direct-the-future-of-dvs-as-a-board-member-apply-by-oct-30",
+      "providers": [
+        "Data Visualization Society"
+      ],
+      "firstSeen": "2026-10-19T11:28:09.259Z",
+      "lastSeen": "2026-10-30T21:45:17.138Z",
+      "status": "archived",
+      "reviewPriority": "excluded"
     }
   ]
 }
