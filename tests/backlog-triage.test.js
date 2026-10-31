@@ -54,3 +54,13 @@ test('inspected review excludes uninspected leads and retains category coverage'
  assert.deepEqual(x.inspectedReview.map(y=>y.id).sort(),['grant','tool']);
  assert.equal(x.dailyReview.length,3);
 });
+
+test('already categorized pending leads participate in review without becoming heuristic suggestions',()=>{
+ const q={candidates:[{id:'known',title:'Official Journalism Grant',url:'https://example.org/funding',category:'opportunities',reviewPriority:'high',status:'pending'},{id:'unknown',title:'Python Tool',url:'https://example.org/python',reviewPriority:'high',status:'pending'}]};
+ const r=report(q,{leads:{known:{pageStatus:'html-fetched'}}});
+ assert.equal(r.pending,2);
+ assert.equal(r.uncategorized,1);
+ assert.deepEqual(r.dailyReview.map(x=>x.id).sort(),['known','unknown']);
+ assert.deepEqual(r.inspectedReview.map(x=>x.id),['known']);
+ assert.deepEqual(r.suggestions.map(x=>x.id),['unknown']);
+});
