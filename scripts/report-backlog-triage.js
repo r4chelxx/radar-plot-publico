@@ -26,6 +26,18 @@ function compareReview(a,b){
  for(let i=0;i<x.length;i++)if(x[i]!==y[i])return x[i]-y[i];
  return String(a.title||'').localeCompare(String(b.title||''));
 }
+function selectDailyReview(items,limit=24){
+ const pool=items.filter(x=>x.priority==='high'&&x.category&&!x.historyConflict);
+ const groups=['opportunities','tools','datasets'];
+ const selected=[],seen=new Set();
+ // Reserve category coverage before filling remaining slots in review order.
+ for(const category of groups)for(const item of pool.filter(x=>x.category===category).slice(0,4)){
+  if(selected.length>=limit)break;
+  if(!seen.has(item.id)){selected.push(item);seen.add(item.id);}
+ }
+ for(const item of pool){if(selected.length>=limit)break;if(!seen.has(item.id)){selected.push(item);seen.add(item.id);}}
+ return selected;
+}
 function report(queue,historyData={}){
  const history=historyData.leads||{};
  const pending=(queue.candidates||[]).filter(x=>x.status==='pending');
@@ -37,7 +49,7 @@ function report(queue,historyData={}){
   return {id:x.id,title:x.title,url:x.url,priority:x.reviewPriority||'normal',...proposal,historyCategory,historyConflict,historySource:lead.source||null,inspectionStatus:lead.pageStatus||null,lastInspectedAt:lead.lastInspectedAt||null,requiresSourceReview:historyConflict||!proposal.category};
  });
  const counts=items.reduce((a,x)=>(a[x.category||x.confidence]=(a[x.category||x.confidence]||0)+1,a),{});
- return {pending:pending.length,uncategorized:items.length,counts,historyCoverage:{categorized:items.filter(x=>x.historyCategory).length,inspectedHtml:items.filter(x=>x.inspectionStatus==='html-fetched').length,conflicts:items.filter(x=>x.historyConflict).length},reviewOrderPolicy:'priority > unambiguous suggestion > opportunity/tool/dataset > inspected HTML > title; manual editorial verification required',reviewReady:{highPriority:items.filter(x=>x.priority==='high'&&x.category&&!x.historyConflict).length,highPriorityWithHtml:items.filter(x=>x.priority==='high'&&x.category&&!x.historyConflict&&x.inspectionStatus==='html-fetched').length},suggestions:items.sort(compareReview)};
+ return {pending:pending.length,uncategorized:items.length,counts,historyCoverage:{categorized:items.filter(x=>x.historyCategory).length,inspectedHtml:items.filter(x=>x.inspectionStatus==='html-fetched').length,conflicts:items.filter(x=>x.historyConflict).length},reviewOrderPolicy:'priority > unambiguous suggestion > opportunity/tool/dataset > inspected HTML > title; manual editorial verification required',reviewReady:{highPriority:items.filter(x=>x.priority==='high'&&x.category&&!x.historyConflict).length,highPriorityWithHtml:items.filter(x=>x.priority==='high'&&x.category&&!x.historyConflict&&x.inspectionStatus==='html-fetched').length},dailyReview:selectDailyReview(items.sort(compareReview)),suggestions:items};
 }
 module.exports={suggest,report};
 if(require.main===module){
