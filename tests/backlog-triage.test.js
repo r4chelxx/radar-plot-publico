@@ -18,3 +18,13 @@ test('review order favors high-priority opportunities and preserves other catego
  assert.equal(result.reviewReady.highPriority,2);
  assert.equal(q.candidates[0].category,undefined);
 });
+
+test('daily review is capped, high-priority and balanced across categories',()=>{
+ const q={candidates:[...Array.from({length:30},(_,i)=>({id:'g'+i,title:'Reporting Grant '+i,url:'https://example.org/grant/'+i,status:'pending',reviewPriority:'high'})),{id:'tool',title:'Python Tool',url:'https://example.org/python',status:'pending',reviewPriority:'high'},{id:'data',title:'Open Data Portal',url:'https://example.org/open-data',status:'pending',reviewPriority:'high'},{id:'low',title:'Reporting Grant',url:'https://example.org/grant',status:'pending',reviewPriority:'normal'}]};
+ const before=JSON.stringify(q),x=report(q);
+ assert.equal(x.dailyReview.length,24);
+ assert.ok(x.dailyReview.some(y=>y.id==='tool'));
+ assert.ok(x.dailyReview.some(y=>y.id==='data'));
+ assert.ok(x.dailyReview.every(y=>y.priority==='high'));
+ assert.equal(JSON.stringify(q),before);
+});

@@ -23,6 +23,7 @@ const eligibilityStatuses=new Set(["elegível","parcial","inelegível","restrita
 const investigationStageStatuses=new Set(["estruturado","em_apuracao","parcial","planejado"]);
 const investigationSourceStatuses=new Set(["usada","planejada","nao_obtida"]);
 const todayInBahia=new Intl.DateTimeFormat("en-CA",{timeZone:"America/Bahia",year:"numeric",month:"2-digit",day:"2-digit"}).format(new Date());
+const todayInPacific=new Intl.DateTimeFormat("en-CA",{timeZone:"America/Los_Angeles",year:"numeric",month:"2-digit",day:"2-digit"}).format(new Date());
 function checkPastDate(label,value){if(value&&value>todayInBahia)errors.push(label+": future verification date "+value)}
 const seen=new Set();
 for(const o of opps){
@@ -35,7 +36,7 @@ for(const o of opps){
   if(!Array.isArray(o.themes)||!o.themes.length) errors.push("opportunity "+o.id+": themes must be a non-empty array");
   if(Object.prototype.hasOwnProperty.call(o,"story")) errors.push("opportunity "+o.id+": private story links must not be public");
   if(o.apply!==undefined&&o.apply!==null&&!/^https?:\/\//.test(o.apply)) errors.push("opportunity "+o.id+": invalid apply URL");
-  if(o.status==="aberta"&&o.deadline&&o.deadline<todayInBahia) errors.push("opportunity "+o.id+": open status with past deadline "+o.deadline);
+  if(o.status==="aberta"&&o.deadline&&o.deadline<(o.deadlineStatus&&/23h59 do Pacífico/i.test(o.deadlineStatus)?todayInPacific:todayInBahia)) errors.push("opportunity "+o.id+": open status with past deadline "+o.deadline);
   for(const k of ["deadline","opens","verified"]) if(o[k]&&!dateRx.test(o[k])) errors.push("opportunity "+o.id+": invalid "+k);
   checkPastDate("opportunity "+o.id+" verified",o.verified);
   if(!o.summary) warnings.push("opportunity "+o.id+": missing editorial summary");

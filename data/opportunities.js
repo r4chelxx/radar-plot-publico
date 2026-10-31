@@ -654,7 +654,7 @@ window.RADAR_PARTS.opportunities=[
     "deadlineStatus": "confirmado",
     "eligibility": "elegível",
     "fit": 9,
-    "status": "aberta",
+    "status": "encerrada",
     "rules": "https://www.narrativasquesalvam.com.br/edital",
     "apply": "https://www.narrativasquesalvam.com.br/inscricao",
     "discoveredVia": [
@@ -914,7 +914,7 @@ window.RADAR_PARTS.opportunities=[
     "deadlineStatus": "confirmado",
     "eligibility": "elegível",
     "fit": 5,
-    "status": "aberta",
+    "status": "encerrada",
     "rules": "https://www.combustivellegal.com.br/premiodejornalismo/regulamento/",
     "apply": "https://www.combustivellegal.com.br/premiodejornalismo/",
     "discoveredVia": [
