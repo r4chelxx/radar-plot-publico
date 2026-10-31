@@ -1,6 +1,97 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.opportunities=[
 {
+  "id": "cfr-edward-r-murrow-press-fellowship-2027-28",
+  "title": "CFR — Edward R. Murrow Press Fellowship 2027–28",
+  "org": "Council on Foreign Relations (CFR)",
+  "summary": "Bolsa presencial de dez meses para correspondente internacional ou editor sênior com cidadania norte-americana; apoio de US$ 100 mil e verba modesta de viagem.",
+  "type": "Fellowship de jornalismo internacional",
+  "themes": [
+    "Jornalismo internacional",
+    "Política externa",
+    "Investigação",
+    "Pesquisa"
+  ],
+  "scope": "Estados Unidos — somente cidadãos norte-americanos",
+  "deadline": "2026-11-30",
+  "deadlineStatus": "Confirmado pela página oficial: 30/11/2026; formulário apresenta fechamento em 01/12/2026 05h UTC",
+  "eligibility": "restrita",
+  "fit": 4,
+  "status": "aberta",
+  "value": "US$ 100.000 de estipêndio e apoio modesto para viagem",
+  "duration": "10 meses, a partir de setembro de 2027",
+  "modality": "Presencial em Nova York ou Washington, ao menos quatro dias por semana",
+  "documents": [
+    "Proposta de pesquisa sobre política externa ou questão global",
+    "Informações biográficas, educacionais e profissionais",
+    "Duas cartas de apoio"
+  ],
+  "restrictions": [
+    "Cidadania dos EUA obrigatória",
+    "Histórico distinguido como correspondente internacional ou editor em mídia amplamente disponível nos EUA",
+    "Preferência por profissionais seniores; apenas uma bolsa por ano"
+  ],
+  "rules": "https://www.cfr.org/fellowships/edward-r-murrow-press-fellowship",
+  "apply": "https://apply.cfr.org/submit",
+  "verified": "2026-10-31",
+  "desc": "Fellowship restrita a cidadãos dos EUA com trajetória destacada em cobertura internacional. A seleção é competitiva e presencial; não é elegível para jornalistas sem cidadania norte-americana.",
+  "discoveryUrl": "https://grantsforjournalists.com/grant/edward-r-murrow-press-fellowship",
+  "verificationHistory": [
+    {
+      "date": "2026-10-31",
+      "status": "aberta",
+      "source": "https://www.cfr.org/fellowships/edward-r-murrow-press-fellowship"
+    }
+  ]
+},
+{
+  "id": "mozilla-foundation-fellowships-2027-28",
+  "title": "Mozilla Foundation — Fellowships 2027–28",
+  "org": "Mozilla Foundation",
+  "summary": "Dez bolsas internacionais de 12 meses para desenvolver tecnologia de interesse público, com até US$ 125 mil por pessoa; carta de intenção até 17 de dezembro de 2026.",
+  "type": "Fellowship de tecnologia e inovação de interesse público",
+  "themes": [
+    "Tecnologia cívica",
+    "IA",
+    "Open source",
+    "Infraestrutura pública",
+    "Direitos digitais",
+    "Inovação"
+  ],
+  "scope": "Internacional, sujeito às regras de cada modalidade",
+  "deadline": "2026-12-17",
+  "deadlineStatus": "Carta de intenção até 17/12/2026, 23h59 horário do Pacífico (UTC−8); etapa completa apenas para pré-selecionados",
+  "eligibility": "parcial",
+  "fit": 8,
+  "status": "aberta",
+  "value": "Embedded: US$ 75.000 de bolsa + US$ 25.000 para projeto; Independent: US$ 100.000 + US$ 25.000",
+  "duration": "12 meses a partir de 1º/06/2027",
+  "modality": "Projetos individuais; modalidade Embedded com organização anfitriã ou Independent",
+  "documents": [
+    "Carta de intenção (primeira etapa)",
+    "Descrição de solução e impacto público",
+    "Evidências de trabalho prévio e de uso real",
+    "Candidatura completa somente mediante convite em 2027"
+  ],
+  "restrictions": [
+    "O programa seleciona pessoas, não candidaturas automáticas de equipes",
+    "Modalidade Embedded vinculada a organizações anfitriãs e suas condições específicas",
+    "Projetos devem demonstrar inovação técnica, benefício público e envolvimento comunitário"
+  ],
+  "rules": "https://www.mozillafoundation.org/en/what-we-do/grantmaking/fellowship/2027-call-for-applications/",
+  "apply": "https://www.mozillafoundation.org/en/what-we-do/grantmaking/fellowship/2027-call-for-applications/",
+  "verified": "2026-10-31",
+  "desc": "Fellowship internacional para pessoas que desenvolvem alternativas tecnológicas de benefício público. O edital exige evidência de trabalho realizado e apresenta modalidades e restrições distintas. A data de 17/12 é para carta de intenção, não para candidatura final.",
+  "discoveryUrl": "https://opportunitydesk.org/2026/10/29/mozilla-foundation-fellowships-2027-2028",
+  "verificationHistory": [
+    {
+      "date": "2026-10-31",
+      "status": "aberta",
+      "source": "https://www.mozillafoundation.org/en/what-we-do/grantmaking/fellowship/2027-call-for-applications/"
+    }
+  ]
+}, 
+{
   "id": "iwmf-fault-lines-reporting-fund",
   "title": "IWMF — Fault Lines Reporting Fund",
   "org": "International Women's Media Foundation (IWMF)",
@@ -417,7 +508,7 @@ window.RADAR_PARTS.opportunities=[
       "Participar de entrevista virtual se selecionado para a lista curta"
     ],
     "opens": null,
-    "verificationHistory": [],
+    "verificationHistory": [{"date":"2026-10-31","status":"encerrada","source":"https://datavisualizationsociety.org/news/2026/10/2/direct-the-future-of-dvs-as-a-board-member-apply-by-oct-30/"}],
     "id": "dvs-board-2027-2028",
     "title": "Data Visualization Society — Board of Directors 2027–2028",
     "org": "Data Visualization Society",
@@ -431,17 +522,17 @@ window.RADAR_PARTS.opportunities=[
     ],
     "scope": "Internacional; sem restrição geográfica informada",
     "deadline": "2026-10-30",
-    "deadlineStatus": "confirmado; 23h59 do Pacífico",
+    "deadlineStatus": "Inscrições encerradas em 30/10/2026; data confirmada na chamada oficial da DVS",
     "eligibility": "parcial",
     "fit": 8,
-    "status": "aberta",
+    "status": "encerrada",
     "rules": "https://datavisualizationsociety.org/nominations/",
     "apply": "https://datavisualizationsociety.org/nominations/",
     "discoveredVia": [
       "Data Visualization Society"
     ],
     "discoveryUrl": "https://datavisualizationsociety.org/nominations/",
-    "verified": "2026-10-20"
+    "verified": "2026-10-31"
   },
   {
     "value": "R$ 1.800/mês para 40 horas semanais na tabela vigente da FAPESP; valor proporcional se a carga for menor",

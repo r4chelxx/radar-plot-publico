@@ -1,6 +1,30 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.tools=[
 {
+  "id": "osomenet-social-diffusion",
+  "name": "OSoMeNet — redes de difusão em mídias sociais",
+  "kind": "análise de redes e circulação de informação pública",
+  "url": "https://osome.iu.edu/tools/osomenet/",
+  "desc": "Ferramenta acadêmica para visualizar redes de difusão e coocorrência de postagens em Bluesky, Mastodon, TikTok e arquivo histórico OSoMe, com linha do tempo e consultas por termos. A cobertura depende das APIs, permissões e limites de cada plataforma; TikTok pode exigir credenciais de pesquisa e os resultados não representam amostras completas. Conferir termos, representatividade e privacidade antes de usar em investigação.",
+  "discoveryUrl": "https://osome.iu.edu/tools/osomenet/about"
+},
+{
+  "id": "reactable-r-interactive-tables",
+  "name": "reactable — tabelas interativas em R",
+  "kind": "tabelas interativas, visualização e publicação de dados",
+  "url": "https://glin.github.io/reactable/",
+  "desc": "Pacote R de código aberto (MIT) para tabelas interativas com ordenação, filtros, paginação, agrupamento, estilos condicionais e renderização personalizada, utilizável em Shiny, Quarto e R Markdown. Exige R e preparação dos dados; grandes tabelas podem precisar de virtualização ou processamento no servidor. Revisar acessibilidade, anonimização e dados sensíveis antes de publicar.",
+  "discoveryUrl": "https://glin.github.io/reactable/reference/reactable.html"
+},
+{
+  "id": "saucenao-reverse-image-search",
+  "name": "SauceNAO — busca reversa especializada de imagens",
+  "kind": "busca reversa e rastreamento de origem de imagens",
+  "url": "https://saucenao.com/",
+  "desc": "Mecanismo de busca reversa de imagens para localizar possíveis fontes e correspondências em índices especializados de ilustração, quadrinhos, plataformas de arte, filmes e outras coleções. Permite envio de imagem para consulta, mas não cobre toda a web nem comprova autenticidade ou autoria por si só. Evitar subir imagens sensíveis sem avaliar os termos de serviço, privacidade e direitos de terceiros.",
+  "discoveryUrl": "https://saucenao.com/about.html"
+}, 
+{
   "id": "chartist-responsive-svg-charts",
   "name": "Chartist — gráficos SVG responsivos em JavaScript",
   "kind": "gráficos responsivos e visualização web em SVG",
