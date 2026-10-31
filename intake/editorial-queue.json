@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-31T12:13:03.495Z",
+  "updatedAt": "2026-10-31T12:13:31.771Z",
   "policy": "Public web leads only; pending does not mean verified or approved.",
   "candidates": [
     {
@@ -408,8 +408,8 @@
       ],
       "firstSeen": "2026-10-23T17:21:05.512Z",
       "lastSeen": "2026-10-30T18:07:58.707Z",
-      "status": "pending",
-      "reviewPriority": "normal"
+      "status": "published",
+      "reviewPriority": "excluded"
     },
     {
       "id": "11f6a6a3300804eb8be8154344a83bcca373bda9a4aa1d1b65ce5afb8578d78a",
@@ -3243,8 +3243,8 @@
       ],
       "firstSeen": "2026-10-23T17:21:05.512Z",
       "lastSeen": "2026-10-30T18:07:58.707Z",
-      "status": "pending",
-      "reviewPriority": "normal"
+      "status": "published",
+      "reviewPriority": "excluded"
     },
     {
       "id": "b2ac080bafbf480915808b447b697f05ca69cf357b786a374ba344357ddbb7bc",
@@ -6092,8 +6092,8 @@
       ],
       "firstSeen": "2026-10-30T12:27:53.420Z",
       "lastSeen": "2026-10-30T12:27:53.420Z",
-      "status": "pending",
-      "reviewPriority": "high",
+      "status": "published",
+      "reviewPriority": "excluded",
       "category": "tools",
       "sourceOfficial": "https://osome.iu.edu/research/blog/new-osome-tools-fall-2026-edition",
       "verifiedAt": "2026-10-30"
@@ -6107,8 +6107,8 @@
       ],
       "firstSeen": "2026-10-30T12:27:53.420Z",
       "lastSeen": "2026-10-30T12:27:53.420Z",
-      "status": "pending",
-      "reviewPriority": "normal",
+      "status": "published",
+      "reviewPriority": "excluded",
       "category": "tools",
       "sourceOfficial": "https://saucenao.com/about.html",
       "verifiedAt": "2026-10-30"
@@ -6122,8 +6122,8 @@
       ],
       "firstSeen": "2026-10-30T12:27:53.420Z",
       "lastSeen": "2026-10-30T12:27:53.420Z",
-      "status": "pending",
-      "reviewPriority": "normal",
+      "status": "published",
+      "reviewPriority": "excluded",
       "category": "datasets",
       "sourceOfficial": "https://github.com/kjhealy/nycdogs",
       "verifiedAt": "2026-10-30"
