@@ -1,6 +1,14 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.tools=[
 {
+  "id": "pondpilot-duckdb-browser-sql",
+  "name": "PondPilot — exploração SQL de dados no navegador",
+  "kind": "análise de dados tabulares, SQL e DuckDB-WASM",
+  "url": "https://pondpilot.io/app/",
+  "desc": "Aplicação gratuita e aberta para consultar arquivos CSV, Parquet, JSON, planilhas e bases DuckDB diretamente no navegador, com editor SQL, resultados tabulares e exportação. Processamento básico ocorre localmente via DuckDB-WASM; funções opcionais de IA usam chaves e provedores externos, exigindo avaliação de privacidade. No Safari, algumas funções de persistência de arquivos são limitadas; não substitui validação e limpeza dos dados.",
+  "discoveryUrl": "https://github.com/pondpilot/pondpilot"
+},
+{
   "id": "osomenet-social-diffusion",
   "name": "OSoMeNet — redes de difusão em mídias sociais",
   "kind": "análise de redes e circulação de informação pública",
