@@ -66,15 +66,16 @@ function compareQueues(current,previous){
 function report(queue,historyData={},previousQueue=null){
  const history=historyData.leads||{};
  const pending=(queue.candidates||[]).filter(x=>x.status==='pending');
- const items=pending.filter(x=>!['opportunities','tools','datasets'].includes(x.category)).map(x=>{
+ const uncategorized=pending.filter(x=>!['opportunities','tools','datasets'].includes(x.category));
+ const items=pending.map(x=>{
   const lead=history[x.id]||{};
-  const proposal=suggest(x);
+  const proposal=['opportunities','tools','datasets'].includes(x.category)?{category:x.category,confidence:'existing-category-review-required'}:suggest(x);
   const historyCategory=['opportunities','tools','datasets'].includes(lead.category)?lead.category:null;
   const historyConflict=Boolean(historyCategory&&proposal.category&&historyCategory!==proposal.category);
   return {id:x.id,title:x.title,url:x.url,priority:x.reviewPriority||'normal',...proposal,historyCategory,historyConflict,historySource:lead.source||null,inspectionStatus:lead.pageStatus||null,lastInspectedAt:lead.lastInspectedAt||null,requiresSourceReview:historyConflict||!proposal.category};
  });
- const counts=items.reduce((a,x)=>(a[x.category||x.confidence]=(a[x.category||x.confidence]||0)+1,a),{});
- return {pending:pending.length,uncategorized:items.length,backlogAge:ageBuckets(pending),backlogChange:compareQueues(queue,previousQueue),counts,historyCoverage:{categorized:items.filter(x=>x.historyCategory).length,inspectedHtml:items.filter(x=>x.inspectionStatus==='html-fetched').length,conflicts:items.filter(x=>x.historyConflict).length},reviewOrderPolicy:'priority > unambiguous suggestion > inspected HTML > opportunity/tool/dataset > title; manual editorial verification required',reviewReady:{highPriority:items.filter(x=>x.priority==='high'&&x.category&&!x.historyConflict).length,highPriorityWithHtml:items.filter(x=>x.priority==='high'&&x.category&&!x.historyConflict&&x.inspectionStatus==='html-fetched').length},dailyReview:selectDailyReview(items.sort(compareReview)),inspectedReview:selectInspectedReview(items,24),suggestions:items};
+ const counts=items.filter(x=>x.confidence!=='existing-category-review-required').reduce((a,x)=>(a[x.category||x.confidence]=(a[x.category||x.confidence]||0)+1,a),{});
+ return {pending:pending.length,uncategorized:uncategorized.length,backlogAge:ageBuckets(pending),backlogChange:compareQueues(queue,previousQueue),counts,historyCoverage:{categorized:items.filter(x=>x.historyCategory).length,inspectedHtml:items.filter(x=>x.inspectionStatus==='html-fetched').length,conflicts:items.filter(x=>x.historyConflict).length},reviewOrderPolicy:'priority > unambiguous suggestion > inspected HTML > opportunity/tool/dataset > title; manual editorial verification required',reviewReady:{highPriority:items.filter(x=>x.priority==='high'&&x.category&&!x.historyConflict).length,highPriorityWithHtml:items.filter(x=>x.priority==='high'&&x.category&&!x.historyConflict&&x.inspectionStatus==='html-fetched').length},dailyReview:selectDailyReview(items.slice().sort(compareReview)),inspectedReview:selectInspectedReview(items.slice().sort(compareReview),24),suggestions:items.filter(x=>x.confidence!=='existing-category-review-required').sort(compareReview)};
 }
 module.exports={suggest,report};
 if(require.main===module){
