@@ -64,3 +64,12 @@ test('already categorized pending leads participate in review without becoming h
  assert.deepEqual(r.inspectedReview.map(x=>x.id),['known']);
  assert.deepEqual(r.suggestions.map(x=>x.id),['unknown']);
 });
+
+test('indirect news URLs require primary-source resolution before daily review',()=>{
+ const q={candidates:[{id:'news',title:'Reporting Grant',url:'https://news.google.com/rss/articles/abc',category:'opportunities',reviewPriority:'high',status:'pending'},{id:'official',title:'Official Reporting Grant',url:'https://example.org/grants',category:'opportunities',reviewPriority:'high',status:'pending'}]};
+ const r=report(q);
+ assert.equal(r.indirectPending,1);
+ assert.deepEqual(r.dailyReview.map(x=>x.id),['official']);
+ assert.equal(r.suggestions.length,0);
+ assert.equal(r.reviewReady.highPriority,1);
+});
