@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-31T12:13:31.771Z",
+  "updatedAt": "2026-10-31T12:17:07.429Z",
   "leads": {
     "21d08dec9013d505e3e682633dc64ac66d18d9ce040e2b381ea738cf297fd16d": {
       "url": "https://data.inpe.br/biomasbr/sala-de-situacao-municipal-e-a-nova-ferramenta-do-terrabrasilis-para-apoiar-estados-e-municipios-no-controle-do-desmatamento-e-fogo",
@@ -15817,6 +15817,24 @@
       "decisionReason": null,
       "lastEditorialQueuedAt": null,
       "editorialQueueCount": 0
+    },
+    "ee798069041a9ddc05b197971875d4bc3970b6228c56e7c98d5aa7d1acba0545": {
+      "url": "https://www.solutionsjournalism.org/events/apply-now-heal-youth-building-and-belonging-fellowships",
+      "title": "SJN — HEAL & Youth Building and Belonging Fellowships 2026",
+      "source": "Gmail Radar PLOT. — Above the Fold (23/09/2026); fonte primária SJN",
+      "category": "opportunities",
+      "classification": "needs-editorial-review",
+      "firstSeen": "2026-10-31T12:17:07.429Z",
+      "lastSeen": "2026-10-31T12:17:07.429Z",
+      "seenCount": 1,
+      "editorialStatus": "unverified",
+      "reviewedAt": null,
+      "reviewedBy": null,
+      "editorialEvidence": null,
+      "decisionReason": "Página oficial SJN confirma existência e restrição a jornalistas nos EUA; data 16/10 aparece como data do evento, não prazo inequívoco. Formulário oficial TFA retorna HTTP 403; não afirmar inscrições abertas ou encerradas até verificar prazo e estado do formulário.",
+      "deadline": null,
+      "lastInspectedAt": null,
+      "pageStatus": "unverified"
     }
   }
 }
