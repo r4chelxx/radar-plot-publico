@@ -38,3 +38,11 @@ test('backlog aging is cumulative and does not mutate candidates',()=>{
  assert.equal(r.backlogAge.missingFirstSeen,1);
  assert.equal(JSON.stringify(q),before);
 });
+
+test('queue delta distinguishes new, resolved, reopened and removed candidates',()=>{
+ const prev={candidates:[{id:'a',status:'pending'},{id:'b',status:'pending'},{id:'c',status:'published'},{id:'d',status:'pending'}]};
+ const curr={candidates:[{id:'a',status:'pending'},{id:'b',status:'published'},{id:'c',status:'pending'},{id:'e',status:'pending'}]};
+ const d=report(curr,{},prev).backlogChange;
+ assert.deepEqual(d,{previousPending:3,currentPending:3,netChange:0,newPending:1,reopened:1,resolved:1,removedFromQueue:1});
+ assert.equal(report(curr).backlogChange,null);
+});
