@@ -1,11 +1,11 @@
 {
-  "checkedAt": "2026-10-30T17:01:25.140Z",
+  "checkedAt": "2026-10-31T03:19:57.709Z",
   "policy": "404/410 and ArcGIS application errors within HTTP 200 become broken only after appearing as suspect or broken in the previous audit; blocked and network results are inconclusive",
   "counts": {
-    "ok": 415,
-    "blocked": 44,
+    "ok": 418,
+    "blocked": 41,
     "network": 29,
-    "suspect": 1
+    "server": 1
   },
   "results": [
     {
@@ -474,11 +474,11 @@
       "type": "opportunity",
       "id": "pulitzer-ocean-reporting-network",
       "url": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/apply-join-ocean-reporting-network-orn",
-      "status": 403,
+      "status": 200,
       "finalUrl": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/apply-join-ocean-reporting-network-orn",
-      "class": "blocked",
+      "class": "ok",
       "attempts": [
-        403
+        200
       ]
     },
     {
@@ -595,11 +595,11 @@
       "type": "opportunity",
       "id": "pulitzer-data",
       "url": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/data-journalism-grants",
-      "status": 403,
+      "status": 200,
       "finalUrl": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/data-journalism-grants",
-      "class": "blocked",
+      "class": "ok",
       "attempts": [
-        403
+        200
       ]
     },
     {
@@ -650,11 +650,11 @@
       "type": "opportunity",
       "id": "pulitzer-env",
       "url": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/our-work-environment-grants",
-      "status": 403,
+      "status": 200,
       "finalUrl": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/our-work-environment-grants",
-      "class": "blocked",
+      "class": "ok",
       "attempts": [
-        403
+        200
       ]
     },
     {
@@ -1798,13 +1798,11 @@
       "type": "dataset",
       "id": "salvador-compras",
       "url": "https://transparencia.salvador.ba.gov.br/",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://transparencia.salvador.ba.gov.br/",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -1894,11 +1892,13 @@
       "type": "dataset",
       "id": "bahia-transparencia",
       "url": "https://www.transparencia.ba.gov.br/Portal",
-      "status": 200,
-      "finalUrl": "https://www.transparencia.ba.gov.br/Portal",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "AbortError:This operation was aborted",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -1931,6 +1931,7 @@
       "finalUrl": "https://dadosabertos.aneel.gov.br/",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -1975,6 +1976,7 @@
       "finalUrl": "https://datasus.saude.gov.br/",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -1997,6 +1999,7 @@
       "finalUrl": "https://dados.gov.br/",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -2166,6 +2169,7 @@
       "finalUrl": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados",
       "class": "ok",
       "attempts": [
+        "TypeError:fetch failed",
         200
       ]
     },
@@ -2285,11 +2289,13 @@
       "type": "dataset",
       "id": "salvador-geo",
       "url": "https://www.salvador.ba.gov.br/",
-      "status": 200,
-      "finalUrl": "https://salvador.ba.gov.br/",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "AbortError:This operation was aborted",
       "attempts": [
-        200
+        "AbortError:This operation was aborted",
+        "AbortError:This operation was aborted"
       ]
     },
     {
@@ -2307,11 +2313,13 @@
       "type": "dataset",
       "id": "rais",
       "url": "https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/estatisticas-trabalho/rais",
-      "status": 200,
-      "finalUrl": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/acoes-e-programas/programas-projetos-acoes-obras-e-atividades/estatisticas-trabalho/rais/rais-2025/rais-2025",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "TypeError:fetch failed",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -2399,7 +2407,7 @@
       "class": "network",
       "error": "TypeError:fetch failed",
       "attempts": [
-        "TypeError:fetch failed",
+        "AbortError:This operation was aborted",
         "TypeError:fetch failed"
       ]
     },
@@ -2412,7 +2420,7 @@
       "class": "network",
       "error": "TypeError:fetch failed",
       "attempts": [
-        "TypeError:fetch failed",
+        "AbortError:This operation was aborted",
         "TypeError:fetch failed"
       ]
     },
@@ -2498,6 +2506,7 @@
       "finalUrl": "https://biobr.saude.ba.gov.br/static/obitomaterno.php",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -2509,6 +2518,7 @@
       "finalUrl": "https://www.ba.gov.br/saude/",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -2617,13 +2627,11 @@
       "type": "dataset",
       "id": "cbf-convocacoes-feminina",
       "url": "https://www.cbf.com.br/",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://www.cbf.com.br/",
+      "class": "ok",
       "attempts": [
-        "TypeError:fetch failed",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -2645,6 +2653,7 @@
       "finalUrl": "https://dadosabertos.aneel.gov.br/dataset/sistema-de-gestao-da-transmissao-siget",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -2656,6 +2665,7 @@
       "finalUrl": "https://dadosabertos.aneel.gov.br/dataset/samp",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -2746,6 +2756,7 @@
       "finalUrl": "https://dadosabertos.ibama.gov.br/dataset/fiscalizacao-auto-de-infracao",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -2753,11 +2764,12 @@
       "type": "dataset",
       "id": "inpe-terrabrasilis",
       "url": "https://terrabrasilis.dpi.inpe.br/",
-      "status": 200,
+      "status": 502,
       "finalUrl": "https://terrabrasilis.dpi.inpe.br/",
-      "class": "ok",
+      "class": "server",
       "attempts": [
-        200
+        502,
+        502
       ]
     },
     {
@@ -2808,13 +2820,11 @@
       "type": "dataset",
       "id": "cbf-futebol-feminino-panorama-2026",
       "url": "https://www.cbf.com.br/futebol-brasileiro/noticias/competicoes-campeonato-brasileiro-feminino/a/com-copa-2027-no-horizonte-cbf-apresenta-panorama-do-futebol-feminino-no-brasil",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://www.cbf.com.br/futebol-brasileiro/noticias/competicoes-campeonato-brasileiro-feminino/a/com-copa-2027-no-horizonte-cbf-apresenta-panorama-do-futebol-feminino-no-brasil",
+      "class": "ok",
       "attempts": [
-        "TypeError:fetch failed",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -2917,6 +2927,7 @@
       "finalUrl": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/dados-abertos/cadastros",
       "class": "ok",
       "attempts": [
+        "TypeError:fetch failed",
         200
       ]
     },
@@ -2950,7 +2961,6 @@
       "finalUrl": "https://dadosabertos.bcb.gov.br/dataset/pix",
       "class": "ok",
       "attempts": [
-        "TypeError:fetch failed",
         200
       ]
     },
@@ -3294,12 +3304,11 @@
       "type": "source",
       "id": "Assembleia Legislativa de Mato Grosso — ALMT",
       "url": "https://www.al.mt.gov.br/",
-      "status": 404,
+      "status": 200,
       "finalUrl": "https://www.al.mt.gov.br/",
-      "class": "suspect",
+      "class": "ok",
       "attempts": [
-        404,
-        404
+        200
       ]
     },
     {
@@ -3761,6 +3770,7 @@
       "finalUrl": "https://www.gov.br/mdh/pt-br/ondh/dados-e-estudos",
       "class": "ok",
       "attempts": [
+        "TypeError:fetch failed",
         200
       ]
     },
