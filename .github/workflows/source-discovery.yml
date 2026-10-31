@@ -210,7 +210,12 @@ jobs:
           fs.writeFileSync('intake/queue-empty-review.json',JSON.stringify({review:[]}));
           NODE
             node scripts/merge-editorial-queue.js intake/queue-empty-review.json intake/queue-reconciled.json intake/lead-history-queue-check.json intake/historical-decisions.json
-            node scripts/check-operational-state.js intake/queue-reconciled.json intake/lead-history-queue-check.json intake/historical-decisions.json
+            if ! node scripts/check-operational-state.js intake/queue-reconciled.json intake/lead-history-queue-check.json intake/historical-decisions.json; then
+              echo "::warning::Queue/history snapshot inconsistent on attempt $attempt; refreshing both before retry" >&2
+              if [ "$attempt" -lt 3 ]; then sleep 10; continue; fi
+              echo "::error::Persisted editorial state remained inconsistent after three snapshots" >&2
+              exit 1
+            fi
             node - <<'NODE'
           const fs=require('node:fs');
           const response=JSON.parse(fs.readFileSync('intake/queue-response.json','utf8'));
