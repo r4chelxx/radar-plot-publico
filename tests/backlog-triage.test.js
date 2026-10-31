@@ -81,3 +81,11 @@ test('indirect candidates remain in source-resolution batch',()=>{
  assert.equal(r.sourceResolution[0].id,'news');
  assert.equal(r.dailyReview.length,0);
 });
+
+test('resolved indirect news URL is surfaced as evidence but not automatically reviewed',()=>{
+ const q={candidates:[{id:'news',title:'Grant',url:'https://news.google.com/rss/articles/example',category:'opportunities',reviewPriority:'high',status:'pending'}]};
+ const r=report(q,{leads:{news:{finalUrl:'https://publisher.example/grant'}}});
+ assert.equal(r.resolvedIndirect,1);
+ assert.equal(r.sourceResolution[0].resolvedDirectUrl,'https://publisher.example/grant');
+ assert.equal(r.dailyReview.length,0);
+});
