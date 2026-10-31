@@ -18,3 +18,13 @@ test('review order favors high-priority opportunities and preserves other catego
  assert.equal(result.reviewReady.highPriority,2);
  assert.equal(q.candidates[0].category,undefined);
 });
+
+test('backlog aging is cumulative and does not mutate candidates',()=>{
+ const q={candidates:[{id:'old',status:'pending',firstSeen:'2026-09-01T00:00:00Z'},{id:'new',status:'pending',firstSeen:new Date().toISOString()},{id:'done',status:'published',firstSeen:'2020-01-01T00:00:00Z'},{id:'unknown',status:'pending'}]};
+ const before=JSON.stringify(q),r=report(q);
+ assert.equal(r.backlogAge.over7Days,1);
+ assert.equal(r.backlogAge.over14Days,1);
+ assert.equal(r.backlogAge.over30Days,1);
+ assert.equal(r.backlogAge.missingFirstSeen,1);
+ assert.equal(JSON.stringify(q),before);
+});
