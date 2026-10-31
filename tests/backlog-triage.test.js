@@ -28,3 +28,13 @@ test('daily review is capped, high-priority and balanced across categories',()=>
  assert.ok(x.dailyReview.every(y=>y.priority==='high'));
  assert.equal(JSON.stringify(q),before);
 });
+
+test('backlog aging is cumulative and does not mutate candidates',()=>{
+ const q={candidates:[{id:'old',status:'pending',firstSeen:'2026-09-01T00:00:00Z'},{id:'new',status:'pending',firstSeen:new Date().toISOString()},{id:'done',status:'published',firstSeen:'2020-01-01T00:00:00Z'},{id:'unknown',status:'pending'}]};
+ const before=JSON.stringify(q),r=report(q);
+ assert.equal(r.backlogAge.over7Days,1);
+ assert.equal(r.backlogAge.over14Days,1);
+ assert.equal(r.backlogAge.over30Days,1);
+ assert.equal(r.backlogAge.missingFirstSeen,1);
+ assert.equal(JSON.stringify(q),before);
+});

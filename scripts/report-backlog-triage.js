@@ -38,6 +38,19 @@ function selectDailyReview(items,limit=24){
  for(const item of pool){if(selected.length>=limit)break;if(!seen.has(item.id)){selected.push(item);seen.add(item.id);}}
  return selected;
 }
+function ageBuckets(candidates,now=new Date()){
+ const today=Date.parse(now);
+ const buckets={over7Days:0,over14Days:0,over30Days:0,missingFirstSeen:0};
+ for(const item of candidates){
+  const seen=Date.parse(item.firstSeen||'');
+  if(!Number.isFinite(seen)){buckets.missingFirstSeen++;continue;}
+  const days=(today-seen)/86400000;
+  if(days>7)buckets.over7Days++;
+  if(days>14)buckets.over14Days++;
+  if(days>30)buckets.over30Days++;
+ }
+ return buckets;
+}
 function report(queue,historyData={}){
  const history=historyData.leads||{};
  const pending=(queue.candidates||[]).filter(x=>x.status==='pending');
@@ -49,7 +62,7 @@ function report(queue,historyData={}){
   return {id:x.id,title:x.title,url:x.url,priority:x.reviewPriority||'normal',...proposal,historyCategory,historyConflict,historySource:lead.source||null,inspectionStatus:lead.pageStatus||null,lastInspectedAt:lead.lastInspectedAt||null,requiresSourceReview:historyConflict||!proposal.category};
  });
  const counts=items.reduce((a,x)=>(a[x.category||x.confidence]=(a[x.category||x.confidence]||0)+1,a),{});
- return {pending:pending.length,uncategorized:items.length,counts,historyCoverage:{categorized:items.filter(x=>x.historyCategory).length,inspectedHtml:items.filter(x=>x.inspectionStatus==='html-fetched').length,conflicts:items.filter(x=>x.historyConflict).length},reviewOrderPolicy:'priority > unambiguous suggestion > opportunity/tool/dataset > inspected HTML > title; manual editorial verification required',reviewReady:{highPriority:items.filter(x=>x.priority==='high'&&x.category&&!x.historyConflict).length,highPriorityWithHtml:items.filter(x=>x.priority==='high'&&x.category&&!x.historyConflict&&x.inspectionStatus==='html-fetched').length},dailyReview:selectDailyReview(items.sort(compareReview)),suggestions:items};
+ return {pending:pending.length,uncategorized:items.length,backlogAge:ageBuckets(pending),counts,historyCoverage:{categorized:items.filter(x=>x.historyCategory).length,inspectedHtml:items.filter(x=>x.inspectionStatus==='html-fetched').length,conflicts:items.filter(x=>x.historyConflict).length},reviewOrderPolicy:'priority > unambiguous suggestion > opportunity/tool/dataset > inspected HTML > title; manual editorial verification required',reviewReady:{highPriority:items.filter(x=>x.priority==='high'&&x.category&&!x.historyConflict).length,highPriorityWithHtml:items.filter(x=>x.priority==='high'&&x.category&&!x.historyConflict&&x.inspectionStatus==='html-fetched').length},dailyReview:selectDailyReview(items.sort(compareReview)),suggestions:items};
 }
 module.exports={suggest,report};
 if(require.main===module){
