@@ -1,6 +1,98 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.opportunities=[
 {
+  "id": "eu-journalism-partnerships-pluralism-2027",
+  "title": "União Europeia — Journalism Partnerships: Pluralism 2027",
+  "org": "Comissão Europeia / Creative Europe",
+  "summary": "Financiamento institucional para organizações intermediárias criarem e distribuírem fundos de apoio a mídia local, independente e jornalismo investigativo na União Europeia.",
+  "type": "Edital institucional para fundos de jornalismo",
+  "themes": [
+    "Jornalismo investigativo",
+    "Pluralismo",
+    "Sustentabilidade da mídia",
+    "Jornalismo local",
+    "Financiamento institucional"
+  ],
+  "scope": "União Europeia — organizações intermediárias com projetos de apoio ao ecossistema jornalístico europeu",
+  "deadline": "2027-02-04",
+  "deadlineStatus": "Confirmado pela Comissão Europeia: 04/02/2027; horário exato sujeito ao portal oficial",
+  "eligibility": "restrita",
+  "fit": 3,
+  "status": "aberta",
+  "value": "Orçamento total €7 milhões; até €2,5 milhões por projeto; cofinanciamento máximo 90%",
+  "duration": "24 meses; início previsto no fim de 2027",
+  "modality": "Proposta institucional por organização ou consórcio no EU Funding & Tenders Portal",
+  "documents": [
+    "Proposta de mecanismo de financiamento para organizações jornalísticas",
+    "Documentação e formulários do edital CREA-CROSS-2027-JOURPART-PLURALISM",
+    "Plano de cofinanciamento e demais documentos exigidos pelo portal"
+  ],
+  "restrictions": [
+    "Não é bolsa individual para jornalistas freelancers; candidaturas de organizações intermediárias",
+    "Obrigatório criar e executar esquema de financiamento de mídia",
+    "Atividades e beneficiários devem focar a União Europeia",
+    "Exige cofinanciamento de pelo menos 10% dos custos elegíveis; conferir condições completas no edital"
+  ],
+  "rules": "https://digital-strategy.ec.europa.eu/en/funding/call-proposals-journalism-partnerships-pluralism-2027",
+  "apply": "https://digital-strategy.ec.europa.eu/en/funding/call-proposals-journalism-partnerships-pluralism-2027",
+  "verified": "2026-10-31",
+  "desc": "Edital europeu aberto desde 22/10/2026. Relevante a fundos e organizações que apoiam jornalismo de interesse público; não confundir com concessão direta de bolsas a jornalistas. Conferir elegibilidade territorial, cofinanciamento e regras integrais no portal oficial.",
+  "discoveryUrl": "https://gfmd.info/fundings/",
+  "verificationHistory": [
+    {
+      "date": "2026-10-31",
+      "status": "aberta",
+      "source": "https://digital-strategy.ec.europa.eu/en/funding/call-proposals-journalism-partnerships-pluralism-2027"
+    }
+  ]
+},
+{
+  "id": "eu-media-freedom-rapid-response-2027",
+  "title": "União Europeia — Media Freedom Rapid Response Mechanism 2027",
+  "org": "Comissão Europeia / Creative Europe",
+  "summary": "Edital de €3 milhões para consórcio europeu de apoio jurídico, logístico e proteção a jornalistas ameaçados, com monitoramento de violações da liberdade de imprensa.",
+  "type": "Grant institucional de proteção a jornalistas",
+  "themes": [
+    "Liberdade de imprensa",
+    "Segurança de jornalistas",
+    "Proteção jurídica",
+    "Direitos humanos",
+    "Financiamento institucional"
+  ],
+  "scope": "União Europeia e países elegíveis ao Creative Europe — consórcios internacionais",
+  "deadline": "2027-01-27",
+  "deadlineStatus": "Confirmado pela Comissão Europeia: 27/01/2027; horário exato sujeito ao portal oficial",
+  "eligibility": "restrita",
+  "fit": 3,
+  "status": "aberta",
+  "value": "€3 milhões disponíveis para projeto de dois anos; cofinanciamento máximo de 90%",
+  "duration": "24 meses",
+  "modality": "Consórcio de pelo menos duas entidades de dois países elegíveis",
+  "documents": [
+    "Proposta de mecanismo europeu de resposta rápida",
+    "Comprovação de consórcio com pelo menos duas entidades de países distintos",
+    "Plano de atividades e cofinanciamento segundo edital oficial"
+  ],
+  "restrictions": [
+    "Não é grant individual de reportagem nem candidatura direta de jornalista freelancer",
+    "Consórcio de no mínimo duas entidades em dois países elegíveis",
+    "Elegíveis incluem organizações sem fins lucrativos, organizações internacionais, universidades e centros de pesquisa",
+    "Exige cofinanciamento de pelo menos 10% dos custos elegíveis"
+  ],
+  "rules": "https://digital-strategy.ec.europa.eu/en/funding/call-proposals-media-freedom-rapid-response-mechanism-2027",
+  "apply": "https://digital-strategy.ec.europa.eu/en/funding/call-proposals-media-freedom-rapid-response-mechanism-2027",
+  "verified": "2026-10-31",
+  "desc": "Chamada institucional aberta em 22/10/2026, destinada à criação de mecanismo europeu de proteção a jornalistas e monitoramento de ataques à liberdade de imprensa. Apoio indireto a jornalistas, não bolsa individual.",
+  "discoveryUrl": "https://gfmd.info/fundings/call-for-proposals-media-freedom-rapid-response-mechanism-2027/",
+  "verificationHistory": [
+    {
+      "date": "2026-10-31",
+      "status": "aberta",
+      "source": "https://digital-strategy.ec.europa.eu/en/funding/call-proposals-media-freedom-rapid-response-mechanism-2027"
+    }
+  ]
+},
+{
   "id": "cfr-edward-r-murrow-press-fellowship-2027-28",
   "title": "CFR — Edward R. Murrow Press Fellowship 2027–28",
   "org": "Council on Foreign Relations (CFR)",
