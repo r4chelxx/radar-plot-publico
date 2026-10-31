@@ -3,6 +3,22 @@ window.RADAR_PARTS.changelog=[
 {
   "date": "2026-10-31",
   "type": "nova-oportunidade",
+  "title": "Duas chamadas europeias de apoio institucional ao jornalismo — 31/10/2026",
+  "items": [
+    {
+      "id": "eu-journalism-partnerships-pluralism-2027",
+      "title": "União Europeia — Journalism Partnerships: Pluralism 2027"
+    },
+    {
+      "id": "eu-media-freedom-rapid-response-2027",
+      "title": "União Europeia — Media Freedom Rapid Response Mechanism 2027"
+    }
+  ],
+  "detail": "Pluralismo e proteção de jornalistas: editais institucionais da Comissão Europeia com prazos, requisitos de consórcio, limites territoriais e cofinanciamento explicitados. Não são bolsas individuais."
+},
+{
+  "date": "2026-10-31",
+  "type": "nova-oportunidade",
   "title": "Publicação editorial verificada — 2026-10-31 — opportunities",
   "items": [
     {
