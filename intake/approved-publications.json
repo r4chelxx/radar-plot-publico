@@ -1334,6 +1334,320 @@
         "officialUrl": "https://explore.openalex.org/",
         "evidence": "Documentação primária OpenAlex confirma grafo de trabalhos, autores, instituições, API REST, licença CC0, snapshot público e limites de acesso; verificado que não existe no catálogo de 164 bases. Site primário de exploração OpenAlex usado como URL oficial; documentação detalhada em help.openalex.org."
       }
+    },
+    {
+      "category": "opportunities",
+      "record": {
+        "id": "cfr-edward-r-murrow-press-fellowship-2027-28",
+        "title": "CFR — Edward R. Murrow Press Fellowship 2027–28",
+        "org": "Council on Foreign Relations (CFR)",
+        "summary": "Bolsa presencial de dez meses para correspondente internacional ou editor sênior com cidadania norte-americana; apoio de US$ 100 mil e verba modesta de viagem.",
+        "type": "Fellowship de jornalismo internacional",
+        "themes": [
+          "Jornalismo internacional",
+          "Política externa",
+          "Investigação",
+          "Pesquisa"
+        ],
+        "scope": "Estados Unidos — somente cidadãos norte-americanos",
+        "deadline": "2026-11-30",
+        "deadlineStatus": "Confirmado pela página oficial: 30/11/2026; formulário apresenta fechamento em 01/12/2026 05h UTC",
+        "eligibility": "restrita",
+        "fit": 4,
+        "status": "aberta",
+        "value": "US$ 100.000 de estipêndio e apoio modesto para viagem",
+        "duration": "10 meses, a partir de setembro de 2027",
+        "modality": "Presencial em Nova York ou Washington, ao menos quatro dias por semana",
+        "documents": [
+          "Proposta de pesquisa sobre política externa ou questão global",
+          "Informações biográficas, educacionais e profissionais",
+          "Duas cartas de apoio"
+        ],
+        "restrictions": [
+          "Cidadania dos EUA obrigatória",
+          "Histórico distinguido como correspondente internacional ou editor em mídia amplamente disponível nos EUA",
+          "Preferência por profissionais seniores; apenas uma bolsa por ano"
+        ],
+        "rules": "https://www.cfr.org/fellowships/edward-r-murrow-press-fellowship",
+        "apply": "https://apply.cfr.org/submit",
+        "verified": "2026-10-31",
+        "desc": "Fellowship restrita a cidadãos dos EUA com trajetória destacada em cobertura internacional. A seleção é competitiva e presencial; não é elegível para jornalistas sem cidadania norte-americana.",
+        "discoveryUrl": "https://grantsforjournalists.com/grant/edward-r-murrow-press-fellowship",
+        "verificationHistory": [
+          {
+            "date": "2026-10-31",
+            "status": "aberta",
+            "source": "https://www.cfr.org/fellowships/edward-r-murrow-press-fellowship"
+          }
+        ]
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Radar PLOT — revisão editorial assistida",
+        "reviewedAt": "2026-10-31",
+        "officialUrl": "https://www.cfr.org/fellowships/edward-r-murrow-press-fellowship",
+        "evidence": "Página primária CFR verificada em 31/10/2026: prazo 30/11, US$100 mil, duração dez meses, exigência de cidadania dos EUA, atuação internacional e modalidade presencial. Conferidos ID, URL e título contra catálogo atual; não consta registro equivalente."
+      }
+    },
+    {
+      "category": "opportunities",
+      "record": {
+        "id": "mozilla-foundation-fellowships-2027-28",
+        "title": "Mozilla Foundation — Fellowships 2027–28",
+        "org": "Mozilla Foundation",
+        "summary": "Dez bolsas internacionais de 12 meses para desenvolver tecnologia de interesse público, com até US$ 125 mil por pessoa; carta de intenção até 17 de dezembro de 2026.",
+        "type": "Fellowship de tecnologia e inovação de interesse público",
+        "themes": [
+          "Tecnologia cívica",
+          "IA",
+          "Open source",
+          "Infraestrutura pública",
+          "Direitos digitais",
+          "Inovação"
+        ],
+        "scope": "Internacional, sujeito às regras de cada modalidade",
+        "deadline": "2026-12-17",
+        "deadlineStatus": "Carta de intenção até 17/12/2026, 23h59 horário do Pacífico (UTC−8); etapa completa apenas para pré-selecionados",
+        "eligibility": "parcial",
+        "fit": 8,
+        "status": "aberta",
+        "value": "Embedded: US$ 75.000 de bolsa + US$ 25.000 para projeto; Independent: US$ 100.000 + US$ 25.000",
+        "duration": "12 meses a partir de 1º/06/2027",
+        "modality": "Projetos individuais; modalidade Embedded com organização anfitriã ou Independent",
+        "documents": [
+          "Carta de intenção (primeira etapa)",
+          "Descrição de solução e impacto público",
+          "Evidências de trabalho prévio e de uso real",
+          "Candidatura completa somente mediante convite em 2027"
+        ],
+        "restrictions": [
+          "O programa seleciona pessoas, não candidaturas automáticas de equipes",
+          "Modalidade Embedded vinculada a organizações anfitriãs e suas condições específicas",
+          "Projetos devem demonstrar inovação técnica, benefício público e envolvimento comunitário"
+        ],
+        "rules": "https://www.mozillafoundation.org/en/what-we-do/grantmaking/fellowship/2027-call-for-applications/",
+        "apply": "https://www.mozillafoundation.org/en/what-we-do/grantmaking/fellowship/2027-call-for-applications/",
+        "verified": "2026-10-31",
+        "desc": "Fellowship internacional para pessoas que desenvolvem alternativas tecnológicas de benefício público. O edital exige evidência de trabalho realizado e apresenta modalidades e restrições distintas. A data de 17/12 é para carta de intenção, não para candidatura final.",
+        "discoveryUrl": "https://opportunitydesk.org/2026/10/29/mozilla-foundation-fellowships-2027-2028",
+        "verificationHistory": [
+          {
+            "date": "2026-10-31",
+            "status": "aberta",
+            "source": "https://www.mozillafoundation.org/en/what-we-do/grantmaking/fellowship/2027-call-for-applications/"
+          }
+        ]
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Radar PLOT — revisão editorial assistida",
+        "reviewedAt": "2026-10-31",
+        "officialUrl": "https://www.mozillafoundation.org/en/what-we-do/grantmaking/fellowship/2027-call-for-applications/",
+        "evidence": "Chamada primária Mozilla 2027–28 consultada em 31/10: 10 fellows, dois tracks, US$100 mil/125 mil incluindo verba de projeto, LOI 17/12/2026 23h59 Pacífico, segunda fase em março/2027. Conferidos URL e ID contra catálogo sem equivalente."
+      }
+    },
+    {
+      "category": "tools",
+      "record": {
+        "id": "osomenet-social-diffusion",
+        "name": "OSoMeNet — redes de difusão em mídias sociais",
+        "kind": "análise de redes e circulação de informação pública",
+        "url": "https://osome.iu.edu/tools/osomenet/",
+        "desc": "Ferramenta acadêmica para visualizar redes de difusão e coocorrência de postagens em Bluesky, Mastodon, TikTok e arquivo histórico OSoMe, com linha do tempo e consultas por termos. A cobertura depende das APIs, permissões e limites de cada plataforma; TikTok pode exigir credenciais de pesquisa e os resultados não representam amostras completas. Conferir termos, representatividade e privacidade antes de usar em investigação.",
+        "discoveryUrl": "https://osome.iu.edu/tools/osomenet/about"
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Radar PLOT — revisão editorial assistida",
+        "reviewedAt": "2026-10-31",
+        "officialUrl": "https://osome.iu.edu/tools/osomenet/",
+        "evidence": "Documentação primária do Observatório de Mídias Sociais da Indiana University consultada em 31/10: redes de difusão, linha do tempo, Bluesky, Mastodon, TikTok e arquivo, com limites de APIs e necessidade de credenciais em certas plataformas; não existe URL ou ID no catálogo."
+      }
+    },
+    {
+      "category": "tools",
+      "record": {
+        "id": "reactable-r-interactive-tables",
+        "name": "reactable — tabelas interativas em R",
+        "kind": "tabelas interativas, visualização e publicação de dados",
+        "url": "https://glin.github.io/reactable/",
+        "desc": "Pacote R de código aberto (MIT) para tabelas interativas com ordenação, filtros, paginação, agrupamento, estilos condicionais e renderização personalizada, utilizável em Shiny, Quarto e R Markdown. Exige R e preparação dos dados; grandes tabelas podem precisar de virtualização ou processamento no servidor. Revisar acessibilidade, anonimização e dados sensíveis antes de publicar.",
+        "discoveryUrl": "https://glin.github.io/reactable/reference/reactable.html"
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Radar PLOT — revisão editorial assistida",
+        "reviewedAt": "2026-10-31",
+        "officialUrl": "https://glin.github.io/reactable/",
+        "evidence": "Documentação primária do mantenedor Greg Lin, consultada em 31/10, confirma licença MIT, integração com R/Shiny/R Markdown, ordenação, filtros, agrupamento, paginação e virtualização; verificados ID e URL ausentes do catálogo."
+      }
+    },
+    {
+      "category": "tools",
+      "record": {
+        "id": "saucenao-reverse-image-search",
+        "name": "SauceNAO — busca reversa especializada de imagens",
+        "kind": "busca reversa e rastreamento de origem de imagens",
+        "url": "https://saucenao.com/",
+        "desc": "Mecanismo de busca reversa de imagens para localizar possíveis fontes e correspondências em índices especializados de ilustração, quadrinhos, plataformas de arte, filmes e outras coleções. Permite envio de imagem para consulta, mas não cobre toda a web nem comprova autenticidade ou autoria por si só. Evitar subir imagens sensíveis sem avaliar os termos de serviço, privacidade e direitos de terceiros.",
+        "discoveryUrl": "https://saucenao.com/about.html"
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Radar PLOT — revisão editorial assistida",
+        "reviewedAt": "2026-10-31",
+        "officialUrl": "https://saucenao.com/",
+        "evidence": "Página primária SauceNAO e seção About verificadas em 31/10: mecanismo de busca reversa, índices especializados e limitações de cobertura; não consta URL ou ID no catálogo. Uso jornalístico exige verificação cruzada e cautela com upload."
+      }
+    },
+    {
+      "category": "datasets",
+      "record": {
+        "id": "global-forest-watch-open-data-portal",
+        "name": "Global Forest Watch — portal aberto de dados florestais",
+        "org": "World Resources Institute / Global Forest Watch",
+        "territoryTier": "Outros",
+        "kind": "portal",
+        "themes": [
+          "Desmatamento",
+          "Florestas",
+          "Clima",
+          "Uso do solo",
+          "Geodados"
+        ],
+        "coverage": "Catálogo global de camadas sobre cobertura florestal, mudança florestal, conservação, uso da terra e impactos humanos, com escopos e resoluções diferentes por produto.",
+        "frequency": "Atualizações variáveis por camada e provedor; conferir metadados de cada versão.",
+        "format": "Camadas geográficas e downloads conforme o dataset; acesso a API pública para alguns produtos",
+        "period": "Variável por dataset, incluindo séries históricas e atualizações recentes.",
+        "granularity": "Raster, vetor e agregações territoriais conforme a camada",
+        "geoUnit": "Global, regional e local, com precisão variável",
+        "api": "https://data-api.globalforestwatch.org/",
+        "docs": "https://data.globalforestwatch.org/",
+        "limitations": "Cobertura, metodologia, resolução, temporalidade, licenças e restrições variam entre camadas. Alertas não equivalem automaticamente a desmatamento confirmado; cruzar com fontes locais, validação espacial e séries comparáveis.",
+        "lastChecked": "2026-10-31",
+        "url": "https://data.globalforestwatch.org/",
+        "discoveryUrl": "https://globalforestwatch.org/",
+        "description": "Portal de dados florestais para investigar desmatamento, conservação, uso do solo e impactos socioambientais com camadas geográficas."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Radar PLOT — revisão editorial assistida",
+        "reviewedAt": "2026-10-31",
+        "officialUrl": "https://data.globalforestwatch.org/",
+        "evidence": "Portal primário Global Forest Watch consultado em 31/10 mostra categorias Forest Change, Land Use, Conservation, People, Forest Cover, downloads e recursos de API; licenças e metodologias variam por camada. Conferidos ID e URL sem duplicidade no catálogo."
+      }
+    },
+    {
+      "category": "datasets",
+      "record": {
+        "id": "tidytuesday-weekly-datasets",
+        "name": "TidyTuesday — acervo semanal de bases para análise",
+        "org": "Data Science Learning Community / TidyTuesday",
+        "territoryTier": "Outros",
+        "kind": "catalog",
+        "themes": [
+          "Jornalismo de dados",
+          "Visualização",
+          "Ensino",
+          "Dados públicos",
+          "Reprodutibilidade"
+        ],
+        "coverage": "Acervo internacional de conjuntos de dados temáticos publicados semanalmente desde 2018, incluindo tópicos de ciência, economia, políticas públicas e sociedade.",
+        "frequency": "Novos conjuntos publicados semanalmente; manutenção e fontes variam.",
+        "format": "Arquivos CSV e documentação em repositório GitHub; acesso por R, Python ou Julia",
+        "period": "Coleções de 2018 a 2026 e posteriores conforme manutenção do projeto",
+        "granularity": "Variável conforme a base de cada semana",
+        "geoUnit": "Global e diversas geografias conforme cada conjunto",
+        "api": "",
+        "docs": "https://github.com/rfordatascience/tidytuesday",
+        "limitations": "Conjuntos são curados para prática e aprendizagem, não necessariamente para inferência causal. Fonte original, licenciamento, recortes, qualidade e atualizações diferem a cada semana; conferir README e metadados específicos antes de uso jornalístico.",
+        "lastChecked": "2026-10-31",
+        "url": "https://github.com/rfordatascience/tidytuesday",
+        "discoveryUrl": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2026",
+        "description": "Repositório com datasets semanais e fontes documentadas para treinar limpeza, análise e visualização de dados reais."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Radar PLOT — revisão editorial assistida",
+        "reviewedAt": "2026-10-31",
+        "officialUrl": "https://github.com/rfordatascience/tidytuesday",
+        "evidence": "README primário do repositório TidyTuesday consultado em 31/10 confirma séries semanais desde 2018, datasets reais, arquivos acessíveis e recomendações contra inferência causal sem contexto; ausência de ID e URL no catálogo."
+      }
+    },
+    {
+      "category": "datasets",
+      "record": {
+        "id": "propublica-data-store-historical-archive",
+        "name": "ProPublica Data Store — arquivo histórico 2013–2023",
+        "org": "ProPublica",
+        "territoryTier": "Outros",
+        "kind": "catalog",
+        "themes": [
+          "Jornalismo investigativo",
+          "Dados públicos",
+          "Transparência",
+          "Saúde",
+          "Justiça",
+          "Política"
+        ],
+        "coverage": "Acervo de bases utilizadas em reportagens investigativas da ProPublica, com conjuntos históricos dos Estados Unidos lançados entre 2013 e 2023.",
+        "frequency": "Arquivo encerrado: não recebe atualizações e os conjuntos disponibilizados não são mantidos em tempo real.",
+        "format": "Downloads de CSV/ZIP e outros arquivos, com opções gratuitas e algumas bases premium",
+        "period": "Lançamentos de 2013 a 2023; período coberto varia por conjunto.",
+        "granularity": "Registros e agregações diversos conforme base",
+        "geoUnit": "Predominantemente Estados Unidos; escala variável",
+        "api": "",
+        "docs": "https://projects.propublica.org/datastore/",
+        "limitations": "Arquivo descontinuado, sem atualização; algumas bases são pagas ou sujeitas a termos de uso. Não confundir dados históricos com situação atual e conferir documentação, sensibilidade e licenciamento de cada conjunto.",
+        "lastChecked": "2026-10-31",
+        "url": "https://projects.propublica.org/datastore/",
+        "discoveryUrl": "https://www.propublica.org/article/introducing-the-propublica-data-store",
+        "description": "Arquivo histórico de bases associadas a investigações jornalísticas, com downloads e documentação; não é um serviço de dados atualizado."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Radar PLOT — revisão editorial assistida",
+        "reviewedAt": "2026-10-31",
+        "officialUrl": "https://projects.propublica.org/datastore/",
+        "evidence": "Página primária ProPublica Data Store Archive consultada em 31/10 afirma explicitamente acervo de 2013–2023 sem novas atualizações, distingue datasets gratuitos e premium e fornece arquivos e termos. Não há registro equivalente no catálogo."
+      }
+    },
+    {
+      "category": "datasets",
+      "record": {
+        "id": "nycdogs-licenses-bites-r",
+        "name": "nycdogs — licenças e ocorrências de mordidas em Nova York",
+        "org": "Kieran Healy / NYC Open Data",
+        "territoryTier": "Outros",
+        "kind": "dataset",
+        "themes": [
+          "Saúde pública",
+          "Animais",
+          "Geodados",
+          "Cidades",
+          "Dados abertos"
+        ],
+        "coverage": "Dois conjuntos tratados em pacote R: licenças de cães da cidade de Nova York até 2026 e relatos de mordidas de 2015 a 2025.",
+        "frequency": "Atualização por versões do pacote e extrações das fontes NYC Open Data; sem atualização em tempo real.",
+        "format": "Pacote R com tabelas e documentação; dados de origem no NYC Open Data",
+        "period": "Licenças: extrações entre 2016 e 2026; mordidas: 2015–2025.",
+        "granularity": "Licença individual por período e relato de mordida, com variáveis de raça, data e CEP",
+        "geoUnit": "Cidade de Nova York, borough e ZIP code",
+        "api": "",
+        "docs": "https://github.com/kjhealy/nycdogs",
+        "limitations": "Licenças renovadas e extrações repetidas geram duplicatas; uma licença não corresponde necessariamente a um cão único. ID de mordida repete entre anos e exige chave composta ano+ID; raça e idade de mordidas são relatos não verificados. Não usar como incidência populacional sem denominadores.",
+        "lastChecked": "2026-10-31",
+        "url": "https://github.com/kjhealy/nycdogs",
+        "discoveryUrl": "https://github.com/kjhealy/nycdogs",
+        "description": "Duas bases urbanas tratadas em R para investigar registros de cães e notificações de mordidas, com ressalvas explícitas de duplicidade e qualidade."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Radar PLOT — revisão editorial assistida",
+        "reviewedAt": "2026-10-31",
+        "officialUrl": "https://github.com/kjhealy/nycdogs",
+        "evidence": "README e documentação primários do pacote nycdogs consultados em 31/10 confirmam 819.323 licenças, 39.082 relatos, fontes NYC Open Data, períodos, chaves repetidas e recomendações de deduplicação; URL e ID não constam do catálogo."
+      }
     }
   ]
 }
