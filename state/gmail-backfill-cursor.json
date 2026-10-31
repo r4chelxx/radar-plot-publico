@@ -3,7 +3,7 @@
   "labelName": "Radar PLOT.",
   "labelId": "Label_3603240905167932728",
   "pageToken": "",
-  "processed": 574,
+  "processed": 586,
   "processedIdHashes": [
     "d834ea370cc911923dfd5d30418092772cf86d2ebefc5b4e79cd7ea71ec6bec1",
     "f92e23cad628376400d6d76ef2acac660c5bce0fcd1dfce6e61480417c5236f7",
@@ -578,13 +578,25 @@
     "8ace68b27042e60acf5c2a0e6275464a631224dfb6865aa02db18f9059b7b4f3",
     "391710a360fbaa15914807b6289297e0309a47a5eaaca0582c56cbde5e68a874",
     "696957c467b0f1a8e7efd1d0af398e99f53ad6ed4dba64da09d3f0f25edc7579",
-    "ba9c1a5ab5c04038e95ae8e69ce61f55d7b1fbcc8d281d16ed2017ec989f34ce"
+    "ba9c1a5ab5c04038e95ae8e69ce61f55d7b1fbcc8d281d16ed2017ec989f34ce",
+    "417867f1ef8ba2ff85c53ed549b7acb90d2370c52e1080b5ba05d2ea73459e06",
+    "0f8faf27391512b67a7a2042a3bdff6f358ec2bc2f738211537ed6afa6fcb575",
+    "e6b099d5f55f11b0767b0ac33e432446b20181b3e1b37396622b9c7d9d96fefe",
+    "bad2e14642bd88e04919ced42ce356c8b4a71b1ab740dd532f165cb3cbbf221c",
+    "ebb9ef276b191b98f385ea679e98d08e301a0fccd2fe2205e08c10577a170aed",
+    "335d258681273a8c0b52ba68ca2074c271fd6b1e8fbb1a58e93e3c23267fd389",
+    "3533f5f06767976f7d34790e94b8a70d785c980807a6c39c5b591688a64c700f",
+    "a259ca4b6fa27e6bba5e9831c8451f1b5d65cf04f428ec289feff60c03c2f98f",
+    "3a15bf342f335f0428fba9ae4c44db2b617431b611e3946ed7eaf39865ded4ca",
+    "63d304547aa531d5e56f8093ad7cbdbaa1fd0a4863da564027c3300e09365946",
+    "f37be276a162a9df570f964868351e895b6015bbe1cc1cd723ddbe08d82a7aff",
+    "a061d7d7cb035b18b94b0210f86611092ce648de43ea4baeeb3ce86b9eff2ec3"
   ],
-  "updatedAt": "2026-10-31T12:27:41.710Z",
+  "updatedAt": "2026-10-31T12:30:43.988Z",
   "complete": false,
   "source": "ChatGPT Gmail connector, read-only",
-  "verification": "574 distinct hashed message IDs actually read, latest page 34/50; no message state modified",
-  "rawUrlOccurrences": 14828,
+  "verification": "586 distinct hashed message IDs actually read; latest refresh 12 new; no message state modified",
+  "rawUrlOccurrences": 15172,
   "uniqueUrlCountPerPage": [
     962,
     1226,
@@ -598,7 +610,8 @@
     1219,
     1247,
     1373,
-    755
+    755,
+    333
   ],
   "lastPageMessageCount": 34,
   "publicationVerifiedByThisCursor": false,
