@@ -508,7 +508,7 @@ window.RADAR_PARTS.opportunities=[
       "Participar de entrevista virtual se selecionado para a lista curta"
     ],
     "opens": null,
-    "verificationHistory": [],
+    "verificationHistory": [{"date":"2026-10-31","status":"encerrada","source":"https://datavisualizationsociety.org/news/2026/10/2/direct-the-future-of-dvs-as-a-board-member-apply-by-oct-30/"}],
     "id": "dvs-board-2027-2028",
     "title": "Data Visualization Society — Board of Directors 2027–2028",
     "org": "Data Visualization Society",
@@ -522,17 +522,17 @@ window.RADAR_PARTS.opportunities=[
     ],
     "scope": "Internacional; sem restrição geográfica informada",
     "deadline": "2026-10-30",
-    "deadlineStatus": "confirmado; 23h59 do Pacífico",
+    "deadlineStatus": "Inscrições encerradas em 30/10/2026; data confirmada na chamada oficial da DVS",
     "eligibility": "parcial",
     "fit": 8,
-    "status": "aberta",
+    "status": "encerrada",
     "rules": "https://datavisualizationsociety.org/nominations/",
     "apply": "https://datavisualizationsociety.org/nominations/",
     "discoveredVia": [
       "Data Visualization Society"
     ],
     "discoveryUrl": "https://datavisualizationsociety.org/nominations/",
-    "verified": "2026-10-20"
+    "verified": "2026-10-31"
   },
   {
     "value": "R$ 1.800/mês para 40 horas semanais na tabela vigente da FAPESP; valor proporcional se a carga for menor",
