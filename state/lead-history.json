@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-31T12:40:24.503Z",
+  "updatedAt": "2026-10-31T12:40:50.991Z",
   "leads": {
     "21d08dec9013d505e3e682633dc64ac66d18d9ce040e2b381ea738cf297fd16d": {
       "url": "https://data.inpe.br/biomasbr/sala-de-situacao-municipal-e-a-nova-ferramenta-do-terrabrasilis-para-apoiar-estados-e-municipios-no-controle-do-desmatamento-e-fogo",
@@ -15920,6 +15920,46 @@
       "inspectionCount": 1,
       "publishedAt": "2026-10-31T12:40:24.503Z",
       "publicationUrl": "https://r4chelxx.github.io/radar-plot-publico/#oportunidade/un-dpoa-mtr-journalism-fellowship-2027"
+    },
+    "f2a1c88a1998cc4c1c3fe4ded7865cf31a9ac4ea4d20dd2fd6144c7fd362e047": {
+      "url": "https://digital-strategy.ec.europa.eu/en/funding/call-proposals-journalism-partnerships-pluralism-2027",
+      "title": "União Europeia — Journalism Partnerships: Pluralism 2027",
+      "source": "Pesquisa web — GFMD e Comissão Europeia",
+      "category": "opportunities",
+      "classification": "needs-editorial-review",
+      "firstSeen": "2026-10-31T12:40:50.991Z",
+      "lastSeen": "2026-10-31T12:40:50.991Z",
+      "seenCount": 1,
+      "editorialStatus": "published",
+      "reviewedAt": "2026-10-31",
+      "reviewedBy": "Radar PLOT — revisão editorial assistida",
+      "editorialEvidence": "https://digital-strategy.ec.europa.eu/en/funding/call-proposals-journalism-partnerships-pluralism-2027",
+      "decisionReason": "Fonte primária, prazo, elegibilidade institucional, ausência de duplicidade e publicação confirmados em PR #173, Pages 41201616046 e verificação 41201616297.",
+      "lastInspectedAt": "2026-10-31T12:40:50.991Z",
+      "pageStatus": "html-fetched",
+      "inspectionCount": 1,
+      "publishedAt": "2026-10-31T12:40:50.991Z",
+      "publicationUrl": "https://r4chelxx.github.io/radar-plot-publico/#oportunidade/eu-journalism-partnerships-pluralism-2027"
+    },
+    "6d31824403cda53630176cd675f9c8ffeb1c899f83a50f04d0b74b0fdc9a50ca": {
+      "url": "https://digital-strategy.ec.europa.eu/en/funding/call-proposals-media-freedom-rapid-response-mechanism-2027",
+      "title": "União Europeia — Media Freedom Rapid Response Mechanism 2027",
+      "source": "Pesquisa web — GFMD e Comissão Europeia",
+      "category": "opportunities",
+      "classification": "needs-editorial-review",
+      "firstSeen": "2026-10-31T12:40:50.991Z",
+      "lastSeen": "2026-10-31T12:40:50.991Z",
+      "seenCount": 1,
+      "editorialStatus": "published",
+      "reviewedAt": "2026-10-31",
+      "reviewedBy": "Radar PLOT — revisão editorial assistida",
+      "editorialEvidence": "https://digital-strategy.ec.europa.eu/en/funding/call-proposals-media-freedom-rapid-response-mechanism-2027",
+      "decisionReason": "Fonte primária, prazo, elegibilidade institucional, ausência de duplicidade e publicação confirmados em PR #173, Pages 41201616046 e verificação 41201616297.",
+      "lastInspectedAt": "2026-10-31T12:40:50.991Z",
+      "pageStatus": "html-fetched",
+      "inspectionCount": 1,
+      "publishedAt": "2026-10-31T12:40:50.991Z",
+      "publicationUrl": "https://r4chelxx.github.io/radar-plot-publico/#oportunidade/eu-media-freedom-rapid-response-2027"
     }
   }
 }
