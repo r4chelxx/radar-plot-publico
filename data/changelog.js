@@ -1,6 +1,66 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
 {
+  "date": "2026-10-31",
+  "type": "nova-oportunidade",
+  "title": "Publicação editorial verificada — 2026-10-31 — opportunities",
+  "items": [
+    {
+      "id": "cfr-edward-r-murrow-press-fellowship-2027-28",
+      "title": "CFR — Edward R. Murrow Press Fellowship 2027–28"
+    },
+    {
+      "id": "mozilla-foundation-fellowships-2027-28",
+      "title": "Mozilla Foundation — Fellowships 2027–28"
+    }
+  ],
+  "detail": "Registros novos com fontes primárias, verificação de duplicidade e limitações editoriais documentadas: CFR — Edward R. Murrow Press Fellowship 2027–28; Mozilla Foundation — Fellowships 2027–28."
+},
+{
+  "date": "2026-10-31",
+  "type": "ferramentas",
+  "title": "Publicação editorial verificada — 2026-10-31 — tools",
+  "items": [
+    {
+      "id": "osomenet-social-diffusion",
+      "title": "OSoMeNet — redes de difusão em mídias sociais"
+    },
+    {
+      "id": "reactable-r-interactive-tables",
+      "title": "reactable — tabelas interativas em R"
+    },
+    {
+      "id": "saucenao-reverse-image-search",
+      "title": "SauceNAO — busca reversa especializada de imagens"
+    }
+  ],
+  "detail": "Registros novos com fontes primárias, verificação de duplicidade e limitações editoriais documentadas: OSoMeNet — redes de difusão em mídias sociais; reactable — tabelas interativas em R; SauceNAO — busca reversa especializada de imagens."
+},
+{
+  "date": "2026-10-31",
+  "type": "dados",
+  "title": "Publicação editorial verificada — 2026-10-31 — datasets",
+  "items": [
+    {
+      "id": "global-forest-watch-open-data-portal",
+      "title": "Global Forest Watch — portal aberto de dados florestais"
+    },
+    {
+      "id": "tidytuesday-weekly-datasets",
+      "title": "TidyTuesday — acervo semanal de bases para análise"
+    },
+    {
+      "id": "propublica-data-store-historical-archive",
+      "title": "ProPublica Data Store — arquivo histórico 2013–2023"
+    },
+    {
+      "id": "nycdogs-licenses-bites-r",
+      "title": "nycdogs — licenças e ocorrências de mordidas em Nova York"
+    }
+  ],
+  "detail": "Registros novos com fontes primárias, verificação de duplicidade e limitações editoriais documentadas: Global Forest Watch — portal aberto de dados florestais; TidyTuesday — acervo semanal de bases para análise; ProPublica Data Store — arquivo histórico 2013–2023; nycdogs — licenças e ocorrências de mordidas em Nova York."
+}, 
+{
   "date": "2026-10-30",
   "type": "dados",
   "title": "Três bases verificadas: energia global e pesquisa acadêmica",
