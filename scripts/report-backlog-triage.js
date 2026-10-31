@@ -51,7 +51,16 @@ function ageBuckets(candidates,now=new Date()){
  }
  return buckets;
 }
-function report(queue,historyData={}){
+function compareQueues(current,previous){
+ if(!previous||!Array.isArray(previous.candidates))return null;
+ const old=new Map(previous.candidates.map(x=>[x.id,x.status]));
+ const now=new Map((current.candidates||[]).map(x=>[x.id,x.status]));
+ const wasPending=new Set([...old].filter(([,s])=>s==='pending').map(([id])=>id));
+ const isPending=new Set([...now].filter(([,s])=>s==='pending').map(([id])=>id));
+ const resolved=[...wasPending].filter(id=>now.has(id)&&!isPending.has(id));
+ return {previousPending:wasPending.size,currentPending:isPending.size,netChange:isPending.size-wasPending.size,newPending:[...isPending].filter(id=>!old.has(id)).length,reopened:[...isPending].filter(id=>old.has(id)&&!wasPending.has(id)).length,resolved:resolved.length,removedFromQueue:[...wasPending].filter(id=>!now.has(id)).length};
+}
+function report(queue,historyData={},previousQueue=null){
  const history=historyData.leads||{};
  const pending=(queue.candidates||[]).filter(x=>x.status==='pending');
  const items=pending.filter(x=>!['opportunities','tools','datasets'].includes(x.category)).map(x=>{
@@ -62,11 +71,12 @@ function report(queue,historyData={}){
   return {id:x.id,title:x.title,url:x.url,priority:x.reviewPriority||'normal',...proposal,historyCategory,historyConflict,historySource:lead.source||null,inspectionStatus:lead.pageStatus||null,lastInspectedAt:lead.lastInspectedAt||null,requiresSourceReview:historyConflict||!proposal.category};
  });
  const counts=items.reduce((a,x)=>(a[x.category||x.confidence]=(a[x.category||x.confidence]||0)+1,a),{});
- return {pending:pending.length,uncategorized:items.length,backlogAge:ageBuckets(pending),counts,historyCoverage:{categorized:items.filter(x=>x.historyCategory).length,inspectedHtml:items.filter(x=>x.inspectionStatus==='html-fetched').length,conflicts:items.filter(x=>x.historyConflict).length},reviewOrderPolicy:'priority > unambiguous suggestion > opportunity/tool/dataset > inspected HTML > title; manual editorial verification required',reviewReady:{highPriority:items.filter(x=>x.priority==='high'&&x.category&&!x.historyConflict).length,highPriorityWithHtml:items.filter(x=>x.priority==='high'&&x.category&&!x.historyConflict&&x.inspectionStatus==='html-fetched').length},dailyReview:selectDailyReview(items.sort(compareReview)),suggestions:items};
+ return {pending:pending.length,uncategorized:items.length,backlogAge:ageBuckets(pending),backlogChange:compareQueues(queue,previousQueue),counts,historyCoverage:{categorized:items.filter(x=>x.historyCategory).length,inspectedHtml:items.filter(x=>x.inspectionStatus==='html-fetched').length,conflicts:items.filter(x=>x.historyConflict).length},reviewOrderPolicy:'priority > unambiguous suggestion > opportunity/tool/dataset > inspected HTML > title; manual editorial verification required',reviewReady:{highPriority:items.filter(x=>x.priority==='high'&&x.category&&!x.historyConflict).length,highPriorityWithHtml:items.filter(x=>x.priority==='high'&&x.category&&!x.historyConflict&&x.inspectionStatus==='html-fetched').length},dailyReview:selectDailyReview(items.sort(compareReview)),suggestions:items};
 }
 module.exports={suggest,report};
 if(require.main===module){
  const data=JSON.parse(fs.readFileSync(process.argv[2]||'intake/editorial-queue.json','utf8'));
  const history=process.argv[3]&&fs.existsSync(process.argv[3])?JSON.parse(fs.readFileSync(process.argv[3],'utf8')):{};
- process.stdout.write(JSON.stringify(report(data,history),null,2)+'\n');
+ const previous=process.argv[4]&&fs.existsSync(process.argv[4])?JSON.parse(fs.readFileSync(process.argv[4],'utf8')):null;
+ process.stdout.write(JSON.stringify(report(data,history,previous),null,2)+'\n');
 }

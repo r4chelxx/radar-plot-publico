@@ -171,6 +171,11 @@ jobs:
             git show FETCH_HEAD:intake/editorial-queue.json > /tmp/radar-persisted-editorial-queue.json || true
           fi
           node scripts/load-persisted-editorial-queue.js /tmp/radar-persisted-editorial-queue.json intake/editorial-queue-report.json
+      - name: Snapshot prior editorial queue for delta reporting
+        run: |
+          if [ -f /tmp/radar-persisted-editorial-queue.json ]; then
+            cp /tmp/radar-persisted-editorial-queue.json /tmp/radar-previous-editorial-queue.json
+          fi
       - name: Persist candidates on radar-state branch
         if: github.event_name != 'pull_request'
         run: |
@@ -209,9 +214,9 @@ jobs:
       - name: Generate read-only backlog triage suggestions
         run: |
           if [ -f /tmp/radar-persisted-editorial-queue.json ]; then
-            git show FETCH_HEAD:state/lead-history.json > /tmp/radar-persisted-lead-history.json
-            node scripts/report-backlog-triage.js /tmp/radar-persisted-editorial-queue.json /tmp/radar-persisted-lead-history.json > intake/backlog-triage-report.json
-            node -e 'const fs=require("fs");const r=require("./intake/backlog-triage-report.json");fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY,["### Editorial backlog triage",`Pending: ${r.pending}; uncategorized: ${r.uncategorized}`,`Suggestions: ${JSON.stringify(r.counts)}`,`Daily review shortlist: ${(r.dailyReview||[]).length}; editorial verification required`,`Pending age: >7d ${r.backlogAge.over7Days}; >14d ${r.backlogAge.over14Days}; >30d ${r.backlogAge.over30Days}; missing firstSeen ${r.backlogAge.missingFirstSeen}`].join("\n")+"\n")'
+            git show FETCH_HEAD:state/lead-history.json > /tmp/radar-persisted-lead-history.json || printf '{\"leads\":{}}\n' > /tmp/radar-persisted-lead-history.json
+            node scripts/report-backlog-triage.js /tmp/radar-persisted-editorial-queue.json /tmp/radar-persisted-lead-history.json /tmp/radar-previous-editorial-queue.json > intake/backlog-triage-report.json
+            node -e 'const fs=require("fs");const r=require("./intake/backlog-triage-report.json");fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY,["### Editorial backlog triage",`Pending: ${r.pending}; uncategorized: ${r.uncategorized}`,`Suggestions: ${JSON.stringify(r.counts)}`,`Daily review shortlist: ${(r.dailyReview||[]).length}; editorial verification required`,`Pending age: >7d ${r.backlogAge.over7Days}; >14d ${r.backlogAge.over14Days}; >30d ${r.backlogAge.over30Days}; missing firstSeen ${r.backlogAge.missingFirstSeen}`,`Backlog delta: ${r.backlogChange?JSON.stringify(r.backlogChange):"baseline unavailable (PR or first run)"}`].join("\n")+"\n")'
           fi
       - name: Summarize collector reliability
         run: node scripts/report-discovery-operations.js
