@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-31T17:53:15.131Z",
+  "updatedAt": "2026-11-01T12:13:17.439Z",
   "policy": "Public web leads only; pending does not mean verified or approved.",
   "candidates": [
     {
@@ -6897,6 +6897,24 @@
       "lastSeen": "2026-10-31T17:18:49.401Z",
       "status": "pending",
       "reviewPriority": "high"
+    },
+    {
+      "id": "7d9875d019b554b74f4066e35572591ea8da102443c81d8cf24c9f9174b8f2b2",
+      "title": "Open Knowledge Brasil / Escola de Dados — Dados por Direitos (microbolsas 2026, encerradas)",
+      "url": "https://pt.linkedin.com/pulse/concorra-microbolsas-de-500-para-investigar-tr%C3%A1fico-d4rbf",
+      "category": "opportunities",
+      "providers": [
+        "Gmail Radar PLOT. — Open Knowledge Brasil"
+      ],
+      "firstSeen": "2026-11-01T12:13:17.439Z",
+      "lastSeen": "2026-11-01T12:13:17.439Z",
+      "status": "archived",
+      "reviewPriority": "excluded",
+      "archiveKind": "closed-opportunity",
+      "deadline": null,
+      "officialUrl": "https://pt.linkedin.com/pulse/concorra-microbolsas-de-500-para-investigar-tr%C3%A1fico-d4rbf",
+      "archiveVerifiedAt": "2026-11-01",
+      "nextRecheckAt": "2026-12-01"
     }
   ]
 }
