@@ -1,6 +1,51 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
 {
+  "date": "2026-11-01",
+  "type": "atualizacao-editorial",
+  "title": "Nove recursos verificados — 4 oportunidades, 3 ferramentas e 2 bases",
+  "items": [
+    {
+      "id": "ijp-german-latin-american-fellowship-2027",
+      "title": "IJP — German–Latin American Journalists' Fellowship 2027"
+    },
+    {
+      "id": "european-press-prize-2027",
+      "title": "European Press Prize 2027"
+    },
+    {
+      "id": "publix-tech-journalism-fellowship-2027",
+      "title": "Publix — Technology Journalism Fellowship 2027"
+    },
+    {
+      "id": "premio-amm-jornalismo-2027",
+      "title": "1º Prêmio AMM de Jornalismo"
+    },
+    {
+      "id": "deck-gl-geospatial-visualization",
+      "title": "deck.gl"
+    },
+    {
+      "id": "scikit-learn-python-machine-learning",
+      "title": "scikit-learn"
+    },
+    {
+      "id": "p5js-creative-coding",
+      "title": "p5.js"
+    },
+    {
+      "id": "gem-global-wind-power-tracker",
+      "title": "Global Wind Power Tracker"
+    },
+    {
+      "id": "wid-world-inequality-database",
+      "title": "World Inequality Database"
+    }
+  ],
+  "detail": "Fontes primárias e duplicidades conferidas; três chamadas encerradas e uma data prorrogada corrigidas no catálogo."
+},
+
+{
   "date": "2026-10-31",
   "type": "atualizacao-editorial",
   "title": "Três recursos verificados — ONU, PondPilot e Happy Planet Index 2026",
