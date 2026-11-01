@@ -1,11 +1,11 @@
 {
-  "checkedAt": "2026-11-01T12:30:07.854Z",
+  "checkedAt": "2026-11-01T17:08:12.969Z",
   "policy": "404/410 and ArcGIS application errors within HTTP 200 become broken only after appearing as suspect or broken in the previous audit; blocked and network results are inconclusive",
   "counts": {
-    "ok": 436,
-    "blocked": 45,
-    "server": 4,
-    "network": 27
+    "ok": 428,
+    "blocked": 44,
+    "server": 6,
+    "network": 34
   },
   "results": [
     {
@@ -71,6 +71,7 @@
       "finalUrl": "https://digital-strategy.ec.europa.eu/en/funding/call-proposals-journalism-partnerships-pluralism-2027",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -82,6 +83,7 @@
       "finalUrl": "https://digital-strategy.ec.europa.eu/en/funding/call-proposals-media-freedom-rapid-response-mechanism-2027",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -573,11 +575,11 @@
       "type": "opportunity",
       "id": "pulitzer-ocean-reporting-network",
       "url": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/apply-join-ocean-reporting-network-orn",
-      "status": 200,
+      "status": 403,
       "finalUrl": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/apply-join-ocean-reporting-network-orn",
-      "class": "ok",
+      "class": "blocked",
       "attempts": [
-        200
+        403
       ]
     },
     {
@@ -749,11 +751,11 @@
       "type": "opportunity",
       "id": "pulitzer-env",
       "url": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/our-work-environment-grants",
-      "status": 403,
+      "status": 200,
       "finalUrl": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/our-work-environment-grants",
-      "class": "blocked",
+      "class": "ok",
       "attempts": [
-        403
+        200
       ]
     },
     {
@@ -771,11 +773,11 @@
       "type": "opportunity",
       "id": "pulitzer-ai-2627",
       "url": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/ai-accountability-fellowships",
-      "status": 403,
+      "status": 200,
       "finalUrl": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/ai-accountability-fellowships",
-      "class": "blocked",
+      "class": "ok",
       "attempts": [
-        403
+        200
       ]
     },
     {
@@ -1440,7 +1442,7 @@
       "class": "network",
       "error": "TypeError:fetch failed",
       "attempts": [
-        "TypeError:fetch failed",
+        "AbortError:This operation was aborted",
         "TypeError:fetch failed"
       ]
     },
@@ -1833,11 +1835,12 @@
       "type": "source",
       "id": "Banco Central do Brasil — Dados Abertos",
       "url": "https://dadosabertos.bcb.gov.br/",
-      "status": 200,
+      "status": 502,
       "finalUrl": "https://dadosabertos.bcb.gov.br/",
-      "class": "ok",
+      "class": "server",
       "attempts": [
-        200
+        502,
+        502
       ]
     },
     {
@@ -2052,6 +2055,7 @@
       "finalUrl": "https://map.geo.sei.ba.gov.br/arcgis/rest/services/servicos_sei/DPA_A_100K_VIGENTE_GCS_SIR_SEI/FeatureServer/0?f=json",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -2064,7 +2068,7 @@
       "class": "network",
       "error": "TypeError:fetch failed",
       "attempts": [
-        "TypeError:fetch failed",
+        "AbortError:This operation was aborted",
         "TypeError:fetch failed"
       ]
     },
@@ -2072,11 +2076,13 @@
       "type": "dataset",
       "id": "bahia-transparencia",
       "url": "https://www.transparencia.ba.gov.br/Portal",
-      "status": 200,
-      "finalUrl": "https://www.transparencia.ba.gov.br/Portal",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "AbortError:This operation was aborted",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -2087,6 +2093,7 @@
       "finalUrl": "https://www.ba.gov.br/ssp/publicacoes",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -2094,44 +2101,52 @@
       "type": "dataset",
       "id": "sspba-dados-abertos",
       "url": "https://www.ba.gov.br/ssp/dados-abertos",
-      "status": 200,
-      "finalUrl": "https://www.ba.gov.br/ssp/dados-abertos",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "AbortError:This operation was aborted",
+        "TypeError:fetch failed"
       ]
     },
     {
       "type": "dataset",
       "id": "aneel",
       "url": "https://dadosabertos.aneel.gov.br/",
-      "status": 200,
-      "finalUrl": "https://dadosabertos.aneel.gov.br/",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "AbortError:This operation was aborted",
+        "TypeError:fetch failed"
       ]
     },
     {
       "type": "dataset",
       "id": "ons",
       "url": "https://dados.ons.org.br/",
-      "status": 200,
-      "finalUrl": "https://dados.ons.org.br/",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "AbortError:This operation was aborted",
+        "TypeError:fetch failed"
       ]
     },
     {
       "type": "dataset",
       "id": "ons-constrained-off-fotovoltaica",
       "url": "https://dados.ons.org.br/dataset/restricao_coff_fotovoltaica",
-      "status": 200,
-      "finalUrl": "https://dados.ons.org.br/dataset/restricao_coff_fotovoltaica",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "AbortError:This operation was aborted",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -2467,7 +2482,6 @@
       "finalUrl": "https://salvador.ba.gov.br/",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -2501,6 +2515,7 @@
       "finalUrl": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/acoes-e-programas/programas-projetos-acoes-obras-e-atividades/estatisticas-trabalho/novo-caged/2026/agosto/pagina-inicial",
       "class": "ok",
       "attempts": [
+        "TypeError:fetch failed",
         200
       ]
     },
@@ -2673,11 +2688,13 @@
       "type": "dataset",
       "id": "sesab-mortalidade-materna",
       "url": "https://biobr.saude.ba.gov.br/static/obitomaterno.php",
-      "status": 200,
-      "finalUrl": "https://biobr.saude.ba.gov.br/static/obitomaterno.php",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "AbortError:This operation was aborted",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -2855,6 +2872,7 @@
       "finalUrl": "https://www.tce.ba.gov.br/controle-externo/contas-de-governo",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -3121,11 +3139,12 @@
       "type": "dataset",
       "id": "bcb-estatisticas-pix",
       "url": "https://dadosabertos.bcb.gov.br/dataset/pix",
-      "status": 200,
+      "status": 502,
       "finalUrl": "https://dadosabertos.bcb.gov.br/dataset/pix",
-      "class": "ok",
+      "class": "server",
       "attempts": [
-        200
+        502,
+        502
       ]
     },
     {
@@ -4231,7 +4250,6 @@
       "finalUrl": "https://coveringclimatenow.org/",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -4878,11 +4896,13 @@
       "type": "tool",
       "id": "inkscape-svg-editor",
       "url": "https://inkscape.org/",
-      "status": 200,
-      "finalUrl": "https://inkscape.org/",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "AbortError:This operation was aborted",
       "attempts": [
-        200
+        "AbortError:This operation was aborted",
+        "AbortError:This operation was aborted"
       ]
     },
     {
