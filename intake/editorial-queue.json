@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-01T12:13:17.439Z",
+  "updatedAt": "2026-11-01T12:29:00.000Z",
   "policy": "Public web leads only; pending does not mean verified or approved.",
   "candidates": [
     {
@@ -5478,8 +5478,15 @@
       ],
       "firstSeen": "2026-10-30T01:50:41.483Z",
       "lastSeen": "2026-10-31T17:18:49.401Z",
-      "status": "pending",
-      "reviewPriority": "high"
+      "status": "archived",
+      "reviewPriority": "high",
+      "archiveKind": "closed-opportunity",
+      "archiveStatus": "2026 closed",
+      "deadline": "2025-11-01",
+      "reviewedAt": "2026-11-01",
+      "officialUrl": "https://www.torontomu.ca/bridging-divides/people/visiting-fellows/",
+      "nextRecheckAt": "2026-12-01",
+      "decisionReason": "Edição 2026 encerrada; reavaliar edição seguinte, não apresentar como aberta."
     },
     {
       "id": "a804ec82e2a46ff330aee043fbf71df147fd5dd5d375678f839c10a6f8b1e59f",
@@ -6222,8 +6229,11 @@
       ],
       "firstSeen": "2026-10-30T18:07:58.707Z",
       "lastSeen": "2026-10-31T17:18:49.401Z",
-      "status": "pending",
-      "reviewPriority": "high"
+      "status": "duplicate",
+      "reviewPriority": "high",
+      "reviewedAt": "2026-11-01",
+      "officialUrl": "https://rjionline.org/about-rji-fellowships/",
+      "decisionReason": "Duplicado dos registros RJI 2027 já publicados no Radar."
     },
     {
       "id": "25f3ecac9078807ca06cb298c039f7081cf070b5cc38669093b8dccb9283f94b",
@@ -6456,8 +6466,15 @@
       ],
       "firstSeen": "2026-10-30T18:07:58.707Z",
       "lastSeen": "2026-10-31T17:18:49.401Z",
-      "status": "pending",
-      "reviewPriority": "high"
+      "status": "archived",
+      "reviewPriority": "high",
+      "archiveKind": "closed-opportunity",
+      "archiveStatus": "2026 closed",
+      "deadline": "2025-11-01",
+      "reviewedAt": "2026-11-01",
+      "officialUrl": "https://www.torontomu.ca/bridging-divides/people/visiting-fellows/",
+      "nextRecheckAt": "2026-12-01",
+      "decisionReason": "Edição 2026 encerrada; reavaliar edição seguinte, não apresentar como aberta."
     },
     {
       "id": "b3f4e2440eafe4ef10fcb1a574445d58a513c686a81b3a043b02ad8bccbe3bb2",
