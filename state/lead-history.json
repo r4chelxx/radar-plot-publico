@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-31T17:52:57.844Z",
+  "updatedAt": "2026-11-01T12:13:17.439Z",
   "leads": {
     "21d08dec9013d505e3e682633dc64ac66d18d9ce040e2b381ea738cf297fd16d": {
       "url": "https://data.inpe.br/biomasbr/sala-de-situacao-municipal-e-a-nova-ferramenta-do-terrabrasilis-para-apoiar-estados-e-municipios-no-controle-do-desmatamento-e-fogo",
@@ -16340,6 +16340,27 @@
       "decisionReason": null,
       "lastEditorialQueuedAt": "2026-10-31T17:31:58.323Z",
       "editorialQueueCount": 1
+    },
+    "7d9875d019b554b74f4066e35572591ea8da102443c81d8cf24c9f9174b8f2b2": {
+      "url": "https://pt.linkedin.com/pulse/concorra-microbolsas-de-500-para-investigar-tr%C3%A1fico-d4rbf",
+      "title": "Open Knowledge Brasil / Escola de Dados — Dados por Direitos (microbolsas 2026, encerradas)",
+      "source": "Gmail Radar PLOT. — newsletter Open Knowledge Brasil de 12/01/2026",
+      "category": "opportunities",
+      "classification": "needs-editorial-review",
+      "firstSeen": "2026-11-01T12:13:17.439Z",
+      "lastSeen": "2026-11-01T12:13:17.439Z",
+      "seenCount": 1,
+      "editorialStatus": "archived",
+      "reviewedAt": "2026-11-01",
+      "reviewedBy": "Radar PLOT — revisão editorial assistida",
+      "editorialEvidence": "https://pt.linkedin.com/pulse/concorra-microbolsas-de-500-para-investigar-tr%C3%A1fico-d4rbf",
+      "decisionReason": "Newsletter oficial OKBR de janeiro de 2026 descreve cinco microbolsas de £500 para investigar tráfico de pessoas; publicação da organização em abril relata as reportagens já produzidas. Chamada histórica encerrada; prazo exato não confirmado e não deve ser inventado. Reauditar se houver nova edição.",
+      "archiveKind": "closed-opportunity",
+      "deadline": null,
+      "archiveVerifiedAt": "2026-11-01",
+      "archiveSource": "https://pt.linkedin.com/pulse/concorra-microbolsas-de-500-para-investigar-tr%C3%A1fico-d4rbf",
+      "nextRecheckAt": "2026-12-01",
+      "discoveryMethod": "ChatGPT Gmail connector, read-only; newsletter examined 2026-11-01"
     }
   }
 }
