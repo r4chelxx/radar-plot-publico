@@ -1,6 +1,31 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.tools=[
 {
+  "id": "deck-gl-geospatial-visualization",
+  "name": "deck.gl — visualização geoespacial em grande escala",
+  "kind": "visualização geoespacial interativa com WebGL/WebGPU",
+  "url": "https://deck.gl/",
+  "desc": "Framework JavaScript para visualizações exploratórias de grandes conjuntos de dados, com camadas geográficas, GeoJSON, pontos, linhas e integração a mapas-base. Exige programação e avaliação de desempenho e acessibilidade; a licença de dados e dos mapas-base depende das fontes utilizadas.",
+  "discoveryUrl": "https://deck.gl/docs/api-reference/layers"
+},
+{
+  "id": "scikit-learn-python-machine-learning",
+  "name": "scikit-learn — aprendizado de máquina em Python",
+  "kind": "análise preditiva, classificação, regressão e agrupamento",
+  "url": "https://scikit-learn.org/stable/",
+  "desc": "Biblioteca aberta de aprendizado de máquina em Python, com classificação, regressão, clustering e avaliação de modelos, sob licença BSD. Útil para análise exploratória e investigação assistida por dados; resultados exigem validação estatística, revisão de vieses e documentação de hipóteses.",
+  "discoveryUrl": "https://scikit-learn.org/stable/"
+},
+{
+  "id": "p5js-creative-coding",
+  "name": "p5.js — programação criativa e narrativas interativas",
+  "kind": "gráficos generativos, animação e narrativas visuais web",
+  "url": "https://p5js.org/",
+  "desc": "Biblioteca JavaScript gratuita e aberta para criar desenhos, animações e experiências interativas no navegador, com editor web e documentação. Adequada a experimentações em jornalismo visual; requer programação e testes de acessibilidade e desempenho. Licença da biblioteca LGPL 2.1; exemplos e materiais têm condições próprias.",
+  "discoveryUrl": "https://p5js.org/about/"
+},
+
+{
   "id": "pondpilot-duckdb-browser-sql",
   "name": "PondPilot — exploração SQL de dados no navegador",
   "kind": "análise de dados tabulares, SQL e DuckDB-WASM",
