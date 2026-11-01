@@ -3,7 +3,7 @@
   "labelName": "Radar PLOT.",
   "labelId": "Label_3603240905167932728",
   "pageToken": "",
-  "processed": 2153,
+  "processed": 2156,
   "processedIdHashes": [
     "d834ea370cc911923dfd5d30418092772cf86d2ebefc5b4e79cd7ea71ec6bec1",
     "f92e23cad628376400d6d76ef2acac660c5bce0fcd1dfce6e61480417c5236f7",
@@ -2157,13 +2157,16 @@
     "fc17371b8cfa5fb699ef24cc347dc49c1e6bc4a764a055e02faa75c0dd25d4a6",
     "45a48e8d27f9f3c0d53095d96dd7dbff211687e3906ed5e2fc6078ca119eabff",
     "74de918d78f25a9c72dabd40903ee96535524e883601512c52d43859c77bc989",
-    "5a4871493a483f2002b3c482706d39ce25e0f3ab38b98b6f76fb4ed67c63e6ac"
+    "5a4871493a483f2002b3c482706d39ce25e0f3ab38b98b6f76fb4ed67c63e6ac",
+    "1de8a6fe70a0268952aa37866566f6c125422beafb677499ec2e8149b7f1838a",
+    "ce1dc20b7400a83f7df0bd737ba434cdf1c418d546a92de9728ee063955c89dc",
+    "9ec8a8bf60b99a5ac6c3c9c0e99d7da7c32d1246779d28dca2861886a27ef193"
   ],
-  "updatedAt": "2026-11-01T12:17:05.857Z",
+  "updatedAt": "2026-11-01T12:17:27.451Z",
   "complete": false,
   "source": "ChatGPT Gmail connector, read-only",
-  "verification": "2153 distinct messages read; in:anywhere reconciliation 800 IDs examined, 46 new reads; complete=false",
-  "rawUrlOccurrences": 54311,
+  "verification": "2156 distinct messages read; in:anywhere sweep 1600 IDs checked; pagination ongoing; complete=false",
+  "rawUrlOccurrences": 54349,
   "uniqueUrlCountPerPage": [
     962,
     1226,
@@ -2200,12 +2203,12 @@
   },
   "paginationExhausted": true,
   "reconciliationRequired": true,
-  "reconciliationCursor": "16248967213074982470",
+  "reconciliationCursor": "16458268750444047158",
   "labelMessagesTotalAtAudit": 2153,
   "reconciliationGapAtAudit": 46,
   "reconciliationQuery": "in:anywhere",
   "reconciliationFinished": false,
-  "reconciliationPages": 8,
-  "reconciliationSeen": 800,
-  "reconciliationNewReads": 46
+  "reconciliationPages": 16,
+  "reconciliationSeen": 1600,
+  "reconciliationNewReads": 49
 }
