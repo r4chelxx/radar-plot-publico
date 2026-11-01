@@ -1,13 +1,57 @@
 {
-  "checkedAt": "2026-10-31T16:02:59.200Z",
+  "checkedAt": "2026-11-01T12:18:59.151Z",
   "policy": "404/410 and ArcGIS application errors within HTTP 200 become broken only after appearing as suspect or broken in the previous audit; blocked and network results are inconclusive",
   "counts": {
-    "ok": 425,
-    "blocked": 44,
-    "network": 33,
-    "server": 1
+    "ok": 436,
+    "blocked": 45,
+    "server": 4,
+    "network": 27
   },
   "results": [
+    {
+      "type": "opportunity",
+      "id": "ijp-german-latin-american-fellowship-2027",
+      "url": "https://ijp.org/en/programmes/latinamerica/",
+      "status": 200,
+      "finalUrl": "https://ijp.org/en/programmes/latinamerica/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "european-press-prize-2027",
+      "url": "https://www.europeanpressprize.com/before-you-enter/",
+      "status": 403,
+      "finalUrl": "https://www.europeanpressprize.com/before-you-enter/",
+      "class": "blocked",
+      "attempts": [
+        403
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "publix-tech-journalism-fellowship-2027",
+      "url": "https://www.publix.de/en/projects/technology-journalism-fellowship",
+      "status": 200,
+      "finalUrl": "https://www.publix.de/en/projects/technology-journalism-fellowship",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "premio-amm-jornalismo-2027",
+      "url": "https://portalamm.org.br/premio-amm-jornalismo",
+      "status": 200,
+      "finalUrl": "https://portalamm.org.br/premio-amm-jornalismo",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
     {
       "type": "opportunity",
       "id": "un-dpoa-mtr-journalism-fellowship-2027",
@@ -705,11 +749,11 @@
       "type": "opportunity",
       "id": "pulitzer-env",
       "url": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/our-work-environment-grants",
-      "status": 200,
+      "status": 403,
       "finalUrl": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/our-work-environment-grants",
-      "class": "ok",
+      "class": "blocked",
       "attempts": [
-        200
+        403
       ]
     },
     {
@@ -793,11 +837,12 @@
       "type": "opportunity",
       "id": "coda26",
       "url": "https://ok.org.br/noticia/chamada-aberta-inscreva-sua-atividade-para-o-coda-br-2026/",
-      "status": 200,
+      "status": 503,
       "finalUrl": "https://ok.org.br/noticia/chamada-aberta-inscreva-sua-atividade-para-o-coda-br-2026/",
-      "class": "ok",
+      "class": "server",
       "attempts": [
-        200
+        503,
+        503
       ]
     },
     {
@@ -1209,6 +1254,28 @@
     },
     {
       "type": "dataset",
+      "id": "gem-global-wind-power-tracker",
+      "url": "https://globalenergymonitor.org/projects/global-wind-power-tracker",
+      "status": 200,
+      "finalUrl": "https://globalenergymonitor.org/projects/global-wind-power-tracker",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "wid-world-inequality-database",
+      "url": "https://wid.world/data/",
+      "status": 200,
+      "finalUrl": "https://wid.world/data/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
       "id": "happy-planet-index-2026-global",
       "url": "https://happyplanetindex.org/accessible-hpi/",
       "status": 200,
@@ -1334,11 +1401,12 @@
       "type": "dataset",
       "id": "okbr-monitor-inda-2023-2025",
       "url": "https://ok.org.br/inda/",
-      "status": 200,
+      "status": 503,
       "finalUrl": "https://ok.org.br/inda/",
-      "class": "ok",
+      "class": "server",
       "attempts": [
-        200
+        503,
+        503
       ]
     },
     {
@@ -1402,13 +1470,11 @@
       "type": "dataset",
       "id": "genero-numero-dados-abertos",
       "url": "https://www.generonumero.media/dados-abertos/",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://www.generonumero.media/dados-abertos/",
+      "class": "ok",
       "attempts": [
-        "TypeError:fetch failed",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -1745,12 +1811,11 @@
       "type": "source",
       "id": "Ibama — Áreas Embargadas",
       "url": "https://dadosabertos.ibama.gov.br/dataset/fiscalizacao-termo-de-embargo",
-      "status": 502,
+      "status": 200,
       "finalUrl": "https://dadosabertos.ibama.gov.br/dataset/fiscalizacao-termo-de-embargo",
-      "class": "server",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        502
+        200
       ]
     },
     {
@@ -1856,11 +1921,13 @@
       "type": "dataset",
       "id": "mapbiomas-alerta",
       "url": "https://plataforma.alerta.mapbiomas.org/",
-      "status": 200,
-      "finalUrl": "https://plataforma.alerta.mapbiomas.org/",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "AbortError:This operation was aborted",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -2038,13 +2105,11 @@
       "type": "dataset",
       "id": "aneel",
       "url": "https://dadosabertos.aneel.gov.br/",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://dadosabertos.aneel.gov.br/",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -2161,13 +2226,11 @@
       "type": "dataset",
       "id": "aneel-emergencias",
       "url": "https://dadosabertos.aneel.gov.br/dataset/ocorrencias-emergenciais-nas-redes-de-distribuicao",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://dadosabertos.aneel.gov.br/dataset/ocorrencias-emergenciais-nas-redes-de-distribuicao",
+      "class": "ok",
       "attempts": [
-        "TypeError:fetch failed",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -2664,13 +2727,11 @@
       "type": "dataset",
       "id": "aneel-siga",
       "url": "https://dadosabertos.aneel.gov.br/dataset/siga-sistema-de-informacoes-de-geracao-da-aneel",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://dadosabertos.aneel.gov.br/dataset/siga-sistema-de-informacoes-de-geracao-da-aneel",
+      "class": "ok",
       "attempts": [
-        "TypeError:fetch failed",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -2756,26 +2817,23 @@
       "type": "dataset",
       "id": "aneel-siget",
       "url": "https://dadosabertos.aneel.gov.br/dataset/sistema-de-gestao-da-transmissao-siget",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://dadosabertos.aneel.gov.br/dataset/sistema-de-gestao-da-transmissao-siget",
+      "class": "ok",
       "attempts": [
-        "TypeError:fetch failed",
-        "TypeError:fetch failed"
+        "AbortError:This operation was aborted",
+        200
       ]
     },
     {
       "type": "dataset",
       "id": "aneel-samp",
       "url": "https://dadosabertos.aneel.gov.br/dataset/samp",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://dadosabertos.aneel.gov.br/dataset/samp",
+      "class": "ok",
       "attempts": [
-        "TypeError:fetch failed",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -2839,13 +2897,11 @@
       "type": "dataset",
       "id": "aneel-bdgd",
       "url": "https://dadosabertos.aneel.gov.br/dataset/base-de-dados-geografica-da-distribuidora-bdgd",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://dadosabertos.aneel.gov.br/dataset/base-de-dados-geografica-da-distribuidora-bdgd",
+      "class": "ok",
       "attempts": [
-        "TypeError:fetch failed",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -4259,11 +4315,12 @@
       "type": "source",
       "id": "Open Knowledge Brasil",
       "url": "https://ok.org.br/",
-      "status": 200,
+      "status": 503,
       "finalUrl": "https://ok.org.br/",
-      "class": "ok",
+      "class": "server",
       "attempts": [
-        200
+        503,
+        503
       ]
     },
     {
@@ -4708,6 +4765,39 @@
     },
     {
       "type": "tool",
+      "id": "deck-gl-geospatial-visualization",
+      "url": "https://deck.gl/",
+      "status": 200,
+      "finalUrl": "https://deck.gl/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "scikit-learn-python-machine-learning",
+      "url": "https://scikit-learn.org/stable/",
+      "status": 200,
+      "finalUrl": "https://scikit-learn.org/stable/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "p5js-creative-coding",
+      "url": "https://p5js.org/",
+      "status": 200,
+      "finalUrl": "https://p5js.org/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
       "id": "pondpilot-duckdb-browser-sql",
       "url": "https://pondpilot.io/app/",
       "status": 200,
@@ -4787,11 +4877,11 @@
       "type": "tool",
       "id": "inkscape-svg-editor",
       "url": "https://inkscape.org/",
-      "status": 403,
+      "status": 200,
       "finalUrl": "https://inkscape.org/",
-      "class": "blocked",
+      "class": "ok",
       "attempts": [
-        403
+        200
       ]
     },
     {
@@ -4831,11 +4921,12 @@
       "type": "tool",
       "id": "okbr-querido-diario-tecnologias-educacao",
       "url": "https://ok.org.br/projetos/qd-tecnologias-educacao/",
-      "status": 200,
+      "status": 503,
       "finalUrl": "https://ok.org.br/projetos/qd-tecnologias-educacao/",
-      "class": "ok",
+      "class": "server",
       "attempts": [
-        200
+        503,
+        503
       ]
     },
     {
