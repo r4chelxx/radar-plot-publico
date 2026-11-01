@@ -5,6 +5,15 @@ window.RADAR_PARTS.changelog=[
   "type": "atualizacao-editorial",
   "title": "Oito recursos verificados — 3 oportunidades, 3 ferramentas e 2 bases",
   "items": [
+{
+  "id": "tmu-migration-journalism-fellowship-2027",
+  "title": "Toronto Metropolitan University — Journalism Fellowship 2027"
+},
+{
+  "id": "ijp-german-latin-american-fellowship-2027",
+  "title": "IJP — German–Latin American Journalists' Fellowship 2027"
+},
+
     {
       "id": "european-press-prize-2027",
       "title": "European Press Prize 2027 — premiação jornalística"
