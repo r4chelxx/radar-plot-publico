@@ -18,7 +18,7 @@ function isIndirectSource(item){return /^https:\/\/news\.google\.com\/rss\/artic
 function safePublisherDestination(raw){
  try{
   const u=new URL(String(raw||''));
-  if(u.protocol!=='https:'||u.username||u.password||u.port||u.hostname==='localhost'||u.hostname.endsWith('.local')||u.hostname.endsWith('.internal')||/^\\d+\\.\\d+\\.\\d+\\.\\d+$/.test(u.hostname)||u.hostname==='news.google.com'||u.hostname.endsWith('.google.com')&&u.pathname.startsWith('/rss/'))return null;
+  if(u.protocol!=='https:'||u.username||u.password||u.port||u.hostname==='localhost'||u.hostname.endsWith('.local')||u.hostname.endsWith('.internal')||/^\d+\.\d+\.\d+\.\d+$/.test(u.hostname)||u.hostname==='news.google.com'||u.hostname.endsWith('.google.com')&&u.pathname.startsWith('/rss/'))return null;
   return u.href;
  }catch{return null}
 }
