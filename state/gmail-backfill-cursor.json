@@ -2113,10 +2113,10 @@
     "f104464bb3bd740477483d259ec1e47f7c0dc8acc54048323c4cb4ac3fa9b9cd",
     "55b72bdbc7929fcede975c38f684407a9a71e495182e3bba2b2ab87b6dd4505e"
   ],
-  "updatedAt": "2026-11-01T12:14:57.186Z",
-  "complete": true,
+  "updatedAt": "2026-11-01T12:15:46.791Z",
+  "complete": false,
   "source": "ChatGPT Gmail connector, read-only",
-  "verification": "2107 distinct Gmail messages read and hashed; historical pagination exhausted; read-only connector",
+  "verification": "2107 distinct messages read and hashed; pagination exhausted, but label count 2153 requires reconciliation; no complete backfill claim",
   "rawUrlOccurrences": 53157,
   "uniqueUrlCountPerPage": [
     962,
@@ -2151,5 +2151,11 @@
     "failedRead": 0,
     "rawUrlOccurrences": 3,
     "distinctRawUrlsInBatch": 3
-  }
+  },
+  "paginationExhausted": true,
+  "reconciliationRequired": true,
+  "reconciliationCursor": "",
+  "labelMessagesTotalAtAudit": 2153,
+  "reconciliationGapAtAudit": 46,
+  "reconciliationQuery": "in:anywhere"
 }
