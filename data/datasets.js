@@ -1,6 +1,62 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.datasets=[
 {
+  "id": "gem-global-wind-power-tracker",
+  "name": "Global Wind Power Tracker — projetos eólicos mundiais",
+  "org": "Global Energy Monitor",
+  "territoryTier": "Outros",
+  "kind": "dataset",
+  "themes": [
+    "Energia eólica",
+    "Clima",
+    "Infraestrutura",
+    "Transição energética",
+    "Geografia"
+  ],
+  "coverage": "Parques eólicos onshore e offshore no mundo; rastreia fases operacionais e prospectivas, com foco em instalações acima de 10 MW.",
+  "frequency": "Atualização anual; edição de fevereiro de 2026",
+  "format": "Dados para download e tabelas de síntese; consultar formatos disponíveis no portal",
+  "period": "Projetos existentes e prospectivos; versão consultada fevereiro de 2026",
+  "granularity": "Fase de projeto/parque eólico, país, status, capacidade e localização",
+  "geoUnit": "Instalação/fase, país ou região",
+  "api": "",
+  "docs": "https://globalenergymonitor.org/projects/global-wind-power-tracker",
+  "limitations": "Coordenadas podem ser exatas ou aproximadas; projetos anunciados podem não ser construídos; limites de cobertura por potência e atualização anual. Não confundir capacidade anunciada com capacidade operacional; consultar termos de reutilização no download.",
+  "lastChecked": "2026-11-01",
+  "url": "https://globalenergymonitor.org/projects/global-wind-power-tracker",
+  "discoveryUrl": "https://globalenergymonitor.org/projects/global-wind-power-tracker",
+  "description": "Base global de fases de parques eólicos, capacidade, estágio, propriedade e localização, com edição de fevereiro de 2026."
+},
+{
+  "id": "wid-world-inequality-database",
+  "name": "World Inequality Database (WID) — renda, riqueza e desigualdade",
+  "org": "World Inequality Lab / WID.world",
+  "territoryTier": "Outros",
+  "kind": "catalog",
+  "themes": [
+    "Desigualdade",
+    "Renda",
+    "Riqueza",
+    "Economia",
+    "Gênero",
+    "Emissões"
+  ],
+  "coverage": "Séries internacionais e nacionais de desigualdade de renda e patrimônio, distribuição por percentis e indicadores de carbono e gênero; disponibilidade varia por indicador e país.",
+  "frequency": "Atualizações periódicas das séries; consultar data e qualidade por indicador",
+  "format": "Consulta web, download de séries e pacotes para R e Stata",
+  "period": "Séries históricas de longa duração; cobertura temporal varia por país e variável",
+  "granularity": "País, ano, variável, percentil e população conforme a série",
+  "geoUnit": "País ou agregado internacional",
+  "api": "",
+  "docs": "https://wid.world/methodology/",
+  "limitations": "Estimativas combinam contas nacionais, pesquisas, registros fiscais e rankings de riqueza; qualidade varia por observação e país, com notas de 0 a 5. Verificar definições e termos de reutilização antes de comparar ou republicar.",
+  "lastChecked": "2026-11-01",
+  "url": "https://wid.world/data/",
+  "discoveryUrl": "https://wid.world/data-quality/",
+  "description": "Acervo de séries sobre distribuição de renda e patrimônio, com métodos, qualidade observacional e downloads para análise."
+},
+
+{
   "id": "happy-planet-index-2026-global",
   "name": "Happy Planet Index 2026 — bem-estar sustentável por país",
   "org": "Hot or Cool Institute / Happy Planet Index",
