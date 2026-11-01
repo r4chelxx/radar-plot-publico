@@ -2114,10 +2114,10 @@
     "55b72bdbc7929fcede975c38f684407a9a71e495182e3bba2b2ab87b6dd4505e",
     "a40430fe5e4e073d8d98da768e742268d93c636aff56b965e0917a3fc69dee6e"
   ],
-  "updatedAt": "2026-11-01T12:16:16.037Z",
+  "updatedAt": "2026-11-01T12:16:20.673Z",
   "complete": false,
   "source": "ChatGPT Gmail connector, read-only",
-  "verification": "2108 distinct messages read; in:anywhere reconciliation 100 IDs examined, 1 new reads; complete=false",
+  "verification": "2108 distinct messages read; in:anywhere reconciliation 200 IDs examined, 1 new reads; complete=false",
   "rawUrlOccurrences": 53197,
   "uniqueUrlCountPerPage": [
     962,
@@ -2155,12 +2155,12 @@
   },
   "paginationExhausted": true,
   "reconciliationRequired": true,
-  "reconciliationCursor": "12619905566142122194",
+  "reconciliationCursor": "03382676059115360502",
   "labelMessagesTotalAtAudit": 2153,
   "reconciliationGapAtAudit": 46,
   "reconciliationQuery": "in:anywhere",
   "reconciliationFinished": false,
-  "reconciliationPages": 1,
-  "reconciliationSeen": 100,
+  "reconciliationPages": 2,
+  "reconciliationSeen": 200,
   "reconciliationNewReads": 1
 }
