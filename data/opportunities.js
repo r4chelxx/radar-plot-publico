@@ -109,7 +109,7 @@ window.RADAR_PARTS.opportunities=[
   "eligibility": "restrita",
   "fit": 4,
   "status": "aberta",
-  "value": "Programa organizado e apoiado pelo organizador; valor individual de bolsa não informado na página consultada",
+  "value": "€4.300 de compensação salarial, incluindo auxílio alimentação; deslocamentos e hospedagem do programa cobertos pela organização",
   "duration": "Duas fases: 12–23/04/2027 e 13–24/09/2027",
   "modality": "Fellowship presencial com duas etapas de duas semanas",
   "documents": [
@@ -126,7 +126,7 @@ window.RADAR_PARTS.opportunities=[
   "rules": "https://www.publix.de/en/projects/technology-journalism-fellowship",
   "apply": "https://www.publix.de/en/projects/technology-journalism-fellowship",
   "verified": "2026-11-01",
-  "desc": "Seis vagas; foco em soberania digital. Jornalistas residentes no Brasil não atendem ao critério territorial. Inscrições de 01/10 a 15/11/2026.",
+  "desc": "Seis vagas; foco em soberania digital. Jornalistas residentes no Brasil não atendem ao critério territorial. Inscrições de 01/10 a 15/11/2026. Correção editorial: a fonte oficial especifica compensação salarial única de €4.300 e cobertura de deslocamentos e hospedagem.",
   "discoveryUrl": "https://www.publix.de/projekte/technologie-jounalismus-fellowship",
   "verificationHistory": [
     {
