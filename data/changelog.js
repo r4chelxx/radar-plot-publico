@@ -1,6 +1,47 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
 {
+  "date": "2026-11-01",
+  "type": "atualizacao-editorial",
+  "title": "Oito recursos verificados — 3 oportunidades, 3 ferramentas e 2 bases",
+  "items": [
+    {
+      "id": "european-press-prize-2027",
+      "title": "European Press Prize 2027 — premiação jornalística"
+    },
+    {
+      "id": "publix-tech-journalism-fellowship-2027",
+      "title": "Publix — Technology Journalism Fellowship 2027"
+    },
+    {
+      "id": "premio-amm-jornalismo-2027",
+      "title": "1º Prêmio AMM de Jornalismo — Município em Foco"
+    },
+    {
+      "id": "deck-gl-geospatial-visualization",
+      "title": "deck.gl — visualização geoespacial em grande escala"
+    },
+    {
+      "id": "scikit-learn-python-machine-learning",
+      "title": "scikit-learn — aprendizado de máquina em Python"
+    },
+    {
+      "id": "p5js-creative-coding",
+      "title": "p5.js — programação criativa e narrativas interativas"
+    },
+    {
+      "id": "gem-global-wind-power-tracker",
+      "title": "Global Wind Power Tracker — projetos eólicos mundiais"
+    },
+    {
+      "id": "wid-world-inequality-database",
+      "title": "World Inequality Database (WID) — renda, riqueza e desigualdade"
+    }
+  ],
+  "detail": "Fontes primárias, critérios de elegibilidade, limites técnicos e duplicidade revisados. Novas fichas publicadas somente após CI e deploy."
+},
+
+{
   "date": "2026-10-31",
   "type": "atualizacao-editorial",
   "title": "Três recursos verificados — ONU, PondPilot e Happy Planet Index 2026",
