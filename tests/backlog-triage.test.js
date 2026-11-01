@@ -89,3 +89,12 @@ test('resolved indirect news URL is surfaced as evidence but not automatically r
  assert.equal(r.sourceResolution[0].resolvedDirectUrl,'https://publisher.example/grant');
  assert.equal(r.dailyReview.length,0);
 });
+
+test('untrusted redirect destinations are not treated as publisher evidence',()=>{
+ const candidate={id:'news',title:'Grant',url:'https://news.google.com/rss/articles/example',category:'opportunities',reviewPriority:'high',status:'pending'};
+ for(const bad of ['https://news.google.com/rss/articles/another','https://user:pass@publisher.example/grant','http://publisher.example/grant','https://127.0.0.1/private','not a URL']){
+  const r=report({candidates:[candidate]},{leads:{news:{finalUrl:bad}}});
+  assert.equal(r.resolvedIndirect,0,bad);
+  assert.equal(r.sourceResolution[0].resolvedDirectUrl,null,bad);
+ }
+});
