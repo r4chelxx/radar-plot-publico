@@ -3,7 +3,7 @@
   "labelName": "Radar PLOT.",
   "labelId": "Label_3603240905167932728",
   "pageToken": "",
-  "processed": 2106,
+  "processed": 2107,
   "processedIdHashes": [
     "d834ea370cc911923dfd5d30418092772cf86d2ebefc5b4e79cd7ea71ec6bec1",
     "f92e23cad628376400d6d76ef2acac660c5bce0fcd1dfce6e61480417c5236f7",
@@ -2110,13 +2110,14 @@
     "49b6095b48f2b548f56475e1f0f48d84f6f8cfe327cbcdcbec277695994ed5a8",
     "161b38fbf46ae363a8768fb07d3ff1717f421bae72fa5320a7b976ae9d3cae5a",
     "ddb897e7293f5f1328b3f03b8d0c09ac837ea503635d92a17e51c2aaef9c4ebe",
-    "f104464bb3bd740477483d259ec1e47f7c0dc8acc54048323c4cb4ac3fa9b9cd"
+    "f104464bb3bd740477483d259ec1e47f7c0dc8acc54048323c4cb4ac3fa9b9cd",
+    "55b72bdbc7929fcede975c38f684407a9a71e495182e3bba2b2ab87b6dd4505e"
   ],
-  "updatedAt": "2026-11-01T12:14:53.092Z",
-  "complete": false,
+  "updatedAt": "2026-11-01T12:14:57.186Z",
+  "complete": true,
   "source": "ChatGPT Gmail connector, read-only",
-  "verification": "2106 distinct Gmail messages read and hashed; historical pagination continues; read-only connector",
-  "rawUrlOccurrences": 53154,
+  "verification": "2107 distinct Gmail messages read and hashed; historical pagination exhausted; read-only connector",
+  "rawUrlOccurrences": 53157,
   "uniqueUrlCountPerPage": [
     962,
     1226,
@@ -2138,17 +2139,17 @@
     450,
     773
   ],
-  "lastPageMessageCount": 100,
+  "lastPageMessageCount": 1,
   "publicationVerifiedByThisCursor": false,
   "githubOAuthAutonomy": false,
-  "connectorPageToken": "18043020794997512745",
+  "connectorPageToken": "",
   "cursorCompatibility": "GitHub API starts at first page, skips hashed message IDs; ChatGPT connector may resume from connectorPageToken.",
   "lastRun": {
     "date": "2026-11-01",
-    "pageIds": 100,
-    "newMessagesRead": 100,
+    "pageIds": 1,
+    "newMessagesRead": 1,
     "failedRead": 0,
-    "rawUrlOccurrences": 1381,
-    "distinctRawUrlsInBatch": 1281
+    "rawUrlOccurrences": 3,
+    "distinctRawUrlsInBatch": 3
   }
 }
