@@ -1,6 +1,141 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.opportunities=[
 {
+  "id": "european-press-prize-2027",
+  "title": "European Press Prize 2027 — premiação jornalística",
+  "org": "European Press Prize",
+  "summary": "Prêmio para reportagens e projetos jornalísticos publicados de 1º/12/2025 a 31/12/2026, com cinco categorias, incluindo investigação e inovação.",
+  "type": "Prêmio de jornalismo",
+  "themes": [
+    "Jornalismo investigativo",
+    "Inovação",
+    "Migração",
+    "Reportagem",
+    "Liberdade de imprensa"
+  ],
+  "scope": "Europa ou vínculo editorial/temático europeu: cumprir pelo menos dois de três critérios oficiais",
+  "deadline": "2026-12-10",
+  "deadlineStatus": "Confirmado na página oficial: 10/12/2026, 12h CET",
+  "eligibility": "restrita",
+  "fit": 6,
+  "status": "aberta",
+  "value": "Premiação por categoria; consultar valores e regras vigentes antes da inscrição",
+  "duration": "Edição 2027; obras publicadas entre 01/12/2025 e 31/12/2026",
+  "modality": "Inscrição de trabalho jornalístico publicado",
+  "documents": [
+    "Reportagem ou projeto publicado no período elegível",
+    "Informações e materiais exigidos no formulário oficial"
+  ],
+  "restrictions": [
+    "A inscrição deve cumprir pelo menos dois entre nacionalidade/residência europeia, veículo europeu e tema de relevância europeia",
+    "Cinco categorias: Distinguished Reporting, Innovation, Investigative Reporting, Public Discourse e Migration Journalism",
+    "Verificar regras de tradução, autoria e formatos na inscrição"
+  ],
+  "rules": "https://www.europeanpressprize.com/before-you-enter/",
+  "apply": "https://www.europeanpressprize.com/before-you-enter/",
+  "verified": "2026-11-01",
+  "desc": "A organização confirma inscrições abertas até 10/12/2026 às 12h CET e elegibilidade europeia por combinação de dois critérios. Não é bolsa de produção; é premiação de trabalhos publicados.",
+  "discoveryUrl": "https://www.europeanpressprize.com/judging/submission-rules/",
+  "verificationHistory": [
+    {
+      "date": "2026-11-01",
+      "status": "aberta",
+      "source": "https://www.europeanpressprize.com/before-you-enter/"
+    }
+  ]
+},
+{
+  "id": "publix-tech-journalism-fellowship-2027",
+  "title": "Publix — Technology Journalism Fellowship 2027",
+  "org": "Publix",
+  "summary": "Programa de quatro semanas em duas fases de imersão sobre tecnologia e política digital, com atividades em Berlim, Bruxelas e outros locais europeus.",
+  "type": "Fellowship de desenvolvimento profissional",
+  "themes": [
+    "Tecnologia",
+    "Inteligência artificial",
+    "Políticas digitais",
+    "Segurança digital",
+    "Jornalismo especializado"
+  ],
+  "scope": "Somente jornalistas residentes na Alemanha ou Suíça, com alemão e inglês",
+  "deadline": "2026-11-15",
+  "deadlineStatus": "Confirmado na página oficial: 15/11/2026",
+  "eligibility": "restrita",
+  "fit": 4,
+  "status": "aberta",
+  "value": "Programa organizado e apoiado pelo organizador; valor individual de bolsa não informado na página consultada",
+  "duration": "Duas fases: 12–23/04/2027 e 13–24/09/2027",
+  "modality": "Fellowship presencial com duas etapas de duas semanas",
+  "documents": [
+    "Carta de motivação até 1.500 caracteres",
+    "Pergunta jornalística sobre soberania digital até 1.000 caracteres",
+    "Currículo",
+    "Duas ou três amostras de trabalho em PDF"
+  ],
+  "restrictions": [
+    "Residência na Alemanha ou Suíça obrigatória",
+    "Conhecimento de alemão e inglês exigido",
+    "Aberto a freelancers e profissionais de redações que cubram tecnologia, política, economia ou ciência"
+  ],
+  "rules": "https://www.publix.de/en/projects/technology-journalism-fellowship",
+  "apply": "https://www.publix.de/en/projects/technology-journalism-fellowship",
+  "verified": "2026-11-01",
+  "desc": "Seis vagas; foco em soberania digital. Jornalistas residentes no Brasil não atendem ao critério territorial. Inscrições de 01/10 a 15/11/2026.",
+  "discoveryUrl": "https://www.publix.de/projekte/technologie-jounalismus-fellowship",
+  "verificationHistory": [
+    {
+      "date": "2026-11-01",
+      "status": "aberta",
+      "source": "https://www.publix.de/en/projects/technology-journalism-fellowship"
+    }
+  ]
+},
+{
+  "id": "premio-amm-jornalismo-2027",
+  "title": "1º Prêmio AMM de Jornalismo — Município em Foco",
+  "org": "Associação Mineira de Municípios (AMM)",
+  "summary": "Premiação de reportagens sobre transformações, boas práticas e desafios dos municípios de Minas Gerais, com inscrições gratuitas.",
+  "type": "Prêmio de jornalismo",
+  "themes": [
+    "Jornalismo local",
+    "Municípios",
+    "Políticas públicas",
+    "Administração pública",
+    "Brasil"
+  ],
+  "scope": "Reportagens sobre municípios mineiros, veiculadas entre 01/01/2026 e 01/03/2027",
+  "deadline": "2027-03-20",
+  "deadlineStatus": "Confirmado na página oficial: 20/03/2027",
+  "eligibility": "elegível",
+  "fit": 6,
+  "status": "aberta",
+  "value": "R$ 38.000 em premiações totais, distribuídas em quatro categorias",
+  "duration": "Inscrições de 11/09/2026 a 20/03/2027",
+  "modality": "Inscrição gratuita online de reportagens publicadas, por link",
+  "documents": [
+    "Link público da reportagem",
+    "Dados e documentos exigidos pelo regulamento oficial"
+  ],
+  "restrictions": [
+    "Tema obrigatório: Município em Foco, relacionado aos municípios de Minas Gerais",
+    "Trabalhos publicados entre 01/01/2026 e 01/03/2027",
+    "Conferir categorias e regras completas do edital antes da inscrição"
+  ],
+  "rules": "https://portalamm.org.br/premio-amm-jornalismo",
+  "apply": "https://portalamm.org.br/premio-amm-jornalismo",
+  "verified": "2026-11-01",
+  "desc": "O portal da AMM confirma período de inscrições, janela de publicação elegível, quatro categorias e R$ 38 mil em premiações. Não é financiamento de pauta futura.",
+  "discoveryUrl": "https://portalamm.org.br/premio-amm-jornalismo",
+  "verificationHistory": [
+    {
+      "date": "2026-11-01",
+      "status": "aberta",
+      "source": "https://portalamm.org.br/premio-amm-jornalismo"
+    }
+  ]
+},
+
+{
   "id": "un-dpoa-mtr-journalism-fellowship-2027",
   "title": "ONU — DPoA MTR Journalism Fellowship 2027",
   "org": "United Nations / UN-OHRLLS",
