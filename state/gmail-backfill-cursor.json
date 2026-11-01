@@ -2162,10 +2162,10 @@
     "ce1dc20b7400a83f7df0bd737ba434cdf1c418d546a92de9728ee063955c89dc",
     "9ec8a8bf60b99a5ac6c3c9c0e99d7da7c32d1246779d28dca2861886a27ef193"
   ],
-  "updatedAt": "2026-11-01T12:17:54.246Z",
+  "updatedAt": "2026-11-01T12:18:48.589Z",
   "complete": true,
   "source": "ChatGPT Gmail connector, read-only",
-  "verification": "2156 distinct messages read; in:anywhere sweep 2156 IDs checked; pagination exhausted; complete=true",
+  "verification": "Historical pagination exhausted and reconciled against 2,156 unique message IDs, all read and hashed; Gmail label metadata separately reports 2,153 (different search scope possible). Snapshot only; future messages require incremental checks. This does not prove autonomous GitHub ingestion or editorial processing of every URL.",
   "rawUrlOccurrences": 54349,
   "uniqueUrlCountPerPage": [
     962,
@@ -2205,10 +2205,13 @@
   "reconciliationRequired": false,
   "reconciliationCursor": "",
   "labelMessagesTotalAtAudit": 2153,
-  "reconciliationGapAtAudit": 46,
+  "reconciliationGapAtAudit": 0,
   "reconciliationQuery": "in:anywhere",
   "reconciliationFinished": true,
   "reconciliationPages": 22,
   "reconciliationSeen": 2156,
-  "reconciliationNewReads": 49
+  "reconciliationNewReads": 49,
+  "completeSnapshotAt": "2026-11-01T12:18:48.588Z",
+  "snapshotScope": "Gmail label ID Label_3603240905167932728; search in:anywhere; 2,156 unique message IDs scanned and read",
+  "incrementalFollowupRequired": true
 }
