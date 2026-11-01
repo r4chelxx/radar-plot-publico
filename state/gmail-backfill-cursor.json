@@ -3,7 +3,7 @@
   "labelName": "Radar PLOT.",
   "labelId": "Label_3603240905167932728",
   "pageToken": "",
-  "processed": 884,
+  "processed": 906,
   "processedIdHashes": [
     "d834ea370cc911923dfd5d30418092772cf86d2ebefc5b4e79cd7ea71ec6bec1",
     "f92e23cad628376400d6d76ef2acac660c5bce0fcd1dfce6e61480417c5236f7",
@@ -888,13 +888,35 @@
     "2e2497cfc348b4c29e120be286f3f11f33aeeeab38969846090b07537733b85f",
     "88cd30d3724d70717195156fe440eeb16123c9d66867d71fc5ba927417d0bcdc",
     "bccf47eb7859e5beb7e5b58ddd03a6a67a3a15d1364693a85dbba6bedd089fb9",
-    "954fe703a0a72d16938ddf806b1533c1466adcd3a3bed09252486b6c2bfdd6df"
+    "954fe703a0a72d16938ddf806b1533c1466adcd3a3bed09252486b6c2bfdd6df",
+    "41db2f6d8953036c3423bbc5b912ddb77053e1300fa26f8d80dba4e714daa2e2",
+    "76ca61b4c7371653e3ced75d2c7279becedb21197e88166ca790fb3c7ead5395",
+    "80201c7a03587ee05cbb40ad0c31ec50226a009a88b681c8d454c7c9277dc6b3",
+    "5eec405c04e4e62dfb8c9da088858464531a1d8b3418d83ea5e0b7e4854ec327",
+    "ee6aa2fbfbb7cb0b8dbe158814184109bdb8647f0a0b0ca45cdb2c35fd84383c",
+    "8757702252d114509ab60178bda3c4970edc4adcb413ec9564048d601de1df9d",
+    "e5c7ec21928bdfc82434d8c90fd94d7d6f60f204292d77df86af094e8bd00828",
+    "411c6ec6cf0b758cf83acf57c52bbe775b1e79add566de0072e7d61473e60b9a",
+    "894b3e63f7b73074afd5d6418c3a403330e16b9d9645fd1c8c9e4bc3ed7ecc18",
+    "98500fdfdf079a5aaf7dbe01b48de43fd9b2e650d808888411a6b4972e3907de",
+    "ce2edd3acae08ef7e238b4a4758f58b56fcf1ecb3b9c5d2b3fcd63ec408635bc",
+    "309421af773573b647db8965f60f9736e75dac853b32c89e0e6086cb0ad7205f",
+    "a79460ec5e19ef8968c535eeae5c3676b5e807e220e1e7fe346d2d311114e6e8",
+    "d93866ae229137edbc2789ffdb19fee87724cc0e00dcb77a2633bb6f6d004529",
+    "a74fb044a4ae044432d113c005691fb023e12ad519565b66a50d820eca3e8edb",
+    "2d4b1bafab27130f66eed6438fcaa08d1321ac8e9eafa6401de99cd315d09fa6",
+    "3b5e7ce52fb996a871a0ba6826f3f5bf2e42bc3b23bc3a0f08e5faa16b07b183",
+    "5519f32f2de571380300851e9700116321018f9af1e337991cbdb969f258dad0",
+    "02dae9a285f345ebbcbce2833fcd2e1b5ec73f176766cf0d833de38571da118f",
+    "7d207465031b70584157c55e57c7188b86e7a7436ca0efac7b230303f5afc41b",
+    "adf8166d3123d8f9d3df052a452207ac5416cf1d09be9fbc86eb174b29263eaf",
+    "5ea489d427f29a675d323b317580ea30d98ac927fc6b860ee8f911458dfb6cc9"
   ],
   "updatedAt": "2026-11-01T12:00:00Z",
   "complete": false,
   "source": "ChatGPT Gmail connector, read-only",
-  "verification": "884 distinct hashed message IDs read via ChatGPT Gmail connector; latest batch 78 read, 22 failed; no message state modified",
-  "rawUrlOccurrences": 21666,
+  "verification": "906 unique message IDs read and hashed; retried 22 failures, 22 succeeded; no Gmail state modified",
+  "rawUrlOccurrences": 22067,
   "uniqueUrlCountPerPage": [
     962,
     1226,
@@ -916,7 +938,7 @@
     450,
     773
   ],
-  "lastPageMessageCount": 78,
+  "lastPageMessageCount": 22,
   "publicationVerifiedByThisCursor": false,
   "githubOAuthAutonomy": false,
   "connectorPageToken": "03874790728684049290",
@@ -924,10 +946,10 @@
   "lastRun": {
     "date": "2026-11-01",
     "pageIds": 100,
-    "newMessagesRead": 78,
-    "duplicatesSkipped": 0,
-    "failedRead": 22,
-    "rawUrlOccurrences": 1623,
-    "distinctRawUrlsInBatch": 1564
+    "uniqueMessagesRead": 22,
+    "priorPageSuccess": 78,
+    "retryFailures": 0,
+    "rawUrlOccurrences": 401,
+    "previousPageRawUrlOccurrences": 1623
   }
 }
