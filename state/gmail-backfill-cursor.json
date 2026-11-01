@@ -3,7 +3,7 @@
   "labelName": "Radar PLOT.",
   "labelId": "Label_3603240905167932728",
   "pageToken": "",
-  "processed": 2108,
+  "processed": 2110,
   "processedIdHashes": [
     "d834ea370cc911923dfd5d30418092772cf86d2ebefc5b4e79cd7ea71ec6bec1",
     "f92e23cad628376400d6d76ef2acac660c5bce0fcd1dfce6e61480417c5236f7",
@@ -2112,13 +2112,15 @@
     "ddb897e7293f5f1328b3f03b8d0c09ac837ea503635d92a17e51c2aaef9c4ebe",
     "f104464bb3bd740477483d259ec1e47f7c0dc8acc54048323c4cb4ac3fa9b9cd",
     "55b72bdbc7929fcede975c38f684407a9a71e495182e3bba2b2ab87b6dd4505e",
-    "a40430fe5e4e073d8d98da768e742268d93c636aff56b965e0917a3fc69dee6e"
+    "a40430fe5e4e073d8d98da768e742268d93c636aff56b965e0917a3fc69dee6e",
+    "df15676bc1605eb828872ede98e592a5ddef535fffb8b19357e9eb9e1024b9d2",
+    "b1cba3c1e03736deaf82e08a77697143b0462d5b80cdbf2ed1250d1401c466b5"
   ],
-  "updatedAt": "2026-11-01T12:16:20.673Z",
+  "updatedAt": "2026-11-01T12:16:25.363Z",
   "complete": false,
   "source": "ChatGPT Gmail connector, read-only",
-  "verification": "2108 distinct messages read; in:anywhere reconciliation 200 IDs examined, 1 new reads; complete=false",
-  "rawUrlOccurrences": 53197,
+  "verification": "2110 distinct messages read; in:anywhere reconciliation 300 IDs examined, 3 new reads; complete=false",
+  "rawUrlOccurrences": 53223,
   "uniqueUrlCountPerPage": [
     962,
     1226,
@@ -2155,12 +2157,12 @@
   },
   "paginationExhausted": true,
   "reconciliationRequired": true,
-  "reconciliationCursor": "03382676059115360502",
+  "reconciliationCursor": "02713184214985397047",
   "labelMessagesTotalAtAudit": 2153,
   "reconciliationGapAtAudit": 46,
   "reconciliationQuery": "in:anywhere",
   "reconciliationFinished": false,
-  "reconciliationPages": 2,
-  "reconciliationSeen": 200,
-  "reconciliationNewReads": 1
+  "reconciliationPages": 3,
+  "reconciliationSeen": 300,
+  "reconciliationNewReads": 3
 }
