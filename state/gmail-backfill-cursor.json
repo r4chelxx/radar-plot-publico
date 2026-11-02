@@ -3,7 +3,7 @@
   "labelName": "Radar PLOT.",
   "labelId": "Label_3603240905167932728",
   "pageToken": "",
-  "processed": 2158,
+  "processed": 2159,
   "processedIdHashes": [
     "d834ea370cc911923dfd5d30418092772cf86d2ebefc5b4e79cd7ea71ec6bec1",
     "f92e23cad628376400d6d76ef2acac660c5bce0fcd1dfce6e61480417c5236f7",
@@ -2162,13 +2162,14 @@
     "ce1dc20b7400a83f7df0bd737ba434cdf1c418d546a92de9728ee063955c89dc",
     "9ec8a8bf60b99a5ac6c3c9c0e99d7da7c32d1246779d28dca2861886a27ef193",
     "5825a555cf7fb0ef9c6716ed3c2dc45f28384e1f191166f2627fd68022a35bbb",
-    "595965124b19b8fefae6b6743dc63ef155265db7814e87d390db16e9ef62c00c"
+    "595965124b19b8fefae6b6743dc63ef155265db7814e87d390db16e9ef62c00c",
+    "576f528baa59e4acb1217496ea63fa30fc2df3582c852cfba26f22a79ee99f0c"
   ],
-  "updatedAt": "2026-11-02T12:03:02.160Z",
+  "updatedAt": "2026-11-02T12:11:19.628Z",
   "complete": true,
   "source": "ChatGPT Gmail connector, read-only",
   "verification": "Historical pagination exhausted and reconciled against 2,156 unique message IDs, all read and hashed; Gmail label metadata separately reports 2,153 (different search scope possible). Snapshot only; future messages require incremental checks. This does not prove autonomous GitHub ingestion or editorial processing of every URL.",
-  "rawUrlOccurrences": 54395,
+  "rawUrlOccurrences": 54442,
   "uniqueUrlCountPerPage": [
     962,
     1226,
@@ -2198,14 +2199,14 @@
   "lastRun": {
     "date": "2026-11-02",
     "query": "in:anywhere after:2026/11/01",
-    "pageIds": 2,
-    "newMessagesRead": 2,
+    "pageIds": 3,
+    "newMessagesRead": 3,
     "failedRead": 0,
-    "rawUrlOccurrences": 46,
-    "distinctRawUrlsInBatch": 46,
+    "rawUrlOccurrences": 93,
+    "distinctRawUrlsInBatch": 93,
     "editoriallyApproved": 0,
     "published": 0,
-    "notes": "Both messages read through ChatGPT Gmail connector. URL occurrences are tracking-heavy; no primary-source-verified new catalog records. Historical snapshot preserved."
+    "notes": "Three new messages read using ChatGPT Gmail connector (CJR, Indicator, Tech Policy Press). Raw URLs largely newsletters/tracking; no new item passed primary-source verification. 40 latest emails were reexamined for triage; their URLs are not added twice to checkpoint counts."
   },
   "paginationExhausted": true,
   "reconciliationRequired": false,
