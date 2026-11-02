@@ -1,11 +1,11 @@
 {
-  "checkedAt": "2026-11-02T12:13:18.808Z",
+  "checkedAt": "2026-11-02T12:22:49.352Z",
   "policy": "404/410 and ArcGIS application errors within HTTP 200 become broken only after appearing as suspect or broken in the previous audit; blocked and network results are inconclusive",
   "counts": {
-    "ok": 434,
+    "ok": 440,
     "blocked": 46,
-    "network": 32,
-    "server": 2
+    "network": 31,
+    "server": 3
   },
   "results": [
     {
@@ -771,11 +771,11 @@
       "type": "opportunity",
       "id": "pulitzer-env",
       "url": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/our-work-environment-grants",
-      "status": 403,
+      "status": 200,
       "finalUrl": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/our-work-environment-grants",
-      "class": "blocked",
+      "class": "ok",
       "attempts": [
-        403
+        200
       ]
     },
     {
@@ -793,11 +793,11 @@
       "type": "opportunity",
       "id": "pulitzer-ai-2627",
       "url": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/ai-accountability-fellowships",
-      "status": 403,
+      "status": 200,
       "finalUrl": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/ai-accountability-fellowships",
-      "class": "blocked",
+      "class": "ok",
       "attempts": [
-        403
+        200
       ]
     },
     {
@@ -1277,6 +1277,39 @@
     },
     {
       "type": "dataset",
+      "id": "geoboundaries-global-administrative-boundaries",
+      "url": "https://www.geoboundaries.org/",
+      "status": 200,
+      "finalUrl": "https://www.geoboundaries.org/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "gbif-global-biodiversity-occurrences",
+      "url": "https://www.gbif.org/",
+      "status": 403,
+      "finalUrl": "https://www.gbif.org/",
+      "class": "blocked",
+      "attempts": [
+        403
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "wikidata-structured-knowledge-base",
+      "url": "https://www.wikidata.org/",
+      "status": 200,
+      "finalUrl": "https://www.wikidata.org/wiki/Wikidata:Main_Page",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
       "id": "gem-global-wind-power-tracker",
       "url": "https://globalenergymonitor.org/projects/global-wind-power-tracker",
       "status": 200,
@@ -1498,6 +1531,7 @@
       "finalUrl": "https://www.generonumero.media/dados-abertos/",
       "class": "ok",
       "attempts": [
+        "TypeError:fetch failed",
         200
       ]
     },
@@ -2089,7 +2123,7 @@
       "class": "network",
       "error": "TypeError:fetch failed",
       "attempts": [
-        "TypeError:fetch failed",
+        "AbortError:This operation was aborted",
         "TypeError:fetch failed"
       ]
     },
@@ -2101,6 +2135,7 @@
       "finalUrl": "https://www.transparencia.ba.gov.br/Portal",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -2846,6 +2881,7 @@
       "finalUrl": "https://dadosabertos.aneel.gov.br/dataset/sistema-de-gestao-da-transmissao-siget",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -2857,6 +2893,7 @@
       "finalUrl": "https://dadosabertos.aneel.gov.br/dataset/samp",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -2921,11 +2958,12 @@
       "type": "dataset",
       "id": "aneel-bdgd",
       "url": "https://dadosabertos.aneel.gov.br/dataset/base-de-dados-geografica-da-distribuidora-bdgd",
-      "status": 200,
+      "status": 502,
       "finalUrl": "https://dadosabertos.aneel.gov.br/dataset/base-de-dados-geografica-da-distribuidora-bdgd",
-      "class": "ok",
+      "class": "server",
       "attempts": [
-        200
+        "AbortError:This operation was aborted",
+        502
       ]
     },
     {
@@ -3999,13 +4037,11 @@
       "type": "tool",
       "id": "qgis",
       "url": "https://qgis.org/",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://qgis.org/",
+      "class": "ok",
       "attempts": [
-        "TypeError:fetch failed",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -4148,6 +4184,7 @@
       "finalUrl": "https://www.generonumero.media/",
       "class": "ok",
       "attempts": [
+        "TypeError:fetch failed",
         200
       ]
     },
@@ -4793,6 +4830,39 @@
     },
     {
       "type": "tool",
+      "id": "d3js-interactive-data-visualization",
+      "url": "https://d3js.org/",
+      "status": 200,
+      "finalUrl": "https://d3js.org/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "google-data-studio-dashboards",
+      "url": "https://lookerstudio.google.com/",
+      "status": 200,
+      "finalUrl": "https://datastudio.google.com/overview",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "mapbox-interactive-maps",
+      "url": "https://www.mapbox.com/",
+      "status": 200,
+      "finalUrl": "https://www.mapbox.com/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
       "id": "deck-gl-geospatial-visualization",
       "url": "https://deck.gl/",
       "status": 200,
@@ -4905,11 +4975,11 @@
       "type": "tool",
       "id": "inkscape-svg-editor",
       "url": "https://inkscape.org/",
-      "status": 200,
+      "status": 403,
       "finalUrl": "https://inkscape.org/",
-      "class": "ok",
+      "class": "blocked",
       "attempts": [
-        200
+        403
       ]
     },
     {
