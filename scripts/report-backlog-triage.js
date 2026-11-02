@@ -15,6 +15,13 @@ function suggest(item){
  return matches.length===1?{category:matches[0],confidence:'heuristic-review-required'}:{category:null,confidence:matches.length?'ambiguous':'insufficient-evidence'};
 }
 function isIndirectSource(item){return /^https:\/\/news\.google\.com\/rss\/articles\//i.test(String(item.url||''));}
+function safePublisherDestination(raw){
+ try{
+  const u=new URL(String(raw||''));
+  if(u.protocol!=='https:'||u.username||u.password||u.port||u.hostname==='localhost'||u.hostname.endsWith('.local')||u.hostname.endsWith('.internal')||/^\d+\.\d+\.\d+\.\d+$/.test(u.hostname)||u.hostname==='news.google.com'||u.hostname.endsWith('.google.com')&&u.pathname.startsWith('/rss/'))return null;
+  return u.href;
+ }catch{return null}
+}
 function reviewRank(item){
  const priority=item.priority==='high'?0:1;
  const category=item.category==='opportunities'?0:item.category==='tools'?1:item.category==='datasets'?2:3;
@@ -71,7 +78,7 @@ function report(queue,historyData={},previousQueue=null){
  const items=pending.map(x=>{
   const lead=history[x.id]||{};
   const finalUrl=String(lead.finalUrl||'');
-  const resolvedDirectUrl=finalUrl&&/^https:\/\//i.test(finalUrl)&&!isIndirectSource({url:finalUrl})?finalUrl:null;
+  const resolvedDirectUrl=safePublisherDestination(finalUrl);
   const proposal=['opportunities','tools','datasets'].includes(x.category)?{category:x.category,confidence:'existing-category-review-required'}:suggest(x);
   const historyCategory=['opportunities','tools','datasets'].includes(lead.category)?lead.category:null;
   const historyConflict=Boolean(historyCategory&&proposal.category&&historyCategory!==proposal.category);
