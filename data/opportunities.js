@@ -1,6 +1,94 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.opportunities=[
 {
+  "id": "ijp-german-northern-european-fellowship-2027",
+  "title": "IJP — German–Northern European Journalists' Fellowship 2027",
+  "org": "Internationale Journalisten-Programme (IJP)",
+  "summary": "Intercâmbio de seis a oito semanas entre redações alemãs, nórdicas e bálticas, com auxílio financeiro e produção de reportagens.",
+  "type": "Fellowship de intercâmbio jornalístico",
+  "themes": [
+    "Jornalismo internacional",
+    "Intercâmbio",
+    "Europa",
+    "Desenvolvimento profissional"
+  ],
+  "scope": "Restrita a jornalistas vinculados à Alemanha, países nórdicos ou bálticos, geralmente entre 18 e 45 anos",
+  "deadline": "2026-11-15",
+  "deadlineStatus": "Confirmado na chamada oficial 2027: 15/11/2026; horário não informado",
+  "eligibility": "restrita",
+  "fit": 7,
+  "status": "aberta",
+  "value": "€3.800 para participantes alemães; condições dos participantes nórdicos e bálticos devem ser verificadas no edital específico",
+  "duration": "Abril–junho de 2027; estágio em redação de seis a oito semanas",
+  "modality": "Intercâmbio presencial com trabalho em redação anfitriã",
+  "documents": [
+    "Currículo",
+    "Carta de motivação e preferências de redação anfitriã",
+    "Recomendação editorial e amostras de trabalho conforme chamada 2027"
+  ],
+  "restrictions": [
+    "Vínculo jornalístico com países participantes; não é bolsa global aberta a brasileiros sem vínculo elegível",
+    "Idade geralmente de 18 a 45 anos; verificar edital específico",
+    "Inglês de trabalho exigido; auxílio pode não cobrir todas as despesas"
+  ],
+  "rules": "https://ijp.org/austauschprogramme/nordeuropa/",
+  "apply": "https://ijp.org/austauschprogramme/nordeuropa/",
+  "verified": "2026-11-02",
+  "desc": "Página primária da IJP confirma chamada 2027, prazo de 15/11/2026, países participantes e €3.800 para bolsistas alemães. Consultar PDF da chamada para requisitos por país.",
+  "discoveryUrl": "https://gfmd.info/fundings/german-northern-european-journalists-fellowship-2027/",
+  "verificationHistory": [
+    {
+      "date": "2026-11-02",
+      "status": "aberta",
+      "source": "https://ijp.org/austauschprogramme/nordeuropa/"
+    }
+  ]
+},
+{
+  "id": "rji-student-innovation-fellowships-2027",
+  "title": "RJI — Student Innovation Fellowships 2027",
+  "org": "Reynolds Journalism Institute / University of Missouri",
+  "summary": "Bolsas para estudantes da Missouri School of Journalism desenvolverem projetos de inovação com redações e organizações jornalísticas parceiras.",
+  "type": "Fellowship de inovação em jornalismo",
+  "themes": [
+    "Inovação jornalística",
+    "Tecnologia",
+    "Redações locais",
+    "Desenvolvimento profissional"
+  ],
+  "scope": "Estudantes atuais ou recém-formados da Missouri School of Journalism; redações e organizações podem candidatar projetos para receber bolsistas",
+  "deadline": "2026-11-08",
+  "deadlineStatus": "Confirmado na página oficial: 08/11/2026, horário não especificado",
+  "eligibility": "restrita",
+  "fit": 6,
+  "status": "aberta",
+  "value": "Bolsa mínima de US$ 8.000 paga ao estudante, para 12 semanas; organizações podem complementar",
+  "duration": "12 semanas, de meados de maio a meados de agosto de 2027",
+  "modality": "Colocação em redação/organização jornalística; 30–40 horas por semana",
+  "documents": [
+    "Candidatura específica de estudante ou de organização/redação",
+    "Proposta de projeto de inovação para candidaturas institucionais",
+    "Conferir formulário oficial para documentação completa"
+  ],
+  "restrictions": [
+    "A bolsa individual é exclusiva para estudantes atuais ou prestes a se formar na Missouri School of Journalism",
+    "Redações podem se candidatar como organizações anfitriãs, mas não recebem automaticamente a bolsa estudantil",
+    "Seleção depende de correspondência entre projeto, estudante e redação"
+  ],
+  "rules": "https://rjionline.org/student-innovation-fellowships/",
+  "apply": "https://rjionline.org/student-innovation-fellowships/",
+  "verified": "2026-11-02",
+  "desc": "RJI confirma candidaturas de estudantes e redações até 08/11/2026; bolsa mínima US$8.000 para estudantes, estágio de 12 semanas e exigência de vínculo com Missouri School of Journalism para candidatos individuais.",
+  "discoveryUrl": "https://ijnet.org/en/opportunity/journalism-innovation-fellowship-current-students",
+  "verificationHistory": [
+    {
+      "date": "2026-11-02",
+      "status": "aberta",
+      "source": "https://rjionline.org/student-innovation-fellowships/"
+    }
+  ]
+}, 
+{
   "id": "ijp-german-latin-american-fellowship-2027",
   "title": "IJP — German–Latin American Journalists' Fellowship 2027",
   "org": "Internationale Journalisten-Programme (IJP)",
@@ -966,8 +1054,14 @@ window.RADAR_PARTS.opportunities=[
     "Participar de 12 sessões obrigatórias e atividades da comunidade"
   ],
   "opens": null,
-  "verificationHistory": [],
-  "verified": "2026-10-19",
+  "verificationHistory": [
+    {
+      "date": "2026-11-02",
+      "status": "encerrada",
+      "source": "https://informedstories.org/en/informed-earth/opportunities/apply-informed-climate-journalism-network/"
+    }
+  ],
+  "verified": "2026-11-02",
   "id": "informed-climate-journalism-network-2027",
   "title": "Informed Climate Journalism Network 2027",
   "org": "Informed Earth",
@@ -981,16 +1075,17 @@ window.RADAR_PARTS.opportunities=[
   ],
   "scope": "Internacional",
   "deadline": "2026-11-01",
-  "deadlineStatus": "confirmado",
+  "deadlineStatus": "Prazo oficial encerrado em 01/11/2026; reavaliar se houver nova chamada",
   "eligibility": "elegível",
   "fit": 8,
-  "status": "aberta",
+  "status": "encerrada",
   "rules": "https://informedstories.org/en/informed-earth/opportunities/apply-informed-climate-journalism-network/",
   "apply": "https://informedstories.org/en/informed-earth/opportunities/apply-informed-climate-journalism-network/",
   "discoveredVia": [
     "Informed Earth — Climate Journalism Network"
   ],
-  "discoveryUrl": "https://informedstories.org/en/informed-earth/opportunities/apply-informed-climate-journalism-network/"
+  "discoveryUrl": "https://informedstories.org/en/informed-earth/opportunities/apply-informed-climate-journalism-network/",
+  "notes": " Revisão de 02/11/2026: prazo de 01/11 já transcorrido; sem comprovação de prorrogação."
 },
 {
   "value": "Mensalidade de US$ 7.800, cobertura de matrícula e seguro saúde, conforme descrição institucional",
@@ -1747,6 +1842,11 @@ window.RADAR_PARTS.opportunities=[
       "date": "2026-10-18",
       "status": "aberta",
       "source": "https://www.torontomu.ca/global-migration-institute/opportunities/fellowships/journalism-fellowship/"
+    },
+    {
+      "date": "2026-11-02",
+      "status": "encerrada",
+      "source": "https://www.torontomu.ca/global-migration-institute/opportunities/fellowships/journalism-fellowship/"
     }
   ],
   "id": "tmu-global-migration-journalism-fellowship-2027",
@@ -1763,14 +1863,14 @@ window.RADAR_PARTS.opportunities=[
   ],
   "scope": "Global · jornalistas contratados ou freelancers com pelo menos cinco anos de experiência",
   "deadline": "2026-11-01",
-  "deadlineStatus": "confirmado",
+  "deadlineStatus": "Prazo oficial encerrado em 01/11/2026; reavaliar se houver nova chamada",
   "eligibility": "elegível",
   "fit": 8.5,
-  "status": "aberta",
+  "status": "encerrada",
   "rules": "https://www.torontomu.ca/global-migration-institute/opportunities/fellowships/journalism-fellowship/",
   "apply": "https://forms.gle/b4V4rzQp1EQkxTjG9",
-  "verified": "2026-10-18",
-  "notes": "A página oficial não restringe nacionalidade ou país de residência, portanto jornalistas brasileiros podem concorrer se cumprirem a experiência mínima. O prazo oficial é 01/11/2026 às 12h no horário do leste; recomenda-se confirmar o fuso no momento do envio. Alta aderência para projetos sobre migração, integração, trabalho, cidades e direitos.",
+  "verified": "2026-11-02",
+  "notes": "A página oficial não restringe nacionalidade ou país de residência, portanto jornalistas brasileiros podem concorrer se cumprirem a experiência mínima. O prazo oficial é 01/11/2026 às 12h no horário do leste; recomenda-se confirmar o fuso no momento do envio. Alta aderência para projetos sobre migração, integração, trabalho, cidades e direitos. Revisão de 02/11/2026: prazo de 01/11 já transcorrido; sem comprovação de prorrogação.",
   "desc": "A fellowship oferece um mês de imersão acadêmica para jornalistas ampliarem conhecimento sobre dinâmicas migratórias e construírem relações com pesquisadores e formuladores de políticas. A proposta deve explicar o benefício para a prática jornalística, as atividades planejadas e a afinidade com temas e projetos do instituto.",
   "discoveredVia": [
     "Grants for Journalists — LinkedIn"
