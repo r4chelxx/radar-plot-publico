@@ -3,7 +3,7 @@
   "labelName": "Radar PLOT.",
   "labelId": "Label_3603240905167932728",
   "pageToken": "",
-  "processed": 2156,
+  "processed": 2158,
   "processedIdHashes": [
     "d834ea370cc911923dfd5d30418092772cf86d2ebefc5b4e79cd7ea71ec6bec1",
     "f92e23cad628376400d6d76ef2acac660c5bce0fcd1dfce6e61480417c5236f7",
@@ -2160,13 +2160,15 @@
     "5a4871493a483f2002b3c482706d39ce25e0f3ab38b98b6f76fb4ed67c63e6ac",
     "1de8a6fe70a0268952aa37866566f6c125422beafb677499ec2e8149b7f1838a",
     "ce1dc20b7400a83f7df0bd737ba434cdf1c418d546a92de9728ee063955c89dc",
-    "9ec8a8bf60b99a5ac6c3c9c0e99d7da7c32d1246779d28dca2861886a27ef193"
+    "9ec8a8bf60b99a5ac6c3c9c0e99d7da7c32d1246779d28dca2861886a27ef193",
+    "5825a555cf7fb0ef9c6716ed3c2dc45f28384e1f191166f2627fd68022a35bbb",
+    "595965124b19b8fefae6b6743dc63ef155265db7814e87d390db16e9ef62c00c"
   ],
-  "updatedAt": "2026-11-01T12:18:48.589Z",
+  "updatedAt": "2026-11-02T12:03:02.160Z",
   "complete": true,
   "source": "ChatGPT Gmail connector, read-only",
   "verification": "Historical pagination exhausted and reconciled against 2,156 unique message IDs, all read and hashed; Gmail label metadata separately reports 2,153 (different search scope possible). Snapshot only; future messages require incremental checks. This does not prove autonomous GitHub ingestion or editorial processing of every URL.",
-  "rawUrlOccurrences": 54349,
+  "rawUrlOccurrences": 54395,
   "uniqueUrlCountPerPage": [
     962,
     1226,
@@ -2194,12 +2196,16 @@
   "connectorPageToken": "",
   "cursorCompatibility": "GitHub API starts at first page, skips hashed message IDs; ChatGPT connector may resume from connectorPageToken.",
   "lastRun": {
-    "date": "2026-11-01",
-    "pageIds": 1,
-    "newMessagesRead": 1,
+    "date": "2026-11-02",
+    "query": "in:anywhere after:2026/11/01",
+    "pageIds": 2,
+    "newMessagesRead": 2,
     "failedRead": 0,
-    "rawUrlOccurrences": 3,
-    "distinctRawUrlsInBatch": 3
+    "rawUrlOccurrences": 46,
+    "distinctRawUrlsInBatch": 46,
+    "editoriallyApproved": 0,
+    "published": 0,
+    "notes": "Both messages read through ChatGPT Gmail connector. URL occurrences are tracking-heavy; no primary-source-verified new catalog records. Historical snapshot preserved."
   },
   "paginationExhausted": true,
   "reconciliationRequired": false,
