@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-01T18:30:09.637Z",
+  "updatedAt": "2026-11-02T12:07:51.760Z",
   "leads": {
     "21d08dec9013d505e3e682633dc64ac66d18d9ce040e2b381ea738cf297fd16d": {
       "url": "https://data.inpe.br/biomasbr/sala-de-situacao-municipal-e-a-nova-ferramenta-do-terrabrasilis-para-apoiar-estados-e-municipios-no-controle-do-desmatamento-e-fogo",
@@ -3394,23 +3394,29 @@
     },
     "e58ae1ba1705a892a96420bc4720e794488bd896bb9b36d99c9e5d48225532fd": {
       "url": "https://www.torontomu.ca/global-migration-institute/opportunities/fellowships/journalism-fellowship",
-      "title": "Journalism Fellowship torontomu.ca",
+      "title": "TMU Global Migration Institute and Bridging Divides Journalism Fellowship 2027 — inscrições encerradas",
       "source": "Grants for Journalists — LinkedIn",
       "category": "opportunities",
-      "classification": "catalog-match",
+      "classification": "needs-editorial-review",
       "firstSeen": "2026-10-18T15:20:00.435Z",
       "lastSeen": "2026-10-26T20:40:15.103Z",
       "seenCount": 32,
-      "editorialStatus": "unverified",
+      "editorialStatus": "archived",
       "lastInspectedAt": null,
       "pageStatus": null,
       "inspectionCount": 0,
-      "reviewedAt": null,
-      "reviewedBy": null,
-      "editorialEvidence": null,
-      "decisionReason": null,
+      "reviewedAt": "2026-11-02",
+      "reviewedBy": "Radar PLOT — revisão editorial assistida",
+      "editorialEvidence": "https://www.torontomu.ca/global-migration-institute/opportunities/fellowships/journalism-fellowship",
+      "decisionReason": "Página oficial fixa 01/11/2026 às 12h Eastern para candidaturas; prazo transcorrido em 02/11 sem evidência de extensão.",
       "lastEditorialQueuedAt": null,
-      "editorialQueueCount": 0
+      "editorialQueueCount": 0,
+      "archiveKind": "closed-opportunity",
+      "archiveStatus": "encerrada",
+      "deadline": "2026-11-01",
+      "archiveSource": "https://www.torontomu.ca/global-migration-institute/opportunities/fellowships/journalism-fellowship",
+      "archiveVerifiedAt": "2026-11-02",
+      "nextRecheckAt": "2026-12-02"
     },
     "7c88176626e0c9a7e261a2516cf721727e5fce48b935a4e66c2e8215d9480c31": {
       "url": "https://www.generonumero.media/dados-abertos",
@@ -16595,6 +16601,29 @@
       "decisionReason": null,
       "lastEditorialQueuedAt": "2026-11-01T18:30:09.763Z",
       "editorialQueueCount": 1
+    },
+    "4ea21f021dae9e2840932e1c32fd740706f272f25c872c2f3f5c33d96e2f469c": {
+      "url": "https://informedstories.org/en/informed-earth/opportunities/apply-informed-climate-journalism-network",
+      "title": "Informed Climate Journalism Network 2027 — inscrições encerradas",
+      "source": "Informed Earth",
+      "category": "opportunities",
+      "classification": "needs-editorial-review",
+      "firstSeen": "2026-11-02T12:15:00Z",
+      "lastSeen": "2026-11-02T12:15:00Z",
+      "seenCount": 1,
+      "editorialStatus": "archived",
+      "reviewedAt": "2026-11-02",
+      "reviewedBy": "Radar PLOT — revisão editorial assistida",
+      "editorialEvidence": "https://informedstories.org/en/informed-earth/opportunities/apply-informed-climate-journalism-network",
+      "decisionReason": "Página oficial fixa prazo de 01/11/2026 às 23:59 GMT; prazo transcorrido em 02/11. Conteúdo da página ainda mostra formulário e contador estático, que não comprovam prorrogação.",
+      "archiveKind": "closed-opportunity",
+      "archiveStatus": "encerrada",
+      "deadline": "2026-11-01",
+      "archiveSource": "https://informedstories.org/en/informed-earth/opportunities/apply-informed-climate-journalism-network",
+      "archiveVerifiedAt": "2026-11-02",
+      "nextRecheckAt": "2026-12-02",
+      "lastInspectedAt": null,
+      "inspectionCount": 0
     }
   }
 }
