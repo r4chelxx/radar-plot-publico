@@ -2,6 +2,46 @@ window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
 {
   "date": "2026-11-02",
+  "type": "ferramentas",
+  "title": "Publicação editorial verificada — 2026-11-02",
+  "items": [
+    {
+      "id": "d3js-interactive-data-visualization",
+      "title": "D3.js — visualização de dados interativa"
+    },
+    {
+      "id": "google-data-studio-dashboards",
+      "title": "Google Data Studio — dashboards e relatórios"
+    },
+    {
+      "id": "mapbox-interactive-maps",
+      "title": "Mapbox — mapas interativos e cartografia web"
+    }
+  ],
+  "detail": "Três ferramentas verificadas em documentação primária, com limites de programação, privacidade, licenciamento e cobrança identificados."
+},
+{
+  "date": "2026-11-02",
+  "type": "dados",
+  "title": "Publicação editorial verificada — 2026-11-02",
+  "items": [
+    {
+      "id": "geoboundaries-global-administrative-boundaries",
+      "title": "geoBoundaries — limites administrativos globais"
+    },
+    {
+      "id": "gbif-global-biodiversity-occurrences",
+      "title": "GBIF — ocorrências e registros globais de biodiversidade"
+    },
+    {
+      "id": "wikidata-structured-knowledge-base",
+      "title": "Wikidata — base colaborativa de conhecimento estruturado"
+    }
+  ],
+  "detail": "Três bases globais verificadas nas fontes primárias, com documentação de cobertura, licenças, formatos e limitações de uso."
+}, 
+{
+  "date": "2026-11-02",
   "type": "nova-oportunidade",
   "title": "Publicação editorial verificada — 2026-11-02",
   "items": [
