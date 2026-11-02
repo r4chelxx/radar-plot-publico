@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-02T12:07:51.760Z",
+  "updatedAt": "2026-11-02T12:14:46.418Z",
   "leads": {
     "21d08dec9013d505e3e682633dc64ac66d18d9ce040e2b381ea738cf297fd16d": {
       "url": "https://data.inpe.br/biomasbr/sala-de-situacao-municipal-e-a-nova-ferramenta-do-terrabrasilis-para-apoiar-estados-e-municipios-no-controle-do-desmatamento-e-fogo",
@@ -16624,6 +16624,24 @@
       "nextRecheckAt": "2026-12-02",
       "lastInspectedAt": null,
       "inspectionCount": 0
+    },
+    "12846ba0fee78baab3ee06d0ee60b7e5fc8322a9ae1c266ea7f5c39ab63fae62": {
+      "url": "https://www.theopennotebook.com/2026/09/28/announcing-the-first-research-accountability-reporting-fellows-and-a-new-slate-of-trainings",
+      "title": "The Open Notebook + Retraction Watch — Research Accountability Reporting Fellowship (rolling; confirmar vagas)",
+      "source": "The Open Notebook",
+      "category": "opportunities",
+      "classification": "needs-editorial-review",
+      "firstSeen": "2026-11-02T12:15:00Z",
+      "lastSeen": "2026-11-02T12:15:00Z",
+      "seenCount": 1,
+      "editorialStatus": "unverified",
+      "lastInspectedAt": null,
+      "inspectionCount": 0,
+      "editorialEvidence": "https://www.theopennotebook.com/2026/09/28/announcing-the-first-research-accountability-reporting-fellows-and-a-new-slate-of-trainings",
+      "decisionReason": "Organizador confirmou inscrições em fluxo contínuo em 28/09/2026, restritas a jornalistas locais/regionais nos EUA com apoio de editor e bolsa paga à redação. Não há confirmação atual de vagas remanescentes em 02/11; manter pendente e não anunciar como aberta sem rechecagem.",
+      "deadline": null,
+      "reviewedAt": "2026-11-02",
+      "reviewedBy": "Radar PLOT — revisão editorial assistida"
     }
   }
 }
