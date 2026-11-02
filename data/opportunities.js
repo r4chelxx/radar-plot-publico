@@ -1054,8 +1054,14 @@ window.RADAR_PARTS.opportunities=[
     "Participar de 12 sessões obrigatórias e atividades da comunidade"
   ],
   "opens": null,
-  "verificationHistory": [],
-  "verified": "2026-10-19",
+  "verificationHistory": [
+    {
+      "date": "2026-11-02",
+      "status": "encerrada",
+      "source": "https://informedstories.org/en/informed-earth/opportunities/apply-informed-climate-journalism-network/"
+    }
+  ],
+  "verified": "2026-11-02",
   "id": "informed-climate-journalism-network-2027",
   "title": "Informed Climate Journalism Network 2027",
   "org": "Informed Earth",
@@ -1069,16 +1075,17 @@ window.RADAR_PARTS.opportunities=[
   ],
   "scope": "Internacional",
   "deadline": "2026-11-01",
-  "deadlineStatus": "confirmado",
+  "deadlineStatus": "Prazo oficial encerrado em 01/11/2026; reavaliar se houver nova chamada",
   "eligibility": "elegível",
   "fit": 8,
-  "status": "aberta",
+  "status": "encerrada",
   "rules": "https://informedstories.org/en/informed-earth/opportunities/apply-informed-climate-journalism-network/",
   "apply": "https://informedstories.org/en/informed-earth/opportunities/apply-informed-climate-journalism-network/",
   "discoveredVia": [
     "Informed Earth — Climate Journalism Network"
   ],
-  "discoveryUrl": "https://informedstories.org/en/informed-earth/opportunities/apply-informed-climate-journalism-network/"
+  "discoveryUrl": "https://informedstories.org/en/informed-earth/opportunities/apply-informed-climate-journalism-network/",
+  "notes": " Revisão de 02/11/2026: prazo de 01/11 já transcorrido; sem comprovação de prorrogação."
 },
 {
   "value": "Mensalidade de US$ 7.800, cobertura de matrícula e seguro saúde, conforme descrição institucional",
@@ -1835,6 +1842,11 @@ window.RADAR_PARTS.opportunities=[
       "date": "2026-10-18",
       "status": "aberta",
       "source": "https://www.torontomu.ca/global-migration-institute/opportunities/fellowships/journalism-fellowship/"
+    },
+    {
+      "date": "2026-11-02",
+      "status": "encerrada",
+      "source": "https://www.torontomu.ca/global-migration-institute/opportunities/fellowships/journalism-fellowship/"
     }
   ],
   "id": "tmu-global-migration-journalism-fellowship-2027",
@@ -1851,14 +1863,14 @@ window.RADAR_PARTS.opportunities=[
   ],
   "scope": "Global · jornalistas contratados ou freelancers com pelo menos cinco anos de experiência",
   "deadline": "2026-11-01",
-  "deadlineStatus": "confirmado",
+  "deadlineStatus": "Prazo oficial encerrado em 01/11/2026; reavaliar se houver nova chamada",
   "eligibility": "elegível",
   "fit": 8.5,
-  "status": "aberta",
+  "status": "encerrada",
   "rules": "https://www.torontomu.ca/global-migration-institute/opportunities/fellowships/journalism-fellowship/",
   "apply": "https://forms.gle/b4V4rzQp1EQkxTjG9",
-  "verified": "2026-10-18",
-  "notes": "A página oficial não restringe nacionalidade ou país de residência, portanto jornalistas brasileiros podem concorrer se cumprirem a experiência mínima. O prazo oficial é 01/11/2026 às 12h no horário do leste; recomenda-se confirmar o fuso no momento do envio. Alta aderência para projetos sobre migração, integração, trabalho, cidades e direitos.",
+  "verified": "2026-11-02",
+  "notes": "A página oficial não restringe nacionalidade ou país de residência, portanto jornalistas brasileiros podem concorrer se cumprirem a experiência mínima. O prazo oficial é 01/11/2026 às 12h no horário do leste; recomenda-se confirmar o fuso no momento do envio. Alta aderência para projetos sobre migração, integração, trabalho, cidades e direitos. Revisão de 02/11/2026: prazo de 01/11 já transcorrido; sem comprovação de prorrogação.",
   "desc": "A fellowship oferece um mês de imersão acadêmica para jornalistas ampliarem conhecimento sobre dinâmicas migratórias e construírem relações com pesquisadores e formuladores de políticas. A proposta deve explicar o benefício para a prática jornalística, as atividades planejadas e a afinidade com temas e projetos do instituto.",
   "discoveredVia": [
     "Grants for Journalists — LinkedIn"
