@@ -1,6 +1,22 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
 {
+  "date": "2026-11-02",
+  "type": "nova-oportunidade",
+  "title": "Publicação editorial verificada — 2026-11-02",
+  "items": [
+    {
+      "id": "ijp-german-northern-european-fellowship-2027",
+      "title": "IJP — German–Northern European Journalists' Fellowship 2027"
+    },
+    {
+      "id": "rji-student-innovation-fellowships-2027",
+      "title": "RJI — Student Innovation Fellowships 2027"
+    }
+  ],
+  "detail": "Duas chamadas confirmadas em fontes oficiais: IJP Nordeuropa até 15/11/2026 (restrita à Alemanha e países nórdicos/bálticos) e RJI Student Innovation até 08/11/2026 (bolsa individual restrita à Missouri School of Journalism; redações podem propor projetos)."
+}, 
+{
   "date": "2026-11-01",
   "type": "atualizacao-editorial",
   "title": "Nove recursos verificados — 4 oportunidades, 3 ferramentas e 2 bases",
