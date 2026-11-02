@@ -1,6 +1,30 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.tools=[
 {
+  "id": "d3js-interactive-data-visualization",
+  "name": "D3.js — visualização de dados interativa",
+  "kind": "biblioteca JavaScript para visualizações e narrativas interativas",
+  "url": "https://d3js.org/",
+  "desc": "Biblioteca JavaScript aberta (licença ISC) para construir gráficos, mapas e visualizações interativas sob medida, com escalas, eixos, projeções e animações. Exige programação e cuidados específicos de acessibilidade, desempenho e representação estatística; não fornece um editor visual pronto.",
+  "discoveryUrl": "https://d3js.org/"
+},
+{
+  "id": "google-data-studio-dashboards",
+  "name": "Google Data Studio (Looker Studio) — dashboards e relatórios",
+  "kind": "painéis interativos, conectores e visualização sem programação",
+  "url": "https://lookerstudio.google.com/",
+  "desc": "Ferramenta web do Google para criar e compartilhar dashboards, gráficos e relatórios com conectores de dados e incorporação em páginas. Exige conta e configuração de permissões; custos, limites e disponibilidade dependem de conectores, serviços e modalidade utilizada. Conferir privacidade e atualização das fontes.",
+  "discoveryUrl": "https://developers.google.com/data-studio"
+},
+{
+  "id": "mapbox-interactive-maps",
+  "name": "Mapbox — mapas interativos e cartografia web",
+  "kind": "plataforma de mapas, estilos e APIs geoespaciais",
+  "url": "https://www.mapbox.com/",
+  "desc": "Plataforma de mapas interativos, geocodificação, estilos cartográficos e APIs para projetos digitais, incluindo narrativas geográficas. Requer conta e credenciais de acesso; possui franquias gratuitas e cobrança por uso conforme produto. Dados e mapas-base têm termos próprios, e precisão e acessibilidade devem ser verificadas.",
+  "discoveryUrl": "https://www.mapbox.com/pricing"
+}, 
+{
   "id": "deck-gl-geospatial-visualization",
   "name": "deck.gl — visualização geoespacial em grande escala",
   "kind": "visualização geoespacial interativa com WebGL/WebGPU",
