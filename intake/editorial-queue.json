@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-02T12:08:01.507Z",
+  "updatedAt": "2026-11-02T12:14:54.189Z",
   "policy": "Public web leads only; pending does not mean verified or approved.",
   "candidates": [
     {
@@ -6994,6 +6994,18 @@
       "firstSeen": "2026-11-02T12:15:00Z",
       "lastSeen": "2026-11-02T12:15:00Z",
       "status": "archived",
+      "reviewPriority": "high"
+    },
+    {
+      "id": "12846ba0fee78baab3ee06d0ee60b7e5fc8322a9ae1c266ea7f5c39ab63fae62",
+      "url": "https://www.theopennotebook.com/2026/09/28/announcing-the-first-research-accountability-reporting-fellows-and-a-new-slate-of-trainings",
+      "title": "The Open Notebook + Retraction Watch — Research Accountability Reporting Fellowship (rolling; confirmar vagas)",
+      "providers": [
+        "The Open Notebook"
+      ],
+      "firstSeen": "2026-11-02T12:15:00Z",
+      "lastSeen": "2026-11-02T12:15:00Z",
+      "status": "pending",
       "reviewPriority": "high"
     }
   ]
