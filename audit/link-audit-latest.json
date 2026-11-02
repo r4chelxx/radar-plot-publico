@@ -1,13 +1,35 @@
 {
-  "checkedAt": "2026-11-01T17:08:12.969Z",
+  "checkedAt": "2026-11-02T12:13:18.808Z",
   "policy": "404/410 and ArcGIS application errors within HTTP 200 become broken only after appearing as suspect or broken in the previous audit; blocked and network results are inconclusive",
   "counts": {
-    "ok": 428,
-    "blocked": 44,
-    "server": 6,
-    "network": 34
+    "ok": 434,
+    "blocked": 46,
+    "network": 32,
+    "server": 2
   },
   "results": [
+    {
+      "type": "opportunity",
+      "id": "ijp-german-northern-european-fellowship-2027",
+      "url": "https://ijp.org/austauschprogramme/nordeuropa/",
+      "status": 200,
+      "finalUrl": "https://ijp.org/austauschprogramme/nordeuropa/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "rji-student-innovation-fellowships-2027",
+      "url": "https://rjionline.org/student-innovation-fellowships/",
+      "status": 200,
+      "finalUrl": "https://rjionline.org/student-innovation-fellowships/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
     {
       "type": "opportunity",
       "id": "ijp-german-latin-american-fellowship-2027",
@@ -71,7 +93,6 @@
       "finalUrl": "https://digital-strategy.ec.europa.eu/en/funding/call-proposals-journalism-partnerships-pluralism-2027",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -83,7 +104,6 @@
       "finalUrl": "https://digital-strategy.ec.europa.eu/en/funding/call-proposals-media-freedom-rapid-response-mechanism-2027",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -575,11 +595,11 @@
       "type": "opportunity",
       "id": "pulitzer-ocean-reporting-network",
       "url": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/apply-join-ocean-reporting-network-orn",
-      "status": 403,
+      "status": 200,
       "finalUrl": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/apply-join-ocean-reporting-network-orn",
-      "class": "blocked",
+      "class": "ok",
       "attempts": [
-        403
+        200
       ]
     },
     {
@@ -751,11 +771,11 @@
       "type": "opportunity",
       "id": "pulitzer-env",
       "url": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/our-work-environment-grants",
-      "status": 200,
+      "status": 403,
       "finalUrl": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/our-work-environment-grants",
-      "class": "ok",
+      "class": "blocked",
       "attempts": [
-        200
+        403
       ]
     },
     {
@@ -773,11 +793,11 @@
       "type": "opportunity",
       "id": "pulitzer-ai-2627",
       "url": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/ai-accountability-fellowships",
-      "status": 200,
+      "status": 403,
       "finalUrl": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/ai-accountability-fellowships",
-      "class": "ok",
+      "class": "blocked",
       "attempts": [
-        200
+        403
       ]
     },
     {
@@ -839,12 +859,13 @@
       "type": "opportunity",
       "id": "coda26",
       "url": "https://ok.org.br/noticia/chamada-aberta-inscreva-sua-atividade-para-o-coda-br-2026/",
-      "status": 503,
-      "finalUrl": "https://ok.org.br/noticia/chamada-aberta-inscreva-sua-atividade-para-o-coda-br-2026/",
-      "class": "server",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        503,
-        503
+        "AbortError:This operation was aborted",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -917,11 +938,11 @@
       "type": "opportunity",
       "id": "persephone-2027",
       "url": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/persephone-miel-fellowships",
-      "status": 200,
+      "status": 403,
       "finalUrl": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/persephone-miel-fellowships",
-      "class": "ok",
+      "class": "blocked",
       "attempts": [
-        200
+        403
       ]
     },
     {
@@ -1403,12 +1424,13 @@
       "type": "dataset",
       "id": "okbr-monitor-inda-2023-2025",
       "url": "https://ok.org.br/inda/",
-      "status": 503,
-      "finalUrl": "https://ok.org.br/inda/",
-      "class": "server",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        503,
-        503
+        "AbortError:This operation was aborted",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -2055,7 +2077,6 @@
       "finalUrl": "https://map.geo.sei.ba.gov.br/arcgis/rest/services/servicos_sei/DPA_A_100K_VIGENTE_GCS_SIR_SEI/FeatureServer/0?f=json",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -2068,7 +2089,7 @@
       "class": "network",
       "error": "TypeError:fetch failed",
       "attempts": [
-        "AbortError:This operation was aborted",
+        "TypeError:fetch failed",
         "TypeError:fetch failed"
       ]
     },
@@ -2076,13 +2097,11 @@
       "type": "dataset",
       "id": "bahia-transparencia",
       "url": "https://www.transparencia.ba.gov.br/Portal",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://www.transparencia.ba.gov.br/Portal",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -2093,7 +2112,6 @@
       "finalUrl": "https://www.ba.gov.br/ssp/publicacoes",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -2101,52 +2119,44 @@
       "type": "dataset",
       "id": "sspba-dados-abertos",
       "url": "https://www.ba.gov.br/ssp/dados-abertos",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://www.ba.gov.br/ssp/dados-abertos",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
       "type": "dataset",
       "id": "aneel",
       "url": "https://dadosabertos.aneel.gov.br/",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://dadosabertos.aneel.gov.br/",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
       "type": "dataset",
       "id": "ons",
       "url": "https://dados.ons.org.br/",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://dados.ons.org.br/",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
       "type": "dataset",
       "id": "ons-constrained-off-fotovoltaica",
       "url": "https://dados.ons.org.br/dataset/restricao_coff_fotovoltaica",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://dados.ons.org.br/dataset/restricao_coff_fotovoltaica",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -2515,7 +2525,6 @@
       "finalUrl": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/acoes-e-programas/programas-projetos-acoes-obras-e-atividades/estatisticas-trabalho/novo-caged/2026/agosto/pagina-inicial",
       "class": "ok",
       "attempts": [
-        "TypeError:fetch failed",
         200
       ]
     },
@@ -2688,13 +2697,11 @@
       "type": "dataset",
       "id": "sesab-mortalidade-materna",
       "url": "https://biobr.saude.ba.gov.br/static/obitomaterno.php",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://biobr.saude.ba.gov.br/static/obitomaterno.php",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -2872,7 +2879,6 @@
       "finalUrl": "https://www.tce.ba.gov.br/controle-externo/contas-de-governo",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -3993,11 +3999,13 @@
       "type": "tool",
       "id": "qgis",
       "url": "https://qgis.org/",
-      "status": 200,
-      "finalUrl": "https://qgis.org/",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "TypeError:fetch failed",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -4334,12 +4342,13 @@
       "type": "source",
       "id": "Open Knowledge Brasil",
       "url": "https://ok.org.br/",
-      "status": 503,
-      "finalUrl": "https://ok.org.br/",
-      "class": "server",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        503,
-        503
+        "AbortError:This operation was aborted",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -4896,13 +4905,11 @@
       "type": "tool",
       "id": "inkscape-svg-editor",
       "url": "https://inkscape.org/",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "AbortError:This operation was aborted",
+      "status": 200,
+      "finalUrl": "https://inkscape.org/",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "AbortError:This operation was aborted"
+        200
       ]
     },
     {
@@ -4942,12 +4949,13 @@
       "type": "tool",
       "id": "okbr-querido-diario-tecnologias-educacao",
       "url": "https://ok.org.br/projetos/qd-tecnologias-educacao/",
-      "status": 503,
-      "finalUrl": "https://ok.org.br/projetos/qd-tecnologias-educacao/",
-      "class": "server",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        503,
-        503
+        "AbortError:This operation was aborted",
+        "TypeError:fetch failed"
       ]
     },
     {
