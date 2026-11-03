@@ -1,11 +1,10 @@
 {
-  "checkedAt": "2026-11-03T18:22:24.740Z",
+  "checkedAt": "2026-11-03T22:17:03.698Z",
   "policy": "404/410 and ArcGIS application errors within HTTP 200 become broken only after appearing as suspect or broken in the previous audit; blocked and network results are inconclusive",
   "counts": {
-    "ok": 444,
+    "ok": 449,
     "blocked": 46,
-    "network": 29,
-    "server": 1
+    "network": 27
   },
   "results": [
     {
@@ -1642,12 +1641,11 @@
       "type": "source",
       "id": "SIOPE — FNDE",
       "url": "https://www.gov.br/fnde/pt-br/assuntos/sistemas/siope",
-      "status": 429,
+      "status": 200,
       "finalUrl": "https://www.gov.br/fnde/pt-br/assuntos/sistemas/siope",
-      "class": "blocked",
+      "class": "ok",
       "attempts": [
-        429,
-        429
+        200
       ]
     },
     {
@@ -2102,7 +2100,6 @@
       "finalUrl": "https://map.geo.sei.ba.gov.br/arcgis/rest/services/servicos_sei/DPA_A_100K_VIGENTE_GCS_SIR_SEI/FeatureServer/0?f=json",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -2115,7 +2112,7 @@
       "class": "network",
       "error": "TypeError:fetch failed",
       "attempts": [
-        "AbortError:This operation was aborted",
+        "TypeError:fetch failed",
         "TypeError:fetch failed"
       ]
     },
@@ -2123,13 +2120,12 @@
       "type": "dataset",
       "id": "bahia-transparencia",
       "url": "https://www.transparencia.ba.gov.br/Portal",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://www.transparencia.ba.gov.br/Portal",
+      "class": "ok",
       "attempts": [
         "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -4820,6 +4816,28 @@
     },
     {
       "type": "tool",
+      "id": "samgeo-geospatial-image-segmentation",
+      "url": "https://samgeo.gishub.org/",
+      "status": 403,
+      "finalUrl": "https://samgeo.gishub.org/",
+      "class": "blocked",
+      "attempts": [
+        403
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "hot-tasking-manager-humanitarian-mapping",
+      "url": "https://tasks.hotosm.org/",
+      "status": 200,
+      "finalUrl": "https://tasks.hotosm.org/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
       "id": "d3js-interactive-data-visualization",
       "url": "https://d3js.org/",
       "status": 200,
@@ -4965,13 +4983,11 @@
       "type": "tool",
       "id": "inkscape-svg-editor",
       "url": "https://inkscape.org/",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "AbortError:This operation was aborted",
+      "status": 200,
+      "finalUrl": "https://inkscape.org/",
+      "class": "ok",
       "attempts": [
-        502,
-        "AbortError:This operation was aborted"
+        200
       ]
     },
     {
@@ -5247,7 +5263,6 @@
       "finalUrl": "https://www.pangram.com/",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -5717,12 +5732,11 @@
       "type": "tool",
       "id": "digga",
       "url": "https://digga.dev/",
-      "status": 525,
+      "status": 200,
       "finalUrl": "https://digga.dev/",
-      "class": "server",
+      "class": "ok",
       "attempts": [
-        525,
-        525
+        200
       ]
     },
     {
