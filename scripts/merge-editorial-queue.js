@@ -15,6 +15,17 @@ const decisions=fs.existsSync(decisionsPath)?JSON.parse(fs.readFileSync(decision
 const byUrl=new Map();
 for(const d of decisions){try{byUrl.set(identity(d.url).id,d.status)}catch{}}
 const terminal=new Set(['published','rejected','duplicate','archived']);
+// Classify strong opportunity signals only; this is triage, never approval.
+function inferCategory(title){
+ const t=String(title||'').toLowerCase();
+ if(/\b(?:fellowships?|scholarships?|grants?|funding|funded|stipends?|bolsas?|editais?)\b|\bcall for applications\b|\bapplications? open\b/.test(t)
+   && !/\b(?:conference|webinar|podcast|interview|guide|report|news|announces? winners?|selected for|awarded to)\b/.test(t))return 'opportunities';
+ return 'uncategorized';
+}
+function categoryFor(item){
+ return item.category&&item.category!=='uncategorized'?item.category:inferCategory(item.title);
+}
+
 function resolvedStatus(candidate){
  const hist=history[candidate.id]||history[identity(candidate.url).id];
  const decision=byUrl.get(candidate.id)||byUrl.get(identity(candidate.url).id);
@@ -32,11 +43,18 @@ for(const candidate of current.review||[]){
  if(!candidate.id||!/^https:\/\//.test(candidate.url||''))continue;
  const old=queue.get(candidate.id);
  if(old&&terminal.has(old.status)){
-  if((!old.category||old.category==='uncategorized')&&candidate.category&&candidate.category!=='uncategorized')queue.set(candidate.id,{...old,category:candidate.category});
+  if((!old.category||old.category==='uncategorized')&&categoryFor(candidate)!=='uncategorized')queue.set(candidate.id,{...old,category:categoryFor(candidate)});
   continue;
  }
  const providers=[...new Set([...(old?.providers||[]),...(candidate.providers||[])])].slice(0,30);
- queue.set(candidate.id,{id:candidate.id,title:candidate.title,url:candidate.url,category:(!candidate.category||candidate.category==='uncategorized')?(old?.category||'uncategorized'):candidate.category,providers,firstSeen:old?.firstSeen||now,lastSeen:now,status:resolvedStatus(candidate)||old?.status||'pending',reviewPriority:candidate.reviewPriority||'normal'});
+ queue.set(candidate.id,{id:candidate.id,title:candidate.title,url:candidate.url,category:categoryFor(candidate)==='uncategorized'?(old?.category||'uncategorized'):categoryFor(candidate),providers,firstSeen:old?.firstSeen||now,lastSeen:now,status:resolvedStatus(candidate)||old?.status||'pending',reviewPriority:candidate.reviewPriority||'normal'});
+}
+// Reclassify old pending leads without changing reviewed or terminal decisions.
+for(const [id,item] of queue){
+ if(item.status==='pending'&&(!item.category||item.category==='uncategorized')){
+  const inferred=inferCategory(item.title);
+  if(inferred!=='uncategorized')queue.set(id,{...item,category:inferred});
+ }
 }
 const out={schemaVersion:1,updatedAt:now,policy:'Public web leads only; pending does not mean verified or approved.',candidates:[...queue.values()].sort((a,b)=>a.firstSeen.localeCompare(b.firstSeen))};
 fs.mkdirSync(require('node:path').dirname(dest),{recursive:true});
