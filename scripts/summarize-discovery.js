@@ -28,6 +28,9 @@ for(const name of ['gmail','linkedin']){
  lines.push('- '+name+': '+family.healthy+'/'+family.total+' consultas disponíveis; '+family.candidates+' candidatos; '+family.failed+' falhas.');
 }
 lines.push('**Limitação:** Gmail depende de credenciais OAuth de leitura configuradas; LinkedIn usa busca pública indexada, sem garantia de cobertura completa.');
+lines.push('- Gmail configurado nesta execução: '+(r.sourceLimitations?.gmailConfigured===true?'sim':'não confirmado')+'.');
+lines.push('- Cobertura integral do LinkedIn confirmada: não.');
+lines.push('- Publicação de novos registros confirmada por este relatório: não.');
 lines.push('','**Estado da coleta:** '+(r.overallStatus||'unknown'));
 for(const warning of r.warnings||[])lines.push('- Atenção: '+warning);
 const failures=r.sources.filter(x=>x.status!=='ok'&&x.status!=='fallback');
@@ -37,7 +40,7 @@ if(!recovered.length)lines.push('Nenhuma recuperação necessária.');
 else for(const item of recovered)lines.push('- '+item.name+': '+item.candidates+' candidatos; origem primária indisponível.');
 if(!failures.length)lines.push('Nenhuma falha identificada.');
 else for(const item of failures)lines.push('- '+item.name+': '+(item.error||'falha desconhecida').replace(/[\r\n]/g,' '));
-lines.push('','**Observação:** links candidatos não são publicados sem verificação editorial. Gmail não é coletado por este workflow; LinkedIn depende de arquivo público de entrada previamente revisado.');
+lines.push('','**Observação:** links candidatos não são publicados sem verificação editorial. Este workflow tenta consultar o Gmail com OAuth quando configurado e pesquisa posts públicos indexados do LinkedIn; a cobertura é parcial e nenhum candidato é automaticamente aprovado.');
 const text=lines.join('\n')+'\n';
 if(process.env.GITHUB_STEP_SUMMARY)fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY,text);
 else process.stdout.write(text);
