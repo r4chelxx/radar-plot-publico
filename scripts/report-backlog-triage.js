@@ -4,6 +4,8 @@ const fs=require('node:fs');
 function suggest(item){
  const url=String(item.url||'').toLowerCase(),title=String(item.title||'').toLowerCase();
  const text=title+' '+url;
+ // In news headlines, "grant" may be a verb (grant permissions), not funding.
+ if(/\bgrants?\s+(?:broad|permission|permissions|access|rights|authority|power|powers)\b/.test(title)&&! /\b(fellowship|funding|scholarship|reporting.fund|journalism.prize)\b/.test(text))return {category:null,confidence:'manual-review-nonfunding-grant'};
  const patterns=[
   ['opportunities',/\b(grant|grants|fellowship|scholarship|funding|reporting.fund|journalism.prize|journalism.award)\b|\/fundings?\//],
   ['tools',/\b(tool|software|visualization|mapping|chart|editor|scraping|python|javascript|gis)\b|mapbox\.com|figma\.com/],
