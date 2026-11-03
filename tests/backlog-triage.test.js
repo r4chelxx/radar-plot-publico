@@ -116,3 +116,11 @@ test('history categories are counted but never promoted to queue classifications
  assert.equal(r.historyCoverage.opportunityHistoryOnDirectUrls,1);
  assert.equal(q.candidates[0].category,undefined);
 });
+
+test('grant as legal verb is not an editorial funding opportunity',()=>{
+ const q={candidates:[{id:'legal',title:'New terms grant broad scraping permissions',url:'https://example.org/legal-news',status:'pending',reviewPriority:'high'}]};
+ const r=report(q);
+ assert.equal(r.dailyReview.length,0);
+ assert.equal(r.suggestions[0].category,null);
+ assert.equal(r.suggestions[0].confidence,'manual-review-nonfunding-grant');
+});
