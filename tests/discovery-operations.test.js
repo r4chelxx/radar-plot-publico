@@ -13,6 +13,9 @@ test('discovery operations detect partial feed outage without discarding candida
   cp.execFileSync(process.execPath,[path.resolve('scripts/report-discovery-operations.js')],{cwd:root});
   const report=JSON.parse(fs.readFileSync(path.join(root,'intake/discovery-operations.json')));
   assert.equal(report.overallStatus,'degraded');
+  assert.equal(report.sourceLimitations.gmailConfigured,false);
+  assert.equal(report.sourceLimitations.linkedinVerifiedFullCoverage,false);
+  assert.equal(report.sourceLimitations.publicationConfirmed,false);
   assert.deepEqual(report.coverage.feeds,{total:2,healthy:1,recovered:0,failed:1,candidates:10});
   assert.equal(report.coverage.dvs.candidates,12);
   assert.deepEqual(report.coverage.fundingPages,{total:2,healthy:2,recovered:1,failed:0,candidates:2});
