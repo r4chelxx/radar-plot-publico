@@ -96,7 +96,8 @@ jobs:
       - name: Report no new approved publications
         if: steps.changes.outputs.changed != 'true'
         run: |
-          echo "No new approved editorial records; no publication or deployment was triggered." >> "$GITHUB_STEP_SUMMARY"
+          echo "WARNING: Zero new editorial publications. All approved records are already in the catalog, or no new approved records were supplied." >> "$GITHUB_STEP_SUMMARY"
+          echo "Daily target remains unmet unless another verified publication run added records; check the live catalog before reporting success." >> "$GITHUB_STEP_SUMMARY"
       - name: Verify approved records on deployed public site
         if: github.event_name != 'pull_request' && steps.changes.outputs.changed == 'true'
         env:
@@ -122,6 +123,6 @@ jobs:
             elif [ "$CHANGED" = "true" ]; then
               echo "- Ação: PR integrado e verificação pública executada nesta rodada."
             else
-              echo "- Ação: nenhuma publicação nova necessária nesta rodada."
+              echo "- Resultado editorial: ZERO publicações novas nesta rodada. Não equivale a cumprimento da meta diária; investigar a fila de aprovação."
             fi
           } >> "$GITHUB_STEP_SUMMARY"
