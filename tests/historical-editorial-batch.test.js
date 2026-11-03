@@ -17,3 +17,17 @@ test('historical editorial batch is limited, persistent and never auto-approves'
   assert(result.candidates.slice(0,7).every(x=>x.lastInspectedAt));
  }finally{fs.rmSync(dir,{recursive:true,force:true})}
 });
+
+test('opportunities precede tools when inspection rotation is otherwise equal',()=>{
+ const dir=fs.mkdtempSync(path.join(os.tmpdir(),'radar-priority-'));
+ try{
+  fs.mkdirSync(path.join(dir,'intake'));
+  const leads={tool:{url:'https://example.org/tool',title:'Tool',category:'tools',classification:'needs-editorial-review',editorialStatus:'unverified'},grant:{url:'https://example.org/grant',title:'Grant',category:'opportunities',classification:'needs-editorial-review',editorialStatus:'unverified'}};
+  fs.writeFileSync(path.join(dir,'intake/lead-history-next.json'),JSON.stringify({leads}));
+  fs.writeFileSync(path.join(dir,'intake/editorial-review.json'),JSON.stringify({candidates:[]}));
+  fs.writeFileSync(path.join(dir,'intake/lead-evidence.json'),JSON.stringify({results:[]}));
+  cp.execFileSync(process.execPath,[path.resolve('scripts/build-historical-review-batch.js')],{cwd:dir});
+  const result=JSON.parse(fs.readFileSync(path.join(dir,'intake/historical-editorial-batch.json')));
+  assert.equal(result.candidates[0].category,'opportunities');
+ }finally{fs.rmSync(dir,{recursive:true,force:true})}
+});
