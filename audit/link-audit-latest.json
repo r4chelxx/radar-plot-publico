@@ -1,11 +1,11 @@
 {
-  "checkedAt": "2026-11-02T20:45:20.173Z",
+  "checkedAt": "2026-11-03T18:22:24.740Z",
   "policy": "404/410 and ArcGIS application errors within HTTP 200 become broken only after appearing as suspect or broken in the previous audit; blocked and network results are inconclusive",
   "counts": {
-    "ok": 439,
-    "blocked": 47,
-    "network": 32,
-    "server": 2
+    "ok": 444,
+    "blocked": 46,
+    "network": 29,
+    "server": 1
   },
   "results": [
     {
@@ -859,13 +859,11 @@
       "type": "opportunity",
       "id": "coda26",
       "url": "https://ok.org.br/noticia/chamada-aberta-inscreva-sua-atividade-para-o-coda-br-2026/",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://ok.org.br/noticia/chamada-aberta-inscreva-sua-atividade-para-o-coda-br-2026/",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -938,11 +936,11 @@
       "type": "opportunity",
       "id": "persephone-2027",
       "url": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/persephone-miel-fellowships",
-      "status": 403,
+      "status": 200,
       "finalUrl": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/persephone-miel-fellowships",
-      "class": "blocked",
+      "class": "ok",
       "attempts": [
-        403
+        200
       ]
     },
     {
@@ -1005,7 +1003,7 @@
       "id": "CatchLight",
       "url": "https://www.catchlight.io/",
       "status": 200,
-      "finalUrl": "https://www.catchlight.io/",
+      "finalUrl": "https://catchlight.io/",
       "class": "ok",
       "attempts": [
         200
@@ -1457,13 +1455,11 @@
       "type": "dataset",
       "id": "okbr-monitor-inda-2023-2025",
       "url": "https://ok.org.br/inda/",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://ok.org.br/inda/",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -1492,13 +1488,11 @@
       "type": "source",
       "id": "Portal de Dados Abertos da Paraíba",
       "url": "https://dados.pb.gov.br/",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://dados.pb.gov.br/",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -1648,11 +1642,12 @@
       "type": "source",
       "id": "SIOPE — FNDE",
       "url": "https://www.gov.br/fnde/pt-br/assuntos/sistemas/siope",
-      "status": 200,
+      "status": 429,
       "finalUrl": "https://www.gov.br/fnde/pt-br/assuntos/sistemas/siope",
-      "class": "ok",
+      "class": "blocked",
       "attempts": [
-        200
+        429,
+        429
       ]
     },
     {
@@ -1890,12 +1885,11 @@
       "type": "source",
       "id": "Banco Central do Brasil — Dados Abertos",
       "url": "https://dadosabertos.bcb.gov.br/",
-      "status": 502,
+      "status": 200,
       "finalUrl": "https://dadosabertos.bcb.gov.br/",
-      "class": "server",
+      "class": "ok",
       "attempts": [
-        502,
-        502
+        200
       ]
     },
     {
@@ -1979,13 +1973,11 @@
       "type": "dataset",
       "id": "mapbiomas-alerta",
       "url": "https://plataforma.alerta.mapbiomas.org/",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://plataforma.alerta.mapbiomas.org/",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -2025,11 +2017,11 @@
       "type": "dataset",
       "id": "hdx-humanitarian-data",
       "url": "https://data.humdata.org/",
-      "status": 406,
+      "status": 202,
       "finalUrl": "https://data.humdata.org/",
-      "class": "blocked",
+      "class": "ok",
       "attempts": [
-        406
+        202
       ]
     },
     {
@@ -2110,6 +2102,7 @@
       "finalUrl": "https://map.geo.sei.ba.gov.br/arcgis/rest/services/servicos_sei/DPA_A_100K_VIGENTE_GCS_SIR_SEI/FeatureServer/0?f=json",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -2122,7 +2115,7 @@
       "class": "network",
       "error": "TypeError:fetch failed",
       "attempts": [
-        "TypeError:fetch failed",
+        "AbortError:This operation was aborted",
         "TypeError:fetch failed"
       ]
     },
@@ -2130,11 +2123,13 @@
       "type": "dataset",
       "id": "bahia-transparencia",
       "url": "https://www.transparencia.ba.gov.br/Portal",
-      "status": 200,
-      "finalUrl": "https://www.transparencia.ba.gov.br/Portal",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "AbortError:This operation was aborted",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -2376,12 +2371,13 @@
       "type": "dataset",
       "id": "tceba-transparencia",
       "url": "https://www.tce.ba.gov.br/",
-      "status": 200,
-      "finalUrl": "https://www.tce.ba.gov.br/",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
         "AbortError:This operation was aborted",
-        200
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -2392,7 +2388,6 @@
       "finalUrl": "https://www.ba.gov.br/saude/suvisa/vigilancia-epidemiologica",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -2910,11 +2905,13 @@
       "type": "dataset",
       "id": "bahia-tce-renuncia-fiscal",
       "url": "https://www.tce.ba.gov.br/controle-externo/contas-de-governo",
-      "status": 200,
-      "finalUrl": "https://www.tce.ba.gov.br/controle-externo/contas-de-governo",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "AbortError:This operation was aborted",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -3180,12 +3177,11 @@
       "type": "dataset",
       "id": "bcb-estatisticas-pix",
       "url": "https://dadosabertos.bcb.gov.br/dataset/pix",
-      "status": 502,
+      "status": 200,
       "finalUrl": "https://dadosabertos.bcb.gov.br/dataset/pix",
-      "class": "server",
+      "class": "ok",
       "attempts": [
-        502,
-        502
+        200
       ]
     },
     {
@@ -4375,13 +4371,11 @@
       "type": "source",
       "id": "Open Knowledge Brasil",
       "url": "https://ok.org.br/",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://ok.org.br/",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -4976,7 +4970,7 @@
       "class": "network",
       "error": "AbortError:This operation was aborted",
       "attempts": [
-        "AbortError:This operation was aborted",
+        502,
         "AbortError:This operation was aborted"
       ]
     },
@@ -5017,13 +5011,11 @@
       "type": "tool",
       "id": "okbr-querido-diario-tecnologias-educacao",
       "url": "https://ok.org.br/projetos/qd-tecnologias-educacao/",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://ok.org.br/projetos/qd-tecnologias-educacao/",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -5255,6 +5247,7 @@
       "finalUrl": "https://www.pangram.com/",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -5724,11 +5717,12 @@
       "type": "tool",
       "id": "digga",
       "url": "https://digga.dev/",
-      "status": 200,
+      "status": 525,
       "finalUrl": "https://digga.dev/",
-      "class": "ok",
+      "class": "server",
       "attempts": [
-        200
+        525,
+        525
       ]
     },
     {
