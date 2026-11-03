@@ -82,12 +82,13 @@ test('indirect candidates remain in source-resolution batch',()=>{
  assert.equal(r.dailyReview.length,0);
 });
 
-test('resolved indirect news URL is surfaced as evidence but not automatically reviewed',()=>{
+test('resolved indirect news URL is surfaced for human review, not approval',()=>{
  const q={candidates:[{id:'news',title:'Grant',url:'https://news.google.com/rss/articles/example',category:'opportunities',reviewPriority:'high',status:'pending'}]};
  const r=report(q,{leads:{news:{finalUrl:'https://publisher.example/grant'}}});
  assert.equal(r.resolvedIndirect,1);
  assert.equal(r.sourceResolution[0].resolvedDirectUrl,'https://publisher.example/grant');
- assert.equal(r.dailyReview.length,0);
+ assert.equal(r.dailyReview.length,1);
+ assert.equal(q.candidates[0].status,'pending');
 });
 
 test('untrusted redirect destinations are not treated as publisher evidence',()=>{
