@@ -2493,6 +2493,24 @@
         "officialUrl": "https://www.wikidata.org/",
         "evidence": "Introdução e política oficial Wikidata confirmam base colaborativa estruturada, consulta por entidades e dados estruturados CC0. Documentadas limitações de qualidade e necessidade de checagem; URL e ID ausentes no catálogo."
       }
+    },
+    {
+      "category": "tools",
+      "record": {
+        "id": "samgeo-geospatial-image-segmentation",
+        "name": "SamGeo — segmentação de imagens geoespaciais com IA",
+        "kind": "biblioteca Python aberta para análise de imagens e sensoriamento remoto",
+        "url": "https://samgeo.gishub.org/",
+        "desc": "Biblioteca Python de código aberto (licença MIT) para segmentar imagens geoespaciais com modelos Segment Anything (SAM), trabalhar com GeoTIFF e exportar resultados como GeoJSON, GeoPackage ou Shapefile. Útil para investigar mudanças de uso do solo e analisar imagens de satélite; exige validação humana dos segmentos, ambiente Python e recursos computacionais adequados. Modelos de IA podem produzir falsos positivos e omissões.",
+        "discoveryUrl": "https://samgeo.gishub.org/"
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Radar PLOT — revisão editorial assistida",
+        "reviewedAt": "2026-11-03",
+        "officialUrl": "https://samgeo.gishub.org/",
+        "evidence": "Documentação oficial SamGeo e repositório do projeto opengeos/segment-geospatial confirmam licença MIT, segmentação de GeoTIFF com SAM e exportação GeoJSON/GeoPackage/Shapefile. Conferida ausência de URL e ID no catálogo de ferramentas e no manifesto; limitações de modelos e dependências explicitadas."
+      }
     }
   ]
 }
