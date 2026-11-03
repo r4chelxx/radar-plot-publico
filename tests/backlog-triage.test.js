@@ -124,3 +124,13 @@ test('grant as legal verb is not an editorial funding opportunity',()=>{
  assert.equal(r.suggestions[0].category,null);
  assert.equal(r.suggestions[0].confidence,'manual-review-nonfunding-grant');
 });
+
+test('indirect source resolution metrics expose blocked editorial leads',()=>{
+ const q={candidates:[{id:'a',title:'Grant A',url:'https://news.google.com/rss/articles/a',status:'pending'},{id:'b',title:'Grant B',url:'https://news.google.com/rss/articles/b',status:'pending'}]};
+ const r=report(q,{leads:{b:{finalUrl:'https://publisher.example/grant'}}});
+ assert.equal(r.indirectPending,2);
+ assert.equal(r.resolvedIndirect,1);
+ assert.equal(r.unresolvedIndirect,1);
+ assert.equal(r.indirectResolutionRate,0.5);
+ assert.equal(q.candidates[0].status,'pending');
+});
