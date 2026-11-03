@@ -108,3 +108,11 @@ test('resolved indirect leads enter human review with publisher URL but are neve
  assert.equal(r.dailyReview[0].requiresSourceReview,false);
  assert.equal(q.candidates[0].status,'pending');
 });
+
+test('history categories are counted but never promoted to queue classifications',()=>{
+ const q={candidates:[{id:'a',title:'Prize',url:'https://example.org/award',status:'pending'}]};
+ const r=report(q,{leads:{a:{category:'opportunities',pageStatus:'html-fetched'}}});
+ assert.equal(r.historyCoverage.uncategorizedQueueWithHistoryCategory,1);
+ assert.equal(r.historyCoverage.opportunityHistoryOnDirectUrls,1);
+ assert.equal(q.candidates[0].category,undefined);
+});
