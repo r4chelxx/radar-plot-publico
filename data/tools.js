@@ -1,6 +1,14 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.tools=[
 {
+  "id": "samgeo-geospatial-image-segmentation",
+  "name": "SamGeo — segmentação de imagens geoespaciais com IA",
+  "kind": "biblioteca Python aberta para análise de imagens e sensoriamento remoto",
+  "url": "https://samgeo.gishub.org/",
+  "desc": "Biblioteca Python de código aberto (licença MIT) para segmentar imagens geoespaciais com modelos Segment Anything (SAM), trabalhar com GeoTIFF e exportar resultados como GeoJSON, GeoPackage ou Shapefile. Útil para investigar mudanças de uso do solo e analisar imagens de satélite; exige validação humana dos segmentos, ambiente Python e recursos computacionais adequados. Modelos de IA podem produzir falsos positivos e omissões.",
+  "discoveryUrl": "https://samgeo.gishub.org/"
+}, 
+{
   "id": "d3js-interactive-data-visualization",
   "name": "D3.js — visualização de dados interativa",
   "kind": "biblioteca JavaScript para visualizações e narrativas interativas",

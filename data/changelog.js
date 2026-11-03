@@ -1,6 +1,18 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
 {
+  "date": "2026-11-03",
+  "type": "ferramentas",
+  "title": "Publicação editorial verificada — 2026-11-03",
+  "items": [
+    {
+      "id": "samgeo-geospatial-image-segmentation",
+      "title": "SamGeo — segmentação de imagens geoespaciais com IA"
+    }
+  ],
+  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: SamGeo — segmentação de imagens geoespaciais com IA."
+}, 
+{
   "date": "2026-11-02",
   "type": "ferramentas",
   "title": "Publicação editorial verificada — 2026-11-02",
