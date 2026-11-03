@@ -2511,6 +2511,24 @@
         "officialUrl": "https://samgeo.gishub.org/",
         "evidence": "Documentação oficial SamGeo e repositório do projeto opengeos/segment-geospatial confirmam licença MIT, segmentação de GeoTIFF com SAM e exportação GeoJSON/GeoPackage/Shapefile. Conferida ausência de URL e ID no catálogo de ferramentas e no manifesto; limitações de modelos e dependências explicitadas."
       }
+    },
+    {
+      "category": "tools",
+      "record": {
+        "id": "hot-tasking-manager-humanitarian-mapping",
+        "name": "HOT Tasking Manager — mapeamento humanitário colaborativo",
+        "kind": "plataforma web aberta de coordenação e validação de mapeamento OpenStreetMap",
+        "url": "https://tasks.hotosm.org/",
+        "desc": "Plataforma da Humanitarian OpenStreetMap Team (HOT) para dividir regiões em tarefas de mapeamento colaborativo, acompanhar progresso e validar feições como edifícios e vias no OpenStreetMap. Útil para localizar lacunas cartográficas e apoiar investigações territoriais e de desastres; a cobertura e a qualidade dependem das contribuições e da revisão comunitária. Não substitui validação em campo nem comprova, por si só, condições atuais de uma área.",
+        "discoveryUrl": "https://hotosm.org/"
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Radar PLOT — revisão editorial assistida",
+        "reviewedAt": "2026-11-03",
+        "officialUrl": "https://tasks.hotosm.org/",
+        "evidence": "Página oficial tasks.hotosm.org confirma divisão de projetos de mapeamento, uso de imagens para mapear edificações e vias e validação por colaboradores experientes; documentação HOT/OSGeo confirma código aberto e coordenação de tarefas. Conferida ausência de domínio, URL e ID no catálogo e manifesto; registradas limitações de cobertura e verificação."
+      }
     }
   ]
 }
