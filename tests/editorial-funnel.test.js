@@ -1,5 +1,6 @@
 const test=require('node:test'),assert=require('node:assert/strict');
 const {editorialFunnel}=require('../scripts/editorial-funnel');
+test('reports pending aging without treating missing dates as old',()=>{const r=editorialFunnel({candidates:[{status:'pending',firstSeen:'2026-09-01'},{status:'pending',firstSeen:'2026-10-20'},{status:'pending'}]},{approved:[]},{},new Date('2026-11-03T12:00:00Z'));assert.deepEqual(r.pendingAging,{olderThan14Days:2,olderThan30Days:1,missingFirstSeen:1});});
 test('distinguishes pending leads, approved manifest and confirmed publications',()=>{
  const r=editorialFunnel({candidates:[{status:'pending',reviewPriority:'high'},{status:'pending'},{status:'published'}]},{approved:[{category:'opportunities'},{category:'tools'}]});
  assert.equal(r.pending,2);assert.equal(r.highPriorityPending,1);
