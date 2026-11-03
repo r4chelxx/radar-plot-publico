@@ -11,7 +11,7 @@ const limit=Math.min(30,Math.max(1,Number(process.env.EDITORIAL_BATCH_LIMIT||15)
 const leads=Object.entries(state.leads||{}).filter(([,x])=>x.classification==='needs-editorial-review'&&!['published','rejected','duplicate','archived'].includes(x.editorialStatus));
 leads.sort((a,b)=>String(a[1].lastEditorialQueuedAt||'').localeCompare(String(b[1].lastEditorialQueuedAt||''))||
  Number(Boolean(b[1].lastInspectedAt))-Number(Boolean(a[1].lastInspectedAt))||
- Number(b[1].category==='opportunities')-Number(a[1].category==='opportunities')||
+ Number(a[1].category!=='opportunities')-Number(b[1].category!=='opportunities')||
  String(a[1].lastInspectedAt||'').localeCompare(String(b[1].lastInspectedAt||''))||
  String(a[0]).localeCompare(String(b[0])));
 const candidates=leads.slice(0,limit).map(([id,x])=>{
