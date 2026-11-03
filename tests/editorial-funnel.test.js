@@ -14,4 +14,5 @@ test('reports opportunity signals and pending backlog without approving them',()
 
 test('reports categorized backlog separately from keyword signals',()=>{const r=editorialFunnel({candidates:[{id:'1',status:'pending',category:'opportunities',title:'Open call'},{id:'2',status:'pending',category:'tools',title:'Grant tool'}]},{approved:[]});assert.equal(r.pendingByCategory.opportunities,1);assert.equal(r.pendingByCategory.tools,1);});
 
+test('separates classified opportunities from uncategorized pending leads',()=>{const r=editorialFunnel({candidates:[{status:'pending',category:'opportunities'},{status:'pending',category:'uncategorized'},{status:'pending'},{status:'rejected',category:'uncategorized'}]},{approved:[]});assert.equal(r.classifiedOpportunityPending,1);assert.equal(r.unclassifiedPending,2);assert.equal(r.unclassifiedShare,66.7);});
 test('legacy unknown categories remain explicit until reclassified',()=>{const r=editorialFunnel({candidates:[{id:'legacy',status:'pending',title:'Unclassified lead'}]},{approved:[]});assert.equal(r.pendingByCategory.unknown,1);});
