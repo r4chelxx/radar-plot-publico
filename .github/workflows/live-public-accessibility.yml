@@ -10,13 +10,18 @@ on:
       - 'app.js'
       - 'styles.css'
   workflow_dispatch:
+  pull_request:
+    paths:
+      - '.github/workflows/live-public-accessibility.yml'
+      - 'tests/accessibility-public.spec.cjs'
+      - 'playwright.config.cjs'
   schedule:
     - cron: '0 12 * * 1'
 permissions:
   contents: read
 jobs:
   public-accessibility:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
