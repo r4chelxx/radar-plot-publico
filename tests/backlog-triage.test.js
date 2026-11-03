@@ -98,3 +98,12 @@ test('untrusted redirect destinations are not treated as publisher evidence',()=
   assert.equal(r.sourceResolution[0].resolvedDirectUrl,null,bad);
  }
 });
+
+test('resolved indirect leads enter human review with publisher URL but are never approved',()=>{
+ const q={candidates:[{id:'news',title:'Journalism Grant',url:'https://news.google.com/rss/articles/abc',category:'opportunities',reviewPriority:'high',status:'pending'}]};
+ const r=report(q,{leads:{news:{finalUrl:'https://publisher.example/grant'}}});
+ assert.equal(r.dailyReview.length,1);
+ assert.equal(r.dailyReview[0].reviewUrl,'https://publisher.example/grant');
+ assert.equal(r.dailyReview[0].requiresSourceReview,false);
+ assert.equal(q.candidates[0].status,'pending');
+});
