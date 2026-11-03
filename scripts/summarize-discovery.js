@@ -20,7 +20,7 @@ lines.push('','### Funil editorial persistido',
  '- Candidatos novos nesta execução (comparação com snapshot): '+(funnel.currentRunNewCandidates??'indisponível'),
  '- Pendências por categoria: '+Object.entries(funnel.pendingByCategory||{}).map(([k,v])=>k+'='+v).join(', '),
  '- Oportunidades classificadas pendentes: '+(funnel.classifiedOpportunityPending??'indisponível'),
- '- Pendentes sem classificação: '+(funnel.unclassifiedPending??'indisponível')+' ('+(funnel.unclassifiedShare??'indisponível')+'%),
+ '- Pendentes sem classificação: '+(funnel.unclassifiedPending??'indisponível')+' ('+(funnel.unclassifiedShare??'indisponível')+'%)',
  '- Sinais heurísticos de oportunidades: '+(funnel.opportunitySignalPending??'indisponível'),
  '- Pendência mais antiga: '+(funnel.oldestPendingFirstSeen||'não informado'));
 lines.push('A categoria desconhecida indica registros legados sem classificação. Sinais por palavras-chave não equivalem a editais verificados.');
