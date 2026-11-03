@@ -1,6 +1,9 @@
 name: Publish approved editorial records
 on:
   workflow_dispatch:
+  pull_request:
+    paths:
+      - '.github/workflows/editorial-publish.yml'
   push:
     branches: [main]
     paths:
@@ -16,7 +19,7 @@ permissions:
   pull-requests: write
 jobs:
   publish:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
@@ -73,7 +76,7 @@ jobs:
         if: steps.changes.outputs.changed == 'true'
         run: node scripts/check-links.js
       - name: Create and merge verified editorial PR
-        if: steps.changes.outputs.changed == 'true'
+        if: github.event_name != 'pull_request' && steps.changes.outputs.changed == 'true'
         env:
           GH_TOKEN: ${{ github.token }}
         shell: bash
@@ -95,7 +98,7 @@ jobs:
         run: |
           echo "No new approved editorial records; no publication or deployment was triggered." >> "$GITHUB_STEP_SUMMARY"
       - name: Verify approved records on deployed public site
-        if: steps.changes.outputs.changed == 'true'
+        if: github.event_name != 'pull_request' && steps.changes.outputs.changed == 'true'
         env:
           RADAR_DEPLOY_RETRIES: "10"
           RADAR_DEPLOY_DELAY_MS: "15000"
