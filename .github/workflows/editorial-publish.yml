@@ -72,9 +72,9 @@ jobs:
       - name: Test desktop and mobile
         if: steps.changes.outputs.changed == 'true'
         run: npx playwright test
-      - name: Audit public links before publication
+      - name: Audit new editorial record URLs before publication
         if: steps.changes.outputs.changed == 'true'
-        run: node scripts/check-links.js
+        run: node scripts/check-new-editorial-links.js
       - name: Create and merge verified editorial PR
         if: github.event_name != 'pull_request' && steps.changes.outputs.changed == 'true'
         env:
