@@ -1,6 +1,22 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.tools=[
 {
+  "id": "samgeo-geospatial-image-segmentation",
+  "name": "SamGeo — segmentação de imagens geoespaciais com IA",
+  "kind": "biblioteca Python aberta para análise de imagens e sensoriamento remoto",
+  "url": "https://samgeo.gishub.org/",
+  "desc": "Biblioteca Python de código aberto (licença MIT) para segmentar imagens geoespaciais com modelos Segment Anything (SAM), trabalhar com GeoTIFF e exportar resultados como GeoJSON, GeoPackage ou Shapefile. Útil para investigar mudanças de uso do solo e analisar imagens de satélite; exige validação humana dos segmentos, ambiente Python e recursos computacionais adequados. Modelos de IA podem produzir falsos positivos e omissões.",
+  "discoveryUrl": "https://samgeo.gishub.org/"
+},
+{
+  "id": "hot-tasking-manager-humanitarian-mapping",
+  "name": "HOT Tasking Manager — mapeamento humanitário colaborativo",
+  "kind": "plataforma web aberta de coordenação e validação de mapeamento OpenStreetMap",
+  "url": "https://tasks.hotosm.org/",
+  "desc": "Plataforma da Humanitarian OpenStreetMap Team (HOT) para dividir regiões em tarefas de mapeamento colaborativo, acompanhar progresso e validar feições como edifícios e vias no OpenStreetMap. Útil para localizar lacunas cartográficas e apoiar investigações territoriais e de desastres; a cobertura e a qualidade dependem das contribuições e da revisão comunitária. Não substitui validação em campo nem comprova, por si só, condições atuais de uma área.",
+  "discoveryUrl": "https://hotosm.org/"
+}, 
+{
   "id": "d3js-interactive-data-visualization",
   "name": "D3.js — visualização de dados interativa",
   "kind": "biblioteca JavaScript para visualizações e narrativas interativas",
