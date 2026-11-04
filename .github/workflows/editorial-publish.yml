@@ -75,6 +75,31 @@ jobs:
       - name: Audit new editorial record URLs before publication
         if: steps.changes.outputs.changed == 'true'
         run: node scripts/check-new-editorial-links.js
+      - name: Report actual new records by category
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          node - <<'NODE'
+          const fs=require('fs'),vm=require('vm'),cp=require('child_process');
+          const categories=['opportunities','tools','datasets'];
+          function load(source,key){
+            const ctx={window:{RADAR_PARTS:{}}};
+            vm.createContext(ctx);
+            vm.runInContext(source,ctx);
+            return ctx.window.RADAR_PARTS[key]||[];
+          }
+          const lines=[];
+          for(const key of categories){
+            const path='data/'+key+'.js';
+            const before=load(cp.execFileSync('git',['show','HEAD:'+path],{encoding:'utf8'}),key);
+            const after=load(fs.readFileSync(path,'utf8'),key);
+            const known=new Set(before.map(x=>String(x.id)));
+            const added=after.filter(x=>!known.has(String(x.id)));
+            lines.push('- '+key+': '+added.length+' novo(s)');
+            if(added.length<2)lines.push('  - ALERTA: meta editorial de 2 novos registros não alcançada nesta execução.');
+          }
+          fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY,'### Publicações novas por categoria\\n'+lines.join('\\n')+'\\n');
+          console.log(lines.join('\\n'));
+          NODE
       - name: Create and merge verified editorial PR
         if: github.event_name != 'pull_request' && steps.changes.outputs.changed == 'true'
         env:
