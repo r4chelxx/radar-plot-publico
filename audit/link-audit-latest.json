@@ -1,10 +1,11 @@
 {
-  "checkedAt": "2026-11-03T22:17:03.698Z",
+  "checkedAt": "2026-11-04T18:35:41.342Z",
   "policy": "404/410 and ArcGIS application errors within HTTP 200 become broken only after appearing as suspect or broken in the previous audit; blocked and network results are inconclusive",
   "counts": {
-    "ok": 449,
-    "blocked": 46,
-    "network": 27
+    "ok": 444,
+    "blocked": 48,
+    "network": 29,
+    "server": 1
   },
   "results": [
     {
@@ -1971,11 +1972,13 @@
       "type": "dataset",
       "id": "mapbiomas-alerta",
       "url": "https://plataforma.alerta.mapbiomas.org/",
-      "status": 200,
-      "finalUrl": "https://plataforma.alerta.mapbiomas.org/",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "AbortError:This operation was aborted",
       "attempts": [
-        200
+        "AbortError:This operation was aborted",
+        "AbortError:This operation was aborted"
       ]
     },
     {
@@ -2015,11 +2018,11 @@
       "type": "dataset",
       "id": "hdx-humanitarian-data",
       "url": "https://data.humdata.org/",
-      "status": 202,
+      "status": 406,
       "finalUrl": "https://data.humdata.org/",
-      "class": "ok",
+      "class": "blocked",
       "attempts": [
-        202
+        406
       ]
     },
     {
@@ -2089,6 +2092,7 @@
       "finalUrl": "https://map.geo.sei.ba.gov.br/arcgis/rest/services/servicos_sei/LOCALIDADE_BAHIA/MapServer?f=json",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -2100,6 +2104,7 @@
       "finalUrl": "https://map.geo.sei.ba.gov.br/arcgis/rest/services/servicos_sei/DPA_A_100K_VIGENTE_GCS_SIR_SEI/FeatureServer/0?f=json",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -2112,7 +2117,7 @@
       "class": "network",
       "error": "TypeError:fetch failed",
       "attempts": [
-        "TypeError:fetch failed",
+        "AbortError:This operation was aborted",
         "TypeError:fetch failed"
       ]
     },
@@ -2384,6 +2389,7 @@
       "finalUrl": "https://www.ba.gov.br/saude/suvisa/vigilancia-epidemiologica",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -2395,6 +2401,7 @@
       "finalUrl": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -2439,6 +2446,7 @@
       "finalUrl": "https://www.gov.br/ana/pt-br/assuntos/regulacao-e-fiscalizacao/cadastro-nacional-de-usuarios-recursos-hidricos-cnarh",
       "class": "ok",
       "attempts": [
+        "TypeError:fetch failed",
         200
       ]
     },
@@ -2548,9 +2556,10 @@
       "id": "novo-caged",
       "url": "https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/estatisticas-trabalho/novo-caged",
       "status": 200,
-      "finalUrl": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/acoes-e-programas/programas-projetos-acoes-obras-e-atividades/estatisticas-trabalho/novo-caged/2026/agosto/pagina-inicial",
+      "finalUrl": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/acoes-e-programas/programas-projetos-acoes-obras-e-atividades/estatisticas-trabalho/novo-caged/2026/setembro/pagina-inicial",
       "class": "ok",
       "attempts": [
+        "TypeError:fetch failed",
         200
       ]
     },
@@ -2997,6 +3006,7 @@
       "finalUrl": "https://www.gov.br/cidades/pt-br/acesso-a-informacao/acoes-e-programas/saneamento/sinisa",
       "class": "ok",
       "attempts": [
+        "TypeError:fetch failed",
         200
       ]
     },
@@ -3144,6 +3154,7 @@
       "finalUrl": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/dados-abertos/cadastros",
       "class": "ok",
       "attempts": [
+        "TypeError:fetch failed",
         200
       ]
     },
@@ -3696,11 +3707,11 @@
       "type": "source",
       "id": "Grants for Journalists — LinkedIn",
       "url": "https://www.linkedin.com/company/grants-for-journalists/",
-      "status": 200,
+      "status": 403,
       "finalUrl": "https://www.linkedin.com/company/grants-for-journalists/",
-      "class": "ok",
+      "class": "blocked",
       "attempts": [
-        200
+        403
       ]
     },
     {
@@ -4983,11 +4994,12 @@
       "type": "tool",
       "id": "inkscape-svg-editor",
       "url": "https://inkscape.org/",
-      "status": 200,
+      "status": 502,
       "finalUrl": "https://inkscape.org/",
-      "class": "ok",
+      "class": "server",
       "attempts": [
-        200
+        502,
+        502
       ]
     },
     {
@@ -5479,11 +5491,13 @@
       "type": "tool",
       "id": "genero-numero-do-dado-a-decisao",
       "url": "https://www.generonumero.media/artigos/cartilha-violencia-de-genero/",
-      "status": 200,
-      "finalUrl": "https://www.generonumero.media/artigos/cartilha-violencia-de-genero/",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "TypeError:fetch failed",
+        "TypeError:fetch failed"
       ]
     },
     {
