@@ -40,3 +40,7 @@ for(const [item,expected] of [
  [{title:'Investigative Journalism Fellowship',category:'uncategorized'},'opportunities'],
  [{title:'Journalism conference',category:'uncategorized'},'uncategorized'],
 ])test('category resolution: '+item.title,()=>assert.equal(context.categoryFor(item),expected));
+
+for(const name of ['chromote','React Three Fiber (R3F)','color.adobe.com','Bluesky']){
+ test('known technical lead: '+name,()=>assert.equal(context.inferTechnicalCategory({title:name,url:'https://example.org/'}),'tools'));
+}
