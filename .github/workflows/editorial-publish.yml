@@ -10,7 +10,10 @@ on:
       - 'intake/approved-publications.json'
       - '.github/workflows/editorial-publish.yml'
   schedule:
-    - cron: "0 14 * * *"
+    # Retry publication after later intake windows; approved-only and no-change safe.
+    - cron: "31 12 * * *"
+    - cron: "11 17 * * *"
+    - cron: "41 20 * * *"
 concurrency:
   group: radar-editorial-publish
   cancel-in-progress: false
