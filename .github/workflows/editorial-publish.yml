@@ -77,6 +77,7 @@ jobs:
         if: steps.changes.outputs.changed == 'true'
         run: node scripts/check-new-editorial-links.js
       - name: Report actual new records by category
+        id: category-counts
         if: steps.changes.outputs.changed == 'true'
         run: |
           node - <<'NODE'
@@ -89,6 +90,7 @@ jobs:
             return ctx.window.RADAR_PARTS[key]||[];
           }
           const lines=[];
+          let shortfall=false;
           for(const key of categories){
             const path='data/'+key+'.js';
             const before=load(cp.execFileSync('git',['show','HEAD:'+path],{encoding:'utf8'}),key);
@@ -96,10 +98,11 @@ jobs:
             const known=new Set(before.map(x=>String(x.id)));
             const added=after.filter(x=>!known.has(String(x.id)));
             lines.push('- '+key+': '+added.length+' novo(s)');
-            if(added.length<2)lines.push('  - ALERTA: meta editorial de 2 novos registros não alcançada nesta execução.');
+            if(added.length<2){shortfall=true;lines.push('  - ALERTA: menos de 2 novos registros nesta execução.');}
           }
           fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY,'### Publicações novas por categoria\\n'+lines.join('\\n')+'\\n');
           console.log(lines.join('\\n'));
+          fs.appendFileSync(process.env.GITHUB_OUTPUT,'shortfall='+shortfall+'\n');
           NODE
       - name: Create and merge verified editorial PR
         if: github.event_name != 'pull_request' && steps.changes.outputs.changed == 'true'
@@ -125,7 +128,7 @@ jobs:
           echo "WARNING: Zero new editorial publications. All approved records are already in the catalog, or no new approved records were supplied." >> "$GITHUB_STEP_SUMMARY"
           echo "Daily target remains unmet unless another verified publication run added records; check the live catalog before reporting success." >> "$GITHUB_STEP_SUMMARY"
       - name: Open or update editorial shortfall issue
-        if: github.event_name != 'pull_request' && steps.changes.outputs.changed != 'true'
+        if: github.event_name != 'pull_request' && (steps.changes.outputs.changed != 'true' || steps.category-counts.outputs.shortfall == 'true')
         env:
           GH_TOKEN: ${{ github.token }}
         shell: bash
@@ -133,7 +136,7 @@ jobs:
           set -euo pipefail
           title="Radar 1.0: fila aprovada esgotada — publicações diárias pendentes"
           issue_number=$(gh issue list --state open --limit 100 --json number,title --jq '.[] | select(.title == "Radar 1.0: fila aprovada esgotada — publicações diárias pendentes") | .number' | head -n 1)
-          body="Publicador executado em ${{ github.run_id }} sem novos registros aprovados. Meta editorial: pelo menos 2 oportunidades, 2 ferramentas e 2 bases por dia, sempre mediante verificação. Revisar candidatos pendentes, fontes oficiais, prazos, elegibilidade e duplicidades. Execução: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          body="Publicador executado em ${{ github.run_id }} com meta diária não comprovada (zero ou menos de 2 novos registros em alguma categoria). Meta editorial: pelo menos 2 oportunidades, 2 ferramentas e 2 bases por dia, sempre mediante verificação. Revisar candidatos pendentes, fontes oficiais, prazos, elegibilidade e duplicidades. Execução: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
           if [ -n "$issue_number" ]; then
             gh issue comment "$issue_number" --body "$body"
           else
