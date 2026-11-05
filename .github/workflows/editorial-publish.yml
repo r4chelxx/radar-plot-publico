@@ -128,7 +128,7 @@ jobs:
           echo "WARNING: Zero new editorial publications. All approved records are already in the catalog, or no new approved records were supplied." >> "$GITHUB_STEP_SUMMARY"
           echo "Daily target remains unmet unless another verified publication run added records; check the live catalog before reporting success." >> "$GITHUB_STEP_SUMMARY"
       - name: Open or update editorial shortfall issue
-        if: github.event_name != 'pull_request' && (steps.changes.outputs.changed != 'true' || steps.category-counts.outputs.shortfall == 'true')
+        if: (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch') && (steps.changes.outputs.changed != 'true' || steps.category-counts.outputs.shortfall == 'true')
         env:
           GH_TOKEN: ${{ github.token }}
         shell: bash
