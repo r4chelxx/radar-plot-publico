@@ -23,8 +23,16 @@ function inferCategory(title){
    && !/\b(?:conference|webinar|podcast|interview|guide|report|news|announces? winners?|selected for|awarded to)\b/.test(t))return 'opportunities';
  return 'uncategorized';
 }
+function inferTechnicalCategory(item){
+ const t=String(item.title||'').toLowerCase().trim();
+ const url=String(item.url||'').toLowerCase();
+ if(/^(?:scikit-learn|touchdesigner|bigquery gis|felt|observable plot|openrefine|qgis|datawrapper|flourish|kepler\.gl)$/.test(t))return 'tools';
+ if(/^(?:world bank open data|un data|our world in data|global biodiversity information facility|gbif|humanitarian data exchange)$/.test(t))return 'datasets';
+ if(/\b(?:open data portal|open datasets|dataset catalog|data catalogue)\b/.test(t)&&!/(?:news|blog|conference|guide|tutorial)/.test(t))return 'datasets';
+ return 'uncategorized';
+}
 function categoryFor(item){
- return item.category&&item.category!=='uncategorized'?item.category:inferCategory(item.title);
+ return item.category&&item.category!=='uncategorized'?item.category:(inferCategory(item.title)!=='uncategorized'?inferCategory(item.title):inferTechnicalCategory(item));
 }
 
 function resolvedStatus(candidate){
@@ -53,7 +61,7 @@ for(const candidate of current.review||[]){
 // Reclassify old pending leads without changing reviewed or terminal decisions.
 for(const [id,item] of queue){
  if(item.status==='pending'&&(!item.category||item.category==='uncategorized')){
-  const inferred=inferCategory(item.title);
+  const inferred=categoryFor(item);
   if(inferred!=='uncategorized')queue.set(id,{...item,category:inferred});
  }
 }
