@@ -32,6 +32,7 @@ function inferTechnicalCategory(item){
  return 'uncategorized';
 }
 function categoryFor(item){
+ if(/\bgrants?\s+(?:broad|permission|permissions|access|rights|authority|powers?)\b/i.test(String(item.title||'')))return 'uncategorized';
  return item.category&&item.category!=='uncategorized'?item.category:(inferCategory(item.title)!=='uncategorized'?inferCategory(item.title):inferTechnicalCategory(item));
 }
 
@@ -57,6 +58,9 @@ for(const candidate of current.review||[]){
  }
  const providers=[...new Set([...(old?.providers||[]),...(candidate.providers||[])])].slice(0,30);
  queue.set(candidate.id,{id:candidate.id,title:candidate.title,url:candidate.url,category:categoryFor(candidate)==='uncategorized'?(old?.category||'uncategorized'):categoryFor(candidate),providers,firstSeen:old?.firstSeen||now,lastSeen:now,status:resolvedStatus(candidate)||old?.status||'pending',reviewPriority:candidate.reviewPriority||'normal'});
+}
+for(const [id,item] of queue){
+ if(item.status==='pending'&&item.category==='opportunities'&&categoryFor(item)==='uncategorized')queue.set(id,{...item,category:'uncategorized'});
 }
 // Reclassify old pending leads without changing reviewed or terminal decisions.
 for(const [id,item] of queue){
