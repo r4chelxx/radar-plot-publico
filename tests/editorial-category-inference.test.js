@@ -18,3 +18,13 @@ for(const [title,expected] of [
  ['Legal experts warn new terms grant broad scraping permissions','uncategorized'],
  ['Data visualization toolkit','uncategorized'],
 ])test(title,()=>assert.equal(context.inferCategory(title),expected));
+
+const technical=source.match(/function inferTechnicalCategory\(item\)\{[\s\S]*?\n\}/);
+assert.ok(technical,'technical category inference must exist');
+vm.runInContext(technical[0]+';this.inferTechnicalCategory=inferTechnicalCategory;',context);
+for(const [title,expected] of [
+ ['Scikit-learn','tools'],['TouchDesigner','tools'],['BigQuery GIS','tools'],
+ ['Open Data Portal','datasets'],['Dataset catalog','datasets'],
+ ['Conference on open data portals','uncategorized'],['Data visualization conference','uncategorized'],
+ ['The Guardian','uncategorized']
+])test('technical: '+title,()=>assert.equal(context.inferTechnicalCategory({title,url:'https://example.org/'}),expected));
