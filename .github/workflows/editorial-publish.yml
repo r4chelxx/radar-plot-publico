@@ -11,6 +11,7 @@ on:
       - '.github/workflows/editorial-publish.yml'
   schedule:
     # Retry publication after later intake windows; approved-only and no-change safe.
+    - cron: "0 14 * * *"
     - cron: "31 12 * * *"
     - cron: "11 17 * * *"
     - cron: "41 20 * * *"
