@@ -26,9 +26,9 @@ function inferCategory(title){
 function inferTechnicalCategory(item){
  const t=String(item.title||'').toLowerCase().trim();
  const url=String(item.url||'').toLowerCase();
- if(/^(?:scikit-learn|touchdesigner|bigquery gis|felt|observable plot|openrefine|qgis|datawrapper|flourish|kepler\\.gl)$/.test(t))return 'tools';
+ if(/^(?:scikit-learn|touchdesigner|bigquery gis|felt|observable plot|openrefine|qgis|datawrapper|flourish|kepler\.gl)$/.test(t))return 'tools';
  if(/^(?:world bank open data|un data|our world in data|global biodiversity information facility|gbif|humanitarian data exchange)$/.test(t))return 'datasets';
- if(/\\b(?:open data portal|open datasets|dataset catalog|data catalogue)\\b/.test(t)&&!/(?:news|blog|conference|guide|tutorial)/.test(t))return 'datasets';
+ if(/\b(?:open data portal|open datasets|dataset catalog|data catalogue)\b/.test(t)&&!/(?:news|blog|conference|guide|tutorial)/.test(t))return 'datasets';
  return 'uncategorized';
 }
 function categoryFor(item){
