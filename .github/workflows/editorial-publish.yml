@@ -17,6 +17,7 @@ concurrency:
 permissions:
   contents: write
   pull-requests: write
+  issues: write
 jobs:
   publish:
     runs-on: ubuntu-24.04
@@ -123,6 +124,21 @@ jobs:
         run: |
           echo "WARNING: Zero new editorial publications. All approved records are already in the catalog, or no new approved records were supplied." >> "$GITHUB_STEP_SUMMARY"
           echo "Daily target remains unmet unless another verified publication run added records; check the live catalog before reporting success." >> "$GITHUB_STEP_SUMMARY"
+      - name: Open or update editorial shortfall issue
+        if: github.event_name != 'pull_request' && steps.changes.outputs.changed != 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          title="Radar 1.0: fila aprovada esgotada — publicações diárias pendentes"
+          issue_number=$(gh issue list --state open --limit 100 --json number,title --jq '.[] | select(.title == "Radar 1.0: fila aprovada esgotada — publicações diárias pendentes") | .number' | head -n 1)
+          body="Publicador executado em ${{ github.run_id }} sem novos registros aprovados. Meta editorial: pelo menos 2 oportunidades, 2 ferramentas e 2 bases por dia, sempre mediante verificação. Revisar candidatos pendentes, fontes oficiais, prazos, elegibilidade e duplicidades. Execução: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          if [ -n "$issue_number" ]; then
+            gh issue comment "$issue_number" --body "$body"
+          else
+            gh issue create --title "$title" --body "$body"
+          fi
       - name: Verify approved records on deployed public site
         if: github.event_name != 'pull_request' && steps.changes.outputs.changed == 'true'
         env:
