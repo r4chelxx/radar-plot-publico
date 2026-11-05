@@ -15,5 +15,6 @@ for(const [title,expected] of [
  ['Journalist selected for fellowship','uncategorized'],
  ['Conference on journalism grants','uncategorized'],
  ['Report about grant funding','uncategorized'],
+ ['Legal experts warn new terms grant broad scraping permissions','uncategorized'],
  ['Data visualization toolkit','uncategorized'],
 ])test(title,()=>assert.equal(context.inferCategory(title),expected));
