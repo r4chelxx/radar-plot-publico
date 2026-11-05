@@ -28,3 +28,15 @@ for(const [title,expected] of [
  ['Conference on open data portals','uncategorized'],['Data visualization conference','uncategorized'],
  ['The Guardian','uncategorized']
 ])test('technical: '+title,()=>assert.equal(context.inferTechnicalCategory({title,url:'https://example.org/'}),expected));
+
+const categoryForSource=source.match(/function categoryFor\(item\)\{[\s\S]*?\n\}/);
+assert.ok(categoryForSource,'category resolver must exist');
+vm.runInContext(categoryForSource[0]+';this.categoryFor=categoryFor;',context);
+for(const [item,expected] of [
+ [{title:'Legal experts warn terms grant broad scraping permissions',category:'opportunities'},'uncategorized'],
+ [{title:'Grant access to a private dataset',category:'opportunities'},'uncategorized'],
+ [{title:'Felt',category:'uncategorized'},'tools'],
+ [{title:'World Bank Open Data',category:'uncategorized'},'datasets'],
+ [{title:'Investigative Journalism Fellowship',category:'uncategorized'},'opportunities'],
+ [{title:'Journalism conference',category:'uncategorized'},'uncategorized'],
+])test('category resolution: '+item.title,()=>assert.equal(context.categoryFor(item),expected));
