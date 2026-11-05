@@ -18,6 +18,7 @@ const terminal=new Set(['published','rejected','duplicate','archived']);
 // Classify strong opportunity signals only; this is triage, never approval.
 function inferCategory(title){
  const t=String(title||'').toLowerCase();
+ if(/\bgrants?\s+(?:broad|permission|permissions|access|rights|authority|powers?)\b/.test(t))return 'uncategorized';
  if(/\b(?:fellowships?|scholarships?|grants?|funding|funded|stipends?|bolsas?|editais?)\b|\bcall for applications\b|\bapplications? open\b/.test(t)
    && !/\b(?:conference|webinar|podcast|interview|guide|report|news|announces? winners?|selected for|awarded to)\b/.test(t))return 'opportunities';
  return 'uncategorized';
