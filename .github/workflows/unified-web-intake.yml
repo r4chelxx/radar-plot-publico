@@ -203,6 +203,18 @@ jobs:
             git push origin radar-state
           fi
           git switch -
+      - name: Verify persisted category classification
+        if: github.event_name != 'pull_request'
+        run: |
+          node - <<'NODE'
+          const fs=require('node:fs');
+          const q=JSON.parse(fs.readFileSync('/tmp/radar-persisted-editorial-queue.json','utf8'));
+          const names=new Set(['felt','bigquery gis','scikit-learn','touchdesigner']);
+          const matches=(q.candidates||[]).filter(x=>x.status==='pending'&&names.has(String(x.title||'').toLowerCase().trim()));
+          const bad=matches.filter(x=>x.category!=='tools');
+          fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY,'Known technical pending leads: '+matches.length+'; category mismatches: '+bad.length+'\n');
+          if(bad.length){console.error('Incorrect persisted categories:',bad.map(x=>x.title));process.exitCode=1;}
+          NODE
       - name: Reload current persisted editorial queue for reporting
         if: github.event_name != 'pull_request'
         run: |
