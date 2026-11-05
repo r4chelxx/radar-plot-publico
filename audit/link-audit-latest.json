@@ -1,10 +1,10 @@
 {
-  "checkedAt": "2026-11-04T18:35:41.342Z",
+  "checkedAt": "2026-11-05T18:40:36.410Z",
   "policy": "404/410 and ArcGIS application errors within HTTP 200 become broken only after appearing as suspect or broken in the previous audit; blocked and network results are inconclusive",
   "counts": {
-    "ok": 444,
-    "blocked": 48,
-    "network": 29,
+    "ok": 446,
+    "blocked": 45,
+    "network": 30,
     "server": 1
   },
   "results": [
@@ -298,11 +298,13 @@
       "type": "source",
       "id": "The Open Notebook — Early-Career Fellowship",
       "url": "https://www.theopennotebook.com/early-career-fellowship-program/",
-      "status": 200,
-      "finalUrl": "https://www.theopennotebook.com/early-career-fellowship-program/",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "TypeError:fetch failed",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -412,6 +414,7 @@
       "finalUrl": "https://www.faspe-ethics.org/journalism/",
       "class": "ok",
       "attempts": [
+        "TypeError:fetch failed",
         200
       ]
     },
@@ -771,11 +774,11 @@
       "type": "opportunity",
       "id": "pulitzer-env",
       "url": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/our-work-environment-grants",
-      "status": 403,
+      "status": 200,
       "finalUrl": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/our-work-environment-grants",
-      "class": "blocked",
+      "class": "ok",
       "attempts": [
-        403
+        200
       ]
     },
     {
@@ -793,11 +796,11 @@
       "type": "opportunity",
       "id": "pulitzer-ai-2627",
       "url": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/ai-accountability-fellowships",
-      "status": 403,
+      "status": 200,
       "finalUrl": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/ai-accountability-fellowships",
-      "class": "blocked",
+      "class": "ok",
       "attempts": [
-        403
+        200
       ]
     },
     {
@@ -1972,13 +1975,11 @@
       "type": "dataset",
       "id": "mapbiomas-alerta",
       "url": "https://plataforma.alerta.mapbiomas.org/",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "AbortError:This operation was aborted",
+      "status": 200,
+      "finalUrl": "https://plataforma.alerta.mapbiomas.org/",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "AbortError:This operation was aborted"
+        200
       ]
     },
     {
@@ -2018,22 +2019,24 @@
       "type": "dataset",
       "id": "hdx-humanitarian-data",
       "url": "https://data.humdata.org/",
-      "status": 406,
+      "status": 202,
       "finalUrl": "https://data.humdata.org/",
-      "class": "blocked",
+      "class": "ok",
       "attempts": [
-        406
+        202
       ]
     },
     {
       "type": "dataset",
       "id": "salvador-compras",
       "url": "https://transparencia.salvador.ba.gov.br/",
-      "status": 200,
-      "finalUrl": "https://transparencia.salvador.ba.gov.br/",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "TypeError:fetch failed",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -2092,7 +2095,6 @@
       "finalUrl": "https://map.geo.sei.ba.gov.br/arcgis/rest/services/servicos_sei/LOCALIDADE_BAHIA/MapServer?f=json",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -2104,7 +2106,6 @@
       "finalUrl": "https://map.geo.sei.ba.gov.br/arcgis/rest/services/servicos_sei/DPA_A_100K_VIGENTE_GCS_SIR_SEI/FeatureServer/0?f=json",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -2389,7 +2390,6 @@
       "finalUrl": "https://www.ba.gov.br/saude/suvisa/vigilancia-epidemiologica",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -2401,7 +2401,6 @@
       "finalUrl": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -2446,7 +2445,6 @@
       "finalUrl": "https://www.gov.br/ana/pt-br/assuntos/regulacao-e-fiscalizacao/cadastro-nacional-de-usuarios-recursos-hidricos-cnarh",
       "class": "ok",
       "attempts": [
-        "TypeError:fetch failed",
         200
       ]
     },
@@ -2526,6 +2524,7 @@
       "finalUrl": "https://salvador.ba.gov.br/",
       "class": "ok",
       "attempts": [
+        "TypeError:fetch failed",
         200
       ]
     },
@@ -2548,6 +2547,7 @@
       "finalUrl": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/acoes-e-programas/programas-projetos-acoes-obras-e-atividades/estatisticas-trabalho/rais/rais-2025/rais-2025",
       "class": "ok",
       "attempts": [
+        "TypeError:fetch failed",
         200
       ]
     },
@@ -2559,7 +2559,6 @@
       "finalUrl": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/acoes-e-programas/programas-projetos-acoes-obras-e-atividades/estatisticas-trabalho/novo-caged/2026/setembro/pagina-inicial",
       "class": "ok",
       "attempts": [
-        "TypeError:fetch failed",
         200
       ]
     },
@@ -2663,7 +2662,7 @@
       "class": "network",
       "error": "TypeError:fetch failed",
       "attempts": [
-        "TypeError:fetch failed",
+        "AbortError:This operation was aborted",
         "TypeError:fetch failed"
       ]
     },
@@ -3006,7 +3005,6 @@
       "finalUrl": "https://www.gov.br/cidades/pt-br/acesso-a-informacao/acoes-e-programas/saneamento/sinisa",
       "class": "ok",
       "attempts": [
-        "TypeError:fetch failed",
         200
       ]
     },
@@ -3154,7 +3152,6 @@
       "finalUrl": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/dados-abertos/cadastros",
       "class": "ok",
       "attempts": [
-        "TypeError:fetch failed",
         200
       ]
     },
@@ -5491,13 +5488,11 @@
       "type": "tool",
       "id": "genero-numero-do-dado-a-decisao",
       "url": "https://www.generonumero.media/artigos/cartilha-violencia-de-genero/",
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://www.generonumero.media/artigos/cartilha-violencia-de-genero/",
+      "class": "ok",
       "attempts": [
-        "TypeError:fetch failed",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -5515,11 +5510,13 @@
       "type": "tool",
       "id": "desagrega-biomas-br",
       "url": "https://plugins.qgis.org/plugins/DesagregaBiomasBR/",
-      "status": 200,
-      "finalUrl": "https://plugins.qgis.org/plugins/DesagregaBiomasBR/",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "AbortError:This operation was aborted",
       "attempts": [
-        200
+        "AbortError:This operation was aborted",
+        "AbortError:This operation was aborted"
       ]
     },
     {
