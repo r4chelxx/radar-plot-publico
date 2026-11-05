@@ -32,6 +32,7 @@ function inferTechnicalCategory(item){
  return 'uncategorized';
 }
 function categoryFor(item){
+ if(/\bgrants?\s+(?:broad|permission|permissions|access|rights|authority|powers?)\b/i.test(String(item.title||'')))return 'uncategorized';
  return item.category&&item.category!=='uncategorized'?item.category:(inferCategory(item.title)!=='uncategorized'?inferCategory(item.title):inferTechnicalCategory(item));
 }
 
