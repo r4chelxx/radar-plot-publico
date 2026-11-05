@@ -203,6 +203,15 @@ jobs:
             git push origin radar-state
           fi
           git switch -
+      - name: Reload current persisted editorial queue for reporting
+        if: github.event_name != 'pull_request'
+        run: |
+          # The workflow switched back to main after persisting. Its local queue
+          # may be missing or stale, so read the just-persisted remote branch.
+          git fetch --depth=1 origin radar-state
+          git show FETCH_HEAD:intake/editorial-queue.json > /tmp/radar-persisted-editorial-queue.json
+          node scripts/load-persisted-editorial-queue.js /tmp/radar-persisted-editorial-queue.json intake/editorial-queue-report.json
+          node -e "const r=require('./intake/editorial-queue-report.json');if(r.source!=='radar-state')process.exit(1)"
       - name: Verify persisted category classification
         if: github.event_name != 'pull_request'
         run: |
@@ -215,15 +224,6 @@ jobs:
           fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY,'Known technical pending leads: '+matches.length+'; category mismatches: '+bad.length+'\n');
           if(bad.length){console.error('Incorrect persisted categories:',bad.map(x=>x.title));process.exitCode=1;}
           NODE
-      - name: Reload current persisted editorial queue for reporting
-        if: github.event_name != 'pull_request'
-        run: |
-          # The workflow switched back to main after persisting. Its local queue
-          # may be missing or stale, so read the just-persisted remote branch.
-          git fetch --depth=1 origin radar-state
-          git show FETCH_HEAD:intake/editorial-queue.json > /tmp/radar-persisted-editorial-queue.json
-          node scripts/load-persisted-editorial-queue.js /tmp/radar-persisted-editorial-queue.json intake/editorial-queue-report.json
-          node -e "const r=require('./intake/editorial-queue-report.json');if(r.source!=='radar-state')process.exit(1)"
       - name: Generate read-only backlog triage suggestions
         run: |
           if [ -f /tmp/radar-persisted-editorial-queue.json ]; then
