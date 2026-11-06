@@ -28,7 +28,7 @@ for(const d of decisions.decisions){
   const record=d.record||d.publicationRecord;
   if(!['opportunities','datasets','tools'].includes(category)||!record||typeof record!=='object'||!record.id)throw Error('New approval requires category and complete publication record: '+d.url);
   const target=category==='opportunities'?record.rules:record.url;
-  if(typeof target!=='string'||!/^https:\\/\\//.test(target))throw Error('New approval requires an official HTTPS record URL: '+d.url);
+  if(typeof target!=='string'||!/^https:\/\//.test(target))throw Error('New approval requires an official HTTPS record URL: '+d.url);
   if(nextManifest.approved.some(x=>x.record?.id===record.id||x.review?.officialUrl===d.officialUrl))throw Error('Duplicate approved publication record: '+record.id);
   nextManifest.approved.push({category,record,review:{decision:'approved',reviewedBy:d.reviewedBy,reviewedAt:d.reviewedAt,officialUrl:d.officialUrl,evidence:d.reason}});
 }
