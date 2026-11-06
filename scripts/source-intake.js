@@ -4,20 +4,10 @@ const crypto = require('node:crypto');
 const {normalizeLink}=require('./normalize-lead-link');
 
 const {sources:unique,registryCount,invalidOrDuplicate}=require('./load-source-catalog').loadSources();
-// Full catalog sweep by default: SOURCE_LIMIT is only an explicit diagnostic override.
-const configuredLimit = process.env.SOURCE_LIMIT;
-const limit = configuredLimit && configuredLimit.toLowerCase() !== 'all'
-  ? Math.max(1, Math.floor(Number(configuredLimit)))
-  : Math.max(1, unique.length);
-const daily = unique.filter(s=>s.cadence==='diária');
-const rotating = unique.filter(s=>s.cadence!=='diária');
-const batchCount = Math.max(1,Math.ceil(rotating.length / limit));
-// Full default sweep has one batch; a diagnostic override may rotate a smaller batch.
-const batchIndex = batchCount===1 ? 0 : Math.floor(Date.now()/86400000) % batchCount;
-const selected = rotating.slice(batchIndex*limit, (batchIndex+1)*limit);
-const selectedSources = [...new Map([...daily,...selected].map(s=>[s.url,s])).values()];
-const dailyExpected = daily.length;
-const concurrency = Math.max(1,Math.min(12,Number(process.env.SOURCE_CONCURRENCY||8)));
+const {selectSourceSweep}=require('./select-source-sweep');
+const {limit,daily,rotating,selected,selectedSources,batchCount,batchIndex}=selectSourceSweep(unique,{limit:process.env.SOURCE_LIMIT});
+const dailyExpected=daily.length;
+const concurrency=Math.max(1,Math.min(12,Number(process.env.SOURCE_CONCURRENCY||8)));
 async function inspect(s) {
   const controller = new AbortController();
   const timer = setTimeout(()=>controller.abort(),12000);
