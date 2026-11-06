@@ -17,6 +17,20 @@ function deriveOpportunity(lead,url){
  if(lead.category!=='opportunities'||!se||!se.eligibilityExplicit||!se.title||!se.description||se.description.length<120||!se.organization||!future(se.deadline))return null;
  return {id:derivedId(url),title:se.title,org:se.organization,summary:se.description,type:se.sourceType||'Oportunidade editorial',themes:['Oportunidade editorial'],scope:'Não especificado',deadline:se.deadline,deadlineStatus:'prazo extraído de metadado estruturado da fonte oficial; horário e condições devem ser conferidos na página',eligibility:'parcial',fit:5,status:'aberta',value:'Não informado na fonte estruturada',duration:'Não informado na fonte estruturada',modality:se.sourceType||'Não especificado',documents:[],restrictions:[],rules:url,apply:url,verified:today,desc:se.description,discoveryUrl:lead.url,verificationHistory:[{date:today,status:'aberta',source:url}]};
 }
+function deriveDataset(lead,url){
+ const se=lead.structuredEvidence;
+ if(lead.category!=='datasets'||!se||!se.title||!se.description||se.description.length<80||!se.organization)return null;
+ const sourceType=String(se.sourceType||'').toLowerCase();
+ if(sourceType&&!/dataset|datacatalog|catalog/.test(sourceType))return null;
+ return {id:derivedId(url),name:se.title,org:se.organization,territoryTier:'Outros',kind:'dataset',themes:['Dados abertos'],coverage:se.description,frequency:'Não informado na fonte estruturada',format:'Não informado na fonte estruturada',period:'Não informado na fonte estruturada',granularity:'Não informado na fonte estruturada',geoUnit:'Não informado na fonte estruturada',api:'Não informado na fonte estruturada',docs:url,limitations:'Metadados estruturados confirmam a existência do recurso, mas cobertura, atualização, licença e qualidade devem ser conferidas antes do uso editorial.',lastChecked:today,url,discoveryUrl:lead.url,description:se.description};
+}
+function deriveTool(lead,url){
+ const se=lead.structuredEvidence;
+ if(lead.category!=='tools'||!se||!se.title||!se.description||se.description.length<80)return null;
+ const sourceType=String(se.sourceType||'').toLowerCase();
+ if(sourceType&&!/software|application|tool|product|creativework/.test(sourceType))return null;
+ return {id:derivedId(url),name:se.title,kind:se.sourceType||'ferramenta',url,desc:se.description+' Revisar licença, limites, privacidade e acessibilidade antes do uso editorial.',discoveryUrl:lead.url};
+}
 const results=(evidence.results||[]);
 const byId=new Map((review.candidates||[]).map(x=>[x.id,x]));
 const decisions=[], blockers=[];
@@ -30,7 +44,7 @@ for(const lead of results){
  if(host(url)!==host(lead.url))fail.push('redirecionamento para host diferente');
  if((lead.possibleMatches||r?.possibleMatches||[]).length)fail.push('possível duplicidade ainda não resolvida');
  let record=lead.publicationRecord||lead.record||r?.publicationRecord||r?.record;
- if(!record)record=deriveOpportunity(lead,url);
+ if(!record){record=deriveOpportunity(lead,url)||deriveDataset(lead,url)||deriveTool(lead,url);}
  if(!record)fail.push('ficha pública estruturada ausente');
  if(lead.category==='opportunities'){
   const deadline=lead.deadline||record?.deadline;
@@ -50,7 +64,7 @@ for(const lead of results){
   if(record?.url&&host(record.url)!==host(url))fail.push('URL oficial não coincide com a fonte auditada');
  } else fail.push('categoria não classificada');
  if(fail.length){blockers.push({url:lead.url,category:lead.category,blockers:fail});continue}
- decisions.push({...base,status:'approved',officialUrl:url,reason:record.id.startsWith('auto-')?'Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam título, organização, descrição, prazo futuro e critério de elegibilidade; registro neutro gerado sem inferir valor ou escopo.':'Fonte primária HTTPS, página HTML acessível, domínio preservado, prazo/eligibilidade/status e duplicidade verificados automaticamente; ficha pública completa anexada.',record});
+ decisions.push({...base,status:'approved',officialUrl:url,reason:record.id.startsWith('auto-')?'Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes.':'Fonte primária HTTPS, página HTML acessível, domínio preservado, prazo/eligibilidade/status e duplicidade verificados automaticamente; ficha pública completa anexada.',record});
 }
 const out={schemaVersion:1,generatedAt:new Date().toISOString(),policy:'Aprovação automática somente quando todos os gates determinísticos estão completos; itens ambíguos permanecem em revisão.',decisions,summary:{inspected:results.length,autoApproved:decisions.length,blocked:blockers.length,byBlocker:blockers.reduce((a,x)=>{for(const b of x.blockers)a[b]=(a[b]||0)+1;return a},{}),today}};
 fs.writeFileSync(process.argv[4]||'intake/auto-editorial-decisions.json',JSON.stringify(out,null,2)+'\n');

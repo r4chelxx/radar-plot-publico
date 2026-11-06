@@ -40,3 +40,20 @@ test('auto-audit creates a neutral record from complete explicit official metada
   assert.equal(out.decisions.length,1);assert.equal(out.decisions[0].record.eligibility,'parcial');assert.match(out.decisions[0].record.id,/^auto-/);
  }finally{fs.rmSync(d,{recursive:true,force:true})}
 });
+
+test('auto-audit creates neutral records for complete dataset and tool metadata',()=>{
+ const d=fs.mkdtempSync(path.join(os.tmpdir(),'radar-auto-audit-catalog-'));
+ try{
+  fs.mkdirSync(path.join(d,'intake'));fs.mkdirSync(path.join(d,'scripts'));
+  fs.copyFileSync('scripts/auto-audit-candidates.js',path.join(d,'scripts/auto-audit-candidates.js'));
+  const results=[
+   {url:'https://official.example/data',finalUrl:'https://official.example/data',pageStatus:'html-fetched',category:'datasets',structuredEvidence:{title:'Official Dataset',description:'B'.repeat(100),organization:'Official Data',sourceType:'Dataset'}},
+   {url:'https://official.example/tool',finalUrl:'https://official.example/tool',pageStatus:'html-fetched',category:'tools',structuredEvidence:{title:'Official Tool',description:'C'.repeat(100),organization:'Official Org',sourceType:'SoftwareApplication'}}
+  ];
+  fs.writeFileSync(path.join(d,'intake/lead-evidence.json'),JSON.stringify({results}));
+  fs.writeFileSync(path.join(d,'intake/editorial-review.json'),JSON.stringify({candidates:[]}));
+  cp.execFileSync(process.execPath,['scripts/auto-audit-candidates.js'],{cwd:d});
+  const out=JSON.parse(fs.readFileSync(path.join(d,'intake/auto-editorial-decisions.json')));
+  assert.equal(out.decisions.length,2);assert.deepEqual(out.decisions.map(x=>x.category).sort(),['datasets','tools']);
+ }finally{fs.rmSync(d,{recursive:true,force:true})}
+});
