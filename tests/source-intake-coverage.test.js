@@ -1,31 +1,40 @@
 'use strict';
-// CI guard for the daily-cadence collector. Does not make network requests.
+// CI guard for the daily-cadence collector and full-catalog default.
 const assert=require('node:assert/strict');
 const fs=require('node:fs');
 const vm=require('node:vm');
 const {loadSources}=require('../scripts/load-source-catalog');
+const {selectSourceSweep}=require('../scripts/select-source-sweep');
 const source=fs.readFileSync('scripts/source-intake.js','utf8');
 new vm.Script(source,{filename:'scripts/source-intake.js'});
 const {sources}=loadSources();
 const daily=sources.filter(s=>s.cadence==='diária');
 assert.ok(daily.length>=20,'Daily source coverage unexpectedly dropped below 20 unique URLs');
-assert.match(source,/const daily = unique\.filter\(s=>s\.cadence==='diária'\)/);
-assert.match(source,/\[\.\.\.daily,\.\.\.selected\]/);
+const full=selectSourceSweep(sources,{now:Date.UTC(2026,10,6)});
+assert.equal(full.batchCount,1,'Default daily discovery must not rotate away catalog sources');
+assert.equal(full.selectedSources.length,sources.length,'Default daily discovery must inspect every registered source');
+assert.equal(full.selected.length,full.rotating.length,'Default daily discovery must include every non-daily source');
+assert.ok(full.daily.every(s=>full.selectedSources.some(x=>x.url===s.url)),'Every daily source must be selected');
+const diagnostic=selectSourceSweep(sources,{limit:15,now:Date.UTC(2026,10,6)});
+assert.ok(diagnostic.selected.length<=15,'Explicit diagnostic batches may be limited');
+assert.ok(diagnostic.daily.every(s=>diagnostic.selectedSources.some(x=>x.url===s.url)),'Diagnostic batches must retain daily sources');
+const all=selectSourceSweep(sources,{limit:'all',now:Date.UTC(2026,10,6)});
+assert.equal(all.selectedSources.length,sources.length,'SOURCE_LIMIT=all must select the complete registry');
+assert.match(source,/Promise\.all\(selectedSources\.slice\(i,i\+concurrency\)\.map\(inspect\)\)/,'Full source sweep must use bounded concurrency');
+assert.match(source,/sourceSweepComplete:results\.length===unique\.length/,'Run output must state whether the complete catalog was scanned');
+assert.match(source,/scanMode:limit>=rotating\.length\?'full-catalog':'diagnostic-rotation'/,'Run output must distinguish full and diagnostic sweeps');
 assert.match(source,/dailyFailures/);
 assert.match(source,/accessSummary/);
 assert.match(source,/const blockedSources=results\.filter\(item=>item\.httpStatus===403\|\|item\.httpStatus===429\)/);
 assert.match(source,/const httpFailures=results\.filter\(item=>item\.accessStatus==='http-error'\)/);
 assert.match(source,/dailyFailures,blockedSources,httpFailures,networkFailures,coverageGaps,accessSummary/);
-assert.match(source,/httpFailures:httpFailures\.length/);
 assert.match(source,/const networkFailures=results\.filter\(item=>item\.accessStatus==='failed'\)/);
 assert.match(source,/networkCode/);
 assert.match(source,/coverageGaps=results\.filter/);
 assert.match(source,/coverageStatus:'partial'/);
-console.log(JSON.stringify({syntax:'ok',uniqueSources:sources.length,dailyUnique:daily.length,collectorDailySelection:'ok'}));
-
+assert.match(source,/const leads=\(response\.ok\?links:\[\]\)\.filter/,'HTTP error pages must not contribute discovery leads');
+assert.match(source,/http-error-page/,'HTTP error pages must be explicitly diagnosed');
+console.log(JSON.stringify({syntax:'ok',uniqueSources:sources.length,dailyUnique:daily.length,defaultSweep:'all-sources',diagnosticLimit:15}));
 const summary=fs.readFileSync('scripts/write-run-summary.js','utf8');
 for(const indicator of ['Fontes diárias esperadas','Fontes diárias consultadas','Fontes diárias acessíveis','Fontes diárias com falha','Fontes com links temáticos extraídos','Fontes acessíveis sem links temáticos','Fontes bloqueadas ou com falha de rede'])assert.ok(summary.includes(indicator),'Missing source health indicator: '+indicator);
 assert.match(summary,/sourceDiagnostics/);
-
-assert.match(source,/const leads=\(response\.ok\?links:\[\]\)\.filter/,'HTTP error pages must not contribute discovery leads');
-assert.match(source,/http-error-page/,'HTTP error pages must be explicitly diagnosed');
