@@ -13,6 +13,16 @@ test('Gmail with one missing OAuth secret reports only the missing secret name',
  assert.equal(r.health[0].reason,'Missing GitHub Actions secret(s): RADAR_GMAIL_REFRESH_TOKEN');
  assert.doesNotMatch(r.health[0].reason,/present/);
 });
+test('Gmail OAuth failure reports the provider error code but never credential values',async()=>{
+ const r=await gmail.collect(async()=>({ok:false,status:401,json:async()=>({error:'invalid_grant',error_description:'must not be logged'})}),{
+  RADAR_GMAIL_CLIENT_ID:'client-id-secret-value',
+  RADAR_GMAIL_CLIENT_SECRET:'client-secret-value',
+  RADAR_GMAIL_REFRESH_TOKEN:'refresh-token-secret-value'
+ });
+ assert.equal(r.health[0].status,'error');
+ assert.equal(r.health[0].reason,'OAuth HTTP 401 invalid_grant');
+ assert.doesNotMatch(r.health[0].reason,/secret-value|must not be logged/);
+});
 test('Gmail metadata links are unverified candidates',()=>{const r=gmail.extract({subject:'Journalism grant applications',snippet:'Apply https://example.org/grant'});assert.equal(r.length,1);assert.equal(r[0].editorialStatus,'unverified')});
 test('Indexed LinkedIn extraction rejects unrelated URLs',()=>{const xml='<item><title>Journalism grant fellowship</title><link>https://www.linkedin.com/posts/example-grant</link></item><item><title>Journalism grant</title><link>https://example.org/grant</link></item>';const r=linkedin.extract(xml);assert.equal(r.length,1);assert.equal(r[0].category,'opportunities')});
 
