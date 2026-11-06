@@ -16,7 +16,7 @@ async function inspect(s) {
   try {
     const response = await fetch(s.url,{signal:controller.signal,headers:{'user-agent':'RadarPLOT-monitor/1.0'}});
     const body = (await response.text()).slice(0,100000);
-    const title = (body.match(/<title[^>]*>([^<]{3,200})<\\/title>/i)||[])[1] || '';
+    const title = (body.match(/<title[^>]*>([^<]{3,200})<\/title>/i)||[])[1] || '';
     const firstLinks=extractLinks(body,response.url);
     const expansionLimit=Math.min(3,Math.max(0,Number(process.env.SOURCE_EXPANSION_LIMIT||2)));
     const expansionUrls=selectExpansionLinks(firstLinks,response.url,expansionLimit);
