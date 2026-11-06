@@ -204,7 +204,7 @@ jobs:
           node - <<'NODE'
           const fs=require('fs');
           const r=JSON.parse(fs.readFileSync('intake/approved-manifest-merge.json','utf8'));
-          fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY,['### Ponte auditoria → publicação','- Aprovações no manifesto atual: '+r.current,'- Aprovações geradas pela auditoria: '+r.incoming,'- Aprovações após merge: '+r.merged].join('\\n')+'\\n');
+          fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY,['### Ponte auditoria → publicação','- Aprovações no manifesto atual: '+r.current,'- Aprovações geradas pela auditoria: '+r.incoming,'- Aprovações após merge: '+r.merged].join('\n')+'\n');
           NODE
             if node -e "const fs=require('fs');const a=JSON.stringify(JSON.parse(fs.readFileSync('intake/approved-publications-merged.json')));const b=JSON.stringify(JSON.parse(fs.readFileSync('intake/approved-publications-current.json')));process.exit(a===b?0:1)"; then
               echo "Public approval manifest is already current."
