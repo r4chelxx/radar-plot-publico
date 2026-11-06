@@ -24,7 +24,7 @@ async function inspect(s) {
     for(const pageUrl of expansionUrls){
       try{
         const page=await fetch(pageUrl,{signal:controller.signal,headers:{'user-agent':'RadarPLOT-monitor/1.0'}});
-        if(page.ok && /text\\/(html|xhtml\\+xml)/i.test(page.headers.get('content-type')||''))pages.push({url:page.url||pageUrl,body:(await page.text()).slice(0,100000)});
+        if(page.ok && /text\/(html|xhtml\+xml)/i.test(page.headers.get('content-type')||''))pages.push({url:page.url||pageUrl,body:(await page.text()).slice(0,100000)});
       }catch{}
     }
     const allLinks=pages.flatMap(page=>extractLinks(page.body,page.url));
