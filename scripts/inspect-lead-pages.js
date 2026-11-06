@@ -3,6 +3,7 @@ const fs=require('node:fs'),crypto=require('node:crypto');
 const {selectBacklog}=require('./select-historical-backlog');
 const {auditCapacity}=require('./audit-capacity');
 const {inspectionHealth}=require('./inspection-health');
+const {extractStructuredMetadata,metadataForLink}=require('./structured-lead-metadata');
 const input=JSON.parse(fs.readFileSync('intake/candidate-triage.json','utf8'));
 const limit=Math.min(50,Math.max(1,Number(process.env.LEAD_PAGE_LIMIT||15)));
 function allowed(raw){
@@ -19,10 +20,12 @@ async function inspect(lead){
   const contentType=response.headers.get('content-type')||'';
   if(!response.ok||!/(text\/html|application\/xhtml\+xml)/i.test(contentType))return {...lead,pageStatus:response.ok?'non-html':'http-error',httpStatus:response.status,finalUrl:response.url||lead.url,editoriallyVerified:false};
   const html=(await response.text()).slice(0,120000);
+  const structuredMetadata=extractStructuredMetadata(html,response.url||lead.url);
+  const structuredEvidence=metadataForLink(structuredMetadata,response.url||lead.url)||metadataForLink(structuredMetadata,lead.url);
   const title=((html.match(/<title[^>]*>([\s\S]*?)<\/title>/i)||[])[1]||'').replace(/<[^>]+>/g,' ').replace(/\s+/g,' ').trim().slice(0,240);
   const description=((html.match(/<meta[^>]+name=["']description["'][^>]+content=["']([^"']{1,500})/i)||[])[1]||'').trim();
   const dateMentions=[...html.replace(/<script\b[\s\S]*?<\/script>/gi,' ').replace(/<style\b[\s\S]*?<\/style>/gi,' ').replace(/<[^>]+>/g,' ').matchAll(/\b20\d{2}[-\/]\d{2}[-\/]\d{2}\b/g)].slice(0,12).map(x=>x[0]);
-  return {...lead,pageStatus:'html-fetched',httpStatus:response.status,finalUrl:response.url||lead.url,pageTitle:title,pageDescription:description,dateMentionsUnclassified:[...new Set(dateMentions)],fingerprint:crypto.createHash('sha256').update(html).digest('hex').slice(0,16),editoriallyVerified:false};
+  return {...lead,pageStatus:'html-fetched',httpStatus:response.status,finalUrl:response.url||lead.url,pageTitle:title,pageDescription:description,structuredEvidence,deadline:lead.deadline||structuredEvidence?.deadline||null,eligibility:lead.eligibility||structuredEvidence?.eligibility||null,dateMentionsUnclassified:[...new Set(dateMentions)],fingerprint:crypto.createHash('sha256').update(html).digest('hex').slice(0,16),editoriallyVerified:false};
  }catch(e){return {...lead,pageStatus:'fetch-failed',error:String(e).slice(0,200),editoriallyVerified:false}}
  finally{clearTimeout(timer)}
 }
