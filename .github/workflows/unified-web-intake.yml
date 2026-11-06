@@ -143,7 +143,7 @@ jobs:
           if gh api "repos/${GITHUB_REPOSITORY}/contents/state/gmail-backfill-cursor.json?ref=radar-state" --jq .content > /tmp/radar-gmail-cursor-base64 2>/dev/null; then
             base64 --decode /tmp/radar-gmail-cursor-base64 > intake/gmail-backfill-cursor.json
           fi
-      - name: Discover Gmail newsletters (read-only; optional credentials)
+      - name: Discover Gmail newsletters (read-only; required for daily coverage)
         env:
           RADAR_GMAIL_CLIENT_ID: ${{ secrets.RADAR_GMAIL_CLIENT_ID }}
           RADAR_GMAIL_CLIENT_SECRET: ${{ secrets.RADAR_GMAIL_CLIENT_SECRET }}
