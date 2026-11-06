@@ -1,6 +1,23 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
 {
+  "date": "2026-11-06",
+  "type": "atualizacao-editorial",
+  "title": "Situação das modalidades RJI 2027 confirmada — 2026-11-06",
+  "items": [
+    {
+      "id": "rji27-individual",
+      "title": "RJI — Individual Fellowship 2027"
+    },
+    {
+      "id": "rji27-emerging",
+      "title": "RJI — Emerging Technology Fellowship 2027"
+    }
+  ],
+  "detail": "As duas modalidades foram conferidas na página oficial do RJI em 06/11/2026 e atualizadas de preparar para aberta. Prazo oficial: 08/01/2027. Atualização de situação; não representa novas chamadas."
+},
+
+{
   "date": "2026-11-03",
   "type": "ferramentas",
   "title": "Publicação editorial verificada — 2026-11-03",
