@@ -7,7 +7,8 @@ try{
  for(const part of ['opportunities','datasets','sources','tools','changelog']){
   fs.copyFileSync(path.resolve('data',part+'.js'),path.join(root,'data',part+'.js'));
  }
- fs.copyFileSync(path.resolve('intake/approved-publications.json'),path.join(root,'intake/approved-publications.json'));
+ const manifestPath=process.env.RADAR_APPROVED_MANIFEST||'intake/approved-publications.json';
+ fs.copyFileSync(path.resolve(manifestPath),path.join(root,'intake/approved-publications.json'));
  const publisher=path.resolve('scripts/publish-approved.js');
  const run=()=>JSON.parse(cp.execFileSync(process.execPath,[publisher],{cwd:root,encoding:'utf8'}));
  const first=run(),second=run();
