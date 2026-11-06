@@ -12,7 +12,8 @@ function extract(message){
 async function collect(fetcher=fetch,env=process.env){
  const health={source:'Gmail Radar PLOT',status:'unconfigured',items:0,coverageStatus:'unavailable'};
  const {RADAR_GMAIL_CLIENT_ID:id,RADAR_GMAIL_CLIENT_SECRET:secret,RADAR_GMAIL_REFRESH_TOKEN:refresh}=env;
- const missing=[['RADAR_GMAIL_CLIENT_ID',id],['RADAR_GMAIL_CLIENT_SECRET',secret],['RADAR_GMAIL_REFRESH_TOKEN',refresh]].filter(([,value])=>!String(value||'').trim()).map(([name])=>name);\n if(missing.length)return {source:'gmail',leads:[],health:[{...health,reason:'Missing GitHub Actions secret(s): '+missing.join(', ')}]};
+ const missing=[['RADAR_GMAIL_CLIENT_ID',id],['RADAR_GMAIL_CLIENT_SECRET',secret],['RADAR_GMAIL_REFRESH_TOKEN',refresh]].filter(([,value])=>!String(value||'').trim()).map(([name])=>name);
+ if(missing.length)return {source:'gmail',leads:[],health:[{...health,reason:'Missing GitHub Actions secret(s): '+missing.join(', ')}]};
  try{
   const tokenResponse=await fetcher('https://oauth2.googleapis.com/token',{method:'POST',headers:{'content-type':'application/x-www-form-urlencoded'},body:new URLSearchParams({client_id:id,client_secret:secret,refresh_token:refresh,grant_type:'refresh_token'})});
   if(!tokenResponse.ok)throw Error('OAuth HTTP '+tokenResponse.status);
