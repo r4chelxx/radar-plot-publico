@@ -4325,6 +4325,11 @@ window.RADAR_PARTS.opportunities=[
       "date": "2026-10-02",
       "status": "preparar",
       "source": "https://rjionline.org/about-rji-fellowships/"
+    },
+    {
+      "date": "2026-11-06",
+      "status": "aberta",
+      "source": "https://rjionline.org/about-rji-fellowships/"
     }
   ],
   "id": "rji27-individual",
@@ -4340,14 +4345,14 @@ window.RADAR_PARTS.opportunities=[
   ],
   "scope": "Internacional / remoto",
   "deadline": "2027-01-08",
-  "deadlineStatus": "abre_2026-11-02",
+  "deadlineStatus": "Confirmado na página oficial: inscrições abertas; prazo final em 08/01/2027",
   "eligibility": "elegível",
   "fit": 10,
-  "status": "preparar",
+  "status": "aberta",
   "rules": "https://rjionline.org/about-rji-fellowships/",
-  "apply": null,
-  "verified": "2026-10-02",
-  "desc": "Abre 02/11. Fellowship remota de 8 meses, US$75 mil. Pode morar em qualquer país e não exige formação/idade específica. O produto final deve ser recurso, ferramenta, plataforma ou workshop gratuito para jornalistas/redações."
+  "apply": "https://rjionline.org/fellowships/",
+  "verified": "2026-11-06",
+  "desc": "Inscrições abertas para 2027. Fellowship remota de oito meses, com stipend de US$ 75 mil, aberta a pessoas de qualquer país e sem exigência de perfil profissional específico. O projeto deve resultar em ferramenta, plataforma, recurso ou workshop gratuito e acessível para jornalistas e redações. Prazo: 08/01/2027."
 },
 {
   "value": "US$100 mil",
@@ -4370,6 +4375,11 @@ window.RADAR_PARTS.opportunities=[
       "date": "2026-10-02",
       "status": "preparar",
       "source": "https://rjionline.org/about-rji-fellowships/"
+    },
+    {
+      "date": "2026-11-06",
+      "status": "aberta",
+      "source": "https://rjionline.org/about-rji-fellowships/"
     }
   ],
   "id": "rji27-emerging",
@@ -4385,14 +4395,14 @@ window.RADAR_PARTS.opportunities=[
   ],
   "scope": "Internacional / remoto",
   "deadline": "2027-01-08",
-  "deadlineStatus": "abre_2026-11-02",
+  "deadlineStatus": "Confirmado na página oficial: inscrições abertas; prazo final em 08/01/2027",
   "eligibility": "elegível",
   "fit": 9.5,
-  "status": "preparar",
+  "status": "aberta",
   "rules": "https://rjionline.org/about-rji-fellowships/",
-  "apply": null,
-  "verified": "2026-10-02",
-  "desc": "Abre 02/11. Fellowship remota de 8 meses, US$100 mil, para construir solução jornalística cujo uso de tecnologia emergente seja essencial. Viagens ao RJI são cobertas."
+  "apply": "https://rjionline.org/fellowships/",
+  "verified": "2026-11-06",
+  "desc": "Inscrições abertas para 2027. Fellowship remota de oito meses, com stipend de US$ 100 mil, para desenvolver uma ferramenta ou recurso jornalístico em que uma tecnologia emergente seja essencial à solução. Aberta a pessoas de qualquer país; o produto final deve ser gratuito e acessível a jornalistas e redações. Prazo: 08/01/2027."
 },
 {
   "value": null,
