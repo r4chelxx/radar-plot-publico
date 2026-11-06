@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-06T20:53:03.957Z",
+  "updatedAt": "2026-11-06T20:57:29.734Z",
   "policy": "Public web leads only; pending does not mean verified or approved.",
   "candidates": [
     {
@@ -480,7 +480,7 @@
       "id": "172b791d5c8c3ee897e91a183c66b64af8826b69b0480ca88b923adbcf6ff5cf",
       "title": "Conference Tableau Conference (Salesforce)",
       "url": "https://tableau.com/community/events/conference",
-      "category": "uncategorized",
+      "category": "tools",
       "providers": [
         "Data Visualization Society"
       ],
@@ -519,7 +519,7 @@
       "id": "1963b7b3df8b23f3cfdb3e5e0b7f41832b27c00b6acb5a0ffbba14ab4c28a72e",
       "title": "Award Gartner Data & Analytics Excellence Awards",
       "url": "https://www.gartner.com/en/conferences/hub/data-analytics-conferences/awards",
-      "category": "uncategorized",
+      "category": "opportunities",
       "providers": [
         "Data Visualization Society"
       ],
@@ -570,7 +570,7 @@
       "id": "1ad346fb03303d24f90efb78aebe016804557612b3a07100946455ce3d0a9d41",
       "title": "color.adobe.com ↗",
       "url": "https://color.adobe.com/create/color-wheel",
-      "category": "uncategorized",
+      "category": "tools",
       "providers": [
         "Data Visualization Society"
       ],
@@ -634,7 +634,7 @@
       "id": "1f84a9a42615fad481b2dc097faa1e33264354aaa6ec5fe1a91997c6934f66bb",
       "title": "Award European Press Prize (Innovation Award)",
       "url": "https://europeanpressprize.com/",
-      "category": "uncategorized",
+      "category": "opportunities",
       "providers": [
         "Data Visualization Society"
       ],
@@ -763,7 +763,7 @@
       "id": "27d789de59d5782f2dece6402ae567fd861c393fd3966d260e16df68f848b4af",
       "title": "Award Communication Arts Interactive",
       "url": "https://www.commarts.com/competitions",
-      "category": "uncategorized",
+      "category": "opportunities",
       "providers": [
         "Data Visualization Society"
       ],
@@ -920,7 +920,7 @@
       "id": "33c2842da453322e732087a204b8b8cff109b5c6a2e2ba71a321e669a3b5f021",
       "title": "tidyverse",
       "url": "https://www.tidyverse.org/",
-      "category": "uncategorized",
+      "category": "tools",
       "providers": [
         "Data Visualization Society"
       ],
@@ -1035,7 +1035,7 @@
       "id": "3a7a9ff67322a5266a579fb5a6a3504f9f7c01c8c9e91206df5166db6e4473af",
       "title": "Fabric",
       "url": "https://learn.microsoft.com/en-us/fabric/onelake/onelake-overview",
-      "category": "uncategorized",
+      "category": "tools",
       "providers": [
         "Data Visualization Society"
       ],
@@ -1086,7 +1086,7 @@
       "id": "3b9174f1dffecf927eaf7dec61df5b07a26d948aa0a2d8ec73d24e48548282d2",
       "title": "datawrapper.de ↗",
       "url": "https://www.datawrapper.de/blog/colorguide",
-      "category": "uncategorized",
+      "category": "tools",
       "providers": [
         "Data Visualization Society"
       ],
@@ -1224,7 +1224,7 @@
       "id": "45286c14b1832877ffa0c0a260849d088bbedc00dceb2c6efead79620cc40210",
       "title": "datawrapper.de ↗",
       "url": "https://www.datawrapper.de/blog/chart-types-guide",
-      "category": "uncategorized",
+      "category": "tools",
       "providers": [
         "Data Visualization Society"
       ],
@@ -1325,7 +1325,7 @@
       "id": "483c5944a10521dde5f808f0c5a7f8905fcf5f0d7041f337d200f27096fecbc5",
       "title": "Omni",
       "url": "https://omni.co/",
-      "category": "uncategorized",
+      "category": "tools",
       "providers": [
         "Data Visualization Society"
       ],
@@ -1377,7 +1377,7 @@
       "id": "4a7c60da3579bf07d7f79f2347805a5519d7979711aa61c31c4091eedd176054",
       "title": "WebGPU & WGSL",
       "url": "https://www.w3.org/TR/webgpu",
-      "category": "uncategorized",
+      "category": "tools",
       "providers": [
         "Data Visualization Society"
       ],
@@ -1416,7 +1416,7 @@
       "id": "51fc56bc81fdb0082223f496f8ab4da4aa2c05d79cf4c8aa35b3d33de2e8ed34",
       "title": "Deck.gl",
       "url": "https://deck.gl/",
-      "category": "uncategorized",
+      "category": "tools",
       "providers": [
         "Data Visualization Society"
       ],
@@ -1442,7 +1442,7 @@
       "id": "523a861d21eafb5ed7c23e495938271fdad067bc512470e5c737419607d68d02",
       "title": "Award Esri StoryMaps Competition",
       "url": "https://www.esri.com/en-us/arcgis/products/arcgis-storymaps/contest",
-      "category": "uncategorized",
+      "category": "opportunities",
       "providers": [
         "Data Visualization Society"
       ],
@@ -1506,7 +1506,7 @@
       "id": "53f6a5ac478d71b1ae382d9dda68ae3f87849a085e3dd1bc4a6fd545c97fcc53",
       "title": "Datylon",
       "url": "https://www.datylon.com/",
-      "category": "uncategorized",
+      "category": "tools",
       "providers": [
         "Data Visualization Society"
       ],
@@ -1571,7 +1571,7 @@
       "id": "58e87acfecb36438d73aa6be91646a687227e1ac7fa0d967a846ec383e5e9e22",
       "title": "duckdb",
       "url": "https://duckdb.org/docs/api/r",
-      "category": "uncategorized",
+      "category": "tools",
       "providers": [
         "Data Visualization Society"
       ],
@@ -1608,7 +1608,7 @@
       "id": "5a9875b195c86a4d914f694c642c1d98bcb693c248efeade75666cccfa426b89",
       "title": "p5.js 2.0",
       "url": "https://p5js.org/",
-      "category": "uncategorized",
+      "category": "tools",
       "providers": [
         "Data Visualization Society"
       ],
@@ -1647,7 +1647,7 @@
       "id": "5c8b6670648744bb0e41b197a9095e43602c82ed4beffead62ab05ede49760c3",
       "title": "Award IBCS Certified Reports & Dashboards",
       "url": "https://www.ibcs.com/certification",
-      "category": "uncategorized",
+      "category": "opportunities",
       "providers": [
         "Data Visualization Society"
       ],
@@ -1660,7 +1660,7 @@
       "id": "5dee27d6a6130dabe94cbffa1b04ecbfd04a7c1426cdfffb883b2ac0f609cb9a",
       "title": "Canvas & SVG API",
       "url": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API",
-      "category": "uncategorized",
+      "category": "tools",
       "providers": [
         "Data Visualization Society"
       ],
@@ -1710,7 +1710,7 @@
       "id": "5facb9ae65e7884e094d122c16516f682b3e40802731bc53d4deafc3274409d3",
       "title": "Award Awwwards",
       "url": "https://awwwards.com/",
-      "category": "uncategorized",
+      "category": "opportunities",
       "providers": [
         "Data Visualization Society"
       ],
@@ -1749,7 +1749,7 @@
       "id": "651929ba8a401dbf26ef8caf5a76e60df78cf5da529f319b35ea46f1fc107132",
       "title": "Award BARC Start-up Award for Data and AI",
       "url": "https://barc.com/events/barc-start-up-award",
-      "category": "uncategorized",
+      "category": "opportunities",
       "providers": [
         "Data Visualization Society"
       ],
@@ -1775,7 +1775,7 @@
       "id": "680da594a73b6119cbce9031fd510f66e17fc6d9f72b583680af84ab9775f301",
       "title": "Processing (Java/Python)",
       "url": "https://processing.org/",
-      "category": "uncategorized",
+      "category": "tools",
       "providers": [
         "Data Visualization Society"
       ],
@@ -1859,13 +1859,14 @@
       "firstSeen": "2026-10-23T17:21:05.512Z",
       "lastSeen": "2026-10-26T18:45:57.741Z",
       "status": "pending",
-      "reviewPriority": "high"
+      "reviewPriority": "high",
+      "category": "tools"
     },
     {
       "id": "6d49155eca3efdabd2d3681c83e054317a8b6a5956de2a27b97c38c85f01045e",
       "title": "Snowflake Geospatial",
       "url": "https://www.snowflake.com/en/developers/guides/getting-started-with-geospatial-geography",
-      "category": "uncategorized",
+      "category": "tools",
       "providers": [
         "Data Visualization Society"
       ],
@@ -1923,7 +1924,8 @@
       "firstSeen": "2026-10-23T17:21:05.512Z",
       "lastSeen": "2026-10-26T18:45:57.741Z",
       "status": "pending",
-      "reviewPriority": "high"
+      "reviewPriority": "high",
+      "category": "tools"
     },
     {
       "id": "7088b3a76d1a6a696213fc4a6621614fef6be25590aae8322af85caac5b971ff",
@@ -1942,7 +1944,7 @@
       "id": "70f40c54bd1bf80ba4abd39091f4b5f5d6f952dd3c82f4408ef8658bfd0bdf74",
       "title": "Segment Anything Model (SAM) for Geospatial",
       "url": "https://samgeo.gishub.org/",
-      "category": "uncategorized",
+      "category": "tools",
       "providers": [
         "Data Visualization Society"
       ],
@@ -1981,7 +1983,7 @@
       "id": "733c36409f57a6d64b4eb49ac945a060082aa3ebc58f68ebc56d21824af048b3",
       "title": "fedmatch",
       "url": "https://cran.r-project.org/package=fedmatch",
-      "category": "uncategorized",
+      "category": "tools",
       "providers": [
         "Data Visualization Society"
       ],
@@ -2032,7 +2034,7 @@
       "id": "73d4a0db8404ae46da3265799325d106c4d30169b88ecfe775f3d406b2967e45",
       "title": "Award Data Breakthrough Awards",
       "url": "https://databreakthroughawards.com/",
-      "category": "uncategorized",
+      "category": "opportunities",
       "providers": [
         "Data Visualization Society"
       ],
@@ -2110,7 +2112,7 @@
       "id": "78b7a11294f5e332bf8ed33d08a8d7151c67f4de4588753cb629a48375d6c337",
       "title": "tabulapdf",
       "url": "https://github.com/ropensci/tabulapdf",
-      "category": "uncategorized",
+      "category": "tools",
       "providers": [
         "Data Visualization Society"
       ],
@@ -2123,7 +2125,7 @@
       "id": "79b90a44f8fcb00c0fda2ba99275a70dba5d6a5246bc614990a40a0dfdaddd03",
       "title": "coolors.co ↗",
       "url": "https://coolors.co/",
-      "category": "uncategorized",
+      "category": "tools",
       "providers": [
         "Data Visualization Society"
       ],
@@ -2136,7 +2138,7 @@
       "id": "79c035874e3077250acc327858af49220f91d97e5ae9de9cb5f5bd4b2f362a0f",
       "title": "Award AGI Awards for Geospatial Excellence",
       "url": "https://www.agi.org.uk/agi-awards",
-      "category": "uncategorized",
+      "category": "opportunities",
       "providers": [
         "Data Visualization Society"
       ],
@@ -2149,7 +2151,7 @@
       "id": "7a55b8874edaedef90987c3502dd86ee6c51faa47b0ba57f934cdd19dbab16d1",
       "title": "datawrapper.de ↗",
       "url": "https://www.datawrapper.de/blog/create-good-color-palettes",
-      "category": "uncategorized",
+      "category": "tools",
       "providers": [
         "Data Visualization Society"
       ],
@@ -2162,7 +2164,7 @@
       "id": "7a674f5f3ebbeeb8923c0eb474d3dbf00e8dd7a7ed8076fe9c5455d90526ad3f",
       "title": "Award WAN-IFRA Digital Media Awards (Best Data Visualization)",
       "url": "https://wan-ifra.org/events/digital-media-awards-worldwide",
-      "category": "uncategorized",
+      "category": "opportunities",
       "providers": [
         "Data Visualization Society"
       ],
@@ -2256,7 +2258,7 @@
       "id": "7e5425bc1aab648ed78bcd3997e7f00e324f5ef03a0c0b59d3fdf2d1d14a23c4",
       "title": "ArcPy",
       "url": "https://pro.arcgis.com/en/pro-app/3.4/arcpy/get-started/what-is-arcpy-.htm",
-      "category": "uncategorized",
+      "category": "tools",
       "providers": [
         "Data Visualization Society"
       ],
@@ -2334,7 +2336,7 @@
       "id": "800f59f218e8df1cb049e548f39cf736afb8a6f8ff0a95120b54e00292fb6325",
       "title": "Cloud-Native Geospatial, COG",
       "url": "https://cogeo.org/",
-      "category": "uncategorized",
+      "category": "tools",
       "providers": [
         "Data Visualization Society"
       ],
@@ -2347,7 +2349,7 @@
       "id": "80b3a36bc32b874256e675493db452de9c5e04cb25b98648d340a315a67a3fbd",
       "title": "Zebra BI",
       "url": "https://zebrabi.com/",
-      "category": "uncategorized",
+      "category": "tools",
       "providers": [
         "Data Visualization Society"
       ],
@@ -2373,7 +2375,7 @@
       "id": "81771b79564bfd74b69920aff9589d4b27fcff41e6c367141022f76b533c007f",
       "title": "BeautifulSoup",
       "url": "https://www.crummy.com/software/BeautifulSoup",
-      "category": "uncategorized",
+      "category": "tools",
       "providers": [
         "Data Visualization Society"
       ],
@@ -2412,7 +2414,7 @@
       "id": "859cca020748f7af9ff30e55543a493406b72320c0864064f036228620367060",
       "title": "momentum.js",
       "url": "https://www.creativeapplications.net/",
-      "category": "uncategorized",
+      "category": "tools",
       "providers": [
         "Data Visualization Society"
       ],
@@ -2425,7 +2427,7 @@
       "id": "87d587fb19392bb7866daeeb6b83219beda45f46b058d876c647f27e3e0253d4",
       "title": "RecordLinkage",
       "url": "https://recordlinkage.readthedocs.io/",
-      "category": "uncategorized",
+      "category": "tools",
       "providers": [
         "Data Visualization Society"
       ],
@@ -2451,7 +2453,7 @@
       "id": "8960df5ea200923e3c4c3cce81c5d0020bfe7228a43a2198cb1fb4679fd2f493",
       "title": "Playwright",
       "url": "https://playwright.dev/",
-      "category": "uncategorized",
+      "category": "tools",
       "providers": [
         "Data Visualization Society"
       ],
@@ -2477,7 +2479,7 @@
       "id": "8acc0951ade6f2ae60b491bf4f1e45c8d9b2520f105e27d556bffbe97c2e8aa5",
       "title": "datawrapper.de ↗",
       "url": "https://www.datawrapper.de/blog/category/datavis-dos-and-donts",
-      "category": "uncategorized",
+      "category": "tools",
       "providers": [
         "Data Visualization Society"
       ],
@@ -2516,7 +2518,7 @@
       "id": "8c69a7bafba7ddd1615d7cb77a6d643e3f283bf08d2bf8f6f74bb96e26642a66",
       "title": "Pandas",
       "url": "https://pandas.pydata.org/",
-      "category": "uncategorized",
+      "category": "tools",
       "providers": [
         "Data Visualization Society"
       ],
@@ -2529,7 +2531,7 @@
       "id": "8ccdce543913e2af137941b13f03b4f34e9a544dfc8befeff78dafc28b85ebf5",
       "title": "PowerUI",
       "url": "https://www.powerui.com/",
-      "category": "uncategorized",
+      "category": "tools",
       "providers": [
         "Data Visualization Society"
       ],
@@ -2555,7 +2557,7 @@
       "id": "9074bd0330d7cf1e7b676cd5fa22eacf03a786e13009162ac6f99e121dca4cf6",
       "title": "quanteda",
       "url": "https://quanteda.io/",
-      "category": "uncategorized",
+      "category": "tools",
       "providers": [
         "Data Visualization Society"
       ],
@@ -2620,7 +2622,7 @@
       "id": "9398ea504b077e4971ce256f1c061ea40fb6f72d59e28df478d1bc22f04d46a4",
       "title": "rvest",
       "url": "https://rvest.tidyverse.org/",
-      "category": "uncategorized",
+      "category": "tools",
       "providers": [
         "Data Visualization Society"
       ],
@@ -2761,7 +2763,7 @@
       "id": "9b414a5f2ba33bc29cd484711b0e604cae2ddaf11b7fd386623240ec2f535381",
       "title": "Award Ventana Research Digital Leadership Awards",
       "url": "https://research.isg-one.com/market-perspectives/tag/data",
-      "category": "uncategorized",
+      "category": "opportunities",
       "providers": [
         "Data Visualization Society"
       ],
@@ -2812,7 +2814,7 @@
       "id": "9c6858f503af6d3b6409b0f7da845ec1354b326dd0fdb270bc8573daa39a7523",
       "title": "Award The &#8220;Iron Viz&#8221; (Tableau)",
       "url": "https://www.tableau.com/iron-viz",
-      "category": "uncategorized",
+      "category": "opportunities",
       "providers": [
         "Data Visualization Society"
       ],
@@ -2851,7 +2853,7 @@
       "id": "9d6e471600b94bdf994613306625b8122eaddff5c19df28363ed44c4f91406d1",
       "title": "Segment Anything Model (SAM) for Design",
       "url": "https://segment-anything.com/",
-      "category": "uncategorized",
+      "category": "tools",
       "providers": [
         "Data Visualization Society"
       ],
@@ -2889,7 +2891,7 @@
       "id": "9f08b5a99c6c9f62c7b1c97611500f5db6b140a14c8c8c4a5b34b00faaad2427",
       "title": "Tableau",
       "url": "https://www.tableau.com/",
-      "category": "uncategorized",
+      "category": "tools",
       "providers": [
         "Data Visualization Society"
       ],
@@ -2953,7 +2955,7 @@
       "id": "a37aa7f4ba6800f3f87e49201dc56ac9317268edede2ffdf69a2b1c2aa2eec2a",
       "title": "Award Online Journalism Awards (OJAs)",
       "url": "https://awards.journalists.org/",
-      "category": "uncategorized",
+      "category": "opportunities",
       "providers": [
         "Data Visualization Society"
       ],
@@ -3031,7 +3033,7 @@
       "id": "a885d3598864c165e24e1b2ef3adbae9ab652fcac0ff2db2ff1304a3f4b47dae",
       "title": "GeoPandas",
       "url": "https://geopandas.org/",
-      "category": "uncategorized",
+      "category": "tools",
       "providers": [
         "Data Visualization Society"
       ],
@@ -3057,7 +3059,7 @@
       "id": "a913b2409cc15a21f100bb0ae2743939dc92577e070fe0198d8f952f25ef69c5",
       "title": "spaCy",
       "url": "https://spacy.io/",
-      "category": "uncategorized",
+      "category": "tools",
       "providers": [
         "Data Visualization Society"
       ],
@@ -3083,7 +3085,7 @@
       "id": "a98169861e7955fbb93d5a11b9dfa7d9d6892c09e62e52a93fcc332da57d943c",
       "title": "PyQGIS",
       "url": "https://qgis.org/pyqgis/master",
-      "category": "uncategorized",
+      "category": "tools",
       "providers": [
         "Data Visualization Society"
       ],
@@ -3135,7 +3137,7 @@
       "id": "aa4eab8d418ae75e1b767185e418165b0bf77aeed7aa4470f53788dc6c17f36e",
       "title": "datawrapper.de",
       "url": "https://www.datawrapper.de/blog/category/data-vis-dispatch",
-      "category": "uncategorized",
+      "category": "tools",
       "providers": [
         "Data Visualization Society"
       ],
@@ -3148,7 +3150,7 @@
       "id": "ac86bf5547086bcc4eedd9dee1ba6cc437674815bafd4d62fbe952ecc7880df0",
       "title": "data-to-viz.com ↗",
       "url": "https://www.data-to-viz.com/",
-      "category": "uncategorized",
+      "category": "tools",
       "providers": [
         "Data Visualization Society"
       ],
@@ -3186,7 +3188,7 @@
       "id": "afa5da81cf749d51b4404ea849650ce1399f36f33401b1d9f907c49817b7e571",
       "title": "Figma2html",
       "url": "https://www.figma.com/community/plugin/1109185297790825980/figma2html",
-      "category": "uncategorized",
+      "category": "tools",
       "providers": [
         "Data Visualization Society"
       ],
@@ -3199,7 +3201,7 @@
       "id": "b0493264ed732f8f2a3e97b56aa1f79eacba088f5a2bf70e6fe6acc250bd96e8",
       "title": "ArchieML",
       "url": "https://archieml.org/",
-      "category": "uncategorized",
+      "category": "tools",
       "providers": [
         "Data Visualization Society"
       ],
@@ -3262,7 +3264,7 @@
       "id": "b2fe067db0bda6cbafbbd234607d420008211686575bb85241e05c1593b00fbb",
       "title": "Award S+T+ARTS Prize",
       "url": "https://starts-prize.aec.at/en",
-      "category": "uncategorized",
+      "category": "opportunities",
       "providers": [
         "Data Visualization Society"
       ],
@@ -3301,7 +3303,7 @@
       "id": "b59e9589dc06fc20b515d1a14b220564b1e4729bcda8a443f6975967c6510263",
       "title": "tidymodels",
       "url": "https://www.tidymodels.org/",
-      "category": "uncategorized",
+      "category": "tools",
       "providers": [
         "Data Visualization Society"
       ],
@@ -3447,7 +3449,7 @@
       "id": "bc16f0241d1dcc19f1985d9e7979be7183960959bbc9d4de99f57f112249bbc0",
       "title": "Award D&AD Awards (Digital Design)",
       "url": "https://www.dandad.org/awards/d-ad-awards",
-      "category": "uncategorized",
+      "category": "opportunities",
       "providers": [
         "Data Visualization Society"
       ],
@@ -3473,7 +3475,7 @@
       "id": "bcf905a7d1b746329b76590ec887f5b37fe0993d4c6f81fd8269f04c0829e6d7",
       "title": "DAX",
       "url": "https://learn.microsoft.com/en-us/dax",
-      "category": "uncategorized",
+      "category": "tools",
       "providers": [
         "Data Visualization Society"
       ],
@@ -3525,7 +3527,7 @@
       "id": "be9e40b9672b7d79a68ce0c91d7c97b541c7e742d6681c8ed5f43e55e2401e5b",
       "title": "Three.js (with WebGPU)",
       "url": "https://threejs.org/",
-      "category": "uncategorized",
+      "category": "tools",
       "providers": [
         "Data Visualization Society"
       ],
@@ -3538,7 +3540,7 @@
       "id": "bf0f70ab6377c8041e340bdf48e30a2e326e89cb07d78998b89ba0c7ee5fb0be",
       "title": "Sigma Computing",
       "url": "https://www.sigmacomputing.com/",
-      "category": "uncategorized",
+      "category": "tools",
       "providers": [
         "Data Visualization Society"
       ],
@@ -3577,7 +3579,7 @@
       "id": "c131d1327f795550b9220d2e64450a84fd1cff74506c1cae0be40c87530dfbb5",
       "title": "PMTiles",
       "url": "https://pmtiles.io/",
-      "category": "uncategorized",
+      "category": "tools",
       "providers": [
         "Data Visualization Society"
       ],
@@ -3629,7 +3631,7 @@
       "id": "c2ee2f71ce77c43a7a985d95d7cbaa66f179f6fdbc4424ac9f4d85441953b2a8",
       "title": "Layercake.graphics framework for Svelte",
       "url": "https://layercake.graphics/",
-      "category": "uncategorized",
+      "category": "tools",
       "providers": [
         "Data Visualization Society"
       ],
@@ -3655,7 +3657,7 @@
       "id": "c57c5a0d16e184437d49f475d0507ad2ad43c1e121c0c86934e94c97e1e79fa9",
       "title": "Award The Lumen Prize",
       "url": "https://lumenprize.com/",
-      "category": "uncategorized",
+      "category": "opportunities",
       "providers": [
         "Data Visualization Society"
       ],
@@ -3706,7 +3708,7 @@
       "id": "ca670bb91c9bf8b5cec12c93d7c13f272c04718be4f15c3ae790b5b9843b2680",
       "title": "datawrapper.de ↗",
       "url": "https://www.datawrapper.de/blog/fonts-for-data-visualization",
-      "category": "uncategorized",
+      "category": "tools",
       "providers": [
         "Data Visualization Society"
       ],
@@ -3732,7 +3734,7 @@
       "id": "cbcf1207daf6bdd681a32b245a2509a15e85242808741c346412f447100b05fa",
       "title": "Power BI",
       "url": "https://www.microsoft.com/en-us/power-platform/products/power-bi",
-      "category": "uncategorized",
+      "category": "tools",
       "providers": [
         "Data Visualization Society"
       ],
@@ -3784,7 +3786,7 @@
       "id": "d1d9f0e8c01b765eace5a461bb293de7d52b785ffc9cc6df2a3b0a40b3bde74f",
       "title": "Selenium",
       "url": "https://www.selenium.dev/",
-      "category": "uncategorized",
+      "category": "tools",
       "providers": [
         "Data Visualization Society"
       ],
@@ -3836,7 +3838,7 @@
       "id": "d2f8e4e03f7039542269c22b68eb5b54fa341006c9685b6af22fd3ae39598778",
       "title": "Plotly",
       "url": "https://plotly.com/python",
-      "category": "uncategorized",
+      "category": "tools",
       "providers": [
         "Data Visualization Society"
       ],
@@ -3887,7 +3889,7 @@
       "id": "d5ce42d3352af3144b253670b8c6e9d274edd84ae1a6d00f4bcb57078b7e303f",
       "title": "Svelte",
       "url": "https://svelte.dev/",
-      "category": "uncategorized",
+      "category": "tools",
       "providers": [
         "Data Visualization Society"
       ],
@@ -3913,7 +3915,7 @@
       "id": "d8eb615d2b507715b16310a4d66dde8470fcc615eb2c00699b869cda81a01ab9",
       "title": "Award RSS Awards for Statistical Excellence in Journalism",
       "url": "https://rss.org.uk/journalism-awards",
-      "category": "uncategorized",
+      "category": "opportunities",
       "providers": [
         "Data Visualization Society"
       ],
@@ -3990,7 +3992,7 @@
       "id": "dce3a2754b0384c1743cea0d15ce568d73d0b1d41d64118f347a717cbd4f7bba",
       "title": "Looker (LookML)",
       "url": "https://docs.cloud.google.com/looker/docs/reference/lookml-quick-reference",
-      "category": "uncategorized",
+      "category": "tools",
       "providers": [
         "Data Visualization Society"
       ],
@@ -4003,7 +4005,7 @@
       "id": "dcebb49e2a2303a228f89a1b4afc125061257beca3726966188257b772f766c3",
       "title": "Award Geospatial World Forum Innovation Awards",
       "url": "https://geospatialworld.net/gwf/2023/previous-winners.html",
-      "category": "uncategorized",
+      "category": "opportunities",
       "providers": [
         "Data Visualization Society"
       ],
@@ -4016,7 +4018,7 @@
       "id": "dcfa0487c540be0e50474bdc6332858180f97a84e0b91c826ac43f897db13474",
       "title": "Cube",
       "url": "https://cube.dev/",
-      "category": "uncategorized",
+      "category": "tools",
       "providers": [
         "Data Visualization Society"
       ],
@@ -4119,7 +4121,7 @@
       "id": "e4ecc99e166ddc793cf5c1d85b96e978d2c2dd7debd5328136b3e8223034a5fb",
       "title": "DuckDB (Spatial Extension)",
       "url": "https://duckdb.org/docs/extensions/spatial",
-      "category": "uncategorized",
+      "category": "tools",
       "providers": [
         "Data Visualization Society"
       ],
@@ -4182,7 +4184,7 @@
       "id": "e9ae7bab0060062b6d95975d8d9668142ad45a1f4c496dd47b274b310ecba871",
       "title": "dbt (Core & Semantic Layer)",
       "url": "https://docs.getdbt.com/",
-      "category": "uncategorized",
+      "category": "tools",
       "providers": [
         "Data Visualization Society"
       ],
@@ -4221,7 +4223,7 @@
       "id": "ec6de7af3271ca5771aeeb8cff19422fd35853394caedd1530e2136f7d8ca205",
       "title": "ArcGIS Pro & Online",
       "url": "https://www.esri.com/",
-      "category": "uncategorized",
+      "category": "tools",
       "providers": [
         "Data Visualization Society"
       ],
@@ -4285,7 +4287,7 @@
       "id": "edc59990c6b7cd3e302080bc6295ca462029cf5af38121540be43595b9456c99",
       "title": "datawrapper.de ↗",
       "url": "https://www.datawrapper.de/blog/colors",
-      "category": "uncategorized",
+      "category": "tools",
       "providers": [
         "Data Visualization Society"
       ],
@@ -4310,7 +4312,7 @@
       "id": "efbe02dbd4651105739a44cc65ced3c5d128a9393525ebbbfdb6ee1779c1259f",
       "title": "Award The Walkley Awards (Data Journalism Category)",
       "url": "https://www.walkleys.com/awards/walkleys",
-      "category": "uncategorized",
+      "category": "opportunities",
       "providers": [
         "Data Visualization Society"
       ],
@@ -4489,7 +4491,7 @@
       "id": "fcfd55c619057e7395439a32154ab0a684a6317e34070512e22c1d40dc1ad160",
       "title": "Award The Webby Awards",
       "url": "https://webbyawards.com/",
-      "category": "uncategorized",
+      "category": "opportunities",
       "providers": [
         "Data Visualization Society"
       ],
@@ -4514,7 +4516,7 @@
       "id": "fe53c3d1c66648c22c9075ac61dc0e173fcafe589b2effafc69e4d9119ea134b",
       "title": "Cloudinary",
       "url": "https://cloudinary.com/",
-      "category": "uncategorized",
+      "category": "tools",
       "providers": [
         "Data Visualization Society"
       ],
@@ -4540,7 +4542,7 @@
       "id": "ff06f15409ea9f670cf37713f224c30d36e9b77aa00b75cca64c70626add5f01",
       "title": "Award The British Cartographic Society (BCS) Awards",
       "url": "https://www.cartography.org.uk/awards",
-      "category": "uncategorized",
+      "category": "opportunities",
       "providers": [
         "Data Visualization Society"
       ],
