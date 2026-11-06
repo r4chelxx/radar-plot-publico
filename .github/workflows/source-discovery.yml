@@ -196,14 +196,33 @@ jobs:
           const r=JSON.parse(fs.readFileSync('intake/approved-manifest-response.json','utf8'));
           fs.writeFileSync('intake/approved-publications-current.json',Buffer.from(r.content,'base64'));
           NODE
-            if node -e "const fs=require('fs');const a=JSON.stringify(JSON.parse(fs.readFileSync('intake/approved-publications-next.json')));const b=JSON.stringify(JSON.parse(fs.readFileSync('intake/approved-publications-current.json')));process.exit(a===b?0:1)"; then
+          node - <<'NODE'
+          const fs=require('fs');
+          const current=JSON.parse(fs.readFileSync('intake/approved-publications-current.json','utf8'));
+          const incoming=JSON.parse(fs.readFileSync('intake/approved-publications-next.json','utf8'));
+          const merged={...current,approved:[...(current.approved||[])]};
+          const byKey=new Map(merged.approved.map(x=>[(x.category||'')+':'+(x.record?.id||x.review?.officialUrl||''),x]));
+          const byOfficial=new Map(merged.approved.map(x=>[x.review?.officialUrl,x]));
+          for(const entry of incoming.approved||[]){
+            const key=(entry.category||'')+':'+(entry.record?.id||entry.review?.officialUrl||'');
+            const existing=byKey.get(key)||byOfficial.get(entry.review?.officialUrl);
+            if(existing){
+              if(JSON.stringify(existing)!==JSON.stringify(entry))throw Error('Conflicting approved publication entry: '+key);
+              continue;
+            }
+            merged.approved.push(entry);byKey.set(key,entry);if(entry.review?.officialUrl)byOfficial.set(entry.review.officialUrl,entry);
+          }
+          fs.writeFileSync('intake/approved-publications-merged.json',JSON.stringify(merged,null,2)+'\n');
+          NODE
+          RADAR_APPROVED_MANIFEST=intake/approved-publications-merged.json node scripts/validate-approved-manifest.js
+            if node -e "const fs=require('fs');const a=JSON.stringify(JSON.parse(fs.readFileSync('intake/approved-publications-merged.json')));const b=JSON.stringify(JSON.parse(fs.readFileSync('intake/approved-publications-current.json')));process.exit(a===b?0:1)"; then
               echo "Public approval manifest is already current."
               exit 0
             fi
             node - <<'NODE'
           const fs=require('fs');
           const r=JSON.parse(fs.readFileSync('intake/approved-manifest-response.json','utf8'));
-          const content=fs.readFileSync('intake/approved-publications-next.json').toString('base64');
+          const content=fs.readFileSync('intake/approved-publications-merged.json').toString('base64');
           fs.writeFileSync('intake/approved-manifest-update.json',JSON.stringify({branch:'main',message:'Promote explicitly audited publication approvals from source run '+process.env.GITHUB_RUN_ID,content,sha:r.sha}));
           NODE
             if gh api --method PUT "repos/${GITHUB_REPOSITORY}/contents/intake/approved-publications.json" --input intake/approved-manifest-update.json --silent; then
