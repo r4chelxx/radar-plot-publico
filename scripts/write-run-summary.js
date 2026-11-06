@@ -11,6 +11,7 @@ const failed=sourceResults.filter(x=>x.accessStatus!=='accessible');
 const dailyFailures=coverage.dailyFailures||[];
 const sourceDiagnostics=[...empty.map(x=>({name:x.name,status:'acessível sem links temáticos'})),...failed.map(x=>({name:x.name,status:x.accessStatus+(x.httpStatus?' HTTP '+x.httpStatus:'')}))];
 const evidence=read('lead-evidence.json');
+const pageAccessible=x=>['accessible','html-fetched'].includes(x.pageStatus);
 const state=read('lead-history-next.json'),leads=Object.values(state.leads||{});
 const historical=leads.filter(x=>x.classification==='needs-editorial-review');
 const backlog=summarizeBacklog(state.leads);
@@ -50,8 +51,8 @@ const rows=[
  '| Links temáticos encontrados | '+(triage.summary?.linkLeads??0)+' |',
  '| Referências históricas sinalizadas | '+(triage.summary?.historicalReferences??0)+' |',
  '| Candidatos aguardando revisão | '+(review.candidates||[]).length+' |',
- '| Pistas com página acessível | '+(review.candidates||[]).filter(x=>x.pageStatus==='accessible').length+' |',
- '| Pistas sem página acessível confirmada | '+(review.candidates||[]).filter(x=>x.pageStatus!=='accessible').length+' |',
+ '| Pistas com página acessível | '+(review.candidates||[]).filter(pageAccessible).length+' |',
+ '| Pistas sem página acessível confirmada | '+(review.candidates||[]).filter(x=>!pageAccessible(x)).length+' |',
  '| Oportunidades candidatas | '+(review.counts?.opportunities??0)+' |',
  '| Bases e dados candidatos | '+(review.counts?.datasets??0)+' |',
  '| Ferramentas candidatas | '+(review.counts?.tools??0)+' |',
