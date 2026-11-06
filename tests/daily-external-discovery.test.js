@@ -21,6 +21,9 @@ test('Gmail invalid-client response identifies OAuth client configuration withou
  });
  assert.equal(r.health[0].status,'error');
  assert.equal(r.health[0].reason,'OAuth HTTP 401 invalid_client');
+ assert.equal(r.health[0].errorCode,'invalid_client');
+ assert.equal(r.health[0].failureClass,'oauth-client-configuration');
+ assert.match(r.health[0].recommendedAction,/OAuth client ID\\/secret pair/);
  assert.doesNotMatch(r.health[0].reason,/secret-value|must not be logged/);
 });
 test('Gmail invalid-grant response reports refresh-token failure distinctly',async()=>{
@@ -30,6 +33,9 @@ test('Gmail invalid-grant response reports refresh-token failure distinctly',asy
   RADAR_GMAIL_REFRESH_TOKEN:'refresh-token'
  });
  assert.equal(r.health[0].reason,'OAuth HTTP 400 invalid_grant');
+ assert.equal(r.health[0].errorCode,'invalid_grant');
+ assert.equal(r.health[0].failureClass,'oauth-refresh-token');
+ assert.match(r.health[0].recommendedAction,/new refresh token/);
  assert.doesNotMatch(r.health[0].reason,/must not be logged/);
 });
 test('Gmail metadata links are unverified candidates',()=>{const r=gmail.extract({subject:'Journalism grant applications',snippet:'Apply https://example.org/grant'});assert.equal(r.length,1);assert.equal(r[0].editorialStatus,'unverified')});
