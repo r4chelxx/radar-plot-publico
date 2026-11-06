@@ -26,11 +26,12 @@ function extractStructuredMetadata(html,baseUrl){
   const organization=typeof org==='string'?clean(org,180):clean(org?.name,180);
   const offer=item.offers||item.isPartOf;
   const deadline=isoDate(item.endDate||item.deadline||item.applicationDeadline||offer?.validThrough);
-  const eligibility=clean(item.eligibility||item.eligibleRegion||item.audience||'',300);
+  const eligibilityExplicit=Boolean(item.eligibility||item.eligibleFor||item.eligibilityCriteria);
+  const eligibility=clean(item.eligibility||item.eligibleFor||item.eligibilityCriteria||item.eligibleRegion||item.audience||'',300);
   const title=clean(item.name||item.headline||item.alternateName,240);
   const description=clean(item.description||item.abstract,700);
   if(!title&&!description&&!url&&!deadline&&!eligibility)return null;
-  return {url,title,description,organization,deadline,eligibility,sourceType:item['@type']||null};
+  return {url,title,description,organization,deadline,eligibility,eligibilityExplicit,sourceType:item['@type']||null};
  }).filter(Boolean);
 }
 function metadataForLink(metadata,url){
