@@ -39,6 +39,8 @@ on:
       - 'scripts/import-public-editorial-queue.js'
       - 'tests/import-public-editorial-queue.test.js'
       - 'scripts/apply-editorial-decisions.js'
+      - 'scripts/auto-audit-candidates.js'
+      - 'tests/auto-audit-candidates.test.js'
       - 'scripts/validate-approved-manifest.js'
       - 'scripts/merge-approved-manifests.js'
       - 'tests/apply-editorial-decisions.test.js'
@@ -135,7 +137,22 @@ jobs:
         run: node scripts/build-editorial-review.js
       - name: Compare against persistent public lead history
         run: node scripts/update-lead-history.js
+      - name: Generate conservative automatic editorial decisions
+        run: node scripts/auto-audit-candidates.js intake/lead-evidence.json intake/editorial-review.json intake/auto-editorial-decisions.json
+      - name: Merge automatic decisions without changing manual decisions
+        run: |
+          node - <<'NODE'
+          const fs=require('node:fs');
+          const manual=JSON.parse(fs.readFileSync('intake/historical-decisions.json','utf8'));
+          const automatic=JSON.parse(fs.readFileSync('intake/auto-editorial-decisions.json','utf8'));
+          const seen=new Set((manual.decisions||[]).map(x=>x.url));
+          const merged={...manual,decisions:[...(manual.decisions||[]),...(automatic.decisions||[]).filter(x=>!seen.has(x.url))]};
+          fs.writeFileSync('intake/historical-decisions-merged.json',JSON.stringify(merged,null,2)+'\\n');
+          fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY,'### Auditoria automática conservadora\\n- Aprovações geradas: '+automatic.decisions.length+'\\n- Bloqueios mantidos em revisão: '+automatic.summary.blocked+'\\n');
+          NODE
       - name: Apply verified editorial decisions to historical state
+        env:
+          RADAR_DECISIONS: intake/historical-decisions-merged.json
         run: node scripts/apply-editorial-decisions.js
       - name: Build actionable historical editorial review batch
         env:
@@ -160,6 +177,8 @@ jobs:
             intake/lead-history-delta.json
             intake/lead-history-next.json
             intake/approved-publications-next.json
+            intake/auto-editorial-decisions.json
+            intake/historical-decisions-merged.json
             intake/approved-manifest-merge.json
             intake/run-summary.md
           if-no-files-found: error
