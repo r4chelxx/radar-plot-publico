@@ -189,25 +189,32 @@ jobs:
           fi
           node -e "const fs=require('fs');const m=JSON.parse(fs.readFileSync('intake/approved-publications-next.json'));if(!Array.isArray(m.approved))throw Error('Generated approval manifest is invalid');for(const x of m.approved){if(x.review?.decision!=='approved'||!x.review?.officialUrl||!x.review?.evidence||!x.record?.id)throw Error('Generated approval lacks explicit evidence: '+(x.record?.id||'?'));}"
           RADAR_APPROVED_MANIFEST=intake/approved-publications-next.json node scripts/validate-approved-manifest.js
-          gh api "repos/${GITHUB_REPOSITORY}/contents/intake/approved-publications.json?ref=main" > intake/approved-manifest-response.json
-          node - <<'NODE'
+          for attempt in 1 2 3; do
+            gh api "repos/${GITHUB_REPOSITORY}/contents/intake/approved-publications.json?ref=main" > intake/approved-manifest-response.json
+            node - <<'NODE'
           const fs=require('fs');
           const r=JSON.parse(fs.readFileSync('intake/approved-manifest-response.json','utf8'));
           fs.writeFileSync('intake/approved-publications-current.json',Buffer.from(r.content,'base64'));
           NODE
-          if cmp -s intake/approved-publications-next.json intake/approved-publications-current.json; then
-            echo "Public approval manifest is already current."
-            exit 0
-          fi
-          node - <<'NODE'
+            if cmp -s intake/approved-publications-next.json intake/approved-publications-current.json; then
+              echo "Public approval manifest is already current."
+              exit 0
+            fi
+            node - <<'NODE'
           const fs=require('fs');
           const r=JSON.parse(fs.readFileSync('intake/approved-manifest-response.json','utf8'));
           const content=fs.readFileSync('intake/approved-publications-next.json').toString('base64');
           fs.writeFileSync('intake/approved-manifest-update.json',JSON.stringify({branch:'main',message:'Promote explicitly audited publication approvals from source run '+process.env.GITHUB_RUN_ID,content,sha:r.sha}));
           NODE
-          gh api --method PUT "repos/${GITHUB_REPOSITORY}/contents/intake/approved-publications.json" --input intake/approved-manifest-update.json --silent
-          echo "### Manifesto de aprovações auditadas atualizado" >> "$GITHUB_STEP_SUMMARY"
-          echo "O manifesto público recebeu somente decisões com ficha completa, evidência oficial e aprovação explícita." >> "$GITHUB_STEP_SUMMARY"
+            if gh api --method PUT "repos/${GITHUB_REPOSITORY}/contents/intake/approved-publications.json" --input intake/approved-manifest-update.json --silent; then
+              echo "### Manifesto de aprovações auditadas atualizado" >> "$GITHUB_STEP_SUMMARY"
+              echo "O manifesto público recebeu somente decisões com ficha completa, evidência oficial e aprovação explícita." >> "$GITHUB_STEP_SUMMARY"
+              exit 0
+            fi
+            if [ "$attempt" -lt 3 ]; then sleep 5; fi
+          done
+          echo "::error::Could not promote audited approval manifest after three attempts"
+          exit 1
 
       - name: Validate generated public history before persistence
         run: |
