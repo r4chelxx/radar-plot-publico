@@ -21,6 +21,7 @@ on:
       - 'scripts/test-rls-owner-model.js'
       - '.github/workflows/public-health.yml'
       - 'scripts/discover-gmail-newsletters.js'
+      - 'scripts/require-gmail-health.js'
       - 'scripts/discover-linkedin-indexed.js'
       - 'tests/daily-external-discovery.test.js'
       - 'scripts/unify-discovery.js'
@@ -87,7 +88,7 @@ jobs:
       - name: Test production deployment revision checks
         run: node --test tests/deployed-revision.test.js
       - name: Test daily discovery source health reporting
-        run: node --test tests/discovery-operations.test.js tests/editorial-funnel.test.js tests/persisted-editorial-queue.test.js
+        run: node --test tests/discovery-operations.test.js tests/run-summary.test.js tests/editorial-funnel.test.js tests/persisted-editorial-queue.test.js
       - name: Test editorial queue reconciliation
         run: node --test tests/editorial-queue-reconcile.test.js tests/editorial-category-inference.test.js
       - name: Test operational editorial state reconciliation
@@ -142,7 +143,24 @@ jobs:
           if gh api "repos/${GITHUB_REPOSITORY}/contents/state/gmail-backfill-cursor.json?ref=radar-state" --jq .content > /tmp/radar-gmail-cursor-base64 2>/dev/null; then
             base64 --decode /tmp/radar-gmail-cursor-base64 > intake/gmail-backfill-cursor.json
           fi
-      - name: Discover Gmail newsletters (read-only; optional credentials)
+      - name: Preflight public-repository Gmail secret presence
+        if: github.event_name != 'pull_request'
+        env:
+          HAS_CLIENT_ID: ${{ secrets.RADAR_GMAIL_CLIENT_ID != '' }}
+          HAS_CLIENT_SECRET: ${{ secrets.RADAR_GMAIL_CLIENT_SECRET != '' }}
+          HAS_REFRESH_TOKEN: ${{ secrets.RADAR_GMAIL_REFRESH_TOKEN != '' }}
+        run: |
+          missing=()
+          [ "$HAS_CLIENT_ID" = "true" ] || missing+=(RADAR_GMAIL_CLIENT_ID)
+          [ "$HAS_CLIENT_SECRET" = "true" ] || missing+=(RADAR_GMAIL_CLIENT_SECRET)
+          [ "$HAS_REFRESH_TOKEN" = "true" ] || missing+=(RADAR_GMAIL_REFRESH_TOKEN)
+          if [ "${#missing[@]}" -gt 0 ]; then
+            echo "::error::Required Gmail Actions secret(s) are missing in the public repository: ${missing[*]}"
+            exit 1
+          fi
+          echo "Gmail secret names are present in the public repository; values remain masked."
+
+      - name: Discover Gmail newsletters (read-only; required for daily coverage)
         env:
           RADAR_GMAIL_CLIENT_ID: ${{ secrets.RADAR_GMAIL_CLIENT_ID }}
           RADAR_GMAIL_CLIENT_SECRET: ${{ secrets.RADAR_GMAIL_CLIENT_SECRET }}
@@ -154,6 +172,19 @@ jobs:
           if [ -f intake/gmail-backfill-cursor.json ]; then
             cp intake/gmail-backfill-cursor.json /tmp/radar-gmail-backfill-cursor.json
           fi
+      - name: Report Gmail source diagnosis
+        if: always() && github.event_name != 'pull_request'
+        run: |
+          node - <<'NODE'
+          const fs=require('fs');
+          const p='intake/gmail-health.json';
+          if(!fs.existsSync(p)){console.log('Gmail health artifact not generated');process.exit(0)}
+          const item=JSON.parse(fs.readFileSync(p,'utf8')).health?.[0]||{};
+          const line=['### Gmail source diagnosis',`- Status: ${item.status||'unknown'}`,`- Items: ${Number(item.items)||0}`,`- Scanned: ${Number(item.scanned)||0}`,`- Coverage: ${item.coverageStatus||'unknown'}`];
+          if(item.errorCode)line.push(`- OAuth code: ${item.errorCode}`,`- Failure class: ${item.failureClass||'unknown'}`,`- Recommended action: ${item.recommendedAction||'review the OAuth configuration'}`);
+          if(item.reason)line.push(`- Reason: ${String(item.reason).replace(/[\r\n]/g,' ')}`);
+          fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY,line.join('\\n')+'\\n');
+          NODE
       - name: Discover indexed public LinkedIn posts (partial coverage)
         run: node scripts/discover-linkedin-indexed.js
       - name: Consolidate live and historical candidates
@@ -279,3 +310,7 @@ jobs:
             intake/editorial-review-sample.json
             intake/editorial-review.md
             intake/backlog-triage-report.json
+      - name: Require healthy Gmail source on scheduled/manual runs
+        if: github.event_name != 'pull_request'
+        run: node scripts/require-gmail-health.js
+

@@ -21,6 +21,8 @@ try{
  assert(workflow.includes('  push:')&&workflow.includes('    branches: [main]'));
  assert(workflow.includes('intake/approved-publications.json'));
  assert(workflow.includes('cron: "0 14 * * *"'));
+ assert(workflow.includes('PUBLICATION_TARGET_UNMET'));
+ assert(workflow.includes("steps.changes.outputs.changed != 'true' || steps.category-counts.outputs.shortfall == 'true'"));
  manifest.approved[0].review.decision='pending';fs.writeFileSync(input,JSON.stringify(manifest));
  assert.throws(()=>run('publish-approved.js',input));
  const queueInput=path.join(root,'intake','quality.json'),queueOutput=path.join(root,'intake','editorial-queue.json');

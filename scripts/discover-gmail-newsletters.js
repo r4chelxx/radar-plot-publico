@@ -12,10 +12,11 @@ function extract(message){
 async function collect(fetcher=fetch,env=process.env){
  const health={source:'Gmail Radar PLOT',status:'unconfigured',items:0,coverageStatus:'unavailable'};
  const {RADAR_GMAIL_CLIENT_ID:id,RADAR_GMAIL_CLIENT_SECRET:secret,RADAR_GMAIL_REFRESH_TOKEN:refresh}=env;
- if(!id||!secret||!refresh)return {source:'gmail',leads:[],health:[{...health,reason:'OAuth read-only credentials not configured'}]};
+ const missing=[['RADAR_GMAIL_CLIENT_ID',id],['RADAR_GMAIL_CLIENT_SECRET',secret],['RADAR_GMAIL_REFRESH_TOKEN',refresh]].filter(([,value])=>!String(value||'').trim()).map(([name])=>name);
+ if(missing.length)return {source:'gmail',leads:[],health:[{...health,reason:'Missing GitHub Actions secret(s): '+missing.join(', ')}]};
  try{
   const tokenResponse=await fetcher('https://oauth2.googleapis.com/token',{method:'POST',headers:{'content-type':'application/x-www-form-urlencoded'},body:new URLSearchParams({client_id:id,client_secret:secret,refresh_token:refresh,grant_type:'refresh_token'})});
-  if(!tokenResponse.ok)throw Error('OAuth HTTP '+tokenResponse.status);
+  if(!tokenResponse.ok){const oauthError=await tokenResponse.json().catch(()=>({}));const code=String(oauthError.error||'unknown').replace(/[^a-z0-9_-]/gi,'').slice(0,50);const failure=Error('OAuth HTTP '+tokenResponse.status+' '+code);failure.oauthStatus=tokenResponse.status;failure.oauthCode=code;throw failure;}
   const token=(await tokenResponse.json()).access_token;
   if(!token)throw Error('Missing access token');
   const api=async path=>{const r=await fetcher('https://gmail.googleapis.com/gmail/v1/users/me/'+path,{headers:{authorization:'Bearer '+token}});if(!r.ok)throw Error('Gmail API HTTP '+r.status);return r.json()};
@@ -52,7 +53,7 @@ async function collect(fetcher=fetch,env=process.env){
   fs.mkdirSync(require('node:path').dirname(cursorFile),{recursive:true});
   fs.writeFileSync(cursorFile,JSON.stringify({...cursor,pageToken:nextToken,processed:processedIds.size,processedIdHashes:[...processedIds],updatedAt:new Date().toISOString(),complete:!nextToken},null,2)+'\n');
   return {source:'gmail',leads,health:[{source:'Gmail Radar PLOT',status:'ok',items:leads.length,scanned,skippedAlready,checkpointIds:processedIds.size,pages,coverageStatus:nextToken?'partial':'complete',checkpoint:cursorFile}]};
- }catch(e){return {source:'gmail',leads:[],health:[{...health,status:'error',reason:String(e.message||e).slice(0,140)}]}}
+ }catch(e){const reason=String(e.message||e).replace(/[\r\n]/g,' ').slice(0,140);const diagnostics=e.oauthCode==='invalid_client'?{errorCode:'invalid_client',failureClass:'oauth-client-configuration',recommendedAction:'Reauthorize or replace the OAuth client ID/secret pair in the public repository.'}:e.oauthCode==='invalid_grant'?{errorCode:'invalid_grant',failureClass:'oauth-refresh-token',recommendedAction:'Generate a new refresh token for the same OAuth client and update the public repository secret.'}:{};return {source:'gmail',leads:[],health:[{...health,status:'error',reason,...diagnostics}]}}
 }
 if(require.main===module)collect().then(r=>{fs.mkdirSync('intake',{recursive:true});fs.writeFileSync('intake/gmail-discovery.json',JSON.stringify({source:r.source,leads:r.leads},null,2)+'\n');fs.writeFileSync('intake/gmail-health.json',JSON.stringify({health:r.health},null,2)+'\n');console.log(JSON.stringify({gmailCandidates:r.leads.length,health:r.health}));});
 module.exports={collect,extract};
