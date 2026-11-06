@@ -147,8 +147,8 @@ jobs:
           const automatic=JSON.parse(fs.readFileSync('intake/auto-editorial-decisions.json','utf8'));
           const seen=new Set((manual.decisions||[]).map(x=>x.url));
           const merged={...manual,decisions:[...(manual.decisions||[]),...(automatic.decisions||[]).filter(x=>!seen.has(x.url))]};
-          fs.writeFileSync('intake/historical-decisions-merged.json',JSON.stringify(merged,null,2)+'\\n');
-          fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY,'### Auditoria automática conservadora\\n- Aprovações geradas: '+automatic.decisions.length+'\\n- Bloqueios mantidos em revisão: '+automatic.summary.blocked+'\\n');
+          fs.writeFileSync('intake/historical-decisions-merged.json',JSON.stringify(merged,null,2)+'\n');
+          fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY,'### Auditoria automática conservadora\n- Aprovações geradas: '+automatic.decisions.length+'\n- Bloqueios mantidos em revisão: '+automatic.summary.blocked+'\n');
           NODE
       - name: Apply verified editorial decisions to historical state
         env:
