@@ -23,7 +23,7 @@ test('Gmail invalid-client response identifies OAuth client configuration withou
  assert.equal(r.health[0].reason,'OAuth HTTP 401 invalid_client');
  assert.equal(r.health[0].errorCode,'invalid_client');
  assert.equal(r.health[0].failureClass,'oauth-client-configuration');
- assert.match(r.health[0].recommendedAction,/OAuth client ID\\/secret pair/);
+ assert.match(r.health[0].recommendedAction,/OAuth client ID\/secret pair/);
  assert.doesNotMatch(r.health[0].reason,/secret-value|must not be logged/);
 });
 test('Gmail invalid-grant response reports refresh-token failure distinctly',async()=>{
