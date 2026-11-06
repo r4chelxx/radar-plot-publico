@@ -32,7 +32,9 @@ on:
       - 'scripts/build-editorial-review.js'
       - 'scripts/inspect-lead-pages.js'
       - 'scripts/inspection-health.js'
+      - 'scripts/require-inspection-health.js'
       - 'tests/inspection-health.test.js'
+      - 'tests/require-inspection-health.test.js'
       - 'scripts/select-historical-backlog.js'
       - 'scripts/import-public-editorial-queue.js'
       - 'tests/import-public-editorial-queue.test.js'
@@ -54,7 +56,9 @@ on:
       - 'scripts/build-editorial-review.js'
       - 'scripts/inspect-lead-pages.js'
       - 'scripts/inspection-health.js'
+      - 'scripts/require-inspection-health.js'
       - 'tests/inspection-health.test.js'
+      - 'tests/require-inspection-health.test.js'
       - 'scripts/import-public-editorial-queue.js'
       - 'tests/import-public-editorial-queue.test.js'
       - 'tests/lead-privacy.test.js'
@@ -119,6 +123,8 @@ jobs:
         env:
           LEAD_PAGE_LIMIT: '40'
         run: node scripts/inspect-lead-pages.js
+      - name: Require technical inspection coverage
+        run: node scripts/require-inspection-health.js intake/lead-evidence.json
       - name: Build editorial review queue
         run: node scripts/build-editorial-review.js
       - name: Compare against persistent public lead history
