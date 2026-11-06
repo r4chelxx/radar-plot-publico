@@ -44,3 +44,14 @@ for(const [item,expected] of [
 for(const name of ['chromote','React Three Fiber (R3F)','color.adobe.com','Bluesky']){
  test('known technical lead: '+name,()=>assert.equal(context.inferTechnicalCategory({title:name,url:'https://example.org/'}),'tools'));
 }
+
+for(const [title,expected] of [
+ ['Award The Sigma Awards','opportunities'],
+ ['Award The Philip Meyer Journalism Award','opportunities'],
+ ['Award-winning visualization guide','uncategorized'],
+ ['Conference on journalism prizes','uncategorized'],
+])test('award discovery: '+title,()=>assert.equal(context.inferCategory(title),expected));
+for(const [title,expected] of [
+ ['ai2html','tools'],['Datawrapper.de ↗','tools'],['Power BI','tools'],
+ ['PMTiles','tools'],['WebGPU & WGSL','tools'],['World Bank Open Data','datasets'],
+])test('expanded resource classification: '+title,()=>assert.equal(context.inferTechnicalCategory({title,url:'https://example.org/'}),expected));
