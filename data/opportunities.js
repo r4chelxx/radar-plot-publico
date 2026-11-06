@@ -4318,7 +4318,7 @@ window.RADAR_PARTS.opportunities=[
   "verificationHistory": [
     {
       "date": "2026-09-24",
-      "status": "aberta",
+      "status": "preparar",
       "source": "https://rjionline.org/about-rji-fellowships/"
     },
     {
@@ -4348,7 +4348,7 @@ window.RADAR_PARTS.opportunities=[
   "deadlineStatus": "Confirmado na página oficial: inscrições abertas; prazo final em 08/01/2027",
   "eligibility": "elegível",
   "fit": 10,
-  "status": "preparar",
+  "status": "aberta",
   "rules": "https://rjionline.org/about-rji-fellowships/",
   "apply": "https://rjionline.org/fellowships/",
   "verified": "2026-11-06",
@@ -4368,7 +4368,7 @@ window.RADAR_PARTS.opportunities=[
   "verificationHistory": [
     {
       "date": "2026-09-24",
-      "status": "aberta",
+      "status": "preparar",
       "source": "https://rjionline.org/about-rji-fellowships/"
     },
     {
@@ -4398,7 +4398,7 @@ window.RADAR_PARTS.opportunities=[
   "deadlineStatus": "Confirmado na página oficial: inscrições abertas; prazo final em 08/01/2027",
   "eligibility": "elegível",
   "fit": 9.5,
-  "status": "preparar",
+  "status": "aberta",
   "rules": "https://rjionline.org/about-rji-fellowships/",
   "apply": "https://rjionline.org/fellowships/",
   "verified": "2026-11-06",
