@@ -4,12 +4,9 @@ const {isArcgisRest,validateArcgisPayload}=require("./validate-arcgis-rest");
 const files=["data/opportunities.js","data/datasets.js","data/sources.js","data/tools.js"];
 const ctx={window:{RADAR_PARTS:{}}};vm.createContext(ctx);
 for(const file of files)vm.runInContext(fs.readFileSync(path.join(process.cwd(),file),"utf8"),ctx,{filename:file});
-const D=ctx.window.RADAR_PARTS,rows=[];
-for(const x of D.opportunities||[])if(x.rules)rows.push({type:"opportunity",id:x.id||x.title,url:x.rules});
-for(const x of D.datasets||[])if(x?.url)rows.push({type:"dataset",id:x.id||x.name,url:x.url});
-for(const x of D.sources||[])if(x?.url)rows.push({type:"source",id:x.name,url:x.url});
-for(const x of D.tools||[])if(x?.url)rows.push({type:"tool",id:x.id,url:x.url});
-const unique=[...new Map(rows.map(x=>[x.url,x])).values()],results=[];
+const D=ctx.window.RADAR_PARTS;
+const {collectCatalogLinks}=require("./collect-catalog-links");
+const unique=collectCatalogLinks(D),results=[];
 let previous={results:[]};
 try{previous=JSON.parse(fs.readFileSync("audit/link-audit-latest.json","utf8"))}catch{}
 const prior=new Map((previous.results||[]).map(x=>[x.url,x]));
