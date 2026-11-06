@@ -26,7 +26,7 @@ const candidates=[...historical,...(triage.leads||[])].filter(x=>x.classificatio
  if(x.category==='tools')Object.assign(checks,{functionalityVerified:false,officialLinkVerified:false});
  if(x.category==='uncategorized')checks.categoryReviewed=false;
  const missing=Object.entries(checks).filter(([,v])=>!v).map(([k])=>k);
- return {id:identity(x.url).id,category:x.category,source:x.source,title:x.title,url:x.url,pageStatus:ev?.pageStatus||x.pageStatus||'not-inspected',lastInspectedAt:ev?evidence.generatedAt:x.lastInspectedAt||null,editorialStatus:x.editorialStatus||'unverified',pageTitle:ev?.pageTitle||null,dateMentionsUnclassified:ev?.dateMentionsUnclassified||[],checks,missing,publicationReady:false};
+ return {id:identity(x.url).id,category:x.category,source:x.source,title:x.title,url:x.url,pageStatus:ev?.pageStatus||x.pageStatus||'not-inspected',lastInspectedAt:ev?evidence.generatedAt:x.lastInspectedAt||null,editorialStatus:x.editorialStatus||'unverified',pageTitle:ev?.pageTitle||null,pageDescription:ev?.pageDescription||null,structuredEvidence:ev?.structuredEvidence||x.structuredEvidence||null,deadline:ev?.deadline||x.deadline||null,eligibility:ev?.eligibility||x.eligibility||null,dateMentionsUnclassified:ev?.dateMentionsUnclassified||[],checks,missing,publicationReady:false};
 });
 const counts={opportunities:0,datasets:0,tools:0,uncategorized:0};
 for(const x of candidates)counts[x.category]=(counts[x.category]||0)+1;
