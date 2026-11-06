@@ -1200,7 +1200,7 @@ window.RADAR_PARTS.datasets=[
     "period": "Período de cobertura não confirmado para esta camada alternativa; conferir datas e completude dos registros antes da análise",
     "granularity": "Registro individual de outorga, uso e localização; campos específicos conforme metadados da camada",
     "geoUnit": "Brasil; pontos/registros georreferenciados das outorgas federais, com possibilidade de recorte por estado e bacia",
-    "api": "ArcGIS REST (camada Outorgas Federais): https://www.snirh.gov.br/arcgis/rest/services/SRE/OutorgasDireitodeUso/MapServer/0 — indisponível na verificação automatizada de 23/10/2026: HTTP 200 com erro de aplicação; não presumir acesso à API. Usar planilha, mapa e painel oficiais na página de outorgas emitidas até restabelecimento e validação da API.",
+    "api": "A API ArcGIS referenciada anteriormente retornou erro de aplicação 404 em auditorias automatizadas de 23/10 e 06/11/2026; não presumir camada ativa nem usar esses endpoints. Consulte a página oficial de outorgas emitidas e o painel SNIRH.",
     "docs": "https://www.snirh.gov.br/portal/snirh-1/paineis-de-indicadores/regulacao-de-usos-de-recursos-hidricos-1",
     "limitations": "A base cobre outorgas federais emitidas pela ANA, não a totalidade de captações nem outorgas estaduais, como as administradas pelo INEMA na Bahia. Outorga é autorização, não volume efetivamente captado. Para investigar data centers e disputa por água, cruzar com registros do INEMA, licenciamento ambiental e dados de consumo, validando a vigência e a precisão geográfica dos registros. A documentação não explicita frequência de atualização. Em 23/10/2026 o endpoint ArcGIS respondeu HTTP 200 com erro JSON, sem camada operacional confirmada. A página de outorgas emitidas da ANA oferece rotas oficiais de consulta alternativas. Não confundir URL institucional acessível com disponibilidade da API.",
     "lastChecked": "2026-10-23",
@@ -1208,7 +1208,7 @@ window.RADAR_PARTS.datasets=[
     "discoveredVia": [
       "ANA/SNIRH — Geosserviços de Outorgas"
     ],
-    "discoveryUrl": "https://portal1.snirh.gov.br/arcgis/rest/services/SRE/OutorgasFederais_FeatureLayer/FeatureServer"
+    "discoveryUrl": "https://www.gov.br/ana/pt-br/assuntos/regulacao-e-fiscalizacao/outorga/outorgas-emitidas"
   },
   {
     "id": "climate-trace-emissions-inventory",

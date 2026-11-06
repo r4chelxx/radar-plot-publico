@@ -10,6 +10,8 @@ on:
       - "data/sources.js"
       - "data/tools.js"
       - "scripts/check-links.js"
+      - "scripts/collect-catalog-links.js"
+      - "tests/catalog-link-extraction.test.js"
       - "scripts/validate-arcgis-rest.js"
       - "tests/arcgis-rest.test.js"
       - ".github/workflows/audit-links.yml"
@@ -21,6 +23,8 @@ on:
       - "data/sources.js"
       - "data/tools.js"
       - "scripts/check-links.js"
+      - "scripts/collect-catalog-links.js"
+      - "tests/catalog-link-extraction.test.js"
       - ".github/workflows/audit-links.yml"
 concurrency:
   group: radar-link-audit-${{ github.event_name == 'pull_request' && format('pr-{0}', github.event.pull_request.number) || 'main' }}
@@ -37,7 +41,7 @@ jobs:
         with:
           node-version: "22"
       - name: Test ArcGIS JSON service validation
-        run: node --test tests/arcgis-rest.test.js
+        run: node --test tests/arcgis-rest.test.js tests/catalog-link-extraction.test.js
       - name: Audit URLs
         id: audit
         continue-on-error: true
