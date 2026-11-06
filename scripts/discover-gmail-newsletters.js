@@ -16,7 +16,7 @@ async function collect(fetcher=fetch,env=process.env){
  if(missing.length)return {source:'gmail',leads:[],health:[{...health,reason:'Missing GitHub Actions secret(s): '+missing.join(', ')}]};
  try{
   const tokenResponse=await fetcher('https://oauth2.googleapis.com/token',{method:'POST',headers:{'content-type':'application/x-www-form-urlencoded'},body:new URLSearchParams({client_id:id,client_secret:secret,refresh_token:refresh,grant_type:'refresh_token'})});
-  if(!tokenResponse.ok)throw Error('OAuth HTTP '+tokenResponse.status);
+  if(!tokenResponse.ok){const oauthError=await tokenResponse.json().catch(()=>({}));const code=String(oauthError.error||'unknown').replace(/[^a-z0-9_-]/gi,'').slice(0,50);throw Error('OAuth HTTP '+tokenResponse.status+' '+code);}
   const token=(await tokenResponse.json()).access_token;
   if(!token)throw Error('Missing access token');
   const api=async path=>{const r=await fetcher('https://gmail.googleapis.com/gmail/v1/users/me/'+path,{headers:{authorization:'Bearer '+token}});if(!r.ok)throw Error('Gmail API HTTP '+r.status);return r.json()};
