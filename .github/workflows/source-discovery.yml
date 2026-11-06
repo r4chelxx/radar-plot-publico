@@ -39,6 +39,7 @@ on:
       - 'scripts/import-public-editorial-queue.js'
       - 'tests/import-public-editorial-queue.test.js'
       - 'scripts/apply-editorial-decisions.js'
+      - 'scripts/validate-approved-manifest.js'
       - 'tests/apply-editorial-decisions.test.js'
       - 'scripts/build-historical-review-batch.js'
       - 'tests/historical-editorial-batch.test.js'
@@ -75,6 +76,7 @@ on:
       - 'tests/lead-history.test.js'
       - 'scripts/select-historical-backlog.js'
       - 'scripts/apply-editorial-decisions.js'
+      - 'scripts/validate-approved-manifest.js'
       - 'tests/apply-editorial-decisions.test.js'
       - 'intake/historical-decisions.json'
       - 'tests/historical-backlog.test.js'
@@ -186,6 +188,7 @@ jobs:
             exit 0
           fi
           node -e "const fs=require('fs');const m=JSON.parse(fs.readFileSync('intake/approved-publications-next.json'));if(!Array.isArray(m.approved))throw Error('Generated approval manifest is invalid');for(const x of m.approved){if(x.review?.decision!=='approved'||!x.review?.officialUrl||!x.review?.evidence||!x.record?.id)throw Error('Generated approval lacks explicit evidence: '+(x.record?.id||'?'));}"
+          RADAR_APPROVED_MANIFEST=intake/approved-publications-next.json node scripts/validate-approved-manifest.js
           gh api "repos/${GITHUB_REPOSITORY}/contents/intake/approved-publications.json?ref=main" > intake/approved-manifest-response.json
           node - <<'NODE'
           const fs=require('fs');
