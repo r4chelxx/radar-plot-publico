@@ -153,6 +153,11 @@ jobs:
           RADAR_DEPLOY_DELAY_MS: "15000"
         run: node scripts/verify-published-records.js
 
+      - name: Fail scheduled run when publication target is unmet
+        if: (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch') && (steps.changes.outputs.changed != 'true' || steps.category-counts.outputs.shortfall == 'true')
+        run: |
+          echo "PUBLICATION_TARGET_UNMET: no new verified publications, or fewer than two new records in one or more categories." >> "$GITHUB_STEP_SUMMARY"
+          exit 1
       - name: Summarize editorial run outcome
         if: always()
         env:
