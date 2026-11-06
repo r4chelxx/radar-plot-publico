@@ -2,7 +2,8 @@
 const fs=require('node:fs'),vm=require('node:vm');
 const {identity}=require('./lead-identity');
 const input=JSON.parse(fs.readFileSync('intake/lead-history-next.json','utf8'));
-const decisions=JSON.parse(fs.readFileSync('intake/historical-decisions.json','utf8'));
+const decisionsPath=process.env.RADAR_DECISIONS||'intake/historical-decisions.json';
+const decisions=JSON.parse(fs.readFileSync(decisionsPath,'utf8'));
 const approvedManifest=JSON.parse(fs.readFileSync('intake/approved-publications.json','utf8'));
 const approved=approvedManifest.approved||[];
 const nextManifest={...approvedManifest,approved:[...approved]};
