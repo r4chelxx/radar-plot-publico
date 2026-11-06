@@ -60,3 +60,12 @@ test('Gmail checkpoint skips previously read message IDs without storing raw IDs
   assert.equal(reads,1);
  }finally{fs.rmSync(dir,{recursive:true,force:true})}
 });
+
+const {assertGmailAvailable}=require('../scripts/require-gmail-health');
+test('required Gmail source gate rejects missing OAuth coverage',()=>{
+ assert.throws(()=>assertGmailAvailable({health:[{status:'unconfigured',reason:'OAuth read-only credentials not configured'}]}),/Required Gmail source unavailable: OAuth read-only credentials not configured/);
+});
+test('required Gmail source gate accepts a healthy partial backfill',()=>{
+ const r=assertGmailAvailable({health:[{source:'Gmail Radar PLOT',status:'ok',scanned:30,items:4,coverageStatus:'partial'}]});
+ assert.deepEqual(r,{source:'Gmail Radar PLOT',scanned:30,items:4,coverageStatus:'partial'});
+});
