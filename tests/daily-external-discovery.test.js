@@ -1,7 +1,18 @@
 const test=require('node:test'),assert=require('node:assert/strict');
 const gmail=require('../scripts/discover-gmail-newsletters');
 const linkedin=require('../scripts/discover-linkedin-indexed');
-test('Gmail without OAuth secrets explicitly reports unavailable',async()=>{const r=await gmail.collect(undefined,{});assert.equal(r.leads.length,0);assert.equal(r.health[0].status,'unconfigured')});
+test('Gmail without OAuth secrets names missing Actions secrets without exposing values',async()=>{
+ const r=await gmail.collect(undefined,{});
+ assert.equal(r.leads.length,0);
+ assert.equal(r.health[0].status,'unconfigured');
+ for(const name of ['RADAR_GMAIL_CLIENT_ID','RADAR_GMAIL_CLIENT_SECRET','RADAR_GMAIL_REFRESH_TOKEN'])assert.match(r.health[0].reason,new RegExp(name));
+});
+test('Gmail with one missing OAuth secret reports only the missing secret name',async()=>{
+ const r=await gmail.collect(undefined,{RADAR_GMAIL_CLIENT_ID:'present',RADAR_GMAIL_CLIENT_SECRET:'present'});
+ assert.equal(r.health[0].status,'unconfigured');
+ assert.equal(r.health[0].reason,'Missing GitHub Actions secret(s): RADAR_GMAIL_REFRESH_TOKEN');
+ assert.doesNotMatch(r.health[0].reason,/present/);
+});
 test('Gmail metadata links are unverified candidates',()=>{const r=gmail.extract({subject:'Journalism grant applications',snippet:'Apply https://example.org/grant'});assert.equal(r.length,1);assert.equal(r[0].editorialStatus,'unverified')});
 test('Indexed LinkedIn extraction rejects unrelated URLs',()=>{const xml='<item><title>Journalism grant fellowship</title><link>https://www.linkedin.com/posts/example-grant</link></item><item><title>Journalism grant</title><link>https://example.org/grant</link></item>';const r=linkedin.extract(xml);assert.equal(r.length,1);assert.equal(r[0].category,'opportunities')});
 
