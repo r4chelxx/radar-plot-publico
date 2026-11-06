@@ -39,6 +39,7 @@ on:
       - 'scripts/import-public-editorial-queue.js'
       - 'tests/import-public-editorial-queue.test.js'
       - 'scripts/apply-editorial-decisions.js'
+      - 'tests/apply-editorial-decisions.test.js'
       - 'scripts/build-historical-review-batch.js'
       - 'tests/historical-editorial-batch.test.js'
       - 'intake/historical-decisions.json'
@@ -74,6 +75,7 @@ on:
       - 'tests/lead-history.test.js'
       - 'scripts/select-historical-backlog.js'
       - 'scripts/apply-editorial-decisions.js'
+      - 'tests/apply-editorial-decisions.test.js'
       - 'intake/historical-decisions.json'
       - 'tests/historical-backlog.test.js'
       - '.github/workflows/source-discovery.yml'
@@ -94,7 +96,7 @@ jobs:
       - name: Check source collector syntax and daily coverage
         run: node --test tests/source-intake-coverage.test.js
       - name: Test persistent lead history
-        run: node --test tests/inspection-health.test.js tests/audit-capacity.test.js tests/backlog-health.test.js tests/historical-backlog.test.js tests/historical-editorial-batch.test.js tests/lead-history.test.js tests/source-catalog.test.js tests/editorial-review.test.js tests/editorial-priority.test.js tests/inspection-order.test.js tests/lead-privacy.test.js tests/normalize-lead-link.test.js
+        run: node --test tests/inspection-health.test.js tests/require-inspection-health.test.js tests/apply-editorial-decisions.test.js tests/audit-capacity.test.js tests/backlog-health.test.js tests/historical-backlog.test.js tests/historical-editorial-batch.test.js tests/lead-history.test.js tests/source-catalog.test.js tests/editorial-review.test.js tests/editorial-priority.test.js tests/inspection-order.test.js tests/lead-privacy.test.js tests/normalize-lead-link.test.js
       - name: Test public queue integration
         run: node --test tests/import-public-editorial-queue.test.js
       - name: Inspect monitored source websites
