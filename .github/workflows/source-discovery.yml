@@ -196,7 +196,7 @@ jobs:
           const r=JSON.parse(fs.readFileSync('intake/approved-manifest-response.json','utf8'));
           fs.writeFileSync('intake/approved-publications-current.json',Buffer.from(r.content,'base64'));
           NODE
-            if cmp -s intake/approved-publications-next.json intake/approved-publications-current.json; then
+            if node -e "const fs=require('fs');const a=JSON.stringify(JSON.parse(fs.readFileSync('intake/approved-publications-next.json')));const b=JSON.stringify(JSON.parse(fs.readFileSync('intake/approved-publications-current.json')));process.exit(a===b?0:1)"; then
               echo "Public approval manifest is already current."
               exit 0
             fi
