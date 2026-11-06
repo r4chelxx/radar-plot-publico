@@ -3,6 +3,7 @@ const fs = require('node:fs');
 const crypto = require('node:crypto');
 const {normalizeLink}=require('./normalize-lead-link');
 const {extractStructuredMetadata,metadataForLink}=require('./structured-lead-metadata');
+const {extractLinks,selectExpansionLinks,relevant}=require('./source-page-links');
 
 const {sources:unique,registryCount,invalidOrDuplicate}=require('./load-source-catalog').loadSources();
 const {selectSourceSweep}=require('./select-source-sweep');
