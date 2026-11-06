@@ -165,7 +165,7 @@ jobs:
           const item=JSON.parse(fs.readFileSync(p,'utf8')).health?.[0]||{};
           const line=['### Gmail source diagnosis',`- Status: ${item.status||'unknown'}`,`- Items: ${Number(item.items)||0}`,`- Scanned: ${Number(item.scanned)||0}`,`- Coverage: ${item.coverageStatus||'unknown'}`];
           if(item.errorCode)line.push(`- OAuth code: ${item.errorCode}`,`- Failure class: ${item.failureClass||'unknown'}`,`- Recommended action: ${item.recommendedAction||'review the OAuth configuration'}`);
-          if(item.reason)line.push(`- Reason: ${String(item.reason).replace(/[\\r\\n]/g,' ')}`);
+          if(item.reason)line.push(`- Reason: ${String(item.reason).replace(/[\r\n]/g,' ')}`);
           fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY,line.join('\\n')+'\\n');
           NODE
       - name: Discover indexed public LinkedIn posts (partial coverage)
