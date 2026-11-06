@@ -21,6 +21,7 @@ on:
       - 'scripts/test-rls-owner-model.js'
       - '.github/workflows/public-health.yml'
       - 'scripts/discover-gmail-newsletters.js'
+      - 'scripts/require-gmail-health.js'
       - 'scripts/discover-linkedin-indexed.js'
       - 'tests/daily-external-discovery.test.js'
       - 'scripts/unify-discovery.js'
@@ -279,3 +280,7 @@ jobs:
             intake/editorial-review-sample.json
             intake/editorial-review.md
             intake/backlog-triage-report.json
+      - name: Require healthy Gmail source on scheduled/manual runs
+        if: github.event_name != 'pull_request'
+        run: node scripts/require-gmail-health.js
+
