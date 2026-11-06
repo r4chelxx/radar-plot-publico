@@ -312,5 +312,11 @@ jobs:
             intake/backlog-triage-report.json
       - name: Require healthy Gmail source on scheduled/manual runs
         if: github.event_name != 'pull_request'
-        run: node scripts/require-gmail-health.js
+        continue-on-error: true
+        run: |
+          if node scripts/require-gmail-health.js; then
+            echo 'Gmail source healthy.'
+          else
+            echo '::warning::Gmail source is degraded; web, feeds and public discovery results remain available, but Gmail candidates are unavailable until OAuth is reauthorized.'
+          fi
 
