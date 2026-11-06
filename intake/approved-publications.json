@@ -2529,6 +2529,82 @@
         "officialUrl": "https://tasks.hotosm.org/",
         "evidence": "Página oficial tasks.hotosm.org confirma divisão de projetos de mapeamento, uso de imagens para mapear edificações e vias e validação por colaboradores experientes; documentação HOT/OSGeo confirma código aberto e coordenação de tarefas. Conferida ausência de domínio, URL e ID no catálogo e manifesto; registradas limitações de cobertura e verificação."
       }
+    },
+    {
+      "category": "datasets",
+      "record": {
+        "id": "c3s-global-groundwater-storage-change-grace",
+        "name": "C3S — variação global do armazenamento subterrâneo de água (GWSC)",
+        "org": "Copernicus Climate Change Service / ECMWF",
+        "territoryTier": "Outros",
+        "kind": "dataset",
+        "themes": [
+          "Água subterrânea",
+          "Secas",
+          "Clima",
+          "Hidrologia",
+          "Satélites",
+          "Segurança hídrica"
+        ],
+        "coverage": "Anomalias mensais globais de variação do armazenamento de água subterrânea, em altura equivalente de água, com estimativa de incerteza por célula; sem dados para Groenlândia e Antártida.",
+        "frequency": "Mensal; atualização anual planejada, com extensões intermediárias do registro climático.",
+        "format": "NetCDF-4, grade regular latitude-longitude, convenções CF-1.8 e ACDD-1.3; download pelo Climate Data Store e API CDS.",
+        "period": "Abril de 2002 a setembro de 2023 na versão 1.0 publicada em 27/10/2026.",
+        "granularity": "Células de 0,5° × 0,5° e mês.",
+        "geoUnit": "Global, excluindo Groenlândia e Antártida.",
+        "api": "https://cds.climate.copernicus.eu/datasets/satellite-groundwater?tab=download",
+        "docs": "https://confluence.ecmwf.int/x/sA0nJw",
+        "limitations": "Produto derivado de GRACE/GRACE-FO por abordagem residual: subtrai de TWSA estimativas de geleiras, neve, umidade do solo na zona radicular e água superficial. É uma estimativa indireta, tem resolução espacial grosseira, incertezas propagadas e lacunas temporais; não mede poços ou aquíferos individualmente. A série da versão 1.0 termina em setembro de 2023, apesar do nome do catálogo dizer “to present”; conferir a versão e os meses disponíveis antes de análises.",
+        "lastChecked": "2026-11-06",
+        "url": "https://cds.climate.copernicus.eu/datasets/satellite-groundwater?tab=overview",
+        "discoveryUrl": "https://forum.ecmwf.int/t/new-dataset-published-in-cds-groundwater-storage-change-data-from-2002-to-present-derived-from-satellite-gravimetry-observations/15458",
+        "description": "Conjunto global mensal que estima mudanças no armazenamento subterrâneo a partir de gravimetria por satélite e compartimentos hídricos, com incerteza por célula; útil para análises amplas de secas e tendências, não para afirmar medições locais."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Radar PLOT — revisão editorial assistida",
+        "reviewedAt": "2026-11-06",
+        "officialUrl": "https://cds.climate.copernicus.eu/datasets/satellite-groundwater?tab=overview",
+        "evidence": "A página primária do Climate Data Store confirma grade global de 0,5°, cobertura temporal abril de 2002–setembro de 2023, periodicidade mensal, NetCDF-4, licença CC-BY e publicação/atualização em 27/10/2026. O anúncio oficial ECMWF de 27/10/2026 e o guia PUGS documentam derivação de GRACE/GRACE-FO, abordagem de subtração, variáveis de entrada e exclusões geográficas. Conferência de data/datasets.js e intake/approved-publications.json na branch: URL e ID não encontrados; candidato distinto de bases de armazenamento terrestre."
+      }
+    },
+    {
+      "category": "datasets",
+      "record": {
+        "id": "c3s-eobs-eu-daily-meteorological-open-data",
+        "name": "C3S E-OBS_EU — observações meteorológicas diárias em grade",
+        "org": "Copernicus Climate Change Service / ECMWF",
+        "territoryTier": "Outros",
+        "kind": "dataset",
+        "themes": [
+          "Clima",
+          "Meteorologia",
+          "Temperatura",
+          "Precipitação",
+          "Radiação",
+          "Europa"
+        ],
+        "coverage": "Observações diárias em grade terrestre, derivadas de estações in situ, para a área da União Europeia, Noruega, Suíça, Islândia e Reino Unido; variáveis incluem temperatura, precipitação, radiação de onda curta, umidade, pressão e vento.",
+        "frequency": "Atualização semestral no Climate Data Store; verificar a versão e data de cada extração.",
+        "format": "Dados meteorológicos em grade acessíveis por formulário e API do Climate Data Store; usar o código de requisição API gerado pela interface atualizada.",
+        "period": "Desde 1950 até o período disponível em cada versão; a atualização/reimplementação anunciada em 04/11/2026.",
+        "granularity": "Grade diária; resolução espacial e período disponíveis devem ser conferidos na seleção de produto/versão.",
+        "geoUnit": "Terra na União Europeia, Noruega, Suíça, Islândia e Reino Unido.",
+        "api": "https://cds.climate.copernicus.eu/datasets/insitu-gridded-observations-europe?tab=download",
+        "docs": "https://cds.climate.copernicus.eu/datasets/insitu-gridded-observations-europe?tab=overview",
+        "limitations": "O registro E-OBS_EU tem licença CC BY 4.0 e permite uso comercial com atribuição; o produto E-OBS que cobre toda a Europa permanece sob licença restrita a pesquisa e educação não comercial. Não misturar os dois produtos. A densidade de estações varia por país e tempo; dados podem ter inhomogeneidades, incerteza espacial e diferentes janelas de 24 horas conforme provedor. O esquema da API mudou em 04/11/2026: recriar e testar requisições.",
+        "lastChecked": "2026-11-06",
+        "url": "https://cds.climate.copernicus.eu/datasets/insitu-gridded-observations-europe?tab=overview",
+        "discoveryUrl": "https://forum.ecmwf.int/t/e-obs-daily-gridded-data-new-dataset-implementation-to-support-open-data/15543",
+        "description": "Série diária europeia de meteorologia observada e interpolada, com seis variáveis atmosféricas principais e uma opção E-OBS_EU sob licença CC BY 4.0. O catálogo do CDS reúne também o produto europeu com licença restrita; selecionar explicitamente E-OBS_EU."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Radar PLOT — revisão editorial assistida",
+        "reviewedAt": "2026-11-06",
+        "officialUrl": "https://cds.climate.copernicus.eu/datasets/insitu-gridded-observations-europe?tab=overview",
+        "evidence": "Página e anúncio oficiais do ECMWF/C3S confirmam reimplementação em 04/11/2026, cobertura e variáveis do E-OBS e existência de E-OBS_EU sob CC BY 4.0 (EU mais Noruega, Suíça, Islândia e Reino Unido), enquanto E-OBS Europa integral segue restrito a pesquisa/educação não comercial. A documentação oficial recomenda gerar novo código API após a mudança. A página oficial de qualidade descreve limitações de densidade variável, atualização semestral, inhomogeneidades e interpolação. Busca por URL e ID em data/datasets.js e intake/approved-publications.json desta branch: não encontrados."
+      }
     }
   ]
 }
