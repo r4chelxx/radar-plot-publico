@@ -7,6 +7,8 @@ on:
     paths:
       - 'data/sources.js'
       - 'scripts/source-intake.js'
+      - 'scripts/source-page-links.js'
+      - 'tests/source-page-links.test.js'
       - 'scripts/structured-lead-metadata.js'
       - 'tests/structured-lead-metadata.test.js'
       - 'scripts/select-source-sweep.js'
@@ -57,6 +59,8 @@ on:
       - 'data/sources.js'
       - 'scripts/check-source-alternatives.js'
       - 'scripts/source-intake.js'
+      - 'scripts/source-page-links.js'
+      - 'tests/source-page-links.test.js'
       - 'scripts/structured-lead-metadata.js'
       - 'tests/structured-lead-metadata.test.js'
       - 'scripts/select-source-sweep.js'
@@ -104,7 +108,7 @@ jobs:
         with:
           node-version: '22'
       - name: Check source collector syntax and daily coverage
-        run: node --test tests/source-intake-coverage.test.js tests/structured-lead-metadata.test.js
+        run: node --test tests/source-intake-coverage.test.js tests/structured-lead-metadata.test.js tests/source-page-links.test.js
       - name: Test persistent lead history
         run: node --test tests/inspection-health.test.js tests/require-inspection-health.test.js tests/auto-audit-candidates.test.js tests/apply-editorial-decisions.test.js tests/audit-capacity.test.js tests/backlog-health.test.js tests/historical-backlog.test.js tests/historical-editorial-batch.test.js tests/lead-history.test.js tests/source-catalog.test.js tests/editorial-review.test.js tests/editorial-priority.test.js tests/inspection-order.test.js tests/lead-privacy.test.js tests/normalize-lead-link.test.js
       - name: Test public queue integration
