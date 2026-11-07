@@ -16,3 +16,10 @@ test('extracts OpenGraph metadata from the audited page root',()=>{
  const page=metadataForLink(all,'https://official.example/grant');
  assert.equal(page.title,'Grant 2027');assert.equal(page.description,'Official opportunity description');assert.equal(page.organization,'Official Org');
 });
+
+test('extracts OpenGraph metadata when content appears before property',()=>{
+ const html='<meta content="Grant 2027" property="og:title"><meta content="Official opportunity description" property="og:description"><meta content="Official Org" property="og:site_name">';
+ const all=extractStructuredMetadata(html,'https://official.example/grant');
+ const page=metadataForLink(all,'https://official.example/grant');
+ assert.equal(page.title,'Grant 2027');assert.equal(page.description,'Official opportunity description');assert.equal(page.organization,'Official Org');
+});
