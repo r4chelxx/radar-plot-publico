@@ -39,6 +39,19 @@ function selectBacklog(previous,current,limit=10,now=new Date()){
   Number(a.origin!=='historical')-Number(b.origin!=='historical')||
   String(a.lastInspectedAt||a.firstSeen||'').localeCompare(String(b.lastInspectedAt||b.firstSeen||''))||
   String(a.id).localeCompare(String(b.id)));
- return {selected:ready.slice(0,Math.min(Math.max(1,limit),50)),total:all.length,ready:ready.length,waiting:all.length-ready.length};
+ const cap=Math.min(Math.max(1,limit),50);
+ const selectedReady=ready.slice(0,cap);
+ // Keep the inspection pipeline productive even while all remaining leads are
+ // inside their recheck window: fill unused capacity with the oldest historical
+ // candidates. This is evidence refresh only; it never bypasses approval gates.
+ const selectedIds=new Set(selectedReady.map(x=>x.id));
+ const rotation=all.filter(x=>!selectedIds.has(x.id)).sort((a,b)=>
+  Number(isArchivedOpportunity(a))-Number(isArchivedOpportunity(b))||
+  Number(Boolean(a.lastInspectedAt))-Number(Boolean(b.lastInspectedAt))||
+  indirect(a)-indirect(b)||categoryRank(a)-categoryRank(b)||
+  String(a.lastInspectedAt||a.firstSeen||'').localeCompare(String(b.lastInspectedAt||b.firstSeen||''))||
+  String(a.id).localeCompare(String(b.id)));
+ const selected=selectedReady.concat(rotation.slice(0,Math.max(0,cap-selectedReady.length)));
+ return {selected,total:all.length,ready:ready.length,waiting:all.length-ready.length,rotation:Math.max(0,selected.length-selectedReady.length)};
 }
 module.exports={selectBacklog,recheckDays};
