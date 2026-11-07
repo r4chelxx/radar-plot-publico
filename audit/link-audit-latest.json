@@ -1,10 +1,10 @@
 {
-  "checkedAt": "2026-11-07T06:56:32.705Z",
+  "checkedAt": "2026-11-07T16:50:52.847Z",
   "policy": "404/410 and ArcGIS application errors within HTTP 200 become broken only after appearing as suspect or broken in the previous audit; blocked and network results are inconclusive",
   "counts": {
-    "ok": 586,
-    "blocked": 55,
-    "network": 35
+    "ok": 587,
+    "blocked": 60,
+    "network": 29
   },
   "results": [
     {
@@ -2573,11 +2573,11 @@
           "field": "apply"
         }
       ],
-      "status": 200,
+      "status": 403,
       "finalUrl": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/data-journalism-grants",
-      "class": "ok",
+      "class": "blocked",
       "attempts": [
-        200
+        403
       ]
     },
     {
@@ -2688,11 +2688,11 @@
           "field": "apply"
         }
       ],
-      "status": 200,
+      "status": 403,
       "finalUrl": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/our-work-environment-grants",
-      "class": "ok",
+      "class": "blocked",
       "attempts": [
-        200
+        403
       ]
     },
     {
@@ -2726,11 +2726,11 @@
           "field": "rules"
         }
       ],
-      "status": 200,
+      "status": 403,
       "finalUrl": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/ai-accountability-fellowships",
-      "class": "ok",
+      "class": "blocked",
       "attempts": [
-        200
+        403
       ]
     },
     {
@@ -4726,13 +4726,11 @@
           "field": "url"
         }
       ],
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://dados.pb.gov.br/",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -4747,13 +4745,11 @@
           "field": "docs"
         }
       ],
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://dados.pb.gov.br/about",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -4768,13 +4764,11 @@
           "field": "api"
         }
       ],
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://api.dados.pb.gov.br/swagger/",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -4789,13 +4783,11 @@
           "field": "discoveryUrl"
         }
       ],
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://codata.pb.gov.br/noticias/codata-desenvolve-nova-versao-do-portal-da-transparencia-da-paraiba-lancada-pelo-governo-do-estado/",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -4906,11 +4898,13 @@
           "field": "discoveryUrl"
         }
       ],
-      "status": 200,
-      "finalUrl": "https://www.generonumero.media/dados-abertos/",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "TypeError:fetch failed",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -6354,11 +6348,12 @@
           "field": "url"
         }
       ],
-      "status": 200,
+      "status": 429,
       "finalUrl": "https://www.gov.br/anatel/pt-br/dados/dados-abertos",
-      "class": "ok",
+      "class": "blocked",
       "attempts": [
-        200
+        "TypeError:fetch failed",
+        429
       ]
     },
     {
@@ -6895,7 +6890,6 @@
       "finalUrl": "https://transparencia.salvador.ba.gov.br/",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -6937,7 +6931,7 @@
       "class": "network",
       "error": "TypeError:fetch failed",
       "attempts": [
-        "AbortError:This operation was aborted",
+        "TypeError:fetch failed",
         "TypeError:fetch failed"
       ]
     },
@@ -6953,13 +6947,11 @@
           "field": "url"
         }
       ],
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://map.geo.sei.ba.gov.br/arcgis/rest/services",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -6974,13 +6966,11 @@
           "field": "url"
         }
       ],
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://map.geo.sei.ba.gov.br/arcgis/rest/services/servicos_sei/REGIONALIZACAO_VIGENTE/FeatureServer?f=json",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -7038,7 +7028,7 @@
       "class": "network",
       "error": "TypeError:fetch failed",
       "attempts": [
-        "AbortError:This operation was aborted",
+        "TypeError:fetch failed",
         "TypeError:fetch failed"
       ]
     },
@@ -12211,13 +12201,11 @@
           "field": "discoveryUrl"
         }
       ],
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "AbortError:This operation was aborted",
+      "status": 403,
+      "finalUrl": "https://inkscape.org/",
+      "class": "blocked",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "AbortError:This operation was aborted"
+        403
       ]
     },
     {
