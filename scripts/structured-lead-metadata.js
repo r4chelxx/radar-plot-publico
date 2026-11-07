@@ -19,16 +19,25 @@ function extractStructuredMetadata(html,baseUrl){
   try{items.push(...flatten(JSON.parse(match[1].trim())))}catch{}
  }
  const base=new URL(baseUrl);
+ const meta={};
+ for(const m of String(html||'').matchAll(/<meta\\b[^>]*(?:property|name)=["']([^"']+)["'][^>]*content=["']([^"']*)["'][^>]*>/gi)){
+  const key=String(m[1]).toLowerCase(),value=clean(m[2],700);
+  if(value&&(key==='og:title'||key==='twitter:title'||key==='title'))meta.title=meta.title||value;
+  if(value&&(key==='og:description'||key==='twitter:description'||key==='description'))meta.description=meta.description||value;
+  if(value&&(key==='og:site_name'||key==='application-name'))meta.organization=meta.organization||value;
+  if(value&&(key==='article:published_time'||key==='article:expiration_time'))meta.publishedOrExpiry=meta.publishedOrExpiry||value;
+ }
+ if(meta.title||meta.description||meta.organization)items.push({__pageMeta:true,...meta,url:base.toString()});
  return items.map(item=>{
   const rawUrl=item.url||item['@id']||item.mainEntityOfPage;
   let url=null;try{url=rawUrl?new URL(typeof rawUrl==='object'?rawUrl['@id']||rawUrl.url:rawUrl,base).toString():null}catch{}
   const org=item.organizer||item.publisher||item.provider||item.author;
-  const organization=typeof org==='string'?clean(org,180):clean(org?.name,180);
+  const organization=typeof org==='string'?clean(org,180):clean(org?.name,180)||clean(item.organization,180);
   const offer=item.offers||item.isPartOf;
   const deadline=isoDate(item.endDate||item.deadline||item.applicationDeadline||offer?.validThrough);
   const eligibilityExplicit=Boolean(item.eligibility||item.eligibleFor||item.eligibilityCriteria);
   const eligibility=clean(item.eligibility||item.eligibleFor||item.eligibilityCriteria||item.eligibleRegion||item.audience||'',300);
-  const title=clean(item.name||item.headline||item.alternateName,240);
+  const title=clean(item.name||item.headline||item.alternateName||item.title,240);
   const description=clean(item.description||item.abstract,700);
   if(!title&&!description&&!url&&!deadline&&!eligibility)return null;
   return {url,title,description,organization,deadline,eligibility,eligibilityExplicit,sourceType:item['@type']||null};
