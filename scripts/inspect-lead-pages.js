@@ -34,7 +34,7 @@ async function inspect(lead){
  const capacity=previous?auditCapacity(previous.leads):{limit,pressure:null,policy:'no-history'};
  const effectiveLimit=Math.min(50,Math.max(limit,capacity.limit));
  const backlog=selectBacklog(previous,input.leads||[],effectiveLimit);
- const selected=backlog.selected.length?backlog.selected:backlog.total?selectBacklog(previous,input.leads||[],effectiveLimit,new Date(0)).selected:[];
+ const selected=backlog.selected.length?backlog.selected:backlog.total?selectBacklog(previous,input.leads||[],effectiveLimit,new Date('2999-01-01T00:00:00Z')).selected:[];
  const selectionFallback=backlog.selected.length===0&&backlog.total>0;
  const results=[];
  for(const item of selected)results.push({...await inspect(item),historicalId:item.id,historyAtSelection:item.origin,archivedRecheck:item.editorialStatus==='archived',requiresReopeningReview:item.editorialStatus==='archived'});
