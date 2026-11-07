@@ -9,7 +9,7 @@ function recheckDays(lead){
  if(lead.category==='opportunities')return 7;
  return 21;
 }
-function selectBacklog(previous,current,limit=10,now=new Date()){
+function selectBacklog(previous,current,limit=10,now=new Date(),options={}){
  const seen=new Map();
  for(const [id,lead] of Object.entries(previous?.leads||{})){
   if(lead.classification!=='needs-editorial-review'||TERMINAL.has(lead.editorialStatus)||(lead.editorialStatus==='archived'&&!isArchivedOpportunity(lead)))continue;
@@ -41,6 +41,7 @@ function selectBacklog(previous,current,limit=10,now=new Date()){
   String(a.id).localeCompare(String(b.id)));
  const cap=Math.min(Math.max(1,limit),50);
  const selectedReady=ready.slice(0,cap);
+ if(!options.rotate) return {selected:selectedReady,total:all.length,ready:ready.length,waiting:all.length-ready.length,rotation:0};
  // Keep the inspection pipeline productive even while all remaining leads are
  // inside their recheck window: fill unused capacity with the oldest historical
  // candidates. This is evidence refresh only; it never bypasses approval gates.
