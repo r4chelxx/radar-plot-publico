@@ -19,6 +19,15 @@ function extractStructuredMetadata(html,baseUrl){
   try{items.push(...flatten(JSON.parse(match[1].trim())))}catch{}
  }
  const base=new URL(baseUrl);
+ const meta={};
+ for(const m of String(html||'').matchAll(/<meta\\b[^>]*(?:property|name)=["']([^"']+)["'][^>]*content=["']([^"']*)["'][^>]*>/gi)){
+  const key=String(m[1]).toLowerCase(),value=clean(m[2],700);
+  if(value&&(key==='og:title'||key==='twitter:title'||key==='title'))meta.title=meta.title||value;
+  if(value&&(key==='og:description'||key==='twitter:description'||key==='description'))meta.description=meta.description||value;
+  if(value&&(key==='og:site_name'||key==='application-name'))meta.organization=meta.organization||value;
+  if(value&&(key==='article:published_time'||key==='article:expiration_time'))meta.publishedOrExpiry=meta.publishedOrExpiry||value;
+ }
+ if(meta.title||meta.description||meta.organization)items.push({__pageMeta:true,...meta,url:base.toString()});
  return items.map(item=>{
   const rawUrl=item.url||item['@id']||item.mainEntityOfPage;
   let url=null;try{url=rawUrl?new URL(typeof rawUrl==='object'?rawUrl['@id']||rawUrl.url:rawUrl,base).toString():null}catch{}
