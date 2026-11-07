@@ -9,16 +9,22 @@ const limit=Math.min(50,Math.max(1,Number(process.env.LEAD_PAGE_LIMIT||15)));
 function decode(value){return String(value||'').replace(/&(?:amp|and);/gi,'&').replace(/&quot;/gi,'"').replace(/&#39;/gi,"'").replace(/&nbsp;/gi,' ').replace(/<[^>]+>/g,' ').replace(/\s+/g,' ').trim();}
 function isoDate(raw){
  const s=String(raw||'').trim();
- let m=s.match(/\b(20\d{2})[-\/.](\d{1,2})[-\/.](\d{1,2})\b/);
+ let m=s.match(/\b(20\d{2})[-\\/.](\d{1,2})[-\\/.](\d{1,2})\b/);
  if(m)return [m[1],String(m[2]).padStart(2,'0'),String(m[3]).padStart(2,'0')].join('-');
- m=s.match(/\b(\d{1,2})[-\/.](\d{1,2})[-\/.](20\d{2})\b/);
- return m?[m[3],String(m[2]).padStart(2,'0'),String(m[1]).padStart(2,'0')].join('-'):null;
+ m=s.match(/\b(\d{1,2})[-\\/.](\d{1,2})[-\\/.](20\d{2})\b/);
+ if(m)return [m[3],String(m[2]).padStart(2,'0'),String(m[1]).padStart(2,'0')].join('-');
+ const months={january:1,february:2,march:3,april:4,may:5,june:6,july:7,august:8,september:9,october:10,november:11,december:12,janeiro:1,fevereiro:2,março:3,marco:3,abril:4,maio:5,junho:6,julho:7,agosto:8,setembro:9,outubro:10,novembro:11,dezembro:12};
+ m=s.match(/\b([a-zç]+)\s+(\d{1,2})(?:st|nd|rd|th)?[,]?\s+(20\d{2})\b/i)||s.match(/\b(\d{1,2})\s+de?\s+([a-zç]+)\s+de?\s+(20\d{2})\b/i);
+ if(!m)return null;
+ const month=months[String(m[1]).toLowerCase()]||months[String(m[2]).toLowerCase()];
+ const day=Number(months[String(m[1]).toLowerCase()]?m[2]:m[1]),year=Number(m[3]);
+ return month&&day>=1&&day<=31?[String(year),String(month).padStart(2,'0'),String(day).padStart(2,'0')].join('-'):null;
 }
 function explicitPageFacts(html){
  const text=decode(String(html||'').replace(/<script\b[\s\S]*?<\/script>/gi,' ').replace(/<style\b[\s\S]*?<\/style>/gi,' '));
  const deadlineMatch=text.match(/(?:application\s+deadline|deadline|apply\s+by|applications?\s+(?:close|end)|prazo(?:\s+final)?|inscri(?:ções|coes)\s+(?:vão|vao)\s+até|até\s+o\s+dia)(?:\s*[:\-–]\s*|\s+)([^.]{0,120})/i);
  const deadline=isoDate(deadlineMatch?.[1]||'');
- const eligibilityMatch=text.match(/(?:eligib(?:ility|le)|who\s+can\s+apply|eligible\s+applicants?|elegibilidade|quem\s+pod(?:e|em)\s+se\s+inscrever)([^.]{0,320})/i);
+ const eligibilityMatch=text.match(/(?:eligib(?:ility|le)|who\\s+can\\s+apply|eligible\\s+applicants?|elegibilidade|quem\\s+pod(?:e|em)\\s+se\\s+inscrever|open\\s+to|available\\s+to|for\\s+(?:all\\s+)?(?:journalists?|reporters?|newsrooms?|media\\s+organizations?|researchers?))([^.]{0,320})/i);
  const eligibility=eligibilityMatch?decode(eligibilityMatch[0]).slice(0,320):null;
  return {deadline:deadline||null,eligibility:eligibility||null,eligibilityExplicit:Boolean(eligibility)};
 }
