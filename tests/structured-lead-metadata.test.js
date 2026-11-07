@@ -9,3 +9,10 @@ test('ignores malformed or unrelated JSON-LD safely',()=>{
  const all=extractStructuredMetadata('<script type="application/ld+json">{bad</script><script type="application/ld+json">'+JSON.stringify({name:'Only title'})+'</script>','https://example.org');
  assert.equal(all.length,1);assert.equal(all[0].title,'Only title');assert.equal(all[0].deadline,null);
 });
+
+test('extracts OpenGraph metadata from the audited page root',()=>{
+ const html='<meta property="og:title" content="Grant 2027"><meta property="og:description" content="Official opportunity description"><meta property="og:site_name" content="Official Org">';
+ const all=extractStructuredMetadata(html,'https://official.example/grant');
+ const page=metadataForLink(all,'https://official.example/grant');
+ assert.equal(page.title,'Grant 2027');assert.equal(page.description,'Official opportunity description');assert.equal(page.organization,'Official Org');
+});

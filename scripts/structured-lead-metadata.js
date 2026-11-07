@@ -20,7 +20,7 @@ function extractStructuredMetadata(html,baseUrl){
  }
  const base=new URL(baseUrl);
  const meta={};
- for(const m of String(html||'').matchAll(/<meta\\b[^>]*(?:property|name)=["']([^"']+)["'][^>]*content=["']([^"']*)["'][^>]*>/gi)){
+ for(const m of String(html||'').matchAll(/<meta\b[^>]*(?:property|name)=["']([^"']+)["'][^>]*content=["']([^"']*)["'][^>]*>/gi)){
   const key=String(m[1]).toLowerCase(),value=clean(m[2],700);
   if(value&&(key==='og:title'||key==='twitter:title'||key==='title'))meta.title=meta.title||value;
   if(value&&(key==='og:description'||key==='twitter:description'||key==='description'))meta.description=meta.description||value;
