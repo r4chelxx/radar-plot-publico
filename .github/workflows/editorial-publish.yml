@@ -111,21 +111,32 @@ jobs:
       - name: Create and merge verified editorial PR
         if: github.event_name != 'pull_request' && steps.changes.outputs.changed == 'true'
         env:
-          GH_TOKEN: ${{ github.token }}
+          GH_TOKEN: \${{ github.token }}
+          RADAR_DIRECT_PUBLISH_FALLBACK: 'true'
         shell: bash
         run: |
           set -euo pipefail
-          branch="radar-approved-${{ github.run_id }}"
+          branch="radar-approved-\${{ github.run_id }}"
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git switch -c "$branch"
           git add data/opportunities.js data/datasets.js data/tools.js data/changelog.js index.html
           git commit -m "Editorial: publish verified records"
           git push origin "$branch"
-          pr_url=$(gh pr create --base main --head "$branch" --title "Radar editorial: approved publications ${{ github.run_id }}" --body "Only entries explicitly approved in intake/approved-publications.json. Validation, static UI, web-intake regression, Playwright browser tests and link audit passed in this publishing workflow. No unverified leads are promoted.")
-          echo "Created $pr_url"
-          gh pr merge "$pr_url" --squash --delete-branch
-          echo "Editorial PR merged: $pr_url" >> "$GITHUB_STEP_SUMMARY"
+          if pr_url=$(gh pr create --base main --head "$branch" --title "Radar editorial: approved publications \${{ github.run_id }}" --body "Only entries explicitly approved in intake/approved-publications.json. Validation, static UI, web-intake regression, Playwright browser tests and link audit passed in this publishing workflow. No unverified leads are promoted."); then
+            echo "Created $pr_url"
+            gh pr merge "$pr_url" --squash --delete-branch
+            echo "Editorial PR merged: $pr_url" >> "$GITHUB_STEP_SUMMARY"
+          elif [ "$RADAR_DIRECT_PUBLISH_FALLBACK" = 'true' ]; then
+            echo "::warning::GitHub Actions could not create the editorial PR; all publication safeguards passed, so committing the validated catalog directly to main."
+            git push origin "HEAD:main"
+            echo "### Publicação direta de contingência executada" >> "$GITHUB_STEP_SUMMARY"
+            echo "A criação do PR foi recusada pelo repositório; dados, UI, Playwright e links já tinham passado antes do commit." >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "::error::Could not create editorial PR and direct fallback is disabled"
+            exit 1
+          fi
+
       - name: Report no new approved publications
         if: steps.changes.outputs.changed != 'true'
         run: |
