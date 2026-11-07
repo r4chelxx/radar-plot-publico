@@ -45,6 +45,6 @@ function extractStructuredMetadata(html,baseUrl){
 }
 function metadataForLink(metadata,url){
  const canonical=String(url||'').replace(/\/$/,'');
- return metadata.find(x=>x.url&&x.url.replace(/\/$/,'')===canonical)||metadata.find(x=>x.url&&canonical.startsWith(x.url.replace(/\/$/,'')+'/'))||null;
+ return metadata.find(x=>x.url&&x.url.replace(/\/$/,'')===canonical)||metadata.find(x=>x.url&&canonical.startsWith(x.url.replace(/\/$/,'')+'/'))||metadata.find(x=>x.__pageMeta)||null;
 }
 module.exports={extractStructuredMetadata,metadataForLink};
