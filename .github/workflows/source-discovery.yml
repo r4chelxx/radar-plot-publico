@@ -198,6 +198,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      actions: write
       issues: write
     steps:
       - uses: actions/checkout@v4
@@ -246,6 +247,13 @@ jobs:
             if gh api --method PUT "repos/${GITHUB_REPOSITORY}/contents/intake/approved-publications.json" --input intake/approved-manifest-update.json --silent; then
               echo "### Manifesto de aprovações auditadas atualizado" >> "$GITHUB_STEP_SUMMARY"
               echo "O manifesto público recebeu somente decisões com ficha completa, evidência oficial e aprovação explícita." >> "$GITHUB_STEP_SUMMARY"
+              if gh workflow run editorial-publish.yml --ref main; then
+                echo "### Publicador editorial disparado explicitamente" >> "$GITHUB_STEP_SUMMARY"
+                echo "A atualização do manifesto foi encaminhada ao workflow de publicação, sem depender de um novo evento push." >> "$GITHUB_STEP_SUMMARY"
+              else
+                echo "::error::Manifesto atualizado, mas não foi possível disparar o publicador editorial"
+                exit 1
+              fi
               exit 0
             fi
             if [ "$attempt" -lt 3 ]; then sleep 5; fi
