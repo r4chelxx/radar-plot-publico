@@ -1305,10 +1305,10 @@ window.RADAR_PARTS.opportunities=[
   ],
   "scope": "Rio Grande do Sul; categoria nacional para jornalistas de fora do estado",
   "deadline": "2026-11-06",
-  "deadlineStatus": "confirmado",
+  "deadlineStatus": "encerrado em 06/11/2026",
   "eligibility": "parcial",
   "fit": 4,
-  "status": "aberta",
+  "status": "encerrada",
   "rules": "https://www.premioaridejornalismo.com/pages/regulamento",
   "apply": "https://www.premioaridejornalismo.com/",
   "discoveredVia": [
