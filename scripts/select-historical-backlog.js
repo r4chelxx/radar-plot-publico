@@ -23,7 +23,7 @@ function selectBacklog(previous,current,limit=10,now=new Date()){
   if(!seen.has(id))seen.set(id,{...lead,id,origin:'new'});
  }
  const indirect=x=>/^https:\/\/news\.google\.com\/rss\/articles\//i.test(x.url||'')?1:0;
- const nowMs=now.getTime();
+ const categoryRank=x=>({opportunities:0,datasets:1,tools:2,uncategorized:3}[x.category]??4);\n const nowMs=now.getTime();
  const all=[...seen.values()];
  // First visit every historical lead; retries and recurring checks follow afterwards.
  const inspectedAnchor=x=>{
