@@ -20,8 +20,11 @@ function extractStructuredMetadata(html,baseUrl){
  }
  const base=new URL(baseUrl);
  const meta={};
- for(const m of String(html||'').matchAll(/<meta\b[^>]*(?:property|name)=["']([^"']+)["'][^>]*content=["']([^"']*)["'][^>]*>/gi)){
-  const key=String(m[1]).toLowerCase(),value=clean(m[2],700);
+ // HTML permits attributes in either order; parse each tag before validating metadata.
+ for(const tag of String(html||'').matchAll(/<meta\b[^>]*>/gi)){
+  const attrs={};
+  for(const attr of tag[0].matchAll(/([a-zA-Z:-]+)\s*=\s*[\"']([^\"']*)[\"']/g))attrs[String(attr[1]).toLowerCase()]=attr[2];
+  const key=String(attrs.property||attrs.name||'').toLowerCase(),value=clean(attrs.content,700);
   if(value&&(key==='og:title'||key==='twitter:title'||key==='title'))meta.title=meta.title||value;
   if(value&&(key==='og:description'||key==='twitter:description'||key==='description'))meta.description=meta.description||value;
   if(value&&(key==='og:site_name'||key==='application-name'))meta.organization=meta.organization||value;
