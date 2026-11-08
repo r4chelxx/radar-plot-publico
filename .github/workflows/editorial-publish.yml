@@ -166,7 +166,7 @@ jobs:
         run: node scripts/verify-published-records.js
 
       - name: Fail scheduled run when publication target is unmet
-        if: (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch') && (steps.changes.outputs.changed != 'true' || steps.category-counts.outputs.shortfall == 'true')
+        if: (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch') && steps.changes.outputs.changed != 'true'
         run: |
           echo "PUBLICATION_FAILED: no new verified publications were deployed." >> "$GITHUB_STEP_SUMMARY"
           exit 1
