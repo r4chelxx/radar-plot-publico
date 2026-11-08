@@ -20,5 +20,9 @@ function selectExpansionLinks(links,baseUrl,limit=3){
  }
  return out;
 }
-function relevant(label){return /grant|fellowship|bolsa|financiamento|funding|call for|chamada|edital|application|apply|dataset|dados abertos|open data|tool|ferramenta|award|prize|scholarship/i.test(String(label||''))}
+function relevant(label,url=''){
+ const text=String(label||'')+' '+String(url||'');
+ const path=String(url||'').replace(/^https?:\/\/[^/]+/i,'');
+ return /grant|fellowship|bolsa|financiamento|funding|call for|chamada|edital|application|apply|dataset|dados abertos|open data|tool|ferramenta|award|prize|scholarship/i.test(text)||/(?:grant|fellowship|scholarship|funding|call-for|open-call|edital|bolsa|premio|prize)/i.test(path);
+}
 module.exports={extractLinks,selectExpansionLinks,relevant};

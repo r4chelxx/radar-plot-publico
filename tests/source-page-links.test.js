@@ -5,6 +5,11 @@ test('extracts same-page links and selects bounded pagination',()=>{
  const links=extractLinks(html,'https://official.example/');
  assert.equal(links.length,3);assert.deepEqual(selectExpansionLinks(links,'https://official.example/',2),['https://official.example/grants?page=2']);assert.equal(relevant('Open grant'),true);
 });
+test('recognizes relevant URL slugs even when link label is generic',()=>{
+ assert.equal(relevant('Read more','https://official.example/opportunities/cega-visiting-fellowship-2027'),true);
+ assert.equal(relevant('Read more','https://official.example/about'),false);
+});
+
 test('does not follow external or unrelated links',()=>{
  const links=extractLinks('<a href="https://evil.example/x">Next</a><a href="/about">About</a>','https://official.example/');
  assert.deepEqual(selectExpansionLinks(links,'https://official.example/'),[]);

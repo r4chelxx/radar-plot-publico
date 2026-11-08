@@ -30,7 +30,7 @@ async function inspect(s) {
     const allLinks=pages.flatMap(page=>extractLinks(page.body,page.url));
     const structuredMetadata=pages.flatMap(page=>extractStructuredMetadata(page.body,page.url));
     const links=allLinks.map(x=>{try{return {...x,url:normalizeLink(x.url,response.url)}}catch{return null}}).filter(x=>x&&/^https?:/.test(x.url)&&x.label.length>=12);
-    const leads=(response.ok?links:[]).filter(x=>relevant(x.label)).slice(0,100).map(x=>({...x,structuredEvidence:metadataForLink(structuredMetadata,x.url)}));
+    const leads=(response.ok?links:[]).filter(x=>relevant(x.label,x.url)).slice(0,100).map(x=>({...x,structuredEvidence:metadataForLink(structuredMetadata,x.url)}));
     return {name:s.name,url:s.url,leads,httpStatus:response.status,accessStatus:response.ok?'accessible':'http-error',extractionStatus:!response.ok?'http-error-page':title?'html-title-only':'no-title',editorialStatus:'unverified',title:title.replace(/\s+/g,' ').trim(),fingerprint:crypto.createHash('sha256').update(body).digest('hex').slice(0,16),checkedAt:new Date().toISOString(),reviewRequired:true};
   } catch(error) {
     return {name:s.name,url:s.url,accessStatus:'failed',extractionStatus:'not-attempted',editorialStatus:'unverified',error:String(error),networkCode:error.cause&&error.cause.code||null,checkedAt:new Date().toISOString(),reviewRequired:true};
