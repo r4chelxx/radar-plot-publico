@@ -160,7 +160,7 @@ jobs:
         run: node scripts/import-public-editorial-queue.js
       - name: Inspect historical backlog in rotating batches
         env:
-          LEAD_PAGE_LIMIT: '50'
+          LEAD_PAGE_LIMIT: '100'
         run: node scripts/inspect-lead-pages.js
       - name: Require technical inspection coverage
         run: node scripts/require-inspection-health.js intake/lead-evidence.json
