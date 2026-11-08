@@ -1,10 +1,10 @@
 {
-  "checkedAt": "2026-11-08T12:56:33.427Z",
+  "checkedAt": "2026-11-08T13:11:10.766Z",
   "policy": "404/410 and ArcGIS application errors within HTTP 200 become broken only after appearing as suspect or broken in the previous audit; blocked and network results are inconclusive",
   "counts": {
-    "ok": 604,
-    "blocked": 58,
-    "network": 28
+    "ok": 606,
+    "blocked": 55,
+    "network": 29
   },
   "results": [
     {
@@ -2573,11 +2573,11 @@
           "field": "apply"
         }
       ],
-      "status": 403,
+      "status": 200,
       "finalUrl": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/data-journalism-grants",
-      "class": "blocked",
+      "class": "ok",
       "attempts": [
-        403
+        200
       ]
     },
     {
@@ -2688,11 +2688,11 @@
           "field": "apply"
         }
       ],
-      "status": 403,
+      "status": 200,
       "finalUrl": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/our-work-environment-grants",
-      "class": "blocked",
+      "class": "ok",
       "attempts": [
-        403
+        200
       ]
     },
     {
@@ -2726,11 +2726,11 @@
           "field": "rules"
         }
       ],
-      "status": 403,
+      "status": 200,
       "finalUrl": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/ai-accountability-fellowships",
-      "class": "blocked",
+      "class": "ok",
       "attempts": [
-        403
+        200
       ]
     },
     {
@@ -4484,6 +4484,7 @@
       "finalUrl": "https://github.com/rfordatascience/tidytuesday",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -4503,6 +4504,7 @@
       "finalUrl": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2026",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -4571,11 +4573,13 @@
           "field": "discoveryUrl"
         }
       ],
-      "status": 200,
-      "finalUrl": "https://github.com/kjhealy/nycdogs",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "AbortError:This operation was aborted",
       "attempts": [
-        200
+        "AbortError:This operation was aborted",
+        "AbortError:This operation was aborted"
       ]
     },
     {
@@ -6322,6 +6326,7 @@
       "finalUrl": "https://api-publica.transferegov.gestao.gov.br/",
       "class": "ok",
       "attempts": [
+        "TypeError:fetch failed",
         200
       ]
     },
@@ -7346,7 +7351,6 @@
       "finalUrl": "https://www.transparencia.ba.gov.br/Portal",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -8849,6 +8853,7 @@
       "finalUrl": "https://dadosabertos.aneel.gov.br/dataset/base-de-dados-geografica-da-distribuidora-bdgd",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -8906,6 +8911,7 @@
       "finalUrl": "https://terrabrasilis.dpi.inpe.br/",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
