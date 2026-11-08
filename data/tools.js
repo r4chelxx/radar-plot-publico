@@ -1,5 +1,173 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.tools=[
+{
+  "id": "auto-03994a06bcaa39ad",
+  "name": "Map the World by Bilawal Sidhu | Substack",
+  "kind": "ferramenta",
+  "url": "https://www.spatialintelligence.ai/",
+  "desc": "Mapped the world at Google. Now mapping the frontier of creation &amp; computing. Your atlas to AI, AR/VR, robotics, and the technologies blurring our physical and digital worlds. Deep dives with technical depth and zero fluff. Click to read Map the World by Bilawal Sidhu, a Substack publication with tens of thousands of subscribers. Revisar licença, limites, privacidade e acessibilidade antes do uso editorial.",
+  "discoveryUrl": "https://www.spatialintelligence.ai/"
+},
+{
+  "id": "auto-0cf655279807dfaa",
+  "name": "Data Folks - A Curated List of Information Designers",
+  "kind": "ferramenta",
+  "url": "https://wearedatafolks.com/",
+  "desc": "A curated collection of portfolios from information designers and data visualization practitioners to inspire you. Revisar licença, limites, privacidade e acessibilidade antes do uso editorial.",
+  "discoveryUrl": "https://wearedatafolks.com/"
+},
+{
+  "id": "auto-0d30fb1d35d16b10",
+  "name": "Interactive | The Guardian",
+  "kind": "ferramenta",
+  "url": "https://www.theguardian.com/interactive",
+  "desc": "Latest Interactive news, comment and analysis from the Guardian, the world&#x27;s leading liberal voice Revisar licença, limites, privacidade e acessibilidade antes do uso editorial.",
+  "discoveryUrl": "https://www.theguardian.com/interactive"
+},
+{
+  "id": "auto-0f6d61b27d94fbd1",
+  "name": "The Spatial Edge | Yohan | Substack",
+  "kind": "ferramenta",
+  "url": "https://www.spatialedge.co/",
+  "desc": "Helping you become a better geospatial data scientist in less than 5 minutes a week. Click to read The Spatial Edge, by Yohan, a Substack publication with thousands of subscribers. Revisar licença, limites, privacidade e acessibilidade antes do uso editorial.",
+  "discoveryUrl": "https://www.spatialedge.co/"
+},
+{
+  "id": "auto-1995b49a17729e24",
+  "name": "Kim Albrecht | Design Research",
+  "kind": "ferramenta",
+  "url": "https://kimalbrecht.com/",
+  "desc": "CV of Kim Albrecht, exploring the boundaries of visual knowledge in a datavised world. Revisar licença, limites, privacidade e acessibilidade antes do uso editorial.",
+  "discoveryUrl": "https://kimalbrecht.com/"
+},
+{
+  "id": "auto-1a333dc7b2c597c3",
+  "name": "giorgialupi",
+  "kind": "ferramenta",
+  "url": "https://giorgialupi.com/",
+  "desc": "giorgialupi giorgialupi HOME ABOUT WORK BOOKS FINE ART CURRICULUM VITAE PHILOSOPHY giorgialupi HOME ABOUT WORK BOOKS FINE ART CURRICULUM VITAE PHILOSOPHY HOME First solo exhibition at Gallerie d'Italia — currently on view! First solo exhibition at Gallerie d'Italia — currently on view! First solo exhibition at Gallerie d'Italia — currently on view! I am an information designer passionate about what I call “Data Humanism.” I have been a Partner at Pentagram since 2019, where I lead an information design team that explores data as a visual language to tell stories and shape brand missions. Data Humanism is an approach that reclaim Revisar licença, limites, privacidade e acessibilidade antes do uso editorial.",
+  "discoveryUrl": "https://giorgialupi.com/"
+},
+{
+  "id": "auto-1ad346fb03303d24",
+  "name": "Color Palette Generator – Color Wheel Tool | Adobe Express​",
+  "kind": "ferramenta",
+  "url": "https://color.adobe.com/create/color-wheel",
+  "desc": "Use the color palette generator to create harmonious color schemes with the interactive color wheel. Choose a base color, apply a harmony, and design with confidence in Adobe Express. Revisar licença, limites, privacidade e acessibilidade antes do uso editorial.",
+  "discoveryUrl": "https://color.adobe.com/create/color-wheel"
+},
+{
+  "id": "auto-1fa6f485af6f2f2e",
+  "name": "scikit-learn: machine learning in Python &mdash; scikit-learn 0.16.1 documentation",
+  "kind": "ferramenta",
+  "url": "https://scikit-learn.org/",
+  "desc": "scikit-learn: machine learning in Python &mdash; scikit-learn 0.16.1 documentation Revisar licença, limites, privacidade e acessibilidade antes do uso editorial.",
+  "discoveryUrl": "https://scikit-learn.org/"
+},
+{
+  "id": "auto-200093c156771796",
+  "name": "Derivative",
+  "kind": "ferramenta",
+  "url": "https://derivative.ca/",
+  "desc": "Derivative is a software company that offers TouchDesigner, a visual development platform. Revisar licença, limites, privacidade e acessibilidade antes do uso editorial.",
+  "discoveryUrl": "https://derivative.ca/"
+},
+{
+  "id": "auto-2a2be78ed2cd1db6",
+  "name": "shirley wu studio",
+  "kind": "ferramenta",
+  "url": "https://www.shirleywu.studio/",
+  "desc": "shirleywu.studio shirley wu studio art notebook about Art, data, and the creative process—straight to your inbox. alternatively, find me on LinkedIn ↗ or Instagram ↗ Revisar licença, limites, privacidade e acessibilidade antes do uso editorial.",
+  "discoveryUrl": "https://www.shirleywu.studio/"
+},
+{
+  "id": "auto-2c0aa65aea8c63e3",
+  "name": "weeklyOSM",
+  "kind": "ferramenta",
+  "url": "https://weeklyosm.eu/",
+  "desc": "weeklyOSM open-menu closeme About us Contribute 🌐 Deutsch Español Français Italiano Português Português do Brasil Čeština Русский Українська 台灣中文 日本語 한국어 简体中文 Bahasa Indonesia Nederlands Polski Kiswahili Türkçe rss bluesky mastodon telegram Language 🇮🇩 🇨🇿 🇨🇳 🇹🇼 🇩🇪 🇬🇧 🇪🇸 🇫🇷 🇮🇹 🇯🇵 🇰🇪 🇰🇷 🇳🇱 🇵🇱 🇵🇹 🇧🇷 🇷🇺 🇹🇷 🇺🇦 Search Archive 2020s 2026 November (2) weeklyOSM 850 weeklyOSM 849 October (4) weeklyOSM 848 weeklyOSM 847 weeklyOSM 846 weeklyOSM 845 September (4) weeklyOSM 844 weeklyOSM 843 weeklyOSM 842 weeklyOSM 841 August (5) weeklyOSM 840 weeklyOSM 839 weeklyOSM 838 weeklyOSM 837 weeklyOSM 836 July (4) weeklyOSM 835 weeklyOSM 834 weeklyOSM 833 weeklyOSM 832 June (4) weeklyOSM 831 weeklyOSM 830 weeklyOSM 829 weeklyOSM 828 May (5) weeklyOSM 827 weeklyOSM 826 weeklyOSM 825 weeklyOSM 824 weeklyOSM 823 April (4) weeklyOSM 822 weeklyOSM 821 weeklyOSM 820 weeklyOSM 819 March (5) weeklyOSM 818 weeklyOSM 817 weeklyOSM 816 weeklyOSM 815 weeklyOSM 814 February (4) weeklyOSM 813 weeklyOSM 812 weeklyOSM 811 weeklyOSM 810 January (4) weeklyOSM 809 weeklyOSM 808 weeklyOSM 807 weeklyOSM 806 2025 December (4) weeklyOSM 805 weeklyOSM 804 weeklyOSM 803 weeklyOSM 802 Nov Revisar licença, limites, privacidade e acessibilidade antes do uso editorial.",
+  "discoveryUrl": "https://weeklyosm.eu/"
+},
+{
+  "id": "auto-305390937a26a7aa",
+  "name": "Valentina D’Efilippo | Data Designer &amp; Founder of Apostrophe One",
+  "kind": "ferramenta",
+  "url": "https://apostrophe.one/",
+  "desc": "Creative studio led by Valentina D’Efilippo. We help brands and institutions transform complex data into clear, visual stories. Explore our consulting work, educational resources, and award-winning case studies. Revisar licença, limites, privacidade e acessibilidade antes do uso editorial.",
+  "discoveryUrl": "https://apostrophe.one/"
+},
+{
+  "id": "auto-30b1f7757473231b",
+  "name": "Interactive Data Visualizations with Svelte and D3",
+  "kind": "ferramenta",
+  "url": "https://datavisualizationwithsvelte.com/",
+  "desc": "Master interactive data visualization with SvelteKit and D3. Learn to build animated, responsive charts through step-by-step tutorials covering bar charts, line charts, scatter plots, and more. Revisar licença, limites, privacidade e acessibilidade antes do uso editorial.",
+  "discoveryUrl": "https://datavisualizationwithsvelte.com/"
+},
+{
+  "id": "auto-3a7a9ff67322a526",
+  "name": "OneLake, the unified data lake - Microsoft Fabric",
+  "kind": "ferramenta",
+  "url": "https://learn.microsoft.com/en-us/fabric/onelake/onelake-overview",
+  "desc": "OneLake is included with every Microsoft Fabric tenant and is designed to be the single place for all your analytics data. Revisar licença, limites, privacidade e acessibilidade antes do uso editorial.",
+  "discoveryUrl": "https://learn.microsoft.com/en-us/fabric/onelake/onelake-overview"
+},
+{
+  "id": "auto-3af9e64861761c53",
+  "name": "Kaggle: The World&#x2019;s AI Proving Ground",
+  "kind": "ferramenta",
+  "url": "https://www.kaggle.com/",
+  "desc": "Discover what actually works in AI. Join millions of builders, researchers, and labs evaluating agents, models, and frontier technology through crowdsourced benchmarks, competitions, and hackathons. Revisar licença, limites, privacidade e acessibilidade antes do uso editorial.",
+  "discoveryUrl": "https://www.kaggle.com/"
+},
+{
+  "id": "auto-3b9174f1dffecf92",
+  "name": "Your friendly guide to colors in data visualisation | Datawrapper Blog",
+  "kind": "ferramenta",
+  "url": "https://www.datawrapper.de/blog/colorguide",
+  "desc": "A collection of tools that help you deal with color gradients &amp; color palettes, to design better data visualizations. Revisar licença, limites, privacidade e acessibilidade antes do uso editorial.",
+  "discoveryUrl": "https://www.datawrapper.de/blog/colorguide"
+},
+{
+  "id": "auto-42bbe600160e80a2",
+  "name": "THE PROJECT &mdash; Dear Data",
+  "kind": "ferramenta",
+  "url": "https://www.dear-data.com/theproject",
+  "desc": "THE PROJECT &mdash; Dear Data THE BOOK THE PROJECT PRESS THE AUTHORS Get in touch news! Menu THE BOOK THE PROJECT PRESS THE AUTHORS Get in touch news! Dear Data is a year-long, analog data drawing project by Giorgia Lupi and Stefanie Posavec, two award-winning information designers living on different sides of the Atlantic. By collecting and hand drawing their personal data and sending it to each other in the form of postcards, they became friends. Dear Data is now also a beautiful 300-page book Each week, and for a year, we collected and measured a particular type of data about our lives, used this data to make a drawing on a postcard-sized sheet of paper, and then dropped the postcard in an English “postbox” (Stefanie) or an American “mailbox” (Giorgia)! Eventually, the postcard arrived at the other person’s address with all the scuff marks of its journey over the ocean: a type of “slow data” transmission. Over the fifty-two weeks, the collecting of data about our lives became a kind of ritual. We would spend the week noticing and noting down our activities or thoughts, before translating this information into a hand-drawn visualization. On the front of the postcard there would b Revisar licença, limites, privacidade e acessibilidade antes do uso editorial.",
+  "discoveryUrl": "https://www.dear-data.com/theproject"
+},
+{
+  "id": "auto-463cf06dc127048b",
+  "name": "The Map Room &#8211; Blogging about maps since 2003",
+  "kind": "ferramenta",
+  "url": "https://www.maproomblog.com/",
+  "desc": "The Map Room &#8211; Blogging about maps since 2003 Skip to content The Map Room Menu About Contact Privacy Policy Archives Books Bookshop Book Reviews (2011-present) Older Book Reviews (2006-2011) Map Books of 2026 Other Pages Blogroll Fantasy Maps Fiction About Maps Map Stores My Publications Subscribe &#038; Follow Email Digest Bluesky Facebook Page Mastodon RSS Feed Patreon Blogging about maps since 2003 Review: Mapping the Mountains Published on 30 October 2026 30 October 2026 by Jonathan Crowe I spent my youth and twenties hiking the Canadian Rockies as much as I could, always with topo maps in hand. So a book like Mapping the Mountains by Andrew Davies ( Uitgeverij Moving Mountains , 2026) holds considerable appeal: maps and mountains, maps of mountains, the process by which mountains were mapped—there’s nothing here for me to dislike. This book is an outgrowth of a 2019 exhibition for the Dutch Mountain Film Festival. This has a couple of implications. For one, it means that the maps themselves are front and centre: the book is chockablock with reproductions. For another, it means that the book casts a fairly wide net, because this is a thing that exhibitions—of a certain s Revisar licença, limites, privacidade e acessibilidade antes do uso editorial.",
+  "discoveryUrl": "https://www.maproomblog.com/"
+},
+{
+  "id": "auto-4d24029225385fa1",
+  "name": "Fabcon Community Conference",
+  "kind": "ferramenta",
+  "url": "https://fabricconf.com/",
+  "desc": "Schedule Speakers Sessions Workshops Travel &#38; Hotel --> Sponsors News --> Register --> Register Have questions? We are always happy to help! info@fabricconf.com Useful Links Need Help to Convince Your Boss? Code of Conduct Privacy Policy Cookie Policy Home Keynotes News Speakers Sessions Workshops Register Travel &#38; Hotel Sponsors Contact --> You are using an outdated browser. Please upgrade your browser to improve your experience. Useful Links Code of Conduct Privacy Policy Cookie Policy Contact Us Have questions? info@fabricconf.com Interested in Sponsorship or Exhibit opportunities? expo@fabricconf.com Exhibitor & Sponsorship Opportunities --> Social Copyright &copy; Fabcon Community Conference. All rights reserved. | Website by Solliance Revisar licença, limites, privacidade e acessibilidade antes do uso editorial.",
+  "discoveryUrl": "https://fabricconf.com/"
+},
+{
+  "id": "auto-4f8fb014256b7dbd",
+  "name": "storytelling with data",
+  "kind": "ferramenta",
+  "url": "https://community.storytellingwithdata.com/",
+  "desc": "Join the SWD community to practice and be supported in your journey to better data storytelling. Are you interested in improving your personal data visualization and communication skills? Join our community to connect with others, share your work, practice, and give and receive feedback. Revisar licença, limites, privacidade e acessibilidade antes do uso editorial.",
+  "discoveryUrl": "https://community.storytellingwithdata.com/"
+},
+{
+  "id": "auto-53f6a5ac478d71b1",
+  "name": "Data Visualization &amp; Report Automation Software | Datylon",
+  "kind": "ferramenta",
+  "url": "https://www.datylon.com/",
+  "desc": "Design pixel-perfect charts and reusable reports, update them with new data, or automate production through Excel, no-code workflows and APIs. Revisar licença, limites, privacidade e acessibilidade antes do uso editorial.",
+  "discoveryUrl": "https://www.datylon.com/"
+}, 
   {
     "id": "samgeo-geospatial-image-segmentation",
     "name": "SamGeo — segmentação de imagens geoespaciais com IA",

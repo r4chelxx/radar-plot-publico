@@ -1,6 +1,72 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.opportunities=[
 {
+  "id": "auto-3eaf309bafe21ae1",
+  "title": "German–Northern European Journalists Fellowship 2027 - GFMD",
+  "org": "GFMD",
+  "summary": "The Deutsch-Nordeuropäisches Journalistenstipendium, established in 2000, promotes professional exchange and dialogue among journalists from Germany, the five Nordic states, and the three Baltic states.",
+  "type": "Oportunidade editorial",
+  "themes": [
+    "Oportunidade editorial"
+  ],
+  "scope": "Não especificado",
+  "deadline": "2026-11-15",
+  "deadlineStatus": "prazo extraído de metadado estruturado da fonte oficial; horário e condições devem ser conferidos na página",
+  "eligibility": "parcial",
+  "fit": 5,
+  "status": "aberta",
+  "value": "Não informado na fonte estruturada",
+  "duration": "Não informado na fonte estruturada",
+  "modality": "Não especificado",
+  "documents": [],
+  "restrictions": [],
+  "rules": "https://gfmd.info/fundings/german-northern-european-journalists-fellowship-2027/",
+  "apply": "https://gfmd.info/fundings/german-northern-european-journalists-fellowship-2027/",
+  "verified": "2026-11-08",
+  "desc": "The Deutsch-Nordeuropäisches Journalistenstipendium, established in 2000, promotes professional exchange and dialogue among journalists from Germany, the five Nordic states, and the three Baltic states.",
+  "discoveryUrl": "https://gfmd.info/fundings/german-northern-european-journalists-fellowship-2027",
+  "verificationHistory": [
+    {
+      "date": "2026-11-08",
+      "status": "aberta",
+      "source": "https://gfmd.info/fundings/german-northern-european-journalists-fellowship-2027/"
+    }
+  ]
+},
+{
+  "id": "auto-257ac44fe3495eb7",
+  "title": "Call for Proposals - Media Freedom Rapid Response Mechanism (2027) - GFMD",
+  "org": "GFMD",
+  "summary": "The aim of this call is to promote an independent and pluralistic media environment through an independent Europe-wide rapid response mechanism to monitor and support media freedom and journalists&#039; safety.",
+  "type": "Oportunidade editorial",
+  "themes": [
+    "Oportunidade editorial"
+  ],
+  "scope": "Não especificado",
+  "deadline": "2027-01-27",
+  "deadlineStatus": "prazo extraído de metadado estruturado da fonte oficial; horário e condições devem ser conferidos na página",
+  "eligibility": "parcial",
+  "fit": 5,
+  "status": "aberta",
+  "value": "Não informado na fonte estruturada",
+  "duration": "Não informado na fonte estruturada",
+  "modality": "Não especificado",
+  "documents": [],
+  "restrictions": [],
+  "rules": "https://gfmd.info/fundings/call-for-proposals-media-freedom-rapid-response-mechanism-2027/",
+  "apply": "https://gfmd.info/fundings/call-for-proposals-media-freedom-rapid-response-mechanism-2027/",
+  "verified": "2026-11-08",
+  "desc": "The aim of this call is to promote an independent and pluralistic media environment through an independent Europe-wide rapid response mechanism to monitor and support media freedom and journalists&#039; safety.",
+  "discoveryUrl": "https://gfmd.info/fundings/call-for-proposals-media-freedom-rapid-response-mechanism-2027",
+  "verificationHistory": [
+    {
+      "date": "2026-11-08",
+      "status": "aberta",
+      "source": "https://gfmd.info/fundings/call-for-proposals-media-freedom-rapid-response-mechanism-2027/"
+    }
+  ]
+}, 
+{
   "id": "auto-e7c2d412b50c66e7",
   "title": "MCW Global Young Leaders Fellowship 2027 (Funded) &#8211; Opportunity Desk",
   "org": "Opportunity Desk",
