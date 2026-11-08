@@ -38,7 +38,7 @@ function extract(html,base,name){
    if(/^(?:home|about(?: us)?|contact|sign in|log in|register|subscribe|privacy|terms|browse|view all|learn more|read more|next|previous)$/i.test(title))continue;
    if(/(?:^|\.)(?:linkedin\.com|facebook\.com|instagram\.com|x\.com|twitter\.com)$/.test(host))continue;
    if(seen.has(url))continue;
-   seen.add(url);leads.push({url,title,category:'uncategorized',sourceName:name,editorialStatus:'unverified'});
+   seen.add(url);leads.push({url,title,category:'opportunities',sourceName:name,editorialStatus:'unverified'});
   }catch{}
   if(leads.length>=60)break;
  }
@@ -51,7 +51,7 @@ function extractGfmdEmbeddedPaths(html){
   if(seen.has(slug)||/^(?:archive|category|search|page|fundings)$/.test(slug))continue;
   seen.add(slug);
   const url=canonical('https://gfmd.info/fundings/'+slug+'/');
-  leads.push({url,title:slug.replace(/-/g,' '),category:'uncategorized',sourceName:'GFMD funding',editorialStatus:'unverified'});
+  leads.push({url,title:slug.replace(/-/g,' '),category:'opportunities',sourceName:'GFMD funding',editorialStatus:'unverified'});
   if(leads.length>=60)break;
  }
  return leads;
