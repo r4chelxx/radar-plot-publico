@@ -2928,6 +2928,24 @@
         "officialUrl": "https://www.who.int/news/item/03-03-2026-who-releases-updated-health-inequality-data-repository-and-health-equity-assessment-toolkit",
         "evidence": "Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes."
       }
+    },
+    {
+      "category": "tools",
+      "record": {
+        "id": "auto-ce58085ef1edfb47",
+        "name": "mediawiki-services-parsoid/tools/sync-parserTests.js at 39ea4e49783b1f88326d6ebddd14e08bb39cb649 · wikimedia/mediawiki-services-parsoid",
+        "kind": "ferramenta",
+        "url": "https://github.com/wikimedia/mediawiki-services-parsoid/blob/39ea4e49783b1f88326d6ebddd14e08bb39cb649/tools/sync-parserTests.js",
+        "desc": "This is a mirror from https://gerrit.wikimedia.org/g/mediawiki/services/parsoid/. See https://www.mediawiki.org/wiki/Developer_access for contributing. - mediawiki-services-parsoid/tools/sync-parserTests.js at 39ea4e49783b1f88326d6ebddd14e08bb39cb649 · wikimedia/mediawiki-services-parsoid Revisar licença, limites, privacidade e acessibilidade antes do uso editorial.",
+        "discoveryUrl": "https://github.com/wikimedia/parsoid/blob/39ea4e49783b1f88326d6ebddd14e08bb39cb649/tools/sync-parserTests.js#L5-L34"
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Radar PLOT — auditoria automática conservadora",
+        "reviewedAt": "2026-11-08",
+        "officialUrl": "https://github.com/wikimedia/mediawiki-services-parsoid/blob/39ea4e49783b1f88326d6ebddd14e08bb39cb649/tools/sync-parserTests.js",
+        "evidence": "Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes."
+      }
     }
   ]
 }
