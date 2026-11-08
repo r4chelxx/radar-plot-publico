@@ -2492,7 +2492,9 @@
         "officialUrl": "https://tasks.hotosm.org/",
         "evidence": "Página oficial tasks.hotosm.org confirma divisão de projetos de mapeamento, uso de imagens para mapear edificações e vias e validação por colaboradores experientes; documentação HOT/OSGeo confirma código aberto e coordenação de tarefas. Conferida ausência de domínio, URL e ID no catálogo e manifesto; registradas limitações de cobertura e verificação."
       }
-    },
+    }
+  ],
+  "pending": [
     {
       "category": "datasets",
       "record": {
@@ -2519,11 +2521,12 @@
         "description": "Consolidated list of sanctioned entities designated by different countries and international organisations. This can include military, trade and travel restrictions."
       },
       "review": {
-        "decision": "approved",
+        "decision": "pending",
         "reviewedBy": "Radar PLOT — auditoria automática conservadora",
         "reviewedAt": "2026-11-07",
         "officialUrl": "https://www.opensanctions.org/datasets/sanctions/",
-        "evidence": "Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes."
+        "evidence": "Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes.",
+        "pendingReason": "Retirado da publicação automática: requer revisão individual da categoria, recurso e evidência primária."
       }
     },
     {
@@ -2552,11 +2555,12 @@
         "description": "Companies and people implicated in or convicted of criminal activity, including the &quot;Most Wanted&quot; lists of various countries and international authorities."
       },
       "review": {
-        "decision": "approved",
+        "decision": "pending",
         "reviewedBy": "Radar PLOT — auditoria automática conservadora",
         "reviewedAt": "2026-11-07",
         "officialUrl": "https://www.opensanctions.org/datasets/crime/",
-        "evidence": "Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes."
+        "evidence": "Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes.",
+        "pendingReason": "Retirado da publicação automática: requer revisão individual da categoria, recurso e evidência primária."
       }
     },
     {
@@ -2585,11 +2589,12 @@
         "description": "The primary objective of the 2022 Tanzania Demographic and Health Survey and Malaria Indicator Survey (2022 TDHSMIS) is to provide current and reliable inf..."
       },
       "review": {
-        "decision": "approved",
+        "decision": "pending",
         "reviewedBy": "Radar PLOT — auditoria automática conservadora",
         "reviewedAt": "2026-11-07",
         "officialUrl": "https://datacatalog.worldbank.org/search/dataset/0065150/tanzania-demographic-and-health-survey-and-malaria-indicator-survey-2022",
-        "evidence": "Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes."
+        "evidence": "Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes.",
+        "pendingReason": "Retirado da publicação automática: requer revisão individual da categoria, recurso e evidência primária."
       }
     },
     {
@@ -2618,11 +2623,12 @@
         "description": "The potential impacts of the COVID-19 pandemic in Ethiopia are expected to be severe on Ethiopian households&#x27; welfare. To monitor these impacts on househol..."
       },
       "review": {
-        "decision": "approved",
+        "decision": "pending",
         "reviewedBy": "Radar PLOT — auditoria automática conservadora",
         "reviewedAt": "2026-11-08",
         "officialUrl": "https://datacatalog.worldbank.org/search/dataset/0048099/ethiopia-high-frequency-phone-survey-2020-2024",
-        "evidence": "Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes."
+        "evidence": "Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes.",
+        "pendingReason": "Retirado da publicação automática: requer revisão individual da categoria, recurso e evidência primária."
       }
     },
     {
@@ -2651,11 +2657,12 @@
         "description": "The primary United States&#x27; sanctions list, specially designated nationals (SDN) part."
       },
       "review": {
-        "decision": "approved",
+        "decision": "pending",
         "reviewedBy": "Radar PLOT — auditoria automática conservadora",
         "reviewedAt": "2026-11-08",
         "officialUrl": "https://www.opensanctions.org/datasets/us_ofac_sdn/",
-        "evidence": "Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes."
+        "evidence": "Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes.",
+        "pendingReason": "Retirado da publicação automática: requer revisão individual da categoria, recurso e evidência primária."
       }
     },
     {
@@ -2684,11 +2691,12 @@
         "description": "Sanctioned companies from a selected set of European and US sanctions lists, and their associated securities identifiers, including LEI and ISIN codes."
       },
       "review": {
-        "decision": "approved",
+        "decision": "pending",
         "reviewedBy": "Radar PLOT — auditoria automática conservadora",
         "reviewedAt": "2026-11-08",
         "officialUrl": "https://www.opensanctions.org/datasets/securities/",
-        "evidence": "Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes."
+        "evidence": "Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes.",
+        "pendingReason": "Retirado da publicação automática: requer revisão individual da categoria, recurso e evidência primária."
       }
     },
     {
@@ -2717,11 +2725,12 @@
         "description": "A shipping-focussed data subset for screening vessels, operators and owners against sanctions."
       },
       "review": {
-        "decision": "approved",
+        "decision": "pending",
         "reviewedBy": "Radar PLOT — auditoria automática conservadora",
         "reviewedAt": "2026-11-08",
         "officialUrl": "https://www.opensanctions.org/datasets/maritime/",
-        "evidence": "Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes."
+        "evidence": "Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes.",
+        "pendingReason": "Retirado da publicação automática: requer revisão individual da categoria, recurso e evidência primária."
       }
     },
     {
@@ -2760,11 +2769,12 @@
         ]
       },
       "review": {
-        "decision": "approved",
+        "decision": "pending",
         "reviewedBy": "Radar PLOT — auditoria automática conservadora",
         "reviewedAt": "2026-11-08",
         "officialUrl": "https://opportunitydesk.org/2026/11/07/mcw-global-young-leaders-fellowship-2027-funded/",
-        "evidence": "Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes."
+        "evidence": "Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes.",
+        "pendingReason": "Retirado da publicação automática: requer revisão individual da categoria, recurso e evidência primária."
       }
     },
     {
@@ -2803,11 +2813,12 @@
         ]
       },
       "review": {
-        "decision": "approved",
+        "decision": "pending",
         "reviewedBy": "Radar PLOT — auditoria automática conservadora",
         "reviewedAt": "2026-11-08",
         "officialUrl": "https://opportunitydesk.org/2026/11/04/csr-internship-program-2027/",
-        "evidence": "Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes."
+        "evidence": "Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes.",
+        "pendingReason": "Retirado da publicação automática: requer revisão individual da categoria, recurso e evidência primária."
       }
     },
     {
@@ -2846,11 +2857,12 @@
         ]
       },
       "review": {
-        "decision": "approved",
+        "decision": "pending",
         "reviewedBy": "Radar PLOT — auditoria automática conservadora",
         "reviewedAt": "2026-11-08",
         "officialUrl": "https://opportunitydesk.org/2026/11/02/new-developments-in-ai-for-social-economic-and-policy-research-conference-2027/",
-        "evidence": "Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes."
+        "evidence": "Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes.",
+        "pendingReason": "Retirado da publicação automática: requer revisão individual da categoria, recurso e evidência primária."
       }
     },
     {
@@ -2889,11 +2901,12 @@
         ]
       },
       "review": {
-        "decision": "approved",
+        "decision": "pending",
         "reviewedBy": "Radar PLOT — auditoria automática conservadora",
         "reviewedAt": "2026-11-08",
         "officialUrl": "https://gfmd.info/fundings/german-northern-european-journalists-fellowship-2027/",
-        "evidence": "Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes."
+        "evidence": "Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes.",
+        "pendingReason": "Retirado da publicação automática: requer revisão individual da categoria, recurso e evidência primária."
       }
     },
     {
@@ -2932,11 +2945,12 @@
         ]
       },
       "review": {
-        "decision": "approved",
+        "decision": "pending",
         "reviewedBy": "Radar PLOT — auditoria automática conservadora",
         "reviewedAt": "2026-11-08",
         "officialUrl": "https://gfmd.info/fundings/call-for-proposals-media-freedom-rapid-response-mechanism-2027/",
-        "evidence": "Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes."
+        "evidence": "Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes.",
+        "pendingReason": "Retirado da publicação automática: requer revisão individual da categoria, recurso e evidência primária."
       }
     },
     {
@@ -2965,11 +2979,12 @@
         "description": "Datasette 1.0a20 is out with the biggest breaking API change on the road to 1.0, improving how Datasette’s permissions system works by migrating permission logic to SQL running in SQLite. …"
       },
       "review": {
-        "decision": "approved",
+        "decision": "pending",
         "reviewedBy": "Radar PLOT — auditoria automática conservadora",
         "reviewedAt": "2026-11-08",
         "officialUrl": "https://simonwillison.net/2025/Nov/4/datasette-10a20/",
-        "evidence": "Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes."
+        "evidence": "Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes.",
+        "pendingReason": "Retirado da publicação automática: requer revisão individual da categoria, recurso e evidência primária."
       }
     },
     {
@@ -2998,11 +3013,12 @@
         "description": "We are inviting users of the C3S Global land surface comprehensive in-situ observations dataset to take part in a short survey designed to improve this dataset. Your experience — whether you actively use these data for …"
       },
       "review": {
-        "decision": "approved",
+        "decision": "pending",
         "reviewedBy": "Radar PLOT — auditoria automática conservadora",
         "reviewedAt": "2026-11-08",
         "officialUrl": "https://forum.ecmwf.int/t/feedback-gathering-survey-on-the-c3s-global-land-surface-comprehensive-in-situ-observations-dataset/15457",
-        "evidence": "Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes."
+        "evidence": "Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes.",
+        "pendingReason": "Retirado da publicação automática: requer revisão individual da categoria, recurso e evidência primária."
       }
     },
     {
@@ -3031,11 +3047,12 @@
         "description": "We are pleased to announce that the Groundwater storage change data from 2002 to 09-2023 derived from satellite gravimetry observations dataset has been published on the Climate Data Store (CDS) on 27-10-2026. The timese…"
       },
       "review": {
-        "decision": "approved",
+        "decision": "pending",
         "reviewedBy": "Radar PLOT — auditoria automática conservadora",
         "reviewedAt": "2026-11-08",
         "officialUrl": "https://forum.ecmwf.int/t/new-dataset-published-in-cds-groundwater-storage-change-data-from-2002-to-present-derived-from-satellite-gravimetry-observations/15458",
-        "evidence": "Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes."
+        "evidence": "Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes.",
+        "pendingReason": "Retirado da publicação automática: requer revisão individual da categoria, recurso e evidência primária."
       }
     },
     {
@@ -3064,11 +3081,12 @@
         "description": "Reference data, company registries and beneficial ownership databases used as inputs for data enrichment."
       },
       "review": {
-        "decision": "approved",
+        "decision": "pending",
         "reviewedBy": "Radar PLOT — auditoria automática conservadora",
         "reviewedAt": "2026-11-08",
         "officialUrl": "https://www.opensanctions.org/datasets/kyb/",
-        "evidence": "Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes."
+        "evidence": "Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes.",
+        "pendingReason": "Retirado da publicação automática: requer revisão individual da categoria, recurso e evidência primária."
       }
     },
     {
@@ -3097,11 +3115,12 @@
         "description": "A politically exposed person (PEP) is a person that has been entrusted with a prominent public function. PEPs include elected officials and members of government."
       },
       "review": {
-        "decision": "approved",
+        "decision": "pending",
         "reviewedBy": "Radar PLOT — auditoria automática conservadora",
         "reviewedAt": "2026-11-08",
         "officialUrl": "https://www.opensanctions.org/datasets/peps/",
-        "evidence": "Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes."
+        "evidence": "Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes.",
+        "pendingReason": "Retirado da publicação automática: requer revisão individual da categoria, recurso e evidência primária."
       }
     },
     {
@@ -3130,11 +3149,12 @@
         "description": "Data sources – OpenSanctions Data Bulk data OpenSanctions Default Sanctions, regulatory and PEP combined dataset Politically Exposed Persons Political office-holders and their close associates Do it live Entity search Look up people, companies, vessels & more Screening tool Match against our multi-property matcher Global coverage Browse all data sources Primary sources from around the world Sanctions programs Regimes & authorities behind the lists Topical Consolidated Sanctions Securities Maritime Know Your Business More… Services Screening API OpenSanctions API Sanctions and PEP screening On-premise deployment Make the database come to you Data licensing Screening license Run your own screening Reseller/OEM Embed the data in your product Learn more Showcase Who uses OpenSanctions Talk to sales Licensing & commercial use Resources Non-commercial use Trust Center Commercial FAQ Get support Customer portal Documentation About us The organisation About OpenSanctions What we do & why we&#x27;re open The team The people behind the site Work with us Open roles in Berlin & remote Follow along Blog Analysis and news Newsletter Product updates in your inbox Forum Ask questions and get help "
       },
       "review": {
-        "decision": "approved",
+        "decision": "pending",
         "reviewedBy": "Radar PLOT — auditoria automática conservadora",
         "reviewedAt": "2026-11-08",
         "officialUrl": "https://www.opensanctions.org/datasets/sources/",
-        "evidence": "Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes."
+        "evidence": "Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes.",
+        "pendingReason": "Retirado da publicação automática: requer revisão individual da categoria, recurso e evidência primária."
       }
     },
     {
@@ -3163,11 +3183,12 @@
         "description": "Transparency mandates won’t build accountability while the practices, standards and rationales shaping AI systems stay hidden, writes Will Orr."
       },
       "review": {
-        "decision": "approved",
+        "decision": "pending",
         "reviewedBy": "Radar PLOT — auditoria automática conservadora",
         "reviewedAt": "2026-11-08",
         "officialUrl": "https://www.techpolicy.press/what-training-dataset-transparency-mandates-hide/",
-        "evidence": "Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes."
+        "evidence": "Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes.",
+        "pendingReason": "Retirado da publicação automática: requer revisão individual da categoria, recurso e evidência primária."
       }
     },
     {
@@ -3196,11 +3217,12 @@
         "description": "To all E-Obs daily gridded data users, A new implementation of the E-OBS dataset is from today, Wednesday 4 November 2026, available in the Climate Data Store (CDS) and has replaced the previous dataset. What has chang…"
       },
       "review": {
-        "decision": "approved",
+        "decision": "pending",
         "reviewedBy": "Radar PLOT — auditoria automática conservadora",
         "reviewedAt": "2026-11-08",
         "officialUrl": "https://forum.ecmwf.int/t/e-obs-daily-gridded-data-new-dataset-implementation-to-support-open-data/15543",
-        "evidence": "Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes."
+        "evidence": "Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes.",
+        "pendingReason": "Retirado da publicação automática: requer revisão individual da categoria, recurso e evidência primária."
       }
     },
     {
@@ -3229,11 +3251,12 @@
         "description": "A designation used to mean a name on a list – today it might be a crypto wallet, a port, or an oil refinery. In this article, we explain some of the shifts taking place in the sanctions landscape and how our FollowtheMoney data model adapts in a regulatory environment that’s continually in flux."
       },
       "review": {
-        "decision": "approved",
+        "decision": "pending",
         "reviewedBy": "Radar PLOT — auditoria automática conservadora",
         "reviewedAt": "2026-11-08",
         "officialUrl": "https://www.opensanctions.org/articles/2026-11-05-open-data-model/",
-        "evidence": "Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes."
+        "evidence": "Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes.",
+        "pendingReason": "Retirado da publicação automática: requer revisão individual da categoria, recurso e evidência primária."
       }
     },
     {
@@ -3247,11 +3270,12 @@
         "discoveryUrl": "https://www.spatialintelligence.ai/"
       },
       "review": {
-        "decision": "approved",
+        "decision": "pending",
         "reviewedBy": "Radar PLOT — auditoria automática conservadora",
         "reviewedAt": "2026-11-08",
         "officialUrl": "https://www.spatialintelligence.ai/",
-        "evidence": "Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes."
+        "evidence": "Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes.",
+        "pendingReason": "Retirado da publicação automática: requer revisão individual da categoria, recurso e evidência primária."
       }
     },
     {
@@ -3265,11 +3289,12 @@
         "discoveryUrl": "https://wearedatafolks.com/"
       },
       "review": {
-        "decision": "approved",
+        "decision": "pending",
         "reviewedBy": "Radar PLOT — auditoria automática conservadora",
         "reviewedAt": "2026-11-08",
         "officialUrl": "https://wearedatafolks.com/",
-        "evidence": "Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes."
+        "evidence": "Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes.",
+        "pendingReason": "Retirado da publicação automática: requer revisão individual da categoria, recurso e evidência primária."
       }
     },
     {
@@ -3283,11 +3308,12 @@
         "discoveryUrl": "https://www.theguardian.com/interactive"
       },
       "review": {
-        "decision": "approved",
+        "decision": "pending",
         "reviewedBy": "Radar PLOT — auditoria automática conservadora",
         "reviewedAt": "2026-11-08",
         "officialUrl": "https://www.theguardian.com/interactive",
-        "evidence": "Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes."
+        "evidence": "Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes.",
+        "pendingReason": "Retirado da publicação automática: requer revisão individual da categoria, recurso e evidência primária."
       }
     },
     {
@@ -3301,11 +3327,12 @@
         "discoveryUrl": "https://www.spatialedge.co/"
       },
       "review": {
-        "decision": "approved",
+        "decision": "pending",
         "reviewedBy": "Radar PLOT — auditoria automática conservadora",
         "reviewedAt": "2026-11-08",
         "officialUrl": "https://www.spatialedge.co/",
-        "evidence": "Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes."
+        "evidence": "Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes.",
+        "pendingReason": "Retirado da publicação automática: requer revisão individual da categoria, recurso e evidência primária."
       }
     },
     {
@@ -3319,11 +3346,12 @@
         "discoveryUrl": "https://kimalbrecht.com/"
       },
       "review": {
-        "decision": "approved",
+        "decision": "pending",
         "reviewedBy": "Radar PLOT — auditoria automática conservadora",
         "reviewedAt": "2026-11-08",
         "officialUrl": "https://kimalbrecht.com/",
-        "evidence": "Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes."
+        "evidence": "Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes.",
+        "pendingReason": "Retirado da publicação automática: requer revisão individual da categoria, recurso e evidência primária."
       }
     },
     {
@@ -3337,11 +3365,12 @@
         "discoveryUrl": "https://giorgialupi.com/"
       },
       "review": {
-        "decision": "approved",
+        "decision": "pending",
         "reviewedBy": "Radar PLOT — auditoria automática conservadora",
         "reviewedAt": "2026-11-08",
         "officialUrl": "https://giorgialupi.com/",
-        "evidence": "Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes."
+        "evidence": "Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes.",
+        "pendingReason": "Retirado da publicação automática: requer revisão individual da categoria, recurso e evidência primária."
       }
     },
     {
@@ -3355,11 +3384,12 @@
         "discoveryUrl": "https://color.adobe.com/create/color-wheel"
       },
       "review": {
-        "decision": "approved",
+        "decision": "pending",
         "reviewedBy": "Radar PLOT — auditoria automática conservadora",
         "reviewedAt": "2026-11-08",
         "officialUrl": "https://color.adobe.com/create/color-wheel",
-        "evidence": "Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes."
+        "evidence": "Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes.",
+        "pendingReason": "Retirado da publicação automática: requer revisão individual da categoria, recurso e evidência primária."
       }
     },
     {
@@ -3373,11 +3403,12 @@
         "discoveryUrl": "https://scikit-learn.org/"
       },
       "review": {
-        "decision": "approved",
+        "decision": "pending",
         "reviewedBy": "Radar PLOT — auditoria automática conservadora",
         "reviewedAt": "2026-11-08",
         "officialUrl": "https://scikit-learn.org/",
-        "evidence": "Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes."
+        "evidence": "Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes.",
+        "pendingReason": "Retirado da publicação automática: requer revisão individual da categoria, recurso e evidência primária."
       }
     },
     {
@@ -3391,11 +3422,12 @@
         "discoveryUrl": "https://derivative.ca/"
       },
       "review": {
-        "decision": "approved",
+        "decision": "pending",
         "reviewedBy": "Radar PLOT — auditoria automática conservadora",
         "reviewedAt": "2026-11-08",
         "officialUrl": "https://derivative.ca/",
-        "evidence": "Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes."
+        "evidence": "Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes.",
+        "pendingReason": "Retirado da publicação automática: requer revisão individual da categoria, recurso e evidência primária."
       }
     },
     {
@@ -3409,11 +3441,12 @@
         "discoveryUrl": "https://www.shirleywu.studio/"
       },
       "review": {
-        "decision": "approved",
+        "decision": "pending",
         "reviewedBy": "Radar PLOT — auditoria automática conservadora",
         "reviewedAt": "2026-11-08",
         "officialUrl": "https://www.shirleywu.studio/",
-        "evidence": "Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes."
+        "evidence": "Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes.",
+        "pendingReason": "Retirado da publicação automática: requer revisão individual da categoria, recurso e evidência primária."
       }
     },
     {
@@ -3427,11 +3460,12 @@
         "discoveryUrl": "https://weeklyosm.eu/"
       },
       "review": {
-        "decision": "approved",
+        "decision": "pending",
         "reviewedBy": "Radar PLOT — auditoria automática conservadora",
         "reviewedAt": "2026-11-08",
         "officialUrl": "https://weeklyosm.eu/",
-        "evidence": "Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes."
+        "evidence": "Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes.",
+        "pendingReason": "Retirado da publicação automática: requer revisão individual da categoria, recurso e evidência primária."
       }
     },
     {
@@ -3445,11 +3479,12 @@
         "discoveryUrl": "https://apostrophe.one/"
       },
       "review": {
-        "decision": "approved",
+        "decision": "pending",
         "reviewedBy": "Radar PLOT — auditoria automática conservadora",
         "reviewedAt": "2026-11-08",
         "officialUrl": "https://apostrophe.one/",
-        "evidence": "Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes."
+        "evidence": "Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes.",
+        "pendingReason": "Retirado da publicação automática: requer revisão individual da categoria, recurso e evidência primária."
       }
     },
     {
@@ -3463,11 +3498,12 @@
         "discoveryUrl": "https://datavisualizationwithsvelte.com/"
       },
       "review": {
-        "decision": "approved",
+        "decision": "pending",
         "reviewedBy": "Radar PLOT — auditoria automática conservadora",
         "reviewedAt": "2026-11-08",
         "officialUrl": "https://datavisualizationwithsvelte.com/",
-        "evidence": "Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes."
+        "evidence": "Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes.",
+        "pendingReason": "Retirado da publicação automática: requer revisão individual da categoria, recurso e evidência primária."
       }
     },
     {
@@ -3481,11 +3517,12 @@
         "discoveryUrl": "https://learn.microsoft.com/en-us/fabric/onelake/onelake-overview"
       },
       "review": {
-        "decision": "approved",
+        "decision": "pending",
         "reviewedBy": "Radar PLOT — auditoria automática conservadora",
         "reviewedAt": "2026-11-08",
         "officialUrl": "https://learn.microsoft.com/en-us/fabric/onelake/onelake-overview",
-        "evidence": "Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes."
+        "evidence": "Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes.",
+        "pendingReason": "Retirado da publicação automática: requer revisão individual da categoria, recurso e evidência primária."
       }
     },
     {
@@ -3499,11 +3536,12 @@
         "discoveryUrl": "https://www.kaggle.com/"
       },
       "review": {
-        "decision": "approved",
+        "decision": "pending",
         "reviewedBy": "Radar PLOT — auditoria automática conservadora",
         "reviewedAt": "2026-11-08",
         "officialUrl": "https://www.kaggle.com/",
-        "evidence": "Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes."
+        "evidence": "Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes.",
+        "pendingReason": "Retirado da publicação automática: requer revisão individual da categoria, recurso e evidência primária."
       }
     },
     {
@@ -3517,11 +3555,12 @@
         "discoveryUrl": "https://www.datawrapper.de/blog/colorguide"
       },
       "review": {
-        "decision": "approved",
+        "decision": "pending",
         "reviewedBy": "Radar PLOT — auditoria automática conservadora",
         "reviewedAt": "2026-11-08",
         "officialUrl": "https://www.datawrapper.de/blog/colorguide",
-        "evidence": "Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes."
+        "evidence": "Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes.",
+        "pendingReason": "Retirado da publicação automática: requer revisão individual da categoria, recurso e evidência primária."
       }
     },
     {
@@ -3535,11 +3574,12 @@
         "discoveryUrl": "https://www.dear-data.com/theproject"
       },
       "review": {
-        "decision": "approved",
+        "decision": "pending",
         "reviewedBy": "Radar PLOT — auditoria automática conservadora",
         "reviewedAt": "2026-11-08",
         "officialUrl": "https://www.dear-data.com/theproject",
-        "evidence": "Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes."
+        "evidence": "Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes.",
+        "pendingReason": "Retirado da publicação automática: requer revisão individual da categoria, recurso e evidência primária."
       }
     },
     {
@@ -3553,11 +3593,12 @@
         "discoveryUrl": "https://www.maproomblog.com/"
       },
       "review": {
-        "decision": "approved",
+        "decision": "pending",
         "reviewedBy": "Radar PLOT — auditoria automática conservadora",
         "reviewedAt": "2026-11-08",
         "officialUrl": "https://www.maproomblog.com/",
-        "evidence": "Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes."
+        "evidence": "Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes.",
+        "pendingReason": "Retirado da publicação automática: requer revisão individual da categoria, recurso e evidência primária."
       }
     },
     {
@@ -3571,11 +3612,12 @@
         "discoveryUrl": "https://fabricconf.com/"
       },
       "review": {
-        "decision": "approved",
+        "decision": "pending",
         "reviewedBy": "Radar PLOT — auditoria automática conservadora",
         "reviewedAt": "2026-11-08",
         "officialUrl": "https://fabricconf.com/",
-        "evidence": "Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes."
+        "evidence": "Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes.",
+        "pendingReason": "Retirado da publicação automática: requer revisão individual da categoria, recurso e evidência primária."
       }
     },
     {
@@ -3589,11 +3631,12 @@
         "discoveryUrl": "https://community.storytellingwithdata.com/"
       },
       "review": {
-        "decision": "approved",
+        "decision": "pending",
         "reviewedBy": "Radar PLOT — auditoria automática conservadora",
         "reviewedAt": "2026-11-08",
         "officialUrl": "https://community.storytellingwithdata.com/",
-        "evidence": "Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes."
+        "evidence": "Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes.",
+        "pendingReason": "Retirado da publicação automática: requer revisão individual da categoria, recurso e evidência primária."
       }
     },
     {
@@ -3607,12 +3650,13 @@
         "discoveryUrl": "https://www.datylon.com/"
       },
       "review": {
-        "decision": "approved",
+        "decision": "pending",
         "reviewedBy": "Radar PLOT — auditoria automática conservadora",
         "reviewedAt": "2026-11-08",
         "officialUrl": "https://www.datylon.com/",
-        "evidence": "Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes."
+        "evidence": "Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes.",
+        "pendingReason": "Retirado da publicação automática: requer revisão individual da categoria, recurso e evidência primária."
       }
     }
   ]
-}
+}\n
