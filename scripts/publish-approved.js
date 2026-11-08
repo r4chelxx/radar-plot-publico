@@ -67,13 +67,13 @@ for(const entry of source.approved){
   if(!record.scope||String(record.scope).trim().length<10)throw Error('Opportunity requires a substantive eligibility scope: '+record.id);
   if(!record.deadlineStatus||!/confirm|oficial|official|fluxo contínuo|prazo contínuo|ongoing|rolling/i.test(String(record.deadlineStatus)))throw Error('Opportunity deadline state is not evidenced by the primary source: '+record.id);
   if(record.deadline){
-   if(!/^\\d{4}-\\d{2}-\\d{2}$/.test(record.deadline)||new Date(record.deadline+'T00:00:00Z').toISOString().slice(0,10)!==record.deadline)throw Error('Opportunity has an invalid deadline date: '+record.id);
+   if(!/^\d{4}-\d{2}-\d{2}$/.test(record.deadline)||new Date(record.deadline+'T00:00:00Z').toISOString().slice(0,10)!==record.deadline)throw Error('Opportunity has an invalid deadline date: '+record.id);
    if(record.deadline<today)throw Error('Opportunity deadline has passed: '+record.id);
   }else if(!/fluxo contínuo|prazo contínuo|ongoing|rolling|sem (?:data|prazo)|no deadline/i.test(String(record.deadlineStatus)))throw Error('Opportunity without a date must have an explicitly continuous or no-deadline status: '+record.id);
  }
  if(category==='datasets'){
   if(!safeUrl(record.docs))throw Error('Dataset requires official access documentation: '+record.id);
-  if(!/^\\d{4}-\\d{2}-\\d{2}$/.test(record.lastChecked||'')||record.lastChecked>today)throw Error('Dataset requires a valid non-future lastChecked date: '+record.id);
+  if(!/^\d{4}-\d{2}-\d{2}$/.test(record.lastChecked||'')||record.lastChecked>today)throw Error('Dataset requires a valid non-future lastChecked date: '+record.id);
  }
  if(category==='tools'){
   const proofText=String(proof.evidence||'');
