@@ -3102,6 +3102,138 @@
         "officialUrl": "https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Hackathon_2023/Program",
         "evidence": "Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes."
       }
+    },
+    {
+      "category": "datasets",
+      "record": {
+        "id": "auto-c6a3e5820a02d0ea",
+        "name": "Open redirect endpoint in Datasette prior to 0.65.2 and 1.0a21",
+        "org": "GitHub",
+        "territoryTier": "Outros",
+        "kind": "dataset",
+        "themes": [
+          "Dados abertos"
+        ],
+        "coverage": "GitHub is where people build software. More than 225 million people use GitHub to discover, fork, and contribute to over 800 million projects.",
+        "frequency": "Não informado na fonte estruturada",
+        "format": "Não informado na fonte estruturada",
+        "period": "Não informado na fonte estruturada",
+        "granularity": "Não informado na fonte estruturada",
+        "geoUnit": "Não informado na fonte estruturada",
+        "api": "Não informado na fonte estruturada",
+        "docs": "https://github.com/simonw/datasette/security/advisories/GHSA-w832-gg5g-x44m",
+        "limitations": "Metadados estruturados confirmam a existência do recurso, mas cobertura, atualização, licença e qualidade devem ser conferidas antes do uso editorial.",
+        "lastChecked": "2026-11-08",
+        "url": "https://github.com/simonw/datasette/security/advisories/GHSA-w832-gg5g-x44m",
+        "discoveryUrl": "https://github.com/simonw/datasette/security/advisories/GHSA-w832-gg5g-x44m",
+        "description": "GitHub is where people build software. More than 225 million people use GitHub to discover, fork, and contribute to over 800 million projects."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Radar PLOT — auditoria automática conservadora",
+        "reviewedAt": "2026-11-08",
+        "officialUrl": "https://github.com/simonw/datasette/security/advisories/GHSA-w832-gg5g-x44m",
+        "evidence": "Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes."
+      }
+    },
+    {
+      "category": "datasets",
+      "record": {
+        "id": "auto-d0ca43f9c65b4b8d",
+        "name": "datasette/CODE_OF_CONDUCT.md at main · simonw/datasette",
+        "org": "GitHub",
+        "territoryTier": "Outros",
+        "kind": "dataset",
+        "themes": [
+          "Dados abertos"
+        ],
+        "coverage": "An open source multi-tool for exploring and publishing data - datasette/CODE_OF_CONDUCT.md at main · simonw/datasette",
+        "frequency": "Não informado na fonte estruturada",
+        "format": "Não informado na fonte estruturada",
+        "period": "Não informado na fonte estruturada",
+        "granularity": "Não informado na fonte estruturada",
+        "geoUnit": "Não informado na fonte estruturada",
+        "api": "Não informado na fonte estruturada",
+        "docs": "https://github.com/simonw/datasette/blob/main/CODE_OF_CONDUCT.md",
+        "limitations": "Metadados estruturados confirmam a existência do recurso, mas cobertura, atualização, licença e qualidade devem ser conferidas antes do uso editorial.",
+        "lastChecked": "2026-11-08",
+        "url": "https://github.com/simonw/datasette/blob/main/CODE_OF_CONDUCT.md",
+        "discoveryUrl": "https://github.com/simonw/datasette/blob/main/CODE_OF_CONDUCT.md",
+        "description": "An open source multi-tool for exploring and publishing data - datasette/CODE_OF_CONDUCT.md at main · simonw/datasette"
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Radar PLOT — auditoria automática conservadora",
+        "reviewedAt": "2026-11-08",
+        "officialUrl": "https://github.com/simonw/datasette/blob/main/CODE_OF_CONDUCT.md",
+        "evidence": "Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes."
+      }
+    },
+    {
+      "category": "datasets",
+      "record": {
+        "id": "auto-45bf0de26c562c52",
+        "name": "Dataset metadata",
+        "org": "OpenSanctions.org",
+        "territoryTier": "Outros",
+        "kind": "dataset",
+        "themes": [
+          "Dados abertos"
+        ],
+        "coverage": "Each dataset includes extensive metadata, covering the content, origin, data quality, temporal coverage, and export forms of the relevant data source or collection.",
+        "frequency": "Não informado na fonte estruturada",
+        "format": "Não informado na fonte estruturada",
+        "period": "Não informado na fonte estruturada",
+        "granularity": "Não informado na fonte estruturada",
+        "geoUnit": "Não informado na fonte estruturada",
+        "api": "Não informado na fonte estruturada",
+        "docs": "https://www.opensanctions.org/docs/metadata/",
+        "limitations": "Metadados estruturados confirmam a existência do recurso, mas cobertura, atualização, licença e qualidade devem ser conferidas antes do uso editorial.",
+        "lastChecked": "2026-11-08",
+        "url": "https://www.opensanctions.org/docs/metadata/",
+        "discoveryUrl": "https://www.opensanctions.org/docs/metadata",
+        "description": "Each dataset includes extensive metadata, covering the content, origin, data quality, temporal coverage, and export forms of the relevant data source or collection."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Radar PLOT — auditoria automática conservadora",
+        "reviewedAt": "2026-11-08",
+        "officialUrl": "https://www.opensanctions.org/docs/metadata/",
+        "evidence": "Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes."
+      }
+    },
+    {
+      "category": "datasets",
+      "record": {
+        "id": "auto-f52b93738da2f8b4",
+        "name": "Datasette Office Hours - Simon Willison",
+        "org": "Calendly",
+        "territoryTier": "Outros",
+        "kind": "dataset",
+        "themes": [
+          "Dados abertos"
+        ],
+        "coverage": "Are you interested in Datasette and the ecosystem of tools I&#39;m building around it? I would love to talk to you!(&quot;Office hours&quot; is a term used at some universities for periods of time when you can drop in to talk with a lecturer. In Germany they use the term &quot;Sprechstunde&quot; for &quot;speaking hours&quot; which",
+        "frequency": "Não informado na fonte estruturada",
+        "format": "Não informado na fonte estruturada",
+        "period": "Não informado na fonte estruturada",
+        "granularity": "Não informado na fonte estruturada",
+        "geoUnit": "Não informado na fonte estruturada",
+        "api": "Não informado na fonte estruturada",
+        "docs": "https://calendly.com/swillison/datasette-office-hours",
+        "limitations": "Metadados estruturados confirmam a existência do recurso, mas cobertura, atualização, licença e qualidade devem ser conferidas antes do uso editorial.",
+        "lastChecked": "2026-11-08",
+        "url": "https://calendly.com/swillison/datasette-office-hours",
+        "discoveryUrl": "https://calendly.com/swillison/datasette-office-hours",
+        "description": "Are you interested in Datasette and the ecosystem of tools I&#39;m building around it? I would love to talk to you!(&quot;Office hours&quot; is a term used at some universities for periods of time when you can drop in to talk with a lecturer. In Germany they use the term &quot;Sprechstunde&quot; for &quot;speaking hours&quot; which"
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Radar PLOT — auditoria automática conservadora",
+        "reviewedAt": "2026-11-08",
+        "officialUrl": "https://calendly.com/swillison/datasette-office-hours",
+        "evidence": "Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes."
+      }
     }
   ]
 }
