@@ -1,6 +1,26 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.tools=[
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
   {
     "id": "samgeo-geospatial-image-segmentation",
     "name": "SamGeo — segmentação de imagens geoespaciais com IA",
@@ -1045,4 +1065,4 @@ window.RADAR_PARTS.tools=[
     ],
     "discoveryUrl": "https://github.com/jbkunst/highcharter"
   }
- ];
+];
