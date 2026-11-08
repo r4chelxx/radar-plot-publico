@@ -16,7 +16,7 @@ function deriveOpportunity(lead,url){
  const se=lead.structuredEvidence||{};
  const title=se.title||lead.pageTitle||lead.sourcePageTitle;
  const description=se.description||lead.pageDescription;
- const organization=se.organization||lead.organization;
+ const organization=se.organization||lead.organization||lead.source;
  if(lead.category!=='opportunities'||!se.eligibilityExplicit||se.status!=='aberta'||!title||!description||description.length<120||!organization||!future(se.deadline))return null;
  return {id:derivedId(url),title,org:organization,summary:description,type:se.sourceType||'Oportunidade editorial',themes:['Oportunidade editorial'],scope:'Não especificado',deadline:se.deadline,deadlineStatus:'prazo extraído de metadado estruturado da fonte oficial; horário e condições devem ser conferidos na página',eligibility:'parcial',fit:5,status:'aberta',value:'Não informado na fonte estruturada',duration:'Não informado na fonte estruturada',modality:se.sourceType||'Não especificado',documents:[],restrictions:[],rules:url,apply:url,verified:today,desc:se.description,discoveryUrl:lead.url,verificationHistory:[{date:today,status:'aberta',source:url}]};
 }
@@ -68,9 +68,12 @@ for(const lead of results){
   const deadline=lead.deadline||record?.deadline;
   const eligibility=lead.eligibility||record?.eligibility;
   const status=lead.status||lead.structuredEvidence?.status||record?.status;
+  const eligibilityText=String(eligibility||'').trim();
+  const explicitEligibility=Boolean(lead.structuredEvidence?.eligibilityExplicit)&&eligibilityText.length>=20;
+  const eligibilityOk=allowedEligibility.has(eligibilityText.toLowerCase())||explicitEligibility;
   if(!future(deadline))fail.push('prazo futuro confirmado ausente');
-  if(!allowedEligibility.has(eligibility))fail.push('elegibilidade não confirmada');
-  if(!allowedStatus.has(status))fail.push('status editorial não confirmado');
+  if(!eligibilityOk)fail.push('elegibilidade não confirmada');
+  if(!allowedStatus.has(String(status||'').toLowerCase()))fail.push('status editorial não confirmado');
   if(!record?.title||!record?.org||!record?.summary||!record?.rules)fail.push('campos editoriais obrigatórios ausentes');
   if(record?.rules&&host(record.rules)!==host(url))fail.push('URL oficial não coincide com a fonte auditada');
  } else if(lead.category==='datasets'){
