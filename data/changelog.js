@@ -2,6 +2,18 @@ window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
 {
   "date": "2026-11-08",
+  "type": "ferramentas",
+  "title": "Publicação editorial verificada — 2026-11-08",
+  "items": [
+    {
+      "id": "auto-ef6cc1882133a881",
+      "title": "Toolkits | International Journalists&#039; Network"
+    }
+  ],
+  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Toolkits | International Journalists&#039; Network."
+}, 
+{
+  "date": "2026-11-08",
   "type": "dados",
   "title": "Publicação editorial verificada — 2026-11-08",
   "items": [
