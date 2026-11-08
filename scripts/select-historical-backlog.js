@@ -43,7 +43,22 @@ function selectBacklog(previous,current,limit=10,now=new Date(),options={}){
   String(a.lastInspectedAt||a.firstSeen||'').localeCompare(String(b.lastInspectedAt||b.firstSeen||''))||
   String(a.id).localeCompare(String(b.id)));
  const cap=Math.min(Math.max(1,limit),100);
- const selectedReady=ready.slice(0,cap);
+ const balancedTake=(items,n)=>{
+  const categories=['opportunities','datasets','tools'];
+  const selected=[],used=new Set();
+  const base=Math.floor(n/categories.length),remainder=n%categories.length;
+  categories.forEach((category,index)=>{
+   const quota=base+(index<remainder?1:0);
+   for(const item of items){
+    if(selected.length>=n||used.has(item.id)||item.category!==category)continue;
+    selected.push(item);used.add(item.id);
+    if(selected.filter(x=>x.category===category).length>=quota)break;
+   }
+  });
+  for(const item of items){if(selected.length>=n)break;if(!used.has(item.id)){selected.push(item);used.add(item.id)}}
+  return selected;
+ };
+ const selectedReady=balancedTake(ready,cap);
  if(!options.rotate) return {selected:selectedReady,total:all.length,ready:ready.length,waiting:all.length-ready.length,rotation:0};
  // Keep the inspection pipeline productive even while all remaining leads are
  // inside their recheck window: fill unused capacity with the oldest historical
@@ -56,7 +71,7 @@ function selectBacklog(previous,current,limit=10,now=new Date(),options={}){
   indirect(a)-indirect(b)||
   String(a.lastInspectedAt||a.firstSeen||'').localeCompare(String(b.lastInspectedAt||b.firstSeen||''))||
   String(a.id).localeCompare(String(b.id)));
- const selected=selectedReady.concat(rotation.slice(0,Math.max(0,cap-selectedReady.length)));
+ const selected=selectedReady.concat(balancedTake(rotation,Math.max(0,cap-selectedReady.length)));
  return {selected,total:all.length,ready:ready.length,waiting:all.length-ready.length,rotation:Math.max(0,selected.length-selectedReady.length)};
 }
 module.exports={selectBacklog,recheckDays};
