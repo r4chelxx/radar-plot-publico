@@ -13,23 +13,31 @@ const host=x=>{try{return new URL(x).hostname.toLowerCase()}catch{return null}};
 const future=x=>isoDate(x)&&x>=today;
 const derivedId=url=>'auto-'+crypto.createHash('sha256').update(String(url)).digest('hex').slice(0,16);
 function deriveOpportunity(lead,url){
- const se=lead.structuredEvidence;
- if(lead.category!=='opportunities'||!se||!se.eligibilityExplicit||se.status!=='aberta'||!se.title||!se.description||se.description.length<120||!se.organization||!future(se.deadline))return null;
- return {id:derivedId(url),title:se.title,org:se.organization,summary:se.description,type:se.sourceType||'Oportunidade editorial',themes:['Oportunidade editorial'],scope:'Não especificado',deadline:se.deadline,deadlineStatus:'prazo extraído de metadado estruturado da fonte oficial; horário e condições devem ser conferidos na página',eligibility:'parcial',fit:5,status:'aberta',value:'Não informado na fonte estruturada',duration:'Não informado na fonte estruturada',modality:se.sourceType||'Não especificado',documents:[],restrictions:[],rules:url,apply:url,verified:today,desc:se.description,discoveryUrl:lead.url,verificationHistory:[{date:today,status:'aberta',source:url}]};
+ const se=lead.structuredEvidence||{};
+ const title=se.title||lead.pageTitle||lead.sourcePageTitle;
+ const description=se.description||lead.pageDescription;
+ const organization=se.organization||lead.organization;
+ if(lead.category!=='opportunities'||!se.eligibilityExplicit||se.status!=='aberta'||!title||!description||description.length<120||!organization||!future(se.deadline))return null;
+ return {id:derivedId(url),title,org:organization,summary:description,type:se.sourceType||'Oportunidade editorial',themes:['Oportunidade editorial'],scope:'Não especificado',deadline:se.deadline,deadlineStatus:'prazo extraído de metadado estruturado da fonte oficial; horário e condições devem ser conferidos na página',eligibility:'parcial',fit:5,status:'aberta',value:'Não informado na fonte estruturada',duration:'Não informado na fonte estruturada',modality:se.sourceType||'Não especificado',documents:[],restrictions:[],rules:url,apply:url,verified:today,desc:se.description,discoveryUrl:lead.url,verificationHistory:[{date:today,status:'aberta',source:url}]};
 }
 function deriveDataset(lead,url){
- const se=lead.structuredEvidence;
- if(lead.category!=='datasets'||!se||!se.title||!se.description||se.description.length<80||!se.organization)return null;
+ const se=lead.structuredEvidence||{};
+ const title=se.title||lead.pageTitle||lead.sourcePageTitle;
+ const description=se.description||lead.pageDescription;
+ const organization=se.organization||lead.organization;
+ if(lead.category!=='datasets'||!title||!description||description.length<80||!organization)return null;
  const sourceType=String(se.sourceType||'').toLowerCase();
  if(sourceType&&!/dataset|datacatalog|catalog/.test(sourceType))return null;
- return {id:derivedId(url),name:se.title,org:se.organization,territoryTier:'Outros',kind:'dataset',themes:['Dados abertos'],coverage:se.description,frequency:'Não informado na fonte estruturada',format:'Não informado na fonte estruturada',period:'Não informado na fonte estruturada',granularity:'Não informado na fonte estruturada',geoUnit:'Não informado na fonte estruturada',api:'Não informado na fonte estruturada',docs:url,limitations:'Metadados estruturados confirmam a existência do recurso, mas cobertura, atualização, licença e qualidade devem ser conferidas antes do uso editorial.',lastChecked:today,url,discoveryUrl:lead.url,description:se.description};
+ return {id:derivedId(url),name:title,org:organization,territoryTier:'Outros',kind:'dataset',themes:['Dados abertos'],coverage:description,frequency:'Não informado na fonte estruturada',format:'Não informado na fonte estruturada',period:'Não informado na fonte estruturada',granularity:'Não informado na fonte estruturada',geoUnit:'Não informado na fonte estruturada',api:'Não informado na fonte estruturada',docs:url,limitations:'Metadados estruturados confirmam a existência do recurso, mas cobertura, atualização, licença e qualidade devem ser conferidas antes do uso editorial.',lastChecked:today,url,discoveryUrl:lead.url,description};
 }
 function deriveTool(lead,url){
- const se=lead.structuredEvidence;
- if(lead.category!=='tools'||!se||!se.title||!se.description||se.description.length<80)return null;
+ const se=lead.structuredEvidence||{};
+ const title=se.title||lead.pageTitle||lead.sourcePageTitle;
+ const description=se.description||lead.pageDescription;
+ if(lead.category!=='tools'||!title||!description||description.length<80)return null;
  const sourceType=String(se.sourceType||'').toLowerCase();
  if(sourceType&&!/software|application|tool|product|creativework/.test(sourceType))return null;
- return {id:derivedId(url),name:se.title,kind:se.sourceType||'ferramenta',url,desc:se.description+' Revisar licença, limites, privacidade e acessibilidade antes do uso editorial.',discoveryUrl:lead.url};
+ return {id:derivedId(url),name:title,kind:se.sourceType||'ferramenta',url,desc:description+' Revisar licença, limites, privacidade e acessibilidade antes do uso editorial.',discoveryUrl:lead.url};
 }
 const results=(evidence.results||[]);
 const byId=new Map((review.candidates||[]).map(x=>[x.id,x]));
