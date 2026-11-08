@@ -14,14 +14,6 @@ window.RADAR_PARTS.changelog=[
 }, 
 {
   "date": "2026-11-08",
-  "type": "dados",
-  "title": "Publicação editorial verificada — 2026-11-08",
-  "items": [
-                                                                                                          ],
-  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Paradas Programadas; Plano Diretor de Tecnologia da Informação; Fórum de Tecnologia, Inovação e Programas da ANP – TIP ANP; Política de Diversidade, Equidade e Inclusão da ANP; Programa de Incentivo ao Biometano; Legislação; Ações e Programas; Programa de Governança em Privacidade da ANP; Agente Certificador de Origem (ACO); Programa de Monitoramento da Qualidade dos Combustíveis (PMQC); Programa de Estágio da ANP; Arquivos Programa de incentivo ao biometano; Credenciamento de Agente Certificador de Origem (ACO); Sobre; Comunicados, Notícias e Eventos; Plano de Comunicação; Estudos, Relatórios e Seminários; PRH; Programas Interlaboratoriais; Ações e Programas; Consultas e Audiências Públicas; Certificação do produtor ou importador de biometano com vistas à emissão do CGOB; Plano de Gestão Anual; Metas Institucionais; Ações e Programas; Programas de Monitoramento."
-}, 
-{
-  "date": "2026-11-08",
   "type": "ferramentas",
   "title": "Publicação editorial verificada — 2026-11-08",
   "items": [
