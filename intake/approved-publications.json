@@ -2458,43 +2458,6 @@
       }
     },
     {
-      "category": "datasets",
-      "record": {
-        "id": "wikidata-structured-knowledge-base",
-        "name": "Wikidata — base colaborativa de conhecimento estruturado",
-        "org": "Comunidade Wikidata / Wikimedia",
-        "territoryTier": "Outros",
-        "kind": "catalog",
-        "themes": [
-          "Conhecimento aberto",
-          "Entidades",
-          "Dados ligados",
-          "Cultura",
-          "Políticas públicas"
-        ],
-        "coverage": "Entidades, relações e identificadores estruturados sobre pessoas, instituições, lugares, obras e eventos em âmbito internacional.",
-        "frequency": "Edição colaborativa contínua; atualidade varia por item e propriedade",
-        "format": "Consultas SPARQL, APIs, JSON, dumps e exportações",
-        "period": "Dados históricos e contemporâneos conforme item",
-        "granularity": "Entidade, propriedade, declaração e referência",
-        "geoUnit": "Variável; itens podem conter coordenadas e vínculos territoriais",
-        "api": "https://www.wikidata.org/w/api.php",
-        "docs": "https://www.wikidata.org/wiki/Wikidata:Introduction",
-        "limitations": "Conteúdo estruturado sob CC0, mas qualidade, cobertura e atualização são heterogêneas; declarações colaborativas podem estar incompletas, incorretas ou sem referência. Verificar cada afirmação em fontes independentes e distinguir dados Wikidata de conteúdos externos vinculados.",
-        "lastChecked": "2026-11-02",
-        "url": "https://www.wikidata.org/",
-        "discoveryUrl": "https://www.wikidata.org/wiki/Wikidata:Licensing",
-        "description": "Base de dados estruturados, colaborativa e multilíngue, útil para relacionar entidades e investigar redes e instituições."
-      },
-      "review": {
-        "decision": "approved",
-        "reviewedBy": "Radar PLOT — revisão editorial assistida",
-        "reviewedAt": "2026-11-02",
-        "officialUrl": "https://www.wikidata.org/",
-        "evidence": "Introdução e política oficial Wikidata confirmam base colaborativa estruturada, consulta por entidades e dados estruturados CC0. Documentadas limitações de qualidade e necessidade de checagem; URL e ID ausentes no catálogo."
-      }
-    },
-    {
       "category": "tools",
       "record": {
         "id": "samgeo-geospatial-image-segmentation",
@@ -2758,24 +2721,6 @@
         "reviewedBy": "Radar PLOT — auditoria automática conservadora",
         "reviewedAt": "2026-11-08",
         "officialUrl": "https://www.opensanctions.org/datasets/maritime/",
-        "evidence": "Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes."
-      }
-    },
-    {
-      "category": "tools",
-      "record": {
-        "id": "auto-ef6cc1882133a881",
-        "name": "Toolkits | International Journalists&#039; Network",
-        "kind": "ferramenta",
-        "url": "https://ijnet.org/en/toolkits",
-        "desc": "IJNet delivers the latest on global media innovation, news apps and tools, training opportunities and expert advice for professional and citizen journalists worldwide. Produced by the International Center for Journalists, IJNet follows the shifting journalism scene from a global perspective in eight languages - Arabic, Chinese, English, Persian, Portuguese, Russian, Spanish and French. Revisar licença, limites, privacidade e acessibilidade antes do uso editorial.",
-        "discoveryUrl": "https://ijnet.org/en/toolkits"
-      },
-      "review": {
-        "decision": "approved",
-        "reviewedBy": "Radar PLOT — auditoria automática conservadora",
-        "reviewedAt": "2026-11-08",
-        "officialUrl": "https://ijnet.org/en/toolkits",
         "evidence": "Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes."
       }
     }
