@@ -1,4 +1,6 @@
-window.RADAR_PARTS=window.RADAR_PARTS||{};\nwindow.RADAR_PARTS.changelog=\n[
+window.RADAR_PARTS=window.RADAR_PARTS||{};
+window.RADAR_PARTS.changelog=[
+
   {
     "date": "2026-11-06",
     "type": "atualizacao-editorial",
@@ -2291,4 +2293,4 @@ window.RADAR_PARTS=window.RADAR_PARTS||{};\nwindow.RADAR_PARTS.changelog=\n[
     "title": "Menu mobile corrigido",
     "detail": "O menu fecha automaticamente após a navegação em telas pequenas."
   }
-];\n
+ ];
