@@ -1,12 +1,237 @@
 {
-  "checkedAt": "2026-11-08T13:11:10.766Z",
+  "checkedAt": "2026-11-08T17:01:54.232Z",
   "policy": "404/410 and ArcGIS application errors within HTTP 200 become broken only after appearing as suspect or broken in the previous audit; blocked and network results are inconclusive",
   "counts": {
-    "ok": 606,
-    "blocked": 55,
-    "network": 29
+    "ok": 648,
+    "blocked": 61,
+    "network": 28
   },
   "results": [
+    {
+      "type": "opportunity",
+      "id": "auto-3eaf309bafe21ae1",
+      "field": "rules",
+      "url": "https://gfmd.info/fundings/german-northern-european-journalists-fellowship-2027/",
+      "references": [
+        {
+          "type": "opportunity",
+          "id": "auto-3eaf309bafe21ae1",
+          "field": "rules"
+        },
+        {
+          "type": "opportunity",
+          "id": "auto-3eaf309bafe21ae1",
+          "field": "apply"
+        },
+        {
+          "type": "opportunity",
+          "id": "ijp-german-northern-european-fellowship-2027",
+          "field": "discoveryUrl"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://gfmd.info/fundings/german-northern-european-journalists-fellowship-2027/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "auto-3eaf309bafe21ae1",
+      "field": "discoveryUrl",
+      "url": "https://gfmd.info/fundings/german-northern-european-journalists-fellowship-2027",
+      "references": [
+        {
+          "type": "opportunity",
+          "id": "auto-3eaf309bafe21ae1",
+          "field": "discoveryUrl"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://gfmd.info/fundings/german-northern-european-journalists-fellowship-2027/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "auto-257ac44fe3495eb7",
+      "field": "rules",
+      "url": "https://gfmd.info/fundings/call-for-proposals-media-freedom-rapid-response-mechanism-2027/",
+      "references": [
+        {
+          "type": "opportunity",
+          "id": "auto-257ac44fe3495eb7",
+          "field": "rules"
+        },
+        {
+          "type": "opportunity",
+          "id": "auto-257ac44fe3495eb7",
+          "field": "apply"
+        },
+        {
+          "type": "opportunity",
+          "id": "eu-media-freedom-rapid-response-2027",
+          "field": "discoveryUrl"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://gfmd.info/fundings/call-for-proposals-media-freedom-rapid-response-mechanism-2027/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "auto-257ac44fe3495eb7",
+      "field": "discoveryUrl",
+      "url": "https://gfmd.info/fundings/call-for-proposals-media-freedom-rapid-response-mechanism-2027",
+      "references": [
+        {
+          "type": "opportunity",
+          "id": "auto-257ac44fe3495eb7",
+          "field": "discoveryUrl"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://gfmd.info/fundings/call-for-proposals-media-freedom-rapid-response-mechanism-2027/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "auto-e7c2d412b50c66e7",
+      "field": "rules",
+      "url": "https://opportunitydesk.org/2026/11/07/mcw-global-young-leaders-fellowship-2027-funded/",
+      "references": [
+        {
+          "type": "opportunity",
+          "id": "auto-e7c2d412b50c66e7",
+          "field": "rules"
+        },
+        {
+          "type": "opportunity",
+          "id": "auto-e7c2d412b50c66e7",
+          "field": "apply"
+        }
+      ],
+      "status": 403,
+      "finalUrl": "https://opportunitydesk.org/2026/11/07/mcw-global-young-leaders-fellowship-2027-funded/",
+      "class": "blocked",
+      "attempts": [
+        403
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "auto-e7c2d412b50c66e7",
+      "field": "discoveryUrl",
+      "url": "https://opportunitydesk.org/2026/11/07/mcw-global-young-leaders-fellowship-2027-funded",
+      "references": [
+        {
+          "type": "opportunity",
+          "id": "auto-e7c2d412b50c66e7",
+          "field": "discoveryUrl"
+        }
+      ],
+      "status": 403,
+      "finalUrl": "https://opportunitydesk.org/2026/11/07/mcw-global-young-leaders-fellowship-2027-funded",
+      "class": "blocked",
+      "attempts": [
+        403
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "auto-3682a5695a409fa5",
+      "field": "rules",
+      "url": "https://opportunitydesk.org/2026/11/04/csr-internship-program-2027/",
+      "references": [
+        {
+          "type": "opportunity",
+          "id": "auto-3682a5695a409fa5",
+          "field": "rules"
+        },
+        {
+          "type": "opportunity",
+          "id": "auto-3682a5695a409fa5",
+          "field": "apply"
+        }
+      ],
+      "status": 403,
+      "finalUrl": "https://opportunitydesk.org/2026/11/04/csr-internship-program-2027/",
+      "class": "blocked",
+      "attempts": [
+        403
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "auto-3682a5695a409fa5",
+      "field": "discoveryUrl",
+      "url": "https://opportunitydesk.org/2026/11/04/csr-internship-program-2027",
+      "references": [
+        {
+          "type": "opportunity",
+          "id": "auto-3682a5695a409fa5",
+          "field": "discoveryUrl"
+        }
+      ],
+      "status": 403,
+      "finalUrl": "https://opportunitydesk.org/2026/11/04/csr-internship-program-2027",
+      "class": "blocked",
+      "attempts": [
+        403
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "auto-777e69b31da619d9",
+      "field": "rules",
+      "url": "https://opportunitydesk.org/2026/11/02/new-developments-in-ai-for-social-economic-and-policy-research-conference-2027/",
+      "references": [
+        {
+          "type": "opportunity",
+          "id": "auto-777e69b31da619d9",
+          "field": "rules"
+        },
+        {
+          "type": "opportunity",
+          "id": "auto-777e69b31da619d9",
+          "field": "apply"
+        }
+      ],
+      "status": 403,
+      "finalUrl": "https://opportunitydesk.org/2026/11/02/new-developments-in-ai-for-social-economic-and-policy-research-conference-2027/",
+      "class": "blocked",
+      "attempts": [
+        403
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "auto-777e69b31da619d9",
+      "field": "discoveryUrl",
+      "url": "https://opportunitydesk.org/2026/11/02/new-developments-in-ai-for-social-economic-and-policy-research-conference-2027",
+      "references": [
+        {
+          "type": "opportunity",
+          "id": "auto-777e69b31da619d9",
+          "field": "discoveryUrl"
+        }
+      ],
+      "status": 403,
+      "finalUrl": "https://opportunitydesk.org/2026/11/02/new-developments-in-ai-for-social-economic-and-policy-research-conference-2027",
+      "class": "blocked",
+      "attempts": [
+        403
+      ]
+    },
     {
       "type": "opportunity",
       "id": "ijp-german-northern-european-fellowship-2027",
@@ -26,25 +251,6 @@
       ],
       "status": 200,
       "finalUrl": "https://ijp.org/austauschprogramme/nordeuropa/",
-      "class": "ok",
-      "attempts": [
-        200
-      ]
-    },
-    {
-      "type": "opportunity",
-      "id": "ijp-german-northern-european-fellowship-2027",
-      "field": "discoveryUrl",
-      "url": "https://gfmd.info/fundings/german-northern-european-journalists-fellowship-2027/",
-      "references": [
-        {
-          "type": "opportunity",
-          "id": "ijp-german-northern-european-fellowship-2027",
-          "field": "discoveryUrl"
-        }
-      ],
-      "status": 200,
-      "finalUrl": "https://gfmd.info/fundings/german-northern-european-journalists-fellowship-2027/",
       "class": "ok",
       "attempts": [
         200
@@ -373,25 +579,6 @@
     },
     {
       "type": "opportunity",
-      "id": "eu-media-freedom-rapid-response-2027",
-      "field": "discoveryUrl",
-      "url": "https://gfmd.info/fundings/call-for-proposals-media-freedom-rapid-response-mechanism-2027/",
-      "references": [
-        {
-          "type": "opportunity",
-          "id": "eu-media-freedom-rapid-response-2027",
-          "field": "discoveryUrl"
-        }
-      ],
-      "status": 200,
-      "finalUrl": "https://gfmd.info/fundings/call-for-proposals-media-freedom-rapid-response-mechanism-2027/",
-      "class": "ok",
-      "attempts": [
-        200
-      ]
-    },
-    {
-      "type": "opportunity",
       "id": "cfr-edward-r-murrow-press-fellowship-2027-28",
       "field": "rules",
       "url": "https://www.cfr.org/fellowships/edward-r-murrow-press-fellowship",
@@ -483,11 +670,11 @@
           "field": "discoveryUrl"
         }
       ],
-      "status": 403,
-      "finalUrl": "https://opportunitydesk.org/2026/10/29/mozilla-foundation-fellowships-2027-2028",
-      "class": "blocked",
+      "status": 200,
+      "finalUrl": "https://opportunitydesk.org/2026/10/29/mozilla-foundation-fellowships-2027-2028/",
+      "class": "ok",
       "attempts": [
-        403
+        200
       ]
     },
     {
@@ -1517,6 +1704,7 @@
       "finalUrl": "https://www.al.mt.gov.br/",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -3773,6 +3961,393 @@
     },
     {
       "type": "dataset",
+      "id": "auto-f761505b3e7c7e29",
+      "field": "url",
+      "url": "https://simonwillison.net/2025/Nov/4/datasette-10a20/",
+      "references": [
+        {
+          "type": "dataset",
+          "id": "auto-f761505b3e7c7e29",
+          "field": "url"
+        },
+        {
+          "type": "dataset",
+          "id": "auto-f761505b3e7c7e29",
+          "field": "docs"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://simonwillison.net/2025/Nov/4/datasette-10a20/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "auto-f761505b3e7c7e29",
+      "field": "discoveryUrl",
+      "url": "https://simonwillison.net/2025/Nov/4/datasette-10a20",
+      "references": [
+        {
+          "type": "dataset",
+          "id": "auto-f761505b3e7c7e29",
+          "field": "discoveryUrl"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://simonwillison.net/2025/Nov/4/datasette-10a20/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "auto-e93571452493b9a6",
+      "field": "url",
+      "url": "https://forum.ecmwf.int/t/feedback-gathering-survey-on-the-c3s-global-land-surface-comprehensive-in-situ-observations-dataset/15457",
+      "references": [
+        {
+          "type": "dataset",
+          "id": "auto-e93571452493b9a6",
+          "field": "url"
+        },
+        {
+          "type": "dataset",
+          "id": "auto-e93571452493b9a6",
+          "field": "docs"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://forum.ecmwf.int/t/feedback-gathering-survey-on-the-c3s-global-land-surface-comprehensive-in-situ-observations-dataset/15457",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "auto-e93571452493b9a6",
+      "field": "discoveryUrl",
+      "url": "https://forum.ecmwf.int/t/feedback-gathering-survey-on-the-c3s-global-land-surface-comprehensive-in-situ-observations-dataset",
+      "references": [
+        {
+          "type": "dataset",
+          "id": "auto-e93571452493b9a6",
+          "field": "discoveryUrl"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://forum.ecmwf.int/t/feedback-gathering-survey-on-the-c3s-global-land-surface-comprehensive-in-situ-observations-dataset/15457",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "auto-ab9330d7374480f9",
+      "field": "url",
+      "url": "https://forum.ecmwf.int/t/new-dataset-published-in-cds-groundwater-storage-change-data-from-2002-to-present-derived-from-satellite-gravimetry-observations/15458",
+      "references": [
+        {
+          "type": "dataset",
+          "id": "auto-ab9330d7374480f9",
+          "field": "url"
+        },
+        {
+          "type": "dataset",
+          "id": "auto-ab9330d7374480f9",
+          "field": "docs"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://forum.ecmwf.int/t/new-dataset-published-in-cds-groundwater-storage-change-data-from-2002-to-present-derived-from-satellite-gravimetry-observations/15458",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "auto-ab9330d7374480f9",
+      "field": "discoveryUrl",
+      "url": "https://forum.ecmwf.int/t/new-dataset-published-in-cds-groundwater-storage-change-data-from-2002-to-present-derived-from-satellite-gravimetry-observations",
+      "references": [
+        {
+          "type": "dataset",
+          "id": "auto-ab9330d7374480f9",
+          "field": "discoveryUrl"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://forum.ecmwf.int/t/new-dataset-published-in-cds-groundwater-storage-change-data-from-2002-to-present-derived-from-satellite-gravimetry-observations/15458",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "auto-a4be04b7843e7db5",
+      "field": "url",
+      "url": "https://www.opensanctions.org/datasets/kyb/",
+      "references": [
+        {
+          "type": "dataset",
+          "id": "auto-a4be04b7843e7db5",
+          "field": "url"
+        },
+        {
+          "type": "dataset",
+          "id": "auto-a4be04b7843e7db5",
+          "field": "docs"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://www.opensanctions.org/datasets/kyb/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "auto-a4be04b7843e7db5",
+      "field": "discoveryUrl",
+      "url": "https://www.opensanctions.org/datasets/kyb",
+      "references": [
+        {
+          "type": "dataset",
+          "id": "auto-a4be04b7843e7db5",
+          "field": "discoveryUrl"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://www.opensanctions.org/datasets/kyb/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "auto-ed6238ccffd55b57",
+      "field": "url",
+      "url": "https://www.opensanctions.org/datasets/peps/",
+      "references": [
+        {
+          "type": "dataset",
+          "id": "auto-ed6238ccffd55b57",
+          "field": "url"
+        },
+        {
+          "type": "dataset",
+          "id": "auto-ed6238ccffd55b57",
+          "field": "docs"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://www.opensanctions.org/datasets/peps/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "auto-ed6238ccffd55b57",
+      "field": "discoveryUrl",
+      "url": "https://www.opensanctions.org/datasets/peps",
+      "references": [
+        {
+          "type": "dataset",
+          "id": "auto-ed6238ccffd55b57",
+          "field": "discoveryUrl"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://www.opensanctions.org/datasets/peps/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "auto-dcfda2c527da79b1",
+      "field": "url",
+      "url": "https://www.opensanctions.org/datasets/sources/",
+      "references": [
+        {
+          "type": "dataset",
+          "id": "auto-dcfda2c527da79b1",
+          "field": "url"
+        },
+        {
+          "type": "dataset",
+          "id": "auto-dcfda2c527da79b1",
+          "field": "docs"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://www.opensanctions.org/datasets/sources/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "auto-dcfda2c527da79b1",
+      "field": "discoveryUrl",
+      "url": "https://www.opensanctions.org/datasets/sources",
+      "references": [
+        {
+          "type": "dataset",
+          "id": "auto-dcfda2c527da79b1",
+          "field": "discoveryUrl"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://www.opensanctions.org/datasets/sources/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "auto-eb7b114d6b483eba",
+      "field": "url",
+      "url": "https://www.techpolicy.press/what-training-dataset-transparency-mandates-hide/",
+      "references": [
+        {
+          "type": "dataset",
+          "id": "auto-eb7b114d6b483eba",
+          "field": "url"
+        },
+        {
+          "type": "dataset",
+          "id": "auto-eb7b114d6b483eba",
+          "field": "docs"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://www.techpolicy.press/what-training-dataset-transparency-mandates-hide/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "auto-eb7b114d6b483eba",
+      "field": "discoveryUrl",
+      "url": "https://www.techpolicy.press/what-training-dataset-transparency-mandates-hide",
+      "references": [
+        {
+          "type": "dataset",
+          "id": "auto-eb7b114d6b483eba",
+          "field": "discoveryUrl"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://www.techpolicy.press/what-training-dataset-transparency-mandates-hide/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "auto-fe322b425cfaad5c",
+      "field": "url",
+      "url": "https://forum.ecmwf.int/t/e-obs-daily-gridded-data-new-dataset-implementation-to-support-open-data/15543",
+      "references": [
+        {
+          "type": "dataset",
+          "id": "auto-fe322b425cfaad5c",
+          "field": "url"
+        },
+        {
+          "type": "dataset",
+          "id": "auto-fe322b425cfaad5c",
+          "field": "docs"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://forum.ecmwf.int/t/e-obs-daily-gridded-data-new-dataset-implementation-to-support-open-data/15543",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "auto-fe322b425cfaad5c",
+      "field": "discoveryUrl",
+      "url": "https://forum.ecmwf.int/t/e-obs-daily-gridded-data-new-dataset-implementation-to-support-open-data",
+      "references": [
+        {
+          "type": "dataset",
+          "id": "auto-fe322b425cfaad5c",
+          "field": "discoveryUrl"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://forum.ecmwf.int/t/e-obs-daily-gridded-data-new-dataset-implementation-to-support-open-data/15543",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "auto-0cd5ca8d2258ddeb",
+      "field": "url",
+      "url": "https://www.opensanctions.org/articles/2026-11-05-open-data-model/",
+      "references": [
+        {
+          "type": "dataset",
+          "id": "auto-0cd5ca8d2258ddeb",
+          "field": "url"
+        },
+        {
+          "type": "dataset",
+          "id": "auto-0cd5ca8d2258ddeb",
+          "field": "docs"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://www.opensanctions.org/articles/2026-11-05-open-data-model/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "auto-0cd5ca8d2258ddeb",
+      "field": "discoveryUrl",
+      "url": "https://www.opensanctions.org/articles/2026-11-05-open-data-model",
+      "references": [
+        {
+          "type": "dataset",
+          "id": "auto-0cd5ca8d2258ddeb",
+          "field": "discoveryUrl"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://www.opensanctions.org/articles/2026-11-05-open-data-model/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
       "id": "auto-8729547975882e61",
       "field": "url",
       "url": "https://datacatalog.worldbank.org/search/dataset/0048099/ethiopia-high-frequency-phone-survey-2020-2024",
@@ -4484,7 +5059,6 @@
       "finalUrl": "https://github.com/rfordatascience/tidytuesday",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -4504,7 +5078,6 @@
       "finalUrl": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2026",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -4573,13 +5146,11 @@
           "field": "discoveryUrl"
         }
       ],
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "AbortError:This operation was aborted",
+      "status": 200,
+      "finalUrl": "https://github.com/kjhealy/nycdogs",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "AbortError:This operation was aborted"
+        200
       ]
     },
     {
@@ -6326,7 +6897,6 @@
       "finalUrl": "https://api-publica.transferegov.gestao.gov.br/",
       "class": "ok",
       "attempts": [
-        "TypeError:fetch failed",
         200
       ]
     },
@@ -6652,11 +7222,12 @@
           "field": "url"
         }
       ],
-      "status": 200,
+      "status": 429,
       "finalUrl": "https://www.gov.br/anatel/pt-br/dados/dados-abertos",
-      "class": "ok",
+      "class": "blocked",
       "attempts": [
-        200
+        "TypeError:fetch failed",
+        429
       ]
     },
     {
@@ -7311,6 +7882,7 @@
       "finalUrl": "https://map.geo.sei.ba.gov.br/arcgis/rest/services/servicos_sei/DPA_A_100K_VIGENTE_GCS_SIR_SEI/FeatureServer/0?f=json",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -7331,7 +7903,7 @@
       "class": "network",
       "error": "TypeError:fetch failed",
       "attempts": [
-        "TypeError:fetch failed",
+        "AbortError:This operation was aborted",
         "TypeError:fetch failed"
       ]
     },
@@ -7351,6 +7923,7 @@
       "finalUrl": "https://www.transparencia.ba.gov.br/Portal",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -7455,7 +8028,6 @@
       "finalUrl": "https://dados.ons.org.br/dataset/restricao_coff_fotovoltaica",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -7475,7 +8047,6 @@
       "finalUrl": "https://dados.ons.org.br/dataset/restricao_coff_fotovoltaica_detail",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -8853,7 +9424,6 @@
       "finalUrl": "https://dadosabertos.aneel.gov.br/dataset/base-de-dados-geografica-da-distribuidora-bdgd",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -8911,7 +9481,6 @@
       "finalUrl": "https://terrabrasilis.dpi.inpe.br/",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -11961,6 +12530,510 @@
     },
     {
       "type": "tool",
+      "id": "auto-03994a06bcaa39ad",
+      "field": "url",
+      "url": "https://www.spatialintelligence.ai/",
+      "references": [
+        {
+          "type": "tool",
+          "id": "auto-03994a06bcaa39ad",
+          "field": "url"
+        },
+        {
+          "type": "tool",
+          "id": "auto-03994a06bcaa39ad",
+          "field": "discoveryUrl"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://www.spatialintelligence.ai/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "auto-0cf655279807dfaa",
+      "field": "url",
+      "url": "https://wearedatafolks.com/",
+      "references": [
+        {
+          "type": "tool",
+          "id": "auto-0cf655279807dfaa",
+          "field": "url"
+        },
+        {
+          "type": "tool",
+          "id": "auto-0cf655279807dfaa",
+          "field": "discoveryUrl"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://wearedatafolks.com/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "auto-0d30fb1d35d16b10",
+      "field": "url",
+      "url": "https://www.theguardian.com/interactive",
+      "references": [
+        {
+          "type": "tool",
+          "id": "auto-0d30fb1d35d16b10",
+          "field": "url"
+        },
+        {
+          "type": "tool",
+          "id": "auto-0d30fb1d35d16b10",
+          "field": "discoveryUrl"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://www.theguardian.com/interactive",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "auto-0f6d61b27d94fbd1",
+      "field": "url",
+      "url": "https://www.spatialedge.co/",
+      "references": [
+        {
+          "type": "tool",
+          "id": "auto-0f6d61b27d94fbd1",
+          "field": "url"
+        },
+        {
+          "type": "tool",
+          "id": "auto-0f6d61b27d94fbd1",
+          "field": "discoveryUrl"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://www.spatialedge.co/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "auto-1995b49a17729e24",
+      "field": "url",
+      "url": "https://kimalbrecht.com/",
+      "references": [
+        {
+          "type": "tool",
+          "id": "auto-1995b49a17729e24",
+          "field": "url"
+        },
+        {
+          "type": "tool",
+          "id": "auto-1995b49a17729e24",
+          "field": "discoveryUrl"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://kimalbrecht.com/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "auto-1a333dc7b2c597c3",
+      "field": "url",
+      "url": "https://giorgialupi.com/",
+      "references": [
+        {
+          "type": "tool",
+          "id": "auto-1a333dc7b2c597c3",
+          "field": "url"
+        },
+        {
+          "type": "tool",
+          "id": "auto-1a333dc7b2c597c3",
+          "field": "discoveryUrl"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://giorgialupi.com/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "auto-1ad346fb03303d24",
+      "field": "url",
+      "url": "https://color.adobe.com/create/color-wheel",
+      "references": [
+        {
+          "type": "tool",
+          "id": "auto-1ad346fb03303d24",
+          "field": "url"
+        },
+        {
+          "type": "tool",
+          "id": "auto-1ad346fb03303d24",
+          "field": "discoveryUrl"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://color.adobe.com/create/color-wheel",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "auto-1fa6f485af6f2f2e",
+      "field": "url",
+      "url": "https://scikit-learn.org/",
+      "references": [
+        {
+          "type": "tool",
+          "id": "auto-1fa6f485af6f2f2e",
+          "field": "url"
+        },
+        {
+          "type": "tool",
+          "id": "auto-1fa6f485af6f2f2e",
+          "field": "discoveryUrl"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://scikit-learn.org/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "auto-200093c156771796",
+      "field": "url",
+      "url": "https://derivative.ca/",
+      "references": [
+        {
+          "type": "tool",
+          "id": "auto-200093c156771796",
+          "field": "url"
+        },
+        {
+          "type": "tool",
+          "id": "auto-200093c156771796",
+          "field": "discoveryUrl"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://derivative.ca/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "auto-2a2be78ed2cd1db6",
+      "field": "url",
+      "url": "https://www.shirleywu.studio/",
+      "references": [
+        {
+          "type": "tool",
+          "id": "auto-2a2be78ed2cd1db6",
+          "field": "url"
+        },
+        {
+          "type": "tool",
+          "id": "auto-2a2be78ed2cd1db6",
+          "field": "discoveryUrl"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://www.shirleywu.studio/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "auto-2c0aa65aea8c63e3",
+      "field": "url",
+      "url": "https://weeklyosm.eu/",
+      "references": [
+        {
+          "type": "tool",
+          "id": "auto-2c0aa65aea8c63e3",
+          "field": "url"
+        },
+        {
+          "type": "tool",
+          "id": "auto-2c0aa65aea8c63e3",
+          "field": "discoveryUrl"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://weeklyosm.eu/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "auto-305390937a26a7aa",
+      "field": "url",
+      "url": "https://apostrophe.one/",
+      "references": [
+        {
+          "type": "tool",
+          "id": "auto-305390937a26a7aa",
+          "field": "url"
+        },
+        {
+          "type": "tool",
+          "id": "auto-305390937a26a7aa",
+          "field": "discoveryUrl"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://apostrophe.one/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "auto-30b1f7757473231b",
+      "field": "url",
+      "url": "https://datavisualizationwithsvelte.com/",
+      "references": [
+        {
+          "type": "tool",
+          "id": "auto-30b1f7757473231b",
+          "field": "url"
+        },
+        {
+          "type": "tool",
+          "id": "auto-30b1f7757473231b",
+          "field": "discoveryUrl"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://datavisualizationwithsvelte.com/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "auto-3a7a9ff67322a526",
+      "field": "url",
+      "url": "https://learn.microsoft.com/en-us/fabric/onelake/onelake-overview",
+      "references": [
+        {
+          "type": "tool",
+          "id": "auto-3a7a9ff67322a526",
+          "field": "url"
+        },
+        {
+          "type": "tool",
+          "id": "auto-3a7a9ff67322a526",
+          "field": "discoveryUrl"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://learn.microsoft.com/en-us/fabric/onelake/onelake-overview",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "auto-3af9e64861761c53",
+      "field": "url",
+      "url": "https://www.kaggle.com/",
+      "references": [
+        {
+          "type": "tool",
+          "id": "auto-3af9e64861761c53",
+          "field": "url"
+        },
+        {
+          "type": "tool",
+          "id": "auto-3af9e64861761c53",
+          "field": "discoveryUrl"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://www.kaggle.com/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "auto-3b9174f1dffecf92",
+      "field": "url",
+      "url": "https://www.datawrapper.de/blog/colorguide",
+      "references": [
+        {
+          "type": "tool",
+          "id": "auto-3b9174f1dffecf92",
+          "field": "url"
+        },
+        {
+          "type": "tool",
+          "id": "auto-3b9174f1dffecf92",
+          "field": "discoveryUrl"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://www.datawrapper.de/blog/colorguide",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "auto-42bbe600160e80a2",
+      "field": "url",
+      "url": "https://www.dear-data.com/theproject",
+      "references": [
+        {
+          "type": "tool",
+          "id": "auto-42bbe600160e80a2",
+          "field": "url"
+        },
+        {
+          "type": "tool",
+          "id": "auto-42bbe600160e80a2",
+          "field": "discoveryUrl"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://www.dear-data.com/theproject",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "auto-463cf06dc127048b",
+      "field": "url",
+      "url": "https://www.maproomblog.com/",
+      "references": [
+        {
+          "type": "tool",
+          "id": "auto-463cf06dc127048b",
+          "field": "url"
+        },
+        {
+          "type": "tool",
+          "id": "auto-463cf06dc127048b",
+          "field": "discoveryUrl"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://www.maproomblog.com/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "auto-4d24029225385fa1",
+      "field": "url",
+      "url": "https://fabricconf.com/",
+      "references": [
+        {
+          "type": "tool",
+          "id": "auto-4d24029225385fa1",
+          "field": "url"
+        },
+        {
+          "type": "tool",
+          "id": "auto-4d24029225385fa1",
+          "field": "discoveryUrl"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://fabricconf.com/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "auto-4f8fb014256b7dbd",
+      "field": "url",
+      "url": "https://community.storytellingwithdata.com/",
+      "references": [
+        {
+          "type": "tool",
+          "id": "auto-4f8fb014256b7dbd",
+          "field": "url"
+        },
+        {
+          "type": "tool",
+          "id": "auto-4f8fb014256b7dbd",
+          "field": "discoveryUrl"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://community.storytellingwithdata.com/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "auto-53f6a5ac478d71b1",
+      "field": "url",
+      "url": "https://www.datylon.com/",
+      "references": [
+        {
+          "type": "tool",
+          "id": "auto-53f6a5ac478d71b1",
+          "field": "url"
+        },
+        {
+          "type": "tool",
+          "id": "auto-53f6a5ac478d71b1",
+          "field": "discoveryUrl"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://www.datylon.com/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
       "id": "samgeo-geospatial-image-segmentation",
       "field": "url",
       "url": "https://samgeo.gishub.org/",
@@ -13320,6 +14393,7 @@
       "finalUrl": "https://indicator.media/p/osint-navigator-is-now-publicly-available",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -13454,6 +14528,7 @@
       "finalUrl": "https://indicator.media/p/briefing-uk-s-new-anti-disinfo-unit",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
