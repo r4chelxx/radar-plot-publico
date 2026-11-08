@@ -54,6 +54,7 @@ on:
     paths:
       - 'scripts/discover-public-funding-pages.js'
       - 'scripts/discover-opportunity-web.js'
+      - 'scripts/import-public-editorial-queue.js'
       - '.github/workflows/unified-web-intake.yml'
   schedule:
     # Staggered redundant daily attempts; persistence is deduplicated on radar-state.
