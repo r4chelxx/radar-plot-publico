@@ -7,7 +7,7 @@ const review=JSON.parse(fs.readFileSync(process.argv[3]||'intake/editorial-revie
 const evidence=JSON.parse(fs.readFileSync('intake/lead-evidence.json','utf8'));
 const byId=new Map((review.candidates||[]).map(x=>[x.id,x]));
 const byEvidence=new Map((evidence.results||[]).flatMap(x=>{try{return [[identity(x.url).id,x]]}catch{return []}}));
-const limit=Math.min(30,Math.max(1,Number(process.env.EDITORIAL_BATCH_LIMIT||15)));
+const limit=Math.min(100,Math.max(1,Number(process.env.EDITORIAL_BATCH_LIMIT||60)));
 const leads=Object.entries(state.leads||{}).filter(([,x])=>x.classification==='needs-editorial-review'&&!['published','rejected','duplicate','archived'].includes(x.editorialStatus));
 leads.sort((a,b)=>String(a[1].lastEditorialQueuedAt||'').localeCompare(String(b[1].lastEditorialQueuedAt||''))||
  Number(Boolean(b[1].lastInspectedAt))-Number(Boolean(a[1].lastInspectedAt))||
