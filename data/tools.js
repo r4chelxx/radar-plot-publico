@@ -1,6 +1,14 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.tools=[
 {
+  "id": "auto-6dfe0fe7061c7f49",
+  "name": "Wikimedia Hackathon 2023/Program - MediaWiki",
+  "kind": "ferramenta",
+  "url": "https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Hackathon_2023/Program",
+  "desc": "Wikimedia Hackathon 2023/Program - MediaWiki Jump to content Main menu Main menu move to sidebar hide Navigation Main page Get MediaWiki Get extensions Tech blog Contribute Support User help FAQ Technical manual Support desk Communication Development Developer portal Code statistics mediawiki.org Community portal Recent changes Translate content Special pages Random page Village pump Sandbox In other languages Add links Search Search English Appearance Donate Create account Log in Personal tools Donate Create account Log in Contents move to sidebar hide Beginning 1 Schedule Toggle Schedule subsection 1.1 Thursday, May 18th 1.2 Friday, May 19th: Hackathon starts 1.3 Saturday, May 20th: Hacking all day! 1.4 Sunday, May 21st: Hacking and Hackathon closing 2 Social & side activities Toggle Social & side activities subsection 2.1 Thursday, May 18th (social events) 2.2 Friday, May 19th (social events) 2.3 Saturday, May 20th (social events) 2.4 Sunday, May 21st (social events) 3 Propose sessions & workshops Toggle the table of contents Wikimedia Hackathon 2023/Program Page Discussion English Read Edit View history Save Tools Tools move to sidebar hide Actions Read Edit View history Save G Revisar licença, limites, privacidade e acessibilidade antes do uso editorial.",
+  "discoveryUrl": "https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Hackathon_2023/Program"
+}, 
+{
   "id": "auto-03c1085e8207c089",
   "name": "Moderator Tools/Automoderator/Multilingual testing - MediaWiki",
   "kind": "ferramenta",
