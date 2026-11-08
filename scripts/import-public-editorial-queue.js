@@ -16,17 +16,17 @@ for(const item of queue.candidates){
  if(!item.url||!item.title){totals.excluded++;continue}
  let id,url;try{({id,url}=identity(item.url))}catch{totals.excluded++;continue}
  if(!url.startsWith('https://')){totals.excluded++;continue}
+ const providers=(item.providers||[]).filter(x=>typeof x==='string').slice(0,10);
+ const source=providers.join(' / ').slice(0,200)||'Public web discovery';
+ const title=String(item.title).replace(/[\\r\\n]+/g,' ').trim().slice(0,220);
+ if(title.length<3){totals.excluded++;continue}
+ const categoryText=title+' '+source+' '+url;
+ const category=/grant|fellowship|scholarship|funding|bolsa|edital|prize|award|call for|opportunit(?:y|ies)|journalis(?:m|t)|residen(?:cy|cies)|stipend|grants for journalists|opportunity desk|gfmd|pulitzer|newsfuel/i.test(categoryText)?'opportunities':/dataset|database|dados abertos|open data|data portal/i.test(categoryText)?'datasets':/tool|software|platform|visualization|visualisation|chart|map/i.test(categoryText)?'tools':'uncategorized';
  if(seen.has(id)){
   const existing=triage.leads.find(x=>{try{return identity(x.url).id===id}catch{return false}});
   if(existing&&existing.category==='uncategorized'&&category!=='uncategorized'&&!['published','duplicate','rejected','archived'].includes(existing.editorialStatus)){existing.category=category;existing.discoveryOrigin=existing.discoveryOrigin||'public-editorial-queue';totals.reclassified++;}
   totals.alreadyInTriage++;continue
  }
- const providers=(item.providers||[]).filter(x=>typeof x==='string').slice(0,10);
- const source=providers.join(' / ').slice(0,200)||'Public web discovery';
- const title=String(item.title).replace(/[\r\n]+/g,' ').trim().slice(0,220);
- if(title.length<3){totals.excluded++;continue}
- const categoryText=title+' '+source+' '+url;
- const category=/grant|fellowship|scholarship|funding|bolsa|edital|prize|award|call for|opportunit(?:y|ies)|journalis(?:m|t)|residen(?:cy|cies)|stipend|grants for journalists|opportunity desk|gfmd|pulitzer|newsfuel/i.test(categoryText)?'opportunities':/dataset|database|dados abertos|open data|data portal/i.test(categoryText)?'datasets':/tool|software|platform|visualization|visualisation|chart|map/i.test(categoryText)?'tools':'uncategorized';
  triage.leads.push({source,title,url,category,classification:'needs-editorial-review',possibleMatches:[],deadline:null,eligibility:null,editoriallyVerified:false,discoveryOrigin:'public-editorial-queue'});
  seen.add(id);totals.added++;
  for(const provider of providers)totals.byProvider[provider]=(totals.byProvider[provider]||0)+1;
