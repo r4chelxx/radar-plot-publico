@@ -1,579 +1,461 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
-{
-  "date": "2026-11-08",
-  "type": "ferramentas",
-  "title": "Publicação editorial verificada — 2026-11-08",
-  "items": [
-    {
-      "id": "auto-ef6cc1882133a881",
-      "title": "Toolkits | International Journalists&#039; Network"
-    }
-  ],
-  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Toolkits | International Journalists&#039; Network."
-}, 
-{
-  "date": "2026-11-08",
-  "type": "dados",
-  "title": "Publicação editorial verificada — 2026-11-08",
-  "items": [
-                  ],
-  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Open redirect endpoint in Datasette prior to 0.65.2 and 1.0a21; datasette/CODE_OF_CONDUCT.md at main · simonw/datasette; Dataset metadata; Datasette Office Hours - Simon Willison."
-}, 
-{
-  "date": "2026-11-08",
-  "type": "ferramentas",
-  "title": "Publicação editorial verificada — 2026-11-08",
-  "items": [
-      ],
-  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Wikimedia Hackathon 2023/Program - MediaWiki."
-}, 
-{
-  "date": "2026-11-08",
-  "type": "ferramentas",
-  "title": "Publicação editorial verificada — 2026-11-08",
-  "items": [
-                                                              ],
-  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Moderator Tools/Automoderator/Multilingual testing - MediaWiki; Moderator Tools - MediaWiki; Cite This Page - MediaWiki; Moderator Tools/Automoderator - MediaWiki; Moderator Tools/Automoderator/nl - MediaWiki; Create a new Item - Wikidata; Moderator Tools/Automoderator/Testing - MediaWiki; Ferramentas de moderação/Automoderador - MediaWiki; Outils de modération/AutoModerator - MediaWiki; Moderazione strumenti di moderazione/Automoderator - MediaWiki; Moderator Tools/Kiểm tra tự động - MediaWiki; Moderator Tools/Automoderator - MediaWiki; Moderator Tools - MediaWiki; Perkakas Moderasi/Automoderator - MediaWiki; Moderator Tools/Automoderator/Measurement plan - MediaWiki."
-}, 
-{
-  "date": "2026-11-08",
-  "type": "ferramentas",
-  "title": "Publicação editorial verificada — 2026-11-08",
-  "items": [
-      ],
-  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: mediawiki-services-parsoid/tools/sync-parserTests.js at 39ea4e49783b1f88326d6ebddd14e08bb39cb649 · wikimedia/mediawiki-services-parsoid."
-}, 
-{
-  "date": "2026-11-08",
-  "type": "ferramentas",
-  "title": "Publicação editorial verificada — 2026-11-08",
-  "items": [
-          ],
-  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Toolkits | International Journalists&#039; Network; WHO releases updated Health Inequality Data Repository and Health Equity Assessment Toolkit."
-}, 
-{
-  "date": "2026-11-08",
-  "type": "dados",
-  "title": "Publicação editorial verificada — 2026-11-08",
-  "items": [
-    {
-      "id": "auto-8729547975882e61",
-      "title": "Ethiopia - High Frequency Phone Survey 2020-2024 - World Bank..."
-    },
-        {
-      "id": "auto-94f3d2156f6442d3",
-      "title": "US OFAC Specially Designated Nationals (SDN) List"
-    },
-    {
-      "id": "auto-cc64ce6bf358c3c2",
-      "title": "Sanctioned Securities"
-    },
-    {
-      "id": "auto-c0272f4740f6c9ff",
-      "title": "Maritime-related sanctions"
-    },
-      ],
-  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Ethiopia - High Frequency Phone Survey 2020-2024 - World Bank...; Datasette Office Hours - Simon Willison; US OFAC Specially Designated Nationals (SDN) List; Sanctioned Securities; Maritime-related sanctions; Dataset metadata."
-}, 
-{
-  "date": "2026-11-07",
-  "type": "dados",
-  "title": "Publicação editorial verificada — 2026-11-07",
-  "items": [
-    {
-      "id": "auto-2f111b3df643d1e8",
-      "title": "Consolidated Sanctions"
-    },
-    {
-      "id": "auto-0b9fcaaa0bc8c6aa",
-      "title": "Warrants and Criminal Entities"
-    },
-        {
-      "id": "auto-c1482ab524e0671e",
-      "title": "Tanzania - Demographic and Health Survey and Malaria Indicator..."
-    },
-      ],
-  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Consolidated Sanctions; Warrants and Criminal Entities; Open redirect endpoint in Datasette prior to 0.65.2 and 1.0a21; Tanzania - Demographic and Health Survey and Malaria Indicator...; datasette/CODE_OF_CONDUCT.md at main · simonw/datasette."
-}, 
-{
-  "date": "2026-11-06",
-  "type": "atualizacao-editorial",
-  "title": "Situação das modalidades RJI 2027 confirmada — 2026-11-06",
-  "items": [
-    {
-      "id": "rji27-individual",
-      "title": "RJI — Individual Fellowship 2027"
-    },
-    {
-      "id": "rji27-emerging",
-      "title": "RJI — Emerging Technology Fellowship 2027"
-    }
-  ],
-  "detail": "As duas modalidades foram conferidas na página oficial do RJI em 06/11/2026 e atualizadas de preparar para aberta. Prazo oficial: 08/01/2027. Atualização de situação; não representa novas chamadas."
-},
-
-{
-  "date": "2026-11-03",
-  "type": "ferramentas",
-  "title": "Publicação editorial verificada — 2026-11-03",
-  "items": [
-    {
-      "id": "samgeo-geospatial-image-segmentation",
-      "title": "SamGeo — segmentação de imagens geoespaciais com IA"
-    },
-    {
-      "id": "hot-tasking-manager-humanitarian-mapping",
-      "title": "HOT Tasking Manager — mapeamento humanitário colaborativo"
-    }
-  ],
-  "detail": "Duas ferramentas aprovadas individualmente com fontes primárias e revisão editorial: SamGeo — segmentação de imagens geoespaciais com IA; HOT Tasking Manager — mapeamento humanitário colaborativo."
-}, 
-{
-  "date": "2026-11-02",
-  "type": "ferramentas",
-  "title": "Publicação editorial verificada — 2026-11-02",
-  "items": [
-    {
-      "id": "d3js-interactive-data-visualization",
-      "title": "D3.js — visualização de dados interativa"
-    },
-    {
-      "id": "google-data-studio-dashboards",
-      "title": "Google Data Studio — dashboards e relatórios"
-    },
-    {
-      "id": "mapbox-interactive-maps",
-      "title": "Mapbox — mapas interativos e cartografia web"
-    }
-  ],
-  "detail": "Três ferramentas verificadas em documentação primária, com limites de programação, privacidade, licenciamento e cobrança identificados."
-},
-{
-  "date": "2026-11-02",
-  "type": "dados",
-  "title": "Publicação editorial verificada — 2026-11-02",
-  "items": [
-    {
-      "id": "geoboundaries-global-administrative-boundaries",
-      "title": "geoBoundaries — limites administrativos globais"
-    },
-    {
-      "id": "gbif-global-biodiversity-occurrences",
-      "title": "GBIF — ocorrências e registros globais de biodiversidade"
-    },
-    {
-      "id": "wikidata-structured-knowledge-base",
-      "title": "Wikidata — base colaborativa de conhecimento estruturado"
-    }
-  ],
-  "detail": "Três bases globais verificadas nas fontes primárias, com documentação de cobertura, licenças, formatos e limitações de uso."
-}, 
-{
-  "date": "2026-11-02",
-  "type": "nova-oportunidade",
-  "title": "Publicação editorial verificada — 2026-11-02",
-  "items": [
-    {
-      "id": "ijp-german-northern-european-fellowship-2027",
-      "title": "IJP — German–Northern European Journalists' Fellowship 2027"
-    },
-    {
-      "id": "rji-student-innovation-fellowships-2027",
-      "title": "RJI — Student Innovation Fellowships 2027"
-    }
-  ],
-  "detail": "Duas chamadas confirmadas em fontes oficiais: IJP Nordeuropa até 15/11/2026 (restrita à Alemanha e países nórdicos/bálticos) e RJI Student Innovation até 08/11/2026 (bolsa individual restrita à Missouri School of Journalism; redações podem propor projetos)."
-}, 
-{
-  "date": "2026-11-01",
-  "type": "atualizacao-editorial",
-  "title": "Nove recursos verificados — 4 oportunidades, 3 ferramentas e 2 bases",
-  "items": [
-    {
-      "id": "ijp-german-latin-american-fellowship-2027",
-      "title": "IJP — German–Latin American Journalists' Fellowship 2027"
-    },
-    {
-      "id": "european-press-prize-2027",
-      "title": "European Press Prize 2027"
-    },
-    {
-      "id": "publix-tech-journalism-fellowship-2027",
-      "title": "Publix — Technology Journalism Fellowship 2027"
-    },
-    {
-      "id": "premio-amm-jornalismo-2027",
-      "title": "1º Prêmio AMM de Jornalismo"
-    },
-    {
-      "id": "deck-gl-geospatial-visualization",
-      "title": "deck.gl"
-    },
-    {
-      "id": "scikit-learn-python-machine-learning",
-      "title": "scikit-learn"
-    },
-    {
-      "id": "p5js-creative-coding",
-      "title": "p5.js"
-    },
-    {
-      "id": "gem-global-wind-power-tracker",
-      "title": "Global Wind Power Tracker"
-    },
-    {
-      "id": "wid-world-inequality-database",
-      "title": "World Inequality Database"
-    }
-  ],
-  "detail": "Fontes primárias e duplicidades conferidas; três chamadas encerradas e uma data prorrogada corrigidas no catálogo."
-},
-
-{
-  "date": "2026-10-31",
-  "type": "atualizacao-editorial",
-  "title": "Três recursos verificados — ONU, PondPilot e Happy Planet Index 2026",
-  "items": [
-    {
-      "id": "un-dpoa-mtr-journalism-fellowship-2027",
-      "title": "ONU — DPoA MTR Journalism Fellowship 2027"
-    },
-    {
-      "id": "pondpilot-duckdb-browser-sql",
-      "title": "PondPilot — exploração SQL de dados no navegador"
-    },
-    {
-      "id": "happy-planet-index-2026-global",
-      "title": "Happy Planet Index 2026 — bem-estar sustentável por país"
-    }
-  ],
-  "detail": "Fellowship restrita a nacionais de países menos desenvolvidos, ferramenta de SQL local e índice global de bem-estar; ressalvas de prazo, privacidade e licença nas fichas."
-},
-{
-  "date": "2026-10-31",
-  "type": "nova-oportunidade",
-  "title": "Duas chamadas europeias de apoio institucional ao jornalismo — 31/10/2026",
-  "items": [
-    {
-      "id": "eu-journalism-partnerships-pluralism-2027",
-      "title": "União Europeia — Journalism Partnerships: Pluralism 2027"
-    },
-    {
-      "id": "eu-media-freedom-rapid-response-2027",
-      "title": "União Europeia — Media Freedom Rapid Response Mechanism 2027"
-    }
-  ],
-  "detail": "Pluralismo e proteção de jornalistas: editais institucionais da Comissão Europeia com prazos, requisitos de consórcio, limites territoriais e cofinanciamento explicitados. Não são bolsas individuais."
-},
-{
-  "date": "2026-10-31",
-  "type": "nova-oportunidade",
-  "title": "Publicação editorial verificada — 2026-10-31 — opportunities",
-  "items": [
-    {
-      "id": "cfr-edward-r-murrow-press-fellowship-2027-28",
-      "title": "CFR — Edward R. Murrow Press Fellowship 2027–28"
-    },
-    {
-      "id": "mozilla-foundation-fellowships-2027-28",
-      "title": "Mozilla Foundation — Fellowships 2027–28"
-    }
-  ],
-  "detail": "Registros novos com fontes primárias, verificação de duplicidade e limitações editoriais documentadas: CFR — Edward R. Murrow Press Fellowship 2027–28; Mozilla Foundation — Fellowships 2027–28."
-},
-{
-  "date": "2026-10-31",
-  "type": "ferramentas",
-  "title": "Publicação editorial verificada — 2026-10-31 — tools",
-  "items": [
-    {
-      "id": "osomenet-social-diffusion",
-      "title": "OSoMeNet — redes de difusão em mídias sociais"
-    },
-    {
-      "id": "reactable-r-interactive-tables",
-      "title": "reactable — tabelas interativas em R"
-    },
-    {
-      "id": "saucenao-reverse-image-search",
-      "title": "SauceNAO — busca reversa especializada de imagens"
-    }
-  ],
-  "detail": "Registros novos com fontes primárias, verificação de duplicidade e limitações editoriais documentadas: OSoMeNet — redes de difusão em mídias sociais; reactable — tabelas interativas em R; SauceNAO — busca reversa especializada de imagens."
-},
-{
-  "date": "2026-10-31",
-  "type": "dados",
-  "title": "Publicação editorial verificada — 2026-10-31 — datasets",
-  "items": [
-    {
-      "id": "global-forest-watch-open-data-portal",
-      "title": "Global Forest Watch — portal aberto de dados florestais"
-    },
-    {
-      "id": "tidytuesday-weekly-datasets",
-      "title": "TidyTuesday — acervo semanal de bases para análise"
-    },
-    {
-      "id": "propublica-data-store-historical-archive",
-      "title": "ProPublica Data Store — arquivo histórico 2013–2023"
-    },
-    {
-      "id": "nycdogs-licenses-bites-r",
-      "title": "nycdogs — licenças e ocorrências de mordidas em Nova York"
-    }
-  ],
-  "detail": "Registros novos com fontes primárias, verificação de duplicidade e limitações editoriais documentadas: Global Forest Watch — portal aberto de dados florestais; TidyTuesday — acervo semanal de bases para análise; ProPublica Data Store — arquivo histórico 2013–2023; nycdogs — licenças e ocorrências de mordidas em Nova York."
-}, 
-{
-  "date": "2026-10-30",
-  "type": "dados",
-  "title": "Três bases verificadas: energia global e pesquisa acadêmica",
-  "items": [
-    {
-      "id": "gem-global-integrated-power-tracker",
-      "title": "Global Energy Monitor — Global Integrated Power Tracker"
-    },
-    {
-      "id": "gem-global-solar-power-tracker",
-      "title": "Global Energy Monitor — Global Solar Power Tracker"
-    },
-    {
-      "id": "openalex-scholarly-graph",
-      "title": "OpenAlex — catálogo aberto de pesquisa científica"
-    }
-  ],
-  "detail": "Global Integrated Power Tracker, Global Solar Power Tracker e OpenAlex, com fontes primárias, cadência, escopo, licenciamento e limitações documentados."
-},
-{
-  "date": "2026-10-30",
-  "type": "ferramentas",
-  "title": "Chartist e RustGIS — ferramentas encontradas em newsletter",
-  "items": [
-    {
-      "id": "chartist-responsive-svg-charts",
-      "title": "Chartist — gráficos SVG responsivos em JavaScript"
-    },
-    {
-      "id": "rustgis-opengeos",
-      "title": "RustGIS — SIG livre para desktop e navegador"
-    }
-  ],
-  "detail": "Duas ferramentas extraídas de links rastreados na newsletter Quantum of Sollazzo #680 e verificadas em fontes primárias, com limites técnicos e de privacidade documentados."
-},
-{
-  "date": "2026-10-30",
-  "type": "ferramentas",
-  "title": "Vega-Lite e Inkscape — ferramentas de visualização verificadas",
-  "items": [
-    {
-      "id": "vega-lite-visualization-grammar",
-      "title": "Vega-Lite — gramática declarativa de visualização"
-    },
-    {
-      "id": "inkscape-svg-editor",
-      "title": "Inkscape — editor vetorial SVG livre"
-    }
-  ],
-  "detail": "Ferramentas de código aberto verificadas em documentação primária, com limites de uso e exigências de validação jornalística registrados."
-},
-{
-  "date": "2026-10-30",
-  "type": "nova-oportunidade",
-  "title": "Duas bolsas de reportagem IWMF — 30/10/2026",
-  "items": [
-    {
-      "id": "iwmf-fault-lines-reporting-fund",
-      "title": "IWMF — Fault Lines Reporting Fund"
-    },
-    {
-      "id": "iwmf-fund-indigenous-journalists-mmip",
-      "title": "IWMF — Fund for Indigenous Journalists (MMIP/WG2T)"
-    }
-  ],
-  "detail": "Fontes oficiais IWMF verificadas; ambas recebem candidaturas contínuas, têm elegibilidade restrita aos Estados Unidos e não possuem prazo final fixo informado."
-},
-{
-  "date": "2026-10-30",
-  "type": "dados",
-  "title": "Publicação editorial verificada — 2026-10-30",
-  "items": [
-    {
-      "id": "nyc-open-data-portal",
-      "title": "NYC Open Data — portal de dados públicos de Nova York"
-    },
-    {
-      "id": "un-system-data-commons",
-      "title": "UN System Data Commons — portal de dados do sistema ONU"
-    }
-  ],
-  "detail": "Dois portais de dados oficiais verificados, com escopo, atualização variável e limitações de comparabilidade documentados."
-}, 
-{
-  "date": "2026-10-30",
-  "type": "ferramentas",
-  "title": "Publicação editorial verificada — 2026-10-30",
-  "items": [
-    {
-      "id": "google-earth-engine",
-      "title": "Google Earth Engine — análise geoespacial em nuvem"
-    },
-    {
-      "id": "folium-python-leaflet-maps",
-      "title": "Folium — mapas interativos em Python"
-    }
-  ],
-  "detail": "Ferramentas de geoprocessamento verificadas em documentação primária, com limitações de acesso, licenciamento e validação de dados descritas."
-}, 
-{
-  "date": "2026-10-30",
-  "type": "nova-oportunidade",
-  "title": "Publicação editorial verificada — 2026-10-30",
-  "items": [
-    {
-      "id": "massey-gordon-fisher-jhr-2027-28",
-      "title": "Gordon N. Fisher / JHR Journalism Fellowship 2027–28"
-    },
-    {
-      "id": "eu-journalism-partnerships-collaborations-2027",
-      "title": "União Europeia — Journalism Partnerships: Collaborations 2027"
-    }
-  ],
-  "detail": "Duas chamadas verificadas em fontes primárias em 30/10/2026, com prazo, elegibilidade restrita e ausência de duplicidade conferidos."
-}, 
-{
-  "date": "2026-10-29",
-  "type": "ferramentas",
-  "title": "Publicação editorial verificada — 2026-10-29",
-  "items": [
-    {
-      "id": "crawlback-common-crawl",
-      "title": "Crawlback — busca em páginas arquivadas do Common Crawl"
-    }
-  ],
-  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Crawlback — busca em páginas arquivadas do Common Crawl."
-}, 
-{
-  "date": "2026-10-29",
-  "type": "dados",
-  "title": "Publicação editorial verificada — 2026-10-29",
-  "items": [
-    {
-      "id": "okbr-odi-cidades-2023",
-      "title": "OKBR — Índice de Dados Abertos para Cidades 2023"
-    },
-    {
-      "id": "okbr-monitor-inda-2023-2025",
-      "title": "Open Knowledge Brasil — Monitor da INDA 2023–2025"
-    }
-  ],
-  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: OKBR — Índice de Dados Abertos para Cidades 2023; Open Knowledge Brasil — Monitor da INDA 2023–2025."
-},
-{
-  "date": "2026-10-29",
-  "type": "ferramentas",
-  "title": "Publicação editorial verificada — 2026-10-29",
-  "items": [
-    {
-      "id": "okbr-querido-diario-tecnologias-educacao",
-      "title": "Querido Diário — Tecnologias na Educação"
-    }
-  ],
-  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Querido Diário — Tecnologias na Educação."
-}, 
-{
-  "date": "2026-10-28",
-  "type": "ferramentas",
-  "title": "Publicação editorial verificada — 2026-10-28",
-  "items": [
-    {
-      "id": "playwright-browser-automation",
-      "title": "Playwright — automação e testes de navegadores"
-    }
-  ],
-  "detail": "Registro aprovado com fonte oficial e revisão editorial: Playwright — automação e testes de navegadores."
-},
-{
-  "date": "2026-10-28",
-  "type": "nova-oportunidade",
-  "title": "Publicação editorial verificada — 2026-10-28",
-  "items": [
-    {
-      "id": "hiig-impact-ai-fellowship-2027",
-      "title": "HIIG — Impact AI Fellowship 2027"
-    }
-  ],
-  "detail": "Registro aprovado com fonte oficial e revisão editorial: HIIG — Impact AI Fellowship 2027."
-}, 
-{
-  "date": "2026-10-26",
-  "type": "ferramentas",
-  "title": "Publicação editorial verificada — 2026-10-26",
-  "items": [
-    {
-      "id": "tableau-public",
-      "title": "Tableau Public"
-    },
-    {
-      "id": "canva-charts",
-      "title": "Canva — gráficos e visualização"
-    },
-    {
-      "id": "openlayers",
-      "title": "OpenLayers"
-    },
-    {
-      "id": "stac-specification",
-      "title": "STAC — SpatioTemporal Asset Catalog"
-    }
-  ],
-  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Tableau Public; Canva — gráficos e visualização; OpenLayers; STAC — SpatioTemporal Asset Catalog."
-}, 
-{
-  "date": "2026-10-25",
-  "type": "dados",
-  "title": "Publicação editorial verificada — 2026-10-25",
-  "items": [
-    {
-      "id": "global-fishing-watch-apis",
-      "title": "Global Fishing Watch — conjuntos e APIs marítimas"
-    },
-    {
-      "id": "us-census-data-portal",
-      "title": "U.S. Census Bureau — data.census.gov"
-    }
-  ],
-  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Global Fishing Watch — conjuntos e APIs marítimas; U.S. Census Bureau — data.census.gov."
-},
-{
-  "date": "2026-10-25",
-  "type": "ferramentas",
-  "title": "Publicação editorial verificada — 2026-10-25",
-  "items": [
-    {
-      "id": "camelot-pdf-tables",
-      "title": "Camelot — extração de tabelas de PDF"
-    },
-    {
-      "id": "observable-framework",
-      "title": "Observable Framework"
-    },
-    {
-      "id": "postgis",
-      "title": "PostGIS"
-    },
-    {
-      "id": "whitebox-geospatial-tools",
-      "title": "Whitebox — ferramentas geoespaciais"
-    },
-    {
-      "id": "tmap-r",
-      "title": "tmap — mapas temáticos em R"
-    }
-  ],
-  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Camelot — extração de tabelas de PDF; Observable Framework; PostGIS; Whitebox — ferramentas geoespaciais; tmap — mapas temáticos em R."
-}, 
+  {
+    "date": "2026-11-06",
+    "type": "atualizacao-editorial",
+    "title": "Situação das modalidades RJI 2027 confirmada — 2026-11-06",
+    "items": [
+      {
+        "id": "rji27-individual",
+        "title": "RJI — Individual Fellowship 2027"
+      },
+      {
+        "id": "rji27-emerging",
+        "title": "RJI — Emerging Technology Fellowship 2027"
+      }
+    ],
+    "detail": "As duas modalidades foram conferidas na página oficial do RJI em 06/11/2026 e atualizadas de preparar para aberta. Prazo oficial: 08/01/2027. Atualização de situação; não representa novas chamadas."
+  },
+  {
+    "date": "2026-11-03",
+    "type": "ferramentas",
+    "title": "Publicação editorial verificada — 2026-11-03",
+    "items": [
+      {
+        "id": "samgeo-geospatial-image-segmentation",
+        "title": "SamGeo — segmentação de imagens geoespaciais com IA"
+      },
+      {
+        "id": "hot-tasking-manager-humanitarian-mapping",
+        "title": "HOT Tasking Manager — mapeamento humanitário colaborativo"
+      }
+    ],
+    "detail": "Duas ferramentas aprovadas individualmente com fontes primárias e revisão editorial: SamGeo — segmentação de imagens geoespaciais com IA; HOT Tasking Manager — mapeamento humanitário colaborativo."
+  },
+  {
+    "date": "2026-11-02",
+    "type": "ferramentas",
+    "title": "Publicação editorial verificada — 2026-11-02",
+    "items": [
+      {
+        "id": "d3js-interactive-data-visualization",
+        "title": "D3.js — visualização de dados interativa"
+      },
+      {
+        "id": "google-data-studio-dashboards",
+        "title": "Google Data Studio — dashboards e relatórios"
+      },
+      {
+        "id": "mapbox-interactive-maps",
+        "title": "Mapbox — mapas interativos e cartografia web"
+      }
+    ],
+    "detail": "Três ferramentas verificadas em documentação primária, com limites de programação, privacidade, licenciamento e cobrança identificados."
+  },
+  {
+    "date": "2026-11-02",
+    "type": "nova-oportunidade",
+    "title": "Publicação editorial verificada — 2026-11-02",
+    "items": [
+      {
+        "id": "ijp-german-northern-european-fellowship-2027",
+        "title": "IJP — German–Northern European Journalists' Fellowship 2027"
+      },
+      {
+        "id": "rji-student-innovation-fellowships-2027",
+        "title": "RJI — Student Innovation Fellowships 2027"
+      }
+    ],
+    "detail": "Duas chamadas confirmadas em fontes oficiais: IJP Nordeuropa até 15/11/2026 (restrita à Alemanha e países nórdicos/bálticos) e RJI Student Innovation até 08/11/2026 (bolsa individual restrita à Missouri School of Journalism; redações podem propor projetos)."
+  },
+  {
+    "date": "2026-11-01",
+    "type": "atualizacao-editorial",
+    "title": "Nove recursos verificados — 4 oportunidades, 3 ferramentas e 2 bases",
+    "items": [
+      {
+        "id": "ijp-german-latin-american-fellowship-2027",
+        "title": "IJP — German–Latin American Journalists' Fellowship 2027"
+      },
+      {
+        "id": "european-press-prize-2027",
+        "title": "European Press Prize 2027"
+      },
+      {
+        "id": "publix-tech-journalism-fellowship-2027",
+        "title": "Publix — Technology Journalism Fellowship 2027"
+      },
+      {
+        "id": "premio-amm-jornalismo-2027",
+        "title": "1º Prêmio AMM de Jornalismo"
+      },
+      {
+        "id": "deck-gl-geospatial-visualization",
+        "title": "deck.gl"
+      },
+      {
+        "id": "scikit-learn-python-machine-learning",
+        "title": "scikit-learn"
+      },
+      {
+        "id": "p5js-creative-coding",
+        "title": "p5.js"
+      },
+      {
+        "id": "gem-global-wind-power-tracker",
+        "title": "Global Wind Power Tracker"
+      },
+      {
+        "id": "wid-world-inequality-database",
+        "title": "World Inequality Database"
+      }
+    ],
+    "detail": "Fontes primárias e duplicidades conferidas; três chamadas encerradas e uma data prorrogada corrigidas no catálogo."
+  },
+  {
+    "date": "2026-10-31",
+    "type": "atualizacao-editorial",
+    "title": "Três recursos verificados — ONU, PondPilot e Happy Planet Index 2026",
+    "items": [
+      {
+        "id": "un-dpoa-mtr-journalism-fellowship-2027",
+        "title": "ONU — DPoA MTR Journalism Fellowship 2027"
+      },
+      {
+        "id": "pondpilot-duckdb-browser-sql",
+        "title": "PondPilot — exploração SQL de dados no navegador"
+      },
+      {
+        "id": "happy-planet-index-2026-global",
+        "title": "Happy Planet Index 2026 — bem-estar sustentável por país"
+      }
+    ],
+    "detail": "Fellowship restrita a nacionais de países menos desenvolvidos, ferramenta de SQL local e índice global de bem-estar; ressalvas de prazo, privacidade e licença nas fichas."
+  },
+  {
+    "date": "2026-10-31",
+    "type": "nova-oportunidade",
+    "title": "Duas chamadas europeias de apoio institucional ao jornalismo — 31/10/2026",
+    "items": [
+      {
+        "id": "eu-journalism-partnerships-pluralism-2027",
+        "title": "União Europeia — Journalism Partnerships: Pluralism 2027"
+      },
+      {
+        "id": "eu-media-freedom-rapid-response-2027",
+        "title": "União Europeia — Media Freedom Rapid Response Mechanism 2027"
+      }
+    ],
+    "detail": "Pluralismo e proteção de jornalistas: editais institucionais da Comissão Europeia com prazos, requisitos de consórcio, limites territoriais e cofinanciamento explicitados. Não são bolsas individuais."
+  },
+  {
+    "date": "2026-10-31",
+    "type": "nova-oportunidade",
+    "title": "Publicação editorial verificada — 2026-10-31 — opportunities",
+    "items": [
+      {
+        "id": "cfr-edward-r-murrow-press-fellowship-2027-28",
+        "title": "CFR — Edward R. Murrow Press Fellowship 2027–28"
+      },
+      {
+        "id": "mozilla-foundation-fellowships-2027-28",
+        "title": "Mozilla Foundation — Fellowships 2027–28"
+      }
+    ],
+    "detail": "Registros novos com fontes primárias, verificação de duplicidade e limitações editoriais documentadas: CFR — Edward R. Murrow Press Fellowship 2027–28; Mozilla Foundation — Fellowships 2027–28."
+  },
+  {
+    "date": "2026-10-31",
+    "type": "ferramentas",
+    "title": "Publicação editorial verificada — 2026-10-31 — tools",
+    "items": [
+      {
+        "id": "osomenet-social-diffusion",
+        "title": "OSoMeNet — redes de difusão em mídias sociais"
+      },
+      {
+        "id": "reactable-r-interactive-tables",
+        "title": "reactable — tabelas interativas em R"
+      },
+      {
+        "id": "saucenao-reverse-image-search",
+        "title": "SauceNAO — busca reversa especializada de imagens"
+      }
+    ],
+    "detail": "Registros novos com fontes primárias, verificação de duplicidade e limitações editoriais documentadas: OSoMeNet — redes de difusão em mídias sociais; reactable — tabelas interativas em R; SauceNAO — busca reversa especializada de imagens."
+  },
+  {
+    "date": "2026-10-31",
+    "type": "dados",
+    "title": "Publicação editorial verificada — 2026-10-31 — datasets",
+    "items": [
+      {
+        "id": "global-forest-watch-open-data-portal",
+        "title": "Global Forest Watch — portal aberto de dados florestais"
+      },
+      {
+        "id": "tidytuesday-weekly-datasets",
+        "title": "TidyTuesday — acervo semanal de bases para análise"
+      },
+      {
+        "id": "propublica-data-store-historical-archive",
+        "title": "ProPublica Data Store — arquivo histórico 2013–2023"
+      },
+      {
+        "id": "nycdogs-licenses-bites-r",
+        "title": "nycdogs — licenças e ocorrências de mordidas em Nova York"
+      }
+    ],
+    "detail": "Registros novos com fontes primárias, verificação de duplicidade e limitações editoriais documentadas: Global Forest Watch — portal aberto de dados florestais; TidyTuesday — acervo semanal de bases para análise; ProPublica Data Store — arquivo histórico 2013–2023; nycdogs — licenças e ocorrências de mordidas em Nova York."
+  },
+  {
+    "date": "2026-10-30",
+    "type": "dados",
+    "title": "Três bases verificadas: energia global e pesquisa acadêmica",
+    "items": [
+      {
+        "id": "gem-global-integrated-power-tracker",
+        "title": "Global Energy Monitor — Global Integrated Power Tracker"
+      },
+      {
+        "id": "gem-global-solar-power-tracker",
+        "title": "Global Energy Monitor — Global Solar Power Tracker"
+      },
+      {
+        "id": "openalex-scholarly-graph",
+        "title": "OpenAlex — catálogo aberto de pesquisa científica"
+      }
+    ],
+    "detail": "Global Integrated Power Tracker, Global Solar Power Tracker e OpenAlex, com fontes primárias, cadência, escopo, licenciamento e limitações documentados."
+  },
+  {
+    "date": "2026-10-30",
+    "type": "ferramentas",
+    "title": "Chartist e RustGIS — ferramentas encontradas em newsletter",
+    "items": [
+      {
+        "id": "chartist-responsive-svg-charts",
+        "title": "Chartist — gráficos SVG responsivos em JavaScript"
+      },
+      {
+        "id": "rustgis-opengeos",
+        "title": "RustGIS — SIG livre para desktop e navegador"
+      }
+    ],
+    "detail": "Duas ferramentas extraídas de links rastreados na newsletter Quantum of Sollazzo #680 e verificadas em fontes primárias, com limites técnicos e de privacidade documentados."
+  },
+  {
+    "date": "2026-10-30",
+    "type": "ferramentas",
+    "title": "Vega-Lite e Inkscape — ferramentas de visualização verificadas",
+    "items": [
+      {
+        "id": "vega-lite-visualization-grammar",
+        "title": "Vega-Lite — gramática declarativa de visualização"
+      },
+      {
+        "id": "inkscape-svg-editor",
+        "title": "Inkscape — editor vetorial SVG livre"
+      }
+    ],
+    "detail": "Ferramentas de código aberto verificadas em documentação primária, com limites de uso e exigências de validação jornalística registrados."
+  },
+  {
+    "date": "2026-10-30",
+    "type": "nova-oportunidade",
+    "title": "Duas bolsas de reportagem IWMF — 30/10/2026",
+    "items": [
+      {
+        "id": "iwmf-fault-lines-reporting-fund",
+        "title": "IWMF — Fault Lines Reporting Fund"
+      },
+      {
+        "id": "iwmf-fund-indigenous-journalists-mmip",
+        "title": "IWMF — Fund for Indigenous Journalists (MMIP/WG2T)"
+      }
+    ],
+    "detail": "Fontes oficiais IWMF verificadas; ambas recebem candidaturas contínuas, têm elegibilidade restrita aos Estados Unidos e não possuem prazo final fixo informado."
+  },
+  {
+    "date": "2026-10-30",
+    "type": "dados",
+    "title": "Publicação editorial verificada — 2026-10-30",
+    "items": [
+      {
+        "id": "nyc-open-data-portal",
+        "title": "NYC Open Data — portal de dados públicos de Nova York"
+      },
+      {
+        "id": "un-system-data-commons",
+        "title": "UN System Data Commons — portal de dados do sistema ONU"
+      }
+    ],
+    "detail": "Dois portais de dados oficiais verificados, com escopo, atualização variável e limitações de comparabilidade documentados."
+  },
+  {
+    "date": "2026-10-30",
+    "type": "ferramentas",
+    "title": "Publicação editorial verificada — 2026-10-30",
+    "items": [
+      {
+        "id": "google-earth-engine",
+        "title": "Google Earth Engine — análise geoespacial em nuvem"
+      },
+      {
+        "id": "folium-python-leaflet-maps",
+        "title": "Folium — mapas interativos em Python"
+      }
+    ],
+    "detail": "Ferramentas de geoprocessamento verificadas em documentação primária, com limitações de acesso, licenciamento e validação de dados descritas."
+  },
+  {
+    "date": "2026-10-30",
+    "type": "nova-oportunidade",
+    "title": "Publicação editorial verificada — 2026-10-30",
+    "items": [
+      {
+        "id": "massey-gordon-fisher-jhr-2027-28",
+        "title": "Gordon N. Fisher / JHR Journalism Fellowship 2027–28"
+      },
+      {
+        "id": "eu-journalism-partnerships-collaborations-2027",
+        "title": "União Europeia — Journalism Partnerships: Collaborations 2027"
+      }
+    ],
+    "detail": "Duas chamadas verificadas em fontes primárias em 30/10/2026, com prazo, elegibilidade restrita e ausência de duplicidade conferidos."
+  },
+  {
+    "date": "2026-10-29",
+    "type": "ferramentas",
+    "title": "Publicação editorial verificada — 2026-10-29",
+    "items": [
+      {
+        "id": "crawlback-common-crawl",
+        "title": "Crawlback — busca em páginas arquivadas do Common Crawl"
+      }
+    ],
+    "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Crawlback — busca em páginas arquivadas do Common Crawl."
+  },
+  {
+    "date": "2026-10-29",
+    "type": "dados",
+    "title": "Publicação editorial verificada — 2026-10-29",
+    "items": [
+      {
+        "id": "okbr-odi-cidades-2023",
+        "title": "OKBR — Índice de Dados Abertos para Cidades 2023"
+      },
+      {
+        "id": "okbr-monitor-inda-2023-2025",
+        "title": "Open Knowledge Brasil — Monitor da INDA 2023–2025"
+      }
+    ],
+    "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: OKBR — Índice de Dados Abertos para Cidades 2023; Open Knowledge Brasil — Monitor da INDA 2023–2025."
+  },
+  {
+    "date": "2026-10-29",
+    "type": "ferramentas",
+    "title": "Publicação editorial verificada — 2026-10-29",
+    "items": [
+      {
+        "id": "okbr-querido-diario-tecnologias-educacao",
+        "title": "Querido Diário — Tecnologias na Educação"
+      }
+    ],
+    "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Querido Diário — Tecnologias na Educação."
+  },
+  {
+    "date": "2026-10-28",
+    "type": "ferramentas",
+    "title": "Publicação editorial verificada — 2026-10-28",
+    "items": [
+      {
+        "id": "playwright-browser-automation",
+        "title": "Playwright — automação e testes de navegadores"
+      }
+    ],
+    "detail": "Registro aprovado com fonte oficial e revisão editorial: Playwright — automação e testes de navegadores."
+  },
+  {
+    "date": "2026-10-28",
+    "type": "nova-oportunidade",
+    "title": "Publicação editorial verificada — 2026-10-28",
+    "items": [
+      {
+        "id": "hiig-impact-ai-fellowship-2027",
+        "title": "HIIG — Impact AI Fellowship 2027"
+      }
+    ],
+    "detail": "Registro aprovado com fonte oficial e revisão editorial: HIIG — Impact AI Fellowship 2027."
+  },
+  {
+    "date": "2026-10-26",
+    "type": "ferramentas",
+    "title": "Publicação editorial verificada — 2026-10-26",
+    "items": [
+      {
+        "id": "tableau-public",
+        "title": "Tableau Public"
+      },
+      {
+        "id": "canva-charts",
+        "title": "Canva — gráficos e visualização"
+      },
+      {
+        "id": "openlayers",
+        "title": "OpenLayers"
+      },
+      {
+        "id": "stac-specification",
+        "title": "STAC — SpatioTemporal Asset Catalog"
+      }
+    ],
+    "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Tableau Public; Canva — gráficos e visualização; OpenLayers; STAC — SpatioTemporal Asset Catalog."
+  },
+  {
+    "date": "2026-10-25",
+    "type": "dados",
+    "title": "Publicação editorial verificada — 2026-10-25",
+    "items": [
+      {
+        "id": "global-fishing-watch-apis",
+        "title": "Global Fishing Watch — conjuntos e APIs marítimas"
+      },
+      {
+        "id": "us-census-data-portal",
+        "title": "U.S. Census Bureau — data.census.gov"
+      }
+    ],
+    "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Global Fishing Watch — conjuntos e APIs marítimas; U.S. Census Bureau — data.census.gov."
+  },
+  {
+    "date": "2026-10-25",
+    "type": "ferramentas",
+    "title": "Publicação editorial verificada — 2026-10-25",
+    "items": [
+      {
+        "id": "camelot-pdf-tables",
+        "title": "Camelot — extração de tabelas de PDF"
+      },
+      {
+        "id": "observable-framework",
+        "title": "Observable Framework"
+      },
+      {
+        "id": "postgis",
+        "title": "PostGIS"
+      },
+      {
+        "id": "whitebox-geospatial-tools",
+        "title": "Whitebox — ferramentas geoespaciais"
+      },
+      {
+        "id": "tmap-r",
+        "title": "tmap — mapas temáticos em R"
+      }
+    ],
+    "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Camelot — extração de tabelas de PDF; Observable Framework; PostGIS; Whitebox — ferramentas geoespaciais; tmap — mapas temáticos em R."
+  },
   {
     "date": "2026-10-24",
     "type": "dados",
@@ -2425,5 +2307,3 @@ window.RADAR_PARTS.changelog=[
     "detail": "O menu fecha automaticamente após a navegação em telas pequenas."
   }
 ];
-
-
