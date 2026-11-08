@@ -1,6 +1,126 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.tools=[
 {
+  "id": "auto-03c1085e8207c089",
+  "name": "Moderator Tools/Automoderator/Multilingual testing - MediaWiki",
+  "kind": "ferramenta",
+  "url": "https://www.mediawiki.org/wiki/Special:MyLanguage/Moderator_Tools/Automoderator/Multilingual_testing",
+  "desc": "Moderator Tools/Automoderator/Multilingual testing - MediaWiki Jump to content Main menu Main menu move to sidebar hide Navigation Main page Get MediaWiki Get extensions Tech blog Contribute Support User help FAQ Technical manual Support desk Communication Development Developer portal Code statistics mediawiki.org Community portal Recent changes Translate content Special pages Random page Village pump Sandbox In other languages Add links Search Search English Appearance Donate Create account Log in Personal tools Donate Create account Log in Contents move to sidebar hide Beginning 1 How to test the Multilingual Revert Risk model 2 About Automoderator Toggle the table of contents Moderator Tools/Automoderator/Multilingual testing Page Discussion English Read Edit View history Save Tools Tools move to sidebar hide Actions Read Edit View history Save General What links here Related changes Upload file Permanent link Page information Cite this page Get shortened URL Print/export Create a book Download as PDF Printable version In other projects Appearance move to sidebar hide From mediawiki.org &lt; Moderator Tools | Automoderator Translate this page Languages: Bahasa Indonesia English  Revisar licença, limites, privacidade e acessibilidade antes do uso editorial.",
+  "discoveryUrl": "https://www.mediawiki.org/wiki/Special:MyLanguage/Moderator_Tools/Automoderator/Multilingual_testing"
+},
+{
+  "id": "auto-04c405fc01a4d2d1",
+  "name": "Moderator Tools - MediaWiki",
+  "kind": "ferramenta",
+  "url": "https://www.mediawiki.org/wiki/Special:MyLanguage/Moderator_Tools",
+  "desc": "Moderator Tools - MediaWiki Jump to content Main menu Main menu move to sidebar hide Navigation Main page Get MediaWiki Get extensions Tech blog Contribute Support User help FAQ Technical manual Support desk Communication Development Developer portal Code statistics mediawiki.org Community portal Recent changes Translate content Special pages Random page Village pump Sandbox In other languages Add links Search Search English Appearance Donate Create account Log in Personal tools Donate Create account Log in Contents move to sidebar hide Beginning 1 Projects Toggle Projects subsection 1.1 July 2025 – onwards: Centralising moderation 1.2 March 2025 – June 2025: Watchlist 1.3 November 2024 – March 2025: Recent changes 1.4 October 2024 – February 2025: Nuke 1.5 August 2023 – November 2024: Automoderator 1.6 April – July 2023: PageTriage 1.7 April 2022 – March 2023: Mobile web 1.8 July 2021 – March 2022: Research 2 The team 3 Requesting code review 4 Further reading Toggle the table of contents Moderator Tools Issue tracker : #moderator-tools-team Page Discussion English Read Edit View history Save Tools Tools move to sidebar hide Actions Read Edit View history Save General What links h Revisar licença, limites, privacidade e acessibilidade antes do uso editorial.",
+  "discoveryUrl": "https://www.mediawiki.org/wiki/Special:MyLanguage/Moderator_Tools"
+},
+{
+  "id": "auto-d8ef02d52d558fca",
+  "name": "Cite This Page - MediaWiki",
+  "kind": "ferramenta",
+  "url": "https://www.mediawiki.org/w/index.php?title=Special:CiteThisPage&page=Moderator_Tools%2FAutomoderator%2Fvi&id=8386498&wpFormIdentifier=titleform",
+  "desc": "Cite This Page - MediaWiki Jump to content Main menu Main menu move to sidebar hide Navigation Main page Get MediaWiki Get extensions Tech blog Contribute Support User help FAQ Technical manual Support desk Communication Development Developer portal Code statistics mediawiki.org Community portal Recent changes Translate content Special pages Random page Village pump Sandbox Search Search English Appearance Donate Create account Log in Personal tools Donate Create account Log in Contents move to sidebar hide Beginning 1 Bibliographic details for Moderator Tools/Automoderator/vi 2 Citation styles for Moderator Tools/Automoderator/vi Toggle Citation styles for Moderator Tools/Automoderator/vi subsection 2.1 APA style 2.2 MLA style 2.3 MHRA style 2.4 Chicago style 2.5 CBE/CSE style 2.6 Bluebook style 2.7 BibTeX entry Toggle the table of contents Cite This Page Help English Tools Tools move to sidebar hide Actions General Upload file Printable version Get shortened URL In other projects Appearance move to sidebar hide Bibliographic details for Moderator Tools/Automoderator/vi Page name: Moderator Tools/Automoderator/vi Author: MediaWiki contributors Publisher: MediaWiki . Date of last r Revisar licença, limites, privacidade e acessibilidade antes do uso editorial.",
+  "discoveryUrl": "https://www.mediawiki.org/w/index.php?title=Special:CiteThisPage&page=Moderator_Tools%2FAutomoderator%2Fvi&id=8386498&wpFormIdentifier=titleform"
+},
+{
+  "id": "auto-319fecfc913e3666",
+  "name": "Moderator Tools/Automoderator - MediaWiki",
+  "kind": "ferramenta",
+  "url": "https://www.mediawiki.org/wiki/Special:MyLanguage/Moderator_Tools/Automoderator",
+  "desc": "Moderator Tools/Automoderator - MediaWiki Jump to content Main menu Main menu move to sidebar hide Navigation Main page Get MediaWiki Get extensions Tech blog Contribute Support User help FAQ Technical manual Support desk Communication Development Developer portal Code statistics mediawiki.org Community portal Recent changes Translate content Special pages Random page Village pump Sandbox In other languages English Bahasa Indonesia Türkçe Edit links Search Search English Appearance Donate Create account Log in Personal tools Donate Create account Log in Contents move to sidebar hide Beginning 1 Updates 2 Motivation 3 Goals 4 Design research 5 Model Toggle Model subsection 5.1 User script 6 How it works Toggle How it works subsection 6.1 Configuration 6.1.1 Caution levels 6.2 Talk page message 6.3 False positive reporting 6.4 Metrics 7 Usage Toggle the table of contents Moderator Tools/Automoderator Issue tracker : #Automoderator Page Discussion English Read Edit View history Save Tools Tools move to sidebar hide Actions Read Edit View history Save General What links here Related changes Upload file Permanent link Page information Cite this page Get shortened URL Print/export Create Revisar licença, limites, privacidade e acessibilidade antes do uso editorial.",
+  "discoveryUrl": "https://www.mediawiki.org/wiki/Special:MyLanguage/Moderator_Tools/Automoderator"
+},
+{
+  "id": "auto-47a5a9ca10421c0c",
+  "name": "Moderator Tools/Automoderator/nl - MediaWiki",
+  "kind": "ferramenta",
+  "url": "https://www.mediawiki.org/wiki/Moderator_Tools/Automoderator/nl",
+  "desc": "Moderator Tools/Automoderator/nl - MediaWiki Jump to content Main menu Main menu move to sidebar hide Navigation Main page Get MediaWiki Get extensions Tech blog Contribute Support User help FAQ Technical manual Support desk Communication Development Developer portal Code statistics mediawiki.org Community portal Recent changes Translate content Special pages Random page Village pump Sandbox In other languages Add links Search Search English Appearance Donate Create account Log in Personal tools Donate Create account Log in Contents move to sidebar hide Beginning 1 Updates 2 Motivatie 3 Doelen 4 Ontwerponderzoek 5 Model Toggle Model subsection 5.1 Gebruikersscript 6 Hoe het werkt Toggle Hoe het werkt subsection 6.1 Configuratie 6.1.1 Waarschuwingsniveaus 6.2 Bericht overlegpagina 6.3 Valse positieven 6.4 Meetgegevens 7 Gebruik Toggle the table of contents Moderator Tools/Automoderator/nl Issue tracker : #Automoderator Page Discussion Nederlands Read Translate View history Save Tools Tools move to sidebar hide Actions Read Translate View history Save General What links here Related changes Upload file Permanent link Page information Cite this page Get shortened URL Print/export Crea Revisar licença, limites, privacidade e acessibilidade antes do uso editorial.",
+  "discoveryUrl": "https://www.mediawiki.org/wiki/Moderator_Tools/Automoderator/nl"
+},
+{
+  "id": "auto-c10fc32f056631ea",
+  "name": "Create a new Item - Wikidata",
+  "kind": "ferramenta",
+  "url": "https://www.wikidata.org/wiki/Special:NewItem?site=mediawikiwiki&page=Moderator+Tools%2FAutomoderator%2Fvi",
+  "desc": "Create a new Item - Wikidata Jump to content Main menu Main menu move to sidebar hide Navigation Main page Community portal Project chat Create a new Item Recent changes Random Item Query Service Nearby Help Special pages Lexicographical data Create a new Lexeme Recent changes Random Lexeme Search Search English Appearance Donate Create account Log in Personal tools Donate Create account Log in Create a new Item English Tools Tools move to sidebar hide Actions General Printable version Get shortened URL In other projects Appearance move to sidebar hide Please make sure that the item you want to create complies with our notability policy and that it doesn't already exist . If you want to create an item about a living person , be mindful of their privacy. We appreciate it if you create a label and a description for all of your new items. The first letter of your label should only be capitalized if it is a proper noun (Q147276) , and your description should not be phrased as a sentence. To create a new lexeme ( read here first to learn how a lexeme is different from an item ), please use Special:NewLexeme . By clicking \"Create\", you agree to the terms of use , and you irrevocably agre Revisar licença, limites, privacidade e acessibilidade antes do uso editorial.",
+  "discoveryUrl": "https://www.wikidata.org/wiki/Special:NewItem?site=mediawikiwiki&page=Moderator+Tools%2FAutomoderator%2Fvi"
+},
+{
+  "id": "auto-59b5a0a56abb1506",
+  "name": "Moderator Tools/Automoderator/Testing - MediaWiki",
+  "kind": "ferramenta",
+  "url": "https://www.mediawiki.org/wiki/Special:MyLanguage/Moderator_Tools/Automoderator/Testing",
+  "desc": "Moderator Tools/Automoderator/Testing - MediaWiki Jump to content Main menu Main menu move to sidebar hide Navigation Main page Get MediaWiki Get extensions Tech blog Contribute Support User help FAQ Technical manual Support desk Communication Development Developer portal Code statistics mediawiki.org Community portal Recent changes Translate content Special pages Random page Village pump Sandbox In other languages Add links Search Search English Appearance Donate Create account Log in Personal tools Donate Create account Log in Contents move to sidebar hide Beginning 1 How to test Automoderator 2 About Automoderator Toggle About Automoderator subsection 2.1 Internal configuration 2.2 Caution levels 3 Score an individual edit 4 Initial results Toggle Initial results subsection 4.1 Quantitative 4.2 Qualitative 4.3 Next steps Toggle the table of contents Moderator Tools/Automoderator/Testing Page Discussion English Read Edit View history Save Tools Tools move to sidebar hide Actions Read Edit View history Save General What links here Related changes Upload file Permanent link Page information Cite this page Get shortened URL Print/export Create a book Download as PDF Printable versio Revisar licença, limites, privacidade e acessibilidade antes do uso editorial.",
+  "discoveryUrl": "https://www.mediawiki.org/wiki/Special:MyLanguage/Moderator_Tools/Automoderator/Testing#Initial_results"
+},
+{
+  "id": "auto-5f9a02ae86b5ae56",
+  "name": "Ferramentas de moderação/Automoderador - MediaWiki",
+  "kind": "ferramenta",
+  "url": "https://www.mediawiki.org/wiki/Moderator_Tools/Automoderator/pt-br",
+  "desc": "Ferramentas de moderação/Automoderador - MediaWiki Jump to content Main menu Main menu move to sidebar hide Navigation Main page Get MediaWiki Get extensions Tech blog Contribute Support User help FAQ Technical manual Support desk Communication Development Developer portal Code statistics mediawiki.org Community portal Recent changes Translate content Special pages Random page Village pump Sandbox In other languages Add links Search Search English Appearance Donate Create account Log in Personal tools Donate Create account Log in Contents move to sidebar hide Beginning 1 Atualizações 2 Motivação 3 Metas 4 Pesquisa sobre design 5 Modelo Toggle Modelo subsection 5.1 User script 6 Como funciona Toggle Como funciona subsection 6.1 Configuração 6.1.1 Níveis de cuidado 6.2 Mensagem na página de discussão 6.3 Indicar falsos positivos 6.4 Metrics 7 Uso Toggle the table of contents Ferramentas de moderação/Automoderador No rastreador : #Automoderator Page Discussion português do Brasil Read Translate View history Save Tools Tools move to sidebar hide Actions Read Translate View history Save General What links here Related changes Upload file Permanent link Page information Cite this page Ge Revisar licença, limites, privacidade e acessibilidade antes do uso editorial.",
+  "discoveryUrl": "https://www.mediawiki.org/wiki/Moderator_Tools/Automoderator/pt-br"
+},
+{
+  "id": "auto-6273be5565272108",
+  "name": "Outils de modération/AutoModerator - MediaWiki",
+  "kind": "ferramenta",
+  "url": "https://www.mediawiki.org/wiki/Moderator_Tools/Automoderator/fr",
+  "desc": "Outils de modération/AutoModerator - MediaWiki Jump to content Main menu Main menu move to sidebar hide Navigation Main page Get MediaWiki Get extensions Tech blog Contribute Support User help FAQ Technical manual Support desk Communication Development Developer portal Code statistics mediawiki.org Community portal Recent changes Translate content Special pages Random page Village pump Sandbox In other languages Add links Search Search English Appearance Donate Create account Log in Personal tools Donate Create account Log in Contents move to sidebar hide Beginning 1 Mises à jour 2 Motivation 3 Buts 4 Recherche d'architecture 5 Modèle Toggle Modèle subsection 5.1 Script utilisateur 6 Fonctionnement Toggle Fonctionnement subsection 6.1 Configuration 6.1.1 Niveaux de protection 6.2 Message de la page de discussion 6.3 Remontée des faux positifs 6.4 Métriques 7 Utilisation Toggle the table of contents Outils de modération/AutoModerator Suivi des problèmes &#160;: #Automoderator Page Discussion français Read Translate View history Save Tools Tools move to sidebar hide Actions Read Translate View history Save General What links here Related changes Upload file Permanent link Page inform Revisar licença, limites, privacidade e acessibilidade antes do uso editorial.",
+  "discoveryUrl": "https://www.mediawiki.org/wiki/Moderator_Tools/Automoderator/fr"
+},
+{
+  "id": "auto-6703fc7b7da67ad7",
+  "name": "Moderazione strumenti di moderazione/Automoderator - MediaWiki",
+  "kind": "ferramenta",
+  "url": "https://www.mediawiki.org/wiki/Moderator_Tools/Automoderator/it",
+  "desc": "Moderazione strumenti di moderazione/Automoderator - MediaWiki Jump to content Main menu Main menu move to sidebar hide Navigation Main page Get MediaWiki Get extensions Tech blog Contribute Support User help FAQ Technical manual Support desk Communication Development Developer portal Code statistics mediawiki.org Community portal Recent changes Translate content Special pages Random page Village pump Sandbox In other languages Add links Search Search English Appearance Donate Create account Log in Personal tools Donate Create account Log in Contents move to sidebar hide Beginning 1 Aggiornamenti 2 Motivation 3 Obiettivi 4 Design research 5 Modello Toggle Modello subsection 5.1 User script 6 Come funziona Toggle Come funziona subsection 6.1 Configurazione 6.1.1 Caution levels 6.2 Messaggio in discussione 6.3 Report dei falsi positivi 6.4 Metriche 7 Uso Toggle the table of contents Moderazione strumenti di moderazione/Automoderator Issue tracker : #Automoderator Page Discussion italiano Read Translate View history Save Tools Tools move to sidebar hide Actions Read Translate View history Save General What links here Related changes Upload file Permanent link Page information Cite thi Revisar licença, limites, privacidade e acessibilidade antes do uso editorial.",
+  "discoveryUrl": "https://www.mediawiki.org/wiki/Moderator_Tools/Automoderator/it"
+},
+{
+  "id": "auto-6a5c5eab2aec22be",
+  "name": "Moderator Tools/Kiểm tra tự động - MediaWiki",
+  "kind": "ferramenta",
+  "url": "https://www.mediawiki.org/wiki/Moderator_Tools/Automoderator/vi",
+  "desc": "Moderator Tools/Kiểm tra tự động - MediaWiki Jump to content Main menu Main menu move to sidebar hide Navigation Main page Get MediaWiki Get extensions Tech blog Contribute Support User help FAQ Technical manual Support desk Communication Development Developer portal Code statistics mediawiki.org Community portal Recent changes Translate content Special pages Random page Village pump Sandbox In other languages Add links Search Search English Appearance Donate Create account Log in Personal tools Donate Create account Log in Contents move to sidebar hide Beginning 1 Cập nhật 2 Động lực 3 Mục tiêu 4 Nghiên cứu trong quá trình thiết kế 5 Mô hình Toggle Mô hình subsection 5.1 User script 6 Chúng hoạt động như thế nào Toggle Chúng hoạt động như thế nào subsection 6.1 Cấu hình 6.1.1 Caution levels 6.2 Tin nhắn trên trang thảo luận 6.3 Báo cáo dương tính giả 6.4 Số liệu 7 Sử dụng Toggle the table of contents Moderator Tools/Kiểm tra tự động Issue tracker : #Automoderator Page Discussion Tiếng Việt Read Translate View history Save Tools Tools move to sidebar hide Actions Read Translate View history Save General What links here Related changes Upload file Permanent link Page information Cit Revisar licença, limites, privacidade e acessibilidade antes do uso editorial.",
+  "discoveryUrl": "https://www.mediawiki.org/wiki/Moderator_Tools/Automoderator/vi#bodyContent"
+},
+{
+  "id": "auto-7354144ac2f3f5b6",
+  "name": "Moderator Tools/Automoderator - MediaWiki",
+  "kind": "ferramenta",
+  "url": "https://www.mediawiki.org/wiki/Moderator_Tools/Automoderator",
+  "desc": "Moderator Tools/Automoderator - MediaWiki Jump to content Main menu Main menu move to sidebar hide Navigation Main page Get MediaWiki Get extensions Tech blog Contribute Support User help FAQ Technical manual Support desk Communication Development Developer portal Code statistics mediawiki.org Community portal Recent changes Translate content Special pages Random page Village pump Sandbox In other languages English Bahasa Indonesia Türkçe Edit links Search Search English Appearance Donate Create account Log in Personal tools Donate Create account Log in Contents move to sidebar hide Beginning 1 Updates 2 Motivation 3 Goals 4 Design research 5 Model Toggle Model subsection 5.1 User script 6 How it works Toggle How it works subsection 6.1 Configuration 6.1.1 Caution levels 6.2 Talk page message 6.3 False positive reporting 6.4 Metrics 7 Usage Toggle the table of contents Moderator Tools/Automoderator Issue tracker : #Automoderator Page Discussion English Read Edit View history Save Tools Tools move to sidebar hide Actions Read Edit View history Save General What links here Related changes Upload file Permanent link Page information Cite this page Get shortened URL Print/export Create Revisar licença, limites, privacidade e acessibilidade antes do uso editorial.",
+  "discoveryUrl": "https://www.mediawiki.org/wiki/Moderator_Tools/Automoderator"
+},
+{
+  "id": "auto-80456ffbd2ad4cff",
+  "name": "Moderator Tools - MediaWiki",
+  "kind": "ferramenta",
+  "url": "https://www.mediawiki.org/wiki/Moderator_Tools",
+  "desc": "Moderator Tools - MediaWiki Jump to content Main menu Main menu move to sidebar hide Navigation Main page Get MediaWiki Get extensions Tech blog Contribute Support User help FAQ Technical manual Support desk Communication Development Developer portal Code statistics mediawiki.org Community portal Recent changes Translate content Special pages Random page Village pump Sandbox In other languages Add links Search Search English Appearance Donate Create account Log in Personal tools Donate Create account Log in Contents move to sidebar hide Beginning 1 Projects Toggle Projects subsection 1.1 July 2025 – onwards: Centralising moderation 1.2 March 2025 – June 2025: Watchlist 1.3 November 2024 – March 2025: Recent changes 1.4 October 2024 – February 2025: Nuke 1.5 August 2023 – November 2024: Automoderator 1.6 April – July 2023: PageTriage 1.7 April 2022 – March 2023: Mobile web 1.8 July 2021 – March 2022: Research 2 The team 3 Requesting code review 4 Further reading Toggle the table of contents Moderator Tools Issue tracker : #moderator-tools-team Page Discussion English Read Edit View history Save Tools Tools move to sidebar hide Actions Read Edit View history Save General What links h Revisar licença, limites, privacidade e acessibilidade antes do uso editorial.",
+  "discoveryUrl": "https://www.mediawiki.org/wiki/Moderator_Tools"
+},
+{
+  "id": "auto-a62839008c2a854e",
+  "name": "Perkakas Moderasi/Automoderator - MediaWiki",
+  "kind": "ferramenta",
+  "url": "https://www.mediawiki.org/wiki/Moderator_Tools/Automoderator/id",
+  "desc": "Perkakas Moderasi/Automoderator - MediaWiki Jump to content Main menu Main menu move to sidebar hide Navigation Main page Get MediaWiki Get extensions Tech blog Contribute Support User help FAQ Technical manual Support desk Communication Development Developer portal Code statistics mediawiki.org Community portal Recent changes Translate content Special pages Random page Village pump Sandbox In other languages Add links Search Search English Appearance Donate Create account Log in Personal tools Donate Create account Log in Contents move to sidebar hide Beginning 1 Pembaruan 2 Latar belakang 3 Misi 4 Design research 5 Pendekatan Toggle Pendekatan subsection 5.1 User script 6 How it works Toggle How it works subsection 6.1 Configuration 6.1.1 Caution levels 6.2 Talk page message 6.3 Pelaporan kesalahan pemeriksaan 6.4 Metrics 7 Usage Toggle the table of contents Perkakas Moderasi/Automoderator Issue tracker : #Automoderator Page Discussion Bahasa Indonesia Read Translate View history Save Tools Tools move to sidebar hide Actions Read Translate View history Save General What links here Related changes Upload file Permanent link Page information Cite this page Get shortened URL Print/e Revisar licença, limites, privacidade e acessibilidade antes do uso editorial.",
+  "discoveryUrl": "https://www.mediawiki.org/wiki/Moderator_Tools/Automoderator/id"
+},
+{
+  "id": "auto-b22022306fc6cef9",
+  "name": "Moderator Tools/Automoderator/Measurement plan - MediaWiki",
+  "kind": "ferramenta",
+  "url": "https://www.mediawiki.org/wiki/Special:MyLanguage/Moderator_Tools/Automoderator/Measurement_plan",
+  "desc": "Moderator Tools/Automoderator/Measurement plan - MediaWiki Jump to content Main menu Main menu move to sidebar hide Navigation Main page Get MediaWiki Get extensions Tech blog Contribute Support User help FAQ Technical manual Support desk Communication Development Developer portal Code statistics mediawiki.org Community portal Recent changes Translate content Special pages Random page Village pump Sandbox In other languages Add links Search Search English Appearance Donate Create account Log in Personal tools Donate Create account Log in Contents move to sidebar hide Beginning 1 Hypothesis #1 2 Hypothesis #2 3 Hypothesis #3 4 Guardrails 5 Pilot phase metrics 6 Notes Toggle the table of contents Moderator Tools/Automoderator/Measurement plan Page Discussion English Read Edit View history Save Tools Tools move to sidebar hide Actions Read Edit View history Save General What links here Related changes Upload file Permanent link Page information Cite this page Get shortened URL Print/export Create a book Download as PDF Printable version In other projects Appearance move to sidebar hide From mediawiki.org &lt; Moderator Tools | Automoderator Translate this page Languages: Deutsch Engli Revisar licença, limites, privacidade e acessibilidade antes do uso editorial.",
+  "discoveryUrl": "https://www.mediawiki.org/wiki/Special:MyLanguage/Moderator_Tools/Automoderator/Measurement_plan"
+}, 
+{
   "id": "auto-ce58085ef1edfb47",
   "name": "mediawiki-services-parsoid/tools/sync-parserTests.js at 39ea4e49783b1f88326d6ebddd14e08bb39cb649 · wikimedia/mediawiki-services-parsoid",
   "kind": "ferramenta",
