@@ -30,6 +30,8 @@ function deriveDataset(lead,url){
  const evidenceText=[title,description,url,se.sourceType||'',lead.pageTitle||'',lead.pageDescription||''].join(' ');
  const genericTitle=/^(in[ií]cio|inicio|home|start|eventos?|events?|about|sobre|contact|contato|menu|search|login|register|news|blog|resources?|opportunities?|calend[áa]rio|calendar)$/i.test(String(title).trim());
  const navigationNoise=/ir para o (conte[uú]do|menu|navega[cç][aã]o|rodap[eé]|mapa do site|in[ií]cio|p[aá]gina inicial|busca)|aten[cç][aã]o! seu navegador|nome do site/i.test(String(description));
+ const excludedPage=/calendly\\.com|github\\.com\\/[^\\s]+\\/(?:security\\/advisories|blob\\/)[^\\s]*(?:CODE_OF_CONDUCT|code_of_conduct)|opensanctions\\.org\\/docs\\/metadata/i.test(String(url)+' '+String(description));
+ if(excludedPage)return null;
  const datasetSignal=/(dataset|data[- ]?catalog|open[- ]?data|dados?[- ]abertos?|database|base de dados|catalog|cat[aá]logo de dados|api|csv|json|estat[ií]stic|indicador|microdados|portal(?:.{0,20})dados|data portal|geodados|datacatalog|\/datasets?\/)/i.test(evidenceText);
  if(genericTitle||navigationNoise||!datasetSignal)return null;
  if(sourceType&&!/dataset|datacatalog|catalog|data[- ]?catalog/.test(sourceType))return null;
