@@ -33,11 +33,25 @@ test('auto-audit creates a neutral record from complete explicit official metada
   fs.mkdirSync(path.join(d,'intake'));fs.mkdirSync(path.join(d,'scripts'));
   fs.copyFileSync('scripts/auto-audit-candidates.js',path.join(d,'scripts/auto-audit-candidates.js'));
   const future=new Date(Date.now()+86400000*30).toISOString().slice(0,10);
-  fs.writeFileSync(path.join(d,'intake/lead-evidence.json'),JSON.stringify({results:[{url:'https://official.example/grant',finalUrl:'https://official.example/grant',pageStatus:'html-fetched',category:'opportunities',structuredEvidence:{title:'Grant 2027',description:'A'.repeat(140),organization:'Official Org',deadline:future,eligibility:'Journalists may apply',eligibilityExplicit:true,sourceType:'Event'}}]}));
+  fs.writeFileSync(path.join(d,'intake/lead-evidence.json'),JSON.stringify({results:[{url:'https://official.example/grant',finalUrl:'https://official.example/grant',pageStatus:'html-fetched',category:'opportunities',structuredEvidence:{title:'Grant 2027',description:'A'.repeat(140),organization:'Official Org',deadline:future,eligibility:'Journalists may apply',eligibilityExplicit:true,status:'aberta',sourceType:'Event'}}]}));
   fs.writeFileSync(path.join(d,'intake/editorial-review.json'),JSON.stringify({candidates:[]}));
   cp.execFileSync(process.execPath,['scripts/auto-audit-candidates.js'],{cwd:d});
   const out=JSON.parse(fs.readFileSync(path.join(d,'intake/auto-editorial-decisions.json')));
   assert.equal(out.decisions.length,1);assert.equal(out.decisions[0].record.eligibility,'parcial');assert.match(out.decisions[0].record.id,/^auto-/);
+ }finally{fs.rmSync(d,{recursive:true,force:true})}
+});
+
+test('auto-audit blocks derived opportunity without explicit open status',()=>{
+ const d=fs.mkdtempSync(path.join(os.tmpdir(),'radar-auto-audit-status-'));
+ try{
+  fs.mkdirSync(path.join(d,'intake'));fs.mkdirSync(path.join(d,'scripts'));
+  fs.copyFileSync('scripts/auto-audit-candidates.js',path.join(d,'scripts/auto-audit-candidates.js'));
+  const future=new Date(Date.now()+86400000*30).toISOString().slice(0,10);
+  fs.writeFileSync(path.join(d,'intake/lead-evidence.json'),JSON.stringify({results:[{url:'https://official.example/grant',finalUrl:'https://official.example/grant',pageStatus:'html-fetched',category:'opportunities',structuredEvidence:{title:'Grant 2027',description:'A'.repeat(140),organization:'Official Org',deadline:future,eligibility:'Journalists may apply',eligibilityExplicit:true}}]}));
+  fs.writeFileSync(path.join(d,'intake/editorial-review.json'),JSON.stringify({candidates:[]}));
+  cp.execFileSync(process.execPath,['scripts/auto-audit-candidates.js'],{cwd:d});
+  const out=JSON.parse(fs.readFileSync(path.join(d,'intake/auto-editorial-decisions.json')));
+  assert.equal(out.decisions.length,0);assert.match(JSON.stringify(out.summary.byBlocker),/ficha pública estruturada ausente/);
  }finally{fs.rmSync(d,{recursive:true,force:true})}
 });
 

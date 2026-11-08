@@ -22,11 +22,14 @@ function isoDate(raw){
 }
 function explicitPageFacts(html){
  const text=decode(String(html||'').replace(/<script\b[\s\S]*?<\/script>/gi,' ').replace(/<style\b[\s\S]*?<\/style>/gi,' '));
- const deadlineMatch=text.match(/(?:application\s+deadline|deadline|apply\s+by|applications?\s+(?:close|end)|prazo(?:\s+final)?|inscri(?:ções|coes)\s+(?:vão|vao)\s+até|até\s+o\s+dia)(?:\s*[:\-–]\s*|\s+)([^.]{0,120})/i);
+ const deadlineMatch=text.match(/(?:application\s+deadline|deadline|apply\s+by|applications?\s+(?:close|end)|closing\s+date|submissions?\s+(?:close|end)|due\s+date|final\s+date|prazo(?:\s+final)?|inscri(?:ções|coes)\s+(?:vão|vao)\s+até|até\s+o\s+dia)(?:\s*[:\-–]\s*|\s+)([^.]{0,120})/i);
  const deadline=isoDate(deadlineMatch?.[1]||'');
- const eligibilityMatch=text.match(/(?:eligib(?:ility|le)|who\\s+can\\s+apply|eligible\\s+applicants?|elegibilidade|quem\\s+pod(?:e|em)\\s+se\\s+inscrever|open\\s+to|available\\s+to|for\\s+(?:all\\s+)?(?:journalists?|reporters?|newsrooms?|media\\s+organizations?|researchers?))([^.]{0,320})/i);
+ const eligibilityMatch=text.match(/(?:eligib(?:ility|le)|who\\s+can\\s+apply|eligible\\s+applicants?|elegibilidade|quem\\s+pod(?:e|em)\\s+se\\s+inscrever|open\\s+to|available\\s+to|for\\s+(?:all\\s+)?(?:journalists?|reporters?|newsrooms?|media\\s+organizations?|researchers?)|jornalistas?|repórteres?|redações?|pesquisadores?)([^.]{0,320})/i);
  const eligibility=eligibilityMatch?decode(eligibilityMatch[0]).slice(0,320):null;
- return {deadline:deadline||null,eligibility:eligibility||null,eligibilityExplicit:Boolean(eligibility)};
+ const openMatch=text.match(/\b(?:applications?|submissions?|entries?|inscrições|inscricoes)\s+(?:are\s+)?(?:now\s+)?open\b|\b(?:call|fellowship|grant|award|edital|bolsa)\s+(?:is\s+)?open\b/i);
+ const closedMatch=text.match(/\b(?:applications?|submissions?|entries?|inscrições|inscricoes)\s+(?:are\s+)?closed\b|\b(?:call|fellowship|grant|award|edital|bolsa)\s+(?:is\s+)?closed\b/i);
+ const status=openMatch?'aberta':closedMatch?'encerrada':null;
+ return {deadline:deadline||null,eligibility:eligibility||null,eligibilityExplicit:Boolean(eligibility),status};
 }
 function allowed(raw){
  try{
@@ -47,9 +50,9 @@ async function inspect(lead){
   const title=((html.match(/<title[^>]*>([\s\S]*?)<\/title>/i)||[])[1]||'').replace(/<[^>]+>/g,' ').replace(/\s+/g,' ').trim().slice(0,240);
   const description=((html.match(/<meta[^>]+(?:name|property)=["'](?:description|og:description)["'][^>]+content=["']([^"']{1,700})/i)||[])[1]||'').trim();
   const facts=explicitPageFacts(html);
-  const structuredEvidence={...(metadata||{}),title:metadata?.title||title||null,description:metadata?.description||description||null,...(facts.deadline?{deadline:facts.deadline}:{}),...(facts.eligibility?{eligibility:facts.eligibility,eligibilityExplicit:true}:{})};
+  const structuredEvidence={...(metadata||{}),title:metadata?.title||title||null,description:metadata?.description||description||null,...(facts.deadline?{deadline:facts.deadline}:{}),...(facts.eligibility?{eligibility:facts.eligibility,eligibilityExplicit:true}:{}),...(facts.status?{status:facts.status}:{})};
   const dateMentions=[...html.replace(/<script\b[\s\S]*?<\/script>/gi,' ').replace(/<style\b[\s\S]*?<\/style>/gi,' ').replace(/<[^>]+>/g,' ').matchAll(/\b20\d{2}[-\/]\d{2}[-\/]\d{2}\b/g)].slice(0,12).map(x=>x[0]);
-  return {...lead,pageStatus:'html-fetched',httpStatus:response.status,finalUrl:response.url||lead.url,pageTitle:title,pageDescription:description||structuredEvidence?.description||null,structuredEvidence,deadline:lead.deadline||structuredEvidence?.deadline||null,eligibility:lead.eligibility||structuredEvidence?.eligibility||null,dateMentionsUnclassified:[...new Set(dateMentions)],fingerprint:crypto.createHash('sha256').update(html).digest('hex').slice(0,16),editoriallyVerified:false};
+  return {...lead,pageStatus:'html-fetched',httpStatus:response.status,finalUrl:response.url||lead.url,pageTitle:title,pageDescription:description||structuredEvidence?.description||null,structuredEvidence,deadline:lead.deadline||structuredEvidence?.deadline||null,eligibility:lead.eligibility||structuredEvidence?.eligibility||null,status:lead.status||structuredEvidence?.status||null,dateMentionsUnclassified:[...new Set(dateMentions)],fingerprint:crypto.createHash('sha256').update(html).digest('hex').slice(0,16),editoriallyVerified:false};
  }catch(e){return {...lead,pageStatus:'fetch-failed',error:String(e).slice(0,200),editoriallyVerified:false}}
  finally{clearTimeout(timer)}
 }

@@ -14,7 +14,7 @@ const future=x=>isoDate(x)&&x>=today;
 const derivedId=url=>'auto-'+crypto.createHash('sha256').update(String(url)).digest('hex').slice(0,16);
 function deriveOpportunity(lead,url){
  const se=lead.structuredEvidence;
- if(lead.category!=='opportunities'||!se||!se.eligibilityExplicit||!se.title||!se.description||se.description.length<120||!se.organization||!future(se.deadline))return null;
+ if(lead.category!=='opportunities'||!se||!se.eligibilityExplicit||se.status!=='aberta'||!se.title||!se.description||se.description.length<120||!se.organization||!future(se.deadline))return null;
  return {id:derivedId(url),title:se.title,org:se.organization,summary:se.description,type:se.sourceType||'Oportunidade editorial',themes:['Oportunidade editorial'],scope:'Não especificado',deadline:se.deadline,deadlineStatus:'prazo extraído de metadado estruturado da fonte oficial; horário e condições devem ser conferidos na página',eligibility:'parcial',fit:5,status:'aberta',value:'Não informado na fonte estruturada',duration:'Não informado na fonte estruturada',modality:se.sourceType||'Não especificado',documents:[],restrictions:[],rules:url,apply:url,verified:today,desc:se.description,discoveryUrl:lead.url,verificationHistory:[{date:today,status:'aberta',source:url}]};
 }
 function deriveDataset(lead,url){
@@ -49,7 +49,7 @@ for(const lead of results){
  if(lead.category==='opportunities'){
   const deadline=lead.deadline||record?.deadline;
   const eligibility=lead.eligibility||record?.eligibility;
-  const status=lead.status||record?.status;
+  const status=lead.status||lead.structuredEvidence?.status||record?.status;
   if(!future(deadline))fail.push('prazo futuro confirmado ausente');
   if(!allowedEligibility.has(eligibility))fail.push('elegibilidade não confirmada');
   if(!allowedStatus.has(status))fail.push('status editorial não confirmado');
