@@ -42,7 +42,7 @@ for(const entry of source.approved){
   const excludedPage=/calendly\.com|github\.com\/[^\s]+\/(?:security\/advisories|blob\/)[^\s]*(?:CODE_OF_CONDUCT|code_of_conduct)|opensanctions\.org\/docs\/metadata|forum\.ecmwf\.int\/t\/|\/(?:blog|articles?|news|posts?)\//i.test(String(record[rule.field])+' '+datasetText);
   const unverifiedFormat=placeholder(record.format);
   const announcementOrArticle=/\b(feedback[- ]gathering survey|new dataset published|dataset transparency mandates|how we.ve built|data sources)\b/i.test(String(record[rule.title]));
-  if(excludedPage||announcementOrArticle||record.kind!=='dataset'||!record.org||/^forum$/i.test(String(record.org))||unverifiedFormat)throw Error('Dataset lacks a direct, usable resource and verified access format: '+record.id);
+  if(excludedPage||announcementOrArticle||!['dataset','catalog','portal','system'].includes(String(record.kind||'').toLowerCase())||!record.org||/^forum$/i.test(String(record.org))||unverifiedFormat)throw Error('Dataset lacks a direct, usable resource and verified access format: '+record.id);
   if(genericTitle||navNoise||!datasetSignal)throw Error('Dataset evidence is insufficient or page is generic/navigation: '+record.id);
  }
  if(category==='tools'){
