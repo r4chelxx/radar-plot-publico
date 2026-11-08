@@ -30,6 +30,8 @@ on:
       - 'scripts/export-editorial-review.js'
       - 'scripts/merge-editorial-queue.js'
       - 'scripts/audit-editorial-queue.js'
+      - 'scripts/editorial-page-evidence.js'
+      - 'tests/editorial-page-evidence.test.js'
       - 'tests/editorial-category-inference.test.js'
       - 'scripts/check-operational-state.js'
       - 'tests/operational-state.test.js'
@@ -80,6 +82,9 @@ jobs:
           node --check scripts/discover-public-feeds.mjs
           node --check scripts/discover-dvs-public.mjs
           node --check scripts/audit-editorial-queue.js
+          node --check scripts/editorial-page-evidence.js
+      - name: Test primary-source evidence extraction
+        run: node tests/editorial-page-evidence.test.js
       - name: Test daily Gmail and LinkedIn collector safeguards
         run: node --test tests/daily-external-discovery.test.js
       - name: Test targeted opportunity discovery
@@ -227,6 +232,7 @@ jobs:
           cp scripts/merge-editorial-queue.js /tmp/radar-merge-editorial-queue.js
           cp scripts/lead-identity.js /tmp/lead-identity.js
           cp scripts/audit-editorial-queue.js /tmp/audit-editorial-queue.js
+          cp scripts/editorial-page-evidence.js /tmp/editorial-page-evidence.js
           cp intake/historical-decisions.json /tmp/radar-historical-decisions.json
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
