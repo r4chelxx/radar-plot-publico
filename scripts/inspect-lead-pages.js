@@ -5,7 +5,7 @@ const {auditCapacity}=require('./audit-capacity');
 const {inspectionHealth}=require('./inspection-health');
 const {extractStructuredMetadata,metadataForLink}=require('./structured-lead-metadata');
 const input=JSON.parse(fs.readFileSync('intake/candidate-triage.json','utf8'));
-const limit=Math.min(50,Math.max(1,Number(process.env.LEAD_PAGE_LIMIT||15)));
+const limit=Math.min(100,Math.max(1,Number(process.env.LEAD_PAGE_LIMIT||50)));
 function decode(value){return String(value||'').replace(/&(?:amp|and);/gi,'&').replace(/&quot;/gi,'"').replace(/&#39;/gi,"'").replace(/&nbsp;/gi,' ').replace(/<[^>]+>/g,' ').replace(/\s+/g,' ').trim();}
 function isoDate(raw){
  const s=String(raw||'').trim();
