@@ -1,177 +1,4 @@
-window.RADAR_PARTS=window.RADAR_PARTS||{};
-window.RADAR_PARTS.changelog=[
-{
-  "date": "2026-11-08",
-  "type": "nova-oportunidade",
-  "title": "Publicação editorial verificada — 2026-11-08",
-  "items": [
-    {
-      "id": "auto-3eaf309bafe21ae1",
-      "title": "German–Northern European Journalists Fellowship 2027 - GFMD"
-    },
-    {
-      "id": "auto-257ac44fe3495eb7",
-      "title": "Call for Proposals - Media Freedom Rapid Response Mechanism (2027) - GFMD"
-    }
-  ],
-  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: German–Northern European Journalists Fellowship 2027 - GFMD; Call for Proposals - Media Freedom Rapid Response Mechanism (2027) - GFMD."
-},
-{
-  "date": "2026-11-08",
-  "type": "dados",
-  "title": "Publicação editorial verificada — 2026-11-08",
-  "items": [
-    {
-      "id": "auto-f761505b3e7c7e29",
-      "title": "A new SQL-powered permissions system in Datasette 1.0a20"
-    },
-    {
-      "id": "auto-e93571452493b9a6",
-      "title": "Feedback-gathering survey on the C3S Global land surface comprehensive in-situ observations dataset"
-    },
-    {
-      "id": "auto-ab9330d7374480f9",
-      "title": "New dataset published in CDS: Groundwater storage change data from 2002 to present derived from satellite gravimetry observations"
-    },
-    {
-      "id": "auto-a4be04b7843e7db5",
-      "title": "Know-Your-Business (KYB) Datasets"
-    },
-    {
-      "id": "auto-ed6238ccffd55b57",
-      "title": "Politically Exposed Persons Datasets"
-    },
-    {
-      "id": "auto-dcfda2c527da79b1",
-      "title": "Data sources"
-    },
-    {
-      "id": "auto-eb7b114d6b483eba",
-      "title": "What Training Dataset Transparency Mandates Hide"
-    },
-    {
-      "id": "auto-fe322b425cfaad5c",
-      "title": "E-OBS daily gridded data: new dataset implementation to support open data"
-    },
-    {
-      "id": "auto-0cd5ca8d2258ddeb",
-      "title": "How we’ve built an open data model that adapts to whatever gets sanctioned next"
-    }
-  ],
-  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: A new SQL-powered permissions system in Datasette 1.0a20; Feedback-gathering survey on the C3S Global land surface comprehensive in-situ observations dataset; New dataset published in CDS: Groundwater storage change data from 2002 to present derived from satellite gravimetry observations; Know-Your-Business (KYB) Datasets; Politically Exposed Persons Datasets; Data sources; What Training Dataset Transparency Mandates Hide; E-OBS daily gridded data: new dataset implementation to support open data; How we’ve built an open data model that adapts to whatever gets sanctioned next."
-},
-{
-  "date": "2026-11-08",
-  "type": "ferramentas",
-  "title": "Publicação editorial verificada — 2026-11-08",
-  "items": [
-    {
-      "id": "auto-03994a06bcaa39ad",
-      "title": "Map the World by Bilawal Sidhu | Substack"
-    },
-    {
-      "id": "auto-0cf655279807dfaa",
-      "title": "Data Folks - A Curated List of Information Designers"
-    },
-    {
-      "id": "auto-0d30fb1d35d16b10",
-      "title": "Interactive | The Guardian"
-    },
-    {
-      "id": "auto-0f6d61b27d94fbd1",
-      "title": "The Spatial Edge | Yohan | Substack"
-    },
-    {
-      "id": "auto-1995b49a17729e24",
-      "title": "Kim Albrecht | Design Research"
-    },
-    {
-      "id": "auto-1a333dc7b2c597c3",
-      "title": "giorgialupi"
-    },
-    {
-      "id": "auto-1ad346fb03303d24",
-      "title": "Color Palette Generator – Color Wheel Tool | Adobe Express​"
-    },
-    {
-      "id": "auto-1fa6f485af6f2f2e",
-      "title": "scikit-learn: machine learning in Python &mdash; scikit-learn 0.16.1 documentation"
-    },
-    {
-      "id": "auto-200093c156771796",
-      "title": "Derivative"
-    },
-    {
-      "id": "auto-2a2be78ed2cd1db6",
-      "title": "shirley wu studio"
-    },
-    {
-      "id": "auto-2c0aa65aea8c63e3",
-      "title": "weeklyOSM"
-    },
-    {
-      "id": "auto-305390937a26a7aa",
-      "title": "Valentina D’Efilippo | Data Designer &amp; Founder of Apostrophe One"
-    },
-    {
-      "id": "auto-30b1f7757473231b",
-      "title": "Interactive Data Visualizations with Svelte and D3"
-    },
-    {
-      "id": "auto-3a7a9ff67322a526",
-      "title": "OneLake, the unified data lake - Microsoft Fabric"
-    },
-    {
-      "id": "auto-3af9e64861761c53",
-      "title": "Kaggle: The World&#x2019;s AI Proving Ground"
-    },
-    {
-      "id": "auto-3b9174f1dffecf92",
-      "title": "Your friendly guide to colors in data visualisation | Datawrapper Blog"
-    },
-    {
-      "id": "auto-42bbe600160e80a2",
-      "title": "THE PROJECT &mdash; Dear Data"
-    },
-    {
-      "id": "auto-463cf06dc127048b",
-      "title": "The Map Room &#8211; Blogging about maps since 2003"
-    },
-    {
-      "id": "auto-4d24029225385fa1",
-      "title": "Fabcon Community Conference"
-    },
-    {
-      "id": "auto-4f8fb014256b7dbd",
-      "title": "storytelling with data"
-    },
-    {
-      "id": "auto-53f6a5ac478d71b1",
-      "title": "Data Visualization &amp; Report Automation Software | Datylon"
-    }
-  ],
-  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Map the World by Bilawal Sidhu | Substack; Data Folks - A Curated List of Information Designers; Interactive | The Guardian; The Spatial Edge | Yohan | Substack; Kim Albrecht | Design Research; giorgialupi; Color Palette Generator – Color Wheel Tool | Adobe Express​; scikit-learn: machine learning in Python &mdash; scikit-learn 0.16.1 documentation; Derivative; shirley wu studio; weeklyOSM; Valentina D’Efilippo | Data Designer &amp; Founder of Apostrophe One; Interactive Data Visualizations with Svelte and D3; OneLake, the unified data lake - Microsoft Fabric; Kaggle: The World&#x2019;s AI Proving Ground; Your friendly guide to colors in data visualisation | Datawrapper Blog; THE PROJECT &mdash; Dear Data; The Map Room &#8211; Blogging about maps since 2003; Fabcon Community Conference; storytelling with data; Data Visualization &amp; Report Automation Software | Datylon."
-}, 
-{
-  "date": "2026-11-08",
-  "type": "nova-oportunidade",
-  "title": "Publicação editorial verificada — 2026-11-08",
-  "items": [
-    {
-      "id": "auto-e7c2d412b50c66e7",
-      "title": "MCW Global Young Leaders Fellowship 2027 (Funded) &#8211; Opportunity Desk"
-    },
-    {
-      "id": "auto-3682a5695a409fa5",
-      "title": "CISPA Summer Research (CSR) Internship Program 2027 &#8211; Opportunity Desk"
-    },
-    {
-      "id": "auto-777e69b31da619d9",
-      "title": "Call for Submissions: New Developments in AI for Social, Economic, and Policy Research Conference 2027 &#8211; Opportunity Desk"
-    }
-  ],
-  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: MCW Global Young Leaders Fellowship 2027 (Funded) &#8211; Opportunity Desk; CISPA Summer Research (CSR) Internship Program 2027 &#8211; Opportunity Desk; Call for Submissions: New Developments in AI for Social, Economic, and Policy Research Conference 2027 &#8211; Opportunity Desk."
-}, 
+window.RADAR_PARTS=window.RADAR_PARTS||{};\nwindow.RADAR_PARTS.changelog=\n[
   {
     "date": "2026-11-06",
     "type": "atualizacao-editorial",
@@ -1301,13 +1128,6 @@ window.RADAR_PARTS.changelog=[
     "detail": "O repositório institucional da Unicamp passa a ser acompanhado mensalmente para descoberta de dados, códigos e materiais de reprodutibilidade."
   },
   {
-    "date": "2026-10-12",
-    "type": "varredura",
-    "title": "Varredura de oportunidades concluída sem nova inclusão",
-    "items": [],
-    "detail": "Fontes diárias e vencidas, pesquisas independentes no Brasil e no exterior e o lote privado de newsletters foram revisados. Chamadas encerradas, já catalogadas ou sem elegibilidade brasileira confirmada não foram republicadas."
-  },
-  {
     "date": "2026-10-11",
     "type": "ferramentas",
     "title": "Guia GIJN/ICIJ de investigação com criptomoedas",
@@ -1342,13 +1162,6 @@ window.RADAR_PARTS.changelog=[
       }
     ],
     "detail": "Catálogo aberto e colaborativo reúne 226 recursos para visualização, extração, análise, cartografia, limpeza, redes, OSINT, IA e bancos de dados, com filtros por plataforma e código aberto."
-  },
-  {
-    "date": "2026-10-11",
-    "type": "varredura",
-    "title": "Varredura de oportunidades concluída sem nova inclusão",
-    "items": [],
-    "detail": "Fontes diárias e vencidas, buscas independentes no Brasil e no exterior e o lote privado de newsletters foram revisados. Chamadas já catalogadas, encerradas ou sem elegibilidade brasileira confirmada não foram republicadas."
   },
   {
     "date": "2026-10-10",
@@ -2478,4 +2291,4 @@ window.RADAR_PARTS.changelog=[
     "title": "Menu mobile corrigido",
     "detail": "O menu fecha automaticamente após a navegação em telas pequenas."
   }
-];
+];\n
