@@ -35,7 +35,7 @@ for(const entry of source.approved){
   const datasetText=[record[rule.title],record[rule.field],record.coverage,record.description,record.kind].join(' ');
   const genericTitle=/^(in[ií]cio|inicio|home|start|eventos?|events?|about|sobre|contact|contato|menu|search|login|register|news|blog|resources?|opportunities?|calend[áa]rio|calendar)$/i.test(String(record[rule.title]).trim());
   const navNoise=/ir para o (conte[uú]do|menu|navega[cç][aã]o|rodap[eé]|mapa do site|in[ií]cio|p[aá]gina inicial|busca)|aten[cç][aã]o! seu navegador|nome do site/i.test(String(record.coverage));
-  const excludedPage=/calendly\\.com|github\\.com\\/[^\\s]+\\/(?:security\\/advisories|blob\\/)[^\\s]*(?:CODE_OF_CONDUCT|code_of_conduct)|opensanctions\\.org\\/docs\\/metadata/i.test(String(url)+' '+String(description));
+ const excludedPage=new RegExp("calendly\\.com|github\\.com/[^\\s]+/(?:security/advisories|blob/)[^\\s]*(?:CODE_OF_CONDUCT|code_of_conduct)|opensanctions\\.org/docs/metadata","i").test(String(url)+' '+String(description));
  if(excludedPage)return null;
  const datasetSignal=/(dataset|data[- ]?catalog|open[- ]?data|dados?[- ]abertos?|database|base de dados|catalog|cat[aá]logo de dados|api|csv|json|estat[ií]stic|indicador|microdados|portal(?:.{0,20})dados|data portal|geodados|datacatalog|\/datasets?\/)/i.test(datasetText);
   if(genericTitle||navNoise||!datasetSignal)throw Error('Dataset evidence is insufficient or page is generic/navigation: '+record.id);
