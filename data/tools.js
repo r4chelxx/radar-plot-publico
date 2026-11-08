@@ -1,6 +1,14 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.tools=[
 {
+  "id": "auto-ef6cc1882133a881",
+  "name": "Toolkits | International Journalists&#039; Network",
+  "kind": "ferramenta",
+  "url": "https://ijnet.org/en/toolkits",
+  "desc": "IJNet delivers the latest on global media innovation, news apps and tools, training opportunities and expert advice for professional and citizen journalists worldwide. Produced by the International Center for Journalists, IJNet follows the shifting journalism scene from a global perspective in eight languages - Arabic, Chinese, English, Persian, Portuguese, Russian, Spanish and French. Revisar licença, limites, privacidade e acessibilidade antes do uso editorial.",
+  "discoveryUrl": "https://ijnet.org/en/toolkits"
+}, 
+{
   "id": "samgeo-geospatial-image-segmentation",
   "name": "SamGeo — segmentação de imagens geoespaciais com IA",
   "kind": "biblioteca Python aberta para análise de imagens e sensoriamento remoto",
