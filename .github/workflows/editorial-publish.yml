@@ -5,6 +5,13 @@ on:
   pull_request:
     paths:
       - '.github/workflows/editorial-publish.yml'
+      - 'scripts/publish-approved.js'
+      - 'scripts/test-editorial-pipeline.js'
+      - 'data/datasets.js'
+      - 'data/tools.js'
+      - 'data/opportunities.js'
+      - 'data/changelog.js'
+      - 'intake/approved-publications.json'
   push:
     branches: [main]
     paths:

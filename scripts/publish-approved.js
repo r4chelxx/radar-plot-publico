@@ -16,6 +16,7 @@ const D=ctx.window.RADAR_PARTS,insertions={opportunities:[],datasets:[],tools:[]
 const dateParts=Object.fromEntries(new Intl.DateTimeFormat('en-US',{timeZone:'America/Bahia',year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(new Date()).map(p=>[p.type,p.value]));
 const today=[dateParts.year,dateParts.month,dateParts.day].join('-');
 const safeUrl=x=>{try{const u=new URL(x);return u.protocol==='https:'&&!!u.hostname}catch{return false}};
+const placeholder=x=>!String(x||'').trim()||/^(?:n\/?a|unknown|not provided|não informado(?: na fonte estruturada)?|não disponível|desconhecido)$/i.test(String(x).trim());
 const canonicalUrl=x=>{const u=new URL(x);u.hash='';u.hostname=u.hostname.toLowerCase();u.pathname=u.pathname.replace(new RegExp('/+$'),'')||'/';return u.toString()};
 const existingUrls=new Map();
 for(const [category,rule] of Object.entries(spec))for(const existing of D[category]||[]){const value=existing[rule.field];if(safeUrl(value))existingUrls.set(canonicalUrl(value),existing.id)}
@@ -26,7 +27,9 @@ for(const entry of source.approved){
  if(!record.id||!/^[-a-z0-9]+$/.test(record.id))throw Error('Invalid record ID');
  if(approvedIds.has(record.id))throw Error('Duplicate approval: '+record.id);
  approvedIds.add(record.id);
- if(proof.decision!=='approved'||!proof.reviewedBy||!/^\d{4}-\d{2}-\d{2}$/.test(proof.reviewedAt||'')||!safeUrl(proof.officialUrl)||!proof.evidence||String(proof.evidence).length<25)throw Error('Missing editorial verification: '+record.id);
+ const automatedReview=/auditoria automática|automatic(?:ally|ed)?|automated|\b(?:bot|robot)\b/i.test(String(proof.reviewedBy||''));
+ const boilerplateEvidence=/metadados estruturados explícitos da própria fonte confirmam os campos publicados|fonte primária https, página html acessível/i.test(String(proof.evidence||''));
+ if(proof.decision!=='approved'||!proof.reviewedBy||automatedReview||boilerplateEvidence||!/^\d{4}-\d{2}-\d{2}$/.test(proof.reviewedAt||'')||!safeUrl(proof.officialUrl)||!proof.evidence||String(proof.evidence).length<25)throw Error('Missing item-level editorial verification: '+record.id);
  if(!record[rule.title]||!safeUrl(record[rule.field]))throw Error('Missing public record fields: '+record.id);
  if(new URL(proof.officialUrl).hostname!==new URL(record[rule.field]).hostname)throw Error('Official source does not match record: '+record.id);
  if(category==='opportunities'&&(!record.deadlineStatus||!record.eligibility||!record.status))throw Error('Opportunity requires deadline status, eligibility and status: '+record.id);
@@ -35,16 +38,20 @@ for(const entry of source.approved){
   const datasetText=[record[rule.title],record[rule.field],record.coverage,record.description,record.kind].join(' ');
   const genericTitle=/^(in[ií]cio|inicio|home|start|eventos?|events?|about|sobre|contact|contato|menu|search|login|register|news|blog|resources?|opportunities?|calend[áa]rio|calendar)$/i.test(String(record[rule.title]).trim());
   const navNoise=/ir para o (conte[uú]do|menu|navega[cç][aã]o|rodap[eé]|mapa do site|in[ií]cio|p[aá]gina inicial|busca)|aten[cç][aã]o! seu navegador|nome do site/i.test(String(record.coverage));
- const datasetSignal=/(dataset|data[- ]?catalog|open[- ]?data|dados?[- ]abertos?|database|base de dados|catalog|cat[aá]logo de dados|api|csv|json|estat[ií]stic|indicador|microdados|portal(?:.{0,20})dados|data portal|geodados|datacatalog|\/datasets?\/)/i.test(datasetText);
-  const excludedPage=/calendly\.com|github\.com\/[^\s]+\/(?:security\/advisories|blob\/)[^\s]*(?:CODE_OF_CONDUCT|code_of_conduct)|opensanctions\.org\/docs\/metadata/i.test(String(record[rule.field])+' '+datasetText);
-  if(excludedPage)throw Error('Dataset source is not a dataset page: '+record.id);
+  const datasetSignal=/(dataset|data[- ]?catalog|open[- ]?data|dados?[- ]abertos?|database|base de dados|catalog|cat[aá]logo de dados|api|csv|json|estat[ií]stic|indicador|microdados|portal(?:.{0,20})dados|data portal|geodados|datacatalog|\/datasets?\/)/i.test(datasetText);
+  const excludedPage=/calendly\.com|github\.com\/[^\s]+\/(?:security\/advisories|blob\/)[^\s]*(?:CODE_OF_CONDUCT|code_of_conduct)|opensanctions\.org\/docs\/metadata|forum\.ecmwf\.int\/t\/|\/(?:blog|articles?|news|posts?)\//i.test(String(record[rule.field])+' '+datasetText);
+  const unverifiedFormat=placeholder(record.format);
+  const announcementOrArticle=/\b(feedback[- ]gathering survey|new dataset published|dataset transparency mandates|how we.ve built|data sources)\b/i.test(String(record[rule.title]));
+  if(excludedPage||announcementOrArticle||!['dataset','catalog','portal','system'].includes(String(record.kind||'').toLowerCase())||!record.org||/^forum$/i.test(String(record.org))||unverifiedFormat)throw Error('Dataset lacks a direct, usable resource and verified access format: '+record.id);
   if(genericTitle||navNoise||!datasetSignal)throw Error('Dataset evidence is insufficient or page is generic/navigation: '+record.id);
  }
  if(category==='tools'){
   if(!record.kind||!record.desc||record.desc.length<70)throw Error('Tool requires kind and substantive description with limitations: '+record.id);
-  const excludedToolPage=new RegExp("mediawiki\\.org|wikidata\\.org/wiki/Special:NewItem|github\\.com/[^\\s]+/blob/|/news/|/item/|/program(?:/|$)","i").test(String(record.url));
+  const excludedToolPage=new RegExp("mediawiki\\.org|wikidata\\.org/wiki/Special:NewItem|github\\.com/[^\\s]+/blob/|/news/|/item/|/program(?:/|$)|substack\\.com|/blog/|/conference(?:/|$)|/events?(?:/|$)","i").test(String(record.url));
+  const genericToolKind=/^(?:tool|ferramenta|software|application|aplicativo)$/i.test(String(record.kind||'').trim());
+  const nonToolTitle=/\b(?:blog|newsletter|conference|festival|portfolio|curated list|course|tutorial|researcher|designer|artist|interactive news)\b/i.test(String(record.name||''));
   const navigationTool=/jump to content|main menu|navigation|create account|log in|personal tools|toggle the table|page discussion|read edit view history|contents move to sidebar|search search/i.test(String(record.desc));
-  if(excludedToolPage||navigationTool)throw Error('Tool evidence is insufficient or page is navigation/article: '+record.id);
+  if(excludedToolPage||genericToolKind||nonToolTitle||navigationTool)throw Error('Tool evidence is insufficient or page is navigation, article, profile or event: '+record.id);
  }
  const old=D[category].find(x=>x.id===record.id);
  const canonical=canonicalUrl(record[rule.field]);
