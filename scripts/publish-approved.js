@@ -30,7 +30,14 @@ for(const entry of source.approved){
  if(!record[rule.title]||!safeUrl(record[rule.field]))throw Error('Missing public record fields: '+record.id);
  if(new URL(proof.officialUrl).hostname!==new URL(record[rule.field]).hostname)throw Error('Official source does not match record: '+record.id);
  if(category==='opportunities'&&(!record.deadlineStatus||!record.eligibility||!record.status))throw Error('Opportunity requires deadline status, eligibility and status: '+record.id);
- if(category==='datasets'&&(!record.coverage||!record.limitations))throw Error('Dataset requires coverage and limitations: '+record.id);
+ if(category==='datasets'){
+  if(!record.coverage||!record.limitations)throw Error('Dataset requires coverage and limitations: '+record.id);
+  const datasetText=[record[rule.title],record[rule.field],record.coverage,record.description,record.kind].join(' ');
+  const genericTitle=/^(in[ií]cio|inicio|home|start|eventos?|events?|about|sobre|contact|contato|menu|search|login|register|news|blog|resources?|opportunities?|calend[áa]rio|calendar)$/i.test(String(record[rule.title]).trim());
+  const navNoise=/ir para o (conte[uú]do|menu|navega[cç][aã]o|rodap[eé]|mapa do site|in[ií]cio|p[aá]gina inicial|busca)|aten[cç][aã]o! seu navegador|nome do site/i.test(String(record.coverage));
+  const datasetSignal=/(dataset|data[- ]?catalog|open[- ]?data|dados?[- ]abertos?|database|base de dados|catalog|cat[aá]logo de dados|api|csv|json|estat[ií]stic|indicador|microdados|datacatalog|\/datasets?\/)/i.test(datasetText);
+  if(genericTitle||navNoise||!datasetSignal)throw Error('Dataset evidence is insufficient or page is generic/navigation: '+record.id);
+ }
  if(category==='tools'&&(!record.kind||!record.desc||record.desc.length<70))throw Error('Tool requires kind and substantive description with limitations: '+record.id);
  const old=D[category].find(x=>x.id===record.id);
  const canonical=canonicalUrl(record[rule.field]);
