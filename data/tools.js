@@ -1,6 +1,14 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.tools=[
 {
+  "id": "auto-ce58085ef1edfb47",
+  "name": "mediawiki-services-parsoid/tools/sync-parserTests.js at 39ea4e49783b1f88326d6ebddd14e08bb39cb649 · wikimedia/mediawiki-services-parsoid",
+  "kind": "ferramenta",
+  "url": "https://github.com/wikimedia/mediawiki-services-parsoid/blob/39ea4e49783b1f88326d6ebddd14e08bb39cb649/tools/sync-parserTests.js",
+  "desc": "This is a mirror from https://gerrit.wikimedia.org/g/mediawiki/services/parsoid/. See https://www.mediawiki.org/wiki/Developer_access for contributing. - mediawiki-services-parsoid/tools/sync-parserTests.js at 39ea4e49783b1f88326d6ebddd14e08bb39cb649 · wikimedia/mediawiki-services-parsoid Revisar licença, limites, privacidade e acessibilidade antes do uso editorial.",
+  "discoveryUrl": "https://github.com/wikimedia/parsoid/blob/39ea4e49783b1f88326d6ebddd14e08bb39cb649/tools/sync-parserTests.js#L5-L34"
+}, 
+{
   "id": "auto-ef6cc1882133a881",
   "name": "Toolkits | International Journalists&#039; Network",
   "kind": "ferramenta",

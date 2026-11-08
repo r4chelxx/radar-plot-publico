@@ -6,6 +6,18 @@ window.RADAR_PARTS.changelog=[
   "title": "Publicação editorial verificada — 2026-11-08",
   "items": [
     {
+      "id": "auto-ce58085ef1edfb47",
+      "title": "mediawiki-services-parsoid/tools/sync-parserTests.js at 39ea4e49783b1f88326d6ebddd14e08bb39cb649 · wikimedia/mediawiki-services-parsoid"
+    }
+  ],
+  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: mediawiki-services-parsoid/tools/sync-parserTests.js at 39ea4e49783b1f88326d6ebddd14e08bb39cb649 · wikimedia/mediawiki-services-parsoid."
+}, 
+{
+  "date": "2026-11-08",
+  "type": "ferramentas",
+  "title": "Publicação editorial verificada — 2026-11-08",
+  "items": [
+    {
       "id": "auto-ef6cc1882133a881",
       "title": "Toolkits | International Journalists&#039; Network"
     },
