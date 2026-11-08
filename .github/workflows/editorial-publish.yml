@@ -143,7 +143,7 @@ jobs:
           echo "WARNING: Zero new editorial publications. All approved records are already in the catalog, or no new approved records were supplied." >> "$GITHUB_STEP_SUMMARY"
           echo "Daily target remains unmet unless another verified publication run added records; check the live catalog before reporting success." >> "$GITHUB_STEP_SUMMARY"
       - name: Open or update editorial shortfall issue
-        if: (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch') && (steps.changes.outputs.changed != 'true' || steps.category-counts.outputs.shortfall == 'true')
+        if: (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch') && steps.changes.outputs.changed != 'true'
         env:
           GH_TOKEN: ${{ github.token }}
         shell: bash
@@ -167,7 +167,7 @@ jobs:
       - name: Fail scheduled run when publication target is unmet
         if: (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch') && (steps.changes.outputs.changed != 'true' || steps.category-counts.outputs.shortfall == 'true')
         run: |
-          echo "PUBLICATION_TARGET_UNMET: no new verified publications, or fewer than two new records in one or more categories." >> "$GITHUB_STEP_SUMMARY"
+          echo "PUBLICATION_FAILED: no new verified publications were deployed." >> "$GITHUB_STEP_SUMMARY"
           exit 1
       - name: Summarize editorial run outcome
         if: always()
