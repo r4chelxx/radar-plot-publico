@@ -2,6 +2,18 @@ window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
 {
   "date": "2026-11-08",
+  "type": "ferramentas",
+  "title": "Publicação editorial verificada — 2026-11-08",
+  "items": [
+    {
+      "id": "auto-6dfe0fe7061c7f49",
+      "title": "Wikimedia Hackathon 2023/Program - MediaWiki"
+    }
+  ],
+  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Wikimedia Hackathon 2023/Program - MediaWiki."
+}, 
+{
+  "date": "2026-11-08",
   "type": "dados",
   "title": "Publicação editorial verificada — 2026-11-08",
   "items": [
