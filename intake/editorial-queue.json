@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T13:15:02.999Z",
+  "updatedAt": "2026-11-08T13:21:36.214Z",
   "policy": "Public web leads only; pending does not mean verified or approved.",
   "candidates": [
     {
@@ -7052,7 +7052,7 @@
       ],
       "firstSeen": "2026-11-02T21:50:50.466Z",
       "lastSeen": "2026-11-02T21:50:50.466Z",
-      "status": "pending",
+      "status": "in-review",
       "reviewPriority": "high"
     },
     {
@@ -7286,7 +7286,7 @@
       ],
       "firstSeen": "2026-11-04T19:57:04.749Z",
       "lastSeen": "2026-11-04T19:57:04.749Z",
-      "status": "pending",
+      "status": "in-review",
       "reviewPriority": "high"
     },
     {
@@ -7585,7 +7585,7 @@
       ],
       "firstSeen": "2026-11-08T07:06:38.116Z",
       "lastSeen": "2026-11-08T09:05:13.983Z",
-      "status": "pending",
+      "status": "in-review",
       "reviewPriority": "high"
     }
   ]
