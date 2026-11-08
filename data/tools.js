@@ -1,191 +1,182 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.tools=[
-{
-  "id": "auto-ef6cc1882133a881",
-  "name": "Toolkits | International Journalists&#039; Network",
-  "kind": "ferramenta",
-  "url": "https://ijnet.org/en/toolkits",
-  "desc": "IJNet delivers the latest on global media innovation, news apps and tools, training opportunities and expert advice for professional and citizen journalists worldwide. Produced by the International Center for Journalists, IJNet follows the shifting journalism scene from a global perspective in eight languages - Arabic, Chinese, English, Persian, Portuguese, Russian, Spanish and French. Revisar licença, limites, privacidade e acessibilidade antes do uso editorial.",
-  "discoveryUrl": "https://ijnet.org/en/toolkits"
-}, 
-{
-  "id": "samgeo-geospatial-image-segmentation",
-  "name": "SamGeo — segmentação de imagens geoespaciais com IA",
-  "kind": "biblioteca Python aberta para análise de imagens e sensoriamento remoto",
-  "url": "https://samgeo.gishub.org/",
-  "desc": "Biblioteca Python de código aberto (licença MIT) para segmentar imagens geoespaciais com modelos Segment Anything (SAM), trabalhar com GeoTIFF e exportar resultados como GeoJSON, GeoPackage ou Shapefile. Útil para investigar mudanças de uso do solo e analisar imagens de satélite; exige validação humana dos segmentos, ambiente Python e recursos computacionais adequados. Modelos de IA podem produzir falsos positivos e omissões.",
-  "discoveryUrl": "https://samgeo.gishub.org/"
-},
-{
-  "id": "hot-tasking-manager-humanitarian-mapping",
-  "name": "HOT Tasking Manager — mapeamento humanitário colaborativo",
-  "kind": "plataforma web aberta de coordenação e validação de mapeamento OpenStreetMap",
-  "url": "https://tasks.hotosm.org/",
-  "desc": "Plataforma da Humanitarian OpenStreetMap Team (HOT) para dividir regiões em tarefas de mapeamento colaborativo, acompanhar progresso e validar feições como edifícios e vias no OpenStreetMap. Útil para localizar lacunas cartográficas e apoiar investigações territoriais e de desastres; a cobertura e a qualidade dependem das contribuições e da revisão comunitária. Não substitui validação em campo nem comprova, por si só, condições atuais de uma área.",
-  "discoveryUrl": "https://hotosm.org/"
-}, 
-{
-  "id": "d3js-interactive-data-visualization",
-  "name": "D3.js — visualização de dados interativa",
-  "kind": "biblioteca JavaScript para visualizações e narrativas interativas",
-  "url": "https://d3js.org/",
-  "desc": "Biblioteca JavaScript aberta (licença ISC) para construir gráficos, mapas e visualizações interativas sob medida, com escalas, eixos, projeções e animações. Exige programação e cuidados específicos de acessibilidade, desempenho e representação estatística; não fornece um editor visual pronto.",
-  "discoveryUrl": "https://d3js.org/"
-},
-{
-  "id": "google-data-studio-dashboards",
-  "name": "Google Data Studio (Looker Studio) — dashboards e relatórios",
-  "kind": "painéis interativos, conectores e visualização sem programação",
-  "url": "https://lookerstudio.google.com/",
-  "desc": "Ferramenta web do Google para criar e compartilhar dashboards, gráficos e relatórios com conectores de dados e incorporação em páginas. Exige conta e configuração de permissões; custos, limites e disponibilidade dependem de conectores, serviços e modalidade utilizada. Conferir privacidade e atualização das fontes.",
-  "discoveryUrl": "https://developers.google.com/data-studio"
-},
-{
-  "id": "mapbox-interactive-maps",
-  "name": "Mapbox — mapas interativos e cartografia web",
-  "kind": "plataforma de mapas, estilos e APIs geoespaciais",
-  "url": "https://www.mapbox.com/",
-  "desc": "Plataforma de mapas interativos, geocodificação, estilos cartográficos e APIs para projetos digitais, incluindo narrativas geográficas. Requer conta e credenciais de acesso; possui franquias gratuitas e cobrança por uso conforme produto. Dados e mapas-base têm termos próprios, e precisão e acessibilidade devem ser verificadas.",
-  "discoveryUrl": "https://www.mapbox.com/pricing"
-}, 
-{
-  "id": "deck-gl-geospatial-visualization",
-  "name": "deck.gl — visualização geoespacial em grande escala",
-  "kind": "visualização geoespacial interativa com WebGL/WebGPU",
-  "url": "https://deck.gl/",
-  "desc": "Framework JavaScript para visualizações exploratórias de grandes conjuntos de dados, com camadas geográficas, GeoJSON, pontos, linhas e integração a mapas-base. Exige programação e avaliação de desempenho e acessibilidade; a licença de dados e dos mapas-base depende das fontes utilizadas.",
-  "discoveryUrl": "https://deck.gl/docs/api-reference/layers"
-},
-{
-  "id": "scikit-learn-python-machine-learning",
-  "name": "scikit-learn — aprendizado de máquina em Python",
-  "kind": "análise preditiva, classificação, regressão e agrupamento",
-  "url": "https://scikit-learn.org/stable/",
-  "desc": "Biblioteca aberta de aprendizado de máquina em Python, com classificação, regressão, clustering e avaliação de modelos, sob licença BSD. Útil para análise exploratória e investigação assistida por dados; resultados exigem validação estatística, revisão de vieses e documentação de hipóteses.",
-  "discoveryUrl": "https://scikit-learn.org/stable/"
-},
-{
-  "id": "p5js-creative-coding",
-  "name": "p5.js — programação criativa e narrativas interativas",
-  "kind": "gráficos generativos, animação e narrativas visuais web",
-  "url": "https://p5js.org/",
-  "desc": "Biblioteca JavaScript gratuita e aberta para criar desenhos, animações e experiências interativas no navegador, com editor web e documentação. Adequada a experimentações em jornalismo visual; requer programação e testes de acessibilidade e desempenho. Licença da biblioteca LGPL 2.1; exemplos e materiais têm condições próprias.",
-  "discoveryUrl": "https://p5js.org/about/"
-},
-
-{
-  "id": "pondpilot-duckdb-browser-sql",
-  "name": "PondPilot — exploração SQL de dados no navegador",
-  "kind": "análise de dados tabulares, SQL e DuckDB-WASM",
-  "url": "https://pondpilot.io/app/",
-  "desc": "Aplicação gratuita e aberta para consultar arquivos CSV, Parquet, JSON, planilhas e bases DuckDB diretamente no navegador, com editor SQL, resultados tabulares e exportação. Processamento básico ocorre localmente via DuckDB-WASM; funções opcionais de IA usam chaves e provedores externos, exigindo avaliação de privacidade. No Safari, algumas funções de persistência de arquivos são limitadas; não substitui validação e limpeza dos dados.",
-  "discoveryUrl": "https://github.com/pondpilot/pondpilot"
-},
-{
-  "id": "osomenet-social-diffusion",
-  "name": "OSoMeNet — redes de difusão em mídias sociais",
-  "kind": "análise de redes e circulação de informação pública",
-  "url": "https://osome.iu.edu/tools/osomenet/",
-  "desc": "Ferramenta acadêmica para visualizar redes de difusão e coocorrência de postagens em Bluesky, Mastodon, TikTok e arquivo histórico OSoMe, com linha do tempo e consultas por termos. A cobertura depende das APIs, permissões e limites de cada plataforma; TikTok pode exigir credenciais de pesquisa e os resultados não representam amostras completas. Conferir termos, representatividade e privacidade antes de usar em investigação.",
-  "discoveryUrl": "https://osome.iu.edu/tools/osomenet/about"
-},
-{
-  "id": "reactable-r-interactive-tables",
-  "name": "reactable — tabelas interativas em R",
-  "kind": "tabelas interativas, visualização e publicação de dados",
-  "url": "https://glin.github.io/reactable/",
-  "desc": "Pacote R de código aberto (MIT) para tabelas interativas com ordenação, filtros, paginação, agrupamento, estilos condicionais e renderização personalizada, utilizável em Shiny, Quarto e R Markdown. Exige R e preparação dos dados; grandes tabelas podem precisar de virtualização ou processamento no servidor. Revisar acessibilidade, anonimização e dados sensíveis antes de publicar.",
-  "discoveryUrl": "https://glin.github.io/reactable/reference/reactable.html"
-},
-{
-  "id": "saucenao-reverse-image-search",
-  "name": "SauceNAO — busca reversa especializada de imagens",
-  "kind": "busca reversa e rastreamento de origem de imagens",
-  "url": "https://saucenao.com/",
-  "desc": "Mecanismo de busca reversa de imagens para localizar possíveis fontes e correspondências em índices especializados de ilustração, quadrinhos, plataformas de arte, filmes e outras coleções. Permite envio de imagem para consulta, mas não cobre toda a web nem comprova autenticidade ou autoria por si só. Evitar subir imagens sensíveis sem avaliar os termos de serviço, privacidade e direitos de terceiros.",
-  "discoveryUrl": "https://saucenao.com/about.html"
-}, 
-{
-  "id": "chartist-responsive-svg-charts",
-  "name": "Chartist — gráficos SVG responsivos em JavaScript",
-  "kind": "gráficos responsivos e visualização web em SVG",
-  "url": "https://chartist.dev/",
-  "desc": "Biblioteca JavaScript de código aberto para gráficos responsivos renderizados em SVG e estilizados por CSS, com séries, barras, linhas e composição de gráficos. Pode ser integrada por módulo ES ou npm; útil para infográficos web leves e personalizáveis. Requer programação e validação de dados, escalas, contraste, acessibilidade e comportamento em dispositivos móveis. Recursos avançados de zoom e tooltips podem depender de plugins.",
-  "discoveryUrl": "https://buttondown.com/puntofisso/archive/680-quantum-of-sollazzo/"
-},
-{
-  "id": "rustgis-opengeos",
-  "name": "RustGIS — SIG livre para desktop e navegador",
-  "kind": "sistema de informação geográfica e análise espacial",
-  "url": "https://rustgis.app/",
-  "desc": "Aplicativo GIS de código aberto escrito em Rust, disponível para desktop e navegador (WebAssembly), com importação de GeoJSON, CSV, GeoTIFF e projetos espaciais, além de ferramentas de análise e exportação. O processamento local não implica envio automático dos dados, mas mapas-base, plugins e recursos opcionais de IA podem acessar serviços externos. A compatibilidade depende do navegador (WebGPU/WebGL2) e da maturidade das funções; conferir projeções, resultados e privacidade antes de uso jornalístico.",
-  "discoveryUrl": "https://web.rustgis.app/"
-},
-{
-  "id": "vega-lite-visualization-grammar",
-  "name": "Vega-Lite — gramática declarativa de visualização",
-  "kind": "visualização interativa de dados e gráficos declarativos",
-  "url": "https://vega.github.io/vega-lite/",
-  "desc": "Biblioteca aberta para especificar gráficos e visualizações interativas em JSON, incluindo camadas, múltiplas visões, filtros, agregações e seleções. Compila especificações para Vega; útil para visualizações reproduzíveis de dados jornalísticos. Exige conhecimentos de estrutura de dados, JSON e integração web; não substitui auditoria estatística, acessibilidade nem verificação de fontes. Documentação e editor online no projeto oficial.",
-  "discoveryUrl": "https://vega.github.io/"
-},
-{
-  "id": "inkscape-svg-editor",
-  "name": "Inkscape — editor vetorial SVG livre",
-  "kind": "edição de gráficos vetoriais e acabamento de visualizações",
-  "url": "https://inkscape.org/",
-  "desc": "Editor de código aberto para trabalhar com SVG, caminhos, camadas, textos e ilustrações vetoriais; útil para finalizar gráficos jornalísticos exportados em SVG e criar diagramas. Disponível para Windows, macOS e Linux, sem assinatura. É um editor de desenho, não uma ferramenta de análise estatística; revisar acessibilidade, fontes, licença de elementos externos e integridade dos dados antes da publicação.",
-  "discoveryUrl": "https://inkscape.org/"
-},
-{
-  "id": "google-earth-engine",
-  "name": "Google Earth Engine — análise geoespacial em nuvem",
-  "kind": "sensoriamento remoto e análise geoespacial de imagens de satélite",
-  "url": "https://earthengine.google.com/",
-  "desc": "Plataforma para consultar imagens de satélite e conjuntos geoespaciais, processar séries temporais, detectar mudanças ambientais e construir análises em Python ou JavaScript. Inclui editor de código e catálogo de dados. Requer conta, projeto Google Cloud registrado e conhecimento técnico; uso gratuito depende de elegibilidade e verificação periódica de finalidade não comercial, com cotas de processamento. A cobertura e a resolução variam por coleção, e resultados de classificação exigem validação independente.",
-  "discoveryUrl": "https://earthengine.google.com/"
-},
-{
-  "id": "folium-python-leaflet-maps",
-  "name": "Folium — mapas interativos em Python",
-  "kind": "cartografia interativa e visualização geoespacial em Python",
-  "url": "https://python-visualization.github.io/folium/latest/",
-  "desc": "Biblioteca de código aberto que transforma dados tratados em Python em mapas interativos baseados em Leaflet, com marcadores, camadas, coropléticos e dados GeoJSON. Permite exportar mapas HTML e integrar resultados a notebooks. Requer programação e conferência de projeções, atribuição de mapas-base e licenças das fontes; mapas exportados podem depender de recursos externos para carregar tiles e scripts, e a interatividade não substitui verificação cartográfica nem acessibilidade.",
-  "discoveryUrl": "https://python-visualization.github.io/folium/"
-}, 
-{
-  "id": "crawlback-common-crawl",
-  "name": "Crawlback — busca em páginas arquivadas do Common Crawl",
-  "kind": "investigação digital e recuperação de versões arquivadas de páginas",
-  "url": "https://crawlback.cc/",
-  "desc": "Pesquisa capturas históricas de páginas e domínios no índice público do Common Crawl, com datas de captura, visualização de HTML em ambiente isolado e exportação de listas em CSV ou HTML em ZIP. As consultas são realizadas no navegador e o histórico local pode ser apagado. A cobertura do Common Crawl é amostral e não garante recuperar todas as páginas ou versões; confirme o contexto, a integridade e a data antes de usar como evidência jornalística.",
-  "discoveredVia": [
-    "Indicator"
-  ],
-  "discoveryUrl": "https://crawlback.cc/"
-}, 
-{
-  "id": "okbr-querido-diario-tecnologias-educacao",
-  "name": "Querido Diário — Tecnologias na Educação",
-  "kind": "busca em diários oficiais e monitoramento de contratações educacionais",
-  "url": "https://ok.org.br/projetos/qd-tecnologias-educacao/",
-  "desc": "Projeto da Open Knowledge Brasil que identifica e organiza atos de diários oficiais municipais sobre tecnologia na educação, incluindo conectividade, infraestrutura, softwares e serviços. Permite pesquisa por cidade, período e categoria e criação de alertas, conforme a documentação do projeto. Desenvolvido entre 2022 e 2024; confirmar a disponibilidade atual da interface e a cobertura municipal antes de depender dos resultados em investigação.",
-  "discoveredVia": [
-    "Open Knowledge Brasil"
-  ],
-  "discoveryUrl": "https://ok.org.br/projetos/qd-tecnologias-educacao/"
-}, 
-{
-  "id": "playwright-browser-automation",
-  "name": "Playwright — automação e testes de navegadores",
-  "kind": "automação de navegador, testes de interface e coleta web",
-  "url": "https://playwright.dev/python/",
-  "desc": "Framework aberto de automação de navegadores para testes de interface, captura de páginas e coleta programática, com suporte a Chromium, Firefox e WebKit e APIs para Python, JavaScript, .NET e Java. Exige programação, instalação de navegadores e dependências; raspagens devem respeitar termos de uso, limites de acesso, privacidade e LGPD. Não contorna autenticação ou bloqueios de acesso.",
-  "discoveredVia": [
-    "Data Visualization Society"
-  ],
-  "discoveryUrl": "https://playwright.dev/python"
-}, 
+  {
+    "id": "samgeo-geospatial-image-segmentation",
+    "name": "SamGeo — segmentação de imagens geoespaciais com IA",
+    "kind": "biblioteca Python aberta para análise de imagens e sensoriamento remoto",
+    "url": "https://samgeo.gishub.org/",
+    "desc": "Biblioteca Python de código aberto (licença MIT) para segmentar imagens geoespaciais com modelos Segment Anything (SAM), trabalhar com GeoTIFF e exportar resultados como GeoJSON, GeoPackage ou Shapefile. Útil para investigar mudanças de uso do solo e analisar imagens de satélite; exige validação humana dos segmentos, ambiente Python e recursos computacionais adequados. Modelos de IA podem produzir falsos positivos e omissões.",
+    "discoveryUrl": "https://samgeo.gishub.org/"
+  },
+  {
+    "id": "hot-tasking-manager-humanitarian-mapping",
+    "name": "HOT Tasking Manager — mapeamento humanitário colaborativo",
+    "kind": "plataforma web aberta de coordenação e validação de mapeamento OpenStreetMap",
+    "url": "https://tasks.hotosm.org/",
+    "desc": "Plataforma da Humanitarian OpenStreetMap Team (HOT) para dividir regiões em tarefas de mapeamento colaborativo, acompanhar progresso e validar feições como edifícios e vias no OpenStreetMap. Útil para localizar lacunas cartográficas e apoiar investigações territoriais e de desastres; a cobertura e a qualidade dependem das contribuições e da revisão comunitária. Não substitui validação em campo nem comprova, por si só, condições atuais de uma área.",
+    "discoveryUrl": "https://hotosm.org/"
+  },
+  {
+    "id": "d3js-interactive-data-visualization",
+    "name": "D3.js — visualização de dados interativa",
+    "kind": "biblioteca JavaScript para visualizações e narrativas interativas",
+    "url": "https://d3js.org/",
+    "desc": "Biblioteca JavaScript aberta (licença ISC) para construir gráficos, mapas e visualizações interativas sob medida, com escalas, eixos, projeções e animações. Exige programação e cuidados específicos de acessibilidade, desempenho e representação estatística; não fornece um editor visual pronto.",
+    "discoveryUrl": "https://d3js.org/"
+  },
+  {
+    "id": "google-data-studio-dashboards",
+    "name": "Google Data Studio (Looker Studio) — dashboards e relatórios",
+    "kind": "painéis interativos, conectores e visualização sem programação",
+    "url": "https://lookerstudio.google.com/",
+    "desc": "Ferramenta web do Google para criar e compartilhar dashboards, gráficos e relatórios com conectores de dados e incorporação em páginas. Exige conta e configuração de permissões; custos, limites e disponibilidade dependem de conectores, serviços e modalidade utilizada. Conferir privacidade e atualização das fontes.",
+    "discoveryUrl": "https://developers.google.com/data-studio"
+  },
+  {
+    "id": "mapbox-interactive-maps",
+    "name": "Mapbox — mapas interativos e cartografia web",
+    "kind": "plataforma de mapas, estilos e APIs geoespaciais",
+    "url": "https://www.mapbox.com/",
+    "desc": "Plataforma de mapas interativos, geocodificação, estilos cartográficos e APIs para projetos digitais, incluindo narrativas geográficas. Requer conta e credenciais de acesso; possui franquias gratuitas e cobrança por uso conforme produto. Dados e mapas-base têm termos próprios, e precisão e acessibilidade devem ser verificadas.",
+    "discoveryUrl": "https://www.mapbox.com/pricing"
+  },
+  {
+    "id": "deck-gl-geospatial-visualization",
+    "name": "deck.gl — visualização geoespacial em grande escala",
+    "kind": "visualização geoespacial interativa com WebGL/WebGPU",
+    "url": "https://deck.gl/",
+    "desc": "Framework JavaScript para visualizações exploratórias de grandes conjuntos de dados, com camadas geográficas, GeoJSON, pontos, linhas e integração a mapas-base. Exige programação e avaliação de desempenho e acessibilidade; a licença de dados e dos mapas-base depende das fontes utilizadas.",
+    "discoveryUrl": "https://deck.gl/docs/api-reference/layers"
+  },
+  {
+    "id": "scikit-learn-python-machine-learning",
+    "name": "scikit-learn — aprendizado de máquina em Python",
+    "kind": "análise preditiva, classificação, regressão e agrupamento",
+    "url": "https://scikit-learn.org/stable/",
+    "desc": "Biblioteca aberta de aprendizado de máquina em Python, com classificação, regressão, clustering e avaliação de modelos, sob licença BSD. Útil para análise exploratória e investigação assistida por dados; resultados exigem validação estatística, revisão de vieses e documentação de hipóteses.",
+    "discoveryUrl": "https://scikit-learn.org/stable/"
+  },
+  {
+    "id": "p5js-creative-coding",
+    "name": "p5.js — programação criativa e narrativas interativas",
+    "kind": "gráficos generativos, animação e narrativas visuais web",
+    "url": "https://p5js.org/",
+    "desc": "Biblioteca JavaScript gratuita e aberta para criar desenhos, animações e experiências interativas no navegador, com editor web e documentação. Adequada a experimentações em jornalismo visual; requer programação e testes de acessibilidade e desempenho. Licença da biblioteca LGPL 2.1; exemplos e materiais têm condições próprias.",
+    "discoveryUrl": "https://p5js.org/about/"
+  },
+  {
+    "id": "pondpilot-duckdb-browser-sql",
+    "name": "PondPilot — exploração SQL de dados no navegador",
+    "kind": "análise de dados tabulares, SQL e DuckDB-WASM",
+    "url": "https://pondpilot.io/app/",
+    "desc": "Aplicação gratuita e aberta para consultar arquivos CSV, Parquet, JSON, planilhas e bases DuckDB diretamente no navegador, com editor SQL, resultados tabulares e exportação. Processamento básico ocorre localmente via DuckDB-WASM; funções opcionais de IA usam chaves e provedores externos, exigindo avaliação de privacidade. No Safari, algumas funções de persistência de arquivos são limitadas; não substitui validação e limpeza dos dados.",
+    "discoveryUrl": "https://github.com/pondpilot/pondpilot"
+  },
+  {
+    "id": "osomenet-social-diffusion",
+    "name": "OSoMeNet — redes de difusão em mídias sociais",
+    "kind": "análise de redes e circulação de informação pública",
+    "url": "https://osome.iu.edu/tools/osomenet/",
+    "desc": "Ferramenta acadêmica para visualizar redes de difusão e coocorrência de postagens em Bluesky, Mastodon, TikTok e arquivo histórico OSoMe, com linha do tempo e consultas por termos. A cobertura depende das APIs, permissões e limites de cada plataforma; TikTok pode exigir credenciais de pesquisa e os resultados não representam amostras completas. Conferir termos, representatividade e privacidade antes de usar em investigação.",
+    "discoveryUrl": "https://osome.iu.edu/tools/osomenet/about"
+  },
+  {
+    "id": "reactable-r-interactive-tables",
+    "name": "reactable — tabelas interativas em R",
+    "kind": "tabelas interativas, visualização e publicação de dados",
+    "url": "https://glin.github.io/reactable/",
+    "desc": "Pacote R de código aberto (MIT) para tabelas interativas com ordenação, filtros, paginação, agrupamento, estilos condicionais e renderização personalizada, utilizável em Shiny, Quarto e R Markdown. Exige R e preparação dos dados; grandes tabelas podem precisar de virtualização ou processamento no servidor. Revisar acessibilidade, anonimização e dados sensíveis antes de publicar.",
+    "discoveryUrl": "https://glin.github.io/reactable/reference/reactable.html"
+  },
+  {
+    "id": "saucenao-reverse-image-search",
+    "name": "SauceNAO — busca reversa especializada de imagens",
+    "kind": "busca reversa e rastreamento de origem de imagens",
+    "url": "https://saucenao.com/",
+    "desc": "Mecanismo de busca reversa de imagens para localizar possíveis fontes e correspondências em índices especializados de ilustração, quadrinhos, plataformas de arte, filmes e outras coleções. Permite envio de imagem para consulta, mas não cobre toda a web nem comprova autenticidade ou autoria por si só. Evitar subir imagens sensíveis sem avaliar os termos de serviço, privacidade e direitos de terceiros.",
+    "discoveryUrl": "https://saucenao.com/about.html"
+  },
+  {
+    "id": "chartist-responsive-svg-charts",
+    "name": "Chartist — gráficos SVG responsivos em JavaScript",
+    "kind": "gráficos responsivos e visualização web em SVG",
+    "url": "https://chartist.dev/",
+    "desc": "Biblioteca JavaScript de código aberto para gráficos responsivos renderizados em SVG e estilizados por CSS, com séries, barras, linhas e composição de gráficos. Pode ser integrada por módulo ES ou npm; útil para infográficos web leves e personalizáveis. Requer programação e validação de dados, escalas, contraste, acessibilidade e comportamento em dispositivos móveis. Recursos avançados de zoom e tooltips podem depender de plugins.",
+    "discoveryUrl": "https://buttondown.com/puntofisso/archive/680-quantum-of-sollazzo/"
+  },
+  {
+    "id": "rustgis-opengeos",
+    "name": "RustGIS — SIG livre para desktop e navegador",
+    "kind": "sistema de informação geográfica e análise espacial",
+    "url": "https://rustgis.app/",
+    "desc": "Aplicativo GIS de código aberto escrito em Rust, disponível para desktop e navegador (WebAssembly), com importação de GeoJSON, CSV, GeoTIFF e projetos espaciais, além de ferramentas de análise e exportação. O processamento local não implica envio automático dos dados, mas mapas-base, plugins e recursos opcionais de IA podem acessar serviços externos. A compatibilidade depende do navegador (WebGPU/WebGL2) e da maturidade das funções; conferir projeções, resultados e privacidade antes de uso jornalístico.",
+    "discoveryUrl": "https://web.rustgis.app/"
+  },
+  {
+    "id": "vega-lite-visualization-grammar",
+    "name": "Vega-Lite — gramática declarativa de visualização",
+    "kind": "visualização interativa de dados e gráficos declarativos",
+    "url": "https://vega.github.io/vega-lite/",
+    "desc": "Biblioteca aberta para especificar gráficos e visualizações interativas em JSON, incluindo camadas, múltiplas visões, filtros, agregações e seleções. Compila especificações para Vega; útil para visualizações reproduzíveis de dados jornalísticos. Exige conhecimentos de estrutura de dados, JSON e integração web; não substitui auditoria estatística, acessibilidade nem verificação de fontes. Documentação e editor online no projeto oficial.",
+    "discoveryUrl": "https://vega.github.io/"
+  },
+  {
+    "id": "inkscape-svg-editor",
+    "name": "Inkscape — editor vetorial SVG livre",
+    "kind": "edição de gráficos vetoriais e acabamento de visualizações",
+    "url": "https://inkscape.org/",
+    "desc": "Editor de código aberto para trabalhar com SVG, caminhos, camadas, textos e ilustrações vetoriais; útil para finalizar gráficos jornalísticos exportados em SVG e criar diagramas. Disponível para Windows, macOS e Linux, sem assinatura. É um editor de desenho, não uma ferramenta de análise estatística; revisar acessibilidade, fontes, licença de elementos externos e integridade dos dados antes da publicação.",
+    "discoveryUrl": "https://inkscape.org/"
+  },
+  {
+    "id": "google-earth-engine",
+    "name": "Google Earth Engine — análise geoespacial em nuvem",
+    "kind": "sensoriamento remoto e análise geoespacial de imagens de satélite",
+    "url": "https://earthengine.google.com/",
+    "desc": "Plataforma para consultar imagens de satélite e conjuntos geoespaciais, processar séries temporais, detectar mudanças ambientais e construir análises em Python ou JavaScript. Inclui editor de código e catálogo de dados. Requer conta, projeto Google Cloud registrado e conhecimento técnico; uso gratuito depende de elegibilidade e verificação periódica de finalidade não comercial, com cotas de processamento. A cobertura e a resolução variam por coleção, e resultados de classificação exigem validação independente.",
+    "discoveryUrl": "https://earthengine.google.com/"
+  },
+  {
+    "id": "folium-python-leaflet-maps",
+    "name": "Folium — mapas interativos em Python",
+    "kind": "cartografia interativa e visualização geoespacial em Python",
+    "url": "https://python-visualization.github.io/folium/latest/",
+    "desc": "Biblioteca de código aberto que transforma dados tratados em Python em mapas interativos baseados em Leaflet, com marcadores, camadas, coropléticos e dados GeoJSON. Permite exportar mapas HTML e integrar resultados a notebooks. Requer programação e conferência de projeções, atribuição de mapas-base e licenças das fontes; mapas exportados podem depender de recursos externos para carregar tiles e scripts, e a interatividade não substitui verificação cartográfica nem acessibilidade.",
+    "discoveryUrl": "https://python-visualization.github.io/folium/"
+  },
+  {
+    "id": "crawlback-common-crawl",
+    "name": "Crawlback — busca em páginas arquivadas do Common Crawl",
+    "kind": "investigação digital e recuperação de versões arquivadas de páginas",
+    "url": "https://crawlback.cc/",
+    "desc": "Pesquisa capturas históricas de páginas e domínios no índice público do Common Crawl, com datas de captura, visualização de HTML em ambiente isolado e exportação de listas em CSV ou HTML em ZIP. As consultas são realizadas no navegador e o histórico local pode ser apagado. A cobertura do Common Crawl é amostral e não garante recuperar todas as páginas ou versões; confirme o contexto, a integridade e a data antes de usar como evidência jornalística.",
+    "discoveredVia": [
+      "Indicator"
+    ],
+    "discoveryUrl": "https://crawlback.cc/"
+  },
+  {
+    "id": "okbr-querido-diario-tecnologias-educacao",
+    "name": "Querido Diário — Tecnologias na Educação",
+    "kind": "busca em diários oficiais e monitoramento de contratações educacionais",
+    "url": "https://ok.org.br/projetos/qd-tecnologias-educacao/",
+    "desc": "Projeto da Open Knowledge Brasil que identifica e organiza atos de diários oficiais municipais sobre tecnologia na educação, incluindo conectividade, infraestrutura, softwares e serviços. Permite pesquisa por cidade, período e categoria e criação de alertas, conforme a documentação do projeto. Desenvolvido entre 2022 e 2024; confirmar a disponibilidade atual da interface e a cobertura municipal antes de depender dos resultados em investigação.",
+    "discoveredVia": [
+      "Open Knowledge Brasil"
+    ],
+    "discoveryUrl": "https://ok.org.br/projetos/qd-tecnologias-educacao/"
+  },
+  {
+    "id": "playwright-browser-automation",
+    "name": "Playwright — automação e testes de navegadores",
+    "kind": "automação de navegador, testes de interface e coleta web",
+    "url": "https://playwright.dev/python/",
+    "desc": "Framework aberto de automação de navegadores para testes de interface, captura de páginas e coleta programática, com suporte a Chromium, Firefox e WebKit e APIs para Python, JavaScript, .NET e Java. Exige programação, instalação de navegadores e dependências; raspagens devem respeitar termos de uso, limites de acesso, privacidade e LGPD. Não contorna autenticação ou bloqueios de acesso.",
+    "discoveredVia": [
+      "Data Visualization Society"
+    ],
+    "discoveryUrl": "https://playwright.dev/python"
+  },
   {
     "id": "tableau-public",
     "name": "Tableau Public",
@@ -1053,5 +1044,4 @@ window.RADAR_PARTS.tools=[
     ],
     "discoveryUrl": "https://github.com/jbkunst/highcharter"
   }
-
 ];
