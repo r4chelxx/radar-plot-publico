@@ -44,8 +44,6 @@ function deriveTool(lead,url){
  const excludedToolPage=new RegExp("mediawiki\\.org|wikidata\\.org/wiki/Special:NewItem|github\\.com/[^\\s]+/blob/|/news/|/item/|/program(?:/|$)","i").test(String(url));
  const navigationTool=/jump to content|main menu|navigation|create account|log in|personal tools|toggle the table|page discussion|read edit view history|contents move to sidebar|search search/i.test(String(description));
  if(excludedToolPage||navigationTool)return null;
- const title=se.title||lead.pageTitle||lead.sourcePageTitle;
- const description=se.description||lead.pageDescription;
  if(lead.category!=='tools'||!title||!description||description.length<80)return null;
  const sourceType=String(se.sourceType||'').toLowerCase();
  if(sourceType&&!/software|application|tool|product|creativework/.test(sourceType))return null;
