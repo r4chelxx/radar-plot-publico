@@ -1,6 +1,9 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
 
+
+ 
+ 
   {
     "date": "2026-11-06",
     "type": "atualizacao-editorial",
@@ -1130,6 +1133,13 @@ window.RADAR_PARTS.changelog=[
     "detail": "O repositório institucional da Unicamp passa a ser acompanhado mensalmente para descoberta de dados, códigos e materiais de reprodutibilidade."
   },
   {
+    "date": "2026-10-12",
+    "type": "varredura",
+    "title": "Varredura de oportunidades concluída sem nova inclusão",
+    "items": [],
+    "detail": "Fontes diárias e vencidas, pesquisas independentes no Brasil e no exterior e o lote privado de newsletters foram revisados. Chamadas encerradas, já catalogadas ou sem elegibilidade brasileira confirmada não foram republicadas."
+  },
+  {
     "date": "2026-10-11",
     "type": "ferramentas",
     "title": "Guia GIJN/ICIJ de investigação com criptomoedas",
@@ -1164,6 +1174,13 @@ window.RADAR_PARTS.changelog=[
       }
     ],
     "detail": "Catálogo aberto e colaborativo reúne 226 recursos para visualização, extração, análise, cartografia, limpeza, redes, OSINT, IA e bancos de dados, com filtros por plataforma e código aberto."
+  },
+  {
+    "date": "2026-10-11",
+    "type": "varredura",
+    "title": "Varredura de oportunidades concluída sem nova inclusão",
+    "items": [],
+    "detail": "Fontes diárias e vencidas, buscas independentes no Brasil e no exterior e o lote privado de newsletters foram revisados. Chamadas já catalogadas, encerradas ou sem elegibilidade brasileira confirmada não foram republicadas."
   },
   {
     "date": "2026-10-10",
@@ -2293,4 +2310,4 @@ window.RADAR_PARTS.changelog=[
     "title": "Menu mobile corrigido",
     "detail": "O menu fecha automaticamente após a navegação em telas pequenas."
   }
- ];
+];
