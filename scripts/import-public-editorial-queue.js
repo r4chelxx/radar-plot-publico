@@ -10,13 +10,17 @@ const queue=JSON.parse(fs.readFileSync(queuePath,'utf8'));
 if(queue.schemaVersion!==1||!Array.isArray(queue.candidates)||!Array.isArray(triage.leads))throw Error('Invalid public queue or source triage');
 const seen=new Set();
 for(const lead of triage.leads){try{seen.add(identity(lead.url).id)}catch{}}
-const totals={queue:queue.candidates.length,added:0,alreadyInTriage:0,excluded:0,byProvider:{}};
+const totals={queue:queue.candidates.length,added:0,alreadyInTriage:0,reclassified:0,excluded:0,byProvider:{}};
 for(const item of queue.candidates){
  if(item.status!=='pending'&&item.status!=='in-review'){totals.excluded++;continue}
  if(!item.url||!item.title){totals.excluded++;continue}
  let id,url;try{({id,url}=identity(item.url))}catch{totals.excluded++;continue}
  if(!url.startsWith('https://')){totals.excluded++;continue}
- if(seen.has(id)){totals.alreadyInTriage++;continue}
+ if(seen.has(id)){
+  const existing=triage.leads.find(x=>{try{return identity(x.url).id===id}catch{return false}});
+  if(existing&&existing.category==='uncategorized'&&category!=='uncategorized'&&!['published','duplicate','rejected','archived'].includes(existing.editorialStatus)){existing.category=category;existing.discoveryOrigin=existing.discoveryOrigin||'public-editorial-queue';totals.reclassified++;}
+  totals.alreadyInTriage++;continue
+ }
  const providers=(item.providers||[]).filter(x=>typeof x==='string').slice(0,10);
  const source=providers.join(' / ').slice(0,200)||'Public web discovery';
  const title=String(item.title).replace(/[\r\n]+/g,' ').trim().slice(0,220);
