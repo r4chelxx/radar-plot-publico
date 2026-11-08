@@ -1,6 +1,34 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
 {
+  "date": "2026-11-07",
+  "type": "dados",
+  "title": "Publicação editorial verificada — 2026-11-07",
+  "items": [
+    {
+      "id": "auto-2f111b3df643d1e8",
+      "title": "Consolidated Sanctions"
+    },
+    {
+      "id": "auto-0b9fcaaa0bc8c6aa",
+      "title": "Warrants and Criminal Entities"
+    },
+    {
+      "id": "auto-c6a3e5820a02d0ea",
+      "title": "Open redirect endpoint in Datasette prior to 0.65.2 and 1.0a21"
+    },
+    {
+      "id": "auto-c1482ab524e0671e",
+      "title": "Tanzania - Demographic and Health Survey and Malaria Indicator..."
+    },
+    {
+      "id": "auto-d0ca43f9c65b4b8d",
+      "title": "datasette/CODE_OF_CONDUCT.md at main · simonw/datasette"
+    }
+  ],
+  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Consolidated Sanctions; Warrants and Criminal Entities; Open redirect endpoint in Datasette prior to 0.65.2 and 1.0a21; Tanzania - Demographic and Health Survey and Malaria Indicator...; datasette/CODE_OF_CONDUCT.md at main · simonw/datasette."
+}, 
+{
   "date": "2026-11-06",
   "type": "atualizacao-editorial",
   "title": "Situação das modalidades RJI 2027 confirmada — 2026-11-06",
