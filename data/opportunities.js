@@ -1,4 +1,6 @@
-window.RADAR_PARTS=window.RADAR_PARTS||{};\nwindow.RADAR_PARTS.opportunities=\n[
+window.RADAR_PARTS=window.RADAR_PARTS||{};
+window.RADAR_PARTS.opportunities=[
+
   {
     "id": "ijp-german-northern-european-fellowship-2027",
     "title": "IJP — German–Northern European Journalists' Fellowship 2027",
@@ -5396,4 +5398,4 @@ window.RADAR_PARTS=window.RADAR_PARTS||{};\nwindow.RADAR_PARTS.opportunities=\n[
     ],
     "desc": "FIRE aceita freelancers investigativos fora dos EUA e sem restrição de cidadania, mas trabalha apenas com histórias para veículos em inglês. O caminho real começa pela FIRE Consultancy; grants da Virtual Newsroom dependem de convite posterior."
   }
-];\n
+ ];
