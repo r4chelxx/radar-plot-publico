@@ -2,6 +2,118 @@ window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
 {
   "date": "2026-11-08",
+  "type": "dados",
+  "title": "Publicação editorial verificada — 2026-11-08",
+  "items": [
+    {
+      "id": "auto-0202af1820e5a2e0",
+      "title": "Paradas Programadas"
+    },
+    {
+      "id": "auto-08562e602e04369a",
+      "title": "Plano Diretor de Tecnologia da Informação"
+    },
+    {
+      "id": "auto-0c012fa1f719fbc6",
+      "title": "Fórum de Tecnologia, Inovação e Programas da ANP – TIP ANP"
+    },
+    {
+      "id": "auto-19bd1ec699eea1b1",
+      "title": "Política de Diversidade, Equidade e Inclusão da ANP"
+    },
+    {
+      "id": "auto-22ab690998730987",
+      "title": "Programa de Incentivo ao Biometano"
+    },
+    {
+      "id": "auto-296f86b01c11aba3",
+      "title": "Legislação"
+    },
+    {
+      "id": "auto-29ad2c843a68652d",
+      "title": "Ações e Programas"
+    },
+    {
+      "id": "auto-40e3e8bac11b1a1a",
+      "title": "Programa de Governança em Privacidade da ANP"
+    },
+    {
+      "id": "auto-47263da73f70cb78",
+      "title": "Agente Certificador de Origem (ACO)"
+    },
+    {
+      "id": "auto-4df8c3520d0faae6",
+      "title": "Programa de Monitoramento da Qualidade dos Combustíveis (PMQC)"
+    },
+    {
+      "id": "auto-502b0d59f4d46e57",
+      "title": "Programa de Estágio da ANP"
+    },
+    {
+      "id": "auto-7250df29e42ebff0",
+      "title": "Arquivos Programa de incentivo ao biometano"
+    },
+    {
+      "id": "auto-7ba0b014b53ff69b",
+      "title": "Credenciamento de Agente Certificador de Origem (ACO)"
+    },
+    {
+      "id": "auto-845671256ef11dc6",
+      "title": "Sobre"
+    },
+    {
+      "id": "auto-85c4b84bb25da7c8",
+      "title": "Comunicados, Notícias e Eventos"
+    },
+    {
+      "id": "auto-a7b2758ca35d5b53",
+      "title": "Plano de Comunicação"
+    },
+    {
+      "id": "auto-a9886b5fbeff52da",
+      "title": "Estudos, Relatórios e Seminários"
+    },
+    {
+      "id": "auto-ad2403c24e925d2b",
+      "title": "PRH"
+    },
+    {
+      "id": "auto-b0b78db4054234dc",
+      "title": "Programas Interlaboratoriais"
+    },
+    {
+      "id": "auto-b26365294a721baa",
+      "title": "Ações e Programas"
+    },
+    {
+      "id": "auto-cca037111ca23147",
+      "title": "Consultas e Audiências Públicas"
+    },
+    {
+      "id": "auto-d530816a1f03c097",
+      "title": "Certificação do produtor ou importador de biometano com vistas à emissão do CGOB"
+    },
+    {
+      "id": "auto-ee967260ce5ac376",
+      "title": "Plano de Gestão Anual"
+    },
+    {
+      "id": "auto-f1abe0f1243c2ced",
+      "title": "Metas Institucionais"
+    },
+    {
+      "id": "auto-f6d188a390f784d2",
+      "title": "Ações e Programas"
+    },
+    {
+      "id": "auto-ff4adebf99ff64b0",
+      "title": "Programas de Monitoramento"
+    }
+  ],
+  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Paradas Programadas; Plano Diretor de Tecnologia da Informação; Fórum de Tecnologia, Inovação e Programas da ANP – TIP ANP; Política de Diversidade, Equidade e Inclusão da ANP; Programa de Incentivo ao Biometano; Legislação; Ações e Programas; Programa de Governança em Privacidade da ANP; Agente Certificador de Origem (ACO); Programa de Monitoramento da Qualidade dos Combustíveis (PMQC); Programa de Estágio da ANP; Arquivos Programa de incentivo ao biometano; Credenciamento de Agente Certificador de Origem (ACO); Sobre; Comunicados, Notícias e Eventos; Plano de Comunicação; Estudos, Relatórios e Seminários; PRH; Programas Interlaboratoriais; Ações e Programas; Consultas e Audiências Públicas; Certificação do produtor ou importador de biometano com vistas à emissão do CGOB; Plano de Gestão Anual; Metas Institucionais; Ações e Programas; Programas de Monitoramento."
+}, 
+{
+  "date": "2026-11-08",
   "type": "ferramentas",
   "title": "Publicação editorial verificada — 2026-11-08",
   "items": [
