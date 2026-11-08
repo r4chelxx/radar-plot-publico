@@ -2529,6 +2529,171 @@
         "officialUrl": "https://tasks.hotosm.org/",
         "evidence": "Página oficial tasks.hotosm.org confirma divisão de projetos de mapeamento, uso de imagens para mapear edificações e vias e validação por colaboradores experientes; documentação HOT/OSGeo confirma código aberto e coordenação de tarefas. Conferida ausência de domínio, URL e ID no catálogo e manifesto; registradas limitações de cobertura e verificação."
       }
+    },
+    {
+      "category": "datasets",
+      "record": {
+        "id": "auto-2f111b3df643d1e8",
+        "name": "Consolidated Sanctions",
+        "org": "OpenSanctions.org",
+        "territoryTier": "Outros",
+        "kind": "dataset",
+        "themes": [
+          "Dados abertos"
+        ],
+        "coverage": "Consolidated list of sanctioned entities designated by different countries and international organisations. This can include military, trade and travel restrictions.",
+        "frequency": "Não informado na fonte estruturada",
+        "format": "Não informado na fonte estruturada",
+        "period": "Não informado na fonte estruturada",
+        "granularity": "Não informado na fonte estruturada",
+        "geoUnit": "Não informado na fonte estruturada",
+        "api": "Não informado na fonte estruturada",
+        "docs": "https://www.opensanctions.org/datasets/sanctions/",
+        "limitations": "Metadados estruturados confirmam a existência do recurso, mas cobertura, atualização, licença e qualidade devem ser conferidas antes do uso editorial.",
+        "lastChecked": "2026-11-07",
+        "url": "https://www.opensanctions.org/datasets/sanctions/",
+        "discoveryUrl": "https://www.opensanctions.org/datasets/sanctions",
+        "description": "Consolidated list of sanctioned entities designated by different countries and international organisations. This can include military, trade and travel restrictions."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Radar PLOT — auditoria automática conservadora",
+        "reviewedAt": "2026-11-07",
+        "officialUrl": "https://www.opensanctions.org/datasets/sanctions/",
+        "evidence": "Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes."
+      }
+    },
+    {
+      "category": "datasets",
+      "record": {
+        "id": "auto-0b9fcaaa0bc8c6aa",
+        "name": "Warrants and Criminal Entities",
+        "org": "OpenSanctions.org",
+        "territoryTier": "Outros",
+        "kind": "dataset",
+        "themes": [
+          "Dados abertos"
+        ],
+        "coverage": "Companies and people implicated in or convicted of criminal activity, including the &quot;Most Wanted&quot; lists of various countries and international authorities.",
+        "frequency": "Não informado na fonte estruturada",
+        "format": "Não informado na fonte estruturada",
+        "period": "Não informado na fonte estruturada",
+        "granularity": "Não informado na fonte estruturada",
+        "geoUnit": "Não informado na fonte estruturada",
+        "api": "Não informado na fonte estruturada",
+        "docs": "https://www.opensanctions.org/datasets/crime/",
+        "limitations": "Metadados estruturados confirmam a existência do recurso, mas cobertura, atualização, licença e qualidade devem ser conferidas antes do uso editorial.",
+        "lastChecked": "2026-11-07",
+        "url": "https://www.opensanctions.org/datasets/crime/",
+        "discoveryUrl": "https://www.opensanctions.org/datasets/crime",
+        "description": "Companies and people implicated in or convicted of criminal activity, including the &quot;Most Wanted&quot; lists of various countries and international authorities."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Radar PLOT — auditoria automática conservadora",
+        "reviewedAt": "2026-11-07",
+        "officialUrl": "https://www.opensanctions.org/datasets/crime/",
+        "evidence": "Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes."
+      }
+    },
+    {
+      "category": "datasets",
+      "record": {
+        "id": "auto-c6a3e5820a02d0ea",
+        "name": "Open redirect endpoint in Datasette prior to 0.65.2 and 1.0a21",
+        "org": "GitHub",
+        "territoryTier": "Outros",
+        "kind": "dataset",
+        "themes": [
+          "Dados abertos"
+        ],
+        "coverage": "GitHub is where people build software. More than 225 million people use GitHub to discover, fork, and contribute to over 800 million projects.",
+        "frequency": "Não informado na fonte estruturada",
+        "format": "Não informado na fonte estruturada",
+        "period": "Não informado na fonte estruturada",
+        "granularity": "Não informado na fonte estruturada",
+        "geoUnit": "Não informado na fonte estruturada",
+        "api": "Não informado na fonte estruturada",
+        "docs": "https://github.com/simonw/datasette/security/advisories/GHSA-w832-gg5g-x44m",
+        "limitations": "Metadados estruturados confirmam a existência do recurso, mas cobertura, atualização, licença e qualidade devem ser conferidas antes do uso editorial.",
+        "lastChecked": "2026-11-07",
+        "url": "https://github.com/simonw/datasette/security/advisories/GHSA-w832-gg5g-x44m",
+        "discoveryUrl": "https://github.com/simonw/datasette/security/advisories/GHSA-w832-gg5g-x44m",
+        "description": "GitHub is where people build software. More than 225 million people use GitHub to discover, fork, and contribute to over 800 million projects."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Radar PLOT — auditoria automática conservadora",
+        "reviewedAt": "2026-11-07",
+        "officialUrl": "https://github.com/simonw/datasette/security/advisories/GHSA-w832-gg5g-x44m",
+        "evidence": "Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes."
+      }
+    },
+    {
+      "category": "datasets",
+      "record": {
+        "id": "auto-c1482ab524e0671e",
+        "name": "Tanzania - Demographic and Health Survey and Malaria Indicator...",
+        "org": "World Bank Data Catalog",
+        "territoryTier": "Outros",
+        "kind": "dataset",
+        "themes": [
+          "Dados abertos"
+        ],
+        "coverage": "The primary objective of the 2022 Tanzania Demographic and Health Survey and Malaria Indicator Survey (2022 TDHSMIS) is to provide current and reliable inf...",
+        "frequency": "Não informado na fonte estruturada",
+        "format": "Não informado na fonte estruturada",
+        "period": "Não informado na fonte estruturada",
+        "granularity": "Não informado na fonte estruturada",
+        "geoUnit": "Não informado na fonte estruturada",
+        "api": "Não informado na fonte estruturada",
+        "docs": "https://datacatalog.worldbank.org/search/dataset/0065150/tanzania-demographic-and-health-survey-and-malaria-indicator-survey-2022",
+        "limitations": "Metadados estruturados confirmam a existência do recurso, mas cobertura, atualização, licença e qualidade devem ser conferidas antes do uso editorial.",
+        "lastChecked": "2026-11-07",
+        "url": "https://datacatalog.worldbank.org/search/dataset/0065150/tanzania-demographic-and-health-survey-and-malaria-indicator-survey-2022",
+        "discoveryUrl": "https://datacatalog.worldbank.org/search/dataset/0065150",
+        "description": "The primary objective of the 2022 Tanzania Demographic and Health Survey and Malaria Indicator Survey (2022 TDHSMIS) is to provide current and reliable inf..."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Radar PLOT — auditoria automática conservadora",
+        "reviewedAt": "2026-11-07",
+        "officialUrl": "https://datacatalog.worldbank.org/search/dataset/0065150/tanzania-demographic-and-health-survey-and-malaria-indicator-survey-2022",
+        "evidence": "Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes."
+      }
+    },
+    {
+      "category": "datasets",
+      "record": {
+        "id": "auto-d0ca43f9c65b4b8d",
+        "name": "datasette/CODE_OF_CONDUCT.md at main · simonw/datasette",
+        "org": "GitHub",
+        "territoryTier": "Outros",
+        "kind": "dataset",
+        "themes": [
+          "Dados abertos"
+        ],
+        "coverage": "An open source multi-tool for exploring and publishing data - datasette/CODE_OF_CONDUCT.md at main · simonw/datasette",
+        "frequency": "Não informado na fonte estruturada",
+        "format": "Não informado na fonte estruturada",
+        "period": "Não informado na fonte estruturada",
+        "granularity": "Não informado na fonte estruturada",
+        "geoUnit": "Não informado na fonte estruturada",
+        "api": "Não informado na fonte estruturada",
+        "docs": "https://github.com/simonw/datasette/blob/main/CODE_OF_CONDUCT.md",
+        "limitations": "Metadados estruturados confirmam a existência do recurso, mas cobertura, atualização, licença e qualidade devem ser conferidas antes do uso editorial.",
+        "lastChecked": "2026-11-07",
+        "url": "https://github.com/simonw/datasette/blob/main/CODE_OF_CONDUCT.md",
+        "discoveryUrl": "https://github.com/simonw/datasette/blob/main/CODE_OF_CONDUCT.md",
+        "description": "An open source multi-tool for exploring and publishing data - datasette/CODE_OF_CONDUCT.md at main · simonw/datasette"
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Radar PLOT — auditoria automática conservadora",
+        "reviewedAt": "2026-11-07",
+        "officialUrl": "https://github.com/simonw/datasette/blob/main/CODE_OF_CONDUCT.md",
+        "evidence": "Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes."
+      }
     }
   ]
 }
