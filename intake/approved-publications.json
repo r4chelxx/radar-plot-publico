@@ -2760,6 +2760,24 @@
         "officialUrl": "https://www.opensanctions.org/datasets/maritime/",
         "evidence": "Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes."
       }
+    },
+    {
+      "category": "tools",
+      "record": {
+        "id": "auto-ef6cc1882133a881",
+        "name": "Toolkits | International Journalists&#039; Network",
+        "kind": "ferramenta",
+        "url": "https://ijnet.org/en/toolkits",
+        "desc": "IJNet delivers the latest on global media innovation, news apps and tools, training opportunities and expert advice for professional and citizen journalists worldwide. Produced by the International Center for Journalists, IJNet follows the shifting journalism scene from a global perspective in eight languages - Arabic, Chinese, English, Persian, Portuguese, Russian, Spanish and French. Revisar licença, limites, privacidade e acessibilidade antes do uso editorial.",
+        "discoveryUrl": "https://ijnet.org/en/toolkits"
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Radar PLOT — auditoria automática conservadora",
+        "reviewedAt": "2026-11-08",
+        "officialUrl": "https://ijnet.org/en/toolkits",
+        "evidence": "Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes."
+      }
     }
   ]
 }
