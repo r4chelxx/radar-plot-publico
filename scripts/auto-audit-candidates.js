@@ -27,7 +27,12 @@ function deriveDataset(lead,url){
  const organization=se.organization||lead.organization;
  if(lead.category!=='datasets'||!title||!description||description.length<80||!organization)return null;
  const sourceType=String(se.sourceType||'').toLowerCase();
- if(sourceType&&!/dataset|datacatalog|catalog/.test(sourceType))return null;
+ const evidenceText=[title,description,url,se.sourceType||'',lead.pageTitle||'',lead.pageDescription||''].join(' ');
+ const genericTitle=/^(in[ií]cio|inicio|home|start|eventos?|events?|about|sobre|contact|contato|menu|search|login|register|news|blog|resources?|opportunities?|calend[áa]rio|calendar)$/i.test(String(title).trim());
+ const navigationNoise=/ir para o (conte[uú]do|menu|navega[cç][aã]o|rodap[eé]|mapa do site|in[ií]cio|p[aá]gina inicial|busca)|aten[cç][aã]o! seu navegador|nome do site/i.test(String(description));
+ const datasetSignal=/(dataset|data[- ]?catalog|open[- ]?data|dados?[- ]abertos?|database|base de dados|catalog|cat[aá]logo de dados|api|csv|json|estat[ií]stic|indicador|microdados|datacatalog|\/datasets?\/)/i.test(evidenceText);
+ if(genericTitle||navigationNoise||!datasetSignal)return null;
+ if(sourceType&&!/dataset|datacatalog|catalog|data[- ]?catalog/.test(sourceType))return null;
  return {id:derivedId(url),name:title,org:organization,territoryTier:'Outros',kind:'dataset',themes:['Dados abertos'],coverage:description,frequency:'Não informado na fonte estruturada',format:'Não informado na fonte estruturada',period:'Não informado na fonte estruturada',granularity:'Não informado na fonte estruturada',geoUnit:'Não informado na fonte estruturada',api:'Não informado na fonte estruturada',docs:url,limitations:'Metadados estruturados confirmam a existência do recurso, mas cobertura, atualização, licença e qualidade devem ser conferidas antes do uso editorial.',lastChecked:today,url,discoveryUrl:lead.url,description};
 }
 function deriveTool(lead,url){
