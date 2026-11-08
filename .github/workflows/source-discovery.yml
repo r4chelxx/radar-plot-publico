@@ -125,7 +125,8 @@ jobs:
         run: |
           set -euo pipefail
           for attempt in 1 2 3 4 5; do
-            encoded=$(gh api "repos/${GITHUB_REPOSITORY}/contents/state/lead-history.json?ref=radar-state" --jq .content 2>/dev/null || true)
+            blob_sha=$(gh api "repos/${GITHUB_REPOSITORY}/contents/state/lead-history.json?ref=radar-state" --jq .sha 2>/dev/null || true)
+            encoded=$(if [ -n "$blob_sha" ]; then gh api "repos/${GITHUB_REPOSITORY}/git/blobs/$blob_sha" --jq .content 2>/dev/null || true; fi)
             if [ -n "$encoded" ]; then
               printf '%s' "$encoded" | base64 --decode > intake/lead-history-previous.json
               if node -e "const fs=require('fs');const s=JSON.parse(fs.readFileSync('intake/lead-history-previous.json'));if(s.schemaVersion!==1||!s.leads||Array.isArray(s.leads))process.exit(1)"; then
@@ -311,7 +312,8 @@ jobs:
         run: |
           set -euo pipefail
           for attempt in 1 2 3 4 5; do
-            encoded=$(gh api "repos/${GITHUB_REPOSITORY}/contents/state/lead-history.json?ref=radar-state" --jq .content 2>/dev/null || true)
+            blob_sha=$(gh api "repos/${GITHUB_REPOSITORY}/contents/state/lead-history.json?ref=radar-state" --jq .sha 2>/dev/null || true)
+            encoded=$(if [ -n "$blob_sha" ]; then gh api "repos/${GITHUB_REPOSITORY}/git/blobs/$blob_sha" --jq .content 2>/dev/null || true; fi)
             if [ -n "$encoded" ]; then
               printf '%s' "$encoded" | base64 --decode > intake/lead-history-confirmed.json
               if [ -s intake/lead-history-confirmed.json ]; then
@@ -336,7 +338,8 @@ jobs:
           for attempt in 1 2 3; do
             gh api "repos/${GITHUB_REPOSITORY}/contents/intake/editorial-queue.json?ref=radar-state" > intake/queue-response.json
             # The queue can change after the previous history confirmation; re-read both from the remote branch.
-            gh api "repos/${GITHUB_REPOSITORY}/contents/state/lead-history.json?ref=radar-state" --jq .content | base64 --decode > intake/lead-history-queue-check.json
+            blob_sha=$(gh api "repos/${GITHUB_REPOSITORY}/contents/state/lead-history.json?ref=radar-state" --jq .sha)
+            gh api "repos/${GITHUB_REPOSITORY}/git/blobs/$blob_sha" --jq .content | base64 --decode > intake/lead-history-queue-check.json
             node - <<'NODE'
           const fs=require('node:fs');
           const response=JSON.parse(fs.readFileSync('intake/queue-response.json','utf8'));
