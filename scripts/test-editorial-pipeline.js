@@ -23,6 +23,22 @@ try{
  assert.equal(JSON.parse(run('publish-approved.js',input)).published,1);
  assert(fs.readFileSync(path.join(root,'data','datasets.js'),'utf8').includes('verified-data-catalog'));
 
+ const opportunityBase={id:'future-journalism-grant',title:'Future Journalism Grant',org:'Example Foundation',summary:'Funding for investigative reporting projects.',type:'Grant',themes:['Journalism'],scope:'International journalists and newsrooms may apply.',deadline:'2099-12-31',deadlineStatus:'Confirmed on the official call; deadline 31 December 2099.',eligibility:'elegível',fit:8,status:'aberta',rules:'https://example.org/grant'};
+ const opportunityProof={decision:'approved',reviewedBy:'editorial-reviewer',reviewedAt:'2026-10-23',officialUrl:'https://example.org/grant',evidence:'Official call confirms the grant function, eligibility, scope and deadline.'};
+ const opportunityManifest=(record)=>({approved:[{category:'opportunities',record,review:opportunityProof}]});
+ fs.writeFileSync(input,JSON.stringify(opportunityManifest({...opportunityBase,id:'expired-journalism-grant',deadline:'2020-01-01',deadlineStatus:'Confirmed on the official call; deadline 1 January 2020.'})));
+ assert.throws(()=>run('publish-approved.js',input),/deadline has passed/);
+ fs.writeFileSync(input,JSON.stringify(opportunityManifest({...opportunityBase,id:'bad-eligibility-status',eligibility:'maybe'})));
+ assert.throws(()=>run('publish-approved.js',input),/eligibility must use a validated catalog status/);
+ fs.writeFileSync(input,JSON.stringify(opportunityManifest({...opportunityBase,id:'open-rolling-journalism-grant',deadline:null,deadlineStatus:'Applications are rolling with no deadline stated on the official page.'})));
+ assert.equal(JSON.parse(run('publish-approved.js',input)).published,1);
+ const vagueToolManifest={approved:[{category:'tools',record:candidate,review:{decision:'approved',reviewedBy:'editorial-reviewer',reviewedAt:'2026-10-23',officialUrl:'https://example.org/tool',evidence:'Official page reviewed; suitable for journalists and appears relevant.'}}]};
+ fs.writeFileSync(input,JSON.stringify(vagueToolManifest));
+ assert.throws(()=>run('publish-approved.js',input),/Tool evidence must describe a confirmed product function/);
+ const missingDocs={...validCatalog,id:'dataset-without-docs'};delete missingDocs.docs;
+ fs.writeFileSync(input,JSON.stringify({approved:[{category:'datasets',record:missingDocs,review:validCatalogManifest.approved[0].review}]}));
+ assert.throws(()=>run('publish-approved.js',input),/requires official access documentation/);
+
  const weakFormat={id:'weak-format-dataset',name:'Household survey dataset',org:'Example Institute',kind:'dataset',url:'https://example.org/datasets/households',coverage:'Household indicators for 2020–2024.',format:'Não informado na fonte estruturada',limitations:'Coverage and definitions require review.'};
  const weakFormatManifest={approved:[{category:'datasets',record:weakFormat,review:{decision:'approved',reviewedBy:'editorial-reviewer',reviewedAt:'2026-10-23',officialUrl:'https://example.org/datasets/households',evidence:'The official catalog provides the dataset description and access page.'}}]};
  fs.writeFileSync(input,JSON.stringify(weakFormatManifest));
