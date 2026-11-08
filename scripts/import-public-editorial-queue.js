@@ -21,7 +21,8 @@ for(const item of queue.candidates){
  const source=providers.join(' / ').slice(0,200)||'Public web discovery';
  const title=String(item.title).replace(/[\r\n]+/g,' ').trim().slice(0,220);
  if(title.length<3){totals.excluded++;continue}
- const category=/grant|fellowship|scholarship|funding|bolsa|edital|prize|award|call for/i.test(title)?'opportunities':/dataset|database|dados abertos|open data|data portal/i.test(title)?'datasets':/tool|software|platform|visualization|visualisation|chart|map/i.test(title)?'tools':'uncategorized';
+ const categoryText=title+' '+source+' '+url;
+ const category=/grant|fellowship|scholarship|funding|bolsa|edital|prize|award|call for|opportunit(?:y|ies)|journalis(?:m|t)|residen(?:cy|cies)|stipend|grants for journalists|opportunity desk|gfmd|pulitzer|newsfuel/i.test(categoryText)?'opportunities':/dataset|database|dados abertos|open data|data portal/i.test(categoryText)?'datasets':/tool|software|platform|visualization|visualisation|chart|map/i.test(categoryText)?'tools':'uncategorized';
  triage.leads.push({source,title,url,category,classification:'needs-editorial-review',possibleMatches:[],deadline:null,eligibility:null,editoriallyVerified:false,discoveryOrigin:'public-editorial-queue'});
  seen.add(id);totals.added++;
  for(const provider of providers)totals.byProvider[provider]=(totals.byProvider[provider]||0)+1;
