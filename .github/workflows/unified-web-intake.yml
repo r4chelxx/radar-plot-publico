@@ -49,6 +49,12 @@ on:
       - 'data/sources.js'
       - '.github/workflows/unified-web-intake.yml'
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/discover-public-funding-pages.js'
+      - 'scripts/discover-opportunity-web.js'
+      - '.github/workflows/unified-web-intake.yml'
   schedule:
     # Staggered redundant daily attempts; persistence is deduplicated on radar-state.
     - cron: "17 11 * * *"
