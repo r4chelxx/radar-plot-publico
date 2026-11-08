@@ -1,3 +1,4 @@
+# Publication status semantics validated by test-editorial-pipeline
 name: Publish approved editorial records
 on:
   workflow_dispatch:
