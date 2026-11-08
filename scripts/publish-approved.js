@@ -40,7 +40,12 @@ for(const entry of source.approved){
  const datasetSignal=/(dataset|data[- ]?catalog|open[- ]?data|dados?[- ]abertos?|database|base de dados|catalog|cat[aá]logo de dados|api|csv|json|estat[ií]stic|indicador|microdados|portal(?:.{0,20})dados|data portal|geodados|datacatalog|\/datasets?\/)/i.test(datasetText);
   if(genericTitle||navNoise||!datasetSignal)throw Error('Dataset evidence is insufficient or page is generic/navigation: '+record.id);
  }
- if(category==='tools'&&(!record.kind||!record.desc||record.desc.length<70))throw Error('Tool requires kind and substantive description with limitations: '+record.id);
+ if(category==='tools'){
+  if(!record.kind||!record.desc||record.desc.length<70)throw Error('Tool requires kind and substantive description with limitations: '+record.id);
+  const excludedToolPage=new RegExp("mediawiki\\.org|wikidata\\.org/wiki/Special:NewItem|github\\.com/[^\\s]+/blob/|/news/|/item/|/program(?:/|$)","i").test(String(record.url));
+  const navigationTool=/jump to content|main menu|navigation|create account|log in|personal tools|toggle the table|page discussion|read edit view history|contents move to sidebar|search search/i.test(String(record.desc));
+  if(excludedToolPage||navigationTool)throw Error('Tool evidence is insufficient or page is navigation/article: '+record.id);
+ }
  const old=D[category].find(x=>x.id===record.id);
  const canonical=canonicalUrl(record[rule.field]);
  const matchingId=existingUrls.get(canonical);
@@ -65,7 +70,4 @@ const updates=Object.values(spec).map(rule=>({rule,items:log.filter(x=>x.type===
  detail:'Registros aprovados individualmente com documentação oficial e evidência editorial: '+items.map(x=>x.title).join('; ')+'.'
 }));
 prepend('data/changelog.js','changelog',updates);
-console.log(JSON.stringify({date:today,approved:source.approved.length,published:log.length,alreadyPresent:source.approved.length-log.length,byCategory:Object.fromEntries(Object.entries(insertions).map(([k,v])=>[k,v.length]))})); const excludedToolPage=new RegExp("mediawiki\\.org|wikidata\\.org/wiki/Special:NewItem|github\\.com/[^\\s]+/blob/|/news/|/item/|/program(?:/|$)","i").test(String(url));
- const navigationTool=/jump to content|main menu|navigation|create account|log in|personal tools|toggle the table|page discussion|read edit view history|contents move to sidebar|search search/i.test(String(description));
- if(excludedToolPage||navigationTool)return null;
-
+console.log(JSON.stringify({date:today,approved:source.approved.length,published:log.length,alreadyPresent:source.approved.length-log.length,byCategory:Object.fromEntries(Object.entries(insertions).map(([k,v])=>[k,v.length]))}));
