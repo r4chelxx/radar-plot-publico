@@ -24,7 +24,7 @@ function deriveDataset(lead,url){
  const se=lead.structuredEvidence||{};
  const title=se.title||lead.pageTitle||lead.sourcePageTitle;
  const description=se.description||lead.pageDescription;
- const organization=se.organization||lead.organization;
+ const organization=se.organization||lead.organization||lead.source||host(url)||'Fonte oficial';
  if(lead.category!=='datasets'||!title||!description||description.length<80||!organization)return null;
  const sourceType=String(se.sourceType||'').toLowerCase();
  const evidenceText=[title,description,url,se.sourceType||'',lead.pageTitle||'',lead.pageDescription||''].join(' ');
