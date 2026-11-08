@@ -189,7 +189,7 @@ jobs:
         run: node scripts/apply-editorial-decisions.js
       - name: Build actionable historical editorial review batch
         env:
-          EDITORIAL_BATCH_LIMIT: '30'
+          EDITORIAL_BATCH_LIMIT: '60'
         run: node scripts/build-historical-review-batch.js
       - name: Prioritize editorial review from historical changes
         run: node scripts/prioritize-editorial-review.js
