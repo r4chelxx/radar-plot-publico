@@ -40,7 +40,7 @@ function selectBacklog(previous,current,limit=10,now=new Date(),options={}){
   Number(a.origin!=='historical')-Number(b.origin!=='historical')||
   String(a.lastInspectedAt||a.firstSeen||'').localeCompare(String(b.lastInspectedAt||b.firstSeen||''))||
   String(a.id).localeCompare(String(b.id)));
- const cap=Math.min(Math.max(1,limit),50);
+ const cap=Math.min(Math.max(1,limit),100);
  const selectedReady=ready.slice(0,cap);
  if(!options.rotate) return {selected:selectedReady,total:all.length,ready:ready.length,waiting:all.length-ready.length,rotation:0};
  // Keep the inspection pipeline productive even while all remaining leads are
