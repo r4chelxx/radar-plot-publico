@@ -24,12 +24,14 @@ function isoDate(raw){
 function explicitPageFacts(html){
  const text=decode(String(html||'').replace(/<script\b[\s\S]*?<\/script>/gi,' ').replace(/<style\b[\s\S]*?<\/style>/gi,' '));
  const deadlineMatch=text.match(/(?:application\s+deadline|deadline|apply\s+by|applications?\s+(?:close|end)|closing\s+date|submissions?\s+(?:close|end)|due\s+date|final\s+date|prazo(?:\s+final)?|inscri(?:ções|coes)\s+(?:vão|vao)\s+até|até\s+o\s+dia)(?:\s*[:\-–]\s*|\s+)([^.]{0,120})/i);
- const deadline=isoDate(deadlineMatch?.[1]||'');
+ const contextualDeadline=isoDate(deadlineMatch?.[1]||'');
+ const futureContext=[...text.matchAll(/(?:apply|application|applications|submission|submissions|deadline|closing|close|due|prazo|inscri(?:ção|cao|ções|coes)|candidatura)[^\n.]{0,120}?((?:20\d{2}[-\/.]\d{1,2}[-\/.]\d{1,2})|(?:\d{1,2}[\s-]+(?:jan(?:uary|eiro)?|feb(?:ruary|ruary|eiro)?|mar(?:ch|ço|co)?|apr(?:il|abril)?|may|mai|jun(?:e|ho)?|jul(?:y|ho)?|aug(?:ust|osto)?|sep(?:tember|tembro)?|oct(?:ober|ubro)?|nov(?:ember|embro)?|dec(?:ember|embro)?)[\s,]+20\d{2}))/ig)].map(x=>isoDate(x[1])).filter(Boolean);
+ const deadline=contextualDeadline||futureContext.find(x=>x>=new Date().toISOString().slice(0,10))||null;
  const eligibilityMatch=text.match(/(?:eligib(?:ility|le)|who\\s+can\\s+apply|eligible\\s+applicants?|elegibilidade|quem\\s+pod(?:e|em)\\s+se\\s+inscrever|open\\s+to|available\\s+to|for\\s+(?:all\\s+)?(?:journalists?|reporters?|newsrooms?|media\\s+organizations?|researchers?)|jornalistas?|repórteres?|redações?|pesquisadores?)([^.]{0,320})/i);
  const eligibility=eligibilityMatch?decode(eligibilityMatch[0]).slice(0,320):null;
  const openMatch=text.match(/\b(?:applications?|submissions?|entries?|inscrições|inscricoes)\s+(?:are\s+)?(?:now\s+)?open\b|\b(?:call|fellowship|grant|award|edital|bolsa)\s+(?:is\s+)?open\b/i);
  const closedMatch=text.match(/\b(?:applications?|submissions?|entries?|inscrições|inscricoes)\s+(?:are\s+)?closed\b|\b(?:call|fellowship|grant|award|edital|bolsa)\s+(?:is\s+)?closed\b/i);
- const status=openMatch?'aberta':closedMatch?'encerrada':null;
+ const status=openMatch?'aberta':closedMatch?'encerrada':deadline&&!closedMatch?'aberta':null;
  return {deadline:deadline||null,eligibility:eligibility||null,eligibilityExplicit:Boolean(eligibility),status};
 }
 function allowed(raw){
