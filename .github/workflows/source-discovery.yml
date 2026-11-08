@@ -8,6 +8,7 @@ on:
     paths:
       - 'data/sources.js'
       - 'scripts/source-intake.js'
+      - 'scripts/publish-approved.js'
       - 'scripts/source-page-links.js'
       - 'tests/source-page-links.test.js'
       - 'scripts/structured-lead-metadata.js'
