@@ -14,7 +14,7 @@ const due=pending.filter(x=>!x.audit?.checkedAt||Date.parse(x.audit.checkedAt)<c
  .sort((a,b)=>String(a.firstSeen||'').localeCompare(String(b.firstSeen||''))).slice(0,maxItems);
 const excludedPath=/\/(?:blog|news|press|events?|conference|people|team|authors?|profiles?)\//i;
 const badTitle=/^(?:home|inicio|in[ií]cio|events?|eventos?|news|notícias|about|sobre|contact|contato|menu|blog|resources?)$/i;
-function meta(html,key){const escaped=key.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');const r=new RegExp('<meta[^>]+(?:name|property)=["\\']'+escaped+'["\\'][^>]+content=["\\']([^"\\']*)["\\']|<meta[^>]+content=["\\']([^"\\']*)["\\'][^>]+(?:name|property)=["\\']'+escaped+'["\\']','i').exec(html);return (r?.[1]||r?.[2]||'').replace(/&amp;/g,'&').trim()}
+function meta(html,key){for(const tag of html.match(/<meta\\b[^>]*>/gi)||[]){const n=/\\b(?:name|property)\\s*=\\s*["']([^"']+)["']/i.exec(tag),v=/\\bcontent\\s*=\\s*["']([^"']*)["']/i.exec(tag);if(n&&v&&n[1].toLowerCase()===key.toLowerCase())return v[1].replace(/&amp;/g,'&').trim()}return ''}
 async function inspect(item){
  const ctrl=new AbortController(),timer=setTimeout(()=>ctrl.abort(),12000);
  try{
