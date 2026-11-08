@@ -1,4 +1,5 @@
 // Daily source discovery: records leads for editorial verification, never publishes unverified opportunities.
+// Publisher gate is validated in the same scheduled sweep.
 const fs = require('node:fs');
 const crypto = require('node:crypto');
 const {normalizeLink}=require('./normalize-lead-link');
