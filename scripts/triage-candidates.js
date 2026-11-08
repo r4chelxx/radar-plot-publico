@@ -34,9 +34,10 @@ for(const source of intake.results||[])for(const link of source.leads||[]){
  const navigation=/^\/(?:signup|login|feed\/hashtag)(?:\/|$)/i.test(target.pathname)&&/(^|\.)linkedin\.com$/i.test(target.hostname);
  const externalHomepage=(target.pathname==='/'||target.pathname==='')&&!target.search&&/^(?:https?:\/\/|www\.)/i.test(label.trim());
  const directory=/^(?:scholarships?\s*(?:&|and)\s*fellowships?|grants?\s*(?:&|and)\s*fellowships?|funding opportunities|open calls)(?:\s+[\w.-]+\.(?:org|com|net))?$/i.test(label.trim());
- const generic=/^(find a grant|grants for journalists|successful applications|stable tools|database tools|mediawiki tools|apply|application|tools|ferramentas)$/i.test(label.trim());
+ const generic=/^(find a grant|grants for journalists|successful applications|stable tools|database tools|mediawiki tools|apply|application|tools|ferramentas|read more|learn more|saiba mais)$/i.test(label.trim());
  const documentation=/\b(?:documentation|development|opting in|about|pricing options|plan(?:o)? de dados abertos|registry|articleinfo)\b/i.test(label);
- const category=/grant|fellowship|bolsa|funding|financiamento|edital|call for|apply/i.test(label)?'opportunities':/dataset|dados abertos|open data|base de dados/i.test(label)?'datasets':/tool|ferramenta/i.test(label)?'tools':'uncategorized';
+ const categoryText=label+' '+target.pathname;
+ const category=/grant|fellowship|bolsa|funding|financiamento|edital|call[-_ ]?for|apply|scholarship/i.test(categoryText)?'opportunities':/dataset|dados[-_ ]?abertos|open[-_ ]?data|base[-_ ]?de[-_ ]?dados/i.test(categoryText)?'datasets':/tool|ferramenta|software|application/i.test(categoryText)?'tools':'uncategorized';
  leads.push({source:source.name,title:label,url,category,classification:matches.length?'catalog-match':homepage?'source-homepage-only':externalHomepage?'external-homepage-only':navigation||generic?'generic-navigation':directory?'resource-directory':documentation?'documentation-reference':historical?'historical-reference':'needs-editorial-review',possibleMatches:matches.slice(0,5),deadline:link.structuredEvidence?.deadline||null,eligibility:link.structuredEvidence?.eligibility||null,structuredEvidence:link.structuredEvidence||null,editoriallyVerified:false});
 }
 report.leads=leads;
