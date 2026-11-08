@@ -13,11 +13,7 @@ window.RADAR_PARTS.changelog=[
   "type": "ferramentas",
   "title": "Publicação editorial verificada — 2026-11-08",
   "items": [
-    {
-      "id": "auto-6dfe0fe7061c7f49",
-      "title": "Wikimedia Hackathon 2023/Program - MediaWiki"
-    }
-  ],
+      ],
   "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Wikimedia Hackathon 2023/Program - MediaWiki."
 }, 
 {
@@ -25,67 +21,7 @@ window.RADAR_PARTS.changelog=[
   "type": "ferramentas",
   "title": "Publicação editorial verificada — 2026-11-08",
   "items": [
-    {
-      "id": "auto-03c1085e8207c089",
-      "title": "Moderator Tools/Automoderator/Multilingual testing - MediaWiki"
-    },
-    {
-      "id": "auto-04c405fc01a4d2d1",
-      "title": "Moderator Tools - MediaWiki"
-    },
-    {
-      "id": "auto-d8ef02d52d558fca",
-      "title": "Cite This Page - MediaWiki"
-    },
-    {
-      "id": "auto-319fecfc913e3666",
-      "title": "Moderator Tools/Automoderator - MediaWiki"
-    },
-    {
-      "id": "auto-47a5a9ca10421c0c",
-      "title": "Moderator Tools/Automoderator/nl - MediaWiki"
-    },
-    {
-      "id": "auto-c10fc32f056631ea",
-      "title": "Create a new Item - Wikidata"
-    },
-    {
-      "id": "auto-59b5a0a56abb1506",
-      "title": "Moderator Tools/Automoderator/Testing - MediaWiki"
-    },
-    {
-      "id": "auto-5f9a02ae86b5ae56",
-      "title": "Ferramentas de moderação/Automoderador - MediaWiki"
-    },
-    {
-      "id": "auto-6273be5565272108",
-      "title": "Outils de modération/AutoModerator - MediaWiki"
-    },
-    {
-      "id": "auto-6703fc7b7da67ad7",
-      "title": "Moderazione strumenti di moderazione/Automoderator - MediaWiki"
-    },
-    {
-      "id": "auto-6a5c5eab2aec22be",
-      "title": "Moderator Tools/Kiểm tra tự động - MediaWiki"
-    },
-    {
-      "id": "auto-7354144ac2f3f5b6",
-      "title": "Moderator Tools/Automoderator - MediaWiki"
-    },
-    {
-      "id": "auto-80456ffbd2ad4cff",
-      "title": "Moderator Tools - MediaWiki"
-    },
-    {
-      "id": "auto-a62839008c2a854e",
-      "title": "Perkakas Moderasi/Automoderator - MediaWiki"
-    },
-    {
-      "id": "auto-b22022306fc6cef9",
-      "title": "Moderator Tools/Automoderator/Measurement plan - MediaWiki"
-    }
-  ],
+                                                              ],
   "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Moderator Tools/Automoderator/Multilingual testing - MediaWiki; Moderator Tools - MediaWiki; Cite This Page - MediaWiki; Moderator Tools/Automoderator - MediaWiki; Moderator Tools/Automoderator/nl - MediaWiki; Create a new Item - Wikidata; Moderator Tools/Automoderator/Testing - MediaWiki; Ferramentas de moderação/Automoderador - MediaWiki; Outils de modération/AutoModerator - MediaWiki; Moderazione strumenti di moderazione/Automoderator - MediaWiki; Moderator Tools/Kiểm tra tự động - MediaWiki; Moderator Tools/Automoderator - MediaWiki; Moderator Tools - MediaWiki; Perkakas Moderasi/Automoderator - MediaWiki; Moderator Tools/Automoderator/Measurement plan - MediaWiki."
 }, 
 {
@@ -93,11 +29,7 @@ window.RADAR_PARTS.changelog=[
   "type": "ferramentas",
   "title": "Publicação editorial verificada — 2026-11-08",
   "items": [
-    {
-      "id": "auto-ce58085ef1edfb47",
-      "title": "mediawiki-services-parsoid/tools/sync-parserTests.js at 39ea4e49783b1f88326d6ebddd14e08bb39cb649 · wikimedia/mediawiki-services-parsoid"
-    }
-  ],
+      ],
   "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: mediawiki-services-parsoid/tools/sync-parserTests.js at 39ea4e49783b1f88326d6ebddd14e08bb39cb649 · wikimedia/mediawiki-services-parsoid."
 }, 
 {
@@ -105,15 +37,7 @@ window.RADAR_PARTS.changelog=[
   "type": "ferramentas",
   "title": "Publicação editorial verificada — 2026-11-08",
   "items": [
-    {
-      "id": "auto-ef6cc1882133a881",
-      "title": "Toolkits | International Journalists&#039; Network"
-    },
-    {
-      "id": "auto-72ba29bf165731ee",
-      "title": "WHO releases updated Health Inequality Data Repository and Health Equity Assessment Toolkit"
-    }
-  ],
+          ],
   "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Toolkits | International Journalists&#039; Network; WHO releases updated Health Inequality Data Repository and Health Equity Assessment Toolkit."
 }, 
 {
