@@ -5,6 +5,13 @@ test('extracts explicit JSON-LD deadline and eligibility without inventing field
  const all=extractStructuredMetadata(html,'https://official.example/');
  assert.ok(all.length>=1);const grant=metadataForLink(all,'https://official.example/grant');assert.equal(grant.deadline,'2027-02-03');assert.equal(grant.eligibility,'Brazil');assert.equal(grant.title,'Grant 2027');
 });
+test('extracts abbreviated month deadline from JSON-LD',()=>{
+ const html='<script type="application/ld+json">'+JSON.stringify({"@type":"Event",name:'Grant',description:'Official call',endDate:'30 Nov 2027',organizer:{name:'Org'},url:'https://official.example/grant'})+'</script>';
+ const all=extractStructuredMetadata(html,'https://official.example/');
+ const grant=metadataForLink(all,'https://official.example/grant');
+ assert.equal(grant.deadline,'2027-11-30');
+});
+
 test('ignores malformed or unrelated JSON-LD safely',()=>{
  const all=extractStructuredMetadata('<script type="application/ld+json">{bad</script><script type="application/ld+json">'+JSON.stringify({name:'Only title'})+'</script>','https://example.org');
  assert.equal(all.length,1);assert.equal(all[0].title,'Only title');assert.equal(all[0].deadline,null);

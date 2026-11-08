@@ -6,7 +6,12 @@ function isoDate(value){
  if(m)return [m[1],String(m[2]).padStart(2,'0'),String(m[3]).padStart(2,'0')].join('-');
  m=s.match(/\b(\d{1,2})[\/.-](\d{1,2})[\/.-](20\d{2})\b/);
  if(m)return [m[3],String(m[2]).padStart(2,'0'),String(m[1]).padStart(2,'0')].join('-');
- return null;
+ const months={january:1,february:2,march:3,april:4,may:5,june:6,july:7,august:8,september:9,october:10,november:11,december:12,jan:1,feb:2,mar:3,apr:4,jun:6,jul:7,aug:8,sep:9,sept:9,oct:10,nov:11,dec:12,janeiro:1,fevereiro:2,março:3,marco:3,abril:4,maio:5,junho:6,julho:7,agosto:8,setembro:9,outubro:10,novembro:11,dezembro:12};
+ m=s.match(/\b(\d{1,2})\s+([a-zç.]+)\s+(20\d{2})\b/i)||s.match(/\b([a-zç.]+)\s+(\d{1,2})(?:st|nd|rd|th)?[,]?\s+(20\d{2})\b/i);
+ if(!m)return null;
+ const first=String(m[1]).toLowerCase().replace('.',''),second=String(m[2]).toLowerCase().replace('.','');
+ const day=Number(m[1])||Number(m[2]),month=months[first]||months[second],year=Number(m[3]);
+ return month&&day>=1&&day<=31?[String(year),String(month).padStart(2,'0'),String(day).padStart(2,'0')].join('-'):null;
 }
 function flatten(value,out=[]){
  if(Array.isArray(value))for(const x of value)flatten(x,out);
@@ -34,7 +39,7 @@ function extractStructuredMetadata(html,baseUrl){
  return items.map(item=>{
   const rawUrl=item.url||item['@id']||item.mainEntityOfPage;
   let url=null;try{url=rawUrl?new URL(typeof rawUrl==='object'?rawUrl['@id']||rawUrl.url:rawUrl,base).toString():null}catch{}
-  const org=item.organizer||item.publisher||item.provider||item.author;
+  const org=item.organizer||item.publisher||item.provider||item.author||item.isPartOf||item.sourceOrganization;
   const organization=typeof org==='string'?clean(org,180):clean(org?.name,180)||clean(item.organization,180);
   const offer=item.offers||item.isPartOf;
   const deadline=isoDate(item.endDate||item.deadline||item.applicationDeadline||offer?.validThrough);

@@ -13,7 +13,7 @@ function isoDate(raw){
  if(m)return [m[1],String(m[2]).padStart(2,'0'),String(m[3]).padStart(2,'0')].join('-');
  m=s.match(/\b(\d{1,2})[-\\/.](\d{1,2})[-\\/.](20\d{2})\b/);
  if(m)return [m[3],String(m[2]).padStart(2,'0'),String(m[1]).padStart(2,'0')].join('-');
- const months={january:1,february:2,march:3,april:4,may:5,june:6,july:7,august:8,september:9,october:10,november:11,december:12,janeiro:1,fevereiro:2,março:3,marco:3,abril:4,maio:5,junho:6,julho:7,agosto:8,setembro:9,outubro:10,novembro:11,dezembro:12};
+ const months={january:1,february:2,march:3,april:4,may:5,june:6,july:7,august:8,september:9,october:10,november:11,december:12,jan:1,feb:2,mar:3,apr:4,jun:6,jul:7,aug:8,sep:9,sept:9,oct:10,nov:11,dec:12,janeiro:1,fevereiro:2,março:3,marco:3,abril:4,maio:5,junho:6,julho:7,agosto:8,setembro:9,outubro:10,novembro:11,dezembro:12};
  m=s.match(/\b([a-zç]+)\s+(\d{1,2})(?:st|nd|rd|th)?[,]?\s+(20\d{2})\b/i)||s.match(/\b(\d{1,2})\s+de?\s+([a-zç]+)\s+de?\s+(20\d{2})\b/i);
  if(!m)return null;
  const month=months[String(m[1]).toLowerCase()]||months[String(m[2]).toLowerCase()];
