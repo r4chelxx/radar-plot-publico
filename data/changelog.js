@@ -2,6 +2,30 @@ window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
 {
   "date": "2026-11-08",
+  "type": "dados",
+  "title": "Publicação editorial verificada — 2026-11-08",
+  "items": [
+    {
+      "id": "auto-c6a3e5820a02d0ea",
+      "title": "Open redirect endpoint in Datasette prior to 0.65.2 and 1.0a21"
+    },
+    {
+      "id": "auto-d0ca43f9c65b4b8d",
+      "title": "datasette/CODE_OF_CONDUCT.md at main · simonw/datasette"
+    },
+    {
+      "id": "auto-45bf0de26c562c52",
+      "title": "Dataset metadata"
+    },
+    {
+      "id": "auto-f52b93738da2f8b4",
+      "title": "Datasette Office Hours - Simon Willison"
+    }
+  ],
+  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Open redirect endpoint in Datasette prior to 0.65.2 and 1.0a21; datasette/CODE_OF_CONDUCT.md at main · simonw/datasette; Dataset metadata; Datasette Office Hours - Simon Willison."
+}, 
+{
+  "date": "2026-11-08",
   "type": "ferramentas",
   "title": "Publicação editorial verificada — 2026-11-08",
   "items": [
