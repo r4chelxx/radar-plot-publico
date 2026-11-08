@@ -32,10 +32,10 @@ try{
  assert.throws(()=>run('publish-approved.js',input),/eligibility must use a validated catalog status/);
  fs.writeFileSync(input,JSON.stringify(opportunityManifest({...opportunityBase,id:'open-rolling-journalism-grant',deadline:null,deadlineStatus:'Applications are rolling with no deadline stated on the official page.'})));
  assert.equal(JSON.parse(run('publish-approved.js',input)).published,1);
- const vagueToolManifest={approved:[{category:'tools',record:candidate,review:{decision:'approved',reviewedBy:'editorial-reviewer',reviewedAt:'2026-10-23',officialUrl:'https://example.org/tool',evidence:'Official page reviewed; suitable for journalists and appears relevant.'}}]};
+ const vagueToolManifest={approved:[{category:'tools',record:{...candidate,id:'vague-tool-candidate',name:'Vague tool',url:'https://example.org/vague-tool'},review:{decision:'approved',reviewedBy:'editorial-reviewer',reviewedAt:'2026-10-23',officialUrl:'https://example.org/vague-tool',evidence:'Official page reviewed; suitable for journalists and appears relevant.'}}]};
  fs.writeFileSync(input,JSON.stringify(vagueToolManifest));
  assert.throws(()=>run('publish-approved.js',input),/Tool evidence must describe a confirmed product function/);
- const missingDocs={...validCatalog,id:'dataset-without-docs'};delete missingDocs.docs;
+ const missingDocs={...validCatalog,id:'dataset-without-docs',url:'https://example.org/datasets/without-docs'};delete missingDocs.docs;
  fs.writeFileSync(input,JSON.stringify({approved:[{category:'datasets',record:missingDocs,review:validCatalogManifest.approved[0].review}]}));
  assert.throws(()=>run('publish-approved.js',input),/requires official access documentation/);
 
