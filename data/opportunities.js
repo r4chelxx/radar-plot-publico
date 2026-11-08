@@ -1,6 +1,105 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.opportunities=[
 {
+  "id": "auto-e7c2d412b50c66e7",
+  "title": "MCW Global Young Leaders Fellowship 2027 (Funded) &#8211; Opportunity Desk",
+  "org": "Opportunity Desk",
+  "summary": "MCW Global Young Leaders Fellowship 2027 (Funded) &#8211; Opportunity Desk Close Menu Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awards Grants Fellowships Jobs Internships Volunteering Blog OD Specials OD Live Series Young Person of the Month Mentorship OD Mentors Success Stories How-To General Tips ODIC 2025 ODIC 2025 Application ODIC Judges ODIC 2025 Winners ODIC 2023 Winners ODIC 2022 Winners ODIC 2021 Winners ODIC 2019 Winners ODIC 2018 Winners ODIC 2017 Winners ODIC 2016 Winners Search Asia Africa Australia and Oceania America Europe Deadlines Approaching Facebook X (Twitter) Instagram Sunday, November 8 About Partners Join our Mailing List Promote with OD Submit Opportunity Nominate #YPOM Privacy Policy Disclaimer Contact Facebook X (Twitter) LinkedIn Instagram Telegram Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awards G",
+  "type": "Oportunidade editorial",
+  "themes": [
+    "Oportunidade editorial"
+  ],
+  "scope": "Não especificado",
+  "deadline": "2026-12-03",
+  "deadlineStatus": "prazo extraído de metadado estruturado da fonte oficial; horário e condições devem ser conferidos na página",
+  "eligibility": "parcial",
+  "fit": 5,
+  "status": "aberta",
+  "value": "Não informado na fonte estruturada",
+  "duration": "Não informado na fonte estruturada",
+  "modality": "Não especificado",
+  "documents": [],
+  "restrictions": [],
+  "rules": "https://opportunitydesk.org/2026/11/07/mcw-global-young-leaders-fellowship-2027-funded/",
+  "apply": "https://opportunitydesk.org/2026/11/07/mcw-global-young-leaders-fellowship-2027-funded/",
+  "verified": "2026-11-08",
+  "desc": "MCW Global Young Leaders Fellowship 2027 (Funded) &#8211; Opportunity Desk Close Menu Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awards Grants Fellowships Jobs Internships Volunteering Blog OD Specials OD Live Series Young Person of the Month Mentorship OD Mentors Success Stories How-To General Tips ODIC 2025 ODIC 2025 Application ODIC Judges ODIC 2025 Winners ODIC 2023 Winners ODIC 2022 Winners ODIC 2021 Winners ODIC 2019 Winners ODIC 2018 Winners ODIC 2017 Winners ODIC 2016 Winners Search Asia Africa Australia and Oceania America Europe Deadlines Approaching Facebook X (Twitter) Instagram Sunday, November 8 About Partners Join our Mailing List Promote with OD Submit Opportunity Nominate #YPOM Privacy Policy Disclaimer Contact Facebook X (Twitter) LinkedIn Instagram Telegram Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awards G",
+  "discoveryUrl": "https://opportunitydesk.org/2026/11/07/mcw-global-young-leaders-fellowship-2027-funded",
+  "verificationHistory": [
+    {
+      "date": "2026-11-08",
+      "status": "aberta",
+      "source": "https://opportunitydesk.org/2026/11/07/mcw-global-young-leaders-fellowship-2027-funded/"
+    }
+  ]
+},
+{
+  "id": "auto-3682a5695a409fa5",
+  "title": "CISPA Summer Research (CSR) Internship Program 2027 &#8211; Opportunity Desk",
+  "org": "Opportunity Desk",
+  "summary": "CISPA Summer Research (CSR) Internship Program 2027 &#8211; Opportunity Desk Close Menu Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awards Grants Fellowships Jobs Internships Volunteering Blog OD Specials OD Live Series Young Person of the Month Mentorship OD Mentors Success Stories How-To General Tips ODIC 2025 ODIC 2025 Application ODIC Judges ODIC 2025 Winners ODIC 2023 Winners ODIC 2022 Winners ODIC 2021 Winners ODIC 2019 Winners ODIC 2018 Winners ODIC 2017 Winners ODIC 2016 Winners Search Asia Africa Australia and Oceania America Europe Deadlines Approaching Facebook X (Twitter) Instagram Sunday, November 8 About Partners Join our Mailing List Promote with OD Submit Opportunity Nominate #YPOM Privacy Policy Disclaimer Contact Facebook X (Twitter) LinkedIn Instagram Telegram Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awards",
+  "type": "Oportunidade editorial",
+  "themes": [
+    "Oportunidade editorial"
+  ],
+  "scope": "Não especificado",
+  "deadline": "2026-11-30",
+  "deadlineStatus": "prazo extraído de metadado estruturado da fonte oficial; horário e condições devem ser conferidos na página",
+  "eligibility": "parcial",
+  "fit": 5,
+  "status": "aberta",
+  "value": "Não informado na fonte estruturada",
+  "duration": "Não informado na fonte estruturada",
+  "modality": "Não especificado",
+  "documents": [],
+  "restrictions": [],
+  "rules": "https://opportunitydesk.org/2026/11/04/csr-internship-program-2027/",
+  "apply": "https://opportunitydesk.org/2026/11/04/csr-internship-program-2027/",
+  "verified": "2026-11-08",
+  "desc": "CISPA Summer Research (CSR) Internship Program 2027 &#8211; Opportunity Desk Close Menu Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awards Grants Fellowships Jobs Internships Volunteering Blog OD Specials OD Live Series Young Person of the Month Mentorship OD Mentors Success Stories How-To General Tips ODIC 2025 ODIC 2025 Application ODIC Judges ODIC 2025 Winners ODIC 2023 Winners ODIC 2022 Winners ODIC 2021 Winners ODIC 2019 Winners ODIC 2018 Winners ODIC 2017 Winners ODIC 2016 Winners Search Asia Africa Australia and Oceania America Europe Deadlines Approaching Facebook X (Twitter) Instagram Sunday, November 8 About Partners Join our Mailing List Promote with OD Submit Opportunity Nominate #YPOM Privacy Policy Disclaimer Contact Facebook X (Twitter) LinkedIn Instagram Telegram Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awards",
+  "discoveryUrl": "https://opportunitydesk.org/2026/11/04/csr-internship-program-2027",
+  "verificationHistory": [
+    {
+      "date": "2026-11-08",
+      "status": "aberta",
+      "source": "https://opportunitydesk.org/2026/11/04/csr-internship-program-2027/"
+    }
+  ]
+},
+{
+  "id": "auto-777e69b31da619d9",
+  "title": "Call for Submissions: New Developments in AI for Social, Economic, and Policy Research Conference 2027 &#8211; Opportunity Desk",
+  "org": "Opportunity Desk",
+  "summary": "Call for Submissions: New Developments in AI for Social, Economic, and Policy Research Conference 2027 &#8211; Opportunity Desk Close Menu Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awards Grants Fellowships Jobs Internships Volunteering Blog OD Specials OD Live Series Young Person of the Month Mentorship OD Mentors Success Stories How-To General Tips ODIC 2025 ODIC 2025 Application ODIC Judges ODIC 2025 Winners ODIC 2023 Winners ODIC 2022 Winners ODIC 2021 Winners ODIC 2019 Winners ODIC 2018 Winners ODIC 2017 Winners ODIC 2016 Winners Search Asia Africa Australia and Oceania America Europe Deadlines Approaching Facebook X (Twitter) Instagram Sunday, November 8 About Partners Join our Mailing List Promote with OD Submit Opportunity Nominate #YPOM Privacy Policy Disclaimer Contact Facebook X (Twitter) LinkedIn Instagram Telegram Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Austral",
+  "type": "Oportunidade editorial",
+  "themes": [
+    "Oportunidade editorial"
+  ],
+  "scope": "Não especificado",
+  "deadline": "2026-11-30",
+  "deadlineStatus": "prazo extraído de metadado estruturado da fonte oficial; horário e condições devem ser conferidos na página",
+  "eligibility": "parcial",
+  "fit": 5,
+  "status": "aberta",
+  "value": "Não informado na fonte estruturada",
+  "duration": "Não informado na fonte estruturada",
+  "modality": "Não especificado",
+  "documents": [],
+  "restrictions": [],
+  "rules": "https://opportunitydesk.org/2026/11/02/new-developments-in-ai-for-social-economic-and-policy-research-conference-2027/",
+  "apply": "https://opportunitydesk.org/2026/11/02/new-developments-in-ai-for-social-economic-and-policy-research-conference-2027/",
+  "verified": "2026-11-08",
+  "desc": "Call for Submissions: New Developments in AI for Social, Economic, and Policy Research Conference 2027 &#8211; Opportunity Desk Close Menu Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awards Grants Fellowships Jobs Internships Volunteering Blog OD Specials OD Live Series Young Person of the Month Mentorship OD Mentors Success Stories How-To General Tips ODIC 2025 ODIC 2025 Application ODIC Judges ODIC 2025 Winners ODIC 2023 Winners ODIC 2022 Winners ODIC 2021 Winners ODIC 2019 Winners ODIC 2018 Winners ODIC 2017 Winners ODIC 2016 Winners Search Asia Africa Australia and Oceania America Europe Deadlines Approaching Facebook X (Twitter) Instagram Sunday, November 8 About Partners Join our Mailing List Promote with OD Submit Opportunity Nominate #YPOM Privacy Policy Disclaimer Contact Facebook X (Twitter) LinkedIn Instagram Telegram Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Austral",
+  "discoveryUrl": "https://opportunitydesk.org/2026/11/02/new-developments-in-ai-for-social-economic-and-policy-research-conference-2027",
+  "verificationHistory": [
+    {
+      "date": "2026-11-08",
+      "status": "aberta",
+      "source": "https://opportunitydesk.org/2026/11/02/new-developments-in-ai-for-social-economic-and-policy-research-conference-2027/"
+    }
+  ]
+}, 
+{
   "id": "ijp-german-northern-european-fellowship-2027",
   "title": "IJP — German–Northern European Journalists' Fellowship 2027",
   "org": "Internationale Journalisten-Programme (IJP)",
