@@ -1,6 +1,121 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.datasets=[
 {
+  "id": "auto-2f111b3df643d1e8",
+  "name": "Consolidated Sanctions",
+  "org": "OpenSanctions.org",
+  "territoryTier": "Outros",
+  "kind": "dataset",
+  "themes": [
+    "Dados abertos"
+  ],
+  "coverage": "Consolidated list of sanctioned entities designated by different countries and international organisations. This can include military, trade and travel restrictions.",
+  "frequency": "Não informado na fonte estruturada",
+  "format": "Não informado na fonte estruturada",
+  "period": "Não informado na fonte estruturada",
+  "granularity": "Não informado na fonte estruturada",
+  "geoUnit": "Não informado na fonte estruturada",
+  "api": "Não informado na fonte estruturada",
+  "docs": "https://www.opensanctions.org/datasets/sanctions/",
+  "limitations": "Metadados estruturados confirmam a existência do recurso, mas cobertura, atualização, licença e qualidade devem ser conferidas antes do uso editorial.",
+  "lastChecked": "2026-11-07",
+  "url": "https://www.opensanctions.org/datasets/sanctions/",
+  "discoveryUrl": "https://www.opensanctions.org/datasets/sanctions",
+  "description": "Consolidated list of sanctioned entities designated by different countries and international organisations. This can include military, trade and travel restrictions."
+},
+{
+  "id": "auto-0b9fcaaa0bc8c6aa",
+  "name": "Warrants and Criminal Entities",
+  "org": "OpenSanctions.org",
+  "territoryTier": "Outros",
+  "kind": "dataset",
+  "themes": [
+    "Dados abertos"
+  ],
+  "coverage": "Companies and people implicated in or convicted of criminal activity, including the &quot;Most Wanted&quot; lists of various countries and international authorities.",
+  "frequency": "Não informado na fonte estruturada",
+  "format": "Não informado na fonte estruturada",
+  "period": "Não informado na fonte estruturada",
+  "granularity": "Não informado na fonte estruturada",
+  "geoUnit": "Não informado na fonte estruturada",
+  "api": "Não informado na fonte estruturada",
+  "docs": "https://www.opensanctions.org/datasets/crime/",
+  "limitations": "Metadados estruturados confirmam a existência do recurso, mas cobertura, atualização, licença e qualidade devem ser conferidas antes do uso editorial.",
+  "lastChecked": "2026-11-07",
+  "url": "https://www.opensanctions.org/datasets/crime/",
+  "discoveryUrl": "https://www.opensanctions.org/datasets/crime",
+  "description": "Companies and people implicated in or convicted of criminal activity, including the &quot;Most Wanted&quot; lists of various countries and international authorities."
+},
+{
+  "id": "auto-c6a3e5820a02d0ea",
+  "name": "Open redirect endpoint in Datasette prior to 0.65.2 and 1.0a21",
+  "org": "GitHub",
+  "territoryTier": "Outros",
+  "kind": "dataset",
+  "themes": [
+    "Dados abertos"
+  ],
+  "coverage": "GitHub is where people build software. More than 225 million people use GitHub to discover, fork, and contribute to over 800 million projects.",
+  "frequency": "Não informado na fonte estruturada",
+  "format": "Não informado na fonte estruturada",
+  "period": "Não informado na fonte estruturada",
+  "granularity": "Não informado na fonte estruturada",
+  "geoUnit": "Não informado na fonte estruturada",
+  "api": "Não informado na fonte estruturada",
+  "docs": "https://github.com/simonw/datasette/security/advisories/GHSA-w832-gg5g-x44m",
+  "limitations": "Metadados estruturados confirmam a existência do recurso, mas cobertura, atualização, licença e qualidade devem ser conferidas antes do uso editorial.",
+  "lastChecked": "2026-11-07",
+  "url": "https://github.com/simonw/datasette/security/advisories/GHSA-w832-gg5g-x44m",
+  "discoveryUrl": "https://github.com/simonw/datasette/security/advisories/GHSA-w832-gg5g-x44m",
+  "description": "GitHub is where people build software. More than 225 million people use GitHub to discover, fork, and contribute to over 800 million projects."
+},
+{
+  "id": "auto-c1482ab524e0671e",
+  "name": "Tanzania - Demographic and Health Survey and Malaria Indicator...",
+  "org": "World Bank Data Catalog",
+  "territoryTier": "Outros",
+  "kind": "dataset",
+  "themes": [
+    "Dados abertos"
+  ],
+  "coverage": "The primary objective of the 2022 Tanzania Demographic and Health Survey and Malaria Indicator Survey (2022 TDHSMIS) is to provide current and reliable inf...",
+  "frequency": "Não informado na fonte estruturada",
+  "format": "Não informado na fonte estruturada",
+  "period": "Não informado na fonte estruturada",
+  "granularity": "Não informado na fonte estruturada",
+  "geoUnit": "Não informado na fonte estruturada",
+  "api": "Não informado na fonte estruturada",
+  "docs": "https://datacatalog.worldbank.org/search/dataset/0065150/tanzania-demographic-and-health-survey-and-malaria-indicator-survey-2022",
+  "limitations": "Metadados estruturados confirmam a existência do recurso, mas cobertura, atualização, licença e qualidade devem ser conferidas antes do uso editorial.",
+  "lastChecked": "2026-11-07",
+  "url": "https://datacatalog.worldbank.org/search/dataset/0065150/tanzania-demographic-and-health-survey-and-malaria-indicator-survey-2022",
+  "discoveryUrl": "https://datacatalog.worldbank.org/search/dataset/0065150",
+  "description": "The primary objective of the 2022 Tanzania Demographic and Health Survey and Malaria Indicator Survey (2022 TDHSMIS) is to provide current and reliable inf..."
+},
+{
+  "id": "auto-d0ca43f9c65b4b8d",
+  "name": "datasette/CODE_OF_CONDUCT.md at main · simonw/datasette",
+  "org": "GitHub",
+  "territoryTier": "Outros",
+  "kind": "dataset",
+  "themes": [
+    "Dados abertos"
+  ],
+  "coverage": "An open source multi-tool for exploring and publishing data - datasette/CODE_OF_CONDUCT.md at main · simonw/datasette",
+  "frequency": "Não informado na fonte estruturada",
+  "format": "Não informado na fonte estruturada",
+  "period": "Não informado na fonte estruturada",
+  "granularity": "Não informado na fonte estruturada",
+  "geoUnit": "Não informado na fonte estruturada",
+  "api": "Não informado na fonte estruturada",
+  "docs": "https://github.com/simonw/datasette/blob/main/CODE_OF_CONDUCT.md",
+  "limitations": "Metadados estruturados confirmam a existência do recurso, mas cobertura, atualização, licença e qualidade devem ser conferidas antes do uso editorial.",
+  "lastChecked": "2026-11-07",
+  "url": "https://github.com/simonw/datasette/blob/main/CODE_OF_CONDUCT.md",
+  "discoveryUrl": "https://github.com/simonw/datasette/blob/main/CODE_OF_CONDUCT.md",
+  "description": "An open source multi-tool for exploring and publishing data - datasette/CODE_OF_CONDUCT.md at main · simonw/datasette"
+}, 
+{
   "id": "geoboundaries-global-administrative-boundaries",
   "name": "geoBoundaries — limites administrativos globais",
   "org": "William & Mary geoLab e colaboradores",
