@@ -1,6 +1,22 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.tools=[
 {
+  "id": "auto-ef6cc1882133a881",
+  "name": "Toolkits | International Journalists&#039; Network",
+  "kind": "ferramenta",
+  "url": "https://ijnet.org/en/toolkits",
+  "desc": "IJNet delivers the latest on global media innovation, news apps and tools, training opportunities and expert advice for professional and citizen journalists worldwide. Produced by the International Center for Journalists, IJNet follows the shifting journalism scene from a global perspective in eight languages - Arabic, Chinese, English, Persian, Portuguese, Russian, Spanish and French. Revisar licença, limites, privacidade e acessibilidade antes do uso editorial.",
+  "discoveryUrl": "https://ijnet.org/en/toolkits"
+},
+{
+  "id": "auto-72ba29bf165731ee",
+  "name": "WHO releases updated Health Inequality Data Repository and Health Equity Assessment Toolkit",
+  "kind": "ferramenta",
+  "url": "https://www.who.int/news/item/03-03-2026-who-releases-updated-health-inequality-data-repository-and-health-equity-assessment-toolkit",
+  "desc": "WHO has released updated versions of two key resources as part of the Health Inequality Monitor to strengthen data accessibility and usability for health equity.The WHO Health Inequality Data Repository (HIDR), the largest public repository of health inequality data, has been updated with the latest available data from publicly available sources. It now contains over 13 million data points that capture more than 2400 health indicators and 22 dimensions of inequality. The newly released Version 7 of the Health Equity Assessment Toolkit (HEAT and HEAT Plus) software includes improved functionality for the analysis and reporting of health inequalities. HEAT (Version 7) is preloaded with the 202 Revisar licença, limites, privacidade e acessibilidade antes do uso editorial.",
+  "discoveryUrl": "https://www.who.int/news/item/03-03-2026-who-releases-updated-health-inequality-data-repository-and-health-equity-assessment-toolkit#content"
+}, 
+{
   "id": "samgeo-geospatial-image-segmentation",
   "name": "SamGeo — segmentação de imagens geoespaciais com IA",
   "kind": "biblioteca Python aberta para análise de imagens e sensoriamento remoto",
