@@ -1,3 +1,4 @@
+# Global opportunity intake is audited by the daily source sweep
 name: Radar source discovery
 on:
   schedule:
