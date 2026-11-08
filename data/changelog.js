@@ -1,6 +1,38 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
 {
+  "date": "2026-11-08",
+  "type": "dados",
+  "title": "Publicação editorial verificada — 2026-11-08",
+  "items": [
+    {
+      "id": "auto-8729547975882e61",
+      "title": "Ethiopia - High Frequency Phone Survey 2020-2024 - World Bank..."
+    },
+    {
+      "id": "auto-f52b93738da2f8b4",
+      "title": "Datasette Office Hours - Simon Willison"
+    },
+    {
+      "id": "auto-94f3d2156f6442d3",
+      "title": "US OFAC Specially Designated Nationals (SDN) List"
+    },
+    {
+      "id": "auto-cc64ce6bf358c3c2",
+      "title": "Sanctioned Securities"
+    },
+    {
+      "id": "auto-c0272f4740f6c9ff",
+      "title": "Maritime-related sanctions"
+    },
+    {
+      "id": "auto-45bf0de26c562c52",
+      "title": "Dataset metadata"
+    }
+  ],
+  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Ethiopia - High Frequency Phone Survey 2020-2024 - World Bank...; Datasette Office Hours - Simon Willison; US OFAC Specially Designated Nationals (SDN) List; Sanctioned Securities; Maritime-related sanctions; Dataset metadata."
+}, 
+{
   "date": "2026-11-07",
   "type": "dados",
   "title": "Publicação editorial verificada — 2026-11-07",
