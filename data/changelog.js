@@ -1,5 +1,25 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
+{
+  "date": "2026-11-08",
+  "type": "nova-oportunidade",
+  "title": "Publicação editorial verificada — 2026-11-08",
+  "items": [
+    {
+      "id": "auto-e7c2d412b50c66e7",
+      "title": "MCW Global Young Leaders Fellowship 2027 (Funded) &#8211; Opportunity Desk"
+    },
+    {
+      "id": "auto-3682a5695a409fa5",
+      "title": "CISPA Summer Research (CSR) Internship Program 2027 &#8211; Opportunity Desk"
+    },
+    {
+      "id": "auto-777e69b31da619d9",
+      "title": "Call for Submissions: New Developments in AI for Social, Economic, and Policy Research Conference 2027 &#8211; Opportunity Desk"
+    }
+  ],
+  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: MCW Global Young Leaders Fellowship 2027 (Funded) &#8211; Opportunity Desk; CISPA Summer Research (CSR) Internship Program 2027 &#8211; Opportunity Desk; Call for Submissions: New Developments in AI for Social, Economic, and Policy Research Conference 2027 &#8211; Opportunity Desk."
+}, 
   {
     "date": "2026-11-06",
     "type": "atualizacao-editorial",
