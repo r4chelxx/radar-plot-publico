@@ -17,6 +17,12 @@ try{
  const badManifest={approved:[{category:'datasets',record:badDataset,review:{decision:'approved',reviewedBy:'editorial-reviewer',reviewedAt:'2026-10-23',officialUrl:'https://example.org/events',evidence:'Página oficial revisada.'}}]};
  fs.writeFileSync(input,JSON.stringify(badManifest));
  assert.throws(()=>run('publish-approved.js',input),/Command failed|Dataset evidence is insufficient/);
+ const validCatalog={id:'verified-data-catalog',name:'Verified agency data catalog',org:'Example Agency',territoryTier:'Global',kind:'catalog',themes:['Public data'],coverage:'Municipal service records covering 2020–2025.',frequency:'Monthly',format:'CSV and JSON downloads',period:'2020–2025',granularity:'Municipality',geoUnit:'Municipality',api:'https://example.org/api',docs:'https://example.org/datasets/municipal-services',limitations:'Coverage varies by municipality; check the catalog notes.',lastChecked:'2026-10-23',url:'https://example.org/datasets/municipal-services',description:'Official catalog of municipal service records.'};
+ const validCatalogManifest={approved:[{category:'datasets',record:validCatalog,review:{decision:'approved',reviewedBy:'editorial-reviewer',reviewedAt:'2026-10-23',officialUrl:'https://example.org/datasets/municipal-services',evidence:'The official catalog documents its CSV and JSON downloads, covered years and monthly update frequency.'}}]};
+ fs.writeFileSync(input,JSON.stringify(validCatalogManifest));
+ assert.equal(JSON.parse(run('publish-approved.js',input)).published,1);
+ assert(fs.readFileSync(path.join(root,'data','datasets.js'),'utf8').includes('verified-data-catalog'));
+
  const weakFormat={id:'weak-format-dataset',name:'Household survey dataset',org:'Example Institute',kind:'dataset',url:'https://example.org/datasets/households',coverage:'Household indicators for 2020–2024.',format:'Não informado na fonte estruturada',limitations:'Coverage and definitions require review.'};
  const weakFormatManifest={approved:[{category:'datasets',record:weakFormat,review:{decision:'approved',reviewedBy:'editorial-reviewer',reviewedAt:'2026-10-23',officialUrl:'https://example.org/datasets/households',evidence:'The official catalog provides the dataset description and access page.'}}]};
  fs.writeFileSync(input,JSON.stringify(weakFormatManifest));
