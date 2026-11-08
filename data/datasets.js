@@ -1,4 +1,6 @@
-window.RADAR_PARTS=window.RADAR_PARTS||{};\nwindow.RADAR_PARTS.datasets=\n[
+window.RADAR_PARTS=window.RADAR_PARTS||{};
+window.RADAR_PARTS.datasets=[
+
   {
     "id": "geoboundaries-global-administrative-boundaries",
     "name": "geoBoundaries — limites administrativos globais",
@@ -4647,4 +4649,4 @@ window.RADAR_PARTS=window.RADAR_PARTS||{};\nwindow.RADAR_PARTS.datasets=\n[
     "discoveryUrl": "https://ararenda.ce.gov.br/transparencia/dados-abertos/",
     "description": "Portal municipal com dados de finanças, pessoal, contratos e obras em formatos abertos e API REST pública documentada."
   }
-];\n
+ ];
