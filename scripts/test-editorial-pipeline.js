@@ -17,6 +17,18 @@ try{
  const badManifest={approved:[{category:'datasets',record:badDataset,review:{decision:'approved',reviewedBy:'editorial-reviewer',reviewedAt:'2026-10-23',officialUrl:'https://example.org/events',evidence:'Página oficial revisada.'}}]};
  fs.writeFileSync(input,JSON.stringify(badManifest));
  assert.throws(()=>run('publish-approved.js',input),/Command failed|Dataset evidence is insufficient/);
+ const weakFormat={id:'weak-format-dataset',name:'Household survey dataset',org:'Example Institute',kind:'dataset',url:'https://example.org/datasets/households',coverage:'Household indicators for 2020–2024.',format:'Não informado na fonte estruturada',limitations:'Coverage and definitions require review.'};
+ const weakFormatManifest={approved:[{category:'datasets',record:weakFormat,review:{decision:'approved',reviewedBy:'editorial-reviewer',reviewedAt:'2026-10-23',officialUrl:'https://example.org/datasets/households',evidence:'The official catalog provides the dataset description and access page.'}}]};
+ fs.writeFileSync(input,JSON.stringify(weakFormatManifest));
+ assert.throws(()=>run('publish-approved.js',input),/Command failed|direct, usable resource/);
+ const weakTool={...candidate,id:'blog-as-tool',name:'A guide to data visualization',kind:'ferramenta',url:'https://example.org/blog/data-visualization',desc:'A detailed guide discussing data visualization methods and examples for newsrooms.'};
+ const weakToolManifest={approved:[{category:'tools',record:weakTool,review:{decision:'approved',reviewedBy:'editorial-reviewer',reviewedAt:'2026-10-23',officialUrl:'https://example.org/blog/data-visualization',evidence:'The official website contains a detailed article describing the subject and its uses.'}}]};
+ fs.writeFileSync(input,JSON.stringify(weakToolManifest));
+ assert.throws(()=>run('publish-approved.js',input),/Command failed|page is navigation/);
+ const machineManifest={approved:[{category:'tools',record:candidate,review:{decision:'approved',reviewedBy:'Radar PLOT — auditoria automática conservadora',reviewedAt:'2026-10-23',officialUrl:'https://example.org/tool',evidence:'Official metadata confirms the fields on the source page and its apparent category.'}}]};
+ fs.writeFileSync(input,JSON.stringify(machineManifest));
+ assert.throws(()=>run('publish-approved.js',input),/Command failed|item-level editorial verification/);
+ fs.writeFileSync(input,JSON.stringify(manifest));
  fs.writeFileSync(input,JSON.stringify(manifest));
  const duplicate=JSON.parse(JSON.stringify(manifest.approved[0]));duplicate.record.id='same-url-different-id';duplicate.record.url='https://example.org/tool/';
  manifest.approved.push(duplicate);fs.writeFileSync(input,JSON.stringify(manifest));
