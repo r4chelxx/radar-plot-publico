@@ -1,10 +1,10 @@
 {
-  "checkedAt": "2026-11-07T16:50:52.847Z",
+  "checkedAt": "2026-11-08T12:36:56.598Z",
   "policy": "404/410 and ArcGIS application errors within HTTP 200 become broken only after appearing as suspect or broken in the previous audit; blocked and network results are inconclusive",
   "counts": {
-    "ok": 587,
-    "blocked": 60,
-    "network": 29
+    "ok": 626,
+    "blocked": 59,
+    "network": 28
   },
   "results": [
     {
@@ -3773,6 +3773,307 @@
     },
     {
       "type": "dataset",
+      "id": "auto-8729547975882e61",
+      "field": "url",
+      "url": "https://datacatalog.worldbank.org/search/dataset/0048099/ethiopia-high-frequency-phone-survey-2020-2024",
+      "references": [
+        {
+          "type": "dataset",
+          "id": "auto-8729547975882e61",
+          "field": "url"
+        },
+        {
+          "type": "dataset",
+          "id": "auto-8729547975882e61",
+          "field": "docs"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://datacatalog.worldbank.org/search/dataset/0048099/ethiopia-high-frequency-phone-survey-2020-2024",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "auto-8729547975882e61",
+      "field": "discoveryUrl",
+      "url": "https://datacatalog.worldbank.org/search/dataset/0048099",
+      "references": [
+        {
+          "type": "dataset",
+          "id": "auto-8729547975882e61",
+          "field": "discoveryUrl"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://datacatalog.worldbank.org/search/dataset/0048099/ethiopia-high-frequency-phone-survey-2020-2024",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "auto-94f3d2156f6442d3",
+      "field": "url",
+      "url": "https://www.opensanctions.org/datasets/us_ofac_sdn/",
+      "references": [
+        {
+          "type": "dataset",
+          "id": "auto-94f3d2156f6442d3",
+          "field": "url"
+        },
+        {
+          "type": "dataset",
+          "id": "auto-94f3d2156f6442d3",
+          "field": "docs"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://www.opensanctions.org/datasets/us_ofac_sdn/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "auto-94f3d2156f6442d3",
+      "field": "discoveryUrl",
+      "url": "https://www.opensanctions.org/datasets/us_ofac_sdn",
+      "references": [
+        {
+          "type": "dataset",
+          "id": "auto-94f3d2156f6442d3",
+          "field": "discoveryUrl"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://www.opensanctions.org/datasets/us_ofac_sdn/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "auto-cc64ce6bf358c3c2",
+      "field": "url",
+      "url": "https://www.opensanctions.org/datasets/securities/",
+      "references": [
+        {
+          "type": "dataset",
+          "id": "auto-cc64ce6bf358c3c2",
+          "field": "url"
+        },
+        {
+          "type": "dataset",
+          "id": "auto-cc64ce6bf358c3c2",
+          "field": "docs"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://www.opensanctions.org/datasets/securities/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "auto-cc64ce6bf358c3c2",
+      "field": "discoveryUrl",
+      "url": "https://www.opensanctions.org/datasets/securities",
+      "references": [
+        {
+          "type": "dataset",
+          "id": "auto-cc64ce6bf358c3c2",
+          "field": "discoveryUrl"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://www.opensanctions.org/datasets/securities/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "auto-c0272f4740f6c9ff",
+      "field": "url",
+      "url": "https://www.opensanctions.org/datasets/maritime/",
+      "references": [
+        {
+          "type": "dataset",
+          "id": "auto-c0272f4740f6c9ff",
+          "field": "url"
+        },
+        {
+          "type": "dataset",
+          "id": "auto-c0272f4740f6c9ff",
+          "field": "docs"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://www.opensanctions.org/datasets/maritime/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "auto-c0272f4740f6c9ff",
+      "field": "discoveryUrl",
+      "url": "https://www.opensanctions.org/datasets/maritime",
+      "references": [
+        {
+          "type": "dataset",
+          "id": "auto-c0272f4740f6c9ff",
+          "field": "discoveryUrl"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://www.opensanctions.org/datasets/maritime/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "auto-2f111b3df643d1e8",
+      "field": "url",
+      "url": "https://www.opensanctions.org/datasets/sanctions/",
+      "references": [
+        {
+          "type": "dataset",
+          "id": "auto-2f111b3df643d1e8",
+          "field": "url"
+        },
+        {
+          "type": "dataset",
+          "id": "auto-2f111b3df643d1e8",
+          "field": "docs"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://www.opensanctions.org/datasets/sanctions/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "auto-2f111b3df643d1e8",
+      "field": "discoveryUrl",
+      "url": "https://www.opensanctions.org/datasets/sanctions",
+      "references": [
+        {
+          "type": "dataset",
+          "id": "auto-2f111b3df643d1e8",
+          "field": "discoveryUrl"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://www.opensanctions.org/datasets/sanctions/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "auto-0b9fcaaa0bc8c6aa",
+      "field": "url",
+      "url": "https://www.opensanctions.org/datasets/crime/",
+      "references": [
+        {
+          "type": "dataset",
+          "id": "auto-0b9fcaaa0bc8c6aa",
+          "field": "url"
+        },
+        {
+          "type": "dataset",
+          "id": "auto-0b9fcaaa0bc8c6aa",
+          "field": "docs"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://www.opensanctions.org/datasets/crime/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "auto-0b9fcaaa0bc8c6aa",
+      "field": "discoveryUrl",
+      "url": "https://www.opensanctions.org/datasets/crime",
+      "references": [
+        {
+          "type": "dataset",
+          "id": "auto-0b9fcaaa0bc8c6aa",
+          "field": "discoveryUrl"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://www.opensanctions.org/datasets/crime/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "auto-c1482ab524e0671e",
+      "field": "url",
+      "url": "https://datacatalog.worldbank.org/search/dataset/0065150/tanzania-demographic-and-health-survey-and-malaria-indicator-survey-2022",
+      "references": [
+        {
+          "type": "dataset",
+          "id": "auto-c1482ab524e0671e",
+          "field": "url"
+        },
+        {
+          "type": "dataset",
+          "id": "auto-c1482ab524e0671e",
+          "field": "docs"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://datacatalog.worldbank.org/search/dataset/0065150/tanzania-demographic-and-health-survey-and-malaria-indicator-survey-2022",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "auto-c1482ab524e0671e",
+      "field": "discoveryUrl",
+      "url": "https://datacatalog.worldbank.org/search/dataset/0065150",
+      "references": [
+        {
+          "type": "dataset",
+          "id": "auto-c1482ab524e0671e",
+          "field": "discoveryUrl"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://datacatalog.worldbank.org/search/dataset/0065150/tanzania-demographic-and-health-survey-and-malaria-indicator-survey-2022",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
       "id": "geoboundaries-global-administrative-boundaries",
       "field": "url",
       "url": "https://www.geoboundaries.org/",
@@ -4898,13 +5199,11 @@
           "field": "discoveryUrl"
         }
       ],
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://www.generonumero.media/dados-abertos/",
+      "class": "ok",
       "attempts": [
-        "TypeError:fetch failed",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -6348,12 +6647,11 @@
           "field": "url"
         }
       ],
-      "status": 429,
+      "status": 200,
       "finalUrl": "https://www.gov.br/anatel/pt-br/dados/dados-abertos",
-      "class": "blocked",
+      "class": "ok",
       "attempts": [
-        "TypeError:fetch failed",
-        429
+        200
       ]
     },
     {
@@ -7067,7 +7365,6 @@
       "finalUrl": "https://www.ba.gov.br/ssp/publicacoes",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -7127,7 +7424,6 @@
       "finalUrl": "https://dados.ons.org.br/",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -7152,7 +7448,6 @@
       "finalUrl": "https://dados.ons.org.br/dataset/restricao_coff_fotovoltaica",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -7172,7 +7467,6 @@
       "finalUrl": "https://dados.ons.org.br/dataset/restricao_coff_fotovoltaica_detail",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -7192,7 +7486,6 @@
       "finalUrl": "https://datasus.saude.gov.br/",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -7217,7 +7510,6 @@
       "finalUrl": "https://sidra.ibge.gov.br/",
       "class": "blocked",
       "attempts": [
-        "AbortError:This operation was aborted",
         403
       ]
     },
@@ -7514,6 +7806,7 @@
       "finalUrl": "https://www.ba.gov.br/saude/suvisa/vigilancia-epidemiologica",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -7863,7 +8156,7 @@
       "class": "network",
       "error": "TypeError:fetch failed",
       "attempts": [
-        "TypeError:fetch failed",
+        "AbortError:This operation was aborted",
         "TypeError:fetch failed"
       ]
     },
@@ -11651,6 +11944,518 @@
       ],
       "status": 200,
       "finalUrl": "https://journaliststudio.google.com/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "auto-6dfe0fe7061c7f49",
+      "field": "url",
+      "url": "https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Hackathon_2023/Program",
+      "references": [
+        {
+          "type": "tool",
+          "id": "auto-6dfe0fe7061c7f49",
+          "field": "url"
+        },
+        {
+          "type": "tool",
+          "id": "auto-6dfe0fe7061c7f49",
+          "field": "discoveryUrl"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://www.mediawiki.org/wiki/Special:MyLanguage/Wikimedia_Hackathon_2023/Program",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "auto-03c1085e8207c089",
+      "field": "url",
+      "url": "https://www.mediawiki.org/wiki/Special:MyLanguage/Moderator_Tools/Automoderator/Multilingual_testing",
+      "references": [
+        {
+          "type": "tool",
+          "id": "auto-03c1085e8207c089",
+          "field": "url"
+        },
+        {
+          "type": "tool",
+          "id": "auto-03c1085e8207c089",
+          "field": "discoveryUrl"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://www.mediawiki.org/wiki/Special:MyLanguage/Moderator_Tools/Automoderator/Multilingual_testing",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "auto-04c405fc01a4d2d1",
+      "field": "url",
+      "url": "https://www.mediawiki.org/wiki/Special:MyLanguage/Moderator_Tools",
+      "references": [
+        {
+          "type": "tool",
+          "id": "auto-04c405fc01a4d2d1",
+          "field": "url"
+        },
+        {
+          "type": "tool",
+          "id": "auto-04c405fc01a4d2d1",
+          "field": "discoveryUrl"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://www.mediawiki.org/wiki/Special:MyLanguage/Moderator_Tools",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "auto-d8ef02d52d558fca",
+      "field": "url",
+      "url": "https://www.mediawiki.org/w/index.php?title=Special:CiteThisPage&page=Moderator_Tools%2FAutomoderator%2Fvi&id=8386498&wpFormIdentifier=titleform",
+      "references": [
+        {
+          "type": "tool",
+          "id": "auto-d8ef02d52d558fca",
+          "field": "url"
+        },
+        {
+          "type": "tool",
+          "id": "auto-d8ef02d52d558fca",
+          "field": "discoveryUrl"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://www.mediawiki.org/w/index.php?title=Special:CiteThisPage&page=Moderator_Tools%2FAutomoderator%2Fvi&id=8386498&wpFormIdentifier=titleform",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "auto-319fecfc913e3666",
+      "field": "url",
+      "url": "https://www.mediawiki.org/wiki/Special:MyLanguage/Moderator_Tools/Automoderator",
+      "references": [
+        {
+          "type": "tool",
+          "id": "auto-319fecfc913e3666",
+          "field": "url"
+        },
+        {
+          "type": "tool",
+          "id": "auto-319fecfc913e3666",
+          "field": "discoveryUrl"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://www.mediawiki.org/wiki/Special:MyLanguage/Moderator_Tools/Automoderator",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "auto-47a5a9ca10421c0c",
+      "field": "url",
+      "url": "https://www.mediawiki.org/wiki/Moderator_Tools/Automoderator/nl",
+      "references": [
+        {
+          "type": "tool",
+          "id": "auto-47a5a9ca10421c0c",
+          "field": "url"
+        },
+        {
+          "type": "tool",
+          "id": "auto-47a5a9ca10421c0c",
+          "field": "discoveryUrl"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://www.mediawiki.org/wiki/Moderator_Tools/Automoderator/nl",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "auto-c10fc32f056631ea",
+      "field": "url",
+      "url": "https://www.wikidata.org/wiki/Special:NewItem?site=mediawikiwiki&page=Moderator+Tools%2FAutomoderator%2Fvi",
+      "references": [
+        {
+          "type": "tool",
+          "id": "auto-c10fc32f056631ea",
+          "field": "url"
+        },
+        {
+          "type": "tool",
+          "id": "auto-c10fc32f056631ea",
+          "field": "discoveryUrl"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://www.wikidata.org/wiki/Special:NewItem?site=mediawikiwiki&page=Moderator+Tools%2FAutomoderator%2Fvi",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "auto-59b5a0a56abb1506",
+      "field": "url",
+      "url": "https://www.mediawiki.org/wiki/Special:MyLanguage/Moderator_Tools/Automoderator/Testing",
+      "references": [
+        {
+          "type": "tool",
+          "id": "auto-59b5a0a56abb1506",
+          "field": "url"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://www.mediawiki.org/wiki/Special:MyLanguage/Moderator_Tools/Automoderator/Testing",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "auto-59b5a0a56abb1506",
+      "field": "discoveryUrl",
+      "url": "https://www.mediawiki.org/wiki/Special:MyLanguage/Moderator_Tools/Automoderator/Testing#Initial_results",
+      "references": [
+        {
+          "type": "tool",
+          "id": "auto-59b5a0a56abb1506",
+          "field": "discoveryUrl"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://www.mediawiki.org/wiki/Special:MyLanguage/Moderator_Tools/Automoderator/Testing",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "auto-5f9a02ae86b5ae56",
+      "field": "url",
+      "url": "https://www.mediawiki.org/wiki/Moderator_Tools/Automoderator/pt-br",
+      "references": [
+        {
+          "type": "tool",
+          "id": "auto-5f9a02ae86b5ae56",
+          "field": "url"
+        },
+        {
+          "type": "tool",
+          "id": "auto-5f9a02ae86b5ae56",
+          "field": "discoveryUrl"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://www.mediawiki.org/wiki/Moderator_Tools/Automoderator/pt-br",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "auto-6273be5565272108",
+      "field": "url",
+      "url": "https://www.mediawiki.org/wiki/Moderator_Tools/Automoderator/fr",
+      "references": [
+        {
+          "type": "tool",
+          "id": "auto-6273be5565272108",
+          "field": "url"
+        },
+        {
+          "type": "tool",
+          "id": "auto-6273be5565272108",
+          "field": "discoveryUrl"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://www.mediawiki.org/wiki/Moderator_Tools/Automoderator/fr",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "auto-6703fc7b7da67ad7",
+      "field": "url",
+      "url": "https://www.mediawiki.org/wiki/Moderator_Tools/Automoderator/it",
+      "references": [
+        {
+          "type": "tool",
+          "id": "auto-6703fc7b7da67ad7",
+          "field": "url"
+        },
+        {
+          "type": "tool",
+          "id": "auto-6703fc7b7da67ad7",
+          "field": "discoveryUrl"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://www.mediawiki.org/wiki/Moderator_Tools/Automoderator/it",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "auto-6a5c5eab2aec22be",
+      "field": "url",
+      "url": "https://www.mediawiki.org/wiki/Moderator_Tools/Automoderator/vi",
+      "references": [
+        {
+          "type": "tool",
+          "id": "auto-6a5c5eab2aec22be",
+          "field": "url"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://www.mediawiki.org/wiki/Moderator_Tools/Automoderator/vi",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "auto-6a5c5eab2aec22be",
+      "field": "discoveryUrl",
+      "url": "https://www.mediawiki.org/wiki/Moderator_Tools/Automoderator/vi#bodyContent",
+      "references": [
+        {
+          "type": "tool",
+          "id": "auto-6a5c5eab2aec22be",
+          "field": "discoveryUrl"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://www.mediawiki.org/wiki/Moderator_Tools/Automoderator/vi",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "auto-7354144ac2f3f5b6",
+      "field": "url",
+      "url": "https://www.mediawiki.org/wiki/Moderator_Tools/Automoderator",
+      "references": [
+        {
+          "type": "tool",
+          "id": "auto-7354144ac2f3f5b6",
+          "field": "url"
+        },
+        {
+          "type": "tool",
+          "id": "auto-7354144ac2f3f5b6",
+          "field": "discoveryUrl"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://www.mediawiki.org/wiki/Moderator_Tools/Automoderator",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "auto-80456ffbd2ad4cff",
+      "field": "url",
+      "url": "https://www.mediawiki.org/wiki/Moderator_Tools",
+      "references": [
+        {
+          "type": "tool",
+          "id": "auto-80456ffbd2ad4cff",
+          "field": "url"
+        },
+        {
+          "type": "tool",
+          "id": "auto-80456ffbd2ad4cff",
+          "field": "discoveryUrl"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://www.mediawiki.org/wiki/Moderator_Tools",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "auto-a62839008c2a854e",
+      "field": "url",
+      "url": "https://www.mediawiki.org/wiki/Moderator_Tools/Automoderator/id",
+      "references": [
+        {
+          "type": "tool",
+          "id": "auto-a62839008c2a854e",
+          "field": "url"
+        },
+        {
+          "type": "tool",
+          "id": "auto-a62839008c2a854e",
+          "field": "discoveryUrl"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://www.mediawiki.org/wiki/Moderator_Tools/Automoderator/id",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "auto-b22022306fc6cef9",
+      "field": "url",
+      "url": "https://www.mediawiki.org/wiki/Special:MyLanguage/Moderator_Tools/Automoderator/Measurement_plan",
+      "references": [
+        {
+          "type": "tool",
+          "id": "auto-b22022306fc6cef9",
+          "field": "url"
+        },
+        {
+          "type": "tool",
+          "id": "auto-b22022306fc6cef9",
+          "field": "discoveryUrl"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://www.mediawiki.org/wiki/Special:MyLanguage/Moderator_Tools/Automoderator/Measurement_plan",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "auto-ce58085ef1edfb47",
+      "field": "url",
+      "url": "https://github.com/wikimedia/mediawiki-services-parsoid/blob/39ea4e49783b1f88326d6ebddd14e08bb39cb649/tools/sync-parserTests.js",
+      "references": [
+        {
+          "type": "tool",
+          "id": "auto-ce58085ef1edfb47",
+          "field": "url"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://github.com/wikimedia/mediawiki-services-parsoid/blob/39ea4e49783b1f88326d6ebddd14e08bb39cb649/tools/sync-parserTests.js",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "auto-ce58085ef1edfb47",
+      "field": "discoveryUrl",
+      "url": "https://github.com/wikimedia/parsoid/blob/39ea4e49783b1f88326d6ebddd14e08bb39cb649/tools/sync-parserTests.js#L5-L34",
+      "references": [
+        {
+          "type": "tool",
+          "id": "auto-ce58085ef1edfb47",
+          "field": "discoveryUrl"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://github.com/wikimedia/mediawiki-services-parsoid/blob/39ea4e49783b1f88326d6ebddd14e08bb39cb649/tools/sync-parserTests.js",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "auto-ef6cc1882133a881",
+      "field": "url",
+      "url": "https://ijnet.org/en/toolkits",
+      "references": [
+        {
+          "type": "tool",
+          "id": "auto-ef6cc1882133a881",
+          "field": "url"
+        },
+        {
+          "type": "tool",
+          "id": "auto-ef6cc1882133a881",
+          "field": "discoveryUrl"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://ijnet.org/en/toolkits",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "auto-72ba29bf165731ee",
+      "field": "url",
+      "url": "https://www.who.int/news/item/03-03-2026-who-releases-updated-health-inequality-data-repository-and-health-equity-assessment-toolkit",
+      "references": [
+        {
+          "type": "tool",
+          "id": "auto-72ba29bf165731ee",
+          "field": "url"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://www.who.int/news/item/03-03-2026-who-releases-updated-health-inequality-data-repository-and-health-equity-assessment-toolkit",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "auto-72ba29bf165731ee",
+      "field": "discoveryUrl",
+      "url": "https://www.who.int/news/item/03-03-2026-who-releases-updated-health-inequality-data-repository-and-health-equity-assessment-toolkit#content",
+      "references": [
+        {
+          "type": "tool",
+          "id": "auto-72ba29bf165731ee",
+          "field": "discoveryUrl"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://www.who.int/news/item/03-03-2026-who-releases-updated-health-inequality-data-repository-and-health-equity-assessment-toolkit",
       "class": "ok",
       "attempts": [
         200
