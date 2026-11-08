@@ -13,6 +13,11 @@ try{
  assert(fs.readFileSync(path.join(root,'data','tools.js'),'utf8').includes('example-verified-tool'));
  assert(fs.readFileSync(path.join(root,'data','changelog.js'),'utf8').includes('example-verified-tool'));
  const second=JSON.parse(run('publish-approved.js',input));assert.equal(second.published,0);
+ const badDataset={id:'generic-page-as-dataset',name:'Eventos',org:'Example',kind:'dataset',url:'https://example.org/events',coverage:'Ir para o conteúdo. Eventos institucionais.',limitations:'Sem evidência de dados.'};
+ const badManifest={approved:[{category:'datasets',record:badDataset,review:{decision:'approved',reviewedBy:'editorial-reviewer',reviewedAt:'2026-10-23',officialUrl:'https://example.org/events',evidence:'Página oficial revisada.'}}]};
+ fs.writeFileSync(input,JSON.stringify(badManifest));
+ assert.throws(()=>run('publish-approved.js',input),/Command failed|Dataset evidence is insufficient/);
+ fs.writeFileSync(input,JSON.stringify(manifest));
  const duplicate=JSON.parse(JSON.stringify(manifest.approved[0]));duplicate.record.id='same-url-different-id';duplicate.record.url='https://example.org/tool/';
  manifest.approved.push(duplicate);fs.writeFileSync(input,JSON.stringify(manifest));
  assert.throws(()=>run('publish-approved.js',input),/Command failed|Official URL already published/);
