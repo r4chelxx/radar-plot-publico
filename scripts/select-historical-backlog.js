@@ -33,9 +33,10 @@ function selectBacklog(previous,current,limit=10,now=new Date(),options={}){
   return timestamps.length?new Date(Math.max(...timestamps)).toISOString():null;
  };
  const ready=all.filter(x=>{const at=inspectedAnchor(x);return !at||(Number.isFinite(Date.parse(at))&&nowMs-Date.parse(at)>=recheckDays(x)*86400000)});
- ready.sort((a,b)=>Number(isArchivedOpportunity(a))-Number(isArchivedOpportunity(b))||Number(Boolean(a.lastInspectedAt))-Number(Boolean(b.lastInspectedAt))||
-  indirect(a)-indirect(b)||
+ ready.sort((a,b)=>Number(isArchivedOpportunity(a))-Number(isArchivedOpportunity(b))||
   categoryRank(a)-categoryRank(b)||
+  Number(Boolean(a.lastInspectedAt))-Number(Boolean(b.lastInspectedAt))||
+  indirect(a)-indirect(b)||
   Number(a.origin!=='historical')-Number(b.origin!=='historical')||
   String(a.lastInspectedAt||a.firstSeen||'').localeCompare(String(b.lastInspectedAt||b.firstSeen||''))||
   String(a.id).localeCompare(String(b.id)));
@@ -48,8 +49,9 @@ function selectBacklog(previous,current,limit=10,now=new Date(),options={}){
  const selectedIds=new Set(selectedReady.map(x=>x.id));
  const rotation=all.filter(x=>!selectedIds.has(x.id)).sort((a,b)=>
   Number(isArchivedOpportunity(a))-Number(isArchivedOpportunity(b))||
+  categoryRank(a)-categoryRank(b)||
   Number(Boolean(a.lastInspectedAt))-Number(Boolean(b.lastInspectedAt))||
-  indirect(a)-indirect(b)||categoryRank(a)-categoryRank(b)||
+  indirect(a)-indirect(b)||
   String(a.lastInspectedAt||a.firstSeen||'').localeCompare(String(b.lastInspectedAt||b.firstSeen||''))||
   String(a.id).localeCompare(String(b.id)));
  const selected=selectedReady.concat(rotation.slice(0,Math.max(0,cap-selectedReady.length)));
