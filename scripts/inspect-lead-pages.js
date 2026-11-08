@@ -7,6 +7,7 @@ const {extractStructuredMetadata,metadataForLink}=require('./structured-lead-met
 const input=JSON.parse(fs.readFileSync('intake/candidate-triage.json','utf8'));
 const limit=Math.min(100,Math.max(1,Number(process.env.LEAD_PAGE_LIMIT||100)));
 function decode(value){return String(value||'').replace(/&(?:amp|and);/gi,'&').replace(/&quot;/gi,'"').replace(/&#39;/gi,"'").replace(/&nbsp;/gi,' ').replace(/<[^>]+>/g,' ').replace(/\s+/g,' ').trim();}
+function visibleText(html){return decode(String(html||'').replace(/<script\b[\s\S]*?<\/script>/gi,' ').replace(/<style\b[\s\S]*?<\/style>/gi,' ')).slice(0,1200);}
 function isoDate(raw){
  const s=String(raw||'').trim();
  let m=s.match(/\b(20\d{2})[-\\/.](\d{1,2})[-\\/.](\d{1,2})\b/);
@@ -48,7 +49,7 @@ async function inspect(lead){
   const structuredMetadata=extractStructuredMetadata(html,response.url||lead.url);
   const metadata=metadataForLink(structuredMetadata,response.url||lead.url)||metadataForLink(structuredMetadata,lead.url)||null;
   const title=((html.match(/<title[^>]*>([\s\S]*?)<\/title>/i)||[])[1]||'').replace(/<[^>]+>/g,' ').replace(/\s+/g,' ').trim().slice(0,240);
-  const description=((html.match(/<meta[^>]+(?:name|property)=["'](?:description|og:description)["'][^>]+content=["']([^"']{1,700})/i)||[])[1]||'').trim();
+  const description=((html.match(/<meta[^>]+(?:name|property)=["'](?:description|og:description)["'][^>]+content=["']([^"']{1,700})/i)||[])[1]||'').trim()||visibleText(html);
   const facts=explicitPageFacts(html);
   const structuredEvidence={...(metadata||{}),title:metadata?.title||title||null,description:metadata?.description||description||null,...(facts.deadline?{deadline:facts.deadline}:{}),...(facts.eligibility?{eligibility:facts.eligibility,eligibilityExplicit:true}:{}),...(facts.status?{status:facts.status}:{})};
   const dateMentions=[...html.replace(/<script\b[\s\S]*?<\/script>/gi,' ').replace(/<style\b[\s\S]*?<\/style>/gi,' ').replace(/<[^>]+>/g,' ').matchAll(/\b20\d{2}[-\/]\d{2}[-\/]\d{2}\b/g)].slice(0,12).map(x=>x[0]);
