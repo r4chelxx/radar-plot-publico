@@ -31,12 +31,12 @@ function extractEvidence(html,baseUrl=''){
   if(jsonLd.length>=12)break;
  }
  const resourceLinks=[];
- for(const match of source.matchAll(/<a\\b[^>]*href\\s*=\\s*['"]([^'"]+)['"][^>]*>([\\s\\S]*?)<\\/a\\s*>/gi)){
-  const href=decode(match[1]).trim(),label=decode(match[2].replace(/<[^>]+>/g,' ').replace(/\\s+/g,' ')).trim().slice(0,200);
+ for(const match of source.matchAll(/<a\b[^>]*href\s*=\s*['"]([^'"]+)['"][^>]*>([\s\S]*?)<\/a\s*>/gi)){
+  const href=decode(match[1]).trim(),label=decode(match[2].replace(/<[^>]+>/g,' ').replace(/\s+/g,' ')).trim().slice(0,200);
   try{
    const url=new URL(href,baseUrl||undefined);
    if(url.protocol!=='https:')continue;
-   if(/(?:\\.(?:csv|tsv|json|geojson|xml|parquet|zip)(?:$|[?#])|\\/(?:api|download|dataset|datasets|data)(?:\\/|$))/i.test(url.pathname+url.search)||/(?:download|dataset|data portal|api|csv|json|microdata|dados abertos|base de dados)/i.test(label)){
+   if(/(?:\.(?:csv|tsv|json|geojson|xml|parquet|zip)(?:$|[?#])|\/(?:api|download|dataset|datasets|data)(?:\/|$))/i.test(url.pathname+url.search)||/(?:download|dataset|data portal|api|csv|json|microdata|dados abertos|base de dados)/i.test(label)){
     resourceLinks.push({url:url.href,label});if(resourceLinks.length>=30)break;
    }
   }catch{/* invalid or relative links without a base URL are ignored */}
