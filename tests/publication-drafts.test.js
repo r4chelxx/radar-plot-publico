@@ -20,6 +20,8 @@ test('builds traceable drafts only from evidence-complete primary-source reviews
  assert(!out.drafts.some(x=>x.id==='incomplete-lead'));
  const grant=out.drafts.find(x=>x.category==='opportunities');
  assert.equal(grant.recordDraft.deadline,'2099-12-31');
+ assert.equal(grant.recordDraft.org,null,'discovery feed name must not be presented as the opportunity owner');
+ assert.deepEqual(grant.source.discoveryProviders,['Example Foundation']);
  assert.match(grant.recordDraft.eligibility,/open to journalists worldwide/);
  assert.equal(grant.recordDraft.status,null);
  assert(grant.missingFields.includes('summary'));
