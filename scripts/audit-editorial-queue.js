@@ -70,4 +70,5 @@ async function main(){
  fs.mkdirSync(path.dirname(reportPath),{recursive:true});fs.writeFileSync(reportPath,JSON.stringify(report,null,2)+'\n');
  console.log(JSON.stringify({checked:due.length,pending:pending.length,remainingDue:report.remainingDue,counts}));
 }
-main().catch(e=>{console.error(e);process.exitCode=1});
+if(require.main===module)main().catch(e=>{console.error(e);process.exitCode=1});
+module.exports={selectAuditBatch};
