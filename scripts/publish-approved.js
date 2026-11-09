@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 // Promote explicitly verified editorial records to public catalogs and the dated changelog.
 // No candidate is considered approved merely because a collector found it.
-const fs=require('node:fs'),vm=require('node:vm');
+const fs=require('node:fs'),vm=require('node:vm'),crypto=require('node:crypto');
 const manifest=process.argv[2]||'intake/approved-publications.json';
 const source=JSON.parse(fs.readFileSync(manifest,'utf8'));
 if(!Array.isArray(source.approved))throw Error('Manifest requires approved[]');
@@ -27,9 +27,22 @@ for(const entry of source.approved){
  if(!record.id||!/^[-a-z0-9]+$/.test(record.id))throw Error('Invalid record ID');
  if(approvedIds.has(record.id))throw Error('Duplicate approval: '+record.id);
  approvedIds.add(record.id);
+ const machinePolicy=proof.reviewPolicyVersion==='radar-evidence-v1'||proof.reviewedBy==='Radar evidence gate v1';
  const automatedReview=/auditoria automática|automatic(?:ally|ed)?|automated|\b(?:bot|robot)\b/i.test(String(proof.reviewedBy||''));
  const boilerplateEvidence=/metadados estruturados explícitos da própria fonte confirmam os campos publicados|fonte primária https, página html acessível/i.test(String(proof.evidence||''));
- if(proof.decision!=='approved'||!proof.reviewedBy||automatedReview||boilerplateEvidence||!/^\d{4}-\d{2}-\d{2}$/.test(proof.reviewedAt||'')||!safeUrl(proof.officialUrl)||!proof.evidence||String(proof.evidence).length<25)throw Error('Missing item-level editorial verification: '+record.id);
+ let machineValid=false;
+ if(machinePolicy){
+  const requiredChecks={opportunities:['callSignal','eligibility'],datasets:['datasetSignal','directResource','format','coverage'],tools:['productSignal','function','access']}[category]||[];
+  const checkedAt=Date.parse(proof.checkedAt||''),age=Date.now()-checkedAt;
+  const digest=crypto.createHash('sha256').update(String(proof.evidence||'')).digest('hex');
+  machineValid=proof.reviewedBy==='Radar evidence gate v1'&&proof.reviewPolicyVersion==='radar-evidence-v1'
+   &&proof.decision==='approved'&&proof.sourceStatus===200&&/^text\/html\b/i.test(proof.contentType||'')
+   &&Number.isFinite(checkedAt)&&age>=0&&age<=24*60*60*1000
+   &&proof.reviewedAt===String(proof.checkedAt).slice(0,10)
+   &&digest===proof.evidenceHash&&requiredChecks.length>0
+   &&requiredChecks.every(key=>proof.evidenceChecks?.[key]===true);
+ }
+ if(proof.decision!=='approved'||!proof.reviewedBy||(automatedReview&&!machineValid)||(machinePolicy&&!machineValid)||boilerplateEvidence||!/^\d{4}-\d{2}-\d{2}$/.test(proof.reviewedAt||'')||!safeUrl(proof.officialUrl)||!proof.evidence||String(proof.evidence).length<25)throw Error('Missing item-level editorial verification: '+record.id);
  if(!record[rule.title]||!safeUrl(record[rule.field]))throw Error('Missing public record fields: '+record.id);
  if(new URL(proof.officialUrl).hostname!==new URL(record[rule.field]).hostname)throw Error('Official source does not match record: '+record.id);
  if(category==='opportunities'&&(!record.deadlineStatus||!record.eligibility||!record.status))throw Error('Opportunity requires deadline status, eligibility and status: '+record.id);
