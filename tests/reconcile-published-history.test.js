@@ -8,7 +8,7 @@ test('exact public catalog matches reconcile publication status with traceable p
   other:{url:'https://example.org/other',editorialStatus:'unverified',title:'Other'},
   rejected:{url:'https://example.org/rejected',editorialStatus:'rejected',title:'Rejected'}
  }};
- const catalogs={tools:[{id:'official-tool',url:'https://example.org/tool',name:'Tool'}],opportunities:[],datasets:[]};
+ const catalogs={tools:[{id:'official-tool',url:'https://example.org/tool',name:'Tool'},{id:'rejected-tool',url:'https://example.org/rejected'}],opportunities:[],datasets:[]};
  const out=reconcileHistory(before,catalogs,'2026-11-09T12:00:00Z');
  assert.equal(out.history.leads.tool.editorialStatus,'published');
  assert.deepEqual(out.history.leads.tool.publicationVerification,{type:'observed-live-catalog-membership',category:'tools',recordId:'official-tool',officialUrl:'https://example.org/tool',observedAt:'2026-11-09T12:00:00Z'});
