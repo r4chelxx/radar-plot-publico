@@ -19,6 +19,27 @@ test('reviewed and published links cannot return to pending on next discovery',(
  }finally{fs.rmSync(dir,{recursive:true,force:true})}
 });
 
+test('pending uncategorized queue items recover only valid exact historical categories',()=>{
+ const dir=fs.mkdtempSync(path.join(os.tmpdir(),'radar-history-category-'));
+ try{
+  const p=name=>path.join(dir,name), known=identity('https://example.org/resource-a'), terminal=identity('https://example.org/resource-b');
+  const candidates=[
+   {...known,title:'Resource from historical archive',category:'uncategorized',status:'pending',firstSeen:'2026-10-20'},
+   {...terminal,title:'Another archived resource',category:'uncategorized',status:'rejected',firstSeen:'2026-10-20'}
+  ];
+  fs.writeFileSync(p('quality.json'),JSON.stringify({review:[]}));
+  fs.writeFileSync(p('queue.json'),JSON.stringify({candidates}));
+  fs.writeFileSync(p('history.json'),JSON.stringify({leads:{[known.id]:{category:'datasets'},[terminal.id]:{category:'tools'},unrelated:{category:'opportunities'}}}));
+  fs.writeFileSync(p('decisions.json'),JSON.stringify({decisions:[]}));
+  cp.execFileSync(process.execPath,[path.resolve('scripts/merge-editorial-queue.js'),p('quality.json'),p('queue.json'),p('history.json'),p('decisions.json')]);
+  const out=JSON.parse(fs.readFileSync(p('queue.json'),'utf8')).candidates;
+  assert.equal(out.find(x=>x.id===known.id).category,'datasets');
+  assert.equal(out.find(x=>x.id===known.id).status,'pending');
+  assert.equal(out.find(x=>x.id===terminal.id).category,'uncategorized');
+  assert.equal(out.find(x=>x.id===terminal.id).status,'rejected');
+ }finally{fs.rmSync(dir,{recursive:true,force:true})}
+});
+
 test('persisted pending queue reconciles known tools and excludes nonfunding grant headlines',()=>{
  const dir=fs.mkdtempSync(path.join(os.tmpdir(),'radar-category-'));
  try{
