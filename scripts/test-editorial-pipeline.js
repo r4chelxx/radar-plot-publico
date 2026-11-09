@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 const assert=require('node:assert/strict'),fs=require('node:fs'),os=require('node:os'),path=require('node:path'),cp=require('node:child_process');
+const {buildAutomaticPublications}=require('./build-automated-publications');
 const root=fs.mkdtempSync(path.join(os.tmpdir(),'radar-editorial-'));
 const run=(file,...args)=>cp.execFileSync(process.execPath,[path.resolve('scripts',file),...args],{cwd:root,encoding:'utf8'});
 try{
@@ -51,6 +52,16 @@ try{
  assert.throws(()=>run('publish-approved.js',input),/Command failed|page is navigation/);
  const machineManifest={approved:[{category:'tools',record:candidate,review:{decision:'approved',reviewedBy:'Radar PLOT — auditoria automática conservadora',reviewedAt:'2026-10-23',officialUrl:'https://example.org/tool',evidence:'Official metadata confirms the fields on the source page and its apparent category.'}}]};
  fs.writeFileSync(input,JSON.stringify(machineManifest));
+ assert.throws(()=>run('publish-approved.js',input),/Command failed|item-level editorial verification/);
+ const checkedAt=new Date().toISOString();
+ const autoDrafts={drafts:[{status:'draft_only',publicationReady:false,reviewDecision:'evidence_complete_for_record_draft',category:'tools',source:{url:'https://auto.example.org/tool',httpStatus:200,contentType:'text/html',checkedAt},evidence:{sourceExcerpt:'The official product page describes this research data software and its documented function. Install instructions and access details appear on the official page.',checks:{productSignal:true,function:true,access:true}},missingFields:[],recordDraft:{id:'example-auto-verified-tool',name:'Auto Verified Example',kind:'research data analysis software',url:'https://auto.example.org/tool',desc:'The primary source documents the software and its data analysis function. Detailed use limits are not captured; consult the official docs and license before use.'}}]};
+ const automatic=buildAutomaticPublications(autoDrafts,{approved:[]});
+ assert.equal(automatic.summary.automaticallyApproved,1);
+ fs.writeFileSync(input,JSON.stringify(automatic.manifest));
+ const automaticResult=JSON.parse(run('publish-approved.js',input));assert.equal(automaticResult.published,1);
+ const invalidAutomatic=JSON.parse(JSON.stringify(automatic.manifest));
+ invalidAutomatic.approved[0].review.evidenceChecks.function=false;
+ fs.writeFileSync(input,JSON.stringify(invalidAutomatic));
  assert.throws(()=>run('publish-approved.js',input),/Command failed|item-level editorial verification/);
  fs.writeFileSync(input,JSON.stringify(manifest));
  fs.writeFileSync(input,JSON.stringify(manifest));

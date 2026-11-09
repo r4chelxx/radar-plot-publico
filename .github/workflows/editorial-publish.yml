@@ -6,6 +6,8 @@ on:
     paths:
       - '.github/workflows/editorial-publish.yml'
       - 'scripts/publish-approved.js'
+      - 'scripts/build-automated-publications.js'
+      - 'tests/automated-publication.test.js'
       - 'scripts/test-editorial-pipeline.js'
       - 'data/datasets.js'
       - 'data/tools.js'
@@ -16,6 +18,9 @@ on:
     branches: [main]
     paths:
       - 'intake/approved-publications.json'
+      - 'scripts/build-automated-publications.js'
+      - 'scripts/publish-approved.js'
+      - 'tests/automated-publication.test.js'
       - '.github/workflows/editorial-publish.yml'
   schedule:
     # Retry publication after later intake windows; approved-only and no-change safe.
@@ -43,8 +48,33 @@ jobs:
           node-version: "22"
       - name: Test editorial publication safeguards
         run: node scripts/test-editorial-pipeline.js
-      - name: Build catalog additions from approved evidence only
-        run: node scripts/publish-approved.js
+      - name: Test deterministic automated publication gate
+        run: node --test tests/automated-publication.test.js
+      - name: Prepare combined approved manifest from fresh evidence drafts
+        shell: bash
+        run: |
+          set -euo pipefail
+          draft_file=/tmp/radar-publication-drafts.json
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            printf '{"schemaVersion":1,"drafts":[]}' > "$draft_file"
+          else
+            git fetch --depth=1 origin radar-state
+            git show FETCH_HEAD:intake/publication-drafts.json > "$draft_file"
+          fi
+          node scripts/build-automated-publications.js "$draft_file" intake/approved-publications.json /tmp/radar-combined-approved.json
+          node - <<'NODE'
+          const fs=require('fs');
+          const manifest=JSON.parse(fs.readFileSync('/tmp/radar-combined-approved.json','utf8'));
+          const automatic=manifest.approved.filter(x=>x.review?.reviewPolicyVersion==='radar-evidence-v1');
+          const byCategory=Object.fromEntries(['opportunities','datasets','tools'].map(c=>[c,automatic.filter(x=>x.category===c).length]));
+          fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY,['### Aprovações automáticas por evidência',...Object.entries(byCategory).map(([c,n])=>'- '+c+': '+n),'- Total: '+automatic.length,'Somente fichas completas, recentes e com verificações específicas passam pelo gate.'].join('\n')+'\n');
+          NODE
+      - name: Dry-run combined approved manifest without publishing
+        env:
+          RADAR_APPROVED_MANIFEST: /tmp/radar-combined-approved.json
+        run: node scripts/validate-approved-manifest.js
+      - name: Build catalog additions from human and evidence-gated approvals
+        run: node scripts/publish-approved.js /tmp/radar-combined-approved.json
       - name: Detect whether any approved records are new
         id: changes
         shell: bash
