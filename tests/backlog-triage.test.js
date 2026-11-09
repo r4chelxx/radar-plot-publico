@@ -134,3 +134,12 @@ test('indirect source resolution metrics expose blocked editorial leads',()=>{
  assert.equal(r.indirectResolutionRate,0.5);
  assert.equal(q.candidates[0].status,'pending');
 });
+
+test('persisted queue audit resolution supplies direct URL for human review',()=>{
+ const q={candidates:[{id:'news',title:'Journalism Grant',url:'https://news.google.com/rss/articles/abc',category:'opportunities',reviewPriority:'high',status:'pending',audit:{checkedAt:'2026-11-09T12:00:00Z',httpStatus:200,contentType:'text/html; charset=utf-8',finalUrl:'https://publisher.example/grant'}}]};
+ const r=report(q);
+ assert.equal(r.resolvedIndirect,1);
+ assert.equal(r.dailyReview[0].reviewUrl,'https://publisher.example/grant');
+ assert.equal(r.inspectedReview.length,1);
+ assert.equal(q.candidates[0].status,'pending');
+});
