@@ -24,7 +24,8 @@ function targetMet(counts,minimum=2){
  return categories.every(category=>Number(counts[category]||0)>=minimum);
 }
 function bahiaDate(now=new Date()){
- const parts=Object.fromEntries(new Intl.DateTimeFormat('en-US',{timeZone:'America/Bahia',year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(now).filter(x=>x.type!=='literal').map(x=>[x.type,x.value]));\n return parts.year+'-'+parts.month+'-'+parts.day;
+ const parts=Object.fromEntries(new Intl.DateTimeFormat('en-US',{timeZone:'America/Bahia',year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(now).filter(x=>x.type!=='literal').map(x=>[x.type,x.value]));
+ return parts.year+'-'+parts.month+'-'+parts.day;
 }
 function loadAt(commit,category){
  const source=cp.execFileSync('git',['show',commit+':data/'+category+'.js'],{encoding:'utf8'});
