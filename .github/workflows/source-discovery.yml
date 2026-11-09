@@ -317,14 +317,17 @@ jobs:
         run: |
           set -euo pipefail
           for attempt in 1 2 3; do
+            # Contents API omits file content above its size limit; keep only its SHA for the update.
             gh api "repos/${GITHUB_REPOSITORY}/contents/intake/editorial-queue.json?ref=radar-state" > intake/queue-response.json
-            # The queue can change after the previous history confirmation; re-read both from the remote branch.
+            git fetch --no-tags origin radar-state
+            git show FETCH_HEAD:intake/editorial-queue.json > intake/queue-reconciled.json
+            # The queue can change after the previous history confirmation; re-read history from the remote.
             blob_sha=$(gh api "repos/${GITHUB_REPOSITORY}/contents/state/lead-history.json?ref=radar-state" --jq .sha)
             gh api "repos/${GITHUB_REPOSITORY}/git/blobs/$blob_sha" --jq .content | base64 --decode > intake/lead-history-queue-check.json
             node - <<'NODE'
           const fs=require('node:fs');
           const response=JSON.parse(fs.readFileSync('intake/queue-response.json','utf8'));
-          fs.writeFileSync('intake/queue-reconciled.json',Buffer.from(response.content,'base64'));
+          if(!response.sha)throw Error('Missing editorial queue blob SHA');
           fs.writeFileSync('intake/queue-empty-review.json',JSON.stringify({review:[]}));
           NODE
             node scripts/merge-editorial-queue.js intake/queue-empty-review.json intake/queue-reconciled.json intake/lead-history-queue-check.json intake/historical-decisions.json
