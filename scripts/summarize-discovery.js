@@ -10,19 +10,21 @@ const lines=['## Radar PLOT — Descoberta diária','',
  '| Links já no catálogo | '+r.totals.catalogMatches+' |',
  '| Revisão editorial pendente | '+r.totals.needsReview+' |','','### Fontes com falha'];
 const funnel=r.editorialFunnel||{};
+const queueAvailable=r.editorialQueueSource==='radar-state';
 lines.push('','### Funil editorial persistido',
  '- Origem do snapshot: '+(r.editorialQueueSource||'indisponível'),
  '- Atualizado em: '+(r.editorialQueueUpdatedAt||'não informado'),
- '- Pendentes: '+(funnel.pending??'indisponível'),
- '- Pendentes há 14+ dias: '+(funnel.pendingAging?.olderThan14Days??'indisponível'),
- '- Pendentes há 30+ dias: '+(funnel.pendingAging?.olderThan30Days??'indisponível'),
- '- Pendentes sem data inicial: '+(funnel.pendingAging?.missingFirstSeen??'indisponível'),
+ '- Pendentes: '+(queueAvailable?(funnel.pending??'indisponível'):'indisponível (snapshot não carregado)'),
+ '- Pendentes há 14+ dias: '+(queueAvailable?(funnel.pendingAging?.olderThan14Days??'indisponível'):'indisponível'),
+ '- Pendentes há 30+ dias: '+(queueAvailable?(funnel.pendingAging?.olderThan30Days??'indisponível'):'indisponível'),
+ '- Pendentes sem data inicial: '+(queueAvailable?(funnel.pendingAging?.missingFirstSeen??'indisponível'):'indisponível'),
  '- Candidatos novos nesta execução (comparação com snapshot): '+(funnel.currentRunNewCandidates??'indisponível'),
- '- Pendências por categoria: '+Object.entries(funnel.pendingByCategory||{}).map(([k,v])=>k+'='+v).join(', '),
- '- Oportunidades classificadas pendentes: '+(funnel.classifiedOpportunityPending??'indisponível'),
- '- Pendentes sem classificação: '+(funnel.unclassifiedPending??'indisponível')+' ('+(funnel.unclassifiedShare??'indisponível')+'%)',
- '- Sinais heurísticos de oportunidades: '+(funnel.opportunitySignalPending??'indisponível'),
- '- Pendência mais antiga: '+(funnel.oldestPendingFirstSeen||'não informado'));
+ '- Pendências por categoria: '+(queueAvailable?Object.entries(funnel.pendingByCategory||{}).map(([k,v])=>k+'='+v).join(', '):'indisponível'),
+ '- Oportunidades classificadas pendentes: '+(queueAvailable?(funnel.classifiedOpportunityPending??'indisponível'):'indisponível'),
+ '- Pendentes sem classificação: '+(queueAvailable?(funnel.unclassifiedPending??'indisponível')+' ('+(funnel.unclassifiedShare??'indisponível')+'%)':'indisponível'),
+ '- Sinais heurísticos de oportunidades: '+(queueAvailable?(funnel.opportunitySignalPending??'indisponível'):'indisponível'),
+ '- Pendência mais antiga: '+(queueAvailable?(funnel.oldestPendingFirstSeen||'não informado'):'indisponível'));
+if(!queueAvailable)lines.push('A fila persistida não foi carregada; os números do funil não são apresentados como zero.');
 lines.push('A categoria desconhecida indica registros legados sem classificação. Sinais por palavras-chave não equivalem a editais verificados.');
 lines.push('','### Cobertura por família de fontes');
 for(const [name,x] of Object.entries(r.coverage||{}))lines.push('- '+name+': '+x.healthy+'/'+x.total+' fontes acessíveis ('+(x.recovered||0)+' recuperadas); '+x.candidates+' links coletados');
