@@ -32,3 +32,21 @@ test('discovery operations detect partial feed outage without discarding candida
   assert(report.warnings.some(x=>x.includes('feeds')));
  }finally{fs.rmSync(root,{recursive:true,force:true})}
 });
+
+test('summary marks editorial queue metrics unavailable instead of zero when snapshot is missing',()=>{
+ const root=fs.mkdtempSync(path.join(os.tmpdir(),'radar-summary-'));
+ try{
+  fs.mkdirSync(path.join(root,'intake'));
+  fs.writeFileSync(path.join(root,'intake','discovery-operations.json'),JSON.stringify({
+   totals:{healthy:1,failed:0,candidates:3,catalogMatches:0,needsReview:3},
+   editorialQueueSource:'unavailable',editorialQueueUpdatedAt:null,
+   editorialFunnel:{pending:0,pendingAging:{olderThan14Days:0,olderThan30Days:0,missingFirstSeen:0},pendingByCategory:{},classifiedOpportunityPending:0,unclassifiedPending:0,unclassifiedShare:0,opportunitySignalPending:0},
+   coverage:{},sources:[],warnings:[],overallStatus:'degraded',sourceLimitations:{}
+  }));
+  const summaryPath=path.join(root,'summary.md');
+  cp.execFileSync(process.execPath,[path.resolve('scripts/summarize-discovery.js')],{cwd:root,encoding:'utf8',env:{...process.env,GITHUB_STEP_SUMMARY:summaryPath}});
+  const output=fs.readFileSync(summaryPath,'utf8');
+  assert.match(output,/Pendentes: indisponível \(snapshot não carregado\)/);
+  assert.match(output,/fila persistida não foi carregada/);
+ }finally{fs.rmSync(root,{recursive:true,force:true})}
+});
