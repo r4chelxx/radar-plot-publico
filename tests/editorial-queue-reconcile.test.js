@@ -22,17 +22,21 @@ test('reviewed and published links cannot return to pending on next discovery',(
 test('pending published catalog records reconcile to published without rewriting terminal decisions',()=>{
  const dir=fs.mkdtempSync(path.join(os.tmpdir(),'radar-published-catalog-'));
  try{
-  const p=name=>path.join(dir,name),published=identity('https://pandas.pydata.org/'),rejected=identity('https://www.powerui.com/'),unmatched=identity('https://example.org/not-in-catalog');
+  const p=name=>path.join(dir,name),catalog=path.join(dir,'catalog');fs.mkdirSync(catalog);
+  const published=identity('https://example.org/live-tool'),rejected=identity('https://example.org/rejected-tool'),unmatched=identity('https://example.org/not-in-catalog');
   const candidates=[
-   {...published,title:'Pandas',category:'tools',status:'pending',firstSeen:'2026-10-20'},
-   {...rejected,title:'PowerUI',category:'tools',status:'rejected',firstSeen:'2026-10-20'},
+   {...published,title:'Live tool',category:'tools',status:'pending',firstSeen:'2026-10-20'},
+   {...rejected,title:'Rejected tool',category:'tools',status:'rejected',firstSeen:'2026-10-20'},
    {...unmatched,title:'Unverified tool',category:'tools',status:'pending',firstSeen:'2026-10-20'}
   ];
+  fs.writeFileSync(path.join(catalog,'opportunities.js'),'window.RADAR_PARTS=window.RADAR_PARTS||{};window.RADAR_PARTS.opportunities=[];');
+  fs.writeFileSync(path.join(catalog,'datasets.js'),'window.RADAR_PARTS=window.RADAR_PARTS||{};window.RADAR_PARTS.datasets=[];');
+  fs.writeFileSync(path.join(catalog,'tools.js'),'window.RADAR_PARTS=window.RADAR_PARTS||{};window.RADAR_PARTS.tools='+JSON.stringify([{id:'live-tool',url:'https://example.org/live-tool'},{id:'rejected-tool',url:'https://example.org/rejected-tool'}])+';');
   fs.writeFileSync(p('quality.json'),JSON.stringify({review:[]}));
   fs.writeFileSync(p('queue.json'),JSON.stringify({candidates}));
   fs.writeFileSync(p('history.json'),JSON.stringify({leads:{}}));
   fs.writeFileSync(p('decisions.json'),JSON.stringify({decisions:[]}));
-  cp.execFileSync(process.execPath,[path.resolve('scripts/merge-editorial-queue.js'),p('quality.json'),p('queue.json'),p('history.json'),p('decisions.json')]);
+  cp.execFileSync(process.execPath,[path.resolve('scripts/merge-editorial-queue.js'),p('quality.json'),p('queue.json'),p('history.json'),p('decisions.json')],{env:{...process.env,RADAR_CATALOG_DIR:catalog}});
   const out=JSON.parse(fs.readFileSync(p('queue.json'),'utf8')).candidates;
   assert.equal(out.find(x=>x.id===published.id).status,'published');
   assert.equal(out.find(x=>x.id===rejected.id).status,'rejected');
