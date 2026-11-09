@@ -122,41 +122,20 @@ jobs:
       - name: Compare extracted titles against catalog entries
         run: node scripts/triage-candidates.js
       - name: Restore public lead history
-        env:
-          GH_TOKEN: ${{ github.token }}
         run: |
           set -euo pipefail
-          for attempt in 1 2 3 4 5; do
-            blob_sha=$(gh api "repos/${GITHUB_REPOSITORY}/contents/state/lead-history.json?ref=radar-state" --jq .sha 2>/dev/null || true)
-            encoded=$(if [ -n "$blob_sha" ]; then gh api "repos/${GITHUB_REPOSITORY}/git/blobs/$blob_sha" --jq .content 2>/dev/null || true; fi)
-            if [ -n "$encoded" ]; then
-              printf '%s' "$encoded" | base64 --decode > intake/lead-history-previous.json
-              if node -e "const fs=require('fs');const s=JSON.parse(fs.readFileSync('intake/lead-history-previous.json'));if(s.schemaVersion!==1||!s.leads||Array.isArray(s.leads))process.exit(1)"; then
-                exit 0
-              fi
-            fi
-            if [ "$attempt" -lt 5 ]; then sleep 5; fi
-          done
-          echo "::error::Could not restore persisted lead history after five attempts"
-          exit 1
+          git fetch --no-tags origin radar-state
+          git show FETCH_HEAD:state/lead-history.json > intake/lead-history-previous.json
+          node -e "const fs=require('fs');const s=JSON.parse(fs.readFileSync('intake/lead-history-previous.json'));if(s.schemaVersion!==1||!s.leads||Array.isArray(s.leads))process.exit(1)"
+          echo "Restored persisted lead history from radar-state."
 
       - name: Restore public unified discovery candidates
-        env:
-          GH_TOKEN: ${{ github.token }}
         run: |
           set -euo pipefail
-          for attempt in 1 2 3 4 5; do
-            encoded=$(gh api "repos/${GITHUB_REPOSITORY}/contents/intake/editorial-queue.json?ref=radar-state" --jq .content 2>/dev/null || true)
-            if [ -n "$encoded" ]; then
-              printf '%s' "$encoded" | base64 --decode > intake/editorial-queue-public.json
-              if node -e "const q=require('./intake/editorial-queue-public.json');if(q.schemaVersion!==1||!Array.isArray(q.candidates))process.exit(1)"; then
-                exit 0
-              fi
-            fi
-            if [ "$attempt" -lt 5 ]; then sleep 5; fi
-          done
-          echo "::error::Could not restore persisted editorial queue after five attempts"
-          exit 1
+          git fetch --no-tags origin radar-state
+          git show FETCH_HEAD:intake/editorial-queue.json > intake/editorial-queue-public.json
+          node -e "const q=require('./intake/editorial-queue-public.json');if(q.schemaVersion!==1||!Array.isArray(q.candidates))process.exit(1)"
+          echo "Restored persisted editorial queue from radar-state."
 
       - name: Merge DVS and public web candidates into daily historical backlog
         run: node scripts/import-public-editorial-queue.js
