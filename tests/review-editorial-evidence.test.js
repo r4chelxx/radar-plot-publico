@@ -13,7 +13,7 @@ try{
  item('dataset-text-only','datasets',{pageTitle:'Open Data Catalog',evidenceText:'Download municipal CSV files covering 2020–2025. API access and usage terms are documented.',structuredData:[]}),
  item('uncategorized-call','uncategorized',{pageTitle:'Global Reporting Fellowship',evidenceText:'Applications for this fellowship close 31/12/2099. Eligibility: open to journalists worldwide.',structuredData:[]}),
  item('event-false-positive','uncategorized',{pageTitle:'Data Journalism Conference',evidenceText:'Conference awards ceremony and event registration.',structuredData:[]}),
- item('unrelated-date','opportunities',{pageTitle:'Global Reporting Fellowship',evidenceText:'The fellowship supports journalists. Deadline details will be announced soon. The program began in 2020. Eligibility: open to journalists worldwide.',structuredData:[]})
+ item('unrelated-date','opportunities',{pageTitle:'Global Reporting Fellowship',evidenceText:'The fellowship supports journalists. Deadline details will be announced soon. The program celebrates its 2099 anniversary. Eligibility: open to journalists worldwide.',structuredData:[]})
  ]};
  fs.writeFileSync(queue,JSON.stringify(q));
  cp.execFileSync(process.execPath,[path.resolve('scripts/review-editorial-evidence.js'),queue,out],{encoding:'utf8'});
