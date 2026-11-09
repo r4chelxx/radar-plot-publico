@@ -14,7 +14,7 @@ const future=x=>isoDate(x)&&x>=today;
 const derivedId=url=>'auto-'+crypto.createHash('sha256').update(String(url)).digest('hex').slice(0,16);
 function validPublicationReview(proof,category,url){
  if(!proof||proof.reviewedBy!=='Radar evidence gate v1'||proof.reviewPolicyVersion!=='radar-evidence-v1'||proof.decision!=='approved')return false;
- if(proof.officialUrl!==url||proof.sourceStatus!==200||!/^text\\/html\\b/i.test(proof.contentType||''))return false;
+ if(proof.officialUrl!==url||proof.sourceStatus!==200||!/^text\/html\b/i.test(proof.contentType||''))return false;
  const checkedAt=Date.parse(proof.checkedAt||''),age=Date.now()-checkedAt;
  if(!Number.isFinite(checkedAt)||age<0||age>24*60*60*1000||proof.reviewedAt!==String(proof.checkedAt).slice(0,10))return false;
  const evidence=String(proof.evidence||'');
