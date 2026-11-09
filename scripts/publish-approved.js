@@ -80,7 +80,7 @@ for(const entry of source.approved){
   if(!/(?:feature|function|capabilit|funcional|permite|provides|supports|documentation|documenta)/i.test(proofText))throw Error('Tool evidence must describe a confirmed product function: '+record.id);
   if(!/(?:access|free|paid|license|licen[çc]a|account|conta|demo|demonstra[cç][aã]o|availability|available|limitations|limita[cç][oõ]es)/i.test(proofText))throw Error('Tool evidence must record access, license or availability terms and limitations: '+record.id);
  }
- insertions[category].push(record); insertions[category].push(record);
+ insertions[category].push(record);
  log.push({type:rule.type,id:record.id,title:record[rule.title],date:today,detail:proof.evidence});
 }
 function prepend(path,variable,records){

@@ -11,6 +11,7 @@ try{
  fs.writeFileSync(input,JSON.stringify(manifest));
  const first=JSON.parse(run('publish-approved.js',input));assert.equal(first.published,1);
  assert(fs.readFileSync(path.join(root,'data','tools.js'),'utf8').includes('example-verified-tool'));
+ assert.equal((fs.readFileSync(path.join(root,'data','tools.js'),'utf8').match(/\"id\": \"example-verified-tool\"/g)||[]).length,1,'new tool must be inserted exactly once');
  assert(fs.readFileSync(path.join(root,'data','changelog.js'),'utf8').includes('example-verified-tool'));
  const second=JSON.parse(run('publish-approved.js',input));assert.equal(second.published,0);
  const badDataset={id:'generic-page-as-dataset',name:'Eventos',org:'Example',kind:'dataset',url:'https://example.org/events',coverage:'Ir para o conteúdo. Eventos institucionais.',limitations:'Sem evidência de dados.'};
@@ -22,6 +23,7 @@ try{
  fs.writeFileSync(input,JSON.stringify(validCatalogManifest));
  assert.equal(JSON.parse(run('publish-approved.js',input)).published,1);
  assert(fs.readFileSync(path.join(root,'data','datasets.js'),'utf8').includes('verified-data-catalog'));
+ assert.equal((fs.readFileSync(path.join(root,'data','datasets.js'),'utf8').match(/\"id\": \"verified-data-catalog\"/g)||[]).length,1,'new dataset must be inserted exactly once');
 
  const opportunityBase={id:'future-journalism-grant',title:'Future Journalism Grant',org:'Example Foundation',summary:'Funding for investigative reporting projects.',type:'Grant',themes:['Journalism'],scope:'International journalists and newsrooms may apply.',deadline:'2099-12-31',deadlineStatus:'Confirmed on the official call; deadline 31 December 2099.',eligibility:'elegível',fit:8,status:'aberta',rules:'https://example.org/grant'};
  const opportunityProof={decision:'approved',reviewedBy:'editorial-reviewer',reviewedAt:'2026-10-23',officialUrl:'https://example.org/grant',evidence:'Official call confirms the grant function, eligibility, scope and deadline.'};
