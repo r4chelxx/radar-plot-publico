@@ -4,6 +4,9 @@ const fs=require('node:fs');
 function suggest(item){
  const url=String(item.url||'').toLowerCase(),title=String(item.title||'').toLowerCase();
  const text=title+' '+url;
+ // Editorial story URLs are not products, datasets, or grant calls even when their headlines contain tool-related keywords.
+ let pathname='';try{pathname=new URL(item.url).pathname}catch{}
+ if(/\/(?:blog|news|stories|articles?|posts?|podcasts?|press|investigations?|obituaries)(?:\/|$)/i.test(pathname)||/\/20\d{2}\/(?:0?[1-9]|1[0-2])\/\d{1,2}(?:\/|$)/.test(pathname))return {category:null,confidence:'manual-review-editorial-content'};
  // In news headlines, "grant" may be a verb (grant permissions), not funding.
  if(/\bgrants?\s+(?:broad|permission|permissions|access|rights|authority|power|powers)\b/.test(title)&&! /\b(fellowship|funding|scholarship|reporting.fund|journalism.prize)\b/.test(text))return {category:null,confidence:'manual-review-nonfunding-grant'};
  const patterns=[
