@@ -21,7 +21,10 @@ function buildDrafts(queue,review,generatedAt=new Date().toISOString()){
  const drafts=eligible.map(result=>{
   const candidate=candidates.get(result.id),audit=candidate.audit||{},text=clean(audit.evidenceText),url=candidate.url;
   const pageTitle=clean(audit.pageTitle||candidate.title);
-  const org=(candidate.providers||[]).map(clean).find(Boolean)||null;
+  const organization=structured(audit,/organization|dataset|softwareapplication|softwareproduct/i);
+  const publisher=organization.publisher||organization.author||{};
+  const org=clean(typeof publisher==='string'?publisher:publisher.name)||null;
+  const discoveryProviders=(candidate.providers||[]).map(clean).filter(Boolean);
   const id=slug(candidate.id||url);
   const record={id};
   if(result.category==='opportunities'){
@@ -55,7 +58,7 @@ function buildDrafts(queue,review,generatedAt=new Date().toISOString()){
   });
   return {
    schemaVersion:1,id,category:result.category,status:'draft_only',publicationReady:false,
-   source:{url,provider:org,pageTitle,checkedAt:audit.checkedAt||null,httpStatus:audit.httpStatus??null,contentType:audit.contentType||null},
+   source:{url,discoveryProviders,pageTitle,checkedAt:audit.checkedAt||null,httpStatus:audit.httpStatus??null,contentType:audit.contentType||null},
    evidence:{checks:result.checks||{},sourceExcerpt:text.slice(0,4000),structuredData:audit.structuredData||[],resourceLinks:audit.resourceLinks||[]},
    recordDraft:record,missingFields,reviewDecision:result.decision,
    note:'Ficha preliminar baseada no conteúdo capturado da página. Campos ausentes permanecem vazios; esta ficha não autoriza publicação.'
