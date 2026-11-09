@@ -11,8 +11,22 @@ const now=new Date(),cutoff=now.getTime()-maxAgeDays*86400000;
 const queue=JSON.parse(fs.readFileSync(queuePath,'utf8'));
 if(!Array.isArray(queue.candidates))throw Error('Queue requires candidates[]');
 const pending=queue.candidates.filter(x=>x.status==='pending'&&/^https:\/\//i.test(x.url||''));
-const due=pending.filter(x=>!x.audit?.checkedAt||Date.parse(x.audit.checkedAt)<cutoff)
- .sort((a,b)=>String(a.firstSeen||'').localeCompare(String(b.firstSeen||''))).slice(0,maxItems);
+const dueCandidates=pending.filter(x=>!x.audit?.checkedAt||Date.parse(x.audit.checkedAt)<cutoff)
+ .sort((a,b)=>String(a.firstSeen||'').localeCompare(String(b.firstSeen||'')));
+function selectAuditBatch(items,limit=maxItems){
+ const selected=[],seen=new Set(),categories=['opportunities','datasets','tools'];
+ // Reserve 20% of the audit window per catalog category, then fill by oldest age.
+ const reserve=Math.max(1,Math.floor(limit*0.2));
+ for(const category of categories){
+  for(const item of items.filter(x=>x.category===category).slice(0,reserve)){
+   if(selected.length>=limit)break;
+   if(!seen.has(item.id)){selected.push(item);seen.add(item.id);}
+  }
+ }
+ for(const item of items){if(selected.length>=limit)break;if(!seen.has(item.id)){selected.push(item);seen.add(item.id);}}
+ return selected;
+}
+const due=selectAuditBatch(dueCandidates);
 const excludedPath=/\/(?:blog|news|press|events?|conference|people|team|authors?|profiles?)\//i;
 const badTitle=/^(?:home|inicio|in[ií]cio|events?|eventos?|news|notícias|about|sobre|contact|contato|menu|blog|resources?)$/i;
 function meta(html,key){for(const tag of html.match(/<meta[^>]*>/gi)||[]){const n=/name=["']([^"']+)["']/i.exec(tag)||/property=["']([^"']+)["']/i.exec(tag),v=/content=["']([^"']*)["']/i.exec(tag);if(n&&v&&n[1].toLowerCase()===key.toLowerCase())return v[1].replace(/&amp;/g,'&').trim()}return ''}
