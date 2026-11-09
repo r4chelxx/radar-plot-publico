@@ -11,7 +11,7 @@ test('exact public catalog matches reconcile publication status with traceable p
  const catalogs={tools:[{id:'official-tool',url:'https://example.org/tool',name:'Tool'}],opportunities:[],datasets:[]};
  const out=reconcileHistory(before,catalogs,'2026-11-09T12:00:00Z');
  assert.equal(out.history.leads.tool.editorialStatus,'published');
- assert.deepEqual(out.history.leads.tool.publicationVerification,{type:'observed-live-catalog-membership',category:'tools',recordId:'official-tool',officialUrl:'https://example.org/tool/',observedAt:'2026-11-09T12:00:00Z'});
+ assert.deepEqual(out.history.leads.tool.publicationVerification,{type:'observed-live-catalog-membership',category:'tools',recordId:'official-tool',officialUrl:'https://example.org/tool',observedAt:'2026-11-09T12:00:00Z'});
  assert.equal(out.history.leads.other.editorialStatus,'unverified');
  assert.equal(out.history.leads.rejected.editorialStatus,'rejected');
  assert.equal(out.summary.markedPublished,1);
