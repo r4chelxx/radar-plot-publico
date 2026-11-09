@@ -12,6 +12,16 @@ const historyPath=process.argv[4]||'state/lead-history.json';
 const decisionsPath=process.argv[5]||'intake/historical-decisions.json';
 const history=fs.existsSync(historyPath)?JSON.parse(fs.readFileSync(historyPath,'utf8')).leads||{}:{};
 const decisions=fs.existsSync(decisionsPath)?JSON.parse(fs.readFileSync(decisionsPath,'utf8')).decisions||[]:[];
+// Public catalog membership is authoritative for publication status; reconcile the
+// exact canonical URLs so published records are not audited and drafted again.
+const vm=require('node:vm');
+const catalogContext={window:{RADAR_PARTS:{}}};vm.createContext(catalogContext);
+for(const file of ['data/opportunities.js','data/datasets.js','data/tools.js'])vm.runInContext(fs.readFileSync(file,'utf8'),catalogContext,{filename:file});
+const publishedLinkIds=new Set();
+for(const [category,records] of Object.entries(catalogContext.window.RADAR_PARTS)){
+ const keys=category==='opportunities'?['rules','apply']:category==='datasets'?['url','api','docs']:['url'];
+ for(const record of records||[])for(const key of keys){if(!record[key])continue;try{publishedLinkIds.add(identity(record[key]).id)}catch{}}
+}
 const byUrl=new Map();
 for(const d of decisions){try{byUrl.set(identity(d.url).id,d.status)}catch{}}
 const terminal=new Set(['published','rejected','duplicate','archived']);
@@ -84,6 +94,13 @@ for(const [id,item] of queue){
   const recovered=inferred!=='uncategorized'?inferred:historicalCategoryFor(item);
   if(recovered)queue.set(id,{...item,category:recovered});
  }
+}
+// Reconcile pending and in-review leads whose exact canonical URL is already
+// present in a public catalog. Do not rewrite rejected, duplicate, archived, or
+// otherwise terminal editorial decisions.
+for(const [id,item] of queue){
+ if(!['pending','in-review'].includes(item.status))continue;
+ try{if(publishedLinkIds.has(identity(item.url).id))queue.set(id,{...item,status:'published'})}catch{}
 }
 const out={schemaVersion:1,updatedAt:now,policy:'Public web leads only; pending does not mean verified or approved.',candidates:[...queue.values()].sort((a,b)=>a.firstSeen.localeCompare(b.firstSeen))};
 fs.mkdirSync(require('node:path').dirname(dest),{recursive:true});
