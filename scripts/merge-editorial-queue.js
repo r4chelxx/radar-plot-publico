@@ -42,6 +42,12 @@ function categoryFor(item){
  if(/\bgrants?\s+(?:broad|permission|permissions|access|rights|authority|powers?)\b/i.test(String(item.title||'')))return 'uncategorized';
  return item.category&&item.category!=='uncategorized'?item.category:(inferCategory(item.title)!=='uncategorized'?inferCategory(item.title):inferTechnicalCategory(item));
 }
+function historicalCategoryFor(item){
+ let id=item.id;
+ try{id=identity(item.url).id}catch{}
+ const category=history[id]?.category;
+ return ['opportunities','tools','datasets'].includes(category)?category:null;
+}
 
 function resolvedStatus(candidate){
  const hist=history[candidate.id]||history[identity(candidate.url).id];
@@ -64,7 +70,9 @@ for(const candidate of current.review||[]){
   continue;
  }
  const providers=[...new Set([...(old?.providers||[]),...(candidate.providers||[])])].slice(0,30);
- queue.set(candidate.id,{id:candidate.id,title:candidate.title,url:candidate.url,category:categoryFor(candidate)==='uncategorized'?(old?.category||'uncategorized'):categoryFor(candidate),providers,firstSeen:old?.firstSeen||now,lastSeen:now,status:resolvedStatus(candidate)||old?.status||'pending',reviewPriority:candidate.reviewPriority||'normal'});
+ const proposedCategory=categoryFor(candidate);
+ const category=proposedCategory!=='uncategorized'?proposedCategory:(historicalCategoryFor(candidate)||old?.category||'uncategorized');
+ queue.set(candidate.id,{id:candidate.id,title:candidate.title,url:candidate.url,category,providers,firstSeen:old?.firstSeen||now,lastSeen:now,status:resolvedStatus(candidate)||old?.status||'pending',reviewPriority:candidate.reviewPriority||'normal'});
 }
 for(const [id,item] of queue){
  if(item.status==='pending'&&item.category==='opportunities'&&categoryFor(item)==='uncategorized')queue.set(id,{...item,category:'uncategorized'});
@@ -73,7 +81,8 @@ for(const [id,item] of queue){
 for(const [id,item] of queue){
  if(item.status==='pending'&&(!item.category||item.category==='uncategorized')){
   const inferred=categoryFor(item);
-  if(inferred!=='uncategorized')queue.set(id,{...item,category:inferred});
+  const recovered=inferred!=='uncategorized'?inferred:historicalCategoryFor(item);
+  if(recovered)queue.set(id,{...item,category:recovered});
  }
 }
 const out={schemaVersion:1,updatedAt:now,policy:'Public web leads only; pending does not mean verified or approved.',candidates:[...queue.values()].sort((a,b)=>a.firstSeen.localeCompare(b.firstSeen))};
