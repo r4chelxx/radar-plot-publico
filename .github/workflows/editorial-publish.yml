@@ -7,6 +7,7 @@ on:
       - '.github/workflows/editorial-publish.yml'
       - 'scripts/publish-approved.js'
       - 'scripts/build-automated-publications.js'
+      - 'tests/automated-publication.test.js'
       - 'scripts/test-editorial-pipeline.js'
       - 'data/datasets.js'
       - 'data/tools.js'
@@ -19,6 +20,7 @@ on:
       - 'intake/approved-publications.json'
       - 'scripts/build-automated-publications.js'
       - 'scripts/publish-approved.js'
+      - 'tests/automated-publication.test.js'
       - '.github/workflows/editorial-publish.yml'
   schedule:
     # Retry publication after later intake windows; approved-only and no-change safe.
@@ -46,6 +48,8 @@ jobs:
           node-version: "22"
       - name: Test editorial publication safeguards
         run: node scripts/test-editorial-pipeline.js
+      - name: Test deterministic automated publication gate
+        run: node --test tests/automated-publication.test.js
       - name: Prepare combined approved manifest from fresh evidence drafts
         shell: bash
         run: |
