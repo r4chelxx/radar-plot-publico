@@ -343,7 +343,8 @@ jobs:
           fs.writeFileSync('intake/queue-update.json',JSON.stringify({branch:'radar-state',message:'Reconcile public queue after source run '+process.env.GITHUB_RUN_ID,sha:response.sha,content:fs.readFileSync('intake/queue-reconciled.json').toString('base64')}));
           NODE
             if gh api --method PUT "repos/${GITHUB_REPOSITORY}/contents/intake/editorial-queue.json" --input intake/queue-update.json --silent; then
-              gh api "repos/${GITHUB_REPOSITORY}/contents/intake/editorial-queue.json?ref=radar-state" --jq .content | base64 --decode > intake/queue-confirmed.json
+              git fetch --no-tags origin radar-state
+              git show FETCH_HEAD:intake/editorial-queue.json > intake/queue-confirmed.json
               cmp intake/queue-reconciled.json intake/queue-confirmed.json
               node scripts/check-operational-state.js intake/queue-confirmed.json intake/lead-history-queue-check.json intake/historical-decisions.json
               echo "### Fila editorial sincronizada com o histórico persistente" >> "$GITHUB_STEP_SUMMARY"
