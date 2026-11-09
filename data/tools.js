@@ -1,5 +1,19 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.tools=[
+{
+  "id": "8c69a7bafba7ddd1615d7cb77a6d643e3f283bf08d2bf8f6f74bb96e26642a66",
+  "name": "pandas - Python Data Analysis Library",
+  "kind": "Python Data Analysis Library",
+  "url": "https://pandas.pydata.org/",
+  "desc": "pandas - Python Data Analysis Library pandas pandas is a fast, powerful, flexible and easy to use open source data analysis and manipulation tool, built on top of the Python programming language. Source note: the captured page does not state detailed usage limitations; consult the official documentation and license before use."
+},
+{
+  "id": "8ccdce543913e2af137941b13f03b4f34e9a544dfc8befeff78dafc28b85ebf5",
+  "name": "Power BI Theme Generator - Create Professional Themes in Seconds | Power UI | Power UI",
+  "kind": "DesignApplication",
+  "url": "https://www.powerui.com/",
+  "desc": "Professional Power BI theme generator with visual editing, real-time preview, and comprehensive design system Source note: the captured page does not state detailed usage limitations; consult the official documentation and license before use."
+}, 
 
 
 
