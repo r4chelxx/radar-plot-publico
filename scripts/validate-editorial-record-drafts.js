@@ -6,11 +6,13 @@ const [queuePath,reviewPath,draftsPath]=process.argv.slice(2);
 if(!queuePath||!reviewPath||!draftsPath)throw Error('Usage: validate-editorial-record-drafts.js QUEUE REVIEW DRAFTS');
 const queue=JSON.parse(fs.readFileSync(queuePath,'utf8')),review=JSON.parse(fs.readFileSync(reviewPath,'utf8')),drafts=JSON.parse(fs.readFileSync(draftsPath,'utf8'));
 const eligible=(review.records||[]).filter(x=>x.decision==='evidence_complete_for_record_draft'&&x.publicationReady===false);
-const expected=new Set(eligible.map(x=>x.id)),candidates=new Map((queue.candidates||[]).map(x=>[x.id,x]));
+const expected=new Map(eligible.map(x=>[x.id,x])),candidates=new Map((queue.candidates||[]).map(x=>[x.id,x]));
 const actual=new Set();
 for(const item of drafts.drafts||[]){
  if(!expected.has(item.id)||actual.has(item.id))throw Error('Draft is not a unique evidence-complete review result: '+item.id);
  actual.add(item.id);
+ if(item.category!==expected.get(item.id).category)throw Error('Draft category does not match evidence review: '+item.id);
+ if(item.recordDraft?.id!==item.id)throw Error('Draft record identifier mismatch: '+item.id);
  if(item.status!=='draft_only'||item.publicationReady!==false||item.reviewDecision!=='evidence_complete_for_record_draft')throw Error('Draft cannot represent an approval: '+item.id);
  if(item.approved||item.decision==='approved'||item.review)throw Error('Draft contains an approval-shaped field: '+item.id);
  const candidate=candidates.get(item.id);
