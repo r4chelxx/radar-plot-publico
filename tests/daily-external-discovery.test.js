@@ -38,6 +38,20 @@ test('Gmail invalid-grant response reports refresh-token failure distinctly',asy
  assert.match(r.health[0].recommendedAction,/new refresh token/);
  assert.doesNotMatch(r.health[0].reason,/must not be logged/);
 });
+test('Gmail API disabled 403 identifies the Cloud API action without leaking response text',async()=>{
+ const fetcher=async url=>String(url).includes('oauth2.googleapis.com')?{ok:true,json:async()=>({access_token:'test'})}:{ok:false,status:403,json:async()=>({error:{message:'PRIVATE RESPONSE DETAIL',errors:[{reason:'accessNotConfigured'}]}})};
+ const r=await gmail.collect(fetcher,{RADAR_GMAIL_CLIENT_ID:'x',RADAR_GMAIL_CLIENT_SECRET:'y',RADAR_GMAIL_REFRESH_TOKEN:'z'});
+ assert.equal(r.health[0].errorCode,'accessNotConfigured');
+ assert.equal(r.health[0].failureClass,'gmail-api-disabled');
+ assert.match(r.health[0].recommendedAction,/Enable Gmail API/);
+ assert.doesNotMatch(JSON.stringify(r.health),/PRIVATE RESPONSE DETAIL/);
+});
+test('Gmail insufficient-scope 403 asks for read-only authorization',async()=>{
+ const fetcher=async url=>String(url).includes('oauth2.googleapis.com')?{ok:true,json:async()=>({access_token:'test'})}:{ok:false,status:403,json:async()=>({error:{errors:[{reason:'insufficientPermissions'}]}})};
+ const r=await gmail.collect(fetcher,{RADAR_GMAIL_CLIENT_ID:'x',RADAR_GMAIL_CLIENT_SECRET:'y',RADAR_GMAIL_REFRESH_TOKEN:'z'});
+ assert.equal(r.health[0].failureClass,'gmail-oauth-scope');
+ assert.match(r.health[0].recommendedAction,/gmail.readonly/);
+});
 test('Gmail metadata links are unverified candidates',()=>{const r=gmail.extract({subject:'Journalism grant applications',snippet:'Apply https://example.org/grant'});assert.equal(r.length,1);assert.equal(r[0].editorialStatus,'unverified')});
 test('Indexed LinkedIn extraction rejects unrelated URLs',()=>{const xml='<item><title>Journalism grant fellowship</title><link>https://www.linkedin.com/posts/example-grant</link></item><item><title>Journalism grant</title><link>https://example.org/grant</link></item>';const r=linkedin.extract(xml);assert.equal(r.length,1);assert.equal(r[0].category,'opportunities')});
 
