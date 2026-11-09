@@ -90,7 +90,7 @@ for(const entry of source.approved){
  }
  if(category==='tools'){
   const proofText=String(proof.evidence||'');
-  if(!/(?:feature|function|capabilit|funcional|permite|provides|supports|documentation|documenta)/i.test(proofText))throw Error('Tool evidence must describe a confirmed product function: '+record.id);
+  if(!/(?:feature|function|capabilit|funcional|permite|provides|supports|documentation|documenta|generator|generates?|writes?|creates?|builds?|theme editor)/i.test(proofText))throw Error('Tool evidence must describe a confirmed product function: '+record.id);
   if(!/(?:access|free|paid|license|licen[çc]a|account|conta|demo|demonstra[cç][aã]o|availability|available|install|download|limitations|limita[cç][oõ]es)/i.test(proofText))throw Error('Tool evidence must record access, license or availability terms and limitations: '+record.id);
  }
  insertions[category].push(record);
