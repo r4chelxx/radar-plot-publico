@@ -15,7 +15,7 @@ function inferCategory(c,text,title){
  if(excluded.test(title))return 'uncategorized';
  const url=String(c.url||'').toLowerCase();
  const opportunity=/(grant|fellowship|funding|award|prize|scholarship|bolsa|edital|call for applications|apply now)/i.test(title+' '+text);
- const deadline=/(deadline|closing date|close(?:s|d)?\\s+(?:on|by|\d)|applications?[^.!?]{0,60}clos(?:e|es|ed)|prazo|inscri[cç][aã]o(?:s)?[^.!?]{0,50}até)/i.test(text);
+ const deadline=/(deadline|closing date|close(?:s|d)?\s+(?:on|by|\d)|applications?[^.!?]{0,60}clos(?:e|es|ed)|prazo|inscri[cç][aã]o(?:s)?[^.!?]{0,50}até)/i.test(text);
  const eligibility=/(eligib|who can apply|open to|elegibilidade|podem se candidatar)/i.test(text);
  if(opportunity&&deadline&&eligibility)return 'opportunities';
  const dataset=/(dataset|data catalog|open data|dados abertos|base de dados|microdata|microdados|data portal)/i.test(title+' '+text);
@@ -36,7 +36,7 @@ function deadlineDates(text){
  const cues=/(deadline|closing date|close(?:s|d)?|application[^.!?]{0,50}clos(?:e|es|ed)|prazo|inscri[cç][aã]o(?:s)?[^.!?]{0,50}até)/i;
  return dateCandidates(text).filter(date=>{
   const forms=[date,date.replaceAll('-','/'),date.slice(8)+'/'+date.slice(5,7)+'/'+date.slice(0,4),String(Number(date.slice(8)))+'/'+String(Number(date.slice(5,7)))+'/'+date.slice(0,4)];
-  return text.split(/(?<=[.!?])\\s+/).some(sentence=>forms.some(form=>sentence.includes(form))&&cues.test(sentence));
+  return text.split(/(?<=[.!?])\s+/).some(sentence=>forms.some(form=>sentence.includes(form))&&cues.test(sentence));
  });
 }
 function review(c){
