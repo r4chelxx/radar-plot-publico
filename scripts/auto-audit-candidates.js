@@ -12,6 +12,16 @@ const isoDate=x=>typeof x==='string'&&/^\d{4}-\d{2}-\d{2}$/.test(x);
 const host=x=>{try{return new URL(x).hostname.toLowerCase()}catch{return null}};
 const future=x=>isoDate(x)&&x>=today;
 const derivedId=url=>'auto-'+crypto.createHash('sha256').update(String(url)).digest('hex').slice(0,16);
+function validPublicationReview(proof,category,url){
+ if(!proof||proof.reviewedBy!=='Radar evidence gate v1'||proof.reviewPolicyVersion!=='radar-evidence-v1'||proof.decision!=='approved')return false;
+ if(proof.officialUrl!==url||proof.sourceStatus!==200||!/^text\/html\b/i.test(proof.contentType||''))return false;
+ const checkedAt=Date.parse(proof.checkedAt||''),age=Date.now()-checkedAt;
+ if(!Number.isFinite(checkedAt)||age<0||age>24*60*60*1000||proof.reviewedAt!==String(proof.checkedAt).slice(0,10))return false;
+ const evidence=String(proof.evidence||'');
+ if(evidence.length<25||crypto.createHash('sha256').update(evidence).digest('hex')!==proof.evidenceHash)return false;
+ const required={opportunities:['callSignal','eligibility'],datasets:['datasetSignal','directResource','format','coverage'],tools:['productSignal','function','access']}[category]||[];
+ return required.length>0&&required.every(key=>proof.evidenceChecks?.[key]===true);
+}
 function deriveOpportunity(lead,url){
  const se=lead.structuredEvidence||{};
  const title=se.title||lead.pageTitle||lead.sourcePageTitle;
@@ -84,9 +94,11 @@ for(const lead of results){
   if(record?.desc&&String(record.desc).length<70)fail.push('descrição da ferramenta insuficiente');
   if(record?.url&&host(record.url)!==host(url))fail.push('URL oficial não coincide com a fonte auditada');
  } else fail.push('categoria não classificada');
+ const publicationReviewV1=lead.publicationReviewV1;
+ if(!validPublicationReview(publicationReviewV1,lead.category,url))fail.push('comprovante individual compatível com Radar evidence gate v1 ausente ou inválido');
  if(fail.length){blockers.push({url:lead.url,category:lead.category,blockers:fail});continue}
- decisions.push({...base,status:'approved',officialUrl:url,reason:record.id.startsWith('auto-')?'Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes.':'Fonte primária HTTPS, página HTML acessível, domínio preservado, prazo/eligibilidade/status e duplicidade verificados automaticamente; ficha pública completa anexada.',record});
+ decisions.push({...base,status:'approved',officialUrl:url,publicationReviewV1,reason:record.id.startsWith('auto-')?'Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes.':'Fonte primária HTTPS, página HTML acessível, domínio preservado, prazo/eligibilidade/status e duplicidade verificados automaticamente; ficha pública completa anexada.',record});
 }
-const out={schemaVersion:1,generatedAt:new Date().toISOString(),policy:'Aprovação automática somente quando todos os gates determinísticos estão completos; itens ambíguos permanecem em revisão.',decisions,summary:{inspected:results.length,autoApproved:decisions.length,blocked:blockers.length,byBlocker:blockers.reduce((a,x)=>{for(const b of x.blockers)a[b]=(a[b]||0)+1;return a},{}),today}};
+const out={schemaVersion:1,generatedAt:new Date().toISOString(),policy:'Aprovação automática somente com ficha completa e comprovante individual Radar evidence gate v1 validado; demais itens permanecem em revisão.',decisions,summary:{inspected:results.length,autoApproved:decisions.length,blocked:blockers.length,byBlocker:blockers.reduce((a,x)=>{for(const b of x.blockers)a[b]=(a[b]||0)+1;return a},{}),today}};
 fs.writeFileSync(process.argv[4]||'intake/auto-editorial-decisions.json',JSON.stringify(out,null,2)+'\n');
 console.log(JSON.stringify(out.summary));

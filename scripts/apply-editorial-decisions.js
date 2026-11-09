@@ -31,7 +31,7 @@ for(const d of decisions.decisions){
   const target=category==='opportunities'?record.rules:record.url;
   if(typeof target!=='string'||!/^https:\/\//.test(target))throw Error('New approval requires an official HTTPS record URL: '+d.url);
   if(nextManifest.approved.some(x=>x.record?.id===record.id||x.review?.officialUrl===d.officialUrl))throw Error('Duplicate approved publication record: '+record.id);
-  nextManifest.approved.push({category,record,review:{decision:'approved',reviewedBy:d.reviewedBy,reviewedAt:d.reviewedAt,officialUrl:d.officialUrl,evidence:d.reason}});
+  nextManifest.approved.push({category,record,review:d.publicationReviewV1||{decision:'approved',reviewedBy:d.reviewedBy,reviewedAt:d.reviewedAt,officialUrl:d.officialUrl,evidence:d.reason}});
 }
  if(d.status==='archived'&&d.archiveKind!=='closed-opportunity')throw Error('Archived opportunity must identify archiveKind: '+d.url);
  if(d.status==='published'&&!urls.has(d.officialUrl))throw Error('Publication not present in public catalog: '+d.url);
