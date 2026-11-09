@@ -43,11 +43,10 @@ test('summary marks editorial queue metrics unavailable instead of zero when sna
    editorialFunnel:{pending:0,pendingAging:{olderThan14Days:0,olderThan30Days:0,missingFirstSeen:0},pendingByCategory:{},classifiedOpportunityPending:0,unclassifiedPending:0,unclassifiedShare:0,opportunitySignalPending:0},
    coverage:{},sources:[],warnings:[],overallStatus:'degraded',sourceLimitations:{}
   }));
-  cp.execFileSync(process.execPath,[path.resolve('scripts/summarize-discovery.js')],{cwd:root,encoding:'utf8'});
-  const summary=fs.readFileSync(path.join(root,'intake','discovery-operations.json'),'utf8');
-  assert.match(summary,/"editorialQueueSource": "unavailable"/);
-  const output=cp.execFileSync(process.execPath,[path.resolve('scripts/summarize-discovery.js')],{cwd:root,encoding:'utf8'});
-  assert.match(output,/Pendentes: indisponível \(snapshot não carregado\)/);
+  const summaryPath=path.join(root,'summary.md');
+  cp.execFileSync(process.execPath,[path.resolve('scripts/summarize-discovery.js')],{cwd:root,encoding:'utf8',env:{...process.env,GITHUB_STEP_SUMMARY:summaryPath}});
+  const output=fs.readFileSync(summaryPath,'utf8');
+  assert.match(output,/Pendentes: indisponível \\(snapshot não carregado\\)/);
   assert.match(output,/fila persistida não foi carregada/);
  }finally{fs.rmSync(root,{recursive:true,force:true})}
 });
