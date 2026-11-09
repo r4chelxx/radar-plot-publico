@@ -19,6 +19,27 @@ test('reviewed and published links cannot return to pending on next discovery',(
  }finally{fs.rmSync(dir,{recursive:true,force:true})}
 });
 
+test('pending published catalog records reconcile to published without rewriting terminal decisions',()=>{
+ const dir=fs.mkdtempSync(path.join(os.tmpdir(),'radar-published-catalog-'));
+ try{
+  const p=name=>path.join(dir,name),published=identity('https://pandas.pydata.org/'),rejected=identity('https://www.powerui.com/'),unmatched=identity('https://example.org/not-in-catalog');
+  const candidates=[
+   {...published,title:'Pandas',category:'tools',status:'pending',firstSeen:'2026-10-20'},
+   {...rejected,title:'PowerUI',category:'tools',status:'rejected',firstSeen:'2026-10-20'},
+   {...unmatched,title:'Unverified tool',category:'tools',status:'pending',firstSeen:'2026-10-20'}
+  ];
+  fs.writeFileSync(p('quality.json'),JSON.stringify({review:[]}));
+  fs.writeFileSync(p('queue.json'),JSON.stringify({candidates}));
+  fs.writeFileSync(p('history.json'),JSON.stringify({leads:{}}));
+  fs.writeFileSync(p('decisions.json'),JSON.stringify({decisions:[]}));
+  cp.execFileSync(process.execPath,[path.resolve('scripts/merge-editorial-queue.js'),p('quality.json'),p('queue.json'),p('history.json'),p('decisions.json')]);
+  const out=JSON.parse(fs.readFileSync(p('queue.json'),'utf8')).candidates;
+  assert.equal(out.find(x=>x.id===published.id).status,'published');
+  assert.equal(out.find(x=>x.id===rejected.id).status,'rejected');
+  assert.equal(out.find(x=>x.id===unmatched.id).status,'pending');
+ }finally{fs.rmSync(dir,{recursive:true,force:true})}
+});
+
 test('pending uncategorized queue items recover only valid exact historical categories',()=>{
  const dir=fs.mkdtempSync(path.join(os.tmpdir(),'radar-history-category-'));
  try{
