@@ -2,6 +2,16 @@ const test=require('node:test');
 const assert=require('node:assert/strict');
 const {suggest,report}=require('../scripts/report-backlog-triage');
 test('clear funding opportunity suggests review only',()=>assert.equal(suggest({title:'Journalism Reporting Grant',url:'https://example.org/grant'}).category,'opportunities'));
+test('dated news and obituary URLs are not suggested as tools from headline keywords',()=>{
+ const samples=[
+  {title:'Meta delays rollout of terms that would allow broad scraping of news sites',url:'https://www.niemanlab.org/2026/10/meta-delays-rollout-of-terms-that-would-allow-broad-scraping-of-news-sites'},
+  {title:'Meta’s new commercial terms will allow the scraping of news sites',url:'https://www.niemanlab.org/2026/10/metas-new-commercial-terms-will-allow-the-scraping-of-news-sites'},
+  {title:'Today is the big day for the pollsters',url:'https://www.washingtonpost.com/obituaries/2026/11/01/milton-coleman'},
+  {title:'Novaya Gazeta’s Journalism Will Live On',url:'https://www.themoscowtimes.com/2024/02/29/moscow-police-detain-editor'},
+  {title:'The Susan Collins Effect',url:'https://www.bangordailynews.com/2009/11/02/bangor/editor-retiring'}
+ ];
+ for(const item of samples){const result=suggest(item);assert.equal(result.category,null,item.title);assert.equal(result.confidence,'manual-review-editorial-content',item.title)}
+});
 test('award and conference require manual review',()=>{assert.equal(suggest({title:'Data Visualization Awards',url:'https://example.org/awards'}).category,null);assert.equal(suggest({title:'Conference',url:'https://example.org/event'}).confidence,'manual-review-event-or-award')});
 test('tools and datasets can be suggested without mutating queue',()=>{const q={candidates:[{id:'a',title:'Python',url:'https://www.python.org/',status:'pending',reviewPriority:'high'},{id:'b',title:'Open Data Portal',url:'https://example.org/open-data',status:'pending'}]};const before=JSON.stringify(q);const result=report(q);assert.equal(result.uncategorized,2);assert.equal(result.suggestions[0].category,'tools');assert.equal(result.suggestions[1].category,'datasets');assert.equal(JSON.stringify(q),before)});
 
