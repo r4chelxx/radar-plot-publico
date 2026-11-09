@@ -1,5 +1,21 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
+{
+  "date": "2026-11-09",
+  "type": "ferramentas",
+  "title": "Publicação editorial verificada — 2026-11-09",
+  "items": [
+    {
+      "id": "8c69a7bafba7ddd1615d7cb77a6d643e3f283bf08d2bf8f6f74bb96e26642a66",
+      "title": "pandas - Python Data Analysis Library"
+    },
+    {
+      "id": "8ccdce543913e2af137941b13f03b4f34e9a544dfc8befeff78dafc28b85ebf5",
+      "title": "Power BI Theme Generator - Create Professional Themes in Seconds | Power UI | Power UI"
+    }
+  ],
+  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: pandas - Python Data Analysis Library; Power BI Theme Generator - Create Professional Themes in Seconds | Power UI | Power UI."
+}, 
 
 
  
