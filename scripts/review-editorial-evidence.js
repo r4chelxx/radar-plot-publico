@@ -32,6 +32,13 @@ function dateCandidates(text){
  for(const m of text.matchAll(/\b(0?[1-9]|[12]\d|3[01])[./-](0?[1-9]|1[0-2])[./-](20\d{2})\b/g))out.push(m[3]+'-'+m[2].padStart(2,'0')+'-'+m[1].padStart(2,'0'));
  return [...new Set(out)].filter(d=>{const x=new Date(d+'T00:00:00Z');return !Number.isNaN(x.valueOf())&&x.toISOString().slice(0,10)===d});
 }
+function deadlineDates(text){
+ const cues=/(deadline|closing date|close(?:s|d)?|application[^.!?]{0,50}clos(?:e|es|ed)|prazo|inscri[cç][aã]o(?:s)?[^.!?]{0,50}até)/i;
+ return dateCandidates(text).filter(date=>{
+  const forms=[date,date.replaceAll('-','/'),date.slice(8)+'/'+date.slice(5,7)+'/'+date.slice(0,4),String(Number(date.slice(8)))+'/'+String(Number(date.slice(5,7)))+'/'+date.slice(0,4)];
+  return text.split(/(?<=[.!?])\\s+/).some(sentence=>forms.some(form=>sentence.includes(form))&&cues.test(sentence));
+ });
+}
 function review(c){
  const a=c.audit||{}, raw=String(a.evidenceText||''), text=raw.toLowerCase(), title=String(a.pageTitle||c.title||'').toLowerCase(), docs=a.structuredData||[];
  const ld=docs.map(x=>({type:flat(x['@type']).toLowerCase(),data:x}));
@@ -40,7 +47,7 @@ function review(c){
  if(!hardStatus)missing.push('página primária acessível com conteúdo compatível');
  if(category==='opportunities'){
   checks.callSignal=/(grant|fellowship|funding|award|prize|scholarship|bolsa|edital|call for applications|apply now)/i.test(title+' '+text)&&!excluded.test(title);
-  checks.deadline=dateCandidates(text).find(d=>d>=today)||null;
+  checks.deadline=deadlineDates(text).find(d=>d>=today)||null;
   checks.eligibility=/\b(eligib|eligible|eligibility|who can apply|open to|elegibilidade|elegível|podem se candidatar)\b/i.test(text);
   if(!checks.callSignal)missing.push('chamada de financiamento/bolsa identificável');
   if(!checks.deadline)missing.push('prazo futuro confirmado em formato de data reconhecido');
