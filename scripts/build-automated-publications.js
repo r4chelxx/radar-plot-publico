@@ -46,7 +46,7 @@ function buildAutomaticPublications(drafts,manual={approved:[]},now=new Date()){
   knownIds.add(record.id);knownUrls.add(identity);
   approved.push({category,record,review:{
    decision:'approved',reviewedBy:'Radar evidence gate v1',reviewedAt:source.checkedAt.slice(0,10),
-   reviewPolicyVersion:'radar-evidence-v1',officialUrl:source.url,evidence:excerpt,
+   reviewPolicyVersion:'radar-evidence-v1',officialUrl:source.url,checkedAt:source.checkedAt,evidence:excerpt,
    evidenceHash:crypto.createHash('sha256').update(excerpt).digest('hex'),
    sourceStatus:source.httpStatus,contentType:source.contentType,evidenceChecks:checks
   }});
