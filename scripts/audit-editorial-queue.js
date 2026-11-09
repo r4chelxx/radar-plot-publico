@@ -24,7 +24,7 @@ async function inspect(item){
   const body=await res.text(),html=body.slice(0,500000);
   const title=(/<title[^>]*>([\s\S]*?)<\/title>/i.exec(html)?.[1]||meta(html,'og:title')||item.title||'').replace(/<[^>]+>/g,' ').replace(/\s+/g,' ').trim().slice(0,240);
   const description=(meta(html,'description')||meta(html,'og:description')).slice(0,800);
-  const pageEvidence=extractEvidence(html);
+  const pageEvidence=extractEvidence(html,res.url);
   const normalized=(title+' '+description+' '+item.url).toLowerCase();
   let result='needs_editorial_review',reason='Página acessível; categoria e recurso ainda exigem confirmação específica.';
   if(res.status===404||res.status===410){result='unavailable';reason='Fonte retornou HTTP '+res.status+'.'}
@@ -41,7 +41,7 @@ async function inspect(item){
    else if(!title||title.length<4){result='weak_page_metadata';reason='Página sem título/metadados utilizáveis.'}
   }else if(/application\/(?:json|ld\+json)|text\/csv|application\/(?:zip|octet-stream)/i.test(type)){result='data_resource_candidate';reason='A URL entrega conteúdo estruturado/binário; validar formato, escopo, licença e uso editorial.'}
   else{result='non_html_resource_candidate';reason='URL acessível com tipo '+type+'; validar função e categoria.'}
-  return{...item,audit:{checkedAt:now.toISOString(),httpStatus:res.status,finalUrl:res.url,contentType:type,pageTitle:title,pageDescription:description,evidenceText:pageEvidence.evidenceText,structuredData:pageEvidence.structuredData,result,reason}}
+  return{...item,audit:{checkedAt:now.toISOString(),httpStatus:res.status,finalUrl:res.url,contentType:type,pageTitle:title,pageDescription:description,evidenceText:pageEvidence.evidenceText,structuredData:pageEvidence.structuredData,resourceLinks:pageEvidence.resourceLinks||[],result,reason}}
  }catch(e){return{...item,audit:{checkedAt:now.toISOString(),httpStatus:null,result:'inconclusive',reason:e.name==='AbortError'?'Timeout; tentar em auditoria futura.':'Falha de rede; tentar em auditoria futura.'}}}
  finally{clearTimeout(timer)}
 }
