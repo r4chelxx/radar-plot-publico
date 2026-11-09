@@ -65,6 +65,8 @@ on:
       - 'scripts/discover-gmail-newsletters.js'
       - 'scripts/require-gmail-health.js'
       - 'tests/daily-external-discovery.test.js'
+      - 'scripts/report-backlog-triage.js'
+      - 'tests/backlog-triage.test.js'
       - 'scripts/discover-public-funding-pages.js'
       - 'scripts/discover-opportunity-web.js'
       - 'scripts/import-public-editorial-queue.js'
