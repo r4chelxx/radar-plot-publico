@@ -262,7 +262,7 @@ jobs:
           node /tmp/review-editorial-evidence.js intake/editorial-queue.json intake/editorial-evidence-review.json
           node /tmp/build-editorial-record-drafts.js intake/editorial-queue.json intake/editorial-evidence-review.json intake/publication-drafts.json
           node /tmp/validate-editorial-record-drafts.js intake/editorial-queue.json intake/editorial-evidence-review.json intake/publication-drafts.json
-          node -e 'const fs=require("fs");const r=require("./intake/publication-drafts.json");const p=process.env.GITHUB_STEP_SUMMARY;fs.appendFileSync(p,["### Fichas editoriais preliminares",`Rascunhos com evidência suficiente: ${r.summary.drafts}`,`Por categoria: ${JSON.stringify(r.summary.byCategory)}`,`Autorizadas para publicação: ${r.summary.publicationReady}`,"Cada ficha mantém lacunas explícitas e não equivale a aprovação editorial."].join("\\n")+"\\n")'
+          node -e 'const fs=require("fs");const r=require("./intake/publication-drafts.json");const p=process.env.GITHUB_STEP_SUMMARY;fs.appendFileSync(p,["### Fichas editoriais preliminares",`Rascunhos com evidência suficiente: ${r.summary.drafts}`,`Por categoria: ${JSON.stringify(r.summary.byCategory)}`,`Autorizadas para publicação: ${r.summary.publicationReady}`,"Cada ficha mantém lacunas explícitas e não equivale a aprovação editorial."].join("\n")+"\n")'
           if [ -f /tmp/radar-gmail-backfill-cursor.json ]; then
             mkdir -p state
             cp /tmp/radar-gmail-backfill-cursor.json state/gmail-backfill-cursor.json
