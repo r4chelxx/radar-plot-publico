@@ -1,0 +1,2461 @@
+{
+  "generatedAt": "2026-11-09T01:53:53.392Z",
+  "policy": "Deterministic checks only; evidence_complete_for_record_draft is not approval or publication.",
+  "counts": {
+    "pending_more_evidence": 173
+  },
+  "records": [
+    {
+      "id": "018d1cd62cafbb640600d2a5ac940ae52b50dff5592d9dc7843bc1fbdeb7e565",
+      "url": "https://cedricscherer.com/",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "018e9e1d538e2e91eb673b632a0644f7d81c596395097fc3d759f15295921c3b",
+      "url": "https://thegate-festival.com/",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "0378c1199bf9d7c9a8b0eb67f816e2909200f145edad23ab8f7db400d8d9b701",
+      "url": "https://www.cj2026.northwestern.edu/",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "03af9321249e93311539dc91981848f7bdc47f60a27f46a128b46af809ecb405",
+      "url": "https://www.gislounge.com/contribute-to-gis-lounge",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada",
+        "página primária acessível com conteúdo compatível"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "0b802c5f3138e40e8343203d56bebeb31c9f629949ee64d3836386af462f66d9",
+      "url": "https://fairwarning.substack.com/",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada",
+        "página primária acessível com conteúdo compatível"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "0bae48d554d6616e03292adbff1808f3224bb5337e35350cc900edde35f3dd62",
+      "url": "https://allthingsspatial.com/",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "0c7f801d3f93263f938ae8114beead13c87b2e8298af0867fa8c7d1942e26fd4",
+      "url": "https://pentagram.com/",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "0d0693b31c255fa6f2a7c4282c740e44c3c4b77078c6bb49b4eef0cfce0f7801",
+      "url": "https://snd.org/category/events/annual_conference",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "0d595c8ce1113ec4916614a9f1aa1cd609ee921445d0cd219c4267562391eac3",
+      "url": "https://bsky.app/profile/datavizsociety.bsky.social",
+      "category": "tools",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {
+        "structuredProduct": false,
+        "function": false,
+        "access": false,
+        "license": false
+      },
+      "missing": [
+        "SoftwareApplication/SoftwareProduct na fonte",
+        "função documentada",
+        "acesso/compatibilidade ou oferta",
+        "licença declarada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "0e6dfe26364d670ec119c77dbd0f27f42f4d8c210f7dc356a44d3b9eba29f9f5",
+      "url": "https://www.tizianaalocci.com/",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "0e8057193f2977f78238b17c8b4be09dd5fc1ab7d851b9bac58ef0b7b73f3a5f",
+      "url": "https://www.niemanlab.org/2026/10/when-slate-went-back-to-its-1996-homepage-it-learned-some-web-design-lessons-for-2026",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-08T19:21:36.476Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "0eb0540dca903f9ca244f908bd13e32d49b9ba42ff621f7465a29428dd829121",
+      "url": "https://felt.com/",
+      "category": "tools",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {
+        "structuredProduct": false,
+        "function": false,
+        "access": false,
+        "license": false
+      },
+      "missing": [
+        "SoftwareApplication/SoftwareProduct na fonte",
+        "função documentada",
+        "acesso/compatibilidade ou oferta",
+        "licença declarada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "0eb1c4ed8ff4cd8aca02f45c3892bf5a156b99ff0e58f96f98858e77ae905b61",
+      "url": "https://findingada.com/",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada",
+        "página primária acessível com conteúdo compatível"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "0f8eb502c422784b58200f6768a83521c3492df4816c1ecf313edbf3c321293f",
+      "url": "https://community.fabric.microsoft.com/",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada",
+        "página primária acessível com conteúdo compatível"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "11f6a6a3300804eb8be8154344a83bcca373bda9a4aa1d1b65ce5afb8578d78a",
+      "url": "https://environmentalpeacebuilding.org/",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "121a8bc4a5b928e9479d4daf0001a9181030f7aa35996dfa121b15e0b84c6506",
+      "url": "https://pudding.cool/pitch",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "149bf5aa344dcb4364370f275286edbffc60fe06500d81514394a10151f72447",
+      "url": "https://dataharvest.eu/",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "14b0ae3cf0761989afa2831f545f32b36d188a312806f43cfc82d9f0065d6d50",
+      "url": "https://playfairdata.com/written-visual-analytics-tutorials",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "15cb819ab90b89beb071f37ab46c0357e4e90ace075a9d9f3d3cf242336fe7b1",
+      "url": "https://nytimes.com/section/climate",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada",
+        "página primária acessível com conteúdo compatível"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "172b791d5c8c3ee897e91a183c66b64af8826b69b0480ca88b923adbcf6ff5cf",
+      "url": "https://tableau.com/community/events/conference",
+      "category": "tools",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {
+        "structuredProduct": false,
+        "function": false,
+        "access": false,
+        "license": false
+      },
+      "missing": [
+        "SoftwareApplication/SoftwareProduct na fonte",
+        "função documentada",
+        "acesso/compatibilidade ou oferta",
+        "licença declarada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "17a4c28f80871ff69c811767563b1cbe3736e0c00e3e5d07685dc65d3fbcfe99",
+      "url": "https://docs.cloud.google.com/bigquery/docs/geospatial-intro",
+      "category": "tools",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {
+        "structuredProduct": false,
+        "function": false,
+        "access": false,
+        "license": false
+      },
+      "missing": [
+        "SoftwareApplication/SoftwareProduct na fonte",
+        "função documentada",
+        "acesso/compatibilidade ou oferta",
+        "licença declarada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "17f1c41fb6e2091673852fb006f710c7d51794eafad3c3a89a95b2b204260f06",
+      "url": "https://push-conference.com/",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "1963b7b3df8b23f3cfdb3e5e0b7f41832b27c00b6acb5a0ffbba14ab4c28a72e",
+      "url": "https://www.gartner.com/en/conferences/hub/data-analytics-conferences/awards",
+      "category": "opportunities",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {
+        "callSignal": false,
+        "deadline": null,
+        "eligibility": false
+      },
+      "missing": [
+        "evidência textual de chamada",
+        "prazo futuro legível na fonte",
+        "critérios de elegibilidade explícitos",
+        "página primária acessível com conteúdo compatível"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "196ba32ed8c0cce51be9328526cfe7b676736c04dced66c6233738fec3060613",
+      "url": "https://www.niemanlab.org/2026/10/in-the-ai-age-publishers-who-understand-what-readers-want-will-do-best-a-new-report-argues",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-08T19:21:36.476Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "1afc7f24e5db42c85fafe9e7dd30b176d757af83dd3f791408bec72af234e330",
+      "url": "https://www.utwente.nl/en/itc/big-geodata/newsletter",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada",
+        "página primária acessível com conteúdo compatível"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "1b6d5942594c35866f49363722c29b13a5cad3e1b9eecd9f820572eeeda80195",
+      "url": "https://pudding.cool/process/responsive-scrollytelling",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "1ca65dbfcd3c79769811576671609d5cf4ffab7e63cd5e7034454f4506c9187c",
+      "url": "https://www.niemanlab.org/2026/10/columbia-journalism-school-will-temporarily-pause-its-m-a-program-and-launch-an-online-degree",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-08T19:21:36.476Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "1d7e7b7e4a5912be421d1d433fd6a15e8cbc074462e1e467a5ff17bd10663e05",
+      "url": "https://elpais.com/narrativa-visual",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada",
+        "página primária acessível com conteúdo compatível"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "1f84a9a42615fad481b2dc097faa1e33264354aaa6ec5fe1a91997c6934f66bb",
+      "url": "https://europeanpressprize.com/",
+      "category": "opportunities",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {
+        "callSignal": false,
+        "deadline": null,
+        "eligibility": false
+      },
+      "missing": [
+        "evidência textual de chamada",
+        "prazo futuro legível na fonte",
+        "critérios de elegibilidade explícitos",
+        "página primária acessível com conteúdo compatível"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "205694bf8037f237556626686c0876143c9bbcde63d969f1639beaf770562e3c",
+      "url": "https://www.earthdatascience.org/courses/use-data-science-tools",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada",
+        "página primária acessível com conteúdo compatível"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "2170a314eb31f5023557bdd738626970b61acce96b2477efa6df658d88bc83b9",
+      "url": "https://www.niemanlab.org/2026/10/chatgpt-is-adding-real-cartoonists-signatures-to-fake-new-yorker-cartoons",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-08T19:21:36.476Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "24f87c4bf66f238ff27487ff4d072de90b9ffc6c5f09c57b1d5c845ebd26307a",
+      "url": "https://themarkup.org/",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "2510b4ab187aef42de7343753c19c1fdef18cc7a15c3938785c9759cada5eb2e",
+      "url": "https://rstudio.github.io/chromote",
+      "category": "tools",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {
+        "structuredProduct": false,
+        "function": false,
+        "access": false,
+        "license": false
+      },
+      "missing": [
+        "SoftwareApplication/SoftwareProduct na fonte",
+        "função documentada",
+        "acesso/compatibilidade ou oferta",
+        "licença declarada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "27719650287b06f198231d39f54b65054bc53ab461c1236a3193274a2c2c7668",
+      "url": "https://www.mapbox.com/",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-08T19:21:36.476Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "2799001a26f5610d3d7ccc75bd5a05f8f5c0f4d70125c81b352803fa10ba9b09",
+      "url": "https://accurat.it/",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "27b499286de15df52482e833ca96233a16d93bdf2f0b5eeeb52c8f3b6fe962d6",
+      "url": "https://stefanieposavec.com/",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "27d789de59d5782f2dece6402ae567fd861c393fd3966d260e16df68f848b4af",
+      "url": "https://www.commarts.com/competitions",
+      "category": "opportunities",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {
+        "callSignal": true,
+        "deadline": null,
+        "eligibility": false
+      },
+      "missing": [
+        "prazo futuro legível na fonte",
+        "critérios de elegibilidade explícitos"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "280862e005817e8275c3b0a385e5b3436150a36ab1770c8024e422de53c5a3a6",
+      "url": "https://pudding.cool/process/how-to-make-dope-shit-part-1",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "29f46d3ac3590a74d2a38051398c4030ba2a0abd19be51d84e78bd83af22e1b2",
+      "url": "https://docs.pmnd.rs/react-three-fiber",
+      "category": "tools",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {
+        "structuredProduct": false,
+        "function": false,
+        "access": false,
+        "license": false
+      },
+      "missing": [
+        "SoftwareApplication/SoftwareProduct na fonte",
+        "função documentada",
+        "acesso/compatibilidade ou oferta",
+        "licença declarada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "2f19efb8b5b14971b275a87a40da78fc77472827304f401316c997d884261d49",
+      "url": "https://vizheads.com/",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada",
+        "página primária acessível com conteúdo compatível"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "309ae39f1ab65d8e994200d770dbc0aa20d2fcd5e4ffd2b58c801c475be02c20",
+      "url": "https://lemonde.fr/les-decodeurs",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "33c2842da453322e732087a204b8b8cff109b5c6a2e2ba71a321e669a3b5f021",
+      "url": "https://www.tidyverse.org/",
+      "category": "tools",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {
+        "structuredProduct": false,
+        "function": false,
+        "access": false,
+        "license": false
+      },
+      "missing": [
+        "SoftwareApplication/SoftwareProduct na fonte",
+        "função documentada",
+        "acesso/compatibilidade ou oferta",
+        "licença declarada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "35bafe73c6e75cb1cc11a9ef03253ba878953520ffe49a94876645a034c7cddb",
+      "url": "https://journalismfestival.com/",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada",
+        "página primária acessível com conteúdo compatível"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "37099375d69ab8e30f3bc68652b7e86f79470c525bf97c70fb73d503b2454f60",
+      "url": "https://www.niemanlab.org/2026/10/the-ringer-bets-on-substacks-network-over-its-own-website",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-08T19:21:36.476Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "37f8c459b4123fe01cd711847fff109835afb3a306b85493652a8fc062ff9454",
+      "url": "https://cloudnativegeo.org/",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "390158fb6d60b0995dabfebbc5dfd1203cefd961206800fd110f822179674776",
+      "url": "https://bellingcat.com/",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "39153342c3fd396d7b60bdfae034535601b0c7ed1ee454f9839c02c5d078198a",
+      "url": "https://straitstimes.com/multimedia/graphics",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "3a4b48c6b7b1200272575f06d90ee6d0ca1e01de8273cc7bce802401b01fb38f",
+      "url": "https://www.scientificamerican.com/page/submission-instructions",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "3a612d3b0026605c96abe95b17102fd7ec515303f91661745ecd97a722bed17a",
+      "url": "https://www.python.org/",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "3b85d7792f9ca1bee1e5d5eb99e18ff38c4c891f426361132de2af2839287c76",
+      "url": "https://www.w3.org/community/gpu",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "3b9a903debebd599d79f0d51bcb26fdce3ebe4c08722f52b070def0dcf12493e",
+      "url": "https://thenodeinstitute.org/",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada",
+        "página primária acessível com conteúdo compatível"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "3c39884183add7b36ae8401cf99300278842cd9fc37f23cd5df07a22c5d60ee6",
+      "url": "https://www.zeit.de/daten-und-visualisierung",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada",
+        "página primária acessível com conteúdo compatível"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "3c78f3e2789f3bd48c164e6a18da696b7dfaab20271fe86d32cd70ccaf9b1eb8",
+      "url": "https://indigenousmaps.com/",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "410d57a7e1c9f7971573e2ad6ac60aa5a132c29f79b9e49fb976d534a6c081b9",
+      "url": "https://gijc2025.org/",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "417fecfa46ee4f86cc5cd58651876a11bcb2b98a4dc130b0f03a17107db330dd",
+      "url": "https://www.niemanlab.org/2026/09/how-publishers-are-rethinking-audience-engagement-five-takeaways-from-the-future-of-media-technology-conference",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-08T19:21:36.476Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "43cdfc61aac8f79b5cb505c8d7aacca96135949f4f00c83a8c55d223e7b97582",
+      "url": "https://www.niemanlab.org/2026/10/nieman-lab-has-a-new-look",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-08T19:21:36.476Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "44c356fe0245f678072a34ff62205f526b8a35fb05640f38a9b94f8966ce999b",
+      "url": "https://www.niemanlab.org/2026/10/subscribers-are-up-but-growth-is-down-heres-what-worker-owned-hell-gate-is-trying-next",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-08T19:21:36.476Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "45286c14b1832877ffa0c0a260849d088bbedc00dceb2c6efead79620cc40210",
+      "url": "https://www.datawrapper.de/blog/chart-types-guide",
+      "category": "tools",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {
+        "structuredProduct": false,
+        "function": false,
+        "access": false,
+        "license": false
+      },
+      "missing": [
+        "SoftwareApplication/SoftwareProduct na fonte",
+        "função documentada",
+        "acesso/compatibilidade ou oferta",
+        "licença declarada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "45e50a7d9b58b5153f393a18b5667d1c2cb2070cab54533ea636d2c01c22b242",
+      "url": "https://www.ft.com/newsletters",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada",
+        "página primária acessível com conteúdo compatível"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "46094c069ad6b19c7acbbbbf579fd3f2ffabc4fa3a6bb5f917940d5b8a984d1b",
+      "url": "https://www.niemanlab.org/2026/10/fox-news-attacks-the-media-roughly-every-15-minutes-our-study-finds-cnn-every-140-minutes",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-08T19:21:36.476Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "4649507fc65177567db59e17562400338347df4919874be8ed383c7fed5e34a7",
+      "url": "https://www.storytellingwithdata.com/blog/swdchallenge-annotate-it",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "47112e6670322f8d184bc20c12d10660693fd3a49860712a4ec8f3ab7b7e2155",
+      "url": "https://geospatialnext.substack.com/",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada",
+        "página primária acessível com conteúdo compatível"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "483c5944a10521dde5f808f0c5a7f8905fcf5f0d7041f337d200f27096fecbc5",
+      "url": "https://omni.co/",
+      "category": "tools",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {
+        "structuredProduct": false,
+        "function": false,
+        "access": false,
+        "license": false
+      },
+      "missing": [
+        "SoftwareApplication/SoftwareProduct na fonte",
+        "função documentada",
+        "acesso/compatibilidade ou oferta",
+        "licença declarada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "48cd2f42cea94cf9d25734ae66b9e0076ac813ab34bbf1a423ad3692609534ed",
+      "url": "https://washingtonpost.com/climate-environment",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "4974752ee5b2a80c905efac20bcc64abb7108085374363f0653078f1975c84a6",
+      "url": "https://lookerstudio.google.com/",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-08T19:21:36.476Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "4a011c6a3f567b9c74eb77d0a2bc50158e443caa9c5ad01cf1e178f56de81054",
+      "url": "https://ire.org/conferences/nicar-2026",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "4a7c60da3579bf07d7f79f2347805a5519d7979711aa61c31c4091eedd176054",
+      "url": "https://www.w3.org/TR/webgpu",
+      "category": "tools",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {
+        "structuredProduct": false,
+        "function": false,
+        "access": false,
+        "license": false
+      },
+      "missing": [
+        "SoftwareApplication/SoftwareProduct na fonte",
+        "função documentada",
+        "acesso/compatibilidade ou oferta",
+        "licença declarada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "5208406ff10520ad769b59036515e053a164ac5bc4ebecb15ef3ec91e8ced7b1",
+      "url": "https://r-spatial.org/book",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "523a861d21eafb5ed7c23e495938271fdad067bc512470e5c737419607d68d02",
+      "url": "https://www.esri.com/en-us/arcgis/products/arcgis-storymaps/contest",
+      "category": "opportunities",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {
+        "callSignal": false,
+        "deadline": null,
+        "eligibility": false
+      },
+      "missing": [
+        "evidência textual de chamada",
+        "prazo futuro legível na fonte",
+        "critérios de elegibilidade explícitos"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "529d351f36cac9b54f6d792c966037e2b3e5b84d840415fda83803e1335229ea",
+      "url": "https://www.mapbox.com/impact/resources",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada",
+        "página primária acessível com conteúdo compatível"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "52eb19f79058a7be1b1ae392289d18d01d30a96b2f306741d9702163a141b77a",
+      "url": "https://www.niemanlab.org/2026/10/two-23-year-olds-used-ai-to-create-a-daily-audio-briefing-its-now-the-top-news-app-in-argentina",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-08T19:21:36.476Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "53702db8311a85fcdcd3e094d160b4f65c85966274a0f8a083eeac9de0f92101",
+      "url": "https://www.tableautim.com/",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada",
+        "página primária acessível com conteúdo compatível"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "53721ed24dba14d0bdd63254bc453f29cb40905e0ab8251a7eac27524978f873",
+      "url": "https://oscarbaruffa.com/data",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "540ebc47c656f9759c1d017f559ec0716a5c88fa64a4c5dcde41339e85bed528",
+      "url": "https://beyondtellerrand.com/events/dusseldorf-2021/speakers/matthias-stahl",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "560588bb174c8055c7bd49990095bfe64dff3a976d535a0120b422e88c405a1b",
+      "url": "https://ft.com/visual-and-data-journalism",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada",
+        "página primária acessível com conteúdo compatível"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "56371ff7353f3399cb51fb4ee454ca91c2b0aaf256add0a5a7212f563697d87b",
+      "url": "https://www.washingtonpost.com/visual-stories",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "56ebbe4ebcc655aac7aee9aa2ca4234425506b7277e4e3977182c3afc1a35c93",
+      "url": "https://www.sqlbi.com/tv/introducing-free-dax-tools-video-course",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "58e87acfecb36438d73aa6be91646a687227e1ac7fa0d967a846ec383e5e9e22",
+      "url": "https://duckdb.org/docs/api/r",
+      "category": "tools",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {
+        "structuredProduct": false,
+        "function": false,
+        "access": false,
+        "license": false
+      },
+      "missing": [
+        "SoftwareApplication/SoftwareProduct na fonte",
+        "função documentada",
+        "acesso/compatibilidade ou oferta",
+        "licença declarada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "59fb8bff0d005828c589638516fc33d71d98a22696b082762dc41f67012b9d09",
+      "url": "https://www.niemanlab.org/2026/10/uber-agents-undercover-ai-personas-and-other-ways-newsrooms-are-using-ai-in-investigations",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-08T19:21:36.476Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "5a9875b195c86a4d914f694c642c1d98bcb693c248efeade75666cccfa426b89",
+      "url": "https://p5js.org/",
+      "category": "tools",
+      "checkedAt": "2026-11-08T19:21:36.476Z",
+      "checks": {
+        "structuredProduct": false,
+        "function": false,
+        "access": false,
+        "license": false
+      },
+      "missing": [
+        "SoftwareApplication/SoftwareProduct na fonte",
+        "função documentada",
+        "acesso/compatibilidade ou oferta",
+        "licença declarada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "5b70350d3db597c76152890b7d29190b3f58a89e3680688bc4ea2c325b51ea0f",
+      "url": "https://www.behance.net/FedericaFragapane",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "5c1be986e488cd7da4221e6f239cdd4b9259d573f9151cf5b6d1b348b06b2dbe",
+      "url": "https://www.r-project.org/",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "5c8b6670648744bb0e41b197a9095e43602c82ed4beffead62ab05ede49760c3",
+      "url": "https://www.ibcs.com/certification",
+      "category": "opportunities",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {
+        "callSignal": false,
+        "deadline": null,
+        "eligibility": false
+      },
+      "missing": [
+        "evidência textual de chamada",
+        "prazo futuro legível na fonte",
+        "critérios de elegibilidade explícitos"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "5dee27d6a6130dabe94cbffa1b04ecbfd04a7c1426cdfffb883b2ac0f609cb9a",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API",
+      "category": "tools",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {
+        "structuredProduct": false,
+        "function": false,
+        "access": false,
+        "license": false
+      },
+      "missing": [
+        "SoftwareApplication/SoftwareProduct na fonte",
+        "função documentada",
+        "acesso/compatibilidade ou oferta",
+        "licença declarada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "5e7222386154610197efe38e5ef9216257465146a87c27d2a387b15f500b13f6",
+      "url": "https://public.tableau.com/app/discover/viz-of-the-day",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "5f21e4549c41ae3b232654d33565534676a4a041a32c73db6de2df2fc1d41e57",
+      "url": "https://www.niemanlab.org/2026/10/a-study-of-nonprofit-newsrooms-reveals-some-cracks-in-the-models-foundation",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-08T19:21:36.476Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "5f38966f3345bf06a57028922fd4a50a10a035d97b2239ec83b8e9dff98e06e3",
+      "url": "https://www.niemanlab.org/2026/09/newsmatch-will-shift-from-a-year-end-campaign-to-a-year-round-model",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-08T19:21:36.476Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "5facb9ae65e7884e094d122c16516f682b3e40802731bc53d4deafc3274409d3",
+      "url": "https://awwwards.com/",
+      "category": "opportunities",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {
+        "callSignal": false,
+        "deadline": null,
+        "eligibility": false
+      },
+      "missing": [
+        "evidência textual de chamada",
+        "prazo futuro legível na fonte",
+        "critérios de elegibilidade explícitos"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "60a6227b5d803cd8eaf13b137b70be275ab448bf2466af685879078bce375687",
+      "url": "https://2026.stateofthemap.org/",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "62e2a9e99007d4f08dc07314726f152eb79e541b949cc55acca61f841668bc14",
+      "url": "https://womeningis.org/",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "651929ba8a401dbf26ef8caf5a76e60df78cf5da529f319b35ea46f1fc107132",
+      "url": "https://barc.com/events/barc-start-up-award",
+      "category": "opportunities",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {
+        "callSignal": true,
+        "deadline": null,
+        "eligibility": true
+      },
+      "missing": [
+        "prazo futuro legível na fonte"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "679ba5a130af00183d127499c17a20a85e30c4753c0c2637c9c038765de781c8",
+      "url": "https://www.linkedin.com/company/data-visualization-society",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada",
+        "página primária acessível com conteúdo compatível"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "680da594a73b6119cbce9031fd510f66e17fc6d9f72b583680af84ab9775f301",
+      "url": "https://processing.org/",
+      "category": "tools",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {
+        "structuredProduct": false,
+        "function": false,
+        "access": false,
+        "license": false
+      },
+      "missing": [
+        "SoftwareApplication/SoftwareProduct na fonte",
+        "função documentada",
+        "acesso/compatibilidade ou oferta",
+        "licença declarada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "68fedf64924894e13bb99abb21c12be64ecfb0387bc39c7acd2c64cd5949932f",
+      "url": "https://www.figma.com/",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "69b85928322045fdd50418800418511a4fdc9dbd7137ac39a2d31f1e8fb718b6",
+      "url": "https://ars.electronica.art/",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "6a7310641413880317d62f678c248f1cef045297f8ee04c6a53c11e79907a5fb",
+      "url": "https://www.esri.com/en-us/news-publications/esri-brief",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "6b096fea767db224de5ca98bfd30735c8cef35a0508230fc1677cedab74b103d",
+      "url": "https://sonar.es/",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "6b996352654623d8f6e8242b121a2b91f1ed3c0ad4188aa19c180013d2a77777",
+      "url": "https://conference.qgis.org/",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "6c668d3c43d8be3ab14e5db6f8dcafe7f5e3ba2351961c72792b3064fc7cea64",
+      "url": "https://gsap.com/",
+      "category": "tools",
+      "checkedAt": "2026-11-08T19:21:36.476Z",
+      "checks": {
+        "structuredProduct": false,
+        "function": false,
+        "access": false,
+        "license": false
+      },
+      "missing": [
+        "SoftwareApplication/SoftwareProduct na fonte",
+        "função documentada",
+        "acesso/compatibilidade ou oferta",
+        "licença declarada",
+        "página primária acessível com conteúdo compatível"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "6d49155eca3efdabd2d3681c83e054317a8b6a5956de2a27b97c38c85f01045e",
+      "url": "https://www.snowflake.com/en/developers/guides/getting-started-with-geospatial-geography",
+      "category": "tools",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {
+        "structuredProduct": false,
+        "function": false,
+        "access": false,
+        "license": false
+      },
+      "missing": [
+        "SoftwareApplication/SoftwareProduct na fonte",
+        "função documentada",
+        "acesso/compatibilidade ou oferta",
+        "licença declarada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "6d8bee2bb020f9fd35e6fc27edabdb976dccf1c39359502b978be881777e1584",
+      "url": "https://elconfidencial.com/datos",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada",
+        "página primária acessível com conteúdo compatível"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "6dbd1048de521b8d6c31e41693f9aed74511e558ece6cac05e9166cc40e6bb01",
+      "url": "https://www.nytimes.com/spotlight/graphics",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada",
+        "página primária acessível com conteúdo compatível"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "6e479e8180a85df026332c043a732640b8d85c2c6b9cf3047240d73284a2cd43",
+      "url": "https://tcij.org/summer-conference",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada",
+        "página primária acessível com conteúdo compatível"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "6fd2b7a86d663b077640440524ee613d77fc8f91a0fcb668af02e6a92d4a5e07",
+      "url": "https://jkunst.com/highcharter",
+      "category": "tools",
+      "checkedAt": "2026-11-08T19:21:36.476Z",
+      "checks": {
+        "structuredProduct": false,
+        "function": false,
+        "access": false,
+        "license": false
+      },
+      "missing": [
+        "SoftwareApplication/SoftwareProduct na fonte",
+        "função documentada",
+        "acesso/compatibilidade ou oferta",
+        "licença declarada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "7088b3a76d1a6a696213fc4a6621614fef6be25590aae8322af85caac5b971ff",
+      "url": "https://researchguides.library.yorku.ca/datavisualization/designprinciples",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "70f40c54bd1bf80ba4abd39091f4b5f5d6f952dd3c82f4408ef8658bfd0bdf74",
+      "url": "https://samgeo.gishub.org/",
+      "category": "tools",
+      "checkedAt": "2026-11-08T19:21:36.476Z",
+      "checks": {
+        "structuredProduct": false,
+        "function": false,
+        "access": false,
+        "license": false
+      },
+      "missing": [
+        "SoftwareApplication/SoftwareProduct na fonte",
+        "função documentada",
+        "acesso/compatibilidade ou oferta",
+        "licença declarada",
+        "página primária acessível com conteúdo compatível"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "71345396ffbac38cacbee666d66d472339481712d8470ebd0f99fe68f3eb184f",
+      "url": "https://datavizproject.com/",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada",
+        "página primária acessível com conteúdo compatível"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "71a70a244b0d861f973caa08fc2a0f9644c04cd41ee7806ce1d2d5b3ba455498",
+      "url": "https://xcoax.org/",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "733c36409f57a6d64b4eb49ac945a060082aa3ebc58f68ebc56d21824af048b3",
+      "url": "https://cran.r-project.org/package=fedmatch",
+      "category": "tools",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {
+        "structuredProduct": false,
+        "function": false,
+        "access": false,
+        "license": false
+      },
+      "missing": [
+        "SoftwareApplication/SoftwareProduct na fonte",
+        "função documentada",
+        "acesso/compatibilidade ou oferta",
+        "licença declarada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "7346507aa9807dbed58991a8f5b526795addec49e723c4fed91dc99f66e3c296",
+      "url": "https://saiconference.com/FTC",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "7375c1939a34f89f749fdba9341a0fb1a9b647e50e52b8eb20ccce226af380fd",
+      "url": "https://www.niemanlab.org/2026/09/federal-appeals-court-upholds-thomson-reuters-landmark-ai-copyright-win",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-08T19:21:36.476Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "737895fe0c3b6bc993c79deb146a66c57e5897febd81679b3b7342c8cf8fe96c",
+      "url": "https://www.getdbt.com/dbt-summit",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "73d4a0db8404ae46da3265799325d106c4d30169b88ecfe775f3d406b2967e45",
+      "url": "https://databreakthroughawards.com/",
+      "category": "opportunities",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {
+        "callSignal": true,
+        "deadline": null,
+        "eligibility": false
+      },
+      "missing": [
+        "prazo futuro legível na fonte",
+        "critérios de elegibilidade explícitos"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "749452df2e1692f56f4db2eb391e11c5e95abb8075586a9b5dc494d634814e8f",
+      "url": "https://ibcs.com/annual-conference",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "7521ae0fcb32324071083a237b99ba4318cda03787f3f10b8ff9e6a8506e7a44",
+      "url": "https://scmp.com/infographics",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "7540add9b53dd9fe9e7d6b0ce42f8b600bf2e578a2e1159c7c8ee6fe50d5bbda",
+      "url": "https://www.economist.com/newsletters/off-the-charts",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada",
+        "página primária acessível com conteúdo compatível"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "76d0ca4b6a76e2a88236ae03c305e5de33904cddb0fc52ef06a5b6a1787c802a",
+      "url": "https://cleverfranke.com/",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "78af21568f19303a4a8a13408d2a320114ecb94434cbd18f33517315520693e9",
+      "url": "https://www.visualcinnamon.com/",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "78b7a11294f5e332bf8ed33d08a8d7151c67f4de4588753cb629a48375d6c337",
+      "url": "https://github.com/ropensci/tabulapdf",
+      "category": "tools",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {
+        "structuredProduct": false,
+        "function": false,
+        "access": false,
+        "license": false
+      },
+      "missing": [
+        "SoftwareApplication/SoftwareProduct na fonte",
+        "função documentada",
+        "acesso/compatibilidade ou oferta",
+        "licença declarada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "79b90a44f8fcb00c0fda2ba99275a70dba5d6a5246bc614990a40a0dfdaddd03",
+      "url": "https://coolors.co/",
+      "category": "tools",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {
+        "structuredProduct": false,
+        "function": false,
+        "access": false,
+        "license": false
+      },
+      "missing": [
+        "SoftwareApplication/SoftwareProduct na fonte",
+        "função documentada",
+        "acesso/compatibilidade ou oferta",
+        "licença declarada",
+        "página primária acessível com conteúdo compatível"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "79c035874e3077250acc327858af49220f91d97e5ae9de9cb5f5bd4b2f362a0f",
+      "url": "https://www.agi.org.uk/agi-awards",
+      "category": "opportunities",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {
+        "callSignal": true,
+        "deadline": null,
+        "eligibility": false
+      },
+      "missing": [
+        "prazo futuro legível na fonte",
+        "critérios de elegibilidade explícitos"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "7a55b8874edaedef90987c3502dd86ee6c51faa47b0ba57f934cdd19dbab16d1",
+      "url": "https://www.datawrapper.de/blog/create-good-color-palettes",
+      "category": "tools",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {
+        "structuredProduct": false,
+        "function": false,
+        "access": false,
+        "license": false
+      },
+      "missing": [
+        "SoftwareApplication/SoftwareProduct na fonte",
+        "função documentada",
+        "acesso/compatibilidade ou oferta",
+        "licença declarada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "7a674f5f3ebbeeb8923c0eb474d3dbf00e8dd7a7ed8076fe9c5455d90526ad3f",
+      "url": "https://wan-ifra.org/events/digital-media-awards-worldwide",
+      "category": "opportunities",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {
+        "callSignal": false,
+        "deadline": null,
+        "eligibility": false
+      },
+      "missing": [
+        "evidência textual de chamada",
+        "prazo futuro legível na fonte",
+        "critérios de elegibilidade explícitos"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "7af28718c6a2beeda804afa107d9f6d265733906d48fbb976aa2f8276a3cae75",
+      "url": "https://natureofcode.com/",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "7cbdafe458ca476238453728c46dee46728b4663b81ba0341abed24eca943087",
+      "url": "https://nacis.org/",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "7d5bbb97cfd0fe6746b713d0d118ef74e8de8887e4249c5553f751d4a738dd6a",
+      "url": "https://pudding.cool/process/how-to-make-dope-shit-part-3",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "7e356086eb10bca8974696d81268d768a7c5d6a5d1c0141e25dead3c27b6d67c",
+      "url": "https://offf.barcelona/",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "7e40f3f016fcc672f9a53218a5180485067c666ef0a61c0b9a3acadb1f388a22",
+      "url": "https://pudding.cool/pudding-cup",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "7e5425bc1aab648ed78bcd3997e7f00e324f5ef03a0c0b59d3fdf2d1d14a23c4",
+      "url": "https://pro.arcgis.com/en/pro-app/3.4/arcpy/get-started/what-is-arcpy-.htm",
+      "category": "tools",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {
+        "structuredProduct": false,
+        "function": false,
+        "access": false,
+        "license": false
+      },
+      "missing": [
+        "SoftwareApplication/SoftwareProduct na fonte",
+        "função documentada",
+        "acesso/compatibilidade ou oferta",
+        "licença declarada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "7eaf7c339e67f37837d3093e063d9f476ad961b434159b8f8a66e26d53d59a11",
+      "url": "https://www.niemanlab.org/2026/10/the-wall-street-journals-new-ai-tool-doppler-forecasts-the-issues-that-will-shape-the-midterm-elections",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "7ed11e13fc7c4748b07cf10363669bcf3d40afa224ad47139cf096bf2936dd9c",
+      "url": "https://openvisualizationacademy.org/",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "7f01fdf357bd95fec8d79c027bcec1e0f93d444f5213510c5eb5d59e191aea42",
+      "url": "https://openstreetmap.us/events/state-of-the-map-us/2026",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "7f332a5313ca04b5297cc3a1f368a47f0b3d28fc16284a5cd6840aadd8bbb7fb",
+      "url": "https://schemadesign.com/",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "800f59f218e8df1cb049e548f39cf736afb8a6f8ff0a95120b54e00292fb6325",
+      "url": "https://cogeo.org/",
+      "category": "tools",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {
+        "structuredProduct": false,
+        "function": false,
+        "access": false,
+        "license": false
+      },
+      "missing": [
+        "SoftwareApplication/SoftwareProduct na fonte",
+        "função documentada",
+        "acesso/compatibilidade ou oferta",
+        "licença declarada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "80b3a36bc32b874256e675493db452de9c5e04cb25b98648d340a315a67a3fbd",
+      "url": "https://zebrabi.com/",
+      "category": "tools",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {
+        "structuredProduct": false,
+        "function": false,
+        "access": false,
+        "license": false
+      },
+      "missing": [
+        "SoftwareApplication/SoftwareProduct na fonte",
+        "função documentada",
+        "acesso/compatibilidade ou oferta",
+        "licença declarada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "81362c083eaed51edd71a883ab75ce205ba45e4e5a96858948cfc9362c7b5f15",
+      "url": "https://academy.zebrabi.com/",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "81771b79564bfd74b69920aff9589d4b27fcff41e6c367141022f76b533c007f",
+      "url": "https://www.crummy.com/software/BeautifulSoup",
+      "category": "tools",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {
+        "structuredProduct": false,
+        "function": false,
+        "access": false,
+        "license": false
+      },
+      "missing": [
+        "SoftwareApplication/SoftwareProduct na fonte",
+        "função documentada",
+        "acesso/compatibilidade ou oferta",
+        "licença declarada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "8283d26fce142ac5363b4bd05bb79f6682b2fdec0a76ad859e908dd03a496c83",
+      "url": "https://s2026.siggraph.org/",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "8324999055459130595b56479e6386ce9cae5e324d014aaff5e15561ad1d2d04",
+      "url": "https://datajournalism.com/read/handbook/two",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "859cca020748f7af9ff30e55543a493406b72320c0864064f036228620367060",
+      "url": "https://www.creativeapplications.net/",
+      "category": "tools",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {
+        "structuredProduct": false,
+        "function": false,
+        "access": false,
+        "license": false
+      },
+      "missing": [
+        "SoftwareApplication/SoftwareProduct na fonte",
+        "função documentada",
+        "acesso/compatibilidade ou oferta",
+        "licença declarada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "87d587fb19392bb7866daeeb6b83219beda45f46b058d876c647f27e3e0253d4",
+      "url": "https://recordlinkage.readthedocs.io/",
+      "category": "tools",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {
+        "structuredProduct": false,
+        "function": false,
+        "access": false,
+        "license": false
+      },
+      "missing": [
+        "SoftwareApplication/SoftwareProduct na fonte",
+        "função documentada",
+        "acesso/compatibilidade ou oferta",
+        "licença declarada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "893c54e9a4ea67ecf19200a9e9cdc22391eb6951020d50c2760b6b7c451ded01",
+      "url": "https://themarkup.org/series/blueprints",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "8960df5ea200923e3c4c3cce81c5d0020bfe7228a43a2198cb1fb4679fd2f493",
+      "url": "https://playwright.dev/",
+      "category": "tools",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {
+        "structuredProduct": false,
+        "function": false,
+        "access": false,
+        "license": false
+      },
+      "missing": [
+        "SoftwareApplication/SoftwareProduct na fonte",
+        "função documentada",
+        "acesso/compatibilidade ou oferta",
+        "licença declarada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "8a098a7a93f7eb00a6420d2313c73ea55d23f32edea7364e8a9613c46ea21a67",
+      "url": "https://theconversation.com/us/pitching",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada",
+        "página primária acessível com conteúdo compatível"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "8acc0951ade6f2ae60b491bf4f1e45c8d9b2520f105e27d556bffbe97c2e8aa5",
+      "url": "https://www.datawrapper.de/blog/category/datavis-dos-and-donts",
+      "category": "tools",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {
+        "structuredProduct": false,
+        "function": false,
+        "access": false,
+        "license": false
+      },
+      "missing": [
+        "SoftwareApplication/SoftwareProduct na fonte",
+        "função documentada",
+        "acesso/compatibilidade ou oferta",
+        "licença declarada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "8b9f567a078562560a07a047abea38055ed3442b42bd3b7f621746ba406ccb59",
+      "url": "https://interactivethings.com/",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "8bd915e862f18d8b768ebd9d76bcc6bdf3b230e2c5477918441f7ab8ece65466",
+      "url": "https://stamen.com/",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "8c69a7bafba7ddd1615d7cb77a6d643e3f283bf08d2bf8f6f74bb96e26642a66",
+      "url": "https://pandas.pydata.org/",
+      "category": "tools",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {
+        "structuredProduct": false,
+        "function": false,
+        "access": false,
+        "license": false
+      },
+      "missing": [
+        "SoftwareApplication/SoftwareProduct na fonte",
+        "função documentada",
+        "acesso/compatibilidade ou oferta",
+        "licença declarada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "8ccdce543913e2af137941b13f03b4f34e9a544dfc8befeff78dafc28b85ebf5",
+      "url": "https://www.powerui.com/",
+      "category": "tools",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {
+        "structuredProduct": true,
+        "function": true,
+        "access": true,
+        "license": false
+      },
+      "missing": [
+        "licença declarada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "8eb764664a4aabaceebcefc8ed482a2309132e4cfdbc1e02794d0976854dd9af",
+      "url": "https://www.youtube.com/channel/UCDvDHr5CYKBrbwaqRs04LPw",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "9074bd0330d7cf1e7b676cd5fa22eacf03a786e13009162ac6f99e121dca4cf6",
+      "url": "https://quanteda.io/",
+      "category": "tools",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {
+        "structuredProduct": false,
+        "function": false,
+        "access": false,
+        "license": false
+      },
+      "missing": [
+        "SoftwareApplication/SoftwareProduct na fonte",
+        "função documentada",
+        "acesso/compatibilidade ou oferta",
+        "licença declarada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "90e425e01a4262623506c4e1117ed70ce75c7c28ff791250d1209ec300ccd7a6",
+      "url": "https://www.niemanlab.org/2026/10/legal-experts-warn-metas-new-terms-still-grant-broad-scraping-permissions-despite-language-changes",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "91679ce709752a9f799a25e7802b83c674ee244fb8322380678de206ffd52650",
+      "url": "https://propublica.org/data",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "91ca2c9bd789712abb4e5853d76cd27a174947356e69a398687d9d435489844a",
+      "url": "https://geospatialworldforum.org/",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada",
+        "página primária acessível com conteúdo compatível"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "923498027410156bdb290caa6143c5f64138c7d4b3df2b6b22ae27402d1578db",
+      "url": "https://www.adobe.com/products/illustrator.html",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "9398ea504b077e4971ce256f1c061ea40fb6f72d59e28df478d1bc22f04d46a4",
+      "url": "https://rvest.tidyverse.org/",
+      "category": "tools",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {
+        "structuredProduct": false,
+        "function": false,
+        "access": false,
+        "license": false
+      },
+      "missing": [
+        "SoftwareApplication/SoftwareProduct na fonte",
+        "função documentada",
+        "acesso/compatibilidade ou oferta",
+        "licença declarada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "955dbc2789044dd0e467ca81c46d61ae43f48509d917c0efddbdf349925721b7",
+      "url": "https://multimedia.scmp.com/culture/article/SCMP-printed-graphics-memory",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "9630490488e6ecff1428878b8ae4725c94565cc0e233acbab23e52f35b95aaa5",
+      "url": "https://www.journalists.org/conference",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "96d56224d321d3e9e913cf723207b982804e9fa9987ccb8f3e4b2dd0babdb829",
+      "url": "https://gartner.com/en/conferences/emea/data-analytics-germany",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada",
+        "página primária acessível com conteúdo compatível"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "97abedd979d853fef5304dc41c82b1d0c13475a652e6f15cb2ed20ee24b3ecf0",
+      "url": "https://www.nytimes.com/section/upshot",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada",
+        "página primária acessível com conteúdo compatível"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "983a4e6c4c0f7cb8007e1b900144a6868407463f1b51fa259caef87c4f40ba31",
+      "url": "https://geoawesomeness.com/",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "996eeb96fa09736824430c957c9d6f37c83cf649c26e93b9c0eea7cd1733228c",
+      "url": "https://www.storytellingwithdata.com/podcast/feedback",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "99f40b0318625ab4e53aed4536a5da67e937f4dde00247d65114d2e503bfbd20",
+      "url": "https://www.niemanlab.org/2026/10/publishers-pressure-meta-to-nix-new-terms-that-would-let-it-scrape-their-websites",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-08T19:49:57.845Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "9ae0f1ae5d0ce9b9c2030699abe0b7f8df2e655be8be3097c31aeda05170d784",
+      "url": "https://spatialreserves.wordpress.com/",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "9b2e68bf8d438642a38b49fa5783ef6b6854a6863bbc9ff7fc0af7eb0d19ec0a",
+      "url": "https://cartography.org.uk/",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "9b414a5f2ba33bc29cd484711b0e604cae2ddaf11b7fd386623240ec2f535381",
+      "url": "https://research.isg-one.com/market-perspectives/tag/data",
+      "category": "opportunities",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {
+        "callSignal": true,
+        "deadline": null,
+        "eligibility": false
+      },
+      "missing": [
+        "prazo futuro legível na fonte",
+        "critérios de elegibilidade explícitos"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "9b677b28eb7e1e068945f53532915ec267b799c870d851437bb86a2088f630cd",
+      "url": "https://www.niemanlab.org/2026/10/two-out-of-five-americans-are-regularly-getting-their-news-on-facebook",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-08T19:49:57.845Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "9bd8ddc7e54f671a719f88ecf05587513be9dd0497ed1c9a4fe6826af1349dc1",
+      "url": "https://lighthousereports.com/",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "9c5ba3482c99afb86168cf876ff4d77f446be978492df7971a39f1cff224c425",
+      "url": "https://snd.org/",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "9c6858f503af6d3b6409b0f7da845ec1354b326dd0fdb270bc8573daa39a7523",
+      "url": "https://www.tableau.com/iron-viz",
+      "category": "opportunities",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {
+        "callSignal": false,
+        "deadline": null,
+        "eligibility": false
+      },
+      "missing": [
+        "evidência textual de chamada",
+        "prazo futuro legível na fonte",
+        "critérios de elegibilidade explícitos"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "9d0d53cbfd221c3c7baeb8ce92da27644b3bf4f76ff34f899cc26c70ed165d6d",
+      "url": "https://hotosm.org/",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-08T19:56:18.624Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "9d3438920fb5cafac0c653850f9bfa1cebb4700f1f510a239be7aa9a81d40d03",
+      "url": "https://www.instagram.com/datavizsociety",
+      "category": "uncategorized",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {},
+      "missing": [
+        "categoria específica confirmada",
+        "página primária acessível com conteúdo compatível"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "9d6e471600b94bdf994613306625b8122eaddff5c19df28363ed44c4f91406d1",
+      "url": "https://segment-anything.com/",
+      "category": "tools",
+      "checkedAt": "2026-11-09T01:53:39.045Z",
+      "checks": {
+        "structuredProduct": false,
+        "function": false,
+        "access": false,
+        "license": false
+      },
+      "missing": [
+        "SoftwareApplication/SoftwareProduct na fonte",
+        "função documentada",
+        "acesso/compatibilidade ou oferta",
+        "licença declarada"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    }
+  ]
+}
