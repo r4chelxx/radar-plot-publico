@@ -31,7 +31,7 @@ on:
     - cron: "0 14 * * *"
     - cron: "31 12 * * *"
     - cron: "11 17 * * *"
-    - cron: "41 20 * * *"
+    - cron: "41 23 * * *"
 concurrency:
   group: radar-editorial-publish
   cancel-in-progress: false
@@ -195,7 +195,7 @@ jobs:
         run: node scripts/check-daily-publication-target.js
 
       - name: Open or update daily shortfall issue
-        if: (github.event_name == 'workflow_dispatch' || (github.event_name == 'schedule' && github.event.schedule == '41 20 * * *')) && steps.daily-target.outputs.target_met != 'true'
+        if: (github.event_name == 'workflow_dispatch' || (github.event_name == 'schedule' && github.event.schedule == '41 23 * * *')) && steps.daily-target.outputs.target_met != 'true'
         env:
           GH_TOKEN: ${{ github.token }}
         shell: bash
@@ -210,7 +210,7 @@ jobs:
             gh issue create --title "$title" --body "$body"
           fi
       - name: Close resolved daily shortfall issue
-        if: (github.event_name == 'workflow_dispatch' || (github.event_name == 'schedule' && github.event.schedule == '41 20 * * *')) && steps.daily-target.outputs.target_met == 'true'
+        if: (github.event_name == 'workflow_dispatch' || (github.event_name == 'schedule' && github.event.schedule == '41 23 * * *')) && steps.daily-target.outputs.target_met == 'true'
         env:
           GH_TOKEN: ${{ github.token }}
         shell: bash
@@ -227,7 +227,7 @@ jobs:
         run: node scripts/verify-published-records.js
 
       - name: Fail final daily run when cumulative publication target is unmet
-        if: (github.event_name == 'workflow_dispatch' || (github.event_name == 'schedule' && github.event.schedule == '41 20 * * *')) && steps.daily-target.outputs.target_met != 'true'
+        if: (github.event_name == 'workflow_dispatch' || (github.event_name == 'schedule' && github.event.schedule == '41 23 * * *')) && steps.daily-target.outputs.target_met != 'true'
         run: |
           echo "PUBLICATION_FAILED: cumulative daily target of two verified records per category was not met by the final Salvador window." >> "$GITHUB_STEP_SUMMARY"
           exit 1
