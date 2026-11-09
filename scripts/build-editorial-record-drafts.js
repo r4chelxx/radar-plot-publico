@@ -50,7 +50,7 @@ function buildDrafts(queue,review,generatedAt=new Date().toISOString()){
    record.url=url;record.description=null;
   }else{
    const data=structured(audit,/softwareapplication|softwareproduct|software/i);
-   const titleKind=pageTitle.match(/(?:—|–|-)\s*(.+)$/)?.[1]?.split(/\s+\\|\s+/)[0]?.trim()||null;
+   const titleKind=pageTitle.split(/[-—–]/).slice(1).join(' ').trim()||null;
    const sourceDescription=clean(data.description)||sentence(text,/\b(?:tool|software|application|library|platform)\b/i);
    record.name=pageTitle;record.kind=clean(data.applicationCategory||titleKind)||null;record.url=url;
    record.desc=sourceDescription?sourceDescription+' Source note: the captured page does not state detailed usage limitations; consult the official documentation and license before use.':null;
