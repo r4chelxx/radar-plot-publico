@@ -31,6 +31,9 @@ on:
       - 'scripts/merge-editorial-queue.js'
       - 'scripts/audit-editorial-queue.js'
       - 'scripts/review-editorial-evidence.js'
+      - 'scripts/build-editorial-record-drafts.js'
+      - 'scripts/validate-editorial-record-drafts.js'
+      - 'tests/publication-drafts.test.js'
       - 'tests/review-editorial-evidence.test.js'
       - 'scripts/editorial-page-evidence.js'
       - 'tests/editorial-page-evidence.test.js'
@@ -85,11 +88,15 @@ jobs:
           node --check scripts/discover-dvs-public.mjs
           node --check scripts/audit-editorial-queue.js
           node --check scripts/review-editorial-evidence.js
+          node --check scripts/build-editorial-record-drafts.js
+          node --check scripts/validate-editorial-record-drafts.js
           node --check scripts/editorial-page-evidence.js
       - name: Test primary-source evidence extraction
         run: node tests/editorial-page-evidence.test.js
       - name: Test category-specific editorial evidence review
         run: node tests/review-editorial-evidence.test.js
+      - name: Test evidence-based publication record drafts
+        run: node --test tests/publication-drafts.test.js
       - name: Test daily Gmail and LinkedIn collector safeguards
         run: node --test tests/daily-external-discovery.test.js
       - name: Test targeted opportunity discovery
@@ -239,6 +246,8 @@ jobs:
           cp scripts/audit-editorial-queue.js /tmp/audit-editorial-queue.js
           cp scripts/editorial-page-evidence.js /tmp/editorial-page-evidence.js
           cp scripts/review-editorial-evidence.js /tmp/review-editorial-evidence.js
+          cp scripts/build-editorial-record-drafts.js /tmp/build-editorial-record-drafts.js
+          cp scripts/validate-editorial-record-drafts.js /tmp/validate-editorial-record-drafts.js
           cp intake/historical-decisions.json /tmp/radar-historical-decisions.json
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -251,11 +260,15 @@ jobs:
           node /tmp/radar-merge-editorial-queue.js /tmp/radar-discovery-quality.json intake/editorial-queue.json state/lead-history.json /tmp/radar-historical-decisions.json
           node /tmp/audit-editorial-queue.js intake/editorial-queue.json intake/editorial-queue-audit.json
           node /tmp/review-editorial-evidence.js intake/editorial-queue.json intake/editorial-evidence-review.json
+          node /tmp/build-editorial-record-drafts.js intake/editorial-queue.json intake/editorial-evidence-review.json intake/publication-drafts.json
+          node /tmp/validate-editorial-record-drafts.js intake/editorial-queue.json intake/editorial-evidence-review.json intake/publication-drafts.json
+          node -e 'const fs=require("fs");const r=require("./intake/publication-drafts.json");const p=process.env.GITHUB_STEP_SUMMARY;fs.appendFileSync(p,["### Fichas editoriais preliminares",`Rascunhos com evidência suficiente: ${r.summary.drafts}`,`Por categoria: ${JSON.stringify(r.summary.byCategory)}`,`Autorizadas para publicação: ${r.summary.publicationReady}`,"Cada ficha mantém lacunas explícitas e não equivale a aprovação editorial."].join("\\n")+"\\n")'
           if [ -f /tmp/radar-gmail-backfill-cursor.json ]; then
             mkdir -p state
             cp /tmp/radar-gmail-backfill-cursor.json state/gmail-backfill-cursor.json
           fi
-          git add intake/editorial-queue.json intake/editorial-queue-audit.json intake/editorial-evidence-review.json intake/editorial-evidence-review.json state/gmail-backfill-cursor.json 2>/dev/null || git add intake/editorial-queue.json intake/editorial-queue-audit.json
+          git add intake/editorial-queue.json intake/editorial-queue-audit.json intake/editorial-evidence-review.json intake/publication-drafts.json
+          if [ -f state/gmail-backfill-cursor.json ]; then git add state/gmail-backfill-cursor.json; fi
           if ! git diff --cached --quiet; then
             git commit -m "Editorial: persist pending public candidates [skip ci]"
             git push origin radar-state
@@ -336,6 +349,7 @@ jobs:
             intake/backlog-triage-report.json
             intake/editorial-queue-audit.json
             intake/editorial-evidence-review.json
+            intake/publication-drafts.json
       - name: Require healthy Gmail source on scheduled/manual runs
         if: github.event_name != 'pull_request'
         continue-on-error: true
