@@ -8,8 +8,7 @@ const reportPath=process.argv[3]||'intake/editorial-queue-audit.json';
 const maxItems=Math.min(250,Math.max(1,Number(process.env.RADAR_QUEUE_AUDIT_LIMIT||150)));
 const maxAgeDays=Math.max(1,Number(process.env.RADAR_QUEUE_AUDIT_MAX_AGE_DAYS||7));
 const now=new Date(),cutoff=now.getTime()-maxAgeDays*86400000;
-const queue=JSON.parse(fs.readFileSync(queuePath,'utf8'));
-if(!Array.isArray(queue.candidates))throw Error('Queue requires candidates[]');
+
 const pending=queue.candidates.filter(x=>x.status==='pending'&&/^https:\/\//i.test(x.url||''));
 const dueCandidates=pending.filter(x=>!x.audit?.checkedAt||Date.parse(x.audit.checkedAt)<cutoff)
  .sort((a,b)=>String(a.firstSeen||'').localeCompare(String(b.firstSeen||'')));
@@ -60,6 +59,8 @@ async function inspect(item){
  finally{clearTimeout(timer)}
 }
 async function main(){
+ const queue=JSON.parse(fs.readFileSync(queuePath,'utf8'));
+ if(!Array.isArray(queue.candidates))throw Error('Queue requires candidates[]');
  let cursor=0;const workers=Array.from({length:8},async()=>{while(cursor<due.length){const i=cursor++;queue.candidates[queue.candidates.findIndex(x=>x.id===due[i].id)]=await inspect(due[i])}});
  await Promise.all(workers);
  const audited=due.map(x=>queue.candidates.find(y=>y.id===x.id));
