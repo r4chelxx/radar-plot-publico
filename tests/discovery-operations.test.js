@@ -46,7 +46,7 @@ test('summary marks editorial queue metrics unavailable instead of zero when sna
   const summaryPath=path.join(root,'summary.md');
   cp.execFileSync(process.execPath,[path.resolve('scripts/summarize-discovery.js')],{cwd:root,encoding:'utf8',env:{...process.env,GITHUB_STEP_SUMMARY:summaryPath}});
   const output=fs.readFileSync(summaryPath,'utf8');
-  assert.match(output,/Pendentes: indisponível \\(snapshot não carregado\\)/);
+  assert.match(output,/Pendentes: indisponível \(snapshot não carregado\)/);
   assert.match(output,/fila persistida não foi carregada/);
  }finally{fs.rmSync(root,{recursive:true,force:true})}
 });
