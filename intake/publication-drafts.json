@@ -1,0 +1,194 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-09T18:56:04.016Z",
+  "sourceQueueUpdatedAt": "2026-11-09T18:55:37.574Z",
+  "policy": "Drafts only; evidence completeness is not editorial approval or publication authorization.",
+  "summary": {
+    "eligibleForDrafting": 2,
+    "drafts": 2,
+    "byCategory": {
+      "opportunities": 0,
+      "datasets": 0,
+      "tools": 2
+    },
+    "publicationReady": 0
+  },
+  "drafts": [
+    {
+      "schemaVersion": 1,
+      "id": "8c69a7bafba7ddd1615d7cb77a6d643e3f283bf08d2bf8f6f74bb96e26642a66",
+      "category": "tools",
+      "status": "draft_only",
+      "publicationReady": false,
+      "source": {
+        "url": "https://pandas.pydata.org/",
+        "discoveryProviders": [
+          "Data Visualization Society"
+        ],
+        "pageTitle": "pandas - Python Data Analysis Library",
+        "checkedAt": "2026-11-09T18:55:37.574Z",
+        "httpStatus": 200,
+        "contentType": "text/html; charset=utf-8"
+      },
+      "evidence": {
+        "checks": {
+          "productSignal": true,
+          "function": true,
+          "access": true,
+          "license": false,
+          "licenseStatus": "not stated in captured source"
+        },
+        "sourceExcerpt": "pandas - Python Data Analysis Library pandas pandas is a fast, powerful, flexible and easy to use open source data analysis and manipulation tool, built on top of the Python programming language. Install pandas now! Getting started Install pandas Getting started Try pandas online Documentation User guide API reference Contributing to pandas Release notes Community About pandas Ask a question Ecosystem With the support of: The full list of companies supporting pandas is available in the sponsors page . Latest version: 3.1.1 What's new in 3.1.1 Release date: Nov 04, 2026 Documentation (web) Download source code Follow us Recommended books Previous versions 3.0.6 (Sep 17, 2026) changelog | docs | code 2.3.3 (Sep 29, 2025) changelog",
+        "structuredData": [],
+        "resourceLinks": [
+          {
+            "url": "https://pandas.pydata.org/docs/reference/index.html",
+            "label": "API reference"
+          },
+          {
+            "url": "https://github.com/pandas-dev/pandas/releases/download/v3.1.1/pandas-3.1.1.tar.gz",
+            "label": "Download source code"
+          },
+          {
+            "url": "https://github.com/pandas-dev/pandas/releases/download/v3.0.6/pandas-3.0.6.tar.gz",
+            "label": "code"
+          },
+          {
+            "url": "https://github.com/pandas-dev/pandas/releases/download/v2.3.3/pandas-2.3.3.tar.gz",
+            "label": "code"
+          },
+          {
+            "url": "https://github.com/pandas-dev/pandas/releases/download/v2.2.3/pandas-2.2.3.tar.gz",
+            "label": "code"
+          },
+          {
+            "url": "https://github.com/pandas-dev/pandas/releases/download/v2.1.4/pandas-2.1.4.tar.gz",
+            "label": "code"
+          },
+          {
+            "url": "https://github.com/pandas-dev/pandas/releases/download/v2.0.3/pandas-2.0.3.tar.gz",
+            "label": "code"
+          }
+        ]
+      },
+      "recordDraft": {
+        "id": "8c69a7bafba7ddd1615d7cb77a6d643e3f283bf08d2bf8f6f74bb96e26642a66",
+        "name": "pandas - Python Data Analysis Library",
+        "kind": null,
+        "url": "https://pandas.pydata.org/",
+        "desc": null
+      },
+      "missingFields": [
+        "kind",
+        "desc"
+      ],
+      "reviewDecision": "evidence_complete_for_record_draft",
+      "note": "Ficha preliminar baseada no conteúdo capturado da página. Campos ausentes permanecem vazios; esta ficha não autoriza publicação."
+    },
+    {
+      "schemaVersion": 1,
+      "id": "8ccdce543913e2af137941b13f03b4f34e9a544dfc8befeff78dafc28b85ebf5",
+      "category": "tools",
+      "status": "draft_only",
+      "publicationReady": false,
+      "source": {
+        "url": "https://www.powerui.com/",
+        "discoveryProviders": [
+          "Data Visualization Society"
+        ],
+        "pageTitle": "Power BI Theme Generator - Create Professional Themes in Seconds | Power UI | Power UI",
+        "checkedAt": "2026-11-09T18:55:37.574Z",
+        "httpStatus": 200,
+        "contentType": "text/html; charset=utf-8"
+      },
+      "evidence": {
+        "checks": {
+          "productSignal": true,
+          "function": true,
+          "access": true,
+          "license": false,
+          "licenseStatus": "not stated in captured source"
+        },
+        "sourceExcerpt": "Power BI Theme Generator - Create Professional Themes in Seconds | Power UI | Power UI New Custom design systems: your own tokens Power BI themes, built like a design system Set colours, type and spacing once as tokens. Power UI writes the theme file Power BI Desktop loads and shows it on a real Power BI report while you work: by hand, with the AI assistant, or from your coding agent. Start Free Watch demo Free plan, no card Pro and Team: pay once Export tested against Microsoft's theme schema Studio AI Assistant Your Agent powerui.com/studio Data colors Radius 8px Revenue $4.2M +12.4% Orders 18.4K +8.1% Margin 38.2% +2.3% Revenue by region Mix Trend Trusted by teams at Real reports What a Power UI theme looks like in Power BI Five reports built in Power BI Desktop with Power UI themes. Screenshots, not mockups; the data is sample data. Lumon Enterprises Orbital Solutions Talisker Storm Logistics Global Health & Safety Monitor Visit the US National Parks Lumon Enterprises · Power BI Desktop Open full size On the page Revenue by segment against last year, a share donut, a customer table with flags and a daily sales line. The theme The Power UI default palette, Segoe UI titles at 600, hairline borders on every card. From customers What people who ship reports with it say “ Power UI enables me to quickly deliver polished, app-like reports, saving me a tremendous amount of time and effort. Now, I don't need to spend hours tweaking designs or second-guessing color choices; everything I need is right there. ” Kimberlee Jelly Product Manager , Microsoft “ A huge thank you for Power UI! It's been critical to reducing the time it takes me to make high-quality Power BI visuals. Power UI has been key in helping me build up my consulting company. ” Mitchell Telatnik Founder , SecureMetrics.io How it works From design tokens to the file Power BI loads Power UI keeps your choices as tokens and writes them into a Power BI report theme. Here is the default theme, traced through. The values are the real export. 1 Tokens a Data palette · Power UI b @text-primary slate 12 · #1C2024 Titles: Segoe UI, weight 600 c @border-primary · @radius-default slate 7 · #CDCED6 · md = 6 px Tokens are named once and reused. Change one and every visual that uses it follows. 2 theme.json { \"name\" : \"Power UI default\" , a \"dataColors\" : [ \"#2568E8\" , \"#8338EC\" , \"#FF006E\" , \"#F95608\" , \"#FFBE0C\" , … ], \"textClasses\" : { \"title\" : { b \"color\" : \"#1c2024\" , \"fontWeight\" : \"600\" , \"fontFace\" : \"Segoe UI\" } }, \"visualStyles\" : { \"*\" : { \"*\" : { c \"border\" : [ { \"show\" : true , \"radius\" : 6 , \"color\" : { \"solid\" : { \"color\" : \"#cdced6\" } } }] } }, … 24 visual types } } theme.json 156 KB passes Microsoft's reportThemeSchema 2.152 3 In the report c Sales by region b This year, by segment Commercial Consumer Public a North South East West a Series colours, in palette order b Visual title: colour, weight, font c Border colour and 6 px corners 01 Design it In the studio by hand, by asking the AI assistant, or from your coding agent over MCP in Claude Code or Cursor. 02 Check it on a real report The preview is an embedded Power BI report, so what you see is what Power BI renders, not an imitation. 03 Apply it Export, then in Power BI Desktop choose View → Themes → Browse for themes . Or let the MCP write it straight into your .pbip. New · Custom design systems Your design system, not ours Power UI's tokens are now yours to define. Change a token once and every visual that uses it follows: the preview, the export, your whole team's reports. Design tokens Bring the brand book, not a screenshot of it Start from the Power UI default and change only what's yours: surfaces, text, borders, brand and state colours, corner radius, spacing, the type scale. Add tokens of your own, link them together the way real design systems do, and watch the report re-skin as you type. Change any token, light and dark, or add your own like @surface-card Every visual that uses a token follows, in the",
+        "structuredData": [
+          {
+            "@type": "Organization",
+            "name": "Power UI",
+            "description": "Professional Power BI theme generator and design system",
+            "url": "https://powerui.com"
+          },
+          {
+            "@type": "SoftwareApplication",
+            "name": "Power UI",
+            "description": "Professional Power BI theme generator with visual editing, real-time preview, and comprehensive design system",
+            "url": "https://www.powerui.com",
+            "datePublished": "2023-01-01",
+            "applicationCategory": "DesignApplication",
+            "operatingSystem": "Web",
+            "featureList": [
+              "Visual theme editor",
+              "Real-time Power BI preview",
+              "Light and dark mode support",
+              "Token-based design system",
+              "1500+ icon library",
+              "AI theme assistant",
+              "MCP server for Claude and other AI agents",
+              "Power BI Desktop companion"
+            ]
+          },
+          {
+            "@type": "FAQPage"
+          },
+          {
+            "@type": "SoftwareApplication",
+            "name": "Power UI",
+            "description": "Professional Power BI theme generator with visual editor, live preview, and 1500+ icons",
+            "url": "https://www.powerui.com",
+            "datePublished": "2023-01-15",
+            "applicationCategory": "DeveloperApplication",
+            "operatingSystem": "Web",
+            "offers": [
+              {
+                "@type": "Offer",
+                "name": "Free"
+              },
+              {
+                "@type": "AggregateOffer",
+                "name": "Pro Lifetime",
+                "url": "https://www.powerui.com/pricing"
+              },
+              {
+                "@type": "Offer",
+                "name": "Team Lifetime",
+                "url": "https://www.powerui.com/pricing"
+              }
+            ],
+            "featureList": [
+              "Visual theme editor",
+              "Live Power BI preview",
+              "1500+ professional icons",
+              "Dark/light mode support",
+              "Team collaboration",
+              "Export to JSON",
+              "Import existing themes",
+              "Accessibility features"
+            ]
+          }
+        ],
+        "resourceLinks": []
+      },
+      "recordDraft": {
+        "id": "8ccdce543913e2af137941b13f03b4f34e9a544dfc8befeff78dafc28b85ebf5",
+        "name": "Power BI Theme Generator - Create Professional Themes in Seconds | Power UI | Power UI",
+        "kind": "DesignApplication",
+        "url": "https://www.powerui.com/",
+        "desc": null
+      },
+      "missingFields": [
+        "desc"
+      ],
+      "reviewDecision": "evidence_complete_for_record_draft",
+      "note": "Ficha preliminar baseada no conteúdo capturado da página. Campos ausentes permanecem vazios; esta ficha não autoriza publicação."
+    }
+  ]
+}
