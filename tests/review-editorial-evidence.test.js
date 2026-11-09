@@ -4,7 +4,7 @@ const assert=require('node:assert/strict'),fs=require('node:fs'),os=require('nod
 const root=fs.mkdtempSync(path.join(os.tmpdir(),'radar-evidence-review-'));
 try{
  const queue=path.join(root,'queue.json'),out=path.join(root,'out.json');
- const item=(id,category,audit)=>({id,url:'https://example.org/'+id,category,status:'pending',audit:{httpStatus:200,contentType:'text/html',checkedAt:'2026-11-09T00:00:00Z',...audit}});
+ const item=(id,category,audit,url)=>({id,url:url||'https://example.org/'+id,category,status:'pending',audit:{httpStatus:200,contentType:'text/html',checkedAt:'2026-11-09T00:00:00Z',...audit}});
  const q={candidates:[
  item('grant','opportunities',{evidenceText:'Grant applications close 2099-12-31. Eligibility: who can apply is limited to journalists.',structuredData:[]}),
  item('fake-grant','opportunities',{evidenceText:'Welcome to our news blog about awards.',structuredData:[]}),
@@ -13,7 +13,10 @@ try{
  item('dataset-text-only','datasets',{pageTitle:'Open Data Catalog',evidenceText:'Download municipal CSV files covering 2020–2025. API access and usage terms are documented.',structuredData:[]}),
  item('uncategorized-call','uncategorized',{pageTitle:'Global Reporting Fellowship',evidenceText:'Applications for this fellowship close 31/12/2099. Eligibility: open to journalists worldwide.',structuredData:[]}),
  item('event-false-positive','uncategorized',{pageTitle:'Data Journalism Conference',evidenceText:'Conference awards ceremony and event registration.',structuredData:[]}),
- item('unrelated-date','opportunities',{pageTitle:'Global Reporting Fellowship',evidenceText:'The fellowship supports journalists. Deadline details will be announced soon. The program celebrates its 2099 anniversary. Eligibility: open to journalists worldwide.',structuredData:[]})
+ item('unrelated-date','opportunities',{pageTitle:'Global Reporting Fellowship',evidenceText:'The fellowship supports journalists. Deadline details will be announced soon. The program celebrates its 2099 anniversary. Eligibility: open to journalists worldwide.',structuredData:[]}),
+ item('tool-guide','tools',{pageTitle:'Chart types guide',evidenceText:'A guide to chart software. Create interactive charts and dashboards. Free access.',structuredData:[]},'https://datawrapper.de/blog/chart-types-guide'),
+ item('tool-newsroom','tools',{pageTitle:'The Markup',evidenceText:'Our newsroom uses tools for investigations and supports data visualization. Free resources are available.',structuredData:[]},'https://themarkup.org/'),
+ item('tool-launch-article','uncategorized',{pageTitle:'Press Gazette launches a tool for newsrooms',evidenceText:'The tool provides data visualization and lets users create interactive charts. Free access is available.',structuredData:[]},'https://pressgazette.example/2026/10/02/press-gazette-launches-a-tool')
  ]};
  fs.writeFileSync(queue,JSON.stringify(q));
  cp.execFileSync(process.execPath,[path.resolve('scripts/review-editorial-evidence.js'),queue,out],{encoding:'utf8'});
@@ -29,6 +32,7 @@ try{
  assert.equal(result.records.find(x=>x.id==='uncategorized-call').decision,'evidence_complete_for_record_draft');
  assert.equal(result.records.find(x=>x.id==='event-false-positive').category,'uncategorized');
  assert.equal(result.records.find(x=>x.id==='unrelated-date').decision,'pending_more_evidence');
+ for(const id of ['tool-guide','tool-newsroom','tool-launch-article']){assert.equal(result.records.find(x=>x.id===id).category,'uncategorized');assert.equal(result.records.find(x=>x.id===id).decision,'pending_more_evidence');}
  assert(result.records.every(x=>x.publicationReady===false));
  console.log('Category evidence review regressions passed');
 }finally{fs.rmSync(root,{recursive:true,force:true})}

@@ -8,12 +8,23 @@ const outPath=process.argv[3]||'intake/editorial-evidence-review.json';
 const q=JSON.parse(fs.readFileSync(queuePath,'utf8'));
 const today=new Intl.DateTimeFormat('en-CA',{timeZone:'America/Bahia',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());
 const flat=v=>Array.isArray(v)?v.map(flat).join(' '):v&&typeof v==='object'?Object.values(v).map(flat).join(' '):String(v||'');
-const excluded=/\b(conference|webinar|festival|newsletter|podcast|blog post|news article|event|symposium|perfil|profile|portfolio|directory|diretório)\b/i;
+const excluded=/\b(conference|webinar|festival|newsletter|podcast|blog post|news article|event|symposium|perfil|profile|portfolio|directory|diretório|tutorial|guide|how[- ]to|call for pitches|press release|article)\b/i;
+const excludedPath=/\/(?:blog|news|press|articles?|posts?|podcasts?|pitch|process|tutorials?|guides?|learn|courses?|events?|conference|community|about|people|team|authors?|profiles?|jobs?|docs|20\d{2}\/(?:0?[1-9]|1[0-2]))(?:\/|$)/i;
+function toolIdentity(c,title,docs){
+ const structured=docs.some(x=>/softwareapplication|softwareproduct/.test(flat(x['@type']).toLowerCase()));
+ const surface=[title,String(c.title||''),String(c.url||'').split('/').filter(Boolean).slice(-1)[0]||''].join(' ');
+ return structured||(!excluded.test(surface)&&/(software|tool|platform|application|library|framework|plugin|extension|ferramenta|plataforma|aplicativo|biblioteca)/i.test(surface));
+}
+function toolFunction(text,docs){
+ const structured=docs.some(x=>{const type=flat(x['@type']).toLowerCase();return /softwareapplication|softwareproduct/.test(type)&&(x.featureList||x.applicationCategory||x.description)});
+ return structured||/(data visualization|visuali[sz]a(?:tion|ção) de dados|create (?:interactive )?(?:maps|charts|dashboards)|build (?:interactive )?(?:maps|charts|dashboards)|mapping software|geospatial analysis|spatial analysis|web scraping|scrape (?:websites|data)|data cleaning|data processing|data analysis|text analysis|network analysis|mapeamento interativo|análise geoespacial|visualização de dados|raspagem de dados|permite criar (?:mapas|gráficos|painéis)|lets users create|enables users to create)/i.test(text);
+}
 function inferCategory(c,text,title){
- const supplied=['opportunities','tools','datasets'].includes(c.category)?c.category:null;
- if(supplied)return supplied;
- if(excluded.test(title))return 'uncategorized';
  const url=String(c.url||'').toLowerCase();
+ if(excluded.test(title+' '+String(c.title||''))||excludedPath.test(new URL(url||'https://invalid.local').pathname))return 'uncategorized';
+ const supplied=['opportunities','tools','datasets'].includes(c.category)?c.category:null;
+ if(supplied==='tools')return toolIdentity(c,title,c.audit?.structuredData||[])?'tools':'uncategorized';
+ if(supplied)return supplied;
  const opportunity=/(grant|fellowship|funding|award|prize|scholarship|bolsa|edital|call for applications|apply now)/i.test(title+' '+text);
  const deadline=/(deadline|closing date|close(?:s|d)?\s+(?:on|by|\d)|applications?[^.!?]{0,60}clos(?:e|es|ed)|prazo|inscri[cç][aã]o(?:s)?[^.!?]{0,50}até)/i.test(text);
  const eligibility=/(eligib|who can apply|open to|elegibilidade|podem se candidatar)/i.test(text);
@@ -21,9 +32,9 @@ function inferCategory(c,text,title){
  const dataset=/(dataset|data catalog|open data|dados abertos|base de dados|microdata|microdados|data portal)/i.test(title+' '+text);
  const dataAccess=/(download|\.csv|\.json|\.zip|api endpoint|api access|bulk data|baixar|export data)/i.test(text+' '+url);
  if(dataset&&dataAccess)return 'datasets';
- const tool=/(software|tool|platform|application|library|framework|ferramenta|plataforma|biblioteca)/i.test(title+' '+text);
- const productFunction=/(visuali[sz]|map|chart|analy[sz]|scrap|geospatial|data processing|ferramenta|permite|enables|supports)/i.test(text);
- if(tool&&productFunction&& !/\/(?:blog|news|events?|conference|courses?)\b/i.test(url))return 'tools';
+ const tool=toolIdentity(c,title,c.audit?.structuredData||[]);
+ const productFunction=toolFunction(text,c.audit?.structuredData||[]);
+ if(tool&&productFunction&&!excludedPath.test(new URL(url||'https://invalid.local').pathname))return 'tools';
  return 'uncategorized';
 }
 function dateCandidates(text){
@@ -46,7 +57,7 @@ function review(c){
  const hardStatus=a.httpStatus===200&&/text\/html|application\/json/i.test(a.contentType||'');
  if(!hardStatus)missing.push('página primária acessível com conteúdo compatível');
  if(category==='opportunities'){
-  checks.callSignal=/(grant|fellowship|funding|award|prize|scholarship|bolsa|edital|call for applications|apply now)/i.test(title+' '+text)&&!excluded.test(title);
+  checks.callSignal=/(grant|fellowship|funding|award|prize|scholarship|bolsa|edital|call for applications|apply now)/i.test(title+' '+text)&&!excluded.test(title+' '+String(c.title||''));
   checks.deadline=deadlineDates(text).find(d=>d>=today)||null;
   checks.eligibility=/\b(eligib|eligible|eligibility|who can apply|open to|elegibilidade|elegível|podem se candidatar)\b/i.test(text);
   if(!checks.callSignal)missing.push('chamada de financiamento/bolsa identificável');
@@ -67,8 +78,8 @@ function review(c){
   if(!checks.coverage)missing.push('cobertura temporal/geográfica');
  }else if(category==='tools'){
   const d=ld.find(x=>/softwareapplication|softwareproduct|software/.test(x.type))?.data;
-  checks.productSignal=!!d||/(software|tool|platform|application|library|framework|ferramenta|plataforma|biblioteca)/i.test(title+' '+text);
-  checks.function=!!(d?.applicationCategory||d?.featureList||d?.description)||/(visuali[sz]|map|chart|analy[sz]|scrap|geospatial|data processing|permite|enables|supports|documentation|documenta)/i.test(text);
+  checks.productSignal=!!d||toolIdentity(c,title,docs);
+  checks.function=!!(d?.applicationCategory||d?.featureList||d?.description)||toolFunction(text,docs);
   checks.access=!!(d?.offers||d?.operatingSystem)||/(free|open source|pricing|subscription|account|download|install|web app|browser|gratuito|licença|conta|preço|instala)/i.test(text);
   checks.license=!!d?.license||/(license|licen[çc]a|mit license|apache license|gpl|bsd license)/i.test(text);
   checks.licenseStatus=checks.license?'stated':'not stated in captured source';
