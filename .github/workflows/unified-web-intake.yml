@@ -255,6 +255,8 @@ jobs:
         run: |
           cp intake/discovery-quality.json /tmp/radar-discovery-quality.json
           cp scripts/merge-editorial-queue.js /tmp/radar-merge-editorial-queue.js
+          mkdir -p /tmp/radar-public-catalog
+          cp data/opportunities.js data/datasets.js data/tools.js /tmp/radar-public-catalog/
           cp scripts/lead-identity.js /tmp/lead-identity.js
           cp scripts/audit-editorial-queue.js /tmp/audit-editorial-queue.js
           cp scripts/editorial-page-evidence.js /tmp/editorial-page-evidence.js
@@ -270,7 +272,7 @@ jobs:
           else
             git switch -c radar-state
           fi
-          node /tmp/radar-merge-editorial-queue.js /tmp/radar-discovery-quality.json intake/editorial-queue.json state/lead-history.json /tmp/radar-historical-decisions.json
+          RADAR_CATALOG_DIR=/tmp/radar-public-catalog node /tmp/radar-merge-editorial-queue.js /tmp/radar-discovery-quality.json intake/editorial-queue.json state/lead-history.json /tmp/radar-historical-decisions.json
           node /tmp/audit-editorial-queue.js intake/editorial-queue.json intake/editorial-queue-audit.json
           node /tmp/review-editorial-evidence.js intake/editorial-queue.json intake/editorial-evidence-review.json
           node /tmp/build-editorial-record-drafts.js intake/editorial-queue.json intake/editorial-evidence-review.json intake/publication-drafts.json
