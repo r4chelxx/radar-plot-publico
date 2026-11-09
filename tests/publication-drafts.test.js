@@ -38,7 +38,7 @@ test('builds traceable drafts only from evidence-complete primary-source reviews
  assert.equal(dataset.recordDraft.limitations,null);
  const tool=out.drafts.find(x=>x.category==='tools');
  assert.equal(tool.recordDraft.kind,'Mapping');
- assert.match(tool.recordDraft.desc,/Interactive mapping software/);
+ assert.match(tool.recordDraft.desc,/Software lets journalists create interactive maps/);
  assert.equal(out.drafts.every(x=>x.status==='draft_only'&&x.publicationReady===false),true);
 });
 test('draft validator detects source drift and publisher rejects drafts as an approval manifest',()=>{
