@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-11-09T03:23:35.842Z",
+  "checkedAt": "2026-11-09T21:25:40.622Z",
   "policy": "404/410 and ArcGIS application errors within HTTP 200 become broken only after appearing as suspect or broken in the previous audit; blocked and network results are inconclusive",
   "counts": {
-    "ok": 589,
-    "blocked": 58,
+    "ok": 593,
+    "blocked": 56,
     "network": 29
   },
   "results": [
@@ -153,11 +153,11 @@
           "field": "apply"
         }
       ],
-      "status": 403,
+      "status": 200,
       "finalUrl": "https://www.europeanpressprize.com/before-you-enter/",
-      "class": "blocked",
+      "class": "ok",
       "attempts": [
-        403
+        200
       ]
     },
     {
@@ -172,11 +172,11 @@
           "field": "discoveryUrl"
         }
       ],
-      "status": 403,
+      "status": 200,
       "finalUrl": "https://www.europeanpressprize.com/judging/submission-rules/",
-      "class": "blocked",
+      "class": "ok",
       "attempts": [
-        403
+        200
       ]
     },
     {
@@ -631,6 +631,7 @@
       "finalUrl": "https://digital-strategy.ec.europa.eu/en/funding/call-proposals-journalism-partnerships-collaborations-2027",
       "class": "ok",
       "attempts": [
+        429,
         200
       ]
     },
@@ -4898,13 +4899,12 @@
           "field": "discoveryUrl"
         }
       ],
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://www.generonumero.media/dados-abertos/",
+      "class": "ok",
       "attempts": [
         "TypeError:fetch failed",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -7104,6 +7104,7 @@
       "finalUrl": "https://dadosabertos.aneel.gov.br/",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -7735,7 +7736,6 @@
       "finalUrl": "https://salvador.ba.gov.br/",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -8087,11 +8087,13 @@
           "field": "url"
         }
       ],
-      "status": 200,
-      "finalUrl": "https://biobr.saude.ba.gov.br/static/obitomaterno.php",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "AbortError:This operation was aborted",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -8110,7 +8112,6 @@
       "finalUrl": "https://www.ba.gov.br/saude/",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -8130,7 +8131,6 @@
       "finalUrl": "https://datasus.saude.gov.br/cnes-recursos-humanos-a-partir-de-agosto-de-2007-ocupacoes-classificadas-pela-cbo-2002/",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -8150,7 +8150,6 @@
       "finalUrl": "https://wiki.datasus.gov.br/sigtap/index.php/P%C3%A1gina_principal",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -8175,7 +8174,6 @@
       "finalUrl": "https://www.snirh.gov.br/",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -8330,6 +8328,7 @@
       "finalUrl": "https://www.gov.br/mme/pt-br/acesso-a-informacao/legislacao",
       "class": "ok",
       "attempts": [
+        "TypeError:fetch failed",
         200
       ]
     },
@@ -8875,6 +8874,7 @@
       "finalUrl": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/dados-abertos/cadastros",
       "class": "ok",
       "attempts": [
+        "TypeError:fetch failed",
         200
       ]
     },
@@ -10623,7 +10623,6 @@
       "finalUrl": "https://www.generonumero.media/",
       "class": "ok",
       "attempts": [
-        "TypeError:fetch failed",
         200
       ]
     },
@@ -11648,6 +11647,44 @@
       ],
       "status": 200,
       "finalUrl": "https://journaliststudio.google.com/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "8c69a7bafba7ddd1615d7cb77a6d643e3f283bf08d2bf8f6f74bb96e26642a66",
+      "field": "url",
+      "url": "https://pandas.pydata.org/",
+      "references": [
+        {
+          "type": "tool",
+          "id": "8c69a7bafba7ddd1615d7cb77a6d643e3f283bf08d2bf8f6f74bb96e26642a66",
+          "field": "url"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://pandas.pydata.org/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "8ccdce543913e2af137941b13f03b4f34e9a544dfc8befeff78dafc28b85ebf5",
+      "field": "url",
+      "url": "https://www.powerui.com/",
+      "references": [
+        {
+          "type": "tool",
+          "id": "8ccdce543913e2af137941b13f03b4f34e9a544dfc8befeff78dafc28b85ebf5",
+          "field": "url"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://www.powerui.com/",
       "class": "ok",
       "attempts": [
         200
