@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-09T18:56:04.016Z",
-  "sourceQueueUpdatedAt": "2026-11-09T18:55:37.574Z",
+  "generatedAt": "2026-11-09T19:05:14.419Z",
+  "sourceQueueUpdatedAt": "2026-11-09T19:04:52.495Z",
   "policy": "Drafts only; evidence completeness is not editorial approval or publication authorization.",
   "summary": {
     "eligibleForDrafting": 2,
@@ -26,7 +26,7 @@
           "Data Visualization Society"
         ],
         "pageTitle": "pandas - Python Data Analysis Library",
-        "checkedAt": "2026-11-09T18:55:37.574Z",
+        "checkedAt": "2026-11-09T19:04:52.495Z",
         "httpStatus": 200,
         "contentType": "text/html; charset=utf-8"
       },
@@ -74,14 +74,11 @@
       "recordDraft": {
         "id": "8c69a7bafba7ddd1615d7cb77a6d643e3f283bf08d2bf8f6f74bb96e26642a66",
         "name": "pandas - Python Data Analysis Library",
-        "kind": null,
+        "kind": "Python Data Analysis Library",
         "url": "https://pandas.pydata.org/",
-        "desc": null
+        "desc": "pandas - Python Data Analysis Library pandas pandas is a fast, powerful, flexible and easy to use open source data analysis and manipulation tool, built on top of the Python programming language. Source note: the captured page does not state detailed usage limitations; consult the official documentation and license before use."
       },
-      "missingFields": [
-        "kind",
-        "desc"
-      ],
+      "missingFields": [],
       "reviewDecision": "evidence_complete_for_record_draft",
       "note": "Ficha preliminar baseada no conteúdo capturado da página. Campos ausentes permanecem vazios; esta ficha não autoriza publicação."
     },
@@ -97,7 +94,7 @@
           "Data Visualization Society"
         ],
         "pageTitle": "Power BI Theme Generator - Create Professional Themes in Seconds | Power UI | Power UI",
-        "checkedAt": "2026-11-09T18:55:37.574Z",
+        "checkedAt": "2026-11-09T19:04:52.495Z",
         "httpStatus": 200,
         "contentType": "text/html; charset=utf-8"
       },
@@ -182,11 +179,9 @@
         "name": "Power BI Theme Generator - Create Professional Themes in Seconds | Power UI | Power UI",
         "kind": "DesignApplication",
         "url": "https://www.powerui.com/",
-        "desc": null
+        "desc": "Professional Power BI theme generator with visual editing, real-time preview, and comprehensive design system Source note: the captured page does not state detailed usage limitations; consult the official documentation and license before use."
       },
-      "missingFields": [
-        "desc"
-      ],
+      "missingFields": [],
       "reviewDecision": "evidence_complete_for_record_draft",
       "note": "Ficha preliminar baseada no conteúdo capturado da página. Campos ausentes permanecem vazios; esta ficha não autoriza publicação."
     }
