@@ -16,7 +16,8 @@ const decisions=fs.existsSync(decisionsPath)?JSON.parse(fs.readFileSync(decision
 // exact canonical URLs so published records are not audited and drafted again.
 const vm=require('node:vm');
 const catalogContext={window:{RADAR_PARTS:{}}};vm.createContext(catalogContext);
-for(const file of ['data/opportunities.js','data/datasets.js','data/tools.js'])vm.runInContext(fs.readFileSync(file,'utf8'),catalogContext,{filename:file});
+const catalogDir=process.env.RADAR_CATALOG_DIR||'data';
+for(const name of ['opportunities.js','datasets.js','tools.js']){const file=require('node:path').join(catalogDir,name);vm.runInContext(fs.readFileSync(file,'utf8'),catalogContext,{filename:file});}
 const publishedLinkIds=new Set();
 for(const [category,records] of Object.entries(catalogContext.window.RADAR_PARTS)){
  const keys=category==='opportunities'?['rules','apply']:category==='datasets'?['url','api','docs']:['url'];
