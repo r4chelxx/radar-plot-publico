@@ -45,7 +45,7 @@ function dateCandidates(text){
 }
 function actionableOpportunity(title,text){
  const noun=/\b(grant|fellowship|funding|scholarship|journalism award|prize|contest|competition|bolsa|edital|financiamento|premia[cç][aã]o|concurso)\b/i;
- const action=/\b(applications?\s+(?:are\s+)?(?:open|accepted|closing|close|closes|closed)|call for applications|apply now|apply by|submit (?:an? )?(?:application|proposal|entry|entries)|inscri[cç][oõ]es? abertas|candidaturas? abertas|candidatar-se até|submiss[oõ]es? abertas)\b/i;
+ const action=/\b(applications?\b[^.!?]{0,80}\b(?:open|accepted|closing|close|closes|closed)|call for applications|apply now|apply by|submit (?:an? )?(?:application|proposal|entry|entries)|inscri[cç][oõ]es? abertas|candidaturas? abertas|candidatar-se até|submiss[oõ]es? abertas)\b/i;
  const sentences=String(text||'').split(/(?<=[.!?])\s+/);
  return (noun.test(title||'')&&action.test(text||''))||sentences.some(s=>noun.test(s)&&action.test(s));
 }
@@ -53,7 +53,7 @@ function deadlineDates(text){
  const cues=/(?:deadline|closing date|applications?[^.!?]{0,70}clos(?:e|es|ed)|application period[^.!?]{0,70}(?:ends?|closes?)|apply by|submit by|prazo[^.!?]{0,70}(?:até|final)|inscri[cç][oõ]es?[^.!?]{0,70}até)/i;
  return dateCandidates(text).filter(date=>{
   const forms=[date,date.replaceAll('-','/'),date.slice(8)+'/'+date.slice(5,7)+'/'+date.slice(0,4),String(Number(date.slice(8)))+'/'+String(Number(date.slice(5,7)))+'/'+date.slice(0,4)];
-  return text.split(/(?<=[.!?])\s+/).some(sentence=>forms.some(form=>sentence.includes(form))&&cues.test(sentence));
+  return text.split(/(?<=[.!?])\s+/).some(sentence=>forms.some(form=>sentence.includes(form))&&cues.test(sentence)&&/(application|grant|fellowship|scholarship|submit|submission|entry|entries|inscri[cç][oõ]|candidatura|bolsa|edital)/i.test(sentence));
  });
 }
 function review(c){
