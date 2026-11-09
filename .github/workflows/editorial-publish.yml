@@ -5,6 +5,8 @@ on:
   pull_request:
     paths:
       - '.github/workflows/editorial-publish.yml'
+      - 'scripts/check-daily-publication-target.js'
+      - 'tests/daily-publication-target.test.js'
       - 'scripts/publish-approved.js'
       - 'scripts/build-automated-publications.js'
       - 'tests/automated-publication.test.js'
@@ -22,6 +24,8 @@ on:
       - 'scripts/publish-approved.js'
       - 'tests/automated-publication.test.js'
       - '.github/workflows/editorial-publish.yml'
+      - 'scripts/check-daily-publication-target.js'
+      - 'tests/daily-publication-target.test.js'
   schedule:
     # Retry publication after later intake windows; approved-only and no-change safe.
     - cron: "0 14 * * *"
@@ -43,6 +47,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           persist-credentials: true
+          fetch-depth: 0
       - uses: actions/setup-node@v4
         with:
           node-version: "22"
@@ -50,6 +55,8 @@ jobs:
         run: node scripts/test-editorial-pipeline.js
       - name: Test deterministic automated publication gate
         run: node --test tests/automated-publication.test.js
+      - name: Test cumulative daily publication target
+        run: node --test tests/daily-publication-target.test.js
       - name: Prepare combined approved manifest from fresh evidence drafts
         shell: bash
         run: |
@@ -178,10 +185,17 @@ jobs:
       - name: Report no new approved publications
         if: steps.changes.outputs.changed != 'true'
         run: |
-          echo "WARNING: Zero new editorial publications. All approved records are already in the catalog, or no new approved records were supplied." >> "$GITHUB_STEP_SUMMARY"
-          echo "Daily target remains unmet: the run must continue rotating through historical and new sources until at least two verified records exist in each category; check the live catalog before reporting success." >> "$GITHUB_STEP_SUMMARY"
-      - name: Open or update editorial shortfall issue
-        if: (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch') && (steps.changes.outputs.changed != 'true' || steps.category-counts.outputs.shortfall == 'true')
+          echo "No new approved records were available in this publication window. The daily target is evaluated cumulatively at the final local window." >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Evaluate cumulative daily publication target
+        id: daily-target
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        env:
+          RADAR_DAILY_MINIMUM: "2"
+        run: node scripts/check-daily-publication-target.js
+
+      - name: Open or update daily shortfall issue
+        if: (github.event_name == 'workflow_dispatch' || (github.event_name == 'schedule' && github.event.schedule == '41 20 * * *')) && steps.daily-target.outputs.target_met != 'true'
         env:
           GH_TOKEN: ${{ github.token }}
         shell: bash
@@ -189,12 +203,22 @@ jobs:
           set -euo pipefail
           title="Radar 1.0: fila aprovada esgotada — publicações diárias pendentes"
           issue_number=$(gh issue list --state open --limit 100 --json number,title --jq '.[] | select(.title == "Radar 1.0: fila aprovada esgotada — publicações diárias pendentes") | .number' | head -n 1)
-          body="Publicador executado em ${{ github.run_id }} com meta diária não comprovada (zero ou menos de 2 novos registros em alguma categoria). Meta editorial: pelo menos 2 oportunidades, 2 ferramentas e 2 bases por dia, sempre mediante verificação. Revisar candidatos pendentes, fontes oficiais, prazos, elegibilidade e duplicidades. Execução: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          body="Meta diária cumulativa não atingida em ${{ steps.daily-target.outputs.date }} (horário de Salvador). Contagem: ${{ steps.daily-target.outputs.counts }}. Meta: pelo menos 2 oportunidades, 2 ferramentas e 2 bases publicadas hoje com evidência verificada. Execução: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
           if [ -n "$issue_number" ]; then
             gh issue comment "$issue_number" --body "$body"
           else
             gh issue create --title "$title" --body "$body"
           fi
+      - name: Close resolved daily shortfall issue
+        if: (github.event_name == 'workflow_dispatch' || (github.event_name == 'schedule' && github.event.schedule == '41 20 * * *')) && steps.daily-target.outputs.target_met == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          title="Radar 1.0: fila aprovada esgotada — publicações diárias pendentes"
+          issue_number=$(gh issue list --state open --limit 100 --json number,title --jq '.[] | select(.title == "Radar 1.0: fila aprovada esgotada — publicações diárias pendentes") | .number' | head -n 1)
+          if [ -n "$issue_number" ]; then gh issue close "$issue_number" --comment "Meta diária cumulativa atingida em ${{ steps.daily-target.outputs.date }} (Salvador). Execução: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"; fi
+
       - name: Verify approved records on deployed public site
         if: github.event_name != 'pull_request' && steps.changes.outputs.changed == 'true'
         env:
@@ -202,10 +226,10 @@ jobs:
           RADAR_DEPLOY_DELAY_MS: "15000"
         run: node scripts/verify-published-records.js
 
-      - name: Fail scheduled run when publication target is unmet
-        if: (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch') && (steps.changes.outputs.changed != 'true' || steps.category-counts.outputs.shortfall == 'true')
+      - name: Fail final daily run when cumulative publication target is unmet
+        if: (github.event_name == 'workflow_dispatch' || (github.event_name == 'schedule' && github.event.schedule == '41 20 * * *')) && steps.daily-target.outputs.target_met != 'true'
         run: |
-          echo "PUBLICATION_FAILED: daily target of at least two verified records per category was not met." >> "$GITHUB_STEP_SUMMARY"
+          echo "PUBLICATION_FAILED: cumulative daily target of two verified records per category was not met by the final Salvador window." >> "$GITHUB_STEP_SUMMARY"
           exit 1
       - name: Summarize editorial run outcome
         if: always()
