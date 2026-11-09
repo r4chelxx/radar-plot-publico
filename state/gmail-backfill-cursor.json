@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "labelName": "Radar PLOT.",
   "labelId": "Label_3603240905167932728",
-  "pageToken": "08753117649006666292",
+  "pageToken": "01771945748126023475",
   "processed": 2206,
   "processedIdHashes": [
     "d834ea370cc911923dfd5d30418092772cf86d2ebefc5b4e79cd7ea71ec6bec1",
@@ -2212,7 +2212,7 @@
     "3220c37b58b01d66c6ce5521f1d8f26952f5a177361e4fa747bd430ed8ea1357",
     "d248c014bfbd483b6f055b0a2812e47b4062f8ac255200c04f60d52732d72d86"
   ],
-  "updatedAt": "2026-11-09T01:53:36.428Z",
+  "updatedAt": "2026-11-09T03:26:00.839Z",
   "complete": false,
   "source": "ChatGPT Gmail connector, read-only",
   "verification": "Historical pagination exhausted and reconciled against 2,156 unique message IDs, all read and hashed; Gmail label metadata separately reports 2,153 (different search scope possible). Snapshot only; future messages require incremental checks. This does not prove autonomous GitHub ingestion or editorial processing of every URL.",
