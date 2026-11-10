@@ -115,7 +115,7 @@ function buildDrafts(queue,review,generatedAt=new Date().toISOString()){
    const data=structured(audit,/dataset/i),formats=[data.encodingFormat,data.distribution?.encodingFormat].flat().filter(Boolean);
    const lower=text.toLowerCase();
    record.name=pageTitle;record.org=org||explicitOrganization(text);
-   record.territoryTier=/\b(global|worldwide|international|globalmente)\b/.test(lower)?'Global':/\b(national|countrywide|nacional)\b/.test(lower)?'Nacional':/\b(statewide|state|estadual)\b/.test(lower)?'Estadual':/\b(municipal|citywide|cidade)\b/.test(lower)?'Municipal':'Outros';
+   record.territoryTier=/\b(national|countrywide|nacional)\b/.test(lower)?'Brasil':/\b(statewide|state|estadual)\b/.test(lower)?'Bahia':/\b(municipal|citywide|cidade)\b/.test(lower)?'Salvador':'Outros';
    record.kind=/catalog|catálogo/i.test(pageTitle+' '+text)?'catalog':/portal/i.test(pageTitle+' '+text)?'portal':/system/i.test(pageTitle+' '+text)?'system':'dataset';
    record.themes=['Dados abertos'];
    record.coverage=sentence(text,/(?:\b20\d{2}\b|annual|monthly|municipal|national|global|covering|cobre|abrange)/i)||clean(audit.pageDescription)||null;
