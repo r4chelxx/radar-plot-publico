@@ -1,12 +1,37 @@
 {
-  "checkedAt": "2026-11-09T21:25:40.622Z",
+  "checkedAt": "2026-11-10T18:35:27.187Z",
   "policy": "404/410 and ArcGIS application errors within HTTP 200 become broken only after appearing as suspect or broken in the previous audit; blocked and network results are inconclusive",
   "counts": {
-    "ok": 593,
-    "blocked": 56,
-    "network": 29
+    "ok": 595,
+    "blocked": 58,
+    "network": 28,
+    "server": 1
   },
   "results": [
+    {
+      "type": "opportunity",
+      "id": "523a861d21eafb5ed7c23e495938271fdad067bc512470e5c737419607d68d02",
+      "field": "rules",
+      "url": "https://www.esri.com/en-us/arcgis/products/arcgis-storymaps/contest",
+      "references": [
+        {
+          "type": "opportunity",
+          "id": "523a861d21eafb5ed7c23e495938271fdad067bc512470e5c737419607d68d02",
+          "field": "rules"
+        },
+        {
+          "type": "opportunity",
+          "id": "523a861d21eafb5ed7c23e495938271fdad067bc512470e5c737419607d68d02",
+          "field": "apply"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://www.esri.com/en-us/arcgis/products/arcgis-storymaps/contest/overview",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
     {
       "type": "opportunity",
       "id": "ijp-german-northern-european-fellowship-2027",
@@ -631,7 +656,6 @@
       "finalUrl": "https://digital-strategy.ec.europa.eu/en/funding/call-proposals-journalism-partnerships-collaborations-2027",
       "class": "ok",
       "attempts": [
-        429,
         200
       ]
     },
@@ -3119,6 +3143,7 @@
       "finalUrl": "https://www.allardpierson.nl/en/fellowships/allard-pierson-fellowship-for-cartography",
       "class": "ok",
       "attempts": [
+        "TypeError:fetch failed",
         200
       ]
     },
@@ -3584,11 +3609,11 @@
           "field": "apply"
         }
       ],
-      "status": 200,
+      "status": 403,
       "finalUrl": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/gender-equality-grant",
-      "class": "ok",
+      "class": "blocked",
       "attempts": [
-        200
+        403
       ]
     },
     {
@@ -3608,11 +3633,11 @@
           "field": "apply"
         }
       ],
-      "status": 200,
+      "status": 403,
       "finalUrl": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/global-reporting-grants",
-      "class": "ok",
+      "class": "blocked",
       "attempts": [
-        200
+        403
       ]
     },
     {
@@ -4903,7 +4928,6 @@
       "finalUrl": "https://www.generonumero.media/dados-abertos/",
       "class": "ok",
       "attempts": [
-        "TypeError:fetch failed",
         200
       ]
     },
@@ -7043,11 +7067,12 @@
           "field": "url"
         }
       ],
-      "status": 200,
+      "status": 500,
       "finalUrl": "https://www.transparencia.ba.gov.br/Portal",
-      "class": "ok",
+      "class": "server",
       "attempts": [
-        200
+        500,
+        500
       ]
     },
     {
@@ -7104,7 +7129,6 @@
       "finalUrl": "https://dadosabertos.aneel.gov.br/",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -8087,13 +8111,11 @@
           "field": "url"
         }
       ],
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://biobr.saude.ba.gov.br/static/obitomaterno.php",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -8328,7 +8350,6 @@
       "finalUrl": "https://www.gov.br/mme/pt-br/acesso-a-informacao/legislacao",
       "class": "ok",
       "attempts": [
-        "TypeError:fetch failed",
         200
       ]
     },
@@ -8874,7 +8895,6 @@
       "finalUrl": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/dados-abertos/cadastros",
       "class": "ok",
       "attempts": [
-        "TypeError:fetch failed",
         200
       ]
     },
@@ -10623,6 +10643,7 @@
       "finalUrl": "https://www.generonumero.media/",
       "class": "ok",
       "attempts": [
+        "TypeError:fetch failed",
         200
       ]
     },
@@ -11647,6 +11668,63 @@
       ],
       "status": 200,
       "finalUrl": "https://journaliststudio.google.com/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "3a612d3b0026605c96abe95b17102fd7ec515303f91661745ecd97a722bed17a",
+      "field": "url",
+      "url": "https://www.python.org/",
+      "references": [
+        {
+          "type": "tool",
+          "id": "3a612d3b0026605c96abe95b17102fd7ec515303f91661745ecd97a722bed17a",
+          "field": "url"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://www.python.org/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "5c1be986e488cd7da4221e6f239cdd4b9259d573f9151cf5b6d1b348b06b2dbe",
+      "field": "url",
+      "url": "https://www.r-project.org/",
+      "references": [
+        {
+          "type": "tool",
+          "id": "5c1be986e488cd7da4221e6f239cdd4b9259d573f9151cf5b6d1b348b06b2dbe",
+          "field": "url"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://www.r-project.org/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "80b3a36bc32b874256e675493db452de9c5e04cb25b98648d340a315a67a3fbd",
+      "field": "url",
+      "url": "https://zebrabi.com/",
+      "references": [
+        {
+          "type": "tool",
+          "id": "80b3a36bc32b874256e675493db452de9c5e04cb25b98648d340a315a67a3fbd",
+          "field": "url"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://zebrabi.com/",
       "class": "ok",
       "attempts": [
         200
