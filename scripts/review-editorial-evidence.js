@@ -47,10 +47,19 @@ function dateCandidates(text){
  return [...new Set(out)].filter(d=>{const x=new Date(d+'T00:00:00Z');return !Number.isNaN(x.valueOf())&&x.toISOString().slice(0,10)===d});
 }
 function actionableOpportunity(title,text){
- const noun=/\b(grant|fellowship|funding|scholarship|journalism award|prize|contest|competition|bolsa|edital|financiamento|premia[cç][aã]o|concurso)\b/i;
- const action=/\b(applications?\b[^.!?]{0,80}\b(?:open|accepted|closing|close|closes|closed)|call for applications|apply now|apply by|enter by|submit (?:an? )?(?:application|proposal|entry|entries|story)|entries? (?:are )?(?:open|accepted|closing|close|closes|closed)|submissions? (?:are )?(?:open|accepted|closing|close|closes|closed)|inscri[cç][oõ]es? abertas|candidaturas? abertas|candidatar-se até|submiss[oõ]es? abertas)\b/i;
+ const noun=/\b(grant|fellowship|funding|scholarship|journalism award|award|prize|contest|competition|bolsa|edital|financiamento|premia[cç][aã]o|pr[eê]mio|concurso)\b/i;
+ const action=/\b(applications?\b[^.!?]{0,100}\b(?:open|accepted|closing|close|closes|closed|deadline)|call for (?:applications?|entries?|submissions?|proposals?)|apply(?:ing)?(?: now| today| by)?|enter(?: now| by)?|submit (?:an? )?(?:application|proposal|entry|entries|story)|entries? (?:are )?(?:open|accepted|closing|close|closes|closed)|submissions? (?:are )?(?:open|accepted|closing|close|closes|closed)|inscri[cç][oõ]es? abertas|candidaturas? abertas|candidatar-se até|submiss[oõ]es? abertas)\b/i;
  const sentences=String(text||'').split(/(?<=[.!?])\s+/);
  return (noun.test(title||'')&&action.test(text||''))||sentences.some(s=>noun.test(s)&&action.test(s));
+}
+function structuredDeadline(docs){
+ const fields=['applicationDeadline','closingDate','validThrough','deadline','endDate'];
+ for(const item of docs||[])for(const field of fields){
+  const value=item?.[field];
+  const values=Array.isArray(value)?value:[value];
+  for(const candidate of values){const match=String(candidate||'').match(/\b20\d{2}[-/]\d{1,2}[-/]\d{1,2}\b/);if(match)return match[0].replaceAll('/','-');}
+ }
+ return null;
 }
 function deadlineDates(text){
  const cues=/(?:deadline|closing date|enter by|entries?[^.!?]{0,70}(?:close|due|deadline)|submissions?[^.!?]{0,70}(?:close|due|deadline)|applications?[^.!?]{0,70}clos(?:e|es|ed)|application period[^.!?]{0,70}(?:ends?|closes?)|apply by|submit by|prazo[^.!?]{0,70}(?:até|final)|inscri[cç][oõ]es?[^.!?]{0,70}até)/i;
@@ -68,7 +77,7 @@ function review(c){
  if(!hardStatus)missing.push('página primária acessível com conteúdo compatível');
  if(category==='opportunities'){
   checks.callSignal=actionableOpportunity(title,text)&&!excluded.test(title+' '+String(c.title||''));
-  checks.deadline=deadlineDates(text).find(d=>d>=today)||null;
+  checks.deadline=deadlineDates(text).find(d=>d>=today)||structuredDeadline(docs); if(checks.deadline&&checks.deadline<today)checks.deadline=null;
   checks.eligibility=/\b(eligib|eligible|eligibility|who can apply|who can enter|who can participate|participants must|entry requirements|age(?:d)? 18 and up|18 years and older|globally may enter|open to|elegibilidade|elegível|podem se candidatar)\b/i.test(text);
   if(!checks.callSignal)missing.push('chamada de financiamento/bolsa identificável');
   if(!checks.deadline)missing.push('prazo futuro confirmado em formato de data reconhecido');
