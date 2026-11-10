@@ -91,4 +91,8 @@ test('extracts an explicitly labeled organization from a funding page',()=>{
  const review={records:[{id:'gfmd-funding',category:'opportunities',decision:'evidence_complete_for_record_draft',publicationReady:false,checks:{callSignal:true,deadline:'2099-12-01',eligibility:true}}]};
  const out=buildDrafts(q,review,'2026-11-10T10:00:00Z');
  assert.equal(out.drafts[0].recordDraft.org,'Wallace House Center for Journalists');
+ const unlabeled={...q,candidates:[{...q.candidates[0],id:'gfmd-unlabeled',audit:{...q.candidates[0].audit,evidenceText:'Organization University of Michigan Focus Area Professional Development Deadline 2099-12-01 Eligibility: international journalists.'}}]};
+ const unlabeledReview={records:[{id:'gfmd-unlabeled',category:'opportunities',decision:'evidence_complete_for_record_draft',publicationReady:false,checks:{callSignal:true,deadline:'2099-12-01',eligibility:true}}]};
+ const unlabeledOut=buildDrafts(unlabeled,unlabeledReview,'2026-11-10T10:00:00Z');
+ assert.equal(unlabeledOut.drafts[0].recordDraft.org,'University of Michigan');
 });
