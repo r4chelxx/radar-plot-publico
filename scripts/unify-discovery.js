@@ -20,8 +20,12 @@ for(const file of inputs){
    const key=identity(item.url);
    const category=categories.has(item.category)?item.category:'uncategorized';
    const title=String(item.title||'Untitled candidate').slice(0,220);
-   const entry=merged.get(key.id)||{id:key.id,url:key.url,title,category,origins:[],classification:'needs-editorial-review',publicationReady:false};
+   const incomingLinks=Array.isArray(item.resourceLinks)?item.resourceLinks.filter(x=>x&&typeof x.url==='string').slice(0,20):[];
+   const incomingEvidence=String(item.sourceEvidence||'').slice(0,1200);
+   const entry=merged.get(key.id)||{id:key.id,url:key.url,title,category,origins:[],classification:'needs-editorial-review',publicationReady:false,resourceLinks:[],sourceEvidence:''};
    if(entry.category==='uncategorized'&&category!=='uncategorized')entry.category=category;
+   for(const link of incomingLinks){if(!entry.resourceLinks.some(x=>x.url===link.url))entry.resourceLinks.push({url:link.url,label:String(link.label||'Official resource').slice(0,160)});}
+   if(incomingEvidence&&!entry.sourceEvidence)entry.sourceEvidence=incomingEvidence;
    if(!entry.origins.includes(parsed.source))entry.origins.push(parsed.source);
    const provider=String(item.sourceName||'').slice(0,100);
    if(provider){entry.providers=entry.providers||[];if(!entry.providers.includes(provider))entry.providers.push(provider);}

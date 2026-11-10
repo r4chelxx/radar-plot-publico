@@ -89,7 +89,7 @@ for(const candidate of current.review||[]){
  const providers=[...new Set([...(old?.providers||[]),...(candidate.providers||[])])].slice(0,30);
  const proposedCategory=categoryFor(candidate);
  const category=proposedCategory!=='uncategorized'?proposedCategory:(historicalCategoryFor(candidate)||old?.category||'uncategorized');
- queue.set(candidate.id,{id:candidate.id,title:candidate.title,url:candidate.url,category,providers,...(old?.audit&&old.url===candidate.url?{audit:old.audit}:{}),firstSeen:old?.firstSeen||now,lastSeen:now,status:resolvedStatus(candidate)||old?.status||'pending',reviewPriority:candidate.reviewPriority||'normal'});
+ queue.set(candidate.id,{id:candidate.id,title:candidate.title,url:candidate.url,category,providers,resourceLinks:candidate.resourceLinks||old?.resourceLinks||[],sourceEvidence:String(candidate.sourceEvidence||old?.sourceEvidence||'').slice(0,1200),...(old?.audit&&old.url===candidate.url?{audit:old.audit}:{}),firstSeen:old?.firstSeen||now,lastSeen:now,status:resolvedStatus(candidate)||old?.status||'pending',reviewPriority:candidate.reviewPriority||'normal'});
 }
 for(const [id,item] of queue){
  if(item.status==='pending'&&item.category==='opportunities'&&categoryFor(item)==='uncategorized')queue.set(id,{...item,category:'uncategorized'});
