@@ -20,6 +20,14 @@ function publisherName(data){
  const type=String(Array.isArray(data['@type'])?data['@type'].join(' '):data['@type']||'').toLowerCase();
  return clean(typeof raw==='string'?raw:raw.name)||(/organization/.test(type)?clean(data.name):'')||null;
 }
+function explicitOrganization(text){
+ const m=String(text||'').match(/(?:^|[.!?]\\s+)(?:The\\s+)?([A-Z][A-Za-z0-9&.'’-]*(?:\\s+[A-Z][A-Za-z0-9&.'’-]*){0,3})\\s+(?:invites|is pleased to announce|announces)\\b/);
+ return clean(m?.[1])||null;
+}
+function eligibilityScope(text){
+ return sentence(text,/applicants?[^.!?]{0,180}(?:globally|worldwide|world-wide)[^.!?]*(?:may enter|can apply|eligible)/i)
+  ||sentence(text,/(eligible|eligibility|who can (?:apply|enter|participate)|participants must|entry requirements|age(?:d)? 18 and up|18 years and older|globally may enter|open to|elegibilidade|elegível|podem se candidatar)/i);
+}
 function evidenceSummary(text,description){
  const meta=clean(description);
  if(meta.length>=120)return meta.slice(0,1200);
@@ -52,14 +60,14 @@ function buildDrafts(queue,review,generatedAt=new Date().toISOString()){
   const id=slug(candidate.id||url);
   const record={id};
   if(result.category==='opportunities'){
-   record.title=pageTitle;record.org=org;
+   record.title=pageTitle;record.org=org||explicitOrganization(text);
    record.summary=evidenceSummary(text,audit.pageDescription);
    const typeMatch=/(fellowship|grant|scholarship|award|prize|contest|competition|bolsa|edital|premia[cç][aã]o)/i.exec(pageTitle+' '+text);
    record.type=typeMatch?typeMatch[0]:'Chamada editorial com financiamento ou prêmio';
    const topicMap=[[/climate|environment|clima|ambiental/i,'Meio ambiente'],[/data journalism|data visualization|dados|visualiza[cç][aã]o/i,'Jornalismo de dados'],[/investigativ|investiga[cç][aã]o/i,'Jornalismo investigativo'],[/gender|women|gênero|mulheres/i,'Gênero'],[/photo|fotografia/i,'Fotografia'],[/journalism|journalist|jornalismo|jornalista/i,'Jornalismo']];
    record.themes=[...new Set(topicMap.filter(([rx])=>rx.test(pageTitle+' '+text)).map(([,label])=>label))];
    if(!record.themes.length)record.themes=['Oportunidades editoriais'];
-   record.scope=sentence(text,/(eligible|eligibility|who can (?:apply|enter|participate)|participants must|entry requirements|age(?:d)? 18 and up|18 years and older|globally may enter|open to|elegibilidade|elegível|podem se candidatar)/i);
+   record.scope=eligibilityScope(text);
    record.deadline=result.checks.deadline||null;
    record.deadlineStatus=record.deadline?'Confirmado na página oficial; fuso horário não informado.':null;
    record.eligibility=record.scope?'parcial':null;
