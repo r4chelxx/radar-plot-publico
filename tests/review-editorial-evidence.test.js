@@ -7,6 +7,7 @@ try{
  const item=(id,category,audit,url)=>({id,url:url||'https://example.org/'+id,category,status:'pending',audit:{httpStatus:200,contentType:'text/html',checkedAt:'2026-11-09T00:00:00Z',...audit}});
  const q={candidates:[
  item('grant','opportunities',{evidenceText:'Grant applications close 2099-12-31. Eligibility: who can apply is limited to journalists.',structuredData:[]}),
+ item('structured-deadline','opportunities',{pageTitle:'Global Data Journalism Award',evidenceText:'Applications are open to journalists worldwide. Eligibility is stated on this page.',structuredData:[{'@type':'Event',name:'Global Data Journalism Award',endDate:'2099-12-31'}]}),
  item('fake-grant','opportunities',{evidenceText:'Welcome to our news blog about awards.',structuredData:[]}),
  item('dataset','datasets',{evidenceText:'',structuredData:[{'@type':'Dataset',name:'City data',license:'CC0',temporalCoverage:'2020/2025',distribution:{contentUrl:'https://example.org/data.csv',encodingFormat:'text/csv'}}]}),
  item('tool','tools',{pageTitle:'Mapping software',evidenceText:'Interactive mapping software that lets journalists create and share maps. Free plan available; paid tiers are described on the pricing page.',structuredData:[]}),
@@ -27,6 +28,8 @@ try{
  cp.execFileSync(process.execPath,[path.resolve('scripts/review-editorial-evidence.js'),queue,out],{encoding:'utf8'});
  const result=JSON.parse(fs.readFileSync(out));
  assert.equal(result.records.find(x=>x.id==='grant').decision,'evidence_complete_for_record_draft');
+ assert.equal(result.records.find(x=>x.id==='structured-deadline').decision,'evidence_complete_for_record_draft');
+ assert.equal(result.records.find(x=>x.id==='structured-deadline').checks.deadline,'2099-12-31');
  assert.equal(result.records.find(x=>x.id==='fake-grant').decision,'pending_more_evidence');
  assert.equal(result.records.find(x=>x.id==='dataset').decision,'evidence_complete_for_record_draft');
  assert.equal(result.records.find(x=>x.id==='tool').decision,'evidence_complete_for_record_draft');
