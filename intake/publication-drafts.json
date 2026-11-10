@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-10T01:12:55.700Z",
-  "sourceQueueUpdatedAt": "2026-11-10T01:12:41.375Z",
+  "generatedAt": "2026-11-10T01:18:16.956Z",
+  "sourceQueueUpdatedAt": "2026-11-10T01:18:05.670Z",
   "policy": "Evidence-complete drafts only; the separate deterministic evidence gate must independently approve before publication.",
   "summary": {
     "eligibleForDrafting": 2,
@@ -26,7 +26,7 @@
           "Data Visualization Society"
         ],
         "pageTitle": "2026 ArcGIS StoryMaps Competition",
-        "checkedAt": "2026-11-10T01:12:41.375Z",
+        "checkedAt": "2026-11-10T01:18:05.670Z",
         "httpStatus": 200,
         "contentType": "text/html;charset=utf-8"
       },
@@ -53,13 +53,13 @@
       "recordDraft": {
         "id": "523a861d21eafb5ed7c23e495938271fdad067bc512470e5c737419607d68d02",
         "title": "2026 ArcGIS StoryMaps Competition",
-        "org": null,
+        "org": "Esri",
         "summary": "Enter the 2026 ArcGIS StoryMaps Competition. Get competition details and find inspiration for your story in our online gallery.",
         "type": "Competition",
         "themes": [
           "Meio ambiente"
         ],
-        "scope": "Esri invites storytellers age 18 and up to answer that question.",
+        "scope": "Requirements Applicants 18 years and older globally may enter the competition once in one of four categories: Seeing What Others Missed Refusing the Status Quo Designing a Better Future Acting with Clarity in Complexity Each category will include a student track.",
         "deadline": "2026-12-11",
         "deadlineStatus": "Confirmado na página oficial; fuso horário não informado.",
         "eligibility": "parcial",
@@ -67,9 +67,7 @@
         "rules": "https://www.esri.com/en-us/arcgis/products/arcgis-storymaps/contest",
         "apply": "https://www.esri.com/en-us/arcgis/products/arcgis-storymaps/contest"
       },
-      "missingFields": [
-        "org"
-      ],
+      "missingFields": [],
       "reviewDecision": "evidence_complete_for_record_draft",
       "note": "Ficha preliminar baseada no conteúdo capturado da página. Campos sem evidência permanecem ausentes; a aprovação depende do gate independente de publicação."
     },
@@ -85,7 +83,7 @@
           "Data Visualization Society"
         ],
         "pageTitle": "Quantitative Analysis of Textual Data • quanteda",
-        "checkedAt": "2026-11-10T01:12:41.375Z",
+        "checkedAt": "2026-11-10T01:18:05.670Z",
         "httpStatus": 200,
         "contentType": "text/html; charset=utf-8"
       },
