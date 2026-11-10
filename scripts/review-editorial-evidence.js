@@ -65,7 +65,7 @@ function review(c){
  if(category==='opportunities'){
   checks.callSignal=actionableOpportunity(title,text)&&!excluded.test(title+' '+String(c.title||''));
   checks.deadline=deadlineDates(text).find(d=>d>=today)||null;
-  checks.eligibility=/\b(eligib|eligible|eligibility|who can apply|open to|elegibilidade|elegível|podem se candidatar)\b/i.test(text);
+  checks.eligibility=/\b(eligib|eligible|eligibility|who can apply|who can enter|who can participate|participants must|entry requirements|open to|elegibilidade|elegível|podem se candidatar)\b/i.test(text);
   if(!checks.callSignal)missing.push('chamada de financiamento/bolsa identificável');
   if(!checks.deadline)missing.push('prazo futuro confirmado em formato de data reconhecido');
   if(!checks.eligibility)missing.push('elegibilidade expressa na fonte');
