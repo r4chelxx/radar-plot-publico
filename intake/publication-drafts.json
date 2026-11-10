@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-10T20:50:58.276Z",
-  "sourceQueueUpdatedAt": "2026-11-10T20:50:45.379Z",
+  "generatedAt": "2026-11-10T20:54:06.632Z",
+  "sourceQueueUpdatedAt": "2026-11-10T20:53:48.541Z",
   "policy": "Evidence-complete drafts only; the separate deterministic evidence gate must independently approve before publication.",
   "summary": {
-    "eligibleForDrafting": 17,
-    "drafts": 17,
+    "eligibleForDrafting": 16,
+    "drafts": 16,
     "byCategory": {
       "opportunities": 1,
-      "datasets": 0,
-      "tools": 16
+      "datasets": 1,
+      "tools": 14
     },
     "publicationReady": 0
   },
@@ -482,47 +482,6 @@
     },
     {
       "schemaVersion": 1,
-      "id": "631426c57845ab692bf8f0eb1607ab6bbee760fb6087498ecdc84b4a68651379",
-      "category": "tools",
-      "status": "draft_only",
-      "publicationReady": false,
-      "source": {
-        "url": "https://thefix.media/research-and-advisory",
-        "discoveryProviders": [
-          "The Fix Media"
-        ],
-        "pageTitle": "The Fix Research &amp;amp; Advisory",
-        "checkedAt": "2026-11-10T20:31:28.952Z",
-        "httpStatus": 200,
-        "contentType": "text/html; charset=utf-8"
-      },
-      "evidence": {
-        "checks": {
-          "productSignal": true,
-          "function": true,
-          "access": true,
-          "license": false,
-          "licenseStatus": "not stated in captured source"
-        },
-        "sourceExcerpt": "The Fix Research &amp; Advisory 50 organizations across 15 countries since 2019 Make better media decisions Research, consulting, and practical tools for independent media and the organizations behind them. Get in touch What we do The Fix started in 2019 as a small consulting team that couldn't find the industry research it needed — so we built it ourselves. Today it's both things: The Fix Research & Advisory, working with publishers, donors and implementing organizations across Europe and beyond, and The Fix Media, a trade publication read by a community of 3,000+ senior media professionals. Since then we've delivered 40+ consulting and research projects for 50+ media organizations and funders. We helped Hromadske nearly quadruple commercial revenue during a turnaround. We've trained 309 media managers from 20+ countries through the SSE Riga media management programs. Our sector studies with JX Fund, Thomson Reuters Foundation and others have been cited by The New York Times and the Reuters Institute. And when Russia launched its full-scale invasion, we co-led a campaign that raised around €3M for dozens of Ukrainian newsrooms. The sector we work in doesn't get calm years. Funding models break — USAID's shutdown was only the loudest recent case. Platforms rewrite the rules; audiences move. So we lead the transformation. Let's work on yours. 40+ consulting & research projects 50+ media organizations 309 managers trained · 20+ countries ≈€3M raised for Ukrainian newsrooms Services & products Research Understand your market before you bet on it — audience studies, benchmarking and sector intelligence for media organizations and funders. 12 published studies · cited by The New York Times and the Reuters Institute Explore Consultancy Turn strategy into results — business models, reader revenue, product and organizational development, from audit to implementation. 30+ successful projects since 2019 Explore Publishing Stay ahead of European media — reporting and analysis from The Fix Media, with new stories several times a week for 3,000+ senior media professionals. Want to reach them? Advertising & partnerships Explore Tech Two flagship tech products, already serving clients: AI Media Analytics — AI-supported assessment of media outlets at scale (content quality, framing, bias), validated by human experts; and Newstack — a SaaS service that helps media and NGOs save 50%+ on subscription costs. Put data and AI to work Explore Education Practice leadership under pressure — the Crisis Leadership Simulation and executive training, delivered in multiple languages. With SSE Riga · IPI · UN Women and many others Explore From The Fix — this month View All Monthly feature Inside the Iranian exile media sector Insights from an in-depth country profile prepared by JX Fund with support of The Fix Research and Advisory September 16, 2026 Read on The Fix September 2026 How OBCT built a transnational newsroom in Italy – and keeps it going 25 years later Read on The Fix August 2026 Survival school: How a modest program in Riga trained a generation of media managers from the post-Soviet space Read on The Fix August 2026 Why great podcasts struggle to grow and how to fix it, with Act3 Agency’s John Taylor Read on The Fix Meet the team Built by media practitioners TFRA brings together researchers, media strategists, product specialists, editors, and data experts working with independent media organizations across Europe and beyond. Jakub Parusinski Founder & Director View Profile Alesia Rudnik Head of Research View Profile Alex Vorobev Project Lead & Media Consultant View Profile Alina Afonchanka Project lead & media consultant View Profile Miraslau Chyhir Senior Associate, Data & Product View Profile Orsolya Seregély Senior associate & media consultant View Profile Rasel Ahmed Senior Analyst View Profile Anton Protsiuk Editor-in-Chief View Profile Anastasiia Kuzmenko Operations Editor View Profile Aizhan Kazakbaeva Project Lead & Media Consultant Vi",
-        "structuredData": [],
-        "resourceLinks": []
-      },
-      "recordDraft": {
-        "id": "631426c57845ab692bf8f0eb1607ab6bbee760fb6087498ecdc84b4a68651379",
-        "name": "The Fix Research &amp;amp; Advisory",
-        "kind": null,
-        "url": "https://thefix.media/research-and-advisory",
-        "desc": "Research, consulting, and practical tools for independent media and the organizations behind them. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
-      },
-      "missingFields": [
-        "kind"
-      ],
-      "reviewDecision": "evidence_complete_for_record_draft",
-      "note": "Ficha preliminar baseada no conteúdo capturado da página. Campos sem evidência permanecem ausentes; a aprovação depende do gate independente de publicação."
-    },
-    {
-      "schemaVersion": 1,
       "id": "b45070e9d4dabfb55eb4edbe6a851ffcd200473f6429555a374f7c0ac7db3e88",
       "category": "opportunities",
       "status": "draft_only",
@@ -568,52 +527,6 @@
       },
       "missingFields": [
         "org"
-      ],
-      "reviewDecision": "evidence_complete_for_record_draft",
-      "note": "Ficha preliminar baseada no conteúdo capturado da página. Campos sem evidência permanecem ausentes; a aprovação depende do gate independente de publicação."
-    },
-    {
-      "schemaVersion": 1,
-      "id": "076948332a6af35e812730636e431cb93b226d468bfd21a9343af3dbcbaa96c3",
-      "category": "tools",
-      "status": "draft_only",
-      "publicationReady": false,
-      "source": {
-        "url": "https://indicator.media/academic-library",
-        "discoveryProviders": [
-          "Gmail Radar PLOT newsletter"
-        ],
-        "pageTitle": "Academic Library | Indicator",
-        "checkedAt": "2026-11-10T20:36:10.810Z",
-        "httpStatus": 200,
-        "contentType": "text/html; charset=utf-8"
-      },
-      "evidence": {
-        "checks": {
-          "productSignal": true,
-          "function": true,
-          "access": true,
-          "license": false,
-          "licenseStatus": "not stated in captured source"
-        },
-        "sourceExcerpt": "Academic Library | Indicator This website uses cookies Read our Privacy policy and Terms of use for more information . Accept Customize Decline Indicator is your essential guide to understanding and investigating digital deception. Subscribe for free I consent to receive newsletters via email. Sign up Terms of service . ABOUT ARCHIVE UPGRADE window.__remixContext = {\"basename\":\"/\",\"future\":{\"v3_fetcherPersist\":false,\"v3_relativeSplatPath\":false,\"v3_throwAbortReason\":false,\"v3_routeConfig\":false,\"v3_singleFetch\":false,\"v3_lazyRouteDiscovery\":false,\"unstable_optimizeDeps\":false},\"isSpaMode\":false,\"state\":{\"loaderData\":{\"root\":{\"site\":{\"id\":\"307061ed-0223-42d6-b0bb-9db60103a5c8\",\"theme_rules\":{\"section\":{\"background_color\":[\"backgroundColor\"]},\"container\":{\"background_color\":[\"backgroundColor\"],\"border_color\":[\"borderColor\"],\"border_radius\":[\"borderRadius\"]},\"columns\":{\"background_color\":[\"backgroundColor\"]},\"doc\":{\"background_color\":[\"backgroundColor\"]},\"text\":{\"text_on_background_color\":[\"color\"],\"header_font\":[\"fontFamily\"]},\"signup\":{\"primary_color\":[\"borderColor\",\"buttonBackgroundColor\",\"inputBorderColor\",\"inputRadioCheckboxAccentColor\",\"gdprCheckboxColor\"],\"text_on_primary_color\":[\"buttonTextColor\",\"buttonIconColor\"],\"border_color\":[\"buttonBorderColor\"],\"background_color\":[\"inputBackgroundColor\"],\"text_on_background_color\":[\"inputTextColor\",\"gdprTextColor\"],\"border_radius\":[\"borderRadius\",\"inputBorderRadius\",\"buttonBorderRadius\"],\"body_font\":[\"inputFontFamily\"],\"button_font\":[\"buttonFontFamily\"]},\"button\":{\"primary_color\":[\"customBackgroundColor\",\"borderColor\"],\"text_on_primary_color\":[\"customTextColor\",\"iconColor\"],\"button_font\":[\"fontFamily\"],\"border_radius\":[\"borderRadius\"]},\"socials\":{\"background_color\":[\"backgroundColor\",\"borderColor\"],\"primary_color\":[\"linkedinBackground\",\"linkedinBorderColor\",\"twitterBackground\",\"twitterBorderColor\",\"facebookBackground\",\"facebookBorderColor\",\"instagramBackground\",\"instagramBorderColor\",\"tiktokBackground\",\"tiktokBorderColor\",\"youtubeBackground\",\"youtubeBorderColor\",\"discordBackground\",\"discordBorderColor\",\"threadsBackground\",\"threadsBorderColor\",\"blueskyBackground\",\"blueskyBorderColor\",\"rssBackground\",\"rssBorderColor\"],\"text_on_primary_color\":[\"linkedinFill\",\"twitterFill\",\"facebookFill\",\"instagramFill\",\"tiktokFill\",\"youtubeFill\",\"discordFill\",\"threadsFill\",\"blueskyFill\",\"rssFill\"]},\"testimonials\":{\"background_color\":[\"backgroundColor\"],\"text_on_background_color\":[\"nameColor\",\"descriptionColor\",\"messageColor\"],\"border_color\":[\"borderColor\"],\"border_radius\":[\"borderRadius\"],\"header_font\":[\"nameFontFamily\"],\"body_font\":[\"messageFontFamily\",\"descriptionFontFamily\"]},\"divider\":{\"border_color\":[\"backgroundColor\"]},\"post\":{\"background_color\":[\"background\",\"inputBackgroundColor\",\"emptyStateBackgroundColor\"],\"text_on_background_color\":[\"color\",\"seperatorColor\",\"titleTextColor\",\"subtitleTextColor\",\"authorsTextColor\",\"timestampsTextColor\",\"premiumTextColor\",\"inputTextColor\",\"emptyStateTextColor\",\"readTimeTextColor\",\"hoverTitleColor\",\"hoverSubtitleColor\",\"hoverTitleUnderlineColor\",\"hoverSubtitleUnderlineColor\",\"tagButtonTextColor\",\"tagButtonBorderColor\"],\"border_color\":[\"borderColor\",\"inputBorderColor\",\"inputPlaceholderColor\",\"inputIconFill\",\"dividerColor\",\"sliderControlsTextColor\",\"sliderControlsBorderColor\",\"paginateButtonBorderColor\"],\"border_radius\":[\"borderRadius\",\"paginateButtonBorderRadius\",\"inputBorderRadius\",\"imageBorderRadius\"],\"primary_color\":[\"tagTextColor\",\"paginateButtonBackgroundColor\",\"sliderControlsBackgroundColor\",\"premiumBackgroundColor\"],\"text_on_primary_color\":[\"tagBackgroundColor\",\"paginateButtonTextColor\",\"paginateButtonIconColor\",\"premiumTextColor\"],\"body_font\":[\"tagFontFamily\",\"subtitleFontFamily\",\"authorsFontFamily\"],\"header_font\":[\"titleFontFamily\"]},\"icon\":{\"background_color\":[\"backgroundColor\"],\"text_on_background_color\":[\"fill\"],\"border_color\":[\"borderColor\"],\"border_radius\":[\"borderRadius\"]},\"tags\":{\"background_color\":[\"backgroundColor\"],\"text_on_background_color\":[",
-        "structuredData": [
-          {
-            "@type": "WebPage",
-            "url": "https://indicator.media/academic-library"
-          }
-        ],
-        "resourceLinks": []
-      },
-      "recordDraft": {
-        "id": "076948332a6af35e812730636e431cb93b226d468bfd21a9343af3dbcbaa96c3",
-        "name": "Academic Library",
-        "kind": null,
-        "url": "https://indicator.media/academic-library",
-        "desc": "Indicator publishes original reporting, in-depth investigations, and practical OSINT resources and tutorials about digital deception. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
-      },
-      "missingFields": [
-        "kind"
       ],
       "reviewDecision": "evidence_complete_for_record_draft",
       "note": "Ficha preliminar baseada no conteúdo capturado da página. Campos sem evidência permanecem ausentes; a aprovação depende do gate independente de publicação."
@@ -699,52 +612,6 @@
     },
     {
       "schemaVersion": 1,
-      "id": "6eccac0adbf2ab76c5f552c7f86c696f72d6c0bb78af379ba13a00d438144617",
-      "category": "tools",
-      "status": "draft_only",
-      "publicationReady": false,
-      "source": {
-        "url": "https://indicator.media/upgrade",
-        "discoveryProviders": [
-          "Gmail Radar PLOT newsletter"
-        ],
-        "pageTitle": "Upgrade to an Indicator membership | Indicator",
-        "checkedAt": "2026-11-10T20:31:28.952Z",
-        "httpStatus": 200,
-        "contentType": "text/html; charset=utf-8"
-      },
-      "evidence": {
-        "checks": {
-          "productSignal": true,
-          "function": true,
-          "access": true,
-          "license": false,
-          "licenseStatus": "not stated in captured source"
-        },
-        "sourceExcerpt": "Upgrade to an Indicator membership | Indicator This website uses cookies Read our Privacy policy and Terms of use for more information . Accept Customize Decline Join 1,000+ Pro members Insights. Skills. tools. Get full access to exclusive reporting, expert intelligence about digital deception, and OSINT training Upgrade now Who uses Indicator We serve professionals and engaged citizens that are on the front lines of the fight against digital deception INVESTIGATORS & JOURNALISTS Master OSINT techniques used in award-winning investigations. Our Guides walk you through the exact methods used by us and leading practitioners to background people and companies, expose AI nudifier networks, track coordinated manipulation campaigns, and hold platforms accountable. Start with: The Indicator guide to connecting websites together using OSINT tools TRUST & SAFETY PROFESSIONALS Surface threats before they hit your internal dashboards. Our reporting regularly identifies cross-platform abuse patterns, policy gaps, and emerging vectors— helping digital safety professionals take action and adapt or develop policy. Start with: AI Nudifiers continue to reach millions and make millions RESEARCHERS & ACADEMICS Access our in-depth audits of platform interventions and our academic library of curated studies on misinformation, AI-generated content, and more. Plus, we share original data and methodologies from our investigations. Start with: The Academic Library Member Benefits A paid Indicator membership equips you with practical skills and exclusive intelligence to make you better at your job. Intelligence & Reporting Exclusive reporting and investigations that expose deceptive operations and reveal the actors manipulating the information environment. Systemic audits of digital platforms that seek to quantify company compliance with stated policies, executive commitments, and regulatory requirements. Skills A monthly workshop that offers live walkthroughs of investigations, tools, and techniques. Plus, access to our full archive of workshop videos, slides, and transcripts. Hands-on guides to OSINT and digital investigative tools and techniques that help both professionals and motivated citizens become better investigators. Coming up: access to two self-paced online courses on OSINT and investigating digital safety. Founding Members only : A 30 min one-on-one or small group consultation or presentation per year delivered by Craig or Alexios. Tools OSINT Navigator, a database that allows investigators and researchers to search through thousands of open source intelligence tools to find the right one for your investigation. Interactive dashboards that we build as part of our investigations, including the AI Notes dashboard and Grok, is this true? trackers. Coming up: a suite of tools to power your investigations with AI part of a dedicated Lab tier , and structured access to the data underlying our investigations. Upgrade your skills and knowledge Start your membership now Join the Lab LARGE GROUP SUBSCRIPTIONS Interested in a bulk subscription package for your organization or a group discount for your class or conference? Please email us: [email protected] Discounted memberships We understand that $12.95/mo. is a substantial amount for some people. If you're between jobs, located in a lower-income economy, or otherwise unable to pay the full amount, please email [email protected] for a 1-year discounted membership rate. Indicator is your essential guide to understanding and investigating digital deception. Subscribe for free I consent to receive newsletters via email. Sign up Terms of service . ABOUT ARCHIVE UPGRADE window.__remixContext = {\"basename\":\"/\",\"future\":{\"v3_fetcherPersist\":false,\"v3_relativeSplatPath\":false,\"v3_throwAbortReason\":false,\"v3_routeConfig\":false,\"v3_singleFetch\":false,\"v3_lazyRouteDiscovery\":false,\"unstable_optimizeDeps\":false},\"isSpaMode\":false,\"state\":{\"loaderData\":{\"root\":{\"site\":{\"id\":\"307061ed-0223-42d6-b0bb-9db60103a5c8",
-        "structuredData": [
-          {
-            "@type": "WebPage",
-            "url": "https://indicator.media/upgrade"
-          }
-        ],
-        "resourceLinks": []
-      },
-      "recordDraft": {
-        "id": "6eccac0adbf2ab76c5f552c7f86c696f72d6c0bb78af379ba13a00d438144617",
-        "name": "Upgrade to an Indicator membership",
-        "kind": null,
-        "url": "https://indicator.media/upgrade",
-        "desc": "Indicator publishes original reporting, in-depth investigations, and practical OSINT resources and tutorials about digital deception. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
-      },
-      "missingFields": [
-        "kind"
-      ],
-      "reviewDecision": "evidence_complete_for_record_draft",
-      "note": "Ficha preliminar baseada no conteúdo capturado da página. Campos sem evidência permanecem ausentes; a aprovação depende do gate independente de publicação."
-    },
-    {
-      "schemaVersion": 1,
       "id": "757a1ad6453f2731c2e8c076e8645b48bf3154cb6b3036d02aa6cee339dce8d9",
       "category": "tools",
       "status": "draft_only",
@@ -807,6 +674,219 @@
         "desc": "G.A.M.E. empowers streamers, fans, and industry stakeholders to reclaim game spaces from harmful stereotypes, extremist rhetoric, and common disinformation tricks. Through MediaWise-created resources, training, and specialty content, G.A.M.E. supports the gaming community with tools to shape the information ecosystem and avoid being manipulated. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
       },
       "missingFields": [],
+      "reviewDecision": "evidence_complete_for_record_draft",
+      "note": "Ficha preliminar baseada no conteúdo capturado da página. Campos sem evidência permanecem ausentes; a aprovação depende do gate independente de publicação."
+    },
+    {
+      "schemaVersion": 1,
+      "id": "97995754262f60cf84e9c9b25a4f79ef5de8bc0f0de16639ebc888bd347f9412",
+      "category": "datasets",
+      "status": "draft_only",
+      "publicationReady": false,
+      "source": {
+        "url": "https://arcmira.com/famous/ai-companies/2026-09",
+        "discoveryProviders": [
+          "Gmail Radar PLOT newsletter"
+        ],
+        "pageTitle": "Top AI companies of September 2026 on podcasts and YouTube | Arcmira",
+        "checkedAt": "2026-11-10T20:53:48.541Z",
+        "httpStatus": 200,
+        "contentType": "text/html; charset=utf-8"
+      },
+      "evidence": {
+        "checks": {
+          "datasetSignal": true,
+          "directResource": true,
+          "format": true,
+          "coverage": true,
+          "license": true,
+          "licenseStatus": "stated"
+        },
+        "sourceExcerpt": "Top AI companies of September 2026 on podcasts and YouTube | Arcmira Famous Rankings Monthly edition, published Oct 15, 2026 Free to reuse with credit, CC BY 4.0 Top AI companies of September 2026 The AI companies podcasts and YouTube talked about most in September 2026. Compiled by Arcmira from transcripts, with every count linked to its source quotes. Counted over September 1 to 30, 2026 , UTC. See this week's ranking or cite this edition . Track this board Most mentioned Most videos with a mention in September 2026, against August. Most mentioned # Name September August Change Top shows Track 01 OpenAI #1 On 151 shows Cite Badge Copy HTML Download PNG LinkedIn image 1,572 +101% 783 +101% Bloomberg Television , Bloomberg Podcasts 02 Anthropic #2 On 142 shows Cite Badge Copy HTML Download PNG LinkedIn image 1,546 +109% 741 +109% Bloomberg Podcasts , Bloomberg Television 03 NVIDIA #3 On 96 shows Cite Badge Copy HTML Download PNG LinkedIn image 857 +64% 522 +64% Bloomberg Podcasts , Bloomberg Television 04 Hugging Face #4 On 87 shows Cite Badge Copy HTML Download PNG LinkedIn image 577 +179% 207 +179% Bloomberg Podcasts , Bloomberg Television 05 Google DeepMind #5 On 50 shows Cite Badge Copy HTML Download PNG LinkedIn image 152 +41% 108 +41% Bloomberg Podcasts , Bloomberg Television 06 DeepSeek Top 10 On 49 shows Cite Badge Copy HTML Download PNG LinkedIn image 145 +37% 106 +37% Bloomberg Television , Bloomberg Podcasts 07 xAI Top 10 On 52 shows Cite Badge Copy HTML Download PNG LinkedIn image 135 +59% 85 +59% Bloomberg Podcasts , Monitor The Situation 08 OpenRouter Top 10 On 39 shows Cite Badge Copy HTML Download PNG LinkedIn image 65 -14% 76 -14% TBPN , The Information 09 Cognition Top 10 On 32 shows Cite Badge Copy HTML Download PNG LinkedIn image 62 +63% 38 +63% TBPN , 20VC with Harry Stebbings 10 Perplexity Top 10 On 34 shows Cite Badge Copy HTML Download PNG LinkedIn image 61 -16% 73 -16% This Week in Startups , Invest Like The Best 11 METR Top 25 On 27 shows Cite Badge Copy HTML Download PNG LinkedIn image 61 31x 2 31x Cognitive Revolution \"How AI Changes Everything\" , Monitor The Situation 12 Moonshot AI Top 25 On 19 shows Cite Badge Copy HTML Download PNG LinkedIn image 54 +86% 29 +86% Bloomberg Television , Bloomberg Podcasts 13 Artificial Analysis Top 25 On 12 shows Cite Badge Copy HTML Download PNG LinkedIn image 43 +139% 18 +139% Theo - t3․gg , The AI Daily Brief: Artificial Intelligence News 14 Mistral AI Top 25 On 20 shows Cite Badge Copy HTML Download PNG LinkedIn image 41 +128% 18 +128% etn. , Bloomberg Podcasts 15 World Labs Top 25 On 11 shows Cite Badge Copy HTML Download PNG LinkedIn image 37 +517% 6 +517% Bloomberg Podcasts , Bloomberg Television 16 Lovable Top 25 On 19 shows Cite Badge Copy HTML Download PNG LinkedIn image 32 -33% 48 -33% etn. , 20VC with Harry Stebbings 17 Minimax Top 25 On 15 shows Cite Badge Copy HTML Download PNG LinkedIn image 32 +113% 15 +113% Bloomberg Television , Monitor The Situation 18 Elevenlabs Top 25 On 23 shows Cite Badge Copy HTML Download PNG LinkedIn image 29 -29% 41 -29% 20VC with Harry Stebbings , a16z 19 Cohere Top 25 On 14 shows Cite Badge Copy HTML Download PNG LinkedIn image 26 +271% 7 +271% Bloomberg Podcasts , Bloomberg Television 20 Redwood Research Top 25 On 13 shows Cite Badge Copy HTML Download PNG LinkedIn image 25 +47% 17 +47% Monitor The Situation , Cognitive Revolution \"How AI Changes Everything\" 21 Higgsfield Top 25 On 14 shows Cite Badge Copy HTML Download PNG LinkedIn image 23 +92% 12 +92% TBPN , Grace Gong 22 Sierra Top 25 On 13 shows Cite Badge Copy HTML Download PNG LinkedIn image 21 +31% 16 +31% 20VC with Harry Stebbings , Lenny's Podcast 23 Granola Top 25 On 13 shows Cite Badge Copy HTML Download PNG LinkedIn image 21 -34% 32 -34% The Next New Thing , How I AI 24 Scale AI Top 25 On 13 shows Cite Badge Copy HTML Download PNG LinkedIn image 20 +150% 8 +150% TBPN , 20VC with Harry Stebbings 25 Fireworks AI Top 25 On 12 shows Cite Badge Copy HTML Downl",
+        "structuredData": [
+          {
+            "@type": "Organization",
+            "name": "Arcmira",
+            "description": "Arcmira makes YouTube transcript search and monitoring for your AI: exact quotes, full transcripts and speakers. It is an SF-based AI company that indexes podcasts, interviews and long-form YouTube video and maps who appears where, what they discuss and which brands are mentioned.",
+            "url": "https://arcmira.com"
+          },
+          {
+            "@type": "WebSite",
+            "name": "Arcmira",
+            "url": "https://arcmira.com"
+          },
+          {
+            "@type": "Dataset",
+            "name": "Top AI companies of September 2026",
+            "description": "The AI companies podcasts and YouTube mentioned most in September 2026, and the ones that rose most against August. Free to reuse with credit, CC BY 4.0.",
+            "url": "https://arcmira.com/famous/ai-companies/2026-09",
+            "license": "https://creativecommons.org/licenses/by/4.0/",
+            "creator": {
+              "@type": "Organization",
+              "name": "Arcmira",
+              "url": "https://arcmira.com/"
+            },
+            "distribution": [
+              {
+                "@type": "DataDownload",
+                "encodingFormat": "text/csv",
+                "contentUrl": "https://arcmira.com/famous/data/ai-companies/2026-09.csv"
+              },
+              {
+                "@type": "DataDownload",
+                "encodingFormat": "application/json",
+                "contentUrl": "https://arcmira.com/famous/data/ai-companies/2026-09.json"
+              }
+            ],
+            "datePublished": "2026-10-15T08:19:43.133Z",
+            "dateModified": "2026-10-15T08:19:43.133Z",
+            "temporalCoverage": "2026-09-01/2026-09-30"
+          },
+          {
+            "@type": "BreadcrumbList"
+          },
+          {
+            "@type": "ItemList",
+            "name": "Top AI companies of September 2026, most mentioned"
+          }
+        ],
+        "resourceLinks": [
+          {
+            "url": "https://arcmira.com/famous/data/ai-companies/2026-09.csv",
+            "label": "Download CSV"
+          },
+          {
+            "url": "https://arcmira.com/famous/data/ai-companies/2026-09.json",
+            "label": "Download JSON"
+          },
+          {
+            "url": "https://arcmira.com/famous/data/ai-companies/latest.csv",
+            "label": "https://arcmira.com/famous/data/ai-companies/latest.csv"
+          },
+          {
+            "url": "https://arcmira.com/famous/data/ai-companies/latest.json",
+            "label": "https://arcmira.com/famous/data/ai-companies/latest.json"
+          },
+          {
+            "url": "https://arcmira.com/docs/api-reference",
+            "label": "API Reference"
+          }
+        ]
+      },
+      "recordDraft": {
+        "id": "97995754262f60cf84e9c9b25a4f79ef5de8bc0f0de16639ebc888bd347f9412",
+        "name": "Top AI companies of September 2026 on podcasts and YouTube | Arcmira",
+        "org": "Arcmira",
+        "territoryTier": "Outros",
+        "kind": "dataset",
+        "themes": [
+          "Dados abertos"
+        ],
+        "coverage": "Top AI companies of September 2026 on podcasts and YouTube | Arcmira Famous Rankings Monthly edition, published Oct 15, 2026 Free to reuse with credit, CC BY 4.0 Top AI companies of September 2026 The AI companies podcasts and YouTube talked about most in September 2026.",
+        "frequency": "Top AI companies of September 2026 on podcasts and YouTube | Arcmira Famous Rankings Monthly edition, published Oct 15, 2026 Free to reuse with credit, CC BY 4.0 Top AI companies of September 2026 The AI companies podcasts and YouTube talked about most in September 2026.",
+        "format": "Rising Star # Name September Expected Change Top shows Track 01 METR Rising Star On 27 shows Cite Badge Copy HTML Download PNG LinkedIn image 54 vs 1 expected 45x 1 45x Cognitive Revolution \"How AI Changes Everything\" , Monitor The Situation 02 World Labs Rising Star On 11 shows Cite Badge Copy HTML Download PNG LinkedIn image 37 vs 5 expected +650% 5 +650% Bloomberg Podcasts , Bloomberg Television 03 Hugging Face Rising Star On 87 shows Cite Badge Copy HTML Download PNG LinkedIn image 549 vs 218 expected +152% 218 +152% Bloomberg Podcasts , Bloomberg Television 04 Zhipu AI Rising Star On 12 shows Cite Badge Copy HTML Download PNG LinkedIn image 17 vs 1 expected 13x 1 13x DRM News , Bloomberg Podcasts 05 Cohere Rising Star On 14 shows Cite Badge Copy HTML Download PNG LinkedIn image 25 vs 6 expected +289% 6 +289% Bloomberg Podcasts , Bloomberg Television 06 Anthropic Rising Star On 142 s",
+        "period": "2026-09-01/2026-09-30",
+        "granularity": "Não informado pela fonte oficial",
+        "geoUnit": "Não informado pela fonte oficial",
+        "api": "https://arcmira.com/famous/data/ai-companies/2026-09.csv",
+        "docs": "https://arcmira.com/famous/ai-companies/2026-09",
+        "limitations": "A página consultada não detalha todas as limitações, a atualização e a qualidade do recurso; conferir documentação e licença antes do uso editorial.",
+        "lastChecked": "2026-11-10",
+        "url": "https://arcmira.com/famous/ai-companies/2026-09",
+        "description": "The AI companies podcasts and YouTube mentioned most in September 2026, and the ones that rose most against August. Free to reuse with credit, CC BY 4.0."
+      },
+      "missingFields": [],
+      "reviewDecision": "evidence_complete_for_record_draft",
+      "note": "Ficha preliminar baseada no conteúdo capturado da página. Campos sem evidência permanecem ausentes; a aprovação depende do gate independente de publicação."
+    },
+    {
+      "schemaVersion": 1,
+      "id": "b2a332008b683ee7c428c8184723f577a0e23aa0820439ca4c959dd2ad93fa13",
+      "category": "tools",
+      "status": "draft_only",
+      "publicationReady": false,
+      "source": {
+        "url": "https://login.mailchimp.com/signup/email-referral",
+        "discoveryProviders": [
+          "Gmail Radar PLOT newsletter"
+        ],
+        "pageTitle": "Best Email Marketing Platform to Grow Your Business | Mailchimp",
+        "checkedAt": "2026-11-10T20:53:48.541Z",
+        "httpStatus": 200,
+        "contentType": "text/html; charset=UTF-8"
+      },
+      "evidence": {
+        "checks": {
+          "productSignal": true,
+          "function": true,
+          "access": true,
+          "license": false,
+          "licenseStatus": "not stated in captured source"
+        },
+        "sourceExcerpt": "Best Email Marketing Platform to Grow Your Business | Mailchimp Skip to main content Join Mailchimp with a free 14-day trial or save 15% off on 10,000+ contacts. Start today. EMAIL MARKETING PLATFORM Convert more customers with a powerful and intuitive platform Create personalized emails, target precisely with behavior-based automations and segments, and optimize with real-time reporting. Enter email address Start with a free 14-day trial and send your first email today. Terms apply.† Email marketing, powered by AI — your partner for converting more customers The #1 AI-powered email marketing and automations platform* that recommends ways to get more opens, clicks, and sales. Up to 30x ROI seen by Mailchimp users* >99% deliverability rate for email (average) 11M+ Users of Mailchimp globally 50+ behavior-based triggers for personalization Personalize your marketing at scale Fuel e-commerce growth with new automations Proactively reach customers when they're ready to buy or churn with predictive automations that drive revenue. Learn about new triggers Save time with templates just for e-commerce Get a head start on your next e-mail with professionally-designed templates built specifically to support e-commerce growth. Explore the template gallery Reach more customers with less effort Mailchimp’s automations help you engage your audience at the right time, with the right message, and without any manual intervention. Explore automations Reach more customers - Automations Image showcasing an abstract view of Mailchimp's app interface highlighting the advanced segmentation feature. Generate ROI with advanced segmentation Our powerful segmentation logic and filters help you use relevant and timely communication to target the customers most likely to purchase. Explore segmentation Mailchimp’s SMS platform is more powerful than ever We’re introducing new enhancements to our SMS marketing tools all the time—so you can keep growing and outpacing the competition. Explore SMS features Create effective marketing campaigns in minutes with AI-powered design tools Let AI help you write the first draft Intuit Assist helps you quickly craft relevant content like headlines and body copy. It can even create fully built emails—all you need to do is review, edit, and publish. Explore generative AI Image of an abstract view of an email interface, where the headline is being actively edited using Mailchimp's generative AI builder feature. The AI suggests creative and engaging headlines and also offers prompt suggestions such as a sales announcement. Image of an abstracted view of Mailchimp's product recommendations tool in the Email Builder. Drive sales with AI-powered product recommendations Use preset feeds like best sellers or new arrivals to send personalized emails with dynamic recommendations based on your customer interactions. Explore dynamic product recommendations Create stunning emails faster by choosing from 130+ high-quality templates Pick and personalize the design that’s just right Choose a template that fits your industry and unique business goals to see the difference a great layout can make. Explore templates Image of a carousel showing various email template options from Mailchimp's Email Template Library. Users can select from a range of professionally designed templates tailored for different types of email campaigns and business needs. Make smarter decisions based on personalized benchmarking Stay connected to the apps and services you love Make Mailchimp your single source of truth for marketing activities. We offer 300+ integrations so you have everything you need in a single location. Explore 300+ Integrations Track, analyze, and optimize your impact—so you can sell more See what's working and make informed decisions with an omni-channel dashboard, audience analytics, testing, and more. Explore Reporting and Analytics Get up and running easily with personalized onboarding services Get guided support from an onboarding speciali",
+        "structuredData": [
+          {
+            "@type": "Organization",
+            "name": "Mailchimp",
+            "url": "https://mailchimp.com/"
+          },
+          {
+            "@type": "WebSite",
+            "name": "Mailchimp",
+            "url": "https://mailchimp.com/"
+          },
+          {
+            "@type": "WebPage",
+            "name": "Best Email Marketing Platform to Grow Your Business | Mailchimp",
+            "description": "See how Mailchimp’s email marketing platform can help grow your business with our best-in-class email tools.",
+            "url": "https://mailchimp.com/solutions/email-marketing-platform/"
+          }
+        ],
+        "resourceLinks": [
+          {
+            "url": "https://mailchimp.com/integrations/zapier/",
+            "label": "Zapier"
+          },
+          {
+            "url": "https://mailchimp.com/developer/marketing/api/",
+            "label": "API docs"
+          },
+          {
+            "url": "https://mailchimp.com/developer/marketing/guides/quick-start/",
+            "label": "Marketing API"
+          },
+          {
+            "url": "https://mailchimp.com/developer/transactional/guides/quick-start",
+            "label": "Transactional API"
+          },
+          {
+            "url": "https://mailchimp.com/integrations/zapier/",
+            "label": "Zapier"
+          },
+          {
+            "url": "https://mailchimp.com/developer/marketing/api/",
+            "label": "API docs"
+          },
+          {
+            "url": "https://mailchimp.com/developer/marketing/guides/quick-start/",
+            "label": "Marketing API"
+          },
+          {
+            "url": "https://mailchimp.com/developer/transactional/guides/quick-start",
+            "label": "Transactional API"
+          }
+        ]
+      },
+      "recordDraft": {
+        "id": "b2a332008b683ee7c428c8184723f577a0e23aa0820439ca4c959dd2ad93fa13",
+        "name": "Best Email Marketing Platform to Grow Your Business",
+        "kind": null,
+        "url": "https://login.mailchimp.com/signup/email-referral",
+        "desc": "Are you exploring the best email marketing platforms? See how Mailchimp’s email marketing platform can help grow your business with our best-in-class tools. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
+      },
+      "missingFields": [
+        "kind"
+      ],
       "reviewDecision": "evidence_complete_for_record_draft",
       "note": "Ficha preliminar baseada no conteúdo capturado da página. Campos sem evidência permanecem ausentes; a aprovação depende do gate independente de publicação."
     },
