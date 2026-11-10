@@ -2,7 +2,7 @@
 // Persist public candidate metadata across daily discovery runs without approval by inference.
 const fs=require('node:fs');
 const {identity}=require('./lead-identity');
-const {classifyLead}=require('./lead-category');
+const {classifyLead}=require(require('node:path').join(process.cwd(),'scripts/lead-category'));
 const current=JSON.parse(fs.readFileSync(process.argv[2]||'intake/discovery-quality.json','utf8'));
 const dest=process.argv[3]||'intake/editorial-queue.json';
 let previous={candidates:[]};
