@@ -57,7 +57,7 @@ function deadlineDates(text){
  });
 }
 function review(c){
- const a=c.audit||{}, docs=a.structuredData||[], raw=[a.pageDescription||'',a.evidenceText||'',flat(docs)].filter(Boolean).join(' ').replace(/\\s+/g,' ').trim(), text=raw.toLowerCase(), title=String(a.pageTitle||c.title||'').toLowerCase();
+ const a=c.audit||{}, docs=a.structuredData||[], raw=[a.pageDescription||'',a.evidenceText||'',flat(docs)].filter(Boolean).join(' ').replace(/\s+/g,' ').trim(), text=raw.toLowerCase(), title=String(a.pageTitle||c.title||'').toLowerCase();
  const ld=docs.map(x=>({type:flat(x['@type']).toLowerCase(),data:x}));
  const category=inferCategory(c,text,title),checks={},missing=[];
  const hardStatus=a.httpStatus===200&&/text\/html|application\/json/i.test(a.contentType||'');
