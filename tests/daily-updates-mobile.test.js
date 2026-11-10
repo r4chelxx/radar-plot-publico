@@ -16,7 +16,7 @@ test('daily update cards show each verified record description, not a repeated b
  const latest=eligible.map(x=>x.date).sort().at(-1);
  const day=eligible.filter(x=>x.date===latest);
  const unique=new Set(day.flatMap(x=>x.items||[]).map(x=>x.id));
- assert(html.includes(unique.size+' novos registros'));
+ assert(html.includes(unique.size+(unique.size===1?' novo registro':' novos registros')));
  const catalogs={'nova-oportunidade':D.opportunities,dados:D.datasets,ferramentas:D.tools};
  const hrefs={'nova-oportunidade':'#oportunidade/',dados:'#base/',ferramentas:'#ferramentas/'};
  for(const entry of day){
