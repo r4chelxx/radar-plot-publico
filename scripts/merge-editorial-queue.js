@@ -50,6 +50,11 @@ function inferTechnicalCategory(item){
  return 'uncategorized';
 }
 function categoryFor(item){
+ const supplied=item.category==='datasets'?'datasets':null;
+ // Preserve only the explicit category emitted by the dedicated dataset collector.
+ // Opportunity/tool labels remain inference-only because generic feeds can attach
+ // those labels to headlines that are not actually records in those categories.
+ if(supplied)return supplied;
  const detected=inferCategory(item.title);
  if(detected!=='uncategorized')return detected;
  return inferTechnicalCategory(item);
