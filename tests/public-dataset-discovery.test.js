@@ -12,6 +12,9 @@ test('dataset discovery emits only canonical dataset candidates from official AP
  assert.equal(r.leads.length,3);
  assert(r.leads.every(x=>x.category==='datasets'&&x.editorialStatus==='unverified'));
  assert(r.leads.some(x=>x.url.includes('data.worldbank.org/indicator/SP.POP.TOTL')));
+ const worldBank=r.leads.find(x=>x.url.includes('data.worldbank.org/indicator/SP.POP.TOTL'));
+ assert.equal(worldBank.resourceLinks[0].label,'World Bank API');
+ assert(worldBank.sourceEvidence.includes('SP.POP.TOTL'));
  assert(r.health.every(x=>x.status==='ok'));
 });
 test('dataset discovery reports a source failure without hiding healthy sources',async()=>{
