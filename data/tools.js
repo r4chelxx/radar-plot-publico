@@ -1,6 +1,13 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.tools=[
 {
+  "id": "9074bd0330d7cf1e7b676cd5fa22eacf03a786e13009162ac6f99e121dca4cf6",
+  "name": "Quantitative Analysis of Textual Data • quanteda",
+  "kind": "pacote R",
+  "url": "https://quanteda.io/",
+  "desc": "A fast, flexible, and comprehensive framework for quantitative text analysis in R. Provides functionality for corpus management, creating and manipulating tokens and n-grams, exploring keywords in context, forming and manipulating sparse matrices of documents by features and feature co-occurrences, analyzing keywords, computing feature similarities and distances, applying content dictionaries, applying supervised and unsupervised machine learning, visually representing text and text analyses, and more. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
+}, 
+{
   "id": "3a612d3b0026605c96abe95b17102fd7ec515303f91661745ecd97a722bed17a",
   "name": "Python",
   "kind": "linguagem de programação",
