@@ -6,6 +6,26 @@ window.RADAR_PARTS.changelog=[
   "title": "Publicação editorial verificada — 2026-11-09",
   "items": [
     {
+      "id": "3a612d3b0026605c96abe95b17102fd7ec515303f91661745ecd97a722bed17a",
+      "title": "Welcome to Python.org"
+    },
+    {
+      "id": "5c1be986e488cd7da4221e6f239cdd4b9259d573f9151cf5b6d1b348b06b2dbe",
+      "title": "R: The R Project for Statistical Computing"
+    },
+    {
+      "id": "80b3a36bc32b874256e675493db452de9c5e04cb25b98648d340a315a67a3fbd",
+      "title": "Zebra BI | Actionable Reporting Made Easy"
+    }
+  ],
+  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Welcome to Python.org; R: The R Project for Statistical Computing; Zebra BI | Actionable Reporting Made Easy."
+}, 
+{
+  "date": "2026-11-09",
+  "type": "ferramentas",
+  "title": "Publicação editorial verificada — 2026-11-09",
+  "items": [
+    {
       "id": "8c69a7bafba7ddd1615d7cb77a6d643e3f283bf08d2bf8f6f74bb96e26642a66",
       "title": "pandas - Python Data Analysis Library"
     },
