@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T23:36:52.564Z",
+  "generatedAt": "2026-11-10T23:41:20.884Z",
   "policy": "Evidence-based category triage. Missing license is recorded as unknown when not found; complete means draft eligibility only, never approval or publication.",
   "counts": {
     "pending_more_evidence": 1548,
@@ -21629,7 +21629,7 @@
       "url": "https://human-settlement.emergency.copernicus.eu/datasets.php",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-10T23:36:48.947Z",
+      "checkedAt": "2026-11-10T23:41:19.565Z",
       "checks": {
         "datasetSignal": true,
         "directResource": true,
@@ -21785,7 +21785,7 @@
       "url": "https://global-surface-water.appspot.com/download",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-10T23:36:48.947Z",
+      "checkedAt": "2026-11-10T23:41:19.565Z",
       "checks": {
         "datasetSignal": true,
         "directResource": true,

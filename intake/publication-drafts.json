@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-10T23:36:52.712Z",
-  "sourceQueueUpdatedAt": "2026-11-10T23:36:48.947Z",
+  "generatedAt": "2026-11-10T23:41:21.043Z",
+  "sourceQueueUpdatedAt": "2026-11-10T23:41:19.565Z",
   "policy": "Evidence-complete drafts only; the separate deterministic evidence gate must independently approve before publication.",
   "summary": {
     "eligibleForDrafting": 4,
@@ -58,13 +58,11 @@
       "recordDraft": {
         "id": "733c36409f57a6d64b4eb49ac945a060082aa3ebc58f68ebc56d21824af048b3",
         "name": "R",
-        "kind": null,
+        "kind": "record linkage e correspondência de dados",
         "url": "https://cran.r-project.org/package=fedmatch",
         "desc": "Provides a flexible set of tools for matching two un-linked data sets. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
       },
-      "missingFields": [
-        "kind"
-      ],
+      "missingFields": [],
       "reviewDecision": "evidence_complete_for_record_draft",
       "note": "Ficha preliminar baseada no conteúdo capturado da página. Campos sem evidência permanecem ausentes; a aprovação depende do gate independente de publicação."
     },
@@ -116,14 +114,11 @@
       "recordDraft": {
         "id": "87d587fb19392bb7866daeeb6b83219beda45f46b058d876c647f27e3e0253d4",
         "name": "Python Record Linkage Toolkit Documentation &mdash; Python Record Linkage Toolkit 0.15 documentation",
-        "kind": null,
+        "kind": "record linkage e correspondência de dados",
         "url": "https://recordlinkage.readthedocs.io/",
-        "desc": null
+        "desc": "Documentação oficial de Python Record Linkage Toolkit Documentation &mdash; Python Record Linkage Toolkit 0.15 documentation para uso em análise e tratamento de dados. Source note: consultar a documentação e a licença antes do uso editorial."
       },
-      "missingFields": [
-        "kind",
-        "desc"
-      ],
+      "missingFields": [],
       "reviewDecision": "evidence_complete_for_record_draft",
       "note": "Ficha preliminar baseada no conteúdo capturado da página. Campos sem evidência permanecem ausentes; a aprovação depende do gate independente de publicação."
     },
@@ -137,7 +132,7 @@
         "url": "https://human-settlement.emergency.copernicus.eu/datasets.php",
         "discoveryProviders": [],
         "pageTitle": "Global Human Settlement - Datasets - European Commission",
-        "checkedAt": "2026-11-10T23:36:48.947Z",
+        "checkedAt": "2026-11-10T23:41:19.565Z",
         "httpStatus": 200,
         "contentType": "text/html; charset=UTF-8"
       },
@@ -262,7 +257,7 @@
       "recordDraft": {
         "id": "69113ed0b823c72b5e77e5a4dc488e18bb492814785734c71bb305b1b4ccade7",
         "name": "Global Human Settlement - Datasets - European Commission",
-        "org": null,
+        "org": "European Commission Joint Research Centre (JRC)",
         "territoryTier": "Global",
         "kind": "catalog",
         "themes": [
@@ -281,9 +276,7 @@
         "url": "https://human-settlement.emergency.copernicus.eu/datasets.php",
         "description": "The GHSL framework produces thematic information and evidence-based knowledge supporting the implementation of EU urban policy and the international frameworks."
       },
-      "missingFields": [
-        "org"
-      ],
+      "missingFields": [],
       "reviewDecision": "evidence_complete_for_record_draft",
       "note": "Ficha preliminar baseada no conteúdo capturado da página. Campos sem evidência permanecem ausentes; a aprovação depende do gate independente de publicação."
     },
@@ -297,7 +290,7 @@
         "url": "https://global-surface-water.appspot.com/download",
         "discoveryProviders": [],
         "pageTitle": "Global Surface Water - Data Access",
-        "checkedAt": "2026-11-10T23:36:48.947Z",
+        "checkedAt": "2026-11-10T23:41:19.565Z",
         "httpStatus": 200,
         "contentType": "text/html; charset=utf-8"
       },
@@ -350,7 +343,7 @@
       "recordDraft": {
         "id": "deff0b3866c2aa499128f6ea642ccb9e9d57cb45189f04e3fc7f5d5fca596325",
         "name": "Global Surface Water - Data Access",
-        "org": null,
+        "org": "Joint Research Centre (JRC), European Commission",
         "territoryTier": "Global",
         "kind": "catalog",
         "themes": [
@@ -369,9 +362,7 @@
         "url": "https://global-surface-water.appspot.com/download",
         "description": "Global Surface Water - Data Access Joint Research Centre Global Surface Water - Data Access NEW LAYERS The new dataset 1984-2024 is available to download Last updated: 15-10-2026 License All data here is produced under the Copernicus Programme and is provided free of charge, without restriction of use."
       },
-      "missingFields": [
-        "org"
-      ],
+      "missingFields": [],
       "reviewDecision": "evidence_complete_for_record_draft",
       "note": "Ficha preliminar baseada no conteúdo capturado da página. Campos sem evidência permanecem ausentes; a aprovação depende do gate independente de publicação."
     }
