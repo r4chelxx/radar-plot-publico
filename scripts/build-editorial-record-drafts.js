@@ -21,7 +21,10 @@ function publisherName(data){
  return clean(typeof raw==='string'?raw:raw.name)||(/organization/.test(type)?clean(data.name):'')||null;
 }
 function explicitOrganization(text){
- const m=String(text||'').match(/(?:^|[.!?]\s+)(?:The\s+)?([A-Z][A-Za-z0-9&.'’-]*(?:\s+[A-Z][A-Za-z0-9&.'’-]*){0,3})\s+(?:invites|is pleased to announce|announces)\b/);
+ const source=clean(text);
+ const labeled=source.match(/(?:organisation|organization|organizer|organiser|funder|provider)\s*:\s*([^.!?]{2,160}?)(?=\s+(?:status|type|theme|deadline|eligibility|target region|application language|funding size|how to apply)\s*:|[.!?]|$)/i);
+ if(labeled?.[1])return clean(labeled[1]);
+ const m=source.match(/(?:^|[.!?]\s+)(?:The\s+)?([A-Z][A-Za-z0-9&.'’-]*(?:\s+[A-Z][A-Za-z0-9&.'’-]*){0,3})\s+(?:invites|is pleased to announce|announces)\b/);
  return clean(m?.[1])||null;
 }
 function eligibilityScope(text){

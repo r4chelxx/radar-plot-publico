@@ -85,3 +85,10 @@ test('complete opportunity evidence creates a machine approval that the publishe
   assert(ctx.window.RADAR_PARTS.opportunities.some(x=>x.id==='verified-arcgis-competition'));
  }finally{fs.rmSync(tmp,{recursive:true,force:true})}
 });
+
+test('extracts an explicitly labeled organization from a funding page',()=>{
+ const q={candidates:[{id:'gfmd-funding',title:'Knight-Wallace Fellowship',url:'https://gfmd.info/fundings/knight-wallace-fellowship-international-applicants',category:'opportunities',audit:{pageTitle:'Knight-Wallace Fellowship (International Applicants) - GFMD',pageDescription:'A fellowship for international journalists with a future application deadline and explicit eligibility.',httpStatus:200,contentType:'text/html',checkedAt:'2026-11-10T10:00:00Z',evidenceText:'Organisation: Wallace House Center for Journalists Status: Open Type: Fellowship Deadline: 2099-12-01 Eligibility: International journalists. The fellowship supports ambitious journalism projects.',structuredData:[],resourceLinks:[]}}]};
+ const review={records:[{id:'gfmd-funding',category:'opportunities',decision:'evidence_complete_for_record_draft',publicationReady:false,checks:{callSignal:true,deadline:'2099-12-01',eligibility:true}}]};
+ const out=buildDrafts(q,review,'2026-11-10T10:00:00Z');
+ assert.equal(out.drafts[0].recordDraft.org,'Wallace House Center for Journalists');
+});
