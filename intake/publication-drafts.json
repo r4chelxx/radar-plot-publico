@@ -1,32 +1,205 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-10T20:03:08.517Z",
-  "sourceQueueUpdatedAt": "2026-11-10T20:02:55.377Z",
+  "generatedAt": "2026-11-10T20:07:12.474Z",
+  "sourceQueueUpdatedAt": "2026-11-10T20:06:55.693Z",
   "policy": "Evidence-complete drafts only; the separate deterministic evidence gate must independently approve before publication.",
   "summary": {
-    "eligibleForDrafting": 1,
-    "drafts": 1,
+    "eligibleForDrafting": 6,
+    "drafts": 6,
     "byCategory": {
       "opportunities": 0,
       "datasets": 0,
-      "tools": 1
+      "tools": 6
     },
     "publicationReady": 0
   },
   "drafts": [
     {
       "schemaVersion": 1,
-      "id": "9074bd0330d7cf1e7b676cd5fa22eacf03a786e13009162ac6f99e121dca4cf6",
+      "id": "9f08b5a99c6c9f62c7b1c97611500f5db6b140a14c8c8c4a5b34b00faaad2427",
       "category": "tools",
       "status": "draft_only",
       "publicationReady": false,
       "source": {
-        "url": "https://quanteda.io/",
+        "url": "https://www.tableau.com/",
         "discoveryProviders": [
           "Data Visualization Society"
         ],
-        "pageTitle": "Quantitative Analysis of Textual Data • quanteda",
-        "checkedAt": "2026-11-10T20:02:55.377Z",
+        "pageTitle": "Business Intelligence and Analytics Software | Tableau",
+        "checkedAt": "2026-11-10T20:06:55.693Z",
+        "httpStatus": 200,
+        "contentType": "text/html; charset=utf-8"
+      },
+      "evidence": {
+        "checks": {
+          "productSignal": true,
+          "function": true,
+          "access": true,
+          "license": false,
+          "licenseStatus": "not stated in captured source"
+        },
+        "sourceExcerpt": "Business Intelligence and Analytics Software | Tableau Skip to content Join us live: Meet Tableau Studio, analytics built for the agentic era. Nov 18th at 9am PT. Register on LinkedIn Start for free Vibe code analytics with Tableau Studio Build with Tableau in your favorite AI tools Act on trusted insights in the flow of work See our customer stories Start for free Learn more Scale analytics everywhere on a single, trusted knowledge layer Deliver accurate, consistent metrics every agent and person can rely on, powered by Tableau’s knowledge engine and semantic layer. Chat with your data to discover insights and get your next best move Ask questions in natural language and get proactive, AI-powered insights right where you work, no dashboards required. Create anything with Tableau from wherever you work best Bring dashboards, vizzes, and data apps into any agent or surface across Slack, Teams, Claude, and ChatGPT. Tableau Cloud Need a fully hosted agentic analytics solution in the cloud? You can connect and analyze your data with powerful agentic analytics and securely share insights. Learn more Tableau Server For organizations in highly regulated industries, this self-hosted agentic analytics solution gives you full control of your data and analytics deployment. Learn more Tableau Next Salesforce customers can make smarter, faster decisions with agentic analytics delivered directly in CRM and Slack. Learn more Watch for free Explore the Tableau Community Explore the viz gallery Download for free Agentic analytics Fuel faster data, insights, and action with Tableau Next See how you can turn trusted insights into autonomous action, anytime, anywhere, with the world's first agentic analytics platform. See it now Free trial Start your free trial of Tableau Test 1 Try now Tableau+ Bring agentic analytics to every corner of your organization with Tableau+ Test 2 Learn more Gartner 2026 Gartner® Magic Quadrant™ Leader Delivering trusted data across your business is essential. Read the Gartner Magic Quadrant report and learn how Tableau is using AI to reinvent how people consume and act on data. Read the report Try Tableau for free Buy Tableau now",
+        "structuredData": [
+          {
+            "@type": "Organization",
+            "name": "Tableau",
+            "description": "Business Intelligence and Analytics Software",
+            "url": "https://www.tableau.com"
+          }
+        ],
+        "resourceLinks": [
+          {
+            "url": "https://www.tableau.com/products/public/download",
+            "label": "Get Tableau for free"
+          },
+          {
+            "url": "https://www.tableau.com/products/desktop-free/download",
+            "label": "Download for free"
+          }
+        ]
+      },
+      "recordDraft": {
+        "id": "9f08b5a99c6c9f62c7b1c97611500f5db6b140a14c8c8c4a5b34b00faaad2427",
+        "name": "Business Intelligence and Analytics Software | Tableau",
+        "kind": "plataforma de análise de dados",
+        "url": "https://www.tableau.com/",
+        "desc": "Tableau can help anyone see and understand their data. Connect to almost any database, drag and drop to create visualizations, and share with a click. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
+      },
+      "missingFields": [],
+      "reviewDecision": "evidence_complete_for_record_draft",
+      "note": "Ficha preliminar baseada no conteúdo capturado da página. Campos sem evidência permanecem ausentes; a aprovação depende do gate independente de publicação."
+    },
+    {
+      "schemaVersion": 1,
+      "id": "a6943fe0aa51788e6f02a85895ba465cd40dfb9c7cc5462996acf7e81b148ff2",
+      "category": "tools",
+      "status": "draft_only",
+      "publicationReady": false,
+      "source": {
+        "url": "https://vega.github.io/",
+        "discoveryProviders": [
+          "Data Visualization Society"
+        ],
+        "pageTitle": "Vega",
+        "checkedAt": "2026-11-10T20:06:55.693Z",
+        "httpStatus": 200,
+        "contentType": "text/html; charset=utf-8"
+      },
+      "evidence": {
+        "checks": {
+          "productSignal": true,
+          "function": true,
+          "access": true,
+          "license": false,
+          "licenseStatus": "not stated in captured source"
+        },
+        "sourceExcerpt": "Vega Vega Projects Visualization Grammars The Vega projects provide an ecosystem of tools for declarative data visualizations. The various components of this ecosystem build on each other providing different levels of abstraction. Vega is a NumFOCUS sponsored project. Toolkits Vega is a visualization grammar, a declarative language for creating, saving, and sharing interactive visualization designs. With Vega, you can describe the visual appearance and interactive behavior of a visualization in a JSON format, and generate web-based views using HTML5 Canvas or SVG. Examples | Docs | Tutorials | Online Editor | GitHub Vega-Lite is a high-level visualization grammar. It provides a concise JSON syntax for supporting rapid generation of visualizations to support analysis. Vega-Lite support interactive multi-view graphics. Specifications are compiled to Vega. Examples | Docs | Tutorials | Online Editor | GitHub Vega-Altair is a declarative visualization library for Python. Its simple, friendly and consistent API, built on top of the powerful Vega-Lite grammar, empowers you to spend less time writing code and more time exploring your data. Examples | Docs | Tutorials | GitHub VegaFusion provides serverside acceleration for the Vega visualization grammar. While not limited to Python, an initial application of VegaFusion is the acceleration of the Vega-Altair Python interface to Vega-Lite. Examples | Docs | GitHub Systems Vega-Embed makes it easy to embed interactive Vega and Vega-Lite views into web pages. With Vega-Embed you can publish Vega visualizations as embedded web components with interactive parameters. jsDelivr | Documentation | GitHub Vega-Editor is a web application for authoring and testing Vega and Vega-Lite visualizations. It includes a number of example specifications that showcase both the visual encodings and interaction techniques. Online Editor | GitHub Components Vega-Datasets is a collection of datasets used in Vega and Vega-Lite examples. jsDelivr | GitHub Vega Themes is a configuration object with default settings for a variety of visual properties such as colors, typefaces, line widths and spacing. jsDelivr | Demo page | GitHub Vega-Tooltips is a tooltip plugin for Vega and Vega-Lite visualizations. This plugin implements a custom tooltip handler for Vega that uses custom HTML tooltips instead of the HTML title attribute. jsDelivr | GitHub VlConvert provides a Rust library, CLI utility, and Python library for converting Vega-Lite chart specifications into static images (SVG or PNG) or Vega chart specifications. Python Examples | GitHub Altair-Tiles can be used to add tiles from any xyz tile provider such as OpenStreetMap to your Altair chart. Documentation | GitHub Dash Vega Components can be used to display Vega-Altair charts in Dash applications. Dash Documentation | GitHub Governance Governance Community health files for the Vega Projects. Charter | Code of Conduct | Steering-Committee | GitHub Roadmap provides our ideas to refine and extend the feature set and improve scalability to larger datasets. All of the planned improvements will benefit the whole Vega ecosystem. Project Board | GitHub Edit this page at github.com/vega/vega.github.io .",
+        "structuredData": [],
+        "resourceLinks": [
+          {
+            "url": "https://github.com/vega/vega-datasets",
+            "label": "Vega-Datasets"
+          }
+        ]
+      },
+      "recordDraft": {
+        "id": "a6943fe0aa51788e6f02a85895ba465cd40dfb9c7cc5462996acf7e81b148ff2",
+        "name": "Vega",
+        "kind": "visualização de dados",
+        "url": "https://vega.github.io/",
+        "desc": "Vega is a declarative format for creating, saving, and sharing visualization designs. With Vega, visualizations are described in JSON, and generate interactive views using either HTML5 Canvas or SVG. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
+      },
+      "missingFields": [],
+      "reviewDecision": "evidence_complete_for_record_draft",
+      "note": "Ficha preliminar baseada no conteúdo capturado da página. Campos sem evidência permanecem ausentes; a aprovação depende do gate independente de publicação."
+    },
+    {
+      "schemaVersion": 1,
+      "id": "bf0f70ab6377c8041e340bdf48e30a2e326e89cb07d78998b89ba0c7ee5fb0be",
+      "category": "tools",
+      "status": "draft_only",
+      "publicationReady": false,
+      "source": {
+        "url": "https://www.sigmacomputing.com/",
+        "discoveryProviders": [
+          "Data Visualization Society"
+        ],
+        "pageTitle": "The AI runtime for business | Sigma",
+        "checkedAt": "2026-11-10T20:06:55.693Z",
+        "httpStatus": 200,
+        "contentType": "text/html; charset=utf-8"
+      },
+      "evidence": {
+        "checks": {
+          "productSignal": true,
+          "function": true,
+          "access": true,
+          "license": false,
+          "licenseStatus": "not stated in captured source"
+        },
+        "sourceExcerpt": "The AI runtime for business | Sigma Skip to main content SEE IT FIRST Nov 17 · Everyone builds. IT approved. 6 days, 22 hours, 2 minutes, 23 seconds remaining 6 d : 22 h : 02 m : 23 s Save your spot → Go build it. IT approves. Build analytics, apps, and agents on live warehouse data, with governance inherited at the source. Request a demo → Start a free trial Trusted by 2,000+ leading enterprises around the world 4.4 (500+) 4.8 (200+) Which regions are behind plan this quarter? Ask in plain language Live from your warehouse NA 96 % EMEA 78 % APAC 90 % LATAM 93 % EMEA is 22% behind plan Plan tracker To plan 92% Behind 1 region Built from this answer Spend less time building and more time solving Ask in plain language, get answers from live data, and turn them into apps. Hours spent pulling data go back to decisions. Sales Finance Ops Renewal tracker Budget approvals Inventory planner Put AI and automation in every team’s hands IT connects governed data once. From there, anyone can get answers with AI and hand routine work to agents. Warehouse Viewing as Priya , EMEA Warehouse rules Country Payroll Germany $4.2M United Kingdom $3.8M France $2.9M Usage and spend IT view Apps and agents 142 Spend vs. budget 64% Governed the moment it's built and always under IT's control Apps and agents inherit warehouse permissions down to the row, so IT can say yes to AI while tracking usage and spend. Agents Time window Last 30 days Active agents 388 21% vs prior 30 days Questions 4,490 12% vs prior 30 days Token usage 413M 34% vs prior 30 days Active users 97 9% vs prior 30 days 766 agents Agent Location Owner Users Tokens Margin Analyst Q3 Margin Review PS Priya Shah 12 21M Close Checklist Agent Month-End Close SO Sam Ortiz 8 7.1M Shift Lead Assistant OEE by Line ML Marcus Lee 23 4.9M Treasury Analyst Cash Flow AT Ana Torres 5 4.4M Exec Summary Agent Board Summary GK Grace Kim 3 3.6M Inventory Copilot Stock Levels DP Dev Patel 17 2.2M Cohort Copilot Retention OL Owen Lin 6 1.4M Stock Levels Published Inventory Copilot I track stock across your distribution centers and can post reorder lists to Slack. Access to Inventory Slack What runs out in Dallas this week? Queried Inventory as you: Central region only 3 SKUs run out before Friday's delivery. Sparkling Water 12oz is shortest, with 2 days of cover. Post the reorder list to #dallas-dc ? Approve Skip Ask a follow-up Security that follows the user Queries run with the viewer’s own warehouse permissions, down to the row. Set access once, and dashboards, AI answers, and agents follow it. Visibility into everything built Audit logs record who built, changed, and asked what, including AI conversations, so IT always knows what’s running. Control what you spend Sigma reuses cached results instead of querying your warehouse again, and usage dashboards show which workbooks and people drive the load. SOC 2 Type II PCI DSS HIPAA GDPR SSO & SCIM Visit the Security Center Finance Sales Marketing Operations Supply chain Sigma Slack Claude Codex ChatGPT Terminal Order Fulfillment Published Orders at risk $1.2M Shipping this week Short-ship orders 9 Of 212 this week Actions logged 9 of 9 By Fulfillment Agent Fulfillment Actions 9 rows written by Fulfillment Agent Retailer Order Issue Plant Action 1 Northgate Grocers $214K Line 4 down 9 hrs Monterrey Ship from Reno DC 2 Fresh Basket $188K Short 1,200 cases Monterrey Split ship, rest Fri 3 Summit Outdoor $156K Line 4 down 9 hrs Monterrey Move run to Line 2 4 Bayview Pharmacy $131K Resin delivery late Toledo Expedite resin PO 5 Cornerstone Market $118K Short 640 cases Toledo Ship from Reno DC 6 Pine & Co. $97K Labels on hold Toledo Confirm with buyer order-fulfillment Sigma APP Mon 6:00 AM Fulfillment Agent : Line 4 at Monterrey was down 9 hours overnight. 3 retail orders could now ship short (Northgate Grocers, Fresh Basket, Summit Outdoor). Actions are in Fulfillment Actions. Open Order Fulfillment in Sigma Fulfillment Agent Which retail orders could ship sho",
+        "structuredData": [
+          {
+            "@type": "Organization",
+            "name": "Sigma Computing",
+            "url": "https://www.sigmacomputing.com/"
+          },
+          {
+            "@type": "WebSite",
+            "name": "Sigma Computing",
+            "url": "https://www.sigmacomputing.com/"
+          },
+          {
+            "@type": "SoftwareApplication",
+            "name": "Sigma",
+            "description": "Sigma is the AI runtime for business. A governed platform where teams build and run AI apps and agents directly on live cloud warehouse data (Snowflake, Databricks, BigQuery, Redshift). Ask in natural language, build agents that act on your data, write back to close the loop, and analyze in a familiar spreadsheet interface, all governed.",
+            "url": "https://www.sigmacomputing.com/",
+            "applicationCategory": "BusinessApplication",
+            "operatingSystem": "Web-based (cloud)",
+            "featureList": [
+              "Build, instruct, and run governed AI agents on your data (works with MCP, Claude, and Snowflake Cortex)",
+              "AI Builder that turns natural language into governed workbooks and apps",
+              "Writeback and input tables for closed-loop decision apps",
+              "Live query on Snowflake, Databricks, BigQuery, and Redshift",
+              "Spreadsheet-native analysis with workbooks",
+              "Embedded analytics and multi-tenancy at scale",
+              "Governance, guardrails, row-level security, and reusable semantic models",
+              "Dashboards, visualization, and pixel-perfect reporting"
+            ]
+          },
+          {
+            "@type": "WebPage",
+            "name": "Sigma. Unified AI apps and analytics",
+            "description": "Sigma is the AI analytics workspace for warehouse data. Build governed dashboards, spreadsheets, and workflows with live query, writeback, and collaboration.",
+            "url": "https://www.sigmacomputing.com/"
+          }
+        ],
+        "resourceLinks": []
+      },
+      "recordDraft": {
+        "id": "bf0f70ab6377c8041e340bdf48e30a2e326e89cb07d78998b89ba0c7ee5fb0be",
+        "name": "The AI runtime for business | Sigma",
+        "kind": "BusinessApplication",
+        "url": "https://www.sigmacomputing.com/",
+        "desc": "Sigma is the AI runtime for business. A governed platform where teams build and run AI apps and agents directly on live cloud warehouse data (Snowflake, Databricks, BigQuery, Redshift). Ask in natural language, build agents that act on your data, write back to close the loop, and analyze in a familiar spreadsheet interface, all governed. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
+      },
+      "missingFields": [],
+      "reviewDecision": "evidence_complete_for_record_draft",
+      "note": "Ficha preliminar baseada no conteúdo capturado da página. Campos sem evidência permanecem ausentes; a aprovação depende do gate independente de publicação."
+    },
+    {
+      "schemaVersion": 1,
+      "id": "cbcf1207daf6bdd681a32b245a2509a15e85242808741c346412f447100b05fa",
+      "category": "tools",
+      "status": "draft_only",
+      "publicationReady": false,
+      "source": {
+        "url": "https://www.microsoft.com/en-us/power-platform/products/power-bi",
+        "discoveryProviders": [
+          "Data Visualization Society"
+        ],
+        "pageTitle": "Power BI - Data Visualization | Microsoft Power Platform",
+        "checkedAt": "2026-11-10T20:06:55.693Z",
         "httpStatus": 200,
         "contentType": "text/html; charset=utf-8"
       },
@@ -38,16 +211,146 @@
           "license": true,
           "licenseStatus": "stated"
         },
-        "sourceExcerpt": "Quantitative Analysis of Textual Data • quanteda Skip to contents quanteda: Quantitative Analysis of Textual Data quanteda is an R package for managing and analyzing text, created and maintained by Kenneth Benoit and Kohei Watanabe . Its creation was funded by the European Research Council grant ERC-2011-StG 283794-QUANTESS and its continued development is supported by the Quanteda Initiative CIC . The package is designed for R users needing to apply natural language processing to texts, from documents to final analysis. Its capabilities match or exceed those provided in many end-user software applications, many of which are expensive and not open source. The package is therefore of great benefit to researchers, students, and other analysts with fewer financial resources. While using quanteda requires R programming knowledge, its API is designed to enable powerful, efficient analysis with a minimum of steps. By emphasizing consistent design, furthermore, quanteda lowers the barriers to learning and using NLP and quantitative text analysis even for proficient R programmers. quanteda version 4 The quanteda 4.0 is a major release that improves functionality and performance and further improves function consistency by removing previously deprecated functions. It also includes significant new tokeniser rules that makes the default tokeniser smarter than ever before, with new Unicode and ICU-compliant rules that enable it to work more consistently with even more languages. We describe more fully these significant changes in: * an article about the new external pointer tokens objects ; * an article showing performance benchmarks for the new external pointer tokens objects, as well as some of the tokeniser improvements in v4; and * the changelog for v4 a full listing of the changes, improvements, and deprecations in v4. The quanteda family of packages We completed the trend of splitting quanteda into modular packages with the release of v3. The quanteda family of packages includes the following: quanteda : contains all of the core natural language processing and textual data management functions quanteda.textmodels : contains all of the text models and supporting functions, namely the textmodel_*() functions. This was split from the main package with the v2 release quanteda.textstats : statistics for textual data, namely the textstat_*() functions, split with the v3 release quanteda.textplots : plots for textual data, namely the textplot_*() functions, split with the v3 release We are working on additional package releases, available in the meantime from our GitHub pages: quanteda.sentiment : Functions and lexicons for sentiment analysis using dictionaries quanteda.tidy : Extensions for manipulating document variables in core quanteda objects using your favourite tidyverse functions How To… Install (binaries) from CRAN The normal way from CRAN, using your R GUI or install.packages ( \"quanteda\" ) (New for quanteda v4.0) For Linux users: Because all installations on Linux are compiled, Linux users will first need to install the Intel oneAPI Threading Building Blocks for parallel computing for installation to work. To install TBB on Linux: # Fedora, CentOS, RHEL sudo yum install tbb - devel # Debian and Ubuntu sudo apt install libtbb - dev Windows or macOS users do not have to install TBB or any other packages to enable parallel computing when installing quanteda from CRAN. Compile from source (macOS and Windows) Because this compiles some C++ and Fortran source code, you will need to have installed the appropriate compilers to build the development version. You will also need to install TBB: macOS: First, you will need to install XCode command line tools. xcode - select -- install Then install the TBB libraries and the pkg-config utility: (after installing Homebrew ): brew install tbb pkg - config Finally, you will need to install gfortran . Windows: Install RTools , which includes the TBB libraries. Use quanteda See the quick start gui",
+        "sourceExcerpt": "Power BI - Data Visualization | Microsoft Power Platform This is the Trace Id: 755c4b6bd684e21020c63e00b9276dcb Skip to main content Microsoft Fabric Power BI Product features overview Power BI Desktop Pro Premium Embedded Report Server Microsoft Fabric IQ Fabric Data Factory Fabric Data Engineering Fabric Data Warehousing Fabric Real-Time Intelligence Fabric Data Science Fabric Databases Microsoft OneLake Security and governance Managed application backend Pricing Partners Documentation Data 101 Data Storytelling Power BI Blog Power BI Support Power BI Community Power BI Downloads Migrate Buy now Start free Sign in Discover what's coming to Microsoft Ignite, Nov 17-20, 2026. Register now Power BI</h1> \"> Power BI Uncover powerful insights and turn them into impact with a unified analytics platform. Visualize any data and use Copilot in Microsoft Fabric to quickly explore, explain, and take action. Try for free Product overview Create a data-driven culture with business intelligence for all</h2> \"> Create a data-driven culture with business intelligence for all Power BI features Copilot in Microsoft Fabric Power BI in Microsoft Fabric Building agentic apps Previous Next Make fast, informed enterprise decisions Connect governed data, trusted metrics, and interactive insights into one enterprise decision layer—so all your teams can make confident decisions, faster. Take a guided tour Connect and unify all your data Seamlessly connect to data from any source, cloud or on-premises, and bring it together in one place with OneLake to create a single source of truth for your organization. Learn more Drive impact with self-service BI for everyone Give all your people access to an intuitive, easy-to-use business intelligence experience for any skill level—whether they’re­ analysts, decision-makers, or new team members. Learn more Empower every data team with AI-driven insights Reshape how your organization accesses, manages, and acts on data by activating Microsoft Fabric in your Power BI experience. Learn more From question to insight, without the manual work Ask questions about your data or describe the report you need in natural language, and Copilot handles the rest — pulling the right data and generating visualizations and reports automatically, without manual report building. Learn more Get fast AI-generated insights and narratives Use Copilot to generate instant text summaries and easy-to-understand narratives to quickly identify key trends in your data. For example, ask Copilot to add a summary to a dashboard that highlights why sales spiked this quarter—turning raw numbers into meaningful takeaways. Learn more Boost creator productivity Accelerate analytics by turning complex data modeling into a guided, AI-assisted experience—so teams can build trusted, business-ready semantic models faster and with fewer bottlenecks. Learn more Overview Enable users without paid licenses to interact with reports and access the rest of your Microsoft Fabric workloads. Learn more Build a unified analytics ecosystem Extend Power BI beyond dashboards by connecting directly to Microsoft Fabric, enabling faster end-to-end insights, from ingestion to visualization. Learn more Strengthen security and governance with OneLake Get consistent security, governance, and trusted data across every report and dataset with OneLake, which provides a centralized data foundation with open formats. Learn more Democratize access efficiently Scale access, simplify administration, and optimize costs while delivering governed insights to every user with a unified capacity model from Fabric. Learn more Do more than ever with Power BI Discover a modern way of dashboarding with interactive, agentic applications, you can create using natural language. Read the blog post Build on data you already trust Create apps directly on Power BI semantic models, so every experience is grounded in your organization's governed data, trusted metrics, and business logic. Learn more Move",
         "structuredData": [],
+        "resourceLinks": [
+          {
+            "url": "https://www.microsoft.com/en-us/microsoft-fabric/features/power-bi/downloads",
+            "label": "Power BI Downloads"
+          },
+          {
+            "url": "https://www.microsoft.com/en-us/download",
+            "label": "Download Center"
+          }
+        ]
+      },
+      "recordDraft": {
+        "id": "cbcf1207daf6bdd681a32b245a2509a15e85242808741c346412f447100b05fa",
+        "name": "Power BI - Data Visualization | Microsoft Power Platform",
+        "kind": "Data Visualization | Microsoft Power Platform",
+        "url": "https://www.microsoft.com/en-us/power-platform/products/power-bi",
+        "desc": "Microsoft Power BI is a business intelligence platform that helps you visualize data and infuse insights into your existing Microsoft 365 apps. Try it for free. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
+      },
+      "missingFields": [],
+      "reviewDecision": "evidence_complete_for_record_draft",
+      "note": "Ficha preliminar baseada no conteúdo capturado da página. Campos sem evidência permanecem ausentes; a aprovação depende do gate independente de publicação."
+    },
+    {
+      "schemaVersion": 1,
+      "id": "d2f8e4e03f7039542269c22b68eb5b54fa341006c9685b6af22fd3ae39598778",
+      "category": "tools",
+      "status": "draft_only",
+      "publicationReady": false,
+      "source": {
+        "url": "https://plotly.com/python",
+        "discoveryProviders": [
+          "Data Visualization Society"
+        ],
+        "pageTitle": "Open Source Python Graphing &amp; Data Visualization Library | Plotly",
+        "checkedAt": "2026-11-10T20:06:55.693Z",
+        "httpStatus": 200,
+        "contentType": "text/html; charset=utf-8"
+      },
+      "evidence": {
+        "checks": {
+          "productSignal": true,
+          "function": true,
+          "access": true,
+          "license": false,
+          "licenseStatus": "not stated in captured source"
+        },
+        "sourceExcerpt": "Open Source Python Graphing & Data Visualization Library | Plotly Download Studio Studio and Cloud Pricing Dash Enterprise Pricing Quick Reference Examples Explore step-by-step tutorials and code examples for figure structures, updating figures, displaying figures, and framework integrations to master our Python graphing library. The Figure Data Structure View Tutorial Creating and Updating Figures View Tutorial Displaying Figures View Tutorial Plotly Express View Tutorial Analytical Apps with Dash View Tutorial Find copy-pasteable code snippets and interactive demos to create standard Python charts, including scatter plots, line graphs, bar charts, pie charts, and bubble charts. Scatter Plots View Tutorial Line Charts View Tutorial Bar Charts View Tutorial Pie Charts View Tutorial Bubble Charts View Tutorial Browse code tutorials and live previews for complex data analysis, featuring box plots, histograms, error bars, and 2D density plots. Error Bars View Tutorial Box Plots View Tutorial Histograms View Tutorial Distplots View Tutorial 2D Histograms View Tutorial Access interactive examples and code snippets for domain-specific visualizations. Build heatmaps, contour plots, ternary plots, and log plots. Contour Plots View Tutorial Heatmaps View Tutorial Imshow View Tutorial Ternary Plots View Tutorial Log Plots View Tutorial Explore code guides and live examples for financial data, including candlestick charts, OHLC plots, waterfall diagrams, funnel charts, and time series lines to create interactive graphs in Python. Time Series and Date Axes View Tutorial Candlestick Charts View Tutorial Waterfall Charts View Tutorial Funnel Chart View Tutorial OHLC Charts View Tutorial Learn how to build interactive geographic visualizations with step-by-step code snippets for Mapbox integration, tile choropleth maps, lines on maps, and bubble maps. MapLibre Migration View Tutorial Tile Choropleth Maps View Tutorial Lines on Tile Maps View Tutorial Filled Area on Tile Maps View Tutorial Bubble Maps View Tutorial Visualize machine learning models with tutorials for ML regression, kNN classification, ROC and PR curves, and PCA visualization. ML Regression View Tutorial kNN Classification View Tutorial ROC and PR Curves View Tutorial PCA Visualization View Tutorial AI/ML Apps with Dash View Tutorial Access specialized charts for computational biology, including volcano plots, Manhattan plots, clustergrams, and alignment charts. Volcano Plot View Tutorial Manhattan Plot View Tutorial Clustergram View Tutorial Alignment Chart View Tutorial More Bioinformatics &raquo; View high-performance code examples for 3D axes, 3D scatter plots, 3D surface plots, and 3D subplots to enhance your Python graphs. 3D Axes View Tutorial 3D Scatter Plots View Tutorial 3D Surface Plots View Tutorial 3D Subplots View Tutorial 3D Camera Controls View Tutorial Find layout tutorials and code examples for combining multi-chart arrangements, map subplots, table subplots, and mixed layouts when plotting graphs in Python. Mixed Subplots View Tutorial Map Subplots View Tutorial Table and Chart Subplots View Tutorial Figure Factory Subplots View Tutorial Learn how to connect your Python graph to interactive Jupyter environments using FigureWidget tutorials, interactive data analysis, and custom click events. Plotly FigureWidget Overview View Tutorial Jupyter Lab with FigureWidget View Tutorial Interactive Data Analysis with FigureWidget ipywidgets View Tutorial Click Events View Tutorial Discover code snippets and tutorials for building interactive UI controls directly into your visualizations, including dropdown menus, custom buttons, sliders, and range selectors to upgrade your graph in Python. Custom Buttons View Tutorial Sliders View Tutorial Dropdown Menus View Tutorial Range Slider and Selector View Tutorial Explore code tutorials and interactive demos for animating data points, building time-series sliders, and creating smooth transitions to build a dynamic Python gra",
+        "structuredData": [],
+        "resourceLinks": [
+          {
+            "url": "https://plotly.com/studio?source=graphing_libraries&medium=documentation&campaign=studio_cloud_community&content=header",
+            "label": "Download Studio"
+          },
+          {
+            "url": "https://plotly.com/studio?source=graphing_libraries&medium=documentation&campaign=studio_cloud_community&content=header",
+            "label": "Download Studio"
+          },
+          {
+            "url": "https://plotly.com/python-api-reference",
+            "label": "API Reference"
+          },
+          {
+            "url": "https://plotly.com/python/plot-data-from-csv/",
+            "label": "Plot CSV Data"
+          }
+        ]
+      },
+      "recordDraft": {
+        "id": "d2f8e4e03f7039542269c22b68eb5b54fa341006c9685b6af22fd3ae39598778",
+        "name": "Open Source Python Graphing &amp; Data Visualization Library | Plotly",
+        "kind": "mapeamento e cartografia",
+        "url": "https://plotly.com/python",
+        "desc": "Build interactive Python charts and graphs with Plotly Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
+      },
+      "missingFields": [],
+      "reviewDecision": "evidence_complete_for_record_draft",
+      "note": "Ficha preliminar baseada no conteúdo capturado da página. Campos sem evidência permanecem ausentes; a aprovação depende do gate independente de publicação."
+    },
+    {
+      "schemaVersion": 1,
+      "id": "ec6de7af3271ca5771aeeb8cff19422fd35853394caedd1530e2136f7d8ca205",
+      "category": "tools",
+      "status": "draft_only",
+      "publicationReady": false,
+      "source": {
+        "url": "https://www.esri.com/",
+        "discoveryProviders": [
+          "Data Visualization Society"
+        ],
+        "pageTitle": "GIS Software for Mapping and Spatial Analytics | Esri",
+        "checkedAt": "2026-11-10T20:06:55.693Z",
+        "httpStatus": 200,
+        "contentType": "text/html;charset=utf-8"
+      },
+      "evidence": {
+        "checks": {
+          "productSignal": true,
+          "function": true,
+          "access": true,
+          "license": false,
+          "licenseStatus": "not stated in captured source"
+        },
+        "sourceExcerpt": "GIS Software for Mapping and Spatial Analytics | Esri GIS Software for Mapping and Spatial Analytics | Esri Explore Esri with the new AI assistant (beta). Ask questions and get answers faster. Try it ArcGIS Esri’s comprehensive geospatial platform ArcGIS is enterprise technology that integrates and connects data through the context of geography. Learn about ArcGIS Esri builds ArcGIS, the world’s leading GIS mapping software. ArcGIS overview Learn about Esri’s comprehensive geospatial platform What is GIS? Discover geographic information system (GIS) technology About Esri Get to know the innovative software company behind ArcGIS Previous Next Who uses Esri technology? Leading organizations in virtually every field use Esri technology to support daily operations and guide long-term strategies. Explore stories of organizations innovating with ArcGIS. UPS SCA Texas A&M LOGISTICS UPS makes 500,000 more stops a day while cutting costs with GIS software Global delivery leader UPS uses mapping and analytics to optimize driver routes, get more capacity out of existing assets, and cut roughly $350 million in annual costs. Watch the video BUSINESS GROWTH Sweeping Corporation of America uses enterprise GIS to transform operations New opportunities for bottom-line savings and top-line growth have multiplied for SCA, the nation’s largest street sweeping service provider, since integrating operational location data across the enterprise. Read the full story NATURAL RESOURCES Texas A&M scales data-driven decisions for American ranchers Texas A&M and technology companies team up at McGregor’s AgriTech Innovation Hub, giving ranchers data-driven tools that strengthen beef supply chain efficiency and boost producer profits. Read the full story Trending insights on the power of GIS technology Public health LA County puts public health on a map for the FIFA World Cup and LA28 Read the story on Esri Blog Utilities Why every utility needs a digital twin Play the episode on Esri’s podcast Government Inside the world of operations security at Amazon Read the story in Esri’s WhereNext magazine Previous Next New and newsworthy Product releases, upcoming events, partnerships, and more from Esri Product feature Start fast. Work anywhere. Scale with ease. Explore ArcGIS Online: ready-to-use mapping, analysis, and data sharing INITIATIVE Explore Esri’s approach to sustainability Esri prioritizes sustainability in operations, products, and community Event Register for the Esri European National Security Summit 2–3 December 2026 | Riga, Latvia | Hear from security experts across Europe partnership Esri and Microsoft Esri provides leading spatial analytics capabilities in Microsoft Fabric Free course Learn how to make location-powered apps Esri's MOOC for building modern geo apps closes in February 2027 Previous Next opens in new window",
+        "structuredData": [
+          {
+            "@type": "Corporation",
+            "name": "Esri",
+            "description": "Esri’s GIS software is the most powerful mapping & spatial analytics technology available. Learn about Esri’s geospatial mapping software for business and government.",
+            "url": "https://www.esri.com/en-us/home"
+          },
+          {
+            "@type": "Corporation"
+          },
+          {
+            "@type": "WebPage",
+            "name": "GIS Software for Mapping and Spatial Analytics | Esri",
+            "description": "Esri’s GIS software is the most powerful mapping & spatial analytics technology available. Learn about Esri’s geospatial mapping software for business and government.",
+            "url": "https://www.esri.com/en-us/home"
+          },
+          {
+            "@type": "FAQPage"
+          },
+          {
+            "@type": "website",
+            "url": "https://www.esri.com/en-us/home"
+          },
+          {
+            "@type": "BreadcrumbList"
+          }
+        ],
         "resourceLinks": []
       },
       "recordDraft": {
-        "id": "9074bd0330d7cf1e7b676cd5fa22eacf03a786e13009162ac6f99e121dca4cf6",
-        "name": "Quantitative Analysis of Textual Data • quanteda",
-        "kind": "pacote R",
-        "url": "https://quanteda.io/",
-        "desc": "A fast, flexible, and comprehensive framework for quantitative text analysis in R. Provides functionality for corpus management, creating and manipulating tokens and n-grams, exploring keywords in context, forming and manipulating sparse matrices of documents by features and feature co-occurrences, analyzing keywords, computing feature similarities and distances, applying content dictionaries, applying supervised and unsupervised machine learning, visually representing text and text analyses, and more. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
+        "id": "ec6de7af3271ca5771aeeb8cff19422fd35853394caedd1530e2136f7d8ca205",
+        "name": "GIS Software for Mapping and Spatial Analytics | Esri",
+        "kind": "mapeamento e cartografia",
+        "url": "https://www.esri.com/",
+        "desc": "Esri’s GIS software is the most powerful mapping & spatial analytics technology available. Learn about Esri’s geospatial mapping software for business and government. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
       },
       "missingFields": [],
       "reviewDecision": "evidence_complete_for_record_draft",
