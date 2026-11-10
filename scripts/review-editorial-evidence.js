@@ -25,7 +25,7 @@ function inferCategory(c,text,title){
  const url=String(c.url||'').toLowerCase();
  if(excluded.test(title+' '+String(c.title||''))||excludedPath.test(new URL(url||'https://invalid.local').pathname))return 'uncategorized';
  const supplied=['opportunities','tools','datasets'].includes(c.category)?c.category:null;
- if(supplied==='tools')return (excludedToolUrl.test(url)||excludedToolContent.test(text)||toolIdentity(c,title,c.audit?.structuredData||[])?'tools':'uncategorized');
+ if(supplied==='tools')return (!excludedToolUrl.test(url)&&!excludedToolContent.test(text)&&toolIdentity(c,title,c.audit?.structuredData||[]))?'tools':'uncategorized';
  if(supplied)return supplied;
  const opportunity=actionableOpportunity(title,text);
  const deadline=/(deadline|closing date|close(?:s|d)?\s+(?:on|by|\d)|applications?[^.!?]{0,60}clos(?:e|es|ed)|prazo|inscri[cç][aã]o(?:s)?[^.!?]{0,50}até)/i.test(text);
