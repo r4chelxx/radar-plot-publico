@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-11-10T22:19:17.739Z",
+  "generatedAt": "2026-11-10T23:31:15.653Z",
   "policy": "Evidence-based category triage. Missing license is recorded as unknown when not found; complete means draft eligibility only, never approval or publication.",
   "counts": {
-    "pending_more_evidence": 1535,
-    "evidence_complete_for_record_draft": 2
+    "pending_more_evidence": 1548,
+    "evidence_complete_for_record_draft": 4
   },
   "categoryCounts": {
-    "uncategorized": 1419,
-    "opportunities": 33,
+    "uncategorized": 1423,
+    "opportunities": 34,
     "tools": 29,
-    "datasets": 56
+    "datasets": 66
   },
   "records": [
     {
@@ -17702,21 +17702,18 @@
       "url": "https://data.worldbank.org/indicator/1.1.PGap.1.90usd",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-10T23:30:50.759Z",
       "checks": {
-        "datasetSignal": false,
+        "datasetSignal": true,
         "directResource": false,
-        "format": false,
-        "coverage": false,
+        "format": true,
+        "coverage": true,
         "license": false,
         "licenseStatus": "not stated in captured source"
       },
       "missing": [
         "página primária acessível com conteúdo compatível",
-        "evidência de conjunto ou catálogo de dados",
-        "download, API ou acesso direto ao recurso",
-        "formato identificável",
-        "cobertura temporal/geográfica"
+        "download, API ou acesso direto ao recurso"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -17833,7 +17830,7 @@
       "url": "https://data.worldbank.org/indicator/1.0.HCount.Vul4to10",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-10T23:30:50.759Z",
       "checks": {
         "datasetSignal": false,
         "directResource": false,
@@ -17980,21 +17977,18 @@
       "url": "https://data.worldbank.org/indicator/1.0.HCount.Poor4uds",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-10T23:30:50.759Z",
       "checks": {
-        "datasetSignal": false,
+        "datasetSignal": true,
         "directResource": false,
-        "format": false,
-        "coverage": false,
+        "format": true,
+        "coverage": true,
         "license": false,
         "licenseStatus": "not stated in captured source"
       },
       "missing": [
         "página primária acessível com conteúdo compatível",
-        "evidência de conjunto ou catálogo de dados",
-        "download, API ou acesso direto ao recurso",
-        "formato identificável",
-        "cobertura temporal/geográfica"
+        "download, API ou acesso direto ao recurso"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -18004,21 +17998,18 @@
       "url": "https://data.worldbank.org/indicator/1.1_ACCESS.ELECTRICITY.TOT",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-10T23:30:50.759Z",
       "checks": {
-        "datasetSignal": false,
+        "datasetSignal": true,
         "directResource": false,
-        "format": false,
-        "coverage": false,
+        "format": true,
+        "coverage": true,
         "license": false,
         "licenseStatus": "not stated in captured source"
       },
       "missing": [
         "página primária acessível com conteúdo compatível",
-        "evidência de conjunto ou catálogo de dados",
-        "download, API ou acesso direto ao recurso",
-        "formato identificável",
-        "cobertura temporal/geográfica"
+        "download, API ou acesso direto ao recurso"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -18115,21 +18106,18 @@
       "url": "https://data.worldbank.org/indicator/1.0.PSev.Poor4uds",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-10T23:30:50.759Z",
       "checks": {
-        "datasetSignal": false,
+        "datasetSignal": true,
         "directResource": false,
-        "format": false,
-        "coverage": false,
+        "format": true,
+        "coverage": true,
         "license": false,
         "licenseStatus": "not stated in captured source"
       },
       "missing": [
         "página primária acessível com conteúdo compatível",
-        "evidência de conjunto ou catálogo de dados",
-        "download, API ou acesso direto ao recurso",
-        "formato identificável",
-        "cobertura temporal/geográfica"
+        "download, API ou acesso direto ao recurso"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -18431,21 +18419,18 @@
       "url": "https://data.worldbank.org/indicator/1.1.PSev.2.5usd",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-10T23:30:50.759Z",
       "checks": {
-        "datasetSignal": false,
+        "datasetSignal": true,
         "directResource": false,
-        "format": false,
-        "coverage": false,
+        "format": true,
+        "coverage": true,
         "license": false,
         "licenseStatus": "not stated in captured source"
       },
       "missing": [
         "página primária acessível com conteúdo compatível",
-        "evidência de conjunto ou catálogo de dados",
-        "download, API ou acesso direto ao recurso",
-        "formato identificável",
-        "cobertura temporal/geográfica"
+        "download, API ou acesso direto ao recurso"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -18682,21 +18667,18 @@
       "url": "https://data.worldbank.org/indicator/1.1.HCount.2.5usd",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-10T23:30:50.759Z",
       "checks": {
-        "datasetSignal": false,
+        "datasetSignal": true,
         "directResource": false,
-        "format": false,
-        "coverage": false,
+        "format": true,
+        "coverage": true,
         "license": false,
         "licenseStatus": "not stated in captured source"
       },
       "missing": [
         "página primária acessível com conteúdo compatível",
-        "evidência de conjunto ou catálogo de dados",
-        "download, API ou acesso direto ao recurso",
-        "formato identificável",
-        "cobertura temporal/geográfica"
+        "download, API ou acesso direto ao recurso"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -18727,7 +18709,7 @@
       "url": "https://data.worldbank.org/indicator/1.1.PGap.Poor4uds",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-10T23:30:50.759Z",
       "checks": {
         "datasetSignal": false,
         "directResource": false,
@@ -18764,21 +18746,18 @@
       "url": "https://data.worldbank.org/indicator/1.1.HCount.Poor4uds",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-10T23:30:50.759Z",
       "checks": {
-        "datasetSignal": false,
+        "datasetSignal": true,
         "directResource": false,
-        "format": false,
-        "coverage": false,
+        "format": true,
+        "coverage": true,
         "license": false,
         "licenseStatus": "not stated in captured source"
       },
       "missing": [
         "página primária acessível com conteúdo compatível",
-        "evidência de conjunto ou catálogo de dados",
-        "download, API ou acesso direto ao recurso",
-        "formato identificável",
-        "cobertura temporal/geográfica"
+        "download, API ou acesso direto ao recurso"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -18853,7 +18832,7 @@
       "url": "https://data.worldbank.org/indicator/1.1.HCount.Mid10to50",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-10T23:30:50.759Z",
       "checks": {
         "datasetSignal": false,
         "directResource": false,
@@ -18980,21 +18959,18 @@
       "url": "https://data.worldbank.org/indicator/1.1.HCount.1.90usd",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-10T23:30:50.759Z",
       "checks": {
-        "datasetSignal": false,
+        "datasetSignal": true,
         "directResource": false,
-        "format": false,
-        "coverage": false,
+        "format": true,
+        "coverage": true,
         "license": false,
         "licenseStatus": "not stated in captured source"
       },
       "missing": [
         "página primária acessível com conteúdo compatível",
-        "evidência de conjunto ou catálogo de dados",
-        "download, API ou acesso direto ao recurso",
-        "formato identificável",
-        "cobertura temporal/geográfica"
+        "download, API ou acesso direto ao recurso"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -19350,7 +19326,7 @@
       "url": "https://data.worldbank.org/indicator/1.0.PGap.Poor4uds",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-10T23:30:50.759Z",
       "checks": {
         "datasetSignal": false,
         "directResource": false,
@@ -19402,7 +19378,7 @@
       "url": "https://data.worldbank.org/indicator/1.0.PSev.1.90usd",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-10T23:30:50.759Z",
       "checks": {
         "datasetSignal": false,
         "directResource": false,
@@ -19568,7 +19544,7 @@
       "url": "https://data.worldbank.org/indicator/1.0.HCount.Ofcl",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-10T23:30:50.759Z",
       "checks": {
         "datasetSignal": false,
         "directResource": false,
@@ -19648,7 +19624,7 @@
       "url": "https://data.worldbank.org/indicator/1.1.HCount.Vul4to10",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-10T23:30:50.759Z",
       "checks": {
         "datasetSignal": false,
         "directResource": false,
@@ -19900,7 +19876,7 @@
       "url": "https://data.worldbank.org/indicator/1.0.PSev.2.5usd",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-10T20:53:48.541Z",
+      "checkedAt": "2026-11-10T23:30:50.759Z",
       "checks": {
         "datasetSignal": false,
         "directResource": false,
@@ -19938,21 +19914,18 @@
       "url": "https://data.worldbank.org/indicator/1.0.HCount.2.5usd",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-10T20:53:48.541Z",
+      "checkedAt": "2026-11-10T23:30:50.759Z",
       "checks": {
-        "datasetSignal": false,
+        "datasetSignal": true,
         "directResource": false,
-        "format": false,
-        "coverage": false,
+        "format": true,
+        "coverage": true,
         "license": false,
         "licenseStatus": "not stated in captured source"
       },
       "missing": [
         "página primária acessível com conteúdo compatível",
-        "evidência de conjunto ou catálogo de dados",
-        "download, API ou acesso direto ao recurso",
-        "formato identificável",
-        "cobertura temporal/geográfica"
+        "download, API ou acesso direto ao recurso"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -20046,21 +20019,18 @@
       "url": "https://data.worldbank.org/indicator/1.1.HCount.Ofcl",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-10T20:53:48.541Z",
+      "checkedAt": "2026-11-10T23:30:50.759Z",
       "checks": {
-        "datasetSignal": false,
+        "datasetSignal": true,
         "directResource": false,
-        "format": false,
-        "coverage": false,
+        "format": true,
+        "coverage": true,
         "license": false,
         "licenseStatus": "not stated in captured source"
       },
       "missing": [
         "página primária acessível com conteúdo compatível",
-        "evidência de conjunto ou catálogo de dados",
-        "download, API ou acesso direto ao recurso",
-        "formato identificável",
-        "cobertura temporal/geográfica"
+        "download, API ou acesso direto ao recurso"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -20274,7 +20244,7 @@
       "url": "https://data.worldbank.org/indicator/1.1.PSev.1.90usd",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-10T20:53:48.541Z",
+      "checkedAt": "2026-11-10T23:30:50.759Z",
       "checks": {
         "datasetSignal": false,
         "directResource": false,
@@ -20589,21 +20559,18 @@
       "url": "https://data.worldbank.org/indicator/1.0.PGap.2.5usd",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-10T20:53:48.541Z",
+      "checkedAt": "2026-11-10T23:30:50.759Z",
       "checks": {
-        "datasetSignal": false,
+        "datasetSignal": true,
         "directResource": false,
-        "format": false,
-        "coverage": false,
+        "format": true,
+        "coverage": true,
         "license": false,
         "licenseStatus": "not stated in captured source"
       },
       "missing": [
         "página primária acessível com conteúdo compatível",
-        "evidência de conjunto ou catálogo de dados",
-        "download, API ou acesso direto ao recurso",
-        "formato identificável",
-        "cobertura temporal/geográfica"
+        "download, API ou acesso direto ao recurso"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -20745,21 +20712,18 @@
       "url": "https://data.worldbank.org/indicator/1.1.PGap.2.5usd",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-10T20:53:48.541Z",
+      "checkedAt": "2026-11-10T23:30:50.759Z",
       "checks": {
-        "datasetSignal": false,
+        "datasetSignal": true,
         "directResource": false,
-        "format": false,
-        "coverage": false,
+        "format": true,
+        "coverage": true,
         "license": false,
         "licenseStatus": "not stated in captured source"
       },
       "missing": [
         "página primária acessível com conteúdo compatível",
-        "evidência de conjunto ou catálogo de dados",
-        "download, API ou acesso direto ao recurso",
-        "formato identificável",
-        "cobertura temporal/geográfica"
+        "download, API ou acesso direto ao recurso"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -20979,21 +20943,18 @@
       "url": "https://data.worldbank.org/indicator/1.0.HCount.Mid10to50",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-10T20:53:48.541Z",
+      "checkedAt": "2026-11-10T23:30:50.759Z",
       "checks": {
-        "datasetSignal": false,
+        "datasetSignal": true,
         "directResource": false,
-        "format": false,
-        "coverage": false,
+        "format": true,
+        "coverage": true,
         "license": false,
         "licenseStatus": "not stated in captured source"
       },
       "missing": [
         "página primária acessível com conteúdo compatível",
-        "evidência de conjunto ou catálogo de dados",
-        "download, API ou acesso direto ao recurso",
-        "formato identificável",
-        "cobertura temporal/geográfica"
+        "download, API ou acesso direto ao recurso"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -21084,21 +21045,18 @@
       "url": "https://data.worldbank.org/indicator/1.1.PSev.Poor4uds",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-10T20:53:48.541Z",
+      "checkedAt": "2026-11-10T23:30:50.759Z",
       "checks": {
-        "datasetSignal": false,
+        "datasetSignal": true,
         "directResource": false,
-        "format": false,
-        "coverage": false,
+        "format": true,
+        "coverage": true,
         "license": false,
         "licenseStatus": "not stated in captured source"
       },
       "missing": [
         "página primária acessível com conteúdo compatível",
-        "evidência de conjunto ou catálogo de dados",
-        "download, API ou acesso direto ao recurso",
-        "formato identificável",
-        "cobertura temporal/geográfica"
+        "download, API ou acesso direto ao recurso"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -21406,21 +21364,18 @@
       "url": "https://data.worldbank.org/indicator/1.0.HCount.1.90usd",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-10T20:53:48.541Z",
+      "checkedAt": "2026-11-10T23:30:50.759Z",
       "checks": {
-        "datasetSignal": false,
+        "datasetSignal": true,
         "directResource": false,
-        "format": false,
-        "coverage": false,
+        "format": true,
+        "coverage": true,
         "license": false,
         "licenseStatus": "not stated in captured source"
       },
       "missing": [
         "página primária acessível com conteúdo compatível",
-        "evidência de conjunto ou catálogo de dados",
-        "download, API ou acesso direto ao recurso",
-        "formato identificável",
-        "cobertura temporal/geográfica"
+        "download, API ou acesso direto ao recurso"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -21575,7 +21530,225 @@
       "url": "https://data.worldbank.org/indicator/1.0.PGap.1.90usd",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-10T20:53:48.541Z",
+      "checkedAt": "2026-11-10T23:30:50.759Z",
+      "checks": {
+        "datasetSignal": true,
+        "directResource": false,
+        "format": true,
+        "coverage": true,
+        "license": false,
+        "licenseStatus": "not stated in captured source"
+      },
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "download, API ou acesso direto ao recurso"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "0243e4daee87d62c45c61ca651301fe36af82d66c8aa706c0a0b3212cfa81efd",
+      "url": "https://www.aosfatos.org/noticias/fila-formula-1-saida-brasileiros-paraguai",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T23:30:50.759Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "24dd715dabc260ede5d86e224fc8a2a5ea4251b213a9698877939711ae470e3f",
+      "url": "https://www.aosfatos.org/noticias/trump-flavio-assumir-presidencia-lula",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T23:30:50.759Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "3050c5611ae0a3a3c447db4aa3c2fe5dce517586c5ffe747c57c96f7eaeaa07c",
+      "url": "https://www.aosfatos.org/noticias/protesto-contra-lula-formula-1-2022",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T23:30:50.759Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "42a5298906b4444e57ce0ac2bdb89e4961956b98d6840d35ad363a02c54cd5c0",
+      "url": "https://www.hydrosheds.org/hydrosheds-core-downloads",
+      "category": "datasets",
+      "originalCategory": "datasets",
+      "checkedAt": "2026-11-10T23:30:50.759Z",
+      "checks": {
+        "datasetSignal": false,
+        "directResource": false,
+        "format": false,
+        "coverage": true,
+        "license": false,
+        "licenseStatus": "not stated in captured source"
+      },
+      "missing": [
+        "evidência de conjunto ou catálogo de dados",
+        "download, API ou acesso direto ao recurso",
+        "formato identificável"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "6530d95d514e0315a32b8d162d842176e19c0ef110d0dde9ac04122c78b6f56c",
+      "url": "https://www.generonumero.media/artigos/programa-de-bolsas-aborto-em-pilulas",
+      "category": "opportunities",
+      "originalCategory": "opportunities",
+      "checkedAt": "2026-11-10T23:30:50.759Z",
+      "checks": {
+        "callSignal": false,
+        "deadline": null,
+        "eligibility": false
+      },
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "chamada de financiamento/bolsa identificável",
+        "prazo futuro confirmado em formato de data reconhecido",
+        "elegibilidade expressa na fonte"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "69113ed0b823c72b5e77e5a4dc488e18bb492814785734c71bb305b1b4ccade7",
+      "url": "https://human-settlement.emergency.copernicus.eu/datasets.php",
+      "category": "datasets",
+      "originalCategory": "datasets",
+      "checkedAt": "2026-11-10T23:30:50.759Z",
+      "checks": {
+        "datasetSignal": true,
+        "directResource": true,
+        "format": true,
+        "coverage": true,
+        "license": false,
+        "licenseStatus": "not stated in captured source"
+      },
+      "missing": [],
+      "decision": "evidence_complete_for_record_draft",
+      "publicationReady": false
+    },
+    {
+      "id": "76c3366bab10a623fa4a5c58c4c0a41f909d799265bd20589f437d381fa52b20",
+      "url": "https://www.aosfatos.org/noticias/trump-lula-extraditar-flavio",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T23:30:50.759Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "7cef144bec5ccb7810788082cdd3fc5d9a2d0e278262a7c3748b777066237f0e",
+      "url": "https://www.gov.br/pt-br/servicos/consultar-informacoes-geoespaciais-na-plataforma-geoinfo",
+      "category": "datasets",
+      "originalCategory": "datasets",
+      "checkedAt": "2026-11-10T23:30:50.759Z",
+      "checks": {
+        "datasetSignal": false,
+        "directResource": false,
+        "format": true,
+        "coverage": true,
+        "license": false,
+        "licenseStatus": "not stated in captured source"
+      },
+      "missing": [
+        "evidência de conjunto ou catálogo de dados",
+        "download, API ou acesso direto ao recurso"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "84d06f6e42282dde7f60aa5605fdd0a5327d1768f11e747bab85d9081066aa41",
+      "url": "https://www.ipea.gov.br/portal/categoria-projetos-e-estatisticas/9939-atlas-da-vulnerabilidade-social",
+      "category": "datasets",
+      "originalCategory": "datasets",
+      "checkedAt": "2026-11-10T23:30:50.759Z",
+      "checks": {
+        "datasetSignal": false,
+        "directResource": false,
+        "format": false,
+        "coverage": true,
+        "license": true,
+        "licenseStatus": "stated"
+      },
+      "missing": [
+        "evidência de conjunto ou catálogo de dados",
+        "download, API ou acesso direto ao recurso",
+        "formato identificável"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "ab92532eca58a89c00acd213ce683401f67eacfd538bc5f6e77d3ec49f37156d",
+      "url": "https://www.gov.br/mcti/pt-br/acesso-a-informacao/dados-abertos/dados-abertos/arquivos/adapta-brasil/adaptabrasil",
+      "category": "datasets",
+      "originalCategory": "datasets",
+      "checkedAt": "2026-11-10T23:30:50.759Z",
+      "checks": {
+        "datasetSignal": false,
+        "directResource": false,
+        "format": true,
+        "coverage": true,
+        "license": false,
+        "licenseStatus": "not stated in captured source"
+      },
+      "missing": [
+        "evidência de conjunto ou catálogo de dados",
+        "download, API ou acesso direto ao recurso"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "b77b7b65d0138789940e5d01d95b6f6596c51d6330dde9858d501aa0b0cdfa24",
+      "url": "https://www.gov.br/cidades/pt-br/acesso-a-informacao/acoes-e-programas/saneamento/sinisa/resultados-sinisa/resultados-sinisa-2025",
+      "category": "datasets",
+      "originalCategory": "datasets",
+      "checkedAt": "2026-11-10T23:30:50.759Z",
+      "checks": {
+        "datasetSignal": false,
+        "directResource": true,
+        "format": false,
+        "coverage": true,
+        "license": false,
+        "licenseStatus": "not stated in captured source"
+      },
+      "missing": [
+        "evidência de conjunto ou catálogo de dados",
+        "formato identificável"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "c35dee82b54a4990f2d318dc43c04a9cd43be3850cc2b1b659bed0bf32cf8a13",
+      "url": "https://www.ibge.gov.br/geociencias/informacoes-ambientais/geologia/23382-banco-de-informacoes-ambientais.html",
+      "category": "datasets",
+      "originalCategory": "datasets",
+      "checkedAt": "2026-11-10T23:30:50.759Z",
       "checks": {
         "datasetSignal": false,
         "directResource": false,
@@ -21590,6 +21763,67 @@
         "download, API ou acesso direto ao recurso",
         "formato identificável",
         "cobertura temporal/geográfica"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "c55bad255efd95eece07037332a1f75a4fae71897c41c64c4dc687cdb80fd18b",
+      "url": "https://atlasdigital.mdr.gov.br/",
+      "category": "datasets",
+      "originalCategory": "datasets",
+      "checkedAt": "2026-11-10T23:30:50.759Z",
+      "checks": {
+        "datasetSignal": false,
+        "directResource": false,
+        "format": false,
+        "coverage": true,
+        "license": false,
+        "licenseStatus": "not stated in captured source"
+      },
+      "missing": [
+        "evidência de conjunto ou catálogo de dados",
+        "download, API ou acesso direto ao recurso",
+        "formato identificável"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "deff0b3866c2aa499128f6ea642ccb9e9d57cb45189f04e3fc7f5d5fca596325",
+      "url": "https://global-surface-water.appspot.com/download",
+      "category": "datasets",
+      "originalCategory": "datasets",
+      "checkedAt": "2026-11-10T23:30:50.759Z",
+      "checks": {
+        "datasetSignal": true,
+        "directResource": true,
+        "format": true,
+        "coverage": true,
+        "license": true,
+        "licenseStatus": "stated"
+      },
+      "missing": [],
+      "decision": "evidence_complete_for_record_draft",
+      "publicationReady": false
+    },
+    {
+      "id": "eb931fc6568e11d46e8828b2d31c6221419ab8c7e65d9f5062cf36113269cf78",
+      "url": "https://docs.isric.org/globaldata/soilgrids/index.html",
+      "category": "datasets",
+      "originalCategory": "datasets",
+      "checkedAt": "2026-11-10T23:30:50.759Z",
+      "checks": {
+        "datasetSignal": true,
+        "directResource": false,
+        "format": false,
+        "coverage": true,
+        "license": true,
+        "licenseStatus": "stated"
+      },
+      "missing": [
+        "download, API ou acesso direto ao recurso",
+        "formato identificável"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
