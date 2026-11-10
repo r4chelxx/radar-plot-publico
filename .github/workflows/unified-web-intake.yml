@@ -286,9 +286,12 @@ jobs:
           const groups={};
           for(const item of review.records||[])for(const reason of item.missing||[]){const key=item.category+' :: '+reason;groups[key]=(groups[key]||0)+1;}
           const top=Object.entries(groups).sort((a,b)=>b[1]-a[1]).slice(0,15);
-          const lines=['### Principais bloqueios da auditoria automática',...top.map(([reason,count])=>'- '+reason+': '+count)];
+          const queue=JSON.parse(fs.readFileSync('intake/editorial-queue.json','utf8'));
+          const byId=new Map((queue.candidates||[]).map(x=>[x.id,x]));
+          const samples=(review.records||[]).filter(x=>['opportunities','tools','datasets'].includes(x.category)&&x.missing?.length).slice(0,12).map(x=>{const c=byId.get(x.id)||{};return {category:x.category,title:c.audit?.pageTitle||c.title,url:c.audit?.finalUrl||c.url,missing:x.missing,excerpt:String(c.audit?.evidenceText||'').slice(0,260)}});
+          const lines=['### Principais bloqueios da auditoria automática',...top.map(([reason,count])=>'- '+reason+': '+count),'### Exemplos auditados (título, fonte, evidência curta)',...samples.map(x=>'- '+x.category+' | '+x.title+' | '+x.url+' | faltam: '+x.missing.join('; ')+' | '+x.excerpt)];
           fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY,lines.join('\n')+'\n');
-          console.log(JSON.stringify({reviewed:(review.records||[]).length,topBlockers:top}));
+          console.log(JSON.stringify({reviewed:(review.records||[]).length,topBlockers:top,samples}));
           NODE
           if [ -f /tmp/radar-gmail-backfill-cursor.json ]; then
             mkdir -p state
