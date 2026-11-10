@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T23:31:15.653Z",
+  "generatedAt": "2026-11-10T23:36:52.564Z",
   "policy": "Evidence-based category triage. Missing license is recorded as unknown when not found; complete means draft eligibility only, never approval or publication.",
   "counts": {
     "pending_more_evidence": 1548,
@@ -21590,9 +21590,9 @@
       "url": "https://www.hydrosheds.org/hydrosheds-core-downloads",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-10T23:30:50.759Z",
+      "checkedAt": "2026-11-10T23:36:48.947Z",
       "checks": {
-        "datasetSignal": false,
+        "datasetSignal": true,
         "directResource": false,
         "format": false,
         "coverage": true,
@@ -21600,7 +21600,6 @@
         "licenseStatus": "not stated in captured source"
       },
       "missing": [
-        "evidência de conjunto ou catálogo de dados",
         "download, API ou acesso direto ao recurso",
         "formato identificável"
       ],
@@ -21612,17 +21611,15 @@
       "url": "https://www.generonumero.media/artigos/programa-de-bolsas-aborto-em-pilulas",
       "category": "opportunities",
       "originalCategory": "opportunities",
-      "checkedAt": "2026-11-10T23:30:50.759Z",
+      "checkedAt": "2026-11-10T23:36:48.947Z",
       "checks": {
         "callSignal": false,
         "deadline": null,
-        "eligibility": false
+        "eligibility": true
       },
       "missing": [
-        "página primária acessível com conteúdo compatível",
         "chamada de financiamento/bolsa identificável",
-        "prazo futuro confirmado em formato de data reconhecido",
-        "elegibilidade expressa na fonte"
+        "prazo futuro confirmado em formato de data reconhecido"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -21632,7 +21629,7 @@
       "url": "https://human-settlement.emergency.copernicus.eu/datasets.php",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-10T23:30:50.759Z",
+      "checkedAt": "2026-11-10T23:36:48.947Z",
       "checks": {
         "datasetSignal": true,
         "directResource": true,
@@ -21663,9 +21660,9 @@
       "url": "https://www.gov.br/pt-br/servicos/consultar-informacoes-geoespaciais-na-plataforma-geoinfo",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-10T23:30:50.759Z",
+      "checkedAt": "2026-11-10T23:36:48.947Z",
       "checks": {
-        "datasetSignal": false,
+        "datasetSignal": true,
         "directResource": false,
         "format": true,
         "coverage": true,
@@ -21673,7 +21670,6 @@
         "licenseStatus": "not stated in captured source"
       },
       "missing": [
-        "evidência de conjunto ou catálogo de dados",
         "download, API ou acesso direto ao recurso"
       ],
       "decision": "pending_more_evidence",
@@ -21684,9 +21680,9 @@
       "url": "https://www.ipea.gov.br/portal/categoria-projetos-e-estatisticas/9939-atlas-da-vulnerabilidade-social",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-10T23:30:50.759Z",
+      "checkedAt": "2026-11-10T23:36:48.947Z",
       "checks": {
-        "datasetSignal": false,
+        "datasetSignal": true,
         "directResource": false,
         "format": false,
         "coverage": true,
@@ -21694,7 +21690,6 @@
         "licenseStatus": "stated"
       },
       "missing": [
-        "evidência de conjunto ou catálogo de dados",
         "download, API ou acesso direto ao recurso",
         "formato identificável"
       ],
@@ -21706,9 +21701,9 @@
       "url": "https://www.gov.br/mcti/pt-br/acesso-a-informacao/dados-abertos/dados-abertos/arquivos/adapta-brasil/adaptabrasil",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-10T23:30:50.759Z",
+      "checkedAt": "2026-11-10T23:36:48.947Z",
       "checks": {
-        "datasetSignal": false,
+        "datasetSignal": true,
         "directResource": false,
         "format": true,
         "coverage": true,
@@ -21716,7 +21711,6 @@
         "licenseStatus": "not stated in captured source"
       },
       "missing": [
-        "evidência de conjunto ou catálogo de dados",
         "download, API ou acesso direto ao recurso"
       ],
       "decision": "pending_more_evidence",
@@ -21727,9 +21721,9 @@
       "url": "https://www.gov.br/cidades/pt-br/acesso-a-informacao/acoes-e-programas/saneamento/sinisa/resultados-sinisa/resultados-sinisa-2025",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-10T23:30:50.759Z",
+      "checkedAt": "2026-11-10T23:36:48.947Z",
       "checks": {
-        "datasetSignal": false,
+        "datasetSignal": true,
         "directResource": true,
         "format": false,
         "coverage": true,
@@ -21737,7 +21731,6 @@
         "licenseStatus": "not stated in captured source"
       },
       "missing": [
-        "evidência de conjunto ou catálogo de dados",
         "formato identificável"
       ],
       "decision": "pending_more_evidence",
@@ -21748,9 +21741,9 @@
       "url": "https://www.ibge.gov.br/geociencias/informacoes-ambientais/geologia/23382-banco-de-informacoes-ambientais.html",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-10T23:30:50.759Z",
+      "checkedAt": "2026-11-10T23:36:48.947Z",
       "checks": {
-        "datasetSignal": false,
+        "datasetSignal": true,
         "directResource": false,
         "format": false,
         "coverage": false,
@@ -21759,7 +21752,6 @@
       },
       "missing": [
         "página primária acessível com conteúdo compatível",
-        "evidência de conjunto ou catálogo de dados",
         "download, API ou acesso direto ao recurso",
         "formato identificável",
         "cobertura temporal/geográfica"
@@ -21772,9 +21764,9 @@
       "url": "https://atlasdigital.mdr.gov.br/",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-10T23:30:50.759Z",
+      "checkedAt": "2026-11-10T23:36:48.947Z",
       "checks": {
-        "datasetSignal": false,
+        "datasetSignal": true,
         "directResource": false,
         "format": false,
         "coverage": true,
@@ -21782,7 +21774,6 @@
         "licenseStatus": "not stated in captured source"
       },
       "missing": [
-        "evidência de conjunto ou catálogo de dados",
         "download, API ou acesso direto ao recurso",
         "formato identificável"
       ],
@@ -21794,7 +21785,7 @@
       "url": "https://global-surface-water.appspot.com/download",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-10T23:30:50.759Z",
+      "checkedAt": "2026-11-10T23:36:48.947Z",
       "checks": {
         "datasetSignal": true,
         "directResource": true,
@@ -21812,17 +21803,16 @@
       "url": "https://docs.isric.org/globaldata/soilgrids/index.html",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-10T23:30:50.759Z",
+      "checkedAt": "2026-11-10T23:36:48.947Z",
       "checks": {
         "datasetSignal": true,
-        "directResource": false,
+        "directResource": true,
         "format": false,
         "coverage": true,
         "license": true,
         "licenseStatus": "stated"
       },
       "missing": [
-        "download, API ou acesso direto ao recurso",
         "formato identificável"
       ],
       "decision": "pending_more_evidence",
