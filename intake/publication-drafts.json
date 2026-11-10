@@ -1,239 +1,75 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-10T01:00:26.428Z",
-  "sourceQueueUpdatedAt": "2026-11-10T01:00:12.373Z",
+  "generatedAt": "2026-11-10T01:12:55.700Z",
+  "sourceQueueUpdatedAt": "2026-11-10T01:12:41.375Z",
   "policy": "Evidence-complete drafts only; the separate deterministic evidence gate must independently approve before publication.",
   "summary": {
-    "eligibleForDrafting": 4,
-    "drafts": 4,
+    "eligibleForDrafting": 2,
+    "drafts": 2,
     "byCategory": {
-      "opportunities": 0,
+      "opportunities": 1,
       "datasets": 0,
-      "tools": 4
+      "tools": 1
     },
     "publicationReady": 0
   },
   "drafts": [
     {
       "schemaVersion": 1,
-      "id": "3a612d3b0026605c96abe95b17102fd7ec515303f91661745ecd97a722bed17a",
-      "category": "tools",
+      "id": "523a861d21eafb5ed7c23e495938271fdad067bc512470e5c737419607d68d02",
+      "category": "opportunities",
       "status": "draft_only",
       "publicationReady": false,
       "source": {
-        "url": "https://www.python.org/",
+        "url": "https://www.esri.com/en-us/arcgis/products/arcgis-storymaps/contest",
         "discoveryProviders": [
           "Data Visualization Society"
         ],
-        "pageTitle": "Welcome to Python.org",
-        "checkedAt": "2026-11-10T01:00:12.373Z",
+        "pageTitle": "2026 ArcGIS StoryMaps Competition",
+        "checkedAt": "2026-11-10T01:12:41.375Z",
         "httpStatus": 200,
-        "contentType": "text/html; charset=utf-8"
+        "contentType": "text/html;charset=utf-8"
       },
       "evidence": {
         "checks": {
-          "productSignal": true,
-          "function": true,
-          "access": true,
-          "license": false,
-          "licenseStatus": "not stated in captured source"
+          "callSignal": true,
+          "deadline": "2026-12-11",
+          "eligibility": true
         },
-        "sourceExcerpt": "Welcome to Python.org Notice: This page displays a fallback because interactive scripts did not run. Possible causes include disabled JavaScript or failure to load scripts or stylesheets. Security notice: the emSign root CA has been removed from certifi. Upgrade certifi, pip, uv and sigstore now. See more Get Started Whether you're new to programming or an experienced developer, it's easy to learn and use Python. Start with our Beginner&rsquo;s Guide Download Python source code and installers are available for download for all versions! Latest: Python 3.15.2 Docs Documentation for Python's standard library, along with tutorials and guides, are available online. docs.python.org Jobs Looking for work or have a Python related position that you're trying to hire for? Our relaunched community-run job board is the place to go. jobs.python.org Latest News More news 2026- 11-05 How the Python ecosystem responded to the eMudhra intermediate compromise 2026- 11-04 Joshua Mcshannon Joins the PSF as Infrastructure Engineer 2026- 11-03 Announcing new Security Developer at the PSF 2026- 10-29 Announcing PSF Community Service Award Recipients! 2026- 10-26 Python 3.15.2, 3.14.10, 3.13.18, 3.12.16 and 3.11.18 are out Upcoming Events More 2026- 11-11 Edmonton.py: The Edmonton Python User Group 2026- 11-12 Python Help 2026- 11-12 Python Leiden User Group 2026- 11-14 PyCon Chile 2026 2026- 11-14 Python Pizza Istanbul Success Stories More Python and its broad variety of libraries are very well suited to develop customized machine learning tools which tackle the complex challenges posed by financial time series. Python for Financial Machine Learning at Union Investment by Dr. Christian Mandery and Nikolas Gerlich Use Python for&hellip; More Web Development : Django , Pyramid , Bottle , Tornado , Flask , Litestar , FastAPI GUI Development : tkInter , PyGObject , PyQt , PySide , Kivy , wxPython , DearPyGui AI and Machine Learning : PyTorch , TensorFlow , scikit-learn , Transformers , Anthropic , LangChain Scientific and Numeric : SciPy , Pandas , IPython Software Development : Buildbot , Trac , Roundup System Administration : Ansible , Salt , OpenStack , xonsh >>> Python Software Foundation The mission of the Python Software Foundation is to promote, protect, and advance the Python programming language, and to support and facilitate the growth of a diverse and international community of Python programmers. Learn more Become a Member Donate to the PSF",
+        "sourceExcerpt": "2026 ArcGIS StoryMaps Competition 2026 ArcGIS StoryMaps Competition Maps are for the bold Submit your story by December 11, 2026. Learn more about the competition Global storytelling competition Esri is pleased to announce the 2026 ArcGIS StoryMaps Competition. Take a geographic approach The world’s greatest challenges—including climate change, sustainability, and social and economic inequality—are interrelated and inherently tied to geography. GIS tools help people understand those challenges and communicate solutions through place-based stories. Learn about GIS Tell stories with maps Maps are an integral part of storytelling—a story can effect change, influence opinion, and create awareness. ArcGIS StoryMaps enables storytellers to easily combine text, maps, and interactive content to make engaging stories that inform and inspire. Browse storytelling resources Tell your geospatial story with ArcGIS Living Atlas content ArcGIS Living Atlas is the foremost collection of geographic information from around the globe. It includes layers, maps, apps, and tools to support your work. Explore featured apps or search all ArcGIS Living Atlas content for your story. Get started with ArcGIS Living Atlas Previous Next Show More Maps are for the bold Bold makes the world better. And, as Esri President Jack Dangermond said, “Better is what we all want. For ourselves, for our organizations, for our communities.” Bold is the urban planner who refuses to believe “that’s just the way cities are.” It’s the disaster response team that refuses to leave anyone behind. It’s the leader who acts with clarity—and insight—instead of impulse. How are you bold in pursuit of better? Esri invites storytellers age 18 and up to answer that question. Submit a story created with ArcGIS StoryMaps that addresses one of the following categories. Seeing What Others Missed : Where mapping revealed an unexpected pattern or insight Refusing the Status Quo : Where maps helped challenge “the way it’s always been done” Designing a Better Future : Using geography to anticipate, test, or prepare for what’s next Acting with Clarity in Complexity : Where maps helped leaders make deliberate, informed decisions amid uncertainty Explore the announcement story Connect place and story Create a narrative that links people, places, and data in a way others can understand. Key dates Recognition Requirements Judging criteria Terms and conditions Key dates and submission deadlines SUBMISSION DEADLINE December 11, 2026, 5:00 p.m. (PT) FINALISTS ANNOUNCED February 9, 2027 WINNERS ANNOUNCED April of 2027 Follow @ArcGISStoryMaps on X for ongoing competition resources and announcements. Recognition All winners will: Receive an Esri certificate Be featured on the Esri website and in an interview Receive an award at Esri’s 2027 User Conference Each winner may accept a voucher to take an Esri Technical Certification Exam : one (1) per individual or two (2) per team. Each winner will receive a signed printed copy of The Power of Where : one (1) per individual or two (2) per team. Requirements Applicants 18 years and older globally may enter the competition once in one of four categories: Seeing What Others Missed Refusing the Status Quo Designing a Better Future Acting with Clarity in Complexity Each category will include a student track. An applicant may be an individual or a group submitting one entry. Entries must be built with ArcGIS StoryMaps. Judging criteria Esri will select up to 8 finalists for each category. From the finalists, the guest judges will select one winner and one student winner in each category. Esri also will recognize one winner of each special award below: Community Choice Award Storytelling with Maps Innovation Award Terms and conditions By entering the ArcGIS StoryMaps competition, you must agree to the terms and conditions. Review terms and conditions Meet the guest judges Get to know your 2026 ArcGIS StoryMaps Competition judges. Latinos in Heritage Conservation Ka",
         "structuredData": [
-          {
-            "@type": "WebSite",
-            "url": "https://www.python.org/"
-          }
-        ],
-        "resourceLinks": [
-          {
-            "url": "https://www.python.org/downloads/",
-            "label": "Downloads"
-          },
-          {
-            "url": "https://www.python.org/download/other/",
-            "label": "Other Platforms"
-          },
-          {
-            "url": "https://www.python.org/download/alternatives",
-            "label": "Alternative Implementations"
-          },
-          {
-            "url": "https://fastapi.tiangolo.com/",
-            "label": "FastAPI"
-          },
-          {
-            "url": "https://www.python.org/downloads/",
-            "label": "Downloads"
-          },
-          {
-            "url": "https://www.python.org/download/other/",
-            "label": "Other Platforms"
-          },
-          {
-            "url": "https://www.python.org/download/alternatives",
-            "label": "Alternative Implementations"
-          }
-        ]
-      },
-      "recordDraft": {
-        "id": "3a612d3b0026605c96abe95b17102fd7ec515303f91661745ecd97a722bed17a",
-        "name": "Welcome to Python.org",
-        "kind": "linguagem de programação",
-        "url": "https://www.python.org/",
-        "desc": "The official home of the Python Programming Language Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
-      },
-      "missingFields": [],
-      "reviewDecision": "evidence_complete_for_record_draft",
-      "note": "Ficha preliminar baseada no conteúdo capturado da página. Campos sem evidência permanecem ausentes; a aprovação depende do gate independente de publicação."
-    },
-    {
-      "schemaVersion": 1,
-      "id": "5c1be986e488cd7da4221e6f239cdd4b9259d573f9151cf5b6d1b348b06b2dbe",
-      "category": "tools",
-      "status": "draft_only",
-      "publicationReady": false,
-      "source": {
-        "url": "https://www.r-project.org/",
-        "discoveryProviders": [
-          "Data Visualization Society"
-        ],
-        "pageTitle": "R: The R Project for Statistical Computing",
-        "checkedAt": "2026-11-10T01:00:12.373Z",
-        "httpStatus": 200,
-        "contentType": "text/html"
-      },
-      "evidence": {
-        "checks": {
-          "productSignal": true,
-          "function": true,
-          "access": true,
-          "license": true,
-          "licenseStatus": "stated"
-        },
-        "sourceExcerpt": "R: The R Project for Statistical Computing [Home] Download CRAN R Project About R Logo Contributors What’s New? Reporting Bugs Conferences Search Get Involved: Mailing Lists Get Involved: Contributing Developer Pages R Blog R Foundation Foundation Board Members In Memoriam Kalibera Family Fund Donors Donate Acknowledgements Help With R Getting Help Documentation Manuals FAQs The R Journal Books Certification Other Links Bioconductor R-Forge R-Hub GSoC The R Project for Statistical Computing Getting Started R is a free software environment for statistical computing and graphics. It compiles and runs on a wide variety of UNIX platforms, Windows and MacOS. To download R , please choose your preferred CRAN mirror . If you have questions about R like how to download and install the software, or what the license terms are, please read our answers to frequently asked questions before you send an email. News R version 4.6.2 (Diversified Portfolio) has been released on 2026-10-29. Kalibera Family Fund accepts donations until the end of 2026. R version 4.5.3 (Reassured Reassurer) (wrap-up release) was released on 2026-03-11. The useR! 2026 conference took place in Warsaw, Poland, July 7-9. You can support the R Foundation with a renewable subscription as a supporting member . Social Media Follow the R Foundation on BlueSky , Mastodon , or LinkedIn . News on BlueSky News on Mastodon <div class=\"loading-spinner\"></div> &copy; The R Foundation. For queries about this web site, please contact ; for queries about R itself, please consult the Getting Help section.",
-        "structuredData": [],
-        "resourceLinks": [
-          {
-            "url": "https://cran.r-project.org/mirrors.html",
-            "label": "download R"
-          }
-        ]
-      },
-      "recordDraft": {
-        "id": "5c1be986e488cd7da4221e6f239cdd4b9259d573f9151cf5b6d1b348b06b2dbe",
-        "name": "R: The R Project for Statistical Computing",
-        "kind": "computação estatística e análise de dados",
-        "url": "https://www.r-project.org/",
-        "desc": "R: The R Project for Statistical Computing [Home] Download CRAN R Project About R Logo Contributors What’s New? Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
-      },
-      "missingFields": [],
-      "reviewDecision": "evidence_complete_for_record_draft",
-      "note": "Ficha preliminar baseada no conteúdo capturado da página. Campos sem evidência permanecem ausentes; a aprovação depende do gate independente de publicação."
-    },
-    {
-      "schemaVersion": 1,
-      "id": "80b3a36bc32b874256e675493db452de9c5e04cb25b98648d340a315a67a3fbd",
-      "category": "tools",
-      "status": "draft_only",
-      "publicationReady": false,
-      "source": {
-        "url": "https://zebrabi.com/",
-        "discoveryProviders": [
-          "Data Visualization Society"
-        ],
-        "pageTitle": "Zebra BI | Actionable Reporting Made Easy",
-        "checkedAt": "2026-11-10T01:00:12.373Z",
-        "httpStatus": 200,
-        "contentType": "text/html; charset=UTF-8"
-      },
-      "evidence": {
-        "checks": {
-          "productSignal": true,
-          "function": true,
-          "access": true,
-          "license": false,
-          "licenseStatus": "not stated in captured source"
-        },
-        "sourceExcerpt": "Zebra BI | Actionable Reporting Made Easy Upcoming webinar: How to make your Power BI reports run up to 10x faster September 8th Register Zebra BI Live Product Demo: Start creating truly insightful Power BI reports and dashboards February 22nd Save the spot 18 Nov 2026 Zebra BI Live Product Demo: Learn how to turn data into decisions in 30 minutes Save your spot Actionable Reporting Made Easy Visualize your data as actionable insights in seconds. Create your reports with a few clicks in Power BI, Excel, or PowerPoint. Try Zebra BI for FREE Watch product demo Trusted by over +3000 professionals at companies like: The smart way to visualize the complexity of your business Turn data into decisions instantly Get actionable insights with visualization features designed to highlight what matters most. Simplify reporting, no expertise needed Skip the training and minimize coding. Set up professional-grade reports in minutes, saving time and effort. Use with Power BI, Excel, or PowerPoint Work directly in any of your Microsoft reporting platforms, to visualize your data without manually transferring your reports. Move data & visuals between platforms Power BI New Excel PowerPoint Zebra AI Focus on analysis, not building reports Let Zebra BI visuals do the heavy lifting. Automatically calculate and display your key business drivers, so you can focus on strategy, not crunching numbers. Show the story behind the numbers Use dynamic comments, focus mode, and drill-through features reveal the context behind your data. Enable yourself and your team to make informed decisions faster. Keep reports consistent across teams Zebra BI’s IBCS-compliant visuals and custom themes ensure every report follows the same logic, reducing errors and improving understanding across teams. Paint a complete picture of your business Combine all three Zebra BI visuals in Power BI to uncover the full story behind your company’s results, from top-line trends to granular details. Widely accepted quality standards IBCS Certified With IBCS standards you make sure reports across your organization stay consistent and follow the same logic for easier understanding. Power BI Certified Zebra BI Tables, Charts, and Cards have been officially tested and certified by Microsoft ensuring they meet the highest data security standards. + 46% Increase in speed of analysis* +61% Improvement in decision accuracy* 4.8 user rating in Microsoft AppSource *Based on eye-tracking and qualitative study by Technical University in Munich, Germany 3,000+ companies use Zebra BI to improve their business communication View customers by industry See how the industry leaders are using Zebra BI to grow their businesses Discover how they succeeded Read Full customer Story Read Full customer Story Read Full customer Story zebra bi academy The all-in-one free learning hub to master your Power BI reports 🎯 3 modules 30+ educational videos & PBIX files 100% FREE on-demand learning Enroll For Free 50+ free customizable business report templates carefully designed to cover every detail of your report. Check our selection here. Power BI templates Excel templates PowerPoint templates So amazing, even Microsoft uses it for internal reporting. MORE THAN 1,500,000 EXPERTS USE OUR PRODUCTS DAILY Here is what they think Verified customer &ldquo;This tool is unique. Most tools only show us WHAT happened. Zebra BI answers WHY it happened.&rdquo; Gabriel Medina Analyst at GxSoft Argentina Verified customer &ldquo;Our controllers now spend less time preparing comprehensive reports and more time analyzing data and crystallizing the message.&rdquo; Alejandro Meyer Planning & Controlling Director at SanLucar Fruit Verified customer &ldquo;This a highly professional product. Our company&rsquo;s leadership (finance and operations) is already asking we roll this out to all our PBI financial reports.&rdquo; Joe Pawlowski Innovation Manager - Business Intelligence, DHL START FOR FREE Ready to start uncovering actionable i",
-        "structuredData": [
-          {
-            "@type": "Organization",
-            "name": "Zebra BI",
-            "url": "https://zebrabi.com"
-          },
-          {
-            "@type": "WebSite",
-            "name": "Zebra BI",
-            "url": "https://zebrabi.com"
-          },
-          {
-            "@type": "ImageObject",
-            "url": "https://zebrabi.com/wp-content/uploads/2021/12/Featured-Image-Homepage-1200x630-1.png"
-          },
           {
             "@type": "WebPage",
-            "name": "Zebra BI | Actionable Reporting Made Easy",
-            "url": "https://zebrabi.com/",
-            "datePublished": "2015-07-16T11:34:34+02:00",
-            "dateModified": "2025-08-11T18:46:10+02:00"
+            "name": "2026 ArcGIS StoryMaps Competition",
+            "description": "Enter the 2026 ArcGIS StoryMaps Competition. Get competition details and find inspiration for your story in our online gallery.",
+            "url": "https://www.esri.com/en-us/arcgis/products/arcgis-storymaps/contest/overview"
           },
           {
-            "@type": "Person",
-            "name": "Ziga Milek",
-            "url": "https://zebrabi.com/author/ziga/"
-          },
-          {
-            "@type": "Article",
-            "name": "Zebra BI | Actionable Reporting Made Easy",
-            "description": "Zebra BI enables analytics teams to create jaw-dropping and actionable reports and deliver insights in record time. Try our tools today.",
-            "author": {
-              "name": "Ziga Milek"
-            },
-            "datePublished": "2015-07-16T11:34:34+02:00",
-            "dateModified": "2025-08-11T18:46:10+02:00"
-          },
-          {
-            "@type": "VideoObject",
-            "name": "Zebra BI | Actionable Reporting Made Easy",
-            "description": "Zebra BI enables analytics teams to create jaw-dropping and actionable reports and deliver insights in record time. Try our tools today.",
-            "contentUrl": "https://zebrabi.com/wp-content/uploads/2022/03/Homepage_animation_ZebraBI_smaller.mp4"
-          },
-          {
-            "@type": "VideoObject",
-            "name": "Zebra BI | Actionable Reporting Made Easy",
-            "description": "Zebra BI enables analytics teams to create jaw-dropping and actionable reports and deliver insights in record time. Try our tools today.",
-            "contentUrl": "https://zebrabi.com/wp-content/uploads/2022/03/Put-data-into-perpective.mp4"
-          },
-          {
-            "@type": "VideoObject",
-            "name": "Zebra BI | Actionable Reporting Made Easy",
-            "description": "Zebra BI enables analytics teams to create jaw-dropping and actionable reports and deliver insights in record time. Try our tools today.",
-            "contentUrl": "/wp-content/uploads/2022/03/zebra-bi-charts-1-optimized.mp4"
-          },
-          {
-            "@type": "VideoObject",
-            "name": "Zebra BI | Actionable Reporting Made Easy",
-            "description": "Zebra BI enables analytics teams to create jaw-dropping and actionable reports and deliver insights in record time. Try our tools today.",
-            "contentUrl": "/wp-content/uploads/2022/03/power-bi-dashboard-finance-sales-example-zebra-1.mp4"
-          },
-          {
-            "@type": "VideoObject",
-            "name": "Zebra BI | Actionable Reporting Made Easy",
-            "description": "Zebra BI enables analytics teams to create jaw-dropping and actionable reports and deliver insights in record time. Try our tools today.",
-            "contentUrl": "/wp-content/uploads/2022/03/Unified-view.mp4"
+            "@type": "BreadcrumbList"
           }
         ],
         "resourceLinks": []
       },
       "recordDraft": {
-        "id": "80b3a36bc32b874256e675493db452de9c5e04cb25b98648d340a315a67a3fbd",
-        "name": "Zebra BI | Actionable Reporting Made Easy",
-        "kind": "plataforma de análise de dados",
-        "url": "https://zebrabi.com/",
-        "desc": "Zebra BI enables analytics teams to create jaw-dropping and actionable reports and deliver insights in record time. Try our tools today. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
+        "id": "523a861d21eafb5ed7c23e495938271fdad067bc512470e5c737419607d68d02",
+        "title": "2026 ArcGIS StoryMaps Competition",
+        "org": null,
+        "summary": "Enter the 2026 ArcGIS StoryMaps Competition. Get competition details and find inspiration for your story in our online gallery.",
+        "type": "Competition",
+        "themes": [
+          "Meio ambiente"
+        ],
+        "scope": "Esri invites storytellers age 18 and up to answer that question.",
+        "deadline": "2026-12-11",
+        "deadlineStatus": "Confirmado na página oficial; fuso horário não informado.",
+        "eligibility": "parcial",
+        "status": "aberta",
+        "rules": "https://www.esri.com/en-us/arcgis/products/arcgis-storymaps/contest",
+        "apply": "https://www.esri.com/en-us/arcgis/products/arcgis-storymaps/contest"
       },
-      "missingFields": [],
+      "missingFields": [
+        "org"
+      ],
       "reviewDecision": "evidence_complete_for_record_draft",
       "note": "Ficha preliminar baseada no conteúdo capturado da página. Campos sem evidência permanecem ausentes; a aprovação depende do gate independente de publicação."
     },
@@ -249,7 +85,7 @@
           "Data Visualization Society"
         ],
         "pageTitle": "Quantitative Analysis of Textual Data • quanteda",
-        "checkedAt": "2026-11-10T01:00:12.373Z",
+        "checkedAt": "2026-11-10T01:12:41.375Z",
         "httpStatus": 200,
         "contentType": "text/html; charset=utf-8"
       },
