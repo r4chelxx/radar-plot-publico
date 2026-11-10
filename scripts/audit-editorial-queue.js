@@ -50,7 +50,10 @@ async function inspect(item){
    else if(!title||title.length<4){result='weak_page_metadata';reason='Página sem título/metadados utilizáveis.'}
   }else if(/application\/(?:json|ld\+json)|text\/csv|application\/(?:zip|octet-stream)/i.test(type)){result='data_resource_candidate';reason='A URL entrega conteúdo estruturado/binário; validar formato, escopo, licença e uso editorial.'}
   else{result='non_html_resource_candidate';reason='URL acessível com tipo '+type+'; validar função e categoria.'}
-  return{...item,audit:{checkedAt:now.toISOString(),httpStatus:res.status,finalUrl:res.url,contentType:type,pageTitle:title,pageDescription:description,evidenceText:pageEvidence.evidenceText,structuredData:pageEvidence.structuredData,resourceLinks:pageEvidence.resourceLinks||[],result,reason}}
+  const inheritedLinks=Array.isArray(item.resourceLinks)?item.resourceLinks:[];
+  const resourceLinks=[...inheritedLinks,...(pageEvidence.resourceLinks||[])].filter((x,i,a)=>x?.url&&!a.slice(0,i).some(y=>y.url===x.url)).slice(0,40);
+  const evidenceText=[pageEvidence.evidenceText,item.sourceEvidence].filter(Boolean).join(' ').slice(0,120000);
+  return{...item,audit:{checkedAt:now.toISOString(),httpStatus:res.status,finalUrl:res.url,contentType:type,pageTitle:title,pageDescription:description,evidenceText,structuredData:pageEvidence.structuredData,resourceLinks,result,reason}}
  }catch(e){return{...item,audit:{checkedAt:now.toISOString(),httpStatus:null,result:'inconclusive',reason:e.name==='AbortError'?'Timeout; tentar em auditoria futura.':'Falha de rede; tentar em auditoria futura.'}}}
  finally{clearTimeout(timer)}
 }
