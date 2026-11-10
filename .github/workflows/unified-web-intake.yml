@@ -52,6 +52,7 @@ on:
       - 'scripts/verify-published-records.js'
       - 'scripts/validate-approved-manifest.js'
       - 'intake/approved-publications.json'
+      - 'intake/user-requested-candidates.json'
       - '.github/workflows/editorial-publish.yml'
       - 'scripts/report-discovery-operations.js'
       - 'scripts/editorial-funnel.js'
@@ -80,6 +81,7 @@ on:
       - 'scripts/build-editorial-record-drafts.js'
       - 'scripts/validate-editorial-record-drafts.js'
       - 'tests/publication-drafts.test.js'
+      - 'intake/user-requested-candidates.json'
       - '.github/workflows/unified-web-intake.yml'
   schedule:
     # Staggered redundant daily attempts; persistence is deduplicated on radar-state.
@@ -246,7 +248,7 @@ jobs:
           if [ ! -f intake/public-dataset-discovery.json ]; then
             printf '{"source":"web","leads":[]}\n' > intake/public-dataset-discovery.json
           fi
-          node scripts/unify-discovery.js intake/live-web-discovery.json intake/dvs-public-discovery.json intake/web-discovery-input.json intake/linkedin-public-candidates.json intake/public-funding-pages.json intake/opportunity-web-discovery.json intake/public-dataset-discovery.json intake/gmail-discovery.json intake/linkedin-indexed-discovery.json
+          node scripts/unify-discovery.js intake/live-web-discovery.json intake/dvs-public-discovery.json intake/web-discovery-input.json intake/user-requested-candidates.json intake/linkedin-public-candidates.json intake/public-funding-pages.json intake/opportunity-web-discovery.json intake/public-dataset-discovery.json intake/gmail-discovery.json intake/linkedin-indexed-discovery.json
       - name: Classify duplicate and navigation candidates
         run: node scripts/quality-gate-discovery.js
       - name: Prepare editorial review sample
