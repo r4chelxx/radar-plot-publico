@@ -17,7 +17,7 @@ function toolIdentity(c,title,docs){
 }
 function toolFunction(text,docs){
  const structured=docs.some(x=>{const type=flat(x['@type']).toLowerCase();return /softwareapplication|softwareproduct/.test(type)&&(x.featureList||x.applicationCategory||x.description)});
- return structured||/(data visualization|visuali[sz]a(?:tion|ção) de dados|create (?:interactive )?(?:maps|charts|dashboards)|build (?:interactive )?(?:maps|charts|dashboards)|mapping software|programming language|statistical computing|statistical analysis|data analytics|business intelligence|query language|geospatial analysis|spatial analysis|web scraping|scrape (?:websites|data)|data cleaning|data processing|data analysis|text analysis|network analysis|mapeamento interativo|análise geoespacial|visualização de dados|raspagem de dados|permite criar (?:mapas|gráficos|painéis)|lets users create|enables users to create)/i.test(text);
+ return structured||/(data visualization|visuali[sz]a(?:tion|ção) de dados|create (?:interactive )?(?:maps|charts|dashboards)|build (?:interactive )?(?:maps|charts|dashboards)|mapping software|programming language|statistical computing|statistical analysis|data analytics|business intelligence|query language|geospatial analysis|spatial analysis|web scraping|scrape (?:websites|data)|data cleaning|data processing|data analysis|data matching|record linkage|text analysis|network analysis|design tool|design platform|collaborative design|prototype|vector graphics|illustration|visual development|interactive (?:maps|charts|dashboards)|dashboard|reporting|pdf(?: processing| extraction)?|machine learning|open source library|package for R|mapeamento interativo|análise geoespacial|visualização de dados|raspagem de dados|permite criar (?:mapas|gráficos|painéis)|lets users create|enables users to create|helps (?:you|users) (?:design|analy[sz]e|visuali[sz]e|create)|biblioteca (?:JavaScript|Python|R)|plataforma de análise)/i.test(text);
 }
 function inferCategory(c,text,title){
  const url=String(c.url||'').toLowerCase();
@@ -100,7 +100,7 @@ function review(c){
   const d=ld.find(x=>/softwareapplication|softwareproduct|software/.test(x.type))?.data;
   checks.productSignal=!!d||toolIdentity(c,title,docs);
   checks.function=!!(d?.applicationCategory||d?.featureList||d?.description)||toolFunction(text,docs);
-  checks.access=!!(d?.offers||d?.operatingSystem)||/(free|open source|pricing|subscription|account|download|install|web app|browser|gratuito|licença|conta|preço|instala)/i.test(text);
+  checks.access=!!(d?.offers||d?.operatingSystem)||/(free|open source|pricing|subscription|account|download|install|web app|browser|online|cloud|desktop|api|documentation|docs|github|cran|npm|python|trial|commercial|gratuito|licença|conta|preço|instala|disponível|acesso)/i.test(text);
   checks.license=!!d?.license||/(license|licen[çc]a|mit license|apache license|gpl|bsd license)/i.test(text);
   checks.licenseStatus=checks.license?'stated':'not stated in captured source';
   if(!checks.productSignal)missing.push('produto ou software identificável');
