@@ -2,6 +2,18 @@ window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
 {
   "date": "2026-11-09",
+  "type": "nova-oportunidade",
+  "title": "Publicação editorial verificada — 2026-11-09",
+  "items": [
+    {
+      "id": "523a861d21eafb5ed7c23e495938271fdad067bc512470e5c737419607d68d02",
+      "title": "2026 ArcGIS StoryMaps Competition"
+    }
+  ],
+  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: 2026 ArcGIS StoryMaps Competition."
+}, 
+{
+  "date": "2026-11-09",
   "type": "ferramentas",
   "title": "Publicação editorial verificada — 2026-11-09",
   "items": [
