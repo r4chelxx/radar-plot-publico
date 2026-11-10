@@ -4,7 +4,7 @@ const ctx={window:{RADAR_PARTS:{}}};vm.createContext(ctx);
 for(const file of ['data/opportunities.js','data/datasets.js','data/tools.js']) vm.runInContext(fs.readFileSync(file,'utf8'),ctx,{filename:file});
 const normalize=s=>String(s||'').normalize('NFKD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,' ').trim();
 const known=[...ctx.window.RADAR_PARTS.opportunities.map(x=>({category:'opportunities',name:x.title,url:x.rules})),...ctx.window.RADAR_PARTS.datasets.map(x=>({category:'datasets',name:x.name,url:x.url,discoveryUrl:x.discoveryUrl})),...ctx.window.RADAR_PARTS.tools.map(x=>({category:'tools',name:x.name,url:x.url,discoveryUrl:x.discoveryUrl}))];
-const intake=JSON.parse(fs.readFileSync(process.argv[2]||'intake/source-review.json','utf8'));
+const {classifyLead}=require('./lead-category');\nconst intake=JSON.parse(fs.readFileSync(process.argv[2]||'intake/source-review.json','utf8'));
 const report={generatedAt:new Date().toISOString(),policy:'Candidate discovery only; all records require human verification before publication',coverage:intake.coverage||null,results:[]};
 for(const source of intake.results||[]){
  const title=source.title||'';
