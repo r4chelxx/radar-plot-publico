@@ -119,3 +119,20 @@ test('required Gmail source gate accepts a healthy partial backfill',()=>{
  const r=assertGmailAvailable({health:[{source:'Gmail Radar PLOT',status:'ok',scanned:30,items:4,coverageStatus:'partial'}]});
  assert.deepEqual(r,{source:'Gmail Radar PLOT',scanned:30,items:4,coverageStatus:'partial'});
 });
+
+
+test('Gmail retries transient per-user rate limits with exponential backoff',async()=>{
+ const fs=require('node:fs'),os=require('node:os'),path=require('node:path');
+ const dir=fs.mkdtempSync(path.join(os.tmpdir(),'radar-gmail-retry-'));let listCalls=0;
+ const fetcher=async url=>{
+  if(String(url).includes('oauth2.googleapis.com'))return {ok:true,json:async()=>({access_token:'test'})};
+  if(String(url).endsWith('/labels'))return {ok:true,json:async()=>({labels:[{id:'L',name:'Radar PLOT.'}]})};
+  if(String(url).includes('/messages?')&&++listCalls===1)return {ok:false,status:403,json:async()=>({error:{errors:[{reason:'rateLimitExceeded'}]}})};
+  if(String(url).includes('/messages?'))return {ok:true,json:async()=>({messages:[]})};
+  throw Error('Unexpected message read');
+ };
+ try{
+  const r=await gmail.collect(fetcher,{RADAR_GMAIL_CLIENT_ID:'x',RADAR_GMAIL_CLIENT_SECRET:'y',RADAR_GMAIL_REFRESH_TOKEN:'z',RADAR_GMAIL_CURSOR_FILE:path.join(dir,'cursor.json'),RADAR_GMAIL_RETRY_BASE_MS:'0'});
+  assert.equal(r.health[0].status,'ok');assert.equal(listCalls,2);assert.equal(r.health[0].coverageStatus,'complete');
+ }finally{fs.rmSync(dir,{recursive:true,force:true})}
+});
