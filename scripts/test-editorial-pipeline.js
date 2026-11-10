@@ -35,6 +35,16 @@ try{
  assert.throws(()=>run('publish-approved.js',input),/eligibility must use a validated catalog status/);
  fs.writeFileSync(input,JSON.stringify(opportunityManifest({...opportunityBase,id:'open-rolling-journalism-grant',deadline:null,deadlineStatus:'Applications are rolling with no deadline stated on the official page.'})));
  assert.equal(JSON.parse(run('publish-approved.js',input)).published,1);
+ const opportunityFile=path.join(root,'data','opportunities.js');
+ const expiredExisting={...opportunityBase,id:'previously-published',deadline:'2020-01-01',verificationHistory:[{status:'aberta'}]};
+ fs.writeFileSync(opportunityFile,'window.RADAR_PARTS.opportunities=[\n'+JSON.stringify(expiredExisting,null,2)+'\n];\n');
+ fs.writeFileSync(input,JSON.stringify({approved:[]}));
+ const expiry=JSON.parse(run('publish-approved.js',input));
+ assert.equal(expiry.archived,1);
+ assert.equal(expiry.published,0);
+ assert.match(fs.readFileSync(opportunityFile,'utf8'),/^  "status": "encerrada"/m);
+ assert.match(fs.readFileSync(opportunityFile,'utf8'),/^      "status": "aberta"/m);
+ assert.equal(JSON.parse(run('publish-approved.js',input)).archived,0);
  const vagueToolManifest={approved:[{category:'tools',record:{...candidate,id:'vague-tool-candidate',name:'Vague tool',url:'https://example.org/vague-tool'},review:{decision:'approved',reviewedBy:'editorial-reviewer',reviewedAt:'2026-10-23',officialUrl:'https://example.org/vague-tool',evidence:'Official page reviewed; suitable for journalists and appears relevant.'}}]};
  fs.writeFileSync(input,JSON.stringify(vagueToolManifest));
  assert.throws(()=>run('publish-approved.js',input),/Tool evidence must describe a confirmed product function/);

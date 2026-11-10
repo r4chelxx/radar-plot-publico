@@ -2,17 +2,17 @@ window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.tools=[
 {
   "id": "3a612d3b0026605c96abe95b17102fd7ec515303f91661745ecd97a722bed17a",
-  "name": "Welcome to Python.org",
+  "name": "Python",
   "kind": "linguagem de programação",
   "url": "https://www.python.org/",
-  "desc": "The official home of the Python Programming Language Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
+  "desc": "Linguagem de programação de código aberto usada para automatizar coleta, limpeza e análise de dados. O uso exige instalar ou acessar um ambiente de execução e, conforme a tarefa, bibliotecas adicionais."
 },
 {
   "id": "5c1be986e488cd7da4221e6f239cdd4b9259d573f9151cf5b6d1b348b06b2dbe",
-  "name": "R: The R Project for Statistical Computing",
+  "name": "R",
   "kind": "computação estatística e análise de dados",
   "url": "https://www.r-project.org/",
-  "desc": "R: The R Project for Statistical Computing [Home] Download CRAN R Project About R Logo Contributors What’s New? Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
+  "desc": "Linguagem e ambiente de código aberto para computação estatística e gráficos. Permite explorar dados e criar análises reproduzíveis. Fluxos especializados podem exigir pacotes adicionais e conhecimento de programação."
 },
 {
   "id": "80b3a36bc32b874256e675493db452de9c5e04cb25b98648d340a315a67a3fbd",

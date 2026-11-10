@@ -1627,8 +1627,8 @@ window.RADAR_PARTS.opportunities=[
     "Jornalismo regional"
   ],
   "scope": "Mato Grosso (MT)",
-  "deadline": "2026-11-09",
-  "deadlineStatus": "confirmado",
+  "deadline": "2026-11-17",
+  "deadlineStatus": "Prorrogação até 17/11 divulgada em comunicado atribuído à ALMT.",
   "eligibility": "restrita",
   "fit": 1,
   "status": "aberta",
@@ -1637,7 +1637,8 @@ window.RADAR_PARTS.opportunities=[
   "discoveredVia": [
     "Assembleia Legislativa de Mato Grosso — ALMT"
   ],
-  "discoveryUrl": "https://diariooficial.al.mt.gov.br/publicacoes/36040/"
+  "discoveryUrl": "https://diariooficial.al.mt.gov.br/publicacoes/36040/",
+  "deadlineSource": "https://olhardinamico.com/noticia/194877/inscricoes-do-2o-premio-almt-de-jornalismo-sao-prorrogadas-ate-17-de-novembro"
 },
 {
   "value": "Participação integralmente financiada (não é grant de pauta)",

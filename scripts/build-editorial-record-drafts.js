@@ -47,6 +47,7 @@ function evidenceSummary(text,description){
 function toolKind(text,applicationCategory,titleKind){
  if(applicationCategory)return clean(applicationCategory);
  if(titleKind)return clean(titleKind);
+ if(/\b(?:is an? R package for|pacote (?:do|para) R para)\b/i.test(text))return 'pacote R';
  if(/programming language/i.test(text))return 'linguagem de programação';
  if(/statistical computing|statistical analysis/i.test(text))return 'computação estatística e análise de dados';
  if(/data analytics|business intelligence/i.test(text))return 'plataforma de análise de dados';

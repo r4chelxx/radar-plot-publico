@@ -96,6 +96,26 @@ for(const entry of source.approved){
  insertions[category].push(record);
  log.push({type:rule.type,id:record.id,title:record[rule.title],date:today,detail:proof.evidence});
 }
+// Archive existing calls after their stated local deadline without counting them as new.
+const pacificToday=new Intl.DateTimeFormat('en-CA',{timeZone:'America/Los_Angeles',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());
+const expired=new Set(D.opportunities.filter(record=>record.status==='aberta'&&
+ /^\d{4}-\d{2}-\d{2}$/.test(record.deadline)&&
+ record.deadline<(/23h59 do Pacífico/i.test(record.deadlineStatus)?pacificToday:today)).map(record=>record.id));
+const archived=expired.size;
+if(archived){
+ const file=spec.opportunities.path;
+ const updated=fs.readFileSync(file,'utf8').replace(/^([ \t]*)\{[ \t]*\r?\n[\s\S]*?^\1\}(?=,|\s*\])/gm,block=>{
+  const property=/^([ \t]*)"id":\s*"([^"]+)"/m.exec(block);
+  if(!property||!expired.has(property[2]))return block;
+  const [ ,indent,id]=property;
+  const statusLine=new RegExp('^('+indent+'"status":\\s*)"aberta"','m');
+  const closed=block.replace(statusLine,'$1"encerrada"');
+  if(closed!==block)expired.delete(id);
+  return closed;
+ });
+ if(expired.size)throw Error('Could not archive expired opportunities: '+[...expired].join(', '));
+ fs.writeFileSync(file,updated);
+}
 function prepend(path,variable,records){
  if(!records.length)return;
  let content=fs.readFileSync(path,'utf8'),marker='window.RADAR_PARTS.'+variable+'=[',pos=content.indexOf(marker);
@@ -111,4 +131,4 @@ const updates=Object.values(spec).map(rule=>({rule,items:log.filter(x=>x.type===
  detail:'Registros aprovados individualmente com documentação oficial e evidência editorial: '+items.map(x=>x.title).join('; ')+'.'
 }));
 prepend('data/changelog.js','changelog',updates);
-console.log(JSON.stringify({date:today,approved:source.approved.length,published:log.length,alreadyPresent:source.approved.length-log.length,byCategory:Object.fromEntries(Object.entries(insertions).map(([k,v])=>[k,v.length]))}));
+console.log(JSON.stringify({date:today,approved:source.approved.length,published:log.length,archived,alreadyPresent:source.approved.length-log.length,byCategory:Object.fromEntries(Object.entries(insertions).map(([k,v])=>[k,v.length]))}));
