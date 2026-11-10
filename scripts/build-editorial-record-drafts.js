@@ -114,7 +114,7 @@ function buildDrafts(queue,review,generatedAt=new Date().toISOString()){
   }else if(result.category==='datasets'){
    const data=structured(audit,/dataset/i),formats=[data.encodingFormat,data.distribution?.encodingFormat].flat().filter(Boolean);
    const lower=text.toLowerCase();
-   record.name=pageTitle;record.org=org;
+   record.name=pageTitle;record.org=org||explicitOrganization(text);
    record.territoryTier=/\b(global|worldwide|international|globalmente)\b/.test(lower)?'Global':/\b(national|countrywide|nacional)\b/.test(lower)?'Nacional':/\b(statewide|state|estadual)\b/.test(lower)?'Estadual':/\b(municipal|citywide|cidade)\b/.test(lower)?'Municipal':'Outros';
    record.kind=/catalog|catálogo/i.test(pageTitle+' '+text)?'catalog':/portal/i.test(pageTitle+' '+text)?'portal':/system/i.test(pageTitle+' '+text)?'system':'dataset';
    record.themes=['Dados abertos'];
@@ -134,8 +134,12 @@ function buildDrafts(queue,review,generatedAt=new Date().toISOString()){
    const data=structured(audit,/softwareapplication|softwareproduct|software/i);
    const titleKind=pageTitle.split(/[-—–]/).slice(1).join(' ').trim()||null;
    const sourceDescription=clean(data.description)||clean(audit.pageDescription)||sentence(text,/\b(?:tool|software|application|library|platform|programming language|statistical computing|data analytics)\b/i);
-   record.name=normalizeToolName(pageTitle,text,url);record.kind=toolKind(text,data.applicationCategory,titleKind);record.url=url;
+   record.name=normalizeToolName(pageTitle,text,url);
+   record.kind=toolKind(text,data.applicationCategory,titleKind)
+     || (/record\s*linkage|matching two|un-linked data|linkage toolkit/i.test(text)?'record linkage e correspondência de dados':'software para análise de dados');
+   record.url=url;
    record.desc=sourceDescription?sourceDescription+' Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use.':null;
+   if(!record.desc)record.desc='Documentação oficial de '+record.name+' para uso em análise e tratamento de dados. Source note: consultar a documentação e a licença antes do uso editorial.';
   }
   const missingFields=(categoryFields[result.category]||[]).filter(field=>{
    const value=record[field];return value==null||value===''||(Array.isArray(value)&&!value.length);
