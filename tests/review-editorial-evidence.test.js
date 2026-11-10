@@ -56,6 +56,7 @@ try{
  assert.equal(result.records.find(x=>x.id==='event-false-positive').category,'uncategorized');
  assert.equal(result.records.find(x=>x.id==='unrelated-date').decision,'pending_more_evidence');
  for(const id of ['tool-guide','tool-newsroom','tool-launch-article']){assert.equal(result.records.find(x=>x.id===id).category,'uncategorized');assert.equal(result.records.find(x=>x.id===id).decision,'pending_more_evidence');}
+ for(const id of ['agency-noise','archive-noise','membership-noise','academic-library-noise']){assert.equal(result.records.find(x=>x.id===id).category,'uncategorized');assert.equal(result.records.find(x=>x.id===id).decision,'pending_more_evidence');}
  assert(result.records.every(x=>x.publicationReady===false));
  console.log('Category evidence review regressions passed');
 }finally{fs.rmSync(root,{recursive:true,force:true})}
