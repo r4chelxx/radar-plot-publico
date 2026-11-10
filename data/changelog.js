@@ -1,6 +1,18 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
 {
+  "date": "2026-11-10",
+  "type": "ferramentas",
+  "title": "Publicação editorial verificada — 2026-11-10",
+  "items": [
+    {
+      "id": "9074bd0330d7cf1e7b676cd5fa22eacf03a786e13009162ac6f99e121dca4cf6",
+      "title": "Quantitative Analysis of Textual Data • quanteda"
+    }
+  ],
+  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Quantitative Analysis of Textual Data • quanteda."
+}, 
+{
   "date": "2026-11-09",
   "type": "nova-oportunidade",
   "title": "Publicação editorial verificada — 2026-11-09",
