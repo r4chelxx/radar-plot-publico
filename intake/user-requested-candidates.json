@@ -5,52 +5,72 @@
     {
       "title": "AdaptaBrasil MCTI",
       "url": "https://www.gov.br/mcti/pt-br/acesso-a-informacao/dados-abertos/dados-abertos/arquivos/adapta-brasil/adaptabrasil",
-      "category": "datasets"
+      "category": "datasets",
+      "resourceLinks": [{"url":"https://www.gov.br/mcti/pt-br/acesso-a-informacao/dados-abertos/dados-abertos/arquivos/adapta-brasil/adaptabrasil","label":"Official CSV download catalog"}],
+      "sourceEvidence": "Official MCTI open-data catalog. Dataset: AdaptaBrasil MCTI climate-impact and vulnerability indicators for Brazil, with CSV downloads and municipal/spatial coverage. Format: CSV. Organization: Ministry of Science, Technology and Innovation (MCTI), with INPE and RNP."
     },
     {
       "title": "Atlas Digital de Desastres no Brasil",
       "url": "https://atlasdigital.mdr.gov.br/",
-      "category": "datasets"
+      "category": "datasets",
+      "resourceLinks": [{"url":"https://atlasdigital.mdr.gov.br/","label":"Official open data portal and downloadable disaster database"}],
+      "sourceEvidence": "Official MIDR/Sedec dataset portal. Dataset: Brazilian disaster occurrences, losses and impacts from 1991 to 2024, organized by municipality, state, disaster type and impact category. Format: interactive tables, maps and downloadable data."
     },
     {
       "title": "BDiA — Banco de Dados de Informações Ambientais",
       "url": "https://www.ibge.gov.br/geociencias/informacoes-ambientais/geologia/23382-banco-de-informacoes-ambientais.html",
-      "category": "datasets"
+      "category": "datasets",
+      "resourceLinks": [{"url":"https://www.ibge.gov.br/geociencias/informacoes-ambientais/geologia/23382-banco-de-informacoes-ambientais.html","label":"Official IBGE data and export page"}],
+      "sourceEvidence": "Official IBGE environmental information database. Dataset: geospatial thematic collections for geology, geomorphology, soils and vegetation in Brazil, with spatial queries and export of graphical and tabular data. Format: geospatial and tabular downloads. Coverage: Brazil, compatible with 1:250,000 scale and updated through periodic revisions."
     },
     {
       "title": "Atlas da Vulnerabilidade Social — Ipea",
       "url": "https://www.ipea.gov.br/portal/categoria-projetos-e-estatisticas/9939-atlas-da-vulnerabilidade-social",
-      "category": "datasets"
+      "category": "datasets",
+      "resourceLinks": [{"url":"https://ivs.ipea.gov.br/","label":"Official Ipea data portal"}],
+      "sourceEvidence": "Official Ipea data platform. Dataset: social vulnerability and social exclusion indicators for municipalities, states and metropolitan regions in Brazil. Format: downloadable and queryable data in multiple formats. Coverage: Brazilian administrative and metropolitan areas."
     },
     {
       "title": "GeoInfo — Infraestrutura de Dados Espaciais da Embrapa",
       "url": "https://www.gov.br/pt-br/servicos/consultar-informacoes-geoespaciais-na-plataforma-geoinfo",
-      "category": "datasets"
+      "category": "datasets",
+      "resourceLinks": [{"url":"https://www.gov.br/pt-br/servicos/consultar-informacoes-geoespaciais-na-plataforma-geoinfo","label":"Official geospatial data catalog"}],
+      "sourceEvidence": "Official Embrapa geospatial data infrastructure. Dataset catalog: geoinformation produced and curated by Embrapa for researchers, academics and the public, with spatial metadata and map layers. Format: geospatial data and catalog records. Coverage: Brazilian environmental and agricultural territories."
     },
     {
       "title": "SINISA — resultados e indicadores de saneamento",
       "url": "https://www.gov.br/cidades/pt-br/acesso-a-informacao/acoes-e-programas/saneamento/sinisa/resultados-sinisa/resultados-sinisa-2025",
-      "category": "datasets"
+      "category": "datasets",
+      "resourceLinks": [{"url":"https://www.gov.br/cidades/pt-br/acesso-a-informacao/acoes-e-programas/saneamento/sinisa/resultados-sinisa/resultados-sinisa-2025","label":"Official reports and spreadsheet downloads"}],
+      "sourceEvidence": "Official Ministry of Cities SINISA results. Dataset: sanitation indicators for municipal management, water supply, sewage, solid waste and stormwater. Format: reports and spreadsheets. Coverage: Brazil, reference year 2024 in the 2025 collection."
     },
     {
       "title": "HydroSHEDS — core geospatial datasets",
       "url": "https://www.hydrosheds.org/hydrosheds-core-downloads",
-      "category": "datasets"
+      "category": "datasets",
+      "resourceLinks": [{"url":"https://www.hydrosheds.org/hydrosheds-core-downloads","label":"Official dataset downloads"}],
+      "sourceEvidence": "Official HydroSHEDS dataset downloads. Dataset: global hydrographic and hydrological layers including elevation, flow direction, flow accumulation, basins, rivers and lakes. Format: raster and vector geospatial downloads. Coverage: global, with versioned products and documented limitations."
     },
     {
       "title": "SoilGrids — global gridded soil information",
       "url": "https://docs.isric.org/globaldata/soilgrids/index.html",
-      "category": "datasets"
+      "category": "datasets",
+      "resourceLinks": [{"url":"https://files.isric.org/soilgrids/latest/data/","label":"Official SoilGrids data files"}],
+      "sourceEvidence": "Official ISRIC SoilGrids documentation. Dataset: global modeled soil-property maps at 250 m resolution and six standard depth intervals. Format: raster data and programmatic access. Coverage: global. License: CC BY 4.0; predictions and model uncertainty must be checked before editorial use."
     },
     {
       "title": "Global Surface Water — JRC data access",
       "url": "https://global-surface-water.appspot.com/download",
-      "category": "datasets"
+      "category": "datasets",
+      "resourceLinks": [{"url":"https://global-surface-water.appspot.com/download","label":"Official dataset download access"}],
+      "sourceEvidence": "Official JRC Global Surface Water access page. Dataset: global historical surface-water occurrence and change derived from Landsat observations, covering 1984 onward. Format: downloadable raster layers and Google Earth Engine access. Coverage: global."
     },
     {
       "title": "GHSL — Global Human Settlement Layer",
       "url": "https://human-settlement.emergency.copernicus.eu/datasets.php",
-      "category": "datasets"
+      "category": "datasets",
+      "resourceLinks": [{"url":"https://human-settlement.emergency.copernicus.eu/downloadWizard.php","label":"Official GHSL dataset download wizard"}],
+      "sourceEvidence": "Official European Commission Joint Research Centre GHSL catalog. Dataset family: global built-up surface, population, settlement and urbanization layers from satellite imagery, census and volunteered geographic information. Format: downloadable geospatial layers. Coverage: global and multi-temporal."
     },
     {
       "title": "Global Migration Institute and Bridging Divides Journalism Fellowship",
@@ -60,7 +80,12 @@
     {
       "title": "Programa de Bolsas Aborto em Pílulas — Gênero e Número",
       "url": "https://www.generonumero.media/artigos/programa-de-bolsas-aborto-em-pilulas/",
-      "category": "opportunities"
+      "category": "opportunities",
+      "resourceLinks": [
+        {"url":"https://drive.google.com/file/d/1ORBvuG8MlZLsztzYyDAcVFscYKK0D9xh/view?usp=sharing","label":"Official call edital PDF"},
+        {"url":"https://docs.google.com/forms/d/e/1FAIpQLSf9edFJ-daXemi_FoeoLW0OY8Pf9UuucV8qayLibIKvR_ybnw/viewform","label":"Official application form"}
+      ],
+      "sourceEvidence": "Official Gênero e Número call. Fellowship: Programa de Bolsas Aborto em Pílulas; five projects receive R$5,000 each. Applications: 10–27 November 2026 at 23:59. Eligibility: journalists or communicators resident in Brazil, women cis/trans/travestis, trans men, transmasculine and non-binary people, with proven experience covering reproductive justice; individual or duo projects; active MEI or ME required for invoicing."
     }
   ]
 }
