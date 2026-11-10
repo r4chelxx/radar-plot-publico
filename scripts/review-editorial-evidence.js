@@ -10,6 +10,8 @@ const today=new Intl.DateTimeFormat('en-CA',{timeZone:'America/Bahia',year:'nume
 const flat=v=>Array.isArray(v)?v.map(flat).join(' '):v&&typeof v==='object'?Object.values(v).map(flat).join(' '):String(v||'');
 const excluded=/\b(conference|webinar|festival|newsletter|podcast|blog post|news article|event|symposium|perfil|profile|portfolio|directory|diretório|tutorial|guide|how[- ]to|call for pitches|press release|article|agency|agência|consult(?:ancy|ing|oria)|membership|archive|arquivo|research advisory|academic library|biblioteca acadêmica)\b/i;
 const excludedPath=/\/(?:blog|news|press|articles?|posts?|podcasts?|pitch|process|tutorials?|guides?|learn|courses?|events?|conference|community|about|people|team|authors?|profiles?|jobs?|docs|20\d{2}\/(?:0?[1-9]|1[0-2]))(?:\/|$)/i;
+const excludedToolUrl=/(?:creativeapplications\.net(?:\/|$)|propublica\.org\/data(?:\/|$)|poynter\.org\/(?:shop|mediawise\/programs)(?:\/|$)|mailchimp\.com\/signup(?:\/|$)|indicator\.media\/p\/(?:[^/]+)|soxoj\.com\/?$)/i;
+const excludedToolContent=/\b(?:community of creative practitioners|critical making|published \d{2,}[,\d]* articles|membership plans?|research advisory|consulting services|course|training program|newsroom archive)\b/i;
 function toolIdentity(c,title,docs){
  const structured=docs.some(x=>/softwareapplication|softwareproduct/.test(flat(x['@type']).toLowerCase()));
  const surface=[title,String(c.title||''),String(c.url||'').split('/').filter(Boolean).slice(-1)[0]||'',String(c.audit?.pageDescription||'')].join(' ');
@@ -23,7 +25,7 @@ function inferCategory(c,text,title){
  const url=String(c.url||'').toLowerCase();
  if(excluded.test(title+' '+String(c.title||''))||excludedPath.test(new URL(url||'https://invalid.local').pathname))return 'uncategorized';
  const supplied=['opportunities','tools','datasets'].includes(c.category)?c.category:null;
- if(supplied==='tools')return toolIdentity(c,title,c.audit?.structuredData||[])?'tools':'uncategorized';
+ if(supplied==='tools')return (!excludedToolUrl.test(url)&&!excludedToolContent.test(text)&&toolIdentity(c,title,c.audit?.structuredData||[]))?'tools':'uncategorized';
  if(supplied)return supplied;
  const opportunity=actionableOpportunity(title,text);
  const deadline=/(deadline|closing date|close(?:s|d)?\s+(?:on|by|\d)|applications?[^.!?]{0,60}clos(?:e|es|ed)|prazo|inscri[cç][aã]o(?:s)?[^.!?]{0,50}até)/i.test(text);
@@ -34,7 +36,7 @@ function inferCategory(c,text,title){
  if(dataset&&dataAccess)return 'datasets';
  const tool=toolIdentity(c,title,c.audit?.structuredData||[]);
  const productFunction=toolFunction(text,c.audit?.structuredData||[]);
- if(tool&&productFunction&&!excludedPath.test(new URL(url||'https://invalid.local').pathname))return 'tools';
+ if(tool&&productFunction&&!excludedToolUrl.test(url)&&!excludedToolContent.test(text)&&!excludedPath.test(new URL(url||'https://invalid.local').pathname))return 'tools';
  return 'uncategorized';
 }
 function dateCandidates(text){

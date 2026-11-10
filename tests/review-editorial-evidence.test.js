@@ -24,6 +24,8 @@ try{
  item('tool-guide','tools',{pageTitle:'Chart types guide',evidenceText:'A guide to chart software. Create interactive charts and dashboards. Free access.',structuredData:[]},'https://datawrapper.de/blog/chart-types-guide'),
  item('tool-newsroom','tools',{pageTitle:'The Markup',evidenceText:'Our newsroom uses tools for investigations and supports data visualization. Free resources are available.',structuredData:[]},'https://themarkup.org/'),
  item('tool-launch-article','uncategorized',{pageTitle:'Press Gazette launches a tool for newsrooms',evidenceText:'The tool provides data visualization and lets users create interactive charts. Free access is available.',structuredData:[]},'https://pressgazette.example/2026/10/02/press-gazette-launches-a-tool'),
+ item('creative-community','tools',{pageTitle:'CreativeApplications.Net – Technology, Society, and Critical Making',evidenceText:'A community of creative practitioners working at the intersection of art, media and technology. Published 4,232 articles and supported by 1,740 members.',structuredData:[]},'https://www.creativeapplications.net/'),
+ item('poynter-course','tools',{pageTitle:'AI for Journalists and Content Creators',evidenceText:'A course and training program for journalists and content creators.',structuredData:[]},'https://www.poynter.org/shop/fact-checking-media-literacy/ai-for-journalists-and-content-creators-from-understanding-to-application'),
  item('agency-noise','tools',{pageTitle:'The Fix Research & Advisory',evidenceText:'Research advisory and consulting services for newsrooms.',structuredData:[]}),
  item('archive-noise','tools',{pageTitle:'News App Archives — ProPublica',evidenceText:'Archive of newsroom projects and applications.',structuredData:[]}),
  item('membership-noise','tools',{pageTitle:'Upgrade to an Indicator membership',evidenceText:'Membership plans and benefits for data access.',structuredData:[]}),
@@ -57,6 +59,7 @@ try{
  assert.equal(result.records.find(x=>x.id==='unrelated-date').decision,'pending_more_evidence');
  for(const id of ['tool-guide','tool-newsroom','tool-launch-article']){assert.equal(result.records.find(x=>x.id===id).category,'uncategorized');assert.equal(result.records.find(x=>x.id===id).decision,'pending_more_evidence');}
  for(const id of ['agency-noise','archive-noise','membership-noise','academic-library-noise']){assert.equal(result.records.find(x=>x.id===id).category,'uncategorized');assert.equal(result.records.find(x=>x.id===id).decision,'pending_more_evidence');}
+ for(const id of ['creative-community','poynter-course']){assert.equal(result.records.find(x=>x.id===id).category,'uncategorized');assert.equal(result.records.find(x=>x.id===id).decision,'pending_more_evidence');}
  assert(result.records.every(x=>x.publicationReady===false));
  console.log('Category evidence review regressions passed');
 }finally{fs.rmSync(root,{recursive:true,force:true})}
