@@ -19,11 +19,9 @@ for(const item of queue.candidates){
  if(!url.startsWith('https://')){totals.excluded++;continue}
  const providers=(item.providers||[]).filter(x=>typeof x==='string').slice(0,10);
  const source=providers.join(' / ').slice(0,200)||'Public web discovery';
- const title=String(item.title).replace(/[\\r\
-]+/g,' ').trim().slice(0,220);
+ const title=String(item.title).replace(/[\\r\\n]+/g,' ').trim().slice(0,220);
  if(title.length<3){totals.excluded++;continue}
- const categoryText=title+' '+source+' '+url;
- const category=/grant|fellowship|scholarship|funding|bolsa|edital|prize|award|call for|opportunit(?:y|ies)|journalis(?:m|t)|residen(?:cy|cies)|stipend|grants for journalists|opportunity desk|gfmd|pulitzer|newsfuel/i.test(categoryText)?'opportunities':/dataset|database|dados abertos|open data|data portal/i.test(categoryText)?'datasets':/tool|software|platform|visualization|visualisation|chart|map/i.test(categoryText)?'tools':'uncategorized';
+ const category=classifyLead({title,url});
  if(seen.has(id)){
   const existing=triage.leads.find(x=>{try{return identity(x.url).id===id}catch{return false}});
   if(existing&&existing.category==='uncategorized'&&category!=='uncategorized'&&!['published','duplicate','rejected','archived'].includes(existing.editorialStatus)){existing.category=category;existing.discoveryOrigin=existing.discoveryOrigin||'public-editorial-queue';totals.reclassified++;}
@@ -34,6 +32,5 @@ for(const item of queue.candidates){
  for(const provider of providers)totals.byProvider[provider]=(totals.byProvider[provider]||0)+1;
 }
 triage.publicQueueImport=totals;
-fs.writeFileSync(triagePath,JSON.stringify(triage,null,2)+'
-');
+fs.writeFileSync(triagePath,JSON.stringify(triage,null,2)+'\n');
 console.log(JSON.stringify(totals));
