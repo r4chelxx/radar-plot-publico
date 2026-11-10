@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-10T23:41:21.043Z",
-  "sourceQueueUpdatedAt": "2026-11-10T23:41:19.565Z",
+  "generatedAt": "2026-11-10T23:44:40.280Z",
+  "sourceQueueUpdatedAt": "2026-11-10T23:44:39.510Z",
   "policy": "Evidence-complete drafts only; the separate deterministic evidence gate must independently approve before publication.",
   "summary": {
     "eligibleForDrafting": 4,
@@ -258,7 +258,7 @@
         "id": "69113ed0b823c72b5e77e5a4dc488e18bb492814785734c71bb305b1b4ccade7",
         "name": "Global Human Settlement - Datasets - European Commission",
         "org": "European Commission Joint Research Centre (JRC)",
-        "territoryTier": "Global",
+        "territoryTier": "Outros",
         "kind": "catalog",
         "themes": [
           "Dados abertos"
@@ -344,7 +344,7 @@
         "id": "deff0b3866c2aa499128f6ea642ccb9e9d57cb45189f04e3fc7f5d5fca596325",
         "name": "Global Surface Water - Data Access",
         "org": "Joint Research Centre (JRC), European Commission",
-        "territoryTier": "Global",
+        "territoryTier": "Outros",
         "kind": "catalog",
         "themes": [
           "Dados abertos"
