@@ -2,7 +2,7 @@
 // Join the PUBLIC unified discovery queue to the historical daily inspection rotation.
 // Does not approve or publish candidates. Existing editorial decisions remain authoritative.
 const fs=require('node:fs');
-const {identity}=require('./lead-identity');
+const {identity}=require('./lead-identity');\nconst {classifyLead}=require('./lead-category');
 const triagePath=process.argv[2]||'intake/candidate-triage.json';
 const queuePath=process.argv[3]||'intake/editorial-queue-public.json';
 const triage=JSON.parse(fs.readFileSync(triagePath,'utf8'));
