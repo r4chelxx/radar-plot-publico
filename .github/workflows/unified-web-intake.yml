@@ -10,6 +10,8 @@ on:
       - 'scripts/discover-opportunity-web.js'
       - 'tests/opportunity-web-discovery.test.js'
       - 'scripts/discover-public-funding-pages.js'
+      - 'scripts/discover-public-datasets.js'
+      - 'scripts/discover-public-datasets.js'
       - 'tests/public-funding-pages.test.js'
       - 'scripts/public-feed-relevance.js'
       - 'tests/public-feed-relevance.test.js'
@@ -153,6 +155,10 @@ jobs:
         run: node scripts/discover-public-feeds.mjs
       - name: Discover public Grants for Journalists and GFMD links
         run: node scripts/discover-public-funding-pages.js
+      - name: Discover public datasets from official catalog APIs
+        id: datasets
+        continue-on-error: true
+        run: node scripts/discover-public-datasets.js
       - name: Discover targeted journalism funding opportunities
         id: opportunity-search
         continue-on-error: true
@@ -234,7 +240,10 @@ jobs:
           if [ ! -f intake/opportunity-web-discovery.json ]; then
             printf '{"source":"web","leads":[]}\n' > intake/opportunity-web-discovery.json
           fi
-          node scripts/unify-discovery.js intake/live-web-discovery.json intake/dvs-public-discovery.json intake/web-discovery-input.json intake/linkedin-public-candidates.json intake/public-funding-pages.json intake/opportunity-web-discovery.json intake/gmail-discovery.json intake/linkedin-indexed-discovery.json
+          if [ ! -f intake/public-dataset-discovery.json ]; then
+            printf '{"source":"web","leads":[]}\n' > intake/public-dataset-discovery.json
+          fi
+          node scripts/unify-discovery.js intake/live-web-discovery.json intake/dvs-public-discovery.json intake/web-discovery-input.json intake/linkedin-public-candidates.json intake/public-funding-pages.json intake/opportunity-web-discovery.json intake/public-dataset-discovery.json intake/gmail-discovery.json intake/linkedin-indexed-discovery.json
       - name: Classify duplicate and navigation candidates
         run: node scripts/quality-gate-discovery.js
       - name: Prepare editorial review sample
