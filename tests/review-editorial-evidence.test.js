@@ -11,6 +11,7 @@ try{
  item('fake-grant','opportunities',{evidenceText:'Welcome to our news blog about awards.',structuredData:[]}),
  item('dataset','datasets',{evidenceText:'',structuredData:[{'@type':'Dataset',name:'City data',license:'CC0',temporalCoverage:'2020/2025',distribution:{contentUrl:'https://example.org/data.csv',encodingFormat:'text/csv'}}]}),
  item('tool','tools',{pageTitle:'Mapping software',evidenceText:'Interactive mapping software that lets journalists create and share maps. Free plan available; paid tiers are described on the pricing page.',structuredData:[]}),
+ item('design-tool','tools',{pageTitle:'Figma',evidenceText:'Figma is a collaborative design and prototyping platform. Create, share and review designs online.',structuredData:[]}),
  item('python-metadata','tools',{pageTitle:'Python',pageDescription:'Python is a programming language that lets you work quickly. Free and open source.',evidenceText:'',structuredData:[]}),
  item('contest-entries','opportunities',{pageTitle:'2026 Data Journalism Competition',evidenceText:'Competition entries close 2099-12-31. Who can participate: journalists worldwide.',structuredData:[]}),
  item('arcgis-competition','opportunities',{pageTitle:'2026 ArcGIS StoryMaps Competition',pageDescription:'Esri invites global storytellers to submit an original geospatial story for its annual ArcGIS StoryMaps competition, with four award categories and public recognition for selected winners.',evidenceText:'Global storytelling competition. Esri invites storytellers age 18 and up to answer that question. Submit a story created with ArcGIS StoryMaps that addresses one of the following categories. SUBMISSION DEADLINE December 11, 2026, 5:00 p.m. (PT). Applicants 18 years and older globally may enter the competition once in one of four categories.',structuredData:[]}),
@@ -33,6 +34,7 @@ try{
  assert.equal(result.records.find(x=>x.id==='fake-grant').decision,'pending_more_evidence');
  assert.equal(result.records.find(x=>x.id==='dataset').decision,'evidence_complete_for_record_draft');
  assert.equal(result.records.find(x=>x.id==='tool').decision,'evidence_complete_for_record_draft');
+ assert.equal(result.records.find(x=>x.id==='design-tool').decision,'evidence_complete_for_record_draft');
  assert.equal(result.records.find(x=>x.id==='tool').checks.licenseStatus,'not stated in captured source');
  assert.equal(result.records.find(x=>x.id==='python-metadata').decision,'evidence_complete_for_record_draft');
  assert.equal(result.records.find(x=>x.id==='contest-entries').decision,'evidence_complete_for_record_draft');

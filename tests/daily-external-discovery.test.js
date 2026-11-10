@@ -136,3 +136,23 @@ test('Gmail retries transient per-user rate limits with exponential backoff',asy
   assert.equal(r.health[0].status,'ok');assert.equal(listCalls,2);assert.equal(r.health[0].coverageStatus,'complete');
  }finally{fs.rmSync(dir,{recursive:true,force:true})}
 });
+
+test('Gmail resets a legacy exhausted checkpoint instead of reusing its stale page token',async()=>{
+ const fs=require('node:fs'),os=require('node:os'),path=require('node:path');
+ const dir=fs.mkdtempSync(path.join(os.tmpdir(),'radar-gmail-legacy-')),cursor=path.join(dir,'cursor.json');
+ fs.writeFileSync(cursor,JSON.stringify({schemaVersion:2,labelName:'Radar PLOT.',pageToken:'expired-token',processedIdHashes:[],paginationExhausted:true,incrementalFollowupRequired:true}));
+ const calls=[];
+ const fetcher=async url=>{
+  calls.push(String(url));
+  const u=String(url);
+  if(u.includes('oauth2.googleapis.com'))return {ok:true,json:async()=>({access_token:'test'})};
+  if(u.endsWith('/labels'))return {ok:true,json:async()=>({labels:[{id:'L',name:'Radar PLOT.'}]})};
+  if(u.includes('/messages?')){assert(!u.includes('expired-token'));return {ok:true,json:async()=>({messages:[]})};}
+  throw Error('Unexpected message read');
+ };
+ try{
+  const r=await gmail.collect(fetcher,{RADAR_GMAIL_CLIENT_ID:'x',RADAR_GMAIL_CLIENT_SECRET:'y',RADAR_GMAIL_REFRESH_TOKEN:'z',RADAR_GMAIL_CURSOR_FILE:cursor});
+  assert.equal(r.health[0].status,'ok');
+  assert.equal(r.health[0].cursorReset,'stale-or-legacy-checkpoint');
+ }finally{fs.rmSync(dir,{recursive:true,force:true})}
+});
