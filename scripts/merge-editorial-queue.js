@@ -88,7 +88,8 @@ for(const [id,item] of queue){
 for(const [id,item] of queue){
  if(item.status==='pending'&&(!item.category||item.category==='uncategorized')){
   const inferred=categoryFor(item);
-  const historical=historicalCategoryFor(item);\n  const recovered=inferred!=='uncategorized'?inferred:(historical==='opportunities'?null:historical);
+  const historical=historicalCategoryFor(item);
+  const recovered=inferred!=='uncategorized'?inferred:(historical==='opportunities'?null:historical);
   if(recovered)queue.set(id,{...item,category:recovered});
  }
 }
