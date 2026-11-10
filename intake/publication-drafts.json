@@ -1,358 +1,421 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-10T20:07:12.474Z",
-  "sourceQueueUpdatedAt": "2026-11-10T20:06:55.693Z",
+  "generatedAt": "2026-11-10T20:31:40.800Z",
+  "sourceQueueUpdatedAt": "2026-11-10T20:31:28.952Z",
   "policy": "Evidence-complete drafts only; the separate deterministic evidence gate must independently approve before publication.",
   "summary": {
-    "eligibleForDrafting": 6,
-    "drafts": 6,
+    "eligibleForDrafting": 8,
+    "drafts": 8,
     "byCategory": {
-      "opportunities": 0,
+      "opportunities": 8,
       "datasets": 0,
-      "tools": 6
+      "tools": 0
     },
     "publicationReady": 0
   },
   "drafts": [
     {
       "schemaVersion": 1,
-      "id": "9f08b5a99c6c9f62c7b1c97611500f5db6b140a14c8c8c4a5b34b00faaad2427",
-      "category": "tools",
+      "id": "088211e0604559fd090f68d856ea6e4968716c7d5800b9adbfa5ed659142df55",
+      "category": "opportunities",
       "status": "draft_only",
       "publicationReady": false,
       "source": {
-        "url": "https://www.tableau.com/",
+        "url": "https://gfmd.info/fundings/knight-wallace-fellowship-international-applicants",
         "discoveryProviders": [
-          "Data Visualization Society"
+          "GFMD funding"
         ],
-        "pageTitle": "Business Intelligence and Analytics Software | Tableau",
-        "checkedAt": "2026-11-10T20:06:55.693Z",
+        "pageTitle": "Knight-Wallace Fellowship (International Applicants) - GFMD",
+        "checkedAt": "2026-11-10T20:31:28.952Z",
         "httpStatus": 200,
-        "contentType": "text/html; charset=utf-8"
+        "contentType": "text/html; charset=UTF-8"
       },
       "evidence": {
         "checks": {
-          "productSignal": true,
-          "function": true,
-          "access": true,
-          "license": false,
-          "licenseStatus": "not stated in captured source"
+          "callSignal": true,
+          "deadline": "2026-12-01",
+          "eligibility": true
         },
-        "sourceExcerpt": "Business Intelligence and Analytics Software | Tableau Skip to content Join us live: Meet Tableau Studio, analytics built for the agentic era. Nov 18th at 9am PT. Register on LinkedIn Start for free Vibe code analytics with Tableau Studio Build with Tableau in your favorite AI tools Act on trusted insights in the flow of work See our customer stories Start for free Learn more Scale analytics everywhere on a single, trusted knowledge layer Deliver accurate, consistent metrics every agent and person can rely on, powered by Tableau’s knowledge engine and semantic layer. Chat with your data to discover insights and get your next best move Ask questions in natural language and get proactive, AI-powered insights right where you work, no dashboards required. Create anything with Tableau from wherever you work best Bring dashboards, vizzes, and data apps into any agent or surface across Slack, Teams, Claude, and ChatGPT. Tableau Cloud Need a fully hosted agentic analytics solution in the cloud? You can connect and analyze your data with powerful agentic analytics and securely share insights. Learn more Tableau Server For organizations in highly regulated industries, this self-hosted agentic analytics solution gives you full control of your data and analytics deployment. Learn more Tableau Next Salesforce customers can make smarter, faster decisions with agentic analytics delivered directly in CRM and Slack. Learn more Watch for free Explore the Tableau Community Explore the viz gallery Download for free Agentic analytics Fuel faster data, insights, and action with Tableau Next See how you can turn trusted insights into autonomous action, anytime, anywhere, with the world's first agentic analytics platform. See it now Free trial Start your free trial of Tableau Test 1 Try now Tableau+ Bring agentic analytics to every corner of your organization with Tableau+ Test 2 Learn more Gartner 2026 Gartner® Magic Quadrant™ Leader Delivering trusted data across your business is essential. Read the Gartner Magic Quadrant report and learn how Tableau is using AI to reinvent how people consume and act on data. Read the report Try Tableau for free Buy Tableau now",
-        "structuredData": [
-          {
-            "@type": "Organization",
-            "name": "Tableau",
-            "description": "Business Intelligence and Analytics Software",
-            "url": "https://www.tableau.com"
-          }
-        ],
-        "resourceLinks": [
-          {
-            "url": "https://www.tableau.com/products/public/download",
-            "label": "Get Tableau for free"
-          },
-          {
-            "url": "https://www.tableau.com/products/desktop-free/download",
-            "label": "Download for free"
-          }
-        ]
-      },
-      "recordDraft": {
-        "id": "9f08b5a99c6c9f62c7b1c97611500f5db6b140a14c8c8c4a5b34b00faaad2427",
-        "name": "Business Intelligence and Analytics Software | Tableau",
-        "kind": "plataforma de análise de dados",
-        "url": "https://www.tableau.com/",
-        "desc": "Tableau can help anyone see and understand their data. Connect to almost any database, drag and drop to create visualizations, and share with a click. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
-      },
-      "missingFields": [],
-      "reviewDecision": "evidence_complete_for_record_draft",
-      "note": "Ficha preliminar baseada no conteúdo capturado da página. Campos sem evidência permanecem ausentes; a aprovação depende do gate independente de publicação."
-    },
-    {
-      "schemaVersion": 1,
-      "id": "a6943fe0aa51788e6f02a85895ba465cd40dfb9c7cc5462996acf7e81b148ff2",
-      "category": "tools",
-      "status": "draft_only",
-      "publicationReady": false,
-      "source": {
-        "url": "https://vega.github.io/",
-        "discoveryProviders": [
-          "Data Visualization Society"
-        ],
-        "pageTitle": "Vega",
-        "checkedAt": "2026-11-10T20:06:55.693Z",
-        "httpStatus": 200,
-        "contentType": "text/html; charset=utf-8"
-      },
-      "evidence": {
-        "checks": {
-          "productSignal": true,
-          "function": true,
-          "access": true,
-          "license": false,
-          "licenseStatus": "not stated in captured source"
-        },
-        "sourceExcerpt": "Vega Vega Projects Visualization Grammars The Vega projects provide an ecosystem of tools for declarative data visualizations. The various components of this ecosystem build on each other providing different levels of abstraction. Vega is a NumFOCUS sponsored project. Toolkits Vega is a visualization grammar, a declarative language for creating, saving, and sharing interactive visualization designs. With Vega, you can describe the visual appearance and interactive behavior of a visualization in a JSON format, and generate web-based views using HTML5 Canvas or SVG. Examples | Docs | Tutorials | Online Editor | GitHub Vega-Lite is a high-level visualization grammar. It provides a concise JSON syntax for supporting rapid generation of visualizations to support analysis. Vega-Lite support interactive multi-view graphics. Specifications are compiled to Vega. Examples | Docs | Tutorials | Online Editor | GitHub Vega-Altair is a declarative visualization library for Python. Its simple, friendly and consistent API, built on top of the powerful Vega-Lite grammar, empowers you to spend less time writing code and more time exploring your data. Examples | Docs | Tutorials | GitHub VegaFusion provides serverside acceleration for the Vega visualization grammar. While not limited to Python, an initial application of VegaFusion is the acceleration of the Vega-Altair Python interface to Vega-Lite. Examples | Docs | GitHub Systems Vega-Embed makes it easy to embed interactive Vega and Vega-Lite views into web pages. With Vega-Embed you can publish Vega visualizations as embedded web components with interactive parameters. jsDelivr | Documentation | GitHub Vega-Editor is a web application for authoring and testing Vega and Vega-Lite visualizations. It includes a number of example specifications that showcase both the visual encodings and interaction techniques. Online Editor | GitHub Components Vega-Datasets is a collection of datasets used in Vega and Vega-Lite examples. jsDelivr | GitHub Vega Themes is a configuration object with default settings for a variety of visual properties such as colors, typefaces, line widths and spacing. jsDelivr | Demo page | GitHub Vega-Tooltips is a tooltip plugin for Vega and Vega-Lite visualizations. This plugin implements a custom tooltip handler for Vega that uses custom HTML tooltips instead of the HTML title attribute. jsDelivr | GitHub VlConvert provides a Rust library, CLI utility, and Python library for converting Vega-Lite chart specifications into static images (SVG or PNG) or Vega chart specifications. Python Examples | GitHub Altair-Tiles can be used to add tiles from any xyz tile provider such as OpenStreetMap to your Altair chart. Documentation | GitHub Dash Vega Components can be used to display Vega-Altair charts in Dash applications. Dash Documentation | GitHub Governance Governance Community health files for the Vega Projects. Charter | Code of Conduct | Steering-Committee | GitHub Roadmap provides our ideas to refine and extend the feature set and improve scalability to larger datasets. All of the planned improvements will benefit the whole Vega ecosystem. Project Board | GitHub Edit this page at github.com/vega/vega.github.io .",
+        "sourceExcerpt": "Knight-Wallace Fellowship (International Applicants) - GFMD « Back to all Fundings Knight-Wallace Fellowship (International Applicants) Organisation: Wallace House Center for Journalists Status: Open Type: Fellowship Theme: Media support Deadline: 01/12/2026 Eligibility: International (non-U.S. citizens) mid-career journalists Target Region: International (non-U.S. citizens) Application Language: Not Specified The Knight-Wallace Journalism Fellowships offer an academic year of study, collaborative learning and access to the resources of the University of Michigan for selected journalists to pursue ambitious journalism projects. Eligibility Qualified applicants must have a minimum of five years of experience and be currently working in some aspect of journalism for a news organization or as an independent journalist. The programme is looking for a diverse range of journalists, including reporters, editors, data experts, visual journalists, audio producers, engagement specialists, designers, developers, entrepreneurs and organizational change agents. If you are not a full-time journalist, the majority of your work should be in journalism. The programme does not consider public relations writers, internal trade writers, lobbyists, public advocates, or those seeking a degree. If you are not a U.S. citizen, apply as an international applicant, even if you work in the United States or for an American journalism entity. A Green Card is not the same as citizenship. How to Apply Fill out and submit the application form by 01 December 2026. International applications uploaded under the U.S. application portal will not be considered. Review the guidance for preparing your international application and the application FAQs before submitting. Apply here . For more information, please visit this page . For the latest funding opportunities, profiles of media donors, and expert insight from GFMD’s MediaDev Fundraising Guide sign up for Bottom Line newsletter Sign Up Search Search for: This website uses cookies. By continuing to use the website you consent to the use and storage of cookies on your device. You are using an outdated browser which can not show modern web content. We suggest you download Chrome or Firefox .",
         "structuredData": [],
-        "resourceLinks": [
-          {
-            "url": "https://github.com/vega/vega-datasets",
-            "label": "Vega-Datasets"
-          }
-        ]
-      },
-      "recordDraft": {
-        "id": "a6943fe0aa51788e6f02a85895ba465cd40dfb9c7cc5462996acf7e81b148ff2",
-        "name": "Vega",
-        "kind": "visualização de dados",
-        "url": "https://vega.github.io/",
-        "desc": "Vega is a declarative format for creating, saving, and sharing visualization designs. With Vega, visualizations are described in JSON, and generate interactive views using either HTML5 Canvas or SVG. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
-      },
-      "missingFields": [],
-      "reviewDecision": "evidence_complete_for_record_draft",
-      "note": "Ficha preliminar baseada no conteúdo capturado da página. Campos sem evidência permanecem ausentes; a aprovação depende do gate independente de publicação."
-    },
-    {
-      "schemaVersion": 1,
-      "id": "bf0f70ab6377c8041e340bdf48e30a2e326e89cb07d78998b89ba0c7ee5fb0be",
-      "category": "tools",
-      "status": "draft_only",
-      "publicationReady": false,
-      "source": {
-        "url": "https://www.sigmacomputing.com/",
-        "discoveryProviders": [
-          "Data Visualization Society"
-        ],
-        "pageTitle": "The AI runtime for business | Sigma",
-        "checkedAt": "2026-11-10T20:06:55.693Z",
-        "httpStatus": 200,
-        "contentType": "text/html; charset=utf-8"
-      },
-      "evidence": {
-        "checks": {
-          "productSignal": true,
-          "function": true,
-          "access": true,
-          "license": false,
-          "licenseStatus": "not stated in captured source"
-        },
-        "sourceExcerpt": "The AI runtime for business | Sigma Skip to main content SEE IT FIRST Nov 17 · Everyone builds. IT approved. 6 days, 22 hours, 2 minutes, 23 seconds remaining 6 d : 22 h : 02 m : 23 s Save your spot → Go build it. IT approves. Build analytics, apps, and agents on live warehouse data, with governance inherited at the source. Request a demo → Start a free trial Trusted by 2,000+ leading enterprises around the world 4.4 (500+) 4.8 (200+) Which regions are behind plan this quarter? Ask in plain language Live from your warehouse NA 96 % EMEA 78 % APAC 90 % LATAM 93 % EMEA is 22% behind plan Plan tracker To plan 92% Behind 1 region Built from this answer Spend less time building and more time solving Ask in plain language, get answers from live data, and turn them into apps. Hours spent pulling data go back to decisions. Sales Finance Ops Renewal tracker Budget approvals Inventory planner Put AI and automation in every team’s hands IT connects governed data once. From there, anyone can get answers with AI and hand routine work to agents. Warehouse Viewing as Priya , EMEA Warehouse rules Country Payroll Germany $4.2M United Kingdom $3.8M France $2.9M Usage and spend IT view Apps and agents 142 Spend vs. budget 64% Governed the moment it's built and always under IT's control Apps and agents inherit warehouse permissions down to the row, so IT can say yes to AI while tracking usage and spend. Agents Time window Last 30 days Active agents 388 21% vs prior 30 days Questions 4,490 12% vs prior 30 days Token usage 413M 34% vs prior 30 days Active users 97 9% vs prior 30 days 766 agents Agent Location Owner Users Tokens Margin Analyst Q3 Margin Review PS Priya Shah 12 21M Close Checklist Agent Month-End Close SO Sam Ortiz 8 7.1M Shift Lead Assistant OEE by Line ML Marcus Lee 23 4.9M Treasury Analyst Cash Flow AT Ana Torres 5 4.4M Exec Summary Agent Board Summary GK Grace Kim 3 3.6M Inventory Copilot Stock Levels DP Dev Patel 17 2.2M Cohort Copilot Retention OL Owen Lin 6 1.4M Stock Levels Published Inventory Copilot I track stock across your distribution centers and can post reorder lists to Slack. Access to Inventory Slack What runs out in Dallas this week? Queried Inventory as you: Central region only 3 SKUs run out before Friday's delivery. Sparkling Water 12oz is shortest, with 2 days of cover. Post the reorder list to #dallas-dc ? Approve Skip Ask a follow-up Security that follows the user Queries run with the viewer’s own warehouse permissions, down to the row. Set access once, and dashboards, AI answers, and agents follow it. Visibility into everything built Audit logs record who built, changed, and asked what, including AI conversations, so IT always knows what’s running. Control what you spend Sigma reuses cached results instead of querying your warehouse again, and usage dashboards show which workbooks and people drive the load. SOC 2 Type II PCI DSS HIPAA GDPR SSO & SCIM Visit the Security Center Finance Sales Marketing Operations Supply chain Sigma Slack Claude Codex ChatGPT Terminal Order Fulfillment Published Orders at risk $1.2M Shipping this week Short-ship orders 9 Of 212 this week Actions logged 9 of 9 By Fulfillment Agent Fulfillment Actions 9 rows written by Fulfillment Agent Retailer Order Issue Plant Action 1 Northgate Grocers $214K Line 4 down 9 hrs Monterrey Ship from Reno DC 2 Fresh Basket $188K Short 1,200 cases Monterrey Split ship, rest Fri 3 Summit Outdoor $156K Line 4 down 9 hrs Monterrey Move run to Line 2 4 Bayview Pharmacy $131K Resin delivery late Toledo Expedite resin PO 5 Cornerstone Market $118K Short 640 cases Toledo Ship from Reno DC 6 Pine & Co. $97K Labels on hold Toledo Confirm with buyer order-fulfillment Sigma APP Mon 6:00 AM Fulfillment Agent : Line 4 at Monterrey was down 9 hours overnight. 3 retail orders could now ship short (Northgate Grocers, Fresh Basket, Summit Outdoor). Actions are in Fulfillment Actions. Open Order Fulfillment in Sigma Fulfillment Agent Which retail orders could ship sho",
-        "structuredData": [
-          {
-            "@type": "Organization",
-            "name": "Sigma Computing",
-            "url": "https://www.sigmacomputing.com/"
-          },
-          {
-            "@type": "WebSite",
-            "name": "Sigma Computing",
-            "url": "https://www.sigmacomputing.com/"
-          },
-          {
-            "@type": "SoftwareApplication",
-            "name": "Sigma",
-            "description": "Sigma is the AI runtime for business. A governed platform where teams build and run AI apps and agents directly on live cloud warehouse data (Snowflake, Databricks, BigQuery, Redshift). Ask in natural language, build agents that act on your data, write back to close the loop, and analyze in a familiar spreadsheet interface, all governed.",
-            "url": "https://www.sigmacomputing.com/",
-            "applicationCategory": "BusinessApplication",
-            "operatingSystem": "Web-based (cloud)",
-            "featureList": [
-              "Build, instruct, and run governed AI agents on your data (works with MCP, Claude, and Snowflake Cortex)",
-              "AI Builder that turns natural language into governed workbooks and apps",
-              "Writeback and input tables for closed-loop decision apps",
-              "Live query on Snowflake, Databricks, BigQuery, and Redshift",
-              "Spreadsheet-native analysis with workbooks",
-              "Embedded analytics and multi-tenancy at scale",
-              "Governance, guardrails, row-level security, and reusable semantic models",
-              "Dashboards, visualization, and pixel-perfect reporting"
-            ]
-          },
-          {
-            "@type": "WebPage",
-            "name": "Sigma. Unified AI apps and analytics",
-            "description": "Sigma is the AI analytics workspace for warehouse data. Build governed dashboards, spreadsheets, and workflows with live query, writeback, and collaboration.",
-            "url": "https://www.sigmacomputing.com/"
-          }
-        ],
         "resourceLinks": []
       },
       "recordDraft": {
-        "id": "bf0f70ab6377c8041e340bdf48e30a2e326e89cb07d78998b89ba0c7ee5fb0be",
-        "name": "The AI runtime for business | Sigma",
-        "kind": "BusinessApplication",
-        "url": "https://www.sigmacomputing.com/",
-        "desc": "Sigma is the AI runtime for business. A governed platform where teams build and run AI apps and agents directly on live cloud warehouse data (Snowflake, Databricks, BigQuery, Redshift). Ask in natural language, build agents that act on your data, write back to close the loop, and analyze in a familiar spreadsheet interface, all governed. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
+        "id": "088211e0604559fd090f68d856ea6e4968716c7d5800b9adbfa5ed659142df55",
+        "title": "Knight-Wallace Fellowship (International Applicants) - GFMD",
+        "org": null,
+        "summary": "The Knight-Wallace Journalism Fellowships offer an academic year of study, collaborative learning and access to the resources of the University of Michigan for selected journalists to pursue ambitious journalism projects.",
+        "type": "Fellowship",
+        "themes": [
+          "Jornalismo"
+        ],
+        "scope": "Knight-Wallace Fellowship (International Applicants) - GFMD « Back to all Fundings Knight-Wallace Fellowship (International Applicants) Organisation: Wallace House Center for Journalists Status: Open Type: Fellowship Theme: Media support Deadline: 01/12/2026 Eligibility: International (non-U.S.",
+        "fit": 6,
+        "deadline": "2026-12-01",
+        "deadlineStatus": "Confirmado na página oficial; fuso horário não informado.",
+        "eligibility": "parcial",
+        "status": "aberta",
+        "rules": "https://gfmd.info/fundings/knight-wallace-fellowship-international-applicants",
+        "apply": "https://gfmd.info/fundings/knight-wallace-fellowship-international-applicants"
       },
-      "missingFields": [],
+      "missingFields": [
+        "org"
+      ],
       "reviewDecision": "evidence_complete_for_record_draft",
       "note": "Ficha preliminar baseada no conteúdo capturado da página. Campos sem evidência permanecem ausentes; a aprovação depende do gate independente de publicação."
     },
     {
       "schemaVersion": 1,
-      "id": "cbcf1207daf6bdd681a32b245a2509a15e85242808741c346412f447100b05fa",
-      "category": "tools",
+      "id": "0fa208338a4bcde2366d9b583e4b5146aa53ad03993c853df2a6945051acceb1",
+      "category": "opportunities",
       "status": "draft_only",
       "publicationReady": false,
       "source": {
-        "url": "https://www.microsoft.com/en-us/power-platform/products/power-bi",
+        "url": "https://gfmd.info/fundings/fund-for-investigative-journalism-seed-and-regular-grants",
         "discoveryProviders": [
-          "Data Visualization Society"
+          "GFMD funding"
         ],
-        "pageTitle": "Power BI - Data Visualization | Microsoft Power Platform",
-        "checkedAt": "2026-11-10T20:06:55.693Z",
+        "pageTitle": "Fund for Investigative Journalism seed and regular grants - GFMD",
+        "checkedAt": "2026-11-10T20:31:28.952Z",
         "httpStatus": 200,
-        "contentType": "text/html; charset=utf-8"
+        "contentType": "text/html; charset=UTF-8"
       },
       "evidence": {
         "checks": {
-          "productSignal": true,
-          "function": true,
-          "access": true,
-          "license": true,
-          "licenseStatus": "stated"
+          "callSignal": true,
+          "deadline": "2027-01-30",
+          "eligibility": true
         },
-        "sourceExcerpt": "Power BI - Data Visualization | Microsoft Power Platform This is the Trace Id: 755c4b6bd684e21020c63e00b9276dcb Skip to main content Microsoft Fabric Power BI Product features overview Power BI Desktop Pro Premium Embedded Report Server Microsoft Fabric IQ Fabric Data Factory Fabric Data Engineering Fabric Data Warehousing Fabric Real-Time Intelligence Fabric Data Science Fabric Databases Microsoft OneLake Security and governance Managed application backend Pricing Partners Documentation Data 101 Data Storytelling Power BI Blog Power BI Support Power BI Community Power BI Downloads Migrate Buy now Start free Sign in Discover what's coming to Microsoft Ignite, Nov 17-20, 2026. Register now Power BI</h1> \"> Power BI Uncover powerful insights and turn them into impact with a unified analytics platform. Visualize any data and use Copilot in Microsoft Fabric to quickly explore, explain, and take action. Try for free Product overview Create a data-driven culture with business intelligence for all</h2> \"> Create a data-driven culture with business intelligence for all Power BI features Copilot in Microsoft Fabric Power BI in Microsoft Fabric Building agentic apps Previous Next Make fast, informed enterprise decisions Connect governed data, trusted metrics, and interactive insights into one enterprise decision layer—so all your teams can make confident decisions, faster. Take a guided tour Connect and unify all your data Seamlessly connect to data from any source, cloud or on-premises, and bring it together in one place with OneLake to create a single source of truth for your organization. Learn more Drive impact with self-service BI for everyone Give all your people access to an intuitive, easy-to-use business intelligence experience for any skill level—whether they’re­ analysts, decision-makers, or new team members. Learn more Empower every data team with AI-driven insights Reshape how your organization accesses, manages, and acts on data by activating Microsoft Fabric in your Power BI experience. Learn more From question to insight, without the manual work Ask questions about your data or describe the report you need in natural language, and Copilot handles the rest — pulling the right data and generating visualizations and reports automatically, without manual report building. Learn more Get fast AI-generated insights and narratives Use Copilot to generate instant text summaries and easy-to-understand narratives to quickly identify key trends in your data. For example, ask Copilot to add a summary to a dashboard that highlights why sales spiked this quarter—turning raw numbers into meaningful takeaways. Learn more Boost creator productivity Accelerate analytics by turning complex data modeling into a guided, AI-assisted experience—so teams can build trusted, business-ready semantic models faster and with fewer bottlenecks. Learn more Overview Enable users without paid licenses to interact with reports and access the rest of your Microsoft Fabric workloads. Learn more Build a unified analytics ecosystem Extend Power BI beyond dashboards by connecting directly to Microsoft Fabric, enabling faster end-to-end insights, from ingestion to visualization. Learn more Strengthen security and governance with OneLake Get consistent security, governance, and trusted data across every report and dataset with OneLake, which provides a centralized data foundation with open formats. Learn more Democratize access efficiently Scale access, simplify administration, and optimize costs while delivering governed insights to every user with a unified capacity model from Fabric. Learn more Do more than ever with Power BI Discover a modern way of dashboarding with interactive, agentic applications, you can create using natural language. Read the blog post Build on data you already trust Create apps directly on Power BI semantic models, so every experience is grounded in your organization's governed data, trusted metrics, and business logic. Learn more Move",
+        "sourceExcerpt": "Fund for Investigative Journalism seed and regular grants - GFMD « Back to all Fundings Fund for Investigative Journalism seed and regular grants Organisation: Fund for Investigative Journalism Status: Open Type: Grant Theme: Investigative journalism Funding Size: $1,000 - $10,000 Deadline: 30/01/2027 Eligibility: Freelance journalists, staff reporters and media outlets in the United States are eligible for grants, and their investigations can be for print, online or broadcast stories, books, documentaries or podcasts. Target Region: North America Application Language: English The Fund for Investigative Journalism provides grants and other support for reporters to produce high-quality, unbiased, nonpartisan investigative stories that have an impact. This application is for seed funding to cover the expenses of preliminary reporting, such as open-records requests and initial reporting trips. Seed Grants for preliminary reporting that can help shape investigative stories. These are also on any topic and for U.S. stories. These grants are up to $2,500 for initial reporting expenses. Journalists who receive seed grants can come back to the Fund to apply for a regular grant, after their preliminary reporting is finished. Eligibility Grants are for preliminary reporting for specific projects. The grants cover early reporting that can lead to full investigative projects. This includes, for example, open-records requests, initial reporting trips to identify and interview sources and the reporter’s time. Grants are $1,000 to $2,500. The entire grant is paid up-front. Journalists who receive seed funding can apply for full grants (up to $10,000) once they conduct the preliminary reporting and secure a commitment from a media outlet to publish or broadcast the story. All information contained in an application is held strictly confidential by the Fund’s board and staff, is shared with no one outside of the organization, and is used solely for the purpose of making a grant decision. Funds are open to freelance journalists and those who are not in full-time staff roles at a media outlet. Seed funding must be used to obtain documents or information that could lead to a full investigative story. The journalist’s time can be one cost covered by the grant, but it should not be the only cost. Other criteria for seed funding mirrors the Fund’s criteria for full grants: stories must be investigative in nature (meaning they uncover wrongdoing that was previously hidden or unknown, and shed light on accountability), and the story must have a very strong U.S. angle. How to apply Apply via the online form for the seed grants. Apply here . For more information, please visit this page. For the latest funding opportunities, profiles of media donors, and expert insight from GFMD’s MediaDev Fundraising Guide sign up for Bottom Line newsletter Sign Up Search Search for: This website uses cookies. By continuing to use the website you consent to the use and storage of cookies on your device. You are using an outdated browser which can not show modern web content. We suggest you download Chrome or Firefox .",
         "structuredData": [],
-        "resourceLinks": [
-          {
-            "url": "https://www.microsoft.com/en-us/microsoft-fabric/features/power-bi/downloads",
-            "label": "Power BI Downloads"
-          },
-          {
-            "url": "https://www.microsoft.com/en-us/download",
-            "label": "Download Center"
-          }
-        ]
-      },
-      "recordDraft": {
-        "id": "cbcf1207daf6bdd681a32b245a2509a15e85242808741c346412f447100b05fa",
-        "name": "Power BI - Data Visualization | Microsoft Power Platform",
-        "kind": "Data Visualization | Microsoft Power Platform",
-        "url": "https://www.microsoft.com/en-us/power-platform/products/power-bi",
-        "desc": "Microsoft Power BI is a business intelligence platform that helps you visualize data and infuse insights into your existing Microsoft 365 apps. Try it for free. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
-      },
-      "missingFields": [],
-      "reviewDecision": "evidence_complete_for_record_draft",
-      "note": "Ficha preliminar baseada no conteúdo capturado da página. Campos sem evidência permanecem ausentes; a aprovação depende do gate independente de publicação."
-    },
-    {
-      "schemaVersion": 1,
-      "id": "d2f8e4e03f7039542269c22b68eb5b54fa341006c9685b6af22fd3ae39598778",
-      "category": "tools",
-      "status": "draft_only",
-      "publicationReady": false,
-      "source": {
-        "url": "https://plotly.com/python",
-        "discoveryProviders": [
-          "Data Visualization Society"
-        ],
-        "pageTitle": "Open Source Python Graphing &amp; Data Visualization Library | Plotly",
-        "checkedAt": "2026-11-10T20:06:55.693Z",
-        "httpStatus": 200,
-        "contentType": "text/html; charset=utf-8"
-      },
-      "evidence": {
-        "checks": {
-          "productSignal": true,
-          "function": true,
-          "access": true,
-          "license": false,
-          "licenseStatus": "not stated in captured source"
-        },
-        "sourceExcerpt": "Open Source Python Graphing & Data Visualization Library | Plotly Download Studio Studio and Cloud Pricing Dash Enterprise Pricing Quick Reference Examples Explore step-by-step tutorials and code examples for figure structures, updating figures, displaying figures, and framework integrations to master our Python graphing library. The Figure Data Structure View Tutorial Creating and Updating Figures View Tutorial Displaying Figures View Tutorial Plotly Express View Tutorial Analytical Apps with Dash View Tutorial Find copy-pasteable code snippets and interactive demos to create standard Python charts, including scatter plots, line graphs, bar charts, pie charts, and bubble charts. Scatter Plots View Tutorial Line Charts View Tutorial Bar Charts View Tutorial Pie Charts View Tutorial Bubble Charts View Tutorial Browse code tutorials and live previews for complex data analysis, featuring box plots, histograms, error bars, and 2D density plots. Error Bars View Tutorial Box Plots View Tutorial Histograms View Tutorial Distplots View Tutorial 2D Histograms View Tutorial Access interactive examples and code snippets for domain-specific visualizations. Build heatmaps, contour plots, ternary plots, and log plots. Contour Plots View Tutorial Heatmaps View Tutorial Imshow View Tutorial Ternary Plots View Tutorial Log Plots View Tutorial Explore code guides and live examples for financial data, including candlestick charts, OHLC plots, waterfall diagrams, funnel charts, and time series lines to create interactive graphs in Python. Time Series and Date Axes View Tutorial Candlestick Charts View Tutorial Waterfall Charts View Tutorial Funnel Chart View Tutorial OHLC Charts View Tutorial Learn how to build interactive geographic visualizations with step-by-step code snippets for Mapbox integration, tile choropleth maps, lines on maps, and bubble maps. MapLibre Migration View Tutorial Tile Choropleth Maps View Tutorial Lines on Tile Maps View Tutorial Filled Area on Tile Maps View Tutorial Bubble Maps View Tutorial Visualize machine learning models with tutorials for ML regression, kNN classification, ROC and PR curves, and PCA visualization. ML Regression View Tutorial kNN Classification View Tutorial ROC and PR Curves View Tutorial PCA Visualization View Tutorial AI/ML Apps with Dash View Tutorial Access specialized charts for computational biology, including volcano plots, Manhattan plots, clustergrams, and alignment charts. Volcano Plot View Tutorial Manhattan Plot View Tutorial Clustergram View Tutorial Alignment Chart View Tutorial More Bioinformatics &raquo; View high-performance code examples for 3D axes, 3D scatter plots, 3D surface plots, and 3D subplots to enhance your Python graphs. 3D Axes View Tutorial 3D Scatter Plots View Tutorial 3D Surface Plots View Tutorial 3D Subplots View Tutorial 3D Camera Controls View Tutorial Find layout tutorials and code examples for combining multi-chart arrangements, map subplots, table subplots, and mixed layouts when plotting graphs in Python. Mixed Subplots View Tutorial Map Subplots View Tutorial Table and Chart Subplots View Tutorial Figure Factory Subplots View Tutorial Learn how to connect your Python graph to interactive Jupyter environments using FigureWidget tutorials, interactive data analysis, and custom click events. Plotly FigureWidget Overview View Tutorial Jupyter Lab with FigureWidget View Tutorial Interactive Data Analysis with FigureWidget ipywidgets View Tutorial Click Events View Tutorial Discover code snippets and tutorials for building interactive UI controls directly into your visualizations, including dropdown menus, custom buttons, sliders, and range selectors to upgrade your graph in Python. Custom Buttons View Tutorial Sliders View Tutorial Dropdown Menus View Tutorial Range Slider and Selector View Tutorial Explore code tutorials and interactive demos for animating data points, building time-series sliders, and creating smooth transitions to build a dynamic Python gra",
-        "structuredData": [],
-        "resourceLinks": [
-          {
-            "url": "https://plotly.com/studio?source=graphing_libraries&medium=documentation&campaign=studio_cloud_community&content=header",
-            "label": "Download Studio"
-          },
-          {
-            "url": "https://plotly.com/studio?source=graphing_libraries&medium=documentation&campaign=studio_cloud_community&content=header",
-            "label": "Download Studio"
-          },
-          {
-            "url": "https://plotly.com/python-api-reference",
-            "label": "API Reference"
-          },
-          {
-            "url": "https://plotly.com/python/plot-data-from-csv/",
-            "label": "Plot CSV Data"
-          }
-        ]
-      },
-      "recordDraft": {
-        "id": "d2f8e4e03f7039542269c22b68eb5b54fa341006c9685b6af22fd3ae39598778",
-        "name": "Open Source Python Graphing &amp; Data Visualization Library | Plotly",
-        "kind": "mapeamento e cartografia",
-        "url": "https://plotly.com/python",
-        "desc": "Build interactive Python charts and graphs with Plotly Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
-      },
-      "missingFields": [],
-      "reviewDecision": "evidence_complete_for_record_draft",
-      "note": "Ficha preliminar baseada no conteúdo capturado da página. Campos sem evidência permanecem ausentes; a aprovação depende do gate independente de publicação."
-    },
-    {
-      "schemaVersion": 1,
-      "id": "ec6de7af3271ca5771aeeb8cff19422fd35853394caedd1530e2136f7d8ca205",
-      "category": "tools",
-      "status": "draft_only",
-      "publicationReady": false,
-      "source": {
-        "url": "https://www.esri.com/",
-        "discoveryProviders": [
-          "Data Visualization Society"
-        ],
-        "pageTitle": "GIS Software for Mapping and Spatial Analytics | Esri",
-        "checkedAt": "2026-11-10T20:06:55.693Z",
-        "httpStatus": 200,
-        "contentType": "text/html;charset=utf-8"
-      },
-      "evidence": {
-        "checks": {
-          "productSignal": true,
-          "function": true,
-          "access": true,
-          "license": false,
-          "licenseStatus": "not stated in captured source"
-        },
-        "sourceExcerpt": "GIS Software for Mapping and Spatial Analytics | Esri GIS Software for Mapping and Spatial Analytics | Esri Explore Esri with the new AI assistant (beta). Ask questions and get answers faster. Try it ArcGIS Esri’s comprehensive geospatial platform ArcGIS is enterprise technology that integrates and connects data through the context of geography. Learn about ArcGIS Esri builds ArcGIS, the world’s leading GIS mapping software. ArcGIS overview Learn about Esri’s comprehensive geospatial platform What is GIS? Discover geographic information system (GIS) technology About Esri Get to know the innovative software company behind ArcGIS Previous Next Who uses Esri technology? Leading organizations in virtually every field use Esri technology to support daily operations and guide long-term strategies. Explore stories of organizations innovating with ArcGIS. UPS SCA Texas A&M LOGISTICS UPS makes 500,000 more stops a day while cutting costs with GIS software Global delivery leader UPS uses mapping and analytics to optimize driver routes, get more capacity out of existing assets, and cut roughly $350 million in annual costs. Watch the video BUSINESS GROWTH Sweeping Corporation of America uses enterprise GIS to transform operations New opportunities for bottom-line savings and top-line growth have multiplied for SCA, the nation’s largest street sweeping service provider, since integrating operational location data across the enterprise. Read the full story NATURAL RESOURCES Texas A&M scales data-driven decisions for American ranchers Texas A&M and technology companies team up at McGregor’s AgriTech Innovation Hub, giving ranchers data-driven tools that strengthen beef supply chain efficiency and boost producer profits. Read the full story Trending insights on the power of GIS technology Public health LA County puts public health on a map for the FIFA World Cup and LA28 Read the story on Esri Blog Utilities Why every utility needs a digital twin Play the episode on Esri’s podcast Government Inside the world of operations security at Amazon Read the story in Esri’s WhereNext magazine Previous Next New and newsworthy Product releases, upcoming events, partnerships, and more from Esri Product feature Start fast. Work anywhere. Scale with ease. Explore ArcGIS Online: ready-to-use mapping, analysis, and data sharing INITIATIVE Explore Esri’s approach to sustainability Esri prioritizes sustainability in operations, products, and community Event Register for the Esri European National Security Summit 2–3 December 2026 | Riga, Latvia | Hear from security experts across Europe partnership Esri and Microsoft Esri provides leading spatial analytics capabilities in Microsoft Fabric Free course Learn how to make location-powered apps Esri's MOOC for building modern geo apps closes in February 2027 Previous Next opens in new window",
-        "structuredData": [
-          {
-            "@type": "Corporation",
-            "name": "Esri",
-            "description": "Esri’s GIS software is the most powerful mapping & spatial analytics technology available. Learn about Esri’s geospatial mapping software for business and government.",
-            "url": "https://www.esri.com/en-us/home"
-          },
-          {
-            "@type": "Corporation"
-          },
-          {
-            "@type": "WebPage",
-            "name": "GIS Software for Mapping and Spatial Analytics | Esri",
-            "description": "Esri’s GIS software is the most powerful mapping & spatial analytics technology available. Learn about Esri’s geospatial mapping software for business and government.",
-            "url": "https://www.esri.com/en-us/home"
-          },
-          {
-            "@type": "FAQPage"
-          },
-          {
-            "@type": "website",
-            "url": "https://www.esri.com/en-us/home"
-          },
-          {
-            "@type": "BreadcrumbList"
-          }
-        ],
         "resourceLinks": []
       },
       "recordDraft": {
-        "id": "ec6de7af3271ca5771aeeb8cff19422fd35853394caedd1530e2136f7d8ca205",
-        "name": "GIS Software for Mapping and Spatial Analytics | Esri",
-        "kind": "mapeamento e cartografia",
-        "url": "https://www.esri.com/",
-        "desc": "Esri’s GIS software is the most powerful mapping & spatial analytics technology available. Learn about Esri’s geospatial mapping software for business and government. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
+        "id": "0fa208338a4bcde2366d9b583e4b5146aa53ad03993c853df2a6945051acceb1",
+        "title": "Fund for Investigative Journalism seed and regular grants - GFMD",
+        "org": null,
+        "summary": "The Fund for Investigative Journalism provides grants and other support for reporters to produce high-quality, unbiased, nonpartisan investigative stories that have an impact.",
+        "type": "grant",
+        "themes": [
+          "Jornalismo investigativo",
+          "Jornalismo"
+        ],
+        "scope": "Fund for Investigative Journalism seed and regular grants - GFMD « Back to all Fundings Fund for Investigative Journalism seed and regular grants Organisation: Fund for Investigative Journalism Status: Open Type: Grant Theme: Investigative journalism Funding Size: $1,000 - $10,000 Deadline: 30/01/2027 Eligibility: Freelance journalists, staff reporters and media outlets in the United States are eligible for grants, and their investigations can be for print, online or broadcast stories, books, documentaries or podcasts.",
+        "fit": 6,
+        "deadline": "2027-01-30",
+        "deadlineStatus": "Confirmado na página oficial; fuso horário não informado.",
+        "eligibility": "parcial",
+        "status": "aberta",
+        "rules": "https://gfmd.info/fundings/fund-for-investigative-journalism-seed-and-regular-grants",
+        "apply": "https://gfmd.info/fundings/fund-for-investigative-journalism-seed-and-regular-grants"
       },
-      "missingFields": [],
+      "missingFields": [
+        "org"
+      ],
+      "reviewDecision": "evidence_complete_for_record_draft",
+      "note": "Ficha preliminar baseada no conteúdo capturado da página. Campos sem evidência permanecem ausentes; a aprovação depende do gate independente de publicação."
+    },
+    {
+      "schemaVersion": 1,
+      "id": "1ce3ee0308c17d4729e3aa3c772a192ca488dde6407eb88cb91b5941437c1f01",
+      "category": "opportunities",
+      "status": "draft_only",
+      "publicationReady": false,
+      "source": {
+        "url": "https://gfmd.info/fundings/the-gordon-n-fisher-journalists-for-human-rights-fellowship",
+        "discoveryProviders": [
+          "GFMD funding"
+        ],
+        "pageTitle": "The Gordon N. Fisher / Journalists for Human Rights Fellowship - GFMD",
+        "checkedAt": "2026-11-10T20:31:28.952Z",
+        "httpStatus": 200,
+        "contentType": "text/html; charset=UTF-8"
+      },
+      "evidence": {
+        "checks": {
+          "callSignal": true,
+          "deadline": "2026-12-01",
+          "eligibility": true
+        },
+        "sourceExcerpt": "The Gordon N. Fisher / Journalists for Human Rights Fellowship - GFMD « Back to all Fundings The Gordon N. Fisher / Journalists for Human Rights Fellowship Organisation: Journalists for Human Rights Status: Open Type: Fellowship Theme: Media support Funding Size: $4,900 per month Deadline: 01/12/2026 Eligibility: One journalist from Sub-Saharan Africa or the Middle East Target Region: Sub-Saharan Africa and the Middle East Application Language: English The Gordon N. Fisher / JHR Journalism Fellowship runs in tandem with the William Southam Journalism Fellowships. It offers one journalist from Sub-Saharan Africa or the Middle East a year of academic study at the University of Toronto. Eligibility The fellowship is offered to one journalist from Sub-Saharan Africa or the Middle East. Fellows must be proficient in spoken and written English, the language of instruction at the University of Toronto. The program carries no formal prerequisites and does not grant academic credit. As part of the immersive nature of the program, Fellows agree to refrain from professional work during the Fellowship and limit personal travel to official university holiday periods. Massey College encourages journalists from traditionally excluded and marginalized groups to apply. Do not use AI for your application How to Apply Applications opened on 01/10/2026 and close on 01/12/2026. Submit a professional biography, a current CV, a statement of intent, three samples of recent work produced in the last two years, and the names and contact information for two referees. Apply here . For more information, please visit this page . For the latest funding opportunities, profiles of media donors, and expert insight from GFMD’s MediaDev Fundraising Guide sign up for Bottom Line newsletter Sign Up Search Search for: This website uses cookies. By continuing to use the website you consent to the use and storage of cookies on your device. You are using an outdated browser which can not show modern web content. We suggest you download Chrome or Firefox .",
+        "structuredData": [],
+        "resourceLinks": []
+      },
+      "recordDraft": {
+        "id": "1ce3ee0308c17d4729e3aa3c772a192ca488dde6407eb88cb91b5941437c1f01",
+        "title": "The Gordon N. Fisher / Journalists for Human Rights Fellowship - GFMD",
+        "org": null,
+        "summary": "The Gordon N. Fisher / JHR Journalism Fellowship runs in tandem with the William Southam Journalism Fellowships. It offers one journalist from Sub-Saharan Africa or the Middle East a year of academic study at the University of Toronto.",
+        "type": "Fellowship",
+        "themes": [
+          "Jornalismo"
+        ],
+        "scope": "Fisher / Journalists for Human Rights Fellowship Organisation: Journalists for Human Rights Status: Open Type: Fellowship Theme: Media support Funding Size: $4,900 per month Deadline: 01/12/2026 Eligibility: One journalist from Sub-Saharan Africa or the Middle East Target Region: Sub-Saharan Africa and the Middle East Application Language: English The Gordon N.",
+        "fit": 5,
+        "deadline": "2026-12-01",
+        "deadlineStatus": "Confirmado na página oficial; fuso horário não informado.",
+        "eligibility": "parcial",
+        "status": "aberta",
+        "rules": "https://gfmd.info/fundings/the-gordon-n-fisher-journalists-for-human-rights-fellowship",
+        "apply": "https://gfmd.info/fundings/the-gordon-n-fisher-journalists-for-human-rights-fellowship"
+      },
+      "missingFields": [
+        "org"
+      ],
+      "reviewDecision": "evidence_complete_for_record_draft",
+      "note": "Ficha preliminar baseada no conteúdo capturado da página. Campos sem evidência permanecem ausentes; a aprovação depende do gate independente de publicação."
+    },
+    {
+      "schemaVersion": 1,
+      "id": "25f3ecac9078807ca06cb298c039f7081cf070b5cc38669093b8dccb9283f94b",
+      "category": "opportunities",
+      "status": "draft_only",
+      "publicationReady": false,
+      "source": {
+        "url": "https://gfmd.info/fundings/international-nieman-fellowship",
+        "discoveryProviders": [
+          "GFMD funding"
+        ],
+        "pageTitle": "International Nieman Fellowship - GFMD",
+        "checkedAt": "2026-11-10T20:31:28.952Z",
+        "httpStatus": 200,
+        "contentType": "text/html; charset=UTF-8"
+      },
+      "evidence": {
+        "checks": {
+          "callSignal": true,
+          "deadline": "2026-12-01",
+          "eligibility": true
+        },
+        "sourceExcerpt": "International Nieman Fellowship - GFMD « Back to all Fundings International Nieman Fellowship Organisation: Nieman Foundation Status: Open Type: Fellowship Theme: Media support Funding Size: N/A Deadline: 01/12/2026 Eligibility: Non-US citizen journalists Target Region: International (non-U.S. citizens, including those working in the U.S.) Application Language: English The Nieman Fellowship gives working journalists a year at Harvard to pursue a self-designed programme of study. The International Nieman Fellowship is for non-U.S. citizens, including those working in the U.S. Eligibility All Nieman Fellowship applicants must be working journalists with at least five years of full-time media experience. The International Nieman Fellowship is for non-U.S. citizens, including those working in the U.S. If you’re a national of a country where the U.S. has suspended issuance of nonimmigrant visas (specifically J visas), the Foundation recommends that you wait to apply until these restrictions are lifted. If an individual holds citizenship and a passport from an additional country that doesn’t have that visa restriction, the candidate may submit an application for a 2027-28 International Nieman Fellowship. Because a Nieman Fellowship is not a writing residency, book proposals are ineligible. How to Apply Complete the online application by 01 December 2026. It consists of two essays (a personal statement of up to 1,000 words and a study proposal of up to 500 words), a professional profile and study proposal summary, work samples, and three letters of recommendation. Recommenders must submit their letters through the online portal by 15 December 2026. Applications must be authored solely by the applicant, and any AI use for editing must be disclosed. Apply here . For more information, please visit this page . For the latest funding opportunities, profiles of media donors, and expert insight from GFMD’s MediaDev Fundraising Guide sign up for Bottom Line newsletter Sign Up Search Search for: This website uses cookies. By continuing to use the website you consent to the use and storage of cookies on your device. You are using an outdated browser which can not show modern web content. We suggest you download Chrome or Firefox .",
+        "structuredData": [],
+        "resourceLinks": []
+      },
+      "recordDraft": {
+        "id": "25f3ecac9078807ca06cb298c039f7081cf070b5cc38669093b8dccb9283f94b",
+        "title": "International Nieman Fellowship - GFMD",
+        "org": null,
+        "summary": "The Nieman Fellowship gives working journalists a year at Harvard to pursue a self-designed programme of study. The International Nieman Fellowship is for non-U.S. citizens, including those working in the U.S.",
+        "type": "Fellowship",
+        "themes": [
+          "Jornalismo"
+        ],
+        "scope": "International Nieman Fellowship - GFMD « Back to all Fundings International Nieman Fellowship Organisation: Nieman Foundation Status: Open Type: Fellowship Theme: Media support Funding Size: N/A Deadline: 01/12/2026 Eligibility: Non-US citizen journalists Target Region: International (non-U.S.",
+        "fit": 6,
+        "deadline": "2026-12-01",
+        "deadlineStatus": "Confirmado na página oficial; fuso horário não informado.",
+        "eligibility": "parcial",
+        "status": "aberta",
+        "rules": "https://gfmd.info/fundings/international-nieman-fellowship",
+        "apply": "https://gfmd.info/fundings/international-nieman-fellowship"
+      },
+      "missingFields": [
+        "org"
+      ],
+      "reviewDecision": "evidence_complete_for_record_draft",
+      "note": "Ficha preliminar baseada no conteúdo capturado da página. Campos sem evidência permanecem ausentes; a aprovação depende do gate independente de publicação."
+    },
+    {
+      "schemaVersion": 1,
+      "id": "2de5afaa39131e7ff861db2ee421b0f89093fb184f5519095b2b4da940402015",
+      "category": "opportunities",
+      "status": "draft_only",
+      "publicationReady": false,
+      "source": {
+        "url": "https://gfmd.info/fundings/equality-fund-global-journalism-fellowship-2026-2027",
+        "discoveryProviders": [
+          "GFMD funding"
+        ],
+        "pageTitle": "Equality Fund Global Journalism Fellowship 2026–2027 - GFMD",
+        "checkedAt": "2026-11-10T20:31:28.952Z",
+        "httpStatus": 200,
+        "contentType": "text/html; charset=UTF-8"
+      },
+      "evidence": {
+        "checks": {
+          "callSignal": true,
+          "deadline": "2026-11-11",
+          "eligibility": true
+        },
+        "sourceExcerpt": "Equality Fund Global Journalism Fellowship 2026–2027 - GFMD « Back to all Fundings Equality Fund Global Journalism Fellowship 2026–2027 Organisation: Equality Fund Status: Open Type: Fellowship Theme: Gender equality in media Funding Size: CAD 4,000 Deadline: 11/11/2026 Eligibility: five journalists located in ODA-recipient countries Target Region: ODA-eligible countries Application Language: English The Equality Fund has launched its inaugural Global Journalism Fellowship, developed in partnership with Canadian Journalists for Free Expression (CJFE) and African Women in Media (AWiM). The fellowship seeks to surface stories of local solutions to global crises, with a particular focus on gender, by selecting up to five journalists located in ODA-recipient countries. Fellows will spend six months in structured programming followed by three additional months to finalise publication (January–September 2027), receiving a CAD 4,000 stipend, up to CAD 500 in reporting expenses, monthly expert-led online sessions, safety training from the International Women’s Media Foundation (IWMF) and the Freedom of the Press Foundation, and an in-person convening with travel costs covered. The programme is particularly interested in stories that move beyond documenting problems and explore locally driven responses to challenges such as climate change, gender-based violence, economic injustice, conflict, or threats to democracy and human rights. Eligibility Open to full-time or independent freelance journalists working on any journalism platform, including text, digital, video, and audio Minimum of three years of journalism experience Journalists must be located in, and be reporting on, communities in ODA-recipient countries (full country list at oecd.org) Must have three strong journalism samples that showcase a range of relevant work Ability to accommodate meetings within daytime hours in Eastern Standard Time Must be fluent in English, Equality Fund’s working language Must have a strong affinity for the Equality Fund’s mission and values, including equality and diversity of race, gender, sexual orientation, religion, ethnicity, national origin, and disability Women, non-binary, and trans people are encouraged to apply Must have a bank account able to accept international Electronic Wire Transfers Applications from women, men, and LGBTQI+ people are welcomed Use of AI in the proposal and application is not permitted; use of AI during the journalistic process must be disclosed to the programme and approved in advance Requirements Completed online application form submitted before the closing date Three published journalism samples showcasing a range of relevant work In a phased process, shortlisted applicants will be asked to submit a letter of editorial commitment from a news outlet (in some cases of self-publishing, this may be substituted with a fact-checking plan) Fellows must be willing to follow trauma-informed reporting best practices and conduct community roundtables where possible Fellows who are full-time staff journalists will be required to notify their newsroom of the fellowship stipend How to Apply Complete the online application form before 08/11/2026 at midnight Eastern Standard Time. Full application guidelines, including eligibility criteria and programme expectations, are available on the funder’s application page before starting. Apply here . For more information, please visit this page . For the latest funding opportunities, profiles of media donors, and expert insight from GFMD’s MediaDev Fundraising Guide sign up for Bottom Line newsletter Sign Up Search Search for: This website uses cookies. By continuing to use the website you consent to the use and storage of cookies on your device. You are using an outdated browser which can not show modern web content. We suggest you download Chrome or Firefox .",
+        "structuredData": [],
+        "resourceLinks": []
+      },
+      "recordDraft": {
+        "id": "2de5afaa39131e7ff861db2ee421b0f89093fb184f5519095b2b4da940402015",
+        "title": "Equality Fund Global Journalism Fellowship 2026–2027 - GFMD",
+        "org": null,
+        "summary": "The Equality Fund has launched its inaugural Global Journalism Fellowship, developed in partnership with Canadian Journalists for Free Expression (CJFE) and African Women in Media (AWiM).",
+        "type": "Fellowship",
+        "themes": [
+          "Meio ambiente",
+          "Gênero",
+          "Jornalismo"
+        ],
+        "scope": "Equality Fund Global Journalism Fellowship 2026–2027 - GFMD « Back to all Fundings Equality Fund Global Journalism Fellowship 2026–2027 Organisation: Equality Fund Status: Open Type: Fellowship Theme: Gender equality in media Funding Size: CAD 4,000 Deadline: 11/11/2026 Eligibility: five journalists located in ODA-recipient countries Target Region: ODA-eligible countries Application Language: English The Equality Fund has launched its inaugural Global Journalism Fellowship, developed in partnership with Canadian Journalists for Free Expression (CJFE) and African Women in Media (AWiM).",
+        "fit": 6,
+        "deadline": "2026-11-11",
+        "deadlineStatus": "Confirmado na página oficial; fuso horário não informado.",
+        "eligibility": "parcial",
+        "status": "aberta",
+        "rules": "https://gfmd.info/fundings/equality-fund-global-journalism-fellowship-2026-2027",
+        "apply": "https://gfmd.info/fundings/equality-fund-global-journalism-fellowship-2026-2027"
+      },
+      "missingFields": [
+        "org"
+      ],
+      "reviewDecision": "evidence_complete_for_record_draft",
+      "note": "Ficha preliminar baseada no conteúdo capturado da página. Campos sem evidência permanecem ausentes; a aprovação depende do gate independente de publicação."
+    },
+    {
+      "schemaVersion": 1,
+      "id": "2f8dbafd33f988df9c4c2792e6eafc2e4e67f6786c175432f1171eadfa3dc793",
+      "category": "opportunities",
+      "status": "draft_only",
+      "publicationReady": false,
+      "source": {
+        "url": "https://gfmd.info/fundings/call-for-proposals-cross-border-media-literacy-2027",
+        "discoveryProviders": [
+          "GFMD funding"
+        ],
+        "pageTitle": "Call for Proposals - Cross-border Media Literacy (2027) - GFMD",
+        "checkedAt": "2026-11-10T20:31:28.952Z",
+        "httpStatus": 200,
+        "contentType": "text/html; charset=UTF-8"
+      },
+      "evidence": {
+        "checks": {
+          "callSignal": true,
+          "deadline": "2027-01-20",
+          "eligibility": true
+        },
+        "sourceExcerpt": "Call for Proposals - Cross-border Media Literacy (2027) - GFMD « Back to all Fundings Call for Proposals – Cross-border Media Literacy (2027) Organisation: European Commission Status: Open Type: Grant Theme: Media literacy Funding Size: Maximum EUR 500 000 Deadline: 20/01/2027 Eligibility: Consortia composed of at least three entities from a minimum of three different countries participating in the Creative Europe programme Target Region: Europe Application language: English Commission launches Creative Europe Call (EUR 3.5 M) for innovative cross-border media literacy projects, aiming to boost societal resilience against disinformation and information manipulation. In view of the rapidly evolving digital media landscape and the importance of equipping citizens with up-to-date skills and awareness, the European Education and Culture Executive Agency (EACEA) is publishing a call for proposals to support innovative solutions to enhance media literacy skills. The projects shall foster effective cross-border cooperation and enhance societal resilience against disinformation and information manipulation among Europeans. Support will be granted as a priority to initiatives with the potential to reach a broad audience and/or targeted groups currently underserved by media literacy programmes, with a focus on the adult population outside the education system. Eligibility The call is open to consortia composed of at least three entities from a minimum of three different countries participating in the Creative Europe programme. These consortia may include profit and/or non-profit organisations, whether private or public, such as media literacy organisations, public authorities (national, regional, local), universities and educational institutions, media organisations, information integrity organisations, research and technology institutions, technology providers, etc. Support will be granted as a priority to initiatives with the potential to reach a broad audience and/or targeted groups currently underserved by media literacy programmes, with a focus on the adult population outside the education system. Requirements The maximum co-financing rate is 70% of the total eligible costs, so applicants need to co-finance their projects. Projects should address the challenges of a continuously changing digital media landscape. Expected deliverables include creating or scaling up cross-border collaborations that support impactful and innovative approaches to media literacy based on the latest best practices. Expected deliverables include developing and deploying media literacy tools, trainings, campaigns, events and/or other initiatives targeting specific audiences, with a particular focus on adults outside education settings. Expected deliverables include assisting media literacy professionals in adapting their practices to rapidly evolving technological development, media formats and changing media consumption patterns (including the growing role of social media and influencers, AI-generated content, etc.). How to Apply Submit your proposal directly online via the Funding & Tenders Portal Electronic Submission System before 20/01/2027. Paper applications are not accepted. Apply here . For more information, please visit this page . For the latest funding opportunities, profiles of media donors, and expert insight from GFMD’s MediaDev Fundraising Guide sign up for Bottom Line newsletter Sign Up Search Search for: This website uses cookies. By continuing to use the website you consent to the use and storage of cookies on your device. You are using an outdated browser which can not show modern web content. We suggest you download Chrome or Firefox .",
+        "structuredData": [],
+        "resourceLinks": []
+      },
+      "recordDraft": {
+        "id": "2f8dbafd33f988df9c4c2792e6eafc2e4e67f6786c175432f1171eadfa3dc793",
+        "title": "Call for Proposals - Cross-border Media Literacy (2027) - GFMD",
+        "org": null,
+        "summary": "Commission launches Creative Europe Call (EUR 3.5 M) for innovative cross-border media literacy projects, aiming to boost societal resilience against disinformation and information manipulation.",
+        "type": "Grant",
+        "themes": [
+          "Oportunidades editoriais"
+        ],
+        "scope": "Call for Proposals - Cross-border Media Literacy (2027) - GFMD « Back to all Fundings Call for Proposals – Cross-border Media Literacy (2027) Organisation: European Commission Status: Open Type: Grant Theme: Media literacy Funding Size: Maximum EUR 500 000 Deadline: 20/01/2027 Eligibility: Consortia composed of at least three entities from a minimum of three different countries participating in the Creative Europe programme Target Region: Europe Application language: English Commission launches Creative Europe Call (EUR 3.5 M) for innovative cross-border media literacy projects, aiming to boost societal resilience against disinformation and information manipulation.",
+        "fit": 4,
+        "deadline": "2027-01-20",
+        "deadlineStatus": "Confirmado na página oficial; fuso horário não informado.",
+        "eligibility": "parcial",
+        "status": "aberta",
+        "rules": "https://gfmd.info/fundings/call-for-proposals-cross-border-media-literacy-2027",
+        "apply": "https://gfmd.info/fundings/call-for-proposals-cross-border-media-literacy-2027"
+      },
+      "missingFields": [
+        "org"
+      ],
+      "reviewDecision": "evidence_complete_for_record_draft",
+      "note": "Ficha preliminar baseada no conteúdo capturado da página. Campos sem evidência permanecem ausentes; a aprovação depende do gate independente de publicação."
+    },
+    {
+      "schemaVersion": 1,
+      "id": "41dcc31139cb1128b115d73c649326c90f292081ebb55d99a6e984e9d4227810",
+      "category": "opportunities",
+      "status": "draft_only",
+      "publicationReady": false,
+      "source": {
+        "url": "https://gfmd.info/fundings/call-for-proposals-journalism-partnerships-pluralism-2027",
+        "discoveryProviders": [
+          "GFMD funding"
+        ],
+        "pageTitle": "Call for Proposals: Journalism Partnerships - Pluralism (2027) - GFMD",
+        "checkedAt": "2026-11-10T20:31:28.952Z",
+        "httpStatus": 200,
+        "contentType": "text/html; charset=UTF-8"
+      },
+      "evidence": {
+        "checks": {
+          "callSignal": true,
+          "deadline": "2027-02-04",
+          "eligibility": true
+        },
+        "sourceExcerpt": "Call for Proposals: Journalism Partnerships - Pluralism (2027) - GFMD « Back to all Fundings Call for Proposals: Journalism Partnerships – Pluralism (2027) Organisation: European Commission Status: Open Type: Grant Theme: Media support Funding Size: Maximum EUR 2.5 million Deadline: 04/02/2027 Eligibility: European intermediary organisations that set up and distribute funds Target Region: Europe Application language: English This call supports intermediary organisations that set up and distribute funds to news media in sectors of particular relevance to democracy, such as local and regional media, community media, investigative journalism, and public interest news. Projects are expected to start towards the end of 2027 and last 24 months. Eligibility The call relies on intermediary organisations active in the media domain. Financial support will be awarded to these organisations so that they can set up financing schemes for news media sectors in need. The call is open to entities such as media associations, NGOs, non-profit organisations, civil society organisations, public authorities, international organisations, universities, research centres, journalistic funds and training organisations focusing on media professionals, profitmaking entities, foundations, etc. Proposals may be submitted either by single applicants or by a consortium. The funding schemes must focus on the European Union, and specifically on areas with low provision of the specific news described above, or in media markets where media pluralism is strained. Funding schemes should target news media sectors of special relevance to democracy and civic participation, characterised by their role in enhancing democracy, shaping the public debate and bringing benefits to their audiences and communities, instead of focusing just on profit. These sectors include in particular local and regional media; independent and investigative journalism; and organisations delivering public interest news/public service journalism (such as community, legal and civic journalism and media, news increasing transparency about the media). Requirements Setting up a funding scheme for media organisations is compulsory. The maximum co-financing rate is 90% of the total eligible costs, so applicants need to co-finance their projects (but their grantees should not be required to co-finance). The funds can focus on activities that contribute to transforming the work of targeted parties, for instance innovations in editorial production, news coverage and revenue models; improvement of distribution and dissemination of news; audience development and engagement and community-building strategies; development of technical tools; and training on these topics. Applicants can also propose accompanying activities to the fund (development of standards, indicators, repositories of knowledge, legal advice, trainings, etc). How to Apply Submit your proposal directly online via the EU Funding & Tenders Portal Electronic Submission System before 04/02/2027. Paper applications are not accepted. Proposals will be evaluated in spring, and results communicated in summer 2027. Apply here . For more information, please visit this page . For the latest funding opportunities, profiles of media donors, and expert insight from GFMD’s MediaDev Fundraising Guide sign up for Bottom Line newsletter Sign Up Search Search for: This website uses cookies. By continuing to use the website you consent to the use and storage of cookies on your device. You are using an outdated browser which can not show modern web content. We suggest you download Chrome or Firefox .",
+        "structuredData": [],
+        "resourceLinks": []
+      },
+      "recordDraft": {
+        "id": "41dcc31139cb1128b115d73c649326c90f292081ebb55d99a6e984e9d4227810",
+        "title": "Call for Proposals: Journalism Partnerships - Pluralism (2027) - GFMD",
+        "org": null,
+        "summary": "This call supports intermediary organisations that set up and distribute funds to news media in sectors of particular relevance to democracy, such as local and regional media, community media, investigative journalism, and public interest news. Projects are expected to start towards the end of 2027 and last 24 months.",
+        "type": "Grant",
+        "themes": [
+          "Jornalismo investigativo",
+          "Jornalismo"
+        ],
+        "scope": "Call for Proposals: Journalism Partnerships - Pluralism (2027) - GFMD « Back to all Fundings Call for Proposals: Journalism Partnerships – Pluralism (2027) Organisation: European Commission Status: Open Type: Grant Theme: Media support Funding Size: Maximum EUR 2.5 million Deadline: 04/02/2027 Eligibility: European intermediary organisations that set up and distribute funds Target Region: Europe Application language: English This call supports intermediary organisations that set up and distribute funds to news media in sectors of particular relevance to democracy, such as local and regional media, community media, investigative journalism, and public interest news.",
+        "fit": 7,
+        "deadline": "2027-02-04",
+        "deadlineStatus": "Confirmado na página oficial; fuso horário não informado.",
+        "eligibility": "parcial",
+        "status": "aberta",
+        "rules": "https://gfmd.info/fundings/call-for-proposals-journalism-partnerships-pluralism-2027",
+        "apply": "https://gfmd.info/fundings/call-for-proposals-journalism-partnerships-pluralism-2027"
+      },
+      "missingFields": [
+        "org"
+      ],
+      "reviewDecision": "evidence_complete_for_record_draft",
+      "note": "Ficha preliminar baseada no conteúdo capturado da página. Campos sem evidência permanecem ausentes; a aprovação depende do gate independente de publicação."
+    },
+    {
+      "schemaVersion": 1,
+      "id": "578ad193d27b574e54ef5fb0b29776357edd23ef315178e2dbb8f1ab025c1a61",
+      "category": "opportunities",
+      "status": "draft_only",
+      "publicationReady": false,
+      "source": {
+        "url": "https://gfmd.info/fundings/call-for-proposals-journalism-partnerships-collaborations-2027",
+        "discoveryProviders": [
+          "GFMD funding"
+        ],
+        "pageTitle": "Call for Proposals: Journalism Partnerships - Collaborations (2027) - GFMD",
+        "checkedAt": "2026-11-10T20:31:28.952Z",
+        "httpStatus": 200,
+        "contentType": "text/html; charset=UTF-8"
+      },
+      "evidence": {
+        "checks": {
+          "callSignal": true,
+          "deadline": "2027-02-04",
+          "eligibility": true
+        },
+        "sourceExcerpt": "Call for Proposals: Journalism Partnerships - Collaborations (2027) - GFMD « Back to all Fundings Call for Proposals: Journalism Partnerships – Collaborations (2027) Organisation: European Commission Status: Open Type: Grant Theme: Media Innovation Funding Size: maximum EUR 2 million Deadline: 04/02/2027 Eligibility: European news media Target Region: Europe Application language: English This 7th annual call supports cross-border, collaborative proposals between news media organisations focusing on innovative business models and/or journalistic projects across Europe. It aims to help European news media become more sustainable and resilient by supporting cross-border media collaborations. Projects are expected to last 24 months. Eligibility Consortia may include non-profit, public and private media outlets (including written/online press, radio/podcasts, TV) as well as other organisations focusing on news media (including media associations, NGOs, journalistic funds and training organisations focusing on media professionals). Natural persons are not eligible (with the exception of self-employed persons, i.e. sole traders, where the company does not have legal personality separate from that of the natural person). Consortia must gather at least 3 partners from at least 3 different countries participating in the Creative Europe Programme. Since the opening intends to achieve sector-wide impacts, proposals are invited to involve as many news media as possible in their activities. Consortia may choose to focus on a news media (sub)sector (for example tv, radio, printed press) and/or journalistic genre (for example, data journalism, specialised journalism). Requirements The maximum co-financing rate is 80% of the total eligible costs, so applicants need to co-finance their projects. Applicants are called to set up cross-border media collaborations, for example to develop better revenue and monetisation models, new approaches to audience development, community-building and marketing, common professional/technical standards, new types of newsrooms, syndication networks or other models to exchange content/data between news media across the EU, or to provide assistance to small media organisations. Proposals should include activities that best contribute to the consortium’s goals, such as events, online trainings and workshops, exchange programmes, mentoring schemes, mapping of best practices, development of technical standards, guidelines and editorial standards, practical guidebooks, development and testing of platforms and technical solutions, and promotional activities. Financial support to third parties is allowed for grants and prizes under the conditions set in the call. How to Apply Submit your proposal directly online via the EU Funding & Tenders Portal Electronic Submission System before 04/02/2027. Paper applications are not accepted. Proposals will be evaluated in spring, and results communicated in summer 2027. Apply here . For more information, please visit this page . For the latest funding opportunities, profiles of media donors, and expert insight from GFMD’s MediaDev Fundraising Guide sign up for Bottom Line newsletter Sign Up Search Search for: This website uses cookies. By continuing to use the website you consent to the use and storage of cookies on your device. You are using an outdated browser which can not show modern web content. We suggest you download Chrome or Firefox .",
+        "structuredData": [],
+        "resourceLinks": []
+      },
+      "recordDraft": {
+        "id": "578ad193d27b574e54ef5fb0b29776357edd23ef315178e2dbb8f1ab025c1a61",
+        "title": "Call for Proposals: Journalism Partnerships - Collaborations (2027) - GFMD",
+        "org": null,
+        "summary": "This 7th yearly call supports cross-border, collaborative proposals between news media organisations focusing on innovative business models and/or journalistic projects across Europe. It aims to help European news media become more sustainable and resilient by supporting cross-border media collaborations. Projects are expected to last 24 months.",
+        "type": "Grant",
+        "themes": [
+          "Jornalismo de dados",
+          "Jornalismo"
+        ],
+        "scope": "Call for Proposals: Journalism Partnerships - Collaborations (2027) - GFMD « Back to all Fundings Call for Proposals: Journalism Partnerships – Collaborations (2027) Organisation: European Commission Status: Open Type: Grant Theme: Media Innovation Funding Size: maximum EUR 2 million Deadline: 04/02/2027 Eligibility: European news media Target Region: Europe Application language: English This 7th annual call supports cross-border, collaborative proposals between news media organisations focusing on innovative business models and/or journalistic projects across Europe.",
+        "fit": 7,
+        "deadline": "2027-02-04",
+        "deadlineStatus": "Confirmado na página oficial; fuso horário não informado.",
+        "eligibility": "parcial",
+        "status": "aberta",
+        "rules": "https://gfmd.info/fundings/call-for-proposals-journalism-partnerships-collaborations-2027",
+        "apply": "https://gfmd.info/fundings/call-for-proposals-journalism-partnerships-collaborations-2027"
+      },
+      "missingFields": [
+        "org"
+      ],
       "reviewDecision": "evidence_complete_for_record_draft",
       "note": "Ficha preliminar baseada no conteúdo capturado da página. Campos sem evidência permanecem ausentes; a aprovação depende do gate independente de publicação."
     }
