@@ -17,7 +17,7 @@ function structured(audit,pattern){
 }
 function publisherName(data){
  const raw=data.publisher||data.author||data.creator||data.provider||{};
- return clean(typeof raw==='string'?raw:raw.name)||clean(data.name)||null;
+ const type=String(Array.isArray(data['@type'])?data['@type'].join(' '):data['@type']||'').toLowerCase();\n return clean(typeof raw==='string'?raw:raw.name)||(/organization/.test(type)?clean(data.name):'')||null;
 }
 function evidenceSummary(text,description){
  const meta=clean(description);
