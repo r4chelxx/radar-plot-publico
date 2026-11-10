@@ -24,7 +24,7 @@ test('builds traceable drafts only from evidence-complete primary-source reviews
  const pandas=out.drafts.find(x=>x.id==='pandas-library');
  assert.equal(pandas.recordDraft.kind,'Python Data Analysis Library');
  assert.match(pandas.recordDraft.desc,/data analysis and manipulation tool/);
- assert.match(pandas.recordDraft.desc,/limitations; consult the official documentation and license/);
+ assert.match(pandas.recordDraft.desc,/limitations are not fully stated.*consult official documentation and license/);
  assert(!pandas.missingFields.includes('kind'));assert(!pandas.missingFields.includes('desc'));
  const grant=out.drafts.find(x=>x.category==='opportunities');
  assert.equal(grant.recordDraft.deadline,'2099-12-31');
