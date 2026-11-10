@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-10T20:31:40.800Z",
-  "sourceQueueUpdatedAt": "2026-11-10T20:31:28.952Z",
+  "generatedAt": "2026-11-10T20:36:20.043Z",
+  "sourceQueueUpdatedAt": "2026-11-10T20:36:10.810Z",
   "policy": "Evidence-complete drafts only; the separate deterministic evidence gate must independently approve before publication.",
   "summary": {
-    "eligibleForDrafting": 8,
-    "drafts": 8,
+    "eligibleForDrafting": 10,
+    "drafts": 10,
     "byCategory": {
-      "opportunities": 8,
+      "opportunities": 10,
       "datasets": 0,
       "tools": 0
     },
@@ -43,7 +43,7 @@
       "recordDraft": {
         "id": "088211e0604559fd090f68d856ea6e4968716c7d5800b9adbfa5ed659142df55",
         "title": "Knight-Wallace Fellowship (International Applicants) - GFMD",
-        "org": null,
+        "org": "Wallace House Center for Journalists",
         "summary": "The Knight-Wallace Journalism Fellowships offer an academic year of study, collaborative learning and access to the resources of the University of Michigan for selected journalists to pursue ambitious journalism projects.",
         "type": "Fellowship",
         "themes": [
@@ -58,9 +58,7 @@
         "rules": "https://gfmd.info/fundings/knight-wallace-fellowship-international-applicants",
         "apply": "https://gfmd.info/fundings/knight-wallace-fellowship-international-applicants"
       },
-      "missingFields": [
-        "org"
-      ],
+      "missingFields": [],
       "reviewDecision": "evidence_complete_for_record_draft",
       "note": "Ficha preliminar baseada no conteúdo capturado da página. Campos sem evidência permanecem ausentes; a aprovação depende do gate independente de publicação."
     },
@@ -93,7 +91,7 @@
       "recordDraft": {
         "id": "0fa208338a4bcde2366d9b583e4b5146aa53ad03993c853df2a6945051acceb1",
         "title": "Fund for Investigative Journalism seed and regular grants - GFMD",
-        "org": null,
+        "org": "Fund for Investigative Journalism",
         "summary": "The Fund for Investigative Journalism provides grants and other support for reporters to produce high-quality, unbiased, nonpartisan investigative stories that have an impact.",
         "type": "grant",
         "themes": [
@@ -109,9 +107,7 @@
         "rules": "https://gfmd.info/fundings/fund-for-investigative-journalism-seed-and-regular-grants",
         "apply": "https://gfmd.info/fundings/fund-for-investigative-journalism-seed-and-regular-grants"
       },
-      "missingFields": [
-        "org"
-      ],
+      "missingFields": [],
       "reviewDecision": "evidence_complete_for_record_draft",
       "note": "Ficha preliminar baseada no conteúdo capturado da página. Campos sem evidência permanecem ausentes; a aprovação depende do gate independente de publicação."
     },
@@ -144,7 +140,7 @@
       "recordDraft": {
         "id": "1ce3ee0308c17d4729e3aa3c772a192ca488dde6407eb88cb91b5941437c1f01",
         "title": "The Gordon N. Fisher / Journalists for Human Rights Fellowship - GFMD",
-        "org": null,
+        "org": "Journalists for Human Rights",
         "summary": "The Gordon N. Fisher / JHR Journalism Fellowship runs in tandem with the William Southam Journalism Fellowships. It offers one journalist from Sub-Saharan Africa or the Middle East a year of academic study at the University of Toronto.",
         "type": "Fellowship",
         "themes": [
@@ -159,9 +155,7 @@
         "rules": "https://gfmd.info/fundings/the-gordon-n-fisher-journalists-for-human-rights-fellowship",
         "apply": "https://gfmd.info/fundings/the-gordon-n-fisher-journalists-for-human-rights-fellowship"
       },
-      "missingFields": [
-        "org"
-      ],
+      "missingFields": [],
       "reviewDecision": "evidence_complete_for_record_draft",
       "note": "Ficha preliminar baseada no conteúdo capturado da página. Campos sem evidência permanecem ausentes; a aprovação depende do gate independente de publicação."
     },
@@ -194,7 +188,7 @@
       "recordDraft": {
         "id": "25f3ecac9078807ca06cb298c039f7081cf070b5cc38669093b8dccb9283f94b",
         "title": "International Nieman Fellowship - GFMD",
-        "org": null,
+        "org": "Nieman Foundation",
         "summary": "The Nieman Fellowship gives working journalists a year at Harvard to pursue a self-designed programme of study. The International Nieman Fellowship is for non-U.S. citizens, including those working in the U.S.",
         "type": "Fellowship",
         "themes": [
@@ -209,9 +203,7 @@
         "rules": "https://gfmd.info/fundings/international-nieman-fellowship",
         "apply": "https://gfmd.info/fundings/international-nieman-fellowship"
       },
-      "missingFields": [
-        "org"
-      ],
+      "missingFields": [],
       "reviewDecision": "evidence_complete_for_record_draft",
       "note": "Ficha preliminar baseada no conteúdo capturado da página. Campos sem evidência permanecem ausentes; a aprovação depende do gate independente de publicação."
     },
@@ -244,7 +236,7 @@
       "recordDraft": {
         "id": "2de5afaa39131e7ff861db2ee421b0f89093fb184f5519095b2b4da940402015",
         "title": "Equality Fund Global Journalism Fellowship 2026–2027 - GFMD",
-        "org": null,
+        "org": "Equality Fund",
         "summary": "The Equality Fund has launched its inaugural Global Journalism Fellowship, developed in partnership with Canadian Journalists for Free Expression (CJFE) and African Women in Media (AWiM).",
         "type": "Fellowship",
         "themes": [
@@ -261,9 +253,7 @@
         "rules": "https://gfmd.info/fundings/equality-fund-global-journalism-fellowship-2026-2027",
         "apply": "https://gfmd.info/fundings/equality-fund-global-journalism-fellowship-2026-2027"
       },
-      "missingFields": [
-        "org"
-      ],
+      "missingFields": [],
       "reviewDecision": "evidence_complete_for_record_draft",
       "note": "Ficha preliminar baseada no conteúdo capturado da página. Campos sem evidência permanecem ausentes; a aprovação depende do gate independente de publicação."
     },
@@ -296,7 +286,7 @@
       "recordDraft": {
         "id": "2f8dbafd33f988df9c4c2792e6eafc2e4e67f6786c175432f1171eadfa3dc793",
         "title": "Call for Proposals - Cross-border Media Literacy (2027) - GFMD",
-        "org": null,
+        "org": "European Commission",
         "summary": "Commission launches Creative Europe Call (EUR 3.5 M) for innovative cross-border media literacy projects, aiming to boost societal resilience against disinformation and information manipulation.",
         "type": "Grant",
         "themes": [
@@ -311,9 +301,7 @@
         "rules": "https://gfmd.info/fundings/call-for-proposals-cross-border-media-literacy-2027",
         "apply": "https://gfmd.info/fundings/call-for-proposals-cross-border-media-literacy-2027"
       },
-      "missingFields": [
-        "org"
-      ],
+      "missingFields": [],
       "reviewDecision": "evidence_complete_for_record_draft",
       "note": "Ficha preliminar baseada no conteúdo capturado da página. Campos sem evidência permanecem ausentes; a aprovação depende do gate independente de publicação."
     },
@@ -346,7 +334,7 @@
       "recordDraft": {
         "id": "41dcc31139cb1128b115d73c649326c90f292081ebb55d99a6e984e9d4227810",
         "title": "Call for Proposals: Journalism Partnerships - Pluralism (2027) - GFMD",
-        "org": null,
+        "org": "European Commission",
         "summary": "This call supports intermediary organisations that set up and distribute funds to news media in sectors of particular relevance to democracy, such as local and regional media, community media, investigative journalism, and public interest news. Projects are expected to start towards the end of 2027 and last 24 months.",
         "type": "Grant",
         "themes": [
@@ -362,9 +350,7 @@
         "rules": "https://gfmd.info/fundings/call-for-proposals-journalism-partnerships-pluralism-2027",
         "apply": "https://gfmd.info/fundings/call-for-proposals-journalism-partnerships-pluralism-2027"
       },
-      "missingFields": [
-        "org"
-      ],
+      "missingFields": [],
       "reviewDecision": "evidence_complete_for_record_draft",
       "note": "Ficha preliminar baseada no conteúdo capturado da página. Campos sem evidência permanecem ausentes; a aprovação depende do gate independente de publicação."
     },
@@ -397,7 +383,7 @@
       "recordDraft": {
         "id": "578ad193d27b574e54ef5fb0b29776357edd23ef315178e2dbb8f1ab025c1a61",
         "title": "Call for Proposals: Journalism Partnerships - Collaborations (2027) - GFMD",
-        "org": null,
+        "org": "European Commission",
         "summary": "This 7th yearly call supports cross-border, collaborative proposals between news media organisations focusing on innovative business models and/or journalistic projects across Europe. It aims to help European news media become more sustainable and resilient by supporting cross-border media collaborations. Projects are expected to last 24 months.",
         "type": "Grant",
         "themes": [
@@ -413,9 +399,106 @@
         "rules": "https://gfmd.info/fundings/call-for-proposals-journalism-partnerships-collaborations-2027",
         "apply": "https://gfmd.info/fundings/call-for-proposals-journalism-partnerships-collaborations-2027"
       },
+      "missingFields": [],
+      "reviewDecision": "evidence_complete_for_record_draft",
+      "note": "Ficha preliminar baseada no conteúdo capturado da página. Campos sem evidência permanecem ausentes; a aprovação depende do gate independente de publicação."
+    },
+    {
+      "schemaVersion": 1,
+      "id": "b45070e9d4dabfb55eb4edbe6a851ffcd200473f6429555a374f7c0ac7db3e88",
+      "category": "opportunities",
+      "status": "draft_only",
+      "publicationReady": false,
+      "source": {
+        "url": "https://grantsforjournalists.com/grant/knight-wallace-fellowship-at-the-university-of-michigan",
+        "discoveryProviders": [
+          "Grants for Journalists"
+        ],
+        "pageTitle": "Knight-Wallace Fellowship at the University of Michigan &#8211; Grants for Journalists",
+        "checkedAt": "2026-11-10T20:36:10.810Z",
+        "httpStatus": 200,
+        "contentType": "text/html; charset=UTF-8"
+      },
+      "evidence": {
+        "checks": {
+          "callSignal": true,
+          "deadline": "2026-12-01",
+          "eligibility": true
+        },
+        "sourceExcerpt": "Knight-Wallace Fellowship at the University of Michigan – Grants for Journalists Skip to content View Full List Grant details View all grants Knight-Wallace Fellowship at the University of Michigan Knight-Wallace Fellowships offer a broad range of accomplished journalists an academic year of study and collaborative learning at the University of Michigan. Through this fellowship, journalists who are eager for growth and deeply committed to the future of their profession have the opportunity to deepen knowledge, develop new ideas and address challenges facing the journalism industry. Each year Wallace House Center for Journalists awards Knight-Wallace Fellowships to a small cohort of U.S. journalists for immersive projects touching on a range of areas including education, public policy, sports, health and medicine, technology and news innovation, transportation and environment, and international reporting. Location All Locations (Open to Anyone) Funding Type Fellowship Organization University of Michigan Focus Area Subject Area Professional Development Award Size $85,000, plus $5,000 relocation Career Stage mid-career Editor's Note Deadline for international applicants is December 1, 2026. Deadline 02/01/2027 Apply Here",
+        "structuredData": [],
+        "resourceLinks": []
+      },
+      "recordDraft": {
+        "id": "b45070e9d4dabfb55eb4edbe6a851ffcd200473f6429555a374f7c0ac7db3e88",
+        "title": "Knight-Wallace Fellowship at the University of Michigan &#8211; Grants for Journalists",
+        "org": null,
+        "summary": "Knight-Wallace Fellowship at the University of Michigan – Grants for Journalists Skip to content View Full List Grant details View all grants Knight-Wallace Fellowship at the University of Michigan Knight-Wallace Fellowships offer a broad range of accomplished journalists an academic year of study and collaborative learning at the University of Michigan. Through this fellowship, journalists who are eager for growth and deeply committed to the future of their profession have the opportunity to deepen knowledge, develop new ideas and address challenges facing the journalism industry. Each year Wallace House Center for Journalists awards Knight-Wallace Fellowships to a small cohort of U.S. journalists for immersive projects touching on a range of areas including education, public policy, sports, health and medicine, technology and news innovation, transportation and environment, and international reporting. Location All Locations (Open to Anyone) Funding Type Fellowship Organization University of Michigan Focus Area Subject Area Professional Development Award Size $85,000, plus $5,000 relocation Career Stage mid-career Editor's Note Deadline for international applicants is December 1,",
+        "type": "Fellowship",
+        "themes": [
+          "Meio ambiente",
+          "Jornalismo"
+        ],
+        "scope": "Location All Locations (Open to Anyone) Funding Type Fellowship Organization University of Michigan Focus Area Subject Area Professional Development Award Size $85,000, plus $5,000 relocation Career Stage mid-career Editor's Note Deadline for international applicants is December 1, 2026.",
+        "fit": 6,
+        "deadline": "2026-12-01",
+        "deadlineStatus": "Confirmado na página oficial; fuso horário não informado.",
+        "eligibility": "parcial",
+        "status": "aberta",
+        "rules": "https://grantsforjournalists.com/grant/knight-wallace-fellowship-at-the-university-of-michigan",
+        "apply": "https://grantsforjournalists.com/grant/knight-wallace-fellowship-at-the-university-of-michigan"
+      },
       "missingFields": [
         "org"
       ],
+      "reviewDecision": "evidence_complete_for_record_draft",
+      "note": "Ficha preliminar baseada no conteúdo capturado da página. Campos sem evidência permanecem ausentes; a aprovação depende do gate independente de publicação."
+    },
+    {
+      "schemaVersion": 1,
+      "id": "293d94984420e56753951babff751db9ec0bfa21266971a89b9fcceda1102ff3",
+      "category": "opportunities",
+      "status": "draft_only",
+      "publicationReady": false,
+      "source": {
+        "url": "https://gfmd.info/fundings/human-scale-ai-call-for-proposals",
+        "discoveryProviders": [
+          "GFMD funding"
+        ],
+        "pageTitle": "Human-Scale AI: Call for Proposals - GFMD",
+        "checkedAt": "2026-11-10T20:36:10.810Z",
+        "httpStatus": 200,
+        "contentType": "text/html; charset=UTF-8"
+      },
+      "evidence": {
+        "checks": {
+          "callSignal": true,
+          "deadline": "2026-11-20",
+          "eligibility": true
+        },
+        "sourceExcerpt": "Human-Scale AI: Call for Proposals - GFMD « Back to all Fundings Human-Scale AI: Call for Proposals Organisation: Mozilla Foundation Status: Open Type: Grant Theme: Artificial Intelligence (AI) Funding Size: $300,000 USD (potential maximum of $500,000) Deadline: 20/11/2026 Eligibility: Teams able to receive funding from a U.S.-based organisation Target region: Global Application language: English Mozilla Foundation is seeking seven projects that put Human-Scale AI into practice: bespoke, fit-for-purpose technology designed at the scale of the problem it’s meant to solve. These projects will directly address the anxieties that regular people have about the largest AI systems: their resource use and environmental impact, the compromises they require on privacy and the way that they centralize power among a few large companies. Technologies already deployed with the people they’re designed to serve, even at a small scale or through an early pilot. Projects should show early evidence of product-community fit, while still having significant technical, product, community, deployment, or sustainability work ahead. Selected projects will receive $300,000 USD and 12 months of intensive support beginning in April 2027. Projects that demonstrate strong progress may be eligible for up to $200,000 USD in additional funding and two more years of bespoke support—bringing the total potential support to $500,000 USD over three years. For more details, save the date for their upcoming info session on November (12, 5 p.m. UTC, 12 p.m. EST, 9 a.m. PST), Registration details coming soon. Requirements As a selected participant, you will take part in cohort calls, workshops, coaching, and other offerings. Required sessions will generally be limited to one or two hour-long virtual meetings a month. You will share challenges, approaches, resources and lessons with your peers as your project develops. You will share outputs and learnings so that your cohort, the communities you serve, and the broader field can benefit. This could mean open source code, educational resources, public workshops or something else. By the end of the project period, each team should leave behind something of value that others can use or build on—whether that’s open-source components, documentation, datasets, research, shared methodologies, community access, or another public-facing resource appropriate to the project. Success means the alternatives Mozilla backs succeed and endure. They want a significant number of projects in this cohort to become sustainable organizations and companies—still building and still giving people a real alternative five or ten years from now. Selected applicants will receive tailored coaching, workshops, connections, and outside expertise focused on the challenges and opportunities that matter most to your work. They will be assigned a program officer, have access to mission-driven technologists, and they will be given the opportunity to share their work and build new relationships at their flagship Festival, including a spot at the Incubator Showcase. Eligibility You must be legally able to receive grant funds from Mozilla Foundation. While you do not need to be a non-profit organization to apply, your project must have a charitable purpose. Applications must be submitted in English. Translation tools are welcome. Mozilla’s looking for working technologies already deployed with the people they’re designed to serve, even at a small scale or through an early pilot. Projects should show early evidence of product-community fit, while still having significant technical, product, community, deployment, or sustainability work ahead. Generally, they are not looking for systems that replicate the ways that the largest AI companies and systems operate, in terms of scale, user agency, privacy and resource use. The only requirement for team structure is that it be sufficient to effectively execute the work you propose. Please also keep in mind that any tea",
+        "structuredData": [],
+        "resourceLinks": []
+      },
+      "recordDraft": {
+        "id": "293d94984420e56753951babff751db9ec0bfa21266971a89b9fcceda1102ff3",
+        "title": "Human-Scale AI: Call for Proposals - GFMD",
+        "org": "Mozilla Foundation",
+        "summary": "For our next Incubator cohort, Mozilla Foundation is investing in this alternative trajectory for AI. Mozilla calls it Human-Scale AI: bespoke, fit-for-purpose technology designed at the scale of the problem it&#039;s meant to solve.",
+        "type": "Grant",
+        "themes": [
+          "Meio ambiente"
+        ],
+        "scope": "Human-Scale AI: Call for Proposals - GFMD « Back to all Fundings Human-Scale AI: Call for Proposals Organisation: Mozilla Foundation Status: Open Type: Grant Theme: Artificial Intelligence (AI) Funding Size: $300,000 USD (potential maximum of $500,000) Deadline: 20/11/2026 Eligibility: Teams able to receive funding from a U.S.-based organisation Target region: Global Application language: English Mozilla Foundation is seeking seven projects that put Human-Scale AI into practice: bespoke, fit-for-purpose technology designed at the scale of the problem it’s meant to solve.",
+        "fit": 5,
+        "deadline": "2026-11-20",
+        "deadlineStatus": "Confirmado na página oficial; fuso horário não informado.",
+        "eligibility": "parcial",
+        "status": "aberta",
+        "rules": "https://gfmd.info/fundings/human-scale-ai-call-for-proposals",
+        "apply": "https://gfmd.info/fundings/human-scale-ai-call-for-proposals"
+      },
+      "missingFields": [],
       "reviewDecision": "evidence_complete_for_record_draft",
       "note": "Ficha preliminar baseada no conteúdo capturado da página. Campos sem evidência permanecem ausentes; a aprovação depende do gate independente de publicação."
     }

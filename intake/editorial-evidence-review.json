@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-11-10T20:31:40.724Z",
+  "generatedAt": "2026-11-10T20:36:19.957Z",
   "policy": "Evidence-based category triage. Missing license is recorded as unknown when not found; complete means draft eligibility only, never approval or publication.",
   "counts": {
-    "pending_more_evidence": 464,
-    "evidence_complete_for_record_draft": 8
+    "pending_more_evidence": 612,
+    "evidence_complete_for_record_draft": 10
   },
   "categoryCounts": {
-    "uncategorized": 389,
-    "opportunities": 39,
+    "uncategorized": 536,
+    "opportunities": 42,
     "tools": 43,
     "datasets": 1
   },
@@ -6250,6 +6250,923 @@
       "publicationReady": false
     },
     {
+      "id": "4c7c19fb1d89a72866090909ac378ece01bdb11164bff0327053b24b22fa8afa",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE0zM1ZCWHlNZWJMT1FGMXpQYXNGd2ZrTmxZNUc3UGc1b2U4Y2E1SUVDS2ZCRFBxLXVRMlBDUDBPMUtlYXh6ZENQMHdGNGkzMU0xOHdfWkVjeW4tZnl0c251Yl9ia0Y5V2NBdFNDbk5YXzhKb2s",
+      "category": "uncategorized",
+      "originalCategory": "opportunities",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "4e25fa06e9405786b6089307e6e37f39bd0a76b1e282240d4c3f1aaf6d434184",
+      "url": "https://opportunitydesk.org/2026/11/03/backing-international-small-restaurants-grant-program-2026",
+      "category": "uncategorized",
+      "originalCategory": "opportunities",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "a051a2b38cbcb2d839e976e034b0013b3cb5e60b3cb9ba689bd0b7e5ded912b8",
+      "url": "https://opportunitydesk.org/2026/11/03/harvard-pollman-fellowship-in-real-estate-and-urban-development-2027",
+      "category": "uncategorized",
+      "originalCategory": "opportunities",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "b45070e9d4dabfb55eb4edbe6a851ffcd200473f6429555a374f7c0ac7db3e88",
+      "url": "https://grantsforjournalists.com/grant/knight-wallace-fellowship-at-the-university-of-michigan",
+      "category": "opportunities",
+      "originalCategory": "opportunities",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {
+        "callSignal": true,
+        "deadline": "2026-12-01",
+        "eligibility": true
+      },
+      "missing": [],
+      "decision": "evidence_complete_for_record_draft",
+      "publicationReady": false
+    },
+    {
+      "id": "08cde753090e41ae484a5565a05268b6803e333c2eaf7c58638fad2e27e459ef",
+      "url": "https://opportunitydesk.org/2026/11/04/institute-for-policy-integrity-economic-fellowship-2027",
+      "category": "uncategorized",
+      "originalCategory": "opportunities",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "1de5673eab2516dbf8a5873d0dac1cde4efe235a552ab1e4cddee300a788ddf7",
+      "url": "https://opportunitydesk.org/2026/11/04/edsafe-ai-fellowship-2027",
+      "category": "uncategorized",
+      "originalCategory": "opportunities",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "272afdc605caf6c763dd2bd92a3bc1e7fbf80deb49f3d03a845a0427611c68f4",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPWWV1SXVzbnA4SGZlUTI1dnM1RkVvODFLcTZlWmx5NlFVZWo4c2tsM3ludzM5Mkx2QlVkX3BmNW9rdTVDblBGMTRrcXBvNFhGcHVnN1FFR3NkTXFHSVN0bXZDcEZsNl9DU0ZLdVVKUDUtSFAtaF9Cc29PYkdoaVJQRkFzVVlveUl5WmgyVlBrN2l1SkUxVUZV",
+      "category": "uncategorized",
+      "originalCategory": "opportunities",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "293d94984420e56753951babff751db9ec0bfa21266971a89b9fcceda1102ff3",
+      "url": "https://gfmd.info/fundings/human-scale-ai-call-for-proposals",
+      "category": "opportunities",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {
+        "callSignal": true,
+        "deadline": "2026-11-20",
+        "eligibility": true
+      },
+      "missing": [],
+      "decision": "evidence_complete_for_record_draft",
+      "publicationReady": false
+    },
+    {
+      "id": "97164cf11f09d89eba457f3323513ec3e75b7f586e1746d0c5a5a293d39eddc3",
+      "url": "https://opportunitydesk.org/2026/11/04/institute-for-policy-integrity-legal-fellowship-2027",
+      "category": "uncategorized",
+      "originalCategory": "opportunities",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "c0b1b898e7359f6429f3d5e40927262c796a59e406c53a4d495c7cd2563372f5",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNdHhwXy1sa2NRbXRaNVNPM0wxODRnSUUxa0RCWEhKcGpwUFdDUG9xQ1JBVXctZG5MZmtSRVAzSFBtaTI4VlR4NWczLVVtWWJONWN5R1YyUEduU2V4cHFXaElLR0tGVVQ3SERpRTBobTVuNzJOTGdGT0V6N1YzczYzckdTNmVQZlFDMzhsQUhWcjhjZ0JEcGhtWkNFVWsyUV94QzdJ",
+      "category": "uncategorized",
+      "originalCategory": "opportunities",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "0cbb78476f16a5d8d8808a498951c3c5e9ef669159cb0a4a639f4ea6dc201e52",
+      "url": "https://opportunitydesk.org/2026/11/05/cannes-lions-scholarship-2027",
+      "category": "uncategorized",
+      "originalCategory": "opportunities",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "6489ccd76b1881a922b6b7641efb29d632074fda226cbc470e7941ff0d73027a",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOb3Y3Wk55TVJoamFPU3dzUlFVajJ5QlJaSnRobG1WUmlRN1BNTldnTmRCYk9aRVFqVDdONnAydzFRcVZaUTVRRlNZSy1VR3VQRWFsWFU4LV84YWRacFRTZHRmYjFXQ1NWOU1tYmJQYS1CSnY1TWRNWUxkeUtVYmRQd0hOUmlYdjc0NncxY2k5RlFwa19fWE5KbEd2ckRTV3NlUE54VndzQncyVFZOaWJF",
+      "category": "uncategorized",
+      "originalCategory": "opportunities",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "71f4462aba535bb0cf0829ced886a9cd26307c7b6948d3ed363921610fc9f105",
+      "url": "https://opportunitydesk.org/2026/11/05/crassh-visiting-fellowships-for-scholars-from-the-global-south-2027",
+      "category": "uncategorized",
+      "originalCategory": "opportunities",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "89a0768c4662faf27576bd9b9dbde453fb0d19f787f488a8ee2ad42256d3103b",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOY0c5T1hxWXNhOGg3NTFiZ2hUT09ONDhMaV9FZWlFOGtqblN1ZkFySVlJMEpJeWJTUW9JQ2NpNjAyVG0xMzYzeWkxLWsyTDQxUXhRcVNuNnAzczlkVFF3SHMtdkV5aEZxdGlsWDV1WXBKT3NrY0VfeVhydGpsRXhobUF0RXlSWDg3NW4tZGx0T1hOd9IBlwFBVV95cUxNMi11WUlwMF84S1JoS2JkdE5Felo4M1R1MkpWbDVaalJNNTJ0WERDNnhXSnRRMGkwNXdSSXZORW5hNExSc3pFZ1I2Y0cxU0QxQnNaSUQxZGo1M1g1Z0tYU3ZVMFF1Q3Bzc1ZXODVnaUpPcjRldkhVY1FnRVVHb1ZJMVgxV3J3aERsUS1GZUdaOXBTYXZfYUI0",
+      "category": "uncategorized",
+      "originalCategory": "opportunities",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "1da260b0bed4a542893ca0ee14110fa04d1dd79e68c219f314e947fd39464ba1",
+      "url": "https://opportunitydesk.org/2026/11/05/growing-your-business-with-venture-funding-5-practical-steps-for-entrepreneurs",
+      "category": "uncategorized",
+      "originalCategory": "opportunities",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "411233e679b5fc156603c1755c3391972783c2726e52fd4afb50dbc9fa3bc47d",
+      "url": "https://opportunitydesk.org/2026/11/05/university-of-vienna-faculty-of-law-fellowship-programme-summer-2027",
+      "category": "uncategorized",
+      "originalCategory": "opportunities",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "8a3f12ea617088c01066c8635d63eb8a8d650bca2b028007925657320742bade",
+      "url": "https://opportunitydesk.org/2026/11/05/15-global-scholarship-opportunities-currently-open-november-5-2026",
+      "category": "uncategorized",
+      "originalCategory": "opportunities",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "d38198c6aed0b3f3ad884d8be5957ac6a723beedf1fa02e7e1139ff76e55d2c9",
+      "url": "https://opportunitydesk.org/2026/11/05/ix-wai-early-career-development-grant-2027",
+      "category": "uncategorized",
+      "originalCategory": "opportunities",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "d6cd7ea30946440dd7edd73ed4118fe6cf952f403a6196906f7490dfdcc8d406",
+      "url": "https://opportunitydesk.org/2026/11/05/young-security-conference-fellowship-2026",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "f67ab0ea02ae8b20b898318c25f746bcd4087a9cca6af165c5dcf9ab44d9731d",
+      "url": "https://opportunitydesk.org/2026/11/05/how-to-ace-your-scholarship-interview-12-tips-to-help-you-stand-out",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "b5b5d5a1b82f5334a24387c660f31f277014bbd6c8699466cabae1343e1cc86d",
+      "url": "https://opportunitydesk.org/2026/11/06/ibci-fellowship-program-2027",
+      "category": "uncategorized",
+      "originalCategory": "opportunities",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "707c5ab5a773d759b8eb7438f77f33937c6c3172069182091a3cfc84fba4e86c",
+      "url": "https://opportunitydesk.org/2026/11/06/global-changemakers-media-impact-academy-2027-for-youth-in-the-usa",
+      "category": "uncategorized",
+      "originalCategory": "opportunities",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "d461af4dc24c502439ab8b77edac6d12cc351b31af14d87359932c4490276311",
+      "url": "https://gfmd.info/fundings/ejn-renewable-energy-story-grants-india",
+      "category": "opportunities",
+      "originalCategory": "opportunities",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {
+        "callSignal": false,
+        "deadline": "2026-11-15",
+        "eligibility": true
+      },
+      "missing": [
+        "chamada de financiamento/bolsa identificável"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "fddd4b182df3b66567567f94336c919bf6954a3c89e9cff41cbf16c679a2d37e",
+      "url": "https://opportunitydesk.org/2026/11/06/spencer-fellowship-for-education-reporting-2027",
+      "category": "uncategorized",
+      "originalCategory": "opportunities",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "b0930d71b24348d8802019f8e570f96cea225a204e49d3a4f6b4caa41da98072",
+      "url": "https://opportunitydesk.org/2026/11/07/call-for-judges-join-the-od-impact-challenge-2026-global-judging-panel",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "0fd80d60ae4b17594b2b678dc165b04168fd557e2bd287e98431d87d7750f067",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPNW90NG1KUUZJeXVFWmRpYTBRaXN6WEtYaUhON1BDUHIyOHdHSXlkUnpvd1BFZjFwY2ZNeEFYYzYxeF9OUThyeUxjU0d1SlJYVDJsTkczNXUxQUpoOW8wVHhuMm1GeWpCSS1wVkpNY2w0bmlLMXBTYmZOajJfakNzMmNDc0ZyaXJDM1prbzRES1FzRDFvSy1JVk1YVE5rckdpWUZJSEhnaWM1cy1FY1dNT0lQcDhlZ0RVZmc4",
+      "category": "uncategorized",
+      "originalCategory": "opportunities",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "3d6d53d4f68c8ac2cded3bac459dfbcc67ed4c0a27829074220d9da27649f369",
+      "url": "https://opportunitydesk.org/2026/11/07/cega-visiting-fellowship-2027-2028",
+      "category": "uncategorized",
+      "originalCategory": "opportunities",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "88e92a312e5df09cd82f1e294b7109dd3e44b141eb3e94ce5becc0874af5606d",
+      "url": "https://opportunitydesk.org/2026/11/07/how-to-get-a-scholarship-with-a-third-class-degree-7-practical-steps-to-improve-your-chances",
+      "category": "uncategorized",
+      "originalCategory": "opportunities",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "c0097683462c1e73251c95d4c598a21291e3fea49c2c8be7daca101901993e7c",
+      "url": "https://opportunitydesk.org/2026/11/07/10-grants-and-funding-opportunities-currently-open-november-7-2026",
+      "category": "uncategorized",
+      "originalCategory": "opportunities",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "43ec585fa300361fdf73f3c7df1303c5238e4cd155916f930429049ef1c57a14",
+      "url": "https://opportunitydesk.org/2026/11/07/arewa-creative-writing-and-advocacy-fellowship-2026-cohort-1",
+      "category": "uncategorized",
+      "originalCategory": "opportunities",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "008a160d6a427eb13211414e01fe99d9383837204e8e6ebdbd6cd1391a6f37a8",
+      "url": "https://www.occrp.org/en/news/indonesia-asks-russia-to-stop-recruiting-its-citizens-for-ukraine-war",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "00fd3a7a2afbdc2dd56603e209318258f165d280b4b574f0da9a7e37cf40a347",
+      "url": "https://www.nytimes.com/2026/11/05/us/politics/supreme-court-trump-abortion-leak-dobbs.html",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "014fcd26427549b202e9237f4ad448ea9e67cfe1ddc3aebfe52357909ccf296e",
+      "url": "https://www.politico.com/news/magazine/2026/11/04/trump-midterm-defeat-column-01149560",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "0165601d2499475751e1cb8dd181715ae8e412d58df666890111d926e435d94a",
+      "url": "https://substack.com/redirect/d2d348d0-92a3-4384-895f-2634a2eed645",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "01681f90dc89f3339c3232698ea940b91a95aba5b4754550a28fc17113c352e3",
+      "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9wYXVsb21vdG9yeW4uc3Vic3RhY2suY29tL2FjdGlvbi9kaXNhYmxlX2VtYWlsP3Rva2VuPWV5SjFjMlZ5WDJsa0lqb3hNelV5TWpNeExDSndiM04wWDJsa0lqb3lNak0xTkRFNE5qWXNJbWxoZENJNk1UYzVNemczTmpZM055d2laWGh3SWpveE9ESTFOREV5TmpjM0xDSnBjM01pT2lKd2RXSXRNVEF5TmpNeE5ESWlMQ0p6ZFdJaU9pSmthWE5oWW14bFgyVnRZV2xzSW4wLnRYRFhYRm5yOUMwNV9uVEFOTjl3NUxtcWtzS1N0V0NBWjV1N3NoNzJadGciLCJwIjoyMjM1NDE4NjYsInMiOjEwMjYzMTQyLCJmIjp0cnVlLCJ1IjoxMzUyMjMxLCJpYXQiOjE3OTM4NzY2NzcsImV4cCI6MjEwOTQ1MjY3NywiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.9jF_hyySsMcfu6uy_7AJDpZWpbXp0sjP9Z2wkLn2RGo",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "019e3e3d1caab441567560ddc26fbbc13abc8f3dc5ba3f5b16fd4ef6d4435995",
+      "url": "https://www.cnn.com/newsletters/reliable-sources-11-02-26-070400",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "02ebe9f88997457315476153d4b76e31e78bd6622e20913176d1e8b752930e91",
+      "url": "https://whatsapp.com/channel/0029Va7SqVPBqbrICyeouR1f",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "02ed78b76c74264fdcb5e671e150fdd58d24acb4676f78bcda0eebb17c9b7256",
+      "url": "https://www.washingtonpost.com/obituaries/2026/11/01/milton-coleman-barrier-breaking-editor-post-dies-79",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "030fe5873ea0914ab4831f33bf7cefe2a25e9e2bc950e5c4c56ec4b0233acd7c",
+      "url": "https://substack.com/redirect/b923593a-2774-48cd-b9ce-9b913c3320e4",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "031aa89ddb0a35cf3f2297d75d7d9ef222fdcb178293cb0ce1ec10583bf0f888",
+      "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9icmFzaXMuYWpvci5vcmcuYnIvYWN0aW9uL2Rpc2FibGVfZW1haWw_dG9rZW49ZXlKMWMyVnlYMmxrSWpveE16VXlNak14TENKd2IzTjBYMmxrSWpveU1qTTFOVEV4TVRNc0ltbGhkQ0k2TVRjNU16ZzNOVGsyTXl3aVpYaHdJam94T0RJMU5ERXhPVFl6TENKcGMzTWlPaUp3ZFdJdE1UQTBOekEzTUNJc0luTjFZaUk2SW1ScGMyRmliR1ZmWlcxaGFXd2lmUS5uSW9sRFpaVUJtYlYzT1B3VjIzb0plNDZlYkZNVzZ1MjZwMjFDMGwycWJnIiwicCI6MjIzNTUxMTEzLCJzIjoxMDQ3MDcwLCJmIjp0cnVlLCJ1IjoxMzUyMjMxLCJpYXQiOjE3OTM4NzU5NjMsImV4cCI6MjEwOTQ1MTk2MywiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.cHEQxeZPyQpUQxbbTEgX2RQgBPFj085SlDoF12VqDmE",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "032800179462cf94e5b9dc94b8202210ab12d9c7a2660069cee2ea6ec997e2f6",
+      "url": "https://twitter.com/aosfatos",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "032fdc2e63b022bed375f89acf77e25a857b2010c75468e62386188eab94c7db",
+      "url": "https://substack.com/redirect/acef9a9f-8f2e-43e9-8dae-7067384e1433",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "0515185a8d7b77473fffff72344ea8e7a9328bb9e82bf7b83b5d870d1f287d1c",
+      "url": "https://www.poynter.org/category/the-poynter-report-podcast",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "056ac0c973284823f1b9cf91796656de9e6a0b85d855dd2ce951e68485069a63",
+      "url": "https://www.wired.com/story/the-tragedy-of-losing-your-wikipedia-page",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "05baa4fbb4ceeba66d00f9e684191a0977baaa702d75515137e8eb445b91311d",
+      "url": "https://www.mediaite.com/media/news/foxs-lara-trump-showcases-bipartisan-panel-of-5-michigan-voters-4-of-whom-have-deep-ties-to-the-campaign-of-republican-mike-rogers",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "05bb1af2d3abf546e2fdcebd0b38d7006aaa2a91faf809d3f4a00c4f142ecc31",
+      "url": "https://www.newsweek.com/ilhan-omar-marriage-timeline-what-public-records-show-12618887",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "06456dcaccfe30869d9ed812bd2ee631089c483bd501416854adfa949fc43311",
+      "url": "https://www.theatlantic.com/politics/2026/11/trump-midterms-lame-duck/689265",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "06e8da415626cb7704c1cabce018cce407bf9862899c079f368e1fcc55ca81e9",
+      "url": "https://substack.com/redirect/696df864-9ce5-489b-85b0-4cb044f975d3",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "07407fc80a764938cbc51dceeac9a54e6e67b5f4494fa5d4b8eac3725b658b27",
+      "url": "https://www.politico.com/news/2026/10/31/michigan-isnt-going-to-settle-democrats-civil-war-01144474",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "076948332a6af35e812730636e431cb93b226d468bfd21a9343af3dbcbaa96c3",
+      "url": "https://indicator.media/academic-library",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "07e2d327ff73eb1f2f0a3d0a62378d581fc57b280d8158d6196ae9895070fa37",
+      "url": "https://www.washingtonpost.com/politics/2026/11/01/democrat-haley-stevens-praises-michigan-gop-senate-candidate-mike-rogers",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "07f0789e73479479be7ddd9b3b5a675b1cea616ed5ea72c14a43d694b15120bf",
+      "url": "https://www.forbes.com/sites/markjoyella/2026/11/02/julio-vaqueiro-and-noticias-telemundo-will-cover-midterms-with-emphasis-on-latino-voters",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "0862d34db7a91a25fe0d2d5121e7c6bb0465d5f55783b3424acfa883d6f53ad5",
+      "url": "https://www.reuters.com/business/kalshi-raises-1-billion-40-billion-valuation-it-expands-beyond-prediction-2026-10-29",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "08d84184eea4b92c09d996202520e177744c0819b4fe128679886d0bc76a69ae",
+      "url": "https://www.404media.co/voting-in-2026-is-getting-an-ai-slop-i-voted-sticker",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "0943ad702bedc57eb4d3bb92a16f6448945b560683404cb1a465d425856546d7",
+      "url": "https://worldjusticeproject.org/rule-of-law-index/insights",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "09affa87dfe312eef8382844db5d5f3a7160b7abee18c87af1f81082969bbf7e",
+      "url": "https://substack.com/redirect/5bb22735-c4ef-4778-affc-05c2d9cf1c2b",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "0a06baeb81a6ae2ced54788dfeed40d4130f0e43931ad0999323fcb2579f224d",
+      "url": "https://arxiv.org/html/2401.10016v1",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "0ab4b452119acedc99cd61525f62a0a1f1e426c34acb61b4264ad3f00d2ffd4c",
+      "url": "https://www.poynter.org/give",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "0ad00e46109d76f0ea8fd0ac53cb1cd415cc6c74354903e6a58b5edb759430ee",
+      "url": "https://isoj.org/",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "0ae4dbcdb5d0a6e494a8e6dc135a3360148cdccecdb9836f54380427c3419bdc",
+      "url": "https://www.buymeacoffee.com/puntofisso",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "0aec2656cfe2f5adfd83dc0cc26428d4b7b20e3e3a2df29885b131980b0bd5b5",
+      "url": "https://paulomotoryn.substack.com/p/como-organizar-o-combate-a-extrema",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "0b15c0951ef0fd3653910ded4b1280e8152fd67c95147cbb107be322184af841",
+      "url": "https://cjr.us3.list-manage.com/unsubscribe",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "0b3024b4e307b99fbaf45aabb66f0ba3ee62f9b817baf60459f02669104d14b7",
+      "url": "https://mailchi.mp/gijn/meet-our-gijc27-co-host-conference-tickets-guide-to-size-and-number-comparisons",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "0b3b6b7c523f7ac3fa0ddf9cd45211a0c6d743c2c5b31cb9a11705e62a97b71c",
+      "url": "https://www.poynter.org/shop/reporting-editing/vertical-video-basics-for-journalists",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "0c37365d3cd128b5b026c2344e6cfb9ca3bd9a0f3c6cc5117636051de58b0107",
+      "url": "https://substack.com/redirect/84d2e47e-71d2-4b79-ad97-0faa92d57bd9",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "0c773b8a6e64f908ae77ddcc145dc525626179f78df52b4a8d4f069498a62cc9",
+      "url": "https://x.com/mehdirhasan/status/2116934008688836884",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "0c892cae99c987163666af835882f769e846cda4c920afadd7814f4b133472a4",
+      "url": "https://substack.com/redirect/9fa89a98-11b5-4893-b84d-7676da2cbfef",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "0cbc661840843bba9675820351c6cb4a85cdf01d472ec2ab417a98ced0501830",
+      "url": "https://www.natesilver.net/p/the-nytsiena-polls-show-a-blue-tsunami",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
       "id": "0db9b75b90e1b7977b1f41df3487db0fb7316002747f9011df074232aa79ae46",
       "url": "https://fonts.gstatic.com/s/roboto/v29/KFOlCnqEu92Fr1MmWUlfBBc4AMP6lQ.woff2",
       "category": "tools",
@@ -6266,6 +7183,304 @@
         "página primária acessível com conteúdo compatível",
         "função documentada na fonte",
         "condições de acesso minimamente descritas"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "0e612c48a83d262864911e2ab945ff33d98fec224a8a2937ac6e7aa1e35ccc53",
+      "url": "https://us.list-manage.com/F_9hXBEmVEC",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "0eb41e409a20a66d3b4670e2d9b48474da032261e0671337a5c91c63b3e40b9e",
+      "url": "https://daniloderosa.github.io/articles/musetti-lione",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "0f22e5a47355df48ecc5ac06619ca469bf9a8ca5bf655256fdc59db64d81ae46",
+      "url": "https://assets.buttondown.email/images/31111d6b-4cb3-4a0d-9488-79d0e5509f9a.png",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "0ff9d10e79eb841104560462d710f667adc6f39677b94d3dd868d10856a00ac1",
+      "url": "https://www.nytimes.com/2026/11/01/business/media/advertising-paxton-talarico-texas-television.html",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "1038ca27f94ced3c0be9a8d77976b4e899390c2dc42cc6c45cbb5624f7053874",
+      "url": "https://www.washingtonpost.com/politics/2026/11/01/what-happened-before-haley-stevens-endorsed-mike-rogers-over-abdul-el-sayed",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "103d12c3a814cd8bb008375a8edc5ad0f8aa7167c76e84992b8c11fd3d80734a",
+      "url": "https://substack.com/redirect/a8608d5a-6bcc-42dc-b2d5-8cb3dbe9e9a5",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "1101ce3d31d89a2264280bbe024435c10f07e1d59a0959398580b4d985551fe3",
+      "url": "https://www.occrp.org/en/news/us-sentences-venezuelan-national-to-12-years-for-laundering-over-1-billion",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "11a1ad3cc50c6d7fd03804efad235d491c1168872b8e1c2af2624e879453c7f8",
+      "url": "https://www.aosfatos.org/",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "11ad1cac300353663e4d8318fae270b683d2d06810dff7b92317ac4098f4897a",
+      "url": "https://substack.com/redirect/5ca8181e-506d-4c08-b60a-06a277595b01",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "11d191b5e0c43c39698e7417fdbd560f9b6eef66e7a2047858c6527271ce4379",
+      "url": "https://substack.com/redirect/d53061f9-91f7-4b67-9b8d-194a76d4ea59",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "12b768e1beff9a6c2648fd0aee55e9fc80cebdae6bcc51f11c455712aa3d2a04",
+      "url": "https://www.poynter.org/news-release/2026/mediawise-launches-global-newsroom-creator-initiative",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "12c205fb3abc4dc38952f3d1be9412adb4b7641d3da4d988186c97777386c3d5",
+      "url": "https://substack.com/redirect/72581be9-98ea-45bc-8a43-f69a2ee9c360",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "133976718056d8d26b9e14a475cd932d36db898afc74dbd7743b908104dcd9a8",
+      "url": "https://www.oversightboard.com/decision/pao-007g5zuv",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "135a1d98107982352e0ac37b04104ce0ac246e5b82f01aaa64d9f0ec2debf694",
+      "url": "https://substack.com/redirect/9e10b509-6e4d-4967-9106-3d16f670710d",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "142d6691953cbdf22e1d47b7b1289ac4495805656dad2018ebe238df3aa49714",
+      "url": "https://assets.buttondown.email/images/4ba16c43-13bc-4550-b91c-45344c88d1d2.jpg",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "14fd1a8db9c716fbbce74273fd51ec13713679a855939ee4a6302f3b9e407cd4",
+      "url": "https://gijn.org/resource/guide-making-comparisons",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "1509dde4ad107adae18526dff9cf1b9ef6a565641feeb3b8bfccfc8fa0a018e5",
+      "url": "https://substack.com/redirect/1b8842f1-0228-4a5e-b61a-2cf96d8320ed",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "15d699f46291c697984cd1af4bd9275ff58455f9e6d91b87176fe4bd1801eb2a",
+      "url": "https://x.com/nexta_tv/status/2114994949145952265",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "17810c738fa7d361435dfb107872434341b5f61505ef9608d34aca2e237720d0",
+      "url": "https://substack.com/redirect/f0f862ca-67f7-4d49-8e30-62940bee5c8b",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "17bf39107a5dd21da981e3ca15d08e41ae6a3af5391f030f64cd1b8096da19d8",
+      "url": "https://www.poynter.org/reporting-editing/2026/haley-stevens-endorses-mike-rogers-michigan-senate-race",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "1842dbc9e2242253f2e89506bc9c4db6ac914864c8946323f85d8e6e28165293",
+      "url": "https://x.com/atrupar/status/2117025019142320515",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "18bdad65a3b6e51a2200168ae35665fd4cada9939d5ba6fedd4f694a35652d74",
+      "url": "https://substack.com/redirect/16390cb2-0523-4faa-8dd8-ea25c8d2b6e3",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -6292,6 +7507,127 @@
       "publicationReady": false
     },
     {
+      "id": "1944574d46a2083711be461cc7775efba196df2925897eb1183b9100cce7ea86",
+      "url": "https://substack.com/redirect/0cbf0449-9562-4d6a-9718-f9e2729aa5f5",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "196b346579fad474d128770491374a9f911716cdee104ec1cf4ab2bc897b25e3",
+      "url": "https://www.timeanddate.com/worldclock/converter.html",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "19f264bee7850fc2f510d08b14c1f1dd13bd52bff5dca9a2470b1873232764ca",
+      "url": "https://www.nytimes.com/2026/11/04/opinion/trump-democrats-midterms.html",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "1cdf92e41f8b75b12d9195c71096c1eeb0c0b054d5d5df4f62f1a807e7ba77fa",
+      "url": "https://eivimeycook.github.io/TADA-Wiki",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "1d1859f6762a62ae2e33b9de61b4a0b865b0a055c1f2c7a5786edfc3188bd0a5",
+      "url": "https://gijn.org/helpdesk",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "1d3a4f475ff98df12cbe47c2a314ee3460ad77f8b3a5744ceb3cc4c8f8510584",
+      "url": "https://retrace.archivarix.net/",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "1d97c396db9c0d2c4d10997733b1b9d1e0f8701a99464cb28dd375f98d05aca4",
+      "url": "https://www.instagram.com/gijnorg",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "1d9ed4541b78ad2d24ae777f6e17f0d85955238e69ec465203085d09db8feb8e",
+      "url": "https://www.penguinrandomhouse.com/books/227815/superforecasting-by-philip-e-tetlock-and-dan-gardner",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "1dbf6b25f54ea1c57c65c963426ba87664047f32eb50cad6e0ef36d85398f332",
+      "url": "https://x.com/RealMikeWilbon/status/2117307717777871228",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
       "id": "1dc7644caadd2b9368de9578eb24ab36b4fc97f99a0fc88e07119ddef6a30350",
       "url": "https://huridocs.org/2026/11/building-osint-evidence-databases-lessons-from-the-amnesty-digital-investigations-summit",
       "category": "uncategorized",
@@ -6299,6 +7635,413 @@
       "checkedAt": "2026-11-09T20:24:15.585Z",
       "checks": {},
       "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "1de137320604e508ea4fe3f46860bd09d7c14b7b9d21cc32417055dd63827f21",
+      "url": "https://www.washingtonpost.com/opinions/2026/11/03/right-lessons-take-midterm-results",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "1e31716208799270b0b151b137a4c6e8ec2b45522f1b75b7b7a04f2b8e7e3e05",
+      "url": "https://www.poynter.org/poynter-training/poynter-aces-certificates-in-editing",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "1e3791ac41520941b650068392e4aabf0ef2033954bbfa557e4423dea40aabac",
+      "url": "https://x.com/PHirschkorn/status/2104721535483174949",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "1e721b6039f0682c9e6972c75199e7139afc4f227696374a7d5d9a0566b184b5",
+      "url": "https://maristpoll.marist.edu/wp-content/uploads/2026/10/Marist-Poll_MI-NOS-and-Tables_202610191238FFx09@Jal.pdf",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "1e7d015da15a715e419b3527101094debc74762e12cbdaef9e3f2f21242449f6",
+      "url": "https://gijn.org/membership/gijn-global-network",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "1e85c5f6259cc865ff9d77cdbac59a3177e116e88f35957b111d73fd29611112",
+      "url": "https://www.cjr.org/the_profile/nyt-pitchbot.php",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "1ef49f0afca50f51cbc723e93a324ac252f19de32e80dc4015e5b21ed5270d9e",
+      "url": "https://translate.google.com/",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "1f16e1a7339e7cd83d09b3874cba9f3889703eea230c53777ddf7d21ac09d7cc",
+      "url": "https://www.raebaker.net/blog/o1fppkpn6qsorwm27b21lwuxph80bl-5hayl",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "1f3db86881bcbecf7081374e147004680c17cbcae8c1223cc67f9716e2eabce4",
+      "url": "https://occrp-877d.mailchimpsites.com/manage/preferences",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "1f729c29a7d10733e1346d80c11bb6057ebe6f73f80fa9003d7ff1f9c384e809",
+      "url": "https://substack.com/redirect/6af02df2-5a6f-41c3-a105-da4855724db1",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "1faf96c772f76702953beb408e2284415f8923f5e9dc1b81d5c87e38fa889223",
+      "url": "https://www.linkedin.com/posts/saadsarraj_find-online-profiles-using-just-a-face-ugcPost-7521905293455179777-xBlL",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "1fe5c05917ed90e2ae70a6bd394d3df662f8bd8fab544f973663daa48d568af0",
+      "url": "https://gijn.org/academy",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "2021fc87655b894da647b4bc1872893b230a5da92ad89c8e873ee6ae95076157",
+      "url": "https://substack.com/redirect/2b866194-695a-471f-96e8-6dbfbe936623",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "206bebd62203b00d564eefd2fa182f6c2105c9c44221e6a564e07c79b1117d0f",
+      "url": "https://substack.com/redirect/a68de32f-acec-43e2-8d12-37c3cce8f19a",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "20df6a501c74a1f0f33419852f8f3ebb5f3d0d1c4df1815b68b0af4fa5886490",
+      "url": "https://newsletter.apublica.org/view.html",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "20e673f67cc4a605396989f149e9d2ff1fa3d5b9c411ac9be4ae8ad02d92f372",
+      "url": "https://x.com/ESPNPR/status/2117310907076288786",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "2101ef244044c1940fe5f991875518ea1ff8c8f232dbc28a17242eb617e32654",
+      "url": "https://agencialupa.substack.com/p/quem-cuida-da-saude-publica-no-brasil",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "2105e1aaa10f4e4a80693f203d774b509cffed5d5a4c4c6f7801d3eeae66cf8e",
+      "url": "https://www.cjr.org/",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "216ba81a367b932b77379b38578c7b8f1422c675ab45a59dc41d1cc1fbb87eec",
+      "url": "https://substack.com/redirect/68e0de27-1495-4205-8a1a-0abc74d75c97",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "2196652305a125f435e0814ff137fdf54018459af05fb1dae3bb560d5474f9b7",
+      "url": "https://www.nytimes.com/2026/11/01/upshot/poll-times-siena-senate-midterms.html",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "221fc5bdeaefc7eb1eb17ea1d0633d1e13322f85f2cba21c3a3fa424a5a66ba2",
+      "url": "https://gijn.org/about-us/donate",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "230546c5703d413e2fc276e5b31f1a8aae71e8efc4fd14068312e7a71b04af7f",
+      "url": "https://www.poynter.org/shop/leadership/leadership-academy-for-women-2027",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "23293fa637afc49683c234254756c4cce29369099bd176499c4b10e00827e7a5",
+      "url": "https://indicator.media/p/workshop-video-monitoring-keywords-and-webpages",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "25ddc17602c4309417e7e59e797a9e9cd3aee7ca9872bc66c36210692a21fcd1",
+      "url": "https://www.pressherald.com/2020/08/22/dozens-rally-in-portland-for-u-s-postal-service",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "260dd088435bdb80bf3f716f819c34653fbf8ef4f00c5f3d4d15777a045f0de9",
+      "url": "https://substack.com/redirect/1fa6621a-c0d2-4e97-b0b4-a42e565f4db1",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "26233b9032d0039624921baabda8df38ff9725db209142e4061e3a91c740542e",
+      "url": "https://paulomotoryn.substack.com/p/estou-sob-censura-reportagem-sobre",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "26349cbb9e2aecbe8402f767f49a8a4c625fceebd9bfc09e85cc71a06c03e2c8",
+      "url": "https://www.vox.com/politics/509258/republicans-midterm-disaster-blame-theories-iran-war-corruption",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "26939428f5d5f6a3bd376999aa34900df5e61c39a144ffdf6602ab21709d810a",
+      "url": "https://gijn.org/academy/tips-for-collaborating-with-scientists-and-experts",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "26b01e34de9add2ccedd3917ddee32f92352d7ac963820860bfa763f1b0aa1ca",
+      "url": "https://substack.com/redirect/285dd31e-dd39-4631-843b-26a80cf20e5b",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "2708d1133add19562425ce10bc0340fc901eaac7482ee42c7986cbe77a6a67ff",
+      "url": "https://assets.buttondown.email/images/bfe16466-1853-492b-9050-5b8b5e8513b4.png",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
         "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
@@ -6321,6 +8064,237 @@
         "página primária acessível com conteúdo compatível",
         "função documentada na fonte",
         "condições de acesso minimamente descritas"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "289c852bd4fe65be26db3ae2a1b040e57080d83e8d2f0e222a938af031a2c36b",
+      "url": "https://journalismarena.eu/guide-cross-border-foi",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "2903961e64eaa85cf4a06bc2bbaeba2a069045b0e9c9c9af6ee452edfc956611",
+      "url": "https://brasis.ajor.org.br/p/a-vitoria-democrata-nos-eua-e-os",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "29599b4cb8f41bd674baee5fa7aafabde87aab6e535d5482387b9eac5a4130e1",
+      "url": "https://www.nytimes.com/2026/11/01/us/elections/stevens-rogers-el-sayed-michigan-senate.html",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "296949d82abca391b06e3ec1961f466fc87ba8b94695143f1b8483e4f869057e",
+      "url": "https://us.list-manage.com/F3Urmtni2p_",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "29c8612bccc244c18f4d5fbb32f605040500be1979af83478b131144b66b40bc",
+      "url": "https://substack.com/redirect/5d2de86c-f62f-4a6e-a0a6-3e25af52d3e6",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "29cceea80f4be9d8cd1722ec07006620eb334b549eec673a03e87d831750d1de",
+      "url": "https://gijn.org/academy/protecting-against-legal-threats",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "2a0afa2ab9d6e7e933391972cebeb54b20d4ed8b75994ff28514e6051496e4bd",
+      "url": "https://www.aosfatos.org/noticias/decisao-stj-suspender-cnh-devedores-2025",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "2a4a6ac68134a88062f20bbb64f36a35237154ec5be8785a4a4e9d5f7b6d8ebb",
+      "url": "https://assets.buttondown.email/images/348e9207-9bc7-46c7-b61d-e6b8a35ba594.png",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "2a653da2d1d1b65a6e12a18f6400632b604cefb2ea32965f67b323ded0273c56",
+      "url": "https://www.nytimes.com/2026/11/04/us/politics/trump-midterms-losses-republicans.html",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "2a97966c96051be7a81caec72bf971f809fe4876ae72a59e3d11202cf937a0bb",
+      "url": "https://layers.engineering/shipping-103-802-dots-in-82-kb-b4f7d3a89779",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "2ad192f51ae7cf2275cdd81378926032294ac698171fad0340196f3096bdc9c9",
+      "url": "https://substack.com/redirect/076963ce-7b4d-4da2-8e94-2463c2787aca",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "2ae568d1786a5afe8563c3fb45f0d8b7c1ab174cf8ae30dcff9b206ce814c491",
+      "url": "https://www.linkedin.com/company/be-mediawise",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "2b724fcd7341dd0361772db56318a50a3fdbb38ab948ace04161bfebc5e791ef",
+      "url": "https://substack.com/redirect/70c60094-12fb-4098-997b-dfeb9a307864",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "2bbcaa58064685b529b5f7e0dec47ebb8b4b68a04b33033abf5eb133a16c6144",
+      "url": "https://www.occrp.org/en/news/seven-arrested-in-international-investment-fraud-raids",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "2c0f6d53356e77c7e16ddd5518e5dc659db2b714d208417909cfd135e003af97",
+      "url": "https://www.wsj.com/politics/elections/trump-acknowledges-iran-war-is-partly-to-blame-for-republican-losses-c3cf572e",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "2c20a03a1b5204236b068a52815926a3cfcd5ab0acff926a97164489ce2281af",
+      "url": "https://bsky.app/profile/collinswatch.bsky.social/post/3mrdl5oymxk2l",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "2cc55d918c6d1dcbb15764227b1708a7e7233f26146aa2bcc805703bc85c3bbb",
+      "url": "https://andyredwood.com/",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -6503,6 +8477,58 @@
         "página primária acessível com conteúdo compatível",
         "função documentada na fonte",
         "condições de acesso minimamente descritas"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "bd084ac5d802dff7cc0396e59baeb5a34497e5a1c80677da630aaa466a88bc74",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOX215VG5CTGJPaW0zekxYUFVyRGdKOTl6QkhVQ1A3NU1FTF9VZUZ4QWpfVC1kUXFFdkFTU1hJZ0hJODBpRGFuU1ZtQnFtZUxPaUE0TDZnd240Rms3WWZ1UXZ1bndYSlk3UWI3SlloRjdsSHNhNWhqZkpCdW5qOE4yX1FrNVFnOEo4UzlKay16RTlXVVZNMGJNVGlObmU2bXhobVFaMTBraFDSAa4BQVVfeXFMUDRrdk8yVGpubUVZWFRDNmpfZ28wb0pFM1Y4MXMyeVo1eWhkU1MwNTZCeGpVTnNmVzkxRUx4ek1URmd0VnJWdXRuR1ZNaVNfaUxjLUhuTm9FSEJ2MmtsV0dZQzN6S0Jvc2VWanAwNkpCaGFSQ1dfNXAxY21wZFlBWDhNcll4QTYzSUpTX2pFQkUzODRtVWM2LW1DZkU3c1pPUFpjWkUxRDlXRFdsbVRn",
+      "category": "uncategorized",
+      "originalCategory": "opportunities",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "ee8c003336783c0d1edb60324d1d1f88c92b66c18eadaf10bc4300b8e29aab33",
+      "url": "https://opportunitydesk.org/2026/11/09/effie-lions-foundation-voices-of-the-future-global-fellowship-2027",
+      "category": "uncategorized",
+      "originalCategory": "opportunities",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "bdece105297861df0ebce8c40938f8e8672fed850d73b3be5f4d6c06cdd7f104",
+      "url": "https://opportunitydesk.org/2026/11/09/icann-fellowship-program-2027",
+      "category": "uncategorized",
+      "originalCategory": "opportunities",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "d24ca25657028d534bb92ccd25b39d0877bf7b1844e62ba075365025dc11dc7e",
+      "url": "https://opportunitydesk.org/2026/11/09/morgridge-acceleration-program-fellowship-2027",
+      "category": "uncategorized",
+      "originalCategory": "opportunities",
+      "checkedAt": "2026-11-10T20:36:10.810Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
