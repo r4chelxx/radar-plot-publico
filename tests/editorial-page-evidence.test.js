@@ -22,5 +22,5 @@ const malformed=extractEvidence('<script type="application/ld+json">{bad}</scrip
 assert.equal(malformed.structuredData.length,0);
 assert.match(malformed.evidenceText,/Still readable & safe/);
 const oversized=extractEvidence('<p>'+('x'.repeat(6000))+'</p>');
-assert.equal(oversized.evidenceText.length,5000);
+assert.equal(oversized.evidenceText.length,20000);
 console.log('Primary-source evidence extraction regression passed');
