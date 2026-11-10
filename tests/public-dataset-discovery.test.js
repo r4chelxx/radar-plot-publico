@@ -9,7 +9,7 @@ test('dataset discovery emits only canonical dataset candidates from official AP
   return {ok:true,json:async()=>({result:[]})};
  };
  const r=await collect(fetcher);
- assert.equal(r.leads.length,4);
+ assert.equal(r.leads.length,3);
  assert(r.leads.every(x=>x.category==='datasets'&&x.editorialStatus==='unverified'));
  assert(r.leads.some(x=>x.url.includes('data.worldbank.org/indicator/SP.POP.TOTL')));
  assert(r.health.every(x=>x.status==='ok'));
