@@ -1,6 +1,27 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.tools=[
 {
+  "id": "3a612d3b0026605c96abe95b17102fd7ec515303f91661745ecd97a722bed17a",
+  "name": "Welcome to Python.org",
+  "kind": "linguagem de programação",
+  "url": "https://www.python.org/",
+  "desc": "The official home of the Python Programming Language Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
+},
+{
+  "id": "5c1be986e488cd7da4221e6f239cdd4b9259d573f9151cf5b6d1b348b06b2dbe",
+  "name": "R: The R Project for Statistical Computing",
+  "kind": "computação estatística e análise de dados",
+  "url": "https://www.r-project.org/",
+  "desc": "R: The R Project for Statistical Computing [Home] Download CRAN R Project About R Logo Contributors What’s New? Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
+},
+{
+  "id": "80b3a36bc32b874256e675493db452de9c5e04cb25b98648d340a315a67a3fbd",
+  "name": "Zebra BI | Actionable Reporting Made Easy",
+  "kind": "plataforma de análise de dados",
+  "url": "https://zebrabi.com/",
+  "desc": "Zebra BI enables analytics teams to create jaw-dropping and actionable reports and deliver insights in record time. Try our tools today. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
+}, 
+{
   "id": "8c69a7bafba7ddd1615d7cb77a6d643e3f283bf08d2bf8f6f74bb96e26642a66",
   "name": "pandas - Python Data Analysis Library",
   "kind": "Python Data Analysis Library",
