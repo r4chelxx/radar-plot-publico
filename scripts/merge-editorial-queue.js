@@ -28,7 +28,7 @@ const byUrl=new Map();
 for(const d of decisions){try{byUrl.set(identity(d.url).id,d.status)}catch{}}
 const terminal=new Set(['published','rejected','duplicate','archived']);
 // Classify strong opportunity signals only; this is triage, never approval.
-function inferCategory(title,url='',pageTitle='',evidenceText=''){return classifyLead({title,url,pageTitle,evidenceText})}
+function inferCategory(title){return classifyLead({title})}
 function inferTechnicalCategory(item){
  const raw=String(item.title||'').toLowerCase().trim();
  const t=raw.replace(/\s*↗\s*$/,'').trim();
@@ -45,7 +45,7 @@ function inferTechnicalCategory(item){
  return 'uncategorized';
 }
 function categoryFor(item){
- const detected=inferCategory(item.title,item.url,item.audit?.pageTitle,item.audit?.evidenceText);
+ const detected=classifyLead({title:item.title,url:item.url,pageTitle:item.audit?.pageTitle,evidenceText:item.audit?.evidenceText});
  if(detected!=='uncategorized')return detected;
  return inferTechnicalCategory(item);
 }
