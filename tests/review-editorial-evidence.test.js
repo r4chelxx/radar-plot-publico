@@ -12,6 +12,7 @@ try{
  item('tool','tools',{pageTitle:'Mapping software',evidenceText:'Interactive mapping software that lets journalists create and share maps. Free plan available; paid tiers are described on the pricing page.',structuredData:[]}),
  item('python-metadata','tools',{pageTitle:'Python',pageDescription:'Python is a programming language that lets you work quickly. Free and open source.',evidenceText:'',structuredData:[]}),
  item('contest-entries','opportunities',{pageTitle:'2026 Data Journalism Competition',evidenceText:'Competition entries close 2099-12-31. Who can participate: journalists worldwide.',structuredData:[]}),
+ item('arcgis-competition','opportunities',{pageTitle:'2026 ArcGIS StoryMaps Competition',pageDescription:'Esri invites global storytellers to submit an original geospatial story for its annual ArcGIS StoryMaps competition, with four award categories and public recognition for selected winners.',evidenceText:'Global storytelling competition. Esri invites storytellers age 18 and up to answer that question. Submit a story created with ArcGIS StoryMaps that addresses one of the following categories. SUBMISSION DEADLINE December 11, 2026, 5:00 p.m. (PT). Applicants 18 years and older globally may enter the competition once in one of four categories.',structuredData:[]}),
  item('dataset-text-only','datasets',{pageTitle:'Open Data Catalog',evidenceText:'Download municipal CSV files covering 2020–2025. API access and usage terms are documented.',structuredData:[],resourceLinks:[{url:'https://example.org/api/municipal.csv',label:'Download municipal CSV'}]}),
  item('dataset-without-resource','datasets',{pageTitle:'Open Data Catalog',evidenceText:'Download municipal CSV files covering 2020–2025. API access and usage terms are documented.',structuredData:[]}),
  item('maintenance-date','opportunities',{pageTitle:'Global Reporting Fellowship',evidenceText:'Applications for this fellowship are open to journalists. The website deadline for maintenance is 2099-12-31. Eligibility: open to journalists worldwide.',structuredData:[]}),
@@ -32,6 +33,9 @@ try{
  assert.equal(result.records.find(x=>x.id==='tool').checks.licenseStatus,'not stated in captured source');
  assert.equal(result.records.find(x=>x.id==='python-metadata').decision,'evidence_complete_for_record_draft');
  assert.equal(result.records.find(x=>x.id==='contest-entries').decision,'evidence_complete_for_record_draft');
+ assert.equal(result.records.find(x=>x.id==='arcgis-competition').decision,'evidence_complete_for_record_draft');
+ assert.equal(result.records.find(x=>x.id==='arcgis-competition').checks.deadline,'2026-12-11');
+ assert.equal(result.records.find(x=>x.id==='arcgis-competition').checks.eligibility,true);
  assert.equal(result.records.find(x=>x.id==='dataset-text-only').decision,'evidence_complete_for_record_draft');
  assert.equal(result.records.find(x=>x.id==='dataset-text-only').checks.licenseStatus,'not stated in captured source');
  assert.equal(result.records.find(x=>x.id==='dataset-without-resource').decision,'pending_more_evidence');
