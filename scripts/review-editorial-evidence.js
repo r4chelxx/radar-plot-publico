@@ -8,7 +8,7 @@ const outPath=process.argv[3]||'intake/editorial-evidence-review.json';
 const q=JSON.parse(fs.readFileSync(queuePath,'utf8'));
 const today=new Intl.DateTimeFormat('en-CA',{timeZone:'America/Bahia',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());
 const flat=v=>Array.isArray(v)?v.map(flat).join(' '):v&&typeof v==='object'?Object.values(v).map(flat).join(' '):String(v||'');
-const excluded=/\b(conference|webinar|festival|newsletter|podcast|blog post|news article|event|symposium|perfil|profile|portfolio|directory|diretório|tutorial|guide|how[- ]to|call for pitches|press release|article)\b/i;
+const excluded=/\b(conference|webinar|festival|newsletter|podcast|blog post|news article|event|symposium|perfil|profile|portfolio|directory|diretório|tutorial|guide|how[- ]to|call for pitches|press release|article|agency|agência|consult(?:ancy|ing|oria)|membership|archive|arquivo|research advisory|academic library|biblioteca acadêmica)\b/i;
 const excludedPath=/\/(?:blog|news|press|articles?|posts?|podcasts?|pitch|process|tutorials?|guides?|learn|courses?|events?|conference|community|about|people|team|authors?|profiles?|jobs?|docs|20\d{2}\/(?:0?[1-9]|1[0-2]))(?:\/|$)/i;
 function toolIdentity(c,title,docs){
  const structured=docs.some(x=>/softwareapplication|softwareproduct/.test(flat(x['@type']).toLowerCase()));
