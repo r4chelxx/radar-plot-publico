@@ -1,62 +1,64 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-10T20:36:20.043Z",
-  "sourceQueueUpdatedAt": "2026-11-10T20:36:10.810Z",
+  "generatedAt": "2026-11-10T20:45:07.560Z",
+  "sourceQueueUpdatedAt": "2026-11-10T20:44:59.460Z",
   "policy": "Evidence-complete drafts only; the separate deterministic evidence gate must independently approve before publication.",
   "summary": {
-    "eligibleForDrafting": 10,
-    "drafts": 10,
+    "eligibleForDrafting": 15,
+    "drafts": 15,
     "byCategory": {
-      "opportunities": 10,
+      "opportunities": 1,
       "datasets": 0,
-      "tools": 0
+      "tools": 14
     },
     "publicationReady": 0
   },
   "drafts": [
     {
       "schemaVersion": 1,
-      "id": "088211e0604559fd090f68d856ea6e4968716c7d5800b9adbfa5ed659142df55",
-      "category": "opportunities",
+      "id": "483c5944a10521dde5f808f0c5a7f8905fcf5f0d7041f337d200f27096fecbc5",
+      "category": "tools",
       "status": "draft_only",
       "publicationReady": false,
       "source": {
-        "url": "https://gfmd.info/fundings/knight-wallace-fellowship-international-applicants",
+        "url": "https://omni.co/",
         "discoveryProviders": [
-          "GFMD funding"
+          "Data Visualization Society"
         ],
-        "pageTitle": "Knight-Wallace Fellowship (International Applicants) - GFMD",
-        "checkedAt": "2026-11-10T20:31:28.952Z",
+        "pageTitle": "The AI analytics platform - Omni Analytics",
+        "checkedAt": "2026-11-10T20:02:55.377Z",
         "httpStatus": 200,
-        "contentType": "text/html; charset=UTF-8"
+        "contentType": "text/html; charset=utf-8"
       },
       "evidence": {
         "checks": {
-          "callSignal": true,
-          "deadline": "2026-12-01",
-          "eligibility": true
+          "productSignal": true,
+          "function": true,
+          "access": true,
+          "license": false,
+          "licenseStatus": "not stated in captured source"
         },
-        "sourceExcerpt": "Knight-Wallace Fellowship (International Applicants) - GFMD « Back to all Fundings Knight-Wallace Fellowship (International Applicants) Organisation: Wallace House Center for Journalists Status: Open Type: Fellowship Theme: Media support Deadline: 01/12/2026 Eligibility: International (non-U.S. citizens) mid-career journalists Target Region: International (non-U.S. citizens) Application Language: Not Specified The Knight-Wallace Journalism Fellowships offer an academic year of study, collaborative learning and access to the resources of the University of Michigan for selected journalists to pursue ambitious journalism projects. Eligibility Qualified applicants must have a minimum of five years of experience and be currently working in some aspect of journalism for a news organization or as an independent journalist. The programme is looking for a diverse range of journalists, including reporters, editors, data experts, visual journalists, audio producers, engagement specialists, designers, developers, entrepreneurs and organizational change agents. If you are not a full-time journalist, the majority of your work should be in journalism. The programme does not consider public relations writers, internal trade writers, lobbyists, public advocates, or those seeking a degree. If you are not a U.S. citizen, apply as an international applicant, even if you work in the United States or for an American journalism entity. A Green Card is not the same as citizenship. How to Apply Fill out and submit the application form by 01 December 2026. International applications uploaded under the U.S. application portal will not be considered. Review the guidance for preparing your international application and the application FAQs before submitting. Apply here . For more information, please visit this page . For the latest funding opportunities, profiles of media donors, and expert insight from GFMD’s MediaDev Fundraising Guide sign up for Bottom Line newsletter Sign Up Search Search for: This website uses cookies. By continuing to use the website you consent to the use and storage of cookies on your device. You are using an outdated browser which can not show modern web content. We suggest you download Chrome or Firefox .",
-        "structuredData": [],
+        "sourceExcerpt": "The AI analytics platform - Omni Analytics Trusted by Get insights without waiting in line. Ask Chat like you’d ask a teammate. Refine Filter, add fields, and calculate metrics. Summarize Get insights to inform decisions. Follow up Ask another question. Context carries over. Keep exploring Start a workbook and use our full analytics UI. Make decisions faster with AI Put your analysis on autopilot. Instantly diagnose metric changes and schedule AI-written summaries to go out where your team works. Learn more Analyze drivers & drags Get insights delivered Diagnose changes Look up data quickly Use familiar analytics tools, all in one place Dashboards Custom visualizations, drill-downs, filters, and more. Spreadsheets Familiar formulas, forecasting, and modeling on top of live, governed data. Point-and-click An intuitive field picker and chart editor anyone can use. SQL Raw SQL in an IDE with intelligent autocomplete. Ship AI analytics without slowing down your roadmap White label Omni in your product with SSO embedding, APIs, and our MCP server. Get a Demo Accelerate your AI & analytics journey Our big lesson with AI is that it’s about control. When you constrain it and give it context, like Omni’s semantic layer does, you get predictable, reliable results that drive action. Data Teams Drowning in ad-hoc requests? Help users self-serve with AI they can trust, and free up time for your team. Choosing Omni is solving for more than just BI. We’ve also primed ourselves to leap forward into AI because the semantic model is at the heart of the platform. That’s not true for many other tools. Business teams Tired of waiting for answers? Ask a question with AI chat and get a response instantly. Our customers can build custom reports and dashboards in minutes without ever leaving the BambooHR platform. Our team is pushing the business forward because Omni has unlocked capacity for us. Product teams Need an AI win? Implement AI analytics with Omni in weeks instead of derailing core product work. Capture your team's knowledge in a semantic model Experts define core logic, while everyone else contributes domain expertise. AI gets better with every use. Learn more Access your semantic layer from any AI platform Query data via Omni's MCP server, APIs, and integrations. See Claude connector See ChatGPT app Set up Omni's MCP server in Cursor Set up Omni's MCP server Model data and generate AI context with agents Built-in Modeling Agent Omni's built-in agent helps you build metrics, add AI context, incorporate existing documentation, and more. Learn more Skills Invoke pre-packaged agent behaviors directly in your chat interface to build models, run queries, and manage content. Learn more Command Line Interface (CLI) Leverage Omni's suite of APIs to manage your Omni instance from the terminal. Learn more { \"model\" : { \"id\" : \"529258b9-7dbd-4bb6-8869-028a437dd384\", \"createdAt\" : \"2026-04-15T23:24:39.501Z\", \"updatedAt\" : \"2026-04-15T23:24:39.501Z\", \"deletedAt\" : null, \"connectionId\" : \"0b2493a4-b88e-4561-8285-777453c7b956\", \"name\" : \"optimize-for-ai\", \"organizationId\" : \"3cf4fd8a-29e8-408b-ac63-f9a687d0186f\", \"userId\" : \"57da3a10-45d8-449e-9a04-5d1892c0d403\", \"environmentConnectionId\" : null, \"baseModelId\" : \"8026c838-5331-45f3-a97a-cf8569da213f\", \"version\" : \"0\", \"modelKind\" : \"BRANCH\", \"hasGit\" : false, \"pullRequestUrl\" : null, \"gitSha\" : null, \"lastPrCommitAt\" : null, \"pullRequestRequired\" : false, \"branchPerPullRequest\" : false, \"createdByPrincipal\" : \"{\\\"userId\\\":\\\"57da3a10-45d8-449e-9a04-5d1892c0d403\\\",\\\"additionalContext\\\":\\\"API key id: aa30349a-5011-4cd7-9e58-58b3e78c1\\\"}\", \"disableAutoSync\" : null } } { \"model\" : { \"id\" : \"529258b9-7dbd-4bb6-8869-028a437dd384\", \"createdAt\" : \"2026-04-15T23:24:39.501Z\", \"updatedAt\" : \"2026-04-15T23:24:39.501Z\", \"deletedAt\" : null, \"connectionId\" : \"0b2493a4-b88e-4561-8285-777453c7b956\", \"name\" : \"optimize-for-ai\", \"organizationId\" : \"3cf4fd8a-29e8-408b-ac63-f9a687d0186f\", \"userId\" : \"57da3a10-45d8-449e-9a04-5",
+        "structuredData": [
+          {
+            "@type": "Organization",
+            "name": "Omni Analytics",
+            "url": "https://omni.co"
+          },
+          {
+            "@type": "WebSite",
+            "name": "Omni Analytics",
+            "url": "https://omni.co"
+          }
+        ],
         "resourceLinks": []
       },
       "recordDraft": {
-        "id": "088211e0604559fd090f68d856ea6e4968716c7d5800b9adbfa5ed659142df55",
-        "title": "Knight-Wallace Fellowship (International Applicants) - GFMD",
-        "org": "Wallace House Center for Journalists",
-        "summary": "The Knight-Wallace Journalism Fellowships offer an academic year of study, collaborative learning and access to the resources of the University of Michigan for selected journalists to pursue ambitious journalism projects.",
-        "type": "Fellowship",
-        "themes": [
-          "Jornalismo"
-        ],
-        "scope": "Knight-Wallace Fellowship (International Applicants) - GFMD « Back to all Fundings Knight-Wallace Fellowship (International Applicants) Organisation: Wallace House Center for Journalists Status: Open Type: Fellowship Theme: Media support Deadline: 01/12/2026 Eligibility: International (non-U.S.",
-        "fit": 6,
-        "deadline": "2026-12-01",
-        "deadlineStatus": "Confirmado na página oficial; fuso horário não informado.",
-        "eligibility": "parcial",
-        "status": "aberta",
-        "rules": "https://gfmd.info/fundings/knight-wallace-fellowship-international-applicants",
-        "apply": "https://gfmd.info/fundings/knight-wallace-fellowship-international-applicants"
+        "id": "483c5944a10521dde5f808f0c5a7f8905fcf5f0d7041f337d200f27096fecbc5",
+        "name": "The AI analytics platform",
+        "kind": "Omni Analytics",
+        "url": "https://omni.co/",
+        "desc": "Omni Analytics turns your data into a source of truth for AI, so anyone can get answers they trust. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
       },
       "missingFields": [],
       "reviewDecision": "evidence_complete_for_record_draft",
@@ -64,48 +66,92 @@
     },
     {
       "schemaVersion": 1,
-      "id": "0fa208338a4bcde2366d9b583e4b5146aa53ad03993c853df2a6945051acceb1",
-      "category": "opportunities",
+      "id": "733c36409f57a6d64b4eb49ac945a060082aa3ebc58f68ebc56d21824af048b3",
+      "category": "tools",
       "status": "draft_only",
       "publicationReady": false,
       "source": {
-        "url": "https://gfmd.info/fundings/fund-for-investigative-journalism-seed-and-regular-grants",
+        "url": "https://cran.r-project.org/package=fedmatch",
         "discoveryProviders": [
-          "GFMD funding"
+          "Data Visualization Society"
         ],
-        "pageTitle": "Fund for Investigative Journalism seed and regular grants - GFMD",
-        "checkedAt": "2026-11-10T20:31:28.952Z",
+        "pageTitle": "CRAN: Package fedmatch",
+        "checkedAt": "2026-11-10T20:02:55.377Z",
         "httpStatus": 200,
-        "contentType": "text/html; charset=UTF-8"
+        "contentType": "text/html"
       },
       "evidence": {
         "checks": {
-          "callSignal": true,
-          "deadline": "2027-01-30",
-          "eligibility": true
+          "productSignal": true,
+          "function": true,
+          "access": true,
+          "license": true,
+          "licenseStatus": "stated"
         },
-        "sourceExcerpt": "Fund for Investigative Journalism seed and regular grants - GFMD « Back to all Fundings Fund for Investigative Journalism seed and regular grants Organisation: Fund for Investigative Journalism Status: Open Type: Grant Theme: Investigative journalism Funding Size: $1,000 - $10,000 Deadline: 30/01/2027 Eligibility: Freelance journalists, staff reporters and media outlets in the United States are eligible for grants, and their investigations can be for print, online or broadcast stories, books, documentaries or podcasts. Target Region: North America Application Language: English The Fund for Investigative Journalism provides grants and other support for reporters to produce high-quality, unbiased, nonpartisan investigative stories that have an impact. This application is for seed funding to cover the expenses of preliminary reporting, such as open-records requests and initial reporting trips. Seed Grants for preliminary reporting that can help shape investigative stories. These are also on any topic and for U.S. stories. These grants are up to $2,500 for initial reporting expenses. Journalists who receive seed grants can come back to the Fund to apply for a regular grant, after their preliminary reporting is finished. Eligibility Grants are for preliminary reporting for specific projects. The grants cover early reporting that can lead to full investigative projects. This includes, for example, open-records requests, initial reporting trips to identify and interview sources and the reporter’s time. Grants are $1,000 to $2,500. The entire grant is paid up-front. Journalists who receive seed funding can apply for full grants (up to $10,000) once they conduct the preliminary reporting and secure a commitment from a media outlet to publish or broadcast the story. All information contained in an application is held strictly confidential by the Fund’s board and staff, is shared with no one outside of the organization, and is used solely for the purpose of making a grant decision. Funds are open to freelance journalists and those who are not in full-time staff roles at a media outlet. Seed funding must be used to obtain documents or information that could lead to a full investigative story. The journalist’s time can be one cost covered by the grant, but it should not be the only cost. Other criteria for seed funding mirrors the Fund’s criteria for full grants: stories must be investigative in nature (meaning they uncover wrongdoing that was previously hidden or unknown, and shed light on accountability), and the story must have a very strong U.S. angle. How to apply Apply via the online form for the seed grants. Apply here . For more information, please visit this page. For the latest funding opportunities, profiles of media donors, and expert insight from GFMD’s MediaDev Fundraising Guide sign up for Bottom Line newsletter Sign Up Search Search for: This website uses cookies. By continuing to use the website you consent to the use and storage of cookies on your device. You are using an outdated browser which can not show modern web content. We suggest you download Chrome or Firefox .",
+        "sourceExcerpt": "CRAN: Package fedmatch fedmatch: Fast, Flexible, and User-Friendly Record Linkage Methods Provides a flexible set of tools for matching two un-linked data sets. 'fedmatch' allows for three ways to match data: exact matches, fuzzy matches, and multi-variable matches. It also allows an easy combination of these three matches via the tier matching function. Version: 2.1.0 Depends: R (&ge; 3.5.3) Imports: stringdist , SnowballC , stringr , purrr , Rcpp , parallel , forcats , data.table , magrittr , scales LinkingTo: Rcpp , BH Suggests: testthat , knitr , rmarkdown Published: 2025-01-31 DOI: 10.32614/CRAN.package.fedmatch Author: Melanie Friedrichs [aut], Chris Webster [aut, cre], Blake Marsh [aut], Jacob Dice [aut], Seung Lee [aut] Maintainer: Chris Webster <chris0webster at gmail.com> License: MIT + file LICENSE NeedsCompilation: yes Materials: README , NEWS CRAN checks: fedmatch results Documentation: Reference manual: fedmatch.html , fedmatch.pdf Vignettes: Fuzzy Matching ( source , R code ) Introduction to fedmatch ( source , R code ) Multivar Matching ( source , R code ) Using clean_strings ( source , R code ) Tier Matching ( source , R code ) Downloads: Package source: fedmatch_2.1.0.tar.gz Windows binaries: r-devel: fedmatch_2.1.0.zip , r-release: fedmatch_2.1.0.zip , r-oldrel: fedmatch_2.1.0.zip macOS binaries: r-release (arm64): fedmatch_2.1.0.tgz , r-oldrel (arm64): fedmatch_2.1.0.tgz , r-release (x86_64): fedmatch_2.1.0.tgz , r-oldrel (x86_64): fedmatch_2.1.0.tgz Old sources: fedmatch archive Reverse dependencies: Reverse imports: arete Reverse suggests: FlexRL Linking: Please use the canonical form https://CRAN.R-project.org/package=fedmatch to link to this page.",
+        "structuredData": [],
+        "resourceLinks": [
+          {
+            "url": "https://cran.r-project.org/bin/windows/contrib/4.7/fedmatch_2.1.0.zip",
+            "label": "fedmatch_2.1.0.zip"
+          },
+          {
+            "url": "https://cran.r-project.org/bin/windows/contrib/4.6/fedmatch_2.1.0.zip",
+            "label": "fedmatch_2.1.0.zip"
+          },
+          {
+            "url": "https://cran.r-project.org/bin/windows/contrib/4.5/fedmatch_2.1.0.zip",
+            "label": "fedmatch_2.1.0.zip"
+          }
+        ]
+      },
+      "recordDraft": {
+        "id": "733c36409f57a6d64b4eb49ac945a060082aa3ebc58f68ebc56d21824af048b3",
+        "name": "R",
+        "kind": null,
+        "url": "https://cran.r-project.org/package=fedmatch",
+        "desc": "Provides a flexible set of tools for matching two un-linked data sets. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
+      },
+      "missingFields": [
+        "kind"
+      ],
+      "reviewDecision": "evidence_complete_for_record_draft",
+      "note": "Ficha preliminar baseada no conteúdo capturado da página. Campos sem evidência permanecem ausentes; a aprovação depende do gate independente de publicação."
+    },
+    {
+      "schemaVersion": 1,
+      "id": "78b7a11294f5e332bf8ed33d08a8d7151c67f4de4588753cb629a48375d6c337",
+      "category": "tools",
+      "status": "draft_only",
+      "publicationReady": false,
+      "source": {
+        "url": "https://github.com/ropensci/tabulapdf",
+        "discoveryProviders": [
+          "Data Visualization Society"
+        ],
+        "pageTitle": "GitHub - ropensci/tabulapdf: Bindings for Tabula PDF Table Extractor Library · GitHub",
+        "checkedAt": "2026-11-10T20:02:55.377Z",
+        "httpStatus": 200,
+        "contentType": "text/html; charset=utf-8"
+      },
+      "evidence": {
+        "checks": {
+          "productSignal": true,
+          "function": true,
+          "access": true,
+          "license": true,
+          "licenseStatus": "stated"
+        },
+        "sourceExcerpt": "GitHub - ropensci/tabulapdf: Bindings for Tabula PDF Table Extractor Library · GitHub Skip to content You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Reload to refresh your session. Dismiss alert main Branches Tags Go to file Code Open more actions menu Latest commit History 182 Commits 182 Commits Folders and files Name Name Last commit message Last commit date .github .github R R dev dev docs docs inst inst java java man man tests tests vignettes vignettes .Rbuildignore .Rbuildignore .gitignore .gitignore CONTRIBUTING.md CONTRIBUTING.md CRAN-SUBMISSION CRAN-SUBMISSION DESCRIPTION DESCRIPTION LICENSE.md LICENSE.md NAMESPACE NAMESPACE NEWS.md NEWS.md README.Rmd README.Rmd README.md README.md codecov.yml codecov.yml cran-comments.md cran-comments.md tabulizer.Rproj tabulizer.Rproj View all files Repository files navigation tabulapdf: Extract tables from PDF documents tabulapdf provides R bindings to the Tabula java library , which can be used to computationaly extract tables from PDF documents. Note: tabulapdf is released under the MIT license, as is Tabula itself. Installation tabulapdf depends on rJava , which implies a system requirement for Java. This can be frustrating, especially on Windows. The preferred Windows workflow is to use Chocolatey to obtain, configure, and update Java. You need do this before installing rJava or attempting to use tabulapdf. More on this and troubleshooting below. tabulapdf is available on CRAN, and it can also be installed from rOpenSci’s R-Universe: # either install.packages( \" tabulapdf \" ) # or install.packages( \" tabulapdf \" , repos = c( \" https://ropensci.r-universe.dev \" , \" https://cloud.r-project.org \" )) To install the latest development version: if ( ! require( remotes )) install.packages( \" remotes \" ) # on 64-bit Windows remotes :: install_github(c( \" ropensci/tabulapdf \" ), INSTALL_opts = \" --no-multiarch \" ) # elsewhere remotes :: install_github(c( \" ropensci/tabulapdf \" )) Code Examples The main function, extract_tables() provides an R clone of the Tabula command line application: library( tabulapdf ) f <- system.file( \" examples \" , \" data.pdf \" , package = \" tabulapdf \" ) out <- extract_tables( f ) out [[ 1 ]] # # A tibble: 32 × 11 # mpg cyl disp hp drat wt qsec vs am gear carb # <dbl> <dbl> <dbl> <dbl> <dbl> <dbl> <dbl> <dbl> <dbl> <dbl> <dbl> # 1 21 6 160 110 3.9 2.62 16.5 0 1 4 4 # 2 21 6 160 110 3.9 2.88 17.0 0 1 4 4 # 3 22.8 4 108 93 3.85 2.32 18.6 1 1 4 1 # 4 21.4 6 258 110 3.08 3.21 19.4 1 0 3 1 # 5 18.7 8 360 175 3.15 3.44 17.0 0 0 3 2 # 6 18.1 6 225 105 2.76 3.46 20.2 1 0 3 1 # 7 14.3 8 360 245 3.21 3.57 15.8 0 0 3 4 # 8 24.4 4 147. 62 3.69 3.19 20 1 0 4 2 # 9 22.8 4 141. 95 3.92 3.15 22.9 1 0 4 2 # 10 19.2 6 168. 123 3.92 3.44 18.3 1 0 4 4 # # ℹ 22 more rows # # ℹ Use `print(n = ...)` to see more rows The vignette provides more examples and details on how to use the package. Installing Java on Windows with Chocolatey In Power Shell prompt, install Chocolately if you don’t already have it. Run Get-ExecutionPolicy . If it returns Restricted , then run Set-ExecutionPolicy AllSigned or Set-ExecutionPolicy Bypass -Scope Process . Then, install Chocolatey by running the following command: Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1')) Install java using the following command: choco install openjdk11 You should now be able to safely open R, and use rJava and tabulapdf. From PowerShell, you should see something like this after running java -version : OpenJDK Runtime Environment (build 11.0.22+7-post-Ubuntu-0ubuntu222.04.1) OpenJDK 64-Bit Server VM (build 11.0.22+7-post-Ubuntu-0ubuntu222.04.1, mixed mode, sharing) ",
         "structuredData": [],
         "resourceLinks": []
       },
       "recordDraft": {
-        "id": "0fa208338a4bcde2366d9b583e4b5146aa53ad03993c853df2a6945051acceb1",
-        "title": "Fund for Investigative Journalism seed and regular grants - GFMD",
-        "org": "Fund for Investigative Journalism",
-        "summary": "The Fund for Investigative Journalism provides grants and other support for reporters to produce high-quality, unbiased, nonpartisan investigative stories that have an impact.",
-        "type": "grant",
-        "themes": [
-          "Jornalismo investigativo",
-          "Jornalismo"
-        ],
-        "scope": "Fund for Investigative Journalism seed and regular grants - GFMD « Back to all Fundings Fund for Investigative Journalism seed and regular grants Organisation: Fund for Investigative Journalism Status: Open Type: Grant Theme: Investigative journalism Funding Size: $1,000 - $10,000 Deadline: 30/01/2027 Eligibility: Freelance journalists, staff reporters and media outlets in the United States are eligible for grants, and their investigations can be for print, online or broadcast stories, books, documentaries or podcasts.",
-        "fit": 6,
-        "deadline": "2027-01-30",
-        "deadlineStatus": "Confirmado na página oficial; fuso horário não informado.",
-        "eligibility": "parcial",
-        "status": "aberta",
-        "rules": "https://gfmd.info/fundings/fund-for-investigative-journalism-seed-and-regular-grants",
-        "apply": "https://gfmd.info/fundings/fund-for-investigative-journalism-seed-and-regular-grants"
+        "id": "78b7a11294f5e332bf8ed33d08a8d7151c67f4de4588753cb629a48375d6c337",
+        "name": "GitHub",
+        "kind": "ropensci/tabulapdf: Bindings for Tabula PDF Table Extractor Library · GitHub",
+        "url": "https://github.com/ropensci/tabulapdf",
+        "desc": "Bindings for Tabula PDF Table Extractor Library. Contribute to ropensci/tabulapdf development by creating an account on GitHub. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
       },
       "missingFields": [],
       "reviewDecision": "evidence_complete_for_record_draft",
@@ -113,47 +159,51 @@
     },
     {
       "schemaVersion": 1,
-      "id": "1ce3ee0308c17d4729e3aa3c772a192ca488dde6407eb88cb91b5941437c1f01",
-      "category": "opportunities",
+      "id": "859cca020748f7af9ff30e55543a493406b72320c0864064f036228620367060",
+      "category": "tools",
       "status": "draft_only",
       "publicationReady": false,
       "source": {
-        "url": "https://gfmd.info/fundings/the-gordon-n-fisher-journalists-for-human-rights-fellowship",
+        "url": "https://www.creativeapplications.net/",
         "discoveryProviders": [
-          "GFMD funding"
+          "Data Visualization Society"
         ],
-        "pageTitle": "The Gordon N. Fisher / Journalists for Human Rights Fellowship - GFMD",
-        "checkedAt": "2026-11-10T20:31:28.952Z",
+        "pageTitle": "CreativeApplications.Net &#8211; Technology, Society, and Critical Making (Since 2008)",
+        "checkedAt": "2026-11-10T20:02:55.377Z",
         "httpStatus": 200,
         "contentType": "text/html; charset=UTF-8"
       },
       "evidence": {
         "checks": {
-          "callSignal": true,
-          "deadline": "2026-12-01",
-          "eligibility": true
+          "productSignal": true,
+          "function": true,
+          "access": true,
+          "license": false,
+          "licenseStatus": "not stated in captured source"
         },
-        "sourceExcerpt": "The Gordon N. Fisher / Journalists for Human Rights Fellowship - GFMD « Back to all Fundings The Gordon N. Fisher / Journalists for Human Rights Fellowship Organisation: Journalists for Human Rights Status: Open Type: Fellowship Theme: Media support Funding Size: $4,900 per month Deadline: 01/12/2026 Eligibility: One journalist from Sub-Saharan Africa or the Middle East Target Region: Sub-Saharan Africa and the Middle East Application Language: English The Gordon N. Fisher / JHR Journalism Fellowship runs in tandem with the William Southam Journalism Fellowships. It offers one journalist from Sub-Saharan Africa or the Middle East a year of academic study at the University of Toronto. Eligibility The fellowship is offered to one journalist from Sub-Saharan Africa or the Middle East. Fellows must be proficient in spoken and written English, the language of instruction at the University of Toronto. The program carries no formal prerequisites and does not grant academic credit. As part of the immersive nature of the program, Fellows agree to refrain from professional work during the Fellowship and limit personal travel to official university holiday periods. Massey College encourages journalists from traditionally excluded and marginalized groups to apply. Do not use AI for your application How to Apply Applications opened on 01/10/2026 and close on 01/12/2026. Submit a professional biography, a current CV, a statement of intent, three samples of recent work produced in the last two years, and the names and contact information for two referees. Apply here . For more information, please visit this page . For the latest funding opportunities, profiles of media donors, and expert insight from GFMD’s MediaDev Fundraising Guide sign up for Bottom Line newsletter Sign Up Search Search for: This website uses cookies. By continuing to use the website you consent to the use and storage of cookies on your device. You are using an outdated browser which can not show modern web content. We suggest you download Chrome or Firefox .",
+        "sourceExcerpt": "CreativeApplications.Net – Technology, Society, and Critical Making (Since 2008) Hello Visitor! Creativeapplications.Net (CAN) is a community of creative practitioners working at the intersection of art, media and technology. Login Status Username or Email Password Remember Me Forgot Password? Join Us Register | Forgot Password Online for 6,610 days (18 years, 1 months, 5 days), published 4,232 articles about 2,993 people, featuring 219 tools, supported by 1,740 members, and providing access to 460 students. Categories CAN (95) Education (32) Event (253) Member (351) News (885) NFT (256) Project (2634) Review (46) Theory (54) Tutorial (39) Log 10/11/26 Project @antonis Automatar – An intelligent AI guitar ◀︎ 10/11/26 Jobs @Jobs Postdoctoral Researcher (Postdoc) at Film University Babelsberg KONRAD WOLF ◀︎ 05/11/26 Project @peterha Colour to Life – Exploring new potentials for rehabilitation through immersive play 03/11/26 Project @Filip [AI]legory of the Cave – Confined to representations of the world 02/11/26 Project @Filip NC (Normally Open, Normally Closed) – Walls are alive, but can they be trusted? 30/10/26 Project @serena Soft Cinema 2 – Interview with Lev Manovich at Responsive Dreams 2026 29/10/26 News @Filip V7 Development Log (10/2026) 28/10/26 Jobs @Jobs Assistant or Associate Professor of Graphic Design (Tenure-Track) at Auburn University 26/10/26 Project @sugurugoto Da Vinci’s Robot – A non-powered exoskeleton whose motion becomes sound 23/10/26 Project @atomless That Light Breeze – atomless, 2003 22/10/26 Books @Filip Mediated Matter – Design and Invention in the New Biological Age 20/10/26 Project @niceunderg... booleanSequence – A modern yin and yang See All Links About Register Advertise Contact Support Archives Community Education API Help Skip to content T Title E Excerpt M Metadata C Color Grid List Metadata Automatar – An intelligent AI guitar The Automatar is an intelligent AI-powered bass guitar born to bridge the gap between the digital and physical worlds. D 10/11/2026 A @antonis C Member , Project P Antonis Christou , Opera of the Future T 3D Printing , CNC , Custom AI Model , MIDI , Sound , SuperCollider , Wood Colour to Life – Exploring new potentials for rehabilitation through immersive play Colour to Life is a game where players bring their surroundings to life with their gaze. Starting in darkness, they light up objects one by one, and the more they explore, the more vibrant and musical the world becomes. D 05/11/2026 A @peterha C Member , Project P Antonin Ricou , HEAD , Peter Ha T Cinema 4D , Quest , Sound , Unity [AI]legory of the Cave – Confined to representations of the world LLM controlled character who exists only as a shadow interacts with the virtual and physical world, all while humans place obsticles in it's path. D 03/11/2026 A @Filip C Project P Alejandro Lopez-Rodriguez , Cathy Fang , Fluid Interfaces Group , Leonie Dong , Sam Chin , Skye Gao T Javascript , Light , Matter.js , Webcam NC (Normally Open, Normally Closed) – Walls are alive, but can they be trusted? NO/NC is a swarm of palisades that move autonomously through the space, forming temporary structures and barricades that stop visitors from moving through and crossing it freely. D 02/11/2026 A @Filip C Project P AATB T C++ , PolyScope Soft Cinema 2 – Interview with Lev Manovich at Responsive Dreams 2026 At Responsive Dreams, Serena Cangiano speaks with Lev Manovich about the shifting landscape of creative computation, reflecting on how encountering Soft Cinema live bridges a vital historical gap in an age of social media and reels. D 30/10/2026 A @serena C Project P Lev Manovich T Javascript Da Vinci’s Robot – A non-powered exoskeleton whose motion becomes sound Da Vinci's Robot is a performance work by composer and new media artist Suguru Goto for a non-powered full-body exoskeleton and real-time sound. D 26/10/2026 A @sugurugoto C Member , Project P Suguru Goto T Aluminium , C++ , Light , Max That Light Breeze – atomless,",
         "structuredData": [],
-        "resourceLinks": []
+        "resourceLinks": [
+          {
+            "url": "https://www.creativeapplications.net/api/",
+            "label": "API"
+          },
+          {
+            "url": "https://www.creativeapplications.net/tag/dataset",
+            "label": "Dataset"
+          },
+          {
+            "url": "https://www.creativeapplications.net/tools/api/socketio/",
+            "label": "SocketIO"
+          }
+        ]
       },
       "recordDraft": {
-        "id": "1ce3ee0308c17d4729e3aa3c772a192ca488dde6407eb88cb91b5941437c1f01",
-        "title": "The Gordon N. Fisher / Journalists for Human Rights Fellowship - GFMD",
-        "org": "Journalists for Human Rights",
-        "summary": "The Gordon N. Fisher / JHR Journalism Fellowship runs in tandem with the William Southam Journalism Fellowships. It offers one journalist from Sub-Saharan Africa or the Middle East a year of academic study at the University of Toronto.",
-        "type": "Fellowship",
-        "themes": [
-          "Jornalismo"
-        ],
-        "scope": "Fisher / Journalists for Human Rights Fellowship Organisation: Journalists for Human Rights Status: Open Type: Fellowship Theme: Media support Funding Size: $4,900 per month Deadline: 01/12/2026 Eligibility: One journalist from Sub-Saharan Africa or the Middle East Target Region: Sub-Saharan Africa and the Middle East Application Language: English The Gordon N.",
-        "fit": 5,
-        "deadline": "2026-12-01",
-        "deadlineStatus": "Confirmado na página oficial; fuso horário não informado.",
-        "eligibility": "parcial",
-        "status": "aberta",
-        "rules": "https://gfmd.info/fundings/the-gordon-n-fisher-journalists-for-human-rights-fellowship",
-        "apply": "https://gfmd.info/fundings/the-gordon-n-fisher-journalists-for-human-rights-fellowship"
+        "id": "859cca020748f7af9ff30e55543a493406b72320c0864064f036228620367060",
+        "name": "CreativeApplications.Net &#8211; Technology, Society, and Critical Making (Since 2008)",
+        "kind": "mapeamento e cartografia",
+        "url": "https://www.creativeapplications.net/",
+        "desc": "Driving the conversations about technology, society and critical making. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
       },
       "missingFields": [],
       "reviewDecision": "evidence_complete_for_record_draft",
@@ -161,47 +211,135 @@
     },
     {
       "schemaVersion": 1,
-      "id": "25f3ecac9078807ca06cb298c039f7081cf070b5cc38669093b8dccb9283f94b",
-      "category": "opportunities",
+      "id": "87d587fb19392bb7866daeeb6b83219beda45f46b058d876c647f27e3e0253d4",
+      "category": "tools",
       "status": "draft_only",
       "publicationReady": false,
       "source": {
-        "url": "https://gfmd.info/fundings/international-nieman-fellowship",
+        "url": "https://recordlinkage.readthedocs.io/",
         "discoveryProviders": [
-          "GFMD funding"
+          "Data Visualization Society"
         ],
-        "pageTitle": "International Nieman Fellowship - GFMD",
-        "checkedAt": "2026-11-10T20:31:28.952Z",
+        "pageTitle": "Python Record Linkage Toolkit Documentation &mdash; Python Record Linkage Toolkit 0.15 documentation",
+        "checkedAt": "2026-11-10T20:02:55.377Z",
+        "httpStatus": 200,
+        "contentType": "text/html; charset=utf-8"
+      },
+      "evidence": {
+        "checks": {
+          "productSignal": true,
+          "function": true,
+          "access": true,
+          "license": false,
+          "licenseStatus": "not stated in captured source"
+        },
+        "sourceExcerpt": "Python Record Linkage Toolkit Documentation &mdash; Python Record Linkage Toolkit 0.15 documentation Python Record Linkage Toolkit Documentation Edit on GitHub Python Record Linkage Toolkit Documentation  All you need to start linking records. First steps About Introduction What is record linkage? How to link records? Installation Python version support Installation Dependencies Link two datasets Introduction Make record pairs Compare records Full code Data deduplication Introduction Make record pairs Compare records Full code Record linkage 0. Preprocessing Cleaning Phonetic encoding 1. Indexing recordlinkage.Index object Algorithms User-defined algorithms Examples 2. Comparing recordlinkage.Compare object Algorithms User-defined algorithms Examples 3. Classification Classifiers Adapters User-defined algorithms Examples Network 4. Evaluation reduction_ratio() true_positives() true_negatives() false_positives() false_negatives() confusion_matrix() precision() recall() accuracy() specificity() fscore() max_pairs() full_index_size() Datasets load_krebsregister() load_febrl1() load_febrl2() load_febrl3() load_febrl4() binary_vectors() Miscellaneous index_split() get_option() set_option() reset_option() describe_option() Miscellaneous Annotation Generate annotation file Manual labeling Export/read annotation file Classification algorithms Supervised learning Unsupervised learning Performance Indexing Comparing Developers Contributing Release notes",
+        "structuredData": [],
+        "resourceLinks": [
+          {
+            "url": "https://recordlinkage.readthedocs.io/en/latest/guides/link_two_dataframes.html",
+            "label": "Link two datasets"
+          },
+          {
+            "url": "https://recordlinkage.readthedocs.io/en/latest/ref-datasets.html",
+            "label": "Datasets"
+          },
+          {
+            "url": "https://recordlinkage.readthedocs.io/en/latest/guides/link_two_dataframes.html",
+            "label": "Link two datasets"
+          },
+          {
+            "url": "https://recordlinkage.readthedocs.io/en/latest/ref-datasets.html",
+            "label": "Datasets"
+          }
+        ]
+      },
+      "recordDraft": {
+        "id": "87d587fb19392bb7866daeeb6b83219beda45f46b058d876c647f27e3e0253d4",
+        "name": "Python Record Linkage Toolkit Documentation &mdash; Python Record Linkage Toolkit 0.15 documentation",
+        "kind": null,
+        "url": "https://recordlinkage.readthedocs.io/",
+        "desc": null
+      },
+      "missingFields": [
+        "kind",
+        "desc"
+      ],
+      "reviewDecision": "evidence_complete_for_record_draft",
+      "note": "Ficha preliminar baseada no conteúdo capturado da página. Campos sem evidência permanecem ausentes; a aprovação depende do gate independente de publicação."
+    },
+    {
+      "schemaVersion": 1,
+      "id": "91679ce709752a9f799a25e7802b83c674ee244fb8322380678de206ffd52650",
+      "category": "tools",
+      "status": "draft_only",
+      "publicationReady": false,
+      "source": {
+        "url": "https://propublica.org/data",
+        "discoveryProviders": [
+          "Data Visualization Society"
+        ],
+        "pageTitle": "News App Archives &#8212; ProPublica",
+        "checkedAt": "2026-11-10T20:02:55.377Z",
         "httpStatus": 200,
         "contentType": "text/html; charset=UTF-8"
       },
       "evidence": {
         "checks": {
-          "callSignal": true,
-          "deadline": "2026-12-01",
-          "eligibility": true
+          "productSignal": true,
+          "function": true,
+          "access": true,
+          "license": false,
+          "licenseStatus": "not stated in captured source"
         },
-        "sourceExcerpt": "International Nieman Fellowship - GFMD « Back to all Fundings International Nieman Fellowship Organisation: Nieman Foundation Status: Open Type: Fellowship Theme: Media support Funding Size: N/A Deadline: 01/12/2026 Eligibility: Non-US citizen journalists Target Region: International (non-U.S. citizens, including those working in the U.S.) Application Language: English The Nieman Fellowship gives working journalists a year at Harvard to pursue a self-designed programme of study. The International Nieman Fellowship is for non-U.S. citizens, including those working in the U.S. Eligibility All Nieman Fellowship applicants must be working journalists with at least five years of full-time media experience. The International Nieman Fellowship is for non-U.S. citizens, including those working in the U.S. If you’re a national of a country where the U.S. has suspended issuance of nonimmigrant visas (specifically J visas), the Foundation recommends that you wait to apply until these restrictions are lifted. If an individual holds citizenship and a passport from an additional country that doesn’t have that visa restriction, the candidate may submit an application for a 2027-28 International Nieman Fellowship. Because a Nieman Fellowship is not a writing residency, book proposals are ineligible. How to Apply Complete the online application by 01 December 2026. It consists of two essays (a personal statement of up to 1,000 words and a study proposal of up to 500 words), a professional profile and study proposal summary, work samples, and three letters of recommendation. Recommenders must submit their letters through the online portal by 15 December 2026. Applications must be authored solely by the applicant, and any AI use for editing must be disclosed. Apply here . For more information, please visit this page . For the latest funding opportunities, profiles of media donors, and expert insight from GFMD’s MediaDev Fundraising Guide sign up for Bottom Line newsletter Sign Up Search Search for: This website uses cookies. By continuing to use the website you consent to the use and storage of cookies on your device. You are using an outdated browser which can not show modern web content. We suggest you download Chrome or Firefox .",
-        "structuredData": [],
-        "resourceLinks": []
+        "sourceExcerpt": "News App Archives — ProPublica Skip to content Search ProPublica ProPublica is a nonprofit, investigative newsroom that exposes corruption. We report in all 50 states and partner with local newsrooms . Our work spurs real-world impact and has received numerous awards, including nine Pulitzer Prizes. Topics We Cover See All Abortion Civil Rights Courts Criminal Justice Debt Democracy Education Climate and Environment Health Care Health Insurance Immigration Labor Mental Health Military Police Politics Pregnancy Prison Racial Justice Regulation Sex and Gender Sports Technology Our Biggest Series See All Life of the Mother How Abortion Bans Lead to Preventable Deaths The New Immigration How Recent Arrivals at the Border Have Changed the Country and Its Attitudes Friends of the Court SCOTUS Justices’ Beneficial Relationships With Billionaire Donors News Apps News Applications, Graphics, Databases and Tools Nonprofit Explorer: Research Tax-Exempt Organizations Search the full text of 18 million tax filing documents going back as far as 2001. by Andrea Suozzo , Alec Glassford , Ash Ngu , Jeff Frankl , Mike Tigas , Sisi Wei and Ken Schwencke Jun. 06, 2019, 11:08 am EDT Looking at Nursing Homes? See Which Ones Have Been Cited for Deficiencies On the eve of a Senate nursing home hearing, we’ve updated Nursing Home Inspect. Compare nursing homes based on the deficiencies cited by regulators in the past three years. You can also search over 60,000 nursing home inspection reports to look for trends or patterns. by Lena V. Groeger and Charles Ornstein Mar. 05, 2019, 4:45 pm EST Explore Financial Disclosures From President Trump and 2,300 of His Appointees Our database paints a detailed financial picture for President Donald Trump and hundreds of his political appointees, some of whom have ties to the industries they regulate. The disclosures include their recent employers, assets and debts. by Al Shaw and Brandon Roberts Mar. 05, 2026, 4:55 am EST Look Up Where Your Generic Prescription Drugs Were Made The FDA won’t tell Americans where their generic drugs are made, so ProPublica did it instead. Use information on your prescription label to locate the factory and see inspection reports. by Brandon Roberts , Ruth Talbot and Nick McMillan Dec. 18, 2025, 10:00 am EST Tracking Habeas Cases ProPublica is tracking the historic rise in challenges filed by immigrants claiming their detention is illegal. by Ruth Talbot , Pratheek Rebala and Carla Astudillo Feb. 10, 2026, 5:05 am EST Search More Than 500 Cases of U.S. Citizens Detained by Immigration Agents by Nicole Foy , Ruth Talbot and Cengiz Yar , ProPublica ; Bianca Fortis for ProPublica ; and Mariam Elba and Kahlie Wray , ProPublica October 29, 2026, 1:50 pm EDT How Deeply Trump Has Cut Federal Health Agencies by Brandon Roberts , Annie Waldman and Pratheek Rebala , illustrations by Sam Green for ProPublica August 21, 2025, 5:00 am EDT The Men Trump Deported to a Salvadoran Prison by ProPublica , The Texas Tribune , Alianza Rebelde Investiga and Cazadores de Fake News July 23, 2025, 1:00 pm EDT Elon Musk’s Demolition Crew by Avi Asher-Schapiro , Christopher Bing , Annie Waldman , Brett Murphy , Andy Kroll , Justin Elliott , Kirsten Berg , William Turton , Sebastian Rotella , Alex Mierjeski , Pratheek Rebala and Al Shaw February 6, 2025, 5:07 pm EST Private School Demographics by Sergio Hernández , Nat Lash and Brandon Roberts January 16, 2025, 12:40 pm EST “I Have Lost Everything”: The Toll of Cities’ Homeless Sweeps by Asia Fields , Nicole Santa Cruz , Ruth Talbot and Maya Miller , design by Ruth Talbot December 27, 2024, 5:00 am EST Check the Formaldehyde Cancer Risk in Your Neighborhood by Al Shaw and Sharon Lerner December 3, 2024, 5:05 am EST Swept Away by Ruth Talbot , Asia Fields , Nicole Santa Cruz and Maya Miller , design by Zisiga Mukulu and Ruth Talbot , illustrations by Matt Rota for ProPublica October 29, 2024, 5:00 am EDT 527 Explorer by Ruth Talbot , Brandon Roberts and Nat Lash",
+        "structuredData": [
+          {
+            "@type": "CollectionPage",
+            "name": "News App Archives — ProPublica",
+            "url": "https://www.propublica.org/newsapps"
+          },
+          {
+            "@type": "ImageObject",
+            "url": "https://www.propublica.org/wp-content/uploads/2026/10/Citizens2.0-APPpromov4_maxHeight_3000_maxWidth_3000.jpg",
+            "contentUrl": "https://www.propublica.org/wp-content/uploads/2026/10/Citizens2.0-APPpromov4_maxHeight_3000_maxWidth_3000.jpg"
+          },
+          {
+            "@type": "BreadcrumbList"
+          },
+          {
+            "@type": "WebSite",
+            "name": "ProPublica",
+            "description": "Investigative Journalism in the Public Interest",
+            "url": "https://www.propublica.org/"
+          },
+          {
+            "@type": "Organization",
+            "name": "ProPublica",
+            "url": "https://www.propublica.org/"
+          }
+        ],
+        "resourceLinks": [
+          {
+            "url": "https://www.propublica.org/people/avi-asher-schapiro",
+            "label": "Avi Asher-Schapiro"
+          },
+          {
+            "url": "https://projects.propublica.org/jan-6-video-evidence",
+            "label": "Video Evidence Shown in the Capitol Insurrection Criminal Cases"
+          },
+          {
+            "url": "https://projects.propublica.org/parler-capitol-videos/",
+            "label": "What Parler Saw During the Attack on the Capitol"
+          }
+        ]
       },
       "recordDraft": {
-        "id": "25f3ecac9078807ca06cb298c039f7081cf070b5cc38669093b8dccb9283f94b",
-        "title": "International Nieman Fellowship - GFMD",
-        "org": "Nieman Foundation",
-        "summary": "The Nieman Fellowship gives working journalists a year at Harvard to pursue a self-designed programme of study. The International Nieman Fellowship is for non-U.S. citizens, including those working in the U.S.",
-        "type": "Fellowship",
-        "themes": [
-          "Jornalismo"
-        ],
-        "scope": "International Nieman Fellowship - GFMD « Back to all Fundings International Nieman Fellowship Organisation: Nieman Foundation Status: Open Type: Fellowship Theme: Media support Funding Size: N/A Deadline: 01/12/2026 Eligibility: Non-US citizen journalists Target Region: International (non-U.S.",
-        "fit": 6,
-        "deadline": "2026-12-01",
-        "deadlineStatus": "Confirmado na página oficial; fuso horário não informado.",
-        "eligibility": "parcial",
-        "status": "aberta",
-        "rules": "https://gfmd.info/fundings/international-nieman-fellowship",
-        "apply": "https://gfmd.info/fundings/international-nieman-fellowship"
+        "id": "91679ce709752a9f799a25e7802b83c674ee244fb8322380678de206ffd52650",
+        "name": "News App Archives &#8212; ProPublica",
+        "kind": "mapeamento e cartografia",
+        "url": "https://propublica.org/data",
+        "desc": "News Applications, Graphics, Databases and Tools Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
       },
       "missingFields": [],
       "reviewDecision": "evidence_complete_for_record_draft",
@@ -209,49 +347,51 @@
     },
     {
       "schemaVersion": 1,
-      "id": "2de5afaa39131e7ff861db2ee421b0f89093fb184f5519095b2b4da940402015",
-      "category": "opportunities",
+      "id": "a913b2409cc15a21f100bb0ae2743939dc92577e070fe0198d8f952f25ef69c5",
+      "category": "tools",
       "status": "draft_only",
       "publicationReady": false,
       "source": {
-        "url": "https://gfmd.info/fundings/equality-fund-global-journalism-fellowship-2026-2027",
+        "url": "https://spacy.io/",
         "discoveryProviders": [
-          "GFMD funding"
+          "Data Visualization Society"
         ],
-        "pageTitle": "Equality Fund Global Journalism Fellowship 2026–2027 - GFMD",
-        "checkedAt": "2026-11-10T20:31:28.952Z",
+        "pageTitle": "spaCy · Industrial-strength Natural Language Processing in Python",
+        "checkedAt": "2026-11-10T20:06:55.693Z",
         "httpStatus": 200,
         "contentType": "text/html; charset=UTF-8"
       },
       "evidence": {
         "checks": {
-          "callSignal": true,
-          "deadline": "2026-11-11",
-          "eligibility": true
+          "productSignal": true,
+          "function": true,
+          "access": true,
+          "license": false,
+          "licenseStatus": "not stated in captured source"
         },
-        "sourceExcerpt": "Equality Fund Global Journalism Fellowship 2026–2027 - GFMD « Back to all Fundings Equality Fund Global Journalism Fellowship 2026–2027 Organisation: Equality Fund Status: Open Type: Fellowship Theme: Gender equality in media Funding Size: CAD 4,000 Deadline: 11/11/2026 Eligibility: five journalists located in ODA-recipient countries Target Region: ODA-eligible countries Application Language: English The Equality Fund has launched its inaugural Global Journalism Fellowship, developed in partnership with Canadian Journalists for Free Expression (CJFE) and African Women in Media (AWiM). The fellowship seeks to surface stories of local solutions to global crises, with a particular focus on gender, by selecting up to five journalists located in ODA-recipient countries. Fellows will spend six months in structured programming followed by three additional months to finalise publication (January–September 2027), receiving a CAD 4,000 stipend, up to CAD 500 in reporting expenses, monthly expert-led online sessions, safety training from the International Women’s Media Foundation (IWMF) and the Freedom of the Press Foundation, and an in-person convening with travel costs covered. The programme is particularly interested in stories that move beyond documenting problems and explore locally driven responses to challenges such as climate change, gender-based violence, economic injustice, conflict, or threats to democracy and human rights. Eligibility Open to full-time or independent freelance journalists working on any journalism platform, including text, digital, video, and audio Minimum of three years of journalism experience Journalists must be located in, and be reporting on, communities in ODA-recipient countries (full country list at oecd.org) Must have three strong journalism samples that showcase a range of relevant work Ability to accommodate meetings within daytime hours in Eastern Standard Time Must be fluent in English, Equality Fund’s working language Must have a strong affinity for the Equality Fund’s mission and values, including equality and diversity of race, gender, sexual orientation, religion, ethnicity, national origin, and disability Women, non-binary, and trans people are encouraged to apply Must have a bank account able to accept international Electronic Wire Transfers Applications from women, men, and LGBTQI+ people are welcomed Use of AI in the proposal and application is not permitted; use of AI during the journalistic process must be disclosed to the programme and approved in advance Requirements Completed online application form submitted before the closing date Three published journalism samples showcasing a range of relevant work In a phased process, shortlisted applicants will be asked to submit a letter of editorial commitment from a news outlet (in some cases of self-publishing, this may be substituted with a fact-checking plan) Fellows must be willing to follow trauma-informed reporting best practices and conduct community roundtables where possible Fellows who are full-time staff journalists will be required to notify their newsroom of the fellowship stipend How to Apply Complete the online application form before 08/11/2026 at midnight Eastern Standard Time. Full application guidelines, including eligibility criteria and programme expectations, are available on the funder’s application page before starting. Apply here . For more information, please visit this page . For the latest funding opportunities, profiles of media donors, and expert insight from GFMD’s MediaDev Fundraising Guide sign up for Bottom Line newsletter Sign Up Search Search for: This website uses cookies. By continuing to use the website you consent to the use and storage of cookies on your device. You are using an outdated browser which can not show modern web content. We suggest you download Chrome or Firefox .",
+        "sourceExcerpt": "spaCy · Industrial-strength Natural Language Processing in Python Get things done spaCy is designed to help you do real work — to build real products, or gather real insights. The library respects your time, and tries to avoid wasting it. It's easy to install, and its API is simple and productive. Blazing fast spaCy excels at large-scale information extraction tasks. It's written from the ground up in carefully memory-managed Cython. If your application needs to process entire web dumps, spaCy is the library you want to be using. Awesome ecosystem Since its release in 2015, spaCy has become an industry standard with a huge ecosystem. Choose from a variety of plugins, integrate with your machine learning stack and build custom components and workflows. Edit the code & try spaCy spaCy v 3.7 · Python 3 · via Binder run Features Support for 75 + languages 84 trained pipelines for 25 languages Multi-task learning with pretrained transformers like BERT Pretrained word vectors State-of-the-art speed Production-ready training system Linguistically-motivated tokenization Components for named entity recognition, part-of-speech tagging, dependency parsing, sentence segmentation, text classification , lemmatization, morphological analysis, entity linking and more Easily extensible with custom components and attributes Support for custom models in PyTorch , TensorFlow and other frameworks Built in visualizers for syntax and NER Easy model packaging , deployment and workflow management Robust, rigorously evaluated accuracy NEW Large Language Models: Integrating LLMs into structured NLP pipelines The spacy-llm package integrates Large Language Models (LLMs) into spaCy, featuring a modular system for fast prototyping and prompting , and turning unstructured responses into robust outputs for various NLP tasks, no training data required. Learn more From the makers of spaCy Prodigy: Radically efficient machine teaching Prodigy is an annotation tool so efficient that data scientists can do the annotation themselves, enabling a new level of rapid iteration. Whether you're working on entity recognition, intent detection or image classification, Prodigy can help you train and evaluate your models faster. Try it out Reproducible training for custom pipelines spaCy v3.0 introduces a comprehensive and extensible system for configuring your training runs . Your configuration file will describe every detail of your training run, with no hidden defaults, making it easy to rerun your experiments and track changes. You can use the quickstart widget or the init config command to get started, or clone a project template for an end-to-end workflow. Get started Language Afrikaans Albanian Amharic Ancient Greek Arabic Armenian Azerbaijani Basque Bengali Bulgarian Catalan Chinese Croatian Czech Danish Dutch English Estonian Faroese Finnish French German Greek Gujarati Hebrew Hindi Hungarian Icelandic Indonesian Irish Italian Japanese Kannada Korean Kyrgyz Latin Latvian Ligurian Lithuanian Lower Sorbian Luganda Luxembourgish Macedonian Malay Malayalam Marathi Multi-language Nepali Norwegian Bokmål Norwegian Nynorsk Persian Polish Portuguese Romanian Russian Sanskrit Serbian Setswana Sinhala Slovak Slovenian Spanish Swedish Tagalog Tamil Tatar Telugu Thai Tigrinya Turkish Ukrainian Upper Sorbian Urdu Vietnamese Yoruba Components tagger morphologizer trainable_lemmatizer parser ner spancat textcat Hardware CPU GPU (transformer) Optimize for efficiency accuracy # This is an auto-generated partial config. To use it with 'spacy train' # you can run spacy init fill-config to auto-fill all default settings: # python -m spacy init fill-config ./base_config.cfg ./config.cfg [ paths ] train = null dev = null vectors = null [ system ] gpu_allocator = null [ nlp ] lang = \" en \" pipeline = [] batch_size = 1000 [ components ] [ corpora ] [ corpora.train ] @readers = \" spacy.Corpus.v1 \" path = ${paths.train} max_length = 0 [ corpora.dev ] @readers = \" spacy.Corpus.v1 \" path = ${",
         "structuredData": [],
-        "resourceLinks": []
+        "resourceLinks": [
+          {
+            "url": "https://spacy.io/api",
+            "label": "API"
+          },
+          {
+            "url": "https://spacy.io/api/cli#init-config",
+            "label": "init config"
+          },
+          {
+            "url": "https://spacy.io/api",
+            "label": "API Reference"
+          }
+        ]
       },
       "recordDraft": {
-        "id": "2de5afaa39131e7ff861db2ee421b0f89093fb184f5519095b2b4da940402015",
-        "title": "Equality Fund Global Journalism Fellowship 2026–2027 - GFMD",
-        "org": "Equality Fund",
-        "summary": "The Equality Fund has launched its inaugural Global Journalism Fellowship, developed in partnership with Canadian Journalists for Free Expression (CJFE) and African Women in Media (AWiM).",
-        "type": "Fellowship",
-        "themes": [
-          "Meio ambiente",
-          "Gênero",
-          "Jornalismo"
-        ],
-        "scope": "Equality Fund Global Journalism Fellowship 2026–2027 - GFMD « Back to all Fundings Equality Fund Global Journalism Fellowship 2026–2027 Organisation: Equality Fund Status: Open Type: Fellowship Theme: Gender equality in media Funding Size: CAD 4,000 Deadline: 11/11/2026 Eligibility: five journalists located in ODA-recipient countries Target Region: ODA-eligible countries Application Language: English The Equality Fund has launched its inaugural Global Journalism Fellowship, developed in partnership with Canadian Journalists for Free Expression (CJFE) and African Women in Media (AWiM).",
-        "fit": 6,
-        "deadline": "2026-11-11",
-        "deadlineStatus": "Confirmado na página oficial; fuso horário não informado.",
-        "eligibility": "parcial",
-        "status": "aberta",
-        "rules": "https://gfmd.info/fundings/equality-fund-global-journalism-fellowship-2026-2027",
-        "apply": "https://gfmd.info/fundings/equality-fund-global-journalism-fellowship-2026-2027"
+        "id": "a913b2409cc15a21f100bb0ae2743939dc92577e070fe0198d8f952f25ef69c5",
+        "name": "spaCy · Industrial-strength Natural Language Processing in Python",
+        "kind": "strength Natural Language Processing in Python",
+        "url": "https://spacy.io/",
+        "desc": "spaCy is a free open-source library for Natural Language Processing in Python. It features NER, POS tagging, dependency parsing, word vectors and more. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
       },
       "missingFields": [],
       "reviewDecision": "evidence_complete_for_record_draft",
@@ -259,47 +399,43 @@
     },
     {
       "schemaVersion": 1,
-      "id": "2f8dbafd33f988df9c4c2792e6eafc2e4e67f6786c175432f1171eadfa3dc793",
-      "category": "opportunities",
+      "id": "bcf905a7d1b746329b76590ec887f5b37fe0993d4c6f81fd8269f04c0829e6d7",
+      "category": "tools",
       "status": "draft_only",
       "publicationReady": false,
       "source": {
-        "url": "https://gfmd.info/fundings/call-for-proposals-cross-border-media-literacy-2027",
+        "url": "https://learn.microsoft.com/en-us/dax",
         "discoveryProviders": [
-          "GFMD funding"
+          "Data Visualization Society"
         ],
-        "pageTitle": "Call for Proposals - Cross-border Media Literacy (2027) - GFMD",
-        "checkedAt": "2026-11-10T20:31:28.952Z",
+        "pageTitle": "Data Analysis Expressions (DAX) Reference - DAX | Microsoft Learn",
+        "checkedAt": "2026-11-10T20:06:55.693Z",
         "httpStatus": 200,
-        "contentType": "text/html; charset=UTF-8"
+        "contentType": "text/html"
       },
       "evidence": {
         "checks": {
-          "callSignal": true,
-          "deadline": "2027-01-20",
-          "eligibility": true
+          "productSignal": true,
+          "function": true,
+          "access": true,
+          "license": false,
+          "licenseStatus": "not stated in captured source"
         },
-        "sourceExcerpt": "Call for Proposals - Cross-border Media Literacy (2027) - GFMD « Back to all Fundings Call for Proposals – Cross-border Media Literacy (2027) Organisation: European Commission Status: Open Type: Grant Theme: Media literacy Funding Size: Maximum EUR 500 000 Deadline: 20/01/2027 Eligibility: Consortia composed of at least three entities from a minimum of three different countries participating in the Creative Europe programme Target Region: Europe Application language: English Commission launches Creative Europe Call (EUR 3.5 M) for innovative cross-border media literacy projects, aiming to boost societal resilience against disinformation and information manipulation. In view of the rapidly evolving digital media landscape and the importance of equipping citizens with up-to-date skills and awareness, the European Education and Culture Executive Agency (EACEA) is publishing a call for proposals to support innovative solutions to enhance media literacy skills. The projects shall foster effective cross-border cooperation and enhance societal resilience against disinformation and information manipulation among Europeans. Support will be granted as a priority to initiatives with the potential to reach a broad audience and/or targeted groups currently underserved by media literacy programmes, with a focus on the adult population outside the education system. Eligibility The call is open to consortia composed of at least three entities from a minimum of three different countries participating in the Creative Europe programme. These consortia may include profit and/or non-profit organisations, whether private or public, such as media literacy organisations, public authorities (national, regional, local), universities and educational institutions, media organisations, information integrity organisations, research and technology institutions, technology providers, etc. Support will be granted as a priority to initiatives with the potential to reach a broad audience and/or targeted groups currently underserved by media literacy programmes, with a focus on the adult population outside the education system. Requirements The maximum co-financing rate is 70% of the total eligible costs, so applicants need to co-finance their projects. Projects should address the challenges of a continuously changing digital media landscape. Expected deliverables include creating or scaling up cross-border collaborations that support impactful and innovative approaches to media literacy based on the latest best practices. Expected deliverables include developing and deploying media literacy tools, trainings, campaigns, events and/or other initiatives targeting specific audiences, with a particular focus on adults outside education settings. Expected deliverables include assisting media literacy professionals in adapting their practices to rapidly evolving technological development, media formats and changing media consumption patterns (including the growing role of social media and influencers, AI-generated content, etc.). How to Apply Submit your proposal directly online via the Funding & Tenders Portal Electronic Submission System before 20/01/2027. Paper applications are not accepted. Apply here . For more information, please visit this page . For the latest funding opportunities, profiles of media donors, and expert insight from GFMD’s MediaDev Fundraising Guide sign up for Bottom Line newsletter Sign Up Search Search for: This website uses cookies. By continuing to use the website you consent to the use and storage of cookies on your device. You are using an outdated browser which can not show modern web content. We suggest you download Chrome or Firefox .",
+        "sourceExcerpt": "Data Analysis Expressions (DAX) Reference - DAX | Microsoft Learn Table of contents Read in English Edit Data Analysis Expressions (DAX) Reference Data Analysis Expressions (DAX) is a library of functions and operators that can be combined to build formulas and expressions in Power BI, Analysis Services, and Power Pivot in Excel data models. Functions Reference DAX functions DAX statements What's new New DAX functions Learn about DAX Overview DAX overview video Videos Training Use DAX in Power BI Desktop Understand Concept DAX glossary DAX operators DAX queries DAX syntax",
         "structuredData": [],
-        "resourceLinks": []
+        "resourceLinks": [
+          {
+            "url": "https://go.microsoft.com/fwlink/p/?LinkID=2092881",
+            "label": "Download Microsoft Edge"
+          }
+        ]
       },
       "recordDraft": {
-        "id": "2f8dbafd33f988df9c4c2792e6eafc2e4e67f6786c175432f1171eadfa3dc793",
-        "title": "Call for Proposals - Cross-border Media Literacy (2027) - GFMD",
-        "org": "European Commission",
-        "summary": "Commission launches Creative Europe Call (EUR 3.5 M) for innovative cross-border media literacy projects, aiming to boost societal resilience against disinformation and information manipulation.",
-        "type": "Grant",
-        "themes": [
-          "Oportunidades editoriais"
-        ],
-        "scope": "Call for Proposals - Cross-border Media Literacy (2027) - GFMD « Back to all Fundings Call for Proposals – Cross-border Media Literacy (2027) Organisation: European Commission Status: Open Type: Grant Theme: Media literacy Funding Size: Maximum EUR 500 000 Deadline: 20/01/2027 Eligibility: Consortia composed of at least three entities from a minimum of three different countries participating in the Creative Europe programme Target Region: Europe Application language: English Commission launches Creative Europe Call (EUR 3.5 M) for innovative cross-border media literacy projects, aiming to boost societal resilience against disinformation and information manipulation.",
-        "fit": 4,
-        "deadline": "2027-01-20",
-        "deadlineStatus": "Confirmado na página oficial; fuso horário não informado.",
-        "eligibility": "parcial",
-        "status": "aberta",
-        "rules": "https://gfmd.info/fundings/call-for-proposals-cross-border-media-literacy-2027",
-        "apply": "https://gfmd.info/fundings/call-for-proposals-cross-border-media-literacy-2027"
+        "id": "bcf905a7d1b746329b76590ec887f5b37fe0993d4c6f81fd8269f04c0829e6d7",
+        "name": "Data Analysis Expressions (DAX) Reference",
+        "kind": "DAX | Microsoft Learn",
+        "url": "https://learn.microsoft.com/en-us/dax",
+        "desc": "Data Analysis Expressions (DAX) is a library of functions and operators that can be combined to build calculation formula expressions. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
       },
       "missingFields": [],
       "reviewDecision": "evidence_complete_for_record_draft",
@@ -307,48 +443,38 @@
     },
     {
       "schemaVersion": 1,
-      "id": "41dcc31139cb1128b115d73c649326c90f292081ebb55d99a6e984e9d4227810",
-      "category": "opportunities",
+      "id": "dcfa0487c540be0e50474bdc6332858180f97a84e0b91c826ac43f897db13474",
+      "category": "tools",
       "status": "draft_only",
       "publicationReady": false,
       "source": {
-        "url": "https://gfmd.info/fundings/call-for-proposals-journalism-partnerships-pluralism-2027",
+        "url": "https://cube.dev/",
         "discoveryProviders": [
-          "GFMD funding"
+          "Data Visualization Society"
         ],
-        "pageTitle": "Call for Proposals: Journalism Partnerships - Pluralism (2027) - GFMD",
-        "checkedAt": "2026-11-10T20:31:28.952Z",
+        "pageTitle": "Cube — The agentic analytics platform built on a semantic layer",
+        "checkedAt": "2026-11-10T20:06:55.693Z",
         "httpStatus": 200,
-        "contentType": "text/html; charset=UTF-8"
+        "contentType": "text/html; charset=utf-8"
       },
       "evidence": {
         "checks": {
-          "callSignal": true,
-          "deadline": "2027-02-04",
-          "eligibility": true
+          "productSignal": true,
+          "function": true,
+          "access": true,
+          "license": false,
+          "licenseStatus": "not stated in captured source"
         },
-        "sourceExcerpt": "Call for Proposals: Journalism Partnerships - Pluralism (2027) - GFMD « Back to all Fundings Call for Proposals: Journalism Partnerships – Pluralism (2027) Organisation: European Commission Status: Open Type: Grant Theme: Media support Funding Size: Maximum EUR 2.5 million Deadline: 04/02/2027 Eligibility: European intermediary organisations that set up and distribute funds Target Region: Europe Application language: English This call supports intermediary organisations that set up and distribute funds to news media in sectors of particular relevance to democracy, such as local and regional media, community media, investigative journalism, and public interest news. Projects are expected to start towards the end of 2027 and last 24 months. Eligibility The call relies on intermediary organisations active in the media domain. Financial support will be awarded to these organisations so that they can set up financing schemes for news media sectors in need. The call is open to entities such as media associations, NGOs, non-profit organisations, civil society organisations, public authorities, international organisations, universities, research centres, journalistic funds and training organisations focusing on media professionals, profitmaking entities, foundations, etc. Proposals may be submitted either by single applicants or by a consortium. The funding schemes must focus on the European Union, and specifically on areas with low provision of the specific news described above, or in media markets where media pluralism is strained. Funding schemes should target news media sectors of special relevance to democracy and civic participation, characterised by their role in enhancing democracy, shaping the public debate and bringing benefits to their audiences and communities, instead of focusing just on profit. These sectors include in particular local and regional media; independent and investigative journalism; and organisations delivering public interest news/public service journalism (such as community, legal and civic journalism and media, news increasing transparency about the media). Requirements Setting up a funding scheme for media organisations is compulsory. The maximum co-financing rate is 90% of the total eligible costs, so applicants need to co-finance their projects (but their grantees should not be required to co-finance). The funds can focus on activities that contribute to transforming the work of targeted parties, for instance innovations in editorial production, news coverage and revenue models; improvement of distribution and dissemination of news; audience development and engagement and community-building strategies; development of technical tools; and training on these topics. Applicants can also propose accompanying activities to the fund (development of standards, indicators, repositories of knowledge, legal advice, trainings, etc). How to Apply Submit your proposal directly online via the EU Funding & Tenders Portal Electronic Submission System before 04/02/2027. Paper applications are not accepted. Proposals will be evaluated in spring, and results communicated in summer 2027. Apply here . For more information, please visit this page . For the latest funding opportunities, profiles of media donors, and expert insight from GFMD’s MediaDev Fundraising Guide sign up for Bottom Line newsletter Sign Up Search Search for: This website uses cookies. By continuing to use the website you consent to the use and storage of cookies on your device. You are using an outdated browser which can not show modern web content. We suggest you download Chrome or Firefox .",
+        "sourceExcerpt": "Cube — The agentic analytics platform built on a semantic layer The agentic analytics platform built on a semantic layer BI for both humans and AI agents — for your team and your customers. One semantic model keeps every answer governed and consistent. Get started Request a demo Trusted by modern data teams The next generation of BI The business intelligence built for AI agents. And the humans they work with. As AI agents become more autonomous, they run more operations and make more decisions without waiting for a person. Cube gives them governed, reliable business data through MCP and APIs — so every decision is grounded in trusted context. Requests and triggers Human request Question or instruction Schedule or trigger Routine check or data change Agent request Claude, Codex, or a custom agent Cube agentic BI 1 2 3 4 Understand request Work on data model Run analysis Produce result Autonomous loop Semantic model Business context Governance + permissions Results For humans Charts, reports, dashboards Analytics content ready to use For agents Governed data and analysis Structured results for the next operation Embedded Analytics Ship AI-powered analytics inside your product without rebuilding your BI stack. Multi-tenant, governed, and built around the semantic layer. Explore Cube embedded Analytics Chat API Build a fully custom AI analytics experience — agent-to-agent capable via MCP. Embedded iframes Analytics Chat and Dashboard iframes — the fastest drop-in path. Creator Mode Full workbook and dashboard creation, embedded inside your app — your customers build their own. Core Data APIs Maximum control at the data layer; build any UI on top. Your colors, your branding, your agent name — Cube's embedded surfaces disappear into your product. Multi-tenant by construction. Governance flows from your model through to your customers' permissions. “Brex chose Cube over dbt Semantic Layer and LookML — the semantic layer is what makes the AI useful at scale.” Read the story Business Intelligence Governed AI-native BI for your data team. Cube's semantic layer keeps your definitions consistent across every surface. Analytics Chat Workbooks Dashboards AI in your tools Natural-language analytics, grounded in your model. Ask questions in plain English. Cube's Analytics Chat builds queries against your semantic model — so answers are accurate, governed, and the same regardless of who asks. Answers grounded in your semantic definitions Same answer wherever it's asked Governance flows through end to end Learn more about Analytics Chat AI-augmented analyst exploration. Workbooks combine SQL, a visual editor, and a Workbook Agent that drafts and iterates on queries with you — all against the same governed semantic model. Workbook Agent for query writing and iteration SQL plus a visual editor in one surface Built on the same governed semantic model Learn more about Workbooks AI-augmented visual reporting. Build dashboards conversationally with the Dashboard Agent. Sub-second performance comes from pre-aggregation and caching — and every chart resolves against your semantic definitions. Dashboard Agent for conversational build Sub-second performance via pre-aggregations Definitions stay consistent everywhere Learn more about Dashboards Cube where your team and AI already work. Connect Cube to the tools your team lives in. Talk to your data from Claude, ChatGPT, Cursor, or our Slack agent via the MCP server — with more integrations on the way. MCP server for Claude, ChatGPT, Cursor, and your own agents Slack agent that answers in-thread More integrations on the way Learn more about AI integrations and 50+ Explore Cube for Business Intelligence Customer stories “ The CSMs can answer their own questions just by chatting with the data. ” “ Regardless of the rest of your stack, any tool will be able to read from that and give you a consistent, governed analytics and insights experience. ” Jeff Sato Director of Analytics at BetterUp Read the story Dan ",
         "structuredData": [],
         "resourceLinks": []
       },
       "recordDraft": {
-        "id": "41dcc31139cb1128b115d73c649326c90f292081ebb55d99a6e984e9d4227810",
-        "title": "Call for Proposals: Journalism Partnerships - Pluralism (2027) - GFMD",
-        "org": "European Commission",
-        "summary": "This call supports intermediary organisations that set up and distribute funds to news media in sectors of particular relevance to democracy, such as local and regional media, community media, investigative journalism, and public interest news. Projects are expected to start towards the end of 2027 and last 24 months.",
-        "type": "Grant",
-        "themes": [
-          "Jornalismo investigativo",
-          "Jornalismo"
-        ],
-        "scope": "Call for Proposals: Journalism Partnerships - Pluralism (2027) - GFMD « Back to all Fundings Call for Proposals: Journalism Partnerships – Pluralism (2027) Organisation: European Commission Status: Open Type: Grant Theme: Media support Funding Size: Maximum EUR 2.5 million Deadline: 04/02/2027 Eligibility: European intermediary organisations that set up and distribute funds Target Region: Europe Application language: English This call supports intermediary organisations that set up and distribute funds to news media in sectors of particular relevance to democracy, such as local and regional media, community media, investigative journalism, and public interest news.",
-        "fit": 7,
-        "deadline": "2027-02-04",
-        "deadlineStatus": "Confirmado na página oficial; fuso horário não informado.",
-        "eligibility": "parcial",
-        "status": "aberta",
-        "rules": "https://gfmd.info/fundings/call-for-proposals-journalism-partnerships-pluralism-2027",
-        "apply": "https://gfmd.info/fundings/call-for-proposals-journalism-partnerships-pluralism-2027"
+        "id": "dcfa0487c540be0e50474bdc6332858180f97a84e0b91c826ac43f897db13474",
+        "name": "Cube",
+        "kind": "The agentic analytics platform built on a semantic layer",
+        "url": "https://cube.dev/",
+        "desc": "Cube is the agentic analytics platform, built on a semantic layer — AI-native business intelligence and embedded analytics with answers your team and your customers can trust. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
       },
       "missingFields": [],
       "reviewDecision": "evidence_complete_for_record_draft",
@@ -356,50 +482,42 @@
     },
     {
       "schemaVersion": 1,
-      "id": "578ad193d27b574e54ef5fb0b29776357edd23ef315178e2dbb8f1ab025c1a61",
-      "category": "opportunities",
+      "id": "631426c57845ab692bf8f0eb1607ab6bbee760fb6087498ecdc84b4a68651379",
+      "category": "tools",
       "status": "draft_only",
       "publicationReady": false,
       "source": {
-        "url": "https://gfmd.info/fundings/call-for-proposals-journalism-partnerships-collaborations-2027",
+        "url": "https://thefix.media/research-and-advisory",
         "discoveryProviders": [
-          "GFMD funding"
+          "The Fix Media"
         ],
-        "pageTitle": "Call for Proposals: Journalism Partnerships - Collaborations (2027) - GFMD",
+        "pageTitle": "The Fix Research &amp;amp; Advisory",
         "checkedAt": "2026-11-10T20:31:28.952Z",
         "httpStatus": 200,
-        "contentType": "text/html; charset=UTF-8"
+        "contentType": "text/html; charset=utf-8"
       },
       "evidence": {
         "checks": {
-          "callSignal": true,
-          "deadline": "2027-02-04",
-          "eligibility": true
+          "productSignal": true,
+          "function": true,
+          "access": true,
+          "license": false,
+          "licenseStatus": "not stated in captured source"
         },
-        "sourceExcerpt": "Call for Proposals: Journalism Partnerships - Collaborations (2027) - GFMD « Back to all Fundings Call for Proposals: Journalism Partnerships – Collaborations (2027) Organisation: European Commission Status: Open Type: Grant Theme: Media Innovation Funding Size: maximum EUR 2 million Deadline: 04/02/2027 Eligibility: European news media Target Region: Europe Application language: English This 7th annual call supports cross-border, collaborative proposals between news media organisations focusing on innovative business models and/or journalistic projects across Europe. It aims to help European news media become more sustainable and resilient by supporting cross-border media collaborations. Projects are expected to last 24 months. Eligibility Consortia may include non-profit, public and private media outlets (including written/online press, radio/podcasts, TV) as well as other organisations focusing on news media (including media associations, NGOs, journalistic funds and training organisations focusing on media professionals). Natural persons are not eligible (with the exception of self-employed persons, i.e. sole traders, where the company does not have legal personality separate from that of the natural person). Consortia must gather at least 3 partners from at least 3 different countries participating in the Creative Europe Programme. Since the opening intends to achieve sector-wide impacts, proposals are invited to involve as many news media as possible in their activities. Consortia may choose to focus on a news media (sub)sector (for example tv, radio, printed press) and/or journalistic genre (for example, data journalism, specialised journalism). Requirements The maximum co-financing rate is 80% of the total eligible costs, so applicants need to co-finance their projects. Applicants are called to set up cross-border media collaborations, for example to develop better revenue and monetisation models, new approaches to audience development, community-building and marketing, common professional/technical standards, new types of newsrooms, syndication networks or other models to exchange content/data between news media across the EU, or to provide assistance to small media organisations. Proposals should include activities that best contribute to the consortium’s goals, such as events, online trainings and workshops, exchange programmes, mentoring schemes, mapping of best practices, development of technical standards, guidelines and editorial standards, practical guidebooks, development and testing of platforms and technical solutions, and promotional activities. Financial support to third parties is allowed for grants and prizes under the conditions set in the call. How to Apply Submit your proposal directly online via the EU Funding & Tenders Portal Electronic Submission System before 04/02/2027. Paper applications are not accepted. Proposals will be evaluated in spring, and results communicated in summer 2027. Apply here . For more information, please visit this page . For the latest funding opportunities, profiles of media donors, and expert insight from GFMD’s MediaDev Fundraising Guide sign up for Bottom Line newsletter Sign Up Search Search for: This website uses cookies. By continuing to use the website you consent to the use and storage of cookies on your device. You are using an outdated browser which can not show modern web content. We suggest you download Chrome or Firefox .",
+        "sourceExcerpt": "The Fix Research &amp; Advisory 50 organizations across 15 countries since 2019 Make better media decisions Research, consulting, and practical tools for independent media and the organizations behind them. Get in touch What we do The Fix started in 2019 as a small consulting team that couldn't find the industry research it needed — so we built it ourselves. Today it's both things: The Fix Research & Advisory, working with publishers, donors and implementing organizations across Europe and beyond, and The Fix Media, a trade publication read by a community of 3,000+ senior media professionals. Since then we've delivered 40+ consulting and research projects for 50+ media organizations and funders. We helped Hromadske nearly quadruple commercial revenue during a turnaround. We've trained 309 media managers from 20+ countries through the SSE Riga media management programs. Our sector studies with JX Fund, Thomson Reuters Foundation and others have been cited by The New York Times and the Reuters Institute. And when Russia launched its full-scale invasion, we co-led a campaign that raised around €3M for dozens of Ukrainian newsrooms. The sector we work in doesn't get calm years. Funding models break — USAID's shutdown was only the loudest recent case. Platforms rewrite the rules; audiences move. So we lead the transformation. Let's work on yours. 40+ consulting & research projects 50+ media organizations 309 managers trained · 20+ countries ≈€3M raised for Ukrainian newsrooms Services & products Research Understand your market before you bet on it — audience studies, benchmarking and sector intelligence for media organizations and funders. 12 published studies · cited by The New York Times and the Reuters Institute Explore Consultancy Turn strategy into results — business models, reader revenue, product and organizational development, from audit to implementation. 30+ successful projects since 2019 Explore Publishing Stay ahead of European media — reporting and analysis from The Fix Media, with new stories several times a week for 3,000+ senior media professionals. Want to reach them? Advertising & partnerships Explore Tech Two flagship tech products, already serving clients: AI Media Analytics — AI-supported assessment of media outlets at scale (content quality, framing, bias), validated by human experts; and Newstack — a SaaS service that helps media and NGOs save 50%+ on subscription costs. Put data and AI to work Explore Education Practice leadership under pressure — the Crisis Leadership Simulation and executive training, delivered in multiple languages. With SSE Riga · IPI · UN Women and many others Explore From The Fix — this month View All Monthly feature Inside the Iranian exile media sector Insights from an in-depth country profile prepared by JX Fund with support of The Fix Research and Advisory September 16, 2026 Read on The Fix September 2026 How OBCT built a transnational newsroom in Italy – and keeps it going 25 years later Read on The Fix August 2026 Survival school: How a modest program in Riga trained a generation of media managers from the post-Soviet space Read on The Fix August 2026 Why great podcasts struggle to grow and how to fix it, with Act3 Agency’s John Taylor Read on The Fix Meet the team Built by media practitioners TFRA brings together researchers, media strategists, product specialists, editors, and data experts working with independent media organizations across Europe and beyond. Jakub Parusinski Founder & Director View Profile Alesia Rudnik Head of Research View Profile Alex Vorobev Project Lead & Media Consultant View Profile Alina Afonchanka Project lead & media consultant View Profile Miraslau Chyhir Senior Associate, Data & Product View Profile Orsolya Seregély Senior associate & media consultant View Profile Rasel Ahmed Senior Analyst View Profile Anton Protsiuk Editor-in-Chief View Profile Anastasiia Kuzmenko Operations Editor View Profile Aizhan Kazakbaeva Project Lead & Media Consultant Vi",
         "structuredData": [],
         "resourceLinks": []
       },
       "recordDraft": {
-        "id": "578ad193d27b574e54ef5fb0b29776357edd23ef315178e2dbb8f1ab025c1a61",
-        "title": "Call for Proposals: Journalism Partnerships - Collaborations (2027) - GFMD",
-        "org": "European Commission",
-        "summary": "This 7th yearly call supports cross-border, collaborative proposals between news media organisations focusing on innovative business models and/or journalistic projects across Europe. It aims to help European news media become more sustainable and resilient by supporting cross-border media collaborations. Projects are expected to last 24 months.",
-        "type": "Grant",
-        "themes": [
-          "Jornalismo de dados",
-          "Jornalismo"
-        ],
-        "scope": "Call for Proposals: Journalism Partnerships - Collaborations (2027) - GFMD « Back to all Fundings Call for Proposals: Journalism Partnerships – Collaborations (2027) Organisation: European Commission Status: Open Type: Grant Theme: Media Innovation Funding Size: maximum EUR 2 million Deadline: 04/02/2027 Eligibility: European news media Target Region: Europe Application language: English This 7th annual call supports cross-border, collaborative proposals between news media organisations focusing on innovative business models and/or journalistic projects across Europe.",
-        "fit": 7,
-        "deadline": "2027-02-04",
-        "deadlineStatus": "Confirmado na página oficial; fuso horário não informado.",
-        "eligibility": "parcial",
-        "status": "aberta",
-        "rules": "https://gfmd.info/fundings/call-for-proposals-journalism-partnerships-collaborations-2027",
-        "apply": "https://gfmd.info/fundings/call-for-proposals-journalism-partnerships-collaborations-2027"
+        "id": "631426c57845ab692bf8f0eb1607ab6bbee760fb6087498ecdc84b4a68651379",
+        "name": "The Fix Research &amp;amp; Advisory",
+        "kind": null,
+        "url": "https://thefix.media/research-and-advisory",
+        "desc": "Research, consulting, and practical tools for independent media and the organizations behind them. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
       },
-      "missingFields": [],
+      "missingFields": [
+        "kind"
+      ],
       "reviewDecision": "evidence_complete_for_record_draft",
       "note": "Ficha preliminar baseada no conteúdo capturado da página. Campos sem evidência permanecem ausentes; a aprovação depende do gate independente de publicação."
     },
@@ -456,47 +574,191 @@
     },
     {
       "schemaVersion": 1,
-      "id": "293d94984420e56753951babff751db9ec0bfa21266971a89b9fcceda1102ff3",
-      "category": "opportunities",
+      "id": "076948332a6af35e812730636e431cb93b226d468bfd21a9343af3dbcbaa96c3",
+      "category": "tools",
       "status": "draft_only",
       "publicationReady": false,
       "source": {
-        "url": "https://gfmd.info/fundings/human-scale-ai-call-for-proposals",
+        "url": "https://indicator.media/academic-library",
         "discoveryProviders": [
-          "GFMD funding"
+          "Gmail Radar PLOT newsletter"
         ],
-        "pageTitle": "Human-Scale AI: Call for Proposals - GFMD",
+        "pageTitle": "Academic Library | Indicator",
         "checkedAt": "2026-11-10T20:36:10.810Z",
         "httpStatus": 200,
-        "contentType": "text/html; charset=UTF-8"
+        "contentType": "text/html; charset=utf-8"
       },
       "evidence": {
         "checks": {
-          "callSignal": true,
-          "deadline": "2026-11-20",
-          "eligibility": true
+          "productSignal": true,
+          "function": true,
+          "access": true,
+          "license": false,
+          "licenseStatus": "not stated in captured source"
         },
-        "sourceExcerpt": "Human-Scale AI: Call for Proposals - GFMD « Back to all Fundings Human-Scale AI: Call for Proposals Organisation: Mozilla Foundation Status: Open Type: Grant Theme: Artificial Intelligence (AI) Funding Size: $300,000 USD (potential maximum of $500,000) Deadline: 20/11/2026 Eligibility: Teams able to receive funding from a U.S.-based organisation Target region: Global Application language: English Mozilla Foundation is seeking seven projects that put Human-Scale AI into practice: bespoke, fit-for-purpose technology designed at the scale of the problem it’s meant to solve. These projects will directly address the anxieties that regular people have about the largest AI systems: their resource use and environmental impact, the compromises they require on privacy and the way that they centralize power among a few large companies. Technologies already deployed with the people they’re designed to serve, even at a small scale or through an early pilot. Projects should show early evidence of product-community fit, while still having significant technical, product, community, deployment, or sustainability work ahead. Selected projects will receive $300,000 USD and 12 months of intensive support beginning in April 2027. Projects that demonstrate strong progress may be eligible for up to $200,000 USD in additional funding and two more years of bespoke support—bringing the total potential support to $500,000 USD over three years. For more details, save the date for their upcoming info session on November (12, 5 p.m. UTC, 12 p.m. EST, 9 a.m. PST), Registration details coming soon. Requirements As a selected participant, you will take part in cohort calls, workshops, coaching, and other offerings. Required sessions will generally be limited to one or two hour-long virtual meetings a month. You will share challenges, approaches, resources and lessons with your peers as your project develops. You will share outputs and learnings so that your cohort, the communities you serve, and the broader field can benefit. This could mean open source code, educational resources, public workshops or something else. By the end of the project period, each team should leave behind something of value that others can use or build on—whether that’s open-source components, documentation, datasets, research, shared methodologies, community access, or another public-facing resource appropriate to the project. Success means the alternatives Mozilla backs succeed and endure. They want a significant number of projects in this cohort to become sustainable organizations and companies—still building and still giving people a real alternative five or ten years from now. Selected applicants will receive tailored coaching, workshops, connections, and outside expertise focused on the challenges and opportunities that matter most to your work. They will be assigned a program officer, have access to mission-driven technologists, and they will be given the opportunity to share their work and build new relationships at their flagship Festival, including a spot at the Incubator Showcase. Eligibility You must be legally able to receive grant funds from Mozilla Foundation. While you do not need to be a non-profit organization to apply, your project must have a charitable purpose. Applications must be submitted in English. Translation tools are welcome. Mozilla’s looking for working technologies already deployed with the people they’re designed to serve, even at a small scale or through an early pilot. Projects should show early evidence of product-community fit, while still having significant technical, product, community, deployment, or sustainability work ahead. Generally, they are not looking for systems that replicate the ways that the largest AI companies and systems operate, in terms of scale, user agency, privacy and resource use. The only requirement for team structure is that it be sufficient to effectively execute the work you propose. Please also keep in mind that any tea",
-        "structuredData": [],
+        "sourceExcerpt": "Academic Library | Indicator This website uses cookies Read our Privacy policy and Terms of use for more information . Accept Customize Decline Indicator is your essential guide to understanding and investigating digital deception. Subscribe for free I consent to receive newsletters via email. Sign up Terms of service . ABOUT ARCHIVE UPGRADE window.__remixContext = {\"basename\":\"/\",\"future\":{\"v3_fetcherPersist\":false,\"v3_relativeSplatPath\":false,\"v3_throwAbortReason\":false,\"v3_routeConfig\":false,\"v3_singleFetch\":false,\"v3_lazyRouteDiscovery\":false,\"unstable_optimizeDeps\":false},\"isSpaMode\":false,\"state\":{\"loaderData\":{\"root\":{\"site\":{\"id\":\"307061ed-0223-42d6-b0bb-9db60103a5c8\",\"theme_rules\":{\"section\":{\"background_color\":[\"backgroundColor\"]},\"container\":{\"background_color\":[\"backgroundColor\"],\"border_color\":[\"borderColor\"],\"border_radius\":[\"borderRadius\"]},\"columns\":{\"background_color\":[\"backgroundColor\"]},\"doc\":{\"background_color\":[\"backgroundColor\"]},\"text\":{\"text_on_background_color\":[\"color\"],\"header_font\":[\"fontFamily\"]},\"signup\":{\"primary_color\":[\"borderColor\",\"buttonBackgroundColor\",\"inputBorderColor\",\"inputRadioCheckboxAccentColor\",\"gdprCheckboxColor\"],\"text_on_primary_color\":[\"buttonTextColor\",\"buttonIconColor\"],\"border_color\":[\"buttonBorderColor\"],\"background_color\":[\"inputBackgroundColor\"],\"text_on_background_color\":[\"inputTextColor\",\"gdprTextColor\"],\"border_radius\":[\"borderRadius\",\"inputBorderRadius\",\"buttonBorderRadius\"],\"body_font\":[\"inputFontFamily\"],\"button_font\":[\"buttonFontFamily\"]},\"button\":{\"primary_color\":[\"customBackgroundColor\",\"borderColor\"],\"text_on_primary_color\":[\"customTextColor\",\"iconColor\"],\"button_font\":[\"fontFamily\"],\"border_radius\":[\"borderRadius\"]},\"socials\":{\"background_color\":[\"backgroundColor\",\"borderColor\"],\"primary_color\":[\"linkedinBackground\",\"linkedinBorderColor\",\"twitterBackground\",\"twitterBorderColor\",\"facebookBackground\",\"facebookBorderColor\",\"instagramBackground\",\"instagramBorderColor\",\"tiktokBackground\",\"tiktokBorderColor\",\"youtubeBackground\",\"youtubeBorderColor\",\"discordBackground\",\"discordBorderColor\",\"threadsBackground\",\"threadsBorderColor\",\"blueskyBackground\",\"blueskyBorderColor\",\"rssBackground\",\"rssBorderColor\"],\"text_on_primary_color\":[\"linkedinFill\",\"twitterFill\",\"facebookFill\",\"instagramFill\",\"tiktokFill\",\"youtubeFill\",\"discordFill\",\"threadsFill\",\"blueskyFill\",\"rssFill\"]},\"testimonials\":{\"background_color\":[\"backgroundColor\"],\"text_on_background_color\":[\"nameColor\",\"descriptionColor\",\"messageColor\"],\"border_color\":[\"borderColor\"],\"border_radius\":[\"borderRadius\"],\"header_font\":[\"nameFontFamily\"],\"body_font\":[\"messageFontFamily\",\"descriptionFontFamily\"]},\"divider\":{\"border_color\":[\"backgroundColor\"]},\"post\":{\"background_color\":[\"background\",\"inputBackgroundColor\",\"emptyStateBackgroundColor\"],\"text_on_background_color\":[\"color\",\"seperatorColor\",\"titleTextColor\",\"subtitleTextColor\",\"authorsTextColor\",\"timestampsTextColor\",\"premiumTextColor\",\"inputTextColor\",\"emptyStateTextColor\",\"readTimeTextColor\",\"hoverTitleColor\",\"hoverSubtitleColor\",\"hoverTitleUnderlineColor\",\"hoverSubtitleUnderlineColor\",\"tagButtonTextColor\",\"tagButtonBorderColor\"],\"border_color\":[\"borderColor\",\"inputBorderColor\",\"inputPlaceholderColor\",\"inputIconFill\",\"dividerColor\",\"sliderControlsTextColor\",\"sliderControlsBorderColor\",\"paginateButtonBorderColor\"],\"border_radius\":[\"borderRadius\",\"paginateButtonBorderRadius\",\"inputBorderRadius\",\"imageBorderRadius\"],\"primary_color\":[\"tagTextColor\",\"paginateButtonBackgroundColor\",\"sliderControlsBackgroundColor\",\"premiumBackgroundColor\"],\"text_on_primary_color\":[\"tagBackgroundColor\",\"paginateButtonTextColor\",\"paginateButtonIconColor\",\"premiumTextColor\"],\"body_font\":[\"tagFontFamily\",\"subtitleFontFamily\",\"authorsFontFamily\"],\"header_font\":[\"titleFontFamily\"]},\"icon\":{\"background_color\":[\"backgroundColor\"],\"text_on_background_color\":[\"fill\"],\"border_color\":[\"borderColor\"],\"border_radius\":[\"borderRadius\"]},\"tags\":{\"background_color\":[\"backgroundColor\"],\"text_on_background_color\":[",
+        "structuredData": [
+          {
+            "@type": "WebPage",
+            "url": "https://indicator.media/academic-library"
+          }
+        ],
         "resourceLinks": []
       },
       "recordDraft": {
-        "id": "293d94984420e56753951babff751db9ec0bfa21266971a89b9fcceda1102ff3",
-        "title": "Human-Scale AI: Call for Proposals - GFMD",
-        "org": "Mozilla Foundation",
-        "summary": "For our next Incubator cohort, Mozilla Foundation is investing in this alternative trajectory for AI. Mozilla calls it Human-Scale AI: bespoke, fit-for-purpose technology designed at the scale of the problem it&#039;s meant to solve.",
-        "type": "Grant",
-        "themes": [
-          "Meio ambiente"
+        "id": "076948332a6af35e812730636e431cb93b226d468bfd21a9343af3dbcbaa96c3",
+        "name": "Academic Library",
+        "kind": null,
+        "url": "https://indicator.media/academic-library",
+        "desc": "Indicator publishes original reporting, in-depth investigations, and practical OSINT resources and tutorials about digital deception. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
+      },
+      "missingFields": [
+        "kind"
+      ],
+      "reviewDecision": "evidence_complete_for_record_draft",
+      "note": "Ficha preliminar baseada no conteúdo capturado da página. Campos sem evidência permanecem ausentes; a aprovação depende do gate independente de publicação."
+    },
+    {
+      "schemaVersion": 1,
+      "id": "6eccac0adbf2ab76c5f552c7f86c696f72d6c0bb78af379ba13a00d438144617",
+      "category": "tools",
+      "status": "draft_only",
+      "publicationReady": false,
+      "source": {
+        "url": "https://indicator.media/upgrade",
+        "discoveryProviders": [
+          "Gmail Radar PLOT newsletter"
         ],
-        "scope": "Human-Scale AI: Call for Proposals - GFMD « Back to all Fundings Human-Scale AI: Call for Proposals Organisation: Mozilla Foundation Status: Open Type: Grant Theme: Artificial Intelligence (AI) Funding Size: $300,000 USD (potential maximum of $500,000) Deadline: 20/11/2026 Eligibility: Teams able to receive funding from a U.S.-based organisation Target region: Global Application language: English Mozilla Foundation is seeking seven projects that put Human-Scale AI into practice: bespoke, fit-for-purpose technology designed at the scale of the problem it’s meant to solve.",
-        "fit": 5,
-        "deadline": "2026-11-20",
-        "deadlineStatus": "Confirmado na página oficial; fuso horário não informado.",
-        "eligibility": "parcial",
-        "status": "aberta",
-        "rules": "https://gfmd.info/fundings/human-scale-ai-call-for-proposals",
-        "apply": "https://gfmd.info/fundings/human-scale-ai-call-for-proposals"
+        "pageTitle": "Upgrade to an Indicator membership | Indicator",
+        "checkedAt": "2026-11-10T20:31:28.952Z",
+        "httpStatus": 200,
+        "contentType": "text/html; charset=utf-8"
+      },
+      "evidence": {
+        "checks": {
+          "productSignal": true,
+          "function": true,
+          "access": true,
+          "license": false,
+          "licenseStatus": "not stated in captured source"
+        },
+        "sourceExcerpt": "Upgrade to an Indicator membership | Indicator This website uses cookies Read our Privacy policy and Terms of use for more information . Accept Customize Decline Join 1,000+ Pro members Insights. Skills. tools. Get full access to exclusive reporting, expert intelligence about digital deception, and OSINT training Upgrade now Who uses Indicator We serve professionals and engaged citizens that are on the front lines of the fight against digital deception INVESTIGATORS & JOURNALISTS Master OSINT techniques used in award-winning investigations. Our Guides walk you through the exact methods used by us and leading practitioners to background people and companies, expose AI nudifier networks, track coordinated manipulation campaigns, and hold platforms accountable. Start with: The Indicator guide to connecting websites together using OSINT tools TRUST & SAFETY PROFESSIONALS Surface threats before they hit your internal dashboards. Our reporting regularly identifies cross-platform abuse patterns, policy gaps, and emerging vectors— helping digital safety professionals take action and adapt or develop policy. Start with: AI Nudifiers continue to reach millions and make millions RESEARCHERS & ACADEMICS Access our in-depth audits of platform interventions and our academic library of curated studies on misinformation, AI-generated content, and more. Plus, we share original data and methodologies from our investigations. Start with: The Academic Library Member Benefits A paid Indicator membership equips you with practical skills and exclusive intelligence to make you better at your job. Intelligence & Reporting Exclusive reporting and investigations that expose deceptive operations and reveal the actors manipulating the information environment. Systemic audits of digital platforms that seek to quantify company compliance with stated policies, executive commitments, and regulatory requirements. Skills A monthly workshop that offers live walkthroughs of investigations, tools, and techniques. Plus, access to our full archive of workshop videos, slides, and transcripts. Hands-on guides to OSINT and digital investigative tools and techniques that help both professionals and motivated citizens become better investigators. Coming up: access to two self-paced online courses on OSINT and investigating digital safety. Founding Members only : A 30 min one-on-one or small group consultation or presentation per year delivered by Craig or Alexios. Tools OSINT Navigator, a database that allows investigators and researchers to search through thousands of open source intelligence tools to find the right one for your investigation. Interactive dashboards that we build as part of our investigations, including the AI Notes dashboard and Grok, is this true? trackers. Coming up: a suite of tools to power your investigations with AI part of a dedicated Lab tier , and structured access to the data underlying our investigations. Upgrade your skills and knowledge Start your membership now Join the Lab LARGE GROUP SUBSCRIPTIONS Interested in a bulk subscription package for your organization or a group discount for your class or conference? Please email us: [email protected] Discounted memberships We understand that $12.95/mo. is a substantial amount for some people. If you're between jobs, located in a lower-income economy, or otherwise unable to pay the full amount, please email [email protected] for a 1-year discounted membership rate. Indicator is your essential guide to understanding and investigating digital deception. Subscribe for free I consent to receive newsletters via email. Sign up Terms of service . ABOUT ARCHIVE UPGRADE window.__remixContext = {\"basename\":\"/\",\"future\":{\"v3_fetcherPersist\":false,\"v3_relativeSplatPath\":false,\"v3_throwAbortReason\":false,\"v3_routeConfig\":false,\"v3_singleFetch\":false,\"v3_lazyRouteDiscovery\":false,\"unstable_optimizeDeps\":false},\"isSpaMode\":false,\"state\":{\"loaderData\":{\"root\":{\"site\":{\"id\":\"307061ed-0223-42d6-b0bb-9db60103a5c8",
+        "structuredData": [
+          {
+            "@type": "WebPage",
+            "url": "https://indicator.media/upgrade"
+          }
+        ],
+        "resourceLinks": []
+      },
+      "recordDraft": {
+        "id": "6eccac0adbf2ab76c5f552c7f86c696f72d6c0bb78af379ba13a00d438144617",
+        "name": "Upgrade to an Indicator membership",
+        "kind": null,
+        "url": "https://indicator.media/upgrade",
+        "desc": "Indicator publishes original reporting, in-depth investigations, and practical OSINT resources and tutorials about digital deception. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
+      },
+      "missingFields": [
+        "kind"
+      ],
+      "reviewDecision": "evidence_complete_for_record_draft",
+      "note": "Ficha preliminar baseada no conteúdo capturado da página. Campos sem evidência permanecem ausentes; a aprovação depende do gate independente de publicação."
+    },
+    {
+      "schemaVersion": 1,
+      "id": "6d84c860baa5311d1e0fcec13e539b428a8d37d4c97126c53e09639eb31e9621",
+      "category": "tools",
+      "status": "draft_only",
+      "publicationReady": false,
+      "source": {
+        "url": "https://github.com/soxoj/maigret",
+        "discoveryProviders": [
+          "Gmail Radar PLOT newsletter"
+        ],
+        "pageTitle": "GitHub - soxoj/maigret: 🕵️‍♂️ Collect a dossier on a person by username from 6K websites · GitHub",
+        "checkedAt": "2026-11-10T20:31:28.952Z",
+        "httpStatus": 200,
+        "contentType": "text/html; charset=utf-8"
+      },
+      "evidence": {
+        "checks": {
+          "productSignal": true,
+          "function": true,
+          "access": true,
+          "license": true,
+          "licenseStatus": "stated"
+        },
+        "sourceExcerpt": "GitHub - soxoj/maigret: 🕵️‍♂️ Collect a dossier on a person by username from 6K websites · GitHub Skip to content You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Reload to refresh your session. Dismiss alert main Branches Tags Go to file Code Open more actions menu Latest commit History 1,747 Commits 1,747 Commits Folders and files Name Name Last commit message Last commit date .githooks .githooks .github .github docs docs maigret maigret pyinstaller pyinstaller snap snap static static tests tests utils utils .dockerignore .dockerignore .gitignore .gitignore .readthedocs.yaml .readthedocs.yaml CHANGELOG.md CHANGELOG.md CITATION.cff CITATION.cff CODE_OF_CONDUCT.md CODE_OF_CONDUCT.md CONTRIBUTING.md CONTRIBUTING.md Dockerfile Dockerfile Installer.bat Installer.bat LICENSE LICENSE Makefile Makefile README.fr.md README.fr.md README.md README.md README.zh-CN.md README.zh-CN.md TROUBLESHOOTING.md TROUBLESHOOTING.md cloudshell-tutorial.md cloudshell-tutorial.md example.ipynb example.ipynb poetry.lock poetry.lock pyproject.toml pyproject.toml pytest.ini pytest.ini sites.md sites.md wizard.py wizard.py View all files Repository files navigation Maigret English · 简体中文 · Français 📖 Documentation Maigret collects a dossier on a person by username only , checking for accounts on a huge number of sites and gathering all the available information from web pages. No API keys required. AI profiling (demo) . Sponsors Go beyond account enumeration. WebVetted turns an email or username into a complete identity investigation with deep OSINT enrichment, breach intel, AI analysis, and an interactive identity graph. Start an Investigation → RapidProxy provides high-performance residential proxies for Twitter scraping, Selenium automation, and web data extraction. 90M+ IPs • Smart rotation • Anti-block • Non-expiring traffic. Special Offer : Try it free — Plans from $0.65/GB. Use code RAPID10 for 10% off. ThorData provides residential proxies and web data APIs for OSINT research, username lookup, and search reconnaissance. Access 100M+ residential IPs across 190+ countries to reduce failed requests, 403 errors, and location-based restrictions. Use SERP API for structured search results or Web Scraper API to collect public web data. Special Offer: Get a free 3-day trial and 10% OFF with code SOXOJ10 . Contents In one minute Main features Demo Installation Usage Contributing Commercial Use About In one minute Ensure you have Python 3.10 or higher. pip install maigret maigret YOUR_USERNAME No install? Try the community Telegram bot or a Cloud Shell . Want a web UI? See how to launch it . See also: Quick start . Main features Supports 5,900 sites ( see full list ). A default run checks the 500 highest-ranked sites by traffic; pass -a to scan everything, or --tags to narrow by category/country. Embeddable in Python projects — import maigret and run searches programmatically (see library usage ). Extracts all available information about the account owner from profile pages and site APIs, including links to other accounts. Performs recursive search using discovered usernames and other IDs. Allows filtering by tags (site categories, countries). Detects and partially bypasses blocks, censorship, and CAPTCHA. Fetches an auto-updated site database from GitHub each run (once per 24 hours), and falls back to the built-in database if offline. Works with Tor and I2P websites; able to check domains. Ships with a web interface for browsing results as a graph and downloading reports in every format from a single page. Optional AI analysis mode ( --ai ) that turns raw findings into a short investigation summary using an OpenAI-compatible API. For the complete feature list, see the features documentation . Used by Professional OSINT and social-media analysis tools built on Maigret: Demo Video Reports PDF report , HTML report",
+        "structuredData": [],
+        "resourceLinks": [
+          {
+            "url": "https://github.com/topics/scraping",
+            "label": "scraping"
+          },
+          {
+            "url": "https://www.rapidproxy.io/?ref=soxoj",
+            "label": "RapidProxy"
+          },
+          {
+            "url": "https://github.com/topics/scraping",
+            "label": "scraping"
+          }
+        ]
+      },
+      "recordDraft": {
+        "id": "6d84c860baa5311d1e0fcec13e539b428a8d37d4c97126c53e09639eb31e9621",
+        "name": "GitHub",
+        "kind": "soxoj/maigret: 🕵️‍♂️ Collect a dossier on a person by username from 6K websites · GitHub",
+        "url": "https://github.com/soxoj/maigret",
+        "desc": "🕵️‍♂️ Collect a dossier on a person by username from 6K websites - soxoj/maigret Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
+      },
+      "missingFields": [],
+      "reviewDecision": "evidence_complete_for_record_draft",
+      "note": "Ficha preliminar baseada no conteúdo capturado da página. Campos sem evidência permanecem ausentes; a aprovação depende do gate independente de publicação."
+    },
+    {
+      "schemaVersion": 1,
+      "id": "b669bbd9939543c64a2d5ece3d0eb9ea5639d96a04202f64feefe4414760cfc0",
+      "category": "tools",
+      "status": "draft_only",
+      "publicationReady": false,
+      "source": {
+        "url": "https://soxoj.com/",
+        "discoveryProviders": [
+          "Gmail Radar PLOT newsletter"
+        ],
+        "pageTitle": "Soxoj — OSINT specialist and tool developer",
+        "checkedAt": "2026-11-10T20:31:28.952Z",
+        "httpStatus": 200,
+        "contentType": "text/html; charset=utf-8"
+      },
+      "evidence": {
+        "checks": {
+          "productSignal": true,
+          "function": true,
+          "access": true,
+          "license": false,
+          "licenseStatus": "not stated in captured source"
+        },
+        "sourceExcerpt": "Soxoj — OSINT specialist and tool developer I am an OSINT specialist with a background in cybersecurity and software development. Some of my projects 🚧 Maigret - collects a dossier on a person by username across 5K sites (37K stars) Telegram Spoiler Decoder - reveals the text hidden behind a Telegram spoiler SOWEL - social media intelligence mapped as a knowledge base of weaknesses telegram-bot-dumper - magically dumps all Telegram bot messages by its token + web version OSINT namecheckers list - every tool that checks accounts by username Counter-OSINT & privacy guide [RU] - protecting your personal information Adana - 1-click analytical dashboard, Bellingcat hackathon project Currently, I am the Chief Product Officer (CPO) at Social Links , where I am building the most advanced investigation platform in the world. I originally joined the company by founding the OSINT Center of Excellence , an expert department that conducts investigations, teaches OSINT, and develops new methods and professional investigation tools. I was born in Kharkiv, Ukraine, and have lived in Kursk and Moscow, Russia. Now I live in Amsterdam, Netherlands. I first got into open-source intelligence during my student years in 2015, engaging in CTFs and ARGs and developing information-gathering and processing tools . I have experience in anti-bot and anti-fraud protection, penetration testing, programming (Python, Go, Lua), product management, establishing development workflows (Scrum, Kanban), and managing teams. Since 2018 I’ve been talking about OSINT, search methods, and privacy at public events. I was a speaker at large international conferences: leHACK, Osintomatico, KazHackStan and ISS WORLD Europe / Middle East. Also, I prepared and conducted two training courses about open-source intelligence for cybersec students and private investigators. You can check out some of my talks in this YouTube playlist . In 2020 I founded the OSINT mindset community ( first post , first meetup ). The community has more than 60K subscribers, 9K members of Investigation Forum , and dozens of active members and speakers in 4 countries and 6 cities. You can watch records of meetup talks on YouTube, listen to OSINT mindset podcasts on various platforms, and read the excellent wiki . New tools and techniques, the day they are out — on Telegram and X . Longer write-ups go to Substack , and older ones live in my GitHub list of guides and collections . The fastest ways to contact me are to DM me on Telegram or mail me at [email protected] .",
+        "structuredData": [],
+        "resourceLinks": [
+          {
+            "url": "https://soxoj.com/feed.xml",
+            "label": ""
+          },
+          {
+            "url": "https://soxoj.com/feed.xml",
+            "label": ""
+          }
+        ]
+      },
+      "recordDraft": {
+        "id": "b669bbd9939543c64a2d5ece3d0eb9ea5639d96a04202f64feefe4414760cfc0",
+        "name": "Soxoj",
+        "kind": "OSINT specialist and tool developer",
+        "url": "https://soxoj.com/",
+        "desc": "OSINT specialist, creator of Maigret and other open-source intelligence tools. Guides, research and projects on finding and analysing public data. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
       },
       "missingFields": [],
       "reviewDecision": "evidence_complete_for_record_draft",
