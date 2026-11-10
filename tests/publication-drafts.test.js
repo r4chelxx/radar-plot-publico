@@ -10,7 +10,7 @@ const queue={updatedAt:'2026-11-09T12:00:00Z',candidates:[
  {id:'incomplete-lead',title:'Needs more proof',url:'https://example.org/pending',category:'tools',audit:{httpStatus:200,contentType:'text/html',evidenceText:'Not enough evidence.',structuredData:[],resourceLinks:[]}}
 ]};
 const review={records:[
- {id:'global-reporting-grant',decision:'evidence_complete_for_record_draft',publicationReady:false,category:'opportunities',checks:{deadline:'2099-12-31'}},
+ {id:'global-reporting-grant',decision:'evidence_complete_for_record_draft',publicationReady:false,category:'opportunities',checks:{callSignal:true,deadline:'2099-12-31',eligibility:true}},
  {id:'city-data-catalog',decision:'evidence_complete_for_record_draft',publicationReady:false,category:'datasets',checks:{directResource:true}},
  {id:'mapping-tool',decision:'evidence_complete_for_record_draft',publicationReady:false,category:'tools',checks:{function:true}},
  {id:'pandas-library',decision:'evidence_complete_for_record_draft',publicationReady:false,category:'tools',checks:{function:true,access:true}},
