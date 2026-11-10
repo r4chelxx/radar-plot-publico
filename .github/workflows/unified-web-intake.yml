@@ -103,6 +103,7 @@ jobs:
         run: |
           node --check scripts/discover-public-feeds.mjs
           node --check scripts/discover-dvs-public.mjs
+          node --check scripts/discover-public-datasets.js
           node --check scripts/audit-editorial-queue.js
           node --check scripts/review-editorial-evidence.js
           node --check scripts/build-editorial-record-drafts.js
@@ -120,6 +121,8 @@ jobs:
         run: node --test tests/opportunity-web-discovery.test.js
       - name: Test public funding page discovery
         run: node --test tests/public-funding-pages.test.js
+      - name: Test automated public dataset discovery
+        run: node --test tests/public-dataset-discovery.test.js
       - name: Test public feed relevance safeguards
         run: node --test tests/public-feed-relevance.test.js
       - name: Test public LinkedIn import safeguards
