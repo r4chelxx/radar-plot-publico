@@ -1,6 +1,41 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.tools=[
 {
+  "id": "483c5944a10521dde5f808f0c5a7f8905fcf5f0d7041f337d200f27096fecbc5",
+  "name": "The AI analytics platform",
+  "kind": "Omni Analytics",
+  "url": "https://omni.co/",
+  "desc": "Omni Analytics turns your data into a source of truth for AI, so anyone can get answers they trust. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
+},
+{
+  "id": "78b7a11294f5e332bf8ed33d08a8d7151c67f4de4588753cb629a48375d6c337",
+  "name": "GitHub",
+  "kind": "ropensci/tabulapdf: Bindings for Tabula PDF Table Extractor Library · GitHub",
+  "url": "https://github.com/ropensci/tabulapdf",
+  "desc": "Bindings for Tabula PDF Table Extractor Library. Contribute to ropensci/tabulapdf development by creating an account on GitHub. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
+},
+{
+  "id": "bcf905a7d1b746329b76590ec887f5b37fe0993d4c6f81fd8269f04c0829e6d7",
+  "name": "Data Analysis Expressions (DAX) Reference",
+  "kind": "DAX | Microsoft Learn",
+  "url": "https://learn.microsoft.com/en-us/dax",
+  "desc": "Data Analysis Expressions (DAX) is a library of functions and operators that can be combined to build calculation formula expressions. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
+},
+{
+  "id": "dcfa0487c540be0e50474bdc6332858180f97a84e0b91c826ac43f897db13474",
+  "name": "Cube",
+  "kind": "The agentic analytics platform built on a semantic layer",
+  "url": "https://cube.dev/",
+  "desc": "Cube is the agentic analytics platform, built on a semantic layer — AI-native business intelligence and embedded analytics with answers your team and your customers can trust. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
+},
+{
+  "id": "6d84c860baa5311d1e0fcec13e539b428a8d37d4c97126c53e09639eb31e9621",
+  "name": "GitHub",
+  "kind": "soxoj/maigret: 🕵️‍♂️ Collect a dossier on a person by username from 6K websites · GitHub",
+  "url": "https://github.com/soxoj/maigret",
+  "desc": "🕵️‍♂️ Collect a dossier on a person by username from 6K websites - soxoj/maigret Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
+}, 
+{
   "id": "9f08b5a99c6c9f62c7b1c97611500f5db6b140a14c8c8c4a5b34b00faaad2427",
   "name": "Tableau",
   "kind": "plataforma de análise de dados",

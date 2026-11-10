@@ -6,6 +6,58 @@ window.RADAR_PARTS.changelog=[
   "title": "Publicação editorial verificada — 2026-11-10",
   "items": [
     {
+      "id": "b45070e9d4dabfb55eb4edbe6a851ffcd200473f6429555a374f7c0ac7db3e88",
+      "title": "Knight-Wallace Fellowship at the University of Michigan &#8211; Grants for Journalists"
+    }
+  ],
+  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Knight-Wallace Fellowship at the University of Michigan &#8211; Grants for Journalists."
+},
+{
+  "date": "2026-11-10",
+  "type": "dados",
+  "title": "Publicação editorial verificada — 2026-11-10",
+  "items": [
+    {
+      "id": "97995754262f60cf84e9c9b25a4f79ef5de8bc0f0de16639ebc888bd347f9412",
+      "title": "Top AI companies of September 2026 on podcasts and YouTube | Arcmira"
+    }
+  ],
+  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Top AI companies of September 2026 on podcasts and YouTube | Arcmira."
+},
+{
+  "date": "2026-11-10",
+  "type": "ferramentas",
+  "title": "Publicação editorial verificada — 2026-11-10",
+  "items": [
+    {
+      "id": "483c5944a10521dde5f808f0c5a7f8905fcf5f0d7041f337d200f27096fecbc5",
+      "title": "The AI analytics platform"
+    },
+    {
+      "id": "78b7a11294f5e332bf8ed33d08a8d7151c67f4de4588753cb629a48375d6c337",
+      "title": "GitHub"
+    },
+    {
+      "id": "bcf905a7d1b746329b76590ec887f5b37fe0993d4c6f81fd8269f04c0829e6d7",
+      "title": "Data Analysis Expressions (DAX) Reference"
+    },
+    {
+      "id": "dcfa0487c540be0e50474bdc6332858180f97a84e0b91c826ac43f897db13474",
+      "title": "Cube"
+    },
+    {
+      "id": "6d84c860baa5311d1e0fcec13e539b428a8d37d4c97126c53e09639eb31e9621",
+      "title": "GitHub"
+    }
+  ],
+  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: The AI analytics platform; GitHub; Data Analysis Expressions (DAX) Reference; Cube; GitHub."
+}, 
+{
+  "date": "2026-11-10",
+  "type": "nova-oportunidade",
+  "title": "Publicação editorial verificada — 2026-11-10",
+  "items": [
+    {
       "id": "088211e0604559fd090f68d856ea6e4968716c7d5800b9adbfa5ed659142df55",
       "title": "Knight-Wallace Fellowship (International Applicants) - GFMD"
     },

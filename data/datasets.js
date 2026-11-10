@@ -1,5 +1,27 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.datasets=[
+{
+  "id": "97995754262f60cf84e9c9b25a4f79ef5de8bc0f0de16639ebc888bd347f9412",
+  "name": "Top AI companies of September 2026 on podcasts and YouTube | Arcmira",
+  "org": "Arcmira",
+  "territoryTier": "Outros",
+  "kind": "dataset",
+  "themes": [
+    "Dados abertos"
+  ],
+  "coverage": "Top AI companies of September 2026 on podcasts and YouTube | Arcmira Famous Rankings Monthly edition, published Oct 15, 2026 Free to reuse with credit, CC BY 4.0 Top AI companies of September 2026 The AI companies podcasts and YouTube talked about most in September 2026.",
+  "frequency": "Top AI companies of September 2026 on podcasts and YouTube | Arcmira Famous Rankings Monthly edition, published Oct 15, 2026 Free to reuse with credit, CC BY 4.0 Top AI companies of September 2026 The AI companies podcasts and YouTube talked about most in September 2026.",
+  "format": "Rising Star # Name September Expected Change Top shows Track 01 METR Rising Star On 27 shows Cite Badge Copy HTML Download PNG LinkedIn image 54 vs 1 expected 45x 1 45x Cognitive Revolution \"How AI Changes Everything\" , Monitor The Situation 02 World Labs Rising Star On 11 shows Cite Badge Copy HTML Download PNG LinkedIn image 37 vs 5 expected +650% 5 +650% Bloomberg Podcasts , Bloomberg Television 03 Hugging Face Rising Star On 87 shows Cite Badge Copy HTML Download PNG LinkedIn image 549 vs 218 expected +152% 218 +152% Bloomberg Podcasts , Bloomberg Television 04 Zhipu AI Rising Star On 12 shows Cite Badge Copy HTML Download PNG LinkedIn image 17 vs 1 expected 13x 1 13x DRM News , Bloomberg Podcasts 05 Cohere Rising Star On 14 shows Cite Badge Copy HTML Download PNG LinkedIn image 25 vs 6 expected +289% 6 +289% Bloomberg Podcasts , Bloomberg Television 06 Anthropic Rising Star On 142 s",
+  "period": "2026-09-01/2026-09-30",
+  "granularity": "Não informado pela fonte oficial",
+  "geoUnit": "Não informado pela fonte oficial",
+  "api": "https://arcmira.com/famous/data/ai-companies/2026-09.csv",
+  "docs": "https://arcmira.com/famous/ai-companies/2026-09",
+  "limitations": "A página consultada não detalha todas as limitações, a atualização e a qualidade do recurso; conferir documentação e licença antes do uso editorial.",
+  "lastChecked": "2026-11-10",
+  "url": "https://arcmira.com/famous/ai-companies/2026-09",
+  "description": "The AI companies podcasts and YouTube mentioned most in September 2026, and the ones that rose most against August. Free to reuse with credit, CC BY 4.0."
+}, 
 
 
 
