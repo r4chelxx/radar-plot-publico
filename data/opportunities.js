@@ -1,6 +1,173 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.opportunities=[
 {
+  "id": "088211e0604559fd090f68d856ea6e4968716c7d5800b9adbfa5ed659142df55",
+  "title": "Knight-Wallace Fellowship (International Applicants) - GFMD",
+  "org": "Wallace House Center for Journalists",
+  "summary": "The Knight-Wallace Journalism Fellowships offer an academic year of study, collaborative learning and access to the resources of the University of Michigan for selected journalists to pursue ambitious journalism projects.",
+  "type": "Fellowship",
+  "themes": [
+    "Jornalismo"
+  ],
+  "scope": "Knight-Wallace Fellowship (International Applicants) - GFMD « Back to all Fundings Knight-Wallace Fellowship (International Applicants) Organisation: Wallace House Center for Journalists Status: Open Type: Fellowship Theme: Media support Deadline: 01/12/2026 Eligibility: International (non-U.S.",
+  "fit": 6,
+  "deadline": "2026-12-01",
+  "deadlineStatus": "Confirmado na página oficial; fuso horário não informado.",
+  "eligibility": "parcial",
+  "status": "aberta",
+  "rules": "https://gfmd.info/fundings/knight-wallace-fellowship-international-applicants",
+  "apply": "https://gfmd.info/fundings/knight-wallace-fellowship-international-applicants"
+},
+{
+  "id": "0fa208338a4bcde2366d9b583e4b5146aa53ad03993c853df2a6945051acceb1",
+  "title": "Fund for Investigative Journalism seed and regular grants - GFMD",
+  "org": "Fund for Investigative Journalism",
+  "summary": "The Fund for Investigative Journalism provides grants and other support for reporters to produce high-quality, unbiased, nonpartisan investigative stories that have an impact.",
+  "type": "grant",
+  "themes": [
+    "Jornalismo investigativo",
+    "Jornalismo"
+  ],
+  "scope": "Fund for Investigative Journalism seed and regular grants - GFMD « Back to all Fundings Fund for Investigative Journalism seed and regular grants Organisation: Fund for Investigative Journalism Status: Open Type: Grant Theme: Investigative journalism Funding Size: $1,000 - $10,000 Deadline: 30/01/2027 Eligibility: Freelance journalists, staff reporters and media outlets in the United States are eligible for grants, and their investigations can be for print, online or broadcast stories, books, documentaries or podcasts.",
+  "fit": 6,
+  "deadline": "2027-01-30",
+  "deadlineStatus": "Confirmado na página oficial; fuso horário não informado.",
+  "eligibility": "parcial",
+  "status": "aberta",
+  "rules": "https://gfmd.info/fundings/fund-for-investigative-journalism-seed-and-regular-grants",
+  "apply": "https://gfmd.info/fundings/fund-for-investigative-journalism-seed-and-regular-grants"
+},
+{
+  "id": "1ce3ee0308c17d4729e3aa3c772a192ca488dde6407eb88cb91b5941437c1f01",
+  "title": "The Gordon N. Fisher / Journalists for Human Rights Fellowship - GFMD",
+  "org": "Journalists for Human Rights",
+  "summary": "The Gordon N. Fisher / JHR Journalism Fellowship runs in tandem with the William Southam Journalism Fellowships. It offers one journalist from Sub-Saharan Africa or the Middle East a year of academic study at the University of Toronto.",
+  "type": "Fellowship",
+  "themes": [
+    "Jornalismo"
+  ],
+  "scope": "Fisher / Journalists for Human Rights Fellowship Organisation: Journalists for Human Rights Status: Open Type: Fellowship Theme: Media support Funding Size: $4,900 per month Deadline: 01/12/2026 Eligibility: One journalist from Sub-Saharan Africa or the Middle East Target Region: Sub-Saharan Africa and the Middle East Application Language: English The Gordon N.",
+  "fit": 5,
+  "deadline": "2026-12-01",
+  "deadlineStatus": "Confirmado na página oficial; fuso horário não informado.",
+  "eligibility": "parcial",
+  "status": "aberta",
+  "rules": "https://gfmd.info/fundings/the-gordon-n-fisher-journalists-for-human-rights-fellowship",
+  "apply": "https://gfmd.info/fundings/the-gordon-n-fisher-journalists-for-human-rights-fellowship"
+},
+{
+  "id": "25f3ecac9078807ca06cb298c039f7081cf070b5cc38669093b8dccb9283f94b",
+  "title": "International Nieman Fellowship - GFMD",
+  "org": "Nieman Foundation",
+  "summary": "The Nieman Fellowship gives working journalists a year at Harvard to pursue a self-designed programme of study. The International Nieman Fellowship is for non-U.S. citizens, including those working in the U.S.",
+  "type": "Fellowship",
+  "themes": [
+    "Jornalismo"
+  ],
+  "scope": "International Nieman Fellowship - GFMD « Back to all Fundings International Nieman Fellowship Organisation: Nieman Foundation Status: Open Type: Fellowship Theme: Media support Funding Size: N/A Deadline: 01/12/2026 Eligibility: Non-US citizen journalists Target Region: International (non-U.S.",
+  "fit": 6,
+  "deadline": "2026-12-01",
+  "deadlineStatus": "Confirmado na página oficial; fuso horário não informado.",
+  "eligibility": "parcial",
+  "status": "aberta",
+  "rules": "https://gfmd.info/fundings/international-nieman-fellowship",
+  "apply": "https://gfmd.info/fundings/international-nieman-fellowship"
+},
+{
+  "id": "2de5afaa39131e7ff861db2ee421b0f89093fb184f5519095b2b4da940402015",
+  "title": "Equality Fund Global Journalism Fellowship 2026–2027 - GFMD",
+  "org": "Equality Fund",
+  "summary": "The Equality Fund has launched its inaugural Global Journalism Fellowship, developed in partnership with Canadian Journalists for Free Expression (CJFE) and African Women in Media (AWiM).",
+  "type": "Fellowship",
+  "themes": [
+    "Meio ambiente",
+    "Gênero",
+    "Jornalismo"
+  ],
+  "scope": "Equality Fund Global Journalism Fellowship 2026–2027 - GFMD « Back to all Fundings Equality Fund Global Journalism Fellowship 2026–2027 Organisation: Equality Fund Status: Open Type: Fellowship Theme: Gender equality in media Funding Size: CAD 4,000 Deadline: 11/11/2026 Eligibility: five journalists located in ODA-recipient countries Target Region: ODA-eligible countries Application Language: English The Equality Fund has launched its inaugural Global Journalism Fellowship, developed in partnership with Canadian Journalists for Free Expression (CJFE) and African Women in Media (AWiM).",
+  "fit": 6,
+  "deadline": "2026-11-11",
+  "deadlineStatus": "Confirmado na página oficial; fuso horário não informado.",
+  "eligibility": "parcial",
+  "status": "aberta",
+  "rules": "https://gfmd.info/fundings/equality-fund-global-journalism-fellowship-2026-2027",
+  "apply": "https://gfmd.info/fundings/equality-fund-global-journalism-fellowship-2026-2027"
+},
+{
+  "id": "2f8dbafd33f988df9c4c2792e6eafc2e4e67f6786c175432f1171eadfa3dc793",
+  "title": "Call for Proposals - Cross-border Media Literacy (2027) - GFMD",
+  "org": "European Commission",
+  "summary": "Commission launches Creative Europe Call (EUR 3.5 M) for innovative cross-border media literacy projects, aiming to boost societal resilience against disinformation and information manipulation.",
+  "type": "Grant",
+  "themes": [
+    "Oportunidades editoriais"
+  ],
+  "scope": "Call for Proposals - Cross-border Media Literacy (2027) - GFMD « Back to all Fundings Call for Proposals – Cross-border Media Literacy (2027) Organisation: European Commission Status: Open Type: Grant Theme: Media literacy Funding Size: Maximum EUR 500 000 Deadline: 20/01/2027 Eligibility: Consortia composed of at least three entities from a minimum of three different countries participating in the Creative Europe programme Target Region: Europe Application language: English Commission launches Creative Europe Call (EUR 3.5 M) for innovative cross-border media literacy projects, aiming to boost societal resilience against disinformation and information manipulation.",
+  "fit": 4,
+  "deadline": "2027-01-20",
+  "deadlineStatus": "Confirmado na página oficial; fuso horário não informado.",
+  "eligibility": "parcial",
+  "status": "aberta",
+  "rules": "https://gfmd.info/fundings/call-for-proposals-cross-border-media-literacy-2027",
+  "apply": "https://gfmd.info/fundings/call-for-proposals-cross-border-media-literacy-2027"
+},
+{
+  "id": "41dcc31139cb1128b115d73c649326c90f292081ebb55d99a6e984e9d4227810",
+  "title": "Call for Proposals: Journalism Partnerships - Pluralism (2027) - GFMD",
+  "org": "European Commission",
+  "summary": "This call supports intermediary organisations that set up and distribute funds to news media in sectors of particular relevance to democracy, such as local and regional media, community media, investigative journalism, and public interest news. Projects are expected to start towards the end of 2027 and last 24 months.",
+  "type": "Grant",
+  "themes": [
+    "Jornalismo investigativo",
+    "Jornalismo"
+  ],
+  "scope": "Call for Proposals: Journalism Partnerships - Pluralism (2027) - GFMD « Back to all Fundings Call for Proposals: Journalism Partnerships – Pluralism (2027) Organisation: European Commission Status: Open Type: Grant Theme: Media support Funding Size: Maximum EUR 2.5 million Deadline: 04/02/2027 Eligibility: European intermediary organisations that set up and distribute funds Target Region: Europe Application language: English This call supports intermediary organisations that set up and distribute funds to news media in sectors of particular relevance to democracy, such as local and regional media, community media, investigative journalism, and public interest news.",
+  "fit": 7,
+  "deadline": "2027-02-04",
+  "deadlineStatus": "Confirmado na página oficial; fuso horário não informado.",
+  "eligibility": "parcial",
+  "status": "aberta",
+  "rules": "https://gfmd.info/fundings/call-for-proposals-journalism-partnerships-pluralism-2027",
+  "apply": "https://gfmd.info/fundings/call-for-proposals-journalism-partnerships-pluralism-2027"
+},
+{
+  "id": "578ad193d27b574e54ef5fb0b29776357edd23ef315178e2dbb8f1ab025c1a61",
+  "title": "Call for Proposals: Journalism Partnerships - Collaborations (2027) - GFMD",
+  "org": "European Commission",
+  "summary": "This 7th yearly call supports cross-border, collaborative proposals between news media organisations focusing on innovative business models and/or journalistic projects across Europe. It aims to help European news media become more sustainable and resilient by supporting cross-border media collaborations. Projects are expected to last 24 months.",
+  "type": "Grant",
+  "themes": [
+    "Jornalismo de dados",
+    "Jornalismo"
+  ],
+  "scope": "Call for Proposals: Journalism Partnerships - Collaborations (2027) - GFMD « Back to all Fundings Call for Proposals: Journalism Partnerships – Collaborations (2027) Organisation: European Commission Status: Open Type: Grant Theme: Media Innovation Funding Size: maximum EUR 2 million Deadline: 04/02/2027 Eligibility: European news media Target Region: Europe Application language: English This 7th annual call supports cross-border, collaborative proposals between news media organisations focusing on innovative business models and/or journalistic projects across Europe.",
+  "fit": 7,
+  "deadline": "2027-02-04",
+  "deadlineStatus": "Confirmado na página oficial; fuso horário não informado.",
+  "eligibility": "parcial",
+  "status": "aberta",
+  "rules": "https://gfmd.info/fundings/call-for-proposals-journalism-partnerships-collaborations-2027",
+  "apply": "https://gfmd.info/fundings/call-for-proposals-journalism-partnerships-collaborations-2027"
+},
+{
+  "id": "293d94984420e56753951babff751db9ec0bfa21266971a89b9fcceda1102ff3",
+  "title": "Human-Scale AI: Call for Proposals - GFMD",
+  "org": "Mozilla Foundation",
+  "summary": "For our next Incubator cohort, Mozilla Foundation is investing in this alternative trajectory for AI. Mozilla calls it Human-Scale AI: bespoke, fit-for-purpose technology designed at the scale of the problem it&#039;s meant to solve.",
+  "type": "Grant",
+  "themes": [
+    "Meio ambiente"
+  ],
+  "scope": "Human-Scale AI: Call for Proposals - GFMD « Back to all Fundings Human-Scale AI: Call for Proposals Organisation: Mozilla Foundation Status: Open Type: Grant Theme: Artificial Intelligence (AI) Funding Size: $300,000 USD (potential maximum of $500,000) Deadline: 20/11/2026 Eligibility: Teams able to receive funding from a U.S.-based organisation Target region: Global Application language: English Mozilla Foundation is seeking seven projects that put Human-Scale AI into practice: bespoke, fit-for-purpose technology designed at the scale of the problem it’s meant to solve.",
+  "fit": 5,
+  "deadline": "2026-11-20",
+  "deadlineStatus": "Confirmado na página oficial; fuso horário não informado.",
+  "eligibility": "parcial",
+  "status": "aberta",
+  "rules": "https://gfmd.info/fundings/human-scale-ai-call-for-proposals",
+  "apply": "https://gfmd.info/fundings/human-scale-ai-call-for-proposals"
+}, 
+{
   "id": "523a861d21eafb5ed7c23e495938271fdad067bc512470e5c737419607d68d02",
   "title": "2026 ArcGIS StoryMaps Competition",
   "org": "Esri",
