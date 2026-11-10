@@ -2,7 +2,7 @@ window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.tools=[
 {
   "id": "9f08b5a99c6c9f62c7b1c97611500f5db6b140a14c8c8c4a5b34b00faaad2427",
-  "name": "Business Intelligence and Analytics Software | Tableau",
+  "name": "Tableau",
   "kind": "plataforma de análise de dados",
   "url": "https://www.tableau.com/",
   "desc": "Tableau can help anyone see and understand their data. Connect to almost any database, drag and drop to create visualizations, and share with a click. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
@@ -16,35 +16,28 @@ window.RADAR_PARTS.tools=[
 },
 {
   "id": "bf0f70ab6377c8041e340bdf48e30a2e326e89cb07d78998b89ba0c7ee5fb0be",
-  "name": "The AI runtime for business | Sigma",
+  "name": "Sigma",
   "kind": "BusinessApplication",
   "url": "https://www.sigmacomputing.com/",
   "desc": "Sigma is the AI runtime for business. A governed platform where teams build and run AI apps and agents directly on live cloud warehouse data (Snowflake, Databricks, BigQuery, Redshift). Ask in natural language, build agents that act on your data, write back to close the loop, and analyze in a familiar spreadsheet interface, all governed. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
 },
 {
   "id": "cbcf1207daf6bdd681a32b245a2509a15e85242808741c346412f447100b05fa",
-  "name": "Power BI - Data Visualization | Microsoft Power Platform",
-  "kind": "Data Visualization | Microsoft Power Platform",
+  "name": "Microsoft Power BI",
+  "kind": "plataforma de visualização e análise de dados",
   "url": "https://www.microsoft.com/en-us/power-platform/products/power-bi",
   "desc": "Microsoft Power BI is a business intelligence platform that helps you visualize data and infuse insights into your existing Microsoft 365 apps. Try it for free. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
 },
 {
   "id": "d2f8e4e03f7039542269c22b68eb5b54fa341006c9685b6af22fd3ae39598778",
-  "name": "Open Source Python Graphing &amp; Data Visualization Library | Plotly",
-  "kind": "mapeamento e cartografia",
+  "name": "Plotly para Python",
+  "kind": "biblioteca Python de visualização de dados",
   "url": "https://plotly.com/python",
   "desc": "Build interactive Python charts and graphs with Plotly Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
 },
 {
-  "id": "ec6de7af3271ca5771aeeb8cff19422fd35853394caedd1530e2136f7d8ca205",
-  "name": "GIS Software for Mapping and Spatial Analytics | Esri",
-  "kind": "mapeamento e cartografia",
-  "url": "https://www.esri.com/",
-  "desc": "Esri’s GIS software is the most powerful mapping & spatial analytics technology available. Learn about Esri’s geospatial mapping software for business and government. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
-}, 
-{
   "id": "9074bd0330d7cf1e7b676cd5fa22eacf03a786e13009162ac6f99e121dca4cf6",
-  "name": "Quantitative Analysis of Textual Data • quanteda",
+  "name": "Quanteda",
   "kind": "pacote R",
   "url": "https://quanteda.io/",
   "desc": "A fast, flexible, and comprehensive framework for quantitative text analysis in R. Provides functionality for corpus management, creating and manipulating tokens and n-grams, exploring keywords in context, forming and manipulating sparse matrices of documents by features and feature co-occurrences, analyzing keywords, computing feature similarities and distances, applying content dictionaries, applying supervised and unsupervised machine learning, visually representing text and text analyses, and more. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."

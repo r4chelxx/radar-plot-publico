@@ -7,7 +7,7 @@ window.RADAR_PARTS.changelog=[
   "items": [
     {
       "id": "9f08b5a99c6c9f62c7b1c97611500f5db6b140a14c8c8c4a5b34b00faaad2427",
-      "title": "Business Intelligence and Analytics Software | Tableau"
+      "title": "Tableau"
     },
     {
       "id": "a6943fe0aa51788e6f02a85895ba465cd40dfb9c7cc5462996acf7e81b148ff2",
@@ -15,22 +15,18 @@ window.RADAR_PARTS.changelog=[
     },
     {
       "id": "bf0f70ab6377c8041e340bdf48e30a2e326e89cb07d78998b89ba0c7ee5fb0be",
-      "title": "The AI runtime for business | Sigma"
+      "title": "Sigma"
     },
     {
       "id": "cbcf1207daf6bdd681a32b245a2509a15e85242808741c346412f447100b05fa",
-      "title": "Power BI - Data Visualization | Microsoft Power Platform"
+      "title": "Microsoft Power BI"
     },
     {
       "id": "d2f8e4e03f7039542269c22b68eb5b54fa341006c9685b6af22fd3ae39598778",
-      "title": "Open Source Python Graphing &amp; Data Visualization Library | Plotly"
-    },
-    {
-      "id": "ec6de7af3271ca5771aeeb8cff19422fd35853394caedd1530e2136f7d8ca205",
-      "title": "GIS Software for Mapping and Spatial Analytics | Esri"
+      "title": "Plotly para Python"
     }
   ],
-  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Business Intelligence and Analytics Software | Tableau; Vega; The AI runtime for business | Sigma; Power BI - Data Visualization | Microsoft Power Platform; Open Source Python Graphing &amp; Data Visualization Library | Plotly; GIS Software for Mapping and Spatial Analytics | Esri."
+  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Tableau; Vega; Sigma; Microsoft Power BI; Plotly para Python."
 }, 
 {
   "date": "2026-11-10",
@@ -39,10 +35,10 @@ window.RADAR_PARTS.changelog=[
   "items": [
     {
       "id": "9074bd0330d7cf1e7b676cd5fa22eacf03a786e13009162ac6f99e121dca4cf6",
-      "title": "Quantitative Analysis of Textual Data • quanteda"
+      "title": "Quanteda"
     }
   ],
-  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Quantitative Analysis of Textual Data • quanteda."
+  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Quanteda."
 }, 
 {
   "date": "2026-11-09",
