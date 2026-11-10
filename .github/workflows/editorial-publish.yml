@@ -71,7 +71,9 @@ jobs:
             printf '{"schemaVersion":1,"drafts":[]}' > "$draft_file"
           else
             git fetch --depth=1 origin radar-state
-            git show FETCH_HEAD:intake/publication-drafts.json > "$draft_file"
+            git show FETCH_HEAD:intake/editorial-queue.json > /tmp/radar-editorial-queue.json
+            git show FETCH_HEAD:intake/editorial-evidence-review.json > /tmp/radar-editorial-evidence-review.json
+            node scripts/build-editorial-record-drafts.js /tmp/radar-editorial-queue.json /tmp/radar-editorial-evidence-review.json "$draft_file"
           fi
           node scripts/build-automated-publications.js "$draft_file" intake/approved-publications.json /tmp/radar-combined-approved.json
           node - <<'NODE'
@@ -173,7 +175,7 @@ jobs:
           git add data/opportunities.js data/datasets.js data/tools.js data/changelog.js index.html
           git commit -m "Editorial: publish verified records"
           git push origin "$branch"
-          if pr_url=$(gh pr create --base main --head "$branch" --title "Radar editorial: approved publications ${{ github.run_id }}" --body "Only entries explicitly approved in intake/approved-publications.json. Validation, static UI, web-intake regression, Playwright browser tests and link audit passed in this publishing workflow. No unverified leads are promoted."); then
+          if pr_url=$(gh pr create --base main --head "$branch" --title "Radar editorial: approved publications ${{ github.run_id }}" --body "Only entries accepted by the combined approval manifest or status updates for existing expired opportunities. Validation, static UI, web-intake regression, Playwright browser tests and link audit passed in this publishing workflow. No unverified leads are promoted."); then
             echo "Created $pr_url"
             gh pr merge "$pr_url" --squash --delete-branch
             echo "Editorial PR merged: $pr_url" >> "$GITHUB_STEP_SUMMARY"
@@ -239,6 +241,7 @@ jobs:
       - name: Verify approved records on deployed public site
         if: github.event_name != 'pull_request' && steps.changes.outputs.changed == 'true'
         env:
+          RADAR_APPROVED_MANIFEST: /tmp/radar-combined-approved.json
           RADAR_DEPLOY_RETRIES: "10"
           RADAR_DEPLOY_DELAY_MS: "15000"
         run: node scripts/verify-published-records.js

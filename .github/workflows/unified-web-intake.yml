@@ -77,6 +77,7 @@ on:
       - 'scripts/review-editorial-evidence.js'
       - 'scripts/build-editorial-record-drafts.js'
       - 'scripts/validate-editorial-record-drafts.js'
+      - 'tests/publication-drafts.test.js'
       - '.github/workflows/unified-web-intake.yml'
   schedule:
     # Staggered redundant daily attempts; persistence is deduplicated on radar-state.
