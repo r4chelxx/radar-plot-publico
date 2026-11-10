@@ -26,6 +26,7 @@ function inferCategory(c,text,title){
  if(excluded.test(title+' '+String(c.title||''))||excludedPath.test(new URL(url||'https://invalid.local').pathname))return 'uncategorized';
  const supplied=['opportunities','tools','datasets'].includes(c.category)?c.category:null;
  if(supplied==='tools')return (!excludedToolUrl.test(url)&&!excludedToolContent.test(text)&&toolIdentity(c,title,c.audit?.structuredData||[]))?'tools':'uncategorized';
+ if(supplied==='opportunities'&&c.verificationStatus==='official-web-search')return 'opportunities';
  if(supplied)return supplied;
  const opportunity=actionableOpportunity(title,text);
  const deadline=/(deadline|closing date|close(?:s|d)?\s+(?:on|by|\d)|applications?[^.!?]{0,60}clos(?:e|es|ed)|prazo|inscri[cç][aã]o(?:s)?[^.!?]{0,50}até)/i.test(text);
@@ -64,7 +65,7 @@ function structuredDeadline(docs){
  return null;
 }
 function deadlineDates(text){
- const cues=/(?:deadline|closing date|enter by|entries?[^.!?]{0,70}(?:close|due|deadline)|submissions?[^.!?]{0,70}(?:close|due|deadline)|applications?[^.!?]{0,70}clos(?:e|es|ed)|application period[^.!?]{0,70}(?:ends?|closes?)|apply by|submit by|prazo[^.!?]{0,70}(?:até|final)|inscri[cç][oõ]es?[^.!?]{0,70}até)/i;
+ const cues=/(?:deadline|closing date|enter by|entries?[^.!?]{0,70}(?:close|due|deadline)|submissions?[^.!?]{0,70}(?:close|due|deadline)|applications?[^.!?]{0,70}(?:clos(?:e|es|ed)|until|by)|application period[^.!?]{0,70}(?:ends?|closes?)|apply by|submit by|prazo[^.!?]{0,70}(?:até|final)|inscri[cç][oõ]es?[^.!?]{0,70}até)/i;
  return dateCandidates(text).filter(date=>{
   const months=['january','february','march','april','may','june','july','august','september','october','november','december'],ptMonths=['janeiro','fevereiro','março','abril','maio','junho','julho','agosto','setembro','outubro','novembro','dezembro'],month=months[Number(date.slice(5,7))-1],ptMonth=ptMonths[Number(date.slice(5,7))-1],day=String(Number(date.slice(8))),year=date.slice(0,4);
   const forms=[date,date.replaceAll('-','/'),date.slice(8)+'/'+date.slice(5,7)+'/'+date.slice(0,4),String(Number(date.slice(8)))+'/'+String(Number(date.slice(5,7)))+'/'+date.slice(0,4),month+' '+day+', '+year,day+' '+month+' '+year,day+' de '+ptMonth+' de '+year];
