@@ -4,6 +4,7 @@ const ctx={window:{RADAR_PARTS:{}}};vm.createContext(ctx);
 for(const file of ['data/opportunities.js','data/datasets.js','data/tools.js']) vm.runInContext(fs.readFileSync(file,'utf8'),ctx,{filename:file});
 const normalize=s=>String(s||'').normalize('NFKD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,' ').trim();
 const known=[...ctx.window.RADAR_PARTS.opportunities.map(x=>({category:'opportunities',name:x.title,url:x.rules})),...ctx.window.RADAR_PARTS.datasets.map(x=>({category:'datasets',name:x.name,url:x.url,discoveryUrl:x.discoveryUrl})),...ctx.window.RADAR_PARTS.tools.map(x=>({category:'tools',name:x.name,url:x.url,discoveryUrl:x.discoveryUrl}))];
+const {classifyLead}=require('./lead-category');
 const intake=JSON.parse(fs.readFileSync(process.argv[2]||'intake/source-review.json','utf8'));
 const report={generatedAt:new Date().toISOString(),policy:'Candidate discovery only; all records require human verification before publication',coverage:intake.coverage||null,results:[]};
 for(const source of intake.results||[]){
@@ -36,8 +37,7 @@ for(const source of intake.results||[])for(const link of source.leads||[]){
  const directory=/^(?:scholarships?\s*(?:&|and)\s*fellowships?|grants?\s*(?:&|and)\s*fellowships?|funding opportunities|open calls)(?:\s+[\w.-]+\.(?:org|com|net))?$/i.test(label.trim());
  const generic=/^(find a grant|grants for journalists|successful applications|stable tools|database tools|mediawiki tools|apply|application|tools|ferramentas|read more|learn more|saiba mais)$/i.test(label.trim());
  const documentation=/\b(?:documentation|development|opting in|about|pricing options|plan(?:o)? de dados abertos|registry|articleinfo)\b/i.test(label);
- const categoryText=label+' '+target.pathname+' '+source.name+' '+target.hostname;
- const category=/grant|fellowship|bolsa|funding|financiamento|edital|call[-_ ]?for|apply|scholarship/i.test(categoryText)?'opportunities':/dataset|dados[-_ ]?abertos|open[-_ ]?data|base[-_ ]?de[-_ ]?dados/i.test(categoryText)?'datasets':/tool|ferramenta|software|application/i.test(categoryText)?'tools':'uncategorized';
+ const category=classifyLead({title:label,url});
  leads.push({source:source.name,title:label,url,category,classification:matches.length?'catalog-match':homepage?'source-homepage-only':externalHomepage?'external-homepage-only':navigation||generic?'generic-navigation':directory?'resource-directory':documentation?'documentation-reference':historical?'historical-reference':'needs-editorial-review',possibleMatches:matches.slice(0,5),deadline:link.structuredEvidence?.deadline||null,eligibility:link.structuredEvidence?.eligibility||null,structuredEvidence:link.structuredEvidence||null,editoriallyVerified:false});
 }
 report.leads=leads;

@@ -20,6 +20,10 @@ on:
       - 'scripts/load-source-catalog.js'
       - 'tests/source-catalog.test.js'
       - 'tests/source-intake-coverage.test.js'
+      - 'scripts/lead-category.js'
+      - 'tests/lead-category.test.js'
+      - 'scripts/lead-category.js'
+      - 'tests/lead-category.test.js'
       - 'scripts/triage-candidates.js'
       - 'scripts/update-lead-history.js'
       - 'scripts/lead-identity.js'
@@ -42,6 +46,8 @@ on:
       - 'tests/inspection-health.test.js'
       - 'tests/require-inspection-health.test.js'
       - 'scripts/select-historical-backlog.js'
+      - 'scripts/lead-category.js'
+      - 'tests/lead-category.test.js'
       - 'scripts/import-public-editorial-queue.js'
       - 'tests/import-public-editorial-queue.test.js'
       - 'scripts/apply-editorial-decisions.js'
@@ -118,7 +124,7 @@ jobs:
       - name: Test persistent lead history
         run: node --test tests/reconcile-published-history.test.js tests/inspection-health.test.js tests/require-inspection-health.test.js tests/auto-audit-candidates.test.js tests/apply-editorial-decisions.test.js tests/audit-capacity.test.js tests/backlog-health.test.js tests/historical-backlog.test.js tests/historical-editorial-batch.test.js tests/lead-history.test.js tests/source-catalog.test.js tests/editorial-review.test.js tests/editorial-priority.test.js tests/inspection-order.test.js tests/lead-privacy.test.js tests/normalize-lead-link.test.js
       - name: Test public queue integration
-        run: node --test tests/import-public-editorial-queue.test.js
+        run: node --test tests/lead-category.test.js tests/import-public-editorial-queue.test.js
       - name: Inspect monitored source websites
         run: node scripts/source-intake.js
       - name: Diagnose official alternative URLs (non-mutating)

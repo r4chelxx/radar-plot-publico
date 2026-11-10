@@ -2,6 +2,7 @@
 // Persist public candidate metadata across daily discovery runs without approval by inference.
 const fs=require('node:fs');
 const {identity}=require('./lead-identity');
+const {classifyLead}=require('./lead-category');
 const current=JSON.parse(fs.readFileSync(process.argv[2]||'intake/discovery-quality.json','utf8'));
 const dest=process.argv[3]||'intake/editorial-queue.json';
 let previous={candidates:[]};
@@ -50,8 +51,9 @@ function inferTechnicalCategory(item){
  return 'uncategorized';
 }
 function categoryFor(item){
- if(/\bgrants?\s+(?:broad|permission|permissions|access|rights|authority|powers?)\b/i.test(String(item.title||'')))return 'uncategorized';
- return item.category&&item.category!=='uncategorized'?item.category:(inferCategory(item.title)!=='uncategorized'?inferCategory(item.title):inferTechnicalCategory(item));
+ const detected=inferCategory(item.title);
+ if(detected!=='uncategorized')return detected;
+ return inferTechnicalCategory(item);
 }
 function historicalCategoryFor(item){
  let id=item.id;
@@ -92,7 +94,8 @@ for(const [id,item] of queue){
 for(const [id,item] of queue){
  if(item.status==='pending'&&(!item.category||item.category==='uncategorized')){
   const inferred=categoryFor(item);
-  const recovered=inferred!=='uncategorized'?inferred:historicalCategoryFor(item);
+  const historical=historicalCategoryFor(item);
+  const recovered=inferred!=='uncategorized'?inferred:(historical==='opportunities'?null:historical);
   if(recovered)queue.set(id,{...item,category:recovered});
  }
 }

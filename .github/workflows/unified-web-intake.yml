@@ -28,6 +28,8 @@ on:
       - 'scripts/quality-gate-discovery.js'
       - 'scripts/sample-editorial-review.js'
       - 'scripts/export-editorial-review.js'
+      - 'scripts/lead-category.js'
+      - 'tests/lead-category.test.js'
       - 'scripts/merge-editorial-queue.js'
       - 'scripts/audit-editorial-queue.js'
       - 'scripts/review-editorial-evidence.js'
@@ -128,7 +130,7 @@ jobs:
       - name: Test daily discovery source health reporting
         run: node --test tests/discovery-operations.test.js tests/run-summary.test.js tests/editorial-funnel.test.js tests/persisted-editorial-queue.test.js
       - name: Test editorial queue reconciliation
-        run: node --test tests/editorial-queue-reconcile.test.js tests/editorial-category-inference.test.js
+        run: node --test tests/lead-category.test.js tests/editorial-queue-reconcile.test.js tests/editorial-category-inference.test.js
       - name: Test operational editorial state reconciliation
         run: node --test tests/operational-state.test.js
       - name: Test editorial publication safeguards
