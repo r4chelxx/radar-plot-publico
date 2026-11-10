@@ -9,7 +9,7 @@ try{
  item('grant','opportunities',{evidenceText:'Grant applications close 2099-12-31. Eligibility: who can apply is limited to journalists.',structuredData:[]}),
  item('fake-grant','opportunities',{evidenceText:'Welcome to our news blog about awards.',structuredData:[]}),
  item('dataset','datasets',{evidenceText:'',structuredData:[{'@type':'Dataset',name:'City data',license:'CC0',temporalCoverage:'2020/2025',distribution:{contentUrl:'https://example.org/data.csv',encodingFormat:'text/csv'}}]}),
- item('tool','tools',{pageTitle:'Mapping software',evidenceText:'Interactive mapping software that lets journalists create and share maps. Free plan available; paid tiers are described on the pricing page.',structuredData:[]}),
+ item('tool','tools',{pageTitle:'Mapping software',evidenceText:'Interactive mapping software that lets journalists create and share maps. Free plan available; paid tiers are described on the pricing page.',structuredData:[]}),\n item('python-metadata','tools',{pageTitle:'Python',pageDescription:'Python is a programming language that lets you work quickly. Free and open source.',evidenceText:'',structuredData:[]}),\n item('contest-entries','opportunities',{pageTitle:'2026 Data Journalism Competition',evidenceText:'Enter by 2099-12-31. Who can participate: journalists worldwide.',structuredData:[]}),
  item('dataset-text-only','datasets',{pageTitle:'Open Data Catalog',evidenceText:'Download municipal CSV files covering 2020–2025. API access and usage terms are documented.',structuredData:[],resourceLinks:[{url:'https://example.org/api/municipal.csv',label:'Download municipal CSV'}]}),
  item('dataset-without-resource','datasets',{pageTitle:'Open Data Catalog',evidenceText:'Download municipal CSV files covering 2020–2025. API access and usage terms are documented.',structuredData:[]}),
  item('maintenance-date','opportunities',{pageTitle:'Global Reporting Fellowship',evidenceText:'Applications for this fellowship are open to journalists. The website deadline for maintenance is 2099-12-31. Eligibility: open to journalists worldwide.',structuredData:[]}),
@@ -27,7 +27,7 @@ try{
  assert.equal(result.records.find(x=>x.id==='fake-grant').decision,'pending_more_evidence');
  assert.equal(result.records.find(x=>x.id==='dataset').decision,'evidence_complete_for_record_draft');
  assert.equal(result.records.find(x=>x.id==='tool').decision,'evidence_complete_for_record_draft');
- assert.equal(result.records.find(x=>x.id==='tool').checks.licenseStatus,'not stated in captured source');
+ assert.equal(result.records.find(x=>x.id==='tool').checks.licenseStatus,'not stated in captured source');\n assert.equal(result.records.find(x=>x.id==='python-metadata').decision,'evidence_complete_for_record_draft');\n assert.equal(result.records.find(x=>x.id==='contest-entries').decision,'evidence_complete_for_record_draft');
  assert.equal(result.records.find(x=>x.id==='dataset-text-only').decision,'evidence_complete_for_record_draft');
  assert.equal(result.records.find(x=>x.id==='dataset-text-only').checks.licenseStatus,'not stated in captured source');
  assert.equal(result.records.find(x=>x.id==='dataset-without-resource').decision,'pending_more_evidence');
