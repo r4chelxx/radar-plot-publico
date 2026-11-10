@@ -28,6 +28,15 @@ function eligibilityScope(text){
  return sentence(text,/applicants?[^.!?]{0,180}(?:globally|worldwide|world-wide)[^.!?]*(?:may enter|can apply|eligible)/i)
   ||sentence(text,/(eligible|eligibility|who can (?:apply|enter|participate)|participants must|entry requirements|age(?:d)? 18 and up|18 years and older|globally may enter|open to|elegibilidade|elegível|podem se candidatar)/i);
 }
+function editorialFit(title,text){
+ const evidence=String(title||'')+' '+String(text||'');
+ let score=4;
+ if(/data journalism|data visualization|investigative journalism|jornalismo de dados|jornalismo investigativo|visualização de dados/i.test(evidence))score+=2;
+ else if(/journalis(?:m|ts?)|jornalismo|jornalistas?/i.test(evidence))score+=1;
+ if(/mapping|maps|geospatial|cartograph|storymaps|mapeamento|cartografia/i.test(evidence))score+=1;
+ if(/worldwide|globally|international|global(?:ly)?|mundial|globalmente/i.test(evidence))score+=1;
+ return Math.min(10,score);
+}
 function evidenceSummary(text,description){
  const meta=clean(description);
  if(meta.length>=120)return meta.slice(0,1200);
@@ -68,6 +77,7 @@ function buildDrafts(queue,review,generatedAt=new Date().toISOString()){
    record.themes=[...new Set(topicMap.filter(([rx])=>rx.test(pageTitle+' '+text)).map(([,label])=>label))];
    if(!record.themes.length)record.themes=['Oportunidades editoriais'];
    record.scope=eligibilityScope(text);
+   record.fit=editorialFit(pageTitle,text+' '+record.scope);
    record.deadline=result.checks.deadline||null;
    record.deadlineStatus=record.deadline?'Confirmado na página oficial; fuso horário não informado.':null;
    record.eligibility=record.scope?'parcial':null;

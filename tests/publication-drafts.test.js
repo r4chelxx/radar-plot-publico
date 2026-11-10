@@ -70,7 +70,7 @@ test('complete opportunity evidence creates a machine approval that the publishe
  const q={updatedAt:checkedAt,candidates:[{id:'verified-arcgis-competition',title:'2026 ArcGIS StoryMaps Competition',url:'https://www.esri.com/en-us/arcgis/products/arcgis-storymaps/contest/overview',category:'opportunities',providers:[],audit:{pageTitle:'2026 ArcGIS StoryMaps Competition',pageDescription:'A 180 character official summary describing a global storytellers to submit an original geospatial story in the annual ArcGIS StoryMaps competition, with four entry categories and awards for selected winners.',httpStatus:200,contentType:'text/html',checkedAt,evidenceText:page,structuredData:[],resourceLinks:[]}}]};
  const review={records:[{id:'verified-arcgis-competition',category:'opportunities',decision:'evidence_complete_for_record_draft',publicationReady:false,checks:{callSignal:true,deadline:'2026-12-11',eligibility:true}}]};
  const drafts=buildDrafts(q,review,checkedAt);
- assert.equal(drafts.summary.drafts,1);assert.deepEqual(drafts.drafts[0].missingFields,[]);assert.equal(drafts.drafts[0].recordDraft.org,'Esri');assert.match(drafts.drafts[0].recordDraft.scope,/globally may enter/);
+ assert.equal(drafts.summary.drafts,1);assert.deepEqual(drafts.drafts[0].missingFields,[]);assert.equal(drafts.drafts[0].recordDraft.org,'Esri');assert.match(drafts.drafts[0].recordDraft.scope,/globally may enter/);assert.equal(drafts.drafts[0].recordDraft.fit,6);
  const built=buildAutomaticPublications(drafts,{approved:[]},now);
  assert.equal(built.summary.automaticallyApproved,1);
  const tmp=fs.mkdtempSync(path.join(os.tmpdir(),'radar-publish-e2e-'));
