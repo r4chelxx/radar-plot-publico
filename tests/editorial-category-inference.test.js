@@ -37,6 +37,7 @@ for(const [item,expected] of [
  [{title:'Grant access to a private dataset',category:'opportunities'},'uncategorized'],
  [{title:'Felt',category:'uncategorized'},'tools'],
  [{title:'World Bank Open Data',category:'uncategorized'},'datasets'],
+ [{title:'Population, total',category:'datasets'},'datasets'],
  [{title:'Investigative Journalism Fellowship',category:'uncategorized'},'opportunities'],
  [{title:'Journalism conference',category:'uncategorized'},'uncategorized'],
 ])test('category resolution: '+item.title,()=>assert.equal(context.categoryFor(item),expected));
