@@ -50,6 +50,11 @@ function inferTechnicalCategory(item){
  return 'uncategorized';
 }
 function categoryFor(item){
+ const supplied=['opportunities','tools','datasets'].includes(item.category)?item.category:null;
+ // Preserve an explicit category from a dedicated collector as a candidate hint.
+ // The later page audit still independently verifies the category and can reject
+ // a false positive; dropping it here starves the corresponding audit lane.
+ if(supplied)return supplied;
  const detected=inferCategory(item.title);
  if(detected!=='uncategorized')return detected;
  return inferTechnicalCategory(item);
