@@ -2,7 +2,8 @@
 // Join the PUBLIC unified discovery queue to the historical daily inspection rotation.
 // Does not approve or publish candidates. Existing editorial decisions remain authoritative.
 const fs=require('node:fs');
-const {identity}=require('./lead-identity');\nconst {classifyLead}=require('./lead-category');
+const {identity}=require('./lead-identity');
+const {classifyLead}=require('./lead-category');
 const triagePath=process.argv[2]||'intake/candidate-triage.json';
 const queuePath=process.argv[3]||'intake/editorial-queue-public.json';
 const triage=JSON.parse(fs.readFileSync(triagePath,'utf8'));
@@ -18,7 +19,8 @@ for(const item of queue.candidates){
  if(!url.startsWith('https://')){totals.excluded++;continue}
  const providers=(item.providers||[]).filter(x=>typeof x==='string').slice(0,10);
  const source=providers.join(' / ').slice(0,200)||'Public web discovery';
- const title=String(item.title).replace(/[\\r\\n]+/g,' ').trim().slice(0,220);
+ const title=String(item.title).replace(/[\\r\
+]+/g,' ').trim().slice(0,220);
  if(title.length<3){totals.excluded++;continue}
  const categoryText=title+' '+source+' '+url;
  const category=/grant|fellowship|scholarship|funding|bolsa|edital|prize|award|call for|opportunit(?:y|ies)|journalis(?:m|t)|residen(?:cy|cies)|stipend|grants for journalists|opportunity desk|gfmd|pulitzer|newsfuel/i.test(categoryText)?'opportunities':/dataset|database|dados abertos|open data|data portal/i.test(categoryText)?'datasets':/tool|software|platform|visualization|visualisation|chart|map/i.test(categoryText)?'tools':'uncategorized';
@@ -32,5 +34,6 @@ for(const item of queue.candidates){
  for(const provider of providers)totals.byProvider[provider]=(totals.byProvider[provider]||0)+1;
 }
 triage.publicQueueImport=totals;
-fs.writeFileSync(triagePath,JSON.stringify(triage,null,2)+'\n');
+fs.writeFileSync(triagePath,JSON.stringify(triage,null,2)+'
+');
 console.log(JSON.stringify(totals));
