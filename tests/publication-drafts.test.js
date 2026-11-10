@@ -30,8 +30,9 @@ test('builds traceable drafts only from evidence-complete primary-source reviews
  assert.equal(grant.recordDraft.deadline,'2099-12-31');
  assert.equal(grant.recordDraft.org,null,'discovery feed name must not be presented as the opportunity owner');
  assert.deepEqual(grant.source.discoveryProviders,['Example Foundation']);
- assert.match(grant.recordDraft.eligibility,/open to journalists worldwide/);
- assert.equal(grant.recordDraft.status,null);
+ assert.equal(grant.recordDraft.eligibility,'parcial');
+ assert.match(grant.recordDraft.scope,/open to journalists worldwide/);
+ assert.equal(grant.recordDraft.status,'aberta');
  assert(grant.missingFields.includes('summary'));
  const dataset=out.drafts.find(x=>x.category==='datasets');
  assert.equal(dataset.recordDraft.api,'https://example.org/download.csv');
