@@ -1,5 +1,23 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.opportunities=[
+{
+  "id": "523a861d21eafb5ed7c23e495938271fdad067bc512470e5c737419607d68d02",
+  "title": "2026 ArcGIS StoryMaps Competition",
+  "org": "Esri",
+  "summary": "Enter the 2026 ArcGIS StoryMaps Competition. Get competition details and find inspiration for your story in our online gallery.",
+  "type": "Competition",
+  "themes": [
+    "Meio ambiente"
+  ],
+  "scope": "Requirements Applicants 18 years and older globally may enter the competition once in one of four categories: Seeing What Others Missed Refusing the Status Quo Designing a Better Future Acting with Clarity in Complexity Each category will include a student track.",
+  "fit": 6,
+  "deadline": "2026-12-11",
+  "deadlineStatus": "Confirmado na página oficial; fuso horário não informado.",
+  "eligibility": "parcial",
+  "status": "aberta",
+  "rules": "https://www.esri.com/en-us/arcgis/products/arcgis-storymaps/contest",
+  "apply": "https://www.esri.com/en-us/arcgis/products/arcgis-storymaps/contest"
+}, 
 
  
 
