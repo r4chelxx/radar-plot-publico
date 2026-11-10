@@ -12,12 +12,12 @@ const excluded=/\b(conference|webinar|festival|newsletter|podcast|blog post|news
 const excludedPath=/\/(?:blog|news|press|articles?|posts?|podcasts?|pitch|process|tutorials?|guides?|learn|courses?|events?|conference|community|about|people|team|authors?|profiles?|jobs?|docs|20\d{2}\/(?:0?[1-9]|1[0-2]))(?:\/|$)/i;
 function toolIdentity(c,title,docs){
  const structured=docs.some(x=>/softwareapplication|softwareproduct/.test(flat(x['@type']).toLowerCase()));
- const surface=[title,String(c.title||''),String(c.url||'').split('/').filter(Boolean).slice(-1)[0]||''].join(' ');
- return structured||(!excluded.test(surface)&&/(software|tool|platform|application|library|framework|plugin|extension|ferramenta|plataforma|aplicativo|biblioteca)/i.test(surface));
+ const surface=[title,String(c.title||''),String(c.url||'').split('/').filter(Boolean).slice(-1)[0]||'',String(c.audit?.pageDescription||'')].join(' ');
+ return structured||(!excluded.test(surface)&&/(software|tool|platform|application|library|framework|plugin|extension|programming language|statistical computing|ferramenta|plataforma|aplicativo|biblioteca)/i.test(surface));
 }
 function toolFunction(text,docs){
  const structured=docs.some(x=>{const type=flat(x['@type']).toLowerCase();return /softwareapplication|softwareproduct/.test(type)&&(x.featureList||x.applicationCategory||x.description)});
- return structured||/(data visualization|visuali[sz]a(?:tion|ção) de dados|create (?:interactive )?(?:maps|charts|dashboards)|build (?:interactive )?(?:maps|charts|dashboards)|mapping software|geospatial analysis|spatial analysis|web scraping|scrape (?:websites|data)|data cleaning|data processing|data analysis|text analysis|network analysis|mapeamento interativo|análise geoespacial|visualização de dados|raspagem de dados|permite criar (?:mapas|gráficos|painéis)|lets users create|enables users to create)/i.test(text);
+ return structured||/(data visualization|visuali[sz]a(?:tion|ção) de dados|create (?:interactive )?(?:maps|charts|dashboards)|build (?:interactive )?(?:maps|charts|dashboards)|mapping software|programming language|statistical computing|statistical analysis|data analytics|business intelligence|query language|geospatial analysis|spatial analysis|web scraping|scrape (?:websites|data)|data cleaning|data processing|data analysis|text analysis|network analysis|mapeamento interativo|análise geoespacial|visualização de dados|raspagem de dados|permite criar (?:mapas|gráficos|painéis)|lets users create|enables users to create)/i.test(text);
 }
 function inferCategory(c,text,title){
  const url=String(c.url||'').toLowerCase();
@@ -27,7 +27,7 @@ function inferCategory(c,text,title){
  if(supplied)return supplied;
  const opportunity=actionableOpportunity(title,text);
  const deadline=/(deadline|closing date|close(?:s|d)?\s+(?:on|by|\d)|applications?[^.!?]{0,60}clos(?:e|es|ed)|prazo|inscri[cç][aã]o(?:s)?[^.!?]{0,50}até)/i.test(text);
- const eligibility=/(eligib|who can apply|open to|elegibilidade|podem se candidatar)/i.test(text);
+ const eligibility=/(eligib|who can apply|who can enter|who can participate|participants must|entry requirements|open to|elegibilidade|podem se candidatar)/i.test(text);
  if(opportunity&&deadline&&eligibility)return 'opportunities';
  const dataset=/(dataset|data catalog|open data|dados abertos|base de dados|microdata|microdados|data portal)/i.test(title+' '+text);
  const dataAccess=/(download|\.csv|\.json|\.zip|api endpoint|api access|bulk data|baixar|export data)/i.test(text+' '+url);
@@ -45,12 +45,12 @@ function dateCandidates(text){
 }
 function actionableOpportunity(title,text){
  const noun=/\b(grant|fellowship|funding|scholarship|journalism award|prize|contest|competition|bolsa|edital|financiamento|premia[cç][aã]o|concurso)\b/i;
- const action=/\b(applications?\b[^.!?]{0,80}\b(?:open|accepted|closing|close|closes|closed)|call for applications|apply now|apply by|submit (?:an? )?(?:application|proposal|entry|entries)|inscri[cç][oõ]es? abertas|candidaturas? abertas|candidatar-se até|submiss[oõ]es? abertas)\b/i;
+ const action=/\b(applications?\b[^.!?]{0,80}\b(?:open|accepted|closing|close|closes|closed)|call for applications|apply now|apply by|enter by|submit (?:an? )?(?:application|proposal|entry|entries)|entries? (?:are )?(?:open|accepted|closing|close|closes|closed)|submissions? (?:are )?(?:open|accepted|closing|close|closes|closed)|inscri[cç][oõ]es? abertas|candidaturas? abertas|candidatar-se até|submiss[oõ]es? abertas)\b/i;
  const sentences=String(text||'').split(/(?<=[.!?])\s+/);
  return (noun.test(title||'')&&action.test(text||''))||sentences.some(s=>noun.test(s)&&action.test(s));
 }
 function deadlineDates(text){
- const cues=/(?:deadline|closing date|applications?[^.!?]{0,70}clos(?:e|es|ed)|application period[^.!?]{0,70}(?:ends?|closes?)|apply by|submit by|prazo[^.!?]{0,70}(?:até|final)|inscri[cç][oõ]es?[^.!?]{0,70}até)/i;
+ const cues=/(?:deadline|closing date|enter by|entries?[^.!?]{0,70}(?:close|due|deadline)|submissions?[^.!?]{0,70}(?:close|due|deadline)|applications?[^.!?]{0,70}clos(?:e|es|ed)|application period[^.!?]{0,70}(?:ends?|closes?)|apply by|submit by|prazo[^.!?]{0,70}(?:até|final)|inscri[cç][oõ]es?[^.!?]{0,70}até)/i;
  return dateCandidates(text).filter(date=>{
   const forms=[date,date.replaceAll('-','/'),date.slice(8)+'/'+date.slice(5,7)+'/'+date.slice(0,4),String(Number(date.slice(8)))+'/'+String(Number(date.slice(5,7)))+'/'+date.slice(0,4)];
   return text.split(/(?<=[.!?])\s+/).some(sentence=>forms.some(form=>sentence.includes(form))&&cues.test(sentence)&&/(application|grant|fellowship|scholarship|submit|submission|entry|entries|inscri[cç][oõ]|candidatura|bolsa|edital)/i.test(sentence));
