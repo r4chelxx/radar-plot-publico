@@ -1,6 +1,13 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.tools=[
 {
+  "id": "8131bd90a31340ae234883b0310fea966d01f14dd68345a72a7de5f22c9e3966",
+  "name": "682: quantum of sollazzo • Buttondown",
+  "kind": "linguagem de programação",
+  "url": "https://buttondown.com/puntofisso/archive/682-quantum-of-sollazzo",
+  "desc": "Quantum of Sollazzo Forwarded this email? Subscribe here · View it online No. 682 · Things that caught my attentionNot the National Data Library, but a... Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
+}, 
+{
   "id": "483c5944a10521dde5f808f0c5a7f8905fcf5f0d7041f337d200f27096fecbc5",
   "name": "The AI analytics platform",
   "kind": "Omni Analytics",
