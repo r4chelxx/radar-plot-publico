@@ -1,6 +1,20 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.tools=[
 {
+  "id": "733c36409f57a6d64b4eb49ac945a060082aa3ebc58f68ebc56d21824af048b3",
+  "name": "R",
+  "kind": "record linkage e correspondência de dados",
+  "url": "https://cran.r-project.org/package=fedmatch",
+  "desc": "Provides a flexible set of tools for matching two un-linked data sets. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
+},
+{
+  "id": "87d587fb19392bb7866daeeb6b83219beda45f46b058d876c647f27e3e0253d4",
+  "name": "Python Record Linkage Toolkit Documentation &mdash; Python Record Linkage Toolkit 0.15 documentation",
+  "kind": "record linkage e correspondência de dados",
+  "url": "https://recordlinkage.readthedocs.io/",
+  "desc": "Documentação oficial de Python Record Linkage Toolkit Documentation &mdash; Python Record Linkage Toolkit 0.15 documentation para uso em análise e tratamento de dados. Source note: consultar a documentação e a licença antes do uso editorial."
+}, 
+{
   "id": "8131bd90a31340ae234883b0310fea966d01f14dd68345a72a7de5f22c9e3966",
   "name": "682: quantum of sollazzo • Buttondown",
   "kind": "linguagem de programação",

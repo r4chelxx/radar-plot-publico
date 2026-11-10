@@ -2,6 +2,38 @@ window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
 {
   "date": "2026-11-10",
+  "type": "dados",
+  "title": "Publicação editorial verificada — 2026-11-10",
+  "items": [
+    {
+      "id": "69113ed0b823c72b5e77e5a4dc488e18bb492814785734c71bb305b1b4ccade7",
+      "title": "Global Human Settlement - Datasets - European Commission"
+    },
+    {
+      "id": "deff0b3866c2aa499128f6ea642ccb9e9d57cb45189f04e3fc7f5d5fca596325",
+      "title": "Global Surface Water - Data Access"
+    }
+  ],
+  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Global Human Settlement - Datasets - European Commission; Global Surface Water - Data Access."
+},
+{
+  "date": "2026-11-10",
+  "type": "ferramentas",
+  "title": "Publicação editorial verificada — 2026-11-10",
+  "items": [
+    {
+      "id": "733c36409f57a6d64b4eb49ac945a060082aa3ebc58f68ebc56d21824af048b3",
+      "title": "R"
+    },
+    {
+      "id": "87d587fb19392bb7866daeeb6b83219beda45f46b058d876c647f27e3e0253d4",
+      "title": "Python Record Linkage Toolkit Documentation &mdash; Python Record Linkage Toolkit 0.15 documentation"
+    }
+  ],
+  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: R; Python Record Linkage Toolkit Documentation &mdash; Python Record Linkage Toolkit 0.15 documentation."
+}, 
+{
+  "date": "2026-11-10",
   "type": "ferramentas",
   "title": "Publicação editorial verificada — 2026-11-10",
   "items": [

@@ -1,6 +1,50 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.datasets=[
 {
+  "id": "69113ed0b823c72b5e77e5a4dc488e18bb492814785734c71bb305b1b4ccade7",
+  "name": "Global Human Settlement - Datasets - European Commission",
+  "org": "European Commission Joint Research Centre (JRC)",
+  "territoryTier": "Outros",
+  "kind": "catalog",
+  "themes": [
+    "Dados abertos"
+  ],
+  "coverage": "Global Human Settlement - Datasets - European Commission Technical details | how to cite | download links GHSL Datasets information This page lists all the GHSL datasets available for open and free download: each description card contains the link to the technical details and for downloading the data.",
+  "frequency": "Applying the Degree of Urbanisation — A methodological manual to define cities, towns and rural areas for international comparisons — 2021 edition Publications Office of the European Union, 2021, ISBN 978-92-76-20306-3 doi: 10.2785/706535 Resident population Epochs: 1975-2100; Resolutions: 1km; 30 arcsec; Coordinate systems : Mollweide; WGS84; Spatial raster dataset grids from 1975 to 2100 at 5 years interval representing the distribution of human population, expressed as the number of people per cell.",
+  "format": "Advances on the Global Human Settlement Layer by joint assessment of Earth Observation and population survey data , International Journal of Digital Earth 17 (1), 2024 10.1080/17538947.2024.2390454 Global urban centres database and building footprints Urban Centre Database UCDB R2024A (last update: v1.1 - 31/07/2025) Epochs : 2025; Formats : CSV; XLS; GPKG; Groupings : Global coverage; thematical; regional; The most comprehensive and updated dataset for world cities, with a coverage of 11,000 urban centres and 15 thematic domains (Human Settlement Baseline, Geography, Temporal Trajectory, Land Use Land Cover, Infrastructure, Socioeconomic, Exposure, Hazard and Risk, Vegetation, Water, Natural Systems, SDGs, Climate, Health, Emissions), resulting in 473 indicators, and 2602 attributes ranging between 1975 and 2030 This dataset can be explored using the interactive visualisation of the Urb",
+  "period": "Advances on the Global Human Settlement Layer by joint assessment of Earth Observation and population survey data , International Journal of Digital Earth 17 (1), 2024 10.1080/17538947.2024.2390454 Resident population grid (inhabitants) Epochs : 1975-2030; Resolutions : 100m; 1km; 3 arcsec; 30 arcsec; Coordinate systems : Mollweide; WGS84; The spatial raster dataset depicts the distribution of population, expressed as the number of people per cell Datasheet Download GHS-POP How to cite Dataset : Schiavina M., Freire S., Carioli A., MacManus K.",
+  "granularity": "Não informado pela fonte oficial",
+  "geoUnit": "Global Human Settlement - Datasets - European Commission Technical details | how to cite | download links GHSL Datasets information This page lists all the GHSL datasets available for open and free download: each description card contains the link to the technical details and for downloading the data.",
+  "api": "https://human-settlement.emergency.copernicus.eu/downloadWizard.php",
+  "docs": "https://human-settlement.emergency.copernicus.eu/datasets.php",
+  "limitations": "A página consultada não detalha todas as limitações, a atualização e a qualidade do recurso; conferir documentação e licença antes do uso editorial.",
+  "lastChecked": "2026-11-10",
+  "url": "https://human-settlement.emergency.copernicus.eu/datasets.php",
+  "description": "The GHSL framework produces thematic information and evidence-based knowledge supporting the implementation of EU urban policy and the international frameworks."
+},
+{
+  "id": "deff0b3866c2aa499128f6ea642ccb9e9d57cb45189f04e3fc7f5d5fca596325",
+  "name": "Global Surface Water - Data Access",
+  "org": "Joint Research Centre (JRC), European Commission",
+  "territoryTier": "Outros",
+  "kind": "catalog",
+  "themes": [
+    "Dados abertos"
+  ],
+  "coverage": "Global Surface Water - Data Access Joint Research Centre Global Surface Water - Data Access NEW LAYERS The new dataset 1984-2024 is available to download Last updated: 15-10-2026 License All data here is produced under the Copernicus Programme and is provided free of charge, without restriction of use.",
+  "frequency": "Global Surface Water - Data Access Joint Research Centre Global Surface Water - Data Access NEW LAYERS The new dataset 1984-2024 is available to download Last updated: 15-10-2026 License All data here is produced under the Copernicus Programme and is provided free of charge, without restriction of use.",
+  "format": "Dataset ISO 19139 Metadata file Occurrence occurrence.xml Occurrence change intensity change.xml Seasonality seasonality.xml Recurrence recurrence.xml Transitions transitions.xml Maximum water extent extent.xml Google Earth Engine The 2021 data are available in the Google Earth Engine data catalog Tutorials for using the Global Surface Water Dataset in Google Earth Engine are available here .",
+  "period": "However, the Seasonality, Monthly History, and Yearly History assets only cover the 2022–2024 period.",
+  "granularity": "Não informado pela fonte oficial",
+  "geoUnit": "Global Surface Water - Data Access Joint Research Centre Global Surface Water - Data Access NEW LAYERS The new dataset 1984-2024 is available to download Last updated: 15-10-2026 License All data here is produced under the Copernicus Programme and is provided free of charge, without restriction of use.",
+  "api": "https://global-surface-water.appspot.com/download",
+  "docs": "https://global-surface-water.appspot.com/download",
+  "limitations": "A página consultada não detalha todas as limitações, a atualização e a qualidade do recurso; conferir documentação e licença antes do uso editorial.",
+  "lastChecked": "2026-11-10",
+  "url": "https://global-surface-water.appspot.com/download",
+  "description": "Global Surface Water - Data Access Joint Research Centre Global Surface Water - Data Access NEW LAYERS The new dataset 1984-2024 is available to download Last updated: 15-10-2026 License All data here is produced under the Copernicus Programme and is provided free of charge, without restriction of use."
+}, 
+{
   "id": "97995754262f60cf84e9c9b25a4f79ef5de8bc0f0de16639ebc888bd347f9412",
   "name": "Top AI companies of September 2026 on podcasts and YouTube | Arcmira",
   "org": "Arcmira",
