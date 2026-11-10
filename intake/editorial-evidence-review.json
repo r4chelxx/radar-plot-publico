@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-11-10T20:45:07.460Z",
+  "generatedAt": "2026-11-10T20:50:58.186Z",
   "policy": "Evidence-based category triage. Missing license is recorded as unknown when not found; complete means draft eligibility only, never approval or publication.",
   "counts": {
-    "pending_more_evidence": 748,
-    "evidence_complete_for_record_draft": 15
+    "pending_more_evidence": 896,
+    "evidence_complete_for_record_draft": 17
   },
   "categoryCounts": {
-    "uncategorized": 682,
+    "uncategorized": 799,
     "opportunities": 34,
-    "tools": 45,
-    "datasets": 2
+    "tools": 47,
+    "datasets": 33
   },
   "records": [
     {
@@ -10146,6 +10146,59 @@
       "publicationReady": false
     },
     {
+      "id": "65efd4d1d4fa6360d3008c5d7cd3e5ce205109b850a8e818094c5967390ea41b",
+      "url": "https://x.com/HaleyforMI/status/2116945962706862397",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "660705472c50d132a5ff21c4aa51ffd9ea18ae34c1380590b4b126b9f05e761f",
+      "url": "https://www.tiktok.com/@aosfatos",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "66ad0bf4c8131aa610d14573553fbbdd28ad524c86bdff51be7549e9fd22d8e9",
+      "url": "https://www.fec.gov/data/receipts/individual-contributions",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "6789809e75b371853c084f2cc979728f830495ae70ffadcbee572b05c70107e8",
+      "url": "https://fonts.googleapis.com/css",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
       "id": "67b13d886912781ac20b16fdeea788eef6b066dc3513b131297aa6e3b7985361",
       "url": "https://fonts.gstatic.com/s/roboto/v29/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2",
       "category": "tools",
@@ -10162,6 +10215,426 @@
         "página primária acessível com conteúdo compatível",
         "função documentada na fonte",
         "condições de acesso minimamente descritas"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "67eea33eb3cb4c131270c3462fab5fbfe3f1a3809a8edbb5a83b007974c90d6b",
+      "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9icmFzaXMuYWpvci5vcmcuYnIvYWN0aW9uL2Rpc2FibGVfZW1haWw_dG9rZW49ZXlKMWMyVnlYMmxrSWpveE16VXlNak14TENKd2IzTjBYMmxrSWpveU1qTXpPVFU1TkRnc0ltbGhkQ0k2TVRjNU16YzRPVGMxTnl3aVpYaHdJam94T0RJMU16STFOelUzTENKcGMzTWlPaUp3ZFdJdE1UQTBOekEzTUNJc0luTjFZaUk2SW1ScGMyRmliR1ZmWlcxaGFXd2lmUS50QjVMSURKMlE1RUtYaDR1RHpzV2h4VDZKUVlMOThVX2JXaXJWTEVma1cwIiwicCI6MjIzMzk1OTQ4LCJzIjoxMDQ3MDcwLCJmIjp0cnVlLCJ1IjoxMzUyMjMxLCJpYXQiOjE3OTM3ODk3NTcsImV4cCI6MjEwOTM2NTc1NywiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.qJ60KZvdiBb8EwquowPW4RJYysnMfe1WEyjuQQH4ksE",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "680fc5fc915fe17cba22c03cc5c72329752666c2549e62228e79ca311866472a",
+      "url": "https://substack.com/redirect/d4fd5684-559f-46b1-8b41-353998207d09",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "681d333aafa307c5c93a31925882ed82337f1aa37c6afb4049460570a36c71f2",
+      "url": "https://mailchi.mp/poynter/as-democrats-swept-the-midterms-news-anchors-struggled-to-find-the-words-5288287",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "684edd6a6213230e82e68b2ce3fe917e05d0c392e3b491c6255c8347a6f90650",
+      "url": "https://www.cjr.org/kicker/magazines-are-back-and-theyre-newsletters-preeya-goenka-beehiiv.php",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "689220f662432ba69a2ff0328533c4747ba226b9d61d02fea234edb6377d7312",
+      "url": "https://assets.buttondown.email/images/d68ad978-1aee-4368-9ecc-ca29ac20104e.png",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "690e1da2383b385dfe34c24cdfa1e590ee24734ea3e6fbfdfaf1855e6a366aac",
+      "url": "https://vizhub.healthdata.org/health-threats",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "692e27ca86c5d7f4b9b704687e596280edc4497d9d3f89eb7e7cd2edd5a119cc",
+      "url": "https://substack.com/redirect/b82eabce-404e-4fa9-95d1-3548d50da9a0",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "6936264f1b31df7ec1ba41c1e49c76cfd254df0a7eccdb7e84708b9db31a4a26",
+      "url": "https://www.reuters.com/world/us/fbi-director-kash-patel-faces-scrutiny-inaccurately-saying-kirk-killer-had-been-2025-09-11",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "6940e6bf32818c172e866d133cf0f1e21d5ad7cf3e830d2a237f124bcf7c0452",
+      "url": "https://www.politico.eu/article/fridge-hacks-hit-french-blood-banks",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "6973bdaa1ce484e13e9a6776dfc08038fa936fbb79435c448c081c86686cb438",
+      "url": "https://www.nytimes.com/2026/11/01/us/politics/trump-speeches-rallies-age.html",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "697bb63d0d25156cc5d0fe4ae1dbf1284d10137b5afaa134b6e5388133a06670",
+      "url": "https://www.nytimes.com/2026/11/02/insider/midterm-election-reporting-michigan-politics.html",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "6a4efc2d0413331aa9d55c340efc2a0f3d80974ab19006526c19dcc0514152a7",
+      "url": "https://www.poynter.org/the-craig-newmark-center-for-ethics-and-leadership-at-poynter",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "6a62a020f5da0c9d7419de3a21fe82f94d0398813bf088cd221f960c18d5553d",
+      "url": "https://www.firstpost.com/world/we-kept-silent-after-vucics-election-setback-serbian-broadcaster-apologises-for-years-of-media-bias-14056153.html",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "6ac23f581f5daf8fd48d1fa074525839a64a8b690398b88cbc83c819aa029c12",
+      "url": "https://substack.com/redirect/6bd2b7b8-08de-435d-b947-c66ff6105275",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "6ac32c8acced5ed23a2cddf28274b2d6f05699b6048d30cfa56ef0b33e69ce85",
+      "url": "https://www.npr.org/2026/03/26/nx-s1-5762691/doj-admits-ice-courthouse-arrests-relied-on-erroneous-information",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "6b67523974819faec2dd24534f8dde9614fbf7a4bb06f6ece95fab514d522f72",
+      "url": "https://substack.com/redirect/dcdbf048-d41e-4297-8a77-91c614a66ff1",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "6b8c0542f1e403401f829e76488e38450e23835645783e2c8710c14f9d8126b2",
+      "url": "https://justthenews.com/politics-policy/elections/democrat-bloodbath-reminder-elections-still-are-about-economy-first-and",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "6bf2c6ea027ced22ca2246837aee230709684d51c7b48206a07e171d8aac4f93",
+      "url": "https://www.meta.com/technologies/community-notes/helpful-notes",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "6c11decdfcb66b24e36af3b5683b090109bb0c9f6d1faeadfa081f6a829fdd76",
+      "url": "https://substack.com/redirect/da00f757-2b2e-4468-85f3-103285434ccc",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "6c192c5c27de7eb74066cbbdd04253ebc44a7e06830ef01c07c896ae87ee2bee",
+      "url": "https://www.instagram.com/reels/De9n98vxTeU",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "6d1a71133f3e2b2b68f3fd9936f6c3a5098704fe1d55d1a5f1ac5e21ef52f628",
+      "url": "https://www.facebook.com/GlobalInvestigativeJournalismNetwork",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "6d58f6175157795709c580fd0ec09613d4079a2b38387429180560ba1009d6cf",
+      "url": "https://substack.com/redirect/6165e517-e01d-4ea4-a4bc-ca2c3d015bb6",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "6df368798a0474267847989ea36028c452ab40598074800c787beeccb206792a",
+      "url": "https://benchouse.ai/blog/getting-an-analytics-agent-from-50-to-96",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "6e04bf839645b5954023b1f9f28cb69fb8258c382a97f2b028decd24139d40e4",
+      "url": "https://www.poynter.org/shop/fact-checking-media-literacy/ai-for-journalists-and-content-creators-from-understanding-to-application",
+      "category": "tools",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {
+        "productSignal": true,
+        "function": true,
+        "access": true,
+        "license": false,
+        "licenseStatus": "not stated in captured source"
+      },
+      "missing": [],
+      "decision": "evidence_complete_for_record_draft",
+      "publicationReady": false
+    },
+    {
+      "id": "6e1719176791960ca556a86fe74b9944e0224c71364e9bd7f376b8db9291c3f4",
+      "url": "https://substack.com/redirect/b3a3f79d-9553-4d2f-9b40-4af42052fc0c",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "6e3b6ccb4cd5ddff36894932814c0c2d99665ecb3f0575f3bb1840b88e28a648",
+      "url": "https://developmentseed.org/blog/2026-10-02-earth-embeddings",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "6e789fddd15efb9769cbc8cc64ca7280d9f93f2d1aa536cb10fd0ed3dde9ff21",
+      "url": "https://www.cjr.org/the-interview/nicole-noren-espn-producer-quit-protest-sports-betting-gambling-addiction-draftkings-im-not-going-to-have-blood-on-my-hands.php",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "6e8c0d47d3bb6d918c280b869bbcc40c2d89d090c36a2255ac6ded84fe5b5185",
+      "url": "https://www.cjr.org/the-kicker",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "6e91d53c9659ec10d2d09843e78addbed9d509f3d16416dfa2168f6d2559884d",
+      "url": "https://click.mlsend.com/link/c/YT0zMTM4MDk4MDExNzEyNzg4MTY1JmM9cTVoNSZlPTE5MjgmYj0xNTc5ODg5NDg5JmQ9ZjdoM3g2ZQ==.x6RD-kb9n3VfCLpHxO4WkEBTP8JkJphRWQrkX8s9WEg",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "6e98c7310458915710d4042dc149f847481ee333267a67c8a95e72421a6c4872",
+      "url": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/b6f4617b-772a-4fe5-bdaa-ba69e8abb9ca/image.png",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "6e9a9d187107013680c6d46f5cf8a8e8cb662bc3c831fbf54ba70d2b1af77104",
+      "url": "https://www.aosfatos.org/noticias/bahia-votos-prorrogacao-do-segundo-turno",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -10184,11 +10657,711 @@
       "publicationReady": false
     },
     {
+      "id": "6ed36a1224f26dac22428bcaa538aaaaa27a3d2669c229281969d3c4b33d43b5",
+      "url": "https://x.com/nicholaswu12/status/2116948240624988262",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "6f36d5c4162d832e36fab92a5f036021fa05746cc709a14b7f76fd2738e5e4c7",
+      "url": "https://buttondown.com/unsubscribe/a3d0fe98-c591-4f8d-8643-391857dcc8e8",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "6fb3b91a0ad6deb7c38a0c711a9392f0a8338174052e069efb310a02b98d853a",
+      "url": "https://www.wsj.com/politics/trump-jeffrey-epstein-birthday-letter-we-have-certain-things-in-common-f918d796",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "6fce41bcb4b3fab6a2307f457ee33034aef738590ae878ab09dc7de1960b6bc0",
+      "url": "https://substack.com/redirect/7de066a7-1960-4d85-b3a2-5e1a6b27ca7f",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "70e7db305bac6949e1c57fd46644fd7000e33383ed28e479f521df0c7fb39574",
+      "url": "https://x.com/ClayTravis/status/2116943407096500352",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "711e11db15dd7c885a62e1c9d5eee23dc3f53ed384afad72a8470da75f7e294b",
+      "url": "https://pudding.cool/2026/10/kevin-bacon",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "7124c4c2dcddb33fa96064649e052963eb98c77c69b105b33dc2a96725c4732a",
+      "url": "https://assets.buttondown.email/images/07959120-907b-4ccd-bb08-2f95ee92c484.png",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "71c4631f575b0ad325b215649e665c2ce8741c51df1af16a5d01baa694244b4a",
+      "url": "https://www.404media.co/the-confessions-of-an-ai-fraud-kingpin-onlyfake-owner-nazarenko",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "71cf8ca4941e525dbfea02660a69f814bd6fed689e94375adf373983d54d2ff6",
+      "url": "https://www.instagram.com/reels/De_xxNwISej",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "72d55b5b990fac240f92c83519acca6327eff93ca632f21e8042a063fdbfcb5e",
+      "url": "https://www.nytimes.com/2026/11/05/business/media/tv-ratings-midterms-steve-kornacki.html",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "72f28014a0a6851435fb70d88574443e9edfaded6ddfa4ab6ab0b5d97455f131",
+      "url": "https://www.youtube.com/watch",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "733e2b785c22f5de20ddab7a0446fdc7f0d7e8fde787a18d6bfe38a3f5fb6c8f",
+      "url": "https://variety.com/lists/variety-10-comics-to-watch-2026",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "74374f37a23ab859d0c5e5e9b26cf85305df6cfd61490d8dfcafe5f0afee5827",
+      "url": "https://www.nytimes.com/2026/11/05/us/texas-democrats-statewide-sweep.html",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "7454afa69304145ce12853104ea08bb2c45aa0dfea6b72d391c3118ae4aecde3",
+      "url": "https://substack.com/redirect/33f3af6a-8172-4d18-a84f-a5475c0673fd",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "748e839e9130a2f00dbc8138489d2b3422213c6d2d1dc00398ec6169ae519fd9",
+      "url": "https://cajueira.substack.com/p/o-nordeste-nas-urnas-os-caminhos",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "7508d3517366723604b81b92103c7f491de652fca0dd4d783c0b5c8e9add43e4",
+      "url": "https://x.com/Olivia_Reingold/status/2118394476460642723",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "751130dd79824f913f42dd0fdf58134baf25a4469b57a999d115c7d2d795fe31",
+      "url": "https://www.cjr.org/analysis/reporting-the-backlash-data-centers-midterms-impact-ai-expanding-infrastructure.php",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "757a1ad6453f2731c2e8c076e8645b48bf3154cb6b3036d02aa6cee339dce8d9",
+      "url": "https://www.poynter.org/mediawise/programs/g-a-m-e",
+      "category": "tools",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {
+        "productSignal": true,
+        "function": true,
+        "access": true,
+        "license": false,
+        "licenseStatus": "not stated in captured source"
+      },
+      "missing": [],
+      "decision": "evidence_complete_for_record_draft",
+      "publicationReady": false
+    },
+    {
+      "id": "75830d37275ab6b9401258ffb58dc2705e1455aa3b19d7e46de5fb060e95c30f",
+      "url": "https://substack.com/redirect/d54dd86b-65bc-4ae1-9204-6d0dd280534d",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "75b33c86e605cfbc1c75c72cdcdb6d0048e8a1bac55250d833f2de4629810944",
+      "url": "https://docs.google.com/presentation/d/1G7OR_SI3xwndT6SCpcquLwmj3cA5HgyatwktwRxXl8g",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "75ba69586812903ccedac6a6898401a2e9b38ead09433dd357586dd8adb8061c",
+      "url": "https://us.list-manage.com/KUKmwD5_wfx",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "75c1a8022759fa2ed0547ba848c395eafc171d375760d784f2eea5076518a7bd",
+      "url": "https://www.themoscowtimes.com/2024/02/29/moscow-police-detain-novaya-gazeta-chief-editor-a84290",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "7652116db3d2b8f38f592964006080054c6f0d5d62c7c09859afd9f0a9fb148b",
+      "url": "https://treesforlife.org.uk/groves/496858",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "765ac3abf1f001f12bc2953a68b2d666e5966c972dc52b8494a0e667d8985552",
+      "url": "https://knightcenter.utexas.edu/es/el-centro-knight-inicia-las-celebraciones-de-su-25o-aniversario-con-un-webinar-y-la-proyeccion-de-un-documental",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "7725dcbe0c4ef641d5a5490f9edfb7220018897394d0f3fab54bec7acd0e04ab",
+      "url": "https://gijn.us5.list-manage.com/unsubscribe",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "785f6ae2f035dbe5cd9edd809bff56643702c5d077aa9b80114d67ebd5b0fbcc",
+      "url": "https://www.poynter.org/mediawise",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "78b7768c548f116e28d6d90a7369f932c7ec61918cce36851cdc0306714dda06",
+      "url": "https://indicator.media/workshops",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "78da64cad84049330a470328a137f3bf4d904603c970323f8f25b503b1be05b9",
+      "url": "https://substack.com/redirect/a35d9f1e-7fb9-43e5-8f3d-0dae4b1c9e4d",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "79959ce3a854e4a60f1e61cb3951f8f77ac033f50dcf195f9222f068a369b92a",
+      "url": "https://us.list-manage.com/sFPQj32ur1Q",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "79a79086aaa4c7ab2aca9accc433d8aa47c3003f7b467deef086efd88ea6ddc2",
+      "url": "https://substack.com/redirect/4a9a9d2e-9afc-4398-bbfb-39f0cd544b00",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "79f58fba0a0415e1f4253a7c7f5a562e8c89ca03a0bf49476b1f6e8777e05e1c",
+      "url": "https://www.politifact.com/",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "7a8733dfc957c8a841197e5b88c9a627db3e1944016fa8b5f4691daff706f01c",
+      "url": "https://www.cjr.org/analysis/the-susan-collins-effect-maine-senate-newspaper-deference-pr-portland-press-herald-bangor-daily-news-change-edit-coverage.php",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "7bacf17f9b141679cde47eb62abcd15da1df0c48b2e92a172772be35c5420c94",
+      "url": "https://www.latimes.com/politics/story/2026-11-04/democrats-historic-rout-was-fueled-by-massive-voter-swing-to-left",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "7c8e210b6f1e7e477a91d16af5e649740ed3f004831d9cb1ea2f160e97bad31e",
+      "url": "https://open.spotify.com/episode/5Rkhjs9pWNkMXuch1gzhxK",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "7c91fc558e51105233e48c00baaec748e66f3161ff7b3aaba59ddde628920380",
+      "url": "https://substack.com/redirect/0e1b633b-9018-45b9-b6b7-f6e15931c219",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "7ca6f3a8499bfea916cc93d09eca79a0a80070c375c25741550adcadd12d0073",
+      "url": "https://www.aosfatos.org/noticias/video-tornado-eua-santa-catarina",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "7d3f66ceb63c469242f6e7a8ece97c6a51d2d8d9a5c280d3cd6d014ed4e6462a",
+      "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9vYnNlcnZhdG9yaW9kYWltcHJlbnNhLnN1YnN0YWNrLmNvbS9hY3Rpb24vZGlzYWJsZV9lbWFpbD90b2tlbj1leUoxYzJWeVgybGtJam94TXpVeU1qTXhMQ0p3YjNOMFgybGtJam95TWpNM056Y3hNelVzSW1saGRDSTZNVGM1TXprNE9EUTBOU3dpWlhod0lqb3hPREkxTlRJME5EUTFMQ0pwYzNNaU9pSndkV0l0TWpjMU5UUTNOaUlzSW5OMVlpSTZJbVJwYzJGaWJHVmZaVzFoYVd3aWZRLmtwU3BrT09XV2FYbFVBTlNRSEVZUVQtd2FUTGhIUTFTbG5MeUdNalNSVnciLCJwIjoyMjM3NzcxMzUsInMiOjI3NTU0NzYsImYiOnRydWUsInUiOjEzNTIyMzEsImlhdCI6MTc5Mzk4ODQ0NSwiZXhwIjoyMTA5NTY0NDQ1LCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.ixbzSsgd1bD5TS7F53eAsPT2cMq7itZZkgZjVFSHzdc",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "7d51118378e0096f84e70312c85721fff02f9183b3690475f07f5cc978be2dff",
+      "url": "https://news.kalshi.com/",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "7d81328a5f42643dbdeeb8e6563aba904ef2a4252c932aa47fb4327213e4f2a3",
+      "url": "https://x.com/GoogleDeepMind",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "7e82bcb3e6b106af4f5645efd31840e76f80515c7882e54a7b823c444d9ec619",
+      "url": "https://www.instagram.com/p/De2oYpDTvoZ",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "7f1055ee74b08dd06d37c582828d4b07778543d8f29b62a0295d57f0d91e602b",
+      "url": "https://x.com/ClayTravis/status/2117723140402892849",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "8004d0d71a569fe5aabf4df019149286bfdecc11d7fa988c06cb3289b968b92f",
+      "url": "https://newsletter.apublica.org/email_marketing_click.html",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "802a5945ac5ba87d76ce91b090da3bd24db1f9edbdc865d572ab91cea4ec949d",
+      "url": "https://substack.com/redirect/eb620eb1-6f97-4f24-b414-f844c2012a04",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "806a0b8ee9534c840771eb3eb17274ad43e431eb81c6a17fb50d01a0eccd7631",
+      "url": "https://assets.buttondown.email/images/91a32cae-c247-411f-99e3-cab597f508ce.png",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "80d98ddd2febef0260df2a2750ce7ccf084359d36b928cfa219cc722fbd1e422",
+      "url": "https://www.pangram.com/blog/introducing-pangram-image-1-0",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "80ea5047a74e4fc49df0927aa23616429519ddb4a9e43c37463bdb806d472a6f",
+      "url": "https://us.list-manage.com/T3eUKWc1dmT",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "818815df7a03f0b9ffc7f7755fdc0b0ce41c1f5c040ffca141535553872a4fcc",
+      "url": "https://substack.com/redirect/b1326057-f618-48f5-86fb-155767425ecf",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "81a1c8b1f8768964d4dceced75e6bfdcf9f9f5cfdaadbb1abbd186e88cab044f",
+      "url": "https://x.com/IngrahamAngle/status/2118027606297850318",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
       "id": "8212496c1e061bd574e8073cc5e45c2f3026b9680eedfc4da3825d826a7735e0",
       "url": "https://email.datawrapper.de/link/c/YT0zMTM0NDQ4MDg4MjQwODgzNzExJmM9dzBxNCZlPTE5MjgmYj0xNTc4ODEwNjQ5JmQ9cjFvNWk2cg==.hOGONDZh8ZsT9AJOaItoPnfFUPjCjgQTR03WV7JscpU",
       "category": "uncategorized",
       "originalCategory": "tools",
       "checkedAt": "2026-11-10T20:31:28.952Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "822e09c87a2f49b5aee8c157c23989e0b07ee34b19aad89898ab7ce6853633e2",
+      "url": "https://www.janestreet.com/join-jane-street/position/6558007002",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "8370ceb3cddb9eafcd89a0fe63206c08c8ea6ebafdff061e48def313fb2107b6",
+      "url": "https://x.com/chuckschumer/status/2116969707425468536",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "839742bf79973bd156d4d2f1858f0ee924a14ab4ecce23d06d4b6b379a4c09db",
+      "url": "https://substack.com/redirect/1afb8fb1-fc30-4568-b809-d3b3ce3c3be4",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "83e06b20794e020e18297d782ad37a3f6a879d84da271300bcf9fa90c198be19",
+      "url": "https://open.spotify.com/show/5E5WVPzob4xxHEnAjfHpVX",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -10212,6 +11385,460 @@
         "chamada de financiamento/bolsa identificável",
         "prazo futuro confirmado em formato de data reconhecido",
         "elegibilidade expressa na fonte"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "84e4e1e96ecb6a3ba9572eb4d6bbd1b97c99ef4eb0547499e55b199fb7a34dbe",
+      "url": "https://substack.com/redirect/2ac0e040-89c9-4c22-b005-fecbf8ccf1e2",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "84e6ac4a4f7f2f325e498d2864b4636878a556484d0f84df405de7ea40ecf152",
+      "url": "https://www.janestreet.com/join-jane-street/position/7668113002",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "8553f2c588bba9b63ea7b08e605ca60e65d2cfaac57864740a9b67b8af93b0ea",
+      "url": "https://substack.com/redirect/f0544a83-6ddc-4bdc-a575-605baf6150e8",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "856459712350049e5202fdf6d5a1ecf30d74d15b827942f1cafa9ed6875a5f9a",
+      "url": "https://substack.com/redirect/7f134126-3107-4c28-9411-3eb09f751711",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "85efb225cf2e0fd6e76e7e5269dc47e4884a6231379c7bc9b67a00f522f136a7",
+      "url": "https://substack.com/redirect/8cb53f9b-8537-4f33-8b5e-f264cb13b48f",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "860aadfcb1c13b7040f6f3bbcd824d496244d182ddd075579f359f906fdc3ea1",
+      "url": "https://buttondown.com/puntofisso",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "860f2b0e53c8698d5e0ba968970f20cfa90af72599110bd378393072a2c4104c",
+      "url": "https://www.occrp.org/en/news/drc-orders-probe-into-illegal-mining-following-major-copper-and-cobalt-seizure",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "864763b90c6eb329b1c11eb518e00f96f6bca15da633fdb85b474baf64b6f53e",
+      "url": "https://x.com/mjnblack/status/2118359682460823685",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "86f01e2068dc9b9a95dc4adc5c69f12e5271c12bf0325945fe9d241a69e8f607",
+      "url": "https://www.instagram.com/mediawise",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "874d03912a46d8821062c8c44a8151bd3fa2009acaf7bc83d995ca76ec3c447c",
+      "url": "https://github.com/sponsors/puntofisso",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "889cacde0569e5b00bc01fcadd33080bc00dd92e8080e1476b217fdf83e4f1d1",
+      "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9jYWp1ZWlyYS5zdWJzdGFjay5jb20vYWN0aW9uL2Rpc2FibGVfZW1haWw_dG9rZW49ZXlKMWMyVnlYMmxrSWpveE16VXlNak14TENKd2IzTjBYMmxrSWpveU1qTTFPVGcyTXpNc0ltbGhkQ0k2TVRjNU16ZzNNREV3T1N3aVpYaHdJam94T0RJMU5EQTJNVEE1TENKcGMzTWlPaUp3ZFdJdE1UVTVNRE16SWl3aWMzVmlJam9pWkdsellXSnNaVjlsYldGcGJDSjkuSzFObDFjWWJqQmNFUC1VLTZ4N255QjdfZHJDdVZyalk3dmlfT3JsMlpjQSIsInAiOjIyMzU5ODYzMywicyI6MTU5MDMzLCJmIjp0cnVlLCJ1IjoxMzUyMjMxLCJpYXQiOjE3OTM4NzAxMDksImV4cCI6MjEwOTQ0NjEwOSwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.wEbUsYuPMPFCaRS-S1a_9uElZL_16IqzBr31D7tVZ1E",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "89c63fc8d5f0d99e6c51c8369969e021fc71d05b8e16eaf4fe7ecc6dd2375b25",
+      "url": "https://www.linkedin.com/company/aos-fatos/mycompany",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "89f291f2a7733c3785c40c173e4188105312cbb0786a0a2c6cac950eef5b6c32",
+      "url": "https://poynter.org/advertise",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "89f73c0ba621472034d3aa075fbadca4e37759383ec2eb4f2ac21ce4fc2b117a",
+      "url": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/d9528512-3756-4096-a60c-aa4fef2c8c04/image.png",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "8a201a3c55421d8208b25d537cadd6f305e5a9099864c007af4389097f1b12ef",
+      "url": "https://substack.com/redirect/52f19313-ffd6-4981-b58c-120027cdebe7",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "8a95c0bae72c4e4c4e996df0b649b507ef8f12a55ae0490c6e72d11abc2225c5",
+      "url": "https://www.poynter.org/commentary/2026/2026-midterms-democratic-sweep-election-night-media-coverage",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "8aeba21ada81830e966865c2b56363e9de68f3bd570f3a42c5c96683c21ca79e",
+      "url": "https://substack.com/redirect/a5242d61-2f0e-4eb8-9064-04fd85c69744",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "8b7671ab0f9d0557ddeb3efc22ddef34f3eb19786439bf7c1329c49beb2de1ee",
+      "url": "https://www.washingtonpost.com/politics/2026/11/04/democrats-face-choice-trump-come-january-confrontation-or-compromise",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "8c35e948e4dfbe3a1364dbba6b46476917c88ef91d38b626fa2459151b7fe7c0",
+      "url": "https://solutionsjournalism.us1.list-manage.com/unsubscribe",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "8c4368148b5c3e576e8b8597d5e308ac687415f7a04a726b7aac803778a1b3e4",
+      "url": "https://aosfatos.us11.list-manage.com/unsubscribe",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "8c5e30f35627c490476a5c039fa53fe2066576ddd00d7e2a906a12440d02afb8",
+      "url": "https://substack.com/redirect/7ec887c2-e9e6-4278-a2f5-43b33d311216",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "8c9f0bb9a2d9c7ab8f90da8befba79f9ff25c320cdd4401bbe225588ce589910",
+      "url": "https://poynter.mailchimpsites.com/manage/preferences",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "8d5cf731aebba25b03cf41417d392a5e27077cd8d976f160be88695e47c1c2c8",
+      "url": "https://www.poynter.org/mediawise/programs/the-mediawise-weekly",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "8dfe822ac1beb1724e72dad16844b2efeb29177cd94609f359c9f4e5ba2b9e4d",
+      "url": "https://assets.buttondown.email/images/a8c257c1-46bd-46c1-ab4c-14fa733105b7.png",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "8e67d19bd72edc9a76b23f8c87d3128d914f9d4e4155c70573168fbf3975f2c5",
+      "url": "https://mailchi.mp/poynter/from-classrooms-to-social-feeds-whats-new-at-mediawise-5288126",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "8ec5c2b9181f1fcfeee934bc212c860638036b006d3e4e0604febf0e72b7ab0a",
+      "url": "https://substack.com/redirect/19167a4a-f8c7-4a3b-97e2-80a7b3a18d3d",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "8f69eaca928ffc84faf698cdb293bbcaa6e73ba75fe54d53cb2f94efd97a4bce",
+      "url": "https://indicator.media/p/briefing-the-ai-image-detection-editing-gotcha-game",
+      "category": "datasets",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {
+        "datasetSignal": true,
+        "directResource": false,
+        "format": false,
+        "coverage": true,
+        "license": true,
+        "licenseStatus": "stated"
+      },
+      "missing": [
+        "download, API ou acesso direto ao recurso",
+        "formato identificável"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "8f93f35be40c25e0034155a81b1481e2f743b111f6c4b37352660c63dd55d87c",
+      "url": "https://x.com/mehdirhasan/status/2116959181412630940",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "8f95b1d638355884fdeb68773ed79daf0d4afe0694b83882d927ced8469982f4",
+      "url": "https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "8fb4cb619f39450398aca489ce92f4cde94116977db3dda7a3d0fdb61a15ef49",
+      "url": "https://indicator.media/p/zuck-chucks-fact-checkers-to-cosplay-as-elon-musk",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "8fbe34c56b9df6bbbd39b3bcf4a6447bd2bf63e32cac0923f70534b8375f3fef",
+      "url": "https://substack.com/redirect/6be64ec5-501c-4c0f-8f0a-9caf0b3b5c67",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "909fa7b15ef3f24dc34239f84ecdcfa20feab49353b5d4cb8e55c922f7cd3e02",
+      "url": "https://us.list-manage.com/mE6OVJdSn_8",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "90b407f07e86964a38bfc677406da6d5076382733cb81310c3b5e69f26ad9530",
+      "url": "https://www.washingtonpost.com/opinions/2026/11/04/trump-gop-punished-by-midterm-voters-please-hold-giddiness",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -10599,6 +12226,726 @@
       "missing": [
         "página primária acessível com conteúdo compatível",
         "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "023a378ca9216f59cd9f2049b240556bd6795374eb397e246bedf500c6b8a9fd",
+      "url": "https://www.gbif.org/dataset/7e276a96-73ea-4efc-8ffb-e74ef573ef6c",
+      "category": "datasets",
+      "originalCategory": "datasets",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {
+        "datasetSignal": false,
+        "directResource": false,
+        "format": false,
+        "coverage": false,
+        "license": false,
+        "licenseStatus": "not stated in captured source"
+      },
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "evidência de conjunto ou catálogo de dados",
+        "download, API ou acesso direto ao recurso",
+        "formato identificável",
+        "cobertura temporal/geográfica"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "03fca8f1a52ccc2cea8b4116b551631e57097e9712172b141c7fc0b58362d25b",
+      "url": "https://data.worldbank.org/indicator/1.1.PGap.1.90usd",
+      "category": "datasets",
+      "originalCategory": "datasets",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {
+        "datasetSignal": false,
+        "directResource": false,
+        "format": false,
+        "coverage": false,
+        "license": false,
+        "licenseStatus": "not stated in captured source"
+      },
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "evidência de conjunto ou catálogo de dados",
+        "download, API ou acesso direto ao recurso",
+        "formato identificável",
+        "cobertura temporal/geográfica"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "0888d76bcdfb19b58025aef3c6c3ce81a5c5fb8d23847b75606782db7cba1235",
+      "url": "https://www.gbif.org/dataset/c33ce2f2-c3cc-43a5-a380-fe4526d63650",
+      "category": "datasets",
+      "originalCategory": "datasets",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {
+        "datasetSignal": false,
+        "directResource": false,
+        "format": false,
+        "coverage": false,
+        "license": false,
+        "licenseStatus": "not stated in captured source"
+      },
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "evidência de conjunto ou catálogo de dados",
+        "download, API ou acesso direto ao recurso",
+        "formato identificável",
+        "cobertura temporal/geográfica"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "097c804e9fb3b663f6d0b4909bb348c9b0966f3f26671a375c4fb0523e78780f",
+      "url": "https://data.worldbank.org/indicator/1.0.HCount.Vul4to10",
+      "category": "datasets",
+      "originalCategory": "datasets",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {
+        "datasetSignal": false,
+        "directResource": false,
+        "format": false,
+        "coverage": false,
+        "license": false,
+        "licenseStatus": "not stated in captured source"
+      },
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "evidência de conjunto ou catálogo de dados",
+        "download, API ou acesso direto ao recurso",
+        "formato identificável",
+        "cobertura temporal/geográfica"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "177e49e413fca7dcaa2cb62c096880d295791b94558aef90f44013dd85bf1d15",
+      "url": "https://data.worldbank.org/indicator/1.0.HCount.Poor4uds",
+      "category": "datasets",
+      "originalCategory": "datasets",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {
+        "datasetSignal": false,
+        "directResource": false,
+        "format": false,
+        "coverage": false,
+        "license": false,
+        "licenseStatus": "not stated in captured source"
+      },
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "evidência de conjunto ou catálogo de dados",
+        "download, API ou acesso direto ao recurso",
+        "formato identificável",
+        "cobertura temporal/geográfica"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "17e16590641d28f6c91700e6b5b1a266eef86cf82194261b66dd0435a7de413b",
+      "url": "https://data.worldbank.org/indicator/1.1_ACCESS.ELECTRICITY.TOT",
+      "category": "datasets",
+      "originalCategory": "datasets",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {
+        "datasetSignal": false,
+        "directResource": false,
+        "format": false,
+        "coverage": false,
+        "license": false,
+        "licenseStatus": "not stated in captured source"
+      },
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "evidência de conjunto ou catálogo de dados",
+        "download, API ou acesso direto ao recurso",
+        "formato identificável",
+        "cobertura temporal/geográfica"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "1c52bb8060d2ceb55b2fda115f4313357ba6370bf14003e4cf0b89369917fd91",
+      "url": "https://www.gbif.org/dataset/9ca92552-f23a-41a8-a140-01abaa31c931",
+      "category": "datasets",
+      "originalCategory": "datasets",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {
+        "datasetSignal": false,
+        "directResource": false,
+        "format": false,
+        "coverage": false,
+        "license": false,
+        "licenseStatus": "not stated in captured source"
+      },
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "evidência de conjunto ou catálogo de dados",
+        "download, API ou acesso direto ao recurso",
+        "formato identificável",
+        "cobertura temporal/geográfica"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "1e05a3ebc06b9a189344120a527490507296784e380c7f20b9a6120462af772b",
+      "url": "https://www.gbif.org/dataset/d7dddbf4-2cf0-4f39-9b2a-bb099caae36c",
+      "category": "datasets",
+      "originalCategory": "datasets",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {
+        "datasetSignal": false,
+        "directResource": false,
+        "format": false,
+        "coverage": false,
+        "license": false,
+        "licenseStatus": "not stated in captured source"
+      },
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "evidência de conjunto ou catálogo de dados",
+        "download, API ou acesso direto ao recurso",
+        "formato identificável",
+        "cobertura temporal/geográfica"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "1e537e478e9f2748b3babda8a582303d69287017287d4ae17d3713a7129d5d5c",
+      "url": "https://data.worldbank.org/indicator/1.0.PSev.Poor4uds",
+      "category": "datasets",
+      "originalCategory": "datasets",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {
+        "datasetSignal": false,
+        "directResource": false,
+        "format": false,
+        "coverage": false,
+        "license": false,
+        "licenseStatus": "not stated in captured source"
+      },
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "evidência de conjunto ou catálogo de dados",
+        "download, API ou acesso direto ao recurso",
+        "formato identificável",
+        "cobertura temporal/geográfica"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "20e4fe99afd13e12d0850bf60bf896c75693bbdbaaf5537a253d2a783866fb38",
+      "url": "https://www.gbif.org/dataset/90d9e8a6-0ce1-472d-b682-3451095dbc5a",
+      "category": "datasets",
+      "originalCategory": "datasets",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {
+        "datasetSignal": false,
+        "directResource": false,
+        "format": false,
+        "coverage": false,
+        "license": false,
+        "licenseStatus": "not stated in captured source"
+      },
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "evidência de conjunto ou catálogo de dados",
+        "download, API ou acesso direto ao recurso",
+        "formato identificável",
+        "cobertura temporal/geográfica"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "2b95f43cfd7da7c164923c98fac8ff0f78344382ff27b1d1f5bb53ed12c49514",
+      "url": "https://www.gbif.org/dataset/61a5f178-b5fb-4484-b6d8-9b129739e59d",
+      "category": "datasets",
+      "originalCategory": "datasets",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {
+        "datasetSignal": false,
+        "directResource": false,
+        "format": false,
+        "coverage": false,
+        "license": false,
+        "licenseStatus": "not stated in captured source"
+      },
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "evidência de conjunto ou catálogo de dados",
+        "download, API ou acesso direto ao recurso",
+        "formato identificável",
+        "cobertura temporal/geográfica"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "3087e0e0cb7304a9dc256d9030db15fc0cb08f3e47e63741aa909c0cfcc89cac",
+      "url": "https://www.gbif.org/dataset/7ddf754f-d193-4cc9-b351-99906754a03b",
+      "category": "datasets",
+      "originalCategory": "datasets",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {
+        "datasetSignal": false,
+        "directResource": false,
+        "format": false,
+        "coverage": false,
+        "license": false,
+        "licenseStatus": "not stated in captured source"
+      },
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "evidência de conjunto ou catálogo de dados",
+        "download, API ou acesso direto ao recurso",
+        "formato identificável",
+        "cobertura temporal/geográfica"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "386a4d8bda9cbead2d63d9b7e95dab8b2dfdba6eb842955bcf7763a660b9ca66",
+      "url": "https://data.worldbank.org/indicator/1.1.PSev.2.5usd",
+      "category": "datasets",
+      "originalCategory": "datasets",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {
+        "datasetSignal": false,
+        "directResource": false,
+        "format": false,
+        "coverage": false,
+        "license": false,
+        "licenseStatus": "not stated in captured source"
+      },
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "evidência de conjunto ou catálogo de dados",
+        "download, API ou acesso direto ao recurso",
+        "formato identificável",
+        "cobertura temporal/geográfica"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "4005b72273d1347e5774fe0c35c04b66fc042ac491d39b94dd19e7e175a452e3",
+      "url": "https://www.gbif.org/dataset/f382f0ce-323a-4091-bb9f-add557f3a9a2",
+      "category": "datasets",
+      "originalCategory": "datasets",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {
+        "datasetSignal": false,
+        "directResource": false,
+        "format": false,
+        "coverage": false,
+        "license": false,
+        "licenseStatus": "not stated in captured source"
+      },
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "evidência de conjunto ou catálogo de dados",
+        "download, API ou acesso direto ao recurso",
+        "formato identificável",
+        "cobertura temporal/geográfica"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "48e59a7a825aa62f276e14f134a851cf97f4a426ccdd43e1f5e34dd7833dc120",
+      "url": "https://www.gbif.org/dataset/19491596-35ae-4a91-9a98-85cf505f1bd3",
+      "category": "datasets",
+      "originalCategory": "datasets",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {
+        "datasetSignal": false,
+        "directResource": false,
+        "format": false,
+        "coverage": false,
+        "license": false,
+        "licenseStatus": "not stated in captured source"
+      },
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "evidência de conjunto ou catálogo de dados",
+        "download, API ou acesso direto ao recurso",
+        "formato identificável",
+        "cobertura temporal/geográfica"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "4bcacca6f73e6a833e292349549232d3b05b1852522805b8c7c2c8903abc8527",
+      "url": "https://data.worldbank.org/indicator/1.1.HCount.2.5usd",
+      "category": "datasets",
+      "originalCategory": "datasets",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {
+        "datasetSignal": false,
+        "directResource": false,
+        "format": false,
+        "coverage": false,
+        "license": false,
+        "licenseStatus": "not stated in captured source"
+      },
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "evidência de conjunto ou catálogo de dados",
+        "download, API ou acesso direto ao recurso",
+        "formato identificável",
+        "cobertura temporal/geográfica"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "4d83faf28056465ee96487be10504bdb0f91be0a52d53e2d14b876addc7fb0f0",
+      "url": "https://data.worldbank.org/indicator/1.1.PGap.Poor4uds",
+      "category": "datasets",
+      "originalCategory": "datasets",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {
+        "datasetSignal": false,
+        "directResource": false,
+        "format": false,
+        "coverage": false,
+        "license": false,
+        "licenseStatus": "not stated in captured source"
+      },
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "evidência de conjunto ou catálogo de dados",
+        "download, API ou acesso direto ao recurso",
+        "formato identificável",
+        "cobertura temporal/geográfica"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "4eba945084a27d3b1a59ca4f0edc046d0b5b0debddfd633d1340f125a98cc28d",
+      "url": "https://data.worldbank.org/indicator/1.1.HCount.Poor4uds",
+      "category": "datasets",
+      "originalCategory": "datasets",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {
+        "datasetSignal": false,
+        "directResource": false,
+        "format": false,
+        "coverage": false,
+        "license": false,
+        "licenseStatus": "not stated in captured source"
+      },
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "evidência de conjunto ou catálogo de dados",
+        "download, API ou acesso direto ao recurso",
+        "formato identificável",
+        "cobertura temporal/geográfica"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "504340e443ecfb4ee4319b479d1057ccf16b532fa1c947b863c9e7d40a95630d",
+      "url": "https://www.gbif.org/dataset/3ee6fce9-9056-48f5-96fb-a2339bdb947e",
+      "category": "datasets",
+      "originalCategory": "datasets",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {
+        "datasetSignal": false,
+        "directResource": false,
+        "format": false,
+        "coverage": false,
+        "license": false,
+        "licenseStatus": "not stated in captured source"
+      },
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "evidência de conjunto ou catálogo de dados",
+        "download, API ou acesso direto ao recurso",
+        "formato identificável",
+        "cobertura temporal/geográfica"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "55735d815ef8a82d8c8202fb81437b1661b05138d6e280e4b31a8530f89f1288",
+      "url": "https://data.worldbank.org/indicator/1.1.HCount.Mid10to50",
+      "category": "datasets",
+      "originalCategory": "datasets",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {
+        "datasetSignal": false,
+        "directResource": false,
+        "format": false,
+        "coverage": false,
+        "license": false,
+        "licenseStatus": "not stated in captured source"
+      },
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "evidência de conjunto ou catálogo de dados",
+        "download, API ou acesso direto ao recurso",
+        "formato identificável",
+        "cobertura temporal/geográfica"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "573fa0145f1423368e912f7b9158e76c31ce4a2fa8b32aeab21beda4712f6522",
+      "url": "https://www.gbif.org/dataset/4fa7b334-ce0d-4e88-aaae-2e0c138d049e",
+      "category": "datasets",
+      "originalCategory": "datasets",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {
+        "datasetSignal": false,
+        "directResource": false,
+        "format": false,
+        "coverage": false,
+        "license": false,
+        "licenseStatus": "not stated in captured source"
+      },
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "evidência de conjunto ou catálogo de dados",
+        "download, API ou acesso direto ao recurso",
+        "formato identificável",
+        "cobertura temporal/geográfica"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "59cb1a7aaf0848514ab75b5c56a5a150f73c577c36c5dfbd857a464e7481df23",
+      "url": "https://www.gbif.org/dataset/0e61f8fe-7d25-4f81-ada7-d970bbb2c6d6",
+      "category": "datasets",
+      "originalCategory": "datasets",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {
+        "datasetSignal": false,
+        "directResource": false,
+        "format": false,
+        "coverage": false,
+        "license": false,
+        "licenseStatus": "not stated in captured source"
+      },
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "evidência de conjunto ou catálogo de dados",
+        "download, API ou acesso direto ao recurso",
+        "formato identificável",
+        "cobertura temporal/geográfica"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "5c322f3a21e714d113487666ac6980363c58e977ca61c54ffcfe61cb6c6148dd",
+      "url": "https://data.worldbank.org/indicator/1.1.HCount.1.90usd",
+      "category": "datasets",
+      "originalCategory": "datasets",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {
+        "datasetSignal": false,
+        "directResource": false,
+        "format": false,
+        "coverage": false,
+        "license": false,
+        "licenseStatus": "not stated in captured source"
+      },
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "evidência de conjunto ou catálogo de dados",
+        "download, API ou acesso direto ao recurso",
+        "formato identificável",
+        "cobertura temporal/geográfica"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "758fcffd91512d00147333935c7885ccf1cffdf36eaed139f44a8aa3366406b4",
+      "url": "https://data.worldbank.org/indicator/1.0.PGap.Poor4uds",
+      "category": "datasets",
+      "originalCategory": "datasets",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {
+        "datasetSignal": false,
+        "directResource": false,
+        "format": false,
+        "coverage": false,
+        "license": false,
+        "licenseStatus": "not stated in captured source"
+      },
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "evidência de conjunto ou catálogo de dados",
+        "download, API ou acesso direto ao recurso",
+        "formato identificável",
+        "cobertura temporal/geográfica"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "77444ec999cfcabda28f5ae06facbe6d100445485b0f6a1c45f30fa0ad088f19",
+      "url": "https://data.worldbank.org/indicator/1.0.PSev.1.90usd",
+      "category": "datasets",
+      "originalCategory": "datasets",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {
+        "datasetSignal": false,
+        "directResource": false,
+        "format": false,
+        "coverage": false,
+        "license": false,
+        "licenseStatus": "not stated in captured source"
+      },
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "evidência de conjunto ou catálogo de dados",
+        "download, API ou acesso direto ao recurso",
+        "formato identificável",
+        "cobertura temporal/geográfica"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "788343109b669f6c0cbd96f2b7cbd3a7a99942fe37d1fb8bd17429cb54390bf2",
+      "url": "https://www.gbif.org/dataset/c8227bb4-4143-443f-8cb2-51f9576aff14",
+      "category": "datasets",
+      "originalCategory": "datasets",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {
+        "datasetSignal": false,
+        "directResource": false,
+        "format": false,
+        "coverage": false,
+        "license": false,
+        "licenseStatus": "not stated in captured source"
+      },
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "evidência de conjunto ou catálogo de dados",
+        "download, API ou acesso direto ao recurso",
+        "formato identificável",
+        "cobertura temporal/geográfica"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "7b0ab10063af0b0f0ae138c87275c1ef5d145044de23cb0e256ed36d52a0d9d9",
+      "url": "https://www.gbif.org/dataset/fab88965-e69d-4491-a04d-e3198b626e52",
+      "category": "datasets",
+      "originalCategory": "datasets",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {
+        "datasetSignal": false,
+        "directResource": false,
+        "format": false,
+        "coverage": false,
+        "license": false,
+        "licenseStatus": "not stated in captured source"
+      },
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "evidência de conjunto ou catálogo de dados",
+        "download, API ou acesso direto ao recurso",
+        "formato identificável",
+        "cobertura temporal/geográfica"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "7d1c621f47a612d1463e9fc92c806539692b21c39a39fde88dfcc865245fdd1a",
+      "url": "https://www.gbif.org/dataset/bf3db7c9-5e5d-4fd0-bd5b-94539eaf9598",
+      "category": "datasets",
+      "originalCategory": "datasets",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {
+        "datasetSignal": false,
+        "directResource": false,
+        "format": false,
+        "coverage": false,
+        "license": false,
+        "licenseStatus": "not stated in captured source"
+      },
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "evidência de conjunto ou catálogo de dados",
+        "download, API ou acesso direto ao recurso",
+        "formato identificável",
+        "cobertura temporal/geográfica"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "7ec944b0ff90dc270e19f23d9e2300f1f5a84c2fca343b07055c945a51bfd012",
+      "url": "https://data.worldbank.org/indicator/1.0.HCount.Ofcl",
+      "category": "datasets",
+      "originalCategory": "datasets",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {
+        "datasetSignal": false,
+        "directResource": false,
+        "format": false,
+        "coverage": false,
+        "license": false,
+        "licenseStatus": "not stated in captured source"
+      },
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "evidência de conjunto ou catálogo de dados",
+        "download, API ou acesso direto ao recurso",
+        "formato identificável",
+        "cobertura temporal/geográfica"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "882159be2aed067fbb213786102bfc8b3459375a01a16cc3e4f11df515c86bce",
+      "url": "https://data.worldbank.org/indicator/1.1.HCount.Vul4to10",
+      "category": "datasets",
+      "originalCategory": "datasets",
+      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checks": {
+        "datasetSignal": false,
+        "directResource": false,
+        "format": false,
+        "coverage": false,
+        "license": false,
+        "licenseStatus": "not stated in captured source"
+      },
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "evidência de conjunto ou catálogo de dados",
+        "download, API ou acesso direto ao recurso",
+        "formato identificável",
+        "cobertura temporal/geográfica"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false

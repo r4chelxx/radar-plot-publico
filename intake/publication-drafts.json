@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-10T20:45:07.560Z",
-  "sourceQueueUpdatedAt": "2026-11-10T20:44:59.460Z",
+  "generatedAt": "2026-11-10T20:50:58.276Z",
+  "sourceQueueUpdatedAt": "2026-11-10T20:50:45.379Z",
   "policy": "Evidence-complete drafts only; the separate deterministic evidence gate must independently approve before publication.",
   "summary": {
-    "eligibleForDrafting": 15,
-    "drafts": 15,
+    "eligibleForDrafting": 17,
+    "drafts": 17,
     "byCategory": {
       "opportunities": 1,
       "datasets": 0,
-      "tools": 14
+      "tools": 16
     },
     "publicationReady": 0
   },
@@ -620,6 +620,85 @@
     },
     {
       "schemaVersion": 1,
+      "id": "6e04bf839645b5954023b1f9f28cb69fb8258c382a97f2b028decd24139d40e4",
+      "category": "tools",
+      "status": "draft_only",
+      "publicationReady": false,
+      "source": {
+        "url": "https://www.poynter.org/shop/fact-checking-media-literacy/ai-for-journalists-and-content-creators-from-understanding-to-application",
+        "discoveryProviders": [
+          "Gmail Radar PLOT newsletter"
+        ],
+        "pageTitle": "AI for Journalists and Content Creators: From Understanding to Application - Poynter",
+        "checkedAt": "2026-11-10T20:50:45.379Z",
+        "httpStatus": 200,
+        "contentType": "text/html; charset=UTF-8"
+      },
+      "evidence": {
+        "checks": {
+          "productSignal": true,
+          "function": true,
+          "access": true,
+          "license": false,
+          "licenseStatus": "not stated in captured source"
+        },
+        "sourceExcerpt": "AI for Journalists and Content Creators: From Understanding to Application - Poynter AI for Journalists and Content Creators: From Understanding to Application - Poynter DONATE What do you want to search? Submit Sign In | Membership News Training Ethics Fact-Checking Media Literacy AI Events Future of Public Media Newmark Ethics Center IFCN MediaWise PolitiFact Donate About Us Press Freedom Watch The Poynter 50 Podcasts Artificial Intelligence Business & Work Reporting & Editing Fact-Checking Ethics & Trust Local News Journalism, Media & Communication Training Poynter Membership Categories Consulting & Coaching For ACES Members For Local News Funders All Categories Broadcast & Visual Journalism Business & Work Ethics Fact-Checking & Media Literacy Leadership Reporting & Editing Writing Poynter ACES Introductory Certificate in Editing Poynter ACES Intermediate Certificate in Editing Poynter ACES Advanced Certificate in Editing Workshops and Coaching Tools for Funders Ethics Ethics Training Ethics Articles AI Ethics Public Editor Project Get Ethics Advice Fact-Checking Articles IFCN IFCN Grants International Fact-Checking Day Teen Creator Network PolitiFact MediaWise Media Literacy Resources AI Literacy Ambassadors Teen Creator Network Research & News International en Español MediaWise Training All Events The 2026 Poynter Journalism Prizes Oops! We could not locate your form. Sign In Register Sign into your account Sign In or Register to Enroll - OR - Checkout as a Guest Remember Me Reset Password Don't have an account? Register Sign In Register Register a new account Sign In or Register to Enroll Password should contain at least: Eight characters One uppercase letter One lowercase letter One number One of the following special characters: @ # - _ $ * % ^ & + = § ! ? Already have an account? Sign In Sign In Register AI for Journalists and Content Creators: From Understanding to Application $ 95.00 AI for Journalists and Content Creators: From Understanding to Application quantity Enroll Now Fact-Checking & Media Literacy Reporting & Editing Online AI for Journalists and Content Creators: From Understanding to Application Master AI in media — learn tools, ethics and strategy, and earn a Poynter certificate online. You’ll gain the skills to spot AI risks like bias, misinformation and hallucinations before they harm your work, and apply tools transparently and ethically to build audience trust. Start Anytime Overview Learn AI for media in a 100% online, self-paced course from Poynter. Finish in 4–5 hours, or dive deeper with 8–10 hours of optional content. Explore 4 modules: AI landscape, tools, assessment, misinformation, ethics. Gain practical skills to streamline research, draft smarter and work faster. Learn to spot AI risks like bias, errors and misinformation before they spread. Apply AI transparently to protect your credibility and audience trust. Earn a Poynter Certificate — recognized worldwide in journalism and media. Enroll anytime, learn anywhere — this course is fully self-directed online. AI for Journalists and Content Creators: From Understanding to Application quantity Enroll Now SKU: PSDC02-25 Tags: Alex Mahadevan , Artificial Intelligence , Certificate , front page course , Kelly McBride , Self-directed course Learning Outcomes By the end of this course, you will: Understand how generative AI is reshaping journalism, media and content workflows. Apply AI tools to speed research, idea generation, drafting and fact-finding. Critically evaluate AI tools for accuracy, bias, style and reliability. Detect and debunk AI misinformation, deepfakes and manipulated content. Use AI responsibly, with clear transparency and ethical standards. Build practical policies for safe, effective AI use. Gain the confidence to guide AI strategy in your newsroom or content community. Earn a Poynter certificate to validate your AI literacy and leadership skills. Certificate $ 95.00 AI for Journalists and Content Creators: From Understandin",
+        "structuredData": [
+          {
+            "@type": "WebPage",
+            "name": "AI for Journalists and Content Creators: From Understanding to Application - Poynter",
+            "description": "Future-proof your career: Earn a Poynter AI certificate to save time, boost your skills and build lasting audience trust.",
+            "url": "https://www.poynter.org/shop/fact-checking-media-literacy/ai-for-journalists-and-content-creators-from-understanding-to-application/",
+            "datePublished": "2026-03-24T10:00:15+00:00",
+            "dateModified": "2026-10-30T13:19:48+00:00"
+          },
+          {
+            "@type": "ImageObject",
+            "url": "https://www.poynter.org/wp-content/uploads/2025/09/AI-for-Journalists-and-Content-Creators-Course-Card.jpg",
+            "contentUrl": "https://www.poynter.org/wp-content/uploads/2025/09/AI-for-Journalists-and-Content-Creators-Course-Card.jpg"
+          },
+          {
+            "@type": "BreadcrumbList"
+          },
+          {
+            "@type": "WebSite",
+            "name": "Poynter",
+            "description": "A global leader in journalism. Strengthening democracy.",
+            "url": "https://www.poynter.org/"
+          },
+          {
+            "@type": "Organization",
+            "name": "The Poynter Institute",
+            "url": "https://www.poynter.org/"
+          },
+          {
+            "@type": "Product",
+            "name": "AI for Journalists and Content Creators: From Understanding to Application",
+            "description": "Master AI in media — learn tools, ethics and strategy, and earn a Poynter certificate online. You’ll gain the skills to spot AI risks like bias, misinformation and hallucinations before they harm your work, and apply tools transparently and ethically to build audience trust.",
+            "url": "https://www.poynter.org/shop/fact-checking-media-literacy/ai-for-journalists-and-content-creators-from-understanding-to-application/",
+            "offers": [
+              {
+                "@type": "Offer",
+                "url": "https://www.poynter.org/shop/fact-checking-media-literacy/ai-for-journalists-and-content-creators-from-understanding-to-application/"
+              }
+            ]
+          }
+        ],
+        "resourceLinks": []
+      },
+      "recordDraft": {
+        "id": "6e04bf839645b5954023b1f9f28cb69fb8258c382a97f2b028decd24139d40e4",
+        "name": "AI for Journalists and Content Creators: From Understanding to Application",
+        "kind": "Poynter",
+        "url": "https://www.poynter.org/shop/fact-checking-media-literacy/ai-for-journalists-and-content-creators-from-understanding-to-application",
+        "desc": "Future-proof your career: Earn a Poynter AI certificate to save time, boost your skills and build lasting audience trust. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
+      },
+      "missingFields": [],
+      "reviewDecision": "evidence_complete_for_record_draft",
+      "note": "Ficha preliminar baseada no conteúdo capturado da página. Campos sem evidência permanecem ausentes; a aprovação depende do gate independente de publicação."
+    },
+    {
+      "schemaVersion": 1,
       "id": "6eccac0adbf2ab76c5f552c7f86c696f72d6c0bb78af379ba13a00d438144617",
       "category": "tools",
       "status": "draft_only",
@@ -661,6 +740,73 @@
       "missingFields": [
         "kind"
       ],
+      "reviewDecision": "evidence_complete_for_record_draft",
+      "note": "Ficha preliminar baseada no conteúdo capturado da página. Campos sem evidência permanecem ausentes; a aprovação depende do gate independente de publicação."
+    },
+    {
+      "schemaVersion": 1,
+      "id": "757a1ad6453f2731c2e8c076e8645b48bf3154cb6b3036d02aa6cee339dce8d9",
+      "category": "tools",
+      "status": "draft_only",
+      "publicationReady": false,
+      "source": {
+        "url": "https://www.poynter.org/mediawise/programs/g-a-m-e",
+        "discoveryProviders": [
+          "Gmail Radar PLOT newsletter"
+        ],
+        "pageTitle": "G.A.M.E. - Poynter",
+        "checkedAt": "2026-11-10T20:50:45.379Z",
+        "httpStatus": 200,
+        "contentType": "text/html; charset=UTF-8"
+      },
+      "evidence": {
+        "checks": {
+          "productSignal": true,
+          "function": true,
+          "access": true,
+          "license": false,
+          "licenseStatus": "not stated in captured source"
+        },
+        "sourceExcerpt": "G.A.M.E. - Poynter G.A.M.E. - Poynter DONATE What do you want to search? Submit Sign In | Membership News Training Ethics Fact-Checking Media Literacy AI Events Future of Public Media Newmark Ethics Center IFCN MediaWise PolitiFact Donate About Us Press Freedom Watch The Poynter 50 Podcasts Artificial Intelligence Business & Work Reporting & Editing Fact-Checking Ethics & Trust Local News Journalism, Media & Communication Training Poynter Membership Categories Consulting & Coaching For ACES Members For Local News Funders All Categories Broadcast & Visual Journalism Business & Work Ethics Fact-Checking & Media Literacy Leadership Reporting & Editing Writing Poynter ACES Introductory Certificate in Editing Poynter ACES Intermediate Certificate in Editing Poynter ACES Advanced Certificate in Editing Workshops and Coaching Tools for Funders Ethics Ethics Training Ethics Articles AI Ethics Public Editor Project Get Ethics Advice Fact-Checking Articles IFCN IFCN Grants International Fact-Checking Day Teen Creator Network PolitiFact MediaWise Media Literacy Resources AI Literacy Ambassadors Teen Creator Network Research & News International en Español MediaWise Training All Events The 2026 Poynter Journalism Prizes Play smart. Dodge manipulation. G.A.M.E. empowers streamers, fans, and industry stakeholders to reclaim game spaces from harmful stereotypes, extremist rhetoric, and common disinformation tricks. Through MediaWise-created resources, training, and specialty content, G.A.M.E. supports the gaming community with tools to shape the information ecosystem and avoid being manipulated. Explore our resources Whether you’re a video game consumer or creator, our curated resource pages offer the tools you need to power up your digital defenses. From professional development for game journalists and streamers to self-guided courses that help teens sharpen their digital media savvy, there’s a resource to support every step of your journey. Watch our full G.A.M.E. playlist below, featuring everything from Shorts to long-form. Get started here: This program is made possible in part by Reality Team , Moonshot , Define American , Extremism and Gaming Research Network (EGRN), and others. Thank you! Follow MediaWise",
+        "structuredData": [
+          {
+            "@type": "WebPage",
+            "name": "G.A.M.E. - Poynter",
+            "description": "G.A.M.E. empowers streamers, fans, and industry stakeholders to reclaim game spaces from harmful stereotypes, extremist rhetoric, and common disinformation tricks. Through MediaWise-created resources, training, and specialty content, G.A.M.E. supports the gaming community with tools to shape the information ecosystem and avoid being manipulated.",
+            "url": "https://www.poynter.org/mediawise/programs/g-a-m-e/",
+            "datePublished": "2025-07-17T15:39:33+00:00",
+            "dateModified": "2026-08-14T18:51:54+00:00"
+          },
+          {
+            "@type": "ImageObject",
+            "url": "https://www.poynter.org/wp-content/uploads/2026/08/New-GAME-hero-image.png",
+            "contentUrl": "https://www.poynter.org/wp-content/uploads/2026/08/New-GAME-hero-image.png"
+          },
+          {
+            "@type": "BreadcrumbList"
+          },
+          {
+            "@type": "WebSite",
+            "name": "Poynter",
+            "description": "A global leader in journalism. Strengthening democracy.",
+            "url": "https://www.poynter.org/"
+          },
+          {
+            "@type": "Organization",
+            "name": "The Poynter Institute",
+            "url": "https://www.poynter.org/"
+          }
+        ],
+        "resourceLinks": []
+      },
+      "recordDraft": {
+        "id": "757a1ad6453f2731c2e8c076e8645b48bf3154cb6b3036d02aa6cee339dce8d9",
+        "name": "G.A.M.E.",
+        "kind": "Poynter",
+        "url": "https://www.poynter.org/mediawise/programs/g-a-m-e",
+        "desc": "G.A.M.E. empowers streamers, fans, and industry stakeholders to reclaim game spaces from harmful stereotypes, extremist rhetoric, and common disinformation tricks. Through MediaWise-created resources, training, and specialty content, G.A.M.E. supports the gaming community with tools to shape the information ecosystem and avoid being manipulated. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
+      },
+      "missingFields": [],
       "reviewDecision": "evidence_complete_for_record_draft",
       "note": "Ficha preliminar baseada no conteúdo capturado da página. Campos sem evidência permanecem ausentes; a aprovação depende do gate independente de publicação."
     },
