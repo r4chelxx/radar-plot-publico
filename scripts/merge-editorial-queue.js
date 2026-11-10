@@ -35,6 +35,21 @@ function inferCategory(title){
    && !/\b(?:conference|webinar|podcast|interview|guide|report|news|announces? winners?|selected for|awarded to|award-winning|winners?|finalists?)\b/.test(t))return 'opportunities';
  return 'uncategorized';
 }
+function inferTechnicalCategory(item){
+ const raw=String(item.title||'').toLowerCase().trim();
+ const t=raw.replace(/\s*↗\s*$/,'').trim();
+ let host='';try{host=new URL(item.url).hostname.toLowerCase()}catch{}
+ const toolNames=new Set([
+  'bluesky','ai2html','datawrapper','datawrapper.de','data-to-viz.com','coolors.co','color.adobe.com','canva','playwright','svelte','observable framework','archieml','cloudinary','beautifulsoup','selenium','figma2html','camelot-py','spacy','recordlinkage','folium','duckdb','pandas','geopandas','scikit-learn','plotly','tabulapdf','quanteda','fedmatch','tmap','tidyverse','tidymodels','highcharter','rvest','chromote','reactable','layercake.graphics framework for svelte','tableau','power bi','dax','fabric','zebra bi','dbt (core & semantic layer)','cube','looker (lookml)','sigma computing','omni','powerui','mapbox','arcgis pro & online','spatial-sql.com','felt','deck.gl','postgis','h3 (hexagonal hierarchical geospatial index)','bigquery gis','snowflake geospatial','pmtiles','cloud-native geospatial, cog','stac','google earth engine','pyqgis','arcpy','whiteboxtools','segment anything model (sam) for geospatial','openlayers','duckdb (spatial extension)','overture maps','p5.js 2.0','three.js (with webgpu)','webgpu & wgsl','react three fiber (r3f)','processing (java/python)','momentum.js','segment anything model (sam) for design','canvas & svg api','gsap (greensock animation platform)','touchdesigner','rawgraphs','datylon'
+ ]);
+ const toolHosts=new Set(['ai2html.org','datawrapper.de','data-to-viz.com','coolors.co','color.adobe.com','playwright.dev','openlayers.org','spatial-sql.com','earthengine.google.com','mapbox.com','tableau.com','felt.com']);
+ if(toolNames.has(t)||toolHosts.has(host))return 'tools';
+ const datasetNames=new Set(['world bank open data','un data','data.un.org','our world in data','global biodiversity information facility','gbif','humanitarian data exchange','nyc open data','data.census.gov','opendata.cityofnewyork.us']);
+ const datasetHosts=new Set(['opendata.cityofnewyork.us','data.un.org','data.census.gov']);
+ if(datasetNames.has(t)||datasetHosts.has(host))return 'datasets';
+ if(/\b(?:open data portal|open datasets|dataset catalog|data catalogue)\b/.test(t)&&!/(?:news|blog|conference|guide|tutorial)/.test(t))return 'datasets';
+ return 'uncategorized';
+}
 function categoryFor(item){
  const detected=classifyLead({title:item.title,url:item.url,pageTitle:item.audit?.pageTitle,evidenceText:item.audit?.evidenceText});
  if(detected!=='uncategorized')return detected;
