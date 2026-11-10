@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-10T22:02:59.409Z",
+  "generatedAt": "2026-11-10T22:14:14.629Z",
   "policy": "Evidence-based category triage. Missing license is recorded as unknown when not found; complete means draft eligibility only, never approval or publication.",
   "counts": {
-    "pending_more_evidence": 1354,
-    "evidence_complete_for_record_draft": 9
+    "pending_more_evidence": 1503,
+    "evidence_complete_for_record_draft": 3
   },
   "categoryCounts": {
-    "uncategorized": 1239,
-    "opportunities": 34,
-    "tools": 34,
+    "uncategorized": 1387,
+    "opportunities": 33,
+    "tools": 30,
     "datasets": 56
   },
   "records": [
@@ -831,23 +831,6 @@
       "publicationReady": false
     },
     {
-      "id": "483c5944a10521dde5f808f0c5a7f8905fcf5f0d7041f337d200f27096fecbc5",
-      "url": "https://omni.co/",
-      "category": "tools",
-      "originalCategory": "tools",
-      "checkedAt": "2026-11-10T20:02:55.377Z",
-      "checks": {
-        "productSignal": true,
-        "function": true,
-        "access": true,
-        "license": false,
-        "licenseStatus": "not stated in captured source"
-      },
-      "missing": [],
-      "decision": "evidence_complete_for_record_draft",
-      "publicationReady": false
-    },
-    {
       "id": "48cd2f42cea94cf9d25734ae66b9e0076ac813ab34bbf1a423ad3692609534ed",
       "url": "https://washingtonpost.com/climate-environment",
       "category": "uncategorized",
@@ -1506,23 +1489,6 @@
         "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
-      "publicationReady": false
-    },
-    {
-      "id": "78b7a11294f5e332bf8ed33d08a8d7151c67f4de4588753cb629a48375d6c337",
-      "url": "https://github.com/ropensci/tabulapdf",
-      "category": "tools",
-      "originalCategory": "tools",
-      "checkedAt": "2026-11-10T20:02:55.377Z",
-      "checks": {
-        "productSignal": true,
-        "function": true,
-        "access": true,
-        "license": true,
-        "licenseStatus": "stated"
-      },
-      "missing": [],
-      "decision": "evidence_complete_for_record_draft",
       "publicationReady": false
     },
     {
@@ -2799,23 +2765,6 @@
       "publicationReady": false
     },
     {
-      "id": "bcf905a7d1b746329b76590ec887f5b37fe0993d4c6f81fd8269f04c0829e6d7",
-      "url": "https://learn.microsoft.com/en-us/dax",
-      "category": "tools",
-      "originalCategory": "tools",
-      "checkedAt": "2026-11-10T20:06:55.693Z",
-      "checks": {
-        "productSignal": true,
-        "function": true,
-        "access": true,
-        "license": false,
-        "licenseStatus": "not stated in captured source"
-      },
-      "missing": [],
-      "decision": "evidence_complete_for_record_draft",
-      "publicationReady": false
-    },
-    {
       "id": "bdea2fc42ee13d16c882f2d03b77a835d4841b7cf025b6213ea4f1c5d2bf68e6",
       "url": "https://fitc.ca/event/to26",
       "category": "uncategorized",
@@ -3337,23 +3286,6 @@
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
-      "publicationReady": false
-    },
-    {
-      "id": "dcfa0487c540be0e50474bdc6332858180f97a84e0b91c826ac43f897db13474",
-      "url": "https://cube.dev/",
-      "category": "tools",
-      "originalCategory": "tools",
-      "checkedAt": "2026-11-10T20:06:55.693Z",
-      "checks": {
-        "productSignal": true,
-        "function": true,
-        "access": true,
-        "license": false,
-        "licenseStatus": "not stated in captured source"
-      },
-      "missing": [],
-      "decision": "evidence_complete_for_record_draft",
       "publicationReady": false
     },
     {
@@ -6115,21 +6047,6 @@
         "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
-      "publicationReady": false
-    },
-    {
-      "id": "b45070e9d4dabfb55eb4edbe6a851ffcd200473f6429555a374f7c0ac7db3e88",
-      "url": "https://grantsforjournalists.com/grant/knight-wallace-fellowship-at-the-university-of-michigan",
-      "category": "opportunities",
-      "originalCategory": "opportunities",
-      "checkedAt": "2026-11-10T20:36:10.810Z",
-      "checks": {
-        "callSignal": true,
-        "deadline": "2026-12-01",
-        "eligibility": true
-      },
-      "missing": [],
-      "decision": "evidence_complete_for_record_draft",
       "publicationReady": false
     },
     {
@@ -11956,24 +11873,6 @@
       "publicationReady": false
     },
     {
-      "id": "97995754262f60cf84e9c9b25a4f79ef5de8bc0f0de16639ebc888bd347f9412",
-      "url": "https://arcmira.com/famous/ai-companies/2026-09",
-      "category": "datasets",
-      "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:53:48.541Z",
-      "checks": {
-        "datasetSignal": true,
-        "directResource": true,
-        "format": true,
-        "coverage": true,
-        "license": true,
-        "licenseStatus": "stated"
-      },
-      "missing": [],
-      "decision": "evidence_complete_for_record_draft",
-      "publicationReady": false
-    },
-    {
       "id": "97a4f366fd07c382abd6247fe6011522ff0032cb042abf01e0d4f5fd1ae42da6",
       "url": "https://x.com/MattWalshBlog/status/2117865905354838501",
       "category": "uncategorized",
@@ -16902,23 +16801,6 @@
       "publicationReady": false
     },
     {
-      "id": "6d84c860baa5311d1e0fcec13e539b428a8d37d4c97126c53e09639eb31e9621",
-      "url": "https://github.com/soxoj/maigret",
-      "category": "tools",
-      "originalCategory": "tools",
-      "checkedAt": "2026-11-10T20:31:28.952Z",
-      "checks": {
-        "productSignal": true,
-        "function": true,
-        "access": true,
-        "license": true,
-        "licenseStatus": "stated"
-      },
-      "missing": [],
-      "decision": "evidence_complete_for_record_draft",
-      "publicationReady": false
-    },
-    {
       "id": "6d97e7f2cbd15eb6c0ad5d83dc31123398b96efabe15f731651fc97b9bb4dcae",
       "url": "https://www.nytimes.com/2026/11/08/arts/music/phil-collins-knew-he-was-lucky-if-not-cool.html",
       "category": "uncategorized",
@@ -18192,6 +18074,19 @@
       "publicationReady": false
     },
     {
+      "id": "1de9e89923c3293b6bda60f5ce8eef174c7a4434313f7ff0a2a305601d259e1b",
+      "url": "https://zwischenzugs.com/2026/11/03/a-family-tree-of-software-job-titles",
+      "category": "uncategorized",
+      "originalCategory": "tools",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
       "id": "1e05a3ebc06b9a189344120a527490507296784e380c7f20b9a6120462af772b",
       "url": "https://www.gbif.org/dataset/d7dddbf4-2cf0-4f39-9b2a-bb099caae36c",
       "category": "datasets",
@@ -18240,6 +18135,20 @@
       "publicationReady": false
     },
     {
+      "id": "1f6a975621fef875a405837c623875ae76ca7d639849a6fe9cb4cd7cf6b8b115",
+      "url": "https://substack.com/redirect/424ab9d0-adb0-4719-8120-f05bf8419fb9",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
       "id": "20e4fe99afd13e12d0850bf60bf896c75693bbdbaaf5537a253d2a783866fb38",
       "url": "https://www.gbif.org/dataset/90d9e8a6-0ce1-472d-b682-3451095dbc5a",
       "category": "datasets",
@@ -18259,6 +18168,128 @@
         "download, API ou acesso direto ao recurso",
         "formato identificável",
         "cobertura temporal/geográfica"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "21d0d2b3ac01c87861d8f311b2d1415e8daaf257c25ea5200d3249bcbb807398",
+      "url": "https://substack.com/redirect/66e4f2cd-8239-452f-b159-56a3b1521530",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "22ab8d08c5175c233d9e39659f16c40a44b95004e71e97f8481b6f7bdbc6b59b",
+      "url": "https://substack.com/redirect/1601ae29-3577-4dec-862f-c4697fea27c3",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "233b2caa36734bf098364c47b561d22c388744b4898214351064b26cf8cb366c",
+      "url": "https://substack.com/redirect/1ccbccb6-1c92-47ab-9ae5-ca31febe8cbe",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "240888442444abd5f79d447ab21f8fbe74a9c32d321d84d1461d6d99bfa07a97",
+      "url": "https://minimaxir.com/2026/10/cheap-llms",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "245d81138faf00f3056fdef7569990dbcb02c18b19f9c2933faff429fb7ec0e7",
+      "url": "https://www.gov.uk/government/publications/october-2026-economic-and-fiscal-outlook/economic-and-fiscal-outlook-october-2026",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "273ae7f4c71b3daf330ff7c2a986157f0df96e453c6f817eb7528433b1a4bda9",
+      "url": "https://substack.com/redirect/442e2705-9738-4d0e-b74b-be9c7e7caeeb",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "27d535c768c8dc0dee44ac05fdf361ab08e4f58c5c46d4a7b92b59da9cc4040b",
+      "url": "https://nrennie.rbind.io/blog/interactive-charts-ggiraph",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "29def07a2263f35eb269aea37dc7c3d8b3d93a039ca906e4d911ea05edfb1f53",
+      "url": "https://substack.com/redirect/e615c830-c1f6-4e2e-b576-fa1c9fef4420",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "2b18ca9ba7e9c1813126dd59b0cfd0990aa4ced100ecadafd9dd8dd518574ae6",
+      "url": "https://www.poynter.org/commentary/2026/john-king-magic-wall-2026-midterm-results",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -18288,6 +18319,20 @@
       "publicationReady": false
     },
     {
+      "id": "2f230490b28784e5ac33f4b0aa5f4db14147a69572a072fb157f3fed0893d53f",
+      "url": "https://substack.com/redirect/28e3f0d3-4bd1-478e-b1e3-c5d5c334ad68",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
       "id": "3087e0e0cb7304a9dc256d9030db15fc0cb08f3e47e63741aa909c0cfcc89cac",
       "url": "https://www.gbif.org/dataset/7ddf754f-d193-4cc9-b351-99906754a03b",
       "category": "datasets",
@@ -18307,6 +18352,76 @@
         "download, API ou acesso direto ao recurso",
         "formato identificável",
         "cobertura temporal/geográfica"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "3190878a817a2b86f40a983f7e0048e0779b6c099d7d7593d6c69aa9ffe5d80a",
+      "url": "https://assets.buttondown.email/images/5e724f98-9dcb-4194-be8e-70ebd8db0e52.png",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "32465f1f652e3920fb940d1a5d8a68c85bf3638d77528d5366454d205e2d0d35",
+      "url": "https://substack.com/redirect/9e8dea85-8bb2-4e12-97fc-a649b39be8ad",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "32c5241fcc564cbe12fdc9ef1f9e4906e2af5dffb7574c53a532f944eff287ae",
+      "url": "https://www.nytimes.com/athletic/7765656/2026/11/09/college-football-playoff-24-teams-espn-expansion",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "349992dc528ffc5604eed70a0c7f4c93027a2e8758b4b13f6f924db9555d5e00",
+      "url": "https://substack.com/redirect/a38cea4c-8196-42a8-88a0-5f80f15fe1d1",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "34a251a7cf835ccf021c4f47485d02b54f9523391525a2e392c9fb8ae17f9774",
+      "url": "https://substack.com/redirect/f828e786-dd9c-442d-a561-8d548050e52b",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -18336,6 +18451,75 @@
       "publicationReady": false
     },
     {
+      "id": "3a4d77b6e1a3569e91433bf89133e43422a9f52e4ec125f931bfe01787c6938e",
+      "url": "https://substack.com/redirect/6f4dae4e-ed5d-48ed-90a0-32b993320595",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "3dc8dc20b4c7f8dd7f7cd446b80d223ed53fafe798802b24e583498134fa774b",
+      "url": "https://substack.com/redirect/9c754afd-623c-49ef-a727-ce1d29af00c4",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "3f161ad076585d6911a4893c6a23af7cfb9c3cf03a2da55d4c04025d2c874740",
+      "url": "https://x.com/sbg1/status/2119813784495681717",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "3f434a744383ea9b9ad9f3d2a13dca19359d2289d7691e54f0ccbcca3a8218b6",
+      "url": "https://assets.buttondown.email/images/5d00265e-12e1-48f6-b93b-c7886a86113b.png",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "3f82cc8c8a99cd7a6ecace0b98f3bf93fe35484349a808d978b6d65100561927",
+      "url": "https://substack.com/redirect/78b57881-983c-43c0-8fdf-6a8cff3b228b",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
       "id": "4005b72273d1347e5774fe0c35c04b66fc042ac491d39b94dd19e7e175a452e3",
       "url": "https://www.gbif.org/dataset/f382f0ce-323a-4091-bb9f-add557f3a9a2",
       "category": "datasets",
@@ -18355,6 +18539,103 @@
         "download, API ou acesso direto ao recurso",
         "formato identificável",
         "cobertura temporal/geográfica"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "4047a980222ac1a1f22788941104d90e02745792a47d8c60f12de5935090e8bd",
+      "url": "https://substack.com/redirect/be48816e-7171-4225-936a-965aa2a94cbd",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "412244e900091d96d1c6cd29008486ddfd13fd6566c2e191e0c7c469812e24ff",
+      "url": "https://substack.com/redirect/a7807d72-f906-4313-b502-de7ef34a3480",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "42e9f9f01b14dd91f24cc36cf88186405423fa6708b0018e30d1af0c41691cce",
+      "url": "https://philipotoole.com/twelve-years-of-distributed-sqlite",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "43bde5026c08ea4aeda79bbb8fb14d7a3838ba520686ca4e6097db527538884a",
+      "url": "https://substack.com/redirect/5c67eb1f-f095-44f6-b3ca-138fac922679",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "4400919274fc6fe909f5f2798a3a7fb814cc20609d516829af428413a51a3c9a",
+      "url": "https://agenciatatu.substack.com/p/avanco-de-lula-idade-da-pedra-enem",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "45a4a264979320d9b38140105ec3b5907d6ea4016ffd89d730e4b11834082282",
+      "url": "https://substack.com/redirect/a8b2c7ff-c357-49cf-941c-2db8454d54e5",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "4816fd6f78f753bd2bcdebcad9b9c85a22805c1dde4c6a5eb2d7d9a5b1d31d27",
+      "url": "https://substack.com/redirect/448a67a4-9a66-4bd6-8656-3ba734144ee0",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -18384,6 +18665,19 @@
       "publicationReady": false
     },
     {
+      "id": "4a46785880aee44f72e31d60c1433b28486597aed4365da9d7b31ec7acc18673",
+      "url": "https://github.com/puntofisso/QuantumOfSollazzo-CodeSamples",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
       "id": "4bcacca6f73e6a833e292349549232d3b05b1852522805b8c7c2c8903abc8527",
       "url": "https://data.worldbank.org/indicator/1.1.HCount.2.5usd",
       "category": "datasets",
@@ -18408,6 +18702,27 @@
       "publicationReady": false
     },
     {
+      "id": "4ca9fdf4a50d154eaf42beea5125898a15f38d7a632a2a025c2cc22db8f7e63f",
+      "url": "https://mikesbalance.com/lie-to-me-world-happiness-report",
+      "category": "datasets",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {
+        "datasetSignal": true,
+        "directResource": false,
+        "format": false,
+        "coverage": true,
+        "license": false,
+        "licenseStatus": "not stated in captured source"
+      },
+      "missing": [
+        "download, API ou acesso direto ao recurso",
+        "formato identificável"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
       "id": "4d83faf28056465ee96487be10504bdb0f91be0a52d53e2d14b876addc7fb0f0",
       "url": "https://data.worldbank.org/indicator/1.1.PGap.Poor4uds",
       "category": "datasets",
@@ -18427,6 +18742,19 @@
         "download, API ou acesso direto ao recurso",
         "formato identificável",
         "cobertura temporal/geográfica"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "4e09dbf7d27fd04b8abf2b9961493c83d099f8d703b168dffe433af57ec9f7bd",
+      "url": "https://email.datawrapper.de/link/c/YT0zMTM5NTAxMzE1MzYxNjA1NDUyJmM9bTFrOCZlPTE5MjgmYj0xNTgwMzUxNzA1JmQ9aTF2NXkyaw==.Lf_xt9gzh2Xv0DJLT1qxu-cfUDdbu_W-VVqJiFSa3gQ",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -18480,6 +18808,47 @@
       "publicationReady": false
     },
     {
+      "id": "52e4031e4979ba1bf53ac4c87e61958e2a3a873ed239fb9e85382a530d00775b",
+      "url": "https://www.nytimes.com/2026/11/09/us/politics/trump-election-fraud-rigging-midterms.html",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "543f22a88ce187499f2ad8a46896980fb3d8142494afa529f22e57c50b422591",
+      "url": "https://substack.com/redirect/b361a354-6210-4895-ad47-b8d05b3823c6",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "548f0aa0bad0615784d139f953be6f17b67d3751fff726ce848b792afe970527",
+      "url": "https://mofu-dev.com/en/blog/fluid-foundation",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
       "id": "55735d815ef8a82d8c8202fb81437b1661b05138d6e280e4b31a8530f89f1288",
       "url": "https://data.worldbank.org/indicator/1.1.HCount.Mid10to50",
       "category": "datasets",
@@ -18499,6 +18868,20 @@
         "download, API ou acesso direto ao recurso",
         "formato identificável",
         "cobertura temporal/geográfica"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "568e5900c3e4e38a27c4b23468aa4e69cd6eb252ae0c27f8fe5427582c3c5e8b",
+      "url": "https://neal.fun/about",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -18528,6 +18911,34 @@
       "publicationReady": false
     },
     {
+      "id": "58a09a31618f4df093c18589d29aa28c43126a80a0f759e83c12bf8f660056a8",
+      "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9icmFzaXMuYWpvci5vcmcuYnIvYWN0aW9uL2Rpc2FibGVfZW1haWw_dG9rZW49ZXlKMWMyVnlYMmxrSWpveE16VXlNak14TENKd2IzTjBYMmxrSWpveU1qUXlNekExTXpVc0ltbGhkQ0k2TVRjNU5ETXdOelUxTnl3aVpYaHdJam94T0RJMU9EUXpOVFUzTENKcGMzTWlPaUp3ZFdJdE1UQTBOekEzTUNJc0luTjFZaUk2SW1ScGMyRmliR1ZmWlcxaGFXd2lmUS5hU0xENHlsQkU1aGlyQjNoOUZfbC1UZ003RXJXU0hRbUE5RGRWU3VodUw4IiwicCI6MjI0MjMwNTM1LCJzIjoxMDQ3MDcwLCJmIjp0cnVlLCJ1IjoxMzUyMjMxLCJpYXQiOjE3OTQzMDc1NTcsImV4cCI6MjEwOTg4MzU1NywiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.VohfAwbc1uHd5LlD6wZx67gc-kKUDzYlPBd1czebEcQ",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "59ca58618ccb2d00da06e7779c6363f8ba5805f393cb13e5bf4ce4c3618cb360",
+      "url": "https://substack.com/redirect/23b81399-a876-43c2-9f70-8d06fa6596cb",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
       "id": "59cb1a7aaf0848514ab75b5c56a5a150f73c577c36c5dfbd857a464e7481df23",
       "url": "https://www.gbif.org/dataset/0e61f8fe-7d25-4f81-ada7-d970bbb2c6d6",
       "category": "datasets",
@@ -18547,6 +18958,19 @@
         "download, API ou acesso direto ao recurso",
         "formato identificável",
         "cobertura temporal/geográfica"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "5c2d581d5642d740f682b28092dd3e328e8687dc5d03d030cae093db4ed42f3c",
+      "url": "https://x.com/Alyssafarah/status/2119762001379336376",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -18576,6 +19000,352 @@
       "publicationReady": false
     },
     {
+      "id": "5c85efb00ef5956c46512421d1ade336c7d86b4cfe02859d09288a59e56e2c02",
+      "url": "https://substack.com/redirect/5c302680-1698-42d5-ac3f-5e6239896ee9",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "5c9304013b20668879a80cc2db22f029d7adeb6b5c76d89252fd6723eb498034",
+      "url": "https://substack.com/redirect/5a37be98-a1c2-417b-be1e-260d4b82d517",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "5d2a2027ecbb796f35d42b42ac320d4b463d0a9521c567883ee414a708c331ce",
+      "url": "https://data.stackexchange.com/stackoverflow/query/1926661",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "5f1d319f9a6d4b269a5178a6631708fffec49e7305e8462f173cf7eaba08ccf4",
+      "url": "https://www.americansentiment.com/datacenters",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "601178b2076e9df36ef45d76cbf987a604ed995546b32294151093bdc5678205",
+      "url": "https://assets.buttondown.email/images/7b73a844-2d04-46e9-bf0b-071d90174b1a.png",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "60b194d513b5c1c7ee63e7613cd73e2f748f826fb6d337cc944d111ab8faa87f",
+      "url": "https://substack.com/redirect/3d975f45-153e-43f2-b165-f6aa3e214ad8",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "62bde61aad9e1d463dea5de680f30643d2f5d866f32d365b816fa2779ec433f9",
+      "url": "https://substack.com/redirect/a075a0cd-426f-4eea-aaa0-c26df1c25533",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "62fcf188e1194d78580b351901be5e6282029904d0837af80fc5b759793cf758",
+      "url": "https://walkably.org/",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "64e4cee61dbc72805c3902b485935edcd9851d957ce306de37e8bd3f635d0a69",
+      "url": "https://substack.com/redirect/fd37e74b-30d1-44dd-88fd-403bf0f0ea8f",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "650ade56c85226146756c19315fe0d847b6b9ab5e451390a16d470f7a5920b83",
+      "url": "https://aiambitiongap.bytes.co.uk/",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "65947310b830970cbd72f75931464625506613183d6578fd727fe70625b7eb5f",
+      "url": "https://substack.com/redirect/546b4a84-67e0-4117-aea8-22f44eb827b4",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "674195d364373f0ca3c63ca2c88f7f7d66da514ea9b4649eee6a047e19780a40",
+      "url": "https://assets.buttondown.email/images/5f1096e0-289e-4b23-9a46-ec70b67ac146.png",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "67bec53d42f93052ebe0782cdce01427ba33d927b5abad77d55914d57e53e6e8",
+      "url": "https://assets.buttondown.email/images/812e595c-25ff-4dc5-b81f-da1c7fc3f1d1.png",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "69a20ef44e87e76b9304b29ed8ec6bddcfabc31205cd7b2e52819ff81e024b35",
+      "url": "https://substack.com/redirect/2d388850-c483-49e3-b18f-732c2e339ee6",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "69e4484ed5573e12f3200487fb88e6d48262fd69d2a2719daa896f55aef97a3e",
+      "url": "https://assets.buttondown.email/images/849d3b6c-ff30-4962-9ea5-861f79514c4d.png",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "6a2b4e122c05fed8a0a37ab60881f58b4e89fae15603cf889279af679fe0d130",
+      "url": "https://assets.buttondown.email/images/17254dff-8341-4eaf-9b49-d323a000fa22.png",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "6a76db00053b4e94f12baa7c899d50217f5e2e319f6a5d440d2eddb27f4a6781",
+      "url": "https://lupanewsletter.substack.com/p/exercito-do-lula-contra-as-bets",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "6a837e99f737de7f25f6a8c97a835d7356f77bf664df765fb6751f682abc1e58",
+      "url": "https://assets.buttondown.email/images/964626f2-55a5-47fe-89a5-569dc4c2b694.png",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "6ac2776f0a335f402941cd33cebafaf51c7700ed3666c9947861b7448202b3f4",
+      "url": "https://substack.com/redirect/76dc47c1-66fe-458d-a740-2d0202994831",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "6ad3b7a53add2ab2adf517157cddd7265c6eb852bb1f6fe1509bd05c85a8230f",
+      "url": "https://flowingdata.com/2026/10/30/worst-halloween-candies-according-to-the-data",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "6b0da1d9d24346b21bc09a7a34c256719159820f6a1e48679303327c357b5e00",
+      "url": "https://assets.buttondown.email/images/4ee5f199-074f-4ef2-97c1-26b4773fb908.png",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "6e9b5802d564980fff3ecc991118f3439d68b2a257125a01e1f9e0e00902a341",
+      "url": "https://substack.com/redirect/f7c948a1-df26-4d32-8601-66c588d2fba4",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "6f85ad9de4739c360a0dad422296260e8e3888175bba9f4cbd62a9ea37e8f0d3",
+      "url": "https://x.com/JoeBiden/status/2119566187986120705",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "74b4f7387cd8904ea40aea0f84aa6f4156d2a24920d7974b48d2808aa6576a19",
+      "url": "https://www.poynter.org/reporting-editing/2026/west-virginia-local-journalism-ethics-accountability-dan-parks",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "74cbe7a9961c0564788967581e8aa137b65b040ad0ed663852d71bc57b9e384c",
+      "url": "https://www.reddit.com/r/dataisbeautiful/comments/1xmt445/oc_city_blocks_colored_by_the_number_of_their",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
       "id": "758fcffd91512d00147333935c7885ccf1cffdf36eaed139f44a8aa3366406b4",
       "url": "https://data.worldbank.org/indicator/1.0.PGap.Poor4uds",
       "category": "datasets",
@@ -18595,6 +19365,34 @@
         "download, API ou acesso direto ao recurso",
         "formato identificável",
         "cobertura temporal/geográfica"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "75aeb47809b0370f74f011d895adaefa2ea5497e3ece18a05413a7da56ce5d08",
+      "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9sdXBhbmV3c2xldHRlci5zdWJzdGFjay5jb20vYWN0aW9uL2Rpc2FibGVfZW1haWw_dG9rZW49ZXlKMWMyVnlYMmxrSWpveE16VXlNak14TENKd2IzTjBYMmxrSWpveU1qTTBOekl6TWpnc0ltbGhkQ0k2TVRjNU16Z3dNVFl5T0N3aVpYaHdJam94T0RJMU16TTNOakk0TENKcGMzTWlPaUp3ZFdJdE1qZ3lORFk1TlNJc0luTjFZaUk2SW1ScGMyRmliR1ZmWlcxaGFXd2lmUS5lYTZCUS1HcW5nTlFoYzVzUVV4ak9nZnAxcGlxODMwd2tWSk9zR1NkbG5VIiwicCI6MjIzNDcyMzI4LCJzIjoyODI0Njk1LCJmIjp0cnVlLCJ1IjoxMzUyMjMxLCJpYXQiOjE3OTM4MDE2MjgsImV4cCI6MjEwOTM3NzYyOCwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.Tz69aTs9WG624wMVfJgf-KuflcKELOPdwXbt8eLpxwU",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "76563806ee7fefa9ad9801b42a92c9ad1a82caa1add3d26646df3a7e3aa5943b",
+      "url": "https://substack.com/redirect/b6e3170e-e93b-4699-a6f8-42b276ad7fce",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -18648,6 +19446,48 @@
       "publicationReady": false
     },
     {
+      "id": "79cb2a5fbf99207a8def859c2c36ab08aef01da9430822239a01ec9c880f6a61",
+      "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9hZ2VuY2lhdGF0dS5zdWJzdGFjay5jb20vYWN0aW9uL2Rpc2FibGVfZW1haWw_dG9rZW49ZXlKMWMyVnlYMmxrSWpveE16VXlNak14TENKd2IzTjBYMmxrSWpveU1qUXpNREE1TURZc0ltbGhkQ0k2TVRjNU5ETXhOelV4TVN3aVpYaHdJam94T0RJMU9EVXpOVEV4TENKcGMzTWlPaUp3ZFdJdE1qQXdNekkyTXlJc0luTjFZaUk2SW1ScGMyRmliR1ZmWlcxaGFXd2lmUS45c25WaWRBTV8zaWE2WGhma09RckFmQ1ZMRi1DMXFpd19sWUJTajVkdzE0IiwicCI6MjI0MzAwOTA2LCJzIjoyMDAzMjYzLCJmIjp0cnVlLCJ1IjoxMzUyMjMxLCJpYXQiOjE3OTQzMTc1MTEsImV4cCI6MjEwOTg5MzUxMSwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.t8olyrCUqvxmgU91kRxCQt0gOaNjxH2J-I5p7BMdL40",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "7a50554ff6694a6cb35828ff26dfbc3f550e94484cbbff497c498c5e2d6a9df4",
+      "url": "https://assets.buttondown.email/images/b371511e-0063-43c0-b963-133e5340ede3.png",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "7acc996bf383d4e5e1454484134b1a3bef00457655c525c1343348aa40367d68",
+      "url": "https://assets.buttondown.email/images/62c58537-1c2b-4073-b703-a8cc5641406c.png",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
       "id": "7b0ab10063af0b0f0ae138c87275c1ef5d145044de23cb0e256ed36d52a0d9d9",
       "url": "https://www.gbif.org/dataset/fab88965-e69d-4491-a04d-e3198b626e52",
       "category": "datasets",
@@ -18667,6 +19507,20 @@
         "download, API ou acesso direto ao recurso",
         "formato identificável",
         "cobertura temporal/geográfica"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "7c4e2d2833696d2c7fa482a680d5dc33a9588163539edefb1179566245819604",
+      "url": "https://substack.com/redirect/c21ac878-ce61-4a89-a7c8-edc0c41f5dc7",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -18696,6 +19550,20 @@
       "publicationReady": false
     },
     {
+      "id": "7dfb7bbe0bbc2f6e2fd1a9fe23e6f454b17db8b34053a5cf00441063883cff54",
+      "url": "https://substack.com/redirect/27ef28aa-c467-41a4-9e91-a281ddb64d1e",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
       "id": "7ec944b0ff90dc270e19f23d9e2300f1f5a84c2fca343b07055c945a51bfd012",
       "url": "https://data.worldbank.org/indicator/1.0.HCount.Ofcl",
       "category": "datasets",
@@ -18715,6 +19583,79 @@
         "download, API ou acesso direto ao recurso",
         "formato identificável",
         "cobertura temporal/geográfica"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "7f4bb5587224edbfbf276eff16987aacb3ea97ac1ed98b3b3a5e2c9ec0f19fab",
+      "url": "https://substack.com/redirect/2bc8d8be-f2b5-471a-9001-4a574088c577",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "7fe7ff530ddeb422103c1f5ae2df01c704cb5a97a171a655174fbd34654cb9a0",
+      "url": "https://substack.com/redirect/d68e6ea2-77f6-4d83-a511-6ad3aa9799f2",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "8131bd90a31340ae234883b0310fea966d01f14dd68345a72a7de5f22c9e3966",
+      "url": "https://buttondown.com/puntofisso/archive/682-quantum-of-sollazzo",
+      "category": "tools",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {
+        "productSignal": true,
+        "function": true,
+        "access": true,
+        "license": false,
+        "licenseStatus": "not stated in captured source"
+      },
+      "missing": [],
+      "decision": "evidence_complete_for_record_draft",
+      "publicationReady": false
+    },
+    {
+      "id": "8704a98d3c74865c10aeb838966114299ea529da9478fd267857b5e16383a938",
+      "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9sdXBhbmV3c2xldHRlci5zdWJzdGFjay5jb20vYWN0aW9uL2Rpc2FibGVfZW1haWw_dG9rZW49ZXlKMWMyVnlYMmxrSWpveE16VXlNak14TENKd2IzTjBYMmxrSWpveU1qUXpNRGd3T1RBc0ltbGhkQ0k2TVRjNU5ETXlNREUxTkN3aVpYaHdJam94T0RJMU9EVTJNVFUwTENKcGMzTWlPaUp3ZFdJdE1qZ3lORFk1TlNJc0luTjFZaUk2SW1ScGMyRmliR1ZmWlcxaGFXd2lmUS5PWGE0bHd6SDFqaWZybHJhZnBQSThuQ29RTmtDNUNpTmN3Z0FMeGVWRXJvIiwicCI6MjI0MzA4MDkwLCJzIjoyODI0Njk1LCJmIjp0cnVlLCJ1IjoxMzUyMjMxLCJpYXQiOjE3OTQzMjAxNTQsImV4cCI6MjEwOTg5NjE1NCwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.JQsfuoGEYB_kqp4d4cAu77Om-_5rkuItV85OGA96y-M",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "87309f0f07479a3655168aee563a51430e3e4e5f5195e3f0d30047771628b91d",
+      "url": "https://www.theatlantic.com/politics/2026/11/biden-trump-democracy-elections/689343",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -18744,6 +19685,75 @@
       "publicationReady": false
     },
     {
+      "id": "88c8ace50c263bae6bc662e079b0730e102dca14dc3c2d5f46a65dcc35bec7fa",
+      "url": "https://substack.com/redirect/d6a3ad5a-194f-41fc-ac48-72e497e837f3",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "8933f359206c31612ac224bacedd91b291c61d08d99eda052046b1d5ce32d947",
+      "url": "https://yassa9.github.io/osint/gralhix-004",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "8a55a6c1f35f3221bff58113d2dee46a4c7e24f12682b3172de7f376f4c8f795",
+      "url": "https://assets.buttondown.email/images/5a123374-2ab2-4fd4-bcf8-5c291065edbc.png",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "8a9e9e889b8d0531c54d504e8b460c39b8ad9282505c0b2f24db2936f29c5b9a",
+      "url": "https://substack.com/redirect/6e31ab8a-6f5d-4bf8-848b-8e588b9e1c1b",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "8aa8b5c0c61f383f488b7393ac4c86c106690d75260d13ff326ad3ce9afa1ca0",
+      "url": "https://substack.com/redirect/84ebf2c5-e3f1-4253-b49b-811a9c0d4ad8",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
       "id": "8bcfb6c5037db1d2a29ee2acec050bdb36547f6cf56b62e667e5a7782a3b4081",
       "url": "https://www.gbif.org/dataset/4cec8fef-f129-4966-89b7-4f8439aba058",
       "category": "datasets",
@@ -18763,6 +19773,141 @@
         "download, API ou acesso direto ao recurso",
         "formato identificável",
         "cobertura temporal/geográfica"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "8d24f7fa65884fa005fbae27ba17d9da03c1595d6aec688be05d84d24c96d7e7",
+      "url": "https://assets.buttondown.email/images/0418feaa-2407-438e-96f2-8407f0793991.png",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "8e34cc8536b889c04f51e2fd259ba9b433d8df68c96795d57814440a6ef1d36a",
+      "url": "https://lnkd.in/p/eNEmGTYF",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "8e53b5e0d5fe5c81e564efacd974de4fa93f383e3a978a34ba1b1ec086c1b868",
+      "url": "https://yesterpedia.puntofisso.net/",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "8ef4a8c5e685b764dce40d8f6c36b74c287730483896c3a45751f8d64caad972",
+      "url": "https://substack.com/redirect/89244c7d-d335-46a7-91be-2cb30fcf8287",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "8f5f20794190822abe68b511f1234de511d2f39f8d732ba54c4cf7635ee8afcd",
+      "url": "https://substack.com/redirect/01ad6868-cd96-480f-bec2-cf86df027c35",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "8f6696d0458fba7f29fef872262a616561a97d909650395d51c3072c5a96d560",
+      "url": "https://substack.com/redirect/bcd63c07-c56e-4330-b5d4-9029c10c8738",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "8ffe6aff10e4f728fbc2380eb3d81dce96ba2ba2a1ba1ed83caf9379ad804d26",
+      "url": "https://assets.buttondown.email/images/b0c7f409-5b1e-4342-b6cf-eb8bfb9b3d74.png](https://assets.buttondown.email/images/b0c7f409-5b1e-4342-b6cf-eb8bfb9b3d74.png",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "91afa3d1e9a90ccbc2fd15f81bb046538f44b1656edc206a9d4a2fc274990262",
+      "url": "https://mailchi.mp/poynter/surprise-surprise-president-trump-suggests-the-midterms-were-rigged",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "921aede24621fdae1e28cbea8c96bd1703c73ad1dc99111abcea6e154cecf2c4",
+      "url": "https://nicholas.carlini.com/writing/2026/algorithmic-improvements-chess.html",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "930aed8a921ed0859b2bf6a24a0a769e77e179c8ff8e651ee89b744ed68f3693",
+      "url": "https://martinalderson.com/posts/how-the-ai-boom-might-really-end",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -18792,6 +19937,20 @@
       "publicationReady": false
     },
     {
+      "id": "9635c9ee0fc4dd7d3373775d1d357172c5913e53c8b1fc78c6e8f53cef7cad0d",
+      "url": "https://www.politico.com/news/2026/11/09/donald-trump-midterms-results",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
       "id": "96bb3ec7d9dcc6a475d99e1bdb624f216f87b8a389da71db829112e5236b31a9",
       "url": "https://data.worldbank.org/indicator/1.0.HCount.2.5usd",
       "category": "datasets",
@@ -18811,6 +19970,90 @@
         "download, API ou acesso direto ao recurso",
         "formato identificável",
         "cobertura temporal/geográfica"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "975729637e9ee643f77c2a47d48d5709e804abbfcd111276655e6db90c3b791d",
+      "url": "https://substack.com/redirect/1108d7f4-c8f2-4088-9498-f1fdba12010d",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "9a5441c2d078c91701f6ea05bbb218b6d5af8e1b679e52e577a3e0900ab11c39",
+      "url": "https://substack.com/redirect/c1b08dbd-e9f5-466e-aa8b-80b6020d9785",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "9cb46e0b5f1af73f2eb19decb5eee8e6cd00545b53d0345938b2cf1fda93c0a0",
+      "url": "https://assets.buttondown.email/images/95f5f9a4-e4c1-466a-835e-9ed7fa7602c4.png",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "9d35c2621813f69bb0df0072939d66080e436355ebbebb4a56a90b79b21902b0",
+      "url": "https://substack.com/redirect/f7844a9d-1124-4032-a30c-fe7433e0efb1",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "9d76ca5a2b2f6ba5ec72783ef077beee67a6c2269c9be5bb830df7a390744258",
+      "url": "https://substack.com/redirect/85056698-dd3c-4205-bb92-d47b90f8b02d",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "9d80fe637870d324ea052977eedfcd2bf7be9c61394e9862f7391aa7812cfe78",
+      "url": "https://substack.com/redirect/8e0913ec-430f-4d31-8131-dbbb2adb0ee0",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -18840,6 +20083,210 @@
       "publicationReady": false
     },
     {
+      "id": "a2f48ad0a7bf17f33276da5940d2cef93c1d9b143110061eb93ef47358c170c2",
+      "url": "https://substack.com/redirect/dfb3b6df-3900-4d75-a8f1-204efd0b0594",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "a319b0ffcdaf14e1349eacf16c4e41408a95e8c972ec80fd93e8905fcab16dcf",
+      "url": "https://truthsocial.com/@realDonaldTrump/posts/117587105833579030",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "a495f466ec7c1d39d63f3c43d2d8948ed299383964eeb03397f16ed0f98e7aa1",
+      "url": "https://substack.com/redirect/8153129a-0425-4e50-8a76-fdf47d9f4186",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "aa13cf116ec51c2e398e30cf8054180a9de2414bd721dff9c01c79280ae6b5e3",
+      "url": "https://substack.com/redirect/c37b81e5-6503-48ad-8699-ab1e3f1c808f",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "aa4ade1b754c747d10b3460c453f23421ef3b3d6af96caacc975e3d5a5a0cb83",
+      "url": "https://x.com/ChrisCillizza/status/2119759645648568391",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "ab03b31b081cabd4d3d207f69f8e1759b21e9504902bf3fac31e214925e4b7c2",
+      "url": "https://www.bellingcat.com/resources/2026/10/22/can-llms-supercharge-geolocations-our-tests-show-big-improvements-but-humans-remain-key",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "ac1d7c6e6ec3c7954eefc0073e3f508b93b879b452168d669d38060617520f73",
+      "url": "https://www.wsj.com/politics/elections/stephen-miller-trump-chief-of-staff-56917f0a",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "acc2a247a1fc2c7e35647aff8636844ac5443436d370c7793e27f35720012e96",
+      "url": "https://europeancorrespondent.com/en/r/trains-are-still-safe",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "ad48de1ee4cce777877436d7a2bab3dcd9c5d4d54e62032e2684b496bdc0d1d4",
+      "url": "https://bookshop.org/p/books/promise-me-america-joe-biden/dd9b9c45f973c8b6",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "ade5c0ede689fe233603ed45f5f56f84f61655777e4555647f69b5676d7b94f1",
+      "url": "https://usafacts.org/articles/how-to-know-a-red-or-blue-wave-when-you-see-one",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "ae0e1411e428562b07789e01982effd0bc6c05c6baed4ef686fd94924ef7c7af",
+      "url": "https://substack.com/redirect/c17ea183-2dd3-4936-ae90-c4e53a49dc9f",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "ae746c85ae93ecb604efa518f40bce8c2e04ac0a0ff43c010234e5f6334ff213",
+      "url": "https://knowwhereconsulting.co.uk/blog/one-hundred-famous-views-of-edo",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "af3b84067d2d1e42cef45327bfceabefc34e3a64112af7949efb41a6578dda57",
+      "url": "https://www.semafor.com/article/11/08/2026/anti-waymo-campaign-relied-on-op-eds-written-with-ai",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "af67dc243758f99f2cb1ef8129f0097018875dec96b0933ee0df8baaf366d7ab",
+      "url": "https://www.axios.com/2026/11/03/republican-campaign-ads-trump-midterms",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "b19713309e25f0dec6574aeb8d15b605fd5ad30599f22d4fb8c981b05bf176de",
+      "url": "https://github.com/nodal-data/nodal-context",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
       "id": "b2d5d2b985133ba7dbe109fd4dfe6d70350845e971dbcb9a72eff8f4cb5a1493",
       "url": "https://data.worldbank.org/indicator/1.1.PSev.1.90usd",
       "category": "datasets",
@@ -18859,6 +20306,297 @@
         "download, API ou acesso direto ao recurso",
         "formato identificável",
         "cobertura temporal/geográfica"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "b2ee1394f122f05addccaf6d71e2a177e153be1989c266f8894bf5911dc79227",
+      "url": "https://substack.com/redirect/b3cfc01f-f496-4039-bb5a-26dee96d60e9",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "b40e1f9b0281c6b4cf5195019e200ae1bffd14c07ed9cf05f3885713f27df200",
+      "url": "https://substack.com/redirect/8a197a46-3b51-4f2e-aa32-664179e2ffc0",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "b42f8c0006fe2ec6052f0328f8764b524ed7614b90e114d7d72f7823677fa440",
+      "url": "https://x.com/megynkelly/status/2119819056916070904",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "b4d516ab529301a9e44f7671f94397437645505831fc80ab211ffc5fb2baffb1",
+      "url": "https://substack.com/redirect/c8a1a3e0-23af-46c0-aff4-40777c967223",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "b61bd1bd789bde9731519d76ea3b7813dd06c87712740695092ad2fc0dde5e59",
+      "url": "https://substack.com/redirect/50525f35-0525-48f1-ac8e-b1ebbd77e850",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "b6c8f3c665b171d6e75ba7825b035788d4a9b46e03c4b21808d6eb32d0858ff1",
+      "url": "https://assets.buttondown.email/images/457764f2-5a0e-4bf3-9cec-28373a62e70f.png",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "b6fe6158d6d76a3c5ff927b49b9dc2e7139478159b000f3372e1d3517062d047",
+      "url": "https://substack.com/redirect/a61c7416-b079-4302-87a9-c09251242bcc",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "b716d8b75875fcdc42e958a6326b214418e7935b80825fde4c61a104ddc98354",
+      "url": "https://substack.com/redirect/e9bbbf34-f2b3-4879-b9ab-7a32bfef5547",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "b72fda65bc09fdb129c84335157f2bb18ce836db6d0094499f260fd40fdc34d0",
+      "url": "https://substack.com/redirect/24cdbb4c-97ae-4825-832a-9f88c21989e6",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "b86ff2b0300876d1978ae60914001ec941cc421723555052a69a7661ebf51c30",
+      "url": "https://email.datawrapper.de/link/c/YT0zMTM5NTAxMzE1MzYxNjA1NDUyJmM9bTFrOCZlPTE5MjgmYj0xNTgwMzUxNzAyJmQ9ZzhhNm80cQ==.qg12TWcGFDwfKoHNuZ8tGrsLaDq1-IG-hSwjVL8ECV8",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "b87214e32ee10931cecc9c182f33a2dcdfc0e65ec1c07614b89e86fd3d35d274",
+      "url": "https://substack.com/redirect/1766ecd5-11f2-47bd-b8c5-4cc531a9edfd",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "b8870c012dccf597a2ff180398a91b51a39ac844ff7e92f7728826189a51395d",
+      "url": "https://lupanewsletter.substack.com/p/o-sus-e-a-doutrinacao-do-enem",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "b945685f00672c26ef48567700b087a96066811b6c2ebcabf1e937ce162116b1",
+      "url": "https://assets.buttondown.email/images/0185f0af-cb75-4ee7-8c57-b186dc3cedf4.png",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "b94edd51bb953b79a61f2731eeed3796d03f51917ed0c8a3f4402e0f9f4cd277",
+      "url": "https://substack.com/redirect/67f567e6-87df-449d-80cc-d907c90e6be5",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "b96856b30edd20331c4b9109bddf27de8cc07a55da7e83780852ab44ac8de326",
+      "url": "https://substack.com/redirect/189e2247-00a7-40fc-9cea-140bfc60dabb",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "b9cd3bcea31c689a3897a7220df8244b5d3fd272c52960f04f4700c851f80ec7",
+      "url": "https://assets.buttondown.email/images/4365dab5-6767-4c6b-92ef-58528d354264.png",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "ba1c1ae48ddc9f4bf93c2ba487747ef2576ee689a48b59e150a089ee6f98a9cd",
+      "url": "https://substack.com/redirect/8a7cc298-0b86-494a-a6de-8e04889b7831",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "bb43574ba1735784a35ee3b6fe7f107e9bf9efb4fc83c35ff119980b0af9be79",
+      "url": "https://substack.com/redirect/694a6856-e377-4171-94ef-0df4d5efc756",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "bc9f3f2e1c7dcd72cb2f05e54aed97ae82ee3628438612eaa88ee776e65f674a",
+      "url": "https://www.theatlantic.com/politics/2026/11/stephen-miller-susie-wiles-white-house/689331",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "bcc8788e0695d85722e3986d5d7a2a2a152f3572dcfabda168e76011566ea5a3",
+      "url": "https://lnkd.in/p/ekbHfhmm",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "bde9428af38131bce7f39d494ac3bbc491b757e545e49f70204df27aeddacd46",
+      "url": "https://substack.com/redirect/1ea2906f-3980-4a0f-9bf8-c4bd23430547",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -18902,6 +20640,34 @@
       "publicationReady": false
     },
     {
+      "id": "c0f09dac72e34bad22e6eb271b804a233a1ecbcc0905342e5d52ade3f42ac09f",
+      "url": "https://assets.buttondown.email/images/a5d2dae5-c03b-4a50-a40c-4c857d5d54fa.png",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "c160104c86c5f6365f0a65473e1edd0989cbf5f5220f4575420fbcdea90167e1",
+      "url": "https://assets.buttondown.email/images/32f36b3f-9289-4839-9a20-b00480faa121.png",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
       "id": "c1ac3febaefe72158ed84064e147ca2c71c620e8e6e9244ccf3395e4edbc5f79",
       "url": "https://www.gbif.org/dataset/bae5856f-da10-4333-90a0-5a2135361b30",
       "category": "datasets",
@@ -18921,6 +20687,48 @@
         "download, API ou acesso direto ao recurso",
         "formato identificável",
         "cobertura temporal/geográfica"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "c1caf3e75a6039762bb2e9338d310690255443425fb153fb2596c0f2c3180744",
+      "url": "https://poynterfoundation.fundjournalism.org/eoy2026",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "c2f8220cde3e18843d5b07b75120b07c3e91d3db500a939e5217f6c9229a3164",
+      "url": "https://apnews.com/article/dc-studios-james-gunn-skydance-9e9885f9ee047a1289153c68eb395a0d",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "c3560e66f040fb6b9f3ccd375d0f3b01eec7abb84ee438754e6258a52b4a6714",
+      "url": "https://substack.com/redirect/7043488b-5cca-4ce9-8172-2f505ecbab60",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -18993,6 +20801,154 @@
         "download, API ou acesso direto ao recurso",
         "formato identificável",
         "cobertura temporal/geográfica"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "c69a4026f5b4f206efbb3eb8ad67da0438be42c094ac455943a98bf9fd5da8d0",
+      "url": "https://go.dev/blog/jsonv2",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "c83968e55f454185c25f304653b4efbe16ee4d7a052241821a065e33cc8482d8",
+      "url": "https://substack.com/redirect/3fe7f0bb-f452-4f45-9425-d8819b0eaa0d",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "c8de24e8208df04f65a382fa099d7e31559be0a88126344c75acead580131bae",
+      "url": "https://x.com/Alyssafarah/status/2119812590616346630",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "c92eee09f8eb0137235f3d18ecc531c9d9984d8733b2b91ce8c9e1ba1e867720",
+      "url": "https://allenai.org/blog/novelty-bench",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "c96c5f08ac02b0c4cf3a014fe7034ead597e9ebb033b532ef0e905b7b6dbcd6b",
+      "url": "https://assets.buttondown.email/images/84fbb000-cb4c-4737-8913-257a6f4d7733.png",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "ca470357194c3b9687c8482ee0b38855eaa25cd328a90a1c637f94a78f09dad2",
+      "url": "https://github.com/GetCassis/analytics-agent-articles",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "cad39e6fe5aa2c2f7a472791ae48c01291b153042f9369f36832c310c4100d2c",
+      "url": "https://x.com/brithume/status/2119623133464535277",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "cb0dee7d5cab33a12f3305bb8489b7c8747611d8dcf17e8f23cd7948f653f159",
+      "url": "https://substack.com/redirect/e3b361a9-ccbd-491c-b9d3-05fe019a7896",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "cca75894f8f9ad88f64032f2d2870ad20d06cd4b2d35c4bcdf73a8d13f38ab39",
+      "url": "https://substack.com/redirect/2a4881ad-2c69-45a6-9e48-56474abe491d",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "ccc6f1a069d8442c8fb30cd98ba033f2b69ee7e03a9c10a4e83be7b710bc754b",
+      "url": "https://puntofisso.net/apps/mirrored-bar-chart.html",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "cde01242db378b370f3e825a0009d1633f74156ef40b65247c8df0ac2432a81a",
+      "url": "https://substack.com/redirect/4d319e0e-d011-4f65-be00-0f973ab2b268",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false

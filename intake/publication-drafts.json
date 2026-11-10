@@ -1,69 +1,19 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-10T22:02:59.504Z",
-  "sourceQueueUpdatedAt": "2026-11-10T22:02:51.489Z",
+  "generatedAt": "2026-11-10T22:14:14.774Z",
+  "sourceQueueUpdatedAt": "2026-11-10T22:14:10.246Z",
   "policy": "Evidence-complete drafts only; the separate deterministic evidence gate must independently approve before publication.",
   "summary": {
-    "eligibleForDrafting": 9,
-    "drafts": 9,
+    "eligibleForDrafting": 3,
+    "drafts": 3,
     "byCategory": {
-      "opportunities": 1,
-      "datasets": 1,
-      "tools": 7
+      "opportunities": 0,
+      "datasets": 0,
+      "tools": 3
     },
     "publicationReady": 0
   },
   "drafts": [
-    {
-      "schemaVersion": 1,
-      "id": "483c5944a10521dde5f808f0c5a7f8905fcf5f0d7041f337d200f27096fecbc5",
-      "category": "tools",
-      "status": "draft_only",
-      "publicationReady": false,
-      "source": {
-        "url": "https://omni.co/",
-        "discoveryProviders": [
-          "Data Visualization Society"
-        ],
-        "pageTitle": "The AI analytics platform - Omni Analytics",
-        "checkedAt": "2026-11-10T20:02:55.377Z",
-        "httpStatus": 200,
-        "contentType": "text/html; charset=utf-8"
-      },
-      "evidence": {
-        "checks": {
-          "productSignal": true,
-          "function": true,
-          "access": true,
-          "license": false,
-          "licenseStatus": "not stated in captured source"
-        },
-        "sourceExcerpt": "The AI analytics platform - Omni Analytics Trusted by Get insights without waiting in line. Ask Chat like you’d ask a teammate. Refine Filter, add fields, and calculate metrics. Summarize Get insights to inform decisions. Follow up Ask another question. Context carries over. Keep exploring Start a workbook and use our full analytics UI. Make decisions faster with AI Put your analysis on autopilot. Instantly diagnose metric changes and schedule AI-written summaries to go out where your team works. Learn more Analyze drivers & drags Get insights delivered Diagnose changes Look up data quickly Use familiar analytics tools, all in one place Dashboards Custom visualizations, drill-downs, filters, and more. Spreadsheets Familiar formulas, forecasting, and modeling on top of live, governed data. Point-and-click An intuitive field picker and chart editor anyone can use. SQL Raw SQL in an IDE with intelligent autocomplete. Ship AI analytics without slowing down your roadmap White label Omni in your product with SSO embedding, APIs, and our MCP server. Get a Demo Accelerate your AI & analytics journey Our big lesson with AI is that it’s about control. When you constrain it and give it context, like Omni’s semantic layer does, you get predictable, reliable results that drive action. Data Teams Drowning in ad-hoc requests? Help users self-serve with AI they can trust, and free up time for your team. Choosing Omni is solving for more than just BI. We’ve also primed ourselves to leap forward into AI because the semantic model is at the heart of the platform. That’s not true for many other tools. Business teams Tired of waiting for answers? Ask a question with AI chat and get a response instantly. Our customers can build custom reports and dashboards in minutes without ever leaving the BambooHR platform. Our team is pushing the business forward because Omni has unlocked capacity for us. Product teams Need an AI win? Implement AI analytics with Omni in weeks instead of derailing core product work. Capture your team's knowledge in a semantic model Experts define core logic, while everyone else contributes domain expertise. AI gets better with every use. Learn more Access your semantic layer from any AI platform Query data via Omni's MCP server, APIs, and integrations. See Claude connector See ChatGPT app Set up Omni's MCP server in Cursor Set up Omni's MCP server Model data and generate AI context with agents Built-in Modeling Agent Omni's built-in agent helps you build metrics, add AI context, incorporate existing documentation, and more. Learn more Skills Invoke pre-packaged agent behaviors directly in your chat interface to build models, run queries, and manage content. Learn more Command Line Interface (CLI) Leverage Omni's suite of APIs to manage your Omni instance from the terminal. Learn more { \"model\" : { \"id\" : \"529258b9-7dbd-4bb6-8869-028a437dd384\", \"createdAt\" : \"2026-04-15T23:24:39.501Z\", \"updatedAt\" : \"2026-04-15T23:24:39.501Z\", \"deletedAt\" : null, \"connectionId\" : \"0b2493a4-b88e-4561-8285-777453c7b956\", \"name\" : \"optimize-for-ai\", \"organizationId\" : \"3cf4fd8a-29e8-408b-ac63-f9a687d0186f\", \"userId\" : \"57da3a10-45d8-449e-9a04-5d1892c0d403\", \"environmentConnectionId\" : null, \"baseModelId\" : \"8026c838-5331-45f3-a97a-cf8569da213f\", \"version\" : \"0\", \"modelKind\" : \"BRANCH\", \"hasGit\" : false, \"pullRequestUrl\" : null, \"gitSha\" : null, \"lastPrCommitAt\" : null, \"pullRequestRequired\" : false, \"branchPerPullRequest\" : false, \"createdByPrincipal\" : \"{\\\"userId\\\":\\\"57da3a10-45d8-449e-9a04-5d1892c0d403\\\",\\\"additionalContext\\\":\\\"API key id: aa30349a-5011-4cd7-9e58-58b3e78c1\\\"}\", \"disableAutoSync\" : null } } { \"model\" : { \"id\" : \"529258b9-7dbd-4bb6-8869-028a437dd384\", \"createdAt\" : \"2026-04-15T23:24:39.501Z\", \"updatedAt\" : \"2026-04-15T23:24:39.501Z\", \"deletedAt\" : null, \"connectionId\" : \"0b2493a4-b88e-4561-8285-777453c7b956\", \"name\" : \"optimize-for-ai\", \"organizationId\" : \"3cf4fd8a-29e8-408b-ac63-f9a687d0186f\", \"userId\" : \"57da3a10-45d8-449e-9a04-5",
-        "structuredData": [
-          {
-            "@type": "Organization",
-            "name": "Omni Analytics",
-            "url": "https://omni.co"
-          },
-          {
-            "@type": "WebSite",
-            "name": "Omni Analytics",
-            "url": "https://omni.co"
-          }
-        ],
-        "resourceLinks": []
-      },
-      "recordDraft": {
-        "id": "483c5944a10521dde5f808f0c5a7f8905fcf5f0d7041f337d200f27096fecbc5",
-        "name": "The AI analytics platform",
-        "kind": "Omni Analytics",
-        "url": "https://omni.co/",
-        "desc": "Omni Analytics turns your data into a source of truth for AI, so anyone can get answers they trust. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
-      },
-      "missingFields": [],
-      "reviewDecision": "evidence_complete_for_record_draft",
-      "note": "Ficha preliminar baseada no conteúdo capturado da página. Campos sem evidência permanecem ausentes; a aprovação depende do gate independente de publicação."
-    },
     {
       "schemaVersion": 1,
       "id": "733c36409f57a6d64b4eb49ac945a060082aa3ebc58f68ebc56d21824af048b3",
@@ -115,45 +65,6 @@
       "missingFields": [
         "kind"
       ],
-      "reviewDecision": "evidence_complete_for_record_draft",
-      "note": "Ficha preliminar baseada no conteúdo capturado da página. Campos sem evidência permanecem ausentes; a aprovação depende do gate independente de publicação."
-    },
-    {
-      "schemaVersion": 1,
-      "id": "78b7a11294f5e332bf8ed33d08a8d7151c67f4de4588753cb629a48375d6c337",
-      "category": "tools",
-      "status": "draft_only",
-      "publicationReady": false,
-      "source": {
-        "url": "https://github.com/ropensci/tabulapdf",
-        "discoveryProviders": [
-          "Data Visualization Society"
-        ],
-        "pageTitle": "GitHub - ropensci/tabulapdf: Bindings for Tabula PDF Table Extractor Library · GitHub",
-        "checkedAt": "2026-11-10T20:02:55.377Z",
-        "httpStatus": 200,
-        "contentType": "text/html; charset=utf-8"
-      },
-      "evidence": {
-        "checks": {
-          "productSignal": true,
-          "function": true,
-          "access": true,
-          "license": true,
-          "licenseStatus": "stated"
-        },
-        "sourceExcerpt": "GitHub - ropensci/tabulapdf: Bindings for Tabula PDF Table Extractor Library · GitHub Skip to content You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Reload to refresh your session. Dismiss alert main Branches Tags Go to file Code Open more actions menu Latest commit History 182 Commits 182 Commits Folders and files Name Name Last commit message Last commit date .github .github R R dev dev docs docs inst inst java java man man tests tests vignettes vignettes .Rbuildignore .Rbuildignore .gitignore .gitignore CONTRIBUTING.md CONTRIBUTING.md CRAN-SUBMISSION CRAN-SUBMISSION DESCRIPTION DESCRIPTION LICENSE.md LICENSE.md NAMESPACE NAMESPACE NEWS.md NEWS.md README.Rmd README.Rmd README.md README.md codecov.yml codecov.yml cran-comments.md cran-comments.md tabulizer.Rproj tabulizer.Rproj View all files Repository files navigation tabulapdf: Extract tables from PDF documents tabulapdf provides R bindings to the Tabula java library , which can be used to computationaly extract tables from PDF documents. Note: tabulapdf is released under the MIT license, as is Tabula itself. Installation tabulapdf depends on rJava , which implies a system requirement for Java. This can be frustrating, especially on Windows. The preferred Windows workflow is to use Chocolatey to obtain, configure, and update Java. You need do this before installing rJava or attempting to use tabulapdf. More on this and troubleshooting below. tabulapdf is available on CRAN, and it can also be installed from rOpenSci’s R-Universe: # either install.packages( \" tabulapdf \" ) # or install.packages( \" tabulapdf \" , repos = c( \" https://ropensci.r-universe.dev \" , \" https://cloud.r-project.org \" )) To install the latest development version: if ( ! require( remotes )) install.packages( \" remotes \" ) # on 64-bit Windows remotes :: install_github(c( \" ropensci/tabulapdf \" ), INSTALL_opts = \" --no-multiarch \" ) # elsewhere remotes :: install_github(c( \" ropensci/tabulapdf \" )) Code Examples The main function, extract_tables() provides an R clone of the Tabula command line application: library( tabulapdf ) f <- system.file( \" examples \" , \" data.pdf \" , package = \" tabulapdf \" ) out <- extract_tables( f ) out [[ 1 ]] # # A tibble: 32 × 11 # mpg cyl disp hp drat wt qsec vs am gear carb # <dbl> <dbl> <dbl> <dbl> <dbl> <dbl> <dbl> <dbl> <dbl> <dbl> <dbl> # 1 21 6 160 110 3.9 2.62 16.5 0 1 4 4 # 2 21 6 160 110 3.9 2.88 17.0 0 1 4 4 # 3 22.8 4 108 93 3.85 2.32 18.6 1 1 4 1 # 4 21.4 6 258 110 3.08 3.21 19.4 1 0 3 1 # 5 18.7 8 360 175 3.15 3.44 17.0 0 0 3 2 # 6 18.1 6 225 105 2.76 3.46 20.2 1 0 3 1 # 7 14.3 8 360 245 3.21 3.57 15.8 0 0 3 4 # 8 24.4 4 147. 62 3.69 3.19 20 1 0 4 2 # 9 22.8 4 141. 95 3.92 3.15 22.9 1 0 4 2 # 10 19.2 6 168. 123 3.92 3.44 18.3 1 0 4 4 # # ℹ 22 more rows # # ℹ Use `print(n = ...)` to see more rows The vignette provides more examples and details on how to use the package. Installing Java on Windows with Chocolatey In Power Shell prompt, install Chocolately if you don’t already have it. Run Get-ExecutionPolicy . If it returns Restricted , then run Set-ExecutionPolicy AllSigned or Set-ExecutionPolicy Bypass -Scope Process . Then, install Chocolatey by running the following command: Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1')) Install java using the following command: choco install openjdk11 You should now be able to safely open R, and use rJava and tabulapdf. From PowerShell, you should see something like this after running java -version : OpenJDK Runtime Environment (build 11.0.22+7-post-Ubuntu-0ubuntu222.04.1) OpenJDK 64-Bit Server VM (build 11.0.22+7-post-Ubuntu-0ubuntu222.04.1, mixed mode, sharing) ",
-        "structuredData": [],
-        "resourceLinks": []
-      },
-      "recordDraft": {
-        "id": "78b7a11294f5e332bf8ed33d08a8d7151c67f4de4588753cb629a48375d6c337",
-        "name": "GitHub",
-        "kind": "ropensci/tabulapdf: Bindings for Tabula PDF Table Extractor Library · GitHub",
-        "url": "https://github.com/ropensci/tabulapdf",
-        "desc": "Bindings for Tabula PDF Table Extractor Library. Contribute to ropensci/tabulapdf development by creating an account on GitHub. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
-      },
-      "missingFields": [],
       "reviewDecision": "evidence_complete_for_record_draft",
       "note": "Ficha preliminar baseada no conteúdo capturado da página. Campos sem evidência permanecem ausentes; a aprovação depende do gate independente de publicação."
     },
@@ -218,307 +129,63 @@
     },
     {
       "schemaVersion": 1,
-      "id": "bcf905a7d1b746329b76590ec887f5b37fe0993d4c6f81fd8269f04c0829e6d7",
+      "id": "8131bd90a31340ae234883b0310fea966d01f14dd68345a72a7de5f22c9e3966",
       "category": "tools",
       "status": "draft_only",
       "publicationReady": false,
       "source": {
-        "url": "https://learn.microsoft.com/en-us/dax",
-        "discoveryProviders": [
-          "Data Visualization Society"
-        ],
-        "pageTitle": "Data Analysis Expressions (DAX) Reference - DAX | Microsoft Learn",
-        "checkedAt": "2026-11-10T20:06:55.693Z",
-        "httpStatus": 200,
-        "contentType": "text/html"
-      },
-      "evidence": {
-        "checks": {
-          "productSignal": true,
-          "function": true,
-          "access": true,
-          "license": false,
-          "licenseStatus": "not stated in captured source"
-        },
-        "sourceExcerpt": "Data Analysis Expressions (DAX) Reference - DAX | Microsoft Learn Table of contents Read in English Edit Data Analysis Expressions (DAX) Reference Data Analysis Expressions (DAX) is a library of functions and operators that can be combined to build formulas and expressions in Power BI, Analysis Services, and Power Pivot in Excel data models. Functions Reference DAX functions DAX statements What's new New DAX functions Learn about DAX Overview DAX overview video Videos Training Use DAX in Power BI Desktop Understand Concept DAX glossary DAX operators DAX queries DAX syntax",
-        "structuredData": [],
-        "resourceLinks": [
-          {
-            "url": "https://go.microsoft.com/fwlink/p/?LinkID=2092881",
-            "label": "Download Microsoft Edge"
-          }
-        ]
-      },
-      "recordDraft": {
-        "id": "bcf905a7d1b746329b76590ec887f5b37fe0993d4c6f81fd8269f04c0829e6d7",
-        "name": "Data Analysis Expressions (DAX) Reference",
-        "kind": "DAX | Microsoft Learn",
-        "url": "https://learn.microsoft.com/en-us/dax",
-        "desc": "Data Analysis Expressions (DAX) is a library of functions and operators that can be combined to build calculation formula expressions. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
-      },
-      "missingFields": [],
-      "reviewDecision": "evidence_complete_for_record_draft",
-      "note": "Ficha preliminar baseada no conteúdo capturado da página. Campos sem evidência permanecem ausentes; a aprovação depende do gate independente de publicação."
-    },
-    {
-      "schemaVersion": 1,
-      "id": "dcfa0487c540be0e50474bdc6332858180f97a84e0b91c826ac43f897db13474",
-      "category": "tools",
-      "status": "draft_only",
-      "publicationReady": false,
-      "source": {
-        "url": "https://cube.dev/",
-        "discoveryProviders": [
-          "Data Visualization Society"
-        ],
-        "pageTitle": "Cube — The agentic analytics platform built on a semantic layer",
-        "checkedAt": "2026-11-10T20:06:55.693Z",
-        "httpStatus": 200,
-        "contentType": "text/html; charset=utf-8"
-      },
-      "evidence": {
-        "checks": {
-          "productSignal": true,
-          "function": true,
-          "access": true,
-          "license": false,
-          "licenseStatus": "not stated in captured source"
-        },
-        "sourceExcerpt": "Cube — The agentic analytics platform built on a semantic layer The agentic analytics platform built on a semantic layer BI for both humans and AI agents — for your team and your customers. One semantic model keeps every answer governed and consistent. Get started Request a demo Trusted by modern data teams The next generation of BI The business intelligence built for AI agents. And the humans they work with. As AI agents become more autonomous, they run more operations and make more decisions without waiting for a person. Cube gives them governed, reliable business data through MCP and APIs — so every decision is grounded in trusted context. Requests and triggers Human request Question or instruction Schedule or trigger Routine check or data change Agent request Claude, Codex, or a custom agent Cube agentic BI 1 2 3 4 Understand request Work on data model Run analysis Produce result Autonomous loop Semantic model Business context Governance + permissions Results For humans Charts, reports, dashboards Analytics content ready to use For agents Governed data and analysis Structured results for the next operation Embedded Analytics Ship AI-powered analytics inside your product without rebuilding your BI stack. Multi-tenant, governed, and built around the semantic layer. Explore Cube embedded Analytics Chat API Build a fully custom AI analytics experience — agent-to-agent capable via MCP. Embedded iframes Analytics Chat and Dashboard iframes — the fastest drop-in path. Creator Mode Full workbook and dashboard creation, embedded inside your app — your customers build their own. Core Data APIs Maximum control at the data layer; build any UI on top. Your colors, your branding, your agent name — Cube's embedded surfaces disappear into your product. Multi-tenant by construction. Governance flows from your model through to your customers' permissions. “Brex chose Cube over dbt Semantic Layer and LookML — the semantic layer is what makes the AI useful at scale.” Read the story Business Intelligence Governed AI-native BI for your data team. Cube's semantic layer keeps your definitions consistent across every surface. Analytics Chat Workbooks Dashboards AI in your tools Natural-language analytics, grounded in your model. Ask questions in plain English. Cube's Analytics Chat builds queries against your semantic model — so answers are accurate, governed, and the same regardless of who asks. Answers grounded in your semantic definitions Same answer wherever it's asked Governance flows through end to end Learn more about Analytics Chat AI-augmented analyst exploration. Workbooks combine SQL, a visual editor, and a Workbook Agent that drafts and iterates on queries with you — all against the same governed semantic model. Workbook Agent for query writing and iteration SQL plus a visual editor in one surface Built on the same governed semantic model Learn more about Workbooks AI-augmented visual reporting. Build dashboards conversationally with the Dashboard Agent. Sub-second performance comes from pre-aggregation and caching — and every chart resolves against your semantic definitions. Dashboard Agent for conversational build Sub-second performance via pre-aggregations Definitions stay consistent everywhere Learn more about Dashboards Cube where your team and AI already work. Connect Cube to the tools your team lives in. Talk to your data from Claude, ChatGPT, Cursor, or our Slack agent via the MCP server — with more integrations on the way. MCP server for Claude, ChatGPT, Cursor, and your own agents Slack agent that answers in-thread More integrations on the way Learn more about AI integrations and 50+ Explore Cube for Business Intelligence Customer stories “ The CSMs can answer their own questions just by chatting with the data. ” “ Regardless of the rest of your stack, any tool will be able to read from that and give you a consistent, governed analytics and insights experience. ” Jeff Sato Director of Analytics at BetterUp Read the story Dan ",
-        "structuredData": [],
-        "resourceLinks": []
-      },
-      "recordDraft": {
-        "id": "dcfa0487c540be0e50474bdc6332858180f97a84e0b91c826ac43f897db13474",
-        "name": "Cube",
-        "kind": "The agentic analytics platform built on a semantic layer",
-        "url": "https://cube.dev/",
-        "desc": "Cube is the agentic analytics platform, built on a semantic layer — AI-native business intelligence and embedded analytics with answers your team and your customers can trust. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
-      },
-      "missingFields": [],
-      "reviewDecision": "evidence_complete_for_record_draft",
-      "note": "Ficha preliminar baseada no conteúdo capturado da página. Campos sem evidência permanecem ausentes; a aprovação depende do gate independente de publicação."
-    },
-    {
-      "schemaVersion": 1,
-      "id": "b45070e9d4dabfb55eb4edbe6a851ffcd200473f6429555a374f7c0ac7db3e88",
-      "category": "opportunities",
-      "status": "draft_only",
-      "publicationReady": false,
-      "source": {
-        "url": "https://grantsforjournalists.com/grant/knight-wallace-fellowship-at-the-university-of-michigan",
-        "discoveryProviders": [
-          "Grants for Journalists"
-        ],
-        "pageTitle": "Knight-Wallace Fellowship at the University of Michigan &#8211; Grants for Journalists",
-        "checkedAt": "2026-11-10T20:36:10.810Z",
-        "httpStatus": 200,
-        "contentType": "text/html; charset=UTF-8"
-      },
-      "evidence": {
-        "checks": {
-          "callSignal": true,
-          "deadline": "2026-12-01",
-          "eligibility": true
-        },
-        "sourceExcerpt": "Knight-Wallace Fellowship at the University of Michigan – Grants for Journalists Skip to content View Full List Grant details View all grants Knight-Wallace Fellowship at the University of Michigan Knight-Wallace Fellowships offer a broad range of accomplished journalists an academic year of study and collaborative learning at the University of Michigan. Through this fellowship, journalists who are eager for growth and deeply committed to the future of their profession have the opportunity to deepen knowledge, develop new ideas and address challenges facing the journalism industry. Each year Wallace House Center for Journalists awards Knight-Wallace Fellowships to a small cohort of U.S. journalists for immersive projects touching on a range of areas including education, public policy, sports, health and medicine, technology and news innovation, transportation and environment, and international reporting. Location All Locations (Open to Anyone) Funding Type Fellowship Organization University of Michigan Focus Area Subject Area Professional Development Award Size $85,000, plus $5,000 relocation Career Stage mid-career Editor's Note Deadline for international applicants is December 1, 2026. Deadline 02/01/2027 Apply Here",
-        "structuredData": [],
-        "resourceLinks": []
-      },
-      "recordDraft": {
-        "id": "b45070e9d4dabfb55eb4edbe6a851ffcd200473f6429555a374f7c0ac7db3e88",
-        "title": "Knight-Wallace Fellowship at the University of Michigan &#8211; Grants for Journalists",
-        "org": null,
-        "summary": "Knight-Wallace Fellowship at the University of Michigan – Grants for Journalists Skip to content View Full List Grant details View all grants Knight-Wallace Fellowship at the University of Michigan Knight-Wallace Fellowships offer a broad range of accomplished journalists an academic year of study and collaborative learning at the University of Michigan. Through this fellowship, journalists who are eager for growth and deeply committed to the future of their profession have the opportunity to deepen knowledge, develop new ideas and address challenges facing the journalism industry. Each year Wallace House Center for Journalists awards Knight-Wallace Fellowships to a small cohort of U.S. journalists for immersive projects touching on a range of areas including education, public policy, sports, health and medicine, technology and news innovation, transportation and environment, and international reporting. Location All Locations (Open to Anyone) Funding Type Fellowship Organization University of Michigan Focus Area Subject Area Professional Development Award Size $85,000, plus $5,000 relocation Career Stage mid-career Editor's Note Deadline for international applicants is December 1,",
-        "type": "Fellowship",
-        "themes": [
-          "Meio ambiente",
-          "Jornalismo"
-        ],
-        "scope": "Location All Locations (Open to Anyone) Funding Type Fellowship Organization University of Michigan Focus Area Subject Area Professional Development Award Size $85,000, plus $5,000 relocation Career Stage mid-career Editor's Note Deadline for international applicants is December 1, 2026.",
-        "fit": 6,
-        "deadline": "2026-12-01",
-        "deadlineStatus": "Confirmado na página oficial; fuso horário não informado.",
-        "eligibility": "parcial",
-        "status": "aberta",
-        "rules": "https://grantsforjournalists.com/grant/knight-wallace-fellowship-at-the-university-of-michigan",
-        "apply": "https://grantsforjournalists.com/grant/knight-wallace-fellowship-at-the-university-of-michigan"
-      },
-      "missingFields": [
-        "org"
-      ],
-      "reviewDecision": "evidence_complete_for_record_draft",
-      "note": "Ficha preliminar baseada no conteúdo capturado da página. Campos sem evidência permanecem ausentes; a aprovação depende do gate independente de publicação."
-    },
-    {
-      "schemaVersion": 1,
-      "id": "97995754262f60cf84e9c9b25a4f79ef5de8bc0f0de16639ebc888bd347f9412",
-      "category": "datasets",
-      "status": "draft_only",
-      "publicationReady": false,
-      "source": {
-        "url": "https://arcmira.com/famous/ai-companies/2026-09",
+        "url": "https://buttondown.com/puntofisso/archive/682-quantum-of-sollazzo",
         "discoveryProviders": [
           "Gmail Radar PLOT newsletter"
         ],
-        "pageTitle": "Top AI companies of September 2026 on podcasts and YouTube | Arcmira",
-        "checkedAt": "2026-11-10T20:53:48.541Z",
+        "pageTitle": "682: quantum of sollazzo • Buttondown",
+        "checkedAt": "2026-11-10T22:14:10.246Z",
         "httpStatus": 200,
         "contentType": "text/html; charset=utf-8"
       },
       "evidence": {
         "checks": {
-          "datasetSignal": true,
-          "directResource": true,
-          "format": true,
-          "coverage": true,
-          "license": true,
-          "licenseStatus": "stated"
+          "productSignal": true,
+          "function": true,
+          "access": true,
+          "license": false,
+          "licenseStatus": "not stated in captured source"
         },
-        "sourceExcerpt": "Top AI companies of September 2026 on podcasts and YouTube | Arcmira Famous Rankings Monthly edition, published Oct 15, 2026 Free to reuse with credit, CC BY 4.0 Top AI companies of September 2026 The AI companies podcasts and YouTube talked about most in September 2026. Compiled by Arcmira from transcripts, with every count linked to its source quotes. Counted over September 1 to 30, 2026 , UTC. See this week's ranking or cite this edition . Track this board Most mentioned Most videos with a mention in September 2026, against August. Most mentioned # Name September August Change Top shows Track 01 OpenAI #1 On 151 shows Cite Badge Copy HTML Download PNG LinkedIn image 1,572 +101% 783 +101% Bloomberg Television , Bloomberg Podcasts 02 Anthropic #2 On 142 shows Cite Badge Copy HTML Download PNG LinkedIn image 1,546 +109% 741 +109% Bloomberg Podcasts , Bloomberg Television 03 NVIDIA #3 On 96 shows Cite Badge Copy HTML Download PNG LinkedIn image 857 +64% 522 +64% Bloomberg Podcasts , Bloomberg Television 04 Hugging Face #4 On 87 shows Cite Badge Copy HTML Download PNG LinkedIn image 577 +179% 207 +179% Bloomberg Podcasts , Bloomberg Television 05 Google DeepMind #5 On 50 shows Cite Badge Copy HTML Download PNG LinkedIn image 152 +41% 108 +41% Bloomberg Podcasts , Bloomberg Television 06 DeepSeek Top 10 On 49 shows Cite Badge Copy HTML Download PNG LinkedIn image 145 +37% 106 +37% Bloomberg Television , Bloomberg Podcasts 07 xAI Top 10 On 52 shows Cite Badge Copy HTML Download PNG LinkedIn image 135 +59% 85 +59% Bloomberg Podcasts , Monitor The Situation 08 OpenRouter Top 10 On 39 shows Cite Badge Copy HTML Download PNG LinkedIn image 65 -14% 76 -14% TBPN , The Information 09 Cognition Top 10 On 32 shows Cite Badge Copy HTML Download PNG LinkedIn image 62 +63% 38 +63% TBPN , 20VC with Harry Stebbings 10 Perplexity Top 10 On 34 shows Cite Badge Copy HTML Download PNG LinkedIn image 61 -16% 73 -16% This Week in Startups , Invest Like The Best 11 METR Top 25 On 27 shows Cite Badge Copy HTML Download PNG LinkedIn image 61 31x 2 31x Cognitive Revolution \"How AI Changes Everything\" , Monitor The Situation 12 Moonshot AI Top 25 On 19 shows Cite Badge Copy HTML Download PNG LinkedIn image 54 +86% 29 +86% Bloomberg Television , Bloomberg Podcasts 13 Artificial Analysis Top 25 On 12 shows Cite Badge Copy HTML Download PNG LinkedIn image 43 +139% 18 +139% Theo - t3․gg , The AI Daily Brief: Artificial Intelligence News 14 Mistral AI Top 25 On 20 shows Cite Badge Copy HTML Download PNG LinkedIn image 41 +128% 18 +128% etn. , Bloomberg Podcasts 15 World Labs Top 25 On 11 shows Cite Badge Copy HTML Download PNG LinkedIn image 37 +517% 6 +517% Bloomberg Podcasts , Bloomberg Television 16 Lovable Top 25 On 19 shows Cite Badge Copy HTML Download PNG LinkedIn image 32 -33% 48 -33% etn. , 20VC with Harry Stebbings 17 Minimax Top 25 On 15 shows Cite Badge Copy HTML Download PNG LinkedIn image 32 +113% 15 +113% Bloomberg Television , Monitor The Situation 18 Elevenlabs Top 25 On 23 shows Cite Badge Copy HTML Download PNG LinkedIn image 29 -29% 41 -29% 20VC with Harry Stebbings , a16z 19 Cohere Top 25 On 14 shows Cite Badge Copy HTML Download PNG LinkedIn image 26 +271% 7 +271% Bloomberg Podcasts , Bloomberg Television 20 Redwood Research Top 25 On 13 shows Cite Badge Copy HTML Download PNG LinkedIn image 25 +47% 17 +47% Monitor The Situation , Cognitive Revolution \"How AI Changes Everything\" 21 Higgsfield Top 25 On 14 shows Cite Badge Copy HTML Download PNG LinkedIn image 23 +92% 12 +92% TBPN , Grace Gong 22 Sierra Top 25 On 13 shows Cite Badge Copy HTML Download PNG LinkedIn image 21 +31% 16 +31% 20VC with Harry Stebbings , Lenny's Podcast 23 Granola Top 25 On 13 shows Cite Badge Copy HTML Download PNG LinkedIn image 21 -34% 32 -34% The Next New Thing , How I AI 24 Scale AI Top 25 On 13 shows Cite Badge Copy HTML Download PNG LinkedIn image 20 +150% 8 +150% TBPN , 20VC with Harry Stebbings 25 Fireworks AI Top 25 On 12 shows Cite Badge Copy HTML Downl",
+        "sourceExcerpt": "682: quantum of sollazzo • Buttondown quantum of sollazzo November 10, 2026 682: quantum of sollazzo Quantum of Sollazzo Forwarded this email? Subscribe here · View it online No. 682 · Things that caught my attention Not the National Data Library, but a National Data Library launched by the team at Open Innovations, presumably as a provocation for debate (which I, among others, always welcome), lists a series of datasets that they believe should be available for public use. In fact, they went a step further and started to collect an archive of the Bus Open Data Service (BODS) live data, and reveal it's A LOT of data, to the point they've had to stop collecting SIRI-VM data (a specific format for bus live data). Now, this is admirable in many ways, as no official archive exist. I was part of the conversations around this when BODS was launched (I was Head of Data at the Department for Transport between 2018 and 2002 and, while not responsible for BODS itself, I had quite a bit of input on its early running). I'm obviously in favour of archiving data. The engagement with the sector revealed a lot of people were interested in the archiving, although opinion varied as to this should be a Government-run part of the service and if, maybe, someone impartial should be responsible for it. Nothing happened at the time, in part because it wasn't funded but also because there were more pressing questions about how viable operationally BODS needed to be. I only speak as an external bystander now, but having worked in other departments since, the proportionality question is a strong one here, which can be articulated in two ways: should a service like BODS, intended to provide live data for the benefit of developer and users of transport, also cater to the uses of analysts and transport planners? And should this be free or not, given how big the archive will become over time? how do we capture and measure the benefit of an hypothetical data archiving facility provided directly by BODS? I'd start this debate from the usual question: \" What's the user need? \". Features should always be prioritised according to user needs. And user needs, themselves, come with a cost/benefit analysis. Open Innovation argues that the cost of archiving is small, quoting £1,500/year vs £3b in public funding for buses. But the same could apply to many other features on the backlog and not. There's a better argument to \"let's do it because it's cheap\". It is \"let's do it because we have evaluated the costs against the benefits and the ratio is very positive\". What do you think? · It was interesting to read about the Productivity Institute's The AI Ambition Gap report. One finding that stands out is that AI assistants roughly tripled programmers' code output, but released software rose only about 30% (page 12). The bottleneck? Obviously checking, testing, and actual releasing. As I wrote last week , we can and should be measuring the benefit of AI-assisted software development. AI speeds up coding, there's no denying it. But it can't speed the parts of the process that are human-driven, and being those part for human-consumption, it's unlikely it ever will. It's also worth noting that individual adoption of AI tools is much, much easier than enterprise-level adoption. Redesigning processes and implementing them is tough, AI or not. · I soft-launched Yesterpedia , a fully automated online guessing game , based on Wikimedia API. It asks you to guess the most read Wikipedia pages on the previous day, and if you score high you get a bonus location-based round. One quiz per day. Enjoy, share your results on social media, and send me your feedback 😃 'till next week, Giuseppe @puntofisso.bsky.social Sponsored by Jane Street Jane Street depends on all sorts of messy, real-world data to understand financial markets and the global economy: think world news, decades of weather patterns, deidentified credit card spending, or packet captures of stock exchange market data feeds.",
         "structuredData": [
           {
-            "@type": "Organization",
-            "name": "Arcmira",
-            "description": "Arcmira makes YouTube transcript search and monitoring for your AI: exact quotes, full transcripts and speakers. It is an SF-based AI company that indexes podcasts, interviews and long-form YouTube video and maps who appears where, what they discuss and which brands are mentioned.",
-            "url": "https://arcmira.com"
-          },
-          {
-            "@type": "WebSite",
-            "name": "Arcmira",
-            "url": "https://arcmira.com"
-          },
-          {
-            "@type": "Dataset",
-            "name": "Top AI companies of September 2026",
-            "description": "The AI companies podcasts and YouTube mentioned most in September 2026, and the ones that rose most against August. Free to reuse with credit, CC BY 4.0.",
-            "url": "https://arcmira.com/famous/ai-companies/2026-09",
-            "license": "https://creativecommons.org/licenses/by/4.0/",
-            "creator": {
+            "@type": "NewsArticle",
+            "url": "https://buttondown.com/puntofisso/archive/682-quantum-of-sollazzo/",
+            "publisher": {
               "@type": "Organization",
-              "name": "Arcmira",
-              "url": "https://arcmira.com/"
+              "name": "quantum of sollazzo",
+              "description": "The data newsletter by @puntofisso",
+              "url": "https://buttondown.com/puntofisso"
             },
-            "distribution": [
+            "author": [
               {
-                "@type": "DataDownload",
-                "encodingFormat": "text/csv",
-                "contentUrl": "https://arcmira.com/famous/data/ai-companies/2026-09.csv"
-              },
-              {
-                "@type": "DataDownload",
-                "encodingFormat": "application/json",
-                "contentUrl": "https://arcmira.com/famous/data/ai-companies/2026-09.json"
+                "@type": "Person",
+                "name": "Giuseppe Sollazzo",
+                "url": "https://buttondown.com/puntofisso"
               }
             ],
-            "datePublished": "2026-10-15T08:19:43.133Z",
-            "dateModified": "2026-10-15T08:19:43.133Z",
-            "temporalCoverage": "2026-09-01/2026-09-30"
-          },
-          {
-            "@type": "BreadcrumbList"
-          },
-          {
-            "@type": "ItemList",
-            "name": "Top AI companies of September 2026, most mentioned"
+            "datePublished": "2026-11-10T11:45:00+00:00",
+            "dateModified": "2026-11-10T11:45:01.830755+00:00"
           }
         ],
         "resourceLinks": [
           {
-            "url": "https://arcmira.com/famous/data/ai-companies/2026-09.csv",
-            "label": "Download CSV"
-          },
-          {
-            "url": "https://arcmira.com/famous/data/ai-companies/2026-09.json",
-            "label": "Download JSON"
-          },
-          {
-            "url": "https://arcmira.com/famous/data/ai-companies/latest.csv",
-            "label": "https://arcmira.com/famous/data/ai-companies/latest.csv"
-          },
-          {
-            "url": "https://arcmira.com/famous/data/ai-companies/latest.json",
-            "label": "https://arcmira.com/famous/data/ai-companies/latest.json"
-          },
-          {
-            "url": "https://arcmira.com/docs/api-reference",
-            "label": "API Reference"
+            "url": "https://go.dev/blog/jsonv2",
+            "label": "A new Go API for JSON"
           }
         ]
       },
       "recordDraft": {
-        "id": "97995754262f60cf84e9c9b25a4f79ef5de8bc0f0de16639ebc888bd347f9412",
-        "name": "Top AI companies of September 2026 on podcasts and YouTube | Arcmira",
-        "org": "Arcmira",
-        "territoryTier": "Outros",
-        "kind": "dataset",
-        "themes": [
-          "Dados abertos"
-        ],
-        "coverage": "Top AI companies of September 2026 on podcasts and YouTube | Arcmira Famous Rankings Monthly edition, published Oct 15, 2026 Free to reuse with credit, CC BY 4.0 Top AI companies of September 2026 The AI companies podcasts and YouTube talked about most in September 2026.",
-        "frequency": "Top AI companies of September 2026 on podcasts and YouTube | Arcmira Famous Rankings Monthly edition, published Oct 15, 2026 Free to reuse with credit, CC BY 4.0 Top AI companies of September 2026 The AI companies podcasts and YouTube talked about most in September 2026.",
-        "format": "Rising Star # Name September Expected Change Top shows Track 01 METR Rising Star On 27 shows Cite Badge Copy HTML Download PNG LinkedIn image 54 vs 1 expected 45x 1 45x Cognitive Revolution \"How AI Changes Everything\" , Monitor The Situation 02 World Labs Rising Star On 11 shows Cite Badge Copy HTML Download PNG LinkedIn image 37 vs 5 expected +650% 5 +650% Bloomberg Podcasts , Bloomberg Television 03 Hugging Face Rising Star On 87 shows Cite Badge Copy HTML Download PNG LinkedIn image 549 vs 218 expected +152% 218 +152% Bloomberg Podcasts , Bloomberg Television 04 Zhipu AI Rising Star On 12 shows Cite Badge Copy HTML Download PNG LinkedIn image 17 vs 1 expected 13x 1 13x DRM News , Bloomberg Podcasts 05 Cohere Rising Star On 14 shows Cite Badge Copy HTML Download PNG LinkedIn image 25 vs 6 expected +289% 6 +289% Bloomberg Podcasts , Bloomberg Television 06 Anthropic Rising Star On 142 s",
-        "period": "2026-09-01/2026-09-30",
-        "granularity": "Não informado pela fonte oficial",
-        "geoUnit": "Não informado pela fonte oficial",
-        "api": "https://arcmira.com/famous/data/ai-companies/2026-09.csv",
-        "docs": "https://arcmira.com/famous/ai-companies/2026-09",
-        "limitations": "A página consultada não detalha todas as limitações, a atualização e a qualidade do recurso; conferir documentação e licença antes do uso editorial.",
-        "lastChecked": "2026-11-10",
-        "url": "https://arcmira.com/famous/ai-companies/2026-09",
-        "description": "The AI companies podcasts and YouTube mentioned most in September 2026, and the ones that rose most against August. Free to reuse with credit, CC BY 4.0."
-      },
-      "missingFields": [],
-      "reviewDecision": "evidence_complete_for_record_draft",
-      "note": "Ficha preliminar baseada no conteúdo capturado da página. Campos sem evidência permanecem ausentes; a aprovação depende do gate independente de publicação."
-    },
-    {
-      "schemaVersion": 1,
-      "id": "6d84c860baa5311d1e0fcec13e539b428a8d37d4c97126c53e09639eb31e9621",
-      "category": "tools",
-      "status": "draft_only",
-      "publicationReady": false,
-      "source": {
-        "url": "https://github.com/soxoj/maigret",
-        "discoveryProviders": [
-          "Gmail Radar PLOT newsletter"
-        ],
-        "pageTitle": "GitHub - soxoj/maigret: 🕵️‍♂️ Collect a dossier on a person by username from 6K websites · GitHub",
-        "checkedAt": "2026-11-10T20:31:28.952Z",
-        "httpStatus": 200,
-        "contentType": "text/html; charset=utf-8"
-      },
-      "evidence": {
-        "checks": {
-          "productSignal": true,
-          "function": true,
-          "access": true,
-          "license": true,
-          "licenseStatus": "stated"
-        },
-        "sourceExcerpt": "GitHub - soxoj/maigret: 🕵️‍♂️ Collect a dossier on a person by username from 6K websites · GitHub Skip to content You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Reload to refresh your session. Dismiss alert main Branches Tags Go to file Code Open more actions menu Latest commit History 1,747 Commits 1,747 Commits Folders and files Name Name Last commit message Last commit date .githooks .githooks .github .github docs docs maigret maigret pyinstaller pyinstaller snap snap static static tests tests utils utils .dockerignore .dockerignore .gitignore .gitignore .readthedocs.yaml .readthedocs.yaml CHANGELOG.md CHANGELOG.md CITATION.cff CITATION.cff CODE_OF_CONDUCT.md CODE_OF_CONDUCT.md CONTRIBUTING.md CONTRIBUTING.md Dockerfile Dockerfile Installer.bat Installer.bat LICENSE LICENSE Makefile Makefile README.fr.md README.fr.md README.md README.md README.zh-CN.md README.zh-CN.md TROUBLESHOOTING.md TROUBLESHOOTING.md cloudshell-tutorial.md cloudshell-tutorial.md example.ipynb example.ipynb poetry.lock poetry.lock pyproject.toml pyproject.toml pytest.ini pytest.ini sites.md sites.md wizard.py wizard.py View all files Repository files navigation Maigret English · 简体中文 · Français 📖 Documentation Maigret collects a dossier on a person by username only , checking for accounts on a huge number of sites and gathering all the available information from web pages. No API keys required. AI profiling (demo) . Sponsors Go beyond account enumeration. WebVetted turns an email or username into a complete identity investigation with deep OSINT enrichment, breach intel, AI analysis, and an interactive identity graph. Start an Investigation → RapidProxy provides high-performance residential proxies for Twitter scraping, Selenium automation, and web data extraction. 90M+ IPs • Smart rotation • Anti-block • Non-expiring traffic. Special Offer : Try it free — Plans from $0.65/GB. Use code RAPID10 for 10% off. ThorData provides residential proxies and web data APIs for OSINT research, username lookup, and search reconnaissance. Access 100M+ residential IPs across 190+ countries to reduce failed requests, 403 errors, and location-based restrictions. Use SERP API for structured search results or Web Scraper API to collect public web data. Special Offer: Get a free 3-day trial and 10% OFF with code SOXOJ10 . Contents In one minute Main features Demo Installation Usage Contributing Commercial Use About In one minute Ensure you have Python 3.10 or higher. pip install maigret maigret YOUR_USERNAME No install? Try the community Telegram bot or a Cloud Shell . Want a web UI? See how to launch it . See also: Quick start . Main features Supports 5,900 sites ( see full list ). A default run checks the 500 highest-ranked sites by traffic; pass -a to scan everything, or --tags to narrow by category/country. Embeddable in Python projects — import maigret and run searches programmatically (see library usage ). Extracts all available information about the account owner from profile pages and site APIs, including links to other accounts. Performs recursive search using discovered usernames and other IDs. Allows filtering by tags (site categories, countries). Detects and partially bypasses blocks, censorship, and CAPTCHA. Fetches an auto-updated site database from GitHub each run (once per 24 hours), and falls back to the built-in database if offline. Works with Tor and I2P websites; able to check domains. Ships with a web interface for browsing results as a graph and downloading reports in every format from a single page. Optional AI analysis mode ( --ai ) that turns raw findings into a short investigation summary using an OpenAI-compatible API. For the complete feature list, see the features documentation . Used by Professional OSINT and social-media analysis tools built on Maigret: Demo Video Reports PDF report , HTML report",
-        "structuredData": [],
-        "resourceLinks": [
-          {
-            "url": "https://github.com/topics/scraping",
-            "label": "scraping"
-          },
-          {
-            "url": "https://www.rapidproxy.io/?ref=soxoj",
-            "label": "RapidProxy"
-          },
-          {
-            "url": "https://github.com/topics/scraping",
-            "label": "scraping"
-          }
-        ]
-      },
-      "recordDraft": {
-        "id": "6d84c860baa5311d1e0fcec13e539b428a8d37d4c97126c53e09639eb31e9621",
-        "name": "GitHub",
-        "kind": "soxoj/maigret: 🕵️‍♂️ Collect a dossier on a person by username from 6K websites · GitHub",
-        "url": "https://github.com/soxoj/maigret",
-        "desc": "🕵️‍♂️ Collect a dossier on a person by username from 6K websites - soxoj/maigret Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
+        "id": "8131bd90a31340ae234883b0310fea966d01f14dd68345a72a7de5f22c9e3966",
+        "name": "682: quantum of sollazzo • Buttondown",
+        "kind": "linguagem de programação",
+        "url": "https://buttondown.com/puntofisso/archive/682-quantum-of-sollazzo",
+        "desc": "Quantum of Sollazzo Forwarded this email? Subscribe here · View it online No. 682 · Things that caught my attentionNot the National Data Library, but a... Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
       },
       "missingFields": [],
       "reviewDecision": "evidence_complete_for_record_draft",
