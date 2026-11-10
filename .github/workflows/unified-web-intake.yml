@@ -280,6 +280,16 @@ jobs:
           node /tmp/build-editorial-record-drafts.js intake/editorial-queue.json intake/editorial-evidence-review.json intake/publication-drafts.json
           node /tmp/validate-editorial-record-drafts.js intake/editorial-queue.json intake/editorial-evidence-review.json intake/publication-drafts.json
           node -e 'const fs=require("fs");const r=require("./intake/publication-drafts.json");const p=process.env.GITHUB_STEP_SUMMARY;fs.appendFileSync(p,["### Fichas editoriais preliminares",`Rascunhos com evidência suficiente: ${r.summary.drafts}`,`Por categoria: ${JSON.stringify(r.summary.byCategory)}`,`Autorizadas para publicação: ${r.summary.publicationReady}`,"Cada ficha mantém lacunas explícitas e não equivale a aprovação editorial."].join("\n")+"\n")'
+          node - <<'NODE'
+          const fs=require('node:fs');
+          const review=JSON.parse(fs.readFileSync('intake/editorial-evidence-review.json','utf8'));
+          const groups={};
+          for(const item of review.records||[])for(const reason of item.missing||[]){const key=item.category+' :: '+reason;groups[key]=(groups[key]||0)+1;}
+          const top=Object.entries(groups).sort((a,b)=>b[1]-a[1]).slice(0,15);
+          const lines=['### Principais bloqueios da auditoria automática',...top.map(([reason,count])=>'- '+reason+': '+count)];
+          fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY,lines.join('\n')+'\n');
+          console.log(JSON.stringify({reviewed:(review.records||[]).length,topBlockers:top}));
+          NODE
           if [ -f /tmp/radar-gmail-backfill-cursor.json ]; then
             mkdir -p state
             cp /tmp/radar-gmail-backfill-cursor.json state/gmail-backfill-cursor.json
