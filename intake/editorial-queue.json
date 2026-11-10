@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T20:06:55.693Z",
+  "updatedAt": "2026-11-10T20:14:10.487Z",
   "policy": "Public web leads only; pending does not mean verified or approved.",
   "candidates": [
     {
@@ -7044,7 +7044,7 @@
       ],
       "firstSeen": "2026-10-23T17:21:05.512Z",
       "lastSeen": "2026-11-10T20:06:55.523Z",
-      "status": "pending",
+      "status": "published",
       "reviewPriority": "normal",
       "audit": {
         "checkedAt": "2026-11-10T20:06:55.693Z",
@@ -7413,7 +7413,7 @@
       ],
       "firstSeen": "2026-10-23T17:21:05.512Z",
       "lastSeen": "2026-10-30T01:50:41.483Z",
-      "status": "pending",
+      "status": "published",
       "reviewPriority": "high",
       "audit": {
         "checkedAt": "2026-11-10T20:06:55.693Z",
@@ -8899,7 +8899,7 @@
       ],
       "firstSeen": "2026-10-23T17:21:05.512Z",
       "lastSeen": "2026-11-10T20:06:55.523Z",
-      "status": "pending",
+      "status": "published",
       "reviewPriority": "normal",
       "audit": {
         "checkedAt": "2026-11-10T20:06:55.693Z",
@@ -9474,7 +9474,7 @@
       ],
       "firstSeen": "2026-10-23T17:21:05.512Z",
       "lastSeen": "2026-11-10T20:06:55.523Z",
-      "status": "pending",
+      "status": "published",
       "reviewPriority": "normal",
       "audit": {
         "checkedAt": "2026-11-10T20:06:55.693Z",
@@ -9704,7 +9704,7 @@
       ],
       "firstSeen": "2026-10-23T17:21:05.512Z",
       "lastSeen": "2026-11-10T20:06:55.523Z",
-      "status": "pending",
+      "status": "published",
       "reviewPriority": "normal",
       "audit": {
         "checkedAt": "2026-11-10T20:06:55.693Z",
@@ -10786,7 +10786,7 @@
       ],
       "firstSeen": "2026-10-23T17:21:05.512Z",
       "lastSeen": "2026-11-10T20:06:55.523Z",
-      "status": "pending",
+      "status": "rejected",
       "reviewPriority": "normal",
       "audit": {
         "checkedAt": "2026-11-10T20:06:55.693Z",
