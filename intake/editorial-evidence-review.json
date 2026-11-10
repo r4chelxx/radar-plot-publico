@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-10T22:14:14.629Z",
+  "generatedAt": "2026-11-10T22:19:17.739Z",
   "policy": "Evidence-based category triage. Missing license is recorded as unknown when not found; complete means draft eligibility only, never approval or publication.",
   "counts": {
-    "pending_more_evidence": 1503,
-    "evidence_complete_for_record_draft": 3
+    "pending_more_evidence": 1535,
+    "evidence_complete_for_record_draft": 2
   },
   "categoryCounts": {
-    "uncategorized": 1387,
+    "uncategorized": 1419,
     "opportunities": 33,
-    "tools": 30,
+    "tools": 29,
     "datasets": 56
   },
   "records": [
@@ -19616,23 +19616,6 @@
       "publicationReady": false
     },
     {
-      "id": "8131bd90a31340ae234883b0310fea966d01f14dd68345a72a7de5f22c9e3966",
-      "url": "https://buttondown.com/puntofisso/archive/682-quantum-of-sollazzo",
-      "category": "tools",
-      "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
-      "checks": {
-        "productSignal": true,
-        "function": true,
-        "access": true,
-        "license": false,
-        "licenseStatus": "not stated in captured source"
-      },
-      "missing": [],
-      "decision": "evidence_complete_for_record_draft",
-      "publicationReady": false
-    },
-    {
       "id": "8704a98d3c74865c10aeb838966114299ea529da9478fd267857b5e16383a938",
       "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9sdXBhbmV3c2xldHRlci5zdWJzdGFjay5jb20vYWN0aW9uL2Rpc2FibGVfZW1haWw_dG9rZW49ZXlKMWMyVnlYMmxrSWpveE16VXlNak14TENKd2IzTjBYMmxrSWpveU1qUXpNRGd3T1RBc0ltbGhkQ0k2TVRjNU5ETXlNREUxTkN3aVpYaHdJam94T0RJMU9EVTJNVFUwTENKcGMzTWlPaUp3ZFdJdE1qZ3lORFk1TlNJc0luTjFZaUk2SW1ScGMyRmliR1ZmWlcxaGFXd2lmUS5PWGE0bHd6SDFqaWZybHJhZnBQSThuQ29RTmtDNUNpTmN3Z0FMeGVWRXJvIiwicCI6MjI0MzA4MDkwLCJzIjoyODI0Njk1LCJmIjp0cnVlLCJ1IjoxMzUyMjMxLCJpYXQiOjE3OTQzMjAxNTQsImV4cCI6MjEwOTg5NjE1NCwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.JQsfuoGEYB_kqp4d4cAu77Om-_5rkuItV85OGA96y-M",
       "category": "uncategorized",
@@ -20954,6 +20937,20 @@
       "publicationReady": false
     },
     {
+      "id": "ce519881ce0aaee772052ee30965db30e16a0722d84b66b3dcf2428cfbc8c718",
+      "url": "https://substack.com/redirect/2251ec1a-2e02-47f6-9ed7-6c4ee441345e",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:19:16.265Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
       "id": "d046da7ec04d7bb7b19895f04c8b40525448d0bb027f2e5645982c29be88712b",
       "url": "https://www.gbif.org/dataset/ac5f72cf-172d-4eb4-ad8c-db66ea1c78e5",
       "category": "datasets",
@@ -21002,6 +20999,87 @@
       "publicationReady": false
     },
     {
+      "id": "d3d53332368e6d05084ed61cb34094599a1a9a44cfa8b5213403affa939850c0",
+      "url": "https://substack.com/redirect/2ca39702-eaf7-45b4-ae99-50a8f53740ff",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:19:16.265Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "d41642ac29318b77ebf345388b8f351fb381889becff1bc25aaaba8ed8909f16",
+      "url": "https://cartographers-nk.wonyoung.so/",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:19:16.265Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "d53d182177153d37c841db034ea09f924950579b41d6be9e44a45c2f7a32e317",
+      "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9sdXBhbmV3c2xldHRlci5zdWJzdGFjay5jb20vYWN0aW9uL2Rpc2FibGVfZW1haWw_dG9rZW49ZXlKMWMyVnlYMmxrSWpveE16VXlNak14TENKd2IzTjBYMmxrSWpveU1qSXpNemsyTmpjc0ltbGhkQ0k2TVRjNU16RXhNRE0zT1N3aVpYaHdJam94T0RJME5qUTJNemM1TENKcGMzTWlPaUp3ZFdJdE1qZ3lORFk1TlNJc0luTjFZaUk2SW1ScGMyRmliR1ZmWlcxaGFXd2lmUS5JR3pLVS1BV1ZZLTN1aWRIUThZenRwaV83THVyQ2tVaFQycUJqSGJ3cnRjIiwicCI6MjIyMzM5NjY3LCJzIjoyODI0Njk1LCJmIjp0cnVlLCJ1IjoxMzUyMjMxLCJpYXQiOjE3OTMxMTAzNzksImV4cCI6MjEwODY4NjM3OSwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.IPJN_eHaet2Faj8GJYL7XkFNF7oRbNE9glIVSxs-Y0w",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:19:16.265Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "d7c7221f2c9b8b844f02931b67d01e71e3c2f084b5d2f523a4ec0ae0e4371887",
+      "url": "https://www.instagram.com/p/DfSaZm9lj4T",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:19:16.265Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "d7c964ee2f72c98b11a68d8a5d8e70308668ee4389e8b1224b7d9cc696906320",
+      "url": "https://thegeomob.com/",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:19:16.265Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "d81c34141d73ad0514026603969ed972c58f646d2d23a9bd87c5786c1a15bf37",
+      "url": "https://assets.buttondown.email/images/36ae7722-c2ac-476c-9a74-71d1ce61edf7.png",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:19:16.265Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
       "id": "d9682e2febc7adbbe5161aa77e91fa40d08d2c53fd00ee34e1a0bf6bc3f272e7",
       "url": "https://data.worldbank.org/indicator/1.1.PSev.Poor4uds",
       "category": "datasets",
@@ -21021,6 +21099,117 @@
         "download, API ou acesso direto ao recurso",
         "formato identificável",
         "cobertura temporal/geográfica"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "db0e6894697cca2424b56fe9283a4ffef6142b661890ef1f75e579fa1ff97241",
+      "url": "https://substack.com/redirect/a987f378-e4b7-4143-b8db-afb9d5a467a4",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:19:16.265Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "db1f538458d83e57c36c903d125debc71649cc0ee07ae72bcb46cfdccac4b9aa",
+      "url": "https://assets.buttondown.email/images/924c12dc-e7de-4b1d-be15-bbe6852d3617.png",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:19:16.265Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "db76481478f83dbb10ea4e70e245d2b171c8be59c97520b0902134a478449b6c",
+      "url": "https://substack.com/redirect/b9efd57e-f55e-494e-ad07-a0efc1db8b22",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:19:16.265Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "db8cd3cb7a94f783aed92229e0dbb148b0281ed589a23ca7990e08b285352784",
+      "url": "https://substack.com/redirect/354eb9cd-11df-4a26-8f15-a649367a0c3b",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:19:16.265Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "ddf8cc4fde1eaf6644680e07096889216cd3d60b3180dfad3cbb9db6a9bd76ff",
+      "url": "https://assets.buttondown.email/images/7c3e7828-aa8e-4743-a49c-a05a2f1a75b6.png",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:19:16.265Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "de5849b59ad490c1c9dbe2e3037d5f2f4b8b8240ed18aa52171ff229ca8955ec",
+      "url": "https://substack.com/redirect/69ea6908-9d33-4ea4-97e6-5a6b8de97fd3",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:19:16.265Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "df6781a6b55105810ddc58ebad03133420329dabc7c221abe94be8c9981d1d34",
+      "url": "https://data.datalibrary.uk/transport/BODS-ARCHIVE",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:19:16.265Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "e1da4292b1c2a277866370e137be48a156d2ca41f7dc0576ac3cea600bfe9573",
+      "url": "https://assets.buttondown.email/images/8796888a-5197-4735-a67b-3735197d1ba2.png",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:19:16.265Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -21050,6 +21239,62 @@
       "publicationReady": false
     },
     {
+      "id": "e5e80e63a791368359f4b426af9b11cdbf700e8748dd4eb38b717fdef5c8c801",
+      "url": "https://substack.com/redirect/6eff1ee5-b658-48f0-aac5-785da15d0b86",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:19:16.265Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "e709e1af76b5327f94daf2d47963b8bd33e0876d7ff6749515ee5a4b51cf8e30",
+      "url": "https://assets.buttondown.email/images/f06a2960-2df4-41d7-a9b7-9e436a576e49.png",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:19:16.265Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "e8917435548d4331f0411593b1b3b823da86d5b1261b8eab4df0f0eb2cefe2c4",
+      "url": "https://substack.com/redirect/a8064f5b-ee21-40a6-a6f5-80c89d7ade45",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:19:16.265Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "e966f1beaeceff107e5d36074d25bb354454a7c952193c36ae24493206026346",
+      "url": "https://substack.com/redirect/93aeaf97-05be-466e-8c9e-2c02c16b168a",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:19:16.265Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
       "id": "e9da7ccc9f18215c794bf6cad2c592408d85817cf378607fdaf5aa569c621a29",
       "url": "https://www.gbif.org/dataset/50c9509d-22c7-4a22-a47d-8c48425ef4a7",
       "category": "datasets",
@@ -21069,6 +21314,89 @@
         "download, API ou acesso direto ao recurso",
         "formato identificável",
         "cobertura temporal/geográfica"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "eac01880745fc8d7037934ce93307f296537ef2a997836bb4ca36d5aebcdb65f",
+      "url": "https://substack.com/redirect/8b398159-7e04-4b3f-ba53-6bb4029a70b2",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:19:16.265Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "eb1bf7b94be8682454b0aa21e55d9c205a4ac1a9780dcc02e0b3ae86787647ee",
+      "url": "https://substack.com/redirect/ad7a7145-5a47-4072-a42f-c57038111a82",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:19:16.265Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "ebc86b4c43522f54643b19334b971c183e9009b887851e81fd7745976ca546ec",
+      "url": "https://marcoshuerta.com/posts/full-moon-myth",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:19:16.265Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "eea783f68da67d326c3b912b97d25aaec451c76521c84374b709cbf2019431c7",
+      "url": "https://substack.com/redirect/68d64d38-725c-4547-a4c4-becb5ae0579c",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:19:16.265Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "ef279c27312b5cddb139b2165d2850b8d0bc2da218509d7ff87131f7a8a9c735",
+      "url": "https://lupanewsletter.substack.com/p/a-euforia-progressista-e-o-luto-golpista",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:19:16.265Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "f0baeff9338ff60dec1f30848e79c4937c3efd10cf51baf8b5b67b2dfece5dad",
+      "url": "https://substack.com/redirect/63149073-1e1f-4d7d-8edd-2daabe7aecb8",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:19:16.265Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -21098,6 +21426,62 @@
       "publicationReady": false
     },
     {
+      "id": "f8422ca97b625e87260944d1fec620a97668e3c9403881fa91435afe14b06834",
+      "url": "https://substack.com/redirect/781e0f02-2808-49de-8628-ff0a042e1896",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:19:16.265Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "f8d5504da2334701b54e73edcc6db2e082d3b82a5a82f8a3eb154a635a558469",
+      "url": "https://substack.com/redirect/806c91d0-9e0a-4bf8-b159-f405d8259f90",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:19:16.265Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "f9cc72e521dfc1f407962feee382834e93339865697d8e9518a1a56d9c3abb48",
+      "url": "https://assets.buttondown.email/images/c81e7423-8d5d-4c0b-b057-70ea8feee20a.png",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:19:16.265Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "f9ffcb05f1187c4e8236ecaeb2f7ae57ad140f696a10b4de67bdba5d43031cf6",
+      "url": "https://substack.com/redirect/2637c6d1-a471-4378-9f84-10f4ad277198",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:19:16.265Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
       "id": "fad9d61da0f1255cd55f55afeaf6b1faa4ebce6dc1a94ca8e4920e2dd6877efe",
       "url": "https://www.gbif.org/dataset/8bc819e8-4358-416a-b75e-d4b6ed7e0352",
       "category": "datasets",
@@ -21122,6 +21506,20 @@
       "publicationReady": false
     },
     {
+      "id": "fbc729fbdbddb0449c36a7721cf2fdc8be69d296fd0a6966dc79273a274054e2",
+      "url": "https://substack.com/redirect/b5df197b-c602-40f2-a3df-435353625e38",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:19:16.265Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
       "id": "fdbdde149ef63858764c6bc2df97e1a25cbbf09bb12d43a5078c6f7f5218e174",
       "url": "https://www.gbif.org/dataset/0938172b-2086-439c-a1dd-c21cb0109ed5",
       "category": "datasets",
@@ -21141,6 +21539,33 @@
         "download, API ou acesso direto ao recurso",
         "formato identificável",
         "cobertura temporal/geográfica"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "fee1edf0b91e0715d1425b8a08a717c4e2f3d8ba3047f1516e0c1d9113324fbd",
+      "url": "https://www.thedailybeast.com/ice-barbie-humiliated-on-fox-news-over-bizarre-boast",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:19:16.265Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "ff026485c0054eccee206be724d640fd00edc48cce8bec2447bf9b33263a4fb2",
+      "url": "https://substack.com/redirect/75ae076a-ae71-4b15-b27e-6068c775a1c4",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-10T22:19:16.265Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false

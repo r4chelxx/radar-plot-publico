@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-10T22:14:14.774Z",
-  "sourceQueueUpdatedAt": "2026-11-10T22:14:10.246Z",
+  "generatedAt": "2026-11-10T22:19:17.889Z",
+  "sourceQueueUpdatedAt": "2026-11-10T22:19:16.265Z",
   "policy": "Evidence-complete drafts only; the separate deterministic evidence gate must independently approve before publication.",
   "summary": {
-    "eligibleForDrafting": 3,
-    "drafts": 3,
+    "eligibleForDrafting": 2,
+    "drafts": 2,
     "byCategory": {
       "opportunities": 0,
       "datasets": 0,
-      "tools": 3
+      "tools": 2
     },
     "publicationReady": 0
   },
@@ -124,70 +124,6 @@
         "kind",
         "desc"
       ],
-      "reviewDecision": "evidence_complete_for_record_draft",
-      "note": "Ficha preliminar baseada no conteúdo capturado da página. Campos sem evidência permanecem ausentes; a aprovação depende do gate independente de publicação."
-    },
-    {
-      "schemaVersion": 1,
-      "id": "8131bd90a31340ae234883b0310fea966d01f14dd68345a72a7de5f22c9e3966",
-      "category": "tools",
-      "status": "draft_only",
-      "publicationReady": false,
-      "source": {
-        "url": "https://buttondown.com/puntofisso/archive/682-quantum-of-sollazzo",
-        "discoveryProviders": [
-          "Gmail Radar PLOT newsletter"
-        ],
-        "pageTitle": "682: quantum of sollazzo • Buttondown",
-        "checkedAt": "2026-11-10T22:14:10.246Z",
-        "httpStatus": 200,
-        "contentType": "text/html; charset=utf-8"
-      },
-      "evidence": {
-        "checks": {
-          "productSignal": true,
-          "function": true,
-          "access": true,
-          "license": false,
-          "licenseStatus": "not stated in captured source"
-        },
-        "sourceExcerpt": "682: quantum of sollazzo • Buttondown quantum of sollazzo November 10, 2026 682: quantum of sollazzo Quantum of Sollazzo Forwarded this email? Subscribe here · View it online No. 682 · Things that caught my attention Not the National Data Library, but a National Data Library launched by the team at Open Innovations, presumably as a provocation for debate (which I, among others, always welcome), lists a series of datasets that they believe should be available for public use. In fact, they went a step further and started to collect an archive of the Bus Open Data Service (BODS) live data, and reveal it's A LOT of data, to the point they've had to stop collecting SIRI-VM data (a specific format for bus live data). Now, this is admirable in many ways, as no official archive exist. I was part of the conversations around this when BODS was launched (I was Head of Data at the Department for Transport between 2018 and 2002 and, while not responsible for BODS itself, I had quite a bit of input on its early running). I'm obviously in favour of archiving data. The engagement with the sector revealed a lot of people were interested in the archiving, although opinion varied as to this should be a Government-run part of the service and if, maybe, someone impartial should be responsible for it. Nothing happened at the time, in part because it wasn't funded but also because there were more pressing questions about how viable operationally BODS needed to be. I only speak as an external bystander now, but having worked in other departments since, the proportionality question is a strong one here, which can be articulated in two ways: should a service like BODS, intended to provide live data for the benefit of developer and users of transport, also cater to the uses of analysts and transport planners? And should this be free or not, given how big the archive will become over time? how do we capture and measure the benefit of an hypothetical data archiving facility provided directly by BODS? I'd start this debate from the usual question: \" What's the user need? \". Features should always be prioritised according to user needs. And user needs, themselves, come with a cost/benefit analysis. Open Innovation argues that the cost of archiving is small, quoting £1,500/year vs £3b in public funding for buses. But the same could apply to many other features on the backlog and not. There's a better argument to \"let's do it because it's cheap\". It is \"let's do it because we have evaluated the costs against the benefits and the ratio is very positive\". What do you think? · It was interesting to read about the Productivity Institute's The AI Ambition Gap report. One finding that stands out is that AI assistants roughly tripled programmers' code output, but released software rose only about 30% (page 12). The bottleneck? Obviously checking, testing, and actual releasing. As I wrote last week , we can and should be measuring the benefit of AI-assisted software development. AI speeds up coding, there's no denying it. But it can't speed the parts of the process that are human-driven, and being those part for human-consumption, it's unlikely it ever will. It's also worth noting that individual adoption of AI tools is much, much easier than enterprise-level adoption. Redesigning processes and implementing them is tough, AI or not. · I soft-launched Yesterpedia , a fully automated online guessing game , based on Wikimedia API. It asks you to guess the most read Wikipedia pages on the previous day, and if you score high you get a bonus location-based round. One quiz per day. Enjoy, share your results on social media, and send me your feedback 😃 'till next week, Giuseppe @puntofisso.bsky.social Sponsored by Jane Street Jane Street depends on all sorts of messy, real-world data to understand financial markets and the global economy: think world news, decades of weather patterns, deidentified credit card spending, or packet captures of stock exchange market data feeds.",
-        "structuredData": [
-          {
-            "@type": "NewsArticle",
-            "url": "https://buttondown.com/puntofisso/archive/682-quantum-of-sollazzo/",
-            "publisher": {
-              "@type": "Organization",
-              "name": "quantum of sollazzo",
-              "description": "The data newsletter by @puntofisso",
-              "url": "https://buttondown.com/puntofisso"
-            },
-            "author": [
-              {
-                "@type": "Person",
-                "name": "Giuseppe Sollazzo",
-                "url": "https://buttondown.com/puntofisso"
-              }
-            ],
-            "datePublished": "2026-11-10T11:45:00+00:00",
-            "dateModified": "2026-11-10T11:45:01.830755+00:00"
-          }
-        ],
-        "resourceLinks": [
-          {
-            "url": "https://go.dev/blog/jsonv2",
-            "label": "A new Go API for JSON"
-          }
-        ]
-      },
-      "recordDraft": {
-        "id": "8131bd90a31340ae234883b0310fea966d01f14dd68345a72a7de5f22c9e3966",
-        "name": "682: quantum of sollazzo • Buttondown",
-        "kind": "linguagem de programação",
-        "url": "https://buttondown.com/puntofisso/archive/682-quantum-of-sollazzo",
-        "desc": "Quantum of Sollazzo Forwarded this email? Subscribe here · View it online No. 682 · Things that caught my attentionNot the National Data Library, but a... Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
-      },
-      "missingFields": [],
       "reviewDecision": "evidence_complete_for_record_draft",
       "note": "Ficha preliminar baseada no conteúdo capturado da página. Campos sem evidência permanecem ausentes; a aprovação depende do gate independente de publicação."
     }
