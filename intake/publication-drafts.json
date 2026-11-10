@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-10T20:54:06.632Z",
-  "sourceQueueUpdatedAt": "2026-11-10T20:53:48.541Z",
+  "generatedAt": "2026-11-10T21:25:23.540Z",
+  "sourceQueueUpdatedAt": "2026-11-10T21:25:15.804Z",
   "policy": "Evidence-complete drafts only; the separate deterministic evidence gate must independently approve before publication.",
   "summary": {
-    "eligibleForDrafting": 16,
-    "drafts": 16,
+    "eligibleForDrafting": 17,
+    "drafts": 17,
     "byCategory": {
       "opportunities": 1,
       "datasets": 1,
-      "tools": 14
+      "tools": 15
     },
     "publicationReady": 0
   },
@@ -883,6 +883,82 @@
         "kind": null,
         "url": "https://login.mailchimp.com/signup/email-referral",
         "desc": "Are you exploring the best email marketing platforms? See how Mailchimp’s email marketing platform can help grow your business with our best-in-class tools. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
+      },
+      "missingFields": [
+        "kind"
+      ],
+      "reviewDecision": "evidence_complete_for_record_draft",
+      "note": "Ficha preliminar baseada no conteúdo capturado da página. Campos sem evidência permanecem ausentes; a aprovação depende do gate independente de publicação."
+    },
+    {
+      "schemaVersion": 1,
+      "id": "f27868276ee5857eb1040fd556ecc26d3d382d0e59d7d54b9d7ffa95a838fff8",
+      "category": "tools",
+      "status": "draft_only",
+      "publicationReady": false,
+      "source": {
+        "url": "https://indicator.media/p/briefing-musk-sues-minnesota-over-synthetic-nudes-law",
+        "discoveryProviders": [
+          "Gmail Radar PLOT newsletter"
+        ],
+        "pageTitle": "Briefing: Musk sues Minnesota over synthetic nudes law",
+        "checkedAt": "2026-11-10T21:25:15.804Z",
+        "httpStatus": 200,
+        "contentType": "text/html; charset=utf-8"
+      },
+      "evidence": {
+        "checks": {
+          "productSignal": true,
+          "function": true,
+          "access": true,
+          "license": false,
+          "licenseStatus": "not stated in captured source"
+        },
+        "sourceExcerpt": "Briefing: Musk sues Minnesota over synthetic nudes law This website uses cookies Read our Privacy policy and Terms of use for more information . Accept Customize Decline Briefing: Musk sues Minnesota over synthetic nudes law Plus: Tools for tracking foreign interference and LinkedIn launches \"AI slop\" button Craig Silverman & Alexios Mantzarlis Jul 31, 2026 Our weekly Briefing is free, but you should upgrade to access all of our reporting, resources, and a monthly workshop. This week on Indicator Corporate investigator Dan Greenberg detailed five ways AI can assist with investigative due diligence, including examples from real world cases. He also shared guidance to make sure you don’t take things too far with AI. Craig shared the video, transcript, and slides from our July members-only workshop. He showed how to apply our new guide, “The Indicator Framework: How to tell what your digital evidence is actually worth,” in order to weigh the strengths and weaknesses of digital indicators. Paid members should check out a special beta preview of Data Navigator , a new Indicator tool that lets you query public datasets to assist with investigations. It’s part of our partnership with Tom Vaillant of Buried Signals. Paid members help us break news and build tools Minnesota’s state capitol (Photo by: Michael Siluk via Getty Images) Musk sues Minnesota instead of putting guardrails on Grok On Monday, lawyers for xAI filed a lawsuit challenging a new Minnesota law targeting AI services that allow the generation of deepfake nudes. Unlike the federal Take It Down Act that criminalizes the dissemination of deepfake nudes, HF1606 puts the responsibility on the people who enable their generation. Enter Elon Musk. According to his lawyers , the bill “imposes an overbroad, content-based ban on free speech and the tools of visual expression.” xAI said that because of the bill, it “has no practical choice but to restrict Grok Imagine’s image-editing features in various ways” and that “protected speech freely available before the law takes effect will thus be chilled.” xAI cares as much about free speech as I do about cream in carbonara. The company is trying to avoid the $500,000 fines that it could face for each deepfake nude of an identifiable person generated with Grok. Musk’s image generator enabled the creation of millions of sexualized images earlier this year; Wired found it was still hosting these kinds of images as recently as June. The company could easily be on the hook for millions of dollars in fines unless it places major new guardrails on Grok. And it’s not just X. Indicator’s reporting has shown how all kinds of platforms have failed to tackle generators of synthetic nonconsensual intimate imagery (SYNCII). To date, their efforts haven’t made a significant dent in the creation, distribution, and monetization of this form of sexual abuse. But let’s set aside the brazen and self-serving nature of xAI’s lawsuit and the failures of tech platforms in general. Does Minnesota’s law go too far? Riana Pfefferkorn of Stanford’s Institute for Human-Centered Artificial Intelligence certainly thinks so. She called the law “ridiculously unconstitutional,” arguing that it “clumsily tries to target deepfake ‘nudify’ sites but ends up outlawing a broad swath of legal speech.” Pfefferkorn said that the law also doesn’t mention the question of consent, making it a de facto ban on porn. I value Pfefferkorn’s expert opinion, but I started off skeptical of her argument. I have spent several years analyzing this industry of abuse and have yet to stumble on a convincing consensual use case for nudifier apps. If you want someone’s nude and they’re OK with you having it, you don’t need AI to generate it for you. So I emailed Pfefferkorn, who raised the hypothetical of closeted trans individuals who want to explore what their body might look like if they transitioned, or the documented instances of sex workers sharing Grok-generated nudes of themselves on X",
+        "structuredData": [
+          {
+            "@type": "Article",
+            "description": "Plus: Tools for tracking foreign interference and LinkedIn launches \"AI slop\" button",
+            "url": "https://indicator.media/p/briefing-musk-sues-minnesota-over-synthetic-nudes-law",
+            "publisher": {
+              "@type": "Organization",
+              "name": "Indicator",
+              "url": "https://indicator.media/"
+            },
+            "author": [
+              {
+                "@type": "Person",
+                "name": "Craig Silverman",
+                "description": "I'm the co-founder of Indicator and have been investigating digital deception for more than a decade.",
+                "url": "https://indicator.media/authors/craig-silverman"
+              },
+              {
+                "@type": "Person",
+                "name": "Alexios Mantzarlis",
+                "description": "I am a recovering fact-checker and tech worker. I care about online information quality as a fundamental prerequisite for healthy societies.",
+                "url": "https://indicator.media/authors/alexios-mantzarlis"
+              }
+            ],
+            "datePublished": "2026-07-31T11:00:00.000Z",
+            "dateModified": "2026-07-31T11:01:20Z"
+          },
+          {
+            "@type": "BreadcrumbList"
+          }
+        ],
+        "resourceLinks": [
+          {
+            "url": "https://search.openaleph.org/datasets/1195",
+            "label": "released"
+          }
+        ]
+      },
+      "recordDraft": {
+        "id": "f27868276ee5857eb1040fd556ecc26d3d382d0e59d7d54b9d7ffa95a838fff8",
+        "name": "Briefing: Musk sues Minnesota over synthetic nudes law",
+        "kind": null,
+        "url": "https://indicator.media/p/briefing-musk-sues-minnesota-over-synthetic-nudes-law",
+        "desc": "Plus: Tools for tracking foreign interference and LinkedIn launches &quot;AI slop&quot; button Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
       },
       "missingFields": [
         "kind"
