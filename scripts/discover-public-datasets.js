@@ -23,7 +23,7 @@ async function collect(fetcher=fetch){
    const json=await r.json();
    const found=[];
    for(const item of source.parse(json)||[]){
-    try{const url=canonical(item.url);if(!/^https:\/\//.test(url)||found.some(x=>x.url===url))continue;found.push({url,title:String(item.title||'Dataset candidate').slice(0,220),category:'datasets',sourceName:source.name,editorialStatus:'unverified'});}catch{}
+    try{const url=canonical(item.url);if(!/^https:\/\//.test(url)||found.some(x=>x.url===url))continue;found.push({url,title:String(item.title||'Dataset candidate').slice(0,220),category:'datasets',sourceName:source.name,editorialStatus:'unverified',resourceLinks:Array.isArray(item.resourceLinks)?item.resourceLinks.slice(0,20):[],sourceEvidence:String(item.sourceEvidence||'').slice(0,1200)});}catch{}
    }
    leads.push(...found);health.push({source:source.name,status:'ok',items:found.length});
   }catch(e){health.push({source:source.name,status:'error',items:0,reason:String(e.message||e).slice(0,140)})}
