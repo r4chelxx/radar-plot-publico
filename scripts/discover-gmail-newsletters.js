@@ -48,8 +48,14 @@ async function collect(fetcher=fetch,env=process.env){
   const maxPages=Math.min(20,Math.max(1,Number(env.RADAR_GMAIL_MAX_PAGES||3)));
   const pageSize=Math.min(50,Math.max(10,Number(env.RADAR_GMAIL_PAGE_SIZE||50)));
   const saveCursor=(pageToken,processedIdHashes,complete)=>{fs.mkdirSync(require('node:path').dirname(cursorFile),{recursive:true});fs.writeFileSync(cursorFile,JSON.stringify({...cursor,pageToken,processed:processedIdHashes.length,processedIdHashes,updatedAt:new Date().toISOString(),complete},null,2)+'\n')};
-  // A completed historical pass must restart at the newest page on the next run.
-  const leads=[],seen=new Set(),processedIds=new Set(cursor.processedIdHashes||[]);let scanned=0,skippedAlready=0,pages=0,nextToken=cursor.complete?'':(cursor.pageToken||'');
+  // Gmail page tokens expire. Older Radar checkpoints also recorded a completed
+  // historical pass while leaving a stale token and incrementalFollowupRequired.
+  // Resume those checkpoints from the newest page; message hashes still prevent
+  // duplicate reads. A changed label must also start from the newest page.
+  const legacyExhausted=cursor.paginationExhausted===true||cursor.incrementalFollowupRequired===true;
+  const labelChanged=cursor.labelName&&cursor.labelName!==label;
+  const resetCheckpoint=Boolean(legacyExhausted||labelChanged);
+  const leads=[],seen=new Set(),processedIds=new Set(cursor.processedIdHashes||[]);let scanned=0,skippedAlready=0,pages=0,nextToken=(cursor.complete||resetCheckpoint)?'':(cursor.pageToken||'');
   for(let page=0;page<maxPages;page++){
    const params=new URLSearchParams({labelIds:found.id,maxResults:String(pageSize)});
    if(nextToken)params.set('pageToken',nextToken);
@@ -71,7 +77,7 @@ async function collect(fetcher=fetch,env=process.env){
    if(!nextToken)break;
   }
   saveCursor(nextToken,[...processedIds],!nextToken);
-  return {source:'gmail',leads,health:[{source:'Gmail Radar PLOT',status:'ok',items:leads.length,scanned,skippedAlready,checkpointIds:processedIds.size,pages,coverageStatus:nextToken?'partial':'complete',checkpoint:cursorFile}]};
+  return {source:'gmail',leads,health:[{source:'Gmail Radar PLOT',status:'ok',items:leads.length,scanned,skippedAlready,checkpointIds:processedIds.size,pages,coverageStatus:nextToken?'partial':'complete',checkpoint:cursorFile,cursorReset:resetCheckpoint?'stale-or-legacy-checkpoint':null}]};
  }catch(e){const reason=String(e.message||e).replace(/[\r\n]/g,' ').slice(0,140);const diagnostics=e.oauthCode==='invalid_client'?{errorCode:'invalid_client',failureClass:'oauth-client-configuration',recommendedAction:'Reauthorize or replace the OAuth client ID/secret pair in the public repository.'}:e.oauthCode==='invalid_grant'?{errorCode:'invalid_grant',failureClass:'oauth-refresh-token',recommendedAction:'Generate a new refresh token for the same OAuth client and update the public repository secret.'}:e.gmailApiStatus===403&&e.gmailApiReason==='accessNotConfigured'?{errorCode:e.gmailApiReason,failureClass:'gmail-api-disabled',recommendedAction:'Enable Gmail API in the Google Cloud project that owns this OAuth client, then retry.'}:e.gmailApiStatus===403&&/insufficientPermissions|insufficient.*scope/i.test(e.gmailApiReason||'')?{errorCode:e.gmailApiReason,failureClass:'gmail-oauth-scope',recommendedAction:'Authorize the OAuth client with https://www.googleapis.com/auth/gmail.readonly and replace the refresh token.'}:e.gmailApiStatus===403?{errorCode:e.gmailApiReason,failureClass:'gmail-api-permission',recommendedAction:'Check Gmail API access, OAuth consent scopes, and whether the connected account permits read-only Gmail access.'}:{};return {source:'gmail',leads:[],health:[{...health,status:'error',reason,...diagnostics}]}}
 }
 if(require.main===module)collect().then(r=>{fs.mkdirSync('intake',{recursive:true});fs.writeFileSync('intake/gmail-discovery.json',JSON.stringify({source:r.source,leads:r.leads},null,2)+'\n');fs.writeFileSync('intake/gmail-health.json',JSON.stringify({health:r.health},null,2)+'\n');console.log(JSON.stringify({gmailCandidates:r.leads.length,health:r.health}));});
