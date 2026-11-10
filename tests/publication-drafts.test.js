@@ -1,6 +1,6 @@
 'use strict';
 const test=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),os=require('node:os'),path=require('node:path'),cp=require('node:child_process');
-const {buildDrafts}=require('../scripts/build-editorial-record-drafts');
+const {buildDrafts}=require('../scripts/build-editorial-record-drafts');\nconst {buildAutomaticPublications}=require('../scripts/build-automated-publications');
 const queue={updatedAt:'2026-11-09T12:00:00Z',candidates:[
  {id:'global-reporting-grant',title:'Global reporting grant',url:'https://example.org/grant',category:'opportunities',providers:['Example Foundation'],audit:{pageTitle:'Global Reporting Grant',httpStatus:200,contentType:'text/html',checkedAt:'2026-11-09T10:00:00Z',evidenceText:'Applications are open. Eligibility is open to journalists worldwide. Applications close 2099-12-31.',structuredData:[],resourceLinks:[]}},
  {id:'city-data-catalog',title:'City data catalog',url:'https://example.org/data',category:'datasets',providers:['Example City'],audit:{pageTitle:'City Open Data Catalog',httpStatus:200,contentType:'text/html',checkedAt:'2026-11-09T10:00:00Z',evidenceText:'Download CSV files covering 2020–2025. License terms are available on the portal.',structuredData:[{'@type':'Dataset',name:'City records',distribution:{contentUrl:'https://example.org/download.csv',encodingFormat:'text/csv'}}],resourceLinks:[{url:'https://example.org/download.csv',label:'CSV download'}]}},
@@ -35,7 +35,7 @@ test('builds traceable drafts only from evidence-complete primary-source reviews
  const dataset=out.drafts.find(x=>x.category==='datasets');
  assert.equal(dataset.recordDraft.api,'https://example.org/download.csv');
  assert.equal(dataset.recordDraft.format,'text/csv');
- assert.equal(dataset.recordDraft.limitations,null);
+ assert.match(dataset.recordDraft.limitations,/não detalha todas as limitações/);
  const tool=out.drafts.find(x=>x.category==='tools');
  assert.equal(tool.recordDraft.kind,'Mapping');
  assert.match(tool.recordDraft.desc,/Software lets journalists create interactive maps/);
@@ -59,4 +59,25 @@ test('draft validator detects source drift and publisher rejects drafts as an ap
   const invalid=cp.spawnSync(process.execPath,[validator,qp,rp,dp],{encoding:'utf8'});
   assert.notEqual(invalid.status,0);assert.match(invalid.stderr,/Draft source does not match/);
  }finally{fs.rmSync(root,{recursive:true,force:true})}
+});
+
+
+test('complete opportunity evidence creates a machine approval that the publisher accepts',()=>{
+ const page='Applications for this journalism fellowship are open and close 2099-12-31. Eligibility: open to professional journalists worldwide. The program funds reporting projects and provides editorial mentorship.';
+ const q={updatedAt:checkedAt,candidates:[{id:'verified-fellowship-automation',title:'Global Reporting Fellowship',url:'https://example.org/fellowship',category:'opportunities',providers:[],audit:{pageTitle:'Global Reporting Fellowship',pageDescription:'A 180 character official summary describing a reporting fellowship for professional journalists worldwide, including support for original investigations and the program’s annual mentoring cohort.',httpStatus:200,contentType:'text/html',checkedAt,evidenceText:page,structuredData:[{'@type':'Organization',name:'Example Foundation'}],resourceLinks:[]}}]};
+ const review={records:[{id:'verified-fellowship-automation',category:'opportunities',decision:'evidence_complete_for_record_draft',publicationReady:false,checks:{callSignal:true,deadline:'2099-12-31',eligibility:true}}]};
+ const drafts=buildDrafts(q,review,checkedAt);
+ assert.equal(drafts.summary.drafts,1);assert.deepEqual(drafts.drafts[0].missingFields,[]);
+ const built=buildAutomaticPublications(drafts,{approved:[]},now);
+ assert.equal(built.summary.automaticallyApproved,1);
+ const tmp=fs.mkdtempSync(path.join(os.tmpdir(),'radar-publish-e2e-'));
+ try{
+  fs.mkdirSync(path.join(tmp,'data'));
+  for(const name of ['opportunities.js','datasets.js','tools.js','changelog.js'])fs.copyFileSync(path.resolve('data',name),path.join(tmp,'data',name));
+  const manifest=path.join(tmp,'approved.json');fs.writeFileSync(manifest,JSON.stringify(built.manifest));
+  cp.execFileSync(process.execPath,[path.resolve('scripts/publish-approved.js'),manifest],{cwd:tmp,encoding:'utf8'});
+  const vm=require('node:vm'),ctx={window:{RADAR_PARTS:{}}};vm.createContext(ctx);
+  vm.runInContext(fs.readFileSync(path.join(tmp,'data/opportunities.js'),'utf8'),ctx);
+  assert(ctx.window.RADAR_PARTS.opportunities.some(x=>x.id==='verified-fellowship-automation'));
+ }finally{fs.rmSync(tmp,{recursive:true,force:true})}
 });
