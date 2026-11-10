@@ -2,6 +2,18 @@ window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
 {
   "date": "2026-11-10",
+  "type": "ferramentas",
+  "title": "Publicação editorial verificada — 2026-11-10",
+  "items": [
+    {
+      "id": "8131bd90a31340ae234883b0310fea966d01f14dd68345a72a7de5f22c9e3966",
+      "title": "682: quantum of sollazzo • Buttondown"
+    }
+  ],
+  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: 682: quantum of sollazzo • Buttondown."
+}, 
+{
+  "date": "2026-11-10",
   "type": "nova-oportunidade",
   "title": "Publicação editorial verificada — 2026-11-10",
   "items": [
