@@ -55,7 +55,8 @@ function actionableOpportunity(title,text){
 function deadlineDates(text){
  const cues=/(?:deadline|closing date|enter by|entries?[^.!?]{0,70}(?:close|due|deadline)|submissions?[^.!?]{0,70}(?:close|due|deadline)|applications?[^.!?]{0,70}clos(?:e|es|ed)|application period[^.!?]{0,70}(?:ends?|closes?)|apply by|submit by|prazo[^.!?]{0,70}(?:até|final)|inscri[cç][oõ]es?[^.!?]{0,70}até)/i;
  return dateCandidates(text).filter(date=>{
-  const forms=[date,date.replaceAll('-','/'),date.slice(8)+'/'+date.slice(5,7)+'/'+date.slice(0,4),String(Number(date.slice(8)))+'/'+String(Number(date.slice(5,7)))+'/'+date.slice(0,4)];
+  const months=['january','february','march','april','may','june','july','august','september','october','november','december'],ptMonths=['janeiro','fevereiro','março','abril','maio','junho','julho','agosto','setembro','outubro','novembro','dezembro'],month=months[Number(date.slice(5,7))-1],ptMonth=ptMonths[Number(date.slice(5,7))-1],day=String(Number(date.slice(8))),year=date.slice(0,4);
+  const forms=[date,date.replaceAll('-','/'),date.slice(8)+'/'+date.slice(5,7)+'/'+date.slice(0,4),String(Number(date.slice(8)))+'/'+String(Number(date.slice(5,7)))+'/'+date.slice(0,4),month+' '+day+', '+year,day+' '+month+' '+year,day+' de '+ptMonth+' de '+year];
   return text.split(/(?<=[.!?])\s+/).some(sentence=>forms.some(form=>sentence.includes(form))&&cues.test(sentence)&&/(application|grant|fellowship|scholarship|submit|submission|entry|entries|inscri[cç][oõ]|candidatura|bolsa|edital)/i.test(sentence));
  });
 }
