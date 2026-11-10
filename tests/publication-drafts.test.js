@@ -1,7 +1,7 @@
 'use strict';
 const test=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),os=require('node:os'),path=require('node:path'),cp=require('node:child_process');
 const {buildDrafts}=require('../scripts/build-editorial-record-drafts');
-const {buildAutomaticPublications=require('../scripts/build-automated-publications');
+const {buildAutomaticPublications}=require('../scripts/build-automated-publications');
 const queue={updatedAt:'2026-11-09T12:00:00Z',candidates:[
  {id:'global-reporting-grant',title:'Global reporting grant',url:'https://example.org/grant',category:'opportunities',providers:['Example Foundation'],audit:{pageTitle:'Global Reporting Grant',httpStatus:200,contentType:'text/html',checkedAt:'2026-11-09T10:00:00Z',evidenceText:'Applications are open. Eligibility is open to journalists worldwide. Applications close 2099-12-31.',structuredData:[],resourceLinks:[]}},
  {id:'city-data-catalog',title:'City data catalog',url:'https://example.org/data',category:'datasets',providers:['Example City'],audit:{pageTitle:'City Open Data Catalog',httpStatus:200,contentType:'text/html',checkedAt:'2026-11-09T10:00:00Z',evidenceText:'Download CSV files covering 2020–2025. License terms are available on the portal.',structuredData:[{'@type':'Dataset',name:'City records',distribution:{contentUrl:'https://example.org/download.csv',encodingFormat:'text/csv'}}],resourceLinks:[{url:'https://example.org/download.csv',label:'CSV download'}]}},
@@ -65,6 +65,7 @@ test('draft validator detects source drift and publisher rejects drafts as an ap
 
 
 test('complete opportunity evidence creates a machine approval that the publisher accepts',()=>{
+ const checkedAt='2026-11-09T12:00:00Z',now=new Date(checkedAt);
  const page='Applications for this journalism fellowship are open and close 2099-12-31. Eligibility: open to professional journalists worldwide. The program funds reporting projects and provides editorial mentorship.';
  const q={updatedAt:checkedAt,candidates:[{id:'verified-fellowship-automation',title:'Global Reporting Fellowship',url:'https://example.org/fellowship',category:'opportunities',providers:[],audit:{pageTitle:'Global Reporting Fellowship',pageDescription:'A 180 character official summary describing a reporting fellowship for professional journalists worldwide, including support for original investigations and the program’s annual mentoring cohort.',httpStatus:200,contentType:'text/html',checkedAt,evidenceText:page,structuredData:[{'@type':'Organization',name:'Example Foundation'}],resourceLinks:[]}}]};
  const review={records:[{id:'verified-fellowship-automation',category:'opportunities',decision:'evidence_complete_for_record_draft',publicationReady:false,checks:{callSignal:true,deadline:'2099-12-31',eligibility:true}}]};
