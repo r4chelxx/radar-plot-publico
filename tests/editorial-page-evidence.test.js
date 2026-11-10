@@ -21,6 +21,6 @@ assert.deepEqual(result.resourceLinks,[{url:'https://example.org/datasets/munici
 const malformed=extractEvidence('<script type="application/ld+json">{bad}</script><p>Still readable &amp; safe</p>');
 assert.equal(malformed.structuredData.length,0);
 assert.match(malformed.evidenceText,/Still readable & safe/);
-const oversized=extractEvidence('<p>'+('x'.repeat(6000))+'</p>');
-assert.equal(oversized.evidenceText.length,5000);
+const oversized=extractEvidence('<p>'+('x'.repeat(25000))+'</p>');
+assert.equal(oversized.evidenceText.length,20000);
 console.log('Primary-source evidence extraction regression passed');

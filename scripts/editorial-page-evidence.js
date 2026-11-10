@@ -1,7 +1,7 @@
 'use strict';
 // Extract a bounded, auditable snapshot from a public page. This is evidence input,
 // never an approval decision. Keep only fields relevant to category-specific review.
-const FIELDS=['@type','name','description','url','license','distribution','datePublished','dateModified','temporalCoverage','spatialCoverage','encodingFormat','contentUrl','applicationCategory','operatingSystem','offers','featureList','softwareVersion'];
+const FIELDS=['@type','name','description','url','license','publisher','author','creator','provider','organizer','distribution','datePublished','dateModified','temporalCoverage','spatialCoverage','encodingFormat','contentUrl','applicationCategory','operatingSystem','offers','featureList','softwareVersion'];
 function decode(text){return String(text||'').replace(/&nbsp;|&#160;/gi,' ').replace(/&amp;/gi,'&').replace(/&quot;/gi,'"').replace(/&#39;|&apos;/gi,"'").replace(/&lt;/gi,'<').replace(/&gt;/gi,'>').replace(/&#(\d+);/g,(_,n)=>String.fromCodePoint(Number(n))).replace(/&#x([\da-f]+);/gi,(_,n)=>String.fromCodePoint(parseInt(n,16)));}
 function compact(value,depth=0){
  if(depth>3||value==null)return undefined;
@@ -45,7 +45,7 @@ function extractEvidence(html,baseUrl=''){
   .replace(/<!--[\s\S]*?-->/g,' ')
   .replace(/<(script|style|noscript|svg|template|header|footer|nav)\b[^>]*>[\s\S]*?<\/\1\s*>/gi,' ')
   .replace(/<[^>]+>/g,' ')
-  .replace(/\\s+/g,' ')).trim().slice(0,5000);
+  .replace(/\s+/g,' ')).trim().slice(0,20000);
  return {evidenceText:visible,structuredData:jsonLd,resourceLinks};
 }
 module.exports={extractEvidence};
