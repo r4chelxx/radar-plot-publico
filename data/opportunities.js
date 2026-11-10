@@ -1,6 +1,25 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.opportunities=[
 {
+  "id": "b45070e9d4dabfb55eb4edbe6a851ffcd200473f6429555a374f7c0ac7db3e88",
+  "title": "Knight-Wallace Fellowship at the University of Michigan &#8211; Grants for Journalists",
+  "org": "University of Michigan",
+  "summary": "Knight-Wallace Fellowship at the University of Michigan – Grants for Journalists Skip to content View Full List Grant details View all grants Knight-Wallace Fellowship at the University of Michigan Knight-Wallace Fellowships offer a broad range of accomplished journalists an academic year of study and collaborative learning at the University of Michigan. Through this fellowship, journalists who are eager for growth and deeply committed to the future of their profession have the opportunity to deepen knowledge, develop new ideas and address challenges facing the journalism industry. Each year Wallace House Center for Journalists awards Knight-Wallace Fellowships to a small cohort of U.S. journalists for immersive projects touching on a range of areas including education, public policy, sports, health and medicine, technology and news innovation, transportation and environment, and international reporting. Location All Locations (Open to Anyone) Funding Type Fellowship Organization University of Michigan Focus Area Subject Area Professional Development Award Size $85,000, plus $5,000 relocation Career Stage mid-career Editor's Note Deadline for international applicants is December 1,",
+  "type": "Fellowship",
+  "themes": [
+    "Meio ambiente",
+    "Jornalismo"
+  ],
+  "scope": "Location All Locations (Open to Anyone) Funding Type Fellowship Organization University of Michigan Focus Area Subject Area Professional Development Award Size $85,000, plus $5,000 relocation Career Stage mid-career Editor's Note Deadline for international applicants is December 1, 2026.",
+  "fit": 6,
+  "deadline": "2026-12-01",
+  "deadlineStatus": "Confirmado na página oficial; fuso horário não informado.",
+  "eligibility": "parcial",
+  "status": "aberta",
+  "rules": "https://grantsforjournalists.com/grant/knight-wallace-fellowship-at-the-university-of-michigan",
+  "apply": "https://grantsforjournalists.com/grant/knight-wallace-fellowship-at-the-university-of-michigan"
+}, 
+{
   "id": "088211e0604559fd090f68d856ea6e4968716c7d5800b9adbfa5ed659142df55",
   "title": "Knight-Wallace Fellowship (International Applicants) - GFMD",
   "org": "Wallace House Center for Journalists",
