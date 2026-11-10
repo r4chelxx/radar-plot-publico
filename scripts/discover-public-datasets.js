@@ -7,7 +7,7 @@ const {canonical}=require('./lead-identity');
 const sources=[
  {name:'World Bank Open Data',url:'https://api.worldbank.org/v2/indicator?format=json&per_page=25',parse:json=>{
    const rows=Array.isArray(json)?json[1]||[]:[];
-   return rows.map(x=>({url:'https://data.worldbank.org/indicator/'+encodeURIComponent(x.id),title:x.name||x.id,resourceLinks:[{url:'https://api.worldbank.org/v2/country/all/indicator/'+encodeURIComponent(x.id)+'?format=json&per_page=1000',label:'World Bank API'}],sourceEvidence:'Official World Bank indicator API with country-level observations in JSON; indicator code '+x.id+'.'}));
+   return rows.map(x=>({url:'https://data.worldbank.org/indicator/'+encodeURIComponent(x.id),title:x.name||x.id,resourceLinks:[{url:'https://api.worldbank.org/v2/country/all/indicator/'+encodeURIComponent(x.id)+'?format=json&per_page=1000',label:'World Bank API'}],sourceEvidence:'Organization: World Bank. Dataset: official indicator API with annual country-level observations in JSON format; indicator code '+x.id+'. Coverage: country-level annual observations.'}));
  }},
  {name:'GBIF Dataset Search',url:'https://api.gbif.org/v1/dataset/search?limit=25',parse:json=>(json.results||[]).map(x=>({url:x.homepage||('https://www.gbif.org/dataset/'+x.key),title:x.title||x.key})).filter(x=>x.url)},
  {name:'Data.gov CKAN',url:'https://catalog.data.gov/api/3/action/package_search?q=data&rows=25',parse:json=>(json.result?.results||[]).map(x=>({url:x.url||('https://catalog.data.gov/dataset/'+x.name),title:x.title||x.name})).filter(x=>x.url)},
