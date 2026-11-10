@@ -1,10 +1,10 @@
 {
-  "checkedAt": "2026-11-10T20:02:23.591Z",
+  "checkedAt": "2026-11-10T20:15:33.730Z",
   "policy": "404/410 and ArcGIS application errors within HTTP 200 become broken only after appearing as suspect or broken in the previous audit; blocked and network results are inconclusive",
   "counts": {
-    "ok": 590,
+    "ok": 599,
     "blocked": 56,
-    "network": 36
+    "network": 32
   },
   "results": [
     {
@@ -4060,11 +4060,13 @@
           "field": "discoveryUrl"
         }
       ],
-      "status": 200,
-      "finalUrl": "https://wid.world/data-quality/",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "AbortError:This operation was aborted",
       "attempts": [
-        200
+        "AbortError:This operation was aborted",
+        "AbortError:This operation was aborted"
       ]
     },
     {
@@ -4750,13 +4752,11 @@
           "field": "url"
         }
       ],
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://dados.pb.gov.br/",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -4771,13 +4771,11 @@
           "field": "docs"
         }
       ],
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://dados.pb.gov.br/about",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -4792,13 +4790,11 @@
           "field": "api"
         }
       ],
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://api.dados.pb.gov.br/swagger/",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -4813,13 +4809,11 @@
           "field": "discoveryUrl"
         }
       ],
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://codata.pb.gov.br/noticias/codata-desenvolve-nova-versao-do-portal-da-transparencia-da-paraiba-lancada-pelo-governo-do-estado/",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -4930,11 +4924,13 @@
           "field": "discoveryUrl"
         }
       ],
-      "status": 200,
-      "finalUrl": "https://www.generonumero.media/dados-abertos/",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "TypeError:fetch failed",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -6960,7 +6956,7 @@
       "class": "network",
       "error": "TypeError:fetch failed",
       "attempts": [
-        "TypeError:fetch failed",
+        "AbortError:This operation was aborted",
         "TypeError:fetch failed"
       ]
     },
@@ -6980,6 +6976,7 @@
       "finalUrl": "https://map.geo.sei.ba.gov.br/arcgis/rest/services",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -7098,6 +7095,7 @@
       "finalUrl": "https://www.ba.gov.br/ssp/publicacoes",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -7133,13 +7131,12 @@
           "field": "url"
         }
       ],
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://dadosabertos.aneel.gov.br/",
+      "class": "ok",
       "attempts": [
         "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -7158,6 +7155,7 @@
       "finalUrl": "https://dados.ons.org.br/",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -7182,6 +7180,7 @@
       "finalUrl": "https://dados.ons.org.br/dataset/restricao_coff_fotovoltaica",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -7201,6 +7200,7 @@
       "finalUrl": "https://dados.ons.org.br/dataset/restricao_coff_fotovoltaica_detail",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -7359,7 +7359,6 @@
       "finalUrl": "https://dadosabertos.aneel.gov.br/dataset/ocorrencias-emergenciais-nas-redes-de-distribuicao",
       "class": "ok",
       "attempts": [
-        "TypeError:fetch failed",
         200
       ]
     },
@@ -7772,7 +7771,6 @@
       "finalUrl": "https://salvador.ba.gov.br/",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -7826,13 +7824,11 @@
           "field": "url"
         }
       ],
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/acoes-e-programas/programas-projetos-acoes-obras-e-atividades/estatisticas-trabalho/novo-caged/2026/setembro/pagina-inicial",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -7852,7 +7848,7 @@
       "class": "network",
       "error": "TypeError:fetch failed",
       "attempts": [
-        "AbortError:This operation was aborted",
+        "TypeError:fetch failed",
         "TypeError:fetch failed"
       ]
     },
@@ -7873,7 +7869,7 @@
       "class": "network",
       "error": "TypeError:fetch failed",
       "attempts": [
-        "AbortError:This operation was aborted",
+        "TypeError:fetch failed",
         "TypeError:fetch failed"
       ]
     },
@@ -7894,7 +7890,7 @@
       "class": "network",
       "error": "TypeError:fetch failed",
       "attempts": [
-        "AbortError:This operation was aborted",
+        "TypeError:fetch failed",
         "TypeError:fetch failed"
       ]
     },
@@ -7915,7 +7911,7 @@
       "class": "network",
       "error": "TypeError:fetch failed",
       "attempts": [
-        "AbortError:This operation was aborted",
+        "TypeError:fetch failed",
         "TypeError:fetch failed"
       ]
     },
@@ -7936,7 +7932,7 @@
       "class": "network",
       "error": "TypeError:fetch failed",
       "attempts": [
-        "AbortError:This operation was aborted",
+        "TypeError:fetch failed",
         "TypeError:fetch failed"
       ]
     },
@@ -8111,6 +8107,7 @@
       "finalUrl": "https://datasus.saude.gov.br/cnes-recursos-fisicos/",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -8168,6 +8165,7 @@
       "finalUrl": "https://datasus.saude.gov.br/cnes-recursos-humanos-a-partir-de-agosto-de-2007-ocupacoes-classificadas-pela-cbo-2002/",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -8446,6 +8444,7 @@
       "finalUrl": "https://dadosabertos.aneel.gov.br/dataset/sistema-de-gestao-da-transmissao-siget",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -8465,6 +8464,7 @@
       "finalUrl": "https://dadosabertos.aneel.gov.br/dataset/samp",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -8579,11 +8579,13 @@
           "field": "url"
         }
       ],
-      "status": 200,
-      "finalUrl": "https://dadosabertos.aneel.gov.br/dataset/base-de-dados-geografica-da-distribuidora-bdgd",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "AbortError:This operation was aborted",
       "attempts": [
-        200
+        "AbortError:This operation was aborted",
+        "AbortError:This operation was aborted"
       ]
     },
     {
@@ -10658,7 +10660,6 @@
       "finalUrl": "https://www.generonumero.media/",
       "class": "ok",
       "attempts": [
-        "TypeError:fetch failed",
         200
       ]
     },
@@ -11690,6 +11691,125 @@
     },
     {
       "type": "tool",
+      "id": "9f08b5a99c6c9f62c7b1c97611500f5db6b140a14c8c8c4a5b34b00faaad2427",
+      "field": "url",
+      "url": "https://www.tableau.com/",
+      "references": [
+        {
+          "type": "tool",
+          "id": "9f08b5a99c6c9f62c7b1c97611500f5db6b140a14c8c8c4a5b34b00faaad2427",
+          "field": "url"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://www.tableau.com/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "a6943fe0aa51788e6f02a85895ba465cd40dfb9c7cc5462996acf7e81b148ff2",
+      "field": "url",
+      "url": "https://vega.github.io/",
+      "references": [
+        {
+          "type": "tool",
+          "id": "a6943fe0aa51788e6f02a85895ba465cd40dfb9c7cc5462996acf7e81b148ff2",
+          "field": "url"
+        },
+        {
+          "type": "tool",
+          "id": "vega-lite-visualization-grammar",
+          "field": "discoveryUrl"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://vega.github.io/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "bf0f70ab6377c8041e340bdf48e30a2e326e89cb07d78998b89ba0c7ee5fb0be",
+      "field": "url",
+      "url": "https://www.sigmacomputing.com/",
+      "references": [
+        {
+          "type": "tool",
+          "id": "bf0f70ab6377c8041e340bdf48e30a2e326e89cb07d78998b89ba0c7ee5fb0be",
+          "field": "url"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://www.sigmacomputing.com/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "cbcf1207daf6bdd681a32b245a2509a15e85242808741c346412f447100b05fa",
+      "field": "url",
+      "url": "https://www.microsoft.com/en-us/power-platform/products/power-bi",
+      "references": [
+        {
+          "type": "tool",
+          "id": "cbcf1207daf6bdd681a32b245a2509a15e85242808741c346412f447100b05fa",
+          "field": "url"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://www.microsoft.com/en-us/microsoft-fabric/features/power-bi",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "d2f8e4e03f7039542269c22b68eb5b54fa341006c9685b6af22fd3ae39598778",
+      "field": "url",
+      "url": "https://plotly.com/python",
+      "references": [
+        {
+          "type": "tool",
+          "id": "d2f8e4e03f7039542269c22b68eb5b54fa341006c9685b6af22fd3ae39598778",
+          "field": "url"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://plotly.com/python/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "9074bd0330d7cf1e7b676cd5fa22eacf03a786e13009162ac6f99e121dca4cf6",
+      "field": "url",
+      "url": "https://quanteda.io/",
+      "references": [
+        {
+          "type": "tool",
+          "id": "9074bd0330d7cf1e7b676cd5fa22eacf03a786e13009162ac6f99e121dca4cf6",
+          "field": "url"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://quanteda.io/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
       "id": "3a612d3b0026605c96abe95b17102fd7ec515303f91661745ecd97a722bed17a",
       "field": "url",
       "url": "https://www.python.org/",
@@ -12287,25 +12407,6 @@
       ],
       "status": 200,
       "finalUrl": "https://vega.github.io/vega-lite/",
-      "class": "ok",
-      "attempts": [
-        200
-      ]
-    },
-    {
-      "type": "tool",
-      "id": "vega-lite-visualization-grammar",
-      "field": "discoveryUrl",
-      "url": "https://vega.github.io/",
-      "references": [
-        {
-          "type": "tool",
-          "id": "vega-lite-visualization-grammar",
-          "field": "discoveryUrl"
-        }
-      ],
-      "status": 200,
-      "finalUrl": "https://vega.github.io/",
       "class": "ok",
       "attempts": [
         200
@@ -14508,13 +14609,11 @@
           "field": "url"
         }
       ],
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "AbortError:This operation was aborted",
+      "status": 200,
+      "finalUrl": "https://agendas.fiquemsabendo.com.br/",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "AbortError:This operation was aborted"
+        200
       ]
     },
     {
@@ -14571,7 +14670,6 @@
       "finalUrl": "https://support.google.com/pinpoint/answer/17007004?hl=pt-BR",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
