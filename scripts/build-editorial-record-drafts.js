@@ -59,7 +59,7 @@ function buildDrafts(queue,review,generatedAt=new Date().toISOString()){
    const topicMap=[[/climate|environment|clima|ambiental/i,'Meio ambiente'],[/data journalism|data visualization|dados|visualiza[cç][aã]o/i,'Jornalismo de dados'],[/investigativ|investiga[cç][aã]o/i,'Jornalismo investigativo'],[/gender|women|gênero|mulheres/i,'Gênero'],[/photo|fotografia/i,'Fotografia'],[/journalism|journalist|jornalismo|jornalista/i,'Jornalismo']];
    record.themes=[...new Set(topicMap.filter(([rx])=>rx.test(pageTitle+' '+text)).map(([,label])=>label))];
    if(!record.themes.length)record.themes=['Oportunidades editoriais'];
-   record.scope=sentence(text,/(eligible|eligibility|who can (?:apply|enter|participate)|participants must|entry requirements|open to|elegibilidade|elegível|podem se candidatar)/i);
+   record.scope=sentence(text,/(eligible|eligibility|who can (?:apply|enter|participate)|participants must|entry requirements|age(?:d)? 18 and up|18 years and older|globally may enter|open to|elegibilidade|elegível|podem se candidatar)/i);
    record.deadline=result.checks.deadline||null;
    record.deadlineStatus=record.deadline?'Confirmado na página oficial; fuso horário não informado.':null;
    record.eligibility=record.scope?'parcial':null;

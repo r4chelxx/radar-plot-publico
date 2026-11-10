@@ -66,9 +66,9 @@ test('draft validator detects source drift and publisher rejects drafts as an ap
 
 test('complete opportunity evidence creates a machine approval that the publisher accepts',()=>{
  const checkedAt='2026-11-09T12:00:00Z',now=new Date(checkedAt);
- const page='Applications for this journalism fellowship are open and close 2099-12-31. Eligibility: open to professional journalists worldwide. The program funds reporting projects and provides editorial mentorship.';
- const q={updatedAt:checkedAt,candidates:[{id:'verified-fellowship-automation',title:'Global Reporting Fellowship',url:'https://example.org/fellowship',category:'opportunities',providers:[],audit:{pageTitle:'Global Reporting Fellowship',pageDescription:'A 180 character official summary describing a reporting fellowship for professional journalists worldwide, including support for original investigations and the program’s annual mentoring cohort.',httpStatus:200,contentType:'text/html',checkedAt,evidenceText:page,structuredData:[{'@type':'Organization',name:'Example Foundation'}],resourceLinks:[]}}]};
- const review={records:[{id:'verified-fellowship-automation',category:'opportunities',decision:'evidence_complete_for_record_draft',publicationReady:false,checks:{callSignal:true,deadline:'2099-12-31',eligibility:true}}]};
+ const page='Global storytelling competition. Esri invites storytellers age 18 and up to answer that question. Submit a story created with ArcGIS StoryMaps that addresses one of the following categories. SUBMISSION DEADLINE December 11, 2026, 5:00 p.m. (PT). Applicants 18 years and older globally may enter the competition once in one of four categories. Esri will award selected winners and feature their work.';
+ const q={updatedAt:checkedAt,candidates:[{id:'verified-arcgis-competition',title:'2026 ArcGIS StoryMaps Competition',url:'https://www.esri.com/en-us/arcgis/products/arcgis-storymaps/contest/overview',category:'opportunities',providers:[],audit:{pageTitle:'2026 ArcGIS StoryMaps Competition',pageDescription:'A 180 character official summary describing a global storytellers to submit an original geospatial story in the annual ArcGIS StoryMaps competition, with four entry categories and awards for selected winners.',httpStatus:200,contentType:'text/html',checkedAt,evidenceText:page,structuredData:[{'@type':'Organization',name:'Example Foundation'}],resourceLinks:[]}}]};
+ const review={records:[{id:'verified-arcgis-competition',category:'opportunities',decision:'evidence_complete_for_record_draft',publicationReady:false,checks:{callSignal:true,deadline:'2026-12-11',eligibility:true}}]};
  const drafts=buildDrafts(q,review,checkedAt);
  assert.equal(drafts.summary.drafts,1);assert.deepEqual(drafts.drafts[0].missingFields,[]);
  const built=buildAutomaticPublications(drafts,{approved:[]},now);
@@ -81,6 +81,6 @@ test('complete opportunity evidence creates a machine approval that the publishe
   cp.execFileSync(process.execPath,[path.resolve('scripts/publish-approved.js'),manifest],{cwd:tmp,encoding:'utf8'});
   const vm=require('node:vm'),ctx={window:{RADAR_PARTS:{}}};vm.createContext(ctx);
   vm.runInContext(fs.readFileSync(path.join(tmp,'data/opportunities.js'),'utf8'),ctx);
-  assert(ctx.window.RADAR_PARTS.opportunities.some(x=>x.id==='verified-fellowship-automation'));
+  assert(ctx.window.RADAR_PARTS.opportunities.some(x=>x.id==='verified-arcgis-competition'));
  }finally{fs.rmSync(tmp,{recursive:true,force:true})}
 });
