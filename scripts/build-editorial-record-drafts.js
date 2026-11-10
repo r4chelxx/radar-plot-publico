@@ -21,7 +21,7 @@ function publisherName(data){
  return clean(typeof raw==='string'?raw:raw.name)||(/organization/.test(type)?clean(data.name):'')||null;
 }
 function explicitOrganization(text){
- const m=String(text||'').match(/(?:^|[.!?]\\s+)(?:The\\s+)?([A-Z][A-Za-z0-9&.'’-]*(?:\\s+[A-Z][A-Za-z0-9&.'’-]*){0,3})\\s+(?:invites|is pleased to announce|announces)\\b/);
+ const m=String(text||'').match(/(?:^|[.!?]\s+)(?:The\s+)?([A-Z][A-Za-z0-9&.'’-]*(?:\s+[A-Z][A-Za-z0-9&.'’-]*){0,3})\s+(?:invites|is pleased to announce|announces)\b/);
  return clean(m?.[1])||null;
 }
 function eligibilityScope(text){
