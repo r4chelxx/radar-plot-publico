@@ -54,7 +54,7 @@ async function inspect(item){
   const resourceLinks=[...inheritedLinks,...(pageEvidence.resourceLinks||[])].filter((x,i,a)=>x?.url&&!a.slice(0,i).some(y=>y.url===x.url)).slice(0,40);
   const evidenceText=[pageEvidence.evidenceText,item.sourceEvidence].filter(Boolean).join(' ').slice(0,120000);
   return{...item,audit:{checkedAt:now.toISOString(),httpStatus:res.status,finalUrl:res.url,contentType:type,pageTitle:title,pageDescription:description,evidenceText,structuredData:pageEvidence.structuredData,resourceLinks,result,reason}}
- }catch(e){return{...item,audit:{checkedAt:now.toISOString(),httpStatus:null,result:'inconclusive',reason:e.name==='AbortError'?'Timeout; tentar em auditoria futura.':'Falha de rede; tentar em auditoria futura.'}}}
+ }catch(e){return{...item,audit:{checkedAt:now.toISOString(),httpStatus:null,contentType:'',pageTitle:item.title||'',pageDescription:'',evidenceText:String(item.sourceEvidence||''),structuredData:[],resourceLinks:Array.isArray(item.resourceLinks)?item.resourceLinks:[],result:'inconclusive',reason:e.name==='AbortError'?'Timeout; tentar em auditoria futura.':'Falha de rede; tentar em auditoria futura.'}}}
  finally{clearTimeout(timer)}
 }
 async function main(){
