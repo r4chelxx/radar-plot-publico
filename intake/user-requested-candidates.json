@@ -63,14 +63,14 @@
       "url": "https://global-surface-water.appspot.com/download",
       "category": "datasets",
       "resourceLinks": [{"url":"https://global-surface-water.appspot.com/download","label":"Official dataset download access"}],
-      "sourceEvidence": "Official JRC Global Surface Water access page. Dataset: global historical surface-water occurrence and change derived from Landsat observations, covering 1984 onward. Format: downloadable raster layers and Google Earth Engine access. Coverage: global."
+      "sourceEvidence": "Organization: Joint Research Centre (JRC), European Commission. Official JRC Global Surface Water access page. Dataset: global historical surface-water occurrence and change derived from Landsat observations, covering 1984 onward. Format: downloadable raster layers and Google Earth Engine access. Coverage: global."
     },
     {
       "title": "GHSL — Global Human Settlement Layer",
       "url": "https://human-settlement.emergency.copernicus.eu/datasets.php",
       "category": "datasets",
       "resourceLinks": [{"url":"https://human-settlement.emergency.copernicus.eu/downloadWizard.php","label":"Official GHSL dataset download wizard"}],
-      "sourceEvidence": "Official European Commission Joint Research Centre GHSL catalog. Dataset family: global built-up surface, population, settlement and urbanization layers from satellite imagery, census and volunteered geographic information. Format: downloadable geospatial layers. Coverage: global and multi-temporal."
+      "sourceEvidence": "Organization: European Commission Joint Research Centre (JRC). Official GHSL catalog. Dataset family: global built-up surface, population, settlement and urbanization layers from satellite imagery, census and volunteered geographic information. Format: downloadable geospatial layers. Coverage: global and multi-temporal."
     },
     {
       "title": "Global Migration Institute and Bridging Divides Journalism Fellowship",
