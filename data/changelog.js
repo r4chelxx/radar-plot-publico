@@ -2,6 +2,50 @@ window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
 {
   "date": "2026-11-10",
+  "type": "nova-oportunidade",
+  "title": "Publicação editorial verificada — 2026-11-10",
+  "items": [
+    {
+      "id": "088211e0604559fd090f68d856ea6e4968716c7d5800b9adbfa5ed659142df55",
+      "title": "Knight-Wallace Fellowship (International Applicants) - GFMD"
+    },
+    {
+      "id": "0fa208338a4bcde2366d9b583e4b5146aa53ad03993c853df2a6945051acceb1",
+      "title": "Fund for Investigative Journalism seed and regular grants - GFMD"
+    },
+    {
+      "id": "1ce3ee0308c17d4729e3aa3c772a192ca488dde6407eb88cb91b5941437c1f01",
+      "title": "The Gordon N. Fisher / Journalists for Human Rights Fellowship - GFMD"
+    },
+    {
+      "id": "25f3ecac9078807ca06cb298c039f7081cf070b5cc38669093b8dccb9283f94b",
+      "title": "International Nieman Fellowship - GFMD"
+    },
+    {
+      "id": "2de5afaa39131e7ff861db2ee421b0f89093fb184f5519095b2b4da940402015",
+      "title": "Equality Fund Global Journalism Fellowship 2026–2027 - GFMD"
+    },
+    {
+      "id": "2f8dbafd33f988df9c4c2792e6eafc2e4e67f6786c175432f1171eadfa3dc793",
+      "title": "Call for Proposals - Cross-border Media Literacy (2027) - GFMD"
+    },
+    {
+      "id": "41dcc31139cb1128b115d73c649326c90f292081ebb55d99a6e984e9d4227810",
+      "title": "Call for Proposals: Journalism Partnerships - Pluralism (2027) - GFMD"
+    },
+    {
+      "id": "578ad193d27b574e54ef5fb0b29776357edd23ef315178e2dbb8f1ab025c1a61",
+      "title": "Call for Proposals: Journalism Partnerships - Collaborations (2027) - GFMD"
+    },
+    {
+      "id": "293d94984420e56753951babff751db9ec0bfa21266971a89b9fcceda1102ff3",
+      "title": "Human-Scale AI: Call for Proposals - GFMD"
+    }
+  ],
+  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Knight-Wallace Fellowship (International Applicants) - GFMD; Fund for Investigative Journalism seed and regular grants - GFMD; The Gordon N. Fisher / Journalists for Human Rights Fellowship - GFMD; International Nieman Fellowship - GFMD; Equality Fund Global Journalism Fellowship 2026–2027 - GFMD; Call for Proposals - Cross-border Media Literacy (2027) - GFMD; Call for Proposals: Journalism Partnerships - Pluralism (2027) - GFMD; Call for Proposals: Journalism Partnerships - Collaborations (2027) - GFMD; Human-Scale AI: Call for Proposals - GFMD."
+}, 
+{
+  "date": "2026-11-10",
   "type": "ferramentas",
   "title": "Publicação editorial verificada — 2026-11-10",
   "items": [
