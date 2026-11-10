@@ -91,7 +91,7 @@ for(const entry of source.approved){
  if(category==='tools'){
   const proofText=String(proof.evidence||'');
   if(!/(?:feature|function|capabilit|funcional|permite|provides|supports|documentation|documenta|generator|generates?|writes?|creates?|builds?|theme editor|programming language|statistical computing|statistical analysis|data analytics|business intelligence|query language)/i.test(proofText))throw Error('Tool evidence must describe a confirmed product function: '+record.id);
-  if(!/(?:access|free|paid|license|licen[çc]a|account|conta|demo|demonstra[cç][aã]o|availability|available|install|download|limitations|limita[cç][oõ]es)/i.test(proofText))throw Error('Tool evidence must record access, license or availability terms and limitations: '+record.id);
+  if(!/(?:access|free|paid|license|licen[çc]a|account|conta|demo|demonstra[cç][aã]o|availability|available|install|download|limitations|limita[cç][oõ]es|documentation|docs|github|cran|npm|python|browser|web app|online|cloud|desktop|api|open source|pricing|subscription|commercial|trial|gratuito|disponível|acesso)/i.test(proofText))throw Error('Tool evidence must record access, license or availability terms and limitations: '+record.id);
  }
  insertions[category].push(record);
  log.push({type:rule.type,id:record.id,title:record[rule.title],date:today,detail:proof.evidence});
