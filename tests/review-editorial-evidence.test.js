@@ -29,7 +29,9 @@ try{
  assert.equal(result.records.find(x=>x.id==='fake-grant').decision,'pending_more_evidence');
  assert.equal(result.records.find(x=>x.id==='dataset').decision,'evidence_complete_for_record_draft');
  assert.equal(result.records.find(x=>x.id==='tool').decision,'evidence_complete_for_record_draft');
- assert.equal(result.records.find(x=>x.id==='tool').checks.licenseStatus,'not stated in captured source');\n assert.equal(result.records.find(x=>x.id==='python-metadata').decision,'evidence_complete_for_record_draft');\n assert.equal(result.records.find(x=>x.id==='contest-entries').decision,'evidence_complete_for_record_draft');
+ assert.equal(result.records.find(x=>x.id==='tool').checks.licenseStatus,'not stated in captured source');
+ assert.equal(result.records.find(x=>x.id==='python-metadata').decision,'evidence_complete_for_record_draft');
+ assert.equal(result.records.find(x=>x.id==='contest-entries').decision,'evidence_complete_for_record_draft');
  assert.equal(result.records.find(x=>x.id==='dataset-text-only').decision,'evidence_complete_for_record_draft');
  assert.equal(result.records.find(x=>x.id==='dataset-text-only').checks.licenseStatus,'not stated in captured source');
  assert.equal(result.records.find(x=>x.id==='dataset-without-resource').decision,'pending_more_evidence');
