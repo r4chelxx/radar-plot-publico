@@ -45,7 +45,7 @@ function extractEvidence(html,baseUrl=''){
   .replace(/<!--[\s\S]*?-->/g,' ')
   .replace(/<(script|style|noscript|svg|template|header|footer|nav)\b[^>]*>[\s\S]*?<\/\1\s*>/gi,' ')
   .replace(/<[^>]+>/g,' ')
-  .replace(/\\s+/g,' ')).trim().slice(0,20000);
+  .replace(/\s+/g,' ')).trim().slice(0,20000);
  return {evidenceText:visible,structuredData:jsonLd,resourceLinks};
 }
 module.exports={extractEvidence};
