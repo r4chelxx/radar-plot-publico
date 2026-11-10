@@ -26,6 +26,10 @@ on:
       - '.github/workflows/editorial-publish.yml'
       - 'scripts/check-daily-publication-target.js'
       - 'tests/daily-publication-target.test.js'
+  workflow_run:
+    workflows: ["Unified public web intake"]
+    types: [completed]
+    branches: [main]
   schedule:
     # Retry publication after later intake windows; approved-only and no-change safe.
     - cron: "0 14 * * *"
@@ -41,6 +45,7 @@ permissions:
   issues: write
 jobs:
   publish:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-24.04
     timeout-minutes: 25
     steps:
