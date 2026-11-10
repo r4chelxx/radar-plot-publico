@@ -51,7 +51,7 @@ function inferTechnicalCategory(item){
  return 'uncategorized';
 }
 function categoryFor(item){
- const detected=classifyLead({title:item.title,url:item.url,pageTitle:item.audit?.pageTitle,evidenceText:item.audit?.evidenceText});
+ const detected=inferCategory(item.title);
  if(detected!=='uncategorized')return detected;
  return inferTechnicalCategory(item);
 }
