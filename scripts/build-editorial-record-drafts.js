@@ -55,6 +55,28 @@ function toolKind(text,applicationCategory,titleKind){
  if(/data visualization|data visuali[sz]ation/i.test(text))return 'visualização de dados';
  return null;
 }
+function normalizeToolName(title,text,url){
+ let value=clean(title).replace(/\s*[|—–]\s*.+$/,'').replace(/\s+-\s+.+$/,'').trim();
+ const rules=[
+  [/^welcome to python(?:\.org)?$/i,'Python'],
+  [/^r:\s*the r project for statistical computing$/i,'R'],
+  [/^the r project for statistical computing$/i,'R'],
+  [/^pandas\s*[-–—:]\s*python data analysis library$/i,'pandas'],
+  [/^power bi theme generator\b/i,'Power BI Theme Generator'],
+  [/^plotly(?:\.js)?\s+for\s+python$/i,'Plotly para Python'],
+  [/^microsoft power bi\b/i,'Microsoft Power BI'],
+  [/^vega(?:\s*[-–—:].*)?$/i,'Vega'],
+  [/^tableau(?:\s*[-–—:].*)?$/i,'Tableau'],
+  [/^sigma(?:\s*[-–—:].*)?$/i,'Sigma'],
+  [/^quanteda(?:\s*[-–—:].*)?$/i,'Quanteda'],
+ ];
+ for(const [rx,name] of rules)if(rx.test(clean(title)))return name;
+ const host=(()=>{try{return new URL(url).hostname.replace(/^www\./,'')}catch{return ''}})();
+ if(host==='python.org'||host.endsWith('.python.org'))return 'Python';
+ if(host==='r-project.org'||host.endsWith('.r-project.org'))return 'R';
+ if(host==='pandas.pydata.org'||host.endsWith('.pandas.pydata.org'))return 'pandas';
+ return value||clean(title);
+}
 function todayBahia(now=new Date()){
  const parts=Object.fromEntries(new Intl.DateTimeFormat('en-US',{timeZone:'America/Bahia',year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(now).map(x=>[x.type,x.value]));
  return parts.year+'-'+parts.month+'-'+parts.day;
@@ -107,7 +129,7 @@ function buildDrafts(queue,review,generatedAt=new Date().toISOString()){
    const data=structured(audit,/softwareapplication|softwareproduct|software/i);
    const titleKind=pageTitle.split(/[-—–]/).slice(1).join(' ').trim()||null;
    const sourceDescription=clean(data.description)||clean(audit.pageDescription)||sentence(text,/\b(?:tool|software|application|library|platform|programming language|statistical computing|data analytics)\b/i);
-   record.name=pageTitle;record.kind=toolKind(text,data.applicationCategory,titleKind);record.url=url;
+   record.name=normalizeToolName(pageTitle,text,url);record.kind=toolKind(text,data.applicationCategory,titleKind);record.url=url;
    record.desc=sourceDescription?sourceDescription+' Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use.':null;
   }
   const missingFields=(categoryFields[result.category]||[]).filter(field=>{
