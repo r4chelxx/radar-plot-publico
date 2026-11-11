@@ -61,7 +61,7 @@ async function main(){
  const queue=JSON.parse(fs.readFileSync(queuePath,'utf8'));
  if(!Array.isArray(queue.candidates))throw Error('Queue requires candidates[]');
  const pending=queue.candidates.filter(x=>x.status==='pending'&&/^https:\/\//i.test(x.url||''));
- const dueCandidates=pending.filter(x=>!x.audit?.checkedAt||Date.parse(x.audit.checkedAt)<cutoff)
+ const dueCandidates=pending.filter(x=>x.verificationStatus==='official-web-search'&&x.audit?.result==='inconclusive'||!x.audit?.checkedAt||Date.parse(x.audit.checkedAt)<cutoff)
   .sort((a,b)=>String(a.firstSeen||'').localeCompare(String(b.firstSeen||'')));
  const due=selectAuditBatch(dueCandidates);
  let cursor=0;const workers=Array.from({length:8},async()=>{while(cursor<due.length){const i=cursor++;queue.candidates[queue.candidates.findIndex(x=>x.id===due[i].id)]=await inspect(due[i])}});
