@@ -1,23 +1,10 @@
 {
-  "checkedAt": "2026-11-10T23:56:34.485Z",
+  "checkedAt": "2026-11-11T00:01:12.189Z",
   "batchLimit": 150,
   "intervalDays": 7,
-  "due": 1,
+  "due": 0,
   "pending": 1548,
-  "remainingDue": 1547,
-  "counts": {
-    "inconclusive": 1
-  },
-  "results": [
-    {
-      "id": "6530d95d514e0315a32b8d162d842176e19c0ef110d0dde9ac04122c78b6f56c",
-      "title": "Programa de Bolsas Aborto em Pílulas — Gênero e Número",
-      "url": "https://www.generonumero.media/artigos/programa-de-bolsas-aborto-em-pilulas",
-      "category": "opportunities",
-      "checkedAt": "2026-11-10T23:56:34.485Z",
-      "httpStatus": null,
-      "result": "inconclusive",
-      "reason": "Falha de rede; tentar em auditoria futura."
-    }
-  ]
+  "remainingDue": 1548,
+  "counts": {},
+  "results": []
 }
