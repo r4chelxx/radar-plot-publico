@@ -1749,7 +1749,7 @@ window.RADAR_PARTS.opportunities=[
   "deadlineStatus": "Página oficial informa inscrições até 10/11/2026, corrigindo prazo antigo de 31/10.",
   "eligibility": "parcial",
   "fit": 2,
-  "status": "aberta",
+  "status": "encerrada",
   "rules": "https://www.premiofiepedejornalismo.com.br/",
   "apply": "https://www.premiofiepedejornalismo.com.br/",
   "discoveredVia": [
