@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T00:01:12.591Z",
+  "generatedAt": "2026-11-11T00:05:11.832Z",
   "policy": "Evidence-based category triage. Missing license is recorded as unknown when not found; complete means draft eligibility only, never approval or publication.",
   "counts": {
     "pending_more_evidence": 1548
@@ -21576,16 +21576,15 @@
       "url": "https://www.generonumero.media/artigos/programa-de-bolsas-aborto-em-pilulas",
       "category": "opportunities",
       "originalCategory": "opportunities",
-      "checkedAt": "2026-11-10T23:56:34.485Z",
+      "checkedAt": "2026-11-11T00:05:10.066Z",
       "checks": {
         "callSignal": false,
         "deadline": null,
-        "eligibility": false
+        "eligibility": true
       },
       "missing": [
         "chamada de financiamento/bolsa identificável",
-        "prazo futuro confirmado em formato de data reconhecido",
-        "elegibilidade expressa na fonte"
+        "prazo futuro confirmado em formato de data reconhecido"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
