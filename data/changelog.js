@@ -39,10 +39,10 @@ window.RADAR_PARTS.changelog=[
     },
     {
       "id": "87d587fb19392bb7866daeeb6b83219beda45f46b058d876c647f27e3e0253d4",
-      "title": "Python Record Linkage Toolkit Documentation &mdash; Python Record Linkage Toolkit 0.15 documentation"
+      "title": "Python Record Linkage Toolkit"
     }
   ],
-  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: R; Python Record Linkage Toolkit Documentation &mdash; Python Record Linkage Toolkit 0.15 documentation."
+  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: R; Python Record Linkage Toolkit."
 }, 
 {
   "date": "2026-11-10",
