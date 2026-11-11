@@ -45,6 +45,7 @@ function dateCandidates(text){
  for(const m of text.matchAll(/\b(20\d{2})[-/](0?[1-9]|1[0-2])[-/](0?[1-9]|[12]\d|3[01])\b/g))out.push(m[1]+'-'+m[2].padStart(2,'0')+'-'+m[3].padStart(2,'0'));
  for(const m of text.matchAll(/\b(0?[1-9]|[12]\d|3[01])[./-](0?[1-9]|1[0-2])[./-](20\d{2})\b/g))out.push(m[3]+'-'+m[2].padStart(2,'0')+'-'+m[1].padStart(2,'0'));
  for(const m of text.matchAll(/\b(January|February|March|April|May|June|July|August|September|October|November|December)\s+(0?[1-9]|[12]\d|3[01])(?:st|nd|rd|th)?,?\s+(20\d{2})\b/gi))out.push(m[3]+'-'+String(months[m[1].toLowerCase()]).padStart(2,'0')+'-'+m[2].padStart(2,'0'));
+ for(const m of text.matchAll(/\b(0?[1-9]|[12]\d|3[01])\s+(January|February|March|April|May|June|July|August|September|October|November|December)\s+(20\d{2})\b/gi))out.push(m[3]+'-'+String(months[m[2].toLowerCase()]).padStart(2,'0')+'-'+m[1].padStart(2,'0'));
  const ptMonths={janeiro:1,fevereiro:2,março:3,marco:3,abril:4,maio:5,junho:6,julho:7,agosto:8,setembro:9,outubro:10,novembro:11,dezembro:12};
  for(const m of text.matchAll(/\b(0?[1-9]|[12]\d|3[01])\s+de\s+(janeiro|fevereiro|março|marco|abril|maio|junho|julho|agosto|setembro|outubro|novembro|dezembro)\s+de\s+(20\d{2})\b/gi))out.push(m[3]+'-'+String(ptMonths[m[2].toLowerCase()]).padStart(2,'0')+'-'+m[1].padStart(2,'0'));
  return [...new Set(out)].filter(d=>{const x=new Date(d+'T00:00:00Z');return !Number.isNaN(x.valueOf())&&x.toISOString().slice(0,10)===d});
@@ -80,7 +81,10 @@ function review(c){
   ||(c.verificationStatus==='official-web-search'&&String(c.sourceEvidence||'').length>=120&&Array.isArray(c.resourceLinks)&&c.resourceLinks.length>0);
  if(!hardStatus)missing.push('página primária acessível com conteúdo compatível');
  if(category==='opportunities'){
-  checks.callSignal=actionableOpportunity(title,text)&&!excluded.test(title+' '+String(c.title||''));
+  const verifiedOpportunityEvidence=c.verificationStatus==='official-web-search' &&
+   /\b(grant|fellowship|funding|scholarship|journalism award|award|prize|contest|competition|bolsa|edital|financiamento|premia[cç][aã]o|pr[eê]mio|concurso)\b/i.test(text) &&
+   /\b(applications?\b[^.!?]{0,120}\b(?:open|accepted|closing|close|closes|closed|deadline|until|by)|call for (?:applications?|entries?|submissions?|proposals?)|apply(?:ing)?(?: now| today| by)?|inscri[cç][oõ]es? abertas|candidaturas? abertas|candidatar-se até|submiss[oõ]es? abertas)\b/i.test(text);
+  checks.callSignal=(verifiedOpportunityEvidence||actionableOpportunity(title,text))&&!excluded.test(title+' '+String(c.title||''));
   checks.deadline=deadlineDates(text).find(d=>d>=today)||structuredDeadline(docs); if(checks.deadline&&checks.deadline<today)checks.deadline=null;
   checks.eligibility=/\b(eligib|eligible|eligibility|who can apply|who can enter|who can participate|participants must|entry requirements|age(?:d)? 18 and up|18 years and older|globally may enter|open to|elegibilidade|elegível|podem se candidatar)\b/i.test(text);
   if(!checks.callSignal)missing.push('chamada de financiamento/bolsa identificável');
