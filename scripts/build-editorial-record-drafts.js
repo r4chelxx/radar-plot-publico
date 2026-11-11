@@ -10,7 +10,8 @@ const categoryFields={
 };
 const slug=value=>String(value||'candidate').toLowerCase().normalize('NFKD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9-]+/g,'-').replace(/^-+|-+$/g,'').slice(0,80)||'candidate';
 const sentence=(text,re)=>String(text||'').split(/(?<=[.!?])\s+/).find(x=>re.test(x))?.trim().slice(0,900)||null;
-const decodeHtmlEntities=x=>String(x||'').replace(/&mdash;|&#8212;|&#x2014;/gi,'—').replace(/&ndash;|&#8211;|&#x2013;/gi,'–').replace(/&amp;/gi,'&').replace(/&quot;/gi,'\"').replace(/&#39;|&apos;/gi,"'");\nconst clean=x=>decodeHtmlEntities(String(x||'').replace(/\s+/g,' ').trim());
+const decodeHtmlEntities=x=>String(x||'').replace(/&mdash;|&#8212;|&#x2014;/gi,'—').replace(/&ndash;|&#8211;|&#x2013;/gi,'–').replace(/&amp;/gi,'&').replace(/&quot;/gi,'\"').replace(/&#39;|&apos;/gi,"'");
+const clean=x=>decodeHtmlEntities(String(x||'').replace(/\s+/g,' ').trim());
 const unknown='Não informado pela fonte oficial';
 function structured(audit,pattern){
  return (audit.structuredData||[]).find(x=>String(Array.isArray(x['@type'])?x['@type'].join(' '):x['@type']||'').toLowerCase().match(pattern))||{};
