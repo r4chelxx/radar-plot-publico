@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-11T18:42:52.319Z",
+  "generatedAt": "2026-11-11T22:15:12.864Z",
   "policy": "Evidence-based category triage. Missing license is recorded as unknown when not found; complete means draft eligibility only, never approval or publication.",
   "counts": {
-    "pending_more_evidence": 1642
+    "pending_more_evidence": 1660
   },
   "categoryCounts": {
-    "uncategorized": 1518,
-    "opportunities": 33,
+    "uncategorized": 1535,
+    "opportunities": 34,
     "tools": 27,
     "datasets": 64
   },
@@ -23005,6 +23005,248 @@
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "00c980229cd7971a3f21d3093999e096b3b007b4577cff22702016856b7fba50",
+      "url": "https://grantsforjournalists.com/grant/john-s-knight-journalism-fellowship-at-stanford",
+      "category": "opportunities",
+      "originalCategory": "opportunities",
+      "checkedAt": "2026-11-11T22:15:07.282Z",
+      "checks": {
+        "callSignal": true,
+        "deadline": null,
+        "eligibility": true
+      },
+      "missing": [
+        "prazo futuro confirmado em formato de data reconhecido"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "169c5e3d4fedc70a2d86c0058095e4ecc11f131368e35c8f28c25f8467fcf204",
+      "url": "https://www.aosfatos.org/noticias/enem-questoes-matematica",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-11T22:15:07.282Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "179e10d76e060ce38834861c8ec1032f5ca42a31817bbd4987b2ec59a7336bd4",
+      "url": "https://us.list-manage.com/wPy53Jslj6a",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-11T22:15:07.282Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "23b66d0a220d0332e9790629289f2ad7b1b8dbcf2c2936ef69f977e28880e696",
+      "url": "https://us.list-manage.com/1Ae_v0NF0HL",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-11T22:15:07.282Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "424b25933c0813d7f2320da85030a03b857dce932580d6b61041120dd798aac8",
+      "url": "https://us.list-manage.com/IhcePU8Jwll",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-11T22:15:07.282Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "489b5fc9804fdf73edc6795f796cf972aaebebe08d57659d98d923858c9e351e",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPT1lqUUd2dHdxdXNPZHU1aDlMTkplUU1pUG9vUTdaWHhkb2FpdVMyQ1JZb3VXVG9iRG9OUDRmbEcwTmpSM1VkV1dRVXdkVEpQMTJCcTFWaE5tM3BXUEZCa3l3VWxNOEJlN2EtbGNuRnRHVU9HLXRUMmlORWdqWEdaeEVVYlVjUHNUczFQdzVJbWRwUzdqM1RuTkxteXluaDR4UkhiRWtDM1RDNm5ZYU1qV2Zicjc4OXBVUGUxd0Z3THpnWVXSAcgBQVVfeXFMTkxBWEhZQlItSVJfQTNuYkMwdFdhMFcyWHJjQTd4VVRPdG9EcEQzZWExM0NxdzFtVXZ3UjAwdXFHbDF6M2xVdEhlUFNzS0RoRl9BUW93NXBjOHBQa29ISVhDQ3Y5OS1WenFxVXF5TllpU0VJQ0dkWlEyTmp5aXA1MXdJTDd4S3hUVS1XNnhzSGxCbGk1THA4dG41NV9EWVFDWmFiTWVjSUlYSk80c1VFQlRBZnFEX1FVQUlDY01DUkdPNjhJMlNrQlI",
+      "category": "uncategorized",
+      "originalCategory": "opportunities",
+      "checkedAt": "2026-11-11T22:15:07.282Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "554f30045485526a135324e4c5e5abab390538648e479755893996548d5638cf",
+      "url": "https://www.aosfatos.org/noticias/falso-post-janones-bolsonarista-morrer-queimado",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-11T22:15:07.282Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "7dde79cf246d6577bef75b575e1d6989ecd1fb4b925fa27e74fdb505e613290d",
+      "url": "https://www.aosfatos.org/noticias/lula-aplaudido-japao-2025-cop31",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-11T22:15:07.282Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "9d5acaed19b217f82f3947204d1137500605785b59ebb2079792bba7485a3b01",
+      "url": "https://us.list-manage.com/xTu2MF5n10E",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-11T22:15:07.282Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "a73dce1b973c74b92627b24063f351276bf6fbf2d2979762680a545265ce44a8",
+      "url": "https://us.list-manage.com/hAxRSs6WKJO",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-11T22:15:07.282Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "a9204fc69dfd6fe99eeeda971886c9ad564080a8735b0343854563b041ad5b4f",
+      "url": "https://us.list-manage.com/2epI2i76SVW",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-11T22:15:07.282Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "a997b1615567260e9dcc7870bfd857b84f58841657dd8230f89f9c96fa7af363",
+      "url": "https://us.list-manage.com/wPqWfahX_G3",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-11T22:15:07.282Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "be6d9bfa7e716ebe67070fa55c401f79df9c4f2a9db7b893b3150b4f23e35a61",
+      "url": "https://www.aosfatos.org/noticias/pf-investigacao-repasses-vorcaro-dark-horse",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-11T22:15:07.282Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "c28518b1fbb17735d114fcf6562c819095e2c000876613c561ce5b13932ef71b",
+      "url": "https://us.list-manage.com/V6KVZcuic85",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-11T22:15:07.282Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "cc20066002e1ebd5ac72213fee4a24f0b55af53ab8fda38f754b9f72b71692a2",
+      "url": "https://us.list-manage.com/dfA7RDpHqfS",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-11T22:15:07.282Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "d1b1c2832e67493b6860b848da01ea7e435aeafa3f7464d070897ad549476fa4",
+      "url": "https://us.list-manage.com/wHewclDELVf",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-11T22:15:07.282Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "ef07768fee05305a4f4103a6d23deabf18a1e9078f9416c37995f1dd7cfdeeb9",
+      "url": "https://us.list-manage.com/10PcmJJLcUz",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-11T22:15:07.282Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "f098c4ad0e558e1043babade2c197c8eb3f24fb67446984b7e7cbd063eb20297",
+      "url": "https://us.list-manage.com/wOjk10sWpqz",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-11T22:15:07.282Z",
+      "checks": {},
+      "missing": [
         "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
