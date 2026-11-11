@@ -74,7 +74,8 @@ function normalizeToolName(title,text,url){
   [/^vega(?:\s*[-–—:].*)?$/i,'Vega'],
   [/^tableau(?:\s*[-–—:].*)?$/i,'Tableau'],
   [/^sigma(?:\s*[-–—:].*)?$/i,'Sigma'],
-  [/^quanteda(?:\s*[-–—:].*)?$/i,'Quanteda'],\n  [/^python record linkage toolkit documentation$/i,'Python Record Linkage Toolkit'],
+  [/^quanteda(?:\s*[-–—:].*)?$/i,'Quanteda'],
+  [/^python record linkage toolkit documentation$/i,'Python Record Linkage Toolkit'],
  ];
  for(const [rx,name] of rules)if(rx.test(clean(title)))return name;
  const host=(()=>{try{return new URL(url).hostname.replace(/^www\./,'')}catch{return ''}})();
