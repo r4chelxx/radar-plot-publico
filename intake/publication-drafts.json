@@ -1,17 +1,79 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-11T00:06:53.895Z",
-  "sourceQueueUpdatedAt": "2026-11-11T00:06:50.585Z",
+  "generatedAt": "2026-11-11T00:13:44.841Z",
+  "sourceQueueUpdatedAt": "2026-11-11T00:13:44.141Z",
   "policy": "Evidence-complete drafts only; the separate deterministic evidence gate must independently approve before publication.",
   "summary": {
-    "eligibleForDrafting": 0,
-    "drafts": 0,
+    "eligibleForDrafting": 1,
+    "drafts": 1,
     "byCategory": {
-      "opportunities": 0,
+      "opportunities": 1,
       "datasets": 0,
       "tools": 0
     },
     "publicationReady": 0
   },
-  "drafts": []
+  "drafts": [
+    {
+      "schemaVersion": 1,
+      "id": "6530d95d514e0315a32b8d162d842176e19c0ef110d0dde9ac04122c78b6f56c",
+      "category": "opportunities",
+      "status": "draft_only",
+      "publicationReady": false,
+      "source": {
+        "url": "https://www.generonumero.media/artigos/programa-de-bolsas-aborto-em-pilulas",
+        "discoveryProviders": [],
+        "pageTitle": "Gênero e Número",
+        "checkedAt": "2026-11-11T00:06:50.585Z",
+        "httpStatus": 200,
+        "contentType": "text/html; charset=UTF-8"
+      },
+      "evidence": {
+        "checks": {
+          "callSignal": true,
+          "deadline": "2026-11-27",
+          "eligibility": true
+        },
+        "sourceExcerpt": "Gênero e Número Estão abertas as inscrições para o Programa de Bolsas Aborto em Pílulas 10 de novembro de 2026 Jornalistas e comunicadoras com experiência em direitos reprodutivos receberão bolsas de R$ 5 mil para cobrir aborto em profundidade. Design de capa: Carlos Carneiro | Montagem com fotos de Marcelo Camargo e Rovena Rosa/Agência Brasil Gênero e Número aborto Direitos reprodutivos Aborto em Pílulas FAQ E m 2026, a Gênero e Número completa 10 anos de uma atuação pioneira no jornalismo de dados, na pesquisa e na incidência focados em gênero, raça e sexualidade. Como parte da celebração desse marco, a organização anuncia o lançamento de seu primeiro fellowship para pessoas jornalistas e comunicadoras: o Programa de Bolsas Aborto em Pílulas. De 10 a 27 de novembro, mulheres (cis, trans ou travestis), homens trans, pessoas transmasculinas e pessoas não binárias estão convidadas a inscreverem propostas de conteúdos jornalísticos e multimídias originais sobre aborto. Os cinco projetos selecionados receberão R$ 5 mil cada. As pessoas candidatas devem ser residentes do Brasil e ter experiência comprovada na cobertura de justiça reprodutiva. Terão prioridade, mas não exclusividade, profissionais negros, trans, travestis e das regiões Norte e Nordeste. Receba nossos conteúdos no WhatsApp Mais do que uma bolsa, essa é uma oportunidade de produzir jornalismo com acompanhamento próximo da equipe editorial da Gênero e Número . Os profissionais escolhidos participarão de um workshop de entrada e de mentorias individuais e coletivas. Ao final do programa, os projetos serão publicados no site da organização como parte da série Aborto em Pílulas . Em 2023, ela foi lançada como uma campanha digital sobre aborto medicamentoso e enfrentamento do estigma. Agora, chega à sua segunda edição e se consolida como uma frente permanente de produção, circulação e qualificação do debate público sobre aborto seguro e justiça reprodutiva. Leia o edital Inscreva-se FAQ O que o Programa de Bolsas Aborto em Pílulas contempla? • R$ 5 mil por projeto • Workshop de entrada • Mentorias individuais e coletivas • Acompanhamento editorial assíncrono • Publicação no site da Gênero e Número • Republicação em veículos parceiros Quem pode participar? • Gênero: Mulheres (cis, trans, travestis), homens trans, pessoas transmasculinas e pessoas não binárias • Atuação: Jornalistas ou comunicadores • Pré-requisito: Experiência comprovada na cobertura de justiça reprodutiva • Projetos individuais ou em dupla • Pagamento: MEI ou ME ativo para emissão de nota fiscal Quais as principais datas do programa? • Inscrições: 10 a 27 de novembro de 2026 • Resultado e formalização: 14 a 18 de dezembro de 2026 • Workshop de entrada: 13 e 15 de janeiro de 2027 • Produção e mentorias: Janeiro a março de 2027 • Edição e publicação: Fevereiro a março de 2027 Assine nossa newsletter semanal Posso faltar algum dos encontros? Não. São obrigarórias todas as etapas descritas no cronograma do Programa Aborto em Pílulas, disponível na íntegra no edital desta chamada. Nunca trabalhei com direitos reprodutivos antes. Posso participar? Não. Esta chamada é voltada para jornalistas e comunicadores com experiência prévia no tema, comprovada por meio de portfólio no formulário de inscrição. Que perfis serão considerados prioritários na seleção? Na composição final das cinco pessoas bolsistas, serão consideradas a prioridade para pessoas negras, indígenas e trans, assim como a preferência para profissionais das regiões Norte e Nordeste. O perfil será aplicado como pontuação adicional. Apoie a Gênero e Número O que será considerado diferencial na avaliação das propostas? Receberão pontuação adicional projetos que envolvam inovação tecnológica e/ou criatividade de formatos; interseções com diversidade sexual e outras identidades; e interseções com o contexto latino-americano. Como será o pagamento? O repasse será realizado em duas parcelas, mediante emissão de Nota Fiscal por empresa ou MEI de titularidade",
+        "structuredData": [],
+        "resourceLinks": [
+          {
+            "url": "https://drive.google.com/file/d/1ORBvuG8MlZLsztzYyDAcVFscYKK0D9xh/view?usp=sharing",
+            "label": "Official call edital PDF"
+          },
+          {
+            "url": "https://docs.google.com/forms/d/e/1FAIpQLSf9edFJ-daXemi_FoeoLW0OY8Pf9UuucV8qayLibIKvR_ybnw/viewform",
+            "label": "Official application form"
+          },
+          {
+            "url": "https://www.generonumero.media/dados-abertos/",
+            "label": "Dados abertos"
+          }
+        ]
+      },
+      "recordDraft": {
+        "id": "6530d95d514e0315a32b8d162d842176e19c0ef110d0dde9ac04122c78b6f56c",
+        "title": "Gênero e Número",
+        "org": "Gênero e Número",
+        "summary": "Gênero e Número Estão abertas as inscrições para o Programa de Bolsas Aborto em Pílulas 10 de novembro de 2026 Jornalistas e comunicadoras com experiência em direitos reprodutivos receberão bolsas de R$ 5 mil para cobrir aborto em profundidade. Design de capa: Carlos Carneiro | Montagem com fotos de Marcelo Camargo e Rovena Rosa/Agência Brasil Gênero e Número aborto Direitos reprodutivos Aborto em Pílulas FAQ E m 2026, a Gênero e Número completa 10 anos de uma atuação pioneira no jornalismo de dados, na pesquisa e na incidência focados em gênero, raça e sexualidade. Como parte da celebração desse marco, a organização anuncia o lançamento de seu primeiro fellowship para pessoas jornalistas e comunicadoras: o Programa de Bolsas Aborto em Pílulas. Receba nossos conteúdos no WhatsApp Mais do que uma bolsa, essa é uma oportunidade de produzir jornalismo com acompanhamento próximo da equipe editorial da Gênero e Número . Leia o edital Inscreva-se FAQ O que o Programa de Bolsas Aborto em Pílulas contempla? São obrigarórias todas as etapas descritas no cronograma do Programa Aborto em Pílulas, disponível na íntegra no edital desta chamada. Esta chamada é voltada para jornalistas e comunica",
+        "type": "Bolsa",
+        "themes": [
+          "Jornalismo de dados",
+          "Gênero",
+          "Jornalismo"
+        ],
+        "scope": "Eligibility: journalists or communicators resident in Brazil, women cis/trans/travestis, trans men, transmasculine and non-binary people, with proven experience covering reproductive justice; individual or duo projects; active MEI or ME required for invoicing.",
+        "fit": 6,
+        "deadline": "2026-11-27",
+        "deadlineStatus": "Confirmado na página oficial; fuso horário não informado.",
+        "eligibility": "parcial",
+        "status": "aberta",
+        "rules": "https://www.generonumero.media/artigos/programa-de-bolsas-aborto-em-pilulas",
+        "apply": "https://www.generonumero.media/artigos/programa-de-bolsas-aborto-em-pilulas"
+      },
+      "missingFields": [],
+      "reviewDecision": "evidence_complete_for_record_draft",
+      "note": "Ficha preliminar baseada no conteúdo capturado da página. Campos sem evidência permanecem ausentes; a aprovação depende do gate independente de publicação."
+    }
+  ]
 }

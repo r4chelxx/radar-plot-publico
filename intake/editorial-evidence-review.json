@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2026-11-11T00:06:53.732Z",
+  "generatedAt": "2026-11-11T00:13:44.702Z",
   "policy": "Evidence-based category triage. Missing license is recorded as unknown when not found; complete means draft eligibility only, never approval or publication.",
   "counts": {
-    "pending_more_evidence": 1548
+    "pending_more_evidence": 1547,
+    "evidence_complete_for_record_draft": 1
   },
   "categoryCounts": {
     "uncategorized": 1423,
@@ -2706,11 +2707,10 @@
       "checkedAt": "2026-11-10T20:02:55.377Z",
       "checks": {
         "callSignal": true,
-        "deadline": null,
+        "deadline": "2026-12-09",
         "eligibility": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -21578,14 +21578,12 @@
       "originalCategory": "opportunities",
       "checkedAt": "2026-11-11T00:06:50.585Z",
       "checks": {
-        "callSignal": false,
-        "deadline": "2026-11-10",
+        "callSignal": true,
+        "deadline": "2026-11-27",
         "eligibility": true
       },
-      "missing": [
-        "chamada de financiamento/bolsa identificável"
-      ],
-      "decision": "pending_more_evidence",
+      "missing": [],
+      "decision": "evidence_complete_for_record_draft",
       "publicationReady": false
     },
     {
