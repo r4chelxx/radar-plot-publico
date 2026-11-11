@@ -89,7 +89,7 @@ for(const candidate of current.review||[]){
  const providers=[...new Set([...(old?.providers||[]),...(candidate.providers||[])])].slice(0,30);
  const incomingLinks=Array.isArray(candidate.resourceLinks)?candidate.resourceLinks:[];
  const previousLinks=Array.isArray(old?.resourceLinks)?old.resourceLinks:[];
- const metadataChanged=JSON.stringify(incomingLinks)!==JSON.stringify(previousLinks)||String(candidate.sourceEvidence||'')!==String(old?.sourceEvidence||'');
+ const metadataChanged=JSON.stringify(incomingLinks)!==JSON.stringify(previousLinks)||String(candidate.sourceEvidence||'')!==String(old?.sourceEvidence||'')||String(candidate.verificationStatus||'')!==String(old?.verificationStatus||'');
  const proposedCategory=categoryFor(candidate);
  const category=proposedCategory!=='uncategorized'?proposedCategory:(historicalCategoryFor(candidate)||old?.category||'uncategorized');
  queue.set(candidate.id,{id:candidate.id,title:candidate.title,url:candidate.url,category,providers,resourceLinks:candidate.resourceLinks||old?.resourceLinks||[],sourceEvidence:String(candidate.sourceEvidence||old?.sourceEvidence||'').slice(0,1200),verificationStatus:candidate.verificationStatus||old?.verificationStatus||null,...(old?.audit&&old.url===candidate.url&&!metadataChanged?{audit:old.audit}:{}),firstSeen:old?.firstSeen||now,lastSeen:now,status:resolvedStatus(candidate)||old?.status||'pending',reviewPriority:candidate.reviewPriority||'normal'});
