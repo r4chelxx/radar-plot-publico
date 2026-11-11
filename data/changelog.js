@@ -2,6 +2,18 @@ window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
 {
   "date": "2026-11-10",
+  "type": "nova-oportunidade",
+  "title": "Publicação editorial verificada — 2026-11-10",
+  "items": [
+    {
+      "id": "6530d95d514e0315a32b8d162d842176e19c0ef110d0dde9ac04122c78b6f56c",
+      "title": "Gênero e Número"
+    }
+  ],
+  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Gênero e Número."
+}, 
+{
+  "date": "2026-11-10",
   "type": "dados",
   "title": "Publicação editorial verificada — 2026-11-10",
   "items": [

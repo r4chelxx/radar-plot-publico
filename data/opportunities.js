@@ -1,6 +1,26 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.opportunities=[
 {
+  "id": "6530d95d514e0315a32b8d162d842176e19c0ef110d0dde9ac04122c78b6f56c",
+  "title": "Gênero e Número",
+  "org": "Gênero e Número",
+  "summary": "Gênero e Número Estão abertas as inscrições para o Programa de Bolsas Aborto em Pílulas 10 de novembro de 2026 Jornalistas e comunicadoras com experiência em direitos reprodutivos receberão bolsas de R$ 5 mil para cobrir aborto em profundidade. Design de capa: Carlos Carneiro | Montagem com fotos de Marcelo Camargo e Rovena Rosa/Agência Brasil Gênero e Número aborto Direitos reprodutivos Aborto em Pílulas FAQ E m 2026, a Gênero e Número completa 10 anos de uma atuação pioneira no jornalismo de dados, na pesquisa e na incidência focados em gênero, raça e sexualidade. Como parte da celebração desse marco, a organização anuncia o lançamento de seu primeiro fellowship para pessoas jornalistas e comunicadoras: o Programa de Bolsas Aborto em Pílulas. Receba nossos conteúdos no WhatsApp Mais do que uma bolsa, essa é uma oportunidade de produzir jornalismo com acompanhamento próximo da equipe editorial da Gênero e Número . Leia o edital Inscreva-se FAQ O que o Programa de Bolsas Aborto em Pílulas contempla? São obrigarórias todas as etapas descritas no cronograma do Programa Aborto em Pílulas, disponível na íntegra no edital desta chamada. Esta chamada é voltada para jornalistas e comunica",
+  "type": "Bolsa",
+  "themes": [
+    "Jornalismo de dados",
+    "Gênero",
+    "Jornalismo"
+  ],
+  "scope": "Eligibility: journalists or communicators resident in Brazil, women cis/trans/travestis, trans men, transmasculine and non-binary people, with proven experience covering reproductive justice; individual or duo projects; active MEI or ME required for invoicing.",
+  "fit": 6,
+  "deadline": "2026-11-27",
+  "deadlineStatus": "Confirmado na página oficial; fuso horário não informado.",
+  "eligibility": "parcial",
+  "status": "aberta",
+  "rules": "https://www.generonumero.media/artigos/programa-de-bolsas-aborto-em-pilulas",
+  "apply": "https://www.generonumero.media/artigos/programa-de-bolsas-aborto-em-pilulas"
+}, 
+{
   "id": "b45070e9d4dabfb55eb4edbe6a851ffcd200473f6429555a374f7c0ac7db3e88",
   "title": "Knight-Wallace Fellowship at the University of Michigan &#8211; Grants for Journalists",
   "org": "University of Michigan",
