@@ -9,10 +9,10 @@ window.RADAR_PARTS.tools=[
 },
 {
   "id": "87d587fb19392bb7866daeeb6b83219beda45f46b058d876c647f27e3e0253d4",
-  "name": "Python Record Linkage Toolkit Documentation &mdash; Python Record Linkage Toolkit 0.15 documentation",
+  "name": "Python Record Linkage Toolkit",
   "kind": "record linkage e correspondência de dados",
   "url": "https://recordlinkage.readthedocs.io/",
-  "desc": "Documentação oficial de Python Record Linkage Toolkit Documentation &mdash; Python Record Linkage Toolkit 0.15 documentation para uso em análise e tratamento de dados. Source note: consultar a documentação e a licença antes do uso editorial."
+  "desc": "Documentação oficial de Python Record Linkage Toolkit para uso em análise e tratamento de dados. Source note: consultar a documentação e a licença antes do uso editorial."
 }, 
 {
   "id": "8131bd90a31340ae234883b0310fea966d01f14dd68345a72a7de5f22c9e3966",
