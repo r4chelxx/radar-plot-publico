@@ -122,5 +122,5 @@ const records=(q.candidates||[]).filter(c=>c.status==='pending'&&c.audit).map(re
 const counts={};for(const x of records)counts[x.decision]=(counts[x.decision]||0)+1;
 const categoryCounts={};for(const x of records)categoryCounts[x.category]=(categoryCounts[x.category]||0)+1;
 const out={generatedAt:new Date().toISOString(),policy:'Evidence-based category triage. Missing license is recorded as unknown when not found; complete means draft eligibility only, never approval or publication.',counts,categoryCounts,records};
-fs.writeFileSync(outPath,JSON.stringify(out,null,2)+'\\n');
+fs.writeFileSync(outPath,JSON.stringify(out,null,2)+'\n');
 console.log(JSON.stringify({reviewed:records.length,counts,categoryCounts,publicationReady:0}));
