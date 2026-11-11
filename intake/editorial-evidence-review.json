@@ -1,13 +1,12 @@
 {
-  "generatedAt": "2026-11-11T00:13:44.702Z",
+  "generatedAt": "2026-11-11T00:22:22.721Z",
   "policy": "Evidence-based category triage. Missing license is recorded as unknown when not found; complete means draft eligibility only, never approval or publication.",
   "counts": {
-    "pending_more_evidence": 1547,
-    "evidence_complete_for_record_draft": 1
+    "pending_more_evidence": 1547
   },
   "categoryCounts": {
     "uncategorized": 1423,
-    "opportunities": 34,
+    "opportunities": 33,
     "tools": 27,
     "datasets": 64
   },
@@ -21569,21 +21568,6 @@
         "formato identificável"
       ],
       "decision": "pending_more_evidence",
-      "publicationReady": false
-    },
-    {
-      "id": "6530d95d514e0315a32b8d162d842176e19c0ef110d0dde9ac04122c78b6f56c",
-      "url": "https://www.generonumero.media/artigos/programa-de-bolsas-aborto-em-pilulas",
-      "category": "opportunities",
-      "originalCategory": "opportunities",
-      "checkedAt": "2026-11-11T00:06:50.585Z",
-      "checks": {
-        "callSignal": true,
-        "deadline": "2026-11-27",
-        "eligibility": true
-      },
-      "missing": [],
-      "decision": "evidence_complete_for_record_draft",
       "publicationReady": false
     },
     {
