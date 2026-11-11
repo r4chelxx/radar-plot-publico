@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-11T00:22:22.721Z",
+  "generatedAt": "2026-11-11T18:42:52.319Z",
   "policy": "Evidence-based category triage. Missing license is recorded as unknown when not found; complete means draft eligibility only, never approval or publication.",
   "counts": {
-    "pending_more_evidence": 1547
+    "pending_more_evidence": 1642
   },
   "categoryCounts": {
-    "uncategorized": 1423,
+    "uncategorized": 1518,
     "opportunities": 33,
     "tools": 27,
     "datasets": 64
@@ -21724,6 +21724,1288 @@
       },
       "missing": [
         "formato identificável"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "0b48f4a334ae70e43dd5d94a932042dd5283e97b206e00280b495f0509bf5885",
+      "url": "https://www.nytimes.com/2026/11/10/us/politics/biden-trump-letter.html",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-11T18:42:47.988Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "0fe10b62c51d60a0522880b23674ec6343123c56480f5e3ff42a87b2e7fc5e1e",
+      "url": "https://therighting.com/traffic-reports/trumps-truth-social-suffers-fewest-number-of-visits-in-more-than-a-year-as-traffic-slides-for-sixth-straight-month",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-11T18:42:47.988Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "101e4470afbdfa6a6b43602aeec1eab1e87e9d29415223e67713359ff089e148",
+      "url": "https://lamivo.com/",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-11T18:42:47.988Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "1137b6ac509a13f66f4da114ea97ccfaaa8779ffc7ff9a1f4b799441d0af8074",
+      "url": "https://fonts.gstatic.com/s/inter/v18/UcCM3FwrK3iLTcvneQg7Ca725JhhKnNqk4j1ebLhAm8SrXTcmdxRipWFsevceSGM.woff2",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-11T18:42:47.988Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "12e6ecb5d03c56c42f9c2725b7b87a723c72721e501d2075bc2037a03665b022",
+      "url": "https://www.mississippifreepress.org/lingering-errors-in-mississippis-election-system-risk-sending-voters-to-wrong-polling-place-on-election-day",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-11T18:42:47.988Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "1689a6bc5bb39ca788d94aabc2ed726e0c765ef5064856da2b3e5389f37f3830",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVkRHanNWV0NVV25HS3VoM3hqT2loSTJxbWVFTnFMY1dsNDNLS3ZLRDJaZlZUWko2Y0sxcmlRT2lYb2FudlRGTmdxTzB0TW5RX2FWY1ZKajF0MmN6RnpnTzdEMjNiQjFndTZIUDRjSGhnYy1OZ1MyMXlWTEZHNnR1UUhmVGlPaTdiSkl1OTctRHUzb2lsX0FpVVZRYUJILUMtTjRXTURYbENkTzFaREtoRk9nSWbSAboBQVVfeXFMTTdaemFtWHJObG1rMjdwZlVWTTQ5c3MyWlhiaHRvLUhpaWo3UERPYVNvNlkxRmFKTHh1MW9Od3M1dEt3UDRtMC14REpSMTkyUWxnblI2bFNjYkF3X25EMHExVklRdWhWdXlTaUk3alk1WEFwYmcxdUpJNGNvNXprb2RoejU1MXdsUlJrQmtWRjhUakEtVy1aY2thOUNOcE5HZVI2RUlNNU9KaTQ2UThNckkxLU1HbGV5bmxB",
+      "category": "uncategorized",
+      "originalCategory": "opportunities",
+      "checkedAt": "2026-11-11T18:42:47.988Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "1a2879a0234abd6b3fd9c8c14ca5edaac328861a007998f6900c88b9e96e32ff",
+      "url": "https://fonts.gstatic.com/s/inter/v18/UcCM3FwrK3iLTcvneQg7Ca725JhhKnNqk4j1ebLhAm8SrXTc2dpRipWFsevceSGM.woff2",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-11T18:42:47.988Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "1d60043eeb74188161d44cf0ae1517faa8ee27e1ebf5914df297926b52b54f35",
+      "url": "https://opportunitydesk.org/2026/11/11/global-youth-mental-health-research-fellowship-2027",
+      "category": "uncategorized",
+      "originalCategory": "opportunities",
+      "checkedAt": "2026-11-11T18:42:47.988Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "1f0a0c34e4eca3e80d5a20b7d5f8143a42337922ca3b824c4faf00104f3ac61b",
+      "url": "https://fonts.gstatic.com/s/inter/v18/UcC73FwrK3iLTeHuS_fjbvMwCp50PDca1ZL7W0Q5nw.woff2",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-11T18:42:47.988Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "211f51a9479bac4310959de4fc184f52b6af9771c4dc4db4f4809b51b20a269d",
+      "url": "https://substack.com/redirect/78f0d2c7-1e7b-44f6-a1e1-e2d878684d89",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-11T18:42:47.988Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "22406393340ac68789da7e486bdf4332f401b7786f0fa249b4d4f70a2694ee16",
+      "url": "https://documentedny.com/projects/tiktok-methods",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-11T18:42:47.988Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "2817e7a077ec082b15ddd9d5693132e0d2894abb8337bc382f62954ffcd41e36",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPc2JYNmRNY1BRQ183QU5lOHdma1FWdDhldWk1bEE4NlBTU1dkbEl0X1pCSWtLWWdBQWR6THQ5UVd0YlVNUDN6ZE54ekx1UXQxRVV5RzhYa1VldHZjbHBjal8wczVJNXdvM1pjS1JhWW1tdmVCSEVOUnh4azctZTlKOEd0WFlwc1ZBbXdYU2xiQzFqYXZvUy1na2IwWTdxUkh1aHc4QzNzODVZeEl0eXhvc3FMWnRreEg0VmNpcGh5d1ZFbWZ2NWMxX3dqYzlidEszMnB0dWliWTVVXzgtXzhCdWNn",
+      "category": "uncategorized",
+      "originalCategory": "opportunities",
+      "checkedAt": "2026-11-11T18:42:47.988Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "296f56ae0fe05fafd11432dddd16403643ccfd71d1efdc9bedcfbabc3b195721",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQbDRFdlpVblhib3pGV3pBM3BmeVhGQUZRWDcxZzNwUEx2T0dBdFRlWlVQVE0xLWEzODMtaElhMG94SlBDYVRRQU4zX2d4VEFPUjhvT0tXbU1ERTRBeFgtM3dCVlJjRGpZR1BFTG02VFZkQmRhX2UwU1JsdUc2WjNZWEwtV3BWOTBuZUNRb3Z5dWoxNEpwV29pal81dHBkOG410gGmAUFVX3lxTE9sdzdUWFhESXdNYWQ2VGhrMWNNbjR4cThYajJhWjF0YWhtVnlxX2Y3UnFYLVpJZHNBeWhXcVFIWmZJQ1hkM2VWcmJnM0RIbXdoeG1xbjUyVFFFd19kYmxkRU4zVUg1elJlVEgwV1ZBbDBGZlhJRVkxRlJPQ1RSR3B6OGJuOU13VlVQbUxjZDlOQmJJdW1ZNldaQjBQSkVMZWpXTHk5OVE",
+      "category": "uncategorized",
+      "originalCategory": "opportunities",
+      "checkedAt": "2026-11-11T18:42:47.988Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "2b74a29a85468759fa6ec841a778fde29e7127cc2bde0d9ae10055f1991697db",
+      "url": "https://www.occrp.org/en/investigation/kyrgyz-government-sold-mountain-resort-to-ngo-tied-to-sanctioned-russian-influence-effort",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-11T18:42:47.988Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "2e096d36f77afbeecc673e830baa34dbd135bac2dc3c444925b2702789326a39",
+      "url": "https://podcasts.apple.com/us/podcast/show-tell-from-indicator/id1874133168",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-11T18:42:47.988Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "30c0a3941b6041a8d4e544ee50de0b4ccf8251bf3340fd24e2c15636ddb47c47",
+      "url": "https://www.wsj.com/politics/national-security/five-takeaways-from-hegseths-first-pentagon-press-conference-in-months-78869363",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-11T18:42:47.988Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "336a8db963232224ffed4460c6bd680312a0c56845e7f861d5ed73ef438b3398",
+      "url": "https://opportunitydesk.org/2026/11/11/anh-academy-science-policy-fellowships-2027-round-3",
+      "category": "uncategorized",
+      "originalCategory": "opportunities",
+      "checkedAt": "2026-11-11T18:42:47.988Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "3421d4563aea88420773ab168a240ef6f589cd0973041d61acc9fb9ad88bbc43",
+      "url": "https://truthsocial.com/@realDonaldTrump/posts/117592400791406646",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-11T18:42:47.988Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "359e19a0b0565d45fa44b7eb436078cd542993018e9a6eb104c849e7901c8628",
+      "url": "https://fonts.gstatic.com/s/inter/v18/UcCM3FwrK3iLTcvneQg7Ca725JhhKnNqk4j1ebLhAm8SrXTc2d1RipWFsevceSGM.woff2",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-11T18:42:47.988Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "370483cac196eb4500d1f6dbcecfb4e85513023bec622bd9bebb819d227f7765",
+      "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9icmFzaXMuYWpvci5vcmcuYnIvYWN0aW9uL2Rpc2FibGVfZW1haWw_dG9rZW49ZXlKMWMyVnlYMmxrSWpveE16VXlNak14TENKd2IzTjBYMmxrSWpveU1qUXpPREF6TURBc0ltbGhkQ0k2TVRjNU5ETTVORE0yTUN3aVpYaHdJam94T0RJMU9UTXdNell3TENKcGMzTWlPaUp3ZFdJdE1UQTBOekEzTUNJc0luTjFZaUk2SW1ScGMyRmliR1ZmWlcxaGFXd2lmUS41cmRVZTVHTUxTZ2hqblhCUlNGSmM2QWxlbnhJbEo2RVlxNlBuRGRNa080IiwicCI6MjI0MzgwMzAwLCJzIjoxMDQ3MDcwLCJmIjp0cnVlLCJ1IjoxMzUyMjMxLCJpYXQiOjE3OTQzOTQzNjAsImV4cCI6MjEwOTk3MDM2MCwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.upfJDOaXaSctTp9LVlm1BOBH4wD6PQjBV4qUphPhvAU",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-11T18:42:47.988Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "3b17cf22a030e7c83c7d39c46796f0ff9c3b87a119682ac6b64c3c848c2b7d4d",
+      "url": "https://www.youtube.com/@Indicatormedia",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-11T18:42:47.988Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "3bb9ed4dd6bb3cdd9fa580945a92f3342c542db543ebe1098c7b828285349ca3",
+      "url": "https://documentedny.com/about-us",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-11T18:42:47.988Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "3dc27d67d3d799438e3db46d4c0b965d50417629eb2630f4221ba7138a37ef34",
+      "url": "https://fonts.gstatic.com/s/inter/v18/UcC73FwrK3iLTeHuS_fjbvMwCp50Yjca1ZL7W0Q5nw.woff2",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-11T18:42:47.988Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "3fa89fd73a29cb74f1be7e537c1ebec8b9d2f6ef53e4ff9f42c43bd5709176c7",
+      "url": "https://indicator.media/p/show-tell-how-amnesty-international-collects-evidence-from-war-zones-for-visual-investigations",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-11T18:42:47.988Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "3ff6391816d228b57ad9049894af116c5d51e9a4b42afcdc599ea40893f44dcc",
+      "url": "https://documentedny.com/projects/tiktok-lawyers",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-11T18:42:47.988Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "40301607241a685b6e5c7a12ffde915ca9cef613e551af383f183aa2832edc6d",
+      "url": "https://www.washingtonpost.com/national-security/2026/11/10/hegseths-security-threatens-journalists-with-removal-news-conference",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-11T18:42:47.988Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "41fd73717f36e51df3936733366ac57914c3d8ce2af8cc13eb5ae30792dadd48",
+      "url": "https://indicator.media/p/show-tell-ren-e-diresta-on-how-she-discovered-that-grokipedia-stopped-updating-its-entries",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-11T18:42:47.988Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "462bd1e2641958bf561039d830daa452dcc22a4c63b16d2d2b10d21dff3e327c",
+      "url": "https://mississippitoday.org/2026/11/06/secretary-of-state-ignored-demands-to-reinstate-voters-inactivated-by-unverified-experian-data-days-before-midterms-harm-is-falling-on-eligible-voters",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-11T18:42:47.988Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "47c1f9b6bb52e4c4986632c647119cf394f7660a987535336881be32c3b02276",
+      "url": "https://fonts.gstatic.com/s/inter/v18/UcCM3FwrK3iLTcvneQg7Ca725JhhKnNqk4j1ebLhAm8SrXTc2d5RipWFsevceSGM.woff2",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-11T18:42:47.988Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "50658f8354b789a09a1d7c94bc8a5812be2efc086689759cdaf7f9780a7cc0d4",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPLTFGUFBnVGtScWdPMEhXMHdKYlFBQTB1NHFmZlNhNFFyMU5JZUR2QU42a2U1X0RpaUJhNnNnRHM2ZVRyOGtyQk1DSUg0YUZLemRQZks3UE5vMnJVWk9BTEFrbDJXV3dJZXlJOEV3NDVjQTdyRUF2aXppekxEUU53QkJNdXVPQzdranJYVjluQmVrenR6N21hYXVmODhpZWpEUHN2eHMzR0NUS3JXNHAxR0V6WDJBb3kyRkE",
+      "category": "uncategorized",
+      "originalCategory": "opportunities",
+      "checkedAt": "2026-11-11T18:42:47.988Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "54183a461a1179844d1e8b1df2cf82e60828b05447a1a66f2198245d3671d2d1",
+      "url": "https://www.nytimes.com/athletic/7652926/2026/10/02/tony-romo-cbs-sports-part-ways-nfl-coverage-dui",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-11T18:42:47.988Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "56442f4478d8c1be82146749c808cae67bdce943468f8b09059535c7c5631785",
+      "url": "https://youtu.be/zPmYRTRemUo",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-11T18:42:47.988Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "58cac03e2f93b7d97149de529e93e1a56093e7a94b9884ce411a21511d13709a",
+      "url": "https://indicator.media/p/show-tell-how-bbc-verify-s-shayan-sardarizadeh-checks-everything-for-ai",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-11T18:42:47.988Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "59eb62f74c87cb459ab2bb77bffe0e4d72a9890608591fb57c305156e51ffd74",
+      "url": "https://indicator.media/p/show-tell-learn-how-spanish-investigators-exposed-digital-deception-on-meta-and-tiktok",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-11T18:42:47.988Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "5b2771736faa742d48a4e9d7184cc94af0730cb3c6ab37e12dffb3cd0935e1c7",
+      "url": "https://fonts.gstatic.com/s/inter/v18/UcC73FwrK3iLTeHuS_fjbvMwCp50BTca1ZL7W0Q5nw.woff2",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-11T18:42:47.988Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "5d1f08b1e171daa852e2a7c81f0036fda934295cdd05e332a8d08a00013e8ddd",
+      "url": "https://www.poynter.org/shop/reporting-editing/edit-to-elevate-essentials-for-new-editors-january-2027",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-11T18:42:47.988Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "5e0364e8b4788a175a3b850174869f7ec18eec882313b67af39916e9824ab68c",
+      "url": "https://indicator.media/p/show-tell-how-wsj-reporters-caught-polymarket-faking-its-own-site",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-11T18:42:47.988Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "65cdadf376e8b98492d82ab10e02a93476e66c28cf3299e500d048cc1406c15a",
+      "url": "https://open.spotify.com/show/4evRBUG1V8BkbrkmoZZTZf",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-11T18:42:47.988Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "670bb6cae84bed784dfcd790ce0fe307d1674563c17ca4d45d2be59a6a65ab05",
+      "url": "https://github.com/documentedny-com/tiktok-content-reupload-tracker",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-11T18:42:47.988Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "6748ad30601c79a87fb661d42d1f3428098da62224371f1e7416c96a500de4ff",
+      "url": "https://www.poynter.org/commentary/2026/how-to-pitch-create-new-journalism-job",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-11T18:42:47.988Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "6b9b56be63ca63ca732ac0edd96715389c0fb0613c507966e91149b4276cacbe",
+      "url": "https://indicator.media/p/show-tell-inside-bellingcat-investigations-ai-nudifier-deepfake-koltai",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-11T18:42:47.988Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "71d5d81f9f99518becff215f9b87663b52a245c01627da962cc763d5cf105594",
+      "url": "https://fonts.gstatic.com/s/inter/v18/UcC73FwrK3iLTeHuS_fjbvMwCp504jAa1ZL7W0Q5nw.woff2",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-11T18:42:47.988Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "72dd97ce4374ec8ec585359e8fd9f4da1d408c7bf7e0c1d55d0046529a774db6",
+      "url": "https://fonts.gstatic.com/s/inter/v18/UcCM3FwrK3iLTcvneQg7Ca725JhhKnNqk4j1ebLhAm8SrXTc2dxRipWFsevceSGM.woff2",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-11T18:42:47.988Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "73c44cfc0a1acfd07ab2f9f7b3a4fe14abb2fbf0a6e61ce591ccf03f14893b0c",
+      "url": "https://www.mississippifreepress.org/scott-colom-flips-forrest-county-named-for-ku-klux-klan-founder-nathan-bedford-forrest",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-11T18:42:47.988Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "7459912147a0cb6a0262f6cfbee511335eb9a565d1d3c29c6b17e741b81dc6e5",
+      "url": "https://opportunitydesk.org/2026/11/11/commonwealth-shared-scholarship-programme-2027-2028",
+      "category": "uncategorized",
+      "originalCategory": "opportunities",
+      "checkedAt": "2026-11-11T18:42:47.988Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "748ca97b2b93cdc5b1dc9d5f2ce2d1b7875f515a00c27bfb3a4a6df951f11230",
+      "url": "https://opportunitydesk.org/2026/11/11/afdb-group-shou-scholarship-masters-degree-program-2027",
+      "category": "uncategorized",
+      "originalCategory": "opportunities",
+      "checkedAt": "2026-11-11T18:42:47.988Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "756b33066516584207554edf9db4d40bfe2c2a0888c74da1fe87a6c10bb1c84a",
+      "url": "https://fonts.gstatic.com/s/inter/v18/UcCM3FwrK3iLTcvneQg7Ca725JhhKnNqk4j1ebLhAm8SrXTc2d9RipWFsevceSGM.woff2",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-11T18:42:47.988Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "7750c749a98c2bd76423ba946797671eb5f22d5145a7f7f725af4e2cab79a2c1",
+      "url": "https://www.nytimes.com/2026/11/09/opinion/paulina-porizkova-nyt-175.html",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-11T18:42:47.988Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "79db07c4dd780373066ce751a2d0b59acc02d9ed50bfb166e263bbe738f232fc",
+      "url": "https://documentedny.com/projects/tiktok-nyc-news-influencers",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-11T18:42:47.988Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "7aa79e02bf50f69bfb41d152f9affbbb99c0894cf3ee264357ca21d4fad203b9",
+      "url": "https://substack.com/redirect/d9987b5f-fdbb-40e6-8546-83fda2b0de1f",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-11T18:42:47.988Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "7db0d8e9a17a76656df9fc1bd5973f59f7ff5308c00aa686057d4a099c450862",
+      "url": "https://substack.com/redirect/485fa3eb-8e20-49ed-92ed-ef6918b00e4a",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-11T18:42:47.988Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "8408660585cf316ff7d91c0dfafd0c93a6bdf625d94f1bec3e847afac6891002",
+      "url": "https://opportunitydesk.org/2026/11/11/awf-geospatial-leaders-fellowship-2027",
+      "category": "uncategorized",
+      "originalCategory": "opportunities",
+      "checkedAt": "2026-11-11T18:42:47.988Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "85684f3fd7505dfb18ad167bc6fb4060c558a14fdae98e57f5723a5ed5bc6a35",
+      "url": "https://substack.com/redirect/e333ce65-9b6a-477f-ae93-ab9e6f6e63f5",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-11T18:42:47.988Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "89e624a494338388effe3ba185a4d2f2bb0609389cf48a4b8149b666dd2788f7",
+      "url": "https://mississippitoday.org/2026/11/05/thousands-of-affidavit-ballots-outstanding-in-mississippi-senate-election-campaigns-prepare-for-legal-fight",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-11T18:42:47.988Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "8b28839e368bf6db9e38fd257e502c5f8353bf89923e80b8d53d7980a3a3b6ca",
+      "url": "https://www.cjr.org/the-interview/mississippi-free-press-using-journalism-to-make-democracy-work-a-little-better-ashton-pittman-midterms-hyde-smith-colom.php",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-11T18:42:47.988Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "8c5f084dcfb1e522a878a3c39fb029d1cc822e344d7f6aaa5b402a01b16d80db",
+      "url": "https://indicator.media/p/watch-the-first-episode-of-show-tell-from-indicator-jeff-horwitz",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-11T18:42:47.988Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "8edf93417893782dac80ee9b7d31b51c7831c36ce04ce73b669189a589dcc01d",
+      "url": "https://opportunitydesk.org/2026/11/11/africa-dyslexia-teacher-fellowship-program-2027",
+      "category": "uncategorized",
+      "originalCategory": "opportunities",
+      "checkedAt": "2026-11-11T18:42:47.988Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "920f15f67b8f30338d8598208c1c98ff4fe7a158e4bf33a15b8f32a411508e04",
+      "url": "https://substack.com/redirect/eca327fe-ab5a-42f1-b902-2fa224a86bbc",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-11T18:42:47.988Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "96365bfd5bc489fcbd16151e7d3a4cab3939511588785f932bbd138cf836a4ea",
+      "url": "https://fonts.gstatic.com/s/inter/v18/UcCM3FwrK3iLTcvneQg7Ca725JhhKnNqk4j1ebLhAm8SrXTcWd9RipWFsevceSGM.woff2",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-11T18:42:47.988Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "9b8c51642f4c12ae8a39591b2496560c52657eec5fbb6e143388497c7d13a6ea",
+      "url": "https://www.mediaite.com/opinion/sorry-fox-news-the-democrats-are-hot-now",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-11T18:42:47.988Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "9c904f02d7760975a0a28eb2c88f00b173d2640ac95b3c9d75bc959eaf5f7e11",
+      "url": "https://substack.com/redirect/01a8c319-175a-4869-b74f-53b8a7de34b5",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-11T18:42:47.988Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "9ea38117daa33892c185f160513c508dccf9f8e2c22664e41a344dba4bed70c9",
+      "url": "https://substack.com/redirect/49533578-8c99-4d8e-86b6-0fb451fd47c3",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-11T18:42:47.988Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "a33914ece1d373f8b3abeed9f8e4d9a814da288e1b9b3febe1cc896252b143d3",
+      "url": "https://indicator.media/p/show-tell-how-documented-decoded-immigrant-tiktok",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-11T18:42:47.988Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "a7e4f164c27d4f4918e921e7630cf1070645f29968175107fcecd022141791c7",
+      "url": "https://mailchi.mp/poynter/what-happened-at-pete-hegseths-first-press-conference-in-months",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-11T18:42:47.988Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "b069d1b49967cf49af9c1cf94c58a24e09c35710f5d621c9d39110eaf7edf3b4",
+      "url": "https://fonts.gstatic.com/s/inter/v18/UcC73FwrK3iLTeHuS_fjbvMwCp50vDAa1ZL7W0Q5nw.woff2",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-11T18:42:47.988Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "b0e8009aba56c98e4a3e93d58915134b93bff9044c36275a4ac5c8518fe818cf",
+      "url": "https://indicator.media/p/show-tell-how-to-poison-ai-research-agents",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-11T18:42:47.988Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "b2f82ed174e5d79a97aaf4a39c9afd885dec6a9750de1715a6d08fa5d5a1b866",
+      "url": "https://www.semafor.com/article/11/08/2026/put-the-posters-in-charge-inside-the-democrats-secret-strategy-to-flood-the-internet-with-clips",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-11T18:42:47.988Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "b6b7dc950c29011fa29c40d178f996473b92bc54627476beb0a73e72051e70c2",
+      "url": "https://www.nytimes.com/2026/11/10/world/europe/russia-novaya-gazeta-closure.html",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-11T18:42:47.988Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "b74a1a9823e4eca8dfb5aa8733f74a395338af59b3989e2be23e0dca60753ff5",
+      "url": "https://documentedny.com/projects/tiktok-ai-scam-investigation",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-11T18:42:47.988Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "baf9859940002e5fdd089f754bcd107c6cd940c810918fe5dc6a43cf4a63d9bf",
+      "url": "https://awfulannouncing.com/nfl/dianna-russini-comeback-betus-accountability.html",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-11T18:42:47.988Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "bf1bcda7511fc7bc10358bdd3d8cbcbaf2e43176d0418d48670ec4c5d1b783b2",
+      "url": "https://www.foxnews.com/politics/trump-closing-new-press-secretary-admin-officials-push-pick-break-mold",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-11T18:42:47.988Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "c109751262ff29e3cade73b1a19be5aa276763eeeb4dd8f0b3c9b05aa82d4023",
+      "url": "https://knightcenter.utexas.edu/es/el-centro-knight-inicia-las-celebraciones-de-su-25o-aniversario-con-un-webinar-y-la-proyeccion-de-un-documental/,",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-11T18:42:47.988Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "c1dacfb960a4b3ed7d5f819095a03ecf07f41960b63091609e66dfe24dd1f240",
+      "url": "https://fonts.gstatic.com/s/inter/v18/UcC73FwrK3iLTeHuS_fjbvMwCp50YjAa1ZL7W0Q5nw.woff2",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-11T18:42:47.988Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "c62bde058607e28b26179baa1f732be1ac567190ae93e81abdd6a03c04c16db3",
+      "url": "https://x.com/TaraCopp/status/2120175487439781932",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-11T18:42:47.988Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "c68acdc60cbd39a086e382cade87b82d0ba6e59d17a4dcab9cec1d42957e5261",
+      "url": "https://kyivindependent.com/the-quiet-death-of-novaya-gazeta-how-a-once-powerful-newspaper-refused-to-leave-russia-and-slowly-lost-its-voice",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-11T18:42:47.988Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "c76542576f6a8bafd0e9482060e4ab7ba5f2643723e0e071a89fd6b7f6f8c4a3",
+      "url": "https://maldita.es/",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-11T18:42:47.988Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "c9674f6f459924b1353b8b4c148d000b80c01b8473a5795a83eed21df200c553",
+      "url": "https://fonts.gstatic.com/s/inter/v18/UcCM3FwrK3iLTcvneQg7Ca725JhhKnNqk4j1ebLhAm8SrXTcWdtRipWFsevceSGM.woff2",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-11T18:42:47.988Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "cdaca364a7f3686c683a4fb530eb614844e82cdea622b27ed3bf64c872d37128",
+      "url": "https://www.cjr.org/feature/crooked-con-hottest-takes-podcasters-creator-journalists-political-operatives-midterms-blue-wave-washington-dc.php",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-11T18:42:47.988Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "cf6f453483c74ed5f175532556ea7bb6b42472d50325d67318303de753f75dc2",
+      "url": "https://brasis.ajor.org.br/p/fim-inquerito-fake-news-mineradora-abrolhos",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-11T18:42:47.988Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "cff4a6d53948916941ef327af1efc49bc8752513cb809295ad907d9fd3e56ca2",
+      "url": "https://fonts.gstatic.com/s/inter/v18/UcCM3FwrK3iLTcvneQg7Ca725JhhKnNqk4j1ebLhAm8SrXTcWdBRipWFsevceSGM.woff2",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-11T18:42:47.988Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "d6fb2c039bd931db42fd618538b7466f536c2493fc2222dde0a77d8011f2d055",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOblhreGJtV2d4TnMxLWY5T1JNa01LdDFVT0VZeldkcGo3ekVFUHFMQU1DLWlpdV9FTGFCVmVaUkFYNTNVNjgteXpweWJRTUxXNTVzZWdFTnJZU1hpNVRaSngyWE5TTDFvSURnbnNZRWtiRnpkTXJQb0VXX3dGUGV4cGE0dXRiV25ycml1Tjc0VU1HMjQ0alQzWUFWZFR4N2RoLW41MTlIbGNrSDlvMmdwaGhNRlVleG5lUW9wZTBPN0dORnBu0gHKAUFVX3lxTE8xSHRjVnQyTnpIaXdGcnRlR0JqMnlKZ1pzQXVUcEdoYVd3THhqOGVvQk1nMEtweHJBMUlMTVd3ZXBYdDh6d3pVd1AwZ2c5ZEFDV3dVRWZveDhrLTF1QmJhYS1ONmxGSzRScU9EU0pGVVpkclBucUp3YnJUMVMwZDdyWXY3ME9WNEI4aTNsZzJrVXVrb2tTOVhkMXRURGdGN3V1dzFTYVdCV3E1WFhMZDJVNVBmYnRpNVctU1hnQmVKU0J2OHFNS3hvckE",
+      "category": "uncategorized",
+      "originalCategory": "opportunities",
+      "checkedAt": "2026-11-11T18:42:47.988Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "d719848fa573928cf4d9bae555d74e2f91cdc4edca1856131e88e8df37d5a12b",
+      "url": "https://www.theringer.com/2026/11/10/tech/jensen-huang-nvidia-spy-scandal-alice-huang",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-11T18:42:47.988Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "debc446ae747353a5647bbbb8602f4f0e75a625e008ef13e1777850452114b6a",
+      "url": "https://substack.com/redirect/26806ef1-8be0-41d9-958c-b2a2d6d079b9",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-11T18:42:47.988Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "e0628800294d881a67821e66146e4b8dae80999aed234fb214342be7ee8255f9",
+      "url": "https://www.washingtonpost.com/business/2026/11/10/appeals-court-says-voa-director-was-fired-illegally-by-former-head-kari-lake",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-11T18:42:47.988Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "e442b6b81ad55236eb02d4071c2c9a81afdf5d94aabbda9c9263e38abc019ba4",
+      "url": "https://fonts.gstatic.com/s/inter/v18/UcC73FwrK3iLTeHuS_fjbvMwCp500DAa1ZL7W0Q5nw.woff2",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-11T18:42:47.988Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "e555485155cd932de95f90c4d9621617f0d84f4e06829b6199e924304370ab60",
+      "url": "https://indicator.media/p/show-tell-how-a-haaretz-reporter-infiltrates-companies-offering-disinformation-as-a-service",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-11T18:42:47.988Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "ea57d9d81d469cc6f1722f7dda097aea698bf02bd20b420a001117904b1a94fb",
+      "url": "https://www.washingtonsun.com/legal/appeals-court-blocks-doj-demand-journalists-linkedin-data",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-11T18:42:47.988Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "ef8499a10d857b4c68cfa141905876851a803188db184096fd63912cafb0a1a8",
+      "url": "https://fonts.gstatic.com/s/inter/v18/UcC73FwrK3iLTeHuS_fjbvMwCp50Szca1ZL7W0Q5nw.woff2",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-11T18:42:47.988Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "f10aace461d99d770a231778dda2a1347374b9768289e9fa270757ff74b5439f",
+      "url": "https://csmapnyu.org/",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-11T18:42:47.988Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "f113fe25f2dfb1bc6bec43848cae5c58aba7153d1c73c659ae21bf54ed2fd6af",
+      "url": "https://www.poynter.org/commentary/2026/trump-claims-midterms-rigged",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-11T18:42:47.988Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "f73f67ed80e4ea739de07f55a565a6ff558dc6b7031f5d5e06d601ca99c44c8e",
+      "url": "https://substack.com/redirect/4a20be94-edd6-4400-ab10-67d12a28db83",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-11T18:42:47.988Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "f77d9413833a9037c6c73b496d0469affe05607b2c51078717cc3ab18ecd4417",
+      "url": "https://www.samrabiyah.com/",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-11T18:42:47.988Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "f7db12035d279f5d88bf7328bfe7d569e71bde09d470b21d8b342a73f2495307",
+      "url": "https://fonts.gstatic.com/s/inter/v18/UcC73FwrK3iLTeHuS_fjbvMwCp504jEa1ZL7W0Q5nw.woff2",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-11T18:42:47.988Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "fa73479552c66790ab171d94a306476934be26931ddfeea71d737a573b0544f2",
+      "url": "https://opportunitydesk.org/2026/11/11/harvard-kennedy-school-american-service-fellowship-2027",
+      "category": "uncategorized",
+      "originalCategory": "opportunities",
+      "checkedAt": "2026-11-11T18:42:47.988Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "fd6ee2c13de31915ce40499e94403575c76305e92cec704259fca02d7fca61e9",
+      "url": "https://substack.com/redirect/40313bae-2473-4bc2-bb4d-d9ab785f5f62",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-11T18:42:47.988Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
