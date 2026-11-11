@@ -1,12 +1,278 @@
 {
-  "checkedAt": "2026-11-10T20:15:33.730Z",
+  "checkedAt": "2026-11-11T00:26:54.719Z",
   "policy": "404/410 and ArcGIS application errors within HTTP 200 become broken only after appearing as suspect or broken in the previous audit; blocked and network results are inconclusive",
   "counts": {
-    "ok": 599,
-    "blocked": 56,
-    "network": 32
+    "network": 37,
+    "ok": 622,
+    "blocked": 52
   },
   "results": [
+    {
+      "type": "opportunity",
+      "id": "6530d95d514e0315a32b8d162d842176e19c0ef110d0dde9ac04122c78b6f56c",
+      "field": "rules",
+      "url": "https://www.generonumero.media/artigos/programa-de-bolsas-aborto-em-pilulas",
+      "references": [
+        {
+          "type": "opportunity",
+          "id": "6530d95d514e0315a32b8d162d842176e19c0ef110d0dde9ac04122c78b6f56c",
+          "field": "rules"
+        },
+        {
+          "type": "opportunity",
+          "id": "6530d95d514e0315a32b8d162d842176e19c0ef110d0dde9ac04122c78b6f56c",
+          "field": "apply"
+        }
+      ],
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
+      "attempts": [
+        "TypeError:fetch failed",
+        "TypeError:fetch failed"
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "b45070e9d4dabfb55eb4edbe6a851ffcd200473f6429555a374f7c0ac7db3e88",
+      "field": "rules",
+      "url": "https://grantsforjournalists.com/grant/knight-wallace-fellowship-at-the-university-of-michigan",
+      "references": [
+        {
+          "type": "opportunity",
+          "id": "b45070e9d4dabfb55eb4edbe6a851ffcd200473f6429555a374f7c0ac7db3e88",
+          "field": "rules"
+        },
+        {
+          "type": "opportunity",
+          "id": "b45070e9d4dabfb55eb4edbe6a851ffcd200473f6429555a374f7c0ac7db3e88",
+          "field": "apply"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://grantsforjournalists.com/grant/knight-wallace-fellowship-at-the-university-of-michigan/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "088211e0604559fd090f68d856ea6e4968716c7d5800b9adbfa5ed659142df55",
+      "field": "rules",
+      "url": "https://gfmd.info/fundings/knight-wallace-fellowship-international-applicants",
+      "references": [
+        {
+          "type": "opportunity",
+          "id": "088211e0604559fd090f68d856ea6e4968716c7d5800b9adbfa5ed659142df55",
+          "field": "rules"
+        },
+        {
+          "type": "opportunity",
+          "id": "088211e0604559fd090f68d856ea6e4968716c7d5800b9adbfa5ed659142df55",
+          "field": "apply"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://gfmd.info/fundings/knight-wallace-fellowship-international-applicants/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "0fa208338a4bcde2366d9b583e4b5146aa53ad03993c853df2a6945051acceb1",
+      "field": "rules",
+      "url": "https://gfmd.info/fundings/fund-for-investigative-journalism-seed-and-regular-grants",
+      "references": [
+        {
+          "type": "opportunity",
+          "id": "0fa208338a4bcde2366d9b583e4b5146aa53ad03993c853df2a6945051acceb1",
+          "field": "rules"
+        },
+        {
+          "type": "opportunity",
+          "id": "0fa208338a4bcde2366d9b583e4b5146aa53ad03993c853df2a6945051acceb1",
+          "field": "apply"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://gfmd.info/fundings/fund-for-investigative-journalism-seed-and-regular-grants/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "1ce3ee0308c17d4729e3aa3c772a192ca488dde6407eb88cb91b5941437c1f01",
+      "field": "rules",
+      "url": "https://gfmd.info/fundings/the-gordon-n-fisher-journalists-for-human-rights-fellowship",
+      "references": [
+        {
+          "type": "opportunity",
+          "id": "1ce3ee0308c17d4729e3aa3c772a192ca488dde6407eb88cb91b5941437c1f01",
+          "field": "rules"
+        },
+        {
+          "type": "opportunity",
+          "id": "1ce3ee0308c17d4729e3aa3c772a192ca488dde6407eb88cb91b5941437c1f01",
+          "field": "apply"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://gfmd.info/fundings/the-gordon-n-fisher-journalists-for-human-rights-fellowship/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "25f3ecac9078807ca06cb298c039f7081cf070b5cc38669093b8dccb9283f94b",
+      "field": "rules",
+      "url": "https://gfmd.info/fundings/international-nieman-fellowship",
+      "references": [
+        {
+          "type": "opportunity",
+          "id": "25f3ecac9078807ca06cb298c039f7081cf070b5cc38669093b8dccb9283f94b",
+          "field": "rules"
+        },
+        {
+          "type": "opportunity",
+          "id": "25f3ecac9078807ca06cb298c039f7081cf070b5cc38669093b8dccb9283f94b",
+          "field": "apply"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://gfmd.info/fundings/international-nieman-fellowship/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "2de5afaa39131e7ff861db2ee421b0f89093fb184f5519095b2b4da940402015",
+      "field": "rules",
+      "url": "https://gfmd.info/fundings/equality-fund-global-journalism-fellowship-2026-2027",
+      "references": [
+        {
+          "type": "opportunity",
+          "id": "2de5afaa39131e7ff861db2ee421b0f89093fb184f5519095b2b4da940402015",
+          "field": "rules"
+        },
+        {
+          "type": "opportunity",
+          "id": "2de5afaa39131e7ff861db2ee421b0f89093fb184f5519095b2b4da940402015",
+          "field": "apply"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://gfmd.info/fundings/equality-fund-global-journalism-fellowship-2026-2027/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "2f8dbafd33f988df9c4c2792e6eafc2e4e67f6786c175432f1171eadfa3dc793",
+      "field": "rules",
+      "url": "https://gfmd.info/fundings/call-for-proposals-cross-border-media-literacy-2027",
+      "references": [
+        {
+          "type": "opportunity",
+          "id": "2f8dbafd33f988df9c4c2792e6eafc2e4e67f6786c175432f1171eadfa3dc793",
+          "field": "rules"
+        },
+        {
+          "type": "opportunity",
+          "id": "2f8dbafd33f988df9c4c2792e6eafc2e4e67f6786c175432f1171eadfa3dc793",
+          "field": "apply"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://gfmd.info/fundings/call-for-proposals-cross-border-media-literacy-2027/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "41dcc31139cb1128b115d73c649326c90f292081ebb55d99a6e984e9d4227810",
+      "field": "rules",
+      "url": "https://gfmd.info/fundings/call-for-proposals-journalism-partnerships-pluralism-2027",
+      "references": [
+        {
+          "type": "opportunity",
+          "id": "41dcc31139cb1128b115d73c649326c90f292081ebb55d99a6e984e9d4227810",
+          "field": "rules"
+        },
+        {
+          "type": "opportunity",
+          "id": "41dcc31139cb1128b115d73c649326c90f292081ebb55d99a6e984e9d4227810",
+          "field": "apply"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://gfmd.info/fundings/call-for-proposals-journalism-partnerships-pluralism-2027/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "578ad193d27b574e54ef5fb0b29776357edd23ef315178e2dbb8f1ab025c1a61",
+      "field": "rules",
+      "url": "https://gfmd.info/fundings/call-for-proposals-journalism-partnerships-collaborations-2027",
+      "references": [
+        {
+          "type": "opportunity",
+          "id": "578ad193d27b574e54ef5fb0b29776357edd23ef315178e2dbb8f1ab025c1a61",
+          "field": "rules"
+        },
+        {
+          "type": "opportunity",
+          "id": "578ad193d27b574e54ef5fb0b29776357edd23ef315178e2dbb8f1ab025c1a61",
+          "field": "apply"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://gfmd.info/fundings/call-for-proposals-journalism-partnerships-collaborations-2027/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "293d94984420e56753951babff751db9ec0bfa21266971a89b9fcceda1102ff3",
+      "field": "rules",
+      "url": "https://gfmd.info/fundings/human-scale-ai-call-for-proposals",
+      "references": [
+        {
+          "type": "opportunity",
+          "id": "293d94984420e56753951babff751db9ec0bfa21266971a89b9fcceda1102ff3",
+          "field": "rules"
+        },
+        {
+          "type": "opportunity",
+          "id": "293d94984420e56753951babff751db9ec0bfa21266971a89b9fcceda1102ff3",
+          "field": "apply"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://gfmd.info/fundings/human-scale-ai-call-for-proposals/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
     {
       "type": "opportunity",
       "id": "523a861d21eafb5ed7c23e495938271fdad067bc512470e5c737419607d68d02",
@@ -2597,11 +2863,11 @@
           "field": "apply"
         }
       ],
-      "status": 403,
+      "status": 200,
       "finalUrl": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/data-journalism-grants",
-      "class": "blocked",
+      "class": "ok",
       "attempts": [
-        403
+        200
       ]
     },
     {
@@ -2712,11 +2978,11 @@
           "field": "apply"
         }
       ],
-      "status": 403,
+      "status": 200,
       "finalUrl": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/our-work-environment-grants",
-      "class": "blocked",
+      "class": "ok",
       "attempts": [
-        403
+        200
       ]
     },
     {
@@ -2750,11 +3016,11 @@
           "field": "rules"
         }
       ],
-      "status": 403,
+      "status": 200,
       "finalUrl": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/ai-accountability-fellowships",
-      "class": "blocked",
+      "class": "ok",
       "attempts": [
-        403
+        200
       ]
     },
     {
@@ -2778,6 +3044,7 @@
       "finalUrl": "https://grants.journalismfund.eu/nl/node/99",
       "class": "ok",
       "attempts": [
+        "TypeError:fetch failed",
         200
       ]
     },
@@ -2793,11 +3060,13 @@
           "field": "rules"
         }
       ],
-      "status": 200,
-      "finalUrl": "https://grants.journalismfund.eu/en/pascal-decroos-fund",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "TypeError:fetch failed",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -2812,11 +3081,13 @@
           "field": "rules"
         }
       ],
-      "status": 200,
-      "finalUrl": "https://grants.journalismfund.eu/en/belgian-bridge",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "TypeError:fetch failed",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -2840,6 +3111,7 @@
       "finalUrl": "https://grants.journalismfund.eu/en/the-invisible-life-grant",
       "class": "ok",
       "attempts": [
+        "TypeError:fetch failed",
         200
       ]
     },
@@ -3797,6 +4069,121 @@
     },
     {
       "type": "dataset",
+      "id": "69113ed0b823c72b5e77e5a4dc488e18bb492814785734c71bb305b1b4ccade7",
+      "field": "url",
+      "url": "https://human-settlement.emergency.copernicus.eu/datasets.php",
+      "references": [
+        {
+          "type": "dataset",
+          "id": "69113ed0b823c72b5e77e5a4dc488e18bb492814785734c71bb305b1b4ccade7",
+          "field": "url"
+        },
+        {
+          "type": "dataset",
+          "id": "69113ed0b823c72b5e77e5a4dc488e18bb492814785734c71bb305b1b4ccade7",
+          "field": "docs"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://human-settlement.emergency.copernicus.eu/datasets.php",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "69113ed0b823c72b5e77e5a4dc488e18bb492814785734c71bb305b1b4ccade7",
+      "field": "api",
+      "url": "https://human-settlement.emergency.copernicus.eu/downloadWizard.php",
+      "references": [
+        {
+          "type": "dataset",
+          "id": "69113ed0b823c72b5e77e5a4dc488e18bb492814785734c71bb305b1b4ccade7",
+          "field": "api"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://human-settlement.emergency.copernicus.eu/downloadWizard.php",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "deff0b3866c2aa499128f6ea642ccb9e9d57cb45189f04e3fc7f5d5fca596325",
+      "field": "url",
+      "url": "https://global-surface-water.appspot.com/download",
+      "references": [
+        {
+          "type": "dataset",
+          "id": "deff0b3866c2aa499128f6ea642ccb9e9d57cb45189f04e3fc7f5d5fca596325",
+          "field": "url"
+        },
+        {
+          "type": "dataset",
+          "id": "deff0b3866c2aa499128f6ea642ccb9e9d57cb45189f04e3fc7f5d5fca596325",
+          "field": "docs"
+        },
+        {
+          "type": "dataset",
+          "id": "deff0b3866c2aa499128f6ea642ccb9e9d57cb45189f04e3fc7f5d5fca596325",
+          "field": "api"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://global-surface-water.appspot.com/download",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "97995754262f60cf84e9c9b25a4f79ef5de8bc0f0de16639ebc888bd347f9412",
+      "field": "url",
+      "url": "https://arcmira.com/famous/ai-companies/2026-09",
+      "references": [
+        {
+          "type": "dataset",
+          "id": "97995754262f60cf84e9c9b25a4f79ef5de8bc0f0de16639ebc888bd347f9412",
+          "field": "url"
+        },
+        {
+          "type": "dataset",
+          "id": "97995754262f60cf84e9c9b25a4f79ef5de8bc0f0de16639ebc888bd347f9412",
+          "field": "docs"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://arcmira.com/famous/ai-companies/2026-09",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "97995754262f60cf84e9c9b25a4f79ef5de8bc0f0de16639ebc888bd347f9412",
+      "field": "api",
+      "url": "https://arcmira.com/famous/data/ai-companies/2026-09.csv",
+      "references": [
+        {
+          "type": "dataset",
+          "id": "97995754262f60cf84e9c9b25a4f79ef5de8bc0f0de16639ebc888bd347f9412",
+          "field": "api"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://arcmira.com/famous/data/ai-companies/2026-09.csv",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
       "id": "geoboundaries-global-administrative-boundaries",
       "field": "url",
       "url": "https://www.geoboundaries.org/",
@@ -4060,13 +4447,11 @@
           "field": "discoveryUrl"
         }
       ],
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "AbortError:This operation was aborted",
+      "status": 200,
+      "finalUrl": "https://wid.world/data-quality/",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "AbortError:This operation was aborted"
+        200
       ]
     },
     {
@@ -4752,11 +5137,13 @@
           "field": "url"
         }
       ],
-      "status": 200,
-      "finalUrl": "https://dados.pb.gov.br/",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "AbortError:This operation was aborted",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -4771,11 +5158,13 @@
           "field": "docs"
         }
       ],
-      "status": 200,
-      "finalUrl": "https://dados.pb.gov.br/about",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "AbortError:This operation was aborted",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -4790,11 +5179,13 @@
           "field": "api"
         }
       ],
-      "status": 200,
-      "finalUrl": "https://api.dados.pb.gov.br/swagger/",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "AbortError:This operation was aborted",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -4809,11 +5200,13 @@
           "field": "discoveryUrl"
         }
       ],
-      "status": 200,
-      "finalUrl": "https://codata.pb.gov.br/noticias/codata-desenvolve-nova-versao-do-portal-da-transparencia-da-paraiba-lancada-pelo-governo-do-estado/",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "AbortError:This operation was aborted",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -4924,13 +5317,12 @@
           "field": "discoveryUrl"
         }
       ],
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://www.generonumero.media/dados-abertos/",
+      "class": "ok",
       "attempts": [
         "TypeError:fetch failed",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -6863,11 +7255,11 @@
           "field": "url"
         }
       ],
-      "status": 406,
+      "status": 202,
       "finalUrl": "https://data.humdata.org/",
-      "class": "blocked",
+      "class": "ok",
       "attempts": [
-        406
+        202
       ]
     },
     {
@@ -6956,7 +7348,7 @@
       "class": "network",
       "error": "TypeError:fetch failed",
       "attempts": [
-        "AbortError:This operation was aborted",
+        "TypeError:fetch failed",
         "TypeError:fetch failed"
       ]
     },
@@ -6976,7 +7368,6 @@
       "finalUrl": "https://map.geo.sei.ba.gov.br/arcgis/rest/services",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -7070,13 +7461,12 @@
           "field": "url"
         }
       ],
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "AbortError:This operation was aborted",
+      "status": 200,
+      "finalUrl": "https://www.transparencia.ba.gov.br/Portal",
+      "class": "ok",
       "attempts": [
         "AbortError:This operation was aborted",
-        "AbortError:This operation was aborted"
+        200
       ]
     },
     {
@@ -7095,7 +7485,6 @@
       "finalUrl": "https://www.ba.gov.br/ssp/publicacoes",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -7115,7 +7504,6 @@
       "finalUrl": "https://www.ba.gov.br/ssp/dados-abertos",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -7155,7 +7543,6 @@
       "finalUrl": "https://dados.ons.org.br/",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -7180,7 +7567,6 @@
       "finalUrl": "https://dados.ons.org.br/dataset/restricao_coff_fotovoltaica",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -7200,7 +7586,6 @@
       "finalUrl": "https://dados.ons.org.br/dataset/restricao_coff_fotovoltaica_detail",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -7220,7 +7605,6 @@
       "finalUrl": "https://datasus.saude.gov.br/",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -8107,7 +8491,6 @@
       "finalUrl": "https://datasus.saude.gov.br/cnes-recursos-fisicos/",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -8165,7 +8548,6 @@
       "finalUrl": "https://datasus.saude.gov.br/cnes-recursos-humanos-a-partir-de-agosto-de-2007-ocupacoes-classificadas-pela-cbo-2002/",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -8444,7 +8826,6 @@
       "finalUrl": "https://dadosabertos.aneel.gov.br/dataset/sistema-de-gestao-da-transmissao-siget",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -8464,7 +8845,6 @@
       "finalUrl": "https://dadosabertos.aneel.gov.br/dataset/samp",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -8579,13 +8959,11 @@
           "field": "url"
         }
       ],
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "AbortError:This operation was aborted",
+      "status": 200,
+      "finalUrl": "https://dadosabertos.aneel.gov.br/dataset/base-de-dados-geografica-da-distribuidora-bdgd",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "AbortError:This operation was aborted"
+        200
       ]
     },
     {
@@ -10660,6 +11038,7 @@
       "finalUrl": "https://www.generonumero.media/",
       "class": "ok",
       "attempts": [
+        "TypeError:fetch failed",
         200
       ]
     },
@@ -10713,11 +11092,13 @@
           "field": "url"
         }
       ],
-      "status": 200,
-      "finalUrl": "https://www.journalismfund.eu/",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "TypeError:fetch failed",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -11691,6 +12072,158 @@
     },
     {
       "type": "tool",
+      "id": "733c36409f57a6d64b4eb49ac945a060082aa3ebc58f68ebc56d21824af048b3",
+      "field": "url",
+      "url": "https://cran.r-project.org/package=fedmatch",
+      "references": [
+        {
+          "type": "tool",
+          "id": "733c36409f57a6d64b4eb49ac945a060082aa3ebc58f68ebc56d21824af048b3",
+          "field": "url"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://cran.r-project.org/web/packages/fedmatch/index.html",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "87d587fb19392bb7866daeeb6b83219beda45f46b058d876c647f27e3e0253d4",
+      "field": "url",
+      "url": "https://recordlinkage.readthedocs.io/",
+      "references": [
+        {
+          "type": "tool",
+          "id": "87d587fb19392bb7866daeeb6b83219beda45f46b058d876c647f27e3e0253d4",
+          "field": "url"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://recordlinkage.readthedocs.io/en/latest/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "8131bd90a31340ae234883b0310fea966d01f14dd68345a72a7de5f22c9e3966",
+      "field": "url",
+      "url": "https://buttondown.com/puntofisso/archive/682-quantum-of-sollazzo",
+      "references": [
+        {
+          "type": "tool",
+          "id": "8131bd90a31340ae234883b0310fea966d01f14dd68345a72a7de5f22c9e3966",
+          "field": "url"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://buttondown.com/puntofisso/archive/682-quantum-of-sollazzo",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "483c5944a10521dde5f808f0c5a7f8905fcf5f0d7041f337d200f27096fecbc5",
+      "field": "url",
+      "url": "https://omni.co/",
+      "references": [
+        {
+          "type": "tool",
+          "id": "483c5944a10521dde5f808f0c5a7f8905fcf5f0d7041f337d200f27096fecbc5",
+          "field": "url"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://omni.co/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "78b7a11294f5e332bf8ed33d08a8d7151c67f4de4588753cb629a48375d6c337",
+      "field": "url",
+      "url": "https://github.com/ropensci/tabulapdf",
+      "references": [
+        {
+          "type": "tool",
+          "id": "78b7a11294f5e332bf8ed33d08a8d7151c67f4de4588753cb629a48375d6c337",
+          "field": "url"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://github.com/ropensci/tabulapdf",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "bcf905a7d1b746329b76590ec887f5b37fe0993d4c6f81fd8269f04c0829e6d7",
+      "field": "url",
+      "url": "https://learn.microsoft.com/en-us/dax",
+      "references": [
+        {
+          "type": "tool",
+          "id": "bcf905a7d1b746329b76590ec887f5b37fe0993d4c6f81fd8269f04c0829e6d7",
+          "field": "url"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://learn.microsoft.com/en-us/dax/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "dcfa0487c540be0e50474bdc6332858180f97a84e0b91c826ac43f897db13474",
+      "field": "url",
+      "url": "https://cube.dev/",
+      "references": [
+        {
+          "type": "tool",
+          "id": "dcfa0487c540be0e50474bdc6332858180f97a84e0b91c826ac43f897db13474",
+          "field": "url"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://cube.dev/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "6d84c860baa5311d1e0fcec13e539b428a8d37d4c97126c53e09639eb31e9621",
+      "field": "url",
+      "url": "https://github.com/soxoj/maigret",
+      "references": [
+        {
+          "type": "tool",
+          "id": "6d84c860baa5311d1e0fcec13e539b428a8d37d4c97126c53e09639eb31e9621",
+          "field": "url"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://github.com/soxoj/maigret",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
       "id": "9f08b5a99c6c9f62c7b1c97611500f5db6b140a14c8c8c4a5b34b00faaad2427",
       "field": "url",
       "url": "https://www.tableau.com/",
@@ -12429,11 +12962,13 @@
           "field": "discoveryUrl"
         }
       ],
-      "status": 200,
-      "finalUrl": "https://inkscape.org/",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "AbortError:This operation was aborted",
       "attempts": [
-        200
+        "AbortError:This operation was aborted",
+        "AbortError:This operation was aborted"
       ]
     },
     {
@@ -13799,6 +14334,7 @@
       "finalUrl": "https://www.generonumero.media/artigos/cartilha-violencia-de-genero/",
       "class": "ok",
       "attempts": [
+        "TypeError:fetch failed",
         200
       ]
     },
