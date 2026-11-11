@@ -83,7 +83,7 @@ try{
  assert(workflow.includes('  push:')&&workflow.includes('    branches: [main]'));
  assert(workflow.includes('intake/approved-publications.json'));
  assert(workflow.includes('cron: "0 14 * * *"'));
- assert(workflow.includes('PUBLICATION_FAILED'));
+ assert(workflow.includes('PUBLICATION_SHORTFALL'));
  assert(workflow.includes("steps.changes.outputs.changed != 'true'"));
  manifest.approved[0].review.decision='pending';fs.writeFileSync(input,JSON.stringify(manifest));
  assert.throws(()=>run('publish-approved.js',input));
