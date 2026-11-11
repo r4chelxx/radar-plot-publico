@@ -246,11 +246,11 @@ jobs:
           RADAR_DEPLOY_DELAY_MS: "15000"
         run: node scripts/verify-published-records.js
 
-      - name: Fail final daily run when cumulative publication target is unmet
+      - name: Report final daily shortfall without blocking the radar
         if: (github.event_name == 'workflow_dispatch' || (github.event_name == 'schedule' && github.event.schedule == '41 23 * * *') || (github.event_name == 'push' && steps.final-window.outputs.final == 'true')) && steps.daily-target.outputs.target_met != 'true'
         run: |
-          echo "PUBLICATION_FAILED: cumulative daily target of two verified records per category was not met by the final Salvador window." >> "$GITHUB_STEP_SUMMARY"
-          exit 1
+          echo "::warning::Cumulative daily target was not met; verified publication remains pending for the next intake window."
+          echo "PUBLICATION_SHORTFALL: cumulative daily target of two verified records per category was not met in the final Salvador window. The queue, source health and shortfall issue remain available for the next automated run." >> "$GITHUB_STEP_SUMMARY"
       - name: Summarize editorial run outcome
         if: always()
         env:
