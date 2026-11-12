@@ -1,11 +1,10 @@
 {
-  "checkedAt": "2026-11-11T18:33:39.266Z",
+  "checkedAt": "2026-11-12T18:50:22.175Z",
   "policy": "404/410 and ArcGIS application errors within HTTP 200 become broken only after appearing as suspect or broken in the previous audit; blocked and network results are inconclusive",
   "counts": {
-    "ok": 618,
+    "ok": 617,
     "blocked": 56,
-    "network": 35,
-    "server": 2
+    "network": 38
   },
   "results": [
     {
@@ -605,7 +604,6 @@
       "finalUrl": "https://digital-strategy.ec.europa.eu/en/funding/call-proposals-journalism-partnerships-pluralism-2027",
       "class": "ok",
       "attempts": [
-        429,
         200
       ]
     },
@@ -922,7 +920,6 @@
       "finalUrl": "https://digital-strategy.ec.europa.eu/en/funding/call-proposals-journalism-partnerships-collaborations-2027",
       "class": "ok",
       "attempts": [
-        429,
         200
       ]
     },
@@ -1202,7 +1199,7 @@
         }
       ],
       "status": 200,
-      "finalUrl": "https://fapesp.br/oportunidades/centro-de-estudos-da-favela-cefavela/9915/",
+      "finalUrl": "https://oportunidades.fapesp.br/centro-de-estudos-da-favela-cefavela/9915/",
       "class": "ok",
       "attempts": [
         200
@@ -2545,7 +2542,7 @@
         }
       ],
       "status": 200,
-      "finalUrl": "https://fapesp.br/oportunidades/cepid-bridge-gestao-de-ecossistemas-para-transicoes-sustentaveis/9850/",
+      "finalUrl": "https://oportunidades.fapesp.br/cepid-bridge-gestao-de-ecossistemas-para-transicoes-sustentaveis/9850/",
       "class": "ok",
       "attempts": [
         200
@@ -2588,7 +2585,7 @@
         }
       ],
       "status": 200,
-      "finalUrl": "https://fapesp.br/oportunidades/",
+      "finalUrl": "https://oportunidades.fapesp.br/",
       "class": "ok",
       "attempts": [
         200
@@ -3445,7 +3442,7 @@
         }
       ],
       "status": 200,
-      "finalUrl": "https://fapesp.br/oportunidades/cepid-bridge-gestao-de-ecossistemas-para-transicoes-sustentaveis/9851/",
+      "finalUrl": "https://oportunidades.fapesp.br/cepid-bridge-gestao-de-ecossistemas-para-transicoes-sustentaveis/9851/",
       "class": "ok",
       "attempts": [
         200
@@ -4409,6 +4406,7 @@
       "finalUrl": "https://wid.world/data/",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -4424,11 +4422,13 @@
           "field": "docs"
         }
       ],
-      "status": 200,
-      "finalUrl": "https://wid.world/methodology/",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "AbortError:This operation was aborted",
       "attempts": [
-        200
+        "AbortError:This operation was aborted",
+        "AbortError:This operation was aborted"
       ]
     },
     {
@@ -5305,12 +5305,13 @@
           "field": "discoveryUrl"
         }
       ],
-      "status": 200,
-      "finalUrl": "https://www.generonumero.media/dados-abertos/",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        "TypeError:fetch failed",
-        200
+        "AbortError:This operation was aborted",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -7336,7 +7337,7 @@
       "class": "network",
       "error": "TypeError:fetch failed",
       "attempts": [
-        "TypeError:fetch failed",
+        "AbortError:This operation was aborted",
         "TypeError:fetch failed"
       ]
     },
@@ -7352,12 +7353,13 @@
           "field": "url"
         }
       ],
-      "status": 200,
-      "finalUrl": "https://map.geo.sei.ba.gov.br/arcgis/rest/services",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
         "AbortError:This operation was aborted",
-        200
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -7372,11 +7374,13 @@
           "field": "url"
         }
       ],
-      "status": 200,
-      "finalUrl": "https://map.geo.sei.ba.gov.br/arcgis/rest/services/servicos_sei/REGIONALIZACAO_VIGENTE/FeatureServer?f=json",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "AbortError:This operation was aborted",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -8336,7 +8340,7 @@
       "class": "network",
       "error": "TypeError:fetch failed",
       "attempts": [
-        "TypeError:fetch failed",
+        "AbortError:This operation was aborted",
         "TypeError:fetch failed"
       ]
     },
@@ -8357,7 +8361,7 @@
       "class": "network",
       "error": "TypeError:fetch failed",
       "attempts": [
-        "TypeError:fetch failed",
+        "AbortError:This operation was aborted",
         "TypeError:fetch failed"
       ]
     },
@@ -8378,7 +8382,7 @@
       "class": "network",
       "error": "TypeError:fetch failed",
       "attempts": [
-        "TypeError:fetch failed",
+        "AbortError:This operation was aborted",
         "TypeError:fetch failed"
       ]
     },
@@ -8399,7 +8403,7 @@
       "class": "network",
       "error": "TypeError:fetch failed",
       "attempts": [
-        "TypeError:fetch failed",
+        "AbortError:This operation was aborted",
         "TypeError:fetch failed"
       ]
     },
@@ -8420,7 +8424,7 @@
       "class": "network",
       "error": "TypeError:fetch failed",
       "attempts": [
-        "TypeError:fetch failed",
+        "AbortError:This operation was aborted",
         "TypeError:fetch failed"
       ]
     },
@@ -8441,7 +8445,7 @@
       "class": "network",
       "error": "TypeError:fetch failed",
       "attempts": [
-        "TypeError:fetch failed",
+        "AbortError:This operation was aborted",
         "TypeError:fetch failed"
       ]
     },
@@ -8466,6 +8470,7 @@
       "finalUrl": "https://datasus.saude.gov.br/acesso-a-informacao/producao-hospitalar-sih-sus/",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -8490,6 +8495,7 @@
       "finalUrl": "https://datasus.saude.gov.br/cnes-recursos-fisicos/",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -8543,13 +8549,11 @@
           "field": "url"
         }
       ],
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "AbortError:This operation was aborted",
+      "status": 200,
+      "finalUrl": "https://datasus.saude.gov.br/cnes-recursos-humanos-a-partir-de-agosto-de-2007-ocupacoes-classificadas-pela-cbo-2002/",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "AbortError:This operation was aborted"
+        200
       ]
     },
     {
@@ -8746,6 +8750,7 @@
       "finalUrl": "https://www.gov.br/mme/pt-br/acesso-a-informacao/legislacao",
       "class": "ok",
       "attempts": [
+        "TypeError:fetch failed",
         200
       ]
     },
@@ -8998,12 +9003,11 @@
           "field": "url"
         }
       ],
-      "status": 504,
+      "status": 200,
       "finalUrl": "https://dadosabertos.ibama.gov.br/dataset/fiscalizacao-auto-de-infracao",
-      "class": "server",
+      "class": "ok",
       "attempts": [
-        504,
-        504
+        200
       ]
     },
     {
@@ -9060,7 +9064,6 @@
       "finalUrl": "https://landscape.fifa.com/en/women/landscape",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -12966,6 +12969,7 @@
       "finalUrl": "https://inkscape.org/",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -14304,12 +14308,11 @@
           "field": "url"
         }
       ],
-      "status": 502,
+      "status": 200,
       "finalUrl": "https://opencheck.world/",
-      "class": "server",
+      "class": "ok",
       "attempts": [
-        502,
-        502
+        200
       ]
     },
     {
