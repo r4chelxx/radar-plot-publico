@@ -128,7 +128,7 @@ window.RADAR_PARTS.opportunities=[
   "deadline": "2026-11-11",
   "deadlineStatus": "Confirmado na página oficial; fuso horário não informado.",
   "eligibility": "parcial",
-  "status": "aberta",
+  "status": "encerrada",
   "rules": "https://gfmd.info/fundings/equality-fund-global-journalism-fellowship-2026-2027",
   "apply": "https://gfmd.info/fundings/equality-fund-global-journalism-fellowship-2026-2027"
 },
@@ -4528,7 +4528,7 @@ window.RADAR_PARTS.opportunities=[
   "deadlineStatus": "confirmado",
   "eligibility": "restrita",
   "fit": 0,
-  "status": "aberta",
+  "status": "encerrada",
   "rules": "https://dowjonesnewsfund.org/djnfinternships/",
   "apply": "https://dowjonesnewsfund.org/djnfinternships/",
   "verified": "2026-10-21",
