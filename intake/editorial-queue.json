@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-12T18:57:10.786Z",
+  "updatedAt": "2026-11-12T21:54:53.784Z",
   "policy": "Public web leads only; pending does not mean verified or approved.",
   "candidates": [
     {
@@ -49,7 +49,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -78,7 +78,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -132,7 +132,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -148,7 +148,7 @@
       "sourceEvidence": "",
       "verificationStatus": null,
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "in-review",
       "reviewPriority": "normal"
     },
@@ -189,7 +189,7 @@
         "reason": "Fonte retornou HTTP 404."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -329,7 +329,7 @@
         "reason": "Fonte retornou HTTP 403."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -375,7 +375,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -410,7 +410,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -426,7 +426,7 @@
       "sourceEvidence": "",
       "verificationStatus": null,
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "in-review",
       "reviewPriority": "normal"
     },
@@ -480,7 +480,7 @@
         "reason": "Página parece artigo, evento, perfil, navegação ou página genérica."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -496,7 +496,7 @@
       "sourceEvidence": "",
       "verificationStatus": null,
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "in-review",
       "reviewPriority": "normal"
     },
@@ -529,7 +529,7 @@
         "reason": "Página parece artigo, evento, perfil, navegação ou página genérica."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -572,7 +572,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -647,7 +647,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -676,7 +676,7 @@
         "reason": "Fonte retornou HTTP 403."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -692,7 +692,7 @@
       "sourceEvidence": "",
       "verificationStatus": null,
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "in-review",
       "reviewPriority": "normal"
     },
@@ -721,7 +721,7 @@
         "reason": "Fonte retornou HTTP 403."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -763,7 +763,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -801,7 +801,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -848,7 +848,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -913,7 +913,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -942,7 +942,7 @@
         "reason": "Fonte retornou HTTP 403."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -977,7 +977,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -1134,7 +1134,7 @@
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -1182,7 +1182,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -1211,7 +1211,7 @@
         "reason": "Fonte retornou HTTP 403."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -1249,7 +1249,7 @@
       "sourceEvidence": "",
       "verificationStatus": null,
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "in-review",
       "reviewPriority": "normal"
     },
@@ -1265,7 +1265,7 @@
       "sourceEvidence": "",
       "verificationStatus": null,
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "in-review",
       "reviewPriority": "normal"
     },
@@ -1281,7 +1281,7 @@
       "sourceEvidence": "",
       "verificationStatus": null,
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "in-review",
       "reviewPriority": "normal"
     },
@@ -1310,7 +1310,7 @@
         "reason": "Fonte retornou HTTP 404."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -1339,7 +1339,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -1391,7 +1391,7 @@
         "reason": "Fonte retornou HTTP 403."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -1438,7 +1438,7 @@
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -1454,7 +1454,7 @@
       "sourceEvidence": "",
       "verificationStatus": null,
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "in-review",
       "reviewPriority": "normal"
     },
@@ -1470,7 +1470,7 @@
       "sourceEvidence": "",
       "verificationStatus": null,
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "in-review",
       "reviewPriority": "normal"
     },
@@ -1510,7 +1510,7 @@
         "reason": "Fonte retornou HTTP 404."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -1570,7 +1570,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -1604,7 +1604,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -1656,7 +1656,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -1698,7 +1698,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -1727,7 +1727,7 @@
         "reason": "Metadados da página não confirmam a categoria opportunities."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -1777,7 +1777,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -1818,7 +1818,7 @@
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -1834,7 +1834,7 @@
       "sourceEvidence": "",
       "verificationStatus": null,
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "in-review",
       "reviewPriority": "normal"
     },
@@ -1850,7 +1850,7 @@
       "sourceEvidence": "",
       "verificationStatus": null,
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "in-review",
       "reviewPriority": "normal"
     },
@@ -1891,7 +1891,7 @@
         "reason": "Fonte retornou HTTP 404."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -1907,7 +1907,7 @@
       "sourceEvidence": "",
       "verificationStatus": null,
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "in-review",
       "reviewPriority": "normal"
     },
@@ -1936,7 +1936,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -1952,7 +1952,7 @@
       "sourceEvidence": "",
       "verificationStatus": null,
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "in-review",
       "reviewPriority": "high"
     },
@@ -1981,7 +1981,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -2010,7 +2010,7 @@
         "reason": "Fonte retornou HTTP 403."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -2073,7 +2073,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -2124,7 +2124,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -2160,7 +2160,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -2189,7 +2189,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -2265,7 +2265,7 @@
       "sourceEvidence": "",
       "verificationStatus": null,
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "in-review",
       "reviewPriority": "normal"
     },
@@ -2281,7 +2281,7 @@
       "sourceEvidence": "",
       "verificationStatus": null,
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "in-review",
       "reviewPriority": "normal"
     },
@@ -2322,7 +2322,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -2338,7 +2338,7 @@
       "sourceEvidence": "",
       "verificationStatus": null,
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "in-review",
       "reviewPriority": "normal"
     },
@@ -2367,7 +2367,7 @@
         "reason": "Fonte retornou HTTP 403."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -2396,7 +2396,7 @@
         "reason": "Fonte retornou HTTP 403."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -2442,7 +2442,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -2511,7 +2511,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -2549,7 +2549,7 @@
       "sourceEvidence": "",
       "verificationStatus": null,
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "in-review",
       "reviewPriority": "normal"
     },
@@ -2627,7 +2627,7 @@
         "reason": "Página parece artigo, evento, perfil, navegação ou página genérica."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -2668,7 +2668,7 @@
         "reason": "Fonte retornou HTTP 403."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -2706,7 +2706,7 @@
       "sourceEvidence": "",
       "verificationStatus": null,
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "in-review",
       "reviewPriority": "high"
     },
@@ -2761,7 +2761,7 @@
         "reason": "Página parece artigo, evento, perfil, navegação ou página genérica."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -2790,7 +2790,7 @@
         "reason": "Fonte retornou HTTP 403."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -2878,7 +2878,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -2952,7 +2952,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -2981,7 +2981,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -2997,7 +2997,7 @@
       "sourceEvidence": "",
       "verificationStatus": null,
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "in-review",
       "reviewPriority": "normal"
     },
@@ -3013,7 +3013,7 @@
       "sourceEvidence": "",
       "verificationStatus": null,
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "in-review",
       "reviewPriority": "normal"
     },
@@ -3055,7 +3055,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -3120,7 +3120,7 @@
         "reason": "Fonte retornou HTTP 404."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -3171,7 +3171,7 @@
         "reason": "Fonte retornou HTTP 403."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -3249,7 +3249,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -3265,7 +3265,7 @@
       "sourceEvidence": "",
       "verificationStatus": null,
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "in-review",
       "reviewPriority": "normal"
     },
@@ -3294,7 +3294,7 @@
         "reason": "Página parece artigo, evento, perfil, navegação ou página genérica."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -3323,7 +3323,7 @@
         "reason": "Fonte retornou HTTP 403."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -3361,7 +3361,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -3390,7 +3390,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -3419,7 +3419,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -3517,7 +3517,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -3609,7 +3609,7 @@
         "reason": "Metadados da página não confirmam a categoria opportunities."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -3759,7 +3759,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -3788,7 +3788,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -3867,7 +3867,7 @@
         "reason": "Metadados da página não confirmam a categoria opportunities."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -3896,7 +3896,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -3925,7 +3925,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -3999,7 +3999,7 @@
         "reason": "Página parece artigo, evento, perfil, navegação ou página genérica."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -4028,7 +4028,7 @@
         "reason": "Fonte retornou HTTP 403."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -4090,7 +4090,7 @@
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -4134,7 +4134,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -4163,7 +4163,7 @@
         "reason": "Página parece artigo, evento, perfil, navegação ou página genérica."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -4207,7 +4207,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -4236,7 +4236,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -4265,7 +4265,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -4326,7 +4326,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -4355,7 +4355,7 @@
         "reason": "Fonte retornou HTTP 404."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -4384,7 +4384,7 @@
         "reason": "Fonte retornou HTTP 403."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -4413,7 +4413,7 @@
         "reason": "Fonte retornou HTTP 403."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -4465,7 +4465,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -4517,7 +4517,7 @@
         "reason": "Fonte retornou HTTP 403."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -4546,7 +4546,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -4652,7 +4652,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -4703,7 +4703,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -4754,7 +4754,7 @@
         "reason": "Metadados da página não confirmam a categoria opportunities."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -4810,7 +4810,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -4892,7 +4892,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -4921,7 +4921,7 @@
         "reason": "Fonte retornou HTTP 403."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -4950,7 +4950,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -4979,7 +4979,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -5034,7 +5034,7 @@
         "reason": "Fonte retornou HTTP 403."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -5091,7 +5091,7 @@
         "reason": "Metadados da página não confirmam a categoria opportunities."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -5120,7 +5120,7 @@
         "reason": "Página parece artigo, evento, perfil, navegação ou página genérica."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -5177,7 +5177,7 @@
         "reason": "Página parece artigo, evento, perfil, navegação ou página genérica."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -5206,7 +5206,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -5235,7 +5235,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -5264,7 +5264,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -5325,7 +5325,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -5359,7 +5359,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -5393,7 +5393,7 @@
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -5499,7 +5499,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -5563,7 +5563,7 @@
         "reason": "Página parece artigo, evento, perfil, navegação ou página genérica."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -5592,7 +5592,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -5630,7 +5630,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -5787,7 +5787,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -5833,7 +5833,7 @@
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -5885,7 +5885,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -5940,7 +5940,7 @@
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -5982,7 +5982,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -6065,7 +6065,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -6094,7 +6094,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -6123,7 +6123,7 @@
         "reason": "Fonte retornou HTTP 404."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -6152,7 +6152,7 @@
         "reason": "Página parece artigo, evento, perfil, navegação ou página genérica."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -6188,7 +6188,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -6241,7 +6241,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -6415,7 +6415,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -6591,7 +6591,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -6620,7 +6620,7 @@
         "reason": "Fonte retornou HTTP 403."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -6654,7 +6654,7 @@
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -6683,7 +6683,7 @@
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -6724,7 +6724,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -6753,7 +6753,7 @@
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -6782,7 +6782,7 @@
         "reason": "Fonte retornou HTTP 403."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -6811,7 +6811,7 @@
         "reason": "Fonte retornou HTTP 403."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -6861,7 +6861,7 @@
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -6904,7 +6904,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -6998,7 +6998,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -7033,7 +7033,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -7183,7 +7183,7 @@
         "reason": "Metadados da página não confirmam a categoria opportunities."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -7292,7 +7292,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -7343,7 +7343,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -7377,7 +7377,7 @@
         "reason": "Metadados da página não confirmam a categoria opportunities."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -7431,7 +7431,7 @@
         "reason": "Fonte retornou HTTP 429."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -7460,7 +7460,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -7489,7 +7489,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -7585,7 +7585,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -7672,7 +7672,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -7810,7 +7810,7 @@
         "reason": "Metadados da página não confirmam a categoria opportunities."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -7869,7 +7869,7 @@
         "reason": "Página parece artigo, evento, perfil, navegação ou página genérica."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -7898,7 +7898,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -7958,7 +7958,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -7980,7 +7980,7 @@
         "reason": "Falha de rede; tentar em auditoria futura."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -8009,7 +8009,7 @@
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -8045,7 +8045,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -8087,7 +8087,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -8122,7 +8122,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -8264,7 +8264,7 @@
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -8305,7 +8305,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -8334,7 +8334,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -8375,7 +8375,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -8404,7 +8404,7 @@
         "reason": "Página parece artigo, evento, perfil, navegação ou página genérica."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -8450,7 +8450,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -8502,7 +8502,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -8556,7 +8556,7 @@
         "reason": "Fonte retornou HTTP 403."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -8594,7 +8594,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -8671,7 +8671,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -8725,7 +8725,7 @@
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -8763,7 +8763,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -8797,7 +8797,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -8826,7 +8826,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -8888,7 +8888,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -8926,7 +8926,7 @@
         "reason": "Metadados da página não confirmam a categoria opportunities."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -8976,7 +8976,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -9045,7 +9045,7 @@
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -9074,7 +9074,7 @@
         "reason": "Fonte retornou HTTP 403."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -9138,7 +9138,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -9167,7 +9167,7 @@
         "reason": "Fonte retornou HTTP 403."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -9221,7 +9221,7 @@
         "reason": "Metadados da página não confirmam a categoria opportunities."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -9292,7 +9292,7 @@
         "reason": "Página parece artigo, evento, perfil, navegação ou página genérica."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -9391,7 +9391,7 @@
         "reason": "Página parece artigo, evento, perfil, navegação ou página genérica."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -9420,7 +9420,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -9449,7 +9449,7 @@
         "reason": "Fonte retornou HTTP 404."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -9483,7 +9483,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -9586,7 +9586,7 @@
         "reason": "Fonte retornou HTTP 403."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -9615,7 +9615,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -9637,7 +9637,7 @@
         "reason": "Falha de rede; tentar em auditoria futura."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -9659,7 +9659,7 @@
         "reason": "Falha de rede; tentar em auditoria futura."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -9752,7 +9752,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -9781,7 +9781,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -9810,7 +9810,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -9845,7 +9845,7 @@
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -10020,7 +10020,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -10062,7 +10062,7 @@
         "reason": "Página parece artigo, evento, perfil, navegação ou página genérica."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -10091,7 +10091,7 @@
         "reason": "Fonte retornou HTTP 403."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -10164,7 +10164,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -10193,7 +10193,7 @@
         "reason": "Fonte retornou HTTP 403."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -10226,7 +10226,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -10255,7 +10255,7 @@
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -10284,7 +10284,7 @@
         "reason": "Fonte retornou HTTP 429."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -10313,7 +10313,7 @@
         "reason": "Fonte retornou HTTP 403."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -10342,7 +10342,7 @@
         "reason": "Fonte retornou HTTP 403."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -10414,7 +10414,7 @@
         "reason": "Fonte retornou HTTP 429."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -10459,7 +10459,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -10513,7 +10513,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -10542,7 +10542,7 @@
         "reason": "Fonte retornou HTTP 429."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -10571,7 +10571,7 @@
         "reason": "Metadados da página não confirmam a categoria opportunities."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -10600,7 +10600,7 @@
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -10787,7 +10787,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -10841,7 +10841,7 @@
         "reason": "Fonte retornou HTTP 403."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -10895,7 +10895,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -10960,7 +10960,7 @@
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -10989,7 +10989,7 @@
         "reason": "Fonte retornou HTTP 403."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -11044,7 +11044,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -11084,7 +11084,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -11113,7 +11113,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -11142,7 +11142,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -11171,7 +11171,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -11212,7 +11212,7 @@
         "reason": "Fonte retornou HTTP 403."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -11241,7 +11241,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -11307,7 +11307,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -11349,7 +11349,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -11378,7 +11378,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -11438,7 +11438,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -11493,7 +11493,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -11591,7 +11591,7 @@
         "reason": "Página parece artigo, evento, perfil, navegação ou página genérica."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -11620,7 +11620,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -11671,7 +11671,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -11700,7 +11700,7 @@
         "reason": "Página parece artigo, evento, perfil, navegação ou página genérica."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -11768,7 +11768,7 @@
         "reason": "Metadados da página não confirmam a categoria opportunities."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -11797,7 +11797,7 @@
         "reason": "Fonte retornou HTTP 401."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -11835,7 +11835,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -11878,7 +11878,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -11907,7 +11907,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -11936,7 +11936,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -11965,7 +11965,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -12008,7 +12008,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -12087,7 +12087,7 @@
         "reason": "Fonte retornou HTTP 403."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -12141,7 +12141,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -12187,7 +12187,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -12248,7 +12248,7 @@
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -12367,7 +12367,7 @@
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -12396,7 +12396,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -12425,7 +12425,7 @@
         "reason": "Metadados da página não confirmam a categoria opportunities."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -12459,7 +12459,7 @@
         "reason": "Metadados da página não confirmam a categoria tools."
       },
       "firstSeen": "2026-10-23T17:21:05.512Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -12488,7 +12488,7 @@
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
       },
       "firstSeen": "2026-10-24T16:08:49.156Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -12594,7 +12594,7 @@
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
       },
       "firstSeen": "2026-10-24T16:08:49.156Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -12623,7 +12623,7 @@
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
       },
       "firstSeen": "2026-10-24T16:08:49.156Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -12678,7 +12678,7 @@
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
       },
       "firstSeen": "2026-10-24T16:08:49.156Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -12796,7 +12796,7 @@
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
       },
       "firstSeen": "2026-10-30T01:50:41.483Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -12851,7 +12851,7 @@
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
       },
       "firstSeen": "2026-10-30T01:50:41.483Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -12880,7 +12880,7 @@
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
       },
       "firstSeen": "2026-10-30T01:50:41.483Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -12909,7 +12909,7 @@
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
       },
       "firstSeen": "2026-10-30T01:50:41.483Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -12964,7 +12964,7 @@
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
       },
       "firstSeen": "2026-10-30T01:50:41.483Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -13022,7 +13022,7 @@
         "reason": "Metadados da página não confirmam a categoria opportunities."
       },
       "firstSeen": "2026-10-30T01:50:41.483Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -13051,7 +13051,7 @@
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
       },
       "firstSeen": "2026-10-30T01:50:41.483Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -13236,7 +13236,7 @@
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
       },
       "firstSeen": "2026-10-30T01:50:41.483Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -13265,7 +13265,7 @@
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
       },
       "firstSeen": "2026-10-30T01:50:41.483Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -13294,7 +13294,7 @@
         "reason": "Metadados da página não confirmam a categoria opportunities."
       },
       "firstSeen": "2026-10-30T01:50:41.483Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -13323,7 +13323,7 @@
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
       },
       "firstSeen": "2026-10-30T01:50:41.483Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -13352,7 +13352,7 @@
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
       },
       "firstSeen": "2026-10-30T01:50:41.483Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -13407,7 +13407,7 @@
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
       },
       "firstSeen": "2026-10-30T01:50:41.483Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -13436,7 +13436,7 @@
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
       },
       "firstSeen": "2026-10-30T01:50:41.483Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -13465,7 +13465,7 @@
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
       },
       "firstSeen": "2026-10-30T01:50:41.483Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -13520,7 +13520,7 @@
         "reason": "Metadados da página não confirmam a categoria opportunities."
       },
       "firstSeen": "2026-10-30T01:50:41.483Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -13549,7 +13549,7 @@
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
       },
       "firstSeen": "2026-10-30T01:50:41.483Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -13604,7 +13604,7 @@
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
       },
       "firstSeen": "2026-10-30T01:50:41.483Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -13633,7 +13633,7 @@
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
       },
       "firstSeen": "2026-10-30T01:50:41.483Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -13662,7 +13662,7 @@
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
       },
       "firstSeen": "2026-10-30T01:50:41.483Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -13743,7 +13743,7 @@
         "reason": "Metadados da página não confirmam a categoria opportunities."
       },
       "firstSeen": "2026-10-30T01:50:41.483Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -13772,7 +13772,7 @@
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
       },
       "firstSeen": "2026-10-30T01:50:41.483Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -13801,7 +13801,7 @@
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
       },
       "firstSeen": "2026-10-30T01:50:41.483Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -13882,7 +13882,7 @@
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
       },
       "firstSeen": "2026-10-30T01:50:41.483Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -14015,7 +14015,7 @@
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
       },
       "firstSeen": "2026-10-30T01:50:41.483Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -14044,7 +14044,7 @@
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
       },
       "firstSeen": "2026-10-30T01:50:41.483Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -14154,7 +14154,7 @@
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
       },
       "firstSeen": "2026-10-30T01:50:41.483Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -14209,7 +14209,7 @@
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
       },
       "firstSeen": "2026-10-30T01:50:41.483Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -14238,7 +14238,7 @@
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
       },
       "firstSeen": "2026-10-30T01:50:41.483Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -14267,7 +14267,7 @@
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
       },
       "firstSeen": "2026-10-30T01:50:41.483Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -14322,7 +14322,7 @@
         "reason": "Metadados da página não confirmam a categoria opportunities."
       },
       "firstSeen": "2026-10-30T01:50:41.483Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -14403,7 +14403,7 @@
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
       },
       "firstSeen": "2026-10-30T01:50:41.483Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -14432,7 +14432,7 @@
         "reason": "Metadados da página não confirmam a categoria opportunities."
       },
       "firstSeen": "2026-10-30T01:50:41.483Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -14461,7 +14461,7 @@
         "reason": "Metadados da página não confirmam a categoria opportunities."
       },
       "firstSeen": "2026-10-30T01:50:41.483Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -14510,7 +14510,7 @@
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
       },
       "firstSeen": "2026-10-30T01:50:41.483Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -14594,7 +14594,7 @@
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
       },
       "firstSeen": "2026-10-30T01:50:41.483Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -14727,7 +14727,7 @@
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
       },
       "firstSeen": "2026-10-30T01:50:41.483Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -14846,7 +14846,7 @@
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
       },
       "firstSeen": "2026-10-30T01:50:41.483Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -14875,7 +14875,7 @@
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
       },
       "firstSeen": "2026-10-30T01:50:41.483Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -14933,7 +14933,7 @@
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
       },
       "firstSeen": "2026-10-30T01:50:41.483Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -14962,7 +14962,7 @@
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
       },
       "firstSeen": "2026-10-30T01:50:41.483Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -14991,7 +14991,7 @@
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
       },
       "firstSeen": "2026-10-30T01:50:41.483Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -15020,7 +15020,7 @@
         "reason": "Metadados da página não confirmam a categoria opportunities."
       },
       "firstSeen": "2026-10-30T01:50:41.483Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -15049,7 +15049,7 @@
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
       },
       "firstSeen": "2026-10-30T01:50:41.483Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -15078,7 +15078,7 @@
         "reason": "Metadados da página não confirmam a categoria opportunities."
       },
       "firstSeen": "2026-10-30T01:50:41.483Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -15133,7 +15133,7 @@
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
       },
       "firstSeen": "2026-10-30T01:50:41.483Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -15262,7 +15262,7 @@
         "reason": "Metadados da página não confirmam a categoria opportunities."
       },
       "firstSeen": "2026-10-30T01:50:41.483Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -15317,7 +15317,7 @@
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
       },
       "firstSeen": "2026-10-30T01:50:41.483Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -15436,7 +15436,7 @@
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
       },
       "firstSeen": "2026-10-30T01:50:41.483Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -15588,7 +15588,7 @@
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
       },
       "firstSeen": "2026-10-30T01:50:41.483Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -15617,7 +15617,7 @@
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
       },
       "firstSeen": "2026-10-30T01:50:41.483Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -15698,7 +15698,7 @@
         "reason": "Metadados da página não confirmam a categoria opportunities."
       },
       "firstSeen": "2026-10-30T01:50:41.483Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -15753,7 +15753,7 @@
         "reason": "Metadados da página não confirmam a categoria opportunities."
       },
       "firstSeen": "2026-10-30T01:50:41.483Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -15954,7 +15954,7 @@
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
       },
       "firstSeen": "2026-10-30T18:07:58.707Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -15983,7 +15983,7 @@
         "reason": "Metadados da página não confirmam a categoria opportunities."
       },
       "firstSeen": "2026-10-30T18:07:58.707Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -16262,7 +16262,7 @@
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
       },
       "firstSeen": "2026-10-30T18:07:58.707Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -16317,7 +16317,7 @@
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
       },
       "firstSeen": "2026-10-30T18:07:58.707Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -16436,7 +16436,7 @@
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
       },
       "firstSeen": "2026-10-30T18:07:58.707Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -16510,7 +16510,7 @@
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
       },
       "firstSeen": "2026-10-30T18:07:58.707Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -16539,7 +16539,7 @@
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
       },
       "firstSeen": "2026-10-30T18:07:58.707Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -16601,7 +16601,7 @@
       "sourceEvidence": "",
       "verificationStatus": null,
       "firstSeen": "2026-10-30T18:07:58.707Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "in-review",
       "reviewPriority": "high"
     },
@@ -16617,7 +16617,7 @@
       "sourceEvidence": "",
       "verificationStatus": null,
       "firstSeen": "2026-10-30T18:07:58.707Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "in-review",
       "reviewPriority": "normal"
     },
@@ -16646,7 +16646,7 @@
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
       },
       "firstSeen": "2026-10-30T18:07:58.707Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -16675,7 +16675,7 @@
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
       },
       "firstSeen": "2026-10-30T18:07:58.707Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -16704,7 +16704,7 @@
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
       },
       "firstSeen": "2026-10-30T18:07:58.707Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -16733,7 +16733,7 @@
         "reason": "Metadados da página não confirmam a categoria opportunities."
       },
       "firstSeen": "2026-10-30T18:07:58.707Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -16945,7 +16945,7 @@
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
       },
       "firstSeen": "2026-10-31T17:18:49.401Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -16974,7 +16974,7 @@
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
       },
       "firstSeen": "2026-10-31T17:18:49.401Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -17032,7 +17032,7 @@
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
       },
       "firstSeen": "2026-10-31T17:18:49.401Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -17087,7 +17087,7 @@
         "reason": "Metadados da página não confirmam a categoria opportunities."
       },
       "firstSeen": "2026-10-31T17:18:49.401Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -17116,7 +17116,7 @@
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
       },
       "firstSeen": "2026-10-31T17:18:49.401Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -17145,7 +17145,7 @@
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
       },
       "firstSeen": "2026-10-31T17:18:49.401Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -17326,7 +17326,7 @@
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
       },
       "firstSeen": "2026-10-31T17:18:49.401Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -17355,7 +17355,7 @@
         "reason": "Metadados da página não confirmam a categoria opportunities."
       },
       "firstSeen": "2026-10-31T17:18:49.401Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -17384,7 +17384,7 @@
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
       },
       "firstSeen": "2026-10-31T17:18:49.401Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -17413,7 +17413,7 @@
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
       },
       "firstSeen": "2026-10-31T17:18:49.401Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -17460,7 +17460,7 @@
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
       },
       "firstSeen": "2026-11-01T18:00:41.384Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -17489,7 +17489,7 @@
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
       },
       "firstSeen": "2026-11-01T18:00:41.384Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -17634,7 +17634,7 @@
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
       },
       "firstSeen": "2026-11-02T21:50:50.466Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -17663,7 +17663,7 @@
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
       },
       "firstSeen": "2026-11-02T21:50:50.466Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -18760,7 +18760,7 @@
         "reason": "Metadados da página não confirmam a categoria opportunities."
       },
       "firstSeen": "2026-11-06T17:58:48.998Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -41343,7 +41343,7 @@
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
       },
       "firstSeen": "2026-11-08T19:21:36.370Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -43210,7 +43210,7 @@
         "reason": "Fonte retornou HTTP 403."
       },
       "firstSeen": "2026-11-10T00:24:54.217Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -46883,7 +46883,7 @@
         "reason": "Fonte retornou HTTP 403."
       },
       "firstSeen": "2026-11-10T20:02:55.219Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -46912,7 +46912,7 @@
         "reason": "Fonte retornou HTTP 403."
       },
       "firstSeen": "2026-11-10T20:02:55.219Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -46941,7 +46941,7 @@
         "reason": "Fonte retornou HTTP 403."
       },
       "firstSeen": "2026-11-10T20:02:55.219Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -46970,7 +46970,7 @@
         "reason": "Fonte retornou HTTP 403."
       },
       "firstSeen": "2026-11-10T20:02:55.219Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -47025,7 +47025,7 @@
         "reason": "Fonte retornou HTTP 403."
       },
       "firstSeen": "2026-11-10T20:44:59.238Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -47116,7 +47116,7 @@
         "reason": "Fonte retornou HTTP 502."
       },
       "firstSeen": "2026-11-10T20:44:59.238Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -47318,7 +47318,7 @@
         "reason": "Fonte retornou HTTP 403."
       },
       "firstSeen": "2026-11-10T20:44:59.238Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -47345,7 +47345,7 @@
         "reason": "Timeout; tentar em auditoria futura."
       },
       "firstSeen": "2026-11-10T20:44:59.238Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -47676,7 +47676,7 @@
         "reason": "Fonte retornou HTTP 502."
       },
       "firstSeen": "2026-11-10T20:44:59.238Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -47715,7 +47715,7 @@
         "reason": "Fonte retornou HTTP 502."
       },
       "firstSeen": "2026-11-10T20:44:59.238Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -47826,7 +47826,7 @@
         "reason": "Fonte retornou HTTP 403."
       },
       "firstSeen": "2026-11-10T20:44:59.238Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -47894,7 +47894,7 @@
         "reason": "Fonte retornou HTTP 403."
       },
       "firstSeen": "2026-11-10T20:44:59.238Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -47933,7 +47933,7 @@
         "reason": "Fonte retornou HTTP 502."
       },
       "firstSeen": "2026-11-10T20:44:59.238Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -47988,7 +47988,7 @@
         "reason": "Fonte retornou HTTP 403."
       },
       "firstSeen": "2026-11-10T20:44:59.238Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -48291,7 +48291,7 @@
         "reason": "Fonte retornou HTTP 403."
       },
       "firstSeen": "2026-11-10T20:44:59.238Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -48346,7 +48346,7 @@
         "reason": "Fonte retornou HTTP 403."
       },
       "firstSeen": "2026-11-10T20:44:59.238Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -48515,7 +48515,7 @@
         "reason": "Fonte retornou HTTP 502."
       },
       "firstSeen": "2026-11-10T20:44:59.238Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -48674,7 +48674,7 @@
         "reason": "Fonte retornou HTTP 403."
       },
       "firstSeen": "2026-11-10T20:44:59.238Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -48909,7 +48909,7 @@
         "reason": "Fonte retornou HTTP 403."
       },
       "firstSeen": "2026-11-10T20:44:59.238Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -48974,7 +48974,7 @@
         "reason": "Fonte retornou HTTP 502."
       },
       "firstSeen": "2026-11-10T20:44:59.238Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -49070,7 +49070,7 @@
         "reason": "Timeout; tentar em auditoria futura."
       },
       "firstSeen": "2026-11-10T20:44:59.238Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -49135,7 +49135,7 @@
         "reason": "Fonte retornou HTTP 502."
       },
       "firstSeen": "2026-11-10T20:44:59.238Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -49164,7 +49164,7 @@
         "reason": "Fonte retornou HTTP 403."
       },
       "firstSeen": "2026-11-10T20:44:59.238Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -49269,7 +49269,7 @@
         "reason": "Timeout; tentar em auditoria futura."
       },
       "firstSeen": "2026-11-10T20:44:59.238Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -49324,7 +49324,7 @@
         "reason": "Fonte retornou HTTP 403."
       },
       "firstSeen": "2026-11-10T20:44:59.238Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -49405,7 +49405,7 @@
         "reason": "Fonte retornou HTTP 403."
       },
       "firstSeen": "2026-11-10T20:44:59.238Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -49470,7 +49470,7 @@
         "reason": "Fonte retornou HTTP 502."
       },
       "firstSeen": "2026-11-10T20:44:59.238Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -50190,7 +50190,7 @@
         "reason": "Timeout; tentar em auditoria futura."
       },
       "firstSeen": "2026-11-10T20:44:59.238Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -50269,7 +50269,7 @@
         "reason": "Timeout; tentar em auditoria futura."
       },
       "firstSeen": "2026-11-10T20:44:59.238Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -50298,7 +50298,7 @@
         "reason": "Fonte retornou HTTP 403."
       },
       "firstSeen": "2026-11-10T20:44:59.238Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -50405,7 +50405,7 @@
         "reason": "Fonte retornou HTTP 403."
       },
       "firstSeen": "2026-11-10T20:44:59.238Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -50460,7 +50460,7 @@
         "reason": "Fonte retornou HTTP 403."
       },
       "firstSeen": "2026-11-10T20:44:59.238Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -50513,7 +50513,7 @@
         "reason": "Timeout; tentar em auditoria futura."
       },
       "firstSeen": "2026-11-10T20:44:59.238Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -50698,7 +50698,7 @@
         "reason": "Timeout; tentar em auditoria futura."
       },
       "firstSeen": "2026-11-10T20:44:59.238Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -50862,7 +50862,7 @@
         "reason": "Fonte retornou HTTP 403."
       },
       "firstSeen": "2026-11-10T20:44:59.238Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -51190,7 +51190,7 @@
         "reason": "Timeout; tentar em auditoria futura."
       },
       "firstSeen": "2026-11-10T20:44:59.238Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -51255,7 +51255,7 @@
         "reason": "Fonte retornou HTTP 500."
       },
       "firstSeen": "2026-11-10T20:44:59.238Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -51450,7 +51450,7 @@
         "reason": "Fonte retornou HTTP 500."
       },
       "firstSeen": "2026-11-10T20:44:59.238Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -52061,7 +52061,7 @@
         "reason": "Timeout; tentar em auditoria futura."
       },
       "firstSeen": "2026-11-10T20:44:59.238Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -52656,7 +52656,7 @@
         "reason": "Fonte retornou HTTP 500."
       },
       "firstSeen": "2026-11-10T20:44:59.238Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -52685,7 +52685,7 @@
         "reason": "Fonte retornou HTTP 403."
       },
       "firstSeen": "2026-11-10T20:44:59.238Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -52766,7 +52766,7 @@
         "reason": "Fonte retornou HTTP 403."
       },
       "firstSeen": "2026-11-10T20:44:59.238Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -52873,7 +52873,7 @@
         "reason": "Fonte retornou HTTP 403."
       },
       "firstSeen": "2026-11-10T20:44:59.238Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -52912,7 +52912,7 @@
         "reason": "Fonte retornou HTTP 500."
       },
       "firstSeen": "2026-11-10T20:44:59.238Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -52941,7 +52941,7 @@
         "reason": "Fonte retornou HTTP 403."
       },
       "firstSeen": "2026-11-10T20:44:59.238Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -53372,7 +53372,7 @@
         "reason": "Fonte retornou HTTP 403."
       },
       "firstSeen": "2026-11-10T20:44:59.238Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -53411,7 +53411,7 @@
         "reason": "Fonte retornou HTTP 500."
       },
       "firstSeen": "2026-11-10T20:44:59.238Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -53606,7 +53606,7 @@
         "reason": "Fonte retornou HTTP 500."
       },
       "firstSeen": "2026-11-10T20:44:59.238Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -53852,7 +53852,7 @@
         "reason": "Fonte retornou HTTP 403."
       },
       "firstSeen": "2026-11-10T20:44:59.238Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -53985,7 +53985,7 @@
         "reason": "Fonte retornou HTTP 403."
       },
       "firstSeen": "2026-11-10T20:44:59.238Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -54189,7 +54189,7 @@
         "reason": "Fonte retornou HTTP 500."
       },
       "firstSeen": "2026-11-10T20:44:59.238Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -54322,7 +54322,7 @@
         "reason": "Fonte retornou HTTP 403."
       },
       "firstSeen": "2026-11-10T20:44:59.238Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -54377,7 +54377,7 @@
         "reason": "Fonte retornou HTTP 403."
       },
       "firstSeen": "2026-11-10T20:44:59.238Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -54496,7 +54496,7 @@
         "reason": "Fonte retornou HTTP 500."
       },
       "firstSeen": "2026-11-10T20:44:59.238Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -54687,7 +54687,7 @@
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
       },
       "firstSeen": "2026-11-10T23:30:50.469Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -54984,7 +54984,7 @@
         "reason": "Metadados da página não confirmam a categoria datasets."
       },
       "firstSeen": "2026-11-10T23:30:50.469Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -55021,7 +55021,7 @@
         "reason": "Metadados da página não confirmam a categoria datasets."
       },
       "firstSeen": "2026-11-10T23:30:50.469Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -55170,7 +55170,7 @@
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
       },
       "firstSeen": "2026-11-10T23:30:50.469Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -55243,7 +55243,7 @@
         "reason": "Metadados da página não confirmam a categoria datasets."
       },
       "firstSeen": "2026-11-10T23:30:50.469Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -55280,7 +55280,7 @@
         "reason": "Fonte retornou HTTP 403."
       },
       "firstSeen": "2026-11-10T23:30:50.469Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -55321,7 +55321,7 @@
         "reason": "Metadados da página não confirmam a categoria datasets."
       },
       "firstSeen": "2026-11-10T23:30:50.469Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -55422,7 +55422,7 @@
         "reason": "Metadados da página não confirmam a categoria datasets."
       },
       "firstSeen": "2026-11-10T23:30:50.469Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "normal"
     },
@@ -55647,7 +55647,7 @@
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
       },
       "firstSeen": "2026-11-11T18:42:47.746Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -55705,7 +55705,7 @@
         "reason": "Fonte retornou HTTP 403."
       },
       "firstSeen": "2026-11-11T18:42:47.746Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -55821,7 +55821,7 @@
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
       },
       "firstSeen": "2026-11-11T18:42:47.746Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -55850,7 +55850,7 @@
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
       },
       "firstSeen": "2026-11-11T18:42:47.746Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -55989,7 +55989,7 @@
         "reason": "Fonte retornou HTTP 403."
       },
       "firstSeen": "2026-11-11T18:42:47.746Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -56456,7 +56456,7 @@
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
       },
       "firstSeen": "2026-11-11T18:42:47.746Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -57424,7 +57424,7 @@
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
       },
       "firstSeen": "2026-11-11T18:42:47.746Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -57618,7 +57618,7 @@
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
       },
       "firstSeen": "2026-11-11T18:42:47.746Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -58601,7 +58601,7 @@
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
       },
       "firstSeen": "2026-11-11T18:42:47.746Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -59204,7 +59204,7 @@
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
       },
       "firstSeen": "2026-11-11T18:42:47.746Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -59262,7 +59262,7 @@
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
       },
       "firstSeen": "2026-11-11T22:15:06.982Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -59461,7 +59461,7 @@
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
       },
       "firstSeen": "2026-11-11T22:15:06.982Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
       "status": "pending",
       "reviewPriority": "high"
     },
@@ -60274,10 +60274,6 @@
       "resourceLinks": [],
       "sourceEvidence": "",
       "verificationStatus": null,
-      "firstSeen": "2026-11-12T18:57:10.480Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
-      "status": "pending",
-      "reviewPriority": "high",
       "audit": {
         "checkedAt": "2026-11-12T18:57:10.786Z",
         "httpStatus": 403,
@@ -60290,7 +60286,11 @@
         "resourceLinks": [],
         "result": "inconclusive",
         "reason": "Fonte retornou HTTP 403."
-      }
+      },
+      "firstSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
+      "status": "pending",
+      "reviewPriority": "high"
     },
     {
       "id": "1d3541d177a8863e0cc111e6109a91af407a6ff6a8e4386d12e2a72026ce0ee1",
@@ -60539,10 +60539,6 @@
       "resourceLinks": [],
       "sourceEvidence": "",
       "verificationStatus": null,
-      "firstSeen": "2026-11-12T18:57:10.480Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
-      "status": "pending",
-      "reviewPriority": "high",
       "audit": {
         "checkedAt": "2026-11-12T18:57:10.786Z",
         "httpStatus": 200,
@@ -60590,7 +60586,11 @@
         "resourceLinks": [],
         "result": "weak_category_evidence",
         "reason": "Metadados da página não confirmam a categoria opportunities."
-      }
+      },
+      "firstSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
+      "status": "pending",
+      "reviewPriority": "high"
     },
     {
       "id": "407a5d8b50f50cb3ae081faff3427559fc64735aa8e02c09b8c44f00b687d03a",
@@ -60603,10 +60603,6 @@
       "resourceLinks": [],
       "sourceEvidence": "",
       "verificationStatus": null,
-      "firstSeen": "2026-11-12T18:57:10.480Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
-      "status": "pending",
-      "reviewPriority": "high",
       "audit": {
         "checkedAt": "2026-11-12T18:57:10.786Z",
         "httpStatus": 200,
@@ -60619,7 +60615,11 @@
         "resourceLinks": [],
         "result": "needs_editorial_review",
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
-      }
+      },
+      "firstSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
+      "status": "pending",
+      "reviewPriority": "high"
     },
     {
       "id": "40a6f55f974c207cc8ae907024e741d280fae2aa7ad3c82e572dc69abea3142b",
@@ -61047,10 +61047,6 @@
       "resourceLinks": [],
       "sourceEvidence": "",
       "verificationStatus": null,
-      "firstSeen": "2026-11-12T18:57:10.480Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
-      "status": "pending",
-      "reviewPriority": "high",
       "audit": {
         "checkedAt": "2026-11-12T18:57:10.786Z",
         "httpStatus": 200,
@@ -61063,7 +61059,11 @@
         "resourceLinks": [],
         "result": "needs_editorial_review",
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
-      }
+      },
+      "firstSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
+      "status": "pending",
+      "reviewPriority": "high"
     },
     {
       "id": "63f497db6b2e5bc37738810c8834ca0f4bf0b9ee3ef403bd2bd464ee22904eea",
@@ -61399,10 +61399,6 @@
       "resourceLinks": [],
       "sourceEvidence": "",
       "verificationStatus": null,
-      "firstSeen": "2026-11-12T18:57:10.480Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
-      "status": "pending",
-      "reviewPriority": "high",
       "audit": {
         "checkedAt": "2026-11-12T18:57:10.786Z",
         "httpStatus": 403,
@@ -61415,7 +61411,11 @@
         "resourceLinks": [],
         "result": "inconclusive",
         "reason": "Fonte retornou HTTP 403."
-      }
+      },
+      "firstSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
+      "status": "pending",
+      "reviewPriority": "high"
     },
     {
       "id": "82e4b5fe7e575b36a082447b3d7c8f66f5be7b409147c917f36d0108f9e93e94",
@@ -62455,10 +62455,6 @@
       "resourceLinks": [],
       "sourceEvidence": "",
       "verificationStatus": null,
-      "firstSeen": "2026-11-12T18:57:10.480Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
-      "status": "pending",
-      "reviewPriority": "high",
       "audit": {
         "checkedAt": "2026-11-12T18:57:10.786Z",
         "httpStatus": 200,
@@ -62471,7 +62467,11 @@
         "resourceLinks": [],
         "result": "weak_category_evidence",
         "reason": "Metadados da página não confirmam a categoria opportunities."
-      }
+      },
+      "firstSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
+      "status": "pending",
+      "reviewPriority": "high"
     },
     {
       "id": "f05b929ad9c772b9a06f76d168206c98198243ae3b553f6d0cd22672f591b5ce",
@@ -62571,10 +62571,6 @@
       "resourceLinks": [],
       "sourceEvidence": "",
       "verificationStatus": null,
-      "firstSeen": "2026-11-12T18:57:10.480Z",
-      "lastSeen": "2026-11-12T18:57:10.480Z",
-      "status": "pending",
-      "reviewPriority": "high",
       "audit": {
         "checkedAt": "2026-11-12T18:57:10.786Z",
         "httpStatus": 403,
@@ -62587,7 +62583,11 @@
         "resourceLinks": [],
         "result": "inconclusive",
         "reason": "Fonte retornou HTTP 403."
-      }
+      },
+      "firstSeen": "2026-11-12T18:57:10.480Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
+      "status": "pending",
+      "reviewPriority": "high"
     },
     {
       "id": "fd4a64c543e89d79bda80682a9a7f44275a0efd9b49b01f94bfec9b33fd63490",
@@ -62623,6 +62623,99 @@
             "label": "Download the report here."
           }
         ],
+        "result": "needs_editorial_review",
+        "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
+      }
+    },
+    {
+      "id": "0b13e5c4bab2ff9b8cc35910b0751681a445afed5406f8d43a2a617a581c65ad",
+      "title": "DSTI-NRF Policy Fellowship Programme 2027 (Funded)",
+      "url": "https://opportunitydesk.org/2026/11/12/dsti-nrf-policy-fellowship-programme-2027",
+      "category": "opportunities",
+      "providers": [
+        "Opportunity Desk"
+      ],
+      "resourceLinks": [],
+      "sourceEvidence": "",
+      "verificationStatus": null,
+      "firstSeen": "2026-11-12T21:54:53.528Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
+      "status": "pending",
+      "reviewPriority": "high",
+      "audit": {
+        "checkedAt": "2026-11-12T21:54:53.784Z",
+        "httpStatus": 403,
+        "finalUrl": "https://opportunitydesk.org/2026/11/12/dsti-nrf-policy-fellowship-programme-2027",
+        "contentType": "text/html; charset=UTF-8",
+        "pageTitle": "Just a moment...",
+        "pageDescription": "",
+        "evidenceText": "Just a moment...",
+        "structuredData": [],
+        "resourceLinks": [],
+        "result": "inconclusive",
+        "reason": "Fonte retornou HTTP 403."
+      }
+    },
+    {
+      "id": "b0ed787ecf17a1cd01379b4bf5bbdf5118c0bc0ebee4a104f5d02da8a2ef8521",
+      "title": "&#8220;A government that &#8216;gets it’&#8221;: Canada recommits to federal funding for news",
+      "url": "https://www.niemanlab.org/2026/11/a-government-that-gets-it-canada-recommits-to-federal-funding-for-news",
+      "category": "uncategorized",
+      "providers": [
+        "Nieman Lab"
+      ],
+      "resourceLinks": [],
+      "sourceEvidence": "",
+      "verificationStatus": null,
+      "firstSeen": "2026-11-12T21:54:53.528Z",
+      "lastSeen": "2026-11-12T21:54:53.528Z",
+      "status": "pending",
+      "reviewPriority": "high",
+      "audit": {
+        "checkedAt": "2026-11-12T21:54:53.784Z",
+        "httpStatus": 200,
+        "finalUrl": "https://www.niemanlab.org/2026/11/a-government-that-gets-it-canada-recommits-to-federal-funding-for-news/",
+        "contentType": "text/html; charset=UTF-8",
+        "pageTitle": "&#8220;A government that &#8216;gets it’&#8221;: Canada recommits to federal funding for news | Nieman Journalism Lab",
+        "pageDescription": "The new budget would make a local reporting program permanent and extend a 35% tax credit on newsroom salaries. The support makes “a massive, massive…",
+        "evidenceText": "“A government that ‘gets it’”: Canada recommits to federal funding for news | Nieman Journalism Lab Get Nieman Lab in your inbox. All the latest headlines and insights from the world of digital journalism and publishing. Our daily newsletter is a must-read from newsrooms to executive suites. Leave this empty Email address Name (optional) Subscribe We will never sell your address. Prefer a weekly email? Nearly there &mdash; check your email. We have sent a confirmation link to . Click it and you are on the list. If it has not turned up in a minute or two, it may be in your spam folder. Subscribe another address “A government that ‘gets it’”: Canada recommits to federal funding for news The new budget would make a local reporting program permanent and extend a 35% tax credit on newsroom salaries. The support makes “a massive, massive difference.” Parliament Hill in Ottawa, Ontario By Sarah Scire Nov. 12, 2026, noon A Canadian program to place local reporters in underserved communities has lived from renewal to renewal. Publishers who relied on the Local Journalism Initiative couldn’t be sure whether the money would be there again. That changed last week when Canada proposed a federal budget that would make the Local Journalism Initiative permanent. The 2026 budget would increase LJI funding to $134 million over four years with $41 million in annual ongoing funding after that. (Figures are, naturally, in Canadian dollars.) For the budget to be finalized, it must pass Parliament . With Prime Minister Mark Carney’s party in the majority, it’s expected to. Expanding the LJI is not even the biggest piece of federal help for newsrooms, according to Paul Deegan , president and CEO of the news industry advocacy group News Media Canada . The same budget extends a 35% tax credit on newsroom salaries through 2028 and opens it to radio and television newsrooms for the first time. The tax credit will cost $501 million over the next five years, according to the budget. Thanks to the Online News Act , Canadian newsrooms also get funding from Google. And then there’s Canadian investment in public media; the 2026 budget added $300 million over two years to CBC/Radio-Canada “to strengthen its capacity to meet the evolving needs of Canadians across the country.” I asked Deegan: How did Canadian publishers secure so much federal funding for news? “We have a government that ‘gets it,’” Deegan said. “They see what Big Tech monopolists have done to local news. They know the labor tax credit is the leading driver of maintaining and growing newsroom headcount.” RELATED ARTICLE California’s big local news bill becomes law Laura Hazard Owen October 1, 2026 There have been similar proposals and experiments in the United States, including a new tax credit in California . But Canada is much further down the road. The country can offer lessons on what it looks like when a federal government commits to supporting journalism. “The tax credit is the big one” The labor tax credit refunds 35% of a newsroom employee’s salary, up to $29,750 per journalist per year . The percentage had been scheduled to fall to 25% at the end of 2026. “In terms of employing the [largest] number of journalists and keeping newsroom employment stability, the labor tax credit is number one,” Deegan said. There’s also the Online News Act which has brought in $100 million of Google money annually. Of that amount, $63 million is set aside for news publishers. (Meta blocked news on Facebook and Instagram in Canada rather than pay under the Online News Act.) Publishers receive around $17,000 per journalist per year. “That’s about $47,000 per journalist per year from those two measures,” Deegan said. “That just makes a massive, massive difference.” In the U.S., some ideas for funding local journalism have been criticized as helping large chain newspapers — including chains that have hollowed out local newsrooms for years. Deegan — whose news industry group counts Postmedia and Torstar as members — acknowledged that the largest share of tax credit dollars goes to the largest employers. But News Media Canada also represents small and digital-only publications, and Deegan noted the smallest Canadian outlets face another problem. To qualify for the tax credit, an organization must produce original news content and regularly employ at least two journalists “at arm’s length” from its owners. An advisory board found the second rule excludes small “mom-and-pop” newsrooms . Reaching the underserved The Local Journalism Initiative is a more targeted program than the tax credit. Launched in 2019, it was designed to support local and community news in underserved areas . The LJI program supports about 470 reporting positions in roughly 1,000 communities across Canada. Even generous government subsidies have not stopped losses in local news completely. But early results showed the LJI increased reporting capacity and local news in “news poverty” communities with limited local news offerings. The same evaluation identified reaching “news deserts” — communities with no existing local news outlets — and Indigenous communities as obstacles. “Since LJI is demand driven, funding allocation across the country varies and gaps remain in some areas, such as news deserts,” the report reads. Later, the report notes that allowing news startups “could better support attraction and retainment of journalists” in the neediest communities. Many of the newsrooms receiving the LJI funding are small. Deegan described family-owned weekly newspapers with circulations as low as 800. Funding provides a local journalist to report on “cops, courts, city hall, and the school board.” “Without those LJI journalists in some of those communities, those things simply wouldn’t be covered,” he said. Some underserved communities, particularly in northern Canada, struggle to hire reporters given high living costs and remote locations. “Even with the grant, it’s just hard to recruit and find people,” Deegan noted. How Canada got (and kept) its funding Deegan points to two factors that have made Canada’s federal funding for news work. The first is distance. Publishers get LJI money from one of three administrator organizations: News Media Canada, Community Radio Fund of Canada , or the Consortium of Official Language Minority Community Media . These organizations — not the government itself — administer the funds and an independent board advises on who qualifies for the tax credit. “To avoid perceptions of conflict of interest, the government ensured that third parties adjudicate who receives local journalism initiative reporters and who is eligible for the labor tax credit,” Deegan said. The second factor applies to the Online News Act and, more generally, to Canadian politics. “When it comes to holding those platforms to account, one of the reasons we have been successful is that we have a ban [on] corporate political financing at the federal level in Canada,” Deegan said. “These companies sprinkle goodies around to friendly academics, think tanks, and other useful idiots to do some of their bidding, but our government sees through that nonsense.” Get Nieman Lab&rsquo;s Daily Digest The most important stories about journalism and the future of news, delivered to your inbox every afternoon. Subscribe Sarah Scire is deputy editor of Nieman Lab. You can reach her via email ( [email protected] ), Twitter , Bluesky , or Signal (scire.99). November 12, 2026 See more on   Local News Tags Canada federal funding Local Journalism Initiative local news Online News Act tax credits The latest from Nieman Lab AI is becoming an information gateway. Audiences still don’t want it making their news. An average of 24% of respondents across nine countries said they'd seen a label noting that content was made with AI in the last week, and 20% had seen a bullet-point AI news summary. Felix M. Simon Some local news outlets are losing physical newsrooms Hanaa' Tameez With event costs up and funding down, journalism organizations cancel conferences and cut staff ONA, OpenNews, and others see troubled times ahead, so it's goodbye to \"rubber chicken dinners.\" Laura Hazard Owen Student journalists are reporting more local news for real audiences. Their professors are exhausted. A new study finds that journalism school faculty — charged with putting more student work in front of non-student readers — often serve as a hidden infrastructure for local news. Burnout is a risk. Joshua Benton “It’s either this or death”: Canada renews the Local Journalism Initiative and extends journalism tax credit Sophie Culpepper Foundation Reports Lab Storyboard Help advance the Nieman Foundation's mission “to promote and elevate the standards of journalism” by making a donation . Subscribe Bluesky Twitter Instagram Facebook Nieman Foundation for Journalism at Harvard Walter Lippmann House, One Francis Ave. Cambridge, MA 02138 (617) 495-2237 &copy; 2026 by the President and Fellows of Harvard College Harvard University Trademark Privacy Digital Accessibility Get Nieman Lab in your inbox. All the latest headlines and insights from the world of digital journalism and publishing. Our daily newsletter is a must-read from newsrooms to executive suites. Leave this empty Email address Name (optional) Subscribe We’ll never sell your address. Prefer a weekly email? Nearly there — check your email. We’ve sent a confirmation link to . Click it and you’re on the list. Close",
+        "structuredData": [
+          {
+            "@type": "NewsMediaOrganization",
+            "name": "Nieman Lab",
+            "description": "Nieman Lab is a project of the Nieman Foundation at Harvard that tries to help journalism figure out its future in an internet age.",
+            "url": "https://www.niemanlab.org/"
+          },
+          {
+            "@type": "WebSite",
+            "name": "Nieman Lab",
+            "description": "Nieman Lab is a project of the Nieman Foundation at Harvard that tries to help journalism figure out its future in an internet age.",
+            "url": "https://www.niemanlab.org/"
+          },
+          {
+            "@type": "WebPage",
+            "name": "“A government that ‘gets it’”: Canada recommits to federal funding for news",
+            "description": "The new budget would make a local reporting program permanent and extend a 35% tax credit on newsroom salaries. The support makes “a massive, massive difference.\"",
+            "url": "https://www.niemanlab.org/2026/11/a-government-that-gets-it-canada-recommits-to-federal-funding-for-news/",
+            "datePublished": "2026-11-12T12:00:42-05:00",
+            "dateModified": "2026-11-12T14:51:56-05:00"
+          },
+          {
+            "@type": "NewsArticle",
+            "description": "The new budget would make a local reporting program permanent and extend a 35% tax credit on newsroom salaries. The support makes “a massive, massive difference.\"",
+            "url": "https://www.niemanlab.org/2026/11/a-government-that-gets-it-canada-recommits-to-federal-funding-for-news/",
+            "author": [
+              {
+                "@type": "Person",
+                "name": "Sarah Scire",
+                "url": "https://www.niemanlab.org/author/sscire/"
+              }
+            ],
+            "datePublished": "2026-11-12T12:00:42-05:00",
+            "dateModified": "2026-11-12T14:51:56-05:00"
+          }
+        ],
+        "resourceLinks": [],
         "result": "needs_editorial_review",
         "reason": "Página acessível; categoria e recurso ainda exigem confirmação específica."
       }

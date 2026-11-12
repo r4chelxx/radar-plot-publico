@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-12T18:57:15.628Z",
+  "generatedAt": "2026-11-12T21:54:54.583Z",
   "policy": "Evidence-based category triage. Missing license is recorded as unknown when not found; complete means draft eligibility only, never approval or publication.",
   "counts": {
-    "pending_more_evidence": 1726
+    "pending_more_evidence": 1728
   },
   "categoryCounts": {
-    "uncategorized": 1601,
+    "uncategorized": 1603,
     "opportunities": 34,
     "tools": 27,
     "datasets": 64
@@ -24129,6 +24129,33 @@
       "category": "uncategorized",
       "originalCategory": "uncategorized",
       "checkedAt": "2026-11-12T18:57:10.786Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "0b13e5c4bab2ff9b8cc35910b0751681a445afed5406f8d43a2a617a581c65ad",
+      "url": "https://opportunitydesk.org/2026/11/12/dsti-nrf-policy-fellowship-programme-2027",
+      "category": "uncategorized",
+      "originalCategory": "opportunities",
+      "checkedAt": "2026-11-12T21:54:53.784Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "b0ed787ecf17a1cd01379b4bf5bbdf5118c0bc0ebee4a104f5d02da8a2ef8521",
+      "url": "https://www.niemanlab.org/2026/11/a-government-that-gets-it-canada-recommits-to-federal-funding-for-news",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-12T21:54:53.784Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
