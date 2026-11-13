@@ -2,8 +2,8 @@
   "schemaVersion": 2,
   "labelName": "Radar PLOT.",
   "labelId": "Label_3603240905167932728",
-  "pageToken": "09804855134789310515",
-  "processed": 2273,
+  "pageToken": "00530573923871186275",
+  "processed": 2274,
   "processedIdHashes": [
     "d834ea370cc911923dfd5d30418092772cf86d2ebefc5b4e79cd7ea71ec6bec1",
     "f92e23cad628376400d6d76ef2acac660c5bce0fcd1dfce6e61480417c5236f7",
@@ -2277,9 +2277,10 @@
     "c3035a75c83f637d190ba6c5f8d24c088b72af22c7fe67ace7ca2a102b4a9386",
     "d9e7f5ce8c563878cd7151485ebeb1bbc519fc9b6aa59e36540c5df062ea071e",
     "444ffe694870cd102c1ec16209aa3c076f49ac44fd3e69f5dc3307695d892ccb",
-    "b18c6f32845b7fd8d592d0572547d27092b908bfa5a030ce7e16858f1ecc695b"
+    "b18c6f32845b7fd8d592d0572547d27092b908bfa5a030ce7e16858f1ecc695b",
+    "ef74c7295733d9a135ed0d6088010aac14f0fcc4f4d5ee50dc8e536ddbbe503f"
   ],
-  "updatedAt": "2026-11-13T19:52:35.109Z",
+  "updatedAt": "2026-11-13T21:36:35.148Z",
   "complete": false,
   "source": "ChatGPT Gmail connector, read-only",
   "verification": "Historical pagination exhausted and reconciled against 2,156 unique message IDs, all read and hashed; Gmail label metadata separately reports 2,153 (different search scope possible). Snapshot only; future messages require incremental checks. This does not prove autonomous GitHub ingestion or editorial processing of every URL.",
