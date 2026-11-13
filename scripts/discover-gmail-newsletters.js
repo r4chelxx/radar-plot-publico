@@ -37,9 +37,19 @@ async function collect(fetcher=fetch,env=process.env){
     const failure=Error('Gmail API HTTP '+r.status+' '+reason);failure.gmailApiStatus=r.status;failure.gmailApiReason=reason;throw failure;
    }
   };
-  const labels=await api('labels');
-  const found=(labels.labels||[]).find(x=>x.name===label);
-  if(!found)throw Error('Gmail label not found');
+  // Label listing can itself hit Gmail's per-user quota. Fall back to Gmail's
+  // native label search so a quota response does not disable the entire collector.
+  let found=null;
+  let labelQuery=null;
+  try{
+   const labels=await api('labels');
+   found=(labels.labels||[]).find(x=>x.name===label);
+   if(!found)throw Error('Gmail label not found');
+  }catch(e){
+   if(e.gmailApiStatus===403&&/rateLimitExceeded|userRateLimitExceeded/i.test(e.gmailApiReason||'')){
+    labelQuery='label:"'+label.replace(/\\/g,'\\\\').replace(/"/g,'\\"')+'"';
+   }else throw e;
+  }
   // Page through the label rather than silently truncating to the last seven days.
   // Keep each run bounded; the cursor is saved only when the batch succeeds.
   const cursorFile=env.RADAR_GMAIL_CURSOR_FILE||'intake/gmail-backfill-cursor.json';
@@ -57,7 +67,8 @@ async function collect(fetcher=fetch,env=process.env){
   const resetCheckpoint=Boolean(legacyExhausted||labelChanged);
   const leads=[],seen=new Set(),processedIds=new Set(cursor.processedIdHashes||[]);let scanned=0,skippedAlready=0,pages=0,nextToken=(cursor.complete||resetCheckpoint)?'':(cursor.pageToken||'');
   for(let page=0;page<maxPages;page++){
-   const params=new URLSearchParams({labelIds:found.id,maxResults:String(pageSize)});
+   const params=new URLSearchParams({maxResults:String(pageSize)});
+   if(found)params.set('labelIds',found.id);else params.set('q',labelQuery);
    if(nextToken)params.set('pageToken',nextToken);
    const list=await api('messages?'+params);
    pages++;
