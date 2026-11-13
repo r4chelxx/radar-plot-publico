@@ -41,7 +41,7 @@ function audit(queueData,historyData,decisionsData,options={}){
   const history=leads[item.id];
   const catalogPublished=publishedIds.has(item.id);
   if(!history&&!catalogPublished){errors.push('Missing historical lead '+item.id);continue}
-  if(catalogPublished&&item.status!=='published'){errors.push('Catalog-published item incorrectly queued '+item.id+' '+item.status);continue}
+  if(catalogPublished&&!terminal.has(item.status)){errors.push('Catalog-published item incorrectly queued '+item.id+' '+item.status);continue}
   const decision=decisionById.get(item.id);
   const expected=terminal.has(history?.editorialStatus)?history.editorialStatus:terminal.has(decision)?decision:null;
   if(expected&&item.status!==expected)errors.push('Resolved item incorrectly queued '+item.id+' '+item.status+' vs '+expected);
