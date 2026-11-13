@@ -3,9 +3,25 @@
 const fs=require('node:fs');
 const assert=require('node:assert/strict');
 const {identity}=require('./lead-identity');
+const vm=require('node:vm');
+const path=require('node:path');
 const terminal=new Set(['published','rejected','duplicate','archived']);
-function audit(queueData,historyData,decisionsData){
+function catalogPublishedIds(){
+ const context={window:{RADAR_PARTS:{}}};vm.createContext(context);
+ const ids=new Set();
+ for(const file of ['opportunities.js','datasets.js','tools.js']){
+  const full=path.join(__dirname,'..','data',file);
+  try{vm.runInContext(fs.readFileSync(full,'utf8'),context,{filename:full});}catch{continue;}
+ }
+ for(const [category,records] of Object.entries(context.window.RADAR_PARTS||{})){
+  const keys=category==='opportunities'?['rules','apply']:category==='datasets'?['url','api','docs']:['url'];
+  for(const record of records||[])for(const key of keys){if(!record[key])continue;try{ids.add(identity(record[key]).id)}catch{}}
+ }
+ return ids;
+}
+function audit(queueData,historyData,decisionsData,options={}){
  const candidates=queueData.candidates||[];
+ const publishedIds=options.publishedIds||catalogPublishedIds();
  const leads=historyData.leads||{};
  const decisions=decisionsData.decisions||[];
  assert(Array.isArray(candidates),'Editorial queue must be an array');
@@ -23,11 +39,13 @@ function audit(queueData,historyData,decisionsData){
   try{canonicalId=identity(item.url).id}catch(e){errors.push('Unsafe queue URL '+item.id);continue}
   if(item.id!==canonicalId)errors.push('Noncanonical queue ID '+item.id);
   const history=leads[item.id];
-  if(!history){errors.push('Missing historical lead '+item.id);continue}
+  const catalogPublished=publishedIds.has(item.id);
+  if(!history&&!catalogPublished){errors.push('Missing historical lead '+item.id);continue}
+  if(catalogPublished&&item.status!=='published'){errors.push('Catalog-published item incorrectly queued '+item.id+' '+item.status);continue}
   const decision=decisionById.get(item.id);
-  const expected=terminal.has(history.editorialStatus)?history.editorialStatus:terminal.has(decision)?decision:null;
+  const expected=terminal.has(history?.editorialStatus)?history.editorialStatus:terminal.has(decision)?decision:null;
   if(expected&&item.status!==expected)errors.push('Resolved item incorrectly queued '+item.id+' '+item.status+' vs '+expected);
-  if(item.status==='published'&&history.editorialStatus!=='published'&&decision!=='published')errors.push('Unsubstantiated publication '+item.id);
+  if(item.status==='published'&&!catalogPublished&&history.editorialStatus!=='published'&&decision!=='published')errors.push('Unsubstantiated publication '+item.id);
   statuses[item.status]=(statuses[item.status]||0)+1;
   for(const p of item.providers||[])providers[p]=(providers[p]||0)+1;
  }
