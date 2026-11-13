@@ -43,7 +43,7 @@ function audit(queueData,historyData,decisionsData,options={}){
   if(!history&&!catalogPublished){errors.push('Missing historical lead '+item.id);continue}
   if(catalogPublished&&item.status!=='published'){errors.push('Catalog-published item incorrectly queued '+item.id+' '+item.status);continue}
   const decision=decisionById.get(item.id);
-  const expected=terminal.has(history.editorialStatus)?history.editorialStatus:terminal.has(decision)?decision:null;
+  const expected=terminal.has(history?.editorialStatus)?history.editorialStatus:terminal.has(decision)?decision:null;
   if(expected&&item.status!==expected)errors.push('Resolved item incorrectly queued '+item.id+' '+item.status+' vs '+expected);
   if(item.status==='published'&&!catalogPublished&&history.editorialStatus!=='published'&&decision!=='published')errors.push('Unsubstantiated publication '+item.id);
   statuses[item.status]=(statuses[item.status]||0)+1;
