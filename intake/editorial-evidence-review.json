@@ -1,14 +1,13 @@
 {
-  "generatedAt": "2026-11-13T18:31:40.490Z",
+  "generatedAt": "2026-11-13T19:05:07.840Z",
   "policy": "Evidence-based category triage. Missing license is recorded as unknown when not found; complete means draft eligibility only, never approval or publication.",
   "counts": {
-    "pending_more_evidence": 1881,
-    "evidence_complete_for_record_draft": 4
+    "pending_more_evidence": 1886
   },
   "categoryCounts": {
-    "uncategorized": 1755,
+    "uncategorized": 1760,
     "opportunities": 34,
-    "tools": 32,
+    "tools": 28,
     "datasets": 64
   },
   "records": [
@@ -10835,18 +10834,14 @@
     {
       "id": "78b7768c548f116e28d6d90a7369f932c7ec61918cce36851cdc0306714dda06",
       "url": "https://indicator.media/workshops",
-      "category": "tools",
+      "category": "uncategorized",
       "originalCategory": "uncategorized",
       "checkedAt": "2026-11-10T20:50:45.379Z",
-      "checks": {
-        "productSignal": true,
-        "function": true,
-        "access": true,
-        "license": false,
-        "licenseStatus": "not stated in captured source"
-      },
-      "missing": [],
-      "decision": "evidence_complete_for_record_draft",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
       "publicationReady": false
     },
     {
@@ -12890,18 +12885,14 @@
     {
       "id": "b84efd1f3b9de1a9e673d5ecfd660a854e99c7adb17a3e5443033ac575be9747",
       "url": "https://indicator.media/resources",
-      "category": "tools",
+      "category": "uncategorized",
       "originalCategory": "uncategorized",
       "checkedAt": "2026-11-10T20:53:48.541Z",
-      "checks": {
-        "productSignal": true,
-        "function": true,
-        "access": true,
-        "license": false,
-        "licenseStatus": "not stated in captured source"
-      },
-      "missing": [],
-      "decision": "evidence_complete_for_record_draft",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
       "publicationReady": false
     },
     {
@@ -25672,18 +25663,14 @@
     {
       "id": "a7caf36881c89ea0f64d4e9d852697092c4ae25bdf57533a69d02f22aee0714b",
       "url": "https://www.dw.com/en/brazil-fines-meta-facebook-instagram-whatsapp/a-79920780",
-      "category": "tools",
+      "category": "uncategorized",
       "originalCategory": "uncategorized",
       "checkedAt": "2026-11-13T18:31:33.655Z",
-      "checks": {
-        "productSignal": true,
-        "function": true,
-        "access": true,
-        "license": false,
-        "licenseStatus": "not stated in captured source"
-      },
-      "missing": [],
-      "decision": "evidence_complete_for_record_draft",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
       "publicationReady": false
     },
     {
@@ -25985,18 +25972,14 @@
     {
       "id": "ccc979e1da2b25eea51370081a3fe0b656ca6a5195680b39d39786824acf8b7e",
       "url": "https://www.wired.com/story/security-flaws-across-uk-government-sites-exposed-god-tier-information",
-      "category": "tools",
+      "category": "uncategorized",
       "originalCategory": "uncategorized",
       "checkedAt": "2026-11-13T18:31:33.655Z",
-      "checks": {
-        "productSignal": true,
-        "function": true,
-        "access": true,
-        "license": false,
-        "licenseStatus": "not stated in captured source"
-      },
-      "missing": [],
-      "decision": "evidence_complete_for_record_draft",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
       "publicationReady": false
     },
     {
@@ -26295,6 +26278,19 @@
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "ff0204b87a8f46a463c12faad25aaaf203b1f533a0ab88d8e84b3c12f37107b4",
+      "url": "https://www.newyorker.com/magazine/2025/11/17/laura-loomers-endless-payback",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T19:05:07.091Z",
+      "checks": {},
+      "missing": [
         "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
