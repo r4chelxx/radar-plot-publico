@@ -22,3 +22,10 @@ test('missing history and duplicated candidates are detected',()=>{
  assert.match(audit(q,h,d).errors.join(' '),/Duplicate queue ID/);
  assert.match(audit(q,h,d).errors.join(' '),/Missing historical lead/);
 });
+test('published catalog records may remain valid without historical lead rows',()=>{
+ const {q,h,d}=fixture();
+ const published=q.candidates[0];
+ published.status='published';
+ delete h.leads[published.id];
+ assert.equal(audit(q,h,d,{publishedIds:new Set([published.id])}).ok,true);
+});
