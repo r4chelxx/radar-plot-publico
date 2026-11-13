@@ -9,7 +9,7 @@ function extract(message){
  const subject=String(message.subject||'');
  const contextText=[message.snippet||'',body].join(' ');
  const relevant=/(?:apply|application|grant|fellowship|funding|scholarship|award|prize|contest|competition|dataset|database|data portal|open data|tool|platform|software|library|framework|api|download|call for|inscri[cç][aã]o|edital|bolsa|financiamento|pr[eê]mio|concurso|dados abertos|base de dados|ferramenta|plataforma|baixar)/i;
- const obviousNoise=/(?:substack\\.com\\/redirect|beehiiv\\.com\\/cdn-cgi|\\.(?:png|jpe?g|gif|webp|svg)(?:[?#]|$)|(?:twitter|x|facebook|instagram|whatsapp)\\.com\\/|\\/(?:news|article|articles|story|stories|magazine|podcast|podcasts|newsletter|press)\\/)/i;
+ const obviousNoise=/(?:substack\.com\/redirect|beehiiv\.com\/cdn-cgi|\.(?:png|jpe?g|gif|webp|svg)(?:[?#]|$)|(?:twitter|x|facebook|instagram|whatsapp)\.com\/|\/(?:news|article|articles|story|stories|magazine|podcast|podcasts|newsletter|press)\/)/i;
  const candidates=[];
  const anchors=[...body.matchAll(/<a\\b[^>]*href=["'](https?:\\/\\/[^"']+)["'][^>]*>([\\s\\S]*?)<\\/a>/gi)];
  for(const match of anchors)candidates.push({raw:match[1],context:String(match[2]).replace(/<[^>]+>/g,' ')});
