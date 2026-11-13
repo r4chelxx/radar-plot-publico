@@ -11,13 +11,13 @@ function extract(message){
  const relevant=/(?:apply|application|grant|fellowship|funding|scholarship|award|prize|contest|competition|dataset|database|data portal|open data|tool|platform|software|library|framework|api|download|call for|inscri[cç][aã]o|edital|bolsa|financiamento|pr[eê]mio|concurso|dados abertos|base de dados|ferramenta|plataforma|baixar)/i;
  const obviousNoise=/(?:substack\.com\/redirect|beehiiv\.com\/cdn-cgi|\.(?:png|jpe?g|gif|webp|svg)(?:[?#]|$)|(?:twitter|x|facebook|instagram|whatsapp)\.com\/|\/(?:news|article|articles|story|stories|magazine|podcast|podcasts|newsletter|press)\/)/i;
  const candidates=[];
- const anchors=[...body.matchAll(/<a\\b[^>]*href=["'](https?:\\/\\/[^"']+)["'][^>]*>([\\s\\S]*?)<\\/a>/gi)];
+ const anchors=[...body.matchAll(/<a\b[^>]*href=["'](https?:\/\/[^"']+)["'][^>]*>([\s\S]*?)<\/a>/gi)];
  for(const match of anchors)candidates.push({raw:match[1],context:String(match[2]).replace(/<[^>]+>/g,' ')});
- for(const match of contextText.matchAll(/https?:\\/\\/[^\\s<>"')]+/g))candidates.push({raw:match[0],context:contextText.slice(Math.max(0,match.index-180),match.index+220)});
+ for(const match of contextText.matchAll(/https?:\/\/[^\s<>"')]+/g))candidates.push({raw:match[0],context:contextText.slice(Math.max(0,match.index-180),match.index+220)});
  const seen=new Set();
  return candidates.filter(item=>{
   let url;try{url=canonical(item.raw)}catch{return false}
-  if(!/^https:\\/\\//.test(url)||obviousNoise.test(url)||seen.has(url))return false;
+  if(!/^https:\/\//.test(url)||obviousNoise.test(url)||seen.has(url))return false;
   if(!relevant.test(item.context)&&!relevant.test(url))return false;
   seen.add(url);return true;
  }).map(url=>({url, title:subject.slice(0,220)||'Newsletter candidate', category:'uncategorized', sourceName:'Gmail Radar PLOT newsletter', editorialStatus:'unverified'}));
