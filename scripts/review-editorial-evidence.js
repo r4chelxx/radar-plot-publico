@@ -14,7 +14,8 @@ const excludedToolUrl=/(?:creativeapplications\.net(?:\/|$)|propublica\.org\/dat
 const excludedToolContent=/\b(?:community of creative practitioners|critical making|published \d{2,}[,\d]* articles|membership plans?|research advisory|consulting services|course|training program|newsroom archive)\b/i;
 function toolIdentity(c,title,docs){
  const structured=docs.some(x=>/softwareapplication|softwareproduct/.test(flat(x['@type']).toLowerCase()));
- const surface=[title,String(c.title||''),String(c.url||'').split('/').filter(Boolean).slice(-1)[0]||'',String(c.audit?.pageDescription||'')].join(' ');
+ const newsletterSource=/Gmail Radar PLOT/i.test([c.sourceName||'',...(c.providers||[])].join(' '));
+ const surface=[newsletterSource?'':title,newsletterSource?'':String(c.title||''),String(c.url||'').split('/').filter(Boolean).slice(-1)[0]||'',String(c.audit?.pageTitle||''),String(c.audit?.pageDescription||'')].join(' ');
  return structured||(!excluded.test(surface)&&/(software|tool|platform|application|library|framework|plugin|extension|programming language|statistical computing|ferramenta|plataforma|aplicativo|biblioteca)/i.test(surface));
 }
 function toolFunction(text,docs){
