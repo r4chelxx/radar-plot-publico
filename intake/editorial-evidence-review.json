@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-12T21:54:54.583Z",
+  "generatedAt": "2026-11-13T00:34:56.993Z",
   "policy": "Evidence-based category triage. Missing license is recorded as unknown when not found; complete means draft eligibility only, never approval or publication.",
   "counts": {
-    "pending_more_evidence": 1728
+    "pending_more_evidence": 1735
   },
   "categoryCounts": {
-    "uncategorized": 1603,
+    "uncategorized": 1610,
     "opportunities": 34,
     "tools": 27,
     "datasets": 64
@@ -24156,6 +24156,99 @@
       "category": "uncategorized",
       "originalCategory": "uncategorized",
       "checkedAt": "2026-11-12T21:54:53.784Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "054010599e9647dc4a02f7072148b724b61c5e9560ee542ea2c3aa5a452f878b",
+      "url": "https://www.aosfatos.org/noticias/video-congestionamento-paraguai",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T00:34:52.902Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "1307dfe4b61862206bdcb1062e3a19dadb1bff177f504ca392cbc5c41d535c15",
+      "url": "https://www.aosfatos.org/noticias/flavio-dino-fim-escala-6x1",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T00:34:52.902Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "49ef71ccf45d8b501d08a1cc41fe9201e816a99563eba803bafd21599313aa83",
+      "url": "https://opportunitydesk.org/2026/11/12/e-just-ticad9-african-scholarship-for-sti-fall-2027",
+      "category": "uncategorized",
+      "originalCategory": "opportunities",
+      "checkedAt": "2026-11-13T00:34:52.902Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "51e5044f3de5312ca1a31d412fa46907900ce8272acd7feb5b5157f52f896f11",
+      "url": "https://opportunitydesk.org/2026/11/12/ucla-library-special-collections-research-fellowships-2027",
+      "category": "uncategorized",
+      "originalCategory": "opportunities",
+      "checkedAt": "2026-11-13T00:34:52.902Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "6213475d828d5d893f33f809a3193347207ee570d7b17c146b6609c4c2565beb",
+      "url": "https://www.aosfatos.org/noticias/video-lula-presidentes-cop31",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T00:34:52.902Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "7175892423edb201292339c2e5a7c3bda79f50a1a311c0413b2a086efcd486bd",
+      "url": "https://www.aosfatos.org/noticias/verificadores-de-20-paises-plataformas-governos-financiadores-informacoes-confiaveis-america-latina",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T00:34:52.902Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "7b6a1920ca63b248b9247c969e7779a2abf13e2f0118398112c2a73ee4a3a0f5",
+      "url": "https://www.aosfatos.org/noticias/investigacao-fazendas-ia-aos-fatos-subsidia-decisao-tse-meta",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T00:34:52.902Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
