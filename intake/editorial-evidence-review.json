@@ -1,13 +1,14 @@
 {
-  "generatedAt": "2026-11-13T00:34:56.993Z",
+  "generatedAt": "2026-11-13T18:31:40.490Z",
   "policy": "Evidence-based category triage. Missing license is recorded as unknown when not found; complete means draft eligibility only, never approval or publication.",
   "counts": {
-    "pending_more_evidence": 1735
+    "pending_more_evidence": 1881,
+    "evidence_complete_for_record_draft": 4
   },
   "categoryCounts": {
-    "uncategorized": 1610,
+    "uncategorized": 1755,
     "opportunities": 34,
-    "tools": 27,
+    "tools": 32,
     "datasets": 64
   },
   "records": [
@@ -10834,14 +10835,18 @@
     {
       "id": "78b7768c548f116e28d6d90a7369f932c7ec61918cce36851cdc0306714dda06",
       "url": "https://indicator.media/workshops",
-      "category": "uncategorized",
+      "category": "tools",
       "originalCategory": "uncategorized",
       "checkedAt": "2026-11-10T20:50:45.379Z",
-      "checks": {},
-      "missing": [
-        "categoria específica sem evidência suficiente"
-      ],
-      "decision": "pending_more_evidence",
+      "checks": {
+        "productSignal": true,
+        "function": true,
+        "access": true,
+        "license": false,
+        "licenseStatus": "not stated in captured source"
+      },
+      "missing": [],
+      "decision": "evidence_complete_for_record_draft",
       "publicationReady": false
     },
     {
@@ -12885,14 +12890,18 @@
     {
       "id": "b84efd1f3b9de1a9e673d5ecfd660a854e99c7adb17a3e5443033ac575be9747",
       "url": "https://indicator.media/resources",
-      "category": "uncategorized",
+      "category": "tools",
       "originalCategory": "uncategorized",
       "checkedAt": "2026-11-10T20:53:48.541Z",
-      "checks": {},
-      "missing": [
-        "categoria específica sem evidência suficiente"
-      ],
-      "decision": "pending_more_evidence",
+      "checks": {
+        "productSignal": true,
+        "function": true,
+        "access": true,
+        "license": false,
+        "licenseStatus": "not stated in captured source"
+      },
+      "missing": [],
+      "decision": "evidence_complete_for_record_draft",
       "publicationReady": false
     },
     {
@@ -24251,6 +24260,2041 @@
       "checkedAt": "2026-11-13T00:34:52.902Z",
       "checks": {},
       "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "001dedf63d7f68cc2208d43b4a358c297ae6a5c6fb075f95b528517a290859ca",
+      "url": "https://substack.com/redirect/fc6957d4-bbd1-4eab-bf47-60abdfd2f55c",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "022fe38e3399a884b0594dc91e392b466124d89b0c3259dff3f898ea19aa798a",
+      "url": "https://www.yahoo.com/news/us/articles/bari-weiss-most-loyal-soldier-134611303.html",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "082d707df971e1087794562b097c1d9b5c80c70ad11d93e9b040a52b4aa43c35",
+      "url": "https://www.politico.eu/article/ahead-of-spanish-election-pedro-sanchez-takes-aim-at-tiktok",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "0b053d4932931e0f344b441bb0dfe6ffe2133085dcc95499cef92f6fd83df01b",
+      "url": "https://www.poynter.org/ethics-trust/2026/journalist-creators-media-trust-social-media",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "0b54e8ad8237facb27a47d1419f605403fc52b4808d49582fed2c96e753abe7d",
+      "url": "https://www.cjr.org/the-interview/ali-breland-online-far-right-nick-fuentes-white-nationalism-trump-minneapolis-somali.php",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "0bd83ff59d0dd11891e96ece4a3f61317cd611343fe06a5bcf05569160ae4502",
+      "url": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/ea4f8c84-1eff-4334-901c-1ca0a75980ed/Screenshot_2026-11-11_at_9.36.22_PM.png",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "0fdd37b165386c5063971bfa835c5bfcdd1f525c8a7477f6ba190f41b8a845bc",
+      "url": "https://www.occrp.org/en/investigation/in-the-russian-penal-colony-they-called-him-dr-evil",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "155841a94481dc4650450b1565f45d4cc9aad867c59381c0ec32483a940532c7",
+      "url": "https://www.occrp.org/en/news/interpol-crackdown-on-migrant-smuggling-nets-262-arrests",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "1685d3379f32781fd714d11148045b1abead9baf1755b4bda02508321001c48e",
+      "url": "https://substack.com/redirect/c99f5ee8-0e11-48ef-89f4-f0babb47026a",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "16cdc2a2b8451a9a726b2852323baf7c6e9bb072f128f45ef5fca08cab5537cb",
+      "url": "https://substack.com/redirect/32ef3cdb-57ff-452a-92d1-7c302bdc77d1",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "17d63e6178646c477d3f8df64c96ce9e8543cd852efca195409b9832e33e0667",
+      "url": "https://substack.com/redirect/1df721b6-108d-41be-ab81-7b71b2ba8667",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "18883d789ad864a1886d8cef770cbd45d80928e198fa0aac217c8fe573435652",
+      "url": "https://www.instagram.com/p/Dfr2cSyFwg-",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "18d265728c53ea755fc7dd1e6e2b16cb7a0b00deee78cc9171c6c32ff5f13c82",
+      "url": "https://www.occrp.org/en/news/ex-belgrade-police-chief-denies-charges-in-body-in-a-barrel-case",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "1ac2ca5e856e4ff6249514e0a341f35a180e0c9031f16105afbba151332fb34d",
+      "url": "https://substack.com/redirect/ef5b96d3-8e41-482b-9ff0-1eb63f0d4614",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "1af4db1ff1ef41d70faeeead4a56d97e9442d9b4ee7d778d8221bba52dc43e75",
+      "url": "https://www.nytimes.com/athletic/7776092/2026/11/12/nbc-sports-dan-hicks-death-career",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "1b5d830358bb176643afbc6853b0935c4f5d4ec8fa076c4bef7d01283377ef0a",
+      "url": "https://www.occrp.org/en/investigation/from-politicians-to-academics-hundreds-around-the-globe-interviewed-and-featured-in-notorious-russian-disinformation-campaign",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "1bff3e57e7e0a1a4aab0eb9c1aa75fbed8f09162a8240481deb34851609160b1",
+      "url": "https://indicator.media/p/briefing-a-new-tool-to-explore-satellite-imagery-planet-ai",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "1cc314cd8f5c82ca4c8e00c8da9d0fbe6a63d263294b62bc27cee17d22d0d6c6",
+      "url": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/8d0f0512-451d-4ad4-a014-bd4673bbf02e/Screenshot_2026-11-12_at_12.54.30_PM.png",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "1e32861298d5982fce75116f076f3a374159731d2572bd2129cf7123aa426e27",
+      "url": "https://www.occrp.org/en/news/kazakh-wealth-fund-railway-chiefs-detained-in-corruption-probe",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "201821d66398d390eca0484d42a466c8971223bc6690a2333b10a6979b886821",
+      "url": "https://substack.com/redirect/072c7d37-bf55-48db-a603-47c2f5b242a1",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "2163dae1d9195ad53b38dc7300d1d36162fa1251565111b276944203d693a1b3",
+      "url": "https://substack.com/redirect/12245ad5-8246-4792-a6c2-293a9f169e77",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "23433f49b9aeb7e4d51692410ebd30a115bca283686869971ae6b5e7e402dd09",
+      "url": "https://mcusercontent.com/bfd7b727587f7abc6467ba892/images/9d68e9dc-3f23-40c6-88f1-1b5a79ba9e57.gif",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "28602136d3173d2fd2d16ca9d43c6a1f413e84ca6135e29de346d483b6ecdeb5",
+      "url": "https://substack.com/redirect/4a1a8539-1747-4b02-9a74-11ba6ea38a7d",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "294d65cd6201e7eb8329e62324384072923c296601ecfd5e07417b6f76c03413",
+      "url": "https://www.washingtonpost.com/dc-md-va/2026/11/12/logan-circle-shooter-matt-lambert-appeared-frustrated-over-metropole-maintenance",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "2a2750ace25cbfc76e551f01dc58bce9de5a9badb740f68108d2dfe85fdd646e",
+      "url": "https://substack.com/redirect/04273060-a971-4eb8-b210-59436dc11071",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "2b49f64274af7d08c61f9c20d6453decd69cacb70946c985719690bbc0b5e6cd",
+      "url": "https://osintnewsletter.com/p/130",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "2d772382a51a2d34d489c7b95585b43de69205f2721bfe9a811b4ae659772c49",
+      "url": "https://www.nzherald.co.nz/nz/auckland/google-ai-falsely-links-auckland-anaesthetic-technician-to-drink-driving-convictions/XZOO344JYZDOPN33BGK5KQOWYM",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "2dbff7fb2873fe71e87919980e1d89a9088a895a6221565718d8272bfc969ba5",
+      "url": "https://www.occrp.org/en/feature/five-questions-future-global-anticorruption-efforts-trump-era",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "2e600a14ceaa7109917f47025c06ba732e166106c853ea163bacd998d750675f",
+      "url": "https://apnews.com/article/mexico-journalists-threatened-free-press-d3d4d8cc11e8ad5ada9962f28fb941f9",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "2f568da247328c6e57cabed59320b741bff2d5967d53948d3905ac5f718b585f",
+      "url": "https://www.occrp.org/en/news/high-profile-smuggling-raids-in-hungary-point-to-former-pms-brother",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "310472d00943e79a9804342d6de3c5244cf2761f44c263d35eceadcf0b3586ff",
+      "url": "https://www.poynter.org/ethics-trust/2026/scott-pelley-cbs-news-midterm-results",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "36ea9f694b67772763dde3325e85675716bf564961ead1b632ef110723ae2d9b",
+      "url": "https://substack.com/redirect/5f24baec-dcb5-4ae8-a7f7-b3d3044661dc",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "378d47fbf46a1033d5ceca42c15a1aa3c420373aa413bc0d1f245d2dab7a79a6",
+      "url": "https://substack.com/redirect/b8c4d91a-9bee-4229-b538-447a3cb8043a",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "382c5bf8ba0dbbe0893ee55eb3662b62744d907419355b2274aa943a5c07abab",
+      "url": "https://mailchi.mp/poynter/its-been-a-great-year-for-investigative-reporting-but-theres-a-catch",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "3886c6f59f72a5b8da1b5b92af66545d9cfffd49d0add7882ed98aebb705bd33",
+      "url": "https://www.linkedin.com/pulse/tiktok-says-we-blame-child-sexual-abuse-problem-lol-carlos-rqwoe",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "39756b46492ee696ce0c69ccd43b852b2115bcd1794e33a9a224cd23b823c37a",
+      "url": "https://www.adweek.com/media/the-washington-post-nears-breakeven-after-hundreds-and-hundreds-of-millions-in-losses",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "3dd8c98fa4172efb7b79dee1d448bf1d08445d1fc567f5679766282a3504317b",
+      "url": "https://www.occrp.org/en/news/us-prosecutors-ask-judge-to-allow-bribery-evidence-in-south-american-drug-trafficking-case",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "456374a53cebd5bacc4f2a8b54beb563ae111f31be94742b836debb38606387b",
+      "url": "https://substack.com/redirect/4c9573a6-1512-4e17-948e-cf3289117e8d",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "461bfeab4210ae0408f5a7a95996c45db9b7ba823a93703a885fa9ec7e17c61e",
+      "url": "https://substack.com/redirect/caf73b7b-585f-4fef-8d58-9c6b0886bfa0",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "46c9723ac7efff479c6a776502ffc6d68ee85f12b25355acfaa1e988fd3b07fd",
+      "url": "https://theins.press/en/inv/299417",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "49a65cafd99fa1ed4f5a4f97ee61a4158b69ef0443b8ba83607fe911e052de0c",
+      "url": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/12597f83-9288-4ddf-8e8d-a83a26b6bc50/GettyImages-2303159094.jpg",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "49c81c2c2dbb955221f757f26dfa66d4667f5bd8737571744af217bca5c654fc",
+      "url": "https://substack.com/redirect/4677d3e2-fecb-459c-96c0-04c36f3e5136",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "4aa04ae28edc2b2fc13225e5dc3431b9272d4929ac009e1e83a6ccaee2b97d74",
+      "url": "https://www.poynter.org/subscribe-to-the-mediawise-newsletter",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "4bc13ebac6040feff8c0b9aca4ae6762d11457fabc64a77f927e4148dff453d3",
+      "url": "https://www.occrp.org/en/news/uk-arrests-349-in-nationwide-money-laundering-crackdown",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "4bee6579acb4550d99c1367af4653db0f65116c9be32f097ab8b31339199a8fe",
+      "url": "https://x.com/JackBenjaminPxP/status/1934366016659669118",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "4de37c323ce70812fe2c47f52e1e40fb29f0db2183a760fe738db6f04aa150c4",
+      "url": "https://docs.google.com/document/d/1deuyMRnTyeR9gWbPIXBKopsFLnOPqp_FBBIy3D500Ys/edit",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "4dffdb588da1abae35f4ee9aecb226f71eec0ff519928245b3c20dc5f595fa62",
+      "url": "https://awfulannouncing.com/nbc/dan-hicks-greatness-tiger-woods-michael-phelps.html",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "4fc0a41b553ab8b0b85f01623f61c5dec75013ce9f10838c895e1df181509102",
+      "url": "https://substack.com/redirect/9d23cd34-6d7f-4601-9b56-3886ffebddc0",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "524736f1266914bad35390d6dcf4a9324d905d5688ed1c0b1e9f309a5c634a29",
+      "url": "https://awfulannouncing.com/politics/nick-wright-clay-travis-political-grifter.html",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "52f4220b5cecd214d98df880fe1d6b10816af2bba7e304ced3655facf0fc683f",
+      "url": "https://www.youtube.com/@poynter",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "5654751fe47bdc49f8a49b58d979cfe6cb8d5fbb6f62379976a9c9e5e1971998",
+      "url": "https://www.occrp.org/en/news/buro-media-launches-database-of-lukashenkos-inner-circle",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "56c969589b00d539b3eaf55609ebe28fbbd2763cb9bf8361e78120077fc21e69",
+      "url": "https://www.poynter.org/educators-students/2026/college-students-teach-high-school-journalism-nashville",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "5a774e44885d83d0065d97dd4248c0242bcbcbe6135f1054425f14a68383d4e2",
+      "url": "https://uwcip.substack.com/p/proof-of-a-stolen-election-how-misleading",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "5aa65b4b7dd121f83eea797075beac847d54acd852cbc64a201aa5bc5921fa07",
+      "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9vYnNlcnZhdG9yaW9kYWltcHJlbnNhLnN1YnN0YWNrLmNvbS9hY3Rpb24vZGlzYWJsZV9lbWFpbD90b2tlbj1leUoxYzJWeVgybGtJam94TXpVeU1qTXhMQ0p3YjNOMFgybGtJam95TWpRM05EazNOeklzSW1saGRDSTZNVGM1TkRVNE16RXhOeXdpWlhod0lqb3hPREkyTVRFNU1URTNMQ0pwYzNNaU9pSndkV0l0TWpjMU5UUTNOaUlzSW5OMVlpSTZJbVJwYzJGaWJHVmZaVzFoYVd3aWZRLmlVV0g0RVFfd19LdDlSWGxjRVFyMF91N1JfeThxeEtPXy01R0NYQjMtcFkiLCJwIjoyMjQ3NDk3NzIsInMiOjI3NTU0NzYsImYiOnRydWUsInUiOjEzNTIyMzEsImlhdCI6MTc5NDU4MzExNywiZXhwIjoyMTEwMTU5MTE3LCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.FpESPb0omU_fsptSi8e8fYaREM8iLboYQDpRS0GMTDE",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "5c675e227a4eb5ecb4e6cb539a619a977a40f186718f6651a1f0f57e43066699",
+      "url": "https://substack.com/redirect/0fab0bc0-9219-4d00-b1d4-c19d62e95667",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "5c7a4a5e0d33dcb82e64c1d67f6e36ee0bc7ce31cea5f460e30ac625ee714a4c",
+      "url": "https://www.tiktok.com/@mediawise/video/7706296054983036173",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "5d6dcd6d3a4b3a88b4c78b84bd66bd013b605ddc6b9b66ec0bc538bb1a301383",
+      "url": "https://toddingtonint.substack.com/p/when-bias-derails-a-report",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "6124d0db48b57c60e1e3d79fc69fafbf4aeefa58d3ec15d1e58dd0ce3917432f",
+      "url": "https://www.bbc.com/news/articles/c04nx1vnw17o",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "6205203ceed5d36e71188e4da4019e3d79f714c8f47eb4cbfb3ff13f841f11b0",
+      "url": "https://music.amazon.com/es-co/podcasts/206ad3f6-d793-4bc6-aecb-bd05c48b98a5/the-poynter-report-podcast",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "62d9841e979ad57affb3b4e2affa423371de0539cdc9786c4a1331432d7702bf",
+      "url": "https://mailchi.mp/poynter/face-the-changes-two-top-leaders-are-leaving-cbs-news-face-the-nation-5288334",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "656a70500f9f9c0ff59747b38ae30e5ba63a03e2ff1f5f6e6471c2b7318ff027",
+      "url": "https://www.poynter.org/reporting-editing/2026/democrats-house-senate-press-freedom-trump",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "687c35ff42503635a021335301e7a6ed43e3054b7450f784d3f5adf7596e79e5",
+      "url": "https://www.poynter.org/commentary/2026/national-news-outlets-local-reporters-2026-election-scoops",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "69b326f72139c9fa0060488e24210decd392a14211171f0a7f607e6c23455282",
+      "url": "https://substack.com/redirect/7e57c9ff-696a-4e91-911b-e25499ad7612",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "6da0356bf7f6ad12b19a934c7d331b5e505f97d416ddce39e41b57df58cd83f0",
+      "url": "https://substack.com/redirect/7af62f0c-1d95-4dba-bef8-326a7ca707c6",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "6eed686903fb54ae0657f6f6bb7e0fa2a22a5ec8d7332383dce6d4c2d76ed0ad",
+      "url": "https://brasis.ajor.org.br/p/brasil-cop31-sobrecarga-maes-artistas",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "7075ac270573dc561ed5d3bbfcc5c2d3f51ebbbaf8c8a67b191e51719cae28cb",
+      "url": "https://www.infinitejaz.com/p/he-retorted-narrowing-his-eyes",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "741bfebab1be10b1df7ab1384188d68f0153bf88b10b9d37a042cdb4d1aa8489",
+      "url": "https://ai.planet.com/",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "75bf9b5d830ed0bdef05c103fe97765ef6229e93c2537149cb690cdf4cae95b8",
+      "url": "https://substack.com/redirect/c259d296-3662-4a4b-90d6-27888b73c9cc",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "760b27c188a6ec2e1c40b8b5bbd3097f53a5b63a924a1c0c5909b23850814210",
+      "url": "https://transparency.meta.com/recent-updates/meta-platforms-during-brazil-election",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "77594263678718bafd51720a927a0a23fa15f01236240770499407a0038fa3c8",
+      "url": "https://substack.com/redirect/9dc3b60f-9984-4431-ac9a-ed863cd55079",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "77f59bf2cab3bbb7d2099aebd0ddd428139df09703d4e801fe940da7be0997b7",
+      "url": "https://documentedny.com/",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "77fb02e4c2dfac73b592e3c1f2465dd34747be79d1d6097e1b45901827b9ac1c",
+      "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9icmFzaXMuYWpvci5vcmcuYnIvYWN0aW9uL2Rpc2FibGVfZW1haWw_dG9rZW49ZXlKMWMyVnlYMmxrSWpveE16VXlNak14TENKd2IzTjBYMmxrSWpveU1qUTJOekUwT1RJc0ltbGhkQ0k2TVRjNU5EVTJOelV4TkN3aVpYaHdJam94T0RJMk1UQXpOVEUwTENKcGMzTWlPaUp3ZFdJdE1UQTBOekEzTUNJc0luTjFZaUk2SW1ScGMyRmliR1ZmWlcxaGFXd2lmUS5tOW1UWjRlc21nV0FRLUNKNF80ODhyczlWSDJOeXZQNG9SdFZUMFJCMm9rIiwicCI6MjI0NjcxNDkyLCJzIjoxMDQ3MDcwLCJmIjp0cnVlLCJ1IjoxMzUyMjMxLCJpYXQiOjE3OTQ1Njc1MTQsImV4cCI6MjExMDE0MzUxNCwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.hz0IPrlgJRuFPn-vvJ8DLbJh3nZirlUnWmWAy24yP7Q",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "78ff4a0cdbb47428e57dbe47022b52693e8857b58eaf142756a94d64bf5ace5c",
+      "url": "https://substack.com/redirect/87e0b2f9-b766-4dd7-a5de-d18c0bba7fc8",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "79abf0daa381d942e5ec4abf6116578eb331c64f4aa2ee8d84b7019b6d661fac",
+      "url": "https://substack.com/redirect/3810a144-8fe9-428a-93f0-23328bb2137b",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "7ac83046fffab314e6c51b33d3269664f4163cbed634583d707a28087cccceef",
+      "url": "https://www.poynter.org/press-freedom-watch",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "7b5bdae15ce33845940226bf2e46ac43e0e995a1ab2a3b79ac6176db66a6ff72",
+      "url": "https://bsky.app/profile/itsren.bsky.social",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "7c870f8b2b2b399b4d6e723dd7355ee01d6886c7e8f21f5b364d53224f29c5ec",
+      "url": "https://substack.com/redirect/a4a955e1-98e8-4411-ae52-0aff062f94b3",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "80c1fad732a48377d299910fb6e28ccbe6175eba4a6f50c2cdb2034c16aa1ed1",
+      "url": "https://substack.com/redirect/03a45a47-7ee6-4295-9b83-19748fa744a5",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "811a62b72640a0149fff2e0a922344f3fe30f46f687edf9bfd293df11c39b9e4",
+      "url": "https://awfulannouncing.com/politics/nick-wright-claims-clay-travis-privately-admitted-to-fabricating-political-beliefs-for-engagement.html",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "81886a62cadd271a8037f5fb5d4868507aa2613cbfa3a7a7e52166ee8a6ed916",
+      "url": "https://x.com/HannahStormESPN/status/2120888575541776508",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "865a4c61a71aa0365fc6b29f21752162e9528200b33d77e3e95b77572fb25f05",
+      "url": "https://substack.com/redirect/0c8d6636-116d-4c48-8d6e-0f21a19f5613",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "885b7bbfe7a668616445b1e9656c6d6d1d26ba5e4b1b27aae3cce231e36f4dbf",
+      "url": "https://substack.com/redirect/c692bdcc-d7ba-4cff-881b-7fc8d4695272",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "891a3f4c6f6b7b6d25093c7479609955eb2f0d469fe121c134815ee25c4e845e",
+      "url": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/66e6e7af-3fa4-418c-a3e3-91d3907d6b80/Screenshot_2026-11-11_at_10.09.18_PM.png",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "8947351e817a9d0a0cc70a51c6c999d7182d8682b11da94b50117f91e33840f2",
+      "url": "https://substack.com/redirect/fa37a9b7-4a72-4124-bee2-befc72f35e4b",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "89f38ac49af554a79ff94c34256c2d3b8237e75b0b39e4916c969bd0ada20c50",
+      "url": "https://substack.com/redirect/934fea03-7235-4902-8240-cf3226ad12ef",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "8a1eb10ec537dd4fd6ec96eddce51ada71f69c9a9fe8cdb437bde78a39b4a4a1",
+      "url": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/77531506-4b25-47de-a79b-2ed2d1fb1bb3/Screenshot_2026-11-11_at_9.31.09_PM.png",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "8a33ed09f4c9b011b7a111e2e6188a9b2446a4b94e2f7ecce0df6a8d24abdc46",
+      "url": "https://substack.com/redirect/7418881e-cf43-41ff-a5eb-181797da4951",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "8cf9221ad081f7f5cbc7bd2e51de6c7087f36b8a47cf74cf89ee1d871274a014",
+      "url": "https://substack.com/redirect/cc8ee944-bb93-404e-a09a-03cbfa55f695",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "8d7cebe131cd30e6bfda7ad44e0938e6157cc8452599d02ba0bd7d30994ccbe8",
+      "url": "https://www.reuters.com/world/europe/covert-russian-network-exploited-french-riots-social-media-eu-report-says-2026-11-09",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "8dddc5ea99d34af49c4bb884c95c16ec1d68a635f50fc368cd5591e4b0940d9f",
+      "url": "https://www.nytimes.com/2026/11/11/opinion/satellite-images-us-government.html",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "90b50bddfd9b477604a488ae2b1141a0fba6111ea6d3a9dd642119f7a040d0c3",
+      "url": "https://benjaminstrick.com/course",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "92782efc85dbdcd4edb2a27838090ed99b557aee144198ee0f2ddbe2e481ac6c",
+      "url": "https://agencialupa.substack.com/p/o-mundo-esta-a-beira-de-um-apagao",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "952d5bc0e020ebb7d83ad68bdc19afad3f94825d3235e4580b1c603f495b0c5a",
+      "url": "https://substack.com/redirect/fa7cfc55-54bc-407b-9e7d-ccbe4cb82616",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "956fc4fa05abf5835fe02eff6472ad177b2ad6bdb919c0646674f3d8bc1b86f0",
+      "url": "https://substack.com/redirect/fbb1c0d1-4f9b-44d6-a985-0e3ee014027c",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "9776705113f395fcc9f11e2f5f95ba1162ee614de1d646e8a08d530dec030321",
+      "url": "https://www.poynter.org/subscribe-to-factually",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "98a30e4ef5b59ebd1d3263992532f6e41939f0e90ec6cdd636e98afff1cb5e1b",
+      "url": "https://substack.com/redirect/2e5e0cf4-1dbe-4ac1-9c8b-06e33b733090",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "9963e3bc020f262887eb3c866e8c699ece6d522dc07817499b1a217e5d2c2a9e",
+      "url": "https://politifact.com/article/2026/nov/10/trump-stephen-miller-deportation-immigration",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "997818bacab6c214535065b9ee7d2badeca9944ba6f612ffa6c6477c955eef8e",
+      "url": "https://maldita.es/investigaciones/20261109/tiktok-hogar-pederasta",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "a2dc9edbe50807427083556be1fbe6873c9bd401d1cc6a95ce9da44886bba589",
+      "url": "https://substack.com/redirect/3de99122-9abb-4f8a-be62-e8c86a743263",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "a2f600fb51de1847148675b2aeeeacf09fe75fe494df944d63a765b2d17fa5e6",
+      "url": "https://www.rollingstone.com/tv-movies/tv-movie-features/amanda-seyfried-nathan-fielder-you-can-see-everything-1235653104",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "a432d3fae5f06932330e1ae02659dfcf94d15abbcca1dbe5d94d793fa16dfa12",
+      "url": "https://substack.com/redirect/2cd13b13-1c32-46d8-ba1d-4b65b4b144c5",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "a46de90fc40ba46cfda08192f6d34501e94c5a0a73fba7926925c3bcfe5e36a3",
+      "url": "https://substack.com/redirect/4bcb65af-567a-423e-8c43-3ea6b57766e6",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "a60125ff15475da99daa30d9fb987618aed9fd85d0fab38c058968963e7b06ea",
+      "url": "https://www.occrp.org/en/news/more-than-1300-diplomatic-passports-missing-in-vanuatu-report-finds",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "a705157538370e1b3d8d53f6f6a9b980fbd985fdbd0d00270ed10cee8cfb58d6",
+      "url": "https://substack.com/redirect/bdde106e-dce9-40ed-a45d-381d402c6071",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "a7caf36881c89ea0f64d4e9d852697092c4ae25bdf57533a69d02f22aee0714b",
+      "url": "https://www.dw.com/en/brazil-fines-meta-facebook-instagram-whatsapp/a-79920780",
+      "category": "tools",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {
+        "productSignal": true,
+        "function": true,
+        "access": true,
+        "license": false,
+        "licenseStatus": "not stated in captured source"
+      },
+      "missing": [],
+      "decision": "evidence_complete_for_record_draft",
+      "publicationReady": false
+    },
+    {
+      "id": "a7e0123d1d0c4df3cbfd3f2b1a07267377729157203a35ca49017e038a1b9f6e",
+      "url": "https://ai.planet.com/signin",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "a9953743a6986a563f50b6771cdf965f3a9c010d4922c98c35915f5ad2884b54",
+      "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9hZ2VuY2lhbHVwYS5zdWJzdGFjay5jb20vYWN0aW9uL2Rpc2FibGVfZW1haWw_dG9rZW49ZXlKMWMyVnlYMmxrSWpveE16VXlNak14TENKd2IzTjBYMmxrSWpveU1qUTNORGMyTkRFc0ltbGhkQ0k2TVRjNU5EVTNPRFEyT1N3aVpYaHdJam94T0RJMk1URTBORFk1TENKcGMzTWlPaUp3ZFdJdE1qTXpORGt4TVNJc0luTjFZaUk2SW1ScGMyRmliR1ZmWlcxaGFXd2lmUS5oX0JKSXJCRGZzVEVHV181Ul9yNkZVNWV3X2MyU2J6VEMtVnRWNG9vU0VVIiwicCI6MjI0NzQ3NjQxLCJzIjoyMzM0OTExLCJmIjp0cnVlLCJ1IjoxMzUyMjMxLCJpYXQiOjE3OTQ1Nzg0NjksImV4cCI6MjExMDE1NDQ2OSwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.kXLB1BtUhNq3RvhHmpGU4juC5ArsnH1HXgn2Ns5-2c0",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "aa4aac03ccb169b8fe841084f3f80987e4bcdc152df8316dbbe754b540594b7e",
+      "url": "https://www.newsguardrealitycheck.com/p/dougan-leak-exposes-concerted-effort",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "b1133a9f81e24871263168fb9150ea38e5ae6d6b8845b6e60785d190bfdc2794",
+      "url": "https://substack.com/redirect/49f9cd91-981c-469d-97d8-8573215e8036",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "b36d1c8ff245f28b53a08ec36f2d77cc50c0477d7e81f9f166cfdb2f8bce3699",
+      "url": "https://substack.com/redirect/2a8c4d1a-6299-4f2b-b174-e38ece5df3bc",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "b3bbadd011188bd4c1438683f432e88cf30f3a3e1346952bf223450308a53b35",
+      "url": "https://observatoriodaimprensa.substack.com/p/oi-1414-a-importancia-politica-do",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "b8c7849ba95f029dd64c04ca5e9ebfdb5ce68ea8667bd1aed68c269b7e86ade6",
+      "url": "https://collegejournalism.org/student-press-report",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "ba40e3fe53f9cf208b278951773d0d821c21092e2bf2dcb3f2be02b93940b9fe",
+      "url": "https://substack.com/redirect/1fce0989-602d-48d3-84e3-08dd375cafed",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "bc34d92608575a6bf056d4411da1d3af6b0c765c76e2bcb6174dbc0b7a270e3e",
+      "url": "https://substack.com/redirect/c28bd1b1-9671-4dfc-80e7-80f7e01eabd4",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "bcd350885dd72c19faded2ef522e4fa296e0a71b31ba24e94dad42ba285e5834",
+      "url": "https://correctiv.org/aktuelles/hybride-kriegsfuehrung/2026/11/11/dein-kampf-ist-an-der-informationsfront-wie-ein-us-amerikaner-fakes-fuer-russland-verbreitet",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "be41313438d84f963f1a2034b6f4997e45e25b0c04a82a1a736a55881e228a9d",
+      "url": "https://www.poynter.org/subscribe-to-poynter-pro-weekly",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "c0c8cd338201d4eabebc458223856c3dc088ff318730bc7e877577792d6c0008",
+      "url": "https://www.poynter.org/subscribe-local-edition",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "c1c67cc6800fc35aff8a2324581fbcf3377a02dd5ce856dbb513de80a80ab407",
+      "url": "https://www.infohawk.com/news/2026-11-05-scamwich-restaurant-skimming",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "c43f2e56da06e79f19191be44ccda21b42fd93353f4cda03874e9b39493b5817",
+      "url": "https://www.washingtonpost.com/national-security/2026/11/12/hegseth-awards-spec-thomas-iglesias-who-scolded-him-tomb-unknowns",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "c5dd5cc2c50bb0213d8b25da2f9b288ad2da3ba58fb674f6fe871412f747cf2d",
+      "url": "https://www.theguardian.com/technology/2026/nov/06/crunchy-moms-facebook-vaccines",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "c7705b8c9cc4c281e66ca1b453fe6693becf5d519e458fdf57ff3fc32904f822",
+      "url": "https://www.osintcombine.com/post/beyond-google-alternative-search-engines-for-osint",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "c7a54ccef5d701cf961e7ecdf9b3528dd8e777741db8135b883d846f101db32a",
+      "url": "https://www.cjr.org/laurels-and-darts/appalachian-williford-midterm-elections-boone-north-carolina-free-press-reingold-weiss-el-sayed-islamophobia-michigan-get-huge-clavicular-looksmaxxing.php",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "c8c5d00af0dd4d87f2ac1d861ca627684679ea194ea06b6aa3c8d288a6a47e9d",
+      "url": "https://osintfieldnotes.substack.com/p/osint-field-notes-14-my-osint-course",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "c9006359f9f45e0b4b6d075c300e776c5db6b52b73cbdda0914276c675e97562",
+      "url": "https://awfulannouncing.com/nbc/longtime-commentator-dan-hicks-passes-away.html",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "ca074b4fe2ddf7252a3af27003e6cac0b5494f5b31995d72a3b9d0e7d2b81e11",
+      "url": "https://substack.com/redirect/6b2a14d7-c432-4033-bba1-450dc67143f7",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "cbad44a02d31422e1eaa55aff1402431017418940430b227e90c4a7bccf16816",
+      "url": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/b429051a-cd31-479d-8905-43e5aed4497d/Screenshot_2026-11-11_at_9.29.54_PM.png",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "cc8bcda3f825b8f579c2c432b051282834bbf0c8e52a857ce8761bdb62830411",
+      "url": "https://www.occrp.org/en/investigation/inside-the-aluminum-supply-chain-linking-irish-industry-to-russian-rockets",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "ccc979e1da2b25eea51370081a3fe0b656ca6a5195680b39d39786824acf8b7e",
+      "url": "https://www.wired.com/story/security-flaws-across-uk-government-sites-exposed-god-tier-information",
+      "category": "tools",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {
+        "productSignal": true,
+        "function": true,
+        "access": true,
+        "license": false,
+        "licenseStatus": "not stated in captured source"
+      },
+      "missing": [],
+      "decision": "evidence_complete_for_record_draft",
+      "publicationReady": false
+    },
+    {
+      "id": "cf81fb67a145f3bc24b6eedd297e8599b2a340bbc60f70b052f662bb6df3bdec",
+      "url": "https://medium.com/@snyde21",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "d051d8463328d703cf4f314052910132075dcb7772b85da14fc44c5e8084a0fe",
+      "url": "https://substack.com/redirect/721fc0ac-9912-403b-ab61-704028252a60",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "d056332eacf7280c34213a8e66759d68d0c08de77649c2fa2fc11c100a4f3173",
+      "url": "https://substack.com/redirect/6612eb4a-2a34-4fe8-8812-bee681a53c50",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "d19b89b97b0dd68359cc87c249c32e6679c6d3eeabbe80e3428ea2749b7f414e",
+      "url": "https://mattw.io/youtube-geofind",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "d25d71ff150e4c4fa901ae8f11b1d70c55057dfdc33474d6fd3fd807094ab4b2",
+      "url": "https://www.occrp.org/en/news/bosnian-raids-smash-two-crime-rings-net-15-arrests",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "d6bea56f2932ffaaa68dbf2a232d4098c93868be211869713afea10c2a9c645e",
+      "url": "https://www.washingtonsun.com/metro/dc/logan-circle-shooter-condo-dispute",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "d7d58dac6d59c39ec7c27a7a22bf340f03517bc131fc33e2449d009a2c662852",
+      "url": "https://substack.com/redirect/b845757d-8a06-4841-9992-e3e00f6bf0e2",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "dc60ad871644bc3a985ba73de3d43d6159ed2216d8b9ed93ef8f9fed5594dee9",
+      "url": "https://www.theatlantic.com/ideas/2026/11/stephen-miller-trump-chief-of-staff/689385",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "dcf1b55b7fe638ae00a64964f358761e0a6a6e879d638f37a78e93d06113abd2",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-12/bill-simmons-canceled-chatgpt-partnership-after-fan-backlash",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "dcfe522ff291cfbfa60755fc7b3e8d471829e49f5b4eb3a5e93bc63acbdedfdb",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOck1RMmJaTlJPdTltYi1jZjNpSFBiYzZ4ZnBCTWVWSndWblFneFpDdXpGRWlHZkVlNTAwNGgxY1N4ak1mRDFMeUdXR0FmSU95dENGazV0M1l1WjBoOV85NjhQZWFyYllCcXY1ZnB3ZVg3QUl2b0FlQVJ2ZDZHMnlrSjVnNnhlSVIzSEJhdnczU09MRE9aR0J5cXBHQlVOTWhLZ3BDTtIBqgFBVV95cUxPUkJrT3ZicWM2MGJFNkRlamE0OHZzRlduamRWMUVHczY1U1g5YmhSeFdNaHJYZnhNY3IwdzZ3Q1d0ZEsxS1NSZFgtaXVqMHBjNkFMbkwwakpCNHJhMXZweVJUN29ReURNUHBOZF9qeDdsRU1WREVNN0JvSlVvVVBUM1lMZkhTbDNnalFsYzRpS05ZeVNXVnVxcmg3LXhJejFNdVp2Q2d6VURHdw",
+      "category": "uncategorized",
+      "originalCategory": "opportunities",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "dd77287a3570e47702f744fdb039d71bca8bf19557285aaff97742de787a8979",
+      "url": "https://www.nytimes.com/athletic/7753514/2026/11/12/arizona-state-hockey-tragedy-coach-athletic-department",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "e00d4e316e1f664281a950cea2d0f7189c42c4150e003116cb1fcabf76e754a4",
+      "url": "https://link.springer.com/article/10.1007/s12142-026-00776-z",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "e07aa27bb12053aae19032293fe34ae312361657c779cfcab3760e5ffe5003bf",
+      "url": "https://www.justice.gov/usao-sdny/pr/three-foreign-nationals-arrested-and-charged-scheme-use-super-intelligence-defraud",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "e282f7dd5d26c79f3d311bf7d5e22ea4e15bf09980cacf730e5890f86cc1c1e6",
+      "url": "https://towcenter.columbia.edu/sites/towcenter.columbia.edu/files/content/Tow%20Report_%20Guide%20to%20Information%20Warfare.pdf",
+      "category": "tools",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {
+        "productSignal": true,
+        "function": true,
+        "access": false,
+        "license": false,
+        "licenseStatus": "not stated in captured source"
+      },
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "condições de acesso minimamente descritas"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "e91429c902af8b6f08c6de218d23babdd8f49e735dbf1c749b9794a4c075a491",
+      "url": "https://substack.com/redirect/7c4e7f36-6dc0-4e5b-89ab-05b89a631956",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "ebd63919a1afa1abae87a6ea0a3344b436361add8c4393857a07354115f9114e",
+      "url": "https://www.occrp.org/en/news/paraguayan-president-impeached-and-arrested-amid-financial-meltdown-and-mass-protests",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "ed1e7900c8ffeb57537ac8ee699a1be537510d9c426a8f16ef29ac6af4ec1ccb",
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSdAlTQhmd2fxhlHkEjx-igKBihqykIWV-qgyxUWj12U61M3Iw/viewform",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "f4a6e65588bd4773995f25de2338a04b1a5a7df3df174ec49ac6bb3ef0a39e4f",
+      "url": "https://substack.com/redirect/5b9ffded-e96c-4a14-9a1c-9e8620d35609",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "f60694669f64f9486ce8841a256f1ca8bac8c1e48d4cad74391115c80f6930bd",
+      "url": "https://www.rte.ie/news/primetime/2026/1106/1598192-galway-university-fake-news-expert-claims-fake-doctorate",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "f66650ddf017b301f4d45b29bf937e78a9343a9ba718c2c3364337e192b38251",
+      "url": "https://www.planet.com/pulse/introducing-the-planet-ai-app-search-explore-act",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "f678e5be981f7c02878a723db7de38012d6823c4a57a7037f175b40c3bc41b42",
+      "url": "https://leadstories.com/hoax-alert/2026/11/fact-check-15-percent-band-trump-senate-2022-2024.html",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "f96b982ec40098274553fef61aa115f974894fbefce79c63b58c5a7cd6100b31",
+      "url": "https://substack.com/redirect/073f3a9e-5eed-4962-8f46-e33f2c9de654",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
         "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
