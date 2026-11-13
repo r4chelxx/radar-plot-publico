@@ -4,6 +4,10 @@ on:
   schedule:
     - cron: '30 13 * * *'
   workflow_dispatch:
+  workflow_run:
+    workflows: ["Unified public web intake"]
+    types: [completed]
+    branches: [main]
   push:
     paths:
       - 'data/sources.js'
@@ -214,7 +218,7 @@ jobs:
     needs: discover
     env:
       GH_REPO: ${{ github.repository }}
-    if: github.ref == 'refs/heads/main' && (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch' || github.event_name == 'push')
+    if: github.ref == 'refs/heads/main' && (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch' || github.event_name == 'push' || (github.event_name == 'workflow_run' && github.event.workflow_run.conclusion == 'success'))
     runs-on: ubuntu-latest
     permissions:
       contents: write
