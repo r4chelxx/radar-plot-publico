@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-11-13T19:33:55.589Z",
+  "generatedAt": "2026-11-13T19:52:40.662Z",
   "policy": "Evidence-based category triage. Missing license is recorded as unknown when not found; complete means draft eligibility only, never approval or publication.",
   "counts": {
     "pending_more_evidence": 1889
   },
   "categoryCounts": {
-    "uncategorized": 1742,
+    "uncategorized": 1759,
     "opportunities": 33,
-    "tools": 50,
+    "tools": 33,
     "datasets": 64
   },
   "records": [
@@ -12352,20 +12352,13 @@
     {
       "id": "a89586c5e12ee34e9059bf1e85738c31c32a3c03fe7a0e4299294c89f8e90195",
       "url": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/656b2049-1b71-424a-81eb-4713fd40c74d/indicator-lab-banner-1200x400.png",
-      "category": "tools",
+      "category": "uncategorized",
       "originalCategory": "tools",
       "checkedAt": "2026-11-10T20:53:48.541Z",
-      "checks": {
-        "productSignal": true,
-        "function": false,
-        "access": false,
-        "license": false,
-        "licenseStatus": "not stated in captured source"
-      },
+      "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
-        "função documentada na fonte",
-        "condições de acesso minimamente descritas"
+        "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -16485,20 +16478,13 @@
     {
       "id": "3f0ff00bc2ca2221ce166361e756771e6f70e281e7eaf463ac37b332f482de36",
       "url": "https://lifeline.chat/",
-      "category": "tools",
+      "category": "uncategorized",
       "originalCategory": "tools",
       "checkedAt": "2026-11-10T20:31:28.952Z",
-      "checks": {
-        "productSignal": true,
-        "function": false,
-        "access": false,
-        "license": false,
-        "licenseStatus": "not stated in captured source"
-      },
+      "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
-        "função documentada na fonte",
-        "condições de acesso minimamente descritas"
+        "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -17301,20 +17287,13 @@
     {
       "id": "cf5feb4131c634706a5989a5b339a49c178cd6a681fef0e9a3ce6ca3634b425d",
       "url": "https://theosintvault.io/nicole-hurey",
-      "category": "tools",
+      "category": "uncategorized",
       "originalCategory": "tools",
       "checkedAt": "2026-11-10T20:31:28.952Z",
-      "checks": {
-        "productSignal": true,
-        "function": false,
-        "access": false,
-        "license": false,
-        "licenseStatus": "not stated in captured source"
-      },
+      "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
-        "função documentada na fonte",
-        "condições de acesso minimamente descritas"
+        "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -17472,18 +17451,12 @@
     {
       "id": "f86782692d97aead5f5987bd8f40b21684ba34637e5ea0c77ea65499ebf0dad3",
       "url": "https://web.archive.org/web/20090923080411/http://namechk.com",
-      "category": "tools",
+      "category": "uncategorized",
       "originalCategory": "tools",
       "checkedAt": "2026-11-10T20:31:28.952Z",
-      "checks": {
-        "productSignal": true,
-        "function": false,
-        "access": true,
-        "license": false,
-        "licenseStatus": "not stated in captured source"
-      },
+      "checks": {},
       "missing": [
-        "função documentada na fonte"
+        "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -24630,18 +24603,12 @@
     {
       "id": "2d772382a51a2d34d489c7b95585b43de69205f2721bfe9a811b4ae659772c49",
       "url": "https://www.nzherald.co.nz/nz/auckland/google-ai-falsely-links-auckland-anaesthetic-technician-to-drink-driving-convictions/XZOO344JYZDOPN33BGK5KQOWYM",
-      "category": "tools",
+      "category": "uncategorized",
       "originalCategory": "tools",
       "checkedAt": "2026-11-13T18:31:33.655Z",
-      "checks": {
-        "productSignal": true,
-        "function": false,
-        "access": true,
-        "license": false,
-        "licenseStatus": "not stated in captured source"
-      },
+      "checks": {},
       "missing": [
-        "função documentada na fonte"
+        "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -24743,20 +24710,13 @@
     {
       "id": "3886c6f59f72a5b8da1b5b92af66545d9cfffd49d0add7882ed98aebb705bd33",
       "url": "https://www.linkedin.com/pulse/tiktok-says-we-blame-child-sexual-abuse-problem-lol-carlos-rqwoe",
-      "category": "tools",
+      "category": "uncategorized",
       "originalCategory": "tools",
       "checkedAt": "2026-11-13T18:31:33.655Z",
-      "checks": {
-        "productSignal": true,
-        "function": false,
-        "access": false,
-        "license": false,
-        "licenseStatus": "not stated in captured source"
-      },
+      "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
-        "função documentada na fonte",
-        "condições de acesso minimamente descritas"
+        "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -24998,20 +24958,13 @@
     {
       "id": "5a774e44885d83d0065d97dd4248c0242bcbcbe6135f1054425f14a68383d4e2",
       "url": "https://uwcip.substack.com/p/proof-of-a-stolen-election-how-misleading",
-      "category": "tools",
+      "category": "uncategorized",
       "originalCategory": "tools",
       "checkedAt": "2026-11-13T18:31:33.655Z",
-      "checks": {
-        "productSignal": true,
-        "function": false,
-        "access": false,
-        "license": false,
-        "licenseStatus": "not stated in captured source"
-      },
+      "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
-        "função documentada na fonte",
-        "condições de acesso minimamente descritas"
+        "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -25060,20 +25013,13 @@
     {
       "id": "5d6dcd6d3a4b3a88b4c78b84bd66bd013b605ddc6b9b66ec0bc538bb1a301383",
       "url": "https://toddingtonint.substack.com/p/when-bias-derails-a-report",
-      "category": "tools",
+      "category": "uncategorized",
       "originalCategory": "tools",
       "checkedAt": "2026-11-13T18:31:33.655Z",
-      "checks": {
-        "productSignal": true,
-        "function": false,
-        "access": false,
-        "license": false,
-        "licenseStatus": "not stated in captured source"
-      },
+      "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
-        "função documentada na fonte",
-        "condições de acesso minimamente descritas"
+        "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -25200,19 +25146,12 @@
     {
       "id": "741bfebab1be10b1df7ab1384188d68f0153bf88b10b9d37a042cdb4d1aa8489",
       "url": "https://ai.planet.com/",
-      "category": "tools",
+      "category": "uncategorized",
       "originalCategory": "tools",
       "checkedAt": "2026-11-13T18:31:33.655Z",
-      "checks": {
-        "productSignal": true,
-        "function": false,
-        "access": false,
-        "license": false,
-        "licenseStatus": "not stated in captured source"
-      },
+      "checks": {},
       "missing": [
-        "função documentada na fonte",
-        "condições de acesso minimamente descritas"
+        "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -25267,18 +25206,12 @@
     {
       "id": "77f59bf2cab3bbb7d2099aebd0ddd428139df09703d4e801fe940da7be0997b7",
       "url": "https://documentedny.com/",
-      "category": "tools",
+      "category": "uncategorized",
       "originalCategory": "tools",
       "checkedAt": "2026-11-13T18:31:33.655Z",
-      "checks": {
-        "productSignal": true,
-        "function": false,
-        "access": true,
-        "license": false,
-        "licenseStatus": "not stated in captured source"
-      },
+      "checks": {},
       "missing": [
-        "função documentada na fonte"
+        "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -25656,18 +25589,12 @@
     {
       "id": "997818bacab6c214535065b9ee7d2badeca9944ba6f612ffa6c6477c955eef8e",
       "url": "https://maldita.es/investigaciones/20261109/tiktok-hogar-pederasta",
-      "category": "tools",
+      "category": "uncategorized",
       "originalCategory": "tools",
       "checkedAt": "2026-11-13T18:31:33.655Z",
-      "checks": {
-        "productSignal": true,
-        "function": false,
-        "access": true,
-        "license": false,
-        "licenseStatus": "not stated in captured source"
-      },
+      "checks": {},
       "missing": [
-        "função documentada na fonte"
+        "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -25770,19 +25697,12 @@
     {
       "id": "a7e0123d1d0c4df3cbfd3f2b1a07267377729157203a35ca49017e038a1b9f6e",
       "url": "https://ai.planet.com/signin",
-      "category": "tools",
+      "category": "uncategorized",
       "originalCategory": "tools",
       "checkedAt": "2026-11-13T18:31:33.655Z",
-      "checks": {
-        "productSignal": true,
-        "function": false,
-        "access": false,
-        "license": false,
-        "licenseStatus": "not stated in captured source"
-      },
+      "checks": {},
       "missing": [
-        "função documentada na fonte",
-        "condições de acesso minimamente descritas"
+        "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -25804,20 +25724,13 @@
     {
       "id": "aa4aac03ccb169b8fe841084f3f80987e4bcdc152df8316dbbe754b540594b7e",
       "url": "https://www.newsguardrealitycheck.com/p/dougan-leak-exposes-concerted-effort",
-      "category": "tools",
+      "category": "uncategorized",
       "originalCategory": "tools",
       "checkedAt": "2026-11-13T18:31:33.655Z",
-      "checks": {
-        "productSignal": true,
-        "function": false,
-        "access": false,
-        "license": false,
-        "licenseStatus": "not stated in captured source"
-      },
+      "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
-        "função documentada na fonte",
-        "condições de acesso minimamente descritas"
+        "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -26012,20 +25925,13 @@
     {
       "id": "c8c5d00af0dd4d87f2ac1d861ca627684679ea194ea06b6aa3c8d288a6a47e9d",
       "url": "https://osintfieldnotes.substack.com/p/osint-field-notes-14-my-osint-course",
-      "category": "tools",
+      "category": "uncategorized",
       "originalCategory": "tools",
       "checkedAt": "2026-11-13T18:31:33.655Z",
-      "checks": {
-        "productSignal": true,
-        "function": false,
-        "access": false,
-        "license": false,
-        "licenseStatus": "not stated in captured source"
-      },
+      "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
-        "função documentada na fonte",
-        "condições de acesso minimamente descritas"
+        "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -26107,20 +26013,13 @@
     {
       "id": "cf81fb67a145f3bc24b6eedd297e8599b2a340bbc60f70b052f662bb6df3bdec",
       "url": "https://medium.com/@snyde21",
-      "category": "tools",
+      "category": "uncategorized",
       "originalCategory": "tools",
       "checkedAt": "2026-11-13T18:31:33.655Z",
-      "checks": {
-        "productSignal": true,
-        "function": false,
-        "access": false,
-        "license": false,
-        "licenseStatus": "not stated in captured source"
-      },
+      "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
-        "função documentada na fonte",
-        "condições de acesso minimamente descritas"
+        "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -26156,18 +26055,12 @@
     {
       "id": "d19b89b97b0dd68359cc87c249c32e6679c6d3eeabbe80e3428ea2749b7f414e",
       "url": "https://mattw.io/youtube-geofind",
-      "category": "tools",
+      "category": "uncategorized",
       "originalCategory": "tools",
       "checkedAt": "2026-11-13T18:31:33.655Z",
-      "checks": {
-        "productSignal": true,
-        "function": false,
-        "access": true,
-        "license": false,
-        "licenseStatus": "not stated in captured source"
-      },
+      "checks": {},
       "missing": [
-        "função documentada na fonte"
+        "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -26281,19 +26174,12 @@
     {
       "id": "e07aa27bb12053aae19032293fe34ae312361657c779cfcab3760e5ffe5003bf",
       "url": "https://www.justice.gov/usao-sdny/pr/three-foreign-nationals-arrested-and-charged-scheme-use-super-intelligence-defraud",
-      "category": "tools",
+      "category": "uncategorized",
       "originalCategory": "tools",
       "checkedAt": "2026-11-13T18:31:33.655Z",
-      "checks": {
-        "productSignal": true,
-        "function": false,
-        "access": false,
-        "license": false,
-        "licenseStatus": "not stated in captured source"
-      },
+      "checks": {},
       "missing": [
-        "função documentada na fonte",
-        "condições de acesso minimamente descritas"
+        "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false

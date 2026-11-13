@@ -1,64 +1,10 @@
 {
-  "checkedAt": "2026-11-13T19:33:54.905Z",
+  "checkedAt": "2026-11-13T19:52:39.857Z",
   "batchLimit": 150,
   "intervalDays": 7,
-  "due": 3,
+  "due": 0,
   "pending": 1889,
-  "remainingDue": 1886,
-  "counts": {
-    "inconclusive": 3
-  },
-  "results": [
-    {
-      "id": "78de1037bfd4b55052bfefdea108ac27bf3780c0451cdf34ddd2418a7a13d4cf",
-      "title": "NFJ#579 🌱 O que uma produção analógica pode ensinar ao jornalismo digital?",
-      "url": "https://substack.com/redirect/fb25881a-d53e-4ac3-b2d7-387e6d094623",
-      "category": "uncategorized",
-      "checkedAt": "2026-11-13T19:33:54.905Z",
-      "httpStatus": 403,
-      "finalUrl": "https://substack.com/redirect/fb25881a-d53e-4ac3-b2d7-387e6d094623",
-      "contentType": "text/html; charset=UTF-8",
-      "pageTitle": "Just a moment...",
-      "pageDescription": "",
-      "evidenceText": "Just a moment...",
-      "structuredData": [],
-      "resourceLinks": [],
-      "result": "inconclusive",
-      "reason": "Fonte retornou HTTP 403."
-    },
-    {
-      "id": "b5de93115f65d8f83faedb51f650d1926b81f6d20f6c8a024848ee7b7bb86571",
-      "title": "NFJ#579 🌱 O que uma produção analógica pode ensinar ao jornalismo digital?",
-      "url": "https://faroljornalismo.substack.com/p/nfj579-o-que-uma-producao-analogica",
-      "category": "uncategorized",
-      "checkedAt": "2026-11-13T19:33:54.905Z",
-      "httpStatus": 403,
-      "finalUrl": "https://faroljornalismo.substack.com/p/nfj579-o-que-uma-producao-analogica",
-      "contentType": "text/html; charset=UTF-8",
-      "pageTitle": "Just a moment...",
-      "pageDescription": "",
-      "evidenceText": "Just a moment...",
-      "structuredData": [],
-      "resourceLinks": [],
-      "result": "inconclusive",
-      "reason": "Fonte retornou HTTP 403."
-    },
-    {
-      "id": "c793c74c091a1d3b383657c2853e6a6bb34f5d282f76c8659ff45324ea2ab213",
-      "title": "NFJ#579 🌱 O que uma produção analógica pode ensinar ao jornalismo digital?",
-      "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9zdWJzdGFjay5jb20vc2lnbnVwP3V0bV9zb3VyY2U9c3Vic3RhY2smdXRtX21lZGl1bT1lbWFpbCZ1dG1fY29udGVudD1mb290ZXImdXR",
-      "category": "uncategorized",
-      "checkedAt": "2026-11-13T19:33:54.905Z",
-      "httpStatus": 403,
-      "finalUrl": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9zdWJzdGFjay5jb20vc2lnbnVwP3V0bV9zb3VyY2U9c3Vic3RhY2smdXRtX21lZGl1bT1lbWFpbCZ1dG1fY29udGVudD1mb290ZXImdXR",
-      "contentType": "text/html; charset=UTF-8",
-      "pageTitle": "Just a moment...",
-      "pageDescription": "",
-      "evidenceText": "Just a moment...",
-      "structuredData": [],
-      "resourceLinks": [],
-      "result": "inconclusive",
-      "reason": "Fonte retornou HTTP 403."
-    }
-  ]
+  "remainingDue": 1889,
+  "counts": {},
+  "results": []
 }
