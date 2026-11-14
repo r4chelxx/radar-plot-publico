@@ -1935,7 +1935,7 @@ window.RADAR_PARTS.opportunities=[
   "deadlineStatus": "confirmado",
   "eligibility": "elegível",
   "fit": 6,
-  "status": "aberta",
+  "status": "encerrada",
   "rules": "https://www.poder360.com.br/trainee-2027/",
   "apply": "https://www.poder360.com.br/trainee-2027/",
   "verified": "2026-10-19",
