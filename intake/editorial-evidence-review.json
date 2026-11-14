@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-14T00:23:03.561Z",
+  "generatedAt": "2026-11-14T20:04:17.200Z",
   "policy": "Evidence-based category triage. Missing license is recorded as unknown when not found; complete means draft eligibility only, never approval or publication.",
   "counts": {
-    "pending_more_evidence": 1891
+    "pending_more_evidence": 1895
   },
   "categoryCounts": {
-    "uncategorized": 1761,
+    "uncategorized": 1765,
     "opportunities": 33,
     "tools": 33,
     "datasets": 64
@@ -26386,6 +26386,60 @@
       "category": "uncategorized",
       "originalCategory": "opportunities",
       "checkedAt": "2026-11-14T00:23:02.808Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "448c668e78c29f5717e68ab307c19c3e751b95f9ce39cc3cf3d9c1c6348206af",
+      "url": "https://opportunitydesk.org/2026/11/14/ocean-futures-fellowship-2027-building-ocean-career-pathways",
+      "category": "uncategorized",
+      "originalCategory": "opportunities",
+      "checkedAt": "2026-11-14T20:04:16.384Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "bc6df8cdd1f931d905e8138dc12a6bf1ef111eb605524f1c958a21c87dbbc7ee",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQbnBMLTZzVGdVZjR2M0dCSVRCc2ZkLVczSURXMzZWbURsbGZlaE5Ydm9iZzN0d2pLbWx3aTZJbmFlUVUxZDI4eEx0a0pKUWFwTDdod2F2d0FuYW1BUFFzRjNiVlBRbFdXLW9JM1ZrVTZYWTJrdXRWR3NiZ256eVEwa0tpdmlWQTE1ZkNhVVBsYjJyNGJIMkpzSV9CcEpZTUZUSktlTjYyVE1jQWtSNE1YX0ZjTGJ6UXY0VTM3VHJGaC1KMl9LWGJ3QnpFQW1JRzVvS25v0gHYAUFVX3lxTE16aDB4aU9KZTI0LVV3RGRKSHZoaEVJYnJmZDExNkVtdm9oZGQ2NnNrZm5LSDZUbG8wUmQ3dWNlU1c3UGRoSGpzM244VnF1WXFWV08yVG5XOFJaTkxLRjVuRTRMUGg4NnA0dS12SFA1SmZFU2xGbjFRY3pKd0lQRDZ2M01hV296bDR3WjJpbG1oem9vQjE0ekhqUVpMM3VWNUtseGtqY1dyYVBkdWhKeC1KY1B6eUh1ZmFTNHVqd0tjcVk0WHA2cXJKbDRabDlxeDVGZ1NoZlFIOQ",
+      "category": "uncategorized",
+      "originalCategory": "opportunities",
+      "checkedAt": "2026-11-14T20:04:16.384Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "cdd4d2b577132223beae935b166995721f704d53cf7d01a82c424df4f7781366",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQeXJkbElYUlFNcG9nS3BxM1JHeGZ4cnluZnJXQnRTTjZJUnVIdlNLempWOGdvcFVfR1lhMnRXdG5xVTd6Tmx6a2pPVEtBTEhXOVZyS1l0T2lrY2ZtMWdWOFd4OUl3QmduaVFWemxicUZVTkZFRHIwWlF1aEtpalZUWG1WTGxReVdYcmw5aDhOX2ExSE9ZMVRBbU1ielV5TlJuUTluQVJ0MNIBrAFBVV95cUxPZ1FKQkxGWEZ6YlJRamdFeXpOTWRoNHFkekpaY0ZocjBXSklLWTl1T3NrTFhnaGNkdWp2TjhQNlFiQmpjc0RPV293eEZRT2dHUEI4MWhVeEtaSWlqMEs1T2RJMGd1RElCUnVBaGo4UkFJUEY4ZzVJbUhkMmpLekpvTWVvVkVEVl8wdFIwRlpVaDdvUEJrZkEtbXprOS1PQkRONUp2NUN0bnlidkd4",
+      "category": "uncategorized",
+      "originalCategory": "opportunities",
+      "checkedAt": "2026-11-14T20:04:16.384Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "d5c5676db3fff4ef200e2177f465760d1fa24aa7573eafe9387537699af0a38d",
+      "url": "https://opportunitydesk.org/2026/11/14/council-of-europe-grants-for-civil-society-organisations-2026",
+      "category": "uncategorized",
+      "originalCategory": "opportunities",
+      "checkedAt": "2026-11-14T20:04:16.384Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
