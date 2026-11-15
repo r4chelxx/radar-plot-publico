@@ -1,10 +1,10 @@
 {
-  "checkedAt": "2026-11-14T16:59:25.626Z",
+  "checkedAt": "2026-11-15T17:44:30.562Z",
   "policy": "404/410 and ArcGIS application errors within HTTP 200 become broken only after appearing as suspect or broken in the previous audit; blocked and network results are inconclusive",
   "counts": {
-    "network": 45,
-    "ok": 608,
-    "blocked": 58
+    "ok": 591,
+    "blocked": 55,
+    "network": 65
   },
   "results": [
     {
@@ -24,13 +24,12 @@
           "field": "apply"
         }
       ],
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://www.generonumero.media/artigos/programa-de-bolsas-aborto-em-pilulas/",
+      "class": "ok",
       "attempts": [
         "TypeError:fetch failed",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -921,7 +920,6 @@
       "finalUrl": "https://digital-strategy.ec.europa.eu/en/funding/call-proposals-journalism-partnerships-collaborations-2027",
       "class": "ok",
       "attempts": [
-        429,
         200
       ]
     },
@@ -2384,11 +2382,13 @@
           "field": "apply"
         }
       ],
-      "status": 200,
-      "finalUrl": "https://nationalpress.org/training/apply-2026-rare-disease-reporting-fellowship-and-grants/",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "AbortError:This operation was aborted",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -2408,11 +2408,13 @@
           "field": "url"
         }
       ],
-      "status": 200,
-      "finalUrl": "https://nationalpress.org/programs/",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "AbortError:This operation was aborted",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -2864,11 +2866,11 @@
           "field": "apply"
         }
       ],
-      "status": 403,
+      "status": 200,
       "finalUrl": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/data-journalism-grants",
-      "class": "blocked",
+      "class": "ok",
       "attempts": [
-        403
+        200
       ]
     },
     {
@@ -2979,11 +2981,11 @@
           "field": "apply"
         }
       ],
-      "status": 403,
+      "status": 200,
       "finalUrl": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/our-work-environment-grants",
-      "class": "blocked",
+      "class": "ok",
       "attempts": [
-        403
+        200
       ]
     },
     {
@@ -3017,11 +3019,11 @@
           "field": "rules"
         }
       ],
-      "status": 403,
+      "status": 200,
       "finalUrl": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/ai-accountability-fellowships",
-      "class": "blocked",
+      "class": "ok",
       "attempts": [
-        403
+        200
       ]
     },
     {
@@ -3165,11 +3167,13 @@
           "field": "rules"
         }
       ],
-      "status": 200,
-      "finalUrl": "https://ok.org.br/noticia/chamada-aberta-inscreva-sua-atividade-para-o-coda-br-2026/",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "AbortError:This operation was aborted",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -3189,11 +3193,13 @@
           "field": "url"
         }
       ],
-      "status": 200,
-      "finalUrl": "https://ok.org.br/",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "AbortError:This operation was aborted",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -3874,11 +3880,11 @@
           "field": "apply"
         }
       ],
-      "status": 403,
+      "status": 200,
       "finalUrl": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/gender-equality-grant",
-      "class": "blocked",
+      "class": "ok",
       "attempts": [
-        403
+        200
       ]
     },
     {
@@ -3898,11 +3904,11 @@
           "field": "apply"
         }
       ],
-      "status": 403,
+      "status": 200,
       "finalUrl": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/global-reporting-grants",
-      "class": "blocked",
+      "class": "ok",
       "attempts": [
-        403
+        200
       ]
     },
     {
@@ -4941,11 +4947,13 @@
           "field": "discoveryUrl"
         }
       ],
-      "status": 200,
-      "finalUrl": "https://ok.org.br/projetos/indice-dados-abertos/",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "AbortError:This operation was aborted",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -4965,11 +4973,13 @@
           "field": "docs"
         }
       ],
-      "status": 200,
-      "finalUrl": "https://ok.org.br/inda/",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "AbortError:This operation was aborted",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -4984,11 +4994,13 @@
           "field": "discoveryUrl"
         }
       ],
-      "status": 200,
-      "finalUrl": "https://ok.org.br/projetos/monitor-da-inda/",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "AbortError:This operation was aborted",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -7356,7 +7368,7 @@
       "class": "network",
       "error": "TypeError:fetch failed",
       "attempts": [
-        "TypeError:fetch failed",
+        "AbortError:This operation was aborted",
         "TypeError:fetch failed"
       ]
     },
@@ -7377,7 +7389,7 @@
       "class": "network",
       "error": "TypeError:fetch failed",
       "attempts": [
-        "TypeError:fetch failed",
+        "AbortError:This operation was aborted",
         "TypeError:fetch failed"
       ]
     },
@@ -7398,7 +7410,7 @@
       "class": "network",
       "error": "TypeError:fetch failed",
       "attempts": [
-        "TypeError:fetch failed",
+        "AbortError:This operation was aborted",
         "TypeError:fetch failed"
       ]
     },
@@ -7419,7 +7431,7 @@
       "class": "network",
       "error": "TypeError:fetch failed",
       "attempts": [
-        "TypeError:fetch failed",
+        "AbortError:This operation was aborted",
         "TypeError:fetch failed"
       ]
     },
@@ -7440,7 +7452,7 @@
       "class": "network",
       "error": "TypeError:fetch failed",
       "attempts": [
-        "TypeError:fetch failed",
+        "AbortError:This operation was aborted",
         "TypeError:fetch failed"
       ]
     },
@@ -7456,11 +7468,13 @@
           "field": "url"
         }
       ],
-      "status": 200,
-      "finalUrl": "https://www.transparencia.ba.gov.br/Portal",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "AbortError:This operation was aborted",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -7475,11 +7489,13 @@
           "field": "url"
         }
       ],
-      "status": 200,
-      "finalUrl": "https://www.ba.gov.br/ssp/publicacoes",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "AbortError:This operation was aborted",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -7494,11 +7510,13 @@
           "field": "url"
         }
       ],
-      "status": 200,
-      "finalUrl": "https://www.ba.gov.br/ssp/dados-abertos",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "AbortError:This operation was aborted",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -7596,11 +7614,13 @@
           "field": "url"
         }
       ],
-      "status": 200,
-      "finalUrl": "https://datasus.saude.gov.br/",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "AbortError:This operation was aborted",
       "attempts": [
-        200
+        "AbortError:This operation was aborted",
+        "AbortError:This operation was aborted"
       ]
     },
     {
@@ -7812,11 +7832,13 @@
           "field": "url"
         }
       ],
-      "status": 200,
-      "finalUrl": "https://www.ba.gov.br/inema/servicos/dados-geoespaciais",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "AbortError:This operation was aborted",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -7836,11 +7858,13 @@
           "field": "url"
         }
       ],
-      "status": 200,
-      "finalUrl": "https://www.ba.gov.br/inema/atende/outorga",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "AbortError:This operation was aborted",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -7918,11 +7942,13 @@
           "field": "url"
         }
       ],
-      "status": 200,
-      "finalUrl": "https://www.ba.gov.br/saude/suvisa/vigilancia-epidemiologica",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "AbortError:This operation was aborted",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -8091,11 +8117,13 @@
           "field": "url"
         }
       ],
-      "status": 200,
-      "finalUrl": "https://sigeduc.educacao.ba.gov.br/sigeduc/public/transparencia/pages/consulta/relatorio_escolas/relEscolasEtapaModalidadeAnalitico.jsf",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "AbortError:This operation was aborted",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -8292,7 +8320,7 @@
       "class": "network",
       "error": "TypeError:fetch failed",
       "attempts": [
-        "TypeError:fetch failed",
+        "AbortError:This operation was aborted",
         "TypeError:fetch failed"
       ]
     },
@@ -8313,7 +8341,7 @@
       "class": "network",
       "error": "TypeError:fetch failed",
       "attempts": [
-        "TypeError:fetch failed",
+        "AbortError:This operation was aborted",
         "TypeError:fetch failed"
       ]
     },
@@ -8334,7 +8362,7 @@
       "class": "network",
       "error": "TypeError:fetch failed",
       "attempts": [
-        "TypeError:fetch failed",
+        "AbortError:This operation was aborted",
         "TypeError:fetch failed"
       ]
     },
@@ -8355,7 +8383,7 @@
       "class": "network",
       "error": "TypeError:fetch failed",
       "attempts": [
-        "TypeError:fetch failed",
+        "AbortError:This operation was aborted",
         "TypeError:fetch failed"
       ]
     },
@@ -8376,7 +8404,7 @@
       "class": "network",
       "error": "TypeError:fetch failed",
       "attempts": [
-        "TypeError:fetch failed",
+        "AbortError:This operation was aborted",
         "TypeError:fetch failed"
       ]
     },
@@ -8397,7 +8425,7 @@
       "class": "network",
       "error": "TypeError:fetch failed",
       "attempts": [
-        "TypeError:fetch failed",
+        "AbortError:This operation was aborted",
         "TypeError:fetch failed"
       ]
     },
@@ -8418,7 +8446,7 @@
       "class": "network",
       "error": "TypeError:fetch failed",
       "attempts": [
-        "TypeError:fetch failed",
+        "AbortError:This operation was aborted",
         "TypeError:fetch failed"
       ]
     },
@@ -8439,7 +8467,7 @@
       "class": "network",
       "error": "TypeError:fetch failed",
       "attempts": [
-        "TypeError:fetch failed",
+        "AbortError:This operation was aborted",
         "TypeError:fetch failed"
       ]
     },
@@ -8507,11 +8535,13 @@
           "field": "url"
         }
       ],
-      "status": 200,
-      "finalUrl": "https://biobr.saude.ba.gov.br/static/obitomaterno.php",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "AbortError:This operation was aborted",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -8526,11 +8556,13 @@
           "field": "url"
         }
       ],
-      "status": 200,
-      "finalUrl": "https://www.ba.gov.br/saude/",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "AbortError:This operation was aborted",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -8651,11 +8683,13 @@
           "field": "url"
         }
       ],
-      "status": 200,
-      "finalUrl": "https://www.ba.gov.br/inema/banner/consulta-de-processos",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "AbortError:This operation was aborted",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -8670,11 +8704,13 @@
           "field": "url"
         }
       ],
-      "status": 200,
-      "finalUrl": "https://www.ba.gov.br/inema/atende/formularios/outorga",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "AbortError:This operation was aborted",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -8689,11 +8725,13 @@
           "field": "url"
         }
       ],
-      "status": 200,
-      "finalUrl": "https://www.ba.gov.br/inema/legislacao/normas-tecnicas-e-portarias",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "AbortError:This operation was aborted",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -8808,11 +8846,13 @@
           "field": "docs"
         }
       ],
-      "status": 200,
-      "finalUrl": "https://www.ba.gov.br/fpc/arquivo-publico-acervo",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "AbortError:This operation was aborted",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -8869,11 +8909,13 @@
           "field": "url"
         }
       ],
-      "status": 200,
-      "finalUrl": "https://www.ba.gov.br/sde/incentivos",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "AbortError:This operation was aborted",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -9013,7 +9055,7 @@
       "class": "network",
       "error": "AbortError:This operation was aborted",
       "attempts": [
-        "AbortError:This operation was aborted",
+        502,
         "AbortError:This operation was aborted"
       ]
     },
@@ -9444,13 +9486,11 @@
           "field": "url"
         }
       ],
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "AbortError:This operation was aborted",
+      "status": 200,
+      "finalUrl": "https://ararenda.ce.gov.br/transparencia/dados-abertos/",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "AbortError:This operation was aborted"
+        200
       ]
     },
     {
@@ -9465,13 +9505,11 @@
           "field": "api"
         }
       ],
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "AbortError:This operation was aborted",
+      "status": 200,
+      "finalUrl": "https://ararenda.ce.gov.br/api/v1/",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "AbortError:This operation was aborted"
+        200
       ]
     },
     {
@@ -9662,11 +9700,11 @@
           "field": "url"
         }
       ],
-      "status": 202,
+      "status": 200,
       "finalUrl": "https://oneworldmedia.org.uk/awards/",
       "class": "ok",
       "attempts": [
-        202
+        200
       ]
     },
     {
@@ -9958,11 +9996,11 @@
           "field": "url"
         }
       ],
-      "status": 202,
+      "status": 200,
       "finalUrl": "https://rorypecktrust.org/",
       "class": "ok",
       "attempts": [
-        202
+        200
       ]
     },
     {
@@ -10015,11 +10053,11 @@
           "field": "url"
         }
       ],
-      "status": 202,
+      "status": 200,
       "finalUrl": "https://oneworldmedia.org.uk/fellowship/",
       "class": "ok",
       "attempts": [
-        202
+        200
       ]
     },
     {
@@ -10034,11 +10072,11 @@
           "field": "url"
         }
       ],
-      "status": 202,
+      "status": 200,
       "finalUrl": "https://amadomundo.com/",
       "class": "ok",
       "attempts": [
-        202
+        200
       ]
     },
     {
@@ -11454,6 +11492,7 @@
       "finalUrl": "http://faroljornalismo.cc/blog/",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -12762,11 +12801,11 @@
           "field": "url"
         }
       ],
-      "status": 200,
+      "status": 403,
       "finalUrl": "https://osome.iu.edu/tools/osomenet/",
-      "class": "ok",
+      "class": "blocked",
       "attempts": [
-        200
+        403
       ]
     },
     {
@@ -12781,11 +12820,11 @@
           "field": "discoveryUrl"
         }
       ],
-      "status": 200,
+      "status": 403,
       "finalUrl": "https://osome.iu.edu/tools/osomenet/about",
-      "class": "ok",
+      "class": "blocked",
       "attempts": [
-        200
+        403
       ]
     },
     {
@@ -13086,11 +13125,13 @@
           "field": "discoveryUrl"
         }
       ],
-      "status": 200,
-      "finalUrl": "https://ok.org.br/projetos/qd-tecnologias-educacao/",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "AbortError:This operation was aborted",
+        "TypeError:fetch failed"
       ]
     },
     {
