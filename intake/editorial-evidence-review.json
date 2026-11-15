@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15T23:51:01.479Z",
+  "generatedAt": "2026-11-15T23:58:03.176Z",
   "policy": "Evidence-based category triage. Missing license is recorded as unknown when not found; complete means draft eligibility only, never approval or publication.",
   "counts": {
     "pending_more_evidence": 1867
@@ -1701,7 +1701,7 @@
       "url": "https://www.crummy.com/software/BeautifulSoup",
       "category": "tools",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-15T23:50:55.561Z",
+      "checkedAt": "2026-11-15T23:57:57.933Z",
       "checks": {
         "productSignal": true,
         "function": false,
@@ -2715,13 +2715,15 @@
       "url": "https://www.dandad.org/awards/d-ad-awards",
       "category": "opportunities",
       "originalCategory": "opportunities",
-      "checkedAt": "2026-11-10T20:02:55.377Z",
+      "checkedAt": "2026-11-15T23:57:38.557Z",
       "checks": {
-        "callSignal": true,
-        "deadline": "2026-12-09",
+        "callSignal": false,
+        "deadline": null,
         "eligibility": false
       },
       "missing": [
+        "chamada de financiamento/bolsa identificável",
+        "prazo futuro confirmado em formato de data reconhecido",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -3151,7 +3153,7 @@
       "url": "https://rss.org.uk/journalism-awards",
       "category": "opportunities",
       "originalCategory": "opportunities",
-      "checkedAt": "2026-11-10T20:02:55.377Z",
+      "checkedAt": "2026-11-15T23:57:39.878Z",
       "checks": {
         "callSignal": false,
         "deadline": null,
@@ -3492,14 +3494,15 @@
       "url": "https://www.walkleys.com/awards/walkleys",
       "category": "opportunities",
       "originalCategory": "opportunities",
-      "checkedAt": "2026-11-10T20:02:55.377Z",
+      "checkedAt": "2026-11-15T23:57:41.144Z",
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": true
+        "eligibility": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido"
+        "prazo futuro confirmado em formato de data reconhecido",
+        "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -3748,15 +3751,16 @@
       "url": "https://www.cartography.org.uk/awards",
       "category": "opportunities",
       "originalCategory": "opportunities",
-      "checkedAt": "2026-11-10T20:02:55.377Z",
+      "checkedAt": "2026-11-15T23:57:39.797Z",
       "checks": {
         "callSignal": false,
         "deadline": null,
-        "eligibility": true
+        "eligibility": false
       },
       "missing": [
         "chamada de financiamento/bolsa identificável",
-        "prazo futuro confirmado em formato de data reconhecido"
+        "prazo futuro confirmado em formato de data reconhecido",
+        "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -20209,7 +20213,7 @@
       "url": "https://www.gbif.org/dataset/6b6b2923-0a10-4708-b170-5b7c611aceef",
       "category": "uncategorized",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-10T20:53:48.541Z",
+      "checkedAt": "2026-11-15T23:58:02.432Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -20251,7 +20255,7 @@
       "url": "https://www.gbif.org/dataset/bae5856f-da10-4333-90a0-5a2135361b30",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-10T20:53:48.541Z",
+      "checkedAt": "2026-11-15T23:58:02.432Z",
       "checks": {
         "datasetSignal": false,
         "directResource": false,
@@ -21294,9 +21298,9 @@
       "url": "https://www.gov.br/mcti/pt-br/acesso-a-informacao/dados-abertos/dados-abertos/arquivos/adapta-brasil/adaptabrasil",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-10T23:36:48.947Z",
+      "checkedAt": "2026-11-15T23:57:44.317Z",
       "checks": {
-        "datasetSignal": true,
+        "datasetSignal": false,
         "directResource": false,
         "format": true,
         "coverage": true,
@@ -21304,6 +21308,7 @@
         "licenseStatus": "not stated in captured source"
       },
       "missing": [
+        "evidência de conjunto ou catálogo de dados",
         "download, API ou acesso direto ao recurso"
       ],
       "decision": "pending_more_evidence",
@@ -22586,7 +22591,7 @@
       "url": "https://grantsforjournalists.com/grant/john-s-knight-journalism-fellowship-at-stanford",
       "category": "opportunities",
       "originalCategory": "opportunities",
-      "checkedAt": "2026-11-15T23:25:30.826Z",
+      "checkedAt": "2026-11-15T23:57:40.029Z",
       "checks": {
         "callSignal": true,
         "deadline": null,
@@ -23002,7 +23007,7 @@
       "url": "https://www.niemanlab.org/2026/11/with-event-costs-up-and-funding-down-journalism-organizations-cancel-conferences-and-cut-staff",
       "category": "uncategorized",
       "originalCategory": "opportunities",
-      "checkedAt": "2026-11-15T23:25:30.507Z",
+      "checkedAt": "2026-11-15T23:57:42.565Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -23737,7 +23742,7 @@
       "url": "https://opportunitydesk.org/2026/11/12/ucla-library-special-collections-research-fellowships-2027",
       "category": "uncategorized",
       "originalCategory": "opportunities",
-      "checkedAt": "2026-11-15T23:25:31.264Z",
+      "checkedAt": "2026-11-15T23:57:42.644Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
