@@ -27,13 +27,17 @@ function selectBacklog(previous,current,limit=10,now=new Date(),options={}){
  const accessibilityRank=x=>['http-error','fetch-failed','non-html','blocked-url'].includes(x.pageStatus)?1:0;
  const nowMs=now.getTime();
  const all=[...seen.values()];
+ // Keep the technical inspection budget focused on publishable categories.
+ // Uncategorized/navigation pages remain in history but must not displace
+ // opportunities, datasets, or tools from the rotating evidence batch.
+ const actionable=all.filter(x=>['opportunities','datasets','tools'].includes(x.category));
  // First visit every historical lead; retries and recurring checks follow afterwards.
  const inspectedAnchor=x=>{
   if(!isArchivedOpportunity(x))return x.lastInspectedAt;
   const timestamps=[x.reviewedAt,x.lastInspectedAt].map(v=>Date.parse(v||'')).filter(Number.isFinite);
   return timestamps.length?new Date(Math.max(...timestamps)).toISOString():null;
  };
- const ready=all.filter(x=>{const at=inspectedAnchor(x);return !at||(Number.isFinite(Date.parse(at))&&nowMs-Date.parse(at)>=recheckDays(x)*86400000)});
+ const ready=actionable.filter(x=>{const at=inspectedAnchor(x);return !at||(Number.isFinite(Date.parse(at))&&nowMs-Date.parse(at)>=recheckDays(x)*86400000)});
  ready.sort((a,b)=>Number(isArchivedOpportunity(a))-Number(isArchivedOpportunity(b))||
   categoryRank(a)-categoryRank(b)||
   accessibilityRank(a)-accessibilityRank(b)||
@@ -64,7 +68,7 @@ function selectBacklog(previous,current,limit=10,now=new Date(),options={}){
  // inside their recheck window: fill unused capacity with the oldest historical
  // candidates. This is evidence refresh only; it never bypasses approval gates.
  const selectedIds=new Set(selectedReady.map(x=>x.id));
- const rotation=all.filter(x=>!selectedIds.has(x.id)).sort((a,b)=>
+ const rotation=actionable.filter(x=>!selectedIds.has(x.id)).sort((a,b)=>
   Number(isArchivedOpportunity(a))-Number(isArchivedOpportunity(b))||
   categoryRank(a)-categoryRank(b)||
   Number(Boolean(a.lastInspectedAt))-Number(Boolean(b.lastInspectedAt))||
