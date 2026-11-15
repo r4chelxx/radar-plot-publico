@@ -1,5 +1,6 @@
 // Evidence gathering only: NEVER confirms a deadline, eligibility or publication.
 const fs=require('node:fs'),crypto=require('node:crypto');
+const {cleanText,cleanTitle}=require('./editorial-text');
 const {selectBacklog}=require('./select-historical-backlog');
 const {auditCapacity}=require('./audit-capacity');
 const {inspectionHealth}=require('./inspection-health');
@@ -7,7 +8,12 @@ const {extractStructuredMetadata,metadataForLink}=require('./structured-lead-met
 const input=JSON.parse(fs.readFileSync('intake/candidate-triage.json','utf8'));
 const limit=Math.min(240,Math.max(1,Number(process.env.LEAD_PAGE_LIMIT||240)));
 function decode(value){return String(value||'').replace(/&(?:amp|and);/gi,'&').replace(/&quot;/gi,'"').replace(/&#39;/gi,"'").replace(/&nbsp;/gi,' ').replace(/<[^>]+>/g,' ').replace(/\s+/g,' ').trim();}
-function visibleText(html){return decode(String(html||'').replace(/<script\b[\s\S]*?<\/script>/gi,' ').replace(/<style\b[\s\S]*?<\/style>/gi,' ')).slice(0,1200);}
+function visibleText(html){return cleanText(String(html||'')).slice(0,1200);}
+function editorialText(html){
+ const source=String(html||'');
+ const match=source.match(/<(?:article|main)\b[^>]*>([\s\S]*?)<\/(?:article|main)>/i)||source.match(/<div[^>]+(?:entry-content|post-content|article-content|td-post-content)[^>]*>([\s\S]*?)<\/div>/i);
+ return cleanText(match?match[1]:source,3000);
+}
 function isoDate(raw){
  const s=String(raw||'').trim();
  let m=s.match(/\b(20\d{2})[-\\/.](\d{1,2})[-\\/.](\d{1,2})\b/);
@@ -50,12 +56,15 @@ async function inspect(lead){
   const html=(await response.text()).slice(0,120000);
   const structuredMetadata=extractStructuredMetadata(html,response.url||lead.url);
   const metadata=metadataForLink(structuredMetadata,response.url||lead.url)||metadataForLink(structuredMetadata,lead.url)||null;
-  const title=((html.match(/<title[^>]*>([\s\S]*?)<\/title>/i)||[])[1]||'').replace(/<[^>]+>/g,' ').replace(/\s+/g,' ').trim().slice(0,240);
-  const description=((html.match(/<meta[^>]+(?:name|property)=["'](?:description|og:description)["'][^>]+content=["']([^"']{1,700})/i)||[])[1]||'').trim()||visibleText(html);
-  const facts=explicitPageFacts(html);
-  const structuredEvidence={...(metadata||{}),title:metadata?.title||title||null,description:metadata?.description||description||null,...(facts.deadline?{deadline:facts.deadline}:{}),...(facts.eligibility?{eligibility:facts.eligibility,eligibilityExplicit:true}:{}),...(facts.status?{status:facts.status}:{})};
-  const dateMentions=[...html.replace(/<script\b[\s\S]*?<\/script>/gi,' ').replace(/<style\b[\s\S]*?<\/style>/gi,' ').replace(/<[^>]+>/g,' ').matchAll(/\b20\d{2}[-\/]\d{2}[-\/]\d{2}\b/g)].slice(0,12).map(x=>x[0]);
-  return {...lead,pageStatus:'html-fetched',httpStatus:response.status,contentType,finalUrl:response.url||lead.url,checkedAt:new Date().toISOString(),pageTitle:title,pageDescription:description||structuredEvidence?.description||null,evidenceText:visibleText(html),structuredEvidence,deadline:lead.deadline||structuredEvidence?.deadline||null,eligibility:lead.eligibility||structuredEvidence?.eligibility||null,status:lead.status||structuredEvidence?.status||null,dateMentionsUnclassified:[...new Set(dateMentions)],fingerprint:crypto.createHash('sha256').update(html).digest('hex').slice(0,16),editoriallyVerified:false};
+  const rawTitle=((html.match(/<title[^>]*>([\\s\\S]*?)<\\/title>/i)||[])[1]||'');
+ const metadataTitle=metadata?.title||rawTitle;
+ const title=cleanTitle(metadataTitle,metadata?.organization||lead.source||'');
+ const metaDescription=((html.match(/<meta[^>]+(?:name|property)=["'](?:description|og:description)["'][^>]+content=["']([^"']{1,1200})/i)||[])[1]||'').trim();
+ const description=cleanText(metadata?.description||metaDescription||editorialText(html),1200);
+ const facts=explicitPageFacts(html);
+ const structuredEvidence={...(metadata||{}),title:cleanTitle(metadata?.title||title,metadata?.organization||lead.source||''),description,...(facts.deadline?{deadline:facts.deadline}:{}),...(facts.eligibility?{eligibility:facts.eligibility,eligibilityExplicit:true}:{}),...(facts.status?{status:facts.status}:{})};
+ const dateMentions=[...html.replace(/<script\\b[\\s\\S]*?<\\/script>/gi,' ').replace(/<style\\b[\\s\\S]*?<\\/style>/gi,' ').replace(/<[^>]+>/g,' ').matchAll(/\\b20\\d{2}[-\\/]\\d{2}[-\\/]\\d{2}\\b/g)].slice(0,12).map(x=>x[0]);
+ return {...lead,pageStatus:'html-fetched',httpStatus:response.status,contentType,finalUrl:response.url||lead.url,checkedAt:new Date().toISOString(),pageTitle:title,pageDescription:description||null,evidenceText:editorialText(html),structuredEvidence,deadline:lead.deadline||structuredEvidence?.deadline||null,eligibility:lead.eligibility||structuredEvidence?.eligibility||null,status:lead.status||structuredEvidence?.status||null,dateMentionsUnclassified:[...new Set(dateMentions)],fingerprint:crypto.createHash('sha256').update(html).digest('hex').slice(0,16),editoriallyVerified:false};
  }catch(e){return {...lead,pageStatus:'fetch-failed',error:String(e).slice(0,200),editoriallyVerified:false}}
  finally{clearTimeout(timer)}
 }
