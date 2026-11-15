@@ -1,6 +1,171 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.opportunities=[
 {
+  "id": "auto-f6939f85c9edb7ae",
+  "title": "International Blue Carbon Institute (IBCI) Fellowship Program 2027 ($60,000 grant) &#8211; Opportunity Desk",
+  "org": "Opportunity Desk",
+  "summary": "International Blue Carbon Institute (IBCI) Fellowship Program 2027 ($60,000 grant) &#8211; Opportunity Desk Close Menu Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awards Grants Fellowships Jobs Internships Volunteering Blog OD Specials OD Live Series Young Person of the Month Mentorship OD Mentors Success Stories How-To General Tips ODIC 2026 ODIC 2026 Application ODIC Judges ODIC 2025 Winners ODIC 2023 Winners ODIC 2022 Winners ODIC 2021 Winners ODIC 2019 Winners ODIC 2018 Winners ODIC 2017 Winners ODIC 2016 Winners Search Asia Africa Australia and Oceania America Europe Deadlines Approaching Facebook X (Twitter) Instagram Sunday, November 15 About Partners Join our Mailing List Promote with OD Submit Opportunity Nominate #YPOM Privacy Policy Disclaimer Contact Facebook X (Twitter) LinkedIn Instagram Telegram Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe ",
+  "type": "Oportunidade editorial",
+  "themes": [
+    "Oportunidade editorial"
+  ],
+  "scope": "Não especificado",
+  "deadline": "2026-11-23",
+  "deadlineStatus": "prazo extraído de metadado estruturado da fonte oficial; horário e condições devem ser conferidos na página",
+  "eligibility": "parcial",
+  "fit": 5,
+  "status": "aberta",
+  "value": "Não informado na fonte estruturada",
+  "duration": "Não informado na fonte estruturada",
+  "modality": "Não especificado",
+  "documents": [],
+  "restrictions": [],
+  "rules": "https://opportunitydesk.org/2026/11/06/ibci-fellowship-program-2027/",
+  "apply": "https://opportunitydesk.org/2026/11/06/ibci-fellowship-program-2027/",
+  "verified": "2026-11-15",
+  "desc": "International Blue Carbon Institute (IBCI) Fellowship Program 2027 ($60,000 grant) &#8211; Opportunity Desk Close Menu Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awards Grants Fellowships Jobs Internships Volunteering Blog OD Specials OD Live Series Young Person of the Month Mentorship OD Mentors Success Stories How-To General Tips ODIC 2026 ODIC 2026 Application ODIC Judges ODIC 2025 Winners ODIC 2023 Winners ODIC 2022 Winners ODIC 2021 Winners ODIC 2019 Winners ODIC 2018 Winners ODIC 2017 Winners ODIC 2016 Winners Search Asia Africa Australia and Oceania America Europe Deadlines Approaching Facebook X (Twitter) Instagram Sunday, November 15 About Partners Join our Mailing List Promote with OD Submit Opportunity Nominate #YPOM Privacy Policy Disclaimer Contact Facebook X (Twitter) LinkedIn Instagram Telegram Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe ",
+  "discoveryUrl": "https://opportunitydesk.org/2026/11/06/ibci-fellowship-program-2027",
+  "verificationHistory": [
+    {
+      "date": "2026-11-15",
+      "status": "aberta",
+      "source": "https://opportunitydesk.org/2026/11/06/ibci-fellowship-program-2027/"
+    }
+  ]
+},
+{
+  "id": "auto-dae634846be2c9d7",
+  "title": "ICANN Fellowship Program 2027 to Attend ICANN89 Policy Forum in Vancouver, Canada (Funded) &#8211; Opportunity Desk",
+  "org": "Opportunity Desk",
+  "summary": "ICANN Fellowship Program 2027 to Attend ICANN89 Policy Forum in Vancouver, Canada (Funded) &#8211; Opportunity Desk Close Menu Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awards Grants Fellowships Jobs Internships Volunteering Blog OD Specials OD Live Series Young Person of the Month Mentorship OD Mentors Success Stories How-To General Tips ODIC 2026 ODIC 2026 Application ODIC Judges ODIC 2025 Winners ODIC 2023 Winners ODIC 2022 Winners ODIC 2021 Winners ODIC 2019 Winners ODIC 2018 Winners ODIC 2017 Winners ODIC 2016 Winners Search Asia Africa Australia and Oceania America Europe Deadlines Approaching Facebook X (Twitter) Instagram Sunday, November 15 About Partners Join our Mailing List Promote with OD Submit Opportunity Nominate #YPOM Privacy Policy Disclaimer Contact Facebook X (Twitter) LinkedIn Instagram Telegram Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in",
+  "type": "Oportunidade editorial",
+  "themes": [
+    "Oportunidade editorial"
+  ],
+  "scope": "Não especificado",
+  "deadline": "2026-12-05",
+  "deadlineStatus": "prazo extraído de metadado estruturado da fonte oficial; horário e condições devem ser conferidos na página",
+  "eligibility": "parcial",
+  "fit": 5,
+  "status": "aberta",
+  "value": "Não informado na fonte estruturada",
+  "duration": "Não informado na fonte estruturada",
+  "modality": "Não especificado",
+  "documents": [],
+  "restrictions": [],
+  "rules": "https://opportunitydesk.org/2026/11/09/icann-fellowship-program-2027/",
+  "apply": "https://opportunitydesk.org/2026/11/09/icann-fellowship-program-2027/",
+  "verified": "2026-11-15",
+  "desc": "ICANN Fellowship Program 2027 to Attend ICANN89 Policy Forum in Vancouver, Canada (Funded) &#8211; Opportunity Desk Close Menu Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awards Grants Fellowships Jobs Internships Volunteering Blog OD Specials OD Live Series Young Person of the Month Mentorship OD Mentors Success Stories How-To General Tips ODIC 2026 ODIC 2026 Application ODIC Judges ODIC 2025 Winners ODIC 2023 Winners ODIC 2022 Winners ODIC 2021 Winners ODIC 2019 Winners ODIC 2018 Winners ODIC 2017 Winners ODIC 2016 Winners Search Asia Africa Australia and Oceania America Europe Deadlines Approaching Facebook X (Twitter) Instagram Sunday, November 15 About Partners Join our Mailing List Promote with OD Submit Opportunity Nominate #YPOM Privacy Policy Disclaimer Contact Facebook X (Twitter) LinkedIn Instagram Telegram Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in",
+  "discoveryUrl": "https://opportunitydesk.org/2026/11/09/icann-fellowship-program-2027",
+  "verificationHistory": [
+    {
+      "date": "2026-11-15",
+      "status": "aberta",
+      "source": "https://opportunitydesk.org/2026/11/09/icann-fellowship-program-2027/"
+    }
+  ]
+},
+{
+  "id": "auto-de556452b18095df",
+  "title": "Voices of the Future Global Fellowship 2027 (Fully-funded trip to France) &#8211; Opportunity Desk",
+  "org": "Opportunity Desk",
+  "summary": "Voices of the Future Global Fellowship 2027 (Fully-funded trip to France) &#8211; Opportunity Desk Close Menu Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awards Grants Fellowships Jobs Internships Volunteering Blog OD Specials OD Live Series Young Person of the Month Mentorship OD Mentors Success Stories How-To General Tips ODIC 2026 ODIC 2026 Application ODIC Judges ODIC 2025 Winners ODIC 2023 Winners ODIC 2022 Winners ODIC 2021 Winners ODIC 2019 Winners ODIC 2018 Winners ODIC 2017 Winners ODIC 2016 Winners Search Asia Africa Australia and Oceania America Europe Deadlines Approaching Facebook X (Twitter) Instagram Sunday, November 15 About Partners Join our Mailing List Promote with OD Submit Opportunity Nominate #YPOM Privacy Policy Disclaimer Contact Facebook X (Twitter) LinkedIn Instagram Telegram Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in ",
+  "type": "Oportunidade editorial",
+  "themes": [
+    "Oportunidade editorial"
+  ],
+  "scope": "Não especificado",
+  "deadline": "2026-11-22",
+  "deadlineStatus": "prazo extraído de metadado estruturado da fonte oficial; horário e condições devem ser conferidos na página",
+  "eligibility": "parcial",
+  "fit": 5,
+  "status": "aberta",
+  "value": "Não informado na fonte estruturada",
+  "duration": "Não informado na fonte estruturada",
+  "modality": "Não especificado",
+  "documents": [],
+  "restrictions": [],
+  "rules": "https://opportunitydesk.org/2026/11/09/effie-lions-foundation-voices-of-the-future-global-fellowship-2027/",
+  "apply": "https://opportunitydesk.org/2026/11/09/effie-lions-foundation-voices-of-the-future-global-fellowship-2027/",
+  "verified": "2026-11-15",
+  "desc": "Voices of the Future Global Fellowship 2027 (Fully-funded trip to France) &#8211; Opportunity Desk Close Menu Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awards Grants Fellowships Jobs Internships Volunteering Blog OD Specials OD Live Series Young Person of the Month Mentorship OD Mentors Success Stories How-To General Tips ODIC 2026 ODIC 2026 Application ODIC Judges ODIC 2025 Winners ODIC 2023 Winners ODIC 2022 Winners ODIC 2021 Winners ODIC 2019 Winners ODIC 2018 Winners ODIC 2017 Winners ODIC 2016 Winners Search Asia Africa Australia and Oceania America Europe Deadlines Approaching Facebook X (Twitter) Instagram Sunday, November 15 About Partners Join our Mailing List Promote with OD Submit Opportunity Nominate #YPOM Privacy Policy Disclaimer Contact Facebook X (Twitter) LinkedIn Instagram Telegram Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in ",
+  "discoveryUrl": "https://opportunitydesk.org/2026/11/09/effie-lions-foundation-voices-of-the-future-global-fellowship-2027",
+  "verificationHistory": [
+    {
+      "date": "2026-11-15",
+      "status": "aberta",
+      "source": "https://opportunitydesk.org/2026/11/09/effie-lions-foundation-voices-of-the-future-global-fellowship-2027/"
+    }
+  ]
+},
+{
+  "id": "auto-a09fd4fe55d78dbc",
+  "title": "UCD Iseult Honohan Doctoral Scholarship 2027 (Fully-funded) &#8211; Opportunity Desk",
+  "org": "Opportunity Desk",
+  "summary": "UCD Iseult Honohan Doctoral Scholarship 2027 (Fully-funded) &#8211; Opportunity Desk Close Menu Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awards Grants Fellowships Jobs Internships Volunteering Blog OD Specials OD Live Series Young Person of the Month Mentorship OD Mentors Success Stories How-To General Tips ODIC 2026 ODIC 2026 Application ODIC Judges ODIC 2025 Winners ODIC 2023 Winners ODIC 2022 Winners ODIC 2021 Winners ODIC 2019 Winners ODIC 2018 Winners ODIC 2017 Winners ODIC 2016 Winners Search Asia Africa Australia and Oceania America Europe Deadlines Approaching Facebook X (Twitter) Instagram Sunday, November 15 About Partners Join our Mailing List Promote with OD Submit Opportunity Nominate #YPOM Privacy Policy Disclaimer Contact Facebook X (Twitter) LinkedIn Instagram Telegram Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitio",
+  "type": "Oportunidade editorial",
+  "themes": [
+    "Oportunidade editorial"
+  ],
+  "scope": "Não especificado",
+  "deadline": "2027-01-15",
+  "deadlineStatus": "prazo extraído de metadado estruturado da fonte oficial; horário e condições devem ser conferidos na página",
+  "eligibility": "parcial",
+  "fit": 5,
+  "status": "aberta",
+  "value": "Não informado na fonte estruturada",
+  "duration": "Não informado na fonte estruturada",
+  "modality": "Não especificado",
+  "documents": [],
+  "restrictions": [],
+  "rules": "https://opportunitydesk.org/2026/11/13/ucd-iseult-honohan-doctoral-scholarship-2027/",
+  "apply": "https://opportunitydesk.org/2026/11/13/ucd-iseult-honohan-doctoral-scholarship-2027/",
+  "verified": "2026-11-15",
+  "desc": "UCD Iseult Honohan Doctoral Scholarship 2027 (Fully-funded) &#8211; Opportunity Desk Close Menu Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awards Grants Fellowships Jobs Internships Volunteering Blog OD Specials OD Live Series Young Person of the Month Mentorship OD Mentors Success Stories How-To General Tips ODIC 2026 ODIC 2026 Application ODIC Judges ODIC 2025 Winners ODIC 2023 Winners ODIC 2022 Winners ODIC 2021 Winners ODIC 2019 Winners ODIC 2018 Winners ODIC 2017 Winners ODIC 2016 Winners Search Asia Africa Australia and Oceania America Europe Deadlines Approaching Facebook X (Twitter) Instagram Sunday, November 15 About Partners Join our Mailing List Promote with OD Submit Opportunity Nominate #YPOM Privacy Policy Disclaimer Contact Facebook X (Twitter) LinkedIn Instagram Telegram Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitio",
+  "discoveryUrl": "https://opportunitydesk.org/2026/11/13/ucd-iseult-honohan-doctoral-scholarship-2027",
+  "verificationHistory": [
+    {
+      "date": "2026-11-15",
+      "status": "aberta",
+      "source": "https://opportunitydesk.org/2026/11/13/ucd-iseult-honohan-doctoral-scholarship-2027/"
+    }
+  ]
+},
+{
+  "id": "auto-db5803d418cdb8ed",
+  "title": "Bayer Foundation Scientific Fellowships 2027 (up to €10,000) &#8211; Opportunity Desk",
+  "org": "Opportunity Desk",
+  "summary": "Bayer Foundation Scientific Fellowships 2027 (up to €10,000) &#8211; Opportunity Desk Close Menu Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awards Grants Fellowships Jobs Internships Volunteering Blog OD Specials OD Live Series Young Person of the Month Mentorship OD Mentors Success Stories How-To General Tips ODIC 2026 ODIC 2026 Application ODIC Judges ODIC 2025 Winners ODIC 2023 Winners ODIC 2022 Winners ODIC 2021 Winners ODIC 2019 Winners ODIC 2018 Winners ODIC 2017 Winners ODIC 2016 Winners Search Asia Africa Australia and Oceania America Europe Deadlines Approaching Facebook X (Twitter) Instagram Sunday, November 15 About Partners Join our Mailing List Promote with OD Submit Opportunity Nominate #YPOM Privacy Policy Disclaimer Contact Facebook X (Twitter) LinkedIn Instagram Telegram Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competiti",
+  "type": "Oportunidade editorial",
+  "themes": [
+    "Oportunidade editorial"
+  ],
+  "scope": "Não especificado",
+  "deadline": "2027-01-18",
+  "deadlineStatus": "prazo extraído de metadado estruturado da fonte oficial; horário e condições devem ser conferidos na página",
+  "eligibility": "parcial",
+  "fit": 5,
+  "status": "aberta",
+  "value": "Não informado na fonte estruturada",
+  "duration": "Não informado na fonte estruturada",
+  "modality": "Não especificado",
+  "documents": [],
+  "restrictions": [],
+  "rules": "https://opportunitydesk.org/2026/11/13/bayer-foundation-scientific-fellowships-2027/",
+  "apply": "https://opportunitydesk.org/2026/11/13/bayer-foundation-scientific-fellowships-2027/",
+  "verified": "2026-11-15",
+  "desc": "Bayer Foundation Scientific Fellowships 2027 (up to €10,000) &#8211; Opportunity Desk Close Menu Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awards Grants Fellowships Jobs Internships Volunteering Blog OD Specials OD Live Series Young Person of the Month Mentorship OD Mentors Success Stories How-To General Tips ODIC 2026 ODIC 2026 Application ODIC Judges ODIC 2025 Winners ODIC 2023 Winners ODIC 2022 Winners ODIC 2021 Winners ODIC 2019 Winners ODIC 2018 Winners ODIC 2017 Winners ODIC 2016 Winners Search Asia Africa Australia and Oceania America Europe Deadlines Approaching Facebook X (Twitter) Instagram Sunday, November 15 About Partners Join our Mailing List Promote with OD Submit Opportunity Nominate #YPOM Privacy Policy Disclaimer Contact Facebook X (Twitter) LinkedIn Instagram Telegram Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competiti",
+  "discoveryUrl": "https://opportunitydesk.org/2026/11/13/bayer-foundation-scientific-fellowships-2027",
+  "verificationHistory": [
+    {
+      "date": "2026-11-15",
+      "status": "aberta",
+      "source": "https://opportunitydesk.org/2026/11/13/bayer-foundation-scientific-fellowships-2027/"
+    }
+  ]
+}, 
+{
   "id": "auto-f313a1b2aaf9bab8",
   "title": "ANH Academy Science-Policy Fellowships 2027 (Round 3) &#8211; Opportunity Desk",
   "org": "Opportunity Desk",

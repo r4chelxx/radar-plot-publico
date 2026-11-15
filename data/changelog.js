@@ -6,6 +6,34 @@ window.RADAR_PARTS.changelog=[
   "title": "Publicação editorial verificada — 2026-11-15",
   "items": [
     {
+      "id": "auto-f6939f85c9edb7ae",
+      "title": "International Blue Carbon Institute (IBCI) Fellowship Program 2027 ($60,000 grant) &#8211; Opportunity Desk"
+    },
+    {
+      "id": "auto-dae634846be2c9d7",
+      "title": "ICANN Fellowship Program 2027 to Attend ICANN89 Policy Forum in Vancouver, Canada (Funded) &#8211; Opportunity Desk"
+    },
+    {
+      "id": "auto-de556452b18095df",
+      "title": "Voices of the Future Global Fellowship 2027 (Fully-funded trip to France) &#8211; Opportunity Desk"
+    },
+    {
+      "id": "auto-a09fd4fe55d78dbc",
+      "title": "UCD Iseult Honohan Doctoral Scholarship 2027 (Fully-funded) &#8211; Opportunity Desk"
+    },
+    {
+      "id": "auto-db5803d418cdb8ed",
+      "title": "Bayer Foundation Scientific Fellowships 2027 (up to €10,000) &#8211; Opportunity Desk"
+    }
+  ],
+  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: International Blue Carbon Institute (IBCI) Fellowship Program 2027 ($60,000 grant) &#8211; Opportunity Desk; ICANN Fellowship Program 2027 to Attend ICANN89 Policy Forum in Vancouver, Canada (Funded) &#8211; Opportunity Desk; Voices of the Future Global Fellowship 2027 (Fully-funded trip to France) &#8211; Opportunity Desk; UCD Iseult Honohan Doctoral Scholarship 2027 (Fully-funded) &#8211; Opportunity Desk; Bayer Foundation Scientific Fellowships 2027 (up to €10,000) &#8211; Opportunity Desk."
+}, 
+{
+  "date": "2026-11-15",
+  "type": "nova-oportunidade",
+  "title": "Publicação editorial verificada — 2026-11-15",
+  "items": [
+    {
       "id": "auto-f313a1b2aaf9bab8",
       "title": "ANH Academy Science-Policy Fellowships 2027 (Round 3) &#8211; Opportunity Desk"
     },
