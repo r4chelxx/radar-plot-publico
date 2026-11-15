@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-15T20:33:18.412Z",
+  "generatedAt": "2026-11-15T22:56:05.780Z",
   "policy": "Evidence-based category triage. Missing license is recorded as unknown when not found; complete means draft eligibility only, never approval or publication.",
   "counts": {
-    "pending_more_evidence": 1898
+    "pending_more_evidence": 1869
   },
   "categoryCounts": {
-    "uncategorized": 1768,
-    "opportunities": 33,
+    "uncategorized": 1741,
+    "opportunities": 31,
     "tools": 33,
     "datasets": 64
   },
@@ -1700,7 +1700,7 @@
       "url": "https://www.crummy.com/software/BeautifulSoup",
       "category": "tools",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-10T20:02:55.377Z",
+      "checkedAt": "2026-11-15T22:55:59.053Z",
       "checks": {
         "productSignal": true,
         "function": false,
@@ -2622,7 +2622,7 @@
       "url": "https://processingfoundation.org/",
       "category": "opportunities",
       "originalCategory": "opportunities",
-      "checkedAt": "2026-11-10T20:02:55.377Z",
+      "checkedAt": "2026-11-15T22:55:47.886Z",
       "checks": {
         "callSignal": false,
         "deadline": null,
@@ -3959,7 +3959,7 @@
       "id": "1742349ca5015fe0f5bb1c32da3792c2ef2d318e8b4b414feb9ca13e3bb5feae",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPYVczMkM4WEs3RGpCRFdSVnZ5UDVlbVFvckxycVpxUVJwZWhuZnNCT1VOLVNROUpoUEZuVUE5Yks0ZWd6N0lSX2VUX2Y4SlRQY1pXWG1BZUJMeUVCbXNIeVM5YWg2TWZvODVURHFXT2lieWtENWo4Xzc0WEI2amd6aFJHQUd2TU9KWGtrQ1hfREtIaTFRTEYwaXZZYmNCSjltbU9zbmFJMlk5UHpocFFocTFVb2J2RXlPR05hRVRn",
       "category": "uncategorized",
-      "originalCategory": "uncategorized",
+      "originalCategory": "opportunities",
       "checkedAt": "2026-11-10T20:31:28.952Z",
       "checks": {},
       "missing": [
@@ -4028,20 +4028,6 @@
       "checkedAt": "2026-11-10T00:35:58.080Z",
       "checks": {},
       "missing": [
-        "categoria específica sem evidência suficiente"
-      ],
-      "decision": "pending_more_evidence",
-      "publicationReady": false
-    },
-    {
-      "id": "2b07fe75eea24c3364a2b0c7910cdb47829bfa9e1c029e3bd78569b2e1d78f8b",
-      "url": "https://opportunitydesk.org/2026/10/29/hans-de-wit-fellowship-2027",
-      "category": "uncategorized",
-      "originalCategory": "opportunities",
-      "checkedAt": "2026-11-10T00:39:27.256Z",
-      "checks": {},
-      "missing": [
-        "página primária acessível com conteúdo compatível",
         "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
@@ -5026,19 +5012,6 @@
       "publicationReady": false
     },
     {
-      "id": "e388d4c38ca7e284f7d73664abdb552b4807765500ccdd5b0b19bb3661eab0e7",
-      "url": "https://opportunitydesk.org/2026/10/29/green-global-fellowship-2027",
-      "category": "uncategorized",
-      "originalCategory": "opportunities",
-      "checkedAt": "2026-11-10T20:31:28.952Z",
-      "checks": {},
-      "missing": [
-        "categoria específica sem evidência suficiente"
-      ],
-      "decision": "pending_more_evidence",
-      "publicationReady": false
-    },
-    {
       "id": "e4ab2158f07a5b248d90a5c22d7b57d4100d8b8eac00a296eb3d735c687ca544",
       "url": "https://opportunitydesk.org/2026/10/29/mozilla-foundation-fellowships-2027-2028",
       "category": "uncategorized",
@@ -5261,23 +5234,6 @@
       "publicationReady": false
     },
     {
-      "id": "0c450e7cdea68d8ea0edab8df3b372c6834b0456f03493053419075e094bce38",
-      "url": "https://gfmd.info/fundings/fund-for-investigative-journalism-grants-3",
-      "category": "opportunities",
-      "originalCategory": "opportunities",
-      "checkedAt": "2026-11-10T20:31:28.952Z",
-      "checks": {
-        "callSignal": false,
-        "deadline": "2027-01-29",
-        "eligibility": true
-      },
-      "missing": [
-        "chamada de financiamento/bolsa identificável"
-      ],
-      "decision": "pending_more_evidence",
-      "publicationReady": false
-    },
-    {
       "id": "283654dd73730f9be96937f7b772ecea57e93d2d5e9bf2aa8b5655fb9011190e",
       "url": "https://grantsforjournalists.com/grant/middle-east-eye-fellowship",
       "category": "opportunities",
@@ -5335,7 +5291,7 @@
       "url": "https://grantsforjournalists.com/grant/stringer-foundation-grant-for-investigative-journalism",
       "category": "opportunities",
       "originalCategory": "opportunities",
-      "checkedAt": "2026-11-10T20:31:28.952Z",
+      "checkedAt": "2026-11-15T22:55:46.152Z",
       "checks": {
         "callSignal": true,
         "deadline": null,
@@ -5352,7 +5308,7 @@
       "url": "https://grantsforjournalists.com/grant/national-endowment-for-democracy-grants",
       "category": "opportunities",
       "originalCategory": "opportunities",
-      "checkedAt": "2026-11-10T20:31:28.952Z",
+      "checkedAt": "2026-11-15T22:55:46.486Z",
       "checks": {
         "callSignal": true,
         "deadline": null,
@@ -5477,7 +5433,7 @@
       "url": "https://grantsforjournalists.com/grant/tarbell-fellowship",
       "category": "opportunities",
       "originalCategory": "opportunities",
-      "checkedAt": "2026-11-10T20:31:28.952Z",
+      "checkedAt": "2026-11-15T22:55:44.183Z",
       "checks": {
         "callSignal": true,
         "deadline": null,
@@ -5494,7 +5450,7 @@
       "url": "https://grantsforjournalists.com/grant/california-health-equity-fellowship",
       "category": "opportunities",
       "originalCategory": "opportunities",
-      "checkedAt": "2026-11-10T20:31:28.952Z",
+      "checkedAt": "2026-11-15T22:55:43.834Z",
       "checks": {
         "callSignal": true,
         "deadline": null,
@@ -5512,7 +5468,7 @@
       "url": "https://gfmd.info/fundings/saajp-investigative-journalism-grants-southern-africa-accountability-journalism-project",
       "category": "opportunities",
       "originalCategory": "opportunities",
-      "checkedAt": "2026-11-10T20:31:28.952Z",
+      "checkedAt": "2026-11-15T22:55:45.454Z",
       "checks": {
         "callSignal": true,
         "deadline": null,
@@ -5958,19 +5914,6 @@
       "publicationReady": false
     },
     {
-      "id": "333d9969a641b7f91f1637238557a22ef0525ee4d100286a980ab3c3cb85bbc0",
-      "url": "https://opportunitydesk.org/2026/11/03/mastercard-foundation-edtech-fellowship-uganda-cohort-2",
-      "category": "uncategorized",
-      "originalCategory": "opportunities",
-      "checkedAt": "2026-11-10T20:31:28.952Z",
-      "checks": {},
-      "missing": [
-        "categoria específica sem evidência suficiente"
-      ],
-      "decision": "pending_more_evidence",
-      "publicationReady": false
-    },
-    {
       "id": "447328be91d9ba984e163c84f18062aecdb85f83d385f965ea39ddb0782e7114",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZHR2RXBHVHEzanVfSXVyMnhzWEhZU29WczJyRmMwVl9PQXNGRmdobVVra0d0LUJWaURaVm5XelNUZWV0UE1iUnlXckR1NGVxRFZxaUtETTdjTVAtZDlPT3pIVk56THZseUxOSkE0RWNOaVgyUW90SWlLdWRfMm5kcWZwZWxyV3c2aVdIOE03Q1FmZHJCdXZQSHg1YjdIc3E0QUh1NNIBqgFBVV95cUxPWmlOU2JOVmt1S2xVWDdBTVp2eTQ4Z2p4bm5oLWIxbXRDMzVzTmJmanFTajY5VWFhMURlRDFIdkV0MWY4R2pzal9wWXppa1pvdGNyc0ZzdThwbDJEalF1QlpaYjFxU0FKZFN6aVRETmRGV0JyajJxZFljNmJBQm1BbXRob1ItbFl1MUU3d05NZ3ZMd3V2U0RxWXliRER0b3N6RURHRTFwT3BlQQ",
       "category": "uncategorized",
@@ -5997,50 +5940,8 @@
       "publicationReady": false
     },
     {
-      "id": "4e25fa06e9405786b6089307e6e37f39bd0a76b1e282240d4c3f1aaf6d434184",
-      "url": "https://opportunitydesk.org/2026/11/03/backing-international-small-restaurants-grant-program-2026",
-      "category": "uncategorized",
-      "originalCategory": "opportunities",
-      "checkedAt": "2026-11-10T20:36:10.810Z",
-      "checks": {},
-      "missing": [
-        "página primária acessível com conteúdo compatível",
-        "categoria específica sem evidência suficiente"
-      ],
-      "decision": "pending_more_evidence",
-      "publicationReady": false
-    },
-    {
-      "id": "a051a2b38cbcb2d839e976e034b0013b3cb5e60b3cb9ba689bd0b7e5ded912b8",
-      "url": "https://opportunitydesk.org/2026/11/03/harvard-pollman-fellowship-in-real-estate-and-urban-development-2027",
-      "category": "uncategorized",
-      "originalCategory": "opportunities",
-      "checkedAt": "2026-11-10T20:36:10.810Z",
-      "checks": {},
-      "missing": [
-        "página primária acessível com conteúdo compatível",
-        "categoria específica sem evidência suficiente"
-      ],
-      "decision": "pending_more_evidence",
-      "publicationReady": false
-    },
-    {
       "id": "08cde753090e41ae484a5565a05268b6803e333c2eaf7c58638fad2e27e459ef",
       "url": "https://opportunitydesk.org/2026/11/04/institute-for-policy-integrity-economic-fellowship-2027",
-      "category": "uncategorized",
-      "originalCategory": "opportunities",
-      "checkedAt": "2026-11-10T20:36:10.810Z",
-      "checks": {},
-      "missing": [
-        "página primária acessível com conteúdo compatível",
-        "categoria específica sem evidência suficiente"
-      ],
-      "decision": "pending_more_evidence",
-      "publicationReady": false
-    },
-    {
-      "id": "1de5673eab2516dbf8a5873d0dac1cde4efe235a552ab1e4cddee300a788ddf7",
-      "url": "https://opportunitydesk.org/2026/11/04/edsafe-ai-fellowship-2027",
       "category": "uncategorized",
       "originalCategory": "opportunities",
       "checkedAt": "2026-11-10T20:36:10.810Z",
@@ -6119,19 +6020,6 @@
       "publicationReady": false
     },
     {
-      "id": "71f4462aba535bb0cf0829ced886a9cd26307c7b6948d3ed363921610fc9f105",
-      "url": "https://opportunitydesk.org/2026/11/05/crassh-visiting-fellowships-for-scholars-from-the-global-south-2027",
-      "category": "uncategorized",
-      "originalCategory": "opportunities",
-      "checkedAt": "2026-11-10T20:36:10.810Z",
-      "checks": {},
-      "missing": [
-        "categoria específica sem evidência suficiente"
-      ],
-      "decision": "pending_more_evidence",
-      "publicationReady": false
-    },
-    {
       "id": "89a0768c4662faf27576bd9b9dbde453fb0d19f787f488a8ee2ad42256d3103b",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOY0c5T1hxWXNhOGg3NTFiZ2hUT09ONDhMaV9FZWlFOGtqblN1ZkFySVlJMEpJeWJTUW9JQ2NpNjAyVG0xMzYzeWkxLWsyTDQxUXhRcVNuNnAzczlkVFF3SHMtdkV5aEZxdGlsWDV1WXBKT3NrY0VfeVhydGpsRXhobUF0RXlSWDg3NW4tZGx0T1hOd9IBlwFBVV95cUxNMi11WUlwMF84S1JoS2JkdE5Felo4M1R1MkpWbDVaalJNNTJ0WERDNnhXSnRRMGkwNXdSSXZORW5hNExSc3pFZ1I2Y0cxU0QxQnNaSUQxZGo1M1g1Z0tYU3ZVMFF1Q3Bzc1ZXODVnaUpPcjRldkhVY1FnRVVHb1ZJMVgxV3J3aERsUS1GZUdaOXBTYXZfYUI0",
       "category": "uncategorized",
@@ -6147,19 +6035,6 @@
     {
       "id": "1da260b0bed4a542893ca0ee14110fa04d1dd79e68c219f314e947fd39464ba1",
       "url": "https://opportunitydesk.org/2026/11/05/growing-your-business-with-venture-funding-5-practical-steps-for-entrepreneurs",
-      "category": "uncategorized",
-      "originalCategory": "opportunities",
-      "checkedAt": "2026-11-10T20:36:10.810Z",
-      "checks": {},
-      "missing": [
-        "categoria específica sem evidência suficiente"
-      ],
-      "decision": "pending_more_evidence",
-      "publicationReady": false
-    },
-    {
-      "id": "411233e679b5fc156603c1755c3391972783c2726e52fd4afb50dbc9fa3bc47d",
-      "url": "https://opportunitydesk.org/2026/11/05/university-of-vienna-faculty-of-law-fellowship-programme-summer-2027",
       "category": "uncategorized",
       "originalCategory": "opportunities",
       "checkedAt": "2026-11-10T20:36:10.810Z",
@@ -6223,19 +6098,6 @@
       "publicationReady": false
     },
     {
-      "id": "b5b5d5a1b82f5334a24387c660f31f277014bbd6c8699466cabae1343e1cc86d",
-      "url": "https://opportunitydesk.org/2026/11/06/ibci-fellowship-program-2027",
-      "category": "uncategorized",
-      "originalCategory": "opportunities",
-      "checkedAt": "2026-11-10T20:36:10.810Z",
-      "checks": {},
-      "missing": [
-        "categoria específica sem evidência suficiente"
-      ],
-      "decision": "pending_more_evidence",
-      "publicationReady": false
-    },
-    {
       "id": "707c5ab5a773d759b8eb7438f77f33937c6c3172069182091a3cfc84fba4e86c",
       "url": "https://opportunitydesk.org/2026/11/06/global-changemakers-media-impact-academy-2027-for-youth-in-the-usa",
       "category": "uncategorized",
@@ -6244,23 +6106,6 @@
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
-      ],
-      "decision": "pending_more_evidence",
-      "publicationReady": false
-    },
-    {
-      "id": "d461af4dc24c502439ab8b77edac6d12cc351b31af14d87359932c4490276311",
-      "url": "https://gfmd.info/fundings/ejn-renewable-energy-story-grants-india",
-      "category": "opportunities",
-      "originalCategory": "opportunities",
-      "checkedAt": "2026-11-10T20:36:10.810Z",
-      "checks": {
-        "callSignal": false,
-        "deadline": "2026-11-15",
-        "eligibility": true
-      },
-      "missing": [
-        "chamada de financiamento/bolsa identificável"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -6305,19 +6150,6 @@
       "publicationReady": false
     },
     {
-      "id": "3d6d53d4f68c8ac2cded3bac459dfbcc67ed4c0a27829074220d9da27649f369",
-      "url": "https://opportunitydesk.org/2026/11/07/cega-visiting-fellowship-2027-2028",
-      "category": "uncategorized",
-      "originalCategory": "opportunities",
-      "checkedAt": "2026-11-10T20:36:10.810Z",
-      "checks": {},
-      "missing": [
-        "categoria específica sem evidência suficiente"
-      ],
-      "decision": "pending_more_evidence",
-      "publicationReady": false
-    },
-    {
       "id": "88e92a312e5df09cd82f1e294b7109dd3e44b141eb3e94ce5becc0874af5606d",
       "url": "https://opportunitydesk.org/2026/11/07/how-to-get-a-scholarship-with-a-third-class-degree-7-practical-steps-to-improve-your-chances",
       "category": "uncategorized",
@@ -6333,19 +6165,6 @@
     {
       "id": "c0097683462c1e73251c95d4c598a21291e3fea49c2c8be7daca101901993e7c",
       "url": "https://opportunitydesk.org/2026/11/07/10-grants-and-funding-opportunities-currently-open-november-7-2026",
-      "category": "uncategorized",
-      "originalCategory": "opportunities",
-      "checkedAt": "2026-11-10T20:36:10.810Z",
-      "checks": {},
-      "missing": [
-        "categoria específica sem evidência suficiente"
-      ],
-      "decision": "pending_more_evidence",
-      "publicationReady": false
-    },
-    {
-      "id": "43ec585fa300361fdf73f3c7df1303c5238e4cd155916f930429049ef1c57a14",
-      "url": "https://opportunitydesk.org/2026/11/07/arewa-creative-writing-and-advocacy-fellowship-2026-cohort-1",
       "category": "uncategorized",
       "originalCategory": "opportunities",
       "checkedAt": "2026-11-10T20:36:10.810Z",
@@ -15413,19 +15232,6 @@
       "publicationReady": false
     },
     {
-      "id": "ee8c003336783c0d1edb60324d1d1f88c92b66c18eadaf10bc4300b8e29aab33",
-      "url": "https://opportunitydesk.org/2026/11/09/effie-lions-foundation-voices-of-the-future-global-fellowship-2027",
-      "category": "uncategorized",
-      "originalCategory": "opportunities",
-      "checkedAt": "2026-11-10T20:36:10.810Z",
-      "checks": {},
-      "missing": [
-        "categoria específica sem evidência suficiente"
-      ],
-      "decision": "pending_more_evidence",
-      "publicationReady": false
-    },
-    {
       "id": "0263458a24f47ef29061b4ba0c3bb6a59f60dd6b1090b81916ec0f3658ac6280",
       "url": "https://intervalolupa.substack.com/p/enem-vai-cobrar-menos-tecnologia",
       "category": "uncategorized",
@@ -16148,32 +15954,6 @@
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
-        "categoria específica sem evidência suficiente"
-      ],
-      "decision": "pending_more_evidence",
-      "publicationReady": false
-    },
-    {
-      "id": "bdece105297861df0ebce8c40938f8e8672fed850d73b3be5f4d6c06cdd7f104",
-      "url": "https://opportunitydesk.org/2026/11/09/icann-fellowship-program-2027",
-      "category": "uncategorized",
-      "originalCategory": "opportunities",
-      "checkedAt": "2026-11-10T20:36:10.810Z",
-      "checks": {},
-      "missing": [
-        "categoria específica sem evidência suficiente"
-      ],
-      "decision": "pending_more_evidence",
-      "publicationReady": false
-    },
-    {
-      "id": "d24ca25657028d534bb92ccd25b39d0877bf7b1844e62ba075365025dc11dc7e",
-      "url": "https://opportunitydesk.org/2026/11/09/morgridge-acceleration-program-fellowship-2027",
-      "category": "uncategorized",
-      "originalCategory": "opportunities",
-      "checkedAt": "2026-11-10T20:36:10.810Z",
-      "checks": {},
-      "missing": [
         "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
@@ -17541,34 +17321,6 @@
     {
       "id": "2f62b4a6e1e29984c1c34c5ddc6720dd6aa7e030556353b18c700683e45d0c55",
       "url": "https://opportunitydesk.org/2026/11/10/wave-winter-research-fellowship-2026-2027",
-      "category": "uncategorized",
-      "originalCategory": "opportunities",
-      "checkedAt": "2026-11-10T20:44:59.460Z",
-      "checks": {},
-      "missing": [
-        "página primária acessível com conteúdo compatível",
-        "categoria específica sem evidência suficiente"
-      ],
-      "decision": "pending_more_evidence",
-      "publicationReady": false
-    },
-    {
-      "id": "a47c5b2de23167fbaeeebec3aa8c3a6b41a384a54edbb10c6559301569c4d999",
-      "url": "https://opportunitydesk.org/2026/11/10/nature-culture-fellowship-2027",
-      "category": "uncategorized",
-      "originalCategory": "opportunities",
-      "checkedAt": "2026-11-10T20:44:59.460Z",
-      "checks": {},
-      "missing": [
-        "página primária acessível com conteúdo compatível",
-        "categoria específica sem evidência suficiente"
-      ],
-      "decision": "pending_more_evidence",
-      "publicationReady": false
-    },
-    {
-      "id": "c8a1394d1ed341f783789cb027e555accbfd33b4941035abde388bca00177af9",
-      "url": "https://opportunitydesk.org/2026/11/10/career-pathways-initiative-fellowship-2027",
       "category": "uncategorized",
       "originalCategory": "opportunities",
       "checkedAt": "2026-11-10T20:44:59.460Z",
@@ -21903,37 +21655,10 @@
       "publicationReady": false
     },
     {
-      "id": "2e096d36f77afbeecc673e830baa34dbd135bac2dc3c444925b2702789326a39",
-      "url": "https://podcasts.apple.com/us/podcast/show-tell-from-indicator/id1874133168",
-      "category": "uncategorized",
-      "originalCategory": "tools",
-      "checkedAt": "2026-11-11T18:42:47.988Z",
-      "checks": {},
-      "missing": [
-        "categoria específica sem evidência suficiente"
-      ],
-      "decision": "pending_more_evidence",
-      "publicationReady": false
-    },
-    {
       "id": "30c0a3941b6041a8d4e544ee50de0b4ccf8251bf3340fd24e2c15636ddb47c47",
       "url": "https://www.wsj.com/politics/national-security/five-takeaways-from-hegseths-first-pentagon-press-conference-in-months-78869363",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-11T18:42:47.988Z",
-      "checks": {},
-      "missing": [
-        "página primária acessível com conteúdo compatível",
-        "categoria específica sem evidência suficiente"
-      ],
-      "decision": "pending_more_evidence",
-      "publicationReady": false
-    },
-    {
-      "id": "336a8db963232224ffed4460c6bd680312a0c56845e7f861d5ed73ef438b3398",
-      "url": "https://opportunitydesk.org/2026/11/11/anh-academy-science-policy-fellowships-2027-round-3",
-      "category": "uncategorized",
-      "originalCategory": "opportunities",
       "checkedAt": "2026-11-11T18:42:47.988Z",
       "checks": {},
       "missing": [
@@ -22307,34 +22032,6 @@
       "publicationReady": false
     },
     {
-      "id": "7459912147a0cb6a0262f6cfbee511335eb9a565d1d3c29c6b17e741b81dc6e5",
-      "url": "https://opportunitydesk.org/2026/11/11/commonwealth-shared-scholarship-programme-2027-2028",
-      "category": "uncategorized",
-      "originalCategory": "opportunities",
-      "checkedAt": "2026-11-11T18:42:47.988Z",
-      "checks": {},
-      "missing": [
-        "página primária acessível com conteúdo compatível",
-        "categoria específica sem evidência suficiente"
-      ],
-      "decision": "pending_more_evidence",
-      "publicationReady": false
-    },
-    {
-      "id": "748ca97b2b93cdc5b1dc9d5f2ce2d1b7875f515a00c27bfb3a4a6df951f11230",
-      "url": "https://opportunitydesk.org/2026/11/11/afdb-group-shou-scholarship-masters-degree-program-2027",
-      "category": "uncategorized",
-      "originalCategory": "opportunities",
-      "checkedAt": "2026-11-11T18:42:47.988Z",
-      "checks": {},
-      "missing": [
-        "página primária acessível com conteúdo compatível",
-        "categoria específica sem evidência suficiente"
-      ],
-      "decision": "pending_more_evidence",
-      "publicationReady": false
-    },
-    {
       "id": "756b33066516584207554edf9db4d40bfe2c2a0888c74da1fe87a6c10bb1c84a",
       "url": "https://fonts.gstatic.com/s/inter/v18/UcCM3FwrK3iLTcvneQg7Ca725JhhKnNqk4j1ebLhAm8SrXTc2d9RipWFsevceSGM.woff2",
       "category": "uncategorized",
@@ -22405,19 +22102,6 @@
       "publicationReady": false
     },
     {
-      "id": "8408660585cf316ff7d91c0dfafd0c93a6bdf625d94f1bec3e847afac6891002",
-      "url": "https://opportunitydesk.org/2026/11/11/awf-geospatial-leaders-fellowship-2027",
-      "category": "uncategorized",
-      "originalCategory": "opportunities",
-      "checkedAt": "2026-11-11T18:42:47.988Z",
-      "checks": {},
-      "missing": [
-        "categoria específica sem evidência suficiente"
-      ],
-      "decision": "pending_more_evidence",
-      "publicationReady": false
-    },
-    {
       "id": "85684f3fd7505dfb18ad167bc6fb4060c558a14fdae98e57f5723a5ed5bc6a35",
       "url": "https://substack.com/redirect/e333ce65-9b6a-477f-ae93-ab9e6f6e63f5",
       "category": "uncategorized",
@@ -22463,19 +22147,6 @@
       "url": "https://indicator.media/p/watch-the-first-episode-of-show-tell-from-indicator-jeff-horwitz",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-11T18:42:47.988Z",
-      "checks": {},
-      "missing": [
-        "categoria específica sem evidência suficiente"
-      ],
-      "decision": "pending_more_evidence",
-      "publicationReady": false
-    },
-    {
-      "id": "8edf93417893782dac80ee9b7d31b51c7831c36ce04ce73b669189a589dcc01d",
-      "url": "https://opportunitydesk.org/2026/11/11/africa-dyslexia-teacher-fellowship-program-2027",
-      "category": "uncategorized",
-      "originalCategory": "opportunities",
       "checkedAt": "2026-11-11T18:42:47.988Z",
       "checks": {},
       "missing": [
@@ -22963,19 +22634,6 @@
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
-        "categoria específica sem evidência suficiente"
-      ],
-      "decision": "pending_more_evidence",
-      "publicationReady": false
-    },
-    {
-      "id": "fa73479552c66790ab171d94a306476934be26931ddfeea71d737a573b0544f2",
-      "url": "https://opportunitydesk.org/2026/11/11/harvard-kennedy-school-american-service-fellowship-2027",
-      "category": "uncategorized",
-      "originalCategory": "opportunities",
-      "checkedAt": "2026-11-11T18:42:47.988Z",
-      "checks": {},
-      "missing": [
         "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
@@ -23706,20 +23364,6 @@
       "publicationReady": false
     },
     {
-      "id": "81978d8b81e0a779dd2090d19ec96b2cb0069f35f258a7e4d89a38759bf8eade",
-      "url": "https://opportunitydesk.org/2026/11/12/gratitude-network-fellowship-2027",
-      "category": "uncategorized",
-      "originalCategory": "opportunities",
-      "checkedAt": "2026-11-12T18:57:10.786Z",
-      "checks": {},
-      "missing": [
-        "página primária acessível com conteúdo compatível",
-        "categoria específica sem evidência suficiente"
-      ],
-      "decision": "pending_more_evidence",
-      "publicationReady": false
-    },
-    {
       "id": "82e4b5fe7e575b36a082447b3d7c8f66f5be7b409147c917f36d0108f9e93e94",
       "url": "https://www.latimes.com/california/story/2026-10-25/california-group-linked-to-news-site-promoting-controversial-ramaswamy-ad",
       "category": "uncategorized",
@@ -24095,20 +23739,6 @@
       "publicationReady": false
     },
     {
-      "id": "fbacc0fd98993788bd9f2c8ea3ea42dffa87820e60aa9877241fc73c8d43351e",
-      "url": "https://opportunitydesk.org/2026/11/12/thrive-capital-summer-fellowship-2027",
-      "category": "uncategorized",
-      "originalCategory": "opportunities",
-      "checkedAt": "2026-11-12T18:57:10.786Z",
-      "checks": {},
-      "missing": [
-        "página primária acessível com conteúdo compatível",
-        "categoria específica sem evidência suficiente"
-      ],
-      "decision": "pending_more_evidence",
-      "publicationReady": false
-    },
-    {
       "id": "fd4a64c543e89d79bda80682a9a7f44275a0efd9b49b01f94bfec9b33fd63490",
       "url": "https://www.cjr.org/tow_center/pink-slime-partisan-journalism-and-the-future-of-local-news.php",
       "category": "uncategorized",
@@ -24116,20 +23746,6 @@
       "checkedAt": "2026-11-12T18:57:10.786Z",
       "checks": {},
       "missing": [
-        "categoria específica sem evidência suficiente"
-      ],
-      "decision": "pending_more_evidence",
-      "publicationReady": false
-    },
-    {
-      "id": "0b13e5c4bab2ff9b8cc35910b0751681a445afed5406f8d43a2a617a581c65ad",
-      "url": "https://opportunitydesk.org/2026/11/12/dsti-nrf-policy-fellowship-programme-2027",
-      "category": "uncategorized",
-      "originalCategory": "opportunities",
-      "checkedAt": "2026-11-12T21:54:53.784Z",
-      "checks": {},
-      "missing": [
-        "página primária acessível com conteúdo compatível",
         "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
@@ -26378,34 +25994,6 @@
       "publicationReady": false
     },
     {
-      "id": "1f290329e3d113842f0738b21de0e6a25e81128716298875bd3f1af266e7cba2",
-      "url": "https://opportunitydesk.org/2026/11/13/ucd-iseult-honohan-doctoral-scholarship-2027",
-      "category": "uncategorized",
-      "originalCategory": "opportunities",
-      "checkedAt": "2026-11-14T00:23:02.808Z",
-      "checks": {},
-      "missing": [
-        "página primária acessível com conteúdo compatível",
-        "categoria específica sem evidência suficiente"
-      ],
-      "decision": "pending_more_evidence",
-      "publicationReady": false
-    },
-    {
-      "id": "d12704e56ed67c25e872a6bf9d371742e4ddc183a97bd6cc876f6fca8e2f8a82",
-      "url": "https://opportunitydesk.org/2026/11/13/bayer-foundation-scientific-fellowships-2027",
-      "category": "uncategorized",
-      "originalCategory": "opportunities",
-      "checkedAt": "2026-11-14T00:23:02.808Z",
-      "checks": {},
-      "missing": [
-        "página primária acessível com conteúdo compatível",
-        "categoria específica sem evidência suficiente"
-      ],
-      "decision": "pending_more_evidence",
-      "publicationReady": false
-    },
-    {
       "id": "448c668e78c29f5717e68ab307c19c3e751b95f9ce39cc3cf3d9c1c6348206af",
       "url": "https://opportunitydesk.org/2026/11/14/ocean-futures-fellowship-2027-building-ocean-career-pathways",
       "category": "uncategorized",
@@ -26491,6 +26079,19 @@
       "category": "uncategorized",
       "originalCategory": "opportunities",
       "checkedAt": "2026-11-15T18:10:43.859Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "41594e75a3204005a9c1e149e045b0aacbb9e8eddb4975f5740c05207365933c",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB3cEpJaU4zejZaWU0zd0NreEVDekMxbTVoYXpuaFNVSU5OQ2VuTi1TZ0I2MzNpcXZXN2g3SjJqa3hoZmpZUlp1MDRWbmhfUE9SOTQ5LXpaV2tsSFpnS1AyelJSVllTdlhid0tz",
+      "category": "uncategorized",
+      "originalCategory": "opportunities",
+      "checkedAt": "2026-11-15T22:56:04.959Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
