@@ -15,13 +15,6 @@ window.RADAR_PARTS.tools=[
     "desc": "Documentação oficial de Python Record Linkage Toolkit para uso em análise e tratamento de dados. Source note: consultar a documentação e a licença antes do uso editorial."
   },
   {
-    "id": "8131bd90a31340ae234883b0310fea966d01f14dd68345a72a7de5f22c9e3966",
-    "name": "682: quantum of sollazzo • Buttondown",
-    "kind": "linguagem de programação",
-    "url": "https://buttondown.com/puntofisso/archive/682-quantum-of-sollazzo",
-    "desc": "Quantum of Sollazzo Forwarded this email? Subscribe here · View it online No. 682 · Things that caught my attentionNot the National Data Library, but a... Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
-  },
-  {
     "id": "483c5944a10521dde5f808f0c5a7f8905fcf5f0d7041f337d200f27096fecbc5",
     "name": "The AI analytics platform",
     "kind": "Omni Analytics",
@@ -30,7 +23,7 @@ window.RADAR_PARTS.tools=[
   },
   {
     "id": "78b7a11294f5e332bf8ed33d08a8d7151c67f4de4588753cb629a48375d6c337",
-    "name": "GitHub",
+    "name": "TabulaPDF",
     "kind": "ropensci/tabulapdf: Bindings for Tabula PDF Table Extractor Library · GitHub",
     "url": "https://github.com/ropensci/tabulapdf",
     "desc": "Bindings for Tabula PDF Table Extractor Library. Contribute to ropensci/tabulapdf development by creating an account on GitHub. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
@@ -51,7 +44,7 @@ window.RADAR_PARTS.tools=[
   },
   {
     "id": "6d84c860baa5311d1e0fcec13e539b428a8d37d4c97126c53e09639eb31e9621",
-    "name": "GitHub",
+    "name": "Maigret",
     "kind": "soxoj/maigret: 🕵️‍♂️ Collect a dossier on a person by username from 6K websites · GitHub",
     "url": "https://github.com/soxoj/maigret",
     "desc": "🕵️‍♂️ Collect a dossier on a person by username from 6K websites - soxoj/maigret Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
