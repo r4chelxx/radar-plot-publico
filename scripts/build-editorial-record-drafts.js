@@ -82,6 +82,12 @@ function normalizeToolName(title,text,url){
  if(host==='python.org'||host.endsWith('.python.org'))return 'Python';
  if(host==='r-project.org'||host.endsWith('.r-project.org'))return 'R';
  if(host==='pandas.pydata.org'||host.endsWith('.pandas.pydata.org'))return 'pandas';
+ if(host==='github.com'||host.endsWith('.github.com')){
+  const repo=String(new URL(url).pathname.split('/').filter(Boolean)[1]||'').toLowerCase();
+  const known={tabulapdf:'TabulaPDF',maigret:'Maigret'};
+  if(known[repo])return known[repo];
+  return repo.replace(/[-_]+(.)/g,(_,c)=>' '+c.toUpperCase()).replace(/^./,c=>c.toUpperCase())||value||clean(title);
+ }
  return value||clean(title);
 }
 function todayBahia(now=new Date()){
