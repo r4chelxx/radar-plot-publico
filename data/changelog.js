@@ -6,6 +6,26 @@ window.RADAR_PARTS.changelog=[
   "title": "Publicação editorial verificada — 2026-11-15",
   "items": [
     {
+      "id": "auto-e7c2d412b50c66e7",
+      "title": "MCW Global Young Leaders Fellowship 2027 (Funded)"
+    },
+    {
+      "id": "auto-d7023e39c8bfb663",
+      "title": "Global Burden of Disease (GBD) Fellowship 2027"
+    },
+    {
+      "id": "auto-52b6669badd2e4f2",
+      "title": "United Nations DPoA MTR Journalism Fellowship 2027 (Fully-funded)"
+    }
+  ],
+  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: MCW Global Young Leaders Fellowship 2027 (Funded); Global Burden of Disease (GBD) Fellowship 2027; United Nations DPoA MTR Journalism Fellowship 2027 (Fully-funded)."
+}, 
+{
+  "date": "2026-11-15",
+  "type": "nova-oportunidade",
+  "title": "Publicação editorial verificada — 2026-11-15",
+  "items": [
+    {
       "id": "auto-b2fde425407fcb72",
       "title": "Fund for Investigative Journalism grants"
     },
