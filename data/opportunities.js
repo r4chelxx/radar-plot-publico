@@ -1,6 +1,468 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.opportunities=[
 {
+  "id": "auto-f313a1b2aaf9bab8",
+  "title": "ANH Academy Science-Policy Fellowships 2027 (Round 3) &#8211; Opportunity Desk",
+  "org": "Opportunity Desk",
+  "summary": "ANH Academy Science-Policy Fellowships 2027 (Round 3) &#8211; Opportunity Desk Close Menu Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awards Grants Fellowships Jobs Internships Volunteering Blog OD Specials OD Live Series Young Person of the Month Mentorship OD Mentors Success Stories How-To General Tips ODIC 2026 ODIC 2026 Application ODIC Judges ODIC 2025 Winners ODIC 2023 Winners ODIC 2022 Winners ODIC 2021 Winners ODIC 2019 Winners ODIC 2018 Winners ODIC 2017 Winners ODIC 2016 Winners Search Asia Africa Australia and Oceania America Europe Deadlines Approaching Facebook X (Twitter) Instagram Sunday, November 15 About Partners Join our Mailing List Promote with OD Submit Opportunity Nominate #YPOM Privacy Policy Disclaimer Contact Facebook X (Twitter) LinkedIn Instagram Telegram Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awa",
+  "type": "Oportunidade editorial",
+  "themes": [
+    "Oportunidade editorial"
+  ],
+  "scope": "Não especificado",
+  "deadline": "2027-02-28",
+  "deadlineStatus": "prazo extraído de metadado estruturado da fonte oficial; horário e condições devem ser conferidos na página",
+  "eligibility": "parcial",
+  "fit": 5,
+  "status": "aberta",
+  "value": "Não informado na fonte estruturada",
+  "duration": "Não informado na fonte estruturada",
+  "modality": "Não especificado",
+  "documents": [],
+  "restrictions": [],
+  "rules": "https://opportunitydesk.org/2026/11/11/anh-academy-science-policy-fellowships-2027-round-3/",
+  "apply": "https://opportunitydesk.org/2026/11/11/anh-academy-science-policy-fellowships-2027-round-3/",
+  "verified": "2026-11-15",
+  "desc": "ANH Academy Science-Policy Fellowships 2027 (Round 3) &#8211; Opportunity Desk Close Menu Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awards Grants Fellowships Jobs Internships Volunteering Blog OD Specials OD Live Series Young Person of the Month Mentorship OD Mentors Success Stories How-To General Tips ODIC 2026 ODIC 2026 Application ODIC Judges ODIC 2025 Winners ODIC 2023 Winners ODIC 2022 Winners ODIC 2021 Winners ODIC 2019 Winners ODIC 2018 Winners ODIC 2017 Winners ODIC 2016 Winners Search Asia Africa Australia and Oceania America Europe Deadlines Approaching Facebook X (Twitter) Instagram Sunday, November 15 About Partners Join our Mailing List Promote with OD Submit Opportunity Nominate #YPOM Privacy Policy Disclaimer Contact Facebook X (Twitter) LinkedIn Instagram Telegram Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awa",
+  "discoveryUrl": "https://opportunitydesk.org/2026/11/11/anh-academy-science-policy-fellowships-2027-round-3",
+  "verificationHistory": [
+    {
+      "date": "2026-11-15",
+      "status": "aberta",
+      "source": "https://opportunitydesk.org/2026/11/11/anh-academy-science-policy-fellowships-2027-round-3/"
+    }
+  ]
+},
+{
+  "id": "auto-e73e7f5fdda53daa",
+  "title": "Center for Effective Global Action (CEGA) Visiting Fellowship 2027-2028 &#8211; Opportunity Desk",
+  "org": "Opportunity Desk",
+  "summary": "Center for Effective Global Action (CEGA) Visiting Fellowship 2027-2028 &#8211; Opportunity Desk Close Menu Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awards Grants Fellowships Jobs Internships Volunteering Blog OD Specials OD Live Series Young Person of the Month Mentorship OD Mentors Success Stories How-To General Tips ODIC 2026 ODIC 2026 Application ODIC Judges ODIC 2025 Winners ODIC 2023 Winners ODIC 2022 Winners ODIC 2021 Winners ODIC 2019 Winners ODIC 2018 Winners ODIC 2017 Winners ODIC 2016 Winners Search Asia Africa Australia and Oceania America Europe Deadlines Approaching Facebook X (Twitter) Instagram Sunday, November 15 About Partners Join our Mailing List Promote with OD Submit Opportunity Nominate #YPOM Privacy Policy Disclaimer Contact Facebook X (Twitter) LinkedIn Instagram Telegram Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in US",
+  "type": "Oportunidade editorial",
+  "themes": [
+    "Oportunidade editorial"
+  ],
+  "scope": "Não especificado",
+  "deadline": "2027-01-17",
+  "deadlineStatus": "prazo extraído de metadado estruturado da fonte oficial; horário e condições devem ser conferidos na página",
+  "eligibility": "parcial",
+  "fit": 5,
+  "status": "aberta",
+  "value": "Não informado na fonte estruturada",
+  "duration": "Não informado na fonte estruturada",
+  "modality": "Não especificado",
+  "documents": [],
+  "restrictions": [],
+  "rules": "https://opportunitydesk.org/2026/11/07/cega-visiting-fellowship-2027-2028/",
+  "apply": "https://opportunitydesk.org/2026/11/07/cega-visiting-fellowship-2027-2028/",
+  "verified": "2026-11-15",
+  "desc": "Center for Effective Global Action (CEGA) Visiting Fellowship 2027-2028 &#8211; Opportunity Desk Close Menu Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awards Grants Fellowships Jobs Internships Volunteering Blog OD Specials OD Live Series Young Person of the Month Mentorship OD Mentors Success Stories How-To General Tips ODIC 2026 ODIC 2026 Application ODIC Judges ODIC 2025 Winners ODIC 2023 Winners ODIC 2022 Winners ODIC 2021 Winners ODIC 2019 Winners ODIC 2018 Winners ODIC 2017 Winners ODIC 2016 Winners Search Asia Africa Australia and Oceania America Europe Deadlines Approaching Facebook X (Twitter) Instagram Sunday, November 15 About Partners Join our Mailing List Promote with OD Submit Opportunity Nominate #YPOM Privacy Policy Disclaimer Contact Facebook X (Twitter) LinkedIn Instagram Telegram Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in US",
+  "discoveryUrl": "https://opportunitydesk.org/2026/11/07/cega-visiting-fellowship-2027-2028",
+  "verificationHistory": [
+    {
+      "date": "2026-11-15",
+      "status": "aberta",
+      "source": "https://opportunitydesk.org/2026/11/07/cega-visiting-fellowship-2027-2028/"
+    }
+  ]
+},
+{
+  "id": "auto-94a646811b984c25",
+  "title": "CRASSH Visiting Fellowships for Scholars from the Global South 2027 (Funded) &#8211; Opportunity Desk",
+  "org": "Opportunity Desk",
+  "summary": "CRASSH Visiting Fellowships for Scholars from the Global South 2027 (Funded) &#8211; Opportunity Desk Close Menu Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awards Grants Fellowships Jobs Internships Volunteering Blog OD Specials OD Live Series Young Person of the Month Mentorship OD Mentors Success Stories How-To General Tips ODIC 2026 ODIC 2026 Application ODIC Judges ODIC 2025 Winners ODIC 2023 Winners ODIC 2022 Winners ODIC 2021 Winners ODIC 2019 Winners ODIC 2018 Winners ODIC 2017 Winners ODIC 2016 Winners Search Asia Africa Australia and Oceania America Europe Deadlines Approaching Facebook X (Twitter) Instagram Sunday, November 15 About Partners Join our Mailing List Promote with OD Submit Opportunity Nominate #YPOM Privacy Policy Disclaimer Contact Facebook X (Twitter) LinkedIn Instagram Telegram Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study ",
+  "type": "Oportunidade editorial",
+  "themes": [
+    "Oportunidade editorial"
+  ],
+  "scope": "Não especificado",
+  "deadline": "2027-01-22",
+  "deadlineStatus": "prazo extraído de metadado estruturado da fonte oficial; horário e condições devem ser conferidos na página",
+  "eligibility": "parcial",
+  "fit": 5,
+  "status": "aberta",
+  "value": "Não informado na fonte estruturada",
+  "duration": "Não informado na fonte estruturada",
+  "modality": "Não especificado",
+  "documents": [],
+  "restrictions": [],
+  "rules": "https://opportunitydesk.org/2026/11/05/crassh-visiting-fellowships-for-scholars-from-the-global-south-2027/",
+  "apply": "https://opportunitydesk.org/2026/11/05/crassh-visiting-fellowships-for-scholars-from-the-global-south-2027/",
+  "verified": "2026-11-15",
+  "desc": "CRASSH Visiting Fellowships for Scholars from the Global South 2027 (Funded) &#8211; Opportunity Desk Close Menu Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awards Grants Fellowships Jobs Internships Volunteering Blog OD Specials OD Live Series Young Person of the Month Mentorship OD Mentors Success Stories How-To General Tips ODIC 2026 ODIC 2026 Application ODIC Judges ODIC 2025 Winners ODIC 2023 Winners ODIC 2022 Winners ODIC 2021 Winners ODIC 2019 Winners ODIC 2018 Winners ODIC 2017 Winners ODIC 2016 Winners Search Asia Africa Australia and Oceania America Europe Deadlines Approaching Facebook X (Twitter) Instagram Sunday, November 15 About Partners Join our Mailing List Promote with OD Submit Opportunity Nominate #YPOM Privacy Policy Disclaimer Contact Facebook X (Twitter) LinkedIn Instagram Telegram Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study ",
+  "discoveryUrl": "https://opportunitydesk.org/2026/11/05/crassh-visiting-fellowships-for-scholars-from-the-global-south-2027",
+  "verificationHistory": [
+    {
+      "date": "2026-11-15",
+      "status": "aberta",
+      "source": "https://opportunitydesk.org/2026/11/05/crassh-visiting-fellowships-for-scholars-from-the-global-south-2027/"
+    }
+  ]
+},
+{
+  "id": "auto-69c877447f93b5bd",
+  "title": "Commonwealth Shared Scholarship Programme 2027/2028 to Study in the U.K. (Fully-funded) &#8211; Opportunity Desk",
+  "org": "Opportunity Desk",
+  "summary": "Commonwealth Shared Scholarship Programme 2027/2028 to Study in the U.K. (Fully-funded) &#8211; Opportunity Desk Close Menu Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awards Grants Fellowships Jobs Internships Volunteering Blog OD Specials OD Live Series Young Person of the Month Mentorship OD Mentors Success Stories How-To General Tips ODIC 2026 ODIC 2026 Application ODIC Judges ODIC 2025 Winners ODIC 2023 Winners ODIC 2022 Winners ODIC 2021 Winners ODIC 2019 Winners ODIC 2018 Winners ODIC 2017 Winners ODIC 2016 Winners Search Asia Africa Australia and Oceania America Europe Deadlines Approaching Facebook X (Twitter) Instagram Sunday, November 15 About Partners Join our Mailing List Promote with OD Submit Opportunity Nominate #YPOM Privacy Policy Disclaimer Contact Facebook X (Twitter) LinkedIn Instagram Telegram Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Eu",
+  "type": "Oportunidade editorial",
+  "themes": [
+    "Oportunidade editorial"
+  ],
+  "scope": "Não especificado",
+  "deadline": "2026-12-08",
+  "deadlineStatus": "prazo extraído de metadado estruturado da fonte oficial; horário e condições devem ser conferidos na página",
+  "eligibility": "parcial",
+  "fit": 5,
+  "status": "aberta",
+  "value": "Não informado na fonte estruturada",
+  "duration": "Não informado na fonte estruturada",
+  "modality": "Não especificado",
+  "documents": [],
+  "restrictions": [],
+  "rules": "https://opportunitydesk.org/2026/11/11/commonwealth-shared-scholarship-programme-2027-2028/",
+  "apply": "https://opportunitydesk.org/2026/11/11/commonwealth-shared-scholarship-programme-2027-2028/",
+  "verified": "2026-11-15",
+  "desc": "Commonwealth Shared Scholarship Programme 2027/2028 to Study in the U.K. (Fully-funded) &#8211; Opportunity Desk Close Menu Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awards Grants Fellowships Jobs Internships Volunteering Blog OD Specials OD Live Series Young Person of the Month Mentorship OD Mentors Success Stories How-To General Tips ODIC 2026 ODIC 2026 Application ODIC Judges ODIC 2025 Winners ODIC 2023 Winners ODIC 2022 Winners ODIC 2021 Winners ODIC 2019 Winners ODIC 2018 Winners ODIC 2017 Winners ODIC 2016 Winners Search Asia Africa Australia and Oceania America Europe Deadlines Approaching Facebook X (Twitter) Instagram Sunday, November 15 About Partners Join our Mailing List Promote with OD Submit Opportunity Nominate #YPOM Privacy Policy Disclaimer Contact Facebook X (Twitter) LinkedIn Instagram Telegram Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Eu",
+  "discoveryUrl": "https://opportunitydesk.org/2026/11/11/commonwealth-shared-scholarship-programme-2027-2028",
+  "verificationHistory": [
+    {
+      "date": "2026-11-15",
+      "status": "aberta",
+      "source": "https://opportunitydesk.org/2026/11/11/commonwealth-shared-scholarship-programme-2027-2028/"
+    }
+  ]
+},
+{
+  "id": "auto-7b0ab2f5fcee3506",
+  "title": "African Development Bank Group Shanghai Ocean University Scholarship Masters Degree Program 2027 &#8211; Opportunity Desk",
+  "org": "Opportunity Desk",
+  "summary": "African Development Bank Group Shanghai Ocean University Scholarship Masters Degree Program 2027 &#8211; Opportunity Desk Close Menu Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awards Grants Fellowships Jobs Internships Volunteering Blog OD Specials OD Live Series Young Person of the Month Mentorship OD Mentors Success Stories How-To General Tips ODIC 2026 ODIC 2026 Application ODIC Judges ODIC 2025 Winners ODIC 2023 Winners ODIC 2022 Winners ODIC 2021 Winners ODIC 2019 Winners ODIC 2018 Winners ODIC 2017 Winners ODIC 2016 Winners Search Asia Africa Australia and Oceania America Europe Deadlines Approaching Facebook X (Twitter) Instagram Sunday, November 15 About Partners Join our Mailing List Promote with OD Submit Opportunity Nominate #YPOM Privacy Policy Disclaimer Contact Facebook X (Twitter) LinkedIn Instagram Telegram Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia St",
+  "type": "Oportunidade editorial",
+  "themes": [
+    "Oportunidade editorial"
+  ],
+  "scope": "Não especificado",
+  "deadline": "2026-11-17",
+  "deadlineStatus": "prazo extraído de metadado estruturado da fonte oficial; horário e condições devem ser conferidos na página",
+  "eligibility": "parcial",
+  "fit": 5,
+  "status": "aberta",
+  "value": "Não informado na fonte estruturada",
+  "duration": "Não informado na fonte estruturada",
+  "modality": "Não especificado",
+  "documents": [],
+  "restrictions": [],
+  "rules": "https://opportunitydesk.org/2026/11/11/afdb-group-shou-scholarship-masters-degree-program-2027/",
+  "apply": "https://opportunitydesk.org/2026/11/11/afdb-group-shou-scholarship-masters-degree-program-2027/",
+  "verified": "2026-11-15",
+  "desc": "African Development Bank Group Shanghai Ocean University Scholarship Masters Degree Program 2027 &#8211; Opportunity Desk Close Menu Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awards Grants Fellowships Jobs Internships Volunteering Blog OD Specials OD Live Series Young Person of the Month Mentorship OD Mentors Success Stories How-To General Tips ODIC 2026 ODIC 2026 Application ODIC Judges ODIC 2025 Winners ODIC 2023 Winners ODIC 2022 Winners ODIC 2021 Winners ODIC 2019 Winners ODIC 2018 Winners ODIC 2017 Winners ODIC 2016 Winners Search Asia Africa Australia and Oceania America Europe Deadlines Approaching Facebook X (Twitter) Instagram Sunday, November 15 About Partners Join our Mailing List Promote with OD Submit Opportunity Nominate #YPOM Privacy Policy Disclaimer Contact Facebook X (Twitter) LinkedIn Instagram Telegram Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia St",
+  "discoveryUrl": "https://opportunitydesk.org/2026/11/11/afdb-group-shou-scholarship-masters-degree-program-2027",
+  "verificationHistory": [
+    {
+      "date": "2026-11-15",
+      "status": "aberta",
+      "source": "https://opportunitydesk.org/2026/11/11/afdb-group-shou-scholarship-masters-degree-program-2027/"
+    }
+  ]
+},
+{
+  "id": "auto-f3ed499d05010525",
+  "title": "Gratitude Network Fellowship 2027 &#8211; Opportunity Desk",
+  "org": "Opportunity Desk",
+  "summary": "Gratitude Network Fellowship 2027 &#8211; Opportunity Desk Close Menu Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awards Grants Fellowships Jobs Internships Volunteering Blog OD Specials OD Live Series Young Person of the Month Mentorship OD Mentors Success Stories How-To General Tips ODIC 2026 ODIC 2026 Application ODIC Judges ODIC 2025 Winners ODIC 2023 Winners ODIC 2022 Winners ODIC 2021 Winners ODIC 2019 Winners ODIC 2018 Winners ODIC 2017 Winners ODIC 2016 Winners Search Asia Africa Australia and Oceania America Europe Deadlines Approaching Facebook X (Twitter) Instagram Sunday, November 15 About Partners Join our Mailing List Promote with OD Submit Opportunity Nominate #YPOM Privacy Policy Disclaimer Contact Facebook X (Twitter) LinkedIn Instagram Telegram Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awards Grants Fellowshi",
+  "type": "Oportunidade editorial",
+  "themes": [
+    "Oportunidade editorial"
+  ],
+  "scope": "Não especificado",
+  "deadline": "2027-01-15",
+  "deadlineStatus": "prazo extraído de metadado estruturado da fonte oficial; horário e condições devem ser conferidos na página",
+  "eligibility": "parcial",
+  "fit": 5,
+  "status": "aberta",
+  "value": "Não informado na fonte estruturada",
+  "duration": "Não informado na fonte estruturada",
+  "modality": "Não especificado",
+  "documents": [],
+  "restrictions": [],
+  "rules": "https://opportunitydesk.org/2026/11/12/gratitude-network-fellowship-2027/",
+  "apply": "https://opportunitydesk.org/2026/11/12/gratitude-network-fellowship-2027/",
+  "verified": "2026-11-15",
+  "desc": "Gratitude Network Fellowship 2027 &#8211; Opportunity Desk Close Menu Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awards Grants Fellowships Jobs Internships Volunteering Blog OD Specials OD Live Series Young Person of the Month Mentorship OD Mentors Success Stories How-To General Tips ODIC 2026 ODIC 2026 Application ODIC Judges ODIC 2025 Winners ODIC 2023 Winners ODIC 2022 Winners ODIC 2021 Winners ODIC 2019 Winners ODIC 2018 Winners ODIC 2017 Winners ODIC 2016 Winners Search Asia Africa Australia and Oceania America Europe Deadlines Approaching Facebook X (Twitter) Instagram Sunday, November 15 About Partners Join our Mailing List Promote with OD Submit Opportunity Nominate #YPOM Privacy Policy Disclaimer Contact Facebook X (Twitter) LinkedIn Instagram Telegram Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awards Grants Fellowshi",
+  "discoveryUrl": "https://opportunitydesk.org/2026/11/12/gratitude-network-fellowship-2027",
+  "verificationHistory": [
+    {
+      "date": "2026-11-15",
+      "status": "aberta",
+      "source": "https://opportunitydesk.org/2026/11/12/gratitude-network-fellowship-2027/"
+    }
+  ]
+},
+{
+  "id": "auto-545034bb0ede7096",
+  "title": "African Wildlife Foundation (AWF) Geospatial Leaders Fellowship 2027 &#8211; Opportunity Desk",
+  "org": "Opportunity Desk",
+  "summary": "African Wildlife Foundation (AWF) Geospatial Leaders Fellowship 2027 &#8211; Opportunity Desk Close Menu Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awards Grants Fellowships Jobs Internships Volunteering Blog OD Specials OD Live Series Young Person of the Month Mentorship OD Mentors Success Stories How-To General Tips ODIC 2026 ODIC 2026 Application ODIC Judges ODIC 2025 Winners ODIC 2023 Winners ODIC 2022 Winners ODIC 2021 Winners ODIC 2019 Winners ODIC 2018 Winners ODIC 2017 Winners ODIC 2016 Winners Search Asia Africa Australia and Oceania America Europe Deadlines Approaching Facebook X (Twitter) Instagram Sunday, November 15 About Partners Join our Mailing List Promote with OD Submit Opportunity Nominate #YPOM Privacy Policy Disclaimer Contact Facebook X (Twitter) LinkedIn Instagram Telegram Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA C",
+  "type": "Oportunidade editorial",
+  "themes": [
+    "Oportunidade editorial"
+  ],
+  "scope": "Não especificado",
+  "deadline": "2026-12-14",
+  "deadlineStatus": "prazo extraído de metadado estruturado da fonte oficial; horário e condições devem ser conferidos na página",
+  "eligibility": "parcial",
+  "fit": 5,
+  "status": "aberta",
+  "value": "Não informado na fonte estruturada",
+  "duration": "Não informado na fonte estruturada",
+  "modality": "Não especificado",
+  "documents": [],
+  "restrictions": [],
+  "rules": "https://opportunitydesk.org/2026/11/11/awf-geospatial-leaders-fellowship-2027/",
+  "apply": "https://opportunitydesk.org/2026/11/11/awf-geospatial-leaders-fellowship-2027/",
+  "verified": "2026-11-15",
+  "desc": "African Wildlife Foundation (AWF) Geospatial Leaders Fellowship 2027 &#8211; Opportunity Desk Close Menu Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awards Grants Fellowships Jobs Internships Volunteering Blog OD Specials OD Live Series Young Person of the Month Mentorship OD Mentors Success Stories How-To General Tips ODIC 2026 ODIC 2026 Application ODIC Judges ODIC 2025 Winners ODIC 2023 Winners ODIC 2022 Winners ODIC 2021 Winners ODIC 2019 Winners ODIC 2018 Winners ODIC 2017 Winners ODIC 2016 Winners Search Asia Africa Australia and Oceania America Europe Deadlines Approaching Facebook X (Twitter) Instagram Sunday, November 15 About Partners Join our Mailing List Promote with OD Submit Opportunity Nominate #YPOM Privacy Policy Disclaimer Contact Facebook X (Twitter) LinkedIn Instagram Telegram Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA C",
+  "discoveryUrl": "https://opportunitydesk.org/2026/11/11/awf-geospatial-leaders-fellowship-2027",
+  "verificationHistory": [
+    {
+      "date": "2026-11-15",
+      "status": "aberta",
+      "source": "https://opportunitydesk.org/2026/11/11/awf-geospatial-leaders-fellowship-2027/"
+    }
+  ]
+},
+{
+  "id": "auto-aedc388869508d21",
+  "title": "Africa Dyslexia Teacher Fellowship Program 2027 &#8211; Opportunity Desk",
+  "org": "Opportunity Desk",
+  "summary": "Africa Dyslexia Teacher Fellowship Program 2027 &#8211; Opportunity Desk Close Menu Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awards Grants Fellowships Jobs Internships Volunteering Blog OD Specials OD Live Series Young Person of the Month Mentorship OD Mentors Success Stories How-To General Tips ODIC 2026 ODIC 2026 Application ODIC Judges ODIC 2025 Winners ODIC 2023 Winners ODIC 2022 Winners ODIC 2021 Winners ODIC 2019 Winners ODIC 2018 Winners ODIC 2017 Winners ODIC 2016 Winners Search Asia Africa Australia and Oceania America Europe Deadlines Approaching Facebook X (Twitter) Instagram Sunday, November 15 About Partners Join our Mailing List Promote with OD Submit Opportunity Nominate #YPOM Privacy Policy Disclaimer Contact Facebook X (Twitter) LinkedIn Instagram Telegram Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awards Gr",
+  "type": "Oportunidade editorial",
+  "themes": [
+    "Oportunidade editorial"
+  ],
+  "scope": "Não especificado",
+  "deadline": "2026-11-20",
+  "deadlineStatus": "prazo extraído de metadado estruturado da fonte oficial; horário e condições devem ser conferidos na página",
+  "eligibility": "parcial",
+  "fit": 5,
+  "status": "aberta",
+  "value": "Não informado na fonte estruturada",
+  "duration": "Não informado na fonte estruturada",
+  "modality": "Não especificado",
+  "documents": [],
+  "restrictions": [],
+  "rules": "https://opportunitydesk.org/2026/11/11/africa-dyslexia-teacher-fellowship-program-2027/",
+  "apply": "https://opportunitydesk.org/2026/11/11/africa-dyslexia-teacher-fellowship-program-2027/",
+  "verified": "2026-11-15",
+  "desc": "Africa Dyslexia Teacher Fellowship Program 2027 &#8211; Opportunity Desk Close Menu Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awards Grants Fellowships Jobs Internships Volunteering Blog OD Specials OD Live Series Young Person of the Month Mentorship OD Mentors Success Stories How-To General Tips ODIC 2026 ODIC 2026 Application ODIC Judges ODIC 2025 Winners ODIC 2023 Winners ODIC 2022 Winners ODIC 2021 Winners ODIC 2019 Winners ODIC 2018 Winners ODIC 2017 Winners ODIC 2016 Winners Search Asia Africa Australia and Oceania America Europe Deadlines Approaching Facebook X (Twitter) Instagram Sunday, November 15 About Partners Join our Mailing List Promote with OD Submit Opportunity Nominate #YPOM Privacy Policy Disclaimer Contact Facebook X (Twitter) LinkedIn Instagram Telegram Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awards Gr",
+  "discoveryUrl": "https://opportunitydesk.org/2026/11/11/africa-dyslexia-teacher-fellowship-program-2027",
+  "verificationHistory": [
+    {
+      "date": "2026-11-15",
+      "status": "aberta",
+      "source": "https://opportunitydesk.org/2026/11/11/africa-dyslexia-teacher-fellowship-program-2027/"
+    }
+  ]
+},
+{
+  "id": "auto-0d368c641b24a8ef",
+  "title": "Green Global Fellowship 2027 for Emerging Leaders &#8211; Opportunity Desk",
+  "org": "Opportunity Desk",
+  "summary": "Green Global Fellowship 2027 for Emerging Leaders &#8211; Opportunity Desk Close Menu Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awards Grants Fellowships Jobs Internships Volunteering Blog OD Specials OD Live Series Young Person of the Month Mentorship OD Mentors Success Stories How-To General Tips ODIC 2026 ODIC 2026 Application ODIC Judges ODIC 2025 Winners ODIC 2023 Winners ODIC 2022 Winners ODIC 2021 Winners ODIC 2019 Winners ODIC 2018 Winners ODIC 2017 Winners ODIC 2016 Winners Search Asia Africa Australia and Oceania America Europe Deadlines Approaching Facebook X (Twitter) Instagram Sunday, November 15 About Partners Join our Mailing List Promote with OD Submit Opportunity Nominate #YPOM Privacy Policy Disclaimer Contact Facebook X (Twitter) LinkedIn Instagram Telegram Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awards ",
+  "type": "Oportunidade editorial",
+  "themes": [
+    "Oportunidade editorial"
+  ],
+  "scope": "Não especificado",
+  "deadline": "2027-01-07",
+  "deadlineStatus": "prazo extraído de metadado estruturado da fonte oficial; horário e condições devem ser conferidos na página",
+  "eligibility": "parcial",
+  "fit": 5,
+  "status": "aberta",
+  "value": "Não informado na fonte estruturada",
+  "duration": "Não informado na fonte estruturada",
+  "modality": "Não especificado",
+  "documents": [],
+  "restrictions": [],
+  "rules": "https://opportunitydesk.org/2026/10/29/green-global-fellowship-2027/",
+  "apply": "https://opportunitydesk.org/2026/10/29/green-global-fellowship-2027/",
+  "verified": "2026-11-15",
+  "desc": "Green Global Fellowship 2027 for Emerging Leaders &#8211; Opportunity Desk Close Menu Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awards Grants Fellowships Jobs Internships Volunteering Blog OD Specials OD Live Series Young Person of the Month Mentorship OD Mentors Success Stories How-To General Tips ODIC 2026 ODIC 2026 Application ODIC Judges ODIC 2025 Winners ODIC 2023 Winners ODIC 2022 Winners ODIC 2021 Winners ODIC 2019 Winners ODIC 2018 Winners ODIC 2017 Winners ODIC 2016 Winners Search Asia Africa Australia and Oceania America Europe Deadlines Approaching Facebook X (Twitter) Instagram Sunday, November 15 About Partners Join our Mailing List Promote with OD Submit Opportunity Nominate #YPOM Privacy Policy Disclaimer Contact Facebook X (Twitter) LinkedIn Instagram Telegram Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awards ",
+  "discoveryUrl": "https://opportunitydesk.org/2026/10/29/green-global-fellowship-2027",
+  "verificationHistory": [
+    {
+      "date": "2026-11-15",
+      "status": "aberta",
+      "source": "https://opportunitydesk.org/2026/10/29/green-global-fellowship-2027/"
+    }
+  ]
+},
+{
+  "id": "auto-83c5913e44b43ec4",
+  "title": "Harvard Kennedy School (HKS) American Service Fellowship 2027 (up to $100,000) &#8211; Opportunity Desk",
+  "org": "Opportunity Desk",
+  "summary": "Harvard Kennedy School (HKS) American Service Fellowship 2027 (up to $100,000) &#8211; Opportunity Desk Close Menu Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awards Grants Fellowships Jobs Internships Volunteering Blog OD Specials OD Live Series Young Person of the Month Mentorship OD Mentors Success Stories How-To General Tips ODIC 2026 ODIC 2026 Application ODIC Judges ODIC 2025 Winners ODIC 2023 Winners ODIC 2022 Winners ODIC 2021 Winners ODIC 2019 Winners ODIC 2018 Winners ODIC 2017 Winners ODIC 2016 Winners Search Asia Africa Australia and Oceania America Europe Deadlines Approaching Facebook X (Twitter) Instagram Sunday, November 15 About Partners Join our Mailing List Promote with OD Submit Opportunity Nominate #YPOM Privacy Policy Disclaimer Contact Facebook X (Twitter) LinkedIn Instagram Telegram Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Stud",
+  "type": "Oportunidade editorial",
+  "themes": [
+    "Oportunidade editorial"
+  ],
+  "scope": "Não especificado",
+  "deadline": "2026-12-01",
+  "deadlineStatus": "prazo extraído de metadado estruturado da fonte oficial; horário e condições devem ser conferidos na página",
+  "eligibility": "parcial",
+  "fit": 5,
+  "status": "aberta",
+  "value": "Não informado na fonte estruturada",
+  "duration": "Não informado na fonte estruturada",
+  "modality": "Não especificado",
+  "documents": [],
+  "restrictions": [],
+  "rules": "https://opportunitydesk.org/2026/11/11/harvard-kennedy-school-american-service-fellowship-2027/",
+  "apply": "https://opportunitydesk.org/2026/11/11/harvard-kennedy-school-american-service-fellowship-2027/",
+  "verified": "2026-11-15",
+  "desc": "Harvard Kennedy School (HKS) American Service Fellowship 2027 (up to $100,000) &#8211; Opportunity Desk Close Menu Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awards Grants Fellowships Jobs Internships Volunteering Blog OD Specials OD Live Series Young Person of the Month Mentorship OD Mentors Success Stories How-To General Tips ODIC 2026 ODIC 2026 Application ODIC Judges ODIC 2025 Winners ODIC 2023 Winners ODIC 2022 Winners ODIC 2021 Winners ODIC 2019 Winners ODIC 2018 Winners ODIC 2017 Winners ODIC 2016 Winners Search Asia Africa Australia and Oceania America Europe Deadlines Approaching Facebook X (Twitter) Instagram Sunday, November 15 About Partners Join our Mailing List Promote with OD Submit Opportunity Nominate #YPOM Privacy Policy Disclaimer Contact Facebook X (Twitter) LinkedIn Instagram Telegram Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Stud",
+  "discoveryUrl": "https://opportunitydesk.org/2026/11/11/harvard-kennedy-school-american-service-fellowship-2027",
+  "verificationHistory": [
+    {
+      "date": "2026-11-15",
+      "status": "aberta",
+      "source": "https://opportunitydesk.org/2026/11/11/harvard-kennedy-school-american-service-fellowship-2027/"
+    }
+  ]
+},
+{
+  "id": "auto-ba010ac2ff6829c7",
+  "title": "Thrive Capital Summer Fellowship 2027 ($100,000 salary) &#8211; Opportunity Desk",
+  "org": "Opportunity Desk",
+  "summary": "Thrive Capital Summer Fellowship 2027 ($100,000 salary) &#8211; Opportunity Desk Close Menu Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awards Grants Fellowships Jobs Internships Volunteering Blog OD Specials OD Live Series Young Person of the Month Mentorship OD Mentors Success Stories How-To General Tips ODIC 2026 ODIC 2026 Application ODIC Judges ODIC 2025 Winners ODIC 2023 Winners ODIC 2022 Winners ODIC 2021 Winners ODIC 2019 Winners ODIC 2018 Winners ODIC 2017 Winners ODIC 2016 Winners Search Asia Africa Australia and Oceania America Europe Deadlines Approaching Facebook X (Twitter) Instagram Sunday, November 15 About Partners Join our Mailing List Promote with OD Submit Opportunity Nominate #YPOM Privacy Policy Disclaimer Contact Facebook X (Twitter) LinkedIn Instagram Telegram Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions A",
+  "type": "Oportunidade editorial",
+  "themes": [
+    "Oportunidade editorial"
+  ],
+  "scope": "Não especificado",
+  "deadline": "2026-12-11",
+  "deadlineStatus": "prazo extraído de metadado estruturado da fonte oficial; horário e condições devem ser conferidos na página",
+  "eligibility": "parcial",
+  "fit": 5,
+  "status": "aberta",
+  "value": "Não informado na fonte estruturada",
+  "duration": "Não informado na fonte estruturada",
+  "modality": "Não especificado",
+  "documents": [],
+  "restrictions": [],
+  "rules": "https://opportunitydesk.org/2026/11/12/thrive-capital-summer-fellowship-2027/",
+  "apply": "https://opportunitydesk.org/2026/11/12/thrive-capital-summer-fellowship-2027/",
+  "verified": "2026-11-15",
+  "desc": "Thrive Capital Summer Fellowship 2027 ($100,000 salary) &#8211; Opportunity Desk Close Menu Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awards Grants Fellowships Jobs Internships Volunteering Blog OD Specials OD Live Series Young Person of the Month Mentorship OD Mentors Success Stories How-To General Tips ODIC 2026 ODIC 2026 Application ODIC Judges ODIC 2025 Winners ODIC 2023 Winners ODIC 2022 Winners ODIC 2021 Winners ODIC 2019 Winners ODIC 2018 Winners ODIC 2017 Winners ODIC 2016 Winners Search Asia Africa Australia and Oceania America Europe Deadlines Approaching Facebook X (Twitter) Instagram Sunday, November 15 About Partners Join our Mailing List Promote with OD Submit Opportunity Nominate #YPOM Privacy Policy Disclaimer Contact Facebook X (Twitter) LinkedIn Instagram Telegram Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions A",
+  "discoveryUrl": "https://opportunitydesk.org/2026/11/12/thrive-capital-summer-fellowship-2027",
+  "verificationHistory": [
+    {
+      "date": "2026-11-15",
+      "status": "aberta",
+      "source": "https://opportunitydesk.org/2026/11/12/thrive-capital-summer-fellowship-2027/"
+    }
+  ]
+},
+{
+  "id": "auto-4108f1a86ca4c52d",
+  "title": "DSTI-NRF Policy Fellowship Programme 2027 (Funded) &#8211; Opportunity Desk",
+  "org": "Opportunity Desk",
+  "summary": "DSTI-NRF Policy Fellowship Programme 2027 (Funded) &#8211; Opportunity Desk Close Menu Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awards Grants Fellowships Jobs Internships Volunteering Blog OD Specials OD Live Series Young Person of the Month Mentorship OD Mentors Success Stories How-To General Tips ODIC 2026 ODIC 2026 Application ODIC Judges ODIC 2025 Winners ODIC 2023 Winners ODIC 2022 Winners ODIC 2021 Winners ODIC 2019 Winners ODIC 2018 Winners ODIC 2017 Winners ODIC 2016 Winners Search Asia Africa Australia and Oceania America Europe Deadlines Approaching Facebook X (Twitter) Instagram Sunday, November 15 About Partners Join our Mailing List Promote with OD Submit Opportunity Nominate #YPOM Privacy Policy Disclaimer Contact Facebook X (Twitter) LinkedIn Instagram Telegram Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awards",
+  "type": "Oportunidade editorial",
+  "themes": [
+    "Oportunidade editorial"
+  ],
+  "scope": "Não especificado",
+  "deadline": "2026-11-17",
+  "deadlineStatus": "prazo extraído de metadado estruturado da fonte oficial; horário e condições devem ser conferidos na página",
+  "eligibility": "parcial",
+  "fit": 5,
+  "status": "aberta",
+  "value": "Não informado na fonte estruturada",
+  "duration": "Não informado na fonte estruturada",
+  "modality": "Não especificado",
+  "documents": [],
+  "restrictions": [],
+  "rules": "https://opportunitydesk.org/2026/11/12/dsti-nrf-policy-fellowship-programme-2027/",
+  "apply": "https://opportunitydesk.org/2026/11/12/dsti-nrf-policy-fellowship-programme-2027/",
+  "verified": "2026-11-15",
+  "desc": "DSTI-NRF Policy Fellowship Programme 2027 (Funded) &#8211; Opportunity Desk Close Menu Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awards Grants Fellowships Jobs Internships Volunteering Blog OD Specials OD Live Series Young Person of the Month Mentorship OD Mentors Success Stories How-To General Tips ODIC 2026 ODIC 2026 Application ODIC Judges ODIC 2025 Winners ODIC 2023 Winners ODIC 2022 Winners ODIC 2021 Winners ODIC 2019 Winners ODIC 2018 Winners ODIC 2017 Winners ODIC 2016 Winners Search Asia Africa Australia and Oceania America Europe Deadlines Approaching Facebook X (Twitter) Instagram Sunday, November 15 About Partners Join our Mailing List Promote with OD Submit Opportunity Nominate #YPOM Privacy Policy Disclaimer Contact Facebook X (Twitter) LinkedIn Instagram Telegram Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awards",
+  "discoveryUrl": "https://opportunitydesk.org/2026/11/12/dsti-nrf-policy-fellowship-programme-2027",
+  "verificationHistory": [
+    {
+      "date": "2026-11-15",
+      "status": "aberta",
+      "source": "https://opportunitydesk.org/2026/11/12/dsti-nrf-policy-fellowship-programme-2027/"
+    }
+  ]
+},
+{
+  "id": "auto-d95bb1167167d1e7",
+  "title": "Mastercard Foundation EdTech Fellowship Uganda Cohort 2 &#8211; Opportunity Desk",
+  "org": "Opportunity Desk",
+  "summary": "Mastercard Foundation EdTech Fellowship Uganda Cohort 2 &#8211; Opportunity Desk Close Menu Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awards Grants Fellowships Jobs Internships Volunteering Blog OD Specials OD Live Series Young Person of the Month Mentorship OD Mentors Success Stories How-To General Tips ODIC 2026 ODIC 2026 Application ODIC Judges ODIC 2025 Winners ODIC 2023 Winners ODIC 2022 Winners ODIC 2021 Winners ODIC 2019 Winners ODIC 2018 Winners ODIC 2017 Winners ODIC 2016 Winners Search Asia Africa Australia and Oceania America Europe Deadlines Approaching Facebook X (Twitter) Instagram Sunday, November 15 About Partners Join our Mailing List Promote with OD Submit Opportunity Nominate #YPOM Privacy Policy Disclaimer Contact Facebook X (Twitter) LinkedIn Instagram Telegram Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions A",
+  "type": "Oportunidade editorial",
+  "themes": [
+    "Oportunidade editorial"
+  ],
+  "scope": "Não especificado",
+  "deadline": "2026-11-26",
+  "deadlineStatus": "prazo extraído de metadado estruturado da fonte oficial; horário e condições devem ser conferidos na página",
+  "eligibility": "parcial",
+  "fit": 5,
+  "status": "aberta",
+  "value": "Não informado na fonte estruturada",
+  "duration": "Não informado na fonte estruturada",
+  "modality": "Não especificado",
+  "documents": [],
+  "restrictions": [],
+  "rules": "https://opportunitydesk.org/2026/11/03/mastercard-foundation-edtech-fellowship-uganda-cohort-2/",
+  "apply": "https://opportunitydesk.org/2026/11/03/mastercard-foundation-edtech-fellowship-uganda-cohort-2/",
+  "verified": "2026-11-15",
+  "desc": "Mastercard Foundation EdTech Fellowship Uganda Cohort 2 &#8211; Opportunity Desk Close Menu Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awards Grants Fellowships Jobs Internships Volunteering Blog OD Specials OD Live Series Young Person of the Month Mentorship OD Mentors Success Stories How-To General Tips ODIC 2026 ODIC 2026 Application ODIC Judges ODIC 2025 Winners ODIC 2023 Winners ODIC 2022 Winners ODIC 2021 Winners ODIC 2019 Winners ODIC 2018 Winners ODIC 2017 Winners ODIC 2016 Winners Search Asia Africa Australia and Oceania America Europe Deadlines Approaching Facebook X (Twitter) Instagram Sunday, November 15 About Partners Join our Mailing List Promote with OD Submit Opportunity Nominate #YPOM Privacy Policy Disclaimer Contact Facebook X (Twitter) LinkedIn Instagram Telegram Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions A",
+  "discoveryUrl": "https://opportunitydesk.org/2026/11/03/mastercard-foundation-edtech-fellowship-uganda-cohort-2",
+  "verificationHistory": [
+    {
+      "date": "2026-11-15",
+      "status": "aberta",
+      "source": "https://opportunitydesk.org/2026/11/03/mastercard-foundation-edtech-fellowship-uganda-cohort-2/"
+    }
+  ]
+},
+{
+  "id": "auto-22e9cfbb34d83006",
+  "title": "Arewa Creative Writing and Advocacy Fellowship (ACWAF) 2026 – Cohort 1 &#8211; Opportunity Desk",
+  "org": "Opportunity Desk",
+  "summary": "Arewa Creative Writing and Advocacy Fellowship (ACWAF) 2026 – Cohort 1 &#8211; Opportunity Desk Close Menu Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awards Grants Fellowships Jobs Internships Volunteering Blog OD Specials OD Live Series Young Person of the Month Mentorship OD Mentors Success Stories How-To General Tips ODIC 2026 ODIC 2026 Application ODIC Judges ODIC 2025 Winners ODIC 2023 Winners ODIC 2022 Winners ODIC 2021 Winners ODIC 2019 Winners ODIC 2018 Winners ODIC 2017 Winners ODIC 2016 Winners Search Asia Africa Australia and Oceania America Europe Deadlines Approaching Facebook X (Twitter) Instagram Sunday, November 15 About Partners Join our Mailing List Promote with OD Submit Opportunity Nominate #YPOM Privacy Policy Disclaimer Contact Facebook X (Twitter) LinkedIn Instagram Telegram Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA",
+  "type": "Oportunidade editorial",
+  "themes": [
+    "Oportunidade editorial"
+  ],
+  "scope": "Não especificado",
+  "deadline": "2026-11-30",
+  "deadlineStatus": "prazo extraído de metadado estruturado da fonte oficial; horário e condições devem ser conferidos na página",
+  "eligibility": "parcial",
+  "fit": 5,
+  "status": "aberta",
+  "value": "Não informado na fonte estruturada",
+  "duration": "Não informado na fonte estruturada",
+  "modality": "Não especificado",
+  "documents": [],
+  "restrictions": [],
+  "rules": "https://opportunitydesk.org/2026/11/07/arewa-creative-writing-and-advocacy-fellowship-2026-cohort-1/",
+  "apply": "https://opportunitydesk.org/2026/11/07/arewa-creative-writing-and-advocacy-fellowship-2026-cohort-1/",
+  "verified": "2026-11-15",
+  "desc": "Arewa Creative Writing and Advocacy Fellowship (ACWAF) 2026 – Cohort 1 &#8211; Opportunity Desk Close Menu Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awards Grants Fellowships Jobs Internships Volunteering Blog OD Specials OD Live Series Young Person of the Month Mentorship OD Mentors Success Stories How-To General Tips ODIC 2026 ODIC 2026 Application ODIC Judges ODIC 2025 Winners ODIC 2023 Winners ODIC 2022 Winners ODIC 2021 Winners ODIC 2019 Winners ODIC 2018 Winners ODIC 2017 Winners ODIC 2016 Winners Search Asia Africa Australia and Oceania America Europe Deadlines Approaching Facebook X (Twitter) Instagram Sunday, November 15 About Partners Join our Mailing List Promote with OD Submit Opportunity Nominate #YPOM Privacy Policy Disclaimer Contact Facebook X (Twitter) LinkedIn Instagram Telegram Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA",
+  "discoveryUrl": "https://opportunitydesk.org/2026/11/07/arewa-creative-writing-and-advocacy-fellowship-2026-cohort-1",
+  "verificationHistory": [
+    {
+      "date": "2026-11-15",
+      "status": "aberta",
+      "source": "https://opportunitydesk.org/2026/11/07/arewa-creative-writing-and-advocacy-fellowship-2026-cohort-1/"
+    }
+  ]
+}, 
+{
   "id": "auto-20694f2c66b11f71",
   "title": "Hans De Wit Fellowship 2027 (stipend available) &#8211; Opportunity Desk",
   "org": "Opportunity Desk",
