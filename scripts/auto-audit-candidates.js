@@ -24,17 +24,17 @@ function validPublicationReview(proof,category,url){
  return required.length>0&&required.every(key=>proof.evidenceChecks?.[key]===true);
 }
 function autoPublicationReview(lead,category,url,record){
- const text=String(lead.evidenceText||lead.pageDescription||lead.structuredEvidence?.description||'').replace(/\\s+/g,' ').trim();
- if(lead.pageStatus!=='html-fetched'||lead.httpStatus!==200||!/^text\\/html\\b/i.test(lead.contentType||'')||text.length<25)return null;
+ const text=String(lead.evidenceText||lead.pageDescription||lead.structuredEvidence?.description||'').replace(/\s+/g,' ').trim();
+ if(lead.pageStatus!=='html-fetched'||lead.httpStatus!==200||!/^text\/html\b/i.test(lead.contentType||'')||text.length<25)return null;
  const checks={};
  if(category==='opportunities'){
   checks.callSignal=/(grant|fellowship|funding|scholarship|award|prize|contest|competition|bolsa|edital|financiamento)/i.test(String(record?.title||lead.pageTitle||'')+' '+text);
   checks.eligibility=Boolean(lead.structuredEvidence?.eligibilityExplicit||lead.eligibility);
  }else if(category==='datasets'){
   checks.datasetSignal=/(dataset|data catalog|open data|dados abertos|base de dados|microdata|microdados|data portal|api|csv|json|download)/i.test(String(record?.name||lead.pageTitle||'')+' '+text);
-  checks.directResource=Array.isArray(lead.resourceLinks)&&lead.resourceLinks.some(x=>/^https:\\/\\//i.test(x.url||''));
+  checks.directResource=Array.isArray(lead.resourceLinks)&&lead.resourceLinks.some(x=>/^https:\/\//i.test(x.url||''));
   checks.format=/(csv|tsv|json|xml|parquet|geojson|shapefile|zip|api)/i.test(text+' '+JSON.stringify(lead.structuredEvidence||{}));
-  checks.coverage=/(20\\d{2}|annual|monthly|quarterly|municipal|national|global|cobre|abrange|temporal|spatial)/i.test(text);
+  checks.coverage=/(20\d{2}|annual|monthly|quarterly|municipal|national|global|cobre|abrange|temporal|spatial)/i.test(text);
  }else if(category==='tools'){
   checks.productSignal=Boolean(record?.name)&&/(software|application|tool|platform|library|framework|plugin|programming language|statistical computing|data analytics|business intelligence|visuali[sz]ation|ferramenta|plataforma|biblioteca)/i.test(String(record?.name||lead.pageTitle||'')+' '+text);
   checks.function=/(feature|function|capabilit|provides|supports|documentation|documenta|creates?|builds?|generates?|visuali[sz]|analysis|analytics|mapping|programming|library|biblioteca|permite|plataforma)/i.test(text);
