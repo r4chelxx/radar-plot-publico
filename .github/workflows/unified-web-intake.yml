@@ -251,6 +251,25 @@ jobs:
           node scripts/unify-discovery.js intake/live-web-discovery.json intake/dvs-public-discovery.json intake/web-discovery-input.json intake/user-requested-candidates.json intake/linkedin-public-candidates.json intake/public-funding-pages.json intake/opportunity-web-discovery.json intake/public-dataset-discovery.json intake/gmail-discovery.json intake/linkedin-indexed-discovery.json
       - name: Classify duplicate and navigation candidates
         run: node scripts/quality-gate-discovery.js
+      - name: Inspect rotating editorial backlog
+        if: github.event_name != 'pull_request'
+        run: |
+          mkdir -p intake
+          if git ls-remote --exit-code --heads origin radar-state >/dev/null; then
+            git fetch --depth=1 origin radar-state
+            git show FETCH_HEAD:state/lead-history.json > intake/lead-history-previous.json || printf '{"leads":{}}\\n' > intake/lead-history-previous.json
+          else
+            printf '{"leads":{}}\\n' > intake/lead-history-previous.json
+          fi
+          node - <<'NODE'
+          const fs=require('node:fs');
+          const q=JSON.parse(fs.readFileSync('intake/discovery-quality.json','utf8'));
+          const leads=(q.review||[]).filter(x=>x.classification==='needs-editorial-review').map(x=>({id:x.id,url:x.url,title:x.title,category:x.category,providers:x.providers,resourceLinks:x.resourceLinks,sourceEvidence:x.sourceEvidence,verificationStatus:x.verificationStatus,origin:'daily-discovery'}));
+          fs.writeFileSync('intake/candidate-triage.json',JSON.stringify({generatedAt:new Date().toISOString(),leads},null,2)+'\\n');
+          console.log(JSON.stringify({candidateTriage:leads.length}));
+          NODE
+          LEAD_PAGE_LIMIT=240 LEAD_INSPECTION_CONCURRENCY=12 node scripts/inspect-lead-pages.js
+          node scripts/require-inspection-health.js intake/lead-evidence.json
       - name: Prepare editorial review sample
         run: node scripts/sample-editorial-review.js
       - name: Export readable editorial review
@@ -271,6 +290,7 @@ jobs:
         if: github.event_name != 'pull_request'
         run: |
           cp intake/discovery-quality.json /tmp/radar-discovery-quality.json
+          cp intake/lead-evidence.json /tmp/radar-lead-evidence.json
           cp scripts/merge-editorial-queue.js /tmp/radar-merge-editorial-queue.js
           mkdir -p /tmp/radar-public-catalog
           cp data/opportunities.js data/datasets.js data/tools.js /tmp/radar-public-catalog/
@@ -289,7 +309,8 @@ jobs:
           else
             git switch -c radar-state
           fi
-          RADAR_CATALOG_DIR=/tmp/radar-public-catalog node /tmp/radar-merge-editorial-queue.js /tmp/radar-discovery-quality.json intake/editorial-queue.json state/lead-history.json /tmp/radar-historical-decisions.json
+          cp /tmp/radar-lead-evidence.json intake/lead-evidence.json
+          RADAR_CATALOG_DIR=/tmp/radar-public-catalog RADAR_LEAD_EVIDENCE_PATH=intake/lead-evidence.json node /tmp/radar-merge-editorial-queue.js /tmp/radar-discovery-quality.json intake/editorial-queue.json state/lead-history.json /tmp/radar-historical-decisions.json
           node /tmp/audit-editorial-queue.js intake/editorial-queue.json intake/editorial-queue-audit.json
           node /tmp/review-editorial-evidence.js intake/editorial-queue.json intake/editorial-evidence-review.json
           node /tmp/build-editorial-record-drafts.js intake/editorial-queue.json intake/editorial-evidence-review.json intake/publication-drafts.json

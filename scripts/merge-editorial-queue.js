@@ -12,6 +12,10 @@ const historyPath=process.argv[4]||'state/lead-history.json';
 const decisionsPath=process.argv[5]||'intake/historical-decisions.json';
 const history=fs.existsSync(historyPath)?JSON.parse(fs.readFileSync(historyPath,'utf8')).leads||{}:{};
 const decisions=fs.existsSync(decisionsPath)?JSON.parse(fs.readFileSync(decisionsPath,'utf8')).decisions||[]:[];
+const evidencePath=process.env.RADAR_LEAD_EVIDENCE_PATH||'intake/lead-evidence.json';
+const evidenceResults=fs.existsSync(evidencePath)?(JSON.parse(fs.readFileSync(evidencePath,'utf8')).results||[]):[];
+const evidenceByKey=new Map();
+for(const item of evidenceResults){for(const key of [item.historicalId,item.id,item.url,item.finalUrl])if(key)evidenceByKey.set(String(key),item);}
 // Public catalog membership is authoritative for publication status; reconcile the
 // exact canonical URLs so published records are not audited and drafted again.
 const vm=require('node:vm');
@@ -90,9 +94,10 @@ for(const candidate of current.review||[]){
  const incomingLinks=Array.isArray(candidate.resourceLinks)?candidate.resourceLinks:[];
  const previousLinks=Array.isArray(old?.resourceLinks)?old.resourceLinks:[];
  const metadataChanged=JSON.stringify(incomingLinks)!==JSON.stringify(previousLinks)||String(candidate.sourceEvidence||'')!==String(old?.sourceEvidence||'')||String(candidate.verificationStatus||'')!==String(old?.verificationStatus||'');
+ const inspected=evidenceByKey.get(String(candidate.id))||evidenceByKey.get(String(candidate.url));
  const proposedCategory=categoryFor(candidate);
  const category=proposedCategory!=='uncategorized'?proposedCategory:(historicalCategoryFor(candidate)||old?.category||'uncategorized');
- queue.set(candidate.id,{id:candidate.id,title:candidate.title,url:candidate.url,category,providers,resourceLinks:candidate.resourceLinks||old?.resourceLinks||[],sourceEvidence:String(candidate.sourceEvidence||old?.sourceEvidence||'').slice(0,1200),verificationStatus:candidate.verificationStatus||old?.verificationStatus||null,...(old?.audit&&old.url===candidate.url&&!metadataChanged?{audit:old.audit}:{}),firstSeen:old?.firstSeen||now,lastSeen:now,status:resolvedStatus(candidate)||old?.status||'pending',reviewPriority:candidate.reviewPriority||'normal'});
+ queue.set(candidate.id,{id:candidate.id,title:candidate.title,url:candidate.url,category,providers,resourceLinks:candidate.resourceLinks||old?.resourceLinks||[],sourceEvidence:String(candidate.sourceEvidence||old?.sourceEvidence||'').slice(0,1200),verificationStatus:candidate.verificationStatus||old?.verificationStatus||null,...(inspected?{audit:inspected}:old?.audit&&old.url===candidate.url&&!metadataChanged?{audit:old.audit}:{}),firstSeen:old?.firstSeen||now,lastSeen:now,status:resolvedStatus(candidate)||old?.status||'pending',reviewPriority:candidate.reviewPriority||'normal'});
 }
 for(const [id,item] of queue){
  if(item.status==='pending'&&item.category==='opportunities'&&categoryFor(item)==='uncategorized')queue.set(id,{...item,category:'uncategorized'});
