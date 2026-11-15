@@ -46,18 +46,6 @@ window.RADAR_PARTS.changelog=[
   },
   {
     "date": "2026-11-10",
-    "type": "ferramentas",
-    "title": "Publicação editorial verificada — 2026-11-10",
-    "items": [
-      {
-        "id": "8131bd90a31340ae234883b0310fea966d01f14dd68345a72a7de5f22c9e3966",
-        "title": "682: quantum of sollazzo • Buttondown"
-      }
-    ],
-    "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: 682: quantum of sollazzo • Buttondown."
-  },
-  {
-    "date": "2026-11-10",
     "type": "nova-oportunidade",
     "title": "Publicação editorial verificada — 2026-11-10",
     "items": [
@@ -79,7 +67,7 @@ window.RADAR_PARTS.changelog=[
       },
       {
         "id": "78b7a11294f5e332bf8ed33d08a8d7151c67f4de4588753cb629a48375d6c337",
-        "title": "GitHub"
+        "title": "TabulaPDF"
       },
       {
         "id": "bcf905a7d1b746329b76590ec887f5b37fe0993d4c6f81fd8269f04c0829e6d7",
@@ -91,7 +79,7 @@ window.RADAR_PARTS.changelog=[
       },
       {
         "id": "6d84c860baa5311d1e0fcec13e539b428a8d37d4c97126c53e09639eb31e9621",
-        "title": "GitHub"
+        "title": "Maigret"
       }
     ],
     "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: The AI analytics platform; GitHub; Data Analysis Expressions (DAX) Reference; Cube; GitHub."
