@@ -67,7 +67,17 @@ async function inspect(lead){
  const selected=backlog.selected.length?backlog.selected:backlog.total?selectBacklog(previous,input.leads||[],effectiveLimit,new Date('2999-01-01T00:00:00Z'),{rotate:true}).selected:[];
  const selectionFallback=backlog.selected.length===0&&backlog.total>0;
  const results=[];
- for(const item of selected)results.push({...await inspect(item),historicalId:item.id,historyAtSelection:item.origin,archivedRecheck:item.editorialStatus==='archived',requiresReopeningReview:item.editorialStatus==='archived'});
+ const concurrency=Math.min(12,Math.max(1,Number(process.env.LEAD_INSPECTION_CONCURRENCY||12)));
+ let cursor=0;
+ async function worker(){
+  while(true){
+   const index=cursor++;
+   if(index>=selected.length)return;
+   const item=selected[index];
+   results[index]={...await inspect(item),historicalId:item.id,historyAtSelection:item.origin,archivedRecheck:item.editorialStatus==='archived',requiresReopeningReview:item.editorialStatus==='archived'};
+  }
+ }
+ await Promise.all(Array.from({length:Math.min(concurrency,selected.length)},()=>worker()));
  const statusCounts=results.reduce((a,x)=>(a[x.pageStatus]=(a[x.pageStatus]||0)+1,a),{});
  const httpStatusCounts=results.reduce((a,x)=>(x.httpStatus&&(a[x.httpStatus]=(a[x.httpStatus]||0)+1),a),{});
  const health=inspectionHealth(statusCounts,results.length);
