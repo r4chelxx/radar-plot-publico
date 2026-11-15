@@ -1,5 +1,13 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.tools=[
+{
+  "id": "auto-2e096d36f77afbee",
+  "name": "Show & Tell from Indicator",
+  "kind": "CreativeWorkSeries",
+  "url": "https://podcasts.apple.com/us/podcast/show-tell-from-indicator/id1874133168",
+  "desc": "Show & Tell from Indicator takes you inside digital investigations as leading journalists, OSINT investigators, threat analysts, and researchers walk through real cases they've cracked. Each episode features a recognized figure in the OSINT, digital investigations, or trust & safety community. They don't just tell us what they did—they show us. We see their browser extensions in action, watch them navigate tools under pressure, and learn how they think through dead ends and breakthroughs. Hosted by Indicator cofounders and veteran digital investigators Alexios Mantzarlis and Craig Silverman, Show & Tell asks the questions that uncover not just what investigators did, but how and why it worke Revisar licença, limites, privacidade e acessibilidade antes do uso editorial.",
+  "discoveryUrl": "https://podcasts.apple.com/us/podcast/show-tell-from-indicator/id1874133168"
+}, 
   {
     "id": "733c36409f57a6d64b4eb49ac945a060082aa3ebc58f68ebc56d21824af048b3",
     "name": "R",

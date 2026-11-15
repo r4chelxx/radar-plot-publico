@@ -1,5 +1,236 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.opportunities=[
+{
+  "id": "auto-3eaf309bafe21ae1",
+  "title": "German–Northern European Journalists Fellowship 2027",
+  "org": "GFMD",
+  "summary": "The Deutsch-Nordeuropäisches Journalistenstipendium, established in 2000, promotes professional exchange and dialogue among journalists from Germany, the five Nordic states, and the three Baltic states.",
+  "type": "Oportunidade editorial",
+  "themes": [
+    "Oportunidade editorial"
+  ],
+  "scope": "Não especificado",
+  "deadline": "2026-11-15",
+  "deadlineStatus": "prazo extraído de metadado estruturado da fonte oficial; horário e condições devem ser conferidos na página",
+  "eligibility": "parcial",
+  "fit": 5,
+  "status": "aberta",
+  "value": "Não informado na fonte estruturada",
+  "duration": "Não informado na fonte estruturada",
+  "modality": "Não especificado",
+  "documents": [],
+  "restrictions": [],
+  "rules": "https://gfmd.info/fundings/german-northern-european-journalists-fellowship-2027/",
+  "apply": "https://gfmd.info/fundings/german-northern-european-journalists-fellowship-2027/",
+  "verified": "2026-11-15",
+  "desc": "The Deutsch-Nordeuropäisches Journalistenstipendium, established in 2000, promotes professional exchange and dialogue among journalists from Germany, the five Nordic states, and the three Baltic states.",
+  "discoveryUrl": "https://gfmd.info/fundings/german-northern-european-journalists-fellowship-2027",
+  "verificationHistory": [
+    {
+      "date": "2026-11-15",
+      "status": "aberta",
+      "source": "https://gfmd.info/fundings/german-northern-european-journalists-fellowship-2027/"
+    }
+  ]
+},
+{
+  "id": "auto-257ac44fe3495eb7",
+  "title": "Call for Proposals - Media Freedom Rapid Response Mechanism (2027)",
+  "org": "GFMD",
+  "summary": "The aim of this call is to promote an independent and pluralistic media environment through an independent Europe-wide rapid response mechanism to monitor and support media freedom and journalists' safety.",
+  "type": "Oportunidade editorial",
+  "themes": [
+    "Oportunidade editorial"
+  ],
+  "scope": "Não especificado",
+  "deadline": "2027-01-27",
+  "deadlineStatus": "prazo extraído de metadado estruturado da fonte oficial; horário e condições devem ser conferidos na página",
+  "eligibility": "parcial",
+  "fit": 5,
+  "status": "aberta",
+  "value": "Não informado na fonte estruturada",
+  "duration": "Não informado na fonte estruturada",
+  "modality": "Não especificado",
+  "documents": [],
+  "restrictions": [],
+  "rules": "https://gfmd.info/fundings/call-for-proposals-media-freedom-rapid-response-mechanism-2027/",
+  "apply": "https://gfmd.info/fundings/call-for-proposals-media-freedom-rapid-response-mechanism-2027/",
+  "verified": "2026-11-15",
+  "desc": "The aim of this call is to promote an independent and pluralistic media environment through an independent Europe-wide rapid response mechanism to monitor and support media freedom and journalists' safety.",
+  "discoveryUrl": "https://gfmd.info/fundings/call-for-proposals-media-freedom-rapid-response-mechanism-2027",
+  "verificationHistory": [
+    {
+      "date": "2026-11-15",
+      "status": "aberta",
+      "source": "https://gfmd.info/fundings/call-for-proposals-media-freedom-rapid-response-mechanism-2027/"
+    }
+  ]
+},
+{
+  "id": "auto-b2fde425407fcb72",
+  "title": "Fund for Investigative Journalism grants",
+  "org": "GFMD",
+  "summary": "The Fund for Investigative Journalism provides grants and other support for reporters to produce high-quality, unbiased, nonpartisan investigative stories that have an impact.",
+  "type": "Oportunidade editorial",
+  "themes": [
+    "Oportunidade editorial"
+  ],
+  "scope": "Não especificado",
+  "deadline": "2027-01-29",
+  "deadlineStatus": "prazo extraído de metadado estruturado da fonte oficial; horário e condições devem ser conferidos na página",
+  "eligibility": "parcial",
+  "fit": 5,
+  "status": "aberta",
+  "value": "Não informado na fonte estruturada",
+  "duration": "Não informado na fonte estruturada",
+  "modality": "Não especificado",
+  "documents": [],
+  "restrictions": [],
+  "rules": "https://gfmd.info/fundings/fund-for-investigative-journalism-grants-3/",
+  "apply": "https://gfmd.info/fundings/fund-for-investigative-journalism-grants-3/",
+  "verified": "2026-11-15",
+  "desc": "The Fund for Investigative Journalism provides grants and other support for reporters to produce high-quality, unbiased, nonpartisan investigative stories that have an impact.",
+  "discoveryUrl": "https://gfmd.info/fundings/fund-for-investigative-journalism-grants-3",
+  "verificationHistory": [
+    {
+      "date": "2026-11-15",
+      "status": "aberta",
+      "source": "https://gfmd.info/fundings/fund-for-investigative-journalism-grants-3/"
+    }
+  ]
+},
+{
+  "id": "auto-6e1f40b17012f23d",
+  "title": "California Health Equity Fellowship",
+  "org": "USC Center for Health Journalism",
+  "summary": "Breadcrumb Home California Health Equity Fellowship Deadline to apply December 16, 2026 APPLY NOW Upcoming fellowship dates Fellowship: March–July 2027 In-person training: Week of March 15, 2027 Description Image Journalists spending time together during our 2026 California Health Equity Fellowship Week in March in Los Angeles.",
+  "type": "Oportunidade editorial",
+  "themes": [
+    "Oportunidade editorial"
+  ],
+  "scope": "Não especificado",
+  "deadline": "2026-12-16",
+  "deadlineStatus": "prazo extraído de metadado estruturado da fonte oficial; horário e condições devem ser conferidos na página",
+  "eligibility": "parcial",
+  "fit": 5,
+  "status": "aberta",
+  "value": "Não informado na fonte estruturada",
+  "duration": "Não informado na fonte estruturada",
+  "modality": "Não especificado",
+  "documents": [],
+  "restrictions": [],
+  "rules": "https://centerforhealthjournalism.org/index%2Ephp/fellowships-grants/california-fellowship",
+  "apply": "https://centerforhealthjournalism.org/index%2Ephp/fellowships-grants/california-fellowship",
+  "verified": "2026-11-15",
+  "desc": "Breadcrumb Home California Health Equity Fellowship Deadline to apply December 16, 2026 APPLY NOW Upcoming fellowship dates Fellowship: March–July 2027 In-person training: Week of March 15, 2027 Description Image Journalists spending time together during our 2026 California Health Equity Fellowship Week in March in Los Angeles.",
+  "discoveryUrl": "https://centerforhealthjournalism.org/index%2Ephp/fellowships-grants/california-fellowship",
+  "verificationHistory": [
+    {
+      "date": "2026-11-15",
+      "status": "aberta",
+      "source": "https://centerforhealthjournalism.org/index%2Ephp/fellowships-grants/california-fellowship"
+    }
+  ]
+},
+{
+  "id": "auto-a0d383efcd6f6ab9",
+  "title": "EJN Renewable Energy Story Grants – India",
+  "org": "GFMD",
+  "summary": "The Earth Journalism Network funds journalists, communicators, and social media content creators based anywhere in India to produce in-depth reports on the renewable energy transition.",
+  "type": "Oportunidade editorial",
+  "themes": [
+    "Oportunidade editorial"
+  ],
+  "scope": "Não especificado",
+  "deadline": "2026-11-15",
+  "deadlineStatus": "prazo extraído de metadado estruturado da fonte oficial; horário e condições devem ser conferidos na página",
+  "eligibility": "parcial",
+  "fit": 5,
+  "status": "aberta",
+  "value": "Não informado na fonte estruturada",
+  "duration": "Não informado na fonte estruturada",
+  "modality": "Não especificado",
+  "documents": [],
+  "restrictions": [],
+  "rules": "https://gfmd.info/fundings/ejn-renewable-energy-story-grants-india/",
+  "apply": "https://gfmd.info/fundings/ejn-renewable-energy-story-grants-india/",
+  "verified": "2026-11-15",
+  "desc": "The Earth Journalism Network funds journalists, communicators, and social media content creators based anywhere in India to produce in-depth reports on the renewable energy transition.",
+  "discoveryUrl": "https://gfmd.info/fundings/ejn-renewable-energy-story-grants-india",
+  "verificationHistory": [
+    {
+      "date": "2026-11-15",
+      "status": "aberta",
+      "source": "https://gfmd.info/fundings/ejn-renewable-energy-story-grants-india/"
+    }
+  ]
+},
+{
+  "id": "auto-52b6669badd2e4f2",
+  "title": "United Nations DPoA MTR Journalism Fellowship 2027 (Fully-funded)",
+  "org": "Opportunity Desk",
+  "summary": "Deadline: November 30, 2026 Applications are open for the United Nations DPoA MTR Journalism Fellowship 2027 . This is a fully funded opportunity for journalists from Least Developed Countries to attend and cover the 2027 Midterm Review of the Doha Programme of Action (DPoA MTR) in Doha, Qatar. The DPoA is the overarching framework for accelerating sustainable development and supporting sustainable graduation from the LDC category. The High-level Midterm Review is an opportunity to take stock of implementation, assess progress and gaps, and strengthen partnerships for the remainder of the decade. Priority Areas Reporting proposals are encouraged to engage with one or more of the six DPoA priority areas. Investing in people: Eradicating poverty, improving health, education, and social protection, and building human capital so that no one is left behind. Leveraging science, technology and",
+  "type": "Oportunidade editorial",
+  "themes": [
+    "Oportunidade editorial"
+  ],
+  "scope": "Não especificado",
+  "deadline": "2026-11-30",
+  "deadlineStatus": "prazo extraído de metadado estruturado da fonte oficial; horário e condições devem ser conferidos na página",
+  "eligibility": "parcial",
+  "fit": 5,
+  "status": "aberta",
+  "value": "Não informado na fonte estruturada",
+  "duration": "Não informado na fonte estruturada",
+  "modality": "Não especificado",
+  "documents": [],
+  "restrictions": [],
+  "rules": "https://opportunitydesk.org/2026/10/27/dpoa-mtr-journalism-fellowship-2027/",
+  "apply": "https://opportunitydesk.org/2026/10/27/dpoa-mtr-journalism-fellowship-2027/",
+  "verified": "2026-11-15",
+  "desc": "Deadline: November 30, 2026 Applications are open for the United Nations DPoA MTR Journalism Fellowship 2027 . This is a fully funded opportunity for journalists from Least Developed Countries to attend and cover the 2027 Midterm Review of the Doha Programme of Action (DPoA MTR) in Doha, Qatar. The DPoA is the overarching framework for accelerating sustainable development and supporting sustainable graduation from the LDC category. The High-level Midterm Review is an opportunity to take stock of implementation, assess progress and gaps, and strengthen partnerships for the remainder of the decade. Priority Areas Reporting proposals are encouraged to engage with one or more of the six DPoA priority areas. Investing in people: Eradicating poverty, improving health, education, and social protection, and building human capital so that no one is left behind. Leveraging science, technology and",
+  "discoveryUrl": "https://opportunitydesk.org/2026/10/27/dpoa-mtr-journalism-fellowship-2027",
+  "verificationHistory": [
+    {
+      "date": "2026-11-15",
+      "status": "aberta",
+      "source": "https://opportunitydesk.org/2026/10/27/dpoa-mtr-journalism-fellowship-2027/"
+    }
+  ]
+},
+{
+  "id": "auto-fe5238aae4d5f21b",
+  "title": "California Health Equity Fellowship",
+  "org": "USC Center for Health Journalism",
+  "summary": "Breadcrumb Home California Health Equity Fellowship Deadline to apply December 16, 2026 APPLY NOW Upcoming fellowship dates Fellowship: March–July 2027 In-person training: Week of March 15, 2027 Description Image Journalists spending time together during our 2026 California Health Equity Fellowship Week in March in Los Angeles.",
+  "type": "Oportunidade editorial",
+  "themes": [
+    "Oportunidade editorial"
+  ],
+  "scope": "Não especificado",
+  "deadline": "2026-12-16",
+  "deadlineStatus": "prazo extraído de metadado estruturado da fonte oficial; horário e condições devem ser conferidos na página",
+  "eligibility": "parcial",
+  "fit": 5,
+  "status": "aberta",
+  "value": "Não informado na fonte estruturada",
+  "duration": "Não informado na fonte estruturada",
+  "modality": "Não especificado",
+  "documents": [],
+  "restrictions": [],
+  "rules": "https://centerforhealthjournalism.org/index%2ephp/fellowships-grants/california-fellowship",
+  "apply": "https://centerforhealthjournalism.org/index%2ephp/fellowships-grants/california-fellowship",
+  "verified": "2026-11-15",
+  "desc": "Breadcrumb Home California Health Equity Fellowship Deadline to apply December 16, 2026 APPLY NOW Upcoming fellowship dates Fellowship: March–July 2027 In-person training: Week of March 15, 2027 Description Image Journalists spending time together during our 2026 California Health Equity Fellowship Week in March in Los Angeles.",
+  "discoveryUrl": "https://centerforhealthjournalism.org/index%2ephp/fellowships-grants/california-fellowship",
+  "verificationHistory": [
+    {
+      "date": "2026-11-15",
+      "status": "aberta",
+      "source": "https://centerforhealthjournalism.org/index%2ephp/fellowships-grants/california-fellowship"
+    }
+  ]
+}, 
   {
     "id": "6530d95d514e0315a32b8d162d842176e19c0ef110d0dde9ac04122c78b6f56c",
     "title": "Programa de Bolsas Aborto em Pílulas",
