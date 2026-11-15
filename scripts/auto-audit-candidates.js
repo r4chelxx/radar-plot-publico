@@ -94,7 +94,7 @@ for(const lead of results){
   if(record?.desc&&String(record.desc).length<70)fail.push('descrição da ferramenta insuficiente');
   if(record?.url&&host(record.url)!==host(url))fail.push('URL oficial não coincide com a fonte auditada');
  } else fail.push('categoria não classificada');
- const publicationReviewV1=lead.publicationReviewV1;
+ const publicationReviewV1=lead.publicationReviewV1||r?.publicationReviewV1;
  if(!validPublicationReview(publicationReviewV1,lead.category,url))fail.push('comprovante individual compatível com Radar evidence gate v1 ausente ou inválido');
  if(fail.length){blockers.push({url:lead.url,category:lead.category,blockers:fail});continue}
  decisions.push({...base,status:'approved',officialUrl:url,publicationReviewV1,reason:record.id.startsWith('auto-')?'Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes.':'Fonte primária HTTPS, página HTML acessível, domínio preservado, prazo/eligibilidade/status e duplicidade verificados automaticamente; ficha pública completa anexada.',record});
