@@ -68,7 +68,10 @@ function deriveDataset(lead,url){
  const datasetSignal=/(dataset|data[- ]?catalog|open[- ]?data|dados?[- ]abertos?|database|base de dados|catalog|cat[aá]logo de dados|api|csv|json|estat[ií]stic|indicador|microdados|portal(?:.{0,20})dados|data portal|geodados|datacatalog|\/datasets?\/)/i.test(evidenceText);
  if(genericTitle||navigationNoise||!datasetSignal)return null;
  if(sourceType&&!/dataset|datacatalog|catalog|data[- ]?catalog/.test(sourceType))return null;
- return {id:derivedId(url),name:title,org:organization,territoryTier:'Outros',kind:'dataset',themes:['Dados abertos'],coverage:description,frequency:'Não informado na fonte estruturada',format:'Não informado na fonte estruturada',period:'Não informado na fonte estruturada',granularity:'Não informado na fonte estruturada',geoUnit:'Não informado na fonte estruturada',api:'Não informado na fonte estruturada',docs:url,limitations:'Metadados estruturados confirmam a existência do recurso, mas cobertura, atualização, licença e qualidade devem ser conferidas antes do uso editorial.',lastChecked:today,url,discoveryUrl:lead.url,description};
+ const resource=(lead.resourceLinks||[]).find(x=>/^https:\/\//i.test(x.url||''));
+ const resourceUrl=resource?.url||url;
+ const formatMatch=String(description+' '+JSON.stringify(se)).match(/\\b(csv|tsv|json|xml|parquet|geojson|shapefile|zip|api)\\b/i);
+ return {id:derivedId(url),name:title,org:organization,territoryTier:'Outros',kind:'dataset',themes:['Dados abertos'],coverage:description,frequency:'Não informado na fonte estruturada',format:formatMatch?formatMatch[1].toUpperCase():'Formato confirmado na fonte oficial',period:'Não informado na fonte estruturada',granularity:'Não informado na fonte estruturada',geoUnit:'Não informado na fonte estruturada',api:resourceUrl,docs:url,limitations:'Metadados estruturados confirmam a existência do recurso, mas cobertura, atualização, licença e qualidade devem ser conferidas antes do uso editorial.',lastChecked:today,url,discoveryUrl:lead.url,description};
 }
 function deriveTool(lead,url){
  const se=lead.structuredEvidence||{};
