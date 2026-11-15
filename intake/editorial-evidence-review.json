@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-15T23:25:52.056Z",
+  "generatedAt": "2026-11-15T23:51:01.479Z",
   "policy": "Evidence-based category triage. Missing license is recorded as unknown when not found; complete means draft eligibility only, never approval or publication.",
   "counts": {
     "pending_more_evidence": 1867
   },
   "categoryCounts": {
-    "uncategorized": 1739,
+    "uncategorized": 1745,
     "opportunities": 31,
     "tools": 33,
-    "datasets": 64
+    "datasets": 58
   },
   "records": [
     {
@@ -1156,7 +1156,7 @@
       "url": "https://barc.com/events/barc-start-up-award",
       "category": "uncategorized",
       "originalCategory": "opportunities",
-      "checkedAt": "2026-11-10T20:02:55.377Z",
+      "checkedAt": "2026-11-15T23:50:36.287Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -1501,13 +1501,14 @@
       "url": "https://www.agi.org.uk/agi-awards",
       "category": "opportunities",
       "originalCategory": "opportunities",
-      "checkedAt": "2026-11-10T20:02:55.377Z",
+      "checkedAt": "2026-11-15T23:50:37.786Z",
       "checks": {
-        "callSignal": true,
+        "callSignal": false,
         "deadline": null,
         "eligibility": true
       },
       "missing": [
+        "chamada de financiamento/bolsa identificável",
         "prazo futuro confirmado em formato de data reconhecido"
       ],
       "decision": "pending_more_evidence",
@@ -1531,7 +1532,7 @@
       "url": "https://wan-ifra.org/events/digital-media-awards-worldwide",
       "category": "uncategorized",
       "originalCategory": "opportunities",
-      "checkedAt": "2026-11-10T20:02:55.377Z",
+      "checkedAt": "2026-11-15T23:50:36.262Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -1700,7 +1701,7 @@
       "url": "https://www.crummy.com/software/BeautifulSoup",
       "category": "tools",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-15T23:25:46.235Z",
+      "checkedAt": "2026-11-15T23:50:55.561Z",
       "checks": {
         "productSignal": true,
         "function": false,
@@ -3002,7 +3003,7 @@
       "url": "https://www.eventbrite.com/o/data-visualization-society-44097727323",
       "category": "uncategorized",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-10T20:06:55.693Z",
+      "checkedAt": "2026-11-15T23:50:53.163Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -5278,7 +5279,7 @@
       "url": "https://grantsforjournalists.com/grant/stringer-foundation-grant-for-investigative-journalism",
       "category": "opportunities",
       "originalCategory": "opportunities",
-      "checkedAt": "2026-11-15T22:55:46.152Z",
+      "checkedAt": "2026-11-15T23:50:39.602Z",
       "checks": {
         "callSignal": true,
         "deadline": null,
@@ -5295,7 +5296,7 @@
       "url": "https://grantsforjournalists.com/grant/national-endowment-for-democracy-grants",
       "category": "opportunities",
       "originalCategory": "opportunities",
-      "checkedAt": "2026-11-15T22:55:46.486Z",
+      "checkedAt": "2026-11-15T23:50:40.048Z",
       "checks": {
         "callSignal": true,
         "deadline": null,
@@ -5589,7 +5590,7 @@
       "url": "https://grantsforjournalists.com/grant/fund-for-investigative-journalism",
       "category": "opportunities",
       "originalCategory": "opportunities",
-      "checkedAt": "2026-11-10T20:31:28.952Z",
+      "checkedAt": "2026-11-15T23:50:36.241Z",
       "checks": {
         "callSignal": true,
         "deadline": null,
@@ -9579,19 +9580,12 @@
     {
       "id": "5f90656f25da05683f25d6723c665da6db47c7f2b224d670fce13aea4ca62b3b",
       "url": "https://puntofisso.net/",
-      "category": "datasets",
+      "category": "uncategorized",
       "originalCategory": "uncategorized",
       "checkedAt": "2026-11-10T20:44:59.460Z",
-      "checks": {
-        "datasetSignal": true,
-        "directResource": false,
-        "format": true,
-        "coverage": true,
-        "license": false,
-        "licenseStatus": "not stated in captured source"
-      },
+      "checks": {},
       "missing": [
-        "download, API ou acesso direto ao recurso"
+        "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -11367,20 +11361,12 @@
     {
       "id": "8f69eaca928ffc84faf698cdb293bbcaa6e73ba75fe54d53cb2f94efd97a4bce",
       "url": "https://indicator.media/p/briefing-the-ai-image-detection-editing-gotcha-game",
-      "category": "datasets",
+      "category": "uncategorized",
       "originalCategory": "uncategorized",
       "checkedAt": "2026-11-10T20:50:45.379Z",
-      "checks": {
-        "datasetSignal": true,
-        "directResource": false,
-        "format": false,
-        "coverage": true,
-        "license": true,
-        "licenseStatus": "stated"
-      },
+      "checks": {},
       "missing": [
-        "download, API ou acesso direto ao recurso",
-        "formato identificável"
+        "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -11481,20 +11467,12 @@
     {
       "id": "90f22f2d175b93adfe6bc4d03f899b75d272e8d64468967d83204ac2bfd58c6d",
       "url": "https://buttondown.com/puntofisso/archive/681-quantum-of-sollazzo",
-      "category": "datasets",
+      "category": "uncategorized",
       "originalCategory": "uncategorized",
       "checkedAt": "2026-11-10T20:53:48.541Z",
-      "checks": {
-        "datasetSignal": true,
-        "directResource": false,
-        "format": false,
-        "coverage": true,
-        "license": false,
-        "licenseStatus": "not stated in captured source"
-      },
+      "checks": {},
       "missing": [
-        "download, API ou acesso direto ao recurso",
-        "formato identificável"
+        "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -13073,20 +13051,12 @@
     {
       "id": "c754fc517be9b42bc350762071d680ff3591dad42f303fd50918c1ed108d3c27",
       "url": "https://usafacts.org/answers/how-much-are-candidates-spending-for-the-midterm/country/united-states",
-      "category": "datasets",
+      "category": "uncategorized",
       "originalCategory": "uncategorized",
       "checkedAt": "2026-11-10T20:53:48.541Z",
-      "checks": {
-        "datasetSignal": true,
-        "directResource": false,
-        "format": false,
-        "coverage": true,
-        "license": false,
-        "licenseStatus": "not stated in captured source"
-      },
+      "checks": {},
       "missing": [
-        "download, API ou acesso direto ao recurso",
-        "formato identificável"
+        "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -13267,20 +13237,12 @@
     {
       "id": "cd6bd45adb4613e07e90ad0e3ba491cfef4f715cffb10274d0b64a6b06e6fbbe",
       "url": "https://indicator.media/p/meta-s-election-community-notes-caught-politicians-but-weren-t-always-fact-checks",
-      "category": "datasets",
+      "category": "uncategorized",
       "originalCategory": "uncategorized",
       "checkedAt": "2026-11-10T21:25:15.804Z",
-      "checks": {
-        "datasetSignal": true,
-        "directResource": false,
-        "format": false,
-        "coverage": true,
-        "license": true,
-        "licenseStatus": "stated"
-      },
+      "checks": {},
       "missing": [
-        "download, API ou acesso direto ao recurso",
-        "formato identificável"
+        "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -18361,20 +18323,12 @@
     {
       "id": "4ca9fdf4a50d154eaf42beea5125898a15f38d7a632a2a025c2cc22db8f7e63f",
       "url": "https://mikesbalance.com/lie-to-me-world-happiness-report",
-      "category": "datasets",
+      "category": "uncategorized",
       "originalCategory": "uncategorized",
       "checkedAt": "2026-11-10T22:14:10.246Z",
-      "checks": {
-        "datasetSignal": true,
-        "directResource": false,
-        "format": false,
-        "coverage": true,
-        "license": false,
-        "licenseStatus": "not stated in captured source"
-      },
+      "checks": {},
       "missing": [
-        "download, API ou acesso direto ao recurso",
-        "formato identificável"
+        "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -20363,7 +20317,7 @@
       "url": "https://www.gbif.org/dataset/2d59e5db-57ad-41ff-97d6-11f5fb264527",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-15T23:25:51.328Z",
+      "checkedAt": "2026-11-15T23:51:00.779Z",
       "checks": {
         "datasetSignal": false,
         "directResource": false,
@@ -26011,7 +25965,7 @@
       "url": "https://opportunitydesk.org/2026/11/14/council-of-europe-grants-for-civil-society-organisations-2026",
       "category": "uncategorized",
       "originalCategory": "opportunities",
-      "checkedAt": "2026-11-14T20:04:16.384Z",
+      "checkedAt": "2026-11-15T23:51:00.779Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
