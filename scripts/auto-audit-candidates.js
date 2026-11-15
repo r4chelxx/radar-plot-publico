@@ -23,12 +23,15 @@ function validPublicationReview(proof,category,url){
  const required={opportunities:['callSignal','eligibility'],datasets:['datasetSignal','directResource','format','coverage'],tools:['productSignal','function','access']}[category]||[];
  return required.length>0&&required.every(key=>proof.evidenceChecks?.[key]===true);
 }
+function radarRelevantOpportunity(title,text){
+ return /(journalis|journalist|report|media|newsroom|investigat|data journalism|data visual|visuali[sz]|story grant|storytelling|documentary|photojournal|photography grant|freelance writer|communicator|science communication)/i.test(String(title||'')+' '+String(text||''));
+}
 function deriveOpportunity(lead,url){
  const se=lead.structuredEvidence||{};
  const organization=se.organization||lead.organization||lead.source;
  const title=cleanTitle(se.title||lead.pageTitle||lead.sourcePageTitle,organization);
  const description=cleanSummary(se.description||lead.pageDescription,title,organization);
- if(lead.category!=='opportunities'||!se.eligibilityExplicit||se.status!=='aberta'||!title||!description||description.length<60||!organization||!future(se.deadline))return null;
+ if(lead.category!=='opportunities'||!se.eligibilityExplicit||se.status!=='aberta'||!title||!description||description.length<60||!organization||!future(se.deadline)||!radarRelevantOpportunity(title,description))return null;
  return {id:derivedId(url),title,org:organization,summary:description,type:se.sourceType||'Oportunidade editorial',themes:['Oportunidade editorial'],scope:'Não especificado',deadline:se.deadline,deadlineStatus:'prazo extraído de metadado estruturado da fonte oficial; horário e condições devem ser conferidos na página',eligibility:'parcial',fit:5,status:'aberta',value:'Não informado na fonte estruturada',duration:'Não informado na fonte estruturada',modality:se.sourceType||'Não especificado',documents:[],restrictions:[],rules:url,apply:url,verified:today,desc:se.description,discoveryUrl:lead.url,verificationHistory:[{date:today,status:'aberta',source:url}]};
 }
 function deriveDataset(lead,url){
@@ -79,6 +82,7 @@ for(const lead of results){
  if(!record){record=deriveOpportunity(lead,url)||deriveDataset(lead,url)||deriveTool(lead,url);}
  if(!record)fail.push('ficha pública estruturada ausente');
  if(lead.category==='opportunities'){
+  if(String(record?.id||'').startsWith('auto-')&&!radarRelevantOpportunity(record?.title,record?.summary||lead.evidenceText||lead.pageDescription))fail.push('oportunidade fora do escopo editorial do Radar');
   const deadline=lead.deadline||record?.deadline;
   const eligibility=lead.eligibility||record?.eligibility;
   const status=lead.status||lead.structuredEvidence?.status||record?.status;

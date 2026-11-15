@@ -1,449 +1,273 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
-{
-  "date": "2026-11-15",
-  "type": "nova-oportunidade",
-  "title": "Publicação editorial verificada — 2026-11-15",
-  "items": [
-    {
-      "id": "auto-e7c2d412b50c66e7",
-      "title": "MCW Global Young Leaders Fellowship 2027 (Funded)"
-    },
-    {
-      "id": "auto-d7023e39c8bfb663",
-      "title": "Global Burden of Disease (GBD) Fellowship 2027"
-    },
-    {
-      "id": "auto-52b6669badd2e4f2",
-      "title": "United Nations DPoA MTR Journalism Fellowship 2027 (Fully-funded)"
-    }
-  ],
-  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: MCW Global Young Leaders Fellowship 2027 (Funded); Global Burden of Disease (GBD) Fellowship 2027; United Nations DPoA MTR Journalism Fellowship 2027 (Fully-funded)."
-}, 
-{
-  "date": "2026-11-15",
-  "type": "nova-oportunidade",
-  "title": "Publicação editorial verificada — 2026-11-15",
-  "items": [
-    {
-      "id": "auto-b2fde425407fcb72",
-      "title": "Fund for Investigative Journalism grants"
-    },
-    {
-      "id": "auto-e25a1e1dd4ba6eb6",
-      "title": "EDSAFE AI Fellowship 2027"
-    },
-    {
-      "id": "auto-5be20206d02d6cd0",
-      "title": "University of Vienna Faculty of Law Fellowship Programme – Summer 2027"
-    },
-    {
-      "id": "auto-587d8a585642f19c",
-      "title": "Backing International Small Restaurants Grant Program 2026"
-    },
-    {
-      "id": "auto-6e1f40b17012f23d",
-      "title": "California Health Equity Fellowship"
-    },
-    {
-      "id": "auto-1a4869f711248d4c",
-      "title": "Harvard Pollman Fellowship in Real Estate and Urban Development 2027 (up to $55,000)"
-    },
-    {
-      "id": "auto-a0d383efcd6f6ab9",
-      "title": "EJN Renewable Energy Story Grants – India"
-    }
-  ],
-  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Fund for Investigative Journalism grants; EDSAFE AI Fellowship 2027; University of Vienna Faculty of Law Fellowship Programme – Summer 2027; Backing International Small Restaurants Grant Program 2026; California Health Equity Fellowship; Harvard Pollman Fellowship in Real Estate and Urban Development 2027 (up to $55,000); EJN Renewable Energy Story Grants – India."
-},
-{
-  "date": "2026-11-15",
-  "type": "ferramentas",
-  "title": "Publicação editorial verificada — 2026-11-15",
-  "items": [
-    {
-      "id": "auto-2e096d36f77afbee",
-      "title": "Show & Tell from Indicator"
-    }
-  ],
-  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Show & Tell from Indicator."
-}, 
-{
-  "date": "2026-11-15",
-  "type": "nova-oportunidade",
-  "title": "Publicação editorial verificada — 2026-11-15",
-  "items": [
-    {
-      "id": "auto-f6939f85c9edb7ae",
-      "title": "International Blue Carbon Institute (IBCI) Fellowship Program 2027 ($60,000 grant) &#8211; Opportunity Desk"
-    },
-    {
-      "id": "auto-dae634846be2c9d7",
-      "title": "ICANN Fellowship Program 2027 to Attend ICANN89 Policy Forum in Vancouver, Canada (Funded) &#8211; Opportunity Desk"
-    },
-    {
-      "id": "auto-de556452b18095df",
-      "title": "Voices of the Future Global Fellowship 2027 (Fully-funded trip to France) &#8211; Opportunity Desk"
-    },
-    {
-      "id": "auto-a09fd4fe55d78dbc",
-      "title": "UCD Iseult Honohan Doctoral Scholarship 2027 (Fully-funded) &#8211; Opportunity Desk"
-    },
-    {
-      "id": "auto-db5803d418cdb8ed",
-      "title": "Bayer Foundation Scientific Fellowships 2027 (up to €10,000) &#8211; Opportunity Desk"
-    }
-  ],
-  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: International Blue Carbon Institute (IBCI) Fellowship Program 2027 ($60,000 grant) &#8211; Opportunity Desk; ICANN Fellowship Program 2027 to Attend ICANN89 Policy Forum in Vancouver, Canada (Funded) &#8211; Opportunity Desk; Voices of the Future Global Fellowship 2027 (Fully-funded trip to France) &#8211; Opportunity Desk; UCD Iseult Honohan Doctoral Scholarship 2027 (Fully-funded) &#8211; Opportunity Desk; Bayer Foundation Scientific Fellowships 2027 (up to €10,000) &#8211; Opportunity Desk."
-}, 
-{
-  "date": "2026-11-15",
-  "type": "nova-oportunidade",
-  "title": "Publicação editorial verificada — 2026-11-15",
-  "items": [
-    {
-      "id": "auto-f313a1b2aaf9bab8",
-      "title": "ANH Academy Science-Policy Fellowships 2027 (Round 3) &#8211; Opportunity Desk"
-    },
-    {
-      "id": "auto-e73e7f5fdda53daa",
-      "title": "Center for Effective Global Action (CEGA) Visiting Fellowship 2027-2028 &#8211; Opportunity Desk"
-    },
-    {
-      "id": "auto-94a646811b984c25",
-      "title": "CRASSH Visiting Fellowships for Scholars from the Global South 2027 (Funded) &#8211; Opportunity Desk"
-    },
-    {
-      "id": "auto-69c877447f93b5bd",
-      "title": "Commonwealth Shared Scholarship Programme 2027/2028 to Study in the U.K. (Fully-funded) &#8211; Opportunity Desk"
-    },
-    {
-      "id": "auto-7b0ab2f5fcee3506",
-      "title": "African Development Bank Group Shanghai Ocean University Scholarship Masters Degree Program 2027 &#8211; Opportunity Desk"
-    },
-    {
-      "id": "auto-f3ed499d05010525",
-      "title": "Gratitude Network Fellowship 2027 &#8211; Opportunity Desk"
-    },
-    {
-      "id": "auto-545034bb0ede7096",
-      "title": "African Wildlife Foundation (AWF) Geospatial Leaders Fellowship 2027 &#8211; Opportunity Desk"
-    },
-    {
-      "id": "auto-aedc388869508d21",
-      "title": "Africa Dyslexia Teacher Fellowship Program 2027 &#8211; Opportunity Desk"
-    },
-    {
-      "id": "auto-0d368c641b24a8ef",
-      "title": "Green Global Fellowship 2027 for Emerging Leaders &#8211; Opportunity Desk"
-    },
-    {
-      "id": "auto-83c5913e44b43ec4",
-      "title": "Harvard Kennedy School (HKS) American Service Fellowship 2027 (up to $100,000) &#8211; Opportunity Desk"
-    },
-    {
-      "id": "auto-ba010ac2ff6829c7",
-      "title": "Thrive Capital Summer Fellowship 2027 ($100,000 salary) &#8211; Opportunity Desk"
-    },
-    {
-      "id": "auto-4108f1a86ca4c52d",
-      "title": "DSTI-NRF Policy Fellowship Programme 2027 (Funded) &#8211; Opportunity Desk"
-    },
-    {
-      "id": "auto-d95bb1167167d1e7",
-      "title": "Mastercard Foundation EdTech Fellowship Uganda Cohort 2 &#8211; Opportunity Desk"
-    },
-    {
-      "id": "auto-22e9cfbb34d83006",
-      "title": "Arewa Creative Writing and Advocacy Fellowship (ACWAF) 2026 – Cohort 1 &#8211; Opportunity Desk"
-    }
-  ],
-  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: ANH Academy Science-Policy Fellowships 2027 (Round 3) &#8211; Opportunity Desk; Center for Effective Global Action (CEGA) Visiting Fellowship 2027-2028 &#8211; Opportunity Desk; CRASSH Visiting Fellowships for Scholars from the Global South 2027 (Funded) &#8211; Opportunity Desk; Commonwealth Shared Scholarship Programme 2027/2028 to Study in the U.K. (Fully-funded) &#8211; Opportunity Desk; African Development Bank Group Shanghai Ocean University Scholarship Masters Degree Program 2027 &#8211; Opportunity Desk; Gratitude Network Fellowship 2027 &#8211; Opportunity Desk; African Wildlife Foundation (AWF) Geospatial Leaders Fellowship 2027 &#8211; Opportunity Desk; Africa Dyslexia Teacher Fellowship Program 2027 &#8211; Opportunity Desk; Green Global Fellowship 2027 for Emerging Leaders &#8211; Opportunity Desk; Harvard Kennedy School (HKS) American Service Fellowship 2027 (up to $100,000) &#8211; Opportunity Desk; Thrive Capital Summer Fellowship 2027 ($100,000 salary) &#8211; Opportunity Desk; DSTI-NRF Policy Fellowship Programme 2027 (Funded) &#8211; Opportunity Desk; Mastercard Foundation EdTech Fellowship Uganda Cohort 2 &#8211; Opportunity Desk; Arewa Creative Writing and Advocacy Fellowship (ACWAF) 2026 – Cohort 1 &#8211; Opportunity Desk."
-}, 
-{
-  "date": "2026-11-15",
-  "type": "nova-oportunidade",
-  "title": "Publicação editorial verificada — 2026-11-15",
-  "items": [
-    {
-      "id": "auto-20694f2c66b11f71",
-      "title": "Hans De Wit Fellowship 2027 (stipend available) &#8211; Opportunity Desk"
-    },
-    {
-      "id": "auto-7c236b79b5067b22",
-      "title": "Morgridge Acceleration Program (MAP) Fellowship 2027 (Funded) &#8211; Opportunity Desk"
-    },
-    {
-      "id": "auto-99cc7fdcdfd04015",
-      "title": "Nature Culture Fellowship 2027 &#8211; Opportunity Desk"
-    },
-    {
-      "id": "auto-07c30c0c9c4875b0",
-      "title": "Career Pathways Initiative Fellowship 2027 &#8211; Opportunity Desk"
-    }
-  ],
-  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Hans De Wit Fellowship 2027 (stipend available) &#8211; Opportunity Desk; Morgridge Acceleration Program (MAP) Fellowship 2027 (Funded) &#8211; Opportunity Desk; Nature Culture Fellowship 2027 &#8211; Opportunity Desk; Career Pathways Initiative Fellowship 2027 &#8211; Opportunity Desk."
-}, 
-{
-  "date": "2026-11-15",
-  "type": "nova-oportunidade",
-  "title": "Publicação editorial verificada — 2026-11-15",
-  "items": [
-    {
-      "id": "auto-3eaf309bafe21ae1",
-      "title": "German–Northern European Journalists Fellowship 2027 - GFMD"
-    },
-    {
-      "id": "auto-257ac44fe3495eb7",
-      "title": "Call for Proposals - Media Freedom Rapid Response Mechanism (2027) - GFMD"
-    }
-  ],
-  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: German–Northern European Journalists Fellowship 2027 - GFMD; Call for Proposals - Media Freedom Rapid Response Mechanism (2027) - GFMD."
-}, 
-{
-  "date": "2026-11-10",
-  "type": "nova-oportunidade",
-  "title": "Publicação editorial verificada — 2026-11-10",
-  "items": [
-    {
-      "id": "6530d95d514e0315a32b8d162d842176e19c0ef110d0dde9ac04122c78b6f56c",
-      "title": "Gênero e Número"
-    }
-  ],
-  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Gênero e Número."
-}, 
-{
-  "date": "2026-11-10",
-  "type": "dados",
-  "title": "Publicação editorial verificada — 2026-11-10",
-  "items": [
-    {
-      "id": "69113ed0b823c72b5e77e5a4dc488e18bb492814785734c71bb305b1b4ccade7",
-      "title": "Global Human Settlement - Datasets - European Commission"
-    },
-    {
-      "id": "deff0b3866c2aa499128f6ea642ccb9e9d57cb45189f04e3fc7f5d5fca596325",
-      "title": "Global Surface Water - Data Access"
-    }
-  ],
-  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Global Human Settlement - Datasets - European Commission; Global Surface Water - Data Access."
-},
-{
-  "date": "2026-11-10",
-  "type": "ferramentas",
-  "title": "Publicação editorial verificada — 2026-11-10",
-  "items": [
-    {
-      "id": "733c36409f57a6d64b4eb49ac945a060082aa3ebc58f68ebc56d21824af048b3",
-      "title": "R"
-    },
-    {
-      "id": "87d587fb19392bb7866daeeb6b83219beda45f46b058d876c647f27e3e0253d4",
-      "title": "Python Record Linkage Toolkit"
-    }
-  ],
-  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: R; Python Record Linkage Toolkit."
-}, 
-{
-  "date": "2026-11-10",
-  "type": "ferramentas",
-  "title": "Publicação editorial verificada — 2026-11-10",
-  "items": [
-    {
-      "id": "8131bd90a31340ae234883b0310fea966d01f14dd68345a72a7de5f22c9e3966",
-      "title": "682: quantum of sollazzo • Buttondown"
-    }
-  ],
-  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: 682: quantum of sollazzo • Buttondown."
-}, 
-{
-  "date": "2026-11-10",
-  "type": "nova-oportunidade",
-  "title": "Publicação editorial verificada — 2026-11-10",
-  "items": [
-    {
-      "id": "b45070e9d4dabfb55eb4edbe6a851ffcd200473f6429555a374f7c0ac7db3e88",
-      "title": "Knight-Wallace Fellowship at the University of Michigan &#8211; Grants for Journalists"
-    }
-  ],
-  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Knight-Wallace Fellowship at the University of Michigan &#8211; Grants for Journalists."
-},
-{
-  "date": "2026-11-10",
-  "type": "dados",
-  "title": "Publicação editorial verificada — 2026-11-10",
-  "items": [
-    {
-      "id": "97995754262f60cf84e9c9b25a4f79ef5de8bc0f0de16639ebc888bd347f9412",
-      "title": "Top AI companies of September 2026 on podcasts and YouTube | Arcmira"
-    }
-  ],
-  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Top AI companies of September 2026 on podcasts and YouTube | Arcmira."
-},
-{
-  "date": "2026-11-10",
-  "type": "ferramentas",
-  "title": "Publicação editorial verificada — 2026-11-10",
-  "items": [
-    {
-      "id": "483c5944a10521dde5f808f0c5a7f8905fcf5f0d7041f337d200f27096fecbc5",
-      "title": "The AI analytics platform"
-    },
-    {
-      "id": "78b7a11294f5e332bf8ed33d08a8d7151c67f4de4588753cb629a48375d6c337",
-      "title": "GitHub"
-    },
-    {
-      "id": "bcf905a7d1b746329b76590ec887f5b37fe0993d4c6f81fd8269f04c0829e6d7",
-      "title": "Data Analysis Expressions (DAX) Reference"
-    },
-    {
-      "id": "dcfa0487c540be0e50474bdc6332858180f97a84e0b91c826ac43f897db13474",
-      "title": "Cube"
-    },
-    {
-      "id": "6d84c860baa5311d1e0fcec13e539b428a8d37d4c97126c53e09639eb31e9621",
-      "title": "GitHub"
-    }
-  ],
-  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: The AI analytics platform; GitHub; Data Analysis Expressions (DAX) Reference; Cube; GitHub."
-}, 
-{
-  "date": "2026-11-10",
-  "type": "nova-oportunidade",
-  "title": "Publicação editorial verificada — 2026-11-10",
-  "items": [
-    {
-      "id": "088211e0604559fd090f68d856ea6e4968716c7d5800b9adbfa5ed659142df55",
-      "title": "Knight-Wallace Fellowship (International Applicants) - GFMD"
-    },
-    {
-      "id": "0fa208338a4bcde2366d9b583e4b5146aa53ad03993c853df2a6945051acceb1",
-      "title": "Fund for Investigative Journalism seed and regular grants - GFMD"
-    },
-    {
-      "id": "1ce3ee0308c17d4729e3aa3c772a192ca488dde6407eb88cb91b5941437c1f01",
-      "title": "The Gordon N. Fisher / Journalists for Human Rights Fellowship - GFMD"
-    },
-    {
-      "id": "25f3ecac9078807ca06cb298c039f7081cf070b5cc38669093b8dccb9283f94b",
-      "title": "International Nieman Fellowship - GFMD"
-    },
-    {
-      "id": "2de5afaa39131e7ff861db2ee421b0f89093fb184f5519095b2b4da940402015",
-      "title": "Equality Fund Global Journalism Fellowship 2026–2027 - GFMD"
-    },
-    {
-      "id": "2f8dbafd33f988df9c4c2792e6eafc2e4e67f6786c175432f1171eadfa3dc793",
-      "title": "Call for Proposals - Cross-border Media Literacy (2027) - GFMD"
-    },
-    {
-      "id": "41dcc31139cb1128b115d73c649326c90f292081ebb55d99a6e984e9d4227810",
-      "title": "Call for Proposals: Journalism Partnerships - Pluralism (2027) - GFMD"
-    },
-    {
-      "id": "578ad193d27b574e54ef5fb0b29776357edd23ef315178e2dbb8f1ab025c1a61",
-      "title": "Call for Proposals: Journalism Partnerships - Collaborations (2027) - GFMD"
-    },
-    {
-      "id": "293d94984420e56753951babff751db9ec0bfa21266971a89b9fcceda1102ff3",
-      "title": "Human-Scale AI: Call for Proposals - GFMD"
-    }
-  ],
-  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Knight-Wallace Fellowship (International Applicants) - GFMD; Fund for Investigative Journalism seed and regular grants - GFMD; The Gordon N. Fisher / Journalists for Human Rights Fellowship - GFMD; International Nieman Fellowship - GFMD; Equality Fund Global Journalism Fellowship 2026–2027 - GFMD; Call for Proposals - Cross-border Media Literacy (2027) - GFMD; Call for Proposals: Journalism Partnerships - Pluralism (2027) - GFMD; Call for Proposals: Journalism Partnerships - Collaborations (2027) - GFMD; Human-Scale AI: Call for Proposals - GFMD."
-}, 
-{
-  "date": "2026-11-10",
-  "type": "ferramentas",
-  "title": "Publicação editorial verificada — 2026-11-10",
-  "items": [
-    {
-      "id": "9f08b5a99c6c9f62c7b1c97611500f5db6b140a14c8c8c4a5b34b00faaad2427",
-      "title": "Tableau"
-    },
-    {
-      "id": "a6943fe0aa51788e6f02a85895ba465cd40dfb9c7cc5462996acf7e81b148ff2",
-      "title": "Vega"
-    },
-    {
-      "id": "bf0f70ab6377c8041e340bdf48e30a2e326e89cb07d78998b89ba0c7ee5fb0be",
-      "title": "Sigma"
-    },
-    {
-      "id": "cbcf1207daf6bdd681a32b245a2509a15e85242808741c346412f447100b05fa",
-      "title": "Microsoft Power BI"
-    },
-    {
-      "id": "d2f8e4e03f7039542269c22b68eb5b54fa341006c9685b6af22fd3ae39598778",
-      "title": "Plotly para Python"
-    }
-  ],
-  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Tableau; Vega; Sigma; Microsoft Power BI; Plotly para Python."
-}, 
-{
-  "date": "2026-11-10",
-  "type": "ferramentas",
-  "title": "Publicação editorial verificada — 2026-11-10",
-  "items": [
-    {
-      "id": "9074bd0330d7cf1e7b676cd5fa22eacf03a786e13009162ac6f99e121dca4cf6",
-      "title": "Quanteda"
-    }
-  ],
-  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Quanteda."
-}, 
-{
-  "date": "2026-11-09",
-  "type": "nova-oportunidade",
-  "title": "Publicação editorial verificada — 2026-11-09",
-  "items": [
-    {
-      "id": "523a861d21eafb5ed7c23e495938271fdad067bc512470e5c737419607d68d02",
-      "title": "2026 ArcGIS StoryMaps Competition"
-    }
-  ],
-  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: 2026 ArcGIS StoryMaps Competition."
-}, 
-{
-  "date": "2026-11-09",
-  "type": "ferramentas",
-  "title": "Publicação editorial verificada — 2026-11-09",
-  "items": [
-    {
-      "id": "3a612d3b0026605c96abe95b17102fd7ec515303f91661745ecd97a722bed17a",
-      "title": "Welcome to Python.org"
-    },
-    {
-      "id": "5c1be986e488cd7da4221e6f239cdd4b9259d573f9151cf5b6d1b348b06b2dbe",
-      "title": "R: The R Project for Statistical Computing"
-    },
-    {
-      "id": "80b3a36bc32b874256e675493db452de9c5e04cb25b98648d340a315a67a3fbd",
-      "title": "Zebra BI | Actionable Reporting Made Easy"
-    }
-  ],
-  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Welcome to Python.org; R: The R Project for Statistical Computing; Zebra BI | Actionable Reporting Made Easy."
-}, 
-{
-  "date": "2026-11-09",
-  "type": "ferramentas",
-  "title": "Publicação editorial verificada — 2026-11-09",
-  "items": [
-    {
-      "id": "8c69a7bafba7ddd1615d7cb77a6d643e3f283bf08d2bf8f6f74bb96e26642a66",
-      "title": "pandas - Python Data Analysis Library"
-    },
-    {
-      "id": "8ccdce543913e2af137941b13f03b4f34e9a544dfc8befeff78dafc28b85ebf5",
-      "title": "Power BI Theme Generator - Create Professional Themes in Seconds | Power UI | Power UI"
-    }
-  ],
-  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: pandas - Python Data Analysis Library; Power BI Theme Generator - Create Professional Themes in Seconds | Power UI | Power UI."
-}, 
-
-
- 
- 
+  {
+    "date": "2026-11-15",
+    "type": "ferramentas",
+    "title": "Publicação editorial verificada — 2026-11-15",
+    "items": [
+      {
+        "id": "auto-2e096d36f77afbee",
+        "title": "Show & Tell from Indicator"
+      }
+    ],
+    "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Show & Tell from Indicator."
+  },
+  {
+    "date": "2026-11-15",
+    "type": "nova-oportunidade",
+    "title": "Publicação editorial verificada — 2026-11-15",
+    "items": [
+      {
+        "id": "auto-3eaf309bafe21ae1",
+        "title": "German–Northern European Journalists Fellowship 2027 - GFMD"
+      },
+      {
+        "id": "auto-257ac44fe3495eb7",
+        "title": "Call for Proposals - Media Freedom Rapid Response Mechanism (2027) - GFMD"
+      }
+    ],
+    "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: German–Northern European Journalists Fellowship 2027 - GFMD; Call for Proposals - Media Freedom Rapid Response Mechanism (2027) - GFMD."
+  },
+  {
+    "date": "2026-11-10",
+    "type": "nova-oportunidade",
+    "title": "Publicação editorial verificada — 2026-11-10",
+    "items": [
+      {
+        "id": "6530d95d514e0315a32b8d162d842176e19c0ef110d0dde9ac04122c78b6f56c",
+        "title": "Gênero e Número"
+      }
+    ],
+    "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Gênero e Número."
+  },
+  {
+    "date": "2026-11-10",
+    "type": "dados",
+    "title": "Publicação editorial verificada — 2026-11-10",
+    "items": [
+      {
+        "id": "69113ed0b823c72b5e77e5a4dc488e18bb492814785734c71bb305b1b4ccade7",
+        "title": "Global Human Settlement - Datasets - European Commission"
+      },
+      {
+        "id": "deff0b3866c2aa499128f6ea642ccb9e9d57cb45189f04e3fc7f5d5fca596325",
+        "title": "Global Surface Water - Data Access"
+      }
+    ],
+    "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Global Human Settlement - Datasets - European Commission; Global Surface Water - Data Access."
+  },
+  {
+    "date": "2026-11-10",
+    "type": "ferramentas",
+    "title": "Publicação editorial verificada — 2026-11-10",
+    "items": [
+      {
+        "id": "733c36409f57a6d64b4eb49ac945a060082aa3ebc58f68ebc56d21824af048b3",
+        "title": "R"
+      },
+      {
+        "id": "87d587fb19392bb7866daeeb6b83219beda45f46b058d876c647f27e3e0253d4",
+        "title": "Python Record Linkage Toolkit"
+      }
+    ],
+    "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: R; Python Record Linkage Toolkit."
+  },
+  {
+    "date": "2026-11-10",
+    "type": "ferramentas",
+    "title": "Publicação editorial verificada — 2026-11-10",
+    "items": [
+      {
+        "id": "8131bd90a31340ae234883b0310fea966d01f14dd68345a72a7de5f22c9e3966",
+        "title": "682: quantum of sollazzo • Buttondown"
+      }
+    ],
+    "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: 682: quantum of sollazzo • Buttondown."
+  },
+  {
+    "date": "2026-11-10",
+    "type": "nova-oportunidade",
+    "title": "Publicação editorial verificada — 2026-11-10",
+    "items": [
+      {
+        "id": "b45070e9d4dabfb55eb4edbe6a851ffcd200473f6429555a374f7c0ac7db3e88",
+        "title": "Knight-Wallace Fellowship at the University of Michigan &#8211; Grants for Journalists"
+      }
+    ],
+    "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Knight-Wallace Fellowship at the University of Michigan &#8211; Grants for Journalists."
+  },
+  {
+    "date": "2026-11-10",
+    "type": "dados",
+    "title": "Publicação editorial verificada — 2026-11-10",
+    "items": [
+      {
+        "id": "97995754262f60cf84e9c9b25a4f79ef5de8bc0f0de16639ebc888bd347f9412",
+        "title": "Top AI companies of September 2026 on podcasts and YouTube | Arcmira"
+      }
+    ],
+    "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Top AI companies of September 2026 on podcasts and YouTube | Arcmira."
+  },
+  {
+    "date": "2026-11-10",
+    "type": "ferramentas",
+    "title": "Publicação editorial verificada — 2026-11-10",
+    "items": [
+      {
+        "id": "483c5944a10521dde5f808f0c5a7f8905fcf5f0d7041f337d200f27096fecbc5",
+        "title": "The AI analytics platform"
+      },
+      {
+        "id": "78b7a11294f5e332bf8ed33d08a8d7151c67f4de4588753cb629a48375d6c337",
+        "title": "GitHub"
+      },
+      {
+        "id": "bcf905a7d1b746329b76590ec887f5b37fe0993d4c6f81fd8269f04c0829e6d7",
+        "title": "Data Analysis Expressions (DAX) Reference"
+      },
+      {
+        "id": "dcfa0487c540be0e50474bdc6332858180f97a84e0b91c826ac43f897db13474",
+        "title": "Cube"
+      },
+      {
+        "id": "6d84c860baa5311d1e0fcec13e539b428a8d37d4c97126c53e09639eb31e9621",
+        "title": "GitHub"
+      }
+    ],
+    "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: The AI analytics platform; GitHub; Data Analysis Expressions (DAX) Reference; Cube; GitHub."
+  },
+  {
+    "date": "2026-11-10",
+    "type": "nova-oportunidade",
+    "title": "Publicação editorial verificada — 2026-11-10",
+    "items": [
+      {
+        "id": "088211e0604559fd090f68d856ea6e4968716c7d5800b9adbfa5ed659142df55",
+        "title": "Knight-Wallace Fellowship (International Applicants) - GFMD"
+      },
+      {
+        "id": "0fa208338a4bcde2366d9b583e4b5146aa53ad03993c853df2a6945051acceb1",
+        "title": "Fund for Investigative Journalism seed and regular grants - GFMD"
+      },
+      {
+        "id": "1ce3ee0308c17d4729e3aa3c772a192ca488dde6407eb88cb91b5941437c1f01",
+        "title": "The Gordon N. Fisher / Journalists for Human Rights Fellowship - GFMD"
+      },
+      {
+        "id": "25f3ecac9078807ca06cb298c039f7081cf070b5cc38669093b8dccb9283f94b",
+        "title": "International Nieman Fellowship - GFMD"
+      },
+      {
+        "id": "2de5afaa39131e7ff861db2ee421b0f89093fb184f5519095b2b4da940402015",
+        "title": "Equality Fund Global Journalism Fellowship 2026–2027 - GFMD"
+      },
+      {
+        "id": "2f8dbafd33f988df9c4c2792e6eafc2e4e67f6786c175432f1171eadfa3dc793",
+        "title": "Call for Proposals - Cross-border Media Literacy (2027) - GFMD"
+      },
+      {
+        "id": "41dcc31139cb1128b115d73c649326c90f292081ebb55d99a6e984e9d4227810",
+        "title": "Call for Proposals: Journalism Partnerships - Pluralism (2027) - GFMD"
+      },
+      {
+        "id": "578ad193d27b574e54ef5fb0b29776357edd23ef315178e2dbb8f1ab025c1a61",
+        "title": "Call for Proposals: Journalism Partnerships - Collaborations (2027) - GFMD"
+      },
+      {
+        "id": "293d94984420e56753951babff751db9ec0bfa21266971a89b9fcceda1102ff3",
+        "title": "Human-Scale AI: Call for Proposals - GFMD"
+      }
+    ],
+    "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Knight-Wallace Fellowship (International Applicants) - GFMD; Fund for Investigative Journalism seed and regular grants - GFMD; The Gordon N. Fisher / Journalists for Human Rights Fellowship - GFMD; International Nieman Fellowship - GFMD; Equality Fund Global Journalism Fellowship 2026–2027 - GFMD; Call for Proposals - Cross-border Media Literacy (2027) - GFMD; Call for Proposals: Journalism Partnerships - Pluralism (2027) - GFMD; Call for Proposals: Journalism Partnerships - Collaborations (2027) - GFMD; Human-Scale AI: Call for Proposals - GFMD."
+  },
+  {
+    "date": "2026-11-10",
+    "type": "ferramentas",
+    "title": "Publicação editorial verificada — 2026-11-10",
+    "items": [
+      {
+        "id": "9f08b5a99c6c9f62c7b1c97611500f5db6b140a14c8c8c4a5b34b00faaad2427",
+        "title": "Tableau"
+      },
+      {
+        "id": "a6943fe0aa51788e6f02a85895ba465cd40dfb9c7cc5462996acf7e81b148ff2",
+        "title": "Vega"
+      },
+      {
+        "id": "bf0f70ab6377c8041e340bdf48e30a2e326e89cb07d78998b89ba0c7ee5fb0be",
+        "title": "Sigma"
+      },
+      {
+        "id": "cbcf1207daf6bdd681a32b245a2509a15e85242808741c346412f447100b05fa",
+        "title": "Microsoft Power BI"
+      },
+      {
+        "id": "d2f8e4e03f7039542269c22b68eb5b54fa341006c9685b6af22fd3ae39598778",
+        "title": "Plotly para Python"
+      }
+    ],
+    "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Tableau; Vega; Sigma; Microsoft Power BI; Plotly para Python."
+  },
+  {
+    "date": "2026-11-10",
+    "type": "ferramentas",
+    "title": "Publicação editorial verificada — 2026-11-10",
+    "items": [
+      {
+        "id": "9074bd0330d7cf1e7b676cd5fa22eacf03a786e13009162ac6f99e121dca4cf6",
+        "title": "Quanteda"
+      }
+    ],
+    "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Quanteda."
+  },
+  {
+    "date": "2026-11-09",
+    "type": "nova-oportunidade",
+    "title": "Publicação editorial verificada — 2026-11-09",
+    "items": [
+      {
+        "id": "523a861d21eafb5ed7c23e495938271fdad067bc512470e5c737419607d68d02",
+        "title": "2026 ArcGIS StoryMaps Competition"
+      }
+    ],
+    "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: 2026 ArcGIS StoryMaps Competition."
+  },
+  {
+    "date": "2026-11-09",
+    "type": "ferramentas",
+    "title": "Publicação editorial verificada — 2026-11-09",
+    "items": [
+      {
+        "id": "3a612d3b0026605c96abe95b17102fd7ec515303f91661745ecd97a722bed17a",
+        "title": "Welcome to Python.org"
+      },
+      {
+        "id": "5c1be986e488cd7da4221e6f239cdd4b9259d573f9151cf5b6d1b348b06b2dbe",
+        "title": "R: The R Project for Statistical Computing"
+      },
+      {
+        "id": "80b3a36bc32b874256e675493db452de9c5e04cb25b98648d340a315a67a3fbd",
+        "title": "Zebra BI | Actionable Reporting Made Easy"
+      }
+    ],
+    "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Welcome to Python.org; R: The R Project for Statistical Computing; Zebra BI | Actionable Reporting Made Easy."
+  },
+  {
+    "date": "2026-11-09",
+    "type": "ferramentas",
+    "title": "Publicação editorial verificada — 2026-11-09",
+    "items": [
+      {
+        "id": "8c69a7bafba7ddd1615d7cb77a6d643e3f283bf08d2bf8f6f74bb96e26642a66",
+        "title": "pandas - Python Data Analysis Library"
+      },
+      {
+        "id": "8ccdce543913e2af137941b13f03b4f34e9a544dfc8befeff78dafc28b85ebf5",
+        "title": "Power BI Theme Generator - Create Professional Themes in Seconds | Power UI | Power UI"
+      }
+    ],
+    "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: pandas - Python Data Analysis Library; Power BI Theme Generator - Create Professional Themes in Seconds | Power UI | Power UI."
+  },
   {
     "date": "2026-11-06",
     "type": "atualizacao-editorial",
