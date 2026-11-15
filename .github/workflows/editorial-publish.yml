@@ -75,7 +75,7 @@ jobs:
             git show FETCH_HEAD:intake/editorial-evidence-review.json > /tmp/radar-editorial-evidence-review.json
             node scripts/build-editorial-record-drafts.js /tmp/radar-editorial-queue.json /tmp/radar-editorial-evidence-review.json "$draft_file"
           fi
-          node scripts/build-automated-publications.js "$draft_file" intake/approved-publications.json /tmp/radar-combined-approved.json
+          RADAR_ENABLE_AUTOMATIC_PUBLICATION=false node scripts/build-automated-publications.js "$draft_file" intake/approved-publications.json /tmp/radar-combined-approved.json
           node - <<'NODE'
           const fs=require('fs');
           const manifest=JSON.parse(fs.readFileSync('/tmp/radar-combined-approved.json','utf8'));

@@ -19,7 +19,9 @@ const safeUrl=value=>{try{const u=new URL(value);return u.protocol==='https:'&&!
 const canonical=value=>{try{const u=new URL(value);u.hash='';u.hostname=u.hostname.toLowerCase();u.pathname=u.pathname.replace(/\/+$/,'')||'/';return u.toString()}catch{return ''}};
 const complete=value=>value!=null&&value!==''&&(!Array.isArray(value)||value.length>0);
 function buildAutomaticPublications(drafts,manual={approved:[]},now=new Date()){
+ const automaticEnabled=process.env.RADAR_ENABLE_AUTOMATIC_PUBLICATION!=='false';
  const manualItems=Array.isArray(manual.approved)?manual.approved:[];
+ if(!automaticEnabled)return {manifest:{schemaVersion:1,policy:'Manual approvals only while automatic publication is under reconstruction.',approved:manualItems},summary:{manualApproved:manualItems.length,automaticallyApproved:0,byCategory:{opportunities:0,datasets:0,tools:0},skipped:{automaticPublicationDisabled:true}}};
  const knownIds=new Set(manualItems.map(x=>x.record?.id).filter(Boolean));
  const knownUrls=new Set(manualItems.map(x=>canonical(x.record?.url||x.record?.rules)).filter(Boolean));
  const approved=[],skipped={notDraft:0,staleSource:0,missingFields:0,failedEvidenceChecks:0,duplicate:0};

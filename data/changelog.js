@@ -1,45 +1,5 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
-{
-  "date": "2026-11-15",
-  "type": "nova-oportunidade",
-  "title": "Publicação editorial verificada — 2026-11-15",
-  "items": [
-    {
-      "id": "auto-fe5238aae4d5f21b",
-      "title": "California Health Equity Fellowship"
-    }
-  ],
-  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: California Health Equity Fellowship."
-}, 
-  {
-    "date": "2026-11-15",
-    "type": "ferramentas",
-    "title": "Publicação editorial verificada — 2026-11-15",
-    "items": [
-      {
-        "id": "auto-2e096d36f77afbee",
-        "title": "Show & Tell from Indicator"
-      }
-    ],
-    "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Show & Tell from Indicator."
-  },
-  {
-    "date": "2026-11-15",
-    "type": "nova-oportunidade",
-    "title": "Publicação editorial verificada — 2026-11-15",
-    "items": [
-      {
-        "id": "auto-3eaf309bafe21ae1",
-        "title": "German–Northern European Journalists Fellowship 2027 - GFMD"
-      },
-      {
-        "id": "auto-257ac44fe3495eb7",
-        "title": "Call for Proposals - Media Freedom Rapid Response Mechanism (2027) - GFMD"
-      }
-    ],
-    "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: German–Northern European Journalists Fellowship 2027 - GFMD; Call for Proposals - Media Freedom Rapid Response Mechanism (2027) - GFMD."
-  },
   {
     "date": "2026-11-10",
     "type": "nova-oportunidade",

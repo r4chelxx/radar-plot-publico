@@ -1,167 +1,138 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.tools=[
-{
-  "id": "auto-2e096d36f77afbee",
-  "name": "Show & Tell from Indicator",
-  "kind": "CreativeWorkSeries",
-  "url": "https://podcasts.apple.com/us/podcast/show-tell-from-indicator/id1874133168",
-  "desc": "Show & Tell from Indicator takes you inside digital investigations as leading journalists, OSINT investigators, threat analysts, and researchers walk through real cases they've cracked. Each episode features a recognized figure in the OSINT, digital investigations, or trust & safety community. They don't just tell us what they did—they show us. We see their browser extensions in action, watch them navigate tools under pressure, and learn how they think through dead ends and breakthroughs. Hosted by Indicator cofounders and veteran digital investigators Alexios Mantzarlis and Craig Silverman, Show & Tell asks the questions that uncover not just what investigators did, but how and why it worke Revisar licença, limites, privacidade e acessibilidade antes do uso editorial.",
-  "discoveryUrl": "https://podcasts.apple.com/us/podcast/show-tell-from-indicator/id1874133168"
-}, 
-{
-  "id": "733c36409f57a6d64b4eb49ac945a060082aa3ebc58f68ebc56d21824af048b3",
-  "name": "R",
-  "kind": "record linkage e correspondência de dados",
-  "url": "https://cran.r-project.org/package=fedmatch",
-  "desc": "Provides a flexible set of tools for matching two un-linked data sets. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
-},
-{
-  "id": "87d587fb19392bb7866daeeb6b83219beda45f46b058d876c647f27e3e0253d4",
-  "name": "Python Record Linkage Toolkit",
-  "kind": "record linkage e correspondência de dados",
-  "url": "https://recordlinkage.readthedocs.io/",
-  "desc": "Documentação oficial de Python Record Linkage Toolkit para uso em análise e tratamento de dados. Source note: consultar a documentação e a licença antes do uso editorial."
-}, 
-{
-  "id": "8131bd90a31340ae234883b0310fea966d01f14dd68345a72a7de5f22c9e3966",
-  "name": "682: quantum of sollazzo • Buttondown",
-  "kind": "linguagem de programação",
-  "url": "https://buttondown.com/puntofisso/archive/682-quantum-of-sollazzo",
-  "desc": "Quantum of Sollazzo Forwarded this email? Subscribe here · View it online No. 682 · Things that caught my attentionNot the National Data Library, but a... Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
-}, 
-{
-  "id": "483c5944a10521dde5f808f0c5a7f8905fcf5f0d7041f337d200f27096fecbc5",
-  "name": "The AI analytics platform",
-  "kind": "Omni Analytics",
-  "url": "https://omni.co/",
-  "desc": "Omni Analytics turns your data into a source of truth for AI, so anyone can get answers they trust. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
-},
-{
-  "id": "78b7a11294f5e332bf8ed33d08a8d7151c67f4de4588753cb629a48375d6c337",
-  "name": "GitHub",
-  "kind": "ropensci/tabulapdf: Bindings for Tabula PDF Table Extractor Library · GitHub",
-  "url": "https://github.com/ropensci/tabulapdf",
-  "desc": "Bindings for Tabula PDF Table Extractor Library. Contribute to ropensci/tabulapdf development by creating an account on GitHub. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
-},
-{
-  "id": "bcf905a7d1b746329b76590ec887f5b37fe0993d4c6f81fd8269f04c0829e6d7",
-  "name": "Data Analysis Expressions (DAX) Reference",
-  "kind": "DAX | Microsoft Learn",
-  "url": "https://learn.microsoft.com/en-us/dax",
-  "desc": "Data Analysis Expressions (DAX) is a library of functions and operators that can be combined to build calculation formula expressions. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
-},
-{
-  "id": "dcfa0487c540be0e50474bdc6332858180f97a84e0b91c826ac43f897db13474",
-  "name": "Cube",
-  "kind": "The agentic analytics platform built on a semantic layer",
-  "url": "https://cube.dev/",
-  "desc": "Cube is the agentic analytics platform, built on a semantic layer — AI-native business intelligence and embedded analytics with answers your team and your customers can trust. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
-},
-{
-  "id": "6d84c860baa5311d1e0fcec13e539b428a8d37d4c97126c53e09639eb31e9621",
-  "name": "GitHub",
-  "kind": "soxoj/maigret: 🕵️‍♂️ Collect a dossier on a person by username from 6K websites · GitHub",
-  "url": "https://github.com/soxoj/maigret",
-  "desc": "🕵️‍♂️ Collect a dossier on a person by username from 6K websites - soxoj/maigret Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
-}, 
-{
-  "id": "9f08b5a99c6c9f62c7b1c97611500f5db6b140a14c8c8c4a5b34b00faaad2427",
-  "name": "Tableau",
-  "kind": "plataforma de análise de dados",
-  "url": "https://www.tableau.com/",
-  "desc": "Tableau can help anyone see and understand their data. Connect to almost any database, drag and drop to create visualizations, and share with a click. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
-},
-{
-  "id": "a6943fe0aa51788e6f02a85895ba465cd40dfb9c7cc5462996acf7e81b148ff2",
-  "name": "Vega",
-  "kind": "visualização de dados",
-  "url": "https://vega.github.io/",
-  "desc": "Vega is a declarative format for creating, saving, and sharing visualization designs. With Vega, visualizations are described in JSON, and generate interactive views using either HTML5 Canvas or SVG. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
-},
-{
-  "id": "bf0f70ab6377c8041e340bdf48e30a2e326e89cb07d78998b89ba0c7ee5fb0be",
-  "name": "Sigma",
-  "kind": "BusinessApplication",
-  "url": "https://www.sigmacomputing.com/",
-  "desc": "Sigma is the AI runtime for business. A governed platform where teams build and run AI apps and agents directly on live cloud warehouse data (Snowflake, Databricks, BigQuery, Redshift). Ask in natural language, build agents that act on your data, write back to close the loop, and analyze in a familiar spreadsheet interface, all governed. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
-},
-{
-  "id": "cbcf1207daf6bdd681a32b245a2509a15e85242808741c346412f447100b05fa",
-  "name": "Microsoft Power BI",
-  "kind": "plataforma de visualização e análise de dados",
-  "url": "https://www.microsoft.com/en-us/power-platform/products/power-bi",
-  "desc": "Microsoft Power BI is a business intelligence platform that helps you visualize data and infuse insights into your existing Microsoft 365 apps. Try it for free. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
-},
-{
-  "id": "d2f8e4e03f7039542269c22b68eb5b54fa341006c9685b6af22fd3ae39598778",
-  "name": "Plotly para Python",
-  "kind": "biblioteca Python de visualização de dados",
-  "url": "https://plotly.com/python",
-  "desc": "Build interactive Python charts and graphs with Plotly Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
-},
-{
-  "id": "9074bd0330d7cf1e7b676cd5fa22eacf03a786e13009162ac6f99e121dca4cf6",
-  "name": "Quanteda",
-  "kind": "pacote R",
-  "url": "https://quanteda.io/",
-  "desc": "A fast, flexible, and comprehensive framework for quantitative text analysis in R. Provides functionality for corpus management, creating and manipulating tokens and n-grams, exploring keywords in context, forming and manipulating sparse matrices of documents by features and feature co-occurrences, analyzing keywords, computing feature similarities and distances, applying content dictionaries, applying supervised and unsupervised machine learning, visually representing text and text analyses, and more. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
-}, 
-{
-  "id": "3a612d3b0026605c96abe95b17102fd7ec515303f91661745ecd97a722bed17a",
-  "name": "Python",
-  "kind": "linguagem de programação",
-  "url": "https://www.python.org/",
-  "desc": "Linguagem de programação de código aberto usada para automatizar coleta, limpeza e análise de dados. O uso exige instalar ou acessar um ambiente de execução e, conforme a tarefa, bibliotecas adicionais."
-},
-{
-  "id": "5c1be986e488cd7da4221e6f239cdd4b9259d573f9151cf5b6d1b348b06b2dbe",
-  "name": "R",
-  "kind": "computação estatística e análise de dados",
-  "url": "https://www.r-project.org/",
-  "desc": "Linguagem e ambiente de código aberto para computação estatística e gráficos. Permite explorar dados e criar análises reproduzíveis. Fluxos especializados podem exigir pacotes adicionais e conhecimento de programação."
-},
-{
-  "id": "80b3a36bc32b874256e675493db452de9c5e04cb25b98648d340a315a67a3fbd",
-  "name": "Zebra BI | Actionable Reporting Made Easy",
-  "kind": "plataforma de análise de dados",
-  "url": "https://zebrabi.com/",
-  "desc": "Zebra BI enables analytics teams to create jaw-dropping and actionable reports and deliver insights in record time. Try our tools today. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
-}, 
-{
-  "id": "8c69a7bafba7ddd1615d7cb77a6d643e3f283bf08d2bf8f6f74bb96e26642a66",
-  "name": "pandas - Python Data Analysis Library",
-  "kind": "Python Data Analysis Library",
-  "url": "https://pandas.pydata.org/",
-  "desc": "pandas - Python Data Analysis Library pandas pandas is a fast, powerful, flexible and easy to use open source data analysis and manipulation tool, built on top of the Python programming language. Source note: the captured page does not state detailed usage limitations; consult the official documentation and license before use."
-},
-{
-  "id": "8ccdce543913e2af137941b13f03b4f34e9a544dfc8befeff78dafc28b85ebf5",
-  "name": "Power BI Theme Generator - Create Professional Themes in Seconds | Power UI | Power UI",
-  "kind": "DesignApplication",
-  "url": "https://www.powerui.com/",
-  "desc": "Professional Power BI theme generator with visual editing, real-time preview, and comprehensive design system Source note: the captured page does not state detailed usage limitations; consult the official documentation and license before use."
-}, 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
+  {
+    "id": "733c36409f57a6d64b4eb49ac945a060082aa3ebc58f68ebc56d21824af048b3",
+    "name": "R",
+    "kind": "record linkage e correspondência de dados",
+    "url": "https://cran.r-project.org/package=fedmatch",
+    "desc": "Provides a flexible set of tools for matching two un-linked data sets. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
+  },
+  {
+    "id": "87d587fb19392bb7866daeeb6b83219beda45f46b058d876c647f27e3e0253d4",
+    "name": "Python Record Linkage Toolkit",
+    "kind": "record linkage e correspondência de dados",
+    "url": "https://recordlinkage.readthedocs.io/",
+    "desc": "Documentação oficial de Python Record Linkage Toolkit para uso em análise e tratamento de dados. Source note: consultar a documentação e a licença antes do uso editorial."
+  },
+  {
+    "id": "8131bd90a31340ae234883b0310fea966d01f14dd68345a72a7de5f22c9e3966",
+    "name": "682: quantum of sollazzo • Buttondown",
+    "kind": "linguagem de programação",
+    "url": "https://buttondown.com/puntofisso/archive/682-quantum-of-sollazzo",
+    "desc": "Quantum of Sollazzo Forwarded this email? Subscribe here · View it online No. 682 · Things that caught my attentionNot the National Data Library, but a... Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
+  },
+  {
+    "id": "483c5944a10521dde5f808f0c5a7f8905fcf5f0d7041f337d200f27096fecbc5",
+    "name": "The AI analytics platform",
+    "kind": "Omni Analytics",
+    "url": "https://omni.co/",
+    "desc": "Omni Analytics turns your data into a source of truth for AI, so anyone can get answers they trust. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
+  },
+  {
+    "id": "78b7a11294f5e332bf8ed33d08a8d7151c67f4de4588753cb629a48375d6c337",
+    "name": "GitHub",
+    "kind": "ropensci/tabulapdf: Bindings for Tabula PDF Table Extractor Library · GitHub",
+    "url": "https://github.com/ropensci/tabulapdf",
+    "desc": "Bindings for Tabula PDF Table Extractor Library. Contribute to ropensci/tabulapdf development by creating an account on GitHub. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
+  },
+  {
+    "id": "bcf905a7d1b746329b76590ec887f5b37fe0993d4c6f81fd8269f04c0829e6d7",
+    "name": "Data Analysis Expressions (DAX) Reference",
+    "kind": "DAX | Microsoft Learn",
+    "url": "https://learn.microsoft.com/en-us/dax",
+    "desc": "Data Analysis Expressions (DAX) is a library of functions and operators that can be combined to build calculation formula expressions. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
+  },
+  {
+    "id": "dcfa0487c540be0e50474bdc6332858180f97a84e0b91c826ac43f897db13474",
+    "name": "Cube",
+    "kind": "The agentic analytics platform built on a semantic layer",
+    "url": "https://cube.dev/",
+    "desc": "Cube is the agentic analytics platform, built on a semantic layer — AI-native business intelligence and embedded analytics with answers your team and your customers can trust. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
+  },
+  {
+    "id": "6d84c860baa5311d1e0fcec13e539b428a8d37d4c97126c53e09639eb31e9621",
+    "name": "GitHub",
+    "kind": "soxoj/maigret: 🕵️‍♂️ Collect a dossier on a person by username from 6K websites · GitHub",
+    "url": "https://github.com/soxoj/maigret",
+    "desc": "🕵️‍♂️ Collect a dossier on a person by username from 6K websites - soxoj/maigret Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
+  },
+  {
+    "id": "9f08b5a99c6c9f62c7b1c97611500f5db6b140a14c8c8c4a5b34b00faaad2427",
+    "name": "Tableau",
+    "kind": "plataforma de análise de dados",
+    "url": "https://www.tableau.com/",
+    "desc": "Tableau can help anyone see and understand their data. Connect to almost any database, drag and drop to create visualizations, and share with a click. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
+  },
+  {
+    "id": "a6943fe0aa51788e6f02a85895ba465cd40dfb9c7cc5462996acf7e81b148ff2",
+    "name": "Vega",
+    "kind": "visualização de dados",
+    "url": "https://vega.github.io/",
+    "desc": "Vega is a declarative format for creating, saving, and sharing visualization designs. With Vega, visualizations are described in JSON, and generate interactive views using either HTML5 Canvas or SVG. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
+  },
+  {
+    "id": "bf0f70ab6377c8041e340bdf48e30a2e326e89cb07d78998b89ba0c7ee5fb0be",
+    "name": "Sigma",
+    "kind": "BusinessApplication",
+    "url": "https://www.sigmacomputing.com/",
+    "desc": "Sigma is the AI runtime for business. A governed platform where teams build and run AI apps and agents directly on live cloud warehouse data (Snowflake, Databricks, BigQuery, Redshift). Ask in natural language, build agents that act on your data, write back to close the loop, and analyze in a familiar spreadsheet interface, all governed. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
+  },
+  {
+    "id": "cbcf1207daf6bdd681a32b245a2509a15e85242808741c346412f447100b05fa",
+    "name": "Microsoft Power BI",
+    "kind": "plataforma de visualização e análise de dados",
+    "url": "https://www.microsoft.com/en-us/power-platform/products/power-bi",
+    "desc": "Microsoft Power BI is a business intelligence platform that helps you visualize data and infuse insights into your existing Microsoft 365 apps. Try it for free. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
+  },
+  {
+    "id": "d2f8e4e03f7039542269c22b68eb5b54fa341006c9685b6af22fd3ae39598778",
+    "name": "Plotly para Python",
+    "kind": "biblioteca Python de visualização de dados",
+    "url": "https://plotly.com/python",
+    "desc": "Build interactive Python charts and graphs with Plotly Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
+  },
+  {
+    "id": "9074bd0330d7cf1e7b676cd5fa22eacf03a786e13009162ac6f99e121dca4cf6",
+    "name": "Quanteda",
+    "kind": "pacote R",
+    "url": "https://quanteda.io/",
+    "desc": "A fast, flexible, and comprehensive framework for quantitative text analysis in R. Provides functionality for corpus management, creating and manipulating tokens and n-grams, exploring keywords in context, forming and manipulating sparse matrices of documents by features and feature co-occurrences, analyzing keywords, computing feature similarities and distances, applying content dictionaries, applying supervised and unsupervised machine learning, visually representing text and text analyses, and more. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
+  },
+  {
+    "id": "3a612d3b0026605c96abe95b17102fd7ec515303f91661745ecd97a722bed17a",
+    "name": "Python",
+    "kind": "linguagem de programação",
+    "url": "https://www.python.org/",
+    "desc": "Linguagem de programação de código aberto usada para automatizar coleta, limpeza e análise de dados. O uso exige instalar ou acessar um ambiente de execução e, conforme a tarefa, bibliotecas adicionais."
+  },
+  {
+    "id": "5c1be986e488cd7da4221e6f239cdd4b9259d573f9151cf5b6d1b348b06b2dbe",
+    "name": "R",
+    "kind": "computação estatística e análise de dados",
+    "url": "https://www.r-project.org/",
+    "desc": "Linguagem e ambiente de código aberto para computação estatística e gráficos. Permite explorar dados e criar análises reproduzíveis. Fluxos especializados podem exigir pacotes adicionais e conhecimento de programação."
+  },
+  {
+    "id": "80b3a36bc32b874256e675493db452de9c5e04cb25b98648d340a315a67a3fbd",
+    "name": "Zebra BI | Actionable Reporting Made Easy",
+    "kind": "plataforma de análise de dados",
+    "url": "https://zebrabi.com/",
+    "desc": "Zebra BI enables analytics teams to create jaw-dropping and actionable reports and deliver insights in record time. Try our tools today. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
+  },
+  {
+    "id": "8c69a7bafba7ddd1615d7cb77a6d643e3f283bf08d2bf8f6f74bb96e26642a66",
+    "name": "pandas - Python Data Analysis Library",
+    "kind": "Python Data Analysis Library",
+    "url": "https://pandas.pydata.org/",
+    "desc": "pandas - Python Data Analysis Library pandas pandas is a fast, powerful, flexible and easy to use open source data analysis and manipulation tool, built on top of the Python programming language. Source note: the captured page does not state detailed usage limitations; consult the official documentation and license before use."
+  },
+  {
+    "id": "8ccdce543913e2af137941b13f03b4f34e9a544dfc8befeff78dafc28b85ebf5",
+    "name": "Power BI Theme Generator - Create Professional Themes in Seconds | Power UI | Power UI",
+    "kind": "DesignApplication",
+    "url": "https://www.powerui.com/",
+    "desc": "Professional Power BI theme generator with visual editing, real-time preview, and comprehensive design system Source note: the captured page does not state detailed usage limitations; consult the official documentation and license before use."
+  },
   {
     "id": "samgeo-geospatial-image-segmentation",
     "name": "SamGeo — segmentação de imagens geoespaciais com IA",
