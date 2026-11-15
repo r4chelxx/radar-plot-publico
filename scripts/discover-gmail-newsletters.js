@@ -20,7 +20,7 @@ function extract(message){
   if(!/^https:\/\//.test(url)||obviousNoise.test(url)||seen.has(url))return false;
   if(!relevant.test(item.context)&&!relevant.test(url))return false;
   seen.add(url);return true;
- }).map(url=>({url, title:subject.slice(0,220)||'Newsletter candidate', category:'uncategorized', sourceName:'Gmail Radar PLOT newsletter', editorialStatus:'unverified'}));
+ }).map(item=>({url:canonical(item.raw), title:subject.slice(0,220)||'Newsletter candidate', category:'uncategorized', sourceName:'Gmail Radar PLOT newsletter', editorialStatus:'unverified'}));
 }
 async function collect(fetcher=fetch,env=process.env){
  const health={source:'Gmail Radar PLOT',status:'unconfigured',items:0,coverageStatus:'unavailable'};
