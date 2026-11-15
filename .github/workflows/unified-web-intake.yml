@@ -236,7 +236,7 @@ jobs:
           const line=['### Gmail source diagnosis',`- Status: ${item.status||'unknown'}`,`- Items: ${Number(item.items)||0}`,`- Scanned: ${Number(item.scanned)||0}`,`- Coverage: ${item.coverageStatus||'unknown'}`];
           if(item.errorCode)line.push(`- OAuth code: ${item.errorCode}`,`- Failure class: ${item.failureClass||'unknown'}`,`- Recommended action: ${item.recommendedAction||'review the OAuth configuration'}`);
           if(item.reason)line.push(`- Reason: ${String(item.reason).replace(/[\r\n]/g,' ')}`);
-          fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY,line.join('\\n')+'\\n');
+          fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY,line.join('\\n')+'\n');
           NODE
       - name: Discover indexed public LinkedIn posts (partial coverage)
         run: node scripts/discover-linkedin-indexed.js
@@ -265,7 +265,7 @@ jobs:
           const fs=require('node:fs');
           const q=JSON.parse(fs.readFileSync('intake/discovery-quality.json','utf8'));
           const leads=(q.review||[]).filter(x=>x.classification==='needs-editorial-review').map(x=>({id:x.id,url:x.url,title:x.title,category:x.category,providers:x.providers,resourceLinks:x.resourceLinks,sourceEvidence:x.sourceEvidence,verificationStatus:x.verificationStatus,origin:'daily-discovery'}));
-          fs.writeFileSync('intake/candidate-triage.json',JSON.stringify({generatedAt:new Date().toISOString(),leads},null,2)+'\\n');
+          fs.writeFileSync('intake/candidate-triage.json',JSON.stringify({generatedAt:new Date().toISOString(),leads},null,2)+'\n');
           console.log(JSON.stringify({candidateTriage:leads.length}));
           NODE
           LEAD_PAGE_LIMIT=240 LEAD_INSPECTION_CONCURRENCY=12 node scripts/inspect-lead-pages.js
