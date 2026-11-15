@@ -6,6 +6,30 @@ window.RADAR_PARTS.changelog=[
   "title": "Publicação editorial verificada — 2026-11-15",
   "items": [
     {
+      "id": "auto-20694f2c66b11f71",
+      "title": "Hans De Wit Fellowship 2027 (stipend available) &#8211; Opportunity Desk"
+    },
+    {
+      "id": "auto-7c236b79b5067b22",
+      "title": "Morgridge Acceleration Program (MAP) Fellowship 2027 (Funded) &#8211; Opportunity Desk"
+    },
+    {
+      "id": "auto-99cc7fdcdfd04015",
+      "title": "Nature Culture Fellowship 2027 &#8211; Opportunity Desk"
+    },
+    {
+      "id": "auto-07c30c0c9c4875b0",
+      "title": "Career Pathways Initiative Fellowship 2027 &#8211; Opportunity Desk"
+    }
+  ],
+  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Hans De Wit Fellowship 2027 (stipend available) &#8211; Opportunity Desk; Morgridge Acceleration Program (MAP) Fellowship 2027 (Funded) &#8211; Opportunity Desk; Nature Culture Fellowship 2027 &#8211; Opportunity Desk; Career Pathways Initiative Fellowship 2027 &#8211; Opportunity Desk."
+}, 
+{
+  "date": "2026-11-15",
+  "type": "nova-oportunidade",
+  "title": "Publicação editorial verificada — 2026-11-15",
+  "items": [
+    {
       "id": "auto-3eaf309bafe21ae1",
       "title": "German–Northern European Journalists Fellowship 2027 - GFMD"
     },
