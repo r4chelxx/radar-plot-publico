@@ -39,6 +39,9 @@ function buildAutomaticPublications(drafts,manual={approved:[]},now=new Date()){
   }else if(category==='datasets'){
    if(!safeUrl(record.url)||!safeUrl(record.api)||!safeUrl(record.docs)){skipped.failedEvidenceChecks++;continue}
   }else if(category==='tools'){
+   const toolText=String(record.name||'')+' '+String(record.kind||'')+' '+String(record.desc||'');
+   const nonProduct=/\b(?:podcast|newsletter|article|report|news|course|training|conference|event|community|series|blog|publication|story)\b/i.test(toolText)||/podcasts?\.apple\.com|substack\.com|\/news\/|\/blog\/|\/events?/i.test(String(record.url||''));
+   if(nonProduct||/creativework|series|podcast|newsletter/i.test(String(record.kind||''))){skipped.failedEvidenceChecks++;continue;}
    if(!safeUrl(record.url)||String(record.desc).length<70){skipped.failedEvidenceChecks++;continue}
   }
   const sourceField=sourceFields[category],recordUrl=record[sourceField];
