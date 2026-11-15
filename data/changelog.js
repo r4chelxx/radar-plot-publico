@@ -1,53 +1,5 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
-{
-  "date": "2026-11-15",
-  "type": "nova-oportunidade",
-  "title": "Publicação editorial verificada — 2026-11-15",
-  "items": [
-    {
-      "id": "auto-3eaf309bafe21ae1",
-      "title": "German–Northern European Journalists Fellowship 2027"
-    },
-    {
-      "id": "auto-257ac44fe3495eb7",
-      "title": "Call for Proposals - Media Freedom Rapid Response Mechanism (2027)"
-    },
-    {
-      "id": "auto-b2fde425407fcb72",
-      "title": "Fund for Investigative Journalism grants"
-    },
-    {
-      "id": "auto-6e1f40b17012f23d",
-      "title": "California Health Equity Fellowship"
-    },
-    {
-      "id": "auto-a0d383efcd6f6ab9",
-      "title": "EJN Renewable Energy Story Grants – India"
-    },
-    {
-      "id": "auto-52b6669badd2e4f2",
-      "title": "United Nations DPoA MTR Journalism Fellowship 2027 (Fully-funded)"
-    },
-    {
-      "id": "auto-fe5238aae4d5f21b",
-      "title": "California Health Equity Fellowship"
-    }
-  ],
-  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: German–Northern European Journalists Fellowship 2027; Call for Proposals - Media Freedom Rapid Response Mechanism (2027); Fund for Investigative Journalism grants; California Health Equity Fellowship; EJN Renewable Energy Story Grants – India; United Nations DPoA MTR Journalism Fellowship 2027 (Fully-funded); California Health Equity Fellowship."
-},
-{
-  "date": "2026-11-15",
-  "type": "ferramentas",
-  "title": "Publicação editorial verificada — 2026-11-15",
-  "items": [
-    {
-      "id": "auto-2e096d36f77afbee",
-      "title": "Show & Tell from Indicator"
-    }
-  ],
-  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Show & Tell from Indicator."
-}, 
   {
     "date": "2026-11-10",
     "type": "nova-oportunidade",
@@ -1417,13 +1369,6 @@ window.RADAR_PARTS.changelog=[
     "detail": "O repositório institucional da Unicamp passa a ser acompanhado mensalmente para descoberta de dados, códigos e materiais de reprodutibilidade."
   },
   {
-    "date": "2026-10-12",
-    "type": "varredura",
-    "title": "Varredura de oportunidades concluída sem nova inclusão",
-    "items": [],
-    "detail": "Fontes diárias e vencidas, pesquisas independentes no Brasil e no exterior e o lote privado de newsletters foram revisados. Chamadas encerradas, já catalogadas ou sem elegibilidade brasileira confirmada não foram republicadas."
-  },
-  {
     "date": "2026-10-11",
     "type": "ferramentas",
     "title": "Guia GIJN/ICIJ de investigação com criptomoedas",
@@ -1458,13 +1403,6 @@ window.RADAR_PARTS.changelog=[
       }
     ],
     "detail": "Catálogo aberto e colaborativo reúne 226 recursos para visualização, extração, análise, cartografia, limpeza, redes, OSINT, IA e bancos de dados, com filtros por plataforma e código aberto."
-  },
-  {
-    "date": "2026-10-11",
-    "type": "varredura",
-    "title": "Varredura de oportunidades concluída sem nova inclusão",
-    "items": [],
-    "detail": "Fontes diárias e vencidas, buscas independentes no Brasil e no exterior e o lote privado de newsletters foram revisados. Chamadas já catalogadas, encerradas ou sem elegibilidade brasileira confirmada não foram republicadas."
   },
   {
     "date": "2026-10-10",
