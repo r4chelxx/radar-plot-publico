@@ -51,13 +51,16 @@ function deriveTool(lead,url){
  const se=lead.structuredEvidence||{};
  const title=se.title||lead.pageTitle||lead.sourcePageTitle;
  const description=se.description||lead.pageDescription;
- const excludedToolPage=new RegExp("mediawiki\\.org|wikidata\\.org/wiki/Special:NewItem|github\\.com/[^\\s]+/blob/|/news/|/item/|/program(?:/|$)","i").test(String(url));
+ const excludedToolPage=new RegExp("mediawiki\\.org|wikidata\\.org/wiki/Special:NewItem|github\\.com/[^\\s]+/blob/|/(?:news|articles?|item|program|blog|tv|conference|events?)(?:/|$)|substack\\.com","i").test(String(url));
  const navigationTool=/jump to content|main menu|navigation|create account|log in|personal tools|toggle the table|page discussion|read edit view history|contents move to sidebar|search search/i.test(String(description));
  if(excludedToolPage||navigationTool)return null;
  if(lead.category!=='tools'||!title||!description||description.length<80)return null;
  const sourceType=String(se.sourceType||'').toLowerCase();
- if(sourceType&&!/software|application|tool|product|creativework/.test(sourceType))return null;
- return {id:derivedId(url),name:title,kind:se.sourceType||'ferramenta',url,desc:description+' Revisar licença, limites, privacidade e acessibilidade antes do uso editorial.',discoveryUrl:lead.url};
+ if(sourceType&&!/software|application|tool|product|creativework|softwareapplication/.test(sourceType))return null;
+ const evidenceText=[title,description,url].join(' ');
+ const inferredKind=/\\bplugin\\b/i.test(evidenceText)?'plugin de dados':/\\b(?:library|biblioteca)\\b/i.test(evidenceText)?'biblioteca de software':/\\b(?:api|sdk|cli)\\b/i.test(evidenceText)?'API/SDK/CLI para dados':/\\b(?:framework|plataforma|platform)\\b/i.test(evidenceText)?'plataforma de dados':null;
+ if(!sourceType&&!inferredKind)return null;
+ return {id:derivedId(url),name:title,kind:se.sourceType||inferredKind,url,desc:description+' Revisar licença, limites, privacidade e acessibilidade antes do uso editorial.',discoveryUrl:lead.url};
 }
 const results=(evidence.results||[]);
 const byId=new Map((review.candidates||[]).map(x=>[x.id,x]));
