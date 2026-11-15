@@ -4,6 +4,7 @@ const {identity}=require('./lead-identity');
 const triage=JSON.parse(fs.readFileSync('intake/candidate-triage.json','utf8'));
 const evidence=JSON.parse(fs.readFileSync('intake/lead-evidence.json','utf8'));
 const today=new Intl.DateTimeFormat('en-CA',{timeZone:'America/Bahia',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());
+const validIsoDate=value=>{const text=String(value||'');if(!/^\\d{4}-\\d{2}-\\d{2}$/.test(text))return false;const date=new Date(text+'T00:00:00Z');return Number.isFinite(date.valueOf())&&date.toISOString().slice(0,10)===text;};
 const byUrl=new Map((evidence.results||[]).flatMap(x=>{try{return [[identity(x.url).id,x]]}catch{return []}}));
 const historyPath='intake/lead-history-previous.json';
 const historical=fs.existsSync(historyPath)?Object.values(JSON.parse(fs.readFileSync(historyPath,'utf8')).leads||{}):[];
@@ -26,7 +27,7 @@ const candidates=[...historical,...(triage.leads||[])].filter(x=>x.classificatio
  const checks={primarySourceVerified,duplicateReviewed,editorialApproval:false};
  if(x.category==='opportunities'){
   const callSignal=/(grant|fellowship|funding|scholarship|award|prize|contest|competition|edital|bolsa|financiamento)/i.test([ev?.pageTitle||x.title,pageText,structuredText].join(' '))&&/(apply|application|submission|call for|inscri[cç][aã]o|candidatura|prazo)/i.test([pageText,structuredText].join(' '));
-  Object.assign(checks,{deadlineVerified:Boolean(ev?.deadline&&String(ev.deadline)>=today),eligibilityVerified:Boolean(ev?.eligibility),callSignal});
+  Object.assign(checks,{deadlineVerified:Boolean(validIsoDate(ev?.deadline)&&String(ev.deadline)>=today),eligibilityVerified:Boolean(ev?.eligibility),callSignal});
  } else if(x.category==='datasets'){
   const producerVerified=Boolean(structured.publisher||structured.provider||structured.organization||structured.creator);
   const accessAndScopeVerified=Boolean((structured.distribution||structured.contentUrl||ev?.resourceLinks?.length)&&pageText.length>=40);
