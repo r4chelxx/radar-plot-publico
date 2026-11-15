@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-14T23:06:35.912Z",
+  "generatedAt": "2026-11-15T18:10:45.135Z",
   "policy": "Evidence-based category triage. Missing license is recorded as unknown when not found; complete means draft eligibility only, never approval or publication.",
   "counts": {
-    "pending_more_evidence": 1895
+    "pending_more_evidence": 1898
   },
   "categoryCounts": {
-    "uncategorized": 1765,
+    "uncategorized": 1768,
     "opportunities": 33,
     "tools": 33,
     "datasets": 64
@@ -26443,6 +26443,45 @@
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "2154720ab118bc95667fc8c9393ddd8fb33a2f9c9a5348b1b5fa2c928c495d5b",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1zRnVSa2VFVXJ5TmlqOVlXYVR0N3F0dlk4NFFVNmZNY1NTLUx0LWVLOWJRcGhtTVNGUlJsNXFBX0hsbGZJdWRySXVPTHc1ZGZ2R21kLTBTOTIxQXlIT0tiNTFBT0ppZEFfYUVKOUNPYk5vbDVseG9vbHJMQTEwZw",
+      "category": "uncategorized",
+      "originalCategory": "opportunities",
+      "checkedAt": "2026-11-15T18:10:43.859Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "86e3f398eb33f2d0e6c502d92163363e6783ff39609971ddaf70fa9997033969",
+      "url": "https://click.mlsend.com/link/c/YT0zMTQzMTM4NzE5NTc0MjY3MzUyJmM9YzdlNiZlPTE5MjgmYj0xNTgxNDMxMzk5JmQ9YTlpM2YwaQ==.B_FYVoA1soPv0XKQy71UGQNLrzOjOBEQk825ISK0wVU",
+      "category": "uncategorized",
+      "originalCategory": "uncategorized",
+      "checkedAt": "2026-11-15T18:10:43.859Z",
+      "checks": {},
+      "missing": [
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "8b43124af77602c03911699e2f07595decb49f5d00c7a0f6486cd43bcb375e47",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOREdYS1NoRFozZzdyVWMtaU5IR21NVzlJM2E0Y2JMNUZxUVdXajRncl9DdFpZVmpETHZxZ1d1aVV6cFE5S2tjTFBhY0tGb1h2RnpibUJ4MFJZNmpybVY0YTQ2bWgxbXppRmQwcTRrT2JpQjlGR2QzaUp6TVBqWUMwN2dYOWQ2NW5BRmR1c3dhLUphVlVxTFVQOG1UUVNQZ0lreEZXbjFmdVRpNmJkQXNSR1NPUXhhVXFUTU14Njl6QW94MGE4QzU2X3FLSXJhVTJS",
+      "category": "uncategorized",
+      "originalCategory": "opportunities",
+      "checkedAt": "2026-11-15T18:10:43.859Z",
+      "checks": {},
+      "missing": [
         "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
