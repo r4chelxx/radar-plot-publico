@@ -1,12 +1,1097 @@
 {
-  "checkedAt": "2026-11-15T17:44:30.562Z",
+  "checkedAt": "2026-11-15T22:53:41.016Z",
   "policy": "404/410 and ArcGIS application errors within HTTP 200 become broken only after appearing as suspect or broken in the previous audit; blocked and network results are inconclusive",
   "counts": {
-    "ok": 591,
-    "blocked": 55,
-    "network": 65
+    "blocked": 67,
+    "ok": 648,
+    "network": 44
   },
   "results": [
+    {
+      "type": "opportunity",
+      "id": "auto-f6939f85c9edb7ae",
+      "field": "rules",
+      "url": "https://opportunitydesk.org/2026/11/06/ibci-fellowship-program-2027/",
+      "references": [
+        {
+          "type": "opportunity",
+          "id": "auto-f6939f85c9edb7ae",
+          "field": "rules"
+        },
+        {
+          "type": "opportunity",
+          "id": "auto-f6939f85c9edb7ae",
+          "field": "apply"
+        }
+      ],
+      "status": 403,
+      "finalUrl": "https://opportunitydesk.org/2026/11/06/ibci-fellowship-program-2027/",
+      "class": "blocked",
+      "attempts": [
+        403
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "auto-f6939f85c9edb7ae",
+      "field": "discoveryUrl",
+      "url": "https://opportunitydesk.org/2026/11/06/ibci-fellowship-program-2027",
+      "references": [
+        {
+          "type": "opportunity",
+          "id": "auto-f6939f85c9edb7ae",
+          "field": "discoveryUrl"
+        }
+      ],
+      "status": 403,
+      "finalUrl": "https://opportunitydesk.org/2026/11/06/ibci-fellowship-program-2027",
+      "class": "blocked",
+      "attempts": [
+        403
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "auto-dae634846be2c9d7",
+      "field": "rules",
+      "url": "https://opportunitydesk.org/2026/11/09/icann-fellowship-program-2027/",
+      "references": [
+        {
+          "type": "opportunity",
+          "id": "auto-dae634846be2c9d7",
+          "field": "rules"
+        },
+        {
+          "type": "opportunity",
+          "id": "auto-dae634846be2c9d7",
+          "field": "apply"
+        }
+      ],
+      "status": 403,
+      "finalUrl": "https://opportunitydesk.org/2026/11/09/icann-fellowship-program-2027/",
+      "class": "blocked",
+      "attempts": [
+        403
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "auto-dae634846be2c9d7",
+      "field": "discoveryUrl",
+      "url": "https://opportunitydesk.org/2026/11/09/icann-fellowship-program-2027",
+      "references": [
+        {
+          "type": "opportunity",
+          "id": "auto-dae634846be2c9d7",
+          "field": "discoveryUrl"
+        }
+      ],
+      "status": 403,
+      "finalUrl": "https://opportunitydesk.org/2026/11/09/icann-fellowship-program-2027",
+      "class": "blocked",
+      "attempts": [
+        403
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "auto-de556452b18095df",
+      "field": "rules",
+      "url": "https://opportunitydesk.org/2026/11/09/effie-lions-foundation-voices-of-the-future-global-fellowship-2027/",
+      "references": [
+        {
+          "type": "opportunity",
+          "id": "auto-de556452b18095df",
+          "field": "rules"
+        },
+        {
+          "type": "opportunity",
+          "id": "auto-de556452b18095df",
+          "field": "apply"
+        }
+      ],
+      "status": 403,
+      "finalUrl": "https://opportunitydesk.org/2026/11/09/effie-lions-foundation-voices-of-the-future-global-fellowship-2027/",
+      "class": "blocked",
+      "attempts": [
+        403
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "auto-de556452b18095df",
+      "field": "discoveryUrl",
+      "url": "https://opportunitydesk.org/2026/11/09/effie-lions-foundation-voices-of-the-future-global-fellowship-2027",
+      "references": [
+        {
+          "type": "opportunity",
+          "id": "auto-de556452b18095df",
+          "field": "discoveryUrl"
+        }
+      ],
+      "status": 403,
+      "finalUrl": "https://opportunitydesk.org/2026/11/09/effie-lions-foundation-voices-of-the-future-global-fellowship-2027",
+      "class": "blocked",
+      "attempts": [
+        403
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "auto-a09fd4fe55d78dbc",
+      "field": "rules",
+      "url": "https://opportunitydesk.org/2026/11/13/ucd-iseult-honohan-doctoral-scholarship-2027/",
+      "references": [
+        {
+          "type": "opportunity",
+          "id": "auto-a09fd4fe55d78dbc",
+          "field": "rules"
+        },
+        {
+          "type": "opportunity",
+          "id": "auto-a09fd4fe55d78dbc",
+          "field": "apply"
+        }
+      ],
+      "status": 403,
+      "finalUrl": "https://opportunitydesk.org/2026/11/13/ucd-iseult-honohan-doctoral-scholarship-2027/",
+      "class": "blocked",
+      "attempts": [
+        403
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "auto-a09fd4fe55d78dbc",
+      "field": "discoveryUrl",
+      "url": "https://opportunitydesk.org/2026/11/13/ucd-iseult-honohan-doctoral-scholarship-2027",
+      "references": [
+        {
+          "type": "opportunity",
+          "id": "auto-a09fd4fe55d78dbc",
+          "field": "discoveryUrl"
+        }
+      ],
+      "status": 403,
+      "finalUrl": "https://opportunitydesk.org/2026/11/13/ucd-iseult-honohan-doctoral-scholarship-2027",
+      "class": "blocked",
+      "attempts": [
+        403
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "auto-db5803d418cdb8ed",
+      "field": "rules",
+      "url": "https://opportunitydesk.org/2026/11/13/bayer-foundation-scientific-fellowships-2027/",
+      "references": [
+        {
+          "type": "opportunity",
+          "id": "auto-db5803d418cdb8ed",
+          "field": "rules"
+        },
+        {
+          "type": "opportunity",
+          "id": "auto-db5803d418cdb8ed",
+          "field": "apply"
+        }
+      ],
+      "status": 403,
+      "finalUrl": "https://opportunitydesk.org/2026/11/13/bayer-foundation-scientific-fellowships-2027/",
+      "class": "blocked",
+      "attempts": [
+        403
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "auto-db5803d418cdb8ed",
+      "field": "discoveryUrl",
+      "url": "https://opportunitydesk.org/2026/11/13/bayer-foundation-scientific-fellowships-2027",
+      "references": [
+        {
+          "type": "opportunity",
+          "id": "auto-db5803d418cdb8ed",
+          "field": "discoveryUrl"
+        }
+      ],
+      "status": 403,
+      "finalUrl": "https://opportunitydesk.org/2026/11/13/bayer-foundation-scientific-fellowships-2027",
+      "class": "blocked",
+      "attempts": [
+        403
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "auto-f313a1b2aaf9bab8",
+      "field": "rules",
+      "url": "https://opportunitydesk.org/2026/11/11/anh-academy-science-policy-fellowships-2027-round-3/",
+      "references": [
+        {
+          "type": "opportunity",
+          "id": "auto-f313a1b2aaf9bab8",
+          "field": "rules"
+        },
+        {
+          "type": "opportunity",
+          "id": "auto-f313a1b2aaf9bab8",
+          "field": "apply"
+        }
+      ],
+      "status": 403,
+      "finalUrl": "https://opportunitydesk.org/2026/11/11/anh-academy-science-policy-fellowships-2027-round-3/",
+      "class": "blocked",
+      "attempts": [
+        403
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "auto-f313a1b2aaf9bab8",
+      "field": "discoveryUrl",
+      "url": "https://opportunitydesk.org/2026/11/11/anh-academy-science-policy-fellowships-2027-round-3",
+      "references": [
+        {
+          "type": "opportunity",
+          "id": "auto-f313a1b2aaf9bab8",
+          "field": "discoveryUrl"
+        }
+      ],
+      "status": 403,
+      "finalUrl": "https://opportunitydesk.org/2026/11/11/anh-academy-science-policy-fellowships-2027-round-3",
+      "class": "blocked",
+      "attempts": [
+        403
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "auto-e73e7f5fdda53daa",
+      "field": "rules",
+      "url": "https://opportunitydesk.org/2026/11/07/cega-visiting-fellowship-2027-2028/",
+      "references": [
+        {
+          "type": "opportunity",
+          "id": "auto-e73e7f5fdda53daa",
+          "field": "rules"
+        },
+        {
+          "type": "opportunity",
+          "id": "auto-e73e7f5fdda53daa",
+          "field": "apply"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://opportunitydesk.org/2026/11/07/cega-visiting-fellowship-2027-2028/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "auto-e73e7f5fdda53daa",
+      "field": "discoveryUrl",
+      "url": "https://opportunitydesk.org/2026/11/07/cega-visiting-fellowship-2027-2028",
+      "references": [
+        {
+          "type": "opportunity",
+          "id": "auto-e73e7f5fdda53daa",
+          "field": "discoveryUrl"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://opportunitydesk.org/2026/11/07/cega-visiting-fellowship-2027-2028/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "auto-94a646811b984c25",
+      "field": "rules",
+      "url": "https://opportunitydesk.org/2026/11/05/crassh-visiting-fellowships-for-scholars-from-the-global-south-2027/",
+      "references": [
+        {
+          "type": "opportunity",
+          "id": "auto-94a646811b984c25",
+          "field": "rules"
+        },
+        {
+          "type": "opportunity",
+          "id": "auto-94a646811b984c25",
+          "field": "apply"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://opportunitydesk.org/2026/11/05/crassh-visiting-fellowships-for-scholars-from-the-global-south-2027/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "auto-94a646811b984c25",
+      "field": "discoveryUrl",
+      "url": "https://opportunitydesk.org/2026/11/05/crassh-visiting-fellowships-for-scholars-from-the-global-south-2027",
+      "references": [
+        {
+          "type": "opportunity",
+          "id": "auto-94a646811b984c25",
+          "field": "discoveryUrl"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://opportunitydesk.org/2026/11/05/crassh-visiting-fellowships-for-scholars-from-the-global-south-2027/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "auto-69c877447f93b5bd",
+      "field": "rules",
+      "url": "https://opportunitydesk.org/2026/11/11/commonwealth-shared-scholarship-programme-2027-2028/",
+      "references": [
+        {
+          "type": "opportunity",
+          "id": "auto-69c877447f93b5bd",
+          "field": "rules"
+        },
+        {
+          "type": "opportunity",
+          "id": "auto-69c877447f93b5bd",
+          "field": "apply"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://opportunitydesk.org/2026/11/11/commonwealth-shared-scholarship-programme-2027-2028/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "auto-69c877447f93b5bd",
+      "field": "discoveryUrl",
+      "url": "https://opportunitydesk.org/2026/11/11/commonwealth-shared-scholarship-programme-2027-2028",
+      "references": [
+        {
+          "type": "opportunity",
+          "id": "auto-69c877447f93b5bd",
+          "field": "discoveryUrl"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://opportunitydesk.org/2026/11/11/commonwealth-shared-scholarship-programme-2027-2028/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "auto-7b0ab2f5fcee3506",
+      "field": "rules",
+      "url": "https://opportunitydesk.org/2026/11/11/afdb-group-shou-scholarship-masters-degree-program-2027/",
+      "references": [
+        {
+          "type": "opportunity",
+          "id": "auto-7b0ab2f5fcee3506",
+          "field": "rules"
+        },
+        {
+          "type": "opportunity",
+          "id": "auto-7b0ab2f5fcee3506",
+          "field": "apply"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://opportunitydesk.org/2026/11/11/afdb-group-shou-scholarship-masters-degree-program-2027/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "auto-7b0ab2f5fcee3506",
+      "field": "discoveryUrl",
+      "url": "https://opportunitydesk.org/2026/11/11/afdb-group-shou-scholarship-masters-degree-program-2027",
+      "references": [
+        {
+          "type": "opportunity",
+          "id": "auto-7b0ab2f5fcee3506",
+          "field": "discoveryUrl"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://opportunitydesk.org/2026/11/11/afdb-group-shou-scholarship-masters-degree-program-2027/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "auto-f3ed499d05010525",
+      "field": "rules",
+      "url": "https://opportunitydesk.org/2026/11/12/gratitude-network-fellowship-2027/",
+      "references": [
+        {
+          "type": "opportunity",
+          "id": "auto-f3ed499d05010525",
+          "field": "rules"
+        },
+        {
+          "type": "opportunity",
+          "id": "auto-f3ed499d05010525",
+          "field": "apply"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://opportunitydesk.org/2026/11/12/gratitude-network-fellowship-2027/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "auto-f3ed499d05010525",
+      "field": "discoveryUrl",
+      "url": "https://opportunitydesk.org/2026/11/12/gratitude-network-fellowship-2027",
+      "references": [
+        {
+          "type": "opportunity",
+          "id": "auto-f3ed499d05010525",
+          "field": "discoveryUrl"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://opportunitydesk.org/2026/11/12/gratitude-network-fellowship-2027/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "auto-545034bb0ede7096",
+      "field": "rules",
+      "url": "https://opportunitydesk.org/2026/11/11/awf-geospatial-leaders-fellowship-2027/",
+      "references": [
+        {
+          "type": "opportunity",
+          "id": "auto-545034bb0ede7096",
+          "field": "rules"
+        },
+        {
+          "type": "opportunity",
+          "id": "auto-545034bb0ede7096",
+          "field": "apply"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://opportunitydesk.org/2026/11/11/awf-geospatial-leaders-fellowship-2027/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "auto-545034bb0ede7096",
+      "field": "discoveryUrl",
+      "url": "https://opportunitydesk.org/2026/11/11/awf-geospatial-leaders-fellowship-2027",
+      "references": [
+        {
+          "type": "opportunity",
+          "id": "auto-545034bb0ede7096",
+          "field": "discoveryUrl"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://opportunitydesk.org/2026/11/11/awf-geospatial-leaders-fellowship-2027/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "auto-aedc388869508d21",
+      "field": "rules",
+      "url": "https://opportunitydesk.org/2026/11/11/africa-dyslexia-teacher-fellowship-program-2027/",
+      "references": [
+        {
+          "type": "opportunity",
+          "id": "auto-aedc388869508d21",
+          "field": "rules"
+        },
+        {
+          "type": "opportunity",
+          "id": "auto-aedc388869508d21",
+          "field": "apply"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://opportunitydesk.org/2026/11/11/africa-dyslexia-teacher-fellowship-program-2027/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "auto-aedc388869508d21",
+      "field": "discoveryUrl",
+      "url": "https://opportunitydesk.org/2026/11/11/africa-dyslexia-teacher-fellowship-program-2027",
+      "references": [
+        {
+          "type": "opportunity",
+          "id": "auto-aedc388869508d21",
+          "field": "discoveryUrl"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://opportunitydesk.org/2026/11/11/africa-dyslexia-teacher-fellowship-program-2027/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "auto-0d368c641b24a8ef",
+      "field": "rules",
+      "url": "https://opportunitydesk.org/2026/10/29/green-global-fellowship-2027/",
+      "references": [
+        {
+          "type": "opportunity",
+          "id": "auto-0d368c641b24a8ef",
+          "field": "rules"
+        },
+        {
+          "type": "opportunity",
+          "id": "auto-0d368c641b24a8ef",
+          "field": "apply"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://opportunitydesk.org/2026/10/29/green-global-fellowship-2027/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "auto-0d368c641b24a8ef",
+      "field": "discoveryUrl",
+      "url": "https://opportunitydesk.org/2026/10/29/green-global-fellowship-2027",
+      "references": [
+        {
+          "type": "opportunity",
+          "id": "auto-0d368c641b24a8ef",
+          "field": "discoveryUrl"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://opportunitydesk.org/2026/10/29/green-global-fellowship-2027/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "auto-83c5913e44b43ec4",
+      "field": "rules",
+      "url": "https://opportunitydesk.org/2026/11/11/harvard-kennedy-school-american-service-fellowship-2027/",
+      "references": [
+        {
+          "type": "opportunity",
+          "id": "auto-83c5913e44b43ec4",
+          "field": "rules"
+        },
+        {
+          "type": "opportunity",
+          "id": "auto-83c5913e44b43ec4",
+          "field": "apply"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://opportunitydesk.org/2026/11/11/harvard-kennedy-school-american-service-fellowship-2027/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "auto-83c5913e44b43ec4",
+      "field": "discoveryUrl",
+      "url": "https://opportunitydesk.org/2026/11/11/harvard-kennedy-school-american-service-fellowship-2027",
+      "references": [
+        {
+          "type": "opportunity",
+          "id": "auto-83c5913e44b43ec4",
+          "field": "discoveryUrl"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://opportunitydesk.org/2026/11/11/harvard-kennedy-school-american-service-fellowship-2027/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "auto-ba010ac2ff6829c7",
+      "field": "rules",
+      "url": "https://opportunitydesk.org/2026/11/12/thrive-capital-summer-fellowship-2027/",
+      "references": [
+        {
+          "type": "opportunity",
+          "id": "auto-ba010ac2ff6829c7",
+          "field": "rules"
+        },
+        {
+          "type": "opportunity",
+          "id": "auto-ba010ac2ff6829c7",
+          "field": "apply"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://opportunitydesk.org/2026/11/12/thrive-capital-summer-fellowship-2027/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "auto-ba010ac2ff6829c7",
+      "field": "discoveryUrl",
+      "url": "https://opportunitydesk.org/2026/11/12/thrive-capital-summer-fellowship-2027",
+      "references": [
+        {
+          "type": "opportunity",
+          "id": "auto-ba010ac2ff6829c7",
+          "field": "discoveryUrl"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://opportunitydesk.org/2026/11/12/thrive-capital-summer-fellowship-2027/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "auto-4108f1a86ca4c52d",
+      "field": "rules",
+      "url": "https://opportunitydesk.org/2026/11/12/dsti-nrf-policy-fellowship-programme-2027/",
+      "references": [
+        {
+          "type": "opportunity",
+          "id": "auto-4108f1a86ca4c52d",
+          "field": "rules"
+        },
+        {
+          "type": "opportunity",
+          "id": "auto-4108f1a86ca4c52d",
+          "field": "apply"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://opportunitydesk.org/2026/11/12/dsti-nrf-policy-fellowship-programme-2027/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "auto-4108f1a86ca4c52d",
+      "field": "discoveryUrl",
+      "url": "https://opportunitydesk.org/2026/11/12/dsti-nrf-policy-fellowship-programme-2027",
+      "references": [
+        {
+          "type": "opportunity",
+          "id": "auto-4108f1a86ca4c52d",
+          "field": "discoveryUrl"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://opportunitydesk.org/2026/11/12/dsti-nrf-policy-fellowship-programme-2027/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "auto-d95bb1167167d1e7",
+      "field": "rules",
+      "url": "https://opportunitydesk.org/2026/11/03/mastercard-foundation-edtech-fellowship-uganda-cohort-2/",
+      "references": [
+        {
+          "type": "opportunity",
+          "id": "auto-d95bb1167167d1e7",
+          "field": "rules"
+        },
+        {
+          "type": "opportunity",
+          "id": "auto-d95bb1167167d1e7",
+          "field": "apply"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://opportunitydesk.org/2026/11/03/mastercard-foundation-edtech-fellowship-uganda-cohort-2/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "auto-d95bb1167167d1e7",
+      "field": "discoveryUrl",
+      "url": "https://opportunitydesk.org/2026/11/03/mastercard-foundation-edtech-fellowship-uganda-cohort-2",
+      "references": [
+        {
+          "type": "opportunity",
+          "id": "auto-d95bb1167167d1e7",
+          "field": "discoveryUrl"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://opportunitydesk.org/2026/11/03/mastercard-foundation-edtech-fellowship-uganda-cohort-2/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "auto-22e9cfbb34d83006",
+      "field": "rules",
+      "url": "https://opportunitydesk.org/2026/11/07/arewa-creative-writing-and-advocacy-fellowship-2026-cohort-1/",
+      "references": [
+        {
+          "type": "opportunity",
+          "id": "auto-22e9cfbb34d83006",
+          "field": "rules"
+        },
+        {
+          "type": "opportunity",
+          "id": "auto-22e9cfbb34d83006",
+          "field": "apply"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://opportunitydesk.org/2026/11/07/arewa-creative-writing-and-advocacy-fellowship-2026-cohort-1/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "auto-22e9cfbb34d83006",
+      "field": "discoveryUrl",
+      "url": "https://opportunitydesk.org/2026/11/07/arewa-creative-writing-and-advocacy-fellowship-2026-cohort-1",
+      "references": [
+        {
+          "type": "opportunity",
+          "id": "auto-22e9cfbb34d83006",
+          "field": "discoveryUrl"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://opportunitydesk.org/2026/11/07/arewa-creative-writing-and-advocacy-fellowship-2026-cohort-1/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "auto-20694f2c66b11f71",
+      "field": "rules",
+      "url": "https://opportunitydesk.org/2026/10/29/hans-de-wit-fellowship-2027/",
+      "references": [
+        {
+          "type": "opportunity",
+          "id": "auto-20694f2c66b11f71",
+          "field": "rules"
+        },
+        {
+          "type": "opportunity",
+          "id": "auto-20694f2c66b11f71",
+          "field": "apply"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://opportunitydesk.org/2026/10/29/hans-de-wit-fellowship-2027/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "auto-20694f2c66b11f71",
+      "field": "discoveryUrl",
+      "url": "https://opportunitydesk.org/2026/10/29/hans-de-wit-fellowship-2027",
+      "references": [
+        {
+          "type": "opportunity",
+          "id": "auto-20694f2c66b11f71",
+          "field": "discoveryUrl"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://opportunitydesk.org/2026/10/29/hans-de-wit-fellowship-2027/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "auto-7c236b79b5067b22",
+      "field": "rules",
+      "url": "https://opportunitydesk.org/2026/11/09/morgridge-acceleration-program-fellowship-2027/",
+      "references": [
+        {
+          "type": "opportunity",
+          "id": "auto-7c236b79b5067b22",
+          "field": "rules"
+        },
+        {
+          "type": "opportunity",
+          "id": "auto-7c236b79b5067b22",
+          "field": "apply"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://opportunitydesk.org/2026/11/09/morgridge-acceleration-program-fellowship-2027/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "auto-7c236b79b5067b22",
+      "field": "discoveryUrl",
+      "url": "https://opportunitydesk.org/2026/11/09/morgridge-acceleration-program-fellowship-2027",
+      "references": [
+        {
+          "type": "opportunity",
+          "id": "auto-7c236b79b5067b22",
+          "field": "discoveryUrl"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://opportunitydesk.org/2026/11/09/morgridge-acceleration-program-fellowship-2027/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "auto-99cc7fdcdfd04015",
+      "field": "rules",
+      "url": "https://opportunitydesk.org/2026/11/10/nature-culture-fellowship-2027/",
+      "references": [
+        {
+          "type": "opportunity",
+          "id": "auto-99cc7fdcdfd04015",
+          "field": "rules"
+        },
+        {
+          "type": "opportunity",
+          "id": "auto-99cc7fdcdfd04015",
+          "field": "apply"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://opportunitydesk.org/2026/11/10/nature-culture-fellowship-2027/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "auto-99cc7fdcdfd04015",
+      "field": "discoveryUrl",
+      "url": "https://opportunitydesk.org/2026/11/10/nature-culture-fellowship-2027",
+      "references": [
+        {
+          "type": "opportunity",
+          "id": "auto-99cc7fdcdfd04015",
+          "field": "discoveryUrl"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://opportunitydesk.org/2026/11/10/nature-culture-fellowship-2027/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "auto-07c30c0c9c4875b0",
+      "field": "rules",
+      "url": "https://opportunitydesk.org/2026/11/10/career-pathways-initiative-fellowship-2027/",
+      "references": [
+        {
+          "type": "opportunity",
+          "id": "auto-07c30c0c9c4875b0",
+          "field": "rules"
+        },
+        {
+          "type": "opportunity",
+          "id": "auto-07c30c0c9c4875b0",
+          "field": "apply"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://opportunitydesk.org/2026/11/10/career-pathways-initiative-fellowship-2027/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "auto-07c30c0c9c4875b0",
+      "field": "discoveryUrl",
+      "url": "https://opportunitydesk.org/2026/11/10/career-pathways-initiative-fellowship-2027",
+      "references": [
+        {
+          "type": "opportunity",
+          "id": "auto-07c30c0c9c4875b0",
+          "field": "discoveryUrl"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://opportunitydesk.org/2026/11/10/career-pathways-initiative-fellowship-2027/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "auto-3eaf309bafe21ae1",
+      "field": "rules",
+      "url": "https://gfmd.info/fundings/german-northern-european-journalists-fellowship-2027/",
+      "references": [
+        {
+          "type": "opportunity",
+          "id": "auto-3eaf309bafe21ae1",
+          "field": "rules"
+        },
+        {
+          "type": "opportunity",
+          "id": "auto-3eaf309bafe21ae1",
+          "field": "apply"
+        },
+        {
+          "type": "opportunity",
+          "id": "ijp-german-northern-european-fellowship-2027",
+          "field": "discoveryUrl"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://gfmd.info/fundings/german-northern-european-journalists-fellowship-2027/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "auto-3eaf309bafe21ae1",
+      "field": "discoveryUrl",
+      "url": "https://gfmd.info/fundings/german-northern-european-journalists-fellowship-2027",
+      "references": [
+        {
+          "type": "opportunity",
+          "id": "auto-3eaf309bafe21ae1",
+          "field": "discoveryUrl"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://gfmd.info/fundings/german-northern-european-journalists-fellowship-2027/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "auto-257ac44fe3495eb7",
+      "field": "rules",
+      "url": "https://gfmd.info/fundings/call-for-proposals-media-freedom-rapid-response-mechanism-2027/",
+      "references": [
+        {
+          "type": "opportunity",
+          "id": "auto-257ac44fe3495eb7",
+          "field": "rules"
+        },
+        {
+          "type": "opportunity",
+          "id": "auto-257ac44fe3495eb7",
+          "field": "apply"
+        },
+        {
+          "type": "opportunity",
+          "id": "eu-media-freedom-rapid-response-2027",
+          "field": "discoveryUrl"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://gfmd.info/fundings/call-for-proposals-media-freedom-rapid-response-mechanism-2027/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "auto-257ac44fe3495eb7",
+      "field": "discoveryUrl",
+      "url": "https://gfmd.info/fundings/call-for-proposals-media-freedom-rapid-response-mechanism-2027",
+      "references": [
+        {
+          "type": "opportunity",
+          "id": "auto-257ac44fe3495eb7",
+          "field": "discoveryUrl"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://gfmd.info/fundings/call-for-proposals-media-freedom-rapid-response-mechanism-2027/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
     {
       "type": "opportunity",
       "id": "6530d95d514e0315a32b8d162d842176e19c0ef110d0dde9ac04122c78b6f56c",
@@ -28,7 +1113,6 @@
       "finalUrl": "https://www.generonumero.media/artigos/programa-de-bolsas-aborto-em-pilulas/",
       "class": "ok",
       "attempts": [
-        "TypeError:fetch failed",
         200
       ]
     },
@@ -315,25 +1399,6 @@
       ],
       "status": 200,
       "finalUrl": "https://ijp.org/austauschprogramme/nordeuropa/",
-      "class": "ok",
-      "attempts": [
-        200
-      ]
-    },
-    {
-      "type": "opportunity",
-      "id": "ijp-german-northern-european-fellowship-2027",
-      "field": "discoveryUrl",
-      "url": "https://gfmd.info/fundings/german-northern-european-journalists-fellowship-2027/",
-      "references": [
-        {
-          "type": "opportunity",
-          "id": "ijp-german-northern-european-fellowship-2027",
-          "field": "discoveryUrl"
-        }
-      ],
-      "status": 200,
-      "finalUrl": "https://gfmd.info/fundings/german-northern-european-journalists-fellowship-2027/",
       "class": "ok",
       "attempts": [
         200
@@ -655,25 +1720,6 @@
       ],
       "status": 200,
       "finalUrl": "https://digital-strategy.ec.europa.eu/en/funding/call-proposals-media-freedom-rapid-response-mechanism-2027",
-      "class": "ok",
-      "attempts": [
-        200
-      ]
-    },
-    {
-      "type": "opportunity",
-      "id": "eu-media-freedom-rapid-response-2027",
-      "field": "discoveryUrl",
-      "url": "https://gfmd.info/fundings/call-for-proposals-media-freedom-rapid-response-mechanism-2027/",
-      "references": [
-        {
-          "type": "opportunity",
-          "id": "eu-media-freedom-rapid-response-2027",
-          "field": "discoveryUrl"
-        }
-      ],
-      "status": 200,
-      "finalUrl": "https://gfmd.info/fundings/call-for-proposals-media-freedom-rapid-response-mechanism-2027/",
       "class": "ok",
       "attempts": [
         200
@@ -2382,13 +3428,11 @@
           "field": "apply"
         }
       ],
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://nationalpress.org/training/apply-2026-rare-disease-reporting-fellowship-and-grants/",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -2408,13 +3452,11 @@
           "field": "url"
         }
       ],
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://nationalpress.org/programs/",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -6666,7 +7708,6 @@
       "finalUrl": "https://dadosabertos.ibama.gov.br/dataset/fiscalizacao-termo-de-embargo",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -7368,7 +8409,7 @@
       "class": "network",
       "error": "TypeError:fetch failed",
       "attempts": [
-        "AbortError:This operation was aborted",
+        "TypeError:fetch failed",
         "TypeError:fetch failed"
       ]
     },
@@ -7389,7 +8430,7 @@
       "class": "network",
       "error": "TypeError:fetch failed",
       "attempts": [
-        "AbortError:This operation was aborted",
+        "TypeError:fetch failed",
         "TypeError:fetch failed"
       ]
     },
@@ -7410,7 +8451,7 @@
       "class": "network",
       "error": "TypeError:fetch failed",
       "attempts": [
-        "AbortError:This operation was aborted",
+        "TypeError:fetch failed",
         "TypeError:fetch failed"
       ]
     },
@@ -7431,7 +8472,7 @@
       "class": "network",
       "error": "TypeError:fetch failed",
       "attempts": [
-        "AbortError:This operation was aborted",
+        "TypeError:fetch failed",
         "TypeError:fetch failed"
       ]
     },
@@ -7468,13 +8509,11 @@
           "field": "url"
         }
       ],
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://www.transparencia.ba.gov.br/Portal",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -7489,13 +8528,11 @@
           "field": "url"
         }
       ],
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://www.ba.gov.br/ssp/publicacoes",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -7510,13 +8547,11 @@
           "field": "url"
         }
       ],
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://www.ba.gov.br/ssp/dados-abertos",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -7614,13 +8649,11 @@
           "field": "url"
         }
       ],
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "AbortError:This operation was aborted",
+      "status": 200,
+      "finalUrl": "https://datasus.saude.gov.br/",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "AbortError:This operation was aborted"
+        200
       ]
     },
     {
@@ -7832,13 +8865,11 @@
           "field": "url"
         }
       ],
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://www.ba.gov.br/inema/servicos/dados-geoespaciais",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -7858,13 +8889,11 @@
           "field": "url"
         }
       ],
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://www.ba.gov.br/inema/atende/outorga",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -7942,13 +8971,12 @@
           "field": "url"
         }
       ],
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://www.ba.gov.br/saude/suvisa/vigilancia-epidemiologica",
+      "class": "ok",
       "attempts": [
         "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -7967,6 +8995,7 @@
       "finalUrl": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados",
       "class": "ok",
       "attempts": [
+        "TypeError:fetch failed",
         200
       ]
     },
@@ -8102,6 +9131,7 @@
       "finalUrl": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/censo-escolar",
       "class": "ok",
       "attempts": [
+        "TypeError:fetch failed",
         200
       ]
     },
@@ -8117,13 +9147,11 @@
           "field": "url"
         }
       ],
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://sigeduc.educacao.ba.gov.br/sigeduc/public/transparencia/pages/consulta/relatorio_escolas/relEscolasEtapaModalidadeAnalitico.jsf",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -8320,7 +9348,7 @@
       "class": "network",
       "error": "TypeError:fetch failed",
       "attempts": [
-        "AbortError:This operation was aborted",
+        "TypeError:fetch failed",
         "TypeError:fetch failed"
       ]
     },
@@ -8341,7 +9369,7 @@
       "class": "network",
       "error": "TypeError:fetch failed",
       "attempts": [
-        "AbortError:This operation was aborted",
+        "TypeError:fetch failed",
         "TypeError:fetch failed"
       ]
     },
@@ -8362,7 +9390,7 @@
       "class": "network",
       "error": "TypeError:fetch failed",
       "attempts": [
-        "AbortError:This operation was aborted",
+        "TypeError:fetch failed",
         "TypeError:fetch failed"
       ]
     },
@@ -8383,7 +9411,7 @@
       "class": "network",
       "error": "TypeError:fetch failed",
       "attempts": [
-        "AbortError:This operation was aborted",
+        "TypeError:fetch failed",
         "TypeError:fetch failed"
       ]
     },
@@ -8404,7 +9432,7 @@
       "class": "network",
       "error": "TypeError:fetch failed",
       "attempts": [
-        "AbortError:This operation was aborted",
+        "TypeError:fetch failed",
         "TypeError:fetch failed"
       ]
     },
@@ -8425,7 +9453,7 @@
       "class": "network",
       "error": "TypeError:fetch failed",
       "attempts": [
-        "AbortError:This operation was aborted",
+        "TypeError:fetch failed",
         "TypeError:fetch failed"
       ]
     },
@@ -8446,7 +9474,7 @@
       "class": "network",
       "error": "TypeError:fetch failed",
       "attempts": [
-        "AbortError:This operation was aborted",
+        "TypeError:fetch failed",
         "TypeError:fetch failed"
       ]
     },
@@ -8467,7 +9495,7 @@
       "class": "network",
       "error": "TypeError:fetch failed",
       "attempts": [
-        "AbortError:This operation was aborted",
+        "TypeError:fetch failed",
         "TypeError:fetch failed"
       ]
     },
@@ -8488,13 +9516,11 @@
           "field": "url"
         }
       ],
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "AbortError:This operation was aborted",
+      "status": 200,
+      "finalUrl": "https://datasus.saude.gov.br/acesso-a-informacao/producao-hospitalar-sih-sus/",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "AbortError:This operation was aborted"
+        200
       ]
     },
     {
@@ -8514,13 +9540,11 @@
           "field": "url"
         }
       ],
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "AbortError:This operation was aborted",
+      "status": 200,
+      "finalUrl": "https://datasus.saude.gov.br/cnes-recursos-fisicos/",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "AbortError:This operation was aborted"
+        200
       ]
     },
     {
@@ -8535,13 +9559,11 @@
           "field": "url"
         }
       ],
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://biobr.saude.ba.gov.br/static/obitomaterno.php",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -8556,13 +9578,11 @@
           "field": "url"
         }
       ],
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://www.ba.gov.br/saude/",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -8577,13 +9597,11 @@
           "field": "url"
         }
       ],
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "AbortError:This operation was aborted",
+      "status": 200,
+      "finalUrl": "https://datasus.saude.gov.br/cnes-recursos-humanos-a-partir-de-agosto-de-2007-ocupacoes-classificadas-pela-cbo-2002/",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "AbortError:This operation was aborted"
+        200
       ]
     },
     {
@@ -8683,13 +9701,11 @@
           "field": "url"
         }
       ],
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://www.ba.gov.br/inema/banner/consulta-de-processos",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -8704,13 +9720,11 @@
           "field": "url"
         }
       ],
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://www.ba.gov.br/inema/atende/formularios/outorga",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -8725,13 +9739,11 @@
           "field": "url"
         }
       ],
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://www.ba.gov.br/inema/legislacao/normas-tecnicas-e-portarias",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -8788,6 +9800,7 @@
       "finalUrl": "https://www.gov.br/mme/pt-br/acesso-a-informacao/legislacao",
       "class": "ok",
       "attempts": [
+        "TypeError:fetch failed",
         200
       ]
     },
@@ -8846,13 +9859,11 @@
           "field": "docs"
         }
       ],
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://www.ba.gov.br/fpc/arquivo-publico-acervo",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -8909,13 +9920,11 @@
           "field": "url"
         }
       ],
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://www.ba.gov.br/sde/incentivos",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -9050,13 +10059,11 @@
           "field": "url"
         }
       ],
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "AbortError:This operation was aborted",
+      "status": 200,
+      "finalUrl": "https://dadosabertos.ibama.gov.br/dataset/fiscalizacao-auto-de-infracao",
+      "class": "ok",
       "attempts": [
-        502,
-        "AbortError:This operation was aborted"
+        200
       ]
     },
     {
@@ -11492,7 +12499,6 @@
       "finalUrl": "http://faroljornalismo.cc/blog/",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
