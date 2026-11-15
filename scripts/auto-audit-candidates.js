@@ -36,8 +36,8 @@ function deriveOpportunity(lead,url){
 }
 function deriveDataset(lead,url){
  const se=lead.structuredEvidence||{};
- const title=se.title||lead.pageTitle||lead.sourcePageTitle;
- const description=se.description||lead.pageDescription;
+ const title=cleanTitle(se.title||lead.pageTitle||lead.sourcePageTitle,lead.source||'');
+ const description=cleanSummary(se.description||lead.pageDescription,title,lead.source||'');
  const organization=se.organization||lead.organization||lead.source||host(url)||'Fonte oficial';
  if(lead.category!=='datasets'||!title||!description||description.length<80||!organization)return null;
  const sourceType=String(se.sourceType||'').toLowerCase();
@@ -60,8 +60,10 @@ function deriveTool(lead,url){
  if(excludedToolPage||navigationTool)return null;
  if(lead.category!=='tools'||!title||!description||description.length<80)return null;
  const sourceType=String(se.sourceType||'').toLowerCase();
- if(sourceType&&!/software|application|tool|product|creativework|softwareapplication/.test(sourceType))return null;
+ if(sourceType&&!/software|application|tool|product|softwareapplication/.test(sourceType))return null;
  const evidenceText=[title,description,url].join(' ');
+ const nonProduct=/\\b(?:podcast|newsletter|article|report|news|course|training|conference|event|community|series|blog|publication|story)\\b/i.test([title,description].join(' '));
+ if(nonProduct)return null;
  const inferredKind=/\\bplugin\\b/i.test(evidenceText)?'plugin de dados':/\\b(?:library|biblioteca)\\b/i.test(evidenceText)?'biblioteca de software':/\\b(?:api|sdk|cli)\\b/i.test(evidenceText)?'API/SDK/CLI para dados':/\\b(?:framework|plataforma|platform)\\b/i.test(evidenceText)?'plataforma de dados':null;
  if(!sourceType&&!inferredKind)return null;
  return {id:derivedId(url),name:title,kind:se.sourceType||inferredKind,url,desc:description+' Revisar licença, limites, privacidade e acessibilidade antes do uso editorial.',discoveryUrl:lead.url};
