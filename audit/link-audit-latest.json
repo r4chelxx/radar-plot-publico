@@ -1,266 +1,12 @@
 {
-  "checkedAt": "2026-11-15T23:17:59.707Z",
+  "checkedAt": "2026-11-15T23:35:36.188Z",
   "policy": "404/410 and ArcGIS application errors within HTTP 200 become broken only after appearing as suspect or broken in the previous audit; blocked and network results are inconclusive",
   "counts": {
-    "blocked": 58,
-    "ok": 609,
-    "network": 54
+    "network": 50,
+    "ok": 605,
+    "blocked": 56
   },
   "results": [
-    {
-      "type": "opportunity",
-      "id": "auto-52b6669badd2e4f2",
-      "field": "rules",
-      "url": "https://opportunitydesk.org/2026/10/27/dpoa-mtr-journalism-fellowship-2027/",
-      "references": [
-        {
-          "type": "opportunity",
-          "id": "auto-52b6669badd2e4f2",
-          "field": "rules"
-        },
-        {
-          "type": "opportunity",
-          "id": "auto-52b6669badd2e4f2",
-          "field": "apply"
-        }
-      ],
-      "status": 403,
-      "finalUrl": "https://opportunitydesk.org/2026/10/27/dpoa-mtr-journalism-fellowship-2027/",
-      "class": "blocked",
-      "attempts": [
-        403
-      ]
-    },
-    {
-      "type": "opportunity",
-      "id": "auto-52b6669badd2e4f2",
-      "field": "discoveryUrl",
-      "url": "https://opportunitydesk.org/2026/10/27/dpoa-mtr-journalism-fellowship-2027",
-      "references": [
-        {
-          "type": "opportunity",
-          "id": "auto-52b6669badd2e4f2",
-          "field": "discoveryUrl"
-        }
-      ],
-      "status": 403,
-      "finalUrl": "https://opportunitydesk.org/2026/10/27/dpoa-mtr-journalism-fellowship-2027",
-      "class": "blocked",
-      "attempts": [
-        403
-      ]
-    },
-    {
-      "type": "opportunity",
-      "id": "auto-b2fde425407fcb72",
-      "field": "rules",
-      "url": "https://gfmd.info/fundings/fund-for-investigative-journalism-grants-3/",
-      "references": [
-        {
-          "type": "opportunity",
-          "id": "auto-b2fde425407fcb72",
-          "field": "rules"
-        },
-        {
-          "type": "opportunity",
-          "id": "auto-b2fde425407fcb72",
-          "field": "apply"
-        }
-      ],
-      "status": 200,
-      "finalUrl": "https://gfmd.info/fundings/fund-for-investigative-journalism-grants-3/",
-      "class": "ok",
-      "attempts": [
-        200
-      ]
-    },
-    {
-      "type": "opportunity",
-      "id": "auto-b2fde425407fcb72",
-      "field": "discoveryUrl",
-      "url": "https://gfmd.info/fundings/fund-for-investigative-journalism-grants-3",
-      "references": [
-        {
-          "type": "opportunity",
-          "id": "auto-b2fde425407fcb72",
-          "field": "discoveryUrl"
-        }
-      ],
-      "status": 200,
-      "finalUrl": "https://gfmd.info/fundings/fund-for-investigative-journalism-grants-3/",
-      "class": "ok",
-      "attempts": [
-        200
-      ]
-    },
-    {
-      "type": "opportunity",
-      "id": "auto-6e1f40b17012f23d",
-      "field": "rules",
-      "url": "https://centerforhealthjournalism.org/index%2Ephp/fellowships-grants/california-fellowship",
-      "references": [
-        {
-          "type": "opportunity",
-          "id": "auto-6e1f40b17012f23d",
-          "field": "rules"
-        },
-        {
-          "type": "opportunity",
-          "id": "auto-6e1f40b17012f23d",
-          "field": "apply"
-        },
-        {
-          "type": "opportunity",
-          "id": "auto-6e1f40b17012f23d",
-          "field": "discoveryUrl"
-        }
-      ],
-      "status": 200,
-      "finalUrl": "https://centerforhealthjournalism.org/index%2Ephp/fellowships-grants/california-fellowship",
-      "class": "ok",
-      "attempts": [
-        200
-      ]
-    },
-    {
-      "type": "opportunity",
-      "id": "auto-a0d383efcd6f6ab9",
-      "field": "rules",
-      "url": "https://gfmd.info/fundings/ejn-renewable-energy-story-grants-india/",
-      "references": [
-        {
-          "type": "opportunity",
-          "id": "auto-a0d383efcd6f6ab9",
-          "field": "rules"
-        },
-        {
-          "type": "opportunity",
-          "id": "auto-a0d383efcd6f6ab9",
-          "field": "apply"
-        }
-      ],
-      "status": 200,
-      "finalUrl": "https://gfmd.info/fundings/ejn-renewable-energy-story-grants-india/",
-      "class": "ok",
-      "attempts": [
-        200
-      ]
-    },
-    {
-      "type": "opportunity",
-      "id": "auto-a0d383efcd6f6ab9",
-      "field": "discoveryUrl",
-      "url": "https://gfmd.info/fundings/ejn-renewable-energy-story-grants-india",
-      "references": [
-        {
-          "type": "opportunity",
-          "id": "auto-a0d383efcd6f6ab9",
-          "field": "discoveryUrl"
-        }
-      ],
-      "status": 200,
-      "finalUrl": "https://gfmd.info/fundings/ejn-renewable-energy-story-grants-india/",
-      "class": "ok",
-      "attempts": [
-        200
-      ]
-    },
-    {
-      "type": "opportunity",
-      "id": "auto-3eaf309bafe21ae1",
-      "field": "rules",
-      "url": "https://gfmd.info/fundings/german-northern-european-journalists-fellowship-2027/",
-      "references": [
-        {
-          "type": "opportunity",
-          "id": "auto-3eaf309bafe21ae1",
-          "field": "rules"
-        },
-        {
-          "type": "opportunity",
-          "id": "auto-3eaf309bafe21ae1",
-          "field": "apply"
-        },
-        {
-          "type": "opportunity",
-          "id": "ijp-german-northern-european-fellowship-2027",
-          "field": "discoveryUrl"
-        }
-      ],
-      "status": 200,
-      "finalUrl": "https://gfmd.info/fundings/german-northern-european-journalists-fellowship-2027/",
-      "class": "ok",
-      "attempts": [
-        200
-      ]
-    },
-    {
-      "type": "opportunity",
-      "id": "auto-3eaf309bafe21ae1",
-      "field": "discoveryUrl",
-      "url": "https://gfmd.info/fundings/german-northern-european-journalists-fellowship-2027",
-      "references": [
-        {
-          "type": "opportunity",
-          "id": "auto-3eaf309bafe21ae1",
-          "field": "discoveryUrl"
-        }
-      ],
-      "status": 200,
-      "finalUrl": "https://gfmd.info/fundings/german-northern-european-journalists-fellowship-2027/",
-      "class": "ok",
-      "attempts": [
-        200
-      ]
-    },
-    {
-      "type": "opportunity",
-      "id": "auto-257ac44fe3495eb7",
-      "field": "rules",
-      "url": "https://gfmd.info/fundings/call-for-proposals-media-freedom-rapid-response-mechanism-2027/",
-      "references": [
-        {
-          "type": "opportunity",
-          "id": "auto-257ac44fe3495eb7",
-          "field": "rules"
-        },
-        {
-          "type": "opportunity",
-          "id": "auto-257ac44fe3495eb7",
-          "field": "apply"
-        },
-        {
-          "type": "opportunity",
-          "id": "eu-media-freedom-rapid-response-2027",
-          "field": "discoveryUrl"
-        }
-      ],
-      "status": 200,
-      "finalUrl": "https://gfmd.info/fundings/call-for-proposals-media-freedom-rapid-response-mechanism-2027/",
-      "class": "ok",
-      "attempts": [
-        200
-      ]
-    },
-    {
-      "type": "opportunity",
-      "id": "auto-257ac44fe3495eb7",
-      "field": "discoveryUrl",
-      "url": "https://gfmd.info/fundings/call-for-proposals-media-freedom-rapid-response-mechanism-2027",
-      "references": [
-        {
-          "type": "opportunity",
-          "id": "auto-257ac44fe3495eb7",
-          "field": "discoveryUrl"
-        }
-      ],
-      "status": 200,
-      "finalUrl": "https://gfmd.info/fundings/call-for-proposals-media-freedom-rapid-response-mechanism-2027/",
-      "class": "ok",
-      "attempts": [
-        200
-      ]
-    },
     {
       "type": "opportunity",
       "id": "6530d95d514e0315a32b8d162d842176e19c0ef110d0dde9ac04122c78b6f56c",
@@ -278,11 +24,13 @@
           "field": "apply"
         }
       ],
-      "status": 200,
-      "finalUrl": "https://www.generonumero.media/artigos/programa-de-bolsas-aborto-em-pilulas/",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "TypeError:fetch failed",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -568,6 +316,25 @@
       ],
       "status": 200,
       "finalUrl": "https://ijp.org/austauschprogramme/nordeuropa/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "ijp-german-northern-european-fellowship-2027",
+      "field": "discoveryUrl",
+      "url": "https://gfmd.info/fundings/german-northern-european-journalists-fellowship-2027/",
+      "references": [
+        {
+          "type": "opportunity",
+          "id": "ijp-german-northern-european-fellowship-2027",
+          "field": "discoveryUrl"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://gfmd.info/fundings/german-northern-european-journalists-fellowship-2027/",
       "class": "ok",
       "attempts": [
         200
@@ -887,8 +654,29 @@
           "field": "apply"
         }
       ],
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "AbortError:This operation was aborted",
+      "attempts": [
+        "AbortError:This operation was aborted",
+        "AbortError:This operation was aborted"
+      ]
+    },
+    {
+      "type": "opportunity",
+      "id": "eu-media-freedom-rapid-response-2027",
+      "field": "discoveryUrl",
+      "url": "https://gfmd.info/fundings/call-for-proposals-media-freedom-rapid-response-mechanism-2027/",
+      "references": [
+        {
+          "type": "opportunity",
+          "id": "eu-media-freedom-rapid-response-2027",
+          "field": "discoveryUrl"
+        }
+      ],
       "status": 200,
-      "finalUrl": "https://digital-strategy.ec.europa.eu/en/funding/call-proposals-media-freedom-rapid-response-mechanism-2027",
+      "finalUrl": "https://gfmd.info/fundings/call-for-proposals-media-freedom-rapid-response-mechanism-2027/",
       "class": "ok",
       "attempts": [
         200
@@ -1131,11 +919,13 @@
           "field": "apply"
         }
       ],
-      "status": 200,
-      "finalUrl": "https://digital-strategy.ec.europa.eu/en/funding/call-proposals-journalism-partnerships-collaborations-2027",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "AbortError:This operation was aborted",
       "attempts": [
-        200
+        "AbortError:This operation was aborted",
+        "AbortError:This operation was aborted"
       ]
     },
     {
@@ -2737,11 +2527,11 @@
           "field": "discoveryUrl"
         }
       ],
-      "status": 403,
+      "status": 200,
       "finalUrl": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/apply-join-ocean-reporting-network-orn",
-      "class": "blocked",
+      "class": "ok",
       "attempts": [
-        403
+        200
       ]
     },
     {
@@ -4091,11 +3881,11 @@
           "field": "apply"
         }
       ],
-      "status": 200,
+      "status": 403,
       "finalUrl": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/gender-equality-grant",
-      "class": "ok",
+      "class": "blocked",
       "attempts": [
-        200
+        403
       ]
     },
     {
@@ -4115,11 +3905,11 @@
           "field": "apply"
         }
       ],
-      "status": 200,
+      "status": 403,
       "finalUrl": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/global-reporting-grants",
-      "class": "ok",
+      "class": "blocked",
       "attempts": [
-        200
+        403
       ]
     },
     {
@@ -6877,6 +6667,7 @@
       "finalUrl": "https://dadosabertos.ibama.gov.br/dataset/fiscalizacao-termo-de-embargo",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -6975,12 +6766,11 @@
           "field": "url"
         }
       ],
-      "status": 429,
+      "status": 200,
       "finalUrl": "https://www.gov.br/anatel/pt-br/dados/dados-abertos",
-      "class": "blocked",
+      "class": "ok",
       "attempts": [
-        "TypeError:fetch failed",
-        429
+        200
       ]
     },
     {
@@ -7621,7 +7411,7 @@
       "class": "network",
       "error": "TypeError:fetch failed",
       "attempts": [
-        "AbortError:This operation was aborted",
+        "TypeError:fetch failed",
         "TypeError:fetch failed"
       ]
     },
@@ -7642,7 +7432,7 @@
       "class": "network",
       "error": "TypeError:fetch failed",
       "attempts": [
-        "AbortError:This operation was aborted",
+        "TypeError:fetch failed",
         "TypeError:fetch failed"
       ]
     },
@@ -7663,7 +7453,7 @@
       "class": "network",
       "error": "TypeError:fetch failed",
       "attempts": [
-        "AbortError:This operation was aborted",
+        "TypeError:fetch failed",
         "TypeError:fetch failed"
       ]
     },
@@ -7679,13 +7469,11 @@
           "field": "url"
         }
       ],
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://www.transparencia.ba.gov.br/Portal",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -7700,13 +7488,12 @@
           "field": "url"
         }
       ],
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://www.ba.gov.br/ssp/publicacoes",
+      "class": "ok",
       "attempts": [
         "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -7721,13 +7508,12 @@
           "field": "url"
         }
       ],
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://www.ba.gov.br/ssp/dados-abertos",
+      "class": "ok",
       "attempts": [
         "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -7763,13 +7549,11 @@
           "field": "url"
         }
       ],
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://dados.ons.org.br/",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -7789,13 +7573,11 @@
           "field": "url"
         }
       ],
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://dados.ons.org.br/dataset/restricao_coff_fotovoltaica",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -7810,13 +7592,11 @@
           "field": "url"
         }
       ],
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://dados.ons.org.br/dataset/restricao_coff_fotovoltaica_detail",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -8252,7 +8032,6 @@
       "finalUrl": "https://www.gov.br/ana/pt-br/assuntos/regulacao-e-fiscalizacao/cadastro-nacional-de-usuarios-recursos-hidricos-cnarh",
       "class": "ok",
       "attempts": [
-        "TypeError:fetch failed",
         200
       ]
     },
@@ -8445,7 +8224,6 @@
       "finalUrl": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/acoes-e-programas/programas-projetos-acoes-obras-e-atividades/estatisticas-trabalho/novo-caged/2026/setembro/pagina-inicial",
       "class": "ok",
       "attempts": [
-        "TypeError:fetch failed",
         200
       ]
     },
@@ -8740,13 +8518,11 @@
           "field": "url"
         }
       ],
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://biobr.saude.ba.gov.br/static/obitomaterno.php",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -8765,7 +8541,6 @@
       "finalUrl": "https://www.ba.gov.br/saude/",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -8800,11 +8575,13 @@
           "field": "url"
         }
       ],
-      "status": 200,
-      "finalUrl": "https://wiki.datasus.gov.br/sigtap/index.php/P%C3%A1gina_principal",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "AbortError:This operation was aborted",
       "attempts": [
-        200
+        "AbortError:This operation was aborted",
+        "AbortError:This operation was aborted"
       ]
     },
     {
@@ -8984,7 +8761,6 @@
       "finalUrl": "https://www.gov.br/mme/pt-br/acesso-a-informacao/legislacao",
       "class": "ok",
       "attempts": [
-        "TypeError:fetch failed",
         200
       ]
     },
@@ -9628,7 +9404,6 @@
       "finalUrl": "https://dadosabertos.bcb.gov.br/dataset/pix",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -9644,13 +9419,11 @@
           "field": "api"
         }
       ],
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "AbortError:This operation was aborted",
+      "status": 200,
+      "finalUrl": "https://dadosabertos.bcb.gov.br/dataset/pix/resource/ad02192b-67c7-47bf-b8c3-c90e2a54c5eb",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "AbortError:This operation was aborted"
+        200
       ]
     },
     {
@@ -9802,6 +9575,7 @@
       "finalUrl": "https://cds.climate.copernicus.eu/",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -11291,6 +11065,7 @@
       "finalUrl": "https://www.generonumero.media/",
       "class": "ok",
       "attempts": [
+        "TypeError:fetch failed",
         200
       ]
     },
@@ -12322,30 +12097,6 @@
     },
     {
       "type": "tool",
-      "id": "auto-2e096d36f77afbee",
-      "field": "url",
-      "url": "https://podcasts.apple.com/us/podcast/show-tell-from-indicator/id1874133168",
-      "references": [
-        {
-          "type": "tool",
-          "id": "auto-2e096d36f77afbee",
-          "field": "url"
-        },
-        {
-          "type": "tool",
-          "id": "auto-2e096d36f77afbee",
-          "field": "discoveryUrl"
-        }
-      ],
-      "status": 200,
-      "finalUrl": "https://podcasts.apple.com/us/podcast/show-tell-from-indicator/id1874133168",
-      "class": "ok",
-      "attempts": [
-        200
-      ]
-    },
-    {
-      "type": "tool",
       "id": "733c36409f57a6d64b4eb49ac945a060082aa3ebc58f68ebc56d21824af048b3",
       "field": "url",
       "url": "https://cran.r-project.org/package=fedmatch",
@@ -13240,6 +12991,7 @@
       "finalUrl": "https://inkscape.org/",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
