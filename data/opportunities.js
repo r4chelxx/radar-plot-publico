@@ -1,6 +1,105 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.opportunities=[
 {
+  "id": "auto-e7c2d412b50c66e7",
+  "title": "MCW Global Young Leaders Fellowship 2027 (Funded)",
+  "org": "Opportunity Desk",
+  "summary": "Deadline: December 3, 2026 Applications are open for the MCW Global Young Leaders Fellowship 2027 . The Fellowship Program aims to mobilize young people with the skills and resources needed to create and implement vision plans in the areas of education, health, and economic security. MCW Global’s Young Leaders Fellowship begins with the Community Needs Assessment – A one-month community needs mapping that prepares young people, between the ages of 18-26, from around the world to understand their local communities better. After the community needs assessment, Young Leaders participate in a 10-day intensive in-person training program that helps them become leaders of positive change in their communities. After the in-person training program, participants return to their communities to spend ten months developing their action plans with virtual support from alumni mentors. Program Content T",
+  "type": "Oportunidade editorial",
+  "themes": [
+    "Oportunidade editorial"
+  ],
+  "scope": "Não especificado",
+  "deadline": "2026-12-03",
+  "deadlineStatus": "prazo extraído de metadado estruturado da fonte oficial; horário e condições devem ser conferidos na página",
+  "eligibility": "parcial",
+  "fit": 5,
+  "status": "aberta",
+  "value": "Não informado na fonte estruturada",
+  "duration": "Não informado na fonte estruturada",
+  "modality": "Não especificado",
+  "documents": [],
+  "restrictions": [],
+  "rules": "https://opportunitydesk.org/2026/11/07/mcw-global-young-leaders-fellowship-2027-funded/",
+  "apply": "https://opportunitydesk.org/2026/11/07/mcw-global-young-leaders-fellowship-2027-funded/",
+  "verified": "2026-11-15",
+  "desc": "Deadline: December 3, 2026 Applications are open for the MCW Global Young Leaders Fellowship 2027 . The Fellowship Program aims to mobilize young people with the skills and resources needed to create and implement vision plans in the areas of education, health, and economic security. MCW Global’s Young Leaders Fellowship begins with the Community Needs Assessment – A one-month community needs mapping that prepares young people, between the ages of 18-26, from around the world to understand their local communities better. After the community needs assessment, Young Leaders participate in a 10-day intensive in-person training program that helps them become leaders of positive change in their communities. After the in-person training program, participants return to their communities to spend ten months developing their action plans with virtual support from alumni mentors. Program Content T",
+  "discoveryUrl": "https://opportunitydesk.org/2026/11/07/mcw-global-young-leaders-fellowship-2027-funded",
+  "verificationHistory": [
+    {
+      "date": "2026-11-15",
+      "status": "aberta",
+      "source": "https://opportunitydesk.org/2026/11/07/mcw-global-young-leaders-fellowship-2027-funded/"
+    }
+  ]
+},
+{
+  "id": "auto-d7023e39c8bfb663",
+  "title": "Global Burden of Disease (GBD) Fellowship 2027",
+  "org": "Opportunity Desk",
+  "summary": "Deadline: December 21, 2026 Applications are open for the Global Burden of Disease (GBD) Fellowship 2027 . The GBD Fellowship is an early-career, cohort-based postdoctoral training program at the Institute for Health Metrics and Evaluation (IHME) at the University of Washington in Seattle. It is built for researchers who want careers in health metrics and who want to build them by contributing directly to GBD, the most comprehensive effort to measure health loss and its causes worldwide. Fellows work within GBD’s established research areas and priorities. They train in GBD methods, rotate across IHME research teams, and contribute to the production of GBD estimates and related scientific publications. Within that scope, fellows are encouraged to take ownership of their analyses and lead methodological improvements. The Fellowship is two years in length, with potential for a third-year ex",
+  "type": "Oportunidade editorial",
+  "themes": [
+    "Oportunidade editorial"
+  ],
+  "scope": "Não especificado",
+  "deadline": "2026-12-21",
+  "deadlineStatus": "prazo extraído de metadado estruturado da fonte oficial; horário e condições devem ser conferidos na página",
+  "eligibility": "parcial",
+  "fit": 5,
+  "status": "aberta",
+  "value": "Não informado na fonte estruturada",
+  "duration": "Não informado na fonte estruturada",
+  "modality": "Não especificado",
+  "documents": [],
+  "restrictions": [],
+  "rules": "https://opportunitydesk.org/2026/10/30/gbd-fellowship-2027/",
+  "apply": "https://opportunitydesk.org/2026/10/30/gbd-fellowship-2027/",
+  "verified": "2026-11-15",
+  "desc": "Deadline: December 21, 2026 Applications are open for the Global Burden of Disease (GBD) Fellowship 2027 . The GBD Fellowship is an early-career, cohort-based postdoctoral training program at the Institute for Health Metrics and Evaluation (IHME) at the University of Washington in Seattle. It is built for researchers who want careers in health metrics and who want to build them by contributing directly to GBD, the most comprehensive effort to measure health loss and its causes worldwide. Fellows work within GBD’s established research areas and priorities. They train in GBD methods, rotate across IHME research teams, and contribute to the production of GBD estimates and related scientific publications. Within that scope, fellows are encouraged to take ownership of their analyses and lead methodological improvements. The Fellowship is two years in length, with potential for a third-year ex",
+  "discoveryUrl": "https://opportunitydesk.org/2026/10/30/gbd-fellowship-2027",
+  "verificationHistory": [
+    {
+      "date": "2026-11-15",
+      "status": "aberta",
+      "source": "https://opportunitydesk.org/2026/10/30/gbd-fellowship-2027/"
+    }
+  ]
+},
+{
+  "id": "auto-52b6669badd2e4f2",
+  "title": "United Nations DPoA MTR Journalism Fellowship 2027 (Fully-funded)",
+  "org": "Opportunity Desk",
+  "summary": "Deadline: November 30, 2026 Applications are open for the United Nations DPoA MTR Journalism Fellowship 2027 . This is a fully funded opportunity for journalists from Least Developed Countries to attend and cover the 2027 Midterm Review of the Doha Programme of Action (DPoA MTR) in Doha, Qatar. The DPoA is the overarching framework for accelerating sustainable development and supporting sustainable graduation from the LDC category. The High-level Midterm Review is an opportunity to take stock of implementation, assess progress and gaps, and strengthen partnerships for the remainder of the decade. Priority Areas Reporting proposals are encouraged to engage with one or more of the six DPoA priority areas. Investing in people: Eradicating poverty, improving health, education, and social protection, and building human capital so that no one is left behind. Leveraging science, technology and",
+  "type": "Oportunidade editorial",
+  "themes": [
+    "Oportunidade editorial"
+  ],
+  "scope": "Não especificado",
+  "deadline": "2026-11-30",
+  "deadlineStatus": "prazo extraído de metadado estruturado da fonte oficial; horário e condições devem ser conferidos na página",
+  "eligibility": "parcial",
+  "fit": 5,
+  "status": "aberta",
+  "value": "Não informado na fonte estruturada",
+  "duration": "Não informado na fonte estruturada",
+  "modality": "Não especificado",
+  "documents": [],
+  "restrictions": [],
+  "rules": "https://opportunitydesk.org/2026/10/27/dpoa-mtr-journalism-fellowship-2027/",
+  "apply": "https://opportunitydesk.org/2026/10/27/dpoa-mtr-journalism-fellowship-2027/",
+  "verified": "2026-11-15",
+  "desc": "Deadline: November 30, 2026 Applications are open for the United Nations DPoA MTR Journalism Fellowship 2027 . This is a fully funded opportunity for journalists from Least Developed Countries to attend and cover the 2027 Midterm Review of the Doha Programme of Action (DPoA MTR) in Doha, Qatar. The DPoA is the overarching framework for accelerating sustainable development and supporting sustainable graduation from the LDC category. The High-level Midterm Review is an opportunity to take stock of implementation, assess progress and gaps, and strengthen partnerships for the remainder of the decade. Priority Areas Reporting proposals are encouraged to engage with one or more of the six DPoA priority areas. Investing in people: Eradicating poverty, improving health, education, and social protection, and building human capital so that no one is left behind. Leveraging science, technology and",
+  "discoveryUrl": "https://opportunitydesk.org/2026/10/27/dpoa-mtr-journalism-fellowship-2027",
+  "verificationHistory": [
+    {
+      "date": "2026-11-15",
+      "status": "aberta",
+      "source": "https://opportunitydesk.org/2026/10/27/dpoa-mtr-journalism-fellowship-2027/"
+    }
+  ]
+}, 
+{
   "id": "auto-b2fde425407fcb72",
   "title": "Fund for Investigative Journalism grants",
   "org": "GFMD",
