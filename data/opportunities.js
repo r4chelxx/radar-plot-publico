@@ -1,934 +1,10 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.opportunities=[
-{
-  "id": "auto-e7c2d412b50c66e7",
-  "title": "MCW Global Young Leaders Fellowship 2027 (Funded)",
-  "org": "Opportunity Desk",
-  "summary": "Deadline: December 3, 2026 Applications are open for the MCW Global Young Leaders Fellowship 2027 . The Fellowship Program aims to mobilize young people with the skills and resources needed to create and implement vision plans in the areas of education, health, and economic security. MCW Global’s Young Leaders Fellowship begins with the Community Needs Assessment – A one-month community needs mapping that prepares young people, between the ages of 18-26, from around the world to understand their local communities better. After the community needs assessment, Young Leaders participate in a 10-day intensive in-person training program that helps them become leaders of positive change in their communities. After the in-person training program, participants return to their communities to spend ten months developing their action plans with virtual support from alumni mentors. Program Content T",
-  "type": "Oportunidade editorial",
-  "themes": [
-    "Oportunidade editorial"
-  ],
-  "scope": "Não especificado",
-  "deadline": "2026-12-03",
-  "deadlineStatus": "prazo extraído de metadado estruturado da fonte oficial; horário e condições devem ser conferidos na página",
-  "eligibility": "parcial",
-  "fit": 5,
-  "status": "aberta",
-  "value": "Não informado na fonte estruturada",
-  "duration": "Não informado na fonte estruturada",
-  "modality": "Não especificado",
-  "documents": [],
-  "restrictions": [],
-  "rules": "https://opportunitydesk.org/2026/11/07/mcw-global-young-leaders-fellowship-2027-funded/",
-  "apply": "https://opportunitydesk.org/2026/11/07/mcw-global-young-leaders-fellowship-2027-funded/",
-  "verified": "2026-11-15",
-  "desc": "Deadline: December 3, 2026 Applications are open for the MCW Global Young Leaders Fellowship 2027 . The Fellowship Program aims to mobilize young people with the skills and resources needed to create and implement vision plans in the areas of education, health, and economic security. MCW Global’s Young Leaders Fellowship begins with the Community Needs Assessment – A one-month community needs mapping that prepares young people, between the ages of 18-26, from around the world to understand their local communities better. After the community needs assessment, Young Leaders participate in a 10-day intensive in-person training program that helps them become leaders of positive change in their communities. After the in-person training program, participants return to their communities to spend ten months developing their action plans with virtual support from alumni mentors. Program Content T",
-  "discoveryUrl": "https://opportunitydesk.org/2026/11/07/mcw-global-young-leaders-fellowship-2027-funded",
-  "verificationHistory": [
-    {
-      "date": "2026-11-15",
-      "status": "aberta",
-      "source": "https://opportunitydesk.org/2026/11/07/mcw-global-young-leaders-fellowship-2027-funded/"
-    }
-  ]
-},
-{
-  "id": "auto-d7023e39c8bfb663",
-  "title": "Global Burden of Disease (GBD) Fellowship 2027",
-  "org": "Opportunity Desk",
-  "summary": "Deadline: December 21, 2026 Applications are open for the Global Burden of Disease (GBD) Fellowship 2027 . The GBD Fellowship is an early-career, cohort-based postdoctoral training program at the Institute for Health Metrics and Evaluation (IHME) at the University of Washington in Seattle. It is built for researchers who want careers in health metrics and who want to build them by contributing directly to GBD, the most comprehensive effort to measure health loss and its causes worldwide. Fellows work within GBD’s established research areas and priorities. They train in GBD methods, rotate across IHME research teams, and contribute to the production of GBD estimates and related scientific publications. Within that scope, fellows are encouraged to take ownership of their analyses and lead methodological improvements. The Fellowship is two years in length, with potential for a third-year ex",
-  "type": "Oportunidade editorial",
-  "themes": [
-    "Oportunidade editorial"
-  ],
-  "scope": "Não especificado",
-  "deadline": "2026-12-21",
-  "deadlineStatus": "prazo extraído de metadado estruturado da fonte oficial; horário e condições devem ser conferidos na página",
-  "eligibility": "parcial",
-  "fit": 5,
-  "status": "aberta",
-  "value": "Não informado na fonte estruturada",
-  "duration": "Não informado na fonte estruturada",
-  "modality": "Não especificado",
-  "documents": [],
-  "restrictions": [],
-  "rules": "https://opportunitydesk.org/2026/10/30/gbd-fellowship-2027/",
-  "apply": "https://opportunitydesk.org/2026/10/30/gbd-fellowship-2027/",
-  "verified": "2026-11-15",
-  "desc": "Deadline: December 21, 2026 Applications are open for the Global Burden of Disease (GBD) Fellowship 2027 . The GBD Fellowship is an early-career, cohort-based postdoctoral training program at the Institute for Health Metrics and Evaluation (IHME) at the University of Washington in Seattle. It is built for researchers who want careers in health metrics and who want to build them by contributing directly to GBD, the most comprehensive effort to measure health loss and its causes worldwide. Fellows work within GBD’s established research areas and priorities. They train in GBD methods, rotate across IHME research teams, and contribute to the production of GBD estimates and related scientific publications. Within that scope, fellows are encouraged to take ownership of their analyses and lead methodological improvements. The Fellowship is two years in length, with potential for a third-year ex",
-  "discoveryUrl": "https://opportunitydesk.org/2026/10/30/gbd-fellowship-2027",
-  "verificationHistory": [
-    {
-      "date": "2026-11-15",
-      "status": "aberta",
-      "source": "https://opportunitydesk.org/2026/10/30/gbd-fellowship-2027/"
-    }
-  ]
-},
-{
-  "id": "auto-52b6669badd2e4f2",
-  "title": "United Nations DPoA MTR Journalism Fellowship 2027 (Fully-funded)",
-  "org": "Opportunity Desk",
-  "summary": "Deadline: November 30, 2026 Applications are open for the United Nations DPoA MTR Journalism Fellowship 2027 . This is a fully funded opportunity for journalists from Least Developed Countries to attend and cover the 2027 Midterm Review of the Doha Programme of Action (DPoA MTR) in Doha, Qatar. The DPoA is the overarching framework for accelerating sustainable development and supporting sustainable graduation from the LDC category. The High-level Midterm Review is an opportunity to take stock of implementation, assess progress and gaps, and strengthen partnerships for the remainder of the decade. Priority Areas Reporting proposals are encouraged to engage with one or more of the six DPoA priority areas. Investing in people: Eradicating poverty, improving health, education, and social protection, and building human capital so that no one is left behind. Leveraging science, technology and",
-  "type": "Oportunidade editorial",
-  "themes": [
-    "Oportunidade editorial"
-  ],
-  "scope": "Não especificado",
-  "deadline": "2026-11-30",
-  "deadlineStatus": "prazo extraído de metadado estruturado da fonte oficial; horário e condições devem ser conferidos na página",
-  "eligibility": "parcial",
-  "fit": 5,
-  "status": "aberta",
-  "value": "Não informado na fonte estruturada",
-  "duration": "Não informado na fonte estruturada",
-  "modality": "Não especificado",
-  "documents": [],
-  "restrictions": [],
-  "rules": "https://opportunitydesk.org/2026/10/27/dpoa-mtr-journalism-fellowship-2027/",
-  "apply": "https://opportunitydesk.org/2026/10/27/dpoa-mtr-journalism-fellowship-2027/",
-  "verified": "2026-11-15",
-  "desc": "Deadline: November 30, 2026 Applications are open for the United Nations DPoA MTR Journalism Fellowship 2027 . This is a fully funded opportunity for journalists from Least Developed Countries to attend and cover the 2027 Midterm Review of the Doha Programme of Action (DPoA MTR) in Doha, Qatar. The DPoA is the overarching framework for accelerating sustainable development and supporting sustainable graduation from the LDC category. The High-level Midterm Review is an opportunity to take stock of implementation, assess progress and gaps, and strengthen partnerships for the remainder of the decade. Priority Areas Reporting proposals are encouraged to engage with one or more of the six DPoA priority areas. Investing in people: Eradicating poverty, improving health, education, and social protection, and building human capital so that no one is left behind. Leveraging science, technology and",
-  "discoveryUrl": "https://opportunitydesk.org/2026/10/27/dpoa-mtr-journalism-fellowship-2027",
-  "verificationHistory": [
-    {
-      "date": "2026-11-15",
-      "status": "aberta",
-      "source": "https://opportunitydesk.org/2026/10/27/dpoa-mtr-journalism-fellowship-2027/"
-    }
-  ]
-}, 
-{
-  "id": "auto-b2fde425407fcb72",
-  "title": "Fund for Investigative Journalism grants",
-  "org": "GFMD",
-  "summary": "The Fund for Investigative Journalism provides grants and other support for reporters to produce high-quality, unbiased, nonpartisan investigative stories that have an impact.",
-  "type": "Oportunidade editorial",
-  "themes": [
-    "Oportunidade editorial"
-  ],
-  "scope": "Não especificado",
-  "deadline": "2027-01-29",
-  "deadlineStatus": "prazo extraído de metadado estruturado da fonte oficial; horário e condições devem ser conferidos na página",
-  "eligibility": "parcial",
-  "fit": 5,
-  "status": "aberta",
-  "value": "Não informado na fonte estruturada",
-  "duration": "Não informado na fonte estruturada",
-  "modality": "Não especificado",
-  "documents": [],
-  "restrictions": [],
-  "rules": "https://gfmd.info/fundings/fund-for-investigative-journalism-grants-3/",
-  "apply": "https://gfmd.info/fundings/fund-for-investigative-journalism-grants-3/",
-  "verified": "2026-11-15",
-  "desc": "The Fund for Investigative Journalism provides grants and other support for reporters to produce high-quality, unbiased, nonpartisan investigative stories that have an impact.",
-  "discoveryUrl": "https://gfmd.info/fundings/fund-for-investigative-journalism-grants-3",
-  "verificationHistory": [
-    {
-      "date": "2026-11-15",
-      "status": "aberta",
-      "source": "https://gfmd.info/fundings/fund-for-investigative-journalism-grants-3/"
-    }
-  ]
-},
-{
-  "id": "auto-e25a1e1dd4ba6eb6",
-  "title": "EDSAFE AI Fellowship 2027",
-  "org": "Opportunity Desk",
-  "summary": "Deadline: November 30, 2026 Applications for the EDSAFE AI Fellowship 2027 are now open. The EDSAFE AI Fellowship is a leadership development program designed to connect and empower underrepresented thought leaders in artificial intelligence (AI) in education. Through interactive workshops, mentorship, and a collaborative capstone project, Fellows gain a deeper understanding of AI’s ethical, safe, and equitable use in education. The Fellowship is not full-time. Fellowship Details Catalyst Fellowship: Bringing together education leaders across both practice and industry, this interdisciplinary fellowship unites the supply and demand sides of the sector to build a resilient, AI-enabled learning ecosystem. Fellows collaborate across traditional silos to ensure emerging technologies are safe by design, grounded in evidence, and built to elevate human judgment and student agency. Women in AI",
-  "type": "Oportunidade editorial",
-  "themes": [
-    "Oportunidade editorial"
-  ],
-  "scope": "Não especificado",
-  "deadline": "2026-11-30",
-  "deadlineStatus": "prazo extraído de metadado estruturado da fonte oficial; horário e condições devem ser conferidos na página",
-  "eligibility": "parcial",
-  "fit": 5,
-  "status": "aberta",
-  "value": "Não informado na fonte estruturada",
-  "duration": "Não informado na fonte estruturada",
-  "modality": "Não especificado",
-  "documents": [],
-  "restrictions": [],
-  "rules": "https://opportunitydesk.org/2026/11/04/edsafe-ai-fellowship-2027/",
-  "apply": "https://opportunitydesk.org/2026/11/04/edsafe-ai-fellowship-2027/",
-  "verified": "2026-11-15",
-  "desc": "Deadline: November 30, 2026 Applications for the EDSAFE AI Fellowship 2027 are now open. The EDSAFE AI Fellowship is a leadership development program designed to connect and empower underrepresented thought leaders in artificial intelligence (AI) in education. Through interactive workshops, mentorship, and a collaborative capstone project, Fellows gain a deeper understanding of AI’s ethical, safe, and equitable use in education. The Fellowship is not full-time. Fellowship Details Catalyst Fellowship: Bringing together education leaders across both practice and industry, this interdisciplinary fellowship unites the supply and demand sides of the sector to build a resilient, AI-enabled learning ecosystem. Fellows collaborate across traditional silos to ensure emerging technologies are safe by design, grounded in evidence, and built to elevate human judgment and student agency. Women in AI",
-  "discoveryUrl": "https://opportunitydesk.org/2026/11/04/edsafe-ai-fellowship-2027",
-  "verificationHistory": [
-    {
-      "date": "2026-11-15",
-      "status": "aberta",
-      "source": "https://opportunitydesk.org/2026/11/04/edsafe-ai-fellowship-2027/"
-    }
-  ]
-},
-{
-  "id": "auto-5be20206d02d6cd0",
-  "title": "University of Vienna Faculty of Law Fellowship Programme – Summer 2027",
-  "org": "Opportunity Desk",
-  "summary": "Deadline: November 30, 2026 Applications are open for the University of Vienna Faculty of Law Fellowship Programme – Summer 2027 . The programme aims to promote international academic exchange and foster collaboration between international fellows and members of the faculty. It offers both early-career and established researchers the opportunity to pursue their research in an international academic environment, benefit from the faculty’s expertise and establish new scholarly connections. Building on the faculty’s existing research initiatives and diverse research priorities, the programme seeks to encourage interdisciplinary exchange, strengthen international research networks and create opportunities for long-term academic collaboration. Fellowship For the summer semester of 2027, the Faculty of Law offers: Senior Fellowships for professors, providing financial support of EUR 1,050 per",
-  "type": "Oportunidade editorial",
-  "themes": [
-    "Oportunidade editorial"
-  ],
-  "scope": "Não especificado",
-  "deadline": "2026-11-30",
-  "deadlineStatus": "prazo extraído de metadado estruturado da fonte oficial; horário e condições devem ser conferidos na página",
-  "eligibility": "parcial",
-  "fit": 5,
-  "status": "aberta",
-  "value": "Não informado na fonte estruturada",
-  "duration": "Não informado na fonte estruturada",
-  "modality": "Não especificado",
-  "documents": [],
-  "restrictions": [],
-  "rules": "https://opportunitydesk.org/2026/11/05/university-of-vienna-faculty-of-law-fellowship-programme-summer-2027/",
-  "apply": "https://opportunitydesk.org/2026/11/05/university-of-vienna-faculty-of-law-fellowship-programme-summer-2027/",
-  "verified": "2026-11-15",
-  "desc": "Deadline: November 30, 2026 Applications are open for the University of Vienna Faculty of Law Fellowship Programme – Summer 2027 . The programme aims to promote international academic exchange and foster collaboration between international fellows and members of the faculty. It offers both early-career and established researchers the opportunity to pursue their research in an international academic environment, benefit from the faculty’s expertise and establish new scholarly connections. Building on the faculty’s existing research initiatives and diverse research priorities, the programme seeks to encourage interdisciplinary exchange, strengthen international research networks and create opportunities for long-term academic collaboration. Fellowship For the summer semester of 2027, the Faculty of Law offers: Senior Fellowships for professors, providing financial support of EUR 1,050 per",
-  "discoveryUrl": "https://opportunitydesk.org/2026/11/05/university-of-vienna-faculty-of-law-fellowship-programme-summer-2027",
-  "verificationHistory": [
-    {
-      "date": "2026-11-15",
-      "status": "aberta",
-      "source": "https://opportunitydesk.org/2026/11/05/university-of-vienna-faculty-of-law-fellowship-programme-summer-2027/"
-    }
-  ]
-},
-{
-  "id": "auto-587d8a585642f19c",
-  "title": "Backing International Small Restaurants Grant Program 2026",
-  "org": "Opportunity Desk",
-  "summary": "Deadline: November 16, 2026 Applications are open for the Backing International Small Restaurants Grant Program 2026 . The International Downtown Association Foundation recognizes that small restaurants are vital to thriving communities. The Backing International Small Restaurants grant program, supported by American Express, aims to help restaurants to grow, recover, and support their local communities. Funding can support a range of initiatives including enhancing digital capabilities, building or refreshing dining spaces and making improvements to kitchen operations. Grant Grants are available for the following funding amounts in the following cities: Auckland – 5 grants of NZD 25,000 Barcelona – 10 grants of EUR 12,500 London and Manchester – 20 grants of GBP 10,500 Melbourne and Sydney – 15 grants of AUD 20,000 Mexico City – 10 grants of MXN equivalent of USD $10,000 Milan – 5 grant",
-  "type": "Oportunidade editorial",
-  "themes": [
-    "Oportunidade editorial"
-  ],
-  "scope": "Não especificado",
-  "deadline": "2026-11-16",
-  "deadlineStatus": "prazo extraído de metadado estruturado da fonte oficial; horário e condições devem ser conferidos na página",
-  "eligibility": "parcial",
-  "fit": 5,
-  "status": "aberta",
-  "value": "Não informado na fonte estruturada",
-  "duration": "Não informado na fonte estruturada",
-  "modality": "Não especificado",
-  "documents": [],
-  "restrictions": [],
-  "rules": "https://opportunitydesk.org/2026/11/03/backing-international-small-restaurants-grant-program-2026/",
-  "apply": "https://opportunitydesk.org/2026/11/03/backing-international-small-restaurants-grant-program-2026/",
-  "verified": "2026-11-15",
-  "desc": "Deadline: November 16, 2026 Applications are open for the Backing International Small Restaurants Grant Program 2026 . The International Downtown Association Foundation recognizes that small restaurants are vital to thriving communities. The Backing International Small Restaurants grant program, supported by American Express, aims to help restaurants to grow, recover, and support their local communities. Funding can support a range of initiatives including enhancing digital capabilities, building or refreshing dining spaces and making improvements to kitchen operations. Grant Grants are available for the following funding amounts in the following cities: Auckland – 5 grants of NZD 25,000 Barcelona – 10 grants of EUR 12,500 London and Manchester – 20 grants of GBP 10,500 Melbourne and Sydney – 15 grants of AUD 20,000 Mexico City – 10 grants of MXN equivalent of USD $10,000 Milan – 5 grant",
-  "discoveryUrl": "https://opportunitydesk.org/2026/11/03/backing-international-small-restaurants-grant-program-2026",
-  "verificationHistory": [
-    {
-      "date": "2026-11-15",
-      "status": "aberta",
-      "source": "https://opportunitydesk.org/2026/11/03/backing-international-small-restaurants-grant-program-2026/"
-    }
-  ]
-},
-{
-  "id": "auto-6e1f40b17012f23d",
-  "title": "California Health Equity Fellowship",
-  "org": "USC Center for Health Journalism",
-  "summary": "Breadcrumb Home California Health Equity Fellowship Deadline to apply December 16, 2026 APPLY NOW Upcoming fellowship dates Fellowship: March–July 2027 In-person training: Week of March 15, 2027 Description Image Journalists spending time together during our 2026 California Health Equity Fellowship Week in March in Los Angeles.",
-  "type": "Oportunidade editorial",
-  "themes": [
-    "Oportunidade editorial"
-  ],
-  "scope": "Não especificado",
-  "deadline": "2026-12-16",
-  "deadlineStatus": "prazo extraído de metadado estruturado da fonte oficial; horário e condições devem ser conferidos na página",
-  "eligibility": "parcial",
-  "fit": 5,
-  "status": "aberta",
-  "value": "Não informado na fonte estruturada",
-  "duration": "Não informado na fonte estruturada",
-  "modality": "Não especificado",
-  "documents": [],
-  "restrictions": [],
-  "rules": "https://centerforhealthjournalism.org/index%2Ephp/fellowships-grants/california-fellowship",
-  "apply": "https://centerforhealthjournalism.org/index%2Ephp/fellowships-grants/california-fellowship",
-  "verified": "2026-11-15",
-  "desc": "Breadcrumb Home California Health Equity Fellowship Deadline to apply December 16, 2026 APPLY NOW Upcoming fellowship dates Fellowship: March–July 2027 In-person training: Week of March 15, 2027 Description Image Journalists spending time together during our 2026 California Health Equity Fellowship Week in March in Los Angeles.",
-  "discoveryUrl": "https://centerforhealthjournalism.org/index%2Ephp/fellowships-grants/california-fellowship",
-  "verificationHistory": [
-    {
-      "date": "2026-11-15",
-      "status": "aberta",
-      "source": "https://centerforhealthjournalism.org/index%2Ephp/fellowships-grants/california-fellowship"
-    }
-  ]
-},
-{
-  "id": "auto-1a4869f711248d4c",
-  "title": "Harvard Pollman Fellowship in Real Estate and Urban Development 2027 (up to $55,000)",
-  "org": "Opportunity Desk",
-  "summary": "Deadline: February 18, 2027 Applications are open for the Harvard Pollman Fellowship in Real Estate and Urban Development 2027 . Established in 2002 through the generous gift of Harold A. Pollman, the Pollman Fellowship in Real Estate and Urban Development is awarded to outstanding postdoctoral graduates in real estate and urban planning to spend one year as a visiting scholar at the Harvard University Graduate School of Design. While at Harvard, the fellow may audit courses and seek to supplement the fellowship with additional research assignments. The fellow is expected to teach an assigned course, produce at least one publishable paper in a refereed journal, participate in research workshops, deliver a presentation to the GSD community, and contribute to the life of the school. Benefits The fellowship is research-based, with a required teaching component, and offers a minimum award of",
-  "type": "Oportunidade editorial",
-  "themes": [
-    "Oportunidade editorial"
-  ],
-  "scope": "Não especificado",
-  "deadline": "2027-02-18",
-  "deadlineStatus": "prazo extraído de metadado estruturado da fonte oficial; horário e condições devem ser conferidos na página",
-  "eligibility": "parcial",
-  "fit": 5,
-  "status": "aberta",
-  "value": "Não informado na fonte estruturada",
-  "duration": "Não informado na fonte estruturada",
-  "modality": "Não especificado",
-  "documents": [],
-  "restrictions": [],
-  "rules": "https://opportunitydesk.org/2026/11/03/harvard-pollman-fellowship-in-real-estate-and-urban-development-2027/",
-  "apply": "https://opportunitydesk.org/2026/11/03/harvard-pollman-fellowship-in-real-estate-and-urban-development-2027/",
-  "verified": "2026-11-15",
-  "desc": "Deadline: February 18, 2027 Applications are open for the Harvard Pollman Fellowship in Real Estate and Urban Development 2027 . Established in 2002 through the generous gift of Harold A. Pollman, the Pollman Fellowship in Real Estate and Urban Development is awarded to outstanding postdoctoral graduates in real estate and urban planning to spend one year as a visiting scholar at the Harvard University Graduate School of Design. While at Harvard, the fellow may audit courses and seek to supplement the fellowship with additional research assignments. The fellow is expected to teach an assigned course, produce at least one publishable paper in a refereed journal, participate in research workshops, deliver a presentation to the GSD community, and contribute to the life of the school. Benefits The fellowship is research-based, with a required teaching component, and offers a minimum award of",
-  "discoveryUrl": "https://opportunitydesk.org/2026/11/03/harvard-pollman-fellowship-in-real-estate-and-urban-development-2027",
-  "verificationHistory": [
-    {
-      "date": "2026-11-15",
-      "status": "aberta",
-      "source": "https://opportunitydesk.org/2026/11/03/harvard-pollman-fellowship-in-real-estate-and-urban-development-2027/"
-    }
-  ]
-},
-{
-  "id": "auto-a0d383efcd6f6ab9",
-  "title": "EJN Renewable Energy Story Grants – India",
-  "org": "GFMD",
-  "summary": "The Earth Journalism Network funds journalists, communicators, and social media content creators based anywhere in India to produce in-depth reports on the renewable energy transition.",
-  "type": "Oportunidade editorial",
-  "themes": [
-    "Oportunidade editorial"
-  ],
-  "scope": "Não especificado",
-  "deadline": "2026-11-15",
-  "deadlineStatus": "prazo extraído de metadado estruturado da fonte oficial; horário e condições devem ser conferidos na página",
-  "eligibility": "parcial",
-  "fit": 5,
-  "status": "aberta",
-  "value": "Não informado na fonte estruturada",
-  "duration": "Não informado na fonte estruturada",
-  "modality": "Não especificado",
-  "documents": [],
-  "restrictions": [],
-  "rules": "https://gfmd.info/fundings/ejn-renewable-energy-story-grants-india/",
-  "apply": "https://gfmd.info/fundings/ejn-renewable-energy-story-grants-india/",
-  "verified": "2026-11-15",
-  "desc": "The Earth Journalism Network funds journalists, communicators, and social media content creators based anywhere in India to produce in-depth reports on the renewable energy transition.",
-  "discoveryUrl": "https://gfmd.info/fundings/ejn-renewable-energy-story-grants-india",
-  "verificationHistory": [
-    {
-      "date": "2026-11-15",
-      "status": "aberta",
-      "source": "https://gfmd.info/fundings/ejn-renewable-energy-story-grants-india/"
-    }
-  ]
-}, 
   {
-    "id": "auto-f6939f85c9edb7ae",
-    "title": "International Blue Carbon Institute (IBCI) Fellowship Program 2027 ($60,000 grant)",
+    "id": "auto-52b6669badd2e4f2",
+    "title": "United Nations DPoA MTR Journalism Fellowship 2027 (Fully-funded)",
     "org": "Opportunity Desk",
-    "summary": "International Blue Carbon Institute (IBCI) Fellowship Program 2027 ($60,000 grant) Prazo informado: 2026-11-23. Consulte a página oficial para confirmar elegibilidade, documentos e instruções de inscrição.",
-    "type": "Oportunidade editorial",
-    "themes": [
-      "Oportunidade editorial"
-    ],
-    "scope": "Não especificado",
-    "deadline": "2026-11-23",
-    "deadlineStatus": "prazo extraído de metadado estruturado da fonte oficial; horário e condições devem ser conferidos na página",
-    "eligibility": "parcial",
-    "fit": 5,
-    "status": "aberta",
-    "value": "Não informado na fonte estruturada",
-    "duration": "Não informado na fonte estruturada",
-    "modality": "Não especificado",
-    "documents": [],
-    "restrictions": [],
-    "rules": "https://opportunitydesk.org/2026/11/06/ibci-fellowship-program-2027/",
-    "apply": "https://opportunitydesk.org/2026/11/06/ibci-fellowship-program-2027/",
-    "verified": "2026-11-15",
-    "desc": "International Blue Carbon Institute (IBCI) Fellowship Program 2027 ($60,000 grant) Prazo informado: 2026-11-23. Consulte a página oficial para confirmar elegibilidade, documentos e instruções de inscrição.",
-    "discoveryUrl": "https://opportunitydesk.org/2026/11/06/ibci-fellowship-program-2027",
-    "verificationHistory": [
-      {
-        "date": "2026-11-15",
-        "status": "aberta",
-        "source": "https://opportunitydesk.org/2026/11/06/ibci-fellowship-program-2027/"
-      }
-    ]
-  },
-  {
-    "id": "auto-dae634846be2c9d7",
-    "title": "ICANN Fellowship Program 2027 to Attend ICANN89 Policy Forum in Vancouver, Canada (Funded)",
-    "org": "Opportunity Desk",
-    "summary": "ICANN Fellowship Program 2027 to Attend ICANN89 Policy Forum in Vancouver, Canada (Funded) Prazo informado: 2026-12-05. Consulte a página oficial para confirmar elegibilidade, documentos e instruções de inscrição.",
-    "type": "Oportunidade editorial",
-    "themes": [
-      "Oportunidade editorial"
-    ],
-    "scope": "Não especificado",
-    "deadline": "2026-12-05",
-    "deadlineStatus": "prazo extraído de metadado estruturado da fonte oficial; horário e condições devem ser conferidos na página",
-    "eligibility": "parcial",
-    "fit": 5,
-    "status": "aberta",
-    "value": "Não informado na fonte estruturada",
-    "duration": "Não informado na fonte estruturada",
-    "modality": "Não especificado",
-    "documents": [],
-    "restrictions": [],
-    "rules": "https://opportunitydesk.org/2026/11/09/icann-fellowship-program-2027/",
-    "apply": "https://opportunitydesk.org/2026/11/09/icann-fellowship-program-2027/",
-    "verified": "2026-11-15",
-    "desc": "ICANN Fellowship Program 2027 to Attend ICANN89 Policy Forum in Vancouver, Canada (Funded) Prazo informado: 2026-12-05. Consulte a página oficial para confirmar elegibilidade, documentos e instruções de inscrição.",
-    "discoveryUrl": "https://opportunitydesk.org/2026/11/09/icann-fellowship-program-2027",
-    "verificationHistory": [
-      {
-        "date": "2026-11-15",
-        "status": "aberta",
-        "source": "https://opportunitydesk.org/2026/11/09/icann-fellowship-program-2027/"
-      }
-    ]
-  },
-  {
-    "id": "auto-de556452b18095df",
-    "title": "Voices of the Future Global Fellowship 2027 (Fully-funded trip to France)",
-    "org": "Opportunity Desk",
-    "summary": "Voices of the Future Global Fellowship 2027 (Fully-funded trip to France) Prazo informado: 2026-11-22. Consulte a página oficial para confirmar elegibilidade, documentos e instruções de inscrição.",
-    "type": "Oportunidade editorial",
-    "themes": [
-      "Oportunidade editorial"
-    ],
-    "scope": "Não especificado",
-    "deadline": "2026-11-22",
-    "deadlineStatus": "prazo extraído de metadado estruturado da fonte oficial; horário e condições devem ser conferidos na página",
-    "eligibility": "parcial",
-    "fit": 5,
-    "status": "aberta",
-    "value": "Não informado na fonte estruturada",
-    "duration": "Não informado na fonte estruturada",
-    "modality": "Não especificado",
-    "documents": [],
-    "restrictions": [],
-    "rules": "https://opportunitydesk.org/2026/11/09/effie-lions-foundation-voices-of-the-future-global-fellowship-2027/",
-    "apply": "https://opportunitydesk.org/2026/11/09/effie-lions-foundation-voices-of-the-future-global-fellowship-2027/",
-    "verified": "2026-11-15",
-    "desc": "Voices of the Future Global Fellowship 2027 (Fully-funded trip to France) Prazo informado: 2026-11-22. Consulte a página oficial para confirmar elegibilidade, documentos e instruções de inscrição.",
-    "discoveryUrl": "https://opportunitydesk.org/2026/11/09/effie-lions-foundation-voices-of-the-future-global-fellowship-2027",
-    "verificationHistory": [
-      {
-        "date": "2026-11-15",
-        "status": "aberta",
-        "source": "https://opportunitydesk.org/2026/11/09/effie-lions-foundation-voices-of-the-future-global-fellowship-2027/"
-      }
-    ]
-  },
-  {
-    "id": "auto-a09fd4fe55d78dbc",
-    "title": "UCD Iseult Honohan Doctoral Scholarship 2027 (Fully-funded)",
-    "org": "Opportunity Desk",
-    "summary": "UCD Iseult Honohan Doctoral Scholarship 2027 (Fully-funded) Prazo informado: 2027-01-15. Consulte a página oficial para confirmar elegibilidade, documentos e instruções de inscrição.",
-    "type": "Oportunidade editorial",
-    "themes": [
-      "Oportunidade editorial"
-    ],
-    "scope": "Não especificado",
-    "deadline": "2027-01-15",
-    "deadlineStatus": "prazo extraído de metadado estruturado da fonte oficial; horário e condições devem ser conferidos na página",
-    "eligibility": "parcial",
-    "fit": 5,
-    "status": "aberta",
-    "value": "Não informado na fonte estruturada",
-    "duration": "Não informado na fonte estruturada",
-    "modality": "Não especificado",
-    "documents": [],
-    "restrictions": [],
-    "rules": "https://opportunitydesk.org/2026/11/13/ucd-iseult-honohan-doctoral-scholarship-2027/",
-    "apply": "https://opportunitydesk.org/2026/11/13/ucd-iseult-honohan-doctoral-scholarship-2027/",
-    "verified": "2026-11-15",
-    "desc": "UCD Iseult Honohan Doctoral Scholarship 2027 (Fully-funded) Prazo informado: 2027-01-15. Consulte a página oficial para confirmar elegibilidade, documentos e instruções de inscrição.",
-    "discoveryUrl": "https://opportunitydesk.org/2026/11/13/ucd-iseult-honohan-doctoral-scholarship-2027",
-    "verificationHistory": [
-      {
-        "date": "2026-11-15",
-        "status": "aberta",
-        "source": "https://opportunitydesk.org/2026/11/13/ucd-iseult-honohan-doctoral-scholarship-2027/"
-      }
-    ]
-  },
-  {
-    "id": "auto-db5803d418cdb8ed",
-    "title": "Bayer Foundation Scientific Fellowships 2027 (up to €10,000)",
-    "org": "Opportunity Desk",
-    "summary": "Bayer Foundation Scientific Fellowships 2027 (up to €10,000) Prazo informado: 2027-01-18. Consulte a página oficial para confirmar elegibilidade, documentos e instruções de inscrição.",
-    "type": "Oportunidade editorial",
-    "themes": [
-      "Oportunidade editorial"
-    ],
-    "scope": "Não especificado",
-    "deadline": "2027-01-18",
-    "deadlineStatus": "prazo extraído de metadado estruturado da fonte oficial; horário e condições devem ser conferidos na página",
-    "eligibility": "parcial",
-    "fit": 5,
-    "status": "aberta",
-    "value": "Não informado na fonte estruturada",
-    "duration": "Não informado na fonte estruturada",
-    "modality": "Não especificado",
-    "documents": [],
-    "restrictions": [],
-    "rules": "https://opportunitydesk.org/2026/11/13/bayer-foundation-scientific-fellowships-2027/",
-    "apply": "https://opportunitydesk.org/2026/11/13/bayer-foundation-scientific-fellowships-2027/",
-    "verified": "2026-11-15",
-    "desc": "Bayer Foundation Scientific Fellowships 2027 (up to €10,000) Prazo informado: 2027-01-18. Consulte a página oficial para confirmar elegibilidade, documentos e instruções de inscrição.",
-    "discoveryUrl": "https://opportunitydesk.org/2026/11/13/bayer-foundation-scientific-fellowships-2027",
-    "verificationHistory": [
-      {
-        "date": "2026-11-15",
-        "status": "aberta",
-        "source": "https://opportunitydesk.org/2026/11/13/bayer-foundation-scientific-fellowships-2027/"
-      }
-    ]
-  },
-  {
-    "id": "auto-f313a1b2aaf9bab8",
-    "title": "ANH Academy Science-Policy Fellowships 2027 (Round 3)",
-    "org": "Opportunity Desk",
-    "summary": "ANH Academy Science-Policy Fellowships 2027 (Round 3) Prazo informado: 2027-02-28. Consulte a página oficial para confirmar elegibilidade, documentos e instruções de inscrição.",
-    "type": "Oportunidade editorial",
-    "themes": [
-      "Oportunidade editorial"
-    ],
-    "scope": "Não especificado",
-    "deadline": "2027-02-28",
-    "deadlineStatus": "prazo extraído de metadado estruturado da fonte oficial; horário e condições devem ser conferidos na página",
-    "eligibility": "parcial",
-    "fit": 5,
-    "status": "aberta",
-    "value": "Não informado na fonte estruturada",
-    "duration": "Não informado na fonte estruturada",
-    "modality": "Não especificado",
-    "documents": [],
-    "restrictions": [],
-    "rules": "https://opportunitydesk.org/2026/11/11/anh-academy-science-policy-fellowships-2027-round-3/",
-    "apply": "https://opportunitydesk.org/2026/11/11/anh-academy-science-policy-fellowships-2027-round-3/",
-    "verified": "2026-11-15",
-    "desc": "ANH Academy Science-Policy Fellowships 2027 (Round 3) Prazo informado: 2027-02-28. Consulte a página oficial para confirmar elegibilidade, documentos e instruções de inscrição.",
-    "discoveryUrl": "https://opportunitydesk.org/2026/11/11/anh-academy-science-policy-fellowships-2027-round-3",
-    "verificationHistory": [
-      {
-        "date": "2026-11-15",
-        "status": "aberta",
-        "source": "https://opportunitydesk.org/2026/11/11/anh-academy-science-policy-fellowships-2027-round-3/"
-      }
-    ]
-  },
-  {
-    "id": "auto-e73e7f5fdda53daa",
-    "title": "Center for Effective Global Action (CEGA) Visiting Fellowship 2027-2028",
-    "org": "Opportunity Desk",
-    "summary": "Center for Effective Global Action (CEGA) Visiting Fellowship 2027-2028 Prazo informado: 2027-01-17. Consulte a página oficial para confirmar elegibilidade, documentos e instruções de inscrição.",
-    "type": "Oportunidade editorial",
-    "themes": [
-      "Oportunidade editorial"
-    ],
-    "scope": "Não especificado",
-    "deadline": "2027-01-17",
-    "deadlineStatus": "prazo extraído de metadado estruturado da fonte oficial; horário e condições devem ser conferidos na página",
-    "eligibility": "parcial",
-    "fit": 5,
-    "status": "aberta",
-    "value": "Não informado na fonte estruturada",
-    "duration": "Não informado na fonte estruturada",
-    "modality": "Não especificado",
-    "documents": [],
-    "restrictions": [],
-    "rules": "https://opportunitydesk.org/2026/11/07/cega-visiting-fellowship-2027-2028/",
-    "apply": "https://opportunitydesk.org/2026/11/07/cega-visiting-fellowship-2027-2028/",
-    "verified": "2026-11-15",
-    "desc": "Center for Effective Global Action (CEGA) Visiting Fellowship 2027-2028 Prazo informado: 2027-01-17. Consulte a página oficial para confirmar elegibilidade, documentos e instruções de inscrição.",
-    "discoveryUrl": "https://opportunitydesk.org/2026/11/07/cega-visiting-fellowship-2027-2028",
-    "verificationHistory": [
-      {
-        "date": "2026-11-15",
-        "status": "aberta",
-        "source": "https://opportunitydesk.org/2026/11/07/cega-visiting-fellowship-2027-2028/"
-      }
-    ]
-  },
-  {
-    "id": "auto-94a646811b984c25",
-    "title": "CRASSH Visiting Fellowships for Scholars from the Global South 2027 (Funded)",
-    "org": "Opportunity Desk",
-    "summary": "CRASSH Visiting Fellowships for Scholars from the Global South 2027 (Funded) Prazo informado: 2027-01-22. Consulte a página oficial para confirmar elegibilidade, documentos e instruções de inscrição.",
-    "type": "Oportunidade editorial",
-    "themes": [
-      "Oportunidade editorial"
-    ],
-    "scope": "Não especificado",
-    "deadline": "2027-01-22",
-    "deadlineStatus": "prazo extraído de metadado estruturado da fonte oficial; horário e condições devem ser conferidos na página",
-    "eligibility": "parcial",
-    "fit": 5,
-    "status": "aberta",
-    "value": "Não informado na fonte estruturada",
-    "duration": "Não informado na fonte estruturada",
-    "modality": "Não especificado",
-    "documents": [],
-    "restrictions": [],
-    "rules": "https://opportunitydesk.org/2026/11/05/crassh-visiting-fellowships-for-scholars-from-the-global-south-2027/",
-    "apply": "https://opportunitydesk.org/2026/11/05/crassh-visiting-fellowships-for-scholars-from-the-global-south-2027/",
-    "verified": "2026-11-15",
-    "desc": "CRASSH Visiting Fellowships for Scholars from the Global South 2027 (Funded) Prazo informado: 2027-01-22. Consulte a página oficial para confirmar elegibilidade, documentos e instruções de inscrição.",
-    "discoveryUrl": "https://opportunitydesk.org/2026/11/05/crassh-visiting-fellowships-for-scholars-from-the-global-south-2027",
-    "verificationHistory": [
-      {
-        "date": "2026-11-15",
-        "status": "aberta",
-        "source": "https://opportunitydesk.org/2026/11/05/crassh-visiting-fellowships-for-scholars-from-the-global-south-2027/"
-      }
-    ]
-  },
-  {
-    "id": "auto-69c877447f93b5bd",
-    "title": "Commonwealth Shared Scholarship Programme 2027/2028 to Study in the U.K. (Fully-funded)",
-    "org": "Opportunity Desk",
-    "summary": "Commonwealth Shared Scholarship Programme 2027/2028 to Study in the U.K. (Fully-funded) Prazo informado: 2026-12-08. Consulte a página oficial para confirmar elegibilidade, documentos e instruções de inscrição.",
-    "type": "Oportunidade editorial",
-    "themes": [
-      "Oportunidade editorial"
-    ],
-    "scope": "Não especificado",
-    "deadline": "2026-12-08",
-    "deadlineStatus": "prazo extraído de metadado estruturado da fonte oficial; horário e condições devem ser conferidos na página",
-    "eligibility": "parcial",
-    "fit": 5,
-    "status": "aberta",
-    "value": "Não informado na fonte estruturada",
-    "duration": "Não informado na fonte estruturada",
-    "modality": "Não especificado",
-    "documents": [],
-    "restrictions": [],
-    "rules": "https://opportunitydesk.org/2026/11/11/commonwealth-shared-scholarship-programme-2027-2028/",
-    "apply": "https://opportunitydesk.org/2026/11/11/commonwealth-shared-scholarship-programme-2027-2028/",
-    "verified": "2026-11-15",
-    "desc": "Commonwealth Shared Scholarship Programme 2027/2028 to Study in the U.K. (Fully-funded) Prazo informado: 2026-12-08. Consulte a página oficial para confirmar elegibilidade, documentos e instruções de inscrição.",
-    "discoveryUrl": "https://opportunitydesk.org/2026/11/11/commonwealth-shared-scholarship-programme-2027-2028",
-    "verificationHistory": [
-      {
-        "date": "2026-11-15",
-        "status": "aberta",
-        "source": "https://opportunitydesk.org/2026/11/11/commonwealth-shared-scholarship-programme-2027-2028/"
-      }
-    ]
-  },
-  {
-    "id": "auto-7b0ab2f5fcee3506",
-    "title": "African Development Bank Group Shanghai Ocean University Scholarship Masters Degree Program 2027",
-    "org": "Opportunity Desk",
-    "summary": "African Development Bank Group Shanghai Ocean University Scholarship Masters Degree Program 2027 Prazo informado: 2026-11-17. Consulte a página oficial para confirmar elegibilidade, documentos e instruções de inscrição.",
-    "type": "Oportunidade editorial",
-    "themes": [
-      "Oportunidade editorial"
-    ],
-    "scope": "Não especificado",
-    "deadline": "2026-11-17",
-    "deadlineStatus": "prazo extraído de metadado estruturado da fonte oficial; horário e condições devem ser conferidos na página",
-    "eligibility": "parcial",
-    "fit": 5,
-    "status": "aberta",
-    "value": "Não informado na fonte estruturada",
-    "duration": "Não informado na fonte estruturada",
-    "modality": "Não especificado",
-    "documents": [],
-    "restrictions": [],
-    "rules": "https://opportunitydesk.org/2026/11/11/afdb-group-shou-scholarship-masters-degree-program-2027/",
-    "apply": "https://opportunitydesk.org/2026/11/11/afdb-group-shou-scholarship-masters-degree-program-2027/",
-    "verified": "2026-11-15",
-    "desc": "African Development Bank Group Shanghai Ocean University Scholarship Masters Degree Program 2027 Prazo informado: 2026-11-17. Consulte a página oficial para confirmar elegibilidade, documentos e instruções de inscrição.",
-    "discoveryUrl": "https://opportunitydesk.org/2026/11/11/afdb-group-shou-scholarship-masters-degree-program-2027",
-    "verificationHistory": [
-      {
-        "date": "2026-11-15",
-        "status": "aberta",
-        "source": "https://opportunitydesk.org/2026/11/11/afdb-group-shou-scholarship-masters-degree-program-2027/"
-      }
-    ]
-  },
-  {
-    "id": "auto-f3ed499d05010525",
-    "title": "Gratitude Network Fellowship 2027",
-    "org": "Opportunity Desk",
-    "summary": "Gratitude Network Fellowship 2027 Prazo informado: 2027-01-15. Consulte a página oficial para confirmar elegibilidade, documentos e instruções de inscrição.",
-    "type": "Oportunidade editorial",
-    "themes": [
-      "Oportunidade editorial"
-    ],
-    "scope": "Não especificado",
-    "deadline": "2027-01-15",
-    "deadlineStatus": "prazo extraído de metadado estruturado da fonte oficial; horário e condições devem ser conferidos na página",
-    "eligibility": "parcial",
-    "fit": 5,
-    "status": "aberta",
-    "value": "Não informado na fonte estruturada",
-    "duration": "Não informado na fonte estruturada",
-    "modality": "Não especificado",
-    "documents": [],
-    "restrictions": [],
-    "rules": "https://opportunitydesk.org/2026/11/12/gratitude-network-fellowship-2027/",
-    "apply": "https://opportunitydesk.org/2026/11/12/gratitude-network-fellowship-2027/",
-    "verified": "2026-11-15",
-    "desc": "Gratitude Network Fellowship 2027 Prazo informado: 2027-01-15. Consulte a página oficial para confirmar elegibilidade, documentos e instruções de inscrição.",
-    "discoveryUrl": "https://opportunitydesk.org/2026/11/12/gratitude-network-fellowship-2027",
-    "verificationHistory": [
-      {
-        "date": "2026-11-15",
-        "status": "aberta",
-        "source": "https://opportunitydesk.org/2026/11/12/gratitude-network-fellowship-2027/"
-      }
-    ]
-  },
-  {
-    "id": "auto-545034bb0ede7096",
-    "title": "African Wildlife Foundation (AWF) Geospatial Leaders Fellowship 2027",
-    "org": "Opportunity Desk",
-    "summary": "African Wildlife Foundation (AWF) Geospatial Leaders Fellowship 2027 Prazo informado: 2026-12-14. Consulte a página oficial para confirmar elegibilidade, documentos e instruções de inscrição.",
-    "type": "Oportunidade editorial",
-    "themes": [
-      "Oportunidade editorial"
-    ],
-    "scope": "Não especificado",
-    "deadline": "2026-12-14",
-    "deadlineStatus": "prazo extraído de metadado estruturado da fonte oficial; horário e condições devem ser conferidos na página",
-    "eligibility": "parcial",
-    "fit": 5,
-    "status": "aberta",
-    "value": "Não informado na fonte estruturada",
-    "duration": "Não informado na fonte estruturada",
-    "modality": "Não especificado",
-    "documents": [],
-    "restrictions": [],
-    "rules": "https://opportunitydesk.org/2026/11/11/awf-geospatial-leaders-fellowship-2027/",
-    "apply": "https://opportunitydesk.org/2026/11/11/awf-geospatial-leaders-fellowship-2027/",
-    "verified": "2026-11-15",
-    "desc": "African Wildlife Foundation (AWF) Geospatial Leaders Fellowship 2027 Prazo informado: 2026-12-14. Consulte a página oficial para confirmar elegibilidade, documentos e instruções de inscrição.",
-    "discoveryUrl": "https://opportunitydesk.org/2026/11/11/awf-geospatial-leaders-fellowship-2027",
-    "verificationHistory": [
-      {
-        "date": "2026-11-15",
-        "status": "aberta",
-        "source": "https://opportunitydesk.org/2026/11/11/awf-geospatial-leaders-fellowship-2027/"
-      }
-    ]
-  },
-  {
-    "id": "auto-aedc388869508d21",
-    "title": "Africa Dyslexia Teacher Fellowship Program 2027",
-    "org": "Opportunity Desk",
-    "summary": "Africa Dyslexia Teacher Fellowship Program 2027 Prazo informado: 2026-11-20. Consulte a página oficial para confirmar elegibilidade, documentos e instruções de inscrição.",
-    "type": "Oportunidade editorial",
-    "themes": [
-      "Oportunidade editorial"
-    ],
-    "scope": "Não especificado",
-    "deadline": "2026-11-20",
-    "deadlineStatus": "prazo extraído de metadado estruturado da fonte oficial; horário e condições devem ser conferidos na página",
-    "eligibility": "parcial",
-    "fit": 5,
-    "status": "aberta",
-    "value": "Não informado na fonte estruturada",
-    "duration": "Não informado na fonte estruturada",
-    "modality": "Não especificado",
-    "documents": [],
-    "restrictions": [],
-    "rules": "https://opportunitydesk.org/2026/11/11/africa-dyslexia-teacher-fellowship-program-2027/",
-    "apply": "https://opportunitydesk.org/2026/11/11/africa-dyslexia-teacher-fellowship-program-2027/",
-    "verified": "2026-11-15",
-    "desc": "Africa Dyslexia Teacher Fellowship Program 2027 Prazo informado: 2026-11-20. Consulte a página oficial para confirmar elegibilidade, documentos e instruções de inscrição.",
-    "discoveryUrl": "https://opportunitydesk.org/2026/11/11/africa-dyslexia-teacher-fellowship-program-2027",
-    "verificationHistory": [
-      {
-        "date": "2026-11-15",
-        "status": "aberta",
-        "source": "https://opportunitydesk.org/2026/11/11/africa-dyslexia-teacher-fellowship-program-2027/"
-      }
-    ]
-  },
-  {
-    "id": "auto-0d368c641b24a8ef",
-    "title": "Green Global Fellowship 2027 for Emerging Leaders",
-    "org": "Opportunity Desk",
-    "summary": "Green Global Fellowship 2027 for Emerging Leaders Prazo informado: 2027-01-07. Consulte a página oficial para confirmar elegibilidade, documentos e instruções de inscrição.",
-    "type": "Oportunidade editorial",
-    "themes": [
-      "Oportunidade editorial"
-    ],
-    "scope": "Não especificado",
-    "deadline": "2027-01-07",
-    "deadlineStatus": "prazo extraído de metadado estruturado da fonte oficial; horário e condições devem ser conferidos na página",
-    "eligibility": "parcial",
-    "fit": 5,
-    "status": "aberta",
-    "value": "Não informado na fonte estruturada",
-    "duration": "Não informado na fonte estruturada",
-    "modality": "Não especificado",
-    "documents": [],
-    "restrictions": [],
-    "rules": "https://opportunitydesk.org/2026/10/29/green-global-fellowship-2027/",
-    "apply": "https://opportunitydesk.org/2026/10/29/green-global-fellowship-2027/",
-    "verified": "2026-11-15",
-    "desc": "Green Global Fellowship 2027 for Emerging Leaders Prazo informado: 2027-01-07. Consulte a página oficial para confirmar elegibilidade, documentos e instruções de inscrição.",
-    "discoveryUrl": "https://opportunitydesk.org/2026/10/29/green-global-fellowship-2027",
-    "verificationHistory": [
-      {
-        "date": "2026-11-15",
-        "status": "aberta",
-        "source": "https://opportunitydesk.org/2026/10/29/green-global-fellowship-2027/"
-      }
-    ]
-  },
-  {
-    "id": "auto-83c5913e44b43ec4",
-    "title": "Harvard Kennedy School (HKS) American Service Fellowship 2027 (up to $100,000)",
-    "org": "Opportunity Desk",
-    "summary": "Harvard Kennedy School (HKS) American Service Fellowship 2027 (up to $100,000) Prazo informado: 2026-12-01. Consulte a página oficial para confirmar elegibilidade, documentos e instruções de inscrição.",
-    "type": "Oportunidade editorial",
-    "themes": [
-      "Oportunidade editorial"
-    ],
-    "scope": "Não especificado",
-    "deadline": "2026-12-01",
-    "deadlineStatus": "prazo extraído de metadado estruturado da fonte oficial; horário e condições devem ser conferidos na página",
-    "eligibility": "parcial",
-    "fit": 5,
-    "status": "aberta",
-    "value": "Não informado na fonte estruturada",
-    "duration": "Não informado na fonte estruturada",
-    "modality": "Não especificado",
-    "documents": [],
-    "restrictions": [],
-    "rules": "https://opportunitydesk.org/2026/11/11/harvard-kennedy-school-american-service-fellowship-2027/",
-    "apply": "https://opportunitydesk.org/2026/11/11/harvard-kennedy-school-american-service-fellowship-2027/",
-    "verified": "2026-11-15",
-    "desc": "Harvard Kennedy School (HKS) American Service Fellowship 2027 (up to $100,000) Prazo informado: 2026-12-01. Consulte a página oficial para confirmar elegibilidade, documentos e instruções de inscrição.",
-    "discoveryUrl": "https://opportunitydesk.org/2026/11/11/harvard-kennedy-school-american-service-fellowship-2027",
-    "verificationHistory": [
-      {
-        "date": "2026-11-15",
-        "status": "aberta",
-        "source": "https://opportunitydesk.org/2026/11/11/harvard-kennedy-school-american-service-fellowship-2027/"
-      }
-    ]
-  },
-  {
-    "id": "auto-ba010ac2ff6829c7",
-    "title": "Thrive Capital Summer Fellowship 2027 ($100,000 salary)",
-    "org": "Opportunity Desk",
-    "summary": "Thrive Capital Summer Fellowship 2027 ($100,000 salary) Prazo informado: 2026-12-11. Consulte a página oficial para confirmar elegibilidade, documentos e instruções de inscrição.",
-    "type": "Oportunidade editorial",
-    "themes": [
-      "Oportunidade editorial"
-    ],
-    "scope": "Não especificado",
-    "deadline": "2026-12-11",
-    "deadlineStatus": "prazo extraído de metadado estruturado da fonte oficial; horário e condições devem ser conferidos na página",
-    "eligibility": "parcial",
-    "fit": 5,
-    "status": "aberta",
-    "value": "Não informado na fonte estruturada",
-    "duration": "Não informado na fonte estruturada",
-    "modality": "Não especificado",
-    "documents": [],
-    "restrictions": [],
-    "rules": "https://opportunitydesk.org/2026/11/12/thrive-capital-summer-fellowship-2027/",
-    "apply": "https://opportunitydesk.org/2026/11/12/thrive-capital-summer-fellowship-2027/",
-    "verified": "2026-11-15",
-    "desc": "Thrive Capital Summer Fellowship 2027 ($100,000 salary) Prazo informado: 2026-12-11. Consulte a página oficial para confirmar elegibilidade, documentos e instruções de inscrição.",
-    "discoveryUrl": "https://opportunitydesk.org/2026/11/12/thrive-capital-summer-fellowship-2027",
-    "verificationHistory": [
-      {
-        "date": "2026-11-15",
-        "status": "aberta",
-        "source": "https://opportunitydesk.org/2026/11/12/thrive-capital-summer-fellowship-2027/"
-      }
-    ]
-  },
-  {
-    "id": "auto-4108f1a86ca4c52d",
-    "title": "DSTI-NRF Policy Fellowship Programme 2027 (Funded)",
-    "org": "Opportunity Desk",
-    "summary": "DSTI-NRF Policy Fellowship Programme 2027 (Funded) Prazo informado: 2026-11-17. Consulte a página oficial para confirmar elegibilidade, documentos e instruções de inscrição.",
-    "type": "Oportunidade editorial",
-    "themes": [
-      "Oportunidade editorial"
-    ],
-    "scope": "Não especificado",
-    "deadline": "2026-11-17",
-    "deadlineStatus": "prazo extraído de metadado estruturado da fonte oficial; horário e condições devem ser conferidos na página",
-    "eligibility": "parcial",
-    "fit": 5,
-    "status": "aberta",
-    "value": "Não informado na fonte estruturada",
-    "duration": "Não informado na fonte estruturada",
-    "modality": "Não especificado",
-    "documents": [],
-    "restrictions": [],
-    "rules": "https://opportunitydesk.org/2026/11/12/dsti-nrf-policy-fellowship-programme-2027/",
-    "apply": "https://opportunitydesk.org/2026/11/12/dsti-nrf-policy-fellowship-programme-2027/",
-    "verified": "2026-11-15",
-    "desc": "DSTI-NRF Policy Fellowship Programme 2027 (Funded) Prazo informado: 2026-11-17. Consulte a página oficial para confirmar elegibilidade, documentos e instruções de inscrição.",
-    "discoveryUrl": "https://opportunitydesk.org/2026/11/12/dsti-nrf-policy-fellowship-programme-2027",
-    "verificationHistory": [
-      {
-        "date": "2026-11-15",
-        "status": "aberta",
-        "source": "https://opportunitydesk.org/2026/11/12/dsti-nrf-policy-fellowship-programme-2027/"
-      }
-    ]
-  },
-  {
-    "id": "auto-d95bb1167167d1e7",
-    "title": "Mastercard Foundation EdTech Fellowship Uganda Cohort 2",
-    "org": "Opportunity Desk",
-    "summary": "Mastercard Foundation EdTech Fellowship Uganda Cohort 2 Prazo informado: 2026-11-26. Consulte a página oficial para confirmar elegibilidade, documentos e instruções de inscrição.",
-    "type": "Oportunidade editorial",
-    "themes": [
-      "Oportunidade editorial"
-    ],
-    "scope": "Não especificado",
-    "deadline": "2026-11-26",
-    "deadlineStatus": "prazo extraído de metadado estruturado da fonte oficial; horário e condições devem ser conferidos na página",
-    "eligibility": "parcial",
-    "fit": 5,
-    "status": "aberta",
-    "value": "Não informado na fonte estruturada",
-    "duration": "Não informado na fonte estruturada",
-    "modality": "Não especificado",
-    "documents": [],
-    "restrictions": [],
-    "rules": "https://opportunitydesk.org/2026/11/03/mastercard-foundation-edtech-fellowship-uganda-cohort-2/",
-    "apply": "https://opportunitydesk.org/2026/11/03/mastercard-foundation-edtech-fellowship-uganda-cohort-2/",
-    "verified": "2026-11-15",
-    "desc": "Mastercard Foundation EdTech Fellowship Uganda Cohort 2 Prazo informado: 2026-11-26. Consulte a página oficial para confirmar elegibilidade, documentos e instruções de inscrição.",
-    "discoveryUrl": "https://opportunitydesk.org/2026/11/03/mastercard-foundation-edtech-fellowship-uganda-cohort-2",
-    "verificationHistory": [
-      {
-        "date": "2026-11-15",
-        "status": "aberta",
-        "source": "https://opportunitydesk.org/2026/11/03/mastercard-foundation-edtech-fellowship-uganda-cohort-2/"
-      }
-    ]
-  },
-  {
-    "id": "auto-22e9cfbb34d83006",
-    "title": "Arewa Creative Writing and Advocacy Fellowship (ACWAF) 2026 – Cohort 1",
-    "org": "Opportunity Desk",
-    "summary": "Arewa Creative Writing and Advocacy Fellowship (ACWAF) 2026 – Cohort 1 Prazo informado: 2026-11-30. Consulte a página oficial para confirmar elegibilidade, documentos e instruções de inscrição.",
+    "summary": "Deadline: November 30, 2026 Applications are open for the United Nations DPoA MTR Journalism Fellowship 2027 . This is a fully funded opportunity for journalists from Least Developed Countries to attend and cover the 2027 Midterm Review of the Doha Programme of Action (DPoA MTR) in Doha, Qatar. The DPoA is the overarching framework for accelerating sustainable development and supporting sustainable graduation from the LDC category. The High-level Midterm Review is an opportunity to take stock of implementation, assess progress and gaps, and strengthen partnerships for the remainder of the decade. Priority Areas Reporting proposals are encouraged to engage with one or more of the six DPoA priority areas. Investing in people: Eradicating poverty, improving health, education, and social protection, and building human capital so that no one is left behind. Leveraging science, technology and",
     "type": "Oportunidade editorial",
     "themes": [
       "Oportunidade editorial"
@@ -944,123 +20,24 @@ window.RADAR_PARTS.opportunities=[
     "modality": "Não especificado",
     "documents": [],
     "restrictions": [],
-    "rules": "https://opportunitydesk.org/2026/11/07/arewa-creative-writing-and-advocacy-fellowship-2026-cohort-1/",
-    "apply": "https://opportunitydesk.org/2026/11/07/arewa-creative-writing-and-advocacy-fellowship-2026-cohort-1/",
+    "rules": "https://opportunitydesk.org/2026/10/27/dpoa-mtr-journalism-fellowship-2027/",
+    "apply": "https://opportunitydesk.org/2026/10/27/dpoa-mtr-journalism-fellowship-2027/",
     "verified": "2026-11-15",
-    "desc": "Arewa Creative Writing and Advocacy Fellowship (ACWAF) 2026 – Cohort 1 Prazo informado: 2026-11-30. Consulte a página oficial para confirmar elegibilidade, documentos e instruções de inscrição.",
-    "discoveryUrl": "https://opportunitydesk.org/2026/11/07/arewa-creative-writing-and-advocacy-fellowship-2026-cohort-1",
+    "desc": "Deadline: November 30, 2026 Applications are open for the United Nations DPoA MTR Journalism Fellowship 2027 . This is a fully funded opportunity for journalists from Least Developed Countries to attend and cover the 2027 Midterm Review of the Doha Programme of Action (DPoA MTR) in Doha, Qatar. The DPoA is the overarching framework for accelerating sustainable development and supporting sustainable graduation from the LDC category. The High-level Midterm Review is an opportunity to take stock of implementation, assess progress and gaps, and strengthen partnerships for the remainder of the decade. Priority Areas Reporting proposals are encouraged to engage with one or more of the six DPoA priority areas. Investing in people: Eradicating poverty, improving health, education, and social protection, and building human capital so that no one is left behind. Leveraging science, technology and",
+    "discoveryUrl": "https://opportunitydesk.org/2026/10/27/dpoa-mtr-journalism-fellowship-2027",
     "verificationHistory": [
       {
         "date": "2026-11-15",
         "status": "aberta",
-        "source": "https://opportunitydesk.org/2026/11/07/arewa-creative-writing-and-advocacy-fellowship-2026-cohort-1/"
+        "source": "https://opportunitydesk.org/2026/10/27/dpoa-mtr-journalism-fellowship-2027/"
       }
     ]
   },
   {
-    "id": "auto-20694f2c66b11f71",
-    "title": "Hans De Wit Fellowship 2027 (stipend available)",
-    "org": "Opportunity Desk",
-    "summary": "Hans De Wit Fellowship 2027 (stipend available) Prazo informado: 2026-11-15. Consulte a página oficial para confirmar elegibilidade, documentos e instruções de inscrição.",
-    "type": "Oportunidade editorial",
-    "themes": [
-      "Oportunidade editorial"
-    ],
-    "scope": "Não especificado",
-    "deadline": "2026-11-15",
-    "deadlineStatus": "prazo extraído de metadado estruturado da fonte oficial; horário e condições devem ser conferidos na página",
-    "eligibility": "parcial",
-    "fit": 5,
-    "status": "aberta",
-    "value": "Não informado na fonte estruturada",
-    "duration": "Não informado na fonte estruturada",
-    "modality": "Não especificado",
-    "documents": [],
-    "restrictions": [],
-    "rules": "https://opportunitydesk.org/2026/10/29/hans-de-wit-fellowship-2027/",
-    "apply": "https://opportunitydesk.org/2026/10/29/hans-de-wit-fellowship-2027/",
-    "verified": "2026-11-15",
-    "desc": "Hans De Wit Fellowship 2027 (stipend available) Prazo informado: 2026-11-15. Consulte a página oficial para confirmar elegibilidade, documentos e instruções de inscrição.",
-    "discoveryUrl": "https://opportunitydesk.org/2026/10/29/hans-de-wit-fellowship-2027",
-    "verificationHistory": [
-      {
-        "date": "2026-11-15",
-        "status": "aberta",
-        "source": "https://opportunitydesk.org/2026/10/29/hans-de-wit-fellowship-2027/"
-      }
-    ]
-  },
-  {
-    "id": "auto-7c236b79b5067b22",
-    "title": "Morgridge Acceleration Program (MAP) Fellowship 2027 (Funded)",
-    "org": "Opportunity Desk",
-    "summary": "Morgridge Acceleration Program (MAP) Fellowship 2027 (Funded) Prazo informado: 2026-11-23. Consulte a página oficial para confirmar elegibilidade, documentos e instruções de inscrição.",
-    "type": "Oportunidade editorial",
-    "themes": [
-      "Oportunidade editorial"
-    ],
-    "scope": "Não especificado",
-    "deadline": "2026-11-23",
-    "deadlineStatus": "prazo extraído de metadado estruturado da fonte oficial; horário e condições devem ser conferidos na página",
-    "eligibility": "parcial",
-    "fit": 5,
-    "status": "aberta",
-    "value": "Não informado na fonte estruturada",
-    "duration": "Não informado na fonte estruturada",
-    "modality": "Não especificado",
-    "documents": [],
-    "restrictions": [],
-    "rules": "https://opportunitydesk.org/2026/11/09/morgridge-acceleration-program-fellowship-2027/",
-    "apply": "https://opportunitydesk.org/2026/11/09/morgridge-acceleration-program-fellowship-2027/",
-    "verified": "2026-11-15",
-    "desc": "Morgridge Acceleration Program (MAP) Fellowship 2027 (Funded) Prazo informado: 2026-11-23. Consulte a página oficial para confirmar elegibilidade, documentos e instruções de inscrição.",
-    "discoveryUrl": "https://opportunitydesk.org/2026/11/09/morgridge-acceleration-program-fellowship-2027",
-    "verificationHistory": [
-      {
-        "date": "2026-11-15",
-        "status": "aberta",
-        "source": "https://opportunitydesk.org/2026/11/09/morgridge-acceleration-program-fellowship-2027/"
-      }
-    ]
-  },
-  {
-    "id": "auto-99cc7fdcdfd04015",
-    "title": "Nature Culture Fellowship 2027",
-    "org": "Opportunity Desk",
-    "summary": "Nature Culture Fellowship 2027 Prazo informado: 2026-12-01. Consulte a página oficial para confirmar elegibilidade, documentos e instruções de inscrição.",
-    "type": "Oportunidade editorial",
-    "themes": [
-      "Oportunidade editorial"
-    ],
-    "scope": "Não especificado",
-    "deadline": "2026-12-01",
-    "deadlineStatus": "prazo extraído de metadado estruturado da fonte oficial; horário e condições devem ser conferidos na página",
-    "eligibility": "parcial",
-    "fit": 5,
-    "status": "aberta",
-    "value": "Não informado na fonte estruturada",
-    "duration": "Não informado na fonte estruturada",
-    "modality": "Não especificado",
-    "documents": [],
-    "restrictions": [],
-    "rules": "https://opportunitydesk.org/2026/11/10/nature-culture-fellowship-2027/",
-    "apply": "https://opportunitydesk.org/2026/11/10/nature-culture-fellowship-2027/",
-    "verified": "2026-11-15",
-    "desc": "Nature Culture Fellowship 2027 Prazo informado: 2026-12-01. Consulte a página oficial para confirmar elegibilidade, documentos e instruções de inscrição.",
-    "discoveryUrl": "https://opportunitydesk.org/2026/11/10/nature-culture-fellowship-2027",
-    "verificationHistory": [
-      {
-        "date": "2026-11-15",
-        "status": "aberta",
-        "source": "https://opportunitydesk.org/2026/11/10/nature-culture-fellowship-2027/"
-      }
-    ]
-  },
-  {
-    "id": "auto-07c30c0c9c4875b0",
-    "title": "Career Pathways Initiative Fellowship 2027",
-    "org": "Opportunity Desk",
-    "summary": "Career Pathways Initiative Fellowship 2027 Prazo informado: 2027-01-29. Consulte a página oficial para confirmar elegibilidade, documentos e instruções de inscrição.",
+    "id": "auto-b2fde425407fcb72",
+    "title": "Fund for Investigative Journalism grants",
+    "org": "GFMD",
+    "summary": "The Fund for Investigative Journalism provides grants and other support for reporters to produce high-quality, unbiased, nonpartisan investigative stories that have an impact.",
     "type": "Oportunidade editorial",
     "themes": [
       "Oportunidade editorial"
@@ -1076,16 +53,82 @@ window.RADAR_PARTS.opportunities=[
     "modality": "Não especificado",
     "documents": [],
     "restrictions": [],
-    "rules": "https://opportunitydesk.org/2026/11/10/career-pathways-initiative-fellowship-2027/",
-    "apply": "https://opportunitydesk.org/2026/11/10/career-pathways-initiative-fellowship-2027/",
+    "rules": "https://gfmd.info/fundings/fund-for-investigative-journalism-grants-3/",
+    "apply": "https://gfmd.info/fundings/fund-for-investigative-journalism-grants-3/",
     "verified": "2026-11-15",
-    "desc": "Career Pathways Initiative Fellowship 2027 Prazo informado: 2027-01-29. Consulte a página oficial para confirmar elegibilidade, documentos e instruções de inscrição.",
-    "discoveryUrl": "https://opportunitydesk.org/2026/11/10/career-pathways-initiative-fellowship-2027",
+    "desc": "The Fund for Investigative Journalism provides grants and other support for reporters to produce high-quality, unbiased, nonpartisan investigative stories that have an impact.",
+    "discoveryUrl": "https://gfmd.info/fundings/fund-for-investigative-journalism-grants-3",
     "verificationHistory": [
       {
         "date": "2026-11-15",
         "status": "aberta",
-        "source": "https://opportunitydesk.org/2026/11/10/career-pathways-initiative-fellowship-2027/"
+        "source": "https://gfmd.info/fundings/fund-for-investigative-journalism-grants-3/"
+      }
+    ]
+  },
+  {
+    "id": "auto-6e1f40b17012f23d",
+    "title": "California Health Equity Fellowship",
+    "org": "USC Center for Health Journalism",
+    "summary": "Breadcrumb Home California Health Equity Fellowship Deadline to apply December 16, 2026 APPLY NOW Upcoming fellowship dates Fellowship: March–July 2027 In-person training: Week of March 15, 2027 Description Image Journalists spending time together during our 2026 California Health Equity Fellowship Week in March in Los Angeles.",
+    "type": "Oportunidade editorial",
+    "themes": [
+      "Oportunidade editorial"
+    ],
+    "scope": "Não especificado",
+    "deadline": "2026-12-16",
+    "deadlineStatus": "prazo extraído de metadado estruturado da fonte oficial; horário e condições devem ser conferidos na página",
+    "eligibility": "parcial",
+    "fit": 5,
+    "status": "aberta",
+    "value": "Não informado na fonte estruturada",
+    "duration": "Não informado na fonte estruturada",
+    "modality": "Não especificado",
+    "documents": [],
+    "restrictions": [],
+    "rules": "https://centerforhealthjournalism.org/index%2Ephp/fellowships-grants/california-fellowship",
+    "apply": "https://centerforhealthjournalism.org/index%2Ephp/fellowships-grants/california-fellowship",
+    "verified": "2026-11-15",
+    "desc": "Breadcrumb Home California Health Equity Fellowship Deadline to apply December 16, 2026 APPLY NOW Upcoming fellowship dates Fellowship: March–July 2027 In-person training: Week of March 15, 2027 Description Image Journalists spending time together during our 2026 California Health Equity Fellowship Week in March in Los Angeles.",
+    "discoveryUrl": "https://centerforhealthjournalism.org/index%2Ephp/fellowships-grants/california-fellowship",
+    "verificationHistory": [
+      {
+        "date": "2026-11-15",
+        "status": "aberta",
+        "source": "https://centerforhealthjournalism.org/index%2Ephp/fellowships-grants/california-fellowship"
+      }
+    ]
+  },
+  {
+    "id": "auto-a0d383efcd6f6ab9",
+    "title": "EJN Renewable Energy Story Grants – India",
+    "org": "GFMD",
+    "summary": "The Earth Journalism Network funds journalists, communicators, and social media content creators based anywhere in India to produce in-depth reports on the renewable energy transition.",
+    "type": "Oportunidade editorial",
+    "themes": [
+      "Oportunidade editorial"
+    ],
+    "scope": "Não especificado",
+    "deadline": "2026-11-15",
+    "deadlineStatus": "prazo extraído de metadado estruturado da fonte oficial; horário e condições devem ser conferidos na página",
+    "eligibility": "parcial",
+    "fit": 5,
+    "status": "aberta",
+    "value": "Não informado na fonte estruturada",
+    "duration": "Não informado na fonte estruturada",
+    "modality": "Não especificado",
+    "documents": [],
+    "restrictions": [],
+    "rules": "https://gfmd.info/fundings/ejn-renewable-energy-story-grants-india/",
+    "apply": "https://gfmd.info/fundings/ejn-renewable-energy-story-grants-india/",
+    "verified": "2026-11-15",
+    "desc": "The Earth Journalism Network funds journalists, communicators, and social media content creators based anywhere in India to produce in-depth reports on the renewable energy transition.",
+    "discoveryUrl": "https://gfmd.info/fundings/ejn-renewable-energy-story-grants-india",
+    "verificationHistory": [
+      {
+        "date": "2026-11-15",
+        "status": "aberta",
+        "source": "https://gfmd.info/fundings/ejn-renewable-energy-story-grants-india/"
       }
     ]
   },
