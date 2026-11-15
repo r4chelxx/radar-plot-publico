@@ -5,7 +5,7 @@ const {auditCapacity}=require('./audit-capacity');
 const {inspectionHealth}=require('./inspection-health');
 const {extractStructuredMetadata,metadataForLink}=require('./structured-lead-metadata');
 const input=JSON.parse(fs.readFileSync('intake/candidate-triage.json','utf8'));
-const limit=Math.min(100,Math.max(1,Number(process.env.LEAD_PAGE_LIMIT||100)));
+const limit=Math.min(240,Math.max(1,Number(process.env.LEAD_PAGE_LIMIT||240)));
 function decode(value){return String(value||'').replace(/&(?:amp|and);/gi,'&').replace(/&quot;/gi,'"').replace(/&#39;/gi,"'").replace(/&nbsp;/gi,' ').replace(/<[^>]+>/g,' ').replace(/\s+/g,' ').trim();}
 function visibleText(html){return decode(String(html||'').replace(/<script\b[\s\S]*?<\/script>/gi,' ').replace(/<style\b[\s\S]*?<\/style>/gi,' ')).slice(0,1200);}
 function isoDate(raw){
@@ -62,12 +62,22 @@ async function inspect(lead){
 (async()=>{
  const previous=fs.existsSync('intake/lead-history-previous.json')?JSON.parse(fs.readFileSync('intake/lead-history-previous.json','utf8')):null;
  const capacity=previous?auditCapacity(previous.leads):{limit,pressure:null,policy:'no-history'};
- const effectiveLimit=Math.min(100,Math.max(limit,capacity.limit));
+ const effectiveLimit=Math.min(240,Math.max(limit,capacity.limit));
  const backlog=selectBacklog(previous,input.leads||[],effectiveLimit,new Date(),{rotate:true});
  const selected=backlog.selected.length?backlog.selected:backlog.total?selectBacklog(previous,input.leads||[],effectiveLimit,new Date('2999-01-01T00:00:00Z'),{rotate:true}).selected:[];
  const selectionFallback=backlog.selected.length===0&&backlog.total>0;
  const results=[];
- for(const item of selected)results.push({...await inspect(item),historicalId:item.id,historyAtSelection:item.origin,archivedRecheck:item.editorialStatus==='archived',requiresReopeningReview:item.editorialStatus==='archived'});
+ const concurrency=Math.min(12,Math.max(1,Number(process.env.LEAD_INSPECTION_CONCURRENCY||12)));
+ let cursor=0;
+ async function worker(){
+  while(true){
+   const index=cursor++;
+   if(index>=selected.length)return;
+   const item=selected[index];
+   results[index]={...await inspect(item),historicalId:item.id,historyAtSelection:item.origin,archivedRecheck:item.editorialStatus==='archived',requiresReopeningReview:item.editorialStatus==='archived'};
+  }
+ }
+ await Promise.all(Array.from({length:Math.min(concurrency,selected.length)},()=>worker()));
  const statusCounts=results.reduce((a,x)=>(a[x.pageStatus]=(a[x.pageStatus]||0)+1,a),{});
  const httpStatusCounts=results.reduce((a,x)=>(x.httpStatus&&(a[x.httpStatus]=(a[x.httpStatus]||0)+1),a),{});
  const health=inspectionHealth(statusCounts,results.length);
