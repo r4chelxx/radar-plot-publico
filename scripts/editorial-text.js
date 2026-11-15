@@ -3,7 +3,7 @@
 const namedEntities={amp:'&',lt:'<',gt:'>',quot:'"',apos:"'",nbsp:' ',ndash:'–',mdash:'—',hellip:'…',laquo:'«',raquo:'»',rsquo:'’',lsquo:'‘',ldquo:'“',rdquo:'”',trade:'™',copy:'©',reg:'®'};
 
 function decodeEntities(value){
- return String(value||'').replace(/&(#x[0-9a-f]+|#\d+|[a-z][a-z0-9]+);/gi,(match,code)=>{
+ return String(value||'').replace(/&\s*(#x[0-9a-f]+|#\d+|[a-z][a-z0-9]+);/gi,(match,code)=>{
   const lower=String(code).toLowerCase();
   if(lower[0]==='#'){
    const n=lower[1]==='x'?parseInt(lower.slice(2),16):parseInt(lower.slice(1),10);
@@ -22,8 +22,9 @@ function cleanTitle(value,organization=''){
  const org=cleanText(organization,120);
  if(org){
   const escapedOrg=org.replace(/[|\\{}()[\]^$+*?.-]/g,'\\$&');
-  title=title.replace(new RegExp('\\s*(?:[-–—|:]\\s*)?'+escapedOrg+'\\s*$','i'),'').trim();
+  title=title.replace(new RegExp('\\\\s*(?:[-–—|:]\\\\s*)?'+escapedOrg+'\\\\s*$','i'),'').trim();
  }
+ title=title.replace(/\s*(?:[-–—|:]\s*)?(?:GFMD|Opportunity Desk|Arcmira|Arcimra)\s*$/i,'').trim();
  return title.replace(/\s+[-–—|:]\s*$/,'').trim();
 }
 

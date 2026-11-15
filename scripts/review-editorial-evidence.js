@@ -34,8 +34,9 @@ function inferCategory(c,text,title){
  const eligibility=/(eligib|who can apply|who can enter|who can participate|participants must|entry requirements|open to|elegibilidade|podem se candidatar)/i.test(text);
  if(opportunity&&deadline&&eligibility)return 'opportunities';
  const dataset=/(dataset|data catalog|open data|dados abertos|base de dados|microdata|microdados|data portal)/i.test(title+' '+text);
+ const datasetNoise=/(?:podcast|youtube|ranking|rankings|top ai companies|newsletter|blog|article|press release)/i.test(title+' '+text+' '+url);
  const dataAccess=/(download|\.csv|\.json|\.zip|api endpoint|api access|bulk data|baixar|export data)/i.test(text+' '+url);
- if(dataset&&dataAccess)return 'datasets';
+ if(dataset&&dataAccess&&!datasetNoise)return 'datasets';
  const tool=toolIdentity(c,title,c.audit?.structuredData||[]);
  const productFunction=toolFunction(text,c.audit?.structuredData||[]);
  if(tool&&productFunction&&!excludedToolUrl.test(url)&&!excludedToolContent.test(text)&&!excludedPath.test(new URL(url||'https://invalid.local').pathname))return 'tools';
