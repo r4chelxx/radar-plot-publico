@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-15T22:56:05.780Z",
+  "generatedAt": "2026-11-15T23:25:52.056Z",
   "policy": "Evidence-based category triage. Missing license is recorded as unknown when not found; complete means draft eligibility only, never approval or publication.",
   "counts": {
-    "pending_more_evidence": 1869
+    "pending_more_evidence": 1867
   },
   "categoryCounts": {
-    "uncategorized": 1741,
+    "uncategorized": 1739,
     "opportunities": 31,
     "tools": 33,
     "datasets": 64
@@ -1700,7 +1700,7 @@
       "url": "https://www.crummy.com/software/BeautifulSoup",
       "category": "tools",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-15T22:55:59.053Z",
+      "checkedAt": "2026-11-15T23:25:46.235Z",
       "checks": {
         "productSignal": true,
         "function": false,
@@ -3347,7 +3347,7 @@
       "url": "https://duckdb.org/docs/extensions/spatial",
       "category": "uncategorized",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-10T20:06:55.693Z",
+      "checkedAt": "2026-11-15T23:25:42.678Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -4765,19 +4765,6 @@
       "publicationReady": false
     },
     {
-      "id": "b84b095bb94287cb4cf557ba43e7b6bc27a21ee11807cf496f695e97d1efdb27",
-      "url": "https://opportunitydesk.org/2026/10/27/dpoa-mtr-journalism-fellowship-2027",
-      "category": "uncategorized",
-      "originalCategory": "opportunities",
-      "checkedAt": "2026-11-10T20:31:28.952Z",
-      "checks": {},
-      "missing": [
-        "categoria específica sem evidência suficiente"
-      ],
-      "decision": "pending_more_evidence",
-      "publicationReady": false
-    },
-    {
       "id": "bd1d8851290db41bc8fe8a80c4817e9a8c5d98510e358717f1975c864fbd4412",
       "url": "https://opportunitydesk.org/2026/10/28/cdc-steven-m-teutsch-prevention-effectiveness-fellowship-2027",
       "category": "uncategorized",
@@ -5323,19 +5310,6 @@
     {
       "id": "7faab530df00c1d4e922184f953ac4b2685d7f69d484e1bb61f184a9672f4db9",
       "url": "https://opportunitydesk.org/2026/10/30/morgan-stanley-sustainable-finance-fellowship-program-2027",
-      "category": "uncategorized",
-      "originalCategory": "opportunities",
-      "checkedAt": "2026-11-10T20:31:28.952Z",
-      "checks": {},
-      "missing": [
-        "categoria específica sem evidência suficiente"
-      ],
-      "decision": "pending_more_evidence",
-      "publicationReady": false
-    },
-    {
-      "id": "8e4cfddb7763ad9e804d109292e000bd72646ebce6ac2391598f8864e13cae36",
-      "url": "https://opportunitydesk.org/2026/10/30/gbd-fellowship-2027",
       "category": "uncategorized",
       "originalCategory": "opportunities",
       "checkedAt": "2026-11-10T20:31:28.952Z",
@@ -20389,7 +20363,7 @@
       "url": "https://www.gbif.org/dataset/2d59e5db-57ad-41ff-97d6-11f5fb264527",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-10T20:53:48.541Z",
+      "checkedAt": "2026-11-15T23:25:51.328Z",
       "checks": {
         "datasetSignal": false,
         "directResource": false,
@@ -20434,7 +20408,7 @@
       "url": "https://www.gbif.org/dataset/046bbc50-cae2-47ff-aa43-729fbf53f7c5",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-10T20:53:48.541Z",
+      "checkedAt": "2026-11-15T23:25:51.328Z",
       "checks": {
         "datasetSignal": false,
         "directResource": false,
@@ -20620,7 +20594,7 @@
       "url": "https://www.gbif.org/dataset/ac5f72cf-172d-4eb4-ad8c-db66ea1c78e5",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-10T20:53:48.541Z",
+      "checkedAt": "2026-11-15T23:25:51.328Z",
       "checks": {
         "datasetSignal": false,
         "directResource": false,
@@ -20878,7 +20852,7 @@
       "url": "https://www.gbif.org/dataset/e2116003-7282-4547-bf24-dabe0a0d76ee",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-10T20:53:48.541Z",
+      "checkedAt": "2026-11-15T23:25:51.328Z",
       "checks": {
         "datasetSignal": false,
         "directResource": false,
@@ -20958,7 +20932,7 @@
       "url": "https://www.gbif.org/dataset/50c9509d-22c7-4a22-a47d-8c48425ef4a7",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-10T20:53:48.541Z",
+      "checkedAt": "2026-11-15T23:25:51.328Z",
       "checks": {
         "datasetSignal": false,
         "directResource": false,
@@ -21142,7 +21116,7 @@
       "url": "https://www.gbif.org/dataset/8bc819e8-4358-416a-b75e-d4b6ed7e0352",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-10T20:53:48.541Z",
+      "checkedAt": "2026-11-15T23:25:51.328Z",
       "checks": {
         "datasetSignal": false,
         "directResource": false,
@@ -21180,7 +21154,7 @@
       "url": "https://www.gbif.org/dataset/0938172b-2086-439c-a1dd-c21cb0109ed5",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-10T20:53:48.541Z",
+      "checkedAt": "2026-11-15T23:25:51.328Z",
       "checks": {
         "datasetSignal": false,
         "directResource": false,
@@ -22658,7 +22632,7 @@
       "url": "https://grantsforjournalists.com/grant/john-s-knight-journalism-fellowship-at-stanford",
       "category": "opportunities",
       "originalCategory": "opportunities",
-      "checkedAt": "2026-11-11T22:15:07.282Z",
+      "checkedAt": "2026-11-15T23:25:30.826Z",
       "checks": {
         "callSignal": true,
         "deadline": null,
@@ -23074,7 +23048,7 @@
       "url": "https://www.niemanlab.org/2026/11/with-event-costs-up-and-funding-down-journalism-organizations-cancel-conferences-and-cut-staff",
       "category": "uncategorized",
       "originalCategory": "opportunities",
-      "checkedAt": "2026-11-12T18:57:10.786Z",
+      "checkedAt": "2026-11-15T23:25:30.507Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -23809,10 +23783,9 @@
       "url": "https://opportunitydesk.org/2026/11/12/ucla-library-special-collections-research-fellowships-2027",
       "category": "uncategorized",
       "originalCategory": "opportunities",
-      "checkedAt": "2026-11-13T00:34:52.902Z",
+      "checkedAt": "2026-11-15T23:25:31.264Z",
       "checks": {},
       "missing": [
-        "página primária acessível com conteúdo compatível",
         "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
