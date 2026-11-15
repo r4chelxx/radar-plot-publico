@@ -1,6 +1,138 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.opportunities=[
 {
+  "id": "auto-20694f2c66b11f71",
+  "title": "Hans De Wit Fellowship 2027 (stipend available) &#8211; Opportunity Desk",
+  "org": "Opportunity Desk",
+  "summary": "Hans De Wit Fellowship 2027 (stipend available) &#8211; Opportunity Desk Close Menu Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awards Grants Fellowships Jobs Internships Volunteering Blog OD Specials OD Live Series Young Person of the Month Mentorship OD Mentors Success Stories How-To General Tips ODIC 2026 ODIC 2026 Application ODIC Judges ODIC 2025 Winners ODIC 2023 Winners ODIC 2022 Winners ODIC 2021 Winners ODIC 2019 Winners ODIC 2018 Winners ODIC 2017 Winners ODIC 2016 Winners Search Asia Africa Australia and Oceania America Europe Deadlines Approaching Facebook X (Twitter) Instagram Sunday, November 15 About Partners Join our Mailing List Promote with OD Submit Opportunity Nominate #YPOM Privacy Policy Disclaimer Contact Facebook X (Twitter) LinkedIn Instagram Telegram Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awards Gr",
+  "type": "Oportunidade editorial",
+  "themes": [
+    "Oportunidade editorial"
+  ],
+  "scope": "Não especificado",
+  "deadline": "2026-11-15",
+  "deadlineStatus": "prazo extraído de metadado estruturado da fonte oficial; horário e condições devem ser conferidos na página",
+  "eligibility": "parcial",
+  "fit": 5,
+  "status": "aberta",
+  "value": "Não informado na fonte estruturada",
+  "duration": "Não informado na fonte estruturada",
+  "modality": "Não especificado",
+  "documents": [],
+  "restrictions": [],
+  "rules": "https://opportunitydesk.org/2026/10/29/hans-de-wit-fellowship-2027/",
+  "apply": "https://opportunitydesk.org/2026/10/29/hans-de-wit-fellowship-2027/",
+  "verified": "2026-11-15",
+  "desc": "Hans De Wit Fellowship 2027 (stipend available) &#8211; Opportunity Desk Close Menu Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awards Grants Fellowships Jobs Internships Volunteering Blog OD Specials OD Live Series Young Person of the Month Mentorship OD Mentors Success Stories How-To General Tips ODIC 2026 ODIC 2026 Application ODIC Judges ODIC 2025 Winners ODIC 2023 Winners ODIC 2022 Winners ODIC 2021 Winners ODIC 2019 Winners ODIC 2018 Winners ODIC 2017 Winners ODIC 2016 Winners Search Asia Africa Australia and Oceania America Europe Deadlines Approaching Facebook X (Twitter) Instagram Sunday, November 15 About Partners Join our Mailing List Promote with OD Submit Opportunity Nominate #YPOM Privacy Policy Disclaimer Contact Facebook X (Twitter) LinkedIn Instagram Telegram Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awards Gr",
+  "discoveryUrl": "https://opportunitydesk.org/2026/10/29/hans-de-wit-fellowship-2027",
+  "verificationHistory": [
+    {
+      "date": "2026-11-15",
+      "status": "aberta",
+      "source": "https://opportunitydesk.org/2026/10/29/hans-de-wit-fellowship-2027/"
+    }
+  ]
+},
+{
+  "id": "auto-7c236b79b5067b22",
+  "title": "Morgridge Acceleration Program (MAP) Fellowship 2027 (Funded) &#8211; Opportunity Desk",
+  "org": "Opportunity Desk",
+  "summary": "Morgridge Acceleration Program (MAP) Fellowship 2027 (Funded) &#8211; Opportunity Desk Close Menu Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awards Grants Fellowships Jobs Internships Volunteering Blog OD Specials OD Live Series Young Person of the Month Mentorship OD Mentors Success Stories How-To General Tips ODIC 2026 ODIC 2026 Application ODIC Judges ODIC 2025 Winners ODIC 2023 Winners ODIC 2022 Winners ODIC 2021 Winners ODIC 2019 Winners ODIC 2018 Winners ODIC 2017 Winners ODIC 2016 Winners Search Asia Africa Australia and Oceania America Europe Deadlines Approaching Facebook X (Twitter) Instagram Sunday, November 15 About Partners Join our Mailing List Promote with OD Submit Opportunity Nominate #YPOM Privacy Policy Disclaimer Contact Facebook X (Twitter) LinkedIn Instagram Telegram Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competit",
+  "type": "Oportunidade editorial",
+  "themes": [
+    "Oportunidade editorial"
+  ],
+  "scope": "Não especificado",
+  "deadline": "2026-11-23",
+  "deadlineStatus": "prazo extraído de metadado estruturado da fonte oficial; horário e condições devem ser conferidos na página",
+  "eligibility": "parcial",
+  "fit": 5,
+  "status": "aberta",
+  "value": "Não informado na fonte estruturada",
+  "duration": "Não informado na fonte estruturada",
+  "modality": "Não especificado",
+  "documents": [],
+  "restrictions": [],
+  "rules": "https://opportunitydesk.org/2026/11/09/morgridge-acceleration-program-fellowship-2027/",
+  "apply": "https://opportunitydesk.org/2026/11/09/morgridge-acceleration-program-fellowship-2027/",
+  "verified": "2026-11-15",
+  "desc": "Morgridge Acceleration Program (MAP) Fellowship 2027 (Funded) &#8211; Opportunity Desk Close Menu Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awards Grants Fellowships Jobs Internships Volunteering Blog OD Specials OD Live Series Young Person of the Month Mentorship OD Mentors Success Stories How-To General Tips ODIC 2026 ODIC 2026 Application ODIC Judges ODIC 2025 Winners ODIC 2023 Winners ODIC 2022 Winners ODIC 2021 Winners ODIC 2019 Winners ODIC 2018 Winners ODIC 2017 Winners ODIC 2016 Winners Search Asia Africa Australia and Oceania America Europe Deadlines Approaching Facebook X (Twitter) Instagram Sunday, November 15 About Partners Join our Mailing List Promote with OD Submit Opportunity Nominate #YPOM Privacy Policy Disclaimer Contact Facebook X (Twitter) LinkedIn Instagram Telegram Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competit",
+  "discoveryUrl": "https://opportunitydesk.org/2026/11/09/morgridge-acceleration-program-fellowship-2027",
+  "verificationHistory": [
+    {
+      "date": "2026-11-15",
+      "status": "aberta",
+      "source": "https://opportunitydesk.org/2026/11/09/morgridge-acceleration-program-fellowship-2027/"
+    }
+  ]
+},
+{
+  "id": "auto-99cc7fdcdfd04015",
+  "title": "Nature Culture Fellowship 2027 &#8211; Opportunity Desk",
+  "org": "Opportunity Desk",
+  "summary": "Nature Culture Fellowship 2027 &#8211; Opportunity Desk Close Menu Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awards Grants Fellowships Jobs Internships Volunteering Blog OD Specials OD Live Series Young Person of the Month Mentorship OD Mentors Success Stories How-To General Tips ODIC 2026 ODIC 2026 Application ODIC Judges ODIC 2025 Winners ODIC 2023 Winners ODIC 2022 Winners ODIC 2021 Winners ODIC 2019 Winners ODIC 2018 Winners ODIC 2017 Winners ODIC 2016 Winners Search Asia Africa Australia and Oceania America Europe Deadlines Approaching Facebook X (Twitter) Instagram Sunday, November 15 About Partners Join our Mailing List Promote with OD Submit Opportunity Nominate #YPOM Privacy Policy Disclaimer Contact Facebook X (Twitter) LinkedIn Instagram Telegram Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awards Grants Fellowships ",
+  "type": "Oportunidade editorial",
+  "themes": [
+    "Oportunidade editorial"
+  ],
+  "scope": "Não especificado",
+  "deadline": "2026-12-01",
+  "deadlineStatus": "prazo extraído de metadado estruturado da fonte oficial; horário e condições devem ser conferidos na página",
+  "eligibility": "parcial",
+  "fit": 5,
+  "status": "aberta",
+  "value": "Não informado na fonte estruturada",
+  "duration": "Não informado na fonte estruturada",
+  "modality": "Não especificado",
+  "documents": [],
+  "restrictions": [],
+  "rules": "https://opportunitydesk.org/2026/11/10/nature-culture-fellowship-2027/",
+  "apply": "https://opportunitydesk.org/2026/11/10/nature-culture-fellowship-2027/",
+  "verified": "2026-11-15",
+  "desc": "Nature Culture Fellowship 2027 &#8211; Opportunity Desk Close Menu Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awards Grants Fellowships Jobs Internships Volunteering Blog OD Specials OD Live Series Young Person of the Month Mentorship OD Mentors Success Stories How-To General Tips ODIC 2026 ODIC 2026 Application ODIC Judges ODIC 2025 Winners ODIC 2023 Winners ODIC 2022 Winners ODIC 2021 Winners ODIC 2019 Winners ODIC 2018 Winners ODIC 2017 Winners ODIC 2016 Winners Search Asia Africa Australia and Oceania America Europe Deadlines Approaching Facebook X (Twitter) Instagram Sunday, November 15 About Partners Join our Mailing List Promote with OD Submit Opportunity Nominate #YPOM Privacy Policy Disclaimer Contact Facebook X (Twitter) LinkedIn Instagram Telegram Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awards Grants Fellowships ",
+  "discoveryUrl": "https://opportunitydesk.org/2026/11/10/nature-culture-fellowship-2027",
+  "verificationHistory": [
+    {
+      "date": "2026-11-15",
+      "status": "aberta",
+      "source": "https://opportunitydesk.org/2026/11/10/nature-culture-fellowship-2027/"
+    }
+  ]
+},
+{
+  "id": "auto-07c30c0c9c4875b0",
+  "title": "Career Pathways Initiative Fellowship 2027 &#8211; Opportunity Desk",
+  "org": "Opportunity Desk",
+  "summary": "Career Pathways Initiative Fellowship 2027 &#8211; Opportunity Desk Close Menu Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awards Grants Fellowships Jobs Internships Volunteering Blog OD Specials OD Live Series Young Person of the Month Mentorship OD Mentors Success Stories How-To General Tips ODIC 2026 ODIC 2026 Application ODIC Judges ODIC 2025 Winners ODIC 2023 Winners ODIC 2022 Winners ODIC 2021 Winners ODIC 2019 Winners ODIC 2018 Winners ODIC 2017 Winners ODIC 2016 Winners Search Asia Africa Australia and Oceania America Europe Deadlines Approaching Facebook X (Twitter) Instagram Sunday, November 15 About Partners Join our Mailing List Promote with OD Submit Opportunity Nominate #YPOM Privacy Policy Disclaimer Contact Facebook X (Twitter) LinkedIn Instagram Telegram Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awards Grants ",
+  "type": "Oportunidade editorial",
+  "themes": [
+    "Oportunidade editorial"
+  ],
+  "scope": "Não especificado",
+  "deadline": "2027-01-29",
+  "deadlineStatus": "prazo extraído de metadado estruturado da fonte oficial; horário e condições devem ser conferidos na página",
+  "eligibility": "parcial",
+  "fit": 5,
+  "status": "aberta",
+  "value": "Não informado na fonte estruturada",
+  "duration": "Não informado na fonte estruturada",
+  "modality": "Não especificado",
+  "documents": [],
+  "restrictions": [],
+  "rules": "https://opportunitydesk.org/2026/11/10/career-pathways-initiative-fellowship-2027/",
+  "apply": "https://opportunitydesk.org/2026/11/10/career-pathways-initiative-fellowship-2027/",
+  "verified": "2026-11-15",
+  "desc": "Career Pathways Initiative Fellowship 2027 &#8211; Opportunity Desk Close Menu Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awards Grants Fellowships Jobs Internships Volunteering Blog OD Specials OD Live Series Young Person of the Month Mentorship OD Mentors Success Stories How-To General Tips ODIC 2026 ODIC 2026 Application ODIC Judges ODIC 2025 Winners ODIC 2023 Winners ODIC 2022 Winners ODIC 2021 Winners ODIC 2019 Winners ODIC 2018 Winners ODIC 2017 Winners ODIC 2016 Winners Search Asia Africa Australia and Oceania America Europe Deadlines Approaching Facebook X (Twitter) Instagram Sunday, November 15 About Partners Join our Mailing List Promote with OD Submit Opportunity Nominate #YPOM Privacy Policy Disclaimer Contact Facebook X (Twitter) LinkedIn Instagram Telegram Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awards Grants ",
+  "discoveryUrl": "https://opportunitydesk.org/2026/11/10/career-pathways-initiative-fellowship-2027",
+  "verificationHistory": [
+    {
+      "date": "2026-11-15",
+      "status": "aberta",
+      "source": "https://opportunitydesk.org/2026/11/10/career-pathways-initiative-fellowship-2027/"
+    }
+  ]
+}, 
+{
   "id": "auto-3eaf309bafe21ae1",
   "title": "German–Northern European Journalists Fellowship 2027 - GFMD",
   "org": "GFMD",
