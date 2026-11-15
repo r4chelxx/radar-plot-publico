@@ -2492,6 +2492,58 @@
         "officialUrl": "https://tasks.hotosm.org/",
         "evidence": "Página oficial tasks.hotosm.org confirma divisão de projetos de mapeamento, uso de imagens para mapear edificações e vias e validação por colaboradores experientes; documentação HOT/OSGeo confirma código aberto e coordenação de tarefas. Conferida ausência de domínio, URL e ID no catálogo e manifesto; registradas limitações de cobertura e verificação."
       }
+    },
+    {
+      "category": "opportunities",
+      "record": {
+        "id": "auto-dd02e3a4796ccaa2",
+        "title": "California Health Equity Fellowship",
+        "org": "USC Center for Health Journalism",
+        "summary": "Breadcrumb Home California Health Equity Fellowship Deadline to apply December 16, 2026 APPLY NOW Upcoming fellowship dates Fellowship: March–July 2027 In-person training: Week of March 15, 2027 Description Image Journalists spending time together during our 2026 California Health Equity Fellowship Week in March in Los Angeles.",
+        "type": "Oportunidade editorial",
+        "themes": [
+          "Oportunidade editorial"
+        ],
+        "scope": "Não especificado",
+        "deadline": "2026-12-16",
+        "deadlineStatus": "prazo extraído de metadado estruturado da fonte oficial; horário e condições devem ser conferidos na página",
+        "eligibility": "parcial",
+        "fit": 5,
+        "status": "aberta",
+        "value": "Não informado na fonte estruturada",
+        "duration": "Não informado na fonte estruturada",
+        "modality": "Não especificado",
+        "documents": [],
+        "restrictions": [],
+        "rules": "https://centerforhealthjournalism.org/fellowships-grants/california-fellowship",
+        "apply": "https://centerforhealthjournalism.org/fellowships-grants/california-fellowship",
+        "verified": "2026-11-15",
+        "desc": "Breadcrumb Home California Health Equity Fellowship Deadline to apply December 16, 2026 APPLY NOW Upcoming fellowship dates Fellowship: March–July 2027 In-person training: Week of March 15, 2027 Description Image Journalists spending time together during our 2026 California Health Equity Fellowship Week in March in Los Angeles.",
+        "discoveryUrl": "https://centerforhealthjournalism.org/fellowships-grants/california-fellowship",
+        "verificationHistory": [
+          {
+            "date": "2026-11-15",
+            "status": "aberta",
+            "source": "https://centerforhealthjournalism.org/fellowships-grants/california-fellowship"
+          }
+        ]
+      },
+      "review": {
+        "reviewedBy": "Radar evidence gate v1",
+        "reviewPolicyVersion": "radar-evidence-v1",
+        "decision": "approved",
+        "officialUrl": "https://centerforhealthjournalism.org/fellowships-grants/california-fellowship",
+        "sourceStatus": 200,
+        "contentType": "text/html; charset=utf-8",
+        "checkedAt": "2026-11-15T23:52:57.236Z",
+        "reviewedAt": "2026-11-15",
+        "evidence": "California Health Equity Fellowship Breadcrumb Home California Health Equity Fellowship Deadline to apply December 16, 2026 APPLY NOW Upcoming fellowship dates Fellowship: March–July 2027 In-person training: Week of March 15, 2027 Description Image Journalists spending time together during our 2026 California Health Equity Fellowship Week in March in Los Angeles. Breadcrumb Home California Health Equity Fellowship Deadline to apply December 16, 2026 APPLY NOW Upcoming fellowship dates Fellowship: March–July 2027 In-person training: Week of March 15, 2027 Description Image Journalists spending time together during our 2026 California Health Equity Fellowship Week in March in Los Angeles. {\"url\":\"https://centerforhealthjournalism.org/fellowships-grants/california-fellowship\",\"title\":\"California Health Equity Fellowship\",\"description\":\"Breadcrumb Home California Health Equity Fellowship Deadline to apply December 16, 2026 APPLY NOW Upcoming fellowship dates Fellowship: March–July 2027 In-person training: Week of March 15, 2027 Description Image Journalists spending time together during our 2026 California Health Equity Fellowship Week in March in Los Angeles.\",\"organization\":\"USC Center for Health Journalism\",\"deadline\":\"2026-12-16\",\"eligibility\":\"eligible to apply for five months of professional mentorship in engaged journalism and $1,000-$2,000 to support those creative efforts\",\"eligibilityExplicit\":true,\"sourceType\":null,\"status\":\"aberta\"}",
+        "evidenceHash": "99730d80782e06765fe41a106d1181373b58b8775a66d7d24589cd4a2736b96e",
+        "evidenceChecks": {
+          "callSignal": true,
+          "eligibility": true
+        }
+      }
     }
   ],
   "pending": [
