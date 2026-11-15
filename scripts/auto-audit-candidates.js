@@ -3,6 +3,7 @@
 // It only approves records when every deterministic gate is present; otherwise it
 // records the blocker and leaves the candidate in review.
 const fs=require('node:fs'),crypto=require('node:crypto');
+const {cleanTitle,cleanSummary}=require('./editorial-text');
 const evidence=JSON.parse(fs.readFileSync(process.argv[2]||'intake/lead-evidence.json','utf8'));
 const review=JSON.parse(fs.readFileSync(process.argv[3]||'intake/editorial-review.json','utf8'));
 const today=new Intl.DateTimeFormat('en-CA',{timeZone:'America/Bahia',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());
@@ -24,10 +25,10 @@ function validPublicationReview(proof,category,url){
 }
 function deriveOpportunity(lead,url){
  const se=lead.structuredEvidence||{};
- const title=se.title||lead.pageTitle||lead.sourcePageTitle;
- const description=se.description||lead.pageDescription;
  const organization=se.organization||lead.organization||lead.source;
- if(lead.category!=='opportunities'||!se.eligibilityExplicit||se.status!=='aberta'||!title||!description||description.length<120||!organization||!future(se.deadline))return null;
+ const title=cleanTitle(se.title||lead.pageTitle||lead.sourcePageTitle,organization);
+ const description=cleanSummary(se.description||lead.pageDescription,title,organization);
+ if(lead.category!=='opportunities'||!se.eligibilityExplicit||se.status!=='aberta'||!title||!description||description.length<60||!organization||!future(se.deadline))return null;
  return {id:derivedId(url),title,org:organization,summary:description,type:se.sourceType||'Oportunidade editorial',themes:['Oportunidade editorial'],scope:'Não especificado',deadline:se.deadline,deadlineStatus:'prazo extraído de metadado estruturado da fonte oficial; horário e condições devem ser conferidos na página',eligibility:'parcial',fit:5,status:'aberta',value:'Não informado na fonte estruturada',duration:'Não informado na fonte estruturada',modality:se.sourceType||'Não especificado',documents:[],restrictions:[],rules:url,apply:url,verified:today,desc:se.description,discoveryUrl:lead.url,verificationHistory:[{date:today,status:'aberta',source:url}]};
 }
 function deriveDataset(lead,url){
