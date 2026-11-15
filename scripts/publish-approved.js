@@ -2,6 +2,7 @@
 // Promote explicitly verified editorial records to public catalogs and the dated changelog.
 // No candidate is considered approved merely because a collector found it.
 const fs=require('node:fs'),vm=require('node:vm'),crypto=require('node:crypto');
+const {cleanText,cleanTitle,cleanSummary}=require('./editorial-text');
 const manifest=process.argv[2]||'intake/approved-publications.json';
 const source=JSON.parse(fs.readFileSync(manifest,'utf8'));
 if(!Array.isArray(source.approved))throw Error('Manifest requires approved[]');
@@ -23,6 +24,17 @@ for(const [category,rule] of Object.entries(spec))for(const existing of D[catego
 const approvedIds=new Set();
 for(const entry of source.approved){
  const category=entry.category,rule=spec[category],record=entry.record||{},proof=entry.review||{};
+ if(category==='opportunities'){
+  record.title=cleanTitle(record.title,record.org);
+  record.summary=cleanSummary(record.summary,record.title,record.org);
+  if(record.desc)record.desc=record.summary;
+ }else if(category==='datasets'){
+  record.name=cleanTitle(record.name,record.org);
+  if(record.description)record.description=cleanText(record.description,1200);
+ }else if(category==='tools'){
+  record.name=cleanTitle(record.name,record.org);
+  record.desc=cleanText(record.desc,1600);
+ }
  if(!rule)throw Error('Unknown publication category: '+category);
  if(!record.id||!/^[-a-z0-9]+$/.test(record.id))throw Error('Invalid record ID');
  if(approvedIds.has(record.id))throw Error('Duplicate approval: '+record.id);
