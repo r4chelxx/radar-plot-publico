@@ -54,7 +54,7 @@ function selectBacklog(previous,current,limit=10,now=new Date(),options={}){
   Number(a.origin!=='historical')-Number(b.origin!=='historical')||
   String(a.lastInspectedAt||a.firstSeen||'').localeCompare(String(b.lastInspectedAt||b.firstSeen||''))||
   String(a.id).localeCompare(String(b.id)));
- const cap=Math.min(Math.max(1,limit),100);
+ const cap=Math.min(Math.max(1,limit),240);
  const balancedTake=(items,n)=>{
   const categories=['opportunities','datasets','tools'];
   const selected=[],used=new Set();
