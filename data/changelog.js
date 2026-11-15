@@ -6,6 +6,70 @@ window.RADAR_PARTS.changelog=[
   "title": "Publicação editorial verificada — 2026-11-15",
   "items": [
     {
+      "id": "auto-f313a1b2aaf9bab8",
+      "title": "ANH Academy Science-Policy Fellowships 2027 (Round 3) &#8211; Opportunity Desk"
+    },
+    {
+      "id": "auto-e73e7f5fdda53daa",
+      "title": "Center for Effective Global Action (CEGA) Visiting Fellowship 2027-2028 &#8211; Opportunity Desk"
+    },
+    {
+      "id": "auto-94a646811b984c25",
+      "title": "CRASSH Visiting Fellowships for Scholars from the Global South 2027 (Funded) &#8211; Opportunity Desk"
+    },
+    {
+      "id": "auto-69c877447f93b5bd",
+      "title": "Commonwealth Shared Scholarship Programme 2027/2028 to Study in the U.K. (Fully-funded) &#8211; Opportunity Desk"
+    },
+    {
+      "id": "auto-7b0ab2f5fcee3506",
+      "title": "African Development Bank Group Shanghai Ocean University Scholarship Masters Degree Program 2027 &#8211; Opportunity Desk"
+    },
+    {
+      "id": "auto-f3ed499d05010525",
+      "title": "Gratitude Network Fellowship 2027 &#8211; Opportunity Desk"
+    },
+    {
+      "id": "auto-545034bb0ede7096",
+      "title": "African Wildlife Foundation (AWF) Geospatial Leaders Fellowship 2027 &#8211; Opportunity Desk"
+    },
+    {
+      "id": "auto-aedc388869508d21",
+      "title": "Africa Dyslexia Teacher Fellowship Program 2027 &#8211; Opportunity Desk"
+    },
+    {
+      "id": "auto-0d368c641b24a8ef",
+      "title": "Green Global Fellowship 2027 for Emerging Leaders &#8211; Opportunity Desk"
+    },
+    {
+      "id": "auto-83c5913e44b43ec4",
+      "title": "Harvard Kennedy School (HKS) American Service Fellowship 2027 (up to $100,000) &#8211; Opportunity Desk"
+    },
+    {
+      "id": "auto-ba010ac2ff6829c7",
+      "title": "Thrive Capital Summer Fellowship 2027 ($100,000 salary) &#8211; Opportunity Desk"
+    },
+    {
+      "id": "auto-4108f1a86ca4c52d",
+      "title": "DSTI-NRF Policy Fellowship Programme 2027 (Funded) &#8211; Opportunity Desk"
+    },
+    {
+      "id": "auto-d95bb1167167d1e7",
+      "title": "Mastercard Foundation EdTech Fellowship Uganda Cohort 2 &#8211; Opportunity Desk"
+    },
+    {
+      "id": "auto-22e9cfbb34d83006",
+      "title": "Arewa Creative Writing and Advocacy Fellowship (ACWAF) 2026 – Cohort 1 &#8211; Opportunity Desk"
+    }
+  ],
+  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: ANH Academy Science-Policy Fellowships 2027 (Round 3) &#8211; Opportunity Desk; Center for Effective Global Action (CEGA) Visiting Fellowship 2027-2028 &#8211; Opportunity Desk; CRASSH Visiting Fellowships for Scholars from the Global South 2027 (Funded) &#8211; Opportunity Desk; Commonwealth Shared Scholarship Programme 2027/2028 to Study in the U.K. (Fully-funded) &#8211; Opportunity Desk; African Development Bank Group Shanghai Ocean University Scholarship Masters Degree Program 2027 &#8211; Opportunity Desk; Gratitude Network Fellowship 2027 &#8211; Opportunity Desk; African Wildlife Foundation (AWF) Geospatial Leaders Fellowship 2027 &#8211; Opportunity Desk; Africa Dyslexia Teacher Fellowship Program 2027 &#8211; Opportunity Desk; Green Global Fellowship 2027 for Emerging Leaders &#8211; Opportunity Desk; Harvard Kennedy School (HKS) American Service Fellowship 2027 (up to $100,000) &#8211; Opportunity Desk; Thrive Capital Summer Fellowship 2027 ($100,000 salary) &#8211; Opportunity Desk; DSTI-NRF Policy Fellowship Programme 2027 (Funded) &#8211; Opportunity Desk; Mastercard Foundation EdTech Fellowship Uganda Cohort 2 &#8211; Opportunity Desk; Arewa Creative Writing and Advocacy Fellowship (ACWAF) 2026 – Cohort 1 &#8211; Opportunity Desk."
+}, 
+{
+  "date": "2026-11-15",
+  "type": "nova-oportunidade",
+  "title": "Publicação editorial verificada — 2026-11-15",
+  "items": [
+    {
       "id": "auto-20694f2c66b11f71",
       "title": "Hans De Wit Fellowship 2027 (stipend available) &#8211; Opportunity Desk"
     },
