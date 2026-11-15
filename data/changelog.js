@@ -6,6 +6,54 @@ window.RADAR_PARTS.changelog=[
   "title": "Publicação editorial verificada — 2026-11-15",
   "items": [
     {
+      "id": "auto-b2fde425407fcb72",
+      "title": "Fund for Investigative Journalism grants"
+    },
+    {
+      "id": "auto-e25a1e1dd4ba6eb6",
+      "title": "EDSAFE AI Fellowship 2027"
+    },
+    {
+      "id": "auto-5be20206d02d6cd0",
+      "title": "University of Vienna Faculty of Law Fellowship Programme – Summer 2027"
+    },
+    {
+      "id": "auto-587d8a585642f19c",
+      "title": "Backing International Small Restaurants Grant Program 2026"
+    },
+    {
+      "id": "auto-6e1f40b17012f23d",
+      "title": "California Health Equity Fellowship"
+    },
+    {
+      "id": "auto-1a4869f711248d4c",
+      "title": "Harvard Pollman Fellowship in Real Estate and Urban Development 2027 (up to $55,000)"
+    },
+    {
+      "id": "auto-a0d383efcd6f6ab9",
+      "title": "EJN Renewable Energy Story Grants – India"
+    }
+  ],
+  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Fund for Investigative Journalism grants; EDSAFE AI Fellowship 2027; University of Vienna Faculty of Law Fellowship Programme – Summer 2027; Backing International Small Restaurants Grant Program 2026; California Health Equity Fellowship; Harvard Pollman Fellowship in Real Estate and Urban Development 2027 (up to $55,000); EJN Renewable Energy Story Grants – India."
+},
+{
+  "date": "2026-11-15",
+  "type": "ferramentas",
+  "title": "Publicação editorial verificada — 2026-11-15",
+  "items": [
+    {
+      "id": "auto-2e096d36f77afbee",
+      "title": "Show & Tell from Indicator"
+    }
+  ],
+  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Show & Tell from Indicator."
+}, 
+{
+  "date": "2026-11-15",
+  "type": "nova-oportunidade",
+  "title": "Publicação editorial verificada — 2026-11-15",
+  "items": [
+    {
       "id": "auto-f6939f85c9edb7ae",
       "title": "International Blue Carbon Institute (IBCI) Fellowship Program 2027 ($60,000 grant) &#8211; Opportunity Desk"
     },

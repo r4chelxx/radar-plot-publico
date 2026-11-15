@@ -1,5 +1,236 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.opportunities=[
+{
+  "id": "auto-b2fde425407fcb72",
+  "title": "Fund for Investigative Journalism grants",
+  "org": "GFMD",
+  "summary": "The Fund for Investigative Journalism provides grants and other support for reporters to produce high-quality, unbiased, nonpartisan investigative stories that have an impact.",
+  "type": "Oportunidade editorial",
+  "themes": [
+    "Oportunidade editorial"
+  ],
+  "scope": "Não especificado",
+  "deadline": "2027-01-29",
+  "deadlineStatus": "prazo extraído de metadado estruturado da fonte oficial; horário e condições devem ser conferidos na página",
+  "eligibility": "parcial",
+  "fit": 5,
+  "status": "aberta",
+  "value": "Não informado na fonte estruturada",
+  "duration": "Não informado na fonte estruturada",
+  "modality": "Não especificado",
+  "documents": [],
+  "restrictions": [],
+  "rules": "https://gfmd.info/fundings/fund-for-investigative-journalism-grants-3/",
+  "apply": "https://gfmd.info/fundings/fund-for-investigative-journalism-grants-3/",
+  "verified": "2026-11-15",
+  "desc": "The Fund for Investigative Journalism provides grants and other support for reporters to produce high-quality, unbiased, nonpartisan investigative stories that have an impact.",
+  "discoveryUrl": "https://gfmd.info/fundings/fund-for-investigative-journalism-grants-3",
+  "verificationHistory": [
+    {
+      "date": "2026-11-15",
+      "status": "aberta",
+      "source": "https://gfmd.info/fundings/fund-for-investigative-journalism-grants-3/"
+    }
+  ]
+},
+{
+  "id": "auto-e25a1e1dd4ba6eb6",
+  "title": "EDSAFE AI Fellowship 2027",
+  "org": "Opportunity Desk",
+  "summary": "Deadline: November 30, 2026 Applications for the EDSAFE AI Fellowship 2027 are now open. The EDSAFE AI Fellowship is a leadership development program designed to connect and empower underrepresented thought leaders in artificial intelligence (AI) in education. Through interactive workshops, mentorship, and a collaborative capstone project, Fellows gain a deeper understanding of AI’s ethical, safe, and equitable use in education. The Fellowship is not full-time. Fellowship Details Catalyst Fellowship: Bringing together education leaders across both practice and industry, this interdisciplinary fellowship unites the supply and demand sides of the sector to build a resilient, AI-enabled learning ecosystem. Fellows collaborate across traditional silos to ensure emerging technologies are safe by design, grounded in evidence, and built to elevate human judgment and student agency. Women in AI",
+  "type": "Oportunidade editorial",
+  "themes": [
+    "Oportunidade editorial"
+  ],
+  "scope": "Não especificado",
+  "deadline": "2026-11-30",
+  "deadlineStatus": "prazo extraído de metadado estruturado da fonte oficial; horário e condições devem ser conferidos na página",
+  "eligibility": "parcial",
+  "fit": 5,
+  "status": "aberta",
+  "value": "Não informado na fonte estruturada",
+  "duration": "Não informado na fonte estruturada",
+  "modality": "Não especificado",
+  "documents": [],
+  "restrictions": [],
+  "rules": "https://opportunitydesk.org/2026/11/04/edsafe-ai-fellowship-2027/",
+  "apply": "https://opportunitydesk.org/2026/11/04/edsafe-ai-fellowship-2027/",
+  "verified": "2026-11-15",
+  "desc": "Deadline: November 30, 2026 Applications for the EDSAFE AI Fellowship 2027 are now open. The EDSAFE AI Fellowship is a leadership development program designed to connect and empower underrepresented thought leaders in artificial intelligence (AI) in education. Through interactive workshops, mentorship, and a collaborative capstone project, Fellows gain a deeper understanding of AI’s ethical, safe, and equitable use in education. The Fellowship is not full-time. Fellowship Details Catalyst Fellowship: Bringing together education leaders across both practice and industry, this interdisciplinary fellowship unites the supply and demand sides of the sector to build a resilient, AI-enabled learning ecosystem. Fellows collaborate across traditional silos to ensure emerging technologies are safe by design, grounded in evidence, and built to elevate human judgment and student agency. Women in AI",
+  "discoveryUrl": "https://opportunitydesk.org/2026/11/04/edsafe-ai-fellowship-2027",
+  "verificationHistory": [
+    {
+      "date": "2026-11-15",
+      "status": "aberta",
+      "source": "https://opportunitydesk.org/2026/11/04/edsafe-ai-fellowship-2027/"
+    }
+  ]
+},
+{
+  "id": "auto-5be20206d02d6cd0",
+  "title": "University of Vienna Faculty of Law Fellowship Programme – Summer 2027",
+  "org": "Opportunity Desk",
+  "summary": "Deadline: November 30, 2026 Applications are open for the University of Vienna Faculty of Law Fellowship Programme – Summer 2027 . The programme aims to promote international academic exchange and foster collaboration between international fellows and members of the faculty. It offers both early-career and established researchers the opportunity to pursue their research in an international academic environment, benefit from the faculty’s expertise and establish new scholarly connections. Building on the faculty’s existing research initiatives and diverse research priorities, the programme seeks to encourage interdisciplinary exchange, strengthen international research networks and create opportunities for long-term academic collaboration. Fellowship For the summer semester of 2027, the Faculty of Law offers: Senior Fellowships for professors, providing financial support of EUR 1,050 per",
+  "type": "Oportunidade editorial",
+  "themes": [
+    "Oportunidade editorial"
+  ],
+  "scope": "Não especificado",
+  "deadline": "2026-11-30",
+  "deadlineStatus": "prazo extraído de metadado estruturado da fonte oficial; horário e condições devem ser conferidos na página",
+  "eligibility": "parcial",
+  "fit": 5,
+  "status": "aberta",
+  "value": "Não informado na fonte estruturada",
+  "duration": "Não informado na fonte estruturada",
+  "modality": "Não especificado",
+  "documents": [],
+  "restrictions": [],
+  "rules": "https://opportunitydesk.org/2026/11/05/university-of-vienna-faculty-of-law-fellowship-programme-summer-2027/",
+  "apply": "https://opportunitydesk.org/2026/11/05/university-of-vienna-faculty-of-law-fellowship-programme-summer-2027/",
+  "verified": "2026-11-15",
+  "desc": "Deadline: November 30, 2026 Applications are open for the University of Vienna Faculty of Law Fellowship Programme – Summer 2027 . The programme aims to promote international academic exchange and foster collaboration between international fellows and members of the faculty. It offers both early-career and established researchers the opportunity to pursue their research in an international academic environment, benefit from the faculty’s expertise and establish new scholarly connections. Building on the faculty’s existing research initiatives and diverse research priorities, the programme seeks to encourage interdisciplinary exchange, strengthen international research networks and create opportunities for long-term academic collaboration. Fellowship For the summer semester of 2027, the Faculty of Law offers: Senior Fellowships for professors, providing financial support of EUR 1,050 per",
+  "discoveryUrl": "https://opportunitydesk.org/2026/11/05/university-of-vienna-faculty-of-law-fellowship-programme-summer-2027",
+  "verificationHistory": [
+    {
+      "date": "2026-11-15",
+      "status": "aberta",
+      "source": "https://opportunitydesk.org/2026/11/05/university-of-vienna-faculty-of-law-fellowship-programme-summer-2027/"
+    }
+  ]
+},
+{
+  "id": "auto-587d8a585642f19c",
+  "title": "Backing International Small Restaurants Grant Program 2026",
+  "org": "Opportunity Desk",
+  "summary": "Deadline: November 16, 2026 Applications are open for the Backing International Small Restaurants Grant Program 2026 . The International Downtown Association Foundation recognizes that small restaurants are vital to thriving communities. The Backing International Small Restaurants grant program, supported by American Express, aims to help restaurants to grow, recover, and support their local communities. Funding can support a range of initiatives including enhancing digital capabilities, building or refreshing dining spaces and making improvements to kitchen operations. Grant Grants are available for the following funding amounts in the following cities: Auckland – 5 grants of NZD 25,000 Barcelona – 10 grants of EUR 12,500 London and Manchester – 20 grants of GBP 10,500 Melbourne and Sydney – 15 grants of AUD 20,000 Mexico City – 10 grants of MXN equivalent of USD $10,000 Milan – 5 grant",
+  "type": "Oportunidade editorial",
+  "themes": [
+    "Oportunidade editorial"
+  ],
+  "scope": "Não especificado",
+  "deadline": "2026-11-16",
+  "deadlineStatus": "prazo extraído de metadado estruturado da fonte oficial; horário e condições devem ser conferidos na página",
+  "eligibility": "parcial",
+  "fit": 5,
+  "status": "aberta",
+  "value": "Não informado na fonte estruturada",
+  "duration": "Não informado na fonte estruturada",
+  "modality": "Não especificado",
+  "documents": [],
+  "restrictions": [],
+  "rules": "https://opportunitydesk.org/2026/11/03/backing-international-small-restaurants-grant-program-2026/",
+  "apply": "https://opportunitydesk.org/2026/11/03/backing-international-small-restaurants-grant-program-2026/",
+  "verified": "2026-11-15",
+  "desc": "Deadline: November 16, 2026 Applications are open for the Backing International Small Restaurants Grant Program 2026 . The International Downtown Association Foundation recognizes that small restaurants are vital to thriving communities. The Backing International Small Restaurants grant program, supported by American Express, aims to help restaurants to grow, recover, and support their local communities. Funding can support a range of initiatives including enhancing digital capabilities, building or refreshing dining spaces and making improvements to kitchen operations. Grant Grants are available for the following funding amounts in the following cities: Auckland – 5 grants of NZD 25,000 Barcelona – 10 grants of EUR 12,500 London and Manchester – 20 grants of GBP 10,500 Melbourne and Sydney – 15 grants of AUD 20,000 Mexico City – 10 grants of MXN equivalent of USD $10,000 Milan – 5 grant",
+  "discoveryUrl": "https://opportunitydesk.org/2026/11/03/backing-international-small-restaurants-grant-program-2026",
+  "verificationHistory": [
+    {
+      "date": "2026-11-15",
+      "status": "aberta",
+      "source": "https://opportunitydesk.org/2026/11/03/backing-international-small-restaurants-grant-program-2026/"
+    }
+  ]
+},
+{
+  "id": "auto-6e1f40b17012f23d",
+  "title": "California Health Equity Fellowship",
+  "org": "USC Center for Health Journalism",
+  "summary": "Breadcrumb Home California Health Equity Fellowship Deadline to apply December 16, 2026 APPLY NOW Upcoming fellowship dates Fellowship: March–July 2027 In-person training: Week of March 15, 2027 Description Image Journalists spending time together during our 2026 California Health Equity Fellowship Week in March in Los Angeles.",
+  "type": "Oportunidade editorial",
+  "themes": [
+    "Oportunidade editorial"
+  ],
+  "scope": "Não especificado",
+  "deadline": "2026-12-16",
+  "deadlineStatus": "prazo extraído de metadado estruturado da fonte oficial; horário e condições devem ser conferidos na página",
+  "eligibility": "parcial",
+  "fit": 5,
+  "status": "aberta",
+  "value": "Não informado na fonte estruturada",
+  "duration": "Não informado na fonte estruturada",
+  "modality": "Não especificado",
+  "documents": [],
+  "restrictions": [],
+  "rules": "https://centerforhealthjournalism.org/index%2Ephp/fellowships-grants/california-fellowship",
+  "apply": "https://centerforhealthjournalism.org/index%2Ephp/fellowships-grants/california-fellowship",
+  "verified": "2026-11-15",
+  "desc": "Breadcrumb Home California Health Equity Fellowship Deadline to apply December 16, 2026 APPLY NOW Upcoming fellowship dates Fellowship: March–July 2027 In-person training: Week of March 15, 2027 Description Image Journalists spending time together during our 2026 California Health Equity Fellowship Week in March in Los Angeles.",
+  "discoveryUrl": "https://centerforhealthjournalism.org/index%2Ephp/fellowships-grants/california-fellowship",
+  "verificationHistory": [
+    {
+      "date": "2026-11-15",
+      "status": "aberta",
+      "source": "https://centerforhealthjournalism.org/index%2Ephp/fellowships-grants/california-fellowship"
+    }
+  ]
+},
+{
+  "id": "auto-1a4869f711248d4c",
+  "title": "Harvard Pollman Fellowship in Real Estate and Urban Development 2027 (up to $55,000)",
+  "org": "Opportunity Desk",
+  "summary": "Deadline: February 18, 2027 Applications are open for the Harvard Pollman Fellowship in Real Estate and Urban Development 2027 . Established in 2002 through the generous gift of Harold A. Pollman, the Pollman Fellowship in Real Estate and Urban Development is awarded to outstanding postdoctoral graduates in real estate and urban planning to spend one year as a visiting scholar at the Harvard University Graduate School of Design. While at Harvard, the fellow may audit courses and seek to supplement the fellowship with additional research assignments. The fellow is expected to teach an assigned course, produce at least one publishable paper in a refereed journal, participate in research workshops, deliver a presentation to the GSD community, and contribute to the life of the school. Benefits The fellowship is research-based, with a required teaching component, and offers a minimum award of",
+  "type": "Oportunidade editorial",
+  "themes": [
+    "Oportunidade editorial"
+  ],
+  "scope": "Não especificado",
+  "deadline": "2027-02-18",
+  "deadlineStatus": "prazo extraído de metadado estruturado da fonte oficial; horário e condições devem ser conferidos na página",
+  "eligibility": "parcial",
+  "fit": 5,
+  "status": "aberta",
+  "value": "Não informado na fonte estruturada",
+  "duration": "Não informado na fonte estruturada",
+  "modality": "Não especificado",
+  "documents": [],
+  "restrictions": [],
+  "rules": "https://opportunitydesk.org/2026/11/03/harvard-pollman-fellowship-in-real-estate-and-urban-development-2027/",
+  "apply": "https://opportunitydesk.org/2026/11/03/harvard-pollman-fellowship-in-real-estate-and-urban-development-2027/",
+  "verified": "2026-11-15",
+  "desc": "Deadline: February 18, 2027 Applications are open for the Harvard Pollman Fellowship in Real Estate and Urban Development 2027 . Established in 2002 through the generous gift of Harold A. Pollman, the Pollman Fellowship in Real Estate and Urban Development is awarded to outstanding postdoctoral graduates in real estate and urban planning to spend one year as a visiting scholar at the Harvard University Graduate School of Design. While at Harvard, the fellow may audit courses and seek to supplement the fellowship with additional research assignments. The fellow is expected to teach an assigned course, produce at least one publishable paper in a refereed journal, participate in research workshops, deliver a presentation to the GSD community, and contribute to the life of the school. Benefits The fellowship is research-based, with a required teaching component, and offers a minimum award of",
+  "discoveryUrl": "https://opportunitydesk.org/2026/11/03/harvard-pollman-fellowship-in-real-estate-and-urban-development-2027",
+  "verificationHistory": [
+    {
+      "date": "2026-11-15",
+      "status": "aberta",
+      "source": "https://opportunitydesk.org/2026/11/03/harvard-pollman-fellowship-in-real-estate-and-urban-development-2027/"
+    }
+  ]
+},
+{
+  "id": "auto-a0d383efcd6f6ab9",
+  "title": "EJN Renewable Energy Story Grants – India",
+  "org": "GFMD",
+  "summary": "The Earth Journalism Network funds journalists, communicators, and social media content creators based anywhere in India to produce in-depth reports on the renewable energy transition.",
+  "type": "Oportunidade editorial",
+  "themes": [
+    "Oportunidade editorial"
+  ],
+  "scope": "Não especificado",
+  "deadline": "2026-11-15",
+  "deadlineStatus": "prazo extraído de metadado estruturado da fonte oficial; horário e condições devem ser conferidos na página",
+  "eligibility": "parcial",
+  "fit": 5,
+  "status": "aberta",
+  "value": "Não informado na fonte estruturada",
+  "duration": "Não informado na fonte estruturada",
+  "modality": "Não especificado",
+  "documents": [],
+  "restrictions": [],
+  "rules": "https://gfmd.info/fundings/ejn-renewable-energy-story-grants-india/",
+  "apply": "https://gfmd.info/fundings/ejn-renewable-energy-story-grants-india/",
+  "verified": "2026-11-15",
+  "desc": "The Earth Journalism Network funds journalists, communicators, and social media content creators based anywhere in India to produce in-depth reports on the renewable energy transition.",
+  "discoveryUrl": "https://gfmd.info/fundings/ejn-renewable-energy-story-grants-india",
+  "verificationHistory": [
+    {
+      "date": "2026-11-15",
+      "status": "aberta",
+      "source": "https://gfmd.info/fundings/ejn-renewable-energy-story-grants-india/"
+    }
+  ]
+}, 
   {
     "id": "auto-f6939f85c9edb7ae",
     "title": "International Blue Carbon Institute (IBCI) Fellowship Program 2027 ($60,000 grant)",
