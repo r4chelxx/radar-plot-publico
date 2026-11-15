@@ -1,5 +1,17 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
+{
+  "date": "2026-11-15",
+  "type": "nova-oportunidade",
+  "title": "Publicação editorial verificada — 2026-11-15",
+  "items": [
+    {
+      "id": "auto-dd02e3a4796ccaa2",
+      "title": "California Health Equity Fellowship"
+    }
+  ],
+  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: California Health Equity Fellowship."
+}, 
   {
     "date": "2026-11-10",
     "type": "nova-oportunidade",

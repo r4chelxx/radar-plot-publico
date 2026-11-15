@@ -1,5 +1,38 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.opportunities=[
+{
+  "id": "auto-dd02e3a4796ccaa2",
+  "title": "California Health Equity Fellowship",
+  "org": "USC Center for Health Journalism",
+  "summary": "Breadcrumb Home California Health Equity Fellowship Deadline to apply December 16, 2026 APPLY NOW Upcoming fellowship dates Fellowship: March–July 2027 In-person training: Week of March 15, 2027 Description Image Journalists spending time together during our 2026 California Health Equity Fellowship Week in March in Los Angeles.",
+  "type": "Oportunidade editorial",
+  "themes": [
+    "Oportunidade editorial"
+  ],
+  "scope": "Não especificado",
+  "deadline": "2026-12-16",
+  "deadlineStatus": "prazo extraído de metadado estruturado da fonte oficial; horário e condições devem ser conferidos na página",
+  "eligibility": "parcial",
+  "fit": 5,
+  "status": "aberta",
+  "value": "Não informado na fonte estruturada",
+  "duration": "Não informado na fonte estruturada",
+  "modality": "Não especificado",
+  "documents": [],
+  "restrictions": [],
+  "rules": "https://centerforhealthjournalism.org/fellowships-grants/california-fellowship",
+  "apply": "https://centerforhealthjournalism.org/fellowships-grants/california-fellowship",
+  "verified": "2026-11-15",
+  "desc": "Breadcrumb Home California Health Equity Fellowship Deadline to apply December 16, 2026 APPLY NOW Upcoming fellowship dates Fellowship: March–July 2027 In-person training: Week of March 15, 2027 Description Image Journalists spending time together during our 2026 California Health Equity Fellowship Week in March in Los Angeles.",
+  "discoveryUrl": "https://centerforhealthjournalism.org/fellowships-grants/california-fellowship",
+  "verificationHistory": [
+    {
+      "date": "2026-11-15",
+      "status": "aberta",
+      "source": "https://centerforhealthjournalism.org/fellowships-grants/california-fellowship"
+    }
+  ]
+}, 
   {
     "id": "6530d95d514e0315a32b8d162d842176e19c0ef110d0dde9ac04122c78b6f56c",
     "title": "Programa de Bolsas Aborto em Pílulas",
