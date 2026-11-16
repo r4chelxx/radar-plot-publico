@@ -24,6 +24,19 @@ function extractStructuredMetadata(html,baseUrl){
   try{items.push(...flatten(JSON.parse(match[1].trim())))}catch{}
  }
  const base=new URL(baseUrl);
+ // The official catalog's SEO title is shortened; its page state contains the
+ // complete identity of this exact dataset. Never use a recommendation/list item.
+ if(base.hostname==='datacatalog.worldbank.org'){
+  const id=base.pathname.match(/\/dataset\/(\d+)(?:\/|$)/)?.[1];
+  const next=String(html||'').match(/<script\b[^>]*id=["']__NEXT_DATA__["'][^>]*>([\s\S]*?)<\/script>/i);
+  if(id&&next)try{
+   const data=JSON.parse(next[1]).props?.pageProps?.dataset;
+   if(String(data?.dataset_unique_id)===id){
+    const title=data.identification?.title||data.name;
+    if(title)items.unshift({'@type':'Dataset',name:title,url:base.toString(),description:data.identification?.description||'',publisher:{name:'World Bank'}});
+   }
+  }catch{/* missing or changed catalog state remains unverified */}
+ }
  const meta={};
  // HTML permits attributes in either order; parse each tag before validating metadata.
  for(const tag of String(html||'').matchAll(/<meta\b[^>]*>/gi)){
