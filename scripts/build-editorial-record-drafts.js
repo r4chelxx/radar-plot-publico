@@ -34,6 +34,8 @@ function explicitOrganization(text){
 }
 function eligibilityScope(text){
  const normalized=String(text||'').replace(/\bU\.S\./g,'US');
+ const labeled=normalized.match(/\b(?:eligibility(?: criteria)?|elegibilidade)\s*:\s*(.{10,1000}?)(?=\s+(?:target region|application language|type of funding|region|how to apply|thematics|requirements)\s*:|[.!?](?:\s|$)|$)/i);
+ if(labeled)return clean(labeled[1]);
  const scope=sentence(normalized,/applicants?[^.!?]{0,180}(?:globally|worldwide|world-wide)[^.!?]*(?:may enter|can apply|eligible)/i)
   ||sentence(normalized,/(eligible|eligibility|who can (?:apply|enter|participate)|participants must|entry requirements|age(?:d)? 18 and up|18 years and older|globally may enter|open to|elegibilidade|elegível|podem se candidatar)/i);
  const restrictions=normalized.split(/(?<=[.!?])\s+/).filter(x=>/citizens?|green card|permanent residen|eligible countries|must (?:be|reside)|nacionalidade/i.test(x));
@@ -135,7 +137,7 @@ function buildDrafts(queue,review,generatedAt=new Date().toISOString()){
    record.fit=editorialFit(pageTitle,text+' '+record.scope);
    record.deadline=result.checks.deadline||null;
    record.deadlineStatus=record.deadline?'Prazo confirmado na fonte consultada; conferir horário e fuso no edital.':result.checks.rolling?'Fluxo contínuo confirmado na chamada; sem data final anunciada.':null;
-   record.eligibility=record.scope?(/must (?:also )?be US citizens?|green card holders/i.test(record.scope)?'restrita':'parcial'):null;
+   record.eligibility=record.scope?(/must (?:also )?be US citizens?|green card holders|\b(?:limited|restricted) to\b|\bonly\b|\bselect\b.{0,100}\bcountries\b/i.test(record.scope)?'restrita':'parcial'):null;
    record.status=(record.deadline&&record.deadline>=todayBahia()||result.checks.rolling)&&result.checks.callSignal?'aberta':null;
    record.rules=url;record.apply=url;
   }else if(result.category==='datasets'){
@@ -208,4 +210,4 @@ if(require.main===module){
  fs.writeFileSync(outPath,JSON.stringify(result,null,2)+'\n');
  console.log(JSON.stringify(result.summary));
 }
-module.exports={buildDrafts,normalizeToolName};
+module.exports={buildDrafts,normalizeToolName,eligibilityScope};
