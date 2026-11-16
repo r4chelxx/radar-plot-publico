@@ -1,5 +1,12 @@
 const test=require('node:test'),assert=require('node:assert/strict');
 const {extractStructuredMetadata,metadataForLink}=require('../scripts/structured-lead-metadata');
+test('official catalog dataset identity overrides truncated SEO metadata only for the matching dataset',()=>{
+ const html='<meta property="og:title" content="Ethiopia - High Frequency Phone Survey - World Bank..."><script id="__NEXT_DATA__" type="application/json">'+JSON.stringify({props:{pageProps:{dataset:{dataset_unique_id:'0048099',identification:{title:'Ethiopia - High Frequency Phone Survey 2020-2024'}}}}})+'</script>';
+ const url='https://datacatalog.worldbank.org/search/dataset/0048099/ethiopia';
+ assert.equal(metadataForLink(extractStructuredMetadata(html,url),url).title,'Ethiopia - High Frequency Phone Survey 2020-2024');
+ const other='https://datacatalog.worldbank.org/search/dataset/9999999/other';
+ assert.notEqual(metadataForLink(extractStructuredMetadata(html,other),other).title,'Ethiopia - High Frequency Phone Survey 2020-2024');
+});
 test('extracts explicit JSON-LD deadline and eligibility without inventing fields',()=>{
  const html='<script type="application/ld+json">'+JSON.stringify({"@type":"Event",name:'Grant 2027',description:'Official call',endDate:'2027-02-03',organizer:{name:'Official Org'},eligibleRegion:'Brazil',url:'https://official.example/grant'})+'</script>';
  const all=extractStructuredMetadata(html,'https://official.example/');

@@ -51,14 +51,16 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: main
+          ref: ${{ github.event_name == 'pull_request' && github.event.pull_request.head.sha || 'main' }}
           persist-credentials: true
           fetch-depth: 0
       - uses: actions/setup-node@v4
         with:
           node-version: "22"
       - name: Test editorial publication safeguards
-        run: node scripts/test-editorial-pipeline.js
+        run: |
+          node --test tests/primary-call-record.test.js
+          node scripts/test-editorial-pipeline.js
       - name: Test deterministic automated publication gate
         run: node --test tests/automated-publication.test.js
       - name: Test cumulative daily publication target
@@ -88,6 +90,9 @@ jobs:
         env:
           RADAR_APPROVED_MANIFEST: /tmp/radar-combined-approved.json
         run: node scripts/validate-approved-manifest.js
+      - name: Restore complete existing dataset titles from official catalog identities
+        if: github.event_name != 'pull_request'
+        run: node scripts/repair-dataset-titles.js
       - name: Build catalog additions from human and evidence-gated approvals
         run: node scripts/publish-approved.js /tmp/radar-combined-approved.json
       - name: Detect whether any approved records are new
@@ -173,7 +178,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git switch -c "$branch"
-          git add data/opportunities.js data/datasets.js data/tools.js data/changelog.js index.html
+          git add data/opportunities.js data/datasets.js data/tools.js data/changelog.js intake/approved-publications.json index.html
           git commit -m "Editorial: publish verified records"
           git push origin "$branch"
           if pr_url=$(gh pr create --base main --head "$branch" --title "Radar editorial: approved publications ${{ github.run_id }}" --body "Only entries accepted by the combined approval manifest or status updates for existing expired opportunities. Validation, static UI, web-intake regression, Playwright browser tests and link audit passed in this publishing workflow. No unverified leads are promoted."); then

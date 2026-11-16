@@ -147,6 +147,7 @@ jobs:
         run: node --test tests/operational-state.test.js
       - name: Test editorial publication safeguards
         run: |
+          node --test tests/primary-call-record.test.js
           node scripts/test-editorial-pipeline.js
           node --test tests/automated-publication.test.js
           node --check scripts/verify-published-records.js
@@ -306,6 +307,7 @@ jobs:
           cp scripts/lead-identity.js /tmp/lead-identity.js
           cp scripts/audit-editorial-queue.js /tmp/audit-editorial-queue.js
           cp scripts/editorial-page-evidence.js /tmp/editorial-page-evidence.js
+          cp scripts/structured-lead-metadata.js /tmp/structured-lead-metadata.js
           cp scripts/review-editorial-evidence.js /tmp/review-editorial-evidence.js
           cp scripts/build-editorial-record-drafts.js /tmp/build-editorial-record-drafts.js
           cp scripts/validate-editorial-record-drafts.js /tmp/validate-editorial-record-drafts.js
