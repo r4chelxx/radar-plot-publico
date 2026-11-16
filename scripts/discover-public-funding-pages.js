@@ -56,9 +56,12 @@ function extractGfmdEmbeddedPaths(html){
  }
  return leads;
 }
-async function collect(fetcher=fetch){
+function programSources(registry){
+ return registry.filter(x=>/oportunidad/i.test(x.category||'')&&/^(?:programa (?:de )?(?:fellowship|bolsas?|financiamento)|pr[eê]mio|edital)/i.test(x.type||''));
+}
+async function collect(fetcher=fetch,officialPrograms=[]){
  const leads=[],health=[];
- for(const source of sources){
+ for(const source of [...sources,...officialPrograms.map(x=>({...x,individualProgram:true}))]){
   try{
    const response=await fetcher(source.url,{signal:AbortSignal.timeout(12000),headers:{'user-agent':'Radar-PLOT-Discovery/1.0','accept':'text/html'}});
    if(!response.ok){
@@ -76,7 +79,7 @@ async function collect(fetcher=fetch){
     throw Error('HTTP '+response.status);
    }
    const html=(await response.text()).slice(0,1200000);
-   let found=extract(html,response.url||source.url,source.name);
+   let found=source.individualProgram?[{url:canonical(response.url||source.url),title:source.name.replace(/\s*[-–—]\s*fonte oficial$/i,''),category:'opportunities',sourceName:source.name,editorialStatus:'unverified',verificationStatus:'official-program-source'}]:extract(html,response.url||source.url,source.name);
    if(source.name==='GFMD funding')found=[...new Map([...found,...extractGfmdEmbeddedPaths(html)].map(x=>[x.url,x])).values()];
    const staticAnchorCount=[...html.matchAll(/<a\b[^>]*\bhref\s*=/gi)].length;
    const primaryExtractionStatus=found.length?'candidate-links':staticAnchorCount?'no-relevant-static-links':'no-static-links';
@@ -117,11 +120,11 @@ async function collect(fetcher=fetch){
  return {source:'web',leads,health};
 }
 if(require.main===module){
- collect().then(result=>{
+ collect(fetch,programSources(require('./load-source-catalog').loadSources().sources)).then(result=>{
   fs.mkdirSync('intake',{recursive:true});
   fs.writeFileSync('intake/public-funding-pages.json',JSON.stringify({source:result.source,leads:result.leads},null,2)+'\n');
   fs.writeFileSync('intake/public-funding-health.json',JSON.stringify({generatedAt:new Date().toISOString(),health:result.health},null,2)+'\n');
   console.log(JSON.stringify({candidates:result.leads.length,productiveSources:result.health.filter(x=>x.items>0).length,emptySources:result.health.filter(x=>x.items===0&&x.status!=='error').map(x=>x.source),failedSources:result.health.filter(x=>x.status==='error').map(x=>({source:x.source,reason:x.reason})),health:result.health}));
  }).catch(e=>{console.error(e);process.exitCode=1});
 }
-module.exports={extract,extractGfmdEmbeddedPaths,collect};
+module.exports={extract,extractGfmdEmbeddedPaths,collect,programSources};

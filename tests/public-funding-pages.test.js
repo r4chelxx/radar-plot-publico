@@ -2,6 +2,14 @@
 const {test}=require('node:test');
 const assert=require('node:assert/strict');
 const {extract,extractGfmdEmbeddedPaths,collect}=require('../scripts/discover-public-funding-pages');
+test('configured individual programs are discovered directly when aggregators are blocked',async()=>{
+ const program={name:'Education Journalism Fellowship — fonte oficial',url:'https://official.example/about',category:'oportunidades/financiamento',type:'Programa de fellowship para jornalistas'};
+ const selected=require('../scripts/discover-public-funding-pages').programSources([program,{name:'Directory',url:'https://directory.example/',category:'oportunidades',type:'Agregador de oportunidades'}]);
+ assert.deepEqual(selected,[program]);
+ const result=await collect(async url=>({ok:url===program.url,status:url===program.url?200:403,url,text:async()=>'<main>Applications are open to journalists.</main>'}),selected);
+ assert.equal(result.leads.length,1);assert.equal(result.leads[0].url,program.url);
+ assert.equal(result.leads[0].verificationStatus,'official-program-source');assert.equal(result.leads[0].editorialStatus,'unverified');
+});
 test('extracts relevant public links without claiming editorial approval',()=>{
  const html='<a href="/funding/grant-2026">Journalism funding grant for investigations</a><a href="/about">About us</a><a href="javascript:alert(1)">Open call for journalists</a>';
  const leads=extract(html,'https://gfmd.info/fundings/','GFMD funding');

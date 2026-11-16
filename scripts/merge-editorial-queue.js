@@ -34,7 +34,7 @@ const terminal=new Set(['published','rejected','duplicate','archived']);
 function inferCategory(title){
  const t=String(title||'').toLowerCase();
  if(/\bgrants?\s+(?:broad|permission|permissions|access|rights|authority|powers?)\b/.test(t))return 'uncategorized';
- if(/\b(?:fellowships?|scholarships?|grants?|funding|funded|stipends?|bolsas?|editais?|awards?|prizes?|contests?|competitions?)\b|\bcall for applications\b|\bapplications? open\b/.test(t)
+ if(/\b(?:fellowships?|scholarships?|grants?|funding|funded|stipends?|bolsas?|editais?|awards?|prizes?|pr[eê]mios?|concursos?|contests?|competitions?)\b|\bcall for applications\b|\bapplications? open\b/.test(t)
    && !/\b(?:conference|webinar|podcast|interview|guide|report|news|announces? winners?|selected for|awarded to|award-winning|winners?|finalists?)\b/.test(t))return 'opportunities';
  return 'uncategorized';
 }
