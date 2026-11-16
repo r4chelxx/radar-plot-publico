@@ -2,6 +2,14 @@
 const test=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),os=require('node:os'),path=require('node:path'),cp=require('node:child_process');
 const {buildDrafts}=require('../scripts/build-editorial-record-drafts');
 const {buildAutomaticPublications}=require('../scripts/build-automated-publications');
+test('institutional title suffix needs a matching structured owner URL and stays outside dataset name',()=>{
+ const url='https://official.example/cities/results';
+ const candidate={id:'results',url,audit:{pageTitle:'Sanitation results 2025 — Ministry of Cities',evidenceText:'Dataset covering sanitation in 2024. Download CSV.',structuredData:[{'@type':'Organization',url:'https://official.example/cities'}]}};
+ const review={records:[{id:'results',category:'datasets',decision:'evidence_complete_for_record_draft',publicationReady:false,checks:{}}]};
+ const draft=()=>buildDrafts({candidates:[candidate]},review).drafts[0].recordDraft;
+ assert.equal(draft().org,'Ministry of Cities');assert.equal(draft().name,'Sanitation results 2025');
+ candidate.audit.structuredData[0].url='https://aggregator.example/';assert.equal(draft().org,null);
+});
 test('dataset downloads retain their evidenced file format and never infer geography from administrative scale',()=>{
  for(const [location,scale,tier] of [['Tanzania','national','Outros'],['California','statewide','Outros'],['Nairobi','municipal','Outros'],['Brasil','national','Brasil']]){
   const url='https://data.example/catalog',file='https://data.example/results.xlsx';
