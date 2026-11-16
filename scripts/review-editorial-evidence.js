@@ -90,7 +90,7 @@ function review(c){
   ||(c.verificationStatus==='official-web-search'&&String(c.sourceEvidence||'').length>=120&&Array.isArray(c.resourceLinks)&&c.resourceLinks.length>0);
  if(!hardStatus)missing.push('página primária acessível com conteúdo compatível');
  if(category==='opportunities'){
-  const editorialScope=/\b(?:journalis\w*|jornalismo|jornalistas?|reporting|reporters?|newsrooms?|photojournal\w*|documentary)\b/i.test(title+' '+String(a.pageDescription||''));
+  const editorialScope=/\b(?:journalis\w*|jornalismo|jornalistas?|reporting|reporters?|newsrooms?|photojournal\w*|documentary)\b/i.test(title+' '+String(a.pageDescription||a.evidenceText?.slice(0,600)||''));
   if(!editorialScope)missing.push('escopo jornalístico ausente no título e descrição da chamada');
   const verifiedOpportunityEvidence=c.verificationStatus==='official-web-search' &&
    /\b(grant|fellowship|funding|scholarship|journalism award|award|prize|contest|competition|bolsa|edital|financiamento|premia[cç][aã]o|pr[eê]mio|concurso)\b/i.test(text) &&
