@@ -52,7 +52,7 @@ function inferCategory(c,text,title){
  if(opportunity&&deadline&&eligibility)return 'opportunities';
  const dataset=/(dataset|data catalog|open data|dados abertos|base de dados|microdata|microdados|data portal)/i.test(title+' '+text);
  const datasetNoise=/(?:podcast|youtube|ranking|rankings|top ai companies|newsletter|blog|article|press release)/i.test(title+' '+text+' '+url);
- const dataAccess=/(download|\.csv|\.json|\.zip|api endpoint|api access|bulk data|baixar|export data)/i.test(text+' '+url);
+ const dataAccess=/(download|\.csv|\.json|\.zip|api endpoint|api access|bulk data|baixar|export data)/i.test(text+' '+url)||(c.audit?.tabularData||[]).some(x=>x.rows>=3&&x.columns>=2);
  if(dataset&&dataAccess&&!datasetNoise)return 'datasets';
  const tool=toolIdentity(c,title,c.audit?.structuredData||[]);
  const productFunction=toolFunction(text,c.audit?.structuredData||[]);
