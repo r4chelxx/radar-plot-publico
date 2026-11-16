@@ -2,6 +2,30 @@ window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
 {
   "date": "2026-11-15",
+  "type": "dados",
+  "title": "Publicação editorial verificada — 2026-11-15",
+  "items": [
+    {
+      "id": "auto-fff550a7465e8543",
+      "title": "Global Economic Monitor"
+    }
+  ],
+  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Global Economic Monitor."
+},
+{
+  "date": "2026-11-15",
+  "type": "ferramentas",
+  "title": "Publicação editorial verificada — 2026-11-15",
+  "items": [
+    {
+      "id": "auto-393eaada993d30d1",
+      "title": "datasette-enrichments"
+    }
+  ],
+  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: datasette-enrichments."
+}, 
+{
+  "date": "2026-11-15",
   "type": "nova-oportunidade",
   "title": "Publicação editorial verificada — 2026-11-15",
   "items": [
