@@ -15,7 +15,7 @@ function loadSources(file='data/sources.js'){
   const key=url.href.replace(/\/$/,'');
   if(seen.has(key))continue;
   seen.add(key);
-  sources.push({name:item.name,url:url.href,category:item.category||null,priority:item.priority||null,cadence:item.cadence||null});
+  sources.push({name:item.name,url:url.href,category:item.category||null,priority:item.priority||null,cadence:item.cadence||null,...(item.type?{type:item.type}:{})});
  }
  return {sources,registryCount:raw.length,invalidOrDuplicate:raw.length-sources.length};
 }
