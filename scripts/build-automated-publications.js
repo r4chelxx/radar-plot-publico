@@ -29,6 +29,7 @@ function buildAutomaticPublications(drafts,manual={approved:[]},now=new Date(),p
  const programmeKey=record=>!record.deadline&&record.status==='aberta'&&String(record.title||'').length>=12&&record.org
   ?[record.title,record.org].map(value=>String(value).normalize('NFKD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,' ').trim()).join('|'):null;
  const knownProgrammes=new Set([...publishedOpportunities,...manualItems.filter(x=>x.category==='opportunities').map(x=>x.record)].map(programmeKey).filter(Boolean));
+ const publishedExact=new Set(publishedOpportunities.map(record=>String(record.id)+'|'+canonical(record.rules)));
  for(const draft of drafts.drafts||[]){
   if(draft.status!=='draft_only'||draft.publicationReady!==false||draft.reviewDecision!=='evidence_complete_for_record_draft'){skipped.notDraft++;continue}
   const category=draft.category,record=draft.recordDraft||{},checks=draft.evidence?.checks||{},source=draft.source||{},excerpt=String(draft.evidence?.sourceExcerpt||'');
@@ -61,7 +62,7 @@ function buildAutomaticPublications(drafts,manual={approved:[]},now=new Date(),p
   if(!safeUrl(recordUrl)||new URL(recordUrl).hostname!==new URL(source.url).hostname){skipped.failedEvidenceChecks++;continue}
   const identity=canonical(recordUrl);
   const programme=category==='opportunities'?programmeKey(record):null;
-  if(knownIds.has(record.id)||knownUrls.has(identity)||programme&&knownProgrammes.has(programme)){skipped.duplicate++;continue}
+  if(knownIds.has(record.id)||knownUrls.has(identity)||programme&&knownProgrammes.has(programme)&&!publishedExact.has(String(record.id)+'|'+identity)){skipped.duplicate++;continue}
   if(programme)knownProgrammes.add(programme);
   knownIds.add(record.id);knownUrls.add(identity);
   approved.push({category,record,review:{
