@@ -3,6 +3,7 @@
 const fs=require('node:fs'),crypto=require('node:crypto');
 const {canonical}=require('./lead-identity');
 const label=process.env.RADAR_GMAIL_LABEL||'Radar PLOT.';
+const extractionVersion=2;
 const allowed=/grant|fellowship|funding|scholarship|award|bolsa|edital|financiamento|journalism|jornalismo|dataset|database|ferramenta|tool/i;
 function extract(message){
  const body=String(message.body||'');
@@ -77,7 +78,9 @@ async function collect(fetcher=fetch,env=process.env){
   // duplicate reads. A changed label must also start from the newest page.
   const legacyExhausted=cursor.paginationExhausted===true||cursor.incrementalFollowupRequired===true;
   const labelChanged=cursor.labelName&&cursor.labelName!==label;
-  const resetCheckpoint=Boolean(legacyExhausted||labelChanged);
+  const parserChanged=cursor.extractionVersion!==extractionVersion;
+  const resetCheckpoint=Boolean(legacyExhausted||labelChanged||parserChanged);
+  if(parserChanged||labelChanged)cursor={...cursor,pageToken:'',processedIdHashes:[],extractionVersion,labelName:label};
   const leads=[],seen=new Set(),processedIds=new Set(cursor.processedIdHashes||[]);let scanned=0,skippedAlready=0,pages=0,nextToken=(cursor.complete||resetCheckpoint)?'':(cursor.pageToken||'');
   for(let page=0;page<maxPages;page++){
    const params=new URLSearchParams({maxResults:String(pageSize)});
@@ -93,7 +96,9 @@ async function collect(fetcher=fetch,env=process.env){
    saveCursor(nextToken,[...processedIds],false);
    const subject=(item.payload?.headers||[]).find(x=>x.name.toLowerCase()==='subject')?.value||'';
    const parts=[];const walk=p=>{if(p?.body?.data){try{parts.push(Buffer.from(p.body.data,'base64url').toString('utf8').slice(0,100000))}catch{}}for(const child of p?.parts||[])walk(child)};walk(item.payload);
-   const body=parts.join(' ').replace(/<[^>]+>/g,' ');
+   // Keep href attributes until extract() has read the anchors. Email bodies
+   // remain in memory only; the public output contains sanitized lead URLs.
+   const body=parts.join(' ');
    if(!allowed.test(subject+' '+(item.snippet||'')+' '+body))continue;
    for(const lead of extract({subject,snippet:item.snippet,body})){if(!seen.has(lead.url)){seen.add(lead.url);leads.push(lead)}}
    }
