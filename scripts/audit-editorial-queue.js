@@ -88,7 +88,7 @@ async function main(){
   .sort((a,b)=>String(a.firstSeen||'').localeCompare(String(b.firstSeen||'')));
  const draftsPath=path.join(path.dirname(queuePath),'publication-drafts.json');
  const previousDrafts=fs.existsSync(draftsPath)?JSON.parse(fs.readFileSync(draftsPath,'utf8')).drafts||[]:[];
- const priorityIds=new Set(previousDrafts.map(x=>x.id));
+ const priorityIds=new Set([...previousDrafts.map(x=>x.id),...pending.filter(x=>x.verificationStatus==='official-program-source').map(x=>x.id)]);
  const due=selectAuditBatch(dueCandidates,maxItems,priorityIds);
  let cursor=0;const workers=Array.from({length:8},async()=>{while(cursor<due.length){const i=cursor++;queue.candidates[queue.candidates.findIndex(x=>x.id===due[i].id)]=await inspect(due[i])}});
  await Promise.all(workers);
