@@ -1,19 +1,116 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-16T11:18:31.858Z",
-  "sourceQueueUpdatedAt": "2026-11-16T11:18:13.387Z",
+  "generatedAt": "2026-11-16T16:53:56.774Z",
+  "sourceQueueUpdatedAt": "2026-11-16T16:53:40.266Z",
   "policy": "Evidence-complete drafts only; the separate deterministic evidence gate must independently approve before publication.",
   "summary": {
-    "eligibleForDrafting": 2,
-    "drafts": 2,
+    "eligibleForDrafting": 3,
+    "drafts": 3,
     "byCategory": {
       "opportunities": 0,
       "datasets": 2,
-      "tools": 0
+      "tools": 1
     },
     "publicationReady": 0
   },
   "drafts": [
+    {
+      "schemaVersion": 1,
+      "id": "c6759019fe5266bd71d3bafd3ed26a4886df16ed8d2af2cf05be2aab0fdbd3e4",
+      "category": "tools",
+      "status": "draft_only",
+      "publicationReady": false,
+      "source": {
+        "url": "https://buttondown.com/",
+        "discoveryProviders": [
+          "Gmail Radar PLOT newsletter"
+        ],
+        "pageTitle": "Buttondown",
+        "checkedAt": "2026-11-16T16:53:40.266Z",
+        "httpStatus": 200,
+        "contentType": "text/html; charset=utf-8"
+      },
+      "evidence": {
+        "checks": {
+          "productSignal": true,
+          "function": true,
+          "access": true,
+          "license": false,
+          "licenseStatus": "not stated in captured source"
+        },
+        "sourceExcerpt": "Buttondown — Newsletter software for people like you Buttondown Search Pricing Log in Build your newsletter Sign up Why is running a newsletter so hard? Buttondown is the last email platform you'll switch to. Join your last newsletter platform \"Nearly three years later, I’m still happy with that choice. \" Jeremy Singer-Vine Creators just want to reach their audience, but why is that so weird right now? Social platforms come & go. Email providers grow and stop supporting you. Or they’ll shut down, despite the fact that you need your email to work like it’s a utility that you can depend on. Or they’ll hike their fees, forcing you to go through a stressful migration. Or they’ll add dozens of features that you’ll never want to use. Or they’ll just turn flatly evil. This all should theoretically be easy: make something, tell your audience, repeat. And that’s how it usually is – until it’s not. Turns out creating is only hard when other people make it hard. We don’t. We won’t. What if your email provider actually wanted you to succeed, and wasn’t trying to slowly bleed you dry? What if your email provider connected seamlessly to the places where you’re publishing new work, streaming, or just hanging out? What if your email provider didn’t change to support a few rich customers? Or they just stuck around at all? What if you felt good about creating online? That’s where we come in. \"I also frankly appreciated that [Buttondown] was just a newsletter backend service , and wasn't trying to transform itself into a full-on social network or curated feed. I've been around tech long enough to have seen how VC 'growth at all costs' pressure can deform publishing technologies. I didn't want to sign on with a place that was going to pursue that metastatic overgrowth.\" Clive Thompson The last email platform you'll migrate to. Focused on your success. We prioritize our product roadmap from our customer feedback, not our own agenda. We use Buttondown for our own mailing lists. And we don’t take fees from your paid subscribers . The power you need. Our automations , personalizations, and editor help you send the right message to the right people. And if you want to try your hand at building your own tools, our API is feature-complete & beloved in the industry. In it for the long haul. As a small, independent business, we want Buttondown to be our life’s work. We have plans in place for the really long term. No, longer than that. Longer. And we're here to help. Powerful for businesses. You need your email to work. Fortunately, Buttondown’s deliverability is among the highest in the industry, and our spam protection is best-in-class. Our robust personalization & automation features allow your email to work for you. Our analytics show you what’s working and how. Got a large team? Invite everybody & collaborate on larger initiatives – with no per-seat charge. Want to extend Buttondown’s functionality? Our API will let you build anything you can dream of. Perfect for creators. No matter if you’re just getting started with a side hobby or you have an audience of millions, Buttondown will meet your needs. Connect your email to tools like Discord, Memberful, YouTube, and more. Skip login & post straight from your own email. Cross-post other platforms to your mailing list, allowing you to write once & publish everywhere. And if you ever need to leave for another platform, we get it – and we’ll make it easy for you. We power single individuals and enterprise-grade businesses without compromising on either. That’s because email, at its core, should be simple. We put lots of effort into the most important parts of your email experience, because that’s what you tell us to do. Busy? Let us handle it. Groaning about the possibility of migrating your whole list? Afraid something will get lost or broken? That’s why we offer one-click concierge migration for your whole list, no matter how large it may be. Just create your account for free, contact us , and we’ll get",
+        "structuredData": [
+          {
+            "@type": "BreadcrumbList"
+          },
+          {
+            "@type": "Organization",
+            "name": "Buttondown",
+            "description": "Newsletter software for people like you. Everyone from Pulitzer Prize winners and Fortune 500s to study groups and first-time authors love Buttondown.",
+            "url": "https://buttondown.com"
+          },
+          {
+            "@type": "SoftwareApplication",
+            "name": "Buttondown",
+            "description": "Newsletter software for people like you. Everyone from Pulitzer Prize winners and Fortune 500s to study groups and first-time authors love Buttondown.",
+            "url": "https://buttondown.com",
+            "publisher": {
+              "@type": "Organization",
+              "name": "Buttondown",
+              "url": "https://buttondown.com"
+            },
+            "author": {
+              "@type": "Organization",
+              "name": "Buttondown",
+              "url": "https://buttondown.com"
+            },
+            "datePublished": "2017-01-01",
+            "applicationCategory": "BusinessApplication",
+            "operatingSystem": "Web Browser",
+            "offers": [
+              {
+                "url": "https://buttondown.com/register"
+              },
+              {
+                "url": "https://buy.stripe.com/3cs2aE9xZfSR6aIbIO"
+              }
+            ],
+            "featureList": [
+              "Email newsletter creation",
+              "Subscriber management",
+              "Analytics and reporting",
+              "API access",
+              "Custom domains",
+              "Markdown support",
+              "Automation",
+              "Paid subscriptions"
+            ],
+            "softwareVersion": "3.0"
+          },
+          {
+            "@type": "WebSite",
+            "description": "Newsletter software for people like you. Everyone from Pulitzer Prize winners and Fortune 500s to study groups and first-time authors love Buttondown.",
+            "url": "https://buttondown.com/"
+          }
+        ],
+        "resourceLinks": [
+          {
+            "url": "https://buttondown.com/features/api",
+            "label": "API"
+          }
+        ]
+      },
+      "recordDraft": {
+        "id": "c6759019fe5266bd71d3bafd3ed26a4886df16ed8d2af2cf05be2aab0fdbd3e4",
+        "name": "Buttondown",
+        "kind": "BusinessApplication",
+        "url": "https://buttondown.com/",
+        "desc": "Newsletter software for people like you. Everyone from Pulitzer Prize winners and Fortune 500s to study groups and first-time authors love Buttondown. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
+      },
+      "missingFields": [],
+      "reviewDecision": "evidence_complete_for_record_draft",
+      "note": "Ficha preliminar baseada no conteúdo capturado da página. Campos sem evidência permanecem ausentes; a aprovação depende do gate independente de publicação."
+    },
     {
       "schemaVersion": 1,
       "id": "b77b7b65d0138789940e5d01d95b6f6596c51d6330dde9858d501aa0b0cdfa24",
