@@ -2544,6 +2544,78 @@
           "eligibility": true
         }
       }
+    },
+    {
+      "category": "datasets",
+      "record": {
+        "id": "auto-fff550a7465e8543",
+        "name": "Global Economic Monitor",
+        "org": "World Bank Data Catalog",
+        "territoryTier": "Outros",
+        "kind": "dataset",
+        "themes": [
+          "Dados abertos"
+        ],
+        "coverage": "The database provides daily updates of high-frequency indicators on global economic developments, encompassing both advanced economies and emerging market...",
+        "frequency": "Não informado na fonte estruturada",
+        "format": "JSON",
+        "period": "Não informado na fonte estruturada",
+        "granularity": "Não informado na fonte estruturada",
+        "geoUnit": "Não informado na fonte estruturada",
+        "api": null,
+        "docs": "https://datacatalog.worldbank.org/search/dataset/0037798/global-economic-monitor",
+        "limitations": "Metadados estruturados confirmam a existência do recurso, mas cobertura, atualização, licença e qualidade devem ser conferidas antes do uso editorial.",
+        "lastChecked": "2026-11-15",
+        "url": "https://datacatalog.worldbank.org/search/dataset/0037798/global-economic-monitor",
+        "discoveryUrl": "https://datacatalog.worldbank.org/search/dataset/0037798",
+        "description": "The database provides daily updates of high-frequency indicators on global economic developments, encompassing both advanced economies and emerging market..."
+      },
+      "review": {
+        "reviewedBy": "Radar evidence gate v1",
+        "reviewPolicyVersion": "radar-evidence-v1",
+        "decision": "approved",
+        "officialUrl": "https://datacatalog.worldbank.org/search/dataset/0037798/global-economic-monitor",
+        "sourceStatus": 200,
+        "contentType": "text/html; charset=utf-8",
+        "checkedAt": "2026-11-16T00:22:11.019Z",
+        "reviewedAt": "2026-11-16",
+        "evidence": "Global Economic Monitor The database provides daily updates of high-frequency indicators on global economic developments, encompassing both advanced economies and emerging market... Global Economic Monitor - World Bank Data Catalog Data Catalog Home Data Collections Contact Us API FAQs Metadata last updated on Oct 2, 2026 Compare Version : 8 (Latest) 7 6 5 4 3 2 1 The database provides daily updates of high-frequency indicators on global economic developments, encompassing both advanced economies and emerging market and developing economies. Data are provided at monthly and/or quarterly frequencies, as well as annual series. It includes data on consumer prices, exchange rates, foreign reserves, GDP, industrial production, merchandise trade, retail sales, stock markets, terms of trade, and unemployment. Overview Indicators Citations API api METADATA Databank databank METADATA API documentation html METADATA Excel file zip Last Updated : Oct 2, 2026 Size : 10.1 MB METADATA Metadata Coverage & Extent Geographical Coverage Afghanistan , Albania , Algeria , Angola , Antigua and Barbuda , Argentina , Armenia , Aruba , Australia , Austria , Azerbaijan , Bahamas, The , Bahrain + View More ... Granularity List National Temporal Coverage 1990 - 2023 Periodicity Day Additional Metadata View More CLEAR FILTERS No Data Available Sort By Year (Desc) Year (Asc) Title (Desc) Title (Asc) CLEAR FILTERS No Data Available Data Access and Licensing Classification : Public This dataset is classified as Public under the Access to Information Classification Policy. Users inside and outside the Bank can access this dataset. License : Creative Commons Attribution 4.0 This dataset is licensed under Creative Commons Attribution 4.0 Contact data@worldbank.org Topics Economic Growth Trade Related Links Global Outlook Global Economic Monitor Tools iSimulate Statistics Views ( 86,238 ) Downloads ( 19,999 ) Share Metadata The information on this page (the dataset metadata) is also available in these formats. Email JSON WBG External Sites: World Bank | MIGA | IFC | ICSID Emergency Contact Number (US): (202) 458-8888 | © 2022 The World Bank Group, All Rights Reserved {\"url\":\"https://datacatalog.worldbank.org/search/dataset/0037798/global-economic-monitor\",\"title\":\"Global Economic Monitor\",\"description\":\"The database provides daily updates of high-frequency indicators on global economic develo",
+        "evidenceHash": "d1155cfee0fdeaf52d2d51b3d7f6bcd6a807f38329c5dfa030e0ed7aa350634c",
+        "evidenceChecks": {
+          "datasetSignal": true,
+          "directResource": true,
+          "format": true,
+          "coverage": true
+        }
+      }
+    },
+    {
+      "category": "tools",
+      "record": {
+        "id": "auto-393eaada993d30d1",
+        "name": "datasette-enrichments",
+        "kind": "plugin de dados",
+        "url": "https://datasette.io/plugins/datasette-enrichments",
+        "desc": "Plugins > datasette-enrichments datasette-enrichments by datasette Star README source code datasette-enrichments Tools for running enrichments against data stored in Datasette Potential use-cases for enrichments include: Geocoding an address and populating a latitude and longitude column Executing a template to generate output based on the values in each row Fetching data from a URL and populating a column with the result Executing OCR against a linked image or PDF file Documentation for this plugin lives at enrichments.datasette.io . Development To set up this plugin locally, first checkout the code. Then create a new virtual environment: cd datasette-enrichments python3 -mvenv venv source venv/bin/activate Or if you are using pipenv : pipenv shell Now install the dependencies and test dependencies: pip install -e ' .[test] ' To run the tests: pytest Consultar documentação e licença antes do uso editorial.",
+        "discoveryUrl": "https://datasette.io/plugins/datasette-enrichments"
+      },
+      "review": {
+        "reviewedBy": "Radar evidence gate v1",
+        "reviewPolicyVersion": "radar-evidence-v1",
+        "decision": "approved",
+        "officialUrl": "https://datasette.io/plugins/datasette-enrichments",
+        "sourceStatus": 200,
+        "contentType": "text/html; charset=utf-8",
+        "checkedAt": "2026-11-16T00:22:20.767Z",
+        "reviewedAt": "2026-11-16",
+        "evidence": "datasette-enrichments - a plugin for Datasette Plugins > datasette-enrichments datasette-enrichments by datasette Star README source code datasette-enrichments Tools for running enrichments against data stored in Datasette Potential use-cases for enrichments include: Geocoding an address and populating a latitude and longitude column Executing a template to generate output based on the values in each row Fetching data from a URL and populating a column with the result Executing OCR against a linked image or PDF file Documentation for this plugin lives at enrichments.datasette.io . Development To set up this plugin locally, first checkout the code. Then create a new virtual environment: cd datasette-enrichments python3 -mvenv venv source venv/bin/activate Or if you are using pipenv : pipenv shell Now install the dependencies and test dependencies: pip install -e ' .[test] ' To run the tests: pytest Plugins > datasette-enrichments datasette-enrichments by datasette Star README source code datasette-enrichments Tools for running enrichments against data stored in Datasette Potential use-cases for enrichments include: Geocoding an address and populating a latitude and longitude column Executing a template to generate output based on the values in each row Fetching data from a URL and populating a column with the result Executing OCR against a linked image or PDF file Documentation for this plugin lives at enrichments.datasette.io . Development To set up this plugin locally, first checkout the code. Then create a new virtual environment: cd datasette-enrichments python3 -mvenv venv source venv/bin/activate Or if you are using pipenv : pipenv shell Now install the dependencies and test dependencies: pip install -e ' .[test] ' To run the tests: pytest {\"title\":\"datasette-enrichments - a plugin for Datasette\",\"description\":\"Plugins > datasette-enrichments datasette-enrichments by datasette Star README source code datasette-enrichments Tools for running enrichments against data stored in Datasette Potential use-cases for enrichments include: Geocoding an address and populating a latitude and longitude column Executing a template to generate output based on the values in each row Fetching data from a URL and populating a column with the result Executing OCR against a linked image or PDF file Documentation for this plugin lives at enrichments.datasette.io . Development",
+        "evidenceHash": "4b4921d1eb77ae48208ea134c8679bbdd39a6c05d7da67caac0f10c0789622f1",
+        "evidenceChecks": {
+          "productSignal": true,
+          "function": true,
+          "access": true
+        }
+      }
     }
   ],
   "pending": [
