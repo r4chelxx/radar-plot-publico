@@ -12,6 +12,8 @@ for(const [title,expected] of [
  ['Mozilla Foundation Fellowships 2027-2028','opportunities'],
  ['Call for Applications: Investigative Journalism Fellowship','opportunities'],
  ['Scholarship applications open','opportunities'],
+ ['Prêmio Jeduca de Jornalismo de Educação','opportunities'],
+ ['Prêmio de Jornalismo Investigativo','opportunities'],
  ['Journalist selected for fellowship','uncategorized'],
  ['Conference on journalism grants','uncategorized'],
  ['Report about grant funding','uncategorized'],
