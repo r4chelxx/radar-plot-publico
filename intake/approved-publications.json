@@ -2776,6 +2776,34 @@
           "access": true
         }
       }
+    },
+    {
+      "category": "tools",
+      "record": {
+        "id": "auto-fa6ac7a7425587ac",
+        "name": "Reporting Tools",
+        "kind": "biblioteca de software",
+        "url": "https://www.sej.org/library/reporting-tools/overview",
+        "desc": "EPA Leaker's Guide Leaking is back . Today, all the best stories are based on leaks. Journalists are discovering that if the EPA press office puts out a story, it probably isn't news and may not even be true. Reporting Tools Visibility: Public National (U.S.) Journalism & Media Read more about EPA Leaker's Guide Consultar documentação e licença antes do uso editorial.",
+        "discoveryUrl": "https://www.sej.org/library/reporting-tools/overview"
+      },
+      "review": {
+        "reviewedBy": "Radar evidence gate v1",
+        "reviewPolicyVersion": "radar-evidence-v1",
+        "decision": "approved",
+        "officialUrl": "https://www.sej.org/library/reporting-tools/overview",
+        "sourceStatus": 200,
+        "contentType": "text/html; charset=utf-8",
+        "checkedAt": "2026-11-16T06:37:01.664Z",
+        "reviewedAt": "2026-11-16",
+        "evidence": "Reporting Tools EPA Leaker's Guide Leaking is back . Today, all the best stories are based on leaks. Journalists are discovering that if the EPA press office puts out a story, it probably isn't news and may not even be true. Reporting Tools Visibility: Public National (U.S.) Journalism & Media Read more about EPA Leaker's Guide EPA Leaker's Guide Leaking is back . Today, all the best stories are based on leaks. Journalists are discovering that if the EPA press office puts out a story, it probably isn't news and may not even be true. Reporting Tools Visibility: Public National (U.S.) Journalism & Media Read more about EPA Leaker's Guide {\"url\":\"https://www.sej.org/library/reporting-tools/overview\",\"title\":\"Reporting Tools\",\"description\":\"EPA Leaker's Guide Leaking is back . Today, all the best stories are based on leaks. Journalists are discovering that if the EPA press office puts out a story, it probably isn't news and may not even be true. Reporting Tools Visibility: Public National (U.S.) Journalism & Media Read more about EPA Leaker's Guide\",\"organization\":\"SEJ\",\"deadline\":null,\"eligibility\":\"for Journalists Environmental Podcasts Featured Journalists Freelance Jobs Reporting Tools SEJ Canada SEJ Español Source Lists Teaching Tools Useful Links About SEJ Vision and Mission History SEJ Advisory Boards, Committees and Task Forces SEJ Bylaws, Policies, Agreements and Guidelines SEJ Executive Director&#039;s Re\",\"eligibilityExplicit\":true,\"sourceType\":null,\"distribution\":null,\"encodingFormat\":null,\"temporalCoverage\":null,\"spatialCoverage\":null,\"license\":null}",
+        "evidenceHash": "af1902daf0db8d79082806c3288b707c3265c5c0f8d15f668e24697ba3d1986b",
+        "evidenceChecks": {
+          "productSignal": true,
+          "function": true,
+          "access": true
+        }
+      }
     }
   ],
   "pending": [
