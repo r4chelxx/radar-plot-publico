@@ -2,6 +2,18 @@
 const test=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),os=require('node:os'),path=require('node:path'),cp=require('node:child_process');
 const {buildDrafts}=require('../scripts/build-editorial-record-drafts');
 const {buildAutomaticPublications}=require('../scripts/build-automated-publications');
+test('public-records request functions pass the publisher without inheriting a newsroom label',()=>{
+ const root=fs.mkdtempSync(path.join(os.tmpdir(),'radar-foia-'));
+ try{
+  fs.mkdirSync(root+'/data');fs.mkdirSync(root+'/intake');for(const key of ['opportunities','datasets','tools','changelog'])fs.writeFileSync(root+'/data/'+key+'.js','window.RADAR_PARTS.'+key+'=[];');
+  const at=new Date().toISOString(),text='File, track and share public records requests. This online software lets journalists request, analyze and share government information. Free account access.';
+  const q={candidates:[{id:'records-tool',url:'https://records.example/',audit:{pageTitle:'Records software',pageDescription:text,evidenceText:text,checkedAt:at,httpStatus:200,contentType:'text/html',structuredData:[]}}]};
+  const r={records:[{id:'records-tool',category:'tools',decision:'evidence_complete_for_record_draft',publicationReady:false,checks:{productSignal:true,function:true,access:true}}]};
+  const drafts=buildDrafts(q,r),record=drafts.drafts[0].recordDraft;assert.equal(record.kind,'Gestão de pedidos de acesso à informação');
+  fs.writeFileSync(root+'/intake/approved-publications.json',JSON.stringify(buildAutomaticPublications(drafts,{approved:[]}).manifest));
+  const out=JSON.parse(cp.execFileSync(process.execPath,[path.resolve('scripts/publish-approved.js')],{cwd:root,encoding:'utf8'}));assert.equal(out.published,1);
+ }finally{fs.rmSync(root,{recursive:true,force:true})}
+});
 test('institutional title suffix needs a matching structured owner URL and stays outside dataset name',()=>{
  const url='https://official.example/cities/results';
  const candidate={id:'results',url,audit:{pageTitle:'Sanitation results 2025 — Ministry of Cities',evidenceText:'Dataset covering sanitation in 2024. Download CSV.',structuredData:[{'@type':'Organization',url:'https://official.example/cities'}]}};
