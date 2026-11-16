@@ -1,6 +1,24 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.opportunities=[
 {
+  "id": "56c9f54211495a3c7d4e6a24422c89255fef3865246e9683380ac2a22bd3e35b",
+  "title": "Spencer Fellowship for Education Reporting",
+  "org": "Columbia Journalism School",
+  "summary": "The Spencer Fellowship for Education Reporting is open to journalists and educators who want to develop and publish an ambitious long-form journalism project that advances public understanding of education. Four fellows will be selected for this yearlong program based at Columbia Journalism School. The fellowship combines study and research with advising from faculty experts at Columbia, Teachers College and elsewhere. Applications for the 2027-28 academic year are due by 11:59 p.m. Officially, the first day of the fellowship is at the end of August, when the new Master of Arts class convenes for orientation for the academic year. There are residential and non-residential fellowship options. Each fellow is matched with a full-time faculty mentor from the Journalism School. In addition, each fellow selects an outside content advisor from any academic department outside the Journalism Scho",
+  "type": "Fellowship",
+  "themes": [
+    "Jornalismo"
+  ],
+  "scope": "The Spencer Fellowship for Education Reporting is open to journalists and educators who want to develop and publish an ambitious long-form journalism project that advances public understanding of education. Eligibility: All US citizens and green card holders are eligible, including working journalists, freelancers and education professionals.",
+  "fit": 5,
+  "deadline": "2027-02-04",
+  "deadlineStatus": "Prazo confirmado na fonte consultada; conferir horário e fuso no edital.",
+  "eligibility": "restrita",
+  "status": "aberta",
+  "rules": "https://spencerfellows.org/about-the-fellowship/",
+  "apply": "https://spencerfellows.org/about-the-fellowship/"
+}, 
+{
   "id": "auto-0a986873541a195f",
   "title": "Spencer Fellowship for Education Reporting 2027 (Funded)",
   "org": "Opportunity Desk",

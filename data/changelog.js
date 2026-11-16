@@ -6,6 +6,18 @@ window.RADAR_PARTS.changelog=[
   "title": "Publicação editorial verificada — 2026-11-16",
   "items": [
     {
+      "id": "56c9f54211495a3c7d4e6a24422c89255fef3865246e9683380ac2a22bd3e35b",
+      "title": "Spencer Fellowship for Education Reporting"
+    }
+  ],
+  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Spencer Fellowship for Education Reporting."
+}, 
+{
+  "date": "2026-11-16",
+  "type": "nova-oportunidade",
+  "title": "Publicação editorial verificada — 2026-11-16",
+  "items": [
+    {
       "id": "auto-0a986873541a195f",
       "title": "Spencer Fellowship for Education Reporting 2027 (Funded)"
     }
