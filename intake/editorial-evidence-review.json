@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2026-11-16T11:11:52.112Z",
+  "generatedAt": "2026-11-16T11:18:31.696Z",
   "policy": "Evidence-based category triage. Missing license is recorded as unknown when not found; complete means draft eligibility only, never approval or publication.",
   "counts": {
-    "pending_more_evidence": 1872
+    "pending_more_evidence": 1870,
+    "evidence_complete_for_record_draft": 2
   },
   "categoryCounts": {
     "uncategorized": 1612,
@@ -306,7 +307,7 @@
       "url": "https://www.gartner.com/en/conferences/hub/data-analytics-conferences/awards",
       "category": "opportunities",
       "originalCategory": "opportunities",
-      "checkedAt": "2026-11-16T06:35:08.112Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {
         "callSignal": false,
         "deadline": null,
@@ -2360,7 +2361,7 @@
       "url": "https://www.linkedin.com/showcase/data-visualization-society-geospatial-group",
       "category": "uncategorized",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-16T06:48:30.383Z",
+      "checkedAt": "2026-11-16T11:18:03.340Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -2458,7 +2459,7 @@
       "url": "https://www.figma.com/community/plugin/1109185297790825980/figma2html",
       "category": "uncategorized",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-16T06:48:40.751Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -2794,7 +2795,7 @@
       "url": "https://www.nationalgeographic.org/funding-opportunities/grants",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-16T05:26:41.114Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -2965,7 +2966,7 @@
       "url": "https://www.eventbrite.com/o/data-visualization-society-44097727323",
       "category": "uncategorized",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-15T23:50:53.163Z",
+      "checkedAt": "2026-11-16T11:17:58.968Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -3736,7 +3737,7 @@
       "url": "https://thefix.media/2026/10/02/press-gazette-launches-a-tool-for-newsrooms-to-help-flag-ai-generated-content",
       "category": "uncategorized",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-16T06:48:27.911Z",
+      "checkedAt": "2026-11-16T11:18:00.835Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -5985,7 +5986,7 @@
       "url": "https://grantsforjournalists.com/grant/fund-for-investigative-journalism",
       "category": "opportunities",
       "originalCategory": "opportunities",
-      "checkedAt": "2026-11-16T06:34:42.982Z",
+      "checkedAt": "2026-11-16T11:17:53.607Z",
       "checks": {
         "callSignal": true,
         "deadline": null,
@@ -10552,7 +10553,7 @@
       "url": "https://substack.com/redirect/dcdbf048-d41e-4297-8a77-91c614a66ff1",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -10566,7 +10567,7 @@
       "url": "https://justthenews.com/politics-policy/elections/democrat-bloodbath-reminder-elections-still-are-about-economy-first-and",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -10579,7 +10580,7 @@
       "url": "https://www.meta.com/technologies/community-notes/helpful-notes",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -10592,7 +10593,7 @@
       "url": "https://substack.com/redirect/da00f757-2b2e-4468-85f3-103285434ccc",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -10606,7 +10607,7 @@
       "url": "https://www.instagram.com/reels/De9n98vxTeU",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -10619,7 +10620,7 @@
       "url": "https://www.facebook.com/GlobalInvestigativeJournalismNetwork",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -10632,7 +10633,7 @@
       "url": "https://substack.com/redirect/6165e517-e01d-4ea4-a4bc-ca2c3d015bb6",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -10646,7 +10647,7 @@
       "url": "https://benchouse.ai/blog/getting-an-analytics-agent-from-50-to-96",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -10659,7 +10660,7 @@
       "url": "https://www.poynter.org/shop/fact-checking-media-literacy/ai-for-journalists-and-content-creators-from-understanding-to-application",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -10672,7 +10673,7 @@
       "url": "https://substack.com/redirect/b3a3f79d-9553-4d2f-9b40-4af42052fc0c",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -10686,7 +10687,7 @@
       "url": "https://developmentseed.org/blog/2026-10-02-earth-embeddings",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -10699,7 +10700,7 @@
       "url": "https://www.cjr.org/the-interview/nicole-noren-espn-producer-quit-protest-sports-betting-gambling-addiction-draftkings-im-not-going-to-have-blood-on-my-hands.php",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -10712,7 +10713,7 @@
       "url": "https://www.cjr.org/the-kicker",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -10725,7 +10726,7 @@
       "url": "https://click.mlsend.com/link/c/YT0zMTM4MDk4MDExNzEyNzg4MTY1JmM9cTVoNSZlPTE5MjgmYj0xNTc5ODg5NDg5JmQ9ZjdoM3g2ZQ==.x6RD-kb9n3VfCLpHxO4WkEBTP8JkJphRWQrkX8s9WEg",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -10738,7 +10739,7 @@
       "url": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/b6f4617b-772a-4fe5-bdaa-ba69e8abb9ca/image.png",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -10752,7 +10753,7 @@
       "url": "https://www.aosfatos.org/noticias/bahia-votos-prorrogacao-do-segundo-turno",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -10778,7 +10779,7 @@
       "url": "https://x.com/nicholaswu12/status/2116948240624988262",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -10791,7 +10792,7 @@
       "url": "https://buttondown.com/unsubscribe/a3d0fe98-c591-4f8d-8643-391857dcc8e8",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -10804,7 +10805,7 @@
       "url": "https://www.wsj.com/politics/trump-jeffrey-epstein-birthday-letter-we-have-certain-things-in-common-f918d796",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -10818,7 +10819,7 @@
       "url": "https://substack.com/redirect/7de066a7-1960-4d85-b3a2-5e1a6b27ca7f",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -10832,7 +10833,7 @@
       "url": "https://x.com/ClayTravis/status/2116943407096500352",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -10845,7 +10846,7 @@
       "url": "https://pudding.cool/2026/10/kevin-bacon",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -10858,7 +10859,7 @@
       "url": "https://assets.buttondown.email/images/07959120-907b-4ccd-bb08-2f95ee92c484.png",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -10872,7 +10873,7 @@
       "url": "https://www.404media.co/the-confessions-of-an-ai-fraud-kingpin-onlyfake-owner-nazarenko",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -10885,7 +10886,7 @@
       "url": "https://www.instagram.com/reels/De_xxNwISej",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -10898,7 +10899,7 @@
       "url": "https://www.nytimes.com/2026/11/05/business/media/tv-ratings-midterms-steve-kornacki.html",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -10912,7 +10913,7 @@
       "url": "https://www.youtube.com/watch",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -10925,7 +10926,7 @@
       "url": "https://variety.com/lists/variety-10-comics-to-watch-2026",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -10938,7 +10939,7 @@
       "url": "https://www.nytimes.com/2026/11/05/us/texas-democrats-statewide-sweep.html",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -10952,7 +10953,7 @@
       "url": "https://substack.com/redirect/33f3af6a-8172-4d18-a84f-a5475c0673fd",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -10966,7 +10967,7 @@
       "url": "https://cajueira.substack.com/p/o-nordeste-nas-urnas-os-caminhos",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -10980,7 +10981,7 @@
       "url": "https://x.com/Olivia_Reingold/status/2118394476460642723",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -10993,7 +10994,7 @@
       "url": "https://www.cjr.org/analysis/reporting-the-backlash-data-centers-midterms-impact-ai-expanding-infrastructure.php",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -11006,7 +11007,7 @@
       "url": "https://www.poynter.org/mediawise/programs/g-a-m-e",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -11019,7 +11020,7 @@
       "url": "https://substack.com/redirect/d54dd86b-65bc-4ae1-9204-6d0dd280534d",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -11033,7 +11034,7 @@
       "url": "https://docs.google.com/presentation/d/1G7OR_SI3xwndT6SCpcquLwmj3cA5HgyatwktwRxXl8g",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -11046,7 +11047,7 @@
       "url": "https://us.list-manage.com/KUKmwD5_wfx",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -11059,7 +11060,7 @@
       "url": "https://www.themoscowtimes.com/2024/02/29/moscow-police-detain-novaya-gazeta-chief-editor-a84290",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -11072,7 +11073,7 @@
       "url": "https://treesforlife.org.uk/groves/496858",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -11085,7 +11086,7 @@
       "url": "https://knightcenter.utexas.edu/es/el-centro-knight-inicia-las-celebraciones-de-su-25o-aniversario-con-un-webinar-y-la-proyeccion-de-un-documental",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -11098,7 +11099,7 @@
       "url": "https://gijn.us5.list-manage.com/unsubscribe",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -11112,7 +11113,7 @@
       "url": "https://www.poynter.org/mediawise",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -11138,7 +11139,7 @@
       "url": "https://substack.com/redirect/a35d9f1e-7fb9-43e5-8f3d-0dae4b1c9e4d",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -11152,7 +11153,7 @@
       "url": "https://us.list-manage.com/sFPQj32ur1Q",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -11166,7 +11167,7 @@
       "url": "https://substack.com/redirect/4a9a9d2e-9afc-4398-bbfb-39f0cd544b00",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -11180,7 +11181,7 @@
       "url": "https://www.politifact.com/",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -11193,7 +11194,7 @@
       "url": "https://www.cjr.org/analysis/the-susan-collins-effect-maine-senate-newspaper-deference-pr-portland-press-herald-bangor-daily-news-change-edit-coverage.php",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -11206,7 +11207,7 @@
       "url": "https://www.latimes.com/politics/story/2026-11-04/democrats-historic-rout-was-fueled-by-massive-voter-swing-to-left",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -11219,7 +11220,7 @@
       "url": "https://open.spotify.com/episode/5Rkhjs9pWNkMXuch1gzhxK",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -11232,7 +11233,7 @@
       "url": "https://substack.com/redirect/0e1b633b-9018-45b9-b6b7-f6e15931c219",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -11246,7 +11247,7 @@
       "url": "https://www.aosfatos.org/noticias/video-tornado-eua-santa-catarina",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -11259,7 +11260,7 @@
       "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9vYnNlcnZhdG9yaW9kYWltcHJlbnNhLnN1YnN0YWNrLmNvbS9hY3Rpb24vZGlzYWJsZV9lbWFpbD90b2tlbj1leUoxYzJWeVgybGtJam94TXpVeU1qTXhMQ0p3YjNOMFgybGtJam95TWpNM056Y3hNelVzSW1saGRDSTZNVGM1TXprNE9EUTBOU3dpWlhod0lqb3hPREkxTlRJME5EUTFMQ0pwYzNNaU9pSndkV0l0TWpjMU5UUTNOaUlzSW5OMVlpSTZJbVJwYzJGaWJHVmZaVzFoYVd3aWZRLmtwU3BrT09XV2FYbFVBTlNRSEVZUVQtd2FUTGhIUTFTbG5MeUdNalNSVnciLCJwIjoyMjM3NzcxMzUsInMiOjI3NTU0NzYsImYiOnRydWUsInUiOjEzNTIyMzEsImlhdCI6MTc5Mzk4ODQ0NSwiZXhwIjoyMTA5NTY0NDQ1LCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.ixbzSsgd1bD5TS7F53eAsPT2cMq7itZZkgZjVFSHzdc",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -11273,7 +11274,7 @@
       "url": "https://news.kalshi.com/",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -11286,7 +11287,7 @@
       "url": "https://x.com/GoogleDeepMind",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -11300,7 +11301,7 @@
       "url": "https://www.instagram.com/p/De2oYpDTvoZ",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -11313,7 +11314,7 @@
       "url": "https://x.com/ClayTravis/status/2117723140402892849",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -11326,7 +11327,7 @@
       "url": "https://newsletter.apublica.org/email_marketing_click.html",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -11340,7 +11341,7 @@
       "url": "https://substack.com/redirect/eb620eb1-6f97-4f24-b414-f844c2012a04",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -11354,7 +11355,7 @@
       "url": "https://assets.buttondown.email/images/91a32cae-c247-411f-99e3-cab597f508ce.png",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -11368,7 +11369,7 @@
       "url": "https://www.pangram.com/blog/introducing-pangram-image-1-0",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -11381,7 +11382,7 @@
       "url": "https://us.list-manage.com/T3eUKWc1dmT",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -11394,7 +11395,7 @@
       "url": "https://substack.com/redirect/b1326057-f618-48f5-86fb-155767425ecf",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -11408,7 +11409,7 @@
       "url": "https://x.com/IngrahamAngle/status/2118027606297850318",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -11434,7 +11435,7 @@
       "url": "https://www.janestreet.com/join-jane-street/position/6558007002",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -11447,7 +11448,7 @@
       "url": "https://x.com/chuckschumer/status/2116969707425468536",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -11460,7 +11461,7 @@
       "url": "https://substack.com/redirect/1afb8fb1-fc30-4568-b809-d3b3ce3c3be4",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -11474,7 +11475,7 @@
       "url": "https://open.spotify.com/show/5E5WVPzob4xxHEnAjfHpVX",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -11487,7 +11488,7 @@
       "url": "https://t.rdsv2.net/ls/click",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:44:59.460Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -11501,7 +11502,7 @@
       "url": "https://substack.com/redirect/2ac0e040-89c9-4c22-b005-fecbf8ccf1e2",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -11515,7 +11516,7 @@
       "url": "https://www.janestreet.com/join-jane-street/position/7668113002",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -11528,7 +11529,7 @@
       "url": "https://substack.com/redirect/f0544a83-6ddc-4bdc-a575-605baf6150e8",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -11542,7 +11543,7 @@
       "url": "https://substack.com/redirect/7f134126-3107-4c28-9411-3eb09f751711",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -11556,7 +11557,7 @@
       "url": "https://substack.com/redirect/8cb53f9b-8537-4f33-8b5e-f264cb13b48f",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -11570,7 +11571,7 @@
       "url": "https://buttondown.com/puntofisso",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -11583,9 +11584,10 @@
       "url": "https://www.occrp.org/en/news/drc-orders-probe-into-illegal-mining-following-major-copper-and-cobalt-seizure",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
+        "página primária acessível com conteúdo compatível",
         "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
@@ -11596,7 +11598,7 @@
       "url": "https://x.com/mjnblack/status/2118359682460823685",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -11609,9 +11611,10 @@
       "url": "https://www.instagram.com/mediawise",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
+        "página primária acessível com conteúdo compatível",
         "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
@@ -11622,7 +11625,7 @@
       "url": "https://github.com/sponsors/puntofisso",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -11635,7 +11638,7 @@
       "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9jYWp1ZWlyYS5zdWJzdGFjay5jb20vYWN0aW9uL2Rpc2FibGVfZW1haWw_dG9rZW49ZXlKMWMyVnlYMmxrSWpveE16VXlNak14TENKd2IzTjBYMmxrSWpveU1qTTFPVGcyTXpNc0ltbGhkQ0k2TVRjNU16ZzNNREV3T1N3aVpYaHdJam94T0RJMU5EQTJNVEE1TENKcGMzTWlPaUp3ZFdJdE1UVTVNRE16SWl3aWMzVmlJam9pWkdsellXSnNaVjlsYldGcGJDSjkuSzFObDFjWWJqQmNFUC1VLTZ4N255QjdfZHJDdVZyalk3dmlfT3JsMlpjQSIsInAiOjIyMzU5ODYzMywicyI6MTU5MDMzLCJmIjp0cnVlLCJ1IjoxMzUyMjMxLCJpYXQiOjE3OTM4NzAxMDksImV4cCI6MjEwOTQ0NjEwOSwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.wEbUsYuPMPFCaRS-S1a_9uElZL_16IqzBr31D7tVZ1E",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -11649,7 +11652,7 @@
       "url": "https://www.linkedin.com/company/aos-fatos/mycompany",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -11663,7 +11666,7 @@
       "url": "https://poynter.org/advertise",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -11676,7 +11679,7 @@
       "url": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/d9528512-3756-4096-a60c-aa4fef2c8c04/image.png",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -11690,7 +11693,7 @@
       "url": "https://substack.com/redirect/52f19313-ffd6-4981-b58c-120027cdebe7",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -11704,7 +11707,7 @@
       "url": "https://www.poynter.org/commentary/2026/2026-midterms-democratic-sweep-election-night-media-coverage",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -11717,7 +11720,7 @@
       "url": "https://substack.com/redirect/a5242d61-2f0e-4eb8-9064-04fd85c69744",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -11731,7 +11734,7 @@
       "url": "https://www.washingtonpost.com/politics/2026/11/04/democrats-face-choice-trump-come-january-confrontation-or-compromise",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -11744,7 +11747,7 @@
       "url": "https://solutionsjournalism.us1.list-manage.com/unsubscribe",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -11758,7 +11761,7 @@
       "url": "https://aosfatos.us11.list-manage.com/unsubscribe",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -11772,7 +11775,7 @@
       "url": "https://substack.com/redirect/7ec887c2-e9e6-4278-a2f5-43b33d311216",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -11786,7 +11789,7 @@
       "url": "https://poynter.mailchimpsites.com/manage/preferences",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -11800,7 +11803,7 @@
       "url": "https://www.poynter.org/mediawise/programs/the-mediawise-weekly",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -11813,7 +11816,7 @@
       "url": "https://assets.buttondown.email/images/a8c257c1-46bd-46c1-ab4c-14fa733105b7.png",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -11827,7 +11830,7 @@
       "url": "https://mailchi.mp/poynter/from-classrooms-to-social-feeds-whats-new-at-mediawise-5288126",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -11840,7 +11843,7 @@
       "url": "https://substack.com/redirect/19167a4a-f8c7-4a3b-97e2-80a7b3a18d3d",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -11854,7 +11857,7 @@
       "url": "https://indicator.media/p/briefing-the-ai-image-detection-editing-gotcha-game",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -11867,7 +11870,7 @@
       "url": "https://x.com/mehdirhasan/status/2116959181412630940",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -11880,7 +11883,7 @@
       "url": "https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -11894,7 +11897,7 @@
       "url": "https://indicator.media/p/zuck-chucks-fact-checkers-to-cosplay-as-elon-musk",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -11907,7 +11910,7 @@
       "url": "https://substack.com/redirect/6be64ec5-501c-4c0f-8f0a-9caf0b3b5c67",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -11921,7 +11924,7 @@
       "url": "https://us.list-manage.com/mE6OVJdSn_8",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -11934,7 +11937,7 @@
       "url": "https://www.washingtonpost.com/opinions/2026/11/04/trump-gop-punished-by-midterm-voters-please-hold-giddiness",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:50:45.379Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -11947,9 +11950,10 @@
       "url": "https://www.occrp.org/en/news/alleged-turkish-crime-boss-assassinated-inside-spanish-hospital-room",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:53:48.541Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
+        "página primária acessível com conteúdo compatível",
         "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
@@ -11960,7 +11964,7 @@
       "url": "https://buttondown.com/puntofisso/archive/681-quantum-of-sollazzo",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:53:48.541Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -11973,7 +11977,7 @@
       "url": "https://assets.buttondown.email/images/79e8d6a8-69a9-48a7-9ed8-2f811b05b29d.png",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:53:48.541Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -11987,7 +11991,7 @@
       "url": "https://solutionsjournalism.us1.list-manage.com/profile",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:53:48.541Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -12001,9 +12005,10 @@
       "url": "https://www.occrp.org/en/news/serbian-bank-tied-to-outgoing-regime-collapses-after-internal-vault-theft",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:53:48.541Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
+        "página primária acessível com conteúdo compatível",
         "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
@@ -12014,7 +12019,7 @@
       "url": "https://www.youtube.com/@MediaWise/featured",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:53:48.541Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -12027,7 +12032,7 @@
       "url": "https://www.cnn.com/2026/10/23/politics/prediction-markets-midterm-elections-kalshi-polymarket",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:53:48.541Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -12040,7 +12045,7 @@
       "url": "https://facebook.com/columbiajournalismreview",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:53:48.541Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -12053,7 +12058,7 @@
       "url": "https://assets.buttondown.email/images/fcf12752-7a3c-4989-ae41-87c027da8443.png",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:53:48.541Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -12067,7 +12072,7 @@
       "url": "https://substack.com/redirect/d358b5d0-a9b0-45ad-aaaa-31ef11400837",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:53:48.541Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -12081,7 +12086,7 @@
       "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9wYXVsb21vdG9yeW4uc3Vic3RhY2suY29tL2FjdGlvbi9kaXNhYmxlX2VtYWlsP3Rva2VuPWV5SjFjMlZ5WDJsa0lqb3hNelV5TWpNeExDSndiM04wWDJsa0lqb3lNak0wTURBd016Z3NJbWxoZENJNk1UYzVNemM0TmpNME5pd2laWGh3SWpveE9ESTFNekl5TXpRMkxDSnBjM01pT2lKd2RXSXRNVEF5TmpNeE5ESWlMQ0p6ZFdJaU9pSmthWE5oWW14bFgyVnRZV2xzSW4wLk1LS0ZoaFVsTFQ4R0JyR1ZfWS1fMk1EM01HcUFvRzB0OVZueXdITm9RMW8iLCJwIjoyMjM0MDAwMzgsInMiOjEwMjYzMTQyLCJmIjp0cnVlLCJ1IjoxMzUyMjMxLCJpYXQiOjE3OTM3ODYzNDYsImV4cCI6MjEwOTM2MjM0NiwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.t4BIQyb1g3ds00gEk9z3anA2_kd_qz9vADlHsxhomdU",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:53:48.541Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -12095,7 +12100,7 @@
       "url": "https://www.bangordailynews.com/2009/11/02/bangor/executive-editor-woodward-retiring-from-bdn",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:53:48.541Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -12108,7 +12113,7 @@
       "url": "https://x.com/MattWalshBlog/status/2117865905354838501",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:53:48.541Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -12121,7 +12126,7 @@
       "url": "https://substack.com/redirect/ea3b5247-f5a1-4d51-bba3-28f97147ec1a",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:53:48.541Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -12135,7 +12140,7 @@
       "url": "https://www.nytimes.com/2026/11/01/arts/television/saturday-night-live-uk-has-found-its-voice.html",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:53:48.541Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -12149,7 +12154,7 @@
       "url": "https://www.dowjones.com/code-of-conduct",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:53:48.541Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -12162,7 +12167,7 @@
       "url": "https://x.com/BulwarkClips/status/2117338314449494138",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:53:48.541Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -12175,7 +12180,7 @@
       "url": "https://deadline.com/2026/11/savannah-guthrie-renews-plea-information-mom-disappearance-1237210866",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:53:48.541Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -12188,7 +12193,7 @@
       "url": "https://substack.com/redirect/c5c6bae6-d9a9-4515-b5bd-dcde3f10dd42",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:53:48.541Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -12202,7 +12207,7 @@
       "url": "https://substack.com/redirect/b8c70d22-2792-4b0c-ab65-062d1c3c38e0",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:53:48.541Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -12216,7 +12221,7 @@
       "url": "https://x.com/max_spero_/status/2118028620870623523",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:53:48.541Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -12229,7 +12234,7 @@
       "url": "https://substack.com/redirect/6ed03804-26dc-47ed-bc62-5c8e898a64da",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:53:48.541Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -12243,7 +12248,7 @@
       "url": "https://www.nytimes.com/2026/11/03/us/politics/trump-midterm-election-results.html",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:53:48.541Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -12257,7 +12262,7 @@
       "url": "https://x.com/atrupar/status/2117021903898517533",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:53:48.541Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -12270,7 +12275,7 @@
       "url": "https://us.list-manage.com/kw6u9CON1X3",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:53:48.541Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -12283,7 +12288,7 @@
       "url": "https://www.nytimes.com/interactive/2026/11/03/us/elections/results-michigan.html",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:53:48.541Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -12297,7 +12302,7 @@
       "url": "https://awfulannouncing.com/orig/joe-buck-troy-aikman-most-painful-divorce-sports-media-history.html",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:53:48.541Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -12310,7 +12315,7 @@
       "url": "https://www.nytimes.com/2026/10/27/world/europe/serbia-student-list-news-media-vucic.html",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:53:48.541Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -12324,7 +12329,7 @@
       "url": "https://www.nytimes.com/2026/10/28/insider/polls-midterm-election.html",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:53:48.541Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -12338,7 +12343,7 @@
       "url": "https://substack.com/redirect/3a901c21-1dc1-4040-ab11-4d738c08768a",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T20:53:48.541Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -17809,7 +17814,7 @@
       "url": "https://www.gbif.org/dataset/7e276a96-73ea-4efc-8ffb-e74ef573ef6c",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-16T06:48:40.751Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {
         "datasetSignal": false,
         "directResource": false,
@@ -17864,15 +17869,14 @@
       "checkedAt": "2026-11-16T04:54:55.777Z",
       "checks": {
         "datasetSignal": true,
-        "directResource": false,
+        "directResource": true,
         "format": true,
         "coverage": true,
         "license": false,
         "licenseStatus": "not stated in captured source"
       },
       "missing": [
-        "página primária acessível com conteúdo compatível",
-        "download, API ou acesso direto ao recurso"
+        "página primária acessível com conteúdo compatível"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -17965,7 +17969,7 @@
       "url": "https://www.gbif.org/dataset/c33ce2f2-c3cc-43a5-a380-fe4526d63650",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-16T06:48:40.751Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {
         "datasetSignal": false,
         "directResource": false,
@@ -17992,15 +17996,14 @@
       "checkedAt": "2026-11-16T04:54:55.777Z",
       "checks": {
         "datasetSignal": true,
-        "directResource": false,
+        "directResource": true,
         "format": true,
         "coverage": true,
         "license": false,
         "licenseStatus": "not stated in captured source"
       },
       "missing": [
-        "página primária acessível com conteúdo compatível",
-        "download, API ou acesso direto ao recurso"
+        "página primária acessível com conteúdo compatível"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -18136,15 +18139,14 @@
       "checkedAt": "2026-11-16T04:54:55.777Z",
       "checks": {
         "datasetSignal": true,
-        "directResource": false,
+        "directResource": true,
         "format": true,
         "coverage": true,
         "license": false,
         "licenseStatus": "not stated in captured source"
       },
       "missing": [
-        "página primária acessível com conteúdo compatível",
-        "download, API ou acesso direto ao recurso"
+        "página primária acessível com conteúdo compatível"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -18157,15 +18159,14 @@
       "checkedAt": "2026-11-16T04:54:55.777Z",
       "checks": {
         "datasetSignal": true,
-        "directResource": false,
+        "directResource": true,
         "format": true,
         "coverage": true,
         "license": false,
         "licenseStatus": "not stated in captured source"
       },
       "missing": [
-        "página primária acessível com conteúdo compatível",
-        "download, API ou acesso direto ao recurso"
+        "página primária acessível com conteúdo compatível"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -18201,7 +18202,7 @@
       "url": "https://www.gbif.org/dataset/9ca92552-f23a-41a8-a140-01abaa31c931",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-16T06:48:40.751Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {
         "datasetSignal": false,
         "directResource": false,
@@ -18238,7 +18239,7 @@
       "url": "https://www.gbif.org/dataset/d7dddbf4-2cf0-4f39-9b2a-bb099caae36c",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-16T06:48:40.751Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {
         "datasetSignal": false,
         "directResource": false,
@@ -18265,15 +18266,14 @@
       "checkedAt": "2026-11-16T04:54:55.777Z",
       "checks": {
         "datasetSignal": true,
-        "directResource": false,
+        "directResource": true,
         "format": true,
         "coverage": true,
         "license": false,
         "licenseStatus": "not stated in captured source"
       },
       "missing": [
-        "página primária acessível com conteúdo compatível",
-        "download, API ou acesso direto ao recurso"
+        "página primária acessível com conteúdo compatível"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -18297,7 +18297,7 @@
       "url": "https://www.gbif.org/dataset/90d9e8a6-0ce1-472d-b682-3451095dbc5a",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-16T06:48:40.751Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {
         "datasetSignal": false,
         "directResource": false,
@@ -18443,7 +18443,7 @@
       "url": "https://www.gbif.org/dataset/61a5f178-b5fb-4484-b6d8-9b129739e59d",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-16T06:48:40.751Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {
         "datasetSignal": false,
         "directResource": false,
@@ -18481,7 +18481,7 @@
       "url": "https://www.gbif.org/dataset/7ddf754f-d193-4cc9-b351-99906754a03b",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-16T06:48:40.751Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {
         "datasetSignal": false,
         "directResource": false,
@@ -18578,15 +18578,14 @@
       "checkedAt": "2026-11-16T04:54:55.777Z",
       "checks": {
         "datasetSignal": true,
-        "directResource": false,
+        "directResource": true,
         "format": true,
         "coverage": true,
         "license": false,
         "licenseStatus": "not stated in captured source"
       },
       "missing": [
-        "página primária acessível com conteúdo compatível",
-        "download, API ou acesso direto ao recurso"
+        "página primária acessível com conteúdo compatível"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -18665,7 +18664,7 @@
       "url": "https://www.gbif.org/dataset/f382f0ce-323a-4091-bb9f-add557f3a9a2",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-16T06:48:40.751Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {
         "datasetSignal": false,
         "directResource": false,
@@ -18786,7 +18785,7 @@
       "url": "https://www.gbif.org/dataset/19491596-35ae-4a91-9a98-85cf505f1bd3",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-16T06:48:40.751Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {
         "datasetSignal": false,
         "directResource": false,
@@ -18826,15 +18825,14 @@
       "checkedAt": "2026-11-16T04:54:55.777Z",
       "checks": {
         "datasetSignal": true,
-        "directResource": false,
+        "directResource": true,
         "format": true,
         "coverage": true,
         "license": false,
         "licenseStatus": "not stated in captured source"
       },
       "missing": [
-        "página primária acessível com conteúdo compatível",
-        "download, API ou acesso direto ao recurso"
+        "página primária acessível com conteúdo compatível"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -18860,15 +18858,14 @@
       "checkedAt": "2026-11-16T04:54:55.777Z",
       "checks": {
         "datasetSignal": true,
-        "directResource": false,
+        "directResource": true,
         "format": true,
         "coverage": true,
         "license": false,
         "licenseStatus": "not stated in captured source"
       },
       "missing": [
-        "página primária acessível com conteúdo compatível",
-        "download, API ou acesso direto ao recurso"
+        "página primária acessível com conteúdo compatível"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -18894,15 +18891,14 @@
       "checkedAt": "2026-11-16T04:54:55.777Z",
       "checks": {
         "datasetSignal": true,
-        "directResource": false,
+        "directResource": true,
         "format": true,
         "coverage": true,
         "license": false,
         "licenseStatus": "not stated in captured source"
       },
       "missing": [
-        "página primária acessível com conteúdo compatível",
-        "download, API ou acesso direto ao recurso"
+        "página primária acessível com conteúdo compatível"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -18912,7 +18908,7 @@
       "url": "https://www.gbif.org/dataset/3ee6fce9-9056-48f5-96fb-a2339bdb947e",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-16T06:48:40.751Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {
         "datasetSignal": false,
         "directResource": false,
@@ -18980,15 +18976,14 @@
       "checkedAt": "2026-11-16T04:54:55.777Z",
       "checks": {
         "datasetSignal": true,
-        "directResource": false,
+        "directResource": true,
         "format": true,
         "coverage": true,
         "license": false,
         "licenseStatus": "not stated in captured source"
       },
       "missing": [
-        "página primária acessível com conteúdo compatível",
-        "download, API ou acesso direto ao recurso"
+        "página primária acessível com conteúdo compatível"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -19012,7 +19007,7 @@
       "url": "https://www.gbif.org/dataset/4fa7b334-ce0d-4e88-aaae-2e0c138d049e",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-16T06:48:40.751Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {
         "datasetSignal": false,
         "directResource": false,
@@ -19064,7 +19059,7 @@
       "url": "https://www.gbif.org/dataset/0e61f8fe-7d25-4f81-ada7-d970bbb2c6d6",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-16T06:48:40.751Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {
         "datasetSignal": false,
         "directResource": false,
@@ -19104,15 +19099,14 @@
       "checkedAt": "2026-11-16T04:54:55.777Z",
       "checks": {
         "datasetSignal": true,
-        "directResource": false,
+        "directResource": true,
         "format": true,
         "coverage": true,
         "license": false,
         "licenseStatus": "not stated in captured source"
       },
       "missing": [
-        "página primária acessível com conteúdo compatível",
-        "download, API ou acesso direto ao recurso"
+        "página primária acessível com conteúdo compatível"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -19471,15 +19465,14 @@
       "checkedAt": "2026-11-16T04:54:55.777Z",
       "checks": {
         "datasetSignal": true,
-        "directResource": false,
+        "directResource": true,
         "format": true,
         "coverage": true,
         "license": false,
         "licenseStatus": "not stated in captured source"
       },
       "missing": [
-        "página primária acessível com conteúdo compatível",
-        "download, API ou acesso direto ao recurso"
+        "página primária acessível com conteúdo compatível"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -19520,15 +19513,14 @@
       "checkedAt": "2026-11-16T04:54:55.777Z",
       "checks": {
         "datasetSignal": true,
-        "directResource": false,
+        "directResource": true,
         "format": true,
         "coverage": true,
         "license": false,
         "licenseStatus": "not stated in captured source"
       },
       "missing": [
-        "página primária acessível com conteúdo compatível",
-        "download, API ou acesso direto ao recurso"
+        "página primária acessível com conteúdo compatível"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -19538,7 +19530,7 @@
       "url": "https://www.gbif.org/dataset/c8227bb4-4143-443f-8cb2-51f9576aff14",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-16T06:48:40.751Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {
         "datasetSignal": false,
         "directResource": false,
@@ -19604,7 +19596,7 @@
       "url": "https://www.gbif.org/dataset/fab88965-e69d-4491-a04d-e3198b626e52",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-16T06:48:40.751Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {
         "datasetSignal": false,
         "directResource": false,
@@ -19642,7 +19634,7 @@
       "url": "https://www.gbif.org/dataset/bf3db7c9-5e5d-4fd0-bd5b-94539eaf9598",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-16T06:48:40.751Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {
         "datasetSignal": false,
         "directResource": false,
@@ -19683,15 +19675,14 @@
       "checkedAt": "2026-11-16T05:12:14.316Z",
       "checks": {
         "datasetSignal": true,
-        "directResource": false,
+        "directResource": true,
         "format": true,
         "coverage": true,
         "license": false,
         "licenseStatus": "not stated in captured source"
       },
       "missing": [
-        "página primária acessível com conteúdo compatível",
-        "download, API ou acesso direto ao recurso"
+        "página primária acessível com conteúdo compatível"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -19760,15 +19751,14 @@
       "checkedAt": "2026-11-16T05:12:14.316Z",
       "checks": {
         "datasetSignal": true,
-        "directResource": false,
+        "directResource": true,
         "format": true,
         "coverage": true,
         "license": false,
         "licenseStatus": "not stated in captured source"
       },
       "missing": [
-        "página primária acessível com conteúdo compatível",
-        "download, API ou acesso direto ao recurso"
+        "página primária acessível com conteúdo compatível"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -19847,7 +19837,7 @@
       "url": "https://www.gbif.org/dataset/4cec8fef-f129-4966-89b7-4f8439aba058",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-16T06:48:40.751Z",
+      "checkedAt": "2026-11-16T11:18:13.387Z",
       "checks": {
         "datasetSignal": false,
         "directResource": false,
@@ -20009,15 +19999,14 @@
       "checkedAt": "2026-11-16T05:12:14.316Z",
       "checks": {
         "datasetSignal": true,
-        "directResource": false,
+        "directResource": true,
         "format": true,
         "coverage": true,
         "license": false,
         "licenseStatus": "not stated in captured source"
       },
       "missing": [
-        "página primária acessível com conteúdo compatível",
-        "download, API ou acesso direto ao recurso"
+        "página primária acessível com conteúdo compatível"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -20044,15 +20033,14 @@
       "checkedAt": "2026-11-16T05:12:14.316Z",
       "checks": {
         "datasetSignal": true,
-        "directResource": false,
+        "directResource": true,
         "format": true,
         "coverage": true,
         "license": false,
         "licenseStatus": "not stated in captured source"
       },
       "missing": [
-        "página primária acessível com conteúdo compatível",
-        "download, API ou acesso direto ao recurso"
+        "página primária acessível com conteúdo compatível"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -20149,15 +20137,14 @@
       "checkedAt": "2026-11-16T05:12:14.316Z",
       "checks": {
         "datasetSignal": true,
-        "directResource": false,
+        "directResource": true,
         "format": true,
         "coverage": true,
         "license": false,
         "licenseStatus": "not stated in captured source"
       },
       "missing": [
-        "página primária acessível com conteúdo compatível",
-        "download, API ou acesso direto ao recurso"
+        "página primária acessível com conteúdo compatível"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -20374,15 +20361,14 @@
       "checkedAt": "2026-11-16T05:12:14.316Z",
       "checks": {
         "datasetSignal": true,
-        "directResource": false,
+        "directResource": true,
         "format": true,
         "coverage": true,
         "license": false,
         "licenseStatus": "not stated in captured source"
       },
       "missing": [
-        "página primária acessível com conteúdo compatível",
-        "download, API ou acesso direto ao recurso"
+        "página primária acessível com conteúdo compatível"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -20686,15 +20672,14 @@
       "checkedAt": "2026-11-16T05:12:14.316Z",
       "checks": {
         "datasetSignal": true,
-        "directResource": false,
+        "directResource": true,
         "format": true,
         "coverage": true,
         "license": false,
         "licenseStatus": "not stated in captured source"
       },
       "missing": [
-        "página primária acessível com conteúdo compatível",
-        "download, API ou acesso direto ao recurso"
+        "página primária acessível com conteúdo compatível"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -20849,15 +20834,14 @@
       "checkedAt": "2026-11-16T05:12:14.316Z",
       "checks": {
         "datasetSignal": true,
-        "directResource": false,
+        "directResource": true,
         "format": true,
         "coverage": true,
         "license": false,
         "licenseStatus": "not stated in captured source"
       },
       "missing": [
-        "página primária acessível com conteúdo compatível",
-        "download, API ou acesso direto ao recurso"
+        "página primária acessível com conteúdo compatível"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -21080,15 +21064,14 @@
       "checkedAt": "2026-11-16T05:12:14.316Z",
       "checks": {
         "datasetSignal": true,
-        "directResource": false,
+        "directResource": true,
         "format": true,
         "coverage": true,
         "license": false,
         "licenseStatus": "not stated in captured source"
       },
       "missing": [
-        "página primária acessível com conteúdo compatível",
-        "download, API ou acesso direto ao recurso"
+        "página primária acessível com conteúdo compatível"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -21182,15 +21165,14 @@
       "checkedAt": "2026-11-16T05:12:14.316Z",
       "checks": {
         "datasetSignal": true,
-        "directResource": false,
+        "directResource": true,
         "format": true,
         "coverage": true,
         "license": false,
         "licenseStatus": "not stated in captured source"
       },
       "missing": [
-        "página primária acessível com conteúdo compatível",
-        "download, API ou acesso direto ao recurso"
+        "página primária acessível com conteúdo compatível"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -21501,14 +21483,14 @@
       "checkedAt": "2026-11-16T05:12:14.316Z",
       "checks": {
         "datasetSignal": true,
-        "directResource": false,
+        "directResource": true,
         "format": true,
         "coverage": true,
         "license": false,
         "licenseStatus": "not stated in captured source"
       },
       "missing": [
-        "download, API ou acesso direto ao recurso"
+        "nome específico do indicador ausente na página inspecionada"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -21666,15 +21648,14 @@
       "checkedAt": "2026-11-16T05:12:14.316Z",
       "checks": {
         "datasetSignal": true,
-        "directResource": false,
+        "directResource": true,
         "format": true,
         "coverage": true,
         "license": false,
         "licenseStatus": "not stated in captured source"
       },
       "missing": [
-        "página primária acessível com conteúdo compatível",
-        "download, API ou acesso direto ao recurso"
+        "página primária acessível com conteúdo compatível"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -21723,19 +21704,18 @@
       "url": "https://www.hydrosheds.org/hydrosheds-core-downloads",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-16T06:48:24.598Z",
+      "checkedAt": "2026-11-16T11:17:56.016Z",
       "checks": {
         "datasetSignal": false,
         "directResource": false,
-        "format": false,
+        "format": true,
         "coverage": true,
         "license": false,
         "licenseStatus": "not stated in captured source"
       },
       "missing": [
         "evidência de conjunto ou catálogo de dados",
-        "download, API ou acesso direto ao recurso",
-        "formato identificável"
+        "download, API ou acesso direto ao recurso"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -21799,7 +21779,7 @@
       "url": "https://www.gov.br/mcti/pt-br/acesso-a-informacao/dados-abertos/dados-abertos/arquivos/adapta-brasil/adaptabrasil",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-16T06:48:26.124Z",
+      "checkedAt": "2026-11-16T11:18:02.872Z",
       "checks": {
         "datasetSignal": false,
         "directResource": false,
@@ -21824,15 +21804,13 @@
       "checks": {
         "datasetSignal": true,
         "directResource": true,
-        "format": false,
+        "format": true,
         "coverage": true,
         "license": false,
         "licenseStatus": "not stated in captured source"
       },
-      "missing": [
-        "formato identificável"
-      ],
-      "decision": "pending_more_evidence",
+      "missing": [],
+      "decision": "evidence_complete_for_record_draft",
       "publicationReady": false
     },
     {
@@ -21888,15 +21866,13 @@
       "checks": {
         "datasetSignal": true,
         "directResource": true,
-        "format": false,
+        "format": true,
         "coverage": true,
         "license": true,
         "licenseStatus": "stated"
       },
-      "missing": [
-        "formato identificável"
-      ],
-      "decision": "pending_more_evidence",
+      "missing": [],
+      "decision": "evidence_complete_for_record_draft",
       "publicationReady": false
     },
     {
@@ -24240,7 +24216,7 @@
       "url": "https://www.niemanlab.org/2026/11/a-government-that-gets-it-canada-recommits-to-federal-funding-for-news",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-16T05:26:16.947Z",
+      "checkedAt": "2026-11-16T11:17:50.732Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
