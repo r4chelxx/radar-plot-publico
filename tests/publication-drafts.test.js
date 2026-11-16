@@ -96,3 +96,15 @@ test('extracts an explicitly labeled organization from a funding page',()=>{
  const unlabeledOut=buildDrafts(unlabeled,unlabeledReview,'2026-11-10T10:00:00Z');
  assert.equal(unlabeledOut.drafts[0].recordDraft.org,'University of Michigan');
 });
+
+test('official host institution and software identity do not inherit page slogans',()=>{
+ const candidates=[
+ {id:'primary-call',url:'https://official.example/fellowship',audit:{pageTitle:'Education Reporting Fellowship – Opportunity Desk',pageDescription:'A yearlong fellowship for education reporting based at Columbia Journalism School.',evidenceText:'Based at Columbia Journalism School. Eligibility: open to journalists worldwide.',checkedAt:new Date().toISOString(),httpStatus:200,contentType:'text/html'}},
+ {id:'software-name',url:'https://www.figma.com/',audit:{pageTitle:'Figma: The collaborative canvas',evidenceText:'Collaborative design platform. Documentation available online.',structuredData:[{'@type':'SoftwareApplication',name:'Figma',description:'Collaborative design platform.'}],checkedAt:new Date().toISOString(),httpStatus:200,contentType:'text/html'}}
+ ];
+ const records=candidates.map((x,i)=>({id:x.id,category:i?'tools':'opportunities',decision:'evidence_complete_for_record_draft',publicationReady:false,checks:{deadline:'2099-12-31',callSignal:true}}));
+ const out=buildDrafts({candidates},{records});
+ assert.equal(out.drafts[0].recordDraft.org,'Columbia Journalism School');
+ assert.equal(out.drafts[0].recordDraft.title,'Education Reporting Fellowship');
+ assert.equal(out.drafts[1].recordDraft.name,'Figma');
+});
