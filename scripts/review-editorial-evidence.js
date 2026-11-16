@@ -117,9 +117,10 @@ function review(c){
   const d=ld.find(x=>/dataset/.test(x.type))?.data;
   const distribution=d?.distribution;
   checks.datasetSignal=!!d||/(dataset|data catalog|open data|dados abertos|base de dados|microdata|microdados|data portal)/i.test(title+' '+text);
-  const linkedResource=(a.resourceLinks||[]).some(x=>{const u=String(x.url||'');return /\.(?:csv|tsv|json|geojson|xml|parquet|zip)(?:$|[?#])|\/(?:api|download|dataset|datasets|data)(?:\/|$)/i.test(u)&&(/download|dataset|data|api|csv|json|geojson|parquet/i.test(String(x.label||''))||/\.(?:csv|tsv|json|geojson|xml|parquet|zip)(?:$|[?#])/i.test(u));});
+  const fileFormat=/\.(?:csv|tsv|json|geojson|xml|parquet|zip|xlsx?|gpkg|geotiff|tiff?|vrt)(?:$|[?#])/i;
+  const linkedResource=(a.resourceLinks||[]).some(x=>{const u=String(x.url||'');return fileFormat.test(u)||(/\/(?:api|download|dataset|datasets|data)(?:\/|$)/i.test(u)&&/download|dataset|data|api/i.test(String(x.label||'')));});
   checks.directResource=!!(distribution&&/https?:\/\//i.test(flat(distribution)))||linkedResource;
-  checks.format=!!(distribution&&/(csv|json|xml|parquet|zip|api)/i.test(flat(distribution)))||/\b(csv|json|xml|parquet|shapefile|geojson)\b/i.test(text);
+  checks.format=!!(distribution&&/(csv|json|xml|parquet|zip|xlsx?|gpkg|geotiff|tiff?|vrt|api)/i.test(flat(distribution)))||/\b(csv|tsv|json|xml|parquet|shapefile|geojson|zip|xlsx?|gpkg|geotiff|tiff?|vrt)\b/i.test(text)||(a.resourceLinks||[]).some(x=>fileFormat.test(String(x.url||'')));
   checks.coverage=!!(d?.temporalCoverage||d?.spatialCoverage)||/(\b20\d{2}\b|annual|monthly|municipal|national|global|covering|cobre|abrange)/i.test(text);
   checks.license=!!(d?.license)||/(license|licen[çc]a|cc by|cc0|public domain|terms of use)/i.test(text);
   checks.licenseStatus=checks.license?'stated':'not stated in captured source';
