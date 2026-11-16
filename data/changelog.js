@@ -1,121 +1,109 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
-{
-  "date": "2026-11-16",
-  "type": "nova-oportunidade",
-  "title": "Publicação editorial verificada — 2026-11-16",
-  "items": [
-    {
-      "id": "56c9f54211495a3c7d4e6a24422c89255fef3865246e9683380ac2a22bd3e35b",
-      "title": "Spencer Fellowship for Education Reporting"
-    }
-  ],
-  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Spencer Fellowship for Education Reporting."
-}, 
-{
-  "date": "2026-11-16",
-  "type": "nova-oportunidade",
-  "title": "Publicação editorial verificada — 2026-11-16",
-  "items": [
-    {
-      "id": "auto-0a986873541a195f",
-      "title": "Spencer Fellowship for Education Reporting 2027 (Funded)"
-    }
-  ],
-  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Spencer Fellowship for Education Reporting 2027 (Funded)."
-}, 
-{
-  "date": "2026-11-16",
-  "type": "ferramentas",
-  "title": "Publicação editorial verificada — 2026-11-16",
-  "items": [
-    {
-      "id": "auto-fa6ac7a7425587ac",
-      "title": "Reporting Tools"
-    }
-  ],
-  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Reporting Tools."
-}, 
-{
-  "date": "2026-11-16",
-  "type": "dados",
-  "title": "Publicação editorial verificada — 2026-11-16",
-  "items": [
-    {
-      "id": "auto-c1482ab524e0671e",
-      "title": "Tanzania - Demographic and Health Survey and Malaria Indicator Survey 2022"
-    },
-    {
-      "id": "auto-8729547975882e61",
-      "title": "Ethiopia - High Frequency Phone Survey 2020-2024"
-    },
-    {
-      "id": "auto-52f25ff193fed5e5",
-      "title": "World Bank Data Catalog"
-    }
-  ],
-  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Tanzania - Demographic and Health Survey and Malaria Indicator Survey 2022; Ethiopia - High Frequency Phone Survey 2020-2024; World Bank Data Catalog."
-},
-{
-  "date": "2026-11-16",
-  "type": "ferramentas",
-  "title": "Publicação editorial verificada — 2026-11-16",
-  "items": [
-    {
-      "id": "auto-ce5d51ff262e14cd",
-      "title": "Beautiful Soup"
-    }
-  ],
-  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Beautiful Soup."
-}, 
-{
-  "date": "2026-11-16",
-  "type": "ferramentas",
-  "title": "Publicação editorial verificada — 2026-11-16",
-  "items": [
-    {
-      "id": "68fedf64924894e13bb99abb21c12be64ecfb0387bc39c7acd2c64cd5949932f",
-      "title": "Figma: The collaborative canvas for design, code, and AI"
-    }
-  ],
-  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Figma: The collaborative canvas for design, code, and AI."
-}, 
-{
-  "date": "2026-11-15",
-  "type": "dados",
-  "title": "Publicação editorial verificada — 2026-11-15",
-  "items": [
-    {
-      "id": "auto-fff550a7465e8543",
-      "title": "Global Economic Monitor"
-    }
-  ],
-  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Global Economic Monitor."
-},
-{
-  "date": "2026-11-15",
-  "type": "ferramentas",
-  "title": "Publicação editorial verificada — 2026-11-15",
-  "items": [
-    {
-      "id": "auto-393eaada993d30d1",
-      "title": "datasette-enrichments"
-    }
-  ],
-  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: datasette-enrichments."
-}, 
-{
-  "date": "2026-11-15",
-  "type": "nova-oportunidade",
-  "title": "Publicação editorial verificada — 2026-11-15",
-  "items": [
-    {
-      "id": "auto-dd02e3a4796ccaa2",
-      "title": "California Health Equity Fellowship"
-    }
-  ],
-  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: California Health Equity Fellowship."
-}, 
+  {
+    "date": "2026-11-16",
+    "type": "nova-oportunidade",
+    "title": "Publicação editorial verificada — 2026-11-16",
+    "items": [
+      {
+        "id": "56c9f54211495a3c7d4e6a24422c89255fef3865246e9683380ac2a22bd3e35b",
+        "title": "Spencer Fellowship for Education Reporting"
+      }
+    ],
+    "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Spencer Fellowship for Education Reporting."
+  },
+  {
+    "date": "2026-11-16",
+    "type": "ferramentas",
+    "title": "Publicação editorial verificada — 2026-11-16",
+    "items": [
+      {
+        "id": "auto-fa6ac7a7425587ac",
+        "title": "Reporting Tools"
+      }
+    ],
+    "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Reporting Tools."
+  },
+  {
+    "date": "2026-11-16",
+    "type": "dados",
+    "title": "Publicação editorial verificada — 2026-11-16",
+    "items": [
+      {
+        "id": "auto-c1482ab524e0671e",
+        "title": "Tanzania - Demographic and Health Survey and Malaria Indicator Survey 2022"
+      },
+      {
+        "id": "auto-8729547975882e61",
+        "title": "Ethiopia - High Frequency Phone Survey 2020-2024"
+      },
+      {
+        "id": "auto-52f25ff193fed5e5",
+        "title": "World Bank Data Catalog"
+      }
+    ],
+    "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Tanzania - Demographic and Health Survey and Malaria Indicator Survey 2022; Ethiopia - High Frequency Phone Survey 2020-2024; World Bank Data Catalog."
+  },
+  {
+    "date": "2026-11-16",
+    "type": "ferramentas",
+    "title": "Publicação editorial verificada — 2026-11-16",
+    "items": [
+      {
+        "id": "auto-ce5d51ff262e14cd",
+        "title": "Beautiful Soup"
+      }
+    ],
+    "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Beautiful Soup."
+  },
+  {
+    "date": "2026-11-16",
+    "type": "ferramentas",
+    "title": "Publicação editorial verificada — 2026-11-16",
+    "items": [
+      {
+        "id": "68fedf64924894e13bb99abb21c12be64ecfb0387bc39c7acd2c64cd5949932f",
+        "title": "Figma: The collaborative canvas for design, code, and AI"
+      }
+    ],
+    "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Figma: The collaborative canvas for design, code, and AI."
+  },
+  {
+    "date": "2026-11-15",
+    "type": "dados",
+    "title": "Publicação editorial verificada — 2026-11-15",
+    "items": [
+      {
+        "id": "auto-fff550a7465e8543",
+        "title": "Global Economic Monitor"
+      }
+    ],
+    "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Global Economic Monitor."
+  },
+  {
+    "date": "2026-11-15",
+    "type": "ferramentas",
+    "title": "Publicação editorial verificada — 2026-11-15",
+    "items": [
+      {
+        "id": "auto-393eaada993d30d1",
+        "title": "datasette-enrichments"
+      }
+    ],
+    "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: datasette-enrichments."
+  },
+  {
+    "date": "2026-11-15",
+    "type": "nova-oportunidade",
+    "title": "Publicação editorial verificada — 2026-11-15",
+    "items": [
+      {
+        "id": "auto-dd02e3a4796ccaa2",
+        "title": "California Health Equity Fellowship"
+      }
+    ],
+    "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: California Health Equity Fellowship."
+  },
   {
     "date": "2026-11-10",
     "type": "nova-oportunidade",
