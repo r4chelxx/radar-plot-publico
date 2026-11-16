@@ -1,74 +1,74 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.tools=[
-{
-  "id": "be9e40b9672b7d79a68ce0c91d7c97b541c7e742d6681c8ed5f43e55e2401e5b",
-  "name": "Three.js",
-  "kind": "JavaScript 3D Library",
-  "url": "https://threejs.org/",
-  "desc": "Three.js – JavaScript 3D Library Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
-},
-{
-  "id": "c2ee2f71ce77c43a7a985d95d7cbaa66f179f6fdbc4424ac9f4d85441953b2a8",
-  "name": "Layer Cake",
-  "kind": "Framework de gráficos e visualização",
-  "url": "https://layercake.graphics/",
-  "desc": "A framework for mostly-reusable graphics with svelte Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
-},
-{
-  "id": "d1d9f0e8c01b765eace5a461bb293de7d52b785ffc9cc6df2a3b0a40b3bde74f",
-  "name": "Selenium",
-  "kind": "Automação de navegador",
-  "url": "https://www.selenium.dev/",
-  "desc": "Selenium is a browser automation tool that gives you full control over Chrome, Firefox, Edge and Safari. Write your scripts in Java, Python, C#, Ruby, JavaScript or Kotlin using the official W3C WebDriver standard. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
-},
-{
-  "id": "fb1f5945b6820ed90263a3164b11222cb5cbbd33823865ccd8e85e23468238a1",
-  "name": "MuckRock",
-  "kind": "Gestão de pedidos de acesso à informação",
-  "url": "https://www.muckrock.com/?utm_source=substack&utm_medium=email",
-  "desc": "MuckRock is a collaborative news site that gives you the tools to hold the government accountable. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
-}, 
-{
-  "id": "c6759019fe5266bd71d3bafd3ed26a4886df16ed8d2af2cf05be2aab0fdbd3e4",
-  "name": "Buttondown",
-  "kind": "BusinessApplication",
-  "url": "https://buttondown.com/",
-  "desc": "Newsletter software for people like you. Everyone from Pulitzer Prize winners and Fortune 500s to study groups and first-time authors love Buttondown. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
-}, 
-{
-  "id": "auto-fa6ac7a7425587ac",
-  "name": "Reporting Tools",
-  "kind": "biblioteca de software",
-  "url": "https://www.sej.org/library/reporting-tools/overview",
-  "desc": "EPA Leaker's Guide Leaking is back . Today, all the best stories are based on leaks. Journalists are discovering that if the EPA press office puts out a story, it probably isn't news and may not even be true. Reporting Tools Visibility: Public National (U.S.) Journalism & Media Read more about EPA Leaker's Guide Consultar documentação e licença antes do uso editorial.",
-  "discoveryUrl": "https://www.sej.org/library/reporting-tools/overview"
-}, 
-{
-  "id": "auto-ce5d51ff262e14cd",
-  "name": "Beautiful Soup",
-  "kind": "biblioteca de software",
-  "url": "https://www.crummy.com/software/BeautifulSoup/",
-  "desc": "Beautiful Soup: We called him Tortoise because he taught us. [ Download | Documentation | Hall of Fame | For enterprise | Source | Changelog | Discussion group | Zine ] Beautiful Soup You didn't write that awful page. You're just trying to get some data out of it. Beautiful Soup is here to help. Since 2004, it's been saving programmers hours or days of work on quick-turnaround screen scraping projects. Beautiful Soup is a Python library designed for quick turnaround projects like screen-scraping. Three features make it powerful: Beautiful Soup provides a few simple methods and Pythonic idioms for navigating, searching, and modifying a parse tree: a toolkit for dissecting a document and extracting what you need. It doesn't take much code to write an application Beautiful Soup automatically converts incoming documents to Unicode and outgoing documents to UTF-8. You don't have to think about encodings, unless the document doesn't specify an encoding and Beautiful Soup can't detect one. Then you just have to specify the original encoding. Beautiful Soup sits on top of popular Python parsers like lxml and html5lib , allowing you to try out different parsing strategies or trade speed for Consultar documentação e licença antes do uso editorial.",
-  "discoveryUrl": "https://www.crummy.com/software/BeautifulSoup"
-}, 
-{
-  "id": "68fedf64924894e13bb99abb21c12be64ecfb0387bc39c7acd2c64cd5949932f",
-  "name": "Figma: The collaborative canvas for design, code, and AI",
-  "kind": "software para análise de dados",
-  "url": "https://www.figma.com/",
-  "desc": "Figma is the canvas where design, code, and AI come together. From first idea to shipped product — go from concept to production with your whole team, in one place. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
-}, 
-{
-  "id": "auto-393eaada993d30d1",
-  "name": "datasette-enrichments",
-  "kind": "plugin de dados",
-  "url": "https://datasette.io/plugins/datasette-enrichments",
-  "desc": "Plugins > datasette-enrichments datasette-enrichments by datasette Star README source code datasette-enrichments Tools for running enrichments against data stored in Datasette Potential use-cases for enrichments include: Geocoding an address and populating a latitude and longitude column Executing a template to generate output based on the values in each row Fetching data from a URL and populating a column with the result Executing OCR against a linked image or PDF file Documentation for this plugin lives at enrichments.datasette.io . Development To set up this plugin locally, first checkout the code. Then create a new virtual environment: cd datasette-enrichments python3 -mvenv venv source venv/bin/activate Or if you are using pipenv : pipenv shell Now install the dependencies and test dependencies: pip install -e ' .[test] ' To run the tests: pytest Consultar documentação e licença antes do uso editorial.",
-  "discoveryUrl": "https://datasette.io/plugins/datasette-enrichments"
-}, 
+  {
+    "id": "be9e40b9672b7d79a68ce0c91d7c97b541c7e742d6681c8ed5f43e55e2401e5b",
+    "name": "Three.js",
+    "kind": "JavaScript 3D Library",
+    "url": "https://threejs.org/",
+    "desc": "Three.js – JavaScript 3D Library Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
+  },
+  {
+    "id": "c2ee2f71ce77c43a7a985d95d7cbaa66f179f6fdbc4424ac9f4d85441953b2a8",
+    "name": "Layer Cake",
+    "kind": "Framework de gráficos e visualização",
+    "url": "https://layercake.graphics/",
+    "desc": "A framework for mostly-reusable graphics with svelte Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
+  },
+  {
+    "id": "d1d9f0e8c01b765eace5a461bb293de7d52b785ffc9cc6df2a3b0a40b3bde74f",
+    "name": "Selenium",
+    "kind": "Automação de navegador",
+    "url": "https://www.selenium.dev/",
+    "desc": "Selenium is a browser automation tool that gives you full control over Chrome, Firefox, Edge and Safari. Write your scripts in Java, Python, C#, Ruby, JavaScript or Kotlin using the official W3C WebDriver standard. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
+  },
+  {
+    "id": "fb1f5945b6820ed90263a3164b11222cb5cbbd33823865ccd8e85e23468238a1",
+    "name": "MuckRock",
+    "kind": "Gestão de pedidos de acesso à informação",
+    "url": "https://www.muckrock.com/?utm_source=substack&utm_medium=email",
+    "desc": "MuckRock is a collaborative news site that gives you the tools to hold the government accountable. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
+  },
+  {
+    "id": "c6759019fe5266bd71d3bafd3ed26a4886df16ed8d2af2cf05be2aab0fdbd3e4",
+    "name": "Buttondown",
+    "kind": "BusinessApplication",
+    "url": "https://buttondown.com/",
+    "desc": "Newsletter software for people like you. Everyone from Pulitzer Prize winners and Fortune 500s to study groups and first-time authors love Buttondown. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
+  },
+  {
+    "id": "auto-fa6ac7a7425587ac",
+    "name": "Reporting Tools",
+    "kind": "biblioteca de software",
+    "url": "https://www.sej.org/library/reporting-tools/overview",
+    "desc": "EPA Leaker's Guide Leaking is back . Today, all the best stories are based on leaks. Journalists are discovering that if the EPA press office puts out a story, it probably isn't news and may not even be true. Reporting Tools Visibility: Public National (U.S.) Journalism & Media Read more about EPA Leaker's Guide Consultar documentação e licença antes do uso editorial.",
+    "discoveryUrl": "https://www.sej.org/library/reporting-tools/overview"
+  },
+  {
+    "id": "auto-ce5d51ff262e14cd",
+    "name": "Beautiful Soup",
+    "kind": "biblioteca de software",
+    "url": "https://www.crummy.com/software/BeautifulSoup/",
+    "desc": "Beautiful Soup: We called him Tortoise because he taught us. [ Download | Documentation | Hall of Fame | For enterprise | Source | Changelog | Discussion group | Zine ] Beautiful Soup You didn't write that awful page. You're just trying to get some data out of it. Beautiful Soup is here to help. Since 2004, it's been saving programmers hours or days of work on quick-turnaround screen scraping projects. Beautiful Soup is a Python library designed for quick turnaround projects like screen-scraping. Three features make it powerful: Beautiful Soup provides a few simple methods and Pythonic idioms for navigating, searching, and modifying a parse tree: a toolkit for dissecting a document and extracting what you need. It doesn't take much code to write an application Beautiful Soup automatically converts incoming documents to Unicode and outgoing documents to UTF-8. You don't have to think about encodings, unless the document doesn't specify an encoding and Beautiful Soup can't detect one. Then you just have to specify the original encoding. Beautiful Soup sits on top of popular Python parsers like lxml and html5lib , allowing you to try out different parsing strategies or trade speed for Consultar documentação e licença antes do uso editorial.",
+    "discoveryUrl": "https://www.crummy.com/software/BeautifulSoup"
+  },
+  {
+    "id": "68fedf64924894e13bb99abb21c12be64ecfb0387bc39c7acd2c64cd5949932f",
+    "name": "Figma: The collaborative canvas for design, code, and AI",
+    "kind": "software para análise de dados",
+    "url": "https://www.figma.com/",
+    "desc": "Figma is the canvas where design, code, and AI come together. From first idea to shipped product — go from concept to production with your whole team, in one place. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
+  },
+  {
+    "id": "auto-393eaada993d30d1",
+    "name": "datasette-enrichments",
+    "kind": "plugin de dados",
+    "url": "https://datasette.io/plugins/datasette-enrichments",
+    "desc": "Plugins > datasette-enrichments datasette-enrichments by datasette Star README source code datasette-enrichments Tools for running enrichments against data stored in Datasette Potential use-cases for enrichments include: Geocoding an address and populating a latitude and longitude column Executing a template to generate output based on the values in each row Fetching data from a URL and populating a column with the result Executing OCR against a linked image or PDF file Documentation for this plugin lives at enrichments.datasette.io . Development To set up this plugin locally, first checkout the code. Then create a new virtual environment: cd datasette-enrichments python3 -mvenv venv source venv/bin/activate Or if you are using pipenv : pipenv shell Now install the dependencies and test dependencies: pip install -e ' .[test] ' To run the tests: pytest Consultar documentação e licença antes do uso editorial.",
+    "discoveryUrl": "https://datasette.io/plugins/datasette-enrichments"
+  },
   {
     "id": "733c36409f57a6d64b4eb49ac945a060082aa3ebc58f68ebc56d21824af048b3",
-    "name": "R",
+    "name": "fedmatch",
     "kind": "record linkage e correspondência de dados",
     "url": "https://cran.r-project.org/package=fedmatch",
     "desc": "Provides a flexible set of tools for matching two un-linked data sets. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
