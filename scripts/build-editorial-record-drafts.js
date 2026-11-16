@@ -71,6 +71,13 @@ function toolKind(text,applicationCategory,titleKind){
  return null;
 }
 function normalizeToolName(title,text,url){
+ try{
+  const u=new URL(url);
+  if(/(^|\.)r-project\.org$/.test(u.hostname)){
+   const pkg=u.searchParams.get('package')||u.pathname.match(/\/packages\/([A-Za-z][A-Za-z0-9.]{0,79})(?:\/|$)/)?.[1];
+   if(pkg&&/^[A-Za-z][A-Za-z0-9.]{0,79}$/.test(pkg))return pkg;
+  }
+ }catch{}
  let value=clean(title).replace(/:\s*(?:the|your|a|an)\s+.*$/i,'').replace(/\s*[|—–]\s*.+$/,'').replace(/\s+-\s+.+$/,'').trim();
  const rules=[
   [/^welcome to python(?:\.org)?$/i,'Python'],
@@ -119,7 +126,7 @@ function buildDrafts(queue,review,generatedAt=new Date().toISOString()){
   if(result.category==='opportunities'){
    record.title=clean(pageTitle).replace(/\s*[-–—|]\s*(?:Opportunity Desk|GFMD|Grants for Journalists)\s*$/i,'');record.org=org||explicitOrganization(text);
    record.summary=evidenceSummary(text,audit.pageDescription);
-   const typeMatch=/(fellowship|grant|scholarship|award|prize|contest|competition|bolsa|edital|premia[cç][aã]o)/i.exec(pageTitle+' '+text);
+   const typeMatch=/(fellowship|grant|scholarship|award|prize|contest|competition|bolsa|edital|premia[cç][aã]o|mentorship|mentoria|training|workshop|internship|residency|pitches|pitch)/i.exec(pageTitle+' '+text);
    record.type=typeMatch?typeMatch[0]:'Chamada editorial com financiamento ou prêmio';
    const topicMap=[[/climate|environment|clima|ambiental/i,'Meio ambiente'],[/data journalism|data visualization|dados|visualiza[cç][aã]o/i,'Jornalismo de dados'],[/investigativ|investiga[cç][aã]o/i,'Jornalismo investigativo'],[/gender|women|gênero|mulheres/i,'Gênero'],[/photo|fotografia/i,'Fotografia'],[/journalism|journalist|jornalismo|jornalista/i,'Jornalismo']];
    record.themes=[...new Set(topicMap.filter(([rx])=>rx.test(pageTitle+' '+text)).map(([,label])=>label))];
@@ -127,9 +134,9 @@ function buildDrafts(queue,review,generatedAt=new Date().toISOString()){
    record.scope=eligibilityScope(text);
    record.fit=editorialFit(pageTitle,text+' '+record.scope);
    record.deadline=result.checks.deadline||null;
-   record.deadlineStatus=record.deadline?'Prazo confirmado na fonte consultada; conferir horário e fuso no edital.':null;
+   record.deadlineStatus=record.deadline?'Prazo confirmado na fonte consultada; conferir horário e fuso no edital.':result.checks.rolling?'Fluxo contínuo confirmado na chamada; sem data final anunciada.':null;
    record.eligibility=record.scope?(/must (?:also )?be US citizens?|green card holders/i.test(record.scope)?'restrita':'parcial'):null;
-   record.status=record.deadline&&record.deadline>=todayBahia()&&result.checks.callSignal?'aberta':null;
+   record.status=(record.deadline&&record.deadline>=todayBahia()||result.checks.rolling)&&result.checks.callSignal?'aberta':null;
    record.rules=url;record.apply=url;
   }else if(result.category==='datasets'){
    const data=structured(audit,/dataset/i),formats=[data.encodingFormat,data.distribution?.encodingFormat].flat().filter(Boolean);
@@ -162,6 +169,7 @@ function buildDrafts(queue,review,generatedAt=new Date().toISOString()){
    const resources=(audit.resourceLinks||[]).filter(x=>/^https:\/\//i.test(x.url||''));
    const resource=resources.find(x=>fileFormat.test(x.url))||resources.find(x=>(/\/(?:api|download|data|datasets?)(?:\/|$)/i.test(new URL(x.url).pathname)||(/^api\./i.test(new URL(x.url).hostname)&&/\bAPI\b/i.test(x.label||'')))&&x.url!==url),distribution=data.distribution||{};
    record.api=distribution.contentUrl||distribution.url||resource?.url||null;
+   if(result.checks.webAccess&&!record.api)record.format='HTML — tabela pública consultável na página oficial';
    record.docs=url;
    record.limitations='A página consultada não detalha todas as limitações, a atualização e a qualidade do recurso; conferir documentação e licença antes do uso editorial.';
    record.lastChecked=(audit.checkedAt||'').slice(0,10)||null;
@@ -178,12 +186,14 @@ function buildDrafts(queue,review,generatedAt=new Date().toISOString()){
    if(!record.desc)record.desc='Documentação oficial de '+record.name+' para uso em análise e tratamento de dados. Source note: consultar a documentação e a licença antes do uso editorial.';
   }
   const missingFields=(categoryFields[result.category]||[]).filter(field=>{
+   if(field==='deadline'&&result.category==='opportunities'&&result.checks.rolling)return false;
+   if(field==='api'&&result.category==='datasets'&&result.checks.webAccess)return false;
    const value=record[field];return value==null||value===''||(Array.isArray(value)&&!value.length);
   });
   return {
    schemaVersion:1,id,category:result.category,status:'draft_only',publicationReady:false,
    source:{url,discoveryProviders:(candidate.providers||[]).map(clean).filter(Boolean),pageTitle,checkedAt:audit.checkedAt||null,httpStatus:audit.httpStatus??null,contentType:audit.contentType||null},
-   evidence:{checks:result.checks||{},sourceExcerpt:rawText.slice(0,4000),structuredData:audit.structuredData||[],resourceLinks:audit.resourceLinks||[]},
+   evidence:{checks:result.checks||{},sourceExcerpt:rawText.slice(0,4000),structuredData:audit.structuredData||[],tabularData:audit.tabularData||[],resourceLinks:audit.resourceLinks||[]},
    recordDraft:record,missingFields,reviewDecision:result.decision,
    note:'Ficha preliminar baseada no conteúdo capturado da página. Campos sem evidência permanecem ausentes; a aprovação depende do gate independente de publicação.'
   };
@@ -198,4 +208,4 @@ if(require.main===module){
  fs.writeFileSync(outPath,JSON.stringify(result,null,2)+'\n');
  console.log(JSON.stringify(result.summary));
 }
-module.exports={buildDrafts};
+module.exports={buildDrafts,normalizeToolName};
