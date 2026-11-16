@@ -2,6 +2,15 @@
 const test=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),os=require('node:os'),path=require('node:path'),cp=require('node:child_process');
 const {buildDrafts}=require('../scripts/build-editorial-record-drafts');
 const {buildAutomaticPublications}=require('../scripts/build-automated-publications');
+test('dataset downloads retain their evidenced file format and never infer geography from administrative scale',()=>{
+ for(const [location,scale,tier] of [['Tanzania','national','Outros'],['California','statewide','Outros'],['Nairobi','municipal','Outros'],['Brasil','national','Brasil']]){
+  const url='https://data.example/catalog',file='https://data.example/results.xlsx';
+  const q={candidates:[{id:'files',url,status:'pending',audit:{pageTitle:location+' dataset',evidenceText:scale+' dataset covering '+location+' in 2024.',httpStatus:200,contentType:'text/html',checkedAt:new Date().toISOString(),structuredData:[],resourceLinks:[{url,label:'Official reports and spreadsheet downloads'},{url:'https://data.example/dados-abertos',label:'Dados Abertos'},{url:file,label:'Planilhas de indicadores'}]}}]};
+  const r={records:[{id:'files',category:'datasets',decision:'evidence_complete_for_record_draft',publicationReady:false,checks:{}}]};
+  const d=buildDrafts(q,r).drafts[0].recordDraft;
+  assert.equal(d.format,'XLSX');assert.equal(d.api,file);assert.equal(d.territoryTier,tier);
+ }
+});
 const queue={updatedAt:'2026-11-09T12:00:00Z',candidates:[
  {id:'global-reporting-grant',title:'Global reporting grant',url:'https://example.org/grant',category:'opportunities',providers:['Example Foundation'],audit:{pageTitle:'Global Reporting Grant',httpStatus:200,contentType:'text/html',checkedAt:'2026-11-09T10:00:00Z',evidenceText:'Applications are open. Eligibility is open to journalists worldwide. Applications close 2099-12-31.',structuredData:[],resourceLinks:[]}},
  {id:'city-data-catalog',title:'City data catalog',url:'https://example.org/data',category:'datasets',providers:['Example City'],audit:{pageTitle:'City Open Data Catalog',httpStatus:200,contentType:'text/html',checkedAt:'2026-11-09T10:00:00Z',evidenceText:'Download CSV files covering 2020–2025. License terms are available on the portal.',structuredData:[{'@type':'Dataset',name:'City records',distribution:{contentUrl:'https://example.org/download.csv',encodingFormat:'text/csv'}}],resourceLinks:[{url:'https://example.org/download.csv',label:'CSV download'}]}},
