@@ -56,7 +56,9 @@ function deriveDataset(lead,url){
 function deriveTool(lead,url){
  const se=lead.structuredEvidence||{};
  const title=se.title||lead.pageTitle||lead.sourcePageTitle;
- const description=cleanText([se.description||lead.pageDescription,lead.evidenceText].filter(Boolean).join(' '),1600);
+ const meta=cleanText(se.description||lead.pageDescription,1200);
+ const body=cleanText(lead.evidenceText,4000);
+ const description=meta.length>=80?meta:cleanText(body,1200);
  const excludedToolPage=new RegExp("mediawiki\\.org|wikidata\\.org/wiki/Special:NewItem|github\\.com/[^\\s]+/blob/|/(?:news|articles?|item|program|blog|tv|conference|events?)(?:/|$)|substack\\.com","i").test(String(url));
  const navigationTool=/jump to content|main menu|navigation|create account|log in|personal tools|toggle the table|page discussion|read edit view history|contents move to sidebar|search search/i.test(String(description));
  if(excludedToolPage||navigationTool)return null;
@@ -66,9 +68,10 @@ function deriveTool(lead,url){
  const evidenceText=[title,description,url].join(' ');
  const nonProduct=/\b(?:podcast|newsletter|article|course|training|conference|event|curated list|blog|publication)\b/i.test(title||'')||/buttondown\.com|substack\.com|\/using\/|\/wiki\/|\/products\/tools|\/advancedsearch|\/20\d{2}\//i.test(url);
  if(nonProduct)return null;
+ if(/\b(book|handbook|toolkits?|specialist|developer|portfolio|profile|resources|directory)\b/i.test(title||'')||/skip to main content|select language|all topics|photo library/i.test(description))return null;
  const inferredKind=/\bplugin\b/i.test(evidenceText)?'plugin de dados':/\b(?:library|biblioteca)\b/i.test(evidenceText)?'biblioteca de software':/\b(?:api|sdk|cli)\b/i.test(evidenceText)?'API/SDK/CLI para dados':/\b(?:framework|plataforma|platform)\b/i.test(evidenceText)?'plataforma de dados':null;
  if(!sourceType&&!inferredKind)return null;
- const name=cleanTitle(title,se.organization||'').split(/\s*[|:]\s*/)[0].trim();
+ const name=cleanTitle(title,se.organization||'').split(/\s*[|:]\s*/)[0].replace(/\s+-\s+a (?:plugin|library|platform)\b.*$/i,'').trim();
  if(!name||/^(github|home|tools|resources|início)$/i.test(name))return null;
  return {id:derivedId(url),name,kind:inferredKind||se.sourceType,url,desc:description+' Consultar documentação e licença antes do uso editorial.',discoveryUrl:lead.url};
 }
