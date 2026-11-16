@@ -1,6 +1,28 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.datasets=[
 {
+  "id": "b77b7b65d0138789940e5d01d95b6f6596c51d6330dde9858d501aa0b0cdfa24",
+  "name": "Resultados SINISA 2025",
+  "org": "Ministério das Cidades",
+  "territoryTier": "Outros",
+  "kind": "dataset",
+  "themes": [
+    "Dados abertos"
+  ],
+  "coverage": "Resultados SINISA 2025 — Ministério das Cidades Info Resultados SINISA 2025 Compartilhe: Compartilhe por Facebook Compartilhe por Twitter Compartilhe por LinkedIn Compartilhe por WhatsApp link para Copiar para área de transferência Publicado em 23/12/2025 17h08 Atualizado em 22/07/2026 16h13 O SINISA divulga os resultados da coleta de dados do sistema, SINISA 2025, com ano de referência 2024.",
+  "frequency": "Não informado pela fonte oficial",
+  "format": "ZIP",
+  "period": "Resultados SINISA 2025 — Ministério das Cidades Info Resultados SINISA 2025 Compartilhe: Compartilhe por Facebook Compartilhe por Twitter Compartilhe por LinkedIn Compartilhe por WhatsApp link para Copiar para área de transferência Publicado em 23/12/2025 17h08 Atualizado em 22/07/2026 16h13 O SINISA divulga os resultados da coleta de dados do sistema, SINISA 2025, com ano de referência 2024.",
+  "granularity": "Não informado pela fonte oficial",
+  "geoUnit": "São apresentados os relatórios e planilhas de informações e indicadores acerca dos cinco módulos do SINISA: Gestão Municipal, Abastecimento de Água, Esgotamento Sanitário, Resíduos Sólidos e Águas Pluviais, bem como a relação dos Atestados de Regularidade de cada módulo.",
+  "api": "https://www.gov.br/cidades/pt-br/acesso-a-informacao/acoes-e-programas/saneamento/sinisa/resultados-sinisa/SINISA_Resultados_Ref2024.zip",
+  "docs": "https://www.gov.br/cidades/pt-br/acesso-a-informacao/acoes-e-programas/saneamento/sinisa/resultados-sinisa/resultados-sinisa-2025",
+  "limitations": "A página consultada não detalha todas as limitações, a atualização e a qualidade do recurso; conferir documentação e licença antes do uso editorial.",
+  "lastChecked": "2026-11-16",
+  "url": "https://www.gov.br/cidades/pt-br/acesso-a-informacao/acoes-e-programas/saneamento/sinisa/resultados-sinisa/resultados-sinisa-2025",
+  "description": "Resultados SINISA 2025 — Ministério das Cidades Info Resultados SINISA 2025 Compartilhe: Compartilhe por Facebook Compartilhe por Twitter Compartilhe por LinkedIn Compartilhe por WhatsApp link para Copiar para área de transferência Publicado em 23/12/2025 17h08 Atualizado em 22/07/2026 16h13 O SINISA divulga os resultados da coleta de dados do sistema, SINISA 2025, com ano de referência 2024."
+}, 
+{
   "id": "auto-c1482ab524e0671e",
   "name": "Tanzania - Demographic and Health Survey and Malaria Indicator Survey 2022",
   "org": "World Bank Data Catalog",

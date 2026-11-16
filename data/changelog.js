@@ -1,5 +1,29 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
+{
+  "date": "2026-11-16",
+  "type": "dados",
+  "title": "Publicação editorial verificada — 2026-11-16",
+  "items": [
+    {
+      "id": "b77b7b65d0138789940e5d01d95b6f6596c51d6330dde9858d501aa0b0cdfa24",
+      "title": "Resultados SINISA 2025"
+    }
+  ],
+  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Resultados SINISA 2025."
+},
+{
+  "date": "2026-11-16",
+  "type": "ferramentas",
+  "title": "Publicação editorial verificada — 2026-11-16",
+  "items": [
+    {
+      "id": "c6759019fe5266bd71d3bafd3ed26a4886df16ed8d2af2cf05be2aab0fdbd3e4",
+      "title": "Buttondown"
+    }
+  ],
+  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Buttondown."
+}, 
   {
     "date": "2026-11-16",
     "type": "nova-oportunidade",
