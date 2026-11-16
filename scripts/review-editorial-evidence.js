@@ -115,6 +115,7 @@ function review(c){
   if(!checks.eligibility)missing.push('elegibilidade expressa na fonte');
  }else if(category==='datasets'){
   const d=ld.find(x=>/dataset/.test(x.type))?.data;
+  if(/\/indicator\//i.test(c.url||'')&&/^(?:world bank open data|open data|data catalog)$/i.test(title)&&!d?.name)missing.push('nome específico do indicador ausente na página inspecionada');
   const distribution=d?.distribution;
   checks.datasetSignal=!!d||/(dataset|data catalog|open data|dados abertos|base de dados|microdata|microdados|data portal)/i.test(title+' '+text);
   const fileFormat=/\.(?:csv|tsv|json|geojson|xml|parquet|zip|xlsx?|gpkg|geotiff|tiff?|vrt)(?:$|[?#])/i;
