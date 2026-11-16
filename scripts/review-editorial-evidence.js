@@ -26,7 +26,7 @@ function inferCategory(c,text,title){
  const url=String(c.url||'').toLowerCase();
  const pathname=new URL(url||'https://invalid.local').pathname;
  const surface=title||String(c.title||'');
- const journalisticCall=actionableOpportunity(surface,text)&&/journalis|jornalismo|reporting|reporters|newsrooms|photojournal|documentary/i.test(surface+' '+text);
+ const journalisticCall=actionableOpportunity(surface,text)&&/journalis|jornalismo|reporting|reporters|newsrooms|photojournal|documentary/i.test(surface+' '+String(c.audit?.pageDescription||''));
  if(journalisticCall&&!/newsletter|podcast|directory|portfolio/i.test(surface))return 'opportunities';
  // Product documentation is a valid source only when identity AND function are evidenced.
  const documentation=/\/(?:docs|documentation|learn)(?:\/|$)/i.test(pathname)||/^(?:docs|developer)\./i.test(new URL(url).hostname);
@@ -90,6 +90,8 @@ function review(c){
   ||(c.verificationStatus==='official-web-search'&&String(c.sourceEvidence||'').length>=120&&Array.isArray(c.resourceLinks)&&c.resourceLinks.length>0);
  if(!hardStatus)missing.push('página primária acessível com conteúdo compatível');
  if(category==='opportunities'){
+  const editorialScope=/\b(?:journalis\w*|jornalismo|jornalistas?|reporting|reporters?|newsrooms?|photojournal\w*|documentary)\b/i.test(title+' '+String(a.pageDescription||''));
+  if(!editorialScope)missing.push('escopo jornalístico ausente no título e descrição da chamada');
   const verifiedOpportunityEvidence=c.verificationStatus==='official-web-search' &&
    /\b(grant|fellowship|funding|scholarship|journalism award|award|prize|contest|competition|bolsa|edital|financiamento|premia[cç][aã]o|pr[eê]mio|concurso)\b/i.test(text) &&
    /\b(applications?\b[^.!?]{0,120}\b(?:open|accepted|closing|close|closes|closed|deadline|until|by)|call for (?:applications?|entries?|submissions?|proposals?)|apply(?:ing)?(?: now| today| by)?|inscri[cç][oõ]es? abertas|candidaturas? abertas|candidatar-se até|submiss[oõ]es? abertas)\b/i.test(text);
