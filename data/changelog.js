@@ -1289,6 +1289,18 @@ window.RADAR_PARTS.changelog=[
   ],
   "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Busca LAI; e-Cidadania (Senado Federal); Olho Vivo SPTrans; Participação (Assembleia Legislativa de Minas Gerais); Pesquisa de Propostas Legislativas (Câmara dos Deputados); POA Transporte; Guaraci."
 },
+{
+  "date": "2026-11-16",
+  "type": "nova-oportunidade",
+  "title": "Publicação editorial verificada — 2026-11-16",
+  "items": [
+    {
+      "id": "fd84e850b51d43d439eea917135e10b90b79fedd62c5f808a56248c50fb77c50",
+      "title": "SA|AJP Investigative Journalism Grants (Southern Africa Accountability Journalism Project)"
+    }
+  ],
+  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: SA|AJP Investigative Journalism Grants (Southern Africa Accountability Journalism Project)."
+}, 
   {
     "date": "2026-11-16",
     "type": "ferramentas",
