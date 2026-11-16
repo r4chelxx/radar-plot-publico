@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-16T18:40:17.230Z",
+  "generatedAt": "2026-11-16T19:21:39.545Z",
   "policy": "Evidence-based category triage. Missing license is recorded as unknown when not found; complete means draft eligibility only, never approval or publication.",
   "counts": {
-    "pending_more_evidence": 1868,
-    "evidence_complete_for_record_draft": 5
+    "pending_more_evidence": 1867,
+    "evidence_complete_for_record_draft": 3
   },
   "categoryCounts": {
-    "uncategorized": 1611,
-    "opportunities": 171,
-    "tools": 33,
+    "uncategorized": 1590,
+    "opportunities": 192,
+    "tools": 30,
     "datasets": 58
   },
   "records": [
@@ -311,13 +311,14 @@
       "checks": {
         "callSignal": false,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
         "página primária acessível com conteúdo compatível",
         "escopo jornalístico ausente no título e descrição da chamada",
         "chamada de financiamento/bolsa identificável",
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -401,11 +402,12 @@
       "checks": {
         "callSignal": false,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
         "chamada de financiamento/bolsa identificável",
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -505,11 +507,12 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
         "escopo jornalístico ausente no título e descrição da chamada",
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -852,12 +855,18 @@
     {
       "id": "4a011c6a3f567b9c74eb77d0a2bc50158e443caa9c5ad01cf1e178f56de81054",
       "url": "https://ire.org/conferences/nicar-2026",
-      "category": "uncategorized",
+      "category": "opportunities",
       "originalCategory": "tools",
       "checkedAt": "2026-11-16T04:54:55.777Z",
-      "checks": {},
+      "checks": {
+        "callSignal": true,
+        "deadline": null,
+        "eligibility": false,
+        "rolling": false
+      },
       "missing": [
-        "categoria específica sem evidência suficiente"
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
+        "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -1044,12 +1053,13 @@
       "checks": {
         "callSignal": false,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
         "escopo jornalístico ausente no título e descrição da chamada",
         "chamada de financiamento/bolsa identificável",
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -1117,12 +1127,13 @@
       "checks": {
         "callSignal": false,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
         "escopo jornalístico ausente no título e descrição da chamada",
         "chamada de financiamento/bolsa identificável",
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -1390,13 +1401,14 @@
       "checks": {
         "callSignal": false,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
         "página primária acessível com conteúdo compatível",
         "escopo jornalístico ausente no título e descrição da chamada",
         "chamada de financiamento/bolsa identificável",
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -1490,12 +1502,13 @@
       "checks": {
         "callSignal": false,
         "deadline": null,
-        "eligibility": true
+        "eligibility": true,
+        "rolling": false
       },
       "missing": [
         "escopo jornalístico ausente no título e descrição da chamada",
         "chamada de financiamento/bolsa identificável",
-        "prazo futuro confirmado em formato de data reconhecido"
+        "prazo futuro ou fluxo contínuo confirmado na chamada"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -2015,12 +2028,13 @@
       "checks": {
         "callSignal": false,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
         "escopo jornalístico ausente no título e descrição da chamada",
         "chamada de financiamento/bolsa identificável",
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -2081,12 +2095,13 @@
       "checks": {
         "callSignal": false,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
         "escopo jornalístico ausente no título e descrição da chamada",
         "chamada de financiamento/bolsa identificável",
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -2225,10 +2240,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": true
+        "eligibility": true,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido"
+        "prazo futuro ou fluxo contínuo confirmado na chamada"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -2516,12 +2532,13 @@
       "checks": {
         "callSignal": false,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
         "escopo jornalístico ausente no título e descrição da chamada",
         "chamada de financiamento/bolsa identificável",
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -2588,12 +2605,13 @@
       "checks": {
         "callSignal": false,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
         "escopo jornalístico ausente no título e descrição da chamada",
         "chamada de financiamento/bolsa identificável",
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -2678,14 +2696,14 @@
       "originalCategory": "opportunities",
       "checkedAt": "2026-11-16T18:39:38.403Z",
       "checks": {
-        "callSignal": false,
+        "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
         "escopo jornalístico ausente no título e descrição da chamada",
-        "chamada de financiamento/bolsa identificável",
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -2745,23 +2763,6 @@
       "publicationReady": false
     },
     {
-      "id": "be9e40b9672b7d79a68ce0c91d7c97b541c7e742d6681c8ed5f43e55e2401e5b",
-      "url": "https://threejs.org/",
-      "category": "tools",
-      "originalCategory": "tools",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
-      "checks": {
-        "productSignal": true,
-        "function": true,
-        "access": true,
-        "license": false,
-        "licenseStatus": "not stated in captured source"
-      },
-      "missing": [],
-      "decision": "evidence_complete_for_record_draft",
-      "publicationReady": false
-    },
-    {
       "id": "bfc35d216afa6afdd5dd251b60c1c07a4bcd13eb12488eea03466802f0873895",
       "url": "https://themarshallproject.org/",
       "category": "uncategorized",
@@ -2793,7 +2794,7 @@
       "url": "https://www.nationalgeographic.org/funding-opportunities/grants",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-16T11:18:13.387Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -2829,23 +2830,6 @@
       "publicationReady": false
     },
     {
-      "id": "c2ee2f71ce77c43a7a985d95d7cbaa66f179f6fdbc4424ac9f4d85441953b2a8",
-      "url": "https://layercake.graphics/",
-      "category": "tools",
-      "originalCategory": "tools",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
-      "checks": {
-        "productSignal": true,
-        "function": true,
-        "access": true,
-        "license": false,
-        "licenseStatus": "not stated in captured source"
-      },
-      "missing": [],
-      "decision": "evidence_complete_for_record_draft",
-      "publicationReady": false
-    },
-    {
       "id": "c41c375f46c24b39bc7fa9a2bdc8872d613712294c9937a97bdde0c85b701589",
       "url": "https://earthobservations.org/about-us/events",
       "category": "uncategorized",
@@ -2867,12 +2851,13 @@
       "checks": {
         "callSignal": false,
         "deadline": null,
-        "eligibility": true
+        "eligibility": true,
+        "rolling": false
       },
       "missing": [
         "escopo jornalístico ausente no título e descrição da chamada",
         "chamada de financiamento/bolsa identificável",
-        "prazo futuro confirmado em formato de data reconhecido"
+        "prazo futuro ou fluxo contínuo confirmado na chamada"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -2962,29 +2947,12 @@
       "url": "https://www.eventbrite.com/o/data-visualization-society-44097727323",
       "category": "uncategorized",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-16T18:39:51.113Z",
+      "checkedAt": "2026-11-16T19:21:25.102Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
-      "publicationReady": false
-    },
-    {
-      "id": "d1d9f0e8c01b765eace5a461bb293de7d52b785ffc9cc6df2a3b0a40b3bde74f",
-      "url": "https://www.selenium.dev/",
-      "category": "tools",
-      "originalCategory": "tools",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
-      "checks": {
-        "productSignal": true,
-        "function": true,
-        "access": true,
-        "license": false,
-        "licenseStatus": "not stated in captured source"
-      },
-      "missing": [],
-      "decision": "evidence_complete_for_record_draft",
       "publicationReady": false
     },
     {
@@ -3108,11 +3076,12 @@
       "checks": {
         "callSignal": false,
         "deadline": null,
-        "eligibility": true
+        "eligibility": true,
+        "rolling": false
       },
       "missing": [
         "chamada de financiamento/bolsa identificável",
-        "prazo futuro confirmado em formato de data reconhecido"
+        "prazo futuro ou fluxo contínuo confirmado na chamada"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -3205,13 +3174,14 @@
       "checks": {
         "callSignal": false,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
         "página primária acessível com conteúdo compatível",
         "escopo jornalístico ausente no título e descrição da chamada",
         "chamada de financiamento/bolsa identificável",
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -3448,10 +3418,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -3635,14 +3606,14 @@
       "originalCategory": "opportunities",
       "checkedAt": "2026-11-16T04:54:55.777Z",
       "checks": {
-        "callSignal": false,
+        "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
         "escopo jornalístico ausente no título e descrição da chamada",
-        "chamada de financiamento/bolsa identificável",
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -3702,12 +3673,13 @@
       "checks": {
         "callSignal": false,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
         "escopo jornalístico ausente no título e descrição da chamada",
         "chamada de financiamento/bolsa identificável",
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -3826,10 +3798,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -3844,10 +3817,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -3862,10 +3836,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -3880,10 +3855,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -3898,10 +3874,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -3916,10 +3893,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -3934,10 +3912,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -3952,10 +3931,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -3970,10 +3950,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -3988,10 +3969,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -4006,10 +3988,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -4018,12 +4001,18 @@
     {
       "id": "225f6a831ea3d2fc1cac8f0fb6a858e4c687b9baf2f79c9865707d02356b5f7d",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPNFJzYjJkYjRqM2prY3gtQUIwd2FhV0RVUUxUMG51Zk5IbTN2NTc0NjRRbG1QVjRfM1IzRzBnVEFXLTEwYkJNS01zanlwc3dxNjA2SDRtZ3NFbEN2clpPVkdaZTZsdk51eFl4UVZaX2tDZHJDVllhbWlSdC1XQzBoTlhFZ3R0bFg5N3k0Vjdxdl81LXd3SlJhZXlMSnpENi1JTkVDTQ",
-      "category": "uncategorized",
+      "category": "opportunities",
       "originalCategory": "opportunities",
       "checkedAt": "2026-11-16T04:54:55.777Z",
-      "checks": {},
+      "checks": {
+        "callSignal": true,
+        "deadline": null,
+        "eligibility": false,
+        "rolling": false
+      },
       "missing": [
-        "categoria específica sem evidência suficiente"
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
+        "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -4037,10 +4026,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -4055,10 +4045,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -4087,10 +4078,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -4105,10 +4097,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -4117,12 +4110,18 @@
     {
       "id": "3ae52b761a986d41b7213702804a504d808df102e4c9ba5eff0f13373457e638",
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB5YUxaMGJXeDd6X092eDV6N1NCZmtWRVJUS19tVWxpYzNyY0F2Q0pyNGlDS0ZvSWVzR3Z4cGE3X3hTR21xWTlWVGRqRDI0NFJlZ1B4emJSYWI3Z1dLdzFxRzF2OUUxMW5WSjJ6eTZ1RmVwX3c2c09sc01SNU14Zw",
-      "category": "uncategorized",
+      "category": "opportunities",
       "originalCategory": "opportunities",
       "checkedAt": "2026-11-16T04:54:55.777Z",
-      "checks": {},
+      "checks": {
+        "callSignal": true,
+        "deadline": null,
+        "eligibility": false,
+        "rolling": false
+      },
       "missing": [
-        "categoria específica sem evidência suficiente"
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
+        "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -4136,10 +4135,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -4154,10 +4154,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -4185,10 +4186,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -4203,10 +4205,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -4221,10 +4224,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -4239,10 +4243,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -4257,10 +4262,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -4275,10 +4281,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -4307,10 +4314,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -4325,10 +4333,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -4343,10 +4352,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -4361,10 +4371,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -4379,10 +4390,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -4397,10 +4409,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -4415,10 +4428,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -4433,10 +4447,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -4451,10 +4466,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -4469,10 +4485,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -4487,10 +4504,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -4505,10 +4523,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -4523,10 +4542,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -4535,12 +4555,18 @@
     {
       "id": "783f4d0820b1594ef64222270cdd40b3c64bb3fd1ff2fb2a52e8e0fc4a6bf96f",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQOWgyekgxeE1kTXFsa1hHMFpPQnB3Nm1xWlBzQktKVERlU0ZFd1oyRHhabzBSNThfR0U5bjBXaVhOSFZ0enFwSTJRbzN3d0I2cTVvSmI2QUJJbTJYN0JDWFdXNjJHdDFsbHd2dTZpZUxxU1VDWkdqamZBWDBGRjFoaFRadTRSZWgtZElzc0JSQWRsLVMtUFg4bzVlbUVaRGRkOTcydTd2djNmUXJKTFkxMHVITHpfQ2M",
-      "category": "uncategorized",
+      "category": "opportunities",
       "originalCategory": "opportunities",
       "checkedAt": "2026-11-16T05:12:14.316Z",
-      "checks": {},
+      "checks": {
+        "callSignal": true,
+        "deadline": null,
+        "eligibility": false,
+        "rolling": false
+      },
       "missing": [
-        "categoria específica sem evidência suficiente"
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
+        "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -4554,10 +4580,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -4572,10 +4599,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -4590,10 +4618,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -4602,12 +4631,18 @@
     {
       "id": "82955c65244a07dd701f5fd35db075563d1fff556e959b516fdae0efcceac1a4",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOQ0htbnhRcC10SV9ESk80VHdDOERyOVJwS0s1Uk5LZ3k4S2dBMHRJUG1sSlZabWxmODZPdTVERmlHbGoxeGJpUnQ0OVkyVVl3NjdMTmM1bGQtaV80SEpnc2RjM09mNXJlMXc3YWdDNkEyb242MzdfcEZsVTRTbWhuUFhacEtqQXlGU0R1M2xqOXVKNGhwSGg0cW9ISFhHSXQxaVJibkphS2VOQUsz0gGyAUFVX3lxTE9qY0tFTUoxYUNiM252VUprUzBZcFZOSXVsR1N3RzBHTGpEREVkR0ZreEl5VjJjc3ROYUpKMWFUQ3ZxRU5kMkhDNEVkUGYzc1VndzN1bUIyRFNBVThiQjNZZkJyQmdRYTdzazNrN2tnOXdHelJlSEw2YUZVaW91MUN0SW1lU1hSU0tVQ0J1Uk01bVVsRllRbmMwSWw2dGQ2Tk40aTZhbEN0U1hzbDVXNEVJUHc",
-      "category": "uncategorized",
+      "category": "opportunities",
       "originalCategory": "opportunities",
       "checkedAt": "2026-11-16T05:12:14.316Z",
-      "checks": {},
+      "checks": {
+        "callSignal": true,
+        "deadline": null,
+        "eligibility": false,
+        "rolling": false
+      },
       "missing": [
-        "categoria específica sem evidência suficiente"
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
+        "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -4615,12 +4650,18 @@
     {
       "id": "82cef8b1e72db514deefbadc87442e9ea78a828a9e31980586939eca2c5ddc8f",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQTWY4UTFJaVpJYXdjZ3NPZ3E2TEdYLVpGOEFrTFowaWxoNGtVdUl4WjJZQXh2djlHa1pGVHJhUHhXdTI0UDQxYy0xVGRCNVJTUkxod1ExOTJZcHNEbE9GWWZsNnhCY2xZRXhJZGcwYkE0M25JVFhITkh0VE03clgtTlBWQlBhWFZKQ2hRZHlUTmRvUlhOZTN2RHVGc2tnMWhMcnpFeW52YmNlaXVmVXfSAbMBQVVfeXFMT1AwajJodmhaQ09rX0hIX1p2cUtuTjA4WVhPLVdDNTE0SVlmeE00aWpRdVFqMXhObHZuMVNpbVRIOHJQLTlNZ1RXNTVpdS0tWkF5WW10UjhPbG5tc2ZOT2tTSWwxM1JrX3BTTUZ4eWZMWmM4cFpuakhVdWVYLUtxU0FIM05pc2xBVWw2RUhQWXVGblhLTjI3YjZoSG1wTVd1VEdMNHJUOW1IWEZEUnY4NTNrU00",
-      "category": "uncategorized",
+      "category": "opportunities",
       "originalCategory": "opportunities",
       "checkedAt": "2026-11-16T05:12:14.316Z",
-      "checks": {},
+      "checks": {
+        "callSignal": true,
+        "deadline": null,
+        "eligibility": false,
+        "rolling": false
+      },
       "missing": [
-        "categoria específica sem evidência suficiente"
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
+        "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -4634,10 +4675,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -4652,10 +4694,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -4664,12 +4707,18 @@
     {
       "id": "8d6c0243e7e648d34e451d9a2da973264b85df70b1e22037d417b642a57c5e09",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOOGI4cjhWTFk3ODVxNjhHT2NwLXZ4eTdxTXZYeDJpNzNSV3VnbjNIT3MtOHlvMWRNeHpxd3ZmdGF4RGhoMEVqN0pTdDVVM2VWb1pvOVB6SThjcXZSTThOcXU3SklKeTZSOUpqMjVKRGg4cUhCX25IRXVBOEl6YTJRMFhiZXJlMTRtaVhEMEVOTWViT3Q1UDRwNUdTbjRRbXpPWDM4ai1vQ3VVUmdj0gGyAUFVX3lxTE1tZHlyOU8ydUtXT3RjZHJNYTJpY1BDZGtxd3lqWVloTVhuSzFveS1UbTRTUHlOLTgtOUJUR2ZwLUkteHlmWlRtcmRHemhTdmFEbFNaVWRwRUloZ0ZfemwyMEZ1RDdDblRaeXFTWXdvVHVlS1Q4eEZZeU44UE1xazltZG1jQzlxWEZFY1hQR0Z2UFBhczZOWmhUZi1ubV9HU0dfdWlDVzRpYkFPdV9BanB3THc",
-      "category": "uncategorized",
+      "category": "opportunities",
       "originalCategory": "opportunities",
       "checkedAt": "2026-11-16T05:12:14.316Z",
-      "checks": {},
+      "checks": {
+        "callSignal": true,
+        "deadline": null,
+        "eligibility": false,
+        "rolling": false
+      },
       "missing": [
-        "categoria específica sem evidência suficiente"
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
+        "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -4683,10 +4732,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -4701,10 +4751,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -4719,10 +4770,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -4737,10 +4789,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -4749,12 +4802,18 @@
     {
       "id": "9624d6a9b25f95bc01990e1a1d430a3205b80002f26b5c773a398b71a29d4c94",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNSjh1RHpnVlJyZVZmQWt1UDFscmNhZXQzNGI4Z2ppZURDS3RzX1FHSk1nZHN5UXVuUTYzeUFuSkItVzc1ODRWSFBYR2FYSThubEg3ZG5USGYxWmt3NlloaTk5Z0FXX1dvbWdEaEFQSGltZWhJZjQxYnJtZ2NlNlZ4SE1oT0hpeF9nSVI4WmJiOEdDaDlpR3pGWE5xOXhqUGhBN1RwRkVPRmpOR0VITVJONA",
-      "category": "uncategorized",
+      "category": "opportunities",
       "originalCategory": "opportunities",
       "checkedAt": "2026-11-16T05:26:41.114Z",
-      "checks": {},
+      "checks": {
+        "callSignal": true,
+        "deadline": null,
+        "eligibility": false,
+        "rolling": false
+      },
       "missing": [
-        "categoria específica sem evidência suficiente"
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
+        "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -4782,10 +4841,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -4800,10 +4860,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -4818,10 +4879,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -4830,12 +4892,18 @@
     {
       "id": "a101ae990eb7018e55ca8e8d634397546477ce69d85c3eda1b35c9df4c15802a",
       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1Nc3JQbng2Q3JlTUdFOWNfRXFtVVQ0Y1NIbk9PSE81aXpXVjJsUThadGVxM2lCV1BUT2hFamVlMW1hXzR3S1dKVEZVMnZBcmJhR1NtaUU3RXI",
-      "category": "uncategorized",
+      "category": "opportunities",
       "originalCategory": "opportunities",
       "checkedAt": "2026-11-16T05:26:41.114Z",
-      "checks": {},
+      "checks": {
+        "callSignal": true,
+        "deadline": null,
+        "eligibility": false,
+        "rolling": false
+      },
       "missing": [
-        "categoria específica sem evidência suficiente"
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
+        "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -4849,10 +4917,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -4867,10 +4936,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -4885,10 +4955,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -4903,10 +4974,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -4921,10 +4993,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -4933,12 +5006,18 @@
     {
       "id": "abb021074df45679efd262f14e43a4a40b1c6b6cd1a809b8960b880d161d7c7a",
       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9wR0YwMWVhTTlQNXAwdWVrUFFjUl84TEhPTXZDc3l2MTdXaDFmWlNMSnk2eFFKOTdhaU9fUVUxTktxalFWWnFqRW9zLUl4WW9ONGxJNkplMWF0QXl4Yk9FZG5jbDU5QVl0NEIyZEUyaHpncHh5NUVQYldTdFc",
-      "category": "uncategorized",
+      "category": "opportunities",
       "originalCategory": "opportunities",
       "checkedAt": "2026-11-16T05:26:41.114Z",
-      "checks": {},
+      "checks": {
+        "callSignal": true,
+        "deadline": null,
+        "eligibility": false,
+        "rolling": false
+      },
       "missing": [
-        "categoria específica sem evidência suficiente"
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
+        "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -4952,10 +5031,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -4964,12 +5044,18 @@
     {
       "id": "af9e9544f0d744d51ed10fef64bca036970caa7ac4fd35cc9eabbb31a1c410f0",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOVWhQSVJRLTBCNjVrTnBOVlE2Vm45ZWpESVJkVGZWSVRkWllHbWVCNUVPVjJOUmFvR3ZUT2pxT0JCNjQ5MVgxcWxhNzFzZzd5bVdQVHdXdUFuR3RsYU0xRVNuMWxucm90S2ZPYkJTbC1oSnlGVjFfZk9POHNuOVJ2Q05iZTFxZkVmNlJtUDJZdVN5QVU2",
-      "category": "uncategorized",
+      "category": "opportunities",
       "originalCategory": "opportunities",
       "checkedAt": "2026-11-16T05:26:41.114Z",
-      "checks": {},
+      "checks": {
+        "callSignal": true,
+        "deadline": null,
+        "eligibility": false,
+        "rolling": false
+      },
       "missing": [
-        "categoria específica sem evidência suficiente"
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
+        "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -4983,10 +5069,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -5014,10 +5101,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -5032,10 +5120,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -5050,10 +5139,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -5068,10 +5158,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -5086,10 +5177,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -5104,10 +5196,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -5122,10 +5215,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -5140,10 +5234,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -5171,10 +5266,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -5189,10 +5285,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -5207,10 +5304,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -5239,10 +5337,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -5251,12 +5350,18 @@
     {
       "id": "de8f0c3271e8238d5b0a8992a2b0ef4d2bac3656967929f4f5f25b631c7b1976",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQdmdpN0ppV2dFeWFTbnFCdGxZWjdzVFJOOTNzTGotNGdROFAtdXFva01vbGNmX1Z2WHJtaUlHVE9US3VBaUM3WUN2TlYybmNBX1FfMWJmSGpkQXpWRHF2dHpON0gydHJ6TTZ6dVoxQ2dCN2FFWVJ3czZhVi12dG5XdmVHUmtrWS1jX0xWWnFRWVduczFQdzFDcTllYlFzeU91Q0Q5X0VGVkpxd2VZMU40a3hQNlFPa2VKaEE",
-      "category": "uncategorized",
+      "category": "opportunities",
       "originalCategory": "opportunities",
       "checkedAt": "2026-11-16T05:26:41.114Z",
-      "checks": {},
+      "checks": {
+        "callSignal": true,
+        "deadline": null,
+        "eligibility": false,
+        "rolling": false
+      },
       "missing": [
-        "categoria específica sem evidência suficiente"
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
+        "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -5270,10 +5375,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -5282,12 +5388,18 @@
     {
       "id": "e0848f577714c302d442b19007975336cf5b8ce420ec7973bbb113a949c72172",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQUXN5Sjk0RzBaZ2o2TXZJeTBrdlk0b1BWWG5tWTdMZ29id2tTb0ZBb0F0eXRqVlE5ZngyZGd0RlFNbWRLOTVvVldqVXBfM1g3bWp5cUxQMDJaSG5IMGZ3LVFTZC14enpwQkJkT1J6T1VkUk1QVXM2TzY5UVBkTmtJTTZIZkVoaWNHWlpIeVczV0xnbDdncUp6d055SzY4dw",
-      "category": "uncategorized",
+      "category": "opportunities",
       "originalCategory": "uncategorized",
       "checkedAt": "2026-11-16T05:26:41.114Z",
-      "checks": {},
+      "checks": {
+        "callSignal": true,
+        "deadline": null,
+        "eligibility": false,
+        "rolling": false
+      },
       "missing": [
-        "categoria específica sem evidência suficiente"
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
+        "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -5314,10 +5426,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -5358,10 +5471,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -5376,10 +5490,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -5394,10 +5509,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -5412,10 +5528,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -5424,12 +5541,18 @@
     {
       "id": "f4b93acbf69724d43f62396c1e44d7499e1a3a846620924362c4782bbad66cfd",
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNRzh3TW5sOFZ0Y3Q1eGo3c0VxSkwyYzFtZk5wQmlYdXNHbXJQQU5PV2R3Y25hLThmWUFKamk4dXFuUXRCX0FHczdEaUhHbWtXU1ZjZ29DOE1tTmFDUVBlTkVOSGJKY0xSTjE1Zk5xOFN3X21IaFBPUE1DaHdzdFlIOGttSVJjMzV6QmJF",
-      "category": "uncategorized",
+      "category": "opportunities",
       "originalCategory": "opportunities",
       "checkedAt": "2026-11-16T05:26:41.114Z",
-      "checks": {},
+      "checks": {
+        "callSignal": true,
+        "deadline": null,
+        "eligibility": false,
+        "rolling": false
+      },
       "missing": [
-        "categoria específica sem evidência suficiente"
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
+        "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -5443,10 +5566,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -5461,10 +5585,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -5486,12 +5611,18 @@
     {
       "id": "f902eb80aae1ae6eb8c99410976c54156ecdff5f266cdffe1c999329ef8c5026",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE43OXk1MWFZUUZPRVFUR1ZieTF5X0JFOU5ScEdHSG5Oa1o0Z3RXMURwRlM1ZmkwSHpRTkVpTTVnVkdrb3dHMXIyRkEyTjZlWTFvRUh6TDZB",
-      "category": "uncategorized",
+      "category": "opportunities",
       "originalCategory": "opportunities",
       "checkedAt": "2026-11-16T05:26:41.114Z",
-      "checks": {},
+      "checks": {
+        "callSignal": true,
+        "deadline": null,
+        "eligibility": false,
+        "rolling": false
+      },
       "missing": [
-        "categoria específica sem evidência suficiente"
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
+        "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -5505,10 +5636,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -5523,6 +5655,7 @@
       "checks": {
         "datasetSignal": false,
         "directResource": false,
+        "webAccess": false,
         "format": false,
         "coverage": false,
         "license": false,
@@ -5546,11 +5679,12 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": true
+        "eligibility": true,
+        "rolling": false
       },
       "missing": [
         "escopo jornalístico ausente no título e descrição da chamada",
-        "prazo futuro confirmado em formato de data reconhecido"
+        "prazo futuro ou fluxo contínuo confirmado na chamada"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -5564,10 +5698,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": true
+        "eligibility": true,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido"
+        "prazo futuro ou fluxo contínuo confirmado na chamada"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -5581,10 +5716,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -5599,10 +5735,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -5617,10 +5754,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": true
+        "eligibility": true,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido"
+        "prazo futuro ou fluxo contínuo confirmado na chamada"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -5634,11 +5772,12 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": true
+        "eligibility": true,
+        "rolling": false
       },
       "missing": [
         "escopo jornalístico ausente no título e descrição da chamada",
-        "prazo futuro confirmado em formato de data reconhecido"
+        "prazo futuro ou fluxo contínuo confirmado na chamada"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -5665,10 +5804,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -5709,10 +5849,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -5727,10 +5868,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": true
+        "eligibility": true,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido"
+        "prazo futuro ou fluxo contínuo confirmado na chamada"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -5757,10 +5899,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": true
+        "eligibility": true,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido"
+        "prazo futuro ou fluxo contínuo confirmado na chamada"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -5774,10 +5917,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -5792,10 +5936,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": true
+        "eligibility": true,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido"
+        "prazo futuro ou fluxo contínuo confirmado na chamada"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -5809,10 +5954,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -5827,10 +5973,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -5845,10 +5992,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -5863,10 +6011,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -5881,10 +6030,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -5893,12 +6043,18 @@
     {
       "id": "32969c226d3c09766722c030736472b7a44e898eff0a23ce35201dcf66100107",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNVlAwdEdnNHA4Xy1SUklEY2FVQm9FbV9IOUZtVVVNeV9FazFDeXR6NHZZR1VWalFrNUJQNElERmtDb2Y5SzZBanZsWUpDNHRjaGpVTlo5dzlzWm1tQnVKSE1TTzFUNmpHN2FQQkdmbWI4Z0NIZ2lzdWR0a3Y4OWJ2amZDZXhQVlJSbnRKRmRDZWxUX3JPNjViWnRrdG9PWm9SWXZwd1BlT0xvQQ",
-      "category": "uncategorized",
+      "category": "opportunities",
       "originalCategory": "uncategorized",
       "checkedAt": "2026-11-16T05:26:41.114Z",
-      "checks": {},
+      "checks": {
+        "callSignal": true,
+        "deadline": null,
+        "eligibility": false,
+        "rolling": false
+      },
       "missing": [
-        "categoria específica sem evidência suficiente"
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
+        "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -5912,10 +6068,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -5930,10 +6087,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -5948,10 +6106,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -5966,10 +6125,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -5980,14 +6140,15 @@
       "url": "https://grantsforjournalists.com/grant/fund-for-investigative-journalism",
       "category": "opportunities",
       "originalCategory": "opportunities",
-      "checkedAt": "2026-11-16T11:17:53.607Z",
+      "checkedAt": "2026-11-16T19:21:16.194Z",
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": true
+        "eligibility": true,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido"
+        "prazo futuro ou fluxo contínuo confirmado na chamada"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -5995,12 +6156,18 @@
     {
       "id": "87d12f3162e48d43b0f2c7ab0392ff1fd3ae0b1cbfa3fbf1c207f301b39af1c2",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxONVVoMzROYmxMU3htQjFjQTZLNmJrRGRYcXhOVjlkUHA1YmZMMy1UbHpuUk5tOWx1bnlZbzBWbVNzV0N3TUNub3V4XzFKZ3NhenNhSjdycGJZaDJac2V0aVJVSGtWcWlnNVNGM3lidjhZZk9ZRDBBOEM5TFFpUFNWdGRid3FIbTBLTW43dm54dFFIcUQzYUtCdlVEdFJjUVo30gGmAUFVX3lxTFB1Ul9zODMwbVJJRWZQMzU3WGIxMkh5TlRSSkVUTzZET3Y0c25IZGxvTTI4TzZwM0ZpT25KQ2lDb2Y0bk1PRUE0QTlJY0F6OGoxWF81YlNtN0J5dkdFMXhzelFCTHRjVUFuOENVRzNqS1V0R0l5Sks4cjEzZnlXQmFoYVlKVnpweUdGbXN4eno4NE0zaTNuN29pRHpOQmt6cWI0Vy1YMFE",
-      "category": "uncategorized",
+      "category": "opportunities",
       "originalCategory": "opportunities",
       "checkedAt": "2026-11-16T05:26:41.114Z",
-      "checks": {},
+      "checks": {
+        "callSignal": true,
+        "deadline": null,
+        "eligibility": false,
+        "rolling": false
+      },
       "missing": [
-        "categoria específica sem evidência suficiente"
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
+        "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -6014,10 +6181,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -6032,10 +6200,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -6050,10 +6219,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -6081,10 +6251,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -6099,10 +6270,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -6117,10 +6289,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -6135,10 +6308,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -6153,10 +6327,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -6171,10 +6346,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -6202,10 +6378,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -6220,10 +6397,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -6238,10 +6416,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -6256,10 +6435,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -6274,10 +6454,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -6292,10 +6473,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -6304,12 +6486,18 @@
     {
       "id": "beb0d7925546db5a3acaa02dc5b58b3c57a1af90da9b3972cf238b50e872f9f2",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQSmxpek9vTk9TSElDSTQwV1pqTlFZcDFCSjZqTU1Ma0ZpLTdRY2pyejNmSTJUNkxHb0FtMXY1ejV4MzVlN2lMbFU4cmFTcy1HckZaMmdaSllnOERuV0R1MTdqNkh0aEcxOExSQjdERWlGMzNYbWR6VzQzc3F4VTBCalViQy1LVjVBZ2JRM01zZ0NQaW1FbWRyeVFCb0VFd9IBowFBVV95cUxNbG9KeEdteF9rODBkLVBGWkNMQXpjUTJsQWxHdktGUS1oaWlZaFlzYzR3NEdyRmJzNjBUbGR0NS1BbG5aQWQtSk00SVBGeEJYR1FNaEZISzNOdlJoVHNleURfVFpNd1BualQ1ejZhb3BUT29jb0xsdXVubTRZQUo5dFdXNXJQOXktQ0dtV2JLa3R3QlREYlQ5clBCYWI1c2FpX0FN",
-      "category": "uncategorized",
+      "category": "opportunities",
       "originalCategory": "opportunities",
       "checkedAt": "2026-11-16T06:35:08.112Z",
-      "checks": {},
+      "checks": {
+        "callSignal": true,
+        "deadline": null,
+        "eligibility": false,
+        "rolling": false
+      },
       "missing": [
-        "categoria específica sem evidência suficiente"
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
+        "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -6337,10 +6525,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -6355,10 +6544,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -6373,10 +6563,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -6391,10 +6582,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -6422,10 +6614,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -6447,12 +6640,18 @@
     {
       "id": "c0b1b898e7359f6429f3d5e40927262c796a59e406c53a4d495c7cd2563372f5",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNdHhwXy1sa2NRbXRaNVNPM0wxODRnSUUxa0RCWEhKcGpwUFdDUG9xQ1JBVXctZG5MZmtSRVAzSFBtaTI4VlR4NWczLVVtWWJONWN5R1YyUEduU2V4cHFXaElLR0tGVVQ3SERpRTBobTVuNzJOTGdGT0V6N1YzczYzckdTNmVQZlFDMzhsQUhWcjhjZ0JEcGhtWkNFVWsyUV94QzdJ",
-      "category": "uncategorized",
+      "category": "opportunities",
       "originalCategory": "opportunities",
       "checkedAt": "2026-11-16T06:35:08.112Z",
-      "checks": {},
+      "checks": {
+        "callSignal": true,
+        "deadline": null,
+        "eligibility": false,
+        "rolling": false
+      },
       "missing": [
-        "categoria específica sem evidência suficiente"
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
+        "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -6479,10 +6678,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -6497,10 +6697,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -6606,10 +6807,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -9841,7 +10043,8 @@
       "checks": {
         "callSignal": true,
         "deadline": "2027-01-08",
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
         "elegibilidade expressa na fonte"
@@ -15242,7 +15445,8 @@
       "checks": {
         "callSignal": true,
         "deadline": "2027-01-08",
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
         "elegibilidade expressa na fonte"
@@ -15468,10 +15672,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -16759,10 +16964,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -17717,10 +17923,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -17775,6 +17982,7 @@
       "checks": {
         "datasetSignal": false,
         "directResource": false,
+        "webAccess": false,
         "format": false,
         "coverage": false,
         "license": false,
@@ -17827,6 +18035,7 @@
       "checks": {
         "datasetSignal": true,
         "directResource": true,
+        "webAccess": false,
         "format": true,
         "coverage": true,
         "license": false,
@@ -17930,6 +18139,7 @@
       "checks": {
         "datasetSignal": false,
         "directResource": false,
+        "webAccess": false,
         "format": false,
         "coverage": false,
         "license": false,
@@ -17954,6 +18164,7 @@
       "checks": {
         "datasetSignal": true,
         "directResource": true,
+        "webAccess": false,
         "format": true,
         "coverage": true,
         "license": false,
@@ -18097,6 +18308,7 @@
       "checks": {
         "datasetSignal": true,
         "directResource": true,
+        "webAccess": false,
         "format": true,
         "coverage": true,
         "license": false,
@@ -18117,6 +18329,7 @@
       "checks": {
         "datasetSignal": true,
         "directResource": true,
+        "webAccess": false,
         "format": true,
         "coverage": true,
         "license": false,
@@ -18163,6 +18376,7 @@
       "checks": {
         "datasetSignal": false,
         "directResource": false,
+        "webAccess": false,
         "format": false,
         "coverage": false,
         "license": false,
@@ -18200,6 +18414,7 @@
       "checks": {
         "datasetSignal": false,
         "directResource": false,
+        "webAccess": false,
         "format": false,
         "coverage": false,
         "license": false,
@@ -18224,6 +18439,7 @@
       "checks": {
         "datasetSignal": true,
         "directResource": true,
+        "webAccess": false,
         "format": true,
         "coverage": true,
         "license": false,
@@ -18258,6 +18474,7 @@
       "checks": {
         "datasetSignal": false,
         "directResource": false,
+        "webAccess": false,
         "format": false,
         "coverage": false,
         "license": false,
@@ -18404,6 +18621,7 @@
       "checks": {
         "datasetSignal": false,
         "directResource": false,
+        "webAccess": false,
         "format": false,
         "coverage": false,
         "license": false,
@@ -18442,6 +18660,7 @@
       "checks": {
         "datasetSignal": false,
         "directResource": false,
+        "webAccess": false,
         "format": false,
         "coverage": false,
         "license": false,
@@ -18535,6 +18754,7 @@
       "checks": {
         "datasetSignal": true,
         "directResource": true,
+        "webAccess": false,
         "format": true,
         "coverage": true,
         "license": false,
@@ -18624,6 +18844,7 @@
       "checks": {
         "datasetSignal": false,
         "directResource": false,
+        "webAccess": false,
         "format": false,
         "coverage": false,
         "license": false,
@@ -18672,7 +18893,7 @@
       "url": "https://philipotoole.com/twelve-years-of-distributed-sqlite",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -18685,10 +18906,9 @@
       "url": "https://substack.com/redirect/5c67eb1f-f095-44f6-b3ca-138fac922679",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
-        "página primária acessível com conteúdo compatível",
         "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
@@ -18699,10 +18919,9 @@
       "url": "https://agenciatatu.substack.com/p/avanco-de-lula-idade-da-pedra-enem",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
-        "página primária acessível com conteúdo compatível",
         "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
@@ -18713,10 +18932,9 @@
       "url": "https://substack.com/redirect/a8b2c7ff-c357-49cf-941c-2db8454d54e5",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
-        "página primária acessível com conteúdo compatível",
         "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
@@ -18727,10 +18945,9 @@
       "url": "https://substack.com/redirect/448a67a4-9a66-4bd6-8656-3ba734144ee0",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
-        "página primária acessível com conteúdo compatível",
         "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
@@ -18745,6 +18962,7 @@
       "checks": {
         "datasetSignal": false,
         "directResource": false,
+        "webAccess": false,
         "format": false,
         "coverage": false,
         "license": false,
@@ -18765,7 +18983,7 @@
       "url": "https://github.com/puntofisso/QuantumOfSollazzo-CodeSamples",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -18782,6 +19000,7 @@
       "checks": {
         "datasetSignal": true,
         "directResource": true,
+        "webAccess": false,
         "format": true,
         "coverage": true,
         "license": false,
@@ -18798,7 +19017,7 @@
       "url": "https://mikesbalance.com/lie-to-me-world-happiness-report",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -18815,6 +19034,7 @@
       "checks": {
         "datasetSignal": true,
         "directResource": true,
+        "webAccess": false,
         "format": true,
         "coverage": true,
         "license": false,
@@ -18831,7 +19051,7 @@
       "url": "https://email.datawrapper.de/link/c/YT0zMTM5NTAxMzE1MzYxNjA1NDUyJmM9bTFrOCZlPTE5MjgmYj0xNTgwMzUxNzA1JmQ9aTF2NXkyaw==.Lf_xt9gzh2Xv0DJLT1qxu-cfUDdbu_W-VVqJiFSa3gQ",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -18848,6 +19068,7 @@
       "checks": {
         "datasetSignal": true,
         "directResource": true,
+        "webAccess": false,
         "format": true,
         "coverage": true,
         "license": false,
@@ -18868,6 +19089,7 @@
       "checks": {
         "datasetSignal": false,
         "directResource": false,
+        "webAccess": false,
         "format": false,
         "coverage": false,
         "license": false,
@@ -18888,10 +19110,9 @@
       "url": "https://www.nytimes.com/2026/11/09/us/politics/trump-election-fraud-rigging-midterms.html",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
-        "página primária acessível com conteúdo compatível",
         "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
@@ -18902,10 +19123,9 @@
       "url": "https://substack.com/redirect/b361a354-6210-4895-ad47-b8d05b3823c6",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
-        "página primária acessível com conteúdo compatível",
         "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
@@ -18916,7 +19136,7 @@
       "url": "https://mofu-dev.com/en/blog/fluid-foundation",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -18933,6 +19153,7 @@
       "checks": {
         "datasetSignal": true,
         "directResource": true,
+        "webAccess": false,
         "format": true,
         "coverage": true,
         "license": false,
@@ -18949,7 +19170,7 @@
       "url": "https://neal.fun/about",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -18967,6 +19188,7 @@
       "checks": {
         "datasetSignal": false,
         "directResource": false,
+        "webAccess": false,
         "format": false,
         "coverage": false,
         "license": false,
@@ -18987,10 +19209,9 @@
       "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9icmFzaXMuYWpvci5vcmcuYnIvYWN0aW9uL2Rpc2FibGVfZW1haWw_dG9rZW49ZXlKMWMyVnlYMmxrSWpveE16VXlNak14TENKd2IzTjBYMmxrSWpveU1qUXlNekExTXpVc0ltbGhkQ0k2TVRjNU5ETXdOelUxTnl3aVpYaHdJam94T0RJMU9EUXpOVFUzTENKcGMzTWlPaUp3ZFdJdE1UQTBOekEzTUNJc0luTjFZaUk2SW1ScGMyRmliR1ZmWlcxaGFXd2lmUS5hU0xENHlsQkU1aGlyQjNoOUZfbC1UZ003RXJXU0hRbUE5RGRWU3VodUw4IiwicCI6MjI0MjMwNTM1LCJzIjoxMDQ3MDcwLCJmIjp0cnVlLCJ1IjoxMzUyMjMxLCJpYXQiOjE3OTQzMDc1NTcsImV4cCI6MjEwOTg4MzU1NywiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.VohfAwbc1uHd5LlD6wZx67gc-kKUDzYlPBd1czebEcQ",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
-        "página primária acessível com conteúdo compatível",
         "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
@@ -19001,10 +19222,9 @@
       "url": "https://substack.com/redirect/23b81399-a876-43c2-9f70-8d06fa6596cb",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
-        "página primária acessível com conteúdo compatível",
         "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
@@ -19019,6 +19239,7 @@
       "checks": {
         "datasetSignal": false,
         "directResource": false,
+        "webAccess": false,
         "format": false,
         "coverage": false,
         "license": false,
@@ -19039,7 +19260,7 @@
       "url": "https://x.com/Alyssafarah/status/2119762001379336376",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -19056,6 +19277,7 @@
       "checks": {
         "datasetSignal": true,
         "directResource": true,
+        "webAccess": false,
         "format": true,
         "coverage": true,
         "license": false,
@@ -19072,10 +19294,9 @@
       "url": "https://substack.com/redirect/5c302680-1698-42d5-ac3f-5e6239896ee9",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
-        "página primária acessível com conteúdo compatível",
         "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
@@ -19086,10 +19307,9 @@
       "url": "https://substack.com/redirect/5a37be98-a1c2-417b-be1e-260d4b82d517",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
-        "página primária acessível com conteúdo compatível",
         "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
@@ -19100,7 +19320,7 @@
       "url": "https://data.stackexchange.com/stackoverflow/query/1926661",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -19114,7 +19334,7 @@
       "url": "https://www.americansentiment.com/datacenters",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -19127,7 +19347,7 @@
       "url": "https://assets.buttondown.email/images/7b73a844-2d04-46e9-bf0b-071d90174b1a.png",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -19141,10 +19361,9 @@
       "url": "https://substack.com/redirect/3d975f45-153e-43f2-b165-f6aa3e214ad8",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
-        "página primária acessível com conteúdo compatível",
         "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
@@ -19155,10 +19374,9 @@
       "url": "https://substack.com/redirect/a075a0cd-426f-4eea-aaa0-c26df1c25533",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
-        "página primária acessível com conteúdo compatível",
         "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
@@ -19169,7 +19387,7 @@
       "url": "https://walkably.org/",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -19183,10 +19401,9 @@
       "url": "https://substack.com/redirect/fd37e74b-30d1-44dd-88fd-403bf0f0ea8f",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
-        "página primária acessível com conteúdo compatível",
         "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
@@ -19197,7 +19414,7 @@
       "url": "https://aiambitiongap.bytes.co.uk/",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -19210,10 +19427,9 @@
       "url": "https://substack.com/redirect/546b4a84-67e0-4117-aea8-22f44eb827b4",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
-        "página primária acessível com conteúdo compatível",
         "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
@@ -19224,7 +19440,7 @@
       "url": "https://assets.buttondown.email/images/5f1096e0-289e-4b23-9a46-ec70b67ac146.png",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -19238,7 +19454,7 @@
       "url": "https://assets.buttondown.email/images/812e595c-25ff-4dc5-b81f-da1c7fc3f1d1.png",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -19252,7 +19468,7 @@
       "url": "https://substack.com/redirect/2d388850-c483-49e3-b18f-732c2e339ee6",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -19266,7 +19482,7 @@
       "url": "https://assets.buttondown.email/images/849d3b6c-ff30-4962-9ea5-861f79514c4d.png",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -19280,7 +19496,7 @@
       "url": "https://assets.buttondown.email/images/17254dff-8341-4eaf-9b49-d323a000fa22.png",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -19294,10 +19510,9 @@
       "url": "https://lupanewsletter.substack.com/p/exercito-do-lula-contra-as-bets",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
-        "página primária acessível com conteúdo compatível",
         "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
@@ -19308,7 +19523,7 @@
       "url": "https://assets.buttondown.email/images/964626f2-55a5-47fe-89a5-569dc4c2b694.png",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -19322,10 +19537,9 @@
       "url": "https://substack.com/redirect/76dc47c1-66fe-458d-a740-2d0202994831",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
-        "página primária acessível com conteúdo compatível",
         "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
@@ -19336,7 +19550,7 @@
       "url": "https://flowingdata.com/2026/10/30/worst-halloween-candies-according-to-the-data",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -19350,7 +19564,7 @@
       "url": "https://assets.buttondown.email/images/4ee5f199-074f-4ef2-97c1-26b4773fb908.png",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -19364,10 +19578,9 @@
       "url": "https://substack.com/redirect/f7c948a1-df26-4d32-8601-66c588d2fba4",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
-        "página primária acessível com conteúdo compatível",
         "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
@@ -19378,7 +19591,7 @@
       "url": "https://x.com/JoeBiden/status/2119566187986120705",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -19391,7 +19604,7 @@
       "url": "https://www.poynter.org/reporting-editing/2026/west-virginia-local-journalism-ethics-accountability-dan-parks",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -19404,7 +19617,7 @@
       "url": "https://www.reddit.com/r/dataisbeautiful/comments/1xmt445/oc_city_blocks_colored_by_the_number_of_their",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -19422,6 +19635,7 @@
       "checks": {
         "datasetSignal": true,
         "directResource": true,
+        "webAccess": false,
         "format": true,
         "coverage": true,
         "license": false,
@@ -19438,10 +19652,9 @@
       "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9sdXBhbmV3c2xldHRlci5zdWJzdGFjay5jb20vYWN0aW9uL2Rpc2FibGVfZW1haWw_dG9rZW49ZXlKMWMyVnlYMmxrSWpveE16VXlNak14TENKd2IzTjBYMmxrSWpveU1qTTBOekl6TWpnc0ltbGhkQ0k2TVRjNU16Z3dNVFl5T0N3aVpYaHdJam94T0RJMU16TTNOakk0TENKcGMzTWlPaUp3ZFdJdE1qZ3lORFk1TlNJc0luTjFZaUk2SW1ScGMyRmliR1ZmWlcxaGFXd2lmUS5lYTZCUS1HcW5nTlFoYzVzUVV4ak9nZnAxcGlxODMwd2tWSk9zR1NkbG5VIiwicCI6MjIzNDcyMzI4LCJzIjoyODI0Njk1LCJmIjp0cnVlLCJ1IjoxMzUyMjMxLCJpYXQiOjE3OTM4MDE2MjgsImV4cCI6MjEwOTM3NzYyOCwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.Tz69aTs9WG624wMVfJgf-KuflcKELOPdwXbt8eLpxwU",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
-        "página primária acessível com conteúdo compatível",
         "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
@@ -19452,10 +19665,9 @@
       "url": "https://substack.com/redirect/b6e3170e-e93b-4699-a6f8-42b276ad7fce",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
-        "página primária acessível com conteúdo compatível",
         "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
@@ -19470,6 +19682,7 @@
       "checks": {
         "datasetSignal": true,
         "directResource": true,
+        "webAccess": false,
         "format": true,
         "coverage": true,
         "license": false,
@@ -19490,6 +19703,7 @@
       "checks": {
         "datasetSignal": false,
         "directResource": false,
+        "webAccess": false,
         "format": false,
         "coverage": false,
         "license": false,
@@ -19510,10 +19724,9 @@
       "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9hZ2VuY2lhdGF0dS5zdWJzdGFjay5jb20vYWN0aW9uL2Rpc2FibGVfZW1haWw_dG9rZW49ZXlKMWMyVnlYMmxrSWpveE16VXlNak14TENKd2IzTjBYMmxrSWpveU1qUXpNREE1TURZc0ltbGhkQ0k2TVRjNU5ETXhOelV4TVN3aVpYaHdJam94T0RJMU9EVXpOVEV4TENKcGMzTWlPaUp3ZFdJdE1qQXdNekkyTXlJc0luTjFZaUk2SW1ScGMyRmliR1ZmWlcxaGFXd2lmUS45c25WaWRBTV8zaWE2WGhma09RckFmQ1ZMRi1DMXFpd19sWUJTajVkdzE0IiwicCI6MjI0MzAwOTA2LCJzIjoyMDAzMjYzLCJmIjp0cnVlLCJ1IjoxMzUyMjMxLCJpYXQiOjE3OTQzMTc1MTEsImV4cCI6MjEwOTg5MzUxMSwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.t8olyrCUqvxmgU91kRxCQt0gOaNjxH2J-I5p7BMdL40",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
-        "página primária acessível com conteúdo compatível",
         "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
@@ -19524,7 +19737,7 @@
       "url": "https://assets.buttondown.email/images/b371511e-0063-43c0-b963-133e5340ede3.png",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -19538,7 +19751,7 @@
       "url": "https://assets.buttondown.email/images/62c58537-1c2b-4073-b703-a8cc5641406c.png",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -19556,6 +19769,7 @@
       "checks": {
         "datasetSignal": false,
         "directResource": false,
+        "webAccess": false,
         "format": false,
         "coverage": false,
         "license": false,
@@ -19576,10 +19790,9 @@
       "url": "https://substack.com/redirect/c21ac878-ce61-4a89-a7c8-edc0c41f5dc7",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
-        "página primária acessível com conteúdo compatível",
         "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
@@ -19594,6 +19807,7 @@
       "checks": {
         "datasetSignal": false,
         "directResource": false,
+        "webAccess": false,
         "format": false,
         "coverage": false,
         "license": false,
@@ -19614,10 +19828,9 @@
       "url": "https://substack.com/redirect/27ef28aa-c467-41a4-9e91-a281ddb64d1e",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
-        "página primária acessível com conteúdo compatível",
         "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
@@ -19632,6 +19845,7 @@
       "checks": {
         "datasetSignal": true,
         "directResource": true,
+        "webAccess": false,
         "format": true,
         "coverage": true,
         "license": false,
@@ -19648,10 +19862,9 @@
       "url": "https://substack.com/redirect/2bc8d8be-f2b5-471a-9001-4a574088c577",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
-        "página primária acessível com conteúdo compatível",
         "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
@@ -19662,10 +19875,9 @@
       "url": "https://substack.com/redirect/d68e6ea2-77f6-4d83-a511-6ad3aa9799f2",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
-        "página primária acessível com conteúdo compatível",
         "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
@@ -19676,10 +19888,9 @@
       "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9sdXBhbmV3c2xldHRlci5zdWJzdGFjay5jb20vYWN0aW9uL2Rpc2FibGVfZW1haWw_dG9rZW49ZXlKMWMyVnlYMmxrSWpveE16VXlNak14TENKd2IzTjBYMmxrSWpveU1qUXpNRGd3T1RBc0ltbGhkQ0k2TVRjNU5ETXlNREUxTkN3aVpYaHdJam94T0RJMU9EVTJNVFUwTENKcGMzTWlPaUp3ZFdJdE1qZ3lORFk1TlNJc0luTjFZaUk2SW1ScGMyRmliR1ZmWlcxaGFXd2lmUS5PWGE0bHd6SDFqaWZybHJhZnBQSThuQ29RTmtDNUNpTmN3Z0FMeGVWRXJvIiwicCI6MjI0MzA4MDkwLCJzIjoyODI0Njk1LCJmIjp0cnVlLCJ1IjoxMzUyMjMxLCJpYXQiOjE3OTQzMjAxNTQsImV4cCI6MjEwOTg5NjE1NCwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.JQsfuoGEYB_kqp4d4cAu77Om-_5rkuItV85OGA96y-M",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
-        "página primária acessível com conteúdo compatível",
         "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
@@ -19690,7 +19901,7 @@
       "url": "https://www.theatlantic.com/politics/2026/11/biden-trump-democracy-elections/689343",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -19708,6 +19919,7 @@
       "checks": {
         "datasetSignal": true,
         "directResource": true,
+        "webAccess": false,
         "format": true,
         "coverage": true,
         "license": false,
@@ -19724,10 +19936,9 @@
       "url": "https://substack.com/redirect/d6a3ad5a-194f-41fc-ac48-72e497e837f3",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
-        "página primária acessível com conteúdo compatível",
         "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
@@ -19738,7 +19949,7 @@
       "url": "https://yassa9.github.io/osint/gralhix-004",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -19751,7 +19962,7 @@
       "url": "https://assets.buttondown.email/images/5a123374-2ab2-4fd4-bcf8-5c291065edbc.png",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -19765,10 +19976,9 @@
       "url": "https://substack.com/redirect/6e31ab8a-6f5d-4bf8-848b-8e588b9e1c1b",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
-        "página primária acessível com conteúdo compatível",
         "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
@@ -19779,10 +19989,9 @@
       "url": "https://substack.com/redirect/84ebf2c5-e3f1-4253-b49b-811a9c0d4ad8",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
-        "página primária acessível com conteúdo compatível",
         "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
@@ -19797,6 +20006,7 @@
       "checks": {
         "datasetSignal": false,
         "directResource": false,
+        "webAccess": false,
         "format": false,
         "coverage": false,
         "license": false,
@@ -19817,7 +20027,7 @@
       "url": "https://assets.buttondown.email/images/0418feaa-2407-438e-96f2-8407f0793991.png",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -19831,7 +20041,7 @@
       "url": "https://lnkd.in/p/eNEmGTYF",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -19844,7 +20054,7 @@
       "url": "https://yesterpedia.puntofisso.net/",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -19857,10 +20067,9 @@
       "url": "https://substack.com/redirect/89244c7d-d335-46a7-91be-2cb30fcf8287",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
-        "página primária acessível com conteúdo compatível",
         "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
@@ -19871,10 +20080,9 @@
       "url": "https://substack.com/redirect/01ad6868-cd96-480f-bec2-cf86df027c35",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
-        "página primária acessível com conteúdo compatível",
         "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
@@ -19885,7 +20093,7 @@
       "url": "https://substack.com/redirect/bcd63c07-c56e-4330-b5d4-9029c10c8738",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -19899,7 +20107,7 @@
       "url": "https://assets.buttondown.email/images/b0c7f409-5b1e-4342-b6cf-eb8bfb9b3d74.png](https://assets.buttondown.email/images/b0c7f409-5b1e-4342-b6cf-eb8bfb9b3d74.png",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -19913,7 +20121,7 @@
       "url": "https://mailchi.mp/poynter/surprise-surprise-president-trump-suggests-the-midterms-were-rigged",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -19926,7 +20134,7 @@
       "url": "https://nicholas.carlini.com/writing/2026/algorithmic-improvements-chess.html",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -19939,7 +20147,7 @@
       "url": "https://martinalderson.com/posts/how-the-ai-boom-might-really-end",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -19956,6 +20164,7 @@
       "checks": {
         "datasetSignal": true,
         "directResource": true,
+        "webAccess": false,
         "format": true,
         "coverage": true,
         "license": false,
@@ -19972,7 +20181,7 @@
       "url": "https://www.politico.com/news/2026/11/09/donald-trump-midterms-results",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -19990,6 +20199,7 @@
       "checks": {
         "datasetSignal": true,
         "directResource": true,
+        "webAccess": false,
         "format": true,
         "coverage": true,
         "license": false,
@@ -20006,10 +20216,9 @@
       "url": "https://substack.com/redirect/1108d7f4-c8f2-4088-9498-f1fdba12010d",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
-        "página primária acessível com conteúdo compatível",
         "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
@@ -20020,10 +20229,9 @@
       "url": "https://substack.com/redirect/c1b08dbd-e9f5-466e-aa8b-80b6020d9785",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
-        "página primária acessível com conteúdo compatível",
         "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
@@ -20034,7 +20242,7 @@
       "url": "https://assets.buttondown.email/images/95f5f9a4-e4c1-466a-835e-9ed7fa7602c4.png",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -20048,10 +20256,9 @@
       "url": "https://substack.com/redirect/f7844a9d-1124-4032-a30c-fe7433e0efb1",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
-        "página primária acessível com conteúdo compatível",
         "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
@@ -20062,10 +20269,9 @@
       "url": "https://substack.com/redirect/85056698-dd3c-4205-bb92-d47b90f8b02d",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
-        "página primária acessível com conteúdo compatível",
         "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
@@ -20076,10 +20282,9 @@
       "url": "https://substack.com/redirect/8e0913ec-430f-4d31-8131-dbbb2adb0ee0",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
-        "página primária acessível com conteúdo compatível",
         "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
@@ -20094,6 +20299,7 @@
       "checks": {
         "datasetSignal": true,
         "directResource": true,
+        "webAccess": false,
         "format": true,
         "coverage": true,
         "license": false,
@@ -20110,10 +20316,9 @@
       "url": "https://substack.com/redirect/dfb3b6df-3900-4d75-a8f1-204efd0b0594",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
-        "página primária acessível com conteúdo compatível",
         "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
@@ -20124,7 +20329,7 @@
       "url": "https://truthsocial.com/@realDonaldTrump/posts/117587105833579030",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -20138,10 +20343,9 @@
       "url": "https://substack.com/redirect/8153129a-0425-4e50-8a76-fdf47d9f4186",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
-        "página primária acessível com conteúdo compatível",
         "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
@@ -20152,7 +20356,7 @@
       "url": "https://substack.com/redirect/c37b81e5-6503-48ad-8699-ab1e3f1c808f",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -20166,7 +20370,7 @@
       "url": "https://x.com/ChrisCillizza/status/2119759645648568391",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -20179,7 +20383,7 @@
       "url": "https://www.bellingcat.com/resources/2026/10/22/can-llms-supercharge-geolocations-our-tests-show-big-improvements-but-humans-remain-key",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -20192,7 +20396,7 @@
       "url": "https://www.wsj.com/politics/elections/stephen-miller-trump-chief-of-staff-56917f0a",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -20206,7 +20410,7 @@
       "url": "https://europeancorrespondent.com/en/r/trains-are-still-safe",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -20219,7 +20423,7 @@
       "url": "https://bookshop.org/p/books/promise-me-america-joe-biden/dd9b9c45f973c8b6",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -20233,7 +20437,7 @@
       "url": "https://usafacts.org/articles/how-to-know-a-red-or-blue-wave-when-you-see-one",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -20246,10 +20450,9 @@
       "url": "https://substack.com/redirect/c17ea183-2dd3-4936-ae90-c4e53a49dc9f",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
-        "página primária acessível com conteúdo compatível",
         "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
@@ -20260,10 +20463,9 @@
       "url": "https://knowwhereconsulting.co.uk/blog/one-hundred-famous-views-of-edo",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
-        "página primária acessível com conteúdo compatível",
         "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
@@ -20274,7 +20476,7 @@
       "url": "https://www.semafor.com/article/11/08/2026/anti-waymo-campaign-relied-on-op-eds-written-with-ai",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -20287,7 +20489,7 @@
       "url": "https://www.axios.com/2026/11/03/republican-campaign-ads-trump-midterms",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -20301,7 +20503,7 @@
       "url": "https://github.com/nodal-data/nodal-context",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -20318,6 +20520,7 @@
       "checks": {
         "datasetSignal": true,
         "directResource": true,
+        "webAccess": false,
         "format": true,
         "coverage": true,
         "license": false,
@@ -20334,10 +20537,9 @@
       "url": "https://substack.com/redirect/b3cfc01f-f496-4039-bb5a-26dee96d60e9",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
-        "página primária acessível com conteúdo compatível",
         "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
@@ -20348,10 +20550,9 @@
       "url": "https://substack.com/redirect/8a197a46-3b51-4f2e-aa32-664179e2ffc0",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
-        "página primária acessível com conteúdo compatível",
         "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
@@ -20362,7 +20563,7 @@
       "url": "https://x.com/megynkelly/status/2119819056916070904",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -20375,7 +20576,7 @@
       "url": "https://substack.com/redirect/c8a1a3e0-23af-46c0-aff4-40777c967223",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -20389,7 +20590,7 @@
       "url": "https://substack.com/redirect/50525f35-0525-48f1-ac8e-b1ebbd77e850",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -20403,7 +20604,7 @@
       "url": "https://assets.buttondown.email/images/457764f2-5a0e-4bf3-9cec-28373a62e70f.png",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -20417,7 +20618,7 @@
       "url": "https://substack.com/redirect/a61c7416-b079-4302-87a9-c09251242bcc",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -20431,7 +20632,7 @@
       "url": "https://substack.com/redirect/e9bbbf34-f2b3-4879-b9ab-7a32bfef5547",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -20445,7 +20646,7 @@
       "url": "https://substack.com/redirect/24cdbb4c-97ae-4825-832a-9f88c21989e6",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -20459,7 +20660,7 @@
       "url": "https://email.datawrapper.de/link/c/YT0zMTM5NTAxMzE1MzYxNjA1NDUyJmM9bTFrOCZlPTE5MjgmYj0xNTgwMzUxNzAyJmQ9ZzhhNm80cQ==.qg12TWcGFDwfKoHNuZ8tGrsLaDq1-IG-hSwjVL8ECV8",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -20472,7 +20673,7 @@
       "url": "https://substack.com/redirect/1766ecd5-11f2-47bd-b8c5-4cc531a9edfd",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -20486,7 +20687,7 @@
       "url": "https://lupanewsletter.substack.com/p/o-sus-e-a-doutrinacao-do-enem",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -20500,7 +20701,7 @@
       "url": "https://assets.buttondown.email/images/0185f0af-cb75-4ee7-8c57-b186dc3cedf4.png",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -20514,7 +20715,7 @@
       "url": "https://substack.com/redirect/67f567e6-87df-449d-80cc-d907c90e6be5",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -20528,7 +20729,7 @@
       "url": "https://substack.com/redirect/189e2247-00a7-40fc-9cea-140bfc60dabb",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -20542,7 +20743,7 @@
       "url": "https://assets.buttondown.email/images/4365dab5-6767-4c6b-92ef-58528d354264.png",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -20556,7 +20757,7 @@
       "url": "https://substack.com/redirect/8a7cc298-0b86-494a-a6de-8e04889b7831",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -20570,7 +20771,7 @@
       "url": "https://substack.com/redirect/694a6856-e377-4171-94ef-0df4d5efc756",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -20584,7 +20785,7 @@
       "url": "https://www.theatlantic.com/politics/2026/11/stephen-miller-susie-wiles-white-house/689331",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -20598,7 +20799,7 @@
       "url": "https://lnkd.in/p/ekbHfhmm",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -20611,7 +20812,7 @@
       "url": "https://substack.com/redirect/1ea2906f-3980-4a0f-9bf8-c4bd23430547",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -20629,6 +20830,7 @@
       "checks": {
         "datasetSignal": true,
         "directResource": true,
+        "webAccess": false,
         "format": true,
         "coverage": true,
         "license": false,
@@ -20645,10 +20847,11 @@
       "url": "https://www.gbif.org/dataset/6b6b2923-0a10-4708-b170-5b7c611aceef",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-16T16:58:49.653Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {
         "datasetSignal": false,
         "directResource": false,
+        "webAccess": false,
         "format": false,
         "coverage": false,
         "license": false,
@@ -20669,7 +20872,7 @@
       "url": "https://assets.buttondown.email/images/a5d2dae5-c03b-4a50-a40c-4c857d5d54fa.png",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -20683,7 +20886,7 @@
       "url": "https://assets.buttondown.email/images/32f36b3f-9289-4839-9a20-b00480faa121.png",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -20697,10 +20900,11 @@
       "url": "https://www.gbif.org/dataset/bae5856f-da10-4333-90a0-5a2135361b30",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-16T16:58:49.653Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {
         "datasetSignal": false,
         "directResource": false,
+        "webAccess": false,
         "format": false,
         "coverage": false,
         "license": false,
@@ -20721,7 +20925,7 @@
       "url": "https://poynterfoundation.fundjournalism.org/eoy2026",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -20735,7 +20939,7 @@
       "url": "https://apnews.com/article/dc-studios-james-gunn-skydance-9e9885f9ee047a1289153c68eb395a0d",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -20749,7 +20953,7 @@
       "url": "https://substack.com/redirect/7043488b-5cca-4ce9-8172-2f505ecbab60",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -20763,10 +20967,11 @@
       "url": "https://www.gbif.org/dataset/2d59e5db-57ad-41ff-97d6-11f5fb264527",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-16T16:58:49.653Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {
         "datasetSignal": false,
         "directResource": false,
+        "webAccess": false,
         "format": false,
         "coverage": false,
         "license": false,
@@ -20791,6 +20996,7 @@
       "checks": {
         "datasetSignal": true,
         "directResource": true,
+        "webAccess": false,
         "format": true,
         "coverage": true,
         "license": false,
@@ -20807,10 +21013,11 @@
       "url": "https://www.gbif.org/dataset/046bbc50-cae2-47ff-aa43-729fbf53f7c5",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-16T16:58:49.653Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {
         "datasetSignal": false,
         "directResource": false,
+        "webAccess": false,
         "format": false,
         "coverage": false,
         "license": false,
@@ -20831,7 +21038,7 @@
       "url": "https://go.dev/blog/jsonv2",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -20844,7 +21051,7 @@
       "url": "https://substack.com/redirect/3fe7f0bb-f452-4f45-9425-d8819b0eaa0d",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -20858,7 +21065,7 @@
       "url": "https://x.com/Alyssafarah/status/2119812590616346630",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -20871,7 +21078,7 @@
       "url": "https://allenai.org/blog/novelty-bench",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -20884,7 +21091,7 @@
       "url": "https://assets.buttondown.email/images/84fbb000-cb4c-4737-8913-257a6f4d7733.png",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -20898,7 +21105,7 @@
       "url": "https://github.com/GetCassis/analytics-agent-articles",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -20911,7 +21118,7 @@
       "url": "https://x.com/brithume/status/2119623133464535277",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -20924,7 +21131,7 @@
       "url": "https://substack.com/redirect/e3b361a9-ccbd-491c-b9d3-05fe019a7896",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -20938,7 +21145,7 @@
       "url": "https://substack.com/redirect/2a4881ad-2c69-45a6-9e48-56474abe491d",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -20952,7 +21159,7 @@
       "url": "https://puntofisso.net/apps/mirrored-bar-chart.html",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -20965,7 +21172,7 @@
       "url": "https://substack.com/redirect/4d319e0e-d011-4f65-be00-0f973ab2b268",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:14:10.246Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -20979,7 +21186,7 @@
       "url": "https://substack.com/redirect/2251ec1a-2e02-47f6-9ed7-6c4ee441345e",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:19:16.265Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -20997,6 +21204,7 @@
       "checks": {
         "datasetSignal": false,
         "directResource": false,
+        "webAccess": false,
         "format": false,
         "coverage": false,
         "license": false,
@@ -21021,6 +21229,7 @@
       "checks": {
         "datasetSignal": true,
         "directResource": true,
+        "webAccess": false,
         "format": true,
         "coverage": true,
         "license": false,
@@ -21037,7 +21246,7 @@
       "url": "https://substack.com/redirect/2ca39702-eaf7-45b4-ae99-50a8f53740ff",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:19:16.265Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -21051,7 +21260,7 @@
       "url": "https://cartographers-nk.wonyoung.so/",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:19:16.265Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -21064,7 +21273,7 @@
       "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9sdXBhbmV3c2xldHRlci5zdWJzdGFjay5jb20vYWN0aW9uL2Rpc2FibGVfZW1haWw_dG9rZW49ZXlKMWMyVnlYMmxrSWpveE16VXlNak14TENKd2IzTjBYMmxrSWpveU1qSXpNemsyTmpjc0ltbGhkQ0k2TVRjNU16RXhNRE0zT1N3aVpYaHdJam94T0RJME5qUTJNemM1TENKcGMzTWlPaUp3ZFdJdE1qZ3lORFk1TlNJc0luTjFZaUk2SW1ScGMyRmliR1ZmWlcxaGFXd2lmUS5JR3pLVS1BV1ZZLTN1aWRIUThZenRwaV83THVyQ2tVaFQycUJqSGJ3cnRjIiwicCI6MjIyMzM5NjY3LCJzIjoyODI0Njk1LCJmIjp0cnVlLCJ1IjoxMzUyMjMxLCJpYXQiOjE3OTMxMTAzNzksImV4cCI6MjEwODY4NjM3OSwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.IPJN_eHaet2Faj8GJYL7XkFNF7oRbNE9glIVSxs-Y0w",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:19:16.265Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -21078,7 +21287,7 @@
       "url": "https://www.instagram.com/p/DfSaZm9lj4T",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:19:16.265Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -21091,7 +21300,7 @@
       "url": "https://thegeomob.com/",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:19:16.265Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -21104,7 +21313,7 @@
       "url": "https://assets.buttondown.email/images/36ae7722-c2ac-476c-9a74-71d1ce61edf7.png",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:19:16.265Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -21122,6 +21331,7 @@
       "checks": {
         "datasetSignal": true,
         "directResource": true,
+        "webAccess": false,
         "format": true,
         "coverage": true,
         "license": false,
@@ -21138,7 +21348,7 @@
       "url": "https://substack.com/redirect/a987f378-e4b7-4143-b8db-afb9d5a467a4",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:19:16.265Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -21152,7 +21362,7 @@
       "url": "https://assets.buttondown.email/images/924c12dc-e7de-4b1d-be15-bbe6852d3617.png",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:19:16.265Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -21166,7 +21376,7 @@
       "url": "https://substack.com/redirect/b9efd57e-f55e-494e-ad07-a0efc1db8b22",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:19:16.265Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -21180,7 +21390,7 @@
       "url": "https://substack.com/redirect/354eb9cd-11df-4a26-8f15-a649367a0c3b",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:19:16.265Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -21194,7 +21404,7 @@
       "url": "https://assets.buttondown.email/images/7c3e7828-aa8e-4743-a49c-a05a2f1a75b6.png",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:19:16.265Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -21208,7 +21418,7 @@
       "url": "https://substack.com/redirect/69ea6908-9d33-4ea4-97e6-5a6b8de97fd3",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:19:16.265Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -21222,7 +21432,7 @@
       "url": "https://data.datalibrary.uk/transport/BODS-ARCHIVE",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:19:16.265Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -21235,7 +21445,7 @@
       "url": "https://assets.buttondown.email/images/8796888a-5197-4735-a67b-3735197d1ba2.png",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:19:16.265Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -21253,6 +21463,7 @@
       "checks": {
         "datasetSignal": false,
         "directResource": false,
+        "webAccess": false,
         "format": false,
         "coverage": false,
         "license": false,
@@ -21273,7 +21484,7 @@
       "url": "https://substack.com/redirect/6eff1ee5-b658-48f0-aac5-785da15d0b86",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:19:16.265Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -21287,7 +21498,7 @@
       "url": "https://assets.buttondown.email/images/f06a2960-2df4-41d7-a9b7-9e436a576e49.png",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:19:16.265Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -21301,7 +21512,7 @@
       "url": "https://substack.com/redirect/a8064f5b-ee21-40a6-a6f5-80c89d7ade45",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:19:16.265Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -21315,7 +21526,7 @@
       "url": "https://substack.com/redirect/93aeaf97-05be-466e-8c9e-2c02c16b168a",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:19:16.265Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -21333,6 +21544,7 @@
       "checks": {
         "datasetSignal": false,
         "directResource": false,
+        "webAccess": false,
         "format": false,
         "coverage": false,
         "license": false,
@@ -21353,7 +21565,7 @@
       "url": "https://substack.com/redirect/8b398159-7e04-4b3f-ba53-6bb4029a70b2",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-10T22:19:16.265Z",
+      "checkedAt": "2026-11-16T19:21:28.847Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -21440,6 +21652,7 @@
       "checks": {
         "datasetSignal": true,
         "directResource": true,
+        "webAccess": false,
         "format": true,
         "coverage": true,
         "license": false,
@@ -21516,6 +21729,7 @@
       "checks": {
         "datasetSignal": false,
         "directResource": false,
+        "webAccess": false,
         "format": false,
         "coverage": false,
         "license": false,
@@ -21554,6 +21768,7 @@
       "checks": {
         "datasetSignal": false,
         "directResource": false,
+        "webAccess": false,
         "format": false,
         "coverage": false,
         "license": false,
@@ -21605,6 +21820,7 @@
       "checks": {
         "datasetSignal": true,
         "directResource": true,
+        "webAccess": false,
         "format": true,
         "coverage": true,
         "license": false,
@@ -21664,6 +21880,7 @@
       "checks": {
         "datasetSignal": false,
         "directResource": false,
+        "webAccess": false,
         "format": true,
         "coverage": true,
         "license": false,
@@ -21698,6 +21915,7 @@
       "checks": {
         "datasetSignal": true,
         "directResource": false,
+        "webAccess": false,
         "format": true,
         "coverage": true,
         "license": false,
@@ -21718,6 +21936,7 @@
       "checks": {
         "datasetSignal": true,
         "directResource": false,
+        "webAccess": false,
         "format": false,
         "coverage": true,
         "license": true,
@@ -21735,10 +21954,11 @@
       "url": "https://www.gov.br/mcti/pt-br/acesso-a-informacao/dados-abertos/dados-abertos/arquivos/adapta-brasil/adaptabrasil",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-16T18:39:43.064Z",
+      "checkedAt": "2026-11-16T19:21:22.683Z",
       "checks": {
         "datasetSignal": false,
         "directResource": false,
+        "webAccess": false,
         "format": true,
         "coverage": true,
         "license": false,
@@ -21760,6 +21980,7 @@
       "checks": {
         "datasetSignal": true,
         "directResource": false,
+        "webAccess": false,
         "format": false,
         "coverage": false,
         "license": false,
@@ -21783,6 +22004,7 @@
       "checks": {
         "datasetSignal": true,
         "directResource": false,
+        "webAccess": false,
         "format": false,
         "coverage": true,
         "license": false,
@@ -21804,6 +22026,7 @@
       "checks": {
         "datasetSignal": true,
         "directResource": true,
+        "webAccess": false,
         "format": true,
         "coverage": true,
         "license": true,
@@ -21889,10 +22112,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -21977,10 +22201,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -21995,10 +22220,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -22204,10 +22430,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -22842,10 +23069,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -23031,14 +23259,15 @@
       "url": "https://grantsforjournalists.com/grant/john-s-knight-journalism-fellowship-at-stanford",
       "category": "opportunities",
       "originalCategory": "opportunities",
-      "checkedAt": "2026-11-16T16:53:18.661Z",
+      "checkedAt": "2026-11-16T19:21:17.619Z",
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": true
+        "eligibility": true,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido"
+        "prazo futuro ou fluxo contínuo confirmado na chamada"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -23065,10 +23294,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -23109,10 +23339,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -23247,10 +23478,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -23462,7 +23694,7 @@
       "url": "https://www.niemanlab.org/2026/11/with-event-costs-up-and-funding-down-journalism-organizations-cancel-conferences-and-cut-staff",
       "category": "uncategorized",
       "originalCategory": "opportunities",
-      "checkedAt": "2026-11-16T16:53:19.444Z",
+      "checkedAt": "2026-11-16T19:21:18.213Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -23479,10 +23711,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -23659,10 +23892,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -24084,12 +24318,18 @@
     {
       "id": "ed6680d88f6d76f3d3f8d5654ef9fb99c28a27a63c539cb44875d4e16ddcb21d",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZ3NSMXNWR1BfQXRqVVlUUHM5NDBONUpJU2l1UGZBNXBRNVJ4UENYVWRQTWF0NlEtMWFHdFNQalVrWFlTWFpmTUVQZkNXdVlHa2FuVU1kc0UwbGVlOGhpVXMwMXdFTXYyT05nT21Jb3U5ZEF0cUpGQzZYRjl4WTRibTJZZWZ4MHdhUmtWbFVaZWJzS2NNYzRUU1JVa1FKby0yTE9ZUU9ORGhOSzF5eFdheHV30gG3AUFVX3lxTE1MeDlNZWt4c29JbUUyMFRKTlQzZVdDY3Zvd2pCWmNJdnhLaVg2amtfcXpCa3BuS0tiWnBlcWNWWTNuTVJjYUhyNjZDVkdVOGNaLWtTd09hb1hobmRzckU5RWdrU1lROU4yWHhyUXZseEduVzBySlZvZ1NRRDlaN25paXMwX1AyR3ZQTWdrbWQySVg5WmRSRE10RkE3Qm51akR6V3NfQW5LQWZ2NjA4TWFydlpaMkI3UQ",
-      "category": "uncategorized",
+      "category": "opportunities",
       "originalCategory": "opportunities",
       "checkedAt": "2026-11-16T06:48:40.751Z",
-      "checks": {},
+      "checks": {
+        "callSignal": true,
+        "deadline": null,
+        "eligibility": false,
+        "rolling": false
+      },
       "missing": [
-        "categoria específica sem evidência suficiente"
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
+        "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -24154,7 +24394,7 @@
       "url": "https://www.niemanlab.org/2026/11/a-government-that-gets-it-canada-recommits-to-federal-funding-for-news",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-16T11:17:50.732Z",
+      "checkedAt": "2026-11-16T19:21:16.514Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -24207,7 +24447,7 @@
       "url": "https://opportunitydesk.org/2026/11/12/ucla-library-special-collections-research-fellowships-2027",
       "category": "uncategorized",
       "originalCategory": "opportunities",
-      "checkedAt": "2026-11-16T16:53:20.154Z",
+      "checkedAt": "2026-11-16T19:21:18.822Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -26166,10 +26406,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -26418,10 +26659,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -26436,10 +26678,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -26467,10 +26710,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -26492,12 +26736,18 @@
     {
       "id": "8b43124af77602c03911699e2f07595decb49f5d00c7a0f6486cd43bcb375e47",
       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOREdYS1NoRFozZzdyVWMtaU5IR21NVzlJM2E0Y2JMNUZxUVdXajRncl9DdFpZVmpETHZxZ1d1aVV6cFE5S2tjTFBhY0tGb1h2RnpibUJ4MFJZNmpybVY0YTQ2bWgxbXppRmQwcTRrT2JpQjlGR2QzaUp6TVBqWUMwN2dYOWQ2NW5BRmR1c3dhLUphVlVxTFVQOG1UUVNQZ0lreEZXbjFmdVRpNmJkQXNSR1NPUXhhVXFUTU14Njl6QW94MGE4QzU2X3FLSXJhVTJS",
-      "category": "uncategorized",
+      "category": "opportunities",
       "originalCategory": "opportunities",
       "checkedAt": "2026-11-16T18:39:59.178Z",
-      "checks": {},
+      "checks": {
+        "callSignal": true,
+        "deadline": null,
+        "eligibility": false,
+        "rolling": false
+      },
       "missing": [
-        "categoria específica sem evidência suficiente"
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
+        "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -26511,10 +26761,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -26529,11 +26780,12 @@
       "checks": {
         "callSignal": false,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
         "chamada de financiamento/bolsa identificável",
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -26548,11 +26800,12 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": true
+        "eligibility": true,
+        "rolling": false
       },
       "missing": [
         "escopo jornalístico ausente no título e descrição da chamada",
-        "prazo futuro confirmado em formato de data reconhecido"
+        "prazo futuro ou fluxo contínuo confirmado na chamada"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -26566,12 +26819,13 @@
       "checks": {
         "callSignal": false,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
         "chamada explicitamente encerrada",
         "chamada de financiamento/bolsa identificável",
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -26586,12 +26840,13 @@
       "checks": {
         "callSignal": false,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
         "escopo jornalístico ausente no título e descrição da chamada",
         "chamada de financiamento/bolsa identificável",
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -26606,10 +26861,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -26624,11 +26880,12 @@
       "checks": {
         "callSignal": false,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
         "chamada de financiamento/bolsa identificável",
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -26643,11 +26900,12 @@
       "checks": {
         "callSignal": false,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
         "chamada de financiamento/bolsa identificável",
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -26662,12 +26920,13 @@
       "checks": {
         "callSignal": false,
         "deadline": null,
-        "eligibility": false
+        "eligibility": false,
+        "rolling": false
       },
       "missing": [
         "escopo jornalístico ausente no título e descrição da chamada",
         "chamada de financiamento/bolsa identificável",
-        "prazo futuro confirmado em formato de data reconhecido",
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -26678,15 +26937,16 @@
       "url": "https://gfmd.info/fundings/pulitzer-center-ocean-and-fisheries-reporting-grants",
       "category": "opportunities",
       "originalCategory": "opportunities",
-      "checkedAt": "2026-11-16T16:53:40.266Z",
+      "checkedAt": "2026-11-16T19:21:19.593Z",
       "checks": {
         "callSignal": false,
         "deadline": null,
-        "eligibility": true
+        "eligibility": true,
+        "rolling": false
       },
       "missing": [
         "chamada de financiamento/bolsa identificável",
-        "prazo futuro confirmado em formato de data reconhecido"
+        "prazo futuro ou fluxo contínuo confirmado na chamada"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -26714,12 +26974,11 @@
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": true
+        "eligibility": true,
+        "rolling": true
       },
-      "missing": [
-        "prazo futuro confirmado em formato de data reconhecido"
-      ],
-      "decision": "pending_more_evidence",
+      "missing": [],
+      "decision": "evidence_complete_for_record_draft",
       "publicationReady": false
     }
   ]

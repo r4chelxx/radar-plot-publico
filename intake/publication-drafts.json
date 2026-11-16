@@ -1,141 +1,19 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-16T18:40:17.399Z",
-  "sourceQueueUpdatedAt": "2026-11-16T18:39:59.178Z",
+  "generatedAt": "2026-11-16T19:21:39.693Z",
+  "sourceQueueUpdatedAt": "2026-11-16T19:21:28.847Z",
   "policy": "Evidence-complete drafts only; the separate deterministic evidence gate must independently approve before publication.",
   "summary": {
-    "eligibleForDrafting": 5,
-    "drafts": 5,
+    "eligibleForDrafting": 3,
+    "drafts": 3,
     "byCategory": {
-      "opportunities": 0,
+      "opportunities": 1,
       "datasets": 1,
-      "tools": 4
+      "tools": 1
     },
     "publicationReady": 0
   },
   "drafts": [
-    {
-      "schemaVersion": 1,
-      "id": "be9e40b9672b7d79a68ce0c91d7c97b541c7e742d6681c8ed5f43e55e2401e5b",
-      "category": "tools",
-      "status": "draft_only",
-      "publicationReady": false,
-      "source": {
-        "url": "https://threejs.org/",
-        "discoveryProviders": [
-          "Data Visualization Society"
-        ],
-        "pageTitle": "Three.js – JavaScript 3D Library",
-        "checkedAt": "2026-11-16T05:12:14.316Z",
-        "httpStatus": 200,
-        "contentType": "text/html; charset=utf-8"
-      },
-      "evidence": {
-        "checks": {
-          "productSignal": true,
-          "function": true,
-          "access": true,
-          "license": false,
-          "licenseStatus": "not stated in captured source"
-        },
-        "sourceExcerpt": "Three.js – JavaScript 3D Library three.js r187 docs examples Learn examples documentation tsl guide Tools devtools editor Community questions discord forum twitter Code github download Resources Three.js Journey Three.js Game Development Three.js Resources Needle devtools Merch T-Shirts submit project",
-        "structuredData": [],
-        "resourceLinks": [
-          {
-            "url": "https://github.com/mrdoob/three.js/archive/master.zip",
-            "label": "download"
-          }
-        ]
-      },
-      "recordDraft": {
-        "id": "be9e40b9672b7d79a68ce0c91d7c97b541c7e742d6681c8ed5f43e55e2401e5b",
-        "name": "Three.js",
-        "kind": "JavaScript 3D Library",
-        "url": "https://threejs.org/",
-        "desc": "Three.js – JavaScript 3D Library Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
-      },
-      "missingFields": [],
-      "reviewDecision": "evidence_complete_for_record_draft",
-      "note": "Ficha preliminar baseada no conteúdo capturado da página. Campos sem evidência permanecem ausentes; a aprovação depende do gate independente de publicação."
-    },
-    {
-      "schemaVersion": 1,
-      "id": "c2ee2f71ce77c43a7a985d95d7cbaa66f179f6fdbc4424ac9f4d85441953b2a8",
-      "category": "tools",
-      "status": "draft_only",
-      "publicationReady": false,
-      "source": {
-        "url": "https://layercake.graphics/",
-        "discoveryProviders": [
-          "Data Visualization Society"
-        ],
-        "pageTitle": "Layer Cake",
-        "checkedAt": "2026-11-16T05:12:14.316Z",
-        "httpStatus": 200,
-        "contentType": "text/html; charset=utf-8"
-      },
-      "evidence": {
-        "checks": {
-          "productSignal": true,
-          "function": true,
-          "access": true,
-          "license": false,
-          "licenseStatus": "not stated in captured source"
-        },
-        "sourceExcerpt": "Layer Cake Menu Layer Cake All Client-side Bar Beeswarm Beeswarm, force layout Brush Calendar Circle pack Circle pack, force layout Cleveland dot plot Column annotated Diverging bar Diverging column Grouped bar Grouped column Histogram Line + area Map Multilayer map Multiline Nested circle pack Radar chart Sankey Scatter Small multiples Stacked area Stacked bar Stacked column Synced brush Time of day plot WebGL Scatter Server-side Bar Brush Calendar Cleveland dot plot Column annotated Diverging bar Diverging column Grouped bar Grouped column Histogram Line + area Map Multilayer map Multiline Scatter Small multiples Stacked area Stacked bar Stacked column Synced brush Time of day plot WebGL Scatter Layer Cake Layer Cake is a headless graphics framework for Svelte . It uses the measurements of your target div and your data extents to create scales that stay synced on layout changes. Use these scales to organize multiple, mostly-reusable Svelte components , whether they be SVG, HTML, Canvas or WebGL. Since they all share the same coordinate space, you can build your graphic one layer at a time. It can also be used to easily create responsive graphics server-side that work without JavaScript . Unlike other libraries, chart components live inside your project , so you have complete control for customization . It also includes some handy helper functions to help format your data into the right shape. Read the guide , try the starter template or check out the example components . See the examples below and even edit them live. Here's a sample of what the code looks like: Looking for the version 10 examples that used the store API? They're at the v10 documentation archive . < script > // The library provides a main wrapper component // and a bunch of empty layout components... import { LayerCake , Svg , Html , Canvas } from 'layercake' ; // ...that you fill with your own chart components, // that live inside your project and which you // can copy and paste from here as starting points. import AxisX from './components/AxisX.svelte' ; import AxisY from './components/AxisY.svelte' ; import Line from './components/Line.svelte' ; import Scatter from './components/Scatter.svelte' ; import Labels from './components/Labels.svelte' ; const data = [{ x : 0 , y : 1 }, { x : 1 , y : 2 }, { x : 2 , y : 3 }]; </ script > < style > .chart-container { width : 100% ; height : 500px ; } </ style > < div class = \"chart-container\" > < LayerCake x = 'x' y = 'y' {data} > < Svg > < AxisX /> < AxisY /> < Line color = '#f0c' /> </ Svg > < Canvas > < Scatter color = '#0fc' /> </ Canvas > < Html > < Labels /> </ Html > </ LayerCake > </ div > Line + area WebGL Scatter (svg axes, quadtree hover) Map (svg, tooltip, pre-projected) Multilayer map (canvas + svg) Column annotated Stacked column Grouped column Grouped bar Bar Stacked bar Diverging column Diverging bar Multiline (html labels + quadtree tooltip) Stacked area Scatter (svg + canvas + voronoi) Cleveland dot plot Calendar (one cake per month) Time of day plot Histogram (variable bins) 40 bins Small multiples (animated domain transition) Individual scale Shared scale Radar chart Circle pack Nested circle pack Sankey Brush Synced brush Beeswarm Beeswarm, force layout Circle pack, force layout Group by category Clump together Server-side rendering Svelte makes it easy to render your project server side and Layer Cake has built-in helpers to make it even easier for charts. All of these examples below (except for their canvas components) will load and be responsive without client-side JavaScript. The advantage is that you can see the chart as soon as the page loads, avoiding blank placeholder spaces. HTML charts use percentage-based scales and SVG charts take advantage of certain viewBox and CSS settings that Rich Harris, Svelte's creator, outlined in this blog post . For shapes that are difficult to render using percentages, such as swoopy arrows, Layer Cake makes it easy to superimpose client-side components t",
-        "structuredData": [],
-        "resourceLinks": []
-      },
-      "recordDraft": {
-        "id": "c2ee2f71ce77c43a7a985d95d7cbaa66f179f6fdbc4424ac9f4d85441953b2a8",
-        "name": "Layer Cake",
-        "kind": "Framework de gráficos e visualização",
-        "url": "https://layercake.graphics/",
-        "desc": "A framework for mostly-reusable graphics with svelte Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
-      },
-      "missingFields": [],
-      "reviewDecision": "evidence_complete_for_record_draft",
-      "note": "Ficha preliminar baseada no conteúdo capturado da página. Campos sem evidência permanecem ausentes; a aprovação depende do gate independente de publicação."
-    },
-    {
-      "schemaVersion": 1,
-      "id": "d1d9f0e8c01b765eace5a461bb293de7d52b785ffc9cc6df2a3b0a40b3bde74f",
-      "category": "tools",
-      "status": "draft_only",
-      "publicationReady": false,
-      "source": {
-        "url": "https://www.selenium.dev/",
-        "discoveryProviders": [
-          "Data Visualization Society"
-        ],
-        "pageTitle": "Selenium",
-        "checkedAt": "2026-11-16T05:12:14.316Z",
-        "httpStatus": 200,
-        "contentType": "text/html; charset=utf-8"
-      },
-      "evidence": {
-        "checks": {
-          "productSignal": true,
-          "function": true,
-          "access": true,
-          "license": false,
-          "licenseStatus": "not stated in captured source"
-        },
-        "sourceExcerpt": "Selenium For AI agents: the site's llms.txt is at /llms.txt. Automate any browser, from any language. Selenium is a browser automation tool that gives you full control over Chrome, Firefox, Edge and Safari. Write your scripts in Java, Python, C#, Ruby, JavaScript or Kotlin using the official W3C WebDriver standard . Get started Using AI agents Works out of the box: Selenium downloads what it needs to talk to your browser, so there is nothing to install by hand. Install Selenium and run your first script Add the Selenium package for your language, then run the script below. It opens Chrome, loads a page and closes the browser again. Java Python CSharp Ruby JavaScript Kotlin Add org.seleniumhq.selenium:selenium-java to your build, then run: package dev.selenium.hello ; import org.openqa.selenium.WebDriver ; import org.openqa.selenium.chrome.ChromeDriver ; public class HelloSelenium { public static void main ( String [] args ) { WebDriver driver = new ChromeDriver (); driver . get ( \"https://selenium.dev\" ); driver . quit (); } } View on GitHub Install the package: pip install selenium Then run: from selenium import webdriver driver = webdriver . Chrome () driver . get ( \"http://selenium.dev\" ) driver . quit () View on GitHub Install the package: dotnet add package Selenium.WebDriver Then run: using OpenQA.Selenium.Chrome ; namespace SeleniumDocs.Hello ; public static class HelloSelenium { public static void Main () { var driver = new ChromeDriver (); driver . Navigate (). GoToUrl ( \"https://selenium.dev\" ); driver . Quit (); } } View on GitHub Install the gem: gem install selenium-webdriver Then run: # frozen_string_literal: true require 'selenium-webdriver' driver = Selenium :: WebDriver . for :chrome driver . get 'https://selenium.dev' driver . quit View on GitHub Install the package: npm install selenium-webdriver Then run: const { Builder , Browser } = require ( 'selenium-webdriver' ); ( async function helloSelenium () { let driver = await new Builder (). forBrowser ( Browser . CHROME ). build (); await driver . get ( 'https://selenium.dev' ); await driver . quit (); })(); View on GitHub Kotlin uses the Java bindings. Add org.seleniumhq.selenium:selenium-java to your build, then run: package dev.selenium.hello import org.openqa.selenium.chrome.ChromeDriver fun main () { val driver = ChromeDriver () driver . get ( \"https://selenium.dev\" ) driver . quit () } View on GitHub Need more detail? Follow the Getting Started guide . Pick your tool Selenium WebDriver Use this when you want to drive a browser from code in your own language. WebDriver is a collection of language-specific bindings that control a real browser the way a user would, and it is the foundation for everything else Selenium does. Read more Selenium Grid Use this when you need to run your WebDriver tests on several machines, browsers and operating systems at once. Grid distributes sessions from a central point so you can run against a vast combination of environments in parallel. Read more Used by projects and teams including 32,000+ GitHub stars Moodle Mozilla Progress trivago Does your organisation use Selenium? Add your logo Logos are trademarks of their respective owners. Showing them does not mean these organisations endorse Selenium. The Wikimedia Foundation logo is a trademark of the Wikimedia Foundation and is used with the permission of the Wikimedia Foundation. We are not endorsed by or affiliated with the Wikimedia Foundation. Jenkins logo by the Jenkins project , CC BY-SA 3.0 . Development Partners Selenium Level Sponsors News Selenium 4.52 Released! Thursday, October 29, 2026 By Diego Molina @diemol Today we&rsquo;re happy to announce that Selenium 4.52 has been released! Read More Selenium 4.51 Released! Friday, October 09, 2026 By Diego Molina @diemol Today we&rsquo;re happy to announce that Selenium 4.51 has been released! Read More Selenium 4.50 Released! Wednesday, September 30, 2026 By Diego Molina @diemol Today we&rsquo;re happy to announce tha",
-        "structuredData": [],
-        "resourceLinks": []
-      },
-      "recordDraft": {
-        "id": "d1d9f0e8c01b765eace5a461bb293de7d52b785ffc9cc6df2a3b0a40b3bde74f",
-        "name": "Selenium",
-        "kind": "Automação de navegador",
-        "url": "https://www.selenium.dev/",
-        "desc": "Selenium is a browser automation tool that gives you full control over Chrome, Firefox, Edge and Safari. Write your scripts in Java, Python, C#, Ruby, JavaScript or Kotlin using the official W3C WebDriver standard. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
-      },
-      "missingFields": [],
-      "reviewDecision": "evidence_complete_for_record_draft",
-      "note": "Ficha preliminar baseada no conteúdo capturado da página. Campos sem evidência permanecem ausentes; a aprovação depende do gate independente de publicação."
-    },
     {
       "schemaVersion": 1,
       "id": "fb1f5945b6820ed90263a3164b11222cb5cbbd33823865ccd8e85e23468238a1",
@@ -172,6 +50,7 @@
             "url": "https://www.muckrock.com/"
           }
         ],
+        "tabularData": [],
         "resourceLinks": [
           {
             "url": "https://www.data-liberation-project.org/datasets/",
@@ -212,6 +91,7 @@
         "checks": {
           "datasetSignal": true,
           "directResource": true,
+          "webAccess": false,
           "format": true,
           "coverage": true,
           "license": true,
@@ -219,6 +99,7 @@
         },
         "sourceExcerpt": "SoilGrids - global gridded soil information – SoilGrids Documentation A system for digital soil mapping based on global compilation of soil profile data and environmental layers We are collecting information on SoilGrids’ user base to improve the products and better understand their uses. Please help us by filling this survey: https://forms.office.com/r/Hmi1GCG7pn SoilGrids TM (hereafter SoilGrids) is a system for global digital soil mapping that uses state-of-the-art machine learning methods to map the spatial distribution of soil properties across the globe. SoilGrids prediction models are fitted using over 230 000 soil profile observations from the WoSIS database and a series of environmental covariates. Covariates were selected from a pool of over 400 environmental layers from Earth observation derived products and other environmental information including climate, land cover and terrain morphology. The outputs of SoilGrids are global soil property maps at six standard depth intervals (according to the GlobalSoilMap IUSS working group and its specifications) at a spatial resolution of 250 meters. Prediction uncertainty is quantified by the lower and upper limits of a 90% prediction interval. The additional uncertainty layer displayed at soilgrids.org is the ratio between the inter-quantile range and the median. The SoilGrids maps are publicly available under the CC-BY 4.0 License . Maps of the following soil properties are available: pH, soil organic carbon content, bulk density, coarse fragments content, sand content, silt content, clay content, cation exchange capacity (CEC), total nitrogen as well as soil organic carbon density and soil organic carbon stock. For additional information please visit the SoilGrids FAQ page. Main Improvements SoilGrids has evolved considerably since the previous release ( 2017 ), both in the methodologies employed as in the computation infrastructure and the data inputs. The following improvements can be highlighted: Wider selection of soil observations: more profile observations, increased quality assessment and improved and consistent standardisation across the different point datasets. Quantification of prediction uncertainty at pixel level with the 90% prediction interval using Quantile Random Forest. Improved model calibration and cross-validation procedure to better take into account the uneven spatial distribution of data points across the world. Improved covariates selection and model parameter tuning. Texture fractions modelled and mapped not independently from each other, but as compositional data with the sum of the fractions constrained to 100%. Data Access REST API Announcement Unfortunately, we are currently experiencing issues with the REST API for SoilGrids, and have decided to temporarily pause the service. We are working on a solution. However, at this time, we cannot provide an estimated timeline for when the service will be restored. Please note that our API is a complementary service we provide to access SoilGrids. It is still under active development (beta stage). Occasional issues and downtimes may occur. We want to emphasise that it does not come with a guarantee of uptime or other types of support. Please remain informed about its status, especially if you are planning to build a production system based on it. There are alternative, more stable ways to access SoilGrids that, in this case, may better suit your needs. More information on alternative ways to access SoilGrids can be found below. We will update as soon as the service is restored. WMS : access for visualisation and data overview. Instructions for using WMS with commonly used GIS software can be found here WCS : best way to obtain a subset of a map and use SoilGrids as input to other modelling pipelines. Examples on how to access WCS with python and R are provided here . WebDAV : download the complete global map(s) in VRT format. Examples can be found here . SoilGrids predictions are been made available on",
         "structuredData": [],
+        "tabularData": [],
         "resourceLinks": [
           {
             "url": "https://files.isric.org/soilgrids/latest/data/",
@@ -251,6 +132,59 @@
       "missingFields": [
         "org"
       ],
+      "reviewDecision": "evidence_complete_for_record_draft",
+      "note": "Ficha preliminar baseada no conteúdo capturado da página. Campos sem evidência permanecem ausentes; a aprovação depende do gate independente de publicação."
+    },
+    {
+      "schemaVersion": 1,
+      "id": "96b784d915fa360e2f24768abff0d5c15a3fbc842cc94c8f1a63d07a6af8c3c5",
+      "category": "opportunities",
+      "status": "draft_only",
+      "publicationReady": false,
+      "source": {
+        "url": "https://gfmd.info/fundings/pulitzer-center-rainforest-reporting-grant/",
+        "discoveryProviders": [
+          "GFMD funding"
+        ],
+        "pageTitle": "Pulitzer Center Rainforest Reporting Grant - GFMD",
+        "checkedAt": "2026-11-16T16:53:40.266Z",
+        "httpStatus": 200,
+        "contentType": "text/html; charset=UTF-8"
+      },
+      "evidence": {
+        "checks": {
+          "callSignal": true,
+          "deadline": null,
+          "eligibility": true,
+          "rolling": true
+        },
+        "sourceExcerpt": "Pulitzer Center Rainforest Reporting Grant - GFMD « Back to all Fundings Pulitzer Center Rainforest Reporting Grant Organisation: Pulitzer Center Status: Open Type: Grant Theme: Environmental journalism Funding Size: N/A Deadline: Ongoing Eligibility Criteria : All staff and freelance journalists are eligible to apply. Type of Funding : Grant Region : Amazon, Central Africa, and Southeast Asia Application Language : English, Spanish, Portuguese, French, and bahasa Indonesia. The Pulitzer Center’s Rainforest Reporting Grant provides short-term, project-based funding support to journalists who want to report on tropical rainforests. The Center invites ambitious reporting proposals looking into critical issues including illegal deforestation, Indigenous rights, the extraction industry, biodiversity, and more. Thematics Applicants may explore the following topic ideas: Large-scale agro-industry Indigenous rights and policies Cross-border timber and wildlife trade and supply chain Forest and biodiversity health Chemical pollution Forest fires Palm oil production and regulation Green energy Artisanal mining and agriculture Carbon storage and market schemes Eligibility Grants are open to all journalists: writers, photographers, radio producers, and filmmakers; staff journalists as well as freelancers. The Center supports veteran reporters who have been widely published, but also back younger applicants who are looking for help to jumpstart their careers. A diversity of voices— gender, ethnicities, backgrounds and nationalities—is important. How to apply Applicants must apply using this apply using this application form . The opportunity is now open and there is no specific deadline. Applications are being reviewed on a rolling basis. Applicants will need the following while applying: A description of the proposed project in no more than 250 words; A preliminary budget estimate, including a basic breakdown of costs; A compelling distribution plan Please review the grant application guidelines and apply. If you have specific questions about applying please contact reacheditorial@pulitzercenter.org . For more information, please visit this page. For the latest funding opportunities, profiles of media donors, and expert insight from GFMD’s MediaDev Fundraising Guide sign up for Bottom Line newsletter Sign Up Search Search for: This website uses cookies. By continuing to use the website you consent to the use and storage of cookies on your device. You are using an outdated browser which can not show modern web content. We suggest you download Chrome or Firefox .",
+        "structuredData": [],
+        "tabularData": [],
+        "resourceLinks": []
+      },
+      "recordDraft": {
+        "id": "96b784d915fa360e2f24768abff0d5c15a3fbc842cc94c8f1a63d07a6af8c3c5",
+        "title": "Pulitzer Center Rainforest Reporting Grant",
+        "org": "Pulitzer Center",
+        "summary": "The Pulitzer Center Rainforest Reporting Grant provides project-based funding support to journalists reporting on tropical rainforests.",
+        "type": "Grant",
+        "themes": [
+          "Meio ambiente",
+          "Gênero",
+          "Fotografia",
+          "Jornalismo"
+        ],
+        "scope": "Pulitzer Center Rainforest Reporting Grant - GFMD « Back to all Fundings Pulitzer Center Rainforest Reporting Grant Organisation: Pulitzer Center Status: Open Type: Grant Theme: Environmental journalism Funding Size: N/A Deadline: Ongoing Eligibility Criteria : All staff and freelance journalists are eligible to apply.",
+        "fit": 5,
+        "deadline": null,
+        "deadlineStatus": "Fluxo contínuo confirmado na chamada; sem data final anunciada.",
+        "eligibility": "parcial",
+        "status": "aberta",
+        "rules": "https://gfmd.info/fundings/pulitzer-center-rainforest-reporting-grant/",
+        "apply": "https://gfmd.info/fundings/pulitzer-center-rainforest-reporting-grant/"
+      },
+      "missingFields": [],
       "reviewDecision": "evidence_complete_for_record_draft",
       "note": "Ficha preliminar baseada no conteúdo capturado da página. Campos sem evidência permanecem ausentes; a aprovação depende do gate independente de publicação."
     }
