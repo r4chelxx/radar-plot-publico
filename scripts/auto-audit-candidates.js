@@ -106,6 +106,9 @@ for(const lead of results){
   if(!record?.title||!record?.org||!record?.summary||!record?.rules)fail.push('campos editoriais obrigatórios ausentes');
   if(record?.rules&&host(record.rules)!==host(url))fail.push('URL oficial não coincide com a fonte auditada');
  } else if(lead.category==='datasets'){
+  const format=String(record?.format||'').trim();
+  if(!format||/^(?:n\/?a|unknown|not provided|não informado(?: na fonte estruturada)?|não disponível|desconhecido)$/i.test(format))fail.push('formato de acesso da base não comprovado');
+  if(/^forum$/i.test(String(record?.org||''))||/forum\.ecmwf\.int\/t\/|\/(?:blog|articles?|news|posts?)\//i.test(url||''))fail.push('página de discussão ou artigo não é recurso de dados');
   for(const k of ['name','org','kind','coverage','limitations','docs','url'])if(!record?.[k])fail.push('campo de base ausente: '+k);
   if(record?.url&&host(record.url)!==host(url))fail.push('URL oficial não coincide com a fonte auditada');
  } else if(lead.category==='tools'){
