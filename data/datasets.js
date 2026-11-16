@@ -1,5 +1,28 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.datasets=[
+{
+  "id": "auto-fff550a7465e8543",
+  "name": "Global Economic Monitor",
+  "org": "World Bank Data Catalog",
+  "territoryTier": "Outros",
+  "kind": "dataset",
+  "themes": [
+    "Dados abertos"
+  ],
+  "coverage": "The database provides daily updates of high-frequency indicators on global economic developments, encompassing both advanced economies and emerging market...",
+  "frequency": "Não informado na fonte estruturada",
+  "format": "JSON",
+  "period": "Não informado na fonte estruturada",
+  "granularity": "Não informado na fonte estruturada",
+  "geoUnit": "Não informado na fonte estruturada",
+  "api": null,
+  "docs": "https://datacatalog.worldbank.org/search/dataset/0037798/global-economic-monitor",
+  "limitations": "Metadados estruturados confirmam a existência do recurso, mas cobertura, atualização, licença e qualidade devem ser conferidas antes do uso editorial.",
+  "lastChecked": "2026-11-15",
+  "url": "https://datacatalog.worldbank.org/search/dataset/0037798/global-economic-monitor",
+  "discoveryUrl": "https://datacatalog.worldbank.org/search/dataset/0037798",
+  "description": "The database provides daily updates of high-frequency indicators on global economic developments, encompassing both advanced economies and emerging market..."
+}, 
   {
     "id": "69113ed0b823c72b5e77e5a4dc488e18bb492814785734c71bb305b1b4ccade7",
     "name": "Global Human Settlement - Datasets - European Commission",

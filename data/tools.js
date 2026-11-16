@@ -1,5 +1,13 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.tools=[
+{
+  "id": "auto-393eaada993d30d1",
+  "name": "datasette-enrichments",
+  "kind": "plugin de dados",
+  "url": "https://datasette.io/plugins/datasette-enrichments",
+  "desc": "Plugins > datasette-enrichments datasette-enrichments by datasette Star README source code datasette-enrichments Tools for running enrichments against data stored in Datasette Potential use-cases for enrichments include: Geocoding an address and populating a latitude and longitude column Executing a template to generate output based on the values in each row Fetching data from a URL and populating a column with the result Executing OCR against a linked image or PDF file Documentation for this plugin lives at enrichments.datasette.io . Development To set up this plugin locally, first checkout the code. Then create a new virtual environment: cd datasette-enrichments python3 -mvenv venv source venv/bin/activate Or if you are using pipenv : pipenv shell Now install the dependencies and test dependencies: pip install -e ' .[test] ' To run the tests: pytest Consultar documentação e licença antes do uso editorial.",
+  "discoveryUrl": "https://datasette.io/plugins/datasette-enrichments"
+}, 
   {
     "id": "733c36409f57a6d64b4eb49ac945a060082aa3ebc58f68ebc56d21824af048b3",
     "name": "R",
