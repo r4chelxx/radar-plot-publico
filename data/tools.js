@@ -1,6 +1,34 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.tools=[
 {
+  "id": "be9e40b9672b7d79a68ce0c91d7c97b541c7e742d6681c8ed5f43e55e2401e5b",
+  "name": "Three.js",
+  "kind": "JavaScript 3D Library",
+  "url": "https://threejs.org/",
+  "desc": "Three.js – JavaScript 3D Library Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
+},
+{
+  "id": "c2ee2f71ce77c43a7a985d95d7cbaa66f179f6fdbc4424ac9f4d85441953b2a8",
+  "name": "Layer Cake",
+  "kind": "Framework de gráficos e visualização",
+  "url": "https://layercake.graphics/",
+  "desc": "A framework for mostly-reusable graphics with svelte Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
+},
+{
+  "id": "d1d9f0e8c01b765eace5a461bb293de7d52b785ffc9cc6df2a3b0a40b3bde74f",
+  "name": "Selenium",
+  "kind": "Automação de navegador",
+  "url": "https://www.selenium.dev/",
+  "desc": "Selenium is a browser automation tool that gives you full control over Chrome, Firefox, Edge and Safari. Write your scripts in Java, Python, C#, Ruby, JavaScript or Kotlin using the official W3C WebDriver standard. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
+},
+{
+  "id": "fb1f5945b6820ed90263a3164b11222cb5cbbd33823865ccd8e85e23468238a1",
+  "name": "MuckRock",
+  "kind": "Gestão de pedidos de acesso à informação",
+  "url": "https://www.muckrock.com/?utm_source=substack&utm_medium=email",
+  "desc": "MuckRock is a collaborative news site that gives you the tools to hold the government accountable. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
+}, 
+{
   "id": "c6759019fe5266bd71d3bafd3ed26a4886df16ed8d2af2cf05be2aab0fdbd3e4",
   "name": "Buttondown",
   "kind": "BusinessApplication",
