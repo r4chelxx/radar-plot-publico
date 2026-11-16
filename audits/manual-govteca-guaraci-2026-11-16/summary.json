@@ -1,0 +1,22 @@
+{
+  "Govteca": {
+    "approved-new": 95,
+    "pending-access": 21,
+    "pending-content": 10,
+    "already-catalogued": 2
+  },
+  "Guaraci": {
+    "already-catalogued": 38,
+    "pending-primary-link": 44,
+    "alias-not-republished": 12,
+    "approved-new": 221,
+    "represented-by": 7,
+    "pending-data-evidence": 11,
+    "pending-access": 42,
+    "pending-resource": 7
+  },
+  "newRecordsByCategory": {
+    "datasets": 311,
+    "tools": 7
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "date": "2026-11-16",
+  "snapshots": [
+    {
+      "name": "govteca.html",
+      "sha256": "3cdb92f0c8864432b9f3bc4fb02800ca728aa7cce2f23e98ead7b23729489ea3",
+      "bytes": 264926
+    },
+    {
+      "name": "guaraci.html",
+      "sha256": "2a38e6763ff76622e00a499f8ffdebc7c99c1bd71de079f669cd879fe2adbc46",
+      "bytes": 41345
+    },
+    {
+      "name": "guaraci-catalog.js",
+      "sha256": "89da1b9d41508c9be39d65d49ca17100dc296b7bc25d05cfe1fc34b013428403",
+      "bytes": 920478
+    },
+    {
+      "name": "gov-page-4.html",
+      "sha256": "a50afafe02ce48f526733c11176bd8b68984984f80904b2683fd36ba93e590c4",
+      "bytes": 270459
+    },
+    {
+      "name": "gov-page-6.html",
+      "sha256": "ebdb82c84fe509d5460b2a9d43f3efa918dd4dceee548d2fc674413214719a94",
+      "bytes": 190252
+    },
+    {
+      "name": "gov-page-2.html",
+      "sha256": "8bb5485f8d787a309707f004e1c8b65b845ccce15f2836770ddde3a830d27b55",
+      "bytes": 274362
+    },
+    {
+      "name": "gov-page-3.html",
+      "sha256": "1da0fc3fe6960ac4f69fc063988d1c1fe8183c4370ad9edd8fe3956826512a5d",
+      "bytes": 276165
+    },
+    {
+      "name": "gov-page-5.html",
+      "sha256": "3b31975f3f4ede028013a0d6dc2bbf0a128b619c4663a89a0fb0e57ed4b5438a",
+      "bytes": 273842
+    },
+    {
+      "name": "gov-page-1.html",
+      "sha256": "42dd35ea505782e067150ea243ec71af16ab25d4d4825a5c5ec63f0fde0d6970",
+      "bytes": 266421
+    }
+  ],
+  "guaraciCodeRevision": "66f1eab25aa0b088abce39a98af8ba3513eae429",
+  "method": "Extração e comparação em Python; revisão assistida individual por identidade, finalidade e acesso; originais sem dados pessoais não republicados."
+}

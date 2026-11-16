@@ -2,6 +2,1295 @@ window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
 {
   "date": "2026-11-16",
+  "type": "dados",
+  "title": "Publicação editorial verificada — 2026-11-16",
+  "items": [
+    {
+      "id": "govteca-aforamento-e-acervo-do-tjba",
+      "title": "Aforamento e Acervo do TJBA"
+    },
+    {
+      "id": "govteca-atlas-do-desenvolvimento-humano-no-brasil",
+      "title": "Atlas do Desenvolvimento Humano no Brasil"
+    },
+    {
+      "id": "govteca-balneabilidade-sc-ima",
+      "title": "Balneabilidade SC (IMA)"
+    },
+    {
+      "id": "govteca-bdqueimadas-inpe",
+      "title": "BDQueimadas (INPE)"
+    },
+    {
+      "id": "govteca-cadsuas-consulta-externa",
+      "title": "CadSUAS - Consulta Externa"
+    },
+    {
+      "id": "govteca-cesta-basica-nacional-dieese",
+      "title": "Cesta Básica Nacional (DIEESE)"
+    },
+    {
+      "id": "govteca-ciclomapa",
+      "title": "CicloMapa"
+    },
+    {
+      "id": "govteca-conecta-pne",
+      "title": "Conecta PNE"
+    },
+    {
+      "id": "govteca-consulta-de-estabelecimentos-do-cnes",
+      "title": "Consulta de Estabelecimentos do CNES"
+    },
+    {
+      "id": "govteca-contas-publicas-do-brasil",
+      "title": "Contas Públicas do Brasil"
+    },
+    {
+      "id": "govteca-cota-parlamentar-pesquisa-de-despesas-camara-dos-deputados",
+      "title": "Cota Parlamentar: pesquisa de despesas (Câmara dos Deputados)"
+    },
+    {
+      "id": "govteca-cotacoes-da-ceagesp",
+      "title": "Cotações da CEAGESP"
+    },
+    {
+      "id": "govteca-dadosjusbr",
+      "title": "DadosJusBr"
+    },
+    {
+      "id": "govteca-dataviva",
+      "title": "DataViva"
+    },
+    {
+      "id": "govteca-de-olho-no-luz-para-todos",
+      "title": "De Olho no Luz para Todos"
+    },
+    {
+      "id": "govteca-despesas-por-fornecedor-tce-sp",
+      "title": "Despesas por Fornecedor (TCE-SP)"
+    },
+    {
+      "id": "govteca-estatisticas-do-censo-escolar-inep",
+      "title": "Estatísticas do Censo Escolar (Inep)"
+    },
+    {
+      "id": "govteca-estatisticas-do-simples-nacional-e-do-mei",
+      "title": "Estatísticas do Simples Nacional e do MEI"
+    },
+    {
+      "id": "govteca-farol-tce-sc",
+      "title": "Farol TCE/SC"
+    },
+    {
+      "id": "govteca-geo-ontl-geoportal-da-infra-s-a",
+      "title": "Geo ONTL (Geoportal da Infra S.A.)"
+    },
+    {
+      "id": "govteca-geoinfo-embrapa",
+      "title": "GeoInfo Embrapa"
+    },
+    {
+      "id": "govteca-geopb",
+      "title": "GeoPB"
+    },
+    {
+      "id": "govteca-habitasampa-mapa",
+      "title": "HabitaSAMPA Mapa"
+    },
+    {
+      "id": "govteca-historico-da-operacao-ons",
+      "title": "Histórico da Operação (ONS)"
+    },
+    {
+      "id": "govteca-ieps-data",
+      "title": "IEPS Data"
+    },
+    {
+      "id": "govteca-impostometro",
+      "title": "Impostômetro"
+    },
+    {
+      "id": "govteca-indice-firjan-de-gestao-fiscal-ifgf",
+      "title": "Índice Firjan de Gestão Fiscal (IFGF)"
+    },
+    {
+      "id": "govteca-infodengue",
+      "title": "InfoDengue"
+    },
+    {
+      "id": "govteca-infosiga-sp",
+      "title": "Infosiga SP"
+    },
+    {
+      "id": "govteca-isp-visualizacao",
+      "title": "ISP Visualização"
+    },
+    {
+      "id": "govteca-mapa-cadastral-de-curitiba-geocuritiba",
+      "title": "Mapa Cadastral de Curitiba (GeoCuritiba)"
+    },
+    {
+      "id": "govteca-mapa-da-desigualdade-2025-sao-paulo",
+      "title": "Mapa da Desigualdade 2025 (São Paulo)"
+    },
+    {
+      "id": "govteca-mapa-das-parcerias-sao-paulo-parcerias",
+      "title": "Mapa das Parcerias (São Paulo Parcerias)"
+    },
+    {
+      "id": "govteca-mapa-de-acesso-a-oportunidades-ipea",
+      "title": "Mapa de Acesso a Oportunidades (Ipea)"
+    },
+    {
+      "id": "govteca-mapa-de-empresas",
+      "title": "Mapa de Empresas"
+    },
+    {
+      "id": "govteca-mapa-de-obras-do-der-mg",
+      "title": "Mapa de Obras do DER-MG"
+    },
+    {
+      "id": "govteca-mapa-nacional-da-violencia-de-genero",
+      "title": "Mapa Nacional da Violência de Gênero"
+    },
+    {
+      "id": "govteca-mapas-da-in-justica",
+      "title": "Mapas da (In)justiça"
+    },
+    {
+      "id": "govteca-mapeamento-nacional-de-conflitos-pela-terra-e-moradia",
+      "title": "Mapeamento Nacional de Conflitos pela Terra e Moradia"
+    },
+    {
+      "id": "govteca-monitor-de-secas-do-brasil",
+      "title": "Monitor de Secas do Brasil"
+    },
+    {
+      "id": "govteca-monitor-legislativo-de-proposicoes-olb",
+      "title": "Monitor Legislativo de Proposições (OLB)"
+    },
+    {
+      "id": "govteca-municipios-e-saneamento",
+      "title": "Municípios e Saneamento"
+    },
+    {
+      "id": "govteca-obitos-no-transito-brasileiro-onsv",
+      "title": "Óbitos no Trânsito Brasileiro (ONSV)"
+    },
+    {
+      "id": "govteca-obras-abertas",
+      "title": "Obras Abertas"
+    },
+    {
+      "id": "govteca-observa-infancia-viva-fortaleza",
+      "title": "Observa Infância Viva (Fortaleza)"
+    },
+    {
+      "id": "govteca-observadh-observatorio-nacional-dos-direitos-humanos",
+      "title": "ObservaDH - Observatório Nacional dos Direitos Humanos"
+    },
+    {
+      "id": "govteca-observamob-observatorio-de-mobilidade-de-porto-alegre",
+      "title": "ObservaMOB: Observatório de Mobilidade de Porto Alegre"
+    },
+    {
+      "id": "govteca-observatorio-agro-catarinense",
+      "title": "Observatório Agro Catarinense"
+    },
+    {
+      "id": "govteca-observatorio-da-crianca-e-do-adolescente",
+      "title": "Observatório da Criança e do Adolescente"
+    },
+    {
+      "id": "govteca-observatorio-da-prevencao-e-da-erradicacao-do-trabalho-infan",
+      "title": "Observatório da Prevenção e da Erradicação do Trabalho Infantil (SmartLab)"
+    },
+    {
+      "id": "govteca-observatorio-da-seguranca-publica-do-espirito-santo",
+      "title": "Observatório da Segurança Pública do Espírito Santo"
+    },
+    {
+      "id": "govteca-observatorio-da-transicao-energetica",
+      "title": "Observatório da Transição Energética"
+    },
+    {
+      "id": "govteca-observatorio-de-dados-de-energia-do-piaui",
+      "title": "Observatório de Dados de Energia do Piauí"
+    },
+    {
+      "id": "govteca-observatorio-digital-da-socioeducacao-iases-es",
+      "title": "Observatório Digital da Socioeducação (IASES-ES)"
+    },
+    {
+      "id": "govteca-observatorio-do-cadastro-unico",
+      "title": "Observatório do Cadastro Único"
+    },
+    {
+      "id": "govteca-observatorio-socioassistencial-de-ji-parana",
+      "title": "Observatório Socioassistencial de Ji-Paraná"
+    },
+    {
+      "id": "govteca-observatorio-terras-quilombolas",
+      "title": "Observatório Terras Quilombolas"
+    },
+    {
+      "id": "govteca-paineis-do-programa-devolve-icms-rs",
+      "title": "Painéis do Programa Devolve ICMS (RS)"
+    },
+    {
+      "id": "govteca-painel-cnt-de-acidentes-rodoviarios",
+      "title": "Painel CNT de Acidentes Rodoviários"
+    },
+    {
+      "id": "govteca-painel-de-controle-tce-es",
+      "title": "Painel de Controle (TCE-ES)"
+    },
+    {
+      "id": "govteca-painel-de-dados-da-ouvidoria-nacional-de-direitos-humanos",
+      "title": "Painel de Dados da Ouvidoria Nacional de Direitos Humanos"
+    },
+    {
+      "id": "govteca-painel-de-dados-da-regulacao-ses-rs",
+      "title": "Painel de Dados da Regulação (SES-RS)"
+    },
+    {
+      "id": "govteca-painel-de-monitoramento-do-plano-estadual-de-educacao-see-mg",
+      "title": "Painel de Monitoramento do Plano Estadual de Educação (SEE-MG)"
+    },
+    {
+      "id": "govteca-painel-de-monitoramento-do-pne-inep",
+      "title": "Painel de Monitoramento do PNE (Inep)"
+    },
+    {
+      "id": "govteca-painel-dinamico-da-fiscalizacao-do-abastecimento",
+      "title": "Painel Dinâmico da Fiscalização do Abastecimento"
+    },
+    {
+      "id": "govteca-painel-dinamico-de-precos-de-combustiveis-e-derivados-do-pet",
+      "title": "Painel Dinâmico de Preços de Combustíveis e Derivados do Petróleo"
+    },
+    {
+      "id": "govteca-painel-do-obrasgov-br",
+      "title": "Painel do Obrasgov.br"
+    },
+    {
+      "id": "govteca-painel-do-orcamento-federal",
+      "title": "Painel do Orçamento Federal"
+    },
+    {
+      "id": "govteca-painel-do-zoneamento-agricola-de-risco-climatico-zarc",
+      "title": "Painel do Zoneamento Agrícola de Risco Climático (Zarc)"
+    },
+    {
+      "id": "govteca-painel-publico-do-cadastro-nacional-de-pessoas-desaparecidas",
+      "title": "Painel Público do Cadastro Nacional de Pessoas Desaparecidas (CNPD)"
+    },
+    {
+      "id": "govteca-painel-saneamento-brasil",
+      "title": "Painel Saneamento Brasil"
+    },
+    {
+      "id": "govteca-painel-transparencia-obras-publicas-belo-horizonte",
+      "title": "Painel Transparência Obras Públicas (Belo Horizonte)"
+    },
+    {
+      "id": "govteca-portal-da-transparencia-do-recife",
+      "title": "Portal da Transparência do Recife"
+    },
+    {
+      "id": "govteca-portal-dos-mananciais-sabesp",
+      "title": "Portal dos Mananciais (Sabesp)"
+    },
+    {
+      "id": "govteca-portal-hidrologico-do-ceara",
+      "title": "Portal Hidrológico do Ceará"
+    },
+    {
+      "id": "govteca-primeira-infancia-em-dados",
+      "title": "Primeira Infância em Dados"
+    },
+    {
+      "id": "govteca-radar-nacional-da-transparencia-publica",
+      "title": "Radar Nacional da Transparência Pública"
+    },
+    {
+      "id": "govteca-ranking-siconfi",
+      "title": "Ranking Siconfi"
+    },
+    {
+      "id": "govteca-rede-de-atendimento-em-direitos-humanos-de-sao-paulo",
+      "title": "Rede de Atendimento em Direitos Humanos de São Paulo"
+    },
+    {
+      "id": "govteca-resultados-tse",
+      "title": "Resultados (TSE)"
+    },
+    {
+      "id": "govteca-sampa-rural",
+      "title": "Sampa+Rural"
+    },
+    {
+      "id": "govteca-sapl-da-camara-municipal-de-fortaleza",
+      "title": "SAPL da Câmara Municipal de Fortaleza"
+    },
+    {
+      "id": "govteca-sar-sistema-de-acompanhamento-de-reservatorios-ana",
+      "title": "SAR: Sistema de Acompanhamento de Reservatórios (ANA)"
+    },
+    {
+      "id": "govteca-seade-trabalho",
+      "title": "Seade Trabalho"
+    },
+    {
+      "id": "govteca-siope-situacao-de-cumprimento-dos-indicadores-constitucionai",
+      "title": "SIOPE: Situação de cumprimento dos indicadores constitucionais"
+    },
+    {
+      "id": "govteca-smartlab-observatorio-da-erradicacao-do-trabalho-escravo",
+      "title": "SmartLab: Observatório da Erradicação do Trabalho Escravo"
+    },
+    {
+      "id": "govteca-splegis-camara-municipal-de-sao-paulo",
+      "title": "SPLegis (Câmara Municipal de São Paulo)"
+    },
+    {
+      "id": "govteca-terras-indigenas-no-brasil",
+      "title": "Terras Indígenas no Brasil"
+    },
+    {
+      "id": "govteca-tomeconta",
+      "title": "TomeConta"
+    },
+    {
+      "id": "guaraci-mpox",
+      "title": "Mpox — Casos notificados de mpox"
+    },
+    {
+      "id": "guaraci-srag-arquivos",
+      "title": "SRAG — bancos anuais"
+    },
+    {
+      "id": "guaraci-srag-arquivos-2009-2012",
+      "title": "SRAG: banco histórico 2009-2012"
+    },
+    {
+      "id": "guaraci-srag-arquivos-2013-2018",
+      "title": "SRAG: banco histórico 2013-2018"
+    },
+    {
+      "id": "guaraci-esavi",
+      "title": "ESAVI — Eventos adversos pós-vacinação"
+    },
+    {
+      "id": "guaraci-vacinacao-sistema-de-informacao-de-insumos-estrategicos",
+      "title": "Insumos estratégicos de vacinação"
+    },
+    {
+      "id": "guaraci-arboviroses-febre-amarela-epzootias",
+      "title": "Febre amarela, epizootias"
+    },
+    {
+      "id": "guaraci-cnes-estabelecimentos",
+      "title": "Estabelecimentos de saúde"
+    },
+    {
+      "id": "guaraci-cnes-tipounidades",
+      "title": "Tipos de unidade de saúde"
+    },
+    {
+      "id": "guaraci-sisagua-vigilancia-parametros-basicos",
+      "title": "SISAGUA — Vigilância — parâmetros básicos"
+    },
+    {
+      "id": "guaraci-sisagua-controle-semestral",
+      "title": "SISAGUA — Controle semestral"
+    },
+    {
+      "id": "guaraci-sisagua-cadastro-carro-pipa-populacao",
+      "title": "SISAGUA — Carros-pipa — população atendida"
+    },
+    {
+      "id": "guaraci-sisagua-cadastro-carro-pipa-procedencia",
+      "title": "SISAGUA — Carros-pipa — procedência da água"
+    },
+    {
+      "id": "guaraci-sisagua-controle-mensal-demais-parametros",
+      "title": "SISAGUA — Controle mensal — demais parâmetros"
+    },
+    {
+      "id": "guaraci-sisagua-controle-mensal-infraestrutura-operacional",
+      "title": "SISAGUA — Controle mensal — infraestrutura operacional"
+    },
+    {
+      "id": "guaraci-sisagua-controle-mensal-plano-amostragem",
+      "title": "SISAGUA — Controle mensal — plano de amostragem"
+    },
+    {
+      "id": "guaraci-sisagua-populacao-abastecida",
+      "title": "SISAGUA — População abastecida"
+    },
+    {
+      "id": "guaraci-sisagua-tratamento-agua",
+      "title": "SISAGUA — Tratamento de água — cadastro"
+    },
+    {
+      "id": "guaraci-sisagua-vigilancia-cianobacterias-e-cianotoxinas",
+      "title": "SISAGUA — Vigilância — cianobactérias e cianotoxinas"
+    },
+    {
+      "id": "guaraci-sisagua-vigilancia-demais-parametros",
+      "title": "SISAGUA — Vigilância — demais parâmetros"
+    },
+    {
+      "id": "guaraci-anvisa-vigimed-notificacoes",
+      "title": "ANVISA — VigiMed: notificações"
+    },
+    {
+      "id": "guaraci-anvisa-vigimed-medicamentos",
+      "title": "ANVISA — VigiMed: medicamentos"
+    },
+    {
+      "id": "guaraci-anvisa-vigimed-reacoes",
+      "title": "ANVISA — VigiMed: reações"
+    },
+    {
+      "id": "guaraci-anvisa-tecnovigilancia",
+      "title": "ANVISA — Tecnovigilância"
+    },
+    {
+      "id": "guaraci-anvisa-hemovigilancia",
+      "title": "ANVISA — Hemovigilância"
+    },
+    {
+      "id": "guaraci-anvisa-medicamentos-registrados",
+      "title": "ANVISA — Medicamentos registrados"
+    },
+    {
+      "id": "guaraci-anvisa-cmed-precos",
+      "title": "ANVISA — CMED: preços de medicamentos"
+    },
+    {
+      "id": "guaraci-anvisa-cmed-precos-governo",
+      "title": "ANVISA — CMED: preços para compras públicas"
+    },
+    {
+      "id": "guaraci-sesai-tuberculose",
+      "title": "Tuberculose na saúde indígena"
+    },
+    {
+      "id": "guaraci-enani-2019",
+      "title": "ENANI-2019 — Inquérito nacional de alimentação e nutrição infantil, microdados com 26 bancos imputados"
+    },
+    {
+      "id": "guaraci-saude-indigena-sesai-atendimentos",
+      "title": "Saúde indígena — Atendimentos da SESAI"
+    },
+    {
+      "id": "guaraci-saude-indigena-sesai-recursos-humanos",
+      "title": "Saúde indígena — Recursos humanos da SESAI"
+    },
+    {
+      "id": "guaraci-saude-indigena-sasisus-esgotamento-sanitario",
+      "title": "Saúde indígena — Esgotamento sanitário em aldeias"
+    },
+    {
+      "id": "guaraci-saude-indigena-sasi-sus-gerenciamento-de-residuos-solidos",
+      "title": "Saúde indígena — Gerenciamento de resíduos sólidos"
+    },
+    {
+      "id": "guaraci-saude-indigena-planilha-de-fornecimento-e-monitoramento-da-qualidade-da-agua-acesso-a-agua",
+      "title": "Saúde indígena — Fornecimento e qualidade da água"
+    },
+    {
+      "id": "guaraci-saude-indigena-planilha-registros-habilitacao-recebimento-incentivo",
+      "title": "Saúde indígena — Habilitação e recebimento de incentivo"
+    },
+    {
+      "id": "guaraci-saude-indigena-sistema-de-atencao-a-saude-indigena-modulo-de-vigilancia-alimentar-e-nutricional",
+      "title": "Saúde indígena — Vigilância alimentar e nutricional indígena"
+    },
+    {
+      "id": "guaraci-saude-indigena-siasi-acompanhamento-gestacional",
+      "title": "Saúde indígena — Acompanhamento gestacional (SIASI)"
+    },
+    {
+      "id": "guaraci-saude-indigena-siasi-modulo-morbidades",
+      "title": "Saúde indígena — Módulo de morbidades (SIASI)"
+    },
+    {
+      "id": "guaraci-saude-indigena-siasi-modulo-saude-bucal-ficha3",
+      "title": "Saúde indígena — Saúde bucal — ficha 3"
+    },
+    {
+      "id": "guaraci-saude-indigena-siasi-modulo-saude-bucal-ficha4",
+      "title": "Saúde indígena — Saúde bucal — ficha 4"
+    },
+    {
+      "id": "guaraci-saude-indigena-siasi-modulo-saude-bucal-ficha7",
+      "title": "Saúde indígena — Saúde bucal — ficha 7"
+    },
+    {
+      "id": "guaraci-saude-indigena-indicadores-enfrentamento-monitoramento-covid19-indigenas",
+      "title": "Saúde indígena — Covid-19 em povos indígenas"
+    },
+    {
+      "id": "guaraci-atencao-primaria-pmmb-consolidado",
+      "title": "Atenção primária — PMMB, consolidado"
+    },
+    {
+      "id": "guaraci-atencao-primaria-pmmb-relacao-nominal-ativo",
+      "title": "Atenção primária — PMMB, relação nominal de ativos"
+    },
+    {
+      "id": "guaraci-atencao-primaria-pmmb-serie-historica",
+      "title": "Atenção primária — PMMB — série histórica"
+    },
+    {
+      "id": "guaraci-atencao-primaria-pmmb-relacao-nominal-coparticipacao",
+      "title": "Atenção primária — PMMB, coparticipação"
+    },
+    {
+      "id": "guaraci-atencao-primaria-pmmb-especialista-consolidado",
+      "title": "Atenção primária — PMMB Especialista, consolidado"
+    },
+    {
+      "id": "guaraci-atencao-primaria-pmmb-especialista-relacao-nominal-ativo",
+      "title": "Atenção primária — PMMB Especialista, relação nominal de ativos"
+    },
+    {
+      "id": "guaraci-atencao-primaria-pmmb-especialista-serie-historica",
+      "title": "Atenção primária — PMMB Especialista, série histórica"
+    },
+    {
+      "id": "guaraci-atencao-primaria-cadastro-vinculado-programa-previne-brasil",
+      "title": "Atenção primária — Cadastro vinculado ao Previne Brasil"
+    },
+    {
+      "id": "guaraci-atencao-primaria-indicador-desempenho-programa-previne-brasil",
+      "title": "Atenção primária — Indicador de desempenho do Previne Brasil"
+    },
+    {
+      "id": "guaraci-assistencia-a-saude-hospitais-e-leitos",
+      "title": "Hospitais e leitos"
+    },
+    {
+      "id": "guaraci-assistencia-a-saude-registro-de-ocupacao-hospitalar-covid-19",
+      "title": "Ocupação hospitalar — Covid-19"
+    },
+    {
+      "id": "guaraci-assistencia-a-saude-unidade-basicas-de-saude",
+      "title": "Unidades básicas de saúde"
+    },
+    {
+      "id": "guaraci-economia-da-saude-sistema-de-apuracao-e-gestao-de-custos-do-sus-apurasus",
+      "title": "ApuraSUS — Apuração e gestão de custos do SUS"
+    },
+    {
+      "id": "guaraci-ciencia-tecnologia-dgits-contribuicoes-consultas-publicas",
+      "title": "Contribuições em consultas públicas"
+    },
+    {
+      "id": "guaraci-ciencia-tecnologia-dgits-controle-demandas-conitec",
+      "title": "Controle de demandas da CONITEC"
+    },
+    {
+      "id": "guaraci-ciencia-tecnologia-dgits-tecnologias-diretrizes",
+      "title": "Tecnologias e diretrizes"
+    },
+    {
+      "id": "guaraci-sisvan-estado-nutricional-arquivos",
+      "title": "Sisvan · arquivos anuais"
+    },
+    {
+      "id": "guaraci-daf-estoque-medicamentos-bnafar-horus",
+      "title": "DAF — Estoque de medicamentos (BNAFAR/Hórus)"
+    },
+    {
+      "id": "guaraci-educacao-em-saude-pvc",
+      "title": "Educação em saúde (PVC)"
+    },
+    {
+      "id": "guaraci-ibge-populacao",
+      "title": "IBGE — População estimada"
+    },
+    {
+      "id": "guaraci-ibge-populacao-idade-sexo",
+      "title": "IBGE — População por idade e sexo (Censo)"
+    },
+    {
+      "id": "guaraci-ibge-pib-municipios",
+      "title": "IBGE — PIB dos municípios"
+    },
+    {
+      "id": "guaraci-ibge-nascidos-vivos-rc",
+      "title": "IBGE — Nascidos vivos (registro civil)"
+    },
+    {
+      "id": "guaraci-ibge-obitos-rc",
+      "title": "IBGE — Óbitos (registro civil)"
+    },
+    {
+      "id": "guaraci-ibge-area-territorial",
+      "title": "IBGE — Área territorial e densidade"
+    },
+    {
+      "id": "guaraci-ibge-casamentos",
+      "title": "IBGE — Casamentos (registro civil)"
+    },
+    {
+      "id": "guaraci-ibge-divorcios",
+      "title": "IBGE — Divórcios (registro civil)"
+    },
+    {
+      "id": "guaraci-ibge-saneamento-agua",
+      "title": "IBGE — Saneamento: abastecimento de água (Censo)"
+    },
+    {
+      "id": "guaraci-ibge-saneamento-esgoto",
+      "title": "IBGE — Saneamento: esgotamento sanitário (Censo)"
+    },
+    {
+      "id": "guaraci-ibge-saneamento-lixo",
+      "title": "IBGE — Saneamento: destino do lixo (Censo)"
+    },
+    {
+      "id": "guaraci-nasa-power",
+      "title": "POWER — Temperatura, radiação solar e vento"
+    },
+    {
+      "id": "guaraci-nasa-firms",
+      "title": "FIRMS — Focos de incêndio detectados por satélite"
+    },
+    {
+      "id": "guaraci-cetesb-qualar",
+      "title": "CETESB QUALAR — Índice horário de qualidade do ar por estação, últimas 48 horas (não é concentração) / CETESB · estações de monitoramento"
+    },
+    {
+      "id": "guaraci-mma-monitorar",
+      "title": "MonitorAr — Concentração horária de poluentes e meteorologia das redes estaduais de qualidade do ar, desde 2022"
+    },
+    {
+      "id": "guaraci-atencao-primaria-siaps-atendimento-individual",
+      "title": "Atenção primária — SIAPS · atendimento individual"
+    },
+    {
+      "id": "guaraci-vigitel",
+      "title": "Vigitel — Inquérito telefônico de fatores de risco para doenças crônicas nas capitais, microdados com peso, 2006 a 2024"
+    },
+    {
+      "id": "guaraci-ibama-agrotoxicos-comercializacao",
+      "title": "Comercialização de agrotóxicos"
+    },
+    {
+      "id": "guaraci-farmacia-popular-indicadores",
+      "title": "Farmácia Popular · indicadores"
+    },
+    {
+      "id": "guaraci-fns-repasses-fundo-a-fundo",
+      "title": "Repasses fundo a fundo (FNS)"
+    },
+    {
+      "id": "guaraci-ibge-pns",
+      "title": "PNS — Pesquisa Nacional de Saúde, microdados de 2013 e 2019"
+    },
+    {
+      "id": "guaraci-ibge-pense",
+      "title": "PeNSE — Pesquisa Nacional de Saúde do Escolar, microdados de 2012 a 2024"
+    },
+    {
+      "id": "guaraci-ibge-pof",
+      "title": "POF 2017-2018 — Pesquisa de Orçamentos Familiares, microdados com consumo alimentar e despesas"
+    },
+    {
+      "id": "guaraci-ibge-censo-cor-raca-idade-sexo",
+      "title": "Censo: cor ou raça, sexo e idade"
+    },
+    {
+      "id": "guaraci-ibge-censo-alfabetizacao",
+      "title": "Censo: alfabetização"
+    },
+    {
+      "id": "guaraci-ibge-censo-indigena",
+      "title": "Censo: população indígena"
+    },
+    {
+      "id": "guaraci-ibge-censo-quilombola",
+      "title": "Censo: população quilombola"
+    },
+    {
+      "id": "guaraci-ibge-censo-adensamento",
+      "title": "Censo: adensamento domiciliar"
+    },
+    {
+      "id": "guaraci-ibge-censo-paredes",
+      "title": "Censo: material das paredes"
+    },
+    {
+      "id": "guaraci-ibge-censo-deficiencia",
+      "title": "Censo: pessoas com deficiência"
+    },
+    {
+      "id": "guaraci-ibge-pnadc-visita1",
+      "title": "PNAD Contínua · visita 1"
+    },
+    {
+      "id": "guaraci-ibge-pnadc-visita5",
+      "title": "PNAD Contínua · visita 5"
+    },
+    {
+      "id": "guaraci-ibge-pnadc-trimestre1",
+      "title": "PNAD Contínua · 1º trimestre"
+    },
+    {
+      "id": "guaraci-ibge-pnadc-trimestre2",
+      "title": "PNAD Contínua · 2º trimestre"
+    },
+    {
+      "id": "guaraci-ibge-pnadc-trimestre3",
+      "title": "PNAD Contínua · 3º trimestre"
+    },
+    {
+      "id": "guaraci-ibge-pnadc-trimestre4",
+      "title": "PNAD Contínua · 4º trimestre"
+    },
+    {
+      "id": "guaraci-prf-acidentes-ocorrencias",
+      "title": "Acidentes em rodovias federais · ocorrências"
+    },
+    {
+      "id": "guaraci-inca-rhc",
+      "title": "Registros Hospitalares de Câncer"
+    },
+    {
+      "id": "guaraci-mgdi-samu",
+      "title": "MGDI — SAMU 192 · indicadores"
+    },
+    {
+      "id": "guaraci-mgdi-upa",
+      "title": "MGDI — UPA 24h · indicadores"
+    },
+    {
+      "id": "guaraci-mgdi-raps",
+      "title": "MGDI — RAPS · indicadores"
+    },
+    {
+      "id": "guaraci-mgdi-emulti",
+      "title": "MGDI — eMulti · indicadores"
+    },
+    {
+      "id": "guaraci-mgdi-academia-saude",
+      "title": "MGDI — Academia da Saúde · indicadores"
+    },
+    {
+      "id": "guaraci-mgdi-saude-bucal",
+      "title": "MGDI — Saúde bucal · indicadores"
+    },
+    {
+      "id": "guaraci-mgdi-telessaude",
+      "title": "MGDI — Telessaúde · indicadores"
+    },
+    {
+      "id": "guaraci-educacao-saude-pet-saude",
+      "title": "PET-Saúde — Projetos e bolsas do Programa de Educação pelo Trabalho para a Saúde"
+    },
+    {
+      "id": "guaraci-educacao-saude-sig-residencia-medica",
+      "title": "Residência médica — Programas e bolsas de residência médica por instituição"
+    },
+    {
+      "id": "guaraci-educacao-saude-sig-residencia-area-profissional",
+      "title": "Residência em área profissional"
+    },
+    {
+      "id": "guaraci-saude-indigena-sesai-acidentes-ofidicos",
+      "title": "Saúde indígena — SESAI · acidentes ofídicos"
+    },
+    {
+      "id": "guaraci-saude-indigena-sesai-arboviroses",
+      "title": "Saúde indígena — SESAI · arboviroses"
+    },
+    {
+      "id": "guaraci-saude-indigena-sesai-cobertura-vacinal",
+      "title": "Saúde indígena — SESAI · cobertura vacinal"
+    },
+    {
+      "id": "guaraci-saude-indigena-sesai-covid19",
+      "title": "Saúde indígena — SESAI · Covid-19"
+    },
+    {
+      "id": "guaraci-saude-indigena-sesai-demografico",
+      "title": "Saúde indígena — SESAI · cadastro demográfico"
+    },
+    {
+      "id": "guaraci-saude-indigena-sesai-doencas-diarreicas-agudas",
+      "title": "Saúde indígena — SESAI · doenças diarreicas agudas"
+    },
+    {
+      "id": "guaraci-saude-indigena-sesai-doencas-imunopreveniveis",
+      "title": "Saúde indígena — SESAI · doenças imunopreveníveis"
+    },
+    {
+      "id": "guaraci-saude-indigena-sesai-doencas-respiratorias",
+      "title": "Saúde indígena — SESAI · doenças respiratórias"
+    },
+    {
+      "id": "guaraci-saude-indigena-sesai-doencas-zoonoticas",
+      "title": "Saúde indígena — SESAI · doenças zoonóticas"
+    },
+    {
+      "id": "guaraci-ibge-obitos-fetais-rc",
+      "title": "IBGE — Registro Civil: óbitos fetais"
+    },
+    {
+      "id": "guaraci-ibge-obitos-residencia-rc",
+      "title": "IBGE — Registro Civil: óbitos por residência"
+    },
+    {
+      "id": "guaraci-ibge-censo-obitos",
+      "title": "Censo: óbitos de moradores"
+    },
+    {
+      "id": "guaraci-ibge-censo-autismo",
+      "title": "Censo: diagnóstico de autismo"
+    },
+    {
+      "id": "guaraci-ibge-censo-dificuldade-funcional",
+      "title": "Censo: dificuldades funcionais"
+    },
+    {
+      "id": "guaraci-ibge-pnad-saude",
+      "title": "PNAD · suplemento de saúde"
+    },
+    {
+      "id": "guaraci-inpe-area-queimada-biomas",
+      "title": "Área queimada por bioma"
+    },
+    {
+      "id": "guaraci-inpe-sisam",
+      "title": "SISAM · qualidade do ar modelada"
+    },
+    {
+      "id": "guaraci-mgdi-cancer-colo-mama",
+      "title": "MGDI — Câncer de colo e mama · indicadores"
+    },
+    {
+      "id": "guaraci-mgdi-cirurgias-especialistas",
+      "title": "MGDI — Agora Tem Especialistas · cirurgias"
+    },
+    {
+      "id": "guaraci-mgdi-equidade",
+      "title": "MGDI — Equidade · indicadores"
+    },
+    {
+      "id": "guaraci-mgdi-residencias-saude",
+      "title": "MGDI — Pró-Residência · indicadores"
+    },
+    {
+      "id": "guaraci-mgdi-rnds",
+      "title": "MGDI — RNDS · indicadores"
+    },
+    {
+      "id": "guaraci-mgdi-saude-bucal-fluoretacao",
+      "title": "MGDI — Saúde bucal e fluoretação · indicadores"
+    },
+    {
+      "id": "guaraci-ibge-pam-lavouras",
+      "title": "IBGE — PAM · lavouras"
+    },
+    {
+      "id": "guaraci-ibge-ppm-rebanhos",
+      "title": "IBGE — PPM · rebanhos"
+    },
+    {
+      "id": "guaraci-ibge-ppm-aquicultura",
+      "title": "IBGE — PPM · aquicultura"
+    },
+    {
+      "id": "guaraci-ibge-ppm-producao-animal",
+      "title": "IBGE — PPM · produção de origem animal"
+    },
+    {
+      "id": "guaraci-ibge-pevs-extracao-vegetal",
+      "title": "IBGE — PEVS · extração vegetal"
+    },
+    {
+      "id": "guaraci-ibge-pevs-silvicultura",
+      "title": "IBGE — PEVS · silvicultura"
+    },
+    {
+      "id": "guaraci-ibge-censo-agro-2017-agrotoxicos",
+      "title": "Censo Agro 2017 · agrotóxicos"
+    },
+    {
+      "id": "guaraci-ibge-censo-agro-2017-estabelecimentos",
+      "title": "Censo Agro 2017 · estabelecimentos"
+    },
+    {
+      "id": "guaraci-ibge-censo-agro-2017-produtor",
+      "title": "Censo Agro 2017 · produtor"
+    },
+    {
+      "id": "guaraci-ibge-censo-rendimento",
+      "title": "Censo: rendimento do trabalho"
+    },
+    {
+      "id": "guaraci-ibge-censo-frequencia-escolar",
+      "title": "Censo: frequência escolar"
+    },
+    {
+      "id": "guaraci-ibge-censo-fecundidade",
+      "title": "Censo: filhos tidos nascidos vivos"
+    },
+    {
+      "id": "guaraci-anvisa-hemoprod",
+      "title": "ANVISA · Hemoprod"
+    },
+    {
+      "id": "guaraci-anvisa-nucleos-seguranca-paciente",
+      "title": "ANVISA · núcleos de segurança do paciente"
+    },
+    {
+      "id": "guaraci-anvisa-produtos-saude-registrados",
+      "title": "ANVISA · produtos para saúde registrados"
+    },
+    {
+      "id": "guaraci-anvisa-produtos-saude-modelos",
+      "title": "ANVISA · produtos para saúde, modelos"
+    },
+    {
+      "id": "guaraci-anvisa-produtos-irregulares",
+      "title": "ANVISA · produtos irregulares"
+    },
+    {
+      "id": "guaraci-ibama-rapp-emissoes-atmosfericas",
+      "title": "IBAMA · RAPP, emissões atmosféricas"
+    },
+    {
+      "id": "guaraci-ibama-rapp-efluentes-liquidos",
+      "title": "IBAMA · RAPP, efluentes líquidos"
+    },
+    {
+      "id": "guaraci-senappen-sisdepen",
+      "title": "SISDEPEN · sistema prisional"
+    },
+    {
+      "id": "guaraci-isp-rj-delegacias-mensal",
+      "title": "ISP-RJ · delegacias"
+    },
+    {
+      "id": "guaraci-isp-rj-municipios-mensal",
+      "title": "ISP-RJ · municípios"
+    },
+    {
+      "id": "guaraci-cgu-novo-bolsa-familia",
+      "title": "Novo Bolsa Família · pagamentos"
+    },
+    {
+      "id": "guaraci-cgu-bpc",
+      "title": "BPC · pagamentos"
+    },
+    {
+      "id": "guaraci-cgu-despesas-execucao",
+      "title": "Despesas executadas da União"
+    },
+    {
+      "id": "guaraci-cgu-transferencias",
+      "title": "Transferências de recursos da União"
+    },
+    {
+      "id": "guaraci-cgu-emendas-parlamentares",
+      "title": "Emendas parlamentares"
+    },
+    {
+      "id": "guaraci-ibge-munic",
+      "title": "MUNIC 2024 · perfil dos municípios"
+    },
+    {
+      "id": "guaraci-ibge-projecoes-populacao-2024",
+      "title": "IBGE — Projeções da população · revisão 2024"
+    },
+    {
+      "id": "guaraci-mapbiomas-cobertura-municipios",
+      "title": "MapBiomas · cobertura e uso da terra"
+    },
+    {
+      "id": "guaraci-mapbiomas-vegetacao-secundaria-municipios",
+      "title": "MapBiomas · vegetação secundária"
+    },
+    {
+      "id": "guaraci-mdhc-ligue180",
+      "title": "Ligue 180 — Atendimentos da Central de Atendimento à Mulher por semestre, de 2020 a 1S2024, com perfil de vítima e suspeito"
+    },
+    {
+      "id": "guaraci-mma-unidades-conservacao",
+      "title": "CNUC · unidades de conservação"
+    },
+    {
+      "id": "guaraci-mma-especies-ameacadas",
+      "title": "MMA · espécies ameaçadas"
+    },
+    {
+      "id": "guaraci-inss-cat",
+      "title": "INSS · comunicações de acidente de trabalho"
+    },
+    {
+      "id": "guaraci-inss-beneficios-concedidos",
+      "title": "INSS · benefícios concedidos"
+    },
+    {
+      "id": "guaraci-inss-beneficios-mantidos",
+      "title": "INSS · benefícios mantidos / INSS · benefícios cessados"
+    },
+    {
+      "id": "guaraci-inss-beneficios-indeferidos",
+      "title": "INSS · benefícios indeferidos"
+    },
+    {
+      "id": "guaraci-senatran-renaest",
+      "title": "RENAEST · acidentes de trânsito"
+    },
+    {
+      "id": "guaraci-bndes-operacoes-financiamento",
+      "title": "BNDES · operações de financiamento"
+    },
+    {
+      "id": "guaraci-bndes-desembolsos-mensais",
+      "title": "BNDES · desembolsos mensais"
+    },
+    {
+      "id": "guaraci-mapa-agrofit",
+      "title": "MAPA · AGROFIT, agrotóxicos registrados"
+    },
+    {
+      "id": "guaraci-mapa-sif",
+      "title": "MAPA · Serviço de Inspeção Federal"
+    },
+    {
+      "id": "guaraci-mapa-sipeagro",
+      "title": "MAPA · SIPEAGRO"
+    },
+    {
+      "id": "guaraci-recife-dengue",
+      "title": "Recife · dengue / Recife · chikungunya / Recife · zika"
+    },
+    {
+      "id": "guaraci-poa-gercon-consultas",
+      "title": "Porto Alegre · GERCON, consultas especializadas"
+    },
+    {
+      "id": "guaraci-mg-hanseniase",
+      "title": "Minas Gerais · hanseníase"
+    },
+    {
+      "id": "guaraci-mg-aids-hiv",
+      "title": "Minas Gerais · aids e HIV"
+    },
+    {
+      "id": "guaraci-mg-tuberculose",
+      "title": "Minas Gerais · tuberculose"
+    },
+    {
+      "id": "guaraci-mg-acidentes-transporte",
+      "title": "Minas Gerais · óbitos por acidentes de transporte"
+    },
+    {
+      "id": "guaraci-ibge-ipca-serie",
+      "title": "IPCA · série nacional"
+    },
+    {
+      "id": "guaraci-ibge-inpc-serie",
+      "title": "INPC · série nacional"
+    },
+    {
+      "id": "guaraci-ibge-ipca15-serie",
+      "title": "IPCA-15 · série nacional"
+    },
+    {
+      "id": "guaraci-ibge-munic-edicoes",
+      "title": "MUNIC · edições de 2018 a 2025"
+    },
+    {
+      "id": "guaraci-ibge-estadic",
+      "title": "ESTADIC · perfil dos estados"
+    },
+    {
+      "id": "guaraci-ibge-munic-saneamento",
+      "title": "MUNIC · suplementos de saneamento básico"
+    },
+    {
+      "id": "guaraci-seade-obitos-sp-serie",
+      "title": "SEADE · óbitos de SP, série histórica"
+    },
+    {
+      "id": "guaraci-seade-obitos-sp-ano-corrente",
+      "title": "SEADE · óbitos de SP, ano corrente"
+    },
+    {
+      "id": "guaraci-seade-nascidos-vivos-sp-serie",
+      "title": "SEADE · nascidos vivos de SP, série histórica"
+    },
+    {
+      "id": "guaraci-seade-nascidos-vivos-sp-ano-corrente",
+      "title": "SEADE · nascidos vivos de SP, ano corrente"
+    },
+    {
+      "id": "guaraci-seade-mortalidade-geral-sp",
+      "title": "SEADE · mortalidade geral de SP"
+    },
+    {
+      "id": "guaraci-seade-mortalidade-infantil-sp",
+      "title": "SEADE · mortalidade infantil de SP"
+    },
+    {
+      "id": "guaraci-seade-esperanca-vida-sp",
+      "title": "SEADE · esperança de vida de SP"
+    },
+    {
+      "id": "guaraci-seade-fecundidade-sp",
+      "title": "SEADE · fecundidade de SP"
+    },
+    {
+      "id": "guaraci-seade-saude-painel-sp",
+      "title": "SEADE · painel de saúde de SP"
+    },
+    {
+      "id": "guaraci-seade-ipvs-2022",
+      "title": "SEADE · IPVS 2022"
+    },
+    {
+      "id": "guaraci-seade-ipvs-2010",
+      "title": "SEADE · IPVS 2010"
+    },
+    {
+      "id": "guaraci-ses-go-mapa-leitos",
+      "title": "SES-GO · mapa de leitos"
+    },
+    {
+      "id": "guaraci-ses-go-dengue",
+      "title": "SES-GO · dengue"
+    },
+    {
+      "id": "guaraci-ses-go-zika-chikungunya",
+      "title": "SES-GO · zika e chikungunya"
+    },
+    {
+      "id": "guaraci-ses-go-arboviroses-internacao",
+      "title": "SES-GO · internações por arboviroses"
+    },
+    {
+      "id": "guaraci-ses-go-srag",
+      "title": "SES-GO · síndrome respiratória aguda grave"
+    },
+    {
+      "id": "guaraci-ses-go-sindrome-gripal",
+      "title": "SES-GO · síndrome gripal"
+    },
+    {
+      "id": "guaraci-ses-go-mortalidade",
+      "title": "SES-GO · mortalidade"
+    },
+    {
+      "id": "guaraci-ses-go-hiv-aids",
+      "title": "SES-GO · HIV e aids"
+    },
+    {
+      "id": "guaraci-ses-go-sifilis",
+      "title": "SES-GO · sífilis"
+    },
+    {
+      "id": "guaraci-ses-go-hepatites",
+      "title": "SES-GO · hepatites virais"
+    },
+    {
+      "id": "guaraci-ses-go-tuberculose",
+      "title": "SES-GO · tuberculose"
+    },
+    {
+      "id": "guaraci-ses-go-hanseniase",
+      "title": "SES-GO · hanseníase"
+    },
+    {
+      "id": "guaraci-ses-go-regulacao-indicadores",
+      "title": "SES-GO · indicadores da regulação"
+    },
+    {
+      "id": "guaraci-ses-go-oncologia",
+      "title": "SES-GO · oncologia"
+    },
+    {
+      "id": "guaraci-iarc-ci5-xii",
+      "title": "IARC · incidência de câncer em cinco continentes, vol. XII"
+    },
+    {
+      "id": "guaraci-sb-brasil-1996",
+      "title": "SB Brasil · levantamento de 1996"
+    },
+    {
+      "id": "guaraci-pnds-2006",
+      "title": "PNDS · Pesquisa Nacional de Demografia e Saúde 2006"
+    },
+    {
+      "id": "guaraci-covitel-2022",
+      "title": "Covitel · inquérito de 2022"
+    },
+    {
+      "id": "guaraci-covitel-2023",
+      "title": "Covitel · inquérito de 2023"
+    },
+    {
+      "id": "guaraci-cetic-tic-saude-estabelecimentos",
+      "title": "Cetic.br · TIC Saúde, estabelecimentos"
+    },
+    {
+      "id": "guaraci-cetic-tic-domicilios",
+      "title": "Cetic.br · TIC Domicílios"
+    },
+    {
+      "id": "govteca-catalogo-interesse-publico",
+      "title": "Govteca — catálogo de painéis, bases e serviços de interesse público",
+      "detail": "Catálogo independente de painéis, observatórios, bases e serviços públicos brasileiros, organizado por tema, território e origem institucional. Cada ficha encaminha ao mantenedor do recurso."
+    }
+  ],
+  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Aforamento e Acervo do TJBA; Atlas do Desenvolvimento Humano no Brasil; Balneabilidade SC (IMA); BDQueimadas (INPE); CadSUAS - Consulta Externa; Cesta Básica Nacional (DIEESE); CicloMapa; Conecta PNE; Consulta de Estabelecimentos do CNES; Contas Públicas do Brasil; Cota Parlamentar: pesquisa de despesas (Câmara dos Deputados); Cotações da CEAGESP; DadosJusBr; DataViva; De Olho no Luz para Todos; Despesas por Fornecedor (TCE-SP); Estatísticas do Censo Escolar (Inep); Estatísticas do Simples Nacional e do MEI; Farol TCE/SC; Geo ONTL (Geoportal da Infra S.A.); GeoInfo Embrapa; GeoPB; HabitaSAMPA Mapa; Histórico da Operação (ONS); IEPS Data; Impostômetro; Índice Firjan de Gestão Fiscal (IFGF); InfoDengue; Infosiga SP; ISP Visualização; Mapa Cadastral de Curitiba (GeoCuritiba); Mapa da Desigualdade 2025 (São Paulo); Mapa das Parcerias (São Paulo Parcerias); Mapa de Acesso a Oportunidades (Ipea); Mapa de Empresas; Mapa de Obras do DER-MG; Mapa Nacional da Violência de Gênero; Mapas da (In)justiça; Mapeamento Nacional de Conflitos pela Terra e Moradia; Monitor de Secas do Brasil; Monitor Legislativo de Proposições (OLB); Municípios e Saneamento; Óbitos no Trânsito Brasileiro (ONSV); Obras Abertas; Observa Infância Viva (Fortaleza); ObservaDH - Observatório Nacional dos Direitos Humanos; ObservaMOB: Observatório de Mobilidade de Porto Alegre; Observatório Agro Catarinense; Observatório da Criança e do Adolescente; Observatório da Prevenção e da Erradicação do Trabalho Infantil (SmartLab); Observatório da Segurança Pública do Espírito Santo; Observatório da Transição Energética; Observatório de Dados de Energia do Piauí; Observatório Digital da Socioeducação (IASES-ES); Observatório do Cadastro Único; Observatório Socioassistencial de Ji-Paraná; Observatório Terras Quilombolas; Painéis do Programa Devolve ICMS (RS); Painel CNT de Acidentes Rodoviários; Painel de Controle (TCE-ES); Painel de Dados da Ouvidoria Nacional de Direitos Humanos; Painel de Dados da Regulação (SES-RS); Painel de Monitoramento do Plano Estadual de Educação (SEE-MG); Painel de Monitoramento do PNE (Inep); Painel Dinâmico da Fiscalização do Abastecimento; Painel Dinâmico de Preços de Combustíveis e Derivados do Petróleo; Painel do Obrasgov.br; Painel do Orçamento Federal; Painel do Zoneamento Agrícola de Risco Climático (Zarc); Painel Público do Cadastro Nacional de Pessoas Desaparecidas (CNPD); Painel Saneamento Brasil; Painel Transparência Obras Públicas (Belo Horizonte); Portal da Transparência do Recife; Portal dos Mananciais (Sabesp); Portal Hidrológico do Ceará; Primeira Infância em Dados; Radar Nacional da Transparência Pública; Ranking Siconfi; Rede de Atendimento em Direitos Humanos de São Paulo; Resultados (TSE); Sampa+Rural; SAPL da Câmara Municipal de Fortaleza; SAR: Sistema de Acompanhamento de Reservatórios (ANA); Seade Trabalho; SIOPE: Situação de cumprimento dos indicadores constitucionais; SmartLab: Observatório da Erradicação do Trabalho Escravo; SPLegis (Câmara Municipal de São Paulo); Terras Indígenas no Brasil; TomeConta; Mpox — Casos notificados de mpox; SRAG — bancos anuais; SRAG: banco histórico 2009-2012; SRAG: banco histórico 2013-2018; ESAVI — Eventos adversos pós-vacinação; Insumos estratégicos de vacinação; Febre amarela, epizootias; Estabelecimentos de saúde; Tipos de unidade de saúde; SISAGUA — Vigilância — parâmetros básicos; SISAGUA — Controle semestral; SISAGUA — Carros-pipa — população atendida; SISAGUA — Carros-pipa — procedência da água; SISAGUA — Controle mensal — demais parâmetros; SISAGUA — Controle mensal — infraestrutura operacional; SISAGUA — Controle mensal — plano de amostragem; SISAGUA — População abastecida; SISAGUA — Tratamento de água — cadastro; SISAGUA — Vigilância — cianobactérias e cianotoxinas; SISAGUA — Vigilância — demais parâmetros; ANVISA — VigiMed: notificações; ANVISA — VigiMed: medicamentos; ANVISA — VigiMed: reações; ANVISA — Tecnovigilância; ANVISA — Hemovigilância; ANVISA — Medicamentos registrados; ANVISA — CMED: preços de medicamentos; ANVISA — CMED: preços para compras públicas; Tuberculose na saúde indígena; ENANI-2019 — Inquérito nacional de alimentação e nutrição infantil, microdados com 26 bancos imputados; Saúde indígena — Atendimentos da SESAI; Saúde indígena — Recursos humanos da SESAI; Saúde indígena — Esgotamento sanitário em aldeias; Saúde indígena — Gerenciamento de resíduos sólidos; Saúde indígena — Fornecimento e qualidade da água; Saúde indígena — Habilitação e recebimento de incentivo; Saúde indígena — Vigilância alimentar e nutricional indígena; Saúde indígena — Acompanhamento gestacional (SIASI); Saúde indígena — Módulo de morbidades (SIASI); Saúde indígena — Saúde bucal — ficha 3; Saúde indígena — Saúde bucal — ficha 4; Saúde indígena — Saúde bucal — ficha 7; Saúde indígena — Covid-19 em povos indígenas; Atenção primária — PMMB, consolidado; Atenção primária — PMMB, relação nominal de ativos; Atenção primária — PMMB — série histórica; Atenção primária — PMMB, coparticipação; Atenção primária — PMMB Especialista, consolidado; Atenção primária — PMMB Especialista, relação nominal de ativos; Atenção primária — PMMB Especialista, série histórica; Atenção primária — Cadastro vinculado ao Previne Brasil; Atenção primária — Indicador de desempenho do Previne Brasil; Hospitais e leitos; Ocupação hospitalar — Covid-19; Unidades básicas de saúde; ApuraSUS — Apuração e gestão de custos do SUS; Contribuições em consultas públicas; Controle de demandas da CONITEC; Tecnologias e diretrizes; Sisvan · arquivos anuais; DAF — Estoque de medicamentos (BNAFAR/Hórus); Educação em saúde (PVC); IBGE — População estimada; IBGE — População por idade e sexo (Censo); IBGE — PIB dos municípios; IBGE — Nascidos vivos (registro civil); IBGE — Óbitos (registro civil); IBGE — Área territorial e densidade; IBGE — Casamentos (registro civil); IBGE — Divórcios (registro civil); IBGE — Saneamento: abastecimento de água (Censo); IBGE — Saneamento: esgotamento sanitário (Censo); IBGE — Saneamento: destino do lixo (Censo); POWER — Temperatura, radiação solar e vento; FIRMS — Focos de incêndio detectados por satélite; CETESB QUALAR — Índice horário de qualidade do ar por estação, últimas 48 horas (não é concentração) / CETESB · estações de monitoramento; MonitorAr — Concentração horária de poluentes e meteorologia das redes estaduais de qualidade do ar, desde 2022; Atenção primária — SIAPS · atendimento individual; Vigitel — Inquérito telefônico de fatores de risco para doenças crônicas nas capitais, microdados com peso, 2006 a 2024; Comercialização de agrotóxicos; Farmácia Popular · indicadores; Repasses fundo a fundo (FNS); PNS — Pesquisa Nacional de Saúde, microdados de 2013 e 2019; PeNSE — Pesquisa Nacional de Saúde do Escolar, microdados de 2012 a 2024; POF 2017-2018 — Pesquisa de Orçamentos Familiares, microdados com consumo alimentar e despesas; Censo: cor ou raça, sexo e idade; Censo: alfabetização; Censo: população indígena; Censo: população quilombola; Censo: adensamento domiciliar; Censo: material das paredes; Censo: pessoas com deficiência; PNAD Contínua · visita 1; PNAD Contínua · visita 5; PNAD Contínua · 1º trimestre; PNAD Contínua · 2º trimestre; PNAD Contínua · 3º trimestre; PNAD Contínua · 4º trimestre; Acidentes em rodovias federais · ocorrências; Registros Hospitalares de Câncer; MGDI — SAMU 192 · indicadores; MGDI — UPA 24h · indicadores; MGDI — RAPS · indicadores; MGDI — eMulti · indicadores; MGDI — Academia da Saúde · indicadores; MGDI — Saúde bucal · indicadores; MGDI — Telessaúde · indicadores; PET-Saúde — Projetos e bolsas do Programa de Educação pelo Trabalho para a Saúde; Residência médica — Programas e bolsas de residência médica por instituição; Residência em área profissional; Saúde indígena — SESAI · acidentes ofídicos; Saúde indígena — SESAI · arboviroses; Saúde indígena — SESAI · cobertura vacinal; Saúde indígena — SESAI · Covid-19; Saúde indígena — SESAI · cadastro demográfico; Saúde indígena — SESAI · doenças diarreicas agudas; Saúde indígena — SESAI · doenças imunopreveníveis; Saúde indígena — SESAI · doenças respiratórias; Saúde indígena — SESAI · doenças zoonóticas; IBGE — Registro Civil: óbitos fetais; IBGE — Registro Civil: óbitos por residência; Censo: óbitos de moradores; Censo: diagnóstico de autismo; Censo: dificuldades funcionais; PNAD · suplemento de saúde; Área queimada por bioma; SISAM · qualidade do ar modelada; MGDI — Câncer de colo e mama · indicadores; MGDI — Agora Tem Especialistas · cirurgias; MGDI — Equidade · indicadores; MGDI — Pró-Residência · indicadores; MGDI — RNDS · indicadores; MGDI — Saúde bucal e fluoretação · indicadores; IBGE — PAM · lavouras; IBGE — PPM · rebanhos; IBGE — PPM · aquicultura; IBGE — PPM · produção de origem animal; IBGE — PEVS · extração vegetal; IBGE — PEVS · silvicultura; Censo Agro 2017 · agrotóxicos; Censo Agro 2017 · estabelecimentos; Censo Agro 2017 · produtor; Censo: rendimento do trabalho; Censo: frequência escolar; Censo: filhos tidos nascidos vivos; ANVISA · Hemoprod; ANVISA · núcleos de segurança do paciente; ANVISA · produtos para saúde registrados; ANVISA · produtos para saúde, modelos; ANVISA · produtos irregulares; IBAMA · RAPP, emissões atmosféricas; IBAMA · RAPP, efluentes líquidos; SISDEPEN · sistema prisional; ISP-RJ · delegacias; ISP-RJ · municípios; Novo Bolsa Família · pagamentos; BPC · pagamentos; Despesas executadas da União; Transferências de recursos da União; Emendas parlamentares; MUNIC 2024 · perfil dos municípios; IBGE — Projeções da população · revisão 2024; MapBiomas · cobertura e uso da terra; MapBiomas · vegetação secundária; Ligue 180 — Atendimentos da Central de Atendimento à Mulher por semestre, de 2020 a 1S2024, com perfil de vítima e suspeito; CNUC · unidades de conservação; MMA · espécies ameaçadas; INSS · comunicações de acidente de trabalho; INSS · benefícios concedidos; INSS · benefícios mantidos / INSS · benefícios cessados; INSS · benefícios indeferidos; RENAEST · acidentes de trânsito; BNDES · operações de financiamento; BNDES · desembolsos mensais; MAPA · AGROFIT, agrotóxicos registrados; MAPA · Serviço de Inspeção Federal; MAPA · SIPEAGRO; Recife · dengue / Recife · chikungunya / Recife · zika; Porto Alegre · GERCON, consultas especializadas; Minas Gerais · hanseníase; Minas Gerais · aids e HIV; Minas Gerais · tuberculose; Minas Gerais · óbitos por acidentes de transporte; IPCA · série nacional; INPC · série nacional; IPCA-15 · série nacional; MUNIC · edições de 2018 a 2025; ESTADIC · perfil dos estados; MUNIC · suplementos de saneamento básico; SEADE · óbitos de SP, série histórica; SEADE · óbitos de SP, ano corrente; SEADE · nascidos vivos de SP, série histórica; SEADE · nascidos vivos de SP, ano corrente; SEADE · mortalidade geral de SP; SEADE · mortalidade infantil de SP; SEADE · esperança de vida de SP; SEADE · fecundidade de SP; SEADE · painel de saúde de SP; SEADE · IPVS 2022; SEADE · IPVS 2010; SES-GO · mapa de leitos; SES-GO · dengue; SES-GO · zika e chikungunya; SES-GO · internações por arboviroses; SES-GO · síndrome respiratória aguda grave; SES-GO · síndrome gripal; SES-GO · mortalidade; SES-GO · HIV e aids; SES-GO · sífilis; SES-GO · hepatites virais; SES-GO · tuberculose; SES-GO · hanseníase; SES-GO · indicadores da regulação; SES-GO · oncologia; IARC · incidência de câncer em cinco continentes, vol. XII; SB Brasil · levantamento de 1996; PNDS · Pesquisa Nacional de Demografia e Saúde 2006; Covitel · inquérito de 2022; Covitel · inquérito de 2023; Cetic.br · TIC Saúde, estabelecimentos; Cetic.br · TIC Domicílios; Govteca — catálogo de painéis, bases e serviços de interesse público."
+},
+{
+  "date": "2026-11-16",
+  "type": "ferramentas",
+  "title": "Publicação editorial verificada — 2026-11-16",
+  "items": [
+    {
+      "id": "govteca-busca-lai",
+      "title": "Busca LAI"
+    },
+    {
+      "id": "govteca-e-cidadania-senado-federal",
+      "title": "e-Cidadania (Senado Federal)"
+    },
+    {
+      "id": "govteca-olho-vivo-sptrans",
+      "title": "Olho Vivo SPTrans"
+    },
+    {
+      "id": "govteca-participacao-assembleia-legislativa-de-minas-gerais",
+      "title": "Participação (Assembleia Legislativa de Minas Gerais)"
+    },
+    {
+      "id": "govteca-pesquisa-de-propostas-legislativas-camara-dos-deputados",
+      "title": "Pesquisa de Propostas Legislativas (Câmara dos Deputados)"
+    },
+    {
+      "id": "govteca-poa-transporte",
+      "title": "POA Transporte"
+    },
+    {
+      "id": "guaraci-orquestrador-dados-publicos",
+      "title": "Guaraci"
+    }
+  ],
+  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Busca LAI; e-Cidadania (Senado Federal); Olho Vivo SPTrans; Participação (Assembleia Legislativa de Minas Gerais); Pesquisa de Propostas Legislativas (Câmara dos Deputados); POA Transporte; Guaraci."
+},
+{
+  "date": "2026-11-16",
   "type": "nova-oportunidade",
   "title": "Publicação editorial verificada — 2026-11-16",
   "items": [

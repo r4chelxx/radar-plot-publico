@@ -1,5 +1,68 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.tools=[
+{
+  "id": "govteca-busca-lai",
+  "name": "Busca LAI",
+  "kind": "Busca de pedidos de acesso à informação",
+  "url": "https://buscalai.cgu.gov.br",
+  "desc": "Pesquisa pedidos de acesso à informação já respondidos pelo governo federal e decisões em recurso. Ficha de descoberta: Govteca. Conferida a identidade da página de destino; navegação interativa e exportação completa não foram testadas. Cobertura temporal, atualização e licença devem ser conferidas no recurso.",
+  "discoveryUrl": "https://govteca.com.br/f/busca-lai",
+  "lastChecked": "2026-11-16"
+},
+{
+  "id": "govteca-e-cidadania-senado-federal",
+  "name": "e-Cidadania (Senado Federal)",
+  "kind": "Participação e consulta legislativa",
+  "url": "https://www12.senado.leg.br/ecidadania",
+  "desc": "Opinião sobre projetos em tramitação no Senado, propostas de ideias legislativas e perguntas em audiências ao vivo. Ficha de descoberta: Govteca. Conferida a identidade da página de destino; navegação interativa e exportação completa não foram testadas. Cobertura temporal, atualização e licença devem ser conferidas no recurso.",
+  "discoveryUrl": "https://govteca.com.br/f/e-cidadania-senado-federal",
+  "lastChecked": "2026-11-16"
+},
+{
+  "id": "govteca-olho-vivo-sptrans",
+  "name": "Olho Vivo SPTrans",
+  "kind": "Consulta de transporte público em tempo real",
+  "url": "https://olhovivo.sptrans.com.br",
+  "desc": "Posição dos ônibus em tempo real e previsão de chegada nos pontos da cidade de São Paulo. Ficha de descoberta: Govteca. Conferida a identidade da página de destino; navegação interativa e exportação completa não foram testadas. Cobertura temporal, atualização e licença devem ser conferidas no recurso.",
+  "discoveryUrl": "https://govteca.com.br/f/olho-vivo-sptrans",
+  "lastChecked": "2026-11-16"
+},
+{
+  "id": "govteca-participacao-assembleia-legislativa-de-minas-gerais",
+  "name": "Participação (Assembleia Legislativa de Minas Gerais)",
+  "kind": "Participação legislativa",
+  "url": "https://www.almg.gov.br/participacao/inicial",
+  "desc": "Opinião sobre projetos de lei mineiros, consultas públicas, enquetes e perguntas em reuniões interativas da ALMG. Ficha de descoberta: Govteca. Conferida a identidade da página de destino; navegação interativa e exportação completa não foram testadas. Cobertura temporal, atualização e licença devem ser conferidas no recurso.",
+  "discoveryUrl": "https://govteca.com.br/f/participacao-assembleia-legislativa-de-minas-gerais",
+  "lastChecked": "2026-11-16"
+},
+{
+  "id": "govteca-pesquisa-de-propostas-legislativas-camara-dos-deputados",
+  "name": "Pesquisa de Propostas Legislativas (Câmara dos Deputados)",
+  "kind": "Pesquisa legislativa",
+  "url": "https://www.camara.leg.br/busca-portal/proposicoes/pesquisa-simplificada",
+  "desc": "Busca de projetos de lei e outras proposições da Câmara dos Deputados, com tramitação, autoria e situação. Ficha de descoberta: Govteca. Conferida a identidade da página de destino; navegação interativa e exportação completa não foram testadas. Cobertura temporal, atualização e licença devem ser conferidas no recurso.",
+  "discoveryUrl": "https://govteca.com.br/f/pesquisa-de-propostas-legislativas-camara-dos-deputados",
+  "lastChecked": "2026-11-16"
+},
+{
+  "id": "govteca-poa-transporte",
+  "name": "POA Transporte",
+  "kind": "Consulta de itinerários de transporte público",
+  "url": "https://www.poatransporte.com.br",
+  "desc": "Busca de linhas de ônibus e lotação de Porto Alegre por código, nome ou endereço, com traçado no mapa. Ficha de descoberta: Govteca. Conferida a identidade da página de destino; navegação interativa e exportação completa não foram testadas. Cobertura temporal, atualização e licença devem ser conferidas no recurso.",
+  "discoveryUrl": "https://govteca.com.br/f/poa-transporte",
+  "lastChecked": "2026-11-16"
+},
+{
+  "id": "guaraci-orquestrador-dados-publicos",
+  "name": "Guaraci",
+  "kind": "Coleta e conversão de dados públicos",
+  "url": "https://sabiadatalake.com.br/guaraci/",
+  "desc": "Ferramenta gratuita e de código aberto para buscar dados públicos brasileiros nas fontes produtoras e exportar CSV, Parquet ou SQLite, conforme a fonte. Interface web local e linha de comando; a instalação recomendada usa Git e Docker. Algumas integrações exigem credenciais próprias. Não é um acervo hospedado: o Sabiá Data Lake é apresentado como em construção. A disponibilidade de cada integração e a licença de cada base devem ser conferidas separadamente.",
+  "discoveryUrl": "https://sabiadatalake.com.br/guaraci/",
+  "lastChecked": "2026-11-16"
+},
   {
     "id": "be9e40b9672b7d79a68ce0c91d7c97b541c7e742d6681c8ed5f43e55e2401e5b",
     "name": "Three.js",
