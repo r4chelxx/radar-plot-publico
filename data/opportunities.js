@@ -1,25 +1,25 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.opportunities=[
-{
-  "id": "fd84e850b51d43d439eea917135e10b90b79fedd62c5f808a56248c50fb77c50",
-  "title": "SA|AJP Investigative Journalism Grants (Southern Africa Accountability Journalism Project)",
-  "org": "Henry Nxumalo Foundation",
-  "summary": "The Southern Africa Accountability Journalism Project provides investigative journalism grants and comprehensive editorial support to journalists.",
-  "type": "Grant",
-  "themes": [
-    "Jornalismo investigativo",
-    "Fotografia",
-    "Jornalismo"
-  ],
-  "scope": "« Back to all Fundings SA|AJP Investigative Journalism Grants (Southern Africa Accountability Journalism Project) Organisation: Henry Nxumalo Foundation Status: Open Type: Grant Theme: Investigative journalism Funding Size: $1,500 - $3,000 Deadline: Ongoing Eligibility: journalists and newsrooms in select Southern African Development Community (SADC) countries Target Region: Sub-Saharan Africa (SADC region) Application Language: English The Southern Africa Accountability Journalism Project (SA|AJP) provides investigative journalism grants and comprehensive editorial support to journalists and newsrooms in select Southern African Development Community (SADC) countries.",
-  "fit": 6,
-  "deadline": null,
-  "deadlineStatus": "Fluxo contínuo confirmado na chamada; sem data final anunciada.",
-  "eligibility": "parcial",
-  "status": "aberta",
-  "rules": "https://gfmd.info/fundings/saajp-investigative-journalism-grants-southern-africa-accountability-journalism-project/",
-  "apply": "https://gfmd.info/fundings/saajp-investigative-journalism-grants-southern-africa-accountability-journalism-project/"
-}, 
+  {
+    "id": "fd84e850b51d43d439eea917135e10b90b79fedd62c5f808a56248c50fb77c50",
+    "title": "SA|AJP Investigative Journalism Grants (Southern Africa Accountability Journalism Project)",
+    "org": "Henry Nxumalo Foundation",
+    "summary": "The Southern Africa Accountability Journalism Project provides investigative journalism grants and comprehensive editorial support to journalists.",
+    "type": "Grant",
+    "themes": [
+      "Jornalismo investigativo",
+      "Fotografia",
+      "Jornalismo"
+    ],
+    "scope": "journalists and newsrooms in select Southern African Development Community (SADC) countries",
+    "fit": 6,
+    "deadline": null,
+    "deadlineStatus": "Fluxo contínuo confirmado na chamada; sem data final anunciada.",
+    "eligibility": "restrita",
+    "status": "aberta",
+    "rules": "https://gfmd.info/fundings/saajp-investigative-journalism-grants-southern-africa-accountability-journalism-project/",
+    "apply": "https://gfmd.info/fundings/saajp-investigative-journalism-grants-southern-africa-accountability-journalism-project/"
+  },
   {
     "id": "56c9f54211495a3c7d4e6a24422c89255fef3865246e9683380ac2a22bd3e35b",
     "title": "Spencer Fellowship for Education Reporting",
