@@ -1,6 +1,75 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.datasets=[
 {
+  "id": "auto-c1482ab524e0671e",
+  "name": "Tanzania - Demographic and Health Survey and Malaria Indicator...",
+  "org": "World Bank Data Catalog",
+  "territoryTier": "Outros",
+  "kind": "dataset",
+  "themes": [
+    "Dados abertos"
+  ],
+  "coverage": "The primary objective of the 2022 Tanzania Demographic and Health Survey and Malaria Indicator Survey (2022 TDHSMIS) is to provide current and reliable inf...",
+  "frequency": "Não informado na fonte estruturada",
+  "format": "JSON",
+  "period": "Não informado na fonte estruturada",
+  "granularity": "Não informado na fonte estruturada",
+  "geoUnit": "Não informado na fonte estruturada",
+  "api": null,
+  "docs": "https://datacatalog.worldbank.org/search/dataset/0065150/tanzania-demographic-and-health-survey-and-malaria-indicator-survey-2022",
+  "limitations": "Metadados estruturados confirmam a existência do recurso, mas cobertura, atualização, licença e qualidade devem ser conferidas antes do uso editorial.",
+  "lastChecked": "2026-11-16",
+  "url": "https://datacatalog.worldbank.org/search/dataset/0065150/tanzania-demographic-and-health-survey-and-malaria-indicator-survey-2022",
+  "discoveryUrl": "https://datacatalog.worldbank.org/search/dataset/0065150",
+  "description": "The primary objective of the 2022 Tanzania Demographic and Health Survey and Malaria Indicator Survey (2022 TDHSMIS) is to provide current and reliable inf..."
+},
+{
+  "id": "auto-8729547975882e61",
+  "name": "Ethiopia - High Frequency Phone Survey 2020-2024 - World Bank...",
+  "org": "World Bank Data Catalog",
+  "territoryTier": "Outros",
+  "kind": "dataset",
+  "themes": [
+    "Dados abertos"
+  ],
+  "coverage": "The potential impacts of the COVID-19 pandemic in Ethiopia are expected to be severe on Ethiopian households' welfare. To monitor these impacts on househol...",
+  "frequency": "Não informado na fonte estruturada",
+  "format": "JSON",
+  "period": "Não informado na fonte estruturada",
+  "granularity": "Não informado na fonte estruturada",
+  "geoUnit": "Não informado na fonte estruturada",
+  "api": null,
+  "docs": "https://datacatalog.worldbank.org/search/dataset/0048099/ethiopia-high-frequency-phone-survey-2020-2024",
+  "limitations": "Metadados estruturados confirmam a existência do recurso, mas cobertura, atualização, licença e qualidade devem ser conferidas antes do uso editorial.",
+  "lastChecked": "2026-11-16",
+  "url": "https://datacatalog.worldbank.org/search/dataset/0048099/ethiopia-high-frequency-phone-survey-2020-2024",
+  "discoveryUrl": "https://datacatalog.worldbank.org/search/dataset/0048099",
+  "description": "The potential impacts of the COVID-19 pandemic in Ethiopia are expected to be severe on Ethiopian households' welfare. To monitor these impacts on househol..."
+},
+{
+  "id": "auto-52f25ff193fed5e5",
+  "name": "World Bank Data Catalog",
+  "org": "World Bank Data Catalog",
+  "territoryTier": "Outros",
+  "kind": "dataset",
+  "themes": [
+    "Dados abertos"
+  ],
+  "coverage": "World Bank Data Catalog Data Catalog Home Data Collections Contact Us API FAQs Search & Share Development Data For Focus Out 7,918 Datasets Available Getting Started The Data Catalog is designed to make World Bank's development data easy to find, download, use, and share. It includes data from the World Bank's microdata, finances and energy data platforms, as well as datasets from the open data catalog… Read More Featured Previous Next Contributing Catalogs Recently Updated WBG External Sites: World Bank | MIGA | IFC | ICSID Emergency Contact Number (US): (202) 458-8888 | © 2022 The World Bank Group, All Rights Reserved {\"props\":{\"pageProps\":{\"recentlyUpdated\":[{\"@search.score\":1.9949771,\"dataset_id\":\"f438ddb4-29da-f111-a05b-6045bd015324\",\"name\":\"Pakistan Road Improvement Dataset [2000 - 2020]\",\"dataset_unique_id\":\"0067214\",\"archive_nid\":null,\"status\":\"PUBLISHED\",\"keywords_list\":[\"road i",
+  "frequency": "Não informado na fonte estruturada",
+  "format": "GeoJSON",
+  "period": "Não informado na fonte estruturada",
+  "granularity": "Não informado na fonte estruturada",
+  "geoUnit": "Não informado na fonte estruturada",
+  "api": null,
+  "docs": "https://datacatalog.worldbank.org/",
+  "limitations": "Metadados estruturados confirmam a existência do recurso, mas cobertura, atualização, licença e qualidade devem ser conferidas antes do uso editorial.",
+  "lastChecked": "2026-11-16",
+  "url": "https://datacatalog.worldbank.org/",
+  "discoveryUrl": "https://datacatalog.worldbank.org/",
+  "description": "World Bank Data Catalog Data Catalog Home Data Collections Contact Us API FAQs Search & Share Development Data For Focus Out 7,918 Datasets Available Getting Started The Data Catalog is designed to make World Bank's development data easy to find, download, use, and share. It includes data from the World Bank's microdata, finances and energy data platforms, as well as datasets from the open data catalog… Read More Featured Previous Next Contributing Catalogs Recently Updated WBG External Sites: World Bank | MIGA | IFC | ICSID Emergency Contact Number (US): (202) 458-8888 | © 2022 The World Bank Group, All Rights Reserved {\"props\":{\"pageProps\":{\"recentlyUpdated\":[{\"@search.score\":1.9949771,\"dataset_id\":\"f438ddb4-29da-f111-a05b-6045bd015324\",\"name\":\"Pakistan Road Improvement Dataset [2000 - 2020]\",\"dataset_unique_id\":\"0067214\",\"archive_nid\":null,\"status\":\"PUBLISHED\",\"keywords_list\":[\"road i"
+}, 
+{
   "id": "auto-fff550a7465e8543",
   "name": "Global Economic Monitor",
   "org": "World Bank Data Catalog",
