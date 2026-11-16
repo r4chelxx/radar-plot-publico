@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-16T05:26:49.357Z",
-  "sourceQueueUpdatedAt": "2026-11-16T05:26:41.114Z",
+  "generatedAt": "2026-11-16T06:35:23.000Z",
+  "sourceQueueUpdatedAt": "2026-11-16T06:35:08.112Z",
   "policy": "Evidence-complete drafts only; the separate deterministic evidence gate must independently approve before publication.",
   "summary": {
     "eligibleForDrafting": 2,
     "drafts": 2,
     "byCategory": {
-      "opportunities": 1,
+      "opportunities": 0,
       "datasets": 0,
-      "tools": 1
+      "tools": 2
     },
     "publicationReady": 0
   },
@@ -233,66 +233,50 @@
     },
     {
       "schemaVersion": 1,
-      "id": "fddd4b182df3b66567567f94336c919bf6954a3c89e9cff41cbf16c679a2d37e",
-      "category": "opportunities",
+      "id": "65cdadf376e8b98492d82ab10e02a93476e66c28cf3299e500d048cc1406c15a",
+      "category": "tools",
       "status": "draft_only",
       "publicationReady": false,
       "source": {
-        "url": "https://opportunitydesk.org/2026/11/06/spencer-fellowship-for-education-reporting-2027",
+        "url": "https://open.spotify.com/show/4evRBUG1V8BkbrkmoZZTZf",
         "discoveryProviders": [
-          "Opportunity Desk"
+          "Gmail Radar PLOT newsletter"
         ],
-        "pageTitle": "Spencer Fellowship for Education Reporting 2027 (Funded) – Opportunity Desk",
-        "checkedAt": "2026-11-10T20:36:10.810Z",
+        "pageTitle": "Show & Tell from Indicator",
+        "checkedAt": "2026-11-16T06:35:08.112Z",
         "httpStatus": 200,
-        "contentType": "text/html; charset=UTF-8"
+        "contentType": "text/html; charset=utf-8"
       },
       "evidence": {
         "checks": {
-          "callSignal": true,
-          "deadline": "2027-02-04",
-          "eligibility": true
+          "productSignal": true,
+          "function": true,
+          "access": true,
+          "license": false,
+          "licenseStatus": "not stated in captured source"
         },
-        "sourceExcerpt": "Spencer Fellowship for Education Reporting 2027 (Funded) – Opportunity Desk Close Menu Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awards Grants Fellowships Jobs Internships Volunteering Blog OD Specials OD Live Series Young Person of the Month Mentorship OD Mentors Success Stories How-To General Tips ODIC 2025 ODIC 2025 Application ODIC Judges ODIC 2025 Winners ODIC 2023 Winners ODIC 2022 Winners ODIC 2021 Winners ODIC 2019 Winners ODIC 2018 Winners ODIC 2017 Winners ODIC 2016 Winners Search Asia Africa Australia and Oceania America Europe Deadlines Approaching Facebook X (Twitter) Instagram Tuesday, November 10 Facebook X (Twitter) LinkedIn Instagram Telegram Spencer Fellowship for Education Reporting 2027 (Funded) Jude Ogar November 6, 2026 4 Mins Read Facebook Twitter WhatsApp Pinterest LinkedIn Tumblr Email Telegram Deadline: February 4, 2027 Do you have a great idea for an education-related journalism project? Do you need the time and resources to complete it? Apply for the Spencer Fellowship for Education Reporting 2027 . The Spencer Fellowship for Education Reporting is open to journalists and educators who want to develop and publish an ambitious long-form journalism project that advances public understanding of education. Four fellows will be selected for this yearlong program based at Columbia Journalism School. The fellowship combines study and research with advising from faculty experts at Columbia, Teachers College and elsewhere. Financial Support Each residential fellow receives an $85,000 scholarship for personal living expenses. The scholarship is dispensed in four quarters over the course of the academic year. In addition, each fellow receives $7,500 for the year in project expenses, also dispensed in two halves. Separately, the Spencer grant covers the cost of tuition and other student fees, plus basic student health insurance for residential fellows. Non-residential fellows receive a $43,000 stipend and $7,500 project related expenses, dispensed in quarters. Health insurance is not available. Eligibility All U.S. citizens and green card holders are eligible, including working journalists, freelancers and education professionals. There is no academic prerequisite. A college degree is not required. The most successful candidates are those with experience in the field of education journalism, defined in broad terms to include a wide swath of disciplines related to education such as juvenile justice, economics, arts and culture, poverty and the science of learning. Judges look for a demonstrated ability to research and tell stories in a journalistic style. The strength of the project idea is key, along with the candidate’s potential to complete and publish or produce for a general audience. Application Required application materials include: A resume or CV with your professional and educational qualifications. A short narrative autobiography highlighting the personal and professional origins of your commitments to education and journalism. Up to four work samples that demonstrate your approach to using high-quality research to tell compelling education stories for general audiences (stories on related social issues will also be accepted). Work samples may include book excerpts, newspaper and magazine clips, radio and television broadcasts, podcast episodes, film and video excerpts, academic reports and journal articles, and other formats. A proposal essay describing the project you hope to pursue with a Spencer Fellowship. Judges look for ambitious, high-impact projects that draw on high-quality research and make use of narrative journalism techniques such as extensive interviewing and immersive reporting to explore timely, relevant, and under-explored topics in education. Please include descriptions of any related works already in pr",
+        "sourceExcerpt": "Show & Tell from Indicator | Listen to the Podcast on Spotify Show & Tell from Indicator Indicator Media Inc. Follow Show & Tell from Indicator takes you inside digital investigations as leading journalists, OSINT investigators, threat analysts, and researchers walk through real cases they've cracked. Each episode features a recognized figure in the OSINT, digital investigations, or trust & safety community. They don't just tell us what they did—they show us. We see their browser extensions in action, watch them navigate tools under pressure, and learn how they think through dead ends and breakthroughs.Hosted by Indicator cofounders and veteran digital investigators Alexios Mantzarlis and Craig Silverman, Show & Tell asks the questions that uncover not just what investigators did, but how and why it worked. 5 (1) How-to Technology All Episodes How Documented decoded immigrant TikTok In this episode of Show & Tell, we spoke to Lam Thuy Vo and Sam Rabiyah of Documented, a nonprofit newsroom covering New York City's immigrant communities. Vo and Rabiyah walked us through their two-part series Decoding Immigrant TikTok and the associated pipeline they published on GitHub.What You'll Learn: 📍How copycat accounts and AI deepfakes reuploaded real immigration lawyers’ videos and scammed immigrants📍How Spanish-language “newsfluencers” used selective framing and repetition to turn individual crimes into a narrative of NYC being overrun by immigrant criminals📍How Documented’s free pipeline transcribes, translates and clusters videos to flag reuploads, edits and videos pushing the same narratives, all on your own device📍How to collect and process donated TikTok data ethicallyLinks mentioned in the episode 📍\"TikTok Lawyers Face Their AI Clones\" (Documented): https://documentedny.com/projects/tiktok-lawyers/ 📍\"News Influencers Cash In On The 'Criminal Immigrant' Narrative\" (Documented): https://documentedny.com/projects/tiktok-nyc-news-influencers/ 📍\"Follow the Bots: A Technical Guide\" (Documented): https://documentedny.com/projects/tiktok-methods/ 📍Documented's pipeline on GitHub: https://github.com/documentedny-com/tiktok-content-reupload-tracker 📍Stacher, a no-code interface for yt-dlp https://stacher.io/ 📍Follow Sam at https://www.samrabiyah.com/ and Lam on LinkedIn https://www.linkedin.com/in/lamthuyvo/ About Lam Thuy Vo and Sam Rabiyah: Lam is an investigative reporter at Documented and an associate professor of data journalism at the Craig Newmark Graduate School of Journalism at CUNY. Sam is an investigative technologies fellow at Documented, a contributing editor at THE CITY and an adjunct professor at NYU.About Show & Tell: Show & Tell from Indicator takes you inside digital investigations as leading journalists, OSINT investigators, threat analysts, and researchers walk through real cases they've cracked. Each episode features a recognized figure in the OSINT, digital investigations, or trust & safety community. They don't just tell us what they did — they show us. Hosted by Indicator co-founders Alexios Mantzarlis and Craig Silverman. Nov 11 42 min \"I don't trust anything\": How BBC's Shayan Sardarizadeh checks everything for AI In this episode of Show & Tell, we spoke to Shayan Sardarizadeh about his approach to debunking viral fakes for BBC Verify. \"I want to check everything for AI,\" he told us. \"I don't care where it comes from. If it comes from a national TV, if it comes from a politician posting it on their official TikTok, I don't trust anything.\"What You'll Learn: 📍Choosing where to look, and what to ignore when it comes to viral fakes📍Why AI detectors are now an essential element of verification and why Shayan prefers the SynthID-based ones📍How detectors can still fail, with a worked example from a viral image of Donald Trump📍How reverse search is an essential complement to AI detectors and a mandatory starting point for any verification taskLinks mentioned in the episode 📍Shayan's thread on the viral Trum",
         "structuredData": [
           {
-            "@type": "Article",
-            "url": "https://opportunitydesk.org/2026/11/06/spencer-fellowship-for-education-reporting-2027/",
-            "publisher": {
-              "@type": "Organization",
-              "name": "Opportunity Desk"
-            },
+            "@type": "PodcastSeries",
+            "name": "Show & Tell from Indicator",
+            "description": "Listen to Show & Tell from Indicator on Spotify. Show & Tell from Indicator takes you inside digital investigations as leading journalists, OSINT investigators, threat analysts, and researchers walk through real cases they've cracked. Each episode features a recognized figure in the OSINT, digital investigations, or trust & safety community. They don't just tell us what they did—they show us. We see their browser extensions in action, watch them navigate tools under pressure, and learn how they think through dead ends and breakthroughs.Hosted by Indicator cofounders and veteran digital investi",
+            "url": "https://open.spotify.com/show/4evRBUG1V8BkbrkmoZZTZf",
+            "publisher": "Indicator Media Inc.",
             "author": {
               "@type": "Person",
-              "name": "Jude Ogar",
-              "url": "https://opportunitydesk.org/author/judeogar/"
-            },
-            "datePublished": "2026-11-06T15:08:57+00:00",
-            "dateModified": "2026-11-06T15:08:58+00:00"
-          },
-          {
-            "@type": "BreadcrumbList"
+              "name": "Indicator Media Inc."
+            }
           }
         ],
         "resourceLinks": []
       },
       "recordDraft": {
-        "id": "fddd4b182df3b66567567f94336c919bf6954a3c89e9cff41cbf16c679a2d37e",
-        "title": "Spencer Fellowship for Education Reporting 2027 (Funded)",
-        "org": "Columbia Journalism School",
-        "summary": "Spencer Fellowship for Education Reporting 2027 (Funded) – Opportunity Desk Close Menu Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awards Grants Fellowships Jobs Internships Volunteering Blog OD Specials OD Live Series Young Person of the Month Mentorship OD Mentors Success Stories How-To General Tips ODIC 2025 ODIC 2025 Application ODIC Judges ODIC 2025 Winners ODIC 2023 Winners ODIC 2022 Winners ODIC 2021 Winners ODIC 2019 Winners ODIC 2018 Winners ODIC 2017 Winners ODIC 2016 Winners Search Asia Africa Australia and Oceania America Europe Deadlines Approaching Facebook X (Twitter) Instagram Tuesday, November 10 Facebook X (Twitter) LinkedIn Instagram Telegram Spencer Fellowship for Education Reporting 2027 (Funded) Jude Ogar November 6, 2026 4 Mins Read Facebook Twitter WhatsApp Pinterest LinkedIn Tumblr Email Telegram Deadline: February 4, 2027 Do you have a great idea for an education-related journalism project? Apply for the Spencer Fellowship for Education Reporting 2027 . The Spencer Fellowship for",
-        "type": "Fellowship",
-        "themes": [
-          "Jornalismo"
-        ],
-        "scope": "The Spencer Fellowship for Education Reporting is open to journalists and educators who want to develop and publish an ambitious long-form journalism project that advances public understanding of education.",
-        "fit": 6,
-        "deadline": "2027-02-04",
-        "deadlineStatus": "Confirmado na página oficial; fuso horário não informado.",
-        "eligibility": "parcial",
-        "status": "aberta",
-        "rules": "https://opportunitydesk.org/2026/11/06/spencer-fellowship-for-education-reporting-2027",
-        "apply": "https://opportunitydesk.org/2026/11/06/spencer-fellowship-for-education-reporting-2027"
+        "id": "65cdadf376e8b98492d82ab10e02a93476e66c28cf3299e500d048cc1406c15a",
+        "name": "Show & Tell from Indicator",
+        "kind": "software para análise de dados",
+        "url": "https://open.spotify.com/show/4evRBUG1V8BkbrkmoZZTZf",
+        "desc": "Listen to Show & Tell from Indicator on Spotify. Show & Tell from Indicator takes you inside digital investigations as leading journalists, OSINT investigators, threat analysts, and researchers walk through real cases they&#x27;ve cracked. Each episode features a recognized figure in the OSINT, digital investigations, or trust & safety community. They don&#x27;t just tell us what they did—they show us. We see their browser extensions in action, watch them navigate tools under pressure, and learn how they think through dead ends and breakthroughs.Hosted by Indicator cofounders and veteran digital investigators Alexios Mantzarlis and Craig Silverman, Show & Tell asks the questions that uncover not just what investigators did, but how and why it worked. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
       },
       "missingFields": [],
       "reviewDecision": "evidence_complete_for_record_draft",
