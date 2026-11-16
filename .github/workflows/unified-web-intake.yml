@@ -147,7 +147,7 @@ jobs:
         run: node --test tests/operational-state.test.js
       - name: Test editorial publication safeguards
         run: |
-          node --test tests/primary-call-record.test.js
+          node --test tests/primary-call-record.test.js tests/opportunity-alias.test.js
           node scripts/test-editorial-pipeline.js
           node --test tests/automated-publication.test.js
           node --check scripts/verify-published-records.js
