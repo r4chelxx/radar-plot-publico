@@ -1,69 +1,19 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-16T04:55:22.543Z",
-  "sourceQueueUpdatedAt": "2026-11-16T04:54:55.777Z",
+  "generatedAt": "2026-11-16T05:12:42.959Z",
+  "sourceQueueUpdatedAt": "2026-11-16T05:12:14.316Z",
   "policy": "Evidence-complete drafts only; the separate deterministic evidence gate must independently approve before publication.",
   "summary": {
-    "eligibleForDrafting": 2,
-    "drafts": 2,
+    "eligibleForDrafting": 1,
+    "drafts": 1,
     "byCategory": {
       "opportunities": 1,
       "datasets": 0,
-      "tools": 1
+      "tools": 0
     },
     "publicationReady": 0
   },
   "drafts": [
-    {
-      "schemaVersion": 1,
-      "id": "68fedf64924894e13bb99abb21c12be64ecfb0387bc39c7acd2c64cd5949932f",
-      "category": "tools",
-      "status": "draft_only",
-      "publicationReady": false,
-      "source": {
-        "url": "https://www.figma.com/",
-        "discoveryProviders": [
-          "Data Visualization Society"
-        ],
-        "pageTitle": "Figma: The collaborative canvas for design, code, and AI",
-        "checkedAt": "2026-11-16T04:54:55.777Z",
-        "httpStatus": 200,
-        "contentType": "text/html; charset=utf-8"
-      },
-      "evidence": {
-        "checks": {
-          "productSignal": true,
-          "function": true,
-          "access": true,
-          "license": false,
-          "licenseStatus": "not stated in captured source"
-        },
-        "sourceExcerpt": "Figma: The collaborative canvas for design, code, and AI Skip to main content The full-stack creative canvas Get started Move fast in the right direction on an AI-native canvas. Teammates and AI agents work in the same space with shared context. Generate new ideas, refine, and align—together. Your built-in creative collaborator Ask Figma’s agent to add motion to designs, document your design systems, implement feedback, and more. Explore Figma's agent One workspace for your entire product development process. Made so your whole team can go from WIP to ship, together. Design anything you can imagine Turn your ideas into apps, websites, and products. Explore design tools Build with intention Dev tools that take you all the way to production. Explore build tools Powerfully expressive. Incredibly precise. Every technical tool you need to dial in the details. Explore Figma Design Start with design context. Build with consistency. Your context, codebase, and agents stay connected so what you design is what gets shipped. Explore Figma Make The products you love are designed in Figma Everyone is able to influence, inspire, and give input without ever leaving the design file. That creates a really transparent, open, and honest process throughout the whole project. Francisco Seiz Senior Design Director, Code and Theory 95% 95 % 95% of the Fortune 500 uses Figma Based on data from March 2025. Explore what you can do in Figma. Browse resources made by the community. Browse all templates Slide 1 of 10 1 of 10 UI kits UI Kits Websites Websites Social media Social media Mobile apps Mobile apps Presentations Presentations Wireframes Wireframes Illustrations Illustrations Portfolios Portfolios Web ads Web ads Icons Icons self.__next_f.push([1,\"4:[\\\"$\\\",\\\"html\\\",null,{\\\"lang\\\":\\\"en\\\",\\\"className\\\":\\\"__variable_1a606a __variable_48aa6c\\\",\\\"suppressHydrationWarning\\\":true,\\\"children\\\":[[\\\"$\\\",\\\"head\\\",null,{\\\"children\\\":[[\\\"$\\\",\\\"$L49\\\",null,{}],[\\\"$\\\",\\\"$L4a\\\",null,{\\\"id\\\":\\\"strict-meta-csp\\\",\\\"children\\\":\\\"(()=\\u003e{let a=[{directive:\\\\\\\"script-src\\\\\\\",values:[\\\\\\\"'self'\\\\\\\",\\\\\\\"'unsafe-eval'\\\\\\\",\\\\\\\"https://platform.twitter.com/js/\\\\\\\",\\\\\\\"https://platform.twitter.com/widgets.js\\\\\\\",\\\\\\\"https://player.vimeo.com/api/player.js\\\\\\\",\\\\\\\"https://www.youtube.com/iframe_api\\\\\\\",\\\\\\\"https://www.youtube.com/s/player/\\\\\\\",\\\\\\\"https://accounts.google.com/gsi/client\\\\\\\",\\\\\\\"https://adora-cdn.com/adora-start.js\\\\\\\",\\\\\\\"https://decagon.ai\\\\\\\"]}].map(({directive:a,values:b})=\\u003e`${a} ${b.join(\\\\\\\" \\\\\\\")}`).join(\\\\\\\"; \\\\\\\"),b=document.createElement(\\\\\\\"meta\\\\\\\");b.setAttribute(\\\\\\\"http-equiv\\\\\\\",\\\\\\\"Content-Security-Policy\\\\\\\"),b.setAttribute(\\\\\\\"content\\\\\\\",a),document.head.appendChild(b)})()\\\"}],[\\\"$\\\",\\\"link\\\",\\\"user-prefetch\\\",{\\\"rel\\\":\\\"preload\\\",\\\"href\\\":\\\"/api/user\\\",\\\"as\\\":\\\"fetch\\\",\\\"crossOrigin\\\":\\\"anonymous\\\"}],[\\\"$\\\",\\\"link\\\",null,{\\\"rel\\\":\\\"preconnect\\\",\\\"href\\\":\\\"https://cdn.sanity.io\\\"}],[\\\"$\\\",\\\"link\\\",null,{\\\"rel\\\":\\\"preconnect\\\",\\\"href\\\":\\\"https://static.figma.com\\\"}],[\\\"$\\\",\\\"$L4b\\\",null,{}]]}],[\\\"$\\\",\\\"body\\\",null,{\\\"children\\\":[\\\"$\\\",\\\"$L4c\\\",null,{\\\"children\\\":[\\\"$\\\",\\\"$L4d\\\",null,{\\\"children\\\":[[\\\"$\\\",\\\"$L4e\\\",null,{}],[\\\"$\\\",\\\"$L4f\\\",null,{}],[\\\"$\\\",\\\"$L50\\\",null,{\\\"children\\\":[\\\"$\\\",\\\"$L51\\\",null,{\\\"sanityExperiments\\\":[{\\\"slug\\\":\\\"/agent/\\\",\\\"variants\\\":[{\\\"page\\\":{\\\"_createdAt\\\":\\\"2026-06-11T21:00:07Z\\\",\\\"_id\\\":\\\"568a146c-22d2-4977-aa5a-2c67c312e04d\\\",\\\"_rev\\\":\\\"fe0UQogT6y2msXHdZmvH4g\\\",\\\"_system\\\":{\\\"base\\\":{\\\"id\\\":\\\"568a146c-22d2-4977-aa5a-2c67c312e04d\\\",\\\"rev\\\":\\\"55K3LTsGcyWIxmEK6wXftw\\\"}},\\\"_type\\\":\\\"legoPage\\\",\\\"_updatedAt\\\":\\\"2026-10-16T21:05:41Z\\\",\\\"content\\\":[{\\\"_key\\\":\\\"9034dbc05e90\\\",\\\"_type\\\":\\\"bifoldLego\\\",\\\"colorScheme\\\":{\\\"_ref\\\":\\\"cf.3zdoe9BMJ16XdSGK55oHDK\\\",\\\"_type\\\":\\\"reference\\\"},\\\"content\\\":[{\\\"_key\\\":\\\"175b55ba9e2e\\\",\\\"_type\\\":\\\"bifoldTextPanel\\\",\\\"copy\\\":[{\\\"_key\\\":\\\"e2e017f9bf93\\\",\\\"_type\\\":\\\"block\\\",\\\"children\\\":[{\\\"_key\\\":\\\"5e81ce165f51\\\",\\\"_type\\\":\\\"span\\\",\\\"marks\\\":[],\\\"text\\\":\\\"Explore ideas quickly, e",
-        "structuredData": [
-          {
-            "@type": "Organization",
-            "name": "Figma",
-            "url": "https://www.figma.com"
-          }
-        ],
-        "resourceLinks": [
-          {
-            "url": "https://www.figma.com/downloads/",
-            "label": "Downloads"
-          }
-        ]
-      },
-      "recordDraft": {
-        "id": "68fedf64924894e13bb99abb21c12be64ecfb0387bc39c7acd2c64cd5949932f",
-        "name": "Figma: The collaborative canvas for design, code, and AI",
-        "kind": "software para análise de dados",
-        "url": "https://www.figma.com/",
-        "desc": "Figma is the canvas where design, code, and AI come together. From first idea to shipped product — go from concept to production with your whole team, in one place. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
-      },
-      "missingFields": [],
-      "reviewDecision": "evidence_complete_for_record_draft",
-      "note": "Ficha preliminar baseada no conteúdo capturado da página. Campos sem evidência permanecem ausentes; a aprovação depende do gate independente de publicação."
-    },
     {
       "schemaVersion": 1,
       "id": "fddd4b182df3b66567567f94336c919bf6954a3c89e9cff41cbf16c679a2d37e",
@@ -111,8 +61,8 @@
       },
       "recordDraft": {
         "id": "fddd4b182df3b66567567f94336c919bf6954a3c89e9cff41cbf16c679a2d37e",
-        "title": "Spencer Fellowship for Education Reporting 2027 (Funded) – Opportunity Desk",
-        "org": null,
+        "title": "Spencer Fellowship for Education Reporting 2027 (Funded)",
+        "org": "Columbia Journalism School",
         "summary": "Spencer Fellowship for Education Reporting 2027 (Funded) – Opportunity Desk Close Menu Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awards Grants Fellowships Jobs Internships Volunteering Blog OD Specials OD Live Series Young Person of the Month Mentorship OD Mentors Success Stories How-To General Tips ODIC 2025 ODIC 2025 Application ODIC Judges ODIC 2025 Winners ODIC 2023 Winners ODIC 2022 Winners ODIC 2021 Winners ODIC 2019 Winners ODIC 2018 Winners ODIC 2017 Winners ODIC 2016 Winners Search Asia Africa Australia and Oceania America Europe Deadlines Approaching Facebook X (Twitter) Instagram Tuesday, November 10 Facebook X (Twitter) LinkedIn Instagram Telegram Spencer Fellowship for Education Reporting 2027 (Funded) Jude Ogar November 6, 2026 4 Mins Read Facebook Twitter WhatsApp Pinterest LinkedIn Tumblr Email Telegram Deadline: February 4, 2027 Do you have a great idea for an education-related journalism project? Apply for the Spencer Fellowship for Education Reporting 2027 . The Spencer Fellowship for",
         "type": "Fellowship",
         "themes": [
@@ -127,9 +77,7 @@
         "rules": "https://opportunitydesk.org/2026/11/06/spencer-fellowship-for-education-reporting-2027",
         "apply": "https://opportunitydesk.org/2026/11/06/spencer-fellowship-for-education-reporting-2027"
       },
-      "missingFields": [
-        "org"
-      ],
+      "missingFields": [],
       "reviewDecision": "evidence_complete_for_record_draft",
       "note": "Ficha preliminar baseada no conteúdo capturado da página. Campos sem evidência permanecem ausentes; a aprovação depende do gate independente de publicação."
     }
