@@ -2,6 +2,18 @@ window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
 {
   "date": "2026-11-16",
+  "type": "ferramentas",
+  "title": "Publicação editorial verificada — 2026-11-16",
+  "items": [
+    {
+      "id": "auto-fa6ac7a7425587ac",
+      "title": "Reporting Tools"
+    }
+  ],
+  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Reporting Tools."
+}, 
+{
+  "date": "2026-11-16",
   "type": "dados",
   "title": "Publicação editorial verificada — 2026-11-16",
   "items": [
