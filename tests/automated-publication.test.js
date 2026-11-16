@@ -3,6 +3,14 @@ const test=require('node:test'),assert=require('node:assert/strict'),crypto=requ
 const {buildAutomaticPublications}=require('../scripts/build-automated-publications');
 const now=new Date(),checkedAt=now.toISOString();
 const complete={id:'complete-tool',category:'tools',status:'draft_only',publicationReady:false,reviewDecision:'evidence_complete_for_record_draft',source:{url:'https://example.org/tool',httpStatus:200,contentType:'text/html',checkedAt},evidence:{sourceExcerpt:'Official product page describes the data analysis tool and access details.',checks:{productSignal:true,function:true,access:true}},missingFields:[],recordDraft:{id:'complete-tool',name:'Research data tool',kind:'data analysis',url:'https://example.org/tool',desc:'Official product page describes the data analysis tool and how journalists can use it. Limitations are not stated; check official docs and license.'}};
+test('a product may mention its blog or community; editorial identities stay rejected',()=>{
+ const tool={...complete,recordDraft:{...complete.recordDraft,name:'3D graphics library',desc:'A JavaScript library for creating interactive graphics, with documentation, community examples, a project blog and report exports.'}};
+ assert.equal(buildAutomaticPublications({drafts:[tool]},{approved:[]},now).summary.automaticallyApproved,1);
+ const blog={...tool,recordDraft:{...tool.recordDraft,name:'Maps Mania',desc:'Maps Mania is a blog dedicated to mapping tools and interactive graphics.'}};
+ assert.equal(buildAutomaticPublications({drafts:[blog]},{approved:[]},now).summary.automaticallyApproved,0);
+ const podcast={...tool,evidence:{...tool.evidence,structuredData:[{'@type':'PodcastSeries'}]}};
+ assert.equal(buildAutomaticPublications({drafts:[podcast]},{approved:[]},now).summary.automaticallyApproved,0);
+});
 test('approves only fresh, complete, category-checked drafts and preserves item evidence',()=>{
  const stale={...complete,id:'stale-tool',recordDraft:{...complete.recordDraft,id:'stale-tool'},source:{...complete.source,checkedAt:new Date(now.getTime()-25*60*60*1000).toISOString()}};
  const incomplete={...complete,id:'incomplete-tool',recordDraft:{...complete.recordDraft,id:'incomplete-tool',desc:null},missingFields:['desc']};

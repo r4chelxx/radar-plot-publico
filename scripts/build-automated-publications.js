@@ -41,8 +41,13 @@ function buildAutomaticPublications(drafts,manual={approved:[]},now=new Date()){
    const datasetNoise=/(?:podcast|youtube|ranking|rankings|top ai companies|newsletter|blog|article|press release)/i.test(datasetText);
    if(datasetNoise||!safeUrl(record.url)||!safeUrl(record.api)||!safeUrl(record.docs)){skipped.failedEvidenceChecks++;continue}
   }else if(category==='tools'){
-   const toolText=String(record.name||'')+' '+String(record.kind||'')+' '+String(record.desc||'');
-   const nonProduct=/\b(?:podcast|newsletter|article|report|news|course|training|conference|event|community|series|blog|publication|story)\b/i.test(toolText)||/podcasts?\.apple\.com|substack\.com|\/news\/|\/blog\/|\/events?/i.test(String(record.url||''));
+   const identityText=String(record.name||'')+' '+String(record.kind||'');
+   const description=String(record.desc||'');
+   const types=(draft.evidence?.structuredData||[]).flatMap(x=>[].concat(x['@type']||[]));
+   const editorialType=types.length>0&&types.every(x=>/^(?:Blog|BlogPosting|NewsArticle|Article|PodcastSeries|PodcastEpisode)$/i.test(x));
+   const nonProduct=/\b(?:podcast|newsletter|article|course|training|conference|event|community|series|blog|publication)\b/i.test(identityText)
+    ||/\b(?:is a blog|blog dedicated to|listen to .{0,180} on spotify)\b/i.test(description)||editorialType
+    ||/podcasts?\.apple\.com|open\.spotify\.com\/(?:show|episode)\/|substack\.com|buttondown\.(?:email|com)\/[^/]+\/archive\/|\/news\/|\/blog\/|\/events?/i.test(String(record.url||''));
    if(nonProduct||/creativework|series|podcast|newsletter/i.test(String(record.kind||''))){skipped.failedEvidenceChecks++;continue;}
    if(!safeUrl(record.url)||String(record.desc).length<70){skipped.failedEvidenceChecks++;continue}
   }

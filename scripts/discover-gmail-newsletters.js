@@ -25,9 +25,10 @@ function extract(message){
 }
 async function collect(fetcher=fetch,env=process.env){
  const health={source:'Gmail Radar PLOT',status:'unconfigured',items:0,coverageStatus:'unavailable'};
- const {RADAR_GMAIL_CLIENT_ID:id,RADAR_GMAIL_CLIENT_SECRET:secret,RADAR_GMAIL_REFRESH_TOKEN:refresh}=env;
+ const [id,secret,refresh]=['RADAR_GMAIL_CLIENT_ID','RADAR_GMAIL_CLIENT_SECRET','RADAR_GMAIL_REFRESH_TOKEN'].map(key=>String(env[key]||'').trim());
  const missing=[['RADAR_GMAIL_CLIENT_ID',id],['RADAR_GMAIL_CLIENT_SECRET',secret],['RADAR_GMAIL_REFRESH_TOKEN',refresh]].filter(([,value])=>!String(value||'').trim()).map(([name])=>name);
  if(missing.length)return {source:'gmail',leads:[],health:[{...health,reason:'Missing GitHub Actions secret(s): '+missing.join(', ')}]};
+ if(/^ya29\./.test(refresh))return {source:'gmail',leads:[],health:[{...health,status:'error',reason:'The refresh-token secret contains an access token, which cannot renew Gmail access.',failureClass:'oauth-token-type',errorCode:'access-token-in-refresh-secret'}]};
  try{
   const tokenResponse=await fetcher('https://oauth2.googleapis.com/token',{method:'POST',headers:{'content-type':'application/x-www-form-urlencoded'},body:new URLSearchParams({client_id:id,client_secret:secret,refresh_token:refresh,grant_type:'refresh_token'})});
   if(!tokenResponse.ok){const oauthError=await tokenResponse.json().catch(()=>({}));const code=String(oauthError.error||'unknown').replace(/[^a-z0-9_-]/gi,'').slice(0,50);const failure=Error('OAuth HTTP '+tokenResponse.status+' '+code);failure.oauthStatus=tokenResponse.status;failure.oauthCode=code;throw failure;}

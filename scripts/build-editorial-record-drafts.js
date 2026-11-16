@@ -130,6 +130,16 @@ function buildDrafts(queue,review,generatedAt=new Date().toISOString()){
   }else if(result.category==='datasets'){
    const data=structured(audit,/dataset/i),formats=[data.encodingFormat,data.distribution?.encodingFormat].flat().filter(Boolean);
    record.name=pageTitle;record.org=org||explicitOrganization(text);
+   // An institutional suffix is attributable only when structured organization
+   // identity points to this official site's own section, not a discovery feed.
+   if(!record.org&&organization.url){
+    try{
+     const owner=new URL(organization.url),page=new URL(url);
+     const suffix=pageTitle.match(/\s+[—–|]\s+((?:Ministério|Secretaria|Instituto|Ministry|Department)\s+[^|—–]{3,100})$/i)?.[1];
+     if(suffix&&owner.origin===page.origin&&(page.pathname===owner.pathname||page.pathname.startsWith(owner.pathname.replace(/\/$/,'')+'/')))record.org=suffix;
+    }catch{}
+   }
+   if(record.org)for(const separator of [' — ',' – ',' | ',' - '])if(record.name.endsWith(separator+record.org))record.name=record.name.slice(0,-(separator+record.org).length).trim();
    // Administrative scale does not identify a country, state or city.
    record.territoryTier='Outros';
    record.kind=/catalog|catálogo/i.test(pageTitle+' '+text)?'catalog':/portal/i.test(pageTitle+' '+text)?'portal':/system/i.test(pageTitle+' '+text)?'system':'dataset';

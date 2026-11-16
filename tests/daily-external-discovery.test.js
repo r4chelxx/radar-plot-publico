@@ -7,6 +7,13 @@ test('Gmail without OAuth secrets names missing Actions secrets without exposing
  assert.equal(r.health[0].status,'unconfigured');
  for(const name of ['RADAR_GMAIL_CLIENT_ID','RADAR_GMAIL_CLIENT_SECRET','RADAR_GMAIL_REFRESH_TOKEN'])assert.match(r.health[0].reason,new RegExp(name));
 });
+test('Gmail trims copied whitespace and diagnoses an access token in the refresh-token field without exposing it',async()=>{
+ let posted;
+ await gmail.collect(async(url,options)=>{posted=options.body;return {ok:false,status:400,json:async()=>({error:'invalid_grant'})}},{RADAR_GMAIL_CLIENT_ID:' client \n',RADAR_GMAIL_CLIENT_SECRET:' secret \n',RADAR_GMAIL_REFRESH_TOKEN:' refresh \n'});
+ assert.equal(posted.get('refresh_token'),'refresh');assert.equal(posted.get('client_id'),'client');
+ const r=await gmail.collect(()=>{throw Error('should not call Google')},{RADAR_GMAIL_CLIENT_ID:'x',RADAR_GMAIL_CLIENT_SECRET:'y',RADAR_GMAIL_REFRESH_TOKEN:'ya29.private-value'});
+ assert.equal(r.health[0].failureClass,'oauth-token-type');assert(!JSON.stringify(r).includes('private-value'));
+});
 test('Gmail with one missing OAuth secret reports only the missing secret name',async()=>{
  const r=await gmail.collect(undefined,{RADAR_GMAIL_CLIENT_ID:'present',RADAR_GMAIL_CLIENT_SECRET:'present'});
  assert.equal(r.health[0].status,'unconfigured');
