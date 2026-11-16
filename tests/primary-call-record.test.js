@@ -32,6 +32,12 @@ test('a fresh primary call preserves its actual program name, abbreviated deadli
   cp.execFileSync(process.execPath,[path.resolve('scripts/review-editorial-evidence.js'),q,r]);
   const review=JSON.parse(fs.readFileSync(r));assert.equal(review.records[0].checks.deadline,'2099-02-04');
   const draft=buildDrafts(queue,review).drafts[0];assert.ok(draft);assert.deepEqual(draft.missingFields,[]);
+  const draftsFile=path.join(root,'drafts.json');
+  fs.writeFileSync(draftsFile,JSON.stringify(buildDrafts(queue,review)));
+  cp.execFileSync(process.execPath,[path.resolve('scripts/validate-editorial-record-drafts.js'),q,r,draftsFile]);
+  const altered=JSON.parse(JSON.stringify(queue));altered.candidates[0].audit.finalUrl='https://uninspected.example/call';
+  fs.writeFileSync(q,JSON.stringify(altered));
+  assert.throws(()=>cp.execFileSync(process.execPath,[path.resolve('scripts/validate-editorial-record-drafts.js'),q,r,draftsFile],{stdio:'pipe'}));
   assert.match(draft.recordDraft.title,/Spencer Education Journalism Fellowship/);
   assert.equal(draft.source.url,'https://spencerfellows.org/how-to-apply-2/');
   assert.equal(draft.recordDraft.rules,draft.source.url);
