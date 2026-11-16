@@ -56,6 +56,10 @@ function evidenceSummary(text,description){
  return value.length>=120?value.slice(0,1200):null;
 }
 function toolKind(text,applicationCategory,titleKind){
+ if(/file,? track and share public records requests/i.test(text))return 'Gestão de pedidos de acesso à informação';
+ if(/browser automation tool|automates browsers/i.test(text))return 'Automação de navegador';
+ if(/(?:headless )?graphics framework/i.test(text))return 'Framework de gráficos e visualização';
+ if(/newsletter software/i.test(text))return 'Publicação e gestão de newsletters';
  if(applicationCategory)return clean(applicationCategory);
  if(titleKind)return clean(titleKind);
  if(/\b(?:is an? R package for|pacote (?:do|para) R para)\b/i.test(text))return 'pacote R';
@@ -165,7 +169,7 @@ function buildDrafts(queue,review,generatedAt=new Date().toISOString()){
   }else{
    const data=structured(audit,/softwareapplication|softwareproduct|software/i);
    const titleKind=pageTitle.split(/[-—–]/).slice(1).join(' ').trim()||null;
-   const sourceDescription=clean(data.description)||clean(audit.pageDescription)||sentence(text,/\b(?:tool|software|application|library|platform|programming language|statistical computing|data analytics)\b/i);
+   const sourceDescription=clean(data.description)||clean(audit.pageDescription)||(/javascript 3d library/i.test(pageTitle)?pageTitle:sentence(text,/\b(?:tool|software|application|library|platform|programming language|statistical computing|data analytics)\b/i));
    record.name=normalizeToolName(clean(data.name)||pageTitle,text,url);
    record.kind=toolKind(text,data.applicationCategory,titleKind)
      || (/record\s*linkage|matching two|un-linked data|linkage toolkit/i.test(text)?'record linkage e correspondência de dados':'software para análise de dados');
