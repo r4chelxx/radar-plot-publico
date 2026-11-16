@@ -3,6 +3,8 @@
 // No candidate is considered approved merely because a collector found it.
 const fs=require('node:fs'),vm=require('node:vm'),crypto=require('node:crypto');
 const {cleanText,cleanTitle,cleanSummary}=require('./editorial-text');
+const {rollingApplicationEvidence}=require('./editorial-page-evidence');
+const {normalizeToolName}=require('./build-editorial-record-drafts');
 const manifest=process.argv[2]||'intake/approved-publications.json';
 const source=JSON.parse(fs.readFileSync(manifest,'utf8'));
 if(!Array.isArray(source.approved))throw Error('Manifest requires approved[]');
@@ -93,6 +95,7 @@ for(const entry of source.approved){
  if(category==='opportunities'){
   const allowedEligibility=new Set(['elegível','parcial','inelegível','restrita']);
   if(record.status!=='aberta')throw Error('Opportunity is not confirmed open: '+record.id);
+  if(machinePolicy&&!record.deadline&&!rollingApplicationEvidence(proof.evidence))throw Error('Continuous opportunity requires explicit application evidence: '+record.id);
   if(!allowedEligibility.has(String(record.eligibility||'').toLowerCase()))throw Error('Opportunity eligibility must use a validated catalog status: '+record.id);
   if(!record.scope||String(record.scope).trim().length<10)throw Error('Opportunity requires a substantive eligibility scope: '+record.id);
   if(!record.deadlineStatus||!/confirm|oficial|official|fluxo contínuo|prazo contínuo|ongoing|rolling/i.test(String(record.deadlineStatus)))throw Error('Opportunity deadline state is not evidenced by the primary source: '+record.id);
@@ -115,6 +118,19 @@ for(const entry of source.approved){
 }
 // Reconcile an aggregator alias only when a primary record for the same named
 // programme and exact deadline already exists or has passed publication checks.
+let toolNamesRepaired=0;
+for(const record of D.tools){
+ try{
+  const u=new URL(record.url);
+  if(!/(^|\.)r-project\.org$/.test(u.hostname)||!u.searchParams.has('package')&&!/\/packages\//.test(u.pathname))continue;
+  const name=normalizeToolName(record.name,record.desc,u.href);
+  if(name&&name!==record.name){record.name=name;toolNamesRepaired++;for(const entry of D.changelog)for(const item of entry.items||[])if(item.id===record.id)item.title=name;}
+ }catch{}
+}
+if(toolNamesRepaired){
+ fs.writeFileSync(spec.tools.path,'window.RADAR_PARTS=window.RADAR_PARTS||{};\nwindow.RADAR_PARTS.tools='+JSON.stringify(D.tools,null,2)+';\n');
+ fs.writeFileSync('data/changelog.js','window.RADAR_PARTS=window.RADAR_PARTS||{};\nwindow.RADAR_PARTS.changelog='+JSON.stringify(D.changelog,null,2)+';\n');
+}
 function aggregator(record){try{return /(^|\.)(?:opportunitydesk\.org|gfmd\.info|grantsforjournalists\.com)$/.test(new URL(record.rules).hostname)}catch{return false}}
 function editionKey(record){
  if(!/^\d{4}-\d{2}-\d{2}$/.test(record.deadline||''))return null;
