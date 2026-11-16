@@ -24,7 +24,14 @@ function toolFunction(text,docs){
 }
 function inferCategory(c,text,title){
  const url=String(c.url||'').toLowerCase();
- if(excluded.test(title+' '+String(c.title||''))||excludedPath.test(new URL(url||'https://invalid.local').pathname))return 'uncategorized';
+ const pathname=new URL(url||'https://invalid.local').pathname;
+ const surface=title||String(c.title||'');
+ const journalisticCall=actionableOpportunity(surface,text)&&/journalis|jornalismo|reporting|reporters|newsrooms|photojournal|documentary/i.test(surface+' '+text);
+ if(journalisticCall&&!/newsletter|podcast|directory|portfolio/i.test(surface))return 'opportunities';
+ // Product documentation is a valid source only when identity AND function are evidenced.
+ const documentation=/\/(?:docs|documentation|learn)(?:\/|$)/i.test(pathname)||/^(?:docs|developer)\./i.test(new URL(url).hostname);
+ if(documentation&&toolIdentity(c,title,c.audit?.structuredData||[])&&toolFunction(text,c.audit?.structuredData||[]))return 'tools';
+ if(excluded.test(surface)||excludedPath.test(pathname))return 'uncategorized';
  const supplied=['opportunities','tools','datasets'].includes(c.category)?c.category:null;
  if(supplied==='tools')return (!excludedToolUrl.test(url)&&!excludedToolContent.test(text)&&toolIdentity(c,title,c.audit?.structuredData||[]))?'tools':'uncategorized';
  if(supplied==='opportunities'&&c.verificationStatus==='official-web-search')return 'opportunities';
@@ -86,7 +93,7 @@ function review(c){
   const verifiedOpportunityEvidence=c.verificationStatus==='official-web-search' &&
    /\b(grant|fellowship|funding|scholarship|journalism award|award|prize|contest|competition|bolsa|edital|financiamento|premia[cç][aã]o|pr[eê]mio|concurso)\b/i.test(text) &&
    /\b(applications?\b[^.!?]{0,120}\b(?:open|accepted|closing|close|closes|closed|deadline|until|by)|call for (?:applications?|entries?|submissions?|proposals?)|apply(?:ing)?(?: now| today| by)?|inscri[cç][oõ]es? abertas|candidaturas? abertas|candidatar-se até|submiss[oõ]es? abertas)\b/i.test(text);
-  checks.callSignal=(verifiedOpportunityEvidence||actionableOpportunity(title,text))&&!excluded.test(title+' '+String(c.title||''));
+  checks.callSignal=(verifiedOpportunityEvidence||actionableOpportunity(title,text))&&!/newsletter|podcast|directory|portfolio/i.test(title);
   checks.deadline=deadlineDates(text).find(d=>d>=today)||structuredDeadline(docs); if(checks.deadline&&checks.deadline<today)checks.deadline=null;
   checks.eligibility=/\b(eligib|eligible|eligibility|who can apply|who can enter|who can participate|participants must|entry requirements|age(?:d)? 18 and up|18 years and older|globally may enter|open to|elegibilidade|elegível|podem se candidatar)\b/i.test(text);
   if(!checks.callSignal)missing.push('chamada de financiamento/bolsa identificável');
