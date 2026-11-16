@@ -10,6 +10,9 @@ test('dataset downloads retain their evidenced file format and never infer geogr
   const d=buildDrafts(q,r).drafts[0].recordDraft;
   assert.equal(d.format,'XLSX');assert.equal(d.api,file);assert.equal(d.territoryTier,tier);
  }
+ const apiQueue={updatedAt:new Date().toISOString(),candidates:[{id:'api',url:'https://data.example.org/indicator/123',audit:{pageTitle:'Global country dataset',evidenceText:'Annual country data in JSON format.',structuredData:[],resourceLinks:[{url:'https://api.example.org/v2/country/all?format=json',label:'Official API'}]}}]};
+ const apiReview={records:[{id:'api',category:'datasets',decision:'evidence_complete_for_record_draft',publicationReady:false,checks:{}}]};
+ assert.equal(buildDrafts(apiQueue,apiReview).drafts[0].recordDraft.api,'https://api.example.org/v2/country/all?format=json');
 });
 const queue={updatedAt:'2026-11-09T12:00:00Z',candidates:[
  {id:'global-reporting-grant',title:'Global reporting grant',url:'https://example.org/grant',category:'opportunities',providers:['Example Foundation'],audit:{pageTitle:'Global Reporting Grant',httpStatus:200,contentType:'text/html',checkedAt:'2026-11-09T10:00:00Z',evidenceText:'Applications are open. Eligibility is open to journalists worldwide. Applications close 2099-12-31.',structuredData:[],resourceLinks:[]}},
