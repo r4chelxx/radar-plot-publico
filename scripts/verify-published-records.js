@@ -4,6 +4,14 @@ const fs=require('node:fs');
 const base=process.env.RADAR_PUBLIC_URL||'https://r4chelxx.github.io/radar-plot-publico/';
 const approved=JSON.parse(fs.readFileSync(process.env.RADAR_APPROVED_MANIFEST||'intake/approved-publications.json','utf8')).approved||[];
 const expected=approved.filter(x=>x.record?.id).map(x=>({id:x.record.id,category:x.category}));
+// The publisher writes this report during this run; aliases must be absent and their
+// registered primary records present. Never waive an arbitrary missing approval.
+const aliasPath='intake/publication-aliases.json';
+const aliases=fs.existsSync(aliasPath)?JSON.parse(fs.readFileSync(aliasPath,'utf8')).aliases||[]:[];
+for(const alias of aliases){
+ if(alias.category!=='opportunities'||!alias.id||!alias.primaryId||alias.id===alias.primaryId)throw Error('Invalid publication alias');
+ expected.push({id:alias.primaryId,category:alias.category});
+}
 const retries=Math.min(12,Math.max(1,Number(process.env.RADAR_DEPLOY_RETRIES||8)));
 const delay=Math.min(30000,Math.max(1000,Number(process.env.RADAR_DEPLOY_DELAY_MS||15000)));
 const sleep=ms=>new Promise(resolve=>setTimeout(resolve,ms));
@@ -15,7 +23,12 @@ const sleep=ms=>new Promise(resolve=>setTimeout(resolve,ms));
    const response=await fetch(new URL('data/'+category+'.js?audit='+Date.now(),base),{headers:{'cache-control':'no-cache'},signal:AbortSignal.timeout(15000)});
    if(!response.ok)throw Error('Public '+category+' returned HTTP '+response.status);
    const body=await response.text();
-   for(const record of expected.filter(x=>x.category===category))if(!body.includes('"id": "'+record.id+'"')&&!body.includes('"id":"'+record.id+'"'))missing.push(record.id);
+   const has=id=>body.includes('"id": "'+id+'"')||body.includes('"id":"'+id+'"');
+   for(const record of expected.filter(x=>x.category===category)){
+    const alias=aliases.find(x=>x.category===category&&x.id===record.id);
+    if(!has(alias?alias.primaryId:record.id))missing.push(record.id);
+   }
+   for(const alias of aliases.filter(x=>x.category===category))if(has(alias.id))missing.push('duplicate:'+alias.id);
   }
   console.log(JSON.stringify({attempt:i,expected:expected.length,missing}));
   if(!missing.length){console.log('Deployed public catalog contains all approved records');return}
