@@ -1,0 +1,3454 @@
+{
+  "date": "2026-11-16",
+  "method": "Govteca: GET de páginas de destino, com leitura parcial de conteúdo; Guaraci: HEAD do recurso identificado, associado à documentação do adaptador. HTTP 200 não é certificação da qualidade integral. Ver evaluation.json para a decisão.",
+  "checks": {
+    "checked-conectividade-na-educacao": {
+      "slug": "conectividade-na-educacao",
+      "requestedUrl": "https://conectividadenaeducacao.nic.br",
+      "status": "inconclusive",
+      "url": "https://conectividadenaeducacao.nic.br",
+      "error": "The read operation timed out"
+    },
+    "checked-painel-de-monitoramento-do-plano-estadual-de-educacao-see-mg": {
+      "slug": "painel-de-monitoramento-do-plano-estadual-de-educacao-see-mg",
+      "requestedUrl": "https://lookerstudio.google.com/u/0/reporting/ec9c0100-72ec-4048-b94c-6fd37374aff1/page/p_3per9lavyc",
+      "status": 200,
+      "url": "https://datastudio.google.com/reporting/ec9c0100-72ec-4048-b94c-6fd37374aff1/page/p_3per9lavyc",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "e6d8b8fb412c952ecb944f1e722fe500db30b34df931167b5ee810b3448213ce",
+      "truncated": false
+    },
+    "checked-bdqueimadas-inpe": {
+      "slug": "bdqueimadas-inpe",
+      "requestedUrl": "https://terrabrasilis.dpi.inpe.br/queimadas/bdqueimadas",
+      "status": 200,
+      "url": "https://terrabrasilis.dpi.inpe.br/queimadas/bdqueimadas/",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "c8ddc3dfee462d916913422c9b048140cdefda2307c9389b7bdc290d401c57fa",
+      "truncated": false
+    },
+    "checked-ideb-resultados-inep": {
+      "slug": "ideb-resultados-inep",
+      "requestedUrl": "https://ideb.inep.gov.br",
+      "status": 503,
+      "url": "https://ideb.inep.gov.br",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    "checked-painel-de-monitoramento-do-pne-inep": {
+      "slug": "painel-de-monitoramento-do-pne-inep",
+      "requestedUrl": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/inep-data/painel-de-monitoramento-do-pne",
+      "status": 200,
+      "url": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/inep-data/painel-de-monitoramento-do-pne",
+      "contentType": "text/html;charset=utf-8",
+      "sha256": "81071ff1a4dcde4aaf524e7e9ece238fbef21231ca7cf70cc3613b1f4ffb033c",
+      "truncated": false
+    },
+    "checked-terrabrasilis-prodes-e-deter": {
+      "slug": "terrabrasilis-prodes-e-deter",
+      "requestedUrl": "https://terrabrasilis.dpi.inpe.br/app/map/deforestation",
+      "status": 200,
+      "url": "https://terrabrasilis.dpi.inpe.br/app/map/deforestation",
+      "contentType": "text/html",
+      "sha256": "570ad69c6c94a6341cafc08c29e02b9825f0554aefea5691f3edec7896919fc4",
+      "truncated": false
+    },
+    "checked-estatisticas-do-censo-escolar-inep": {
+      "slug": "estatisticas-do-censo-escolar-inep",
+      "requestedUrl": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/inep-data/estatisticas-censo-escolar",
+      "status": 200,
+      "url": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/inep-data/estatisticas-censo-escolar",
+      "contentType": "text/html;charset=utf-8",
+      "sha256": "5f5b4fac3ea63117067615c64f66f880645895fbfda8deaebda07b2906ecbbb7",
+      "truncated": false
+    },
+    "checked-farol-tce-sc": {
+      "slug": "farol-tce-sc",
+      "requestedUrl": "https://servicos.tcesc.tc.br/farol_externo/index.html",
+      "status": 200,
+      "url": "https://servicos.tcesc.tc.br/farol_externo/index.html",
+      "contentType": "text/html",
+      "sha256": "9a6475ef5469f6293aeb02c87c116930a0461e1c1fa655d9b8f2de6e0714efbf",
+      "truncated": false
+    },
+    "checked-transferencias-constitucionais-tesouro-nacional": {
+      "slug": "transferencias-constitucionais-tesouro-nacional",
+      "requestedUrl": "https://sisweb.tesouro.gov.br/apex/f?p=2600:1",
+      "status": 403,
+      "url": "https://sisweb.tesouro.gov.br/apex/f?p=2600:1",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "checked-seeg-plataforma-de-emissoes-de-gases-de-efeito-estufa": {
+      "slug": "seeg-plataforma-de-emissoes-de-gases-de-efeito-estufa",
+      "requestedUrl": "https://plataforma.seeg.eco.br",
+      "status": 503,
+      "url": "https://plataforma.seeg.eco.br",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    "checked-terras-indigenas-no-brasil": {
+      "slug": "terras-indigenas-no-brasil",
+      "requestedUrl": "https://terrasindigenas.org.br",
+      "status": 200,
+      "url": "https://terrasindigenas.org.br",
+      "contentType": "text/html; charset=UTF-8",
+      "sha256": "7802a6eb581180bc9695d857199e0ff0ef29010293c0b3b6fe423575a9a14e5a",
+      "truncated": true
+    },
+    "checked-tomeconta": {
+      "slug": "tomeconta",
+      "requestedUrl": "https://tomeconta.tcepe.tc.br",
+      "status": 200,
+      "url": "https://tomeconta.tcepe.tc.br",
+      "contentType": "text/html; charset=UTF-8",
+      "sha256": "c6027460e2317ba8ca57eac3df9891f2336c0198babc9353de23d5578d1360fd",
+      "truncated": false
+    },
+    "checked-splegis-camara-municipal-de-sao-paulo": {
+      "slug": "splegis-camara-municipal-de-sao-paulo",
+      "requestedUrl": "https://splegisconsulta.saopaulo.sp.leg.br",
+      "status": 200,
+      "url": "https://splegisconsulta.saopaulo.sp.leg.br",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "e5ebaa0e9cc9993e703cf85b3c922b26dab2c5478f51b15f19eb4cd46148ce3e",
+      "truncated": false
+    },
+    "checked-sar-sistema-de-acompanhamento-de-reservatorios-ana": {
+      "slug": "sar-sistema-de-acompanhamento-de-reservatorios-ana",
+      "requestedUrl": "https://www.ana.gov.br/sar",
+      "status": 200,
+      "url": "https://www.ana.gov.br/sar/",
+      "contentType": "text/html;charset=utf-8",
+      "sha256": "bc8c26f5315a8aa219ce9d05992044edae9242349e297b844f555ba281bcc5a5",
+      "truncated": false
+    },
+    "checked-siope-situacao-de-cumprimento-dos-indicadores-constitucionai": {
+      "slug": "siope-situacao-de-cumprimento-dos-indicadores-constitucionai",
+      "requestedUrl": "https://www.fnde.gov.br/siope/situacaoCumprimentoIndicadores.do?esfera=MUNICIPAL",
+      "status": 200,
+      "url": "https://www.fnde.gov.br/siope/situacaoCumprimentoIndicadores.do?esfera=MUNICIPAL",
+      "contentType": "text/html;charset=UTF-8",
+      "sha256": "24a98ac4c6b3f156962eeb2e8f4d113b73f997203636a7d84950ad08be56b5f0",
+      "truncated": false
+    },
+    "checked-smartlab-observatorio-da-erradicacao-do-trabalho-escravo": {
+      "slug": "smartlab-observatorio-da-erradicacao-do-trabalho-escravo",
+      "requestedUrl": "https://smartlab.mpt.mp.br/trabalhoescravo",
+      "status": 200,
+      "url": "https://smartlab.mpt.mp.br/trabalhoescravo",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "71e283d70f0b3761e61875144dc1a73cc5bf92971998055b26a5cab7a674d403",
+      "truncated": true
+    },
+    "checked-siconfi-ia": {
+      "slug": "siconfi-ia",
+      "requestedUrl": "https://siconfi-ia.tesourotransparente.gov.br",
+      "status": 503,
+      "url": "https://siconfi-ia.tesourotransparente.gov.br",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    "checked-portal-da-transparencia-do-recife": {
+      "slug": "portal-da-transparencia-do-recife",
+      "requestedUrl": "https://transparencia.recife.pe.gov.br",
+      "status": 200,
+      "url": "https://transparencia.recife.pe.gov.br/codigos/web/geral/home.php",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "44478b841ad6dd74beb532e6446663954c34a59286258f300a91d8b9a2683a9e",
+      "truncated": false
+    },
+    "checked-seade-trabalho": {
+      "slug": "seade-trabalho",
+      "requestedUrl": "https://trabalho.seade.gov.br",
+      "status": 200,
+      "url": "https://trabalho.seade.gov.br",
+      "contentType": "text/html; charset=UTF-8",
+      "sha256": "5421c0aa5086c0d8d244735142c7af5e84422e6a4a7f75bb5e1c73dc2829c456",
+      "truncated": false
+    },
+    "checked-radar-nacional-da-transparencia-publica": {
+      "slug": "radar-nacional-da-transparencia-publica",
+      "requestedUrl": "https://radardatransparencia.atricon.org.br",
+      "status": 200,
+      "url": "https://radardatransparencia.atricon.org.br",
+      "contentType": "text/html; charset=UTF-8",
+      "sha256": "4f00cc25727f57d388686f8db203b594f0fc193549e3e5dc6e8b047cc98495ec",
+      "truncated": false
+    },
+    "checked-portal-hidrologico-do-ceara": {
+      "slug": "portal-hidrologico-do-ceara",
+      "requestedUrl": "https://www.hidro.ce.gov.br",
+      "status": 200,
+      "url": "https://www.hidro.ce.gov.br",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "9473938e5ef5048964a50b8b5432eab74098547ee70f2ec74a719c93888ed342",
+      "truncated": false
+    },
+    "checked-sapl-da-camara-municipal-de-fortaleza": {
+      "slug": "sapl-da-camara-municipal-de-fortaleza",
+      "requestedUrl": "https://sapl.fortaleza.ce.leg.br",
+      "status": 200,
+      "url": "https://sapl.fortaleza.ce.leg.br",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "f160ef14396825a1d8cc26a3a2647c093a5fcae2744b9de3ccee9d5857320f09",
+      "truncated": false
+    },
+    "checked-sampa-rural": {
+      "slug": "sampa-rural",
+      "requestedUrl": "https://sampamaisrural.prefeitura.sp.gov.br",
+      "status": 200,
+      "url": "https://sampamaisrural.prefeitura.sp.gov.br",
+      "contentType": "text/html",
+      "sha256": "206286446a814a3ce588c3439b39fab6623263777b7e99c7b92eaf460273e5ae",
+      "truncated": false
+    },
+    "checked-painel-do-obrasgov-br": {
+      "slug": "painel-do-obrasgov-br",
+      "requestedUrl": "https://www.gov.br/obrasgov/pt-br/ferramentas-de-gestao-e-transparencia/painel-do-obrasgov.br",
+      "status": 200,
+      "url": "https://dd-publico.serpro.gov.br/extensions/painel/ObrasgovbrIntervencao.html?qlikTicket=oUTfNcBcNd8LXJOG",
+      "contentType": "text/html;charset=utf-8",
+      "sha256": "ced24cdb74066d6b87b6f0b4c3368e46e03925b3b72c665e528b304138bdce43",
+      "truncated": false
+    },
+    "checked-ranking-siconfi": {
+      "slug": "ranking-siconfi",
+      "requestedUrl": "https://ranking-municipios.tesouro.gov.br",
+      "status": 200,
+      "url": "https://ranking-municipios.tesouro.gov.br",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "3cfda102f66e43ef8533aa21b0e0ee687d55bebb633abfb5e51e21dbbefa46db",
+      "truncated": false
+    },
+    "checked-rede-de-atendimento-em-direitos-humanos-de-sao-paulo": {
+      "slug": "rede-de-atendimento-em-direitos-humanos-de-sao-paulo",
+      "requestedUrl": "https://rededireitoshumanos.prefeitura.sp.gov.br/explorar",
+      "status": 200,
+      "url": "https://rededireitoshumanos.prefeitura.sp.gov.br/explorar",
+      "contentType": "text/html",
+      "sha256": "c50092951695917b297cd6ab464c0845da03a1c8b705eff116beea45cd0262e9",
+      "truncated": false
+    },
+    "checked-resultados-tse": {
+      "slug": "resultados-tse",
+      "requestedUrl": "https://resultados.tse.jus.br/oficial/app/index.html",
+      "status": 200,
+      "url": "https://resultados.tse.jus.br/oficial/app/index.html",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "2612d713cd7487fba0d1f90ebd2fc8f39171603cd9cd8ae6d2bb930e61e7a76b",
+      "truncated": false
+    },
+    "checked-primeira-infancia-em-dados": {
+      "slug": "primeira-infancia-em-dados",
+      "requestedUrl": "https://primeirainfanciaemdados.org.br",
+      "status": 200,
+      "url": "https://primeirainfanciaemdados.org.br",
+      "contentType": "text/html; charset=UTF-8",
+      "sha256": "02d60cfa7c1812f7d57d3720df3d0a924b38b961d57b262614bea7c0bbfdf04d",
+      "truncated": false
+    },
+    "checked-portal-dos-mananciais-sabesp": {
+      "slug": "portal-dos-mananciais-sabesp",
+      "requestedUrl": "https://mananciais.sabesp.com.br",
+      "status": 200,
+      "url": "https://mananciais.sabesp.com.br",
+      "contentType": "text/html",
+      "sha256": "dc4ad4641b844e00d5fd311945b0de264c97b63e84d7e6db09a25fee17aba4d3",
+      "truncated": false
+    },
+    "checked-painel-transparencia-obras-publicas-belo-horizonte": {
+      "slug": "painel-transparencia-obras-publicas-belo-horizonte",
+      "requestedUrl": "https://prefeitura.pbh.gov.br/transparencia/mais-transparencia/obras-publicas",
+      "status": 200,
+      "url": "https://prefeitura.pbh.gov.br/transparencia/mais-transparencia/obras-publicas",
+      "contentType": "text/html; charset=UTF-8",
+      "sha256": "f2ac59d9ecf7569c64b28a739554f5908ec9f8190364d4f3148ebfe424c94ece",
+      "truncated": false
+    },
+    "checked-portal-de-emendas-parlamentares-tce-mg": {
+      "slug": "portal-de-emendas-parlamentares-tce-mg",
+      "requestedUrl": "https://acompanhe-emendas-ia.tce.mg.gov.br",
+      "status": 503,
+      "url": "https://acompanhe-emendas-ia.tce.mg.gov.br",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    "checked-painel-saneamento-brasil": {
+      "slug": "painel-saneamento-brasil",
+      "requestedUrl": "https://www.painelsaneamento.org.br",
+      "status": 200,
+      "url": "https://www.painelsaneamento.org.br",
+      "contentType": "text/html; charset=UTF-8",
+      "sha256": "8ace34843683771a5354f6ee33fecbaa373bdd44f4a9d4a8e0700f54f4a736b1",
+      "truncated": true
+    },
+    "checked-pesquisa-no-diario-oficial-da-uniao": {
+      "slug": "pesquisa-no-diario-oficial-da-uniao",
+      "requestedUrl": "https://www.in.gov.br/consulta",
+      "status": 403,
+      "url": "https://www.in.gov.br/consulta",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "checked-poa-transporte": {
+      "slug": "poa-transporte",
+      "requestedUrl": "https://www.poatransporte.com.br",
+      "status": 200,
+      "url": "https://www.poatransporte.com.br",
+      "contentType": "text/html",
+      "sha256": "313e7beddaa8124842faeae065e32d3dd59432cf065c2ed3329e1ee7b3fb9a08",
+      "truncated": false
+    },
+    "checked-pesquisa-de-propostas-legislativas-camara-dos-deputados": {
+      "slug": "pesquisa-de-propostas-legislativas-camara-dos-deputados",
+      "requestedUrl": "https://www.camara.leg.br/busca-portal/proposicoes/pesquisa-simplificada",
+      "status": 200,
+      "url": "https://www.camara.leg.br/busca-portal/proposicoes/pesquisa-simplificada",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "23f324226fefaa1afa00609bc38434569a9977ad281db6b5e03b33ace3088392",
+      "truncated": false
+    },
+    "checked-pesquisa-cnt-de-rodovias": {
+      "slug": "pesquisa-cnt-de-rodovias",
+      "requestedUrl": "https://pesquisarodovias.cnt.org.br",
+      "status": 403,
+      "url": "https://pesquisarodovias.cnt.org.br",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "checked-participacao-assembleia-legislativa-de-minas-gerais": {
+      "slug": "participacao-assembleia-legislativa-de-minas-gerais",
+      "requestedUrl": "https://www.almg.gov.br/participacao/inicial",
+      "status": 200,
+      "url": "https://www.almg.gov.br/participacao/inicial",
+      "contentType": "text/html;charset=UTF-8",
+      "sha256": "258c0cccbdaaa9c915bc2c6e4ce5eae601c2ba5a578f42c412a69985199e7de8",
+      "truncated": false
+    },
+    "checked-painel-publico-do-cadastro-nacional-de-pessoas-desaparecidas": {
+      "slug": "painel-publico-do-cadastro-nacional-de-pessoas-desaparecidas",
+      "requestedUrl": "https://cnpd.mj.gov.br/painel-publico",
+      "status": 200,
+      "url": "https://cnpd.mj.gov.br/painel-publico",
+      "contentType": "text/html",
+      "sha256": "bc47eb74f58b80ac49322a216e0aac00b00848f12b181c63db4c27d2acb20517",
+      "truncated": false
+    },
+    "checked-painel-do-zoneamento-agricola-de-risco-climatico-zarc": {
+      "slug": "painel-do-zoneamento-agricola-de-risco-climatico-zarc",
+      "requestedUrl": "https://mapa-indicadores.agricultura.gov.br/publico/extensions/Zarc/Zarc.html",
+      "status": 200,
+      "url": "https://mapa-indicadores.agricultura.gov.br/publico/extensions/Zarc/Zarc.html",
+      "contentType": "text/html;charset=utf-8",
+      "sha256": "37cb601f0af0ed8b052273054022a54a6fe6a4587cb1d50e73a3a5d29ca18b7a",
+      "truncated": false
+    },
+    "checked-painel-do-perfil-da-populacao-acolhida-smads-sao-paulo": {
+      "slug": "painel-do-perfil-da-populacao-acolhida-smads-sao-paulo",
+      "requestedUrl": "https://app.powerbi.com/view?r=eyJrIjoiMmRhYzFlOTItYWNmMS00NGE1LTg4Y2ItZmU5OTZmNTM0MTljIiwidCI6ImYzOThkZjljLWZkMGMtNDgyOS1hMDAzLWM3NzBhMWM0YTA2MyJ9",
+      "status": 200,
+      "url": "https://app.powerbi.com/view?r=eyJrIjoiMmRhYzFlOTItYWNmMS00NGE1LTg4Y2ItZmU5OTZmNTM0MTljIiwidCI6ImYzOThkZjljLWZkMGMtNDgyOS1hMDAzLWM3NzBhMWM0YTA2MyJ9",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "fc0c7e704e2dc119784dcccd34c4047537912f08d102aebfa33d6bc39c5da286",
+      "truncated": false
+    },
+    "checked-painel-das-juventudes-observatorio-nacional-das-juventudes": {
+      "slug": "painel-das-juventudes-observatorio-nacional-das-juventudes",
+      "requestedUrl": "https://onj.juventude.gov.br",
+      "status": 200,
+      "url": "https://www.gov.br/planalto/pt-br",
+      "contentType": "text/html;charset=utf-8",
+      "sha256": "6f3e598043e4a92ac6f6a55b781dc00820ccdcc19c28ec25bc6faa7fa176766f",
+      "truncated": false
+    },
+    "checked-painel-de-setores-de-risco-geologico-do-sgb": {
+      "slug": "painel-de-setores-de-risco-geologico-do-sgb",
+      "requestedUrl": "https://geoportal.sgb.gov.br/portal/apps/dashboards/c338199dee3a4d4bb0e43738b424a298",
+      "status": 200,
+      "url": "https://geoportal.sgb.gov.br/portal/apps/dashboards/c338199dee3a4d4bb0e43738b424a298",
+      "contentType": "text/html",
+      "sha256": "4cdc6109d7dffcddc7e6bf2d871b946667d001a6f8833d6815b672080b556980",
+      "truncated": false
+    },
+    "checked-painel-do-orcamento-federal": {
+      "slug": "painel-do-orcamento-federal",
+      "requestedUrl": "https://www1.siop.planejamento.gov.br/QvAJAXZfc/opendoc.htm?document=IAS%2FExecucao_Orcamentaria.qvw&host=QVS%40pqlk04&anonymous=true",
+      "status": 200,
+      "url": "https://www1.siop.planejamento.gov.br/QvAJAXZfc/opendoc.htm?document=IAS%2FExecucao_Orcamentaria.qvw&host=QVS%40pqlk04&anonymous=true",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "04d11e485241e2f35ecb10518e807c8a62578b0e9bbebeac979b745c2ee4f307",
+      "truncated": false
+    },
+    "checked-painel-dinamico-de-precos-de-combustiveis-e-derivados-do-pet": {
+      "slug": "painel-dinamico-de-precos-de-combustiveis-e-derivados-do-pet",
+      "requestedUrl": "https://www.gov.br/anp/pt-br/centrais-de-conteudo/paineis-dinamicos-da-anp/painel-dinamico-de-precos-de-combustiveis-e-derivados-do-petroleo",
+      "status": 200,
+      "url": "https://www.gov.br/anp/pt-br/centrais-de-conteudo/paineis-dinamicos-da-anp/painel-dinamico-de-precos-de-combustiveis-e-derivados-do-petroleo",
+      "contentType": "text/html;charset=utf-8",
+      "sha256": "048c514e2b1a02e6a574e32df18ee317989588adbf827edd83b092702bc11c4f",
+      "truncated": false
+    },
+    "checked-painel-dinamico-da-fiscalizacao-do-abastecimento": {
+      "slug": "painel-dinamico-da-fiscalizacao-do-abastecimento",
+      "requestedUrl": "https://www.gov.br/anp/pt-br/centrais-de-conteudo/paineis-dinamicos-da-anp/painel-dinamico-da-fiscalizacao-do-abastecimento",
+      "status": 200,
+      "url": "https://www.gov.br/anp/pt-br/centrais-de-conteudo/paineis-dinamicos-da-anp/painel-dinamico-da-fiscalizacao-do-abastecimento",
+      "contentType": "text/html;charset=utf-8",
+      "sha256": "051e30f4506575577baf6d1f0015a28388fb9e004ae6f341526922ca23cc15e9",
+      "truncated": false
+    },
+    "checked-painel-de-obras-tce-sp": {
+      "slug": "painel-de-obras-tce-sp",
+      "requestedUrl": "https://www.tce.sp.gov.br/paineldeobras",
+      "status": 403,
+      "url": "https://paineldeobras.tce.sp.gov.br/pentaho/api/repos/%3Apublic%3AObra%3Apainel_obras.wcdf/generatedContent?userid=anony&password=zero",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "checked-painel-de-saneamento-basico-do-tce-sp": {
+      "slug": "painel-de-saneamento-basico-do-tce-sp",
+      "requestedUrl": "https://www.tce.sp.gov.br/saneamento",
+      "status": 403,
+      "url": "https://painel.tce.sp.gov.br/pentaho/api/repos/%3Apublic%3ASaneamento%3Asaneamento.wcdf/generatedContent?userid=anony&password=zero",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "checked-painel-do-deficit-habitacional-no-brasil-fundacao-joao-pinhe": {
+      "slug": "painel-do-deficit-habitacional-no-brasil-fundacao-joao-pinhe",
+      "requestedUrl": "https://app.powerbi.com/view?r=eyJrIjoiNzFlMmI0ODUtMmYwYi00MDNiLTg2YmUtMzdkYTY2MWZiMzZkIiwidCI6IjA5ZGY3MWFlLWQ2YzUtNGFkYi1iMjVjLTlkMmRjZDQwMWFjMiJ9",
+      "status": 200,
+      "url": "https://app.powerbi.com/view?r=eyJrIjoiNzFlMmI0ODUtMmYwYi00MDNiLTg2YmUtMzdkYTY2MWZiMzZkIiwidCI6IjA5ZGY3MWFlLWQ2YzUtNGFkYi1iMjVjLTlkMmRjZDQwMWFjMiJ9",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "64d4466f019d7e2ad81695ef3b0dc389c7c135bfa7db238271414d529969201b",
+      "truncated": false
+    },
+    "checked-painel-de-saude-mental-no-socioeducativo": {
+      "slug": "painel-de-saude-mental-no-socioeducativo",
+      "requestedUrl": "https://app.powerbi.com/view?r=eyJrIjoiYjQwZmNjMDUtMTRhOC00MWJiLWJmYWMtYWQyODQwMDVjOTQ3IiwidCI6ImFkOTE5MGU2LWM0NWQtNDYwMC1iYzVjLWVjYTU1NGNjZjQ5NyIsImMiOjJ9",
+      "status": 200,
+      "url": "https://app.powerbi.com/view?r=eyJrIjoiYjQwZmNjMDUtMTRhOC00MWJiLWJmYWMtYWQyODQwMDVjOTQ3IiwidCI6ImFkOTE5MGU2LWM0NWQtNDYwMC1iYzVjLWVjYTU1NGNjZjQ5NyIsImMiOjJ9",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "7e045e18b8deff2a08bf9b9f27de00ef1d18360264b465a7ef45cede5a93f954",
+      "truncated": false
+    },
+    "checked-painel-de-dados-da-regulacao-ses-rs": {
+      "slug": "painel-de-dados-da-regulacao-ses-rs",
+      "requestedUrl": "https://ti.saude.rs.gov.br/regulacao_transparencia",
+      "status": 200,
+      "url": "https://ti.saude.rs.gov.br/regulacao_transparencia/",
+      "contentType": "text/html",
+      "sha256": "0b117c0a44834abb210c0d004a57cf26712476411566e4336979ecb9fa5595a8",
+      "truncated": false
+    },
+    "checked-painel-cnt-de-acidentes-rodoviarios": {
+      "slug": "painel-cnt-de-acidentes-rodoviarios",
+      "requestedUrl": "https://data.cnt.org.br/paineis/painel-de-acidentes-rodoviarios",
+      "status": 200,
+      "url": "https://data.cnt.org.br/paineis/painel-de-acidentes-rodoviarios/",
+      "contentType": "text/html; charset=UTF-8",
+      "sha256": "287b2fc7a31490d4503c16788b28cbd8ee9dc03a6e9178679165a48a23dbdc99",
+      "truncated": false
+    },
+    "checked-painel-de-obras-publicas-do-rio": {
+      "slug": "painel-de-obras-publicas-do-rio",
+      "requestedUrl": "https://transparencia.prefeitura.rio/obras-publicas",
+      "status": 200,
+      "url": "https://transparencia.prefeitura.rio/obras-publicas",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "75db23342ea59ad052ae1b34091749078b2e7bf9b3bbe1ac92b92da7c3033366",
+      "truncated": false
+    },
+    "checked-observatorio-terras-quilombolas": {
+      "slug": "observatorio-terras-quilombolas",
+      "requestedUrl": "https://cpisp.org.br/direitosquilombolas/observatorio-terras-quilombolas",
+      "status": 200,
+      "url": "https://cpisp.org.br/direitosquilombolas/observatorio-terras-quilombolas/",
+      "contentType": "text/html; charset=UTF-8",
+      "sha256": "2ecce33438d5c7ca5524c722f57c1dc9ee8893aefafa2522d34f19a28e24cefe",
+      "truncated": true
+    },
+    "checked-painel-de-informacoes-do-novo-caged": {
+      "slug": "painel-de-informacoes-do-novo-caged",
+      "requestedUrl": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/acoes-e-programas/programas-projetos-acoes-obras-e-atividades/estatisticas-trabalho/novo-caged",
+      "status": 200,
+      "url": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/acoes-e-programas/programas-projetos-acoes-obras-e-atividades/estatisticas-trabalho/novo-caged/2026/setembro/pagina-inicial",
+      "contentType": "text/html;charset=utf-8",
+      "sha256": "22beae0fe3b9ef65fb1b9ad07acda34228cfd24d0d2c6811151b7d7c00bf4226",
+      "truncated": false
+    },
+    "checked-painel-de-informacoes-da-rais": {
+      "slug": "painel-de-informacoes-da-rais",
+      "requestedUrl": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/acoes-e-programas/programas-projetos-acoes-obras-e-atividades/estatisticas-trabalho/rais",
+      "status": 404,
+      "url": "https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/estatisticas-trabalho/rais/rais-2025/rais-2025",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "checked-painel-de-inspecoes-do-socioeducativo-cniups-cnj": {
+      "slug": "painel-de-inspecoes-do-socioeducativo-cniups-cnj",
+      "requestedUrl": "https://paineisanalytics.cnj.jus.br/single/?appid=a12c1a54-541f-4fd7-bbdf-afba0ca89a98&sheet=38ee8b5f-07ae-4f87-bf3c-cd9304f01bcc&theme=CNIUPS&lang=pt-BR&opt=ctxmenu,currsel",
+      "status": 200,
+      "url": "https://paineisanalytics.cnj.jus.br/single/?appid=a12c1a54-541f-4fd7-bbdf-afba0ca89a98&sheet=38ee8b5f-07ae-4f87-bf3c-cd9304f01bcc&theme=CNIUPS&lang=pt-BR&opt=ctxmenu,currsel",
+      "contentType": "text/html;charset=utf-8",
+      "sha256": "0c367be6add1aee5b4da0ddb320d22e383244d17305a4503df805297d5a32c7a",
+      "truncated": false
+    },
+    "checked-painel-de-obras-paralisadas-tcu": {
+      "slug": "painel-de-obras-paralisadas-tcu",
+      "requestedUrl": "https://paineis.tcu.gov.br/ObrasParalisadas",
+      "status": 200,
+      "url": "https://paineis.tcu.gov.br/ObrasParalisadas",
+      "contentType": "text/html",
+      "sha256": "623b4f1de588ae8565c8a84f87498796a337a30a522312bd1cf871788f3774fb",
+      "truncated": false
+    },
+    "checked-painel-da-saude-tce-sp": {
+      "slug": "painel-da-saude-tce-sp",
+      "requestedUrl": "https://www.tce.sp.gov.br/paineldasaude",
+      "status": 403,
+      "url": "https://painel.tce.sp.gov.br/pentaho/api/repos/%3Apublic%3ApainelSaude%3ApainelSaude.wcdf/generatedContent?userid=anony&password=zero",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "checked-painel-de-indicadores-do-sinisa": {
+      "slug": "painel-de-indicadores-do-sinisa",
+      "requestedUrl": "https://indicadores-sinisa-2025.cidades.gov.br",
+      "status": 403,
+      "url": "https://indicadores-sinisa-2025.cidades.gov.br",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "checked-painel-de-empresas-ativas-data-sebrae": {
+      "slug": "painel-de-empresas-ativas-data-sebrae",
+      "requestedUrl": "https://datasebraeindicadores.sebrae.com.br/resources/sites/data-sebrae/data-sebrae.html",
+      "status": 200,
+      "url": "https://datasebraeindicadores.sebrae.com.br/resources/sites/data-sebrae/data-sebrae.html",
+      "contentType": "text/html;charset=utf-8",
+      "sha256": "4ffb9889ffb99949e517a01b95f6142bb775b8d2f7c1d8f4e43c6c012f2f6259",
+      "truncated": false
+    },
+    "checked-painel-de-dados-da-ouvidoria-nacional-de-direitos-humanos": {
+      "slug": "painel-de-dados-da-ouvidoria-nacional-de-direitos-humanos",
+      "requestedUrl": "https://www.gov.br/mdh/pt-br/ondh/painel-de-dados/2026",
+      "status": 200,
+      "url": "https://www.gov.br/mdh/pt-br/ondh/painel-de-dados/2026",
+      "contentType": "text/html;charset=utf-8",
+      "sha256": "5ab5947e53043118b9550b42b337a710fa23761f11eb35485434c23fea64f2ee",
+      "truncated": false
+    },
+    "checked-painel-de-controle-tce-es": {
+      "slug": "painel-de-controle-tce-es",
+      "requestedUrl": "https://paineldecontrole.tcees.tc.br",
+      "status": 200,
+      "url": "https://paineldecontrole.tcees.tc.br",
+      "contentType": "text/html",
+      "sha256": "43c9c054976f9a5cf5f2fb850105a89f3b3aa67059e78ba926000c788ebc6a33",
+      "truncated": false
+    },
+    "checked-painel-da-primeira-infancia-tce-sp": {
+      "slug": "painel-da-primeira-infancia-tce-sp",
+      "requestedUrl": "https://painel.tce.sp.gov.br/pentaho/api/repos/%3Apublic%3Ainfancia%3Aprimeirainfancia.wcdf/generatedContent?userid=anony&password=zero",
+      "status": 403,
+      "url": "https://painel.tce.sp.gov.br/pentaho/api/repos/%3Apublic%3Ainfancia%3Aprimeirainfancia.wcdf/generatedContent?userid=anony&password=zero",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "checked-paineis-do-programa-devolve-icms-rs": {
+      "slug": "paineis-do-programa-devolve-icms-rs",
+      "requestedUrl": "https://devolveicms.rs.gov.br/paineis-e-dados",
+      "status": 200,
+      "url": "https://devolveicms.rs.gov.br/paineis-e-dados",
+      "contentType": "text/html; charset=UTF-8",
+      "sha256": "f57e3adbc4492292b1aa104c07c6259b9b52786002ab1cfadd16927d7a997bfc",
+      "truncated": false
+    },
+    "checked-observatorio-do-cadastro-unico": {
+      "slug": "observatorio-do-cadastro-unico",
+      "requestedUrl": "https://paineis.mds.gov.br/public/extensions/observatorio-do-cadastro-unico/index.html",
+      "status": 200,
+      "url": "https://paineis.mds.gov.br/public/extensions/observatorio-do-cadastro-unico/index.html",
+      "contentType": "text/html;charset=utf-8",
+      "sha256": "fd5d140461bd344310c3ec09d9ffa496ccca5df1c1b7e658fb893a23cec7392a",
+      "truncated": true
+    },
+    "checked-observatorio-da-prevencao-e-da-erradicacao-do-trabalho-infan": {
+      "slug": "observatorio-da-prevencao-e-da-erradicacao-do-trabalho-infan",
+      "requestedUrl": "https://smartlab.mpt.mp.br/trabalhoinfantil",
+      "status": 200,
+      "url": "https://smartlab.mpt.mp.br/trabalhoinfantil/",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "954b23e973f3c9362d062a20e116c2b87a2d6c76bbc6f96872482a41b08f9afd",
+      "truncated": true
+    },
+    "checked-observatorio-de-dados-de-energia-do-piaui": {
+      "slug": "observatorio-de-dados-de-energia-do-piaui",
+      "requestedUrl": "https://dados.pi.gov.br/observatorio/energias-renovaveis",
+      "status": 200,
+      "url": "https://dados.pi.gov.br/observatorio/energias-renovaveis/",
+      "contentType": "text/html; charset=UTF-8",
+      "sha256": "de0ca3c0f56195541a6758da927ad65e11cc63cd75e20fd7380c81a898a74b73",
+      "truncated": false
+    },
+    "checked-observa-infancia-viva-fortaleza": {
+      "slug": "observa-infancia-viva-fortaleza",
+      "requestedUrl": "https://observatorio.fortaleza.ce.gov.br/observainfanciaviva",
+      "status": 200,
+      "url": "https://observatorio.fortaleza.ce.gov.br/observainfanciaviva/",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "3df2cba8d26c342452fc356d58921050fb987765d6b58dff33a03a7ea4d4ee02",
+      "truncated": false
+    },
+    "checked-observatorio-digital-da-socioeducacao-iases-es": {
+      "slug": "observatorio-digital-da-socioeducacao-iases-es",
+      "requestedUrl": "https://observatorio.iases.es.gov.br",
+      "status": 200,
+      "url": "https://observatorio.iases.es.gov.br",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "120e76dde04cae991030abf0f2ed7bd9bee2afe9e06aecb2ea074570180a33a6",
+      "truncated": false
+    },
+    "checked-olho-vivo-sptrans": {
+      "slug": "olho-vivo-sptrans",
+      "requestedUrl": "https://olhovivo.sptrans.com.br",
+      "status": 200,
+      "url": "https://olhovivo.sptrans.com.br",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "10d97ab9f25d4a6ce09d5ff3b59273a5a9f5b71723392bc599a7e27369167d78",
+      "truncated": false
+    },
+    "checked-municipios-e-saneamento": {
+      "slug": "municipios-e-saneamento",
+      "requestedUrl": "https://www.aguaesaneamento.org.br/municipios-e-saneamento",
+      "status": 200,
+      "url": "https://www.aguaesaneamento.org.br/municipios-e-saneamento/",
+      "contentType": "text/html;charset=UTF-8",
+      "sha256": "6ab6293aacd99e840a28d88e49e299f8457c53d3a0d1a46812556e966b3ca30c",
+      "truncated": false
+    },
+    "checked-observatorio-socioassistencial-de-ji-parana": {
+      "slug": "observatorio-socioassistencial-de-ji-parana",
+      "requestedUrl": "https://sites.google.com/view/vigilanciasocioassistencialjp",
+      "status": 200,
+      "url": "https://sites.google.com/view/vigilanciasocioassistencialjp",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "0a3f968d37f135c0a9c5c06771812934729822cbd329db23ea388197439a8e2c",
+      "truncated": false
+    },
+    "checked-mapa-nacional-da-violencia-de-genero": {
+      "slug": "mapa-nacional-da-violencia-de-genero",
+      "requestedUrl": "https://www.senado.leg.br/institucional/datasenado/mapadaviolencia",
+      "status": 200,
+      "url": "https://www.senado.leg.br/institucional/datasenado/mapadaviolencia/",
+      "contentType": "text/html",
+      "sha256": "271d26eaa86b3ddbfbf490deede67f88df6686dda1e74049b825a9617161db49",
+      "truncated": false
+    },
+    "checked-observatorio-da-seguranca-publica-do-espirito-santo": {
+      "slug": "observatorio-da-seguranca-publica-do-espirito-santo",
+      "requestedUrl": "https://observatorio.sesp.es.gov.br",
+      "status": 200,
+      "url": "https://observatorio.sesp.es.gov.br",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "23c142e2d813d2f6878f0183430d75859a5c360f3d1250126898df6ff832b618",
+      "truncated": false
+    },
+    "checked-observatorio-agro-catarinense": {
+      "slug": "observatorio-agro-catarinense",
+      "requestedUrl": "https://www.observatorioagro.sc.gov.br",
+      "status": 200,
+      "url": "https://www.observatorioagro.sc.gov.br",
+      "contentType": "text/html; charset=UTF-8",
+      "sha256": "dc6aad8ee6fceea9336e9b563c07d5661dbd3665b88ff89e24fe10ebbf3490d8",
+      "truncated": false
+    },
+    "checked-observatorio-da-crianca-e-do-adolescente": {
+      "slug": "observatorio-da-crianca-e-do-adolescente",
+      "requestedUrl": "https://observatoriocrianca.org.br",
+      "status": 200,
+      "url": "https://observatoriocrianca.org.br",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "fa10f214e569bd72ddf50a268e9dc45c4739ea8879d4e95ec8a8ba10366e2c2e",
+      "truncated": false
+    },
+    "checked-observatorio-da-transicao-energetica": {
+      "slug": "observatorio-da-transicao-energetica",
+      "requestedUrl": "https://observatorio.reporterbrasil.org.br",
+      "status": 200,
+      "url": "https://observatorio.reporterbrasil.org.br",
+      "contentType": "text/html",
+      "sha256": "74e1f1f11d0374ad360b77a01a46e461eff36b050591643c55908278fd3c9b80",
+      "truncated": false
+    },
+    "checked-mapa-de-obras-do-der-mg": {
+      "slug": "mapa-de-obras-do-der-mg",
+      "requestedUrl": "https://portal.der.mg.gov.br/obras-gov-map",
+      "status": 200,
+      "url": "https://portal.der.mg.gov.br/obras-gov-map/",
+      "contentType": "text/html; charset=UTF-8",
+      "sha256": "06ce99842ce9c9f87ea0c944b5498c463621557f375b9cd06a467c2702fb6306",
+      "truncated": false
+    },
+    "checked-obras-abertas": {
+      "slug": "obras-abertas",
+      "requestedUrl": "https://obrasabertas.prefeitura.sp.gov.br",
+      "status": 200,
+      "url": "https://obrasabertas.prefeitura.sp.gov.br",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "c8320d7c0f2aa7e011401e2e64c731b67df9337bc4eae43272e5ae3d9a37f9b2",
+      "truncated": true
+    },
+    "checked-observamob-observatorio-de-mobilidade-de-porto-alegre": {
+      "slug": "observamob-observatorio-de-mobilidade-de-porto-alegre",
+      "requestedUrl": "https://prefeitura.poa.br/eptc/projetos/observamob",
+      "status": 200,
+      "url": "https://prefeitura.poa.br/eptc/projetos/observamob",
+      "contentType": "text/html; charset=UTF-8",
+      "sha256": "d9b964c19c1da470db04fc6f50c5ed0424b81446c91f890f436cefa2b66df45d",
+      "truncated": false
+    },
+    "checked-observadh-observatorio-nacional-dos-direitos-humanos": {
+      "slug": "observadh-observatorio-nacional-dos-direitos-humanos",
+      "requestedUrl": "https://observadh.mdh.gov.br",
+      "status": 200,
+      "url": "https://observadh.mdh.gov.br",
+      "contentType": "text/html",
+      "sha256": "0c6cd92d2840a7f783efe78b5949ed78fdfa37920c00835eebba99baddd085bb",
+      "truncated": false
+    },
+    "checked-obitos-no-transito-brasileiro-onsv": {
+      "slug": "obitos-no-transito-brasileiro-onsv",
+      "requestedUrl": "https://www.onsv.org.br/estudos-pesquisas/obitos-no-transito-brasileiro",
+      "status": 200,
+      "url": "https://www.onsv.org.br/estudos-pesquisas/obitos-no-transito-brasileiro",
+      "contentType": "text/html; charset=UTF-8",
+      "sha256": "55544f406628e620f85389bf05cbabecd9628e069d9db3f4959a7639c12317f7",
+      "truncated": false
+    },
+    "checked-mapa-da-desigualdade-2025-sao-paulo": {
+      "slug": "mapa-da-desigualdade-2025-sao-paulo",
+      "requestedUrl": "https://institutocidadessustentaveis.shinyapps.io/mapadesigualdadesaopaulo2025",
+      "status": 200,
+      "url": "https://institutocidadessustentaveis.shinyapps.io/mapadesigualdadesaopaulo2025/",
+      "contentType": "text/html; charset=UTF-8",
+      "sha256": "73ab56b0fd7901506cfa9129992879961607179ec45b1842ee6405671af727db",
+      "truncated": false
+    },
+    "checked-monitor-legislativo-de-proposicoes-olb": {
+      "slug": "monitor-legislativo-de-proposicoes-olb",
+      "requestedUrl": "https://olb.org.br/monitor-proposicoes",
+      "status": 200,
+      "url": "https://olb.org.br/monitor-proposicoes/",
+      "contentType": "text/html; charset=UTF-8",
+      "sha256": "67e2efcfd6b2837d79fa5227d271287cfbd5186d023c8918a56bfb25c2b0f2fa",
+      "truncated": false
+    },
+    "checked-monitor-de-secas-do-brasil": {
+      "slug": "monitor-de-secas-do-brasil",
+      "requestedUrl": "https://monitordesecas.ana.gov.br",
+      "status": 200,
+      "url": "https://monitordesecas.ana.gov.br",
+      "contentType": "text/html",
+      "sha256": "6c54bc6652cc66990b2c2a803954d04433d2892c61da54c67e5dbf5541f93d99",
+      "truncated": false
+    },
+    "checked-mapas-da-in-justica": {
+      "slug": "mapas-da-in-justica",
+      "requestedUrl": "https://mapasdainjustica.fgv.br",
+      "status": 200,
+      "url": "https://mapasdainjustica.fgv.br",
+      "contentType": "text/html; charset=UTF-8",
+      "sha256": "f5dedcae7c42e89035054d0db52f0797f6e8327ad29574d6ebd0f25f9edbf888",
+      "truncated": false
+    },
+    "checked-mapeamento-nacional-de-conflitos-pela-terra-e-moradia": {
+      "slug": "mapeamento-nacional-de-conflitos-pela-terra-e-moradia",
+      "requestedUrl": "https://mapa.despejozero.org.br",
+      "status": 200,
+      "url": "https://mapa.despejozero.org.br",
+      "contentType": "text/html; charset=UTF-8",
+      "sha256": "3d74985fd4d1124818f9ec7faab2803caa366cbb27122280a207850360bd0d85",
+      "truncated": false
+    },
+    "checked-mapa-de-acesso-a-oportunidades-ipea": {
+      "slug": "mapa-de-acesso-a-oportunidades-ipea",
+      "requestedUrl": "https://www.ipea.gov.br/acessooportunidades/mapa",
+      "status": 200,
+      "url": "https://www.ipea.gov.br/acessooportunidades/mapa/",
+      "contentType": "text/html",
+      "sha256": "d1df255b65d71ff487bbd1201e1342da036bf9133994805aa42bb54387f9afd4",
+      "truncated": false
+    },
+    "checked-mapa-cadastral-de-curitiba-geocuritiba": {
+      "slug": "mapa-cadastral-de-curitiba-geocuritiba",
+      "requestedUrl": "https://geocuritiba.ippuc.org.br/mapacadastral",
+      "status": 200,
+      "url": "https://geocuritiba.ippuc.org.br/mapacadastral/",
+      "contentType": "text/html",
+      "sha256": "33d3a3f5e158a97bc9e866aa4a17c073544183d2598bd2912803eb55341836e0",
+      "truncated": false
+    },
+    "checked-indice-firjan-de-gestao-fiscal-ifgf": {
+      "slug": "indice-firjan-de-gestao-fiscal-ifgf",
+      "requestedUrl": "https://www.firjan.com.br/ifgf",
+      "status": 200,
+      "url": "https://www.firjan.com.br/ifgf/",
+      "contentType": "text/html;charset=UTF-8",
+      "sha256": "212249c29b3573871e565850e8b703510634fc899c471d2ff252c8c19def8047",
+      "truncated": false
+    },
+    "checked-geo-ontl-geoportal-da-infra-s-a": {
+      "slug": "geo-ontl-geoportal-da-infra-s-a",
+      "requestedUrl": "https://geoportal.infrasa.gov.br/ontl",
+      "status": 200,
+      "url": "https://geoportal.infrasa.gov.br/ontl/",
+      "contentType": "text/html; charset=UTF-8",
+      "sha256": "d465014497983770c4b9a30e92c488f015007f7933ac57e3f972fad4e9120c79",
+      "truncated": false
+    },
+    "checked-mapa-de-empresas": {
+      "slug": "mapa-de-empresas",
+      "requestedUrl": "https://www.gov.br/empresas-e-negocios/pt-br/mapa-de-empresas",
+      "status": 200,
+      "url": "https://www.gov.br/empresas-e-negocios/pt-br/mapa-de-empresas",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "05a42a60a6ebb805813c645afd47dcf58330de1169b4fe6024c3d0890769bae5",
+      "truncated": true
+    },
+    "checked-mapa-das-parcerias-sao-paulo-parcerias": {
+      "slug": "mapa-das-parcerias-sao-paulo-parcerias",
+      "requestedUrl": "https://www.spparcerias.com.br/mapa-das-parcerias",
+      "status": 200,
+      "url": "https://www.spparcerias.com.br/mapa-das-parcerias",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "d8b7701f1d8df00e4ba31fda3c490a54c5cb945324cfde228f13ffb2040123ee",
+      "truncated": false
+    },
+    "checked-infodengue": {
+      "slug": "infodengue",
+      "requestedUrl": "https://info.dengue.mat.br",
+      "status": 200,
+      "url": "https://info.dengue.mat.br",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "1f6fa262a42d7f58c94927810bcee9bc91dc003afb93157645f86615cf8a227d",
+      "truncated": true
+    },
+    "checked-isp-visualizacao": {
+      "slug": "isp-visualizacao",
+      "requestedUrl": "https://www.ispvisualizacao.rj.gov.br",
+      "status": 200,
+      "url": "https://www.ispvisualizacao.rj.gov.br",
+      "contentType": "text/html",
+      "sha256": "cf08d32a3351367a5d8a1b31489054cc2ff1f5a51c0dee4c125aa520c281efa4",
+      "truncated": false
+    },
+    "checked-infosiga-sp": {
+      "slug": "infosiga-sp",
+      "requestedUrl": "https://infosiga.detran.sp.gov.br",
+      "status": 200,
+      "url": "https://infosiga.detran.sp.gov.br",
+      "contentType": "text/html",
+      "sha256": "aea91165e94ae820140fa93ad8e6e4f5ac7069fb0568235b94821711274688f3",
+      "truncated": false
+    },
+    "checked-habitasampa-mapa": {
+      "slug": "habitasampa-mapa",
+      "requestedUrl": "https://mapas.habitasampa.prefeitura.sp.gov.br",
+      "status": 200,
+      "url": "https://mapas.habitasampa.prefeitura.sp.gov.br",
+      "contentType": "text/html",
+      "sha256": "937f6ebaa606d2c96a71aa725dce41b921a622923abc994f6a6dfcd4d9a5d88f",
+      "truncated": false
+    },
+    "checked-impostometro": {
+      "slug": "impostometro",
+      "requestedUrl": "https://impostometro.com.br",
+      "status": 200,
+      "url": "https://impostometro.com.br",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "a112870ce4a518f8a3b30b68f088abd0b33acecd24ff75d99538e21854332c0e",
+      "truncated": false
+    },
+    "checked-indicadores-de-precos-do-cepea": {
+      "slug": "indicadores-de-precos-do-cepea",
+      "requestedUrl": "https://www.cepea.org.br/br",
+      "status": 403,
+      "url": "https://www.cepea.org.br/br",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "checked-ieps-data": {
+      "slug": "ieps-data",
+      "requestedUrl": "https://iepsdata.org.br",
+      "status": 200,
+      "url": "https://iepsdata.org.br",
+      "contentType": "text/html; charset=UTF-8",
+      "sha256": "692af25bddad8c54c86cba662923dcf7365e148cdecef4cd3011d203652baf50",
+      "truncated": true
+    },
+    "checked-geoinfo-embrapa": {
+      "slug": "geoinfo-embrapa",
+      "requestedUrl": "https://geoinfo.dados.embrapa.br",
+      "status": 200,
+      "url": "https://geoinfo.dados.embrapa.br",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "3cd4fcc493b5ac89987edf17954f42223a2e59e8db5b6c817b13ea81ff707407",
+      "truncated": false
+    },
+    "checked-geopb": {
+      "slug": "geopb",
+      "requestedUrl": "https://geopb.tce.pb.gov.br",
+      "status": 200,
+      "url": "https://geopb.tce.pb.gov.br",
+      "contentType": "text/html",
+      "sha256": "91a5d1dfacc906d03ad99a5ae3fb29bd11e8958f3f2e438d85e76257f2ac8873",
+      "truncated": false
+    },
+    "checked-estatisticas-do-simples-nacional-e-do-mei": {
+      "slug": "estatisticas-do-simples-nacional-e-do-mei",
+      "requestedUrl": "https://www8.receita.fazenda.gov.br/SimplesNacional/Aplicacoes/ATBHE/estatisticasSinac.app/Default.aspx",
+      "status": 200,
+      "url": "https://www8.receita.fazenda.gov.br/SimplesNacional/Aplicacoes/ATBHE/estatisticasSinac.app/Default.aspx",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "aced8bda13d9d64fec11290667e74150c595499215971d15db58431cb79ccaad",
+      "truncated": false
+    },
+    "checked-dias-e-horarios-das-coletas-slu-df": {
+      "slug": "dias-e-horarios-das-coletas-slu-df",
+      "requestedUrl": "https://www.slu.df.gov.br/dias-e-horarios-das-coletas",
+      "status": 503,
+      "url": "https://www.slu.df.gov.br/dias-e-horarios-das-coletas",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    "checked-historico-da-operacao-ons": {
+      "slug": "historico-da-operacao-ons",
+      "requestedUrl": "https://www.ons.org.br/paginas/resultados-da-operacao/historico-da-operacao",
+      "status": 200,
+      "url": "https://www.ons.org.br/paginas/resultados-da-operacao/historico-da-operacao",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "66bae1a9b3bde13410c8a75a2e3e83290b8758245649fe591b81a0eba7988ccb",
+      "truncated": false
+    },
+    "checked-esig-recife-zoneamento-do-plano-diretor": {
+      "slug": "esig-recife-zoneamento-do-plano-diretor",
+      "requestedUrl": "https://esigportal2.recife.pe.gov.br/portal/apps/webappviewer/index.html?id=5a302a34540f412fbc7ae57bcc5b0a04",
+      "status": 503,
+      "url": "https://esigportal2.recife.pe.gov.br/portal/apps/webappviewer/index.html?id=5a302a34540f412fbc7ae57bcc5b0a04",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    "checked-cesta-basica-nacional-dieese": {
+      "slug": "cesta-basica-nacional-dieese",
+      "requestedUrl": "https://www.dieese.org.br/cesta",
+      "status": 200,
+      "url": "https://www.dieese.org.br/cesta/",
+      "contentType": "text/html",
+      "sha256": "df944a1bdf50c795eb55877dcd924c657cfd1488940409bdce994ccaa9126878",
+      "truncated": false
+    },
+    "checked-estatisticas-do-sistema-nacional-de-adocao-e-acolhimento-sna": {
+      "slug": "estatisticas-do-sistema-nacional-de-adocao-e-acolhimento-sna",
+      "requestedUrl": "https://www.cnj.jus.br/sistemas/sna/estatisticas",
+      "status": 403,
+      "url": "https://www.cnj.jus.br/sistemas/sna/estatisticas",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "checked-e-cidadania-senado-federal": {
+      "slug": "e-cidadania-senado-federal",
+      "requestedUrl": "https://www12.senado.leg.br/ecidadania",
+      "status": 200,
+      "url": "https://www12.senado.leg.br/ecidadania",
+      "contentType": "text/html;charset=utf-8",
+      "sha256": "74c4d925908f0e4a1732280798d8c174e548c721de57e15da17ebf7e93c64c88",
+      "truncated": false
+    },
+    "checked-cota-parlamentar-pesquisa-de-despesas-camara-dos-deputados": {
+      "slug": "cota-parlamentar-pesquisa-de-despesas-camara-dos-deputados",
+      "requestedUrl": "https://www.camara.leg.br/cota-parlamentar",
+      "status": 200,
+      "url": "https://www.camara.leg.br/cota-parlamentar/",
+      "contentType": "text/html;charset=UTF-8",
+      "sha256": "2ef3a579fdf3823c8f9d7b9aae5b146fefab672368d1c3e95768843c9706593b",
+      "truncated": true
+    },
+    "checked-estatisticas-do-poder-judiciario-cnj": {
+      "slug": "estatisticas-do-poder-judiciario-cnj",
+      "requestedUrl": "https://justica-em-numeros.cnj.jus.br/painel-estatisticas",
+      "status": 403,
+      "url": "https://justica-em-numeros.cnj.jus.br/painel-estatisticas",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "checked-dados-pnct-plano-nacional-de-contagem-de-trafego": {
+      "slug": "dados-pnct-plano-nacional-de-contagem-de-trafego",
+      "requestedUrl": "https://servicos.dnit.gov.br/dadospnct/mapa",
+      "status": 503,
+      "url": "https://servicos.dnit.gov.br/dadospnct/mapa",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    "checked-de-olho-no-luz-para-todos": {
+      "slug": "de-olho-no-luz-para-todos",
+      "requestedUrl": "https://idec.org.br/luz-para-todos",
+      "status": 200,
+      "url": "https://idec.org.br/luz-para-todos",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "003f8462ec15bd40e39dffab8d18125ec3528767d57e9b83da581329a081218d",
+      "truncated": false
+    },
+    "checked-contas-publicas-do-brasil": {
+      "slug": "contas-publicas-do-brasil",
+      "requestedUrl": "https://contaspublicasbrasil.tesourotransparente.gov.br",
+      "status": 200,
+      "url": "https://contaspublicasbrasil.tesourotransparente.gov.br",
+      "contentType": "text/html",
+      "sha256": "74e720f6874d62a7e2898648dc1bbe781a7a73246cf490cf167610ab23ec9d97",
+      "truncated": false
+    },
+    "checked-despesas-por-fornecedor-tce-sp": {
+      "slug": "despesas-por-fornecedor-tce-sp",
+      "requestedUrl": "https://transparencia.tce.sp.gov.br/despesas-fornecedor",
+      "status": 200,
+      "url": "https://transparencia.tce.sp.gov.br/despesas-fornecedor",
+      "contentType": "text/html; charset=UTF-8",
+      "sha256": "8d941d2547247f2a6019dc31599bc4d01fc023dbdd4da3eacaffbeac7309e6b1",
+      "truncated": false
+    },
+    "checked-consulta-de-estabelecimentos-do-cnes": {
+      "slug": "consulta-de-estabelecimentos-do-cnes",
+      "requestedUrl": "https://cnes.datasus.gov.br/pages/estabelecimentos/consulta.jsp",
+      "status": 200,
+      "url": "https://cnes.datasus.gov.br/pages/estabelecimentos/consulta.jsp",
+      "contentType": "text/html;charset=ISO-8859-1",
+      "sha256": "ef941bf83f4360716fdaf47c297c213112778d391d6d1bf0370cf19d7d67bd2d",
+      "truncated": false
+    },
+    "checked-dataviva": {
+      "slug": "dataviva",
+      "requestedUrl": "https://dataviva.info",
+      "status": 200,
+      "url": "https://dataviva.info",
+      "contentType": "text/html",
+      "sha256": "f5916465f7969946e34ee42ff1ce2d688bbc61d8d96b602c7b6e1e4935fed624",
+      "truncated": false
+    },
+    "checked-cotacoes-da-ceagesp": {
+      "slug": "cotacoes-da-ceagesp",
+      "requestedUrl": "https://ceagesp.gov.br/cotacoes",
+      "status": 200,
+      "url": "https://ceagesp.gov.br/cotacoes",
+      "contentType": "text/html; charset=UTF-8",
+      "sha256": "cb12d2064613b6ab8b8ee39787a56103eecf5b19f4631d25bc460cd4df7e972a",
+      "truncated": false
+    },
+    "checked-dadosjusbr": {
+      "slug": "dadosjusbr",
+      "requestedUrl": "https://dadosjusbr.org",
+      "status": 200,
+      "url": "https://dadosjusbr.org",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "841db76346c2b43b444d723f78697c2a01d350d12e602225a8a23249aaf04294",
+      "truncated": false
+    },
+    "checked-atlas-do-desenvolvimento-humano-no-brasil": {
+      "slug": "atlas-do-desenvolvimento-humano-no-brasil",
+      "requestedUrl": "https://www.atlasbrasil.org.br",
+      "status": 200,
+      "url": "https://www.atlasbrasil.org.br",
+      "contentType": "text/html; charset=UTF-8",
+      "sha256": "eaacadaa8b44b132a1cbd38b546dedf4bd86bc6f4cdc927aa876926413ec7c56",
+      "truncated": false
+    },
+    "checked-cadsuas-consulta-externa": {
+      "slug": "cadsuas-consulta-externa",
+      "requestedUrl": "https://aplicacoes.mds.gov.br/cadsuas/visualizarConsultaExterna.html",
+      "status": 200,
+      "url": "https://aplicacoes.mds.gov.br/cadsuas/visualizarConsultaExterna.html",
+      "contentType": "text/html;charset=utf-8",
+      "sha256": "ff8468cfddf7985dac88fec145e75948fb5970dc73858ec09d92c8f320bbc0b6",
+      "truncated": false
+    },
+    "checked-conecta-pne": {
+      "slug": "conecta-pne",
+      "requestedUrl": "https://conectapne.nees.ufal.br",
+      "status": 200,
+      "url": "https://conectapne.nees.ufal.br",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "17675c8500c67486b4fe9ea8901d4c4e57e4d40e16285f812aa095d9c8b9656f",
+      "truncated": false
+    },
+    "checked-agrofit-consulta-de-agrotoxicos-registrados": {
+      "slug": "agrofit-consulta-de-agrotoxicos-registrados",
+      "requestedUrl": "https://agrofit.agricultura.gov.br/agrofit_cons/principal_agrofit_cons",
+      "status": 403,
+      "url": "https://agrofit.agricultura.gov.br/agrofit_cons/principal_agrofit_cons",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "checked-balneabilidade-sc-ima": {
+      "slug": "balneabilidade-sc-ima",
+      "requestedUrl": "https://balneabilidade.ima.sc.gov.br",
+      "status": 200,
+      "url": "https://balneabilidade.ima.sc.gov.br",
+      "contentType": "text/html; charset=UTF-8",
+      "sha256": "c66042e84c057d926d9740157a8d8e1f43f5913ff2eeb50262e85af8bd5d785a",
+      "truncated": false
+    },
+    "checked-atlas-do-seguro-rural-psr": {
+      "slug": "atlas-do-seguro-rural-psr",
+      "requestedUrl": "https://mapa-indicadores.agricultura.gov.br/publico/extensions/SISSER/SISSER.html",
+      "status": 404,
+      "url": "https://mapa-indicadores.agricultura.gov.br/publico/extensions/SISSER/SISSER.html",
+      "error": "HTTP Error 404: Not Found"
+    },
+    "checked-ciclomapa": {
+      "slug": "ciclomapa",
+      "requestedUrl": "https://ciclomapa.app",
+      "status": 200,
+      "url": "https://ciclomapa.app",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "4a56ed6831eed56266397b2110fd2337b97c4a7b680ff14fe621da1580bf8e2d",
+      "truncated": false
+    },
+    "checked-aforamento-e-acervo-do-tjba": {
+      "slug": "aforamento-e-acervo-do-tjba",
+      "requestedUrl": "https://resumoexaudi.tjba.jus.br",
+      "status": 200,
+      "url": "https://resumoexaudi.tjba.jus.br",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "184974e6bad915bfa47fea59895bed94123f0663d0b3fb225afbff3abb54ef74",
+      "truncated": false
+    },
+    "checked-busca-lai": {
+      "slug": "busca-lai",
+      "requestedUrl": "https://buscalai.cgu.gov.br",
+      "status": 200,
+      "url": "https://buscalai.cgu.gov.br",
+      "contentType": "text/html",
+      "sha256": "1a70679094ad1502f8b84afb2ad56689122c6dcf2050b4675df64d95d7f54779",
+      "truncated": false
+    },
+    "guaraci-check-cetic_tic_domicilios": {
+      "key": "cetic_tic_domicilios",
+      "requestedUrl": "https://cetic.br/media/microdados/1018/tic_domicilios_2025_domicilios_base_de_microdados_v1.0.csv",
+      "status": 200,
+      "url": "https://cetic.br/media/microdados/1018/tic_domicilios_2025_domicilios_base_de_microdados_v1.0.csv",
+      "contentType": "text/csv",
+      "length": "36620334"
+    },
+    "guaraci-check-cetic_tic_saude_estabelecimentos": {
+      "key": "cetic_tic_saude_estabelecimentos",
+      "requestedUrl": "https://cetic.br/media/microdados/1072/tic_saude_2025_estabelecimentos_p%C3%B3s_cec_base_de_microdados.zip",
+      "status": 200,
+      "url": "https://cetic.br/media/microdados/1072/tic_saude_2025_estabelecimentos_p%C3%B3s_cec_base_de_microdados.zip",
+      "contentType": "application/zip",
+      "length": "2267689"
+    },
+    "guaraci-check-cvesp_sifilis_adquirida": {
+      "key": "cvesp_sifilis_adquirida",
+      "requestedUrl": "https://tabnetcve.saude.sp.gov.br/deftohtm.exe?cvetab/defs/crt/sifadq.def",
+      "status": 503,
+      "url": "https://tabnetcve.saude.sp.gov.br/deftohtm.exe?cvetab/defs/crt/sifadq.def"
+    },
+    "guaraci-check-cvesp_hiv_gestante": {
+      "key": "cvesp_hiv_gestante",
+      "requestedUrl": "https://tabnetcve.saude.sp.gov.br/deftohtm.exe?cvetab/defs/crt/hivgestnet.def",
+      "status": 503,
+      "url": "https://tabnetcve.saude.sp.gov.br/deftohtm.exe?cvetab/defs/crt/hivgestnet.def"
+    },
+    "guaraci-check-cvesp_hiv": {
+      "key": "cvesp_hiv",
+      "requestedUrl": "https://tabnetcve.saude.sp.gov.br/deftohtm.exe?cvetab/defs/crt/hiv.def",
+      "status": 503,
+      "url": "https://tabnetcve.saude.sp.gov.br/deftohtm.exe?cvetab/defs/crt/hiv.def"
+    },
+    "guaraci-check-cvesp_sifilis_gestante": {
+      "key": "cvesp_sifilis_gestante",
+      "requestedUrl": "https://tabnetcve.saude.sp.gov.br/deftohtm.exe?cvetab/defs/crt/sifges.def",
+      "status": 503,
+      "url": "https://tabnetcve.saude.sp.gov.br/deftohtm.exe?cvetab/defs/crt/sifges.def"
+    },
+    "guaraci-check-cvesp_sifilis_congenita": {
+      "key": "cvesp_sifilis_congenita",
+      "requestedUrl": "https://tabnetcve.saude.sp.gov.br/deftohtm.exe?cvetab/defs/crt/sifilisnet.def",
+      "status": 503,
+      "url": "https://tabnetcve.saude.sp.gov.br/deftohtm.exe?cvetab/defs/crt/sifilisnet.def"
+    },
+    "guaraci-check-cvesp_aids_adulto": {
+      "key": "cvesp_aids_adulto",
+      "requestedUrl": "https://tabnetcve.saude.sp.gov.br/deftohtm.exe?cvetab/defs/crt/aidsa.def",
+      "status": 503,
+      "url": "https://tabnetcve.saude.sp.gov.br/deftohtm.exe?cvetab/defs/crt/aidsa.def"
+    },
+    "guaraci-check-cetesb_qualar_horario": {
+      "key": "cetesb_qualar_horario",
+      "requestedUrl": "https://qualar.cetesb.sp.gov.br/qualar",
+      "status": 404,
+      "url": "https://qualar.cetesb.sp.gov.br/qualar/qualar"
+    },
+    "guaraci-check-inmet_estacoes": {
+      "key": "inmet_estacoes",
+      "requestedUrl": "https://portal.inmet.gov.br/uploads/dadoshistoricos",
+      "status": 403,
+      "url": "https://portal.inmet.gov.br/uploads/dadoshistoricos/"
+    },
+    "guaraci-check-sb_brasil_1986": {
+      "key": "sb_brasil_1986",
+      "requestedUrl": "https://www.gov.br/saude/pt-br/composicao/saps/brasil-sorridente/sb-brasil/dados/1986/levantamento-sb-1986.xlsx",
+      "status": 403,
+      "url": "https://www.gov.br/saude/pt-br/composicao/saps/brasil-sorridente/sb-brasil/dados/1986/levantamento-sb-1986.xlsx"
+    },
+    "guaraci-check-mds_misocial": {
+      "key": "mds_misocial",
+      "requestedUrl": "https://aplicacoes.mds.gov.br/sagi/servicos/misocial/",
+      "status": 200,
+      "url": "https://www.gov.br/mds/pt-br/avisos",
+      "contentType": "text/html;charset=utf-8",
+      "length": "208259"
+    },
+    "guaraci-check-covitel_2022": {
+      "key": "covitel_2022",
+      "requestedUrl": "https://d25b3ziafo7gx4.cloudfront.net/covitel/microdados/covitel_microdados_2022.zip",
+      "status": 200,
+      "url": "https://d25b3ziafo7gx4.cloudfront.net/covitel/microdados/covitel_microdados_2022.zip",
+      "contentType": "application/zip",
+      "length": "7299293"
+    },
+    "guaraci-check-covitel_2023": {
+      "key": "covitel_2023",
+      "requestedUrl": "https://d25b3ziafo7gx4.cloudfront.net/covitel/microdados/covitel_microdados_2023.zip",
+      "status": 200,
+      "url": "https://d25b3ziafo7gx4.cloudfront.net/covitel/microdados/covitel_microdados_2023.zip",
+      "contentType": "application/zip",
+      "length": "7195570"
+    },
+    "guaraci-check-ibge_inpc_grupos": {
+      "key": "ibge_inpc_grupos",
+      "requestedUrl": "https://sidra.ibge.gov.br/tabela/7063",
+      "status": 200,
+      "url": "https://sidra.ibge.gov.br/tabela/7063",
+      "contentType": "text/html; charset=utf-8",
+      "length": "91307"
+    },
+    "guaraci-check-ibge_ipca_grupos": {
+      "key": "ibge_ipca_grupos",
+      "requestedUrl": "https://sidra.ibge.gov.br/tabela/7060",
+      "status": 200,
+      "url": "https://sidra.ibge.gov.br/tabela/7060",
+      "contentType": "text/html; charset=utf-8",
+      "length": "91307"
+    },
+    "guaraci-check-ibge_ipca15_grupos": {
+      "key": "ibge_ipca15_grupos",
+      "requestedUrl": "https://sidra.ibge.gov.br/tabela/7062",
+      "status": 200,
+      "url": "https://sidra.ibge.gov.br/tabela/7062",
+      "contentType": "text/html; charset=utf-8",
+      "length": "91311"
+    },
+    "guaraci-check-mma_monitorar": {
+      "key": "mma_monitorar",
+      "requestedUrl": "https://dados.mma.gov.br/dataset/ar-puro-monitorar",
+      "status": 200,
+      "url": "https://dados.mma.gov.br/dataset/ar-puro-monitorar",
+      "contentType": "text/html; charset=utf-8",
+      "length": "27484"
+    },
+    "guaraci-check-inca_rhc": {
+      "key": "inca_rhc",
+      "requestedUrl": "https://app.inca.gov.br/RHCWeb/",
+      "status": 200,
+      "url": "https://app.inca.gov.br/RHCWeb/",
+      "contentType": "text/html;charset=UTF-8",
+      "length": null
+    },
+    "guaraci-check-fns_repasses_fundo_a_fundo": {
+      "key": "fns_repasses_fundo_a_fundo",
+      "requestedUrl": "https://portalfns.saude.gov.br/downloads/",
+      "status": 200,
+      "url": "https://portalfns.saude.gov.br/downloads/",
+      "contentType": "text/html; charset=UTF-8",
+      "length": null
+    },
+    "guaraci-check-sgb_suscetibilidade": {
+      "key": "sgb_suscetibilidade",
+      "requestedUrl": "https://geoservicos.sgb.gov.br/geoserver/wfs",
+      "status": 400,
+      "url": "https://geoservicos.sgb.gov.br/geoserver/wfs"
+    },
+    "guaraci-check-sgb_risco_geologico": {
+      "key": "sgb_risco_geologico",
+      "requestedUrl": "https://geoservicos.sgb.gov.br/geoserver/wfs",
+      "status": 400,
+      "url": "https://geoservicos.sgb.gov.br/geoserver/wfs"
+    },
+    "guaraci-check-prf_acidentes_ocorrencias": {
+      "key": "prf_acidentes_ocorrencias",
+      "requestedUrl": "https://www.gov.br/prf/pt-br/acesso-a-informacao/dados-abertos/dados-abertos-da-prf",
+      "status": 200,
+      "url": "https://www.gov.br/prf/pt-br/acesso-a-informacao/dados-abertos/dados-abertos-da-prf",
+      "contentType": "text/html; charset=utf-8",
+      "length": null
+    },
+    "guaraci-check-prf_acidentes_pessoas": {
+      "key": "prf_acidentes_pessoas",
+      "requestedUrl": "https://www.gov.br/prf/pt-br/acesso-a-informacao/dados-abertos/dados-abertos-da-prf",
+      "status": 200,
+      "url": "https://www.gov.br/prf/pt-br/acesso-a-informacao/dados-abertos/dados-abertos-da-prf",
+      "contentType": "text/html; charset=utf-8",
+      "length": null
+    },
+    "guaraci-check-nasa_firms": {
+      "key": "nasa_firms",
+      "requestedUrl": "https://firms.modaps.eosdis.nasa.gov",
+      "status": 200,
+      "url": "https://firms.modaps.eosdis.nasa.gov",
+      "contentType": "text/html",
+      "length": "19529"
+    },
+    "guaraci-check-funai_terras_indigenas": {
+      "key": "funai_terras_indigenas",
+      "requestedUrl": "https://geoserver.funai.gov.br/geoserver/Funai/ows",
+      "status": 503,
+      "url": "https://geoserver.funai.gov.br/geoserver/Funai/ows"
+    },
+    "guaraci-check-funai_aldeias": {
+      "key": "funai_aldeias",
+      "requestedUrl": "https://geoserver.funai.gov.br/geoserver/Funai/ows",
+      "status": 503,
+      "url": "https://geoserver.funai.gov.br/geoserver/Funai/ows"
+    },
+    "guaraci-check-cetesb_estacoes": {
+      "key": "cetesb_estacoes",
+      "requestedUrl": "https://servicos.cetesb.sp.gov.br/arcgis/rest/services/QUALAR/CETESB_QUALAR/MapServer",
+      "status": 200,
+      "url": "https://servicos.cetesb.sp.gov.br/arcgis/rest/services/QUALAR/CETESB_QUALAR/MapServer",
+      "contentType": "text/html;charset=utf-8",
+      "length": null
+    },
+    "guaraci-check-cetesb_qualar": {
+      "key": "cetesb_qualar",
+      "requestedUrl": "https://servicos.cetesb.sp.gov.br/arcgis/rest/services/QUALAR/CETESB_QUALAR/MapServer",
+      "status": 200,
+      "url": "https://servicos.cetesb.sp.gov.br/arcgis/rest/services/QUALAR/CETESB_QUALAR/MapServer",
+      "contentType": "text/html;charset=utf-8",
+      "length": null
+    },
+    "guaraci-check-nasa_gpm": {
+      "key": "nasa_gpm",
+      "requestedUrl": "https://gpm1.gesdisc.eosdis.nasa.gov",
+      "status": 200,
+      "url": "https://gpm1.gesdisc.eosdis.nasa.gov",
+      "contentType": "text/html; charset=UTF-8",
+      "length": "2142"
+    },
+    "guaraci-check-nasa_power": {
+      "key": "nasa_power",
+      "requestedUrl": "https://power.larc.nasa.gov",
+      "status": 200,
+      "url": "https://power.larc.nasa.gov",
+      "contentType": "text/html",
+      "length": "35593"
+    },
+    "guaraci-check-pnds_2006": {
+      "key": "pnds_2006",
+      "requestedUrl": "https://bvsms.saude.gov.br/bvs/pnds/bases/spss.zip",
+      "status": 200,
+      "url": "https://bvsms.saude.gov.br/bvs/pnds/bases/spss.zip",
+      "contentType": "application/zip",
+      "length": "23174207"
+    },
+    "guaraci-check-ses_go_oncologia": {
+      "key": "ses_go_oncologia",
+      "requestedUrl": "https://dadosabertos.go.gov.br/dataset/oncologia",
+      "status": 200,
+      "url": "https://dadosabertos.go.gov.br/dataset/oncologia",
+      "contentType": "text/html",
+      "length": "18746"
+    },
+    "guaraci-check-ses_go_zika_chikungunya": {
+      "key": "ses_go_zika_chikungunya",
+      "requestedUrl": "https://dadosabertos.go.gov.br/dataset/aedes",
+      "status": 200,
+      "url": "https://dadosabertos.go.gov.br/dataset/aedes",
+      "contentType": "text/html",
+      "length": "18746"
+    },
+    "guaraci-check-ses_go_mortalidade": {
+      "key": "ses_go_mortalidade",
+      "requestedUrl": "https://dadosabertos.go.gov.br/dataset/mortalidade",
+      "status": 200,
+      "url": "https://dadosabertos.go.gov.br/dataset/mortalidade",
+      "contentType": "text/html",
+      "length": "18746"
+    },
+    "guaraci-check-ses_go_regulacao_indicadores": {
+      "key": "ses_go_regulacao_indicadores",
+      "requestedUrl": "https://dadosabertos.go.gov.br/dataset/transparencia-regulacao-indicadores",
+      "status": 200,
+      "url": "https://dadosabertos.go.gov.br/dataset/transparencia-regulacao-indicadores",
+      "contentType": "text/html",
+      "length": "18746"
+    },
+    "guaraci-check-ses_go_hepatites": {
+      "key": "ses_go_hepatites",
+      "requestedUrl": "https://dadosabertos.go.gov.br/dataset/ist-hepatite",
+      "status": 200,
+      "url": "https://dadosabertos.go.gov.br/dataset/ist-hepatite",
+      "contentType": "text/html",
+      "length": "18746"
+    },
+    "guaraci-check-ses_go_sindrome_gripal": {
+      "key": "ses_go_sindrome_gripal",
+      "requestedUrl": "https://dadosabertos.go.gov.br/dataset/sindrome-gripal-sg",
+      "status": 200,
+      "url": "https://dadosabertos.go.gov.br/dataset/sindrome-gripal-sg",
+      "contentType": "text/html",
+      "length": "18746"
+    },
+    "guaraci-check-iarc_monografias_classificacoes": {
+      "key": "iarc_monografias_classificacoes",
+      "requestedUrl": "https://webapi.iarc.who.int/loc/loc.app.js",
+      "status": 200,
+      "url": "https://webapi.iarc.who.int/loc/loc.app.js",
+      "contentType": "application/javascript",
+      "length": "132914"
+    },
+    "guaraci-check-ses_go_hiv_aids": {
+      "key": "ses_go_hiv_aids",
+      "requestedUrl": "https://dadosabertos.go.gov.br/dataset/ist-hiv",
+      "status": 200,
+      "url": "https://dadosabertos.go.gov.br/dataset/ist-hiv",
+      "contentType": "text/html",
+      "length": "18746"
+    },
+    "guaraci-check-sb_brasil_1996": {
+      "key": "sb_brasil_1996",
+      "requestedUrl": "https://tabnet.datasus.gov.br/cgi/sbucal/sb96.zip",
+      "status": 200,
+      "url": "https://tabnet.datasus.gov.br/cgi/sbucal/sb96.zip",
+      "contentType": "application/x-zip-compressed",
+      "length": "255614"
+    },
+    "guaraci-check-ses_go_arboviroses_internacao": {
+      "key": "ses_go_arboviroses_internacao",
+      "requestedUrl": "https://dadosabertos.go.gov.br/dataset/arbovirose",
+      "status": 200,
+      "url": "https://dadosabertos.go.gov.br/dataset/arbovirose",
+      "contentType": "text/html",
+      "length": "18746"
+    },
+    "guaraci-check-ses_go_srag": {
+      "key": "ses_go_srag",
+      "requestedUrl": "https://dadosabertos.go.gov.br/dataset/srag",
+      "status": 200,
+      "url": "https://dadosabertos.go.gov.br/dataset/srag",
+      "contentType": "text/html",
+      "length": "18746"
+    },
+    "guaraci-check-iarc_ci5_xii": {
+      "key": "iarc_ci5_xii",
+      "requestedUrl": "https://gco.iarc.who.int/media/ci5/data/vol12/Download/CI5-XII.zip",
+      "status": 200,
+      "url": "https://gco.iarc.who.int/media/ci5/data/vol12/Download/CI5-XII.zip",
+      "contentType": "application/zip",
+      "length": "1213429"
+    },
+    "guaraci-check-ses_go_tuberculose": {
+      "key": "ses_go_tuberculose",
+      "requestedUrl": "https://dadosabertos.go.gov.br/dataset/tuberculose",
+      "status": 200,
+      "url": "https://dadosabertos.go.gov.br/dataset/tuberculose",
+      "contentType": "text/html",
+      "length": "18746"
+    },
+    "guaraci-check-sb_brasil_2003": {
+      "key": "sb_brasil_2003",
+      "requestedUrl": "https://www.gov.br/saude/pt-br/composicao/saps/brasil-sorridente/sb-brasil/arquivos/2020/sbbrasil_co.zip",
+      "status": 403,
+      "url": "https://www.gov.br/saude/pt-br/composicao/saps/brasil-sorridente/sb-brasil/arquivos/2020/sbbrasil_co.zip"
+    },
+    "guaraci-check-ses_go_sifilis": {
+      "key": "ses_go_sifilis",
+      "requestedUrl": "https://dadosabertos.go.gov.br/dataset/ist-sifilis",
+      "status": 200,
+      "url": "https://dadosabertos.go.gov.br/dataset/ist-sifilis",
+      "contentType": "text/html",
+      "length": "18746"
+    },
+    "guaraci-check-ses_go_hanseniase": {
+      "key": "ses_go_hanseniase",
+      "requestedUrl": "https://dadosabertos.go.gov.br/dataset/hanseniase",
+      "status": 200,
+      "url": "https://dadosabertos.go.gov.br/dataset/hanseniase",
+      "contentType": "text/html",
+      "length": "18746"
+    },
+    "guaraci-check-seade_ipvs_2010": {
+      "key": "seade_ipvs_2010",
+      "requestedUrl": "https://repositorio.seade.gov.br/dataset/ipvs2010-base-de-dados",
+      "status": 200,
+      "url": "https://repositorio.seade.gov.br/dataset/ipvs2010-base-de-dados",
+      "contentType": "text/html; charset=utf-8",
+      "length": "30044"
+    },
+    "guaraci-check-seade_saude_painel_sp": {
+      "key": "seade_saude_painel_sp",
+      "requestedUrl": "https://repositorio.seade.gov.br/dataset/saude-painel",
+      "status": 200,
+      "url": "https://repositorio.seade.gov.br/dataset/saude-painel",
+      "contentType": "text/html; charset=utf-8",
+      "length": "42801"
+    },
+    "guaraci-check-seade_mortalidade_infantil_sp": {
+      "key": "seade_mortalidade_infantil_sp",
+      "requestedUrl": "https://repositorio.seade.gov.br/dataset/mortalidade-infantil",
+      "status": 200,
+      "url": "https://repositorio.seade.gov.br/dataset/mortalidade-infantil",
+      "contentType": "text/html; charset=utf-8",
+      "length": "33182"
+    },
+    "guaraci-check-seade_obitos_sp_ano_corrente": {
+      "key": "seade_obitos_sp_ano_corrente",
+      "requestedUrl": "https://repositorio.seade.gov.br/dataset/obitos-estado-de-sp-ano-corrente",
+      "status": 200,
+      "url": "https://repositorio.seade.gov.br/dataset/obitos-estado-de-sp-ano-corrente",
+      "contentType": "text/html; charset=utf-8",
+      "length": "32605"
+    },
+    "guaraci-check-seade_fecundidade_sp": {
+      "key": "seade_fecundidade_sp",
+      "requestedUrl": "https://repositorio.seade.gov.br/dataset/seade-fecundidade",
+      "status": 200,
+      "url": "https://repositorio.seade.gov.br/dataset/seade-fecundidade",
+      "contentType": "text/html; charset=utf-8",
+      "length": "50255"
+    },
+    "guaraci-check-seade_mortalidade_geral_sp": {
+      "key": "seade_mortalidade_geral_sp",
+      "requestedUrl": "https://repositorio.seade.gov.br/dataset/mortalidade-no-estado-de-sao-paulo",
+      "status": 200,
+      "url": "https://repositorio.seade.gov.br/dataset/mortalidade-no-estado-de-sao-paulo",
+      "contentType": "text/html; charset=utf-8",
+      "length": "30004"
+    },
+    "guaraci-check-seade_nascidos_vivos_sp_ano_corrente": {
+      "key": "seade_nascidos_vivos_sp_ano_corrente",
+      "requestedUrl": "https://repositorio.seade.gov.br/dataset/nascidos-vivos",
+      "status": 200,
+      "url": "https://repositorio.seade.gov.br/dataset/nascidos-vivos",
+      "contentType": "text/html; charset=utf-8",
+      "length": "36391"
+    },
+    "guaraci-check-seade_nascidos_vivos_sp_serie": {
+      "key": "seade_nascidos_vivos_sp_serie",
+      "requestedUrl": "https://repositorio.seade.gov.br/dataset/nascidos-vivos-estado-de-sp-serie-historica",
+      "status": 200,
+      "url": "https://repositorio.seade.gov.br/dataset/nascidos-vivos-estado-de-sp-serie-historica",
+      "contentType": "text/html; charset=utf-8",
+      "length": "36391"
+    },
+    "guaraci-check-seade_obitos_sp_serie": {
+      "key": "seade_obitos_sp_serie",
+      "requestedUrl": "https://repositorio.seade.gov.br/dataset/obitos",
+      "status": 200,
+      "url": "https://repositorio.seade.gov.br/dataset/obitos",
+      "contentType": "text/html; charset=utf-8",
+      "length": "36093"
+    },
+    "guaraci-check-seade_esperanca_vida_sp": {
+      "key": "seade_esperanca_vida_sp",
+      "requestedUrl": "https://repositorio.seade.gov.br/dataset/esperanca-de-vida",
+      "status": 200,
+      "url": "https://repositorio.seade.gov.br/dataset/esperanca-de-vida",
+      "contentType": "text/html; charset=utf-8",
+      "length": "29660"
+    },
+    "guaraci-check-seade_ipvs_2022": {
+      "key": "seade_ipvs_2022",
+      "requestedUrl": "https://repositorio.seade.gov.br/dataset/ipvs-populacao-domicilios-e-setores-censitarios",
+      "status": 200,
+      "url": "https://repositorio.seade.gov.br/dataset/ipvs-populacao-domicilios-e-setores-censitarios",
+      "contentType": "text/html; charset=utf-8",
+      "length": "31618"
+    },
+    "guaraci-check-ses_go_dengue": {
+      "key": "ses_go_dengue",
+      "requestedUrl": "https://dadosabertos.go.gov.br/dataset/dengue",
+      "status": 200,
+      "url": "https://dadosabertos.go.gov.br/dataset/dengue",
+      "contentType": "text/html",
+      "length": "18746"
+    },
+    "guaraci-check-ses_go_mapa_leitos": {
+      "key": "ses_go_mapa_leitos",
+      "requestedUrl": "https://dadosabertos.go.gov.br/dataset/mapa-de-leitos",
+      "status": 200,
+      "url": "https://dadosabertos.go.gov.br/dataset/mapa-de-leitos",
+      "contentType": "text/html",
+      "length": "18746"
+    },
+    "guaraci-check-inep_censo_escolar_curso_tecnico": {
+      "key": "inep_censo_escolar_curso_tecnico",
+      "requestedUrl": "https://download.inep.gov.br/dados_abertos/microdados_censo_escolar_2025_.zip",
+      "status": 503,
+      "url": "https://download.inep.gov.br/dados_abertos/microdados_censo_escolar_2025_.zip"
+    },
+    "guaraci-check-inep_ideb_escolas": {
+      "key": "inep_ideb_escolas",
+      "requestedUrl": "https://download.inep.gov.br/ideb/resultados/divulgacao_ensino_medio_escolas_2025.zip",
+      "status": 503,
+      "url": "https://download.inep.gov.br/ideb/resultados/divulgacao_ensino_medio_escolas_2025.zip"
+    },
+    "guaraci-check-inep_ideb_brasil_ufs": {
+      "key": "inep_ideb_brasil_ufs",
+      "requestedUrl": "https://download.inep.gov.br/ideb/resultados/divulgacao_regioes_ufs_ideb_2025.zip",
+      "status": 503,
+      "url": "https://download.inep.gov.br/ideb/resultados/divulgacao_regioes_ufs_ideb_2025.zip"
+    },
+    "guaraci-check-inep_horas_aula": {
+      "key": "inep_horas_aula",
+      "requestedUrl": "https://download.inep.gov.br/informacoes_estatisticas/indicadores_educacionais/2025/HAD_2025_BRASIL_REGIOES_UFS.zip",
+      "status": 503,
+      "url": "https://download.inep.gov.br/informacoes_estatisticas/indicadores_educacionais/2025/HAD_2025_BRASIL_REGIOES_UFS.zip"
+    },
+    "guaraci-check-inep_censo_escolar_turma": {
+      "key": "inep_censo_escolar_turma",
+      "requestedUrl": "https://download.inep.gov.br/dados_abertos/microdados_censo_escolar_2025_.zip",
+      "status": 503,
+      "url": "https://download.inep.gov.br/dados_abertos/microdados_censo_escolar_2025_.zip"
+    },
+    "guaraci-check-inep_distorcao_idade_serie": {
+      "key": "inep_distorcao_idade_serie",
+      "requestedUrl": "https://download.inep.gov.br/informacoes_estatisticas/indicadores_educacionais/2025/TDI_2025_BRASIL_REGIOES_UFS.zip",
+      "status": 503,
+      "url": "https://download.inep.gov.br/informacoes_estatisticas/indicadores_educacionais/2025/TDI_2025_BRASIL_REGIOES_UFS.zip"
+    },
+    "guaraci-check-inep_alunos_por_turma": {
+      "key": "inep_alunos_por_turma",
+      "requestedUrl": "https://download.inep.gov.br/informacoes_estatisticas/indicadores_educacionais/2025/ATU_2025_BRASIL_REGIOES_UFS.zip",
+      "status": 503,
+      "url": "https://download.inep.gov.br/informacoes_estatisticas/indicadores_educacionais/2025/ATU_2025_BRASIL_REGIOES_UFS.zip"
+    },
+    "guaraci-check-inep_censo_escolar_docente": {
+      "key": "inep_censo_escolar_docente",
+      "requestedUrl": "https://download.inep.gov.br/dados_abertos/microdados_censo_escolar_2025_.zip",
+      "status": 503,
+      "url": "https://download.inep.gov.br/dados_abertos/microdados_censo_escolar_2025_.zip"
+    },
+    "guaraci-check-inep_complexidade_gestao": {
+      "key": "inep_complexidade_gestao",
+      "requestedUrl": "https://download.inep.gov.br/informacoes_estatisticas/indicadores_educacionais/2025/ICG_2025_BRASIL_REGIOES_UFS.zip",
+      "status": 503,
+      "url": "https://download.inep.gov.br/informacoes_estatisticas/indicadores_educacionais/2025/ICG_2025_BRASIL_REGIOES_UFS.zip"
+    },
+    "guaraci-check-inep_censo_escolar_gestor": {
+      "key": "inep_censo_escolar_gestor",
+      "requestedUrl": "https://download.inep.gov.br/dados_abertos/microdados_censo_escolar_2025_.zip",
+      "status": 503,
+      "url": "https://download.inep.gov.br/dados_abertos/microdados_censo_escolar_2025_.zip"
+    },
+    "guaraci-check-inep_taxas_rendimento": {
+      "key": "inep_taxas_rendimento",
+      "requestedUrl": "https://download.inep.gov.br/informacoes_estatisticas/indicadores_educacionais/2025/tx_rend_brasil_regioes_ufs_2025.zip",
+      "status": 503,
+      "url": "https://download.inep.gov.br/informacoes_estatisticas/indicadores_educacionais/2025/tx_rend_brasil_regioes_ufs_2025.zip"
+    },
+    "guaraci-check-inep_inse": {
+      "key": "inep_inse",
+      "requestedUrl": "https://download.inep.gov.br/informacoes_estatisticas/indicadores_educacionais/2023/nivel_socioeconomico/INSE_2023_brasil.xlsx",
+      "status": 503,
+      "url": "https://download.inep.gov.br/informacoes_estatisticas/indicadores_educacionais/2023/nivel_socioeconomico/INSE_2023_brasil.xlsx"
+    },
+    "guaraci-check-inep_docentes_curso_superior": {
+      "key": "inep_docentes_curso_superior",
+      "requestedUrl": "https://download.inep.gov.br/informacoes_estatisticas/indicadores_educacionais/2025/DSU_2025_BRASIL_REGIOES_UFS.zip",
+      "status": 503,
+      "url": "https://download.inep.gov.br/informacoes_estatisticas/indicadores_educacionais/2025/DSU_2025_BRASIL_REGIOES_UFS.zip"
+    },
+    "guaraci-check-inep_censo_escolar_matricula": {
+      "key": "inep_censo_escolar_matricula",
+      "requestedUrl": "https://download.inep.gov.br/dados_abertos/microdados_censo_escolar_2025_.zip",
+      "status": 503,
+      "url": "https://download.inep.gov.br/dados_abertos/microdados_censo_escolar_2025_.zip"
+    },
+    "guaraci-check-inep_adequacao_formacao_docente": {
+      "key": "inep_adequacao_formacao_docente",
+      "requestedUrl": "https://download.inep.gov.br/informacoes_estatisticas/indicadores_educacionais/2025/AFD_2025_BRASIL_REGIOES_UF.zip",
+      "status": 503,
+      "url": "https://download.inep.gov.br/informacoes_estatisticas/indicadores_educacionais/2025/AFD_2025_BRASIL_REGIOES_UF.zip"
+    },
+    "guaraci-check-inep_regularidade_docente": {
+      "key": "inep_regularidade_docente",
+      "requestedUrl": "https://download.inep.gov.br/informacoes_estatisticas/indicadores_educacionais/2025/IRD_2025_BRASIL_REGIOES_UFS.zip",
+      "status": 503,
+      "url": "https://download.inep.gov.br/informacoes_estatisticas/indicadores_educacionais/2025/IRD_2025_BRASIL_REGIOES_UFS.zip"
+    },
+    "guaraci-check-inep_esforco_docente": {
+      "key": "inep_esforco_docente",
+      "requestedUrl": "https://download.inep.gov.br/informacoes_estatisticas/indicadores_educacionais/2025/IED_2025_BRASIL_REGIOES_UFS.zip",
+      "status": 503,
+      "url": "https://download.inep.gov.br/informacoes_estatisticas/indicadores_educacionais/2025/IED_2025_BRASIL_REGIOES_UFS.zip"
+    },
+    "guaraci-check-ibge_munic_saneamento": {
+      "key": "ibge_munic_saneamento",
+      "requestedUrl": "https://ftp.ibge.gov.br/Perfil_Municipios/Saneamento_2023/Base_de_Dados/Base_de_Dados_Suplemento_de_Saneamento_2023.xlsx",
+      "status": 200,
+      "url": "https://ftp.ibge.gov.br/Perfil_Municipios/Saneamento_2023/Base_de_Dados/Base_de_Dados_Suplemento_de_Saneamento_2023.xlsx",
+      "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "length": "15286647"
+    },
+    "guaraci-check-ibge_censo2000_amostra": {
+      "key": "ibge_censo2000_amostra",
+      "requestedUrl": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2000/Microdados/1_Documentacao_20170908.zip",
+      "status": 200,
+      "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2000/Microdados/1_Documentacao_20170908.zip",
+      "contentType": "application/zip",
+      "length": "2961444"
+    },
+    "guaraci-check-mg_acidentes_transporte": {
+      "key": "mg_acidentes_transporte",
+      "requestedUrl": "https://dados.mg.gov.br/dataset/acidentes-terrestres-transito",
+      "status": 200,
+      "url": "https://dados.mg.gov.br/dataset/acidentes-terrestres-transito",
+      "contentType": "text/html; charset=utf-8",
+      "length": "30167"
+    },
+    "guaraci-check-mg_aids_hiv": {
+      "key": "mg_aids_hiv",
+      "requestedUrl": "https://dados.mg.gov.br/dataset/aids_hiv",
+      "status": 200,
+      "url": "https://dados.mg.gov.br/dataset/aids_hiv",
+      "contentType": "text/html; charset=utf-8",
+      "length": "30351"
+    },
+    "guaraci-check-mg_hanseniase": {
+      "key": "mg_hanseniase",
+      "requestedUrl": "https://dados.mg.gov.br/dataset/hanseniase",
+      "status": 200,
+      "url": "https://dados.mg.gov.br/dataset/hanseniase",
+      "contentType": "text/html; charset=utf-8",
+      "length": "29126"
+    },
+    "guaraci-check-poa_gercon_consultas": {
+      "key": "poa_gercon_consultas",
+      "requestedUrl": "https://dadosabertos.poa.br/dataset/gercon-gerenciamento-de-consultas",
+      "status": 200,
+      "url": "https://dadosabertos.poa.br/dataset/gercon-gerenciamento-de-consultas",
+      "contentType": "text/html; charset=utf-8",
+      "length": "25719"
+    },
+    "guaraci-check-mg_tuberculose": {
+      "key": "mg_tuberculose",
+      "requestedUrl": "https://dados.mg.gov.br/dataset/dados-tuberculose",
+      "status": 200,
+      "url": "https://dados.mg.gov.br/dataset/dados-tuberculose",
+      "contentType": "text/html; charset=utf-8",
+      "length": "30772"
+    },
+    "guaraci-check-mapa_sif": {
+      "key": "mapa_sif",
+      "requestedUrl": "https://dados.agricultura.gov.br/dataset/servico-de-inspecao-federal-sif",
+      "status": 200,
+      "url": "https://dados.agricultura.gov.br/dataset/servico-de-inspecao-federal-sif",
+      "contentType": "text/html; charset=utf-8",
+      "length": "50691"
+    },
+    "guaraci-check-ibge_estadic": {
+      "key": "ibge_estadic",
+      "requestedUrl": "https://ftp.ibge.gov.br/Perfil_Estados/2025/Base_Estadic_2025.xlsx",
+      "status": 200,
+      "url": "https://ftp.ibge.gov.br/Perfil_Estados/2025/Base_Estadic_2025.xlsx",
+      "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "length": "94467"
+    },
+    "guaraci-check-recife_zika": {
+      "key": "recife_zika",
+      "requestedUrl": "https://dados.recife.pe.gov.br/dataset/casos-de-dengue-zika-e-chikungunya",
+      "status": 200,
+      "url": "https://dados.recife.pe.gov.br/dataset/casos-de-dengue-zika-e-chikungunya",
+      "contentType": "text/html; charset=utf-8",
+      "length": "107814"
+    },
+    "guaraci-check-recife_dengue": {
+      "key": "recife_dengue",
+      "requestedUrl": "https://dados.recife.pe.gov.br/dataset/casos-de-dengue-zika-e-chikungunya",
+      "status": 200,
+      "url": "https://dados.recife.pe.gov.br/dataset/casos-de-dengue-zika-e-chikungunya",
+      "contentType": "text/html; charset=utf-8",
+      "length": "107814"
+    },
+    "guaraci-check-ibge_munic_edicoes": {
+      "key": "ibge_munic_edicoes",
+      "requestedUrl": "https://ftp.ibge.gov.br/Perfil_Municipios/2025/Base_de_Dados/Base_MUNIC_2025.xlsx",
+      "status": 200,
+      "url": "https://ftp.ibge.gov.br/Perfil_Municipios/2025/Base_de_Dados/Base_MUNIC_2025.xlsx",
+      "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "length": "18788746"
+    },
+    "guaraci-check-mapa_sipeagro": {
+      "key": "mapa_sipeagro",
+      "requestedUrl": "https://dados.agricultura.gov.br/dataset/sipeagro",
+      "status": 200,
+      "url": "https://dados.agricultura.gov.br/dataset/sipeagro",
+      "contentType": "text/html; charset=utf-8",
+      "length": "32172"
+    },
+    "guaraci-check-recife_chikungunya": {
+      "key": "recife_chikungunya",
+      "requestedUrl": "https://dados.recife.pe.gov.br/dataset/casos-de-dengue-zika-e-chikungunya",
+      "status": 200,
+      "url": "https://dados.recife.pe.gov.br/dataset/casos-de-dengue-zika-e-chikungunya",
+      "contentType": "text/html; charset=utf-8",
+      "length": "107814"
+    },
+    "guaraci-check-tse_municipios_ibge": {
+      "key": "tse_municipios_ibge",
+      "requestedUrl": "https://cdn.tse.jus.br/estatistica/sead/odsele/municipio_tse_ibge/municipio_tse_ibge.zip",
+      "status": 200,
+      "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/municipio_tse_ibge/municipio_tse_ibge.zip",
+      "contentType": "application/zip",
+      "length": "139066"
+    },
+    "guaraci-check-ibge_ipca_serie": {
+      "key": "ibge_ipca_serie",
+      "requestedUrl": "https://sidra.ibge.gov.br/tabela/1737",
+      "status": 200,
+      "url": "https://sidra.ibge.gov.br/tabela/1737",
+      "contentType": "text/html; charset=utf-8",
+      "length": "91295"
+    },
+    "guaraci-check-ibge_ipca15_serie": {
+      "key": "ibge_ipca15_serie",
+      "requestedUrl": "https://sidra.ibge.gov.br/tabela/3065",
+      "status": 200,
+      "url": "https://sidra.ibge.gov.br/tabela/3065",
+      "contentType": "text/html; charset=utf-8",
+      "length": "91293"
+    },
+    "guaraci-check-ibge_inpc_serie": {
+      "key": "ibge_inpc_serie",
+      "requestedUrl": "https://sidra.ibge.gov.br/tabela/1736",
+      "status": 200,
+      "url": "https://sidra.ibge.gov.br/tabela/1736",
+      "contentType": "text/html; charset=utf-8",
+      "length": "91292"
+    },
+    "guaraci-check-ssp_sp_dados_criminais": {
+      "key": "ssp_sp_dados_criminais",
+      "requestedUrl": "https://www.ssp.sp.gov.br/assets/estatistica/transparencia/spDados/SPDadosCriminais_2026.xlsx",
+      "status": 503,
+      "url": "https://www.ssp.sp.gov.br/assets/estatistica/transparencia/spDados/SPDadosCriminais_2026.xlsx"
+    },
+    "guaraci-check-bndes_operacoes_financiamento": {
+      "key": "bndes_operacoes_financiamento",
+      "requestedUrl": "https://dadosabertos.bndes.gov.br/dataset/operacoes-financiamento",
+      "status": 200,
+      "url": "https://dadosabertos.bndes.gov.br/dataset/operacoes-financiamento",
+      "contentType": "text/html; charset=utf-8",
+      "length": "35162"
+    },
+    "guaraci-check-inss_beneficios_cessados": {
+      "key": "inss_beneficios_cessados",
+      "requestedUrl": "https://dadosabertos.inss.gov.br/dataset/beneficios-mantidos-plano-de-dados-abertos-jun-2023-a-dez-2027",
+      "status": 200,
+      "url": "https://dadosabertos.inss.gov.br/dataset/beneficios-mantidos-plano-de-dados-abertos-jun-2023-a-dez-2027",
+      "contentType": "text/html; charset=utf-8",
+      "length": "226307"
+    },
+    "guaraci-check-bndes_desembolsos_mensais": {
+      "key": "bndes_desembolsos_mensais",
+      "requestedUrl": "https://dadosabertos.bndes.gov.br/dataset/desembolsos-mensais",
+      "status": 200,
+      "url": "https://dadosabertos.bndes.gov.br/dataset/desembolsos-mensais",
+      "contentType": "text/html; charset=utf-8",
+      "length": "33313"
+    },
+    "guaraci-check-inss_beneficios_indeferidos": {
+      "key": "inss_beneficios_indeferidos",
+      "requestedUrl": "https://dadosabertos.inss.gov.br/dataset/beneficios-indeferidos-plano-de-dados-abertos-jun-2023-a-dez-2027",
+      "status": 200,
+      "url": "https://dadosabertos.inss.gov.br/dataset/beneficios-indeferidos-plano-de-dados-abertos-jun-2023-a-dez-2027",
+      "contentType": "text/html; charset=utf-8",
+      "length": "93360"
+    },
+    "guaraci-check-senatran_renaest": {
+      "key": "senatran_renaest",
+      "requestedUrl": "https://dados.transportes.gov.br/dataset/renaest",
+      "status": 200,
+      "url": "https://dados.transportes.gov.br/dataset/renaest",
+      "contentType": "text/html; charset=utf-8",
+      "length": "109177"
+    },
+    "guaraci-check-inss_beneficios_mantidos": {
+      "key": "inss_beneficios_mantidos",
+      "requestedUrl": "https://dadosabertos.inss.gov.br/dataset/beneficios-mantidos-plano-de-dados-abertos-jun-2023-a-dez-2027",
+      "status": 200,
+      "url": "https://dadosabertos.inss.gov.br/dataset/beneficios-mantidos-plano-de-dados-abertos-jun-2023-a-dez-2027",
+      "contentType": "text/html; charset=utf-8",
+      "length": "226307"
+    },
+    "guaraci-check-mma_especies_ameacadas": {
+      "key": "mma_especies_ameacadas",
+      "requestedUrl": "https://dados.mma.gov.br/dataset/especies-ameacadas",
+      "status": 200,
+      "url": "https://dados.mma.gov.br/dataset/especies-ameacadas",
+      "contentType": "text/html; charset=utf-8",
+      "length": "43353"
+    },
+    "guaraci-check-mapa_agrofit": {
+      "key": "mapa_agrofit",
+      "requestedUrl": "https://dados.agricultura.gov.br/dataset/sistema-de-agrotoxicos-fitossanitarios-agrofit",
+      "status": 200,
+      "url": "https://dados.agricultura.gov.br/dataset/sistema-de-agrotoxicos-fitossanitarios-agrofit",
+      "contentType": "text/html; charset=utf-8",
+      "length": "21844"
+    },
+    "guaraci-check-mma_unidades_conservacao": {
+      "key": "mma_unidades_conservacao",
+      "requestedUrl": "https://dados.mma.gov.br/dataset/unidadesdeconservacao",
+      "status": 200,
+      "url": "https://dados.mma.gov.br/dataset/unidadesdeconservacao",
+      "contentType": "text/html; charset=utf-8",
+      "length": "54621"
+    },
+    "guaraci-check-inss_beneficios_concedidos": {
+      "key": "inss_beneficios_concedidos",
+      "requestedUrl": "https://dadosabertos.inss.gov.br/dataset/beneficios-concedidos-plano-de-dados-abertos-jun-2023-a-dez-2027",
+      "status": 200,
+      "url": "https://dadosabertos.inss.gov.br/dataset/beneficios-concedidos-plano-de-dados-abertos-jun-2023-a-dez-2027",
+      "contentType": "text/html; charset=utf-8",
+      "length": "93144"
+    },
+    "guaraci-check-inep_ideb_municipios": {
+      "key": "inep_ideb_municipios",
+      "requestedUrl": "https://download.inep.gov.br/ideb/resultados/divulgacao_ensino_medio_municipios_2025.zip",
+      "status": 503,
+      "url": "https://download.inep.gov.br/ideb/resultados/divulgacao_ensino_medio_municipios_2025.zip"
+    },
+    "guaraci-check-inss_cat": {
+      "key": "inss_cat",
+      "requestedUrl": "https://dadosabertos.inss.gov.br/dataset/comunicacoes-de-acidente-de-trabalho-cat-plano-de-dados-abertos-jun-2023-a-dez-2027",
+      "status": 200,
+      "url": "https://dadosabertos.inss.gov.br/dataset/comunicacoes-de-acidente-de-trabalho-cat-plano-de-dados-abertos-jun-2023-a-dez-2027",
+      "contentType": "text/html; charset=utf-8",
+      "length": "98579"
+    },
+    "guaraci-check-mdhc_ligue180": {
+      "key": "mdhc_ligue180",
+      "requestedUrl": "https://dadosabertos.mdh.gov.br/ligue180-primeiro-semestre-2024.csv",
+      "status": 200,
+      "url": "https://dadosabertos.mdh.gov.br/ligue180-primeiro-semestre-2024.csv",
+      "contentType": "text/csv",
+      "length": "269118738"
+    },
+    "guaraci-check-mapbiomas_cobertura_municipios": {
+      "key": "mapbiomas_cobertura_municipios",
+      "requestedUrl": "https://drive.usercontent.google.com/download?id=1otOqymHuixvkRGVl65zTTNyfaHo46Gqk&export=download&confirm=t",
+      "status": 200,
+      "url": "https://drive.usercontent.google.com/download?id=1otOqymHuixvkRGVl65zTTNyfaHo46Gqk&export=download&confirm=t",
+      "contentType": "application/octet-stream",
+      "length": "78296450"
+    },
+    "guaraci-check-mapbiomas_vegetacao_secundaria_municipios": {
+      "key": "mapbiomas_vegetacao_secundaria_municipios",
+      "requestedUrl": "https://brasil.mapbiomas.org/wp-content/uploads/sites/3/2026/10/MAPBIOMAS-BRAZIL-SECONDARY-VEGETATION-MUNICIPALITY-COLLECTION_11.xlsx",
+      "status": 200,
+      "url": "https://brasil.mapbiomas.org/wp-content/uploads/sites/3/2026/10/MAPBIOMAS-BRAZIL-SECONDARY-VEGETATION-MUNICIPALITY-COLLECTION_11.xlsx",
+      "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "length": "58526200"
+    },
+    "guaraci-check-anvisa_hemoprod": {
+      "key": "anvisa_hemoprod",
+      "requestedUrl": "https://www.gov.br/anvisa/pt-br/centraisdeconteudo/publicacoes/sangue-tecidos-celulas-e-orgaos/producao-e-avaliacao-de-servicos-de-hemoterapia/dados-brutos-de-producao-hemoterapica-1/hemoprod_nacional.csv/@@download/file",
+      "status": 200,
+      "url": "https://www.gov.br/anvisa/pt-br/centraisdeconteudo/publicacoes/sangue-tecidos-celulas-e-orgaos/producao-e-avaliacao-de-servicos-de-hemoterapia/dados-brutos-de-producao-hemoterapica-1/hemoprod_nacional.csv/@@download/file",
+      "contentType": "text/plain; charset=utf-8",
+      "length": "18998008"
+    },
+    "guaraci-check-detran_sp_infosiga_sinistros": {
+      "key": "detran_sp_infosiga_sinistros",
+      "requestedUrl": "https://infosiga.detran.sp.gov.br/dados-abertos/sinistros_2026.csv",
+      "status": 404,
+      "url": "https://infosiga.detran.sp.gov.br/dados-abertos/sinistros_2026.csv"
+    },
+    "guaraci-check-cgu_despesas_execucao": {
+      "key": "cgu_despesas_execucao",
+      "requestedUrl": "https://dadosabertos-download.cgu.gov.br/PortalDaTransparencia/saida/despesas-execucao/202609_Despesas.zip",
+      "status": 200,
+      "url": "https://dadosabertos-download.cgu.gov.br/PortalDaTransparencia/saida/despesas-execucao/202609_Despesas.zip",
+      "contentType": "application/x-zip-compressed",
+      "length": "6657847"
+    },
+    "guaraci-check-cgu_bpc": {
+      "key": "cgu_bpc",
+      "requestedUrl": "https://dadosabertos-download.cgu.gov.br/PortalDaTransparencia/saida/bpc/202609_BPC.zip",
+      "status": 200,
+      "url": "https://dadosabertos-download.cgu.gov.br/PortalDaTransparencia/saida/bpc/202609_BPC.zip",
+      "contentType": "application/x-zip-compressed",
+      "length": "192696049"
+    },
+    "guaraci-check-cgu_emendas_parlamentares": {
+      "key": "cgu_emendas_parlamentares",
+      "requestedUrl": "https://dadosabertos-download.cgu.gov.br/PortalDaTransparencia/saida/emendas-parlamentares/EmendasParlamentares.zip",
+      "status": 200,
+      "url": "https://dadosabertos-download.cgu.gov.br/PortalDaTransparencia/saida/emendas-parlamentares/EmendasParlamentares.zip",
+      "contentType": "application/x-zip-compressed",
+      "length": "47094995"
+    },
+    "guaraci-check-cgu_transferencias": {
+      "key": "cgu_transferencias",
+      "requestedUrl": "https://dadosabertos-download.cgu.gov.br/PortalDaTransparencia/saida/transferencias/202609_Transferencias.zip",
+      "status": 200,
+      "url": "https://dadosabertos-download.cgu.gov.br/PortalDaTransparencia/saida/transferencias/202609_Transferencias.zip",
+      "contentType": "application/x-zip-compressed",
+      "length": "6198762"
+    },
+    "guaraci-check-cgu_novo_bolsa_familia": {
+      "key": "cgu_novo_bolsa_familia",
+      "requestedUrl": "https://dadosabertos-download.cgu.gov.br/PortalDaTransparencia/saida/novo-bolsa-familia/202609_NovoBolsaFamilia.zip",
+      "status": 200,
+      "url": "https://dadosabertos-download.cgu.gov.br/PortalDaTransparencia/saida/novo-bolsa-familia/202609_NovoBolsaFamilia.zip",
+      "contentType": "application/x-zip-compressed",
+      "length": "328626917"
+    },
+    "guaraci-check-detran_sp_infosiga_veiculos": {
+      "key": "detran_sp_infosiga_veiculos",
+      "requestedUrl": "https://infosiga.detran.sp.gov.br/dados-abertos/veiculos_2026.csv",
+      "status": 404,
+      "url": "https://infosiga.detran.sp.gov.br/dados-abertos/veiculos_2026.csv"
+    },
+    "guaraci-check-detran_sp_infosiga_pessoas": {
+      "key": "detran_sp_infosiga_pessoas",
+      "requestedUrl": "https://infosiga.detran.sp.gov.br/dados-abertos/pessoas_2026.csv",
+      "status": 404,
+      "url": "https://infosiga.detran.sp.gov.br/dados-abertos/pessoas_2026.csv"
+    },
+    "guaraci-check-ibge_pnad_saude": {
+      "key": "ibge_pnad_saude",
+      "requestedUrl": "https://ftp.ibge.gov.br/Trabalho_e_Rendimento/Pesquisa_Nacional_por_Amostra_de_Domicilios_anual/microdados/reponderacao_2001_2012/PNAD_reponderado_2008.zip",
+      "status": 200,
+      "url": "https://ftp.ibge.gov.br/Trabalho_e_Rendimento/Pesquisa_Nacional_por_Amostra_de_Domicilios_anual/microdados/reponderacao_2001_2012/PNAD_reponderado_2008.zip",
+      "contentType": "application/zip",
+      "length": "44672482"
+    },
+    "guaraci-check-isp_rj_municipios_mensal": {
+      "key": "isp_rj_municipios_mensal",
+      "requestedUrl": "https://www.ispdados.rj.gov.br/Arquivos/BaseMunicipioMensal.csv",
+      "status": 200,
+      "url": "https://www.ispdados.rj.gov.br/Arquivos/BaseMunicipioMensal.csv",
+      "contentType": "application/octet-stream",
+      "length": "2466160"
+    },
+    "guaraci-check-isp_rj_delegacias_mensal": {
+      "key": "isp_rj_delegacias_mensal",
+      "requestedUrl": "https://www.ispdados.rj.gov.br/Arquivos/BaseDPEvolucaoMensalCisp.csv",
+      "status": 200,
+      "url": "https://www.ispdados.rj.gov.br/Arquivos/BaseDPEvolucaoMensalCisp.csv",
+      "contentType": "application/octet-stream",
+      "length": "7193899"
+    },
+    "guaraci-check-ibge_projecoes_populacao_2024": {
+      "key": "ibge_projecoes_populacao_2024",
+      "requestedUrl": "https://ftp.ibge.gov.br/Projecao_da_Populacao/Projecao_da_Populacao_2024/projecoes_2024_tab5_tabuas_mortalidade.xlsx",
+      "status": 200,
+      "url": "https://ftp.ibge.gov.br/Projecao_da_Populacao/Projecao_da_Populacao_2024/projecoes_2024_tab5_tabuas_mortalidade.xlsx",
+      "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "length": "24793854"
+    },
+    "guaraci-check-ibge_munic": {
+      "key": "ibge_munic",
+      "requestedUrl": "https://ftp.ibge.gov.br/Perfil_Municipios/2024/Base_de_Dados/Base_MUNIC_2024_20251107.xlsx",
+      "status": 200,
+      "url": "https://ftp.ibge.gov.br/Perfil_Municipios/2024/Base_de_Dados/Base_MUNIC_2024_20251107.xlsx",
+      "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "length": "25535974"
+    },
+    "guaraci-check-ibge_pnadc_trimestre4": {
+      "key": "ibge_pnadc_trimestre4",
+      "requestedUrl": "https://ftp.ibge.gov.br/Trabalho_e_Rendimento/Pesquisa_Nacional_por_Amostra_de_Domicilios_continua/Anual/Microdados/Trimestre/Trimestre_4/Dados/PNADC_2025_trimestre4_20260702.zip",
+      "status": 200,
+      "url": "https://ftp.ibge.gov.br/Trabalho_e_Rendimento/Pesquisa_Nacional_por_Amostra_de_Domicilios_continua/Anual/Microdados/Trimestre/Trimestre_4/Dados/PNADC_2025_trimestre4_20260702.zip",
+      "contentType": "application/zip",
+      "length": "254964122"
+    },
+    "guaraci-check-anvisa_produtos_saude_registrados": {
+      "key": "anvisa_produtos_saude_registrados",
+      "requestedUrl": "https://dados.anvisa.gov.br/dados/TA_PRODUTO_SAUDE_SITE.csv",
+      "status": 200,
+      "url": "https://dados.anvisa.gov.br/dados/TA_PRODUTO_SAUDE_SITE.csv",
+      "contentType": "application/octet-stream",
+      "length": "27823599"
+    },
+    "guaraci-check-anvisa_produtos_saude_modelos": {
+      "key": "anvisa_produtos_saude_modelos",
+      "requestedUrl": "https://dados.anvisa.gov.br/dados/TA_PRODUTO_SAUDE_MODELO.csv",
+      "status": 200,
+      "url": "https://dados.anvisa.gov.br/dados/TA_PRODUTO_SAUDE_MODELO.csv",
+      "contentType": "application/octet-stream",
+      "length": "1224259332"
+    },
+    "guaraci-check-anvisa_nucleos_seguranca_paciente": {
+      "key": "anvisa_nucleos_seguranca_paciente",
+      "requestedUrl": "https://dados.anvisa.gov.br/dados/TA_NUCLEO_SEGURANCA.csv",
+      "status": 200,
+      "url": "https://dados.anvisa.gov.br/dados/TA_NUCLEO_SEGURANCA.csv",
+      "contentType": "application/octet-stream",
+      "length": "2083033"
+    },
+    "guaraci-check-anvisa_produtos_irregulares": {
+      "key": "anvisa_produtos_irregulares",
+      "requestedUrl": "https://dados.anvisa.gov.br/dados/CONSULTAS/EMPRESA_FISCALIZACAO_PRODUTO/TA_CONSULTA_PRODUTOS_IRREGULARES_RESULTADO.CSV",
+      "status": 200,
+      "url": "https://dados.anvisa.gov.br/dados/CONSULTAS/EMPRESA_FISCALIZACAO_PRODUTO/TA_CONSULTA_PRODUTOS_IRREGULARES_RESULTADO.CSV",
+      "contentType": "application/octet-stream",
+      "length": "98375041"
+    },
+    "guaraci-check-ibge_pnadc_trimestre2": {
+      "key": "ibge_pnadc_trimestre2",
+      "requestedUrl": "https://ftp.ibge.gov.br/Trabalho_e_Rendimento/Pesquisa_Nacional_por_Amostra_de_Domicilios_continua/Anual/Microdados/Trimestre/Trimestre_2/Dados/PNADC_2025_trimestre2_20260619.zip",
+      "status": 200,
+      "url": "https://ftp.ibge.gov.br/Trabalho_e_Rendimento/Pesquisa_Nacional_por_Amostra_de_Domicilios_continua/Anual/Microdados/Trimestre/Trimestre_2/Dados/PNADC_2025_trimestre2_20260619.zip",
+      "contentType": "application/zip",
+      "length": "240023981"
+    },
+    "guaraci-check-ibge_pnadc_visita1": {
+      "key": "ibge_pnadc_visita1",
+      "requestedUrl": "https://ftp.ibge.gov.br/Trabalho_e_Rendimento/Pesquisa_Nacional_por_Amostra_de_Domicilios_continua/Anual/Microdados/Visita/Visita_1/Dados/PNADC_2025_visita1_20260923.zip",
+      "status": 200,
+      "url": "https://ftp.ibge.gov.br/Trabalho_e_Rendimento/Pesquisa_Nacional_por_Amostra_de_Domicilios_continua/Anual/Microdados/Visita/Visita_1/Dados/PNADC_2025_visita1_20260923.zip",
+      "contentType": "application/zip",
+      "length": "189290721"
+    },
+    "guaraci-check-ibge_pnadc_trimestre1": {
+      "key": "ibge_pnadc_trimestre1",
+      "requestedUrl": "https://ftp.ibge.gov.br/Trabalho_e_Rendimento/Pesquisa_Nacional_por_Amostra_de_Domicilios_continua/Anual/Microdados/Trimestre/Trimestre_1/Dados/PNADC_2023_trimestre1.zip",
+      "status": 200,
+      "url": "https://ftp.ibge.gov.br/Trabalho_e_Rendimento/Pesquisa_Nacional_por_Amostra_de_Domicilios_continua/Anual/Microdados/Trimestre/Trimestre_1/Dados/PNADC_2023_trimestre1.zip",
+      "contentType": "application/zip",
+      "length": "214504652"
+    },
+    "guaraci-check-ibge_pof": {
+      "key": "ibge_pof",
+      "requestedUrl": "https://ftp.ibge.gov.br/Orcamentos_Familiares/Pesquisa_de_Orcamentos_Familiares_2017_2018/Microdados/Dados_20230713.zip",
+      "status": 200,
+      "url": "https://ftp.ibge.gov.br/Orcamentos_Familiares/Pesquisa_de_Orcamentos_Familiares_2017_2018/Microdados/Dados_20230713.zip",
+      "contentType": "application/zip",
+      "length": "146294013"
+    },
+    "guaraci-check-ibge_pnadc_visita5": {
+      "key": "ibge_pnadc_visita5",
+      "requestedUrl": "https://ftp.ibge.gov.br/Trabalho_e_Rendimento/Pesquisa_Nacional_por_Amostra_de_Domicilios_continua/Anual/Microdados/Visita/Visita_5/Dados/PNADC_2024_visita5.zip",
+      "status": 200,
+      "url": "https://ftp.ibge.gov.br/Trabalho_e_Rendimento/Pesquisa_Nacional_por_Amostra_de_Domicilios_continua/Anual/Microdados/Visita/Visita_5/Dados/PNADC_2024_visita5.zip",
+      "contentType": "application/zip",
+      "length": "180106169"
+    },
+    "guaraci-check-ibge_pense": {
+      "key": "ibge_pense",
+      "requestedUrl": "https://ftp.ibge.gov.br/pense/2024/microdados/Dados.zip",
+      "status": 200,
+      "url": "https://ftp.ibge.gov.br/pense/2024/microdados/Dados.zip",
+      "contentType": "application/zip",
+      "length": "156845946"
+    },
+    "guaraci-check-ibge_pnadc_trimestre3": {
+      "key": "ibge_pnadc_trimestre3",
+      "requestedUrl": "https://ftp.ibge.gov.br/Trabalho_e_Rendimento/Pesquisa_Nacional_por_Amostra_de_Domicilios_continua/Anual/Microdados/Trimestre/Trimestre_3/Dados/PNADC_2025_trimestre3_20260904.zip",
+      "status": 200,
+      "url": "https://ftp.ibge.gov.br/Trabalho_e_Rendimento/Pesquisa_Nacional_por_Amostra_de_Domicilios_continua/Anual/Microdados/Trimestre/Trimestre_3/Dados/PNADC_2025_trimestre3_20260904.zip",
+      "contentType": "application/zip",
+      "length": "228349048"
+    },
+    "guaraci-check-ibge_pns": {
+      "key": "ibge_pns",
+      "requestedUrl": "https://ftp.ibge.gov.br/PNS/2019/Microdados/Dados/PNS_2019_20220525.zip",
+      "status": 200,
+      "url": "https://ftp.ibge.gov.br/PNS/2019/Microdados/Dados/PNS_2019_20220525.zip",
+      "contentType": "application/zip",
+      "length": "29512476"
+    },
+    "guaraci-check-anvisa_cmed_precos_governo": {
+      "key": "anvisa_cmed_precos_governo",
+      "requestedUrl": "https://dados.anvisa.gov.br/dados/TA_PRECO_MEDICAMENTO_GOV.csv",
+      "status": 200,
+      "url": "https://dados.anvisa.gov.br/dados/TA_PRECO_MEDICAMENTO_GOV.csv",
+      "contentType": "application/octet-stream",
+      "length": "17809482"
+    },
+    "guaraci-check-anvisa_tecnovigilancia": {
+      "key": "anvisa_tecnovigilancia",
+      "requestedUrl": "https://dados.anvisa.gov.br/dados/DADOS_ABERTOS_TECNOVIGILANCIA.csv",
+      "status": 200,
+      "url": "https://dados.anvisa.gov.br/dados/DADOS_ABERTOS_TECNOVIGILANCIA.csv",
+      "contentType": "application/octet-stream",
+      "length": "63272634"
+    },
+    "guaraci-check-anvisa_medicamentos_registrados": {
+      "key": "anvisa_medicamentos_registrados",
+      "requestedUrl": "https://dados.anvisa.gov.br/dados/DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "status": 200,
+      "url": "https://dados.anvisa.gov.br/dados/DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "contentType": "application/octet-stream",
+      "length": "46076846"
+    },
+    "guaraci-check-anvisa_cmed_precos": {
+      "key": "anvisa_cmed_precos",
+      "requestedUrl": "https://dados.anvisa.gov.br/dados/TA_PRECO_MEDICAMENTO.csv",
+      "status": 200,
+      "url": "https://dados.anvisa.gov.br/dados/TA_PRECO_MEDICAMENTO.csv",
+      "contentType": "application/octet-stream",
+      "length": "17148070"
+    },
+    "guaraci-check-anvisa_vigimed_medicamentos": {
+      "key": "anvisa_vigimed_medicamentos",
+      "requestedUrl": "https://dados.anvisa.gov.br/dados/VigiMed_Medicamentos.csv",
+      "status": 200,
+      "url": "https://dados.anvisa.gov.br/dados/VigiMed_Medicamentos.csv",
+      "contentType": "application/octet-stream",
+      "length": "151200634"
+    },
+    "guaraci-check-anvisa_hemovigilancia": {
+      "key": "anvisa_hemovigilancia",
+      "requestedUrl": "https://dados.anvisa.gov.br/dados/DADOS_ABERTOS_HEMOVIGILANCIA.csv",
+      "status": 200,
+      "url": "https://dados.anvisa.gov.br/dados/DADOS_ABERTOS_HEMOVIGILANCIA.csv",
+      "contentType": "application/octet-stream",
+      "length": "67313106"
+    },
+    "guaraci-check-anvisa_vigimed_notificacoes": {
+      "key": "anvisa_vigimed_notificacoes",
+      "requestedUrl": "https://dados.anvisa.gov.br/dados/VigiMed_Notificacoes.csv",
+      "status": 200,
+      "url": "https://dados.anvisa.gov.br/dados/VigiMed_Notificacoes.csv",
+      "contentType": "application/octet-stream",
+      "length": "178940228"
+    },
+    "guaraci-check-anvisa_vigimed_reacoes": {
+      "key": "anvisa_vigimed_reacoes",
+      "requestedUrl": "https://dados.anvisa.gov.br/dados/VigiMed_Reacoes.csv",
+      "status": 200,
+      "url": "https://dados.anvisa.gov.br/dados/VigiMed_Reacoes.csv",
+      "contentType": "application/octet-stream",
+      "length": "255710815"
+    },
+    "guaraci-check-senappen_sisdepen": {
+      "key": "senappen_sisdepen",
+      "requestedUrl": "https://www.gov.br/senappen/pt-br/servicos/sisdepen/bases-de-dados/2025/19o-ciclo-base-de-dados-2025-2-semestre.csv/@@download/file",
+      "status": 200,
+      "url": "https://www.gov.br/senappen/pt-br/servicos/sisdepen/bases-de-dados/2025/19o-ciclo-base-de-dados-2025-2-semestre.csv/@@download/file",
+      "contentType": "text/plain; charset=utf-8",
+      "length": "9323129"
+    },
+    "guaraci-check-ibge_censo_rendimento": {
+      "key": "ibge_censo_rendimento",
+      "requestedUrl": "https://sidra.ibge.gov.br/tabela/10281",
+      "status": 200,
+      "url": "https://sidra.ibge.gov.br/tabela/10281",
+      "contentType": "text/html; charset=utf-8",
+      "length": "91474"
+    },
+    "guaraci-check-ibge_censo_agro_2017_estabelecimentos": {
+      "key": "ibge_censo_agro_2017_estabelecimentos",
+      "requestedUrl": "https://sidra.ibge.gov.br/tabela/6753",
+      "status": 200,
+      "url": "https://sidra.ibge.gov.br/tabela/6753",
+      "contentType": "text/html; charset=utf-8",
+      "length": "91343"
+    },
+    "guaraci-check-ibge_censo_agro_2017_agrotoxicos": {
+      "key": "ibge_censo_agro_2017_agrotoxicos",
+      "requestedUrl": "https://sidra.ibge.gov.br/tabela/6851",
+      "status": 200,
+      "url": "https://sidra.ibge.gov.br/tabela/6851",
+      "contentType": "text/html; charset=utf-8",
+      "length": "91389"
+    },
+    "guaraci-check-ibge_censo_frequencia_escolar": {
+      "key": "ibge_censo_frequencia_escolar",
+      "requestedUrl": "https://sidra.ibge.gov.br/tabela/10056",
+      "status": 200,
+      "url": "https://sidra.ibge.gov.br/tabela/10056",
+      "contentType": "text/html; charset=utf-8",
+      "length": "91200"
+    },
+    "guaraci-check-ibge_censo_agro_2017_produtor": {
+      "key": "ibge_censo_agro_2017_produtor",
+      "requestedUrl": "https://sidra.ibge.gov.br/tabela/6755",
+      "status": 200,
+      "url": "https://sidra.ibge.gov.br/tabela/6755",
+      "contentType": "text/html; charset=utf-8",
+      "length": "91335"
+    },
+    "guaraci-check-mdhc_disque100": {
+      "key": "mdhc_disque100",
+      "requestedUrl": "https://www.gov.br/mdh/pt-br/acesso-a-informacao/dados-abertos/disque100/disque100-terceiro-trimestre-2026",
+      "status": 403,
+      "url": "https://www.gov.br/mdh/pt-br/acesso-a-informacao/dados-abertos/disque100/disque100-terceiro-trimestre-2026"
+    },
+    "guaraci-check-ibge_censo_fecundidade": {
+      "key": "ibge_censo_fecundidade",
+      "requestedUrl": "https://sidra.ibge.gov.br/tabela/10078",
+      "status": 200,
+      "url": "https://sidra.ibge.gov.br/tabela/10078",
+      "contentType": "text/html; charset=utf-8",
+      "length": "91472"
+    },
+    "guaraci-check-ibama_termos_embargo": {
+      "key": "ibama_termos_embargo",
+      "requestedUrl": "https://stibamadadosabertosprd.blob.core.windows.net/dados-abertos/dados/TERMOS_DE_EMBARGO/TERMO_EMBARGO_DECISAO/termo_embargo_decisao.csv",
+      "status": 200,
+      "url": "https://stibamadadosabertosprd.blob.core.windows.net/dados-abertos/dados/TERMOS_DE_EMBARGO/TERMO_EMBARGO_DECISAO/termo_embargo_decisao.csv",
+      "contentType": "application/octet-stream",
+      "length": "126687"
+    },
+    "guaraci-check-ibama_autos_infracao": {
+      "key": "ibama_autos_infracao",
+      "requestedUrl": "https://stibamadadosabertosprd.blob.core.windows.net/dados-abertos/dados/SIFISC/auto_infracao/bioma/bioma.csv",
+      "status": 200,
+      "url": "https://stibamadadosabertosprd.blob.core.windows.net/dados-abertos/dados/SIFISC/auto_infracao/bioma/bioma.csv",
+      "contentType": "application/octet-stream",
+      "length": "18982763"
+    },
+    "guaraci-check-ibama_rapp_emissoes_atmosfericas": {
+      "key": "ibama_rapp_emissoes_atmosfericas",
+      "requestedUrl": "https://dadosabertos.ibama.gov.br/dados/RAPP/emissoesPoluentesAtmosfericos/relatorio.csv",
+      "status": 200,
+      "url": "https://dadosabertos.ibama.gov.br/dados/RAPP/emissoesPoluentesAtmosfericos/relatorio.csv",
+      "contentType": "text/csv",
+      "length": "59373908"
+    },
+    "guaraci-check-ibama_rapp_efluentes_liquidos": {
+      "key": "ibama_rapp_efluentes_liquidos",
+      "requestedUrl": "https://dadosabertos.ibama.gov.br/dados/RAPP/efluentesLiquidos/relatorio.csv",
+      "status": 200,
+      "url": "https://dadosabertos.ibama.gov.br/dados/RAPP/efluentesLiquidos/relatorio.csv",
+      "contentType": "text/csv",
+      "length": "188033462"
+    },
+    "guaraci-check-mgdi_cirurgias_especialistas": {
+      "key": "mgdi_cirurgias_especialistas",
+      "requestedUrl": "https://demas-dados-abertos.s3.amazonaws.com/csv/pnrfcirrea.csv.zip",
+      "status": 200,
+      "url": "https://demas-dados-abertos.s3.amazonaws.com/csv/pnrfcirrea.csv.zip",
+      "contentType": "binary/octet-stream",
+      "length": "7446"
+    },
+    "guaraci-check-mgdi_cancer_colo_mama": {
+      "key": "mgdi_cancer_colo_mama",
+      "requestedUrl": "https://demas-dados-abertos.s3.amazonaws.com/csv/ccmsrch.csv.zip",
+      "status": 200,
+      "url": "https://demas-dados-abertos.s3.amazonaws.com/csv/ccmsrch.csv.zip",
+      "contentType": "binary/octet-stream",
+      "length": "888264"
+    },
+    "guaraci-check-mgdi_rnds": {
+      "key": "mgdi_rnds",
+      "requestedUrl": "https://demas-dados-abertos.s3.amazonaws.com/csv/sdigi015rc.csv.zip",
+      "status": 200,
+      "url": "https://demas-dados-abertos.s3.amazonaws.com/csv/sdigi015rc.csv.zip",
+      "contentType": "binary/octet-stream",
+      "length": "1821"
+    },
+    "guaraci-check-mgdi_saude_bucal_fluoretacao": {
+      "key": "mgdi_saude_bucal_fluoretacao",
+      "requestedUrl": "https://demas-dados-abertos.s3.amazonaws.com/csv/mgdi_ms_hoe.csv.zip",
+      "status": 200,
+      "url": "https://demas-dados-abertos.s3.amazonaws.com/csv/mgdi_ms_hoe.csv.zip",
+      "contentType": "binary/octet-stream",
+      "length": "10640744"
+    },
+    "guaraci-check-mgdi_residencias_saude": {
+      "key": "mgdi_residencias_saude",
+      "requestedUrl": "https://demas-dados-abertos.s3.amazonaws.com/csv/mgdi_ms_xlj.csv.zip",
+      "status": 200,
+      "url": "https://demas-dados-abertos.s3.amazonaws.com/csv/mgdi_ms_xlj.csv.zip",
+      "contentType": "binary/octet-stream",
+      "length": "3655"
+    },
+    "guaraci-check-mgdi_equidade": {
+      "key": "mgdi_equidade",
+      "requestedUrl": "https://demas-dados-abertos.s3.amazonaws.com/csv/vslvaa.csv.zip",
+      "status": 200,
+      "url": "https://demas-dados-abertos.s3.amazonaws.com/csv/vslvaa.csv.zip",
+      "contentType": "binary/octet-stream",
+      "length": "899795"
+    },
+    "guaraci-check-ibge_pam_lavouras": {
+      "key": "ibge_pam_lavouras",
+      "requestedUrl": "https://sidra.ibge.gov.br/tabela/5457",
+      "status": 200,
+      "url": "https://sidra.ibge.gov.br/tabela/5457",
+      "contentType": "text/html; charset=utf-8",
+      "length": "91287"
+    },
+    "guaraci-check-ibge_censo_obitos": {
+      "key": "ibge_censo_obitos",
+      "requestedUrl": "https://sidra.ibge.gov.br/tabela/6584",
+      "status": 200,
+      "url": "https://sidra.ibge.gov.br/tabela/6584",
+      "contentType": "text/html; charset=utf-8",
+      "length": "91294"
+    },
+    "guaraci-check-ibge_ppm_aquicultura": {
+      "key": "ibge_ppm_aquicultura",
+      "requestedUrl": "https://sidra.ibge.gov.br/tabela/3940",
+      "status": 200,
+      "url": "https://sidra.ibge.gov.br/tabela/3940",
+      "contentType": "text/html; charset=utf-8",
+      "length": "91156"
+    },
+    "guaraci-check-ibge_censo_dificuldade_funcional": {
+      "key": "ibge_censo_dificuldade_funcional",
+      "requestedUrl": "https://sidra.ibge.gov.br/tabela/10133",
+      "status": 200,
+      "url": "https://sidra.ibge.gov.br/tabela/10133",
+      "contentType": "text/html; charset=utf-8",
+      "length": "91196"
+    },
+    "guaraci-check-ibge_ppm_rebanhos": {
+      "key": "ibge_ppm_rebanhos",
+      "requestedUrl": "https://sidra.ibge.gov.br/tabela/3939",
+      "status": 200,
+      "url": "https://sidra.ibge.gov.br/tabela/3939",
+      "contentType": "text/html; charset=utf-8",
+      "length": "91143"
+    },
+    "guaraci-check-ibge_pevs_silvicultura": {
+      "key": "ibge_pevs_silvicultura",
+      "requestedUrl": "https://sidra.ibge.gov.br/tabela/291",
+      "status": 200,
+      "url": "https://sidra.ibge.gov.br/tabela/291",
+      "contentType": "text/html; charset=utf-8",
+      "length": "91201"
+    },
+    "guaraci-check-ibge_ppm_producao_animal": {
+      "key": "ibge_ppm_producao_animal",
+      "requestedUrl": "https://sidra.ibge.gov.br/tabela/74",
+      "status": 200,
+      "url": "https://sidra.ibge.gov.br/tabela/74",
+      "contentType": "text/html; charset=utf-8",
+      "length": "91150"
+    },
+    "guaraci-check-ibge_obitos_residencia_rc": {
+      "key": "ibge_obitos_residencia_rc",
+      "requestedUrl": "https://sidra.ibge.gov.br/tabela/2654",
+      "status": 200,
+      "url": "https://sidra.ibge.gov.br/tabela/2654",
+      "contentType": "text/html; charset=utf-8",
+      "length": "91266"
+    },
+    "guaraci-check-ibge_pevs_extracao_vegetal": {
+      "key": "ibge_pevs_extracao_vegetal",
+      "requestedUrl": "https://sidra.ibge.gov.br/tabela/289",
+      "status": 200,
+      "url": "https://sidra.ibge.gov.br/tabela/289",
+      "contentType": "text/html; charset=utf-8",
+      "length": "91209"
+    },
+    "guaraci-check-ibge_censo_autismo": {
+      "key": "ibge_censo_autismo",
+      "requestedUrl": "https://sidra.ibge.gov.br/tabela/10145",
+      "status": 200,
+      "url": "https://sidra.ibge.gov.br/tabela/10145",
+      "contentType": "text/html; charset=utf-8",
+      "length": "91197"
+    },
+    "guaraci-check-inpe_sisam": {
+      "key": "inpe_sisam",
+      "requestedUrl": "https://dataserver-coids.inpe.br/queimadas/queimadas/sisam/dados_sisam-2019.zip",
+      "status": 200,
+      "url": "https://dataserver-coids.inpe.br/queimadas/queimadas/sisam/dados_sisam-2019.zip",
+      "contentType": "application/zip",
+      "length": "181586190"
+    },
+    "guaraci-check-inpe_area_queimada_biomas": {
+      "key": "inpe_area_queimada_biomas",
+      "requestedUrl": "https://dataserver-coids.inpe.br/queimadas/queimadas/area_queimada/colecao2/csv/aq1km_biomas_v2.csv",
+      "status": 200,
+      "url": "https://dataserver-coids.inpe.br/queimadas/queimadas/area_queimada/colecao2/csv/aq1km_biomas_v2.csv",
+      "contentType": "text/csv",
+      "length": "13775"
+    },
+    "guaraci-check-saude_indigena_sesai_covid19": {
+      "key": "saude_indigena_sesai_covid19",
+      "requestedUrl": "https://apidadosabertos.saude.gov.br/saude-indigena/sesai-covid19",
+      "status": 200,
+      "url": "https://apidadosabertos.saude.gov.br/saude-indigena/sesai-covid19",
+      "contentType": "application/json",
+      "length": "58307"
+    },
+    "guaraci-check-saude_indigena_sesai_doencas_diarreicas_agudas": {
+      "key": "saude_indigena_sesai_doencas_diarreicas_agudas",
+      "requestedUrl": "https://apidadosabertos.saude.gov.br/saude-indigena/sesai-doencas-diarreicas-agudas",
+      "status": 200,
+      "url": "https://apidadosabertos.saude.gov.br/saude-indigena/sesai-doencas-diarreicas-agudas",
+      "contentType": "application/json",
+      "length": "34921"
+    },
+    "guaraci-check-saude_indigena_sesai_assistencia_farmaceutica": {
+      "key": "saude_indigena_sesai_assistencia_farmaceutica",
+      "requestedUrl": "https://apidadosabertos.saude.gov.br/saude-indigena/sesai-assistencia-farmaceutica",
+      "status": 503,
+      "url": "https://apidadosabertos.saude.gov.br/saude-indigena/sesai-assistencia-farmaceutica"
+    },
+    "guaraci-check-saude_indigena_sesai_arboviroses": {
+      "key": "saude_indigena_sesai_arboviroses",
+      "requestedUrl": "https://apidadosabertos.saude.gov.br/saude-indigena/sesai-arboviroses",
+      "status": 200,
+      "url": "https://apidadosabertos.saude.gov.br/saude-indigena/sesai-arboviroses",
+      "contentType": "application/json",
+      "length": "33008"
+    },
+    "guaraci-check-saude_indigena_sesai_doencas_respiratorias": {
+      "key": "saude_indigena_sesai_doencas_respiratorias",
+      "requestedUrl": "https://apidadosabertos.saude.gov.br/saude-indigena/sesai-doencas-respiratorias",
+      "status": 200,
+      "url": "https://apidadosabertos.saude.gov.br/saude-indigena/sesai-doencas-respiratorias",
+      "contentType": "application/json",
+      "length": "42686"
+    },
+    "guaraci-check-saude_indigena_sesai_doencas_zoonoticas": {
+      "key": "saude_indigena_sesai_doencas_zoonoticas",
+      "requestedUrl": "https://apidadosabertos.saude.gov.br/saude-indigena/sesai-doencas-zoonoticas",
+      "status": 200,
+      "url": "https://apidadosabertos.saude.gov.br/saude-indigena/sesai-doencas-zoonoticas",
+      "contentType": "application/json",
+      "length": "33489"
+    },
+    "guaraci-check-saude_indigena_sesai_demografico": {
+      "key": "saude_indigena_sesai_demografico",
+      "requestedUrl": "https://apidadosabertos.saude.gov.br/saude-indigena/sesai-demografico",
+      "status": 200,
+      "url": "https://apidadosabertos.saude.gov.br/saude-indigena/sesai-demografico",
+      "contentType": "application/json",
+      "length": "46124"
+    },
+    "guaraci-check-saude_indigena_sesai_obitos": {
+      "key": "saude_indigena_sesai_obitos",
+      "requestedUrl": "https://apidadosabertos.saude.gov.br/saude-indigena/sesai-obitos",
+      "status": 200,
+      "url": "https://apidadosabertos.saude.gov.br/saude-indigena/sesai-obitos",
+      "contentType": "application/json",
+      "length": "21"
+    },
+    "guaraci-check-saude_indigena_sesai_doencas_imunopreveniveis": {
+      "key": "saude_indigena_sesai_doencas_imunopreveniveis",
+      "requestedUrl": "https://apidadosabertos.saude.gov.br/saude-indigena/sesai-doencas-imunopreveniveis",
+      "status": 200,
+      "url": "https://apidadosabertos.saude.gov.br/saude-indigena/sesai-doencas-imunopreveniveis",
+      "contentType": "application/json",
+      "length": "35673"
+    },
+    "guaraci-check-saude_indigena_sesai_cobertura_vacinal": {
+      "key": "saude_indigena_sesai_cobertura_vacinal",
+      "requestedUrl": "https://apidadosabertos.saude.gov.br/saude-indigena/sesai-cobertura-vacinal",
+      "status": 200,
+      "url": "https://apidadosabertos.saude.gov.br/saude-indigena/sesai-cobertura-vacinal",
+      "contentType": "application/json",
+      "length": "35915"
+    },
+    "guaraci-check-saude_indigena_sesai_hepatites_virais": {
+      "key": "saude_indigena_sesai_hepatites_virais",
+      "requestedUrl": "https://apidadosabertos.saude.gov.br/saude-indigena/sesai-hepatites-virais",
+      "status": 200,
+      "url": "https://apidadosabertos.saude.gov.br/saude-indigena/sesai-hepatites-virais",
+      "contentType": "application/json",
+      "length": "31"
+    },
+    "guaraci-check-mgdi_academia_saude": {
+      "key": "mgdi_academia_saude",
+      "requestedUrl": "https://demas-dados-abertos.s3.amazonaws.com/csv/pasvlr.csv.zip",
+      "status": 200,
+      "url": "https://demas-dados-abertos.s3.amazonaws.com/csv/pasvlr.csv.zip",
+      "contentType": "binary/octet-stream",
+      "length": "629140"
+    },
+    "guaraci-check-ibge_censo_paredes": {
+      "key": "ibge_censo_paredes",
+      "requestedUrl": "https://sidra.ibge.gov.br/tabela/9928",
+      "status": 200,
+      "url": "https://sidra.ibge.gov.br/tabela/9928",
+      "contentType": "text/html; charset=utf-8",
+      "length": "91279"
+    },
+    "guaraci-check-ibge_censo_deficiencia": {
+      "key": "ibge_censo_deficiencia",
+      "requestedUrl": "https://sidra.ibge.gov.br/tabela/10125",
+      "status": 200,
+      "url": "https://sidra.ibge.gov.br/tabela/10125",
+      "contentType": "text/html; charset=utf-8",
+      "length": "91217"
+    },
+    "guaraci-check-ibge_obitos_fetais_rc": {
+      "key": "ibge_obitos_fetais_rc",
+      "requestedUrl": "https://sidra.ibge.gov.br/tabela/2990",
+      "status": 200,
+      "url": "https://sidra.ibge.gov.br/tabela/2990",
+      "contentType": "text/html; charset=utf-8",
+      "length": "91350"
+    },
+    "guaraci-check-mgdi_telessaude": {
+      "key": "mgdi_telessaude",
+      "requestedUrl": "https://demas-dados-abertos.s3.amazonaws.com/csv/mgdi_ms_yf3.csv.zip",
+      "status": 200,
+      "url": "https://demas-dados-abertos.s3.amazonaws.com/csv/mgdi_ms_yf3.csv.zip",
+      "contentType": "binary/octet-stream",
+      "length": "168166"
+    },
+    "guaraci-check-mgdi_samu": {
+      "key": "mgdi_samu",
+      "requestedUrl": "https://demas-dados-abertos.s3.amazonaws.com/csv/samuvrf.csv.zip",
+      "status": 200,
+      "url": "https://demas-dados-abertos.s3.amazonaws.com/csv/samuvrf.csv.zip",
+      "contentType": "binary/octet-stream",
+      "length": "1005988"
+    },
+    "guaraci-check-mgdi_emulti": {
+      "key": "mgdi_emulti",
+      "requestedUrl": "https://demas-dados-abertos.s3.amazonaws.com/csv/emultvlrmo.csv.zip",
+      "status": 200,
+      "url": "https://demas-dados-abertos.s3.amazonaws.com/csv/emultvlrmo.csv.zip",
+      "contentType": "binary/octet-stream",
+      "length": "2566300"
+    },
+    "guaraci-check-mgdi_raps": {
+      "key": "mgdi_raps",
+      "requestedUrl": "https://demas-dados-abertos.s3.amazonaws.com/csv/rapssrtii.csv.zip",
+      "status": 200,
+      "url": "https://demas-dados-abertos.s3.amazonaws.com/csv/rapssrtii.csv.zip",
+      "contentType": "binary/octet-stream",
+      "length": "897556"
+    },
+    "guaraci-check-inep_censo_escolar": {
+      "key": "inep_censo_escolar",
+      "requestedUrl": "https://download.inep.gov.br/dados_abertos/microdados_censo_escolar_2025_.zip",
+      "status": 503,
+      "url": "https://download.inep.gov.br/dados_abertos/microdados_censo_escolar_2025_.zip"
+    },
+    "guaraci-check-mgdi_upa": {
+      "key": "mgdi_upa",
+      "requestedUrl": "https://demas-dados-abertos.s3.amazonaws.com/csv/upavcm.csv.zip",
+      "status": 200,
+      "url": "https://demas-dados-abertos.s3.amazonaws.com/csv/upavcm.csv.zip",
+      "contentType": "binary/octet-stream",
+      "length": "945567"
+    },
+    "guaraci-check-mgdi_saude_bucal": {
+      "key": "mgdi_saude_bucal",
+      "requestedUrl": "https://demas-dados-abertos.s3.amazonaws.com/csv/sbuomp.csv.zip",
+      "status": 200,
+      "url": "https://demas-dados-abertos.s3.amazonaws.com/csv/sbuomp.csv.zip",
+      "contentType": "binary/octet-stream",
+      "length": "581580"
+    },
+    "guaraci-check-educacao_saude_sig_residencia_medica": {
+      "key": "educacao_saude_sig_residencia_medica",
+      "requestedUrl": "https://apidadosabertos.saude.gov.br/educacao-saude/sig-residencia-medica",
+      "status": 200,
+      "url": "https://apidadosabertos.saude.gov.br/educacao-saude/sig-residencia-medica",
+      "contentType": "application/json",
+      "length": "59830"
+    },
+    "guaraci-check-educacao_saude_pet_saude": {
+      "key": "educacao_saude_pet_saude",
+      "requestedUrl": "https://apidadosabertos.saude.gov.br/educacao-saude/pet-saude",
+      "status": 200,
+      "url": "https://apidadosabertos.saude.gov.br/educacao-saude/pet-saude",
+      "contentType": "application/json",
+      "length": "35838"
+    },
+    "guaraci-check-atencao_primaria_pmme_instituicoes_formadoras": {
+      "key": "atencao_primaria_pmme_instituicoes_formadoras",
+      "requestedUrl": "https://apidadosabertos.saude.gov.br/atencao-primaria/pmme-instituicoes-formadoras",
+      "status": 503,
+      "url": "https://apidadosabertos.saude.gov.br/atencao-primaria/pmme-instituicoes-formadoras"
+    },
+    "guaraci-check-vigilancia_e_meio_ambiente_svsa_populacao_residente": {
+      "key": "vigilancia_e_meio_ambiente_svsa_populacao_residente",
+      "requestedUrl": "https://apidadosabertos.saude.gov.br/vigilancia-e-meio-ambiente/svsa-populacao-residente",
+      "status": 503,
+      "url": "https://apidadosabertos.saude.gov.br/vigilancia-e-meio-ambiente/svsa-populacao-residente"
+    },
+    "guaraci-check-saude_indigena_sesai_acidentes_ofidicos": {
+      "key": "saude_indigena_sesai_acidentes_ofidicos",
+      "requestedUrl": "https://apidadosabertos.saude.gov.br/saude-indigena/sesai-acidentes-ofidicos",
+      "status": 200,
+      "url": "https://apidadosabertos.saude.gov.br/saude-indigena/sesai-acidentes-ofidicos",
+      "contentType": "application/json",
+      "length": "34778"
+    },
+    "guaraci-check-educacao_saude_sig_residencia_area_profissional": {
+      "key": "educacao_saude_sig_residencia_area_profissional",
+      "requestedUrl": "https://apidadosabertos.saude.gov.br/educacao-saude/sig-residencia-area-profissional",
+      "status": 200,
+      "url": "https://apidadosabertos.saude.gov.br/educacao-saude/sig-residencia-area-profissional",
+      "contentType": "application/json",
+      "length": "98810"
+    },
+    "guaraci-check-farmacia_popular_indicadores": {
+      "key": "farmacia_popular_indicadores",
+      "requestedUrl": "https://demas-dados-abertos.s3.amazonaws.com/csv/sntpdhc.csv.zip",
+      "status": 200,
+      "url": "https://demas-dados-abertos.s3.amazonaws.com/csv/sntpdhc.csv.zip",
+      "contentType": "binary/octet-stream",
+      "length": "1075681"
+    },
+    "guaraci-check-vigitel": {
+      "key": "vigitel",
+      "requestedUrl": "https://svs.aids.gov.br/daent/cgdnt/vigitel/vigitel-2006-2024-peso-rake-csv.zip",
+      "status": 200,
+      "url": "https://svs.aids.gov.br/daent/cgdnt/vigitel/vigitel-2006-2024-peso-rake-csv.zip",
+      "contentType": "application/zip",
+      "length": "87121523"
+    },
+    "guaraci-check-ibama_agrotoxicos_comercializacao": {
+      "key": "ibama_agrotoxicos_comercializacao",
+      "requestedUrl": "https://stibamadadosabertosprd.blob.core.windows.net/dados-abertos/dados/AGROTOXICOS/RelatoriosdeComercializacaodeAgrotoxicos/relatorios_comercializacao_agrotoxicos.csv",
+      "status": 200,
+      "url": "https://stibamadadosabertosprd.blob.core.windows.net/dados-abertos/dados/AGROTOXICOS/RelatoriosdeComercializacaodeAgrotoxicos/relatorios_comercializacao_agrotoxicos.csv",
+      "contentType": "application/octet-stream",
+      "length": "13576797"
+    },
+    "guaraci-check-ibge_saneamento_agua": {
+      "key": "ibge_saneamento_agua",
+      "requestedUrl": "https://sidra.ibge.gov.br/tabela/6803",
+      "status": 200,
+      "url": "https://sidra.ibge.gov.br/tabela/6803",
+      "contentType": "text/html; charset=utf-8",
+      "length": "91298"
+    },
+    "guaraci-check-ibge_casamentos": {
+      "key": "ibge_casamentos",
+      "requestedUrl": "https://sidra.ibge.gov.br/tabela/4406",
+      "status": 200,
+      "url": "https://sidra.ibge.gov.br/tabela/4406",
+      "contentType": "text/html; charset=utf-8",
+      "length": "91225"
+    },
+    "guaraci-check-ibge_censo_adensamento": {
+      "key": "ibge_censo_adensamento",
+      "requestedUrl": "https://sidra.ibge.gov.br/tabela/9933",
+      "status": 200,
+      "url": "https://sidra.ibge.gov.br/tabela/9933",
+      "contentType": "text/html; charset=utf-8",
+      "length": "91286"
+    },
+    "guaraci-check-ibge_censo_cor_raca_idade_sexo": {
+      "key": "ibge_censo_cor_raca_idade_sexo",
+      "requestedUrl": "https://sidra.ibge.gov.br/tabela/9606",
+      "status": 200,
+      "url": "https://sidra.ibge.gov.br/tabela/9606",
+      "contentType": "text/html; charset=utf-8",
+      "length": "91179"
+    },
+    "guaraci-check-ibge_obitos_rc": {
+      "key": "ibge_obitos_rc",
+      "requestedUrl": "https://sidra.ibge.gov.br/tabela/2681",
+      "status": 200,
+      "url": "https://sidra.ibge.gov.br/tabela/2681",
+      "contentType": "text/html; charset=utf-8",
+      "length": "91247"
+    },
+    "guaraci-check-ibge_saneamento_lixo": {
+      "key": "ibge_saneamento_lixo",
+      "requestedUrl": "https://sidra.ibge.gov.br/tabela/6892",
+      "status": 200,
+      "url": "https://sidra.ibge.gov.br/tabela/6892",
+      "contentType": "text/html; charset=utf-8",
+      "length": "91172"
+    },
+    "guaraci-check-ibge_censo_indigena": {
+      "key": "ibge_censo_indigena",
+      "requestedUrl": "https://sidra.ibge.gov.br/tabela/9845",
+      "status": 200,
+      "url": "https://sidra.ibge.gov.br/tabela/9845",
+      "contentType": "text/html; charset=utf-8",
+      "length": "91276"
+    },
+    "guaraci-check-ibge_saneamento_esgoto": {
+      "key": "ibge_saneamento_esgoto",
+      "requestedUrl": "https://sidra.ibge.gov.br/tabela/6805",
+      "status": 200,
+      "url": "https://sidra.ibge.gov.br/tabela/6805",
+      "contentType": "text/html; charset=utf-8",
+      "length": "91191"
+    },
+    "guaraci-check-ibge_censo_alfabetizacao": {
+      "key": "ibge_censo_alfabetizacao",
+      "requestedUrl": "https://sidra.ibge.gov.br/tabela/9542",
+      "status": 200,
+      "url": "https://sidra.ibge.gov.br/tabela/9542",
+      "contentType": "text/html; charset=utf-8",
+      "length": "91209"
+    },
+    "guaraci-check-ibge_area_territorial": {
+      "key": "ibge_area_territorial",
+      "requestedUrl": "https://sidra.ibge.gov.br/tabela/4714",
+      "status": 200,
+      "url": "https://sidra.ibge.gov.br/tabela/4714",
+      "contentType": "text/html; charset=utf-8",
+      "length": "91183"
+    },
+    "guaraci-check-ibge_censo_quilombola": {
+      "key": "ibge_censo_quilombola",
+      "requestedUrl": "https://sidra.ibge.gov.br/tabela/10089",
+      "status": 200,
+      "url": "https://sidra.ibge.gov.br/tabela/10089",
+      "contentType": "text/html; charset=utf-8",
+      "length": "91253"
+    },
+    "guaraci-check-ibge_nascidos_vivos_rc": {
+      "key": "ibge_nascidos_vivos_rc",
+      "requestedUrl": "https://sidra.ibge.gov.br/tabela/2680",
+      "status": 200,
+      "url": "https://sidra.ibge.gov.br/tabela/2680",
+      "contentType": "text/html; charset=utf-8",
+      "length": "91288"
+    },
+    "guaraci-check-ibge_divorcios": {
+      "key": "ibge_divorcios",
+      "requestedUrl": "https://sidra.ibge.gov.br/tabela/5937",
+      "status": 200,
+      "url": "https://sidra.ibge.gov.br/tabela/5937",
+      "contentType": "text/html; charset=utf-8",
+      "length": "91326"
+    },
+    "guaraci-check-daf_estoque_medicamentos_bnafar_horus": {
+      "key": "daf_estoque_medicamentos_bnafar_horus",
+      "requestedUrl": "https://apidadosabertos.saude.gov.br/daf/estoque-medicamentos-bnafar-horus",
+      "status": 200,
+      "url": "https://apidadosabertos.saude.gov.br/daf/estoque-medicamentos-bnafar-horus",
+      "contentType": "application/json",
+      "length": "82103"
+    },
+    "guaraci-check-atencao_primaria_siaps_atendimento_individual": {
+      "key": "atencao_primaria_siaps_atendimento_individual",
+      "requestedUrl": "https://apidadosabertos.saude.gov.br/atencao-primaria/siaps-atendimento-individual",
+      "status": 200,
+      "url": "https://apidadosabertos.saude.gov.br/atencao-primaria/siaps-atendimento-individual",
+      "contentType": "application/json",
+      "length": "71945"
+    },
+    "guaraci-check-atencao_primaria_siaps_cadastro_individual": {
+      "key": "atencao_primaria_siaps_cadastro_individual",
+      "requestedUrl": "https://apidadosabertos.saude.gov.br/atencao-primaria/siaps-cadastro-individual",
+      "status": 200,
+      "url": "https://apidadosabertos.saude.gov.br/atencao-primaria/siaps-cadastro-individual",
+      "contentType": "application/json",
+      "length": "63816"
+    },
+    "guaraci-check-ciencia_tecnologia_plataformabr_pesquisa_saude": {
+      "key": "ciencia_tecnologia_plataformabr_pesquisa_saude",
+      "requestedUrl": "https://apidadosabertos.saude.gov.br/ciencia-tecnologia/plataformabr-pesquisa-saude",
+      "status": 200,
+      "url": "https://apidadosabertos.saude.gov.br/ciencia-tecnologia/plataformabr-pesquisa-saude",
+      "contentType": "application/json",
+      "length": "36"
+    },
+    "guaraci-check-ciencia_tecnologia_plataformabr_projeto_aprovado": {
+      "key": "ciencia_tecnologia_plataformabr_projeto_aprovado",
+      "requestedUrl": "https://apidadosabertos.saude.gov.br/ciencia-tecnologia/plataformabr-projeto-aprovado",
+      "status": 200,
+      "url": "https://apidadosabertos.saude.gov.br/ciencia-tecnologia/plataformabr-projeto-aprovado",
+      "contentType": "application/json",
+      "length": "38"
+    },
+    "guaraci-check-ouvidoria_ouvidor3": {
+      "key": "ouvidoria_ouvidor3",
+      "requestedUrl": "https://apidadosabertos.saude.gov.br/ouvidoria/ouvidor3",
+      "status": 200,
+      "url": "https://apidadosabertos.saude.gov.br/ouvidoria/ouvidor3",
+      "contentType": "application/json",
+      "length": "102081"
+    },
+    "guaraci-check-educacao_em_saude_pvc": {
+      "key": "educacao_em_saude_pvc",
+      "requestedUrl": "https://apidadosabertos.saude.gov.br/educacao-em-saude/pvc",
+      "status": 200,
+      "url": "https://apidadosabertos.saude.gov.br/educacao-em-saude/pvc",
+      "contentType": "application/json",
+      "length": "8898"
+    },
+    "guaraci-check-ciencia_tecnologia_dgits_tecnologias_diretrizes": {
+      "key": "ciencia_tecnologia_dgits_tecnologias_diretrizes",
+      "requestedUrl": "https://apidadosabertos.saude.gov.br/ciencia-tecnologia/dgits-tecnologias-diretrizes",
+      "status": 200,
+      "url": "https://apidadosabertos.saude.gov.br/ciencia-tecnologia/dgits-tecnologias-diretrizes",
+      "contentType": "application/json",
+      "length": "11354"
+    },
+    "guaraci-check-prevencao_e_promocao_distribuicao_epi_insumo": {
+      "key": "prevencao_e_promocao_distribuicao_epi_insumo",
+      "requestedUrl": "https://apidadosabertos.saude.gov.br/prevencao-e-promocao/distribuicao-epi-insumo",
+      "status": 503,
+      "url": "https://apidadosabertos.saude.gov.br/prevencao-e-promocao/distribuicao-epi-insumo"
+    },
+    "guaraci-check-ouvidoria_ouvidor2": {
+      "key": "ouvidoria_ouvidor2",
+      "requestedUrl": "https://apidadosabertos.saude.gov.br/ouvidoria/ouvidor2",
+      "status": 200,
+      "url": "https://apidadosabertos.saude.gov.br/ouvidoria/ouvidor2",
+      "contentType": "application/json",
+      "length": "87408"
+    },
+    "guaraci-check-ibge_populacao": {
+      "key": "ibge_populacao",
+      "requestedUrl": "https://sidra.ibge.gov.br/tabela/6579",
+      "status": 200,
+      "url": "https://sidra.ibge.gov.br/tabela/6579",
+      "contentType": "text/html; charset=utf-8",
+      "length": "91140"
+    },
+    "guaraci-check-ibge_pib_municipios": {
+      "key": "ibge_pib_municipios",
+      "requestedUrl": "https://sidra.ibge.gov.br/tabela/5938",
+      "status": 200,
+      "url": "https://sidra.ibge.gov.br/tabela/5938",
+      "contentType": "text/html; charset=utf-8",
+      "length": "91378"
+    },
+    "guaraci-check-ibge_populacao_idade_sexo": {
+      "key": "ibge_populacao_idade_sexo",
+      "requestedUrl": "https://sidra.ibge.gov.br/tabela/9514",
+      "status": 200,
+      "url": "https://sidra.ibge.gov.br/tabela/9514",
+      "contentType": "text/html; charset=utf-8",
+      "length": "91189"
+    },
+    "guaraci-check-ciencia_tecnologia_dgits_controle_demandas_conitec": {
+      "key": "ciencia_tecnologia_dgits_controle_demandas_conitec",
+      "requestedUrl": "https://apidadosabertos.saude.gov.br/ciencia-tecnologia/dgits-controle-demandas-conitec",
+      "status": 200,
+      "url": "https://apidadosabertos.saude.gov.br/ciencia-tecnologia/dgits-controle-demandas-conitec",
+      "contentType": "application/json",
+      "length": "21404"
+    },
+    "guaraci-check-ciencia_tecnologia_dgits_controle_pcdt": {
+      "key": "ciencia_tecnologia_dgits_controle_pcdt",
+      "requestedUrl": "https://apidadosabertos.saude.gov.br/ciencia-tecnologia/dgits-controle-pcdt",
+      "status": 503,
+      "url": "https://apidadosabertos.saude.gov.br/ciencia-tecnologia/dgits-controle-pcdt"
+    },
+    "guaraci-check-sisvan_estado_nutricional": {
+      "key": "sisvan_estado_nutricional",
+      "requestedUrl": "https://apidadosabertos.saude.gov.br/sisvan/estado-nutricional",
+      "status": 503,
+      "url": "https://apidadosabertos.saude.gov.br/sisvan/estado-nutricional"
+    },
+    "guaraci-check-outros_temas_ced": {
+      "key": "outros_temas_ced",
+      "requestedUrl": "https://apidadosabertos.saude.gov.br/outros-temas/ced",
+      "status": 503,
+      "url": "https://apidadosabertos.saude.gov.br/outros-temas/ced"
+    },
+    "guaraci-check-macrorregiao_e_regiao_de_saude_municipio": {
+      "key": "macrorregiao_e_regiao_de_saude_municipio",
+      "requestedUrl": "https://apidadosabertos.saude.gov.br/macrorregiao-e-regiao-de-saude/municipio",
+      "status": 503,
+      "url": "https://apidadosabertos.saude.gov.br/macrorregiao-e-regiao-de-saude/municipio"
+    },
+    "guaraci-check-pni_doses_aplicadas_arquivos": {
+      "key": "pni_doses_aplicadas_arquivos",
+      "requestedUrl": "https://s3.sa-east-1.amazonaws.com/ckan.saude.gov.br/PNI/csv/vacinacao_dez_2026_csv.zip",
+      "status": 403,
+      "url": "https://s3.sa-east-1.amazonaws.com/ckan.saude.gov.br/PNI/csv/vacinacao_dez_2026_csv.zip"
+    },
+    "guaraci-check-sisvan_estado_nutricional_arquivos": {
+      "key": "sisvan_estado_nutricional_arquivos",
+      "requestedUrl": "https://s3.sa-east-1.amazonaws.com/ckan.saude.gov.br/SISVAN/estado_nutricional/sisvan_estado_nutricional_2023.zip",
+      "status": 200,
+      "url": "https://s3.sa-east-1.amazonaws.com/ckan.saude.gov.br/SISVAN/estado_nutricional/sisvan_estado_nutricional_2023.zip",
+      "contentType": "binary/octet-stream",
+      "length": "4657062340"
+    },
+    "guaraci-check-atencao_primaria_cadastro_vinculado_programa_previne_brasil": {
+      "key": "atencao_primaria_cadastro_vinculado_programa_previne_brasil",
+      "requestedUrl": "https://apidadosabertos.saude.gov.br/atencao-primaria/cadastro-vinculado-programa-previne-brasil",
+      "status": 200,
+      "url": "https://apidadosabertos.saude.gov.br/atencao-primaria/cadastro-vinculado-programa-previne-brasil",
+      "contentType": "application/json",
+      "length": "34858"
+    },
+    "guaraci-check-atencao_primaria_pmmb_serie_historica": {
+      "key": "atencao_primaria_pmmb_serie_historica",
+      "requestedUrl": "https://apidadosabertos.saude.gov.br/atencao-primaria/pmmb-serie-historica",
+      "status": 200,
+      "url": "https://apidadosabertos.saude.gov.br/atencao-primaria/pmmb-serie-historica",
+      "contentType": "application/json",
+      "length": "33985"
+    },
+    "guaraci-check-economia_da_saude_sistema_de_apuracao_e_gestao_de_custos_do_sus_apurasus": {
+      "key": "economia_da_saude_sistema_de_apuracao_e_gestao_de_custos_do_sus_apurasus",
+      "requestedUrl": "https://apidadosabertos.saude.gov.br/economia-da-saude/sistema-de-apuracao-e-gestao-de-custos-do-sus-apurasus",
+      "status": 200,
+      "url": "https://apidadosabertos.saude.gov.br/economia-da-saude/sistema-de-apuracao-e-gestao-de-custos-do-sus-apurasus",
+      "contentType": "application/json",
+      "length": "28519"
+    },
+    "guaraci-check-atencao_primaria_pmmb_consolidado": {
+      "key": "atencao_primaria_pmmb_consolidado",
+      "requestedUrl": "https://apidadosabertos.saude.gov.br/atencao-primaria/pmmb-consolidado",
+      "status": 200,
+      "url": "https://apidadosabertos.saude.gov.br/atencao-primaria/pmmb-consolidado",
+      "contentType": "application/json",
+      "length": "129357"
+    },
+    "guaraci-check-ciencia_tecnologia_dgits_contribuicoes_consultas_publicas": {
+      "key": "ciencia_tecnologia_dgits_contribuicoes_consultas_publicas",
+      "requestedUrl": "https://apidadosabertos.saude.gov.br/ciencia-tecnologia/dgits-contribuicoes-consultas-publicas",
+      "status": 200,
+      "url": "https://apidadosabertos.saude.gov.br/ciencia-tecnologia/dgits-contribuicoes-consultas-publicas",
+      "contentType": "application/json",
+      "length": "17830"
+    },
+    "guaraci-check-atencao_primaria_pmmb_relatorio_historico_cadastro_cnes": {
+      "key": "atencao_primaria_pmmb_relatorio_historico_cadastro_cnes",
+      "requestedUrl": "https://apidadosabertos.saude.gov.br/atencao-primaria/pmmb-relatorio-historico-cadastro-cnes",
+      "status": 200,
+      "url": "https://apidadosabertos.saude.gov.br/atencao-primaria/pmmb-relatorio-historico-cadastro-cnes",
+      "contentType": "application/json",
+      "length": "35629"
+    },
+    "guaraci-check-assistencia_a_saude_registro_de_ocupacao_hospitalar_covid_19": {
+      "key": "assistencia_a_saude_registro_de_ocupacao_hospitalar_covid_19",
+      "requestedUrl": "https://apidadosabertos.saude.gov.br/assistencia-a-saude/registro-de-ocupacao-hospitalar-covid-19",
+      "status": 200,
+      "url": "https://apidadosabertos.saude.gov.br/assistencia-a-saude/registro-de-ocupacao-hospitalar-covid-19",
+      "contentType": "application/json",
+      "length": "63026"
+    },
+    "guaraci-check-atencao_primaria_pmmb_especialista_relacao_nominal_ativo": {
+      "key": "atencao_primaria_pmmb_especialista_relacao_nominal_ativo",
+      "requestedUrl": "https://apidadosabertos.saude.gov.br/atencao-primaria/pmmb-especialista-relacao-nominal-ativo",
+      "status": 200,
+      "url": "https://apidadosabertos.saude.gov.br/atencao-primaria/pmmb-especialista-relacao-nominal-ativo",
+      "contentType": "application/json",
+      "length": "51803"
+    },
+    "guaraci-check-atencao_primaria_indicador_desempenho_programa_previne_brasil": {
+      "key": "atencao_primaria_indicador_desempenho_programa_previne_brasil",
+      "requestedUrl": "https://apidadosabertos.saude.gov.br/atencao-primaria/indicador-desempenho-programa-previne-brasil",
+      "status": 200,
+      "url": "https://apidadosabertos.saude.gov.br/atencao-primaria/indicador-desempenho-programa-previne-brasil",
+      "contentType": "application/json",
+      "length": "40730"
+    },
+    "guaraci-check-atencao_primaria_pmmb_especialista_consolidado": {
+      "key": "atencao_primaria_pmmb_especialista_consolidado",
+      "requestedUrl": "https://apidadosabertos.saude.gov.br/atencao-primaria/pmmb-especialista-consolidado",
+      "status": 200,
+      "url": "https://apidadosabertos.saude.gov.br/atencao-primaria/pmmb-especialista-consolidado",
+      "contentType": "application/json",
+      "length": "54323"
+    },
+    "guaraci-check-atencao_primaria_pmmb_relacao_nominal_coparticipacao": {
+      "key": "atencao_primaria_pmmb_relacao_nominal_coparticipacao",
+      "requestedUrl": "https://apidadosabertos.saude.gov.br/atencao-primaria/pmmb-relacao-nominal-coparticipacao",
+      "status": 200,
+      "url": "https://apidadosabertos.saude.gov.br/atencao-primaria/pmmb-relacao-nominal-coparticipacao",
+      "contentType": "application/json",
+      "length": "19629"
+    },
+    "guaraci-check-atencao_primaria_pmmb_relacao_nominal_ativo": {
+      "key": "atencao_primaria_pmmb_relacao_nominal_ativo",
+      "requestedUrl": "https://apidadosabertos.saude.gov.br/atencao-primaria/pmmb-relacao-nominal-ativo",
+      "status": 200,
+      "url": "https://apidadosabertos.saude.gov.br/atencao-primaria/pmmb-relacao-nominal-ativo",
+      "contentType": "application/json",
+      "length": "45729"
+    },
+    "guaraci-check-assistencia_a_saude_unidade_basicas_de_saude": {
+      "key": "assistencia_a_saude_unidade_basicas_de_saude",
+      "requestedUrl": "https://apidadosabertos.saude.gov.br/assistencia-a-saude/unidade-basicas-de-saude",
+      "status": 200,
+      "url": "https://apidadosabertos.saude.gov.br/assistencia-a-saude/unidade-basicas-de-saude",
+      "contentType": "application/json",
+      "length": "20071"
+    },
+    "guaraci-check-assistencia_a_saude_hospitais_e_leitos": {
+      "key": "assistencia_a_saude_hospitais_e_leitos",
+      "requestedUrl": "https://apidadosabertos.saude.gov.br/assistencia-a-saude/hospitais-e-leitos",
+      "status": 200,
+      "url": "https://apidadosabertos.saude.gov.br/assistencia-a-saude/hospitais-e-leitos",
+      "contentType": "application/json",
+      "length": "166408"
+    },
+    "guaraci-check-atencao_primaria_pmmb_especialista_serie_historica": {
+      "key": "atencao_primaria_pmmb_especialista_serie_historica",
+      "requestedUrl": "https://apidadosabertos.saude.gov.br/atencao-primaria/pmmb-especialista-serie-historica",
+      "status": 200,
+      "url": "https://apidadosabertos.saude.gov.br/atencao-primaria/pmmb-especialista-serie-historica",
+      "contentType": "application/json",
+      "length": "43774"
+    },
+    "guaraci-check-economia_da_saude_bps": {
+      "key": "economia_da_saude_bps",
+      "requestedUrl": "https://apidadosabertos.saude.gov.br/economia-da-saude/bps",
+      "status": 400,
+      "url": "https://apidadosabertos.saude.gov.br/economia-da-saude/bps"
+    },
+    "guaraci-check-saude_indigena_siasi_modulo_morbidades": {
+      "key": "saude_indigena_siasi_modulo_morbidades",
+      "requestedUrl": "https://apidadosabertos.saude.gov.br/saude-indigena/siasi-modulo-morbidades",
+      "status": 200,
+      "url": "https://apidadosabertos.saude.gov.br/saude-indigena/siasi-modulo-morbidades",
+      "contentType": "application/json",
+      "length": "88815"
+    },
+    "guaraci-check-saude_indigena_sesai_recursos_humanos": {
+      "key": "saude_indigena_sesai_recursos_humanos",
+      "requestedUrl": "https://apidadosabertos.saude.gov.br/saude-indigena/sesai-recursos-humanos",
+      "status": 200,
+      "url": "https://apidadosabertos.saude.gov.br/saude-indigena/sesai-recursos-humanos",
+      "contentType": "application/json",
+      "length": "33539"
+    },
+    "guaraci-check-saude_indigena_siasi_modulo_saude_bucal_ficha4": {
+      "key": "saude_indigena_siasi_modulo_saude_bucal_ficha4",
+      "requestedUrl": "https://apidadosabertos.saude.gov.br/saude-indigena/siasi-modulo-saude-bucal-ficha4",
+      "status": 200,
+      "url": "https://apidadosabertos.saude.gov.br/saude-indigena/siasi-modulo-saude-bucal-ficha4",
+      "contentType": "application/json",
+      "length": "113281"
+    },
+    "guaraci-check-enani_2019": {
+      "key": "enani_2019",
+      "requestedUrl": "https://dadosabertos.saude.gov.br/dataset/estudo-nacional-de-alimentacao-e-nutricao-infantil-enani-2019",
+      "status": 200,
+      "url": "https://dadosabertos.saude.gov.br/dataset/estudo-nacional-de-alimentacao-e-nutricao-infantil-enani-2019",
+      "contentType": "text/html; charset=utf-8",
+      "length": "41703"
+    },
+    "guaraci-check-saude_indigena_planilha_de_fornecimento_e_monitoramento_da_qualidade_da_agua_acesso_a_agua": {
+      "key": "saude_indigena_planilha_de_fornecimento_e_monitoramento_da_qualidade_da_agua_acesso_a_agua",
+      "requestedUrl": "https://apidadosabertos.saude.gov.br/saude-indigena/planilha-de-fornecimento-e-monitoramento-da-qualidade-da-agua-acesso-a-agua",
+      "status": 200,
+      "url": "https://apidadosabertos.saude.gov.br/saude-indigena/planilha-de-fornecimento-e-monitoramento-da-qualidade-da-agua-acesso-a-agua",
+      "contentType": "application/json",
+      "length": "28758"
+    },
+    "guaraci-check-sesai_tuberculose": {
+      "key": "sesai_tuberculose",
+      "requestedUrl": "https://dadosabertos.saude.gov.br/dataset/tuberculose_sesai",
+      "status": 200,
+      "url": "https://dadosabertos.saude.gov.br/dataset/tuberculose_sesai",
+      "contentType": "text/html; charset=utf-8",
+      "length": "27590"
+    },
+    "guaraci-check-saude_indigena_siasi_modulo_saude_bucal_ficha7": {
+      "key": "saude_indigena_siasi_modulo_saude_bucal_ficha7",
+      "requestedUrl": "https://apidadosabertos.saude.gov.br/saude-indigena/siasi-modulo-saude-bucal-ficha7",
+      "status": 200,
+      "url": "https://apidadosabertos.saude.gov.br/saude-indigena/siasi-modulo-saude-bucal-ficha7",
+      "contentType": "application/json",
+      "length": "138612"
+    },
+    "guaraci-check-saude_indigena_siasi_acompanhamento_gestacional": {
+      "key": "saude_indigena_siasi_acompanhamento_gestacional",
+      "requestedUrl": "https://apidadosabertos.saude.gov.br/saude-indigena/siasi-acompanhamento-gestacional",
+      "status": 200,
+      "url": "https://apidadosabertos.saude.gov.br/saude-indigena/siasi-acompanhamento-gestacional",
+      "contentType": "application/json",
+      "length": "85711"
+    },
+    "guaraci-check-saude_indigena_planilha_registros_habilitacao_recebimento_incentivo": {
+      "key": "saude_indigena_planilha_registros_habilitacao_recebimento_incentivo",
+      "requestedUrl": "https://apidadosabertos.saude.gov.br/saude-indigena/planilha-registros-habilitacao-recebimento-incentivo",
+      "status": 200,
+      "url": "https://apidadosabertos.saude.gov.br/saude-indigena/planilha-registros-habilitacao-recebimento-incentivo",
+      "contentType": "application/json",
+      "length": "36110"
+    },
+    "guaraci-check-saude_indigena_sasi_sus_gerenciamento_de_residuos_solidos": {
+      "key": "saude_indigena_sasi_sus_gerenciamento_de_residuos_solidos",
+      "requestedUrl": "https://apidadosabertos.saude.gov.br/saude-indigena/sasi-sus-gerenciamento-de-residuos-solidos",
+      "status": 200,
+      "url": "https://apidadosabertos.saude.gov.br/saude-indigena/sasi-sus-gerenciamento-de-residuos-solidos",
+      "contentType": "application/json",
+      "length": "87931"
+    },
+    "guaraci-check-saude_indigena_acompanhamento_obra_infraestrutura_saude": {
+      "key": "saude_indigena_acompanhamento_obra_infraestrutura_saude",
+      "requestedUrl": "https://apidadosabertos.saude.gov.br/saude-indigena/acompanhamento-obra-infraestrutura-saude",
+      "status": 200,
+      "url": "https://apidadosabertos.saude.gov.br/saude-indigena/acompanhamento-obra-infraestrutura-saude",
+      "contentType": "application/json",
+      "length": "50"
+    },
+    "guaraci-check-saude_indigena_sasisus_esgotamento_sanitario": {
+      "key": "saude_indigena_sasisus_esgotamento_sanitario",
+      "requestedUrl": "https://apidadosabertos.saude.gov.br/saude-indigena/sasisus-esgotamento-sanitario",
+      "status": 200,
+      "url": "https://apidadosabertos.saude.gov.br/saude-indigena/sasisus-esgotamento-sanitario",
+      "contentType": "application/json",
+      "length": "49096"
+    },
+    "guaraci-check-saude_indigena_siasi_modulo_saude_bucal_ficha3": {
+      "key": "saude_indigena_siasi_modulo_saude_bucal_ficha3",
+      "requestedUrl": "https://apidadosabertos.saude.gov.br/saude-indigena/siasi-modulo-saude-bucal-ficha3",
+      "status": 200,
+      "url": "https://apidadosabertos.saude.gov.br/saude-indigena/siasi-modulo-saude-bucal-ficha3",
+      "contentType": "application/json",
+      "length": "55236"
+    },
+    "guaraci-check-saude_indigena_sesai_atendimentos": {
+      "key": "saude_indigena_sesai_atendimentos",
+      "requestedUrl": "https://apidadosabertos.saude.gov.br/saude-indigena/sesai-atendimentos",
+      "status": 200,
+      "url": "https://apidadosabertos.saude.gov.br/saude-indigena/sesai-atendimentos",
+      "contentType": "application/json",
+      "length": "65898"
+    },
+    "guaraci-check-saude_indigena_sistema_de_atencao_a_saude_indigena_modulo_de_vigilancia_alimentar_e_nutricional": {
+      "key": "saude_indigena_sistema_de_atencao_a_saude_indigena_modulo_de_vigilancia_alimentar_e_nutricional",
+      "requestedUrl": "https://apidadosabertos.saude.gov.br/saude-indigena/sistema-de-atencao-a-saude-indigena-modulo-de-vigilancia-alimentar-e-nutricional",
+      "status": 200,
+      "url": "https://apidadosabertos.saude.gov.br/saude-indigena/sistema-de-atencao-a-saude-indigena-modulo-de-vigilancia-alimentar-e-nutricional",
+      "contentType": "application/json",
+      "length": "108101"
+    },
+    "guaraci-check-saude_indigena_indicadores_enfrentamento_monitoramento_covid19_indigenas": {
+      "key": "saude_indigena_indicadores_enfrentamento_monitoramento_covid19_indigenas",
+      "requestedUrl": "https://apidadosabertos.saude.gov.br/saude-indigena/indicadores-enfrentamento-monitoramento-covid19-indigenas",
+      "status": 200,
+      "url": "https://apidadosabertos.saude.gov.br/saude-indigena/indicadores-enfrentamento-monitoramento-covid19-indigenas",
+      "contentType": "application/json",
+      "length": "17689"
+    },
+    "guaraci-check-sisagua_tratamento_de_agua": {
+      "key": "sisagua_tratamento_de_agua",
+      "requestedUrl": "https://apidadosabertos.saude.gov.br/sisagua/tratamento-de-agua",
+      "status": 200,
+      "url": "https://apidadosabertos.saude.gov.br/sisagua/tratamento-de-agua",
+      "contentType": "application/json",
+      "length": "206727"
+    },
+    "guaraci-check-sisagua_vigilancia_parametros_basicos": {
+      "key": "sisagua_vigilancia_parametros_basicos",
+      "requestedUrl": "https://dadosabertos.saude.gov.br/dataset/sisagua-vigilancia-parametros-basicos",
+      "status": 200,
+      "url": "https://dadosabertos.saude.gov.br/dataset/sisagua-vigilancia-parametros-basicos",
+      "contentType": "text/html; charset=utf-8",
+      "length": "86422"
+    },
+    "guaraci-check-sisagua_tratamento_agua": {
+      "key": "sisagua_tratamento_agua",
+      "requestedUrl": "https://dadosabertos.saude.gov.br/dataset/sisagua-tratamento-de-agua",
+      "status": 200,
+      "url": "https://dadosabertos.saude.gov.br/dataset/sisagua-tratamento-de-agua",
+      "contentType": "text/html; charset=utf-8",
+      "length": "25540"
+    },
+    "guaraci-check-sisagua_populacao_abastecida": {
+      "key": "sisagua_populacao_abastecida",
+      "requestedUrl": "https://dadosabertos.saude.gov.br/dataset/sisagua-populacao-abastecida",
+      "status": 200,
+      "url": "https://dadosabertos.saude.gov.br/dataset/sisagua-populacao-abastecida",
+      "contentType": "text/html; charset=utf-8",
+      "length": "25485"
+    },
+    "guaraci-check-sisagua_controle_mensal_infraestrutura_operacional": {
+      "key": "sisagua_controle_mensal_infraestrutura_operacional",
+      "requestedUrl": "https://dadosabertos.saude.gov.br/dataset/sisagua-controle-mensal-infraestrutura-operacional",
+      "status": 200,
+      "url": "https://dadosabertos.saude.gov.br/dataset/sisagua-controle-mensal-infraestrutura-operacional",
+      "contentType": "text/html; charset=utf-8",
+      "length": "26141"
+    },
+    "guaraci-check-sisagua_controle_mensal_parametros_basicos": {
+      "key": "sisagua_controle_mensal_parametros_basicos",
+      "requestedUrl": "https://dadosabertos.saude.gov.br/dataset/sisagua-controle-mensal-parametros-basicos",
+      "status": 200,
+      "url": "https://dadosabertos.saude.gov.br/dataset/sisagua-controle-mensal-parametros-basicos",
+      "contentType": "text/html; charset=utf-8",
+      "length": "87157"
+    },
+    "guaraci-check-cnes_tipounidades": {
+      "key": "cnes_tipounidades",
+      "requestedUrl": "https://apidadosabertos.saude.gov.br/cnes/tipounidades",
+      "status": 200,
+      "url": "https://apidadosabertos.saude.gov.br/cnes/tipounidades",
+      "contentType": "application/json",
+      "length": "3491"
+    },
+    "guaraci-check-sisagua_controle_mensal_amostras_fora_do_padrao": {
+      "key": "sisagua_controle_mensal_amostras_fora_do_padrao",
+      "requestedUrl": "https://dadosabertos.saude.gov.br/dataset/sisagua-controle-mensal-amostras-fora-do-padrao",
+      "status": 200,
+      "url": "https://dadosabertos.saude.gov.br/dataset/sisagua-controle-mensal-amostras-fora-do-padrao",
+      "contentType": "text/html; charset=utf-8",
+      "length": "26058"
+    },
+    "guaraci-check-sisagua_controle_mensal_plano_amostragem": {
+      "key": "sisagua_controle_mensal_plano_amostragem",
+      "requestedUrl": "https://dadosabertos.saude.gov.br/dataset/sisagua-controle-mensal-plano-amostragem",
+      "status": 200,
+      "url": "https://dadosabertos.saude.gov.br/dataset/sisagua-controle-mensal-plano-amostragem",
+      "contentType": "text/html; charset=utf-8",
+      "length": "86574"
+    },
+    "guaraci-check-sisagua_vigilancia_demais_parametros": {
+      "key": "sisagua_vigilancia_demais_parametros",
+      "requestedUrl": "https://dadosabertos.saude.gov.br/dataset/sisagua-vigilancia-demais-parametros",
+      "status": 200,
+      "url": "https://dadosabertos.saude.gov.br/dataset/sisagua-vigilancia-demais-parametros",
+      "contentType": "text/html; charset=utf-8",
+      "length": "25562"
+    },
+    "guaraci-check-sisagua_pontos_de_captacao": {
+      "key": "sisagua_pontos_de_captacao",
+      "requestedUrl": "https://dadosabertos.saude.gov.br/dataset/sisagua-pontos-de-captacao",
+      "status": 200,
+      "url": "https://dadosabertos.saude.gov.br/dataset/sisagua-pontos-de-captacao",
+      "contentType": "text/html; charset=utf-8",
+      "length": "25639"
+    },
+    "guaraci-check-sisagua_cadastro_carro_pipa_procedencia": {
+      "key": "sisagua_cadastro_carro_pipa_procedencia",
+      "requestedUrl": "https://dadosabertos.saude.gov.br/dataset/sisagua-cadastro-carro-pipa-procedencia",
+      "status": 200,
+      "url": "https://dadosabertos.saude.gov.br/dataset/sisagua-cadastro-carro-pipa-procedencia",
+      "contentType": "text/html; charset=utf-8",
+      "length": "25551"
+    },
+    "guaraci-check-sisagua_controle_semestral": {
+      "key": "sisagua_controle_semestral",
+      "requestedUrl": "https://dadosabertos.saude.gov.br/dataset/sisagua-controle-semestral",
+      "status": 200,
+      "url": "https://dadosabertos.saude.gov.br/dataset/sisagua-controle-semestral",
+      "contentType": "text/html; charset=utf-8",
+      "length": "83409"
+    },
+    "guaraci-check-sisagua_controle_mensal_demais_parametros": {
+      "key": "sisagua_controle_mensal_demais_parametros",
+      "requestedUrl": "https://dadosabertos.saude.gov.br/dataset/sisagua-controle-mensal-demais-parametros",
+      "status": 200,
+      "url": "https://dadosabertos.saude.gov.br/dataset/sisagua-controle-mensal-demais-parametros",
+      "contentType": "text/html; charset=utf-8",
+      "length": "25863"
+    },
+    "guaraci-check-sisagua_cadastro_carro_pipa_populacao": {
+      "key": "sisagua_cadastro_carro_pipa_populacao",
+      "requestedUrl": "https://dadosabertos.saude.gov.br/dataset/sisagua-cadastro-carro-pipa-populacao",
+      "status": 200,
+      "url": "https://dadosabertos.saude.gov.br/dataset/sisagua-cadastro-carro-pipa-populacao",
+      "contentType": "text/html; charset=utf-8",
+      "length": "25739"
+    },
+    "guaraci-check-sisagua_vigilancia_cianobacterias_e_cianotoxinas": {
+      "key": "sisagua_vigilancia_cianobacterias_e_cianotoxinas",
+      "requestedUrl": "https://dadosabertos.saude.gov.br/dataset/sisagua-vigilancia-cianobacterias-e-cianotoxinas",
+      "status": 200,
+      "url": "https://dadosabertos.saude.gov.br/dataset/sisagua-vigilancia-cianobacterias-e-cianotoxinas",
+      "contentType": "text/html; charset=utf-8",
+      "length": "25780"
+    },
+    "guaraci-check-vigilancia_e_meio_ambiente_sistema_de_informacao_sobre_nascidos_vivos": {
+      "key": "vigilancia_e_meio_ambiente_sistema_de_informacao_sobre_nascidos_vivos",
+      "requestedUrl": "https://apidadosabertos.saude.gov.br/vigilancia-e-meio-ambiente/sistema-de-informacao-sobre-nascidos-vivos",
+      "status": 200,
+      "url": "https://apidadosabertos.saude.gov.br/vigilancia-e-meio-ambiente/sistema-de-informacao-sobre-nascidos-vivos",
+      "contentType": "application/json",
+      "length": "15"
+    },
+    "guaraci-check-cnes_estabelecimentos": {
+      "key": "cnes_estabelecimentos",
+      "requestedUrl": "https://apidadosabertos.saude.gov.br/cnes/estabelecimentos",
+      "status": 200,
+      "url": "https://apidadosabertos.saude.gov.br/cnes/estabelecimentos",
+      "contentType": "application/json",
+      "length": "8290"
+    },
+    "guaraci-check-srag_arquivos_2013_2018": {
+      "key": "srag_arquivos_2013_2018",
+      "requestedUrl": "https://dadosabertos.saude.gov.br/dataset/srag-2013-2018",
+      "status": 200,
+      "url": "https://dadosabertos.saude.gov.br/dataset/srag-2013-2018",
+      "contentType": "text/html; charset=utf-8",
+      "length": "52739"
+    },
+    "guaraci-check-srag_demas": {
+      "key": "srag_demas",
+      "requestedUrl": "https://apidadosabertos.saude.gov.br/vigilancia-e-meio-ambiente/srag",
+      "status": 404,
+      "url": "https://apidadosabertos.saude.gov.br/vigilancia-e-meio-ambiente/srag"
+    },
+    "guaraci-check-dengue": {
+      "key": "dengue",
+      "requestedUrl": "https://apidadosabertos.saude.gov.br/arboviroses/dengue",
+      "status": 200,
+      "url": "https://apidadosabertos.saude.gov.br/arboviroses/dengue",
+      "contentType": "application/json",
+      "length": "371873"
+    },
+    "guaraci-check-arboviroses_febre_amarela_epzootias": {
+      "key": "arboviroses_febre_amarela_epzootias",
+      "requestedUrl": "https://apidadosabertos.saude.gov.br/arboviroses/febre-amarela-epzootias",
+      "status": 200,
+      "url": "https://apidadosabertos.saude.gov.br/arboviroses/febre-amarela-epzootias",
+      "contentType": "application/json",
+      "length": "22695"
+    },
+    "guaraci-check-srag_arquivos_2009_2012": {
+      "key": "srag_arquivos_2009_2012",
+      "requestedUrl": "https://dadosabertos.saude.gov.br/dataset/srag-2009-2012",
+      "status": 200,
+      "url": "https://dadosabertos.saude.gov.br/dataset/srag-2009-2012",
+      "contentType": "text/html; charset=utf-8",
+      "length": "46769"
+    },
+    "guaraci-check-vigilancia_e_meio_ambiente_sistema_de_informacao_sobre_mortalidade": {
+      "key": "vigilancia_e_meio_ambiente_sistema_de_informacao_sobre_mortalidade",
+      "requestedUrl": "https://apidadosabertos.saude.gov.br/vigilancia-e-meio-ambiente/sistema-de-informacao-sobre-mortalidade",
+      "status": 200,
+      "url": "https://apidadosabertos.saude.gov.br/vigilancia-e-meio-ambiente/sistema-de-informacao-sobre-mortalidade",
+      "contentType": "application/json",
+      "length": "164166"
+    },
+    "guaraci-check-chikungunya": {
+      "key": "chikungunya",
+      "requestedUrl": "https://apidadosabertos.saude.gov.br/arboviroses/chikungunya",
+      "status": 200,
+      "url": "https://apidadosabertos.saude.gov.br/arboviroses/chikungunya",
+      "contentType": "application/json",
+      "length": "248390"
+    },
+    "guaraci-check-febre_amarela": {
+      "key": "febre_amarela",
+      "requestedUrl": "https://apidadosabertos.saude.gov.br/arboviroses/febre-amarela-humanos-primatas-nao-humanos",
+      "status": 200,
+      "url": "https://apidadosabertos.saude.gov.br/arboviroses/febre-amarela-humanos-primatas-nao-humanos",
+      "contentType": "application/json",
+      "length": "27209"
+    },
+    "guaraci-check-mpox": {
+      "key": "mpox",
+      "requestedUrl": "https://apidadosabertos.saude.gov.br/vigilancia-e-meio-ambiente/mpox",
+      "status": 200,
+      "url": "https://apidadosabertos.saude.gov.br/vigilancia-e-meio-ambiente/mpox",
+      "contentType": "application/json",
+      "length": "111479"
+    },
+    "guaraci-check-zikavirus": {
+      "key": "zikavirus",
+      "requestedUrl": "https://apidadosabertos.saude.gov.br/arboviroses/zikavirus",
+      "status": 200,
+      "url": "https://apidadosabertos.saude.gov.br/arboviroses/zikavirus",
+      "contentType": "application/json",
+      "length": "83952"
+    },
+    "guaraci-check-srag_arquivos": {
+      "key": "srag_arquivos",
+      "requestedUrl": "https://dadosabertos.saude.gov.br/dataset/srag-2019-a-2026",
+      "status": 200,
+      "url": "https://dadosabertos.saude.gov.br/dataset/srag-2019-a-2026",
+      "contentType": "text/html; charset=utf-8",
+      "length": "88346"
+    },
+    "guaraci-check-vacinacao_sistema_de_informacao_de_insumos_estrategicos": {
+      "key": "vacinacao_sistema_de_informacao_de_insumos_estrategicos",
+      "requestedUrl": "https://apidadosabertos.saude.gov.br/vacinacao/sistema-de-informacao-de-insumos-estrategicos",
+      "status": 200,
+      "url": "https://apidadosabertos.saude.gov.br/vacinacao/sistema-de-informacao-de-insumos-estrategicos",
+      "contentType": "application/json",
+      "length": "17863"
+    },
+    "guaraci-check-esavi": {
+      "key": "esavi",
+      "requestedUrl": "https://apidadosabertos.saude.gov.br/vacinacao/esavi",
+      "status": 200,
+      "url": "https://apidadosabertos.saude.gov.br/vacinacao/esavi",
+      "contentType": "application/json",
+      "length": "315959"
+    },
+    "guaraci-check-sindrome_gripal_leve": {
+      "key": "sindrome_gripal_leve",
+      "requestedUrl": "https://apidadosabertos.saude.gov.br/vigilancia-e-meio-ambiente/notificacoes-de-sindrome-gripal-leve",
+      "status": 404,
+      "url": "https://apidadosabertos.saude.gov.br/vigilancia-e-meio-ambiente/notificacoes-de-sindrome-gripal-leve"
+    }
+  }
+}
