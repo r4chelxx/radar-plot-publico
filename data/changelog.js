@@ -1,29 +1,29 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
-{
-  "date": "2026-11-16",
-  "type": "ferramentas",
-  "title": "Publicação editorial verificada — 2026-11-16",
-  "items": [
-    {
-      "id": "be9e40b9672b7d79a68ce0c91d7c97b541c7e742d6681c8ed5f43e55e2401e5b",
-      "title": "Three.js"
-    },
-    {
-      "id": "c2ee2f71ce77c43a7a985d95d7cbaa66f179f6fdbc4424ac9f4d85441953b2a8",
-      "title": "Layer Cake"
-    },
-    {
-      "id": "d1d9f0e8c01b765eace5a461bb293de7d52b785ffc9cc6df2a3b0a40b3bde74f",
-      "title": "Selenium"
-    },
-    {
-      "id": "fb1f5945b6820ed90263a3164b11222cb5cbbd33823865ccd8e85e23468238a1",
-      "title": "MuckRock"
-    }
-  ],
-  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Three.js; Layer Cake; Selenium; MuckRock."
-}, 
+  {
+    "date": "2026-11-16",
+    "type": "ferramentas",
+    "title": "Publicação editorial verificada — 2026-11-16",
+    "items": [
+      {
+        "id": "be9e40b9672b7d79a68ce0c91d7c97b541c7e742d6681c8ed5f43e55e2401e5b",
+        "title": "Three.js"
+      },
+      {
+        "id": "c2ee2f71ce77c43a7a985d95d7cbaa66f179f6fdbc4424ac9f4d85441953b2a8",
+        "title": "Layer Cake"
+      },
+      {
+        "id": "d1d9f0e8c01b765eace5a461bb293de7d52b785ffc9cc6df2a3b0a40b3bde74f",
+        "title": "Selenium"
+      },
+      {
+        "id": "fb1f5945b6820ed90263a3164b11222cb5cbbd33823865ccd8e85e23468238a1",
+        "title": "MuckRock"
+      }
+    ],
+    "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Three.js; Layer Cake; Selenium; MuckRock."
+  },
   {
     "date": "2026-11-16",
     "type": "dados",
