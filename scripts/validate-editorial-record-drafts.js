@@ -21,6 +21,7 @@ for(const item of drafts.drafts||[]){
  if(!/^https:\/\//.test(item.source.url||''))throw Error('Draft source must use HTTPS: '+item.id);
  if(item.evidence?.sourceExcerpt!==String(candidate.audit?.evidenceText||'').replace(/\s+/g,' ').trim().slice(0,4000))throw Error('Draft evidence excerpt mismatch: '+item.id);
  if(!Array.isArray(item.missingFields))throw Error('Draft must report missing fields: '+item.id);
+ if(JSON.stringify(item.evidence?.tabularData||[])!==JSON.stringify(candidate.audit?.tabularData||[]))throw Error('Draft table evidence mismatch: '+item.id);
 }
 if(actual.size!==expected.size)throw Error('Some evidence-complete candidates have no draft');
 if(drafts.summary?.publicationReady!==0||drafts.summary?.drafts!==actual.size)throw Error('Draft summary is inconsistent');
