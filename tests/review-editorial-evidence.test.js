@@ -15,6 +15,8 @@ try{
  item('dataset-api-host','datasets',{pageTitle:'Global indicator dataset',evidenceText:'Annual country data in JSON format.',structuredData:[],resourceLinks:[{url:'https://api.example.org/v2/country/all?format=json',label:'Official API'}]}),
  item('dataset-generic-indicator','datasets',{pageTitle:'World Bank Open Data',evidenceText:'Annual country dataset in JSON format.',structuredData:[],resourceLinks:[{url:'https://api.example.org/v2/country/all?format=json',label:'Official API'}]},'https://data.worldbank.org/indicator/1.0.HCount.1.90usd'),
  item('tool','tools',{pageTitle:'Mapping software',evidenceText:'Interactive mapping software that lets journalists create and share maps. Free plan available; paid tiers are described on the pricing page.',structuredData:[]}),
+ item('browser-automation','tools',{pageTitle:'Selenium',pageDescription:'Selenium is a browser automation tool. Install the Python package.',evidenceText:'Browser automation tool. Official documentation and free download.',structuredData:[]}),
+ item('graphics-framework','tools',{pageTitle:'Layer Cake',pageDescription:'A framework for mostly-reusable graphics with Svelte',evidenceText:'Layer Cake is a headless graphics framework. Create responsive graphics online. Open source.',structuredData:[]}),
  item('maps-blog','tools',{pageTitle:'Maps Mania',pageDescription:'Maps Mania is a blog dedicated to tracking interactive maps and the tools used to create them.',evidenceText:'Interactive mapping software and tools. Free browser access.',structuredData:[{'@type':'BlogPosting'}]},'https://googlemapsmania.blogspot.com/'),
  item('investigation-podcast','tools',{pageTitle:'Show & Tell from Indicator',pageDescription:'Watch browser extensions in action as investigators navigate tools. Online episodes.',evidenceText:'Free tools for data analysis in digital investigations.',structuredData:[{'@type':'PodcastSeries'}]},'https://open.spotify.com/show/4evRBUG1V8BkbrkmoZZTZf'),
  item('software-with-blog-link','tools',{pageTitle:'Example mapping software',pageDescription:'Interactive mapping software. Free browser access. Read our blog.',evidenceText:'Create interactive maps online. Free access.',structuredData:[{'@type':'SoftwareApplication',applicationCategory:'Mapping'},{'@type':'BlogPosting'}]}),
@@ -49,6 +51,7 @@ try{
  for(const id of ['dataset-zip','dataset-xlsx','dataset-api-host'])assert.equal(result.records.find(x=>x.id===id).decision,'evidence_complete_for_record_draft');
  assert.equal(result.records.find(x=>x.id==='dataset-generic-indicator').decision,'pending_more_evidence');
  assert.equal(result.records.find(x=>x.id==='tool').decision,'evidence_complete_for_record_draft');
+ for(const id of ['browser-automation','graphics-framework'])assert.equal(result.records.find(x=>x.id===id).decision,'evidence_complete_for_record_draft');
  for(const id of ['maps-blog','investigation-podcast'])assert.equal(result.records.find(x=>x.id===id).decision,'pending_more_evidence');
  assert.equal(result.records.find(x=>x.id==='software-with-blog-link').decision,'evidence_complete_for_record_draft');
  assert.equal(result.records.find(x=>x.id==='design-tool').decision,'evidence_complete_for_record_draft');
