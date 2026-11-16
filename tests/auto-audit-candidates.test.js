@@ -76,3 +76,20 @@ test('legacy dataset and tool metadata without v1 proof remain blocked',()=>{
   assert.equal(out.decisions.length,0);assert.equal(out.summary.autoApproved,0);assert.equal(out.summary.blocked,2);assert.match(JSON.stringify(out.summary.byBlocker),/comprovante individual compatível/);
  }finally{fs.rmSync(d,{recursive:true,force:true})}
 });
+
+test('dataset without a usable format cannot poison the publication manifest',()=>{
+ const d=fs.mkdtempSync(path.join(os.tmpdir(),'radar-dataset-contract-'));
+ try{
+  fs.mkdirSync(path.join(d,'intake'));fs.mkdirSync(path.join(d,'scripts'));
+  for(const name of ['auto-audit-candidates','editorial-text'])fs.copyFileSync('scripts/'+name+'.js',path.join(d,'scripts',name+'.js'));
+  const url='https://official.example/dataset';
+  const record={id:'unverified-format',name:'Official dataset',org:'Official agency',kind:'dataset',coverage:'National economic data',limitations:'Check methodology',docs:url,url,format:''};
+  const lead={url,finalUrl:url,category:'datasets',pageStatus:'html-fetched',publicationRecord:record,publicationReviewV1:publicationReviewV1('datasets',url)};
+  fs.writeFileSync(path.join(d,'intake/lead-evidence.json'),JSON.stringify({results:[lead]}));
+  fs.writeFileSync(path.join(d,'intake/editorial-review.json'),JSON.stringify({candidates:[]}));
+  cp.execFileSync(process.execPath,['scripts/auto-audit-candidates.js'],{cwd:d});
+  const out=JSON.parse(fs.readFileSync(path.join(d,'intake/auto-editorial-decisions.json')));
+  assert.equal(out.decisions.length,0);
+  assert.equal(out.summary.byBlocker['formato de acesso da base não comprovado'],1);
+ }finally{fs.rmSync(d,{recursive:true,force:true})}
+});
