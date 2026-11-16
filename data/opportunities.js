@@ -1,6 +1,39 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.opportunities=[
 {
+  "id": "auto-0a986873541a195f",
+  "title": "Spencer Fellowship for Education Reporting 2027 (Funded)",
+  "org": "Opportunity Desk",
+  "summary": "Deadline: February 4, 2027 Do you have a great idea for an education-related journalism project? Do you need the time and resources to complete it? Apply for the Spencer Fellowship for Education Reporting 2027 . The Spencer Fellowship for Education Reporting is open to journalists and educators who want to develop and publish an ambitious long-form journalism project that advances public understanding of education. Four fellows will be selected for this yearlong program based at Columbia Journalism School. The fellowship combines study and research with advising from faculty experts at Columbia, Teachers College and elsewhere. Financial Support Each residential fellow receives an $85,000 scholarship for personal living expenses. The scholarship is dispensed in four quarters over the course of the academic year. In addition, each fellow receives $7,500 for the year in project expenses, al",
+  "type": "Oportunidade editorial",
+  "themes": [
+    "Oportunidade editorial"
+  ],
+  "scope": "open to journalists and educators who want to develop and publish an ambitious long-form journalism project that advances public understanding of education",
+  "deadline": "2027-02-04",
+  "deadlineStatus": "prazo extraído de metadado estruturado da fonte oficial; horário e condições devem ser conferidos na página",
+  "eligibility": "parcial",
+  "fit": 5,
+  "status": "aberta",
+  "value": "Não informado na fonte estruturada",
+  "duration": "Não informado na fonte estruturada",
+  "modality": "Não especificado",
+  "documents": [],
+  "restrictions": [],
+  "rules": "https://opportunitydesk.org/2026/11/06/spencer-fellowship-for-education-reporting-2027/",
+  "apply": "https://opportunitydesk.org/2026/11/06/spencer-fellowship-for-education-reporting-2027/",
+  "verified": "2026-11-16",
+  "desc": "Deadline: February 4, 2027 Do you have a great idea for an education-related journalism project? Do you need the time and resources to complete it? Apply for the Spencer Fellowship for Education Reporting 2027 . The Spencer Fellowship for Education Reporting is open to journalists and educators who want to develop and publish an ambitious long-form journalism project that advances public understanding of education. Four fellows will be selected for this yearlong program based at Columbia Journalism School. The fellowship combines study and research with advising from faculty experts at Columbia, Teachers College and elsewhere. Financial Support Each residential fellow receives an $85,000 scholarship for personal living expenses. The scholarship is dispensed in four quarters over the course of the academic year. In addition, each fellow receives $7,500 for the year in project expenses, al",
+  "discoveryUrl": "https://opportunitydesk.org/2026/11/06/spencer-fellowship-for-education-reporting-2027",
+  "verificationHistory": [
+    {
+      "date": "2026-11-16",
+      "status": "aberta",
+      "source": "https://opportunitydesk.org/2026/11/06/spencer-fellowship-for-education-reporting-2027/"
+    }
+  ]
+}, 
+{
   "id": "auto-dd02e3a4796ccaa2",
   "title": "California Health Equity Fellowship",
   "org": "USC Center for Health Journalism",

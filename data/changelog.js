@@ -2,6 +2,18 @@ window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
 {
   "date": "2026-11-16",
+  "type": "nova-oportunidade",
+  "title": "Publicação editorial verificada — 2026-11-16",
+  "items": [
+    {
+      "id": "auto-0a986873541a195f",
+      "title": "Spencer Fellowship for Education Reporting 2027 (Funded)"
+    }
+  ],
+  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Spencer Fellowship for Education Reporting 2027 (Funded)."
+}, 
+{
+  "date": "2026-11-16",
   "type": "ferramentas",
   "title": "Publicação editorial verificada — 2026-11-16",
   "items": [
