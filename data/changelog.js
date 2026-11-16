@@ -7,18 +7,18 @@ window.RADAR_PARTS.changelog=[
   "items": [
     {
       "id": "auto-c1482ab524e0671e",
-      "title": "Tanzania - Demographic and Health Survey and Malaria Indicator..."
+      "title": "Tanzania - Demographic and Health Survey and Malaria Indicator Survey 2022"
     },
     {
       "id": "auto-8729547975882e61",
-      "title": "Ethiopia - High Frequency Phone Survey 2020-2024 - World Bank..."
+      "title": "Ethiopia - High Frequency Phone Survey 2020-2024"
     },
     {
       "id": "auto-52f25ff193fed5e5",
       "title": "World Bank Data Catalog"
     }
   ],
-  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Tanzania - Demographic and Health Survey and Malaria Indicator...; Ethiopia - High Frequency Phone Survey 2020-2024 - World Bank...; World Bank Data Catalog."
+  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Tanzania - Demographic and Health Survey and Malaria Indicator Survey 2022; Ethiopia - High Frequency Phone Survey 2020-2024; World Bank Data Catalog."
 },
 {
   "date": "2026-11-16",
