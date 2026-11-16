@@ -125,6 +125,9 @@ const allCalls=[...D.opportunities,...insertions.opportunities];
 const primaryKeys=new Set(allCalls.filter(primaryCall).map(editionKey).filter(Boolean));
 const aliases=[...allCalls,...source.approved.filter(x=>x.category==='opportunities').map(x=>x.record)].filter(x=>aggregator(x)&&primaryKeys.has(editionKey(x)));
 const duplicateAliases=new Set(aliases.map(x=>x.id));
+const publicationAliases=[...new Map(aliases.map(alias=>[alias.id,{category:'opportunities',id:alias.id,primaryId:allCalls.find(call=>primaryCall(call)&&editionKey(call)===editionKey(alias)).id}])).values()];
+fs.mkdirSync('intake',{recursive:true});
+fs.writeFileSync('intake/publication-aliases.json',JSON.stringify({aliases:publicationAliases},null,2)+'\n');
 if(duplicateAliases.size){
  D.opportunities=D.opportunities.filter(x=>!duplicateAliases.has(x.id));
  insertions.opportunities=insertions.opportunities.filter(x=>!duplicateAliases.has(x.id));
@@ -168,4 +171,4 @@ const updates=Object.values(spec).map(rule=>({rule,items:log.filter(x=>x.type===
  detail:'Registros aprovados individualmente com documentação oficial e evidência editorial: '+items.map(x=>x.title).join('; ')+'.'
 }));
 prepend('data/changelog.js','changelog',updates);
-console.log(JSON.stringify({date:today,approved:source.approved.length,published:log.length,archived,duplicateAliasesRemoved:duplicateAliases.size,alreadyPresent:source.approved.length-log.length,byCategory:Object.fromEntries(Object.entries(insertions).map(([k,v])=>[k,v.length]))}));
+console.log(JSON.stringify({date:today,approved:source.approved.length,published:log.length,archived,publicationAliases,duplicateAliasesRemoved:duplicateAliases.size,alreadyPresent:source.approved.length-log.length,byCategory:Object.fromEntries(Object.entries(insertions).map(([k,v])=>[k,v.length]))}));
