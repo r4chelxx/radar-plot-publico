@@ -74,7 +74,7 @@ function normalizeToolName(title,text,url){
  try{
   const u=new URL(url);
   if(/(^|\.)r-project\.org$/.test(u.hostname)){
-   const pkg=u.searchParams.get('package')||u.pathname.match(/\/packages\/([A-Za-z][A-Za-z0-9.]{0,79})(?:\/|$)/)?.[1];
+   const pkg=u.searchParams.get('package')||u.pathname.match(/^\/package=([A-Za-z][A-Za-z0-9.]{0,79})\/?$/)?.[1]||u.pathname.match(/\/packages\/([A-Za-z][A-Za-z0-9.]{0,79})(?:\/|$)/)?.[1];
    if(pkg&&/^[A-Za-z][A-Za-z0-9.]{0,79}$/.test(pkg))return pkg;
   }
  }catch{}
