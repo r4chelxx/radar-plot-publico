@@ -19,6 +19,8 @@ assert.equal(result.structuredData[0].distribution.encodingFormat,'text/csv');
 assert.equal(result.structuredData[0].license,'https://creativecommons.org/publicdomain/zero/1.0/');
 assert.deepEqual(result.resourceLinks,[{url:'https://example.org/datasets/municipal.csv',label:'Download municipal dataset'}]);
 const malformed=extractEvidence('<script type="application/ld+json">{bad}</script><p>Still readable &amp; safe</p>');
+const files=extractEvidence('<a href="/results.xlsx">Planilhas</a><a href="/maps.tif">Raster</a><a href="/boundaries.gpkg">Limites</a>','https://official.example/');
+assert.equal(files.resourceLinks.length,3);
 assert.equal(malformed.structuredData.length,0);
 assert.match(malformed.evidenceText,/Still readable & safe/);
 const oversized=extractEvidence('<p>'+('x'.repeat(25000))+'</p>');
