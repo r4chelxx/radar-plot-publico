@@ -146,7 +146,7 @@ function buildDrafts(queue,review,generatedAt=new Date().toISOString()){
    record.granularity=sentence(text,/(?:record-level|individual records|row-level|granular|microdata|microdados|nível de registro)/i)||unknown;
    record.geoUnit=clean(data.spatialCoverage)||sentence(text,/(?:municipal|city|county|state|province|national|global|munic[ií]pio|estado|pa[ií]s)/i)||unknown;
    const resources=(audit.resourceLinks||[]).filter(x=>/^https:\/\//i.test(x.url||''));
-   const resource=resources.find(x=>fileFormat.test(x.url))||resources.find(x=>/\/(?:api|download|data|datasets?)(?:\/|$)/i.test(new URL(x.url).pathname)&&x.url!==url),distribution=data.distribution||{};
+   const resource=resources.find(x=>fileFormat.test(x.url))||resources.find(x=>(/\/(?:api|download|data|datasets?)(?:\/|$)/i.test(new URL(x.url).pathname)||(/^api\./i.test(new URL(x.url).hostname)&&/\bAPI\b/i.test(x.label||'')))&&x.url!==url),distribution=data.distribution||{};
    record.api=distribution.contentUrl||distribution.url||resource?.url||null;
    record.docs=url;
    record.limitations='A página consultada não detalha todas as limitações, a atualização e a qualidade do recurso; conferir documentação e licença antes do uso editorial.';
