@@ -6,6 +6,7 @@ test('catalog-compatible rolling calls and HTML datasets traverse review, drafti
  const {extractEvidence,rollingApplicationEvidence}=require('../scripts/editorial-page-evidence');
  assert.equal(rollingApplicationEvidence('Applications are reviewed on a rolling basis until February 22, 2099.'),false);
  assert.equal(rollingApplicationEvidence('The Center is accepting applications on a rolling basis.'),true);
+ assert.equal(rollingApplicationEvidence('Deadline: Ongoing Eligibility Criteria: journalists worldwide.'),true);
  assert.deepEqual(extractEvidence('<table><tr><td>Layout</td><td>Menu</td></tr><tr><td>A</td><td>B</td></tr><tr><td>C</td><td>D</td></tr></table>').tabularData,[]);
  const {canonical}=require('../scripts/lead-identity');
  const {normalizeToolName}=require('../scripts/build-editorial-record-drafts');

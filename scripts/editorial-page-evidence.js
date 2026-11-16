@@ -57,6 +57,7 @@ function extractEvidence(html,baseUrl=''){
  return {evidenceText:visible,structuredData:jsonLd,resourceLinks,tabularData};
 }
 function rollingApplicationEvidence(text){
+ if(/\b(?:deadline|prazo)\s*:\s*(?:ongoing|rolling|continuous|fluxo cont[ií]nuo)\b/i.test(String(text||'')))return true;
  return String(text||'').split(/(?<=[.!?])\s+/).some(sentence=>
   /\b(?:applications?|apply|submissions?|proposals?|pitches|candidaturas?|inscri[cç][oõ]es)\b/i.test(sentence)
   &&(/\b(?:no (?:(?:fixed|specific) )?(?:application |closing )?(?:deadline|date)|sem (?:prazo|data) (?:final|limite)|fluxo cont[ií]nuo|(?:accepted|accepts?|open|recebidas?|abertas?)\b.{0,60}(?:year.round|todo o ano))\b/i.test(sentence)
