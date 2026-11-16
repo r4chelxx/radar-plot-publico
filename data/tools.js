@@ -1,6 +1,13 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.tools=[
 {
+  "id": "c6759019fe5266bd71d3bafd3ed26a4886df16ed8d2af2cf05be2aab0fdbd3e4",
+  "name": "Buttondown",
+  "kind": "BusinessApplication",
+  "url": "https://buttondown.com/",
+  "desc": "Newsletter software for people like you. Everyone from Pulitzer Prize winners and Fortune 500s to study groups and first-time authors love Buttondown. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
+}, 
+{
   "id": "auto-fa6ac7a7425587ac",
   "name": "Reporting Tools",
   "kind": "biblioteca de software",
