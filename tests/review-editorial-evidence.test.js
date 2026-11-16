@@ -11,6 +11,9 @@ try{
  item('fake-grant','opportunities',{evidenceText:'Welcome to our news blog about awards.',structuredData:[]}),
  item('dataset','datasets',{evidenceText:'',structuredData:[{'@type':'Dataset',name:'City data',license:'CC0',temporalCoverage:'2020/2025',distribution:{contentUrl:'https://example.org/data.csv',encodingFormat:'text/csv'}}]}),
  item('tool','tools',{pageTitle:'Mapping software',evidenceText:'Interactive mapping software that lets journalists create and share maps. Free plan available; paid tiers are described on the pricing page.',structuredData:[]}),
+ item('maps-blog','tools',{pageTitle:'Maps Mania',pageDescription:'Maps Mania is a blog dedicated to tracking interactive maps and the tools used to create them.',evidenceText:'Interactive mapping software and tools. Free browser access.',structuredData:[{'@type':'BlogPosting'}]},'https://googlemapsmania.blogspot.com/'),
+ item('investigation-podcast','tools',{pageTitle:'Show & Tell from Indicator',pageDescription:'Watch browser extensions in action as investigators navigate tools. Online episodes.',evidenceText:'Free tools for data analysis in digital investigations.',structuredData:[{'@type':'PodcastSeries'}]},'https://open.spotify.com/show/4evRBUG1V8BkbrkmoZZTZf'),
+ item('software-with-blog-link','tools',{pageTitle:'Example mapping software',pageDescription:'Interactive mapping software. Free browser access. Read our blog.',evidenceText:'Create interactive maps online. Free access.',structuredData:[{'@type':'SoftwareApplication',applicationCategory:'Mapping'},{'@type':'BlogPosting'}]}),
  item('design-tool','tools',{pageTitle:'Figma',evidenceText:'Figma is a collaborative design and prototyping platform. Create, share and review designs online.',structuredData:[]}),
  item('python-metadata','tools',{pageTitle:'Python',pageDescription:'Python is a programming language that lets you work quickly. Free and open source.',evidenceText:'',structuredData:[]}),
  item('contest-entries','opportunities',{pageTitle:'2026 Data Journalism Competition',evidenceText:'Competition entries close 2099-12-31. Who can participate: journalists worldwide.',structuredData:[]}),
@@ -40,6 +43,8 @@ try{
  assert.equal(result.records.find(x=>x.id==='fake-grant').decision,'pending_more_evidence');
  assert.equal(result.records.find(x=>x.id==='dataset').decision,'evidence_complete_for_record_draft');
  assert.equal(result.records.find(x=>x.id==='tool').decision,'evidence_complete_for_record_draft');
+ for(const id of ['maps-blog','investigation-podcast'])assert.equal(result.records.find(x=>x.id===id).decision,'pending_more_evidence');
+ assert.equal(result.records.find(x=>x.id==='software-with-blog-link').decision,'evidence_complete_for_record_draft');
  assert.equal(result.records.find(x=>x.id==='design-tool').decision,'evidence_complete_for_record_draft');
  assert.equal(result.records.find(x=>x.id==='tool').checks.licenseStatus,'not stated in captured source');
  assert.equal(result.records.find(x=>x.id==='python-metadata').decision,'evidence_complete_for_record_draft');
