@@ -3,6 +3,7 @@
 // Conservative, evidence-based triage. "Complete" means eligible for record drafting only;
 // it never grants publication approval.
 const fs=require('node:fs');
+const {rollingApplicationEvidence}=require('./editorial-page-evidence');
 const queuePath=process.argv[2]||'intake/editorial-queue.json';
 const outPath=process.argv[3]||'intake/editorial-evidence-review.json';
 const q=JSON.parse(fs.readFileSync(queuePath,'utf8'));
@@ -22,9 +23,11 @@ function toolIdentity(c,title,docs){
  const editorialDescription=/\b(?:is a blog|blog dedicated to|listen to .{0,180} on spotify)\b/i.test(String(c.audit?.pageDescription||''));
  const audioPage=/^https:\/\/(?:open\.spotify\.com\/(?:show|episode)\/|podcasts\.apple\.com\/)/i.test(String(c.url||''));
  if(audioPage||(!structured&&(editorialIdentity||editorialDescription)))return false;
+ let cranPackage=false;
+ try{const u=new URL(c.audit?.finalUrl||c.url);cranPackage=/(^|\.)r-project\.org$/.test(u.hostname)&&(/^[A-Za-z][A-Za-z0-9.]{0,79}$/.test(u.searchParams.get('package')||'')||/^\/package=[A-Za-z][A-Za-z0-9.]{0,79}\/?$|\/packages\/[A-Za-z][A-Za-z0-9.]{0,79}(?:\/|$)/.test(u.pathname));}catch{}
  const newsletterSource=/Gmail Radar PLOT/i.test([c.sourceName||'',...(c.providers||[])].join(' '));
  const surface=[newsletterSource?'':title,newsletterSource?'':String(c.title||''),String(c.url||'').split('/').filter(Boolean).slice(-1)[0]||'',String(c.audit?.pageTitle||''),String(c.audit?.pageDescription||'')].join(' ');
- return structured||(!excluded.test(surface)&&/(software|tool|platform|application|library|framework|plugin|extension|programming language|statistical computing|ferramenta|plataforma|aplicativo|biblioteca)/i.test(surface));
+ return structured||cranPackage||(!excluded.test(surface)&&/(software|tool|platform|application|library|framework|plugin|extension|programming language|statistical computing|ferramenta|plataforma|aplicativo|biblioteca)/i.test(surface));
 }
 function toolFunction(text,docs){
  if(/\b(?:browser automation tool|automates browsers|(?:headless )?graphics framework|javascript 3d library|create responsive graphics)\b/i.test(text))return true;
@@ -51,7 +54,7 @@ function inferCategory(c,text,title){
  if(opportunity&&deadline&&eligibility)return 'opportunities';
  const dataset=/(dataset|data catalog|open data|dados abertos|base de dados|microdata|microdados|data portal)/i.test(title+' '+text);
  const datasetNoise=/(?:podcast|youtube|ranking|rankings|top ai companies|newsletter|blog|article|press release)/i.test(title+' '+text+' '+url);
- const dataAccess=/(download|\.csv|\.json|\.zip|api endpoint|api access|bulk data|baixar|export data)/i.test(text+' '+url);
+ const dataAccess=/(download|\.csv|\.json|\.zip|api endpoint|api access|bulk data|baixar|export data)/i.test(text+' '+url)||(c.audit?.tabularData||[]).some(x=>x.rows>=3&&x.columns>=2);
  if(dataset&&dataAccess&&!datasetNoise)return 'datasets';
  const tool=toolIdentity(c,title,c.audit?.structuredData||[]);
  const productFunction=toolFunction(text,c.audit?.structuredData||[]);
@@ -69,10 +72,11 @@ function dateCandidates(text){
  return [...new Set(out)].filter(d=>{const x=new Date(d+'T00:00:00Z');return !Number.isNaN(x.valueOf())&&x.toISOString().slice(0,10)===d});
 }
 function actionableOpportunity(title,text){
- const noun=/\b(grant|fellowship|funding|scholarship|journalism award|award|prize|contest|competition|bolsa|edital|financiamento|premia[cç][aã]o|pr[eê]mio|concurso)\b/i;
+ const noun=/\b(grants?|fellowships?|funding|scholarships?|journalism awards?|awards?|prizes?|contests?|competitions?|bolsas?|editais|edital|financiamento|premia[cç][aã]o|pr[eê]mios?|concursos?|mentorship|mentoria|journalism training|reporting workshop|journalism internship|journalism residency|pitches|pitch)\b/i;
  const action=/\b(applications?\b[^.!?]{0,100}\b(?:open|accepted|closing|close|closes|closed|deadline)|call for (?:applications?|entries?|submissions?|proposals?)|apply(?:ing)?(?: now| today| by)?|enter(?: now| by)?|submit (?:an? )?(?:application|proposal|entry|entries|story)|entries? (?:are )?(?:open|accepted|closing|close|closes|closed)|submissions? (?:are )?(?:open|accepted|closing|close|closes|closed)|inscri[cç][oõ]es? abertas|candidaturas? abertas|candidatar-se até|submiss[oõ]es? abertas)\b/i;
  const sentences=String(text||'').split(/(?<=[.!?])\s+/);
- return (noun.test(title||'')&&action.test(text||''))||sentences.some(s=>noun.test(s)&&action.test(s));
+ const pitchAction=/\b(?:accept(?:s|ing)? (?:freelance )?pitches|pitch us|send (?:us )?(?:your )?pitch|pitches (?:are )?(?:open|accepted))\b/i;
+ return (noun.test(title||'')&&(action.test(text||'')||pitchAction.test(text||'')))||sentences.some(s=>noun.test(s)&&(action.test(s)||pitchAction.test(s)));
 }
 function structuredDeadline(docs){
  const fields=['applicationDeadline','closingDate','validThrough','deadline','endDate'];
@@ -112,7 +116,8 @@ function review(c){
   checks.eligibility=/\b(eligib|eligible|eligibility|who can apply|who can enter|who can participate|participants must|entry requirements|age(?:d)? 18 and up|18 years and older|globally may enter|open to|elegibilidade|elegível|podem se candidatar)\b/i.test(text);
   if(/\b(?:applications?|submissions?|entries?)\s+(?:are\s+)?(?:now\s+)?closed\b|inscri[cç][oõ]es\s+encerradas/i.test(text))missing.push('chamada explicitamente encerrada');
   if(!checks.callSignal)missing.push('chamada de financiamento/bolsa identificável');
-  if(!checks.deadline)missing.push('prazo futuro confirmado em formato de data reconhecido');
+  checks.rolling=!checks.deadline&&rollingApplicationEvidence(text);
+  if(!checks.deadline&&!checks.rolling)missing.push('prazo futuro ou fluxo contínuo confirmado na chamada');
   if(!checks.eligibility)missing.push('elegibilidade expressa na fonte');
  }else if(category==='datasets'){
   const d=ld.find(x=>/dataset/.test(x.type))?.data;
@@ -122,8 +127,11 @@ function review(c){
   const fileFormat=/\.(?:csv|tsv|json|geojson|xml|parquet|zip|xlsx?|gpkg|geotiff|tiff?|vrt)(?:$|[?#])/i;
   const linkedResource=(a.resourceLinks||[]).some(x=>{const u=String(x.url||'');return fileFormat.test(u)||((/\/(?:api|download|dataset|datasets|data)(?:\/|$)/i.test(u)||/^https:\/\/api\./i.test(u))&&/download|dataset|data|api/i.test(String(x.label||'')));});
   checks.directResource=!!(distribution&&/https?:\/\//i.test(flat(distribution)))||linkedResource;
+  checks.webAccess=(a.tabularData||[]).some(x=>x.rows>=3&&x.columns>=2)&&!excludedPath.test(new URL(c.url).pathname);
+  checks.directResource=checks.directResource||checks.webAccess;
   checks.format=!!(distribution&&/(csv|json|xml|parquet|zip|xlsx?|gpkg|geotiff|tiff?|vrt|api)/i.test(flat(distribution)))||/\b(csv|tsv|json|xml|parquet|shapefile|geojson|zip|xlsx?|gpkg|geotiff|tiff?|vrt)\b/i.test(text)||(a.resourceLinks||[]).some(x=>fileFormat.test(String(x.url||'')));
   checks.coverage=!!(d?.temporalCoverage||d?.spatialCoverage)||/(\b20\d{2}\b|annual|monthly|municipal|national|global|covering|cobre|abrange)/i.test(text);
+  checks.format=checks.format||checks.webAccess;
   checks.license=!!(d?.license)||/(license|licen[çc]a|cc by|cc0|public domain|terms of use)/i.test(text);
   checks.licenseStatus=checks.license?'stated':'not stated in captured source';
   if(!checks.datasetSignal)missing.push('evidência de conjunto ou catálogo de dados');

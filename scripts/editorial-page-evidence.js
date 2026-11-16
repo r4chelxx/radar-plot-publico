@@ -46,6 +46,21 @@ function extractEvidence(html,baseUrl=''){
   .replace(/<(script|style|noscript|svg|template|header|footer|nav)\b[^>]*>[\s\S]*?<\/\1\s*>/gi,' ')
   .replace(/<[^>]+>/g,' ')
   .replace(/\s+/g,' ')).trim().slice(0,20000);
- return {evidenceText:visible,structuredData:jsonLd,resourceLinks};
+ const tabularData=[];
+ const tableSource=source.replace(/<(script|style|template)\b[^>]*>[\s\S]*?<\/\1\s*>/gi,' ');
+ for(const table of tableSource.matchAll(/<table\b[^>]*>([\s\S]*?)<\/table>/gi)){
+  const rows=[...table[1].matchAll(/<tr\b[^>]*>([\s\S]*?)<\/tr>/gi)];
+  const columns=Math.max(0,...rows.map(r=>(r[1].match(/<(?:td|th)\b/gi)||[]).length));
+  if(rows.length>=3&&columns>=2&&(table[1].match(/<th\b/gi)||[]).length>=2)tabularData.push({rows:rows.length,columns});
+  if(tabularData.length>=5)break;
+ }
+ return {evidenceText:visible,structuredData:jsonLd,resourceLinks,tabularData};
 }
-module.exports={extractEvidence};
+function rollingApplicationEvidence(text){
+ return String(text||'').split(/(?<=[.!?])\s+/).some(sentence=>
+  /\b(?:applications?|apply|submissions?|proposals?|pitches|candidaturas?|inscri[cç][oõ]es)\b/i.test(sentence)
+  &&(/\b(?:no (?:(?:fixed|specific) )?(?:application |closing )?(?:deadline|date)|sem (?:prazo|data) (?:final|limite)|fluxo cont[ií]nuo|(?:accepted|accepts?|open|recebidas?|abertas?)\b.{0,60}(?:year.round|todo o ano))\b/i.test(sentence)
+   ||/\b(?:applications?|submissions?|proposals?|pitches)\b.{0,100}\b(?:accepted|accepting|reviewed|considered|received)\b.{0,40}\b(?:on a )?rolling basis\b(?![^.!?]*(?:until|through|before|by\s+\d))/i.test(sentence)
+   ||/\baccepting (?:applications?|submissions?|proposals?|pitches)\b.{0,60}\bon a rolling basis\b(?![^.!?]*(?:until|through|before|by\s+\d))/i.test(sentence)));
+}
+module.exports={extractEvidence,rollingApplicationEvidence};
