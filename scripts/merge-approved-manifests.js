@@ -8,7 +8,12 @@ function mergeApprovedManifests(current,incoming){
   const key=(entry.category||'')+':'+(entry.record?.id||entry.review?.officialUrl||'');
   const existing=byKey.get(key)||byOfficial.get(entry.review?.officialUrl);
   if(existing){
-   if(JSON.stringify(existing)!==JSON.stringify(entry))throw Error('Conflicting approved publication entry: '+key);
+   if(JSON.stringify(existing)!==JSON.stringify(entry)){
+    const facts=item=>{const record={...item.record};delete record.name;delete record.title;return {...item,record};};
+    // An older snapshot must not undo a verified display-name correction.
+    // Identity, source, evidence/hash and every other field must still match.
+    if(JSON.stringify(facts(existing))!==JSON.stringify(facts(entry)))throw Error('Conflicting approved publication entry: '+key);
+   }
    continue;
   }
   merged.approved.push(entry);byKey.set(key,entry);if(entry.review?.officialUrl)byOfficial.set(entry.review.officialUrl,entry);
