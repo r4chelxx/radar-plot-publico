@@ -2,6 +2,44 @@
 const test=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),os=require('node:os'),path=require('node:path'),cp=require('node:child_process');
 const {buildDrafts}=require('../scripts/build-editorial-record-drafts');
 const {buildAutomaticPublications}=require('../scripts/build-automated-publications');
+test('catalog-compatible rolling calls and HTML datasets traverse review, drafting, approval and publication',()=>{
+ const {extractEvidence,rollingApplicationEvidence}=require('../scripts/editorial-page-evidence');
+ assert.equal(rollingApplicationEvidence('Applications are reviewed on a rolling basis until February 22, 2099.'),false);
+ assert.equal(rollingApplicationEvidence('The Center is accepting applications on a rolling basis.'),true);
+ assert.deepEqual(extractEvidence('<table><tr><td>Layout</td><td>Menu</td></tr><tr><td>A</td><td>B</td></tr><tr><td>C</td><td>D</td></tr></table>').tabularData,[]);
+ const {canonical}=require('../scripts/lead-identity');
+ const {normalizeToolName}=require('../scripts/build-editorial-record-drafts');
+ assert.equal(canonical('https://cran.r-project.org/?package=fedmatch&utm_source=email'),'https://cran.r-project.org/?package=fedmatch');
+ assert.equal(normalizeToolName('R','',canonical('https://cran.r-project.org/?package=fedmatch')),'fedmatch');
+ assert.notEqual(canonical('https://cran.r-project.org/?package=fedmatch'),canonical('https://cran.r-project.org/?package=readr'));
+ assert.equal(canonical('https://example.org/?package=private-value'),'https://example.org/');
+ const root=fs.mkdtempSync(path.join(os.tmpdir(),'radar-catalog-compat-'));
+ try{
+  const at=new Date().toISOString();
+  const call='Organization: Example Foundation. This reporting grant funds original investigative journalism by experienced reporters working on public-interest projects worldwide. Applications are accepted year-round with no deadline. Eligibility: open to journalists worldwide with a detailed reporting proposal.';
+  const item=(id,category,title,text,extra={})=>({id,url:'https://official.example/'+id,category,status:'pending',audit:{pageTitle:title,pageDescription:text,evidenceText:text,httpStatus:200,contentType:'text/html',checkedAt:at,structuredData:[],...extra}});
+  const table=extractEvidence('<table><tr><th>Country</th><th>Value</th></tr><tr><td>A</td><td>12</td></tr><tr><td>B</td><td>23</td></tr></table>','https://official.example/table');
+  const q={candidates:[item('rolling','opportunities','Investigative journalism grant',call),item('unknown-date','opportunities','Investigative journalism grant',call.replace('Applications are accepted year-round with no deadline.','Applications are open; deadline to be announced.')),item('closed','opportunities','Investigative journalism grant',call+' Applications are closed.'),item('html-data','datasets','Global public services dataset','Organization: Statistics Institute. This dataset covers global public service indicators for 2025, presented as a public table that users may consult online. Detailed methodology and coverage are provided.',{tabularData:table.tabularData}),item('mentorship','uncategorized','Journalism mentorship programme','Organization: Example Foundation. This journalism mentorship supports experienced reporters with expert editorial guidance and professional development. Applications close 2099-12-31. Eligibility: open to journalists worldwide.') ]};
+  fs.writeFileSync(root+'/queue.json',JSON.stringify(q));
+  cp.execFileSync(process.execPath,[path.resolve('scripts/review-editorial-evidence.js'),root+'/queue.json',root+'/review.json']);
+  const review=JSON.parse(fs.readFileSync(root+'/review.json'));
+  assert.equal(review.records.find(x=>x.id==='unknown-date').decision,'pending_more_evidence');assert.equal(review.records.find(x=>x.id==='closed').decision,'pending_more_evidence');
+  const drafts=buildDrafts(q,review);assert.equal(drafts.drafts.length,3);
+  const rolling=drafts.drafts.find(x=>x.id==='rolling');assert.equal(rolling.recordDraft.deadline,null);assert(!rolling.missingFields.includes('deadline'));
+  const html=drafts.drafts.find(x=>x.id==='html-data');assert.equal(html.recordDraft.api,null);assert.match(html.recordDraft.format,/HTML/);assert.deepEqual(html.missingFields,[]);
+  const result=buildAutomaticPublications(drafts,{approved:[]});assert.equal(result.summary.automaticallyApproved,3);
+  const known={...rolling.recordDraft,id:'already-published',title:rolling.recordDraft.title.replace(/ /g,' — '),rules:'https://primary.example/grant'};
+  const deduped=buildAutomaticPublications(drafts,{approved:[]},new Date(),[known]);assert.equal(deduped.summary.automaticallyApproved,2);assert.equal(deduped.summary.skipped.duplicate,1);
+  const forged=structuredClone(html);forged.evidence.tabularData=[];assert.equal(buildAutomaticPublications({drafts:[forged]},{approved:[]}).summary.automaticallyApproved,0);
+  fs.mkdirSync(root+'/data');fs.mkdirSync(root+'/intake');for(const key of ['opportunities','datasets','tools','changelog'])fs.writeFileSync(root+'/data/'+key+'.js','window.RADAR_PARTS.'+key+'=[];');
+  fs.writeFileSync(root+'/intake/approved-publications.json',JSON.stringify(result.manifest));
+  const output=JSON.parse(cp.execFileSync(process.execPath,[path.resolve('scripts/publish-approved.js')],{cwd:root,encoding:'utf8'}));assert.deepEqual(output.byCategory,{opportunities:2,datasets:1,tools:0});
+  fs.writeFileSync(root+'/data/tools.js','window.RADAR_PARTS.tools='+JSON.stringify([{id:'r-package',name:'R',url:'https://cran.r-project.org/?package=fedmatch',kind:'pacote R',desc:'Record linkage package for R.'},{id:'r-language',name:'R',url:'https://www.r-project.org/',kind:'linguagem',desc:'Statistical computing.'}])+';');
+  const second=JSON.parse(cp.execFileSync(process.execPath,[path.resolve('scripts/publish-approved.js')],{cwd:root,encoding:'utf8'}));assert.equal(second.published,0);
+  assert.match(fs.readFileSync(root+'/data/tools.js','utf8'),/"name": "fedmatch"/);
+  assert.match(fs.readFileSync(root+'/data/tools.js','utf8'),/"name": "R"/);
+ }finally{fs.rmSync(root,{recursive:true,force:true})}
+});
 test('public-records request functions pass the publisher without inheriting a newsroom label',()=>{
  const root=fs.mkdtempSync(path.join(os.tmpdir(),'radar-foia-'));
  try{
