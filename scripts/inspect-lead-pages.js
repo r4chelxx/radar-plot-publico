@@ -5,6 +5,7 @@ const {selectBacklog}=require('./select-historical-backlog');
 const {auditCapacity}=require('./audit-capacity');
 const {inspectionHealth}=require('./inspection-health');
 const {extractStructuredMetadata,metadataForLink}=require('./structured-lead-metadata');
+const {extractEvidence}=require('./editorial-page-evidence');
 const input=JSON.parse(fs.readFileSync('intake/candidate-triage.json','utf8'));
 const limit=Math.min(240,Math.max(1,Number(process.env.LEAD_PAGE_LIMIT||240)));
 function decode(value){return String(value||'').replace(/&(?:amp|and);/gi,'&').replace(/&quot;/gi,'"').replace(/&#39;/gi,"'").replace(/&nbsp;/gi,' ').replace(/<[^>]+>/g,' ').replace(/\s+/g,' ').trim();}
@@ -33,7 +34,7 @@ function explicitPageFacts(html){
  const contextualDeadline=isoDate(deadlineMatch?.[1]||'');
  const futureContext=[...text.matchAll(/(?:apply|application|applications|submission|submissions|deadline|closing|close|due|prazo|inscri(?:ção|cao|ções|coes)|candidatura)[^\n.]{0,120}?((?:20\d{2}[-\/.]\d{1,2}[-\/.]\d{1,2})|(?:\d{1,2}[\s-]+(?:jan(?:uary|eiro)?|feb(?:ruary|ruary|eiro)?|mar(?:ch|ço|co)?|apr(?:il|abril)?|may|mai|jun(?:e|ho)?|jul(?:y|ho)?|aug(?:ust|osto)?|sep(?:tember|tembro)?|oct(?:ober|ubro)?|nov(?:ember|embro)?|dec(?:ember|embro)?)[\s,]+20\d{2}))/ig)].map(x=>isoDate(x[1])).filter(Boolean);
  const deadline=contextualDeadline||futureContext.find(x=>x>=new Date().toISOString().slice(0,10))||null;
- const eligibilityMatch=text.match(/(?:eligib(?:ility|le)|who\\s+can\\s+apply|eligible\\s+applicants?|elegibilidade|quem\\s+pod(?:e|em)\\s+se\\s+inscrever|open\\s+to|available\\s+to|for\\s+(?:all\\s+)?(?:journalists?|reporters?|newsrooms?|media\\s+organizations?|researchers?)|jornalistas?|repórteres?|redações?|pesquisadores?)([^.]{0,320})/i);
+ const eligibilityMatch=text.match(/(?:eligib(?:ility|le)|who\s+can\s+apply|eligible\s+applicants?|elegibilidade|quem\s+pod(?:e|em)\s+se\s+inscrever|open\s+to|available\s+to|for\s+(?:all\s+)?(?:journalists?|reporters?|newsrooms?|media\s+organizations?|researchers?)|jornalistas?|repórteres?|redações?|pesquisadores?)([^.]{0,320})/i);
  const eligibility=eligibilityMatch?decode(eligibilityMatch[0]).slice(0,320):null;
  const openMatch=text.match(/\b(?:applications?|submissions?|entries?|inscrições|inscricoes)\s+(?:are\s+)?(?:now\s+)?open\b|\b(?:call|fellowship|grant|award|edital|bolsa)\s+(?:is\s+)?open\b/i);
  const closedMatch=text.match(/\b(?:applications?|submissions?|entries?|inscrições|inscricoes)\s+(?:are\s+)?closed\b|\b(?:call|fellowship|grant|award|edital|bolsa)\s+(?:is\s+)?closed\b/i);
@@ -55,6 +56,7 @@ async function inspect(lead){
   if(!response.ok||!/(text\/html|application\/xhtml\+xml)/i.test(contentType))return {...lead,pageStatus:response.ok?'non-html':'http-error',httpStatus:response.status,finalUrl:response.url||lead.url,editoriallyVerified:false};
   const html=(await response.text()).slice(0,120000);
   const structuredMetadata=extractStructuredMetadata(html,response.url||lead.url);
+  const pageEvidence=extractEvidence(html,response.url||lead.url);
   const metadata=metadataForLink(structuredMetadata,response.url||lead.url)||metadataForLink(structuredMetadata,lead.url)||null;
   const rawTitle=((html.match(/<title[^>]*>([\s\S]*?)<\/title>/i)||[])[1]||'');
  const metadataTitle=metadata?.title||rawTitle;
@@ -64,7 +66,7 @@ async function inspect(lead){
  const facts=explicitPageFacts(html);
  const structuredEvidence={...(metadata||{}),title:cleanTitle(metadata?.title||title,metadata?.organization||lead.source||''),description,...(facts.deadline?{deadline:facts.deadline}:{}),...(facts.eligibility?{eligibility:facts.eligibility,eligibilityExplicit:true}:{}),...(facts.status?{status:facts.status}:{})};
  const dateMentions=[...html.replace(/<script\b[\s\S]*?<\/script>/gi,' ').replace(/<style\b[\s\S]*?<\/style>/gi,' ').replace(/<[^>]+>/g,' ').matchAll(/\b20\d{2}[-\/]\d{2}[-\/]\d{2}\b/g)].slice(0,12).map(x=>x[0]);
- return {...lead,pageStatus:'html-fetched',httpStatus:response.status,contentType,finalUrl:response.url||lead.url,checkedAt:new Date().toISOString(),pageTitle:title,pageDescription:description||null,evidenceText:editorialText(html),structuredEvidence,deadline:lead.deadline||structuredEvidence?.deadline||null,eligibility:lead.eligibility||structuredEvidence?.eligibility||null,status:lead.status||structuredEvidence?.status||null,dateMentionsUnclassified:[...new Set(dateMentions)],fingerprint:crypto.createHash('sha256').update(html).digest('hex').slice(0,16),editoriallyVerified:false};
+ return {...lead,resourceLinks:pageEvidence.resourceLinks,structuredData:pageEvidence.structuredData,pageStatus:'html-fetched',httpStatus:response.status,contentType,finalUrl:response.url||lead.url,checkedAt:new Date().toISOString(),pageTitle:title,pageDescription:description||null,evidenceText:editorialText(html),structuredEvidence,deadline:lead.deadline||structuredEvidence?.deadline||null,eligibility:lead.eligibility||structuredEvidence?.eligibility||null,status:lead.status||structuredEvidence?.status||null,dateMentionsUnclassified:[...new Set(dateMentions)],fingerprint:crypto.createHash('sha256').update(html).digest('hex').slice(0,16),editoriallyVerified:false};
  }catch(e){return {...lead,pageStatus:'fetch-failed',error:String(e).slice(0,200),editoriallyVerified:false}}
  finally{clearTimeout(timer)}
 }
