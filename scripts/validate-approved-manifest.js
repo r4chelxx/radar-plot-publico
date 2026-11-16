@@ -20,7 +20,10 @@ try{
  const records=manifest.approved.map(x=>({category:x.category,id:x.record.id}));
  for(const {category,id} of records){
   const text=fs.readFileSync(path.join(root,'data',category+'.js'),'utf8');
-  if(!text.includes('"id": "'+id+'"')&&!text.includes('"id":"'+id+'"'))throw Error('Approved record missing after dry-run: '+id);
+  const has=key=>text.includes('"id": "'+key+'"')||text.includes('"id":"'+key+'"');
+  const alias=(second.publicationAliases||[]).find(x=>x.category===category&&x.id===id&&x.primaryId!==id);
+  if(!has(id)&&!(alias&&has(alias.primaryId)))throw Error('Approved record missing after dry-run: '+id);
+  if(alias&&has(id))throw Error('Duplicate approved alias remains after dry-run: '+id);
  }
  console.log(JSON.stringify({validated:records.length,newRecords:first.published,idempotent:true,originalCatalogsUnmodified:true}));
 }finally{fs.rmSync(root,{recursive:true,force:true})}
