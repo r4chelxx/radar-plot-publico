@@ -1,17 +1,783 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-15T23:58:03.333Z",
-  "sourceQueueUpdatedAt": "2026-11-15T23:58:02.432Z",
+  "generatedAt": "2026-11-16T04:49:57.941Z",
+  "sourceQueueUpdatedAt": "2026-11-16T04:49:54.291Z",
   "policy": "Evidence-complete drafts only; the separate deterministic evidence gate must independently approve before publication.",
   "summary": {
-    "eligibleForDrafting": 0,
-    "drafts": 0,
+    "eligibleForDrafting": 11,
+    "drafts": 11,
     "byCategory": {
-      "opportunities": 0,
+      "opportunities": 11,
       "datasets": 0,
       "tools": 0
     },
     "publicationReady": 0
   },
-  "drafts": []
+  "drafts": [
+    {
+      "schemaVersion": 1,
+      "id": "bd1d8851290db41bc8fe8a80c4817e9a8c5d98510e358717f1975c864fbd4412",
+      "category": "opportunities",
+      "status": "draft_only",
+      "publicationReady": false,
+      "source": {
+        "url": "https://opportunitydesk.org/2026/10/28/cdc-steven-m-teutsch-prevention-effectiveness-fellowship-2027",
+        "discoveryProviders": [
+          "Opportunity Desk"
+        ],
+        "pageTitle": "CDC Steven M. Teutsch Prevention Effectiveness (PE) Fellowship 2027 (Paid) – Opportunity Desk",
+        "checkedAt": "2026-11-10T20:31:28.952Z",
+        "httpStatus": 200,
+        "contentType": "text/html; charset=UTF-8"
+      },
+      "evidence": {
+        "checks": {
+          "callSignal": true,
+          "deadline": "2027-01-08",
+          "eligibility": true
+        },
+        "sourceExcerpt": "CDC Steven M. Teutsch Prevention Effectiveness (PE) Fellowship 2027 (Paid) – Opportunity Desk Close Menu Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awards Grants Fellowships Jobs Internships Volunteering Blog OD Specials OD Live Series Young Person of the Month Mentorship OD Mentors Success Stories How-To General Tips ODIC 2025 ODIC 2025 Application ODIC Judges ODIC 2025 Winners ODIC 2023 Winners ODIC 2022 Winners ODIC 2021 Winners ODIC 2019 Winners ODIC 2018 Winners ODIC 2017 Winners ODIC 2016 Winners Search Asia Africa Australia and Oceania America Europe Deadlines Approaching Facebook X (Twitter) Instagram Tuesday, November 10 Facebook X (Twitter) LinkedIn Instagram Telegram CDC Steven M. Teutsch Prevention Effectiveness (PE) Fellowship 2027 (Paid) Jude Ogar October 28, 2026 3 Mins Read Facebook Twitter WhatsApp Pinterest LinkedIn Tumblr Email Telegram Deadline: January 8, 2027 Applications are open for the CDC Steven M. Teutsch Prevention Effectiveness (PE) Fellowship 2027 . CDC’s Steven M. Teutsch Prevention Effectiveness (PE) Fellowship is a two-year, post-doctoral, applied training fellowship. It addresses public health demand for quantitative policy analysis, health economics-based inquiry, integrative health services research, and rigorous decision modeling. The Traditional Track is offered for economists and health services researchers. The Analytics and Modeling Track is intended for disease modelers, ecologists, operations researchers, industrial engineers, and applied mathematicians. Since 1995, CDC has recruited and trained more than 300 effective decision scientists through the fellowship. With each new class, the PE Fellowship builds a cadre of scientists whose research provides vital information to decision makers. CDC, congress, and nongovernmental agencies use information on resource allocation to maximize the impact of public health programs. Benefits Fellows are paid at the General Schedule (GS) 12, step 3 level. They receive the same benefits as other federal employees, including medical insurance and leave. Fellows can be eligible for a salary increase after the first year of their fellowship, based on performance and written recommendation by appropriate management officials. Eligibility Applicants must hold a PhD (or equivalent) with all requirements completed before the start of the fellowship. All applicants with degrees obtained at non-US institutions may be asked to provide documentation of an academic credentialing evaluation to ensure degree requirements are equivalent on request. This demonstrates how the foreign degree equates to academic degrees issued in the United States. Additionally, degrees must be translated into English. Applicants must be in one of the following groups to be considered for the program. US citizens US Permanent Residents Non-United States citizens or US Permanent Residents eligible for one of the following visas/work authorizations: OPT STEM extension covering the entire two years of the fellowship (for current F1 visa-holders) TN visa authorized under the current United States-Mexico-Canada Agreement (USMCA) for eligible citizens of Canada and Mexico J1 cultural exchange visa (or J2 visa as spouse of J1-holder) H1B visa Other applicable visa that authorizes work in the US Non-US citizen candidates who advance in the selection process will be contacted to discuss their visa and work authorization. Eligible degrees include the following: Traditional Track Economics Agricultural economics Health services research Public health Other related quantitative field Analytics and Modeling Track Epidemiology Infectious disease modeling Disease ecology Applied mathematics Operations research or industrial engineering Biological science Data science Evolutionary or analytic biology Other related quantita",
+        "structuredData": [
+          {
+            "@type": "Article",
+            "url": "https://opportunitydesk.org/2026/10/28/cdc-steven-m-teutsch-prevention-effectiveness-fellowship-2027/",
+            "publisher": {
+              "@type": "Organization",
+              "name": "Opportunity Desk"
+            },
+            "author": {
+              "@type": "Person",
+              "name": "Jude Ogar",
+              "url": "https://opportunitydesk.org/author/judeogar/"
+            },
+            "datePublished": "2026-10-28T07:17:00+00:00",
+            "dateModified": "2026-10-28T08:42:44+00:00"
+          },
+          {
+            "@type": "BreadcrumbList"
+          }
+        ],
+        "resourceLinks": []
+      },
+      "recordDraft": {
+        "id": "bd1d8851290db41bc8fe8a80c4817e9a8c5d98510e358717f1975c864fbd4412",
+        "title": "CDC Steven M. Teutsch Prevention Effectiveness (PE) Fellowship 2027 (Paid) – Opportunity Desk",
+        "org": null,
+        "summary": "Teutsch Prevention Effectiveness (PE) Fellowship 2027 (Paid) – Opportunity Desk Close Menu Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awards Grants Fellowships Jobs Internships Volunteering Blog OD Specials OD Live Series Young Person of the Month Mentorship OD Mentors Success Stories How-To General Tips ODIC 2025 ODIC 2025 Application ODIC Judges ODIC 2025 Winners ODIC 2023 Winners ODIC 2022 Winners ODIC 2021 Winners ODIC 2019 Winners ODIC 2018 Winners ODIC 2017 Winners ODIC 2016 Winners Search Asia Africa Australia and Oceania America Europe Deadlines Approaching Facebook X (Twitter) Instagram Tuesday, November 10 Facebook X (Twitter) LinkedIn Instagram Telegram CDC Steven M. Teutsch Prevention Effectiveness (PE) Fellowship 2027 (Paid) Jude Ogar October 28, 2026 3 Mins Read Facebook Twitter WhatsApp Pinterest LinkedIn Tumblr Email Telegram Deadline: January 8, 2027 Applications are open for the CDC Steven M. Teutsch Prevention Effectiveness (PE) Fellowship 2027 . Teutsch Prevention Effectiveness (PE) F",
+        "type": "Fellowship",
+        "themes": [
+          "Jornalismo"
+        ],
+        "scope": "Fellows can be eligible for a salary increase after the first year of their fellowship, based on performance and written recommendation by appropriate management officials.",
+        "fit": 6,
+        "deadline": "2027-01-08",
+        "deadlineStatus": "Confirmado na página oficial; fuso horário não informado.",
+        "eligibility": "parcial",
+        "status": "aberta",
+        "rules": "https://opportunitydesk.org/2026/10/28/cdc-steven-m-teutsch-prevention-effectiveness-fellowship-2027",
+        "apply": "https://opportunitydesk.org/2026/10/28/cdc-steven-m-teutsch-prevention-effectiveness-fellowship-2027"
+      },
+      "missingFields": [
+        "org"
+      ],
+      "reviewDecision": "evidence_complete_for_record_draft",
+      "note": "Ficha preliminar baseada no conteúdo capturado da página. Campos sem evidência permanecem ausentes; a aprovação depende do gate independente de publicação."
+    },
+    {
+      "schemaVersion": 1,
+      "id": "d90fb25d11cfd3de2e6dcb0cb8ac7d4dd8fe75bd307da3faf1b9e80da140594b",
+      "category": "opportunities",
+      "status": "draft_only",
+      "publicationReady": false,
+      "source": {
+        "url": "https://opportunitydesk.org/2026/10/29/columbia-hbcu-fellowship-program-fall-2027",
+        "discoveryProviders": [
+          "Opportunity Desk"
+        ],
+        "pageTitle": "Columbia HBCU Fellowship Program Fall 2027 – Opportunity Desk",
+        "checkedAt": "2026-11-10T20:31:28.952Z",
+        "httpStatus": 200,
+        "contentType": "text/html; charset=UTF-8"
+      },
+      "evidence": {
+        "checks": {
+          "callSignal": true,
+          "deadline": "2027-01-07",
+          "eligibility": true
+        },
+        "sourceExcerpt": "Columbia HBCU Fellowship Program Fall 2027 – Opportunity Desk Close Menu Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awards Grants Fellowships Jobs Internships Volunteering Blog OD Specials OD Live Series Young Person of the Month Mentorship OD Mentors Success Stories How-To General Tips ODIC 2025 ODIC 2025 Application ODIC Judges ODIC 2025 Winners ODIC 2023 Winners ODIC 2022 Winners ODIC 2021 Winners ODIC 2019 Winners ODIC 2018 Winners ODIC 2017 Winners ODIC 2016 Winners Search Asia Africa Australia and Oceania America Europe Deadlines Approaching Facebook X (Twitter) Instagram Tuesday, November 10 Facebook X (Twitter) LinkedIn Instagram Telegram Columbia HBCU Fellowship Program Fall 2027 Jude Ogar October 29, 2026 2 Mins Read Facebook Twitter WhatsApp Pinterest LinkedIn Tumblr Email Telegram Deadline: January 7, 2027 Applications are open for the Columbia HBCU Fellowship Program Fall 2027 . Open to seniors and recent graduates of Historically Black Colleges & Universities (HBCUs) as defined by the U.S. Department of Education, the Columbia HBCU Fellowship Program prepares talented, high-performing HBCU graduates to lead, innovate, drive community impact, and advance their professional industries through program engagement, mentorship, and career development opportunities. The vision of the Columbia HBCU Fellowship Program is to: Advance HBCU graduates’ academic credentials while deepening their understanding of their chosen industries and empowering Fellows to be change-makers; Build on the intellectual excellence and supportive community at the School of Professional Studies by enrolling cohorts of Columbia HBCU Fellows from diverse backgrounds who are dedicated to academic merit and community engagement; Invest in high-touch mentorship, networking opportunities, and professional development, in order to position Columbia HBCU Fellows as competitive candidates with the ability to make lasting contributions and impact in their careers as well as their local and global communities; Provide access to the greater Columbia University network, and create a rich alumni base committed to furthering the legacy of HBCUs and expanding the reach and impact of the Columbia HBCU Fellowship Program; and Encourage Columbia HBCU Fellowship Program alumni to uplift, support, and mentor current and future Fellows through continued engagement, community building, and professional relationships. Benefits Full tuition scholarship for three consecutive semesters (fall, spring, summer) in one of the eligible Master’s programs Student housing accommodations for the 3 consecutive terms of enrollment Semesterly stipend Internship and mentorship opportunities with SPS corporate or sector partners Additional developmental experiences and activities provided for cohort including community engagement and career services Eligibility To be eligible, students must meet the following qualifications. Current HBCU senior or recent graduate (Bachelor’s degree conferral in 2025 or later). Applying to a School of Professional Studies full-time, on-campus, Master of Science program for the Fall 2027 term. Application Application requirements include: Statement of Purpose Supplemental Essay (optional) Video Essay Letter of Support Resume Click here to apply For more information, visit Columbia HBCU Fellowship Program . Share. Facebook Twitter WhatsApp LinkedIn Email Pinterest Telegram Previous Article Heinrich Böll Foundation Feminist Futures Fellowship 2027 Next Article Mastercard Foundation Scholars Program at ALCHE 2027 (Fully-funded) Jude Ogar Website Jude Ogar is an educator and youth development practitioner with years of experience working in the education and youth development space. He is passionate about the development of youth in Africa. Related Posts Wave Winter Research Fell",
+        "structuredData": [
+          {
+            "@type": "Article",
+            "url": "https://opportunitydesk.org/2026/10/29/columbia-hbcu-fellowship-program-fall-2027/",
+            "publisher": {
+              "@type": "Organization",
+              "name": "Opportunity Desk"
+            },
+            "author": {
+              "@type": "Person",
+              "name": "Jude Ogar",
+              "url": "https://opportunitydesk.org/author/judeogar/"
+            },
+            "datePublished": "2026-10-29T10:18:24+00:00",
+            "dateModified": "2026-10-30T14:23:33+00:00"
+          },
+          {
+            "@type": "BreadcrumbList"
+          }
+        ],
+        "resourceLinks": []
+      },
+      "recordDraft": {
+        "id": "d90fb25d11cfd3de2e6dcb0cb8ac7d4dd8fe75bd307da3faf1b9e80da140594b",
+        "title": "Columbia HBCU Fellowship Program Fall 2027 – Opportunity Desk",
+        "org": null,
+        "summary": "Columbia HBCU Fellowship Program Fall 2027 – Opportunity Desk Close Menu Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awards Grants Fellowships Jobs Internships Volunteering Blog OD Specials OD Live Series Young Person of the Month Mentorship OD Mentors Success Stories How-To General Tips ODIC 2025 ODIC 2025 Application ODIC Judges ODIC 2025 Winners ODIC 2023 Winners ODIC 2022 Winners ODIC 2021 Winners ODIC 2019 Winners ODIC 2018 Winners ODIC 2017 Winners ODIC 2016 Winners Search Asia Africa Australia and Oceania America Europe Deadlines Approaching Facebook X (Twitter) Instagram Tuesday, November 10 Facebook X (Twitter) LinkedIn Instagram Telegram Columbia HBCU Fellowship Program Fall 2027 Jude Ogar October 29, 2026 2 Mins Read Facebook Twitter WhatsApp Pinterest LinkedIn Tumblr Email Telegram Deadline: January 7, 2027 Applications are open for the Columbia HBCU Fellowship Program Fall 2027 . Department of Education, the Columbia HBCU Fellowship Program prepares talented, high-performing HBCU graduates to",
+        "type": "Fellowship",
+        "themes": [
+          "Jornalismo"
+        ],
+        "scope": "Open to seniors and recent graduates of Historically Black Colleges & Universities (HBCUs) as defined by the U.S.",
+        "fit": 6,
+        "deadline": "2027-01-07",
+        "deadlineStatus": "Confirmado na página oficial; fuso horário não informado.",
+        "eligibility": "parcial",
+        "status": "aberta",
+        "rules": "https://opportunitydesk.org/2026/10/29/columbia-hbcu-fellowship-program-fall-2027",
+        "apply": "https://opportunitydesk.org/2026/10/29/columbia-hbcu-fellowship-program-fall-2027"
+      },
+      "missingFields": [
+        "org"
+      ],
+      "reviewDecision": "evidence_complete_for_record_draft",
+      "note": "Ficha preliminar baseada no conteúdo capturado da página. Campos sem evidência permanecem ausentes; a aprovação depende do gate independente de publicação."
+    },
+    {
+      "schemaVersion": 1,
+      "id": "e4ab2158f07a5b248d90a5c22d7b57d4100d8b8eac00a296eb3d735c687ca544",
+      "category": "opportunities",
+      "status": "draft_only",
+      "publicationReady": false,
+      "source": {
+        "url": "https://opportunitydesk.org/2026/10/29/mozilla-foundation-fellowships-2027-2028",
+        "discoveryProviders": [
+          "Opportunity Desk"
+        ],
+        "pageTitle": "Mozilla Foundation Fellowships 2027-2028 (up to $125,000) – Opportunity Desk",
+        "checkedAt": "2026-11-10T20:31:28.952Z",
+        "httpStatus": 200,
+        "contentType": "text/html; charset=UTF-8"
+      },
+      "evidence": {
+        "checks": {
+          "callSignal": true,
+          "deadline": "2026-12-17",
+          "eligibility": true
+        },
+        "sourceExcerpt": "Mozilla Foundation Fellowships 2027-2028 (up to $125,000) – Opportunity Desk Close Menu Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awards Grants Fellowships Jobs Internships Volunteering Blog OD Specials OD Live Series Young Person of the Month Mentorship OD Mentors Success Stories How-To General Tips ODIC 2025 ODIC 2025 Application ODIC Judges ODIC 2025 Winners ODIC 2023 Winners ODIC 2022 Winners ODIC 2021 Winners ODIC 2019 Winners ODIC 2018 Winners ODIC 2017 Winners ODIC 2016 Winners Search Asia Africa Australia and Oceania America Europe Deadlines Approaching Facebook X (Twitter) Instagram Tuesday, November 10 Facebook X (Twitter) LinkedIn Instagram Telegram Mozilla Foundation Fellowships 2027-2028 (up to $125,000) Jude Ogar October 29, 2026 3 Mins Read Facebook Twitter WhatsApp Pinterest LinkedIn Tumblr Email Telegram Deadline: December 17, 2026 Applications are open for the Mozilla Foundation Fellowships 2027-2028 . Mozilla Foundation will award 10 Fellowships for the 2027–2028 period. They are looking for extraordinary individuals working at the edges of human imagination, on technology that’s too early, too unexpected, or too ambitious for anyone else to fund. Fellows are builders first, of tools and of the fields around them. But they are also defiant about who technology should serve, and rigorous about making it a reality. If that sounds like you, come build with Mozilla. Bring the wildest, most radical version of your idea: the one that questions who gets to decide and puts control back in the hands of the people who use it. Optimizing the status quo is somebody else’s job. Theirs is to build the alternatives. Fellowship Tracks The Fellowship has two tracks for builders at different stages of their careers. Both share the same commitment: developing Fellows into the kind of technology leaders a better technology future needs: Track I: Embedded Fellows – These Fellows are working on projects in collaboration with and backed by a civil society organization. Your host provides mentorship and a community to work inside. In return, you gain the experience of turning technical skill into community impact, and your host gains the expertise to advance its mission. Track II: Independent Fellows – Independent Fellows pursue their most ambitious idea in one of the areas above. You’ll turn your vision into products, working systems, and other innovations that advance better technology futures, with the freedom to choose the approach: a platform that proves an alternative model works, or tools that let other technologists build better systems. Benefits Track I: Embedded Fellows – $100,000 USD in total, as a $75,000 stipend and a $25,000 project budget. Track II: Independent Fellows – $125,000 USD in total, as a $100,000 stipend and a $25,000 project budget. Eligibility Mozilla Foundation funds projects that advance their charitable mission and create meaningful public benefit. In your application, they will ask you to describe the work you want to undertake, who stands to benefit, and what impacts you hope to see your work produce. You must be legally able to receive grant funds from Mozilla Foundation. They welcome builders from all walks and sectors to apply, and your work does not need to be focused on non-profits. They do require a charitable purpose, however. Applications must be submitted in English. Translation tools are welcome. They evaluate your ideas, not your language quality. Application Applications are reviewed through a multi-stage process. The primary review occurs at the Letter of Intent stage, with only a small number of shortlisted applicants invited to submit a full application in early 2027. Click here to submit the Letter of Intent For more information, visit Mozilla Foundation Fellowships . Share. Facebook Twitter WhatsApp Link",
+        "structuredData": [
+          {
+            "@type": "Article",
+            "url": "https://opportunitydesk.org/2026/10/29/mozilla-foundation-fellowships-2027-2028/",
+            "publisher": {
+              "@type": "Organization",
+              "name": "Opportunity Desk"
+            },
+            "author": {
+              "@type": "Person",
+              "name": "Jude Ogar",
+              "url": "https://opportunitydesk.org/author/judeogar/"
+            },
+            "datePublished": "2026-10-29T14:04:12+00:00",
+            "dateModified": "2026-10-29T14:06:08+00:00"
+          },
+          {
+            "@type": "BreadcrumbList"
+          }
+        ],
+        "resourceLinks": []
+      },
+      "recordDraft": {
+        "id": "e4ab2158f07a5b248d90a5c22d7b57d4100d8b8eac00a296eb3d735c687ca544",
+        "title": "Mozilla Foundation Fellowships 2027-2028 (up to $125,000) – Opportunity Desk",
+        "org": null,
+        "summary": "Mozilla Foundation Fellowships 2027-2028 (up to $125,000) – Opportunity Desk Close Menu Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awards Grants Fellowships Jobs Internships Volunteering Blog OD Specials OD Live Series Young Person of the Month Mentorship OD Mentors Success Stories How-To General Tips ODIC 2025 ODIC 2025 Application ODIC Judges ODIC 2025 Winners ODIC 2023 Winners ODIC 2022 Winners ODIC 2021 Winners ODIC 2019 Winners ODIC 2018 Winners ODIC 2017 Winners ODIC 2016 Winners Search Asia Africa Australia and Oceania America Europe Deadlines Approaching Facebook X (Twitter) Instagram Tuesday, November 10 Facebook X (Twitter) LinkedIn Instagram Telegram Mozilla Foundation Fellowships 2027-2028 (up to $125,000) Jude Ogar October 29, 2026 3 Mins Read Facebook Twitter WhatsApp Pinterest LinkedIn Tumblr Email Telegram Deadline: December 17, 2026 Applications are open for the Mozilla Foundation Fellowships 2027-2028 . Mozilla Foundation will award 10 Fellowships for the 2027–2028 period. Fellowship Tr",
+        "type": "Fellowship",
+        "themes": [
+          "Jornalismo"
+        ],
+        "scope": "Eligibility Mozilla Foundation funds projects that advance their charitable mission and create meaningful public benefit.",
+        "fit": 6,
+        "deadline": "2026-12-17",
+        "deadlineStatus": "Confirmado na página oficial; fuso horário não informado.",
+        "eligibility": "parcial",
+        "status": "aberta",
+        "rules": "https://opportunitydesk.org/2026/10/29/mozilla-foundation-fellowships-2027-2028",
+        "apply": "https://opportunitydesk.org/2026/10/29/mozilla-foundation-fellowships-2027-2028"
+      },
+      "missingFields": [
+        "org"
+      ],
+      "reviewDecision": "evidence_complete_for_record_draft",
+      "note": "Ficha preliminar baseada no conteúdo capturado da página. Campos sem evidência permanecem ausentes; a aprovação depende do gate independente de publicação."
+    },
+    {
+      "schemaVersion": 1,
+      "id": "e6ae2ab32d56c3ed60ec772b0a31d590ca4c03b9ff020830957335b3175bbdc9",
+      "category": "opportunities",
+      "status": "draft_only",
+      "publicationReady": false,
+      "source": {
+        "url": "https://opportunitydesk.org/2026/10/27/idrc-john-g-bene-fellowship-2026",
+        "discoveryProviders": [
+          "Opportunity Desk"
+        ],
+        "pageTitle": "IDRC John G. Bene Fellowship 2026 (up to $30,000 CAD) – Opportunity Desk",
+        "checkedAt": "2026-11-10T20:31:28.952Z",
+        "httpStatus": 200,
+        "contentType": "text/html; charset=UTF-8"
+      },
+      "evidence": {
+        "checks": {
+          "callSignal": true,
+          "deadline": "2026-11-30",
+          "eligibility": true
+        },
+        "sourceExcerpt": "IDRC John G. Bene Fellowship 2026 (up to $30,000 CAD) – Opportunity Desk Close Menu Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awards Grants Fellowships Jobs Internships Volunteering Blog OD Specials OD Live Series Young Person of the Month Mentorship OD Mentors Success Stories How-To General Tips ODIC 2025 ODIC 2025 Application ODIC Judges ODIC 2025 Winners ODIC 2023 Winners ODIC 2022 Winners ODIC 2021 Winners ODIC 2019 Winners ODIC 2018 Winners ODIC 2017 Winners ODIC 2016 Winners Search Asia Africa Australia and Oceania America Europe Deadlines Approaching Facebook X (Twitter) Instagram Tuesday, November 10 Facebook X (Twitter) LinkedIn Instagram Telegram IDRC John G. Bene Fellowship 2026 (up to $30,000 CAD) Jude Ogar October 27, 2026 3 Mins Read Facebook Twitter WhatsApp Pinterest LinkedIn Tumblr Email Telegram Deadline: November 30, 2026 Applications are open for the IDRC John G. Bene Fellowship 2026 . The Bene fellowship, a bequest from the estate of John G. Bene, is offered to Canadians and permanent residents of Canada pursuing master’s or doctoral studies at a Canadian university. Candidates should have an academic background that combines an interest in forests (landscape and forest management and restoration, forestry, agroforestry), environment, ecology and food systems, with a social sciences lens (gender and inclusion, Indigenous knowledge and science, biodiversity conservation, governance of nature). This fellowship aims to facilitate practical field research on gender-responsive integrated forest, landscape and food systems restoration and management including within fire prone, degraded or disputed landscapes. Linking the broader climate-food-inclusivity nexus, it emphasizes nature-based solutions and approaches that have the potential to drive transformative change for smallholder farmers, including youth, women, and Indigenous communities in developing countries. The successful candidate will propose research that benefits less privileged people in developing countries aiming to increase the resilience of individuals and forest/agroforest communities facing difficult contexts and challenges. Note that work focused on genomics and/or genetic modification is not eligible. Grant Up to ten awards of a maximum of CA$30,000 Eligibility You must be a citizen or permanent resident of Canada; You must be enrolled at a Canadian university at the master’s or doctoral level (you must have completed several courses of the program, but not necessarily all courses, when you submit your application); You must have an academic background that combines an interest in forest, climate resilience, biodiversity or food systems. Applicants from interdisciplinary programs are eligible, provided their programs contain the specified elements; Your research proposal must be approved by your thesis supervisor and you must provide proof; Your proposed field of research must be conducted for a master’s thesis or doctoral dissertation and must take place in one or more developing countries; You must provide evidence of affiliation with an institution or organization in the developing region(s) in which the research will take place; Doctoral students must have completed coursework and passed comprehensive exams before taking up the award; and You may not be in receipt of two or more active IDRC awards at the same time, which includes the IDRC Research Awards. No time overlaps will be permitted. If you are in receipt of IDRC funds from another source (e.g. a Queen Elizabeth Advanced Scholars award or through a professor’s IDRC research grant) for activities that will still be active when and if you take up the John G. Bene Fellowship, you will be asked to demonstrate how funds from each are not being used towards the same objective. Application Click here to apply",
+        "structuredData": [
+          {
+            "@type": "Article",
+            "url": "https://opportunitydesk.org/2026/10/27/idrc-john-g-bene-fellowship-2026/",
+            "publisher": {
+              "@type": "Organization",
+              "name": "Opportunity Desk"
+            },
+            "author": {
+              "@type": "Person",
+              "name": "Jude Ogar",
+              "url": "https://opportunitydesk.org/author/judeogar/"
+            },
+            "datePublished": "2026-10-27T18:20:03+00:00",
+            "dateModified": "2026-10-27T18:20:07+00:00"
+          },
+          {
+            "@type": "BreadcrumbList"
+          }
+        ],
+        "resourceLinks": []
+      },
+      "recordDraft": {
+        "id": "e6ae2ab32d56c3ed60ec772b0a31d590ca4c03b9ff020830957335b3175bbdc9",
+        "title": "IDRC John G. Bene Fellowship 2026 (up to $30,000 CAD) – Opportunity Desk",
+        "org": null,
+        "summary": "Bene Fellowship 2026 (up to $30,000 CAD) – Opportunity Desk Close Menu Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awards Grants Fellowships Jobs Internships Volunteering Blog OD Specials OD Live Series Young Person of the Month Mentorship OD Mentors Success Stories How-To General Tips ODIC 2025 ODIC 2025 Application ODIC Judges ODIC 2025 Winners ODIC 2023 Winners ODIC 2022 Winners ODIC 2021 Winners ODIC 2019 Winners ODIC 2018 Winners ODIC 2017 Winners ODIC 2016 Winners Search Asia Africa Australia and Oceania America Europe Deadlines Approaching Facebook X (Twitter) Instagram Tuesday, November 10 Facebook X (Twitter) LinkedIn Instagram Telegram IDRC John G. Bene Fellowship 2026 (up to $30,000 CAD) Jude Ogar October 27, 2026 3 Mins Read Facebook Twitter WhatsApp Pinterest LinkedIn Tumblr Email Telegram Deadline: November 30, 2026 Applications are open for the IDRC John G. Bene Fellowship 2026 . The Bene fellowship, a bequest from the estate of John G. This fellowship aims to facilitate practical field res",
+        "type": "Fellowship",
+        "themes": [
+          "Meio ambiente",
+          "Gênero",
+          "Jornalismo"
+        ],
+        "scope": "Note that work focused on genomics and/or genetic modification is not eligible.",
+        "fit": 6,
+        "deadline": "2026-11-30",
+        "deadlineStatus": "Confirmado na página oficial; fuso horário não informado.",
+        "eligibility": "parcial",
+        "status": "aberta",
+        "rules": "https://opportunitydesk.org/2026/10/27/idrc-john-g-bene-fellowship-2026",
+        "apply": "https://opportunitydesk.org/2026/10/27/idrc-john-g-bene-fellowship-2026"
+      },
+      "missingFields": [
+        "org"
+      ],
+      "reviewDecision": "evidence_complete_for_record_draft",
+      "note": "Ficha preliminar baseada no conteúdo capturado da página. Campos sem evidência permanecem ausentes; a aprovação depende do gate independente de publicação."
+    },
+    {
+      "schemaVersion": 1,
+      "id": "911b846731146b3b657a12ef0bd65437ed5d126655b7729dd0d8ead92f83c390",
+      "category": "opportunities",
+      "status": "draft_only",
+      "publicationReady": false,
+      "source": {
+        "url": "https://opportunitydesk.org/2026/10/30/telemachus-athena-mentoring-programme-2027",
+        "discoveryProviders": [
+          "Opportunity Desk"
+        ],
+        "pageTitle": "Call for Mentees: Telemachus & Athena Mentoring Programme 2027 – Opportunity Desk",
+        "checkedAt": "2026-11-10T20:31:28.952Z",
+        "httpStatus": 200,
+        "contentType": "text/html; charset=UTF-8"
+      },
+      "evidence": {
+        "checks": {
+          "callSignal": true,
+          "deadline": "2026-11-23",
+          "eligibility": true
+        },
+        "sourceExcerpt": "Call for Mentees: Telemachus & Athena Mentoring Programme 2027 – Opportunity Desk Close Menu Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awards Grants Fellowships Jobs Internships Volunteering Blog OD Specials OD Live Series Young Person of the Month Mentorship OD Mentors Success Stories How-To General Tips ODIC 2025 ODIC 2025 Application ODIC Judges ODIC 2025 Winners ODIC 2023 Winners ODIC 2022 Winners ODIC 2021 Winners ODIC 2019 Winners ODIC 2018 Winners ODIC 2017 Winners ODIC 2016 Winners Search Asia Africa Australia and Oceania America Europe Deadlines Approaching Facebook X (Twitter) Instagram Tuesday, November 10 Facebook X (Twitter) LinkedIn Instagram Telegram Call for Mentees: Telemachus & Athena Mentoring Programme 2027 Jude Ogar October 30, 2026 2 Mins Read Facebook Twitter WhatsApp Pinterest LinkedIn Tumblr Email Telegram Deadline: November 23, 2026 Applications are open for mentees to join the Telemachus & Athena Mentoring Programme 2027 . The mentoring programmes ‘Telemachus’ and ‘Athena’ connect mentees with thought leaders and social-impact focused individuals. Telemachus benefits youth between 18-29 from around the world, while Athena focuses on women above the age of 22 and without setting an age limit. Global Thinkers Forum (GTF) mentees are provided with a personalized development opportunity to address individual learning needs. This opportunity helps them over a period of eight months to develop new skills and expertise, and to enhance, enrich and expand their professional and personal perspectives. Benefits Upon successful completion of the cycle, you will have gained valuable insights for your career, new perspectives and new skills. Moreover, you will most probably have gained a lifelong friend! You will receive a programme completion certificate and you will become part of the broader GTF community which will be a network of support to you. You will also earn an optional 3-month internship with GTF. Eligibility You are eligible to apply for ‘Telemachus’ if you are a young individual between 18-29. ‘Athena’ is for women above the age of 22 and without age limit. If you fall in the categories, feel free to apply. Applicants with fluent command of English, who have completed a Bachelor’s degree or have equally-relevant professional experience of a minimum of 5 years will be prioritised. Application Click here to apply For more information, visit Telemachus & Athena Mentoring Programme . Share. Facebook Twitter WhatsApp LinkedIn Email Pinterest Telegram Previous Article Black Wealth Club 2026-2027 for Emerging Leaders Next Article Joy Nwaeze from Nigeria is OD Young Person of the Month – November 2026 Jude Ogar Website Jude Ogar is an educator and youth development practitioner with years of experience working in the education and youth development space. He is passionate about the development of youth in Africa. Related Posts Wave Winter Research Fellowship 2026-2027 November 10, 2026 Closes in 3 days Career Pathways Initiative Fellowship 2027 November 10, 2026 Closes in 80 days Nature Culture Fellowship 2027 November 10, 2026 Closes in 21 days Search for: Receive Opportunity Alerts! Join over 100,000 email subscribers to receive weekly summary of opportunities. Sign up here . OD YPOM – Sameer Ali Khan Sameer Ali Khan is OD Young Person of the Month – October 2026. Read more . Latest Posts Wave Winter Research Fellowship 2026-2027 Career Pathways Initiative Fellowship 2027 Nature Culture Fellowship 2027 Debt Accountability Journalism Fellowship 2027 for Nigerian Journalists Computation & Cognition Tübingen Summer (CaCTüS) Internship Program 2027 Obama Foundation Leaders Program 2027-2028 Chatham House Research Fellow Africa Programme 2026-2027 QNX Global Hackathon 2026 ($50,000 in prizes) Follow on Twitter Tweets by @Opportunity",
+        "structuredData": [
+          {
+            "@type": "Article",
+            "url": "https://opportunitydesk.org/2026/10/30/telemachus-athena-mentoring-programme-2027/",
+            "publisher": {
+              "@type": "Organization",
+              "name": "Opportunity Desk"
+            },
+            "author": {
+              "@type": "Person",
+              "name": "Jude Ogar",
+              "url": "https://opportunitydesk.org/author/judeogar/"
+            },
+            "datePublished": "2026-10-30T14:21:25+00:00",
+            "dateModified": "2026-10-30T14:21:27+00:00"
+          },
+          {
+            "@type": "BreadcrumbList"
+          }
+        ],
+        "resourceLinks": []
+      },
+      "recordDraft": {
+        "id": "911b846731146b3b657a12ef0bd65437ed5d126655b7729dd0d8ead92f83c390",
+        "title": "Call for Mentees: Telemachus & Athena Mentoring Programme 2027 – Opportunity Desk",
+        "org": null,
+        "summary": "Call for Mentees: Telemachus & Athena Mentoring Programme 2027 – Opportunity Desk Close Menu Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awards Grants Fellowships Jobs Internships Volunteering Blog OD Specials OD Live Series Young Person of the Month Mentorship OD Mentors Success Stories How-To General Tips ODIC 2025 ODIC 2025 Application ODIC Judges ODIC 2025 Winners ODIC 2023 Winners ODIC 2022 Winners ODIC 2021 Winners ODIC 2019 Winners ODIC 2018 Winners ODIC 2017 Winners ODIC 2016 Winners Search Asia Africa Australia and Oceania America Europe Deadlines Approaching Facebook X (Twitter) Instagram Tuesday, November 10 Facebook X (Twitter) LinkedIn Instagram Telegram Call for Mentees: Telemachus & Athena Mentoring Programme 2027 Jude Ogar October 30, 2026 2 Mins Read Facebook Twitter WhatsApp Pinterest LinkedIn Tumblr Email Telegram Deadline: November 23, 2026 Applications are open for mentees to join the Telemachus & Athena Mentoring Programme 2027 . Eligibility You are eligible to apply for ‘Telemachus’",
+        "type": "Scholarship",
+        "themes": [
+          "Gênero",
+          "Jornalismo"
+        ],
+        "scope": "Eligibility You are eligible to apply for ‘Telemachus’ if you are a young individual between 18-29.",
+        "fit": 6,
+        "deadline": "2026-11-23",
+        "deadlineStatus": "Confirmado na página oficial; fuso horário não informado.",
+        "eligibility": "parcial",
+        "status": "aberta",
+        "rules": "https://opportunitydesk.org/2026/10/30/telemachus-athena-mentoring-programme-2027",
+        "apply": "https://opportunitydesk.org/2026/10/30/telemachus-athena-mentoring-programme-2027"
+      },
+      "missingFields": [
+        "org"
+      ],
+      "reviewDecision": "evidence_complete_for_record_draft",
+      "note": "Ficha preliminar baseada no conteúdo capturado da página. Campos sem evidência permanecem ausentes; a aprovação depende do gate independente de publicação."
+    },
+    {
+      "schemaVersion": 1,
+      "id": "c81a9407cff2491f26e85479f5d12ef67f4d93c2894e6a12036e5eeabbd9d3bf",
+      "category": "opportunities",
+      "status": "draft_only",
+      "publicationReady": false,
+      "source": {
+        "url": "https://opportunitydesk.org/2026/10/31/mit-summer-research-program-2027",
+        "discoveryProviders": [
+          "Opportunity Desk"
+        ],
+        "pageTitle": "MIT Summer Research Program (MSRP) 2027 (stipend available) – Opportunity Desk",
+        "checkedAt": "2026-11-10T20:31:28.952Z",
+        "httpStatus": 200,
+        "contentType": "text/html; charset=UTF-8"
+      },
+      "evidence": {
+        "checks": {
+          "callSignal": true,
+          "deadline": "2027-01-19",
+          "eligibility": true
+        },
+        "sourceExcerpt": "MIT Summer Research Program (MSRP) 2027 (stipend available) – Opportunity Desk Close Menu Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awards Grants Fellowships Jobs Internships Volunteering Blog OD Specials OD Live Series Young Person of the Month Mentorship OD Mentors Success Stories How-To General Tips ODIC 2025 ODIC 2025 Application ODIC Judges ODIC 2025 Winners ODIC 2023 Winners ODIC 2022 Winners ODIC 2021 Winners ODIC 2019 Winners ODIC 2018 Winners ODIC 2017 Winners ODIC 2016 Winners Search Asia Africa Australia and Oceania America Europe Deadlines Approaching Facebook X (Twitter) Instagram Tuesday, November 10 Facebook X (Twitter) LinkedIn Instagram Telegram MIT Summer Research Program (MSRP) 2027 (stipend available) Jude Ogar October 31, 2026 3 Mins Read Facebook Twitter WhatsApp Pinterest LinkedIn Tumblr Email Telegram Deadline: January 19, 2027 Applications are open for the MIT Summer Research Program (MSRP) 2027 . The MIT Summer Research Program (MSRP) is a competitive summer initiative designed to promote the value of graduate education, broaden participation in the research enterprise, and prepare and recruit exceptional undergraduate students for graduate study at MIT and beyond. Launched in 1986, the MIT Summer Research Program (MSRP) was created to expand access to research opportunities for students whose educational journeys and experiences have not always aligned with traditional pathways into graduate education. The program continues to foster a more inclusive academic environment by supporting students with diverse life experiences, academic interests, and educational backgrounds. MSRP seeks to identify talented undergraduates who might benefit from spending a summer on MIT’s campus, conducting research under the guidance of MIT faculty members, postdoctoral fellows, and advanced graduate students. Students who participate in this program will be better prepared and motivated to pursue advanced degrees, thereby helping to sustain a rich talent pool in critical areas of research and innovation. Benefits Mentored Research Experience: Work under the guidance of an MIT faculty member, with additional support from a postdoctoral fellow or advanced graduate student. Graduate School Preparation: Receive individualized advising on academic and research career pathways, including feedback on coursework and lab skill development. Scholarly Engagement: Gain the opportunity to contribute to publishable research and potentially co-author a scientific paper with your faculty mentor. Cutting-Edge Facilities: Conduct research in state-of-the-art laboratories across MIT departments and interdisciplinary centers. Financial Support: Weekly stipend, round-trip travel to MIT, meal subsidy, and housing are provided. Campus Access: Enjoy access to MIT’s libraries, athletic facilities, and health services. Eligibility Applicants must: Have a minimum 3.5 overall or major GPA (on a 4.0 scale). Be enrolled full-time in a degree-granting program at a U.S. institution of higher education located in the U.S. or its territories (excluding MIT). Be a sophomore, junior, or non-graduating senior with at least two academic years of college coursework completed (excluding college credit earned during high school or its equivalent). Students should not be graduating prior to December 2027. Note: First-year students from select undergraduate institutions may be eligible to apply through the Leadership Alliance’s James H. Wyche First Year Research Program (FYRE). Have an interest in pursuing a graduate degree in one of MIT’s graduate programs, Sloan professional programs not included (MBA, EMBA, LGO, etc). Have a genuine interest in pursuing a career in academic research and/or teaching. Be a U.S. citizen, permanent resident, non-U.S. citizen with DACA, or internationa",
+        "structuredData": [
+          {
+            "@type": "Article",
+            "url": "https://opportunitydesk.org/2026/10/31/mit-summer-research-program-2027/",
+            "publisher": {
+              "@type": "Organization",
+              "name": "Opportunity Desk"
+            },
+            "author": {
+              "@type": "Person",
+              "name": "Jude Ogar",
+              "url": "https://opportunitydesk.org/author/judeogar/"
+            },
+            "datePublished": "2026-10-31T12:56:57+00:00",
+            "dateModified": "2026-10-31T12:57:00+00:00"
+          },
+          {
+            "@type": "BreadcrumbList"
+          }
+        ],
+        "resourceLinks": []
+      },
+      "recordDraft": {
+        "id": "c81a9407cff2491f26e85479f5d12ef67f4d93c2894e6a12036e5eeabbd9d3bf",
+        "title": "MIT Summer Research Program (MSRP) 2027 (stipend available) – Opportunity Desk",
+        "org": null,
+        "summary": "MIT Summer Research Program (MSRP) 2027 (stipend available) – Opportunity Desk Close Menu Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awards Grants Fellowships Jobs Internships Volunteering Blog OD Specials OD Live Series Young Person of the Month Mentorship OD Mentors Success Stories How-To General Tips ODIC 2025 ODIC 2025 Application ODIC Judges ODIC 2025 Winners ODIC 2023 Winners ODIC 2022 Winners ODIC 2021 Winners ODIC 2019 Winners ODIC 2018 Winners ODIC 2017 Winners ODIC 2016 Winners Search Asia Africa Australia and Oceania America Europe Deadlines Approaching Facebook X (Twitter) Instagram Tuesday, November 10 Facebook X (Twitter) LinkedIn Instagram Telegram MIT Summer Research Program (MSRP) 2027 (stipend available) Jude Ogar October 31, 2026 3 Mins Read Facebook Twitter WhatsApp Pinterest LinkedIn Tumblr Email Telegram Deadline: January 19, 2027 Applications are open for the MIT Summer Research Program (MSRP) 2027 . Eligibility Applicants must: Have a minimum 3.5 overall or major GPA (on a 4.0 sca",
+        "type": "Scholarship",
+        "themes": [
+          "Meio ambiente",
+          "Jornalismo"
+        ],
+        "scope": "Eligibility Applicants must: Have a minimum 3.5 overall or major GPA (on a 4.0 scale).",
+        "fit": 6,
+        "deadline": "2027-01-19",
+        "deadlineStatus": "Confirmado na página oficial; fuso horário não informado.",
+        "eligibility": "parcial",
+        "status": "aberta",
+        "rules": "https://opportunitydesk.org/2026/10/31/mit-summer-research-program-2027",
+        "apply": "https://opportunitydesk.org/2026/10/31/mit-summer-research-program-2027"
+      },
+      "missingFields": [
+        "org"
+      ],
+      "reviewDecision": "evidence_complete_for_record_draft",
+      "note": "Ficha preliminar baseada no conteúdo capturado da página. Campos sem evidência permanecem ausentes; a aprovação depende do gate independente de publicação."
+    },
+    {
+      "schemaVersion": 1,
+      "id": "0cbb78476f16a5d8d8808a498951c3c5e9ef669159cb0a4a639f4ea6dc201e52",
+      "category": "opportunities",
+      "status": "draft_only",
+      "publicationReady": false,
+      "source": {
+        "url": "https://opportunitydesk.org/2026/11/05/cannes-lions-scholarship-2027",
+        "discoveryProviders": [
+          "Opportunity Desk"
+        ],
+        "pageTitle": "Cannes Lions Scholarship 2027 (Fully-funded) – Opportunity Desk",
+        "checkedAt": "2026-11-10T20:36:10.810Z",
+        "httpStatus": 200,
+        "contentType": "text/html; charset=UTF-8"
+      },
+      "evidence": {
+        "checks": {
+          "callSignal": true,
+          "deadline": "2026-12-04",
+          "eligibility": true
+        },
+        "sourceExcerpt": "Cannes Lions Scholarship 2027 (Fully-funded) – Opportunity Desk Close Menu Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awards Grants Fellowships Jobs Internships Volunteering Blog OD Specials OD Live Series Young Person of the Month Mentorship OD Mentors Success Stories How-To General Tips ODIC 2025 ODIC 2025 Application ODIC Judges ODIC 2025 Winners ODIC 2023 Winners ODIC 2022 Winners ODIC 2021 Winners ODIC 2019 Winners ODIC 2018 Winners ODIC 2017 Winners ODIC 2016 Winners Search Asia Africa Australia and Oceania America Europe Deadlines Approaching Facebook X (Twitter) Instagram Tuesday, November 10 Facebook X (Twitter) LinkedIn Instagram Telegram Cannes Lions Scholarship 2027 (Fully-funded) Jude Ogar November 5, 2026 1 Min Read Facebook Twitter WhatsApp Pinterest LinkedIn Tumblr Email Telegram Deadline: December 4, 2026 Applications are open for the Cannes Lions Scholarship 2027 . For Cannes Lions 2027, they are offering 10 fully funded scholarships to underrepresented talent within the creative industry. The LIONS Scholarship is designed to support the next generation of talent, placing an emphasis on diversity of location, gender, race, class, preference and perspective. With five places available in the Brand Marketers Academy and five in the Creative Academy, a total of 10 under-30s from 10 countries will be accepted for the Scholarship. Benefits If you’re selected, you’ll get a fully funded trip to Cannes Lions 2027, including accommodation, travel and allowance. You’ll also get a Young Lions Festival pass, which will give you access to inspiring classroom sessions with world-class speakers, hands-on learning and coaching from industry legends. Eligibility Open to people born on or after 26 June 1997. The minimum age for applying is 18 years old, and proof of age will be required. You’ll also need to have a minimum of two years’ work experience in a role to be eligible. The LIONS Academies are presented in English. Application Click here to apply For more information, visit Cannes Lions Scholarship . Share. Facebook Twitter WhatsApp LinkedIn Email Pinterest Telegram Previous Article Friedrich Ebert Foundation (FES) Young Leaders Program 2027 Next Article ILO Writing Competitions on Safe Labour Migration in East and Horn of Africa 2027 Jude Ogar Website Jude Ogar is an educator and youth development practitioner with years of experience working in the education and youth development space. He is passionate about the development of youth in Africa. Related Posts How to Get a Scholarship with a Third-Class Degree: 7 Practical Steps to Improve Your Chances November 7, 2026 How to Ace Your Scholarship Interview: 12 Tips to Help You Stand Out November 5, 2026 15 Global Scholarship Opportunities Currently Open – November 5, 2026 November 5, 2026 Search for: Receive Opportunity Alerts! Join over 100,000 email subscribers to receive weekly summary of opportunities. Sign up here . OD YPOM – Sameer Ali Khan Sameer Ali Khan is OD Young Person of the Month – October 2026. Read more . Latest Posts Wave Winter Research Fellowship 2026-2027 Career Pathways Initiative Fellowship 2027 Nature Culture Fellowship 2027 Debt Accountability Journalism Fellowship 2027 for Nigerian Journalists Computation & Cognition Tübingen Summer (CaCTüS) Internship Program 2027 Obama Foundation Leaders Program 2027-2028 Chatham House Research Fellow Africa Programme 2026-2027 QNX Global Hackathon 2026 ($50,000 in prizes) Follow on Twitter Tweets by @OpportunityDesk Follow Us on Social Media Submit Type above and press Enter to search. Press Esc to cancel. Ad Blocker Enabled! Our website is made possible by displaying online advertisements to our visitors. Please support us by disabling your Ad Blocker.",
+        "structuredData": [
+          {
+            "@type": "Article",
+            "url": "https://opportunitydesk.org/2026/11/05/cannes-lions-scholarship-2027/",
+            "publisher": {
+              "@type": "Organization",
+              "name": "Opportunity Desk"
+            },
+            "author": {
+              "@type": "Person",
+              "name": "Jude Ogar",
+              "url": "https://opportunitydesk.org/author/judeogar/"
+            },
+            "datePublished": "2026-11-05T09:35:18+00:00",
+            "dateModified": "2026-11-05T09:35:19+00:00"
+          },
+          {
+            "@type": "BreadcrumbList"
+          }
+        ],
+        "resourceLinks": []
+      },
+      "recordDraft": {
+        "id": "0cbb78476f16a5d8d8808a498951c3c5e9ef669159cb0a4a639f4ea6dc201e52",
+        "title": "Cannes Lions Scholarship 2027 (Fully-funded) – Opportunity Desk",
+        "org": null,
+        "summary": "Cannes Lions Scholarship 2027 (Fully-funded) – Opportunity Desk Close Menu Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awards Grants Fellowships Jobs Internships Volunteering Blog OD Specials OD Live Series Young Person of the Month Mentorship OD Mentors Success Stories How-To General Tips ODIC 2025 ODIC 2025 Application ODIC Judges ODIC 2025 Winners ODIC 2023 Winners ODIC 2022 Winners ODIC 2021 Winners ODIC 2019 Winners ODIC 2018 Winners ODIC 2017 Winners ODIC 2016 Winners Search Asia Africa Australia and Oceania America Europe Deadlines Approaching Facebook X (Twitter) Instagram Tuesday, November 10 Facebook X (Twitter) LinkedIn Instagram Telegram Cannes Lions Scholarship 2027 (Fully-funded) Jude Ogar November 5, 2026 1 Min Read Facebook Twitter WhatsApp Pinterest LinkedIn Tumblr Email Telegram Deadline: December 4, 2026 Applications are open for the Cannes Lions Scholarship 2027 . For Cannes Lions 2027, they are offering 10 fully funded scholarships to underrepresented talent within the creative indust",
+        "type": "Scholarship",
+        "themes": [
+          "Gênero",
+          "Jornalismo"
+        ],
+        "scope": "Eligibility Open to people born on or after 26 June 1997.",
+        "fit": 6,
+        "deadline": "2026-12-04",
+        "deadlineStatus": "Confirmado na página oficial; fuso horário não informado.",
+        "eligibility": "parcial",
+        "status": "aberta",
+        "rules": "https://opportunitydesk.org/2026/11/05/cannes-lions-scholarship-2027",
+        "apply": "https://opportunitydesk.org/2026/11/05/cannes-lions-scholarship-2027"
+      },
+      "missingFields": [
+        "org"
+      ],
+      "reviewDecision": "evidence_complete_for_record_draft",
+      "note": "Ficha preliminar baseada no conteúdo capturado da página. Campos sem evidência permanecem ausentes; a aprovação depende do gate independente de publicação."
+    },
+    {
+      "schemaVersion": 1,
+      "id": "d38198c6aed0b3f3ad884d8be5957ac6a723beedf1fa02e7e1139ff76e55d2c9",
+      "category": "opportunities",
+      "status": "draft_only",
+      "publicationReady": false,
+      "source": {
+        "url": "https://opportunitydesk.org/2026/11/05/ix-wai-early-career-development-grant-2027",
+        "discoveryProviders": [
+          "Opportunity Desk"
+        ],
+        "pageTitle": "IX-WAI Early Career Development Grant 2027 (up to £1,000) – Opportunity Desk",
+        "checkedAt": "2026-11-10T20:36:10.810Z",
+        "httpStatus": 200,
+        "contentType": "text/html; charset=UTF-8"
+      },
+      "evidence": {
+        "checks": {
+          "callSignal": true,
+          "deadline": "2027-01-04",
+          "eligibility": true
+        },
+        "sourceExcerpt": "IX-WAI Early Career Development Grant 2027 (up to £1,000) – Opportunity Desk Close Menu Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awards Grants Fellowships Jobs Internships Volunteering Blog OD Specials OD Live Series Young Person of the Month Mentorship OD Mentors Success Stories How-To General Tips ODIC 2025 ODIC 2025 Application ODIC Judges ODIC 2025 Winners ODIC 2023 Winners ODIC 2022 Winners ODIC 2021 Winners ODIC 2019 Winners ODIC 2018 Winners ODIC 2017 Winners ODIC 2016 Winners Search Asia Africa Australia and Oceania America Europe Deadlines Approaching Facebook X (Twitter) Instagram Tuesday, November 10 Facebook X (Twitter) LinkedIn Instagram Telegram IX-WAI Early Career Development Grant 2027 (up to £1,000) Jude Ogar November 5, 2026 3 Mins Read Facebook Twitter WhatsApp Pinterest LinkedIn Tumblr Email Telegram Deadline: January 4, 2027 Applications are open for the IX-WAI Early Career Development Grant 2027 . The I-X Women in AI Network (IX-WAI) provides Early Career Development Grants of up to £1,000 to women and non-binary individuals who are currently working in AI or wish to enter the field. These grants are intended to support conference attendance, workshops, training, and other professional development opportunities. This initiative reflects the commitment to providing additional support for women and non-binary individuals in AI. Grant The grant can cover registration fees and travel expenses for conferences, workshops, tutorials, training sessions, and other activities that enable applicants to present their research, expand their professional networks, and develop new skills in AI. Eligibility Open to women and non-binary individuals at Master’s, PhD, or postdoctoral level at Imperial College London who are interested in learning about AI or are currently working in the field. Applicants who have already been awarded this grant are not eligible to apply again. Selection Criteria The proposed activity should have AI at its core, including its applications in scientific research and related disciplines. The proposed activity should demonstrate a meaningful impact on the applicant’s academic, research or professional development. The skills and competencies to be developed through the activity should be clearly identified. Timing and career development: Why is this activity particularly relevant at this stage of the applicant’s career? Why is now the right time to pursue it? Are there alternative funding opportunities available to the applicant? Knowledge sharing and alignment with WAI’s vision. Application The application process consists of two stages. For the pre-selection stage, applicants must complete the online form, providing all the information required to justify the requested budget and explain the purpose and expected impact of the proposed activity. Shortlisted applicants will then be invited to a 15 minute online interview (expected to take place in last week of January), consisting of a 5 minute presentation followed by 10 minutes of questions from the panel. To apply for a grant during the pre-selection stage, applicants must complete a brief online form and provide the following information: Requested amount: Up to £1,000, with a fully justified budget detailing the expected costs (e.g., conference registration fees, workshop fees, travel, and other expenses). If the maximum budget of £1,000 does not cover all the expenses for the activity, please justify how you will cover the remaining costs. Departmental account number (please enter your supervisor’s/mentor’s departmental F account number for the fund transfer). Purpose of the grant: A one-sentence summary of the proposed activity and its purpose. Brief proposal (up to 300 words), including: A clear description of the planned activity. The main motivation for p",
+        "structuredData": [
+          {
+            "@type": "Article",
+            "url": "https://opportunitydesk.org/2026/11/05/ix-wai-early-career-development-grant-2027/",
+            "publisher": {
+              "@type": "Organization",
+              "name": "Opportunity Desk"
+            },
+            "author": {
+              "@type": "Person",
+              "name": "Jude Ogar",
+              "url": "https://opportunitydesk.org/author/judeogar/"
+            },
+            "datePublished": "2026-11-05T13:48:36+00:00",
+            "dateModified": "2026-11-05T14:53:16+00:00"
+          },
+          {
+            "@type": "BreadcrumbList"
+          }
+        ],
+        "resourceLinks": []
+      },
+      "recordDraft": {
+        "id": "d38198c6aed0b3f3ad884d8be5957ac6a723beedf1fa02e7e1139ff76e55d2c9",
+        "title": "IX-WAI Early Career Development Grant 2027 (up to £1,000) – Opportunity Desk",
+        "org": null,
+        "summary": "IX-WAI Early Career Development Grant 2027 (up to £1,000) – Opportunity Desk Close Menu Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awards Grants Fellowships Jobs Internships Volunteering Blog OD Specials OD Live Series Young Person of the Month Mentorship OD Mentors Success Stories How-To General Tips ODIC 2025 ODIC 2025 Application ODIC Judges ODIC 2025 Winners ODIC 2023 Winners ODIC 2022 Winners ODIC 2021 Winners ODIC 2019 Winners ODIC 2018 Winners ODIC 2017 Winners ODIC 2016 Winners Search Asia Africa Australia and Oceania America Europe Deadlines Approaching Facebook X (Twitter) Instagram Tuesday, November 10 Facebook X (Twitter) LinkedIn Instagram Telegram IX-WAI Early Career Development Grant 2027 (up to £1,000) Jude Ogar November 5, 2026 3 Mins Read Facebook Twitter WhatsApp Pinterest LinkedIn Tumblr Email Telegram Deadline: January 4, 2027 Applications are open for the IX-WAI Early Career Development Grant 2027 . The I-X Women in AI Network (IX-WAI) provides Early Career Development Grants of up ",
+        "type": "Grant",
+        "themes": [
+          "Gênero",
+          "Jornalismo"
+        ],
+        "scope": "Eligibility Open to women and non-binary individuals at Master’s, PhD, or postdoctoral level at Imperial College London who are interested in learning about AI or are currently working in the field.",
+        "fit": 6,
+        "deadline": "2027-01-04",
+        "deadlineStatus": "Confirmado na página oficial; fuso horário não informado.",
+        "eligibility": "parcial",
+        "status": "aberta",
+        "rules": "https://opportunitydesk.org/2026/11/05/ix-wai-early-career-development-grant-2027",
+        "apply": "https://opportunitydesk.org/2026/11/05/ix-wai-early-career-development-grant-2027"
+      },
+      "missingFields": [
+        "org"
+      ],
+      "reviewDecision": "evidence_complete_for_record_draft",
+      "note": "Ficha preliminar baseada no conteúdo capturado da página. Campos sem evidência permanecem ausentes; a aprovação depende do gate independente de publicação."
+    },
+    {
+      "schemaVersion": 1,
+      "id": "707c5ab5a773d759b8eb7438f77f33937c6c3172069182091a3cfc84fba4e86c",
+      "category": "opportunities",
+      "status": "draft_only",
+      "publicationReady": false,
+      "source": {
+        "url": "https://opportunitydesk.org/2026/11/06/global-changemakers-media-impact-academy-2027-for-youth-in-the-usa",
+        "discoveryProviders": [
+          "Opportunity Desk"
+        ],
+        "pageTitle": "Global Changemakers&#8217; Media Impact Academy 2027 for Youth in the USA (A chance to win a $1,000 grant) – Opportunity Desk",
+        "checkedAt": "2026-11-10T20:36:10.810Z",
+        "httpStatus": 200,
+        "contentType": "text/html; charset=UTF-8"
+      },
+      "evidence": {
+        "checks": {
+          "callSignal": true,
+          "deadline": "2026-12-18",
+          "eligibility": true
+        },
+        "sourceExcerpt": "Global Changemakers’ Media Impact Academy 2027 for Youth in the USA (A chance to win a $1,000 grant) – Opportunity Desk Close Menu Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awards Grants Fellowships Jobs Internships Volunteering Blog OD Specials OD Live Series Young Person of the Month Mentorship OD Mentors Success Stories How-To General Tips ODIC 2025 ODIC 2025 Application ODIC Judges ODIC 2025 Winners ODIC 2023 Winners ODIC 2022 Winners ODIC 2021 Winners ODIC 2019 Winners ODIC 2018 Winners ODIC 2017 Winners ODIC 2016 Winners Search Asia Africa Australia and Oceania America Europe Deadlines Approaching Facebook X (Twitter) Instagram Tuesday, November 10 Facebook X (Twitter) LinkedIn Instagram Telegram Global Changemakers’ Media Impact Academy 2027 for Youth in the USA (A chance to win a $1,000 grant) Opportunity Desk November 6, 2026 3 Mins Read Facebook Twitter WhatsApp Pinterest LinkedIn Tumblr Email Telegram Deadline: December 18, 2026 Applications are open for the Media Impact Academy , a Nationwide initiative engaging 500 youth across the United States. Designed for young adults navigating early financial independence, this 90-day challenge equips you with practical financial skills, project management tools, and storytelling capabilities to transform your personal habits and drive real community impact. Whether you are managing money on your own for the first time, or looking to lead change in your community, this program provides real-world tools and direct monetary rewards as you learn. In partnership with Wells Fargo and Univision, Global Changemakers is hosting a nationwide program designed to empower young adults ( ages 18–24 ) in the U.S.A through media training, storytelling, leadership development, and financial literacy. It is only open to youth in the US. This 90-day challenge equips participants navigating early financial independence with practical tools to transform their personal financial habits and drive real community impact. The program includes online courses covering: – Project Management (by Global Changemakers) – Understanding Misinformation (by Univision) – Financial Education (by Wells Fargo) Benefits While there is a $10 entry fee, participants who complete key milestones can earn incentives up to $205, receive specialized training, and become eligible to apply for $1,000 micro-grants to implement community projects. $205 in direct cash incentives, with milestone payments deposited directly into their savings account as you build healthy financial habits. Access to project management training and certification through Global Changemakers’ digital platform, helping you develop practical, workforce-ready skills. Eligible to compete for $1,000 project grants to launch a community impact initiative and join the Global Changemakers Network. 100% accessible — no college degree, previous journalism experience, or professional equipment is required. All you need is commitment and a smartphone. Eligibility This program is available for young people in the United States who are between 18-24 years old. The program is designed for beginners who want to build practical money habits and learn basic mobile storytelling. Current or prior college enrollment is not required. Requirements Personal Savings Account Verification: Submit documents of a valid savings account held in your name at a bank offering Zelle. Wells Fargo is recommended due to its low maintenance requirements. $15 Incentive. Educational Modules & Social Media Submissions: Complete all financial education playbooks on the Wells Fargo Saving Cents Platform & publish 3 educational videos on social media reflecting your financial learnings. Use tags #MoneyMovesChallenge #MediaImpactAcademy #GlobalChangemakers $90 Incentive Demonstration of Sustained Savings: Fill out t",
+        "structuredData": [
+          {
+            "@type": "Article",
+            "url": "https://opportunitydesk.org/2026/11/06/global-changemakers-media-impact-academy-2027-for-youth-in-the-usa/",
+            "publisher": {
+              "@type": "Organization",
+              "name": "Opportunity Desk"
+            },
+            "author": {
+              "@type": "Person",
+              "name": "Opportunity Desk",
+              "url": "https://opportunitydesk.org/author/oppdesk/"
+            },
+            "datePublished": "2026-11-06T17:28:35+00:00",
+            "dateModified": "2026-11-06T17:28:36+00:00"
+          },
+          {
+            "@type": "BreadcrumbList"
+          }
+        ],
+        "resourceLinks": []
+      },
+      "recordDraft": {
+        "id": "707c5ab5a773d759b8eb7438f77f33937c6c3172069182091a3cfc84fba4e86c",
+        "title": "Global Changemakers&#8217; Media Impact Academy 2027 for Youth in the USA (A chance to win a $1,000 grant) – Opportunity Desk",
+        "org": null,
+        "summary": "Global Changemakers’ Media Impact Academy 2027 for Youth in the USA (A chance to win a $1,000 grant) – Opportunity Desk Close Menu Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awards Grants Fellowships Jobs Internships Volunteering Blog OD Specials OD Live Series Young Person of the Month Mentorship OD Mentors Success Stories How-To General Tips ODIC 2025 ODIC 2025 Application ODIC Judges ODIC 2025 Winners ODIC 2023 Winners ODIC 2022 Winners ODIC 2021 Winners ODIC 2019 Winners ODIC 2018 Winners ODIC 2017 Winners ODIC 2016 Winners Search Asia Africa Australia and Oceania America Europe Deadlines Approaching Facebook X (Twitter) Instagram Tuesday, November 10 Facebook X (Twitter) LinkedIn Instagram Telegram Global Changemakers’ Media Impact Academy 2027 for Youth in the USA (A chance to win a $1,000 grant) Opportunity Desk November 6, 2026 3 Mins Read Facebook Twitter WhatsApp Pinterest LinkedIn Tumblr Email Telegram Deadline: December 18, 2026 Applications are open for the Media Impact Academy , a Nationwid",
+        "type": "grant",
+        "themes": [
+          "Jornalismo"
+        ],
+        "scope": "It is only open to youth in the US.",
+        "fit": 6,
+        "deadline": "2026-12-18",
+        "deadlineStatus": "Confirmado na página oficial; fuso horário não informado.",
+        "eligibility": "parcial",
+        "status": "aberta",
+        "rules": "https://opportunitydesk.org/2026/11/06/global-changemakers-media-impact-academy-2027-for-youth-in-the-usa",
+        "apply": "https://opportunitydesk.org/2026/11/06/global-changemakers-media-impact-academy-2027-for-youth-in-the-usa"
+      },
+      "missingFields": [
+        "org"
+      ],
+      "reviewDecision": "evidence_complete_for_record_draft",
+      "note": "Ficha preliminar baseada no conteúdo capturado da página. Campos sem evidência permanecem ausentes; a aprovação depende do gate independente de publicação."
+    },
+    {
+      "schemaVersion": 1,
+      "id": "fddd4b182df3b66567567f94336c919bf6954a3c89e9cff41cbf16c679a2d37e",
+      "category": "opportunities",
+      "status": "draft_only",
+      "publicationReady": false,
+      "source": {
+        "url": "https://opportunitydesk.org/2026/11/06/spencer-fellowship-for-education-reporting-2027",
+        "discoveryProviders": [
+          "Opportunity Desk"
+        ],
+        "pageTitle": "Spencer Fellowship for Education Reporting 2027 (Funded) – Opportunity Desk",
+        "checkedAt": "2026-11-10T20:36:10.810Z",
+        "httpStatus": 200,
+        "contentType": "text/html; charset=UTF-8"
+      },
+      "evidence": {
+        "checks": {
+          "callSignal": true,
+          "deadline": "2027-02-04",
+          "eligibility": true
+        },
+        "sourceExcerpt": "Spencer Fellowship for Education Reporting 2027 (Funded) – Opportunity Desk Close Menu Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awards Grants Fellowships Jobs Internships Volunteering Blog OD Specials OD Live Series Young Person of the Month Mentorship OD Mentors Success Stories How-To General Tips ODIC 2025 ODIC 2025 Application ODIC Judges ODIC 2025 Winners ODIC 2023 Winners ODIC 2022 Winners ODIC 2021 Winners ODIC 2019 Winners ODIC 2018 Winners ODIC 2017 Winners ODIC 2016 Winners Search Asia Africa Australia and Oceania America Europe Deadlines Approaching Facebook X (Twitter) Instagram Tuesday, November 10 Facebook X (Twitter) LinkedIn Instagram Telegram Spencer Fellowship for Education Reporting 2027 (Funded) Jude Ogar November 6, 2026 4 Mins Read Facebook Twitter WhatsApp Pinterest LinkedIn Tumblr Email Telegram Deadline: February 4, 2027 Do you have a great idea for an education-related journalism project? Do you need the time and resources to complete it? Apply for the Spencer Fellowship for Education Reporting 2027 . The Spencer Fellowship for Education Reporting is open to journalists and educators who want to develop and publish an ambitious long-form journalism project that advances public understanding of education. Four fellows will be selected for this yearlong program based at Columbia Journalism School. The fellowship combines study and research with advising from faculty experts at Columbia, Teachers College and elsewhere. Financial Support Each residential fellow receives an $85,000 scholarship for personal living expenses. The scholarship is dispensed in four quarters over the course of the academic year. In addition, each fellow receives $7,500 for the year in project expenses, also dispensed in two halves. Separately, the Spencer grant covers the cost of tuition and other student fees, plus basic student health insurance for residential fellows. Non-residential fellows receive a $43,000 stipend and $7,500 project related expenses, dispensed in quarters. Health insurance is not available. Eligibility All U.S. citizens and green card holders are eligible, including working journalists, freelancers and education professionals. There is no academic prerequisite. A college degree is not required. The most successful candidates are those with experience in the field of education journalism, defined in broad terms to include a wide swath of disciplines related to education such as juvenile justice, economics, arts and culture, poverty and the science of learning. Judges look for a demonstrated ability to research and tell stories in a journalistic style. The strength of the project idea is key, along with the candidate’s potential to complete and publish or produce for a general audience. Application Required application materials include: A resume or CV with your professional and educational qualifications. A short narrative autobiography highlighting the personal and professional origins of your commitments to education and journalism. Up to four work samples that demonstrate your approach to using high-quality research to tell compelling education stories for general audiences (stories on related social issues will also be accepted). Work samples may include book excerpts, newspaper and magazine clips, radio and television broadcasts, podcast episodes, film and video excerpts, academic reports and journal articles, and other formats. A proposal essay describing the project you hope to pursue with a Spencer Fellowship. Judges look for ambitious, high-impact projects that draw on high-quality research and make use of narrative journalism techniques such as extensive interviewing and immersive reporting to explore timely, relevant, and under-explored topics in education. Please include descriptions of any related works already in pr",
+        "structuredData": [
+          {
+            "@type": "Article",
+            "url": "https://opportunitydesk.org/2026/11/06/spencer-fellowship-for-education-reporting-2027/",
+            "publisher": {
+              "@type": "Organization",
+              "name": "Opportunity Desk"
+            },
+            "author": {
+              "@type": "Person",
+              "name": "Jude Ogar",
+              "url": "https://opportunitydesk.org/author/judeogar/"
+            },
+            "datePublished": "2026-11-06T15:08:57+00:00",
+            "dateModified": "2026-11-06T15:08:58+00:00"
+          },
+          {
+            "@type": "BreadcrumbList"
+          }
+        ],
+        "resourceLinks": []
+      },
+      "recordDraft": {
+        "id": "fddd4b182df3b66567567f94336c919bf6954a3c89e9cff41cbf16c679a2d37e",
+        "title": "Spencer Fellowship for Education Reporting 2027 (Funded) – Opportunity Desk",
+        "org": null,
+        "summary": "Spencer Fellowship for Education Reporting 2027 (Funded) – Opportunity Desk Close Menu Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awards Grants Fellowships Jobs Internships Volunteering Blog OD Specials OD Live Series Young Person of the Month Mentorship OD Mentors Success Stories How-To General Tips ODIC 2025 ODIC 2025 Application ODIC Judges ODIC 2025 Winners ODIC 2023 Winners ODIC 2022 Winners ODIC 2021 Winners ODIC 2019 Winners ODIC 2018 Winners ODIC 2017 Winners ODIC 2016 Winners Search Asia Africa Australia and Oceania America Europe Deadlines Approaching Facebook X (Twitter) Instagram Tuesday, November 10 Facebook X (Twitter) LinkedIn Instagram Telegram Spencer Fellowship for Education Reporting 2027 (Funded) Jude Ogar November 6, 2026 4 Mins Read Facebook Twitter WhatsApp Pinterest LinkedIn Tumblr Email Telegram Deadline: February 4, 2027 Do you have a great idea for an education-related journalism project? Apply for the Spencer Fellowship for Education Reporting 2027 . The Spencer Fellowship for",
+        "type": "Fellowship",
+        "themes": [
+          "Jornalismo"
+        ],
+        "scope": "The Spencer Fellowship for Education Reporting is open to journalists and educators who want to develop and publish an ambitious long-form journalism project that advances public understanding of education.",
+        "fit": 6,
+        "deadline": "2027-02-04",
+        "deadlineStatus": "Confirmado na página oficial; fuso horário não informado.",
+        "eligibility": "parcial",
+        "status": "aberta",
+        "rules": "https://opportunitydesk.org/2026/11/06/spencer-fellowship-for-education-reporting-2027",
+        "apply": "https://opportunitydesk.org/2026/11/06/spencer-fellowship-for-education-reporting-2027"
+      },
+      "missingFields": [
+        "org"
+      ],
+      "reviewDecision": "evidence_complete_for_record_draft",
+      "note": "Ficha preliminar baseada no conteúdo capturado da página. Campos sem evidência permanecem ausentes; a aprovação depende do gate independente de publicação."
+    },
+    {
+      "schemaVersion": 1,
+      "id": "b0930d71b24348d8802019f8e570f96cea225a204e49d3a4f6b4caa41da98072",
+      "category": "opportunities",
+      "status": "draft_only",
+      "publicationReady": false,
+      "source": {
+        "url": "https://opportunitydesk.org/2026/11/07/call-for-judges-join-the-od-impact-challenge-2026-global-judging-panel",
+        "discoveryProviders": [
+          "Opportunity Desk"
+        ],
+        "pageTitle": "Call for judges : Join the OD Impact Challenge 2026 global judging panel – Opportunity Desk",
+        "checkedAt": "2026-11-10T20:36:10.810Z",
+        "httpStatus": 200,
+        "contentType": "text/html; charset=UTF-8"
+      },
+      "evidence": {
+        "checks": {
+          "callSignal": true,
+          "deadline": "2026-11-30",
+          "eligibility": true
+        },
+        "sourceExcerpt": "Call for judges : Join the OD Impact Challenge 2026 global judging panel – Opportunity Desk Close Menu Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awards Grants Fellowships Jobs Internships Volunteering Blog OD Specials OD Live Series Young Person of the Month Mentorship OD Mentors Success Stories How-To General Tips ODIC 2025 ODIC 2025 Application ODIC Judges ODIC 2025 Winners ODIC 2023 Winners ODIC 2022 Winners ODIC 2021 Winners ODIC 2019 Winners ODIC 2018 Winners ODIC 2017 Winners ODIC 2016 Winners Search Asia Africa Australia and Oceania America Europe Deadlines Approaching Facebook X (Twitter) Instagram Tuesday, November 10 Facebook X (Twitter) LinkedIn Instagram Telegram Call for judges : Join the OD Impact Challenge 2026 global judging panel Favour Abatang November 7, 2026 2 Mins Read Facebook Twitter WhatsApp Pinterest LinkedIn Tumblr Email Telegram Are you passionate about youth leadership, innovation and social impact? Opportunity Desk invites experienced professionals, entrepreneurs, development practitioners and industry leaders to join the global judging panel for the Opportunity Desk Impact Challenge (ODIC) 2026 . The OD Impact Challenge is an annual global competition that recognises and supports young changemakers aged 18–30 who are creating positive change in their communities. Through the challenge, young people showcase their initiatives, share their impact stories and gain access to opportunities that strengthen their work. As a judge, you will play an important role in identifying outstanding young changemakers and recognising innovative solutions addressing social, economic and environmental challenges. Why become a judge? Make an impact: Help recognise and support promising youth-led initiatives. Share your expertise: Contribute your knowledge to evaluating innovative projects. Connect globally: Engage with professionals and changemakers from diverse backgrounds. Support young leaders: Help identify initiatives with the potential to create lasting change. Who can apply? We welcome applications from professionals with experience in social impact, entrepreneurship, innovation, sustainability, international development, project management, monitoring and evaluation, education, gender equality and related fields. Applicants should demonstrate sound judgement, integrity and a commitment to supporting young changemakers. Previous judging or project evaluation experience is an advantage. Responsibilities Selected judges will review applications, assess project innovation, community impact and sustainability, and contribute to a fair and transparent selection process. How to apply Interested applicants should complete the online application form, providing details of their professional experience, expertise and motivation for joining the judging panel. Deadline: November 30, 2026 – Click here to apply Lend Your Expertise. Discover Changemakers. Shape Global Impact. Share. Facebook Twitter WhatsApp LinkedIn Email Pinterest Telegram Previous Article Global Changemakers’ Media Impact Academy 2027 for Youth in the USA (A chance to win a $1,000 grant) Next Article Arewa Creative Writing and Advocacy Fellowship (ACWAF) 2026 – Cohort 1 Favour Abatang Facebook X (Twitter) Instagram LinkedIn Favour Abatang is a Non-profit Executive and International Development Expert with experience leading an organisation, curating programs, and fundraising. She has made significant strides in supporting teenage mothers and at-risk girls through tailored second-chance opportunities. She is currently expanding her impact as the Community Manager at Opportunity Desk. Related Posts 21 Hot Job Opportunities Currently Open – November 7, 2026 November 7, 2026 How to Turn Your Passion into Income: 5 Practical Ways to Make Money Doing What You Love November 7, 2026 G",
+        "structuredData": [
+          {
+            "@type": "Article",
+            "url": "https://opportunitydesk.org/2026/11/07/call-for-judges-join-the-od-impact-challenge-2026-global-judging-panel/",
+            "publisher": {
+              "@type": "Organization",
+              "name": "Opportunity Desk"
+            },
+            "author": {
+              "@type": "Person",
+              "name": "Favour Abatang",
+              "url": "https://opportunitydesk.org/author/favourabatang/"
+            },
+            "datePublished": "2026-11-07T00:19:14+00:00",
+            "dateModified": "2026-11-07T21:14:01+00:00"
+          },
+          {
+            "@type": "BreadcrumbList"
+          }
+        ],
+        "resourceLinks": []
+      },
+      "recordDraft": {
+        "id": "b0930d71b24348d8802019f8e570f96cea225a204e49d3a4f6b4caa41da98072",
+        "title": "Call for judges : Join the OD Impact Challenge 2026 global judging panel – Opportunity Desk",
+        "org": "Opportunity Desk",
+        "summary": "Call for judges : Join the OD Impact Challenge 2026 global judging panel – Opportunity Desk Close Menu Home Conferences Training Scholarships Undergraduate Short Courses Online Courses Masters/Postgraduate PhD Postdoctoral Study Abroad Study in Africa Study in Asia Study in Australia Study in Europe Study in USA Competitions Awards Grants Fellowships Jobs Internships Volunteering Blog OD Specials OD Live Series Young Person of the Month Mentorship OD Mentors Success Stories How-To General Tips ODIC 2025 ODIC 2025 Application ODIC Judges ODIC 2025 Winners ODIC 2023 Winners ODIC 2022 Winners ODIC 2021 Winners ODIC 2019 Winners ODIC 2018 Winners ODIC 2017 Winners ODIC 2016 Winners Search Asia Africa Australia and Oceania America Europe Deadlines Approaching Facebook X (Twitter) Instagram Tuesday, November 10 Facebook X (Twitter) LinkedIn Instagram Telegram Call for judges : Join the OD Impact Challenge 2026 global judging panel Favour Abatang November 7, 2026 2 Mins Read Facebook Twitter WhatsApp Pinterest LinkedIn Tumblr Email Telegram Are you passionate about youth leadership, innovation and social impact? The OD Impact Challenge is an annual global competition that recognises and s",
+        "type": "Scholarship",
+        "themes": [
+          "Meio ambiente",
+          "Gênero",
+          "Jornalismo"
+        ],
+        "scope": "Who can apply?",
+        "fit": 6,
+        "deadline": "2026-11-30",
+        "deadlineStatus": "Confirmado na página oficial; fuso horário não informado.",
+        "eligibility": "parcial",
+        "status": "aberta",
+        "rules": "https://opportunitydesk.org/2026/11/07/call-for-judges-join-the-od-impact-challenge-2026-global-judging-panel",
+        "apply": "https://opportunitydesk.org/2026/11/07/call-for-judges-join-the-od-impact-challenge-2026-global-judging-panel"
+      },
+      "missingFields": [],
+      "reviewDecision": "evidence_complete_for_record_draft",
+      "note": "Ficha preliminar baseada no conteúdo capturado da página. Campos sem evidência permanecem ausentes; a aprovação depende do gate independente de publicação."
+    }
+  ]
 }
