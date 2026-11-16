@@ -14,6 +14,7 @@ function canonical(raw){
   const k=key.toLowerCase();
   if(safeNumeric.has(k)&&/^\d{1,12}$/.test(value))kept.push([k,value]);
   else if(safeText.has(k)&&/^[a-zA-Z_-]{2,12}$/.test(value))kept.push([k,value.toLowerCase()]);
+  else if(k==='package'&&/(^|\.)r-project\.org$/.test(host)&&/^[A-Za-z][A-Za-z0-9.]{0,79}$/.test(value))kept.push([k,value]);
  }
  u.search='';
  for(const [key,value] of kept)u.searchParams.append(key,value);
