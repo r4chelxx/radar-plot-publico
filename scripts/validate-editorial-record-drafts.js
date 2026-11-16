@@ -16,7 +16,8 @@ for(const item of drafts.drafts||[]){
  if(item.status!=='draft_only'||item.publicationReady!==false||item.reviewDecision!=='evidence_complete_for_record_draft')throw Error('Draft cannot represent an approval: '+item.id);
  if(item.approved||item.decision==='approved'||item.review)throw Error('Draft contains an approval-shaped field: '+item.id);
  const candidate=candidates.get(item.id);
- if(!candidate||item.source?.url!==candidate.url)throw Error('Draft source does not match queue candidate: '+item.id);
+ const inspectedUrl=candidate?.audit?.finalUrl||candidate?.url;
+ if(!candidate||item.source?.url!==inspectedUrl)throw Error('Draft source does not match inspected queue candidate: '+item.id);
  if(!/^https:\/\//.test(item.source.url||''))throw Error('Draft source must use HTTPS: '+item.id);
  if(item.evidence?.sourceExcerpt!==String(candidate.audit?.evidenceText||'').replace(/\s+/g,' ').trim().slice(0,4000))throw Error('Draft evidence excerpt mismatch: '+item.id);
  if(!Array.isArray(item.missingFields))throw Error('Draft must report missing fields: '+item.id);
