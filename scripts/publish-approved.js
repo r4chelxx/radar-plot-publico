@@ -4,7 +4,7 @@
 const fs=require('node:fs'),vm=require('node:vm'),crypto=require('node:crypto');
 const {cleanText,cleanTitle,cleanSummary}=require('./editorial-text');
 const {rollingApplicationEvidence}=require('./editorial-page-evidence');
-const {normalizeToolName}=require('./build-editorial-record-drafts');
+const {normalizeToolName,eligibilityScope}=require('./build-editorial-record-drafts');
 const manifest=process.argv[2]||'intake/approved-publications.json';
 const source=JSON.parse(fs.readFileSync(manifest,'utf8'));
 if(!Array.isArray(source.approved))throw Error('Manifest requires approved[]');
@@ -90,7 +90,16 @@ for(const entry of source.approved){
  const matchingId=existingUrls.get(canonical);
  if(matchingId&&matchingId!==record.id)throw Error('Official URL already published under '+matchingId+': '+record.id);
  if(!old)existingUrls.set(canonical,record.id);
- if(old){if(old[rule.field]!==record[rule.field])throw Error('Existing record requires explicit update workflow: '+record.id);continue}
+ if(old){
+  if(old[rule.field]!==record[rule.field])throw Error('Existing record requires explicit update workflow: '+record.id);
+  // Refresh only source-derived eligibility fields, with fresh hashed evidence
+  // on the identical source URL. This is a correction, never a new publication.
+  if(category==='opportunities'&&machinePolicy&&Date.now()-Date.parse(proof.checkedAt)<=86400000&&record.scope===eligibilityScope(proof.evidence)&&['elegível','parcial','inelegível','restrita'].includes(record.eligibility)&&(old.scope!==record.scope||old.eligibility!==record.eligibility)){
+   old.scope=record.scope;old.eligibility=record.eligibility;
+   fs.writeFileSync(spec.opportunities.path,'window.RADAR_PARTS=window.RADAR_PARTS||{};\nwindow.RADAR_PARTS.opportunities='+JSON.stringify(D.opportunities,null,2)+';\n');
+  }
+  continue;
+ }
  // Validate category-specific facts for every new record before it can reach the catalog.
  if(category==='opportunities'){
   const allowedEligibility=new Set(['elegível','parcial','inelegível','restrita']);

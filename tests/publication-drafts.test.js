@@ -10,6 +10,8 @@ test('catalog-compatible rolling calls and HTML datasets traverse review, drafti
  assert.deepEqual(extractEvidence('<table><tr><td>Layout</td><td>Menu</td></tr><tr><td>A</td><td>B</td></tr><tr><td>C</td><td>D</td></tr></table>').tabularData,[]);
  const {canonical}=require('../scripts/lead-identity');
  const {normalizeToolName}=require('../scripts/build-editorial-record-drafts');
+ const {eligibilityScope}=require('../scripts/build-editorial-record-drafts');
+ assert.equal(eligibilityScope('Back to all grants Organisation: Foundation Status: Open Deadline: Ongoing Eligibility: journalists in select SADC countries Target Region: Southern Africa Application Language: English'),'journalists in select SADC countries');
  assert.equal(canonical('https://cran.r-project.org/?package=fedmatch&utm_source=email'),'https://cran.r-project.org/?package=fedmatch');
  assert.equal(normalizeToolName('R','',canonical('https://cran.r-project.org/?package=fedmatch')),'fedmatch');
  assert.equal(normalizeToolName('R','','https://cran.r-project.org/package=fedmatch'),'fedmatch');
@@ -32,12 +34,18 @@ test('catalog-compatible rolling calls and HTML datasets traverse review, drafti
   const result=buildAutomaticPublications(drafts,{approved:[]});assert.equal(result.summary.automaticallyApproved,3);
   const known={...rolling.recordDraft,id:'already-published',title:rolling.recordDraft.title.replace(/ /g,' — '),rules:'https://primary.example/grant'};
   const deduped=buildAutomaticPublications(drafts,{approved:[]},new Date(),[known]);assert.equal(deduped.summary.automaticallyApproved,2);assert.equal(deduped.summary.skipped.duplicate,1);
+  const refreshing=buildAutomaticPublications(drafts,{approved:[]},new Date(),[rolling.recordDraft]);assert.equal(refreshing.summary.automaticallyApproved,3);
   const forged=structuredClone(html);forged.evidence.tabularData=[];assert.equal(buildAutomaticPublications({drafts:[forged]},{approved:[]}).summary.automaticallyApproved,0);
   fs.mkdirSync(root+'/data');fs.mkdirSync(root+'/intake');for(const key of ['opportunities','datasets','tools','changelog'])fs.writeFileSync(root+'/data/'+key+'.js','window.RADAR_PARTS.'+key+'=[];');
   fs.writeFileSync(root+'/intake/approved-publications.json',JSON.stringify(result.manifest));
   const output=JSON.parse(cp.execFileSync(process.execPath,[path.resolve('scripts/publish-approved.js')],{cwd:root,encoding:'utf8'}));assert.deepEqual(output.byCategory,{opportunities:2,datasets:1,tools:0});
+  const vm=require('node:vm'),ctx={window:{RADAR_PARTS:{}}};vm.createContext(ctx);vm.runInContext(fs.readFileSync(root+'/data/opportunities.js','utf8'),ctx);
+  ctx.window.RADAR_PARTS.opportunities.find(x=>x.id==='rolling').scope='Bad legacy scope with navigation and unrelated metadata';
+  fs.writeFileSync(root+'/data/opportunities.js','window.RADAR_PARTS.opportunities='+JSON.stringify(ctx.window.RADAR_PARTS.opportunities)+';');
   fs.writeFileSync(root+'/data/tools.js','window.RADAR_PARTS.tools='+JSON.stringify([{id:'r-package',name:'R',url:'https://cran.r-project.org/package=fedmatch',kind:'pacote R',desc:'Record linkage package for R.'},{id:'r-language',name:'R',url:'https://www.r-project.org/',kind:'linguagem',desc:'Statistical computing.'}])+';');
   const second=JSON.parse(cp.execFileSync(process.execPath,[path.resolve('scripts/publish-approved.js')],{cwd:root,encoding:'utf8'}));assert.equal(second.published,0);
+  assert.doesNotMatch(fs.readFileSync(root+'/data/opportunities.js','utf8'),/Bad legacy scope/);
+  assert.match(fs.readFileSync(root+'/data/opportunities.js','utf8'),/open to journalists worldwide with a detailed reporting proposal/);
   assert.match(fs.readFileSync(root+'/data/tools.js','utf8'),/"name": "fedmatch"/);
   assert.match(fs.readFileSync(root+'/data/tools.js','utf8'),/"name": "R"/);
  }finally{fs.rmSync(root,{recursive:true,force:true})}
