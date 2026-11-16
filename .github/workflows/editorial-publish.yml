@@ -59,7 +59,7 @@ jobs:
           node-version: "22"
       - name: Test editorial publication safeguards
         run: |
-          node --test tests/primary-call-record.test.js
+          node --test tests/primary-call-record.test.js tests/opportunity-alias.test.js
           node scripts/test-editorial-pipeline.js
       - name: Test deterministic automated publication gate
         run: node --test tests/automated-publication.test.js
