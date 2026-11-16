@@ -13,12 +13,15 @@ const spec={
 };
 const ctx={window:{RADAR_PARTS:{}}};vm.createContext(ctx);
 for(const name of [...Object.keys(spec).map(x=>spec[x].path),'data/changelog.js'])vm.runInContext(fs.readFileSync(name,'utf8'),ctx,{filename:name});
+if(fs.existsSync('data/sources.js'))vm.runInContext(fs.readFileSync('data/sources.js','utf8'),ctx,{filename:'data/sources.js'});
 const D=ctx.window.RADAR_PARTS,insertions={opportunities:[],datasets:[],tools:[]},log=[];
 const dateParts=Object.fromEntries(new Intl.DateTimeFormat('en-US',{timeZone:'America/Bahia',year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(new Date()).map(p=>[p.type,p.value]));
 const today=[dateParts.year,dateParts.month,dateParts.day].join('-');
 const safeUrl=x=>{try{const u=new URL(x);return u.protocol==='https:'&&!!u.hostname}catch{return false}};
 const placeholder=x=>!String(x||'').trim()||/^(?:n\/?a|unknown|not provided|não informado(?: na fonte estruturada)?|não disponível|desconhecido)$/i.test(String(x).trim());
 const canonicalUrl=x=>{const u=new URL(x);u.hash='';u.hostname=u.hostname.toLowerCase();u.pathname=u.pathname.replace(new RegExp('/+$'),'')||'/';return u.toString()};
+const programSources=new Set((D.sources||[]).filter(x=>/oportunidad/i.test(x.category||'')&&/^(?:programa (?:de )?(?:fellowship|bolsas?|financiamento)|pr[eê]mio|edital)/i.test(x.type||'')).filter(x=>safeUrl(x.url)).map(x=>canonicalUrl(x.url)));
+const primaryCall=record=>!aggregator(record)&&safeUrl(record.rules)&&programSources.has(canonicalUrl(record.rules));
 const existingUrls=new Map();
 for(const [category,rule] of Object.entries(spec))for(const existing of D[category]||[]){const value=existing[rule.field];if(safeUrl(value))existingUrls.set(canonicalUrl(value),existing.id)}
 const approvedIds=new Set();
@@ -39,6 +42,8 @@ for(const entry of source.approved){
  if(!record.id||!/^[-a-z0-9]+$/.test(record.id))throw Error('Invalid record ID');
  if(approvedIds.has(record.id))throw Error('Duplicate approval: '+record.id);
  approvedIds.add(record.id);
+ const historicalRecord=D[category].find(x=>x.id===record.id&&x[rule.field]===record[rule.field])
+  ||(category==='opportunities'&&aggregator(record)&&editionKey(record)&&D.opportunities.some(x=>primaryCall(x)&&editionKey(x)===editionKey(record)));
  const machinePolicy=proof.reviewPolicyVersion==='radar-evidence-v1'||proof.reviewedBy==='Radar evidence gate v1';
  const automatedReview=/auditoria automática|automatic(?:ally|ed)?|automated|\b(?:bot|robot)\b/i.test(String(proof.reviewedBy||''));
  const boilerplateEvidence=/metadados estruturados explícitos da própria fonte confirmam os campos publicados|fonte primária https, página html acessível/i.test(String(proof.evidence||''));
@@ -49,7 +54,7 @@ for(const entry of source.approved){
   const digest=crypto.createHash('sha256').update(String(proof.evidence||'')).digest('hex');
   machineValid=proof.reviewedBy==='Radar evidence gate v1'&&proof.reviewPolicyVersion==='radar-evidence-v1'
    &&proof.decision==='approved'&&proof.sourceStatus===200&&/^text\/html\b/i.test(proof.contentType||'')
-   &&Number.isFinite(checkedAt)&&age>=0&&age<=24*60*60*1000
+   &&Number.isFinite(checkedAt)&&age>=0&&(age<=24*60*60*1000||Boolean(historicalRecord))
    &&proof.reviewedAt===String(proof.checkedAt).slice(0,10)
    &&digest===proof.evidenceHash&&requiredChecks.length>0
    &&requiredChecks.every(key=>proof.evidenceChecks?.[key]===true);
@@ -108,6 +113,26 @@ for(const entry of source.approved){
  insertions[category].push(record);
  log.push({type:rule.type,id:record.id,title:record[rule.title],date:today,detail:proof.evidence});
 }
+// Reconcile an aggregator alias only when a primary record for the same named
+// programme and exact deadline already exists or has passed publication checks.
+function aggregator(record){try{return /(^|\.)(?:opportunitydesk\.org|gfmd\.info|grantsforjournalists\.com)$/.test(new URL(record.rules).hostname)}catch{return false}}
+function editionKey(record){
+ if(!/^\d{4}-\d{2}-\d{2}$/.test(record.deadline||''))return null;
+ const name=cleanTitle(record.title,record.org).replace(/\([^)]*(?:funded|paid|stipend)[^)]*\)/gi,'').replace(/\b20\d{2}(?:\s*[-–/]\s*(?:20)?\d{2})?\b/g,'').replace(/^the\s+/i,'').normalize('NFKD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,' ').trim();
+ return name.length>=12?name+'|'+record.deadline:null;
+};
+const allCalls=[...D.opportunities,...insertions.opportunities];
+const primaryKeys=new Set(allCalls.filter(primaryCall).map(editionKey).filter(Boolean));
+const aliases=[...allCalls,...source.approved.filter(x=>x.category==='opportunities').map(x=>x.record)].filter(x=>aggregator(x)&&primaryKeys.has(editionKey(x)));
+const duplicateAliases=new Set(aliases.map(x=>x.id));
+if(duplicateAliases.size){
+ D.opportunities=D.opportunities.filter(x=>!duplicateAliases.has(x.id));
+ insertions.opportunities=insertions.opportunities.filter(x=>!duplicateAliases.has(x.id));
+ log.splice(0,log.length,...log.filter(x=>!duplicateAliases.has(x.id)));
+ D.changelog=D.changelog.map(entry=>Array.isArray(entry.items)?{...entry,items:entry.items.filter(x=>!duplicateAliases.has(x.id))}:entry).filter(entry=>!Array.isArray(entry.items)||entry.items.length);
+ fs.writeFileSync(spec.opportunities.path,'window.RADAR_PARTS=window.RADAR_PARTS||{};\nwindow.RADAR_PARTS.opportunities='+JSON.stringify(D.opportunities,null,2)+';\n');
+ fs.writeFileSync('data/changelog.js','window.RADAR_PARTS=window.RADAR_PARTS||{};\nwindow.RADAR_PARTS.changelog='+JSON.stringify(D.changelog,null,2)+';\n');
+}
 // Archive existing calls after their stated local deadline without counting them as new.
 const pacificToday=new Intl.DateTimeFormat('en-CA',{timeZone:'America/Los_Angeles',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());
 const expired=new Set(D.opportunities.filter(record=>record.status==='aberta'&&
@@ -143,4 +168,4 @@ const updates=Object.values(spec).map(rule=>({rule,items:log.filter(x=>x.type===
  detail:'Registros aprovados individualmente com documentação oficial e evidência editorial: '+items.map(x=>x.title).join('; ')+'.'
 }));
 prepend('data/changelog.js','changelog',updates);
-console.log(JSON.stringify({date:today,approved:source.approved.length,published:log.length,archived,alreadyPresent:source.approved.length-log.length,byCategory:Object.fromEntries(Object.entries(insertions).map(([k,v])=>[k,v.length]))}));
+console.log(JSON.stringify({date:today,approved:source.approved.length,published:log.length,archived,duplicateAliasesRemoved:duplicateAliases.size,alreadyPresent:source.approved.length-log.length,byCategory:Object.fromEntries(Object.entries(insertions).map(([k,v])=>[k,v.length]))}));
