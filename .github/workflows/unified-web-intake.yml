@@ -34,6 +34,8 @@ on:
       - 'tests/lead-category.test.js'
       - 'scripts/merge-editorial-queue.js'
       - 'scripts/audit-editorial-queue.js'
+      - 'scripts/recheck-active-opportunities.js'
+      - 'tests/active-opportunity-review.test.js'
       - 'scripts/review-editorial-evidence.js'
       - 'scripts/build-editorial-record-drafts.js'
       - 'scripts/validate-editorial-record-drafts.js'
@@ -77,6 +79,8 @@ on:
       - 'scripts/import-public-editorial-queue.js'
       - 'scripts/merge-editorial-queue.js'
       - 'scripts/audit-editorial-queue.js'
+      - 'scripts/recheck-active-opportunities.js'
+      - 'tests/active-opportunity-review.test.js'
       - 'scripts/review-editorial-evidence.js'
       - 'scripts/build-editorial-record-drafts.js'
       - 'scripts/validate-editorial-record-drafts.js'
@@ -154,6 +158,11 @@ jobs:
         run: node scripts/test-rls-owner-model.js
       - name: Verify currently deployed public site
         run: node scripts/check-public-health.js
+      - name: Test uniform published opportunity review
+        run: node --test tests/active-opportunity-review.test.js
+      - name: Recheck every published open opportunity
+        if: github.event_name != 'pull_request'
+        run: node scripts/recheck-active-opportunities.js
       - name: Discover new public feed entries
         id: feeds
         continue-on-error: true
@@ -393,6 +402,7 @@ jobs:
         with:
           name: radar-unified-web-intake
           path: |
+            intake/active-opportunity-review.json
             intake/live-web-discovery.json
             intake/live-web-health.json
             intake/public-funding-pages.json
