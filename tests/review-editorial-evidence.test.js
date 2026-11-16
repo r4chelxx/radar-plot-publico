@@ -12,6 +12,7 @@ try{
  item('dataset','datasets',{evidenceText:'',structuredData:[{'@type':'Dataset',name:'City data',license:'CC0',temporalCoverage:'2020/2025',distribution:{contentUrl:'https://example.org/data.csv',encodingFormat:'text/csv'}}]}),
  item('dataset-zip','datasets',{pageTitle:'Sanitation dataset 2025',evidenceText:'Dataset covering municipal sanitation indicators in 2024. Planilhas de informações.',structuredData:[],resourceLinks:[{url:'https://official.example/sanitation.zip',label:'Planilhas de informações'}]}),
  item('dataset-xlsx','datasets',{pageTitle:'Municipal dataset 2025',evidenceText:'Dataset covering municipal sanitation indicators in 2024.',structuredData:[],resourceLinks:[{url:'https://official.example/indicators.xlsx',label:'Planilhas'}]}),
+ item('dataset-api-host','datasets',{pageTitle:'Global indicator dataset',evidenceText:'Annual country data in JSON format.',structuredData:[],resourceLinks:[{url:'https://api.example.org/v2/country/all?format=json',label:'Official API'}]}),
  item('tool','tools',{pageTitle:'Mapping software',evidenceText:'Interactive mapping software that lets journalists create and share maps. Free plan available; paid tiers are described on the pricing page.',structuredData:[]}),
  item('maps-blog','tools',{pageTitle:'Maps Mania',pageDescription:'Maps Mania is a blog dedicated to tracking interactive maps and the tools used to create them.',evidenceText:'Interactive mapping software and tools. Free browser access.',structuredData:[{'@type':'BlogPosting'}]},'https://googlemapsmania.blogspot.com/'),
  item('investigation-podcast','tools',{pageTitle:'Show & Tell from Indicator',pageDescription:'Watch browser extensions in action as investigators navigate tools. Online episodes.',evidenceText:'Free tools for data analysis in digital investigations.',structuredData:[{'@type':'PodcastSeries'}]},'https://open.spotify.com/show/4evRBUG1V8BkbrkmoZZTZf'),
@@ -44,7 +45,7 @@ try{
  assert.equal(result.records.find(x=>x.id==='structured-deadline').checks.deadline,'2099-12-31');
  assert.equal(result.records.find(x=>x.id==='fake-grant').decision,'pending_more_evidence');
  assert.equal(result.records.find(x=>x.id==='dataset').decision,'evidence_complete_for_record_draft');
- for(const id of ['dataset-zip','dataset-xlsx'])assert.equal(result.records.find(x=>x.id===id).decision,'evidence_complete_for_record_draft');
+ for(const id of ['dataset-zip','dataset-xlsx','dataset-api-host'])assert.equal(result.records.find(x=>x.id===id).decision,'evidence_complete_for_record_draft');
  assert.equal(result.records.find(x=>x.id==='tool').decision,'evidence_complete_for_record_draft');
  for(const id of ['maps-blog','investigation-podcast'])assert.equal(result.records.find(x=>x.id===id).decision,'pending_more_evidence');
  assert.equal(result.records.find(x=>x.id==='software-with-blog-link').decision,'evidence_complete_for_record_draft');
