@@ -118,7 +118,7 @@ function review(c){
   const distribution=d?.distribution;
   checks.datasetSignal=!!d||/(dataset|data catalog|open data|dados abertos|base de dados|microdata|microdados|data portal)/i.test(title+' '+text);
   const fileFormat=/\.(?:csv|tsv|json|geojson|xml|parquet|zip|xlsx?|gpkg|geotiff|tiff?|vrt)(?:$|[?#])/i;
-  const linkedResource=(a.resourceLinks||[]).some(x=>{const u=String(x.url||'');return fileFormat.test(u)||(/\/(?:api|download|dataset|datasets|data)(?:\/|$)/i.test(u)&&/download|dataset|data|api/i.test(String(x.label||'')));});
+  const linkedResource=(a.resourceLinks||[]).some(x=>{const u=String(x.url||'');return fileFormat.test(u)||((/\/(?:api|download|dataset|datasets|data)(?:\/|$)/i.test(u)||/^https:\/\/api\./i.test(u))&&/download|dataset|data|api/i.test(String(x.label||'')));});
   checks.directResource=!!(distribution&&/https?:\/\//i.test(flat(distribution)))||linkedResource;
   checks.format=!!(distribution&&/(csv|json|xml|parquet|zip|xlsx?|gpkg|geotiff|tiff?|vrt|api)/i.test(flat(distribution)))||/\b(csv|tsv|json|xml|parquet|shapefile|geojson|zip|xlsx?|gpkg|geotiff|tiff?|vrt)\b/i.test(text)||(a.resourceLinks||[]).some(x=>fileFormat.test(String(x.url||'')));
   checks.coverage=!!(d?.temporalCoverage||d?.spatialCoverage)||/(\b20\d{2}\b|annual|monthly|municipal|national|global|covering|cobre|abrange)/i.test(text);
