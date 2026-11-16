@@ -14,3 +14,9 @@ test('balanced audit fills remaining capacity by oldest queue order',()=>{
  const items=[{id:'old',category:'uncategorized',firstSeen:'2020-01-01'},...['opportunities','datasets','tools'].map(c=>({id:c,category:c,firstSeen:'2025-01-01'}))];
  assert.deepEqual(selectAuditBatch(items,3).map(x=>x.category),['opportunities','datasets','tools']);
 });
+test('stale publication drafts get refreshed within their category quota',()=>{
+ const items=Array.from({length:100},(_,i)=>({id:'old-'+i,category:'opportunities'}));
+ items.push({id:'ready-call',category:'opportunities'},{id:'data',category:'datasets'},{id:'tool',category:'tools'});
+ const batch=selectAuditBatch(items,3,new Set(['ready-call']));
+ assert.deepEqual(batch.map(x=>x.id),['ready-call','data','tool']);
+});
