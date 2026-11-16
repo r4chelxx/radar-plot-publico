@@ -1,6 +1,13 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.tools=[
 {
+  "id": "68fedf64924894e13bb99abb21c12be64ecfb0387bc39c7acd2c64cd5949932f",
+  "name": "Figma: The collaborative canvas for design, code, and AI",
+  "kind": "software para análise de dados",
+  "url": "https://www.figma.com/",
+  "desc": "Figma is the canvas where design, code, and AI come together. From first idea to shipped product — go from concept to production with your whole team, in one place. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
+}, 
+{
   "id": "auto-393eaada993d30d1",
   "name": "datasette-enrichments",
   "kind": "plugin de dados",
