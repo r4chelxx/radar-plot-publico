@@ -1,6 +1,18 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
 {
+  "date": "2026-11-16",
+  "type": "ferramentas",
+  "title": "Publicação editorial verificada — 2026-11-16",
+  "items": [
+    {
+      "id": "68fedf64924894e13bb99abb21c12be64ecfb0387bc39c7acd2c64cd5949932f",
+      "title": "Figma: The collaborative canvas for design, code, and AI"
+    }
+  ],
+  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Figma: The collaborative canvas for design, code, and AI."
+}, 
+{
   "date": "2026-11-15",
   "type": "dados",
   "title": "Publicação editorial verificada — 2026-11-15",
