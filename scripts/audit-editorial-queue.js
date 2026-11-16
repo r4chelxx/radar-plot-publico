@@ -3,13 +3,15 @@
 const fs=require('node:fs');
 const path=require('node:path');
 const {extractEvidence}=require('./editorial-page-evidence');
+const {extractStructuredMetadata,metadataForLink}=require('./structured-lead-metadata');
 const queuePath=process.argv[2]||'intake/editorial-queue.json';
 const reportPath=process.argv[3]||'intake/editorial-queue-audit.json';
 const maxItems=Math.min(250,Math.max(1,Number(process.env.RADAR_QUEUE_AUDIT_LIMIT||150)));
 const maxAgeDays=Math.max(1,Number(process.env.RADAR_QUEUE_AUDIT_MAX_AGE_DAYS||1));
 const now=new Date(),cutoff=now.getTime()-maxAgeDays*86400000;
 
-function selectAuditBatch(items,limit=maxItems){
+function selectAuditBatch(items,limit=maxItems,priorityIds=new Set()){
+ items=[...items].sort((a,b)=>Number(priorityIds.has(b.id))-Number(priorityIds.has(a.id)));
  const selected=[],seen=new Set(),categories=['opportunities','datasets','tools'];
  // Reserve 20% of the audit window per catalog category, then fill by oldest age.
  const reserve=Math.max(1,Math.floor(limit*0.2));
@@ -25,13 +27,34 @@ function selectAuditBatch(items,limit=maxItems){
 const excludedPath=/\/(?:blog|news|press|events?|conference|people|team|authors?|profiles?)\//i;
 const badTitle=/^(?:home|inicio|in[ií]cio|events?|eventos?|news|notícias|about|sobre|contact|contato|menu|blog|resources?)$/i;
 function meta(html,key){for(const tag of html.match(/<meta[^>]*>/gi)||[]){const n=/name=["']([^"']+)["']/i.exec(tag)||/property=["']([^"']+)["']/i.exec(tag),v=/content=["']([^"']*)["']/i.exec(tag);if(n&&v&&n[1].toLowerCase()===key.toLowerCase())return v[1].replace(/&amp;/g,'&').trim()}return ''}
-async function inspect(item){
+function primaryCallUrl(html,source){
+ const base=new URL(source);
+ if(!/(^|\.)(?:opportunitydesk\.org|gfmd\.info|grantsforjournalists\.com)$/.test(base.hostname))return null;
+ for(const link of html.matchAll(/<a\b[^>]*href=["']([^"']+)["'][^>]*>([\s\S]*?)<\/a>/gi)){
+  const context=html.slice(Math.max(0,link.index-180),link.index).replace(/<[^>]+>/g,' ');
+  const label=link[2].replace(/<[^>]+>/g,' ');
+  if(!/official (?:website|page|call)|for more information.{0,140}(?:visit|see)?\s*$/i.test(label+' '+context))continue;
+  try{
+   const u=new URL(link[1].replace(/&amp;/g,'&'),source);
+   if(u.protocol!=='https:'||u.username||u.password||u.hostname===base.hostname||/(?:facebook|twitter|linkedin|instagram|youtube|opportunitydesk|gfmd|grantsforjournalists)\./i.test(u.hostname)||u.hostname==='localhost'||u.hostname.endsWith('.local')||u.hostname.endsWith('.internal')||/^\d|:/.test(u.hostname))continue;
+   return u.href;
+  }catch{}
+ }
+ return null;
+}
+async function inspect(item,followPrimary=true){
  const ctrl=new AbortController(),timer=setTimeout(()=>ctrl.abort(),12000);
  try{
   const res=await fetch(item.url,{redirect:'follow',signal:ctrl.signal,headers:{'user-agent':'Radar-PLOT-Queue-Audit/1.0','accept':'text/html,application/json;q=0.9,*/*;q=0.8'}});
   const type=res.headers.get('content-type')||'';
   const body=await res.text(),html=body.slice(0,500000);
-  const title=(/<title[^>]*>([\s\S]*?)<\/title>/i.exec(html)?.[1]||meta(html,'og:title')||item.title||'').replace(/<[^>]+>/g,' ').replace(/\s+/g,' ').trim().slice(0,240);
+  const primary=followPrimary&&res.ok?primaryCallUrl(html,res.url):null;
+  if(primary&&item.category==='opportunities'){
+   const resolved=await inspect({...item,url:primary,sourceEvidence:'',resourceLinks:[]},false);
+   return {...item,audit:resolved.audit,sourceResolution:{discoveryUrl:item.url,primaryUrl:primary}};
+  }
+  const metadata=metadataForLink(extractStructuredMetadata(html,res.url),res.url);
+  const title=(metadata?.title||/<title[^>]*>([\s\S]*?)<\/title>/i.exec(html)?.[1]||meta(html,'og:title')||item.title||'').replace(/<[^>]+>/g,' ').replace(/\s+/g,' ').trim().slice(0,240);
   const description=(meta(html,'description')||meta(html,'og:description')).slice(0,800);
   const pageEvidence=extractEvidence(html,res.url);
   const normalized=(title+' '+description+' '+item.url).toLowerCase();
@@ -63,16 +86,19 @@ async function main(){
  const pending=queue.candidates.filter(x=>x.status==='pending'&&/^https:\/\//i.test(x.url||''));
  const dueCandidates=pending.filter(x=>x.verificationStatus==='official-web-search'&&x.audit?.result==='inconclusive'||!x.audit?.checkedAt||Date.parse(x.audit.checkedAt)<cutoff)
   .sort((a,b)=>String(a.firstSeen||'').localeCompare(String(b.firstSeen||'')));
- const due=selectAuditBatch(dueCandidates);
+ const draftsPath=path.join(path.dirname(queuePath),'publication-drafts.json');
+ const previousDrafts=fs.existsSync(draftsPath)?JSON.parse(fs.readFileSync(draftsPath,'utf8')).drafts||[]:[];
+ const priorityIds=new Set(previousDrafts.map(x=>x.id));
+ const due=selectAuditBatch(dueCandidates,maxItems,priorityIds);
  let cursor=0;const workers=Array.from({length:8},async()=>{while(cursor<due.length){const i=cursor++;queue.candidates[queue.candidates.findIndex(x=>x.id===due[i].id)]=await inspect(due[i])}});
  await Promise.all(workers);
  const audited=due.map(x=>queue.candidates.find(y=>y.id===x.id));
  const counts={};for(const x of audited)counts[x.audit.result]=(counts[x.audit.result]||0)+1;
  queue.updatedAt=now.toISOString();
  fs.writeFileSync(queuePath,JSON.stringify(queue,null,2)+'\n');
- const report={checkedAt:now.toISOString(),batchLimit:maxItems,intervalDays:maxAgeDays,due:due.length,pending:pending.length,remainingDue:Math.max(0,pending.length-due.length),counts,results:audited.map(({id,title,url,category,audit})=>({id,title,url,category,...audit}))};
+ const report={checkedAt:now.toISOString(),batchLimit:maxItems,intervalDays:maxAgeDays,due:due.length,pending:pending.length,remainingDue:Math.max(0,dueCandidates.length-due.length),priorityDraftsChecked:due.filter(x=>priorityIds.has(x.id)).length,counts,results:audited.map(({id,title,url,category,audit})=>({id,title,url,category,...audit}))};
  fs.mkdirSync(path.dirname(reportPath),{recursive:true});fs.writeFileSync(reportPath,JSON.stringify(report,null,2)+'\n');
  console.log(JSON.stringify({checked:due.length,pending:pending.length,remainingDue:report.remainingDue,counts}));
 }
 if(require.main===module)main().catch(e=>{console.error(e);process.exitCode=1});
-module.exports={selectAuditBatch};
+module.exports={selectAuditBatch,primaryCallUrl};
