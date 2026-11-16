@@ -27,6 +27,8 @@ function explicitOrganization(text){
  if(labeled?.[1])return clean(labeled[1]);
  const unlabeled=source.match(/(?:organisation|organization|organizer|organiser|funder|provider)\s+([^.!?]{2,160}?)(?=\s+(?:status|type|theme|deadline|eligibility|target region|application language|funding size|how to apply|focus area|subject area|award size|career stage|editor'?s note|apply here|location|funding type)\b|[.!?]|$)/i);
  if(unlabeled?.[1])return clean(unlabeled[1]);
+ const host=source.match(/\b(?:based at|hosted by|administered by|organized by|organised by|sediad[ao] (?:na|no)|realizad[ao] pel[ao])\s+([A-Z][\w’'&-]*(?:\s+[A-Z][\w’'&-]*){0,7})/);
+ if(host?.[1])return clean(host[1]);
  const m=source.match(/(?:^|[.!?]\s+)(?:The\s+)?([A-Z][A-Za-z0-9&.'’-]*(?:\s+[A-Z][A-Za-z0-9&.'’-]*){0,3})\s+(?:invites|is pleased to announce|announces)\b/);
  return clean(m?.[1])||null;
 }
@@ -62,7 +64,7 @@ function toolKind(text,applicationCategory,titleKind){
  return null;
 }
 function normalizeToolName(title,text,url){
- let value=clean(title).replace(/\s*[|—–]\s*.+$/,'').replace(/\s+-\s+.+$/,'').trim();
+ let value=clean(title).replace(/:\s*(?:the|your|a|an)\s+.*$/i,'').replace(/\s*[|—–]\s*.+$/,'').replace(/\s+-\s+.+$/,'').trim();
  const rules=[
   [/^welcome to python(?:\.org)?$/i,'Python'],
   [/^r:\s*the r project for statistical computing$/i,'R'],
@@ -105,7 +107,7 @@ function buildDrafts(queue,review,generatedAt=new Date().toISOString()){
   const id=slug(candidate.id||url);
   const record={id};
   if(result.category==='opportunities'){
-   record.title=pageTitle;record.org=org||explicitOrganization(text);
+   record.title=clean(pageTitle).replace(/\s*[-–—|]\s*(?:Opportunity Desk|GFMD|Grants for Journalists)\s*$/i,'');record.org=org||explicitOrganization(text);
    record.summary=evidenceSummary(text,audit.pageDescription);
    const typeMatch=/(fellowship|grant|scholarship|award|prize|contest|competition|bolsa|edital|premia[cç][aã]o)/i.exec(pageTitle+' '+text);
    record.type=typeMatch?typeMatch[0]:'Chamada editorial com financiamento ou prêmio';
@@ -142,7 +144,7 @@ function buildDrafts(queue,review,generatedAt=new Date().toISOString()){
    const data=structured(audit,/softwareapplication|softwareproduct|software/i);
    const titleKind=pageTitle.split(/[-—–]/).slice(1).join(' ').trim()||null;
    const sourceDescription=clean(data.description)||clean(audit.pageDescription)||sentence(text,/\b(?:tool|software|application|library|platform|programming language|statistical computing|data analytics)\b/i);
-   record.name=normalizeToolName(pageTitle,text,url);
+   record.name=normalizeToolName(clean(data.name)||pageTitle,text,url);
    record.kind=toolKind(text,data.applicationCategory,titleKind)
      || (/record\s*linkage|matching two|un-linked data|linkage toolkit/i.test(text)?'record linkage e correspondência de dados':'software para análise de dados');
    record.url=url;

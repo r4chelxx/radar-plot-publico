@@ -1,6 +1,19 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.sources=[
 {
+  "name": "Spencer Education Journalism Fellowship — fonte oficial",
+  "url": "https://spencerfellows.org/about-the-fellowship/",
+  "type": "Programa de fellowship para jornalismo de educação",
+  "scope": "Estados Unidos; cidadãos e residentes permanentes conforme chamada",
+  "role": "Consultar chamada oficial e instruções; distinguir inscrições encerradas de evidência desatualizada; reanalisar novos ciclos sem presumir elegibilidade brasileira",
+  "priority": "Alta",
+  "cadence": "diária",
+  "category": "oportunidades/financiamento",
+  "lastChecked": "2026-11-16",
+  "checkStatus": "chamada 2027–28 aberta na fonte oficial; prazo 2027-02-04"
+},
+
+{
   "name": "Egab — pitches e comissionamento editorial",
   "url": "https://www.egab.co/journalists",
   "type": "Plataforma de envio e avaliação de pitches para jornalistas do Sul Global",
