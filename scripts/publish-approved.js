@@ -122,7 +122,7 @@ let toolNamesRepaired=0;
 for(const record of D.tools){
  try{
   const u=new URL(record.url);
-  if(!/(^|\.)r-project\.org$/.test(u.hostname)||!u.searchParams.has('package')&&!/\/packages\//.test(u.pathname))continue;
+  if(!/(^|\.)r-project\.org$/.test(u.hostname)||!u.searchParams.has('package')&&!/\/(?:packages\/|package=)/.test(u.pathname))continue;
   const name=normalizeToolName(record.name,record.desc,u.href);
   if(name&&name!==record.name){record.name=name;toolNamesRepaired++;for(const entry of D.changelog)for(const item of entry.items||[])if(item.id===record.id)item.title=name;}
  }catch{}
