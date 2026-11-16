@@ -53,6 +53,21 @@ test('Gmail insufficient-scope 403 asks for read-only authorization',async()=>{
  assert.match(r.health[0].recommendedAction,/gmail.readonly/);
 });
 test('Gmail metadata links are unverified candidates',()=>{const r=gmail.extract({subject:'Journalism grant applications',snippet:'Apply https://example.org/grant'});assert.equal(r.length,1);assert.equal(r[0].editorialStatus,'unverified')});
+test('Gmail keeps hidden HTML button destinations and replays older parser checkpoints once',async()=>{
+ const fs=require('node:fs'),os=require('node:os'),path=require('node:path'),crypto=require('node:crypto');
+ const dir=fs.mkdtempSync(path.join(os.tmpdir(),'radar-gmail-html-')),cursor=path.join(dir,'cursor.json');let reads=0;
+ const html='<p>Journalism grant</p><a href="https://official.example/fellowship">Apply now</a><a href="https://official.example/data.csv">Download dataset</a>';
+ const fetcher=async url=>({ok:true,json:async()=>String(url).includes('oauth2.googleapis.com')?{access_token:'test'}:String(url).endsWith('/labels')?{labels:[{id:'L',name:'Radar PLOT.'}]}:String(url).includes('/messages?')?{messages:[{id:'a'}]}:(reads++,{payload:{headers:[{name:'Subject',value:'Weekly digest'}],body:{data:Buffer.from(html).toString('base64url')}},snippet:'New issue'})});
+ const env={RADAR_GMAIL_CLIENT_ID:'x',RADAR_GMAIL_CLIENT_SECRET:'y',RADAR_GMAIL_REFRESH_TOKEN:'z',RADAR_GMAIL_CURSOR_FILE:cursor};
+ try{
+  fs.writeFileSync(cursor,JSON.stringify({complete:true,processedIdHashes:[crypto.createHash('sha256').update('a').digest('hex')]}));
+  const first=await gmail.collect(fetcher,env);assert.equal(first.health[0].status,'ok');assert.equal(first.leads.length,2);assert.equal(reads,1);
+  assert(first.leads.some(x=>x.url==='https://official.example/fellowship'));
+  assert(!JSON.stringify(first).includes('<p>'));
+  assert.equal(JSON.parse(fs.readFileSync(cursor)).extractionVersion,2);
+  await gmail.collect(fetcher,env);assert.equal(reads,1);
+ }finally{fs.rmSync(dir,{recursive:true,force:true})}
+});
 test('Indexed LinkedIn extraction rejects unrelated URLs',()=>{const xml='<item><title>Journalism grant fellowship</title><link>https://www.linkedin.com/posts/example-grant</link></item><item><title>Journalism grant</title><link>https://example.org/grant</link></item>';const r=linkedin.extract(xml);assert.equal(r.length,1);assert.equal(r[0].category,'opportunities')});
 
 test('Gmail historical pagination advances and saves a bounded checkpoint',async()=>{
