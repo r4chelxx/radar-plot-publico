@@ -6,7 +6,7 @@ const {extractEvidence}=require('./editorial-page-evidence');
 const queuePath=process.argv[2]||'intake/editorial-queue.json';
 const reportPath=process.argv[3]||'intake/editorial-queue-audit.json';
 const maxItems=Math.min(250,Math.max(1,Number(process.env.RADAR_QUEUE_AUDIT_LIMIT||150)));
-const maxAgeDays=Math.max(1,Number(process.env.RADAR_QUEUE_AUDIT_MAX_AGE_DAYS||7));
+const maxAgeDays=Math.max(1,Number(process.env.RADAR_QUEUE_AUDIT_MAX_AGE_DAYS||1));
 const now=new Date(),cutoff=now.getTime()-maxAgeDays*86400000;
 
 function selectAuditBatch(items,limit=maxItems){
