@@ -398,6 +398,7 @@ jobs:
       - name: Show source failures in workflow summary
         run: node scripts/summarize-discovery.js
       - name: Upload non-publishing discovery queue
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: radar-unified-web-intake
