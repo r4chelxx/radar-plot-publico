@@ -3,7 +3,7 @@
 // It only approves records when every deterministic gate is present; otherwise it
 // records the blocker and leaves the candidate in review.
 const fs=require('node:fs'),crypto=require('node:crypto');
-const {cleanTitle,cleanSummary}=require('./editorial-text');
+const {cleanTitle,cleanSummary,cleanText}=require('./editorial-text');
 const evidence=JSON.parse(fs.readFileSync(process.argv[2]||'intake/lead-evidence.json','utf8'));
 const review=JSON.parse(fs.readFileSync(process.argv[3]||'intake/editorial-review.json','utf8'));
 const today=new Intl.DateTimeFormat('en-CA',{timeZone:'America/Bahia',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());
@@ -24,7 +24,7 @@ function validPublicationReview(proof,category,url){
  return required.length>0&&required.every(key=>proof.evidenceChecks?.[key]===true);
 }
 function radarRelevantOpportunity(title,text){
- return /(journalis|journalist|report|media|newsroom|investigat|data journalism|data visual|visuali[sz]|story grant|storytelling|documentary|photojournal|photography grant|freelance writer|communicator|science communication)/i.test(String(title||'')+' '+String(text||''));
+ return /\b(journalis\w*|jornalismo|jornalistas?|reporters?|reporting|newsrooms?|investigative journalism|data journalism|data visuali\w*|story grants?|documentary|photojournal\w*|freelance writers?|science communication)\b/i.test(String(title||'')+' '+String(text||''));
 }
 function deriveOpportunity(lead,url){
  const se=lead.structuredEvidence||{};
@@ -32,7 +32,7 @@ function deriveOpportunity(lead,url){
  const title=cleanTitle(se.title||lead.pageTitle||lead.sourcePageTitle,organization);
  const description=cleanSummary(se.description||lead.pageDescription,title,organization);
  if(lead.category!=='opportunities'||!se.eligibilityExplicit||se.status!=='aberta'||!title||!description||description.length<60||!organization||!future(se.deadline)||!radarRelevantOpportunity(title,description))return null;
- return {id:derivedId(url),title,org:organization,summary:description,type:se.sourceType||'Oportunidade editorial',themes:['Oportunidade editorial'],scope:'Não especificado',deadline:se.deadline,deadlineStatus:'prazo extraído de metadado estruturado da fonte oficial; horário e condições devem ser conferidos na página',eligibility:'parcial',fit:5,status:'aberta',value:'Não informado na fonte estruturada',duration:'Não informado na fonte estruturada',modality:se.sourceType||'Não especificado',documents:[],restrictions:[],rules:url,apply:url,verified:today,desc:se.description,discoveryUrl:lead.url,verificationHistory:[{date:today,status:'aberta',source:url}]};
+ return {id:derivedId(url),title,org:organization,summary:description,type:se.sourceType||'Oportunidade editorial',themes:['Oportunidade editorial'],scope:cleanText(se.eligibility||lead.eligibility,600),deadline:se.deadline,deadlineStatus:'prazo extraído de metadado estruturado da fonte oficial; horário e condições devem ser conferidos na página',eligibility:'parcial',fit:5,status:'aberta',value:'Não informado na fonte estruturada',duration:'Não informado na fonte estruturada',modality:se.sourceType||'Não especificado',documents:[],restrictions:[],rules:url,apply:url,verified:today,desc:se.description,discoveryUrl:lead.url,verificationHistory:[{date:today,status:'aberta',source:url}]};
 }
 function deriveDataset(lead,url){
  const se=lead.structuredEvidence||{};
@@ -51,12 +51,14 @@ function deriveDataset(lead,url){
  if(nonDataset)return null;
  if(genericTitle||navigationNoise||!datasetSignal)return null;
  if(sourceType&&!/dataset|datacatalog|catalog|data[- ]?catalog/.test(sourceType))return null;
- return {id:derivedId(url),name:title,org:organization,territoryTier:'Outros',kind:'dataset',themes:['Dados abertos'],coverage:description,frequency:'Não informado na fonte estruturada',format:'Não informado na fonte estruturada',period:'Não informado na fonte estruturada',granularity:'Não informado na fonte estruturada',geoUnit:'Não informado na fonte estruturada',api:'Não informado na fonte estruturada',docs:url,limitations:'Metadados estruturados confirmam a existência do recurso, mas cobertura, atualização, licença e qualidade devem ser conferidas antes do uso editorial.',lastChecked:today,url,discoveryUrl:lead.url,description};
+ return {id:derivedId(url),name:title,org:organization,territoryTier:'Outros',kind:'dataset',themes:['Dados abertos'],coverage:description,frequency:'Não informado na fonte estruturada',format:se.encodingFormat||se.distribution?.encodingFormat||((lead.evidenceText||description).match(/\b(?:CSV|JSON|XML|Parquet|GeoJSON|shapefile)\b/i)||[])[0]||'',period:'Não informado na fonte estruturada',granularity:'Não informado na fonte estruturada',geoUnit:'Não informado na fonte estruturada',api:se.distribution?.contentUrl||se.distribution?.url||null,docs:url,limitations:'Metadados estruturados confirmam a existência do recurso, mas cobertura, atualização, licença e qualidade devem ser conferidas antes do uso editorial.',lastChecked:today,url,discoveryUrl:lead.url,description};
 }
 function deriveTool(lead,url){
  const se=lead.structuredEvidence||{};
  const title=se.title||lead.pageTitle||lead.sourcePageTitle;
- const description=se.description||lead.pageDescription;
+ const meta=cleanText(se.description||lead.pageDescription,1200);
+ const body=cleanText(lead.evidenceText,4000);
+ const description=meta.length>=80?meta:cleanText(body,1200);
  const excludedToolPage=new RegExp("mediawiki\\.org|wikidata\\.org/wiki/Special:NewItem|github\\.com/[^\\s]+/blob/|/(?:news|articles?|item|program|blog|tv|conference|events?)(?:/|$)|substack\\.com","i").test(String(url));
  const navigationTool=/jump to content|main menu|navigation|create account|log in|personal tools|toggle the table|page discussion|read edit view history|contents move to sidebar|search search/i.test(String(description));
  if(excludedToolPage||navigationTool)return null;
@@ -64,17 +66,22 @@ function deriveTool(lead,url){
  const sourceType=String(se.sourceType||'').toLowerCase();
  if(sourceType&&!/software|application|tool|product|softwareapplication/.test(sourceType))return null;
  const evidenceText=[title,description,url].join(' ');
- const nonProduct=/\\b(?:podcast|newsletter|article|report|news|course|training|conference|event|community|series|blog|publication|story)\\b/i.test([title,description].join(' '));
+ const nonProduct=/\b(?:podcast|newsletter|article|course|training|conference|event|curated list|blog|publication)\b/i.test(title||'')||/buttondown\.com|substack\.com|\/using\/|\/wiki\/|\/products\/tools|\/advancedsearch|\/20\d{2}\//i.test(url);
  if(nonProduct)return null;
- const inferredKind=/\\bplugin\\b/i.test(evidenceText)?'plugin de dados':/\\b(?:library|biblioteca)\\b/i.test(evidenceText)?'biblioteca de software':/\\b(?:api|sdk|cli)\\b/i.test(evidenceText)?'API/SDK/CLI para dados':/\\b(?:framework|plataforma|platform)\\b/i.test(evidenceText)?'plataforma de dados':null;
+ if(/\b(book|handbook|toolkits?|specialist|developer|portfolio|profile|resources|directory)\b/i.test(title||'')||/skip to main content|select language|all topics|photo library/i.test(description))return null;
+ const inferredKind=/\bplugin\b/i.test(evidenceText)?'plugin de dados':/\b(?:library|biblioteca)\b/i.test(evidenceText)?'biblioteca de software':/\b(?:api|sdk|cli)\b/i.test(evidenceText)?'API/SDK/CLI para dados':/\b(?:framework|plataforma|platform)\b/i.test(evidenceText)?'plataforma de dados':null;
  if(!sourceType&&!inferredKind)return null;
- return {id:derivedId(url),name:title,kind:se.sourceType||inferredKind,url,desc:description+' Revisar licença, limites, privacidade e acessibilidade antes do uso editorial.',discoveryUrl:lead.url};
+ const name=cleanTitle(title,se.organization||'').split(/\s*[|:]\s*/)[0].replace(/\s+-\s+a (?:plugin|library|platform)\b.*$/i,'').trim();
+ if(!name||/^(github|home|tools|resources|início)$/i.test(name))return null;
+ return {id:derivedId(url),name,kind:inferredKind||se.sourceType,url,desc:description+' Consultar documentação e licença antes do uso editorial.',discoveryUrl:lead.url};
 }
 const results=(evidence.results||[]);
 const byId=new Map((review.candidates||[]).map(x=>[x.id,x]));
+const urlKey=value=>{try{const u=new URL(value);u.hash='';return u.toString().replace(/\/$/,'')}catch{return value}};
+const byUrl=new Map((review.candidates||[]).map(x=>[urlKey(x.url),x]));
 const decisions=[], blockers=[];
 for(const lead of results){
- const r=byId.get(lead.historicalId||lead.id)||lead;
+ const r=byId.get(lead.historicalId||lead.id)||byUrl.get(urlKey(lead.url))||lead;
  const url=lead.finalUrl||lead.url;
  const base={url:lead.url||url,category:lead.category,reviewedBy:'Radar PLOT — auditoria automática conservadora',reviewedAt:today};
  const fail=[];
@@ -111,6 +118,6 @@ for(const lead of results){
  if(fail.length){blockers.push({url:lead.url,category:lead.category,blockers:fail});continue}
  decisions.push({...base,status:'approved',officialUrl:url,publicationReviewV1,reason:record.id.startsWith('auto-')?'Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes.':'Fonte primária HTTPS, página HTML acessível, domínio preservado, prazo/eligibilidade/status e duplicidade verificados automaticamente; ficha pública completa anexada.',record});
 }
-const out={schemaVersion:1,generatedAt:new Date().toISOString(),policy:'Aprovação automática somente com ficha completa e comprovante individual Radar evidence gate v1 validado; demais itens permanecem em revisão.',decisions,summary:{inspected:results.length,autoApproved:decisions.length,blocked:blockers.length,byBlocker:blockers.reduce((a,x)=>{for(const b of x.blockers)a[b]=(a[b]||0)+1;return a},{}),today}};
+const out={schemaVersion:1,generatedAt:new Date().toISOString(),policy:'Aprovação automática somente com ficha completa e comprovante individual Radar evidence gate v1 validado; demais itens permanecem em revisão.',decisions,blockers,summary:{inspected:results.length,autoApproved:decisions.length,blocked:blockers.length,byBlocker:blockers.reduce((a,x)=>{for(const b of x.blockers)a[b]=(a[b]||0)+1;return a},{}),today}};
 fs.writeFileSync(process.argv[4]||'intake/auto-editorial-decisions.json',JSON.stringify(out,null,2)+'\n');
 console.log(JSON.stringify(out.summary));

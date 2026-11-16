@@ -22,7 +22,7 @@ function cleanTitle(value,organization=''){
  const org=cleanText(organization,120);
  if(org){
   const escapedOrg=org.replace(/[|\\{}()[\]^$+*?.-]/g,'\\$&');
-  title=title.replace(new RegExp('\\\\s*(?:[-–—|:]\\\\s*)?'+escapedOrg+'\\\\s*$','i'),'').trim();
+  title=title.replace(new RegExp('\\s+[-–—|:]\\s*'+escapedOrg+'\\s*$','i'),'').trim();
  }
  title=title.replace(/\s*(?:[-–—|:]\s*)?(?:GFMD|Opportunity Desk|Arcmira|Arcimra)\s*$/i,'').trim();
  return title.replace(/\s+[-–—|:]\s*$/,'').trim();

@@ -48,7 +48,7 @@ function extractStructuredMetadata(html,baseUrl){
   const title=clean(item.name||item.headline||item.alternateName||item.title,240);
   const description=clean(item.description||item.abstract,700);
   if(!title&&!description&&!url&&!deadline&&!eligibility)return null;
-  return {url,title,description,organization,deadline,eligibility,eligibilityExplicit,sourceType:item['@type']||null};
+  return {url,title,description,organization,deadline,eligibility,eligibilityExplicit,sourceType:item['@type']||null,distribution:item.distribution||null,encodingFormat:item.encodingFormat||null,temporalCoverage:item.temporalCoverage||null,spatialCoverage:item.spatialCoverage||null,license:item.license||null};
  }).filter(Boolean);
 }
 function metadataForLink(metadata,url){
