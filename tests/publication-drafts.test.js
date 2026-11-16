@@ -34,6 +34,7 @@ test('catalog-compatible rolling calls and HTML datasets traverse review, drafti
   const result=buildAutomaticPublications(drafts,{approved:[]});assert.equal(result.summary.automaticallyApproved,3);
   const known={...rolling.recordDraft,id:'already-published',title:rolling.recordDraft.title.replace(/ /g,' — '),rules:'https://primary.example/grant'};
   const deduped=buildAutomaticPublications(drafts,{approved:[]},new Date(),[known]);assert.equal(deduped.summary.automaticallyApproved,2);assert.equal(deduped.summary.skipped.duplicate,1);
+  const refreshing=buildAutomaticPublications(drafts,{approved:[]},new Date(),[rolling.recordDraft]);assert.equal(refreshing.summary.automaticallyApproved,3);
   const forged=structuredClone(html);forged.evidence.tabularData=[];assert.equal(buildAutomaticPublications({drafts:[forged]},{approved:[]}).summary.automaticallyApproved,0);
   fs.mkdirSync(root+'/data');fs.mkdirSync(root+'/intake');for(const key of ['opportunities','datasets','tools','changelog'])fs.writeFileSync(root+'/data/'+key+'.js','window.RADAR_PARTS.'+key+'=[];');
   fs.writeFileSync(root+'/intake/approved-publications.json',JSON.stringify(result.manifest));
