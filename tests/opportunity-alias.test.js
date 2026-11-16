@@ -13,6 +13,8 @@ function load(root,key){const ctx={window:{RADAR_PARTS:{}}};vm.createContext(ctx
 test('same call and deadline retain only the primary record and its restrictions',()=>{
  const root=fixture();try{
   const result=run(root);assert.equal(result.published,0);
+  assert.deepEqual(result.publicationAliases,[{category:'opportunities',id:'aggregator',primaryId:'official'}]);
+  assert.deepEqual(JSON.parse(fs.readFileSync(path.join(root,'intake/publication-aliases.json'),'utf8')).aliases,result.publicationAliases);
   const calls=load(root,'opportunities');assert.equal(calls.length,1);assert.equal(calls[0].id,'official');assert.equal(calls[0].eligibility,'restrita');assert.match(calls[0].scope,/green card/);assert.equal(load(root,'changelog').length,0);
  }finally{fs.rmSync(root,{recursive:true,force:true})}
 });
@@ -42,5 +44,18 @@ test('historical machine evidence remains valid for existing records but never a
   assert.equal(run(root,[{category:'tools',record:tool,review:proof}]).published,0);
   const other={...tool,id:'new',url:'https://new.example/'};
   assert.throws(()=>run(root,[{category:'tools',record:other,review:{...proof,officialUrl:other.url}}]),/item-level editorial verification/);
+ }finally{fs.rmSync(root,{recursive:true,force:true})}
+});
+test('deployment verification requires the primary record and rejects both a live duplicate and a missing primary',()=>{
+ const root=fixture();try{
+  run(root,[{category:'opportunities',record:alias,review:{decision:'approved',reviewedBy:'Editorial QA',reviewedAt:'2026-11-16',officialUrl:alias.rules,evidence:'The application deadline and eligibility were checked on the referenced page.'}}]);
+  const preload=path.join(root,'mock-fetch.cjs');
+  fs.writeFileSync(preload,"global.fetch=async()=>({ok:true,text:async()=>require('node:fs').readFileSync('served.json','utf8')});");
+  const verify=()=>cp.execFileSync(process.execPath,['--require',preload,path.resolve('scripts/verify-published-records.js')],{cwd:root,env:{...process.env,RADAR_DEPLOY_RETRIES:'1'},encoding:'utf8',stdio:['ignore','pipe','pipe']});
+  fs.writeFileSync(path.join(root,'served.json'),JSON.stringify([primary]));assert.match(verify(),/contains all approved/);
+  fs.writeFileSync(path.join(root,'served.json'),JSON.stringify([primary,alias]));assert.throws(verify,/duplicate:aggregator/);
+  fs.writeFileSync(path.join(root,'served.json'),'[]');assert.throws(verify,/missing approved records/);
+  fs.writeFileSync(path.join(root,'served.json'),JSON.stringify([primary]));
+  fs.writeFileSync(path.join(root,'intake/approved-publications.json'),JSON.stringify({approved:[{category:'opportunities',record:{id:'unknown'}}]}));assert.throws(verify,/unknown/);
  }finally{fs.rmSync(root,{recursive:true,force:true})}
 });
