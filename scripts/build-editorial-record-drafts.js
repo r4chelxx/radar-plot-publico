@@ -27,14 +27,17 @@ function explicitOrganization(text){
  if(labeled?.[1])return clean(labeled[1]);
  const unlabeled=source.match(/(?:organisation|organization|organizer|organiser|funder|provider)\s+([^.!?]{2,160}?)(?=\s+(?:status|type|theme|deadline|eligibility|target region|application language|funding size|how to apply|focus area|subject area|award size|career stage|editor'?s note|apply here|location|funding type)\b|[.!?]|$)/i);
  if(unlabeled?.[1])return clean(unlabeled[1]);
- const host=source.match(/\b(?:based at|hosted by|administered by|organized by|organised by|sediad[ao] (?:na|no)|realizad[ao] pel[ao])\s+([A-Z][\w’'&-]*(?:\s+[A-Z][\w’'&-]*){0,7})/);
+ const host=source.match(/\b(?:[Bb]ased at|[Hh]osted by|[Aa]dministered by|[Oo]rganized by|[Oo]rganised by|[Ss]ediad[ao] (?:na|no)|[Rr]ealizad[ao] pel[ao])\s+([A-Z][\w’'&-]*(?:\s+[A-Z][\w’'&-]*){0,7})/);
  if(host?.[1])return clean(host[1]);
  const m=source.match(/(?:^|[.!?]\s+)(?:The\s+)?([A-Z][A-Za-z0-9&.'’-]*(?:\s+[A-Z][A-Za-z0-9&.'’-]*){0,3})\s+(?:invites|is pleased to announce|announces)\b/);
  return clean(m?.[1])||null;
 }
 function eligibilityScope(text){
- return sentence(text,/applicants?[^.!?]{0,180}(?:globally|worldwide|world-wide)[^.!?]*(?:may enter|can apply|eligible)/i)
-  ||sentence(text,/(eligible|eligibility|who can (?:apply|enter|participate)|participants must|entry requirements|age(?:d)? 18 and up|18 years and older|globally may enter|open to|elegibilidade|elegível|podem se candidatar)/i);
+ const normalized=String(text||'').replace(/\bU\.S\./g,'US');
+ const scope=sentence(normalized,/applicants?[^.!?]{0,180}(?:globally|worldwide|world-wide)[^.!?]*(?:may enter|can apply|eligible)/i)
+  ||sentence(normalized,/(eligible|eligibility|who can (?:apply|enter|participate)|participants must|entry requirements|age(?:d)? 18 and up|18 years and older|globally may enter|open to|elegibilidade|elegível|podem se candidatar)/i);
+ const restrictions=normalized.split(/(?<=[.!?])\s+/).filter(x=>/citizens?|green card|permanent residen|eligible countries|must (?:be|reside)|nacionalidade/i.test(x));
+ return scope?[...new Set([scope,...restrictions])].join(' ').slice(0,2200):null;
 }
 function editorialFit(title,text){
  const evidence=String(title||'')+' '+String(text||'');
@@ -48,7 +51,7 @@ function editorialFit(title,text){
 function evidenceSummary(text,description){
  const meta=clean(description);
  if(meta.length>=120)return meta.slice(0,1200);
- const matches=String(text||'').split(/(?<=[.!?])\s+/).filter(x=>/(grant|fellowship|funding|award|scholarship|prize|contest|competition|application|deadline|eligib|journalism|reporting|bolsa|edital|inscri[cç][aã]o|jornalismo)/i.test(x));
+ const matches=String(text||'').split(/(?<=[.!?])\s+/).filter(x=>!/(?:skip to|primary navigation|close menu|view full list)/i.test(x)&&/(grant|fellowship|funding|award|scholarship|prize|contest|competition|application|deadline|eligib|journalism|reporting|bolsa|edital|inscri[cç][aã]o|jornalismo)/i.test(x));
  const value=clean(matches.join(' '));
  return value.length>=120?value.slice(0,1200):null;
 }
@@ -100,8 +103,11 @@ function buildDrafts(queue,review,generatedAt=new Date().toISOString()){
  const candidates=new Map((queue.candidates||[]).map(x=>[x.id,x]));
  const eligible=(review.records||[]).filter(x=>x.decision==='evidence_complete_for_record_draft'&&x.publicationReady===false&&candidates.has(x.id));
  const drafts=eligible.map(result=>{
-  const candidate=candidates.get(result.id),audit=candidate.audit||{},rawText=clean(audit.evidenceText),text=clean([rawText,audit.pageDescription].filter(Boolean).join(' ')),url=candidate.url;
-  const pageTitle=clean(audit.pageTitle||candidate.title);
+  const candidate=candidates.get(result.id),audit=candidate.audit||{},rawText=clean(audit.evidenceText),text=clean([rawText,audit.pageDescription].filter(Boolean).join(' ')),url=audit.finalUrl||candidate.url;
+  let pageTitle=clean(audit.pageTitle||candidate.title);
+  if(result.category==='opportunities'&&/^(?:how to apply|about(?: the fellowship)?|application)$/i.test(pageTitle)){
+   pageTitle=(rawText.match(/\b(?:[A-Z][\w’'&-]*\s+){1,8}(?:Fellowship|Grant|Award|Competition)\b(?:\s+for(?:\s+[A-Z][\w’'&-]*){1,5})?/)?.[0]||pageTitle).replace(/^The\s+/,'');
+  }
   const organization=structured(audit,/organization|dataset|softwareapplication|softwareproduct/i);
   const org=publisherName(organization)||null;
   const id=slug(candidate.id||url);
@@ -117,8 +123,8 @@ function buildDrafts(queue,review,generatedAt=new Date().toISOString()){
    record.scope=eligibilityScope(text);
    record.fit=editorialFit(pageTitle,text+' '+record.scope);
    record.deadline=result.checks.deadline||null;
-   record.deadlineStatus=record.deadline?'Confirmado na página oficial; fuso horário não informado.':null;
-   record.eligibility=record.scope?'parcial':null;
+   record.deadlineStatus=record.deadline?'Prazo confirmado na fonte consultada; conferir horário e fuso no edital.':null;
+   record.eligibility=record.scope?(/must (?:also )?be US citizens?|green card holders/i.test(record.scope)?'restrita':'parcial'):null;
    record.status=record.deadline&&record.deadline>=todayBahia()&&result.checks.callSignal?'aberta':null;
    record.rules=url;record.apply=url;
   }else if(result.category==='datasets'){
