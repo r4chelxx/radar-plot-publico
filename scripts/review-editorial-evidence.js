@@ -14,6 +14,14 @@ const excludedToolUrl=/(?:creativeapplications\.net(?:\/|$)|propublica\.org\/dat
 const excludedToolContent=/\b(?:community of creative practitioners|critical making|published \d{2,}[,\d]* articles|membership plans?|research advisory|consulting services|course|training program|newsroom archive)\b/i;
 function toolIdentity(c,title,docs){
  const structured=docs.some(x=>/softwareapplication|softwareproduct/.test(flat(x['@type']).toLowerCase()));
+ // Editorial pages may describe many real tools. Those references do not make
+ // the blog or podcast itself a software product.
+ const editorialTypes=/^(?:blog|blogposting|newsarticle|article|podcastseries|podcastepisode)$/i;
+ const types=docs.flatMap(x=>Array.isArray(x['@type'])?x['@type']:[x['@type']]).filter(Boolean);
+ const editorialIdentity=types.length>0&&types.every(type=>editorialTypes.test(String(type)));
+ const editorialDescription=/\b(?:is a blog|blog dedicated to|listen to .{0,180} on spotify)\b/i.test(String(c.audit?.pageDescription||''));
+ const audioPage=/^https:\/\/(?:open\.spotify\.com\/(?:show|episode)\/|podcasts\.apple\.com\/)/i.test(String(c.url||''));
+ if(audioPage||(!structured&&(editorialIdentity||editorialDescription)))return false;
  const newsletterSource=/Gmail Radar PLOT/i.test([c.sourceName||'',...(c.providers||[])].join(' '));
  const surface=[newsletterSource?'':title,newsletterSource?'':String(c.title||''),String(c.url||'').split('/').filter(Boolean).slice(-1)[0]||'',String(c.audit?.pageTitle||''),String(c.audit?.pageDescription||'')].join(' ');
  return structured||(!excluded.test(surface)&&/(software|tool|platform|application|library|framework|plugin|extension|programming language|statistical computing|ferramenta|plataforma|aplicativo|biblioteca)/i.test(surface));
