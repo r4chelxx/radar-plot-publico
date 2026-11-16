@@ -23,9 +23,11 @@ function toolIdentity(c,title,docs){
  const editorialDescription=/\b(?:is a blog|blog dedicated to|listen to .{0,180} on spotify)\b/i.test(String(c.audit?.pageDescription||''));
  const audioPage=/^https:\/\/(?:open\.spotify\.com\/(?:show|episode)\/|podcasts\.apple\.com\/)/i.test(String(c.url||''));
  if(audioPage||(!structured&&(editorialIdentity||editorialDescription)))return false;
+ let cranPackage=false;
+ try{const u=new URL(c.audit?.finalUrl||c.url);cranPackage=/(^|\.)r-project\.org$/.test(u.hostname)&&(/^[A-Za-z][A-Za-z0-9.]{0,79}$/.test(u.searchParams.get('package')||'')||/^\/package=[A-Za-z][A-Za-z0-9.]{0,79}\/?$|\/packages\/[A-Za-z][A-Za-z0-9.]{0,79}(?:\/|$)/.test(u.pathname));}catch{}
  const newsletterSource=/Gmail Radar PLOT/i.test([c.sourceName||'',...(c.providers||[])].join(' '));
  const surface=[newsletterSource?'':title,newsletterSource?'':String(c.title||''),String(c.url||'').split('/').filter(Boolean).slice(-1)[0]||'',String(c.audit?.pageTitle||''),String(c.audit?.pageDescription||'')].join(' ');
- return structured||(!excluded.test(surface)&&/(software|tool|platform|application|library|framework|plugin|extension|programming language|statistical computing|ferramenta|plataforma|aplicativo|biblioteca)/i.test(surface));
+ return structured||cranPackage||(!excluded.test(surface)&&/(software|tool|platform|application|library|framework|plugin|extension|programming language|statistical computing|ferramenta|plataforma|aplicativo|biblioteca)/i.test(surface));
 }
 function toolFunction(text,docs){
  if(/\b(?:browser automation tool|automates browsers|(?:headless )?graphics framework|javascript 3d library|create responsive graphics)\b/i.test(text))return true;
