@@ -2,28 +2,52 @@ window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
 {
   "date": "2026-11-16",
-  "type": "dados",
-  "title": "Publicação editorial verificada — 2026-11-16",
-  "items": [
-    {
-      "id": "b77b7b65d0138789940e5d01d95b6f6596c51d6330dde9858d501aa0b0cdfa24",
-      "title": "Resultados SINISA 2025"
-    }
-  ],
-  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Resultados SINISA 2025."
-},
-{
-  "date": "2026-11-16",
   "type": "ferramentas",
   "title": "Publicação editorial verificada — 2026-11-16",
   "items": [
     {
-      "id": "c6759019fe5266bd71d3bafd3ed26a4886df16ed8d2af2cf05be2aab0fdbd3e4",
-      "title": "Buttondown"
+      "id": "be9e40b9672b7d79a68ce0c91d7c97b541c7e742d6681c8ed5f43e55e2401e5b",
+      "title": "Three.js"
+    },
+    {
+      "id": "c2ee2f71ce77c43a7a985d95d7cbaa66f179f6fdbc4424ac9f4d85441953b2a8",
+      "title": "Layer Cake"
+    },
+    {
+      "id": "d1d9f0e8c01b765eace5a461bb293de7d52b785ffc9cc6df2a3b0a40b3bde74f",
+      "title": "Selenium"
+    },
+    {
+      "id": "fb1f5945b6820ed90263a3164b11222cb5cbbd33823865ccd8e85e23468238a1",
+      "title": "MuckRock"
     }
   ],
-  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Buttondown."
+  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Three.js; Layer Cake; Selenium; MuckRock."
 }, 
+  {
+    "date": "2026-11-16",
+    "type": "dados",
+    "title": "Publicação editorial verificada — 2026-11-16",
+    "items": [
+      {
+        "id": "b77b7b65d0138789940e5d01d95b6f6596c51d6330dde9858d501aa0b0cdfa24",
+        "title": "Resultados SINISA 2025"
+      }
+    ],
+    "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Resultados SINISA 2025."
+  },
+  {
+    "date": "2026-11-16",
+    "type": "ferramentas",
+    "title": "Publicação editorial verificada — 2026-11-16",
+    "items": [
+      {
+        "id": "c6759019fe5266bd71d3bafd3ed26a4886df16ed8d2af2cf05be2aab0fdbd3e4",
+        "title": "Buttondown"
+      }
+    ],
+    "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Buttondown."
+  },
   {
     "date": "2026-11-16",
     "type": "nova-oportunidade",
