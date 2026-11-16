@@ -2,7 +2,7 @@ window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.datasets=[
 {
   "id": "auto-c1482ab524e0671e",
-  "name": "Tanzania - Demographic and Health Survey and Malaria Indicator...",
+  "name": "Tanzania - Demographic and Health Survey and Malaria Indicator Survey 2022",
   "org": "World Bank Data Catalog",
   "territoryTier": "Outros",
   "kind": "dataset",
@@ -25,7 +25,7 @@ window.RADAR_PARTS.datasets=[
 },
 {
   "id": "auto-8729547975882e61",
-  "name": "Ethiopia - High Frequency Phone Survey 2020-2024 - World Bank...",
+  "name": "Ethiopia - High Frequency Phone Survey 2020-2024",
   "org": "World Bank Data Catalog",
   "territoryTier": "Outros",
   "kind": "dataset",
