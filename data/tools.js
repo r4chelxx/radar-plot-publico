@@ -1,6 +1,14 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.tools=[
 {
+  "id": "auto-fa6ac7a7425587ac",
+  "name": "Reporting Tools",
+  "kind": "biblioteca de software",
+  "url": "https://www.sej.org/library/reporting-tools/overview",
+  "desc": "EPA Leaker's Guide Leaking is back . Today, all the best stories are based on leaks. Journalists are discovering that if the EPA press office puts out a story, it probably isn't news and may not even be true. Reporting Tools Visibility: Public National (U.S.) Journalism & Media Read more about EPA Leaker's Guide Consultar documentação e licença antes do uso editorial.",
+  "discoveryUrl": "https://www.sej.org/library/reporting-tools/overview"
+}, 
+{
   "id": "auto-ce5d51ff262e14cd",
   "name": "Beautiful Soup",
   "kind": "biblioteca de software",
