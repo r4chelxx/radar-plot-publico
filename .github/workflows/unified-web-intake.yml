@@ -159,7 +159,7 @@ jobs:
       - name: Verify currently deployed public site
         run: node scripts/check-public-health.js
       - name: Test uniform published opportunity review
-        run: node --test tests/active-opportunity-review.test.js
+        run: node --test tests/active-opportunity-review.test.js tests/auto-audit-candidates.test.js
       - name: Recheck every published open opportunity
         if: github.event_name != 'pull_request'
         run: node scripts/recheck-active-opportunities.js
