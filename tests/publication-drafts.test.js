@@ -11,6 +11,7 @@ test('catalog-compatible rolling calls and HTML datasets traverse review, drafti
  const {normalizeToolName}=require('../scripts/build-editorial-record-drafts');
  assert.equal(canonical('https://cran.r-project.org/?package=fedmatch&utm_source=email'),'https://cran.r-project.org/?package=fedmatch');
  assert.equal(normalizeToolName('R','',canonical('https://cran.r-project.org/?package=fedmatch')),'fedmatch');
+ assert.equal(normalizeToolName('R','','https://cran.r-project.org/package=fedmatch'),'fedmatch');
  assert.notEqual(canonical('https://cran.r-project.org/?package=fedmatch'),canonical('https://cran.r-project.org/?package=readr'));
  assert.equal(canonical('https://example.org/?package=private-value'),'https://example.org/');
  const root=fs.mkdtempSync(path.join(os.tmpdir(),'radar-catalog-compat-'));
@@ -34,7 +35,7 @@ test('catalog-compatible rolling calls and HTML datasets traverse review, drafti
   fs.mkdirSync(root+'/data');fs.mkdirSync(root+'/intake');for(const key of ['opportunities','datasets','tools','changelog'])fs.writeFileSync(root+'/data/'+key+'.js','window.RADAR_PARTS.'+key+'=[];');
   fs.writeFileSync(root+'/intake/approved-publications.json',JSON.stringify(result.manifest));
   const output=JSON.parse(cp.execFileSync(process.execPath,[path.resolve('scripts/publish-approved.js')],{cwd:root,encoding:'utf8'}));assert.deepEqual(output.byCategory,{opportunities:2,datasets:1,tools:0});
-  fs.writeFileSync(root+'/data/tools.js','window.RADAR_PARTS.tools='+JSON.stringify([{id:'r-package',name:'R',url:'https://cran.r-project.org/?package=fedmatch',kind:'pacote R',desc:'Record linkage package for R.'},{id:'r-language',name:'R',url:'https://www.r-project.org/',kind:'linguagem',desc:'Statistical computing.'}])+';');
+  fs.writeFileSync(root+'/data/tools.js','window.RADAR_PARTS.tools='+JSON.stringify([{id:'r-package',name:'R',url:'https://cran.r-project.org/package=fedmatch',kind:'pacote R',desc:'Record linkage package for R.'},{id:'r-language',name:'R',url:'https://www.r-project.org/',kind:'linguagem',desc:'Statistical computing.'}])+';');
   const second=JSON.parse(cp.execFileSync(process.execPath,[path.resolve('scripts/publish-approved.js')],{cwd:root,encoding:'utf8'}));assert.equal(second.published,0);
   assert.match(fs.readFileSync(root+'/data/tools.js','utf8'),/"name": "fedmatch"/);
   assert.match(fs.readFileSync(root+'/data/tools.js','utf8'),/"name": "R"/);
