@@ -129,18 +129,24 @@ function buildDrafts(queue,review,generatedAt=new Date().toISOString()){
    record.rules=url;record.apply=url;
   }else if(result.category==='datasets'){
    const data=structured(audit,/dataset/i),formats=[data.encodingFormat,data.distribution?.encodingFormat].flat().filter(Boolean);
-   const lower=text.toLowerCase();
    record.name=pageTitle;record.org=org||explicitOrganization(text);
-   record.territoryTier=/\b(national|countrywide|nacional)\b/.test(lower)?'Brasil':/\b(statewide|state|estadual)\b/.test(lower)?'Bahia':/\b(municipal|citywide|cidade)\b/.test(lower)?'Salvador':'Outros';
+   // Administrative scale does not identify a country, state or city.
+   record.territoryTier='Outros';
    record.kind=/catalog|catálogo/i.test(pageTitle+' '+text)?'catalog':/portal/i.test(pageTitle+' '+text)?'portal':/system/i.test(pageTitle+' '+text)?'system':'dataset';
    record.themes=['Dados abertos'];
    record.coverage=sentence(text,/(?:\b20\d{2}\b|annual|monthly|municipal|national|global|covering|cobre|abrange)/i)||clean(audit.pageDescription)||null;
+   const geography=[pageTitle,audit.pageDescription,JSON.stringify(data.spatialCoverage||''),record.coverage].filter(Boolean).join(' ');
+   if(!/\b(global|worldwide)\b/i.test(geography))record.territoryTier=/\b(?:munic[ií]pio de Salvador|Salvador[, ]+(?:Bahia|\(?BA\)?))\b/i.test(geography)?'Salvador':/\bBahia\b/i.test(geography)?'Bahia':/\b(?:Brasil|Brazil)\b/i.test(geography)?'Brasil':'Outros';
    record.frequency=sentence(text,/(?:update frequency|updated|monthly|annual|quarterly|atualiza[cç][aã]o|mensal|anual|trimestral)/i)||unknown;
-   record.format=clean(formats.join(', '))||sentence(text,/\b(csv|tsv|json|xml|parquet|shapefile|geojson|api)\b/i);
+   const fileFormat=/\.(csv|tsv|json|geojson|xml|parquet|zip|xlsx?|gpkg|geotiff|tiff?|vrt)(?:$|[?#])/i;
+   const linkedFormats=[...new Set((audit.resourceLinks||[]).map(x=>String(x.url||'').match(fileFormat)?.[1]?.toUpperCase()).filter(Boolean))];
+   const textFormats=[...new Set((text.match(/\b(?:csv|tsv|json|xml|parquet|shapefile|geojson|zip|xlsx?|gpkg|geotiff|tiff?|vrt)\b/gi)||[]).map(x=>x.toUpperCase()))];
+   record.format=clean(formats.join(', '))||linkedFormats.join(', ')||textFormats.join(', ')||(/\bapi\b/i.test(text)?'API':null);
    record.period=clean(data.temporalCoverage)||sentence(text,/\b20\d{2}\b.{0,30}\b20\d{2}\b/i)||unknown;
    record.granularity=sentence(text,/(?:record-level|individual records|row-level|granular|microdata|microdados|nível de registro)/i)||unknown;
    record.geoUnit=clean(data.spatialCoverage)||sentence(text,/(?:municipal|city|county|state|province|national|global|munic[ií]pio|estado|pa[ií]s)/i)||unknown;
-   const resource=(audit.resourceLinks||[]).find(x=>/^https:\/\//i.test(x.url||'')),distribution=data.distribution||{};
+   const resources=(audit.resourceLinks||[]).filter(x=>/^https:\/\//i.test(x.url||''));
+   const resource=resources.find(x=>fileFormat.test(x.url))||resources.find(x=>/\/(?:api|download|data|datasets?)(?:\/|$)/i.test(new URL(x.url).pathname)&&x.url!==url),distribution=data.distribution||{};
    record.api=distribution.contentUrl||distribution.url||resource?.url||null;
    record.docs=url;
    record.limitations='A página consultada não detalha todas as limitações, a atualização e a qualidade do recurso; conferir documentação e licença antes do uso editorial.';
