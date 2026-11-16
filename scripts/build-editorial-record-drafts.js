@@ -27,7 +27,7 @@ function explicitOrganization(text){
  if(labeled?.[1])return clean(labeled[1]);
  const unlabeled=source.match(/(?:organisation|organization|organizer|organiser|funder|provider)\s+([^.!?]{2,160}?)(?=\s+(?:status|type|theme|deadline|eligibility|target region|application language|funding size|how to apply|focus area|subject area|award size|career stage|editor'?s note|apply here|location|funding type)\b|[.!?]|$)/i);
  if(unlabeled?.[1])return clean(unlabeled[1]);
- const host=source.match(/\b(?:based at|hosted by|administered by|organized by|organised by|sediad[ao] (?:na|no)|realizad[ao] pel[ao])\s+([A-Z][\w’'&.-]*(?:\s+[A-Z][\w’'&.-]*){0,7})/);
+ const host=source.match(/\b(?:based at|hosted by|administered by|organized by|organised by|sediad[ao] (?:na|no)|realizad[ao] pel[ao])\s+([A-Z][\w’'&-]*(?:\s+[A-Z][\w’'&-]*){0,7})/);
  if(host?.[1])return clean(host[1]);
  const m=source.match(/(?:^|[.!?]\s+)(?:The\s+)?([A-Z][A-Za-z0-9&.'’-]*(?:\s+[A-Z][A-Za-z0-9&.'’-]*){0,3})\s+(?:invites|is pleased to announce|announces)\b/);
  return clean(m?.[1])||null;
