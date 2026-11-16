@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-11-16T19:27:43.596Z",
+  "generatedAt": "2026-11-16T21:03:19.830Z",
   "policy": "Evidence-based category triage. Missing license is recorded as unknown when not found; complete means draft eligibility only, never approval or publication.",
   "counts": {
     "pending_more_evidence": 1866,
-    "evidence_complete_for_record_draft": 4
+    "evidence_complete_for_record_draft": 3
   },
   "categoryCounts": {
     "uncategorized": 1590,
-    "opportunities": 192,
+    "opportunities": 191,
     "tools": 30,
     "datasets": 58
   },
@@ -148,7 +148,7 @@
       "url": "https://www.niemanlab.org/2026/10/when-slate-went-back-to-its-1996-homepage-it-learned-some-web-design-lessons-for-2026",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-15T20:33:14.901Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -329,7 +329,7 @@
       "url": "https://www.niemanlab.org/2026/10/in-the-ai-age-publishers-who-understand-what-readers-want-will-do-best-a-new-report-argues",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-15T20:33:14.901Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -370,10 +370,9 @@
       "url": "https://www.niemanlab.org/2026/10/columbia-journalism-school-will-temporarily-pause-its-m-a-program-and-launch-an-online-degree",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-15T20:33:14.901Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
-        "página primária acessível com conteúdo compatível",
         "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
@@ -432,9 +431,10 @@
       "url": "https://www.niemanlab.org/2026/10/chatgpt-is-adding-real-cartoonists-signatures-to-fake-new-yorker-cartoons",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-15T20:33:14.901Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
+        "página primária acessível com conteúdo compatível",
         "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
@@ -503,7 +503,7 @@
       "url": "https://www.commarts.com/competitions",
       "category": "opportunities",
       "originalCategory": "opportunities",
-      "checkedAt": "2026-11-16T19:27:17.528Z",
+      "checkedAt": "2026-11-16T21:02:52.950Z",
       "checks": {
         "callSignal": true,
         "deadline": null,
@@ -603,7 +603,7 @@
       "url": "https://www.niemanlab.org/2026/10/the-ringer-bets-on-substacks-network-over-its-own-website",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-15T20:33:14.901Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -736,9 +736,10 @@
       "url": "https://www.niemanlab.org/2026/09/how-publishers-are-rethinking-audience-engagement-five-takeaways-from-the-future-of-media-technology-conference",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-15T20:33:14.901Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
+        "página primária acessível com conteúdo compatível",
         "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
@@ -749,7 +750,7 @@
       "url": "https://www.niemanlab.org/2026/10/nieman-lab-has-a-new-look",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-15T20:33:14.901Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -763,7 +764,7 @@
       "url": "https://www.niemanlab.org/2026/10/subscribers-are-up-but-growth-is-down-heres-what-worker-owned-hell-gate-is-trying-next",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-15T20:33:14.901Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -804,7 +805,7 @@
       "url": "https://www.niemanlab.org/2026/10/fox-news-attacks-the-media-roughly-every-15-minutes-our-study-finds-cnn-every-140-minutes",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-15T20:33:14.901Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -916,7 +917,7 @@
       "url": "https://www.niemanlab.org/2026/10/two-23-year-olds-used-ai-to-create-a-daily-audio-briefing-its-now-the-top-news-app-in-argentina",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-15T20:33:14.901Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -1023,9 +1024,10 @@
       "url": "https://www.niemanlab.org/2026/10/uber-agents-undercover-ai-personas-and-other-ways-newsrooms-are-using-ai-in-investigations",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-15T20:33:14.901Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
+        "página primária acessível com conteúdo compatível",
         "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
@@ -1096,7 +1098,7 @@
       "url": "https://www.niemanlab.org/2026/10/a-study-of-nonprofit-newsrooms-reveals-some-cracks-in-the-models-foundation",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-15T20:33:14.901Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -1109,7 +1111,7 @@
       "url": "https://www.niemanlab.org/2026/09/newsmatch-will-shift-from-a-year-end-campaign-to-a-year-round-model",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-15T20:33:14.901Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -1370,7 +1372,7 @@
       "url": "https://www.niemanlab.org/2026/09/federal-appeals-court-upholds-thomson-reuters-landmark-ai-copyright-win",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-15T20:33:14.901Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -1498,7 +1500,7 @@
       "url": "https://www.agi.org.uk/agi-awards",
       "category": "opportunities",
       "originalCategory": "opportunities",
-      "checkedAt": "2026-11-16T19:27:16.628Z",
+      "checkedAt": "2026-11-16T21:02:52.545Z",
       "checks": {
         "callSignal": true,
         "deadline": null,
@@ -1530,7 +1532,7 @@
       "url": "https://wan-ifra.org/events/digital-media-awards-worldwide",
       "category": "uncategorized",
       "originalCategory": "opportunities",
-      "checkedAt": "2026-11-16T19:27:15.900Z",
+      "checkedAt": "2026-11-16T21:02:49.553Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -1983,7 +1985,7 @@
       "url": "https://www.niemanlab.org/2026/10/publishers-pressure-meta-to-nix-new-terms-that-would-let-it-scrape-their-websites",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-15T20:33:14.901Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -2044,7 +2046,7 @@
       "url": "https://www.niemanlab.org/2026/10/two-out-of-five-americans-are-regularly-getting-their-news-on-facebook",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-15T20:33:14.901Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -2111,7 +2113,7 @@
       "url": "https://hotosm.org/",
       "category": "uncategorized",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-15T20:33:14.901Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -2376,7 +2378,7 @@
       "url": "https://www.linkedin.com/showcase/data-visualization-society-geospatial-group",
       "category": "uncategorized",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-16T19:27:24.300Z",
+      "checkedAt": "2026-11-16T21:03:01.375Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -2474,7 +2476,7 @@
       "url": "https://www.figma.com/community/plugin/1109185297790825980/figma2html",
       "category": "uncategorized",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-16T19:27:34.535Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -2946,7 +2948,7 @@
       "url": "https://www.eventbrite.com/o/data-visualization-society-44097727323",
       "category": "uncategorized",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-16T19:27:21.140Z",
+      "checkedAt": "2026-11-16T21:02:57.406Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -3702,7 +3704,7 @@
       "url": "https://thefix.media/2026/10/02/press-gazette-launches-a-tool-for-newsrooms-to-help-flag-ai-generated-content",
       "category": "uncategorized",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-16T19:27:23.219Z",
+      "checkedAt": "2026-11-16T21:02:58.960Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -5674,7 +5676,7 @@
       "url": "https://grantsforjournalists.com/grant/yale-world-affairs-fellowship",
       "category": "opportunities",
       "originalCategory": "opportunities",
-      "checkedAt": "2026-11-16T19:27:16.752Z",
+      "checkedAt": "2026-11-16T21:02:52.050Z",
       "checks": {
         "callSignal": true,
         "deadline": null,
@@ -5924,22 +5926,6 @@
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
-      "publicationReady": false
-    },
-    {
-      "id": "fd84e850b51d43d439eea917135e10b90b79fedd62c5f808a56248c50fb77c50",
-      "url": "https://gfmd.info/fundings/saajp-investigative-journalism-grants-southern-africa-accountability-journalism-project",
-      "category": "opportunities",
-      "originalCategory": "opportunities",
-      "checkedAt": "2026-11-16T16:58:22.745Z",
-      "checks": {
-        "callSignal": true,
-        "deadline": null,
-        "eligibility": true,
-        "rolling": true
-      },
-      "missing": [],
-      "decision": "evidence_complete_for_record_draft",
       "publicationReady": false
     },
     {
@@ -17975,7 +17961,7 @@
       "url": "https://www.gbif.org/dataset/7e276a96-73ea-4efc-8ffb-e74ef573ef6c",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-16T19:27:34.535Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {
         "datasetSignal": false,
         "directResource": false,
@@ -18132,7 +18118,7 @@
       "url": "https://www.gbif.org/dataset/c33ce2f2-c3cc-43a5-a380-fe4526d63650",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-16T19:27:34.535Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {
         "datasetSignal": false,
         "directResource": false,
@@ -18369,7 +18355,7 @@
       "url": "https://www.gbif.org/dataset/9ca92552-f23a-41a8-a140-01abaa31c931",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-16T19:27:34.535Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {
         "datasetSignal": false,
         "directResource": false,
@@ -18407,7 +18393,7 @@
       "url": "https://www.gbif.org/dataset/d7dddbf4-2cf0-4f39-9b2a-bb099caae36c",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-16T19:27:34.535Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {
         "datasetSignal": false,
         "directResource": false,
@@ -18467,7 +18453,7 @@
       "url": "https://www.gbif.org/dataset/90d9e8a6-0ce1-472d-b682-3451095dbc5a",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-16T19:27:34.535Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {
         "datasetSignal": false,
         "directResource": false,
@@ -18614,7 +18600,7 @@
       "url": "https://www.gbif.org/dataset/61a5f178-b5fb-4484-b6d8-9b129739e59d",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-16T19:27:34.535Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {
         "datasetSignal": false,
         "directResource": false,
@@ -18653,7 +18639,7 @@
       "url": "https://www.gbif.org/dataset/7ddf754f-d193-4cc9-b351-99906754a03b",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-16T19:27:34.535Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {
         "datasetSignal": false,
         "directResource": false,
@@ -18837,7 +18823,7 @@
       "url": "https://www.gbif.org/dataset/f382f0ce-323a-4091-bb9f-add557f3a9a2",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-16T19:27:34.535Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {
         "datasetSignal": false,
         "directResource": false,
@@ -18955,7 +18941,7 @@
       "url": "https://www.gbif.org/dataset/19491596-35ae-4a91-9a98-85cf505f1bd3",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-16T19:27:34.535Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {
         "datasetSignal": false,
         "directResource": false,
@@ -19082,7 +19068,7 @@
       "url": "https://www.gbif.org/dataset/3ee6fce9-9056-48f5-96fb-a2339bdb947e",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-16T19:27:34.535Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {
         "datasetSignal": false,
         "directResource": false,
@@ -19181,7 +19167,7 @@
       "url": "https://www.gbif.org/dataset/4fa7b334-ce0d-4e88-aaae-2e0c138d049e",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-16T19:27:34.535Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {
         "datasetSignal": false,
         "directResource": false,
@@ -19232,7 +19218,7 @@
       "url": "https://www.gbif.org/dataset/0e61f8fe-7d25-4f81-ada7-d970bbb2c6d6",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-16T19:27:34.535Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {
         "datasetSignal": false,
         "directResource": false,
@@ -19696,7 +19682,7 @@
       "url": "https://www.gbif.org/dataset/c8227bb4-4143-443f-8cb2-51f9576aff14",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-16T19:27:34.535Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {
         "datasetSignal": false,
         "directResource": false,
@@ -19762,7 +19748,7 @@
       "url": "https://www.gbif.org/dataset/fab88965-e69d-4491-a04d-e3198b626e52",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-16T19:27:34.535Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {
         "datasetSignal": false,
         "directResource": false,
@@ -19800,7 +19786,7 @@
       "url": "https://www.gbif.org/dataset/bf3db7c9-5e5d-4fd0-bd5b-94539eaf9598",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-16T19:27:34.535Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {
         "datasetSignal": false,
         "directResource": false,
@@ -19999,7 +19985,7 @@
       "url": "https://www.gbif.org/dataset/4cec8fef-f129-4966-89b7-4f8439aba058",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-16T19:27:34.535Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {
         "datasetSignal": false,
         "directResource": false,
@@ -21865,7 +21851,7 @@
       "url": "https://www.hydrosheds.org/hydrosheds-core-downloads",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-16T19:27:19.902Z",
+      "checkedAt": "2026-11-16T21:02:56.141Z",
       "checks": {
         "datasetSignal": false,
         "directResource": true,
@@ -23804,7 +23790,7 @@
       "url": "https://www.wsj.com/tech/ai/three-states-where-the-ai-boom-could-slow-after-the-midterms-a84ab30f",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-12T18:57:10.786Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -23818,7 +23804,7 @@
       "url": "https://ohiocapitaljournal.com/republishing-guidelines",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-12T18:57:10.786Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -23832,7 +23818,7 @@
       "url": "https://www.tmz.com/2026/11/11/rex-ryan-arrested-for-hitting-pedestrians-running-over-feet",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-12T18:57:10.786Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -23845,7 +23831,7 @@
       "url": "https://www.theatlantic.com/politics/2026/11/christian-nationalism-trump-elections/689373",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-12T18:57:10.786Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -23878,7 +23864,7 @@
       "url": "https://awfulannouncing.com/nfl/dianna-russini-comeback-over-before-started-livestream-plagued-tech-issues.html",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-12T18:57:10.786Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -23891,9 +23877,10 @@
       "url": "https://tiffinohio.net/posts/merrin-promises-ohio-jobs-while-distributing-bangladesh-made-shirts",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-12T18:57:10.786Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
+        "página primária acessível com conteúdo compatível",
         "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
@@ -23904,7 +23891,7 @@
       "url": "https://substack.com/redirect/30f2320c-acc1-4dcd-9b59-208820300cd4",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-12T18:57:10.786Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -23918,7 +23905,7 @@
       "url": "https://substack.com/redirect/ff832a37-690e-4e63-adb7-174a9035696e",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-12T18:57:10.786Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -23932,7 +23919,7 @@
       "url": "https://www.cjr.org/tow_center_reports/hundreds-of-pink-slime-local-news-outlets-are-distributing-algorithmic-stories-conservative-talking-points.php",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-12T18:57:10.786Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -23945,7 +23932,7 @@
       "url": "https://www.cleveland19.com/2026/10/14/husted-addresses-hb-6-ties-rising-prices-ohio-senate-push",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-12T18:57:10.786Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -23958,7 +23945,7 @@
       "url": "https://northstarcivic.com/publications",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-12T18:57:10.786Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -23971,7 +23958,7 @@
       "url": "https://www.latimes.com/california/story/2026-10-25/california-group-linked-to-news-site-promoting-controversial-ramaswamy-ad",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-12T18:57:10.786Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -23984,7 +23971,7 @@
       "url": "https://www.politico.com/news/magazine/2026/09/25/midterms-partisan-ai-chatbots-01092138",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-12T18:57:10.786Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -23998,7 +23985,7 @@
       "url": "https://www.journalists.org/news/a-strategic-shift-for-ona",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-12T18:57:10.786Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -24011,7 +23998,7 @@
       "url": "https://www.wvxu.org/politics/2026-08-07/analysis-house-bill-6-bribery-case-ohio-attorney-general-race",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-12T18:57:10.786Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -24024,7 +24011,7 @@
       "url": "https://www.13abc.com/2026/09/08/toledo-blade-warns-it-could-cease-exist",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-12T18:57:10.786Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -24037,7 +24024,7 @@
       "url": "https://tiffinohio.net/about-us",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-12T18:57:10.786Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -24050,7 +24037,7 @@
       "url": "https://tiffinohio.net/posts/gary-click-lashes-out-after-weakest-win-of-career",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-12T18:57:10.786Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -24063,7 +24050,7 @@
       "url": "https://northstarcivic.com/",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-12T18:57:10.786Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -24076,7 +24063,7 @@
       "url": "https://substack.com/redirect/71d46575-889e-4ce6-96f3-b59926bef7a5",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-12T18:57:10.786Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -24090,7 +24077,7 @@
       "url": "https://mailchi.mp/poynter/face-the-changes-two-top-leaders-are-leaving-cbs-news-face-the-nation",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-12T18:57:10.786Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -24103,7 +24090,7 @@
       "url": "https://substack.com/redirect/527fcbb8-d2c4-4340-bca6-677fba22a1c9",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-12T18:57:10.786Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -24117,7 +24104,7 @@
       "url": "https://substack.com/redirect/0066fa5c-618e-4996-a273-2f29af4a8244",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-12T18:57:10.786Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -24131,7 +24118,7 @@
       "url": "https://awfulannouncing.com/podcasts/rex-ryan-foot-fetish-wife.html",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-12T18:57:10.786Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -24144,7 +24131,7 @@
       "url": "https://web.archive.org/web/20261110213105/https://tiffinohio.net/authors",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-12T18:57:10.786Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -24157,7 +24144,7 @@
       "url": "https://www.marionstar.com/story/news/2020/03/02/ohio-senate-reineke-accuses-ackison-campaign-democrats-party-primary-election/4897145002",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-12T18:57:10.786Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -24171,7 +24158,7 @@
       "url": "https://ohioindependent.com/",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-12T18:57:10.786Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -24185,7 +24172,7 @@
       "url": "https://www.cjr.org/tow_center/pink-slime-networks-are-weaponizing-foia.php",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-12T18:57:10.786Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -24198,7 +24185,7 @@
       "url": "https://substack.com/redirect/6e50a2f1-8136-46fe-96d6-675aa829087d",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-12T18:57:10.786Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -24212,7 +24199,7 @@
       "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9icmFzaXMuYWpvci5vcmcuYnIvYWN0aW9uL2Rpc2FibGVfZW1haWw_dG9rZW49ZXlKMWMyVnlYMmxrSWpveE16VXlNak14TENKd2IzTjBYMmxrSWpveU1qUTFNakU1TXpnc0ltbGhkQ0k2TVRjNU5EUTRNRGswTWl3aVpYaHdJam94T0RJMk1ERTJPVFF5TENKcGMzTWlPaUp3ZFdJdE1UQTBOekEzTUNJc0luTjFZaUk2SW1ScGMyRmliR1ZmWlcxaGFXd2lmUS5sZzIxS1ZQTlVobTVtTzc0ejRnRFNOaHY1Tm5aZGVEMW1DTmtDZW9rdWY4IiwicCI6MjI0NTIxOTM4LCJzIjoxMDQ3MDcwLCJmIjp0cnVlLCJ1IjoxMzUyMjMxLCJpYXQiOjE3OTQ0ODA5NDIsImV4cCI6MjExMDA1Njk0MiwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.5Rjc5BzZHKrxml8t3Ug2kf8Ug5R4FSMhs50lNdJV7ZI",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-12T18:57:10.786Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -24226,7 +24213,7 @@
       "url": "https://variety.com/2026/tv/news/mary-hager-cbs-news-face-the-nation-retire-exit-1236945610",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-12T18:57:10.786Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -24239,7 +24226,7 @@
       "url": "https://tiffinohio.net/posts/husted-rents-dc-home-from-meta-lobbyist-rent-undisclosed",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-12T18:57:10.786Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -24252,7 +24239,7 @@
       "url": "https://www.newsguardtech.com/special-reports/american-independent-pink-slime-network",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-12T18:57:10.786Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -24265,7 +24252,7 @@
       "url": "https://tiffinohio.net/posts/dewine-refuses-campaign-ramaswamy-endorsement-stands",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-12T18:57:10.786Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -24278,7 +24265,7 @@
       "url": "https://www.cnn.com/2026/11/11/politics/hegseth-reprimanded-guard-tomb-unknown-soldier",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-12T18:57:10.786Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -24310,7 +24297,7 @@
       "url": "https://towcenter.columbia.edu/sites/towcenter.columbia.edu/files/content/%E2%80%9CPink%20Slime%E2%80%9D_%20Partisan%20journalism%20and%20the%20future%20of%20local%20news%20",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-12T18:57:10.786Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -24324,7 +24311,7 @@
       "url": "https://substack.com/redirect/4679df3f-a75e-41f9-bc82-bec227a75028",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-12T18:57:10.786Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -24338,7 +24325,7 @@
       "url": "https://people.com/joe-biden-new-interview-video-exclusive-12247044",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-12T18:57:10.786Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -24352,7 +24339,7 @@
       "url": "https://www.cjr.org/tow_center/pink-slime-partisan-journalism-and-the-future-of-local-news.php",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-12T18:57:10.786Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -24378,7 +24365,7 @@
       "url": "https://www.aosfatos.org/noticias/video-congestionamento-paraguai",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-13T00:34:52.902Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -24391,7 +24378,7 @@
       "url": "https://www.aosfatos.org/noticias/flavio-dino-fim-escala-6x1",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-13T00:34:52.902Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -24431,7 +24418,7 @@
       "url": "https://www.aosfatos.org/noticias/video-lula-presidentes-cop31",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-13T00:34:52.902Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -24463,7 +24450,7 @@
       "url": "https://www.aosfatos.org/noticias/investigacao-fazendas-ia-aos-fatos-subsidia-decisao-tse-meta",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-13T00:34:52.902Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -24476,7 +24463,7 @@
       "url": "https://substack.com/redirect/fc6957d4-bbd1-4eab-bf47-60abdfd2f55c",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -24490,7 +24477,7 @@
       "url": "https://www.yahoo.com/news/us/articles/bari-weiss-most-loyal-soldier-134611303.html",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -24516,7 +24503,7 @@
       "url": "https://www.poynter.org/ethics-trust/2026/journalist-creators-media-trust-social-media",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -24529,7 +24516,7 @@
       "url": "https://www.cjr.org/the-interview/ali-breland-online-far-right-nick-fuentes-white-nationalism-trump-minneapolis-somali.php",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -24563,7 +24550,7 @@
       "url": "https://www.occrp.org/en/investigation/in-the-russian-penal-colony-they-called-him-dr-evil",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -24576,7 +24563,7 @@
       "url": "https://www.occrp.org/en/news/interpol-crackdown-on-migrant-smuggling-nets-262-arrests",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -24589,7 +24576,7 @@
       "url": "https://substack.com/redirect/c99f5ee8-0e11-48ef-89f4-f0babb47026a",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -24603,7 +24590,7 @@
       "url": "https://substack.com/redirect/32ef3cdb-57ff-452a-92d1-7c302bdc77d1",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -24617,7 +24604,7 @@
       "url": "https://substack.com/redirect/1df721b6-108d-41be-ab81-7b71b2ba8667",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -24631,7 +24618,7 @@
       "url": "https://www.instagram.com/p/Dfr2cSyFwg-",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -24644,7 +24631,7 @@
       "url": "https://www.occrp.org/en/news/ex-belgrade-police-chief-denies-charges-in-body-in-a-barrel-case",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -24657,7 +24644,7 @@
       "url": "https://substack.com/redirect/ef5b96d3-8e41-482b-9ff0-1eb63f0d4614",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -24671,7 +24658,7 @@
       "url": "https://www.nytimes.com/athletic/7776092/2026/11/12/nbc-sports-dan-hicks-death-career",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -24684,7 +24671,7 @@
       "url": "https://www.occrp.org/en/investigation/from-politicians-to-academics-hundreds-around-the-globe-interviewed-and-featured-in-notorious-russian-disinformation-campaign",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -24731,7 +24718,7 @@
       "url": "https://www.occrp.org/en/news/kazakh-wealth-fund-railway-chiefs-detained-in-corruption-probe",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -24744,7 +24731,7 @@
       "url": "https://substack.com/redirect/072c7d37-bf55-48db-a603-47c2f5b242a1",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -24758,7 +24745,7 @@
       "url": "https://substack.com/redirect/12245ad5-8246-4792-a6c2-293a9f169e77",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -24772,7 +24759,7 @@
       "url": "https://mcusercontent.com/bfd7b727587f7abc6467ba892/images/9d68e9dc-3f23-40c6-88f1-1b5a79ba9e57.gif",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -24786,7 +24773,7 @@
       "url": "https://substack.com/redirect/4a1a8539-1747-4b02-9a74-11ba6ea38a7d",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -24800,7 +24787,7 @@
       "url": "https://www.washingtonpost.com/dc-md-va/2026/11/12/logan-circle-shooter-matt-lambert-appeared-frustrated-over-metropole-maintenance",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -24813,7 +24800,7 @@
       "url": "https://substack.com/redirect/04273060-a971-4eb8-b210-59436dc11071",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -24853,7 +24840,7 @@
       "url": "https://www.occrp.org/en/feature/five-questions-future-global-anticorruption-efforts-trump-era",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -24866,7 +24853,7 @@
       "url": "https://apnews.com/article/mexico-journalists-threatened-free-press-d3d4d8cc11e8ad5ada9962f28fb941f9",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -24880,7 +24867,7 @@
       "url": "https://www.occrp.org/en/news/high-profile-smuggling-raids-in-hungary-point-to-former-pms-brother",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -24893,7 +24880,7 @@
       "url": "https://www.poynter.org/ethics-trust/2026/scott-pelley-cbs-news-midterm-results",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -24906,7 +24893,7 @@
       "url": "https://substack.com/redirect/5f24baec-dcb5-4ae8-a7f7-b3d3044661dc",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -24920,7 +24907,7 @@
       "url": "https://substack.com/redirect/b8c4d91a-9bee-4229-b538-447a3cb8043a",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -24934,7 +24921,7 @@
       "url": "https://mailchi.mp/poynter/its-been-a-great-year-for-investigative-reporting-but-theres-a-catch",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -24961,7 +24948,7 @@
       "url": "https://www.adweek.com/media/the-washington-post-nears-breakeven-after-hundreds-and-hundreds-of-millions-in-losses",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -24974,7 +24961,7 @@
       "url": "https://www.occrp.org/en/news/us-prosecutors-ask-judge-to-allow-bribery-evidence-in-south-american-drug-trafficking-case",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -24987,7 +24974,7 @@
       "url": "https://substack.com/redirect/4c9573a6-1512-4e17-948e-cf3289117e8d",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -25001,7 +24988,7 @@
       "url": "https://substack.com/redirect/caf73b7b-585f-4fef-8d58-9c6b0886bfa0",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -25049,7 +25036,7 @@
       "url": "https://substack.com/redirect/4677d3e2-fecb-459c-96c0-04c36f3e5136",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -25063,7 +25050,7 @@
       "url": "https://www.poynter.org/subscribe-to-the-mediawise-newsletter",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -25076,7 +25063,7 @@
       "url": "https://www.occrp.org/en/news/uk-arrests-349-in-nationwide-money-laundering-crackdown",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -25089,7 +25076,7 @@
       "url": "https://x.com/JackBenjaminPxP/status/1934366016659669118",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -25102,7 +25089,7 @@
       "url": "https://docs.google.com/document/d/1deuyMRnTyeR9gWbPIXBKopsFLnOPqp_FBBIy3D500Ys/edit",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -25116,7 +25103,7 @@
       "url": "https://awfulannouncing.com/nbc/dan-hicks-greatness-tiger-woods-michael-phelps.html",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -25129,7 +25116,7 @@
       "url": "https://substack.com/redirect/9d23cd34-6d7f-4601-9b56-3886ffebddc0",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -25143,7 +25130,7 @@
       "url": "https://awfulannouncing.com/politics/nick-wright-clay-travis-political-grifter.html",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -25156,7 +25143,7 @@
       "url": "https://www.youtube.com/@poynter",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -25182,7 +25169,7 @@
       "url": "https://www.poynter.org/educators-students/2026/college-students-teach-high-school-journalism-nashville",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -25209,7 +25196,7 @@
       "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9vYnNlcnZhdG9yaW9kYWltcHJlbnNhLnN1YnN0YWNrLmNvbS9hY3Rpb24vZGlzYWJsZV9lbWFpbD90b2tlbj1leUoxYzJWeVgybGtJam94TXpVeU1qTXhMQ0p3YjNOMFgybGtJam95TWpRM05EazNOeklzSW1saGRDSTZNVGM1TkRVNE16RXhOeXdpWlhod0lqb3hPREkyTVRFNU1URTNMQ0pwYzNNaU9pSndkV0l0TWpjMU5UUTNOaUlzSW5OMVlpSTZJbVJwYzJGaWJHVmZaVzFoYVd3aWZRLmlVV0g0RVFfd19LdDlSWGxjRVFyMF91N1JfeThxeEtPXy01R0NYQjMtcFkiLCJwIjoyMjQ3NDk3NzIsInMiOjI3NTU0NzYsImYiOnRydWUsInUiOjEzNTIyMzEsImlhdCI6MTc5NDU4MzExNywiZXhwIjoyMTEwMTU5MTE3LCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.FpESPb0omU_fsptSi8e8fYaREM8iLboYQDpRS0GMTDE",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -25223,7 +25210,7 @@
       "url": "https://substack.com/redirect/0fab0bc0-9219-4d00-b1d4-c19d62e95667",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -25237,7 +25224,7 @@
       "url": "https://www.tiktok.com/@mediawise/video/7706296054983036173",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -25277,7 +25264,7 @@
       "url": "https://music.amazon.com/es-co/podcasts/206ad3f6-d793-4bc6-aecb-bd05c48b98a5/the-poynter-report-podcast",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -25290,7 +25277,7 @@
       "url": "https://mailchi.mp/poynter/face-the-changes-two-top-leaders-are-leaving-cbs-news-face-the-nation-5288334",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -25303,7 +25290,7 @@
       "url": "https://www.poynter.org/reporting-editing/2026/democrats-house-senate-press-freedom-trump",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -25316,7 +25303,7 @@
       "url": "https://www.poynter.org/commentary/2026/national-news-outlets-local-reporters-2026-election-scoops",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -25329,7 +25316,7 @@
       "url": "https://substack.com/redirect/7e57c9ff-696a-4e91-911b-e25499ad7612",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -25343,7 +25330,7 @@
       "url": "https://substack.com/redirect/7af62f0c-1d95-4dba-bef8-326a7ca707c6",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -25357,7 +25344,7 @@
       "url": "https://brasis.ajor.org.br/p/brasil-cop31-sobrecarga-maes-artistas",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -25370,7 +25357,7 @@
       "url": "https://www.infinitejaz.com/p/he-retorted-narrowing-his-eyes",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -25396,7 +25383,7 @@
       "url": "https://substack.com/redirect/c259d296-3662-4a4b-90d6-27888b73c9cc",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -25429,7 +25416,7 @@
       "url": "https://substack.com/redirect/9dc3b60f-9984-4431-ac9a-ed863cd55079",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -25456,7 +25443,7 @@
       "url": "https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9icmFzaXMuYWpvci5vcmcuYnIvYWN0aW9uL2Rpc2FibGVfZW1haWw_dG9rZW49ZXlKMWMyVnlYMmxrSWpveE16VXlNak14TENKd2IzTjBYMmxrSWpveU1qUTJOekUwT1RJc0ltbGhkQ0k2TVRjNU5EVTJOelV4TkN3aVpYaHdJam94T0RJMk1UQXpOVEUwTENKcGMzTWlPaUp3ZFdJdE1UQTBOekEzTUNJc0luTjFZaUk2SW1ScGMyRmliR1ZmWlcxaGFXd2lmUS5tOW1UWjRlc21nV0FRLUNKNF80ODhyczlWSDJOeXZQNG9SdFZUMFJCMm9rIiwicCI6MjI0NjcxNDkyLCJzIjoxMDQ3MDcwLCJmIjp0cnVlLCJ1IjoxMzUyMjMxLCJpYXQiOjE3OTQ1Njc1MTQsImV4cCI6MjExMDE0MzUxNCwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.hz0IPrlgJRuFPn-vvJ8DLbJh3nZirlUnWmWAy24yP7Q",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -25470,7 +25457,7 @@
       "url": "https://substack.com/redirect/87e0b2f9-b766-4dd7-a5de-d18c0bba7fc8",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -25484,7 +25471,7 @@
       "url": "https://substack.com/redirect/3810a144-8fe9-428a-93f0-23328bb2137b",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -25498,7 +25485,7 @@
       "url": "https://www.poynter.org/press-freedom-watch",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -25511,7 +25498,7 @@
       "url": "https://bsky.app/profile/itsren.bsky.social",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -25524,7 +25511,7 @@
       "url": "https://substack.com/redirect/a4a955e1-98e8-4411-ae52-0aff062f94b3",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -25538,7 +25525,7 @@
       "url": "https://substack.com/redirect/03a45a47-7ee6-4295-9b83-19748fa744a5",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -25552,7 +25539,7 @@
       "url": "https://awfulannouncing.com/politics/nick-wright-claims-clay-travis-privately-admitted-to-fabricating-political-beliefs-for-engagement.html",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -25565,7 +25552,7 @@
       "url": "https://x.com/HannahStormESPN/status/2120888575541776508",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -25578,7 +25565,7 @@
       "url": "https://substack.com/redirect/0c8d6636-116d-4c48-8d6e-0f21a19f5613",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -25592,7 +25579,7 @@
       "url": "https://substack.com/redirect/c692bdcc-d7ba-4cff-881b-7fc8d4695272",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -25627,7 +25614,7 @@
       "url": "https://substack.com/redirect/fa37a9b7-4a72-4124-bee2-befc72f35e4b",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -25641,7 +25628,7 @@
       "url": "https://substack.com/redirect/934fea03-7235-4902-8240-cf3226ad12ef",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -25676,7 +25663,7 @@
       "url": "https://substack.com/redirect/7418881e-cf43-41ff-a5eb-181797da4951",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -25690,7 +25677,7 @@
       "url": "https://substack.com/redirect/cc8ee944-bb93-404e-a09a-03cbfa55f695",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -25745,7 +25732,7 @@
       "url": "https://agencialupa.substack.com/p/o-mundo-esta-a-beira-de-um-apagao",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -25759,7 +25746,7 @@
       "url": "https://substack.com/redirect/fa7cfc55-54bc-407b-9e7d-ccbe4cb82616",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-13T18:31:33.655Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -26613,7 +26600,7 @@
       "url": "https://opportunitydesk.org/2026/11/14/ocean-futures-fellowship-2027-building-ocean-career-pathways",
       "category": "uncategorized",
       "originalCategory": "opportunities",
-      "checkedAt": "2026-11-16T19:27:17.728Z",
+      "checkedAt": "2026-11-16T21:02:53.556Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -26926,7 +26913,7 @@
       "url": "https://opportunitydesk.org/2026/11/16/digispace-africa-research-fellowship-2027",
       "category": "uncategorized",
       "originalCategory": "opportunities",
-      "checkedAt": "2026-11-16T19:27:34.535Z",
+      "checkedAt": "2026-11-16T21:03:11.068Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -26940,7 +26927,7 @@
       "url": "https://gfmd.info/fundings/pulitzer-center-rainforest-reporting-grant",
       "category": "opportunities",
       "originalCategory": "opportunities",
-      "checkedAt": "2026-11-16T19:27:17.211Z",
+      "checkedAt": "2026-11-16T21:02:51.918Z",
       "checks": {
         "callSignal": true,
         "deadline": null,

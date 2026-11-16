@@ -1,71 +1,19 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-16T19:27:43.744Z",
-  "sourceQueueUpdatedAt": "2026-11-16T19:27:34.535Z",
+  "generatedAt": "2026-11-16T21:03:20.030Z",
+  "sourceQueueUpdatedAt": "2026-11-16T21:03:11.068Z",
   "policy": "Evidence-complete drafts only; the separate deterministic evidence gate must independently approve before publication.",
   "summary": {
-    "eligibleForDrafting": 4,
-    "drafts": 4,
+    "eligibleForDrafting": 3,
+    "drafts": 3,
     "byCategory": {
-      "opportunities": 2,
+      "opportunities": 1,
       "datasets": 1,
       "tools": 1
     },
     "publicationReady": 0
   },
   "drafts": [
-    {
-      "schemaVersion": 1,
-      "id": "fd84e850b51d43d439eea917135e10b90b79fedd62c5f808a56248c50fb77c50",
-      "category": "opportunities",
-      "status": "draft_only",
-      "publicationReady": false,
-      "source": {
-        "url": "https://gfmd.info/fundings/saajp-investigative-journalism-grants-southern-africa-accountability-journalism-project/",
-        "discoveryProviders": [
-          "GFMD funding"
-        ],
-        "pageTitle": "SA|AJP Investigative Journalism Grants (Southern Africa Accountability Journalism Project)",
-        "checkedAt": "2026-11-16T16:58:22.745Z",
-        "httpStatus": 200,
-        "contentType": "text/html; charset=UTF-8"
-      },
-      "evidence": {
-        "checks": {
-          "callSignal": true,
-          "deadline": null,
-          "eligibility": true,
-          "rolling": true
-        },
-        "sourceExcerpt": "« Back to all Fundings SA|AJP Investigative Journalism Grants (Southern Africa Accountability Journalism Project) Organisation: Henry Nxumalo Foundation Status: Open Type: Grant Theme: Investigative journalism Funding Size: $1,500 - $3,000 Deadline: Ongoing Eligibility: journalists and newsrooms in select Southern African Development Community (SADC) countries Target Region: Sub-Saharan Africa (SADC region) Application Language: English The Southern Africa Accountability Journalism Project (SA|AJP) provides investigative journalism grants and comprehensive editorial support to journalists and newsrooms in select Southern African Development Community (SADC) countries. The project seeks stories that expose wrongdoing, abuses of power, or failures of accountability in the region. In addition to grant funding, each selected journalist is assigned a dedicated investigative editor, and the project provides training, as well as support from external photographers, graphic designers, and legal/expert advisors to deliver a complete story package. The project also assists with securing publishing partners and maximising story impact. Eligibility Journalist grants: open to freelance journalists based in South Africa, eSwatini, Lesotho, Botswana, Namibia, Zimbabwe, or Mozambique. Newsroom grants: open to editors or staff reporters representing established newsrooms in the same countries. Permanently employed journalists should seek approval from their line managers before submitting pitches. Story pitches that contain collaborative or cross-border elements will be favoured; journalists are encouraged to partner with colleagues in other countries, including those outside the SADC region. Any story idea which seeks to expose wrongdoing, abuses of power, or failures of accountability in the region will be considered for support. This opportunity is open to freelancers and to permanently employed journalists who seek to take a sabbatical from daily newsroom responsibilities to pursue an in-depth project. Requirements A pitch of no more than 700 words as a single, compelling narrative addressing standard investigative pitch questions (the story, the evidence, the approach, the impact) A budget showing how the journalist intends to spend the grant A CV and a few examples of the journalist’s best published reporting in recent months How to Apply Email the final pitch, budget, and supporting documents to the project’s editorial coordinator at daneel@viewfinder.org.za. Draft pitches and queries can be sent for feedback before the deadline. Pitches are adjudicated on a rolling basis as they are received. For more information, please visit this page . For the latest funding opportunities, profiles of media donors, and expert insight from GFMD’s MediaDev Fundraising Guide sign up for Bottom Line newsletter Sign Up",
-        "structuredData": [],
-        "tabularData": [],
-        "resourceLinks": []
-      },
-      "recordDraft": {
-        "id": "fd84e850b51d43d439eea917135e10b90b79fedd62c5f808a56248c50fb77c50",
-        "title": "SA|AJP Investigative Journalism Grants (Southern Africa Accountability Journalism Project)",
-        "org": "Henry Nxumalo Foundation",
-        "summary": "The Southern Africa Accountability Journalism Project provides investigative journalism grants and comprehensive editorial support to journalists.",
-        "type": "Grant",
-        "themes": [
-          "Jornalismo investigativo",
-          "Fotografia",
-          "Jornalismo"
-        ],
-        "scope": "« Back to all Fundings SA|AJP Investigative Journalism Grants (Southern Africa Accountability Journalism Project) Organisation: Henry Nxumalo Foundation Status: Open Type: Grant Theme: Investigative journalism Funding Size: $1,500 - $3,000 Deadline: Ongoing Eligibility: journalists and newsrooms in select Southern African Development Community (SADC) countries Target Region: Sub-Saharan Africa (SADC region) Application Language: English The Southern Africa Accountability Journalism Project (SA|AJP) provides investigative journalism grants and comprehensive editorial support to journalists and newsrooms in select Southern African Development Community (SADC) countries.",
-        "fit": 6,
-        "deadline": null,
-        "deadlineStatus": "Fluxo contínuo confirmado na chamada; sem data final anunciada.",
-        "eligibility": "parcial",
-        "status": "aberta",
-        "rules": "https://gfmd.info/fundings/saajp-investigative-journalism-grants-southern-africa-accountability-journalism-project/",
-        "apply": "https://gfmd.info/fundings/saajp-investigative-journalism-grants-southern-africa-accountability-journalism-project/"
-      },
-      "missingFields": [],
-      "reviewDecision": "evidence_complete_for_record_draft",
-      "note": "Ficha preliminar baseada no conteúdo capturado da página. Campos sem evidência permanecem ausentes; a aprovação depende do gate independente de publicação."
-    },
     {
       "schemaVersion": 1,
       "id": "fb1f5945b6820ed90263a3164b11222cb5cbbd33823865ccd8e85e23468238a1",
@@ -199,7 +147,7 @@
           "GFMD funding"
         ],
         "pageTitle": "Pulitzer Center Rainforest Reporting Grant",
-        "checkedAt": "2026-11-16T19:27:17.211Z",
+        "checkedAt": "2026-11-16T21:02:51.918Z",
         "httpStatus": 200,
         "contentType": "text/html; charset=UTF-8"
       },
@@ -227,7 +175,7 @@
           "Fotografia",
           "Jornalismo"
         ],
-        "scope": "Pulitzer Center Rainforest Reporting Grant - GFMD « Back to all Fundings Pulitzer Center Rainforest Reporting Grant Organisation: Pulitzer Center Status: Open Type: Grant Theme: Environmental journalism Funding Size: N/A Deadline: Ongoing Eligibility Criteria : All staff and freelance journalists are eligible to apply.",
+        "scope": "All staff and freelance journalists are eligible to apply",
         "fit": 5,
         "deadline": null,
         "deadlineStatus": "Fluxo contínuo confirmado na chamada; sem data final anunciada.",
