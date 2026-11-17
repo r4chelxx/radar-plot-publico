@@ -34,8 +34,8 @@ function selectBacklog(previous,current,limit=10,now=new Date(),options={}){
  function isNoiseCandidate(x){
   const title=String(x.title||'').trim();
   const url=String(x.url||'');
-  if(x.category==='tools'&&(/^(?:skip to main content|related changes|what links here|visit tool|all tools|li(?:n|nked)i)/i.test(title)||/linkedin\.com\/(?:company|in)\//i.test(url)||/mediawiki\.org\/wiki\/Special:/i.test(url)||/(?:\/(?:courses?|tv|news|articles?|blog|events?)(?:\/|$)|#content$)/i.test(url)))return true;
-  if(x.category==='datasets'&&(/^(?:skip to main content|related changes|what links here|dados abertos|datasets?\s*\(\d[\d,.]*\)|research group|in[ií]cio|home)$/i.test(title)||/mediawiki\.org\/wiki\/Special:/i.test(url)||/#content$/i.test(url)))return true;
+  if(x.category==='tools'&&(/^(?:skip to main content|related changes|what links here|visit tool|all tools|li(?:n|nked)i)/i.test(title)||/linkedin\.com\/(?:company|in)\//i.test(url)||/mediawiki\.org\/wiki\/(?:Special:|Moderator_Tools|Toolserver:)/i.test(url)||/wikidata\.org\/wiki\/Wikidata:Tools\//i.test(url)||/(?:\/(?:courses?|tv|news|articles?|blog|events?)(?:\/|$)|#content$)/i.test(url)))return true;
+  if(x.category==='datasets'&&(/^(?:skip to main content|related changes|what links here|dados abertos|datasets?\s*\(\d[\d,.]*\)|research group|in[ií]cio|home|data sources|data dictionary|our bulk data distributions)$/i.test(title)||/mediawiki\.org\/wiki\/Special:/i.test(url)||/opensanctions\.org\/datasets\/sources\/?|opensanctions\.org\/reference\/?/i.test(url)||/#content$/i.test(url)))return true;
   return false;
  }
  const actionable=all.filter(x=>['opportunities','datasets','tools'].includes(x.category)&&!isNoiseCandidate(x));
