@@ -84,6 +84,28 @@ for(const lead of results){
  const r=byId.get(lead.historicalId||lead.id)||byUrl.get(urlKey(lead.url))||lead;
  const url=lead.finalUrl||lead.url;
  const base={url:lead.url||url,category:lead.category,reviewedBy:'Radar PLOT — auditoria automática conservadora',reviewedAt:today};
+ // Fresh inspections use the same review, card builder and publication gate as
+ // unified discovery. Legacy supplied records below retain their proof checks.
+ if(lead.checkedAt&&typeof lead.evidenceText==='string'){
+  const {reviewCandidate}=require('./review-editorial-evidence');
+  const {buildDrafts}=require('./build-editorial-record-drafts');
+  const {buildAutomaticPublications}=require('./build-automated-publications');
+  const candidate={...lead,id:derivedId(url),status:'pending',audit:lead};
+  const semantic=reviewCandidate(candidate);
+  const drafts=buildDrafts({candidates:[candidate]},{records:[semantic]});
+  const matches=lead.possibleMatches||r?.possibleMatches||[];
+  const result=buildAutomaticPublications(drafts);
+  const approved=result.manifest.approved[0];
+  if(approved&&!matches.length&&lead.pageStatus==='html-fetched'){
+   decisions.push({...base,category:approved.category,status:'approved',officialUrl:url,publicationReviewV1:approved.review,reason:'Source evidence passed the shared category review, record builder and independent publication gate.',record:approved.record});
+  }else{
+   const reasons=[...(lead.pageStatus!=='html-fetched'?['página não inspecionada como HTML']:[]),...semantic.missing,...(drafts.drafts[0]?.missingFields||[]).map(x=>'campo da ficha ausente: '+x)];
+   if(matches.length)reasons.push('possível duplicidade ainda não resolvida');
+   for(const [key,value] of Object.entries(result.summary.skipped||{}))if(value)reasons.push('gate de publicação: '+key);
+   blockers.push({url:lead.url,category:semantic.category,blockers:reasons.length?reasons:['evidência insuficiente para ficha']});
+  }
+  continue;
+ }
  const fail=[];
  if(lead.pageStatus!=='html-fetched')fail.push('página não inspecionada como HTML');
  if(!url||!/^https:\/\//.test(url))fail.push('fonte final não é HTTPS');
