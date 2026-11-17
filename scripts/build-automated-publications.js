@@ -20,6 +20,7 @@ const safeUrl=value=>{try{const u=new URL(value);return u.protocol==='https:'&&!
 const canonical=value=>{try{const u=new URL(value);u.hash='';u.hostname=u.hostname.toLowerCase();u.pathname=u.pathname.replace(/\/+$/,'')||'/';return u.toString()}catch{return ''}};
 const complete=value=>value!=null&&value!==''&&(!Array.isArray(value)||value.length>0);
 function buildAutomaticPublications(drafts,manual={approved:[]},now=new Date(),publishedOpportunities=[]){
+ const localDay=new Intl.DateTimeFormat('en-CA',{timeZone:'America/Bahia',year:'numeric',month:'2-digit',day:'2-digit'}).format(now);
  const automaticEnabled=process.env.RADAR_ENABLE_AUTOMATIC_PUBLICATION!=='false';
  const manualItems=Array.isArray(manual.approved)?manual.approved:[];
  if(!automaticEnabled)return {manifest:{schemaVersion:1,policy:'Manual approvals only while automatic publication is under reconstruction.',approved:manualItems},summary:{manualApproved:manualItems.length,automaticallyApproved:0,byCategory:{opportunities:0,datasets:0,tools:0},skipped:{automaticPublicationDisabled:true}}};
@@ -42,7 +43,7 @@ function buildAutomaticPublications(drafts,manual={approved:[]},now=new Date(),p
   if((draft.missingFields||[]).length||requiredFields[category].some(field=>!complete(record[field])&&!(field==='deadline'&&rolling)&&!(field==='api'&&webAccess))){skipped.missingFields++;continue}
   if(!requiredChecks[category].every(key=>checks[key]===true)){skipped.failedEvidenceChecks++;continue}
   if(category==='opportunities'){
-   if((!rolling&&(!/^\d{4}-\d{2}-\d{2}$/.test(record.deadline)||record.deadline<now.toISOString().slice(0,10)))||!safeUrl(record.rules)||!record.eligibility){skipped.failedEvidenceChecks++;continue}
+   if((!rolling&&(!/^\d{4}-\d{2}-\d{2}$/.test(record.deadline)||record.deadline<localDay))||!safeUrl(record.rules)||!record.eligibility){skipped.failedEvidenceChecks++;continue}
   }else if(category==='datasets'){
    const datasetText=String(record.name||'')+' '+String(record.coverage||'')+' '+String(record.description||'')+' '+String(record.url||'');
    const datasetNoise=/(?:podcast|youtube|ranking|rankings|top ai companies|newsletter|blog|article|press release)/i.test(datasetText);
