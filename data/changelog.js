@@ -21,18 +21,6 @@ window.RADAR_PARTS.changelog=[
   "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: US OFAC Specially Designated Nationals (SDN) List; Sanctioned Securities; Consolidated Sanctions."
 },
 {
-  "date": "2026-11-17",
-  "type": "ferramentas",
-  "title": "Publicação editorial verificada — 2026-11-17",
-  "items": [
-    {
-      "id": "auto-2276ef2f6f136c7d",
-      "title": "Telemetry for plugin authors - Datasette documentation"
-    }
-  ],
-  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Telemetry for plugin authors - Datasette documentation."
-}, 
-  {
     "date": "2026-11-16",
     "type": "dados",
     "title": "Publicação editorial verificada — 2026-11-16",
