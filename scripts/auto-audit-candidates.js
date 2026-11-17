@@ -107,7 +107,8 @@ for(const lead of results){
   if(record?.rules&&host(record.rules)!==host(url))fail.push('URL oficial não coincide com a fonte auditada');
  } else if(lead.category==='datasets'){
   const format=String(record?.format||'').trim();
-  if(/^(?:data sources|data dictionary|our bulk data distributions)$/i.test(String(record?.name||''))||/\\/datasets\\/sources\\/?$|\\/reference\\/?$/i.test(url||''))fail.push('página de índice ou dicionário, não um recurso de dados');
+  const datasetIndexPath=(()=>{try{const p=new URL(url||'').pathname.toLowerCase();return p==='/datasets/sources'||p==='/datasets/sources/'||p==='/reference'||p==='/reference/'}catch{return false}})();
+  if(/^(?:data sources|data dictionary|our bulk data distributions)$/i.test(String(record?.name||''))||datasetIndexPath)fail.push('página de índice ou dicionário, não um recurso de dados');
   if(!format||/^(?:n\/?a|unknown|not provided|não informado(?: na fonte estruturada)?|não disponível|desconhecido)$/i.test(format))fail.push('formato de acesso da base não comprovado');
   if(/^forum$/i.test(String(record?.org||''))||/forum\.ecmwf\.int\/t\/|\/(?:blog|articles?|news|posts?)\//i.test(url||''))fail.push('página de discussão ou artigo não é recurso de dados');
   for(const k of ['name','org','kind','coverage','limitations','docs','url'])if(!record?.[k])fail.push('campo de base ausente: '+k);
