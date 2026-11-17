@@ -1,6 +1,14 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.tools=[
 {
+  "id": "auto-2276ef2f6f136c7d",
+  "name": "Telemetry for plugin authors - Datasette documentation",
+  "kind": "plugin de dados",
+  "url": "https://docs.datasette.io/en/latest/plugin_telemetry.html",
+  "desc": "Telemetry for plugin authors ¶ Datasette core emits OpenTelemetry spans and metrics for the work it does itself - see OpenTelemetry for what those are and how an operator turns them on. This page is about the other half: instrumenting the work your plugin does, so that a plugin's queries, background jobs and custom operations show up in the same traces and the same metrics pipeline, using the same conventions. Use your own instrumentation scope ¶ Create a tracer and meter using your plugin's own instrumentation scope: from opentelemetry import metrics , trace from my_plugin import __version__ tracer = trace . get_tracer ( \"my_plugin\" , __version__ ) meter = metrics . get_meter ( \"my_plugin\" , __version__ ) Use these naming rules: Scope : use your plugin's import package name, such as my_plugin . This lets users filter telemetry by plugin. Signal prefix : prefix spans, metrics and custom attributes with your package name ( my_plugin.* ) or a product name ( paper.* ). The datasette.* prefix is reserved for core. Reuse shared attribute names where they describe the same thing: db.namespace for a database name, or error.type for an exception class. If you pass schema_url= when creating Consultar documentação e licença antes do uso editorial.",
+  "discoveryUrl": "https://docs.datasette.io/en/latest/plugin_telemetry.html"
+}, 
+{
   "id": "govteca-busca-lai",
   "name": "Busca LAI",
   "kind": "Busca de pedidos de acesso à informação",

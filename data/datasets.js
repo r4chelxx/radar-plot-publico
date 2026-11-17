@@ -1,6 +1,75 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.datasets=[
 {
+  "id": "auto-94f3d2156f6442d3",
+  "name": "US OFAC Specially Designated Nationals (SDN) List",
+  "org": "OpenSanctions.org",
+  "territoryTier": "Outros",
+  "kind": "dataset",
+  "themes": [
+    "Dados abertos"
+  ],
+  "coverage": "The primary United States' sanctions list, specially designated nationals (SDN) part.",
+  "frequency": "Não informado na fonte estruturada",
+  "format": "JSON",
+  "period": "Não informado na fonte estruturada",
+  "granularity": "Não informado na fonte estruturada",
+  "geoUnit": "Não informado na fonte estruturada",
+  "api": null,
+  "docs": "https://www.opensanctions.org/datasets/us_ofac_sdn/",
+  "limitations": "Metadados estruturados confirmam a existência do recurso, mas cobertura, atualização, licença e qualidade devem ser conferidas antes do uso editorial.",
+  "lastChecked": "2026-11-17",
+  "url": "https://www.opensanctions.org/datasets/us_ofac_sdn/",
+  "discoveryUrl": "https://www.opensanctions.org/datasets/us_ofac_sdn",
+  "description": "The primary United States' sanctions list, specially designated nationals (SDN) part."
+},
+{
+  "id": "auto-cc64ce6bf358c3c2",
+  "name": "Sanctioned Securities",
+  "org": "OpenSanctions.org",
+  "territoryTier": "Outros",
+  "kind": "dataset",
+  "themes": [
+    "Dados abertos"
+  ],
+  "coverage": "Sanctioned companies from a selected set of European and US sanctions lists, and their associated securities identifiers, including LEI and ISIN codes.",
+  "frequency": "Não informado na fonte estruturada",
+  "format": "JSON",
+  "period": "Não informado na fonte estruturada",
+  "granularity": "Não informado na fonte estruturada",
+  "geoUnit": "Não informado na fonte estruturada",
+  "api": null,
+  "docs": "https://www.opensanctions.org/datasets/securities/",
+  "limitations": "Metadados estruturados confirmam a existência do recurso, mas cobertura, atualização, licença e qualidade devem ser conferidas antes do uso editorial.",
+  "lastChecked": "2026-11-17",
+  "url": "https://www.opensanctions.org/datasets/securities/",
+  "discoveryUrl": "https://www.opensanctions.org/datasets/securities",
+  "description": "Sanctioned companies from a selected set of European and US sanctions lists, and their associated securities identifiers, including LEI and ISIN codes."
+},
+{
+  "id": "auto-2f111b3df643d1e8",
+  "name": "Consolidated Sanctions",
+  "org": "OpenSanctions.org",
+  "territoryTier": "Outros",
+  "kind": "dataset",
+  "themes": [
+    "Dados abertos"
+  ],
+  "coverage": "Consolidated list of sanctioned entities designated by different countries and international organisations. This can include military, trade and travel restrictions.",
+  "frequency": "Não informado na fonte estruturada",
+  "format": "JSON",
+  "period": "Não informado na fonte estruturada",
+  "granularity": "Não informado na fonte estruturada",
+  "geoUnit": "Não informado na fonte estruturada",
+  "api": null,
+  "docs": "https://www.opensanctions.org/datasets/sanctions/",
+  "limitations": "Metadados estruturados confirmam a existência do recurso, mas cobertura, atualização, licença e qualidade devem ser conferidas antes do uso editorial.",
+  "lastChecked": "2026-11-17",
+  "url": "https://www.opensanctions.org/datasets/sanctions/",
+  "discoveryUrl": "https://www.opensanctions.org/datasets/sanctions",
+  "description": "Consolidated list of sanctioned entities designated by different countries and international organisations. This can include military, trade and travel restrictions."
+}, 
+{
   "id": "govteca-aforamento-e-acervo-do-tjba",
   "name": "Aforamento e Acervo do TJBA",
   "org": "Tribunal de Justiça do Estado da Bahia (TJBA)",
