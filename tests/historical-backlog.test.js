@@ -62,6 +62,12 @@ test('terminal leads are not resurrected by fresh daily discovery',()=>{
  assert.equal(r.selected.length,0);
 });
 
+test('index and wiki-category pages do not consume the daily inspection window',()=>{
+ const bad=[lead('data-index',{category:'datasets',title:'Data sources',url:'https://www.opensanctions.org/datasets/sources/'}),lead('wiki-tools',{category:'tools',title:'Moderator Tools/Automoderator',url:'https://www.mediawiki.org/wiki/Moderator_Tools/Automoderator'})];
+ const result=selectBacklog(state(bad),[],10,now);
+ assert.deepEqual(result.selected,[]);
+});
+
 test('new direct opportunities precede older direct backlog items',()=>{
  const old=lead('old',{firstSeen:'2026-10-01T00:00:00Z'});
  const fresh=lead('fresh',{firstSeen:'2026-10-22T00:00:00Z'});
