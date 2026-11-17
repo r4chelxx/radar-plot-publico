@@ -6,6 +6,8 @@ test('legacy source approvals use the same semantic resource check as unified in
  try{
   fs.mkdirSync(path.join(dir,'intake'));
   const rows=[{id:'tutorial',url:'https://example.org/docs/tutorial',pageTitle:'Writing plugins to add new embedding models',pageDescription:'A tutorial showing software library tools for data analysis. Install online with documentation.',evidenceText:'This tutorial describes a software library plugin with data analysis functions. Download and install online.',structuredData:[]},{id:'product',url:'https://example.org/product',pageTitle:'Data analysis software',pageDescription:'Software for data analysis. Download and install online.',evidenceText:'This software provides data analysis functions. Download and install online.',structuredData:[]}];
+  rows[0].url='https://llm.datasette.io/en/stable/embeddings/writing-plugins.html';
+  rows[0].pageDescription='Plugins and extensions for machine learning software. Install online with documentation.';
   fs.writeFileSync(path.join(dir,'intake/candidate-triage.json'),JSON.stringify({leads:rows.map(x=>({category:'tools',classification:'needs-editorial-review',title:x.pageTitle,url:x.url}))}));
   rows[1].evidenceText+=' It supports importing tables, cleaning records and exporting charts for investigative journalism.';
   fs.writeFileSync(path.join(dir,'intake/lead-evidence.json'),JSON.stringify({generatedAt:new Date().toISOString(),results:rows.map(x=>({...x,pageStatus:'html-fetched',httpStatus:200,contentType:'text/html',checkedAt:new Date().toISOString()}))}));
