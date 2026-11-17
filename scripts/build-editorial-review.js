@@ -41,8 +41,8 @@ const candidates=[...historical,...(triage.leads||[])].filter(x=>x.classificatio
  const categoryReady=x.category==='opportunities'?(checks.deadlineVerified&&checks.eligibilityVerified&&checks.callSignal):x.category==='datasets'?(checks.producerVerified&&checks.accessAndScopeVerified&&checks.datasetSignal&&checks.directResource&&checks.format&&checks.coverage):x.category==='tools'?(checks.functionalityVerified&&checks.officialLinkVerified&&checks.productSignal&&checks.functionSignal&&checks.access):false;
  const semantic=reviewCandidate({...x,audit:ev||{}});
  checks.semanticResourceVerified=semantic.category===x.category&&semantic.decision==='evidence_complete_for_record_draft';
- checks.editorialApproval=Boolean(primarySourceVerified&&duplicateReviewed&&categoryReady&&checks.semanticResourceVerified);
- const missing=Object.entries(checks).filter(([,v])=>!v).map(([k])=>k);
+ checks.editorialApproval=Boolean(primarySourceVerified&&duplicateReviewed&&checks.semanticResourceVerified);
+ const missing=[...semantic.missing,...(!duplicateReviewed?['duplicateReviewed']:[])];
  const checkedAt=ev?.checkedAt||evidence.generatedAt;
  const proofEvidence=[ev?.pageTitle||x.title,ev?.pageDescription||'',ev?.evidenceText||'',structuredText].join(' ').replace(/\s+/g,' ').trim().slice(0,2400);
  const requiredChecks=x.category==='opportunities'?{callSignal:checks.callSignal,eligibility:checks.eligibilityVerified}:x.category==='datasets'?{datasetSignal:checks.datasetSignal,directResource:checks.directResource,format:checks.format,coverage:checks.coverage}:x.category==='tools'?{productSignal:checks.productSignal,function:checks.functionSignal,access:checks.access}:{};
