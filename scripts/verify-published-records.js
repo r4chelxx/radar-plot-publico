@@ -3,14 +3,17 @@
 const fs=require('node:fs');
 const base=process.env.RADAR_PUBLIC_URL||'https://r4chelxx.github.io/radar-plot-publico/';
 const approved=JSON.parse(fs.readFileSync(process.env.RADAR_APPROVED_MANIFEST||'intake/approved-publications.json','utf8')).approved||[];
-const expected=approved.filter(x=>x.record?.id).map(x=>({id:x.record.id,category:x.category}));
-// The publisher writes this report during this run; aliases must be absent and their
-// registered primary records present. Never waive an arbitrary missing approval.
 const aliasPath='intake/publication-aliases.json';
 const aliases=fs.existsSync(aliasPath)?JSON.parse(fs.readFileSync(aliasPath,'utf8')).aliases||[]:[];
+const aliasById=new Map(aliases.map(x=>[x.id,x]));
+const expected=approved.filter(x=>x.record?.id&&!aliasById.has(x.record.id)).map(x=>({id:x.record.id,category:x.category}));
+// The publisher writes this report during this run; aliases must be absent and their
+// registered primary records present. Never waive an arbitrary missing approval.
 for(const alias of aliases){
  if(alias.category!=='opportunities'||!alias.id||!alias.primaryId||alias.id===alias.primaryId)throw Error('Invalid publication alias');
- expected.push({id:alias.primaryId,category:alias.category});
+ // The alias itself is intentionally absent; the primary must be verified
+ // independently only when it is an approved manifest record.
+ if(!approved.some(x=>x.category===alias.category&&x.record?.id===alias.primaryId))throw Error('Alias primary is not an approved manifest record: '+alias.id);
 }
 const retries=Math.min(12,Math.max(1,Number(process.env.RADAR_DEPLOY_RETRIES||8)));
 const delay=Math.min(30000,Math.max(1000,Number(process.env.RADAR_DEPLOY_DELAY_MS||15000)));
