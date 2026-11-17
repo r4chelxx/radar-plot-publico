@@ -2856,6 +2856,166 @@
           "eligibility": true
         }
       }
+    },
+    {
+      "category": "datasets",
+      "record": {
+        "id": "auto-94f3d2156f6442d3",
+        "name": "US OFAC Specially Designated Nationals (SDN) List",
+        "org": "OpenSanctions.org",
+        "territoryTier": "Outros",
+        "kind": "dataset",
+        "themes": [
+          "Dados abertos"
+        ],
+        "coverage": "The primary United States' sanctions list, specially designated nationals (SDN) part.",
+        "frequency": "Não informado na fonte estruturada",
+        "format": "JSON",
+        "period": "Não informado na fonte estruturada",
+        "granularity": "Não informado na fonte estruturada",
+        "geoUnit": "Não informado na fonte estruturada",
+        "api": null,
+        "docs": "https://www.opensanctions.org/datasets/us_ofac_sdn/",
+        "limitations": "Metadados estruturados confirmam a existência do recurso, mas cobertura, atualização, licença e qualidade devem ser conferidas antes do uso editorial.",
+        "lastChecked": "2026-11-17",
+        "url": "https://www.opensanctions.org/datasets/us_ofac_sdn/",
+        "discoveryUrl": "https://www.opensanctions.org/datasets/us_ofac_sdn",
+        "description": "The primary United States' sanctions list, specially designated nationals (SDN) part."
+      },
+      "review": {
+        "reviewedBy": "Radar evidence gate v1",
+        "reviewPolicyVersion": "radar-evidence-v1",
+        "decision": "approved",
+        "officialUrl": "https://www.opensanctions.org/datasets/us_ofac_sdn/",
+        "sourceStatus": 200,
+        "contentType": "text/html; charset=utf-8",
+        "checkedAt": "2026-11-17T06:11:53.338Z",
+        "reviewedAt": "2026-11-17",
+        "evidence": "US OFAC Specially Designated Nationals (SDN) List The primary United States' sanctions list, specially designated nationals (SDN) part. US OFAC Specially Designated Nationals (SDN) List – OpenSanctions US OFAC Specially Designated Nationals (SDN) List JSON The primary United States' sanctions list, specially designated nationals (SDN) part. As part of its enforcement efforts, OFAC publishes a list of individuals and companies owned or controlled by, or acting for or on behalf of, targeted countries. It also lists individuals, groups, and entities, such as terrorists and narcotics traffickers designated under programs that are not country-specific. Collectively, such individuals and companies are called \"Specially Designated Nationals\" or \"SDNs.\" Their assets are blocked and U.S. persons are generally prohibited from dealing with them. Data overview # Search Entities : Total 72,994 Searchable 38,455 Targets 20,543 Entity types: Addresses 17,912 Organizations 10,007 People 7,516 Vessels 1,567 Cryptocurrency wallets 1,080 Airplanes 342 Companies 22 Securities 7 Legal entities 2 Countries: 195 countries · Show overview... Publisher: Office of Foreign Assets Control ( OFAC ) · United States OFAC is a division of the United States Department of the Treasury that administers and enforces economic and trade sanctions based on US foreign policy and national security goals against targeted foreign countries and regimes, terrorists, international narcotics traffickers, those engaged in activities related to the proliferation of weapons of mass destruction, and other threats to the national security, foreign policy or economy of the United States. Collections : in Consolidated Sanctions · OpenSanctions Default · Sanctioned Securities · United States Sanctions Information: www.treasury.gov Source data: www.treasury.gov · XML Tags : list.sanction · publisher.west · sector.maritime · sector.crypto · sector.energy · sector.securities · publisher.us Coverage : added 2015-12-05 · frequency: daily · On the hour, every 2 hours Last processed : 2026-11-17 04:10:04 · v. 20261117041004-frw · change statistics... Last change : 2026-11-13 Bulk download # Downloads contain the full set of entities contained in this dataset. You can fetch a simplified tabular form, or detailed, structured data in JSON format. Updated files will be provided once a day at the same location. File name Ex",
+        "evidenceHash": "473ce25c2cb950f9dad04a83ebf4274202f4555f1c891f1747de6667d6b8221c",
+        "evidenceChecks": {
+          "datasetSignal": true,
+          "directResource": true,
+          "format": true,
+          "coverage": true
+        }
+      }
+    },
+    {
+      "category": "datasets",
+      "record": {
+        "id": "auto-cc64ce6bf358c3c2",
+        "name": "Sanctioned Securities",
+        "org": "OpenSanctions.org",
+        "territoryTier": "Outros",
+        "kind": "dataset",
+        "themes": [
+          "Dados abertos"
+        ],
+        "coverage": "Sanctioned companies from a selected set of European and US sanctions lists, and their associated securities identifiers, including LEI and ISIN codes.",
+        "frequency": "Não informado na fonte estruturada",
+        "format": "JSON",
+        "period": "Não informado na fonte estruturada",
+        "granularity": "Não informado na fonte estruturada",
+        "geoUnit": "Não informado na fonte estruturada",
+        "api": null,
+        "docs": "https://www.opensanctions.org/datasets/securities/",
+        "limitations": "Metadados estruturados confirmam a existência do recurso, mas cobertura, atualização, licença e qualidade devem ser conferidas antes do uso editorial.",
+        "lastChecked": "2026-11-17",
+        "url": "https://www.opensanctions.org/datasets/securities/",
+        "discoveryUrl": "https://www.opensanctions.org/datasets/securities",
+        "description": "Sanctioned companies from a selected set of European and US sanctions lists, and their associated securities identifiers, including LEI and ISIN codes."
+      },
+      "review": {
+        "reviewedBy": "Radar evidence gate v1",
+        "reviewPolicyVersion": "radar-evidence-v1",
+        "decision": "approved",
+        "officialUrl": "https://www.opensanctions.org/datasets/securities/",
+        "sourceStatus": 200,
+        "contentType": "text/html; charset=utf-8",
+        "checkedAt": "2026-11-17T06:11:53.198Z",
+        "reviewedAt": "2026-11-17",
+        "evidence": "Sanctioned Securities Sanctioned companies from a selected set of European and US sanctions lists, and their associated securities identifiers, including LEI and ISIN codes. Sanctioned Securities – OpenSanctions Sanctioned Securities JSON Sanctioned companies from a selected set of European and US sanctions lists, and their associated securities identifiers, including LEI and ISIN codes. This collection produces a specialised export of all sanctioned organizations , with a column to designate their LEI codes, where available. We also include a column that lists all known ISINs associated with each company. The table also lists all Russian companies that have been assigned an ISIN, and thus are subject to investment bans under US Executive Order (EO) 14071. See also: Securities data in OpenSanctions Russian NSD dataset Data overview # Search Entities : Total 170,416 Searchable 85,211 Targets 50,277 Entity types: Addresses 24,283 Securities 21,419 Companies 13,095 People 12,001 Organizations 9,256 Vessels 2,011 Legal entities 1,662 Cryptocurrency wallets 1,106 Airplanes 342 Assets 36 Countries: 214 countries · Show overview... Coverage : added 2023-12-04 · frequency: daily Last processed : 2026-11-17 06:06:05 · v. 20261117060605-dgv · change statistics... Last change : 2026-11-17 Bulk download # Downloads contain the full set of entities contained in this dataset. You can fetch a simplified tabular form, or detailed, structured data in JSON format. Updated files will be provided once a day at the same location. File name Export type Size securities.csv Security-centric tabular format 11.04 MB Help: Using the data · model reference · delta updates · support · change log · licensing Using the API # You can query the data in this dataset via these API endpoints: For entity matching , use the /match endpoint: For full-text search , use the /search endpoint: Use the Reconciliation API in OpenRefine : Read the API docs Authentication, endpoints and usage examples Data sources 26 # Sanctioned Securities is a collection which bundles together entities from 26 data sources . See the source browser for more details... Name Country Entities Australian Sanctions Consolidated List Australia 5,372 Canadian Consolidated Autonomous Sanctions List Canada 5,693 EU Council Official Journal Sanctioned Entities European Union 9,582 EU ESMA Sanctions European Union 633 EU ESMA Susp",
+        "evidenceHash": "b38579e5bf6321c39f9ed3fb38c2b67ea8a40642dd77bc3d854c81e4f9ee6a88",
+        "evidenceChecks": {
+          "datasetSignal": true,
+          "directResource": true,
+          "format": true,
+          "coverage": true
+        }
+      }
+    },
+    {
+      "category": "datasets",
+      "record": {
+        "id": "auto-2f111b3df643d1e8",
+        "name": "Consolidated Sanctions",
+        "org": "OpenSanctions.org",
+        "territoryTier": "Outros",
+        "kind": "dataset",
+        "themes": [
+          "Dados abertos"
+        ],
+        "coverage": "Consolidated list of sanctioned entities designated by different countries and international organisations. This can include military, trade and travel restrictions.",
+        "frequency": "Não informado na fonte estruturada",
+        "format": "JSON",
+        "period": "Não informado na fonte estruturada",
+        "granularity": "Não informado na fonte estruturada",
+        "geoUnit": "Não informado na fonte estruturada",
+        "api": null,
+        "docs": "https://www.opensanctions.org/datasets/sanctions/",
+        "limitations": "Metadados estruturados confirmam a existência do recurso, mas cobertura, atualização, licença e qualidade devem ser conferidas antes do uso editorial.",
+        "lastChecked": "2026-11-17",
+        "url": "https://www.opensanctions.org/datasets/sanctions/",
+        "discoveryUrl": "https://www.opensanctions.org/datasets/sanctions",
+        "description": "Consolidated list of sanctioned entities designated by different countries and international organisations. This can include military, trade and travel restrictions."
+      },
+      "review": {
+        "reviewedBy": "Radar evidence gate v1",
+        "reviewPolicyVersion": "radar-evidence-v1",
+        "decision": "approved",
+        "officialUrl": "https://www.opensanctions.org/datasets/sanctions/",
+        "sourceStatus": 200,
+        "contentType": "text/html; charset=utf-8",
+        "checkedAt": "2026-11-17T06:11:53.879Z",
+        "reviewedAt": "2026-11-17",
+        "evidence": "Consolidated Sanctions Consolidated list of sanctioned entities designated by different countries and international organisations. This can include military, trade and travel restrictions. Consolidated Sanctions – OpenSanctions Consolidated Sanctions JSON Consolidated list of sanctioned entities designated by different countries and international organisations. This can include military, trade and travel restrictions. This collection combines all designated entities from the various sanctions lists included in OpenSanctions. It represents the broadest set of sanctioned people, companies and other assets that is designated globally. Virtually all sanctions lists are based on the UN Security Council List , and add further listings based on national policies. The sanctions included here generally impose one or more restrictions like freezing of assets banning financial transactions, except sometimes for personal living expenses travel bans They may be imposed as a consequence of activities such as funding or association with organisations involved in terrorism or human rights abuses, or for other geopolitical reasons. This excludes restrictions sometimes termed as sanctions such as those imposed by financial regulators for financial misconduct, or debarments restricting procurement. Those are included in the Crime collection instead. Data overview # Search Entities : Total 306,779 Searchable 105,159 Targets 73,900 Entity types: People 42,652 Addresses 24,424 Organizations 21,106 Legal entities 5,353 Securities 3,243 Companies 3,062 Cryptocurrency wallets 2,903 Vessels 2,038 Airplanes 342 Assets 36 Countries: 216 countries · Show overview... Coverage : added 2021-09-01 · At 01:00, 07:00, 13:00 and 19:00 Last processed : 2026-11-17 01:47:05 · v. 20261117014705-jyv · change statistics... Last change : 2026-11-17 Bulk download # Downloads contain the full set of entities contained in this dataset. You can fetch a simplified tabular form, or detailed, structured data in JSON format. Updated files will be provided once a day at the same location. File name Export type Size entities.ftm.json FollowTheMoney entities 364.21 MB names.txt Target names text file 11.08 MB senzing.json Senzing entity format 68.15 MB targets.nested.json Targets as nested JSON 440.5 MB targets.simple.csv Targets as simplified CSV 78.49 MB Help: Using the data · model reference · delta updates ",
+        "evidenceHash": "c02b8e81b67ef1f42447b4e61072155304b0a78ef858ea3e9c92d8bee5ec15d9",
+        "evidenceChecks": {
+          "datasetSignal": true,
+          "directResource": true,
+          "format": true,
+          "coverage": true
+        }
+      }
+    },
+    {
+      "category": "tools",
+      "record": {
+        "id": "auto-2276ef2f6f136c7d",
+        "name": "Telemetry for plugin authors - Datasette documentation",
+        "kind": "plugin de dados",
+        "url": "https://docs.datasette.io/en/latest/plugin_telemetry.html",
+        "desc": "Telemetry for plugin authors ¶ Datasette core emits OpenTelemetry spans and metrics for the work it does itself - see OpenTelemetry for what those are and how an operator turns them on. This page is about the other half: instrumenting the work your plugin does, so that a plugin's queries, background jobs and custom operations show up in the same traces and the same metrics pipeline, using the same conventions. Use your own instrumentation scope ¶ Create a tracer and meter using your plugin's own instrumentation scope: from opentelemetry import metrics , trace from my_plugin import __version__ tracer = trace . get_tracer ( \"my_plugin\" , __version__ ) meter = metrics . get_meter ( \"my_plugin\" , __version__ ) Use these naming rules: Scope : use your plugin's import package name, such as my_plugin . This lets users filter telemetry by plugin. Signal prefix : prefix spans, metrics and custom attributes with your package name ( my_plugin.* ) or a product name ( paper.* ). The datasette.* prefix is reserved for core. Reuse shared attribute names where they describe the same thing: db.namespace for a database name, or error.type for an exception class. If you pass schema_url= when creating Consultar documentação e licença antes do uso editorial.",
+        "discoveryUrl": "https://docs.datasette.io/en/latest/plugin_telemetry.html"
+      },
+      "review": {
+        "reviewedBy": "Radar evidence gate v1",
+        "reviewPolicyVersion": "radar-evidence-v1",
+        "decision": "approved",
+        "officialUrl": "https://docs.datasette.io/en/latest/plugin_telemetry.html",
+        "sourceStatus": 200,
+        "contentType": "text/html; charset=utf-8",
+        "checkedAt": "2026-11-17T06:11:54.859Z",
+        "reviewedAt": "2026-11-17",
+        "evidence": "Telemetry for plugin authors - Datasette documentation Telemetry for plugin authors ¶ Datasette core emits OpenTelemetry spans and metrics for the work it does itself - see OpenTelemetry for what those are and how an operator turns them on. This page is about the other half: instrumenting the work your plugin does, so that a plugin's queries, background jobs and custom operations show up in the same traces and the same metrics pipeline, using the same conventions. Use your own instrumentation scope ¶ Create a tracer and meter using your plugin's own instrumentation scope: from opentelemetry import metrics , trace from my_plugin import __version__ tracer = trace . get_tracer ( \"my_plugin\" , __version__ ) meter = metrics . get_meter ( \"my_plugin\" , __version__ ) Use these naming rules: Scope : use your plugin's import package name, such as my_plugin . This lets users filter telemetry by plugin. Signal prefix : prefix spans, metrics and custom attributes with your package name ( my_plugin.* ) or a product name ( paper.* ). The datasette.* prefix is reserved for core. Reuse shared attribute names where they describe the same thing: db.namespace for a database name, or error.type for an exception class. If you pass schema_url= when creating Telemetry for plugin authors - Datasette documentation Menu Expand Light mode Dark mode Auto light/dark, in light mode Auto light/dark, in dark mode Skip to content Contents Getting started Installation Configuration The Datasette Ecosystem CLI reference Pages and API endpoints Publishing data Deploying Datasette JSON API Running SQL queries Authentication and permissions Performance and caching CSV and TSV export Binary data Facets Full-text search SpatiaLite Metadata Settings Introspection Custom pages and templates Template context Plugins Writing plugins JavaScript in plugins Plugin hooks Testing plugins Telemetry for plugin authors Use your own instrumentation scope Declare a registry Privacy and cardinality rules Your database work is already traced Enriching the request span Background work: roots with links Observable gauges Testing your instrumentation Known caveats Internals for plugins Events Upgrade guide Contributing Changelog Back to top View this page Telemetry for plugin authors ¶ Datasette core emits OpenTelemetry spans and metrics for the work it does itself - see OpenTelemetry for what those are and how an o",
+        "evidenceHash": "c17d825eacab42c2ec30fe49238295c3fea47455d2c5ccfa94fb5c1343bbc583",
+        "evidenceChecks": {
+          "productSignal": true,
+          "function": true,
+          "access": true
+        }
+      }
     }
   ],
   "pending": [
