@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-16T23:50:52.613Z",
+  "generatedAt": "2026-11-17T04:01:15.399Z",
   "policy": "Evidence-based category triage. Missing license is recorded as unknown when not found; complete means draft eligibility only, never approval or publication.",
   "counts": {
-    "pending_more_evidence": 1869,
+    "pending_more_evidence": 1870,
     "evidence_complete_for_record_draft": 3
   },
   "categoryCounts": {
-    "uncategorized": 1595,
+    "uncategorized": 1596,
     "opportunities": 189,
     "tools": 30,
     "datasets": 58
@@ -503,7 +503,7 @@
       "url": "https://www.commarts.com/competitions",
       "category": "opportunities",
       "originalCategory": "opportunities",
-      "checkedAt": "2026-11-16T23:50:26.555Z",
+      "checkedAt": "2026-11-17T04:00:54.394Z",
       "checks": {
         "callSignal": true,
         "deadline": null,
@@ -1500,7 +1500,7 @@
       "url": "https://www.agi.org.uk/agi-awards",
       "category": "opportunities",
       "originalCategory": "opportunities",
-      "checkedAt": "2026-11-16T23:50:25.025Z",
+      "checkedAt": "2026-11-17T04:00:53.434Z",
       "checks": {
         "callSignal": true,
         "deadline": null,
@@ -1532,7 +1532,7 @@
       "url": "https://wan-ifra.org/events/digital-media-awards-worldwide",
       "category": "uncategorized",
       "originalCategory": "opportunities",
-      "checkedAt": "2026-11-16T23:50:24.428Z",
+      "checkedAt": "2026-11-17T04:00:51.938Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -2378,7 +2378,7 @@
       "url": "https://www.linkedin.com/showcase/data-visualization-society-geospatial-group",
       "category": "uncategorized",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-16T23:50:34.566Z",
+      "checkedAt": "2026-11-17T04:01:05.165Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -2476,7 +2476,7 @@
       "url": "https://www.figma.com/community/plugin/1109185297790825980/figma2html",
       "category": "uncategorized",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-16T23:50:44.844Z",
+      "checkedAt": "2026-11-17T04:01:14.168Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -2948,7 +2948,7 @@
       "url": "https://www.eventbrite.com/o/data-visualization-society-44097727323",
       "category": "uncategorized",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-16T23:50:30.806Z",
+      "checkedAt": "2026-11-17T04:00:59.500Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -3704,7 +3704,7 @@
       "url": "https://thefix.media/2026/10/02/press-gazette-launches-a-tool-for-newsrooms-to-help-flag-ai-generated-content",
       "category": "uncategorized",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-16T23:50:32.366Z",
+      "checkedAt": "2026-11-17T04:01:01.667Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -5676,7 +5676,7 @@
       "url": "https://grantsforjournalists.com/grant/yale-world-affairs-fellowship",
       "category": "opportunities",
       "originalCategory": "opportunities",
-      "checkedAt": "2026-11-16T23:50:25.855Z",
+      "checkedAt": "2026-11-17T04:00:53.778Z",
       "checks": {
         "callSignal": true,
         "deadline": null,
@@ -6393,18 +6393,12 @@
     {
       "id": "11c58b43c1a1a410b5ada983a3c62195bcda70aa6282e2e4da3737c763866d4d",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNbUxnSjh1ZlBPc0g0bHVFMVRPN2w1SXp5alZOWHQzalV2WlhTdUtmWjg2THJ3bFMzV291OGNkNEpXRFpYV054bU5RTDRPQmZTZmpCRERESERrUS04TzlzVUR4WVg4TW53LTVwMERBdVBlajVNS25yYl9FYXcyLU1nWGlBTkNFTHFaVk5OZmZRTE5qa0FOZ2labktPZEFFWU1UUUw0b05YYnVOM09zR2JRaGwxYl93eldNMFFEVEQ3OGUxdzdJU1BQOQ",
-      "category": "opportunities",
+      "category": "uncategorized",
       "originalCategory": "opportunities",
-      "checkedAt": "2026-11-16T23:50:44.844Z",
-      "checks": {
-        "callSignal": true,
-        "deadline": null,
-        "eligibility": false,
-        "rolling": false
-      },
+      "checkedAt": "2026-11-17T04:00:51.394Z",
+      "checks": {},
       "missing": [
-        "prazo futuro ou fluxo contínuo confirmado na chamada",
-        "elegibilidade expressa na fonte"
+        "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -17955,7 +17949,7 @@
       "url": "https://www.gbif.org/dataset/7e276a96-73ea-4efc-8ffb-e74ef573ef6c",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-16T23:50:44.844Z",
+      "checkedAt": "2026-11-17T04:01:14.168Z",
       "checks": {
         "datasetSignal": false,
         "directResource": false,
@@ -18112,7 +18106,7 @@
       "url": "https://www.gbif.org/dataset/c33ce2f2-c3cc-43a5-a380-fe4526d63650",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-16T23:50:44.844Z",
+      "checkedAt": "2026-11-17T04:01:14.168Z",
       "checks": {
         "datasetSignal": false,
         "directResource": false,
@@ -18349,7 +18343,7 @@
       "url": "https://www.gbif.org/dataset/9ca92552-f23a-41a8-a140-01abaa31c931",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-16T23:50:44.844Z",
+      "checkedAt": "2026-11-17T04:01:14.168Z",
       "checks": {
         "datasetSignal": false,
         "directResource": false,
@@ -18387,7 +18381,7 @@
       "url": "https://www.gbif.org/dataset/d7dddbf4-2cf0-4f39-9b2a-bb099caae36c",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-16T23:50:44.844Z",
+      "checkedAt": "2026-11-17T04:01:14.168Z",
       "checks": {
         "datasetSignal": false,
         "directResource": false,
@@ -18447,7 +18441,7 @@
       "url": "https://www.gbif.org/dataset/90d9e8a6-0ce1-472d-b682-3451095dbc5a",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-16T23:50:44.844Z",
+      "checkedAt": "2026-11-17T04:01:14.168Z",
       "checks": {
         "datasetSignal": false,
         "directResource": false,
@@ -18594,7 +18588,7 @@
       "url": "https://www.gbif.org/dataset/61a5f178-b5fb-4484-b6d8-9b129739e59d",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-16T23:50:44.844Z",
+      "checkedAt": "2026-11-17T04:01:14.168Z",
       "checks": {
         "datasetSignal": false,
         "directResource": false,
@@ -18633,7 +18627,7 @@
       "url": "https://www.gbif.org/dataset/7ddf754f-d193-4cc9-b351-99906754a03b",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-16T23:50:44.844Z",
+      "checkedAt": "2026-11-17T04:01:14.168Z",
       "checks": {
         "datasetSignal": false,
         "directResource": false,
@@ -18817,7 +18811,7 @@
       "url": "https://www.gbif.org/dataset/f382f0ce-323a-4091-bb9f-add557f3a9a2",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-16T23:50:44.844Z",
+      "checkedAt": "2026-11-17T04:01:14.168Z",
       "checks": {
         "datasetSignal": false,
         "directResource": false,
@@ -18935,7 +18929,7 @@
       "url": "https://www.gbif.org/dataset/19491596-35ae-4a91-9a98-85cf505f1bd3",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-16T23:50:44.844Z",
+      "checkedAt": "2026-11-17T04:01:14.168Z",
       "checks": {
         "datasetSignal": false,
         "directResource": false,
@@ -19062,7 +19056,7 @@
       "url": "https://www.gbif.org/dataset/3ee6fce9-9056-48f5-96fb-a2339bdb947e",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-16T23:50:44.844Z",
+      "checkedAt": "2026-11-17T04:01:14.168Z",
       "checks": {
         "datasetSignal": false,
         "directResource": false,
@@ -19161,7 +19155,7 @@
       "url": "https://www.gbif.org/dataset/4fa7b334-ce0d-4e88-aaae-2e0c138d049e",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-16T23:50:44.844Z",
+      "checkedAt": "2026-11-17T04:01:14.168Z",
       "checks": {
         "datasetSignal": false,
         "directResource": false,
@@ -19212,7 +19206,7 @@
       "url": "https://www.gbif.org/dataset/0e61f8fe-7d25-4f81-ada7-d970bbb2c6d6",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-16T23:50:44.844Z",
+      "checkedAt": "2026-11-17T04:01:14.168Z",
       "checks": {
         "datasetSignal": false,
         "directResource": false,
@@ -19676,7 +19670,7 @@
       "url": "https://www.gbif.org/dataset/c8227bb4-4143-443f-8cb2-51f9576aff14",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-16T23:50:44.844Z",
+      "checkedAt": "2026-11-17T04:01:14.168Z",
       "checks": {
         "datasetSignal": false,
         "directResource": false,
@@ -19742,7 +19736,7 @@
       "url": "https://www.gbif.org/dataset/fab88965-e69d-4491-a04d-e3198b626e52",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-16T23:50:44.844Z",
+      "checkedAt": "2026-11-17T04:01:14.168Z",
       "checks": {
         "datasetSignal": false,
         "directResource": false,
@@ -19780,7 +19774,7 @@
       "url": "https://www.gbif.org/dataset/bf3db7c9-5e5d-4fd0-bd5b-94539eaf9598",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-16T23:50:44.844Z",
+      "checkedAt": "2026-11-17T04:01:14.168Z",
       "checks": {
         "datasetSignal": false,
         "directResource": false,
@@ -19979,7 +19973,7 @@
       "url": "https://www.gbif.org/dataset/4cec8fef-f129-4966-89b7-4f8439aba058",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-16T23:50:44.844Z",
+      "checkedAt": "2026-11-17T04:01:14.168Z",
       "checks": {
         "datasetSignal": false,
         "directResource": false,
@@ -21845,7 +21839,7 @@
       "url": "https://www.hydrosheds.org/hydrosheds-core-downloads",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-16T23:50:29.276Z",
+      "checkedAt": "2026-11-17T04:00:57.107Z",
       "checks": {
         "datasetSignal": false,
         "directResource": true,
@@ -26595,7 +26589,7 @@
       "url": "https://opportunitydesk.org/2026/11/14/ocean-futures-fellowship-2027-building-ocean-career-pathways",
       "category": "uncategorized",
       "originalCategory": "opportunities",
-      "checkedAt": "2026-11-16T23:50:26.694Z",
+      "checkedAt": "2026-11-17T04:00:54.999Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -26903,7 +26897,7 @@
       "url": "https://opportunitydesk.org/2026/11/16/digispace-africa-research-fellowship-2027",
       "category": "uncategorized",
       "originalCategory": "opportunities",
-      "checkedAt": "2026-11-16T23:50:24.567Z",
+      "checkedAt": "2026-11-17T04:00:51.991Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -26916,7 +26910,7 @@
       "url": "https://gfmd.info/fundings/pulitzer-center-rainforest-reporting-grant",
       "category": "opportunities",
       "originalCategory": "opportunities",
-      "checkedAt": "2026-11-16T23:50:25.911Z",
+      "checkedAt": "2026-11-17T04:00:53.687Z",
       "checks": {
         "callSignal": true,
         "deadline": null,
@@ -26964,6 +26958,25 @@
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
+      "publicationReady": false
+    },
+    {
+      "id": "2699dbf1fc6731ec0412b455b5422230d1bd5ebd80448ec7fea47de1a98c99e0",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1xYmxjS2hxaG9FYnRZckRKLWFPS2ZBOVBxS04tcEJ1WGMzSWpqUkxscXB4dUJMMVpoU3JjN3lzc3d3eEpsT3dhZUpFbEcybktKd1lSVThhdHZxcXFoeHV1OFQyeEVZWWszWnJfSzI5T3hRTGJBZFVnZEpR",
+      "category": "opportunities",
+      "originalCategory": "opportunities",
+      "checkedAt": "2026-11-17T04:01:14.168Z",
+      "checks": {
+        "callSignal": true,
+        "deadline": null,
+        "eligibility": false,
+        "rolling": false
+      },
+      "missing": [
+        "prazo futuro ou fluxo contínuo confirmado na chamada",
+        "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
