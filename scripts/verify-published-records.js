@@ -11,9 +11,9 @@ const expected=approved.filter(x=>x.record?.id&&!aliasById.has(x.record.id)).map
 // registered primary records present. Never waive an arbitrary missing approval.
 for(const alias of aliases){
  if(alias.category!=='opportunities'||!alias.id||!alias.primaryId||alias.id===alias.primaryId)throw Error('Invalid publication alias');
- // The alias itself is intentionally absent; the primary must be verified
- // independently only when it is an approved manifest record.
- if(!approved.some(x=>x.category===alias.category&&x.record?.id===alias.primaryId))throw Error('Alias primary is not an approved manifest record: '+alias.id);
+ // The primary can predate this run; verify it in the deployed catalog even
+ // when it is no longer part of the current approval manifest.
+ expected.push({id:alias.primaryId,category:alias.category});
 }
 const retries=Math.min(12,Math.max(1,Number(process.env.RADAR_DEPLOY_RETRIES||8)));
 const delay=Math.min(30000,Math.max(1000,Number(process.env.RADAR_DEPLOY_DELAY_MS||15000)));
