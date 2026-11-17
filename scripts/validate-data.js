@@ -3,11 +3,22 @@ const fs=require("fs"),vm=require("vm"),path=require("path");
 const files=["data/opportunities.js","data/datasets.js","data/sources.js","data/tools.js","data/changelog.js"];
 let errors=[],warnings=[];
 function duplicateKeys(file,src){
-  const objectRx=/\{[^{}]*\}/g;
-  for(const m of src.matchAll(objectRx)){
-    const keys=[...m[0].matchAll(/(?:^|[,\{])\s*([A-Za-z_$][\w$]*)\s*:/g)].map(x=>x[1]);
-    const dup=[...new Set(keys.filter((k,i)=>keys.indexOf(k)!==i))];
-    if(dup.length) errors.push(file+": duplicate key(s) "+dup.join(", ")+" near "+m[0].slice(0,90));
+  // Tokenize strings atomically: examples inside descriptions are not object
+  // properties. Track each literal separately, including quoted JSON keys.
+  const tokens=[...src.matchAll(/"(?:\\.|[^"\\])*"|'(?:\\.|[^'\\])*'|\/\/[^\n]*|\/\*[\s\S]*?\*\/|[A-Za-z_$][\w$]*|[{}\[\]:,]/g)].map(x=>x[0]).filter(x=>!x.startsWith('//')&&!x.startsWith('/*'));
+  const stack=[];
+  for(let i=0;i<tokens.length;i++){
+    const token=tokens[i];
+    if(token==='{'||token==='['){stack.push({type:token,keys:new Set(),expectKey:token==='{'});continue}
+    if(token==='}'||token===']'){stack.pop();continue}
+    const current=stack.at(-1);if(!current||current.type!=='{')continue;
+    if(token===','){current.expectKey=true;continue}
+    if(token===':'){current.expectKey=false;continue}
+    if(current.expectKey&&tokens[i+1]===':'){
+      const key=token.startsWith('"')?JSON.parse(token):token.startsWith("'")?token.slice(1,-1):token;
+      if(current.keys.has(key))errors.push(file+': duplicate key(s) '+key);
+      current.keys.add(key);current.expectKey=false;
+    }
   }
 }
 const ctx={window:{}};ctx.window.RADAR_PARTS={};vm.createContext(ctx);
