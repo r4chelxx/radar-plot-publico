@@ -19,6 +19,8 @@ on:
       - "data.js"
       - "data/**"
       - "scripts/validate-data.js"
+      - "scripts/auto-audit-candidates.js"
+      - "tests/auto-audit-candidates.test.js"
       - ".github/workflows/validate-data.yml"
 
 permissions:

@@ -1,7 +1,7 @@
 const test=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),os=require('node:os'),path=require('node:path'),cp=require('node:child_process');
 function publicationReviewV1(category,url,evidence='Applications are open to journalists; product function and access terms are documented on the official source.'){
  const checkedAt=new Date().toISOString();
- const checks={opportunities:{callSignal:true,eligibility:true},datasets:{datasetSignal:true,directResource:true,format:true,coverage:true},tools:{productSignal:true,function:true,access:true}}[category];
+ const checks={opportunities:{callSignal:true,eligibility:true},datasets:{datasetSignal:true,directResource:true,webAccess:true,format:true,coverage:true},tools:{productSignal:true,function:true,access:true}}[category];
  return {reviewedBy:'Radar evidence gate v1',reviewPolicyVersion:'radar-evidence-v1',decision:'approved',reviewedAt:checkedAt.slice(0,10),officialUrl:url,evidence,checkedAt,evidenceHash:require('node:crypto').createHash('sha256').update(evidence).digest('hex'),sourceStatus:200,contentType:'text/html; charset=utf-8',evidenceChecks:checks};
 }
 test('auto-audit approves only a complete future opportunity',()=>{
@@ -74,6 +74,26 @@ test('legacy dataset and tool metadata without v1 proof remain blocked',()=>{
   cp.execFileSync(process.execPath,['scripts/auto-audit-candidates.js'],{cwd:d});
   const out=JSON.parse(fs.readFileSync(path.join(d,'intake/auto-editorial-decisions.json')));
   assert.equal(out.decisions.length,0);assert.equal(out.summary.autoApproved,0);assert.equal(out.summary.blocked,2);assert.match(JSON.stringify(out.summary.byBlocker),/comprovante individual compatível/);
+ }finally{fs.rmSync(d,{recursive:true,force:true})}
+});
+
+
+test('dataset without verified web access remains in review',()=>{
+ const d=fs.mkdtempSync(path.join(os.tmpdir(),'radar-dataset-access-'));
+ try{
+  fs.mkdirSync(path.join(d,'intake'));fs.mkdirSync(path.join(d,'scripts'));
+  for(const name of ['auto-audit-candidates','editorial-text'])fs.copyFileSync('scripts/'+name+'.js',path.join(d,'scripts',name+'.js'));
+  const url='https://official.example/data';
+  const record={id:'paused-dataset',name:'Official Dataset',org:'Official agency',kind:'dataset',coverage:'National statistics data from 2020 to 2025',limitations:'Check methodology and known gaps',docs:url,url,format:'CSV'};
+  const proof=publicationReviewV1('datasets',url);
+  proof.evidenceChecks.webAccess=false;
+  const lead={url,finalUrl:url,category:'datasets',pageStatus:'html-fetched',publicationRecord:record,publicationReviewV1:proof};
+  fs.writeFileSync(path.join(d,'intake/lead-evidence.json'),JSON.stringify({results:[lead]}));
+  fs.writeFileSync(path.join(d,'intake/editorial-review.json'),JSON.stringify({candidates:[]}));
+  cp.execFileSync(process.execPath,['scripts/auto-audit-candidates.js'],{cwd:d});
+  const out=JSON.parse(fs.readFileSync(path.join(d,'intake/auto-editorial-decisions.json')));
+  assert.equal(out.decisions.length,0);
+  assert.equal(out.summary.byBlocker['comprovante individual compatível com Radar evidence gate v1 ausente ou inválido'],1);
  }finally{fs.rmSync(d,{recursive:true,force:true})}
 });
 

@@ -20,7 +20,7 @@ function validPublicationReview(proof,category,url){
  if(!Number.isFinite(checkedAt)||age<0||age>24*60*60*1000||proof.reviewedAt!==String(proof.checkedAt).slice(0,10))return false;
  const evidence=String(proof.evidence||'');
  if(evidence.length<25||crypto.createHash('sha256').update(evidence).digest('hex')!==proof.evidenceHash)return false;
- const required={opportunities:['callSignal','eligibility'],datasets:['datasetSignal','directResource','format','coverage'],tools:['productSignal','function','access']}[category]||[];
+ const required={opportunities:['callSignal','eligibility'],datasets:['datasetSignal','directResource','webAccess','format','coverage'],tools:['productSignal','function','access']}[category]||[];
  return required.length>0&&required.every(key=>proof.evidenceChecks?.[key]===true);
 }
 function radarRelevantOpportunity(title,text){
@@ -38,7 +38,7 @@ function deriveDataset(lead,url){
  const se=lead.structuredEvidence||{};
  const title=cleanTitle(se.title||lead.pageTitle||lead.sourcePageTitle,lead.source||'');
  const description=cleanSummary(se.description||lead.pageDescription,title,lead.source||'');
- const organization=se.organization||lead.organization||lead.source||host(url)||'Fonte oficial';
+ const organization=se.organization||lead.organization||null;
  if(lead.category!=='datasets'||!title||!description||description.length<80||!organization)return null;
  const sourceType=String(se.sourceType||'').toLowerCase();
  const evidenceText=[title,description,url,se.sourceType||'',lead.pageTitle||'',lead.pageDescription||''].join(' ');
