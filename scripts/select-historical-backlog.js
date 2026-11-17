@@ -51,7 +51,7 @@ function selectBacklog(previous,current,limit=10,now=new Date(),options={}){
   accessibilityRank(a)-accessibilityRank(b)||
   Number(Boolean(a.lastInspectedAt))-Number(Boolean(b.lastInspectedAt))||
   indirect(a)-indirect(b)||
-  Number(a.origin!=='historical')-Number(b.origin!=='historical')||
+  Number(a.origin==='historical')-Number(b.origin==='historical')||
   String(a.lastInspectedAt||a.firstSeen||'').localeCompare(String(b.lastInspectedAt||b.firstSeen||''))||
   String(a.id).localeCompare(String(b.id)));
  const cap=Math.min(Math.max(1,limit),240);
