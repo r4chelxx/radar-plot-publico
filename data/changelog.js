@@ -1,26 +1,26 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
-{
-  "date": "2026-11-17",
-  "type": "dados",
-  "title": "Publicação editorial verificada — 2026-11-17",
-  "items": [
-    {
-      "id": "auto-94f3d2156f6442d3",
-      "title": "US OFAC Specially Designated Nationals (SDN) List"
-    },
-    {
-      "id": "auto-cc64ce6bf358c3c2",
-      "title": "Sanctioned Securities"
-    },
-    {
-      "id": "auto-2f111b3df643d1e8",
-      "title": "Consolidated Sanctions"
-    }
-  ],
-  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: US OFAC Specially Designated Nationals (SDN) List; Sanctioned Securities; Consolidated Sanctions."
-},
-{
+  {
+    "date": "2026-11-17",
+    "type": "dados",
+    "title": "Publicação editorial verificada — 2026-11-17",
+    "items": [
+      {
+        "id": "auto-94f3d2156f6442d3",
+        "title": "US OFAC Specially Designated Nationals (SDN) List"
+      },
+      {
+        "id": "auto-cc64ce6bf358c3c2",
+        "title": "Sanctioned Securities"
+      },
+      {
+        "id": "auto-2f111b3df643d1e8",
+        "title": "Consolidated Sanctions"
+      }
+    ],
+    "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: US OFAC Specially Designated Nationals (SDN) List; Sanctioned Securities; Consolidated Sanctions."
+  },
+  {
     "date": "2026-11-16",
     "type": "dados",
     "title": "Publicação editorial verificada — 2026-11-16",
