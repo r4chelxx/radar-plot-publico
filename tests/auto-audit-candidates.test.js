@@ -60,6 +60,23 @@ test('auto-audit blocks derived opportunity without explicit open status',()=>{
  }finally{fs.rmSync(d,{recursive:true,force:true})}
 });
 
+test('dataset source directory is not approved as a data resource',()=>{
+ const d=fs.mkdtempSync(path.join(os.tmpdir(),'radar-dataset-index-'));
+ try{
+  fs.mkdirSync(path.join(d,'intake'));fs.mkdirSync(path.join(d,'scripts'));
+  for(const name of ['auto-audit-candidates','editorial-text'])fs.copyFileSync('scripts/'+name+'.js',path.join(d,'scripts',name+'.js'));
+  const url='https://www.opensanctions.org/datasets/sources/';
+  const record={id:'auto-source-directory',name:'Data sources',org:'OpenSanctions',kind:'dataset',coverage:'A directory of sources and sanctions lists worldwide',limitations:'Index page, not a downloadable dataset',docs:url,url,format:'CSV'};
+  const lead={url,finalUrl:url,category:'datasets',pageStatus:'html-fetched',publicationRecord:record,publicationReviewV1:publicationReviewV1('datasets',url)};
+  fs.writeFileSync(path.join(d,'intake/lead-evidence.json'),JSON.stringify({results:[lead]}));
+  fs.writeFileSync(path.join(d,'intake/editorial-review.json'),JSON.stringify({candidates:[]}));
+  cp.execFileSync(process.execPath,['scripts/auto-audit-candidates.js'],{cwd:d});
+  const out=JSON.parse(fs.readFileSync(path.join(d,'intake/auto-editorial-decisions.json')));
+  assert.equal(out.decisions.length,0);
+  assert.ok(out.blockers[0].blockers.includes('página de índice ou dicionário, não um recurso de dados'));
+ }finally{fs.rmSync(d,{recursive:true,force:true})}
+});
+
 test('legacy dataset and tool metadata without v1 proof remain blocked',()=>{
  const d=fs.mkdtempSync(path.join(os.tmpdir(),'radar-auto-audit-catalog-'));
  try{
