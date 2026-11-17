@@ -82,3 +82,9 @@ test('canonical evidence is associated even when tracking parameters differ',()=
   assert.equal(out.candidates[0].publicationReady,false);
  }finally{fs.rmSync(dir,{recursive:true,force:true})}
 });
+
+test('plugin author documentation is not an independently catalogable tool',()=>{
+ const {reviewCandidate}=require('../scripts/review-editorial-evidence');
+ const result=reviewCandidate({category:'tools',url:'https://docs.datasette.io/en/latest/plugin_telemetry.html',title:'Telemetry for plugin authors - Datasette documentation',audit:{pageTitle:'Telemetry for plugin authors - Datasette documentation',httpStatus:200,contentType:'text/html',evidenceText:'Datasette core emits OpenTelemetry spans and metrics. This page explains instrumenting the work your plugin does. Use your own instrumentation scope. Create a tracer and meter using your plugin package.',structuredData:[]}});
+ assert.notEqual(result.decision,'evidence_complete_for_record_draft');
+});
