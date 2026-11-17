@@ -1,6 +1,7 @@
 // Editorial review queue derived from evidence. Never marks a candidate verified.
 const fs=require('node:fs'),crypto=require('node:crypto');
 const {identity}=require('./lead-identity');
+const {reviewCandidate}=require('./review-editorial-evidence');
 const triage=JSON.parse(fs.readFileSync('intake/candidate-triage.json','utf8'));
 const evidence=JSON.parse(fs.readFileSync('intake/lead-evidence.json','utf8'));
 const today=new Intl.DateTimeFormat('en-CA',{timeZone:'America/Bahia',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());
@@ -38,7 +39,9 @@ const candidates=[...historical,...(triage.leads||[])].filter(x=>x.classificatio
   Object.assign(checks,{functionalityVerified,officialLinkVerified,productSignal:/(software|tool|application|library|platform|programming language|framework)/i.test([ev?.pageTitle||x.title,pageText,structuredText].join(' ')),functionSignal:functionalityVerified,access:/\b(download|install|web app|browser|online|cloud|desktop|api|documentation|docs|github|cran|npm|python|free|open source|license|licen[cç]a)\b/i.test([pageText,structuredText].join(' '))});
  } else checks.categoryReviewed=false;
  const categoryReady=x.category==='opportunities'?(checks.deadlineVerified&&checks.eligibilityVerified&&checks.callSignal):x.category==='datasets'?(checks.producerVerified&&checks.accessAndScopeVerified&&checks.datasetSignal&&checks.directResource&&checks.format&&checks.coverage):x.category==='tools'?(checks.functionalityVerified&&checks.officialLinkVerified&&checks.productSignal&&checks.functionSignal&&checks.access):false;
- checks.editorialApproval=Boolean(primarySourceVerified&&duplicateReviewed&&categoryReady);
+ const semantic=reviewCandidate({...x,audit:ev||{}});
+ checks.semanticResourceVerified=semantic.category===x.category&&semantic.decision==='evidence_complete_for_record_draft';
+ checks.editorialApproval=Boolean(primarySourceVerified&&duplicateReviewed&&categoryReady&&checks.semanticResourceVerified);
  const missing=Object.entries(checks).filter(([,v])=>!v).map(([k])=>k);
  const checkedAt=ev?.checkedAt||evidence.generatedAt;
  const proofEvidence=[ev?.pageTitle||x.title,ev?.pageDescription||'',ev?.evidenceText||'',structuredText].join(' ').replace(/\s+/g,' ').trim().slice(0,2400);

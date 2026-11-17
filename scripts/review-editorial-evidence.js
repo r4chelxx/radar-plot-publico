@@ -6,7 +6,6 @@ const fs=require('node:fs');
 const {rollingApplicationEvidence}=require('./editorial-page-evidence');
 const queuePath=process.argv[2]||'intake/editorial-queue.json';
 const outPath=process.argv[3]||'intake/editorial-evidence-review.json';
-const q=JSON.parse(fs.readFileSync(queuePath,'utf8'));
 const today=new Intl.DateTimeFormat('en-CA',{timeZone:'America/Bahia',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());
 const flat=v=>Array.isArray(v)?v.map(flat).join(' '):v&&typeof v==='object'?Object.values(v).map(flat).join(' '):String(v||'');
 const excluded=/\b(conference|webinar|festival|newsletter|podcast|blog post|news article|event|symposium|perfil|profile|portfolio|directory|diretório|tutorial|guide|how[- ]to|call for pitches|press release|article|agency|agência|consult(?:ancy|ing|oria)|membership|archive|arquivo|research advisory|academic library|biblioteca acadêmica)\b/i;
@@ -14,6 +13,7 @@ const excludedPath=/\/(?:blog|news|press|articles?|posts?|podcasts?|pitch|proces
 const excludedToolUrl=/(?:creativeapplications\.net(?:\/|$)|propublica\.org\/data(?:\/|$)|poynter\.org\/(?:shop|mediawise\/programs)(?:\/|$)|mailchimp\.com\/signup(?:\/|$)|indicator\.media(?:\/|$)|soxoj\.com\/?$|(?:www\.)?dw\.com\/|(?:www\.)?wired\.com\/story\/|(?:www\.)?reuters\.com\/|(?:www\.)?bbc\.com\/|(?:www\.)?theguardian\.com\/|(?:www\.)?apnews\.com\/)/i;
 const excludedToolContent=/\b(?:community of creative practitioners|critical making|published \d{2,}[,\d]* articles|membership plans?|research advisory|consulting services|course|training program|newsroom archive)\b/i;
 function toolIdentity(c,title,docs){
+ if(/^(?:writing|creating)\s+(?:plugins?|extensions?|an? embedding model)\b/i.test(title))return false;
  const structured=docs.some(x=>/softwareapplication|softwareproduct/.test(flat(x['@type']).toLowerCase()));
  // Editorial pages may describe many real tools. Those references do not make
  // the blog or podcast itself a software product.
@@ -30,6 +30,7 @@ function toolIdentity(c,title,docs){
  return structured||cranPackage||(!excluded.test(surface)&&/(software|tool|platform|application|library|framework|plugin|extension|programming language|statistical computing|ferramenta|plataforma|aplicativo|biblioteca)/i.test(surface));
 }
 function toolFunction(text,docs){
+ if(/\b(?:screen.scraping HTML|HTML parsing|parsing HTML|parse tree)\b/i.test(text))return true;
  if(/\b(?:browser automation tool|automates browsers|(?:headless )?graphics framework|javascript 3d library|create responsive graphics)\b/i.test(text))return true;
  const structured=docs.some(x=>{const type=flat(x['@type']).toLowerCase();return /softwareapplication|softwareproduct/.test(type)&&(x.featureList||x.applicationCategory||x.description)});
  return structured||/(data visualization|visuali[sz]a(?:tion|ção) de dados|create (?:interactive )?(?:maps|charts|dashboards)|build (?:interactive )?(?:maps|charts|dashboards)|mapping software|programming language|statistical computing|statistical analysis|data analytics|business intelligence|query language|geospatial analysis|spatial analysis|web scraping|scrape (?:websites|data)|data cleaning|data processing|data analysis|data matching|record linkage|text analysis|network analysis|design tool|design platform|collaborative design|prototype|vector graphics|illustration|visual development|interactive (?:maps|charts|dashboards)|dashboard|reporting|pdf(?: processing| extraction)?|machine learning|open source library|package for R|mapeamento interativo|análise geoespacial|visualização de dados|raspagem de dados|permite criar (?:mapas|gráficos|painéis)|lets users create|enables users to create|helps (?:you|users) (?:design|analy[sz]e|visuali[sz]e|create)|biblioteca (?:JavaScript|Python|R)|plataforma de análise)/i.test(text);
@@ -152,9 +153,14 @@ function review(c){
  const enough=hardStatus&&missing.length===0;
  return{id:c.id,url:c.url,category,originalCategory:c.category||'uncategorized',checkedAt:a.checkedAt||null,checks,missing,decision:enough?'evidence_complete_for_record_draft':'pending_more_evidence',publicationReady:false};
 }
+function main(){
+const q=JSON.parse(fs.readFileSync(queuePath,'utf8'));
 const records=(q.candidates||[]).filter(c=>c.status==='pending'&&c.audit).map(review);
 const counts={};for(const x of records)counts[x.decision]=(counts[x.decision]||0)+1;
 const categoryCounts={};for(const x of records)categoryCounts[x.category]=(categoryCounts[x.category]||0)+1;
 const out={generatedAt:new Date().toISOString(),policy:'Evidence-based category triage. Missing license is recorded as unknown when not found; complete means draft eligibility only, never approval or publication.',counts,categoryCounts,records};
 fs.writeFileSync(outPath,JSON.stringify(out,null,2)+'\n');
 console.log(JSON.stringify({reviewed:records.length,counts,categoryCounts,publicationReady:0}));
+}
+if(require.main===module)main();
+module.exports={reviewCandidate:review};

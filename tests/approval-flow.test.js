@@ -4,7 +4,7 @@ test('inspected product generates proof, record and approval; article and newsle
  const root=fs.mkdtempSync(path.join(os.tmpdir(),'radar-flow-'));
  try{
   fs.mkdirSync(path.join(root,'scripts'));fs.mkdirSync(path.join(root,'intake'));
-  for(const name of ['build-editorial-review','auto-audit-candidates','lead-identity','editorial-text'])fs.copyFileSync('scripts/'+name+'.js',path.join(root,'scripts',name+'.js'));
+  for(const name of ['build-editorial-review','auto-audit-candidates','lead-identity','editorial-text','review-editorial-evidence','editorial-page-evidence'])fs.copyFileSync('scripts/'+name+'.js',path.join(root,'scripts',name+'.js'));
   const urls=['https://www.crummy.com/software/BeautifulSoup/','https://example.org/2026/11/new-tool','https://buttondown.com/newsletter/archive/123','https://example.org/book','https://example.org/tools','https://person.example.org/'];
   const titles=['Beautiful Soup: We called him Tortoise because he taught us.','Newsletter about a new library','Newsletter archive','Health inequality monitoring book','Tools and toolkits','Soxoj — OSINT specialist and tool developer'];
   const text='Beautiful Soup is a Python library designed for screen-scraping HTML and XML. It provides methods for navigating, searching and modifying a parse tree. Download and install from the official documentation under the MIT license.';

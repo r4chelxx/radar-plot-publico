@@ -1,6 +1,31 @@
 const test=require('node:test'),assert=require('node:assert/strict');
 const fs=require('node:fs'),os=require('node:os'),path=require('node:path'),cp=require('node:child_process');
 const script=path.resolve(__dirname,'../scripts/build-editorial-review.js');
+test('legacy source approvals use the same semantic resource check as unified intake',()=>{
+ const dir=fs.mkdtempSync(path.join(os.tmpdir(),'radar-legacy-gate-'));
+ try{
+  fs.mkdirSync(path.join(dir,'intake'));
+  const rows=[{id:'tutorial',url:'https://example.org/docs/tutorial',pageTitle:'Writing plugins to add new embedding models',pageDescription:'A tutorial showing software library tools for data analysis. Install online with documentation.',evidenceText:'This tutorial describes a software library plugin with data analysis functions. Download and install online.',structuredData:[]},{id:'product',url:'https://example.org/product',pageTitle:'Data analysis software',pageDescription:'Software for data analysis. Download and install online.',evidenceText:'This software provides data analysis functions. Download and install online.',structuredData:[]}];
+  rows[0].url='https://llm.datasette.io/en/stable/embeddings/writing-plugins.html';
+  rows[0].pageDescription='Plugins and extensions for machine learning software. Install online with documentation.';
+  fs.writeFileSync(path.join(dir,'intake/candidate-triage.json'),JSON.stringify({leads:rows.map(x=>({category:'tools',classification:'needs-editorial-review',title:x.pageTitle,url:x.url}))}));
+  rows[1].evidenceText+=' It supports importing tables, cleaning records and exporting charts for investigative journalism.';
+  fs.writeFileSync(path.join(dir,'intake/lead-evidence.json'),JSON.stringify({generatedAt:new Date().toISOString(),results:rows.map(x=>({...x,pageStatus:'html-fetched',httpStatus:200,contentType:'text/html',checkedAt:new Date().toISOString()}))}));
+  cp.execFileSync(process.execPath,[script],{cwd:dir});const r=JSON.parse(fs.readFileSync(path.join(dir,'intake/editorial-review.json')));
+  assert.equal(r.candidates[0].publicationReviewV1,null);assert.equal(r.candidates[1].checks.editorialApproval,true);
+ }finally{fs.rmSync(dir,{recursive:true,force:true})}
+});
+test('catalog duplicate-key check ignores examples in descriptions but rejects actual duplicate keys',()=>{
+ const dir=fs.mkdtempSync(path.join(os.tmpdir(),'radar-validator-'));
+ try{
+  fs.mkdirSync(dir+'/data');for(const key of ['tools','datasets','sources','opportunities','changelog'])fs.copyFileSync(path.resolve('data/'+key+'.js'),dir+'/data/'+key+'.js');
+  const write=body=>fs.writeFileSync(dir+'/data/tools.js','window.RADAR_PARTS.tools=['+body+'];');
+  write(JSON.stringify({id:'sample',name:'Software',kind:'analysis',url:'https://example.org/',desc:'Documentation example: {key: 1, key: 2}'}));
+  let r=cp.spawnSync(process.execPath,[path.resolve('scripts/validate-data.js')],{cwd:dir,encoding:'utf8'});assert.equal(r.status,0,r.stdout+r.stderr);
+  write('{"id":"one","id":"two","name":"Software","kind":"analysis","url":"https://example.org/"}');
+  r=cp.spawnSync(process.execPath,[path.resolve('scripts/validate-data.js')],{cwd:dir,encoding:'utf8'});assert.notEqual(r.status,0);assert.match(r.stdout+r.stderr,/duplicate key/);
+ }finally{fs.rmSync(dir,{recursive:true,force:true})}
+});
 test('category-specific editorial checks and distinct candidate IDs',()=>{
  const dir=fs.mkdtempSync(path.join(os.tmpdir(),'radar-review-'));
  try{
