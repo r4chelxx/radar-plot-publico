@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-17T06:16:51.257Z",
+  "generatedAt": "2026-11-17T19:53:11.094Z",
   "policy": "Evidence-based category triage. Missing license is recorded as unknown when not found; complete means draft eligibility only, never approval or publication.",
   "counts": {
-    "pending_more_evidence": 1870,
-    "evidence_complete_for_record_draft": 3
+    "pending_more_evidence": 1871,
+    "evidence_complete_for_record_draft": 2
   },
   "categoryCounts": {
     "uncategorized": 1604,
@@ -308,7 +308,7 @@
       "url": "https://www.gartner.com/en/conferences/hub/data-analytics-conferences/awards",
       "category": "opportunities",
       "originalCategory": "opportunities",
-      "checkedAt": "2026-11-16T11:18:13.387Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {
         "callSignal": false,
         "deadline": null,
@@ -1174,7 +1174,7 @@
       "url": "https://barc.com/events/barc-start-up-award",
       "category": "uncategorized",
       "originalCategory": "opportunities",
-      "checkedAt": "2026-11-16T18:39:43.465Z",
+      "checkedAt": "2026-11-17T19:52:40.061Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -1585,7 +1585,7 @@
       "url": "https://offf.barcelona/",
       "category": "uncategorized",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -1598,7 +1598,7 @@
       "url": "https://pudding.cool/pudding-cup",
       "category": "uncategorized",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -1611,7 +1611,7 @@
       "url": "https://pro.arcgis.com/en/pro-app/3.4/arcpy/get-started/what-is-arcpy-.htm",
       "category": "uncategorized",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -1624,7 +1624,7 @@
       "url": "https://www.niemanlab.org/2026/10/the-wall-street-journals-new-ai-tool-doppler-forecasts-the-issues-that-will-shape-the-midterm-elections",
       "category": "uncategorized",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -1637,7 +1637,7 @@
       "url": "https://openvisualizationacademy.org/",
       "category": "uncategorized",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -1650,7 +1650,7 @@
       "url": "https://openstreetmap.us/events/state-of-the-map-us/2026",
       "category": "uncategorized",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -1663,7 +1663,7 @@
       "url": "https://schemadesign.com/",
       "category": "uncategorized",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -1676,7 +1676,7 @@
       "url": "https://cogeo.org/",
       "category": "uncategorized",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -1689,7 +1689,7 @@
       "url": "https://academy.zebrabi.com/",
       "category": "uncategorized",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -1702,7 +1702,7 @@
       "url": "https://s2026.siggraph.org/",
       "category": "uncategorized",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -1715,7 +1715,7 @@
       "url": "https://datajournalism.com/read/handbook/two",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -1728,7 +1728,7 @@
       "url": "https://www.creativeapplications.net/",
       "category": "uncategorized",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -1741,7 +1741,7 @@
       "url": "https://themarkup.org/series/blueprints",
       "category": "uncategorized",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -1754,7 +1754,7 @@
       "url": "https://playwright.dev/",
       "category": "uncategorized",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -1767,7 +1767,7 @@
       "url": "https://theconversation.com/us/pitching",
       "category": "uncategorized",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -1781,7 +1781,7 @@
       "url": "https://www.datawrapper.de/blog/category/datavis-dos-and-donts",
       "category": "uncategorized",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -1794,7 +1794,7 @@
       "url": "https://interactivethings.com/",
       "category": "uncategorized",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -1805,12 +1805,18 @@
     {
       "id": "8bd915e862f18d8b768ebd9d76bcc6bdf3b230e2c5477918441f7ab8ece65466",
       "url": "https://stamen.com/",
-      "category": "uncategorized",
+      "category": "tools",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
-      "checks": {},
+      "checkedAt": "2026-11-17T19:52:58.124Z",
+      "checks": {
+        "productSignal": true,
+        "function": true,
+        "access": false,
+        "license": false,
+        "licenseStatus": "not stated in captured source"
+      },
       "missing": [
-        "categoria específica sem evidência suficiente"
+        "condições de acesso minimamente descritas"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -1820,7 +1826,7 @@
       "url": "https://www.youtube.com/channel/UCDvDHr5CYKBrbwaqRs04LPw",
       "category": "uncategorized",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -1833,7 +1839,7 @@
       "url": "https://www.niemanlab.org/2026/10/legal-experts-warn-metas-new-terms-still-grant-broad-scraping-permissions-despite-language-changes",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -1846,7 +1852,7 @@
       "url": "https://propublica.org/data",
       "category": "uncategorized",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -1859,7 +1865,7 @@
       "url": "https://geospatialworldforum.org/",
       "category": "uncategorized",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -1873,7 +1879,7 @@
       "url": "https://www.adobe.com/products/illustrator.html",
       "category": "tools",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {
         "productSignal": true,
         "function": true,
@@ -1892,7 +1898,7 @@
       "url": "https://rvest.tidyverse.org/",
       "category": "uncategorized",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -1905,7 +1911,7 @@
       "url": "https://multimedia.scmp.com/culture/article/SCMP-printed-graphics-memory",
       "category": "uncategorized",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -1918,7 +1924,7 @@
       "url": "https://www.journalists.org/conference",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -1931,7 +1937,7 @@
       "url": "https://gartner.com/en/conferences/emea/data-analytics-germany",
       "category": "uncategorized",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -1945,10 +1951,9 @@
       "url": "https://www.nytimes.com/section/upshot",
       "category": "uncategorized",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {},
       "missing": [
-        "página primária acessível com conteúdo compatível",
         "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
@@ -1959,7 +1964,7 @@
       "url": "https://geoawesomeness.com/",
       "category": "uncategorized",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -1973,7 +1978,7 @@
       "url": "https://www.storytellingwithdata.com/podcast/feedback",
       "category": "uncategorized",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -2000,7 +2005,7 @@
       "url": "https://spatialreserves.wordpress.com/",
       "category": "uncategorized",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -2013,7 +2018,7 @@
       "url": "https://cartography.org.uk/",
       "category": "uncategorized",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -2061,7 +2066,7 @@
       "url": "https://lighthousereports.com/",
       "category": "tools",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {
         "productSignal": true,
         "function": true,
@@ -2080,7 +2085,7 @@
       "url": "https://snd.org/",
       "category": "uncategorized",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -2127,7 +2132,7 @@
       "url": "https://www.instagram.com/datavizsociety",
       "category": "uncategorized",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -2140,7 +2145,7 @@
       "url": "https://segment-anything.com/",
       "category": "uncategorized",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -2153,7 +2158,7 @@
       "url": "https://densitydesign.org/",
       "category": "uncategorized",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -2166,7 +2171,7 @@
       "url": "https://www.niemanlab.org/2026/10/sinclairs-new-substack-repackages-its-local-tv-reporting-into-a-video-podcast",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -2179,7 +2184,7 @@
       "url": "https://grida.no/",
       "category": "uncategorized",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -2192,7 +2197,7 @@
       "url": "https://globalforestwatch.org/",
       "category": "tools",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {
         "productSignal": true,
         "function": false,
@@ -2211,10 +2216,9 @@
       "url": "https://garden-eight.com/",
       "category": "uncategorized",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {},
       "missing": [
-        "página primária acessível com conteúdo compatível",
         "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
@@ -2225,7 +2229,7 @@
       "url": "https://www.niemanlab.org/2026/10/u-k-politicians-and-german-publishers-call-on-regulators-to-pause-metas-new-terms-before-october-30-deadline",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -2256,7 +2260,7 @@
       "url": "https://www.python.org/events/python-events/2147",
       "category": "uncategorized",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -2269,7 +2273,7 @@
       "url": "https://forensic-architecture.org/",
       "category": "uncategorized",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -2282,7 +2286,7 @@
       "url": "https://www.workout-wednesday.com/",
       "category": "uncategorized",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -2295,7 +2299,7 @@
       "url": "https://nacis.org/annual-meeting/current-meeting",
       "category": "uncategorized",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -2308,7 +2312,7 @@
       "url": "https://geopandas.org/",
       "category": "uncategorized",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -2321,7 +2325,7 @@
       "url": "https://skytruth.org/",
       "category": "tools",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {
         "productSignal": true,
         "function": false,
@@ -2340,7 +2344,7 @@
       "url": "https://spacy.io/",
       "category": "uncategorized",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -2353,7 +2357,7 @@
       "url": "https://www.womenindata.org/",
       "category": "uncategorized",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -2366,7 +2370,7 @@
       "url": "https://qgis.org/pyqgis/master",
       "category": "uncategorized",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -2379,7 +2383,7 @@
       "url": "https://www.linkedin.com/showcase/data-visualization-society-geospatial-group",
       "category": "uncategorized",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-17T04:01:05.165Z",
+      "checkedAt": "2026-11-17T19:52:48.693Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -2392,7 +2396,7 @@
       "url": "https://github.com/30DayChartChallenge",
       "category": "uncategorized",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -2405,7 +2409,7 @@
       "url": "https://hackshackers.com/",
       "category": "tools",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {
         "productSignal": true,
         "function": false,
@@ -2425,7 +2429,7 @@
       "url": "https://www.datawrapper.de/blog/category/data-vis-dispatch",
       "category": "uncategorized",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -2438,7 +2442,7 @@
       "url": "https://www.data-to-viz.com/",
       "category": "uncategorized",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -2451,7 +2455,7 @@
       "url": "https://eurocarto2026.org/",
       "category": "uncategorized",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -2464,7 +2468,7 @@
       "url": "https://www.niemanlab.org/2026/10/a-new-report-argues-newsrooms-need-to-do-more-experiments-like-the-kind-with-randomization-and-results",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -2477,7 +2481,7 @@
       "url": "https://www.figma.com/community/plugin/1109185297790825980/figma2html",
       "category": "uncategorized",
       "originalCategory": "tools",
-      "checkedAt": null,
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -2491,7 +2495,7 @@
       "url": "https://archieml.org/",
       "category": "uncategorized",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -2504,7 +2508,7 @@
       "url": "https://www.niemanlab.org/2026/10/two-creators-went-to-nyus-business-school-then-decided-to-make-a-show-about-the-news",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -2517,7 +2521,7 @@
       "url": "https://www.ibcs.com/",
       "category": "uncategorized",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -2551,7 +2555,7 @@
       "url": "https://domesticdatastreamers.com/",
       "category": "uncategorized",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -2564,7 +2568,7 @@
       "url": "https://thebookofshaders.com/",
       "category": "uncategorized",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -2577,7 +2581,7 @@
       "url": "https://www.tidymodels.org/",
       "category": "uncategorized",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -2590,7 +2594,7 @@
       "url": "https://texty.org.ua/",
       "category": "uncategorized",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -2624,7 +2628,7 @@
       "url": "https://www.propublica.org/collaborate",
       "category": "uncategorized",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -2637,7 +2641,7 @@
       "url": "https://osgeo.org/",
       "category": "tools",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {
         "productSignal": true,
         "function": false,
@@ -2656,9 +2660,10 @@
       "url": "https://creativeapplications.net/",
       "category": "uncategorized",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {},
       "missing": [
+        "página primária acessível com conteúdo compatível",
         "categoria específica sem evidência suficiente"
       ],
       "decision": "pending_more_evidence",
@@ -2669,7 +2674,7 @@
       "url": "https://www.ire.org/",
       "category": "uncategorized",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -2682,7 +2687,7 @@
       "url": "https://www.bloomberg.com/citylab",
       "category": "uncategorized",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -2696,16 +2701,15 @@
       "url": "https://www.dandad.org/awards/d-ad-awards",
       "category": "opportunities",
       "originalCategory": "opportunities",
-      "checkedAt": "2026-11-16T18:39:38.403Z",
+      "checkedAt": "2026-11-17T19:52:35.177Z",
       "checks": {
         "callSignal": true,
-        "deadline": null,
+        "deadline": "2026-12-09",
         "eligibility": false,
         "rolling": false
       },
       "missing": [
         "escopo jornalístico ausente no título e descrição da chamada",
-        "prazo futuro ou fluxo contínuo confirmado na chamada",
         "elegibilidade expressa na fonte"
       ],
       "decision": "pending_more_evidence",
@@ -2716,7 +2720,7 @@
       "url": "https://improvado.io/blog/business-intelligence-strategy",
       "category": "uncategorized",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -2729,7 +2733,7 @@
       "url": "https://fitc.ca/event/to26",
       "category": "uncategorized",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -2742,7 +2746,7 @@
       "url": "https://cartographicperspectives.org/index.php/journal/about/submissions",
       "category": "uncategorized",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -2755,7 +2759,7 @@
       "url": "https://nationalgeographic.org/maps",
       "category": "uncategorized",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -2769,7 +2773,7 @@
       "url": "https://themarshallproject.org/",
       "category": "uncategorized",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -2783,7 +2787,7 @@
       "url": "https://pmtiles.io/",
       "category": "uncategorized",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -2796,7 +2800,7 @@
       "url": "https://www.nationalgeographic.org/funding-opportunities/grants",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-16T19:21:28.847Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -2810,7 +2814,7 @@
       "url": "https://foss4g.org/",
       "category": "uncategorized",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -2823,7 +2827,7 @@
       "url": "https://earthobservatory.nasa.gov/",
       "category": "uncategorized",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -2836,7 +2840,7 @@
       "url": "https://earthobservations.org/about-us/events",
       "category": "uncategorized",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -2869,7 +2873,7 @@
       "url": "https://www.niemanlab.org/2026/10/californias-big-local-news-bill-becomes-law",
       "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -2882,7 +2886,7 @@
       "url": "https://makeovermonday.co.uk/",
       "category": "uncategorized",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -2895,7 +2899,7 @@
       "url": "https://www.datawrapper.de/blog/fonts-for-data-visualization",
       "category": "uncategorized",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -2908,7 +2912,7 @@
       "url": "https://www.canva.com/colors/color-wheel",
       "category": "uncategorized",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -2922,7 +2926,7 @@
       "url": "https://pudding.cool/",
       "category": "uncategorized",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -2935,7 +2939,7 @@
       "url": "https://bloomberg.com/citylab/maps",
       "category": "uncategorized",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -2949,7 +2953,7 @@
       "url": "https://www.eventbrite.com/o/data-visualization-society-44097727323",
       "category": "uncategorized",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-17T04:00:59.500Z",
+      "checkedAt": "2026-11-17T19:52:48.462Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -2962,7 +2966,7 @@
       "url": "https://www.flerlagetwins.com/2026/02/ten-tableau-tips-table-of-contents.html",
       "category": "uncategorized",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -2976,7 +2980,7 @@
       "url": "https://truth-and-beauty.net/",
       "category": "uncategorized",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -2989,7 +2993,7 @@
       "url": "https://dataiq.global/",
       "category": "uncategorized",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-16T05:26:41.114Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -3002,7 +3006,7 @@
       "url": "https://observablehq.com/",
       "category": "tools",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-16T05:26:41.114Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {
         "productSignal": true,
         "function": false,
@@ -3022,7 +3026,7 @@
       "url": "https://informationisbeautiful.net/",
       "category": "uncategorized",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-16T05:26:41.114Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -3074,7 +3078,7 @@
       "url": "https://rss.org.uk/journalism-awards",
       "category": "opportunities",
       "originalCategory": "opportunities",
-      "checkedAt": "2026-11-16T18:39:40.061Z",
+      "checkedAt": "2026-11-17T19:52:36.955Z",
       "checks": {
         "callSignal": false,
         "deadline": null,
@@ -3416,16 +3420,15 @@
       "url": "https://www.walkleys.com/awards/walkleys",
       "category": "opportunities",
       "originalCategory": "opportunities",
-      "checkedAt": "2026-11-16T18:39:40.785Z",
+      "checkedAt": "2026-11-17T19:52:39.159Z",
       "checks": {
         "callSignal": true,
         "deadline": null,
-        "eligibility": false,
+        "eligibility": true,
         "rolling": false
       },
       "missing": [
-        "prazo futuro ou fluxo contínuo confirmado na chamada",
-        "elegibilidade expressa na fonte"
+        "prazo futuro ou fluxo contínuo confirmado na chamada"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -3671,7 +3674,7 @@
       "url": "https://www.cartography.org.uk/awards",
       "category": "opportunities",
       "originalCategory": "opportunities",
-      "checkedAt": "2026-11-16T18:39:41.439Z",
+      "checkedAt": "2026-11-17T19:52:37.418Z",
       "checks": {
         "callSignal": false,
         "deadline": null,
@@ -3705,7 +3708,7 @@
       "url": "https://thefix.media/2026/10/02/press-gazette-launches-a-tool-for-newsrooms-to-help-flag-ai-generated-content",
       "category": "uncategorized",
       "originalCategory": "tools",
-      "checkedAt": "2026-11-17T04:01:01.667Z",
+      "checkedAt": "2026-11-17T19:52:48.697Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -4131,7 +4134,7 @@
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5UbVpBbElyQW52T3o1Ulo2ZGFqZUdlZHBZWGFZN181N3YtSHoxay1FX0Q1cUxSeGUxWWxMVmlkd3pjbERfZXpNa1FCTnJIekM3eWZUZExrWUJSRkx4X1RXMUp6Q1JIbkxfRnc",
       "category": "uncategorized",
       "originalCategory": "opportunities",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -4182,7 +4185,7 @@
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQZ1Z4bjl5elFBLUhuc0kwZEN0M0xwZ2pEQjI1VEJVSFc0WW9XdWhaRjZ6S0Z4RFY1bWNDdzByWGFIZENrLUdjSGRTNU1nR2x6T181WXRON3hzOTgzaFFHRzVfU2t0VHVHeGd1d2tESGM4QVhSRDRieENBNDB0YUtJbnd1ZUJiVzI5YURwUVNjdHlUUQ",
       "category": "opportunities",
       "originalCategory": "opportunities",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {
         "callSignal": true,
         "deadline": null,
@@ -4201,7 +4204,7 @@
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQbmxEOFpTdEszQ3hPaDRSaGFMSVRULVBSZzJ3aXFzQ1FjTU56VmhXd082MnBRaVJRUy1QV0NLZDhRLUlra21GYlBpY1ZYQzFHSEVfSTIwbURGZU05OG1KTldQVHhWdHl2LXVnNHhpRTMxSlBvdlhzeFNWQUhSUk9OQTRVX0FHWFdTNVRHQ0FMTWhLNEVwYy1MMksweFVJdldUM0JNNFBn",
       "category": "opportunities",
       "originalCategory": "opportunities",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {
         "callSignal": true,
         "deadline": null,
@@ -4220,7 +4223,7 @@
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNODlZTEhHNThnYlp6NEdLZHVpOHpORjVuWURwWGtNNzhoZnpYXzh0R1NEM1JRUzhNSVhncWpGcWZHcTJzTVFOZnZFemRTejQyc2xlbjltUkJnaGJ1dW9IOWdHYkc2dzd2T05kZWN5TnA4dUdXWXAtLTBZWHJxb1J6d2N5WmQxQk16ZUE",
       "category": "opportunities",
       "originalCategory": "opportunities",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {
         "callSignal": true,
         "deadline": null,
@@ -4239,7 +4242,7 @@
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQa3pEeGdzbDNMNllQSzVjOTlnRkNLOUk1ZlFsOHljWmhNUWdlME5TbFBwc2VlRmNKTVRORVFYSFVSSDUzMFFNdGdYbjdpNl9kUWpsOFk2MHp5cjE3aEhCLU1jZS1tUzJHaXoxbVhta3pISWd2Vk4yeWVjZmNwbDhPak9HU2tiYjBtVWdyWE1zbEMzV2VENzRERUJPeFd3LWtuYV9ESnNLZFlnZ9IBrwFBVV95cUxOUS1WVkN6cWljbzlFZGhCaTgtY3poai1jR2xkRTJtM3VqS2ItZWdOUVdfMmtuWDlKVG1tX1d3OVpwSG1kU3QtOHNvUTM1bGpoeE1pYTNRcHZPYVExc2RRdEpET1o0QUlwY05CRGFHWHhhX25GR3hGcmJwSVduR3MyYm9SYWRDckNoNWRmREt5UG02QXhWYjFoUmhFWGljTThXMmVhdzliT1YwS3QwSzRZ",
       "category": "opportunities",
       "originalCategory": "opportunities",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {
         "callSignal": true,
         "deadline": null,
@@ -4258,7 +4261,7 @@
       "url": "https://opportunitydesk.org/2026/10/29/heinrich-boll-foundation-feminist-futures-fellowship-2027",
       "category": "uncategorized",
       "originalCategory": "opportunities",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {},
       "missing": [
         "página primária acessível com conteúdo compatível",
@@ -4272,7 +4275,7 @@
       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE8yUUltLXVRUVdKX2pHWjJPdVpOR04xUnU0dU1PejBXTHF5TVR3RHB5WVNQd05GV3lDUUhMekppdGl1SjVHSzN0eHlNcmZpV3lobllLcU00YnFhOWxfZEhQa3JjbWtub2RHWms4",
       "category": "opportunities",
       "originalCategory": "opportunities",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {
         "callSignal": true,
         "deadline": null,
@@ -4310,7 +4313,7 @@
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQMkxqak9WQ19EOC01WVZka1RnblhnbTlUSWpaTFJncjAtOURfaXRJOTIwRlRDZ2FtM0xIdVV2Yi1FZ2xhWUdfWUxQUDBDUFNoc1BhV0hWV3VkQXVLdnV0NlE2QmU1cXJCZHpOZGtiSVA5QUg4dk56dWlwbVFHd2ItV1JydjljZw",
       "category": "opportunities",
       "originalCategory": "opportunities",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {
         "callSignal": true,
         "deadline": null,
@@ -4329,7 +4332,7 @@
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQRUp4VFJWaGg4ZWMwYW8zWDFYUWdOOTAtNWhGbWZqTzloYUtMRVRoT1hkR01lYnljaDBXcjR5dWhyeXpaOVlGZVdMWm5Wak5VSktsUHhxRDlYQlhWUGNSLW5BTnUwa2Jzd21pVk8xYU1EajJXUTJJS2lPOWg4QXJ6T2NNZUNOT0FXdFZZRy1PRWp2SHdCNHV1SXJTRk1FN1BOUU1XQVJrMjRpckZmWW1JY0hpQVpiMGww",
       "category": "opportunities",
       "originalCategory": "opportunities",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {
         "callSignal": true,
         "deadline": null,
@@ -4348,7 +4351,7 @@
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1tRHhqUmRyYjF2eG90eU5HNHNVSVB5MW5aVUQ2bmFLenlLYnVHUE5rR3BZSzdMSVdaMTRUOC0yaVVVMmljeEVQQ3pvem0tR2dSQ0tZZkVSX0NhdnfSAWhBVV95cUxPY0xZYmx2cVpCeHpCVko5aVo1WGFaUWRiUTN3WXlRWlNpVzk2aUxsM19ibFdaZ3lqZ1VlYWhGcmxMbjJrUmdUTFZyVm4wTVBQVGE3dXJpVG0wTnlsRzRnV1pxMk1zLVI1cg",
       "category": "opportunities",
       "originalCategory": "opportunities",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {
         "callSignal": true,
         "deadline": null,
@@ -4367,7 +4370,7 @@
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBKZEJSTzJ0TldjcXdyamw0b1l6SlRSbHRhRlFjRDVjeFdYVWJSWThva3R3SWE1cFZndGdGLTQ1cEhPZFNBSFZHTlRkUXpzTUwxel9ZYzZieXV5RXVZQmNkN1M2VDN3RU1FU1lraEdaanR3cHYza0tiQw",
       "category": "opportunities",
       "originalCategory": "opportunities",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {
         "callSignal": true,
         "deadline": null,
@@ -4386,7 +4389,7 @@
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNb1ZYSjNoNkcyNC1FX0Y3SnN2c2QxYmtFdXBPTEZiUzRlMnNSRGpiZld2ZndOYS1jbnFYa2NBR0lQQ21nSXNuYXdIVWtfbHBpcG93Nkt5TzJ3MTFXQ19XVE5obW5sNjZtTUhQVDdUcDRNZUdiSFBkRG5JNnU3RkZwd1BlMW5yTjQ4UlhCTFBtQ0VCVzBjb0lnMk1YdHJqTzIwRllUYW1pUGZjWFlUc3RxT1VsZXBhMzRBOXZkLWVycFRaandvb1FJ0gHMAUFVX3lxTE00ZGJNV09qOFNPRUhtRE41endYZXZBZTdmTFBJcHlrWXdYZHFld0p0VmhmSFhHRVlrZDFfV2txR21DZUlsRWwwYU5TNnFXWm51Zndmak9JdnFIRzVSY0txODZ1eEYtZnpMMEpSUXZqXzIzc1lUenZud2otVEpfajE5Ri1hUGU1MlBUeXhrUlRtd1FCbjhBRXQzQXZTRVQ4REo0Y0I0eU9xQkhYWTA5SzJxay1CQ010QUE3Z2l6U19PaFZiR19wNXIxSnVyNQ",
       "category": "opportunities",
       "originalCategory": "opportunities",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {
         "callSignal": true,
         "deadline": null,
@@ -4405,7 +4408,7 @@
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNZFZRMzVwaURRaVBfNXRQWUVOcDdBLVBmazM2b2Q3N2ZpOVRPSnFMZUVhMGN1Q0UxeHZjMF9YWnVlbnNBSFJzUTREbHdXTDVaSmY3eHlWbHNRMXBld0x2Wi1MLWttZDdSVUR5MDJKTThpT2xFcWZkUkxVWk5ibTZyRUlZUkNINHZQM3fSAY8BQVVfeXFMT25ZWVY0dG9wS0NybGl6VFdhdHZpQTQxTkN3U3A3Nmw1LUFUa3RDTnU3aGgyZGN3VnEzLUJQdW1GQmx3R0E0WDc1MTlfSkJZOGpQTThRSjZ2eFpjVXNCbUt6bUlWQl83U3lwcEdoMDBONUNfeGRiVEhiZ2E3ZGUxQk1qdWt0aXVSejBjdjdiMDg",
       "category": "opportunities",
       "originalCategory": "opportunities",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {
         "callSignal": true,
         "deadline": null,
@@ -4424,7 +4427,7 @@
       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5FOUZ5eHd4TGYyTnFlYVZGYXZ0bmFUWTJkS0VZYXc0clotc0p0enBxTnduMTloU0hXTUtDelR5Y0V2a2Npek9MNnJZS2RvUXlaX1FtZ2hiUmRRdWRndDFwM2pleFNRbXlqQm93",
       "category": "opportunities",
       "originalCategory": "opportunities",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {
         "callSignal": true,
         "deadline": null,
@@ -4443,7 +4446,7 @@
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNcy1vaXBNT0lYT2Rwdm1JZWpMdV9tM2ViM3pBejByd3lrTWlsZ1daNGEwOTR6US1HRzJNcjdBY1lpX3RNbExJcE50M3pTRUtYc0YyWHV0R004VjJRb1BRZFlXZ0pHQXR5ek1fN29CYl94d081Q20zUDMtN3FwSE5MZnBGbXhEcndMNU5UNS1yYWtZV2ViQ0VyRl93YXlXdVN1UXV4QTBIb9IBrAFBVV95cUxPa2c0QUhIWUswYmNZd1RZdVB6M0lqNm44R3VNekFpV1F5RXFlaDc1bXYwaU9CWkd6cEk2VlR4ZFJRT1FqelhXM1RuZkV0bW02TE1VN19BSkNIWldUSV9wcHVWeXd5OW5OaEIwWmY2Mm9WeTdsUWFIbDQxdkpjcWV5ZnJvTlBsdTI1dEtoRkdCb01HaUs0N282eUg5ZFlpUktQNG5saDktOFE2eTdj",
       "category": "opportunities",
       "originalCategory": "opportunities",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {
         "callSignal": true,
         "deadline": null,
@@ -4462,7 +4465,7 @@
       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNZGlObFR1U0JZc1ZzNEtyQ2dVVEFLMDVCdGNiUm1FZDlzOVdJTDJ5aDI5V3JuY1YzVXBNU3oyM3ZoSGRCWkR4b0JNNlhMU0dWaFgyNzhPQ2VYamFRc3VjM2lJTEYxajd2Mk9KMWxmUWc4Mnl3c1R5cFl2TDNDT3ZFX0ljQ3BJbnpPX2pwNV8tRjktNnVnNXE2cll3S09EWmx1dEhCUTNUVlFxUDEycGVuMWtJd3ByaWU1Si1OQ0tndjU2ZHI1cDgtUkR3UkEtY3RYQnVv",
       "category": "opportunities",
       "originalCategory": "opportunities",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {
         "callSignal": true,
         "deadline": null,
@@ -4481,7 +4484,7 @@
       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE92SlBUdWxId0N6TGZCV254eERwblRJUEdCTnZ2djU4SVJjU1lGaFRuenJIc1RBUDlTbTk4T1E1Yi0yY1lZNVktTVZndnpHamVTbUZnbkpZOWpyd2NBdGhIcE9xOUEzLUtwVGFJ",
       "category": "opportunities",
       "originalCategory": "opportunities",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {
         "callSignal": true,
         "deadline": null,
@@ -4500,7 +4503,7 @@
       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPYVZIX3g5V1JmZGRPeVpyVkJJMU5Kb0RPcUN0WGEtMFh6ejQ4VkdmeXR2Z3FxUnVGVXFrQkdUal9PZ0dpcFZCS2ZBZ1lCWlAyWWl5VXJwaTh5M3FKUDhCZ0xkUFFtX2Z2OE14RDRKS0Rpdkoxc0pjRnBXZEZzbzRmanB5aFZUeFRBSDV0ODluNExrTzM5aVVkekszMFhhMklVMUZpU3pIWVY4cHh2RG1VcWRQWlZQRlpNdXhIeVIxeTllcnlwNUJYQlB0UXlsN0loSUQw",
       "category": "opportunities",
       "originalCategory": "opportunities",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {
         "callSignal": true,
         "deadline": null,
@@ -4519,7 +4522,7 @@
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQOWgyekgxeE1kTXFsa1hHMFpPQnB3Nm1xWlBzQktKVERlU0ZFd1oyRHhabzBSNThfR0U5bjBXaVhOSFZ0enFwSTJRbzN3d0I2cTVvSmI2QUJJbTJYN0JDWFdXNjJHdDFsbHd2dTZpZUxxU1VDWkdqamZBWDBGRjFoaFRadTRSZWgtZElzc0JSQWRsLVMtUFg4bzVlbUVaRGRkOTcydTd2djNmUXJKTFkxMHVITHpfQ2M",
       "category": "opportunities",
       "originalCategory": "opportunities",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {
         "callSignal": true,
         "deadline": null,
@@ -4538,7 +4541,7 @@
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNVEIyam03OTR5TEgzWGVTZFFhcVZxMGdYa25FczhFQW5PUEJzOG9pOVJnOTRlbGFtNEVpcEJjVFlRVEV6Y3ZPM2huUUdUZzREMjhTblI1LVltV19COUFDNzB4WFFrLVVYS0g2SGpJV1RtaV95VGJjWi0xNzRFY2RjUlp6ZV9HY3J2dVBBNkF4ZmFRbjJ5TUt0U0FWWHpmOGloMlYtV1FYY2FMR0hHMXZGRnlmTDdYQWFFdGfSAb8BQVVfeXFMTjVibDVubDhpWk9tbUtkUXBsUnphWEhOOTEyWGFQSkJPSlBTWTNiQldMT1hQaVdlcEg2b1VIeHBDcVE2bGhDMXA1UmVScjY2dkJhR2hNWFo2ZzVaMEpBOTMwb1YzNWQwRzRYTkZLSGxZMWZidHpBUzVOQkJHMVVOWTFiQ3RUTEVjdFBKcTdhaHlhZjMyZGJyVy1fdjJXREhCelFxdjFoaHBDU2xWMTRmSmNnMHFTS1JBWGY1cEJXbUk",
       "category": "opportunities",
       "originalCategory": "opportunities",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {
         "callSignal": true,
         "deadline": null,
@@ -4557,7 +4560,7 @@
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1WSnFjczNTNUY4Ty1oVjBNYlNjQXVJWTJFTDZ6a09lY0lQZFJrMFNTUDVqeU5laFQtRGFmVDNGMkF5STFJcy04Zy1nLTJzRHMwMmlzUnh4bXppUlpaT0Z5TlVuSmlpUmdqc0VXSDM5cFFaRVJNT1E",
       "category": "opportunities",
       "originalCategory": "opportunities",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {
         "callSignal": true,
         "deadline": null,
@@ -4576,7 +4579,7 @@
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNcHB1NndFMUtKQUpka2V1NE1oSGZsN2NKSlFhb2NXblMwWXAwdWpqWU5hU2ZYVV9QVGFGY2Q2WG9nSXJEd0h2ZXFyWVJhZV9GM21qck5rTk5vX1k5OHBvWVVKQ0Y5b00wZFoxSkE2bVZJX0VDT2gtSVlNN050Y2F4M25LTE9wcGNNMnBqbzJZMXRnWnN4VzVHVEZsXzhoUGkyNzA2M0J3",
       "category": "opportunities",
       "originalCategory": "opportunities",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {
         "callSignal": true,
         "deadline": null,
@@ -15454,18 +15457,15 @@
     {
       "id": "fb1f5945b6820ed90263a3164b11222cb5cbbd33823865ccd8e85e23468238a1",
       "url": "https://substack.com/redirect/bd9d28bb-b2ce-4bad-9f20-a1749f42d0c6",
-      "category": "tools",
+      "category": "uncategorized",
       "originalCategory": "uncategorized",
-      "checkedAt": "2026-11-16T16:58:49.653Z",
-      "checks": {
-        "productSignal": true,
-        "function": true,
-        "access": true,
-        "license": false,
-        "licenseStatus": "not stated in captured source"
-      },
-      "missing": [],
-      "decision": "evidence_complete_for_record_draft",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
+      "checks": {},
+      "missing": [
+        "página primária acessível com conteúdo compatível",
+        "categoria específica sem evidência suficiente"
+      ],
+      "decision": "pending_more_evidence",
       "publicationReady": false
     },
     {
@@ -17910,7 +17910,7 @@
       "url": "https://www.gbif.org/dataset/7e276a96-73ea-4efc-8ffb-e74ef573ef6c",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-17T04:01:14.168Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {
         "datasetSignal": false,
         "directResource": false,
@@ -18067,7 +18067,7 @@
       "url": "https://www.gbif.org/dataset/c33ce2f2-c3cc-43a5-a380-fe4526d63650",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-17T04:01:14.168Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {
         "datasetSignal": false,
         "directResource": false,
@@ -18304,7 +18304,7 @@
       "url": "https://www.gbif.org/dataset/9ca92552-f23a-41a8-a140-01abaa31c931",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-17T04:01:14.168Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {
         "datasetSignal": false,
         "directResource": false,
@@ -18342,7 +18342,7 @@
       "url": "https://www.gbif.org/dataset/d7dddbf4-2cf0-4f39-9b2a-bb099caae36c",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-17T04:01:14.168Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {
         "datasetSignal": false,
         "directResource": false,
@@ -18402,7 +18402,7 @@
       "url": "https://www.gbif.org/dataset/90d9e8a6-0ce1-472d-b682-3451095dbc5a",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-17T04:01:14.168Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {
         "datasetSignal": false,
         "directResource": false,
@@ -18549,7 +18549,7 @@
       "url": "https://www.gbif.org/dataset/61a5f178-b5fb-4484-b6d8-9b129739e59d",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-17T04:01:14.168Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {
         "datasetSignal": false,
         "directResource": false,
@@ -18588,7 +18588,7 @@
       "url": "https://www.gbif.org/dataset/7ddf754f-d193-4cc9-b351-99906754a03b",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-17T04:01:14.168Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {
         "datasetSignal": false,
         "directResource": false,
@@ -18772,7 +18772,7 @@
       "url": "https://www.gbif.org/dataset/f382f0ce-323a-4091-bb9f-add557f3a9a2",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-17T04:01:14.168Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {
         "datasetSignal": false,
         "directResource": false,
@@ -18890,7 +18890,7 @@
       "url": "https://www.gbif.org/dataset/19491596-35ae-4a91-9a98-85cf505f1bd3",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-17T04:01:14.168Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {
         "datasetSignal": false,
         "directResource": false,
@@ -19017,7 +19017,7 @@
       "url": "https://www.gbif.org/dataset/3ee6fce9-9056-48f5-96fb-a2339bdb947e",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-17T04:01:14.168Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {
         "datasetSignal": false,
         "directResource": false,
@@ -19116,7 +19116,7 @@
       "url": "https://www.gbif.org/dataset/4fa7b334-ce0d-4e88-aaae-2e0c138d049e",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-17T04:01:14.168Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {
         "datasetSignal": false,
         "directResource": false,
@@ -19167,7 +19167,7 @@
       "url": "https://www.gbif.org/dataset/0e61f8fe-7d25-4f81-ada7-d970bbb2c6d6",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-17T04:01:14.168Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {
         "datasetSignal": false,
         "directResource": false,
@@ -19631,7 +19631,7 @@
       "url": "https://www.gbif.org/dataset/c8227bb4-4143-443f-8cb2-51f9576aff14",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-17T04:01:14.168Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {
         "datasetSignal": false,
         "directResource": false,
@@ -19697,7 +19697,7 @@
       "url": "https://www.gbif.org/dataset/fab88965-e69d-4491-a04d-e3198b626e52",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-17T04:01:14.168Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {
         "datasetSignal": false,
         "directResource": false,
@@ -19735,7 +19735,7 @@
       "url": "https://www.gbif.org/dataset/bf3db7c9-5e5d-4fd0-bd5b-94539eaf9598",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-17T04:01:14.168Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {
         "datasetSignal": false,
         "directResource": false,
@@ -19934,7 +19934,7 @@
       "url": "https://www.gbif.org/dataset/4cec8fef-f129-4966-89b7-4f8439aba058",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-17T04:01:14.168Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {
         "datasetSignal": false,
         "directResource": false,
@@ -20779,7 +20779,7 @@
       "url": "https://www.gbif.org/dataset/6b6b2923-0a10-4708-b170-5b7c611aceef",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-16T19:21:28.847Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {
         "datasetSignal": false,
         "directResource": false,
@@ -20832,7 +20832,7 @@
       "url": "https://www.gbif.org/dataset/bae5856f-da10-4333-90a0-5a2135361b30",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-16T19:21:28.847Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {
         "datasetSignal": false,
         "directResource": false,
@@ -20899,7 +20899,7 @@
       "url": "https://www.gbif.org/dataset/2d59e5db-57ad-41ff-97d6-11f5fb264527",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-16T19:21:28.847Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {
         "datasetSignal": false,
         "directResource": false,
@@ -20945,7 +20945,7 @@
       "url": "https://www.gbif.org/dataset/046bbc50-cae2-47ff-aa43-729fbf53f7c5",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-16T19:21:28.847Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {
         "datasetSignal": false,
         "directResource": false,
@@ -21651,7 +21651,7 @@
       "url": "https://www.gbif.org/dataset/8bc819e8-4358-416a-b75e-d4b6ed7e0352",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": null,
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {
         "datasetSignal": false,
         "directResource": false,
@@ -21689,7 +21689,7 @@
       "url": "https://www.gbif.org/dataset/0938172b-2086-439c-a1dd-c21cb0109ed5",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": null,
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {
         "datasetSignal": false,
         "directResource": false,
@@ -21740,7 +21740,7 @@
       "url": "https://data.worldbank.org/indicator/1.0.PGap.1.90usd",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {
         "datasetSignal": true,
         "directResource": true,
@@ -21751,7 +21751,7 @@
         "licenseStatus": "not stated in captured source"
       },
       "missing": [
-        "página primária acessível com conteúdo compatível"
+        "nome específico do indicador ausente na página inspecionada"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -21800,7 +21800,7 @@
       "url": "https://www.hydrosheds.org/hydrosheds-core-downloads",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-17T04:00:57.107Z",
+      "checkedAt": "2026-11-17T19:52:41.378Z",
       "checks": {
         "datasetSignal": false,
         "directResource": true,
@@ -21834,18 +21834,21 @@
       "url": "https://www.gov.br/pt-br/servicos/consultar-informacoes-geoespaciais-na-plataforma-geoinfo",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {
         "datasetSignal": true,
         "directResource": false,
         "webAccess": false,
-        "format": true,
-        "coverage": true,
+        "format": false,
+        "coverage": false,
         "license": false,
         "licenseStatus": "not stated in captured source"
       },
       "missing": [
-        "download, API ou acesso direto ao recurso"
+        "página primária acessível com conteúdo compatível",
+        "download, API ou acesso direto ao recurso",
+        "formato identificável",
+        "cobertura temporal/geográfica"
       ],
       "decision": "pending_more_evidence",
       "publicationReady": false
@@ -21855,7 +21858,7 @@
       "url": "https://www.ipea.gov.br/portal/categoria-projetos-e-estatisticas/9939-atlas-da-vulnerabilidade-social",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {
         "datasetSignal": true,
         "directResource": false,
@@ -21899,7 +21902,7 @@
       "url": "https://www.ibge.gov.br/geociencias/informacoes-ambientais/geologia/23382-banco-de-informacoes-ambientais.html",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {
         "datasetSignal": true,
         "directResource": false,
@@ -21923,7 +21926,7 @@
       "url": "https://atlasdigital.mdr.gov.br/",
       "category": "datasets",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {
         "datasetSignal": true,
         "directResource": false,
@@ -25105,7 +25108,7 @@
       "url": "https://www.occrp.org/en/news/buro-media-launches-database-of-lukashenkos-inner-circle",
       "category": "uncategorized",
       "originalCategory": "datasets",
-      "checkedAt": "2026-11-16T05:12:14.316Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {},
       "missing": [
         "categoria específica sem evidência suficiente"
@@ -26679,7 +26682,7 @@
       "url": "https://premiorochedeperiodismo.com/pt-br/bases-do-premio-roche-de-jornalismo-em-saude",
       "category": "opportunities",
       "originalCategory": "opportunities",
-      "checkedAt": "2026-11-16T06:48:40.751Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {
         "callSignal": false,
         "deadline": null,
@@ -26699,7 +26702,7 @@
       "url": "https://oneworldmedia.org.uk/fellowship",
       "category": "opportunities",
       "originalCategory": "opportunities",
-      "checkedAt": "2026-11-16T06:48:40.751Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {
         "callSignal": true,
         "deadline": null,
@@ -26718,7 +26721,7 @@
       "url": "https://premiosebraejornalismo.com.br/",
       "category": "opportunities",
       "originalCategory": "opportunities",
-      "checkedAt": "2026-11-16T06:48:40.751Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {
         "callSignal": false,
         "deadline": null,
@@ -26739,7 +26742,7 @@
       "url": "https://www.espm.br/",
       "category": "opportunities",
       "originalCategory": "opportunities",
-      "checkedAt": "2026-11-16T06:48:40.751Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {
         "callSignal": false,
         "deadline": null,
@@ -26760,7 +26763,7 @@
       "url": "https://congresso.abraji.org.br/noticia/21-congresso-da-abraji-reune-mais-de-17-mil-pessoas-e-debate-o-futuro-do-jornalismo",
       "category": "opportunities",
       "originalCategory": "opportunities",
-      "checkedAt": "2026-11-16T06:48:40.751Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {
         "callSignal": true,
         "deadline": null,
@@ -26779,7 +26782,7 @@
       "url": "https://premiovladimirherzog.org/regulamento-2026",
       "category": "opportunities",
       "originalCategory": "opportunities",
-      "checkedAt": "2026-11-16T06:48:40.751Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {
         "callSignal": false,
         "deadline": null,
@@ -26799,7 +26802,7 @@
       "url": "https://www.bancodonordeste.gov.br/premio-bnb-de-jornalismo/regulamento",
       "category": "opportunities",
       "originalCategory": "opportunities",
-      "checkedAt": "2026-11-16T06:48:40.751Z",
+      "checkedAt": "2026-11-17T19:52:58.124Z",
       "checks": {
         "callSignal": false,
         "deadline": null,
@@ -26819,7 +26822,7 @@
       "url": "https://oneworldmedia.org.uk/awards",
       "category": "opportunities",
       "originalCategory": "opportunities",
-      "checkedAt": "2026-11-16T18:39:43.202Z",
+      "checkedAt": "2026-11-17T19:52:39.434Z",
       "checks": {
         "callSignal": false,
         "deadline": null,
