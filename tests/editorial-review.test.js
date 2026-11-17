@@ -48,6 +48,23 @@ test('category-specific editorial checks and distinct candidate IDs',()=>{
  }finally{fs.rmSync(dir,{recursive:true,force:true})}
 });
 
+test('dataset publication proof includes web-access evidence for public distribution links',()=>{
+ const dir=fs.mkdtempSync(path.join(os.tmpdir(),'radar-dataset-proof-'));
+ try{
+  fs.mkdirSync(path.join(dir,'intake'));
+  const url='https://data.example.org/dataset/public-series';
+  const lead={classification:'needs-editorial-review',category:'datasets',url,title:'Public health dataset',source:'Official catalog'};
+  const evidence={generatedAt:new Date().toISOString(),results:[{url,finalUrl:url,pageStatus:'html-fetched',httpStatus:200,contentType:'text/html',checkedAt:new Date().toISOString(),pageTitle:'Public health dataset',pageDescription:'Global public data, updated annually, CSV download.',evidenceText:'A global dataset covering 2020 to 2025, updated annually and available as CSV.',structuredEvidence:{'@type':'Dataset',name:'Public health dataset',publisher:{name:'Official catalog'},distribution:{contentUrl:'https://data.example.org/files/data.csv',encodingFormat:'text/csv'},temporalCoverage:'2020/2025',license:'CC-BY'},resourceLinks:[{url:'https://data.example.org/files/data.csv',label:'CSV download'}]}]};
+  fs.writeFileSync(path.join(dir,'intake/candidate-triage.json'),JSON.stringify({leads:[lead]}));
+  fs.writeFileSync(path.join(dir,'intake/lead-evidence.json'),JSON.stringify(evidence));
+  cp.execFileSync(process.execPath,[script],{cwd:dir});
+  const out=JSON.parse(fs.readFileSync(path.join(dir,'intake/editorial-review.json')));
+  const proof=out.candidates[0].publicationReviewV1;
+  assert.ok(proof);
+  assert.equal(proof.evidenceChecks.webAccess,true);
+ }finally{fs.rmSync(dir,{recursive:true,force:true})}
+});
+
 test('canonical URLs are deduplicated and malformed URLs excluded',()=>{
  const dir=fs.mkdtempSync(path.join(os.tmpdir(),'radar-review-dedupe-'));
  try{
@@ -81,6 +98,15 @@ test('canonical evidence is associated even when tracking parameters differ',()=
   assert.equal(out.candidates[0].pageTitle,'Official call');
   assert.equal(out.candidates[0].publicationReady,false);
  }finally{fs.rmSync(dir,{recursive:true,force:true})}
+});
+
+test('data source directories and moderator wiki pages are not datasets or tools',()=>{
+ const {reviewCandidate}=require('../scripts/review-editorial-evidence');
+ const directory=reviewCandidate({category:'datasets',url:'https://www.opensanctions.org/datasets/sources/',title:'Data sources',status:'pending',audit:{pageTitle:'Data sources',httpStatus:200,contentType:'text/html',evidenceText:'This page lists sources currently included in the database. CSV data downloads are available.',tabularData:[{rows:20,columns:4}],resourceLinks:[{url:'https://www.opensanctions.org/files/data.csv',label:'CSV download'}],structuredData:[{'@type':'Dataset',name:'Data sources',distribution:{contentUrl:'https://www.opensanctions.org/files/data.csv',encodingFormat:'text/csv'}}]}});
+ const moderator=reviewCandidate({category:'tools',url:'https://www.mediawiki.org/wiki/Moderator_Tools/Automoderator',title:'Moderator Tools/Automoderator',status:'pending',audit:{pageTitle:'Moderator Tools/Automoderator',httpStatus:200,contentType:'text/html',evidenceText:'Moderator Tools are functions that help moderators manage discussions on MediaWiki.',structuredData:[]}});
+ assert.notEqual(directory.decision,'evidence_complete_for_record_draft');
+ assert.match(directory.missing.join(' '),/página de índice ou dicionário/);
+ assert.notEqual(moderator.category,'tools');
 });
 
 test('plugin author documentation is not an independently catalogable tool',()=>{
