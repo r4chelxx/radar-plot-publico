@@ -13,6 +13,7 @@ const excludedPath=/\/(?:blog|news|press|articles?|posts?|podcasts?|pitch|proces
 const excludedToolUrl=/(?:creativeapplications\.net(?:\/|$)|propublica\.org\/data(?:\/|$)|poynter\.org\/(?:shop|mediawise\/programs)(?:\/|$)|mailchimp\.com\/signup(?:\/|$)|indicator\.media(?:\/|$)|soxoj\.com\/?$|(?:www\.)?dw\.com\/|(?:www\.)?wired\.com\/story\/|(?:www\.)?reuters\.com\/|(?:www\.)?bbc\.com\/|(?:www\.)?theguardian\.com\/|(?:www\.)?apnews\.com\/)/i;
 const excludedToolContent=/\b(?:community of creative practitioners|critical making|published \d{2,}[,\d]* articles|membership plans?|research advisory|consulting services|course|training program|newsroom archive)\b/i;
 function toolIdentity(c,title,docs){
+ if(/^(?:writing|creating)\s+(?:plugins?|extensions?|an? embedding model)\b/i.test(title))return false;
  const structured=docs.some(x=>/softwareapplication|softwareproduct/.test(flat(x['@type']).toLowerCase()));
  // Editorial pages may describe many real tools. Those references do not make
  // the blog or podcast itself a software product.
