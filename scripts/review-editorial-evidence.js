@@ -6,7 +6,6 @@ const fs=require('node:fs');
 const {rollingApplicationEvidence}=require('./editorial-page-evidence');
 const queuePath=process.argv[2]||'intake/editorial-queue.json';
 const outPath=process.argv[3]||'intake/editorial-evidence-review.json';
-const q=JSON.parse(fs.readFileSync(queuePath,'utf8'));
 const today=new Intl.DateTimeFormat('en-CA',{timeZone:'America/Bahia',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());
 const flat=v=>Array.isArray(v)?v.map(flat).join(' '):v&&typeof v==='object'?Object.values(v).map(flat).join(' '):String(v||'');
 const excluded=/\b(conference|webinar|festival|newsletter|podcast|blog post|news article|event|symposium|perfil|profile|portfolio|directory|diretório|tutorial|guide|how[- ]to|call for pitches|press release|article|agency|agência|consult(?:ancy|ing|oria)|membership|archive|arquivo|research advisory|academic library|biblioteca acadêmica)\b/i;
@@ -152,9 +151,14 @@ function review(c){
  const enough=hardStatus&&missing.length===0;
  return{id:c.id,url:c.url,category,originalCategory:c.category||'uncategorized',checkedAt:a.checkedAt||null,checks,missing,decision:enough?'evidence_complete_for_record_draft':'pending_more_evidence',publicationReady:false};
 }
+function main(){
+const q=JSON.parse(fs.readFileSync(queuePath,'utf8'));
 const records=(q.candidates||[]).filter(c=>c.status==='pending'&&c.audit).map(review);
 const counts={};for(const x of records)counts[x.decision]=(counts[x.decision]||0)+1;
 const categoryCounts={};for(const x of records)categoryCounts[x.category]=(categoryCounts[x.category]||0)+1;
 const out={generatedAt:new Date().toISOString(),policy:'Evidence-based category triage. Missing license is recorded as unknown when not found; complete means draft eligibility only, never approval or publication.',counts,categoryCounts,records};
 fs.writeFileSync(outPath,JSON.stringify(out,null,2)+'\n');
 console.log(JSON.stringify({reviewed:records.length,counts,categoryCounts,publicationReady:0}));
+}
+if(require.main===module)main();
+module.exports={reviewCandidate:review};
