@@ -2,6 +2,13 @@
 const test=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),os=require('node:os'),path=require('node:path'),cp=require('node:child_process');
 const {buildDrafts}=require('../scripts/build-editorial-record-drafts');
 const {buildAutomaticPublications}=require('../scripts/build-automated-publications');
+test('dataset verification dates use Bahia calendar days across UTC midnight',()=>{
+ const make=checkedAt=>buildDrafts({candidates:[{id:'zone',url:'https://official.example/data',audit:{pageTitle:'Public dataset',checkedAt,evidenceText:'Dataset covering global observations in CSV format.',structuredData:[]}}]},{records:[{id:'zone',category:'datasets',decision:'evidence_complete_for_record_draft',publicationReady:false,checks:{}}]}).drafts[0].recordDraft.lastChecked;
+ assert.equal(make('2026-11-17T02:30:00Z'),'2026-11-16');
+ assert.equal(make('2026-11-17T03:00:00Z'),'2026-11-17');
+ assert.equal(make('2026-11-17T00:01:00Z'),'2026-11-16');
+ assert.equal(make('invalid'),null);
+});
 test('catalog-compatible rolling calls and HTML datasets traverse review, drafting, approval and publication',()=>{
  const {extractEvidence,rollingApplicationEvidence}=require('../scripts/editorial-page-evidence');
  assert.equal(rollingApplicationEvidence('Applications are reviewed on a rolling basis until February 22, 2099.'),false);

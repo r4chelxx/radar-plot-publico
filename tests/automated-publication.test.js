@@ -1,6 +1,12 @@
 'use strict';
 const test=require('node:test'),assert=require('node:assert/strict'),crypto=require('node:crypto');
 const {buildAutomaticPublications}=require('../scripts/build-automated-publications');
+test('opportunities closing today remain eligible until Bahia midnight rather than UTC midnight',()=>{
+ const at='2026-11-17T02:00:00Z',source='https://official.example/grant';
+ const draft={id:'grant',category:'opportunities',status:'draft_only',publicationReady:false,reviewDecision:'evidence_complete_for_record_draft',source:{url:source,httpStatus:200,contentType:'text/html',checkedAt:at},missingFields:[],evidence:{sourceExcerpt:'Applications are open for this journalism grant. Eligibility and the November 16 deadline are documented.',checks:{callSignal:true,eligibility:true}},recordDraft:{id:'grant',title:'Journalism grant',org:'Foundation',summary:'Funding for investigative reporting.',type:'Grant',scope:'Journalists worldwide.',deadline:'2026-11-16',deadlineStatus:'Confirmed on the official call.',eligibility:'parcial',status:'aberta',rules:source}};
+ assert.equal(buildAutomaticPublications({drafts:[draft]},{approved:[]},new Date(at)).summary.automaticallyApproved,1);
+ assert.equal(buildAutomaticPublications({drafts:[draft]},{approved:[]},new Date('2026-11-17T03:01:00Z')).summary.automaticallyApproved,0);
+});
 const now=new Date(),checkedAt=now.toISOString();
 const complete={id:'complete-tool',category:'tools',status:'draft_only',publicationReady:false,reviewDecision:'evidence_complete_for_record_draft',source:{url:'https://example.org/tool',httpStatus:200,contentType:'text/html',checkedAt},evidence:{sourceExcerpt:'Official product page describes the data analysis tool and access details.',checks:{productSignal:true,function:true,access:true}},missingFields:[],recordDraft:{id:'complete-tool',name:'Research data tool',kind:'data analysis',url:'https://example.org/tool',desc:'Official product page describes the data analysis tool and how journalists can use it. Limitations are not stated; check official docs and license.'}};
 test('a product may mention its blog or community; editorial identities stay rejected',()=>{

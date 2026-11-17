@@ -174,7 +174,8 @@ function buildDrafts(queue,review,generatedAt=new Date().toISOString()){
    if(result.checks.webAccess&&!record.api)record.format='HTML — tabela pública consultável na página oficial';
    record.docs=url;
    record.limitations='A página consultada não detalha todas as limitações, a atualização e a qualidade do recurso; conferir documentação e licença antes do uso editorial.';
-   record.lastChecked=(audit.checkedAt||'').slice(0,10)||null;
+   const checkedDate=new Date(audit.checkedAt||'');
+   record.lastChecked=Number.isFinite(checkedDate.getTime())?todayBahia(checkedDate):null;
    record.url=url;record.description=clean(data.description)||clean(audit.pageDescription)||sentence(text,/(?:dataset|data|dados|records|statistics|estat[ií]sticas)/i)||null;
   }else{
    const data=structured(audit,/softwareapplication|softwareproduct|software/i);
