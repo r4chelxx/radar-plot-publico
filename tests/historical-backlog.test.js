@@ -62,6 +62,14 @@ test('terminal leads are not resurrected by fresh daily discovery',()=>{
  assert.equal(r.selected.length,0);
 });
 
+test('new direct opportunities precede older direct backlog items',()=>{
+ const old=lead('old',{firstSeen:'2026-10-01T00:00:00Z'});
+ const fresh=lead('fresh',{firstSeen:'2026-10-22T00:00:00Z'});
+ const result=selectBacklog(state([old]),[fresh],1,now);
+ assert.equal(result.selected.length,1);
+ assert.equal(result.selected[0].url,fresh.url);
+});
+
 test('direct primary source precedes indirect Google News RSS link within the same cohort',()=>{
  const indirect=lead('rss',{url:'https://news.google.com/rss/articles/example',firstSeen:'2026-10-01T00:00:00Z'});
  const direct=lead('official',{url:'https://example.org/grants/official',firstSeen:'2026-10-22T00:00:00Z'});
