@@ -10,7 +10,7 @@ const today=new Intl.DateTimeFormat('en-CA',{timeZone:'America/Bahia',year:'nume
 const flat=v=>Array.isArray(v)?v.map(flat).join(' '):v&&typeof v==='object'?Object.values(v).map(flat).join(' '):String(v||'');
 const excluded=/\b(conference|webinar|festival|newsletter|podcast|blog post|news article|event|symposium|perfil|profile|portfolio|directory|diretório|tutorial|guide|how[- ]to|call for pitches|press release|article|agency|agência|consult(?:ancy|ing|oria)|membership|archive|arquivo|research advisory|academic library|biblioteca acadêmica)\b/i;
 const excludedPath=/\/(?:blog|news|press|articles?|posts?|podcasts?|pitch|process|tutorials?|guides?|learn|courses?|events?|conference|community|about|people|team|authors?|profiles?|jobs?|docs|20\d{2}\/(?:0?[1-9]|1[0-2]))(?:\/|$)/i;
-const excludedToolUrl=/(?:creativeapplications\.net(?:\/|$)|propublica\.org\/data(?:\/|$)|poynter\.org\/(?:shop|mediawise\/programs)(?:\/|$)|mailchimp\.com\/signup(?:\/|$)|indicator\.media(?:\/|$)|soxoj\.com\/?$|(?:www\.)?dw\.com\/|(?:www\.)?wired\.com\/story\/|(?:www\.)?reuters\.com\/|(?:www\.)?bbc\.com\/|(?:www\.)?theguardian\.com\/|(?:www\.)?apnews\.com\/)/i;
+const excludedToolUrl=/(?:creativeapplications\.net(?:\/|$)|propublica\.org\/data(?:\/|$)|poynter\.org\/(?:shop|mediawise\/programs)(?:\/|$)|mailchimp\.com\/signup(?:\/|$)|indicator\.media(?:\/|$)|soxoj\.com\/?$|(?:www\.)?dw\.com\/|(?:www\.)?wired\.com\/story\/|(?:www\.)?reuters\.com\/|(?:www\.)?bbc\.com\/|(?:www\.)?theguardian\.com\/|(?:www\.)?apnews\.com\/|mediawiki\.org\/wiki\/(?:Moderator_Tools|Toolserver:)|wikidata\.org\/wiki\/(?:Special:NewItem|Wikidata:Tools\/))/i;
 const excludedToolContent=/\b(?:community of creative practitioners|critical making|published \d{2,}[,\d]* articles|membership plans?|research advisory|consulting services|course|training program|newsroom archive)\b/i;
 function toolIdentity(c,title,docs){
  if(/\b(?:for (?:plugin|extension) (?:authors|developers)|plugin authoring|writing (?:custom )?plugins)\b/i.test(title))return false;
@@ -103,6 +103,7 @@ function review(c){
  const text=raw.toLowerCase().replace(/\b([ap])\.m\./g,'$1m').replace(/\b(jan|feb|mar|apr|jun|jul|aug|sep|sept|oct|nov|dec)\.?\s+(?=\d)/g,(_,m)=>months[m]+' '),title=String(a.pageTitle||c.title||'').toLowerCase();
  const ld=docs.map(x=>({type:flat(x['@type']).toLowerCase(),data:x}));
  const category=inferCategory(c,text,title),checks={},missing=[];
+ const datasetIndex=/^(?:data sources|data dictionary|our bulk data distributions)$/i.test(title.trim())||/\\/datasets\\/sources\\/?$|\\/reference\\/?$/i.test(String(c.url||''));
  const hardStatus=(a.httpStatus===200&&/text\/html|application\/json/i.test(a.contentType||''))
   ||(c.verificationStatus==='official-web-search'&&String(c.sourceEvidence||'').length>=120&&Array.isArray(c.resourceLinks)&&c.resourceLinks.length>0);
  if(!hardStatus)missing.push('página primária acessível com conteúdo compatível');
@@ -123,6 +124,7 @@ function review(c){
   if(!checks.eligibility)missing.push('elegibilidade expressa na fonte');
  }else if(category==='datasets'){
   const d=ld.find(x=>/dataset/.test(x.type))?.data;
+  if(datasetIndex)missing.push('página de índice ou dicionário, não um recurso de dados');
   if(/\/indicator\//i.test(c.url||'')&&/^(?:world bank open data|open data|data catalog)$/i.test(title)&&!d?.name)missing.push('nome específico do indicador ausente na página inspecionada');
   const distribution=d?.distribution;
   checks.datasetSignal=!!d||/(dataset|data catalog|open data|dados abertos|base de dados|microdata|microdados|data portal)/i.test(title+' '+text);
