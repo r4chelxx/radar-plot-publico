@@ -38,7 +38,7 @@ for(const source of intake.results||[])for(const link of source.leads||[]){
  const generic=/^(find a grant|grants for journalists|successful applications|stable tools|database tools|mediawiki tools|apply|application|tools|ferramentas|read more|learn more|saiba mais)$/i.test(label.trim());
  const documentation=/\b(?:documentation|development|opting in|about|pricing options|plan(?:o)? de dados abertos|registry|articleinfo)\b/i.test(label);
  const category=classifyLead({title:label,url});
- leads.push({source:source.name,title:label,url,category,classification:matches.length?'catalog-match':homepage?'source-homepage-only':externalHomepage?'external-homepage-only':navigation||generic?'generic-navigation':directory?'resource-directory':documentation?'documentation-reference':historical?'historical-reference':'needs-editorial-review',possibleMatches:matches.slice(0,5),deadline:link.structuredEvidence?.deadline||null,eligibility:link.structuredEvidence?.eligibility||null,structuredEvidence:link.structuredEvidence||null,editoriallyVerified:false});
+ leads.push({source:source.name,title:label,url,category,classification:matches.length?'catalog-match':homepage?'source-homepage-only':externalHomepage?'external-homepage-only':navigation||generic?'generic-navigation':directory?'resource-directory':'needs-editorial-review',discoveryHints:{documentationReference:documentation,historicalTitle:historical},possibleMatches:matches.slice(0,5),deadline:link.structuredEvidence?.deadline||null,eligibility:link.structuredEvidence?.eligibility||null,structuredEvidence:link.structuredEvidence||null,editoriallyVerified:false});
 }
 report.leads=leads;
 report.summary.linkLeads=leads.length;
