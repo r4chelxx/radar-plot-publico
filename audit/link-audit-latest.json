@@ -1,10 +1,11 @@
 {
-  "checkedAt": "2026-11-17T06:22:57.479Z",
+  "checkedAt": "2026-11-17T19:50:22.697Z",
   "policy": "404/410 and ArcGIS application errors within HTTP 200 become broken only after appearing as suspect or broken in the previous audit; blocked and network results are inconclusive",
   "counts": {
-    "ok": 1257,
-    "blocked": 57,
-    "network": 57
+    "ok": 1246,
+    "network": 60,
+    "server": 4,
+    "blocked": 61
   },
   "results": [
     {
@@ -106,11 +107,13 @@
           "field": "apply"
         }
       ],
-      "status": 200,
-      "finalUrl": "https://www.generonumero.media/artigos/programa-de-bolsas-aborto-em-pilulas/",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "TypeError:fetch failed",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -734,11 +737,12 @@
           "field": "apply"
         }
       ],
-      "status": 200,
+      "status": 503,
       "finalUrl": "https://digital-strategy.ec.europa.eu/en/funding/call-proposals-media-freedom-rapid-response-mechanism-2027",
-      "class": "ok",
+      "class": "server",
       "attempts": [
-        200
+        503,
+        503
       ]
     },
     {
@@ -997,11 +1001,12 @@
           "field": "apply"
         }
       ],
-      "status": 200,
+      "status": 503,
       "finalUrl": "https://digital-strategy.ec.europa.eu/en/funding/call-proposals-journalism-partnerships-collaborations-2027",
-      "class": "ok",
+      "class": "server",
       "attempts": [
-        200
+        503,
+        503
       ]
     },
     {
@@ -2900,11 +2905,11 @@
           "field": "apply"
         }
       ],
-      "status": 200,
-      "finalUrl": "https://knightwallacefellowshipapplications.secure-platform.com/site",
-      "class": "ok",
+      "status": 403,
+      "finalUrl": "https://knightwallacefellowshipapplications.secure-platform.com/",
+      "class": "blocked",
       "attempts": [
-        200
+        403
       ]
     },
     {
@@ -3953,11 +3958,11 @@
           "field": "apply"
         }
       ],
-      "status": 200,
+      "status": 403,
       "finalUrl": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/gender-equality-grant",
-      "class": "ok",
+      "class": "blocked",
       "attempts": [
-        200
+        403
       ]
     },
     {
@@ -4979,6 +4984,7 @@
       "finalUrl": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/inep-data/estatisticas-censo-escolar",
       "class": "ok",
       "attempts": [
+        "TypeError:fetch failed",
         200
       ]
     },
@@ -5579,11 +5585,13 @@
           "field": "docs"
         }
       ],
-      "status": 200,
-      "finalUrl": "https://geocuritiba.ippuc.org.br/mapacadastral/",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "AbortError:This operation was aborted",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -5622,11 +5630,11 @@
           "field": "docs"
         }
       ],
-      "status": 202,
+      "status": 200,
       "finalUrl": "https://institutocidadessustentaveis.shinyapps.io/mapadesigualdadesaopaulo2025/",
       "class": "ok",
       "attempts": [
-        202
+        200
       ]
     },
     {
@@ -7132,7 +7140,7 @@
         }
       ],
       "status": 200,
-      "finalUrl": "https://dd-publico.serpro.gov.br/extensions/painel/ObrasgovbrIntervencao.html?qlikTicket=j59VzondIVD55f4w",
+      "finalUrl": "https://dd-publico.serpro.gov.br/extensions/painel/ObrasgovbrIntervencao.html?qlikTicket=E._6K9xaHczCpVxf",
       "class": "ok",
       "attempts": [
         200
@@ -7475,11 +7483,13 @@
           "field": "docs"
         }
       ],
-      "status": 200,
-      "finalUrl": "https://www.hidro.ce.gov.br/",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "AbortError:This operation was aborted",
       "attempts": [
-        200
+        "AbortError:This operation was aborted",
+        "AbortError:This operation was aborted"
       ]
     },
     {
@@ -10166,7 +10176,6 @@
       "finalUrl": "https://apidadosabertos.saude.gov.br/atencao-primaria/pmmb-serie-historica",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -10878,13 +10887,11 @@
           "field": "api"
         }
       ],
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "AbortError:This operation was aborted",
+      "status": 200,
+      "finalUrl": "https://apidadosabertos.saude.gov.br/daf/estoque-medicamentos-bnafar-horus",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "AbortError:This operation was aborted"
+        200
       ]
     },
     {
@@ -15736,11 +15743,11 @@
           "field": "url"
         }
       ],
-      "status": 200,
+      "status": 403,
       "finalUrl": "https://dadosabertos.inss.gov.br/dataset/comunicacoes-de-acidente-de-trabalho-cat-plano-de-dados-abertos-jun-2023-a-dez-2027",
-      "class": "ok",
+      "class": "blocked",
       "attempts": [
-        200
+        403
       ]
     },
     {
@@ -15779,11 +15786,11 @@
           "field": "url"
         }
       ],
-      "status": 200,
+      "status": 403,
       "finalUrl": "https://dadosabertos.inss.gov.br/dataset/beneficios-concedidos-plano-de-dados-abertos-jun-2023-a-dez-2027",
-      "class": "ok",
+      "class": "blocked",
       "attempts": [
-        200
+        403
       ]
     },
     {
@@ -15822,11 +15829,11 @@
           "field": "url"
         }
       ],
-      "status": 200,
+      "status": 403,
       "finalUrl": "https://dadosabertos.inss.gov.br/dataset/beneficios-mantidos-plano-de-dados-abertos-jun-2023-a-dez-2027",
-      "class": "ok",
+      "class": "blocked",
       "attempts": [
-        200
+        403
       ]
     },
     {
@@ -15865,11 +15872,11 @@
           "field": "url"
         }
       ],
-      "status": 200,
+      "status": 403,
       "finalUrl": "https://dadosabertos.inss.gov.br/dataset/beneficios-indeferidos-plano-de-dados-abertos-jun-2023-a-dez-2027",
-      "class": "ok",
+      "class": "blocked",
       "attempts": [
-        200
+        403
       ]
     },
     {
@@ -17841,6 +17848,7 @@
       "finalUrl": "https://tabnet.datasus.gov.br/cgi/sbucal/sb96.zip",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -18013,7 +18021,6 @@
       "finalUrl": "https://cetic.br/media/microdados/1072/tic_saude_2025_estabelecimentos_p%C3%B3s_cec_base_de_microdados.zip",
       "class": "ok",
       "attempts": [
-        "TypeError:fetch failed",
         200
       ]
     },
@@ -19819,6 +19826,7 @@
       "finalUrl": "https://desiertosdenoticiaslocales.fundaciongabo.org/dashboard/",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -20975,12 +20983,11 @@
           "field": "url"
         }
       ],
-      "status": 429,
+      "status": 200,
       "finalUrl": "https://www.gov.br/anatel/pt-br/dados/dados-abertos",
-      "class": "blocked",
+      "class": "ok",
       "attempts": [
-        "TypeError:fetch failed",
-        429
+        200
       ]
     },
     {
@@ -21597,6 +21604,7 @@
       "finalUrl": "https://map.geo.sei.ba.gov.br/arcgis/rest/services/servicos_sei/REGIONALIZACAO_VIGENTE/FeatureServer?f=json",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -21612,11 +21620,13 @@
           "field": "url"
         }
       ],
-      "status": 200,
-      "finalUrl": "https://map.geo.sei.ba.gov.br/arcgis/rest/services/servicos_sei/LOCALIDADE_BAHIA/MapServer?f=json",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "AbortError:This operation was aborted",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -21631,11 +21641,13 @@
           "field": "url"
         }
       ],
-      "status": 200,
-      "finalUrl": "https://map.geo.sei.ba.gov.br/arcgis/rest/services/servicos_sei/DPA_A_100K_VIGENTE_GCS_SIR_SEI/FeatureServer/0?f=json",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "AbortError:This operation was aborted",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -21655,7 +21667,7 @@
       "class": "network",
       "error": "TypeError:fetch failed",
       "attempts": [
-        "TypeError:fetch failed",
+        "AbortError:This operation was aborted",
         "TypeError:fetch failed"
       ]
     },
@@ -21671,11 +21683,13 @@
           "field": "url"
         }
       ],
-      "status": 200,
-      "finalUrl": "https://www.transparencia.ba.gov.br/Portal",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "AbortError:This operation was aborted",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -21690,11 +21704,13 @@
           "field": "url"
         }
       ],
-      "status": 200,
-      "finalUrl": "https://www.ba.gov.br/ssp/publicacoes",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "AbortError:This operation was aborted",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -21811,11 +21827,13 @@
           "field": "url"
         }
       ],
-      "status": 200,
-      "finalUrl": "https://datasus.saude.gov.br/",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "AbortError:This operation was aborted",
       "attempts": [
-        200
+        "AbortError:This operation was aborted",
+        "AbortError:This operation was aborted"
       ]
     },
     {
@@ -22405,6 +22423,7 @@
       "finalUrl": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/acoes-e-programas/programas-projetos-acoes-obras-e-atividades/estatisticas-trabalho/rais/rais-2025/rais-2025",
       "class": "ok",
       "attempts": [
+        "TypeError:fetch failed",
         200
       ]
     },
@@ -22424,6 +22443,7 @@
       "finalUrl": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/acoes-e-programas/programas-projetos-acoes-obras-e-atividades/estatisticas-trabalho/novo-caged/2026/setembro/pagina-inicial",
       "class": "ok",
       "attempts": [
+        "TypeError:fetch failed",
         200
       ]
     },
@@ -23516,6 +23536,7 @@
       "finalUrl": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/dados-abertos/cadastros",
       "class": "ok",
       "attempts": [
+        "TypeError:fetch failed",
         200
       ]
     },
@@ -23871,11 +23892,11 @@
           "field": "url"
         }
       ],
-      "status": 202,
+      "status": 200,
       "finalUrl": "https://oneworldmedia.org.uk/awards/",
       "class": "ok",
       "attempts": [
-        202
+        200
       ]
     },
     {
@@ -24167,11 +24188,11 @@
           "field": "url"
         }
       ],
-      "status": 202,
+      "status": 200,
       "finalUrl": "https://rorypecktrust.org/",
       "class": "ok",
       "attempts": [
-        202
+        200
       ]
     },
     {
@@ -24224,11 +24245,11 @@
           "field": "url"
         }
       ],
-      "status": 202,
+      "status": 200,
       "finalUrl": "https://oneworldmedia.org.uk/fellowship/",
       "class": "ok",
       "attempts": [
-        202
+        200
       ]
     },
     {
@@ -24243,11 +24264,11 @@
           "field": "url"
         }
       ],
-      "status": 202,
+      "status": 200,
       "finalUrl": "https://amadomundo.com/",
       "class": "ok",
       "attempts": [
-        202
+        200
       ]
     },
     {
@@ -24500,13 +24521,11 @@
           "field": "url"
         }
       ],
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://www.observatoriodaimprensa.com.br/",
+      "class": "ok",
       "attempts": [
-        "TypeError:fetch failed",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -25266,6 +25285,7 @@
       "finalUrl": "https://www.generonumero.media/",
       "class": "ok",
       "attempts": [
+        "TypeError:fetch failed",
         200
       ]
     },
@@ -25737,11 +25757,12 @@
           "field": "url"
         }
       ],
-      "status": 200,
+      "status": 526,
       "finalUrl": "https://www.theopennotebook.com/",
-      "class": "ok",
+      "class": "server",
       "attempts": [
-        200
+        526,
+        526
       ]
     },
     {
@@ -25874,7 +25895,6 @@
       "finalUrl": "https://leibniz-ifl.de/",
       "class": "ok",
       "attempts": [
-        "TypeError:fetch failed",
         200
       ]
     },
@@ -26422,13 +26442,11 @@
           "field": "url"
         }
       ],
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://www.almg.gov.br/participacao/inicial",
+      "class": "ok",
       "attempts": [
-        "TypeError:fetch failed",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -27623,13 +27641,11 @@
           "field": "discoveryUrl"
         }
       ],
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://inkscape.org/",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -27935,12 +27951,11 @@
           "field": "discoveryUrl"
         }
       ],
-      "status": 429,
+      "status": 200,
       "finalUrl": "https://camelot-py.readthedocs.io/en/latest/",
-      "class": "blocked",
+      "class": "ok",
       "attempts": [
-        429,
-        429
+        200
       ]
     },
     {
@@ -28281,11 +28296,12 @@
           "field": "discoveryUrl"
         }
       ],
-      "status": 200,
+      "status": 503,
       "finalUrl": "https://github.com/ArthurHeitmann/arctic_shift/blob/master/api/README.md",
-      "class": "ok",
+      "class": "server",
       "attempts": [
-        200
+        503,
+        503
       ]
     },
     {
@@ -29201,13 +29217,11 @@
           "field": "discoveryUrl"
         }
       ],
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://www.observatoriodaimprensa.com.br/codesinfo/infoamazonia-lanca-nova-versao-do-jeo-plugin-de-codigo-aberto-que-une-geojornalismo-e-ia/",
+      "class": "ok",
       "attempts": [
-        "TypeError:fetch failed",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -29888,6 +29902,7 @@
       "finalUrl": "https://aleph.occrp.org/",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
