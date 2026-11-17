@@ -9,6 +9,7 @@ on:
     types: [completed]
     branches: [main]
   push:
+    branches: [main]
     paths:
       - 'data/sources.js'
       - 'scripts/source-intake.js'
@@ -117,10 +118,11 @@ on:
 permissions:
   contents: read
 concurrency:
-  group: ${{ github.event_name == 'pull_request' && format('radar-source-pr-{0}', github.event.pull_request.number) || 'radar-state-writers' }}
+  group: ${{ github.event_name == 'pull_request' && format('radar-source-pr-{0}', github.event.pull_request.number) || format('radar-source-{0}', github.ref) }}
   cancel-in-progress: false
 jobs:
   discover:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     timeout-minutes: 35
     steps:
@@ -216,6 +218,10 @@ jobs:
             intake/run-summary.md
           if-no-files-found: error
   persist:
+    # Only writes share the intake lock; discovery cannot evict pending intake runs.
+    concurrency:
+      group: radar-state-writers
+      cancel-in-progress: false
     needs: discover
     env:
       GH_REPO: ${{ github.repository }}
