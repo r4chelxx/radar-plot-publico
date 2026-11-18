@@ -2,8 +2,8 @@ const {URL}=require('node:url');
 function clean(s){return String(s||'').replace(/<[^>]+>/g,' ').replace(/&amp;/g,'&').replace(/\s+/g,' ').trim().slice(0,180)}
 function extractLinks(html,baseUrl){
  const out=[];const seen=new Set();
- for(const m of String(html||'').matchAll(/<a\b([^>]*)href=["']([^"']+)["']([^>]*)>([\s\S]*?)<\/a>/gi)){
-  try{const url=new URL(m[2],baseUrl).toString();if(!/^https?:$/i.test(new URL(url).protocol))continue;const label=clean(m[4]);const attrs=(m[1]+' '+m[3]).toLowerCase();const key=url.replace(/\/$/,'');if(!seen.has(key)){seen.add(key);out.push({url,label,attrs})}}catch{}
+ for(const m of String(html||'').matchAll(/<a\b([^>]*)href=["']([^"']+)["']([^>]*)>([\s\S]*?)<\/a\s*>/gi)){
+  try{const url=new URL(m[2],baseUrl).toString();if(!/^https?:$/i.test(new URL(url).protocol))continue;const rawAttrs=m[1]+' '+m[3];const attrs=rawAttrs.toLowerCase();const accessible=[...rawAttrs.matchAll(/\b(?:aria-label|title)=["']([^"']+)["']/gi)].map(x=>clean(x[1])).join(' ');const label=clean(accessible+' '+m[4]);const key=url.replace(/\/$/,'');if(!seen.has(key)){seen.add(key);out.push({url,label,attrs})}}catch{}
  }
  return out;
 }
@@ -20,9 +20,10 @@ function selectExpansionLinks(links,baseUrl,limit=3){
  }
  return out;
 }
-function relevant(label,url=''){
+function relevant(label,url='',options={}){
  const text=String(label||'')+' '+String(url||'');
  const path=String(url||'').replace(/^https?:\/\/[^/]+/i,'');
- return /grant|fellowship|bolsa|financiamento|funding|opportunit(?:y|ies)|award|prize|residen(?:cy|cies)|stipend|grantmak(?:er|ing)|journalis(?:m|t)|program(?:me)?|competition|contest|open call|call for|chamada|edital|application|apply|dataset|dados abertos|open data|tool|ferramenta|award|prize|scholarship/i.test(text)||/(?:grant|fellowship|scholarship|funding|call-for|open-call|edital|bolsa|premio|prize)/i.test(path);
+ const toolCard=options.includeToolCards&&/glue-card|card[_-]select|tool-card|product-card/i.test(String(options.attrs||''));
+ return toolCard||/grant|fellowship|bolsa|financiamento|funding|opportunit(?:y|ies)|award|prize|residen(?:cy|cies)|stipend|grantmak(?:er|ing)|journalis(?:m|t)|program(?:me)?|competition|contest|open call|call for|chamada|edital|application|apply|dataset|dados abertos|open data|tool|ferramenta|award|prize|scholarship/i.test(text)||/(?:grant|fellowship|scholarship|funding|call-for|open-call|edital|bolsa|premio|prize)/i.test(path);
 }
 module.exports={extractLinks,selectExpansionLinks,relevant};
