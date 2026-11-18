@@ -2,10 +2,10 @@ window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.tools=[
 {
   "id": "auto-66644b564251d5a6",
-  "name": "Fact Check Tools",
-  "kind": "software para análise de dados",
+  "name": "Fact Check Explorer",
+  "kind": "ferramenta de verificação de fatos",
   "url": "https://toolbox.google.com/factcheck/explorer",
-  "desc": "Fact Check Tools Fact Check Tools Fact Check Tools Sign in Fact Check Tools Fact Check Tools this.gbar_=this.gbar_||{};(function(_){var window=this; try{ _.je=function(a,b,c){if(!a.o)if(c instanceof Array){c=_.G(c);var d=c.next();try{for(;!d.done;d=c.next())_.je(a,b,d.value)}finally{_.H(c,d)}}else{d=(0,_.jc)(a.D,a,b);var e=a.A+c;a.A++;b.dataset.eqid=e;a.C[e]=d;b&&b.addEventListener?b.addEventListener(c,d,!1):b&&b.attachEvent?b.attachEvent(\"on\"+c,d):a.v.log(Error(\"J`\"+b))}}; }catch(e){_._DumpException(e)} try{ var ke=document.querySelector(\".gb_L .gb_C\"),le=document.querySelector(\"#gb.gb_xd\");ke&&!le&&_.je(_.Wd,ke,\"click\"); }catch(e){_._DumpException(e)} try{ _.me=function(a){a&&typeof a.dispose==\"function\"&&a.dispose()};_.ne=function(a,b){b==void 0&&(b=0);return a!=null?a:b};_.oe=function(a,b,c){return _.yd(a,b,c,_.ud)};_.pe=function(a,b){a.Da?b():(a.va||(a.va=[]),a.va.push(b))};_.qe=function(a,b){_.pe(a,_.lc(_.me,b))};_.re=typeof AsyncContext!==\"undefined\"&&typeof AsyncContext.Snapshot===\"function\"?function(a){return a&&AsyncContext.Snapshot.wrap(a)}:function(a){return a}; }catch(e){_._DumpException(e)} try{ /* Copyright Google LLC SPDX-License-Identifier: Apache-2.0 */ var te=fun Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
+  "desc": "Search fact-check results from the web about a topic or person. Consulte a documentação e as condições de acesso antes do uso editorial."
 }, 
 {
   "id": "auto-cf35ab1a6098d860",

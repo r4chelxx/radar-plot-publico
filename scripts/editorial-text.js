@@ -14,7 +14,12 @@ function decodeEntities(value){
 }
 
 function cleanText(value,max=4000){
- return decodeEntities(String(value||'').replace(/<script\b[\s\S]*?<\/script>/gi,' ').replace(/<style\b[\s\S]*?<\/style>/gi,' ').replace(/<[^>]+>/g,' ').replace(/\s+/g,' ').trim()).slice(0,max);
+ // A response can be truncated inside an active block. Drop it through EOF
+ // when no closing tag is present so client JavaScript cannot become copy.
+ return decodeEntities(String(value||'')
+  .replace(/<(script|style|noscript|template|svg)\b[^>]*>[\s\S]*?(?:<\/\1\s*>|$)/gi,' ')
+  .replace(/<!--([\s\S]*?)(?:-->|$)/g,' ')
+  .replace(/<[^>]+>/g,' ').replace(/\s+/g,' ').trim()).slice(0,max);
 }
 
 function cleanTitle(value,organization=''){

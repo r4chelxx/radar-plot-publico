@@ -55,10 +55,15 @@ function deriveDataset(lead,url){
 }
 function deriveTool(lead,url){
  const se=lead.structuredEvidence||{};
- const title=se.title||lead.pageTitle||lead.sourcePageTitle;
+ const metaTitle=se.title||lead.pageTitle||lead.sourcePageTitle;
+ const cardTitle=cleanTitle(String(lead.title||'').split(/\s*,\s*/)[0],se.organization||lead.source||'');
+ const genericProductTitle=/^(?:fact check tools|tools?|resources?|home|in[ií]cio)$/i;
+ const title=cardTitle&&!genericProductTitle.test(cardTitle)?cardTitle:metaTitle;
  const meta=cleanText(se.description||lead.pageDescription,1200);
  const body=cleanText(lead.evidenceText,4000);
  const description=meta.length>=80?meta:cleanText(body,1200);
+ const machineNoise=/(?:this\.gbar_|_DumpException|document\.querySelector|\bfunction\s*\(|\b(?:var|const|let)\s+[\w$]+\s*=|\bwindow\.[\w$]+\s*=)/i;
+ if(machineNoise.test(meta)||machineNoise.test(body)||machineNoise.test(description))return null;
  const excludedToolPage=new RegExp("mediawiki\\.org|wikidata\\.org/wiki/Special:NewItem|github\\.com/[^\\s]+/blob/|/(?:news|articles?|item|program|blog|tv|conference|events?)(?:/|$)|substack\\.com","i").test(String(url));
  const navigationTool=/jump to content|main menu|navigation|create account|log in|personal tools|toggle the table|page discussion|read edit view history|contents move to sidebar|search search/i.test(String(description));
  if(excludedToolPage||navigationTool)return null;
@@ -137,7 +142,7 @@ for(const lead of results){
   if(record?.url&&host(record.url)!==host(url))fail.push('URL oficial não coincide com a fonte auditada');
  } else if(lead.category==='tools'){
   for(const k of ['name','kind','desc','url'])if(!record?.[k])fail.push('campo de ferramenta ausente: '+k);
-  if(record?.desc&&String(record.desc).length<70)fail.push('descrição da ferramenta insuficiente');
+  if(record?.desc&&/(?:this[.]gbar_|_DumpException|document[.]querySelector|function[(]|window[.][A-Za-z_$][A-Za-z0-9_$]*[ ]*=)/i.test(String(record.desc)))fail.push('descrição contém código ou conteúdo técnico da interface, não texto editorial');
   if(record?.url&&host(record.url)!==host(url))fail.push('URL oficial não coincide com a fonte auditada');
  } else fail.push('categoria não classificada');
  const publicationReviewV1=lead.publicationReviewV1||r?.publicationReviewV1;

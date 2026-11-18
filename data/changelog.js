@@ -7,10 +7,10 @@ window.RADAR_PARTS.changelog=[
   "items": [
     {
       "id": "auto-66644b564251d5a6",
-      "title": "Fact Check Tools"
+      "title": "Fact Check Explorer"
     }
   ],
-  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Fact Check Tools."
+  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Fact Check Explorer."
 }, 
 {
   "date": "2026-11-18",
