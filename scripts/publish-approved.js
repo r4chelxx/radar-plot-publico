@@ -29,7 +29,13 @@ const safeOrganization=x=>{
 const newsStoryEvidence=value=>{
  const text=String(value||'');
  return /globalContent\s*=\s*\{[\s\S]{0,1400}?["']type["']\s*:\s*["']story["'][\s\S]{0,300}?["']subtype["']\s*:\s*["']news["']/i.test(text)
-  ||/["']@type["']\s*:\s*["'](?:NewsArticle|Article|BlogPosting)["']/i.test(text);
+  ||/["']@type["']\s*:\s*["'](?:NewsArticle|Article|BlogPosting|Report|ScholarlyArticle)["']/i.test(text);
+};
+const genericToolListingEvidence=(record,proof)=>{
+ const text=[record.name||'',record.url||'',record.desc||'',proof.evidence||''].join(' ');
+ return /^(?:tools?(?: and resources)?|resources and tools|data portals? (?:&|and) tools|world bank open data)$/i.test(String(record.name||'').trim())
+  ||/who\\.int\\/data\\/inequality-monitor\\/tools-resources|data\\.worldbank\\.org\\/products\\/tools/i.test(String(record.url||''))
+  ||/\\bdata portals? (?:&|and) tools\\b/i.test(text);
 };
 const genericOpportunityTitle=/^(?:how to apply|about(?: the fellowship)?|application|apply now)$/i;
 
@@ -95,7 +101,8 @@ for(const entry of source.approved){
  }
  if(category==='tools'){
   if(!record.kind||!record.desc||record.desc.length<70)throw Error('Tool requires kind and substantive description with limitations: '+record.id);
-  if(newsStoryEvidence(proof.evidence))throw Error('Tool evidence identifies a news story, not a software product: '+record.id);
+  if(newsStoryEvidence(proof.evidence)||newsStoryEvidence(record.name+' '+record.url))throw Error('Tool evidence identifies a news story or report, not a software product: '+record.id);
+  if(genericToolListingEvidence(record,proof))throw Error('Tool evidence identifies a directory or index page, not a software product: '+record.id);
   const excludedToolPage=new RegExp("mediawiki\\.org|wikidata\\.org/wiki/Special:NewItem|github\\.com/[^\\s]+/blob/|/news/|/item/|/program(?:/|$)|substack\\.com|/blog/|/conference(?:/|$)|/events?(?:/|$)","i").test(String(record.url));
   const genericToolKind=/^(?:tool|ferramenta|software|application|aplicativo)$/i.test(String(record.kind||'').trim());
   const nonToolTitle=/\b(?:blog|newsletter|conference|festival|portfolio|curated list|course|tutorial|researcher|designer|artist|interactive news)\b/i.test(String(record.name||''));
