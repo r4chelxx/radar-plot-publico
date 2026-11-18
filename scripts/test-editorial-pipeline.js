@@ -52,7 +52,7 @@ try{
  const newsTool={id:'news-story-as-tool',name:'Google AI falsely links Auckland technician to convictions',kind:'driving convictions',url:'https://news.example/story/abc',desc:'The article reports a false association and a company response. This is editorial coverage, not a software product.'};
  const newsReview={decision:'approved',reviewedBy:'editorial reviewer',reviewedAt:'2026-10-23',officialUrl:newsTool.url,evidence:'globalContent={"type":"story","subtype":"news","template":"story"} Article text reports the incident and response.'};
  const newsPath=path.join(root,'intake','news-tool.json');fs.writeFileSync(newsPath,JSON.stringify({approved:[{category:'tools',record:newsTool,review:newsReview}]}));
- assert.throws(()=>run('publish-approved.js',newsPath),/news story, not a software product/);
+ assert.throws(()=>run('publish-approved.js',newsPath),/news story or report, not a software product/);
  const falseToolPages=[
   {id:'who-tool-directory',name:'Tools and resources',kind:'mapeamento e cartografia',url:'https://www.who.int/data/inequality-monitor/tools-resources',desc:'Tools and resources for health inequality monitoring. Source note: verify documentation and license.'},
   {id:'world-bank-tool-index',name:'World Bank Open Data',kind:'mapeamento e cartografia',url:'https://data.worldbank.org/products/tools',desc:'Data Portals & Tools for development indicators. Source note: verify documentation and license.'},
