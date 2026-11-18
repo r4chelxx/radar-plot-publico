@@ -8,7 +8,7 @@ function fixture(){
  for(const [key,items] of Object.entries({opportunities:[primary,alias],sources:[{url:primary.rules,category:'oportunidades/financiamento',type:'Programa de fellowship'}],tools:[],datasets:[],changelog:[{date:'2026-11-16',type:'nova-oportunidade',items:[{id:alias.id,title:alias.title}]}]}))fs.writeFileSync(path.join(root,'data',key+'.js'),'window.RADAR_PARTS.'+key+'='+JSON.stringify(items,null,2)+';');
  return root;
 }
-function run(root,approved=[]){fs.writeFileSync(path.join(root,'intake/approved-publications.json'),JSON.stringify({approved}));return JSON.parse(cp.execFileSync(process.execPath,[publisher],{cwd:root,encoding:'utf8',stdio:['ignore','pipe','pipe']}));}
+function run(root,approved=[]){fs.writeFileSync(path.join(root,'intake/approved-publications.json'),JSON.stringify({approved}));const result=JSON.parse(cp.execFileSync(process.execPath,[publisher],{cwd:root,encoding:'utf8',stdio:['ignore','pipe','pipe']}));if(result.rejected?.length)throw Error(result.rejected.map(x=>x.reason).join('; '));return result;}
 function load(root,key){const ctx={window:{RADAR_PARTS:{}}};vm.createContext(ctx);vm.runInContext(fs.readFileSync(path.join(root,'data',key+'.js'),'utf8'),ctx);return ctx.window.RADAR_PARTS[key];}
 test('same call and deadline retain only the primary record and its restrictions',()=>{
  const root=fixture();try{
