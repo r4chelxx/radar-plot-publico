@@ -19,7 +19,7 @@ const requiredFields={
 const safeUrl=value=>{try{const u=new URL(value);return u.protocol==='https:'&&!!u.hostname}catch{return false}};
 const canonical=value=>{try{const u=new URL(value);u.hash='';u.hostname=u.hostname.toLowerCase();u.pathname=u.pathname.replace(/\/+$/,'')||'/';return u.toString()}catch{return ''}};
 const complete=value=>value!=null&&value!==''&&(!Array.isArray(value)||value.length>0);
-function jlabPublicationPage(value){try{const u=new URL(value),host=u.hostname.toLowerCase().replace(/^www\\./,'');return (host==='j-lab.org'&&/^\\/publications\\//i.test(u.pathname))||(host==='sej.org'&&/^\\/library\\/reporting-tools\\/overview\\/?$/i.test(u.pathname))}catch{return false}}
+function jlabPublicationPage(value){try{const u=new URL(value),host=(u.hostname.toLowerCase().startsWith('www.')?u.hostname.slice(4):u.hostname.toLowerCase()),path=u.pathname.toLowerCase();return (host==='j-lab.org'&&path.startsWith('/publications/'))||(host==='sej.org'&&(path==='/library/reporting-tools/overview'||path==='/library/reporting-tools/overview/'))}catch{return false}}
 function socialPostUrl(value){try{const host=new URL(value).hostname.toLowerCase().replace(/^www\./,'');return /^(?:instagram\.com|facebook\.com|linkedin\.com|tiktok\.com|x\.com|twitter\.com|youtube\.com|youtu\.be|threads\.net|reddit\.com|pinterest\.com|t\.me)$/.test(host)}catch{return false}}
 function buildAutomaticPublications(drafts,manual={approved:[]},now=new Date(),publishedOpportunities=[]){
  const localDay=new Intl.DateTimeFormat('en-CA',{timeZone:'America/Bahia',year:'numeric',month:'2-digit',day:'2-digit'}).format(now);
