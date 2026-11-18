@@ -11,6 +11,8 @@ on:
       - 'scripts/build-automated-publications.js'
       - 'scripts/merge-source-approvals.js'
       - 'tests/merge-source-approvals.test.js'
+      - 'scripts/tool-publication-evidence.js'
+      - 'tests/tool-publication-evidence.test.js'
       - 'tests/automated-publication.test.js'
       - 'scripts/test-editorial-pipeline.js'
       - 'data/datasets.js'
@@ -75,7 +77,7 @@ jobs:
           node --test tests/primary-call-record.test.js tests/opportunity-alias.test.js
           node scripts/test-editorial-pipeline.js
       - name: Test discovery approval handoff
-        run: node --test tests/merge-source-approvals.test.js
+        run: node --test tests/merge-source-approvals.test.js tests/tool-publication-evidence.test.js
       - name: Test deterministic automated publication gate
         run: node --test tests/automated-publication.test.js
       - name: Test cumulative daily publication target
@@ -95,7 +97,7 @@ jobs:
           fi
           RADAR_ENABLE_AUTOMATIC_PUBLICATION=true node scripts/build-automated-publications.js "$draft_file" intake/approved-publications.json /tmp/radar-combined-approved.json
           if [ "${{ github.event_name }}" = "workflow_run" ] && [ "${{ github.event.workflow_run.name }}" = "Radar source discovery" ]; then
-            source_approvals=/tmp/radar-source-intake/approved-publications-next.json
+            source_approvals=/tmp/radar-source-intake/auto-editorial-decisions.json
             test -s "$source_approvals"
             node scripts/merge-source-approvals.js /tmp/radar-combined-approved.json "$source_approvals" /tmp/radar-source-combined-approved.json
             mv /tmp/radar-source-combined-approved.json /tmp/radar-combined-approved.json
@@ -107,6 +109,8 @@ jobs:
           const byCategory=Object.fromEntries(['opportunities','datasets','tools'].map(c=>[c,automatic.filter(x=>x.category===c).length]));
           fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY,['### Aprovações automáticas por evidência',...Object.entries(byCategory).map(([c,n])=>'- '+c+': '+n),'- Total: '+automatic.length,'Somente fichas completas, recentes e com verificações específicas passam pelo gate.'].join('\n')+'\n');
           NODE
+      - name: Remove approvals rejected by the independent publication gate
+        run: node scripts/filter-rejected-approvals.js /tmp/radar-combined-approved.json
       - name: Dry-run combined approved manifest without publishing
         env:
           RADAR_APPROVED_MANIFEST: /tmp/radar-combined-approved.json
