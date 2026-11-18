@@ -216,3 +216,13 @@ test('OpenSanctions dataset owner is attributed from its official domain when me
  assert.equal(record.org,'OpenSanctions');
  assert.equal(record.kind,'dataset');
 });
+
+test('does not create tool drafts from report or directory pages even when labeled complete',()=>{
+ const queue={candidates:[
+  {id:'report',category:'tools',url:'https://reutersinstitute.politics.ox.ac.uk/generative-ai-and-news-report-2026-standalone-tools-information-infrastructure',title:'Generative AI and News Report 2026',audit:{pageTitle:'Generative AI and News Report 2026',evidenceText:'A report based on a survey.',structuredData:[{'@type':'Report'}]}},
+  {id:'directory',category:'tools',url:'https://www.who.int/data/inequality-monitor/tools-resources',title:'Tools and resources',audit:{pageTitle:'Tools and resources',evidenceText:'Tools and resources for health inequality monitoring.',structuredData:[]}}
+ ]};
+ const review={records:queue.candidates.map(x=>({id:x.id,category:'tools',decision:'evidence_complete_for_record_draft',publicationReady:false,checks:{productSignal:true,function:true,access:true}}))};
+ const out=buildDrafts(queue,review);
+ assert.equal(out.drafts.length,0);
+});
