@@ -1,5 +1,17 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
+{
+  "date": "2026-11-18",
+  "type": "nova-oportunidade",
+  "title": "Publicação editorial verificada — 2026-11-18",
+  "items": [
+    {
+      "id": "4f8d53a2e6da3256e22435b61f80122508e27a9d28bcdfdc7f06d59bc794afad",
+      "title": "Pulitzer Center Ocean and Fisheries Reporting Grants"
+    }
+  ],
+  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Pulitzer Center Ocean and Fisheries Reporting Grants."
+}, 
   {
     "date": "2026-11-17",
     "type": "dados",

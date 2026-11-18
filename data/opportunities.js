@@ -1,5 +1,24 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.opportunities=[
+{
+  "id": "4f8d53a2e6da3256e22435b61f80122508e27a9d28bcdfdc7f06d59bc794afad",
+  "title": "Pulitzer Center Ocean and Fisheries Reporting Grants",
+  "org": "Pulitzer Center",
+  "summary": "The Pulitzer Center is offering Ocean and Fisheries Reporting Grants to ambitious reporting proposals from freelance and staff journalists fwho wish to report on vital ocean and fisheries issues.",
+  "type": "Grant",
+  "themes": [
+    "Meio ambiente",
+    "Jornalismo"
+  ],
+  "scope": "All freelance and staff journalists from around the world",
+  "fit": 6,
+  "deadline": null,
+  "deadlineStatus": "Fluxo contínuo confirmado na chamada; sem data final anunciada.",
+  "eligibility": "parcial",
+  "status": "aberta",
+  "rules": "https://gfmd.info/fundings/pulitzer-center-ocean-and-fisheries-reporting-grants/",
+  "apply": "https://gfmd.info/fundings/pulitzer-center-ocean-and-fisheries-reporting-grants/"
+}, 
   {
     "id": "fd84e850b51d43d439eea917135e10b90b79fedd62c5f808a56248c50fb77c50",
     "title": "SA|AJP Investigative Journalism Grants (Southern Africa Accountability Journalism Project)",
