@@ -1,5 +1,26 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.opportunities=[
+{
+  "id": "auto-573df7014317ef17",
+  "title": "Pulitzer Center Rainforest Reporting Grant",
+  "org": "Pulitzer Center",
+  "summary": "The Pulitzer Center Rainforest Reporting Grant provides project-based funding support to journalists reporting on tropical rainforests.",
+  "type": "Grant",
+  "themes": [
+    "Meio ambiente",
+    "Gênero",
+    "Fotografia",
+    "Jornalismo"
+  ],
+  "scope": "All staff and freelance journalists are eligible to apply",
+  "fit": 5,
+  "deadline": null,
+  "deadlineStatus": "Fluxo contínuo confirmado na chamada; sem data final anunciada.",
+  "eligibility": "parcial",
+  "status": "aberta",
+  "rules": "https://gfmd.info/fundings/pulitzer-center-rainforest-reporting-grant/",
+  "apply": "https://gfmd.info/fundings/pulitzer-center-rainforest-reporting-grant/"
+}, 
   {
     "id": "auto-4e15f03a4129d1d8",
     "title": "Fellowship for Advancing Science Journalism in Africa and the Middle East",

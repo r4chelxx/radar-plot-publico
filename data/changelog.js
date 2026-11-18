@@ -1,5 +1,17 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
+{
+  "date": "2026-11-18",
+  "type": "nova-oportunidade",
+  "title": "Publicação editorial verificada — 2026-11-18",
+  "items": [
+    {
+      "id": "auto-573df7014317ef17",
+      "title": "Pulitzer Center Rainforest Reporting Grant"
+    }
+  ],
+  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Pulitzer Center Rainforest Reporting Grant."
+}, 
   {
     "date": "2026-11-18",
     "type": "dados",
