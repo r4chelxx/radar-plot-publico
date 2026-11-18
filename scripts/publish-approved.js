@@ -20,6 +20,19 @@ const D=ctx.window.RADAR_PARTS,insertions={opportunities:[],datasets:[],tools:[]
 const dateParts=Object.fromEntries(new Intl.DateTimeFormat('en-US',{timeZone:'America/Bahia',year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(new Date()).map(p=>[p.type,p.value]));
 const today=[dateParts.year,dateParts.month,dateParts.day].join('-');
 const safeUrl=x=>{try{const u=new URL(x);return u.protocol==='https:'&&!!u.hostname}catch{return false}};
+const safeOrganization=x=>{
+ const value=String(x||'').trim();
+ return value.length>0&&value.length<=120&&/^[A-ZÀ-Þ]/u.test(value)
+  &&!/^(?:that|which|who|this|these|those)\b/i.test(value)
+  &&!/\b(?:will assume|must assume|can apply|should apply|is open to|are open to)\b/i.test(value);
+};
+const newsStoryEvidence=value=>{
+ const text=String(value||'');
+ return /globalContent\s*=\s*\{[\s\S]{0,1400}?["']type["']\s*:\s*["']story["'][\s\S]{0,300}?["']subtype["']\s*:\s*["']news["']/i.test(text)
+  ||/["']@type["']\s*:\s*["'](?:NewsArticle|Article|BlogPosting)["']/i.test(text);
+};
+const genericOpportunityTitle=/^(?:how to apply|about(?: the fellowship)?|application|apply now)$/i;
+
 const placeholder=x=>!String(x||'').trim()||/^(?:n\/?a|unknown|not provided|não informado(?: na fonte estruturada)?|não disponível|desconhecido)$/i.test(String(x).trim());
 const canonicalUrl=x=>{const u=new URL(x);u.hash='';u.hostname=u.hostname.toLowerCase();u.pathname=u.pathname.replace(new RegExp('/+$'),'')||'/';return u.toString()};
 const programSources=new Set((D.sources||[]).filter(x=>/oportunidad/i.test(x.category||'')&&/^(?:programa (?:de )?(?:fellowship|bolsas?|financiamento)|pr[eê]mio|edital)/i.test(x.type||'')).filter(x=>safeUrl(x.url)).map(x=>canonicalUrl(x.url)));
@@ -65,6 +78,8 @@ for(const entry of source.approved){
  if(proof.decision!=='approved'||!proof.reviewedBy||(automatedReview&&!machineValid)||(machinePolicy&&!machineValid)||boilerplateEvidence||!/^\d{4}-\d{2}-\d{2}$/.test(proof.reviewedAt||'')||!safeUrl(proof.officialUrl)||!proof.evidence||String(proof.evidence).length<25)throw Error('Missing item-level editorial verification: '+record.id);
  if(!record[rule.title]||!safeUrl(record[rule.field]))throw Error('Missing public record fields: '+record.id);
  if(new URL(proof.officialUrl).hostname!==new URL(record[rule.field]).hostname)throw Error('Official source does not match record: '+record.id);
+ if(category==='opportunities'&&genericOpportunityTitle.test(String(record.title||'').trim()))throw Error('Opportunity requires a specific named program, not a generic application page: '+record.id);
+ if(category==='opportunities'&&record.org&&!safeOrganization(record.org))throw Error('Opportunity organization field is not a valid organization name: '+record.id);
  if(category==='opportunities'&&(!record.deadlineStatus||!record.eligibility||!record.status))throw Error('Opportunity requires deadline status, eligibility and status: '+record.id);
  if(category==='datasets'){
   if(!record.coverage||!record.limitations)throw Error('Dataset requires coverage and limitations: '+record.id);
@@ -80,6 +95,7 @@ for(const entry of source.approved){
  }
  if(category==='tools'){
   if(!record.kind||!record.desc||record.desc.length<70)throw Error('Tool requires kind and substantive description with limitations: '+record.id);
+  if(newsStoryEvidence(proof.evidence))throw Error('Tool evidence identifies a news story, not a software product: '+record.id);
   const excludedToolPage=new RegExp("mediawiki\\.org|wikidata\\.org/wiki/Special:NewItem|github\\.com/[^\\s]+/blob/|/news/|/item/|/program(?:/|$)|substack\\.com|/blog/|/conference(?:/|$)|/events?(?:/|$)","i").test(String(record.url));
   const genericToolKind=/^(?:tool|ferramenta|software|application|aplicativo)$/i.test(String(record.kind||'').trim());
   const nonToolTitle=/\b(?:blog|newsletter|conference|festival|portfolio|curated list|course|tutorial|researcher|designer|artist|interactive news)\b/i.test(String(record.name||''));
