@@ -2,6 +2,22 @@ window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
 {
   "date": "2026-11-18",
+  "type": "ferramentas",
+  "title": "Publicação editorial verificada — 2026-11-18",
+  "items": [
+    {
+      "id": "auto-cf53aeb7445c168f",
+      "title": "Tools and resources"
+    },
+    {
+      "id": "auto-d3348a7817df326f",
+      "title": "World Bank Open Data"
+    }
+  ],
+  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Tools and resources; World Bank Open Data."
+}, 
+{
+  "date": "2026-11-18",
   "type": "dados",
   "title": "Publicação editorial verificada — 2026-11-18",
   "items": [
