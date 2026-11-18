@@ -124,7 +124,8 @@ function normalizeToolName(title,text,url){
 function editorialReportPage(audit,title,url){
  const types=(audit.structuredData||[]).flatMap(x=>Array.isArray(x['@type'])?x['@type']:[x['@type']]).map(x=>String(x||''));
  const text=[title,audit.pageTitle||'',audit.pageDescription||'',url].join(' ');
- return types.some(x=>/^(?:Report|ScholarlyArticle|NewsArticle|Article|BlogPosting)$/i.test(x))
+ const editorialTypes=types.length>0&&types.every(x=>/^(?:NewsArticle|Article|BlogPosting)$/i.test(x));
+ return types.some(x=>/^(?:Report|ScholarlyArticle)$/i.test(x))||editorialTypes
   ||/\b(?:news|research) report\s+20\d{2}\b/i.test(text)
   ||/\/reports?\/20\d{2}\//i.test(url);
 }
