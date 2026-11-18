@@ -9,6 +9,8 @@ try{
  item('grant','opportunities',{evidenceText:'Grant applications close 2099-12-31. Eligibility: who can apply is limited to journalists.',structuredData:[]}),
  item('structured-deadline','opportunities',{pageTitle:'Global Data Journalism Award',evidenceText:'Applications are open to journalists worldwide. Eligibility is stated on this page.',structuredData:[{'@type':'Event',name:'Global Data Journalism Award',endDate:'2099-12-31'}]}),
  item('fake-grant','opportunities',{evidenceText:'Welcome to our news blog about awards.',structuredData:[]}),
+ item('generic-application-page','opportunities',{pageTitle:'How To Apply',evidenceText:'The Pulitzer Center provides grants to cover the hard costs of reporting projects. Grants are open to all journalists. DEADLINE: ROLLING. Eligibility: open to journalists worldwide.',structuredData:[]}),
+ item('news-story-as-tool','tools',{pageTitle:'Google AI falsely links Auckland anaesthetic technician to drink-driving convictions',evidenceText:'window.Fusion.globalContent={"type":"story","subtype":"news","template":"story"}; Google AI uses tools to make predictions. The AI model is available online and can create content.',structuredData:[]},'https://news.example.org/nz/auckland/google-ai-falsely-links-person-to-convictions/ABC123/'),
  item('dataset','datasets',{evidenceText:'',structuredData:[{'@type':'Dataset',name:'City data',license:'CC0',temporalCoverage:'2020/2025',distribution:{contentUrl:'https://example.org/data.csv',encodingFormat:'text/csv'}}]}),
  item('dataset-zip','datasets',{pageTitle:'Sanitation dataset 2025',evidenceText:'Dataset covering municipal sanitation indicators in 2024. Planilhas de informações.',structuredData:[],resourceLinks:[{url:'https://official.example/sanitation.zip',label:'Planilhas de informações'}]}),
  item('dataset-xlsx','datasets',{pageTitle:'Municipal dataset 2025',evidenceText:'Dataset covering municipal sanitation indicators in 2024.',structuredData:[],resourceLinks:[{url:'https://official.example/indicators.xlsx',label:'Planilhas'}]}),
@@ -48,6 +50,10 @@ try{
  assert.equal(result.records.find(x=>x.id==='structured-deadline').decision,'evidence_complete_for_record_draft');
  assert.equal(result.records.find(x=>x.id==='structured-deadline').checks.deadline,'2099-12-31');
  assert.equal(result.records.find(x=>x.id==='fake-grant').decision,'pending_more_evidence');
+ assert.equal(result.records.find(x=>x.id==='generic-application-page').decision,'pending_more_evidence');
+ assert.match(result.records.find(x=>x.id==='generic-application-page').missing.join(' '),/nome específico da chamada ausente/);
+ assert.equal(result.records.find(x=>x.id==='news-story-as-tool').category,'uncategorized');
+ assert.equal(result.records.find(x=>x.id==='news-story-as-tool').decision,'pending_more_evidence');
  assert.equal(result.records.find(x=>x.id==='dataset').decision,'evidence_complete_for_record_draft');
  for(const id of ['dataset-zip','dataset-xlsx','dataset-api-host'])assert.equal(result.records.find(x=>x.id===id).decision,'evidence_complete_for_record_draft');
  assert.equal(result.records.find(x=>x.id==='dataset-generic-indicator').decision,'pending_more_evidence');
