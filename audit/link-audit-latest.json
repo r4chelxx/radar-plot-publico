@@ -1,11 +1,11 @@
 {
-  "checkedAt": "2026-11-18T07:47:09.611Z",
+  "checkedAt": "2026-11-18T09:05:30.427Z",
   "policy": "404/410 and ArcGIS application errors within HTTP 200 become broken only after appearing as suspect or broken in the previous audit; blocked and network results are inconclusive",
   "counts": {
     "ok": 1266,
-    "blocked": 62,
-    "network": 56,
-    "server": 1
+    "blocked": 63,
+    "network": 55,
+    "server": 3
   },
   "results": [
     {
@@ -183,6 +183,7 @@
       "finalUrl": "https://www.generonumero.media/artigos/programa-de-bolsas-aborto-em-pilulas/",
       "class": "ok",
       "attempts": [
+        "TypeError:fetch failed",
         200
       ]
     },
@@ -811,6 +812,7 @@
       "finalUrl": "https://digital-strategy.ec.europa.eu/en/funding/call-proposals-media-freedom-rapid-response-mechanism-2027",
       "class": "ok",
       "attempts": [
+        429,
         200
       ]
     },
@@ -1074,6 +1076,7 @@
       "finalUrl": "https://digital-strategy.ec.europa.eu/en/funding/call-proposals-journalism-partnerships-collaborations-2027",
       "class": "ok",
       "attempts": [
+        429,
         200
       ]
     },
@@ -1773,13 +1776,11 @@
           "field": "url"
         }
       ],
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "AbortError:This operation was aborted",
+      "status": 200,
+      "finalUrl": "https://www.combustivellegal.com.br/premiodejornalismo/regulamento/",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "AbortError:This operation was aborted"
+        200
       ]
     },
     {
@@ -1794,13 +1795,11 @@
           "field": "apply"
         }
       ],
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "AbortError:This operation was aborted",
+      "status": 200,
+      "finalUrl": "https://www.combustivellegal.com.br/premiodejornalismo/",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "AbortError:This operation was aborted"
+        200
       ]
     },
     {
@@ -1883,11 +1882,11 @@
           "field": "rules"
         }
       ],
-      "status": 200,
+      "status": 403,
       "finalUrl": "https://direitoshumanosbr.org.br/home/download/regulamento_por.pdf",
-      "class": "ok",
+      "class": "blocked",
       "attempts": [
-        200
+        403
       ]
     },
     {
@@ -1912,11 +1911,11 @@
           "field": "url"
         }
       ],
-      "status": 200,
-      "finalUrl": "https://direitoshumanosbr.org.br/home/index.php",
-      "class": "ok",
+      "status": 403,
+      "finalUrl": "https://direitoshumanosbr.org.br/home/inscricao.php?id=566917",
+      "class": "blocked",
       "attempts": [
-        200
+        403
       ]
     },
     {
@@ -2042,11 +2041,11 @@
           "field": "url"
         }
       ],
-      "status": 200,
+      "status": 403,
       "finalUrl": "https://www.poder360.com.br/trainee-2027/",
-      "class": "ok",
+      "class": "blocked",
       "attempts": [
-        200
+        403
       ]
     },
     {
@@ -2977,11 +2976,11 @@
           "field": "apply"
         }
       ],
-      "status": 403,
-      "finalUrl": "https://knightwallacefellowshipapplications.secure-platform.com/",
-      "class": "blocked",
+      "status": 200,
+      "finalUrl": "https://knightwallacefellowshipapplications.secure-platform.com/site",
+      "class": "ok",
       "attempts": [
-        403
+        200
       ]
     },
     {
@@ -3670,7 +3669,6 @@
       "finalUrl": "https://dowjonesnewsfund.org/djnfinternships/",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -4031,11 +4029,11 @@
           "field": "apply"
         }
       ],
-      "status": 403,
+      "status": 200,
       "finalUrl": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/gender-equality-grant",
-      "class": "blocked",
+      "class": "ok",
       "attempts": [
-        403
+        200
       ]
     },
     {
@@ -4055,11 +4053,11 @@
           "field": "apply"
         }
       ],
-      "status": 403,
+      "status": 200,
       "finalUrl": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/global-reporting-grants",
-      "class": "blocked",
+      "class": "ok",
       "attempts": [
-        403
+        200
       ]
     },
     {
@@ -4212,11 +4210,11 @@
           "field": "rules"
         }
       ],
-      "status": 200,
+      "status": 403,
       "finalUrl": "https://www.firenewsroom.org/about-us/fire-frequently-asked-questions",
-      "class": "ok",
+      "class": "blocked",
       "attempts": [
-        200
+        403
       ]
     },
     {
@@ -6089,12 +6087,11 @@
           "field": "docs"
         }
       ],
-      "status": 429,
+      "status": 200,
       "finalUrl": "https://www.gov.br/empresas-e-negocios/pt-br/mapa-de-empresas",
-      "class": "blocked",
+      "class": "ok",
       "attempts": [
-        "TypeError:fetch failed",
-        429
+        200
       ]
     },
     {
@@ -7471,7 +7468,7 @@
         }
       ],
       "status": 200,
-      "finalUrl": "https://dd-publico.serpro.gov.br/extensions/painel/ObrasgovbrIntervencao.html?qlikTicket=U6HxkBk3N.29avqU",
+      "finalUrl": "https://dd-publico.serpro.gov.br/extensions/painel/ObrasgovbrIntervencao.html?qlikTicket=8XSixgOGmkmwK402",
       "class": "ok",
       "attempts": [
         200
@@ -7814,13 +7811,11 @@
           "field": "docs"
         }
       ],
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "AbortError:This operation was aborted",
+      "status": 200,
+      "finalUrl": "https://www.hidro.ce.gov.br/",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "AbortError:This operation was aborted"
+        200
       ]
     },
     {
@@ -8117,11 +8112,12 @@
           "field": "docs"
         }
       ],
-      "status": 200,
+      "status": 503,
       "finalUrl": "https://sapl.fortaleza.ce.leg.br/",
-      "class": "ok",
+      "class": "server",
       "attempts": [
-        200
+        503,
+        503
       ]
     },
     {
@@ -11222,6 +11218,7 @@
       "finalUrl": "https://apidadosabertos.saude.gov.br/daf/estoque-medicamentos-bnafar-horus",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -16074,11 +16071,11 @@
           "field": "url"
         }
       ],
-      "status": 403,
+      "status": 200,
       "finalUrl": "https://dadosabertos.inss.gov.br/dataset/comunicacoes-de-acidente-de-trabalho-cat-plano-de-dados-abertos-jun-2023-a-dez-2027",
-      "class": "blocked",
+      "class": "ok",
       "attempts": [
-        403
+        200
       ]
     },
     {
@@ -16117,11 +16114,11 @@
           "field": "url"
         }
       ],
-      "status": 403,
+      "status": 200,
       "finalUrl": "https://dadosabertos.inss.gov.br/dataset/beneficios-concedidos-plano-de-dados-abertos-jun-2023-a-dez-2027",
-      "class": "blocked",
+      "class": "ok",
       "attempts": [
-        403
+        200
       ]
     },
     {
@@ -16160,11 +16157,11 @@
           "field": "url"
         }
       ],
-      "status": 403,
+      "status": 200,
       "finalUrl": "https://dadosabertos.inss.gov.br/dataset/beneficios-mantidos-plano-de-dados-abertos-jun-2023-a-dez-2027",
-      "class": "blocked",
+      "class": "ok",
       "attempts": [
-        403
+        200
       ]
     },
     {
@@ -16203,11 +16200,11 @@
           "field": "url"
         }
       ],
-      "status": 403,
+      "status": 200,
       "finalUrl": "https://dadosabertos.inss.gov.br/dataset/beneficios-indeferidos-plano-de-dados-abertos-jun-2023-a-dez-2027",
-      "class": "blocked",
+      "class": "ok",
       "attempts": [
-        403
+        200
       ]
     },
     {
@@ -16379,6 +16376,7 @@
       "finalUrl": "https://dados.agricultura.gov.br/dataset/sistema-de-agrotoxicos-fitossanitarios-agrofit",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -18749,11 +18747,13 @@
           "field": "url"
         }
       ],
-      "status": 200,
-      "finalUrl": "https://www.geoboundaries.org/",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "AbortError:This operation was aborted",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -18778,11 +18778,13 @@
           "field": "discoveryUrl"
         }
       ],
-      "status": 200,
-      "finalUrl": "https://www.geoboundaries.org/api.html",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "AbortError:This operation was aborted",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -21118,11 +21120,11 @@
           "field": "url"
         }
       ],
-      "status": 200,
+      "status": 403,
       "finalUrl": "https://data.worldbank.org/",
-      "class": "ok",
+      "class": "blocked",
       "attempts": [
-        200
+        403
       ]
     },
     {
@@ -21971,7 +21973,6 @@
       "finalUrl": "https://map.geo.sei.ba.gov.br/arcgis/rest/services/servicos_sei/DPA_A_100K_VIGENTE_GCS_SIR_SEI/FeatureServer/0?f=json",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -23081,7 +23082,6 @@
       "finalUrl": "https://www.ba.gov.br/saude/",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -23097,13 +23097,11 @@
           "field": "url"
         }
       ],
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "AbortError:This operation was aborted",
+      "status": 200,
+      "finalUrl": "https://datasus.saude.gov.br/cnes-recursos-humanos-a-partir-de-agosto-de-2007-ocupacoes-classificadas-pela-cbo-2002/",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "AbortError:This operation was aborted"
+        200
       ]
     },
     {
@@ -24051,11 +24049,11 @@
           "field": "url"
         }
       ],
-      "status": 200,
+      "status": 403,
       "finalUrl": "https://j-lab.org/tools/",
-      "class": "ok",
+      "class": "blocked",
       "attempts": [
-        200
+        403
       ]
     },
     {
@@ -24208,11 +24206,11 @@
           "field": "url"
         }
       ],
-      "status": 200,
+      "status": 202,
       "finalUrl": "https://oneworldmedia.org.uk/awards/",
       "class": "ok",
       "attempts": [
-        200
+        202
       ]
     },
     {
@@ -24504,11 +24502,11 @@
           "field": "url"
         }
       ],
-      "status": 200,
+      "status": 202,
       "finalUrl": "https://rorypecktrust.org/",
       "class": "ok",
       "attempts": [
-        200
+        202
       ]
     },
     {
@@ -24561,11 +24559,11 @@
           "field": "url"
         }
       ],
-      "status": 200,
+      "status": 202,
       "finalUrl": "https://oneworldmedia.org.uk/fellowship/",
       "class": "ok",
       "attempts": [
-        200
+        202
       ]
     },
     {
@@ -24580,11 +24578,11 @@
           "field": "url"
         }
       ],
-      "status": 200,
+      "status": 202,
       "finalUrl": "https://amadomundo.com/",
       "class": "ok",
       "attempts": [
-        200
+        202
       ]
     },
     {
@@ -25882,11 +25880,11 @@
           "field": "url"
         }
       ],
-      "status": 200,
+      "status": 403,
       "finalUrl": "https://wfsj.org/",
-      "class": "ok",
+      "class": "blocked",
       "attempts": [
-        200
+        403
       ]
     },
     {
@@ -26585,11 +26583,12 @@
           "field": "url"
         }
       ],
-      "status": 200,
+      "status": 429,
       "finalUrl": "https://radionovelo.com.br/",
-      "class": "ok",
+      "class": "blocked",
       "attempts": [
-        200
+        429,
+        429
       ]
     },
     {
@@ -26625,6 +26624,44 @@
       ],
       "status": 200,
       "finalUrl": "https://journaliststudio.google.com/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "auto-66644b564251d5a6",
+      "field": "url",
+      "url": "https://toolbox.google.com/factcheck/explorer",
+      "references": [
+        {
+          "type": "tool",
+          "id": "auto-66644b564251d5a6",
+          "field": "url"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://toolbox.google.com/factcheck/explorer",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "tool",
+      "id": "auto-cf35ab1a6098d860",
+      "field": "url",
+      "url": "https://earthkit.ecmwf.int/",
+      "references": [
+        {
+          "type": "tool",
+          "id": "auto-cf35ab1a6098d860",
+          "field": "url"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://earthkit.ecmwf.int/",
       "class": "ok",
       "attempts": [
         200
@@ -27933,11 +27970,13 @@
           "field": "discoveryUrl"
         }
       ],
-      "status": 200,
-      "finalUrl": "https://inkscape.org/",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "AbortError:This operation was aborted",
       "attempts": [
-        200
+        "AbortError:This operation was aborted",
+        "AbortError:This operation was aborted"
       ]
     },
     {
@@ -29375,11 +29414,12 @@
           "field": "url"
         }
       ],
-      "status": 200,
+      "status": 502,
       "finalUrl": "https://plugins.qgis.org/plugins/DesagregaBiomasBR/",
-      "class": "ok",
+      "class": "server",
       "attempts": [
-        200
+        "AbortError:This operation was aborted",
+        502
       ]
     },
     {
@@ -30227,11 +30267,11 @@
           "field": "url"
         }
       ],
-      "status": 200,
+      "status": 403,
       "finalUrl": "https://gsap.com/",
-      "class": "ok",
+      "class": "blocked",
       "attempts": [
-        200
+        403
       ]
     },
     {
