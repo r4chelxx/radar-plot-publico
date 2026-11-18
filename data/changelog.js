@@ -1,5 +1,45 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
+{
+  "date": "2026-11-18",
+  "type": "dados",
+  "title": "Publicação editorial verificada — 2026-11-18",
+  "items": [
+    {
+      "id": "auto-0b9fcaaa0bc8c6aa",
+      "title": "Warrants and Criminal Entities"
+    },
+    {
+      "id": "auto-a4be04b7843e7db5",
+      "title": "Know-Your-Business (KYB) Datasets"
+    },
+    {
+      "id": "auto-ed6238ccffd55b57",
+      "title": "Politically Exposed Persons Datasets"
+    },
+    {
+      "id": "auto-593b8be36a972ae1",
+      "title": "Regulatory Watchlists"
+    },
+    {
+      "id": "auto-d6598d243c689e78",
+      "title": "Debarred Companies and Individuals"
+    }
+  ],
+  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Warrants and Criminal Entities; Know-Your-Business (KYB) Datasets; Politically Exposed Persons Datasets; Regulatory Watchlists; Debarred Companies and Individuals."
+},
+{
+  "date": "2026-11-18",
+  "type": "ferramentas",
+  "title": "Publicação editorial verificada — 2026-11-18",
+  "items": [
+    {
+      "id": "auto-ed23a1d38f92ba99",
+      "title": "Generative AI and News Report 2026: From standalone tools to information infrastructure"
+    }
+  ],
+  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Generative AI and News Report 2026: From standalone tools to information infrastructure."
+}, 
   {
     "date": "2026-11-18",
     "type": "nova-oportunidade",
