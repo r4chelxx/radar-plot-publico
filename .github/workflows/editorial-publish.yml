@@ -9,6 +9,8 @@ on:
       - 'tests/daily-publication-target.test.js'
       - 'scripts/publish-approved.js'
       - 'scripts/build-automated-publications.js'
+      - 'scripts/merge-source-approvals.js'
+      - 'tests/merge-source-approvals.test.js'
       - 'tests/automated-publication.test.js'
       - 'scripts/test-editorial-pipeline.js'
       - 'data/datasets.js'
@@ -21,13 +23,15 @@ on:
     paths:
       - 'intake/approved-publications.json'
       - 'scripts/build-automated-publications.js'
+      - 'scripts/merge-source-approvals.js'
+      - 'tests/merge-source-approvals.test.js'
       - 'scripts/publish-approved.js'
       - 'tests/automated-publication.test.js'
       - '.github/workflows/editorial-publish.yml'
       - 'scripts/check-daily-publication-target.js'
       - 'tests/daily-publication-target.test.js'
   workflow_run:
-    workflows: ["Unified public web intake"]
+    workflows: ["Unified public web intake", "Radar source discovery"]
     types: [completed]
     branches: [main]
   schedule:
@@ -40,6 +44,7 @@ concurrency:
   group: radar-editorial-publish
   cancel-in-progress: false
 permissions:
+  actions: read
   contents: write
   pull-requests: write
   issues: write
@@ -57,10 +62,20 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: "22"
+      - name: Download completed source-discovery approvals
+        if: github.event_name == 'workflow_run' && github.event.workflow_run.name == 'Radar source discovery'
+        uses: actions/download-artifact@v4
+        with:
+          name: source-intake-${{ github.event.workflow_run.id }}
+          path: /tmp/radar-source-intake
+          run-id: ${{ github.event.workflow_run.id }}
+          github-token: ${{ github.token }}
       - name: Test editorial publication safeguards
         run: |
           node --test tests/primary-call-record.test.js tests/opportunity-alias.test.js
           node scripts/test-editorial-pipeline.js
+      - name: Test discovery approval handoff
+        run: node --test tests/merge-source-approvals.test.js
       - name: Test deterministic automated publication gate
         run: node --test tests/automated-publication.test.js
       - name: Test cumulative daily publication target
@@ -79,6 +94,12 @@ jobs:
             node scripts/build-editorial-record-drafts.js /tmp/radar-editorial-queue.json /tmp/radar-editorial-evidence-review.json "$draft_file"
           fi
           RADAR_ENABLE_AUTOMATIC_PUBLICATION=true node scripts/build-automated-publications.js "$draft_file" intake/approved-publications.json /tmp/radar-combined-approved.json
+          if [ "${{ github.event_name }}" = "workflow_run" ] && [ "${{ github.event.workflow_run.name }}" = "Radar source discovery" ]; then
+            source_approvals=/tmp/radar-source-intake/approved-publications-next.json
+            test -s "$source_approvals"
+            node scripts/merge-source-approvals.js /tmp/radar-combined-approved.json "$source_approvals" /tmp/radar-source-combined-approved.json
+            mv /tmp/radar-source-combined-approved.json /tmp/radar-combined-approved.json
+          fi
           node - <<'NODE'
           const fs=require('fs');
           const manifest=JSON.parse(fs.readFileSync('/tmp/radar-combined-approved.json','utf8'));
