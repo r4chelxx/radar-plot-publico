@@ -125,7 +125,7 @@ for(const entry of source.approved){
  }
  insertions[category].push(record);
  log.push({type:rule.type,id:record.id,title:record[rule.title],date:today,detail:proof.evidence});
- }catch(error){rejected.push({id:entry?.record?.id||null,category:entry?.category||null,reason:String(error.message||error).slice(0,300)});}
+ }catch(error){if(entry?.record?.id)approvedIds.delete(entry.record.id);rejected.push({id:entry?.record?.id||null,category:entry?.category||null,reason:String(error.message||error).slice(0,300)});}
 }
 // Reconcile an aggregator alias only when a primary record for the same named
 // programme and exact deadline already exists or has passed publication checks.
