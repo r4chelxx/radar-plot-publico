@@ -10,7 +10,7 @@ const today=new Intl.DateTimeFormat('en-CA',{timeZone:'America/Bahia',year:'nume
 const flat=v=>Array.isArray(v)?v.map(flat).join(' '):v&&typeof v==='object'?Object.values(v).map(flat).join(' '):String(v||'');
 const genericOpportunityTitle=/^(?:how to apply|about(?: the fellowship)?|application|apply now)$/i;
 function socialPostUrl(value){try{const host=new URL(value).hostname.toLowerCase().replace(/^www\./,'');return /^(?:instagram\.com|facebook\.com|linkedin\.com|tiktok\.com|x\.com|twitter\.com|youtube\.com|youtu\.be|threads\.net|reddit\.com|pinterest\.com|t\.me)$/.test(host)}catch{return false}}
-function jlabPublicationPage(value){try{const u=new URL(value),host=u.hostname.toLowerCase().replace(/^www\\./,'');return (host==='j-lab.org'&&/^\\/publications\\//i.test(u.pathname))||(host==='sej.org'&&/^\\/library\\/reporting-tools\\/overview\\/?$/i.test(u.pathname))}catch{return false}}
+function jlabPublicationPage(value){try{const u=new URL(value),host=(u.hostname.toLowerCase().startsWith('www.')?u.hostname.slice(4):u.hostname.toLowerCase()),path=u.pathname.toLowerCase();return (host==='j-lab.org'&&path.startsWith('/publications/'))||(host==='sej.org'&&(path==='/library/reporting-tools/overview'||path==='/library/reporting-tools/overview/'))}catch{return false}}
 function editorialReportPage(c,title=''){
  const a=c.audit||{},text=[title,c.title||'',a.pageTitle||'',a.pageDescription||'',c.url||'',a.finalUrl||''].join(' ');
  const types=(a.structuredData||[]).flatMap(x=>Array.isArray(x['@type'])?x['@type']:[x['@type']]).map(x=>String(x||''));
