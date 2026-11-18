@@ -19,6 +19,7 @@ const requiredFields={
 const safeUrl=value=>{try{const u=new URL(value);return u.protocol==='https:'&&!!u.hostname}catch{return false}};
 const canonical=value=>{try{const u=new URL(value);u.hash='';u.hostname=u.hostname.toLowerCase();u.pathname=u.pathname.replace(/\/+$/,'')||'/';return u.toString()}catch{return ''}};
 const complete=value=>value!=null&&value!==''&&(!Array.isArray(value)||value.length>0);
+function jlabPublicationPage(value){try{const u=new URL(value);return /^(?:www\.)?j-lab\.org$/i.test(u.hostname)&&/^\/publications\//i.test(u.pathname)}catch{return false}}
 function socialPostUrl(value){try{const host=new URL(value).hostname.toLowerCase().replace(/^www\./,'');return /^(?:instagram\.com|facebook\.com|linkedin\.com|tiktok\.com|x\.com|twitter\.com|youtube\.com|youtu\.be|threads\.net|reddit\.com|pinterest\.com|t\.me)$/.test(host)}catch{return false}}
 function buildAutomaticPublications(drafts,manual={approved:[]},now=new Date(),publishedOpportunities=[]){
  const localDay=new Intl.DateTimeFormat('en-CA',{timeZone:'America/Bahia',year:'numeric',month:'2-digit',day:'2-digit'}).format(now);
@@ -57,7 +58,7 @@ function buildAutomaticPublications(drafts,manual={approved:[]},now=new Date(),p
    const nonProduct=/\b(?:podcast|newsletter|article|course|training|conference|event|community|series|blog|publication)\b/i.test(identityText)
     ||/\b(?:is a blog|blog dedicated to|listen to .{0,180} on spotify)\b/i.test(description)||editorialType
     ||/podcasts?\.apple\.com|open\.spotify\.com\/(?:show|episode)\/|substack\.com|buttondown\.(?:email|com)\/[^/]+\/archive\/|\/news\/|\/blog\/|\/events?/i.test(String(record.url||''));
-   if(nonProduct||socialPostUrl(source.url)||socialPostUrl(record.url)||/creativework|series|podcast|newsletter/i.test(String(record.kind||''))){skipped.failedEvidenceChecks++;continue;}
+   if(nonProduct||socialPostUrl(source.url)||socialPostUrl(record.url)||jlabPublicationPage(source.url)||jlabPublicationPage(record.url)||/creativework|series|podcast|newsletter/i.test(String(record.kind||''))){skipped.failedEvidenceChecks++;continue;}
    if(!safeUrl(record.url)||String(record.desc).length<70){skipped.failedEvidenceChecks++;continue}
   }
   const sourceField=sourceFields[category],recordUrl=record[sourceField];
