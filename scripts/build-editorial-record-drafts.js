@@ -130,6 +130,13 @@ function normalizeToolName(title,text,url){
  }
  return value||clean(title);
 }
+function knownOrganizationForUrl(url){
+ try{
+  const host=new URL(url).hostname.toLowerCase().replace(/^www\\./,'');
+  if(host==='opensanctions.org'||host.endsWith('.opensanctions.org'))return 'OpenSanctions';
+ }catch{}
+ return null;
+}
 function todayBahia(now=new Date()){
  const parts=Object.fromEntries(new Intl.DateTimeFormat('en-US',{timeZone:'America/Bahia',year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(now).map(x=>[x.type,x.value]));
  return parts.year+'-'+parts.month+'-'+parts.day;
