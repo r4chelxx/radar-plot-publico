@@ -9,3 +9,11 @@ for(const [title,url,expected] of [
  ['Pandas','https://pandas.pydata.org/','uncategorized'],
  ['Data visualization tool','https://example.org/tool','tools']
 ])test(title,()=>assert.equal(classifyLead({title,url}),expected));
+test('classifies descriptive cards from a registered product catalogue as tools',()=>{
+ for(const title of ['Fact Check Explorer, Search fact check results from the web','Google Trends, Use real-time search data','Pinpoint, Upload and analyze large numbers of documents']){
+  assert.equal(classifyLead({title,url:'https://tools.example/product',officialToolCard:true}),'tools');
+ }
+});
+test('does not infer tool category from a source name alone',()=>{
+ assert.equal(classifyLead({title:'Fact Check Explorer, Search fact check results from the web',url:'https://tools.example/product'}),'uncategorized');
+});

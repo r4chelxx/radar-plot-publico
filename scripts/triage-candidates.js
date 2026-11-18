@@ -37,8 +37,9 @@ for(const source of intake.results||[])for(const link of source.leads||[]){
  const directory=/^(?:scholarships?\s*(?:&|and)\s*fellowships?|grants?\s*(?:&|and)\s*fellowships?|funding opportunities|open calls)(?:\s+[\w.-]+\.(?:org|com|net))?$/i.test(label.trim());
  const generic=/^(find a grant|grants for journalists|successful applications|stable tools|database tools|mediawiki tools|apply|application|tools|ferramentas|read more|learn more|saiba mais)$/i.test(label.trim());
  const documentation=/\b(?:documentation|development|opting in|about|pricing options|plan(?:o)? de dados abertos|registry|articleinfo)\b/i.test(label);
- const category=classifyLead({title:label,url});
- leads.push({source:source.name,title:label,url,category,classification:matches.length?'catalog-match':homepage?'source-homepage-only':externalHomepage?'external-homepage-only':navigation||generic?'generic-navigation':directory?'resource-directory':'needs-editorial-review',discoveryHints:{documentationReference:documentation,historicalTitle:historical},possibleMatches:matches.slice(0,5),deadline:link.structuredEvidence?.deadline||null,eligibility:link.structuredEvidence?.eligibility||null,structuredEvidence:link.structuredEvidence||null,editoriallyVerified:false});
+ const officialToolCard=/tool|ferrament|product|produto/i.test(String(source.type||''))&&/glue-card|card[_-]select|tool-card|product-card/i.test(String(link.attrs||''));
+ const category=classifyLead({title:label,url,officialToolCard});
+ leads.push({source:source.name,title:label,url,category,classification:matches.length?'catalog-match':homepage?'source-homepage-only':externalHomepage?'external-homepage-only':navigation||generic?'generic-navigation':directory?'resource-directory':'needs-editorial-review',discoveryHints:{documentationReference:documentation,officialToolCard,historicalTitle:historical},possibleMatches:matches.slice(0,5),deadline:link.structuredEvidence?.deadline||null,eligibility:link.structuredEvidence?.eligibility||null,structuredEvidence:link.structuredEvidence||null,editoriallyVerified:false});
 }
 report.leads=leads;
 report.summary.linkLeads=leads.length;
