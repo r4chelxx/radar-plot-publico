@@ -9,6 +9,7 @@ const outPath=process.argv[3]||'intake/editorial-evidence-review.json';
 const today=new Intl.DateTimeFormat('en-CA',{timeZone:'America/Bahia',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());
 const flat=v=>Array.isArray(v)?v.map(flat).join(' '):v&&typeof v==='object'?Object.values(v).map(flat).join(' '):String(v||'');
 const genericOpportunityTitle=/^(?:how to apply|about(?: the fellowship)?|application|apply now)$/i;
+function socialPostUrl(value){try{const host=new URL(value).hostname.toLowerCase().replace(/^www\./,'');return /^(?:instagram\.com|facebook\.com|linkedin\.com|tiktok\.com|x\.com|twitter\.com|youtube\.com|youtu\.be|threads\.net|reddit\.com|pinterest\.com|t\.me)$/.test(host)}catch{return false}}
 function editorialReportPage(c,title=''){
  const a=c.audit||{},text=[title,c.title||'',a.pageTitle||'',a.pageDescription||'',c.url||'',a.finalUrl||''].join(' ');
  const types=(a.structuredData||[]).flatMap(x=>Array.isArray(x['@type'])?x['@type']:[x['@type']]).map(x=>String(x||''));
@@ -126,7 +127,7 @@ function review(c){
  const months={jan:'january',feb:'february',mar:'march',apr:'april',jun:'june',jul:'july',aug:'august',sep:'september',sept:'september',oct:'october',nov:'november',dec:'december'};
  const text=raw.toLowerCase().replace(/\b([ap])\.m\./g,'$1m').replace(/\b(jan|feb|mar|apr|jun|jul|aug|sep|sept|oct|nov|dec)\.?\s+(?=\d)/g,(_,m)=>months[m]+' '),title=String(a.pageTitle||c.title||'').toLowerCase();
  const ld=docs.map(x=>({type:flat(x['@type']).toLowerCase(),data:x}));
- const category=genericOpportunityTitle.test(title.trim())?'opportunities':inferCategory(c,text,title),checks={},missing=[];
+ const category=socialPostUrl(c.url)?'uncategorized':genericOpportunityTitle.test(title.trim())?'opportunities':inferCategory(c,text,title),checks={},missing=[];
  const datasetIndex=/^(?:data sources|data dictionary|our bulk data distributions)$/i.test(title.trim())||(()=>{try{const p=new URL(c.url||'').pathname.toLowerCase();return p==='/datasets/sources'||p==='/datasets/sources/'||p==='/reference'||p==='/reference/'}catch{return false}})();
  const hardStatus=(a.httpStatus===200&&/text\/html|application\/json/i.test(a.contentType||''))
   ||(c.verificationStatus==='official-web-search'&&String(c.sourceEvidence||'').length>=120&&Array.isArray(c.resourceLinks)&&c.resourceLinks.length>0);
@@ -179,7 +180,7 @@ function review(c){
   if(!checks.productSignal)missing.push('produto ou software identificável');
   if(!checks.function)missing.push('função documentada na fonte');
   if(!checks.access)missing.push('condições de acesso minimamente descritas');
- }else missing.push('categoria específica sem evidência suficiente');
+ }else missing.push(socialPostUrl(c.url)?'post de rede social não comprova produto, base de dados ou oportunidade em fonte primária':'categoria específica sem evidência suficiente');
  const enough=hardStatus&&missing.length===0;
  return{id:c.id,url:c.url,category,originalCategory:c.category||'uncategorized',checkedAt:a.checkedAt||null,checks,missing,decision:enough?'evidence_complete_for_record_draft':'pending_more_evidence',publicationReady:false};
 }
