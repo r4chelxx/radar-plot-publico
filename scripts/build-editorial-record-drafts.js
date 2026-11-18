@@ -132,7 +132,7 @@ function normalizeToolName(title,text,url){
 }
 function knownOrganizationForUrl(url){
  try{
-  const host=new URL(url).hostname.toLowerCase().replace(/^www\\./,'');
+  const host=new URL(url).hostname.toLowerCase().replace(/^www\./,'');
   if(host==='opensanctions.org'||host.endsWith('.opensanctions.org'))return 'OpenSanctions';
  }catch{}
  return null;
