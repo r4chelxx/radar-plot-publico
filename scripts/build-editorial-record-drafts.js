@@ -42,15 +42,6 @@ function eligibilityScope(text){
  const normalized=String(text||'').replace(/\bU\.S\./g,'US');
  const labeled=normalized.match(/\b(?:eligibility(?: criteria)?|elegibilidade)\s*:\s*(.{10,1000}?)(?=\s+(?:target region|application language|type of funding|region|how to apply|thematics|requirements)\s*:|[.!?](?:\s|$)|$)/i);
  if(labeled)return clean(labeled[1]);
- const scope=sentence(normalized,/applicants?[^.!?]{0,180}(?:globally|worldwide|world-wide)[^.!?]*(?:may enter|can apply|eligible)/i)
-  ||sentence(normalized,/(eligible|eligibility|who can (?:apply|enter|participate)|participants must|entry requirements|age(?:d)? 18 and up|18 years and older|globally may enter|open to|elegibilidade|elegível|podem se candidatar)/i);
- const restrictions=normalized.split(/(?<=[.!?])\s+/).filter(x=>/citizens?|green card|permanent residen|eligible countries|must (?:be|reside)|nacionalidade/i.test(x));
- return scope?[...new Set([scope,...restrictions])].join(' ').slice(0,2200):null;
-}
-function eligibilityScope(text){
- const normalized=String(text||'').replace(/\bU\.S\./g,'US');
- const labeled=normalized.match(/\b(?:eligibility(?: criteria)?|elegibilidade)\s*:\s*(.{10,1000}?)(?=\s+(?:target region|application language|type of funding|region|how to apply|thematics|requirements)\s*:|[.!?](?:\s|$)|$)/i);
- if(labeled)return clean(labeled[1]);
  const heading=normalized.match(/\bwho (?:is )?eligible to apply\??\s*([\s\S]{10,2400}?)(?=\s+(?:what are the benefits|benefits|how to apply|application process|program dates|deadline|apply now)\b|$)/i);
  if(heading){
   const sentences=heading[1].split(/(?<=[.!?])\s+/).filter(Boolean).slice(0,6);
