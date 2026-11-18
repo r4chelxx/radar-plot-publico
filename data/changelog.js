@@ -1,57 +1,41 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
-{
-  "date": "2026-11-18",
-  "type": "nova-oportunidade",
-  "title": "Publicação editorial verificada — 2026-11-18",
-  "items": [
-    {
-      "id": "auto-4e15f03a4129d1d8",
-      "title": "Fellowship for Advancing Science Journalism in Africa and the Middle East"
-    },
-    {
-      "id": "auto-af8fa46eff482b36",
-      "title": "How To Apply"
-    }
-  ],
-  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Fellowship for Advancing Science Journalism in Africa and the Middle East; How To Apply."
-},
-{
-  "date": "2026-11-18",
-  "type": "dados",
-  "title": "Publicação editorial verificada — 2026-11-18",
-  "items": [
-    {
-      "id": "auto-c0272f4740f6c9ff",
-      "title": "Maritime-related sanctions"
-    }
-  ],
-  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Maritime-related sanctions."
-},
-{
-  "date": "2026-11-18",
-  "type": "ferramentas",
-  "title": "Publicação editorial verificada — 2026-11-18",
-  "items": [
-    {
-      "id": "auto-c33845d82eec46d7",
-      "title": "Google AI falsely links Auckland anaesthetic technician to drink-driving convictions"
-    }
-  ],
-  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Google AI falsely links Auckland anaesthetic technician to drink-driving convictions."
-}, 
-{
-  "date": "2026-11-18",
-  "type": "nova-oportunidade",
-  "title": "Publicação editorial verificada — 2026-11-18",
-  "items": [
-    {
-      "id": "4f8d53a2e6da3256e22435b61f80122508e27a9d28bcdfdc7f06d59bc794afad",
-      "title": "Pulitzer Center Ocean and Fisheries Reporting Grants"
-    }
-  ],
-  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Pulitzer Center Ocean and Fisheries Reporting Grants."
-}, 
+  {
+    "date": "2026-11-18",
+    "type": "nova-oportunidade",
+    "title": "Publicação editorial verificada — 2026-11-18",
+    "items": [
+      {
+        "id": "auto-4e15f03a4129d1d8",
+        "title": "Fellowship for Advancing Science Journalism in Africa and the Middle East"
+      }
+    ],
+    "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Fellowship for Advancing Science Journalism in Africa and the Middle East."
+  },
+  {
+    "date": "2026-11-18",
+    "type": "dados",
+    "title": "Publicação editorial verificada — 2026-11-18",
+    "items": [
+      {
+        "id": "auto-c0272f4740f6c9ff",
+        "title": "Maritime-related sanctions"
+      }
+    ],
+    "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Maritime-related sanctions."
+  },
+  {
+    "date": "2026-11-18",
+    "type": "nova-oportunidade",
+    "title": "Publicação editorial verificada — 2026-11-18",
+    "items": [
+      {
+        "id": "4f8d53a2e6da3256e22435b61f80122508e27a9d28bcdfdc7f06d59bc794afad",
+        "title": "Pulitzer Center Ocean and Fisheries Reporting Grants"
+      }
+    ],
+    "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Pulitzer Center Ocean and Fisheries Reporting Grants."
+  },
   {
     "date": "2026-11-17",
     "type": "dados",
