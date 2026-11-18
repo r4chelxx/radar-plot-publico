@@ -130,3 +130,20 @@ test('dataset source directory is not approved as a data resource',()=>{
   assert.ok(out.blockers[0].blockers.includes('página de índice ou dicionário, não um recurso de dados'));
  }finally{fs.rmSync(d,{recursive:true,force:true})}
 });
+
+test('auto-audit rejects client-rendered script noise and keeps official card product name',()=>{
+ const d=fs.mkdtempSync(path.join(os.tmpdir(),'radar-tool-script-noise-'));
+ try{
+  fs.mkdirSync(path.join(d,'intake'));fs.mkdirSync(path.join(d,'scripts'));
+  for(const name of ['auto-audit-candidates','editorial-text'])fs.copyFileSync('scripts/'+name+'.js',path.join(d,'scripts',name+'.js'));
+  const url='https://toolbox.google.com/factcheck/explorer';
+  const corrupt='Fact Check Tools Fact Check Tools this.gbar_=this.gbar_||{};(function(){document.querySelector("#menu"); function broken(){';
+  const lead={url,finalUrl:url,pageStatus:'html-fetched',category:'tools',title:'Fact Check Explorer, Search fact-check results from the web about a topic or person',pageTitle:'Fact Check Tools',pageDescription:corrupt,evidenceText:corrupt,structuredEvidence:{title:'Fact Check Tools',description:corrupt,sourceType:'SoftwareApplication'},publicationReviewV1:publicationReviewV1('tools',url,'Official product function and access details are available on its source page.')};
+  fs.writeFileSync(path.join(d,'intake/lead-evidence.json'),JSON.stringify({results:[lead]}));
+  fs.writeFileSync(path.join(d,'intake/editorial-review.json'),JSON.stringify({candidates:[]}));
+  cp.execFileSync(process.execPath,['scripts/auto-audit-candidates.js'],{cwd:d});
+  const out=JSON.parse(fs.readFileSync(path.join(d,'intake/auto-editorial-decisions.json')));
+  assert.equal(out.decisions.length,0);
+  assert.match(JSON.stringify(out.blockers),/ficha pública estruturada ausente/);
+ }finally{fs.rmSync(d,{recursive:true,force:true})}
+});
