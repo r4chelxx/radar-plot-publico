@@ -4,8 +4,8 @@
 const fs = require('node:fs');
 
 function mergeSourceApprovals(manifest, source) {
-  if (!manifest || !Array.isArray(manifest.approved) || !source || !Array.isArray(source.approved)) {
-    throw new Error('Both manifests must contain an approved array');
+  if (!manifest || !Array.isArray(manifest.approved) || !source || !Array.isArray(source.decisions)) {
+    throw new Error('Target manifest and source decisions are required');
   }
 
   const seenIds = new Set(manifest.approved.map(entry => String(entry?.record?.id || '')));
@@ -16,14 +16,16 @@ function mergeSourceApprovals(manifest, source) {
   }).filter(Boolean));
 
   const added = [];
-  for (const entry of source.approved) {
-    const review = entry?.review || {};
-    const record = entry?.record || {};
-    if (review.decision !== 'approved'
+  for (const decision of source.decisions) {
+    const review = decision?.publicationReviewV1 || {};
+    const record = decision?.record || {};
+    if (decision?.status !== 'approved'
+      || review.decision !== 'approved'
       || review.reviewPolicyVersion !== 'radar-evidence-v1'
       || review.reviewedBy !== 'Radar evidence gate v1'
       || !record.id || !record.url) continue;
 
+    const entry = { category: decision.category, record, review };
     const urlKey = String(entry.category || '') + '|' + String(record.url).replace(/#.*$/, '').replace(/\/$/, '').toLowerCase();
     if (seenIds.has(String(record.id)) || seenUrls.has(urlKey)) continue;
 
@@ -46,7 +48,7 @@ function mergeSourceApprovals(manifest, source) {
 if (require.main === module) {
   const [targetPath, sourcePath, outputPath] = process.argv.slice(2);
   if (!targetPath || !sourcePath || !outputPath) {
-    console.error('Usage: merge-source-approvals.js <target> <source> <output>');
+    console.error('Usage: merge-source-approvals.js <target> <source-decisions> <output>');
     process.exit(2);
   }
   const target = JSON.parse(fs.readFileSync(targetPath, 'utf8'));
