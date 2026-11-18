@@ -1,11 +1,11 @@
 {
-  "checkedAt": "2026-11-18T09:05:30.427Z",
+  "checkedAt": "2026-11-18T19:26:36.737Z",
   "policy": "404/410 and ArcGIS application errors within HTTP 200 become broken only after appearing as suspect or broken in the previous audit; blocked and network results are inconclusive",
   "counts": {
-    "ok": 1266,
-    "blocked": 63,
-    "network": 55,
-    "server": 3
+    "ok": 1265,
+    "network": 56,
+    "server": 3,
+    "blocked": 63
   },
   "results": [
     {
@@ -179,12 +179,13 @@
           "field": "apply"
         }
       ],
-      "status": 200,
-      "finalUrl": "https://www.generonumero.media/artigos/programa-de-bolsas-aborto-em-pilulas/",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
         "TypeError:fetch failed",
-        200
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -597,11 +598,12 @@
           "field": "apply"
         }
       ],
-      "status": 200,
+      "status": 521,
       "finalUrl": "https://www.europeanpressprize.com/before-you-enter/",
-      "class": "ok",
+      "class": "server",
       "attempts": [
-        200
+        525,
+        521
       ]
     },
     {
@@ -616,11 +618,12 @@
           "field": "discoveryUrl"
         }
       ],
-      "status": 200,
+      "status": 521,
       "finalUrl": "https://www.europeanpressprize.com/judging/submission-rules/",
-      "class": "ok",
+      "class": "server",
       "attempts": [
-        200
+        525,
+        521
       ]
     },
     {
@@ -812,7 +815,6 @@
       "finalUrl": "https://digital-strategy.ec.europa.eu/en/funding/call-proposals-media-freedom-rapid-response-mechanism-2027",
       "class": "ok",
       "attempts": [
-        429,
         200
       ]
     },
@@ -1076,7 +1078,6 @@
       "finalUrl": "https://digital-strategy.ec.europa.eu/en/funding/call-proposals-journalism-partnerships-collaborations-2027",
       "class": "ok",
       "attempts": [
-        429,
         200
       ]
     },
@@ -2041,11 +2042,11 @@
           "field": "url"
         }
       ],
-      "status": 403,
+      "status": 200,
       "finalUrl": "https://www.poder360.com.br/trainee-2027/",
-      "class": "blocked",
+      "class": "ok",
       "attempts": [
-        403
+        200
       ]
     },
     {
@@ -4297,7 +4298,7 @@
         }
       ],
       "status": 200,
-      "finalUrl": "https://data.opensanctions.org/artifacts/kyb/20261024152836-mwj/index.json",
+      "finalUrl": "https://data.opensanctions.org/artifacts/kyb/20261118020628-oar/index.json",
       "class": "ok",
       "attempts": [
         200
@@ -4340,7 +4341,7 @@
         }
       ],
       "status": 200,
-      "finalUrl": "https://data.opensanctions.org/artifacts/peps/20261117152834-hyb/index.json",
+      "finalUrl": "https://data.opensanctions.org/artifacts/peps/20261118152705-loc/index.json",
       "class": "ok",
       "attempts": [
         200
@@ -4426,7 +4427,7 @@
         }
       ],
       "status": 200,
-      "finalUrl": "https://data.opensanctions.org/artifacts/debarment/20261118005608-cau/index.json",
+      "finalUrl": "https://data.opensanctions.org/artifacts/debarment/20261118125608-dfk/index.json",
       "class": "ok",
       "attempts": [
         200
@@ -4469,7 +4470,7 @@
         }
       ],
       "status": 200,
-      "finalUrl": "https://data.opensanctions.org/artifacts/maritime/20261117150437-bde/index.json",
+      "finalUrl": "https://data.opensanctions.org/artifacts/maritime/20261118150306-fnv/index.json",
       "class": "ok",
       "attempts": [
         200
@@ -5266,11 +5267,13 @@
           "field": "docs"
         }
       ],
-      "status": 200,
-      "finalUrl": "https://transparencia.tce.sp.gov.br/despesas-fornecedor",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "AbortError:This operation was aborted",
       "attempts": [
-        200
+        "AbortError:This operation was aborted",
+        "AbortError:This operation was aborted"
       ]
     },
     {
@@ -5438,13 +5441,11 @@
           "field": "docs"
         }
       ],
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://geoportal.infrasa.gov.br/ontl/",
+      "class": "ok",
       "attempts": [
-        "TypeError:fetch failed",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -7468,7 +7469,7 @@
         }
       ],
       "status": 200,
-      "finalUrl": "https://dd-publico.serpro.gov.br/extensions/painel/ObrasgovbrIntervencao.html?qlikTicket=8XSixgOGmkmwK402",
+      "finalUrl": "https://dd-publico.serpro.gov.br/extensions/painel/ObrasgovbrIntervencao.html?qlikTicket=en2SXVDuScLcSmFd",
       "class": "ok",
       "attempts": [
         200
@@ -8112,12 +8113,12 @@
           "field": "docs"
         }
       ],
-      "status": 503,
+      "status": 200,
       "finalUrl": "https://sapl.fortaleza.ce.leg.br/",
-      "class": "server",
+      "class": "ok",
       "attempts": [
-        503,
-        503
+        "AbortError:This operation was aborted",
+        200
       ]
     },
     {
@@ -11214,12 +11215,13 @@
           "field": "api"
         }
       ],
-      "status": 200,
-      "finalUrl": "https://apidadosabertos.saude.gov.br/daf/estoque-medicamentos-bnafar-horus",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "AbortError:This operation was aborted",
       "attempts": [
         "AbortError:This operation was aborted",
-        200
+        "AbortError:This operation was aborted"
       ]
     },
     {
@@ -16376,7 +16378,6 @@
       "finalUrl": "https://dados.agricultura.gov.br/dataset/sistema-de-agrotoxicos-fitossanitarios-agrofit",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -18173,11 +18174,13 @@
           "field": "url"
         }
       ],
-      "status": 200,
-      "finalUrl": "https://tabnet.datasus.gov.br/cgi/sbucal/sb96.zip",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "AbortError:This operation was aborted",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -22702,13 +22705,11 @@
           "field": "url"
         }
       ],
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "AbortError:This operation was aborted",
+      "status": 200,
+      "finalUrl": "https://salvador.ba.gov.br/",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "AbortError:This operation was aborted"
+        200
       ]
     },
     {
@@ -23020,6 +23021,7 @@
       "finalUrl": "https://datasus.saude.gov.br/acesso-a-informacao/producao-hospitalar-sih-sus/",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -23044,6 +23046,7 @@
       "finalUrl": "https://datasus.saude.gov.br/cnes-recursos-fisicos/",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -23101,6 +23104,7 @@
       "finalUrl": "https://datasus.saude.gov.br/cnes-recursos-humanos-a-partir-de-agosto-de-2007-ocupacoes-classificadas-pela-cbo-2002/",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -23120,6 +23124,7 @@
       "finalUrl": "https://wiki.datasus.gov.br/sigtap/index.php/P%C3%A1gina_principal",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -26793,13 +26798,11 @@
           "field": "url"
         }
       ],
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://www.almg.gov.br/participacao/inicial",
+      "class": "ok",
       "attempts": [
-        "TypeError:fetch failed",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -27973,10 +27976,10 @@
       "status": null,
       "finalUrl": null,
       "class": "network",
-      "error": "AbortError:This operation was aborted",
+      "error": "TypeError:fetch failed",
       "attempts": [
         "AbortError:This operation was aborted",
-        "AbortError:This operation was aborted"
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -28282,11 +28285,12 @@
           "field": "discoveryUrl"
         }
       ],
-      "status": 200,
+      "status": 429,
       "finalUrl": "https://camelot-py.readthedocs.io/en/latest/",
-      "class": "ok",
+      "class": "blocked",
       "attempts": [
-        200
+        429,
+        429
       ]
     },
     {
@@ -29414,12 +29418,11 @@
           "field": "url"
         }
       ],
-      "status": 502,
+      "status": 200,
       "finalUrl": "https://plugins.qgis.org/plugins/DesagregaBiomasBR/",
-      "class": "server",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        502
+        200
       ]
     },
     {
