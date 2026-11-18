@@ -26,3 +26,11 @@ assert.match(malformed.evidenceText,/Still readable & safe/);
 const oversized=extractEvidence('<p>'+('x'.repeat(25000))+'</p>');
 assert.equal(oversized.evidenceText.length,20000);
 console.log('Primary-source evidence extraction regression passed');
+
+const {cleanText}=require('../scripts/editorial-text');
+const cutResponse='<h1>Fact Check Explorer</h1><p>Search fact-check results from the web.</p><script>this.gbar_=this.gbar_||{};(function(){ function broken(){';
+assert.match(cleanText(cutResponse),/Fact Check Explorer Search fact-check results/);
+assert.doesNotMatch(cleanText(cutResponse),/this\.gbar_|function broken/);
+const truncated=extractEvidence(cutResponse,'https://toolbox.google.com/factcheck/explorer');
+assert.match(truncated.evidenceText,/Search fact-check results/);
+assert.doesNotMatch(truncated.evidenceText,/this\.gbar_|function broken/);
