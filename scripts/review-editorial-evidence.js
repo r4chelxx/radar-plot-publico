@@ -113,7 +113,7 @@ function review(c){
  const months={jan:'january',feb:'february',mar:'march',apr:'april',jun:'june',jul:'july',aug:'august',sep:'september',sept:'september',oct:'october',nov:'november',dec:'december'};
  const text=raw.toLowerCase().replace(/\b([ap])\.m\./g,'$1m').replace(/\b(jan|feb|mar|apr|jun|jul|aug|sep|sept|oct|nov|dec)\.?\s+(?=\d)/g,(_,m)=>months[m]+' '),title=String(a.pageTitle||c.title||'').toLowerCase();
  const ld=docs.map(x=>({type:flat(x['@type']).toLowerCase(),data:x}));
- const category=inferCategory(c,text,title),checks={},missing=[];
+ const category=genericOpportunityTitle.test(title.trim())?'opportunities':inferCategory(c,text,title),checks={},missing=[];
  const datasetIndex=/^(?:data sources|data dictionary|our bulk data distributions)$/i.test(title.trim())||(()=>{try{const p=new URL(c.url||'').pathname.toLowerCase();return p==='/datasets/sources'||p==='/datasets/sources/'||p==='/reference'||p==='/reference/'}catch{return false}})();
  const hardStatus=(a.httpStatus===200&&/text\/html|application\/json/i.test(a.contentType||''))
   ||(c.verificationStatus==='official-web-search'&&String(c.sourceEvidence||'').length>=120&&Array.isArray(c.resourceLinks)&&c.resourceLinks.length>0);
