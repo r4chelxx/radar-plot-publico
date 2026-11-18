@@ -19,7 +19,7 @@ function filterRejected(manifestPath,baseDir=process.cwd()){
   const dryRun=JSON.parse(output),keys=new Set((dryRun.rejected||[]).map(x=>(x.category||'')+':'+(x.id||'')));
   const before=manifest.approved.length;
   manifest.approved=manifest.approved.filter(x=>!keys.has((x.category||'')+':'+(x.record?.id||'')));
-  fs.writeFileSync(absolute,JSON.stringify(manifest,null,2)+'\\n');
+  fs.writeFileSync(absolute,JSON.stringify(manifest,null,2)+'\n');
   const result={removed:before-manifest.approved.length,remaining:manifest.approved.length,rejected:dryRun.rejected||[]};
   console.log(JSON.stringify(result));
   return result;
