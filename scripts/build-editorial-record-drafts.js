@@ -146,7 +146,7 @@ function todayBahia(now=new Date()){
 }
 function buildDrafts(queue,review,generatedAt=new Date().toISOString()){
  const candidates=new Map((queue.candidates||[]).map(x=>[x.id,x]));
- const eligible=(review.records||[]).filter(x=>x.decision==='evidence_complete_for_record_draft'&&x.publicationReady===false&&candidates.has(x.id));
+ const eligible=(review.records||[]).filter(x=>x.decision==='evidence_complete_for_record_draft'&&x.publicationReady===false&&candidates.has(x.id)&&(()=>{if(x.category!=='tools')return true;const c=candidates.get(x.id),audit=c.audit||{},title=clean(audit.pageTitle||c.title),url=audit.finalUrl||c.url;return !editorialReportPage(audit,title,url)&&!genericToolListing(audit,title,url)})());
  const drafts=eligible.map(result=>{
   const candidate=candidates.get(result.id),audit=candidate.audit||{},rawText=clean(audit.evidenceText),text=clean([rawText,audit.pageDescription].filter(Boolean).join(' ')),url=audit.finalUrl||candidate.url;
   let pageTitle=clean(audit.pageTitle||candidate.title);
@@ -213,7 +213,6 @@ function buildDrafts(queue,review,generatedAt=new Date().toISOString()){
    const data=structured(audit,/softwareapplication|softwareproduct|software/i);
    const titleKind=pageTitle.split(/[-—–]/).slice(1).join(' ').trim()||null;
    const sourceDescription=clean(data.description)||clean(audit.pageDescription)||(/javascript 3d library/i.test(pageTitle)?pageTitle:sentence(text,/\b(?:tool|software|application|library|platform|programming language|statistical computing|data analytics)\b/i));
-   if(editorialReportPage(audit,pageTitle,url)||genericToolListing(audit,pageTitle,url))return null;
    record.name=normalizeToolName(clean(data.name)||pageTitle,text,url);
    record.kind=toolKind(text,data.applicationCategory,titleKind)
      || (/record\s*linkage|matching two|un-linked data|linkage toolkit/i.test(text)?'record linkage e correspondência de dados':'software para análise de dados');
