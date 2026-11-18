@@ -1,5 +1,115 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.datasets=[
+{
+  "id": "auto-0b9fcaaa0bc8c6aa",
+  "name": "Warrants and Criminal Entities",
+  "org": "OpenSanctions",
+  "territoryTier": "Outros",
+  "kind": "portal",
+  "themes": [
+    "Dados abertos"
+  ],
+  "coverage": "Warrants and Criminal Entities – OpenSanctions Warrants and Criminal Entities JSON Companies and people implicated in or convicted of criminal activity, including the \"Most Wanted\" lists of various countries and international authorities.",
+  "frequency": "Updated files will be provided once a day at the same location.",
+  "format": "JSON, CSV",
+  "period": "Não informado pela fonte oficial",
+  "granularity": "Não informado pela fonte oficial",
+  "geoUnit": "Warrants and Criminal Entities – OpenSanctions Warrants and Criminal Entities JSON Companies and people implicated in or convicted of criminal activity, including the \"Most Wanted\" lists of various countries and international authorities.",
+  "api": "https://data.opensanctions.org/datasets/latest/crime/index.json",
+  "docs": "https://www.opensanctions.org/datasets/crime/",
+  "limitations": "A página consultada não detalha todas as limitações, a atualização e a qualidade do recurso; conferir documentação e licença antes do uso editorial.",
+  "lastChecked": "2026-11-18",
+  "url": "https://www.opensanctions.org/datasets/crime/",
+  "description": "Companies and people implicated in or convicted of criminal activity, including the \"Most Wanted\" lists of various countries and international authorities."
+},
+{
+  "id": "auto-a4be04b7843e7db5",
+  "name": "Know-Your-Business (KYB) Datasets",
+  "org": "OpenSanctions",
+  "territoryTier": "Outros",
+  "kind": "portal",
+  "themes": [
+    "Dados abertos"
+  ],
+  "coverage": "Port state control data from various international reporting mechanisms.",
+  "frequency": "While the use of these data sources is covered by the data license , the degree of manual data cleaning performed on reference datasets is not as exhaustive as on the main dataset.",
+  "format": "JSON",
+  "period": "Não informado pela fonte oficial",
+  "granularity": "Não informado pela fonte oficial",
+  "geoUnit": "Port state control data from various international reporting mechanisms.",
+  "api": "https://data.opensanctions.org/datasets/latest/kyb/index.json",
+  "docs": "https://www.opensanctions.org/datasets/kyb/",
+  "limitations": "A página consultada não detalha todas as limitações, a atualização e a qualidade do recurso; conferir documentação e licença antes do uso editorial.",
+  "lastChecked": "2026-11-18",
+  "url": "https://www.opensanctions.org/datasets/kyb/",
+  "description": "Reference data, company registries and beneficial ownership databases used as inputs for data enrichment."
+},
+{
+  "id": "auto-ed6238ccffd55b57",
+  "name": "Politically Exposed Persons Datasets",
+  "org": "OpenSanctions",
+  "territoryTier": "Outros",
+  "kind": "dataset",
+  "themes": [
+    "Dados abertos"
+  ],
+  "coverage": "We provide detailed information on our global data coverage and technical methodology .",
+  "frequency": "Updated files will be provided once a day at the same location.",
+  "format": "JSON, CSV",
+  "period": "Não informado pela fonte oficial",
+  "granularity": "Não informado pela fonte oficial",
+  "geoUnit": "We provide detailed information on our global data coverage and technical methodology .",
+  "api": "https://data.opensanctions.org/datasets/latest/peps/index.json",
+  "docs": "https://www.opensanctions.org/datasets/peps/",
+  "limitations": "A página consultada não detalha todas as limitações, a atualização e a qualidade do recurso; conferir documentação e licença antes do uso editorial.",
+  "lastChecked": "2026-11-18",
+  "url": "https://www.opensanctions.org/datasets/peps/",
+  "description": "A politically exposed person (PEP) is a person that has been entrusted with a prominent public function. PEPs include elected officials and members of government."
+},
+{
+  "id": "auto-593b8be36a972ae1",
+  "name": "Regulatory Watchlists",
+  "org": "OpenSanctions",
+  "territoryTier": "Outros",
+  "kind": "portal",
+  "themes": [
+    "Dados abertos"
+  ],
+  "coverage": "These watchlists are maintained by government agencies, international organizations, or other regulatory bodies.",
+  "frequency": "Updated files will be provided once a day at the same location.",
+  "format": "JSON, CSV",
+  "period": "Não informado pela fonte oficial",
+  "granularity": "Não informado pela fonte oficial",
+  "geoUnit": "These watchlists are maintained by government agencies, international organizations, or other regulatory bodies.",
+  "api": "https://data.opensanctions.org/datasets/latest/regulatory/index.json",
+  "docs": "https://www.opensanctions.org/datasets/regulatory/",
+  "limitations": "A página consultada não detalha todas as limitações, a atualização e a qualidade do recurso; conferir documentação e licença antes do uso editorial.",
+  "lastChecked": "2026-11-18",
+  "url": "https://www.opensanctions.org/datasets/regulatory/",
+  "description": "Entities that are subject to regulatory actions and restrictions"
+},
+{
+  "id": "auto-d6598d243c689e78",
+  "name": "Debarred Companies and Individuals",
+  "org": "OpenSanctions",
+  "territoryTier": "Outros",
+  "kind": "portal",
+  "themes": [
+    "Dados abertos"
+  ],
+  "coverage": "Coverage : added 2023-08-09 · frequency: daily · On the hour, every 12 hours Last processed : 2026-11-18 00:56:08 · v.",
+  "frequency": "Updated files will be provided once a day at the same location.",
+  "format": "JSON, CSV",
+  "period": "Não informado pela fonte oficial",
+  "granularity": "Não informado pela fonte oficial",
+  "geoUnit": "Procurement exclusion (debarment) of companies involved in irregularities in state contracts.",
+  "api": "https://data.opensanctions.org/datasets/latest/debarment/index.json",
+  "docs": "https://www.opensanctions.org/datasets/debarment/",
+  "limitations": "A página consultada não detalha todas as limitações, a atualização e a qualidade do recurso; conferir documentação e licença antes do uso editorial.",
+  "lastChecked": "2026-11-18",
+  "url": "https://www.opensanctions.org/datasets/debarment/",
+  "description": "Entities banned from participating in procurment tenders in a particular jurisdiction, or vis a vis a certain organisation."
+}, 
   {
     "id": "auto-c0272f4740f6c9ff",
     "name": "Maritime-related sanctions",

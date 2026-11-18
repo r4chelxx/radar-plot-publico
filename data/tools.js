@@ -1,5 +1,12 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.tools=[
+{
+  "id": "auto-ed23a1d38f92ba99",
+  "name": "Generative AI and News Report 2026: From standalone tools to information infrastructure",
+  "kind": "software para análise de dados",
+  "url": "https://reutersinstitute.politics.ox.ac.uk/generative-ai-and-news-report-2026-standalone-tools-information-infrastructure",
+  "desc": "The report is based on a survey in nine countries: Argentina, Australia, Denmark, Finland, France, Japan, Norway, the United Kingdom and the United States. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
+}, 
   {
     "id": "govteca-busca-lai",
     "name": "Busca LAI",
