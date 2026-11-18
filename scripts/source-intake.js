@@ -5,6 +5,9 @@ const crypto = require('node:crypto');
 const {normalizeLink}=require('./normalize-lead-link');
 const {extractStructuredMetadata,metadataForLink}=require('./structured-lead-metadata');
 const {extractLinks,selectExpansionLinks,relevant}=require('./source-page-links');
+// The previous 100 KB truncation cut off product cards on large official catalogs.
+const MAX_SOURCE_HTML_CHARS=350000;
+async function readSourceHtml(response){return (await response.text()).slice(0,MAX_SOURCE_HTML_CHARS)}
 
 const {sources:unique,registryCount,invalidOrDuplicate}=require('./load-source-catalog').loadSources();
 const {selectSourceSweep}=require('./select-source-sweep');
@@ -16,7 +19,7 @@ async function inspect(s) {
   const timer = setTimeout(()=>controller.abort(),12000);
   try {
     const response = await fetch(s.url,{signal:controller.signal,headers:{'user-agent':'RadarPLOT-monitor/1.0'}});
-    const body = (await response.text()).slice(0,100000);
+    const body = await readSourceHtml(response);
     const title = (body.match(/<title[^>]*>([^<]{3,200})<\/title>/i)||[])[1] || '';
     const firstLinks=extractLinks(body,response.url);
     const expansionLimit=Math.min(8,Math.max(0,Number(process.env.SOURCE_EXPANSION_LIMIT||5)));
@@ -25,13 +28,14 @@ async function inspect(s) {
     for(const pageUrl of expansionUrls){
       try{
         const page=await fetch(pageUrl,{signal:controller.signal,headers:{'user-agent':'RadarPLOT-monitor/1.0'}});
-        if(page.ok && /text\/(html|xhtml\+xml)/i.test(page.headers.get('content-type')||''))pages.push({url:page.url||pageUrl,body:(await page.text()).slice(0,100000)});
+        if(page.ok && /text\/(html|xhtml\+xml)/i.test(page.headers.get('content-type')||''))pages.push({url:page.url||pageUrl,body:(await readSourceHtml(page))});
       }catch{}
     }
     const allLinks=pages.flatMap(page=>extractLinks(page.body,page.url));
     const structuredMetadata=pages.flatMap(page=>extractStructuredMetadata(page.body,page.url));
     const links=allLinks.map(x=>{try{return {...x,url:normalizeLink(x.url,response.url)}}catch{return null}}).filter(x=>x&&/^https?:/.test(x.url)&&x.label.length>=8);
-    const leads=(response.ok?links:[]).filter(x=>relevant(x.label,x.url)).slice(0,200).map(x=>({...x,structuredEvidence:metadataForLink(structuredMetadata,x.url)}));
+    const toolCatalog=/tool|ferrament|product|produto/i.test(`${s.name||''} ${s.type||''}`);
+    const leads=(response.ok?links:[]).filter(x=>relevant(x.label,x.url,{includeToolCards:toolCatalog,attrs:x.attrs})).slice(0,200).map(x=>({...x,structuredEvidence:metadataForLink(structuredMetadata,x.url)}));
     return {name:s.name,url:s.url,leads,httpStatus:response.status,accessStatus:response.ok?'accessible':'http-error',extractionStatus:!response.ok?'http-error-page':title?'html-title-only':'no-title',editorialStatus:'unverified',title:title.replace(/\s+/g,' ').trim(),fingerprint:crypto.createHash('sha256').update(body).digest('hex').slice(0,16),checkedAt:new Date().toISOString(),reviewRequired:true};
   } catch(error) {
     return {name:s.name,url:s.url,accessStatus:'failed',extractionStatus:'not-attempted',editorialStatus:'unverified',error:String(error),networkCode:error.cause&&error.cause.code||null,checkedAt:new Date().toISOString(),reviewRequired:true};
