@@ -3267,6 +3267,35 @@
           "rolling": true
         }
       }
+    },
+    {
+      "category": "tools",
+      "record": {
+        "id": "auto-cf35ab1a6098d860",
+        "name": "earthkit",
+        "kind": "DeveloperApplication",
+        "url": "https://earthkit.ecmwf.int/",
+        "desc": "Open-source tools for seamless earth science workflows with a format-agnostic Python interface for geospatial data. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Radar evidence gate v1",
+        "reviewedAt": "2026-11-18",
+        "reviewPolicyVersion": "radar-evidence-v1",
+        "officialUrl": "https://earthkit.ecmwf.int/",
+        "checkedAt": "2026-11-18T08:04:38.003Z",
+        "evidence": "earthkit - Open-source tools for seamless earth science workflows Install earthkit Open-source tools for seamless earth science workflows earthkit streamlines earth science workflows while retaining interoperability with essential data science packages. Install earthkit Get all earthkit components in one simple step. ... Latest version Open-source tools for seamless earth science workflows earthkit streamlines earth science workflows while retaining interoperability with essential data science packages. The earthkit ecosystem The earthkit ecosystem Why use earthkit? Remove barriers to entry High-level APIs offer a shallow learning curve and greatly reduce boilerplate code. Modern architecture Designed with Machine Learning / GPU / in-memory computations as first-class citizens. From research to operations Designed for use by operational services and directly by researchers. Free and open source All source code on GitHub for open development and community contribution. Supported by NWP and climate centres Supported and used operationally by world-leading weather and climate centres. Seamless data integration Works with a wealth of data formats through a unified interface, eliminating format-specific headaches. Why use earthkit? Remove barriers to entry High-level APIs offer a shallow learning curve and greatly reduce boilerplate code. Modern architecture Designed with Machine Learning / GPU / in-memory computations as first-class citizens. From research to operations Designed for use by operational services and directly by researchers. Free and open source All source code on GitHub for open development and community contribution. Supported by NWP and climate centres Supported and used operationally by world-leading weather and climate centres. Seamless data integration Works with a wealth of data formats through a unified interface, eliminating format-specific headaches. Interoperable with essential Python packages Integration with a wide range of data formats GRIB NetCDF Zarr GeoTIFF CSV BUFR coverageJSON GeoJSON data = ek.data.from_source(\"file\", \"my_data. grib \") GitHub Docs Contribute earthkit With contributions from © European Centre for Medium-Range Weather Forecasts earthkit GitHub Docs Contribute With contributions from © European Centre for Medium-Range Weather Forecasts",
+        "evidenceHash": "079ce398556ae52329f22646f119adfd7dc2c148cf6c973f9424a579de65a64f",
+        "sourceStatus": 200,
+        "contentType": "text/html; charset=utf-8",
+        "evidenceChecks": {
+          "productSignal": true,
+          "function": true,
+          "access": true,
+          "license": false,
+          "licenseStatus": "not stated in captured source"
+        }
+      }
     }
   ],
   "pending": [
