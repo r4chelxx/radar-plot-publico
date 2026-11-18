@@ -5,6 +5,7 @@ const fs=require('node:fs'),vm=require('node:vm'),crypto=require('node:crypto');
 const {cleanText,cleanTitle,cleanSummary}=require('./editorial-text');
 const {rollingApplicationEvidence}=require('./editorial-page-evidence');
 const {normalizeToolName,eligibilityScope}=require('./build-editorial-record-drafts');
+const {hasDocumentedToolFunction}=require('./tool-publication-evidence');
 const manifest=process.argv[2]||'intake/approved-publications.json';
 const source=JSON.parse(fs.readFileSync(manifest,'utf8'));
 if(!Array.isArray(source.approved))throw Error('Manifest requires approved[]');
@@ -146,7 +147,7 @@ for(const entry of source.approved){
  }
  if(category==='tools'){
   const proofText=String(proof.evidence||'');
-  if(!/(?:feature|function|capabilit|funcional|permite|provides|supports|documentation|documenta|generator|generates?|writes?|creates?|builds?|theme editor|programming language|statistical computing|statistical analysis|data analytics|business intelligence|query language|file,? track and share public records requests|browser automation tool|graphics framework|javascript 3d library)/i.test(proofText))throw Error('Tool evidence must describe a confirmed product function: '+record.id);
+  if(!hasDocumentedToolFunction(proofText))throw Error('Tool evidence must describe a confirmed product function: '+record.id);
   if(!/(?:access|free|paid|license|licen[çc]a|account|conta|demo|demonstra[cç][aã]o|availability|available|install|download|limitations|limita[cç][oõ]es|documentation|docs|github|cran|npm|python|browser|web app|online|cloud|desktop|api|open source|pricing|subscription|commercial|trial|gratuito|disponível|acesso)/i.test(proofText))throw Error('Tool evidence must record access, license or availability terms and limitations: '+record.id);
  }
  insertions[category].push(record);
