@@ -9,6 +9,10 @@ test('opportunities closing today remain eligible until Bahia midnight rather th
 });
 const now=new Date(),checkedAt=now.toISOString();
 const complete={id:'complete-tool',category:'tools',status:'draft_only',publicationReady:false,reviewDecision:'evidence_complete_for_record_draft',source:{url:'https://example.org/tool',httpStatus:200,contentType:'text/html',checkedAt},evidence:{sourceExcerpt:'Official product page describes the data analysis tool and access details.',checks:{productSignal:true,function:true,access:true}},missingFields:[],recordDraft:{id:'complete-tool',name:'Research data tool',kind:'data analysis',url:'https://example.org/tool',desc:'Official product page describes the data analysis tool and how journalists can use it. Limitations are not stated; check official docs and license.'}};
+test('J-Lab learning publications cannot be approved as software tools',()=>{
+ const learning={...complete,source:{...complete.source,url:'https://j-lab.org/publications/new-media-makers-toolkit/'},recordDraft:{...complete.recordDraft,name:'New Media Makers',url:'https://j-lab.org/publications/new-media-makers-toolkit/',desc:'A learning module filled with original reporting and accompanying videos. Download the PDF.'},evidence:{...complete.evidence,sourceExcerpt:'This learning module is filled with original reporting. Publication Date: June 2, 2009. Download the pdf.'}};
+ assert.equal(buildAutomaticPublications({drafts:[learning]},{approved:[]},now).summary.automaticallyApproved,0);
+});
 test('a product may mention its blog or community; editorial identities stay rejected',()=>{
  const tool={...complete,recordDraft:{...complete.recordDraft,name:'3D graphics library',desc:'A JavaScript library for creating interactive graphics, with documentation, community examples, a project blog and report exports.'}};
  assert.equal(buildAutomaticPublications({drafts:[tool]},{approved:[]},now).summary.automaticallyApproved,1);
