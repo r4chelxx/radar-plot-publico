@@ -142,7 +142,7 @@ for(const lead of results){
   if(record?.url&&host(record.url)!==host(url))fail.push('URL oficial não coincide com a fonte auditada');
  } else if(lead.category==='tools'){
   for(const k of ['name','kind','desc','url'])if(!record?.[k])fail.push('campo de ferramenta ausente: '+k);
-  if(record?.desc&&String(record.desc).length<70)fail.push('descrição da ferramenta insuficiente');
+  if(record?.desc&&/(?:this[.]gbar_|_DumpException|document[.]querySelector|function|window[.])/i.test(String(record.desc)))fail.push('descrição contém código ou conteúdo técnico da interface, não texto editorial');
   if(record?.desc&&/(?:this\\.gbar_|_DumpException|document\\.querySelector|\\bfunction\\s*\\(|\\b(?:var|const|let)\\s+[\\w$]+\\s*=|\\bwindow\\.[\\w$]+\\s*=)/i.test(String(record.desc)))fail.push('descrição contém código ou conteúdo técnico da interface, não texto editorial');
   if(record?.url&&host(record.url)!==host(url))fail.push('URL oficial não coincide com a fonte auditada');
  } else fail.push('categoria não classificada');
