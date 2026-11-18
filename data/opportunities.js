@@ -1906,7 +1906,7 @@ window.RADAR_PARTS.opportunities=[
     "deadlineStatus": "Prorrogação até 17/11 divulgada em comunicado atribuído à ALMT.",
     "eligibility": "restrita",
     "fit": 1,
-    "status": "aberta",
+    "status": "encerrada",
     "rules": "https://diariooficial.al.mt.gov.br/publicacoes/36040/",
     "apply": "https://www.al.mt.gov.br/",
     "discoveredVia": [
