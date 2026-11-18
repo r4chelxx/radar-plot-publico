@@ -32,6 +32,8 @@ assert.match(source,/const networkFailures=results\.filter\(item=>item\.accessSt
 assert.match(source,/networkCode/);
 assert.match(source,/coverageGaps=results\.filter/);
 assert.match(source,/coverageStatus:'partial'/);
+assert.match(source,/MAX_SOURCE_HTML_CHARS=350000/,'Large official catalogs must not be truncated at 100 KB');
+assert.match(source,/toolCatalog=\/tool\|ferrament\|product\|produto\/i/,'Product-card extraction must be limited to registered tool catalogs');
 assert.match(source,/const leads=\(response\.ok\?links:\[\]\)\.filter/,'HTTP error pages must not contribute discovery leads');
 assert.match(source,/http-error-page/,'HTTP error pages must be explicitly diagnosed');
 console.log(JSON.stringify({syntax:'ok',uniqueSources:sources.length,dailyUnique:daily.length,defaultSweep:'all-sources',diagnosticLimit:15}));
