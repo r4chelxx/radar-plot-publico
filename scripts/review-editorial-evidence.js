@@ -10,6 +10,7 @@ const today=new Intl.DateTimeFormat('en-CA',{timeZone:'America/Bahia',year:'nume
 const flat=v=>Array.isArray(v)?v.map(flat).join(' '):v&&typeof v==='object'?Object.values(v).map(flat).join(' '):String(v||'');
 const genericOpportunityTitle=/^(?:how to apply|about(?: the fellowship)?|application|apply now)$/i;
 function socialPostUrl(value){try{const host=new URL(value).hostname.toLowerCase().replace(/^www\./,'');return /^(?:instagram\.com|facebook\.com|linkedin\.com|tiktok\.com|x\.com|twitter\.com|youtube\.com|youtu\.be|threads\.net|reddit\.com|pinterest\.com|t\.me)$/.test(host)}catch{return false}}
+function jlabPublicationPage(value){try{const u=new URL(value);return /^(?:www\.)?j-lab\.org$/i.test(u.hostname)&&/^\/publications\//i.test(u.pathname)}catch{return false}}
 function editorialReportPage(c,title=''){
  const a=c.audit||{},text=[title,c.title||'',a.pageTitle||'',a.pageDescription||'',c.url||'',a.finalUrl||''].join(' ');
  const types=(a.structuredData||[]).flatMap(x=>Array.isArray(x['@type'])?x['@type']:[x['@type']]).map(x=>String(x||''));
@@ -34,6 +35,7 @@ const excludedPath=/\/(?:blog|news|press|articles?|posts?|podcasts?|pitch|proces
 const excludedToolUrl=/(?:creativeapplications\.net(?:\/|$)|propublica\.org\/data(?:\/|$)|poynter\.org\/(?:shop|mediawise\/programs)(?:\/|$)|mailchimp\.com\/signup(?:\/|$)|indicator\.media(?:\/|$)|soxoj\.com\/?$|(?:www\.)?dw\.com\/|(?:www\.)?wired\.com\/story\/|(?:www\.)?reuters\.com\/|(?:www\.)?bbc\.com\/|(?:www\.)?theguardian\.com\/|(?:www\.)?apnews\.com\/|mediawiki\.org\/wiki\/(?:Moderator_Tools|Toolserver:)|wikidata\.org\/wiki\/(?:Special:NewItem|Wikidata:Tools\/))/i;
 const excludedToolContent=/\b(?:community of creative practitioners|critical making|published \d{2,}[,\d]* articles|membership plans?|research advisory|consulting services|course|training program|newsroom archive)\b/i;
 function toolIdentity(c,title,docs){
+ if(jlabPublicationPage(c.url))return false;
  if(newsStoryPage(c)||editorialReportPage(c,title)||genericToolListing(c,title))return false;
  // A product mentioned inside a book, author profile or directory does not
  // change the identity of the inspected page.
