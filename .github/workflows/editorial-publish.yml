@@ -23,6 +23,8 @@ on:
     paths:
       - 'intake/approved-publications.json'
       - 'scripts/build-automated-publications.js'
+      - 'scripts/merge-source-approvals.js'
+      - 'tests/merge-source-approvals.test.js'
       - 'scripts/publish-approved.js'
       - 'tests/automated-publication.test.js'
       - '.github/workflows/editorial-publish.yml'
