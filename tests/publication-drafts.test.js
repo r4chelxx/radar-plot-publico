@@ -195,3 +195,24 @@ test('official host institution and software identity do not inherit page slogan
  assert.equal(out.drafts[0].recordDraft.title,'Education Reporting Fellowship');
  assert.equal(out.drafts[1].recordDraft.name,'Figma');
 });
+
+
+test('eligibility scope follows its labeled section and organization fragments are discarded',()=>{
+ const evidence='A stipend of $40,000 and health insurance are provided. Who is eligible to apply? Journalists based in Africa and the Middle East with at least three years’ experience reporting on science, health or environmental issues in the region. Applicants must be able to secure a US visa during the fellowship period. How to apply: submit a proposal.';
+ const q={candidates:[{id:'scope-section',url:'https://ksj.example/fellowship',audit:{pageTitle:'Science Journalism Fellowship',evidenceText:evidence,httpStatus:200,contentType:'text/html',checkedAt:new Date().toISOString(),structuredData:[]}},{id:'bad-organization',url:'https://pulitzer.example/grant',audit:{pageTitle:'Investigative Reporting Grant',evidenceText:'Organization that will assume full responsibility for applicant safety. Eligibility: journalists worldwide. Applications close 2099-12-31.',httpStatus:200,contentType:'text/html',checkedAt:new Date().toISOString(),structuredData:[]}}]};
+ const review={records:q.candidates.map(x=>({id:x.id,category:'opportunities',decision:'evidence_complete_for_record_draft',publicationReady:false,checks:{callSignal:true,deadline:'2099-12-31',eligibility:true}}))};
+ const out=buildDrafts(q,review);
+ const scoped=out.drafts.find(x=>x.id==='scope-section').recordDraft.scope;
+ assert.match(scoped,/Journalists based in Africa and the Middle East/);
+ assert.match(scoped,/US visa/);
+ assert.doesNotMatch(scoped,/stipend|health insurance/i);
+ assert.equal(out.drafts.find(x=>x.id==='bad-organization').recordDraft.org,null);
+});
+
+test('OpenSanctions dataset owner is attributed from its official domain when metadata omits it',()=>{
+ const q={candidates:[{id:'maritime-data',url:'https://www.opensanctions.org/datasets/maritime/',audit:{pageTitle:'Maritime-related sanctions',evidenceText:'Dataset covering maritime sanctions, vessels and organizations. Updated daily. JSON and CSV bulk downloads are available.',httpStatus:200,contentType:'text/html',checkedAt:new Date().toISOString(),structuredData:[]}}]};
+ const review={records:[{id:'maritime-data',category:'datasets',decision:'evidence_complete_for_record_draft',publicationReady:false,checks:{datasetSignal:true,directResource:true,format:true,coverage:true}}]};
+ const record=buildDrafts(q,review).drafts[0].recordDraft;
+ assert.equal(record.org,'OpenSanctions');
+ assert.equal(record.kind,'dataset');
+});

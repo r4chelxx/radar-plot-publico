@@ -45,6 +45,14 @@ try{
  assert.match(fs.readFileSync(opportunityFile,'utf8'),/^  "status": "encerrada"/m);
  assert.match(fs.readFileSync(opportunityFile,'utf8'),/^      "status": "aberta"/m);
  assert.equal(JSON.parse(run('publish-approved.js',input)).archived,0);
+ const genericCall={id:'generic-how-to',title:'How To Apply',org:'The Pulitzer Center',summary:'The Pulitzer Center provides grants to cover reporting costs. Grants are open to journalists worldwide.',type:'Grant',scope:'Open to journalists worldwide.',deadlineStatus:'Rolling deadline confirmed on the official source.',eligibility:'parcial',status:'aberta',rules:'https://pulitzer.example/how-to-apply'};
+ const genericCallReview={decision:'approved',reviewedBy:'editorial reviewer',reviewedAt:'2026-10-23',officialUrl:genericCall.rules,evidence:'The official page provides general grant application instructions for journalists.'};
+ const genericPath=path.join(root,'intake','generic-call.json');fs.writeFileSync(genericPath,JSON.stringify({approved:[{category:'opportunities',record:genericCall,review:genericCallReview}]}));
+ assert.throws(()=>run('publish-approved.js',genericPath),/specific named program/);
+ const newsTool={id:'news-story-as-tool',name:'Google AI falsely links Auckland technician to convictions',kind:'driving convictions',url:'https://news.example/story/abc',desc:'The article reports a false association and a company response. This is editorial coverage, not a software product.'};
+ const newsReview={decision:'approved',reviewedBy:'editorial reviewer',reviewedAt:'2026-10-23',officialUrl:newsTool.url,evidence:'globalContent={"type":"story","subtype":"news","template":"story"} Article text reports the incident and response.'};
+ const newsPath=path.join(root,'intake','news-tool.json');fs.writeFileSync(newsPath,JSON.stringify({approved:[{category:'tools',record:newsTool,review:newsReview}]}));
+ assert.throws(()=>run('publish-approved.js',newsPath),/news story, not a software product/);
  const vagueToolManifest={approved:[{category:'tools',record:{...candidate,id:'vague-tool-candidate',name:'Vague tool',url:'https://example.org/vague-tool'},review:{decision:'approved',reviewedBy:'editorial-reviewer',reviewedAt:'2026-10-23',officialUrl:'https://example.org/vague-tool',evidence:'Official page reviewed; suitable for journalists and appears relevant.'}}]};
  fs.writeFileSync(input,JSON.stringify(vagueToolManifest));
  assert.throws(()=>run('publish-approved.js',input),/Tool evidence must describe a confirmed product function/);

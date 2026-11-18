@@ -1,65 +1,43 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.opportunities=[
-{
-  "id": "auto-4e15f03a4129d1d8",
-  "title": "Fellowship for Advancing Science Journalism in Africa and the Middle East",
-  "org": "The Knight Science Journalism Program @MIT",
-  "summary": "A new one-semester fellowship, hosted by the Knight Science Journalism Program, was inspired by the life and career of Egyptian science journalist Mohammed Yahia.",
-  "type": "Fellowship",
-  "themes": [
-    "Meio ambiente",
-    "Fotografia",
-    "Jornalismo"
-  ],
-  "scope": "A stipend of $40,000 paid out over 4.5 months Health insurance for each fellow and accompanying family members A $5,000 travel and housing stipend paid near the start of the fellowship A childcare subsidy of $500-$750 per month for fellows who qualify Access to free and subsidized public transportation and free and discounted access to museums and other programs Who is eligible to apply? Applicants must be able to secure a visa to reside in the US during the fellowship period (typically a J-1 visa). Citizens of countries where the US has suspended the issuance of visas should wait to apply to KSJ until after such restrictions are lifted. Those holding citizenship and a passport from an additional country with no restrictions may apply with that citizenship. If AI tools are used for editing any part of your application, their use must be disclosed within the application. You must be logged in to post a comment.",
-  "fit": 6,
-  "deadline": "2027-01-09",
-  "deadlineStatus": "Prazo confirmado na fonte consultada; conferir horário e fuso no edital.",
-  "eligibility": "parcial",
-  "status": "aberta",
-  "rules": "https://ksj.mit.edu/fellowships/africa-middle-east-fellowship/",
-  "apply": "https://ksj.mit.edu/fellowships/africa-middle-east-fellowship/"
-},
-{
-  "id": "auto-af8fa46eff482b36",
-  "title": "How To Apply",
-  "org": "that will assume full responsibility for his/her well-being",
-  "summary": "How To Apply. The Pulitzer Center provides grants to cover the hard costs of reporting projects. Learn more about our requirements for a grant proposal. https://www.youtube.com/embed/snUBaGy8qvA Grants are open to...",
-  "type": "grant",
-  "themes": [
-    "Meio ambiente",
-    "Gênero",
-    "Fotografia",
-    "Jornalismo"
-  ],
-  "scope": "Grants are open to all journalists: writers, photographers, radio producers, and filmmakers; staff journalists as well as freelancers. Applications must be written in English.",
-  "fit": 6,
-  "deadline": null,
-  "deadlineStatus": "Fluxo contínuo confirmado na chamada; sem data final anunciada.",
-  "eligibility": "parcial",
-  "status": "aberta",
-  "rules": "https://pulitzercenter.org/grants-fellowships/tips-writing-successful-pulitzer-center-grant-proposal",
-  "apply": "https://pulitzercenter.org/grants-fellowships/tips-writing-successful-pulitzer-center-grant-proposal"
-}, 
-{
-  "id": "4f8d53a2e6da3256e22435b61f80122508e27a9d28bcdfdc7f06d59bc794afad",
-  "title": "Pulitzer Center Ocean and Fisheries Reporting Grants",
-  "org": "Pulitzer Center",
-  "summary": "The Pulitzer Center is offering Ocean and Fisheries Reporting Grants to ambitious reporting proposals from freelance and staff journalists fwho wish to report on vital ocean and fisheries issues.",
-  "type": "Grant",
-  "themes": [
-    "Meio ambiente",
-    "Jornalismo"
-  ],
-  "scope": "All freelance and staff journalists from around the world",
-  "fit": 6,
-  "deadline": null,
-  "deadlineStatus": "Fluxo contínuo confirmado na chamada; sem data final anunciada.",
-  "eligibility": "parcial",
-  "status": "aberta",
-  "rules": "https://gfmd.info/fundings/pulitzer-center-ocean-and-fisheries-reporting-grants/",
-  "apply": "https://gfmd.info/fundings/pulitzer-center-ocean-and-fisheries-reporting-grants/"
-}, 
+  {
+    "id": "auto-4e15f03a4129d1d8",
+    "title": "Fellowship for Advancing Science Journalism in Africa and the Middle East",
+    "org": "The Knight Science Journalism Program @MIT",
+    "summary": "A new one-semester fellowship, hosted by the Knight Science Journalism Program, was inspired by the life and career of Egyptian science journalist Mohammed Yahia.",
+    "type": "Fellowship",
+    "themes": [
+      "Meio ambiente",
+      "Jornalismo"
+    ],
+    "scope": "Journalists based in Africa and the Middle East with at least three years’ experience reporting on science, health or environmental issues in the region; applicants must be able to secure a US visa for the fellowship period.",
+    "fit": 6,
+    "deadline": "2027-01-09",
+    "deadlineStatus": "Prazo confirmado na fonte consultada; conferir horário e fuso no edital.",
+    "eligibility": "parcial",
+    "status": "aberta",
+    "rules": "https://ksj.mit.edu/fellowships/africa-middle-east-fellowship/",
+    "apply": "https://ksj.mit.edu/fellowships/africa-middle-east-fellowship/"
+  },
+  {
+    "id": "4f8d53a2e6da3256e22435b61f80122508e27a9d28bcdfdc7f06d59bc794afad",
+    "title": "Pulitzer Center Ocean and Fisheries Reporting Grants",
+    "org": "Pulitzer Center",
+    "summary": "The Pulitzer Center is offering Ocean and Fisheries Reporting Grants to ambitious reporting proposals from freelance and staff journalists fwho wish to report on vital ocean and fisheries issues.",
+    "type": "Grant",
+    "themes": [
+      "Meio ambiente",
+      "Jornalismo"
+    ],
+    "scope": "All freelance and staff journalists from around the world",
+    "fit": 6,
+    "deadline": null,
+    "deadlineStatus": "Fluxo contínuo confirmado na chamada; sem data final anunciada.",
+    "eligibility": "parcial",
+    "status": "aberta",
+    "rules": "https://gfmd.info/fundings/pulitzer-center-ocean-and-fisheries-reporting-grants/",
+    "apply": "https://gfmd.info/fundings/pulitzer-center-ocean-and-fisheries-reporting-grants/"
+  },
   {
     "id": "fd84e850b51d43d439eea917135e10b90b79fedd62c5f808a56248c50fb77c50",
     "title": "SA|AJP Investigative Journalism Grants (Southern Africa Accountability Journalism Project)",

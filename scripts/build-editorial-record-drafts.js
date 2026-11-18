@@ -23,23 +23,35 @@ function publisherName(data){
 }
 function explicitOrganization(text){
  const source=clean(text);
+ const safe=value=>{
+  const candidate=clean(value).replace(/^the\s+/i,'The ');
+  if(!candidate||candidate.length>120||!/^([A-ZÀ-Þ]|The\s+[A-ZÀ-Þ])/u.test(candidate))return null;
+  if(/^(?:That|Which|Who|This|These|Those)\b/i.test(candidate)||/\b(?:will assume|must assume|can apply|should apply|is open to|are open to)\b/i.test(candidate))return null;
+  return candidate;
+ };
  const labeled=source.match(/(?:organisation|organization|organizer|organiser|funder|provider)\s*:\s*([^.!?]{2,160}?)(?=\s+(?:status|type|theme|deadline|eligibility|target region|application language|funding size|how to apply)\s*:|[.!?]|$)/i);
- if(labeled?.[1])return clean(labeled[1]);
+ if(labeled?.[1]){const value=safe(labeled[1]);if(value)return value;}
  const unlabeled=source.match(/(?:organisation|organization|organizer|organiser|funder|provider)\s+([^.!?]{2,160}?)(?=\s+(?:status|type|theme|deadline|eligibility|target region|application language|funding size|how to apply|focus area|subject area|award size|career stage|editor'?s note|apply here|location|funding type)\b|[.!?]|$)/i);
- if(unlabeled?.[1])return clean(unlabeled[1]);
+ if(unlabeled?.[1]){const value=safe(unlabeled[1]);if(value)return value;}
  const host=source.match(/\b(?:[Bb]ased at|[Hh]osted by|[Aa]dministered by|[Oo]rganized by|[Oo]rganised by|[Ss]ediad[ao] (?:na|no)|[Rr]ealizad[ao] pel[ao])\s+([A-Z][\w’'&-]*(?:\s+[A-Z][\w’'&-]*){0,7})/);
- if(host?.[1])return clean(host[1]);
+ if(host?.[1])return safe(host[1]);
  const m=source.match(/(?:^|[.!?]\s+)(?:The\s+)?([A-Z][A-Za-z0-9&.'’-]*(?:\s+[A-Z][A-Za-z0-9&.'’-]*){0,3})\s+(?:invites|is pleased to announce|announces)\b/);
- return clean(m?.[1])||null;
+ return safe(m?.[1])||null;
 }
 function eligibilityScope(text){
  const normalized=String(text||'').replace(/\bU\.S\./g,'US');
  const labeled=normalized.match(/\b(?:eligibility(?: criteria)?|elegibilidade)\s*:\s*(.{10,1000}?)(?=\s+(?:target region|application language|type of funding|region|how to apply|thematics|requirements)\s*:|[.!?](?:\s|$)|$)/i);
  if(labeled)return clean(labeled[1]);
+ const heading=normalized.match(/\bwho (?:is )?eligible to apply\??\s*([\s\S]{10,2400}?)(?=\s+(?:what are the benefits|benefits|how to apply|application process|program dates|deadline|apply now)\b|$)/i);
+ if(heading){
+  const sentences=heading[1].split(/(?<=[.!?])\s+/).filter(Boolean).slice(0,6);
+  const scoped=clean(sentences.join(' ')).slice(0,1100);
+  if(scoped.length>=20)return scoped;
+ }
  const scope=sentence(normalized,/applicants?[^.!?]{0,180}(?:globally|worldwide|world-wide)[^.!?]*(?:may enter|can apply|eligible)/i)
   ||sentence(normalized,/(eligible|eligibility|who can (?:apply|enter|participate)|participants must|entry requirements|age(?:d)? 18 and up|18 years and older|globally may enter|open to|elegibilidade|elegível|podem se candidatar)/i);
  const restrictions=normalized.split(/(?<=[.!?])\s+/).filter(x=>/citizens?|green card|permanent residen|eligible countries|must (?:be|reside)|nacionalidade/i.test(x));
- return scope?[...new Set([scope,...restrictions])].join(' ').slice(0,2200):null;
+ return scope?[...new Set([scope,...restrictions])].join(' ').slice(0,1200):null;
 }
 function editorialFit(title,text){
  const evidence=String(title||'')+' '+String(text||'');
@@ -109,6 +121,13 @@ function normalizeToolName(title,text,url){
  }
  return value||clean(title);
 }
+function knownOrganizationForUrl(url){
+ try{
+  const host=new URL(url).hostname.toLowerCase().replace(/^www\./,'');
+  if(host==='opensanctions.org'||host.endsWith('.opensanctions.org'))return 'OpenSanctions';
+ }catch{}
+ return null;
+}
 function todayBahia(now=new Date()){
  const parts=Object.fromEntries(new Intl.DateTimeFormat('en-US',{timeZone:'America/Bahia',year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(now).map(x=>[x.type,x.value]));
  return parts.year+'-'+parts.month+'-'+parts.day;
@@ -143,7 +162,7 @@ function buildDrafts(queue,review,generatedAt=new Date().toISOString()){
    record.rules=url;record.apply=url;
   }else if(result.category==='datasets'){
    const data=structured(audit,/dataset/i),formats=[data.encodingFormat,data.distribution?.encodingFormat].flat().filter(Boolean);
-   record.name=pageTitle;record.org=org||explicitOrganization(text);
+   record.name=pageTitle;record.org=org||explicitOrganization(text)||knownOrganizationForUrl(url);
    // An institutional suffix is attributable only when structured organization
    // identity points to this official site's own section, not a discovery feed.
    if(!record.org&&organization.url){

@@ -8,11 +8,19 @@ const queuePath=process.argv[2]||'intake/editorial-queue.json';
 const outPath=process.argv[3]||'intake/editorial-evidence-review.json';
 const today=new Intl.DateTimeFormat('en-CA',{timeZone:'America/Bahia',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());
 const flat=v=>Array.isArray(v)?v.map(flat).join(' '):v&&typeof v==='object'?Object.values(v).map(flat).join(' '):String(v||'');
+const genericOpportunityTitle=/^(?:how to apply|about(?: the fellowship)?|application|apply now)$/i;
+function newsStoryPage(c){
+ const a=c.audit||{},text=[a.pageTitle||'',a.pageDescription||'',a.evidenceText||''].join(' ');
+ const fusionStory=/globalContent\s*=\s*\{[\s\S]{0,1400}?["']type["']\s*:\s*["']story["'][\s\S]{0,300}?["']subtype["']\s*:\s*["']news["']/i.test(text);
+ const articleSchema=/(?:["']@type["']\s*:\s*["'](?:NewsArticle|Article|BlogPosting)["'])/i.test(text);
+ return fusionStory||articleSchema;
+}
 const excluded=/\b(conference|webinar|festival|newsletter|podcast|blog post|news article|event|symposium|perfil|profile|portfolio|directory|diretório|tutorial|guide|how[- ]to|call for pitches|press release|article|agency|agência|consult(?:ancy|ing|oria)|membership|archive|arquivo|research advisory|academic library|biblioteca acadêmica)\b/i;
 const excludedPath=/\/(?:blog|news|press|articles?|posts?|podcasts?|pitch|process|tutorials?|guides?|learn|courses?|events?|conference|community|about|people|team|authors?|profiles?|jobs?|docs|20\d{2}\/(?:0?[1-9]|1[0-2]))(?:\/|$)/i;
 const excludedToolUrl=/(?:creativeapplications\.net(?:\/|$)|propublica\.org\/data(?:\/|$)|poynter\.org\/(?:shop|mediawise\/programs)(?:\/|$)|mailchimp\.com\/signup(?:\/|$)|indicator\.media(?:\/|$)|soxoj\.com\/?$|(?:www\.)?dw\.com\/|(?:www\.)?wired\.com\/story\/|(?:www\.)?reuters\.com\/|(?:www\.)?bbc\.com\/|(?:www\.)?theguardian\.com\/|(?:www\.)?apnews\.com\/|mediawiki\.org\/wiki\/(?:Moderator_Tools|Toolserver:)|wikidata\.org\/wiki\/(?:Special:NewItem|Wikidata:Tools\/))/i;
 const excludedToolContent=/\b(?:community of creative practitioners|critical making|published \d{2,}[,\d]* articles|membership plans?|research advisory|consulting services|course|training program|newsroom archive)\b/i;
 function toolIdentity(c,title,docs){
+ if(newsStoryPage(c))return false;
  // A product mentioned inside a book, author profile or directory does not
  // change the identity of the inspected page.
  if(/\b(?:book|handbook|specialist|portfolio|profile|directory)\b|^(?:tools|resources)(?: and toolkits)?$/i.test(title))return false;
@@ -105,19 +113,22 @@ function review(c){
  const months={jan:'january',feb:'february',mar:'march',apr:'april',jun:'june',jul:'july',aug:'august',sep:'september',sept:'september',oct:'october',nov:'november',dec:'december'};
  const text=raw.toLowerCase().replace(/\b([ap])\.m\./g,'$1m').replace(/\b(jan|feb|mar|apr|jun|jul|aug|sep|sept|oct|nov|dec)\.?\s+(?=\d)/g,(_,m)=>months[m]+' '),title=String(a.pageTitle||c.title||'').toLowerCase();
  const ld=docs.map(x=>({type:flat(x['@type']).toLowerCase(),data:x}));
- const category=inferCategory(c,text,title),checks={},missing=[];
+ const category=genericOpportunityTitle.test(title.trim())?'opportunities':inferCategory(c,text,title),checks={},missing=[];
  const datasetIndex=/^(?:data sources|data dictionary|our bulk data distributions)$/i.test(title.trim())||(()=>{try{const p=new URL(c.url||'').pathname.toLowerCase();return p==='/datasets/sources'||p==='/datasets/sources/'||p==='/reference'||p==='/reference/'}catch{return false}})();
  const hardStatus=(a.httpStatus===200&&/text\/html|application\/json/i.test(a.contentType||''))
   ||(c.verificationStatus==='official-web-search'&&String(c.sourceEvidence||'').length>=120&&Array.isArray(c.resourceLinks)&&c.resourceLinks.length>0);
  if(!hardStatus)missing.push('página primária acessível com conteúdo compatível');
  if(category==='opportunities'){
-  const callTitle=/^(?:how to apply|about(?: the fellowship)?|application)$/i.test(title)?String(a.pageDescription||c.title||title):title;
+  const genericPage=genericOpportunityTitle.test(title.trim());
+  const namedCall=raw.match(/\b(?:[A-Z][\w’'&-]*\s+){1,8}(?:Fellowship|Grant|Award|Competition)\b(?:\s+for(?:\s+[A-Z][\w’'&-]*){1,5})?/u)?.[0]||null;
+  const callTitle=namedCall|| (genericPage?String(a.pageDescription||c.title||title):title);
   const editorialScope=/\b(?:journalis\w*|jornalismo|jornalistas?|reporting|reporters?|newsrooms?|photojournal\w*|documentary|storymaps|geospatial story|data visuali\w*|visual storytelling)\b/i.test(title+' '+String(a.pageDescription||'')+' '+String(a.evidenceText||''));
   if(!editorialScope)missing.push('escopo jornalístico ausente no título e descrição da chamada');
   const verifiedOpportunityEvidence=c.verificationStatus==='official-web-search' &&
    /\b(grant|fellowship|funding|scholarship|journalism award|award|prize|contest|competition|bolsa|edital|financiamento|premia[cç][aã]o|pr[eê]mio|concurso)\b/i.test(text) &&
    /\b(applications?\b[^.!?]{0,120}\b(?:open|accepted|closing|close|closes|closed|deadline|until|by)|call for (?:applications?|entries?|submissions?|proposals?)|apply(?:ing)?(?: now| today| by)?|inscri[cç][oõ]es? abertas|candidaturas? abertas|candidatar-se até|submiss[oõ]es? abertas)\b/i.test(text);
-  checks.callSignal=(verifiedOpportunityEvidence||actionableOpportunity(callTitle,text))&&!/newsletter|podcast|directory|portfolio/i.test(title);
+  checks.callSignal=(!genericPage||!!namedCall)&&(verifiedOpportunityEvidence||actionableOpportunity(callTitle,text))&&!/newsletter|podcast|directory|portfolio/i.test(title);
+  if(genericPage&&!namedCall)missing.push('nome específico da chamada ausente; página genérica de inscrição não pode ser publicada como oportunidade');
   checks.deadline=deadlineDates(text,checks.callSignal).find(d=>d>=today)||structuredDeadline(docs); if(checks.deadline&&checks.deadline<today)checks.deadline=null;
   checks.eligibility=/\b(eligib|eligible|eligibility|who can apply|who can enter|who can participate|participants must|entry requirements|age(?:d)? 18 and up|18 years and older|globally may enter|open to|elegibilidade|elegível|podem se candidatar)\b/i.test(text);
   if(/\b(?:applications?|submissions?|entries?)\b[^.!?]{0,120}\bclosed\b|inscri[cç][oõ]es\s+encerradas/i.test(text))missing.push('chamada explicitamente encerrada');
