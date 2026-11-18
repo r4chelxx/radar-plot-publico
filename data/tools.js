@@ -1,5 +1,12 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.tools=[
+{
+  "id": "auto-cf35ab1a6098d860",
+  "name": "earthkit",
+  "kind": "DeveloperApplication",
+  "url": "https://earthkit.ecmwf.int/",
+  "desc": "Open-source tools for seamless earth science workflows with a format-agnostic Python interface for geospatial data. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
+}, 
   {
     "id": "govteca-busca-lai",
     "name": "Busca LAI",
