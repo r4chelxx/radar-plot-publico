@@ -13,13 +13,13 @@ function editorialReportPage(c,title=''){
  const a=c.audit||{},text=[title,c.title||'',a.pageTitle||'',a.pageDescription||'',c.url||'',a.finalUrl||''].join(' ');
  const types=(a.structuredData||[]).flatMap(x=>Array.isArray(x['@type'])?x['@type']:[x['@type']]).map(x=>String(x||''));
  return types.some(x=>/^(?:Report|ScholarlyArticle|NewsArticle|Article|BlogPosting)$/i.test(x))
-  ||/\\b(?:news|research) report\\s+20\\d{2}\\b/i.test(text)
-  ||/\\/reports?\\/20\\d{2}\\//i.test(String(c.url||'')+' '+String(a.finalUrl||''));
+  ||/\b(?:news|research) report\s+20\d{2}\b/i.test(text)
+  ||/\/reports?\/20\d{2}\//i.test(String(c.url||'')+' '+String(a.finalUrl||''));
 }
 function genericToolListing(c,title=''){
- const a=c.audit||{},value=[title,c.title||'',a.pageTitle||''].join(' ').replace(/\\s*[|—–-]\\s*(?:data|who|world health organization).*$/i,'').trim();
+ const a=c.audit||{},value=[title,c.title||'',a.pageTitle||''].join(' ').replace(/\s*[|—–-]\s*(?:data|who|world health organization).*$/i,'').trim();
  return /^(?:tools?(?: and resources)?|resources and tools|data portals? (?:&|and) tools|world bank open data)$/i.test(value)
-  ||/who\\.int\\/data\\/inequality-monitor\\/tools-resources|data\\.worldbank\\.org\\/products\\/tools/i.test(String(c.url||''));
+  ||/who\.int\/data\/inequality-monitor\/tools-resources|data\.worldbank\.org\/products\/tools/i.test(String(c.url||''));
 }
 function newsStoryPage(c){
  const a=c.audit||{},text=[a.pageTitle||'',a.pageDescription||'',a.evidenceText||''].join(' ');
