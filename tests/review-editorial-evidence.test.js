@@ -6,6 +6,7 @@ try{
  const queue=path.join(root,'queue.json'),out=path.join(root,'out.json');
  const item=(id,category,audit,url)=>({id,url:url||'https://example.org/'+id,category,status:'pending',audit:{httpStatus:200,contentType:'text/html',checkedAt:'2026-11-09T00:00:00Z',...audit}});
  const q={candidates:[
+ item('social-reel','tools',{pageTitle:'AI tool demo',pageDescription:'Software generates data visualizations. Free access and documentation available.',evidenceText:'Software generates data visualizations. Free access and documentation available.',structuredData:[]},'https://www.instagram.com/reels/De9n98vxTeU'),
  item('grant','opportunities',{evidenceText:'Grant applications close 2099-12-31. Eligibility: who can apply is limited to journalists.',structuredData:[]}),
  item('structured-deadline','opportunities',{pageTitle:'Global Data Journalism Award',evidenceText:'Applications are open to journalists worldwide. Eligibility is stated on this page.',structuredData:[{'@type':'Event',name:'Global Data Journalism Award',endDate:'2099-12-31'}]}),
  item('fake-grant','opportunities',{evidenceText:'Welcome to our news blog about awards.',structuredData:[]}),
@@ -58,6 +59,8 @@ try{
  assert.equal(result.records.find(x=>x.id==='news-story-as-tool').category,'uncategorized');
  assert.equal(result.records.find(x=>x.id==='news-story-as-tool').decision,'pending_more_evidence');
  for(const id of ['who-tool-directory','world-bank-tools-index','research-report-as-tool']){assert.equal(result.records.find(x=>x.id===id).category,'uncategorized');assert.equal(result.records.find(x=>x.id===id).decision,'pending_more_evidence');}
+ assert.equal(result.records.find(x=>x.id==='social-reel').category,'uncategorized');
+ assert.equal(result.records.find(x=>x.id==='social-reel').decision,'pending_more_evidence');
  assert.equal(result.records.find(x=>x.id==='dataset').decision,'evidence_complete_for_record_draft');
  for(const id of ['dataset-zip','dataset-xlsx','dataset-api-host'])assert.equal(result.records.find(x=>x.id===id).decision,'evidence_complete_for_record_draft');
  assert.equal(result.records.find(x=>x.id==='dataset-generic-indicator').decision,'pending_more_evidence');
