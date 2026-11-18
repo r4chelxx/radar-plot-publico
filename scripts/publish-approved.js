@@ -29,13 +29,14 @@ const safeOrganization=x=>{
 const newsStoryEvidence=value=>{
  const text=String(value||'');
  return /globalContent\s*=\s*\{[\s\S]{0,1400}?["']type["']\s*:\s*["']story["'][\s\S]{0,300}?["']subtype["']\s*:\s*["']news["']/i.test(text)
-  ||/["']@type["']\s*:\s*["'](?:NewsArticle|Article|BlogPosting|Report|ScholarlyArticle)["']/i.test(text);
+  ||/["']@type["']\s*:\s*["'](?:NewsArticle|Article|BlogPosting|Report|ScholarlyArticle)["']/i.test(text)
+  ||/\b(?:news|research) report\s+20\d{2}\b/i.test(text);
 };
 const genericToolListingEvidence=(record,proof)=>{
  const text=[record.name||'',record.url||'',record.desc||'',proof.evidence||''].join(' ');
  return /^(?:tools?(?: and resources)?|resources and tools|data portals? (?:&|and) tools|world bank open data)$/i.test(String(record.name||'').trim())
-  ||/who\\.int\\/data\\/inequality-monitor\\/tools-resources|data\\.worldbank\\.org\\/products\\/tools/i.test(String(record.url||''))
-  ||/\\bdata portals? (?:&|and) tools\\b/i.test(text);
+  ||/who\.int\/data\/inequality-monitor\/tools-resources|data\.worldbank\.org\/products\/tools/i.test(String(record.url||''))
+  ||/\bdata portals? (?:&|and) tools\b/i.test(text);
 };
 const genericOpportunityTitle=/^(?:how to apply|about(?: the fellowship)?|application|apply now)$/i;
 
