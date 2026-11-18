@@ -1,26 +1,5 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.tools=[
-{
-  "id": "auto-cf53aeb7445c168f",
-  "name": "Tools and resources",
-  "kind": "mapeamento e cartografia",
-  "url": "https://www.who.int/data/inequality-monitor/tools-resources",
-  "desc": "Tools and resources for health inequality monitoring Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
-},
-{
-  "id": "auto-d3348a7817df326f",
-  "name": "World Bank Open Data",
-  "kind": "mapeamento e cartografia",
-  "url": "https://data.worldbank.org/products/tools",
-  "desc": "Data Portals & Tools from The World Bank: Data Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
-}, 
-{
-  "id": "auto-ed23a1d38f92ba99",
-  "name": "Generative AI and News Report 2026: From standalone tools to information infrastructure",
-  "kind": "software para análise de dados",
-  "url": "https://reutersinstitute.politics.ox.ac.uk/generative-ai-and-news-report-2026-standalone-tools-information-infrastructure",
-  "desc": "The report is based on a survey in nine countries: Argentina, Australia, Denmark, Finland, France, Japan, Norway, the United Kingdom and the United States. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
-}, 
   {
     "id": "govteca-busca-lai",
     "name": "Busca LAI",
