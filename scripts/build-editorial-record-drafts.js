@@ -121,6 +121,19 @@ function normalizeToolName(title,text,url){
  }
  return value||clean(title);
 }
+function editorialReportPage(audit,title,url){
+ const types=(audit.structuredData||[]).flatMap(x=>Array.isArray(x['@type'])?x['@type']:[x['@type']]).map(x=>String(x||''));
+ const text=[title,audit.pageTitle||'',audit.pageDescription||'',url].join(' ');
+ const editorialTypes=types.length>0&&types.every(x=>/^(?:NewsArticle|Article|BlogPosting)$/i.test(x));
+ return types.some(x=>/^(?:Report|ScholarlyArticle)$/i.test(x))||editorialTypes
+  ||/\b(?:news|research) report\s+20\d{2}\b/i.test(text)
+  ||/\/reports?\/20\d{2}\//i.test(url);
+}
+function genericToolListing(audit,title,url){
+ const value=[title,audit.pageTitle||''].join(' ').replace(/\s*[|—–-]\s*(?:data|who|world health organization).*$/i,'').trim();
+ return /^(?:tools?(?: and resources)?|resources and tools|data portals? (?:&|and) tools|world bank open data)$/i.test(value)
+  ||/who\.int\/data\/inequality-monitor\/tools-resources|data\.worldbank\.org\/products\/tools/i.test(url);
+}
 function knownOrganizationForUrl(url){
  try{
   const host=new URL(url).hostname.toLowerCase().replace(/^www\./,'');
@@ -134,7 +147,7 @@ function todayBahia(now=new Date()){
 }
 function buildDrafts(queue,review,generatedAt=new Date().toISOString()){
  const candidates=new Map((queue.candidates||[]).map(x=>[x.id,x]));
- const eligible=(review.records||[]).filter(x=>x.decision==='evidence_complete_for_record_draft'&&x.publicationReady===false&&candidates.has(x.id));
+ const eligible=(review.records||[]).filter(x=>x.decision==='evidence_complete_for_record_draft'&&x.publicationReady===false&&candidates.has(x.id)&&(()=>{if(x.category!=='tools')return true;const c=candidates.get(x.id),audit=c.audit||{},title=clean(audit.pageTitle||c.title),url=audit.finalUrl||c.url;return !editorialReportPage(audit,title,url)&&!genericToolListing(audit,title,url)})());
  const drafts=eligible.map(result=>{
   const candidate=candidates.get(result.id),audit=candidate.audit||{},rawText=clean(audit.evidenceText),text=clean([rawText,audit.pageDescription].filter(Boolean).join(' ')),url=audit.finalUrl||candidate.url;
   let pageTitle=clean(audit.pageTitle||candidate.title);

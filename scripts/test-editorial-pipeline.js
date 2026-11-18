@@ -52,7 +52,19 @@ try{
  const newsTool={id:'news-story-as-tool',name:'Google AI falsely links Auckland technician to convictions',kind:'driving convictions',url:'https://news.example/story/abc',desc:'The article reports a false association and a company response. This is editorial coverage, not a software product.'};
  const newsReview={decision:'approved',reviewedBy:'editorial reviewer',reviewedAt:'2026-10-23',officialUrl:newsTool.url,evidence:'globalContent={"type":"story","subtype":"news","template":"story"} Article text reports the incident and response.'};
  const newsPath=path.join(root,'intake','news-tool.json');fs.writeFileSync(newsPath,JSON.stringify({approved:[{category:'tools',record:newsTool,review:newsReview}]}));
- assert.throws(()=>run('publish-approved.js',newsPath),/news story, not a software product/);
+ assert.throws(()=>run('publish-approved.js',newsPath),/news story or report, not a software product/);
+ const falseToolPages=[
+  {id:'who-tool-directory',name:'Tools and resources',kind:'mapeamento e cartografia',url:'https://www.who.int/data/inequality-monitor/tools-resources',desc:'Tools and resources for health inequality monitoring. Source note: verify documentation and license.'},
+  {id:'world-bank-tool-index',name:'World Bank Open Data',kind:'mapeamento e cartografia',url:'https://data.worldbank.org/products/tools',desc:'Data Portals & Tools for development indicators. Source note: verify documentation and license.'},
+  {id:'research-report-as-tool',name:'Generative AI and News Report 2026: From standalone tools to information infrastructure',kind:'software para análise de dados',url:'https://reutersinstitute.politics.ox.ac.uk/generative-ai-and-news-report-2026-standalone-tools-information-infrastructure',desc:'Report based on a survey in nine countries. Source note: verify documentation and license.'}
+ ];
+ for(const [n,record] of falseToolPages.entries()){
+  const evidence=n===2?'Generative AI and News Report 2026: From standalone tools to information infrastructure. Report based on a survey.':'Tools and resources. Data Portals & Tools. Links to publications and training.';
+  const file=path.join(root,'intake','false-tool-'+n+'.json');
+  fs.writeFileSync(file,JSON.stringify({approved:[{category:'tools',record,review:{decision:'approved',reviewedBy:'editorial reviewer',reviewedAt:'2026-11-18',officialUrl:record.url,evidence}}]}));
+  assert.throws(()=>run('publish-approved.js',file),n===2?/news story or report, not a software product/:/directory or index page, not a software product/);
+ }
+
  const vagueToolManifest={approved:[{category:'tools',record:{...candidate,id:'vague-tool-candidate',name:'Vague tool',url:'https://example.org/vague-tool'},review:{decision:'approved',reviewedBy:'editorial-reviewer',reviewedAt:'2026-10-23',officialUrl:'https://example.org/vague-tool',evidence:'Official page reviewed; suitable for journalists and appears relevant.'}}]};
  fs.writeFileSync(input,JSON.stringify(vagueToolManifest));
  assert.throws(()=>run('publish-approved.js',input),/Tool evidence must describe a confirmed product function/);

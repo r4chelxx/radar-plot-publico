@@ -9,6 +9,19 @@ const outPath=process.argv[3]||'intake/editorial-evidence-review.json';
 const today=new Intl.DateTimeFormat('en-CA',{timeZone:'America/Bahia',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());
 const flat=v=>Array.isArray(v)?v.map(flat).join(' '):v&&typeof v==='object'?Object.values(v).map(flat).join(' '):String(v||'');
 const genericOpportunityTitle=/^(?:how to apply|about(?: the fellowship)?|application|apply now)$/i;
+function editorialReportPage(c,title=''){
+ const a=c.audit||{},text=[title,c.title||'',a.pageTitle||'',a.pageDescription||'',c.url||'',a.finalUrl||''].join(' ');
+ const types=(a.structuredData||[]).flatMap(x=>Array.isArray(x['@type'])?x['@type']:[x['@type']]).map(x=>String(x||''));
+ const editorialTypes=types.length>0&&types.every(x=>/^(?:NewsArticle|Article|BlogPosting)$/i.test(x));
+ return types.some(x=>/^(?:Report|ScholarlyArticle)$/i.test(x))||editorialTypes
+  ||/\b(?:news|research) report\s+20\d{2}\b/i.test(text)
+  ||/\/reports?\/20\d{2}\//i.test(String(c.url||'')+' '+String(a.finalUrl||''));
+}
+function genericToolListing(c,title=''){
+ const a=c.audit||{},value=[title,c.title||'',a.pageTitle||''].join(' ').replace(/\s*[|—–-]\s*(?:data|who|world health organization).*$/i,'').trim();
+ return /^(?:tools?(?: and resources)?|resources and tools|data portals? (?:&|and) tools|world bank open data)$/i.test(value)
+  ||/who\.int\/data\/inequality-monitor\/tools-resources|data\.worldbank\.org\/products\/tools/i.test(String(c.url||''));
+}
 function newsStoryPage(c){
  const a=c.audit||{},text=[a.pageTitle||'',a.pageDescription||'',a.evidenceText||''].join(' ');
  const fusionStory=/globalContent\s*=\s*\{[\s\S]{0,1400}?["']type["']\s*:\s*["']story["'][\s\S]{0,300}?["']subtype["']\s*:\s*["']news["']/i.test(text);
@@ -20,7 +33,7 @@ const excludedPath=/\/(?:blog|news|press|articles?|posts?|podcasts?|pitch|proces
 const excludedToolUrl=/(?:creativeapplications\.net(?:\/|$)|propublica\.org\/data(?:\/|$)|poynter\.org\/(?:shop|mediawise\/programs)(?:\/|$)|mailchimp\.com\/signup(?:\/|$)|indicator\.media(?:\/|$)|soxoj\.com\/?$|(?:www\.)?dw\.com\/|(?:www\.)?wired\.com\/story\/|(?:www\.)?reuters\.com\/|(?:www\.)?bbc\.com\/|(?:www\.)?theguardian\.com\/|(?:www\.)?apnews\.com\/|mediawiki\.org\/wiki\/(?:Moderator_Tools|Toolserver:)|wikidata\.org\/wiki\/(?:Special:NewItem|Wikidata:Tools\/))/i;
 const excludedToolContent=/\b(?:community of creative practitioners|critical making|published \d{2,}[,\d]* articles|membership plans?|research advisory|consulting services|course|training program|newsroom archive)\b/i;
 function toolIdentity(c,title,docs){
- if(newsStoryPage(c))return false;
+ if(newsStoryPage(c)||editorialReportPage(c,title)||genericToolListing(c,title))return false;
  // A product mentioned inside a book, author profile or directory does not
  // change the identity of the inspected page.
  if(/\b(?:book|handbook|specialist|portfolio|profile|directory)\b|^(?:tools|resources)(?: and toolkits)?$/i.test(title))return false;
