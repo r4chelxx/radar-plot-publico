@@ -6,6 +6,7 @@ try{
  const queue=path.join(root,'queue.json'),out=path.join(root,'out.json');
  const item=(id,category,audit,url)=>({id,url:url||'https://example.org/'+id,category,status:'pending',audit:{httpStatus:200,contentType:'text/html',checkedAt:'2026-11-09T00:00:00Z',...audit}});
  const q={candidates:[
+ item('social-reel','tools',{pageTitle:'AI tool demo',pageDescription:'Software generates data visualizations. Free access and documentation available.',evidenceText:'Software generates data visualizations. Free access and documentation available.',structuredData:[]},'https://www.instagram.com/reels/De9n98vxTeU'),
  item('grant','opportunities',{evidenceText:'Grant applications close 2099-12-31. Eligibility: who can apply is limited to journalists.',structuredData:[]}),
  item('structured-deadline','opportunities',{pageTitle:'Global Data Journalism Award',evidenceText:'Applications are open to journalists worldwide. Eligibility is stated on this page.',structuredData:[{'@type':'Event',name:'Global Data Journalism Award',endDate:'2099-12-31'}]}),
  item('fake-grant','opportunities',{evidenceText:'Welcome to our news blog about awards.',structuredData:[]}),
@@ -97,7 +98,10 @@ try{
  fs.writeFileSync(queue,JSON.stringify({candidates}));
  cp.execFileSync(process.execPath,[path.resolve('scripts/review-editorial-evidence.js'),queue,out]);
  const records=JSON.parse(fs.readFileSync(out,'utf8')).records;
- assert.equal(records.length,5);
+ assert.equal(records.length,6);
+ const social=records.find(x=>x.id==='social-reel');
+ assert.equal(social.category,'uncategorized');
+ assert.equal(social.decision,'pending_more_evidence');
  assert.ok(records.slice(0,3).every(x=>x.decision==='evidence_complete_for_record_draft'));
  assert.ok(records.slice(3).every(x=>x.decision==='pending_more_evidence'));
  console.log('Documentation and dated journalism calls accepted; articles and conferences rejected');
