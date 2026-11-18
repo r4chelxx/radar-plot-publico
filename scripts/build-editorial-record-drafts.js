@@ -4,6 +4,7 @@
 // Drafts are not approvals; only the independent evidence gate can authorize publication.
 const fs=require('node:fs');
 function socialPostUrl(value){try{const host=new URL(value).hostname.toLowerCase().replace(/^www\./,'');return /^(?:instagram\.com|facebook\.com|linkedin\.com|tiktok\.com|x\.com|twitter\.com|youtube\.com|youtu\.be|threads\.net|reddit\.com|pinterest\.com|t\.me)$/.test(host)}catch{return false}}
+function jlabPublicationPage(value){try{const u=new URL(value);return /^(?:www\.)?j-lab\.org$/i.test(u.hostname)&&/^\/publications\//i.test(u.pathname)}catch{return false}}
 const categoryFields={
  opportunities:['title','org','summary','type','themes','scope','deadline','deadlineStatus','eligibility','status','rules'],
  datasets:['name','org','territoryTier','kind','themes','coverage','frequency','format','period','granularity','geoUnit','api','docs','limitations','lastChecked','url','description'],
@@ -148,7 +149,7 @@ function todayBahia(now=new Date()){
 }
 function buildDrafts(queue,review,generatedAt=new Date().toISOString()){
  const candidates=new Map((queue.candidates||[]).map(x=>[x.id,x]));
- const eligible=(review.records||[]).filter(x=>x.decision==='evidence_complete_for_record_draft'&&x.publicationReady===false&&candidates.has(x.id)&&!socialPostUrl(candidates.get(x.id).audit?.finalUrl||candidates.get(x.id).url)&&(()=>{if(x.category!=='tools')return true;const c=candidates.get(x.id),audit=c.audit||{},title=clean(audit.pageTitle||c.title),url=audit.finalUrl||c.url;return !editorialReportPage(audit,title,url)&&!genericToolListing(audit,title,url)})());
+ const eligible=(review.records||[]).filter(x=>x.decision==='evidence_complete_for_record_draft'&&x.publicationReady===false&&candidates.has(x.id)&&!socialPostUrl(candidates.get(x.id).audit?.finalUrl||candidates.get(x.id).url)&&!jlabPublicationPage(candidates.get(x.id).audit?.finalUrl||candidates.get(x.id).url)&&(()=>{if(x.category!=='tools')return true;const c=candidates.get(x.id),audit=c.audit||{},title=clean(audit.pageTitle||c.title),url=audit.finalUrl||c.url;return !editorialReportPage(audit,title,url)&&!genericToolListing(audit,title,url)})());
  const drafts=eligible.map(result=>{
   const candidate=candidates.get(result.id),audit=candidate.audit||{},rawText=clean(audit.evidenceText),text=clean([rawText,audit.pageDescription].filter(Boolean).join(' ')),url=audit.finalUrl||candidate.url;
   let pageTitle=clean(audit.pageTitle||candidate.title);
