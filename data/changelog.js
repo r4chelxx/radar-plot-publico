@@ -1,61 +1,33 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
-{
-  "date": "2026-11-18",
-  "type": "ferramentas",
-  "title": "Publicação editorial verificada — 2026-11-18",
-  "items": [
-    {
-      "id": "auto-cf53aeb7445c168f",
-      "title": "Tools and resources"
-    },
-    {
-      "id": "auto-d3348a7817df326f",
-      "title": "World Bank Open Data"
-    }
-  ],
-  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Tools and resources; World Bank Open Data."
-}, 
-{
-  "date": "2026-11-18",
-  "type": "dados",
-  "title": "Publicação editorial verificada — 2026-11-18",
-  "items": [
-    {
-      "id": "auto-0b9fcaaa0bc8c6aa",
-      "title": "Warrants and Criminal Entities"
-    },
-    {
-      "id": "auto-a4be04b7843e7db5",
-      "title": "Know-Your-Business (KYB) Datasets"
-    },
-    {
-      "id": "auto-ed6238ccffd55b57",
-      "title": "Politically Exposed Persons Datasets"
-    },
-    {
-      "id": "auto-593b8be36a972ae1",
-      "title": "Regulatory Watchlists"
-    },
-    {
-      "id": "auto-d6598d243c689e78",
-      "title": "Debarred Companies and Individuals"
-    }
-  ],
-  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Warrants and Criminal Entities; Know-Your-Business (KYB) Datasets; Politically Exposed Persons Datasets; Regulatory Watchlists; Debarred Companies and Individuals."
-},
-{
-  "date": "2026-11-18",
-  "type": "ferramentas",
-  "title": "Publicação editorial verificada — 2026-11-18",
-  "items": [
-    {
-      "id": "auto-ed23a1d38f92ba99",
-      "title": "Generative AI and News Report 2026: From standalone tools to information infrastructure"
-    }
-  ],
-  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Generative AI and News Report 2026: From standalone tools to information infrastructure."
-}, 
+  {
+    "date": "2026-11-18",
+    "type": "dados",
+    "title": "Publicação editorial verificada — 2026-11-18",
+    "items": [
+      {
+        "id": "auto-0b9fcaaa0bc8c6aa",
+        "title": "Warrants and Criminal Entities"
+      },
+      {
+        "id": "auto-a4be04b7843e7db5",
+        "title": "Know-Your-Business (KYB) Datasets"
+      },
+      {
+        "id": "auto-ed6238ccffd55b57",
+        "title": "Politically Exposed Persons Datasets"
+      },
+      {
+        "id": "auto-593b8be36a972ae1",
+        "title": "Regulatory Watchlists"
+      },
+      {
+        "id": "auto-d6598d243c689e78",
+        "title": "Debarred Companies and Individuals"
+      }
+    ],
+    "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Warrants and Criminal Entities; Know-Your-Business (KYB) Datasets; Politically Exposed Persons Datasets; Regulatory Watchlists; Debarred Companies and Individuals."
+  },
   {
     "date": "2026-11-18",
     "type": "nova-oportunidade",
@@ -3495,12 +3467,6 @@ window.RADAR_PARTS.changelog=[
   },
   {
     "date": "2026-10-02",
-    "type": "produto",
-    "title": "Oportunidades ganham ação rápida “Já fiz”",
-    "detail": "O estado pessoal concluído foi renomeado para “Já fiz” e ganhou botão rápido ao lado de “Vou fazer” e “Não agora”. O estado continua sincronizado por usuário e não altera o status factual da oportunidade."
-  },
-  {
-    "date": "2026-10-02",
     "type": "nova-oportunidade",
     "title": "Direitos digitais e duas fellowships internacionais entram no radar",
     "items": [
@@ -3797,12 +3763,6 @@ window.RADAR_PARTS.changelog=[
   },
   {
     "date": "2026-09-29",
-    "type": "produto",
-    "title": "Home evidencia atualização diária completa",
-    "detail": "O bloco “Entrou no Radar” foi reposicionado para o topo da Visão Geral e agora explicita que a rodada diária cobre oportunidades, Dados & Bases e Ferramentas, com atalho para o histórico completo."
-  },
-  {
-    "date": "2026-09-29",
     "type": "ferramentas",
     "title": "Agendas públicas, análise documental e estruturas societárias",
     "items": [
@@ -3820,18 +3780,6 @@ window.RADAR_PARTS.changelog=[
       }
     ],
     "detail": "Agenda Transparente foi descoberta na newsletter Don’t LAI to Me #176 recebida no Gmail; Pinpoint e Aleph Pro vieram de pesquisa externa. As três foram verificadas em páginas oficiais e entram com limitações de cobertura, duplicidade, privacidade, acesso e confirmação documental."
-  },
-  {
-    "date": "2026-09-29",
-    "type": "produto",
-    "title": "Estados e históricos refinados para celular",
-    "detail": "Arquivo, formulários e ações de submissão ganharam alvos de toque maiores, navegação em grade e estados visuais próprios para enviada, aceita e rejeitada. O conteúdo permanece legível sem rolagem horizontal em telas estreitas."
-  },
-  {
-    "date": "2026-09-29",
-    "type": "produto",
-    "title": "Arquivo centraliza decisões e submissões",
-    "detail": "O histórico “Não agora” ganhou acesso direto em Oportunidades, e o Arquivo passou a reunir todas as submissões com pauta, destino, data, estado e resultado. Registros pessoais não são exibidos como vazios antes da sincronização."
   },
   {
     "date": "2026-09-29",
@@ -3868,209 +3816,5 @@ window.RADAR_PARTS.changelog=[
       }
     ],
     "detail": "GeoWhisperer, digga e DecryptAds foram adicionadas após descoberta na newsletter Indicator e verificação nas páginas oficiais, com limites de uso descritos."
-  },
-  {
-    "date": "2026-09-28",
-    "type": "dados",
-    "title": "Data centers ganha caminhos operacionais para investigar curtailment",
-    "detail": "Conjuntos do ONS sobre constrained-off eólico e fotovoltaico foram adicionados como sugestões ainda não utilizadas. O mapa reforça que restrição de geração não prova conexão física, comercial ou contratual com data centers."
-  },
-  {
-    "date": "2026-09-28",
-    "type": "produto",
-    "title": "Fontes usadas e sugestões agora têm leitura separada",
-    "detail": "Cada pauta ganhou blocos distintos para evidências já utilizadas e caminhos adicionais ainda não usados. Bases catalogadas com endereço público também oferecem acesso direto à fonte oficial."
-  },
-  {
-    "date": "2026-09-28",
-    "type": "produto",
-    "title": "Todas as pautas passam a indicar fontes relacionadas",
-    "detail": "Os mapas agora separam explicitamente fontes já utilizadas de sugestões ainda não usadas. O Radar orienta caminhos de apuração, sem executar consultas, extrair dados ou substituir evidências existentes."
-  },
-  {
-    "date": "2026-09-28",
-    "type": "dados",
-    "title": "Cobertura nacional ampliada para justiça, ambiente e saneamento",
-    "detail": "Foram catalogadas a API Pública do DataJud, os Autos de Infração Ambiental do Ibama, o TerraBrasilis do INPE e a transição SNIS/SINISA, com método de acesso, unidade de análise e limitações editoriais."
-  },
-  {
-    "date": "2026-09-28",
-    "type": "qualidade",
-    "title": "Relações temáticas da Matriz ficaram mais específicas",
-    "detail": "O tema genérico Dados deixou de criar relações automáticas sozinho. Vínculos editoriais cadastrados e relações confirmadas permanecem preservados."
-  },
-  {
-    "date": "2026-09-25",
-    "type": "dados",
-    "title": "Censo Escolar ampliado com acesso via Base dos Dados",
-    "detail": "Entraram as tabelas tratadas do Censo Escolar e o Catálogo de Escolas do Inep pela Base dos Dados, com período, possibilidades de exportação, custos potenciais de consulta e distinção da fonte original documentados."
-  },
-  {
-    "date": "2026-09-25",
-    "type": "dados",
-    "title": "Fontes educacionais locais e estaduais catalogadas",
-    "detail": "Educação em Números de Salvador e relatórios do SIGEduc Bahia foram adicionados como sistemas de consulta planejados, com limites de cobertura e extração explicitados; não são tratados como bases já analisadas."
-  },
-  {
-    "date": "2026-09-25",
-    "type": "qualidade",
-    "title": "Validação editorial reforçada",
-    "detail": "A checagem automática agora bloqueia estados inválidos, IDs repetidos nas etapas do mapa, metadados incompletos e etapas ligadas a fontes marcadas como não obtidas."
-  },
-  {
-    "date": "2026-09-25",
-    "type": "qualidade",
-    "title": "Sessão editorial protegida contra respostas antigas",
-    "detail": "Carregamentos de estado pessoal passaram a ser associados à conta e à sequência de sincronização; notas e destinos digitados são exibidos como texto seguro."
-  },
-  {
-    "date": "2026-09-25",
-    "type": "qualidade",
-    "title": "Pistas automáticas separadas do mapa de apuração",
-    "detail": "Frentes abertas exibem apenas fontes explicitamente vinculadas. Sugestões por tema foram rotuladas como pistas; vínculos pessoais confirmados aparecem também na ficha da oportunidade."
-  },
-  {
-    "date": "2026-09-25",
-    "type": "produto",
-    "title": "Matriz e ferramentas voltam à navegação",
-    "detail": "Matriz Pautas × oportunidades e Ferramentas ganharam acesso direto no menu. Vínculos confirmados na matriz aparecem na ficha da pauta; estados pessoais só são usados após sincronização."
-  },
-  {
-    "date": "2026-09-25",
-    "type": "dados",
-    "title": "Primeiros achados rastreados de newsletter",
-    "detail": "A edição 676 do Quantum of Sollazzo levou ao catálogo HDX (portal de dados) e ao React Simple Maps (ferramenta). Cada registro preserva o link da edição e aponta para o recurso original."
-  },
-  {
-    "date": "2026-09-25",
-    "type": "qualidade",
-    "title": "Links e rastreabilidade revisados",
-    "detail": "Corrigidos três endereços oficiais com 404; arquivos internos sem URL deixaram de oferecer botões quebrados. Proveniência documentada passa a aparecer nas fichas e listagens."
-  },
-  {
-    "date": "2026-09-25",
-    "type": "arquitetura",
-    "title": "Origem e classificação dos achados",
-    "detail": "Fontes monitoradas, itens descobertos e ferramentas passam a ser tratados separadamente. Associação de itens às fontes exige proveniência explícita; newsletter não entra como base de dados."
-  },
-  {
-    "date": "2026-09-25",
-    "type": "nova-oportunidade",
-    "title": "CTRL+J Research Hub 2026",
-    "detail": "Nova oportunidade verificada: programa para pesquisadores e profissionais da América Latina sobre jornalismo, tecnologia e políticas públicas; prazo 30/09 e honorário de US$1.000."
-  },
-  {
-    "date": "2026-09-25",
-    "type": "oportunidade",
-    "title": "Atualização diária de prazos",
-    "detail": "Chamadas com prazo em 24/09 foram movidas para encerradas. CTRL+J Microgrants entrou em monitoramento."
-  },
-  {
-    "date": "2026-09-25",
-    "type": "oportunidade",
-    "title": "Fila de elegibilidade pendente zerada",
-    "detail": "Os últimos registros em “pendente de confirmação” foram resolvidos. Allard Pierson 2027 foi arquivada pelo requisito de mestrado concluído; registros já descartados/encerrados também tiveram a elegibilidade normalizada."
-  },
-  {
-    "date": "2026-09-25",
-    "type": "oportunidade",
-    "title": "Auditoria de elegibilidade reduz pendências",
-    "detail": "FAPESP CEPID BRIDGE JC-IV foi arquivada por requisitos incompatíveis com o perfil atual; USC Data Fellowship 2026 também saiu do pipeline acionável. O estágio genérico “verificar elegibilidade” foi substituído por “pendente de confirmação”."
-  },
-  {
-    "date": "2026-09-25",
-    "type": "dados",
-    "title": "Salvador e cartografia baiana entram no catálogo",
-    "detail": "Dados & Bases ganhou Transparência Salvador, Geo Negócios e serviços geoespaciais da SEI, incluindo regionalizações, localidades e divisão político-administrativa. As entradas preservam limitações e diferenciam portais, sistemas e datasets."
-  },
-  {
-    "date": "2026-09-24",
-    "type": "produto",
-    "title": "Visão Geral passa a priorizar decisões editoriais",
-    "detail": "Sinais internos de manutenção saíram da home. Novidades só aparecem ali quando forem registradas como mudanças de oportunidade; Qualidade e Mudanças técnicas foram incorporadas à Metodologia, que ganhou uma seção dedicada ao uso de IA."
-  },
-  {
-    "date": "2026-09-24",
-    "type": "produto",
-    "title": "Fila de monitoramento de fontes",
-    "detail": "Fontes com checagem vencida agora formam uma fila automática, ordenada pelo atraso relativo à cadência e pela prioridade editorial, com acesso direto à fonte ou indicação de checagem via Gmail."
-  },
-  {
-    "date": "2026-09-24",
-    "type": "fontes",
-    "title": "Checagem de fontes separada das oportunidades",
-    "detail": "Cada fonte passou a ter estado e data próprios de monitoramento. O painel agora identifica fontes cuja checagem venceu pela cadência definida, sem confundir isso com a data de verificação de uma oportunidade."
-  },
-  {
-    "date": "2026-09-24",
-    "type": "fontes",
-    "title": "Fontes ganham cadência e eixo de cobertura",
-    "detail": "As fontes monitoradas foram convertidas para registros estruturados com prioridade, frequência recomendada e categoria de cobertura; o validador agora checa também esse módulo."
-  },
-  {
-    "date": "2026-09-24",
-    "type": "produto",
-    "title": "Inteligência de fontes restaurada",
-    "detail": "Metodologia agora mostra cobertura das fontes, prioridades, fontes com oportunidades associadas e data da última verificação relacionada; uma regressão de sintaxe na ficha de bases também foi corrigida."
-  },
-  {
-    "date": "2026-09-24",
-    "type": "dados",
-    "title": "ONS: constrained-off solar incorporado",
-    "detail": "O Radar passou a acompanhar separadamente os conjuntos de restrição de operação fotovoltaica do ONS, incluindo a versão detalhada por usina, com documentação e ressalva de revisão recorrente dos dados."
-  },
-  {
-    "date": "2026-09-24",
-    "type": "qualidade",
-    "title": "Validação antes da publicação",
-    "detail": "O repositório ganhou um validador executável e GitHub Actions: erros estruturais, IDs, relações, URLs, datas e chaves duplicadas passam a ser checados automaticamente em alterações de dados."
-  },
-  {
-    "date": "2026-09-24",
-    "type": "dados",
-    "title": "CNES e SIDRA auditados",
-    "detail": "CNES e entradas do SIDRA receberam metadados metodológicos; títulos das bases agora abrem a ficha detalhada dentro do Radar."
-  },
-  {
-    "date": "2026-09-24",
-    "type": "dados",
-    "title": "Auditoria de continuidade elétrica",
-    "detail": "Interrupções de Energia e DEC/FEC da ANEEL receberam URLs específicas, cobertura temporal, granularidade, frequência, documentação, limitações e última checagem oficiais."
-  },
-  {
-    "date": "2026-09-24",
-    "type": "dados",
-    "title": "Primeira auditoria de metadados",
-    "detail": "OuvidorSUS, SISAGUA Pontos de Captação e Ocorrências Emergenciais da ANEEL receberam período, granularidade, documentação, limitações e última checagem confirmados em fontes oficiais."
-  },
-  {
-    "date": "2026-09-24",
-    "type": "arquitetura",
-    "title": "Dados modularizados",
-    "detail": "Oportunidades, pautas, bases e fontes foram separados em módulos independentes."
-  },
-  {
-    "date": "2026-09-24",
-    "type": "produto",
-    "title": "Controle de qualidade",
-    "detail": "Validação estrutural passou a checar IDs, datas, URLs, relações entre registros e metadados pendentes."
-  },
-  {
-    "date": "2026-09-24",
-    "type": "produto",
-    "title": "Pipeline e matriz",
-    "detail": "Criadas visões operacionais para candidaturas e compatibilidade entre pautas e oportunidades."
-  },
-  {
-    "date": "2026-09-24",
-    "type": "ux",
-    "title": "Resumos nas oportunidades",
-    "detail": "Listagens passaram a priorizar uma descrição curta em vez de instruções internas de verificação."
-  },
-  {
-    "date": "2026-09-24",
-    "type": "ux",
-    "title": "Menu mobile corrigido",
-    "detail": "O menu fecha automaticamente após a navegação em telas pequenas."
   }
 ];
