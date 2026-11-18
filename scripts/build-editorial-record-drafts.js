@@ -164,7 +164,7 @@ function buildDrafts(queue,review,generatedAt=new Date().toISOString()){
    record.rules=url;record.apply=url;
   }else if(result.category==='datasets'){
    const data=structured(audit,/dataset/i),formats=[data.encodingFormat,data.distribution?.encodingFormat].flat().filter(Boolean);
-   record.name=pageTitle;record.org=org||explicitOrganization(text);
+   record.name=pageTitle;record.org=org||explicitOrganization(text)||knownOrganizationForUrl(url);
    // An institutional suffix is attributable only when structured organization
    // identity points to this official site's own section, not a discovery feed.
    if(!record.org&&organization.url){
