@@ -2,7 +2,7 @@
 const assert=require('node:assert/strict'),fs=require('node:fs'),os=require('node:os'),path=require('node:path'),cp=require('node:child_process');
 const {buildAutomaticPublications}=require('./build-automated-publications');
 const root=fs.mkdtempSync(path.join(os.tmpdir(),'radar-editorial-'));
-const run=(file,...args)=>cp.execFileSync(process.execPath,[path.resolve('scripts',file),...args],{cwd:root,encoding:'utf8'});
+const run=(file,...args)=>{const output=cp.execFileSync(process.execPath,[path.resolve('scripts',file),...args],{cwd:root,encoding:'utf8'});if(file==='publish-approved.js'){const result=JSON.parse(output);if(result.rejected?.length)throw Error(result.rejected.map(x=>x.reason).join('; '));return output;}return output;};
 try{
  fs.mkdirSync(path.join(root,'data'));fs.mkdirSync(path.join(root,'intake'));
  for(const category of ['opportunities','datasets','tools','changelog'])fs.writeFileSync(path.join(root,'data',category+'.js'),'window.RADAR_PARTS=window.RADAR_PARTS||{};\nwindow.RADAR_PARTS.'+category+'=[\n];\n');
