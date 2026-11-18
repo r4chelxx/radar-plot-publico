@@ -1,6 +1,13 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.tools=[
 {
+  "id": "auto-c33845d82eec46d7",
+  "name": "Google AI falsely links Auckland anaesthetic technician to drink-driving convictions",
+  "kind": "driving convictions",
+  "url": "https://www.nzherald.co.nz/nz/auckland/google-ai-falsely-links-auckland-anaesthetic-technician-to-drink-driving-convictions/XZOO344JYZDOPN33BGK5KQOWYM/",
+  "desc": "Google is investigating the false association and says it will fix the issue. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
+}, 
+{
   "id": "govteca-busca-lai",
   "name": "Busca LAI",
   "kind": "Busca de pedidos de acesso à informação",

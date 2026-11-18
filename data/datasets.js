@@ -1,6 +1,28 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.datasets=[
 {
+  "id": "auto-c0272f4740f6c9ff",
+  "name": "Maritime-related sanctions",
+  "org": "is directly sanctioned, or is mentioned on a watchlist in a secondary capacity",
+  "territoryTier": "Outros",
+  "kind": "portal",
+  "themes": [
+    "Dados abertos"
+  ],
+  "coverage": "IMO numbers are assigned by the International Maritime Organization, and different schemes are used for vessels and organizations.",
+  "frequency": "Updated files will be provided once a day at the same location.",
+  "format": "JSON, CSV",
+  "period": "Não informado pela fonte oficial",
+  "granularity": "Não informado pela fonte oficial",
+  "geoUnit": "IMO numbers are assigned by the International Maritime Organization, and different schemes are used for vessels and organizations.",
+  "api": "https://data.opensanctions.org/datasets/latest/maritime/index.json",
+  "docs": "https://www.opensanctions.org/datasets/maritime/",
+  "limitations": "A página consultada não detalha todas as limitações, a atualização e a qualidade do recurso; conferir documentação e licença antes do uso editorial.",
+  "lastChecked": "2026-11-18",
+  "url": "https://www.opensanctions.org/datasets/maritime/",
+  "description": "A shipping-focussed data subset for screening vessels, operators and owners against sanctions."
+}, 
+{
   "id": "auto-94f3d2156f6442d3",
   "name": "US OFAC Specially Designated Nationals (SDN) List",
   "org": "OpenSanctions.org",
