@@ -16,7 +16,7 @@ const spec={
 const ctx={window:{RADAR_PARTS:{}}};vm.createContext(ctx);
 for(const name of [...Object.keys(spec).map(x=>spec[x].path),'data/changelog.js'])vm.runInContext(fs.readFileSync(name,'utf8'),ctx,{filename:name});
 if(fs.existsSync('data/sources.js'))vm.runInContext(fs.readFileSync('data/sources.js','utf8'),ctx,{filename:'data/sources.js'});
-const D=ctx.window.RADAR_PARTS,insertions={opportunities:[],datasets:[],tools:[]},log=[];
+const D=ctx.window.RADAR_PARTS,insertions={opportunities:[],datasets:[],tools:[]},log=[],rejected=[];
 const dateParts=Object.fromEntries(new Intl.DateTimeFormat('en-US',{timeZone:'America/Bahia',year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(new Date()).map(p=>[p.type,p.value]));
 const today=[dateParts.year,dateParts.month,dateParts.day].join('-');
 const safeUrl=x=>{try{const u=new URL(x);return u.protocol==='https:'&&!!u.hostname}catch{return false}};
@@ -28,6 +28,7 @@ const existingUrls=new Map();
 for(const [category,rule] of Object.entries(spec))for(const existing of D[category]||[]){const value=existing[rule.field];if(safeUrl(value))existingUrls.set(canonicalUrl(value),existing.id)}
 const approvedIds=new Set();
 for(const entry of source.approved){
+ try{
  const category=entry.category,rule=spec[category],record=entry.record||{},proof=entry.review||{};
  if(category==='opportunities'){
   record.title=cleanTitle(record.title,record.org);
@@ -124,6 +125,7 @@ for(const entry of source.approved){
  }
  insertions[category].push(record);
  log.push({type:rule.type,id:record.id,title:record[rule.title],date:today,detail:proof.evidence});
+ }catch(error){rejected.push({id:entry?.record?.id||null,category:entry?.category||null,reason:String(error.message||error).slice(0,300)});}
 }
 // Reconcile an aggregator alias only when a primary record for the same named
 // programme and exact deadline already exists or has passed publication checks.
@@ -196,4 +198,4 @@ const updates=Object.values(spec).map(rule=>({rule,items:log.filter(x=>x.type===
  detail:'Registros aprovados individualmente com documentação oficial e evidência editorial: '+items.map(x=>x.title).join('; ')+'.'
 }));
 prepend('data/changelog.js','changelog',updates);
-console.log(JSON.stringify({date:today,approved:source.approved.length,published:log.length,archived,publicationAliases,duplicateAliasesRemoved:duplicateAliases.size,alreadyPresent:source.approved.length-log.length,byCategory:Object.fromEntries(Object.entries(insertions).map(([k,v])=>[k,v.length]))}));
+console.log(JSON.stringify({date:today,approved:source.approved.length,published:log.length,rejected,archived,publicationAliases,duplicateAliasesRemoved:duplicateAliases.size,alreadyPresent:source.approved.length-log.length,byCategory:Object.fromEntries(Object.entries(insertions).map(([k,v])=>[k,v.length]))}));
