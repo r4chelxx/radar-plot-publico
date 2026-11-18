@@ -125,13 +125,13 @@ function editorialReportPage(audit,title,url){
  const types=(audit.structuredData||[]).flatMap(x=>Array.isArray(x['@type'])?x['@type']:[x['@type']]).map(x=>String(x||''));
  const text=[title,audit.pageTitle||'',audit.pageDescription||'',url].join(' ');
  return types.some(x=>/^(?:Report|ScholarlyArticle|NewsArticle|Article|BlogPosting)$/i.test(x))
-  ||/\\b(?:news|research) report\\s+20\\d{2}\\b/i.test(text)
-  ||/\\/reports?\\/20\\d{2}\\//i.test(url);
+  ||/\b(?:news|research) report\s+20\d{2}\b/i.test(text)
+  ||/\/reports?\/20\d{2}\//i.test(url);
 }
 function genericToolListing(audit,title,url){
- const value=[title,audit.pageTitle||''].join(' ').replace(/\\s*[|—–-]\\s*(?:data|who|world health organization).*$/i,'').trim();
+ const value=[title,audit.pageTitle||''].join(' ').replace(/\s*[|—–-]\s*(?:data|who|world health organization).*$/i,'').trim();
  return /^(?:tools?(?: and resources)?|resources and tools|data portals? (?:&|and) tools|world bank open data)$/i.test(value)
-  ||/who\\.int\\/data\\/inequality-monitor\\/tools-resources|data\\.worldbank\\.org\\/products\\/tools/i.test(url);
+  ||/who\.int\/data\/inequality-monitor\/tools-resources|data\.worldbank\.org\/products\/tools/i.test(url);
 }
 function knownOrganizationForUrl(url){
  try{
