@@ -109,6 +109,8 @@ jobs:
           const byCategory=Object.fromEntries(['opportunities','datasets','tools'].map(c=>[c,automatic.filter(x=>x.category===c).length]));
           fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY,['### Aprovações automáticas por evidência',...Object.entries(byCategory).map(([c,n])=>'- '+c+': '+n),'- Total: '+automatic.length,'Somente fichas completas, recentes e com verificações específicas passam pelo gate.'].join('\n')+'\n');
           NODE
+      - name: Remove approvals rejected by the independent publication gate
+        run: node scripts/filter-rejected-approvals.js /tmp/radar-combined-approved.json
       - name: Dry-run combined approved manifest without publishing
         env:
           RADAR_APPROVED_MANIFEST: /tmp/radar-combined-approved.json
