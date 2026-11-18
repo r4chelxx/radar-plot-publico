@@ -1,12 +1,11 @@
 {
-  "checkedAt": "2026-11-18T06:31:32.425Z",
+  "checkedAt": "2026-11-18T07:14:47.553Z",
   "policy": "404/410 and ArcGIS application errors within HTTP 200 become broken only after appearing as suspect or broken in the previous audit; blocked and network results are inconclusive",
   "counts": {
-    "ok": 1261,
-    "blocked": 56,
-    "network": 55,
-    "server": 2,
-    "suspect": 1
+    "ok": 1271,
+    "blocked": 61,
+    "network": 52,
+    "server": 1
   },
   "results": [
     {
@@ -160,6 +159,7 @@
       "finalUrl": "https://www.generonumero.media/artigos/programa-de-bolsas-aborto-em-pilulas/",
       "class": "ok",
       "attempts": [
+        "TypeError:fetch failed",
         200
       ]
     },
@@ -2950,11 +2950,11 @@
           "field": "apply"
         }
       ],
-      "status": 200,
-      "finalUrl": "https://knightwallacefellowshipapplications.secure-platform.com/site",
-      "class": "ok",
+      "status": 403,
+      "finalUrl": "https://knightwallacefellowshipapplications.secure-platform.com/",
+      "class": "blocked",
       "attempts": [
-        200
+        403
       ]
     },
     {
@@ -2993,11 +2993,11 @@
           "field": "apply"
         }
       ],
-      "status": 200,
+      "status": 403,
       "finalUrl": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/data-journalism-grants",
-      "class": "ok",
+      "class": "blocked",
       "attempts": [
-        200
+        403
       ]
     },
     {
@@ -3108,11 +3108,11 @@
           "field": "apply"
         }
       ],
-      "status": 200,
+      "status": 403,
       "finalUrl": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/our-work-environment-grants",
-      "class": "ok",
+      "class": "blocked",
       "attempts": [
-        200
+        403
       ]
     },
     {
@@ -4003,11 +4003,11 @@
           "field": "apply"
         }
       ],
-      "status": 403,
+      "status": 200,
       "finalUrl": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/gender-equality-grant",
-      "class": "blocked",
+      "class": "ok",
       "attempts": [
-        403
+        200
       ]
     },
     {
@@ -4027,11 +4027,11 @@
           "field": "apply"
         }
       ],
-      "status": 403,
+      "status": 200,
       "finalUrl": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/global-reporting-grants",
-      "class": "blocked",
+      "class": "ok",
       "attempts": [
-        403
+        200
       ]
     },
     {
@@ -4186,6 +4186,221 @@
       ],
       "status": 200,
       "finalUrl": "https://www.firenewsroom.org/about-us/fire-frequently-asked-questions",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "auto-0b9fcaaa0bc8c6aa",
+      "field": "url",
+      "url": "https://www.opensanctions.org/datasets/crime/",
+      "references": [
+        {
+          "type": "dataset",
+          "id": "auto-0b9fcaaa0bc8c6aa",
+          "field": "url"
+        },
+        {
+          "type": "dataset",
+          "id": "auto-0b9fcaaa0bc8c6aa",
+          "field": "docs"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://www.opensanctions.org/datasets/crime/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "auto-0b9fcaaa0bc8c6aa",
+      "field": "api",
+      "url": "https://data.opensanctions.org/datasets/latest/crime/index.json",
+      "references": [
+        {
+          "type": "dataset",
+          "id": "auto-0b9fcaaa0bc8c6aa",
+          "field": "api"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://data.opensanctions.org/artifacts/crime/20261117071905-lao/index.json",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "auto-a4be04b7843e7db5",
+      "field": "url",
+      "url": "https://www.opensanctions.org/datasets/kyb/",
+      "references": [
+        {
+          "type": "dataset",
+          "id": "auto-a4be04b7843e7db5",
+          "field": "url"
+        },
+        {
+          "type": "dataset",
+          "id": "auto-a4be04b7843e7db5",
+          "field": "docs"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://www.opensanctions.org/datasets/kyb/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "auto-a4be04b7843e7db5",
+      "field": "api",
+      "url": "https://data.opensanctions.org/datasets/latest/kyb/index.json",
+      "references": [
+        {
+          "type": "dataset",
+          "id": "auto-a4be04b7843e7db5",
+          "field": "api"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://data.opensanctions.org/artifacts/kyb/20261024152836-mwj/index.json",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "auto-ed6238ccffd55b57",
+      "field": "url",
+      "url": "https://www.opensanctions.org/datasets/peps/",
+      "references": [
+        {
+          "type": "dataset",
+          "id": "auto-ed6238ccffd55b57",
+          "field": "url"
+        },
+        {
+          "type": "dataset",
+          "id": "auto-ed6238ccffd55b57",
+          "field": "docs"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://www.opensanctions.org/datasets/peps/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "auto-ed6238ccffd55b57",
+      "field": "api",
+      "url": "https://data.opensanctions.org/datasets/latest/peps/index.json",
+      "references": [
+        {
+          "type": "dataset",
+          "id": "auto-ed6238ccffd55b57",
+          "field": "api"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://data.opensanctions.org/artifacts/peps/20261117152834-hyb/index.json",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "auto-593b8be36a972ae1",
+      "field": "url",
+      "url": "https://www.opensanctions.org/datasets/regulatory/",
+      "references": [
+        {
+          "type": "dataset",
+          "id": "auto-593b8be36a972ae1",
+          "field": "url"
+        },
+        {
+          "type": "dataset",
+          "id": "auto-593b8be36a972ae1",
+          "field": "docs"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://www.opensanctions.org/datasets/regulatory/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "auto-593b8be36a972ae1",
+      "field": "api",
+      "url": "https://data.opensanctions.org/datasets/latest/regulatory/index.json",
+      "references": [
+        {
+          "type": "dataset",
+          "id": "auto-593b8be36a972ae1",
+          "field": "api"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://data.opensanctions.org/artifacts/regulatory/20261117152834-hyo/index.json",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "auto-d6598d243c689e78",
+      "field": "url",
+      "url": "https://www.opensanctions.org/datasets/debarment/",
+      "references": [
+        {
+          "type": "dataset",
+          "id": "auto-d6598d243c689e78",
+          "field": "url"
+        },
+        {
+          "type": "dataset",
+          "id": "auto-d6598d243c689e78",
+          "field": "docs"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://www.opensanctions.org/datasets/debarment/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
+    {
+      "type": "dataset",
+      "id": "auto-d6598d243c689e78",
+      "field": "api",
+      "url": "https://data.opensanctions.org/datasets/latest/debarment/index.json",
+      "references": [
+        {
+          "type": "dataset",
+          "id": "auto-d6598d243c689e78",
+          "field": "api"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://data.opensanctions.org/artifacts/debarment/20261118005608-cau/index.json",
       "class": "ok",
       "attempts": [
         200
@@ -4986,6 +5201,7 @@
       "finalUrl": "https://idec.org.br/luz-para-todos",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -5025,13 +5241,11 @@
           "field": "docs"
         }
       ],
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "AbortError:This operation was aborted",
+      "status": 200,
+      "finalUrl": "https://transparencia.tce.sp.gov.br/despesas-fornecedor",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "AbortError:This operation was aborted"
+        200
       ]
     },
     {
@@ -5199,11 +5413,13 @@
           "field": "docs"
         }
       ],
-      "status": 200,
-      "finalUrl": "https://geoportal.infrasa.gov.br/ontl/",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
       "attempts": [
-        200
+        "TypeError:fetch failed",
+        "TypeError:fetch failed"
       ]
     },
     {
@@ -7227,7 +7443,7 @@
         }
       ],
       "status": 200,
-      "finalUrl": "https://dd-publico.serpro.gov.br/extensions/painel/ObrasgovbrIntervencao.html?qlikTicket=W.OxzzKLR9-U3MyZ",
+      "finalUrl": "https://dd-publico.serpro.gov.br/extensions/painel/ObrasgovbrIntervencao.html?qlikTicket=GBpJM8s1DheUQzM7",
       "class": "ok",
       "attempts": [
         200
@@ -15828,11 +16044,11 @@
           "field": "url"
         }
       ],
-      "status": 200,
+      "status": 403,
       "finalUrl": "https://dadosabertos.inss.gov.br/dataset/comunicacoes-de-acidente-de-trabalho-cat-plano-de-dados-abertos-jun-2023-a-dez-2027",
-      "class": "ok",
+      "class": "blocked",
       "attempts": [
-        200
+        403
       ]
     },
     {
@@ -15871,11 +16087,11 @@
           "field": "url"
         }
       ],
-      "status": 200,
+      "status": 403,
       "finalUrl": "https://dadosabertos.inss.gov.br/dataset/beneficios-concedidos-plano-de-dados-abertos-jun-2023-a-dez-2027",
-      "class": "ok",
+      "class": "blocked",
       "attempts": [
-        200
+        403
       ]
     },
     {
@@ -15914,11 +16130,11 @@
           "field": "url"
         }
       ],
-      "status": 200,
+      "status": 403,
       "finalUrl": "https://dadosabertos.inss.gov.br/dataset/beneficios-mantidos-plano-de-dados-abertos-jun-2023-a-dez-2027",
-      "class": "ok",
+      "class": "blocked",
       "attempts": [
-        200
+        403
       ]
     },
     {
@@ -15957,11 +16173,11 @@
           "field": "url"
         }
       ],
-      "status": 200,
+      "status": 403,
       "finalUrl": "https://dadosabertos.inss.gov.br/dataset/beneficios-indeferidos-plano-de-dados-abertos-jun-2023-a-dez-2027",
-      "class": "ok",
+      "class": "blocked",
       "attempts": [
-        200
+        403
       ]
     },
     {
@@ -18398,7 +18614,6 @@
       "finalUrl": "https://datacatalog.worldbank.org/search/dataset/0037798/global-economic-monitor",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -18418,7 +18633,6 @@
       "finalUrl": "https://datacatalog.worldbank.org/search/dataset/0037798/global-economic-monitor",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -20662,6 +20876,7 @@
       "finalUrl": "https://www.gov.br/compras/pt-br/acesso-a-informacao/manuais/manual-dados-abertos/manual-api-compras.pdf",
       "class": "ok",
       "attempts": [
+        "TypeError:fetch failed",
         200
       ]
     },
@@ -20875,11 +21090,11 @@
           "field": "url"
         }
       ],
-      "status": 403,
+      "status": 200,
       "finalUrl": "https://data.worldbank.org/",
-      "class": "blocked",
+      "class": "ok",
       "attempts": [
-        403
+        200
       ]
     },
     {
@@ -21069,11 +21284,12 @@
           "field": "url"
         }
       ],
-      "status": 200,
+      "status": 429,
       "finalUrl": "https://www.gov.br/anatel/pt-br/dados/dados-abertos",
-      "class": "ok",
+      "class": "blocked",
       "attempts": [
-        200
+        "TypeError:fetch failed",
+        429
       ]
     },
     {
@@ -21909,7 +22125,6 @@
       "finalUrl": "https://datasus.saude.gov.br/",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -22251,6 +22466,7 @@
       "finalUrl": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados",
       "class": "ok",
       "attempts": [
+        "TypeError:fetch failed",
         200
       ]
     },
@@ -22458,11 +22674,13 @@
           "field": "url"
         }
       ],
-      "status": 200,
-      "finalUrl": "https://salvador.ba.gov.br/",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "AbortError:This operation was aborted",
       "attempts": [
-        200
+        "AbortError:This operation was aborted",
+        "AbortError:This operation was aborted"
       ]
     },
     {
@@ -22500,6 +22718,7 @@
       "finalUrl": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/acoes-e-programas/programas-projetos-acoes-obras-e-atividades/estatisticas-trabalho/rais/rais-2025/rais-2025",
       "class": "ok",
       "attempts": [
+        "TypeError:fetch failed",
         200
       ]
     },
@@ -22770,13 +22989,11 @@
           "field": "url"
         }
       ],
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "AbortError:This operation was aborted",
+      "status": 200,
+      "finalUrl": "https://datasus.saude.gov.br/acesso-a-informacao/producao-hospitalar-sih-sus/",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "AbortError:This operation was aborted"
+        200
       ]
     },
     {
@@ -22796,13 +23013,11 @@
           "field": "url"
         }
       ],
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "AbortError:This operation was aborted",
+      "status": 200,
+      "finalUrl": "https://datasus.saude.gov.br/cnes-recursos-fisicos/",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "AbortError:This operation was aborted"
+        200
       ]
     },
     {
@@ -22855,13 +23070,11 @@
           "field": "url"
         }
       ],
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "AbortError:This operation was aborted",
+      "status": 200,
+      "finalUrl": "https://datasus.saude.gov.br/cnes-recursos-humanos-a-partir-de-agosto-de-2007-ocupacoes-classificadas-pela-cbo-2002/",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "AbortError:This operation was aborted"
+        200
       ]
     },
     {
@@ -23360,6 +23573,7 @@
       "finalUrl": "https://www.gov.br/cidades/pt-br/acesso-a-informacao/acoes-e-programas/saneamento/sinisa",
       "class": "ok",
       "attempts": [
+        "TypeError:fetch failed",
         200
       ]
     },
@@ -23674,6 +23888,7 @@
       "finalUrl": "https://www.gov.br/fnde/pt-br/acesso-a-informacao/dados-abertos",
       "class": "ok",
       "attempts": [
+        "TypeError:fetch failed",
         200
       ]
     },
@@ -23966,11 +24181,11 @@
           "field": "url"
         }
       ],
-      "status": 202,
+      "status": 200,
       "finalUrl": "https://oneworldmedia.org.uk/awards/",
       "class": "ok",
       "attempts": [
-        202
+        200
       ]
     },
     {
@@ -24262,11 +24477,11 @@
           "field": "url"
         }
       ],
-      "status": 202,
+      "status": 200,
       "finalUrl": "https://rorypecktrust.org/",
       "class": "ok",
       "attempts": [
-        202
+        200
       ]
     },
     {
@@ -24319,11 +24534,11 @@
           "field": "url"
         }
       ],
-      "status": 202,
+      "status": 200,
       "finalUrl": "https://oneworldmedia.org.uk/fellowship/",
       "class": "ok",
       "attempts": [
-        202
+        200
       ]
     },
     {
@@ -24338,11 +24553,11 @@
           "field": "url"
         }
       ],
-      "status": 202,
+      "status": 200,
       "finalUrl": "https://amadomundo.com/",
       "class": "ok",
       "attempts": [
-        202
+        200
       ]
     },
     {
@@ -25044,6 +25259,7 @@
       "finalUrl": "https://www.gov.br/anp/pt-br/centrais-de-conteudo/dados-abertos/dados-abertos",
       "class": "ok",
       "attempts": [
+        "TypeError:fetch failed",
         200
       ]
     },
@@ -27715,13 +27931,11 @@
           "field": "discoveryUrl"
         }
       ],
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
+      "status": 200,
+      "finalUrl": "https://inkscape.org/",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ]
     },
     {
@@ -29087,7 +29301,6 @@
       "finalUrl": "https://www.generonumero.media/artigos/cartilha-violencia-de-genero/",
       "class": "ok",
       "attempts": [
-        "TypeError:fetch failed",
         200
       ]
     },
@@ -29160,12 +29373,11 @@
           "field": "url"
         }
       ],
-      "status": 502,
+      "status": 200,
       "finalUrl": "https://plugins.qgis.org/plugins/DesagregaBiomasBR/",
-      "class": "server",
+      "class": "ok",
       "attempts": [
-        502,
-        502
+        200
       ]
     },
     {
@@ -29899,12 +30111,11 @@
           "field": "url"
         }
       ],
-      "status": 404,
+      "status": 200,
       "finalUrl": "https://agendas.fiquemsabendo.com.br/",
-      "class": "suspect",
+      "class": "ok",
       "attempts": [
-        404,
-        404
+        200
       ]
     },
     {
