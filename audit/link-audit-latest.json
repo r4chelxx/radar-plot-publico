@@ -1,13 +1,37 @@
 {
-  "checkedAt": "2026-11-18T07:14:47.553Z",
+  "checkedAt": "2026-11-18T07:47:09.611Z",
   "policy": "404/410 and ArcGIS application errors within HTTP 200 become broken only after appearing as suspect or broken in the previous audit; blocked and network results are inconclusive",
   "counts": {
-    "ok": 1271,
-    "blocked": 61,
-    "network": 52,
+    "ok": 1266,
+    "blocked": 62,
+    "network": 56,
     "server": 1
   },
   "results": [
+    {
+      "type": "opportunity",
+      "id": "auto-573df7014317ef17",
+      "field": "rules",
+      "url": "https://gfmd.info/fundings/pulitzer-center-rainforest-reporting-grant/",
+      "references": [
+        {
+          "type": "opportunity",
+          "id": "auto-573df7014317ef17",
+          "field": "rules"
+        },
+        {
+          "type": "opportunity",
+          "id": "auto-573df7014317ef17",
+          "field": "apply"
+        }
+      ],
+      "status": 200,
+      "finalUrl": "https://gfmd.info/fundings/pulitzer-center-rainforest-reporting-grant/",
+      "class": "ok",
+      "attempts": [
+        200
+      ]
+    },
     {
       "type": "opportunity",
       "id": "auto-4e15f03a4129d1d8",
@@ -159,7 +183,6 @@
       "finalUrl": "https://www.generonumero.media/artigos/programa-de-bolsas-aborto-em-pilulas/",
       "class": "ok",
       "attempts": [
-        "TypeError:fetch failed",
         200
       ]
     },
@@ -1721,11 +1744,11 @@
           "field": "url"
         }
       ],
-      "status": 200,
+      "status": 403,
       "finalUrl": "https://pulitzercenter.org/opportunities/grants-fellowships",
-      "class": "ok",
+      "class": "blocked",
       "attempts": [
-        200
+        403
       ]
     },
     {
@@ -1750,11 +1773,13 @@
           "field": "url"
         }
       ],
-      "status": 200,
-      "finalUrl": "https://www.combustivellegal.com.br/premiodejornalismo/regulamento/",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "AbortError:This operation was aborted",
       "attempts": [
-        200
+        "AbortError:This operation was aborted",
+        "AbortError:This operation was aborted"
       ]
     },
     {
@@ -1769,11 +1794,13 @@
           "field": "apply"
         }
       ],
-      "status": 200,
-      "finalUrl": "https://www.combustivellegal.com.br/premiodejornalismo/",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "AbortError:This operation was aborted",
       "attempts": [
-        200
+        "AbortError:This operation was aborted",
+        "AbortError:This operation was aborted"
       ]
     },
     {
@@ -2993,11 +3020,11 @@
           "field": "apply"
         }
       ],
-      "status": 403,
+      "status": 200,
       "finalUrl": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/data-journalism-grants",
-      "class": "blocked",
+      "class": "ok",
       "attempts": [
-        403
+        200
       ]
     },
     {
@@ -3108,11 +3135,11 @@
           "field": "apply"
         }
       ],
-      "status": 403,
+      "status": 200,
       "finalUrl": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/our-work-environment-grants",
-      "class": "blocked",
+      "class": "ok",
       "attempts": [
-        403
+        200
       ]
     },
     {
@@ -3643,6 +3670,7 @@
       "finalUrl": "https://dowjonesnewsfund.org/djnfinternships/",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -4003,11 +4031,11 @@
           "field": "apply"
         }
       ],
-      "status": 200,
+      "status": 403,
       "finalUrl": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/gender-equality-grant",
-      "class": "ok",
+      "class": "blocked",
       "attempts": [
-        200
+        403
       ]
     },
     {
@@ -4027,11 +4055,11 @@
           "field": "apply"
         }
       ],
-      "status": 200,
+      "status": 403,
       "finalUrl": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/global-reporting-grants",
-      "class": "ok",
+      "class": "blocked",
       "attempts": [
-        200
+        403
       ]
     },
     {
@@ -4228,7 +4256,7 @@
         }
       ],
       "status": 200,
-      "finalUrl": "https://data.opensanctions.org/artifacts/crime/20261117071905-lao/index.json",
+      "finalUrl": "https://data.opensanctions.org/artifacts/crime/20261118071907-idm/index.json",
       "class": "ok",
       "attempts": [
         200
@@ -5201,7 +5229,6 @@
       "finalUrl": "https://idec.org.br/luz-para-todos",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -6062,11 +6089,12 @@
           "field": "docs"
         }
       ],
-      "status": 200,
+      "status": 429,
       "finalUrl": "https://www.gov.br/empresas-e-negocios/pt-br/mapa-de-empresas",
-      "class": "ok",
+      "class": "blocked",
       "attempts": [
-        200
+        "TypeError:fetch failed",
+        429
       ]
     },
     {
@@ -7443,7 +7471,7 @@
         }
       ],
       "status": 200,
-      "finalUrl": "https://dd-publico.serpro.gov.br/extensions/painel/ObrasgovbrIntervencao.html?qlikTicket=GBpJM8s1DheUQzM7",
+      "finalUrl": "https://dd-publico.serpro.gov.br/extensions/painel/ObrasgovbrIntervencao.html?qlikTicket=U6HxkBk3N.29avqU",
       "class": "ok",
       "attempts": [
         200
@@ -7786,11 +7814,13 @@
           "field": "docs"
         }
       ],
-      "status": 200,
-      "finalUrl": "https://www.hidro.ce.gov.br/",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "AbortError:This operation was aborted",
       "attempts": [
-        200
+        "AbortError:This operation was aborted",
+        "AbortError:This operation was aborted"
       ]
     },
     {
@@ -18149,7 +18179,6 @@
       "finalUrl": "https://tabnet.datasus.gov.br/cgi/sbucal/sb96.zip",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -20876,7 +20905,6 @@
       "finalUrl": "https://www.gov.br/compras/pt-br/acesso-a-informacao/manuais/manual-dados-abertos/manual-api-compras.pdf",
       "class": "ok",
       "attempts": [
-        "TypeError:fetch failed",
         200
       ]
     },
@@ -21284,12 +21312,11 @@
           "field": "url"
         }
       ],
-      "status": 429,
+      "status": 200,
       "finalUrl": "https://www.gov.br/anatel/pt-br/dados/dados-abertos",
-      "class": "blocked",
+      "class": "ok",
       "attempts": [
-        "TypeError:fetch failed",
-        429
+        200
       ]
     },
     {
@@ -21944,6 +21971,7 @@
       "finalUrl": "https://map.geo.sei.ba.gov.br/arcgis/rest/services/servicos_sei/DPA_A_100K_VIGENTE_GCS_SIR_SEI/FeatureServer/0?f=json",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -22466,7 +22494,6 @@
       "finalUrl": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados",
       "class": "ok",
       "attempts": [
-        "TypeError:fetch failed",
         200
       ]
     },
@@ -22718,7 +22745,6 @@
       "finalUrl": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/acoes-e-programas/programas-projetos-acoes-obras-e-atividades/estatisticas-trabalho/rais/rais-2025/rais-2025",
       "class": "ok",
       "attempts": [
-        "TypeError:fetch failed",
         200
       ]
     },
@@ -23055,6 +23081,7 @@
       "finalUrl": "https://www.ba.gov.br/saude/",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ]
     },
@@ -23070,11 +23097,13 @@
           "field": "url"
         }
       ],
-      "status": 200,
-      "finalUrl": "https://datasus.saude.gov.br/cnes-recursos-humanos-a-partir-de-agosto-de-2007-ocupacoes-classificadas-pela-cbo-2002/",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "AbortError:This operation was aborted",
       "attempts": [
-        200
+        "AbortError:This operation was aborted",
+        "AbortError:This operation was aborted"
       ]
     },
     {
@@ -23573,7 +23602,6 @@
       "finalUrl": "https://www.gov.br/cidades/pt-br/acesso-a-informacao/acoes-e-programas/saneamento/sinisa",
       "class": "ok",
       "attempts": [
-        "TypeError:fetch failed",
         200
       ]
     },
@@ -23888,7 +23916,6 @@
       "finalUrl": "https://www.gov.br/fnde/pt-br/acesso-a-informacao/dados-abertos",
       "class": "ok",
       "attempts": [
-        "TypeError:fetch failed",
         200
       ]
     },
@@ -25259,7 +25286,6 @@
       "finalUrl": "https://www.gov.br/anp/pt-br/centrais-de-conteudo/dados-abertos/dados-abertos",
       "class": "ok",
       "attempts": [
-        "TypeError:fetch failed",
         200
       ]
     },
@@ -26948,30 +26974,6 @@
       ],
       "status": 200,
       "finalUrl": "https://buttondown.com/",
-      "class": "ok",
-      "attempts": [
-        200
-      ]
-    },
-    {
-      "type": "tool",
-      "id": "auto-fa6ac7a7425587ac",
-      "field": "url",
-      "url": "https://www.sej.org/library/reporting-tools/overview",
-      "references": [
-        {
-          "type": "tool",
-          "id": "auto-fa6ac7a7425587ac",
-          "field": "url"
-        },
-        {
-          "type": "tool",
-          "id": "auto-fa6ac7a7425587ac",
-          "field": "discoveryUrl"
-        }
-      ],
-      "status": 200,
-      "finalUrl": "https://www.sej.org/library/reporting-tools/overview",
       "class": "ok",
       "attempts": [
         200
