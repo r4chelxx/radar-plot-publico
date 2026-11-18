@@ -59,6 +59,8 @@ try{
  assert.equal(result.records.find(x=>x.id==='news-story-as-tool').category,'uncategorized');
  assert.equal(result.records.find(x=>x.id==='news-story-as-tool').decision,'pending_more_evidence');
  for(const id of ['who-tool-directory','world-bank-tools-index','research-report-as-tool']){assert.equal(result.records.find(x=>x.id===id).category,'uncategorized');assert.equal(result.records.find(x=>x.id===id).decision,'pending_more_evidence');}
+ assert.equal(result.records.find(x=>x.id==='social-reel').category,'uncategorized');
+ assert.equal(result.records.find(x=>x.id==='social-reel').decision,'pending_more_evidence');
  assert.equal(result.records.find(x=>x.id==='dataset').decision,'evidence_complete_for_record_draft');
  for(const id of ['dataset-zip','dataset-xlsx','dataset-api-host'])assert.equal(result.records.find(x=>x.id===id).decision,'evidence_complete_for_record_draft');
  assert.equal(result.records.find(x=>x.id==='dataset-generic-indicator').decision,'pending_more_evidence');
@@ -98,10 +100,7 @@ try{
  fs.writeFileSync(queue,JSON.stringify({candidates}));
  cp.execFileSync(process.execPath,[path.resolve('scripts/review-editorial-evidence.js'),queue,out]);
  const records=JSON.parse(fs.readFileSync(out,'utf8')).records;
- assert.equal(records.length,6);
- const social=records.find(x=>x.id==='social-reel');
- assert.equal(social.category,'uncategorized');
- assert.equal(social.decision,'pending_more_evidence');
+ assert.equal(records.length,5);
  assert.ok(records.slice(0,3).every(x=>x.decision==='evidence_complete_for_record_draft'));
  assert.ok(records.slice(3).every(x=>x.decision==='pending_more_evidence'));
  console.log('Documentation and dated journalism calls accepted; articles and conferences rejected');
