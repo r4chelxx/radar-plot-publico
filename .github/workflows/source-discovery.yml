@@ -66,6 +66,8 @@ on:
       - 'tests/auto-audit-candidates.test.js'
       - 'tests/approval-flow.test.js'
       - 'scripts/validate-approved-manifest.js'
+      - 'scripts/filter-rejected-approvals.js'
+      - 'tests/filter-rejected-approvals.test.js'
       - 'scripts/merge-approved-manifests.js'
       - 'tests/apply-editorial-decisions.test.js'
       - 'tests/merge-approved-manifests.test.js'
@@ -131,7 +133,7 @@ jobs:
         with:
           node-version: '22'
       - name: Check source collector syntax and daily coverage
-        run: node --test tests/source-intake-coverage.test.js tests/structured-lead-metadata.test.js tests/source-page-links.test.js
+        run: node --test tests/source-intake-coverage.test.js tests/structured-lead-metadata.test.js tests/source-page-links.test.js tests/filter-rejected-approvals.test.js
       - name: Test persistent lead history
         run: node --test tests/approval-flow.test.js tests/reconcile-published-history.test.js tests/inspection-health.test.js tests/require-inspection-health.test.js tests/auto-audit-candidates.test.js tests/apply-editorial-decisions.test.js tests/audit-capacity.test.js tests/backlog-health.test.js tests/historical-backlog.test.js tests/historical-editorial-batch.test.js tests/lead-history.test.js tests/source-catalog.test.js tests/editorial-review.test.js tests/editorial-priority.test.js tests/inspection-order.test.js tests/lead-privacy.test.js tests/normalize-lead-link.test.js
       - name: Test public queue integration
@@ -250,6 +252,7 @@ jobs:
             exit 0
           fi
           node -e "const fs=require('fs');const m=JSON.parse(fs.readFileSync('intake/approved-publications-next.json'));if(!Array.isArray(m.approved))throw Error('Generated approval manifest is invalid');for(const x of m.approved){if(x.review?.decision!=='approved'||!x.review?.officialUrl||!x.review?.evidence||!x.record?.id)throw Error('Generated approval lacks explicit evidence: '+(x.record?.id||'?'));}"
+          node scripts/filter-rejected-approvals.js intake/approved-publications-next.json
           RADAR_APPROVED_MANIFEST=intake/approved-publications-next.json node scripts/validate-approved-manifest.js
           for attempt in 1 2 3; do
             gh api "repos/${GITHUB_REPOSITORY}/contents/intake/approved-publications.json?ref=main" > intake/approved-manifest-response.json
