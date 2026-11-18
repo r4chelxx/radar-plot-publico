@@ -120,14 +120,15 @@ function review(c){
  if(!hardStatus)missing.push('página primária acessível com conteúdo compatível');
  if(category==='opportunities'){
   const genericPage=genericOpportunityTitle.test(title.trim());
-  const callTitle=genericPage?String(a.pageDescription||c.title||title):title;
+  const namedCall=raw.match(/\b(?:[A-Z][\\w’'&-]*\\s+){1,8}(?:Fellowship|Grant|Award|Competition)\\b(?:\\s+for(?:\\s+[A-Z][\\w’'&-]*){1,5})?/u)?.[0]||null;
+  const callTitle=namedCall|| (genericPage?String(a.pageDescription||c.title||title):title);
   const editorialScope=/\b(?:journalis\w*|jornalismo|jornalistas?|reporting|reporters?|newsrooms?|photojournal\w*|documentary|storymaps|geospatial story|data visuali\w*|visual storytelling)\b/i.test(title+' '+String(a.pageDescription||'')+' '+String(a.evidenceText||''));
   if(!editorialScope)missing.push('escopo jornalístico ausente no título e descrição da chamada');
   const verifiedOpportunityEvidence=c.verificationStatus==='official-web-search' &&
    /\b(grant|fellowship|funding|scholarship|journalism award|award|prize|contest|competition|bolsa|edital|financiamento|premia[cç][aã]o|pr[eê]mio|concurso)\b/i.test(text) &&
    /\b(applications?\b[^.!?]{0,120}\b(?:open|accepted|closing|close|closes|closed|deadline|until|by)|call for (?:applications?|entries?|submissions?|proposals?)|apply(?:ing)?(?: now| today| by)?|inscri[cç][oõ]es? abertas|candidaturas? abertas|candidatar-se até|submiss[oõ]es? abertas)\b/i.test(text);
-  checks.callSignal=!genericPage&&(verifiedOpportunityEvidence||actionableOpportunity(callTitle,text))&&!/newsletter|podcast|directory|portfolio/i.test(title);
-  if(genericPage)missing.push('nome específico da chamada ausente; página genérica de inscrição não pode ser publicada como oportunidade');
+  checks.callSignal=(!genericPage||!!namedCall)&&(verifiedOpportunityEvidence||actionableOpportunity(callTitle,text))&&!/newsletter|podcast|directory|portfolio/i.test(title);
+  if(genericPage&&!namedCall)missing.push('nome específico da chamada ausente; página genérica de inscrição não pode ser publicada como oportunidade');
   checks.deadline=deadlineDates(text,checks.callSignal).find(d=>d>=today)||structuredDeadline(docs); if(checks.deadline&&checks.deadline<today)checks.deadline=null;
   checks.eligibility=/\b(eligib|eligible|eligibility|who can apply|who can enter|who can participate|participants must|entry requirements|age(?:d)? 18 and up|18 years and older|globally may enter|open to|elegibilidade|elegível|podem se candidatar)\b/i.test(text);
   if(/\b(?:applications?|submissions?|entries?)\b[^.!?]{0,120}\bclosed\b|inscri[cç][oõ]es\s+encerradas/i.test(text))missing.push('chamada explicitamente encerrada');
