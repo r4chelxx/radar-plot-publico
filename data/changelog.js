@@ -2,6 +2,18 @@ window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
 {
   "date": "2026-11-18",
+  "type": "ferramentas",
+  "title": "Publicação editorial verificada — 2026-11-18",
+  "items": [
+    {
+      "id": "auto-cf35ab1a6098d860",
+      "title": "earthkit"
+    }
+  ],
+  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: earthkit."
+}, 
+{
+  "date": "2026-11-18",
   "type": "nova-oportunidade",
   "title": "Publicação editorial verificada — 2026-11-18",
   "items": [
