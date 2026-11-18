@@ -19,7 +19,7 @@ for(const item of drafts.drafts||[]){
  const inspectedUrl=candidate?.audit?.finalUrl||candidate?.url;
  if(!candidate||item.source?.url!==inspectedUrl)throw Error('Draft source does not match inspected queue candidate: '+item.id);
  if(!/^https:\/\//.test(item.source.url||''))throw Error('Draft source must use HTTPS: '+item.id);
- if(item.evidence?.sourceExcerpt!==String(candidate.audit?.evidenceText||'').replace(/\s+/g,' ').trim().slice(0,4000))throw Error('Draft evidence excerpt mismatch: '+item.id);
+ if(item.evidence?.sourceExcerpt!==String(candidate.audit?.evidenceText||'').replace(/\s+/g,' ').trim())throw Error('Draft evidence excerpt mismatch: '+item.id);
  if(!Array.isArray(item.missingFields))throw Error('Draft must report missing fields: '+item.id);
  if(JSON.stringify(item.evidence?.tabularData||[])!==JSON.stringify(candidate.audit?.tabularData||[]))throw Error('Draft table evidence mismatch: '+item.id);
 }

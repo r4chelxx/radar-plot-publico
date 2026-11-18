@@ -82,6 +82,7 @@ function normalizeToolName(title,text,url){
  }catch{}
  let value=clean(title).replace(/:\s*(?:the|your|a|an)\s+.*$/i,'').replace(/\s*[|—–]\s*.+$/,'').replace(/\s+-\s+.+$/,'').trim();
  const rules=[
+  [/^beautiful soup(?::.*)?$/i,'Beautiful Soup'],
   [/^welcome to python(?:\.org)?$/i,'Python'],
   [/^r:\s*the r project for statistical computing$/i,'R'],
   [/^the r project for statistical computing$/i,'R'],
@@ -196,7 +197,7 @@ function buildDrafts(queue,review,generatedAt=new Date().toISOString()){
   return {
    schemaVersion:1,id,category:result.category,status:'draft_only',publicationReady:false,
    source:{url,discoveryProviders:(candidate.providers||[]).map(clean).filter(Boolean),pageTitle,checkedAt:audit.checkedAt||null,httpStatus:audit.httpStatus??null,contentType:audit.contentType||null},
-   evidence:{checks:result.checks||{},sourceExcerpt:rawText.slice(0,4000),structuredData:audit.structuredData||[],tabularData:audit.tabularData||[],resourceLinks:audit.resourceLinks||[]},
+   evidence:{checks:result.checks||{},sourceExcerpt:rawText,structuredData:audit.structuredData||[],tabularData:audit.tabularData||[],resourceLinks:audit.resourceLinks||[]},
    recordDraft:record,missingFields,reviewDecision:result.decision,
    note:'Ficha preliminar baseada no conteúdo capturado da página. Campos sem evidência permanecem ausentes; a aprovação depende do gate independente de publicação.'
   };
