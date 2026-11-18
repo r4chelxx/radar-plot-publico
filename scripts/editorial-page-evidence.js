@@ -1,6 +1,7 @@
 'use strict';
 // Extract a bounded, auditable snapshot from a public page. This is evidence input,
 // never an approval decision. Keep only fields relevant to category-specific review.
+const {cleanText}=require('./editorial-text');
 const FIELDS=['@type','name','description','url','license','publisher','author','creator','provider','organizer','distribution','datePublished','dateModified','startDate','endDate','validThrough','applicationDeadline','closingDate','deadline','temporalCoverage','spatialCoverage','encodingFormat','contentUrl','applicationCategory','operatingSystem','offers','featureList','softwareVersion'];
 function decode(text){return String(text||'').replace(/&nbsp;|&#160;/gi,' ').replace(/&amp;/gi,'&').replace(/&quot;/gi,'"').replace(/&#39;|&apos;/gi,"'").replace(/&lt;/gi,'<').replace(/&gt;/gi,'>').replace(/&#(\d+);/g,(_,n)=>String.fromCodePoint(Number(n))).replace(/&#x([\da-f]+);/gi,(_,n)=>String.fromCodePoint(parseInt(n,16)));}
 function compact(value,depth=0){
@@ -41,11 +42,8 @@ function extractEvidence(html,baseUrl=''){
    }
   }catch{/* invalid or relative links without a base URL are ignored */}
  }
- const visible=decode(source
-  .replace(/<!--[\s\S]*?-->/g,' ')
-  .replace(/<(script|style|noscript|svg|template|header|footer|nav)\b[^>]*>[\s\S]*?<\/\1\s*>/gi,' ')
-  .replace(/<[^>]+>/g,' ')
-  .replace(/\s+/g,' ')).trim().slice(0,20000);
+ const visible=cleanText(source
+  .replace(/<(header|footer|nav)\b[^>]*>[\s\S]*?(?:<\/\1\s*>|$)/gi,' '),20000);
  const tabularData=[];
  const tableSource=source.replace(/<(script|style|template)\b[^>]*>[\s\S]*?<\/\1\s*>/gi,' ');
  for(const table of tableSource.matchAll(/<table\b[^>]*>([\s\S]*?)<\/table>/gi)){
