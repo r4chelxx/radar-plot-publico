@@ -6,6 +6,18 @@ window.RADAR_PARTS.changelog=[
   "title": "Publicação editorial verificada — 2026-11-18",
   "items": [
     {
+      "id": "auto-66644b564251d5a6",
+      "title": "Fact Check Tools"
+    }
+  ],
+  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Fact Check Tools."
+}, 
+{
+  "date": "2026-11-18",
+  "type": "ferramentas",
+  "title": "Publicação editorial verificada — 2026-11-18",
+  "items": [
+    {
       "id": "auto-cf35ab1a6098d860",
       "title": "earthkit"
     }
