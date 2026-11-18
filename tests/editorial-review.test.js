@@ -88,3 +88,20 @@ test('plugin author documentation is not an independently catalogable tool',()=>
  const result=reviewCandidate({category:'tools',url:'https://docs.datasette.io/en/latest/plugin_telemetry.html',title:'Telemetry for plugin authors - Datasette documentation',audit:{pageTitle:'Telemetry for plugin authors - Datasette documentation',httpStatus:200,contentType:'text/html',evidenceText:'Datasette core emits OpenTelemetry spans and metrics. This page explains instrumenting the work your plugin does. Use your own instrumentation scope. Create a tracer and meter using your plugin package.',structuredData:[]}});
  assert.notEqual(result.decision,'evidence_complete_for_record_draft');
 });
+
+test('dataset publication proof includes web-access evidence for public distribution links',()=>{
+ const dir=fs.mkdtempSync(path.join(os.tmpdir(),'radar-dataset-proof-'));
+ try{
+  fs.mkdirSync(path.join(dir,'intake'));
+  const url='https://data.example.org/dataset/public-series';
+  const lead={classification:'needs-editorial-review',category:'datasets',url,title:'Public health dataset',source:'Official catalog'};
+  const evidence={generatedAt:new Date().toISOString(),results:[{url,finalUrl:url,pageStatus:'html-fetched',httpStatus:200,contentType:'text/html',checkedAt:new Date().toISOString(),pageTitle:'Public health dataset',pageDescription:'Global public data, updated annually, CSV download.',evidenceText:'A global dataset covering 2020 to 2025, updated annually and available as CSV.',structuredEvidence:{'@type':'Dataset',name:'Public health dataset',publisher:{name:'Official catalog'},distribution:{contentUrl:'https://data.example.org/files/data.csv',encodingFormat:'text/csv'},temporalCoverage:'2020/2025',license:'CC-BY'},resourceLinks:[{url:'https://data.example.org/files/data.csv',label:'CSV download'}]}]};
+  fs.writeFileSync(path.join(dir,'intake/candidate-triage.json'),JSON.stringify({leads:[lead]}));
+  fs.writeFileSync(path.join(dir,'intake/lead-evidence.json'),JSON.stringify(evidence));
+  cp.execFileSync(process.execPath,[script],{cwd:dir});
+  const out=JSON.parse(fs.readFileSync(path.join(dir,'intake/editorial-review.json')));
+  const proof=out.candidates[0].publicationReviewV1;
+  assert.ok(proof);
+  assert.equal(proof.evidenceChecks.webAccess,true);
+ }finally{fs.rmSync(dir,{recursive:true,force:true})}
+});

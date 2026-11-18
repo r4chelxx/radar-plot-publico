@@ -4,11 +4,12 @@ const {identity}=require('../scripts/lead-identity');
 const now=new Date('2026-10-23T13:00:00Z');
 const lead=(n,extras={})=>({url:'https://example.org/story/'+n,title:'Story '+n,source:'Public site',category:'opportunities',classification:'needs-editorial-review',firstSeen:'2026-10-10T00:00:00Z',editorialStatus:'unverified',...extras});
 const state=arr=>({schemaVersion:1,leads:Object.fromEntries(arr.map(x=>[identity(x.url).id,x]))});
-test('historical leads take precedence over newly discovered leads',()=>{
+test('newly discovered opportunities are not starved by historical leads',()=>{
  const historic=Array.from({length:230},(_,i)=>lead(i));
- const result=selectBacklog(state(historic),[lead('new')],15,now);
+ const fresh=lead('new',{firstSeen:'2026-10-22T00:00:00Z'});
+ const result=selectBacklog(state(historic),[fresh],15,now);
  assert.equal(result.total,231);assert.equal(result.selected.length,15);
- assert(result.selected.every(x=>x.origin==='historical'));
+ assert.equal(result.selected[0].url,fresh.url);
 });
 test('inspection rotates without starving old backlog',()=>{
  const all=Array.from({length:230},(_,i)=>lead(i));
@@ -80,4 +81,10 @@ test('404 cooldown is longer than transient HTTP failures',()=>{
  const st=state([lead('missing',{pageStatus:'http-error',httpStatus:404,lastInspectedAt:'2026-10-15T13:00:00Z'}),lead('blocked',{pageStatus:'http-error',httpStatus:403,lastInspectedAt:'2026-10-15T13:00:00Z'})]);
  const result=selectBacklog(st,[],10,now);
  assert.deepEqual(result.selected.map(x=>x.url),[lead('blocked').url]);
+});
+
+test('index and wiki-category pages do not consume the daily inspection window',()=>{
+ const bad=[lead('data-index',{category:'datasets',title:'Data sources',url:'https://www.opensanctions.org/datasets/sources/'}),lead('wiki-tools',{category:'tools',title:'Moderator Tools/Automoderator',url:'https://www.mediawiki.org/wiki/Moderator_Tools/Automoderator'})];
+ const result=selectBacklog(state(bad),[],10,now);
+ assert.deepEqual(result.selected,[]);
 });

@@ -42,7 +42,7 @@ function deriveDataset(lead,url){
  if(lead.category!=='datasets'||!title||!description||description.length<80||!organization)return null;
  const sourceType=String(se.sourceType||'').toLowerCase();
  const evidenceText=[title,description,url,se.sourceType||'',lead.pageTitle||'',lead.pageDescription||''].join(' ');
- const genericTitle=/^(in[ií]cio|inicio|home|start|eventos?|events?|about|sobre|contact|contato|menu|search|login|register|news|blog|resources?|opportunities?|calend[áa]rio|calendar)$/i.test(String(title).trim());
+ const genericTitle=/^(in[ií]cio|inicio|home|start|eventos?|events?|about|sobre|contact|contato|menu|search|login|register|news|blog|resources?|opportunities?|calend[áa]rio|calendar|data sources|data dictionary|our bulk data distributions)$/i.test(String(title).trim());
  const navigationNoise=/ir para o (conte[uú]do|menu|navega[cç][aã]o|rodap[eé]|mapa do site|in[ií]cio|p[aá]gina inicial|busca)|aten[cç][aã]o! seu navegador|nome do site/i.test(String(description));
  const excludedPage=new RegExp("calendly\\.com|github\\.com/[^\\s]+/(?:security/advisories|blob/)[^\\s]*(?:CODE_OF_CONDUCT|code_of_conduct)|opensanctions\\.org/docs/metadata","i").test(String(url)+' '+String(description));
  if(excludedPage)return null;
@@ -129,6 +129,8 @@ for(const lead of results){
   if(record?.rules&&host(record.rules)!==host(url))fail.push('URL oficial não coincide com a fonte auditada');
  } else if(lead.category==='datasets'){
   const format=String(record?.format||'').trim();
+  const datasetIndexPath=(()=>{try{const p=new URL(url||'').pathname.toLowerCase();return p==='/datasets/sources'||p==='/datasets/sources/'||p==='/reference'||p==='/reference/'}catch{return false}})();
+  if(/^(?:data sources|data dictionary|our bulk data distributions)$/i.test(String(record?.name||''))||datasetIndexPath)fail.push('página de índice ou dicionário, não um recurso de dados');
   if(!format||/^(?:n\/?a|unknown|not provided|não informado(?: na fonte estruturada)?|não disponível|desconhecido)$/i.test(format))fail.push('formato de acesso da base não comprovado');
   if(/^forum$/i.test(String(record?.org||''))||/forum\.ecmwf\.int\/t\/|\/(?:blog|articles?|news|posts?)\//i.test(url||''))fail.push('página de discussão ou artigo não é recurso de dados');
   for(const k of ['name','org','kind','coverage','limitations','docs','url'])if(!record?.[k])fail.push('campo de base ausente: '+k);
