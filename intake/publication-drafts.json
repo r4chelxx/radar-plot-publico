@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-18T05:32:45.982Z",
-  "sourceQueueUpdatedAt": "2026-11-18T05:32:38.229Z",
+  "generatedAt": "2026-11-18T06:24:50.870Z",
+  "sourceQueueUpdatedAt": "2026-11-18T06:24:37.478Z",
   "policy": "Evidence-complete drafts only; the separate deterministic evidence gate must independently approve before publication.",
   "summary": {
     "eligibleForDrafting": 3,
@@ -24,7 +24,7 @@
         "url": "https://docs.isric.org/globaldata/soilgrids/index.html",
         "discoveryProviders": [],
         "pageTitle": "SoilGrids - global gridded soil information – SoilGrids Documentation",
-        "checkedAt": "2026-11-17T06:16:06.417Z",
+        "checkedAt": "2026-11-18T06:24:37.478Z",
         "httpStatus": 200,
         "contentType": "text/html"
       },
@@ -66,7 +66,7 @@
         "api": "https://files.isric.org/soilgrids/latest/data/",
         "docs": "https://docs.isric.org/globaldata/soilgrids/index.html",
         "limitations": "A página consultada não detalha todas as limitações, a atualização e a qualidade do recurso; conferir documentação e licença antes do uso editorial.",
-        "lastChecked": "2026-11-17",
+        "lastChecked": "2026-11-18",
         "url": "https://docs.isric.org/globaldata/soilgrids/index.html",
         "description": "SoilGrids - global gridded soil information – SoilGrids Documentation A system for digital soil mapping based on global compilation of soil profile data and environmental layers We are collecting information on SoilGrids’ user base to improve the products and better understand their uses."
       },
