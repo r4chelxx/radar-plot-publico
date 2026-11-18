@@ -95,7 +95,7 @@ jobs:
           fi
           RADAR_ENABLE_AUTOMATIC_PUBLICATION=true node scripts/build-automated-publications.js "$draft_file" intake/approved-publications.json /tmp/radar-combined-approved.json
           if [ "${{ github.event_name }}" = "workflow_run" ] && [ "${{ github.event.workflow_run.name }}" = "Radar source discovery" ]; then
-            source_approvals=/tmp/radar-source-intake/approved-publications-next.json
+            source_approvals=/tmp/radar-source-intake/auto-editorial-decisions.json
             test -s "$source_approvals"
             node scripts/merge-source-approvals.js /tmp/radar-combined-approved.json "$source_approvals" /tmp/radar-source-combined-approved.json
             mv /tmp/radar-source-combined-approved.json /tmp/radar-combined-approved.json
