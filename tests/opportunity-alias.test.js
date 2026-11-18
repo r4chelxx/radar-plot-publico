@@ -43,8 +43,7 @@ test('historical machine evidence remains valid for existing records but never a
   const proof={decision:'approved',reviewedBy:'Radar evidence gate v1',reviewPolicyVersion:'radar-evidence-v1',checkedAt,reviewedAt:checkedAt.slice(0,10),officialUrl:tool.url,evidence,evidenceHash:crypto.createHash('sha256').update(evidence).digest('hex'),sourceStatus:200,contentType:'text/html',evidenceChecks:{productSignal:true,function:true,access:true}};
   assert.equal(run(root,[{category:'tools',record:tool,review:proof}]).published,0);
   const other={...tool,id:'new',url:'https://new.example/'};
-  const rejected=run(root,[{category:'tools',record:other,review:{...proof,officialUrl:other.url}}]);
-  assert.equal(rejected.published,0);assert.equal(rejected.rejected.length,1);assert.match(rejected.rejected[0].reason,/item-level editorial verification/);
+  assert.throws(()=>run(root,[{category:'tools',record:other,review:{...proof,officialUrl:other.url}}]),/item-level editorial verification/);
  }finally{fs.rmSync(root,{recursive:true,force:true})}
 });
 test('deployment verification requires the primary record and rejects both a live duplicate and a missing primary',()=>{
