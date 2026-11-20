@@ -79,7 +79,7 @@ test('persisted pending queue reconciles known tools and excludes nonfunding gra
   ].map(x=>({...identity(x.url),...x,status:'pending',firstSeen:'2026-10-20'}));
   fs.writeFileSync(p('quality.json'),JSON.stringify({review:[]}));
   fs.writeFileSync(p('queue.json'),JSON.stringify({candidates:records}));
-  fs.writeFileSync(p('history.json'),JSON.stringify({leads:{[records[2].id]:{category:'tools'},[records[3].id]:{category:'opportunities'}}}));
+  fs.writeFileSync(p('history.json'),JSON.stringify({leads:Object.fromEntries(records.map(x=>[x.id,{category:x.category==='opportunities'?'opportunities':'tools'}]))}));
   fs.writeFileSync(p('decisions.json'),JSON.stringify({decisions:[]}));
   const run=()=>cp.execFileSync(process.execPath,[path.resolve('scripts/merge-editorial-queue.js'),p('quality.json'),p('queue.json'),p('history.json'),p('decisions.json')]);
   run();run();
