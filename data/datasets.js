@@ -8623,6 +8623,7 @@ window.RADAR_PARTS.datasets=[
     "coverage": "Receitas e despesas públicas em saúde declaradas por União, estados, Distrito Federal e municípios",
     "frequency": "Declaração bimestral pelos entes federados; consultar atraso e retificações",
     "format": "Demonstrativos públicos, indicadores, relatórios e tabulações",
+    "limitations": "Limitações não informadas pela fonte oficial nesta ficha; confirme demonstrativo, exercício, bimestre, atrasos e retificações antes do uso.",
     "period": "Séries históricas variáveis por demonstrativo e ente; verificar exercício e bimestre",
     "granularity": "Receita, despesa, fonte de recursos, categoria e subfunção, conforme relatório",
     "geoUnit": "União, UF, Distrito Federal e município",
@@ -8651,6 +8652,7 @@ window.RADAR_PARTS.datasets=[
     "coverage": "Receitas e despesas públicas em educação declaradas por União, estados, Distrito Federal e municípios",
     "frequency": "Declarações por exercício; verificar calendário e atualização do ente",
     "format": "Relatórios públicos e demonstrativos detalhados; consultas e downloads conforme seção do portal",
+    "limitations": "Limitações não informadas pela fonte oficial nesta ficha; confirme calendário, exercício, ente, atualização e eventuais restrições antes do uso.",
     "period": "Séries históricas por exercício e ente; verificar disponibilidade na consulta",
     "granularity": "Receitas, despesas e indicadores de manutenção e desenvolvimento do ensino e Fundeb",
     "geoUnit": "União, UF, Distrito Federal e município",
@@ -8679,6 +8681,7 @@ window.RADAR_PARTS.datasets=[
     "coverage": "Dados e indicadores derivados de registros da Atenção Primária à Saúde enviados pelos municípios via e-SUS APS",
     "frequency": "Competências mensais; relatórios após processamento e validação dos envios",
     "format": "Relatórios e painéis de consulta pública; acesso restrito a algumas funcionalidades",
+    "limitations": "Limitações não informadas pela fonte oficial nesta ficha; confirme metodologia, competência, recortes e regras de acesso antes do uso.",
     "period": "Disponibilidade por relatório e competência; verificar mudanças metodológicas",
     "granularity": "Produção e indicadores agregados por equipe e recorte territorial, conforme relatório público",
     "geoUnit": "Brasil, UF, município e equipe conforme relatório e regras de acesso",
@@ -10904,6 +10907,7 @@ window.RADAR_PARTS.datasets=[
     "coverage": "Salvador",
     "frequency": "Administrativa / contínua",
     "format": "Sistema / declarações / registros administrativos",
+    "limitations": "Limitações não informadas pela fonte oficial nesta ficha; a ficha não confirma série pública estruturada nem API; confirme cobertura e restrições cadastrais antes do uso.",
     "url": "https://www2.sefaz.salvador.ba.gov.br/servicos"
   },
   {
@@ -12167,6 +12171,7 @@ window.RADAR_PARTS.datasets=[
     "coverage": "Brasil",
     "frequency": "Anual, conforme publicação no portal",
     "format": "CSV / JSON / XML",
+    "limitations": "Limitações não informadas pela fonte oficial nesta ficha; confirme recursos, campos, anonimização, periodicidade e atualização antes do uso.",
     "url": "https://dadosabertos.saude.gov.br/dataset/plataforma_brasil"
   },
   {
