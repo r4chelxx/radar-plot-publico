@@ -1,19 +1,27 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.tools=[
 {
+  "id": "manual-20261120-pesquisa-diario-oficial-uniao",
+  "name": "Pesquisa no Diário Oficial da União",
+  "kind": "Busca documental oficial",
+  "url": "https://www.in.gov.br/consulta",
+  "desc": "Ferramenta da Imprensa Nacional que permite pesquisar publicações no Diário Oficial da União, com campos de busca e filtros de período e edição. Acesso web público; resultados, cobertura histórica, exportação e buscas complexas devem ser conferidos no próprio sistema.",
+  "lastChecked": "2026-11-20"
+},
+{
   "id": "auto-66644b564251d5a6",
   "name": "Fact Check Explorer",
   "kind": "ferramenta de verificação de fatos",
   "url": "https://toolbox.google.com/factcheck/explorer",
   "desc": "Search fact-check results from the web about a topic or person. Consulte a documentação e as condições de acesso antes do uso editorial."
-}, 
+},
 {
   "id": "auto-cf35ab1a6098d860",
   "name": "earthkit",
   "kind": "DeveloperApplication",
   "url": "https://earthkit.ecmwf.int/",
   "desc": "Open-source tools for seamless earth science workflows with a format-agnostic Python interface for geospatial data. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
-}, 
+},
   {
     "id": "govteca-busca-lai",
     "name": "Busca LAI",

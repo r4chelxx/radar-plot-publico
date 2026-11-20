@@ -1,0 +1,101 @@
+[
+  {
+    "key": "inteltechniques",
+    "requestedUrl": "https://inteltechniques.com/",
+    "checkedAt": "2026-11-20T21:41:27.490304+00:00",
+    "status": 200,
+    "url": "https://inteltechniques.com/",
+    "contentType": "text/html; charset=utf-8",
+    "bytesRead": 5785,
+    "sha256": "67ffd96003956905df39f33b3783945f874338d9e9f1b876ee5bb21db63f1955",
+    "truncated": false,
+    "title": "IntelTechniques by Michael Bazzell",
+    "description": ""
+  },
+  {
+    "key": "osintgroup",
+    "requestedUrl": "https://theosintgroup.blog/",
+    "checkedAt": "2026-11-20T21:41:27.494095+00:00",
+    "status": 200,
+    "url": "https://theosintgroup.blog/",
+    "contentType": "text/html; charset=UTF-8",
+    "bytesRead": 133313,
+    "sha256": "1ccad7c1aea7099b354f1ae2e4de6da3c3f790d0897e603f4e75e6a23ae24d68",
+    "truncated": false,
+    "title": "The OSINT Group Insights – Forewarned is Forearmed",
+    "description": "The OSINT Group | Global Intelligence & Risk Insights Insights into how hostile actors identify, assess, and exploit digital and physical vulnerabilities, often long before an incident occurs, alongside real-world case studies, emerging threats, and the stories shaping today’s global risk landscape. Latest Posts From The OSINT Group When Employees Become the Attack Surface How…"
+  },
+  {
+    "key": "osintnewsletter",
+    "requestedUrl": "https://osintnewsletter.com/",
+    "checkedAt": "2026-11-20T21:41:27.491094+00:00",
+    "status": 200,
+    "url": "https://osintnewsletter.com/",
+    "contentType": "text/html; charset=utf-8",
+    "bytesRead": 92450,
+    "sha256": "ee37360f8567468dee1912f9183f31f5873c6d9ac32b86997b64175b8a0defe3",
+    "truncated": false,
+    "title": "The OSINT Newsletter | Substack",
+    "description": "OSINT news, tools, tactics, and techniques. Click to read The OSINT Newsletter, a Substack publication with tens of thousands of subscribers."
+  },
+  {
+    "key": "indicator",
+    "requestedUrl": "https://indicator.media/",
+    "checkedAt": "2026-11-20T21:41:27.491441+00:00",
+    "status": 200,
+    "url": "https://indicator.media/",
+    "contentType": "text/html; charset=utf-8",
+    "bytesRead": 700000,
+    "sha256": "5f7b30354097cc033d092ab3dd467aa3d1df8f21b33f194432bca451e85322c6",
+    "truncated": true,
+    "title": "Indicator — become a better investigator | Indicator shield-check cursor-click trophy quotes arrow-right arrow-right arrow-right flag-banner-fold bookmark-simple person-simple-swim arrow-right quotes quotes quotes cursor-click",
+    "description": "Indicator publishes original reporting, in-depth investigations, and practical resources and OSINT tutorials about investigating digital deception."
+  },
+  {
+    "key": "bullshithunting",
+    "requestedUrl": "https://www.bullshithunting.com/",
+    "checkedAt": "2026-11-20T21:41:27.493504+00:00",
+    "status": 200,
+    "url": "https://www.bullshithunting.com/",
+    "contentType": "text/html; charset=utf-8",
+    "bytesRead": 101352,
+    "sha256": "ee686d50f287bbd913d22a8663f895d72e733db07f269dfe61c24b602f7cdea0",
+    "truncated": false,
+    "title": "Bullsh*t Hunting | Justin Seitz | Substack",
+    "description": "The mailing list for journalists, activists, hackers, investigators, and skeptics alike. Remixing dark humour, investigative technique and raw storytelling, we hope to bring you new and creative ways to call bullsh*t on the world around you. Click to read Bullsh*t Hunting, a Substack publication with thousands of subscribers."
+  },
+  {
+    "key": "osintoutput",
+    "requestedUrl": "https://theosintoutput.com/",
+    "checkedAt": "2026-11-20T21:41:27.496316+00:00",
+    "status": 200,
+    "url": "https://theosintoutput.com/",
+    "contentType": "text/html; charset=UTF-8",
+    "bytesRead": 105353,
+    "sha256": "bcb6502e4ba3dd17178a3611dea519b184250bb0230b6c810e5e525fa167bf59",
+    "truncated": false,
+    "title": "The OSINT Output Hosted by Tim and Chris – Join Tim and Chris as they share the latest updates on open-source intelligence, new content, and opportunities for collaboration. Discover insights, connect with us, and gather fresh ideas for your own projects.",
+    "description": "Welcome to Our Podcast! Join Tim and Chris as they share the latest updates on open-source intelligence, new content, and opportunities for collaboration. Discover insights, connect with us, and gather fresh ideas for your own projects. Listen Now Listen to our latest episode on Spotify below or click the button above to take you directly…"
+  },
+  {
+    "key": "signalandshadow",
+    "requestedUrl": "https://signalandshadow.io/",
+    "checkedAt": "2026-11-20T21:41:27.495688+00:00",
+    "status": 200,
+    "url": "https://signalandshadow.io/",
+    "contentType": "text/html; charset=utf-8",
+    "bytesRead": 700000,
+    "sha256": "085f43a72ee20ad68b41cebb44aa1cc1b6f16e789e8c6e279d3c099642cb4a28",
+    "truncated": true,
+    "title": "OSINT Newsletter and Digital Forensics | Signal & Shadow LockSimple LockSimple LockSimple LockSimple beehiiv",
+    "description": "OSINT methodology, forensics tutorials and reference cards for investigative journalists and researchers. Every method sourced and verifiable."
+  },
+  {
+    "key": "osintech",
+    "requestedUrl": "https://osintech.substack.com/about",
+    "checkedAt": "2026-11-20T21:41:27.491979+00:00",
+    "status": 403,
+    "url": "https://osintech.substack.com/about",
+    "error": "HTTP Error 403: Forbidden"
+  }
+]

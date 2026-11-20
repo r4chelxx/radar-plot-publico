@@ -1,0 +1,16 @@
+{
+  "reviewedEntries": 135,
+  "decisions": {
+    "pending-blocked": 9,
+    "pending-access": 33,
+    "approved-new-access": 49,
+    "pending-temporary-unavailable": 4,
+    "pending-content-validation": 18,
+    "pending-source-location": 19,
+    "pending-empty-response": 3
+  },
+  "newRecords": 38,
+  "datasets": 37,
+  "tools": 1,
+  "osintStatus": "partial-homepage-only; internal dynamic directory not extracted; HTTP403 not bypassed"
+}
