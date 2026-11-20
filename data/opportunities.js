@@ -1,6 +1,24 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.opportunities=[
 {
+  "id": "auto-bb0102a309c11199",
+  "title": "National Press Club Scholarship Opportunities - Journalism Institute",
+  "org": "National Press Club Journalism Institute",
+  "summary": "2027 National Press Club scholarship applications are open through March 15. Opportunities for high school, college, and graduate student journalists.",
+  "type": "Scholarship",
+  "themes": [
+    "Jornalismo"
+  ],
+  "scope": "See details and eligibility requirements below. To be eligible, applicants must: be a high school senior in the process of applying for admission to an accredited college or university in the US have a 3.0 grade-point average or higher plan to pursue a career in journalism Students do not need to be a US citizen to apply for this scholarship. Students do not need to be a US citizen to apply for this scholarship. to take place during the semester they would receive the scholarship Provide a letter or email of acceptance showing they have secured an on-site journalism internship in Washington, D.C., to take place during the semester they would receive the scholarship (this is not needed at the time of application) Plan to pursue a career in journalism Students do not need to be a US citizen to apply but must attend an accredited college or university in the US for this scholarship. To be eligible, applicants must: be a rising junior or senior college student demonstrated sports writing experience plan to pursue a career in sports writing Students do not need to be a US citizen to apply but must attend an accredited college or university in the US for this scholarship. To be eligible,",
+  "fit": 5,
+  "deadline": "2027-03-15",
+  "deadlineStatus": "Prazo confirmado na fonte consultada; conferir horário e fuso no edital.",
+  "eligibility": "parcial",
+  "status": "aberta",
+  "rules": "https://www.pressclubinstitute.org/national-press-club-scholarship-opportunities/",
+  "apply": "https://www.pressclubinstitute.org/national-press-club-scholarship-opportunities/"
+}, 
+{
   "id": "auto-af617f7cd9e07ba7",
   "title": "RSF Berlin Fellowship Program",
   "org": "Reporters Without Borders",
