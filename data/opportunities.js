@@ -1,6 +1,26 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.opportunities=[
 {
+  "id": "auto-af617f7cd9e07ba7",
+  "title": "RSF Berlin Fellowship Program",
+  "org": "Reporters Without Borders",
+  "summary": "Reporters Without Borders (RSF) Germany will once again invite journalists from countries with restricted freedom of press and information to Berlin for their annual fellowship program.",
+  "type": "Fellowship",
+  "themes": [
+    "Meio ambiente",
+    "Jornalismo investigativo",
+    "Jornalismo"
+  ],
+  "scope": "Journalists operating in dangerous areas",
+  "fit": 6,
+  "deadline": "2026-12-15",
+  "deadlineStatus": "Prazo confirmado na fonte consultada; conferir horário e fuso no edital.",
+  "eligibility": "parcial",
+  "status": "aberta",
+  "rules": "https://gfmd.info/fundings/rsf-berlin-fellowship-program/",
+  "apply": "https://gfmd.info/fundings/rsf-berlin-fellowship-program/"
+}, 
+{
   "id": "auto-573df7014317ef17",
   "title": "Pulitzer Center Rainforest Reporting Grant",
   "org": "Pulitzer Center",
