@@ -36,7 +36,7 @@ test('pending published catalog records reconcile to published without rewriting
   fs.writeFileSync(path.join(catalog,'tools.js'),'window.RADAR_PARTS=window.RADAR_PARTS||{};window.RADAR_PARTS.tools='+JSON.stringify([{id:'live-tool',url:'https://example.org/live-tool'},{id:'rejected-tool',url:'https://example.org/rejected-tool'}])+';');
   fs.writeFileSync(p('quality.json'),JSON.stringify({review:[]}));
   fs.writeFileSync(p('queue.json'),JSON.stringify({candidates}));
-  fs.writeFileSync(p('history.json'),JSON.stringify({leads:{}}));
+  fs.writeFileSync(p('history.json'),JSON.stringify({leads:{[rejected.id]:{category:'tools'},[unmatched.id]:{category:'tools'}}}));
   fs.writeFileSync(p('decisions.json'),JSON.stringify({decisions:[]}));
   cp.execFileSync(process.execPath,[path.resolve('scripts/merge-editorial-queue.js'),p('quality.json'),p('queue.json'),p('history.json'),p('decisions.json')],{env:{...process.env,RADAR_CATALOG_DIR:catalog}});
   const out=JSON.parse(fs.readFileSync(p('queue.json'),'utf8')).candidates;
@@ -79,7 +79,7 @@ test('persisted pending queue reconciles known tools and excludes nonfunding gra
   ].map(x=>({...identity(x.url),...x,status:'pending',firstSeen:'2026-10-20'}));
   fs.writeFileSync(p('quality.json'),JSON.stringify({review:[]}));
   fs.writeFileSync(p('queue.json'),JSON.stringify({candidates:records}));
-  fs.writeFileSync(p('history.json'),JSON.stringify({leads:{}}));
+  fs.writeFileSync(p('history.json'),JSON.stringify({leads:Object.fromEntries(records.map(x=>[x.id,{category:x.category==='opportunities'?'opportunities':'tools'}]))}));
   fs.writeFileSync(p('decisions.json'),JSON.stringify({decisions:[]}));
   const run=()=>cp.execFileSync(process.execPath,[path.resolve('scripts/merge-editorial-queue.js'),p('quality.json'),p('queue.json'),p('history.json'),p('decisions.json')]);
   run();run();
@@ -90,5 +90,22 @@ test('persisted pending queue reconciles known tools and excludes nonfunding gra
   assert.equal(byTitle('Terms grant broad scraping permissions').category,'uncategorized');
   assert.equal(byTitle('Investigative Journalism Fellowship').category,'opportunities');
   assert.ok(items.every(x=>x.status==='pending'));
+ }finally{fs.rmSync(dir,{recursive:true,force:true})}
+});
+
+test('orphaned queue records are removed when no history, catalog, or fresh review remains',()=>{
+ const dir=fs.mkdtempSync(path.join(os.tmpdir(),'radar-orphan-queue-'));
+ try{
+  const p=name=>path.join(dir,name);
+  const orphan={...identity('https://example.org/old-orphan'),title:'Old orphan',category:'tools',status:'pending',firstSeen:'2026-10-20'};
+  const fresh={...identity('https://example.org/fresh-review'),title:'Fresh review',category:'tools',status:'pending',firstSeen:'2026-10-20'};
+  fs.writeFileSync(p('quality.json'),JSON.stringify({review:[{...fresh,classification:'needs-editorial-review'}]}));
+  fs.writeFileSync(p('queue.json'),JSON.stringify({candidates:[orphan,fresh]}));
+  fs.writeFileSync(p('history.json'),JSON.stringify({leads:{}}));
+  fs.writeFileSync(p('decisions.json'),JSON.stringify({decisions:[]}));
+  cp.execFileSync(process.execPath,[path.resolve('scripts/merge-editorial-queue.js'),p('quality.json'),p('queue.json'),p('history.json'),p('decisions.json')]);
+  const out=JSON.parse(fs.readFileSync(p('queue.json'),'utf8')).candidates;
+  assert.equal(out.some(x=>x.id===orphan.id),false);
+  assert.equal(out.some(x=>x.id===fresh.id),true);
  }finally{fs.rmSync(dir,{recursive:true,force:true})}
 });
