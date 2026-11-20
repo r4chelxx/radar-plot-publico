@@ -3325,6 +3325,47 @@
           "licenseStatus": "stated"
         }
       }
+    },
+    {
+      "category": "opportunities",
+      "record": {
+        "id": "auto-af617f7cd9e07ba7",
+        "title": "RSF Berlin Fellowship Program",
+        "org": "Reporters Without Borders",
+        "summary": "Reporters Without Borders (RSF) Germany will once again invite journalists from countries with restricted freedom of press and information to Berlin for their annual fellowship program.",
+        "type": "Fellowship",
+        "themes": [
+          "Meio ambiente",
+          "Jornalismo investigativo",
+          "Jornalismo"
+        ],
+        "scope": "Journalists operating in dangerous areas",
+        "fit": 6,
+        "deadline": "2026-12-15",
+        "deadlineStatus": "Prazo confirmado na fonte consultada; conferir horário e fuso no edital.",
+        "eligibility": "parcial",
+        "status": "aberta",
+        "rules": "https://gfmd.info/fundings/rsf-berlin-fellowship-program/",
+        "apply": "https://gfmd.info/fundings/rsf-berlin-fellowship-program/"
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Radar evidence gate v1",
+        "reviewedAt": "2026-11-20",
+        "reviewPolicyVersion": "radar-evidence-v1",
+        "officialUrl": "https://gfmd.info/fundings/rsf-berlin-fellowship-program/",
+        "checkedAt": "2026-11-20T21:35:57.560Z",
+        "evidence": "RSF Berlin Fellowship Program - GFMD « Back to all Fundings RSF Berlin Fellowship Program Organisation: Reporters Without Borders Status: Open Type: Fellowship Theme: Freedom of expression Funding Size: N/A Deadline: 15/12/2026 Eligibility: Journalists operating in dangerous areas Target region: Global Application language: English Reporters Without Borders (RSF) Germany will once again invite journalists from countries with restricted freedom of press and information to Berlin for their annual fellowship program. The RSF Fellowship Program is designed to provide a safe space for journalists: Fellows will be able to take time off from their daily obligations and recover from their difficult working conditions, whilst learning new skills to better protect themselves by taking part in comprehensive safety trainings program on digital security. Eligibility Fellows should demonstrate a strong interest in developing an in-depth understanding of digital safety for journalists. However, a high level of existing proficiency in digital security is not required. The application is open to anyone who is familiar with using computers and smartphones. Fellows are expected to openly discuss their experiences and challenges as working journalists with a group of peers from diverse backgrounds. They should also share the knowledge they acquire during the programme with their colleagues back home. After completing the fellowship, participants are expected to return to their home region or country of residence (including third countries of permanent residence). The program will be conducted entirely in English, so fluency in speaking, reading and writing English is required in order to participate fully. The RSF Fellowship is open to applicants from any country who are at significant risk due to their journalistic work. However, applicants must be able to demonstrate that they could return to their country of residence at the end of the fellowship period for visa application purposes. RSF can only support journalists working in independent media; those working in government or politically affiliated media workers will not be considered. Applicants working as investigative journalists on topics related to human rights, such as climate change, corruption, labour rights or migration, will be given positive consideration in the selection process. How to apply To apply, candidates will be asked to address the following: Their experiences of threats or persecution, and how these relate directly to their journalistic activity. Concrete ideas demonstrating how the fellowship will positively impact their current work situation. They should also describe the type of digital threats they encounter and explain how digital security training would impact their personal safety, as well as that of their colleagues and sources. Please apply online from November 15th, 2026 until December 15th, 2026. Apply here . For more information, please visit this page . For the latest funding opportunities, profiles of media donors, and expert insight from GFMD’s MediaDev Fundraising Guide sign up for Bottom Line newsletter Sign Up Search Search for: This website uses cookies. By continuing to use the website you consent to the use and storage of cookies on your device. You are using an outdated browser which can not show modern web content. We suggest you download Chrome or Firefox .",
+        "evidenceHash": "dced118751cd303d6257dc2ac6f3092e16f5181036e14a735059af83c2f20f88",
+        "sourceStatus": 200,
+        "contentType": "text/html; charset=UTF-8",
+        "evidenceChecks": {
+          "callSignal": true,
+          "deadline": "2026-12-15",
+          "eligibility": true,
+          "rolling": false
+        }
+      }
     }
   ],
   "pending": [
