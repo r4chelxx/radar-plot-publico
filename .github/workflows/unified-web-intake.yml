@@ -307,6 +307,7 @@ jobs:
           cp scripts/lead-identity.js /tmp/lead-identity.js
           cp scripts/audit-editorial-queue.js /tmp/audit-editorial-queue.js
           cp scripts/editorial-page-evidence.js /tmp/editorial-page-evidence.js
+          cp scripts/editorial-text.js /tmp/editorial-text.js
           cp scripts/structured-lead-metadata.js /tmp/structured-lead-metadata.js
           cp scripts/review-editorial-evidence.js /tmp/review-editorial-evidence.js
           cp scripts/build-editorial-record-drafts.js /tmp/build-editorial-record-drafts.js
