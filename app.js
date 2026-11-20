@@ -186,8 +186,11 @@ function validateRadar(){
  const add=(level,kind,id,msg)=>(level==="error"?errors:warnings).push({kind,id,msg});
  D.opportunities.forEach(o=>{
   if(!o.id)add("error","oportunidade","sem-id","ID ausente"); else if(ids.has(o.id))add("error","oportunidade",o.id,"ID duplicado"); else ids.add(o.id);
-  ["title","org","type","scope","status","eligibility"].forEach(k=>{if(!o[k])add("error","oportunidade",o.id,k+" ausente")});
-  if(typeof o.fit!=="number"||o.fit<0||o.fit>10)add("error","oportunidade",o.id,"aderência fora de 0–10");
+  ["title","org","type","scope","status"].forEach(k=>{if(!o[k])add("error","oportunidade",o.id,k+" ausente")});
+  if(personalReady()){
+   if(!o.eligibility)add("error","oportunidade",o.id,"elegibilidade privada ausente");
+   if(typeof o.fit!=="number"||o.fit<0||o.fit>10)add("error","oportunidade",o.id,"aderência privada fora de 0–10");
+  }
   if(!o.rules||!/^https?:\/\//.test(o.rules))add("error","oportunidade",o.id,"fonte oficial ausente/inválida");
   ["deadline","opens","verified"].forEach(k=>{if(o[k]&&!dateRx.test(o[k]))add("error","oportunidade",o.id,k+" em formato inválido")});
   (o.story||[]).forEach(x=>{if(!storyIds.has(x))add("error","oportunidade",o.id,"pauta inexistente: "+x)});
