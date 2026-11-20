@@ -4,6 +4,8 @@ const https=require('node:https');
 const assert=require('node:assert/strict');
 const url=process.env.RADAR_PUBLIC_URL||'https://r4chelxx.github.io/radar-plot-publico/';
 const timeoutMs=15000;
+const maxResponseChars=5000000;
+const maxResponseChars=5000000;
 function fetch(target,redirects=0){
  return new Promise((resolve,reject)=>{
   const req=https.get(target,{timeout:timeoutMs,headers:{'User-Agent':'Radar-PLOT-healthcheck/1.0'}},res=>{
@@ -11,7 +13,7 @@ function fetch(target,redirects=0){
     res.resume();return resolve(fetch(new URL(res.headers.location,target).toString(),redirects+1));
    }
    let body='';res.setEncoding('utf8');
-   res.on('data',chunk=>{body+=chunk;if(body.length>1000000)req.destroy(new Error('Response too large'));});
+   res.on('data',chunk=>{body+=chunk;if(body.length>maxResponseChars)req.destroy(new Error('Response too large'));});
    res.on('end',()=>resolve({status:res.statusCode,body,url:target}));
   });
   req.on('timeout',()=>req.destroy(new Error('Request timed out')));
