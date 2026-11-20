@@ -8044,7 +8044,7 @@ window.RADAR_PARTS.datasets=[
     "docs": "https://help.openalex.org/api/",
     "limitations": "Metadados, deduplicação de autores, afiliações, citações e cobertura podem conter erros e vieses. API gratuita tem limites e cobrança para uso intensivo; snapshot público é muito grande e não equivale a atualização diária. O catálogo de metadados não garante acesso livre ao texto integral de cada publicação.",
     "lastChecked": "2026-10-30",
-    "url": "https://explore.openalex.org/",
+    "url": "https://openalex.org/",
     "discoveryUrl": "https://help.openalex.org/access/snapshot/",
     "description": "Base bibliográfica CC0 para localizar estudos, mapear instituições, financiamentos e redes de pesquisa, com API e snapshot público."
   },
