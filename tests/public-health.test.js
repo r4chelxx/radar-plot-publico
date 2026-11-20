@@ -30,3 +30,9 @@ test('catalog HTTP failure is detected',async()=>{
 test('HTML fallback with HTTP 200 cannot impersonate a catalog',async()=>{
  await assert.rejects(probe(html,url=>url.includes('/data/datasets.js')?{status:200,body:'<!doctype html><html>'+('fallback '.repeat(20))+'</html>'}:null).run(),/returned HTML/);
 });
+test('large public catalog assets are accepted below the safety cap',async()=>{
+ const large='/* catalog */'.repeat(100000);
+ const p=probe(html,url=>url.includes('/data/datasets.js')?{status:200,body:large}:null);
+ const result=await p.run();
+ assert.equal(result.ok,true);
+});
