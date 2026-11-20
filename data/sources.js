@@ -195,7 +195,7 @@ window.RADAR_PARTS.sources=[
   },
   {
     "name": "Prêmio Javier Valdez",
-    "url": "https://premiojaviervaldes.org/",
+    "url": "https://ipys.org/premio-latinoamericano-de-periodismo-de-investigaci%C3%B3n",
     "type": "Instituição promotora de prêmios, bolsas ou editais",
     "scope": "Brasil e internacional",
     "role": "monitoramento de editais futuros; sem confirmação de abertura",
@@ -459,7 +459,7 @@ window.RADAR_PARTS.sources=[
   },
   {
     "name": "Kiplinger Program in Public Affairs Journalism",
-    "url": "https://kiplingerprogram.org/",
+    "url": "https://www.ohio.edu/scripps-college/journalism/kiplinger",
     "type": "Editais, fellowships, prêmios ou apoio profissional para jornalistas",
     "scope": "A verificar por chamada",
     "role": "fonte institucional para auditoria",
