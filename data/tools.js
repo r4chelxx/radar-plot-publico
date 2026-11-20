@@ -6,15 +6,15 @@ window.RADAR_PARTS.tools=[
   "kind": "ferramenta de verificação de fatos",
   "url": "https://toolbox.google.com/factcheck/explorer",
   "desc": "Search fact-check results from the web about a topic or person. Consulte a documentação e as condições de acesso antes do uso editorial."
-}, 
+},
 {
   "id": "auto-cf35ab1a6098d860",
   "name": "earthkit",
   "kind": "DeveloperApplication",
   "url": "https://earthkit.ecmwf.int/",
   "desc": "Open-source tools for seamless earth science workflows with a format-agnostic Python interface for geospatial data. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
-}, 
-  {
+},
+{
     "id": "govteca-busca-lai",
     "name": "Busca LAI",
     "kind": "Busca de pedidos de acesso à informação",
@@ -23,7 +23,7 @@ window.RADAR_PARTS.tools=[
     "discoveryUrl": "https://govteca.com.br/f/busca-lai",
     "lastChecked": "2026-11-16"
   },
-  {
+{
     "id": "govteca-e-cidadania-senado-federal",
     "name": "e-Cidadania (Senado Federal)",
     "kind": "Participação e consulta legislativa",
@@ -32,7 +32,7 @@ window.RADAR_PARTS.tools=[
     "discoveryUrl": "https://govteca.com.br/f/e-cidadania-senado-federal",
     "lastChecked": "2026-11-16"
   },
-  {
+{
     "id": "govteca-olho-vivo-sptrans",
     "name": "Olho Vivo SPTrans",
     "kind": "Consulta de transporte público em tempo real",
@@ -41,7 +41,7 @@ window.RADAR_PARTS.tools=[
     "discoveryUrl": "https://govteca.com.br/f/olho-vivo-sptrans",
     "lastChecked": "2026-11-16"
   },
-  {
+{
     "id": "govteca-participacao-assembleia-legislativa-de-minas-gerais",
     "name": "Participação (Assembleia Legislativa de Minas Gerais)",
     "kind": "Participação legislativa",
@@ -50,7 +50,7 @@ window.RADAR_PARTS.tools=[
     "discoveryUrl": "https://govteca.com.br/f/participacao-assembleia-legislativa-de-minas-gerais",
     "lastChecked": "2026-11-16"
   },
-  {
+{
     "id": "govteca-pesquisa-de-propostas-legislativas-camara-dos-deputados",
     "name": "Pesquisa de Propostas Legislativas (Câmara dos Deputados)",
     "kind": "Pesquisa legislativa",
@@ -59,7 +59,7 @@ window.RADAR_PARTS.tools=[
     "discoveryUrl": "https://govteca.com.br/f/pesquisa-de-propostas-legislativas-camara-dos-deputados",
     "lastChecked": "2026-11-16"
   },
-  {
+{
     "id": "govteca-poa-transporte",
     "name": "POA Transporte",
     "kind": "Consulta de itinerários de transporte público",
@@ -68,7 +68,7 @@ window.RADAR_PARTS.tools=[
     "discoveryUrl": "https://govteca.com.br/f/poa-transporte",
     "lastChecked": "2026-11-16"
   },
-  {
+{
     "id": "guaraci-orquestrador-dados-publicos",
     "name": "Guaraci",
     "kind": "Coleta e conversão de dados públicos",
@@ -77,42 +77,42 @@ window.RADAR_PARTS.tools=[
     "discoveryUrl": "https://sabiadatalake.com.br/guaraci/",
     "lastChecked": "2026-11-16"
   },
-  {
+{
     "id": "be9e40b9672b7d79a68ce0c91d7c97b541c7e742d6681c8ed5f43e55e2401e5b",
     "name": "Three.js",
     "kind": "JavaScript 3D Library",
     "url": "https://threejs.org/",
     "desc": "Three.js – JavaScript 3D Library Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
   },
-  {
+{
     "id": "c2ee2f71ce77c43a7a985d95d7cbaa66f179f6fdbc4424ac9f4d85441953b2a8",
     "name": "Layer Cake",
     "kind": "Framework de gráficos e visualização",
     "url": "https://layercake.graphics/",
     "desc": "A framework for mostly-reusable graphics with svelte Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
   },
-  {
+{
     "id": "d1d9f0e8c01b765eace5a461bb293de7d52b785ffc9cc6df2a3b0a40b3bde74f",
     "name": "Selenium",
     "kind": "Automação de navegador",
     "url": "https://www.selenium.dev/",
     "desc": "Selenium is a browser automation tool that gives you full control over Chrome, Firefox, Edge and Safari. Write your scripts in Java, Python, C#, Ruby, JavaScript or Kotlin using the official W3C WebDriver standard. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
   },
-  {
+{
     "id": "fb1f5945b6820ed90263a3164b11222cb5cbbd33823865ccd8e85e23468238a1",
     "name": "MuckRock",
     "kind": "Gestão de pedidos de acesso à informação",
     "url": "https://www.muckrock.com/?utm_source=substack&utm_medium=email",
     "desc": "MuckRock is a collaborative news site that gives you the tools to hold the government accountable. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
   },
-  {
+{
     "id": "c6759019fe5266bd71d3bafd3ed26a4886df16ed8d2af2cf05be2aab0fdbd3e4",
     "name": "Buttondown",
     "kind": "BusinessApplication",
     "url": "https://buttondown.com/",
     "desc": "Newsletter software for people like you. Everyone from Pulitzer Prize winners and Fortune 500s to study groups and first-time authors love Buttondown. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
   },
-  {
+{
     "id": "auto-ce5d51ff262e14cd",
     "name": "Beautiful Soup",
     "kind": "biblioteca de software",
@@ -120,14 +120,14 @@ window.RADAR_PARTS.tools=[
     "desc": "Beautiful Soup: We called him Tortoise because he taught us. [ Download | Documentation | Hall of Fame | For enterprise | Source | Changelog | Discussion group | Zine ] Beautiful Soup You didn't write that awful page. You're just trying to get some data out of it. Beautiful Soup is here to help. Since 2004, it's been saving programmers hours or days of work on quick-turnaround screen scraping projects. Beautiful Soup is a Python library designed for quick turnaround projects like screen-scraping. Three features make it powerful: Beautiful Soup provides a few simple methods and Pythonic idioms for navigating, searching, and modifying a parse tree: a toolkit for dissecting a document and extracting what you need. It doesn't take much code to write an application Beautiful Soup automatically converts incoming documents to Unicode and outgoing documents to UTF-8. You don't have to think about encodings, unless the document doesn't specify an encoding and Beautiful Soup can't detect one. Then you just have to specify the original encoding. Beautiful Soup sits on top of popular Python parsers like lxml and html5lib , allowing you to try out different parsing strategies or trade speed for Consultar documentação e licença antes do uso editorial.",
     "discoveryUrl": "https://www.crummy.com/software/BeautifulSoup"
   },
-  {
+{
     "id": "68fedf64924894e13bb99abb21c12be64ecfb0387bc39c7acd2c64cd5949932f",
     "name": "Figma: The collaborative canvas for design, code, and AI",
     "kind": "software para análise de dados",
     "url": "https://www.figma.com/",
     "desc": "Figma is the canvas where design, code, and AI come together. From first idea to shipped product — go from concept to production with your whole team, in one place. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
   },
-  {
+{
     "id": "auto-393eaada993d30d1",
     "name": "datasette-enrichments",
     "kind": "plugin de dados",
@@ -135,133 +135,133 @@ window.RADAR_PARTS.tools=[
     "desc": "Plugins > datasette-enrichments datasette-enrichments by datasette Star README source code datasette-enrichments Tools for running enrichments against data stored in Datasette Potential use-cases for enrichments include: Geocoding an address and populating a latitude and longitude column Executing a template to generate output based on the values in each row Fetching data from a URL and populating a column with the result Executing OCR against a linked image or PDF file Documentation for this plugin lives at enrichments.datasette.io . Development To set up this plugin locally, first checkout the code. Then create a new virtual environment: cd datasette-enrichments python3 -mvenv venv source venv/bin/activate Or if you are using pipenv : pipenv shell Now install the dependencies and test dependencies: pip install -e ' .[test] ' To run the tests: pytest Consultar documentação e licença antes do uso editorial.",
     "discoveryUrl": "https://datasette.io/plugins/datasette-enrichments"
   },
-  {
+{
     "id": "733c36409f57a6d64b4eb49ac945a060082aa3ebc58f68ebc56d21824af048b3",
     "name": "fedmatch",
     "kind": "record linkage e correspondência de dados",
     "url": "https://cran.r-project.org/package=fedmatch",
     "desc": "Provides a flexible set of tools for matching two un-linked data sets. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
   },
-  {
+{
     "id": "87d587fb19392bb7866daeeb6b83219beda45f46b058d876c647f27e3e0253d4",
     "name": "Python Record Linkage Toolkit",
     "kind": "record linkage e correspondência de dados",
     "url": "https://recordlinkage.readthedocs.io/",
     "desc": "Documentação oficial de Python Record Linkage Toolkit para uso em análise e tratamento de dados. Source note: consultar a documentação e a licença antes do uso editorial."
   },
-  {
+{
     "id": "483c5944a10521dde5f808f0c5a7f8905fcf5f0d7041f337d200f27096fecbc5",
     "name": "The AI analytics platform",
     "kind": "Omni Analytics",
     "url": "https://omni.co/",
     "desc": "Omni Analytics turns your data into a source of truth for AI, so anyone can get answers they trust. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
   },
-  {
+{
     "id": "78b7a11294f5e332bf8ed33d08a8d7151c67f4de4588753cb629a48375d6c337",
     "name": "TabulaPDF",
     "kind": "ropensci/tabulapdf: Bindings for Tabula PDF Table Extractor Library · GitHub",
     "url": "https://github.com/ropensci/tabulapdf",
     "desc": "Bindings for Tabula PDF Table Extractor Library. Contribute to ropensci/tabulapdf development by creating an account on GitHub. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
   },
-  {
+{
     "id": "bcf905a7d1b746329b76590ec887f5b37fe0993d4c6f81fd8269f04c0829e6d7",
     "name": "Data Analysis Expressions (DAX) Reference",
     "kind": "DAX | Microsoft Learn",
     "url": "https://learn.microsoft.com/en-us/dax",
     "desc": "Data Analysis Expressions (DAX) is a library of functions and operators that can be combined to build calculation formula expressions. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
   },
-  {
+{
     "id": "dcfa0487c540be0e50474bdc6332858180f97a84e0b91c826ac43f897db13474",
     "name": "Cube",
     "kind": "The agentic analytics platform built on a semantic layer",
     "url": "https://cube.dev/",
     "desc": "Cube is the agentic analytics platform, built on a semantic layer — AI-native business intelligence and embedded analytics with answers your team and your customers can trust. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
   },
-  {
+{
     "id": "6d84c860baa5311d1e0fcec13e539b428a8d37d4c97126c53e09639eb31e9621",
     "name": "Maigret",
     "kind": "soxoj/maigret: 🕵️‍♂️ Collect a dossier on a person by username from 6K websites · GitHub",
     "url": "https://github.com/soxoj/maigret",
     "desc": "🕵️‍♂️ Collect a dossier on a person by username from 6K websites - soxoj/maigret Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
   },
-  {
+{
     "id": "9f08b5a99c6c9f62c7b1c97611500f5db6b140a14c8c8c4a5b34b00faaad2427",
     "name": "Tableau",
     "kind": "plataforma de análise de dados",
     "url": "https://www.tableau.com/",
     "desc": "Tableau can help anyone see and understand their data. Connect to almost any database, drag and drop to create visualizations, and share with a click. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
   },
-  {
+{
     "id": "a6943fe0aa51788e6f02a85895ba465cd40dfb9c7cc5462996acf7e81b148ff2",
     "name": "Vega",
     "kind": "visualização de dados",
     "url": "https://vega.github.io/",
     "desc": "Vega is a declarative format for creating, saving, and sharing visualization designs. With Vega, visualizations are described in JSON, and generate interactive views using either HTML5 Canvas or SVG. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
   },
-  {
+{
     "id": "bf0f70ab6377c8041e340bdf48e30a2e326e89cb07d78998b89ba0c7ee5fb0be",
     "name": "Sigma",
     "kind": "BusinessApplication",
     "url": "https://www.sigmacomputing.com/",
     "desc": "Sigma is the AI runtime for business. A governed platform where teams build and run AI apps and agents directly on live cloud warehouse data (Snowflake, Databricks, BigQuery, Redshift). Ask in natural language, build agents that act on your data, write back to close the loop, and analyze in a familiar spreadsheet interface, all governed. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
   },
-  {
+{
     "id": "cbcf1207daf6bdd681a32b245a2509a15e85242808741c346412f447100b05fa",
     "name": "Microsoft Power BI",
     "kind": "plataforma de visualização e análise de dados",
     "url": "https://www.microsoft.com/en-us/power-platform/products/power-bi",
     "desc": "Microsoft Power BI is a business intelligence platform that helps you visualize data and infuse insights into your existing Microsoft 365 apps. Try it for free. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
   },
-  {
+{
     "id": "d2f8e4e03f7039542269c22b68eb5b54fa341006c9685b6af22fd3ae39598778",
     "name": "Plotly para Python",
     "kind": "biblioteca Python de visualização de dados",
     "url": "https://plotly.com/python",
     "desc": "Build interactive Python charts and graphs with Plotly Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
   },
-  {
+{
     "id": "9074bd0330d7cf1e7b676cd5fa22eacf03a786e13009162ac6f99e121dca4cf6",
     "name": "Quanteda",
     "kind": "pacote R",
     "url": "https://quanteda.io/",
     "desc": "A fast, flexible, and comprehensive framework for quantitative text analysis in R. Provides functionality for corpus management, creating and manipulating tokens and n-grams, exploring keywords in context, forming and manipulating sparse matrices of documents by features and feature co-occurrences, analyzing keywords, computing feature similarities and distances, applying content dictionaries, applying supervised and unsupervised machine learning, visually representing text and text analyses, and more. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
   },
-  {
+{
     "id": "3a612d3b0026605c96abe95b17102fd7ec515303f91661745ecd97a722bed17a",
     "name": "Python",
     "kind": "linguagem de programação",
     "url": "https://www.python.org/",
     "desc": "Linguagem de programação de código aberto usada para automatizar coleta, limpeza e análise de dados. O uso exige instalar ou acessar um ambiente de execução e, conforme a tarefa, bibliotecas adicionais."
   },
-  {
+{
     "id": "5c1be986e488cd7da4221e6f239cdd4b9259d573f9151cf5b6d1b348b06b2dbe",
     "name": "R",
     "kind": "computação estatística e análise de dados",
     "url": "https://www.r-project.org/",
     "desc": "Linguagem e ambiente de código aberto para computação estatística e gráficos. Permite explorar dados e criar análises reproduzíveis. Fluxos especializados podem exigir pacotes adicionais e conhecimento de programação."
   },
-  {
+{
     "id": "80b3a36bc32b874256e675493db452de9c5e04cb25b98648d340a315a67a3fbd",
     "name": "Zebra BI | Actionable Reporting Made Easy",
     "kind": "plataforma de análise de dados",
     "url": "https://zebrabi.com/",
     "desc": "Zebra BI enables analytics teams to create jaw-dropping and actionable reports and deliver insights in record time. Try our tools today. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
   },
-  {
+{
     "id": "8c69a7bafba7ddd1615d7cb77a6d643e3f283bf08d2bf8f6f74bb96e26642a66",
     "name": "pandas - Python Data Analysis Library",
     "kind": "Python Data Analysis Library",
     "url": "https://pandas.pydata.org/",
     "desc": "pandas - Python Data Analysis Library pandas pandas is a fast, powerful, flexible and easy to use open source data analysis and manipulation tool, built on top of the Python programming language. Source note: the captured page does not state detailed usage limitations; consult the official documentation and license before use."
   },
-  {
+{
     "id": "8ccdce543913e2af137941b13f03b4f34e9a544dfc8befeff78dafc28b85ebf5",
     "name": "Power BI Theme Generator - Create Professional Themes in Seconds | Power UI | Power UI",
     "kind": "DesignApplication",
     "url": "https://www.powerui.com/",
     "desc": "Professional Power BI theme generator with visual editing, real-time preview, and comprehensive design system Source note: the captured page does not state detailed usage limitations; consult the official documentation and license before use."
   },
-  {
+{
     "id": "samgeo-geospatial-image-segmentation",
     "name": "SamGeo — segmentação de imagens geoespaciais com IA",
     "kind": "biblioteca Python aberta para análise de imagens e sensoriamento remoto",
@@ -269,7 +269,7 @@ window.RADAR_PARTS.tools=[
     "desc": "Biblioteca Python de código aberto (licença MIT) para segmentar imagens geoespaciais com modelos Segment Anything (SAM), trabalhar com GeoTIFF e exportar resultados como GeoJSON, GeoPackage ou Shapefile. Útil para investigar mudanças de uso do solo e analisar imagens de satélite; exige validação humana dos segmentos, ambiente Python e recursos computacionais adequados. Modelos de IA podem produzir falsos positivos e omissões.",
     "discoveryUrl": "https://samgeo.gishub.org/"
   },
-  {
+{
     "id": "hot-tasking-manager-humanitarian-mapping",
     "name": "HOT Tasking Manager — mapeamento humanitário colaborativo",
     "kind": "plataforma web aberta de coordenação e validação de mapeamento OpenStreetMap",
@@ -277,7 +277,7 @@ window.RADAR_PARTS.tools=[
     "desc": "Plataforma da Humanitarian OpenStreetMap Team (HOT) para dividir regiões em tarefas de mapeamento colaborativo, acompanhar progresso e validar feições como edifícios e vias no OpenStreetMap. Útil para localizar lacunas cartográficas e apoiar investigações territoriais e de desastres; a cobertura e a qualidade dependem das contribuições e da revisão comunitária. Não substitui validação em campo nem comprova, por si só, condições atuais de uma área.",
     "discoveryUrl": "https://hotosm.org/"
   },
-  {
+{
     "id": "d3js-interactive-data-visualization",
     "name": "D3.js — visualização de dados interativa",
     "kind": "biblioteca JavaScript para visualizações e narrativas interativas",
@@ -285,7 +285,7 @@ window.RADAR_PARTS.tools=[
     "desc": "Biblioteca JavaScript aberta (licença ISC) para construir gráficos, mapas e visualizações interativas sob medida, com escalas, eixos, projeções e animações. Exige programação e cuidados específicos de acessibilidade, desempenho e representação estatística; não fornece um editor visual pronto.",
     "discoveryUrl": "https://d3js.org/"
   },
-  {
+{
     "id": "google-data-studio-dashboards",
     "name": "Google Data Studio (Looker Studio) — dashboards e relatórios",
     "kind": "painéis interativos, conectores e visualização sem programação",
@@ -293,7 +293,7 @@ window.RADAR_PARTS.tools=[
     "desc": "Ferramenta web do Google para criar e compartilhar dashboards, gráficos e relatórios com conectores de dados e incorporação em páginas. Exige conta e configuração de permissões; custos, limites e disponibilidade dependem de conectores, serviços e modalidade utilizada. Conferir privacidade e atualização das fontes.",
     "discoveryUrl": "https://developers.google.com/data-studio"
   },
-  {
+{
     "id": "mapbox-interactive-maps",
     "name": "Mapbox — mapas interativos e cartografia web",
     "kind": "plataforma de mapas, estilos e APIs geoespaciais",
@@ -301,7 +301,7 @@ window.RADAR_PARTS.tools=[
     "desc": "Plataforma de mapas interativos, geocodificação, estilos cartográficos e APIs para projetos digitais, incluindo narrativas geográficas. Requer conta e credenciais de acesso; possui franquias gratuitas e cobrança por uso conforme produto. Dados e mapas-base têm termos próprios, e precisão e acessibilidade devem ser verificadas.",
     "discoveryUrl": "https://www.mapbox.com/pricing"
   },
-  {
+{
     "id": "deck-gl-geospatial-visualization",
     "name": "deck.gl — visualização geoespacial em grande escala",
     "kind": "visualização geoespacial interativa com WebGL/WebGPU",
@@ -309,7 +309,7 @@ window.RADAR_PARTS.tools=[
     "desc": "Framework JavaScript para visualizações exploratórias de grandes conjuntos de dados, com camadas geográficas, GeoJSON, pontos, linhas e integração a mapas-base. Exige programação e avaliação de desempenho e acessibilidade; a licença de dados e dos mapas-base depende das fontes utilizadas.",
     "discoveryUrl": "https://deck.gl/docs/api-reference/layers"
   },
-  {
+{
     "id": "scikit-learn-python-machine-learning",
     "name": "scikit-learn — aprendizado de máquina em Python",
     "kind": "análise preditiva, classificação, regressão e agrupamento",
@@ -317,7 +317,7 @@ window.RADAR_PARTS.tools=[
     "desc": "Biblioteca aberta de aprendizado de máquina em Python, com classificação, regressão, clustering e avaliação de modelos, sob licença BSD. Útil para análise exploratória e investigação assistida por dados; resultados exigem validação estatística, revisão de vieses e documentação de hipóteses.",
     "discoveryUrl": "https://scikit-learn.org/stable/"
   },
-  {
+{
     "id": "p5js-creative-coding",
     "name": "p5.js — programação criativa e narrativas interativas",
     "kind": "gráficos generativos, animação e narrativas visuais web",
@@ -325,7 +325,7 @@ window.RADAR_PARTS.tools=[
     "desc": "Biblioteca JavaScript gratuita e aberta para criar desenhos, animações e experiências interativas no navegador, com editor web e documentação. Adequada a experimentações em jornalismo visual; requer programação e testes de acessibilidade e desempenho. Licença da biblioteca LGPL 2.1; exemplos e materiais têm condições próprias.",
     "discoveryUrl": "https://p5js.org/about/"
   },
-  {
+{
     "id": "pondpilot-duckdb-browser-sql",
     "name": "PondPilot — exploração SQL de dados no navegador",
     "kind": "análise de dados tabulares, SQL e DuckDB-WASM",
@@ -333,7 +333,7 @@ window.RADAR_PARTS.tools=[
     "desc": "Aplicação gratuita e aberta para consultar arquivos CSV, Parquet, JSON, planilhas e bases DuckDB diretamente no navegador, com editor SQL, resultados tabulares e exportação. Processamento básico ocorre localmente via DuckDB-WASM; funções opcionais de IA usam chaves e provedores externos, exigindo avaliação de privacidade. No Safari, algumas funções de persistência de arquivos são limitadas; não substitui validação e limpeza dos dados.",
     "discoveryUrl": "https://github.com/pondpilot/pondpilot"
   },
-  {
+{
     "id": "osomenet-social-diffusion",
     "name": "OSoMeNet — redes de difusão em mídias sociais",
     "kind": "análise de redes e circulação de informação pública",
@@ -341,7 +341,7 @@ window.RADAR_PARTS.tools=[
     "desc": "Ferramenta acadêmica para visualizar redes de difusão e coocorrência de postagens em Bluesky, Mastodon, TikTok e arquivo histórico OSoMe, com linha do tempo e consultas por termos. A cobertura depende das APIs, permissões e limites de cada plataforma; TikTok pode exigir credenciais de pesquisa e os resultados não representam amostras completas. Conferir termos, representatividade e privacidade antes de usar em investigação.",
     "discoveryUrl": "https://osome.iu.edu/tools/osomenet/about"
   },
-  {
+{
     "id": "reactable-r-interactive-tables",
     "name": "reactable — tabelas interativas em R",
     "kind": "tabelas interativas, visualização e publicação de dados",
@@ -349,7 +349,7 @@ window.RADAR_PARTS.tools=[
     "desc": "Pacote R de código aberto (MIT) para tabelas interativas com ordenação, filtros, paginação, agrupamento, estilos condicionais e renderização personalizada, utilizável em Shiny, Quarto e R Markdown. Exige R e preparação dos dados; grandes tabelas podem precisar de virtualização ou processamento no servidor. Revisar acessibilidade, anonimização e dados sensíveis antes de publicar.",
     "discoveryUrl": "https://glin.github.io/reactable/reference/reactable.html"
   },
-  {
+{
     "id": "saucenao-reverse-image-search",
     "name": "SauceNAO — busca reversa especializada de imagens",
     "kind": "busca reversa e rastreamento de origem de imagens",
@@ -357,7 +357,7 @@ window.RADAR_PARTS.tools=[
     "desc": "Mecanismo de busca reversa de imagens para localizar possíveis fontes e correspondências em índices especializados de ilustração, quadrinhos, plataformas de arte, filmes e outras coleções. Permite envio de imagem para consulta, mas não cobre toda a web nem comprova autenticidade ou autoria por si só. Evitar subir imagens sensíveis sem avaliar os termos de serviço, privacidade e direitos de terceiros.",
     "discoveryUrl": "https://saucenao.com/about.html"
   },
-  {
+{
     "id": "chartist-responsive-svg-charts",
     "name": "Chartist — gráficos SVG responsivos em JavaScript",
     "kind": "gráficos responsivos e visualização web em SVG",
@@ -365,7 +365,7 @@ window.RADAR_PARTS.tools=[
     "desc": "Biblioteca JavaScript de código aberto para gráficos responsivos renderizados em SVG e estilizados por CSS, com séries, barras, linhas e composição de gráficos. Pode ser integrada por módulo ES ou npm; útil para infográficos web leves e personalizáveis. Requer programação e validação de dados, escalas, contraste, acessibilidade e comportamento em dispositivos móveis. Recursos avançados de zoom e tooltips podem depender de plugins.",
     "discoveryUrl": "https://buttondown.com/puntofisso/archive/680-quantum-of-sollazzo/"
   },
-  {
+{
     "id": "rustgis-opengeos",
     "name": "RustGIS — SIG livre para desktop e navegador",
     "kind": "sistema de informação geográfica e análise espacial",
@@ -373,7 +373,7 @@ window.RADAR_PARTS.tools=[
     "desc": "Aplicativo GIS de código aberto escrito em Rust, disponível para desktop e navegador (WebAssembly), com importação de GeoJSON, CSV, GeoTIFF e projetos espaciais, além de ferramentas de análise e exportação. O processamento local não implica envio automático dos dados, mas mapas-base, plugins e recursos opcionais de IA podem acessar serviços externos. A compatibilidade depende do navegador (WebGPU/WebGL2) e da maturidade das funções; conferir projeções, resultados e privacidade antes de uso jornalístico.",
     "discoveryUrl": "https://web.rustgis.app/"
   },
-  {
+{
     "id": "vega-lite-visualization-grammar",
     "name": "Vega-Lite — gramática declarativa de visualização",
     "kind": "visualização interativa de dados e gráficos declarativos",
@@ -381,7 +381,7 @@ window.RADAR_PARTS.tools=[
     "desc": "Biblioteca aberta para especificar gráficos e visualizações interativas em JSON, incluindo camadas, múltiplas visões, filtros, agregações e seleções. Compila especificações para Vega; útil para visualizações reproduzíveis de dados jornalísticos. Exige conhecimentos de estrutura de dados, JSON e integração web; não substitui auditoria estatística, acessibilidade nem verificação de fontes. Documentação e editor online no projeto oficial.",
     "discoveryUrl": "https://vega.github.io/"
   },
-  {
+{
     "id": "inkscape-svg-editor",
     "name": "Inkscape — editor vetorial SVG livre",
     "kind": "edição de gráficos vetoriais e acabamento de visualizações",
@@ -389,7 +389,7 @@ window.RADAR_PARTS.tools=[
     "desc": "Editor de código aberto para trabalhar com SVG, caminhos, camadas, textos e ilustrações vetoriais; útil para finalizar gráficos jornalísticos exportados em SVG e criar diagramas. Disponível para Windows, macOS e Linux, sem assinatura. É um editor de desenho, não uma ferramenta de análise estatística; revisar acessibilidade, fontes, licença de elementos externos e integridade dos dados antes da publicação.",
     "discoveryUrl": "https://inkscape.org/"
   },
-  {
+{
     "id": "google-earth-engine",
     "name": "Google Earth Engine — análise geoespacial em nuvem",
     "kind": "sensoriamento remoto e análise geoespacial de imagens de satélite",
@@ -397,7 +397,7 @@ window.RADAR_PARTS.tools=[
     "desc": "Plataforma para consultar imagens de satélite e conjuntos geoespaciais, processar séries temporais, detectar mudanças ambientais e construir análises em Python ou JavaScript. Inclui editor de código e catálogo de dados. Requer conta, projeto Google Cloud registrado e conhecimento técnico; uso gratuito depende de elegibilidade e verificação periódica de finalidade não comercial, com cotas de processamento. A cobertura e a resolução variam por coleção, e resultados de classificação exigem validação independente.",
     "discoveryUrl": "https://earthengine.google.com/"
   },
-  {
+{
     "id": "folium-python-leaflet-maps",
     "name": "Folium — mapas interativos em Python",
     "kind": "cartografia interativa e visualização geoespacial em Python",
@@ -405,7 +405,7 @@ window.RADAR_PARTS.tools=[
     "desc": "Biblioteca de código aberto que transforma dados tratados em Python em mapas interativos baseados em Leaflet, com marcadores, camadas, coropléticos e dados GeoJSON. Permite exportar mapas HTML e integrar resultados a notebooks. Requer programação e conferência de projeções, atribuição de mapas-base e licenças das fontes; mapas exportados podem depender de recursos externos para carregar tiles e scripts, e a interatividade não substitui verificação cartográfica nem acessibilidade.",
     "discoveryUrl": "https://python-visualization.github.io/folium/"
   },
-  {
+{
     "id": "crawlback-common-crawl",
     "name": "Crawlback — busca em páginas arquivadas do Common Crawl",
     "kind": "investigação digital e recuperação de versões arquivadas de páginas",
@@ -416,7 +416,7 @@ window.RADAR_PARTS.tools=[
     ],
     "discoveryUrl": "https://crawlback.cc/"
   },
-  {
+{
     "id": "okbr-querido-diario-tecnologias-educacao",
     "name": "Querido Diário — Tecnologias na Educação",
     "kind": "busca em diários oficiais e monitoramento de contratações educacionais",
@@ -427,7 +427,7 @@ window.RADAR_PARTS.tools=[
     ],
     "discoveryUrl": "https://ok.org.br/projetos/qd-tecnologias-educacao/"
   },
-  {
+{
     "id": "playwright-browser-automation",
     "name": "Playwright — automação e testes de navegadores",
     "kind": "automação de navegador, testes de interface e coleta web",
@@ -438,7 +438,7 @@ window.RADAR_PARTS.tools=[
     ],
     "discoveryUrl": "https://playwright.dev/python"
   },
-  {
+{
     "id": "tableau-public",
     "name": "Tableau Public",
     "kind": "visualização interativa e portfólio público de dados",
@@ -449,7 +449,7 @@ window.RADAR_PARTS.tools=[
     ],
     "discoveryUrl": "https://public.tableau.com/"
   },
-  {
+{
     "id": "canva-charts",
     "name": "Canva — gráficos e visualização",
     "kind": "produção visual com gráficos e importação de planilhas",
@@ -460,7 +460,7 @@ window.RADAR_PARTS.tools=[
     ],
     "discoveryUrl": "https://www.canva.com/"
   },
-  {
+{
     "id": "openlayers",
     "name": "OpenLayers",
     "kind": "biblioteca JavaScript aberta para mapas web",
@@ -471,7 +471,7 @@ window.RADAR_PARTS.tools=[
     ],
     "discoveryUrl": "https://openlayers.org/"
   },
-  {
+{
     "id": "stac-specification",
     "name": "STAC — SpatioTemporal Asset Catalog",
     "kind": "especificação e ecossistema para catálogos geoespaciais",
@@ -482,7 +482,7 @@ window.RADAR_PARTS.tools=[
     ],
     "discoveryUrl": "https://stacspec.org/en"
   },
-  {
+{
     "id": "camelot-pdf-tables",
     "name": "Camelot — extração de tabelas de PDF",
     "kind": "extração programática de tabelas em PDF",
@@ -493,7 +493,7 @@ window.RADAR_PARTS.tools=[
     ],
     "discoveryUrl": "https://camelot-py.readthedocs.io/"
   },
-  {
+{
     "id": "observable-framework",
     "name": "Observable Framework",
     "kind": "publicação de aplicações, painéis e reportagens de dados",
@@ -504,7 +504,7 @@ window.RADAR_PARTS.tools=[
     ],
     "discoveryUrl": "https://observablehq.com/framework"
   },
-  {
+{
     "id": "postgis",
     "name": "PostGIS",
     "kind": "banco de dados e análise geoespacial",
@@ -515,7 +515,7 @@ window.RADAR_PARTS.tools=[
     ],
     "discoveryUrl": "https://postgis.net/"
   },
-  {
+{
     "id": "whitebox-geospatial-tools",
     "name": "Whitebox — ferramentas geoespaciais",
     "kind": "análise de terreno, hidrologia, LiDAR e sensoriamento remoto",
@@ -526,7 +526,7 @@ window.RADAR_PARTS.tools=[
     ],
     "discoveryUrl": "https://www.whiteboxgeo.com/"
   },
-  {
+{
     "id": "tmap-r",
     "name": "tmap — mapas temáticos em R",
     "kind": "cartografia temática estática e interativa",
@@ -537,7 +537,7 @@ window.RADAR_PARTS.tools=[
     ],
     "discoveryUrl": "https://r-tmap.github.io/tmap/"
   },
-  {
+{
     "id": "flourish",
     "name": "Flourish",
     "kind": "gráficos, mapas e narrativas interativas sem programação",
@@ -545,7 +545,7 @@ window.RADAR_PARTS.tools=[
     "desc": "Editor para criar e incorporar gráficos, mapas e narrativas interativas a partir de dados. O plano gratuito permite publicação pública com atribuição; recursos como exportação, colaboração e personalização variam por plano. Exige cadastro. Antes de publicar, revisar privacidade, permissões e exposição dos dados, além da qualidade estatística e acessibilidade da visualização.",
     "discoveryUrl": "https://flourish.studio/"
   },
-  {
+{
     "id": "kepler-gl",
     "name": "kepler.gl",
     "kind": "exploração visual de dados geoespaciais",
@@ -553,7 +553,7 @@ window.RADAR_PARTS.tools=[
     "desc": "Aplicação aberta para explorar dados geográficos em camadas, filtros e agregações, com importação de CSV e GeoJSON e integração em aplicações React. Segundo a documentação, os dados importados são processados no navegador. O desempenho depende do equipamento e do volume; conferir coordenadas em WGS84, tipos de campos e serviços externos usados no mapa antes de trabalhar com material sensível.",
     "discoveryUrl": "https://kepler.gl/"
   },
-  {
+{
     "id": "leaflet",
     "name": "Leaflet",
     "kind": "biblioteca JavaScript para mapas interativos",
@@ -561,7 +561,7 @@ window.RADAR_PARTS.tools=[
     "desc": "Biblioteca aberta para construir mapas interativos para web e celular, com camadas de tiles, WMS, marcadores e GeoJSON. Exige programação e uma fonte de dados ou mapas de fundo; a biblioteca não fornece, por si, hospedagem nem uma base cartográfica. Serviços de tiles têm regras, atribuição e limites próprios. Revisar acessibilidade, coordenadas e privacidade de dados e requisições externas.",
     "discoveryUrl": "https://leafletjs.com/"
   },
-  {
+{
     "id": "h3-geospatial-index",
     "name": "H3 — índice geoespacial hierárquico",
     "kind": "indexação e agregação geoespacial",
@@ -569,7 +569,7 @@ window.RADAR_PARTS.tools=[
     "desc": "Biblioteca aberta para agrupar coordenadas em células e cruzar bases geográficas em diferentes resoluções. Possui implementações para linguagens como Python e JavaScript. Exige programação; a hierarquia oferece contenção lógica exata, mas contenção geométrica aproximada entre resoluções. Para limites territoriais exatos, complementar com verificações ponto-em-polígono.",
     "discoveryUrl": "https://h3geo.org/docs/"
   },
-  {
+{
     "id": "rawgraphs",
     "name": "RAWGraphs",
     "kind": "visualização de dados e exportação vetorial",
@@ -577,7 +577,7 @@ window.RADAR_PARTS.tools=[
     "desc": "Ferramenta aberta para transformar dados tabulares em visualizações exportáveis em SVG e refináveis em editores vetoriais. Segundo o projeto, os dados inseridos são processados no navegador; também pode ser executada localmente. Requer revisão da qualidade dos dados e das escolhas gráficas; não substitui limpeza, análise estatística ou avaliação de acessibilidade.",
     "discoveryUrl": "https://rawgraphs.io/"
   },
-  {
+{
     "id": "rji-chalkbeat-source-auditing-tool",
     "name": "RJI + Chalkbeat — Source Auditing Tool",
     "kind": "auditoria de diversidade de fontes jornalísticas",
@@ -585,7 +585,7 @@ window.RADAR_PARTS.tools=[
     "desc": "Ferramenta gratuita do Reynolds Journalism Institute e da Chalkbeat para registrar e analisar a diversidade de fontes ouvidas por uma redação. Permite personalizar perguntas, incluir fontes sem e-mail e evitar múltiplas solicitações. A configuração requer contato ou demonstração; o preenchimento é opcional e dados pessoais exigem consentimento, minimização e proteção.",
     "discoveryUrl": "https://rjionline.org/source-auditing-tool"
   },
-  {
+{
     "id": "quiteria-ia-feminista-azmina",
     "name": "QuitérIA — IA feminista de monitoramento legislativo",
     "kind": "monitoramento legislativo e análise de projetos de lei",
@@ -593,7 +593,7 @@ window.RADAR_PARTS.tools=[
     "desc": "Ferramenta do Elas no Congresso/AzMina que utiliza modelos BERTimbau para classificar projetos de lei federais em dez temas de gênero e estimar desfavorabilidade. Disponibiliza metodologia, dados, código e documentação de API. Classificações automatizadas exigem conferência humana; os resultados não substituem análise jurídica, contexto legislativo nem verificação das proposições originais.",
     "discoveryUrl": "https://www.elasnocongresso.com.br/quiteria"
   },
-  {
+{
     "id": "arctic-shift-reddit-archive",
     "name": "Arctic Shift — arquivo e API do Reddit",
     "kind": "pesquisa histórica de publicações e comentários do Reddit",
@@ -601,7 +601,7 @@ window.RADAR_PARTS.tools=[
     "desc": "Pesquisa posts, comentários e comunidades do Reddit, com API para consultas, agregações e séries temporais. Útil para rastrear discussões e mudanças em comunidades públicas. A cobertura histórica é incompleta, a disponibilidade não é garantida e resultados devem ser confirmados com contexto, data e fonte original. Respeite privacidade e regras de uso dos dados.",
     "discoveryUrl": "https://github.com/ArthurHeitmann/arctic_shift/blob/master/api/README.md"
   },
-  {
+{
     "id": "web-archive-viewer",
     "name": "Web Archive Viewer",
     "kind": "extensão de navegador para consultar arquivos históricos da web",
@@ -609,7 +609,7 @@ window.RADAR_PARTS.tools=[
     "desc": "Consulta URLs em oito arquivos públicos, incluindo Wayback Machine, Archive.today, Arquivo.pt e Common Crawl. Busca e abertura de capturas são gratuitas, sem cadastro; comparação avançada, exportações e pesquisa em lote podem exigir plano Pro. Uma captura não comprova, isoladamente, autenticidade ou integridade da página original; confirme datas, contexto e conteúdo.",
     "discoveryUrl": "https://webinternetarchive.com/faq"
   },
-  {
+{
     "id": "dochush-pdf-redaction-checker",
     "name": "DocHush — PDF Redaction Checker",
     "kind": "verificação local de riscos de vazamento em PDFs com tarjas",
@@ -617,7 +617,7 @@ window.RADAR_PARTS.tools=[
     "desc": "Verificador gratuito e de código aberto executado no navegador para identificar texto recuperável sob tarjas, camadas invisíveis, metadados, anexos e revisões anteriores em PDFs. Segundo o projeto, os arquivos não são enviados ao servidor. A análise tem cobertura limitada: não lê texto dentro de imagens por OCR nem garante ausência de vazamentos. Não confundir com o aplicativo comercial DocHush para redação de PDFs.",
     "discoveryUrl": "https://github.com/dochush/pdf-redaction-checker"
   },
-  {
+{
     "id": "pangram-ai-detector",
     "name": "Pangram — detector de texto gerado por IA",
     "kind": "triagem probabilística de possível autoria por inteligência artificial",
@@ -628,7 +628,7 @@ window.RADAR_PARTS.tools=[
     ],
     "discoveryUrl": "https://www.cjr.org/laurels-and-darts/slippery-slop-wall-street-journal-opinion-artificial-intelligence-druckenmiller-gigot-bessent-florida-climate-change-textbook-removal-desantis-joliet-illinois-prison-fires-deaths-treatment-center.php"
   },
-  {
+{
     "id": "indicator-osint-navigator",
     "name": "Indicator — OSINT Navigator",
     "kind": "busca e recomendação de ferramentas de investigação em fontes abertas",
@@ -639,7 +639,7 @@ window.RADAR_PARTS.tools=[
     ],
     "discoveryUrl": "https://indicator.media/p/osint-navigator-is-now-publicly-available"
   },
-  {
+{
     "id": "normal-tools",
     "name": "Normal Tools",
     "kind": "coleção de utilitários locais para texto, dados, arquivos e desenvolvimento",
@@ -650,7 +650,7 @@ window.RADAR_PARTS.tools=[
     ],
     "discoveryUrl": "https://buttondown.com/puntofisso/archive/674-quantum-of-sollazzo/"
   },
-  {
+{
     "id": "bellingcat-wildfire-damage-guide",
     "name": "Bellingcat — guia para investigar danos de incêndios florestais",
     "kind": "guia prático de investigação ambiental com imagens de satélite e SIG",
@@ -661,14 +661,14 @@ window.RADAR_PARTS.tools=[
     ],
     "discoveryUrl": "https://www.bellingcat.com/resources/how-tos/2026/06/30/burning-forests-tools-for-tracking-and-reporting-wildfire-damage/"
   },
-  {
+{
     "id": "knight-lab-timelinejs",
     "name": "Knight Lab — TimelineJS",
     "kind": "linha do tempo interativa e narrativa visual",
     "url": "https://timeline.knightlab.com/",
     "desc": "Ferramenta gratuita e de código aberto do Knight Lab para criar linhas do tempo multimídia incorporáveis. A versão clássica pode ser alimentada por um modelo de Google Sheets e aceita texto, imagens, áudio, vídeo e mapas; pessoas com experiência técnica também podem usar JSON e personalizar a biblioteca. Em 2026 o laboratório apresentou uma versão reimaginada, ainda descrita como nova geração. Para publicar pela planilha, os dados precisam ficar públicos na web: não use informações pessoais ou apurações sigilosas, restrinja a permissão de edição e teste o embed em celular e desktop antes de publicar."
   },
-  {
+{
     "id": "indicator-guides",
     "name": "Indicator Guides",
     "kind": "acervo de guias práticos de OSINT e investigação digital",
@@ -676,7 +676,7 @@ window.RADAR_PARTS.tools=[
     "desc": "Coleção pesquisável de guias sobre OSINT, desinformação e investigação digital. Inclui procedimentos para cadeias de publicidade digital, transações em criptomoedas, monitoramento de páginas e palavras-chave, pesquisa no Reddit, busca reversa e outras técnicas. Parte do conteúdo exige assinatura paga; ferramentas citadas podem ter contas, limites ou custos próprios. Tratar os guias como metodologia, preservar evidências e confirmar identidades, vínculos e resultados nas fontes originais.",
     "discoveryUrl": "https://indicator.media/p/briefing-uk-s-new-anti-disinfo-unit"
   },
-  {
+{
     "id": "flowsint-osint-graph",
     "name": "Flowsint — investigação OSINT em grafos",
     "kind": "investigação OSINT e análise visual de relações",
@@ -684,7 +684,7 @@ window.RADAR_PARTS.tools=[
     "desc": "Plataforma de código aberto para estruturar investigações em grafos de entidades e relações. Oferece enriquecedores para domínios, IPs, ASN, e-mails, criptocarteiras, organizações, telefones, perfis sociais e sites, além de webhooks para fluxos próprios. A instalação requer Docker, Docker Compose, Make e Git; alguns serviços exigem chaves de API e podem ter custos ou limites externos. Resultados de enriquecimento são pistas e exigem verificação independente, atenção a homônimos, privacidade e contexto.",
     "discoveryUrl": "https://www.flowsint.io/docs/getting-started/quickstart"
   },
-  {
+{
     "id": "bellingcat-auto-archiver",
     "name": "Bellingcat — Auto Archiver",
     "kind": "preservação automatizada de evidências digitais",
@@ -695,7 +695,7 @@ window.RADAR_PARTS.tools=[
     ],
     "discoveryUrl": "https://www.bellingcat.com/resources/2025/08/13/the-open-source-tool-that-has-preserved-150000-pieces-of-online-evidence"
   },
-  {
+{
     "id": "bellingcat-turnstone",
     "name": "Bellingcat — Turnstone",
     "kind": "análise espacial e histórica de rastreamento aéreo (ADS-B)",
@@ -706,7 +706,7 @@ window.RADAR_PARTS.tools=[
     ],
     "discoveryUrl": "https://www.bellingcat.com/resources/2026/03/05/turnstone-flight-tracking-tool/"
   },
-  {
+{
     "id": "abraji-cruzagrafos",
     "name": "Abraji — CruzaGrafos",
     "kind": "investigação de redes e cruzamento de dados públicos",
@@ -717,7 +717,7 @@ window.RADAR_PARTS.tools=[
     ],
     "discoveryUrl": "https://abraji.org.br/help-desk/manual-do-cruzagrafos"
   },
-  {
+{
     "id": "who-heat-health-equity-assessment-toolkit",
     "name": "WHO — Health Equity Assessment Toolkit (HEAT e HEAT Plus)",
     "kind": "análise e visualização de desigualdades em saúde",
@@ -728,7 +728,7 @@ window.RADAR_PARTS.tools=[
     ],
     "discoveryUrl": "https://www.who.int/data/inequality-monitor/assessment_toolkit"
   },
-  {
+{
     "id": "gijn-investigative-impact",
     "name": "GIJN — Investigative Impact",
     "kind": "guia e acervo de planejamento e avaliação de impacto jornalístico",
@@ -739,7 +739,7 @@ window.RADAR_PARTS.tools=[
     ],
     "discoveryUrl": "https://impact.gijn.org/"
   },
-  {
+{
     "id": "gijn-international-research-guide",
     "name": "GIJN — International Research Guide",
     "kind": "guia metodológico de pesquisa internacional, documentos ocultos e OSINT",
@@ -750,7 +750,7 @@ window.RADAR_PARTS.tools=[
     ],
     "discoveryUrl": "https://mailchi.mp/gijn/behind-the-scenes-of-ocean-climate-exposs-finding-experts-documents-on-any-topic-reporting-in-exile"
   },
-  {
+{
     "id": "terrabrasilis-sala-situacao-municipal",
     "name": "TerraBrasilis — Sala de Situação Municipal",
     "kind": "painel territorial de desmatamento, degradação, mineração e fogo",
@@ -761,7 +761,7 @@ window.RADAR_PARTS.tools=[
     ],
     "discoveryUrl": "https://data.inpe.br/biomasbr/sala-de-situacao-municipal-e-a-nova-ferramenta-do-terrabrasilis-para-apoiar-estados-e-municipios-no-controle-do-desmatamento-e-fogo/"
   },
-  {
+{
     "id": "escola-dados-ebook-analise-educacional",
     "name": "Escola de Dados — Análise de Dados Educacionais (e-book)",
     "kind": "guia gratuito de análise de dados e políticas educacionais",
@@ -772,14 +772,14 @@ window.RADAR_PARTS.tools=[
     ],
     "discoveryUrl": "https://escoladedados.org/wp-content/uploads/2022/01/Ebook-DadosEducacionais.pdf"
   },
-  {
+{
     "id": "yt-dlp",
     "name": "yt-dlp",
     "kind": "coleta e preservação de áudio e vídeo online por linha de comando",
     "url": "https://github.com/yt-dlp/yt-dlp",
     "desc": "Ferramenta livre de linha de comando para baixar vídeo, áudio, legendas e metadados de milhares de sites, útil na preservação de evidências audiovisuais públicas e na documentação de investigações. Os extratores podem quebrar quando as plataformas mudam e alguns recursos dependem de FFmpeg e de um runtime JavaScript; registre URL, data, hash e contexto da coleta, confira o conteúdo e respeite termos de uso, direitos autorais, privacidade e controles de acesso."
   },
-  {
+{
     "id": "gijn-icij-crypto-investigation-guide",
     "name": "GIJN / ICIJ — Guia para investigar criptomoedas",
     "kind": "guia metodológico de investigação financeira e análise de blockchain",
@@ -790,7 +790,7 @@ window.RADAR_PARTS.tools=[
     ],
     "discoveryUrl": "https://gijn.org/resource/reporters-guide-to-investigating-cryptocurrency/"
   },
-  {
+{
     "id": "caixa-ferramentas-jornalismo-dados",
     "name": "Caixa de Ferramentas do Jornalismo de Dados",
     "kind": "catálogo colaborativo de ferramentas para jornalismo de dados",
@@ -798,7 +798,7 @@ window.RADAR_PARTS.tools=[
     "desc": "Catálogo aberto da Escola de Dados / Open Knowledge Brasil com 226 recursos para visualização, extração, análise, cartografia, limpeza, redes, OSINT, inteligência artificial e bancos de dados. Permite filtrar por categoria, plataforma e código aberto; o conteúdo é licenciado em CC BY 4.0 e mantido de forma colaborativa no GitHub. É uma camada de descoberta: disponibilidade, segurança, preço, licença e qualidade de cada ferramenta indicada precisam ser conferidos no site original antes do uso.",
     "discoveryUrl": "https://kit.jornalismodedados.org.br/"
   },
-  {
+{
     "id": "traceon-re",
     "name": "TRACEON.re",
     "kind": "busca e monitoramento de inteligência de ameaças no Telegram",
@@ -809,7 +809,7 @@ window.RADAR_PARTS.tools=[
     ],
     "discoveryUrl": "https://indicator.media/p/briefing-us-interferes-in-the-name-of-non-interference"
   },
-  {
+{
     "id": "opencheck-world",
     "name": "OpenCheck",
     "kind": "pesquisa de empresas, beneficiários e dados societários abertos",
@@ -820,7 +820,7 @@ window.RADAR_PARTS.tools=[
     ],
     "discoveryUrl": "https://indicator.media/p/briefing-us-interferes-in-the-name-of-non-interference"
   },
-  {
+{
     "id": "genero-numero-do-dado-a-decisao",
     "name": "Gênero e Número — Do dado à decisão",
     "kind": "cartilha metodológica sobre evidências e violência de gênero",
@@ -831,7 +831,7 @@ window.RADAR_PARTS.tools=[
     ],
     "discoveryUrl": "https://www.generonumero.media/artigos/cartilha-violencia-de-genero/"
   },
-  {
+{
     "id": "open-measures-public-app",
     "name": "Open Measures — Public App e API",
     "kind": "OSINT e análise de redes sociais para desinformação e extremismo",
@@ -842,7 +842,7 @@ window.RADAR_PARTS.tools=[
     ],
     "discoveryUrl": "https://docs.openmeasures.io/docs/guides/public-app"
   },
-  {
+{
     "id": "solutions-journalism-basic-toolkit",
     "name": "Solutions Journalism Network — Kit de Ferramentas Básicas",
     "kind": "guia gratuito de metodologia e apuração em jornalismo de soluções",
@@ -853,7 +853,7 @@ window.RADAR_PARTS.tools=[
     ],
     "discoveryUrl": "https://www.solutionsjournalism.org/learning-lab/toolkits-guides/basic-toolkit"
   },
-  {
+{
     "id": "desagrega-biomas-br",
     "name": "DesagregaBiomasBR",
     "kind": "plugin QGIS para seleção, recorte e desagregação de dados ambientais oficiais",
@@ -864,7 +864,7 @@ window.RADAR_PARTS.tools=[
     ],
     "discoveryUrl": "https://www.fao.org/in-action/aim4forests/news-and-events/news/news-detail/brazil-and-fao-join-forces-to-chart-the-way-forward-for-the-monitoring-of-brazil-s-forests-and-launch-a-technical-solution-that-simplifies-access-to-geospatial-data/en"
   },
-  {
+{
     "id": "meaningfully-semantic-search",
     "name": "Meaningfully",
     "kind": "busca semântica local em planilhas e arquivos CSV",
@@ -875,7 +875,7 @@ window.RADAR_PARTS.tools=[
     ],
     "discoveryUrl": "https://gijn.org/stories/toolbox-search-text-spreadsheet-track-website-changes/"
   },
-  {
+{
     "id": "wikimedia-xtools",
     "name": "XTools — Wikimedia",
     "kind": "auditoria de histórico, autoria e padrões de edição na Wikipédia",
@@ -886,7 +886,7 @@ window.RADAR_PARTS.tools=[
     ],
     "discoveryUrl": "https://www.mediawiki.org/wiki/XTools/Page_History"
   },
-  {
+{
     "id": "infoamazonia-jeo-maps",
     "name": "JEO Maps — InfoAmazonia",
     "kind": "plugin WordPress open-source para geojornalismo, storymaps e geolocalização",
@@ -897,7 +897,7 @@ window.RADAR_PARTS.tools=[
     ],
     "discoveryUrl": "https://www.observatoriodaimprensa.com.br/codesinfo/infoamazonia-lanca-nova-versao-do-jeo-plugin-de-codigo-aberto-que-une-geojornalismo-e-ia/"
   },
-  {
+{
     "id": "ocrmypdf",
     "name": "OCRmyPDF",
     "kind": "OCR local e open-source para tornar PDFs digitalizados pesquisáveis",
@@ -908,7 +908,7 @@ window.RADAR_PARTS.tools=[
     ],
     "discoveryUrl": "https://ocrmypdf.readthedocs.io/en/latest/introduction.html"
   },
-  {
+{
     "id": "llamaindex-liteparse",
     "name": "LiteParse",
     "kind": "parser local e open-source de PDFs e documentos com OCR opcional",
@@ -919,7 +919,7 @@ window.RADAR_PARTS.tools=[
     ],
     "discoveryUrl": "https://buttondown.com/puntofisso/archive/677-quantum-of-sollazzo/"
   },
-  {
+{
     "id": "propublica-looper-skills",
     "name": "Looper Skills",
     "kind": "habilidades abertas para inferência em planilhas e análise repetível com IA",
@@ -931,7 +931,7 @@ window.RADAR_PARTS.tools=[
     ],
     "discoveryUrl": "https://openjournalism.news/2026/09/14/open-journalism-update-august-30-september-12-2026/"
   },
-  {
+{
     "id": "backfield-local-angle",
     "name": "Backfield",
     "kind": "extração estruturada, geocodificação e grafo de conhecimento para acervos jornalísticos",
@@ -943,7 +943,7 @@ window.RADAR_PARTS.tools=[
     ],
     "discoveryUrl": "https://openjournalism.news/2026/09/14/open-journalism-update-august-30-september-12-2026/"
   },
-  {
+{
     "id": "occrp-id",
     "name": "OCCRP ID",
     "kind": "índice global de registros e apoio à pesquisa investigativa",
@@ -954,7 +954,7 @@ window.RADAR_PARTS.tools=[
     ],
     "discoveryUrl": "https://id.occrp.org/als.php"
   },
-  {
+{
     "id": "opencorporates-api",
     "name": "OpenCorporates API",
     "kind": "pesquisa e reconciliação de empresas",
@@ -965,7 +965,7 @@ window.RADAR_PARTS.tools=[
     ],
     "discoveryUrl": "https://api.opencorporates.com/"
   },
-  {
+{
     "id": "opensanctions-api",
     "name": "OpenSanctions API",
     "kind": "busca, matching e reconciliação de entidades",
@@ -976,7 +976,7 @@ window.RADAR_PARTS.tools=[
     ],
     "discoveryUrl": "https://www.opensanctions.org/docs/api/"
   },
-  {
+{
     "id": "bellingcat-online-investigations-toolkit",
     "name": "Bellingcat Online Investigations Toolkit",
     "kind": "catálogo colaborativo de ferramentas OSINT",
@@ -987,7 +987,7 @@ window.RADAR_PARTS.tools=[
     ],
     "discoveryUrl": "https://www.bellingcat.com/resources/2024/09/24/bellingcat-online-investigations-toolkit/"
   },
-  {
+{
     "id": "monitor-diario",
     "name": "Monitor Diário",
     "kind": "monitoramento automatizado de Diários Oficiais do Nordeste",
@@ -998,7 +998,7 @@ window.RADAR_PARTS.tools=[
     ],
     "discoveryUrl": "https://codesinfo.com.br/solucoes/monitor-diario/"
   },
-  {
+{
     "id": "jor-mcp",
     "name": "Jor-MCP",
     "kind": "infraestrutura MCP para acervos jornalísticos",
@@ -1009,7 +1009,7 @@ window.RADAR_PARTS.tools=[
     ],
     "discoveryUrl": "https://codesinfo.com.br/solucoes/jor-mcp/"
   },
-  {
+{
     "id": "jeo-infoamazonia",
     "name": "JEO",
     "kind": "geojornalismo e mapas no WordPress",
@@ -1020,7 +1020,7 @@ window.RADAR_PARTS.tools=[
     ],
     "discoveryUrl": "https://codesinfo.com.br/solucoes/jeo/"
   },
-  {
+{
     "id": "mamute-politico",
     "name": "Mamute Político",
     "kind": "monitoramento legislativo do Congresso Nacional",
@@ -1031,7 +1031,7 @@ window.RADAR_PARTS.tools=[
     ],
     "discoveryUrl": "https://codesinfo.com.br/solucoes/mamute-politico/"
   },
-  {
+{
     "id": "quiteria-azmina",
     "name": "QuitérIA",
     "kind": "monitoramento legislativo de gênero e direitos humanos",
@@ -1043,7 +1043,7 @@ window.RADAR_PARTS.tools=[
     ],
     "discoveryUrl": "https://azmina.com.br/reportagens/azmina-lanca-ia-feminista/"
   },
-  {
+{
     "id": "world-bank-data360-api",
     "name": "World Bank Data360 API",
     "kind": "API de consulta e extração de dados de desenvolvimento",
@@ -1054,7 +1054,7 @@ window.RADAR_PARTS.tools=[
     ],
     "discoveryUrl": "https://data360.worldbank.org/en/api"
   },
-  {
+{
     "id": "tesseract-ocr",
     "name": "Tesseract OCR",
     "kind": "OCR local para documentos e imagens",
@@ -1065,7 +1065,7 @@ window.RADAR_PARTS.tools=[
     ],
     "discoveryUrl": "https://tesseract-ocr.github.io/tessdoc/"
   },
-  {
+{
     "id": "mapshaper",
     "name": "Mapshaper",
     "kind": "edição e simplificação de dados geoespaciais",
@@ -1076,7 +1076,7 @@ window.RADAR_PARTS.tools=[
     ],
     "discoveryUrl": "https://mapshaper.org/docs/"
   },
-  {
+{
     "id": "overpass-turbo",
     "name": "Overpass Turbo",
     "kind": "consulta e extração de dados OpenStreetMap",
@@ -1087,7 +1087,7 @@ window.RADAR_PARTS.tools=[
     ],
     "discoveryUrl": "https://wiki.openstreetmap.org/wiki/Overpass_turbo"
   },
-  {
+{
     "id": "nominatim",
     "name": "Nominatim",
     "kind": "geocodificação e geocodificação reversa",
@@ -1098,7 +1098,7 @@ window.RADAR_PARTS.tools=[
     ],
     "discoveryUrl": "https://operations.osmfoundation.org/policies/nominatim/"
   },
-  {
+{
     "id": "indicator-lab",
     "name": "Indicator Lab",
     "kind": "suite de investigação assistida por IA",
@@ -1109,18 +1109,7 @@ window.RADAR_PARTS.tools=[
     ],
     "discoveryUrl": "https://indicator.media/p/the-indicator-lab-is-live-investigations-with-ai"
   },
-  {
-    "id": "osint-navigator",
-    "name": "OSINT Navigator",
-    "kind": "busca curada de ferramentas OSINT",
-    "url": "https://navigator.indicator.media/",
-    "desc": "Catálogo pesquisável de ferramentas OSINT, compilado de toolkits independentes e pensado para encontrar recursos por intenção de investigação. A recomendação deve ser tratada como triagem: confirmar cada ferramenta no site original, revisar riscos legais/éticos, termos de uso e adequação à pauta antes de aplicar.",
-    "discoveredVia": [
-      "Indicator"
-    ],
-    "discoveryUrl": "https://indicator.media/p/the-indicator-lab-is-live-investigations-with-ai"
-  },
-  {
+{
     "id": "duckdb",
     "name": "DuckDB",
     "kind": "análise local de CSV, Parquet e bancos tabulares",
@@ -1131,7 +1120,7 @@ window.RADAR_PARTS.tools=[
     ],
     "discoveryUrl": "https://duckdb.org/docs/current/guides/overview"
   },
-  {
+{
     "id": "datasette",
     "name": "Datasette",
     "kind": "publicação e exploração de dados",
@@ -1142,7 +1131,7 @@ window.RADAR_PARTS.tools=[
     ],
     "discoveryUrl": "https://docs.datasette.io/en/latest/"
   },
-  {
+{
     "id": "openrefine",
     "name": "OpenRefine",
     "kind": "limpeza e reconciliação de dados",
@@ -1153,7 +1142,7 @@ window.RADAR_PARTS.tools=[
     ],
     "discoveryUrl": "https://openrefine.org/privacy"
   },
-  {
+{
     "id": "tabula",
     "name": "Tabula",
     "kind": "extração de tabelas de PDF",
@@ -1164,7 +1153,7 @@ window.RADAR_PARTS.tools=[
     ],
     "discoveryUrl": "https://tabula.technology/"
   },
-  {
+{
     "id": "qgis",
     "name": "QGIS",
     "kind": "análise geoespacial e cartografia",
@@ -1175,7 +1164,7 @@ window.RADAR_PARTS.tools=[
     ],
     "discoveryUrl": "https://qgis.org/"
   },
-  {
+{
     "id": "esri-wayback",
     "name": "Esri World Imagery Wayback",
     "kind": "comparação temporal de imagens",
@@ -1186,7 +1175,7 @@ window.RADAR_PARTS.tools=[
     ],
     "discoveryUrl": "https://doc.arcgis.com/en/imagery/workflows/tutorials/creating-an-image-visit-app.htm"
   },
-  {
+{
     "id": "arbiter",
     "name": "Arbiter",
     "kind": "monitoramento de narrativas e desinformação",
@@ -1194,7 +1183,7 @@ window.RADAR_PARTS.tools=[
     "desc": "Permite definir um tema em linguagem natural e analisar publicações sociais em escala para agrupar narrativas, extrair alegações, sinalizar contas coordenadas, comparar plataformas e acompanhar tendências. Está em fase de testes com redações e depende de APIs, dumps acadêmicos e provedores externos; limites de volume, cobertura e acesso variam por plataforma, e os resultados automatizados exigem revisão humana.",
     "discoveryUrl": "https://mailchi.mp/gijn/gijc27-website-launched-investigating-war-crimes-which-newsroom-personality-are-you?e=0695d2d4f8"
   },
-  {
+{
     "id": "detector-bbt",
     "name": "Detector BBT",
     "kind": "monitoramento legislativo e eleitoral",
@@ -1202,14 +1191,14 @@ window.RADAR_PARTS.tools=[
     "desc": "Permite buscar e filtrar deputados e senadores por partido, UF, Casa, eleição e posição em pautas de regulação digital, abrindo os registros e suas fontes. A pontuação combina votos, autoria, relatoria, emendas e declarações públicas; a base é colaborativa e atualizada, votações simbólicas podem não ter registro nominal e toda classificação deve ser conferida nos documentos oficiais da Câmara e do Senado.",
     "discoveryUrl": "https://newsletter.ctrlz.org.br/p/o-seu-candidato-e-da-bancada-das"
   },
-  {
+{
     "id": "datawrapper",
     "name": "Datawrapper",
     "kind": "visualização",
     "url": "https://www.datawrapper.de/",
     "desc": "Criação de gráficos, mapas e tabelas para publicação."
   },
-  {
+{
     "id": "react-simple-maps",
     "name": "React Simple Maps",
     "kind": "biblioteca de mapas",
@@ -1220,7 +1209,7 @@ window.RADAR_PARTS.tools=[
     ],
     "discoveryUrl": "https://buttondown.com/puntofisso/archive/676-quantum-of-sollazzo/"
   },
-  {
+{
     "id": "geowhisperer",
     "name": "GeoWhisperer",
     "kind": "OSINT geoespacial",
@@ -1231,7 +1220,7 @@ window.RADAR_PARTS.tools=[
     ],
     "discoveryUrl": "https://indicator.media/p/briefing-uk-s-new-anti-disinfo-unit"
   },
-  {
+{
     "id": "digga",
     "name": "digga",
     "kind": "pesquisa de domínios",
@@ -1242,7 +1231,7 @@ window.RADAR_PARTS.tools=[
     ],
     "discoveryUrl": "https://indicator.media/p/briefing-uk-s-new-anti-disinfo-unit"
   },
-  {
+{
     "id": "decryptads",
     "name": "DecryptAds",
     "kind": "investigação de publicidade digital",
@@ -1253,7 +1242,7 @@ window.RADAR_PARTS.tools=[
     ],
     "discoveryUrl": "https://indicator.media/p/briefing-uk-s-new-anti-disinfo-unit"
   },
-  {
+{
     "id": "agenda-transparente",
     "name": "Agenda Transparente",
     "kind": "monitoramento de agendas públicas",
@@ -1261,7 +1250,7 @@ window.RADAR_PARTS.tools=[
     "desc": "Pesquisa compromissos de autoridades por pessoa, órgão, período e palavra-chave e permite baixar resultados em CSV. A cobertura depende do que os governos publicam; uma reunião com várias autoridades pode gerar linhas repetidas, e nomes de órgãos ou empresas exigem padronização antes da análise.",
     "discoveryUrl": "https://news.fiquemsabendo.com.br/p/el-nino-na-agenda-do-governo-federal"
   },
-  {
+{
     "id": "google-pinpoint",
     "name": "Google Pinpoint",
     "kind": "pesquisa e análise documental",
@@ -1272,7 +1261,7 @@ window.RADAR_PARTS.tools=[
     ],
     "discoveryUrl": "https://support.google.com/pinpoint/answer/17007004?hl=pt-BR"
   },
-  {
+{
     "id": "occrp-aleph-pro",
     "name": "OCCRP Aleph Pro",
     "kind": "investigação societária e documental",
@@ -1283,7 +1272,7 @@ window.RADAR_PARTS.tools=[
     ],
     "discoveryUrl": "https://docs.aleph.occrp.org/"
   },
-  {
+{
     "id": "gsap-greensock",
     "name": "GSAP (GreenSock Animation Platform)",
     "kind": "animação web e narrativas visuais",
@@ -1294,7 +1283,7 @@ window.RADAR_PARTS.tools=[
     ],
     "discoveryUrl": "https://github.com/greensock/GSAP"
   },
-  {
+{
     "id": "highcharter-r",
     "name": "highcharter (R)",
     "kind": "visualização interativa com R",
