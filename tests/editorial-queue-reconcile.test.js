@@ -92,3 +92,20 @@ test('persisted pending queue reconciles known tools and excludes nonfunding gra
   assert.ok(items.every(x=>x.status==='pending'));
  }finally{fs.rmSync(dir,{recursive:true,force:true})}
 });
+
+test('orphaned queue records are removed when no history, catalog, or fresh review remains',()=>{
+ const dir=fs.mkdtempSync(path.join(os.tmpdir(),'radar-orphan-queue-'));
+ try{
+  const p=name=>path.join(dir,name);
+  const orphan={...identity('https://example.org/old-orphan'),title:'Old orphan',category:'tools',status:'pending',firstSeen:'2026-10-20'};
+  const fresh={...identity('https://example.org/fresh-review'),title:'Fresh review',category:'tools',status:'pending',firstSeen:'2026-10-20'};
+  fs.writeFileSync(p('quality.json'),JSON.stringify({review:[{...fresh,classification:'needs-editorial-review'}]}));
+  fs.writeFileSync(p('queue.json'),JSON.stringify({candidates:[orphan,fresh]}));
+  fs.writeFileSync(p('history.json'),JSON.stringify({leads:{}}));
+  fs.writeFileSync(p('decisions.json'),JSON.stringify({decisions:[]}));
+  cp.execFileSync(process.execPath,[path.resolve('scripts/merge-editorial-queue.js'),p('quality.json'),p('queue.json'),p('history.json'),p('decisions.json')]);
+  const out=JSON.parse(fs.readFileSync(p('queue.json'),'utf8')).candidates;
+  assert.equal(out.some(x=>x.id===orphan.id),false);
+  assert.equal(out.some(x=>x.id===fresh.id),true);
+ }finally{fs.rmSync(dir,{recursive:true,force:true})}
+});
