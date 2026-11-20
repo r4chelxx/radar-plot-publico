@@ -7,6 +7,7 @@ const dest=process.argv[3]||'intake/editorial-queue.json';
 let previous={candidates:[]};
 if(fs.existsSync(dest))previous=JSON.parse(fs.readFileSync(dest,'utf8'));
 const queue=new Map((previous.candidates||[]).map(x=>[x.id,x]));
+const incomingReviewIds=new Set((current.review||[]).filter(x=>x.classification==='needs-editorial-review'&&x.id).map(x=>x.id));
 const now=new Date().toISOString();
 const historyPath=process.argv[4]||'state/lead-history.json';
 const decisionsPath=process.argv[5]||'intake/historical-decisions.json';
@@ -118,7 +119,20 @@ for(const [id,item] of queue){
  if(!['pending','in-review'].includes(item.status))continue;
  try{if(publishedLinkIds.has(identity(item.url).id))queue.set(id,{...item,status:'published'})}catch{}
 }
+// A queue entry is operationally valid only while it has a matching historical
+// lead, a live catalog record, or fresh evidence in this discovery run. Older
+// entries can survive a history compaction; remove them instead of persisting an
+// inconsistent queue that blocks the entire publication chain.
+const orphaned=[];
+for(const [id,item] of queue){
+ let canonicalId=id;try{canonicalId=identity(item.url).id}catch{}
+ const hasHistory=Boolean(history[id]||history[canonicalId]);
+ const isPublished=publishedLinkIds.has(canonicalId);
+ if(!hasHistory&&!isPublished&&!incomingReviewIds.has(id)){
+  orphaned.push(id);queue.delete(id);
+ }
+}
 const out={schemaVersion:1,updatedAt:now,policy:'Public web leads only; pending does not mean verified or approved.',candidates:[...queue.values()].sort((a,b)=>a.firstSeen.localeCompare(b.firstSeen))};
 fs.mkdirSync(require('node:path').dirname(dest),{recursive:true});
 fs.writeFileSync(dest,JSON.stringify(out,null,2)+'\n');
-console.log(JSON.stringify({persisted:out.candidates.length,pending:out.candidates.filter(x=>x.status==='pending').length,resolved:out.candidates.filter(x=>terminal.has(x.status)).length}));
+console.log(JSON.stringify({persisted:out.candidates.length,pending:out.candidates.filter(x=>x.status==='pending').length,resolved:out.candidates.filter(x=>terminal.has(x.status)).length,orphaned:orphaned.length}));
