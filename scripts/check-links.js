@@ -50,19 +50,25 @@ async function main(){
  const counts={};for(const r of results)counts[r.class]=(counts[r.class]||0)+1;
  const persistentInconclusive=results.filter(x=>x.persistent);
  counts.persistentInconclusive=persistentInconclusive.length;
- const byType={},byTypeAndClass={},persistentByType={};
+ const byType={},byTypeAndClass={},persistentByType={},persistentRecordsMap=new Map();
  for(const r of results){
   const type=r.type||"unknown", cls=r.class||"unknown";
   byType[type]=(byType[type]||0)+1;
   if(!byTypeAndClass[type])byTypeAndClass[type]={};
   byTypeAndClass[type][cls]=(byTypeAndClass[type][cls]||0)+1;
-  if(r.persistent)persistentByType[type]=(persistentByType[type]||0)+1;
+  if(r.persistent){
+   persistentByType[type]=(persistentByType[type]||0)+1;
+   const key=type+":"+(r.id||r.url);
+   const record=persistentRecordsMap.get(key)||{type,id:r.id||null,urls:[],classes:{},statuses:[]};
+   record.urls.push(r.url);record.classes[cls]=(record.classes[cls]||0)+1;record.statuses.push(r.status||null);
+   persistentRecordsMap.set(key,record);
+  }
  }
  console.log("Radar PLOT link audit");console.log("Unique URLs:",unique.length,counts);
  for(const cls of ["broken","suspect","server","network","warning","blocked"]){
   const list=results.filter(x=>x.class===cls);if(list.length){console.log("\n"+cls.toUpperCase());for(const x of list)console.log(" -",x.type,x.id,"=>",x.status||x.error,x.url,x.finalUrl&&x.finalUrl!==x.url?"-> "+x.finalUrl:"")}
  }
- fs.writeFileSync("link-audit.json",JSON.stringify({checkedAt:new Date().toISOString(),policy:"404/410 and ArcGIS application errors within HTTP 200 become broken only after appearing as suspect or broken in the previous audit. Bot blocks, network failures and 5xx responses remain inconclusive; streak and persistent fields expose recurring access failures without falsely deleting valid catalog records.",counts,diagnostics:{persistentInconclusive:persistentInconclusive.map(x=>({type:x.type,id:x.id,url:x.url,class:x.class,streak:x.streak,networkCode:x.networkCode||null,status:x.status||null})),byType,persistentByType,byTypeAndClass},results},null,2));
+ fs.writeFileSync("link-audit.json",JSON.stringify({checkedAt:new Date().toISOString(),policy:"404/410 and ArcGIS application errors within HTTP 200 become broken only after appearing as suspect or broken in the previous audit. Bot blocks, network failures and 5xx responses remain inconclusive; streak and persistent fields expose recurring access failures without falsely deleting valid catalog records.",counts,diagnostics:{persistentInconclusive:persistentInconclusive.map(x=>({type:x.type,id:x.id,url:x.url,class:x.class,streak:x.streak,networkCode:x.networkCode||null,status:x.status||null})),persistentRecords:[...persistentRecordsMap.values()],byType,persistentByType,byTypeAndClass},results},null,2));
  if(results.some(x=>x.class==="broken"))process.exitCode=1;
 }
 main();
