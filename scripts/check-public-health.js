@@ -28,7 +28,7 @@ async function checkPublicHealth(targetUrl=url,request=fetch){
   .map(match=>new URL(match[1],publicBase))
   .filter(target=>target.origin===publicBase.origin&&/\.(?:js|css)$/.test(target.pathname));
  const paths=[...new Set(assets.map(target=>target.pathname))];
- for(const required of ['app.js','styles.css','data.js','data/opportunities.js','data/sources.js','data/tools.js','data/datasets.js','data/changelog.js']){
+ for(const required of ['app.js','styles.css','data.js','data/public-opportunities.js','data/sources.js','data/tools.js','data/datasets.js','data/changelog.js']){
   assert(paths.some(path=>path.endsWith('/'+required)),'Missing asset reference: '+required);
  }
  for(const asset of assets){
