@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 const fs=require("fs"),vm=require("vm"),path=require("path");
+const {summarizeQuality}=require('./catalog-metadata-policy');
 const files=["data/opportunities.js","data/datasets.js","data/sources.js","data/tools.js","data/changelog.js"];
 let errors=[],warnings=[];
 function duplicateKeys(file,src){
@@ -97,6 +98,18 @@ for(const [ci,x] of changes.entries()){
 }
 console.log("Radar PLOT validation");
 console.log("Checked:",opps.length,"opportunities,",datasets.length,"data records,",(D.sources||[]).length,"sources,",tools.length,"tools");
+const qualitySummaries={
+  opportunities:summarizeQuality('opportunities',opps),
+  datasets:summarizeQuality('datasets',datasets),
+  tools:summarizeQuality('tools',tools)
+};
+console.log("Metadata quality:",Object.values(qualitySummaries).map(x=>x.category+" "+x.counts.complete+"/"+x.total+" complete").join(", "));
+console.log("Metadata review issues:",Object.values(qualitySummaries).map(x=>x.category+" "+JSON.stringify(x.issues)).join(" | "));
+if(process.env.RADAR_STRICT_METADATA==="1"){
+  for(const summary of Object.values(qualitySummaries)){
+    if(summary.counts['needs-review']) errors.push(summary.category+": "+summary.counts['needs-review']+" records need metadata review");
+  }
+}
 console.log("Errors:",errors.length,"Warnings:",warnings.length);
 if(warnings.length) console.log("\nWARNINGS\n"+warnings.map(x=>" - "+x).join("\n"));
 if(errors.length){console.error("\nERRORS\n"+errors.map(x=>" - "+x).join("\n"));process.exit(1)}
