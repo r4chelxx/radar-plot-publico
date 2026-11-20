@@ -5,7 +5,7 @@ const categories=['opportunities','datasets','tools'];
 function load(source){const context={window:{RADAR_PARTS:{}}};vm.createContext(context);for(const c of categories){vm.runInContext(source(c),context,{filename:c+'.js'});}return context.window.RADAR_PARTS;}
 function newUrls(){
  const current=load(c=>fs.readFileSync('data/'+c+'.js','utf8'));
- const old=load(c=>execFileSync('git',['show','HEAD:data/'+c+'.js'],{encoding:'utf8'}));
+ const old=load(c=>execFileSync('git',['show','HEAD:data/'+c+'.js'],{encoding:'utf8',maxBuffer:20*1024*1024}));
  const urls=[];
  for(const c of categories){
   const seen=new Set((old[c]||[]).map(x=>x.id));
