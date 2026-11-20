@@ -5,7 +5,6 @@ const assert=require('node:assert/strict');
 const url=process.env.RADAR_PUBLIC_URL||'https://r4chelxx.github.io/radar-plot-publico/';
 const timeoutMs=15000;
 const maxResponseChars=5000000;
-const maxResponseChars=5000000;
 function fetch(target,redirects=0){
  return new Promise((resolve,reject)=>{
   const req=https.get(target,{timeout:timeoutMs,headers:{'User-Agent':'Radar-PLOT-healthcheck/1.0'}},res=>{
