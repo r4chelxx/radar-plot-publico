@@ -6,6 +6,18 @@ window.RADAR_PARTS.changelog=[
   "title": "Publicação editorial verificada — 2026-11-20",
   "items": [
     {
+      "id": "auto-bb0102a309c11199",
+      "title": "National Press Club Scholarship Opportunities - Journalism Institute"
+    }
+  ],
+  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: National Press Club Scholarship Opportunities - Journalism Institute."
+}, 
+{
+  "date": "2026-11-20",
+  "type": "nova-oportunidade",
+  "title": "Publicação editorial verificada — 2026-11-20",
+  "items": [
+    {
       "id": "auto-af617f7cd9e07ba7",
       "title": "RSF Berlin Fellowship Program"
     }
