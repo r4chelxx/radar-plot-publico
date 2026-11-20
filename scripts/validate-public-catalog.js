@@ -20,5 +20,5 @@ const forbidden = new Set(['fit', 'eligibility', 'story', 'investigation', 'user
 const violations = records.flatMap(record => Object.keys(record)
   .filter(key => forbidden.has(key))
   .map(key => record.id + ': ' + key));
-assert.deepEqual(violations, [], 'profile-dependent metadata leaked into public catalog: ' + violations.join(', '));
+assert.equal(violations.length, 0, 'profile-dependent metadata leaked into public catalog: ' + violations.join(', '));
 console.log(JSON.stringify({ ok: true, records: records.length, forbiddenFields: [...forbidden] }));
