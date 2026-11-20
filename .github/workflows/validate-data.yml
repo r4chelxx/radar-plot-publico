@@ -8,6 +8,7 @@ on:
       - "data.js"
       - "data/**"
       - "scripts/validate-data.js"
+      - "scripts/validate-public-catalog.js"
       - "scripts/catalog-metadata-policy.js"
       - "tests/catalog-metadata-policy.test.js"
       - "scripts/test-ui-static.js"
@@ -42,11 +43,14 @@ jobs:
         run: |
           node --check app.js
           node --check data.js
+          node --check scripts/validate-public-catalog.js
           for file in data/*.js; do node --check "$file"; done
       - name: Static UI regression checks
         run: node scripts/test-ui-static.js
       - name: Validate Radar records
         run: node scripts/validate-data.js
+      - name: Validate public/private catalog boundary
+        run: node scripts/validate-public-catalog.js
       - name: Test public access and private editorial boundaries
         run: node --test tests/*.test.js
       - name: Test editorial publication gates
