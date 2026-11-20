@@ -36,7 +36,7 @@ test('pending published catalog records reconcile to published without rewriting
   fs.writeFileSync(path.join(catalog,'tools.js'),'window.RADAR_PARTS=window.RADAR_PARTS||{};window.RADAR_PARTS.tools='+JSON.stringify([{id:'live-tool',url:'https://example.org/live-tool'},{id:'rejected-tool',url:'https://example.org/rejected-tool'}])+';');
   fs.writeFileSync(p('quality.json'),JSON.stringify({review:[]}));
   fs.writeFileSync(p('queue.json'),JSON.stringify({candidates}));
-  fs.writeFileSync(p('history.json'),JSON.stringify({leads:{}}));
+  fs.writeFileSync(p('history.json'),JSON.stringify({leads:{[rejected.id]:{category:'tools'},[unmatched.id]:{category:'tools'}}}));
   fs.writeFileSync(p('decisions.json'),JSON.stringify({decisions:[]}));
   cp.execFileSync(process.execPath,[path.resolve('scripts/merge-editorial-queue.js'),p('quality.json'),p('queue.json'),p('history.json'),p('decisions.json')],{env:{...process.env,RADAR_CATALOG_DIR:catalog}});
   const out=JSON.parse(fs.readFileSync(p('queue.json'),'utf8')).candidates;
@@ -79,7 +79,7 @@ test('persisted pending queue reconciles known tools and excludes nonfunding gra
   ].map(x=>({...identity(x.url),...x,status:'pending',firstSeen:'2026-10-20'}));
   fs.writeFileSync(p('quality.json'),JSON.stringify({review:[]}));
   fs.writeFileSync(p('queue.json'),JSON.stringify({candidates:records}));
-  fs.writeFileSync(p('history.json'),JSON.stringify({leads:{}}));
+  fs.writeFileSync(p('history.json'),JSON.stringify({leads:{[records[2].id]:{category:'tools'},[records[3].id]:{category:'opportunities'}}}));
   fs.writeFileSync(p('decisions.json'),JSON.stringify({decisions:[]}));
   const run=()=>cp.execFileSync(process.execPath,[path.resolve('scripts/merge-editorial-queue.js'),p('quality.json'),p('queue.json'),p('history.json'),p('decisions.json')]);
   run();run();
