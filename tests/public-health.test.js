@@ -14,7 +14,7 @@ function probe(home=html,override=()=>null){
 test('health checks every public catalog with deployed cache query and skips external scripts',async()=>{
  const p=probe();const result=await p.run();
  assert.equal(result.ok,true);
- for(const file of ['opportunities','datasets','sources','tools','changelog']){
+ for(const file of ['public-opportunities','datasets','sources','tools','changelog']){
   assert(p.calls.some(url=>new URL(url).pathname.endsWith('/data/'+file+'.js')));
  }
  assert(p.calls.slice(1).every(url=>new URL(url).search.startsWith('?v=')));
