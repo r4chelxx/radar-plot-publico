@@ -180,7 +180,7 @@ jobs:
           let shortfall=false;
           for(const key of categories){
             const path='data/'+key+'.js';
-            const before=load(cp.execFileSync('git',['show','HEAD:'+path],{encoding:'utf8'}),key);
+            const before=load(cp.execFileSync('git',['show','HEAD:'+path],{encoding:'utf8',maxBuffer:20*1024*1024}),key);
             const after=load(fs.readFileSync(path,'utf8'),key);
             const known=new Set(before.map(x=>String(x.id)));
             const added=after.filter(x=>!known.has(String(x.id)));
