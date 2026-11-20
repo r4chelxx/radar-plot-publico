@@ -14,7 +14,7 @@ window.RADAR_PARTS.datasets=[
     "format": "JSON, CSV",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Não informado pela fonte oficial",
     "granularity": "Não informado pela fonte oficial",
     "geoUnit": "Países; pessoas, empresas e outras entidades",
@@ -39,7 +39,7 @@ window.RADAR_PARTS.datasets=[
     "format": "JSON",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Não informado pela fonte oficial",
     "granularity": "Não informado pela fonte oficial",
     "geoUnit": "Países; empresas, beneficiários finais e entidades de referência",
@@ -64,7 +64,7 @@ window.RADAR_PARTS.datasets=[
     "format": "JSON, CSV",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Não informado pela fonte oficial",
     "granularity": "Não informado pela fonte oficial",
     "geoUnit": "Países; pessoas politicamente expostas e cargos públicos",
@@ -89,7 +89,7 @@ window.RADAR_PARTS.datasets=[
     "format": "JSON, CSV",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Não informado pela fonte oficial",
     "granularity": "Não informado pela fonte oficial",
     "geoUnit": "Países; pessoas e entidades sujeitas a ações regulatórias",
@@ -114,7 +114,7 @@ window.RADAR_PARTS.datasets=[
     "format": "JSON, CSV",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Não informado pela fonte oficial",
     "granularity": "Não informado pela fonte oficial",
     "geoUnit": "Países; empresas, pessoas e prestadores sujeitos a exclusão",
@@ -139,7 +139,7 @@ window.RADAR_PARTS.datasets=[
     "format": "JSON, CSV",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Não informado pela fonte oficial",
     "granularity": "Não informado pela fonte oficial",
     "geoUnit": "Vessels and organizations",
@@ -164,7 +164,7 @@ window.RADAR_PARTS.datasets=[
     "format": "JSON",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Não informado na fonte estruturada",
     "granularity": "Não informado na fonte estruturada",
     "geoUnit": "Não informado na fonte estruturada",
@@ -190,7 +190,7 @@ window.RADAR_PARTS.datasets=[
     "format": "JSON",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Não informado na fonte estruturada",
     "granularity": "Não informado na fonte estruturada",
     "geoUnit": "Não informado na fonte estruturada",
@@ -216,7 +216,7 @@ window.RADAR_PARTS.datasets=[
     "format": "JSON",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Não informado na fonte estruturada",
     "granularity": "Não informado na fonte estruturada",
     "geoUnit": "Não informado na fonte estruturada",
@@ -243,7 +243,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Consulta web; exportação somente quando indicada na documentação do recurso",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Períodos disponíveis na consulta do mantenedor; conferir antes da análise",
     "granularity": "Conforme recortes indicados pelo mantenedor",
     "geoUnit": "Estadual · BA",
@@ -270,7 +270,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Consulta web; exportação somente quando indicada na documentação do recurso",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Períodos disponíveis na consulta do mantenedor; conferir antes da análise",
     "granularity": "Conforme recortes indicados pelo mantenedor",
     "geoUnit": "Nacional",
@@ -297,7 +297,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Consulta web; exportação somente quando indicada na documentação do recurso",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Períodos disponíveis na consulta do mantenedor; conferir antes da análise",
     "granularity": "Conforme recortes indicados pelo mantenedor",
     "geoUnit": "Estadual · SC",
@@ -322,7 +322,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Consulta web; exportação somente quando indicada na documentação do recurso",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Períodos disponíveis na consulta do mantenedor; conferir antes da análise",
     "granularity": "Conforme recortes indicados pelo mantenedor",
     "geoUnit": "Nacional",
@@ -347,7 +347,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Consulta web; exportação somente quando indicada na documentação do recurso",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Períodos disponíveis na consulta do mantenedor; conferir antes da análise",
     "granularity": "Conforme recortes indicados pelo mantenedor",
     "geoUnit": "Nacional",
@@ -373,7 +373,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Consulta web; exportação somente quando indicada na documentação do recurso",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Períodos disponíveis na consulta do mantenedor; conferir antes da análise",
     "granularity": "Conforme recortes indicados pelo mantenedor",
     "geoUnit": "Nacional",
@@ -398,7 +398,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Consulta web; exportação somente quando indicada na documentação do recurso",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Períodos disponíveis na consulta do mantenedor; conferir antes da análise",
     "granularity": "Conforme recortes indicados pelo mantenedor",
     "geoUnit": "Nacional",
@@ -423,7 +423,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Consulta web; exportação somente quando indicada na documentação do recurso",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Períodos disponíveis na consulta do mantenedor; conferir antes da análise",
     "granularity": "Conforme recortes indicados pelo mantenedor",
     "geoUnit": "Nacional",
@@ -448,7 +448,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Consulta web; exportação somente quando indicada na documentação do recurso",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Períodos disponíveis na consulta do mantenedor; conferir antes da análise",
     "granularity": "Conforme recortes indicados pelo mantenedor",
     "geoUnit": "Nacional",
@@ -473,7 +473,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Consulta web; exportação somente quando indicada na documentação do recurso",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Períodos disponíveis na consulta do mantenedor; conferir antes da análise",
     "granularity": "Conforme recortes indicados pelo mantenedor",
     "geoUnit": "Nacional",
@@ -498,7 +498,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Consulta web; exportação somente quando indicada na documentação do recurso",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Períodos disponíveis na consulta do mantenedor; conferir antes da análise",
     "granularity": "Conforme recortes indicados pelo mantenedor",
     "geoUnit": "Nacional",
@@ -523,7 +523,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Consulta web; exportação somente quando indicada na documentação do recurso",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Períodos disponíveis na consulta do mantenedor; conferir antes da análise",
     "granularity": "Conforme recortes indicados pelo mantenedor",
     "geoUnit": "São Paulo · SP",
@@ -549,7 +549,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Consulta web; exportação somente quando indicada na documentação do recurso",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Períodos disponíveis na consulta do mantenedor; conferir antes da análise",
     "granularity": "Conforme recortes indicados pelo mantenedor",
     "geoUnit": "Nacional",
@@ -574,7 +574,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Consulta web; exportação somente quando indicada na documentação do recurso",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Períodos disponíveis na consulta do mantenedor; conferir antes da análise",
     "granularity": "Conforme recortes indicados pelo mantenedor",
     "geoUnit": "Nacional",
@@ -600,7 +600,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Consulta web; exportação somente quando indicada na documentação do recurso",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Períodos disponíveis na consulta do mantenedor; conferir antes da análise",
     "granularity": "Conforme recortes indicados pelo mantenedor",
     "geoUnit": "Nacional",
@@ -626,7 +626,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Consulta web; exportação somente quando indicada na documentação do recurso",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Períodos disponíveis na consulta do mantenedor; conferir antes da análise",
     "granularity": "Conforme recortes indicados pelo mantenedor",
     "geoUnit": "Estadual · SP",
@@ -651,7 +651,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Consulta web; exportação somente quando indicada na documentação do recurso",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Períodos disponíveis na consulta do mantenedor; conferir antes da análise",
     "granularity": "Conforme recortes indicados pelo mantenedor",
     "geoUnit": "Nacional",
@@ -676,7 +676,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Consulta web; exportação somente quando indicada na documentação do recurso",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Períodos disponíveis na consulta do mantenedor; conferir antes da análise",
     "granularity": "Conforme recortes indicados pelo mantenedor",
     "geoUnit": "Nacional",
@@ -702,7 +702,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Consulta web; exportação somente quando indicada na documentação do recurso",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Períodos disponíveis na consulta do mantenedor; conferir antes da análise",
     "granularity": "Conforme recortes indicados pelo mantenedor",
     "geoUnit": "Estadual · SC",
@@ -727,7 +727,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Consulta web; exportação somente quando indicada na documentação do recurso",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Períodos disponíveis na consulta do mantenedor; conferir antes da análise",
     "granularity": "Conforme recortes indicados pelo mantenedor",
     "geoUnit": "Nacional",
@@ -753,7 +753,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Consulta web; exportação somente quando indicada na documentação do recurso",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Períodos disponíveis na consulta do mantenedor; conferir antes da análise",
     "granularity": "Conforme recortes indicados pelo mantenedor",
     "geoUnit": "Nacional",
@@ -779,7 +779,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Consulta web; exportação somente quando indicada na documentação do recurso",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Períodos disponíveis na consulta do mantenedor; conferir antes da análise",
     "granularity": "Conforme recortes indicados pelo mantenedor",
     "geoUnit": "Estadual · PB",
@@ -804,7 +804,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Consulta web; exportação somente quando indicada na documentação do recurso",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Períodos disponíveis na consulta do mantenedor; conferir antes da análise",
     "granularity": "Conforme recortes indicados pelo mantenedor",
     "geoUnit": "São Paulo · SP",
@@ -829,7 +829,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Consulta web; exportação somente quando indicada na documentação do recurso",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Períodos disponíveis na consulta do mantenedor; conferir antes da análise",
     "granularity": "Conforme recortes indicados pelo mantenedor",
     "geoUnit": "Nacional",
@@ -855,7 +855,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Consulta web; exportação somente quando indicada na documentação do recurso",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Períodos disponíveis na consulta do mantenedor; conferir antes da análise",
     "granularity": "Conforme recortes indicados pelo mantenedor",
     "geoUnit": "Nacional",
@@ -880,7 +880,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Consulta web; exportação somente quando indicada na documentação do recurso",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Períodos disponíveis na consulta do mantenedor; conferir antes da análise",
     "granularity": "Conforme recortes indicados pelo mantenedor",
     "geoUnit": "Nacional",
@@ -905,7 +905,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Consulta web; exportação somente quando indicada na documentação do recurso",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Períodos disponíveis na consulta do mantenedor; conferir antes da análise",
     "granularity": "Conforme recortes indicados pelo mantenedor",
     "geoUnit": "Nacional",
@@ -930,7 +930,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Consulta web; exportação somente quando indicada na documentação do recurso",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Períodos disponíveis na consulta do mantenedor; conferir antes da análise",
     "granularity": "Conforme recortes indicados pelo mantenedor",
     "geoUnit": "Nacional",
@@ -956,7 +956,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Consulta web; exportação somente quando indicada na documentação do recurso",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Períodos disponíveis na consulta do mantenedor; conferir antes da análise",
     "granularity": "Conforme recortes indicados pelo mantenedor",
     "geoUnit": "Estadual · SP",
@@ -981,7 +981,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Consulta web; exportação somente quando indicada na documentação do recurso",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Períodos disponíveis na consulta do mantenedor; conferir antes da análise",
     "granularity": "Conforme recortes indicados pelo mantenedor",
     "geoUnit": "Estadual · RJ",
@@ -1006,7 +1006,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Consulta web; exportação somente quando indicada na documentação do recurso",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Períodos disponíveis na consulta do mantenedor; conferir antes da análise",
     "granularity": "Conforme recortes indicados pelo mantenedor",
     "geoUnit": "Curitiba · PR",
@@ -1032,7 +1032,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Consulta web; exportação somente quando indicada na documentação do recurso",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Períodos disponíveis na consulta do mantenedor; conferir antes da análise",
     "granularity": "Conforme recortes indicados pelo mantenedor",
     "geoUnit": "São Paulo · SP",
@@ -1057,7 +1057,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Consulta web; exportação somente quando indicada na documentação do recurso",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Períodos disponíveis na consulta do mantenedor; conferir antes da análise",
     "granularity": "Conforme recortes indicados pelo mantenedor",
     "geoUnit": "São Paulo · SP",
@@ -1083,7 +1083,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Consulta web; exportação somente quando indicada na documentação do recurso",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Períodos disponíveis na consulta do mantenedor; conferir antes da análise",
     "granularity": "Conforme recortes indicados pelo mantenedor",
     "geoUnit": "Nacional",
@@ -1108,7 +1108,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Consulta web; exportação somente quando indicada na documentação do recurso",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Períodos disponíveis na consulta do mantenedor; conferir antes da análise",
     "granularity": "Conforme recortes indicados pelo mantenedor",
     "geoUnit": "Nacional",
@@ -1133,7 +1133,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Consulta web; exportação somente quando indicada na documentação do recurso",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Períodos disponíveis na consulta do mantenedor; conferir antes da análise",
     "granularity": "Conforme recortes indicados pelo mantenedor",
     "geoUnit": "Estadual · MG",
@@ -1159,7 +1159,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Consulta web; exportação somente quando indicada na documentação do recurso",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Períodos disponíveis na consulta do mantenedor; conferir antes da análise",
     "granularity": "Conforme recortes indicados pelo mantenedor",
     "geoUnit": "Nacional",
@@ -1185,7 +1185,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Consulta web; exportação somente quando indicada na documentação do recurso",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Períodos disponíveis na consulta do mantenedor; conferir antes da análise",
     "granularity": "Conforme recortes indicados pelo mantenedor",
     "geoUnit": "Estadual · SP",
@@ -1211,7 +1211,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Consulta web; exportação somente quando indicada na documentação do recurso",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Períodos disponíveis na consulta do mantenedor; conferir antes da análise",
     "granularity": "Conforme recortes indicados pelo mantenedor",
     "geoUnit": "Nacional",
@@ -1236,7 +1236,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Consulta web; exportação somente quando indicada na documentação do recurso",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Períodos disponíveis na consulta do mantenedor; conferir antes da análise",
     "granularity": "Conforme recortes indicados pelo mantenedor",
     "geoUnit": "Nacional",
@@ -1261,7 +1261,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Consulta web; exportação somente quando indicada na documentação do recurso",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Períodos disponíveis na consulta do mantenedor; conferir antes da análise",
     "granularity": "Conforme recortes indicados pelo mantenedor",
     "geoUnit": "Nacional",
@@ -1286,7 +1286,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Consulta web; exportação somente quando indicada na documentação do recurso",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Períodos disponíveis na consulta do mantenedor; conferir antes da análise",
     "granularity": "Conforme recortes indicados pelo mantenedor",
     "geoUnit": "Nacional",
@@ -1313,7 +1313,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Consulta web; exportação somente quando indicada na documentação do recurso",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Períodos disponíveis na consulta do mantenedor; conferir antes da análise",
     "granularity": "Conforme recortes indicados pelo mantenedor",
     "geoUnit": "Nacional",
@@ -1339,7 +1339,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Consulta web; exportação somente quando indicada na documentação do recurso",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Períodos disponíveis na consulta do mantenedor; conferir antes da análise",
     "granularity": "Conforme recortes indicados pelo mantenedor",
     "geoUnit": "São Paulo · SP",
@@ -1366,7 +1366,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Consulta web; exportação somente quando indicada na documentação do recurso",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Períodos disponíveis na consulta do mantenedor; conferir antes da análise",
     "granularity": "Conforme recortes indicados pelo mantenedor",
     "geoUnit": "Fortaleza · CE",
@@ -1392,7 +1392,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Consulta web; exportação somente quando indicada na documentação do recurso",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Períodos disponíveis na consulta do mantenedor; conferir antes da análise",
     "granularity": "Conforme recortes indicados pelo mantenedor",
     "geoUnit": "Nacional",
@@ -1418,7 +1418,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Consulta web; exportação somente quando indicada na documentação do recurso",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Períodos disponíveis na consulta do mantenedor; conferir antes da análise",
     "granularity": "Conforme recortes indicados pelo mantenedor",
     "geoUnit": "Porto Alegre · RS",
@@ -1443,7 +1443,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Consulta web; exportação somente quando indicada na documentação do recurso",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Períodos disponíveis na consulta do mantenedor; conferir antes da análise",
     "granularity": "Conforme recortes indicados pelo mantenedor",
     "geoUnit": "Estadual · SC",
@@ -1470,7 +1470,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Consulta web; exportação somente quando indicada na documentação do recurso",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Períodos disponíveis na consulta do mantenedor; conferir antes da análise",
     "granularity": "Conforme recortes indicados pelo mantenedor",
     "geoUnit": "Nacional",
@@ -1496,7 +1496,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Consulta web; exportação somente quando indicada na documentação do recurso",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Períodos disponíveis na consulta do mantenedor; conferir antes da análise",
     "granularity": "Conforme recortes indicados pelo mantenedor",
     "geoUnit": "Nacional",
@@ -1522,7 +1522,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Consulta web; exportação somente quando indicada na documentação do recurso",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Períodos disponíveis na consulta do mantenedor; conferir antes da análise",
     "granularity": "Conforme recortes indicados pelo mantenedor",
     "geoUnit": "Estadual · ES",
@@ -1549,7 +1549,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Consulta web; exportação somente quando indicada na documentação do recurso",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Períodos disponíveis na consulta do mantenedor; conferir antes da análise",
     "granularity": "Conforme recortes indicados pelo mantenedor",
     "geoUnit": "Nacional",
@@ -1574,7 +1574,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Consulta web; exportação somente quando indicada na documentação do recurso",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Períodos disponíveis na consulta do mantenedor; conferir antes da análise",
     "granularity": "Conforme recortes indicados pelo mantenedor",
     "geoUnit": "Estadual · PI",
@@ -1600,7 +1600,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Consulta web; exportação somente quando indicada na documentação do recurso",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Períodos disponíveis na consulta do mantenedor; conferir antes da análise",
     "granularity": "Conforme recortes indicados pelo mantenedor",
     "geoUnit": "Estadual · ES",
@@ -1626,7 +1626,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Consulta web; exportação somente quando indicada na documentação do recurso",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Períodos disponíveis na consulta do mantenedor; conferir antes da análise",
     "granularity": "Conforme recortes indicados pelo mantenedor",
     "geoUnit": "Nacional",
@@ -1651,7 +1651,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Consulta web; exportação somente quando indicada na documentação do recurso",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Períodos disponíveis na consulta do mantenedor; conferir antes da análise",
     "granularity": "Conforme recortes indicados pelo mantenedor",
     "geoUnit": "Ji-Paraná · RO",
@@ -1677,7 +1677,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Consulta web; exportação somente quando indicada na documentação do recurso",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Períodos disponíveis na consulta do mantenedor; conferir antes da análise",
     "granularity": "Conforme recortes indicados pelo mantenedor",
     "geoUnit": "Nacional",
@@ -1703,7 +1703,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Consulta web; exportação somente quando indicada na documentação do recurso",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Períodos disponíveis na consulta do mantenedor; conferir antes da análise",
     "granularity": "Conforme recortes indicados pelo mantenedor",
     "geoUnit": "Estadual · RS",
@@ -1729,7 +1729,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Consulta web; exportação somente quando indicada na documentação do recurso",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Períodos disponíveis na consulta do mantenedor; conferir antes da análise",
     "granularity": "Conforme recortes indicados pelo mantenedor",
     "geoUnit": "Nacional",
@@ -1756,7 +1756,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Consulta web; exportação somente quando indicada na documentação do recurso",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Períodos disponíveis na consulta do mantenedor; conferir antes da análise",
     "granularity": "Conforme recortes indicados pelo mantenedor",
     "geoUnit": "Estadual · ES",
@@ -1782,7 +1782,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Consulta web; exportação somente quando indicada na documentação do recurso",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Períodos disponíveis na consulta do mantenedor; conferir antes da análise",
     "granularity": "Conforme recortes indicados pelo mantenedor",
     "geoUnit": "Nacional",
@@ -1807,7 +1807,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Consulta web; exportação somente quando indicada na documentação do recurso",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Períodos disponíveis na consulta do mantenedor; conferir antes da análise",
     "granularity": "Conforme recortes indicados pelo mantenedor",
     "geoUnit": "Estadual · RS",
@@ -1832,7 +1832,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Consulta web; exportação somente quando indicada na documentação do recurso",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Períodos disponíveis na consulta do mantenedor; conferir antes da análise",
     "granularity": "Conforme recortes indicados pelo mantenedor",
     "geoUnit": "Estadual · MG",
@@ -1857,7 +1857,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Consulta web; exportação somente quando indicada na documentação do recurso",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Períodos disponíveis na consulta do mantenedor; conferir antes da análise",
     "granularity": "Conforme recortes indicados pelo mantenedor",
     "geoUnit": "Nacional",
@@ -1883,7 +1883,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Consulta web; exportação somente quando indicada na documentação do recurso",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Períodos disponíveis na consulta do mantenedor; conferir antes da análise",
     "granularity": "Conforme recortes indicados pelo mantenedor",
     "geoUnit": "Nacional",
@@ -1908,7 +1908,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Consulta web; exportação somente quando indicada na documentação do recurso",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Períodos disponíveis na consulta do mantenedor; conferir antes da análise",
     "granularity": "Conforme recortes indicados pelo mantenedor",
     "geoUnit": "Nacional",
@@ -1934,7 +1934,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Consulta web; exportação somente quando indicada na documentação do recurso",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Períodos disponíveis na consulta do mantenedor; conferir antes da análise",
     "granularity": "Conforme recortes indicados pelo mantenedor",
     "geoUnit": "Nacional",
@@ -1959,7 +1959,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Consulta web; exportação somente quando indicada na documentação do recurso",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Períodos disponíveis na consulta do mantenedor; conferir antes da análise",
     "granularity": "Conforme recortes indicados pelo mantenedor",
     "geoUnit": "Nacional",
@@ -1984,7 +1984,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Consulta web; exportação somente quando indicada na documentação do recurso",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Períodos disponíveis na consulta do mantenedor; conferir antes da análise",
     "granularity": "Conforme recortes indicados pelo mantenedor",
     "geoUnit": "Nacional",
@@ -2010,7 +2010,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Consulta web; exportação somente quando indicada na documentação do recurso",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Períodos disponíveis na consulta do mantenedor; conferir antes da análise",
     "granularity": "Conforme recortes indicados pelo mantenedor",
     "geoUnit": "Nacional",
@@ -2036,7 +2036,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Consulta web; exportação somente quando indicada na documentação do recurso",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Períodos disponíveis na consulta do mantenedor; conferir antes da análise",
     "granularity": "Conforme recortes indicados pelo mantenedor",
     "geoUnit": "Nacional",
@@ -2062,7 +2062,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Consulta web; exportação somente quando indicada na documentação do recurso",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Períodos disponíveis na consulta do mantenedor; conferir antes da análise",
     "granularity": "Conforme recortes indicados pelo mantenedor",
     "geoUnit": "Belo Horizonte · MG",
@@ -2087,7 +2087,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Consulta web; exportação somente quando indicada na documentação do recurso",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Períodos disponíveis na consulta do mantenedor; conferir antes da análise",
     "granularity": "Conforme recortes indicados pelo mantenedor",
     "geoUnit": "Recife · PE",
@@ -2112,7 +2112,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Consulta web; exportação somente quando indicada na documentação do recurso",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Períodos disponíveis na consulta do mantenedor; conferir antes da análise",
     "granularity": "Conforme recortes indicados pelo mantenedor",
     "geoUnit": "Estadual · SP",
@@ -2138,7 +2138,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Consulta web; exportação somente quando indicada na documentação do recurso",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Períodos disponíveis na consulta do mantenedor; conferir antes da análise",
     "granularity": "Conforme recortes indicados pelo mantenedor",
     "geoUnit": "Estadual · CE",
@@ -2165,7 +2165,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Consulta web; exportação somente quando indicada na documentação do recurso",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Períodos disponíveis na consulta do mantenedor; conferir antes da análise",
     "granularity": "Conforme recortes indicados pelo mantenedor",
     "geoUnit": "Nacional",
@@ -2190,7 +2190,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Consulta web; exportação somente quando indicada na documentação do recurso",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Períodos disponíveis na consulta do mantenedor; conferir antes da análise",
     "granularity": "Conforme recortes indicados pelo mantenedor",
     "geoUnit": "Nacional",
@@ -2216,7 +2216,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Consulta web; exportação somente quando indicada na documentação do recurso",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Períodos disponíveis na consulta do mantenedor; conferir antes da análise",
     "granularity": "Conforme recortes indicados pelo mantenedor",
     "geoUnit": "Nacional",
@@ -2242,7 +2242,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Consulta web; exportação somente quando indicada na documentação do recurso",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Períodos disponíveis na consulta do mantenedor; conferir antes da análise",
     "granularity": "Conforme recortes indicados pelo mantenedor",
     "geoUnit": "São Paulo · SP",
@@ -2267,7 +2267,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Consulta web; exportação somente quando indicada na documentação do recurso",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Períodos disponíveis na consulta do mantenedor; conferir antes da análise",
     "granularity": "Conforme recortes indicados pelo mantenedor",
     "geoUnit": "Nacional",
@@ -2293,7 +2293,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Consulta web; exportação somente quando indicada na documentação do recurso",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Períodos disponíveis na consulta do mantenedor; conferir antes da análise",
     "granularity": "Conforme recortes indicados pelo mantenedor",
     "geoUnit": "São Paulo · SP",
@@ -2318,7 +2318,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Consulta web; exportação somente quando indicada na documentação do recurso",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Períodos disponíveis na consulta do mantenedor; conferir antes da análise",
     "granularity": "Conforme recortes indicados pelo mantenedor",
     "geoUnit": "Fortaleza · CE",
@@ -2344,7 +2344,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Consulta web; exportação somente quando indicada na documentação do recurso",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Períodos disponíveis na consulta do mantenedor; conferir antes da análise",
     "granularity": "Conforme recortes indicados pelo mantenedor",
     "geoUnit": "Nacional",
@@ -2369,7 +2369,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Consulta web; exportação somente quando indicada na documentação do recurso",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Períodos disponíveis na consulta do mantenedor; conferir antes da análise",
     "granularity": "Conforme recortes indicados pelo mantenedor",
     "geoUnit": "Estadual · SP",
@@ -2395,7 +2395,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Consulta web; exportação somente quando indicada na documentação do recurso",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Períodos disponíveis na consulta do mantenedor; conferir antes da análise",
     "granularity": "Conforme recortes indicados pelo mantenedor",
     "geoUnit": "Nacional",
@@ -2421,7 +2421,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Consulta web; exportação somente quando indicada na documentação do recurso",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Períodos disponíveis na consulta do mantenedor; conferir antes da análise",
     "granularity": "Conforme recortes indicados pelo mantenedor",
     "geoUnit": "Nacional",
@@ -2446,7 +2446,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Consulta web; exportação somente quando indicada na documentação do recurso",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Períodos disponíveis na consulta do mantenedor; conferir antes da análise",
     "granularity": "Conforme recortes indicados pelo mantenedor",
     "geoUnit": "São Paulo · SP",
@@ -2472,7 +2472,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Consulta web; exportação somente quando indicada na documentação do recurso",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Períodos disponíveis na consulta do mantenedor; conferir antes da análise",
     "granularity": "Conforme recortes indicados pelo mantenedor",
     "geoUnit": "Nacional",
@@ -2498,7 +2498,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Consulta web; exportação somente quando indicada na documentação do recurso",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Períodos disponíveis na consulta do mantenedor; conferir antes da análise",
     "granularity": "Conforme recortes indicados pelo mantenedor",
     "geoUnit": "Estadual · PE",
@@ -2524,7 +2524,7 @@ window.RADAR_PARTS.datasets=[
     "format": "API JSON; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 55 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -2551,7 +2551,7 @@ window.RADAR_PARTS.datasets=[
     "format": "PARQUET/CSV/JSON/XML; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 194 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -2578,7 +2578,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV/JSON/XML; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Desde 2009; fim conforme publicação da fonte",
     "granularity": "Conforme dicionário e parâmetros documentados; 113 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -2605,7 +2605,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV/JSON/XML; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Desde 2013; fim conforme publicação da fonte",
     "granularity": "Conforme dicionário e parâmetros documentados; 114 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -2632,7 +2632,7 @@ window.RADAR_PARTS.datasets=[
     "format": "API JSON; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 73 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -2659,7 +2659,7 @@ window.RADAR_PARTS.datasets=[
     "format": "API JSON; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 8 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -2686,7 +2686,7 @@ window.RADAR_PARTS.datasets=[
     "format": "API JSON; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 10 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -2713,7 +2713,7 @@ window.RADAR_PARTS.datasets=[
     "format": "API JSON; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 37 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -2740,7 +2740,7 @@ window.RADAR_PARTS.datasets=[
     "format": "API JSON; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 2 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -2767,7 +2767,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV/JSON/XML; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 34 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -2794,7 +2794,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV/JSON/XML; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 36 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -2821,7 +2821,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV/JSON/XML; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 23 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -2848,7 +2848,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV/JSON/XML; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 13 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -2875,7 +2875,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV/JSON/XML; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 28 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -2902,7 +2902,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV/JSON/XML; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 28 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -2929,7 +2929,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV/JSON/XML; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 30 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -2956,7 +2956,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV/JSON/XML; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 37 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -2983,7 +2983,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV/JSON/XML; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 63 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -3010,7 +3010,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV/JSON/XML; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 30 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -3037,7 +3037,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV/JSON/XML; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 33 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -3064,7 +3064,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 29 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -3091,7 +3091,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 22 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -3118,7 +3118,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 12 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -3145,7 +3145,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 18 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -3172,7 +3172,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 16 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -3199,7 +3199,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 11 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -3226,7 +3226,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 74 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -3253,7 +3253,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 74 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -3280,7 +3280,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV/JSON/XML; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 15 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -3307,7 +3307,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV/JSON/XML; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Desde 2019; fim conforme publicação da fonte",
     "granularity": "Conforme dicionário e parâmetros documentados; 741 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -3334,7 +3334,7 @@ window.RADAR_PARTS.datasets=[
     "format": "API JSON; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 19 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -3361,7 +3361,7 @@ window.RADAR_PARTS.datasets=[
     "format": "API JSON; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 9 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -3388,7 +3388,7 @@ window.RADAR_PARTS.datasets=[
     "format": "API JSON; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 23 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -3415,7 +3415,7 @@ window.RADAR_PARTS.datasets=[
     "format": "API JSON; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 22 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -3442,7 +3442,7 @@ window.RADAR_PARTS.datasets=[
     "format": "API JSON; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 22 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -3469,7 +3469,7 @@ window.RADAR_PARTS.datasets=[
     "format": "API JSON; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 10 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -3496,7 +3496,7 @@ window.RADAR_PARTS.datasets=[
     "format": "API JSON; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 25 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -3523,7 +3523,7 @@ window.RADAR_PARTS.datasets=[
     "format": "API JSON; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 23 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -3550,7 +3550,7 @@ window.RADAR_PARTS.datasets=[
     "format": "API JSON; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 24 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -3577,7 +3577,7 @@ window.RADAR_PARTS.datasets=[
     "format": "API JSON; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 19 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -3604,7 +3604,7 @@ window.RADAR_PARTS.datasets=[
     "format": "API JSON; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 30 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -3631,7 +3631,7 @@ window.RADAR_PARTS.datasets=[
     "format": "API JSON; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 46 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -3658,7 +3658,7 @@ window.RADAR_PARTS.datasets=[
     "format": "API JSON; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 5 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -3685,7 +3685,7 @@ window.RADAR_PARTS.datasets=[
     "format": "API JSON; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 58 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -3712,7 +3712,7 @@ window.RADAR_PARTS.datasets=[
     "format": "API JSON; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 17 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -3739,7 +3739,7 @@ window.RADAR_PARTS.datasets=[
     "format": "API JSON; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 13 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -3766,7 +3766,7 @@ window.RADAR_PARTS.datasets=[
     "format": "API JSON; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 6 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -3793,7 +3793,7 @@ window.RADAR_PARTS.datasets=[
     "format": "API JSON; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 18 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -3820,7 +3820,7 @@ window.RADAR_PARTS.datasets=[
     "format": "API JSON; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 18 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -3847,7 +3847,7 @@ window.RADAR_PARTS.datasets=[
     "format": "API JSON; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 16 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -3874,7 +3874,7 @@ window.RADAR_PARTS.datasets=[
     "format": "API JSON; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 10 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -3901,7 +3901,7 @@ window.RADAR_PARTS.datasets=[
     "format": "API JSON; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 16 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -3928,7 +3928,7 @@ window.RADAR_PARTS.datasets=[
     "format": "API JSON; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 31 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -3955,7 +3955,7 @@ window.RADAR_PARTS.datasets=[
     "format": "API JSON; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 21 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -3982,7 +3982,7 @@ window.RADAR_PARTS.datasets=[
     "format": "API JSON; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 8 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -4009,7 +4009,7 @@ window.RADAR_PARTS.datasets=[
     "format": "API JSON; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 9 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -4036,7 +4036,7 @@ window.RADAR_PARTS.datasets=[
     "format": "API JSON; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 5 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -4063,7 +4063,7 @@ window.RADAR_PARTS.datasets=[
     "format": "API JSON; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 5 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -4090,7 +4090,7 @@ window.RADAR_PARTS.datasets=[
     "format": "API JSON; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 16 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -4117,7 +4117,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Desde 2008; fim conforme publicação da fonte",
     "granularity": "Conforme dicionário e parâmetros documentados; 34 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -4144,7 +4144,7 @@ window.RADAR_PARTS.datasets=[
     "format": "API JSON; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 25 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -4171,7 +4171,7 @@ window.RADAR_PARTS.datasets=[
     "format": "API JSON; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 5 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -4198,7 +4198,7 @@ window.RADAR_PARTS.datasets=[
     "format": "API JSON; consulta SIDRA; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Desde 2001; fim conforme publicação da fonte",
     "granularity": "Conforme dicionário e parâmetros documentados; 7 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -4225,7 +4225,7 @@ window.RADAR_PARTS.datasets=[
     "format": "API JSON; consulta SIDRA; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Desde 2022; fim conforme publicação da fonte",
     "granularity": "Conforme dicionário e parâmetros documentados; 10 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -4252,7 +4252,7 @@ window.RADAR_PARTS.datasets=[
     "format": "API JSON; consulta SIDRA; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Desde 2002; fim conforme publicação da fonte",
     "granularity": "Conforme dicionário e parâmetros documentados; 7 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -4279,7 +4279,7 @@ window.RADAR_PARTS.datasets=[
     "format": "API JSON; consulta SIDRA; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Desde 2003; fim conforme publicação da fonte",
     "granularity": "Conforme dicionário e parâmetros documentados; 12 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -4306,7 +4306,7 @@ window.RADAR_PARTS.datasets=[
     "format": "API JSON; consulta SIDRA; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Desde 2003; fim conforme publicação da fonte",
     "granularity": "Conforme dicionário e parâmetros documentados; 12 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -4333,7 +4333,7 @@ window.RADAR_PARTS.datasets=[
     "format": "API JSON; consulta SIDRA; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Desde 2022; fim conforme publicação da fonte",
     "granularity": "Conforme dicionário e parâmetros documentados; 7 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -4360,7 +4360,7 @@ window.RADAR_PARTS.datasets=[
     "format": "API JSON; consulta SIDRA; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Desde 2013; fim conforme publicação da fonte",
     "granularity": "Conforme dicionário e parâmetros documentados; 12 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -4387,7 +4387,7 @@ window.RADAR_PARTS.datasets=[
     "format": "API JSON; consulta SIDRA; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Desde 2014; fim conforme publicação da fonte",
     "granularity": "Conforme dicionário e parâmetros documentados; 10 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -4414,7 +4414,7 @@ window.RADAR_PARTS.datasets=[
     "format": "API JSON; consulta SIDRA; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Desde 2022; fim conforme publicação da fonte",
     "granularity": "Conforme dicionário e parâmetros documentados; 8 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -4441,7 +4441,7 @@ window.RADAR_PARTS.datasets=[
     "format": "API JSON; consulta SIDRA; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Desde 2022; fim conforme publicação da fonte",
     "granularity": "Conforme dicionário e parâmetros documentados; 8 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -4468,7 +4468,7 @@ window.RADAR_PARTS.datasets=[
     "format": "API JSON; consulta SIDRA; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Desde 2022; fim conforme publicação da fonte",
     "granularity": "Conforme dicionário e parâmetros documentados; 8 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -4495,7 +4495,7 @@ window.RADAR_PARTS.datasets=[
     "format": "API JSON; consulta web; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 13 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -4522,7 +4522,7 @@ window.RADAR_PARTS.datasets=[
     "format": "API; geodados; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 0 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -4549,7 +4549,7 @@ window.RADAR_PARTS.datasets=[
     "format": "ArcGIS REST; JSON; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 7 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -4576,7 +4576,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CKAN; CSV; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Desde 2022; fim conforme publicação da fonte",
     "granularity": "Conforme dicionário e parâmetros documentados; 19 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -4603,7 +4603,7 @@ window.RADAR_PARTS.datasets=[
     "format": "API JSON; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Desde 2025; fim conforme publicação da fonte",
     "granularity": "Conforme dicionário e parâmetros documentados; 19 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -4630,7 +4630,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 0 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -4657,7 +4657,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 0 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -4684,7 +4684,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 0 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -4711,7 +4711,7 @@ window.RADAR_PARTS.datasets=[
     "format": "XLSX; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Desde 2002; fim conforme publicação da fonte",
     "granularity": "Conforme dicionário e parâmetros documentados; 22 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -4738,7 +4738,7 @@ window.RADAR_PARTS.datasets=[
     "format": "ZIP; microdados; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Desde 2013; fim conforme publicação da fonte",
     "granularity": "Conforme dicionário e parâmetros documentados; 0 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -4765,7 +4765,7 @@ window.RADAR_PARTS.datasets=[
     "format": "ZIP; microdados; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Desde 2009; fim conforme publicação da fonte",
     "granularity": "Conforme dicionário e parâmetros documentados; 0 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -4792,7 +4792,7 @@ window.RADAR_PARTS.datasets=[
     "format": "ZIP; microdados; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Desde 2017; fim conforme publicação da fonte",
     "granularity": "Conforme dicionário e parâmetros documentados; 0 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -4819,7 +4819,7 @@ window.RADAR_PARTS.datasets=[
     "format": "API JSON; consulta SIDRA; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Desde 2010; fim conforme publicação da fonte",
     "granularity": "Conforme dicionário e parâmetros documentados; 10 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -4846,7 +4846,7 @@ window.RADAR_PARTS.datasets=[
     "format": "API JSON; consulta SIDRA; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Desde 2022; fim conforme publicação da fonte",
     "granularity": "Conforme dicionário e parâmetros documentados; 11 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -4873,7 +4873,7 @@ window.RADAR_PARTS.datasets=[
     "format": "API JSON; consulta SIDRA; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Desde 2010; fim conforme publicação da fonte",
     "granularity": "Conforme dicionário e parâmetros documentados; 12 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -4900,7 +4900,7 @@ window.RADAR_PARTS.datasets=[
     "format": "API JSON; consulta SIDRA; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Desde 2022; fim conforme publicação da fonte",
     "granularity": "Conforme dicionário e parâmetros documentados; 11 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -4927,7 +4927,7 @@ window.RADAR_PARTS.datasets=[
     "format": "API JSON; consulta SIDRA; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Desde 2022; fim conforme publicação da fonte",
     "granularity": "Conforme dicionário e parâmetros documentados; 10 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -4954,7 +4954,7 @@ window.RADAR_PARTS.datasets=[
     "format": "API JSON; consulta SIDRA; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Desde 2022; fim conforme publicação da fonte",
     "granularity": "Conforme dicionário e parâmetros documentados; 10 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -4981,7 +4981,7 @@ window.RADAR_PARTS.datasets=[
     "format": "API JSON; consulta SIDRA; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Desde 2022; fim conforme publicação da fonte",
     "granularity": "Conforme dicionário e parâmetros documentados; 0 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -5008,7 +5008,7 @@ window.RADAR_PARTS.datasets=[
     "format": "ZIP; microdados; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Desde 2012; fim conforme publicação da fonte",
     "granularity": "Conforme dicionário e parâmetros documentados; 0 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -5035,7 +5035,7 @@ window.RADAR_PARTS.datasets=[
     "format": "ZIP; microdados; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Desde 2016; fim conforme publicação da fonte",
     "granularity": "Conforme dicionário e parâmetros documentados; 0 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -5062,7 +5062,7 @@ window.RADAR_PARTS.datasets=[
     "format": "ZIP; microdados; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Desde 2023; fim conforme publicação da fonte",
     "granularity": "Conforme dicionário e parâmetros documentados; 0 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -5089,7 +5089,7 @@ window.RADAR_PARTS.datasets=[
     "format": "ZIP; microdados; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Desde 2016; fim conforme publicação da fonte",
     "granularity": "Conforme dicionário e parâmetros documentados; 0 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -5116,7 +5116,7 @@ window.RADAR_PARTS.datasets=[
     "format": "ZIP; microdados; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Desde 2019; fim conforme publicação da fonte",
     "granularity": "Conforme dicionário e parâmetros documentados; 0 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -5143,7 +5143,7 @@ window.RADAR_PARTS.datasets=[
     "format": "ZIP; microdados; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Desde 2016; fim conforme publicação da fonte",
     "granularity": "Conforme dicionário e parâmetros documentados; 0 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -5170,7 +5170,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Desde 2007; fim conforme publicação da fonte",
     "granularity": "Conforme dicionário e parâmetros documentados; 30 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -5197,7 +5197,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Consulta web; arquivos; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Desde 1985; fim conforme publicação da fonte",
     "granularity": "Conforme dicionário e parâmetros documentados; 46 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -5224,7 +5224,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 0 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -5251,7 +5251,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 0 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -5278,7 +5278,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 0 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -5305,7 +5305,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 0 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -5332,7 +5332,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 0 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -5359,7 +5359,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 0 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -5386,7 +5386,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 0 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -5413,7 +5413,7 @@ window.RADAR_PARTS.datasets=[
     "format": "API JSON; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 6 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -5440,7 +5440,7 @@ window.RADAR_PARTS.datasets=[
     "format": "API JSON; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 21 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -5467,7 +5467,7 @@ window.RADAR_PARTS.datasets=[
     "format": "API JSON; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 36 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -5494,7 +5494,7 @@ window.RADAR_PARTS.datasets=[
     "format": "API JSON; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 11 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -5521,7 +5521,7 @@ window.RADAR_PARTS.datasets=[
     "format": "API JSON; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 11 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -5548,7 +5548,7 @@ window.RADAR_PARTS.datasets=[
     "format": "API JSON; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 21 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -5575,7 +5575,7 @@ window.RADAR_PARTS.datasets=[
     "format": "API JSON; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 23 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -5602,7 +5602,7 @@ window.RADAR_PARTS.datasets=[
     "format": "API JSON; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 18 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -5629,7 +5629,7 @@ window.RADAR_PARTS.datasets=[
     "format": "API JSON; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 11 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -5656,7 +5656,7 @@ window.RADAR_PARTS.datasets=[
     "format": "API JSON; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 11 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -5683,7 +5683,7 @@ window.RADAR_PARTS.datasets=[
     "format": "API JSON; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 13 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -5710,7 +5710,7 @@ window.RADAR_PARTS.datasets=[
     "format": "API JSON; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 11 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -5737,7 +5737,7 @@ window.RADAR_PARTS.datasets=[
     "format": "API JSON; consulta SIDRA; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Desde 2003; fim conforme publicação da fonte",
     "granularity": "Conforme dicionário e parâmetros documentados; 13 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -5764,7 +5764,7 @@ window.RADAR_PARTS.datasets=[
     "format": "API JSON; consulta SIDRA; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Desde 2003; fim conforme publicação da fonte",
     "granularity": "Conforme dicionário e parâmetros documentados; 12 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -5791,7 +5791,7 @@ window.RADAR_PARTS.datasets=[
     "format": "API JSON; consulta SIDRA; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Desde 2022; fim conforme publicação da fonte",
     "granularity": "Conforme dicionário e parâmetros documentados; 10 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -5818,7 +5818,7 @@ window.RADAR_PARTS.datasets=[
     "format": "API JSON; consulta SIDRA; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Desde 2022; fim conforme publicação da fonte",
     "granularity": "Conforme dicionário e parâmetros documentados; 9 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -5845,7 +5845,7 @@ window.RADAR_PARTS.datasets=[
     "format": "API JSON; consulta SIDRA; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Desde 2022; fim conforme publicação da fonte",
     "granularity": "Conforme dicionário e parâmetros documentados; 9 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -5872,7 +5872,7 @@ window.RADAR_PARTS.datasets=[
     "format": "ZIP; microdados; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Desde 1998; fim conforme publicação da fonte",
     "granularity": "Conforme dicionário e parâmetros documentados; 0 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -5899,7 +5899,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 9 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -5926,7 +5926,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Desde 2000; fim conforme publicação da fonte",
     "granularity": "Conforme dicionário e parâmetros documentados; 15 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -5953,7 +5953,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 0 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -5980,7 +5980,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 0 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -6007,7 +6007,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 0 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -6034,7 +6034,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 0 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -6061,7 +6061,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 0 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -6088,7 +6088,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 0 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -6115,7 +6115,7 @@ window.RADAR_PARTS.datasets=[
     "format": "API JSON; consulta SIDRA; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Desde 1974; fim conforme publicação da fonte",
     "granularity": "Conforme dicionário e parâmetros documentados; 8 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -6142,7 +6142,7 @@ window.RADAR_PARTS.datasets=[
     "format": "API JSON; consulta SIDRA; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Desde 1974; fim conforme publicação da fonte",
     "granularity": "Conforme dicionário e parâmetros documentados; 8 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -6169,7 +6169,7 @@ window.RADAR_PARTS.datasets=[
     "format": "API JSON; consulta SIDRA; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Desde 2013; fim conforme publicação da fonte",
     "granularity": "Conforme dicionário e parâmetros documentados; 8 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -6196,7 +6196,7 @@ window.RADAR_PARTS.datasets=[
     "format": "API JSON; consulta SIDRA; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Desde 1974; fim conforme publicação da fonte",
     "granularity": "Conforme dicionário e parâmetros documentados; 8 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -6223,7 +6223,7 @@ window.RADAR_PARTS.datasets=[
     "format": "API JSON; consulta SIDRA; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Desde 1986; fim conforme publicação da fonte",
     "granularity": "Conforme dicionário e parâmetros documentados; 8 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -6250,7 +6250,7 @@ window.RADAR_PARTS.datasets=[
     "format": "API JSON; consulta SIDRA; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Desde 1986; fim conforme publicação da fonte",
     "granularity": "Conforme dicionário e parâmetros documentados; 8 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -6277,7 +6277,7 @@ window.RADAR_PARTS.datasets=[
     "format": "API JSON; consulta SIDRA; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Desde 2017; fim conforme publicação da fonte",
     "granularity": "Conforme dicionário e parâmetros documentados; 13 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -6304,7 +6304,7 @@ window.RADAR_PARTS.datasets=[
     "format": "API JSON; consulta SIDRA; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Desde 2017; fim conforme publicação da fonte",
     "granularity": "Conforme dicionário e parâmetros documentados; 11 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -6331,7 +6331,7 @@ window.RADAR_PARTS.datasets=[
     "format": "API JSON; consulta SIDRA; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Desde 2017; fim conforme publicação da fonte",
     "granularity": "Conforme dicionário e parâmetros documentados; 13 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -6358,7 +6358,7 @@ window.RADAR_PARTS.datasets=[
     "format": "API JSON; consulta SIDRA; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Desde 2022; fim conforme publicação da fonte",
     "granularity": "Conforme dicionário e parâmetros documentados; 11 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -6385,7 +6385,7 @@ window.RADAR_PARTS.datasets=[
     "format": "API JSON; consulta SIDRA; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Desde 2022; fim conforme publicação da fonte",
     "granularity": "Conforme dicionário e parâmetros documentados; 10 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -6412,7 +6412,7 @@ window.RADAR_PARTS.datasets=[
     "format": "API JSON; consulta SIDRA; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Desde 2022; fim conforme publicação da fonte",
     "granularity": "Conforme dicionário e parâmetros documentados; 10 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -6439,7 +6439,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 0 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -6466,7 +6466,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 0 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -6493,7 +6493,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 0 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -6520,7 +6520,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 0 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -6547,7 +6547,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 0 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -6574,7 +6574,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 0 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -6601,7 +6601,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 0 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -6628,7 +6628,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Desde 2014; fim conforme publicação da fonte",
     "granularity": "Conforme dicionário e parâmetros documentados; 0 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -6655,7 +6655,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 0 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -6682,7 +6682,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 0 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -6709,7 +6709,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Desde 2023; fim conforme publicação da fonte",
     "granularity": "Conforme dicionário e parâmetros documentados; 9 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -6736,7 +6736,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Desde 2019; fim conforme publicação da fonte",
     "granularity": "Conforme dicionário e parâmetros documentados; 14 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -6763,7 +6763,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Desde 2014; fim conforme publicação da fonte",
     "granularity": "Conforme dicionário e parâmetros documentados; 47 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -6790,7 +6790,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Desde 2014; fim conforme publicação da fonte",
     "granularity": "Conforme dicionário e parâmetros documentados; 36 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -6817,7 +6817,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 42 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -6844,7 +6844,7 @@ window.RADAR_PARTS.datasets=[
     "format": "XLSX; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 3 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -6871,7 +6871,7 @@ window.RADAR_PARTS.datasets=[
     "format": "XLSX; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 76 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -6898,7 +6898,7 @@ window.RADAR_PARTS.datasets=[
     "format": "XLSX; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 55 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -6925,7 +6925,7 @@ window.RADAR_PARTS.datasets=[
     "format": "XLSX; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 57 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -6952,7 +6952,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Desde 2020; fim conforme publicação da fonte",
     "granularity": "Conforme dicionário e parâmetros documentados; 34 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -6979,7 +6979,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Desde 2018; fim conforme publicação da fonte",
     "granularity": "Conforme dicionário e parâmetros documentados; 66 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -7006,7 +7006,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Desde 2014; fim conforme publicação da fonte",
     "granularity": "Conforme dicionário e parâmetros documentados; 58 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -7033,7 +7033,7 @@ window.RADAR_PARTS.datasets=[
     "format": "ZIP; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Desde 2023; fim conforme publicação da fonte",
     "granularity": "Conforme dicionário e parâmetros documentados; 27 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -7060,7 +7060,7 @@ window.RADAR_PARTS.datasets=[
     "format": "XLSX; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Desde 2023; fim conforme publicação da fonte",
     "granularity": "Conforme dicionário e parâmetros documentados; 27 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -7087,7 +7087,7 @@ window.RADAR_PARTS.datasets=[
     "format": "ZIP; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Desde 2023; fim conforme publicação da fonte",
     "granularity": "Conforme dicionário e parâmetros documentados; 17 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -7114,7 +7114,7 @@ window.RADAR_PARTS.datasets=[
     "format": "XLSX; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Desde 2023; fim conforme publicação da fonte",
     "granularity": "Conforme dicionário e parâmetros documentados; 14 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -7141,7 +7141,7 @@ window.RADAR_PARTS.datasets=[
     "format": "ZIP; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Desde 2018; fim conforme publicação da fonte",
     "granularity": "Conforme dicionário e parâmetros documentados; 55 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -7168,7 +7168,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Desde 2002; fim conforme publicação da fonte",
     "granularity": "Conforme dicionário e parâmetros documentados; 38 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -7195,7 +7195,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Desde 2002; fim conforme publicação da fonte",
     "granularity": "Conforme dicionário e parâmetros documentados; 20 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -7222,7 +7222,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 22 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -7249,7 +7249,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Desde 2002; fim conforme publicação da fonte",
     "granularity": "Conforme dicionário e parâmetros documentados; 51 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -7276,7 +7276,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 31 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -7303,7 +7303,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Desde 2013; fim conforme publicação da fonte",
     "granularity": "Conforme dicionário e parâmetros documentados; 209 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -7330,7 +7330,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Desde 2017; fim conforme publicação da fonte",
     "granularity": "Conforme dicionário e parâmetros documentados; 29 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -7357,7 +7357,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 33 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -7384,7 +7384,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 38 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -7411,7 +7411,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 41 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -7438,7 +7438,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Desde 2010; fim conforme publicação da fonte",
     "granularity": "Conforme dicionário e parâmetros documentados; 9 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -7465,7 +7465,7 @@ window.RADAR_PARTS.datasets=[
     "format": "API JSON; consulta SIDRA; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Desde 1979; fim conforme publicação da fonte",
     "granularity": "Conforme dicionário e parâmetros documentados; 0 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -7492,7 +7492,7 @@ window.RADAR_PARTS.datasets=[
     "format": "API JSON; consulta SIDRA; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Desde 1979; fim conforme publicação da fonte",
     "granularity": "Conforme dicionário e parâmetros documentados; 0 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -7519,7 +7519,7 @@ window.RADAR_PARTS.datasets=[
     "format": "API JSON; consulta SIDRA; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Desde 2000; fim conforme publicação da fonte",
     "granularity": "Conforme dicionário e parâmetros documentados; 0 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -7546,7 +7546,7 @@ window.RADAR_PARTS.datasets=[
     "format": "XLSX; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Desde 2018; fim conforme publicação da fonte",
     "granularity": "Conforme dicionário e parâmetros documentados; 0 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -7573,7 +7573,7 @@ window.RADAR_PARTS.datasets=[
     "format": "XLSX; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Desde 2018; fim conforme publicação da fonte",
     "granularity": "Conforme dicionário e parâmetros documentados; 0 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -7600,7 +7600,7 @@ window.RADAR_PARTS.datasets=[
     "format": "XLSX; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Desde 2017; fim conforme publicação da fonte",
     "granularity": "Conforme dicionário e parâmetros documentados; 0 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -7627,7 +7627,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Desde 2000; fim conforme publicação da fonte",
     "granularity": "Conforme dicionário e parâmetros documentados; 0 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -7654,7 +7654,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Desde 2026; fim conforme publicação da fonte",
     "granularity": "Conforme dicionário e parâmetros documentados; 0 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -7681,7 +7681,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Desde 2000; fim conforme publicação da fonte",
     "granularity": "Conforme dicionário e parâmetros documentados; 0 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -7708,7 +7708,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Desde 2026; fim conforme publicação da fonte",
     "granularity": "Conforme dicionário e parâmetros documentados; 0 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -7735,7 +7735,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Desde 2000; fim conforme publicação da fonte",
     "granularity": "Conforme dicionário e parâmetros documentados; 0 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -7762,7 +7762,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Desde 2000; fim conforme publicação da fonte",
     "granularity": "Conforme dicionário e parâmetros documentados; 0 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -7789,7 +7789,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 0 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -7816,7 +7816,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Desde 2000; fim conforme publicação da fonte",
     "granularity": "Conforme dicionário e parâmetros documentados; 0 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -7843,7 +7843,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Desde 2010; fim conforme publicação da fonte",
     "granularity": "Conforme dicionário e parâmetros documentados; 0 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -7870,7 +7870,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Desde 2022; fim conforme publicação da fonte",
     "granularity": "Conforme dicionário e parâmetros documentados; 0 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -7897,7 +7897,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Desde 2010; fim conforme publicação da fonte",
     "granularity": "Conforme dicionário e parâmetros documentados; 0 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -7924,7 +7924,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 0 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -7951,7 +7951,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 0 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -7978,7 +7978,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 0 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -8005,7 +8005,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 0 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -8032,7 +8032,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 0 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -8059,7 +8059,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 0 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -8086,7 +8086,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 0 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -8113,7 +8113,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 0 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -8140,7 +8140,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 0 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -8167,7 +8167,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 0 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -8194,7 +8194,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 0 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -8221,7 +8221,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 0 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -8248,7 +8248,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 0 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -8275,7 +8275,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Recorte temporal indicado nos parâmetros e arquivos da fonte; consultar documentação",
     "granularity": "Conforme dicionário e parâmetros documentados; 0 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -8302,7 +8302,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Desde 2013; fim conforme publicação da fonte",
     "granularity": "Conforme dicionário e parâmetros documentados; 0 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -8329,7 +8329,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Desde 1996; fim conforme publicação da fonte",
     "granularity": "Conforme dicionário e parâmetros documentados; 0 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -8356,7 +8356,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Desde 2006; fim conforme publicação da fonte",
     "granularity": "Conforme dicionário e parâmetros documentados; 0 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -8383,7 +8383,7 @@ window.RADAR_PARTS.datasets=[
     "format": "XLSX; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Desde 2022; fim conforme publicação da fonte",
     "granularity": "Conforme dicionário e parâmetros documentados; 0 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -8410,7 +8410,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Desde 2023; fim conforme publicação da fonte",
     "granularity": "Conforme dicionário e parâmetros documentados; 0 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -8437,7 +8437,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Desde 2025; fim conforme publicação da fonte",
     "granularity": "Conforme dicionário e parâmetros documentados; 0 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -8464,7 +8464,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV; exportação Guaraci: CSV, Parquet ou SQLite conforme fonte",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Desde 2025; fim conforme publicação da fonte",
     "granularity": "Conforme dicionário e parâmetros documentados; 0 campos listados no Guaraci",
     "geoUnit": "Recortes territoriais específicos do conjunto; consultar documentação",
@@ -8490,7 +8490,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Catálogo web e fichas individuais com links externos",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "docs": "https://govteca.com.br/criterios",
     "limitations": "Agregador independente; não hospeda os dados nem representa o governo. Links são validados no cadastro e podem ficar desatualizados; a própria Govteca informa que depende de reportes da comunidade. Cada recurso deve ser avaliado na fonte produtora.",
     "lastChecked": "2026-11-16",
@@ -8511,7 +8511,7 @@ window.RADAR_PARTS.datasets=[
     "format": "ZIP",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Resultados SINISA 2025 — Ministério das Cidades Info Resultados SINISA 2025 Compartilhe: Compartilhe por Facebook Compartilhe por Twitter Compartilhe por LinkedIn Compartilhe por WhatsApp link para Copiar para área de transferência Publicado em 23/12/2025 17h08 Atualizado em 22/07/2026 16h13 O SINISA divulga os resultados da coleta de dados do sistema, SINISA 2025, com ano de referência 2024.",
     "granularity": "Não informado pela fonte oficial",
     "geoUnit": "São apresentados os relatórios e planilhas de informações e indicadores acerca dos cinco módulos do SINISA: Gestão Municipal, Abastecimento de Água, Esgotamento Sanitário, Resíduos Sólidos e Águas Pluviais, bem como a relação dos Atestados de Regularidade de cada módulo.",
@@ -8536,7 +8536,7 @@ window.RADAR_PARTS.datasets=[
     "format": "JSON",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Não informado na fonte estruturada",
     "granularity": "Não informado na fonte estruturada",
     "geoUnit": "Não informado na fonte estruturada",
@@ -8562,7 +8562,7 @@ window.RADAR_PARTS.datasets=[
     "format": "JSON",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Não informado na fonte estruturada",
     "granularity": "Não informado na fonte estruturada",
     "geoUnit": "Não informado na fonte estruturada",
@@ -8588,7 +8588,7 @@ window.RADAR_PARTS.datasets=[
     "format": "GeoJSON",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Não informado na fonte estruturada",
     "granularity": "Não informado na fonte estruturada",
     "geoUnit": "Não informado na fonte estruturada",
@@ -8614,7 +8614,7 @@ window.RADAR_PARTS.datasets=[
     "format": "JSON",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Não informado na fonte estruturada",
     "granularity": "Não informado na fonte estruturada",
     "geoUnit": "Não informado na fonte estruturada",
@@ -8640,7 +8640,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Advances on the Global Human Settlement Layer by joint assessment of Earth Observation and population survey data , International Journal of Digital Earth 17 (1), 2024 10.1080/17538947.2024.2390454 Global urban centres database and building footprints Urban Centre Database UCDB R2024A (last update: v1.1 - 31/07/2025) Epochs : 2025; Formats : CSV; XLS; GPKG; Groupings : Global coverage; thematical; regional; The most comprehensive and updated dataset for world cities, with a coverage of 11,000 urban centres and 15 thematic domains (Human Settlement Baseline, Geography, Temporal Trajectory, Land Use Land Cover, Infrastructure, Socioeconomic, Exposure, Hazard and Risk, Vegetation, Water, Natural Systems, SDGs, Climate, Health, Emissions), resulting in 473 indicators, and 2602 attributes ranging between 1975 and 2030 This dataset can be explored using the interactive visualisation of the Urb",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Advances on the Global Human Settlement Layer by joint assessment of Earth Observation and population survey data , International Journal of Digital Earth 17 (1), 2024 10.1080/17538947.2024.2390454 Resident population grid (inhabitants) Epochs : 1975-2030; Resolutions : 100m; 1km; 3 arcsec; 30 arcsec; Coordinate systems : Mollweide; WGS84; The spatial raster dataset depicts the distribution of population, expressed as the number of people per cell Datasheet Download GHS-POP How to cite Dataset : Schiavina M., Freire S., Carioli A., MacManus K.",
     "granularity": "Não informado pela fonte oficial",
     "geoUnit": "Global Human Settlement - Datasets - European Commission Technical details | how to cite | download links GHSL Datasets information This page lists all the GHSL datasets available for open and free download: each description card contains the link to the technical details and for downloading the data.",
@@ -8665,7 +8665,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Dataset ISO 19139 Metadata file Occurrence occurrence.xml Occurrence change intensity change.xml Seasonality seasonality.xml Recurrence recurrence.xml Transitions transitions.xml Maximum water extent extent.xml Google Earth Engine The 2021 data are available in the Google Earth Engine data catalog Tutorials for using the Global Surface Water Dataset in Google Earth Engine are available here .",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "However, the Seasonality, Monthly History, and Yearly History assets only cover the 2022–2024 period.",
     "granularity": "Não informado pela fonte oficial",
     "geoUnit": "Global Surface Water - Data Access Joint Research Centre Global Surface Water - Data Access NEW LAYERS The new dataset 1984-2024 is available to download Last updated: 15-10-2026 License All data here is produced under the Copernicus Programme and is provided free of charge, without restriction of use.",
@@ -8694,7 +8694,7 @@ window.RADAR_PARTS.datasets=[
     "format": "GeoJSON, shapefile e outros formatos geográficos conforme versão",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Anos de referência variáveis conforme país e versão do conjunto",
     "granularity": "País, estado/província, distrito/município e subdivisões disponíveis",
     "geoUnit": "Polígonos administrativos",
@@ -8724,7 +8724,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Consulta web, API, CSV e Darwin Core Archive por download",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Registros históricos e recentes conforme instituição e amostragem",
     "granularity": "Registro de ocorrência com taxonomia, data, local e metadados quando disponíveis",
     "geoUnit": "Coordenadas e unidades geográficas variáveis",
@@ -8754,7 +8754,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Consultas SPARQL, APIs, JSON, dumps e exportações",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Dados históricos e contemporâneos conforme item",
     "granularity": "Entidade, propriedade, declaração e referência",
     "geoUnit": "Variável; itens podem conter coordenadas e vínculos territoriais",
@@ -8784,7 +8784,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Dados para download e tabelas de síntese; consultar formatos disponíveis no portal",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Projetos existentes e prospectivos; versão consultada fevereiro de 2026",
     "granularity": "Fase de projeto/parque eólico, país, status, capacidade e localização",
     "geoUnit": "Instalação/fase, país ou região",
@@ -8815,7 +8815,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Consulta web, download de séries e pacotes para R e Stata",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Séries históricas de longa duração; cobertura temporal varia por país e variável",
     "granularity": "País, ano, variável, percentil e população conforme a série",
     "geoUnit": "País ou agregado internacional",
@@ -8845,7 +8845,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Tabelas HTML acessíveis, visualização interativa e opção de download no portal oficial (formato do arquivo não confirmado nesta auditoria).",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Série histórica desde 2006, com edição publicada em 2026 e resultados recentes baseados em dados disponíveis.",
     "granularity": "País e ano; componentes de expectativa de vida, bem-estar subjetivo e pegada ecológica.",
     "geoUnit": "País",
@@ -8875,7 +8875,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Camadas geográficas e downloads conforme o dataset; acesso a API pública para alguns produtos",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Variável por dataset, incluindo séries históricas e atualizações recentes.",
     "granularity": "Raster, vetor e agregações territoriais conforme a camada",
     "geoUnit": "Global, regional e local, com precisão variável",
@@ -8905,7 +8905,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Arquivos CSV e documentação em repositório GitHub; acesso por R, Python ou Julia",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Coleções de 2018 a 2026 e posteriores conforme manutenção do projeto",
     "granularity": "Variável conforme a base de cada semana",
     "geoUnit": "Global e diversas geografias conforme cada conjunto",
@@ -8936,7 +8936,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Downloads de CSV/ZIP e outros arquivos, com opções gratuitas e algumas bases premium",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Lançamentos de 2013 a 2023; período coberto varia por conjunto.",
     "granularity": "Registros e agregações diversos conforme base",
     "geoUnit": "Predominantemente Estados Unidos; escala variável",
@@ -8966,7 +8966,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Pacote R com tabelas e documentação; dados de origem no NYC Open Data",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Licenças: extrações entre 2016 e 2026; mordidas: 2015–2025.",
     "granularity": "Licença individual por período e relato de mordida, com variáveis de raça, data e CEP",
     "geoUnit": "Cidade de Nova York, borough e ZIP code",
@@ -8996,7 +8996,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Download de tabelas e visualização em painel e mapa",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Histórico e projetos anunciados, em construção, em operação ou desativados conforme cobertura de cada tecnologia.",
     "granularity": "Unidade/instalação geradora e agregações geográficas",
     "geoUnit": "Global; cobertura e precisão espacial variáveis",
@@ -9026,7 +9026,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Download de dados tabulares, mapa e tabelas-resumo",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Projetos operacionais e prospectivos com anos de entrada em operação, conforme cobertura e disponibilidade de fontes.",
     "granularity": "Fase de usina solar; geração distribuída agregada por país/área",
     "geoUnit": "Global, com coordenadas exatas ou aproximadas para instalações",
@@ -9056,7 +9056,7 @@ window.RADAR_PARTS.datasets=[
     "format": "API REST JSON e snapshot completo em JSONL comprimido ou Parquet",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Retrospectivo, com registros históricos e atualizações contínuas.",
     "granularity": "Trabalho, autoria, instituição, fonte e relações bibliográficas",
     "geoUnit": "Global; vinculações institucionais e países podem conter inferências",
@@ -9087,7 +9087,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Portal de consulta e acesso a conjuntos de dados; formatos e possibilidades de exportação variam por dataset.",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Variável conforme a série e o órgão responsável.",
     "granularity": "Variável: registro administrativo, endereço, bairro, área geográfica ou agregado temporal, conforme a base.",
     "geoUnit": "Cidade de Nova York, Estados Unidos",
@@ -9118,7 +9118,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Interface de pesquisa e consulta; formatos e downloads variam por conjunto e serviço.",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Variável por fonte e indicador; conferir período disponível e ano da última revisão.",
     "granularity": "País, região, período e indicador, ou outras unidades conforme cada conjunto.",
     "geoUnit": "Global; cobertura geográfica variável por indicador",
@@ -9148,7 +9148,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Painel interativo, tabelas e publicação metodológica",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "2023",
     "granularity": "Capital brasileira e dimensão temática",
     "geoUnit": "26 capitais estaduais brasileiras",
@@ -9181,7 +9181,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Painel e planilha CSV disponibilizada no portal",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "2023–2025",
     "granularity": "Ação e atividade do plano federal",
     "geoUnit": "Brasil — governo federal",
@@ -9216,7 +9216,7 @@ window.RADAR_PARTS.datasets=[
     "format": "JSON, CSV, GeoJSON, TIFF, PNG e MVT, conforme API, relatório ou download",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Varia por conjunto e versão; consultar os metadados do dataset e a data de cobertura devolvida pelo endpoint",
     "granularity": "Embarcação, evento, posição, célula espaço-temporal, área, porto ou detecção de infraestrutura, conforme o produto",
     "geoUnit": "Global, com filtros por região, área ou coordenadas nos endpoints compatíveis",
@@ -9250,7 +9250,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Tabelas interativas e downloads CSV; APIs oficiais para produtos compatíveis",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Varia por programa, edição e tabela; o portal permite selecionar anos e produtos disponíveis",
     "granularity": "Pessoa ou domicílio em estimativas agregadas por tabela, indicador, grupo e geografia; microdados não são expostos diretamente por todas as tabelas",
     "geoUnit": "Estados Unidos; país, estado, condado, município, setor censitário e outras geografias conforme o produto",
@@ -9285,7 +9285,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Portal CKAN, arquivos reutilizáveis e respostas estruturadas em JSON pela API",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Varia por conjunto; consultar os metadados e recursos de cada base",
     "granularity": "Varia por conjunto, incluindo registros administrativos de compras, convênios, receitas, despesas e remuneração",
     "geoUnit": "Estado da Paraíba; detalhamento por órgão, entidade, fornecedor, servidor ou município varia conforme o conjunto",
@@ -9318,7 +9318,7 @@ window.RADAR_PARTS.datasets=[
     "format": "NetCDF e CSV, convenção CF-1.9; catálogo também exposto por STAC e CSW",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "De 1750 ao presente, variando conforme o indicador; versão inicial 2025a inclui séries até 2025 e orçamento de carbono a partir de 2026",
     "granularity": "Séries temporais anuais e valores-síntese globais por indicador; alguns arquivos trazem médias móveis, taxas, projeções, métodos de atribuição e conjuntos de entrada",
     "geoUnit": "Global; média única por indicador, com camadas ou recortes adicionais conforme a variável",
@@ -9351,7 +9351,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Planilha Google originada de arquivo XLSX, com abas vigente, histórico, fontes e candidatos_2026",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Safras e períodos variáveis conforme cada Tribunal de Contas; fotografia consolidada em 15/09/2026 e candidaturas de 2026",
     "granularity": "Agente ou gestor, decisão/lista do Tribunal de Contas e, na aba eleitoral, candidatura pareada por CPF ou nome com dígitos compatíveis do CPF mascarado",
     "geoUnit": "Brasil, unidade da federação, jurisdição e órgão ou entidade quando informado pela fonte",
@@ -9387,7 +9387,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Planilhas Google, arquivos no Google Drive e links para bases externas; formatos variam por apuração",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Varia por reportagem e conjunto; inclui séries e recortes publicados desde pelo menos 2018",
     "granularity": "Varia entre registros administrativos, agregados territoriais, pessoas, candidaturas, processos, organizações e indicadores",
     "geoUnit": "Brasil; recortes nacional, estadual e municipal variam conforme a base",
@@ -9419,7 +9419,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV compactado em ZIP e dicionário de dados",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Janela móvel dos últimos doze meses; arquivos históricos desde 2000, sujeitos a regras distintas de atualização",
     "granularity": "Fundo e data de competência",
     "geoUnit": "Brasil; fundo de investimento",
@@ -9451,7 +9451,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV e ZIP, com dicionários de dados",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Posição cadastral do último dia útil e histórico ICVM 555, conforme arquivo",
     "granularity": "Fundo, classe, subclasse e registros históricos conforme recurso",
     "geoUnit": "Brasil; entidades registradas",
@@ -9484,7 +9484,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV, JSON e FollowTheMoney; acesso por API e exportações sujeito a condições de uso",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Varia conforme a fonte de origem e o histórico preservado",
     "granularity": "Pessoa, organização, posição, identificadores e relações conforme a fonte",
     "geoUnit": "Global; países e jurisdições variáveis",
@@ -9516,7 +9516,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Planilhas Excel por conjunto, lista de indicadores, metadados e acesso programático por API",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Varia por conjunto; a edição consultada combina séries históricas e extrações entre 2019 e 2025",
     "granularity": "Indicador por país ou território, período e dimensão de desigualdade; alguns conjuntos incluem região subnacional",
     "geoUnit": "País ou território e, quando disponível, primeiro ou segundo nível administrativo",
@@ -9547,7 +9547,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Arquivos mensais CSV e dicionário de dados",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Janeiro a setembro de 2026 na verificação de 18/10/2026; novos meses podem ser incorporados",
     "granularity": "Registro de dose aplicada, com variáveis definidas no dicionário do conjunto",
     "geoUnit": "Brasil; conferir no dicionário as unidades territoriais disponíveis em cada arquivo",
@@ -9578,7 +9578,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Portal web pesquisável com tabelas, fichas de documentos e ligações para resoluções, relatórios e entidades",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Documentos históricos e vigentes; a página consultada inclui vínculos com o ciclo orçamentário de 2027",
     "granularity": "Documento ou resolução, versão, órgão mandatário, entidade executora, programa e relatório associado",
     "geoUnit": "Sistema das Nações Unidas e países abrangidos pelos mandatos; não é uma base geográfica padronizada",
@@ -9610,7 +9610,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Planilha em pasta pública do Google Drive",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Janeiro de 2023 a setembro de 2026",
     "granularity": "Transferência e objeto financiado, com UF, município, tipo e data do desastre, portaria, processo, ordem bancária, notas de crédito e empenho e valores anuais empenhados, cancelados, destacados, devolvidos e pagos",
     "geoUnit": "UF e município de destino",
@@ -9642,7 +9642,7 @@ window.RADAR_PARTS.datasets=[
     "format": "JSON Lines (.jsonl), um objeto por mensagem; arquivos de mídia sob termo ético específico",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Janeiro de 2020 a junho de 2025",
     "granularity": "Mensagem, usuário anonimizado, canal ou grupo e metadados de resposta, encaminhamento, visualização, reação, mídia, idioma e classificação temática",
     "geoUnit": "Brasil / ecossistema público online; sem unidade geográfica subnacional sistemática",
@@ -9670,7 +9670,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Mapa e painéis interativos, fichas territoriais e relatórios metodológicos por país",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Edição 2025; a Argentina inclui comparação com o levantamento de 2021",
     "granularity": "Projeto jornalístico e território; a Colômbia usa amostra municipal e componente qualitativo",
     "geoUnit": "Município, província ou região, conforme o país e a metodologia local",
@@ -9702,7 +9702,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Demonstrativos públicos, indicadores, relatórios e tabulações",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "limitations": "Limitações não informadas pela fonte oficial nesta ficha; confirme demonstrativo, exercício, bimestre, atrasos e retificações antes do uso.",
     "period": "Séries históricas variáveis por demonstrativo e ente; verificar exercício e bimestre",
     "granularity": "Receita, despesa, fonte de recursos, categoria e subfunção, conforme relatório",
@@ -9734,7 +9734,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Relatórios públicos e demonstrativos detalhados; consultas e downloads conforme seção do portal",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "limitations": "Limitações não informadas pela fonte oficial nesta ficha; confirme calendário, exercício, ente, atualização e eventuais restrições antes do uso.",
     "period": "Séries históricas por exercício e ente; verificar disponibilidade na consulta",
     "granularity": "Receitas, despesas e indicadores de manutenção e desenvolvimento do ensino e Fundeb",
@@ -9766,7 +9766,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Relatórios e painéis de consulta pública; acesso restrito a algumas funcionalidades",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "limitations": "Limitações não informadas pela fonte oficial nesta ficha; confirme metodologia, competência, recortes e regras de acesso antes do uso.",
     "period": "Disponibilidade por relatório e competência; verificar mudanças metodológicas",
     "granularity": "Produção e indicadores agregados por equipe e recorte territorial, conforme relatório público",
@@ -9801,7 +9801,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Catálogo editorial online de 59 recursos, incluindo bases, documentos, ferramentas e guias",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Varia conforme a fonte de cada recurso; coleção publicada em 2026",
     "granularity": "Heterogênea: registros administrativos, indicadores, documentos e materiais metodológicos, conforme o recurso",
     "geoUnit": "Varia por recurso, de agregados nacionais a recortes estaduais, municipais ou internacionais",
@@ -9833,7 +9833,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Mapa interativo; detecções em GeoJSON; máscaras raster GeoTIFF; diretórios de resultados e código aberto",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "2018–2026 Q2 na versão verificada; detecções anuais de 2018 a 2025 e trimestrais desde 2025",
     "granularity": "Patches sobre imagens Sentinel-2 de aproximadamente 480 m de lado, com confiança do modelo, período de primeira confirmação e estado confirmado ou provisório; máscaras de cicatriz a 10 m",
     "geoUnit": "Localização detectada na Bacia Amazônica, agregável por país, unidade de conservação e território indígena",
@@ -9864,7 +9864,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Relatório HTML navegável, tabelas e gráficos incorporados, PDF e links para fontes estatísticas originais",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Anos de referência variam por indicador; a edição compara séries e fotografias recentes, em geral até 2023–2025, conforme disponibilidade nacional",
     "granularity": "Indicador agregado por país, ano e recortes como sexo, idade ou tipo de serviço quando disponíveis; algumas tabelas derivam de surveys institucionais específicos",
     "geoUnit": "Países da América Latina e Caribe; não oferece desagregação municipal ou por estabelecimento",
@@ -9898,7 +9898,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Painel interativo com gráficos e download de dados para os principais indicadores; relatório e metodologia em HTML/PDF",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Mais de uma década de levantamentos até a edição 2026; a extensão histórica varia conforme mercado e indicador",
     "granularity": "Respostas de survey agregadas por mercado, ano, perfil demográfico e indicador disponível no painel",
     "geoUnit": "País/mercado; recortes sociodemográficos variam por indicador e amostra",
@@ -9931,7 +9931,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Arquivos estruturados CSV, JSON, XML conforme recurso e API documentada; dicionário ODT",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Série e extensão histórica variam por arquivo; recursos publicados/atualizados em 02/10/2026",
     "granularity": "Registro de amostra fora de padrão, parâmetro, responsável, período e localidade conforme dicionário",
     "geoUnit": "Brasil · município e local de abastecimento conforme campos disponíveis",
@@ -9965,7 +9965,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV, JSON, XML e API conforme recurso/ano; dicionário de dados ODT",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Séries anuais disponíveis ao menos desde 2014; recursos de 2025 e 2026 atualizados em 02/10/2026",
     "granularity": "Registro de análise por parâmetro, amostra, forma de abastecimento, localidade e período conforme dicionário",
     "geoUnit": "Brasil · municípios e formas de abastecimento; recortes adicionais dependem dos campos da base",
@@ -10000,7 +10000,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Consulta oficial por mapa, painel e planilha de outorgas; ArcGIS REST geoespacial indisponível na última auditoria.",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Período de cobertura não confirmado para esta camada alternativa; conferir datas e completude dos registros antes da análise",
     "granularity": "Registro individual de outorga, uso e localização; campos específicos conforme metadados da camada",
     "geoUnit": "Brasil; pontos/registros georreferenciados das outorgas federais, com possibilidade de recorte por estado e bacia",
@@ -10035,7 +10035,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV por subsetor e país, arquivos de confiança e propriedade, GeoPackage, Google BigQuery, API REST beta e pacote Python climate-trace-tools",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Versão 5.11.0 publicada em 24/09/2026, com dados mensais até julho de 2026; a extensão histórica e a granularidade temporal variam por setor e fonte",
     "granularity": "Fonte emissora individual ou agregada, país, setor, subsetor, gás e período; há geometrias e arquivos de maior resolução apenas para parte dos setores",
     "geoUnit": "Global, país, recortes subnacionais e urbanos, fonte/facilidade e geometrias setoriais selecionadas",
@@ -10069,7 +10069,7 @@ window.RADAR_PARTS.datasets=[
     "format": "GeoParquet em Amazon S3 e Microsoft Azure Blob Storage; consulta por DuckDB, Python CLI, Spark/Sedona e integração com ArcGIS/QGIS",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Fotografia mensal corrente; versão consultada 2026-09-23.1. Os arquivos completos das duas versões mais recentes ficam disponíveis nos buckets, enquanto notas e changelogs permanecem publicados",
     "granularity": "Feição individual de edifício ou parte de edifício, com geometria, atributos do esquema e GERS ID para edifícios",
     "geoUnit": "Geometria individual de edificação em cobertura mundial",
@@ -10104,7 +10104,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Painel Power BI / dicionário de dados em PDF / catálogo CKAN",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Desde 05/01/2024, conforme metadados do catálogo; atualização mais recente registrada no portal em 27/07/2026",
     "granularity": "Indicadores consolidados por município, com recortes e medidas definidos no dicionário do painel",
     "geoUnit": "Brasil, UF e município",
@@ -10138,7 +10138,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Catálogo web / APIs REST / JSON e documentação específica conforme serviço",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Corrente; histórico e data de atualização variam por API catalogada",
     "granularity": "API, sistema, órgão cedente, esfera, endpoint e operação; granularidade dos dados varia por serviço",
     "geoUnit": "Brasil; federal e, em alguns serviços, estadual e municipal",
@@ -10172,7 +10172,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV / JSON / FollowTheMoney / API",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Cobertura histórica e corrente conforme registros de PEP e atualizações da fonte-base",
     "granularity": "pessoa, cargo/posição, vínculos e entidades relacionadas conforme o modelo FollowTheMoney",
     "geoUnit": "Brasil; pessoa e posição pública, com atributos territoriais conforme a fonte",
@@ -10207,7 +10207,7 @@ window.RADAR_PARTS.datasets=[
     "format": "API REST / JSON / CSV / OCDS",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Histórico e período corrente variam por módulo; documentação da API versão 2.0 publicada em 2026",
     "granularity": "item de material/serviço, processo de compra, fornecedor, contrato, preço praticado e release OCDS conforme endpoint",
     "geoUnit": "Brasil; órgão, unidade compradora e localização conforme módulo",
@@ -10241,7 +10241,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Páginas de dados abertos / arquivos estruturados conforme subbase",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Varia conforme o conjunto e a competência publicada pela Receita Federal",
     "granularity": "pessoa jurídica, regime/benefício, tributo ou operação de importação conforme o conjunto",
     "geoUnit": "Brasil; identificação empresarial e recortes disponíveis variam por arquivo",
@@ -10274,7 +10274,7 @@ window.RADAR_PARTS.datasets=[
     "format": "APIs / JSON / CSV / modelos de dados",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Séries e períodos variam por módulo e instrumento; ambiente atual de APIs lançado em 2026",
     "granularity": "emenda, programa, parceria, instrumento, pagamento, execução, plano de ação ou TED conforme módulo",
     "geoUnit": "Brasil; União, UF, município, órgão, beneficiário e localidade conforme módulo",
@@ -10307,7 +10307,7 @@ window.RADAR_PARTS.datasets=[
     "format": "API / JSON / modelo de dados",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Cadastro corrente e histórico disponível conforme registros dos projetos no Obrasgov.br",
     "granularity": "projeto de investimento/obra, execução física, financeira e situação",
     "geoUnit": "Brasil; projeto georreferenciado, UF e município conforme registro",
@@ -10340,7 +10340,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Painel interativo / bases de dados / relatório / nota metodológica / guia",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Varia conforme a DIRBI e os indicadores disponibilizados na plataforma",
     "granularity": "declarações e desonerações tributárias agregadas e cruzamentos setoriais/municipais conforme arquivos publicados",
     "geoUnit": "Brasil; recortes municipais e setoriais conforme as bases auxiliares",
@@ -10374,7 +10374,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Portal web / downloads / JSON via API",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Varia por conjunto e indicador",
     "granularity": "indicador, país/economia, período e desagregações disponíveis por sexo, idade, emprego, localização, renda, educação e outras dimensões conforme a fonte",
     "geoUnit": "Global; país/economia, região e recortes subnacionais quando fornecidos pelo conjunto original",
@@ -10406,7 +10406,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV / XML / JSON; inclui recursos de termos, itens, coordenadas, anexos, decisões judiciais, enquadramento e histórico",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "todos os termos de embargo registrados no sistema de fiscalização, conforme metadados oficiais",
     "granularity": "termo de embargo, item embargado, coordenadas/polígonos, anexos, decisões judiciais e histórico de alterações",
     "geoUnit": "Brasil; UF, município, imóvel/área e coordenadas geográficas quando informadas",
@@ -10438,7 +10438,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV compactado, diretórios de arquivos e documentação do portal",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "histórico varia por conjunto; portal registra mudanças e descontinuações de arquivos",
     "granularity": "companhia, fundo, documento, informe, oferta, processo ou participante conforme conjunto",
     "geoUnit": "Brasil; CNPJ, emissor, administrador, gestor e demais identificadores regulatórios conforme arquivo",
@@ -10469,7 +10469,7 @@ window.RADAR_PARTS.datasets=[
     "format": "HTML / CSV / JSON / OData / API, conforme recurso",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "período varia por série; algumas séries históricas começam nos anos 1980",
     "granularity": "série temporal por código SGS ou conjunto estatístico, com data/período e valor agregado",
     "geoUnit": "Brasil; recortes territoriais quando previstos no conjunto",
@@ -10501,7 +10501,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV, API, recursos em dados.gov.br e painéis relacionados, conforme conjunto",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "séries variáveis; inclui indicadores PPA e bases setoriais publicadas pela Anatel",
     "granularity": "município, prestadora, tecnologia, indicador, período ou unidade técnica conforme base específica",
     "geoUnit": "Brasil; UF, município e recortes setoriais quando disponíveis",
@@ -10532,7 +10532,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV e metadados",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "cadastro operacional vigente na data de extração publicada",
     "granularity": "estabelecimento revendedor, com identificação cadastral, endereço, município/UF, bandeira e situação conforme metadados",
     "geoUnit": "Brasil; endereço, município e UF do revendedor",
@@ -10563,7 +10563,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "série histórica publicada pela ANP; arquivos de 2026 agrupados mensalmente na página oficial",
     "granularity": "coleta de preço por produto, estabelecimento/município e data da pesquisa conforme arquivo",
     "geoUnit": "Brasil; UF e município conforme pesquisa; estabelecimento quando disponível no arquivo",
@@ -10594,7 +10594,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV codificado em UTF-8 e relatórios oficiais",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Disque 100 com microdados entre 2011 e 2026 na página oficial; Ligue 180 em dados e relatórios oficiais da ONDH",
     "granularity": "denúncia ou registro agregado conforme arquivo, com categorias de violação, perfil, localização declarada e canal quando disponível",
     "geoUnit": "Brasil; UF/município quando informado e preservado no arquivo",
@@ -10625,7 +10625,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV para download; API REST do Portal da Transparência",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "registros vigentes e históricos conforme CEIS/CNEP e origem informada",
     "granularity": "sanção por pessoa física ou jurídica, órgão/entidade sancionador, fundamento, datas, abrangência e situação conforme campos oficiais",
     "geoUnit": "Brasil; órgão sancionador e ente federativo conforme cadastro",
@@ -10656,7 +10656,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "série aberta na página oficial de dados de ouvidoria",
     "granularity": "manifestação, com datas, perfil declarado, município/UF do manifestante e da manifestação, órgão, assunto, prazo, situação, serviço e satisfação quando informados",
     "geoUnit": "Brasil; UF e município do manifestante, da manifestação e do órgão quando disponíveis",
@@ -10687,7 +10687,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV e XML compactados; notebook oficial em Python para download automatizado",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "desde 2012 para pedidos e recursos/reclamações, conforme arquivos oficiais",
     "granularity": "pedido ou recurso, com protocolo, órgão, esfera, datas, assunto, decisão e campos de resposta quando disponíveis",
     "geoUnit": "Brasil; UF e município quando informados no registro",
@@ -10719,7 +10719,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV / Shapefile / PDF / API GraphQL",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "desde janeiro de 2019; ano corrente parcial",
     "granularity": "polígono de alerta validado, imagens e laudo; cruzamentos territoriais",
     "geoUnit": "Brasil; bioma, estado, município, imóvel rural e territórios conforme consulta",
@@ -10751,7 +10751,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Base para download / painéis interativos",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "séries anuais; intervalo varia por setor, território e coleção",
     "granularity": "ano, território, setor, atividade e gás conforme coleção",
     "geoUnit": "Brasil; UF e município conforme estimativa disponível",
@@ -10790,7 +10790,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Painel interativo / índice com fontes",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://jindex.ai/",
     "discoveredVia": [
       "Reuters Institute"
@@ -10822,7 +10822,7 @@ window.RADAR_PARTS.datasets=[
     "format": "API REST / CSV / JSON / XML / XLSX / ODS",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://dadosabertos.camara.leg.br/swagger/api.html",
     "discoveryUrl": "https://newsletter.ctrlz.org.br/p/o-seu-candidato-e-da-bancada-das"
   },
@@ -10850,7 +10850,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Catálogo / downloads / API em alguns conjuntos",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://data.humdata.org/",
     "discoveredVia": [
       "Quantum of Sollazzo"
@@ -10880,7 +10880,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Portal / dados abertos / downloads",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://transparencia.salvador.ba.gov.br/",
     "limitations": "Portal de consulta, não uma base única: conferir período, filtros, unidade de análise e data de atualização em cada módulo antes de exportar ou cruzar registros. A tentativa de acesso de 23/10/2026 não foi concluída; a disponibilidade atual e os recursos de exportação permanecem sem confirmação nesta revisão."
   },
@@ -10909,7 +10909,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Painéis e relatórios interativos",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://sistemas.educacao.salvador.ba.gov.br/relatorios/inicio"
   },
   {
@@ -10936,7 +10936,7 @@ window.RADAR_PARTS.datasets=[
     "format": "BI / mapa",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://www2.sefaz.salvador.ba.gov.br/servico/geo-negocios"
   },
   {
@@ -10964,7 +10964,7 @@ window.RADAR_PARTS.datasets=[
     "format": "ArcGIS REST / JSON / GeoJSON / PBF",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://map.geo.sei.ba.gov.br/arcgis/rest/services"
   },
   {
@@ -10992,7 +10992,7 @@ window.RADAR_PARTS.datasets=[
     "format": "FeatureServer / JSON",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://map.geo.sei.ba.gov.br/arcgis/rest/services/servicos_sei/REGIONALIZACAO_VIGENTE/FeatureServer"
   },
   {
@@ -11019,7 +11019,7 @@ window.RADAR_PARTS.datasets=[
     "format": "MapServer / JSON / GeoJSON / PBF",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://map.geo.sei.ba.gov.br/arcgis/rest/services/servicos_sei/LOCALIDADE_BAHIA/MapServer"
   },
   {
@@ -11046,7 +11046,7 @@ window.RADAR_PARTS.datasets=[
     "format": "FeatureServer / JSON / GeoJSON / PBF",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://map.geo.sei.ba.gov.br/arcgis/rest/services/servicos_sei/DPA_A_100K_VIGENTE_GCS_SIR_SEI/FeatureServer/0"
   },
   {
@@ -11072,7 +11072,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CKAN / múltiplos formatos",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://dados.ba.gov.br/"
   },
   {
@@ -11098,7 +11098,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Portal / painéis",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://www.transparencia.ba.gov.br/Portal",
     "limitations": "Os módulos têm coberturas e datas de atualização próprias. Registrar filtros, período e estágio da despesa; não somar valores de empenho, liquidação e pagamento como se fossem despesas distintas. A tentativa de acesso direto de 23/10/2026 não foi concluída; conferir o módulo e sua atualização antes da análise."
   },
@@ -11126,7 +11126,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Publicações / arquivos de dados",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://www.ba.gov.br/ssp/publicacoes"
   },
   {
@@ -11152,7 +11152,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Portal / dados abertos",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://www.ba.gov.br/ssp/dados-abertos"
   },
   {
@@ -11176,7 +11176,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV/API",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://dadosabertos.aneel.gov.br/",
     "limitations": "O catálogo reúne conjuntos distintos, inclusive recursos descontinuados. Conferir o dicionário, a data de geração, a cobertura e os identificadores do recurso selecionado antes de combinar arquivos. A existência de um conjunto ou autorização não comprova operação efetiva, consumo de energia ou conexão de um empreendimento específico."
   },
@@ -11201,7 +11201,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV/API",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://dados.ons.org.br/"
   },
   {
@@ -11221,7 +11221,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV / XLSX / Parquet / JSON (dicionário)",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://dados.ons.org.br/dataset/restricao_coff_fotovoltaica",
     "period": "recursos mensais; série histórica conforme arquivos publicados",
     "granularity": "restrição de operação em patamares semi-horários",
@@ -11248,7 +11248,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV / XLSX / Parquet / JSON (dicionário)",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://dados.ons.org.br/dataset/restricao_coff_fotovoltaica_detail",
     "period": "recursos mensais; inclui competências de 2026",
     "granularity": "restrição de operação detalhada por usina",
@@ -11279,7 +11279,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV/Sistemas",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://datasus.saude.gov.br/"
   },
   {
@@ -11304,7 +11304,7 @@ window.RADAR_PARTS.datasets=[
     "format": "API/Tabelas",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://sidra.ibge.gov.br/"
   },
   {
@@ -11328,7 +11328,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Múltiplos",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://dados.gov.br/"
   },
   {
@@ -11353,7 +11353,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Portal/API",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://portaldatransparencia.gov.br/"
   },
   {
@@ -11379,7 +11379,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV / JSON / XML / API",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://dadosabertos.saude.gov.br/dataset/ouvidorsus"
   },
   {
@@ -11405,7 +11405,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Dados abertos / API",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://dadosabertos.saude.gov.br/dataset/cnes-cadastro-nacional-de-estabelecimentos-de-saude"
   },
   {
@@ -11432,7 +11432,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Dados abertos",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://dadosabertos.saude.gov.br/dataset/sisagua-pontos-de-captacao"
   },
   {
@@ -11458,7 +11458,7 @@ window.RADAR_PARTS.datasets=[
     "format": "ZIP / Parquet",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://dadosabertos.aneel.gov.br/dataset/ocorrencias-emergenciais-nas-redes-de-distribuicao"
   },
   {
@@ -11513,7 +11513,7 @@ window.RADAR_PARTS.datasets=[
     "format": "BigQuery / CSV / Python / R",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://basedosdados.org/"
   },
   {
@@ -11541,7 +11541,7 @@ window.RADAR_PARTS.datasets=[
     "format": "BigQuery / SQL / Python / R / CSV em tabelas compatíveis",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://basedosdados.org/dataset/dae21af4-4b6a-42f4-b94a-4c2061ea9de5"
   },
   {
@@ -11569,7 +11569,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Catálogo interativo / exportação",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://basedosdados.org/dataset/c320e0ad-7551-4c01-8bbd-39a59b1c4914"
   },
   {
@@ -11597,7 +11597,7 @@ window.RADAR_PARTS.datasets=[
     "format": "SIGweb / serviços geoespaciais",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://www.ba.gov.br/inema/servicos/dados-geoespaciais"
   },
   {
@@ -11624,7 +11624,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Sistema / atos / formulários",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://www.ba.gov.br/inema/atende/outorga"
   },
   {
@@ -11651,7 +11651,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Sistema web / documentos",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://sistema.seia.ba.gov.br/"
   },
   {
@@ -11678,7 +11678,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Dados abertos / múltiplos formatos",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://www.tcm.ba.gov.br/dados-abertos/"
   },
   {
@@ -11705,7 +11705,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Portal / consultas",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://www.tce.ba.gov.br/"
   },
   {
@@ -11732,7 +11732,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Painéis / sistemas / arquivos",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://www.saude.ba.gov.br/suvisa/vigilancia-epidemiologica/"
   },
   {
@@ -11759,7 +11759,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Arquivos de microdados / documentação",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados"
   },
   {
@@ -11786,7 +11786,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Portal / API / dados estruturados",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://www.gov.br/pncp/pt-br"
   },
   {
@@ -11813,7 +11813,7 @@ window.RADAR_PARTS.datasets=[
     "format": "API / CSV / consultas",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://siconfi.tesouro.gov.br/"
   },
   {
@@ -11840,7 +11840,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Sistema / downloads / serviços",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://www.snirh.gov.br/hidroweb/"
   },
   {
@@ -11866,7 +11866,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Sistema / cadastro",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://www.gov.br/ana/pt-br/assuntos/regulacao-e-fiscalizacao/cadastro-nacional-de-usuarios-recursos-hidricos-cnarh"
   },
   {
@@ -11893,7 +11893,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Sistema web / consultas",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://comprasnet.ba.gov.br/"
   },
   {
@@ -11920,7 +11920,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Portal / consultas / documentos",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://transparencia.salvador.ba.gov.br/"
   },
   {
@@ -11947,7 +11947,7 @@ window.RADAR_PARTS.datasets=[
     "format": "SHP / GeoPackage / serviços / tabelas",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://www.ibge.gov.br/geociencias/downloads-geociencias.html"
   },
   {
@@ -11974,7 +11974,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Microdados / CSV / documentação",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/censo-escolar"
   },
   {
@@ -12002,7 +12002,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Painel interativo / CSV / Excel / PDF",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://sigeduc.educacao.ba.gov.br/sigeduc/public/transparencia/pages/consulta/relatorio_escolas/relEscolasEtapaModalidadeAnalitico.jsf"
   },
   {
@@ -12029,7 +12029,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV / JSON / XML / API",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://dadosabertos.saude.gov.br/dataset/sistema-de-informacao-sobre-nascidos-vivos-sinasc"
   },
   {
@@ -12056,7 +12056,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV / arquivos abertos / dicionário",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://dadosabertos.saude.gov.br/dataset/sim"
   },
   {
@@ -12084,7 +12084,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Mapas / serviços / dados geográficos",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://www.salvador.ba.gov.br/"
   },
   {
@@ -12111,7 +12111,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV / dados abertos",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://dadosabertos.tse.jus.br/"
   },
   {
@@ -12138,7 +12138,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Microdados / tabelas",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/estatisticas-trabalho/rais"
   },
   {
@@ -12165,7 +12165,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Arquivos / tabelas / painéis",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/estatisticas-trabalho/novo-caged"
   },
   {
@@ -12193,7 +12193,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Ortoimagens / vetores / web services",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://www2.sefaz.salvador.ba.gov.br/"
   },
   {
@@ -12221,7 +12221,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Sistema cadastral / consultas",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://www2.sefaz.salvador.ba.gov.br/servico/consulta-cib-cadastro-imobiliario-brasileiro"
   },
   {
@@ -12247,7 +12247,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Sistema / declarações / registros administrativos",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "limitations": "Limitações não informadas pela fonte oficial nesta ficha; a ficha não confirma série pública estruturada nem API; confirme cobertura e restrições cadastrais antes do uso.",
     "url": "https://www2.sefaz.salvador.ba.gov.br/servicos"
   },
@@ -12275,7 +12275,7 @@ window.RADAR_PARTS.datasets=[
     "format": "ZIP / dados estruturados",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://dados.ba.gov.br/dataset/contratos"
   },
   {
@@ -12302,7 +12302,7 @@ window.RADAR_PARTS.datasets=[
     "format": "ZIP / dados estruturados",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://dados.ba.gov.br/dataset/licitacoes"
   },
   {
@@ -12329,7 +12329,7 @@ window.RADAR_PARTS.datasets=[
     "format": "ZIP / dados estruturados",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://dados.ba.gov.br/dataset/obras"
   },
   {
@@ -12356,7 +12356,7 @@ window.RADAR_PARTS.datasets=[
     "format": "JSON / dicionário PDF",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://dados.ba.gov.br/dataset/bens-imoveis"
   },
   {
@@ -12383,7 +12383,7 @@ window.RADAR_PARTS.datasets=[
     "format": "HTML / PDF / jornal",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://www.doe.ba.gov.br/"
   },
   {
@@ -12410,7 +12410,7 @@ window.RADAR_PARTS.datasets=[
     "format": "ZIP / dados estruturados",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://dados.ba.gov.br/dataset/pagamentos"
   },
   {
@@ -12437,7 +12437,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://dados.ba.gov.br/dataset/notas-fiscais"
   },
   {
@@ -12465,7 +12465,7 @@ window.RADAR_PARTS.datasets=[
     "format": "ZIP / dicionário de dados",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://dados.ba.gov.br/dataset/convenios-e-parcerias"
   },
   {
@@ -12492,7 +12492,7 @@ window.RADAR_PARTS.datasets=[
     "format": "TABNET / arquivos",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://datasus.saude.gov.br/acesso-a-informacao/producao-hospitalar-sih-sus/"
   },
   {
@@ -12520,7 +12520,7 @@ window.RADAR_PARTS.datasets=[
     "format": "TABNET / cadastro",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://datasus.saude.gov.br/cnes-recursos-fisicos/"
   },
   {
@@ -12547,7 +12547,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Painel / boletins / PDF",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://biobr.saude.ba.gov.br/static/obitomaterno.php"
   },
   {
@@ -12575,7 +12575,7 @@ window.RADAR_PARTS.datasets=[
     "format": "PDF / indicadores",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://www.saude.ba.gov.br/"
   },
   {
@@ -12602,7 +12602,7 @@ window.RADAR_PARTS.datasets=[
     "format": "TABNET / arquivos",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://datasus.saude.gov.br/acesso-a-informacao/producao-hospitalar-sih-sus/"
   },
   {
@@ -12629,7 +12629,7 @@ window.RADAR_PARTS.datasets=[
     "format": "TABNET / cadastro",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://datasus.saude.gov.br/cnes-recursos-humanos-a-partir-de-agosto-de-2007/"
   },
   {
@@ -12657,7 +12657,7 @@ window.RADAR_PARTS.datasets=[
     "format": "TABNET / cadastro",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://datasus.saude.gov.br/cnes-recursos-fisicos/"
   },
   {
@@ -12684,7 +12684,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Sistema / arquivos / tabela",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://wiki.datasus.gov.br/sigtap/index.php/P%C3%A1gina_principal"
   },
   {
@@ -12711,7 +12711,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Sistema / séries / mapas",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://www.snirh.gov.br/"
   },
   {
@@ -12738,7 +12738,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Sistema / mapas / dados",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://www.snirh.gov.br/"
   },
   {
@@ -12765,7 +12765,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Sistema / dados abertos / painel",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://dadosabertos.aneel.gov.br/dataset/siga-sistema-de-informacoes-de-geracao-da-aneel"
   },
   {
@@ -12793,7 +12793,7 @@ window.RADAR_PARTS.datasets=[
     "format": "GIS / serviços geográficos",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://sigel.aneel.gov.br/"
   },
   {
@@ -12820,7 +12820,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Sistema / consulta processual",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://www.ba.gov.br/inema/banner/consulta-de-processos"
   },
   {
@@ -12848,7 +12848,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Portarias / atos / PDF / consulta",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://www.ba.gov.br/inema/atende/outorga"
   },
   {
@@ -12875,7 +12875,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Formulários / documentos",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://www.ba.gov.br/inema/atende/formularios/outorga"
   },
   {
@@ -12902,7 +12902,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Índice / atos / PDF",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://www.ba.gov.br/inema/legislacao/normas-tecnicas-e-portarias"
   },
   {
@@ -12923,7 +12923,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Portarias / despachos / documentos oficiais",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://www.gov.br/aneel/pt-br",
     "docs": "ANEEL — orientação de consulta à legislação: https://www.gov.br/aneel/pt-br/centrais-de-conteudos/biblioteca ; MME — legislação: https://www.gov.br/mme/pt-br/acesso-a-informacao/legislacao",
     "limitations": "Ponto de entrada para localizar atos, não uma relação pronta de data centers. Pesquisar por empresa, empreendimento, processo e localidade; registrar número, órgão, data, objeto e eventuais alterações de cada ato. Uma autorização ou ato de transmissão não comprova implantação, operação, demanda efetiva ou conexão de um data center. Os atos específicos ainda precisam ser selecionados e conferidos.",
@@ -12948,7 +12948,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Publicações oficiais / páginas web",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://www.cbf.com.br/",
     "docs": "Publicações oficiais da CBF por evento; exemplo localizado: https://www.cbf.com.br/selecao-brasileira/noticias/selecao-feminina-principal/a/arthur-elias-apresenta-convocadas-para-amistosos-contra-eua-e-periodo-de-preparacao",
     "limitations": "Fonte para coleta manual por evento, não uma base histórica consolidada. Distinguir lista inicial, cortes, substituições e períodos de treino; preservar data, categoria e clube informado em cada publicação. Convocação não equivale a participação em partida. A referência oficial foi localizada em 23/10/2026, mas a leitura direta retornou erro; completude histórica e listas individuais ainda precisam de conferência.",
@@ -12973,7 +12973,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Códices / documentos arquivísticos",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://www.ba.gov.br/fpc/arquivo-publico-acervo",
     "docs": "APEB — apresentação do acervo e orientação de pesquisa em inventários, Guia de Fundos, AtoM e SICRO: https://www.ba.gov.br/fpc/arquivo-publico-acervo",
     "limitations": "A página descreve o acervo geral do APEB; esta referência não confirma um fundo ou série de aforamentos específico nem sua digitalização integral. Localizar fundo, série e código de referência antes de solicitar documentos; parte da pesquisa pode exigir consulta presencial. Não usar uma descrição arquivística como prova de titularidade, cobrança ou vigência de obrigação sobre um imóvel.",
@@ -13005,7 +13005,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV / PDF",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://dadosabertos.aneel.gov.br/dataset/sistema-de-gestao-da-transmissao-siget"
   },
   {
@@ -13034,7 +13034,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV / Parquet / PDF",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://dadosabertos.aneel.gov.br/dataset/samp"
   },
   {
@@ -13063,7 +13063,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Portal / planilhas / atos / documentos",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://www.ba.gov.br/sde/incentivos"
   },
   {
@@ -13092,7 +13092,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Relatórios / tabelas / pareceres",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://www.tce.ba.gov.br/controle-externo/contas-de-governo"
   },
   {
@@ -13121,7 +13121,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Consulta web por inscrição imobiliária",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://www2.sefaz.salvador.ba.gov.br/servico/ITIV"
   },
   {
@@ -13150,7 +13150,7 @@ window.RADAR_PARTS.datasets=[
     "format": "GPKG / SHP / KML / XLSX / ODS",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://www.ibge.gov.br/geociencias/organizacao-do-territorio/malhas-territoriais/26565-malhas-de-setores-censitarios-divisoes-intramunicipais.html"
   },
   {
@@ -13179,7 +13179,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV / XLSX / SIDRA",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://www.ibge.gov.br/estatisticas/sociais/populacao/22827-censo-demografico-2022.html?edicao=41852&t=resultados"
   },
   {
@@ -13208,7 +13208,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV / ZIP / dados geográficos",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://dadosabertos.aneel.gov.br/dataset/base-de-dados-geografica-da-distribuidora-bdgd"
   },
   {
@@ -13236,7 +13236,7 @@ window.RADAR_PARTS.datasets=[
     "format": "API REST / JSON",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://www.cnj.jus.br/sistemas/datajud/api-publica/"
   },
   {
@@ -13264,7 +13264,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CKAN / downloads / consulta pública",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://dadosabertos.ibama.gov.br/dataset/fiscalizacao-auto-de-infracao"
   },
   {
@@ -13293,7 +13293,7 @@ window.RADAR_PARTS.datasets=[
     "format": "SHP / GeoJSON / raster / serviços web / painéis",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://terrabrasilis.dpi.inpe.br/"
   },
   {
@@ -13323,7 +13323,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Planilhas / relatórios / painéis",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://www.gov.br/cidades/pt-br/acesso-a-informacao/acoes-e-programas/saneamento/sinisa"
   },
   {
@@ -13352,7 +13352,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Plataforma interativa / calendário",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://landscape.fifa.com/en/women/landscape"
   },
   {
@@ -13381,7 +13381,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Relatório / módulos temáticos",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://inside.fifa.com/womens-football/fifa-benchmarking-report"
   },
   {
@@ -13409,7 +13409,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Painel / microdados / listas",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://paineis.mds.gov.br/public/extensions/lei-de-incentivo-v2/lei-de-incentivo-v2.html"
   },
   {
@@ -13438,7 +13438,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Página institucional / documentos relacionados",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://www.cbf.com.br/futebol-brasileiro/noticias/competicoes-campeonato-brasileiro-feminino/a/com-copa-2027-no-horizonte-cbf-apresenta-panorama-do-futebol-feminino-no-brasil"
   },
   {
@@ -13466,7 +13466,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Portal / regulamentos / PDFs / documentos de partida",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://portaldegovernanca.cbf.com.br/"
   },
   {
@@ -13494,7 +13494,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Consulta pública / boletins",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://bid.cbf.com.br/"
   },
   {
@@ -13523,7 +13523,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Portal de pesquisa / páginas digitalizadas",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://bndigital.bn.gov.br/hemeroteca-digital/"
   },
   {
@@ -13551,7 +13551,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Sistema público de consulta",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://justicaaberta.cnj.jus.br/"
   },
   {
@@ -13579,7 +13579,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Serviços eletrônicos / certidões / visualização de matrícula",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://www.cnj.jus.br/sistemas/srei-2/"
   },
   {
@@ -13608,7 +13608,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV / XLSX / Parquet / JSON / PDF",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://dados.ons.org.br/dataset/restricao_coff_eolica_detail"
   },
   {
@@ -13637,7 +13637,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV / XLSX / Parquet / JSON / PDF",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://dados.ons.org.br/dataset/restricao_coff_fotovoltaica"
   },
   {
@@ -13664,7 +13664,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV / JSON / XML",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "limitations": "Limitações não informadas pela fonte oficial nesta ficha; confirme recursos, campos, anonimização, periodicidade e atualização antes do uso.",
     "url": "https://dadosabertos.saude.gov.br/dataset/plataforma_brasil"
   },
@@ -13692,7 +13692,7 @@ window.RADAR_PARTS.datasets=[
     "format": "PDF / matriz de cronograma",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://www.gov.br/saude/pt-br/acesso-a-informacao/dados-abertos/pda"
   },
   {
@@ -13720,7 +13720,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Arquivos estruturados / metadados / consulta individual",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/dados-abertos/cadastros"
   },
   {
@@ -13742,7 +13742,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Arquivo ZIP e dicionário de dados",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Fotografia cadastral do último dia útil; conjunto criado em junho de 2021",
     "granularity": "Plataforma de crowdfunding / participante regulado",
     "geoUnit": "Brasil; entidade cadastrada na CVM",
@@ -13775,7 +13775,7 @@ window.RADAR_PARTS.datasets=[
     "format": "Catálogo e recursos em formatos que variam por conjunto no dados.gov.br",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Varia por base e programa; consultar metadados do recurso específico",
     "granularity": "Varia por conjunto, incluindo programa, repasse, ente, escola ou beneficiário quando previsto",
     "geoUnit": "Brasil, UF, município, escola ou unidade administrativa, conforme o conjunto",
@@ -13810,7 +13810,7 @@ window.RADAR_PARTS.datasets=[
     "format": "JSON, API Swagger, navegador de dados e endpoint OData",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Desde 30/11/2020",
     "granularity": "Agregados mensais por recurso, município, região, perfil de usuário ou recebedor e participante do Pix",
     "geoUnit": "Brasil, região, município e participante do Pix, conforme o recurso",
@@ -13845,7 +13845,7 @@ window.RADAR_PARTS.datasets=[
     "format": "CSV, JSON, XML, ODS e API REST",
     "access": "Modalidade de acesso não confirmada nesta ficha; consulte a URL registrada e verifique autenticação, limites, disponibilidade e forma de extração no mantenedor.",
     "license": "Licença e condições de reutilização não informadas nesta ficha; confirme-as na documentação oficial antes do uso editorial.",
-    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade."
+    "update": "Atualização deve ser confirmada no mantenedor; a ficha preserva a frequência declarada quando disponível, mas não a trata como garantia de disponibilidade.",
     "period": "Em geral desde 2020 para receitas e despesas; varia nos demais conjuntos",
     "granularity": "Registros administrativos como empenho, pagamento, receita, processo licitatório, contrato, servidor, obra e ato",
     "geoUnit": "Município de Ararendá (CE), com detalhamento por secretaria, favorecido, contratado, servidor ou localização conforme a base",
