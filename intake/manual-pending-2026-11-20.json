@@ -1,0 +1,1210 @@
+{
+  "policy": "Revisão editorial assistida, com confirmação de identidade e limitações por recurso. Não aprova automaticamente outros recursos do mesmo domínio.",
+  "approved": [
+    {
+      "category": "datasets",
+      "record": {
+        "id": "manual-20261120-conectividade-na-educacao",
+        "name": "Conectividade na Educação",
+        "org": "NIC.br",
+        "territoryTier": "Brasil",
+        "kind": "system",
+        "themes": [
+          "Educação",
+          "Tecnologia"
+        ],
+        "coverage": "Base de dados: Indicadores e mapas de conectividade em escolas brasileiras, com metodologia própria de medição e contextualização educacional.",
+        "description": "Indicadores e mapas de conectividade em escolas brasileiras, com metodologia própria de medição e contextualização educacional.",
+        "url": "https://conectividadenaeducacao.nic.br",
+        "docs": "https://conectividadenaeducacao.nic.br",
+        "format": "Consulta web e documentação do mantenedor",
+        "period": "Conforme edições e períodos disponíveis no mantenedor",
+        "granularity": "Conforme variáveis e recortes disponíveis na fonte; consultar o dicionário antes de agregar",
+        "geoUnit": "Conforme cobertura descrita nesta ficha",
+        "limitations": "Medições disponíveis não equivalem à observação contínua de todas as escolas. Página oficial identificada e lida. A revisão confirma o acesso documentado; não certifica a integridade de todos os arquivos, a atualização de todas as edições ou a qualidade de todos os registros.",
+        "lastChecked": "2026-11-20",
+        "discoveryUrl": "https://govteca.com.br/f/conectividade-na-educacao",
+        "frequency": "Conforme atualização do mantenedor; frequência não confirmada nesta revisão"
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Codex — revisão assistida solicitada por Rachel",
+        "reviewedAt": "2026-11-20",
+        "officialUrl": "https://conectividadenaeducacao.nic.br",
+        "evidence": "Fonte primária conferida em 20/11/2026: Conectividade na Educação. Funcionalidade e conteúdo: Indicadores e mapas de conectividade em escolas brasileiras, com metodologia própria de medição e contextualização educacional.. Acesso e limitações: Medições disponíveis não equivalem à observação contínua de todas as escolas. Página oficial identificada e lida. A revisão confirma o acesso documentado; não certifica a integridade de todos os arquivos, a atualização de todas as edições ou a qualidade de todos os registros."
+      }
+    },
+    {
+      "category": "datasets",
+      "record": {
+        "id": "manual-20261120-inep-taxas-rendimento",
+        "name": "INEP · taxas de rendimento",
+        "org": "Inep",
+        "territoryTier": "Brasil",
+        "kind": "dataset",
+        "themes": [
+          "Educação"
+        ],
+        "coverage": "Base de dados: Taxas de Rendimento Escolar, série educacional organizada por edições na página oficial.",
+        "description": "Taxas de Rendimento Escolar, série educacional organizada por edições na página oficial.",
+        "url": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/indicadores-educacionais/taxas-de-rendimento-escolar",
+        "docs": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/indicadores-educacionais/taxas-de-rendimento-escolar",
+        "format": "Consulta web e documentação do mantenedor",
+        "period": "Conforme edições e períodos disponíveis no mantenedor",
+        "granularity": "Conforme variáveis e recortes disponíveis na fonte; consultar o dicionário antes de agregar",
+        "geoUnit": "Conforme cobertura descrita nesta ficha",
+        "limitations": "Página específica da série confirmada. Os seletores anuais são dinâmicos; downloads individuais não foram testados. Comparabilidade e denominadores dependem das notas técnicas de cada indicador.",
+        "lastChecked": "2026-11-20",
+        "discoveryUrl": "https://sabiadatalake.com.br/guaraci/docs.html#src-inep-taxas-rendimento",
+        "frequency": "Conforme atualização do mantenedor; frequência não confirmada nesta revisão"
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Codex — revisão assistida solicitada por Rachel",
+        "reviewedAt": "2026-11-20",
+        "officialUrl": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/indicadores-educacionais/taxas-de-rendimento-escolar",
+        "evidence": "Fonte primária conferida em 20/11/2026: Taxas de Rendimento Escolar — Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira | Inep. Funcionalidade e conteúdo: Taxas de Rendimento Escolar, série educacional organizada por edições na página oficial.. Acesso e limitações: Página específica da série confirmada. Os seletores anuais são dinâmicos; downloads individuais não foram testados. Comparabilidade e denominadores dependem das notas técnicas de cada indicador."
+      }
+    },
+    {
+      "category": "datasets",
+      "record": {
+        "id": "manual-20261120-inep-distorcao-idade-serie",
+        "name": "INEP · distorção idade-série",
+        "org": "Inep",
+        "territoryTier": "Brasil",
+        "kind": "dataset",
+        "themes": [
+          "Educação"
+        ],
+        "coverage": "Base de dados: Taxas de Distorção Idade-série, série educacional organizada por edições na página oficial.",
+        "description": "Taxas de Distorção Idade-série, série educacional organizada por edições na página oficial.",
+        "url": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/indicadores-educacionais/taxas-de-distorcao-idade-serie",
+        "docs": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/indicadores-educacionais/taxas-de-distorcao-idade-serie",
+        "format": "Consulta web e documentação do mantenedor",
+        "period": "Conforme edições e períodos disponíveis no mantenedor",
+        "granularity": "Conforme variáveis e recortes disponíveis na fonte; consultar o dicionário antes de agregar",
+        "geoUnit": "Conforme cobertura descrita nesta ficha",
+        "limitations": "Página específica da série confirmada. Os seletores anuais são dinâmicos; downloads individuais não foram testados. Comparabilidade e denominadores dependem das notas técnicas de cada indicador.",
+        "lastChecked": "2026-11-20",
+        "discoveryUrl": "https://sabiadatalake.com.br/guaraci/docs.html#src-inep-distorcao-idade-serie",
+        "frequency": "Conforme atualização do mantenedor; frequência não confirmada nesta revisão"
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Codex — revisão assistida solicitada por Rachel",
+        "reviewedAt": "2026-11-20",
+        "officialUrl": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/indicadores-educacionais/taxas-de-distorcao-idade-serie",
+        "evidence": "Fonte primária conferida em 20/11/2026: Taxas de Distorção Idade-série — Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira | Inep. Funcionalidade e conteúdo: Taxas de Distorção Idade-série, série educacional organizada por edições na página oficial.. Acesso e limitações: Página específica da série confirmada. Os seletores anuais são dinâmicos; downloads individuais não foram testados. Comparabilidade e denominadores dependem das notas técnicas de cada indicador."
+      }
+    },
+    {
+      "category": "datasets",
+      "record": {
+        "id": "manual-20261120-inep-adequacao-formacao-docente",
+        "name": "INEP · adequação da formação docente",
+        "org": "Inep",
+        "territoryTier": "Brasil",
+        "kind": "dataset",
+        "themes": [
+          "Educação"
+        ],
+        "coverage": "Base de dados: Adequação da Formação Docente, série educacional organizada por edições na página oficial.",
+        "description": "Adequação da Formação Docente, série educacional organizada por edições na página oficial.",
+        "url": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/indicadores-educacionais/adequacao-da-formacao-docente",
+        "docs": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/indicadores-educacionais/adequacao-da-formacao-docente",
+        "format": "Consulta web e documentação do mantenedor",
+        "period": "Conforme edições e períodos disponíveis no mantenedor",
+        "granularity": "Conforme variáveis e recortes disponíveis na fonte; consultar o dicionário antes de agregar",
+        "geoUnit": "Conforme cobertura descrita nesta ficha",
+        "limitations": "Página específica da série confirmada. Os seletores anuais são dinâmicos; downloads individuais não foram testados. Comparabilidade e denominadores dependem das notas técnicas de cada indicador.",
+        "lastChecked": "2026-11-20",
+        "discoveryUrl": "https://sabiadatalake.com.br/guaraci/docs.html#src-inep-adequacao-formacao-docente",
+        "frequency": "Conforme atualização do mantenedor; frequência não confirmada nesta revisão"
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Codex — revisão assistida solicitada por Rachel",
+        "reviewedAt": "2026-11-20",
+        "officialUrl": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/indicadores-educacionais/adequacao-da-formacao-docente",
+        "evidence": "Fonte primária conferida em 20/11/2026: Adequação da Formação Docente — Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira | Inep. Funcionalidade e conteúdo: Adequação da Formação Docente, série educacional organizada por edições na página oficial.. Acesso e limitações: Página específica da série confirmada. Os seletores anuais são dinâmicos; downloads individuais não foram testados. Comparabilidade e denominadores dependem das notas técnicas de cada indicador."
+      }
+    },
+    {
+      "category": "datasets",
+      "record": {
+        "id": "manual-20261120-inep-inse",
+        "name": "INEP · Indicador de Nível Socioeconômico (INSE)",
+        "org": "Inep",
+        "territoryTier": "Brasil",
+        "kind": "dataset",
+        "themes": [
+          "Educação"
+        ],
+        "coverage": "Base de dados: Nível Socioeconômico (Inse), série educacional organizada por edições na página oficial.",
+        "description": "Nível Socioeconômico (Inse), série educacional organizada por edições na página oficial.",
+        "url": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/indicadores-educacionais/nivel-socioeconomico",
+        "docs": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/indicadores-educacionais/nivel-socioeconomico",
+        "format": "Consulta web e documentação do mantenedor",
+        "period": "Conforme edições e períodos disponíveis no mantenedor",
+        "granularity": "Conforme variáveis e recortes disponíveis na fonte; consultar o dicionário antes de agregar",
+        "geoUnit": "Conforme cobertura descrita nesta ficha",
+        "limitations": "Página específica da série confirmada. Os seletores anuais são dinâmicos; downloads individuais não foram testados. Comparabilidade e denominadores dependem das notas técnicas de cada indicador.",
+        "lastChecked": "2026-11-20",
+        "discoveryUrl": "https://sabiadatalake.com.br/guaraci/docs.html#src-inep-inse",
+        "frequency": "Conforme atualização do mantenedor; frequência não confirmada nesta revisão"
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Codex — revisão assistida solicitada por Rachel",
+        "reviewedAt": "2026-11-20",
+        "officialUrl": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/indicadores-educacionais/nivel-socioeconomico",
+        "evidence": "Fonte primária conferida em 20/11/2026: Nível Socioeconômico (Inse) — Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira | Inep. Funcionalidade e conteúdo: Nível Socioeconômico (Inse), série educacional organizada por edições na página oficial.. Acesso e limitações: Página específica da série confirmada. Os seletores anuais são dinâmicos; downloads individuais não foram testados. Comparabilidade e denominadores dependem das notas técnicas de cada indicador."
+      }
+    },
+    {
+      "category": "datasets",
+      "record": {
+        "id": "manual-20261120-inep-esforco-docente",
+        "name": "INEP · esforço docente",
+        "org": "Inep",
+        "territoryTier": "Brasil",
+        "kind": "dataset",
+        "themes": [
+          "Educação"
+        ],
+        "coverage": "Base de dados: Esforço Docente, série educacional organizada por edições na página oficial.",
+        "description": "Esforço Docente, série educacional organizada por edições na página oficial.",
+        "url": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/indicadores-educacionais/esforco-docente",
+        "docs": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/indicadores-educacionais/esforco-docente",
+        "format": "Consulta web e documentação do mantenedor",
+        "period": "Conforme edições e períodos disponíveis no mantenedor",
+        "granularity": "Conforme variáveis e recortes disponíveis na fonte; consultar o dicionário antes de agregar",
+        "geoUnit": "Conforme cobertura descrita nesta ficha",
+        "limitations": "Página específica da série confirmada. Os seletores anuais são dinâmicos; downloads individuais não foram testados. Comparabilidade e denominadores dependem das notas técnicas de cada indicador.",
+        "lastChecked": "2026-11-20",
+        "discoveryUrl": "https://sabiadatalake.com.br/guaraci/docs.html#src-inep-esforco-docente",
+        "frequency": "Conforme atualização do mantenedor; frequência não confirmada nesta revisão"
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Codex — revisão assistida solicitada por Rachel",
+        "reviewedAt": "2026-11-20",
+        "officialUrl": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/indicadores-educacionais/esforco-docente",
+        "evidence": "Fonte primária conferida em 20/11/2026: Esforço Docente — Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira | Inep. Funcionalidade e conteúdo: Esforço Docente, série educacional organizada por edições na página oficial.. Acesso e limitações: Página específica da série confirmada. Os seletores anuais são dinâmicos; downloads individuais não foram testados. Comparabilidade e denominadores dependem das notas técnicas de cada indicador."
+      }
+    },
+    {
+      "category": "datasets",
+      "record": {
+        "id": "manual-20261120-inep-regularidade-docente",
+        "name": "INEP · regularidade do corpo docente",
+        "org": "Inep",
+        "territoryTier": "Brasil",
+        "kind": "dataset",
+        "themes": [
+          "Educação"
+        ],
+        "coverage": "Base de dados: Regularidade do Corpo Docente, série educacional organizada por edições na página oficial.",
+        "description": "Regularidade do Corpo Docente, série educacional organizada por edições na página oficial.",
+        "url": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/indicadores-educacionais/regularidade-do-corpo-docente",
+        "docs": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/indicadores-educacionais/regularidade-do-corpo-docente",
+        "format": "Consulta web e documentação do mantenedor",
+        "period": "Conforme edições e períodos disponíveis no mantenedor",
+        "granularity": "Conforme variáveis e recortes disponíveis na fonte; consultar o dicionário antes de agregar",
+        "geoUnit": "Conforme cobertura descrita nesta ficha",
+        "limitations": "Página específica da série confirmada. Os seletores anuais são dinâmicos; downloads individuais não foram testados. Comparabilidade e denominadores dependem das notas técnicas de cada indicador.",
+        "lastChecked": "2026-11-20",
+        "discoveryUrl": "https://sabiadatalake.com.br/guaraci/docs.html#src-inep-regularidade-docente",
+        "frequency": "Conforme atualização do mantenedor; frequência não confirmada nesta revisão"
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Codex — revisão assistida solicitada por Rachel",
+        "reviewedAt": "2026-11-20",
+        "officialUrl": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/indicadores-educacionais/regularidade-do-corpo-docente",
+        "evidence": "Fonte primária conferida em 20/11/2026: Regularidade do Corpo Docente — Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira | Inep. Funcionalidade e conteúdo: Regularidade do Corpo Docente, série educacional organizada por edições na página oficial.. Acesso e limitações: Página específica da série confirmada. Os seletores anuais são dinâmicos; downloads individuais não foram testados. Comparabilidade e denominadores dependem das notas técnicas de cada indicador."
+      }
+    },
+    {
+      "category": "datasets",
+      "record": {
+        "id": "manual-20261120-inep-complexidade-gestao",
+        "name": "INEP · complexidade de gestão da escola",
+        "org": "Inep",
+        "territoryTier": "Brasil",
+        "kind": "dataset",
+        "themes": [
+          "Educação"
+        ],
+        "coverage": "Base de dados: Complexidade de Gestão da Escola, série educacional organizada por edições na página oficial.",
+        "description": "Complexidade de Gestão da Escola, série educacional organizada por edições na página oficial.",
+        "url": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/indicadores-educacionais/complexidade-de-gestao-da-escola",
+        "docs": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/indicadores-educacionais/complexidade-de-gestao-da-escola",
+        "format": "Consulta web e documentação do mantenedor",
+        "period": "Conforme edições e períodos disponíveis no mantenedor",
+        "granularity": "Conforme variáveis e recortes disponíveis na fonte; consultar o dicionário antes de agregar",
+        "geoUnit": "Conforme cobertura descrita nesta ficha",
+        "limitations": "Página específica da série confirmada. Os seletores anuais são dinâmicos; downloads individuais não foram testados. Comparabilidade e denominadores dependem das notas técnicas de cada indicador.",
+        "lastChecked": "2026-11-20",
+        "discoveryUrl": "https://sabiadatalake.com.br/guaraci/docs.html#src-inep-complexidade-gestao",
+        "frequency": "Conforme atualização do mantenedor; frequência não confirmada nesta revisão"
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Codex — revisão assistida solicitada por Rachel",
+        "reviewedAt": "2026-11-20",
+        "officialUrl": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/indicadores-educacionais/complexidade-de-gestao-da-escola",
+        "evidence": "Fonte primária conferida em 20/11/2026: Complexidade de Gestão da Escola — Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira | Inep. Funcionalidade e conteúdo: Complexidade de Gestão da Escola, série educacional organizada por edições na página oficial.. Acesso e limitações: Página específica da série confirmada. Os seletores anuais são dinâmicos; downloads individuais não foram testados. Comparabilidade e denominadores dependem das notas técnicas de cada indicador."
+      }
+    },
+    {
+      "category": "datasets",
+      "record": {
+        "id": "manual-20261120-inep-alunos-por-turma",
+        "name": "INEP · alunos por turma",
+        "org": "Inep",
+        "territoryTier": "Brasil",
+        "kind": "dataset",
+        "themes": [
+          "Educação"
+        ],
+        "coverage": "Base de dados: Média de Alunos por Turma, série educacional organizada por edições na página oficial.",
+        "description": "Média de Alunos por Turma, série educacional organizada por edições na página oficial.",
+        "url": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/indicadores-educacionais/media-de-alunos-por-turma",
+        "docs": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/indicadores-educacionais/media-de-alunos-por-turma",
+        "format": "Consulta web e documentação do mantenedor",
+        "period": "Conforme edições e períodos disponíveis no mantenedor",
+        "granularity": "Conforme variáveis e recortes disponíveis na fonte; consultar o dicionário antes de agregar",
+        "geoUnit": "Conforme cobertura descrita nesta ficha",
+        "limitations": "Página específica da série confirmada. Os seletores anuais são dinâmicos; downloads individuais não foram testados. Comparabilidade e denominadores dependem das notas técnicas de cada indicador.",
+        "lastChecked": "2026-11-20",
+        "discoveryUrl": "https://sabiadatalake.com.br/guaraci/docs.html#src-inep-alunos-por-turma",
+        "frequency": "Conforme atualização do mantenedor; frequência não confirmada nesta revisão"
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Codex — revisão assistida solicitada por Rachel",
+        "reviewedAt": "2026-11-20",
+        "officialUrl": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/indicadores-educacionais/media-de-alunos-por-turma",
+        "evidence": "Fonte primária conferida em 20/11/2026: Média de Alunos por Turma — Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira | Inep. Funcionalidade e conteúdo: Média de Alunos por Turma, série educacional organizada por edições na página oficial.. Acesso e limitações: Página específica da série confirmada. Os seletores anuais são dinâmicos; downloads individuais não foram testados. Comparabilidade e denominadores dependem das notas técnicas de cada indicador."
+      }
+    },
+    {
+      "category": "datasets",
+      "record": {
+        "id": "manual-20261120-inep-horas-aula",
+        "name": "INEP · horas-aula diárias",
+        "org": "Inep",
+        "territoryTier": "Brasil",
+        "kind": "dataset",
+        "themes": [
+          "Educação"
+        ],
+        "coverage": "Base de dados: Média de Horas-aula diária, série educacional organizada por edições na página oficial.",
+        "description": "Média de Horas-aula diária, série educacional organizada por edições na página oficial.",
+        "url": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/indicadores-educacionais/media-de-horas-aula-diaria",
+        "docs": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/indicadores-educacionais/media-de-horas-aula-diaria",
+        "format": "Consulta web e documentação do mantenedor",
+        "period": "Conforme edições e períodos disponíveis no mantenedor",
+        "granularity": "Conforme variáveis e recortes disponíveis na fonte; consultar o dicionário antes de agregar",
+        "geoUnit": "Conforme cobertura descrita nesta ficha",
+        "limitations": "Página específica da série confirmada. Os seletores anuais são dinâmicos; downloads individuais não foram testados. Comparabilidade e denominadores dependem das notas técnicas de cada indicador.",
+        "lastChecked": "2026-11-20",
+        "discoveryUrl": "https://sabiadatalake.com.br/guaraci/docs.html#src-inep-horas-aula",
+        "frequency": "Conforme atualização do mantenedor; frequência não confirmada nesta revisão"
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Codex — revisão assistida solicitada por Rachel",
+        "reviewedAt": "2026-11-20",
+        "officialUrl": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/indicadores-educacionais/media-de-horas-aula-diaria",
+        "evidence": "Fonte primária conferida em 20/11/2026: Média de Horas-aula diária — Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira | Inep. Funcionalidade e conteúdo: Média de Horas-aula diária, série educacional organizada por edições na página oficial.. Acesso e limitações: Página específica da série confirmada. Os seletores anuais são dinâmicos; downloads individuais não foram testados. Comparabilidade e denominadores dependem das notas técnicas de cada indicador."
+      }
+    },
+    {
+      "category": "datasets",
+      "record": {
+        "id": "manual-20261120-inep-docentes-curso-superior",
+        "name": "INEP · docentes com curso superior",
+        "org": "Inep",
+        "territoryTier": "Brasil",
+        "kind": "dataset",
+        "themes": [
+          "Educação"
+        ],
+        "coverage": "Base de dados: Percentual de Docentes com Curso Superior, série educacional organizada por edições na página oficial.",
+        "description": "Percentual de Docentes com Curso Superior, série educacional organizada por edições na página oficial.",
+        "url": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/indicadores-educacionais/percentual-de-docentes-com-curso-superior",
+        "docs": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/indicadores-educacionais/percentual-de-docentes-com-curso-superior",
+        "format": "Consulta web e documentação do mantenedor",
+        "period": "Conforme edições e períodos disponíveis no mantenedor",
+        "granularity": "Conforme variáveis e recortes disponíveis na fonte; consultar o dicionário antes de agregar",
+        "geoUnit": "Conforme cobertura descrita nesta ficha",
+        "limitations": "Página específica da série confirmada. Os seletores anuais são dinâmicos; downloads individuais não foram testados. Comparabilidade e denominadores dependem das notas técnicas de cada indicador.",
+        "lastChecked": "2026-11-20",
+        "discoveryUrl": "https://sabiadatalake.com.br/guaraci/docs.html#src-inep-docentes-curso-superior",
+        "frequency": "Conforme atualização do mantenedor; frequência não confirmada nesta revisão"
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Codex — revisão assistida solicitada por Rachel",
+        "reviewedAt": "2026-11-20",
+        "officialUrl": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/indicadores-educacionais/percentual-de-docentes-com-curso-superior",
+        "evidence": "Fonte primária conferida em 20/11/2026: Percentual de Docentes com Curso Superior — Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira | Inep. Funcionalidade e conteúdo: Percentual de Docentes com Curso Superior, série educacional organizada por edições na página oficial.. Acesso e limitações: Página específica da série confirmada. Os seletores anuais são dinâmicos; downloads individuais não foram testados. Comparabilidade e denominadores dependem das notas técnicas de cada indicador."
+      }
+    },
+    {
+      "category": "datasets",
+      "record": {
+        "id": "manual-20261120-atencao-primaria-pmmb-relatorio-historico-cadastro-cnes",
+        "name": "PMMB, histórico de cadastro no CNES",
+        "org": "Ministério da Saúde",
+        "territoryTier": "Brasil",
+        "kind": "dataset",
+        "themes": [
+          "Saúde"
+        ],
+        "coverage": "Base de dados: API do Ministério da Saúde para PMMB, histórico de cadastro no CNES. A resposta consultada apresentou 100 registros; campos estruturais incluem co_ibge, regiao, cnes, uf, municipio, ine.",
+        "description": "API do Ministério da Saúde para PMMB, histórico de cadastro no CNES. A resposta consultada apresentou 100 registros; campos estruturais incluem co_ibge, regiao, cnes, uf, municipio, ine.",
+        "url": "https://apidadosabertos.saude.gov.br/atencao-primaria/pmmb-relatorio-historico-cadastro-cnes",
+        "docs": "https://apidadosabertos.saude.gov.br/atencao-primaria/pmmb-relatorio-historico-cadastro-cnes",
+        "format": "API JSON",
+        "period": "Conforme edições e períodos disponíveis no mantenedor",
+        "granularity": "Conforme variáveis e recortes disponíveis na fonte; consultar o dicionário antes de agregar",
+        "geoUnit": "Conforme cobertura descrita nesta ficha",
+        "limitations": "Amostra de uma resposta, sem comprovação de extração integral ou atualização contínua; verificar paginação, filtros e dicionário. Nenhum valor individual foi incluído no relatório. A API contém campo nominal de profissional; aplicar minimização de dados pessoais.",
+        "lastChecked": "2026-11-20",
+        "discoveryUrl": "https://sabiadatalake.com.br/guaraci/docs.html#src-atencao-primaria-pmmb-relatorio-historico-cadastro-cnes",
+        "frequency": "Conforme atualização do mantenedor; frequência não confirmada nesta revisão"
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Codex — revisão assistida solicitada por Rachel",
+        "reviewedAt": "2026-11-20",
+        "officialUrl": "https://apidadosabertos.saude.gov.br/atencao-primaria/pmmb-relatorio-historico-cadastro-cnes",
+        "evidence": "Fonte primária conferida em 20/11/2026: API pública com resposta estruturada. Funcionalidade e conteúdo: API do Ministério da Saúde para PMMB, histórico de cadastro no CNES. A resposta consultada apresentou 100 registros; campos estruturais incluem co_ibge, regiao, cnes, uf, municipio, ine.. Acesso e limitações: Amostra de uma resposta, sem comprovação de extração integral ou atualização contínua; verificar paginação, filtros e dicionário. Nenhum valor individual foi incluído no relatório. A API contém campo nominal de profissional; aplicar minimização de dados pessoais."
+      }
+    },
+    {
+      "category": "datasets",
+      "record": {
+        "id": "manual-20261120-atencao-primaria-siaps-cadastro-individual",
+        "name": "SIAPS · cadastro individual",
+        "org": "Ministério da Saúde",
+        "territoryTier": "Brasil",
+        "kind": "dataset",
+        "themes": [
+          "Saúde"
+        ],
+        "coverage": "Base de dados: API do Ministério da Saúde para SIAPS · cadastro individual. A resposta consultada apresentou 100 registros; campos estruturais incluem regiao, unidade_federativa, competencia_siaps, regiao_de_saude, municipio, raca_cor. Apesar do nome do endpoint, a resposta examinada contém quantidades de pessoas por perfis, não fichas nominais individuais.",
+        "description": "API do Ministério da Saúde para SIAPS · cadastro individual. A resposta consultada apresentou 100 registros; campos estruturais incluem regiao, unidade_federativa, competencia_siaps, regiao_de_saude, municipio, raca_cor. Apesar do nome do endpoint, a resposta examinada contém quantidades de pessoas por perfis, não fichas nominais individuais.",
+        "url": "https://apidadosabertos.saude.gov.br/atencao-primaria/siaps-cadastro-individual",
+        "docs": "https://apidadosabertos.saude.gov.br/atencao-primaria/siaps-cadastro-individual",
+        "format": "API JSON",
+        "period": "Conforme edições e períodos disponíveis no mantenedor",
+        "granularity": "Conforme variáveis e recortes disponíveis na fonte; consultar o dicionário antes de agregar",
+        "geoUnit": "Conforme cobertura descrita nesta ficha",
+        "limitations": "Amostra de uma resposta, sem comprovação de extração integral ou atualização contínua; verificar paginação, filtros e dicionário. Nenhum valor individual foi incluído no relatório.",
+        "lastChecked": "2026-11-20",
+        "discoveryUrl": "https://sabiadatalake.com.br/guaraci/docs.html#src-atencao-primaria-siaps-cadastro-individual",
+        "frequency": "Conforme atualização do mantenedor; frequência não confirmada nesta revisão"
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Codex — revisão assistida solicitada por Rachel",
+        "reviewedAt": "2026-11-20",
+        "officialUrl": "https://apidadosabertos.saude.gov.br/atencao-primaria/siaps-cadastro-individual",
+        "evidence": "Fonte primária conferida em 20/11/2026: API pública com resposta estruturada. Funcionalidade e conteúdo: API do Ministério da Saúde para SIAPS · cadastro individual. A resposta consultada apresentou 100 registros; campos estruturais incluem regiao, unidade_federativa, competencia_siaps, regiao_de_saude, municipio, raca_cor. Apesar do nome do endpoint, a resposta examinada contém quantidades de pessoas por perfis, não fichas nominais individuais.. Acesso e limitações: Amostra de uma resposta, sem comprovação de extração integral ou atualização contínua; verificar paginação, filtros e dicionário. Nenhum valor individual foi incluído no relatório."
+      }
+    },
+    {
+      "category": "datasets",
+      "record": {
+        "id": "manual-20261120-atencao-primaria-pmme-instituicoes-formadoras",
+        "name": "PMME · instituições formadoras",
+        "org": "Ministério da Saúde",
+        "territoryTier": "Brasil",
+        "kind": "dataset",
+        "themes": [
+          "Saúde"
+        ],
+        "coverage": "Base de dados: API do Ministério da Saúde para PMME · instituições formadoras. A resposta consultada apresentou 100 registros; campos estruturais incluem no_especialista, no_rede_formadora, no_instituicao_formadora.",
+        "description": "API do Ministério da Saúde para PMME · instituições formadoras. A resposta consultada apresentou 100 registros; campos estruturais incluem no_especialista, no_rede_formadora, no_instituicao_formadora.",
+        "url": "https://apidadosabertos.saude.gov.br/atencao-primaria/pmme-instituicoes-formadoras",
+        "docs": "https://apidadosabertos.saude.gov.br/atencao-primaria/pmme-instituicoes-formadoras",
+        "format": "API JSON",
+        "period": "Conforme edições e períodos disponíveis no mantenedor",
+        "granularity": "Conforme variáveis e recortes disponíveis na fonte; consultar o dicionário antes de agregar",
+        "geoUnit": "Conforme cobertura descrita nesta ficha",
+        "limitations": "Amostra de uma resposta, sem comprovação de extração integral ou atualização contínua; verificar paginação, filtros e dicionário. Nenhum valor individual foi incluído no relatório.",
+        "lastChecked": "2026-11-20",
+        "discoveryUrl": "https://sabiadatalake.com.br/guaraci/docs.html#src-atencao-primaria-pmme-instituicoes-formadoras",
+        "frequency": "Conforme atualização do mantenedor; frequência não confirmada nesta revisão"
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Codex — revisão assistida solicitada por Rachel",
+        "reviewedAt": "2026-11-20",
+        "officialUrl": "https://apidadosabertos.saude.gov.br/atencao-primaria/pmme-instituicoes-formadoras",
+        "evidence": "Fonte primária conferida em 20/11/2026: API pública com resposta estruturada. Funcionalidade e conteúdo: API do Ministério da Saúde para PMME · instituições formadoras. A resposta consultada apresentou 100 registros; campos estruturais incluem no_especialista, no_rede_formadora, no_instituicao_formadora.. Acesso e limitações: Amostra de uma resposta, sem comprovação de extração integral ou atualização contínua; verificar paginação, filtros e dicionário. Nenhum valor individual foi incluído no relatório."
+      }
+    },
+    {
+      "category": "datasets",
+      "record": {
+        "id": "manual-20261120-ciencia-tecnologia-dgits-controle-pcdt",
+        "name": "Controle de PCDT",
+        "org": "Ministério da Saúde",
+        "territoryTier": "Brasil",
+        "kind": "dataset",
+        "themes": [
+          "Saúde"
+        ],
+        "coverage": "Base de dados: API do Ministério da Saúde para Controle de PCDT. A resposta consultada apresentou 83 registros; campos estruturais incluem descricao_do_nome, status, descricao_do_tipo.",
+        "description": "API do Ministério da Saúde para Controle de PCDT. A resposta consultada apresentou 83 registros; campos estruturais incluem descricao_do_nome, status, descricao_do_tipo.",
+        "url": "https://apidadosabertos.saude.gov.br/ciencia-tecnologia/dgits-controle-pcdt",
+        "docs": "https://apidadosabertos.saude.gov.br/ciencia-tecnologia/dgits-controle-pcdt",
+        "format": "API JSON",
+        "period": "Conforme edições e períodos disponíveis no mantenedor",
+        "granularity": "Conforme variáveis e recortes disponíveis na fonte; consultar o dicionário antes de agregar",
+        "geoUnit": "Conforme cobertura descrita nesta ficha",
+        "limitations": "Amostra de uma resposta, sem comprovação de extração integral ou atualização contínua; verificar paginação, filtros e dicionário. Nenhum valor individual foi incluído no relatório.",
+        "lastChecked": "2026-11-20",
+        "discoveryUrl": "https://sabiadatalake.com.br/guaraci/docs.html#src-ciencia-tecnologia-dgits-controle-pcdt",
+        "frequency": "Conforme atualização do mantenedor; frequência não confirmada nesta revisão"
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Codex — revisão assistida solicitada por Rachel",
+        "reviewedAt": "2026-11-20",
+        "officialUrl": "https://apidadosabertos.saude.gov.br/ciencia-tecnologia/dgits-controle-pcdt",
+        "evidence": "Fonte primária conferida em 20/11/2026: API pública com resposta estruturada. Funcionalidade e conteúdo: API do Ministério da Saúde para Controle de PCDT. A resposta consultada apresentou 83 registros; campos estruturais incluem descricao_do_nome, status, descricao_do_tipo.. Acesso e limitações: Amostra de uma resposta, sem comprovação de extração integral ou atualização contínua; verificar paginação, filtros e dicionário. Nenhum valor individual foi incluído no relatório."
+      }
+    },
+    {
+      "category": "datasets",
+      "record": {
+        "id": "manual-20261120-macrorregiao-e-regiao-de-saude-municipio",
+        "name": "Macrorregião e região de saúde",
+        "org": "Ministério da Saúde",
+        "territoryTier": "Brasil",
+        "kind": "dataset",
+        "themes": [
+          "Saúde"
+        ],
+        "coverage": "Base de dados: API do Ministério da Saúde para Macrorregião e região de saúde. A resposta consultada apresentou 860 registros; campos estruturais incluem codigo_regiao_pais, regiao_pais, codigo_uf, uf, codigo_macrorregiao_saude, macrorregiao_saude.",
+        "description": "API do Ministério da Saúde para Macrorregião e região de saúde. A resposta consultada apresentou 860 registros; campos estruturais incluem codigo_regiao_pais, regiao_pais, codigo_uf, uf, codigo_macrorregiao_saude, macrorregiao_saude.",
+        "url": "https://apidadosabertos.saude.gov.br/macrorregiao-e-regiao-de-saude/municipio",
+        "docs": "https://apidadosabertos.saude.gov.br/macrorregiao-e-regiao-de-saude/municipio",
+        "format": "API JSON",
+        "period": "Conforme edições e períodos disponíveis no mantenedor",
+        "granularity": "Conforme variáveis e recortes disponíveis na fonte; consultar o dicionário antes de agregar",
+        "geoUnit": "Conforme cobertura descrita nesta ficha",
+        "limitations": "Amostra de uma resposta, sem comprovação de extração integral ou atualização contínua; verificar paginação, filtros e dicionário. Nenhum valor individual foi incluído no relatório.",
+        "lastChecked": "2026-11-20",
+        "discoveryUrl": "https://sabiadatalake.com.br/guaraci/docs.html#src-macrorregiao-e-regiao-de-saude-municipio",
+        "frequency": "Conforme atualização do mantenedor; frequência não confirmada nesta revisão"
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Codex — revisão assistida solicitada por Rachel",
+        "reviewedAt": "2026-11-20",
+        "officialUrl": "https://apidadosabertos.saude.gov.br/macrorregiao-e-regiao-de-saude/municipio",
+        "evidence": "Fonte primária conferida em 20/11/2026: API pública com resposta estruturada. Funcionalidade e conteúdo: API do Ministério da Saúde para Macrorregião e região de saúde. A resposta consultada apresentou 860 registros; campos estruturais incluem codigo_regiao_pais, regiao_pais, codigo_uf, uf, codigo_macrorregiao_saude, macrorregiao_saude.. Acesso e limitações: Amostra de uma resposta, sem comprovação de extração integral ou atualização contínua; verificar paginação, filtros e dicionário. Nenhum valor individual foi incluído no relatório."
+      }
+    },
+    {
+      "category": "datasets",
+      "record": {
+        "id": "manual-20261120-prevencao-e-promocao-distribuicao-epi-insumo",
+        "name": "Distribuição de insumos (EPI)",
+        "org": "Ministério da Saúde",
+        "territoryTier": "Brasil",
+        "kind": "dataset",
+        "themes": [
+          "Saúde"
+        ],
+        "coverage": "Base de dados: API do Ministério da Saúde para Distribuição de insumos (EPI). A resposta consultada apresentou 100 registros; campos estruturais incluem quantidade, unidade, material, numero_do_pedido, data_de_saida, status.",
+        "description": "API do Ministério da Saúde para Distribuição de insumos (EPI). A resposta consultada apresentou 100 registros; campos estruturais incluem quantidade, unidade, material, numero_do_pedido, data_de_saida, status.",
+        "url": "https://apidadosabertos.saude.gov.br/prevencao-e-promocao/distribuicao-epi-insumo",
+        "docs": "https://apidadosabertos.saude.gov.br/prevencao-e-promocao/distribuicao-epi-insumo",
+        "format": "API JSON",
+        "period": "Conforme edições e períodos disponíveis no mantenedor",
+        "granularity": "Conforme variáveis e recortes disponíveis na fonte; consultar o dicionário antes de agregar",
+        "geoUnit": "Conforme cobertura descrita nesta ficha",
+        "limitations": "Amostra de uma resposta, sem comprovação de extração integral ou atualização contínua; verificar paginação, filtros e dicionário. Nenhum valor individual foi incluído no relatório.",
+        "lastChecked": "2026-11-20",
+        "discoveryUrl": "https://sabiadatalake.com.br/guaraci/docs.html#src-prevencao-e-promocao-distribuicao-epi-insumo",
+        "frequency": "Conforme atualização do mantenedor; frequência não confirmada nesta revisão"
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Codex — revisão assistida solicitada por Rachel",
+        "reviewedAt": "2026-11-20",
+        "officialUrl": "https://apidadosabertos.saude.gov.br/prevencao-e-promocao/distribuicao-epi-insumo",
+        "evidence": "Fonte primária conferida em 20/11/2026: API pública com resposta estruturada. Funcionalidade e conteúdo: API do Ministério da Saúde para Distribuição de insumos (EPI). A resposta consultada apresentou 100 registros; campos estruturais incluem quantidade, unidade, material, numero_do_pedido, data_de_saida, status.. Acesso e limitações: Amostra de uma resposta, sem comprovação de extração integral ou atualização contínua; verificar paginação, filtros e dicionário. Nenhum valor individual foi incluído no relatório."
+      }
+    },
+    {
+      "category": "datasets",
+      "record": {
+        "id": "manual-20261120-saude-indigena-sesai-assistencia-farmaceutica",
+        "name": "SESAI · assistência farmacêutica",
+        "org": "Ministério da Saúde",
+        "territoryTier": "Brasil",
+        "kind": "dataset",
+        "themes": [
+          "Saúde"
+        ],
+        "coverage": "Base de dados: API do Ministério da Saúde para SESAI · assistência farmacêutica. A resposta consultada apresentou 100 registros; campos estruturais incluem dsei, material, unidade_de_medida, qtd_entregue.",
+        "description": "API do Ministério da Saúde para SESAI · assistência farmacêutica. A resposta consultada apresentou 100 registros; campos estruturais incluem dsei, material, unidade_de_medida, qtd_entregue.",
+        "url": "https://apidadosabertos.saude.gov.br/saude-indigena/sesai-assistencia-farmaceutica",
+        "docs": "https://apidadosabertos.saude.gov.br/saude-indigena/sesai-assistencia-farmaceutica",
+        "format": "API JSON",
+        "period": "Conforme edições e períodos disponíveis no mantenedor",
+        "granularity": "Conforme variáveis e recortes disponíveis na fonte; consultar o dicionário antes de agregar",
+        "geoUnit": "Conforme cobertura descrita nesta ficha",
+        "limitations": "Amostra de uma resposta, sem comprovação de extração integral ou atualização contínua; verificar paginação, filtros e dicionário. Nenhum valor individual foi incluído no relatório.",
+        "lastChecked": "2026-11-20",
+        "discoveryUrl": "https://sabiadatalake.com.br/guaraci/docs.html#src-saude-indigena-sesai-assistencia-farmaceutica",
+        "frequency": "Conforme atualização do mantenedor; frequência não confirmada nesta revisão"
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Codex — revisão assistida solicitada por Rachel",
+        "reviewedAt": "2026-11-20",
+        "officialUrl": "https://apidadosabertos.saude.gov.br/saude-indigena/sesai-assistencia-farmaceutica",
+        "evidence": "Fonte primária conferida em 20/11/2026: API pública com resposta estruturada. Funcionalidade e conteúdo: API do Ministério da Saúde para SESAI · assistência farmacêutica. A resposta consultada apresentou 100 registros; campos estruturais incluem dsei, material, unidade_de_medida, qtd_entregue.. Acesso e limitações: Amostra de uma resposta, sem comprovação de extração integral ou atualização contínua; verificar paginação, filtros e dicionário. Nenhum valor individual foi incluído no relatório."
+      }
+    },
+    {
+      "category": "datasets",
+      "record": {
+        "id": "manual-20261120-vigilancia-e-meio-ambiente-svsa-populacao-residente",
+        "name": "População residente (SVSA)",
+        "org": "Ministério da Saúde",
+        "territoryTier": "Brasil",
+        "kind": "dataset",
+        "themes": [
+          "Saúde"
+        ],
+        "coverage": "Base de dados: API do Ministério da Saúde para População residente (SVSA). A resposta consultada apresentou 100 registros; campos estruturais incluem pop, sexo, cod_mun, ano, idade.",
+        "description": "API do Ministério da Saúde para População residente (SVSA). A resposta consultada apresentou 100 registros; campos estruturais incluem pop, sexo, cod_mun, ano, idade.",
+        "url": "https://apidadosabertos.saude.gov.br/vigilancia-e-meio-ambiente/svsa-populacao-residente",
+        "docs": "https://apidadosabertos.saude.gov.br/vigilancia-e-meio-ambiente/svsa-populacao-residente",
+        "format": "API JSON",
+        "period": "Conforme edições e períodos disponíveis no mantenedor",
+        "granularity": "Conforme variáveis e recortes disponíveis na fonte; consultar o dicionário antes de agregar",
+        "geoUnit": "Conforme cobertura descrita nesta ficha",
+        "limitations": "Amostra de uma resposta, sem comprovação de extração integral ou atualização contínua; verificar paginação, filtros e dicionário. Nenhum valor individual foi incluído no relatório.",
+        "lastChecked": "2026-11-20",
+        "discoveryUrl": "https://sabiadatalake.com.br/guaraci/docs.html#src-vigilancia-e-meio-ambiente-svsa-populacao-residente",
+        "frequency": "Conforme atualização do mantenedor; frequência não confirmada nesta revisão"
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Codex — revisão assistida solicitada por Rachel",
+        "reviewedAt": "2026-11-20",
+        "officialUrl": "https://apidadosabertos.saude.gov.br/vigilancia-e-meio-ambiente/svsa-populacao-residente",
+        "evidence": "Fonte primária conferida em 20/11/2026: API pública com resposta estruturada. Funcionalidade e conteúdo: API do Ministério da Saúde para População residente (SVSA). A resposta consultada apresentou 100 registros; campos estruturais incluem pop, sexo, cod_mun, ano, idade.. Acesso e limitações: Amostra de uma resposta, sem comprovação de extração integral ou atualização contínua; verificar paginação, filtros e dicionário. Nenhum valor individual foi incluído no relatório."
+      }
+    },
+    {
+      "category": "datasets",
+      "record": {
+        "id": "manual-20261120-ibge-localidades-municipios",
+        "name": "IBGE · localidades, municípios",
+        "org": "IBGE",
+        "territoryTier": "Brasil",
+        "kind": "dataset",
+        "themes": [
+          "Dados abertos"
+        ],
+        "coverage": "Base de dados: API oficial com códigos e denominações de municípios. JSON integral interpretado nesta consulta: 5571 entradas.",
+        "description": "API oficial com códigos e denominações de municípios. JSON integral interpretado nesta consulta: 5571 entradas.",
+        "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios",
+        "docs": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios",
+        "format": "API JSON",
+        "period": "Conforme edições e períodos disponíveis no mantenedor",
+        "granularity": "Conforme variáveis e recortes disponíveis na fonte; consultar o dicionário antes de agregar",
+        "geoUnit": "Conforme cobertura descrita nesta ficha",
+        "limitations": "Preservar códigos como texto. Referências territoriais e versões da classificação podem mudar; não tratar a lista atual como série histórica.",
+        "lastChecked": "2026-11-20",
+        "discoveryUrl": "https://sabiadatalake.com.br/guaraci/docs.html#src-ibge-localidades-municipios",
+        "frequency": "Conforme atualização do mantenedor; frequência não confirmada nesta revisão"
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Codex — revisão assistida solicitada por Rachel",
+        "reviewedAt": "2026-11-20",
+        "officialUrl": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios",
+        "evidence": "Fonte primária conferida em 20/11/2026: API pública com resposta estruturada. Funcionalidade e conteúdo: API oficial com códigos e denominações de municípios. JSON integral interpretado nesta consulta: 5571 entradas.. Acesso e limitações: Preservar códigos como texto. Referências territoriais e versões da classificação podem mudar; não tratar a lista atual como série histórica."
+      }
+    },
+    {
+      "category": "datasets",
+      "record": {
+        "id": "manual-20261120-ibge-localidades-distritos",
+        "name": "IBGE · localidades, distritos",
+        "org": "IBGE",
+        "territoryTier": "Brasil",
+        "kind": "dataset",
+        "themes": [
+          "Dados abertos"
+        ],
+        "coverage": "Base de dados: API oficial com códigos e denominações de distritos. JSON integral interpretado nesta consulta: 10751 entradas.",
+        "description": "API oficial com códigos e denominações de distritos. JSON integral interpretado nesta consulta: 10751 entradas.",
+        "url": "https://servicodados.ibge.gov.br/api/v1/localidades/distritos",
+        "docs": "https://servicodados.ibge.gov.br/api/v1/localidades/distritos",
+        "format": "API JSON",
+        "period": "Conforme edições e períodos disponíveis no mantenedor",
+        "granularity": "Conforme variáveis e recortes disponíveis na fonte; consultar o dicionário antes de agregar",
+        "geoUnit": "Conforme cobertura descrita nesta ficha",
+        "limitations": "Preservar códigos como texto. Referências territoriais e versões da classificação podem mudar; não tratar a lista atual como série histórica.",
+        "lastChecked": "2026-11-20",
+        "discoveryUrl": "https://sabiadatalake.com.br/guaraci/docs.html#src-ibge-localidades-distritos",
+        "frequency": "Conforme atualização do mantenedor; frequência não confirmada nesta revisão"
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Codex — revisão assistida solicitada por Rachel",
+        "reviewedAt": "2026-11-20",
+        "officialUrl": "https://servicodados.ibge.gov.br/api/v1/localidades/distritos",
+        "evidence": "Fonte primária conferida em 20/11/2026: API pública com resposta estruturada. Funcionalidade e conteúdo: API oficial com códigos e denominações de distritos. JSON integral interpretado nesta consulta: 10751 entradas.. Acesso e limitações: Preservar códigos como texto. Referências territoriais e versões da classificação podem mudar; não tratar a lista atual como série histórica."
+      }
+    },
+    {
+      "category": "datasets",
+      "record": {
+        "id": "manual-20261120-cnae-classes",
+        "name": "CNAE · classes",
+        "org": "IBGE",
+        "territoryTier": "Brasil",
+        "kind": "dataset",
+        "themes": [
+          "Dados abertos"
+        ],
+        "coverage": "Base de dados: API oficial com códigos e denominações de classes CNAE. JSON integral interpretado nesta consulta: 673 entradas.",
+        "description": "API oficial com códigos e denominações de classes CNAE. JSON integral interpretado nesta consulta: 673 entradas.",
+        "url": "https://servicodados.ibge.gov.br/api/v2/cnae/classes",
+        "docs": "https://servicodados.ibge.gov.br/api/v2/cnae/classes",
+        "format": "API JSON",
+        "period": "Conforme edições e períodos disponíveis no mantenedor",
+        "granularity": "Conforme variáveis e recortes disponíveis na fonte; consultar o dicionário antes de agregar",
+        "geoUnit": "Conforme cobertura descrita nesta ficha",
+        "limitations": "Preservar códigos como texto. Referências territoriais e versões da classificação podem mudar; não tratar a lista atual como série histórica.",
+        "lastChecked": "2026-11-20",
+        "discoveryUrl": "https://sabiadatalake.com.br/guaraci/docs.html#src-cnae-classes",
+        "frequency": "Conforme atualização do mantenedor; frequência não confirmada nesta revisão"
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Codex — revisão assistida solicitada por Rachel",
+        "reviewedAt": "2026-11-20",
+        "officialUrl": "https://servicodados.ibge.gov.br/api/v2/cnae/classes",
+        "evidence": "Fonte primária conferida em 20/11/2026: API pública com resposta estruturada. Funcionalidade e conteúdo: API oficial com códigos e denominações de classes CNAE. JSON integral interpretado nesta consulta: 673 entradas.. Acesso e limitações: Preservar códigos como texto. Referências territoriais e versões da classificação podem mudar; não tratar a lista atual como série histórica."
+      }
+    },
+    {
+      "category": "datasets",
+      "record": {
+        "id": "manual-20261120-cnae-subclasses",
+        "name": "CNAE · subclasses",
+        "org": "IBGE",
+        "territoryTier": "Brasil",
+        "kind": "dataset",
+        "themes": [
+          "Dados abertos"
+        ],
+        "coverage": "Base de dados: API oficial com códigos e denominações de subclasses CNAE. JSON integral interpretado nesta consulta: 1332 entradas.",
+        "description": "API oficial com códigos e denominações de subclasses CNAE. JSON integral interpretado nesta consulta: 1332 entradas.",
+        "url": "https://servicodados.ibge.gov.br/api/v2/cnae/subclasses",
+        "docs": "https://servicodados.ibge.gov.br/api/v2/cnae/subclasses",
+        "format": "API JSON",
+        "period": "Conforme edições e períodos disponíveis no mantenedor",
+        "granularity": "Conforme variáveis e recortes disponíveis na fonte; consultar o dicionário antes de agregar",
+        "geoUnit": "Conforme cobertura descrita nesta ficha",
+        "limitations": "Preservar códigos como texto. Referências territoriais e versões da classificação podem mudar; não tratar a lista atual como série histórica.",
+        "lastChecked": "2026-11-20",
+        "discoveryUrl": "https://sabiadatalake.com.br/guaraci/docs.html#src-cnae-subclasses",
+        "frequency": "Conforme atualização do mantenedor; frequência não confirmada nesta revisão"
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Codex — revisão assistida solicitada por Rachel",
+        "reviewedAt": "2026-11-20",
+        "officialUrl": "https://servicodados.ibge.gov.br/api/v2/cnae/subclasses",
+        "evidence": "Fonte primária conferida em 20/11/2026: API pública com resposta estruturada. Funcionalidade e conteúdo: API oficial com códigos e denominações de subclasses CNAE. JSON integral interpretado nesta consulta: 1332 entradas.. Acesso e limitações: Preservar códigos como texto. Referências territoriais e versões da classificação podem mudar; não tratar a lista atual como série histórica."
+      }
+    },
+    {
+      "category": "datasets",
+      "record": {
+        "id": "manual-20261120-siconfi-dca-despesa-funcao",
+        "name": "SICONFI — API de declarações fiscais",
+        "org": "Secretaria do Tesouro Nacional",
+        "territoryTier": "Brasil",
+        "kind": "catalog",
+        "themes": [
+          "Dados abertos"
+        ],
+        "coverage": "Base de dados: API documentada para DCA, RREO, RGF e MSC de entes federativos; permite consultar demonstrativos e selecionar anexos e contas.",
+        "description": "API documentada para DCA, RREO, RGF e MSC de entes federativos; permite consultar demonstrativos e selecionar anexos e contas.",
+        "url": "https://apidatalake.tesouro.gov.br/docs/siconfi/",
+        "docs": "https://apidatalake.tesouro.gov.br/docs/siconfi/",
+        "format": "API JSON e documentação",
+        "period": "Conforme edições e períodos disponíveis no mantenedor",
+        "granularity": "Conforme variáveis e recortes disponíveis na fonte; consultar o dicionário antes de agregar",
+        "geoUnit": "Conforme cobertura descrita nesta ficha",
+        "limitations": "Um único acesso representa quatro pendências, preservadas no mapa da auditoria. Os recortes de saúde exigem seleção correta de anexos/contas. Documentação informa paginação de 5.000 registros e limite de uma requisição por segundo; não foi realizada extração integral.",
+        "lastChecked": "2026-11-20",
+        "discoveryUrl": "https://sabiadatalake.com.br/guaraci/docs.html#src-siconfi-dca-despesa-funcao",
+        "frequency": "Conforme atualização do mantenedor; frequência não confirmada nesta revisão"
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Codex — revisão assistida solicitada por Rachel",
+        "reviewedAt": "2026-11-20",
+        "officialUrl": "https://apidatalake.tesouro.gov.br/docs/siconfi/",
+        "evidence": "Fonte primária conferida em 20/11/2026: SICONFI API – Tesouro Nacional. Funcionalidade e conteúdo: API documentada para DCA, RREO, RGF e MSC de entes federativos; permite consultar demonstrativos e selecionar anexos e contas.. Acesso e limitações: Um único acesso representa quatro pendências, preservadas no mapa da auditoria. Os recortes de saúde exigem seleção correta de anexos/contas. Documentação informa paginação de 5.000 registros e limite de uma requisição por segundo; não foi realizada extração integral."
+      }
+    },
+    {
+      "category": "datasets",
+      "record": {
+        "id": "manual-20261120-ipeadata-series",
+        "name": "Ipeadata — API de séries e metadados",
+        "org": "Ipea",
+        "territoryTier": "Brasil",
+        "kind": "catalog",
+        "themes": [
+          "Dados abertos"
+        ],
+        "coverage": "Base de dados: Documentação do serviço OData do Ipeadata para localizar séries, metadados e valores econômicos, sociais e regionais.",
+        "description": "Documentação do serviço OData do Ipeadata para localizar séries, metadados e valores econômicos, sociais e regionais.",
+        "url": "https://ipeadata.gov.br/api/",
+        "docs": "https://ipeadata.gov.br/api/",
+        "format": "API OData documentada",
+        "period": "Conforme edições e períodos disponíveis no mantenedor",
+        "granularity": "Conforme variáveis e recortes disponíveis na fonte; consultar o dicionário antes de agregar",
+        "geoUnit": "Conforme cobertura descrita nesta ficha",
+        "limitations": "Um acesso cobre catálogo e séries. A documentação consultada aponta endpoints HTTP; esta ficha aponta para a documentação HTTPS. Validar transporte, unidades, frequência e códigos territoriais antes da extração.",
+        "lastChecked": "2026-11-20",
+        "discoveryUrl": "https://sabiadatalake.com.br/guaraci/docs.html#src-ipeadata-series",
+        "frequency": "Conforme atualização do mantenedor; frequência não confirmada nesta revisão"
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Codex — revisão assistida solicitada por Rachel",
+        "reviewedAt": "2026-11-20",
+        "officialUrl": "https://ipeadata.gov.br/api/",
+        "evidence": "Fonte primária conferida em 20/11/2026: Serviço de consulta aos dados do Ipeadata. Funcionalidade e conteúdo: Documentação do serviço OData do Ipeadata para localizar séries, metadados e valores econômicos, sociais e regionais.. Acesso e limitações: Um acesso cobre catálogo e séries. A documentação consultada aponta endpoints HTTP; esta ficha aponta para a documentação HTTPS. Validar transporte, unidades, frequência e códigos territoriais antes da extração."
+      }
+    },
+    {
+      "category": "datasets",
+      "record": {
+        "id": "manual-20261120-bcb-sicor-custeio-municipio",
+        "name": "SICOR — API de crédito rural",
+        "org": "Banco Central do Brasil",
+        "territoryTier": "Brasil",
+        "kind": "catalog",
+        "themes": [
+          "Dados abertos"
+        ],
+        "coverage": "Base de dados: Catálogo OData do SICOR com entidades de crédito rural, incluindo custeio e investimento por município/produto e comercialização por região/UF/produto.",
+        "description": "Catálogo OData do SICOR com entidades de crédito rural, incluindo custeio e investimento por município/produto e comercialização por região/UF/produto.",
+        "url": "https://olinda.bcb.gov.br/olinda/servico/SICOR/versao/v2/odata/",
+        "docs": "https://olinda.bcb.gov.br/olinda/servico/SICOR/versao/v2/odata/",
+        "format": "API OData JSON",
+        "period": "Conforme edições e períodos disponíveis no mantenedor",
+        "granularity": "Conforme variáveis e recortes disponíveis na fonte; consultar o dicionário antes de agregar",
+        "geoUnit": "Conforme cobertura descrita nesta ficha",
+        "limitations": "Catálogo retornou 17 entidades. Uma ficha reúne três acessos; seus níveis geográficos e modalidades são distintos. Não somar estoques/fluxos ou modalidades sem conferir a metodologia; consulta integral das entidades não realizada.",
+        "lastChecked": "2026-11-20",
+        "discoveryUrl": "https://sabiadatalake.com.br/guaraci/docs.html#src-bcb-sicor-custeio-municipio",
+        "frequency": "Conforme atualização do mantenedor; frequência não confirmada nesta revisão"
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Codex — revisão assistida solicitada por Rachel",
+        "reviewedAt": "2026-11-20",
+        "officialUrl": "https://olinda.bcb.gov.br/olinda/servico/SICOR/versao/v2/odata/",
+        "evidence": "Fonte primária conferida em 20/11/2026: API pública com resposta estruturada. Funcionalidade e conteúdo: Catálogo OData do SICOR com entidades de crédito rural, incluindo custeio e investimento por município/produto e comercialização por região/UF/produto.. Acesso e limitações: Catálogo retornou 17 entidades. Uma ficha reúne três acessos; seus níveis geográficos e modalidades são distintos. Não somar estoques/fluxos ou modalidades sem conferir a metodologia; consulta integral das entidades não realizada."
+      }
+    },
+    {
+      "category": "datasets",
+      "record": {
+        "id": "manual-20261120-rio-iqar-diario",
+        "name": "Rio de Janeiro — índice diário de qualidade do ar",
+        "org": "Prefeitura do Rio de Janeiro",
+        "territoryTier": "Brasil",
+        "kind": "dataset",
+        "themes": [
+          "Dados abertos"
+        ],
+        "coverage": "Base de dados: Camada ArcGIS com campos de data, estação, poluente, classificação e índice IQAR diário.",
+        "description": "Camada ArcGIS com campos de data, estação, poluente, classificação e índice IQAR diário.",
+        "url": "https://pgeo3.rio.rj.gov.br/arcgis/rest/services/Meio_Ambiente/Dados_di%C3%A1rios_do_%C3%8Dndice_de_Qualidade_do_ar_IQAR/MapServer/1",
+        "docs": "https://pgeo3.rio.rj.gov.br/arcgis/rest/services/Meio_Ambiente/Dados_di%C3%A1rios_do_%C3%8Dndice_de_Qualidade_do_ar_IQAR/MapServer/1",
+        "format": "ArcGIS REST",
+        "period": "Conforme edições e períodos disponíveis no mantenedor",
+        "granularity": "Conforme variáveis e recortes disponíveis na fonte; consultar o dicionário antes de agregar",
+        "geoUnit": "Conforme cobertura descrita nesta ficha",
+        "limitations": "IQAR é um índice de qualidade do ar, não uma concentração física de poluente. Estrutura e serviço confirmados; série integral e continuidade das estações não verificadas.",
+        "lastChecked": "2026-11-20",
+        "discoveryUrl": "https://sabiadatalake.com.br/guaraci/docs.html#src-rio-iqar-diario",
+        "frequency": "Conforme atualização do mantenedor; frequência não confirmada nesta revisão"
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Codex — revisão assistida solicitada por Rachel",
+        "reviewedAt": "2026-11-20",
+        "officialUrl": "https://pgeo3.rio.rj.gov.br/arcgis/rest/services/Meio_Ambiente/Dados_di%C3%A1rios_do_%C3%8Dndice_de_Qualidade_do_ar_IQAR/MapServer/1",
+        "evidence": "Fonte primária conferida em 20/11/2026: Layer: Dados diários do Índice de Qualidade do Ar (IQAR) (ID: 1). Funcionalidade e conteúdo: Camada ArcGIS com campos de data, estação, poluente, classificação e índice IQAR diário.. Acesso e limitações: IQAR é um índice de qualidade do ar, não uma concentração física de poluente. Estrutura e serviço confirmados; série integral e continuidade das estações não verificadas."
+      }
+    },
+    {
+      "category": "datasets",
+      "record": {
+        "id": "manual-20261120-fhemig-indicadores-hospitalares",
+        "name": "FHEMIG — catálogo de indicadores hospitalares",
+        "org": "FHEMIG / Governo de Minas Gerais",
+        "territoryTier": "Brasil",
+        "kind": "catalog",
+        "themes": [
+          "Dados abertos"
+        ],
+        "coverage": "Base de dados: Catálogo institucional de conjuntos de dados hospitalares com recursos em CSV e JSON.",
+        "description": "Catálogo institucional de conjuntos de dados hospitalares com recursos em CSV e JSON.",
+        "url": "https://www.dados.mg.gov.br/pt_BR/dataset/?organization=fundacao-hospitalar-do-estado-de-minas-gerais-fhemig&res_format=JSON",
+        "docs": "https://www.dados.mg.gov.br/pt_BR/dataset/?organization=fundacao-hospitalar-do-estado-de-minas-gerais-fhemig&res_format=JSON",
+        "format": "Catálogo web; recursos CSV e JSON",
+        "period": "Conforme edições e períodos disponíveis no mantenedor",
+        "granularity": "Conforme variáveis e recortes disponíveis na fonte; consultar o dicionário antes de agregar",
+        "geoUnit": "Conforme cobertura descrita nesta ficha",
+        "limitations": "Ficha representa o catálogo, não um único arquivo homogêneo. Há múltiplas páginas e conjuntos, com unidades e períodos próprios; não foram baixados todos os recursos.",
+        "lastChecked": "2026-11-20",
+        "discoveryUrl": "https://sabiadatalake.com.br/guaraci/docs.html#src-fhemig-indicadores-hospitalares",
+        "frequency": "Conforme atualização do mantenedor; frequência não confirmada nesta revisão"
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Codex — revisão assistida solicitada por Rachel",
+        "reviewedAt": "2026-11-20",
+        "officialUrl": "https://www.dados.mg.gov.br/pt_BR/dataset/?organization=fundacao-hospitalar-do-estado-de-minas-gerais-fhemig&res_format=JSON",
+        "evidence": "Fonte primária conferida em 20/11/2026: Conjunto de dados - Portal de Dados Abertos do Estado de Minas Gerais. Funcionalidade e conteúdo: Catálogo institucional de conjuntos de dados hospitalares com recursos em CSV e JSON.. Acesso e limitações: Ficha representa o catálogo, não um único arquivo homogêneo. Há múltiplas páginas e conjuntos, com unidades e períodos próprios; não foram baixados todos os recursos."
+      }
+    },
+    {
+      "category": "datasets",
+      "record": {
+        "id": "manual-20261120-iarc-monografias-classificacoes",
+        "name": "IARC — classificações das Monografias",
+        "org": "IARC / Organização Mundial da Saúde",
+        "territoryTier": "Outros",
+        "kind": "dataset",
+        "themes": [
+          "Saúde",
+          "Meio ambiente"
+        ],
+        "coverage": "Base de dados: Tabela oficial de classificações de agentes avaliados quanto à carcinogenicidade, com consulta e opções de arquivos de dados.",
+        "description": "Tabela oficial de classificações de agentes avaliados quanto à carcinogenicidade, com consulta e opções de arquivos de dados.",
+        "url": "https://monographs.iarc.who.int/list-of-classifications",
+        "docs": "https://monographs.iarc.who.int/list-of-classifications",
+        "format": "Tabela web; opções de CSV, Excel e PDF",
+        "period": "Conforme edições e períodos disponíveis no mantenedor",
+        "granularity": "Conforme variáveis e recortes disponíveis na fonte; consultar o dicionário antes de agregar",
+        "geoUnit": "Conforme cobertura descrita nesta ficha",
+        "limitations": "Classifica perigo carcinogênico, não risco individual em determinada exposição. Ausência na lista não comprova segurança. Substitui link anterior que apontava para um script JavaScript.",
+        "lastChecked": "2026-11-20",
+        "discoveryUrl": "https://sabiadatalake.com.br/guaraci/docs.html#src-iarc-monografias-classificacoes",
+        "frequency": "Conforme atualização do mantenedor; frequência não confirmada nesta revisão"
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Codex — revisão assistida solicitada por Rachel",
+        "reviewedAt": "2026-11-20",
+        "officialUrl": "https://monographs.iarc.who.int/list-of-classifications",
+        "evidence": "Fonte primária conferida em 20/11/2026: List of Classifications – IARC Monographs on the Identification of Carcinogenic Hazards to Humans. Funcionalidade e conteúdo: Tabela oficial de classificações de agentes avaliados quanto à carcinogenicidade, com consulta e opções de arquivos de dados.. Acesso e limitações: Classifica perigo carcinogênico, não risco individual em determinada exposição. Ausência na lista não comprova segurança. Substitui link anterior que apontava para um script JavaScript."
+      }
+    },
+    {
+      "category": "datasets",
+      "record": {
+        "id": "manual-20261120-siab-situacao-saude",
+        "name": "SIAB — atenção básica e Saúde da Família (1998–2015)",
+        "org": "Ministério da Saúde / DATASUS",
+        "territoryTier": "Brasil",
+        "kind": "system",
+        "themes": [
+          "Saúde"
+        ],
+        "coverage": "Base de dados: Acesso histórico ao SIAB para informações de famílias, situação de saúde, produção e marcadores da atenção básica.",
+        "description": "Acesso histórico ao SIAB para informações de famílias, situação de saúde, produção e marcadores da atenção básica.",
+        "url": "https://datasus.saude.gov.br/atencao-basica-saude-da-familia-de-1998-a-2015/",
+        "docs": "https://datasus.saude.gov.br/atencao-basica-saude-da-familia-de-1998-a-2015/",
+        "format": "Consulta web e documentação do mantenedor",
+        "period": "1998–2015",
+        "granularity": "Conforme variáveis e recortes disponíveis na fonte; consultar o dicionário antes de agregar",
+        "geoUnit": "Conforme cobertura descrita nesta ficha",
+        "limitations": "Uma ficha reúne quatro recortes do mesmo sistema; não são quatro arquivos equivalentes. Sistema histórico: não representa cobertura atual. Tabulações e exportações não testadas integralmente.",
+        "lastChecked": "2026-11-20",
+        "discoveryUrl": "https://sabiadatalake.com.br/guaraci/docs.html#src-siab-situacao-saude",
+        "frequency": "Conforme atualização do mantenedor; frequência não confirmada nesta revisão"
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Codex — revisão assistida solicitada por Rachel",
+        "reviewedAt": "2026-11-20",
+        "officialUrl": "https://datasus.saude.gov.br/atencao-basica-saude-da-familia-de-1998-a-2015/",
+        "evidence": "Fonte primária conferida em 20/11/2026: Atenção Básica – Saúde da Família – de 1998 a 2015 – DATASUS. Funcionalidade e conteúdo: Acesso histórico ao SIAB para informações de famílias, situação de saúde, produção e marcadores da atenção básica.. Acesso e limitações: Uma ficha reúne quatro recortes do mesmo sistema; não são quatro arquivos equivalentes. Sistema histórico: não representa cobertura atual. Tabulações e exportações não testadas integralmente."
+      }
+    },
+    {
+      "category": "datasets",
+      "record": {
+        "id": "manual-20261120-sim-obitos-fetais",
+        "name": "SIM — tabulações de mortalidade desde 1996",
+        "org": "Ministério da Saúde / DATASUS",
+        "territoryTier": "Brasil",
+        "kind": "system",
+        "themes": [
+          "Saúde"
+        ],
+        "coverage": "Base de dados: Página oficial de acesso a tabulações do SIM, incluindo óbitos fetais e óbitos de residentes no exterior.",
+        "description": "Página oficial de acesso a tabulações do SIM, incluindo óbitos fetais e óbitos de residentes no exterior.",
+        "url": "https://datasus.saude.gov.br/mortalidade-desde-1996-pela-cid-10/",
+        "docs": "https://datasus.saude.gov.br/mortalidade-desde-1996-pela-cid-10/",
+        "format": "Consulta web e documentação do mantenedor",
+        "period": "Desde 1996, conforme disponibilidade das tabulações",
+        "granularity": "Conforme variáveis e recortes disponíveis na fonte; consultar o dicionário antes de agregar",
+        "geoUnit": "Conforme cobertura descrita nesta ficha",
+        "limitations": "Dois recortes encaminhados ao mesmo acesso. A página remete a consultas TabNet, algumas em HTTP. Universo de residentes, local de ocorrência e óbitos fetais exigem tratamentos distintos; não confundir com mortalidade geral.",
+        "lastChecked": "2026-11-20",
+        "discoveryUrl": "https://sabiadatalake.com.br/guaraci/docs.html#src-sim-obitos-fetais",
+        "frequency": "Conforme atualização do mantenedor; frequência não confirmada nesta revisão"
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Codex — revisão assistida solicitada por Rachel",
+        "reviewedAt": "2026-11-20",
+        "officialUrl": "https://datasus.saude.gov.br/mortalidade-desde-1996-pela-cid-10/",
+        "evidence": "Fonte primária conferida em 20/11/2026: Mortalidade – desde 1996 pela CID-10 – DATASUS. Funcionalidade e conteúdo: Página oficial de acesso a tabulações do SIM, incluindo óbitos fetais e óbitos de residentes no exterior.. Acesso e limitações: Dois recortes encaminhados ao mesmo acesso. A página remete a consultas TabNet, algumas em HTTP. Universo de residentes, local de ocorrência e óbitos fetais exigem tratamentos distintos; não confundir com mortalidade geral."
+      }
+    },
+    {
+      "category": "datasets",
+      "record": {
+        "id": "manual-20261120-ibge-pnad-covid19",
+        "name": "PNAD COVID-19 — microdados históricos",
+        "org": "IBGE",
+        "territoryTier": "Brasil",
+        "kind": "dataset",
+        "themes": [
+          "Saúde",
+          "Trabalho e renda"
+        ],
+        "coverage": "Base de dados: Página oficial de microdados da pesquisa PNAD COVID-19, levantamento de saúde e trabalho realizado em 2020.",
+        "description": "Página oficial de microdados da pesquisa PNAD COVID-19, levantamento de saúde e trabalho realizado em 2020.",
+        "url": "https://www.ibge.gov.br/estatisticas/investigacoes-experimentais/estatisticas-experimentais/27947-divulgacao-mensal-pnadcovid2.html?=&t=microdados",
+        "docs": "https://www.ibge.gov.br/estatisticas/investigacoes-experimentais/estatisticas-experimentais/27947-divulgacao-mensal-pnadcovid2.html?=&t=microdados",
+        "format": "Página de microdados e documentação",
+        "period": "2020",
+        "granularity": "Conforme variáveis e recortes disponíveis na fonte; consultar o dicionário antes de agregar",
+        "geoUnit": "Conforme cobertura descrita nesta ficha",
+        "limitations": "Pesquisa histórica, encerrada em 2020; não é monitoramento atual. Usar pesos amostrais e notas metodológicas; downloads completos não testados.",
+        "lastChecked": "2026-11-20",
+        "discoveryUrl": "https://sabiadatalake.com.br/guaraci/docs.html#src-ibge-pnad-covid19",
+        "frequency": "Conforme atualização do mantenedor; frequência não confirmada nesta revisão"
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Codex — revisão assistida solicitada por Rachel",
+        "reviewedAt": "2026-11-20",
+        "officialUrl": "https://www.ibge.gov.br/estatisticas/investigacoes-experimentais/estatisticas-experimentais/27947-divulgacao-mensal-pnadcovid2.html?=&t=microdados",
+        "evidence": "Fonte primária conferida em 20/11/2026: Divulgação mensal | IBGE Twitter Twitter. Funcionalidade e conteúdo: Página oficial de microdados da pesquisa PNAD COVID-19, levantamento de saúde e trabalho realizado em 2020.. Acesso e limitações: Pesquisa histórica, encerrada em 2020; não é monitoramento atual. Usar pesos amostrais e notas metodológicas; downloads completos não testados."
+      }
+    },
+    {
+      "category": "datasets",
+      "record": {
+        "id": "manual-20261120-ibge-censo2022-amostra",
+        "name": "Censo 2022 — acesso aos microdados da amostra",
+        "org": "IBGE",
+        "territoryTier": "Brasil",
+        "kind": "catalog",
+        "themes": [
+          "Dados abertos"
+        ],
+        "coverage": "Base de dados: Página oficial de microdados do Censo 2022 com orientações e modalidades de acesso.",
+        "description": "Página oficial de microdados do Censo 2022 com orientações e modalidades de acesso.",
+        "url": "https://www.ibge.gov.br/estatisticas/sociais/populacao/22827-censo-demografico-2022.html?edicao=47850&t=microdados",
+        "docs": "https://www.ibge.gov.br/estatisticas/sociais/populacao/22827-censo-demografico-2022.html?edicao=47850&t=microdados",
+        "format": "Página de acesso e documentação",
+        "period": "Censo 2022",
+        "granularity": "Conforme variáveis e recortes disponíveis na fonte; consultar o dicionário antes de agregar",
+        "geoUnit": "Conforme cobertura descrita nesta ficha",
+        "limitations": "Há distinção entre dados públicos menos detalhados e acesso controlado ou restrito. Não se presume que todo microdado esteja disponível sem cadastro. Observar notas e revisões publicadas pelo IBGE.",
+        "lastChecked": "2026-11-20",
+        "discoveryUrl": "https://sabiadatalake.com.br/guaraci/docs.html#src-ibge-censo2022-amostra",
+        "frequency": "Conforme atualização do mantenedor; frequência não confirmada nesta revisão"
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Codex — revisão assistida solicitada por Rachel",
+        "reviewedAt": "2026-11-20",
+        "officialUrl": "https://www.ibge.gov.br/estatisticas/sociais/populacao/22827-censo-demografico-2022.html?edicao=47850&t=microdados",
+        "evidence": "Fonte primária conferida em 20/11/2026: Censo 2022 | IBGE Twitter Twitter. Funcionalidade e conteúdo: Página oficial de microdados do Censo 2022 com orientações e modalidades de acesso.. Acesso e limitações: Há distinção entre dados públicos menos detalhados e acesso controlado ou restrito. Não se presume que todo microdado esteja disponível sem cadastro. Observar notas e revisões publicadas pelo IBGE."
+      }
+    },
+    {
+      "category": "datasets",
+      "record": {
+        "id": "manual-20261120-mte-caged-antigo",
+        "name": "MTE — microdados RAIS e CAGED",
+        "org": "Ministério do Trabalho e Emprego",
+        "territoryTier": "Brasil",
+        "kind": "catalog",
+        "themes": [
+          "Trabalho e renda"
+        ],
+        "coverage": "Base de dados: Portal oficial de microdados de emprego formal, com orientação de acesso às bases RAIS e CAGED.",
+        "description": "Portal oficial de microdados de emprego formal, com orientação de acesso às bases RAIS e CAGED.",
+        "url": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/acoes-e-programas/programas-projetos-acoes-obras-e-atividades/estatisticas-trabalho/microdados-rais-e-caged",
+        "docs": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/acoes-e-programas/programas-projetos-acoes-obras-e-atividades/estatisticas-trabalho/microdados-rais-e-caged",
+        "format": "Portal com orientação para arquivos de microdados",
+        "period": "Conforme edições e períodos disponíveis no mantenedor",
+        "granularity": "Conforme variáveis e recortes disponíveis na fonte; consultar o dicionário antes de agregar",
+        "geoUnit": "Conforme cobertura descrita nesta ficha",
+        "limitations": "O CAGED antigo e seus ajustes têm recortes históricos diferentes do Novo Caged. A página orienta acesso por FTP; downloads por cliente FTP não foram testados. Não inferir continuidade metodológica entre as séries.",
+        "lastChecked": "2026-11-20",
+        "discoveryUrl": "https://sabiadatalake.com.br/guaraci/docs.html#src-mte-caged-antigo",
+        "frequency": "Conforme atualização do mantenedor; frequência não confirmada nesta revisão"
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Codex — revisão assistida solicitada por Rachel",
+        "reviewedAt": "2026-11-20",
+        "officialUrl": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/acoes-e-programas/programas-projetos-acoes-obras-e-atividades/estatisticas-trabalho/microdados-rais-e-caged",
+        "evidence": "Fonte primária conferida em 20/11/2026: Microdados RAIS e CAGED — Ministério do Trabalho e Emprego. Funcionalidade e conteúdo: Portal oficial de microdados de emprego formal, com orientação de acesso às bases RAIS e CAGED.. Acesso e limitações: O CAGED antigo e seus ajustes têm recortes históricos diferentes do Novo Caged. A página orienta acesso por FTP; downloads por cliente FTP não foram testados. Não inferir continuidade metodológica entre as séries."
+      }
+    },
+    {
+      "category": "datasets",
+      "record": {
+        "id": "manual-20261120-ibge-ipca-grupos",
+        "name": "IPCA · grupos, subgrupos e itens",
+        "org": "IBGE",
+        "territoryTier": "Brasil",
+        "kind": "dataset",
+        "themes": [
+          "Economia"
+        ],
+        "coverage": "Base de dados: Tabela 7060: IPCA - Variação mensal, acumulada no ano, acumulada em 12 meses e peso mensal, para o índice geral, grupos, subgrupos, itens e subitens de produtos e serviços (a partir de janeiro/2020).",
+        "description": "Tabela 7060: IPCA - Variação mensal, acumulada no ano, acumulada em 12 meses e peso mensal, para o índice geral, grupos, subgrupos, itens e subitens de produtos e serviços (a partir de janeiro/2020).",
+        "url": "https://sidra.ibge.gov.br/tabela/7060",
+        "docs": "https://sidra.ibge.gov.br/tabela/7060",
+        "format": "Tabela SIDRA e opções de extração do sistema",
+        "period": "Conforme edições e períodos disponíveis no mantenedor",
+        "granularity": "Conforme variáveis e recortes disponíveis na fonte; consultar o dicionário antes de agregar",
+        "geoUnit": "Conforme cobertura descrita nesta ficha",
+        "limitations": "Conferida a identidade da tabela SIDRA; não foi extraída a série integral. Conferir unidades, níveis geográficos, pesos e quebras de classificação antes de comparar.",
+        "lastChecked": "2026-11-20",
+        "discoveryUrl": "https://sabiadatalake.com.br/guaraci/docs.html#src-ibge-ipca-grupos",
+        "frequency": "Conforme atualização do mantenedor; frequência não confirmada nesta revisão"
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Codex — revisão assistida solicitada por Rachel",
+        "reviewedAt": "2026-11-20",
+        "officialUrl": "https://sidra.ibge.gov.br/tabela/7060",
+        "evidence": "Fonte primária conferida em 20/11/2026: Tabela 7060: IPCA - Variação mensal, acumulada no ano, acumulada em 12 meses e peso mensal, para o índice geral, grupos, subgrupos, itens e subitens de produtos e serviços (a partir de janeiro/2020). Funcionalidade e conteúdo: Tabela 7060: IPCA - Variação mensal, acumulada no ano, acumulada em 12 meses e peso mensal, para o índice geral, grupos, subgrupos, itens e subitens de produtos e serviços (a partir de janeiro/2020).. Acesso e limitações: Conferida a identidade da tabela SIDRA; não foi extraída a série integral. Conferir unidades, níveis geográficos, pesos e quebras de classificação antes de comparar."
+      }
+    },
+    {
+      "category": "datasets",
+      "record": {
+        "id": "manual-20261120-ibge-inpc-grupos",
+        "name": "INPC · grupos, subgrupos e itens",
+        "org": "IBGE",
+        "territoryTier": "Brasil",
+        "kind": "dataset",
+        "themes": [
+          "Economia"
+        ],
+        "coverage": "Base de dados: Tabela 7063: INPC - Variação mensal, acumulada no ano, acumulada em 12 meses e peso mensal, para o índice geral, grupos, subgrupos, itens e subitens de produtos e serviços (a partir de janeiro/2020).",
+        "description": "Tabela 7063: INPC - Variação mensal, acumulada no ano, acumulada em 12 meses e peso mensal, para o índice geral, grupos, subgrupos, itens e subitens de produtos e serviços (a partir de janeiro/2020).",
+        "url": "https://sidra.ibge.gov.br/tabela/7063",
+        "docs": "https://sidra.ibge.gov.br/tabela/7063",
+        "format": "Tabela SIDRA e opções de extração do sistema",
+        "period": "Conforme edições e períodos disponíveis no mantenedor",
+        "granularity": "Conforme variáveis e recortes disponíveis na fonte; consultar o dicionário antes de agregar",
+        "geoUnit": "Conforme cobertura descrita nesta ficha",
+        "limitations": "Conferida a identidade da tabela SIDRA; não foi extraída a série integral. Conferir unidades, níveis geográficos, pesos e quebras de classificação antes de comparar.",
+        "lastChecked": "2026-11-20",
+        "discoveryUrl": "https://sabiadatalake.com.br/guaraci/docs.html#src-ibge-inpc-grupos",
+        "frequency": "Conforme atualização do mantenedor; frequência não confirmada nesta revisão"
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Codex — revisão assistida solicitada por Rachel",
+        "reviewedAt": "2026-11-20",
+        "officialUrl": "https://sidra.ibge.gov.br/tabela/7063",
+        "evidence": "Fonte primária conferida em 20/11/2026: Tabela 7063: INPC - Variação mensal, acumulada no ano, acumulada em 12 meses e peso mensal, para o índice geral, grupos, subgrupos, itens e subitens de produtos e serviços (a partir de janeiro/2020). Funcionalidade e conteúdo: Tabela 7063: INPC - Variação mensal, acumulada no ano, acumulada em 12 meses e peso mensal, para o índice geral, grupos, subgrupos, itens e subitens de produtos e serviços (a partir de janeiro/2020).. Acesso e limitações: Conferida a identidade da tabela SIDRA; não foi extraída a série integral. Conferir unidades, níveis geográficos, pesos e quebras de classificação antes de comparar."
+      }
+    },
+    {
+      "category": "datasets",
+      "record": {
+        "id": "manual-20261120-ibge-ipca15-grupos",
+        "name": "IPCA-15 · grupos, subgrupos e itens",
+        "org": "IBGE",
+        "territoryTier": "Brasil",
+        "kind": "dataset",
+        "themes": [
+          "Economia"
+        ],
+        "coverage": "Base de dados: Tabela 7062: IPCA15 - Variação mensal, acumulada no ano, acumulada em 12 meses e peso mensal, para o índice geral, grupos, subgrupos, itens e subitens de produtos e serviços (a partir de fevereiro/2020).",
+        "description": "Tabela 7062: IPCA15 - Variação mensal, acumulada no ano, acumulada em 12 meses e peso mensal, para o índice geral, grupos, subgrupos, itens e subitens de produtos e serviços (a partir de fevereiro/2020).",
+        "url": "https://sidra.ibge.gov.br/tabela/7062",
+        "docs": "https://sidra.ibge.gov.br/tabela/7062",
+        "format": "Tabela SIDRA e opções de extração do sistema",
+        "period": "Conforme edições e períodos disponíveis no mantenedor",
+        "granularity": "Conforme variáveis e recortes disponíveis na fonte; consultar o dicionário antes de agregar",
+        "geoUnit": "Conforme cobertura descrita nesta ficha",
+        "limitations": "Conferida a identidade da tabela SIDRA; não foi extraída a série integral. Conferir unidades, níveis geográficos, pesos e quebras de classificação antes de comparar.",
+        "lastChecked": "2026-11-20",
+        "discoveryUrl": "https://sabiadatalake.com.br/guaraci/docs.html#src-ibge-ipca15-grupos",
+        "frequency": "Conforme atualização do mantenedor; frequência não confirmada nesta revisão"
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Codex — revisão assistida solicitada por Rachel",
+        "reviewedAt": "2026-11-20",
+        "officialUrl": "https://sidra.ibge.gov.br/tabela/7062",
+        "evidence": "Fonte primária conferida em 20/11/2026: Tabela 7062: IPCA15 - Variação mensal, acumulada no ano, acumulada em 12 meses e peso mensal, para o índice geral, grupos, subgrupos, itens e subitens de produtos e serviços (a partir de fevereiro/2020). Funcionalidade e conteúdo: Tabela 7062: IPCA15 - Variação mensal, acumulada no ano, acumulada em 12 meses e peso mensal, para o índice geral, grupos, subgrupos, itens e subitens de produtos e serviços (a partir de fevereiro/2020).. Acesso e limitações: Conferida a identidade da tabela SIDRA; não foi extraída a série integral. Conferir unidades, níveis geográficos, pesos e quebras de classificação antes de comparar."
+      }
+    },
+    {
+      "category": "tools",
+      "record": {
+        "id": "manual-20261120-pesquisa-diario-oficial-uniao",
+        "name": "Pesquisa no Diário Oficial da União",
+        "kind": "Busca documental oficial",
+        "url": "https://www.in.gov.br/consulta",
+        "desc": "Ferramenta da Imprensa Nacional que permite pesquisar publicações no Diário Oficial da União, com campos de busca e filtros de período e edição. Acesso web público; resultados, cobertura histórica, exportação e buscas complexas devem ser conferidos no próprio sistema.",
+        "lastChecked": "2026-11-20"
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Codex — revisão assistida solicitada por Rachel",
+        "reviewedAt": "2026-11-20",
+        "officialUrl": "https://www.in.gov.br/consulta",
+        "evidence": "Página oficial da Imprensa Nacional lida: funcionalidade permite pesquisa no Diário Oficial da União com busca exata/aproximada, período e edição. Acesso web público; limitações: não foram testadas consultas exaustivas, exportação ou a completude histórica."
+      }
+    }
+  ]
+}

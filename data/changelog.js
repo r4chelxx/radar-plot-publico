@@ -1,6 +1,174 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
 {
+  "date": "2026-11-20",
+  "type": "dados",
+  "title": "Publicação editorial verificada — 2026-11-20",
+  "items": [
+    {
+      "id": "manual-20261120-conectividade-na-educacao",
+      "title": "Conectividade na Educação"
+    },
+    {
+      "id": "manual-20261120-inep-taxas-rendimento",
+      "title": "INEP · taxas de rendimento"
+    },
+    {
+      "id": "manual-20261120-inep-distorcao-idade-serie",
+      "title": "INEP · distorção idade-série"
+    },
+    {
+      "id": "manual-20261120-inep-adequacao-formacao-docente",
+      "title": "INEP · adequação da formação docente"
+    },
+    {
+      "id": "manual-20261120-inep-inse",
+      "title": "INEP · Indicador de Nível Socioeconômico (INSE)"
+    },
+    {
+      "id": "manual-20261120-inep-esforco-docente",
+      "title": "INEP · esforço docente"
+    },
+    {
+      "id": "manual-20261120-inep-regularidade-docente",
+      "title": "INEP · regularidade do corpo docente"
+    },
+    {
+      "id": "manual-20261120-inep-complexidade-gestao",
+      "title": "INEP · complexidade de gestão da escola"
+    },
+    {
+      "id": "manual-20261120-inep-alunos-por-turma",
+      "title": "INEP · alunos por turma"
+    },
+    {
+      "id": "manual-20261120-inep-horas-aula",
+      "title": "INEP · horas-aula diárias"
+    },
+    {
+      "id": "manual-20261120-inep-docentes-curso-superior",
+      "title": "INEP · docentes com curso superior"
+    },
+    {
+      "id": "manual-20261120-atencao-primaria-pmmb-relatorio-historico-cadastro-cnes",
+      "title": "PMMB, histórico de cadastro no CNES"
+    },
+    {
+      "id": "manual-20261120-atencao-primaria-siaps-cadastro-individual",
+      "title": "SIAPS · cadastro individual"
+    },
+    {
+      "id": "manual-20261120-atencao-primaria-pmme-instituicoes-formadoras",
+      "title": "PMME · instituições formadoras"
+    },
+    {
+      "id": "manual-20261120-ciencia-tecnologia-dgits-controle-pcdt",
+      "title": "Controle de PCDT"
+    },
+    {
+      "id": "manual-20261120-macrorregiao-e-regiao-de-saude-municipio",
+      "title": "Macrorregião e região de saúde"
+    },
+    {
+      "id": "manual-20261120-prevencao-e-promocao-distribuicao-epi-insumo",
+      "title": "Distribuição de insumos (EPI)"
+    },
+    {
+      "id": "manual-20261120-saude-indigena-sesai-assistencia-farmaceutica",
+      "title": "SESAI · assistência farmacêutica"
+    },
+    {
+      "id": "manual-20261120-vigilancia-e-meio-ambiente-svsa-populacao-residente",
+      "title": "População residente (SVSA)"
+    },
+    {
+      "id": "manual-20261120-ibge-localidades-municipios",
+      "title": "IBGE · localidades, municípios"
+    },
+    {
+      "id": "manual-20261120-ibge-localidades-distritos",
+      "title": "IBGE · localidades, distritos"
+    },
+    {
+      "id": "manual-20261120-cnae-classes",
+      "title": "CNAE · classes"
+    },
+    {
+      "id": "manual-20261120-cnae-subclasses",
+      "title": "CNAE · subclasses"
+    },
+    {
+      "id": "manual-20261120-siconfi-dca-despesa-funcao",
+      "title": "SICONFI — API de declarações fiscais"
+    },
+    {
+      "id": "manual-20261120-ipeadata-series",
+      "title": "Ipeadata — API de séries e metadados"
+    },
+    {
+      "id": "manual-20261120-bcb-sicor-custeio-municipio",
+      "title": "SICOR — API de crédito rural"
+    },
+    {
+      "id": "manual-20261120-rio-iqar-diario",
+      "title": "Rio de Janeiro — índice diário de qualidade do ar"
+    },
+    {
+      "id": "manual-20261120-fhemig-indicadores-hospitalares",
+      "title": "FHEMIG — catálogo de indicadores hospitalares"
+    },
+    {
+      "id": "manual-20261120-iarc-monografias-classificacoes",
+      "title": "IARC — classificações das Monografias"
+    },
+    {
+      "id": "manual-20261120-siab-situacao-saude",
+      "title": "SIAB — atenção básica e Saúde da Família (1998–2015)"
+    },
+    {
+      "id": "manual-20261120-sim-obitos-fetais",
+      "title": "SIM — tabulações de mortalidade desde 1996"
+    },
+    {
+      "id": "manual-20261120-ibge-pnad-covid19",
+      "title": "PNAD COVID-19 — microdados históricos"
+    },
+    {
+      "id": "manual-20261120-ibge-censo2022-amostra",
+      "title": "Censo 2022 — acesso aos microdados da amostra"
+    },
+    {
+      "id": "manual-20261120-mte-caged-antigo",
+      "title": "MTE — microdados RAIS e CAGED"
+    },
+    {
+      "id": "manual-20261120-ibge-ipca-grupos",
+      "title": "IPCA · grupos, subgrupos e itens"
+    },
+    {
+      "id": "manual-20261120-ibge-inpc-grupos",
+      "title": "INPC · grupos, subgrupos e itens"
+    },
+    {
+      "id": "manual-20261120-ibge-ipca15-grupos",
+      "title": "IPCA-15 · grupos, subgrupos e itens"
+    }
+  ],
+  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Conectividade na Educação; INEP · taxas de rendimento; INEP · distorção idade-série; INEP · adequação da formação docente; INEP · Indicador de Nível Socioeconômico (INSE); INEP · esforço docente; INEP · regularidade do corpo docente; INEP · complexidade de gestão da escola; INEP · alunos por turma; INEP · horas-aula diárias; INEP · docentes com curso superior; PMMB, histórico de cadastro no CNES; SIAPS · cadastro individual; PMME · instituições formadoras; Controle de PCDT; Macrorregião e região de saúde; Distribuição de insumos (EPI); SESAI · assistência farmacêutica; População residente (SVSA); IBGE · localidades, municípios; IBGE · localidades, distritos; CNAE · classes; CNAE · subclasses; SICONFI — API de declarações fiscais; Ipeadata — API de séries e metadados; SICOR — API de crédito rural; Rio de Janeiro — índice diário de qualidade do ar; FHEMIG — catálogo de indicadores hospitalares; IARC — classificações das Monografias; SIAB — atenção básica e Saúde da Família (1998–2015); SIM — tabulações de mortalidade desde 1996; PNAD COVID-19 — microdados históricos; Censo 2022 — acesso aos microdados da amostra; MTE — microdados RAIS e CAGED; IPCA · grupos, subgrupos e itens; INPC · grupos, subgrupos e itens; IPCA-15 · grupos, subgrupos e itens."
+},
+{
+  "date": "2026-11-20",
+  "type": "ferramentas",
+  "title": "Publicação editorial verificada — 2026-11-20",
+  "items": [
+    {
+      "id": "manual-20261120-pesquisa-diario-oficial-uniao",
+      "title": "Pesquisa no Diário Oficial da União"
+    }
+  ],
+  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Pesquisa no Diário Oficial da União."
+},
+{
   "date": "2026-11-18",
   "type": "ferramentas",
   "title": "Publicação editorial verificada — 2026-11-18",
@@ -11,7 +179,7 @@ window.RADAR_PARTS.changelog=[
     }
   ],
   "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Fact Check Explorer."
-}, 
+},
 {
   "date": "2026-11-18",
   "type": "ferramentas",
@@ -23,7 +191,7 @@ window.RADAR_PARTS.changelog=[
     }
   ],
   "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: earthkit."
-}, 
+},
 {
   "date": "2026-11-18",
   "type": "nova-oportunidade",
@@ -35,7 +203,7 @@ window.RADAR_PARTS.changelog=[
     }
   ],
   "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Pulitzer Center Rainforest Reporting Grant."
-}, 
+},
   {
     "date": "2026-11-18",
     "type": "dados",

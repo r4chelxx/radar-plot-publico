@@ -1,0 +1,1614 @@
+[
+  {
+    "key": "inep_ideb_brasil_ufs",
+    "requestedUrl": "https://download.inep.gov.br/ideb/resultados/divulgacao_regioes_ufs_ideb_2025.zip",
+    "checkedAt": "2026-11-20T21:31:15.527147+00:00",
+    "status": 503,
+    "url": "https://download.inep.gov.br/ideb/resultados/divulgacao_regioes_ufs_ideb_2025.zip",
+    "error": "HTTP Error 503: Service Unavailable"
+  },
+  {
+    "key": "inep_ideb_escolas",
+    "requestedUrl": "https://download.inep.gov.br/ideb/resultados/divulgacao_ensino_medio_escolas_2025.zip",
+    "checkedAt": "2026-11-20T21:31:08.767791+00:00",
+    "status": 503,
+    "url": "https://download.inep.gov.br/ideb/resultados/divulgacao_ensino_medio_escolas_2025.zip",
+    "error": "HTTP Error 503: Service Unavailable"
+  },
+  {
+    "key": "inep_censo_escolar_curso_tecnico",
+    "requestedUrl": "https://download.inep.gov.br/dados_abertos/microdados_censo_escolar_2025_.zip",
+    "checkedAt": "2026-11-20T21:31:02.153124+00:00",
+    "status": 503,
+    "url": "https://download.inep.gov.br/dados_abertos/microdados_censo_escolar_2025_.zip",
+    "error": "HTTP Error 503: Service Unavailable"
+  },
+  {
+    "key": "inep_censo_escolar_gestor",
+    "requestedUrl": "https://download.inep.gov.br/dados_abertos/microdados_censo_escolar_2025_.zip",
+    "checkedAt": "2026-11-20T21:30:55.630245+00:00",
+    "status": 503,
+    "url": "https://download.inep.gov.br/dados_abertos/microdados_censo_escolar_2025_.zip",
+    "error": "HTTP Error 503: Service Unavailable"
+  },
+  {
+    "key": "inep_censo_escolar_turma",
+    "requestedUrl": "https://download.inep.gov.br/dados_abertos/microdados_censo_escolar_2025_.zip",
+    "checkedAt": "2026-11-20T21:30:49.112027+00:00",
+    "status": 503,
+    "url": "https://download.inep.gov.br/dados_abertos/microdados_censo_escolar_2025_.zip",
+    "error": "HTTP Error 503: Service Unavailable"
+  },
+  {
+    "key": "inep_censo_escolar_docente",
+    "requestedUrl": "https://download.inep.gov.br/dados_abertos/microdados_censo_escolar_2025_.zip",
+    "checkedAt": "2026-11-20T21:30:42.539660+00:00",
+    "status": 503,
+    "url": "https://download.inep.gov.br/dados_abertos/microdados_censo_escolar_2025_.zip",
+    "error": "HTTP Error 503: Service Unavailable"
+  },
+  {
+    "key": "inep_censo_escolar_matricula",
+    "requestedUrl": "https://download.inep.gov.br/dados_abertos/microdados_censo_escolar_2025_.zip",
+    "checkedAt": "2026-11-20T21:30:36.000476+00:00",
+    "status": 503,
+    "url": "https://download.inep.gov.br/dados_abertos/microdados_censo_escolar_2025_.zip",
+    "error": "HTTP Error 503: Service Unavailable"
+  },
+  {
+    "key": "saude_indigena_sesai_obitos",
+    "requestedUrl": "https://apidadosabertos.saude.gov.br/saude-indigena/sesai-obitos",
+    "checkedAt": "2026-11-20T21:30:30.020796+00:00",
+    "status": 200,
+    "url": "https://apidadosabertos.saude.gov.br/saude-indigena/sesai-obitos",
+    "contentType": "application/json",
+    "bytesRead": 21,
+    "sha256": "6ccf0152f777e4fe936de80f77641dc842fc4e19cca8677529f4cbeec0091f6e",
+    "truncated": false,
+    "jsonType": "dict",
+    "jsonKeys": [
+      "sesai_obitos"
+    ],
+    "arrayLengths": {
+      "sesai_obitos": 0
+    },
+    "recordFields": []
+  },
+  {
+    "key": "inep_docentes_curso_superior",
+    "requestedUrl": "https://download.inep.gov.br/informacoes_estatisticas/indicadores_educacionais/2025/DSU_2025_BRASIL_REGIOES_UFS.zip",
+    "checkedAt": "2026-11-20T21:30:31.719261+00:00",
+    "status": 503,
+    "url": "https://download.inep.gov.br/informacoes_estatisticas/indicadores_educacionais/2025/DSU_2025_BRASIL_REGIOES_UFS.zip",
+    "error": "HTTP Error 503: Service Unavailable"
+  },
+  {
+    "key": "inep_horas_aula",
+    "requestedUrl": "https://download.inep.gov.br/informacoes_estatisticas/indicadores_educacionais/2025/HAD_2025_BRASIL_REGIOES_UFS.zip",
+    "checkedAt": "2026-11-20T21:30:27.873969+00:00",
+    "status": 503,
+    "url": "https://download.inep.gov.br/informacoes_estatisticas/indicadores_educacionais/2025/HAD_2025_BRASIL_REGIOES_UFS.zip",
+    "error": "HTTP Error 503: Service Unavailable"
+  },
+  {
+    "key": "saude_indigena_sesai_hepatites_virais",
+    "requestedUrl": "https://apidadosabertos.saude.gov.br/saude-indigena/sesai-hepatites-virais",
+    "checkedAt": "2026-11-20T21:30:22.986574+00:00",
+    "status": 200,
+    "url": "https://apidadosabertos.saude.gov.br/saude-indigena/sesai-hepatites-virais",
+    "contentType": "application/json",
+    "bytesRead": 31,
+    "sha256": "e0bb62498725590413be250126d874a51e7393e08a2b56121c7e0bbf07749f15",
+    "truncated": false,
+    "jsonType": "dict",
+    "jsonKeys": [
+      "sesai_hepatites_virais"
+    ],
+    "arrayLengths": {
+      "sesai_hepatites_virais": 0
+    },
+    "recordFields": []
+  },
+  {
+    "key": "cvesp_hiv",
+    "requestedUrl": "https://tabnetcve.saude.sp.gov.br/deftohtm.exe?cvetab/defs/crt/hiv.def",
+    "checkedAt": "2026-11-20T21:30:21.316986+00:00",
+    "status": 503,
+    "url": "https://tabnetcve.saude.sp.gov.br/deftohtm.exe?cvetab/defs/crt/hiv.def",
+    "error": "HTTP Error 503: Service Unavailable"
+  },
+  {
+    "key": "inep_alunos_por_turma",
+    "requestedUrl": "https://download.inep.gov.br/informacoes_estatisticas/indicadores_educacionais/2025/ATU_2025_BRASIL_REGIOES_UFS.zip",
+    "checkedAt": "2026-11-20T21:30:23.642700+00:00",
+    "status": 503,
+    "url": "https://download.inep.gov.br/informacoes_estatisticas/indicadores_educacionais/2025/ATU_2025_BRASIL_REGIOES_UFS.zip",
+    "error": "HTTP Error 503: Service Unavailable"
+  },
+  {
+    "key": "inep_complexidade_gestao",
+    "requestedUrl": "https://download.inep.gov.br/informacoes_estatisticas/indicadores_educacionais/2025/ICG_2025_BRASIL_REGIOES_UFS.zip",
+    "checkedAt": "2026-11-20T21:30:19.719678+00:00",
+    "status": 503,
+    "url": "https://download.inep.gov.br/informacoes_estatisticas/indicadores_educacionais/2025/ICG_2025_BRASIL_REGIOES_UFS.zip",
+    "error": "HTTP Error 503: Service Unavailable"
+  },
+  {
+    "key": "saude_indigena_sesai_assistencia_farmaceutica",
+    "requestedUrl": "https://apidadosabertos.saude.gov.br/saude-indigena/sesai-assistencia-farmaceutica",
+    "checkedAt": "2026-11-20T21:30:19.174956+00:00",
+    "status": 200,
+    "url": "https://apidadosabertos.saude.gov.br/saude-indigena/sesai-assistencia-farmaceutica",
+    "contentType": "application/json",
+    "bytesRead": 15028,
+    "sha256": "e129025c033e8d75e919117846043fce750b1b2c19eca55145c8bf4bfc403bda",
+    "truncated": false,
+    "jsonType": "dict",
+    "jsonKeys": [
+      "sesai_assistencia_farmaceutica"
+    ],
+    "arrayLengths": {
+      "sesai_assistencia_farmaceutica": 100
+    },
+    "recordFields": [
+      "dsei",
+      "material",
+      "unidade_de_medida",
+      "qtd_entregue"
+    ]
+  },
+  {
+    "key": "cvesp_aids_adulto",
+    "requestedUrl": "https://tabnetcve.saude.sp.gov.br/deftohtm.exe?cvetab/defs/crt/aidsa.def",
+    "checkedAt": "2026-11-20T21:30:12.696033+00:00",
+    "status": 503,
+    "url": "https://tabnetcve.saude.sp.gov.br/deftohtm.exe?cvetab/defs/crt/aidsa.def",
+    "error": "HTTP Error 503: Service Unavailable"
+  },
+  {
+    "key": "inep_regularidade_docente",
+    "requestedUrl": "https://download.inep.gov.br/informacoes_estatisticas/indicadores_educacionais/2025/IRD_2025_BRASIL_REGIOES_UFS.zip",
+    "checkedAt": "2026-11-20T21:30:15.409096+00:00",
+    "status": 503,
+    "url": "https://download.inep.gov.br/informacoes_estatisticas/indicadores_educacionais/2025/IRD_2025_BRASIL_REGIOES_UFS.zip",
+    "error": "HTTP Error 503: Service Unavailable"
+  },
+  {
+    "key": "vigilancia_e_meio_ambiente_svsa_populacao_residente",
+    "requestedUrl": "https://apidadosabertos.saude.gov.br/vigilancia-e-meio-ambiente/svsa-populacao-residente",
+    "checkedAt": "2026-11-20T21:30:15.458388+00:00",
+    "status": 200,
+    "url": "https://apidadosabertos.saude.gov.br/vigilancia-e-meio-ambiente/svsa-populacao-residente",
+    "contentType": "application/json",
+    "bytesRead": 7092,
+    "sha256": "6135055edde8603b61ec0a90817e678b0de96b7f02b9180180f9120ae60f2070",
+    "truncated": false,
+    "jsonType": "dict",
+    "jsonKeys": [
+      "svsa_populacao_residente"
+    ],
+    "arrayLengths": {
+      "svsa_populacao_residente": 100
+    },
+    "recordFields": [
+      "pop",
+      "sexo",
+      "cod_mun",
+      "ano",
+      "idade"
+    ]
+  },
+  {
+    "key": "atencao_primaria_pmme_instituicoes_formadoras",
+    "requestedUrl": "https://apidadosabertos.saude.gov.br/atencao-primaria/pmme-instituicoes-formadoras",
+    "checkedAt": "2026-11-20T21:30:10.674445+00:00",
+    "status": 200,
+    "url": "https://apidadosabertos.saude.gov.br/atencao-primaria/pmme-instituicoes-formadoras",
+    "contentType": "application/json",
+    "bytesRead": 18157,
+    "sha256": "349ab28765b2a45fba9812004f08511d69fde4276e8a221a4d30b1f37179f122",
+    "truncated": false,
+    "jsonType": "dict",
+    "jsonKeys": [
+      "pmme_instituicoes_formadoras"
+    ],
+    "arrayLengths": {
+      "pmme_instituicoes_formadoras": 100
+    },
+    "recordFields": [
+      "no_especialista",
+      "no_rede_formadora",
+      "no_instituicao_formadora"
+    ]
+  },
+  {
+    "key": "inep_esforco_docente",
+    "requestedUrl": "https://download.inep.gov.br/informacoes_estatisticas/indicadores_educacionais/2025/IED_2025_BRASIL_REGIOES_UFS.zip",
+    "checkedAt": "2026-11-20T21:30:10.499450+00:00",
+    "status": 503,
+    "url": "https://download.inep.gov.br/informacoes_estatisticas/indicadores_educacionais/2025/IED_2025_BRASIL_REGIOES_UFS.zip",
+    "error": "HTTP Error 503: Service Unavailable"
+  },
+  {
+    "key": "cvesp_hiv_gestante",
+    "requestedUrl": "https://tabnetcve.saude.sp.gov.br/deftohtm.exe?cvetab/defs/crt/hivgestnet.def",
+    "checkedAt": "2026-11-20T21:30:03.876055+00:00",
+    "status": 503,
+    "url": "https://tabnetcve.saude.sp.gov.br/deftohtm.exe?cvetab/defs/crt/hivgestnet.def",
+    "error": "HTTP Error 503: Service Unavailable"
+  },
+  {
+    "key": "atencao_primaria_siaps_cadastro_individual",
+    "requestedUrl": "https://apidadosabertos.saude.gov.br/atencao-primaria/siaps-cadastro-individual",
+    "checkedAt": "2026-11-20T21:30:05.403467+00:00",
+    "status": 200,
+    "url": "https://apidadosabertos.saude.gov.br/atencao-primaria/siaps-cadastro-individual",
+    "contentType": "application/json",
+    "bytesRead": 63816,
+    "sha256": "6057f1faaf061880e1b97faf0ae78fac159ecd4a9ab2bc4bb87ab3f7b340f1c7",
+    "truncated": false,
+    "jsonType": "dict",
+    "jsonKeys": [
+      "siaps_cadastro_individual"
+    ],
+    "arrayLengths": {
+      "siaps_cadastro_individual": 100
+    },
+    "recordFields": [
+      "regiao",
+      "unidade_federativa",
+      "competencia_siaps",
+      "regiao_de_saude",
+      "municipio",
+      "raca_cor",
+      "sexo",
+      "escolaridade",
+      "faixa_etaria",
+      "nacionalidade",
+      "membro_de_povo_ou_comunidade_tradicional",
+      "pessoa_em_situacao_de_rua",
+      "pessoa_com_deficiencia",
+      "situacao_no_mercado_de_trabalho",
+      "tipo_de_estabelecimento",
+      "tipo_de_equipe",
+      "qtd_pessoas_cadastradas"
+    ]
+  },
+  {
+    "key": "inep_inse",
+    "requestedUrl": "https://download.inep.gov.br/informacoes_estatisticas/indicadores_educacionais/2023/nivel_socioeconomico/INSE_2023_brasil.xlsx",
+    "checkedAt": "2026-11-20T21:30:03.764767+00:00",
+    "status": 503,
+    "url": "https://download.inep.gov.br/informacoes_estatisticas/indicadores_educacionais/2023/nivel_socioeconomico/INSE_2023_brasil.xlsx",
+    "error": "HTTP Error 503: Service Unavailable"
+  },
+  {
+    "key": "prevencao_e_promocao_distribuicao_epi_insumo",
+    "requestedUrl": "https://apidadosabertos.saude.gov.br/prevencao-e-promocao/distribuicao-epi-insumo",
+    "checkedAt": "2026-11-20T21:30:00.760081+00:00",
+    "status": 200,
+    "url": "https://apidadosabertos.saude.gov.br/prevencao-e-promocao/distribuicao-epi-insumo",
+    "contentType": "application/json",
+    "bytesRead": 18959,
+    "sha256": "9fb7a745bec08de02c45a75d7ee441c4cbb43954de126d2bd6e2ce67fdff15e3",
+    "truncated": false,
+    "jsonType": "dict",
+    "jsonKeys": [
+      "distribuicao_epi_insumo"
+    ],
+    "arrayLengths": {
+      "distribuicao_epi_insumo": 100
+    },
+    "recordFields": [
+      "quantidade",
+      "unidade",
+      "material",
+      "numero_do_pedido",
+      "data_de_saida",
+      "status",
+      "requisitante_destino"
+    ]
+  },
+  {
+    "key": "cvesp_sifilis_adquirida",
+    "requestedUrl": "https://tabnetcve.saude.sp.gov.br/deftohtm.exe?cvetab/defs/crt/sifadq.def",
+    "checkedAt": "2026-11-20T21:29:55.146006+00:00",
+    "status": 503,
+    "url": "https://tabnetcve.saude.sp.gov.br/deftohtm.exe?cvetab/defs/crt/sifadq.def",
+    "error": "HTTP Error 503: Service Unavailable"
+  },
+  {
+    "key": "inep_adequacao_formacao_docente",
+    "requestedUrl": "https://download.inep.gov.br/informacoes_estatisticas/indicadores_educacionais/2025/AFD_2025_BRASIL_REGIOES_UF.zip",
+    "checkedAt": "2026-11-20T21:29:57.119175+00:00",
+    "status": 503,
+    "url": "https://download.inep.gov.br/informacoes_estatisticas/indicadores_educacionais/2025/AFD_2025_BRASIL_REGIOES_UF.zip",
+    "error": "HTTP Error 503: Service Unavailable"
+  },
+  {
+    "key": "sb_brasil_2003",
+    "requestedUrl": "https://www.gov.br/saude/pt-br/composicao/saps/brasil-sorridente/sb-brasil/arquivos/2020/sbbrasil_co.zip",
+    "checkedAt": "2026-11-20T21:29:57.597382+00:00",
+    "status": 200,
+    "url": "https://www.gov.br/saude/pt-br/composicao/saps/brasil-sorridente/sb-brasil/arquivos/2020/sbbrasil_co.zip",
+    "contentType": "application/zip",
+    "contentNote": "Arquivo de dados identificado pelo cabeçalho; download integral não realizado."
+  },
+  {
+    "key": "outros_temas_ced",
+    "requestedUrl": "https://apidadosabertos.saude.gov.br/outros-temas/ced",
+    "checkedAt": "2026-11-20T21:29:55.401596+00:00",
+    "status": 503,
+    "url": "https://apidadosabertos.saude.gov.br/outros-temas/ced",
+    "error": "HTTP Error 503: Service Unavailable"
+  },
+  {
+    "key": "sb_brasil_1986",
+    "requestedUrl": "https://www.gov.br/saude/pt-br/composicao/saps/brasil-sorridente/sb-brasil/dados/1986/levantamento-sb-1986.xlsx",
+    "checkedAt": "2026-11-20T21:29:52.910495+00:00",
+    "status": "inconclusive",
+    "url": "https://www.gov.br/saude/pt-br/composicao/saps/brasil-sorridente/sb-brasil/dados/1986/levantamento-sb-1986.xlsx",
+    "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "bytesRead": 700000,
+    "sha256": "76742f2f284d5ee690855f964b6fc2326f1d4b2559f11d120be6a820e18e9a92",
+    "truncated": true,
+    "error": "'charmap' codec can't decode byte 0x90 in position 15: character maps to <undefined>"
+  },
+  {
+    "key": "inep_distorcao_idade_serie",
+    "requestedUrl": "https://download.inep.gov.br/informacoes_estatisticas/indicadores_educacionais/2025/TDI_2025_BRASIL_REGIOES_UFS.zip",
+    "checkedAt": "2026-11-20T21:29:50.627981+00:00",
+    "status": 503,
+    "url": "https://download.inep.gov.br/informacoes_estatisticas/indicadores_educacionais/2025/TDI_2025_BRASIL_REGIOES_UFS.zip",
+    "error": "HTTP Error 503: Service Unavailable"
+  },
+  {
+    "key": "painel-de-saneamento-basico-do-tce-sp",
+    "requestedUrl": "https://www.tce.sp.gov.br/saneamento",
+    "checkedAt": "2026-11-20T21:29:44.987212+00:00",
+    "status": 200,
+    "url": "https://www.tce.sp.gov.br/indisponibilidade-temporaria-paineis-tcesp",
+    "contentType": "text/html; charset=UTF-8",
+    "bytesRead": 48265,
+    "sha256": "63446cc2922deae4ad41919ce221b540556ad0e083c9781bbae9f05e6a366884",
+    "truncated": false,
+    "title": "Indisponibilidade Temporária – Painéis TCESP | Tribunal de Contas do Estado de São Paulo",
+    "description": ""
+  },
+  {
+    "key": "ibge_ipca15_grupos",
+    "requestedUrl": "https://sidra.ibge.gov.br/tabela/7062",
+    "checkedAt": "2026-11-20T21:29:52.039757+00:00",
+    "status": 200,
+    "url": "https://sidra.ibge.gov.br/tabela/7062",
+    "contentType": "text/html; charset=utf-8",
+    "bytesRead": 91311,
+    "sha256": "fff7e7a855220a5d300fc85056b5ca333142c9be3d77edd7fa7454d00cb24e9f",
+    "truncated": false,
+    "title": "Tabela 7062: IPCA15 - Variação mensal, acumulada no ano, acumulada em 12 meses e peso mensal, para o índice geral, grupos, subgrupos, itens e subitens de produtos e serviços (a partir de fevereiro/2020)",
+    "description": ""
+  },
+  {
+    "key": "macrorregiao_e_regiao_de_saude_municipio",
+    "requestedUrl": "https://apidadosabertos.saude.gov.br/macrorregiao-e-regiao-de-saude/municipio",
+    "checkedAt": "2026-11-20T21:29:50.690317+00:00",
+    "status": 200,
+    "url": "https://apidadosabertos.saude.gov.br/macrorregiao-e-regiao-de-saude/municipio",
+    "contentType": "application/json",
+    "bytesRead": 294272,
+    "sha256": "a352a82b1c3104f64ccf576c12755920a53d7426a3010cfdc4de1b1173060448",
+    "truncated": false,
+    "jsonType": "dict",
+    "jsonKeys": [
+      "macrorregiao_regiao_saude_municipios"
+    ],
+    "arrayLengths": {
+      "macrorregiao_regiao_saude_municipios": 860
+    },
+    "recordFields": [
+      "codigo_regiao_pais",
+      "regiao_pais",
+      "codigo_uf",
+      "uf",
+      "codigo_macrorregiao_saude",
+      "macrorregiao_saude",
+      "codigo_regiao_saude",
+      "regiao_saude",
+      "codigo_municipio",
+      "municipio",
+      "populacao_estimada_ibge_2022"
+    ]
+  },
+  {
+    "key": "cvesp_sifilis_gestante",
+    "requestedUrl": "https://tabnetcve.saude.sp.gov.br/deftohtm.exe?cvetab/defs/crt/sifges.def",
+    "checkedAt": "2026-11-20T21:29:46.602704+00:00",
+    "status": 503,
+    "url": "https://tabnetcve.saude.sp.gov.br/deftohtm.exe?cvetab/defs/crt/sifges.def",
+    "error": "HTTP Error 503: Service Unavailable"
+  },
+  {
+    "key": "mdhc_disque100",
+    "requestedUrl": "https://www.gov.br/mdh/pt-br/acesso-a-informacao/dados-abertos/disque100/disque100-terceiro-trimestre-2026",
+    "checkedAt": "2026-11-20T21:29:44.582964+00:00",
+    "status": 200,
+    "url": "https://dadosabertos.mdh.gov.br/disque100-terceiro-trimestre-2026.csv",
+    "contentType": "text/csv",
+    "contentNote": "Arquivo de dados identificado pelo cabeçalho; download integral não realizado."
+  },
+  {
+    "key": "ibge_inpc_grupos",
+    "requestedUrl": "https://sidra.ibge.gov.br/tabela/7063",
+    "checkedAt": "2026-11-20T21:29:48.114959+00:00",
+    "status": 200,
+    "url": "https://sidra.ibge.gov.br/tabela/7063",
+    "contentType": "text/html; charset=utf-8",
+    "bytesRead": 91307,
+    "sha256": "9fd3f5835634b25913a76e15b13eda00f4f77c073eb8d454db3956adec0ad699",
+    "truncated": false,
+    "title": "Tabela 7063: INPC - Variação mensal, acumulada no ano, acumulada em 12 meses e peso mensal, para o índice geral, grupos, subgrupos, itens e subitens de produtos e serviços (a partir de janeiro/2020)",
+    "description": ""
+  },
+  {
+    "key": "ciencia_tecnologia_dgits_controle_pcdt",
+    "requestedUrl": "https://apidadosabertos.saude.gov.br/ciencia-tecnologia/dgits-controle-pcdt",
+    "checkedAt": "2026-11-20T21:29:43.692203+00:00",
+    "status": 200,
+    "url": "https://apidadosabertos.saude.gov.br/ciencia-tecnologia/dgits-controle-pcdt",
+    "contentType": "application/json",
+    "bytesRead": 10756,
+    "sha256": "23c4a678ace712f3b5c0d9498f08ff896d117c48414040c03645e900ce895957",
+    "truncated": false,
+    "jsonType": "dict",
+    "jsonKeys": [
+      "dgits_controle_pcdt"
+    ],
+    "arrayLengths": {
+      "dgits_controle_pcdt": 83
+    },
+    "recordFields": [
+      "descricao_do_nome",
+      "status",
+      "descricao_do_tipo"
+    ]
+  },
+  {
+    "key": "inep_taxas_rendimento",
+    "requestedUrl": "https://download.inep.gov.br/informacoes_estatisticas/indicadores_educacionais/2025/tx_rend_brasil_regioes_ufs_2025.zip",
+    "checkedAt": "2026-11-20T21:29:45.336504+00:00",
+    "status": 503,
+    "url": "https://download.inep.gov.br/informacoes_estatisticas/indicadores_educacionais/2025/tx_rend_brasil_regioes_ufs_2025.zip",
+    "error": "HTTP Error 503: Service Unavailable"
+  },
+  {
+    "key": "iarc_monografias_classificacoes",
+    "requestedUrl": "https://webapi.iarc.who.int/loc/loc.app.js",
+    "checkedAt": "2026-11-20T21:29:45.805707+00:00",
+    "status": 200,
+    "url": "https://webapi.iarc.who.int/loc/loc.app.js",
+    "contentType": "application/javascript",
+    "contentNote": "Arquivo de dados identificado pelo cabeçalho; download integral não realizado."
+  },
+  {
+    "key": "detran_sp_infosiga_veiculos",
+    "requestedUrl": "https://infosiga.detran.sp.gov.br/dados-abertos/veiculos_2026.csv",
+    "checkedAt": "2026-11-20T21:29:45.642030+00:00",
+    "status": 404,
+    "url": "https://infosiga.detran.sp.gov.br/dados-abertos/veiculos_2026.csv",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "key": "ibge_censo2000_amostra",
+    "requestedUrl": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2000/Microdados/1_Documentacao_20170908.zip",
+    "checkedAt": "2026-11-20T21:29:44.231619+00:00",
+    "status": 200,
+    "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2000/Microdados/1_Documentacao_20170908.zip",
+    "contentType": "application/zip",
+    "contentNote": "Arquivo de dados identificado pelo cabeçalho; download integral não realizado."
+  },
+  {
+    "key": "ssp_sp_dados_criminais",
+    "requestedUrl": "https://www.ssp.sp.gov.br/assets/estatistica/transparencia/spDados/SPDadosCriminais_2026.xlsx",
+    "checkedAt": "2026-11-20T21:29:40.866191+00:00",
+    "status": 503,
+    "url": "https://www.ssp.sp.gov.br/assets/estatistica/transparencia/spDados/SPDadosCriminais_2026.xlsx",
+    "error": "HTTP Error 503: Service Unavailable"
+  },
+  {
+    "key": "ibge_ipca_grupos",
+    "requestedUrl": "https://sidra.ibge.gov.br/tabela/7060",
+    "checkedAt": "2026-11-20T21:29:44.034108+00:00",
+    "status": 200,
+    "url": "https://sidra.ibge.gov.br/tabela/7060",
+    "contentType": "text/html; charset=utf-8",
+    "bytesRead": 91307,
+    "sha256": "e8e8302ff8b9a07d6150f1e87608f4141cd6913f31f46071f5216bec64ade527",
+    "truncated": false,
+    "title": "Tabela 7060: IPCA - Variação mensal, acumulada no ano, acumulada em 12 meses e peso mensal, para o índice geral, grupos, subgrupos, itens e subitens de produtos e serviços (a partir de janeiro/2020)",
+    "description": ""
+  },
+  {
+    "key": "cvesp_sifilis_congenita",
+    "requestedUrl": "https://tabnetcve.saude.sp.gov.br/deftohtm.exe?cvetab/defs/crt/sifilisnet.def",
+    "checkedAt": "2026-11-20T21:29:38.241339+00:00",
+    "status": 503,
+    "url": "https://tabnetcve.saude.sp.gov.br/deftohtm.exe?cvetab/defs/crt/sifilisnet.def",
+    "error": "HTTP Error 503: Service Unavailable"
+  },
+  {
+    "key": "tse_municipios_ibge",
+    "requestedUrl": "https://cdn.tse.jus.br/estatistica/sead/odsele/municipio_tse_ibge/municipio_tse_ibge.zip",
+    "checkedAt": "2026-11-20T21:29:42.693120+00:00",
+    "status": 200,
+    "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/municipio_tse_ibge/municipio_tse_ibge.zip",
+    "contentType": "application/zip",
+    "contentNote": "Arquivo de dados identificado pelo cabeçalho; download integral não realizado."
+  },
+  {
+    "key": "detran_sp_infosiga_pessoas",
+    "requestedUrl": "https://infosiga.detran.sp.gov.br/dados-abertos/pessoas_2026.csv",
+    "checkedAt": "2026-11-20T21:29:41.632476+00:00",
+    "status": 404,
+    "url": "https://infosiga.detran.sp.gov.br/dados-abertos/pessoas_2026.csv",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "key": "inep_ideb_municipios",
+    "requestedUrl": "https://download.inep.gov.br/ideb/resultados/divulgacao_ensino_medio_municipios_2025.zip",
+    "checkedAt": "2026-11-20T21:29:40.575375+00:00",
+    "status": 503,
+    "url": "https://download.inep.gov.br/ideb/resultados/divulgacao_ensino_medio_municipios_2025.zip",
+    "error": "HTTP Error 503: Service Unavailable"
+  },
+  {
+    "key": "painel-de-obras-tce-sp",
+    "requestedUrl": "https://www.tce.sp.gov.br/paineldeobras",
+    "checkedAt": "2026-11-20T21:29:33.272709+00:00",
+    "status": 200,
+    "url": "https://www.tce.sp.gov.br/indisponibilidade-temporaria-paineis-tcesp",
+    "contentType": "text/html; charset=UTF-8",
+    "bytesRead": 48265,
+    "sha256": "63446cc2922deae4ad41919ce221b540556ad0e083c9781bbae9f05e6a366884",
+    "truncated": false,
+    "title": "Indisponibilidade Temporária – Painéis TCESP | Tribunal de Contas do Estado de São Paulo",
+    "description": ""
+  },
+  {
+    "key": "prf_acidentes_pessoas",
+    "requestedUrl": "https://www.gov.br/prf/pt-br/acesso-a-informacao/dados-abertos/dados-abertos-da-prf",
+    "checkedAt": "2026-11-20T21:29:41.077814+00:00",
+    "status": 200,
+    "url": "https://www.gov.br/prf/pt-br/acesso-a-informacao/dados-abertos/dados-abertos-da-prf",
+    "contentType": "text/html; charset=utf-8",
+    "bytesRead": 482132,
+    "sha256": "2546f5ca7d4d9d35031615e5527ea00f497524f44ec103d75b6d981a6f07aa80",
+    "truncated": false,
+    "title": "Dados Abertos da PRF Portal Gov.br",
+    "description": ""
+  },
+  {
+    "key": "cetesb_qualar_horario",
+    "requestedUrl": "https://qualar.cetesb.sp.gov.br/qualar",
+    "checkedAt": "2026-11-20T21:29:33.243959+00:00",
+    "status": 404,
+    "url": "https://qualar.cetesb.sp.gov.br/qualar/qualar",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "key": "sgb_suscetibilidade",
+    "requestedUrl": "https://geoservicos.sgb.gov.br/geoserver/wfs",
+    "checkedAt": "2026-11-20T21:29:38.815048+00:00",
+    "status": 400,
+    "url": "https://geoservicos.sgb.gov.br/geoserver/wfs",
+    "error": "HTTP Error 400: Bad Request"
+  },
+  {
+    "key": "economia_da_saude_bps",
+    "requestedUrl": "https://apidadosabertos.saude.gov.br/economia-da-saude/bps",
+    "checkedAt": "2026-11-20T21:29:39.537625+00:00",
+    "status": 400,
+    "url": "https://apidadosabertos.saude.gov.br/economia-da-saude/bps",
+    "error": "HTTP Error 400: Bad Request"
+  },
+  {
+    "key": "funai_aldeias",
+    "requestedUrl": "https://geoserver.funai.gov.br/geoserver/Funai/ows",
+    "checkedAt": "2026-11-20T21:29:38.955886+00:00",
+    "status": 503,
+    "url": "https://geoserver.funai.gov.br/geoserver/Funai/ows",
+    "error": "HTTP Error 503: Service Unavailable"
+  },
+  {
+    "key": "detran_sp_infosiga_sinistros",
+    "requestedUrl": "https://infosiga.detran.sp.gov.br/dados-abertos/sinistros_2026.csv",
+    "checkedAt": "2026-11-20T21:29:37.723368+00:00",
+    "status": 404,
+    "url": "https://infosiga.detran.sp.gov.br/dados-abertos/sinistros_2026.csv",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "key": "painel-de-informacoes-do-novo-caged",
+    "requestedUrl": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/acoes-e-programas/programas-projetos-acoes-obras-e-atividades/estatisticas-trabalho/novo-caged",
+    "checkedAt": "2026-11-20T21:29:33.208292+00:00",
+    "status": 200,
+    "url": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/acoes-e-programas/programas-projetos-acoes-obras-e-atividades/estatisticas-trabalho/novo-caged/2026/setembro/pagina-inicial",
+    "contentType": "text/html;charset=utf-8",
+    "bytesRead": 207752,
+    "sha256": "22beae0fe3b9ef65fb1b9ad07acda34228cfd24d0d2c6811151b7d7c00bf4226",
+    "truncated": false,
+    "title": "Página Inicial — Ministério do Trabalho e Emprego",
+    "description": ""
+  },
+  {
+    "key": "inmet_estacoes",
+    "requestedUrl": "https://portal.inmet.gov.br/uploads/dadoshistoricos",
+    "checkedAt": "2026-11-20T21:29:33.035873+00:00",
+    "status": 403,
+    "url": "https://portal.inmet.gov.br/uploads/dadoshistoricos/",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "key": "mds_misocial",
+    "requestedUrl": "https://aplicacoes.mds.gov.br/sagi/servicos/misocial/",
+    "checkedAt": "2026-11-20T21:29:34.239481+00:00",
+    "status": 200,
+    "url": "https://www.gov.br/mds/pt-br/avisos",
+    "contentType": "text/html;charset=utf-8",
+    "bytesRead": 213137,
+    "sha256": "4d7557f9c1fda1158e569e142d35a7434eec203dcd4acea205ff38b29fe71e6e",
+    "truncated": false,
+    "title": "Avisos — Ministério do Desenvolvimento e Assistência Social, Família e Combate à Fome",
+    "description": ""
+  },
+  {
+    "key": "atencao_primaria_pmmb_relatorio_historico_cadastro_cnes",
+    "requestedUrl": "https://apidadosabertos.saude.gov.br/atencao-primaria/pmmb-relatorio-historico-cadastro-cnes",
+    "checkedAt": "2026-11-20T21:29:35.627624+00:00",
+    "status": 200,
+    "url": "https://apidadosabertos.saude.gov.br/atencao-primaria/pmmb-relatorio-historico-cadastro-cnes",
+    "contentType": "application/json",
+    "bytesRead": 35629,
+    "sha256": "7595d9c1c764e3ddb6eeeb8f3fe13073fe0ec788770e4d2970d00cc0c1b96afa",
+    "truncated": false,
+    "jsonType": "dict",
+    "jsonKeys": [
+      "pmmb_relatorio_historico_cadastro_cnes"
+    ],
+    "arrayLengths": {
+      "pmmb_relatorio_historico_cadastro_cnes": 100
+    },
+    "recordFields": [
+      "co_ibge",
+      "regiao",
+      "cnes",
+      "uf",
+      "municipio",
+      "ine",
+      "nome_profissional",
+      "competencia",
+      "consistente",
+      "ibge_divergente",
+      "fora_equipe",
+      "em_eap",
+      "cbo_divergente",
+      "ch_abaixo",
+      "sem_cadastro"
+    ]
+  },
+  {
+    "key": "funai_terras_indigenas",
+    "requestedUrl": "https://geoserver.funai.gov.br/geoserver/Funai/ows",
+    "checkedAt": "2026-11-20T21:29:35.228531+00:00",
+    "status": 503,
+    "url": "https://geoserver.funai.gov.br/geoserver/Funai/ows",
+    "error": "HTTP Error 503: Service Unavailable"
+  },
+  {
+    "key": "sgb_risco_geologico",
+    "requestedUrl": "https://geoservicos.sgb.gov.br/geoserver/wfs",
+    "checkedAt": "2026-11-20T21:29:34.720082+00:00",
+    "status": 400,
+    "url": "https://geoservicos.sgb.gov.br/geoserver/wfs",
+    "error": "HTTP Error 400: Bad Request"
+  },
+  {
+    "key": "pni_doses_aplicadas_arquivos",
+    "requestedUrl": "https://s3.sa-east-1.amazonaws.com/ckan.saude.gov.br/PNI/csv/vacinacao_dez_2026_csv.zip",
+    "checkedAt": "2026-11-20T21:29:31.267299+00:00",
+    "status": 403,
+    "url": "https://s3.sa-east-1.amazonaws.com/ckan.saude.gov.br/PNI/csv/vacinacao_dez_2026_csv.zip",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "key": "painel-do-perfil-da-populacao-acolhida-smads-sao-paulo",
+    "requestedUrl": "https://app.powerbi.com/view?r=eyJrIjoiMmRhYzFlOTItYWNmMS00NGE1LTg4Y2ItZmU5OTZmNTM0MTljIiwidCI6ImYzOThkZjljLWZkMGMtNDgyOS1hMDAzLWM3NzBhMWM0YTA2MyJ9",
+    "checkedAt": "2026-11-20T21:29:33.390973+00:00",
+    "status": 200,
+    "url": "https://app.powerbi.com/view?r=eyJrIjoiMmRhYzFlOTItYWNmMS00NGE1LTg4Y2ItZmU5OTZmNTM0MTljIiwidCI6ImYzOThkZjljLWZkMGMtNDgyOS1hMDAzLWM3NzBhMWM0YTA2MyJ9",
+    "contentType": "text/html; charset=utf-8",
+    "bytesRead": 32526,
+    "sha256": "ed4eca4d329271dc75ad1193da25c6fc04694a5e92a050fc6d09c67c0e32bcb3",
+    "truncated": false,
+    "title": "Microsoft Power BI",
+    "description": ""
+  },
+  {
+    "key": "saude_indigena_acompanhamento_obra_infraestrutura_saude",
+    "requestedUrl": "https://apidadosabertos.saude.gov.br/saude-indigena/acompanhamento-obra-infraestrutura-saude",
+    "checkedAt": "2026-11-20T21:29:30.784207+00:00",
+    "status": 200,
+    "url": "https://apidadosabertos.saude.gov.br/saude-indigena/acompanhamento-obra-infraestrutura-saude",
+    "contentType": "application/json",
+    "bytesRead": 50,
+    "sha256": "e8dfebb1fea252a4729a4b168a8aca1dc4d08e48cf864c918fa93df1fa696915",
+    "truncated": false,
+    "jsonType": "dict",
+    "jsonKeys": [
+      "acompanhamento_obra_infraestruturas_saude"
+    ],
+    "arrayLengths": {
+      "acompanhamento_obra_infraestruturas_saude": 0
+    },
+    "recordFields": []
+  },
+  {
+    "key": "nasa_gpm",
+    "requestedUrl": "https://gpm1.gesdisc.eosdis.nasa.gov",
+    "checkedAt": "2026-11-20T21:29:31.398377+00:00",
+    "status": 200,
+    "url": "https://gpm1.gesdisc.eosdis.nasa.gov",
+    "contentType": "text/html; charset=UTF-8",
+    "bytesRead": 2142,
+    "sha256": "9e30b32bd238381364528f30cab162600bf8688ac76efd578f3874d8c956215e",
+    "truncated": false,
+    "title": "NASA IT Security Warning Banner",
+    "description": "Default Index Page"
+  },
+  {
+    "key": "transferencias-constitucionais-tesouro-nacional",
+    "requestedUrl": "https://sisweb.tesouro.gov.br/apex/f?p=2600:1",
+    "checkedAt": "2026-11-20T21:29:29.705462+00:00",
+    "status": 200,
+    "url": "https://sisweb.tesouro.gov.br/apex/f?p=2600:1",
+    "contentType": "text/html;charset=UTF-8",
+    "bytesRead": 63430,
+    "sha256": "c447b7543abfc921f7932d33375c5dd5a02437f9803ba7196513bcfb56b7c590",
+    "truncated": false,
+    "title": "Principal",
+    "description": ""
+  },
+  {
+    "key": "painel-das-juventudes-observatorio-nacional-das-juventudes",
+    "requestedUrl": "https://onj.juventude.gov.br",
+    "checkedAt": "2026-11-20T21:29:19.030036+00:00",
+    "status": 200,
+    "url": "https://www.gov.br/planalto/pt-br",
+    "contentType": "text/html;charset=utf-8",
+    "bytesRead": 201348,
+    "sha256": "d2521f3a64e42947b6b021091d97a26230c5e8ecbe4a2386c190be3b8c85d022",
+    "truncated": false,
+    "title": "Página Inicial — Planalto",
+    "description": ""
+  },
+  {
+    "key": "painel-do-deficit-habitacional-no-brasil-fundacao-joao-pinhe",
+    "requestedUrl": "https://app.powerbi.com/view?r=eyJrIjoiNzFlMmI0ODUtMmYwYi00MDNiLTg2YmUtMzdkYTY2MWZiMzZkIiwidCI6IjA5ZGY3MWFlLWQ2YzUtNGFkYi1iMjVjLTlkMmRjZDQwMWFjMiJ9",
+    "checkedAt": "2026-11-20T21:29:28.606301+00:00",
+    "status": 200,
+    "url": "https://app.powerbi.com/view?r=eyJrIjoiNzFlMmI0ODUtMmYwYi00MDNiLTg2YmUtMzdkYTY2MWZiMzZkIiwidCI6IjA5ZGY3MWFlLWQ2YzUtNGFkYi1iMjVjLTlkMmRjZDQwMWFjMiJ9",
+    "contentType": "text/html; charset=utf-8",
+    "bytesRead": 32526,
+    "sha256": "3cbd59392da4e7b232703279af635677f53c883937f9d859aa995b04dd792e24",
+    "truncated": false,
+    "title": "Microsoft Power BI",
+    "description": ""
+  },
+  {
+    "key": "painel-da-saude-tce-sp",
+    "requestedUrl": "https://www.tce.sp.gov.br/paineldasaude",
+    "checkedAt": "2026-11-20T21:29:18.927352+00:00",
+    "status": 200,
+    "url": "https://www.tce.sp.gov.br/indisponibilidade-temporaria-paineis-tcesp",
+    "contentType": "text/html; charset=UTF-8",
+    "bytesRead": 48265,
+    "sha256": "63446cc2922deae4ad41919ce221b540556ad0e083c9781bbae9f05e6a366884",
+    "truncated": false,
+    "title": "Indisponibilidade Temporária – Painéis TCESP | Tribunal de Contas do Estado de São Paulo",
+    "description": ""
+  },
+  {
+    "key": "portal-de-emendas-parlamentares-tce-mg",
+    "requestedUrl": "https://acompanhe-emendas-ia.tce.mg.gov.br",
+    "checkedAt": "2026-11-20T21:29:28.763300+00:00",
+    "status": 503,
+    "url": "https://acompanhe-emendas-ia.tce.mg.gov.br",
+    "error": "HTTP Error 503: Service Unavailable"
+  },
+  {
+    "key": "painel-de-informacoes-da-rais",
+    "requestedUrl": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/acoes-e-programas/programas-projetos-acoes-obras-e-atividades/estatisticas-trabalho/rais",
+    "checkedAt": "2026-11-20T21:29:20.493166+00:00",
+    "status": 200,
+    "url": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/acoes-e-programas/programas-projetos-acoes-obras-e-atividades/estatisticas-trabalho/rais/rais-2025/rais-2025",
+    "contentType": "text/html;charset=utf-8",
+    "bytesRead": 209192,
+    "sha256": "1a63c637fe6ecc037c4ea6a96455ff97845e605f4ae1c24d2434cb8d34638f8a",
+    "truncated": false,
+    "title": "RAIS 2025 — Ministério do Trabalho e Emprego",
+    "description": ""
+  },
+  {
+    "key": "siconfi-ia",
+    "requestedUrl": "https://siconfi-ia.tesourotransparente.gov.br",
+    "checkedAt": "2026-11-20T21:29:28.806309+00:00",
+    "status": 503,
+    "url": "https://siconfi-ia.tesourotransparente.gov.br",
+    "error": "HTTP Error 503: Service Unavailable"
+  },
+  {
+    "key": "pesquisa-cnt-de-rodovias",
+    "requestedUrl": "https://pesquisarodovias.cnt.org.br",
+    "checkedAt": "2026-11-20T21:29:25.270879+00:00",
+    "status": 403,
+    "url": "https://pesquisarodovias.cnt.org.br",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "key": "pesquisa-no-diario-oficial-da-uniao",
+    "requestedUrl": "https://www.in.gov.br/consulta",
+    "checkedAt": "2026-11-20T21:29:26.697754+00:00",
+    "status": 200,
+    "url": "https://www.in.gov.br/consulta",
+    "contentType": "text/html;charset=UTF-8",
+    "bytesRead": 135172,
+    "sha256": "13e7b49683318b57dfc9643654e3076e8a785e9a2921b16ca43456c8a469662e",
+    "truncated": false,
+    "title": "Diário Oficial da União - Imprensa Nacional search",
+    "description": "O Diário Oficial da União (DOU) é um dos veículos de comunicação pelo qual a Imprensa Nacional tem de tornar público todo e qualquer assunto acerca do âmbito federal."
+  },
+  {
+    "key": "painel-de-obras-paralisadas-tcu",
+    "requestedUrl": "https://paineis.tcu.gov.br/ObrasParalisadas",
+    "checkedAt": "2026-11-20T21:29:23.629180+00:00",
+    "status": 200,
+    "url": "https://paineis.tcu.gov.br/pub/?workspaceId=8bfbd0cc-f2cd-4e1c-8cde-6abfdffea6a8&reportId=013930b6-b989-41c3-bf00-085dc65109de&painel=ObrasParalisadas",
+    "contentType": "text/html; charset=UTF-8",
+    "bytesRead": 1039,
+    "sha256": "47b4adfcc4c0af738ce6b98cdeea65a49422a45249123c0636b4634142dc54c3",
+    "truncated": false,
+    "title": "Tribunal de Contas da União",
+    "description": ""
+  },
+  {
+    "key": "painel-de-setores-de-risco-geologico-do-sgb",
+    "requestedUrl": "https://geoportal.sgb.gov.br/portal/apps/dashboards/c338199dee3a4d4bb0e43738b424a298",
+    "checkedAt": "2026-11-20T21:29:24.703191+00:00",
+    "status": 200,
+    "url": "https://geoportal.sgb.gov.br/portal/apps/dashboards/c338199dee3a4d4bb0e43738b424a298",
+    "contentType": "text/html",
+    "bytesRead": 1560,
+    "sha256": "4cdc6109d7dffcddc7e6bf2d871b946667d001a6f8833d6815b672080b556980",
+    "truncated": false,
+    "title": "ArcGIS Dashboards",
+    "description": "ArcGIS Dashboards"
+  },
+  {
+    "key": "painel-da-primeira-infancia-tce-sp",
+    "requestedUrl": "https://painel.tce.sp.gov.br/pentaho/api/repos/%3Apublic%3Ainfancia%3Aprimeirainfancia.wcdf/generatedContent?userid=anony&password=zero",
+    "checkedAt": "2026-11-20T21:29:18.683831+00:00",
+    "status": 200,
+    "url": "https://www.tce.sp.gov.br/indisponibilidade-temporaria-paineis-tcesp",
+    "contentType": "text/html; charset=UTF-8",
+    "bytesRead": 48265,
+    "sha256": "63446cc2922deae4ad41919ce221b540556ad0e083c9781bbae9f05e6a366884",
+    "truncated": false,
+    "title": "Indisponibilidade Temporária – Painéis TCESP | Tribunal de Contas do Estado de São Paulo",
+    "description": ""
+  },
+  {
+    "key": "painel-de-obras-publicas-do-rio",
+    "requestedUrl": "https://transparencia.prefeitura.rio/obras-publicas",
+    "checkedAt": "2026-11-20T21:29:23.907826+00:00",
+    "status": 200,
+    "url": "https://transparencia.prefeitura.rio/obras-publicas",
+    "contentType": "text/html; charset=utf-8",
+    "bytesRead": 242,
+    "sha256": "8735c8d2e75f611977ee5ca6a7b76de18405936cacb6d7895a566c41404c598d",
+    "truncated": false,
+    "title": "Requisição Negada",
+    "description": "",
+    "contentBlocked": true
+  },
+  {
+    "key": "painel-de-saude-mental-no-socioeducativo",
+    "requestedUrl": "https://app.powerbi.com/view?r=eyJrIjoiYjQwZmNjMDUtMTRhOC00MWJiLWJmYWMtYWQyODQwMDVjOTQ3IiwidCI6ImFkOTE5MGU2LWM0NWQtNDYwMC1iYzVjLWVjYTU1NGNjZjQ5NyIsImMiOjJ9",
+    "checkedAt": "2026-11-20T21:29:24.292103+00:00",
+    "status": 200,
+    "url": "https://app.powerbi.com/view?r=eyJrIjoiYjQwZmNjMDUtMTRhOC00MWJiLWJmYWMtYWQyODQwMDVjOTQ3IiwidCI6ImFkOTE5MGU2LWM0NWQtNDYwMC1iYzVjLWVjYTU1NGNjZjQ5NyIsImMiOjJ9",
+    "contentType": "text/html; charset=utf-8",
+    "bytesRead": 32536,
+    "sha256": "28aeeeb4b0f62f1c07fbe6bbf7874393dbef1d7e916ae5632a9573819c1e1876",
+    "truncated": false,
+    "title": "Microsoft Power BI",
+    "description": ""
+  },
+  {
+    "key": "painel-de-empresas-ativas-data-sebrae",
+    "requestedUrl": "https://datasebraeindicadores.sebrae.com.br/resources/sites/data-sebrae/data-sebrae.html",
+    "checkedAt": "2026-11-20T21:29:19.708322+00:00",
+    "status": 200,
+    "url": "https://datasebraeindicadores.sebrae.com.br/resources/sites/data-sebrae/data-sebrae.html",
+    "contentType": "text/html;charset=utf-8",
+    "bytesRead": 13693,
+    "sha256": "007311975818f3c00bfc677ebb830128f64decf1b5a98fc47fb4cda88af396a5",
+    "truncated": false,
+    "title": "Data Sebrae",
+    "description": ""
+  },
+  {
+    "key": "painel-de-inspecoes-do-socioeducativo-cniups-cnj",
+    "requestedUrl": "https://paineisanalytics.cnj.jus.br/single/?appid=a12c1a54-541f-4fd7-bbdf-afba0ca89a98&sheet=38ee8b5f-07ae-4f87-bf3c-cd9304f01bcc&theme=CNIUPS&lang=pt-BR&opt=ctxmenu,currsel",
+    "checkedAt": "2026-11-20T21:29:20.539469+00:00",
+    "status": 200,
+    "url": "https://paineisanalytics.cnj.jus.br/single/?appid=a12c1a54-541f-4fd7-bbdf-afba0ca89a98&sheet=38ee8b5f-07ae-4f87-bf3c-cd9304f01bcc&theme=CNIUPS&lang=pt-BR&opt=ctxmenu,currsel",
+    "contentType": "text/html;charset=utf-8",
+    "bytesRead": 3428,
+    "sha256": "0c367be6add1aee5b4da0ddb320d22e383244d17305a4503df805297d5a32c7a",
+    "truncated": false,
+    "title": "Single Object",
+    "description": ""
+  },
+  {
+    "key": "painel-de-indicadores-do-sinisa",
+    "requestedUrl": "https://indicadores-sinisa-2025.cidades.gov.br",
+    "checkedAt": "2026-11-20T21:29:20.356788+00:00",
+    "status": 403,
+    "url": "https://indicadores-sinisa-2025.cidades.gov.br",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "key": "dias-e-horarios-das-coletas-slu-df",
+    "requestedUrl": "https://www.slu.df.gov.br/dias-e-horarios-das-coletas",
+    "checkedAt": "2026-11-20T21:29:13.719432+00:00",
+    "status": 503,
+    "url": "https://www.slu.df.gov.br/dias-e-horarios-das-coletas",
+    "error": "HTTP Error 503: Service Unavailable"
+  },
+  {
+    "key": "dados-pnct-plano-nacional-de-contagem-de-trafego",
+    "requestedUrl": "https://servicos.dnit.gov.br/dadospnct/mapa",
+    "checkedAt": "2026-11-20T21:29:13.718474+00:00",
+    "status": 503,
+    "url": "https://servicos.dnit.gov.br/dadospnct/mapa",
+    "error": "HTTP Error 503: Service Unavailable"
+  },
+  {
+    "key": "esig-recife-zoneamento-do-plano-diretor",
+    "requestedUrl": "https://esigportal2.recife.pe.gov.br/portal/apps/webappviewer/index.html?id=5a302a34540f412fbc7ae57bcc5b0a04",
+    "checkedAt": "2026-11-20T21:29:13.719961+00:00",
+    "status": 503,
+    "url": "https://esigportal2.recife.pe.gov.br/portal/apps/webappviewer/index.html?id=5a302a34540f412fbc7ae57bcc5b0a04",
+    "error": "HTTP Error 503: Service Unavailable"
+  },
+  {
+    "key": "agrofit-consulta-de-agrotoxicos-registrados",
+    "requestedUrl": "https://agrofit.agricultura.gov.br/agrofit_cons/principal_agrofit_cons",
+    "checkedAt": "2026-11-20T21:29:13.716443+00:00",
+    "status": 403,
+    "url": "https://agrofit.agricultura.gov.br/agrofit_cons/principal_agrofit_cons",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "key": "atlas-do-seguro-rural-psr",
+    "requestedUrl": "https://mapa-indicadores.agricultura.gov.br/publico/extensions/SISSER/SISSER.html",
+    "checkedAt": "2026-11-20T21:29:13.717206+00:00",
+    "status": 404,
+    "url": "https://mapa-indicadores.agricultura.gov.br/publico/extensions/SISSER/SISSER.html",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "key": "ideb-resultados-inep",
+    "requestedUrl": "https://ideb.inep.gov.br",
+    "checkedAt": "2026-11-20T21:29:13.723434+00:00",
+    "status": 503,
+    "url": "https://ideb.inep.gov.br",
+    "error": "HTTP Error 503: Service Unavailable"
+  },
+  {
+    "key": "conectividade-na-educacao",
+    "requestedUrl": "https://conectividadenaeducacao.nic.br",
+    "checkedAt": "2026-11-20T21:29:13.717633+00:00",
+    "status": 200,
+    "url": "https://conectividadenaeducacao.nic.br",
+    "contentType": "text/html; charset=UTF-8",
+    "bytesRead": 125674,
+    "sha256": "7c7a522f65366d6bc3e86dd111f4a0782a668bfc3efa3576b80d25a4d9d46f55",
+    "truncated": false,
+    "title": "Conectividade na Educação",
+    "description": ""
+  },
+  {
+    "key": "indicadores-de-precos-do-cepea",
+    "requestedUrl": "https://www.cepea.org.br/br",
+    "checkedAt": "2026-11-20T21:29:13.724510+00:00",
+    "status": 403,
+    "url": "https://www.cepea.org.br/br",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "key": "estatisticas-do-poder-judiciario-cnj",
+    "requestedUrl": "https://justica-em-numeros.cnj.jus.br/painel-estatisticas",
+    "checkedAt": "2026-11-20T21:29:13.721356+00:00",
+    "status": 403,
+    "url": "https://justica-em-numeros.cnj.jus.br/painel-estatisticas",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "key": "estatisticas-do-sistema-nacional-de-adocao-e-acolhimento-sna",
+    "requestedUrl": "https://www.cnj.jus.br/sistemas/sna/estatisticas",
+    "checkedAt": "2026-11-20T21:29:13.722607+00:00",
+    "status": 403,
+    "url": "https://www.cnj.jus.br/sistemas/sna/estatisticas",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "key": "datasus-siab",
+    "requestedUrl": "https://datasus.saude.gov.br/acesso-a-informacao/atencao-basica-saude-da-familia-de-1998-a-2015/",
+    "checkedAt": "2026-11-20T21:35:04.560855+00:00",
+    "status": 200,
+    "url": "https://datasus.saude.gov.br/atencao-basica-saude-da-familia-de-1998-a-2015/",
+    "contentType": "text/html; charset=UTF-8",
+    "bytesRead": 59281,
+    "sha256": "263fe74812745309fb57c6f70b8e5b183278c5c4f3f6fd75f822cc634b0d4e73",
+    "truncated": false,
+    "title": "Atenção Básica – Saúde da Família – de 1998 a 2015 – DATASUS",
+    "description": ""
+  },
+  {
+    "key": "mte-microdados",
+    "requestedUrl": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/acoes-e-programas/programas-projetos-acoes-obras-e-atividades/estatisticas-trabalho/microdados-rais-e-caged",
+    "checkedAt": "2026-11-20T21:34:21.900863+00:00",
+    "status": 200,
+    "url": "https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/acoes-e-programas/programas-projetos-acoes-obras-e-atividades/estatisticas-trabalho/microdados-rais-e-caged",
+    "contentType": "text/html;charset=utf-8",
+    "bytesRead": 191821,
+    "sha256": "4f002a741e5fccef7b50309f562ed7fd3ad62299a66a86c7d491603bede39dc5",
+    "truncated": false,
+    "title": "Microdados RAIS e CAGED — Ministério do Trabalho e Emprego",
+    "description": ""
+  },
+  {
+    "key": "endpoint-cnae-subclasses",
+    "requestedUrl": "https://servicodados.ibge.gov.br/api/v2/cnae/subclasses",
+    "checkedAt": "2026-11-20T21:35:39.380811+00:00",
+    "status": 200,
+    "url": "https://servicodados.ibge.gov.br/api/v2/cnae/subclasses",
+    "contentType": "application/json",
+    "bytesRead": 3648251,
+    "sha256": "787e14982265b0ffedf5f0180cbec8a2ea64d117fca459b76608ebc99dd668a7",
+    "truncated": false,
+    "jsonParse": "complete",
+    "contentNote": "JSON integral interpretado; somente metadados estruturais preservados, sem valores das linhas.",
+    "jsonType": "list",
+    "arrayLengths": {
+      "root": 1332
+    },
+    "recordFields": [
+      "id",
+      "descricao",
+      "classe",
+      "atividades",
+      "observacoes"
+    ]
+  },
+  {
+    "key": "endpoint-cnae-classes",
+    "requestedUrl": "https://servicodados.ibge.gov.br/api/v2/cnae/classes",
+    "checkedAt": "2026-11-20T21:35:38.596783+00:00",
+    "status": 200,
+    "url": "https://servicodados.ibge.gov.br/api/v2/cnae/classes",
+    "contentType": "application/json",
+    "bytesRead": 758607,
+    "sha256": "79a99d49b0c5a578c50860485970e025762e5e9ea346e486b5e0105266b4c846",
+    "truncated": false,
+    "jsonParse": "complete",
+    "contentNote": "JSON integral interpretado; somente metadados estruturais preservados, sem valores das linhas.",
+    "jsonType": "list",
+    "arrayLengths": {
+      "root": 673
+    },
+    "recordFields": [
+      "id",
+      "descricao",
+      "grupo",
+      "observacoes"
+    ]
+  },
+  {
+    "key": "endpoint-localidades-distritos",
+    "requestedUrl": "https://servicodados.ibge.gov.br/api/v1/localidades/distritos",
+    "checkedAt": "2026-11-20T21:35:38.596538+00:00",
+    "status": 200,
+    "url": "https://servicodados.ibge.gov.br/api/v1/localidades/distritos",
+    "contentType": "application/json; charset=utf-8",
+    "bytesRead": 5322107,
+    "sha256": "51c3ef6c8b1478cb16ade673b0913fe55229c22bd961f29b7a1d122b1205fc83",
+    "truncated": false,
+    "jsonParse": "complete",
+    "contentNote": "JSON integral interpretado; somente metadados estruturais preservados, sem valores das linhas.",
+    "jsonType": "list",
+    "arrayLengths": {
+      "root": 10751
+    },
+    "recordFields": [
+      "id",
+      "nome",
+      "municipio"
+    ]
+  },
+  {
+    "key": "endpoint-localidades-municipios",
+    "requestedUrl": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios",
+    "checkedAt": "2026-11-20T21:35:38.613627+00:00",
+    "status": 200,
+    "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios",
+    "contentType": "application/json; charset=utf-8",
+    "bytesRead": 2470036,
+    "sha256": "86ecdccdf97d72e7e5e46f0854cfcea8bacc28154cc1bc4ed0e6110e3a6c9c02",
+    "truncated": false,
+    "jsonParse": "complete",
+    "contentNote": "JSON integral interpretado; somente metadados estruturais preservados, sem valores das linhas.",
+    "jsonType": "list",
+    "arrayLengths": {
+      "root": 5571
+    },
+    "recordFields": [
+      "id",
+      "nome",
+      "microrregiao",
+      "regiao-imediata"
+    ]
+  },
+  {
+    "key": "sicor-api",
+    "requestedUrl": "https://olinda.bcb.gov.br/olinda/servico/SICOR/versao/v2/odata/",
+    "checkedAt": "2026-11-20T21:33:20.866459+00:00",
+    "status": 200,
+    "url": "https://olinda.bcb.gov.br/olinda/servico/SICOR/versao/v2/odata/",
+    "contentType": "application/json;odata.metadata=minimal",
+    "bytesRead": 1082,
+    "sha256": "e23718f75d2b54e50543415b44360ef183814ec815d9b3287f92abb265f3a387",
+    "truncated": false,
+    "jsonType": "dict",
+    "jsonKeys": [
+      "@odata.context",
+      "value"
+    ],
+    "arrayLengths": {
+      "value": 17
+    },
+    "recordFields": [
+      "name",
+      "url"
+    ]
+  },
+  {
+    "key": "rio-iqar-layer",
+    "requestedUrl": "https://pgeo3.rio.rj.gov.br/arcgis/rest/services/Meio_Ambiente/Dados_di%C3%A1rios_do_%C3%8Dndice_de_Qualidade_do_ar_IQAR/MapServer/1",
+    "checkedAt": "2026-11-20T21:33:21.156597+00:00",
+    "status": 200,
+    "url": "https://pgeo3.rio.rj.gov.br/arcgis/rest/services/Meio_Ambiente/Dados_di%C3%A1rios_do_%C3%8Dndice_de_Qualidade_do_ar_IQAR/MapServer/1",
+    "contentType": "text/html; charset=utf-8",
+    "bytesRead": 8244,
+    "sha256": "e444cc910a7a79cb2ae888f4d829dbcde20a3282e39e3b1e26241435b029213d",
+    "truncated": false,
+    "title": "Layer: Dados diários do Índice de Qualidade do Ar (IQAR) (ID: 1)",
+    "description": ""
+  },
+  {
+    "key": "pnadcovid-microdados",
+    "requestedUrl": "https://www.ibge.gov.br/estatisticas/investigacoes-experimentais/estatisticas-experimentais/27947-divulgacao-mensal-pnadcovid2.html?=&t=microdados",
+    "checkedAt": "2026-11-20T21:33:19.772050+00:00",
+    "status": 200,
+    "url": "https://www.ibge.gov.br/estatisticas/investigacoes-experimentais/estatisticas-experimentais/27947-divulgacao-mensal-pnadcovid2.html?=&t=microdados",
+    "contentType": "text/html; charset=utf-8",
+    "bytesRead": 126154,
+    "sha256": "0c0b727d690b6827050f9bcd9f34300a967465870346382856df28750ef7280b",
+    "truncated": false,
+    "title": "Divulgação mensal | IBGE Twitter Twitter",
+    "description": "O Instituto Brasileiro de Geografia e Estatística - IBGE é o principal provedor de informações geográficas e estatísticas do Brasil."
+  },
+  {
+    "key": "ibge-cnae-docs",
+    "requestedUrl": "https://servicodados.ibge.gov.br/api/docs/CNAE?versao=2",
+    "checkedAt": "2026-11-20T21:33:15.087467+00:00",
+    "status": 200,
+    "url": "https://servicodados.ibge.gov.br/api/docs/CNAE?versao=2",
+    "contentType": "text/html; charset=utf-8",
+    "bytesRead": 651757,
+    "sha256": "9671f0e93cd7c518696afc5794f4854763a127cf557b46750a5b2bfc8f81bda9",
+    "truncated": false,
+    "title": "API CNAE - Classificação Nacional de Atividades Econômicas",
+    "description": ""
+  },
+  {
+    "key": "ibge-localidades-docs",
+    "requestedUrl": "https://servicodados.ibge.gov.br/api/docs/localidades",
+    "checkedAt": "2026-11-20T21:33:15.088184+00:00",
+    "status": 200,
+    "url": "https://servicodados.ibge.gov.br/api/docs/localidades",
+    "contentType": "text/html; charset=utf-8",
+    "bytesRead": 700000,
+    "sha256": "302719de1e1ba8e5799ba7a1cde15a2cb6cb55d6d6ab0bc7ff81bb4e24be44b8",
+    "truncated": true,
+    "title": "API de localidades",
+    "description": ""
+  },
+  {
+    "key": "censo2010-ba",
+    "requestedUrl": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2010/Resultados_Gerais_da_Amostra/Microdados/BA.zip",
+    "checkedAt": "2026-11-20T21:33:15.088650+00:00",
+    "status": 200,
+    "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2010/Resultados_Gerais_da_Amostra/Microdados/BA.zip",
+    "contentType": "application/zip",
+    "contentNote": "Arquivo de dados identificado pelo cabeçalho; download integral não realizado."
+  },
+  {
+    "key": "censo2000-ba",
+    "requestedUrl": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2000/Microdados/BA.zip",
+    "checkedAt": "2026-11-20T21:33:15.089057+00:00",
+    "status": 200,
+    "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2000/Microdados/BA.zip",
+    "contentType": "application/zip",
+    "contentNote": "Arquivo de dados identificado pelo cabeçalho; download integral não realizado."
+  },
+  {
+    "key": "censo2022-microdados",
+    "requestedUrl": "https://www.ibge.gov.br/estatisticas/sociais/populacao/22827-censo-demografico-2022.html?edicao=47850&t=microdados",
+    "checkedAt": "2026-11-20T21:33:15.090145+00:00",
+    "status": 200,
+    "url": "https://www.ibge.gov.br/estatisticas/sociais/populacao/22827-censo-demografico-2022.html?edicao=47850&t=microdados",
+    "contentType": "text/html; charset=utf-8",
+    "bytesRead": 354733,
+    "sha256": "a7670bd53b2e52e61a71d2c062b211b803b8e3210db057e518c258bb47e49806",
+    "truncated": false,
+    "title": "Censo 2022 | IBGE Twitter Twitter",
+    "description": "O Instituto Brasileiro de Geografia e Estatística - IBGE é o principal provedor de informações geográficas e estatísticas do Brasil."
+  },
+  {
+    "key": "fjp-habitacao",
+    "requestedUrl": "https://fjp.mg.gov.br/deficit-habitacional-no-brasil/",
+    "checkedAt": "2026-11-20T21:32:32.830063+00:00",
+    "status": 503,
+    "url": "https://fjp.mg.gov.br/deficit-habitacional-no-brasil/",
+    "error": "HTTP Error 503: Service Unavailable"
+  },
+  {
+    "key": "fhemig-catalog",
+    "requestedUrl": "https://www.dados.mg.gov.br/pt_BR/dataset/?organization=fundacao-hospitalar-do-estado-de-minas-gerais-fhemig&res_format=JSON",
+    "checkedAt": "2026-11-20T21:32:28.282250+00:00",
+    "status": 200,
+    "url": "https://www.dados.mg.gov.br/pt_BR/dataset/?organization=fundacao-hospitalar-do-estado-de-minas-gerais-fhemig&res_format=JSON",
+    "contentType": "text/html; charset=utf-8",
+    "bytesRead": 50227,
+    "sha256": "ead8311b3159275bd291d4114bcb6649aa28f5c5ee78d068a61556d394b6695b",
+    "truncated": false,
+    "title": "Conjunto de dados - Portal de Dados Abertos do Estado de Minas Gerais",
+    "description": ""
+  },
+  {
+    "key": "iarc-classifications",
+    "requestedUrl": "https://monographs.iarc.who.int/list-of-classifications",
+    "checkedAt": "2026-11-20T21:32:28.282574+00:00",
+    "status": 200,
+    "url": "https://monographs.iarc.who.int/list-of-classifications",
+    "contentType": "text/html; charset=UTF-8",
+    "bytesRead": 39150,
+    "sha256": "26dde20daa0ced4c0cf021dfc260d828ae484bcb47e397621d1f852026fc2741",
+    "truncated": false,
+    "title": "List of Classifications – IARC Monographs on the Identification of Carcinogenic Hazards to Humans",
+    "description": ""
+  },
+  {
+    "key": "ipeadata-api",
+    "requestedUrl": "https://ipeadata.gov.br/api/",
+    "checkedAt": "2026-11-20T21:32:28.281436+00:00",
+    "status": 200,
+    "url": "https://ipeadata.gov.br/api/",
+    "contentType": "text/html",
+    "bytesRead": 93026,
+    "sha256": "94dbd001df8d47bf281caf2d112ea9b4f0562ddcfa137e54c2e74bb4a152d1f7",
+    "truncated": false,
+    "title": "Serviço de consulta aos dados do Ipeadata",
+    "description": ""
+  },
+  {
+    "key": "siconfi-api",
+    "requestedUrl": "https://apidatalake.tesouro.gov.br/docs/siconfi/",
+    "checkedAt": "2026-11-20T21:32:28.281032+00:00",
+    "status": 200,
+    "url": "https://apidatalake.tesouro.gov.br/docs/siconfi/",
+    "contentType": "text/html",
+    "bytesRead": 2139,
+    "sha256": "4868b28d74754c37f34abe972604680771e89dc74a6c88a0d41a57ad63634b94",
+    "truncated": false,
+    "title": "SICONFI API – Tesouro Nacional",
+    "description": ""
+  },
+  {
+    "key": "ibge-api",
+    "requestedUrl": "https://servicodados.ibge.gov.br/api/docs/",
+    "checkedAt": "2026-11-20T21:32:28.280147+00:00",
+    "status": 200,
+    "url": "https://servicodados.ibge.gov.br/api/docs/",
+    "contentType": "text/html; charset=utf-8",
+    "bytesRead": 170034,
+    "sha256": "e872343deae50691182b8940a21015d02fd8589de59de4b606fcbd177b1f7df8",
+    "truncated": false,
+    "title": "IBGE - API de serviço de dados",
+    "description": "API de serviço de dados do IBGE"
+  },
+  {
+    "key": "taxas-de-rendimento-escolar",
+    "requestedUrl": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/indicadores-educacionais/taxas-de-rendimento-escolar",
+    "checkedAt": "2026-11-20T21:31:28.552782+00:00",
+    "status": 200,
+    "url": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/indicadores-educacionais/taxas-de-rendimento-escolar",
+    "contentType": "text/html;charset=utf-8",
+    "bytesRead": 236803,
+    "sha256": "e1f5bc01bc6534cfe06498c6b9a9fc57b4731fd3654e5490d5fe5b56b5e2e817",
+    "truncated": false,
+    "title": "Taxas de Rendimento Escolar — Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira | Inep",
+    "description": ""
+  },
+  {
+    "key": "taxas-de-distorcao-idade-serie",
+    "requestedUrl": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/indicadores-educacionais/taxas-de-distorcao-idade-serie",
+    "checkedAt": "2026-11-20T21:31:27.707578+00:00",
+    "status": 200,
+    "url": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/indicadores-educacionais/taxas-de-distorcao-idade-serie",
+    "contentType": "text/html;charset=utf-8",
+    "bytesRead": 237716,
+    "sha256": "d6ad8c0e9c2ba4595b661d81dce993450aa79252367d38e526525b0efb28a12e",
+    "truncated": false,
+    "title": "Taxas de Distorção Idade-série — Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira | Inep",
+    "description": ""
+  },
+  {
+    "key": "percentual-de-docentes-com-curso-superior",
+    "requestedUrl": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/indicadores-educacionais/percentual-de-docentes-com-curso-superior",
+    "checkedAt": "2026-11-20T21:31:27.631181+00:00",
+    "status": 200,
+    "url": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/indicadores-educacionais/percentual-de-docentes-com-curso-superior",
+    "contentType": "text/html;charset=utf-8",
+    "bytesRead": 234550,
+    "sha256": "7a7e36038743ad1be67d9ebf62681b6ee1b7232c56efd07b71257cdb5cedcdd5",
+    "truncated": false,
+    "title": "Percentual de Docentes com Curso Superior — Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira | Inep",
+    "description": ""
+  },
+  {
+    "key": "regularidade-do-corpo-docente",
+    "requestedUrl": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/indicadores-educacionais/regularidade-do-corpo-docente",
+    "checkedAt": "2026-11-20T21:31:27.654651+00:00",
+    "status": 200,
+    "url": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/indicadores-educacionais/regularidade-do-corpo-docente",
+    "contentType": "text/html;charset=utf-8",
+    "bytesRead": 233359,
+    "sha256": "ccbdc21c3dd51b9439a8ccd3bfd40062da6763a6f901da400adc30d974e4853a",
+    "truncated": false,
+    "title": "Regularidade do Corpo Docente — Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira | Inep",
+    "description": ""
+  },
+  {
+    "key": "nivel-socioeconomico",
+    "requestedUrl": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/indicadores-educacionais/nivel-socioeconomico",
+    "checkedAt": "2026-11-20T21:31:27.525148+00:00",
+    "status": 200,
+    "url": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/indicadores-educacionais/nivel-socioeconomico",
+    "contentType": "text/html;charset=utf-8",
+    "bytesRead": 227598,
+    "sha256": "798d3a69646589411a8c2546f7e51dc14df94c91b231d08ea4859ba505b32f31",
+    "truncated": false,
+    "title": "Nível Socioeconômico (Inse) — Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira | Inep",
+    "description": ""
+  },
+  {
+    "key": "sistema-de-informacao-do-cancer-siscan-colo-do-utero-e-mama",
+    "requestedUrl": "https://datasus.saude.gov.br/acesso-a-informacao/sistema-de-informacao-do-cancer-siscan-colo-do-utero-e-mama/",
+    "checkedAt": "2026-11-20T21:31:21.228776+00:00",
+    "status": 200,
+    "url": "https://datasus.saude.gov.br/acesso-a-informacao/sistema-de-informacao-do-cancer-siscan-colo-do-utero-e-mama/",
+    "contentType": "text/html; charset=UTF-8",
+    "bytesRead": 62593,
+    "sha256": "e3bda0f02bcf0dbabd4be79ddcb9b487882e4b8e01b7d147cd7a847e012733fe",
+    "truncated": false,
+    "title": "Sistema de Informação do Câncer – SISCAN (colo do útero e mama) – DATASUS",
+    "description": ""
+  },
+  {
+    "key": "media-de-horas-aula-diaria",
+    "requestedUrl": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/indicadores-educacionais/media-de-horas-aula-diaria",
+    "checkedAt": "2026-11-20T21:31:21.232071+00:00",
+    "status": 200,
+    "url": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/indicadores-educacionais/media-de-horas-aula-diaria",
+    "contentType": "text/html;charset=utf-8",
+    "bytesRead": 234709,
+    "sha256": "7490ec6bdecbb9ea258c816edcbb3d022e906b52348343f1fcc093f6995f0bde",
+    "truncated": false,
+    "title": "Média de Horas-aula diária — Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira | Inep",
+    "description": ""
+  },
+  {
+    "key": "complexidade-de-gestao-da-escola",
+    "requestedUrl": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/indicadores-educacionais/complexidade-de-gestao-da-escola",
+    "checkedAt": "2026-11-20T21:31:21.229727+00:00",
+    "status": 200,
+    "url": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/indicadores-educacionais/complexidade-de-gestao-da-escola",
+    "contentType": "text/html;charset=utf-8",
+    "bytesRead": 233510,
+    "sha256": "ccd5e1a6300d6deb6e0ee2103062f04b2b90979fb73b831cf8fd31c65d66cd58",
+    "truncated": false,
+    "title": "Complexidade de Gestão da Escola — Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira | Inep",
+    "description": ""
+  },
+  {
+    "key": "esforco-docente",
+    "requestedUrl": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/indicadores-educacionais/esforco-docente",
+    "checkedAt": "2026-11-20T21:31:21.230487+00:00",
+    "status": 200,
+    "url": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/indicadores-educacionais/esforco-docente",
+    "contentType": "text/html;charset=utf-8",
+    "bytesRead": 232848,
+    "sha256": "e979215fcbff33d19e2f966e028a540f9ba0121ffae7a55889b69e0eb55805bb",
+    "truncated": false,
+    "title": "Esforço Docente — Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira | Inep",
+    "description": ""
+  },
+  {
+    "key": "media-de-alunos-por-turma",
+    "requestedUrl": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/indicadores-educacionais/media-de-alunos-por-turma",
+    "checkedAt": "2026-11-20T21:31:21.231056+00:00",
+    "status": 200,
+    "url": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/indicadores-educacionais/media-de-alunos-por-turma",
+    "contentType": "text/html;charset=utf-8",
+    "bytesRead": 236745,
+    "sha256": "3e36666663e090a4b668787ebd0c9bc9e6663f806cba1eb3ef85c7a4548daec9",
+    "truncated": false,
+    "title": "Média de Alunos por Turma — Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira | Inep",
+    "description": ""
+  },
+  {
+    "key": "adequacao-da-formacao-docente",
+    "requestedUrl": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/indicadores-educacionais/adequacao-da-formacao-docente",
+    "checkedAt": "2026-11-20T21:31:21.230006+00:00",
+    "status": 200,
+    "url": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/indicadores-educacionais/adequacao-da-formacao-docente",
+    "contentType": "text/html;charset=utf-8",
+    "bytesRead": 233475,
+    "sha256": "2b37ac2d2e420f6596dbc0154e0f53f0e7bcc4874b1cf02ae01882e8b6a8cd3f",
+    "truncated": false,
+    "title": "Adequação da Formação Docente — Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira | Inep",
+    "description": ""
+  },
+  {
+    "key": "registro-de-eventos-em-saude-publica-resp-microcefalia",
+    "requestedUrl": "https://datasus.saude.gov.br/acesso-a-informacao/registro-de-eventos-em-saude-publica-resp-microcefalia/",
+    "checkedAt": "2026-11-20T21:30:55.658488+00:00",
+    "status": "inconclusive",
+    "error": "The read operation timed out"
+  },
+  {
+    "key": "producao-ambulatorial-sia-sus",
+    "requestedUrl": "https://datasus.saude.gov.br/acesso-a-informacao/producao-ambulatorial-sia-sus/",
+    "checkedAt": "2026-11-20T21:30:55.656652+00:00",
+    "status": "inconclusive",
+    "error": "The read operation timed out"
+  },
+  {
+    "key": "doencas-e-agravos-de-notificacao-de-2007-em-diante-sinan",
+    "requestedUrl": "https://datasus.saude.gov.br/acesso-a-informacao/doencas-e-agravos-de-notificacao-de-2007-em-diante-sinan/",
+    "checkedAt": "2026-11-20T21:30:55.658215+00:00",
+    "status": "inconclusive",
+    "error": "The read operation timed out"
+  },
+  {
+    "key": "hipertensao-e-diabetes-hiperdia",
+    "requestedUrl": "https://datasus.saude.gov.br/acesso-a-informacao/hipertensao-e-diabetes-hiperdia/",
+    "checkedAt": "2026-11-20T21:30:55.660980+00:00",
+    "status": "inconclusive",
+    "error": "The read operation timed out"
+  },
+  {
+    "key": "imunizacoes-desde-1994",
+    "requestedUrl": "https://datasus.saude.gov.br/acesso-a-informacao/imunizacoes-desde-1994/",
+    "checkedAt": "2026-11-20T21:30:55.657649+00:00",
+    "status": "inconclusive",
+    "error": "The read operation timed out"
+  },
+  {
+    "key": "programa-de-controle-da-esquistossomose-pce",
+    "requestedUrl": "https://datasus.saude.gov.br/acesso-a-informacao/programa-de-controle-da-esquistossomose-pce/",
+    "checkedAt": "2026-11-20T21:30:55.658956+00:00",
+    "status": "inconclusive",
+    "error": "The read operation timed out"
+  },
+  {
+    "key": "ibge-pnadcovid",
+    "requestedUrl": "https://www.ibge.gov.br/estatisticas/todos-os-produtos-estatisticas/27946-divulgacao-semanal-pnadcovid1.html",
+    "checkedAt": "2026-11-20T21:30:17.261045+00:00",
+    "status": 200,
+    "url": "https://www.ibge.gov.br/estatisticas/todos-os-produtos-estatisticas/27946-divulgacao-semanal-pnadcovid1.html",
+    "contentType": "text/html; charset=utf-8",
+    "bytesRead": 123378,
+    "sha256": "31bc908e1804c9587af0da5b0aa64ccfca1ee2a2dc8953076c1075b776285992",
+    "truncated": false,
+    "title": "Divulgação semanal | IBGE Twitter Twitter",
+    "description": "O Instituto Brasileiro de Geografia e Estatística - IBGE é o principal provedor de informações geográficas e estatísticas do Brasil."
+  },
+  {
+    "key": "datasus-mortalidade",
+    "requestedUrl": "https://datasus.saude.gov.br/mortalidade-desde-1996-pela-cid-10/",
+    "checkedAt": "2026-11-20T21:30:09.764721+00:00",
+    "status": 200,
+    "url": "https://datasus.saude.gov.br/mortalidade-desde-1996-pela-cid-10/",
+    "contentType": "text/html; charset=UTF-8",
+    "bytesRead": 60307,
+    "sha256": "a08cdd476233f04fdeb5c4af8a30f8269a11869f9e19b5d82f4dab365d7412bf",
+    "truncated": false,
+    "title": "Mortalidade – desde 1996 pela CID-10 – DATASUS",
+    "description": ""
+  },
+  {
+    "key": "ibge-censo2022",
+    "requestedUrl": "https://www.ibge.gov.br/estatisticas/sociais/populacao/22827-censo-demografico-2022.html?edicao=47850&t=downloads",
+    "checkedAt": "2026-11-20T21:30:13.461972+00:00",
+    "status": 200,
+    "url": "https://www.ibge.gov.br/estatisticas/sociais/populacao/22827-censo-demografico-2022.html?edicao=47850&t=downloads",
+    "contentType": "text/html; charset=utf-8",
+    "bytesRead": 354727,
+    "sha256": "af0e696d15d35742b00b2bfc70a13703ddfcee91f789e0880a75ee1acc7eb4e8",
+    "truncated": false,
+    "title": "Censo 2022 | IBGE Twitter Twitter",
+    "description": "O Instituto Brasileiro de Geografia e Estatística - IBGE é o principal provedor de informações geográficas e estatísticas do Brasil."
+  },
+  {
+    "key": "datasus-tabnet",
+    "requestedUrl": "https://datasus.saude.gov.br/informacoes-de-saude-tabnet",
+    "checkedAt": "2026-11-20T21:30:09.764275+00:00",
+    "status": 200,
+    "url": "https://datasus.saude.gov.br/informacoes-de-saude-tabnet",
+    "contentType": "text/html; charset=UTF-8",
+    "bytesRead": 76590,
+    "sha256": "1dc696834da96b61ca1f73cf7b5e3ec5395b58b694913842bd49124278e732e8",
+    "truncated": false,
+    "title": "Informações de Saúde (TABNET) – DATASUS",
+    "description": ""
+  },
+  {
+    "key": "datasus-transfer",
+    "requestedUrl": "https://datasus.saude.gov.br/transferencia-de-arquivos/",
+    "checkedAt": "2026-11-20T21:30:09.765479+00:00",
+    "status": 200,
+    "url": "https://datasus.saude.gov.br/transferencia-de-arquivos/",
+    "contentType": "text/html; charset=UTF-8",
+    "bytesRead": 59348,
+    "sha256": "89912246217761561da0856e640d6f04f2a33e9fc5d4203e553af1fa79dbfbc1",
+    "truncated": false,
+    "title": "Transferência de Arquivos – DATASUS",
+    "description": ""
+  },
+  {
+    "key": "inep-indicadores",
+    "requestedUrl": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/indicadores-educacionais",
+    "checkedAt": "2026-11-20T21:30:09.765195+00:00",
+    "status": 200,
+    "url": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/indicadores-educacionais",
+    "contentType": "text/html;charset=utf-8",
+    "bytesRead": 242652,
+    "sha256": "65e177e6789e3d00277aa11e86b1527f6b754db91ad9aa8408e50204a6a31ec6",
+    "truncated": false,
+    "title": "Indicadores Educacionais — Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira | Inep",
+    "description": ""
+  }
+]
