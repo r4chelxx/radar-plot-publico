@@ -2,6 +2,18 @@ window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
 {
   "date": "2026-11-20",
+  "type": "nova-oportunidade",
+  "title": "Publicação editorial verificada — 2026-11-20",
+  "items": [
+    {
+      "id": "auto-af617f7cd9e07ba7",
+      "title": "RSF Berlin Fellowship Program"
+    }
+  ],
+  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: RSF Berlin Fellowship Program."
+}, 
+{
+  "date": "2026-11-20",
   "type": "dados",
   "title": "Publicação editorial verificada — 2026-11-20",
   "items": [
