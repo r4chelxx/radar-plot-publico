@@ -47,7 +47,24 @@ function allowed(raw){
   return u.protocol==='https:'&&!u.username&&!u.password&&h!=='localhost'&&!h.endsWith('.local')&&!h.endsWith('.internal')&&!/^\d+\.\d+\.\d+\.\d+$/.test(h)&&!h.includes(':');
  }catch{return false}
 }
-async function inspect(lead){
+function officialOpportunityTarget(html,baseUrl){
+ const source=String(html||'');
+ let base;try{base=new URL(baseUrl)}catch{return null}
+ const social=/^(?:instagram|facebook|linkedin|tiktok|x|twitter|youtube|youtu|threads|reddit|pinterest|t\.me)(?:\\.|$)/i;
+ const labels=/(?:official|application|apply|call details|program details|opportunity details|view opportunity|learn more|saiba mais|inscri[cç][aã]o|candidatar|candidatura|submeter|submit)/i;
+ for(const m of source.matchAll(/<a\\b[^>]*href\\s*=\\s*['"]([^'"]+)['"][^>]*>([\\s\\S]*?)<\\/a\\s*>/gi)){
+  const label=decode(m[2].replace(/<[^>]+>/g,' ').replace(/\\s+/g,' '));
+  if(!labels.test(label))continue;
+  try{
+   const u=new URL(decode(m[1]).trim(),base);
+   if(u.protocol!=='https:'||u.hostname===base.hostname||social.test(u.hostname))continue;
+   if(/(?:mailto:|javascript:)/i.test(m[1])||/\\.(?:pdf|docx?|xlsx?|zip)(?:$|[?#])/i.test(u.pathname))continue;
+   return u.href;
+  }catch{}
+ }
+ return null;
+}
+async function inspect(lead,options={}){
  if(!allowed(lead.url))return {...lead,pageStatus:'blocked-url',editoriallyVerified:false};
  const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),9000);
  try{
@@ -65,6 +82,18 @@ async function inspect(lead){
  const description=cleanText(metadata?.description||metaDescription||editorialText(html),1200);
  const facts=explicitPageFacts(html);
  const structuredEvidence={...(metadata||{}),title:cleanTitle(metadata?.title||title,metadata?.organization||lead.source||''),description,...(facts.deadline?{deadline:facts.deadline}:{}),...(facts.eligibility?{eligibility:facts.eligibility,eligibilityExplicit:true}:{}),...(facts.status?{status:facts.status}:{})};
+ // Aggregator/listing pages are discovery surfaces, not sufficient evidence by
+ // themselves. Follow one clearly labelled external official/application link
+ // once, then use the primary page's facts for the draft.
+ if(lead.category==='opportunities'&&!options.followed){
+  const primaryUrl=officialOpportunityTarget(html,response.url||lead.url);
+  if(primaryUrl){
+   const primary=await inspect({...lead,url:primaryUrl},{followed:true});
+   if(primary.pageStatus==='html-fetched'){
+    return {...primary,discoveryUrl:lead.url,sourceResolution:{discoveryUrl:lead.url,primaryUrl},sourceEvidence:lead.sourceEvidence||'',providers:lead.providers};
+   }
+  }
+ }
  const dateMentions=[...html.replace(/<script\b[\s\S]*?<\/script>/gi,' ').replace(/<style\b[\s\S]*?<\/style>/gi,' ').replace(/<[^>]+>/g,' ').matchAll(/\b20\d{2}[-\/]\d{2}[-\/]\d{2}\b/g)].slice(0,12).map(x=>x[0]);
  return {...lead,tabularData:pageEvidence.tabularData,resourceLinks:pageEvidence.resourceLinks,structuredData:pageEvidence.structuredData,pageStatus:'html-fetched',httpStatus:response.status,contentType,finalUrl:response.url||lead.url,checkedAt:new Date().toISOString(),pageTitle:title,pageDescription:description||null,evidenceText:pageEvidence.evidenceText,structuredEvidence,deadline:lead.deadline||structuredEvidence?.deadline||null,eligibility:lead.eligibility||structuredEvidence?.eligibility||null,status:lead.status||structuredEvidence?.status||null,dateMentionsUnclassified:[...new Set(dateMentions)],fingerprint:crypto.createHash('sha256').update(html).digest('hex').slice(0,16),editoriallyVerified:false};
  }catch(e){return {...lead,pageStatus:'fetch-failed',error:String(e).slice(0,200),editoriallyVerified:false}}
