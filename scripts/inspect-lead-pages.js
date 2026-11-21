@@ -7,7 +7,7 @@ const {inspectionHealth}=require('./inspection-health');
 const {extractStructuredMetadata,metadataForLink}=require('./structured-lead-metadata');
 const {extractEvidence}=require('./editorial-page-evidence');
 const input=JSON.parse(fs.readFileSync('intake/candidate-triage.json','utf8'));
-const limit=Math.min(240,Math.max(1,Number(process.env.LEAD_PAGE_LIMIT||240)));
+const limit=Math.min(480,Math.max(1,Number(process.env.LEAD_PAGE_LIMIT||480)));
 function decode(value){return String(value||'').replace(/&(?:amp|and);/gi,'&').replace(/&quot;/gi,'"').replace(/&#39;/gi,"'").replace(/&nbsp;/gi,' ').replace(/<[^>]+>/g,' ').replace(/\s+/g,' ').trim();}
 function visibleText(html){return cleanText(String(html||'')).slice(0,1200);}
 function editorialText(html){
