@@ -51,14 +51,18 @@ function officialOpportunityTarget(html,baseUrl){
  const source=String(html||'');
  let base;try{base=new URL(baseUrl)}catch{return null}
  const social=/^(?:instagram|facebook|linkedin|tiktok|x|twitter|youtube|youtu|threads|reddit|pinterest|t\.me)(?:\.|$)/i;
- const labels=/(?:official|application|apply|call details|program details|opportunity details|view opportunity|learn more|saiba mais|inscri[cç][aã]o|candidatar|candidatura|submeter|submit)/i;
+ const labels=/(?:official(?:\s+(?:website|page|site))?|application(?:\s+(?:form|details|page))?|apply(?:\s+(?:now|here))?|call\s+(?:details|page)|program\s+(?:details|page)|opportunity\s+(?:details|page)|view\s+(?:the\s+)?opportunity|full\s+details|learn\s+more|read\s+more|view\s+call|saiba\s+mais|ver\s+detalhes|detalhes\s+(?:da\s+)?(?:chamada|oportunidade)|inscri[cç][aã]o|candidatar|candidatura|submeter|enviar\s+inscri[cç][aã]o|aplicar)/i;
+ const samePage=base.href.replace(/#.*$/,'').replace(/\/$/,'');
  for(const m of source.matchAll(/<a\b[^>]*href\s*=\s*['"]([^'"]+)['"][^>]*>([\s\S]*?)<\/a\s*>/gi)){
   const label=decode(m[2].replace(/<[^>]+>/g,' ').replace(/\s+/g,' '));
   if(!labels.test(label))continue;
   try{
-   const u=new URL(decode(m[1]).trim(),base);
-   if(u.protocol!=='https:'||u.hostname===base.hostname||social.test(u.hostname))continue;
-   if(/(?:mailto:|javascript:)/i.test(m[1])||/\.(?:pdf|docx?|xlsx?|zip)(?:$|[?#])/i.test(u.pathname))continue;
+   const raw=decode(m[1]).trim();
+   if(/^(?:mailto:|javascript:|#)/i.test(raw))continue;
+   const u=new URL(raw,base);
+   const normalized=u.href.replace(/#.*$/,'').replace(/\/$/,'');
+   if(u.protocol!=='https:'||normalized===samePage||social.test(u.hostname))continue;
+   if(/\.(?:pdf|docx?|xlsx?|zip)(?:$|[?#])/i.test(u.pathname))continue;
    return u.href;
   }catch{}
  }
@@ -124,5 +128,7 @@ async function inspect(lead,options={}){
  const htmlFetched=health.htmlFetched;
  const out={statusCounts,httpStatusCounts,degraded:health.degraded,inspectionHealth:health,generatedAt:new Date().toISOString(),policy:'Unverified evidence only. Date mentions are NOT deadlines.',eligibleForPublication:0,eligibleCandidates:backlog.total,inspected:results.length,archivedRechecks:results.filter(x=>x.archivedRecheck).length,capacity:{configured:limit,effective:effectiveLimit,pressure:capacity.pressure,policy:capacity.policy},selection:{historyLoaded:previous!==null,backlogTotal:backlog.total,ready:backlog.ready,waiting:backlog.waiting,fallbackUsed:selectionFallback,priorities:selected.reduce((a,x)=>(a[x.origin]=(a[x.origin]||0)+1,a),{})},results};
  fs.writeFileSync('intake/lead-evidence.json',JSON.stringify(out,null,2)+'\n');
- console.log(JSON.stringify({inspected:results.length,htmlFetched,statusCounts,httpStatusCounts,degraded:out.degraded,inspectionStatus:health.status,successRate:health.successRate}));
+ const resolutions=results.filter(x=>x.sourceResolution?.primaryUrl);
+ const resolutionHosts=resolutions.reduce((a,x)=>{try{const h=new URL(x.sourceResolution.primaryUrl).hostname;a[h]=(a[h]||0)+1}catch{}return a},{});
+ console.log(JSON.stringify({inspected:results.length,htmlFetched,statusCounts,httpStatusCounts,degraded:out.degraded,inspectionStatus:health.status,successRate:health.successRate,officialResolutions:resolutions.length,resolutionHosts}));
 })().catch(e=>{console.error(e);process.exitCode=1});
