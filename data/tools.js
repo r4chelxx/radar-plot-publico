@@ -1,6 +1,807 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.tools=[
 {
+  "id": "osint-vault-shademap",
+  "name": "Shademap",
+  "kind": "Plataformas de investigação",
+  "url": "https://shademap.app/",
+  "desc": "Simulates the position of the sun and shadows cast by buildings, terrain, and trees for any location, date, and time. Compare visible shadows in a photograph or video against simulated conditions to assess whether a proposed timestamp holds up when metadata is missing or unreliable. CHRONOLOCATION IMAGE VERIFICATION SHADOW ANALYSIS GEOLOCATION. Funcionalidade e página identificadas; limites de uso, preços, cobertura, retenção e condições de acesso devem ser confirmados no mantenedor.",
+  "lastChecked": "2026-11-20",
+  "discoveryUrl": "https://theosintvault.io/"
+},
+{
+  "id": "osint-vault-crt-sh",
+  "name": "crt.sh",
+  "kind": "Busca e análise de infraestrutura digital",
+  "url": "https://crt.sh/",
+  "desc": "Certificate Transparency log search - discover subdomains and certificates. Relações de DNS, IP, certificados, serviços ou códigos compartilhados são pistas técnicas e não provam propriedade, controle ou irregularidade.",
+  "lastChecked": "2026-11-20",
+  "discoveryUrl": "https://theosintvault.io/"
+},
+{
+  "id": "osint-vault-certificate-transparency-apis",
+  "name": "Certificate Transparency Apis",
+  "kind": "Busca e análise de infraestrutura digital",
+  "url": "https://transparencyreport.google.com/https/certificates",
+  "desc": "Google Certificate Transparency Report for investigating certificates. Relações de DNS, IP, certificados, serviços ou códigos compartilhados são pistas técnicas e não provam propriedade, controle ou irregularidade.",
+  "lastChecked": "2026-11-20",
+  "discoveryUrl": "https://theosintvault.io/"
+},
+{
+  "id": "osint-vault-ripestat",
+  "name": "Ripestat",
+  "kind": "Busca e análise de infraestrutura digital",
+  "url": "https://stat.ripe.net/",
+  "desc": "RIPEstat is a web-based interface that provides statistics and analysis on IP addresses and ASNs. Relações de DNS, IP, certificados, serviços ou códigos compartilhados são pistas técnicas e não provam propriedade, controle ou irregularidade.",
+  "lastChecked": "2026-11-20",
+  "discoveryUrl": "https://theosintvault.io/"
+},
+{
+  "id": "osint-vault-hurricane-electric-bgp-toolkit",
+  "name": "Hurricane Electric Bgp Toolkit",
+  "kind": "Busca e análise de infraestrutura digital",
+  "url": "https://bgp.he.net/",
+  "desc": "BGP routing information, AS paths, and network analysis tools. Relações de DNS, IP, certificados, serviços ou códigos compartilhados são pistas técnicas e não provam propriedade, controle ou irregularidade.",
+  "lastChecked": "2026-11-20",
+  "discoveryUrl": "https://theosintvault.io/"
+},
+{
+  "id": "osint-vault-wayback-machine",
+  "name": "Wayback Machine",
+  "kind": "Busca e análise de infraestrutura digital",
+  "url": "https://web.archive.org/",
+  "desc": "VAULT TESTED ARCHIVE HISTORY WAYBACK TIMELINE. Relações de DNS, IP, certificados, serviços ou códigos compartilhados são pistas técnicas e não provam propriedade, controle ou irregularidade.",
+  "lastChecked": "2026-11-20",
+  "discoveryUrl": "https://theosintvault.io/"
+},
+{
+  "id": "osint-vault-tor-archive",
+  "name": "Tor Archive",
+  "kind": "Busca e análise de infraestrutura digital",
+  "url": "https://tor-archive.github.io/",
+  "desc": "Comprehensive TOR node intelligence feed tracking 212,000+ unique IPs that have ever operated as TOR relays. Historical timeline, node role (exit/guard/middle), geolocation, and AS attribution. Updated every 3 hours from live network data. Search, filter, and export by date range, country, ASN, or port. Relações de DNS, IP, certificados, serviços ou códigos compartilhados são pistas técnicas e não provam propriedade, controle ou irregularidade.",
+  "lastChecked": "2026-11-20",
+  "discoveryUrl": "https://theosintvault.io/"
+},
+{
+  "id": "osint-vault-shodan",
+  "name": "Shodan",
+  "kind": "Busca e análise de infraestrutura digital",
+  "url": "https://shodan.io/",
+  "desc": "Search engine for Internet-connected devices and services. Relações de DNS, IP, certificados, serviços ou códigos compartilhados são pistas técnicas e não provam propriedade, controle ou irregularidade.",
+  "lastChecked": "2026-11-20",
+  "discoveryUrl": "https://theosintvault.io/"
+},
+{
+  "id": "osint-vault-builtwith",
+  "name": "Builtwith",
+  "kind": "Busca e análise de infraestrutura digital",
+  "url": "https://builtwith.com/",
+  "desc": "Technology lookup - find out what websites are built with. Relações de DNS, IP, certificados, serviços ou códigos compartilhados são pistas técnicas e não provam propriedade, controle ou irregularidade.",
+  "lastChecked": "2026-11-20",
+  "discoveryUrl": "https://theosintvault.io/"
+},
+{
+  "id": "osint-vault-leakix",
+  "name": "Leakix",
+  "kind": "Busca e análise de infraestrutura digital",
+  "url": "https://leakix.net/",
+  "desc": "Search engine for security leaks and vulnerabilities. Relações de DNS, IP, certificados, serviços ou códigos compartilhados são pistas técnicas e não provam propriedade, controle ou irregularidade.",
+  "lastChecked": "2026-11-20",
+  "discoveryUrl": "https://theosintvault.io/"
+},
+{
+  "id": "osint-vault-dnsdumpster",
+  "name": "Dnsdumpster",
+  "kind": "Busca e análise de infraestrutura digital",
+  "url": "https://dnsdumpster.com/",
+  "desc": "Domain reconnaissance, DNS mapping, and host discovery. Relações de DNS, IP, certificados, serviços ou códigos compartilhados são pistas técnicas e não provam propriedade, controle ou irregularidade.",
+  "lastChecked": "2026-11-20",
+  "discoveryUrl": "https://theosintvault.io/"
+},
+{
+  "id": "osint-vault-securitytrails",
+  "name": "Securitytrails",
+  "kind": "Busca e análise de infraestrutura digital",
+  "url": "https://securitytrails.com/",
+  "desc": "Domain, DNS, and historical infrastructure intelligence. Relações de DNS, IP, certificados, serviços ou códigos compartilhados são pistas técnicas e não provam propriedade, controle ou irregularidade.",
+  "lastChecked": "2026-11-20",
+  "discoveryUrl": "https://theosintvault.io/"
+},
+{
+  "id": "osint-vault-censys-search",
+  "name": "Censys Search",
+  "kind": "Busca e análise de infraestrutura digital",
+  "url": "https://search.censys.io/",
+  "desc": "Internet host and certificate search for exposed services. Relações de DNS, IP, certificados, serviços ou códigos compartilhados são pistas técnicas e não provam propriedade, controle ou irregularidade.",
+  "lastChecked": "2026-11-20",
+  "discoveryUrl": "https://theosintvault.io/"
+},
+{
+  "id": "osint-vault-netlas",
+  "name": "Netlas",
+  "kind": "Busca e análise de infraestrutura digital",
+  "url": "https://netlas.io/",
+  "desc": "Internet-wide scan search engine for hosts, services, and exposed assets. Relações de DNS, IP, certificados, serviços ou códigos compartilhados são pistas técnicas e não provam propriedade, controle ou irregularidade.",
+  "lastChecked": "2026-11-20",
+  "discoveryUrl": "https://theosintvault.io/"
+},
+{
+  "id": "osint-vault-domaintools-whois",
+  "name": "Domaintools Whois",
+  "kind": "Busca e análise de infraestrutura digital",
+  "url": "https://whois.domaintools.com/",
+  "desc": "Comprehensive WHOIS lookup and domain history intelligence for registration data, hosting changes, and registrant pivoting. Relações de DNS, IP, certificados, serviços ou códigos compartilhados são pistas técnicas e não provam propriedade, controle ou irregularidade.",
+  "lastChecked": "2026-11-20",
+  "discoveryUrl": "https://theosintvault.io/"
+},
+{
+  "id": "osint-vault-viewdns",
+  "name": "Viewdns",
+  "kind": "Busca e análise de infraestrutura digital",
+  "url": "https://viewdns.info/",
+  "desc": "Reverse DNS lookup, reverse WHOIS, and DNS history. Multiple DNS intelligence tools in one interface for rapid domain and IP pivoting. Relações de DNS, IP, certificados, serviços ou códigos compartilhados são pistas técnicas e não provam propriedade, controle ou irregularidade.",
+  "lastChecked": "2026-11-20",
+  "discoveryUrl": "https://theosintvault.io/"
+},
+{
+  "id": "osint-vault-ipinfo",
+  "name": "Ipinfo",
+  "kind": "Busca e análise de infraestrutura digital",
+  "url": "https://ipinfo.io/",
+  "desc": "IP geolocation, ASN details, and company information. Clean API for programmatic lookups. Reliable fLrIeNeK tEieDrI Nfor investigative use. Relações de DNS, IP, certificados, serviços ou códigos compartilhados são pistas técnicas e não provam propriedade, controle ou irregularidade.",
+  "lastChecked": "2026-11-20",
+  "discoveryUrl": "https://theosintvault.io/"
+},
+{
+  "id": "osint-vault-pulsedive",
+  "name": "Pulsedive",
+  "kind": "Busca e análise de infraestrutura digital",
+  "url": "https://pulsedive.com/",
+  "desc": "Threat intelligence search engine. Query IPs, domains, and URLs for threat indicators with clean interface and API access. Relações de DNS, IP, certificados, serviços ou códigos compartilhados são pistas técnicas e não provam propriedade, controle ou irregularidade.",
+  "lastChecked": "2026-11-20",
+  "discoveryUrl": "https://theosintvault.io/"
+},
+{
+  "id": "osint-vault-onyphe",
+  "name": "Onyphe",
+  "kind": "Busca e análise de infraestrutura digital",
+  "url": "https://www.onyphe.com/",
+  "desc": "Cyber defense search engine for infrastructure intelligence. Analyze exposed services, IP metadata, domain relationships, and vulnerability indicators at scale. Relações de DNS, IP, certificados, serviços ou códigos compartilhados são pistas técnicas e não provam propriedade, controle ou irregularidade.",
+  "lastChecked": "2026-11-20",
+  "discoveryUrl": "https://theosintvault.io/"
+},
+{
+  "id": "osint-vault-fofa",
+  "name": "Fofa",
+  "kind": "Busca e análise de infraestrutura digital",
+  "url": "https://fofa.info/",
+  "desc": "Internet asset search engine with strong coverage of Asian infrastructure. Scans global internet for exposeLdI NseKrEvDicINes, devices, and vulnerabilities with advanced query syntax. Relações de DNS, IP, certificados, serviços ou códigos compartilhados são pistas técnicas e não provam propriedade, controle ou irregularidade.",
+  "lastChecked": "2026-11-20",
+  "discoveryUrl": "https://theosintvault.io/"
+},
+{
+  "id": "osint-vault-heyutils-dns-lookup",
+  "name": "Heyutils Dns Lookup",
+  "kind": "Busca e análise de infraestrutura digital",
+  "url": "https://heyutils.com/tools/dns-lookup/",
+  "desc": "Free DNS lookup tool for checking current records through Google or Cloudflare resolvers. Supports common DNS record types and reverse DNS, with remaining TTL values, query timestamps, and options to copy records or raw JSON responses. No account required. Relações de DNS, IP, certificados, serviços ou códigos compartilhados são pistas técnicas e não provam propriedade, controle ou irregularidade.",
+  "lastChecked": "2026-11-20",
+  "discoveryUrl": "https://theosintvault.io/"
+},
+{
+  "id": "osint-vault-apify",
+  "name": "Apify",
+  "kind": "Busca e análise de infraestrutura digital",
+  "url": "https://apify.com/",
+  "desc": "Web data extraction and automation platform offering ready-to-run scraping tools, scheduled collection, API integrations, and structured data exports. Supports investigative collection from supported public websites, social platforms, business directories, and other online sources. A general collection platform rather than a standalone people-search service; individual Actors vary in sources, permissions, pricing, and output formats. Free tier with monthly usage credits, paid plans above it. Relações de DNS, IP, certificados, serviços ou códigos compartilhados são pistas técnicas e não provam propriedade, controle ou irregularidade.",
+  "lastChecked": "2026-11-20",
+  "discoveryUrl": "https://theosintvault.io/"
+},
+{
+  "id": "osint-vault-domain-dossier",
+  "name": "Domain Dossier",
+  "kind": "Busca e análise de infraestrutura digital",
+  "url": "https://centralops.net/co/domaindossier",
+  "desc": "identifying infrastructure details that open additional lines of research. Relações de DNS, IP, certificados, serviços ou códigos compartilhados são pistas técnicas e não provam propriedade, controle ou irregularidade.",
+  "lastChecked": "2026-11-20",
+  "discoveryUrl": "https://theosintvault.io/"
+},
+{
+  "id": "osint-vault-dnslytics",
+  "name": "Dnslytics",
+  "kind": "Busca e análise de infraestrutura digital",
+  "url": "https://dnslytics.com/reverse-ip/",
+  "desc": "Reverse IP research, DNS analysis, and related infrastructure searches. Identifies domains sharing the same IP address, nameservers, and other technical identifiers; treat those relationships as leads, not proof of shared ownership. REVERSE IP DNS NAMESERVERS INFRASTRUCTURE. Relações de DNS, IP, certificados, serviços ou códigos compartilhados são pistas técnicas e não provam propriedade, controle ou irregularidade.",
+  "lastChecked": "2026-11-20",
+  "discoveryUrl": "https://theosintvault.io/"
+},
+{
+  "id": "osint-vault-spyonweb",
+  "name": "Spyonweb",
+  "kind": "Busca e análise de infraestrutura digital",
+  "url": "https://spyonweb.net/",
+  "desc": "Finds relationships between websites through shared technical identifiers such as analytics codes, advertising identifiers, DNS records, and infrastructure details. Useful for surfacing domain connections that are not visible in page content. ANALYTICS ID ADSENSE SHARED INFRASTRUCTURE DOMAIN CONNECTIONS. Relações de DNS, IP, certificados, serviços ou códigos compartilhados são pistas técnicas e não provam propriedade, controle ou irregularidade.",
+  "lastChecked": "2026-11-20",
+  "discoveryUrl": "https://theosintvault.io/"
+},
+{
+  "id": "osint-vault-visualping",
+  "name": "Visualping",
+  "kind": "Busca e análise de infraestrutura digital",
+  "url": "https://visualping.io/",
+  "desc": "Monitors websites for changes and notifies you when selected content is updated. Useful for tracking public pages, company announcements, and revisions to online information over time. MONITORING CHANGE DETECTION ALERTS TRACKING. Relações de DNS, IP, certificados, serviços ou códigos compartilhados são pistas técnicas e não provam propriedade, controle ou irregularidade.",
+  "lastChecked": "2026-11-20",
+  "discoveryUrl": "https://theosintvault.io/"
+},
+{
+  "id": "osint-vault-pentest-tools-subdomain-finder",
+  "name": "Pentest Tools Subdomain Finder",
+  "kind": "Busca e análise de infraestrutura digital",
+  "url": "https://pentest-tools.com/information-gathering/find-subdomains-of-domain",
+  "desc": "Discovers subdomains associated with a specified domain. Subdomain research can reveal additional websites, services, and organizational infrastructure not linked from the primary homepage. SUBDOMAINS ENUMERATION RECONNAISSANCE DNS. Relações de DNS, IP, certificados, serviços ou códigos compartilhados são pistas técnicas e não provam propriedade, controle ou irregularidade.",
+  "lastChecked": "2026-11-20",
+  "discoveryUrl": "https://theosintvault.io/"
+},
+{
+  "id": "osint-vault-virustotal",
+  "name": "Virustotal",
+  "kind": "Busca e análise de infraestrutura digital",
+  "url": "https://www.virustotal.com/",
+  "desc": "Threat intelligence and malware analysis platform for investigating suspicious files, URLs, domains, IP addresses, and file hashes (SHA256, SHA1, MD5). Aggregates detections from multiple security engines and reputation sources; a detection is an indicator, not conclusive proof on its own. Supports historical DNS and infrastructure relationships where available, file metadata and behavioral context, community comments, and investigative pivots. Basic web scanning and lookups are free for noncommercial use; the public API carries usage limits, and Intelligence, Hunting, expanded API access, and private scanning require paid licensing. Standard submissions are shared within the VirusTotal security ecosystem and are not confidential. Detecções são indicadores, não prova conclusiva. Envios padrão podem ser compartilhados no ecossistema de segurança; não enviar material sigiloso.",
+  "lastChecked": "2026-11-20",
+  "discoveryUrl": "https://theosintvault.io/"
+},
+{
+  "id": "osint-vault-usersearch-io",
+  "name": "Usersearch.Io",
+  "kind": "Pesquisa de identificadores públicos",
+  "url": "https://usersearch.io/",
+  "desc": "Username search engine across multiple platforms. Correspondências entre identificadores são pistas e não confirmam que contas pertencem à mesma pessoa. Respeitar privacidade, finalidade jornalística e termos das fontes.",
+  "lastChecked": "2026-11-20",
+  "discoveryUrl": "https://theosintvault.io/"
+},
+{
+  "id": "osint-vault-namechk",
+  "name": "Namechk",
+  "kind": "Pesquisa de identificadores públicos",
+  "url": "https://namechk.com/",
+  "desc": "Check username availability across multiple platforms. Correspondências entre identificadores são pistas e não confirmam que contas pertencem à mesma pessoa. Respeitar privacidade, finalidade jornalística e termos das fontes.",
+  "lastChecked": "2026-11-20",
+  "discoveryUrl": "https://theosintvault.io/"
+},
+{
+  "id": "osint-vault-instant-username-search",
+  "name": "Instant Username Search",
+  "kind": "Pesquisa de identificadores públicos",
+  "url": "https://instantusername.com/",
+  "desc": "Fast username search across social networks. Correspondências entre identificadores são pistas e não confirmam que contas pertencem à mesma pessoa. Respeitar privacidade, finalidade jornalística e termos das fontes.",
+  "lastChecked": "2026-11-20",
+  "discoveryUrl": "https://theosintvault.io/"
+},
+{
+  "id": "osint-vault-sherlock-project",
+  "name": "Sherlock Project",
+  "kind": "Pesquisa de identificadores públicos",
+  "url": "https://github.com/sherlock-project/sherlock",
+  "desc": "Username investigation across hundreds of social platforms. Correspondências entre identificadores são pistas e não confirmam que contas pertencem à mesma pessoa. Respeitar privacidade, finalidade jornalística e termos das fontes.",
+  "lastChecked": "2026-11-20",
+  "discoveryUrl": "https://theosintvault.io/"
+},
+{
+  "id": "osint-vault-namecheckup",
+  "name": "Namecheckup",
+  "kind": "Pesquisa de identificadores públicos",
+  "url": "https://namecheckup.com/",
+  "desc": "Username and domain availability checks across major services. Correspondências entre identificadores são pistas e não confirmam que contas pertencem à mesma pessoa. Respeitar privacidade, finalidade jornalística e termos das fontes.",
+  "lastChecked": "2026-11-20",
+  "discoveryUrl": "https://theosintvault.io/"
+},
+{
+  "id": "osint-vault-blackbird",
+  "name": "Blackbird",
+  "kind": "Pesquisa de identificadores públicos",
+  "url": "https://github.com/p1ngul1n0/blackbird",
+  "desc": "OSINT tool to hunt user accounts by handle across platforms. Correspondências entre identificadores são pistas e não confirmam que contas pertencem à mesma pessoa. Respeitar privacidade, finalidade jornalística e termos das fontes.",
+  "lastChecked": "2026-11-20",
+  "discoveryUrl": "https://theosintvault.io/"
+},
+{
+  "id": "osint-vault-nexfil",
+  "name": "Nexfil",
+  "kind": "Pesquisa de identificadores públicos",
+  "url": "https://github.com/thewhiteh4t/nexfil",
+  "desc": "Username and profile intelligence tool for cross-platform account discovery. Correspondências entre identificadores são pistas e não confirmam que contas pertencem à mesma pessoa. Respeitar privacidade, finalidade jornalística e termos das fontes.",
+  "lastChecked": "2026-11-20",
+  "discoveryUrl": "https://theosintvault.io/"
+},
+{
+  "id": "osint-vault-socialscan",
+  "name": "Socialscan",
+  "kind": "Pesquisa de identificadores públicos",
+  "url": "https://github.com/iojw/socialscan",
+  "desc": "Checks username and email availability across major social networks and online services. Correspondências entre identificadores são pistas e não confirmam que contas pertencem à mesma pessoa. Respeitar privacidade, finalidade jornalística e termos das fontes.",
+  "lastChecked": "2026-11-20",
+  "discoveryUrl": "https://theosintvault.io/"
+},
+{
+  "id": "osint-vault-hunter-io",
+  "name": "Hunter.Io",
+  "kind": "Investigação de e-mail e telefone",
+  "url": "https://hunter.io/",
+  "desc": "Identifies professional email addresses associated with a company or domain, surfaces common naming patterns, and provides deliverability verification. Supports bulk searches and API access for larger datasets. Correspondências entre identificadores são pistas e não confirmam que contas pertencem à mesma pessoa. Respeitar privacidade, finalidade jornalística e termos das fontes.",
+  "lastChecked": "2026-11-20",
+  "discoveryUrl": "https://theosintvault.io/"
+},
+{
+  "id": "osint-vault-phoneinfoga",
+  "name": "Phoneinfoga",
+  "kind": "Investigação de e-mail e telefone",
+  "url": "https://sundowndev.github.io/phoneinfoga/",
+  "desc": "Phone number information gathering tool. Correspondências entre identificadores são pistas e não confirmam que contas pertencem à mesma pessoa. Respeitar privacidade, finalidade jornalística e termos das fontes.",
+  "lastChecked": "2026-11-20",
+  "discoveryUrl": "https://theosintvault.io/"
+},
+{
+  "id": "osint-vault-mxtoolbox",
+  "name": "Mxtoolbox",
+  "kind": "Investigação de e-mail e telefone",
+  "url": "https://mxtoolbox.com/",
+  "desc": "Email server diagnostics. SPF, DMARC, MX record lookups, blacklist checks, and DNS validation for email infrastructure analysis. Funcionalidade e página identificadas; limites de uso, preços, cobertura, retenção e condições de acesso devem ser confirmados no mantenedor.",
+  "lastChecked": "2026-11-20",
+  "discoveryUrl": "https://theosintvault.io/"
+},
+{
+  "id": "osint-vault-ignorant",
+  "name": "Ignorant",
+  "kind": "Investigação de e-mail e telefone",
+  "url": "https://github.com/megadose/ignorant",
+  "desc": "CLI tool that queries a phone number across multiple online services including Instagram and Snapchat. Best for command-line checks and automation pipelines. Correspondências entre identificadores são pistas e não confirmam que contas pertencem à mesma pessoa. Respeitar privacidade, finalidade jornalística e termos das fontes.",
+  "lastChecked": "2026-11-20",
+  "discoveryUrl": "https://theosintvault.io/"
+},
+{
+  "id": "osint-vault-inteltechniques-phone-tools",
+  "name": "Inteltechniques Phone Tools",
+  "kind": "Investigação de e-mail e telefone",
+  "url": "https://inteltechniques.com/tools",
+  "desc": "Web-based OSINT lookup tools with a phone number section for simultaneous searches across many services. Results open in separate tabs per service. Funcionalidade e página identificadas; limites de uso, preços, cobertura, retenção e condições de acesso devem ser confirmados no mantenedor.",
+  "lastChecked": "2026-11-20",
+  "discoveryUrl": "https://theosintvault.io/"
+},
+{
+  "id": "osint-vault-numverify",
+  "name": "Numverify",
+  "kind": "Investigação de e-mail e telefone",
+  "url": "https://numverify.com/",
+  "desc": "Online phone number verification service. Provides carrier metadata, line type, location, and validation. Useful for initial number validation and formatting checks. Correspondências entre identificadores são pistas e não confirmam que contas pertencem à mesma pessoa. Respeitar privacidade, finalidade jornalística e termos das fontes.",
+  "lastChecked": "2026-11-20",
+  "discoveryUrl": "https://theosintvault.io/"
+},
+{
+  "id": "osint-vault-ghunt",
+  "name": "Ghunt",
+  "kind": "Investigação de e-mail e telefone",
+  "url": "https://github.com/mxrch/GHunt",
+  "desc": "OSINT tool for investigating Google accounts via Gmail address. Extract name, profile photo, Maps reviews, YouTube channels, and Google Calendar events. Correspondências entre identificadores são pistas e não confirmam que contas pertencem à mesma pessoa. Respeitar privacidade, finalidade jornalística e termos das fontes.",
+  "lastChecked": "2026-11-20",
+  "discoveryUrl": "https://theosintvault.io/"
+},
+{
+  "id": "osint-vault-abuse-ch-malwarebazaar",
+  "name": "Abuse.Ch Malwarebazaar",
+  "kind": "Inteligência de ameaças",
+  "url": "https://bazaar.abuse.ch/",
+  "desc": "Search and pivot malware samples by hash, signature, and family. Indicadores de ameaça, reputação e detecções agregadas exigem confirmação independente; não equivalem a atribuição ou prova conclusiva.",
+  "lastChecked": "2026-11-20",
+  "discoveryUrl": "https://theosintvault.io/"
+},
+{
+  "id": "osint-vault-abuse-ch-urlhaus",
+  "name": "Abuse.Ch Urlhaus",
+  "kind": "Inteligência de ameaças",
+  "url": "https://urlhaus.abuse.ch/",
+  "desc": "Track malicious URLs and payload delivery infrastructure. Indicadores de ameaça, reputação e detecções agregadas exigem confirmação independente; não equivalem a atribuição ou prova conclusiva.",
+  "lastChecked": "2026-11-20",
+  "discoveryUrl": "https://theosintvault.io/"
+},
+{
+  "id": "osint-vault-misp-threat-sharing-project",
+  "name": "Misp Threat Sharing Project",
+  "kind": "Inteligência de ameaças",
+  "url": "https://www.misp-project.org/",
+  "desc": "Open standard platform for threat intelligence and IOC exchange. Indicadores de ameaça, reputação e detecções agregadas exigem confirmação independente; não equivalem a atribuição ou prova conclusiva.",
+  "lastChecked": "2026-11-20",
+  "discoveryUrl": "https://theosintvault.io/"
+},
+{
+  "id": "osint-vault-hudson-rock-free-cybercrime",
+  "name": "Hudson Rock Free Cybercrime",
+  "kind": "Inteligência de ameaças",
+  "url": "https://www.hudsonrock.com/free-tools",
+  "desc": "INTELLIGENCE TOOLSET Free cybercrime intelligence tools and threat data. Usar somente para verificar exposição documentada e sem republicar credenciais ou dados pessoais. Uma ocorrência exige confirmação contextual.",
+  "lastChecked": "2026-11-20",
+  "discoveryUrl": "https://theosintvault.io/"
+},
+{
+  "id": "osint-vault-abuseipdb",
+  "name": "Abuseipdb",
+  "kind": "Inteligência de ameaças",
+  "url": "https://www.abuseipdb.com/",
+  "desc": "Community-driven IP abuse reporting database. Check and report IPs involved in hacking attempts, spam, DDoS, and malicious activity. Indicadores de ameaça, reputação e detecções agregadas exigem confirmação independente; não equivalem a atribuição ou prova conclusiva.",
+  "lastChecked": "2026-11-20",
+  "discoveryUrl": "https://theosintvault.io/"
+},
+{
+  "id": "osint-vault-urlscan-io",
+  "name": "Urlscan.Io",
+  "kind": "Inteligência de ameaças",
+  "url": "https://urlscan.io/",
+  "desc": "Scan and analyze URLs to expose infrastructure, scripts, redirects, and IOCs. Returns a full screenshot, DOM snapshot, and network request log for any submitted URL. Indicadores de ameaça, reputação e detecções agregadas exigem confirmação independente; não equivalem a atribuição ou prova conclusiva.",
+  "lastChecked": "2026-11-20",
+  "discoveryUrl": "https://theosintvault.io/"
+},
+{
+  "id": "osint-vault-greynoise",
+  "name": "Greynoise",
+  "kind": "Inteligência de ameaças",
+  "url": "https://viz.greynoise.io/",
+  "desc": "Distinguish targeted attacks from internet background noise. Tag IPs as benign scanners, malicious actors, or unknown to cut false positives in threat investigations. Indicadores de ameaça, reputação e detecções agregadas exigem confirmação independente; não equivalem a atribuição ou prova conclusiva.",
+  "lastChecked": "2026-11-20",
+  "discoveryUrl": "https://theosintvault.io/"
+},
+{
+  "id": "osint-vault-have-i-been-pwned",
+  "name": "Have I Been Pwned",
+  "kind": "Inteligência de ameaças",
+  "url": "https://haveibeenpwned.com/",
+  "desc": "Checks whether an email address appears in known data breaches. A straightforward starting point for establishing whether an address has a documented exposure history, with context about the affected services and reported incidents. Usar somente para verificar exposição documentada e sem republicar credenciais ou dados pessoais. Uma ocorrência exige confirmação contextual.",
+  "lastChecked": "2026-11-20",
+  "discoveryUrl": "https://theosintvault.io/"
+},
+{
+  "id": "osint-vault-theharvester",
+  "name": "Theharvester",
+  "kind": "Ferramenta OSINT de linha de comando",
+  "url": "https://github.com/laramies/theHarvester",
+  "desc": "VAULT TESTED EMAIL SUBDOMAINS IPS OSINT. Funcionalidade e página identificadas; limites de uso, preços, cobertura, retenção e condições de acesso devem ser confirmados no mantenedor.",
+  "lastChecked": "2026-11-20",
+  "discoveryUrl": "https://theosintvault.io/"
+},
+{
+  "id": "osint-vault-holehe",
+  "name": "Holehe",
+  "kind": "Ferramenta OSINT de linha de comando",
+  "url": "https://github.com/megadose/holehe",
+  "desc": "Check if an email is used on different sites like twitter, instagram and many more. Correspondências entre identificadores são pistas e não confirmam que contas pertencem à mesma pessoa. Respeitar privacidade, finalidade jornalística e termos das fontes.",
+  "lastChecked": "2026-11-20",
+  "discoveryUrl": "https://theosintvault.io/"
+},
+{
+  "id": "osint-vault-gitcolombo",
+  "name": "Gitcolombo",
+  "kind": "Ferramenta OSINT de linha de comando",
+  "url": "https://gitcolombo.soxoj.com/",
+  "desc": "Automatically discovers email addresses associated with GitHub repositories and commit history. Funcionalidade e página identificadas; limites de uso, preços, cobertura, retenção e condições de acesso devem ser confirmados no mantenedor.",
+  "lastChecked": "2026-11-20",
+  "discoveryUrl": "https://theosintvault.io/"
+},
+{
+  "id": "osint-vault-grep-app",
+  "name": "Grep.App",
+  "kind": "Ferramenta OSINT de linha de comando",
+  "url": "https://grep.app/",
+  "desc": "Search billions of lines of public source code across GitHub repositories and open-source projects. Funcionalidade e página identificadas; limites de uso, preços, cobertura, retenção e condições de acesso devem ser confirmados no mantenedor.",
+  "lastChecked": "2026-11-20",
+  "discoveryUrl": "https://theosintvault.io/"
+},
+{
+  "id": "osint-vault-social-searcher",
+  "name": "Social Searcher",
+  "kind": "Pesquisa e verificação em redes sociais",
+  "url": "https://www.social-searcher.com/",
+  "desc": "VAULT TESTED SOCIAL-MEDIA MONITORING SEARCH CROSS-PLATFORM. Resultados dependem do conteúdo público e da cobertura da plataforma; validar autoria, data, contexto e completude antes de publicar.",
+  "lastChecked": "2026-11-20",
+  "discoveryUrl": "https://theosintvault.io/"
+},
+{
+  "id": "osint-vault-igdatahub",
+  "name": "Igdatahub",
+  "kind": "Pesquisa e verificação em redes sociais",
+  "url": "https://igdatahub.com/",
+  "desc": "IGDataHub provides searchable analytics for public Instagram accounts, including profile information, follower history, engagement metrics, recent posts, and hashtag research. Investigators can compare accounts, examine public activity patterns, and export selected datasets as CSV files. Public lookups are free, with paid data exports available. Resultados dependem do conteúdo público e da cobertura da plataforma; validar autoria, data, contexto e completude antes de publicar.",
+  "lastChecked": "2026-11-20",
+  "discoveryUrl": "https://theosintvault.io/"
+},
+{
+  "id": "osint-vault-invid",
+  "name": "Invid",
+  "kind": "Pesquisa e verificação em redes sociais",
+  "url": "https://www.invid-project.eu/tools-and-services/invid-verification-plugin/",
+  "desc": "Video verification toolkit for keyframe extraction and source validation. Resultados dependem do conteúdo público e da cobertura da plataforma; validar autoria, data, contexto e completude antes de publicar.",
+  "lastChecked": "2026-11-20",
+  "discoveryUrl": "https://theosintvault.io/"
+},
+{
+  "id": "osint-vault-mapillary",
+  "name": "Mapillary",
+  "kind": "Pesquisa e verificação em redes sociais",
+  "url": "https://www.mapillary.com/",
+  "desc": "Street-level imagery platform for visual geolocation and scene comparison. Resultados dependem do conteúdo público e da cobertura da plataforma; validar autoria, data, contexto e completude antes de publicar.",
+  "lastChecked": "2026-11-20",
+  "discoveryUrl": "https://theosintvault.io/"
+},
+{
+  "id": "osint-vault-telepathy",
+  "name": "Telepathy",
+  "kind": "Pesquisa e verificação em redes sociais",
+  "url": "https://github.com/prose-intelligence-ltd/Telepathy-Community",
+  "desc": "Telegram-focused OSINT toolkit for collecting and analyzing publicly accessible Telegram intelligence. Resultados dependem do conteúdo público e da cobertura da plataforma; validar autoria, data, contexto e completude antes de publicar.",
+  "lastChecked": "2026-11-20",
+  "discoveryUrl": "https://theosintvault.io/"
+},
+{
+  "id": "osint-vault-who-posted-what",
+  "name": "Who Posted What",
+  "kind": "Pesquisa e verificação em redes sociais",
+  "url": "https://whopostedwhat.com/",
+  "desc": "Non-public Facebook keyword search for investigators and journalists. Search public Facebook posts by keyword on a specific date or within a defined date range. Surfaces activity tied to events, locations, and subjects where standard Facebook search fails. Built for people who work in the public interest. Resultados dependem do conteúdo público e da cobertura da plataforma; validar autoria, data, contexto e completude antes de publicar.",
+  "lastChecked": "2026-11-20",
+  "discoveryUrl": "https://theosintvault.io/"
+},
+{
+  "id": "osint-vault-inteltechniques-linkedin-search",
+  "name": "Inteltechniques Linkedin Search",
+  "kind": "Pesquisa e verificação em redes sociais",
+  "url": "https://inteltechniques.com/tools/Linkedin",
+  "desc": "LinkedIn-focused investigative search utility from IntelTechniques. Builds targeted searches using names, employers, job titles, schools, keywords, and other identifying details to assist professional identity research and LinkedIn profile discovery. Resultados dependem do conteúdo público e da cobertura da plataforma; validar autoria, data, contexto e completude antes de publicar.",
+  "lastChecked": "2026-11-20",
+  "discoveryUrl": "https://theosintvault.io/"
+},
+{
+  "id": "osint-vault-fotoforensics",
+  "name": "Fotoforensics",
+  "kind": "Pesquisa e verificação em redes sociais",
+  "url": "https://fotoforensics.com/",
+  "desc": "Long-running image forensics service built around error level analysis. Upload a photo or paste a URL and compare the compression map against the original: edited regions light up at a different error level than untouched ones. Includes metadata view, tutorials on reading ELA correctly, and analysis history. Remember ELA is a signal, not a verdict. O arquivo é enviado ao serviço; não usar com material sigiloso ou que contenha dados pessoais sem avaliar retenção e termos. Resultados forenses exigem confirmação.",
+  "lastChecked": "2026-11-20",
+  "discoveryUrl": "https://theosintvault.io/"
+},
+{
+  "id": "osint-vault-forensically-29a-ch",
+  "name": "Forensically (29A.Ch)",
+  "kind": "Verificação de imagem e metadados",
+  "url": "https://29a.ch/photo-forensics/",
+  "desc": "Free browser-based photo forensics suite: clone detection, error level analysis, noise analysis, level sweep, and metadata extraction. Runs client-side and works offline once loaded, so sensitive images never leave your machine. Treat results as a magnifying glass, not a verdict. O site declara processamento no navegador, mas essa afirmação não foi auditada no código. Metadados ausentes não provam manipulação.",
+  "lastChecked": "2026-11-20",
+  "discoveryUrl": "https://theosintvault.io/"
+},
+{
+  "id": "osint-vault-exif-tools",
+  "name": "Exif.Tools",
+  "kind": "Verificação de imagem e metadados",
+  "url": "https://exif.tools/",
+  "desc": "In-browser EXIF and file metadata viewer for photos, PDFs, and documents. Shows GPS coordinates, camera details, author fields, timestamps, and hashes. Processing happens locally in the browser. O site declara processamento no navegador, mas essa afirmação não foi auditada no código. Metadados ausentes não provam manipulação.",
+  "lastChecked": "2026-11-20",
+  "discoveryUrl": "https://theosintvault.io/"
+},
+{
+  "id": "osint-vault-metadata2go",
+  "name": "Metadata2Go",
+  "kind": "Verificação de imagem e metadados",
+  "url": "https://www.metadata2go.com/",
+  "desc": "Online metadata viewer for images, video, audio, documents, and ebooks. Upload a file or paste a URL and it dumps the hidden metadata fields: EXIF, XMP, document properties, creation software. No installation. Mind what you upload; files go to their server. O arquivo é enviado ao serviço; não usar com material sigiloso ou que contenha dados pessoais sem avaliar retenção e termos. Resultados forenses exigem confirmação.",
+  "lastChecked": "2026-11-20",
+  "discoveryUrl": "https://theosintvault.io/"
+},
+{
+  "id": "osint-vault-jimpl",
+  "name": "Jimpl",
+  "kind": "Verificação de imagem e metadados",
+  "url": "https://jimpl.com/",
+  "desc": "coordinates when the device recorded them. Also strips EXIF on download, which is useful for checking whaLtI Na KsEcDruIbNbed image still carries. Uploads are deleted after 24 hours, but treat anything sensitive as exposed the moment it leaves your machine. O arquivo é enviado ao serviço; não usar com material sigiloso ou que contenha dados pessoais sem avaliar retenção e termos. Resultados forenses exigem confirmação.",
+  "lastChecked": "2026-11-20",
+  "discoveryUrl": "https://theosintvault.io/"
+},
+{
+  "id": "osint-vault-metadata-remover-ai",
+  "name": "Metadata Remover Ai",
+  "kind": "Verificação de imagem e metadados",
+  "url": "https://metadataremoverai.com/exif-viewer",
+  "desc": "Metadata Remover AI is a free, browser-based metadata viewer and removal tool for images and video. Inspect EXIF data, GPS coordinates, camera identifiers, timestamps, IPTC, XMP, embedded thumbnails, C2PA Content Credentials, and supported AI generation metadata. Supports JPEG, PNG, WebP, HEIC, AVIF, GIF, TIFF, MP4, and MOV through its available tools. File processing takes place locally in the browser, according to the developer. Metadata can be removed without re-encoding the underlying image or video data. Useful for image forensics, metadata inspection, and OPSEC checks before sharing files. O site declara processamento no navegador, mas essa afirmação não foi auditada no código. Metadados ausentes não provam manipulação.",
+  "lastChecked": "2026-11-20",
+  "discoveryUrl": "https://theosintvault.io/"
+},
+{
+  "id": "osint-vault-tineye",
+  "name": "Tineye",
+  "kind": "Verificação de imagem e metadados",
+  "url": "https://tineye.com/",
+  "desc": "Reverse image search with a database of over 60 billion images. Finds exact and modified matches with historical tracking. Funcionalidade e página identificadas; limites de uso, preços, cobertura, retenção e condições de acesso devem ser confirmados no mantenedor.",
+  "lastChecked": "2026-11-20",
+  "discoveryUrl": "https://theosintvault.io/"
+},
+{
+  "id": "osint-vault-ubikron",
+  "name": "Ubikron",
+  "kind": "Verificação de imagem e metadados",
+  "url": "https://ubikron.com/",
+  "desc": "Browser-based OSINT investigation workbench. Capture pages, extract entities, annotate clues, and build structured case files without leaving your browser. Funcionalidade e página identificadas; limites de uso, preços, cobertura, retenção e condições de acesso devem ser confirmados no mantenedor.",
+  "lastChecked": "2026-11-20",
+  "discoveryUrl": "https://theosintvault.io/"
+},
+{
+  "id": "osint-vault-spiderfoot",
+  "name": "Spiderfoot",
+  "kind": "Verificação de imagem e metadados",
+  "url": "https://github.com/smicallef/spiderfoot",
+  "desc": "Automated OSINT reconnaissance and attack-surface discovery platform. Funcionalidade e página identificadas; limites de uso, preços, cobertura, retenção e condições de acesso devem ser confirmados no mantenedor.",
+  "lastChecked": "2026-11-20",
+  "discoveryUrl": "https://theosintvault.io/"
+},
+{
+  "id": "osint-vault-maltego",
+  "name": "Maltego",
+  "kind": "Análise investigativa e extensão",
+  "url": "https://www.maltego.com/",
+  "desc": "Graph-based link analysis and entity relationship investigation platform. Conferir instalação, permissões, modelo de acesso e política de dados no mantenedor; resultados automatizados exigem revisão humana.",
+  "lastChecked": "2026-11-20",
+  "discoveryUrl": "https://theosintvault.io/"
+},
+{
+  "id": "osint-vault-recon-ng",
+  "name": "Recon-Ng",
+  "kind": "Análise investigativa e extensão",
+  "url": "https://github.com/lanmaster53/recon-ng",
+  "desc": "Modular web reconnaissance framework for advanced OSINT workflows. Conferir instalação, permissões, modelo de acesso e política de dados no mantenedor; resultados automatizados exigem revisão humana.",
+  "lastChecked": "2026-11-20",
+  "discoveryUrl": "https://theosintvault.io/"
+},
+{
+  "id": "osint-vault-sentinel-hub",
+  "name": "Sentinel Hub",
+  "kind": "Análise investigativa e extensão",
+  "url": "https://www.sentinel-hub.com/",
+  "desc": "Satellite imagery analysis platform for geospatial monitoring and comparison. Conferir instalação, permissões, modelo de acesso e política de dados no mantenedor; resultados automatizados exigem revisão humana.",
+  "lastChecked": "2026-11-20",
+  "discoveryUrl": "https://theosintvault.io/"
+},
+{
+  "id": "osint-vault-privacytools-io",
+  "name": "Privacytools.Io",
+  "kind": "Análise investigativa e extensão",
+  "url": "https://privacytools.io/",
+  "desc": "Curated directory of privacy-focused software, services, and operational security resources for investigators and privacy-conscious researchers. Conferir instalação, permissões, modelo de acesso e política de dados no mantenedor; resultados automatizados exigem revisão humana.",
+  "lastChecked": "2026-11-20",
+  "discoveryUrl": "https://theosintvault.io/"
+},
+{
+  "id": "osint-vault-neat-labs",
+  "name": "Neat Labs",
+  "kind": "Análise investigativa e extensão",
+  "url": "https://neatlabs.ai/",
+  "desc": "Research and investigation platform for structured intelligence gathering and entity analysis. Conferir instalação, permissões, modelo de acesso e política de dados no mantenedor; resultados automatizados exigem revisão humana.",
+  "lastChecked": "2026-11-20",
+  "discoveryUrl": "https://theosintvault.io/"
+},
+{
+  "id": "osint-vault-refloow-geo-forensics",
+  "name": "Refloow Geo Forensics",
+  "kind": "Análise investigativa e extensão",
+  "url": "https://github.com/Refloow/Refloow-Geo-Forensics",
+  "desc": "Open-source (AGPL-3.0) geolocation forensics tool that automates the mapping process. Runs locally on Windows with additional platform support coming. Conferir instalação, permissões, modelo de acesso e política de dados no mantenedor; resultados automatizados exigem revisão humana.",
+  "lastChecked": "2026-11-20",
+  "discoveryUrl": "https://theosintvault.io/"
+},
+{
+  "id": "osint-vault-frametra",
+  "name": "Frametra",
+  "kind": "Análise investigativa e extensão",
+  "url": "https://frametra.com/",
+  "desc": "Structural media analysis browser extension that evaluates how an article is constructed and presented: claim pressure, evidence signals, editorial integrity, and source attribution. Produces a Structural Integrity Score with supporting analysis for examining how information is sourced, supported, and framed. Os padrões e escores apresentados são pistas para revisão humana; não provam autoria, intenção, falsidade ou uso de IA.",
+  "lastChecked": "2026-11-20",
+  "discoveryUrl": "https://theosintvault.io/"
+},
+{
+  "id": "osint-vault-reveye-reverse-image-search",
+  "name": "Reveye Reverse Image Search",
+  "kind": "Análise investigativa e extensão",
+  "url": "https://github.com/steven2358/reveye",
+  "desc": "Right-click reverse image search extension that queries Google Lens, Bing, Yandex, and TinEye in one action, with support for custom engines. Traces an image back to earlier postings and original sources. Free, open source, no tracking. Revisar código, origem e permissões antes de instalar ou executar no navegador; funções e política de dados podem mudar.",
+  "lastChecked": "2026-11-20",
+  "discoveryUrl": "https://theosintvault.io/"
+},
+{
+  "id": "osint-vault-singlefile",
+  "name": "Singlefile",
+  "kind": "Análise investigativa e extensão",
+  "url": "https://www.getsinglefile.com/",
+  "desc": "Web preservation extension that saves a complete page, including images, stylesheets, fonts, and frames, as a single self-contained HTML file for offline evidence capture. Supports annotation, batch saves, auto-save, and SHA256 proof of existence. Free, open source. Revisar código, origem e permissões antes de instalar ou executar no navegador; funções e política de dados podem mudar.",
+  "lastChecked": "2026-11-20",
+  "discoveryUrl": "https://theosintvault.io/"
+},
+{
+  "id": "osint-vault-osint-framework",
+  "name": "Osint Framework",
+  "kind": "Diretório estruturado de recursos OSINT",
+  "url": "https://osintframework.com/",
+  "desc": "The original OSINT resource tree. Hundreds of free tools organized by data type: usernames, emails, domains, images, social networks, public records. Useful as a checklist when you think you have run out of pivots. Some branches go stale, so verify a node before you rely on it. Funcionalidade e página identificadas; limites de uso, preços, cobertura, retenção e condições de acesso devem ser confirmados no mantenedor.",
+  "lastChecked": "2026-11-20",
+  "discoveryUrl": "https://theosintvault.io/"
+},
+{
+  "id": "osint-vault-clockedf12",
+  "name": "Clockedf12",
+  "kind": "Extensão para Chrome",
+  "url": "https://theosintvault.io/clockedf12",
+  "desc": "Executa inspeções orientadas de DevTools e apresenta dados de rede, APIs, JavaScript, página e navegador. Revisar código, origem e permissões antes de instalar ou executar no navegador; funções e política de dados podem mudar.",
+  "lastChecked": "2026-11-20",
+  "discoveryUrl": "https://theosintvault.io/"
+},
+{
+  "id": "osint-vault-omerta",
+  "name": "Omertà",
+  "kind": "Plataforma de investigação",
+  "url": "https://theosintvault.io/omerta",
+  "desc": "Pesquisa e correlaciona nomes, usuários, telefones, domínios, e-mails e outros identificadores digitais. Correspondências entre identificadores são pistas e não confirmam que contas pertencem à mesma pessoa. Respeitar privacidade, finalidade jornalística e termos das fontes.",
+  "lastChecked": "2026-11-20",
+  "discoveryUrl": "https://theosintvault.io/"
+},
+{
+  "id": "osint-vault-telltale",
+  "name": "Telltale",
+  "kind": "Análise de texto",
+  "url": "https://theosintvault.io/telltale",
+  "desc": "Examina caracteres ocultos, letras semelhantes, repetições, conflitos cronológicos e alegações sem apoio em textos. Os padrões e escores apresentados são pistas para revisão humana; não provam autoria, intenção, falsidade ou uso de IA.",
+  "lastChecked": "2026-11-20",
+  "discoveryUrl": "https://theosintvault.io/"
+},
+{
+  "id": "osint-vault-multi-search-launcher",
+  "name": "Multi-Search Launcher",
+  "kind": "Pesquisa multiplataforma",
+  "url": "https://theosintvault.io/multi-search-launcher.html",
+  "desc": "Distribui uma consulta de usuário, e-mail, domínio, IP ou telefone por múltiplas plataformas. Funcionalidade e página identificadas; limites de uso, preços, cobertura, retenção e condições de acesso devem ser confirmados no mantenedor.",
+  "lastChecked": "2026-11-20",
+  "discoveryUrl": "https://theosintvault.io/"
+},
+{
+  "id": "osint-vault-google-dork-generator",
+  "name": "Google Dork Generator",
+  "kind": "Construtor de consultas",
+  "url": "https://theosintvault.io/google-dork-generator",
+  "desc": "Monta consultas com operadores site, filetype, intitle, inurl, datas e lógica booleana. Funcionalidade e página identificadas; limites de uso, preços, cobertura, retenção e condições de acesso devem ser confirmados no mantenedor.",
+  "lastChecked": "2026-11-20",
+  "discoveryUrl": "https://theosintvault.io/"
+},
+{
+  "id": "osint-vault-report-composer",
+  "name": "Report Composer",
+  "kind": "Produção de relatórios",
+  "url": "https://theosintvault.io/report-composer.html",
+  "desc": "Estrutura achados e exporta relatórios em PDF, DOCX e Markdown; o site declara processamento no navegador. Funcionalidade e página identificadas; limites de uso, preços, cobertura, retenção e condições de acesso devem ser confirmados no mantenedor.",
+  "lastChecked": "2026-11-20",
+  "discoveryUrl": "https://theosintvault.io/"
+},
+{
+  "id": "osint-vault-bookmarklet-library",
+  "name": "Bookmarklet Library",
+  "kind": "Biblioteca de scripts",
+  "url": "https://theosintvault.io/osint-bookmarklet-library.html",
+  "desc": "Coleção de bookmarklets para metadados, DNS, busca reversa de imagens, redes sociais e análise de fontes. Revisar código, origem e permissões antes de instalar ou executar no navegador; funções e política de dados podem mudar.",
+  "lastChecked": "2026-11-20",
+  "discoveryUrl": "https://theosintvault.io/"
+},
+{
+  "id": "osint-vault-notes-organizer",
+  "name": "Notes Organizer",
+  "kind": "Organização de notas",
+  "url": "https://theosintvault.io/investigation-notebook.html",
+  "desc": "Organiza notas em entidades, cronologias e fontes, identifica conflitos e permite exportação. Funcionalidade e página identificadas; limites de uso, preços, cobertura, retenção e condições de acesso devem ser confirmados no mantenedor.",
+  "lastChecked": "2026-11-20",
+  "discoveryUrl": "https://theosintvault.io/"
+},
+{
   "id": "manual-20261120-pesquisa-diario-oficial-uniao",
   "name": "Pesquisa no Diário Oficial da União",
   "kind": "Busca documental oficial",
