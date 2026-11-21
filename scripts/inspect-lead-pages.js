@@ -7,7 +7,7 @@ const {inspectionHealth}=require('./inspection-health');
 const {extractStructuredMetadata,metadataForLink}=require('./structured-lead-metadata');
 const {extractEvidence}=require('./editorial-page-evidence');
 const input=JSON.parse(fs.readFileSync('intake/candidate-triage.json','utf8'));
-const limit=Math.min(240,Math.max(1,Number(process.env.LEAD_PAGE_LIMIT||240)));
+const limit=Math.min(480,Math.max(1,Number(process.env.LEAD_PAGE_LIMIT||480)));
 function decode(value){return String(value||'').replace(/&(?:amp|and);/gi,'&').replace(/&quot;/gi,'"').replace(/&#39;/gi,"'").replace(/&nbsp;/gi,' ').replace(/<[^>]+>/g,' ').replace(/\s+/g,' ').trim();}
 function visibleText(html){return cleanText(String(html||'')).slice(0,1200);}
 function editorialText(html){
@@ -73,7 +73,7 @@ async function inspect(lead){
 (async()=>{
  const previous=fs.existsSync('intake/lead-history-previous.json')?JSON.parse(fs.readFileSync('intake/lead-history-previous.json','utf8')):null;
  const capacity=previous?auditCapacity(previous.leads):{limit,pressure:null,policy:'no-history'};
- const effectiveLimit=Math.min(240,Math.max(limit,capacity.limit));
+ const effectiveLimit=Math.min(480,Math.max(limit,capacity.limit));
  const backlog=selectBacklog(previous,input.leads||[],effectiveLimit,new Date(),{rotate:true});
  const selected=backlog.selected.length?backlog.selected:backlog.total?selectBacklog(previous,input.leads||[],effectiveLimit,new Date('2999-01-01T00:00:00Z'),{rotate:true}).selected:[];
  const selectionFallback=backlog.selected.length===0&&backlog.total>0;
