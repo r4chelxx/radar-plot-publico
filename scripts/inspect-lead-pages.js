@@ -50,15 +50,15 @@ function allowed(raw){
 function officialOpportunityTarget(html,baseUrl){
  const source=String(html||'');
  let base;try{base=new URL(baseUrl)}catch{return null}
- const social=/^(?:instagram|facebook|linkedin|tiktok|x|twitter|youtube|youtu|threads|reddit|pinterest|t\.me)(?:\\.|$)/i;
+ const social=/^(?:instagram|facebook|linkedin|tiktok|x|twitter|youtube|youtu|threads|reddit|pinterest|t\.me)(?:\.|$)/i;
  const labels=/(?:official|application|apply|call details|program details|opportunity details|view opportunity|learn more|saiba mais|inscri[cç][aã]o|candidatar|candidatura|submeter|submit)/i;
- for(const m of source.matchAll(/<a\\b[^>]*href\\s*=\\s*['"]([^'"]+)['"][^>]*>([\\s\\S]*?)<\\/a\\s*>/gi)){
-  const label=decode(m[2].replace(/<[^>]+>/g,' ').replace(/\\s+/g,' '));
+ for(const m of source.matchAll(/<a\b[^>]*href\s*=\s*['"]([^'"]+)['"][^>]*>([\s\S]*?)<\/a\s*>/gi)){
+  const label=decode(m[2].replace(/<[^>]+>/g,' ').replace(/\s+/g,' '));
   if(!labels.test(label))continue;
   try{
    const u=new URL(decode(m[1]).trim(),base);
    if(u.protocol!=='https:'||u.hostname===base.hostname||social.test(u.hostname))continue;
-   if(/(?:mailto:|javascript:)/i.test(m[1])||/\\.(?:pdf|docx?|xlsx?|zip)(?:$|[?#])/i.test(u.pathname))continue;
+   if(/(?:mailto:|javascript:)/i.test(m[1])||/\.(?:pdf|docx?|xlsx?|zip)(?:$|[?#])/i.test(u.pathname))continue;
    return u.href;
   }catch{}
  }
