@@ -94,7 +94,7 @@ async function inspect(lead,options={}){
   if(primaryUrl){
    const primary=await inspect({...lead,url:primaryUrl},{followed:true});
    if(primary.pageStatus==='html-fetched'){
-    return {...primary,discoveryUrl:lead.url,sourceResolution:{discoveryUrl:lead.url,primaryUrl},sourceEvidence:lead.sourceEvidence||'',providers:lead.providers};
+    return {...primary,discoveryUrl:lead.url,sourceResolution:{discoveryUrl:lead.url,primaryUrl,primaryFinalUrl:primary.finalUrl||primaryUrl},sourceEvidence:lead.sourceEvidence||'',providers:lead.providers};
    }
   }
  }
