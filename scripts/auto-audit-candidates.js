@@ -114,7 +114,9 @@ for(const lead of results){
  const fail=[];
  if(lead.pageStatus!=='html-fetched')fail.push('página não inspecionada como HTML');
  if(!url||!/^https:\/\//.test(url))fail.push('fonte final não é HTTPS');
- if(host(url)!==host(lead.url)&&!(lead.sourceResolution?.primaryUrl&&lead.sourceResolution.primaryUrl===url))fail.push('redirecionamento para host diferente');
+ const resolution=lead.sourceResolution||{};
+ const officialResolution=resolution.primaryUrl&&([resolution.primaryUrl,resolution.primaryFinalUrl].filter(Boolean).some(candidate=>url===candidate||host(url)===host(candidate)));
+ if(host(url)!==host(lead.url)&&!officialResolution)fail.push('redirecionamento para host diferente');
  if((lead.possibleMatches||r?.possibleMatches||[]).length)fail.push('possível duplicidade ainda não resolvida');
  let record=lead.publicationRecord||lead.record||r?.publicationRecord||r?.record;
  if(!record){record=deriveOpportunity(lead,url)||deriveDataset(lead,url)||deriveTool(lead,url);}
