@@ -1,6 +1,143 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.datasets=[
 {
+  "id": "osint-vault-data-fbi-vault",
+  "name": "Fbi Vault",
+  "org": "Federal Bureau of Investigation (FBI)",
+  "territoryTier": "Outros",
+  "kind": "catalog",
+  "themes": [
+    "Justiça e direitos",
+    "Transparência e dados abertos"
+  ],
+  "coverage": "Base de dados ou catálogo público. Biblioteca pública de documentos divulgados pelo FBI por meio da lei de acesso à informação dos Estados Unidos (FOIA).",
+  "description": "Biblioteca pública de documentos divulgados pelo FBI por meio da lei de acesso à informação dos Estados Unidos (FOIA).",
+  "frequency": "Conforme publicação do mantenedor; frequência não confirmada nesta revisão",
+  "format": "Consulta web e documentos, principalmente PDF",
+  "period": "Períodos variáveis conforme o documento",
+  "granularity": "Documento ou coleção temática",
+  "geoUnit": "Estados Unidos",
+  "docs": "https://vault.fbi.gov/",
+  "limitations": "Acervo documental selecionado e sujeito a redações, lacunas e critérios de divulgação. Presença ou ausência no catálogo não comprova integralmente fatos ou inexistência de registros.",
+  "lastChecked": "2026-11-20",
+  "url": "https://vault.fbi.gov/",
+  "discoveryUrl": "https://theosintvault.io/"
+},
+{
+  "id": "osint-vault-data-sec-edgar",
+  "name": "Sec Edgar",
+  "org": "U.S. Securities and Exchange Commission (SEC)",
+  "territoryTier": "Outros",
+  "kind": "system",
+  "themes": [
+    "Economia",
+    "Empresas e finanças"
+  ],
+  "coverage": "Base de dados ou catálogo público. Sistema de busca em documentos e divulgações regulatórias apresentados por companhias e outras entidades à SEC.",
+  "description": "Sistema de busca em documentos e divulgações regulatórias apresentados por companhias e outras entidades à SEC.",
+  "frequency": "Conforme publicação do mantenedor; frequência não confirmada nesta revisão",
+  "format": "Consulta web; documentos HTML, texto e formatos regulatórios conforme o registro",
+  "period": "Conforme o arquivo EDGAR e os filtros da consulta",
+  "granularity": "Documento regulatório por entidade e data",
+  "geoUnit": "Estados Unidos e emissores abrangidos pela SEC",
+  "docs": "https://www.sec.gov/edgar/search/",
+  "limitations": "Os documentos são declarações regulatórias das entidades e podem conter retificações. Conferir versão, formulário, período e anexos; a busca de texto não substitui leitura documental.",
+  "lastChecked": "2026-11-20",
+  "url": "https://www.sec.gov/edgar/search/",
+  "discoveryUrl": "https://theosintvault.io/"
+},
+{
+  "id": "osint-vault-data-uk-companies-house",
+  "name": "Uk Companies House",
+  "org": "Companies House / Governo do Reino Unido",
+  "territoryTier": "Outros",
+  "kind": "system",
+  "themes": [
+    "Economia",
+    "Empresas e finanças"
+  ],
+  "coverage": "Base de dados ou catálogo público. Registro oficial de empresas do Reino Unido, com situação cadastral, administradores e documentos apresentados pelas companhias.",
+  "description": "Registro oficial de empresas do Reino Unido, com situação cadastral, administradores e documentos apresentados pelas companhias.",
+  "frequency": "Conforme publicação do mantenedor; frequência não confirmada nesta revisão",
+  "format": "Consulta web e documentos do registro",
+  "period": "Conforme histórico disponível por empresa",
+  "granularity": "Empresa, pessoa vinculada e documento apresentado",
+  "geoUnit": "Reino Unido",
+  "docs": "https://find-and-update.company-information.service.gov.uk/",
+  "limitations": "O serviço informa que não verifica a exatidão de todas as informações apresentadas pelas empresas. Identidades, controle e atividade real exigem confirmação adicional.",
+  "lastChecked": "2026-11-20",
+  "url": "https://find-and-update.company-information.service.gov.uk/",
+  "discoveryUrl": "https://theosintvault.io/"
+},
+{
+  "id": "osint-vault-data-judyrecords",
+  "name": "Judyrecords",
+  "org": "Judyrecords",
+  "territoryTier": "Outros",
+  "kind": "system",
+  "themes": [
+    "Justiça e direitos"
+  ],
+  "coverage": "Base de dados ou catálogo público. Mecanismo de pesquisa de processos e registros judiciais estaduais e locais dos Estados Unidos agregados pelo serviço.",
+  "description": "Mecanismo de pesquisa de processos e registros judiciais estaduais e locais dos Estados Unidos agregados pelo serviço.",
+  "frequency": "Conforme publicação do mantenedor; frequência não confirmada nesta revisão",
+  "format": "Consulta web",
+  "period": "Varia conforme tribunal e jurisdição",
+  "granularity": "Processo ou registro judicial",
+  "geoUnit": "Estados Unidos: jurisdições estaduais e locais cobertas",
+  "docs": "https://judyrecords.com/",
+  "limitations": "Agregador secundário, com cobertura desigual e possível defasagem. Confirmar qualquer resultado no tribunal de origem e considerar homônimos, selos, expurgos e atualizações.",
+  "lastChecked": "2026-11-20",
+  "url": "https://judyrecords.com/",
+  "discoveryUrl": "https://theosintvault.io/"
+},
+{
+  "id": "osint-vault-data-public-accountability-project",
+  "name": "Public Accountability Project",
+  "org": "Public Accountability Initiative",
+  "territoryTier": "Outros",
+  "kind": "catalog",
+  "themes": [
+    "Empresas e finanças",
+    "Transparência e dados abertos"
+  ],
+  "coverage": "Base de dados ou catálogo público. Base voltada a relações de poder, empresas, dirigentes, ações regulatórias e responsabilização corporativa para pesquisa de interesse público.",
+  "description": "Base voltada a relações de poder, empresas, dirigentes, ações regulatórias e responsabilização corporativa para pesquisa de interesse público.",
+  "frequency": "Conforme publicação do mantenedor; frequência não confirmada nesta revisão",
+  "format": "Consulta web e recursos de pesquisa",
+  "period": "Conforme as fontes e projetos reunidos",
+  "granularity": "Entidade, pessoa, relação ou registro de fonte",
+  "geoUnit": "Principalmente Estados Unidos",
+  "docs": "https://publicaccountability.org/",
+  "limitations": "Fonte secundária de investigação. Relações e alegações devem ser rastreadas aos documentos primários; homônimos e vínculos indiretos exigem confirmação.",
+  "lastChecked": "2026-11-20",
+  "url": "https://publicaccountability.org/",
+  "discoveryUrl": "https://theosintvault.io/"
+},
+{
+  "id": "osint-vault-data-osint-grid",
+  "name": "Osint Grid",
+  "org": "The OSINT Vault",
+  "territoryTier": "Outros",
+  "kind": "catalog",
+  "themes": [
+    "Justiça e direitos",
+    "Transparência e dados abertos"
+  ],
+  "coverage": "Base de dados ou catálogo público. Catálogo de fontes de registros públicos dos 50 estados dos Estados Unidos, Washington D.C. e bases federais, com filtros por jurisdição, tipo e acesso.",
+  "description": "Catálogo de fontes de registros públicos dos 50 estados dos Estados Unidos, Washington D.C. e bases federais, com filtros por jurisdição, tipo e acesso.",
+  "frequency": "Conforme publicação do mantenedor; frequência não confirmada nesta revisão",
+  "format": "Catálogo e consulta web",
+  "period": "Conforme cada fonte indicada",
+  "granularity": "Uma fonte de registros públicos por entrada",
+  "geoUnit": "Estados Unidos: federal, estadual e local",
+  "docs": "https://theosintvault.io/osint-grid",
+  "limitations": "O Vault declara que as fontes são verificadas e não exigem cadastro ou chave de API, mas esta auditoria não testou individualmente todas as fontes. Custos, cobertura e restrições variam por órgão.",
+  "lastChecked": "2026-11-20",
+  "url": "https://theosintvault.io/osint-grid",
+  "discoveryUrl": "https://theosintvault.io/"
+},
+{
   "id": "manual-20261120-conectividade-na-educacao",
   "name": "Conectividade na Educação",
   "org": "NIC.br",

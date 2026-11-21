@@ -2,6 +2,402 @@ window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
 {
   "date": "2026-11-20",
+  "type": "dados",
+  "title": "Publicação editorial verificada — 2026-11-20",
+  "items": [
+    {
+      "id": "osint-vault-data-fbi-vault",
+      "title": "Fbi Vault"
+    },
+    {
+      "id": "osint-vault-data-sec-edgar",
+      "title": "Sec Edgar"
+    },
+    {
+      "id": "osint-vault-data-uk-companies-house",
+      "title": "Uk Companies House"
+    },
+    {
+      "id": "osint-vault-data-judyrecords",
+      "title": "Judyrecords"
+    },
+    {
+      "id": "osint-vault-data-public-accountability-project",
+      "title": "Public Accountability Project"
+    },
+    {
+      "id": "osint-vault-data-osint-grid",
+      "title": "Osint Grid"
+    }
+  ],
+  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Fbi Vault; Sec Edgar; Uk Companies House; Judyrecords; Public Accountability Project; Osint Grid."
+},
+{
+  "date": "2026-11-20",
+  "type": "ferramentas",
+  "title": "Publicação editorial verificada — 2026-11-20",
+  "items": [
+    {
+      "id": "osint-vault-shademap",
+      "title": "Shademap"
+    },
+    {
+      "id": "osint-vault-crt-sh",
+      "title": "crt.sh"
+    },
+    {
+      "id": "osint-vault-certificate-transparency-apis",
+      "title": "Certificate Transparency Apis"
+    },
+    {
+      "id": "osint-vault-ripestat",
+      "title": "Ripestat"
+    },
+    {
+      "id": "osint-vault-hurricane-electric-bgp-toolkit",
+      "title": "Hurricane Electric Bgp Toolkit"
+    },
+    {
+      "id": "osint-vault-wayback-machine",
+      "title": "Wayback Machine"
+    },
+    {
+      "id": "osint-vault-tor-archive",
+      "title": "Tor Archive"
+    },
+    {
+      "id": "osint-vault-shodan",
+      "title": "Shodan"
+    },
+    {
+      "id": "osint-vault-builtwith",
+      "title": "Builtwith"
+    },
+    {
+      "id": "osint-vault-leakix",
+      "title": "Leakix"
+    },
+    {
+      "id": "osint-vault-dnsdumpster",
+      "title": "Dnsdumpster"
+    },
+    {
+      "id": "osint-vault-securitytrails",
+      "title": "Securitytrails"
+    },
+    {
+      "id": "osint-vault-censys-search",
+      "title": "Censys Search"
+    },
+    {
+      "id": "osint-vault-netlas",
+      "title": "Netlas"
+    },
+    {
+      "id": "osint-vault-domaintools-whois",
+      "title": "Domaintools Whois"
+    },
+    {
+      "id": "osint-vault-viewdns",
+      "title": "Viewdns"
+    },
+    {
+      "id": "osint-vault-ipinfo",
+      "title": "Ipinfo"
+    },
+    {
+      "id": "osint-vault-pulsedive",
+      "title": "Pulsedive"
+    },
+    {
+      "id": "osint-vault-onyphe",
+      "title": "Onyphe"
+    },
+    {
+      "id": "osint-vault-fofa",
+      "title": "Fofa"
+    },
+    {
+      "id": "osint-vault-heyutils-dns-lookup",
+      "title": "Heyutils Dns Lookup"
+    },
+    {
+      "id": "osint-vault-apify",
+      "title": "Apify"
+    },
+    {
+      "id": "osint-vault-domain-dossier",
+      "title": "Domain Dossier"
+    },
+    {
+      "id": "osint-vault-dnslytics",
+      "title": "Dnslytics"
+    },
+    {
+      "id": "osint-vault-spyonweb",
+      "title": "Spyonweb"
+    },
+    {
+      "id": "osint-vault-visualping",
+      "title": "Visualping"
+    },
+    {
+      "id": "osint-vault-pentest-tools-subdomain-finder",
+      "title": "Pentest Tools Subdomain Finder"
+    },
+    {
+      "id": "osint-vault-virustotal",
+      "title": "Virustotal"
+    },
+    {
+      "id": "osint-vault-usersearch-io",
+      "title": "Usersearch.Io"
+    },
+    {
+      "id": "osint-vault-namechk",
+      "title": "Namechk"
+    },
+    {
+      "id": "osint-vault-instant-username-search",
+      "title": "Instant Username Search"
+    },
+    {
+      "id": "osint-vault-sherlock-project",
+      "title": "Sherlock Project"
+    },
+    {
+      "id": "osint-vault-namecheckup",
+      "title": "Namecheckup"
+    },
+    {
+      "id": "osint-vault-blackbird",
+      "title": "Blackbird"
+    },
+    {
+      "id": "osint-vault-nexfil",
+      "title": "Nexfil"
+    },
+    {
+      "id": "osint-vault-socialscan",
+      "title": "Socialscan"
+    },
+    {
+      "id": "osint-vault-hunter-io",
+      "title": "Hunter.Io"
+    },
+    {
+      "id": "osint-vault-phoneinfoga",
+      "title": "Phoneinfoga"
+    },
+    {
+      "id": "osint-vault-mxtoolbox",
+      "title": "Mxtoolbox"
+    },
+    {
+      "id": "osint-vault-ignorant",
+      "title": "Ignorant"
+    },
+    {
+      "id": "osint-vault-inteltechniques-phone-tools",
+      "title": "Inteltechniques Phone Tools"
+    },
+    {
+      "id": "osint-vault-numverify",
+      "title": "Numverify"
+    },
+    {
+      "id": "osint-vault-ghunt",
+      "title": "Ghunt"
+    },
+    {
+      "id": "osint-vault-abuse-ch-malwarebazaar",
+      "title": "Abuse.Ch Malwarebazaar"
+    },
+    {
+      "id": "osint-vault-abuse-ch-urlhaus",
+      "title": "Abuse.Ch Urlhaus"
+    },
+    {
+      "id": "osint-vault-misp-threat-sharing-project",
+      "title": "Misp Threat Sharing Project"
+    },
+    {
+      "id": "osint-vault-hudson-rock-free-cybercrime",
+      "title": "Hudson Rock Free Cybercrime"
+    },
+    {
+      "id": "osint-vault-abuseipdb",
+      "title": "Abuseipdb"
+    },
+    {
+      "id": "osint-vault-urlscan-io",
+      "title": "Urlscan.Io"
+    },
+    {
+      "id": "osint-vault-greynoise",
+      "title": "Greynoise"
+    },
+    {
+      "id": "osint-vault-have-i-been-pwned",
+      "title": "Have I Been Pwned"
+    },
+    {
+      "id": "osint-vault-theharvester",
+      "title": "Theharvester"
+    },
+    {
+      "id": "osint-vault-holehe",
+      "title": "Holehe"
+    },
+    {
+      "id": "osint-vault-gitcolombo",
+      "title": "Gitcolombo"
+    },
+    {
+      "id": "osint-vault-grep-app",
+      "title": "Grep.App"
+    },
+    {
+      "id": "osint-vault-social-searcher",
+      "title": "Social Searcher"
+    },
+    {
+      "id": "osint-vault-igdatahub",
+      "title": "Igdatahub"
+    },
+    {
+      "id": "osint-vault-invid",
+      "title": "Invid"
+    },
+    {
+      "id": "osint-vault-mapillary",
+      "title": "Mapillary"
+    },
+    {
+      "id": "osint-vault-telepathy",
+      "title": "Telepathy"
+    },
+    {
+      "id": "osint-vault-who-posted-what",
+      "title": "Who Posted What"
+    },
+    {
+      "id": "osint-vault-inteltechniques-linkedin-search",
+      "title": "Inteltechniques Linkedin Search"
+    },
+    {
+      "id": "osint-vault-fotoforensics",
+      "title": "Fotoforensics"
+    },
+    {
+      "id": "osint-vault-forensically-29a-ch",
+      "title": "Forensically (29A.Ch)"
+    },
+    {
+      "id": "osint-vault-exif-tools",
+      "title": "Exif.Tools"
+    },
+    {
+      "id": "osint-vault-metadata2go",
+      "title": "Metadata2Go"
+    },
+    {
+      "id": "osint-vault-jimpl",
+      "title": "Jimpl"
+    },
+    {
+      "id": "osint-vault-metadata-remover-ai",
+      "title": "Metadata Remover Ai"
+    },
+    {
+      "id": "osint-vault-tineye",
+      "title": "Tineye"
+    },
+    {
+      "id": "osint-vault-ubikron",
+      "title": "Ubikron"
+    },
+    {
+      "id": "osint-vault-spiderfoot",
+      "title": "Spiderfoot"
+    },
+    {
+      "id": "osint-vault-maltego",
+      "title": "Maltego"
+    },
+    {
+      "id": "osint-vault-recon-ng",
+      "title": "Recon-Ng"
+    },
+    {
+      "id": "osint-vault-sentinel-hub",
+      "title": "Sentinel Hub"
+    },
+    {
+      "id": "osint-vault-privacytools-io",
+      "title": "Privacytools.Io"
+    },
+    {
+      "id": "osint-vault-neat-labs",
+      "title": "Neat Labs"
+    },
+    {
+      "id": "osint-vault-refloow-geo-forensics",
+      "title": "Refloow Geo Forensics"
+    },
+    {
+      "id": "osint-vault-frametra",
+      "title": "Frametra"
+    },
+    {
+      "id": "osint-vault-reveye-reverse-image-search",
+      "title": "Reveye Reverse Image Search"
+    },
+    {
+      "id": "osint-vault-singlefile",
+      "title": "Singlefile"
+    },
+    {
+      "id": "osint-vault-osint-framework",
+      "title": "Osint Framework"
+    },
+    {
+      "id": "osint-vault-clockedf12",
+      "title": "Clockedf12"
+    },
+    {
+      "id": "osint-vault-omerta",
+      "title": "Omertà"
+    },
+    {
+      "id": "osint-vault-telltale",
+      "title": "Telltale"
+    },
+    {
+      "id": "osint-vault-multi-search-launcher",
+      "title": "Multi-Search Launcher"
+    },
+    {
+      "id": "osint-vault-google-dork-generator",
+      "title": "Google Dork Generator"
+    },
+    {
+      "id": "osint-vault-report-composer",
+      "title": "Report Composer"
+    },
+    {
+      "id": "osint-vault-bookmarklet-library",
+      "title": "Bookmarklet Library"
+    },
+    {
+      "id": "osint-vault-notes-organizer",
+      "title": "Notes Organizer"
+    }
+  ],
+  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Shademap; crt.sh; Certificate Transparency Apis; Ripestat; Hurricane Electric Bgp Toolkit; Wayback Machine; Tor Archive; Shodan; Builtwith; Leakix; Dnsdumpster; Securitytrails; Censys Search; Netlas; Domaintools Whois; Viewdns; Ipinfo; Pulsedive; Onyphe; Fofa; Heyutils Dns Lookup; Apify; Domain Dossier; Dnslytics; Spyonweb; Visualping; Pentest Tools Subdomain Finder; Virustotal; Usersearch.Io; Namechk; Instant Username Search; Sherlock Project; Namecheckup; Blackbird; Nexfil; Socialscan; Hunter.Io; Phoneinfoga; Mxtoolbox; Ignorant; Inteltechniques Phone Tools; Numverify; Ghunt; Abuse.Ch Malwarebazaar; Abuse.Ch Urlhaus; Misp Threat Sharing Project; Hudson Rock Free Cybercrime; Abuseipdb; Urlscan.Io; Greynoise; Have I Been Pwned; Theharvester; Holehe; Gitcolombo; Grep.App; Social Searcher; Igdatahub; Invid; Mapillary; Telepathy; Who Posted What; Inteltechniques Linkedin Search; Fotoforensics; Forensically (29A.Ch); Exif.Tools; Metadata2Go; Jimpl; Metadata Remover Ai; Tineye; Ubikron; Spiderfoot; Maltego; Recon-Ng; Sentinel Hub; Privacytools.Io; Neat Labs; Refloow Geo Forensics; Frametra; Reveye Reverse Image Search; Singlefile; Osint Framework; Clockedf12; Omertà; Telltale; Multi-Search Launcher; Google Dork Generator; Report Composer; Bookmarklet Library; Notes Organizer."
+},
+{
+  "date": "2026-11-20",
   "type": "nova-oportunidade",
   "title": "Publicação editorial verificada — 2026-11-20",
   "items": [
@@ -11,7 +407,7 @@ window.RADAR_PARTS.changelog=[
     }
   ],
   "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: National Press Club Scholarship Opportunities - Journalism Institute."
-}, 
+},
 {
   "date": "2026-11-20",
   "type": "nova-oportunidade",
@@ -23,7 +419,7 @@ window.RADAR_PARTS.changelog=[
     }
   ],
   "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: RSF Berlin Fellowship Program."
-}, 
+},
 {
   "date": "2026-11-20",
   "type": "dados",

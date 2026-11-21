@@ -1,0 +1,20 @@
+{
+  "source_sha256": "e99b304ed2a7ae767454719dfc97d59cb393281452e08b56dee075da8c19776c",
+  "pdf_pages": 56,
+  "extracted_records": 161,
+  "unique_urls": 159,
+  "decisions": {
+    "deferred-sensitive": 24,
+    "pending-content-validation": 14,
+    "approved-tool": 89,
+    "pending-access": 21,
+    "already-in-radar": 2,
+    "approved-dataset": 6,
+    "represented-existing-access": 1,
+    "not-catalog-record": 3,
+    "duplicate-in-pdf": 1
+  },
+  "approved_manifest_records": 95,
+  "approved_tools": 89,
+  "approved_datasets": 6
+}
