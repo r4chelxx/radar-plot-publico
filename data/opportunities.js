@@ -372,7 +372,7 @@ window.RADAR_PARTS.opportunities=[
     "deadline": "2026-11-20",
     "deadlineStatus": "Confirmado na página oficial; fuso horário não informado.",
     "eligibility": "parcial",
-    "status": "aberta",
+    "status": "encerrada",
     "rules": "https://gfmd.info/fundings/human-scale-ai-call-for-proposals",
     "apply": "https://gfmd.info/fundings/human-scale-ai-call-for-proposals",
     "desc": "Human-Scale AI: Call for Proposals - GFMD Escopo: Human-Scale AI: Call for Proposals - GFMD « Back to all Fundings Human-Scale AI: Call for Proposals Organisation: Mozilla Foundation Status: Open Type: Grant Theme: Artificial Intelligence (AI) Funding Size: $300,000 USD (potential maximum of $500,000) Deadline: 20/11/2026 Eligibility: Teams able to receive funding from a U.S.-based organisation Target region: Global Application language: English Mozilla Foundation is seeking seven projects that put Human-Scale AI into practice: bespoke, fit-for-purpose technology designed at the scale of the problem it’s meant to solve.. Prazo informado: 2026-11-20. Consulte a página oficial para confirmar elegibilidade, documentos e instruções de inscrição."
