@@ -28,7 +28,7 @@ function bahiaDate(now=new Date()){
  return parts.year+'-'+parts.month+'-'+parts.day;
 }
 function loadAt(commit,category){
- const source=cp.execFileSync('git',['show',commit+':data/'+category+'.js'],{encoding:'utf8'});
+ const source=cp.execFileSync('git',['show',commit+':data/'+category+'.js'],{encoding:'utf8',maxBuffer:128*1024*1024});
  return parseCatalog(source,category);
 }
 function run(){
