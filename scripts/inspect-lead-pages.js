@@ -43,7 +43,7 @@ function explicitPageFacts(html){
 }
 function structuredPageFacts(html){
  const out={};
- const scripts=[...String(html||'').matchAll(/<script[^>]+type=["']application\\/ld\\+json["'][^>]*>([\\s\\S]*?)<\\/script>/gi)];
+ const scripts=[...String(html||'').matchAll(/<script[^>]+type=["']application\/ld\+json["'][^>]*>([\s\S]*?)<\/script>/gi)];
  const values=[];
  const visit=value=>{
   if(!value)return;
@@ -51,7 +51,7 @@ function structuredPageFacts(html){
   if(typeof value==='object'){values.push(value);Object.values(value).forEach(visit)}
  };
  for(const match of scripts){
-  try{visit(JSON.parse(match[1].replace(/<!--[\\s\\S]*?-->/g,' ').trim()))}catch{}
+  try{visit(JSON.parse(match[1].replace(/<!--[\s\S]*?-->/g,' ').trim()))}catch{}
  }
  const first=(keys)=>{
   for(const item of values){
@@ -70,7 +70,6 @@ function structuredPageFacts(html){
  const status=/closed|ended|expired|encerrad/i.test(String(rawStatus||''))?'encerrada':/open|active|available|aberta/i.test(String(rawStatus||''))?'aberta':null;
  return {deadline:deadline||null,eligibility:eligibility?decode(eligibility).slice(0,320):null,eligibilityExplicit:Boolean(eligibility),status};
 }
-
 function allowed(raw){
  try{
   const u=new URL(raw);const h=u.hostname.toLowerCase();
