@@ -41,6 +41,36 @@ function explicitPageFacts(html){
  const status=openMatch?'aberta':closedMatch?'encerrada':deadline&&!closedMatch?'aberta':null;
  return {deadline:deadline||null,eligibility:eligibility||null,eligibilityExplicit:Boolean(eligibility),status};
 }
+function structuredPageFacts(html){
+ const out={};
+ const scripts=[...String(html||'').matchAll(/<script[^>]+type=["']application\\/ld\\+json["'][^>]*>([\\s\\S]*?)<\\/script>/gi)];
+ const values=[];
+ const visit=value=>{
+  if(!value)return;
+  if(Array.isArray(value)){value.forEach(visit);return}
+  if(typeof value==='object'){values.push(value);Object.values(value).forEach(visit)}
+ };
+ for(const match of scripts){
+  try{visit(JSON.parse(match[1].replace(/<!--[\\s\\S]*?-->/g,' ').trim()))}catch{}
+ }
+ const first=(keys)=>{
+  for(const item of values){
+   for(const key of keys){
+    const value=item[key];
+    if(typeof value==='string'&&value.trim())return value.trim();
+    if(Array.isArray(value)&&value.some(x=>typeof x==='string'))return value.filter(x=>typeof x==='string').join('; ').slice(0,320);
+   }
+  }
+  return null;
+ };
+ const rawDeadline=first(['applicationDeadline','submissionDeadline','closingDate','validThrough','deadline','dueDate']);
+ const deadline=isoDate(rawDeadline||'');
+ const eligibility=first(['eligibility','eligibilityCriteria','eligibleApplicants','applicantType','audience']);
+ const rawStatus=first(['applicationStatus','availability','status']);
+ const status=/closed|ended|expired|encerrad/i.test(String(rawStatus||''))?'encerrada':/open|active|available|aberta/i.test(String(rawStatus||''))?'aberta':null;
+ return {deadline:deadline||null,eligibility:eligibility?decode(eligibility).slice(0,320):null,eligibilityExplicit:Boolean(eligibility),status};
+}
+
 function allowed(raw){
  try{
   const u=new URL(raw);const h=u.hostname.toLowerCase();
@@ -84,8 +114,10 @@ async function inspect(lead,options={}){
  const title=cleanTitle(metadataTitle,metadata?.organization||lead.source||'');
  const metaDescription=((html.match(/<meta[^>]+(?:name|property)=["'](?:description|og:description)["'][^>]+content=["']([^"']{1,1200})/i)||[])[1]||'').trim();
  const description=cleanText(metadata?.description||metaDescription||editorialText(html),1200);
- const facts=explicitPageFacts(html);
- const structuredEvidence={...(metadata||{}),title:cleanTitle(metadata?.title||title,metadata?.organization||lead.source||''),description,...(facts.deadline?{deadline:facts.deadline}:{}),...(facts.eligibility?{eligibility:facts.eligibility,eligibilityExplicit:true}:{}),...(facts.status?{status:facts.status}:{})};
+ const pageFacts=explicitPageFacts(html);
+ const structuredFacts=structuredPageFacts(html);
+ const facts={deadline:pageFacts.deadline||structuredFacts.deadline||null,eligibility:pageFacts.eligibility||structuredFacts.eligibility||null,eligibilityExplicit:Boolean(pageFacts.eligibility||structuredFacts.eligibility),status:pageFacts.status||structuredFacts.status||null};
+ const structuredEvidence={...(metadata||{}),...structuredFacts,title:cleanTitle(metadata?.title||title,metadata?.organization||lead.source||''),description,...(facts.deadline?{deadline:facts.deadline}:{}),...(facts.eligibility?{eligibility:facts.eligibility,eligibilityExplicit:true}:{}),...(facts.status?{status:facts.status}:{})};
  // Aggregator/listing pages are discovery surfaces, not sufficient evidence by
  // themselves. Follow one clearly labelled external official/application link
  // once, then use the primary page's facts for the draft.
