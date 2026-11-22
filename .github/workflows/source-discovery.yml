@@ -193,7 +193,7 @@ jobs:
           const fs=require('node:fs');
           const manual=JSON.parse(fs.readFileSync('intake/historical-decisions.json','utf8'));
           const automatic=JSON.parse(fs.readFileSync('intake/auto-editorial-decisions.json','utf8'));
-          const key=value=>{try{const u=new URL(value);u.hash='';return u.toString().replace(/\\/$/,'')}catch{return String(value||'')}};
+          const key=value=>{try{const u=new URL(value);u.hash='';return u.toString().replace(/\/$/,'')}catch{return String(value||'')}};
           const seen=new Set((manual.decisions||[]).map(x=>key(x.url)));
           const added=new Set(seen);
           const fresh=(automatic.decisions||[]).filter(x=>{const k=key(x.url);if(added.has(k))return false;added.add(k);return true});
