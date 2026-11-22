@@ -152,6 +152,7 @@ for(const lead of results){
  if(fail.length){blockers.push({url:lead.url,category:lead.category,blockers:fail});continue}
  decisions.push({...base,status:'approved',officialUrl:url,publicationReviewV1,reason:record.id.startsWith('auto-')?'Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes.':'Fonte primária HTTPS, página HTML acessível, domínio preservado, prazo/eligibilidade/status e duplicidade verificados automaticamente; ficha pública completa anexada.',record});
 }
-const out={schemaVersion:1,generatedAt:new Date().toISOString(),policy:'Aprovação automática somente com ficha completa e comprovante individual Radar evidence gate v1 validado; demais itens permanecem em revisão.',decisions,blockers,summary:{inspected:results.length,autoApproved:decisions.length,blocked:blockers.length,byBlocker:blockers.reduce((a,x)=>{for(const b of x.blockers)a[b]=(a[b]||0)+1;return a},{}),today}};
+const uniqueDecisions=[...new Map(decisions.map(d=>[urlKey(d.url),d])).values()];
+const out={schemaVersion:1,generatedAt:new Date().toISOString(),policy:'Aprovação automática somente com ficha completa e comprovante individual Radar evidence gate v1 validado; demais itens permanecem em revisão.',decisions:uniqueDecisions,blockers,summary:{inspected:results.length,autoApproved:uniqueDecisions.length,blocked:blockers.length,byBlocker:blockers.reduce((a,x)=>{for(const b of x.blockers)a[b]=(a[b]||0)+1;return a},{}),today}};
 fs.writeFileSync(process.argv[4]||'intake/auto-editorial-decisions.json',JSON.stringify(out,null,2)+'\n');
 console.log(JSON.stringify(out.summary));
