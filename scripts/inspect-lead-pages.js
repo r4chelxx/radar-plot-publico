@@ -97,6 +97,27 @@ function officialOpportunityTarget(html,baseUrl){
  }
  return null;
 }
+function primaryResourceTarget(html,baseUrl,category){
+ const source=String(html||''); let base;try{base=new URL(baseUrl)}catch{return null}
+ const social=/^(?:instagram|facebook|linkedin|tiktok|x|twitter|youtube|youtu|threads|reddit|pinterest|t\.me)(?:\.|$)/i;
+ const labels=category==='datasets'
+  ? /(?:dataset|data\s+(?:catalog|set|resource)|view\s+dataset|dataset\s+details|access\s+data|download\s+data|open\s+data|data\s+portal|api\s+documentation)/i
+  : /(?:official(?:\s+(?:website|page|site))?|product\s+(?:page|details)|use\s+the\s+tool|tool\s+documentation|documentation|docs|view\s+tool|software\s+page)/i;
+ const samePage=base.href.replace(/#.*$/,'').replace(/\/$/,'');
+ for(const m of source.matchAll(/<a\b[^>]*href\s*=\s*['"]([^'"]+)['"][^>]*>([\s\S]*?)<\/a\s*>/gi)){
+  const label=decode(m[2].replace(/<[^>]+>/g,' ').replace(/\s+/g,' '));
+  if(!labels.test(label))continue;
+  try{
+   const raw=decode(m[1]).trim(); if(/^(?:mailto:|javascript:|#)/i.test(raw))continue;
+   const u=new URL(raw,base); const normalized=u.href.replace(/#.*$/,'').replace(/\/$/,'');
+   if(u.protocol!=='https:'||normalized===samePage||social.test(u.hostname))continue;
+   if(/\.(?:pdf|docx?|xlsx?|zip|csv|json)(?:$|[?#])/i.test(u.pathname))continue;
+   return u.href;
+  }catch{}
+ }
+ return null;
+}
+
 async function inspect(lead,options={}){
  if(!allowed(lead.url))return {...lead,pageStatus:'blocked-url',editoriallyVerified:false};
  const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),9000);
@@ -120,12 +141,12 @@ async function inspect(lead,options={}){
  // Aggregator/listing pages are discovery surfaces, not sufficient evidence by
  // themselves. Follow one clearly labelled external official/application link
  // once, then use the primary page's facts for the draft.
- if(lead.category==='opportunities'&&!options.followed){
-  const primaryUrl=officialOpportunityTarget(html,response.url||lead.url);
+ if(['opportunities','datasets','tools'].includes(lead.category)&&!options.followed){
+  const primaryUrl=lead.category==='opportunities' ? officialOpportunityTarget(html,response.url||lead.url) : primaryResourceTarget(html,response.url||lead.url,lead.category);
   if(primaryUrl){
    const primary=await inspect({...lead,url:primaryUrl},{followed:true});
    if(primary.pageStatus==='html-fetched'){
-    return {...primary,discoveryUrl:lead.url,sourceResolution:{discoveryUrl:lead.url,primaryUrl,primaryFinalUrl:primary.finalUrl||primaryUrl},sourceEvidence:lead.sourceEvidence||'',providers:lead.providers};
+    return {...primary,discoveryUrl:lead.url,sourceResolution:{discoveryUrl:lead.url,primaryUrl,primaryFinalUrl:primary.finalUrl||primaryUrl,kind:lead.category},sourceEvidence:lead.sourceEvidence||'',providers:lead.providers};
    }
   }
  }
