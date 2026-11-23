@@ -1586,7 +1586,7 @@ window.RADAR_PARTS.opportunities=[
     "verificationHistory": [
       {
         "date": "2026-09-25",
-        "status": "aberta",
+        "status": "encerrada",
         "source": "https://www.theopennotebook.com/early-career-fellowship-program/"
       },
       {
@@ -1895,7 +1895,7 @@ window.RADAR_PARTS.opportunities=[
     "verificationHistory": [
       {
         "date": "2026-11-01",
-        "status": "aberta",
+        "status": "encerrada",
         "source": "https://www.premiofiepedejornalismo.com.br/"
       }
     ],
@@ -2080,7 +2080,7 @@ window.RADAR_PARTS.opportunities=[
     "verificationHistory": [
       {
         "date": "2026-10-19",
-        "status": "aberta",
+        "status": "encerrada",
         "source": "https://www.poder360.com.br/trainee-2027/"
       }
     ],
@@ -2130,7 +2130,7 @@ window.RADAR_PARTS.opportunities=[
     "verificationHistory": [
       {
         "date": "2026-10-19",
-        "status": "aberta",
+        "status": "encerrada",
         "source": "https://livre.jor.br/regulamento-do-premio-livre-jor-de-jornalismo-mosca/"
       },
       {
@@ -2236,7 +2236,7 @@ window.RADAR_PARTS.opportunities=[
     "verificationHistory": [
       {
         "date": "2026-10-18",
-        "status": "aberta",
+        "status": "encerrada",
         "source": "https://www.torontomu.ca/global-migration-institute/opportunities/fellowships/journalism-fellowship/"
       },
       {
@@ -2344,7 +2344,7 @@ window.RADAR_PARTS.opportunities=[
     "verificationHistory": [
       {
         "date": "2026-10-15",
-        "status": "aberta",
+        "status": "encerrada",
         "source": "https://truestoryfestival.org/en/award"
       },
       {
@@ -2661,7 +2661,7 @@ window.RADAR_PARTS.opportunities=[
     "verificationHistory": [
       {
         "date": "2026-10-05",
-        "status": "aberta",
+        "status": "encerrada",
         "source": "https://gatesinstitute.org/demographics-planetary-health-story-prize/"
       }
     ],
@@ -2711,7 +2711,7 @@ window.RADAR_PARTS.opportunities=[
     "verificationHistory": [
       {
         "date": "2026-10-02",
-        "status": "aberta",
+        "status": "encerrada",
         "source": "https://nationalpress.org/training/apply-2026-rare-disease-reporting-fellowship-and-grants/"
       }
     ],
@@ -2762,7 +2762,7 @@ window.RADAR_PARTS.opportunities=[
     "verificationHistory": [
       {
         "date": "2026-10-02",
-        "status": "aberta",
+        "status": "encerrada",
         "source": "https://www.derechosdigitales.org/pt/noticias/inscricoes-abertas-para-a-primeira-edicao-do-programa-jornalismo-para-os-direitos-digitais/"
       },
       {
@@ -3029,7 +3029,7 @@ window.RADAR_PARTS.opportunities=[
     "verificationHistory": [
       {
         "date": "2026-09-29",
-        "status": "aberta",
+        "status": "encerrada",
         "source": "https://equalityfund.ca/en/posts/application-journalism-fellowship"
       },
       {
@@ -3085,7 +3085,7 @@ window.RADAR_PARTS.opportunities=[
     "verificationHistory": [
       {
         "date": "2026-09-29",
-        "status": "aberta",
+        "status": "encerrada",
         "source": "https://gcjt.org/resources/call-applications-2027-ochberg-fellowships"
       },
       {
@@ -3135,7 +3135,7 @@ window.RADAR_PARTS.opportunities=[
     "verificationHistory": [
       {
         "date": "2026-09-29",
-        "status": "aberta",
+        "status": "encerrada",
         "source": "https://www.climatexc.org/grants/climate-action-in-your-community"
       },
       {
@@ -3186,7 +3186,7 @@ window.RADAR_PARTS.opportunities=[
     "verificationHistory": [
       {
         "date": "2026-09-25",
-        "status": "aberta",
+        "status": "encerrada",
         "source": "https://www.ctrl-j.info/programs/research-hub"
       },
       {
@@ -3325,7 +3325,7 @@ window.RADAR_PARTS.opportunities=[
     "verificationHistory": [
       {
         "date": "2026-09-23",
-        "status": "aberta",
+        "status": "encerrada",
         "source": "https://registration.wcsj2027.org/wcsj27/fellowships"
       },
       {
@@ -3988,7 +3988,7 @@ window.RADAR_PARTS.opportunities=[
     "verificationHistory": [
       {
         "date": "2026-09-23",
-        "status": "aberta",
+        "status": "encerrada",
         "source": "https://ok.org.br/noticia/chamada-aberta-inscreva-sua-atividade-para-o-coda-br-2026/"
       },
       {
@@ -4411,7 +4411,7 @@ window.RADAR_PARTS.opportunities=[
     "verificationHistory": [
       {
         "date": "2026-09-24",
-        "status": "aberta",
+        "status": "encerrada",
         "source": "https://www.mcgrawcenter.org/the-harold-w-mcgraw-jr-business-journalism-fellowships/"
       },
       {
@@ -4814,7 +4814,7 @@ window.RADAR_PARTS.opportunities=[
     "verificationHistory": [
       {
         "date": "2026-09-24",
-        "status": "aberta",
+        "status": "encerrada",
         "source": "https://www.swissviz.org/"
       },
       {
