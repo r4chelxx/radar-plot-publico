@@ -19,14 +19,15 @@ function mergeSourceApprovals(manifest, source) {
   for (const decision of source.decisions) {
     const review = decision?.publicationReviewV1 || {};
     const record = decision?.record || {};
+    const resourceUrl = record.url || record.rules || record.apply;
     if (decision?.status !== 'approved'
       || review.decision !== 'approved'
       || review.reviewPolicyVersion !== 'radar-evidence-v1'
       || review.reviewedBy !== 'Radar evidence gate v1'
-      || !record.id || !record.url) continue;
+      || !record.id || !resourceUrl) continue;
 
     const entry = { category: decision.category, record, review };
-    const urlKey = String(entry.category || '') + '|' + String(record.url).replace(/#.*$/, '').replace(/\/$/, '').toLowerCase();
+    const urlKey = String(entry.category || '') + '|' + String(resourceUrl).replace(/#.*$/, '').replace(/\/$/, '').toLowerCase();
     if (seenIds.has(String(record.id)) || seenUrls.has(urlKey)) continue;
 
     manifest.approved.push(entry);
