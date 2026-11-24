@@ -1,6 +1,18 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
 {
+  "date": "2026-11-24",
+  "type": "nova-oportunidade",
+  "title": "Publicação editorial verificada — 2026-11-24",
+  "items": [
+    {
+      "id": "auto-d245cd20c8cc5461",
+      "title": "Journalism and Media Opportunities | LinkedIn"
+    }
+  ],
+  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Journalism and Media Opportunities | LinkedIn."
+}, 
+{
   "date": "2026-11-20",
   "type": "dados",
   "title": "Publicação editorial verificada — 2026-11-20",

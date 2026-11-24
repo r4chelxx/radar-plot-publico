@@ -1,6 +1,26 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.opportunities=[
 {
+  "id": "auto-d245cd20c8cc5461",
+  "title": "Journalism and Media Opportunities | LinkedIn",
+  "org": "Journalism and Media Opportunities",
+  "summary": "Journalism and Media Opportunities | 257,088 followers on LinkedIn. Journalism and Media Opportunities | We are a community of young and upcoming, seasoned and experienced journalists and media professionals, dedicated to helping each other succeed in this exciting and constantly evolving field. Whether you're interested in broadcast journalism, public relations, print journalism, or any of the other areas listed above, we've got you covered. As a member of our community, you'll have access to a wide range of resources designed to help you grow and improve in your career.",
+  "type": "internship",
+  "themes": [
+    "Meio ambiente",
+    "Jornalismo investigativo",
+    "Jornalismo"
+  ],
+  "scope": "The awards are open to content published in any African language, by anyone based anywhere on the continent.",
+  "fit": 7,
+  "deadline": "2027-01-18",
+  "deadlineStatus": "Prazo confirmado na fonte consultada; conferir horário e fuso no edital.",
+  "eligibility": "parcial",
+  "status": "aberta",
+  "rules": "https://ke.linkedin.com/company/journalism-and-media-opportunities?trk=similar-pages",
+  "apply": "https://ke.linkedin.com/company/journalism-and-media-opportunities?trk=similar-pages"
+}, 
+{
   "id": "auto-bb0102a309c11199",
   "title": "National Press Club Scholarship Opportunities - Journalism Institute",
   "org": "National Press Club Journalism Institute",
