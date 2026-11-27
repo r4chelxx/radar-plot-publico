@@ -1,6 +1,25 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.opportunities=[
 {
+  "id": "56a89bfed46fc000c940f78d52bd0328c3230a7bee95ecd109e75160defb5f9c",
+  "title": "Journalism, Media & Communication Training - Poynter",
+  "org": "The Poynter Institute",
+  "summary": "Want to sharpen your reporting skills, become a better newsroom leader or keep up with the latest changes in journalism? Poynter offers online journalism courses, live workshops and professional development programs to help you grow at every career stage.",
+  "type": "Training",
+  "themes": [
+    "Gênero",
+    "Jornalismo"
+  ],
+  "scope": "Attend three free webinars and become eligible to apply for reporting grants worth up… Online Reporting on Families Impacted by Incarceration (2026) Learn how to report on the hidden impact of incarceration on children, parents, guardians, and communities.",
+  "fit": 6,
+  "deadline": "2027-01-08",
+  "deadlineStatus": "Prazo confirmado na fonte consultada; conferir horário e fuso no edital.",
+  "eligibility": "parcial",
+  "status": "aberta",
+  "rules": "https://www.poynter.org/shop/",
+  "apply": "https://www.poynter.org/shop/"
+}, 
+{
   "id": "auto-83e4332c60dac292",
   "title": "John S. Knight Journalism Fellowships",
   "org": "John S. Knight Journalism Fellowships",
