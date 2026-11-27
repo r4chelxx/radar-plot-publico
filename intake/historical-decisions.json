@@ -2,6 +2,14 @@
   "policy": "Explicit editorial decisions for public historical links. Do not mark approved without a verified publication manifest or published without a matching catalog URL.",
   "decisions": [
     {
+      "reviewedBy": "Radar PLOT — auditoria editorial",
+      "reviewedAt": "2026-11-27",
+      "url": "https://www.warren.senate.gov/newsroom/press-releases/warren-balint-colleagues-demand-answers-from-mcdonalds-on-whether-ai-pricing-tools-are-raising-prices-and-facilitating-collusion/",
+      "status": "rejected",
+      "officialUrl": "https://www.warren.senate.gov/newsroom/press-releases/warren-balint-colleagues-demand-answers-from-mcdonalds-on-whether-ai-pricing-tools-are-raising-prices-and-facilitating-collusion/",
+      "reason": "Comunicado de imprensa sobre uma investigação legislativa; a página não oferece software, dados ou serviço utilizável. Removido da categoria Ferramentas para evitar nova publicação."
+    },
+    {
       "reviewedBy": "Radar PLOT — revisão editorial assistida",
       "reviewedAt": "2026-11-10",
       "url": "https://www.esri.com/",
