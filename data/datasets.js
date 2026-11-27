@@ -1,6 +1,50 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.datasets=[
 {
+  "id": "auto-83480c8cdaeeb15d",
+  "name": "FII: Documentos: Informe Anual Estruturado",
+  "org": "Comissão de Valores Mobiliários (CVM)",
+  "territoryTier": "Outros",
+  "kind": "portal",
+  "themes": [
+    "Dados abertos"
+  ],
+  "coverage": "FII: Documentos: Informe Anual Estruturado Seguidores 0 CVM Não há descrição para essa organização Social Twitter Facebook Licença Licença Aberta para Bases de Dados (ODbL) do Open Data Commons FII: Documentos: Informe Anual Estruturado O Informe Anual de Fundo Imobiliário é um documento eletrônico de encaminhamento periódico, definido no ANEXO 39-V da Instrução CVM nº 571/2015, cujo encaminhamento à CVM deve se dar por meio do Sistema Fundos.NET.",
+  "frequency": "FII: Documentos: Informe Anual Estruturado - Conjunto de dados - Portal Dados Abertos CVM Skip to main content Início Organizações CVM FII: Documentos: Informe...",
+  "format": "ZIP",
+  "period": "Não informado pela fonte oficial",
+  "granularity": "Não informado pela fonte oficial",
+  "geoUnit": "Não informado pela fonte oficial",
+  "api": "https://dados.cvm.gov.br/dados/FII/DOC/INF_ANUAL/META/meta_inf_anual_fii.zip",
+  "docs": "https://dados.cvm.gov.br/dataset/fii-doc-inf_anual",
+  "limitations": "A página consultada não detalha todas as limitações, a atualização e a qualidade do recurso; conferir documentação e licença antes do uso editorial.",
+  "lastChecked": "2026-11-27",
+  "url": "https://dados.cvm.gov.br/dataset/fii-doc-inf_anual",
+  "description": "O Informe Anual de Fundo Imobiliário é um documento eletrônico de encaminhamento periódico, definido no ANEXO 39-V da Instrução CVM nº 571/2015, cujo encaminhamento à CVM deve se dar por meio do..."
+},
+{
+  "id": "auto-b2e94b570218c329",
+  "name": "FII: Documentos: Demonstrações Financeiras",
+  "org": "Comissão de Valores Mobiliários (CVM)",
+  "territoryTier": "Outros",
+  "kind": "portal",
+  "themes": [
+    "Dados abertos"
+  ],
+  "coverage": "FII: Documentos: Demonstrações Financeiras Seguidores 0 CVM Não há descrição para essa organização Social Twitter Facebook Licença Licença Aberta para Bases de Dados (ODbL) do Open Data Commons FII: Documentos: Demonstrações Financeiras As Demonstrações Financeiras são documentos eletrônicos de encaminhamento periódico, previstos no artigo 39, inciso V, da Instrução CVM nº 472/2008, cujo encaminhamento à CVM deve se dar por meio do Sistema Fundos.NET.",
+  "frequency": "Histórico desde 2016 (incluindo arquivos não sujeitos à política de atualização) Dados e recursos Dicionário de Dados TXT Descrição das colunas e dados Explorar Mais informações Ir para recurso Demonstrações Financeiras de Fundos de...",
+  "format": "CSV",
+  "period": "Não informado pela fonte oficial",
+  "granularity": "Não informado pela fonte oficial",
+  "geoUnit": "Não informado pela fonte oficial",
+  "api": "https://dados.cvm.gov.br/dados/FII/DOC/DFIN/DADOS/dfin_fii_2021.csv",
+  "docs": "https://dados.cvm.gov.br/dataset/fii-doc-dfin",
+  "limitations": "A página consultada não detalha todas as limitações, a atualização e a qualidade do recurso; conferir documentação e licença antes do uso editorial.",
+  "lastChecked": "2026-11-27",
+  "url": "https://dados.cvm.gov.br/dataset/fii-doc-dfin",
+  "description": "As Demonstrações Financeiras são documentos eletrônicos de encaminhamento periódico, previstos no artigo 39, inciso V, da Instrução CVM nº 472/2008, cujo encaminhamento à CVM deve se dar por meio..."
+}, 
+{
   "id": "auto-729194d057f52cb7",
   "name": "FII: Documentos: Informe Trimestral Estruturado",
   "org": "Comissão de Valores Mobiliários (CVM)",

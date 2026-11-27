@@ -6,6 +6,22 @@ window.RADAR_PARTS.changelog=[
   "title": "Publicação editorial verificada — 2026-11-27",
   "items": [
     {
+      "id": "auto-83480c8cdaeeb15d",
+      "title": "FII: Documentos: Informe Anual Estruturado"
+    },
+    {
+      "id": "auto-b2e94b570218c329",
+      "title": "FII: Documentos: Demonstrações Financeiras"
+    }
+  ],
+  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: FII: Documentos: Informe Anual Estruturado; FII: Documentos: Demonstrações Financeiras."
+}, 
+{
+  "date": "2026-11-27",
+  "type": "dados",
+  "title": "Publicação editorial verificada — 2026-11-27",
+  "items": [
+    {
       "id": "auto-729194d057f52cb7",
       "title": "FII: Documentos: Informe Trimestral Estruturado"
     },
