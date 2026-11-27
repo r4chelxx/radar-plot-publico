@@ -1,7 +1,10 @@
 'use strict';
 
-const editorialPath = /\/(?:newsroom|press-releases?|news|articles?|blog|posts?)(?:\/|$)/i;
+// A direct press/article path is strong evidence. "newsroom" alone is not:
+// usable products can serve newsrooms without being editorial pages.
+const editorialPath = /\/(?:press-releases?|articles?|blog|posts?)(?:\/|$)/i;
 const articleStructuredData = /["']@type["']\s*:\s*["'](?:NewsArticle|Article|BlogPosting|Report|ScholarlyArticle)["']/i;
+const editorialStoryData = /globalContent\s*=\s*\{[\s\S]{0,1400}?["']type["']\s*:\s*["']story["'][\s\S]{0,300}?["']subtype["']\s*:\s*["']news["']/i;
 
 function isEditorialPage(record, proof = {}) {
   const url = String(record?.url || record?.rules || '');
