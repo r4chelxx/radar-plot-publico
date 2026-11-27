@@ -61,6 +61,8 @@ function toolIdentity(c,title,docs){
  return structured||cranPackage||(!excluded.test(surface)&&/(software|tool|platform|application|library|framework|plugin|extension|programming language|statistical computing|ferramenta|plataforma|aplicativo|biblioteca)/i.test(surface));
 }
 function toolFunction(text,docs){
+ if(/\b(?:reverse image search|search by image|find (?:similar )?(?:images|photos)|satellite imagery explorer)\b/i.test(text))return true;
+ if(/explore,?\s*search,?\s*and\s+analy[sz]e.{0,120}\bsatellite imagery\b/i.test(text))return true;
  if(/\b(?:screen.scraping HTML|HTML parsing|parsing HTML|parse tree)\b/i.test(text))return true;
  if(/\b(?:browser automation tool|automates browsers|(?:headless )?graphics framework|javascript 3d library|create responsive graphics)\b/i.test(text))return true;
  const structured=docs.some(x=>{const type=flat(x['@type']).toLowerCase();return /softwareapplication|softwareproduct/.test(type)&&(x.featureList||x.applicationCategory||x.description)});
@@ -179,7 +181,8 @@ function review(c){
   const d=ld.find(x=>/softwareapplication|softwareproduct|software/.test(x.type))?.data;
   checks.productSignal=!!d||toolIdentity(c,title,docs);
   checks.function=!!(d?.applicationCategory||d?.featureList||d?.description)||toolFunction(text,docs);
-  checks.access=!!(d?.offers||d?.operatingSystem)||/(free|open source|pricing|subscription|account|download|install|web app|browser|online|cloud|desktop|api|documentation|docs|github|cran|npm|python|trial|commercial|gratuito|licença|conta|preço|instala|disponível|acesso)/i.test(text);
+  const signInEndpoint=(()=>{try{return /\/(?:sign-?in|log-?in)(?:\/|$)/i.test(new URL(c.url||'https://invalid.local').pathname)}catch{return false}})();
+  checks.access=!!(d?.offers||d?.operatingSystem)||signInEndpoint||/(free|open source|pricing|subscription|account|download|install|web app|browser|online|cloud|desktop|api|documentation|docs|github|cran|npm|python|trial|commercial|gratuito|licença|conta|preço|instala|disponível|acesso|on your phone|mobile|\bpc\b)/i.test(text);
   checks.license=!!d?.license||/(license|licen[çc]a|mit license|apache license|gpl|bsd license)/i.test(text);
   checks.licenseStatus=checks.license?'stated':'not stated in captured source';
   if(!checks.productSignal)missing.push('produto ou software identificável');
