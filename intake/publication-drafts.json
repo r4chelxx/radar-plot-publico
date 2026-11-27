@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-27T02:19:31.640Z",
-  "sourceQueueUpdatedAt": "2026-11-27T02:19:09.376Z",
+  "generatedAt": "2026-11-27T19:54:16.441Z",
+  "sourceQueueUpdatedAt": "2026-11-27T19:54:02.336Z",
   "policy": "Evidence-complete drafts only; the separate deterministic evidence gate must independently approve before publication.",
   "summary": {
     "eligibleForDrafting": 2,
@@ -24,7 +24,7 @@
         "url": "https://www.hydrosheds.org/hydrosheds-core-downloads",
         "discoveryProviders": [],
         "pageTitle": "Download HydroSHEDS Core Products",
-        "checkedAt": "2026-11-26T02:19:18.186Z",
+        "checkedAt": "2026-11-27T19:54:02.336Z",
         "httpStatus": 200,
         "contentType": "text/html; charset=utf-8"
       },
@@ -91,7 +91,7 @@
         "api": null,
         "docs": "https://www.hydrosheds.org/hydrosheds-core-downloads",
         "limitations": "A página consultada não detalha todas as limitações, a atualização e a qualidade do recurso; conferir documentação e licença antes do uso editorial.",
-        "lastChecked": "2026-11-25",
+        "lastChecked": "2026-11-27",
         "url": "https://www.hydrosheds.org/hydrosheds-core-downloads",
         "description": "This page provides data downloads for HydroSHEDS core raster data products."
       },
