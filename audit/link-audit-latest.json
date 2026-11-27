@@ -1,12 +1,13 @@
 {
-  "checkedAt": "2026-11-27T19:54:50.359Z",
+  "checkedAt": "2026-11-27T20:25:48.600Z",
   "policy": "404/410 and ArcGIS application errors within HTTP 200 become broken only after appearing as suspect or broken in the previous audit. Bot blocks, network failures and 5xx responses remain inconclusive; streak and persistent fields expose recurring access failures without falsely deleting valid catalog records.",
   "counts": {
-    "blocked": 87,
-    "ok": 1366,
-    "network": 105,
-    "server": 3,
-    "persistentInconclusive": 186
+    "blocked": 90,
+    "ok": 1362,
+    "network": 106,
+    "server": 2,
+    "suspect": 1,
+    "persistentInconclusive": 188
   },
   "diagnostics": {
     "persistentInconclusive": [
@@ -187,7 +188,7 @@
         "url": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/indicadores-educacionais/taxas-de-rendimento-escolar",
         "class": "network",
         "streak": 3,
-        "networkCode": "ECONNRESET",
+        "networkCode": "UND_ERR_CONNECT_TIMEOUT",
         "status": null
       },
       {
@@ -570,15 +571,6 @@
       },
       {
         "type": "tool",
-        "id": "manual-20261120-pesquisa-diario-oficial-uniao",
-        "url": "https://www.in.gov.br/consulta",
-        "class": "server",
-        "streak": 3,
-        "networkCode": null,
-        "status": 502
-      },
-      {
-        "type": "tool",
         "id": "fb1f5945b6820ed90263a3164b11222cb5cbbd33823865ccd8e85e23468238a1",
         "url": "https://www.muckrock.com/?utm_source=substack&utm_medium=email",
         "class": "blocked",
@@ -718,7 +710,7 @@
         "url": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/indicadores-educacionais/taxas-de-distorcao-idade-serie",
         "class": "network",
         "streak": 3,
-        "networkCode": "UND_ERR_CONNECT_TIMEOUT",
+        "networkCode": "ECONNRESET",
         "status": null
       },
       {
@@ -844,7 +836,7 @@
         "url": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/indicadores-educacionais/adequacao-da-formacao-docente",
         "class": "network",
         "streak": 3,
-        "networkCode": "ECONNRESET",
+        "networkCode": "UND_ERR_CONNECT_TIMEOUT",
         "status": null
       },
       {
@@ -1011,10 +1003,28 @@
       },
       {
         "type": "opportunity",
+        "id": "pulitzer-env",
+        "url": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/our-work-environment-grants",
+        "class": "blocked",
+        "streak": 3,
+        "networkCode": null,
+        "status": 403
+      },
+      {
+        "type": "opportunity",
         "id": "ijweek26",
         "url": "https://gijn.org/stories/ij-week-full-program-release/",
         "class": "blocked",
         "streak": 7,
+        "networkCode": null,
+        "status": 403
+      },
+      {
+        "type": "tool",
+        "id": "osint-vault-telltale",
+        "url": "https://theosintvault.io/telltale",
+        "class": "blocked",
+        "streak": 3,
         "networkCode": null,
         "status": 403
       },
@@ -1154,6 +1164,15 @@
         "status": null
       },
       {
+        "type": "opportunity",
+        "id": "pulitzer-ml",
+        "url": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/machine-learning-reporting-grants",
+        "class": "blocked",
+        "streak": 3,
+        "networkCode": null,
+        "status": 403
+      },
+      {
         "type": "tool",
         "id": "gijn-international-research-guide",
         "url": "https://gijn.org/resource/henk-van-ess-international-research-guide-online",
@@ -1168,7 +1187,7 @@
         "url": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/indicadores-educacionais/media-de-alunos-por-turma",
         "class": "network",
         "streak": 3,
-        "networkCode": "ECONNRESET",
+        "networkCode": "UND_ERR_CONNECT_TIMEOUT",
         "status": null
       },
       {
@@ -1231,7 +1250,7 @@
         "url": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/indicadores-educacionais/percentual-de-docentes-com-curso-superior",
         "class": "network",
         "streak": 3,
-        "networkCode": "UND_ERR_CONNECT_TIMEOUT",
+        "networkCode": "ECONNRESET",
         "status": null
       },
       {
@@ -1321,7 +1340,7 @@
         "url": "https://www.gov.br/obrasgov/pt-br/ferramentas-de-gestao-e-transparencia/painel-do-obrasgov.br",
         "class": "network",
         "streak": 3,
-        "networkCode": "UND_ERR_CONNECT_TIMEOUT",
+        "networkCode": "ECONNRESET",
         "status": null
       },
       {
@@ -1330,7 +1349,7 @@
         "url": "https://www.gov.br/prf/pt-br/acesso-a-informacao/dados-abertos/dados-abertos-da-prf",
         "class": "network",
         "streak": 3,
-        "networkCode": "UND_ERR_CONNECT_TIMEOUT",
+        "networkCode": "ECONNRESET",
         "status": null
       },
       {
@@ -1339,7 +1358,7 @@
         "url": "https://www.gov.br/anvisa/pt-br/centraisdeconteudo/publicacoes/sangue-tecidos-celulas-e-orgaos/producao-e-avaliacao-de-servicos-de-hemoterapia/dados-brutos-de-producao-hemoterapica-1/hemoprod_nacional.csv/@@download/file",
         "class": "network",
         "streak": 3,
-        "networkCode": "UND_ERR_CONNECT_TIMEOUT",
+        "networkCode": "ECONNRESET",
         "status": null
       },
       {
@@ -1411,7 +1430,7 @@
         "url": "https://www.gov.br/ana/pt-br/assuntos/regulacao-e-fiscalizacao/outorga/outorgas-emitidas",
         "class": "network",
         "streak": 3,
-        "networkCode": "ECONNRESET",
+        "networkCode": "UND_ERR_CONNECT_TIMEOUT",
         "status": null
       },
       {
@@ -1420,7 +1439,7 @@
         "url": "https://www.gov.br/conecta/catalogo/",
         "class": "network",
         "streak": 3,
-        "networkCode": "ECONNRESET",
+        "networkCode": "UND_ERR_CONNECT_TIMEOUT",
         "status": null
       },
       {
@@ -1429,7 +1448,7 @@
         "url": "https://www.gov.br/compras/pt-br/cidadao/portal-de-dados-abertos/portal-de-dados-abertos",
         "class": "network",
         "streak": 3,
-        "networkCode": "ECONNRESET",
+        "networkCode": "UND_ERR_CONNECT_TIMEOUT",
         "status": null
       },
       {
@@ -1438,7 +1457,7 @@
         "url": "https://www.gov.br/compras/pt-br/acesso-a-informacao/manuais/manual-dados-abertos/manual-api-compras.pdf",
         "class": "network",
         "streak": 3,
-        "networkCode": "ECONNRESET",
+        "networkCode": "UND_ERR_CONNECT_TIMEOUT",
         "status": null
       },
       {
@@ -2465,19 +2484,6 @@
       },
       {
         "type": "tool",
-        "id": "manual-20261120-pesquisa-diario-oficial-uniao",
-        "urls": [
-          "https://www.in.gov.br/consulta"
-        ],
-        "classes": {
-          "server": 1
-        },
-        "statuses": [
-          502
-        ]
-      },
-      {
-        "type": "tool",
         "id": "fb1f5945b6820ed90263a3164b11222cb5cbbd33823865ccd8e85e23468238a1",
         "urls": [
           "https://www.muckrock.com/?utm_source=substack&utm_medium=email"
@@ -3065,9 +3071,35 @@
       },
       {
         "type": "opportunity",
+        "id": "pulitzer-env",
+        "urls": [
+          "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/our-work-environment-grants"
+        ],
+        "classes": {
+          "blocked": 1
+        },
+        "statuses": [
+          403
+        ]
+      },
+      {
+        "type": "opportunity",
         "id": "ijweek26",
         "urls": [
           "https://gijn.org/stories/ij-week-full-program-release/"
+        ],
+        "classes": {
+          "blocked": 1
+        },
+        "statuses": [
+          403
+        ]
+      },
+      {
+        "type": "tool",
+        "id": "osint-vault-telltale",
+        "urls": [
+          "https://theosintvault.io/telltale"
         ],
         "classes": {
           "blocked": 1
@@ -3269,6 +3301,19 @@
         },
         "statuses": [
           null
+        ]
+      },
+      {
+        "type": "opportunity",
+        "id": "pulitzer-ml",
+        "urls": [
+          "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/machine-learning-reporting-grants"
+        ],
+        "classes": {
+          "blocked": 1
+        },
+        "statuses": [
+          403
         ]
       },
       {
@@ -3958,33 +4003,34 @@
       "tool": 274
     },
     "persistentByType": {
-      "opportunity": 24,
+      "opportunity": 26,
       "dataset": 124,
       "source": 12,
       "tool": 26
     },
     "byTypeAndClass": {
       "opportunity": {
-        "blocked": 26,
-        "ok": 154,
-        "network": 3,
-        "server": 1
+        "blocked": 27,
+        "ok": 155,
+        "network": 2
       },
       "dataset": {
         "blocked": 23,
-        "ok": 847,
-        "network": 101,
+        "ok": 846,
+        "network": 102,
         "server": 1
       },
       "source": {
-        "ok": 117,
-        "blocked": 13,
+        "ok": 118,
+        "blocked": 12,
         "network": 1
       },
       "tool": {
-        "blocked": 25,
-        "ok": 248,
-        "server": 1
+        "blocked": 28,
+        "server": 1,
+        "ok": 243,
+        "suspect": 1,
+        "network": 1
       }
     }
   },
@@ -4178,16 +4224,13 @@
           "field": "apply"
         }
       ],
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
-      "networkCode": "ETIMEDOUT",
+      "status": 200,
+      "finalUrl": "https://www.generonumero.media/artigos/programa-de-bolsas-aborto-em-pilulas/",
+      "class": "ok",
       "attempts": [
-        "TypeError:fetch failed",
-        "TypeError:fetch failed"
+        200
       ],
-      "streak": 1,
+      "streak": 7,
       "persistent": false,
       "previousClass": "ok"
     },
@@ -7563,14 +7606,15 @@
           "field": "docs"
         }
       ],
-      "status": 200,
-      "finalUrl": "https://conectividadenaeducacao.nic.br/",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "AbortError:This operation was aborted",
       "attempts": [
         "AbortError:This operation was aborted",
-        200
+        "AbortError:This operation was aborted"
       ],
-      "streak": 2,
+      "streak": 1,
       "persistent": false,
       "previousClass": "ok"
     },
@@ -7617,7 +7661,7 @@
       "finalUrl": null,
       "class": "network",
       "error": "TypeError:fetch failed",
-      "networkCode": "ECONNRESET",
+      "networkCode": "UND_ERR_CONNECT_TIMEOUT",
       "attempts": [
         "AbortError:This operation was aborted",
         "TypeError:fetch failed",
@@ -7832,6 +7876,7 @@
       "finalUrl": "https://www.dados.mg.gov.br/pt_BR/dataset/?organization=fundacao-hospitalar-do-estado-de-minas-gerais-fhemig&res_format=JSON",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ],
       "streak": 2,
@@ -8801,16 +8846,13 @@
           "field": "docs"
         }
       ],
-      "status": null,
-      "finalUrl": null,
-      "class": "network",
-      "error": "TypeError:fetch failed",
-      "networkCode": "UND_ERR_CONNECT_TIMEOUT",
+      "status": 200,
+      "finalUrl": "https://geocuritiba.ippuc.org.br/mapacadastral/",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        "TypeError:fetch failed"
+        200
       ],
-      "streak": 1,
+      "streak": 5,
       "persistent": false,
       "previousClass": "ok"
     },
@@ -9159,13 +9201,16 @@
           "field": "docs"
         }
       ],
-      "status": 200,
-      "finalUrl": "https://observatorio.fortaleza.ce.gov.br/observainfanciaviva/",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
+      "networkCode": "ECONNRESET",
       "attempts": [
-        200
+        "TypeError:fetch failed",
+        "TypeError:fetch failed"
       ],
-      "streak": 2,
+      "streak": 1,
       "persistent": false,
       "previousClass": "ok"
     },
@@ -10758,7 +10803,6 @@
       "finalUrl": "https://dados.recife.pe.gov.br/dataset/casos-de-dengue-zika-e-chikungunya",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ],
       "streak": 6,
@@ -10895,7 +10939,6 @@
       "finalUrl": "https://tabnet.datasus.gov.br/cgi/sbucal/sb96.zip",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ],
       "streak": 7,
@@ -12803,7 +12846,6 @@
       "finalUrl": "https://www.transparencia.ba.gov.br/Portal",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ],
       "streak": 6,
@@ -13018,7 +13060,6 @@
       "finalUrl": "https://www.ba.gov.br/saude/suvisa/vigilancia-epidemiologica",
       "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
         200
       ],
       "streak": 7,
@@ -15206,11 +15247,13 @@
           "field": "url"
         }
       ],
-      "status": 200,
+      "status": 502,
       "finalUrl": "https://crt.sh/?q=%25",
-      "class": "ok",
+      "class": "server",
       "attempts": [
-        200
+        502,
+        502,
+        502
       ],
       "streak": 1,
       "persistent": false,
@@ -16659,16 +16702,16 @@
           "field": "url"
         }
       ],
-      "status": 502,
+      "status": 404,
       "finalUrl": "https://www.in.gov.br/consulta",
-      "class": "server",
+      "class": "suspect",
       "attempts": [
-        502,
-        502,
-        502
+        404,
+        404,
+        404
       ],
-      "streak": 3,
-      "persistent": true,
+      "streak": 1,
+      "persistent": false,
       "previousClass": "server"
     },
     {
@@ -19315,14 +19358,13 @@
           "field": "apply"
         }
       ],
-      "status": 504,
+      "status": 200,
       "finalUrl": "https://digital-strategy.ec.europa.eu/en/funding/call-proposals-media-freedom-rapid-response-mechanism-2027",
-      "class": "server",
+      "class": "ok",
       "attempts": [
-        "AbortError:This operation was aborted",
-        504
+        200
       ],
-      "streak": 1,
+      "streak": 7,
       "persistent": false,
       "previousClass": "ok"
     },
@@ -20539,7 +20581,7 @@
       "finalUrl": null,
       "class": "network",
       "error": "TypeError:fetch failed",
-      "networkCode": "UND_ERR_CONNECT_TIMEOUT",
+      "networkCode": "ECONNRESET",
       "attempts": [
         "AbortError:This operation was aborted",
         "TypeError:fetch failed",
@@ -23725,7 +23767,7 @@
       "finalUrl": null,
       "class": "network",
       "error": "TypeError:fetch failed",
-      "networkCode": "ECONNRESET",
+      "networkCode": "UND_ERR_CONNECT_TIMEOUT",
       "attempts": [
         "AbortError:This operation was aborted",
         "TypeError:fetch failed",
@@ -25022,14 +25064,16 @@
           "field": "discoveryUrl"
         }
       ],
-      "status": 200,
-      "finalUrl": "https://www.generonumero.media/artigos/cartilha-violencia-de-genero/",
-      "class": "ok",
+      "status": null,
+      "finalUrl": null,
+      "class": "network",
+      "error": "TypeError:fetch failed",
+      "networkCode": "ETIMEDOUT",
       "attempts": [
         "TypeError:fetch failed",
-        200
+        "TypeError:fetch failed"
       ],
-      "streak": 7,
+      "streak": 1,
       "persistent": false,
       "previousClass": "ok"
     },
@@ -26341,14 +26385,14 @@
           "field": "apply"
         }
       ],
-      "status": 200,
+      "status": 403,
       "finalUrl": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/our-work-environment-grants",
-      "class": "ok",
+      "class": "blocked",
       "attempts": [
-        200
+        403
       ],
-      "streak": 1,
-      "persistent": false,
+      "streak": 3,
+      "persistent": true,
       "previousClass": "blocked"
     },
     {
@@ -26434,14 +26478,14 @@
           "field": "url"
         }
       ],
-      "status": 200,
+      "status": 403,
       "finalUrl": "https://theosintvault.io/telltale",
-      "class": "ok",
+      "class": "blocked",
       "attempts": [
-        200
+        403
       ],
-      "streak": 1,
-      "persistent": false,
+      "streak": 3,
+      "persistent": true,
       "previousClass": "blocked"
     },
     {
@@ -27235,13 +27279,13 @@
           "field": "url"
         }
       ],
-      "status": 200,
-      "finalUrl": "https://theosintvault.io/multi-search-launcher",
-      "class": "ok",
+      "status": 403,
+      "finalUrl": "https://theosintvault.io/multi-search-launcher.html",
+      "class": "blocked",
       "attempts": [
-        200
+        403
       ],
-      "streak": 1,
+      "streak": 2,
       "persistent": false,
       "previousClass": "blocked"
     },
@@ -27797,13 +27841,13 @@
           "field": "apply"
         }
       ],
-      "status": 403,
+      "status": 200,
       "finalUrl": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/ai-reporting-grants",
-      "class": "blocked",
+      "class": "ok",
       "attempts": [
-        403
+        200
       ],
-      "streak": 1,
+      "streak": 3,
       "persistent": false,
       "previousClass": "ok"
     },
@@ -28229,6 +28273,7 @@
       "finalUrl": "https://www.ba.gov.br/inema/legislacao/normas-tecnicas-e-portarias",
       "class": "ok",
       "attempts": [
+        "AbortError:This operation was aborted",
         200
       ],
       "streak": 7,
@@ -28306,14 +28351,14 @@
           "field": "apply"
         }
       ],
-      "status": 200,
+      "status": 403,
       "finalUrl": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/machine-learning-reporting-grants",
-      "class": "ok",
+      "class": "blocked",
       "attempts": [
-        200
+        403
       ],
-      "streak": 1,
-      "persistent": false,
+      "streak": 3,
+      "persistent": true,
       "previousClass": "blocked"
     },
     {
@@ -28350,13 +28395,13 @@
           "field": "url"
         }
       ],
-      "status": 200,
-      "finalUrl": "https://theosintvault.io/report-composer",
-      "class": "ok",
+      "status": 403,
+      "finalUrl": "https://theosintvault.io/report-composer.html",
+      "class": "blocked",
       "attempts": [
-        200
+        403
       ],
-      "streak": 2,
+      "streak": 1,
       "persistent": false,
       "previousClass": "ok"
     },
@@ -28403,7 +28448,7 @@
       "finalUrl": null,
       "class": "network",
       "error": "TypeError:fetch failed",
-      "networkCode": "ECONNRESET",
+      "networkCode": "UND_ERR_CONNECT_TIMEOUT",
       "attempts": [
         "AbortError:This operation was aborted",
         "TypeError:fetch failed",
@@ -28761,13 +28806,13 @@
           "field": "rules"
         }
       ],
-      "status": 403,
+      "status": 200,
       "finalUrl": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/persephone-miel-fellowships",
-      "class": "blocked",
+      "class": "ok",
       "attempts": [
-        403
+        200
       ],
-      "streak": 1,
+      "streak": 7,
       "persistent": false,
       "previousClass": "ok"
     },
@@ -29297,7 +29342,7 @@
       "finalUrl": null,
       "class": "network",
       "error": "TypeError:fetch failed",
-      "networkCode": "UND_ERR_CONNECT_TIMEOUT",
+      "networkCode": "ECONNRESET",
       "attempts": [
         "AbortError:This operation was aborted",
         "TypeError:fetch failed",
@@ -29607,13 +29652,13 @@
           "field": "apply"
         }
       ],
-      "status": 200,
+      "status": 403,
       "finalUrl": "https://pulitzercenter.org/grants-fellowships/opportunities-journalists/global-reporting-grants",
-      "class": "ok",
+      "class": "blocked",
       "attempts": [
-        200
+        403
       ],
-      "streak": 2,
+      "streak": 1,
       "persistent": false,
       "previousClass": "ok"
     },
@@ -29970,13 +30015,13 @@
           "field": "url"
         }
       ],
-      "status": 403,
-      "finalUrl": "https://pulitzercenter.org/grants-fellowships",
-      "class": "blocked",
+      "status": 200,
+      "finalUrl": "https://pulitzercenter.org/grantees",
+      "class": "ok",
       "attempts": [
-        403
+        200
       ],
-      "streak": 1,
+      "streak": 3,
       "persistent": false,
       "previousClass": "ok"
     },
@@ -31568,7 +31613,7 @@
       "finalUrl": null,
       "class": "network",
       "error": "TypeError:fetch failed",
-      "networkCode": "UND_ERR_CONNECT_TIMEOUT",
+      "networkCode": "ECONNRESET",
       "attempts": [
         "AbortError:This operation was aborted",
         "TypeError:fetch failed",
@@ -31746,7 +31791,7 @@
       "finalUrl": null,
       "class": "network",
       "error": "TypeError:fetch failed",
-      "networkCode": "UND_ERR_CONNECT_TIMEOUT",
+      "networkCode": "ECONNRESET",
       "attempts": [
         "AbortError:This operation was aborted",
         "TypeError:fetch failed",
@@ -31924,7 +31969,7 @@
       "finalUrl": null,
       "class": "network",
       "error": "TypeError:fetch failed",
-      "networkCode": "UND_ERR_CONNECT_TIMEOUT",
+      "networkCode": "ECONNRESET",
       "attempts": [
         "AbortError:This operation was aborted",
         "TypeError:fetch failed",
@@ -33281,7 +33326,7 @@
       "finalUrl": null,
       "class": "network",
       "error": "TypeError:fetch failed",
-      "networkCode": "ECONNRESET",
+      "networkCode": "UND_ERR_CONNECT_TIMEOUT",
       "attempts": [
         "AbortError:This operation was aborted",
         "TypeError:fetch failed",
@@ -33442,7 +33487,7 @@
       "finalUrl": null,
       "class": "network",
       "error": "TypeError:fetch failed",
-      "networkCode": "ECONNRESET",
+      "networkCode": "UND_ERR_CONNECT_TIMEOUT",
       "attempts": [
         "AbortError:This operation was aborted",
         "TypeError:fetch failed",
@@ -33598,7 +33643,7 @@
       "finalUrl": null,
       "class": "network",
       "error": "TypeError:fetch failed",
-      "networkCode": "ECONNRESET",
+      "networkCode": "UND_ERR_CONNECT_TIMEOUT",
       "attempts": [
         "AbortError:This operation was aborted",
         "TypeError:fetch failed",
@@ -33744,7 +33789,7 @@
       "finalUrl": null,
       "class": "network",
       "error": "TypeError:fetch failed",
-      "networkCode": "ECONNRESET",
+      "networkCode": "UND_ERR_CONNECT_TIMEOUT",
       "attempts": [
         "AbortError:This operation was aborted",
         "TypeError:fetch failed",
