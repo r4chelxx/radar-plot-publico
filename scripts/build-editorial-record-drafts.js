@@ -35,7 +35,7 @@ function explicitOrganization(text){
  if(labeled?.[1]){const value=safe(labeled[1]);if(value)return value;}
  const unlabeled=source.match(/(?:organisation|organization|organizer|organiser|funder|provider)\s+([^.!?]{2,160}?)(?=\s+(?:status|type|theme|deadline|eligibility|target region|application language|funding size|how to apply|focus area|subject area|award size|career stage|editor'?s note|apply here|location|funding type)\b|[.!?]|$)/i);
  if(unlabeled?.[1]){const value=safe(unlabeled[1]);if(value)return value;}
- const host=source.match(/\b(?:[Bb]ased at|[Hh]osted by|[Aa]dministered by|[Oo]rganized by|[Oo]rganised by|[Ss]ediad[ao] (?:na|no)|[Rr]ealizad[ao] pel[ao])\s+([A-Z][\w’'&-]*(?:\s+[A-Z][\w’'&-]*){0,7})/);
+ const host=source.match(/\b(?:[Bb]ased at|[Hh]osted by|[Aa]dministered by|[Oo]rganized by|[Oo]rganised by|[Ss]ediad[ao] (?:na|no)|[Rr]ealizad[ao] pel[ao])\s+([A-Z][\w.’'&-]*(?:\s+[A-Z][\w’'&-]*){0,7})/);
  if(host?.[1])return safe(host[1]);
  const m=source.match(/(?:^|[.!?]\s+)(?:The\s+)?([A-Z][A-Za-z0-9&.'’-]*(?:\s+[A-Z][A-Za-z0-9&.'’-]*){0,3})\s+(?:invites|is pleased to announce|announces)\b/);
  return safe(m?.[1])||null;
@@ -44,14 +44,14 @@ function eligibilityScope(text){
  const normalized=String(text||'').replace(/\bU\.S\./g,'US');
  const labeled=normalized.match(/\b(?:eligibility(?: criteria)?|elegibilidade)\s*:\s*(.{10,1000}?)(?=\s+(?:target region|application language|type of funding|region|how to apply|thematics|requirements)\s*:|[.!?](?:\s|$)|$)/i);
  if(labeled)return clean(labeled[1]);
- const heading=normalized.match(/\bwho (?:is )?eligible to apply\??\s*([\s\S]{10,2400}?)(?=\s+(?:what are the benefits|benefits|how to apply|application process|program dates|deadline|apply now)\b|$)/i);
+ const heading=normalized.match(/\bwho (?:is )?(?:eligible to apply|may apply|can apply)\??\s*([\s\S]{10,2400}?)(?=\s+(?:(?:what|when|where|how|do|does|is|are)\b[^?]{0,160}\?|\b(?:what are the benefits|benefits|how to apply|application process|program dates|deadline|apply now)\b)|$)/i);
  if(heading){
   const sentences=heading[1].split(/(?<=[.!?])\s+/).filter(Boolean).slice(0,6);
   const scoped=clean(sentences.join(' ')).slice(0,1100);
   if(scoped.length>=20)return scoped;
  }
  const scope=sentence(normalized,/applicants?[^.!?]{0,180}(?:globally|worldwide|world-wide)[^.!?]*(?:may enter|can apply|eligible)/i)
-  ||sentence(normalized,/(eligible|eligibility|who can (?:apply|enter|participate)|participants must|entry requirements|age(?:d)? 18 and up|18 years and older|globally may enter|open to|elegibilidade|elegível|podem se candidatar)/i);
+  ||sentence(normalized,/(eligible|eligibility|who (?:can|may) (?:apply|enter|participate)|participants must|entry requirements|age(?:d)? 18 and up|18 years and older|globally may enter|open to|elegibilidade|elegível|podem se candidatar)/i);
  const restrictions=normalized.split(/(?<=[.!?])\s+/).filter(x=>/citizens?|green card|permanent residen|eligible countries|must (?:be|reside)|nacionalidade/i.test(x));
  return scope?[...new Set([scope,...restrictions])].join(' ').slice(0,1200):null;
 }
@@ -72,6 +72,8 @@ function evidenceSummary(text,description){
  return value.length>=120?value.slice(0,1200):null;
 }
 function toolKind(text,applicationCategory,titleKind){
+ if(/reverse image search|search by image/i.test(text))return 'Pesquisa reversa de imagens';
+ if(/satellite imagery explorer|explore,?\s*search,?\s*and\s+analy[sz]e.{0,120}\bsatellite imagery/i.test(text))return 'Exploração e análise de imagens de satélite';
  if(/file,? track and share public records requests/i.test(text))return 'Gestão de pedidos de acesso à informação';
  if(/browser automation tool|automates browsers/i.test(text))return 'Automação de navegador';
  if(/(?:headless )?graphics framework/i.test(text))return 'Framework de gráficos e visualização';
@@ -155,15 +157,17 @@ function buildDrafts(queue,review,generatedAt=new Date().toISOString()){
  const drafts=eligible.map(result=>{
   const candidate=candidates.get(result.id),audit=candidate.audit||{},rawText=clean(audit.evidenceText),text=clean([rawText,audit.pageDescription].filter(Boolean).join(' ')),url=audit.finalUrl||candidate.url;
   let pageTitle=clean(audit.pageTitle||candidate.title);
-  if(result.category==='opportunities'&&/^(?:how to apply|about(?: the fellowship)?|application)$/i.test(pageTitle)){
-   pageTitle=(rawText.match(/\b(?:[A-Z][\w’'&-]*\s+){1,8}(?:Fellowship|Grant|Award|Competition)\b(?:\s+for(?:\s+[A-Z][\w’'&-]*){1,5})?/)?.[0]||pageTitle).replace(/^The\s+/,'');
+  if(result.category==='opportunities'&&/^(?:how to apply|about(?: the fellowship)?|application(?: faq)?|faq|frequently asked questions)$/i.test(pageTitle)){
+   pageTitle=(rawText.match(/\b(?:[A-Z][\w.’'&-]*\s+){1,8}(?:Fellowships?|Grants?|Awards?|Competitions?)\b(?:\s+for(?:\s+[A-Z][\w.’'&-]*){1,5})?/)?.[0]||pageTitle).replace(/^The\s+/,'');
   }
   const organization=structured(audit,/organization|dataset|softwareapplication|softwareproduct/i);
+  const metadataOrganization=clean(audit.structuredEvidence?.organization)||null;
+  const verifiedMetadataOrganization=metadataOrganization&&text.toLowerCase().includes(metadataOrganization.toLowerCase())?metadataOrganization:null;
   const org=publisherName(organization)||null;
   const id=slug(candidate.id||url);
   const record={id};
   if(result.category==='opportunities'){
-   record.title=clean(pageTitle).replace(/\s*[-–—|]\s*(?:Opportunity Desk|GFMD|Grants for Journalists)\s*$/i,'');record.org=org||explicitOrganization(text);
+   record.title=clean(pageTitle).replace(/\s*[-–—|]\s*(?:Opportunity Desk|GFMD|Grants for Journalists)\s*$/i,'');record.org=org||explicitOrganization(text)||verifiedMetadataOrganization;
    record.summary=evidenceSummary(text,audit.pageDescription);
    const typeMatch=/(fellowship|grant|scholarship|award|prize|contest|competition|bolsa|edital|premia[cç][aã]o|mentorship|mentoria|training|workshop|internship|residency|pitches|pitch)/i.exec(pageTitle+' '+text);
    record.type=typeMatch?typeMatch[0]:'Chamada editorial com financiamento ou prêmio';

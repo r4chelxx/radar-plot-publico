@@ -8,7 +8,7 @@ const queuePath=process.argv[2]||'intake/editorial-queue.json';
 const outPath=process.argv[3]||'intake/editorial-evidence-review.json';
 const today=new Intl.DateTimeFormat('en-CA',{timeZone:'America/Bahia',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());
 const flat=v=>Array.isArray(v)?v.map(flat).join(' '):v&&typeof v==='object'?Object.values(v).map(flat).join(' '):String(v||'');
-const genericOpportunityTitle=/^(?:how to apply|about(?: the fellowship)?|application|apply now)$/i;
+const genericOpportunityTitle=/^(?:how to apply|about(?: the fellowship)?|application(?: faq)?|faq|frequently asked questions|apply now)$/i;
 function socialPostUrl(value){try{const host=new URL(value).hostname.toLowerCase().replace(/^www\./,'');return /^(?:instagram\.com|facebook\.com|linkedin\.com|tiktok\.com|x\.com|twitter\.com|youtube\.com|youtu\.be|threads\.net|reddit\.com|pinterest\.com|t\.me)$/.test(host)}catch{return false}}
 function jlabPublicationPage(value){try{const u=new URL(value),host=(u.hostname.toLowerCase().startsWith('www.')?u.hostname.slice(4):u.hostname.toLowerCase()),path=u.pathname.toLowerCase();return (host==='j-lab.org'&&path.startsWith('/publications/'))||(host==='sej.org'&&(path==='/library/reporting-tools/overview'||path==='/library/reporting-tools/overview/'))}catch{return false}}
 function editorialReportPage(c,title=''){
@@ -58,9 +58,11 @@ function toolIdentity(c,title,docs){
  try{const u=new URL(c.audit?.finalUrl||c.url);cranPackage=/(^|\.)r-project\.org$/.test(u.hostname)&&(/^[A-Za-z][A-Za-z0-9.]{0,79}$/.test(u.searchParams.get('package')||'')||/^\/package=[A-Za-z][A-Za-z0-9.]{0,79}\/?$|\/packages\/[A-Za-z][A-Za-z0-9.]{0,79}(?:\/|$)/.test(u.pathname));}catch{}
  const newsletterSource=/Gmail Radar PLOT/i.test([c.sourceName||'',...(c.providers||[])].join(' '));
  const surface=[newsletterSource?'':title,newsletterSource?'':String(c.title||''),String(c.url||'').split('/').filter(Boolean).slice(-1)[0]||'',String(c.audit?.pageTitle||''),String(c.audit?.pageDescription||'')].join(' ');
- return structured||cranPackage||(!excluded.test(surface)&&/(software|tool|platform|application|library|framework|plugin|extension|programming language|statistical computing|ferramenta|plataforma|aplicativo|biblioteca)/i.test(surface));
+ return structured||cranPackage||(!excluded.test(surface)&&/(software|tool|platform|application|library|framework|plugin|extension|programming language|statistical computing|ferramenta|plataforma|aplicativo|biblioteca|reverse image search|search by image|satellite imagery explorer)/i.test(surface));
 }
 function toolFunction(text,docs){
+ if(/\b(?:reverse image search|search by image|find (?:similar )?(?:images|photos)|satellite imagery explorer)\b/i.test(text))return true;
+ if(/explore,?\s*search,?\s*and\s+analy[sz]e.{0,120}\bsatellite imagery\b/i.test(text))return true;
  if(/\b(?:screen.scraping HTML|HTML parsing|parsing HTML|parse tree)\b/i.test(text))return true;
  if(/\b(?:browser automation tool|automates browsers|(?:headless )?graphics framework|javascript 3d library|create responsive graphics)\b/i.test(text))return true;
  const structured=docs.some(x=>{const type=flat(x['@type']).toLowerCase();return /softwareapplication|softwareproduct/.test(type)&&(x.featureList||x.applicationCategory||x.description)});
@@ -82,7 +84,7 @@ function inferCategory(c,text,title){
  if(supplied)return supplied;
  const opportunity=actionableOpportunity(title,text);
  const deadline=/(deadline|closing date|close(?:s|d)?\s+(?:on|by|\d)|applications?[^.!?]{0,60}clos(?:e|es|ed)|prazo|inscri[cç][aã]o(?:s)?[^.!?]{0,50}até)/i.test(text);
- const eligibility=/(eligib|who can apply|who can enter|who can participate|participants must|entry requirements|open to|elegibilidade|podem se candidatar)/i.test(text);
+ const eligibility=/(eligib|who can apply|who may apply|who is eligible to apply|who can enter|who can participate|participants must|entry requirements|open to|elegibilidade|podem se candidatar)/i.test(text);
  if(opportunity&&deadline&&eligibility)return 'opportunities';
  const dataset=/(dataset|data catalog|open data|dados abertos|base de dados|microdata|microdados|data portal)/i.test(title+' '+text);
  const datasetNoise=/(?:podcast|youtube|ranking|rankings|top ai companies|newsletter|blog|article|press release)/i.test(title+' '+text+' '+url);
@@ -124,7 +126,7 @@ function deadlineDates(text,confirmedCall=false){
  return dateCandidates(text).filter(date=>{
   const months=['january','february','march','april','may','june','july','august','september','october','november','december'],ptMonths=['janeiro','fevereiro','março','abril','maio','junho','julho','agosto','setembro','outubro','novembro','dezembro'],month=months[Number(date.slice(5,7))-1],ptMonth=ptMonths[Number(date.slice(5,7))-1],day=String(Number(date.slice(8))),year=date.slice(0,4);
   const forms=[date,date.replaceAll('-','/'),date.slice(8)+'/'+date.slice(5,7)+'/'+date.slice(0,4),String(Number(date.slice(8)))+'/'+String(Number(date.slice(5,7)))+'/'+date.slice(0,4),month+' '+day+', '+year,day+' '+month+' '+year,day+' de '+ptMonth+' de '+year];
-  return text.split(/(?<=[.!?])\s+/).some(sentence=>forms.some(form=>sentence.includes(form))&&cues.test(sentence)&&(confirmedCall&&/^(?:deadline|closing date|prazo(?: final)?)\s*:/i.test(sentence.trim())||/(apply|application|grant|fellowship|scholarship|submit|submission|entry|entries|inscri[cç][oõ]|candidatura|bolsa|edital)/i.test(sentence)));
+  return text.split(/(?<=[.!?])\s+/).some(sentence=>forms.some(form=>sentence.includes(form))&&cues.test(sentence)&&(confirmedCall&&/^(?:the\s+)?(?:deadline|closing date|prazo(?: final)?)\s*(?::|is\b|[-–—])/i.test(sentence.trim())||/(apply|application|grant|fellowship|scholarship|submit|submission|entry|entries|inscri[cç][oõ]|candidatura|bolsa|edital)/i.test(sentence)));
  });
 }
 function review(c){
@@ -139,7 +141,7 @@ function review(c){
  if(!hardStatus)missing.push('página primária acessível com conteúdo compatível');
  if(category==='opportunities'){
   const genericPage=genericOpportunityTitle.test(title.trim());
-  const namedCall=raw.match(/\b(?:[A-Z][\w’'&-]*\s+){1,8}(?:Fellowship|Grant|Award|Competition)\b(?:\s+for(?:\s+[A-Z][\w’'&-]*){1,5})?/u)?.[0]||null;
+  const namedCall=raw.match(/\b(?:[A-Z][\w.’'&-]*\s+){1,8}(?:Fellowships?|Grants?|Awards?|Competitions?)\b(?:\s+for(?:\s+[A-Z][\w.’'&-]*){1,5})?/u)?.[0]||null;
   const callTitle=namedCall|| (genericPage?String(a.pageDescription||c.title||title):title);
   const editorialScope=/\b(?:journalis\w*|jornalismo|jornalistas?|reporting|reporters?|newsrooms?|photojournal\w*|documentary|storymaps|geospatial story|data visuali\w*|visual storytelling)\b/i.test(title+' '+String(a.pageDescription||'')+' '+String(a.evidenceText||''));
   if(!editorialScope)missing.push('escopo jornalístico ausente no título e descrição da chamada');
@@ -149,7 +151,7 @@ function review(c){
   checks.callSignal=(!genericPage||!!namedCall)&&(verifiedOpportunityEvidence||actionableOpportunity(callTitle,text))&&!/newsletter|podcast|directory|portfolio/i.test(title);
   if(genericPage&&!namedCall)missing.push('nome específico da chamada ausente; página genérica de inscrição não pode ser publicada como oportunidade');
   checks.deadline=deadlineDates(text,checks.callSignal).find(d=>d>=today)||structuredDeadline(docs); if(checks.deadline&&checks.deadline<today)checks.deadline=null;
-  checks.eligibility=/\b(eligib|eligible|eligibility|who can apply|who can enter|who can participate|participants must|entry requirements|age(?:d)? 18 and up|18 years and older|globally may enter|open to|elegibilidade|elegível|podem se candidatar)\b/i.test(text);
+  checks.eligibility=/\b(eligib|eligible|eligibility|who can apply|who may apply|who is eligible to apply|who can enter|who can participate|participants must|entry requirements|age(?:d)? 18 and up|18 years and older|globally may enter|open to|elegibilidade|elegível|podem se candidatar)\b/i.test(text);
   if(/\b(?:applications?|submissions?|entries?)\b[^.!?]{0,120}\bclosed\b|inscri[cç][oõ]es\s+encerradas/i.test(text))missing.push('chamada explicitamente encerrada');
   if(!checks.callSignal)missing.push('chamada de financiamento/bolsa identificável');
   checks.rolling=!checks.deadline&&rollingApplicationEvidence(text);
@@ -179,7 +181,8 @@ function review(c){
   const d=ld.find(x=>/softwareapplication|softwareproduct|software/.test(x.type))?.data;
   checks.productSignal=!!d||toolIdentity(c,title,docs);
   checks.function=!!(d?.applicationCategory||d?.featureList||d?.description)||toolFunction(text,docs);
-  checks.access=!!(d?.offers||d?.operatingSystem)||/(free|open source|pricing|subscription|account|download|install|web app|browser|online|cloud|desktop|api|documentation|docs|github|cran|npm|python|trial|commercial|gratuito|licença|conta|preço|instala|disponível|acesso)/i.test(text);
+  const signInEndpoint=(()=>{try{return /\/(?:sign-?in|log-?in)(?:\/|$)/i.test(new URL(c.url||'https://invalid.local').pathname)}catch{return false}})();
+  checks.access=!!(d?.offers||d?.operatingSystem)||signInEndpoint||/(free|open source|pricing|subscription|account|download|install|web app|browser|online|cloud|desktop|api|documentation|docs|github|cran|npm|python|trial|commercial|gratuito|licença|conta|preço|instala|disponível|acesso|on your phone|mobile|\bpc\b)/i.test(text);
   checks.license=!!d?.license||/(license|licen[çc]a|mit license|apache license|gpl|bsd license)/i.test(text);
   checks.licenseStatus=checks.license?'stated':'not stated in captured source';
   if(!checks.productSignal)missing.push('produto ou software identificável');

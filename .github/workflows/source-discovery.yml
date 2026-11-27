@@ -55,6 +55,11 @@ on:
       - 'tests/review-editorial-evidence.test.js'
       - 'tests/publication-drafts.test.js'
       - 'scripts/inspect-lead-pages.js'
+      - 'scripts/tool-publication-evidence.js'
+      - 'tests/tool-discovery-evidence.test.js'
+      - 'scripts/opportunity-primary-target.js'
+      - 'tests/opportunity-primary-target.test.js'
+      - 'tests/jsk-opportunity-evidence.test.js'
       - 'scripts/inspection-health.js'
       - 'scripts/require-inspection-health.js'
       - 'tests/inspection-health.test.js'
@@ -104,6 +109,11 @@ on:
       - 'tests/publication-drafts.test.js'
       - 'scripts/build-editorial-review.js'
       - 'scripts/inspect-lead-pages.js'
+      - 'scripts/tool-publication-evidence.js'
+      - 'tests/tool-discovery-evidence.test.js'
+      - 'scripts/opportunity-primary-target.js'
+      - 'tests/opportunity-primary-target.test.js'
+      - 'tests/jsk-opportunity-evidence.test.js'
       - 'scripts/inspection-health.js'
       - 'scripts/require-inspection-health.js'
       - 'tests/inspection-health.test.js'
@@ -146,7 +156,7 @@ jobs:
         with:
           node-version: '22'
       - name: Check source collector syntax and daily coverage
-        run: node --test tests/source-intake-coverage.test.js tests/structured-lead-metadata.test.js tests/source-page-links.test.js tests/review-editorial-evidence.test.js tests/publication-drafts.test.js tests/filter-rejected-approvals.test.js
+        run: node --test tests/source-intake-coverage.test.js tests/structured-lead-metadata.test.js tests/source-page-links.test.js tests/review-editorial-evidence.test.js tests/publication-drafts.test.js tests/opportunity-primary-target.test.js tests/jsk-opportunity-evidence.test.js tests/tool-discovery-evidence.test.js tests/filter-rejected-approvals.test.js
       - name: Test persistent lead history
         run: node --test tests/approval-flow.test.js tests/reconcile-published-history.test.js tests/inspection-health.test.js tests/require-inspection-health.test.js tests/auto-audit-candidates.test.js tests/apply-editorial-decisions.test.js tests/audit-capacity.test.js tests/backlog-health.test.js tests/historical-backlog.test.js tests/historical-editorial-batch.test.js tests/lead-history.test.js tests/source-catalog.test.js tests/editorial-review.test.js tests/editorial-priority.test.js tests/inspection-order.test.js tests/lead-privacy.test.js tests/normalize-lead-link.test.js
       - name: Test public queue integration
