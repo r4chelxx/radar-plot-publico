@@ -1,17 +1,6 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
-{
-  "date": "2026-11-25",
-  "type": "ferramentas",
-  "title": "Publicação editorial verificada — 2026-11-25",
-  "items": [
-    {
-      "id": "auto-884f3b9f57ae306b",
-      "title": "Warren, Balint, Colleagues Demand Answers from McDonald’s on Whether AI Pricing Tools Are Raising Prices and Facilitating Collusion"
-    }
-  ],
-  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Warren, Balint, Colleagues Demand Answers from McDonald’s on Whether AI Pricing Tools Are Raising Prices and Facilitating Collusion."
-}, 
+ 
 {
   "date": "2026-11-24",
   "type": "nova-oportunidade",
