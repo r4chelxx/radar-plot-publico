@@ -158,7 +158,7 @@ test('followed primary page keeps discovery URL as history identity',()=>{
   const future=new Date(Date.now()+86400000*30).toISOString().slice(0,10);
   const evidence='Applications are open to journalists. The official FAQ states the deadline and eligibility criteria for the fellowship.';
   const proof=publicationReviewV1('opportunities',officialUrl,evidence);
-  const lead={historicalId:require('../scripts/lead-identity').identity(discoveryUrl).id,url:officialUrl,discoveryUrl,finalUrl:officialUrl,pageStatus:'html-fetched',category:'opportunities',contentType:proof.contentType,publicationRecord:{id:'jsk-2026',title:'International Journalist Fellowship',org:'Official Fellowship',summary:'An international journalism fellowship accepting applications from journalists worldwide.',rules:officialUrl,deadline:future,eligibility:'elegível',status:'aberta'}};
+  const lead={historicalId:require('../scripts/lead-identity').identity(discoveryUrl).id,url:officialUrl,discoveryUrl,finalUrl:officialUrl,pageStatus:'html-fetched',category:'opportunities',contentType:proof.contentType,publicationReviewV1:proof,publicationRecord:{id:'jsk-2026',title:'International Journalist Fellowship',org:'Official Fellowship',summary:'An international journalism fellowship accepting applications from journalists worldwide.',rules:officialUrl,deadline:future,eligibility:'elegível',status:'aberta'}};
   fs.writeFileSync(path.join(d,'intake/lead-evidence.json'),JSON.stringify({results:[lead]}));
   fs.writeFileSync(path.join(d,'intake/editorial-review.json'),JSON.stringify({candidates:[]}));
   cp.execFileSync(process.execPath,['scripts/auto-audit-candidates.js'],{cwd:d});
