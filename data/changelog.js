@@ -2,6 +2,18 @@ window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
 {
   "date": "2026-11-27",
+  "type": "ferramentas",
+  "title": "Publicação editorial verificada — 2026-11-27",
+  "items": [
+    {
+      "id": "1d3a4f475ff98df12cbe47c2a314ee3460ad77f8b3a5744ceb3cc4c8f8510584",
+      "title": "Archivarix Retrace"
+    }
+  ],
+  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Archivarix Retrace."
+}, 
+{
+  "date": "2026-11-27",
   "type": "dados",
   "title": "Publicação editorial verificada — 2026-11-27",
   "items": [
