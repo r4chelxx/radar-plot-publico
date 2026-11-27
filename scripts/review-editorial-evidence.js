@@ -8,7 +8,7 @@ const queuePath=process.argv[2]||'intake/editorial-queue.json';
 const outPath=process.argv[3]||'intake/editorial-evidence-review.json';
 const today=new Intl.DateTimeFormat('en-CA',{timeZone:'America/Bahia',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());
 const flat=v=>Array.isArray(v)?v.map(flat).join(' '):v&&typeof v==='object'?Object.values(v).map(flat).join(' '):String(v||'');
-const genericOpportunityTitle=/^(?:how to apply|about(?: the fellowship)?|application|apply now)$/i;
+const genericOpportunityTitle=/^(?:how to apply|about(?: the fellowship)?|application(?: faq)?|faq|frequently asked questions|apply now)$/i;
 function socialPostUrl(value){try{const host=new URL(value).hostname.toLowerCase().replace(/^www\./,'');return /^(?:instagram\.com|facebook\.com|linkedin\.com|tiktok\.com|x\.com|twitter\.com|youtube\.com|youtu\.be|threads\.net|reddit\.com|pinterest\.com|t\.me)$/.test(host)}catch{return false}}
 function jlabPublicationPage(value){try{const u=new URL(value),host=(u.hostname.toLowerCase().startsWith('www.')?u.hostname.slice(4):u.hostname.toLowerCase()),path=u.pathname.toLowerCase();return (host==='j-lab.org'&&path.startsWith('/publications/'))||(host==='sej.org'&&(path==='/library/reporting-tools/overview'||path==='/library/reporting-tools/overview/'))}catch{return false}}
 function editorialReportPage(c,title=''){
@@ -82,7 +82,7 @@ function inferCategory(c,text,title){
  if(supplied)return supplied;
  const opportunity=actionableOpportunity(title,text);
  const deadline=/(deadline|closing date|close(?:s|d)?\s+(?:on|by|\d)|applications?[^.!?]{0,60}clos(?:e|es|ed)|prazo|inscri[cç][aã]o(?:s)?[^.!?]{0,50}até)/i.test(text);
- const eligibility=/(eligib|who can apply|who can enter|who can participate|participants must|entry requirements|open to|elegibilidade|podem se candidatar)/i.test(text);
+ const eligibility=/(eligib|who can apply|who may apply|who is eligible to apply|who can enter|who can participate|participants must|entry requirements|open to|elegibilidade|podem se candidatar)/i.test(text);
  if(opportunity&&deadline&&eligibility)return 'opportunities';
  const dataset=/(dataset|data catalog|open data|dados abertos|base de dados|microdata|microdados|data portal)/i.test(title+' '+text);
  const datasetNoise=/(?:podcast|youtube|ranking|rankings|top ai companies|newsletter|blog|article|press release)/i.test(title+' '+text+' '+url);
@@ -139,7 +139,7 @@ function review(c){
  if(!hardStatus)missing.push('página primária acessível com conteúdo compatível');
  if(category==='opportunities'){
   const genericPage=genericOpportunityTitle.test(title.trim());
-  const namedCall=raw.match(/\b(?:[A-Z][\w’'&-]*\s+){1,8}(?:Fellowship|Grant|Award|Competition)\b(?:\s+for(?:\s+[A-Z][\w’'&-]*){1,5})?/u)?.[0]||null;
+  const namedCall=raw.match(/\b(?:[A-Z][\w’'&-]*\s+){1,8}(?:Fellowships?|Grants?|Awards?|Competitions?)\b(?:\s+for(?:\s+[A-Z][\w’'&-]*){1,5})?/u)?.[0]||null;
   const callTitle=namedCall|| (genericPage?String(a.pageDescription||c.title||title):title);
   const editorialScope=/\b(?:journalis\w*|jornalismo|jornalistas?|reporting|reporters?|newsrooms?|photojournal\w*|documentary|storymaps|geospatial story|data visuali\w*|visual storytelling)\b/i.test(title+' '+String(a.pageDescription||'')+' '+String(a.evidenceText||''));
   if(!editorialScope)missing.push('escopo jornalístico ausente no título e descrição da chamada');
