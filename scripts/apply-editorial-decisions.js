@@ -24,18 +24,24 @@ for(const d of decisions.decisions){
  const lead=input.leads[id];
  if(!lead)throw Error('Editorial decision references unknown lead: '+d.url);
  if(['approved','published','duplicate','rejected','archived'].includes(d.status)&&(!d.officialUrl||!/^https:\/\//.test(d.officialUrl)))throw Error('Missing official evidence: '+d.url);
- let duplicateApproval=null;
+ let duplicateApproval=null,alreadyApproved=false;
  if(d.status==='approved'){
-  const category=d.category||d.record?.category;
-  const record=d.record||d.publicationRecord;
-  if(!['opportunities','datasets','tools'].includes(category)||!record||typeof record!=='object'||!record.id)throw Error('New approval requires category and complete publication record: '+d.url);
-  const target=category==='opportunities'?record.rules:record.url;
-  if(typeof target!=='string'||!/^https:\/\//.test(target))throw Error('New approval requires an official HTTPS record URL: '+d.url);
-  const existing=nextManifest.approved.find(x=>x.record?.id===record.id||x.review?.officialUrl===d.officialUrl);
-  if(existing){
-   if(existing.category!==category||(existing.review?.officialUrl&&existing.review.officialUrl!==d.officialUrl))throw Error('Conflicting duplicate approved publication record: '+record.id);
-   duplicateApproval=existing;
-  }else nextManifest.approved.push({category,record,review:d.publicationReviewV1||{decision:'approved',reviewedBy:d.reviewedBy,reviewedAt:d.reviewedAt,officialUrl:d.officialUrl,evidence:d.reason}});
+  const baselineApproval=approved.find(x=>x.review?.decision==='approved'&&x.review?.officialUrl===d.officialUrl);
+  if(baselineApproval){
+   if(d.category&&baselineApproval.category!==d.category)throw Error('Conflicting existing approval category: '+d.officialUrl);
+   alreadyApproved=true;
+  }else{
+   const category=d.category||d.record?.category;
+   const record=d.record||d.publicationRecord;
+   if(!['opportunities','datasets','tools'].includes(category)||!record||typeof record!=='object'||!record.id)throw Error('New approval requires category and complete publication record: '+d.url);
+   const target=category==='opportunities'?record.rules:record.url;
+   if(typeof target!=='string'||!/^https:\/\//.test(target))throw Error('New approval requires an official HTTPS record URL: '+d.url);
+   const existing=nextManifest.approved.find(x=>x.record?.id===record.id||x.review?.officialUrl===d.officialUrl);
+   if(existing){
+    if(existing.category!==category||(existing.review?.officialUrl&&existing.review.officialUrl!==d.officialUrl))throw Error('Conflicting duplicate approved publication record: '+record.id);
+    duplicateApproval=existing;
+   }else nextManifest.approved.push({category,record,review:d.publicationReviewV1||{decision:'approved',reviewedBy:d.reviewedBy,reviewedAt:d.reviewedAt,officialUrl:d.officialUrl,evidence:d.reason}});
+  }
  }
  if(d.status==='archived'&&d.archiveKind!=='closed-opportunity')throw Error('Archived opportunity must identify archiveKind: '+d.url);
  if(d.status==='published'&&!urls.has(d.officialUrl))throw Error('Publication not present in public catalog: '+d.url);
