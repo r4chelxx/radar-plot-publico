@@ -38,3 +38,20 @@ test('repeated decisions for the same official record keep one approval and mark
   assert.equal(history.leads[secondId].duplicateOf,'same-grant');
  }finally{fs.rmSync(dir,{recursive:true,force:true})}
 });
+
+test('reapplying a decision already present in the approved manifest is idempotent without a new record payload',()=>{
+ const dir=fs.mkdtempSync(path.join(os.tmpdir(),'radar-existing-approval-'));
+ try{
+  fs.mkdirSync(path.join(dir,'scripts'));fs.mkdirSync(path.join(dir,'data'));fs.mkdirSync(path.join(dir,'intake'));
+  for(const file of ['scripts/apply-editorial-decisions.js','scripts/lead-identity.js'])fs.copyFileSync(file,path.join(dir,file));
+  for(const file of ['data/opportunities.js','data/datasets.js','data/tools.js'])fs.copyFileSync(file,path.join(dir,file));
+  const url='https://official.example.org/grant',id=identity(url).id;
+  const record={id:'known-grant',title:'Grant',org:'Official',summary:'An already approved opportunity.',rules:url};
+  fs.writeFileSync(path.join(dir,'intake/lead-history-next.json'),JSON.stringify({schemaVersion:1,leads:{[id]:{id,url}}}));
+  fs.writeFileSync(path.join(dir,'intake/approved-publications.json'),JSON.stringify({policy:'test',approved:[{category:'opportunities',record,review:{decision:'approved',officialUrl:url}}]}));
+  fs.writeFileSync(path.join(dir,'intake/historical-decisions.json'),JSON.stringify({decisions:[{url,status:'approved',category:'opportunities',officialUrl:url,reviewedBy:'Test reviewer',reviewedAt:'2026-11-27',reason:'Fonte oficial e ficha já foram aprovadas em rodada anterior; decisão reapresentada para sincronização.'}]}));
+  cp.execFileSync(process.execPath,['scripts/apply-editorial-decisions.js'],{cwd:dir,stdio:'pipe'});
+  const manifest=JSON.parse(fs.readFileSync(path.join(dir,'intake/approved-publications-next.json')));
+  assert.equal(manifest.approved.length,1);
+ }finally{fs.rmSync(dir,{recursive:true,force:true})}
+});
