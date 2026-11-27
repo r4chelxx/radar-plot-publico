@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 const fs=require("fs"),vm=require("vm"),path=require("path");
 const {summarizeQuality}=require('./catalog-metadata-policy');
+const {isEditorialPage}=require('./tool-publication-evidence');
 const files=["data/opportunities.js","data/datasets.js","data/sources.js","data/tools.js","data/changelog.js"];
 let errors=[],warnings=[];
 function duplicateKeys(file,src){
@@ -74,9 +75,7 @@ const toolIds=new Set();
 for(const t of tools){
   if(!t.id||toolIds.has(t.id)) errors.push("tool: missing or duplicate id "+t.id); else toolIds.add(t.id);
   if(!t.name||!t.kind||!t.url||!/^https?:\/\//.test(t.url)) errors.push("tool "+t.id+": missing metadata or invalid URL");
-  const editorialToolPath=new RegExp("/(?:news|newsroom|press-releases?|articles?|blog|publication)(?:/|$)","i");
-  const editorialToolName=new RegExp("\\b(?:press release|article|newsroom|news article)\\b","i");
-  if(editorialToolPath.test(String(t.url))||editorialToolName.test(String(t.name))) errors.push("tool "+t.id+": editorial article or press release cannot be catalogued as a tool");
+  if(isEditorialPage(t)) errors.push("tool "+t.id+": editorial article or press release cannot be catalogued as a tool");
 }
 const dseen=new Set();
 for(const [di,d] of datasets.entries()){

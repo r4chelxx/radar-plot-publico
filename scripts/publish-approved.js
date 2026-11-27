@@ -5,7 +5,7 @@ const fs=require('node:fs'),vm=require('node:vm'),crypto=require('node:crypto');
 const {cleanText,cleanTitle,cleanSummary}=require('./editorial-text');
 const {rollingApplicationEvidence}=require('./editorial-page-evidence');
 const {normalizeToolName,eligibilityScope}=require('./build-editorial-record-drafts');
-const {hasDocumentedToolFunction}=require('./tool-publication-evidence');
+const {hasDocumentedToolFunction,isEditorialPage}=require('./tool-publication-evidence');
 const manifest=process.argv[2]||'intake/approved-publications.json';
 const source=JSON.parse(fs.readFileSync(manifest,'utf8'));
 if(!Array.isArray(source.approved))throw Error('Manifest requires approved[]');
@@ -26,12 +26,6 @@ const safeOrganization=x=>{
  return value.length>0&&value.length<=120&&/^[A-ZÀ-Þ]/u.test(value)
   &&!/^(?:that|which|who|this|these|those)\b/i.test(value)
   &&!/\b(?:will assume|must assume|can apply|should apply|is open to|are open to)\b/i.test(value);
-};
-const newsStoryEvidence=value=>{
- const text=String(value||'');
- return /globalContent\s*=\s*\{[\s\S]{0,1400}?["']type["']\s*:\s*["']story["'][\s\S]{0,300}?["']subtype["']\s*:\s*["']news["']/i.test(text)
-  ||/["']@type["']\s*:\s*["'](?:NewsArticle|Article|BlogPosting|Report|ScholarlyArticle)["']/i.test(text)
-  ||/\b(?:news|research) report\s+20\d{2}\b/i.test(text);
 };
 const genericToolListingEvidence=(record,proof)=>{
  const text=[record.name||'',record.url||'',record.desc||'',proof.evidence||''].join(' ');
@@ -103,7 +97,7 @@ for(const entry of source.approved){
  }
  if(category==='tools'){
   if(!record.kind||!record.desc||record.desc.length<70)throw Error('Tool requires kind and substantive description with limitations: '+record.id);
-  if(newsStoryEvidence(proof.evidence)||newsStoryEvidence(record.name+' '+record.url))throw Error('Tool evidence identifies a news story or report, not a software product: '+record.id);
+  if(isEditorialPage(record,proof))throw Error('Tool evidence identifies a news story or report, not a software product: '+record.id);
   if(genericToolListingEvidence(record,proof))throw Error('Tool evidence identifies a directory or index page, not a software product: '+record.id);
   const jlabPublicationPage=(()=>{try{const u=new URL(record.url),host=(u.hostname.toLowerCase().startsWith('www.')?u.hostname.slice(4):u.hostname.toLowerCase()),path=u.pathname.toLowerCase();return (host==='j-lab.org'&&path.startsWith('/publications/'))||(host==='sej.org'&&(path==='/library/reporting-tools/overview'||path==='/library/reporting-tools/overview/'))}catch{return false}})();
   const socialPlatformPage=/^https?:\/\/(?:www\.)?(?:instagram\.com|facebook\.com|linkedin\.com|tiktok\.com|x\.com|twitter\.com|youtube\.com|youtu\.be|threads\.net|reddit\.com|pinterest\.com|t\.me)(?:\/|$)/i.test(String(record.url));
