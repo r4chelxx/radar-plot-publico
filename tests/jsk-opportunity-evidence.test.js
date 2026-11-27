@@ -9,10 +9,9 @@ test('an official application FAQ completes a fellowship record from page eviden
  const url='https://jsk.stanford.edu/become-a-fellow/faq';
  const at='2026-11-27T19:00:00.000Z';
  const evidence=[
-  'Applications for the 2027-28 fellowships are now open.',
-  'The deadline is 1 p.m., Pacific time, Dec. 2, 2099.',
   'Who may apply? U.S. and international journalists, people in operations or strategy roles in news organizations, and people working with journalism support organizations.',
   'You need at least five years of professional experience. A college degree or experience inside a traditional newsroom is not required.',
+  'When is the application period? Applications for the 2027-28 fellowships are now open. The deadline is 1 p.m., Pacific time, Dec. 2, 2099.',
   'The John S. Knight Journalism Fellowships provide a stipend and nine months at Stanford University.'
  ].join(' ');
  const candidate={
@@ -33,7 +32,7 @@ test('an official application FAQ completes a fellowship record from page eviden
  const draft=drafts.drafts[0];
  assert.equal(draft.recordDraft.title,'John S. Knight Journalism Fellowships');
  assert.equal(draft.recordDraft.org,'John S. Knight Journalism Fellowships');
- assert.match(draft.recordDraft.scope,/U\.S\. and international journalists/);
+ assert.match(draft.recordDraft.scope,/US and international journalists/);
  assert.deepEqual(draft.missingFields,[]);
  const published=buildAutomaticPublications(drafts,{approved:[]},new Date('2026-11-27T19:01:00.000Z'));
  assert.equal(published.summary.automaticallyApproved,1);
