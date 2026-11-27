@@ -6,6 +6,30 @@ window.RADAR_PARTS.changelog=[
   "title": "Publicação editorial verificada — 2026-11-27",
   "items": [
     {
+      "id": "56a89bfed46fc000c940f78d52bd0328c3230a7bee95ecd109e75160defb5f9c",
+      "title": "Journalism, Media & Communication Training - Poynter"
+    }
+  ],
+  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Journalism, Media & Communication Training - Poynter."
+},
+{
+  "date": "2026-11-27",
+  "type": "ferramentas",
+  "title": "Publicação editorial verificada — 2026-11-27",
+  "items": [
+    {
+      "id": "c78ee8457c1f44c6b9d119ab136af1f4e1fb9e07f9067834d8370af8ff2c3b9e",
+      "title": "FaceSeek"
+    }
+  ],
+  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: FaceSeek."
+}, 
+{
+  "date": "2026-11-27",
+  "type": "nova-oportunidade",
+  "title": "Publicação editorial verificada — 2026-11-27",
+  "items": [
+    {
       "id": "auto-83e4332c60dac292",
       "title": "John S. Knight Journalism Fellowships"
     },

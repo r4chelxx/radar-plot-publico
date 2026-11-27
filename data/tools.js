@@ -1,6 +1,13 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.tools=[
 {
+  "id": "c78ee8457c1f44c6b9d119ab136af1f4e1fb9e07f9067834d8370af8ff2c3b9e",
+  "name": "FaceSeek",
+  "kind": "Pesquisa reversa de imagens",
+  "url": "https://faceseek.cc/",
+  "desc": "Find a face from one photo. FaceSeek is an AI reverse image search that scans millions of sources — social media, news, mugshots, and more — in seconds. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
+}, 
+{
   "id": "auto-e277ea3c0af04e5d",
   "name": "Reverse Image Search",
   "kind": "Pesquisa reversa de imagens",
