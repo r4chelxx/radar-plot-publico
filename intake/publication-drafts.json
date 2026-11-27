@@ -1,85 +1,98 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-27T21:25:08.395Z",
-  "sourceQueueUpdatedAt": "2026-11-27T21:24:46.768Z",
+  "generatedAt": "2026-11-27T23:44:16.872Z",
+  "sourceQueueUpdatedAt": "2026-11-27T23:44:07.796Z",
   "policy": "Evidence-complete drafts only; the separate deterministic evidence gate must independently approve before publication.",
   "summary": {
     "eligibleForDrafting": 5,
     "drafts": 5,
     "byCategory": {
-      "opportunities": 0,
+      "opportunities": 2,
       "datasets": 2,
-      "tools": 3
+      "tools": 1
     },
     "publicationReady": 0
   },
   "drafts": [
     {
       "schemaVersion": 1,
-      "id": "1d3a4f475ff98df12cbe47c2a314ee3460ad77f8b3a5744ceb3cc4c8f8510584",
-      "category": "tools",
+      "id": "56a89bfed46fc000c940f78d52bd0328c3230a7bee95ecd109e75160defb5f9c",
+      "category": "opportunities",
       "status": "draft_only",
       "publicationReady": false,
       "source": {
-        "url": "https://retrace.archivarix.net/",
+        "url": "https://www.poynter.org/shop/",
         "discoveryProviders": [
           "Gmail Radar PLOT newsletter"
         ],
-        "pageTitle": "Archivarix Retrace",
-        "checkedAt": "2026-11-27T19:59:03.724Z",
+        "pageTitle": "Journalism, Media & Communication Training - Poynter",
+        "checkedAt": "2026-11-27T23:44:07.796Z",
         "httpStatus": 200,
-        "contentType": "text/html; charset=utf-8"
+        "contentType": "text/html; charset=UTF-8"
       },
       "evidence": {
         "checks": {
-          "productSignal": true,
-          "function": true,
-          "access": true,
-          "license": false,
-          "licenseStatus": "not stated in captured source"
+          "callSignal": true,
+          "deadline": "2027-01-08",
+          "eligibility": true,
+          "rolling": false
         },
-        "sourceExcerpt": "Reverse image search: find where a photo came from | Retrace Archivarix Retrace Reverse image search: find where a picture came from, through open sources. Take a photo Choose from gallery Drag a file here, click to choose one , or paste with Ctrl+V an image, a GIF, a short video Check Earlier copies and the first date Where else the picture appears and when it first showed up. Place on a map Named only when the picture gives enough, with its precision. Sources you can open Every finding links to the page it comes from. Find the original Fake or recycled? Where was it taken Who uses my photo When first published Verification checklist",
+        "sourceExcerpt": "Journalism, Media & Communication Training - Poynter Journalism, Media & Communication Training - Poynter DONATE What do you want to search? Submit Sign In | Membership News Training Ethics Fact-Checking Media Literacy AI Events Future of Public Media Newmark Ethics Center IFCN MediaWise PolitiFact Donate About Us Press Freedom Watch The Poynter 50 Podcasts Artificial Intelligence Business & Work Reporting & Editing Fact-Checking Ethics & Trust Local News Journalism, Media & Communication Training Poynter Membership Categories Consulting & Coaching For ACES Members For Local News Funders All Categories Broadcast & Visual Journalism Business & Work Ethics Fact-Checking & Media Literacy Leadership Reporting & Editing Writing Poynter ACES Introductory Certificate in Editing Poynter ACES Intermediate Certificate in Editing Poynter ACES Advanced Certificate in Editing Workshops and Coaching Tools for Funders Ethics Ethics Training Ethics Articles AI Ethics Public Editor Project Get Ethics Advice Fact-Checking Articles IFCN IFCN Grants International Fact-Checking Day Teen Creator Network PolitiFact MediaWise Media Literacy Resources AI Literacy Ambassadors Teen Creator Network Research & News International en Español MediaWise Training All Events The 2026 Poynter Journalism Prizes Featured Sale New Certificate Transform your editing from transactional to transformational with program lead Tom Huang and industry veterans Maria Carrillo, Tony Elkins and Kathleen McGrory. Learn to line edit under pressure, coach inexperienced… Online Edit to Elevate: Essentials for New Editors (January 2027) Transform your editing from transactional to transformational with program lead Tom Huang and industry veterans Maria Carrillo, Tony Elkins and Kathleen McGrory. Learn to line edit under pressure, coach inexperienced… January 13, 2027 – February 10, 2027 Tom Huang Maria Carrillo $ 650.00 Original price was: $650.00. $ 499.00 Current price is: $499.00. Sale Certificate Learn how to create vertical video for journalism and social media. This beginner-friendly, on-demand course teaches journalists to script, film, edit and publish videos for TikTok, Instagram Reels, YouTube Shorts… Online Vertical Video Basics for Journalists Learn how to create vertical video for journalism and social media. This beginner-friendly, on-demand course teaches journalists to script, film, edit and publish videos for TikTok, Instagram Reels, YouTube Shorts… Start Anytime Josie Hollingsworth $ 99.00 Original price was: $99.00. $ 75.00 Current price is: $75.00. Sale Apply by Jan 8, 2027 Apply by Jan. 8 for a six-week virtual leadership training program for professionals who manage critical initiatives, processes and platforms with no direct reports. This interactive course teaches influence strategies,… Online Lead with Influence (February 2027) Apply by Jan. 8 for a six-week virtual leadership training program for professionals who manage critical initiatives, processes and platforms with no direct reports. This interactive course teaches influence strategies,… February 2, 2027 – March 9, 2027 Kerwin Speight Kristen Hare $ 599.00 Original price was: $599.00. $ 499.00 Current price is: $499.00. Apply by Dec 7, 2026 Apply by Dec. 7, 2026, for a five-day, in-person program designed for new managers ready to build the practical skills and confidence to lead people and teams effectively. Through hands-on… St. Petersburg, Fla. Essential Skills for New Managers (March 2027) Apply by Dec. 7, 2026, for a five-day, in-person program designed for new managers ready to build the practical skills and confidence to lead people and teams effectively. Through hands-on… March 8, 2027 – March 12, 2027 Tony Elkins $ 1,550.00 Sale Certificate Distinguish yourself with the industry’s premiere editing certificate, where you’ll learn powerful techniques to help you and your organization achieve greater communications clarity; how to embrace accuracy and verification; ways… Poynter ACES Introductory Certificate in Editing Distinguish yourself with the industry’s premiere editing certificate, where you’ll learn powerful techniques to help you and your organization achieve greater communications clarity; how to embrace accuracy and verification; ways… Start Anytime $ 300.00 Original price was: $300.00. $ 150.00 Current price is: $150.00. Learn how to investigate claims, evaluate sources and verify what you see online using techniques from Poynter and the International Fact-Checking Network. This self-directed, three-hour course gives you a practical… Online Fact-Checking for Everyone Learn how to investigate claims, evaluate sources and verify what you see online using techniques from Poynter and the International Fact-Checking Network. This self-directed, three-hour course gives you a practical… Start Anytime Angie Drobnic Holan $ 49.00 Certificate Master AI in media — learn tools, ethics and strategy, and earn a Poynter certificate online. You’ll gain the skills to spot AI risks like bias, misinformation and hallucinations before… Online AI for Journalists and Content Creators: From Understanding to Application Master AI in media — learn tools, ethics and strategy, and earn a Poynter certificate online. You’ll gain the skills to spot AI risks like bias, misinformation and hallucinations before… Start Anytime Alex Mahadevan $ 95.00 Free Poynter's Mental Health Reporting Project equips journalists with specialized tools to cover sensitive topics ethically across all beats. Through five expert-led sessions, journalists learn accountable approaches to trauma, suicide, addiction, and mental… Online The Mental Health Reporting Project Poynter's Mental Health Reporting Project equips journalists with specialized tools to cover sensitive topics ethically across all beats. Through five expert-led sessions, journalists learn accountable approaches to trauma, suicide, addiction, and mental… Start Anytime Kerwin Speight $ 0.00 More from Poynter Hear directly from the winners of the 2026 Global Fact-Checking Awards as they unpack the investigations behind their award-winning work. How the 2026 Global Fact-Checking Award winners did it Hear directly from the winners of the 2026 Global Fact-Checking Awards as they unpack the investigations behind their award-winning work. September 30, 2026 Enock Nyariki $ 30.00 Free Learn how to report on the hidden impact of incarceration on children, parents, guardians, and communities. Attend three free webinars and become eligible to apply for reporting grants worth up… Online Reporting on Families Impacted by Incarceration (2026) Learn how to report on the hidden impact of incarceration on children, parents, guardians, and communities. Attend three free webinars and become eligible to apply for reporting grants worth up… August 4, 2026 – October 6, 2026 Fernanda Camarena $ 0.00 Free Understand how local news can enhance and expand your strategy as a funder. This course will give you the context and tools you need to make effective investments in your… Online Ethically Funding Local News: A Practical Course Understand how local news can enhance and expand your strategy as a funder. This course will give you the context and tools you need to make effective investments in your… Start Anytime Megan Griffith-Greene $ 0.00 Free Strengthen your 2026 midterm coverage with practical tools for reporting on candidates, misinformation, voting and the issues shaping local communities. Online Beat Academy: Midterm Prep Webinar (July 2026) Strengthen your 2026 midterm coverage with practical tools for reporting on candidates, misinformation, voting and the issues shaping local communities. July 15, 2026 Jon Greenberg $ 0.00 Free Explore new Pew-Knight Initiative research on how Americans view press freedom, the challenges facing a free press and what can be done to protect it. Online Beat Academy: Freedom of the Press in a Divided America Explore new Pew-Knight Initiative research on how Americans view press freedom, the challenges facing a free press and what can be done to protect it. September 22, 2026 Jon Greenberg $ 0.00 Free Prepare your reporting for the 2030 Census with expert guidance on policy changes, methodology and local story opportunities. Online Beat Academy: Reporting the 2030 Census Prepare your reporting for the 2030 Census with expert guidance on policy changes, methodology and local story opportunities. August 26, 2026 Jon Greenberg $ 0.00 Free Learn how to cover ICE enforcement and its impact on children and families with expert guidance and practical reporting strategies in this free Beat Academy webinar. Online Beat Academy: ICE Impact on Children and Families (2026) Learn how to cover ICE enforcement and its impact on children and families with expert guidance and practical reporting strategies in this free Beat Academy webinar. April 28, 2026 Jon Greenberg Zain Lakhani $ 0.00 Free Get ahead of the next flood story with Poynter’s Beat Academy. In this free, 75-minute webinar, Poynter faculty and journalists experienced in data-driven flood coverage will show local, state and… Online Beat Academy: Covering the Rising Risk of Flooding Get ahead of the next flood story with Poynter’s Beat Academy. In this free, 75-minute webinar, Poynter faculty and journalists experienced in data-driven flood coverage will show local, state and… October 8, 2026 Jon Greenberg $ 0.00 Apply by Feb 8, 2027 Apply by Feb. 8, 2027, for a five-day, in-person leadership academy for experienced women and nonbinary managers ready to grow their influence and lead more strategically. Through hands-on training, coaching… St. Petersburg, Fla. Leadership Academy for Women (2027) Apply by Feb. 8, 2027, for a five-day, in-person leadership academy for experienced women and nonbinary managers ready to grow their influence and lead more strategically. Through hands-on training, coaching… May 3, 2027 – May 7, 2027 Fernanda Camarena $ 1,350.00 Apply by Jan 18, 2027 Apply by Jan. 18, 2027, for a five-day, in-person leadership academy for experienced and senior managers ready to strengthen their skills and lead more strategically. Through hands-on training, coaching and… St. Petersburg, Fla. Poynter Leadership Academy (2027) Apply by Jan. 18, 2027, for a five-day, in-person leadership academy for experienced and senior managers ready to strengthen their skills and lead more strategically. Through hands-on training, coaching and… April 12, 2027 – April 16, 2027 Tony Elkins $ 1,350.00 Apply by Aug 16, 2027 Apply by Aug. 16, 2027, for a five-day, in-person program designed for new managers ready to build the practical skills and confidence to lead people and teams effectively. Through hands-on… St. Petersburg, Fla. Essential Skills for New Managers (November 2027) Apply by Aug. 16, 2027, for a five-day, in-person program designed for new managers ready to build the practical skills and confidence to lead people and teams effectively. Through hands-on… November 8, 2027 – November 12, 2027 Tony Elkins $ 1,550.00 Sale Apply by Jul 9, 2027 Apply by July 9 for a six-week virtual leadership training program for professionals who manage critical initiatives, processes and platforms with no direct reports. This interactive course teaches influence strategies,… Online Lead with Influence (September 2027) Apply by July 9 for a six-week virtual leadership training program for professionals who manage critical initiatives, processes and platforms with no direct reports. This interactive course teaches influence strategies,… September 1, 2027 – October 6, 2027 Kerwin Speight Kristen Hare $ 599.00 Original price was: $599.00. $ 499.00 Current price is: $499.00. Free Learn how to report on the effects of immigration on mental health with greater context, accuracy and care. This free webinar explores trauma-informed interviewing, ethical storytelling and practical reporting strategies. Online Covering Immigration with Care: A Mental Health Reporting Project Webinar Learn how to report on the effects of immigration on mental health with greater context, accuracy and care. This free webinar explores trauma-informed interviewing, ethical storytelling and practical reporting strategies. October 21, 2026 Kerwin Speight $ 0.00 Free Master trauma-informed reporting to cover mental health with accuracy, empathy and impact. This is the fifth webinar in our series, which has consistently exceeded expectations in post-event surveys, and will… Online Trauma-informed Reporting: A Mental Health Reporting Project Webinar Master trauma-informed reporting to cover mental health with accuracy, empathy and impact. This is the fifth webinar in our series, which has consistently exceeded expectations in post-event surveys, and will… June 9, 2026 Kerwin Speight Lisa Armstrong $ 0.00 Free This free one-hour webinar broadcast on Sept. 9, teaches journalists of all beats how to cover mental health equity. Participants learn to find diverse sources, understand systemic barriers and get replay… Online Covering Mental Health Equity: A Mental Health Reporting Project Webinar This free one-hour webinar broadcast on Sept. 9, teaches journalists of all beats how to cover mental health equity. Participants learn to find diverse sources, understand systemic barriers and get replay… September 9, 2025 Kerwin Speight $ 0.00 Free The Mental Health Reporting Project: Reporting on Vulnerable Sources is a comprehensive webinar that equips journalists, editors, producers, and students with the tools to identify and approach vulnerable sources, master… Online Covering Vulnerable Sources: A Mental Health Reporting Project Webinar The Mental Health Reporting Project: Reporting on Vulnerable Sources is a comprehensive webinar that equips journalists, editors, producers, and students with the tools to identify and approach vulnerable sources, master… May 20, 2025 Kerwin Speight $ 0.00 Free How can journalists effectively report on social isolation and loneliness? This free, one-hour webinar on Feb. 10 at 1 p.m. Eastern explores the drivers of America’s loneliness epidemic and how… Online Covering the Loneliness Epidemic: A Mental Health Reporting Project Webinar How can journalists effectively report on social isolation and loneliness? This free, one-hour webinar on Feb. 10 at 1 p.m. Eastern explores the drivers of America’s loneliness epidemic and how… February 10, 2026 Kerwin Speight $ 0.00 Sale Now newly updated for 2026 to include all the original content plus a brand-new primer with the most up-to-date policy changes, this in-depth online course is designed to help journalists,… Online Understanding U.S. Immigration from the Border to the Heartland Now newly updated for 2026 to include all the original content plus a brand-new primer with the most up-to-date policy changes, this in-depth online course is designed to help journalists,… Start Anytime Zita Arocha Jon Greenberg $ 50.00 Original price was: $50.00. $ 0.00 Current price is: $0.00. Free Build a stronger child welfare reporting beat with free expert-led training, practical tools and newsroom-tested strategies. Online Covering Child Welfare: A Journalist’s Guide to Impactful Reporting (September 2026) Build a stronger child welfare reporting beat with free expert-led training, practical tools and newsroom-tested strategies. September 3, 2026 – November 12, 2026 Fernanda Camarena $ 0.00 Free Go beyond police reports and breaking-news narratives. Learn to cover so-called “teen takeovers” with context, accuracy and care in this free webinar. Online Covering “Teen Takeovers” Go beyond police reports and breaking-news narratives. Learn to cover so-called “teen takeovers” with context, accuracy and care in this free webinar. August 18, 2026 Fernanda Camarena $ 0.00 Free About half of Americans say news isn’t relevant to their lives, according to the Pew-Knight Initiative. In this recorded Beat Academy webinar, a leading expert from the Pew Research Center… Online Beat Academy: Facing a Tough News Audience About half of Americans say news isn’t relevant to their lives, according to the Pew-Knight Initiative. In this recorded Beat Academy webinar, a leading expert from the Pew Research Center… March 12, 2026 Jon Greenberg Kirsten Eddy $ 0.00 Sale Certificate Building on the skills in the introductory and intermediate certificates, the Poynter ACES Advanced Certificate in Editing is a seven-part certification program that engages participants in the most advanced facets… Online Poynter ACES Advanced Certificate in Editing Building on the skills in the introductory and intermediate certificates, the Poynter ACES Advanced Certificate in Editing is a seven-part certification program that engages participants in the most advanced facets… Start Anytime $ 750.00 Original price was: $750.00. $ 650.00 Current price is: $650.00. Sale Certificate The ACES Intermediate Certificate in Editing is a rigorous seven-part certificate program. Newly revised and updated for 2023, this program draws together knowledge from some of the nation’s leading editors,… Online Poynter ACES Intermediate Certificate in Editing The ACES Intermediate Certificate in Editing is a rigorous seven-part certificate program. Newly revised and updated for 2023, this program draws together knowledge from some of the nation’s leading editors,… Start Anytime Alan Henry $ 350.00 Original price was: $350.00. $ 250.00 Current price is: $250.00. Sale Certificate Distinguish yourself with the industry’s premiere editing certificate from Poynter and ACES: The Society for Editing, revamped in 2023. By enrolling in our editing certification program, you’ll learn powerful techniques… Online Poynter ACES Introductory Certificate in Editing Distinguish yourself with the industry’s premiere editing certificate from Poynter and ACES: The Society for Editing, revamped in 2023. By enrolling in our editing certification program, you’ll learn powerful techniques… Start Anytime Merrill Perlman $ 300.00 Original price was: $300.00. $ 150.00 Current price is: $150.00. All Categories Broadcast & Visual Journalism Business & Work Ethics Fact-Checking & Media Literacy For Educators Leadership Reporting & Editing Writing Consulting & Coaching Training 5 or More People? Check out our Custom Training. GET CONSULTING & COACHING Thank you to the John S. and James L. Knight Foundation for their support of Poynter’s online learning platform since its founding in 2005. The nonprofit Poynter Institute is a leading instructor of journalists and journalism around the world. We appreciate the Knight Foundation’s commitment to our mission and their investment in the technology that powers Poynter’s online journalism education platform. If you’d like to support this work, visit poynter.org/support .",
         "structuredData": [
           {
-            "@type": "WebApplication",
-            "name": "Archivarix Retrace",
-            "description": "Reverse image search that shows where a photo came from: earlier copies, the date it first appeared and the place on a map, each with a source link.",
-            "url": "https://retrace.archivarix.net/",
-            "publisher": {
-              "@type": "Organization",
-              "name": "Archivarix",
-              "url": "https://archivarix.net/"
-            },
-            "applicationCategory": "MultimediaApplication",
-            "operatingSystem": "Any (web browser)",
-            "offers": {
-              "@type": "Offer"
-            }
+            "@type": "WebPage",
+            "name": "Journalism, Media & Communication Training - Poynter",
+            "description": "Want to sharpen your reporting skills, become a better newsroom leader or keep up with the latest changes in journalism? Poynter offers online journalism courses, live workshops and professional development programs to help you grow at every career stage.",
+            "url": "https://www.poynter.org/shop/",
+            "datePublished": "2018-08-21T19:51:42+00:00",
+            "dateModified": "2026-11-03T21:18:40+00:00"
+          },
+          {
+            "@type": "ImageObject",
+            "url": "https://www.poynter.org/wp-content/uploads/2025/06/edit-to-elevate.jpg",
+            "contentUrl": "https://www.poynter.org/wp-content/uploads/2025/06/edit-to-elevate.jpg"
+          },
+          {
+            "@type": "BreadcrumbList"
           },
           {
             "@type": "WebSite",
-            "name": "Archivarix Retrace",
-            "url": "https://retrace.archivarix.net/"
+            "name": "Poynter",
+            "description": "A global leader in journalism. Strengthening democracy.",
+            "url": "https://www.poynter.org/"
+          },
+          {
+            "@type": "Organization",
+            "name": "The Poynter Institute",
+            "url": "https://www.poynter.org/"
           }
         ],
         "tabularData": [],
         "resourceLinks": [
           {
-            "url": "https://retrace.archivarix.net/api/jobs/$%7Besc(id)%7D",
-            "label": "${t('report_json')}"
-          },
-          {
-            "url": "https://retrace.archivarix.net/api/jobs/$%7Besc(id)%7D/trace",
-            "label": "${t('trace_link')}"
+            "url": "https://www.poynter.org/shop/reporting-editing/midterm-prep-webinar-july-2026/",
+            "label": "Free Strengthen your 2026 midterm coverage with practical tools for reporting on candidates, misinformation, voting and the issues shaping local communities. Online Beat Academy: Midterm Prep Webinar "
           }
         ]
       },
       "recordDraft": {
-        "id": "1d3a4f475ff98df12cbe47c2a314ee3460ad77f8b3a5744ceb3cc4c8f8510584",
-        "name": "Archivarix Retrace",
-        "kind": "Pesquisa reversa de imagens",
-        "url": "https://retrace.archivarix.net/",
-        "desc": "Reverse image search that shows where a photo came from: earlier copies, the date it first appeared and the place on a map, each with a source link. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
+        "id": "56a89bfed46fc000c940f78d52bd0328c3230a7bee95ecd109e75160defb5f9c",
+        "title": "Journalism, Media & Communication Training - Poynter",
+        "org": "The Poynter Institute",
+        "summary": "Want to sharpen your reporting skills, become a better newsroom leader or keep up with the latest changes in journalism? Poynter offers online journalism courses, live workshops and professional development programs to help you grow at every career stage.",
+        "type": "Training",
+        "themes": [
+          "Gênero",
+          "Jornalismo"
+        ],
+        "scope": "Attend three free webinars and become eligible to apply for reporting grants worth up… Online Reporting on Families Impacted by Incarceration (2026) Learn how to report on the hidden impact of incarceration on children, parents, guardians, and communities.",
+        "fit": 6,
+        "deadline": "2027-01-08",
+        "deadlineStatus": "Prazo confirmado na fonte consultada; conferir horário e fuso no edital.",
+        "eligibility": "parcial",
+        "status": "aberta",
+        "rules": "https://www.poynter.org/shop/",
+        "apply": "https://www.poynter.org/shop/"
       },
       "missingFields": [],
       "reviewDecision": "evidence_complete_for_record_draft",
@@ -97,7 +110,7 @@
           "Gmail Radar PLOT newsletter"
         ],
         "pageTitle": "FaceSeek",
-        "checkedAt": "2026-11-18T07:23:14.377Z",
+        "checkedAt": "2026-11-27T23:44:07.796Z",
         "httpStatus": 200,
         "contentType": "text/html; charset=utf-8"
       },
@@ -300,41 +313,73 @@
     },
     {
       "schemaVersion": 1,
-      "id": "a7e0123d1d0c4df3cbfd3f2b1a07267377729157203a35ca49017e038a1b9f6e",
-      "category": "tools",
+      "id": "73c57f2a3f0535f5c2d9a347aaf84daf5df0b3f55473b95a2f3565fa86b339d6",
+      "category": "opportunities",
       "status": "draft_only",
       "publicationReady": false,
       "source": {
-        "url": "https://ai.planet.com/signin",
+        "url": "https://www.jaws.org/news/nzlg6rdsgxbklipxuszwry8pgcjqxi",
         "discoveryProviders": [
-          "Gmail Radar PLOT newsletter"
+          "Opportunity Desk"
         ],
-        "pageTitle": "Planet&#x27;s agentic AI — Satellite Imagery Explorer",
-        "checkedAt": "2026-11-27T19:59:03.724Z",
+        "pageTitle": "Call for Applications: JAWS 2027 Health Journalism Fellowship — JAWS",
+        "checkedAt": "2026-11-27T23:44:07.796Z",
         "httpStatus": 200,
-        "contentType": "text/html; charset=utf-8"
+        "contentType": "text/html;charset=utf-8"
       },
       "evidence": {
         "checks": {
-          "productSignal": true,
-          "function": true,
-          "access": true,
-          "license": false,
-          "licenseStatus": "not stated in captured source"
+          "callSignal": true,
+          "deadline": "2026-12-07",
+          "eligibility": true,
+          "rolling": false
         },
-        "sourceExcerpt": "Planet's agentic AI — Satellite Imagery Explorer",
-        "structuredData": [],
+        "sourceExcerpt": "Call for Applications: JAWS 2027 Health Journalism Fellowship — JAWS 0 Call for Applications: JAWS 2027 Health Journalism Fellowship Oct 20 Written by Journalism & Women Symposium Application deadline: Monday, December 7, 2026 $4,000 reporting stipend Early career U.S. journalists are encouraged to apply for the 2027 Journalism & Women Symposium (JAWS) Health Journalism Fellowship . This unique opportunity includes a $4,000 stipend, workshops, mentoring and more! The fellowship is open* to women and individuals who identify as women with 2 to 7 years of professional journalism experience. This fellowship, made possible with support from The Commonwealth Fund, is in keeping with JAWS’ mission to advance the professional empowerment and personal growth of women in journalism and advocate for more inclusive coverage of the diverse experiences and cultures that comprise our society. Learn from veteran health journalists/mentors and outside experts while you report and produce an in-depth project on a key component of healthcare, including but not limited to: Health equity/disparities Cost and quality of care Healthcare coverage and access Women’s health/women’s reproductive health Delivery system reform Medicare/Medicaid The fellows will present their work at JAWS CAMP 2027, with complimentary travel expenses and registration (a $3,500 value) and receive a one-year complimentary membership to JAWS (a $75 value). Both staff reporters and independent journalists in all mediums are encouraged to apply. Questions? Contact Liz Seegert, project director, liz@jaws.com * Open to applicants within the U.S. only APPLY NOW Journalism & Women Symposium Previous Previous JAWS CAMP 2026 Photo & Video Recap Next Next JAWS Announces 2027 Board of Directors Election Winners",
+        "structuredData": [
+          {
+            "@type": "WebSite",
+            "name": "JAWS",
+            "url": "https://www.jaws.org"
+          },
+          {
+            "@type": "Article",
+            "name": "Call for Applications: JAWS 2027 Health Journalism Fellowship — JAWS",
+            "url": "https://www.jaws.org/news/nzlg6rdsgxbklipxuszwry8pgcjqxi",
+            "publisher": {
+              "@type": "Organization",
+              "name": "JAWS"
+            },
+            "author": "Journalism & Women Symposium",
+            "datePublished": "2026-10-20T16:17:46-0400",
+            "dateModified": "2026-10-27T17:45:17-0400"
+          }
+        ],
         "tabularData": [],
         "resourceLinks": []
       },
       "recordDraft": {
-        "id": "a7e0123d1d0c4df3cbfd3f2b1a07267377729157203a35ca49017e038a1b9f6e",
-        "name": "Planet&#x27;s agentic AI",
-        "kind": "Exploração e análise de imagens de satélite",
-        "url": "https://ai.planet.com/signin",
-        "desc": "Planet&#x27;s agentic AI — explore, search, and analyze high-resolution satellite imagery on an interactive map. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
+        "id": "73c57f2a3f0535f5c2d9a347aaf84daf5df0b3f55473b95a2f3565fa86b339d6",
+        "title": "Call for Applications: JAWS 2027 Health Journalism Fellowship — JAWS",
+        "org": null,
+        "summary": "Application deadline: Monday, December 7, 2026&nbsp; $4,000 reporting stipend Early career U.S. journalists are encouraged to apply for the 2027 Journalism & Women Symposium (JAWS) Health Journalism Fellowship . This unique opportunity includes a $4,000 stipend, workshops, mentori",
+        "type": "Fellowship",
+        "themes": [
+          "Gênero",
+          "Fotografia",
+          "Jornalismo"
+        ],
+        "scope": "Contact Liz Seegert, project director, liz@jaws.com * Open to applicants within the US only APPLY NOW Journalism & Women Symposium Previous Previous JAWS CAMP 2026 Photo & Video Recap Next Next JAWS Announces 2027 Board of Directors Election Winners Application deadline: Monday, December 7, 2026&nbsp; $4,000 reporting stipend Early career US journalists are encouraged to apply for the 2027 Journalism & Women Symposium (JAWS) Health Journalism Fellowship .",
+        "fit": 5,
+        "deadline": "2026-12-07",
+        "deadlineStatus": "Prazo confirmado na fonte consultada; conferir horário e fuso no edital.",
+        "eligibility": "restrita",
+        "status": "aberta",
+        "rules": "https://www.jaws.org/news/nzlg6rdsgxbklipxuszwry8pgcjqxi",
+        "apply": "https://www.jaws.org/news/nzlg6rdsgxbklipxuszwry8pgcjqxi"
       },
-      "missingFields": [],
+      "missingFields": [
+        "org"
+      ],
       "reviewDecision": "evidence_complete_for_record_draft",
       "note": "Ficha preliminar baseada no conteúdo capturado da página. Campos sem evidência permanecem ausentes; a aprovação depende do gate independente de publicação."
     }
