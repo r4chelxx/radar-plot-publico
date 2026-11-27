@@ -147,3 +147,24 @@ test('auto-audit rejects client-rendered script noise and keeps official card pr
   assert.match(JSON.stringify(out.blockers),/ficha pública estruturada ausente/);
  }finally{fs.rmSync(d,{recursive:true,force:true})}
 });
+
+test('followed primary page keeps discovery URL as history identity',()=>{
+ const d=fs.mkdtempSync(path.join(os.tmpdir(),'radar-auto-audit-followed-'));
+ try{
+  fs.mkdirSync(path.join(d,'intake'));fs.mkdirSync(path.join(d,'scripts'));
+  for(const name of ['auto-audit-candidates','editorial-text'])fs.copyFileSync('scripts/'+name+'.js',path.join(d,'scripts',name+'.js'));
+  const discoveryUrl='https://investigativejournalismforeu.net/application/';
+  const officialUrl='https://investigativejournalismforeu.net/faq/';
+  const future=new Date(Date.now()+86400000*30).toISOString().slice(0,10);
+  const evidence='Applications are open to journalists. The official FAQ states the deadline and eligibility criteria for the fellowship.';
+  const proof=publicationReviewV1('opportunities',officialUrl,evidence);
+  const lead={historicalId:require('../scripts/lead-identity').identity(discoveryUrl).id,url:officialUrl,discoveryUrl,finalUrl:officialUrl,pageStatus:'html-fetched',category:'opportunities',checkedAt:proof.checkedAt,contentType:proof.contentType,httpStatus:200,evidenceText:evidence,pageTitle:'International journalist fellowship',pageDescription:'An international journalism fellowship with an active application call.',structuredEvidence:{title:'International Journalist Fellowship',description:'An international journalism fellowship accepting applications from journalists. '+'A'.repeat(100),organization:'Official Fellowship',deadline:future,eligibility:'Journalists worldwide may apply',eligibilityExplicit:true,status:'aberta',sourceType:'Fellowship'}};
+  fs.writeFileSync(path.join(d,'intake/lead-evidence.json'),JSON.stringify({results:[lead]}));
+  fs.writeFileSync(path.join(d,'intake/editorial-review.json'),JSON.stringify({candidates:[]}));
+  cp.execFileSync(process.execPath,['scripts/auto-audit-candidates.js'],{cwd:d});
+  const out=JSON.parse(fs.readFileSync(path.join(d,'intake/auto-editorial-decisions.json')));
+  assert.equal(out.decisions.length,1);
+  assert.equal(out.decisions[0].url,discoveryUrl);
+  assert.equal(out.decisions[0].officialUrl,officialUrl);
+ }finally{fs.rmSync(d,{recursive:true,force:true})}
+});
