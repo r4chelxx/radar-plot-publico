@@ -163,7 +163,7 @@ test('followed primary page keeps discovery URL as history identity',()=>{
   fs.writeFileSync(path.join(d,'intake/editorial-review.json'),JSON.stringify({candidates:[]}));
   cp.execFileSync(process.execPath,['scripts/auto-audit-candidates.js'],{cwd:d});
   const out=JSON.parse(fs.readFileSync(path.join(d,'intake/auto-editorial-decisions.json')));
-  assert.equal(out.decisions.length,1);
+  assert.equal(out.decisions.length,1,JSON.stringify(out.blockers));
   assert.equal(out.decisions[0].url,discoveryUrl);
   assert.equal(out.decisions[0].officialUrl,officialUrl);
  }finally{fs.rmSync(d,{recursive:true,force:true})}
