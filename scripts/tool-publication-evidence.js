@@ -11,7 +11,7 @@ function isEditorialPage(record, proof = {}) {
   } catch {}
 
   const evidence = String(proof?.evidence || '');
-  if (articleStructuredData.test(evidence)) return true;
+  if (articleStructuredData.test(evidence) || editorialStoryData.test(evidence)) return true;
 
   const newsroomPressReleaseNav = /newsroom\s*(?:\||›|»|-)\s*press releases?|press releases?\s*(?:\||›|»|-)\s*newsroom/i.test(evidence);
   const title = String(record?.name || record?.title || '').trim();
