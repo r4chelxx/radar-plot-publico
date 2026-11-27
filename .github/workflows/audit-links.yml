@@ -55,13 +55,31 @@ jobs:
         run: |
           mkdir -p audit
           cp link-audit.json audit/link-audit-latest.json
+          report_tmp=$(mktemp)
+          cp audit/link-audit-latest.json "$report_tmp"
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add audit/link-audit-latest.json
-          if ! git diff --cached --quiet; then
+          pushed=false
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git reset --hard origin/main
+            cp "$report_tmp" audit/link-audit-latest.json
+            git add audit/link-audit-latest.json
+            if git diff --cached --quiet; then
+              pushed=true
+              break
+            fi
             git commit -m "Audit: refresh link report [skip ci]"
-            git pull --rebase origin main
-            git push origin HEAD:main
+            if git push origin HEAD:main; then
+              pushed=true
+              break
+            fi
+            git reset --hard origin/main
+            sleep 2
+          done
+          if [ "$pushed" != "true" ]; then
+            echo "::error::Could not persist the completed link-audit report after three attempts"
+            exit 1
           fi
       - name: Upload audit report
         if: always()
