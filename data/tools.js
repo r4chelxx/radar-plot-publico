@@ -1,13 +1,6 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.tools=[
 {
-  "id": "auto-884f3b9f57ae306b",
-  "name": "Warren, Balint, Colleagues Demand Answers from McDonald’s on Whether AI Pricing Tools Are Raising Prices and Facilitating Collusion",
-  "kind": "software para análise de dados",
-  "url": "https://www.warren.senate.gov/newsroom/press-releases/warren-balint-colleagues-demand-answers-from-mcdonalds-on-whether-ai-pricing-tools-are-raising-prices-and-facilitating-collusion/",
-  "desc": "Warren, Balint, Colleagues Demand Answers from McDonald’s on Whether AI Pricing Tools Are Raising Prices and Facilitating Collusion - Senator Elizabeth Warren Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
-}, 
-{
   "id": "osint-vault-shademap",
   "name": "Shademap",
   "kind": "Plataformas de investigação",
