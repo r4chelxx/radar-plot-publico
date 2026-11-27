@@ -58,7 +58,7 @@ function toolIdentity(c,title,docs){
  try{const u=new URL(c.audit?.finalUrl||c.url);cranPackage=/(^|\.)r-project\.org$/.test(u.hostname)&&(/^[A-Za-z][A-Za-z0-9.]{0,79}$/.test(u.searchParams.get('package')||'')||/^\/package=[A-Za-z][A-Za-z0-9.]{0,79}\/?$|\/packages\/[A-Za-z][A-Za-z0-9.]{0,79}(?:\/|$)/.test(u.pathname));}catch{}
  const newsletterSource=/Gmail Radar PLOT/i.test([c.sourceName||'',...(c.providers||[])].join(' '));
  const surface=[newsletterSource?'':title,newsletterSource?'':String(c.title||''),String(c.url||'').split('/').filter(Boolean).slice(-1)[0]||'',String(c.audit?.pageTitle||''),String(c.audit?.pageDescription||'')].join(' ');
- return structured||cranPackage||(!excluded.test(surface)&&/(software|tool|platform|application|library|framework|plugin|extension|programming language|statistical computing|ferramenta|plataforma|aplicativo|biblioteca)/i.test(surface));
+ return structured||cranPackage||(!excluded.test(surface)&&/(software|tool|platform|application|library|framework|plugin|extension|programming language|statistical computing|ferramenta|plataforma|aplicativo|biblioteca|reverse image search|search by image|satellite imagery explorer)/i.test(surface));
 }
 function toolFunction(text,docs){
  if(/\b(?:reverse image search|search by image|find (?:similar )?(?:images|photos)|satellite imagery explorer)\b/i.test(text))return true;
