@@ -2,6 +2,34 @@ window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
 {
   "date": "2026-11-27",
+  "type": "nova-oportunidade",
+  "title": "Publicação editorial verificada — 2026-11-27",
+  "items": [
+    {
+      "id": "auto-83e4332c60dac292",
+      "title": "John S. Knight Journalism Fellowships"
+    },
+    {
+      "id": "auto-88af5c980681b9a5",
+      "title": "IJ4EU Impact Award"
+    }
+  ],
+  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: John S. Knight Journalism Fellowships; IJ4EU Impact Award."
+},
+{
+  "date": "2026-11-27",
+  "type": "ferramentas",
+  "title": "Publicação editorial verificada — 2026-11-27",
+  "items": [
+    {
+      "id": "auto-e277ea3c0af04e5d",
+      "title": "Reverse Image Search"
+    }
+  ],
+  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: Reverse Image Search."
+}, 
+{
+  "date": "2026-11-27",
   "type": "ferramentas",
   "title": "Publicação editorial verificada — 2026-11-27",
   "items": [
