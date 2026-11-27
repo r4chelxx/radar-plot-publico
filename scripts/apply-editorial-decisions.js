@@ -24,19 +24,24 @@ for(const d of decisions.decisions){
  const lead=input.leads[id];
  if(!lead)throw Error('Editorial decision references unknown lead: '+d.url);
  if(['approved','published','duplicate','rejected','archived'].includes(d.status)&&(!d.officialUrl||!/^https:\/\//.test(d.officialUrl)))throw Error('Missing official evidence: '+d.url);
- if(d.status==='approved'&&!approved.some(x=>x.review?.decision==='approved'&&x.review?.officialUrl===d.officialUrl)){
+ let duplicateApproval=null;
+ if(d.status==='approved'){
   const category=d.category||d.record?.category;
   const record=d.record||d.publicationRecord;
   if(!['opportunities','datasets','tools'].includes(category)||!record||typeof record!=='object'||!record.id)throw Error('New approval requires category and complete publication record: '+d.url);
   const target=category==='opportunities'?record.rules:record.url;
   if(typeof target!=='string'||!/^https:\/\//.test(target))throw Error('New approval requires an official HTTPS record URL: '+d.url);
-  if(nextManifest.approved.some(x=>x.record?.id===record.id||x.review?.officialUrl===d.officialUrl))throw Error('Duplicate approved publication record: '+record.id);
-  nextManifest.approved.push({category,record,review:d.publicationReviewV1||{decision:'approved',reviewedBy:d.reviewedBy,reviewedAt:d.reviewedAt,officialUrl:d.officialUrl,evidence:d.reason}});
-}
+  const existing=nextManifest.approved.find(x=>x.record?.id===record.id||x.review?.officialUrl===d.officialUrl);
+  if(existing){
+   if(existing.category!==category||(existing.review?.officialUrl&&existing.review.officialUrl!==d.officialUrl))throw Error('Conflicting duplicate approved publication record: '+record.id);
+   duplicateApproval=existing;
+  }else nextManifest.approved.push({category,record,review:d.publicationReviewV1||{decision:'approved',reviewedBy:d.reviewedBy,reviewedAt:d.reviewedAt,officialUrl:d.officialUrl,evidence:d.reason}});
+ }
  if(d.status==='archived'&&d.archiveKind!=='closed-opportunity')throw Error('Archived opportunity must identify archiveKind: '+d.url);
  if(d.status==='published'&&!urls.has(d.officialUrl))throw Error('Publication not present in public catalog: '+d.url);
- const effectiveStatus=d.status==='approved'&&urls.has(d.officialUrl)?'published':d.status;
- input.leads[id]={...lead,editorialStatus:effectiveStatus,reviewedAt:d.reviewedAt,reviewedBy:d.reviewedBy,decisionReason:d.reason,editorialEvidence:d.officialUrl||null,
+ const effectiveStatus=d.status==='approved'?(urls.has(d.officialUrl)?'published':duplicateApproval?'duplicate':'approved'):d.status;
+ const decisionReason=duplicateApproval?'Duplicata da ficha '+(duplicateApproval.record?.id||'já aprovada')+'; mantido o registro já existente no manifesto.':d.reason;
+ input.leads[id]={...lead,editorialStatus:effectiveStatus,reviewedAt:d.reviewedAt,reviewedBy:d.reviewedBy,decisionReason,editorialEvidence:d.officialUrl||null,...(duplicateApproval?{duplicateOf:duplicateApproval.record?.id||null}:{}),
   ...(d.status==='archived'?{archiveKind:d.archiveKind||'closed-opportunity',deadline:d.deadline||null,archiveVerifiedAt:d.reviewedAt,archiveSource:d.officialUrl}:{} )};
  counts[effectiveStatus]=(counts[effectiveStatus]||0)+1;
 }
