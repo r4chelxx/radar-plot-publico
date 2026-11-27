@@ -24,12 +24,12 @@ for(const d of decisions.decisions){
  const lead=input.leads[id];
  if(!lead)throw Error('Editorial decision references unknown lead: '+d.url);
  if(['approved','published','duplicate','rejected','archived'].includes(d.status)&&(!d.officialUrl||!/^https:\/\//.test(d.officialUrl)))throw Error('Missing official evidence: '+d.url);
- let duplicateApproval=null,alreadyApproved=false;
+ let duplicateApproval=null;
  if(d.status==='approved'){
   const baselineApproval=approved.find(x=>x.review?.decision==='approved'&&x.review?.officialUrl===d.officialUrl);
   if(baselineApproval){
    if(d.category&&baselineApproval.category!==d.category)throw Error('Conflicting existing approval category: '+d.officialUrl);
-   alreadyApproved=true;
+
   }else{
    const category=d.category||d.record?.category;
    const record=d.record||d.publicationRecord;
