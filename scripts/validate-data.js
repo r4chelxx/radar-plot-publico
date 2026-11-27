@@ -74,6 +74,7 @@ const toolIds=new Set();
 for(const t of tools){
   if(!t.id||toolIds.has(t.id)) errors.push("tool: missing or duplicate id "+t.id); else toolIds.add(t.id);
   if(!t.name||!t.kind||!t.url||!/^https?:\/\//.test(t.url)) errors.push("tool "+t.id+": missing metadata or invalid URL");
+  if(/\\/(?:news|newsroom|press-releases?|articles?|blog|publication)(?:\\/|$)/i.test(String(t.url))||/\\b(?:press release|article|newsroom|news article)\\b/i.test(String(t.name))) errors.push("tool "+t.id+": editorial article or press release cannot be catalogued as a tool");
 }
 const dseen=new Set();
 for(const [di,d] of datasets.entries()){
