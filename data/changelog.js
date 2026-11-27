@@ -1,5 +1,89 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.changelog=[
+{
+  "date": "2026-11-27",
+  "type": "dados",
+  "title": "Publicação editorial verificada — 2026-11-27",
+  "items": [
+    {
+      "id": "auto-729194d057f52cb7",
+      "title": "FII: Documentos: Informe Trimestral Estruturado"
+    },
+    {
+      "id": "auto-cc79e77c0ae52283",
+      "title": "Securitizadoras: Documentos: Informe Mensal de CRI"
+    },
+    {
+      "id": "auto-d971394f88d46707",
+      "title": "Securitizadoras: Documentos: Demonstrações Financeiras de CRI"
+    },
+    {
+      "id": "auto-dfd51aba7b86432f",
+      "title": "Securitizadoras: Documentos: Informe Mensal de Outros Títulos de Securitização"
+    },
+    {
+      "id": "auto-e3e9c4ce87628549",
+      "title": "Administradores de Carteira: Informação Cadastral"
+    },
+    {
+      "id": "auto-e7971ac46df9c109",
+      "title": "Cias Abertas: Documentos: Valores Mobiliários Negociados e Detidos"
+    },
+    {
+      "id": "auto-f35425bef92f7679",
+      "title": "Processos Sancionadores"
+    },
+    {
+      "id": "auto-f4a1c3f519f8f6ea",
+      "title": "FII: Documentos: Informe Mensal Estruturado"
+    },
+    {
+      "id": "auto-f612dfb08a219292",
+      "title": "Cias Abertas: Documentos: Formulário de Demonstrações Financeiras Padronizadas (DFP)"
+    },
+    {
+      "id": "auto-0cafceaec29768c1",
+      "title": "Cias Abertas: Documentos: Informe do Código de Governança (ICBGC)"
+    },
+    {
+      "id": "auto-26be25265da6a03e",
+      "title": "Securitizadoras: Documentos: Demonstrações Financeiras de CRA"
+    },
+    {
+      "id": "auto-33bff49dbea03538",
+      "title": "Cias Abertas: Documentos: Periódicos e Eventuais (IPE)"
+    },
+    {
+      "id": "auto-347f12fca921fdf1",
+      "title": "Administradores de FII: Informação Cadastral"
+    },
+    {
+      "id": "auto-3aeb02bb3dc220df",
+      "title": "Atos Declaratórios"
+    },
+    {
+      "id": "auto-3f3a7881d3d4bcb6",
+      "title": "Cias Abertas: Documentos: Formulário de Informações Trimestrais (ITR)"
+    },
+    {
+      "id": "auto-49725114db09f51d",
+      "title": "Securitizadoras: Documentos: Informe Mensal de CRA"
+    },
+    {
+      "id": "auto-4ea36db8277d2c6b",
+      "title": "Emissores de CEPAC: Informação Cadastral"
+    },
+    {
+      "id": "auto-523383c4bc88a78a",
+      "title": "Agentes Fiduciários: Informação Cadastral"
+    },
+    {
+      "id": "auto-6c973df3c7981d72",
+      "title": "Cias Abertas: Eventos Societários Especiais: Programa de Recompra de Ações"
+    }
+  ],
+  "detail": "Registros aprovados individualmente com documentação oficial e evidência editorial: FII: Documentos: Informe Trimestral Estruturado; Securitizadoras: Documentos: Informe Mensal de CRI; Securitizadoras: Documentos: Demonstrações Financeiras de CRI; Securitizadoras: Documentos: Informe Mensal de Outros Títulos de Securitização; Administradores de Carteira: Informação Cadastral; Cias Abertas: Documentos: Valores Mobiliários Negociados e Detidos; Processos Sancionadores; FII: Documentos: Informe Mensal Estruturado; Cias Abertas: Documentos: Formulário de Demonstrações Financeiras Padronizadas (DFP); Cias Abertas: Documentos: Informe do Código de Governança (ICBGC); Securitizadoras: Documentos: Demonstrações Financeiras de CRA; Cias Abertas: Documentos: Periódicos e Eventuais (IPE); Administradores de FII: Informação Cadastral; Atos Declaratórios; Cias Abertas: Documentos: Formulário de Informações Trimestrais (ITR); Securitizadoras: Documentos: Informe Mensal de CRA; Emissores de CEPAC: Informação Cadastral; Agentes Fiduciários: Informação Cadastral; Cias Abertas: Eventos Societários Especiais: Programa de Recompra de Ações."
+}, 
  
 {
   "date": "2026-11-24",
