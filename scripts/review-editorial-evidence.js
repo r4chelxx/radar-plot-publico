@@ -139,7 +139,7 @@ function review(c){
  if(!hardStatus)missing.push('página primária acessível com conteúdo compatível');
  if(category==='opportunities'){
   const genericPage=genericOpportunityTitle.test(title.trim());
-  const namedCall=raw.match(/\b(?:[A-Z][\w’'&-]*\s+){1,8}(?:Fellowships?|Grants?|Awards?|Competitions?)\b(?:\s+for(?:\s+[A-Z][\w’'&-]*){1,5})?/u)?.[0]||null;
+  const namedCall=raw.match(/\b(?:[A-Z][\w.’'&-]*\s+){1,8}(?:Fellowships?|Grants?|Awards?|Competitions?)\b(?:\s+for(?:\s+[A-Z][\w.’'&-]*){1,5})?/u)?.[0]||null;
   const callTitle=namedCall|| (genericPage?String(a.pageDescription||c.title||title):title);
   const editorialScope=/\b(?:journalis\w*|jornalismo|jornalistas?|reporting|reporters?|newsrooms?|photojournal\w*|documentary|storymaps|geospatial story|data visuali\w*|visual storytelling)\b/i.test(title+' '+String(a.pageDescription||'')+' '+String(a.evidenceText||''));
   if(!editorialScope)missing.push('escopo jornalístico ausente no título e descrição da chamada');
@@ -149,7 +149,7 @@ function review(c){
   checks.callSignal=(!genericPage||!!namedCall)&&(verifiedOpportunityEvidence||actionableOpportunity(callTitle,text))&&!/newsletter|podcast|directory|portfolio/i.test(title);
   if(genericPage&&!namedCall)missing.push('nome específico da chamada ausente; página genérica de inscrição não pode ser publicada como oportunidade');
   checks.deadline=deadlineDates(text,checks.callSignal).find(d=>d>=today)||structuredDeadline(docs); if(checks.deadline&&checks.deadline<today)checks.deadline=null;
-  checks.eligibility=/\b(eligib|eligible|eligibility|who can apply|who can enter|who can participate|participants must|entry requirements|age(?:d)? 18 and up|18 years and older|globally may enter|open to|elegibilidade|elegível|podem se candidatar)\b/i.test(text);
+  checks.eligibility=/\b(eligib|eligible|eligibility|who can apply|who may apply|who is eligible to apply|who can enter|who can participate|participants must|entry requirements|age(?:d)? 18 and up|18 years and older|globally may enter|open to|elegibilidade|elegível|podem se candidatar)\b/i.test(text);
   if(/\b(?:applications?|submissions?|entries?)\b[^.!?]{0,120}\bclosed\b|inscri[cç][oõ]es\s+encerradas/i.test(text))missing.push('chamada explicitamente encerrada');
   if(!checks.callSignal)missing.push('chamada de financiamento/bolsa identificável');
   checks.rolling=!checks.deadline&&rollingApplicationEvidence(text);
