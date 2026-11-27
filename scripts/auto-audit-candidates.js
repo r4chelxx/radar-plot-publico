@@ -88,7 +88,7 @@ const decisions=[], blockers=[];
 for(const lead of results){
  const r=byId.get(lead.historicalId||lead.id)||byUrl.get(urlKey(lead.url))||lead;
  const url=lead.finalUrl||lead.url;
- const base={url:lead.url||url,category:lead.category,reviewedBy:'Radar PLOT — auditoria automática conservadora',reviewedAt:today};
+ const base={url:lead.discoveryUrl||lead.url||url,category:lead.category,reviewedBy:'Radar PLOT — auditoria automática conservadora',reviewedAt:today};
  // Fresh inspections use the same review, card builder and publication gate as
  // unified discovery. Legacy supplied records below retain their proof checks.
  if(lead.checkedAt&&typeof lead.evidenceText==='string'){
