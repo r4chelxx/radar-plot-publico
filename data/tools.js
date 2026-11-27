@@ -20,9 +20,9 @@ window.RADAR_PARTS.tools=[
   "id": "osint-vault-crt-sh",
   "name": "crt.sh",
   "kind": "Busca e análise de infraestrutura digital",
-  "url": "https://crt.sh/",
+  "url": "https://crt.sh/?q=%25",
   "desc": "Certificate Transparency log search - discover subdomains and certificates. Relações de DNS, IP, certificados, serviços ou códigos compartilhados são pistas técnicas e não provam propriedade, controle ou irregularidade.",
-  "lastChecked": "2026-11-20",
+  "lastChecked": "2026-11-27",
   "discoveryUrl": "https://theosintvault.io/"
 },
 {
