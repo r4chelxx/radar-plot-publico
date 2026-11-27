@@ -1,6 +1,13 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.tools=[
 {
+  "id": "auto-e277ea3c0af04e5d",
+  "name": "Reverse Image Search",
+  "kind": "Pesquisa reversa de imagens",
+  "url": "https://decopy.ai/reverse-image/",
+  "desc": "Reverse Image Search lets you search by image on your phone or PC to find sources, similar images, faces, places, and more in seconds on Google, Bing, and more. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
+}, 
+{
   "id": "1d3a4f475ff98df12cbe47c2a314ee3460ad77f8b3a5744ceb3cc4c8f8510584",
   "name": "Archivarix Retrace",
   "kind": "Pesquisa reversa de imagens",

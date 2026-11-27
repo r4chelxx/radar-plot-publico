@@ -1,6 +1,44 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.opportunities=[
 {
+  "id": "auto-83e4332c60dac292",
+  "title": "John S. Knight Journalism Fellowships",
+  "org": "John S. Knight Journalism Fellowships",
+  "summary": "Thinking about applying to the JSK Fellowships? Our updated FAQ answers the questions applicants ask most: stipend, tuition, health insurance, family, application checklist… it’s all in there.",
+  "type": "Fellowship",
+  "themes": [
+    "Jornalismo"
+  ],
+  "scope": "US and international journalists, those working in operations or strategy roles in news organizations and those working with organizations that support or collaborate directly with journalists (sometimes described as journalism support organizations). It does not matter whether you are doing the work as an employee or as an independent contractor. But if you are an independent contractor or freelancer, the majority of your work needs to be within the journalism sector. (This means, at minimum, more than 50 percent of your professional work.) You need to have at least five years of professional experience. While student work and internships are valuable, they don’t count toward the five-year requirement. A college degree or experience inside a traditional newsroom isn’t required.",
+  "fit": 6,
+  "deadline": "2026-12-02",
+  "deadlineStatus": "Prazo confirmado na fonte consultada; conferir horário e fuso no edital.",
+  "eligibility": "parcial",
+  "status": "aberta",
+  "rules": "https://jsk.stanford.edu/become-a-fellow/faq",
+  "apply": "https://jsk.stanford.edu/become-a-fellow/faq"
+},
+{
+  "id": "auto-88af5c980681b9a5",
+  "title": "IJ4EU Impact Award",
+  "org": "IJ4EU",
+  "summary": "IJ4EU (Investigative Journalism for Europe) is a fund supporting cross-border investigative journalism in and around the European Union. We provide grants to teams of journalists or news organisations in Europe investigating topics of public interest. IJ4EU’s mission is to strengthen the watchdog role of investigative journalism in Europe. Its purpose is to foster and strengthen collaboration among European journalists and newsrooms by providing them with grant funding, mentoring, training, expert support and networking opportunities. It also seeks to raise the value of and incentivise quality investigative journalism and build trust in the Fourth Estate. Our core activity is providing grants to cross-border investigative journalism . To date, the IJ4EU fund has disbursed more than €4 million in grants to high-impact, cross-border projects. In 2024/25, IJ4EU will allocate an additional €",
+  "type": "Award",
+  "themes": [
+    "Meio ambiente",
+    "Jornalismo investigativo",
+    "Jornalismo"
+  ],
+  "scope": "In 2020, IJ4EU launched a monetary prize for cross-border investigative journalism in Europe, open to all journalists and not only those who received an IJ4EU grant. All applications must be submitted in English via our secure Good Grants platform . All applications must be submitted through the Good Grants platform . Eligible countries include all 27 EU member states and the following non-EU countries: Albania, Bosnia and Herzegovina, Georgia, Iceland, Liechtenstein, Montenegro, North Macedonia, Norway, Serbia and Ukraine. Eligibility is based on residency (where you live and work) and not nationality (citizenship). Team members based in countries anywhere in the world are welcome to take part, but they must be part of teams that fulfil the core geographical criteria described above. In other words, they must be part of teams with members based in at least two participating Creative Europe countries in Europe. Furthermore, the following conditions apply to journalists participating from places outside the “core” countries listed above: Their involvement should not form too substantial a part of the investigation; Their involvement must be necessary and relevant for the investigati",
+  "fit": 7,
+  "deadline": "2026-12-01",
+  "deadlineStatus": "Prazo confirmado na fonte consultada; conferir horário e fuso no edital.",
+  "eligibility": "restrita",
+  "status": "aberta",
+  "rules": "https://investigativejournalismforeu.net/faq/",
+  "apply": "https://investigativejournalismforeu.net/faq/"
+}, 
+{
   "id": "auto-d245cd20c8cc5461",
   "title": "Journalism and Media Opportunities | LinkedIn",
   "org": "Journalism and Media Opportunities",
