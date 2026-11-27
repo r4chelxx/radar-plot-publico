@@ -1,6 +1,13 @@
 window.RADAR_PARTS=window.RADAR_PARTS||{};
 window.RADAR_PARTS.tools=[
 {
+  "id": "1d3a4f475ff98df12cbe47c2a314ee3460ad77f8b3a5744ceb3cc4c8f8510584",
+  "name": "Archivarix Retrace",
+  "kind": "Pesquisa reversa de imagens",
+  "url": "https://retrace.archivarix.net/",
+  "desc": "Reverse image search that shows where a photo came from: earlier copies, the date it first appeared and the place on a map, each with a source link. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
+}, 
+{
   "id": "osint-vault-shademap",
   "name": "Shademap",
   "kind": "Plataformas de investigação",
