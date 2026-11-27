@@ -3446,6 +3446,880 @@
           "rolling": false
         }
       }
+    },
+    {
+      "category": "datasets",
+      "record": {
+        "id": "auto-729194d057f52cb7",
+        "name": "FII: Documentos: Informe Trimestral Estruturado",
+        "org": "Comissão de Valores Mobiliários (CVM)",
+        "territoryTier": "Outros",
+        "kind": "portal",
+        "themes": [
+          "Dados abertos"
+        ],
+        "coverage": "FII: Documentos: Informe Trimestral Estruturado Seguidores 0 CVM Não há descrição para essa organização Social Twitter Facebook Licença Licença Aberta para Bases de Dados (ODbL) do Open Data Commons FII: Documentos: Informe Trimestral Estruturado O Informe Trimestral de Fundo Imobiliário é um documento eletrônico de encaminhamento periódico, definido no ANEXO 39-II da Instrução CVM nº 571/2015, cujo encaminhamento à CVM deve se dar por meio do Sistema Fundos.NET.",
+        "frequency": "FII: Documentos: Informe Trimestral Estruturado - Conjunto de dados - Portal Dados Abertos CVM Skip to main content Início Organizações CVM FII: Documentos: Informe...",
+        "format": "ZIP",
+        "period": "Não informado pela fonte oficial",
+        "granularity": "Não informado pela fonte oficial",
+        "geoUnit": "Não informado pela fonte oficial",
+        "api": "https://dados.cvm.gov.br/dados/FII/DOC/INF_TRIMESTRAL/META/meta_inf_trimestral_fii.zip",
+        "docs": "https://dados.cvm.gov.br/dataset/fii-doc-inf_trimestral",
+        "limitations": "A página consultada não detalha todas as limitações, a atualização e a qualidade do recurso; conferir documentação e licença antes do uso editorial.",
+        "lastChecked": "2026-11-27",
+        "url": "https://dados.cvm.gov.br/dataset/fii-doc-inf_trimestral",
+        "description": "O Informe Trimestral de Fundo Imobiliário é um documento eletrônico de encaminhamento periódico, definido no ANEXO 39-II da Instrução CVM nº 571/2015, cujo encaminhamento à CVM deve se dar por meio..."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Radar evidence gate v1",
+        "reviewedAt": "2026-11-27",
+        "reviewPolicyVersion": "radar-evidence-v1",
+        "officialUrl": "https://dados.cvm.gov.br/dataset/fii-doc-inf_trimestral",
+        "checkedAt": "2026-11-27T19:55:46.538Z",
+        "evidence": "FII: Documentos: Informe Trimestral Estruturado - Conjunto de dados - Portal Dados Abertos CVM Skip to main content Início Organizações CVM FII: Documentos: Informe... FII: Documentos: Informe Trimestral Estruturado Seguidores 0 CVM Não há descrição para essa organização Social Twitter Facebook Licença Licença Aberta para Bases de Dados (ODbL) do Open Data Commons FII: Documentos: Informe Trimestral Estruturado O Informe Trimestral de Fundo Imobiliário é um documento eletrônico de encaminhamento periódico, definido no ANEXO 39-II da Instrução CVM nº 571/2015, cujo encaminhamento à CVM deve se dar por meio do Sistema Fundos.NET. O conjunto de dados disponibiliza os informes mensais referentes aos últimos cinco anos : Os arquivos serão atualizados semanalmente com as eventuais reapresentações. Histórico desde 2016 (incluindo arquivos não sujeitos à política de atualização) Dados e recursos Dicionário de Dados ZIP Descrição das colunas e dados Explorar Mais informações Ir para recurso Informes Trimestrais Estruturados de Fundos de... ZIP FII - Informes Trimestrais Estruturados (2021) Explorar Mais informações Ir para recurso Informes Trimestrais Estruturados de Fundos de... ZIP FII - Informes Trimestrais Estruturados (2022) Explorar Mais informações Ir para recurso Informes Trimestrais Estruturados de Fundos de... ZIP FII - Informes Trimestrais Estruturados (2023) Explorar Mais informações Ir para recurso Informes Trimestrais Estruturados de Fundos de... ZIP FII - Informes Trimestrais Estruturados (2024) Explorar Mais informações Ir para recurso Informes Trimestrais Estruturados de Fundos de... ZIP FII - Informes Trimestrais Estruturados (2025) Explorar Mais informações Ir para recurso Informes Trimestrais Estruturados de Fundos de... ZIP FII - Informes Trimestrais Estruturados (2026) Explorar Mais informações Ir para recurso Documentos... Informações Adicionais Campo Valor Fonte https://dados.cvm.gov.br/dataset/fii-doc-inf_trimestral Autor SSE - Superintendência de Supervisão de Securitização Mantenedor Suporte a Sistemas CVM Última Atualização novembro 23, 2026, 11:01 (UTC) Criado setembro 26, 2021, 14:17 (UTC) Base de Dados Documentos Periódicos e Eventuais de Regulados Periodicidade de atualização Semanal VCGE http://vocab.e.gov.br/2011/03/vcge#mercado-capitais",
+        "evidenceHash": "104d12257a8b6986be4ef9570305034d0878c681101e1fe79164b029ca8828b8",
+        "sourceStatus": 200,
+        "contentType": "text/html; charset=utf-8",
+        "evidenceChecks": {
+          "datasetSignal": true,
+          "directResource": true,
+          "webAccess": true,
+          "format": true,
+          "coverage": true,
+          "license": true,
+          "licenseStatus": "stated"
+        }
+      }
+    },
+    {
+      "category": "datasets",
+      "record": {
+        "id": "auto-cc79e77c0ae52283",
+        "name": "Securitizadoras: Documentos: Informe Mensal de CRI",
+        "org": "Comissão de Valores Mobiliários (CVM)",
+        "territoryTier": "Outros",
+        "kind": "portal",
+        "themes": [
+          "Dados abertos"
+        ],
+        "coverage": "Dados e recursos Dicionário de Dados ZIP Descrição das colunas e dados Explorar Mais informações Ir para recurso Informes Mensais de CRI (2021) ZIP Securitizadoras - Informes Mensais de Certificados de Recebíveis Imobiliários...",
+        "frequency": "Securitizadoras: Documentos: Informe Mensal de CRI - Conjunto de dados - Portal Dados Abertos CVM Skip to main content Início Organizações CVM Securitizadoras:...",
+        "format": "ZIP",
+        "period": "Não informado pela fonte oficial",
+        "granularity": "Não informado pela fonte oficial",
+        "geoUnit": "Não informado pela fonte oficial",
+        "api": "https://dados.cvm.gov.br/dados/SECURIT/DOC/INF_MENSAL_CRI/META/meta_inf_mensal_cri.zip",
+        "docs": "https://dados.cvm.gov.br/dataset/securit-doc-inf_mensal_cri",
+        "limitations": "A página consultada não detalha todas as limitações, a atualização e a qualidade do recurso; conferir documentação e licença antes do uso editorial.",
+        "lastChecked": "2026-11-27",
+        "url": "https://dados.cvm.gov.br/dataset/securit-doc-inf_mensal_cri",
+        "description": "O Informe Mensal de Certificados de Recebíveis Imobiliários é um documento eletrônico de encaminhamento periódico, definido no Suplemento E da Resolução CVMº 60, cujo encaminhamento à CVM deve se..."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Radar evidence gate v1",
+        "reviewedAt": "2026-11-27",
+        "reviewPolicyVersion": "radar-evidence-v1",
+        "officialUrl": "https://dados.cvm.gov.br/dataset/securit-doc-inf_mensal_cri",
+        "checkedAt": "2026-11-27T19:55:48.328Z",
+        "evidence": "Securitizadoras: Documentos: Informe Mensal de CRI - Conjunto de dados - Portal Dados Abertos CVM Skip to main content Início Organizações CVM Securitizadoras:... Securitizadoras: Documentos: Informe Mensal de CRI Seguidores 0 CVM Não há descrição para essa organização Social Twitter Facebook Licença Licença Aberta para Bases de Dados (ODbL) do Open Data Commons Securitizadoras: Documentos: Informe Mensal de CRI O Informe Mensal de Certificados de Recebíveis Imobiliários é um documento eletrônico de encaminhamento periódico, definido no Suplemento E da Resolução CVMº 60, cujo encaminhamento à CVM deve se dar por meio do Sistema Fundos.NET. O conjunto de dados disponibiliza os informes mensais referentes aos últimos cinco anos : Os arquivos serão atualizados semanalmente com as eventuais reapresentações. Dados e recursos Dicionário de Dados ZIP Descrição das colunas e dados Explorar Mais informações Ir para recurso Informes Mensais de CRI (2021) ZIP Securitizadoras - Informes Mensais de Certificados de Recebíveis Imobiliários... Explorar Mais informações Ir para recurso Informes Mensais de CRI (2022) ZIP Securitizadoras - Informes Mensais de Certificados de Recebíveis Imobiliários... Explorar Mais informações Ir para recurso Informes Mensais de CRI (2023) ZIP Securitizadoras - Informes Mensais de Certificados de Recebíveis Imobiliários... Explorar Mais informações Ir para recurso Informes Mensais de CRI (2024) ZIP Securitizadoras - Informes Mensais de Certificados de Recebíveis Imobiliários... Explorar Mais informações Ir para recurso Informes Mensais de CRI (2025) ZIP Securitizadoras - Informes Mensais de Certificados de Recebíveis Imobiliários... Explorar Mais informações Ir para recurso Informes Mensais de CRI (2026) ZIP Securitizadoras - Informes Mensais de Certificados de Recebíveis Imobiliários... Explorar Mais informações Ir para recurso Documentos... Informações Adicionais Campo Valor Fonte https://dados.cvm.gov.br/dataset/securit-doc-inf_mensal_cri Autor SSE - Superintendência de Supervisão de Securitização Mantenedor Suporte a Sistemas CVM Última Atualização novembro 23, 2026, 11:01 (UTC) Criado outubro 27, 2022, 23:48 (UTC) Base de Dados Documentos Periódicos e Eventuais de Regulados Periodicidade de atualização Semanal VCGE http://vocab.e.gov.br/2011/03/vcge#mercado-capitais",
+        "evidenceHash": "20badc811e71b26a2e220b60230077cfad1677e9ac65e4c334b59be4978c10c7",
+        "sourceStatus": 200,
+        "contentType": "text/html; charset=utf-8",
+        "evidenceChecks": {
+          "datasetSignal": true,
+          "directResource": true,
+          "webAccess": true,
+          "format": true,
+          "coverage": true,
+          "license": true,
+          "licenseStatus": "stated"
+        }
+      }
+    },
+    {
+      "category": "datasets",
+      "record": {
+        "id": "auto-d971394f88d46707",
+        "name": "Securitizadoras: Documentos: Demonstrações Financeiras de CRI",
+        "org": "Comissão de Valores Mobiliários (CVM)",
+        "territoryTier": "Outros",
+        "kind": "portal",
+        "themes": [
+          "Dados abertos"
+        ],
+        "coverage": "Histórico desde 2018 (incluindo arquivos não sujeitos à política de atualização) Dados e recursos Dicionário de Dados TXT Descrição das colunas e dados Explorar Mais informações Ir para recurso Demonstrações Financeiras de CRI (2021) CSV Securitizadoras - Demonstrações Financeiras de Certificados de Recebíveis...",
+        "frequency": "Histórico desde 2018 (incluindo arquivos não sujeitos à política de atualização) Dados e recursos Dicionário de Dados TXT Descrição das colunas e dados Explorar Mais informações Ir para recurso Demonstrações Financeiras de CRI (2021) CSV Securitizadoras - Demonstrações Financeiras de Certificados de Recebíveis...",
+        "format": "CSV",
+        "period": "Não informado pela fonte oficial",
+        "granularity": "Não informado pela fonte oficial",
+        "geoUnit": "Não informado pela fonte oficial",
+        "api": "https://dados.cvm.gov.br/dados/SECURIT/DOC/DFIN_CRI/DADOS/dfin_cri_2021.csv",
+        "docs": "https://dados.cvm.gov.br/dataset/securit-doc-dfin_cri",
+        "limitations": "A página consultada não detalha todas as limitações, a atualização e a qualidade do recurso; conferir documentação e licença antes do uso editorial.",
+        "lastChecked": "2026-11-27",
+        "url": "https://dados.cvm.gov.br/dataset/securit-doc-dfin_cri",
+        "description": "As Demonstrações Financeiras de Certificados de Recebíveis Imobiliários são documentos eletrônicos de encaminhamento periódico, previstos no artigo 47, inciso VIII, da Resolução CVMº 60, cujo..."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Radar evidence gate v1",
+        "reviewedAt": "2026-11-27",
+        "reviewPolicyVersion": "radar-evidence-v1",
+        "officialUrl": "https://dados.cvm.gov.br/dataset/securit-doc-dfin_cri",
+        "checkedAt": "2026-11-27T19:55:48.602Z",
+        "evidence": "Securitizadoras: Documentos: Demonstrações Financeiras de CRI - Conjunto de dados - Portal Dados Abertos CVM Skip to main content Início Organizações CVM Securitizadoras:... Securitizadoras: Documentos: Demonstrações Financeiras de CRI Seguidores 0 CVM Não há descrição para essa organização Social Twitter Facebook Licença Licença Aberta para Bases de Dados (ODbL) do Open Data Commons Securitizadoras: Documentos: Demonstrações Financeiras de CRI As Demonstrações Financeiras de Certificados de Recebíveis Imobiliários são documentos eletrônicos de encaminhamento periódico, previstos no artigo 47, inciso VIII, da Resolução CVMº 60, cujo encaminhamento à CVM deve se dar por meio do Sistema Fundos.NET. O conjunto de dados disponibiliza as demonstrações financeiras referentes aos últimos cinco anos : Os arquivos serão atualizados semanalmente com as eventuais reapresentações. Histórico desde 2018 (incluindo arquivos não sujeitos à política de atualização) Dados e recursos Dicionário de Dados TXT Descrição das colunas e dados Explorar Mais informações Ir para recurso Demonstrações Financeiras de CRI (2021) CSV Securitizadoras - Demonstrações Financeiras de Certificados de Recebíveis... Explorar Mais informações Ir para recurso Demonstrações Financeiras de CRI (2022) CSV Securitizadoras - Demonstrações Financeiras de Certificados de Recebíveis... Explorar Mais informações Ir para recurso Demonstrações Financeiras de CRI (2023) CSV Securitizadoras - Demonstrações Financeiras de Certificados de Recebíveis... Explorar Mais informações Ir para recurso Demonstrações Financeiras de CRI (2024) CSV Securitizadoras - Demonstrações Financeiras de Certificados de Recebíveis... Explorar Mais informações Ir para recurso Demonstrações Financeiras de CRI (2025) CSV Securitizadoras - Demonstrações Financeiras de Certificados de Recebíveis... Explorar Mais informações Ir para recurso Demonstrações Financeiras de CRI (2026) CSV Securitizadoras - Demonstrações Financeiras de Certificados de Recebíveis... Explorar Mais informações Ir para recurso Documentos... Informações Adicionais Campo Valor Fonte https://dados.cvm.gov.br/dataset/securit-doc-dfin_cri Autor SSE - Superintendência de Supervisão de Securitização Mantenedor Suporte a Sistemas CVM Última Atualização novembro 23, 2026, 11:01 (UTC) Criado outubro 2, 2023, 22:27 (UTC) Base de Dados Documentos Periódicos e Eventuais de Regulados Periodicidade de atualização Semanal VCGE http://vocab.e.gov.br/2011/03/vcge#mercado-capitais",
+        "evidenceHash": "038749671dd937129d85fadd2d8e630ef4b0cc6a7a15bff9c786fffd33813b20",
+        "sourceStatus": 200,
+        "contentType": "text/html; charset=utf-8",
+        "evidenceChecks": {
+          "datasetSignal": true,
+          "directResource": true,
+          "webAccess": true,
+          "format": true,
+          "coverage": true,
+          "license": true,
+          "licenseStatus": "stated"
+        }
+      }
+    },
+    {
+      "category": "datasets",
+      "record": {
+        "id": "auto-dfd51aba7b86432f",
+        "name": "Securitizadoras: Documentos: Informe Mensal de Outros Títulos de Securitização",
+        "org": "Comissão de Valores Mobiliários (CVM)",
+        "territoryTier": "Outros",
+        "kind": "portal",
+        "themes": [
+          "Dados abertos"
+        ],
+        "coverage": "Dados e recursos Dicionário de Dados ZIP Descrição das colunas e dados Explorar Mais informações Ir para recurso Informes Mensais de OTS (2023) ZIP Securitizadoras - Informes mensais das emissões de securitização de outros...",
+        "frequency": "Securitizadoras: Documentos: Informe Mensal de Outros Títulos de Securitização - Conjunto de dados - Portal Dados Abertos CVM Skip to main content Início Organizações CVM Securitizadoras:...",
+        "format": "ZIP",
+        "period": "Informações Adicionais Campo Valor Fonte https://dados.cvm.gov.br/dataset/securit-doc-inf_mensal_ots Autor SSE - Superintendência de Supervisão de Securitização Mantenedor Suporte a Sistemas CVM Última Atualização novembro 23, 2026, 11:01 (UTC) Criado maio 17, 2024, 22:41 (UTC) Base de Dados Documentos Periódicos e Eventuais de Regulados Periodicidade de atualização Semanal VCGE http://vocab.e.gov.br/2011/03/vcge#mercado-capitais O Informe Mensal das Emissões de Securitização de Outros Títulos é um documento eletrônico de encaminhamento periódico, definido no Suplemento G da Resolução CVMº 60, cujo encaminhamento à CVM deve...",
+        "granularity": "Não informado pela fonte oficial",
+        "geoUnit": "Não informado pela fonte oficial",
+        "api": "https://dados.cvm.gov.br/dados/SECURIT/DOC/INF_MENSAL_OTS/META/meta_inf_mensal_ots.zip",
+        "docs": "https://dados.cvm.gov.br/dataset/securit-doc-inf_mensal_ots",
+        "limitations": "A página consultada não detalha todas as limitações, a atualização e a qualidade do recurso; conferir documentação e licença antes do uso editorial.",
+        "lastChecked": "2026-11-27",
+        "url": "https://dados.cvm.gov.br/dataset/securit-doc-inf_mensal_ots",
+        "description": "O Informe Mensal das Emissões de Securitização de Outros Títulos é um documento eletrônico de encaminhamento periódico, definido no Suplemento G da Resolução CVMº 60, cujo encaminhamento à CVM deve..."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Radar evidence gate v1",
+        "reviewedAt": "2026-11-27",
+        "reviewPolicyVersion": "radar-evidence-v1",
+        "officialUrl": "https://dados.cvm.gov.br/dataset/securit-doc-inf_mensal_ots",
+        "checkedAt": "2026-11-27T19:55:48.729Z",
+        "evidence": "Securitizadoras: Documentos: Informe Mensal de Outros Títulos de Securitização - Conjunto de dados - Portal Dados Abertos CVM Skip to main content Início Organizações CVM Securitizadoras:... Securitizadoras: Documentos: Informe Mensal de Outros Títulos de Securitização Seguidores 0 CVM Não há descrição para essa organização Social Twitter Facebook Licença Licença Aberta para Bases de Dados (ODbL) do Open Data Commons Securitizadoras: Documentos: Informe Mensal de Outros Títulos de Securitização O Informe Mensal das Emissões de Securitização de Outros Títulos é um documento eletrônico de encaminhamento periódico, definido no Suplemento G da Resolução CVMº 60, cujo encaminhamento à CVM deve se dar por meio do Sistema Fundos.NET. O conjunto de dados disponibiliza os informes mensais referentes aos últimos cinco anos : Os arquivos serão atualizados semanalmente com as eventuais reapresentações. Dados e recursos Dicionário de Dados ZIP Descrição das colunas e dados Explorar Mais informações Ir para recurso Informes Mensais de OTS (2023) ZIP Securitizadoras - Informes mensais das emissões de securitização de outros... Explorar Mais informações Ir para recurso Informes Mensais de OTS (2024) ZIP Securitizadoras - Informes mensais das emissões de securitização de outros... Explorar Mais informações Ir para recurso Informes Mensais de OTS (2025) ZIP Securitizadoras - Informes mensais das emissões de securitização de outros... Explorar Mais informações Ir para recurso Informes Mensais de OTS (2026) ZIP Securitizadoras - Informes mensais das emissões de securitização de outros... Explorar Mais informações Ir para recurso Documentos... Informações Adicionais Campo Valor Fonte https://dados.cvm.gov.br/dataset/securit-doc-inf_mensal_ots Autor SSE - Superintendência de Supervisão de Securitização Mantenedor Suporte a Sistemas CVM Última Atualização novembro 23, 2026, 11:01 (UTC) Criado maio 17, 2024, 22:41 (UTC) Base de Dados Documentos Periódicos e Eventuais de Regulados Periodicidade de atualização Semanal VCGE http://vocab.e.gov.br/2011/03/vcge#mercado-capitais",
+        "evidenceHash": "485f4e895fcb90e78fedb594d35fdf72b3ef4ac4b0da13c49fc8a47a343c3c49",
+        "sourceStatus": 200,
+        "contentType": "text/html; charset=utf-8",
+        "evidenceChecks": {
+          "datasetSignal": true,
+          "directResource": true,
+          "webAccess": true,
+          "format": true,
+          "coverage": true,
+          "license": true,
+          "licenseStatus": "stated"
+        }
+      }
+    },
+    {
+      "category": "datasets",
+      "record": {
+        "id": "auto-e3e9c4ce87628549",
+        "name": "Administradores de Carteira: Informação Cadastral",
+        "org": "Comissão de Valores Mobiliários (CVM)",
+        "territoryTier": "Outros",
+        "kind": "portal",
+        "themes": [
+          "Dados abertos"
+        ],
+        "coverage": "Dados e recursos Dicionário de Dados ZIP Descrição das colunas e dados Explorar Mais informações Ir para recurso Administradores de Carteira ZIP Dados cadastrais de Administradores de Carteira Explorar Mais informações Ir para recurso Cadastro de Regulados Informações Adicionais Campo Valor Fonte https://dados.cvm.gov.br/dataset/adm_cart-cad Autor SIN - Superintendência de Supervisão de Investidores Institucionais Mantenedor Suporte a Sistemas CVM Última Atualização novembro 27, 2026, 11:00 (UTC) Criado maio 20, 2020, 17:08 (UTC) Base de Dados Cadastro de Regulados Periodicidade de atualização Diária VCGE http://vocab.e.gov.br/2011/03/vcge#mercado-capitais Dados Cadastrais de Administradores de Carteira.",
+        "frequency": "Dados e recursos Dicionário de Dados ZIP Descrição das colunas e dados Explorar Mais informações Ir para recurso Administradores de Carteira ZIP Dados cadastrais de Administradores de Carteira Explorar Mais informações Ir para recurso Cadastro de Regulados Informações Adicionais Campo Valor Fonte https://dados.cvm.gov.br/dataset/adm_cart-cad Autor SIN - Superintendência de Supervisão de Investidores Institucionais Mantenedor Suporte a Sistemas CVM Última Atualização novembro 27, 2026, 11:00 (UTC) Criado maio 20, 2020, 17:08 (UTC) Base de Dados Cadastro de Regulados Periodicidade de atualização Diária VCGE http://vocab.e.gov.br/2011/03/vcge#mercado-capitais Dados Cadastrais de Administradores de Carteira.",
+        "format": "ZIP",
+        "period": "Dados e recursos Dicionário de Dados ZIP Descrição das colunas e dados Explorar Mais informações Ir para recurso Administradores de Carteira ZIP Dados cadastrais de Administradores de Carteira Explorar Mais informações Ir para recurso Cadastro de Regulados Informações Adicionais Campo Valor Fonte https://dados.cvm.gov.br/dataset/adm_cart-cad Autor SIN - Superintendência de Supervisão de Investidores Institucionais Mantenedor Suporte a Sistemas CVM Última Atualização novembro 27, 2026, 11:00 (UTC) Criado maio 20, 2020, 17:08 (UTC) Base de Dados Cadastro de Regulados Periodicidade de atualização Diária VCGE http://vocab.e.gov.br/2011/03/vcge#mercado-capitais Dados Cadastrais de Administradores de Carteira.",
+        "granularity": "Não informado pela fonte oficial",
+        "geoUnit": "Não informado pela fonte oficial",
+        "api": "https://dados.cvm.gov.br/dados/ADM_CART/CAD/META/meta_cad_adm_cart.zip",
+        "docs": "https://dados.cvm.gov.br/dataset/adm_cart-cad",
+        "limitations": "A página consultada não detalha todas as limitações, a atualização e a qualidade do recurso; conferir documentação e licença antes do uso editorial.",
+        "lastChecked": "2026-11-27",
+        "url": "https://dados.cvm.gov.br/dataset/adm_cart-cad",
+        "description": "Dados Cadastrais de Administradores de Carteira. O conjunto de dados disponibiliza as informações cadastrais referentes ao último dia útil."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Radar evidence gate v1",
+        "reviewedAt": "2026-11-27",
+        "reviewPolicyVersion": "radar-evidence-v1",
+        "officialUrl": "https://dados.cvm.gov.br/dataset/adm_cart-cad",
+        "checkedAt": "2026-11-27T19:55:48.826Z",
+        "evidence": "Administradores de Carteira: Informação Cadastral - Conjunto de dados - Portal Dados Abertos CVM Skip to main content Início Organizações CVM Administradores de... Administradores de Carteira: Informação Cadastral Seguidores 0 CVM Não há descrição para essa organização Social Twitter Facebook Licença Licença Aberta para Bases de Dados (ODbL) do Open Data Commons Administradores de Carteira: Informação Cadastral Dados Cadastrais de Administradores de Carteira. O conjunto de dados disponibiliza as informações cadastrais referentes ao último dia útil . Dados e recursos Dicionário de Dados ZIP Descrição das colunas e dados Explorar Mais informações Ir para recurso Administradores de Carteira ZIP Dados cadastrais de Administradores de Carteira Explorar Mais informações Ir para recurso Cadastro de Regulados Informações Adicionais Campo Valor Fonte https://dados.cvm.gov.br/dataset/adm_cart-cad Autor SIN - Superintendência de Supervisão de Investidores Institucionais Mantenedor Suporte a Sistemas CVM Última Atualização novembro 27, 2026, 11:00 (UTC) Criado maio 20, 2020, 17:08 (UTC) Base de Dados Cadastro de Regulados Periodicidade de atualização Diária VCGE http://vocab.e.gov.br/2011/03/vcge#mercado-capitais",
+        "evidenceHash": "e6bc217a156fc08ccec1dde563c3be7bf8c469c0cefa45674ec0905b835b401f",
+        "sourceStatus": 200,
+        "contentType": "text/html; charset=utf-8",
+        "evidenceChecks": {
+          "datasetSignal": true,
+          "directResource": true,
+          "webAccess": true,
+          "format": true,
+          "coverage": true,
+          "license": true,
+          "licenseStatus": "stated"
+        }
+      }
+    },
+    {
+      "category": "datasets",
+      "record": {
+        "id": "auto-e7971ac46df9c109",
+        "name": "Cias Abertas: Documentos: Valores Mobiliários Negociados e Detidos",
+        "org": "Comissão de Valores Mobiliários (CVM)",
+        "territoryTier": "Outros",
+        "kind": "portal",
+        "themes": [
+          "Dados abertos"
+        ],
+        "coverage": "Histórico desde 2018 (incluindo arquivos não sujeitos à política de atualização) Dados e recursos Dicionário de Dados ZIP Descrição das colunas e dados Explorar Mais informações Ir para recurso Valores Mobiliários Negociados e Detidos (2021) ZIP Companhias Abertas - Valores Mobiliários Negociados e Detidos - Formulário...",
+        "frequency": "Histórico desde 2018 (incluindo arquivos não sujeitos à política de atualização) Dados e recursos Dicionário de Dados ZIP Descrição das colunas e dados Explorar Mais informações Ir para recurso Valores Mobiliários Negociados e Detidos (2021) ZIP Companhias Abertas - Valores Mobiliários Negociados e Detidos - Formulário...",
+        "format": "ZIP",
+        "period": "Não informado pela fonte oficial",
+        "granularity": "Não informado pela fonte oficial",
+        "geoUnit": "Não informado pela fonte oficial",
+        "api": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DOC/VLMO/META/meta_vlmo_cia_aberta.zip",
+        "docs": "https://dados.cvm.gov.br/dataset/cia_aberta-doc-vlmo",
+        "limitations": "A página consultada não detalha todas as limitações, a atualização e a qualidade do recurso; conferir documentação e licença antes do uso editorial.",
+        "lastChecked": "2026-11-27",
+        "url": "https://dados.cvm.gov.br/dataset/cia_aberta-doc-vlmo",
+        "description": "Valores Mobiliários Negociados e Detidos são informações de encaminhamento periódico à CVM, conforme previsto no artigo 11 da Resolução CVM nº 44. O envio das informações é realizado por meio do..."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Radar evidence gate v1",
+        "reviewedAt": "2026-11-27",
+        "reviewPolicyVersion": "radar-evidence-v1",
+        "officialUrl": "https://dados.cvm.gov.br/dataset/cia_aberta-doc-vlmo",
+        "checkedAt": "2026-11-27T19:55:48.938Z",
+        "evidence": "Cias Abertas: Documentos: Valores Mobiliários Negociados e Detidos - Conjunto de dados - Portal Dados Abertos CVM Skip to main content Início Organizações CVM Cias Abertas: Documentos:... Cias Abertas: Documentos: Valores Mobiliários Negociados e Detidos Seguidores 0 CVM Não há descrição para essa organização Social Twitter Facebook Licença Licença Aberta para Bases de Dados (ODbL) do Open Data Commons Cias Abertas: Documentos: Valores Mobiliários Negociados e Detidos Valores Mobiliários Negociados e Detidos são informações de encaminhamento periódico à CVM, conforme previsto no artigo 11 da Resolução CVM nº 44. O envio das informações é realizado por meio do Sistema Empresas.NET. O conjunto de dados disponibiliza os informes entregues nos últimos cinco anos . Os arquivos no conjunto de dados serão atualizados semanalmente com as eventuais reapresentações. Histórico desde 2018 (incluindo arquivos não sujeitos à política de atualização) Dados e recursos Dicionário de Dados ZIP Descrição das colunas e dados Explorar Mais informações Ir para recurso Valores Mobiliários Negociados e Detidos (2021) ZIP Companhias Abertas - Valores Mobiliários Negociados e Detidos - Formulário... Explorar Mais informações Ir para recurso Valores Mobiliários Negociados e Detidos (2022) ZIP Companhias Abertas - Valores Mobiliários Negociados e Detidos - Formulário... Explorar Mais informações Ir para recurso Valores Mobiliários Negociados e Detidos (2023) ZIP Companhias Abertas - Valores Mobiliários Negociados e Detidos - Formulário... Explorar Mais informações Ir para recurso Valores Mobiliários Negociados e Detidos (2024) ZIP Companhias Abertas - Valores Mobiliários Negociados e Detidos - Formulário... Explorar Mais informações Ir para recurso Valores Mobiliários Negociados e Detidos (2025) ZIP Companhias Abertas - Valores Mobiliários Negociados e Detidos - Formulário... Explorar Mais informações Ir para recurso Valores Mobiliários Negociados e Detidos (2026) ZIP Companhias Abertas - Valores Mobiliários Negociados e Detidos - Formulário... Explorar Mais informações Ir para recurso Documentos... Informações Adicionais Campo Valor Fonte https://dados.cvm.gov.br/dataset/cia_aberta-doc-vlmo Autor SEP - Superintendência de Relações com Empresas Mantenedor Suporte a Sistemas CVM Última Atualização novembro 26, 2026, 14:03 (UTC) Criado junho 26, 2023, 01:34 (UTC) Base de Dados Documentos Periódicos e Eventuais de Regulados Periodicidade de atualização Semanal VCGE http://vocab.e.gov.br/2011/03/vcge#mercado-capitais",
+        "evidenceHash": "57cc6aa00819836b78546ef04738655e70e508da7316d1c3ea8f6813ea955782",
+        "sourceStatus": 200,
+        "contentType": "text/html; charset=utf-8",
+        "evidenceChecks": {
+          "datasetSignal": true,
+          "directResource": true,
+          "webAccess": true,
+          "format": true,
+          "coverage": true,
+          "license": true,
+          "licenseStatus": "stated"
+        }
+      }
+    },
+    {
+      "category": "datasets",
+      "record": {
+        "id": "auto-f35425bef92f7679",
+        "name": "Processos Sancionadores",
+        "org": "Comissão de Valores Mobiliários (CVM)",
+        "territoryTier": "Outros",
+        "kind": "portal",
+        "themes": [
+          "Dados abertos"
+        ],
+        "coverage": "Informações Adicionais Campo Valor Fonte https://dados.cvm.gov.br/dataset/processo-sancionador Autor SPS - Superintendência de Processos Sancionadores Mantenedor Suporte a Sistemas CVM Última Atualização novembro 27, 2026, 11:00 (UTC) Criado maio 7, 2025, 14:41 (UTC) Base de Dados Processos e Documentos Administrativos Periodicidade de atualização Diária VCGE http://vocab.e.gov.br/2011/03/vcge#mercado-capitais Processos Administrativos Sancionadores (PAS) derivam de uma investigação realizada por meio de processo administrativo de caráter investigatório.",
+        "frequency": "Informações Adicionais Campo Valor Fonte https://dados.cvm.gov.br/dataset/processo-sancionador Autor SPS - Superintendência de Processos Sancionadores Mantenedor Suporte a Sistemas CVM Última Atualização novembro 27, 2026, 11:00 (UTC) Criado maio 7, 2025, 14:41 (UTC) Base de Dados Processos e Documentos Administrativos Periodicidade de atualização Diária VCGE http://vocab.e.gov.br/2011/03/vcge#mercado-capitais Processos Administrativos Sancionadores (PAS) derivam de uma investigação realizada por meio de processo administrativo de caráter investigatório.",
+        "format": "ZIP",
+        "period": "Informações Adicionais Campo Valor Fonte https://dados.cvm.gov.br/dataset/processo-sancionador Autor SPS - Superintendência de Processos Sancionadores Mantenedor Suporte a Sistemas CVM Última Atualização novembro 27, 2026, 11:00 (UTC) Criado maio 7, 2025, 14:41 (UTC) Base de Dados Processos e Documentos Administrativos Periodicidade de atualização Diária VCGE http://vocab.e.gov.br/2011/03/vcge#mercado-capitais Processos Administrativos Sancionadores (PAS) derivam de uma investigação realizada por meio de processo administrativo de caráter investigatório.",
+        "granularity": "Não informado pela fonte oficial",
+        "geoUnit": "Não informado pela fonte oficial",
+        "api": "https://dados.cvm.gov.br/dados/PROCESSO/SANCIONADOR/META/meta_processo_sancionador.zip",
+        "docs": "https://dados.cvm.gov.br/dataset/processo-sancionador",
+        "limitations": "A página consultada não detalha todas as limitações, a atualização e a qualidade do recurso; conferir documentação e licença antes do uso editorial.",
+        "lastChecked": "2026-11-27",
+        "url": "https://dados.cvm.gov.br/dataset/processo-sancionador",
+        "description": "Processos Administrativos Sancionadores (PAS) derivam de uma investigação realizada por meio de processo administrativo de caráter investigatório. São elaborados em uma das áreas técnicas da CVM,..."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Radar evidence gate v1",
+        "reviewedAt": "2026-11-27",
+        "reviewPolicyVersion": "radar-evidence-v1",
+        "officialUrl": "https://dados.cvm.gov.br/dataset/processo-sancionador",
+        "checkedAt": "2026-11-27T19:55:49.177Z",
+        "evidence": "Processos Sancionadores - Conjunto de dados - Portal Dados Abertos CVM Skip to main content Início Organizações CVM Processos Sancionadores Processos Sancionadores Seguidores 0 CVM Não há descrição para essa organização Social Twitter Facebook Licença Licença Aberta para Bases de Dados (ODbL) do Open Data Commons Processos Sancionadores Processos Administrativos Sancionadores (PAS) derivam de uma investigação realizada por meio de processo administrativo de caráter investigatório. São elaborados em uma das áreas técnicas da CVM, caso tenham sido encontrados indícios de autoria e materialidade, relativa a alguma irregularidade ocorrida no âmbito do mercado de capitais resultando em acusação. Consulta na Central de Sistemas da CVM: https://sistemas.cvm.gov.br/?PAS O conjunto de dados disponibiliza as informações básicas dos Processos Administrativos Sancionadores registrados no Sistema Sancionador Integrado (SSI) e que já tenham alcançado a fase 'Citação e envio de defesas'. O conjunto de dados é atualizado diariamente. Dados e recursos Dicionário de Dados ZIP Descrição das colunas e dados Explorar Mais informações Ir para recurso Processos Administrativos Sancionadores ZIP Dados básicos de Processos Administrativos Sancionadores (PAS) Explorar Mais informações Ir para recurso Processos e... Informações Adicionais Campo Valor Fonte https://dados.cvm.gov.br/dataset/processo-sancionador Autor SPS - Superintendência de Processos Sancionadores Mantenedor Suporte a Sistemas CVM Última Atualização novembro 27, 2026, 11:00 (UTC) Criado maio 7, 2025, 14:41 (UTC) Base de Dados Processos e Documentos Administrativos Periodicidade de atualização Diária VCGE http://vocab.e.gov.br/2011/03/vcge#mercado-capitais",
+        "evidenceHash": "7cf8ec287f0f6fb395e4be7b64f5a8bedbd1c36ba7759bf71b410ac0b2e8e48e",
+        "sourceStatus": 200,
+        "contentType": "text/html; charset=utf-8",
+        "evidenceChecks": {
+          "datasetSignal": true,
+          "directResource": true,
+          "webAccess": true,
+          "format": true,
+          "coverage": true,
+          "license": true,
+          "licenseStatus": "stated"
+        }
+      }
+    },
+    {
+      "category": "datasets",
+      "record": {
+        "id": "auto-f4a1c3f519f8f6ea",
+        "name": "FII: Documentos: Informe Mensal Estruturado",
+        "org": "Comissão de Valores Mobiliários (CVM)",
+        "territoryTier": "Outros",
+        "kind": "portal",
+        "themes": [
+          "Dados abertos"
+        ],
+        "coverage": "FII: Documentos: Informe Mensal Estruturado Seguidores 0 CVM Não há descrição para essa organização Social Twitter Facebook Licença Licença Aberta para Bases de Dados (ODbL) do Open Data Commons FII: Documentos: Informe Mensal Estruturado O Informe Mensal de Fundo Imobiliário é um documento eletrônico de encaminhamento periódico, definido no ANEXO 39-I da Instrução CVM nº 571/2015, cujo encaminhamento à CVM deve se dar por meio do Sistema Fundos.NET.",
+        "frequency": "FII: Documentos: Informe Mensal Estruturado - Conjunto de dados - Portal Dados Abertos CVM Skip to main content Início Organizações CVM FII: Documentos: Informe...",
+        "format": "ZIP",
+        "period": "Não informado pela fonte oficial",
+        "granularity": "Não informado pela fonte oficial",
+        "geoUnit": "Não informado pela fonte oficial",
+        "api": "https://dados.cvm.gov.br/dados/FII/DOC/INF_MENSAL/META/meta_inf_mensal_fii.zip",
+        "docs": "https://dados.cvm.gov.br/dataset/fii-doc-inf_mensal",
+        "limitations": "A página consultada não detalha todas as limitações, a atualização e a qualidade do recurso; conferir documentação e licença antes do uso editorial.",
+        "lastChecked": "2026-11-27",
+        "url": "https://dados.cvm.gov.br/dataset/fii-doc-inf_mensal",
+        "description": "O Informe Mensal de Fundo Imobiliário é um documento eletrônico de encaminhamento periódico, definido no ANEXO 39-I da Instrução CVM nº 571/2015, cujo encaminhamento à CVM deve se dar por meio do..."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Radar evidence gate v1",
+        "reviewedAt": "2026-11-27",
+        "reviewPolicyVersion": "radar-evidence-v1",
+        "officialUrl": "https://dados.cvm.gov.br/dataset/fii-doc-inf_mensal",
+        "checkedAt": "2026-11-27T19:55:49.290Z",
+        "evidence": "FII: Documentos: Informe Mensal Estruturado - Conjunto de dados - Portal Dados Abertos CVM Skip to main content Início Organizações CVM FII: Documentos: Informe... FII: Documentos: Informe Mensal Estruturado Seguidores 0 CVM Não há descrição para essa organização Social Twitter Facebook Licença Licença Aberta para Bases de Dados (ODbL) do Open Data Commons FII: Documentos: Informe Mensal Estruturado O Informe Mensal de Fundo Imobiliário é um documento eletrônico de encaminhamento periódico, definido no ANEXO 39-I da Instrução CVM nº 571/2015, cujo encaminhamento à CVM deve se dar por meio do Sistema Fundos.NET. O conjunto de dados disponibiliza os informes mensais referentes aos últimos cinco anos : Os arquivos serão atualizados semanalmente com as eventuais reapresentações. Histórico desde 2016 (incluindo arquivos não sujeitos à política de atualização) Dados e recursos Dicionário de Dados ZIP Descrição das colunas e dados Explorar Mais informações Ir para recurso Informes Mensais Estruturados de Fundos de... ZIP FII - Informes Mensais Estruturados (2021) Explorar Mais informações Ir para recurso Informes Mensais Estruturados de Fundos de... ZIP FII - Informes Mensais Estruturados (2022) Explorar Mais informações Ir para recurso Informes Mensais Estruturados de Fundos de... ZIP FII - Informes Mensais Estruturados (2023) Explorar Mais informações Ir para recurso Informes Mensais Estruturados de Fundos de... ZIP FII - Informes Mensais Estruturados (2024) Explorar Mais informações Ir para recurso Informes Mensais Estruturados de Fundos de... ZIP FII - Informes Mensais Estruturados (2025) Explorar Mais informações Ir para recurso Informes Mensais Estruturados de Fundos de... ZIP FII - Informes Mensais Estruturados (2026) Explorar Mais informações Ir para recurso Documentos... Informações Adicionais Campo Valor Fonte https://dados.cvm.gov.br/dataset/fii-doc-inf_mensal Autor SSE - Superintendência de Supervisão de Securitização Mantenedor Suporte a Sistemas CVM Última Atualização novembro 23, 2026, 11:01 (UTC) Criado setembro 20, 2021, 01:59 (UTC) Base de Dados Documentos Periódicos e Eventuais de Regulados Periodicidade de atualização Semanal VCGE http://vocab.e.gov.br/2011/03/vcge#mercado-capitais",
+        "evidenceHash": "68fb182fbd97cfea1cecf8f9fa46a387cc5cb5df564fe4a7374731efe5235a34",
+        "sourceStatus": 200,
+        "contentType": "text/html; charset=utf-8",
+        "evidenceChecks": {
+          "datasetSignal": true,
+          "directResource": true,
+          "webAccess": true,
+          "format": true,
+          "coverage": true,
+          "license": true,
+          "licenseStatus": "stated"
+        }
+      }
+    },
+    {
+      "category": "datasets",
+      "record": {
+        "id": "auto-f612dfb08a219292",
+        "name": "Cias Abertas: Documentos: Formulário de Demonstrações Financeiras Padronizadas (DFP)",
+        "org": "Comissão de Valores Mobiliários (CVM)",
+        "territoryTier": "Outros",
+        "kind": "portal",
+        "themes": [
+          "Dados abertos"
+        ],
+        "coverage": "O conjunto de dados disponibiliza as seguintes demonstrações financeiras entregues nos últimos cinco anos : Balanço Patrimonial Ativo (BPA) Balanço Patrimonial Passivo (BPP) Demonstração de Fluxo de Caixa - Método Direto (DFC-MD) Demonstração de Fluxo de Caixa - Método Indireto (DFC-MI) Demonstração das Mutações do Patrimônio Líquido (DMPL) Demonstração de Resultado Abrangente (DRA) Demonstração de Resultado (DRE) Demonstração de Valor Adicionado (DVA) Nessas demonstrações, são incluídas as linhas referentes aos elencos de contas fixas e não fixas .",
+        "frequency": "Histórico desde 2010 (incluindo arquivos não sujeitos à política de atualização) Dados e recursos Dicionário de Dados ZIP Descrição das colunas e dados Explorar Mais informações Ir para recurso Formulários de Demonstrações Financeiras...",
+        "format": "ZIP",
+        "period": "Não informado pela fonte oficial",
+        "granularity": "Não informado pela fonte oficial",
+        "geoUnit": "Não informado pela fonte oficial",
+        "api": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DOC/DFP/META/meta_dfp_cia_aberta_txt.zip",
+        "docs": "https://dados.cvm.gov.br/dataset/cia_aberta-doc-dfp",
+        "limitations": "A página consultada não detalha todas as limitações, a atualização e a qualidade do recurso; conferir documentação e licença antes do uso editorial.",
+        "lastChecked": "2026-11-27",
+        "url": "https://dados.cvm.gov.br/dataset/cia_aberta-doc-dfp",
+        "description": "O FORMULÁRIO DE DEMONSTRAÇÕES FINANCEIRAS PADRONIZADAS (DFP) é um documento eletrônico, de encaminhamento periódico previsto no artigo 22, inciso IV, da Resolução CVM nº 80/22, cujo encaminhamento..."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Radar evidence gate v1",
+        "reviewedAt": "2026-11-27",
+        "reviewPolicyVersion": "radar-evidence-v1",
+        "officialUrl": "https://dados.cvm.gov.br/dataset/cia_aberta-doc-dfp",
+        "checkedAt": "2026-11-27T19:55:49.443Z",
+        "evidence": "Cias Abertas: Documentos: Formulário de Demonstrações Financeiras Padronizadas (DFP) - Conjunto de dados - Portal Dados Abertos CVM Skip to main content Início Organizações CVM Cias Abertas: Documentos:... Cias Abertas: Documentos: Formulário de Demonstrações Financeiras Padronizadas (DFP) Seguidores 0 CVM Não há descrição para essa organização Social Twitter Facebook Licença Licença Aberta para Bases de Dados (ODbL) do Open Data Commons Cias Abertas: Documentos: Formulário de Demonstrações Financeiras Padronizadas (DFP) O FORMULÁRIO DE DEMONSTRAÇÕES FINANCEIRAS PADRONIZADAS (DFP) é um documento eletrônico, de encaminhamento periódico previsto no artigo 22, inciso IV, da Resolução CVM nº 80/22, cujo encaminhamento à CVM deve se dar por meio do Sistema Empresas.NET. Segundo o artigo 30 da Resolução CVM nº 80/22, o fomulário DFP deverá ser preenchido com os dados das demonstrações financeiras elaboradas de acordo com as regras contábeis aplicáveis ao emissor, nos termos dos 27 a 29 artigos da Resolução. O conjunto de dados disponibiliza as seguintes demonstrações financeiras entregues nos últimos cinco anos : Balanço Patrimonial Ativo (BPA) Balanço Patrimonial Passivo (BPP) Demonstração de Fluxo de Caixa - Método Direto (DFC-MD) Demonstração de Fluxo de Caixa - Método Indireto (DFC-MI) Demonstração das Mutações do Patrimônio Líquido (DMPL) Demonstração de Resultado Abrangente (DRA) Demonstração de Resultado (DRE) Demonstração de Valor Adicionado (DVA) Nessas demonstrações, são incluídas as linhas referentes aos elencos de contas fixas e não fixas . O conjunto de dados também disponibiliza as seções Pareceres e Declarações e Dados da Empresa/Composição do Capital , além dos endereços para download dos Formulários DFP entregues no mesmo período. Para abrir os documentos baixados, é necessária a instalação do programa Empresas.NET Os arquivos serão atualizados semanalmente com as eventuais reapresentações. Histórico desde 2010 (incluindo arquivos não sujeitos à política de atualização) Dados e recursos Dicionário de Dados ZIP Descrição das colunas e dados Explorar Mais informações Ir para recurso Formulários de Demonstrações Financeiras... ZIP Companhias Abertas - Formulário de Demonstrações Financeiras Padronizadas... Explorar Mais informações Ir para recurso Formulários de Demonstrações Financeiras... ZIP Companhias Abertas - Formulário de Demonstrações Financeiras Padronizadas... Explorar Mais informações Ir para recurso Formulários de Demonstrações Financeiras... ZIP Companhias Abertas - Formulário de Demonstrações Financeiras Padronizadas... Explorar Mais informações Ir para recurso Formulários de Demonstrações Financeiras... ZIP Companhias Abertas - Formulário de Demonstrações Financeiras Padronizadas... Explorar Mais informações Ir para recurso Formulários de Demonstrações Financeiras... ZIP Companhias Abertas - Formulário de Demonstrações Financeiras Padronizadas... Explorar Mais informações Ir para recurso Formulários de Demonstrações Financeiras... ZIP Companhias Abertas - Formulário de Demonstrações Financeiras Padronizadas... Explorar Mais informações Ir para recurso Documentos... Informações Adicionais Campo Valor Fonte https://dados.cvm.gov.br/dataset/cia_aberta-doc-dfp Autor SEP - Superintendência de Relações com Empresas Mantenedor Suporte a Sistemas CVM Última Atualização novembro 23, 2026, 11:01 (UTC) Criado julho 29, 2020, 23:43 (UTC) Base de Dados Documentos Periódicos e Eventuais de Regulados Periodicidade de atualização Semanal VCGE http://vocab.e.gov.br/2011/03/vcge#mercado-capitais",
+        "evidenceHash": "964cc2b26181f7b3b506fa095fb5a2fb01463c9952126167d8e1561dd365226e",
+        "sourceStatus": 200,
+        "contentType": "text/html; charset=utf-8",
+        "evidenceChecks": {
+          "datasetSignal": true,
+          "directResource": true,
+          "webAccess": true,
+          "format": true,
+          "coverage": true,
+          "license": true,
+          "licenseStatus": "stated"
+        }
+      }
+    },
+    {
+      "category": "datasets",
+      "record": {
+        "id": "auto-0cafceaec29768c1",
+        "name": "Cias Abertas: Documentos: Informe do Código de Governança (ICBGC)",
+        "org": "Comissão de Valores Mobiliários (CVM)",
+        "territoryTier": "Outros",
+        "kind": "portal",
+        "themes": [
+          "Dados abertos"
+        ],
+        "coverage": "Histórico desde 2018 (incluindo arquivos não sujeitos à política de atualização) Dados e recursos Dicionário de Dados ZIP Descrição das colunas e dados Explorar Mais informações Ir para recurso Informes do Código de Governança de Cias Abertas (2021) ZIP Companhias Abertas - Informe do Código de Governança (2021) Explorar Mais informações Ir para recurso Informes do Código de Governança de Cias Abertas (2022) ZIP Companhias Abertas - Informe do Código de Governança (2022) Explorar Mais informações Ir para recurso Informes do Código de Governança de Cias Abertas (2023) ZIP Companhias Abertas - Informe do Código de Governança (2023) Explorar Mais informações Ir para recurso Informes do Código de Governança de Cias Abertas (2024) ZIP Companhias Abertas - Informe do Código de Governança (ICBGC) (2024) Explorar Mais informações Ir para recurso Informes do Código de Governança de Cias Abertas (",
+        "frequency": "Histórico desde 2018 (incluindo arquivos não sujeitos à política de atualização) Dados e recursos Dicionário de Dados ZIP Descrição das colunas e dados Explorar Mais informações Ir para recurso Informes do Código de Governança de Cias Abertas (2021) ZIP Companhias Abertas - Informe do Código de Governança (2021) Explorar Mais informações Ir para recurso Informes do Código de Governança de Cias Abertas (2022) ZIP Companhias Abertas - Informe do Código de Governança (2022) Explorar Mais informações Ir para recurso Informes do Código de Governança de Cias Abertas (2023) ZIP Companhias Abertas - Informe do Código de Governança (2023) Explorar Mais informações Ir para recurso Informes do Código de Governança de Cias Abertas (2024) ZIP Companhias Abertas - Informe do Código de Governança (ICBGC) (2024) Explorar Mais informações Ir para recurso Informes do Código de Governança de Cias Abertas (",
+        "format": "ZIP",
+        "period": "Informações Adicionais Campo Valor Fonte https://dados.cvm.gov.br/dataset/cia_aberta-doc-cgvn Autor SEP - Superintendência de Relações com Empresas Mantenedor Suporte a Sistemas CVM Última Atualização novembro 23, 2026, 11:01 (UTC) Criado abril 1, 2023, 01:21 (UTC) Base de Dados Documentos Periódicos e Eventuais de Regulados Periodicidade de atualização Semanal VCGE http://vocab.e.gov.br/2011/03/vcge#mercado-capitais O Informe do Código de Governança (ICBGC) é um documento eletrônico, de encaminhamento periódico previsto no artigo 32 da Resolução CVM nº 80, cujo encaminhamento à CVM deve se dar por meio do...",
+        "granularity": "Não informado pela fonte oficial",
+        "geoUnit": "Não informado pela fonte oficial",
+        "api": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DOC/CGVN/META/meta_cgvn_cia_aberta.zip",
+        "docs": "https://dados.cvm.gov.br/dataset/cia_aberta-doc-cgvn",
+        "limitations": "A página consultada não detalha todas as limitações, a atualização e a qualidade do recurso; conferir documentação e licença antes do uso editorial.",
+        "lastChecked": "2026-11-27",
+        "url": "https://dados.cvm.gov.br/dataset/cia_aberta-doc-cgvn",
+        "description": "O Informe do Código de Governança (ICBGC) é um documento eletrônico, de encaminhamento periódico previsto no artigo 32 da Resolução CVM nº 80, cujo encaminhamento à CVM deve se dar por meio do..."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Radar evidence gate v1",
+        "reviewedAt": "2026-11-27",
+        "reviewPolicyVersion": "radar-evidence-v1",
+        "officialUrl": "https://dados.cvm.gov.br/dataset/cia_aberta-doc-cgvn",
+        "checkedAt": "2026-11-27T19:55:49.823Z",
+        "evidence": "Cias Abertas: Documentos: Informe do Código de Governança (ICBGC) - Conjunto de dados - Portal Dados Abertos CVM Skip to main content Início Organizações CVM Cias Abertas: Documentos:... Cias Abertas: Documentos: Informe do Código de Governança (ICBGC) Seguidores 0 CVM Não há descrição para essa organização Social Twitter Facebook Licença Licença Aberta para Bases de Dados (ODbL) do Open Data Commons Cias Abertas: Documentos: Informe do Código de Governança (ICBGC) O Informe do Código de Governança (ICBGC) é um documento eletrônico, de encaminhamento periódico previsto no artigo 32 da Resolução CVM nº 80, cujo encaminhamento à CVM deve se dar por meio do Sistema Empresas.NET. O conjunto de dados disponibiliza os informes entregues nos últimos cinco anos . Os arquivos no conjunto de dados serão atualizados semanalmente com as eventuais reapresentações. Histórico desde 2018 (incluindo arquivos não sujeitos à política de atualização) Dados e recursos Dicionário de Dados ZIP Descrição das colunas e dados Explorar Mais informações Ir para recurso Informes do Código de Governança de Cias Abertas (2021) ZIP Companhias Abertas - Informe do Código de Governança (2021) Explorar Mais informações Ir para recurso Informes do Código de Governança de Cias Abertas (2022) ZIP Companhias Abertas - Informe do Código de Governança (2022) Explorar Mais informações Ir para recurso Informes do Código de Governança de Cias Abertas (2023) ZIP Companhias Abertas - Informe do Código de Governança (2023) Explorar Mais informações Ir para recurso Informes do Código de Governança de Cias Abertas (2024) ZIP Companhias Abertas - Informe do Código de Governança (ICBGC) (2024) Explorar Mais informações Ir para recurso Informes do Código de Governança de Cias Abertas (2025) ZIP Companhias Abertas - Informe do Código de Governança (ICBGC) (2025) Explorar Mais informações Ir para recurso Informes do Código de Governança de Cias Abertas (2026) ZIP Companhias Abertas - Informe do Código de Governança (ICBGC) (2026) Explorar Mais informações Ir para recurso Documentos... Informações Adicionais Campo Valor Fonte https://dados.cvm.gov.br/dataset/cia_aberta-doc-cgvn Autor SEP - Superintendência de Relações com Empresas Mantenedor Suporte a Sistemas CVM Última Atualização novembro 23, 2026, 11:01 (UTC) Criado abril 1, 2023, 01:21 (UTC) Base de Dados Documentos Periódicos e Eventuais de Regulados Periodicidade de atualização Semanal VCGE http://vocab.e.gov.br/2011/03/vcge#mercado-capitais",
+        "evidenceHash": "af036e8e7abcf7064ae796afc03448a67ddd10c935bb603485b3e0e97d227998",
+        "sourceStatus": 200,
+        "contentType": "text/html; charset=utf-8",
+        "evidenceChecks": {
+          "datasetSignal": true,
+          "directResource": true,
+          "webAccess": true,
+          "format": true,
+          "coverage": true,
+          "license": true,
+          "licenseStatus": "stated"
+        }
+      }
+    },
+    {
+      "category": "datasets",
+      "record": {
+        "id": "auto-26be25265da6a03e",
+        "name": "Securitizadoras: Documentos: Demonstrações Financeiras de CRA",
+        "org": "Comissão de Valores Mobiliários (CVM)",
+        "territoryTier": "Outros",
+        "kind": "portal",
+        "themes": [
+          "Dados abertos"
+        ],
+        "coverage": "Histórico desde 2019 (incluindo arquivos não sujeitos à política de atualização) Dados e recursos Dicionário de Dados TXT Descrição das colunas e dados Explorar Mais informações Ir para recurso Demonstrações Financeiras de CRA (2021) CSV Securitizadoras - Demonstrações Financeiras de Certificados de Recebíveis do...",
+        "frequency": "Histórico desde 2019 (incluindo arquivos não sujeitos à política de atualização) Dados e recursos Dicionário de Dados TXT Descrição das colunas e dados Explorar Mais informações Ir para recurso Demonstrações Financeiras de CRA (2021) CSV Securitizadoras - Demonstrações Financeiras de Certificados de Recebíveis do...",
+        "format": "CSV",
+        "period": "Não informado pela fonte oficial",
+        "granularity": "Não informado pela fonte oficial",
+        "geoUnit": "Não informado pela fonte oficial",
+        "api": "https://dados.cvm.gov.br/dados/SECURIT/DOC/DFIN_CRA/DADOS/dfin_cra_2021.csv",
+        "docs": "https://dados.cvm.gov.br/dataset/securit-doc-dfin_cra",
+        "limitations": "A página consultada não detalha todas as limitações, a atualização e a qualidade do recurso; conferir documentação e licença antes do uso editorial.",
+        "lastChecked": "2026-11-27",
+        "url": "https://dados.cvm.gov.br/dataset/securit-doc-dfin_cra",
+        "description": "As Demonstrações Financeiras de Certificados de Recebíveis do Agronegócio são documentos eletrônicos de encaminhamento periódico, previstos no artigo 47, inciso VIII, da Resolução CVMº 60, cujo..."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Radar evidence gate v1",
+        "reviewedAt": "2026-11-27",
+        "reviewPolicyVersion": "radar-evidence-v1",
+        "officialUrl": "https://dados.cvm.gov.br/dataset/securit-doc-dfin_cra",
+        "checkedAt": "2026-11-27T19:55:51.680Z",
+        "evidence": "Securitizadoras: Documentos: Demonstrações Financeiras de CRA - Conjunto de dados - Portal Dados Abertos CVM Skip to main content Início Organizações CVM Securitizadoras:... Securitizadoras: Documentos: Demonstrações Financeiras de CRA Seguidores 0 CVM Não há descrição para essa organização Social Twitter Facebook Licença Licença Aberta para Bases de Dados (ODbL) do Open Data Commons Securitizadoras: Documentos: Demonstrações Financeiras de CRA As Demonstrações Financeiras de Certificados de Recebíveis do Agronegócio são documentos eletrônicos de encaminhamento periódico, previstos no artigo 47, inciso VIII, da Resolução CVMº 60, cujo encaminhamento à CVM deve se dar por meio do Sistema Fundos.NET. O conjunto de dados disponibiliza as demonstrações financeiras referentes aos últimos cinco anos : Os arquivos serão atualizados semanalmente com as eventuais reapresentações. Histórico desde 2019 (incluindo arquivos não sujeitos à política de atualização) Dados e recursos Dicionário de Dados TXT Descrição das colunas e dados Explorar Mais informações Ir para recurso Demonstrações Financeiras de CRA (2021) CSV Securitizadoras - Demonstrações Financeiras de Certificados de Recebíveis do... Explorar Mais informações Ir para recurso Demonstrações Financeiras de CRA (2022) CSV Securitizadoras - Demonstrações Financeiras de Certificados de Recebíveis do... Explorar Mais informações Ir para recurso Demonstrações Financeiras de CRA (2023) CSV Securitizadoras - Demonstrações Financeiras de Certificados de Recebíveis do... Explorar Mais informações Ir para recurso Demonstrações Financeiras de CRA (2024) CSV Securitizadoras - Demonstrações Financeiras de Certificados de Recebíveis do... Explorar Mais informações Ir para recurso Demonstrações Financeiras de CRA (2025) CSV Securitizadoras - Demonstrações Financeiras de Certificados de Recebíveis do... Explorar Mais informações Ir para recurso Demonstrações Financeiras de CRA (2026) CSV Securitizadoras - Demonstrações Financeiras de Certificados de Recebíveis do... Explorar Mais informações Ir para recurso Documentos... Informações Adicionais Campo Valor Fonte https://dados.cvm.gov.br/dataset/securit-doc-dfin_cra Autor SSE - Superintendência de Supervisão de Securitização Mantenedor Suporte a Sistemas CVM Última Atualização novembro 23, 2026, 11:01 (UTC) Criado outubro 2, 2023, 22:25 (UTC) Base de Dados Documentos Periódicos e Eventuais de Regulados Periodicidade de atualização Semanal VCGE http://vocab.e.gov.br/2011/03/vcge#mercado-capitais",
+        "evidenceHash": "c6d215136a52223cb145e16d1c70b88f1c5b1ecf17c30f74d5c133e011b1c4d5",
+        "sourceStatus": 200,
+        "contentType": "text/html; charset=utf-8",
+        "evidenceChecks": {
+          "datasetSignal": true,
+          "directResource": true,
+          "webAccess": true,
+          "format": true,
+          "coverage": true,
+          "license": true,
+          "licenseStatus": "stated"
+        }
+      }
+    },
+    {
+      "category": "datasets",
+      "record": {
+        "id": "auto-33bff49dbea03538",
+        "name": "Cias Abertas: Documentos: Periódicos e Eventuais (IPE)",
+        "org": "Comissão de Valores Mobiliários (CVM)",
+        "territoryTier": "Outros",
+        "kind": "portal",
+        "themes": [
+          "Dados abertos"
+        ],
+        "coverage": "Histórico desde 2003 (incluindo arquivos não sujeitos à política de atualização) Dados e recursos Dicionário de Dados TXT Descrição das colunas e dados Explorar Mais informações Ir para recurso Documentos Periódicos e Eventuais de Cias...",
+        "frequency": "Categorias de documentos neste conjunto: Acordo de Acionistas Assembleia Ato Homologatório emitido pelo Banco Central Aviso aos Acionistas Aviso aos Debenturistas BDR Não Patrocinado - Descritivo Operacional do Programa Calendário de Eventos Corporativos Carta Anual de Governança Corporativa Código de Conduta Comunicação sobre Transação entre Partes Relacionadas Comunicado ao Mercado Contratos de Indenidade Dados cadastrais de companhias incentivadas Dados Econômico-Financeiros Documentos de Oferta de Distribuição Pública Escrituras e aditamentos de debêntures Estatuto Social Fato Relevante Informação Prestada às Bolsas Estrangeiras Informações Companhias em Falência Informações Companhias em Liquidação Informações de Companhias em Recuperação Judicial ou Extrajudicial Informações sobre acordos de acionistas previstas no art.",
+        "format": "ZIP",
+        "period": "Não informado pela fonte oficial",
+        "granularity": "Não informado pela fonte oficial",
+        "geoUnit": "Não informado pela fonte oficial",
+        "api": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DOC/IPE/DADOS/ipe_cia_aberta_2021.zip",
+        "docs": "https://dados.cvm.gov.br/dataset/cia_aberta-doc-ipe",
+        "limitations": "A página consultada não detalha todas as limitações, a atualização e a qualidade do recurso; conferir documentação e licença antes do uso editorial.",
+        "lastChecked": "2026-11-27",
+        "url": "https://dados.cvm.gov.br/dataset/cia_aberta-doc-ipe",
+        "description": "O conjunto de dados disponibiliza os documentos não estruturados de companhias (Periódicos e eventuais do IPE) entregues nos últimos cinco anos. Categorias de documentos neste conjunto: Acordo de..."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Radar evidence gate v1",
+        "reviewedAt": "2026-11-27",
+        "reviewPolicyVersion": "radar-evidence-v1",
+        "officialUrl": "https://dados.cvm.gov.br/dataset/cia_aberta-doc-ipe",
+        "checkedAt": "2026-11-27T19:55:52.348Z",
+        "evidence": "Cias Abertas: Documentos: Periódicos e Eventuais (IPE) - Conjunto de dados - Portal Dados Abertos CVM Skip to main content Início Organizações CVM Cias Abertas: Documentos:... Cias Abertas: Documentos: Periódicos e Eventuais (IPE) Seguidores 0 CVM Não há descrição para essa organização Social Twitter Facebook Licença Licença Aberta para Bases de Dados (ODbL) do Open Data Commons Cias Abertas: Documentos: Periódicos e Eventuais (IPE) O conjunto de dados disponibiliza os documentos não estruturados de companhias (Periódicos e eventuais do IPE) entregues nos últimos cinco anos . Categorias de documentos neste conjunto: Acordo de Acionistas Assembleia Ato Homologatório emitido pelo Banco Central Aviso aos Acionistas Aviso aos Debenturistas BDR Não Patrocinado - Descritivo Operacional do Programa Calendário de Eventos Corporativos Carta Anual de Governança Corporativa Código de Conduta Comunicação sobre Transação entre Partes Relacionadas Comunicado ao Mercado Contratos de Indenidade Dados cadastrais de companhias incentivadas Dados Econômico-Financeiros Documentos de Oferta de Distribuição Pública Escrituras e aditamentos de debêntures Estatuto Social Fato Relevante Informação Prestada às Bolsas Estrangeiras Informações Companhias em Falência Informações Companhias em Liquidação Informações de Companhias em Recuperação Judicial ou Extrajudicial Informações sobre acordos de acionistas previstas no art. 30, XIX, IN 480/09 OPA - Edital de Oferta Pública de Ações Plano de Remuneração Baseado em Ações Plano de Remuneração Baseado em Ações (exceto Plano de Opções) Política de Destinação de Resultados Política de Dividendos Política de Divulgação de Ato ou Fato Relevante Política de Gerenciamento de Riscos Política de indicação Política de Negociação das Ações da Companhia Política de Negociação de Valores Mobiliários Política de Remuneração Política de Sustentabilidade Política de Transações entre Partes Relacionadas Política para Contratação de Serviços Extra-Auditoria de seus Auditores Independentes Política sobre Contribuições e Doações Regimento Interno da Diretoria Regimento interno de Comitês Regimento Interno do Comitê de Auditoria Estatutário Regimento interno do Conselho de Administração Regimento interno do Conselho Fiscal Relatório de Sustentabilidade Reunião da Administração Valores Mobiliários negociados e detidos (art. 11 da Instr. CVM nº 358) Os arquivos agrupam os documentos por ano de entrega do documento. Os arquivos referentes ao ano corrente a anterior (A-1) serão atualizados semanalmente com as eventuais reapresentações. Histórico desde 2003 (incluindo arquivos não sujeitos à política de atualização) Dados e recursos Dicionário de Dados TXT Descrição das colunas e dados Explorar Mais informações Ir para recurso Documentos Periódicos e Eventuais de Cias... ZIP Companhias Abertas - Documentos Periódicos e Eventuais (IPE) (2021) Explorar Mais informações Ir para recurso Documentos Periódicos e Eventuais de Cias... ZIP Companhias Abertas - Documentos Periódicos e Eventuais (IPE) (2022) Explorar Mais informações Ir para recurso Documentos Periódicos e Eventuais de Cias... ZIP Companhias Abertas - Documentos Periódicos e Eventuais (IPE) (2023) Explorar Mais informações Ir para recurso Documentos Periódicos e Eventuais de Cias... ZIP Companhias Abertas - Documentos Periódicos e Eventuais (IPE) (2024) Explorar Mais informações Ir para recurso Documentos Periódicos e Eventuais de Cias... ZIP Companhias Abertas - Documentos Periódicos e Eventuais (IPE) (2025) Explorar Mais informações Ir para recurso Documentos Periódicos e Eventuais de Cias... ZIP Companhias Abertas - Documentos Periódicos e Eventuais (IPE) (2026) Explorar Mais informações Ir para recurso Documentos... Informações Adicionais Campo Valor Fonte https://dados.cvm.gov.br/dataset/cia_aberta-doc-ipe Autor SEP - Superintendência de Relações com Empresas Mantenedor Suporte a Sistemas CVM Última Atualização novembro 23, 2026, 11:01 (UTC) Criado fevereiro 27, 2021, 16:57 (UTC) Base de Dados Documentos Periódicos e Eventuais de Regulados Periodicidade de atualização Semanal VCGE http://vocab.e.gov.br/2011/03/vcge#mercado-capitais",
+        "evidenceHash": "a2015893675f0fe18bebaa5dbd5d28b4a7f2cb0a09df029e8b3ed19a34686eb4",
+        "sourceStatus": 200,
+        "contentType": "text/html; charset=utf-8",
+        "evidenceChecks": {
+          "datasetSignal": true,
+          "directResource": true,
+          "webAccess": true,
+          "format": true,
+          "coverage": true,
+          "license": true,
+          "licenseStatus": "stated"
+        }
+      }
+    },
+    {
+      "category": "datasets",
+      "record": {
+        "id": "auto-347f12fca921fdf1",
+        "name": "Administradores de FII: Informação Cadastral",
+        "org": "Comissão de Valores Mobiliários (CVM)",
+        "territoryTier": "Outros",
+        "kind": "portal",
+        "themes": [
+          "Dados abertos"
+        ],
+        "coverage": "Dados e recursos Dicionário de Dados TXT Descrição das colunas e dados Explorar Mais informações Ir para recurso Administradores de FII CSV Dados Cadastrais de Administradores de Fundo de Investimento Imobiliário Explorar Mais informações Ir para recurso Cadastro de Regulados Informações Adicionais Campo Valor Fonte https://dados.cvm.gov.br/dataset/adm_fii-cad Autor SIN - Superintendência de Supervisão de Investidores Institucionais Mantenedor Suporte a Sistemas CVM Última Atualização novembro 27, 2026, 11:00 (UTC) Criado maio 20, 2020, 19:33 (UTC) Base de Dados Cadastro de Regulados Periodicidade de atualização Diária VCGE http://vocab.e.gov.br/2011/03/vcge#mercado-capitais Dados cadastrais de Administradores de Fundos de Investimento Imobiliário.",
+        "frequency": "Dados e recursos Dicionário de Dados TXT Descrição das colunas e dados Explorar Mais informações Ir para recurso Administradores de FII CSV Dados Cadastrais de Administradores de Fundo de Investimento Imobiliário Explorar Mais informações Ir para recurso Cadastro de Regulados Informações Adicionais Campo Valor Fonte https://dados.cvm.gov.br/dataset/adm_fii-cad Autor SIN - Superintendência de Supervisão de Investidores Institucionais Mantenedor Suporte a Sistemas CVM Última Atualização novembro 27, 2026, 11:00 (UTC) Criado maio 20, 2020, 19:33 (UTC) Base de Dados Cadastro de Regulados Periodicidade de atualização Diária VCGE http://vocab.e.gov.br/2011/03/vcge#mercado-capitais Dados cadastrais de Administradores de Fundos de Investimento Imobiliário.",
+        "format": "CSV",
+        "period": "Dados e recursos Dicionário de Dados TXT Descrição das colunas e dados Explorar Mais informações Ir para recurso Administradores de FII CSV Dados Cadastrais de Administradores de Fundo de Investimento Imobiliário Explorar Mais informações Ir para recurso Cadastro de Regulados Informações Adicionais Campo Valor Fonte https://dados.cvm.gov.br/dataset/adm_fii-cad Autor SIN - Superintendência de Supervisão de Investidores Institucionais Mantenedor Suporte a Sistemas CVM Última Atualização novembro 27, 2026, 11:00 (UTC) Criado maio 20, 2020, 19:33 (UTC) Base de Dados Cadastro de Regulados Periodicidade de atualização Diária VCGE http://vocab.e.gov.br/2011/03/vcge#mercado-capitais Dados cadastrais de Administradores de Fundos de Investimento Imobiliário.",
+        "granularity": "Não informado pela fonte oficial",
+        "geoUnit": "Não informado pela fonte oficial",
+        "api": "https://dados.cvm.gov.br/dados/ADM_FII/CAD/DADOS/cad_adm_fii.csv",
+        "docs": "https://dados.cvm.gov.br/dataset/adm_fii-cad",
+        "limitations": "A página consultada não detalha todas as limitações, a atualização e a qualidade do recurso; conferir documentação e licença antes do uso editorial.",
+        "lastChecked": "2026-11-27",
+        "url": "https://dados.cvm.gov.br/dataset/adm_fii-cad",
+        "description": "Dados cadastrais de Administradores de Fundos de Investimento Imobiliário. O conjunto de dados disponibiliza as informações cadastrais referentes ao último dia útil."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Radar evidence gate v1",
+        "reviewedAt": "2026-11-27",
+        "reviewPolicyVersion": "radar-evidence-v1",
+        "officialUrl": "https://dados.cvm.gov.br/dataset/adm_fii-cad",
+        "checkedAt": "2026-11-27T19:55:52.580Z",
+        "evidence": "Administradores de FII: Informação Cadastral - Conjunto de dados - Portal Dados Abertos CVM Skip to main content Início Organizações CVM Administradores de FII:... Administradores de FII: Informação Cadastral Seguidores 0 CVM Não há descrição para essa organização Social Twitter Facebook Licença Licença Aberta para Bases de Dados (ODbL) do Open Data Commons Administradores de FII: Informação Cadastral Dados cadastrais de Administradores de Fundos de Investimento Imobiliário. O conjunto de dados disponibiliza as informações cadastrais referentes ao último dia útil . Dados e recursos Dicionário de Dados TXT Descrição das colunas e dados Explorar Mais informações Ir para recurso Administradores de FII CSV Dados Cadastrais de Administradores de Fundo de Investimento Imobiliário Explorar Mais informações Ir para recurso Cadastro de Regulados Informações Adicionais Campo Valor Fonte https://dados.cvm.gov.br/dataset/adm_fii-cad Autor SIN - Superintendência de Supervisão de Investidores Institucionais Mantenedor Suporte a Sistemas CVM Última Atualização novembro 27, 2026, 11:00 (UTC) Criado maio 20, 2020, 19:33 (UTC) Base de Dados Cadastro de Regulados Periodicidade de atualização Diária VCGE http://vocab.e.gov.br/2011/03/vcge#mercado-capitais",
+        "evidenceHash": "106ced4d55ff67d8e8007e05fedbf2d4eeade172c9a92fc021d61704636acd96",
+        "sourceStatus": 200,
+        "contentType": "text/html; charset=utf-8",
+        "evidenceChecks": {
+          "datasetSignal": true,
+          "directResource": true,
+          "webAccess": true,
+          "format": true,
+          "coverage": true,
+          "license": true,
+          "licenseStatus": "stated"
+        }
+      }
+    },
+    {
+      "category": "datasets",
+      "record": {
+        "id": "auto-3aeb02bb3dc220df",
+        "name": "Atos Declaratórios",
+        "org": "Comissão de Valores Mobiliários (CVM)",
+        "territoryTier": "Outros",
+        "kind": "portal",
+        "themes": [
+          "Dados abertos"
+        ],
+        "coverage": "Dados e recursos Dicionário de Dados TXT Descrição das colunas e dados Explorar Mais informações Ir para recurso Atos Declaratórios CSV Atos de Suspensão de Intermediação Explorar Mais informações Ir para recurso Atos Declaratórios Informações Adicionais Campo Valor Fonte https://dados.cvm.gov.br/dataset/ato_declr-intermed Autor SMI - Superintendência de Relações com o Mercado e Intermediários Mantenedor Suporte a Sistemas CVM Última Atualização novembro 27, 2026, 11:00 (UTC) Criado agosto 26, 2024, 01:05 (UTC) Base de Dados Atos Declaratórios Periodicidade de atualização Diária VCGE http://vocab.e.gov.br/2011/03/vcge#mercado-capitais Atos Declaratórios emitidos pela Superintendência de Relações com o Mercado e Intermediários para suspensão das atividades de intermediação irregular de valores mobiliários.",
+        "frequency": "Dados e recursos Dicionário de Dados TXT Descrição das colunas e dados Explorar Mais informações Ir para recurso Atos Declaratórios CSV Atos de Suspensão de Intermediação Explorar Mais informações Ir para recurso Atos Declaratórios Informações Adicionais Campo Valor Fonte https://dados.cvm.gov.br/dataset/ato_declr-intermed Autor SMI - Superintendência de Relações com o Mercado e Intermediários Mantenedor Suporte a Sistemas CVM Última Atualização novembro 27, 2026, 11:00 (UTC) Criado agosto 26, 2024, 01:05 (UTC) Base de Dados Atos Declaratórios Periodicidade de atualização Diária VCGE http://vocab.e.gov.br/2011/03/vcge#mercado-capitais Atos Declaratórios emitidos pela Superintendência de Relações com o Mercado e Intermediários para suspensão das atividades de intermediação irregular de valores mobiliários.",
+        "format": "CSV",
+        "period": "Não informado pela fonte oficial",
+        "granularity": "Não informado pela fonte oficial",
+        "geoUnit": "Não informado pela fonte oficial",
+        "api": "https://dados.cvm.gov.br/dados/ATO_DECLR/INTERMED/DADOS/ato_declr.csv",
+        "docs": "https://dados.cvm.gov.br/dataset/ato_declr-intermed",
+        "limitations": "A página consultada não detalha todas as limitações, a atualização e a qualidade do recurso; conferir documentação e licença antes do uso editorial.",
+        "lastChecked": "2026-11-27",
+        "url": "https://dados.cvm.gov.br/dataset/ato_declr-intermed",
+        "description": "Atos Declaratórios emitidos pela Superintendência de Relações com o Mercado e Intermediários para suspensão das atividades de intermediação irregular de valores mobiliários. O conjunto de dados é..."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Radar evidence gate v1",
+        "reviewedAt": "2026-11-27",
+        "reviewPolicyVersion": "radar-evidence-v1",
+        "officialUrl": "https://dados.cvm.gov.br/dataset/ato_declr-intermed",
+        "checkedAt": "2026-11-27T19:55:54.407Z",
+        "evidence": "Atos Declaratórios - Conjunto de dados - Portal Dados Abertos CVM Skip to main content Início Organizações CVM Atos Declaratórios Atos Declaratórios Seguidores 0 CVM Não há descrição para essa organização Social Twitter Facebook Licença Licença Aberta para Bases de Dados (ODbL) do Open Data Commons Atos Declaratórios Atos Declaratórios emitidos pela Superintendência de Relações com o Mercado e Intermediários para suspensão das atividades de intermediação irregular de valores mobiliários. O conjunto de dados é atualizado diariamente . Dados e recursos Dicionário de Dados TXT Descrição das colunas e dados Explorar Mais informações Ir para recurso Atos Declaratórios CSV Atos de Suspensão de Intermediação Explorar Mais informações Ir para recurso Atos Declaratórios Informações Adicionais Campo Valor Fonte https://dados.cvm.gov.br/dataset/ato_declr-intermed Autor SMI - Superintendência de Relações com o Mercado e Intermediários Mantenedor Suporte a Sistemas CVM Última Atualização novembro 27, 2026, 11:00 (UTC) Criado agosto 26, 2024, 01:05 (UTC) Base de Dados Atos Declaratórios Periodicidade de atualização Diária VCGE http://vocab.e.gov.br/2011/03/vcge#mercado-capitais",
+        "evidenceHash": "48dc9247d53f2396b12a4a2fc6e8229c2147f9eb0f4ece7b51fcd290954fb1e7",
+        "sourceStatus": 200,
+        "contentType": "text/html; charset=utf-8",
+        "evidenceChecks": {
+          "datasetSignal": true,
+          "directResource": true,
+          "webAccess": true,
+          "format": true,
+          "coverage": true,
+          "license": true,
+          "licenseStatus": "stated"
+        }
+      }
+    },
+    {
+      "category": "datasets",
+      "record": {
+        "id": "auto-3f3a7881d3d4bcb6",
+        "name": "Cias Abertas: Documentos: Formulário de Informações Trimestrais (ITR)",
+        "org": "Comissão de Valores Mobiliários (CVM)",
+        "territoryTier": "Outros",
+        "kind": "portal",
+        "themes": [
+          "Dados abertos"
+        ],
+        "coverage": "O conjunto de dados disponibiliza as seguintes demonstrações financeiras entregues nos últimos cinco anos : Balanço Patrimonial Ativo (BPA) Balanço Patrimonial Passivo (BPP) Demonstração de Fluxo de Caixa - Método Direto (DFC-MD) Demonstração de Fluxo de Caixa - Método Indireto (DFC-MI) Demonstração das Mutações do Patrimônio Líquido (DMPL) Demonstração de Resultado Abrangente (DRA) Demonstração de Resultado (DRE) Demonstração de Valor Adicionado (DVA) Nessas demonstrações, são incluídas as linhas referentes aos elencos de contas fixas e não fixas .",
+        "frequency": "Histórico desde 2011 (incluindo arquivos não sujeitos à política de atualização) Dados e recursos Dicionário de Dados ZIP Descrição das colunas e dados Explorar Mais informações Ir para recurso Formulários de Informações Trimestrais de Cias...",
+        "format": "ZIP",
+        "period": "Não informado pela fonte oficial",
+        "granularity": "Não informado pela fonte oficial",
+        "geoUnit": "Não informado pela fonte oficial",
+        "api": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DOC/ITR/META/meta_itr_cia_aberta_txt.zip",
+        "docs": "https://dados.cvm.gov.br/dataset/cia_aberta-doc-itr",
+        "limitations": "A página consultada não detalha todas as limitações, a atualização e a qualidade do recurso; conferir documentação e licença antes do uso editorial.",
+        "lastChecked": "2026-11-27",
+        "url": "https://dados.cvm.gov.br/dataset/cia_aberta-doc-itr",
+        "description": "O FORMULÁRIO DE INFORMAÇÕES TRIMESTRAIS (ITR) é um documento eletrônico, de encaminhamento periódico previsto no artigo 22, inciso V, da Resolução CVM nº 80/22, cujo encaminhamento à CVM deve se..."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Radar evidence gate v1",
+        "reviewedAt": "2026-11-27",
+        "reviewPolicyVersion": "radar-evidence-v1",
+        "officialUrl": "https://dados.cvm.gov.br/dataset/cia_aberta-doc-itr",
+        "checkedAt": "2026-11-27T19:55:54.796Z",
+        "evidence": "Cias Abertas: Documentos: Formulário de Informações Trimestrais (ITR) - Conjunto de dados - Portal Dados Abertos CVM Skip to main content Início Organizações CVM Cias Abertas: Documentos:... Cias Abertas: Documentos: Formulário de Informações Trimestrais (ITR) Seguidores 0 CVM Não há descrição para essa organização Social Twitter Facebook Licença Licença Aberta para Bases de Dados (ODbL) do Open Data Commons Cias Abertas: Documentos: Formulário de Informações Trimestrais (ITR) O FORMULÁRIO DE INFORMAÇÕES TRIMESTRAIS (ITR) é um documento eletrônico, de encaminhamento periódico previsto no artigo 22, inciso V, da Resolução CVM nº 80/22, cujo encaminhamento à CVM deve se dar por meio do Sistema Empresas.NET. Segundo o artigo 31 da Resolução CVM nº 80/22, o formulário ITR deverá ser preenchido com os dados das informações contábeis trimestrais elaboradas de acordo com as regras contábeis aplicáveis ao emissor, nos termos dos artigos 27 a 29 a Resolução. O conjunto de dados disponibiliza as seguintes demonstrações financeiras entregues nos últimos cinco anos : Balanço Patrimonial Ativo (BPA) Balanço Patrimonial Passivo (BPP) Demonstração de Fluxo de Caixa - Método Direto (DFC-MD) Demonstração de Fluxo de Caixa - Método Indireto (DFC-MI) Demonstração das Mutações do Patrimônio Líquido (DMPL) Demonstração de Resultado Abrangente (DRA) Demonstração de Resultado (DRE) Demonstração de Valor Adicionado (DVA) Nessas demonstrações, são incluídas as linhas referentes aos elencos de contas fixas e não fixas . O conjunto de dados também disponibiliza as seções Pareceres e Declarações e Dados da Empresa/Composição do Capital , além dos endereços para download dos Formulários ITR entregues no mesmo período. Para abrir os documentos baixados, é necessária a instalação do programa Empresas.NET Os arquivos no conjunto de dados serão atualizados semanalmente com as eventuais reapresentações. Histórico desde 2011 (incluindo arquivos não sujeitos à política de atualização) Dados e recursos Dicionário de Dados ZIP Descrição das colunas e dados Explorar Mais informações Ir para recurso Formulários de Informações Trimestrais de Cias... ZIP Companhias Abertas - Formulário de Informações Trimestrais (ITR) (2021) Explorar Mais informações Ir para recurso Formulários de Informações Trimestrais de Cias... ZIP Companhias Abertas - Formulário de Informações Trimestrais (ITR) (2022) Explorar Mais informações Ir para recurso Formulários de Informações Trimestrais de Cias... ZIP Companhias Abertas - Formulário de Informações Trimestrais (ITR) (2023) Explorar Mais informações Ir para recurso Formulários de Informações Trimestrais de Cias... ZIP Companhias Abertas - Formulário de Informações Trimestrais (ITR) (2024) Explorar Mais informações Ir para recurso Formulários de Informações Trimestrais de Cias... ZIP Companhias Abertas - Formulário de Informações Trimestrais (ITR) (2025) Explorar Mais informações Ir para recurso Formulários de Informações Trimestrais de Cias... ZIP Companhias Abertas - Formulário de Informações Trimestrais (ITR) (2026) Explorar Mais informações Ir para recurso Documentos... Informações Adicionais Campo Valor Fonte https://dados.cvm.gov.br/dataset/cia_aberta-doc-itr Autor SEP - Superintendência de Relações com Empresas Mantenedor Suporte a Sistemas CVM Última Atualização novembro 23, 2026, 11:01 (UTC) Criado novembro 30, 2019, 02:30 (UTC) Base de Dados Documentos Periódicos e Eventuais de Regulados Periodicidade de atualização Semanal VCGE http://vocab.e.gov.br/2011/03/vcge#mercado-capitais",
+        "evidenceHash": "3a4205ab2b269d9ea62d1723e69cef1a2251cd4a6ecc70229bade28c425a43b0",
+        "sourceStatus": 200,
+        "contentType": "text/html; charset=utf-8",
+        "evidenceChecks": {
+          "datasetSignal": true,
+          "directResource": true,
+          "webAccess": true,
+          "format": true,
+          "coverage": true,
+          "license": true,
+          "licenseStatus": "stated"
+        }
+      }
+    },
+    {
+      "category": "datasets",
+      "record": {
+        "id": "auto-49725114db09f51d",
+        "name": "Securitizadoras: Documentos: Informe Mensal de CRA",
+        "org": "Comissão de Valores Mobiliários (CVM)",
+        "territoryTier": "Outros",
+        "kind": "portal",
+        "themes": [
+          "Dados abertos"
+        ],
+        "coverage": "Dados e recursos Dicionário de Dados ZIP Descrição das colunas e dados Explorar Mais informações Ir para recurso Informes Mensais de CRA (2021) ZIP Securitizadoras - Informes Mensais de Certificados de Recebíveis do...",
+        "frequency": "Securitizadoras: Documentos: Informe Mensal de CRA - Conjunto de dados - Portal Dados Abertos CVM Skip to main content Início Organizações CVM Securitizadoras:...",
+        "format": "ZIP",
+        "period": "Não informado pela fonte oficial",
+        "granularity": "Não informado pela fonte oficial",
+        "geoUnit": "Não informado pela fonte oficial",
+        "api": "https://dados.cvm.gov.br/dados/SECURIT/DOC/INF_MENSAL_CRA/META/meta_inf_mensal_cra.zip",
+        "docs": "https://dados.cvm.gov.br/dataset/securit-doc-inf_mensal_cra",
+        "limitations": "A página consultada não detalha todas as limitações, a atualização e a qualidade do recurso; conferir documentação e licença antes do uso editorial.",
+        "lastChecked": "2026-11-27",
+        "url": "https://dados.cvm.gov.br/dataset/securit-doc-inf_mensal_cra",
+        "description": "O Informe Mensal de Certificados de Recebíveis do Agronegócio é um documento eletrônico de encaminhamento periódico, definido no Suplemento F da Resolução CVMº 60, cujo encaminhamento à CVM deve se..."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Radar evidence gate v1",
+        "reviewedAt": "2026-11-27",
+        "reviewPolicyVersion": "radar-evidence-v1",
+        "officialUrl": "https://dados.cvm.gov.br/dataset/securit-doc-inf_mensal_cra",
+        "checkedAt": "2026-11-27T19:55:55.362Z",
+        "evidence": "Securitizadoras: Documentos: Informe Mensal de CRA - Conjunto de dados - Portal Dados Abertos CVM Skip to main content Início Organizações CVM Securitizadoras:... Securitizadoras: Documentos: Informe Mensal de CRA Seguidores 0 CVM Não há descrição para essa organização Social Twitter Facebook Licença Licença Aberta para Bases de Dados (ODbL) do Open Data Commons Securitizadoras: Documentos: Informe Mensal de CRA O Informe Mensal de Certificados de Recebíveis do Agronegócio é um documento eletrônico de encaminhamento periódico, definido no Suplemento F da Resolução CVMº 60, cujo encaminhamento à CVM deve se dar por meio do Sistema Fundos.NET. O conjunto de dados disponibiliza os informes mensais referentes aos últimos cinco anos : Os arquivos serão atualizados semanalmente com as eventuais reapresentações. Dados e recursos Dicionário de Dados ZIP Descrição das colunas e dados Explorar Mais informações Ir para recurso Informes Mensais de CRA (2021) ZIP Securitizadoras - Informes Mensais de Certificados de Recebíveis do... Explorar Mais informações Ir para recurso Informes Mensais de CRA (2022) ZIP Securitizadoras - Informes Mensais de Certificados de Recebíveis do... Explorar Mais informações Ir para recurso Informes Mensais de CRA (2023) ZIP Securitizadoras - Informes Mensais de Certificados de Recebíveis do... Explorar Mais informações Ir para recurso Informes Mensais de CRA (2024) ZIP Securitizadoras - Informes Mensais de Certificados de Recebíveis do... Explorar Mais informações Ir para recurso Informes Mensais de CRA (2025) ZIP Securitizadoras - Informes Mensais de Certificados de Recebíveis do... Explorar Mais informações Ir para recurso Informes Mensais de CRA (2026) ZIP Securitizadoras - Informes Mensais de Certificados de Recebíveis do... Explorar Mais informações Ir para recurso Documentos... Informações Adicionais Campo Valor Fonte https://dados.cvm.gov.br/dataset/securit-doc-inf_mensal_cra Autor SSE - Superintendência de Supervisão de Securitização Mantenedor Suporte a Sistemas CVM Última Atualização novembro 23, 2026, 11:01 (UTC) Criado outubro 27, 2022, 23:47 (UTC) Base de Dados Documentos Periódicos e Eventuais de Regulados Periodicidade de atualização Semanal VCGE http://vocab.e.gov.br/2011/03/vcge#mercado-capitais",
+        "evidenceHash": "9aa9fbc8739e8e5ff74fc24b434ae0570c2aab473705f5fa074d53f27c874a9f",
+        "sourceStatus": 200,
+        "contentType": "text/html; charset=utf-8",
+        "evidenceChecks": {
+          "datasetSignal": true,
+          "directResource": true,
+          "webAccess": true,
+          "format": true,
+          "coverage": true,
+          "license": true,
+          "licenseStatus": "stated"
+        }
+      }
+    },
+    {
+      "category": "datasets",
+      "record": {
+        "id": "auto-4ea36db8277d2c6b",
+        "name": "Emissores de CEPAC: Informação Cadastral",
+        "org": "Comissão de Valores Mobiliários (CVM)",
+        "territoryTier": "Outros",
+        "kind": "portal",
+        "themes": [
+          "Dados abertos"
+        ],
+        "coverage": "Dados e recursos Dicionário de Dados TXT Descrição das colunas e dados Explorar Mais informações Ir para recurso Emissores de CEPAC CSV Dados cadastrais de Emissores de CEPAC Explorar Mais informações Ir para recurso Cadastro de Regulados Informações Adicionais Campo Valor Fonte https://dados.cvm.gov.br/dataset/emissor_cepac-cad Autor SRE - Superintendência de Registro de Valores Mobiliários Mantenedor Suporte a Sistemas CVM Última Atualização novembro 27, 2026, 11:00 (UTC) Criado março 22, 2021, 19:09 (UTC) Base de Dados Cadastro de Regulados Periodicidade de atualização Diária VCGE http://vocab.e.gov.br/2011/03/vcge#mercado-capitais Dados cadastrais de Emissores de CEPAC.",
+        "frequency": "Dados e recursos Dicionário de Dados TXT Descrição das colunas e dados Explorar Mais informações Ir para recurso Emissores de CEPAC CSV Dados cadastrais de Emissores de CEPAC Explorar Mais informações Ir para recurso Cadastro de Regulados Informações Adicionais Campo Valor Fonte https://dados.cvm.gov.br/dataset/emissor_cepac-cad Autor SRE - Superintendência de Registro de Valores Mobiliários Mantenedor Suporte a Sistemas CVM Última Atualização novembro 27, 2026, 11:00 (UTC) Criado março 22, 2021, 19:09 (UTC) Base de Dados Cadastro de Regulados Periodicidade de atualização Diária VCGE http://vocab.e.gov.br/2011/03/vcge#mercado-capitais Dados cadastrais de Emissores de CEPAC.",
+        "format": "CSV",
+        "period": "Não informado pela fonte oficial",
+        "granularity": "Não informado pela fonte oficial",
+        "geoUnit": "Não informado pela fonte oficial",
+        "api": "https://dados.cvm.gov.br/dados/EMISSOR_CEPAC/CAD/DADOS/cad_emissor_cepac.csv",
+        "docs": "https://dados.cvm.gov.br/dataset/emissor_cepac-cad",
+        "limitations": "A página consultada não detalha todas as limitações, a atualização e a qualidade do recurso; conferir documentação e licença antes do uso editorial.",
+        "lastChecked": "2026-11-27",
+        "url": "https://dados.cvm.gov.br/dataset/emissor_cepac-cad",
+        "description": "Dados cadastrais de Emissores de CEPAC. O conjunto de dados disponibiliza as informações cadastrais referentes ao último dia útil."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Radar evidence gate v1",
+        "reviewedAt": "2026-11-27",
+        "reviewPolicyVersion": "radar-evidence-v1",
+        "officialUrl": "https://dados.cvm.gov.br/dataset/emissor_cepac-cad",
+        "checkedAt": "2026-11-27T19:55:56.256Z",
+        "evidence": "Emissores de CEPAC: Informação Cadastral - Conjunto de dados - Portal Dados Abertos CVM Skip to main content Início Organizações CVM Emissores de CEPAC:... Emissores de CEPAC: Informação Cadastral Seguidores 0 CVM Não há descrição para essa organização Social Twitter Facebook Licença Licença Aberta para Bases de Dados (ODbL) do Open Data Commons Emissores de CEPAC: Informação Cadastral Dados cadastrais de Emissores de CEPAC. O conjunto de dados disponibiliza as informações cadastrais referentes ao último dia útil . Dados e recursos Dicionário de Dados TXT Descrição das colunas e dados Explorar Mais informações Ir para recurso Emissores de CEPAC CSV Dados cadastrais de Emissores de CEPAC Explorar Mais informações Ir para recurso Cadastro de Regulados Informações Adicionais Campo Valor Fonte https://dados.cvm.gov.br/dataset/emissor_cepac-cad Autor SRE - Superintendência de Registro de Valores Mobiliários Mantenedor Suporte a Sistemas CVM Última Atualização novembro 27, 2026, 11:00 (UTC) Criado março 22, 2021, 19:09 (UTC) Base de Dados Cadastro de Regulados Periodicidade de atualização Diária VCGE http://vocab.e.gov.br/2011/03/vcge#mercado-capitais",
+        "evidenceHash": "bb5fbe1ef3a12d780fb71b76727a74eb00bda8dc588f0e75700f05b3c5cc8ab5",
+        "sourceStatus": 200,
+        "contentType": "text/html; charset=utf-8",
+        "evidenceChecks": {
+          "datasetSignal": true,
+          "directResource": true,
+          "webAccess": true,
+          "format": true,
+          "coverage": true,
+          "license": true,
+          "licenseStatus": "stated"
+        }
+      }
+    },
+    {
+      "category": "datasets",
+      "record": {
+        "id": "auto-523383c4bc88a78a",
+        "name": "Agentes Fiduciários: Informação Cadastral",
+        "org": "Comissão de Valores Mobiliários (CVM)",
+        "territoryTier": "Outros",
+        "kind": "portal",
+        "themes": [
+          "Dados abertos"
+        ],
+        "coverage": "Dados e recursos Dicionário de Dados ZIP Descrição das colunas e dados Explorar Mais informações Ir para recurso Agentes Fiduciários ZIP Dados cadastrais de Agentes Fiduciários Explorar Mais informações Ir para recurso Cadastro de Regulados Informações Adicionais Campo Valor Fonte https://dados.cvm.gov.br/dataset/agente_fiduc-cad Autor SSE - Superintendência de Supervisão de Securitização Mantenedor Suporte a Sistemas CVM Última Atualização novembro 27, 2026, 11:00 (UTC) Criado março 9, 2021, 02:02 (UTC) Base de Dados Cadastro de Regulados Periodicidade de atualização Diária VCGE http://vocab.e.gov.br/2011/03/vcge#mercado-capitais Dados cadastrais de Agentes Fiduciários.",
+        "frequency": "Dados e recursos Dicionário de Dados ZIP Descrição das colunas e dados Explorar Mais informações Ir para recurso Agentes Fiduciários ZIP Dados cadastrais de Agentes Fiduciários Explorar Mais informações Ir para recurso Cadastro de Regulados Informações Adicionais Campo Valor Fonte https://dados.cvm.gov.br/dataset/agente_fiduc-cad Autor SSE - Superintendência de Supervisão de Securitização Mantenedor Suporte a Sistemas CVM Última Atualização novembro 27, 2026, 11:00 (UTC) Criado março 9, 2021, 02:02 (UTC) Base de Dados Cadastro de Regulados Periodicidade de atualização Diária VCGE http://vocab.e.gov.br/2011/03/vcge#mercado-capitais Dados cadastrais de Agentes Fiduciários.",
+        "format": "ZIP",
+        "period": "Dados e recursos Dicionário de Dados ZIP Descrição das colunas e dados Explorar Mais informações Ir para recurso Agentes Fiduciários ZIP Dados cadastrais de Agentes Fiduciários Explorar Mais informações Ir para recurso Cadastro de Regulados Informações Adicionais Campo Valor Fonte https://dados.cvm.gov.br/dataset/agente_fiduc-cad Autor SSE - Superintendência de Supervisão de Securitização Mantenedor Suporte a Sistemas CVM Última Atualização novembro 27, 2026, 11:00 (UTC) Criado março 9, 2021, 02:02 (UTC) Base de Dados Cadastro de Regulados Periodicidade de atualização Diária VCGE http://vocab.e.gov.br/2011/03/vcge#mercado-capitais Dados cadastrais de Agentes Fiduciários.",
+        "granularity": "Não informado pela fonte oficial",
+        "geoUnit": "Não informado pela fonte oficial",
+        "api": "https://dados.cvm.gov.br/dados/AGENTE_FIDUC/CAD/META/meta_cad_agente_fiduc.zip",
+        "docs": "https://dados.cvm.gov.br/dataset/agente_fiduc-cad",
+        "limitations": "A página consultada não detalha todas as limitações, a atualização e a qualidade do recurso; conferir documentação e licença antes do uso editorial.",
+        "lastChecked": "2026-11-27",
+        "url": "https://dados.cvm.gov.br/dataset/agente_fiduc-cad",
+        "description": "Dados cadastrais de Agentes Fiduciários. O conjunto de dados disponibiliza as informações cadastrais referentes ao último dia útil."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Radar evidence gate v1",
+        "reviewedAt": "2026-11-27",
+        "reviewPolicyVersion": "radar-evidence-v1",
+        "officialUrl": "https://dados.cvm.gov.br/dataset/agente_fiduc-cad",
+        "checkedAt": "2026-11-27T19:55:56.490Z",
+        "evidence": "Agentes Fiduciários: Informação Cadastral - Conjunto de dados - Portal Dados Abertos CVM Skip to main content Início Organizações CVM Agentes Fiduciários:... Agentes Fiduciários: Informação Cadastral Seguidores 0 CVM Não há descrição para essa organização Social Twitter Facebook Licença Licença Aberta para Bases de Dados (ODbL) do Open Data Commons Agentes Fiduciários: Informação Cadastral Dados cadastrais de Agentes Fiduciários. O conjunto de dados disponibiliza as informações cadastrais referentes ao último dia útil . Dados e recursos Dicionário de Dados ZIP Descrição das colunas e dados Explorar Mais informações Ir para recurso Agentes Fiduciários ZIP Dados cadastrais de Agentes Fiduciários Explorar Mais informações Ir para recurso Cadastro de Regulados Informações Adicionais Campo Valor Fonte https://dados.cvm.gov.br/dataset/agente_fiduc-cad Autor SSE - Superintendência de Supervisão de Securitização Mantenedor Suporte a Sistemas CVM Última Atualização novembro 27, 2026, 11:00 (UTC) Criado março 9, 2021, 02:02 (UTC) Base de Dados Cadastro de Regulados Periodicidade de atualização Diária VCGE http://vocab.e.gov.br/2011/03/vcge#mercado-capitais",
+        "evidenceHash": "77a38596dc4946eaafb7fbf54d6845757e0c3704eeddeafa00929cda434e5f97",
+        "sourceStatus": 200,
+        "contentType": "text/html; charset=utf-8",
+        "evidenceChecks": {
+          "datasetSignal": true,
+          "directResource": true,
+          "webAccess": true,
+          "format": true,
+          "coverage": true,
+          "license": true,
+          "licenseStatus": "stated"
+        }
+      }
+    },
+    {
+      "category": "datasets",
+      "record": {
+        "id": "auto-6c973df3c7981d72",
+        "name": "Cias Abertas: Eventos Societários Especiais: Programa de Recompra de Ações",
+        "org": "Comissão de Valores Mobiliários (CVM)",
+        "territoryTier": "Outros",
+        "kind": "portal",
+        "themes": [
+          "Dados abertos"
+        ],
+        "coverage": "Explorar Mais informações Ir para recurso Programas de Recompra de Ações ZIP Aquisições de Ações de Própria Emissão Explorar Mais informações Ir para recurso Eventos Societários Informações Adicionais Campo Valor Fonte https://dados.cvm.gov.br/dataset/cia_aberta-eventos-recompra_acoes Autor SEP - Superintendência de Relações com Empresas Mantenedor Suporte a Sistemas CVM Última Atualização novembro 27, 2026, 11:00 (UTC) Criado novembro 8, 2025, 00:01 (UTC) Base de Dados Eventos Societários Periodicidade de atualização Diária VCGE http://vocab.e.gov.br/2011/03/vcge#mercado-capitais Informações sobre programas de recompra de ações de companhias abertas (em andamento e encerrados).",
+        "frequency": "Explorar Mais informações Ir para recurso Programas de Recompra de Ações ZIP Aquisições de Ações de Própria Emissão Explorar Mais informações Ir para recurso Eventos Societários Informações Adicionais Campo Valor Fonte https://dados.cvm.gov.br/dataset/cia_aberta-eventos-recompra_acoes Autor SEP - Superintendência de Relações com Empresas Mantenedor Suporte a Sistemas CVM Última Atualização novembro 27, 2026, 11:00 (UTC) Criado novembro 8, 2025, 00:01 (UTC) Base de Dados Eventos Societários Periodicidade de atualização Diária VCGE http://vocab.e.gov.br/2011/03/vcge#mercado-capitais Informações sobre programas de recompra de ações de companhias abertas (em andamento e encerrados).",
+        "format": "ZIP",
+        "period": "Não informado pela fonte oficial",
+        "granularity": "Não informado pela fonte oficial",
+        "geoUnit": "Não informado pela fonte oficial",
+        "api": "https://dados.cvm.gov.br/dados/CIA_ABERTA/EVENTOS/RECOMPRA_ACOES/META/meta_cia_aberta_recompra_acoes.zip",
+        "docs": "https://dados.cvm.gov.br/dataset/cia_aberta-eventos-recompra_acoes",
+        "limitations": "A página consultada não detalha todas as limitações, a atualização e a qualidade do recurso; conferir documentação e licença antes do uso editorial.",
+        "lastChecked": "2026-11-27",
+        "url": "https://dados.cvm.gov.br/dataset/cia_aberta-eventos-recompra_acoes",
+        "description": "Informações sobre programas de recompra de ações de companhias abertas (em andamento e encerrados). Os arquivos no conjunto de dados serão atualizados diariamente."
+      },
+      "review": {
+        "decision": "approved",
+        "reviewedBy": "Radar evidence gate v1",
+        "reviewedAt": "2026-11-27",
+        "reviewPolicyVersion": "radar-evidence-v1",
+        "officialUrl": "https://dados.cvm.gov.br/dataset/cia_aberta-eventos-recompra_acoes",
+        "checkedAt": "2026-11-27T19:55:57.783Z",
+        "evidence": "Cias Abertas: Eventos Societários Especiais: Programa de Recompra de Ações - Conjunto de dados - Portal Dados Abertos CVM Skip to main content Início Organizações CVM Cias Abertas: Eventos... Cias Abertas: Eventos Societários Especiais: Programa de Recompra de Ações Seguidores 0 CVM Não há descrição para essa organização Social Twitter Facebook Licença Licença Aberta para Bases de Dados (ODbL) do Open Data Commons Cias Abertas: Eventos Societários Especiais: Programa de Recompra de Ações Informações sobre programas de recompra de ações de companhias abertas (em andamento e encerrados). Os arquivos no conjunto de dados serão atualizados diariamente . Dados e recursos Dicionários de dados ZIP Descrição das colunas e tipos de dados. Explorar Mais informações Ir para recurso Programas de Recompra de Ações ZIP Aquisições de Ações de Própria Emissão Explorar Mais informações Ir para recurso Eventos Societários Informações Adicionais Campo Valor Fonte https://dados.cvm.gov.br/dataset/cia_aberta-eventos-recompra_acoes Autor SEP - Superintendência de Relações com Empresas Mantenedor Suporte a Sistemas CVM Última Atualização novembro 27, 2026, 11:00 (UTC) Criado novembro 8, 2025, 00:01 (UTC) Base de Dados Eventos Societários Periodicidade de atualização Diária VCGE http://vocab.e.gov.br/2011/03/vcge#mercado-capitais",
+        "evidenceHash": "7318f77b201481f3bd0feba9e63dab96aac0b7923980acf8204f293633f30cbc",
+        "sourceStatus": 200,
+        "contentType": "text/html; charset=utf-8",
+        "evidenceChecks": {
+          "datasetSignal": true,
+          "directResource": true,
+          "webAccess": true,
+          "format": true,
+          "coverage": true,
+          "license": true,
+          "licenseStatus": "stated"
+        }
+      }
     }
   ],
   "pending": [
