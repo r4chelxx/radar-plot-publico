@@ -32,13 +32,13 @@ on:
       - ".github/workflows/audit-links.yml"
 concurrency:
   group: radar-link-audit-${{ github.event_name == 'pull_request' && format('pr-{0}', github.event.pull_request.number) || 'main' }}
-  cancel-in-progress: true
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
 permissions:
   contents: write
 jobs:
   audit-links:
     runs-on: ubuntu-latest
-    timeout-minutes: 22
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
