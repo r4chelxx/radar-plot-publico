@@ -72,6 +72,8 @@ function evidenceSummary(text,description){
  return value.length>=120?value.slice(0,1200):null;
 }
 function toolKind(text,applicationCategory,titleKind){
+ if(/reverse image search|search by image/i.test(text))return 'Pesquisa reversa de imagens';
+ if(/satellite imagery explorer|explore,?\s*search,?\s*and\s+analy[sz]e.{0,120}\bsatellite imagery/i.test(text))return 'Exploração e análise de imagens de satélite';
  if(/file,? track and share public records requests/i.test(text))return 'Gestão de pedidos de acesso à informação';
  if(/browser automation tool|automates browsers/i.test(text))return 'Automação de navegador';
  if(/(?:headless )?graphics framework/i.test(text))return 'Framework de gráficos e visualização';
