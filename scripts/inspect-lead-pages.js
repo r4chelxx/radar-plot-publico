@@ -1,6 +1,7 @@
 // Evidence gathering only: NEVER confirms a deadline, eligibility or publication.
 const fs=require('node:fs'),crypto=require('node:crypto');
 const {cleanText,cleanTitle}=require('./editorial-text');
+const {officialOpportunityTarget}=require('./opportunity-primary-target');
 const {selectBacklog}=require('./select-historical-backlog');
 const {auditCapacity}=require('./audit-capacity');
 const {inspectionHealth}=require('./inspection-health');
@@ -34,7 +35,7 @@ function explicitPageFacts(html){
  const contextualDeadline=isoDate(deadlineMatch?.[1]||'');
  const futureContext=[...text.matchAll(/(?:apply|application|applications|submission|submissions|deadline|closing|close|due|prazo|inscri(?:ção|cao|ções|coes)|candidatura)[^\n.]{0,120}?((?:20\d{2}[-\/.]\d{1,2}[-\/.]\d{1,2})|(?:\d{1,2}[\s-]+(?:jan(?:uary|eiro)?|feb(?:ruary|ruary|eiro)?|mar(?:ch|ço|co)?|apr(?:il|abril)?|may|mai|jun(?:e|ho)?|jul(?:y|ho)?|aug(?:ust|osto)?|sep(?:tember|tembro)?|oct(?:ober|ubro)?|nov(?:ember|embro)?|dec(?:ember|embro)?)[\s,]+20\d{2}))/ig)].map(x=>isoDate(x[1])).filter(Boolean);
  const deadline=contextualDeadline||futureContext.find(x=>x>=new Date().toISOString().slice(0,10))||null;
- const eligibilityMatch=text.match(/(?:eligib(?:ility|le)|who\s+can\s+apply|eligible\s+applicants?|elegibilidade|quem\s+pod(?:e|em)\s+se\s+inscrever|open\s+to|available\s+to|for\s+(?:all\s+)?(?:journalists?|reporters?|newsrooms?|media\s+organizations?|researchers?)|jornalistas?|repórteres?|redações?|pesquisadores?)([^.]{0,320})/i);
+ const eligibilityMatch=text.match(/(?:eligib(?:ility|le)|who\s+(?:can|may)\s+apply|who\s+is\s+eligible\s+to\s+apply|eligible\s+applicants?|elegibilidade|quem\s+pod(?:e|em)\s+se\s+inscrever|open\s+to|available\s+to|for\s+(?:all\s+)?(?:journalists?|reporters?|newsrooms?|media\s+organizations?|researchers?)|jornalistas?|repórteres?|redações?|pesquisadores?)([^.]{0,320})/i);
  const eligibility=eligibilityMatch?decode(eligibilityMatch[0]).slice(0,320):null;
  const openMatch=text.match(/\b(?:applications?|submissions?|entries?|inscrições|inscricoes)\s+(?:are\s+)?(?:now\s+)?open\b|\b(?:call|fellowship|grant|award|edital|bolsa)\s+(?:is\s+)?open\b/i);
  const closedMatch=text.match(/\b(?:applications?|submissions?|entries?|inscrições|inscricoes)\s+(?:are\s+)?closed\b|\b(?:call|fellowship|grant|award|edital|bolsa)\s+(?:is\s+)?closed\b/i);
@@ -75,27 +76,6 @@ function allowed(raw){
   const u=new URL(raw);const h=u.hostname.toLowerCase();
   return u.protocol==='https:'&&!u.username&&!u.password&&h!=='localhost'&&!h.endsWith('.local')&&!h.endsWith('.internal')&&!/^\d+\.\d+\.\d+\.\d+$/.test(h)&&!h.includes(':');
  }catch{return false}
-}
-function officialOpportunityTarget(html,baseUrl){
- const source=String(html||'');
- let base;try{base=new URL(baseUrl)}catch{return null}
- const social=/^(?:instagram|facebook|linkedin|tiktok|x|twitter|youtube|youtu|threads|reddit|pinterest|t\.me)(?:\.|$)/i;
- const labels=/(?:official(?:\s+(?:website|page|site))?|application(?:\s+(?:form|details|page))?|apply(?:\s+(?:now|here))?|call\s+(?:details|page)|program\s+(?:details|page)|opportunity\s+(?:details|page)|view\s+(?:the\s+)?opportunity|full\s+details|learn\s+more|read\s+more|view\s+call|saiba\s+mais|ver\s+detalhes|detalhes\s+(?:da\s+)?(?:chamada|oportunidade)|inscri[cç][aã]o|candidatar|candidatura|submeter|enviar\s+inscri[cç][aã]o|aplicar)/i;
- const samePage=base.href.replace(/#.*$/,'').replace(/\/$/,'');
- for(const m of source.matchAll(/<a\b[^>]*href\s*=\s*['"]([^'"]+)['"][^>]*>([\s\S]*?)<\/a\s*>/gi)){
-  const label=decode(m[2].replace(/<[^>]+>/g,' ').replace(/\s+/g,' '));
-  if(!labels.test(label))continue;
-  try{
-   const raw=decode(m[1]).trim();
-   if(/^(?:mailto:|javascript:|#)/i.test(raw))continue;
-   const u=new URL(raw,base);
-   const normalized=u.href.replace(/#.*$/,'').replace(/\/$/,'');
-   if(u.protocol!=='https:'||normalized===samePage||social.test(u.hostname))continue;
-   if(/\.(?:pdf|docx?|xlsx?|zip)(?:$|[?#])/i.test(u.pathname))continue;
-   return u.href;
-  }catch{}
- }
- return null;
 }
 function primaryResourceTarget(html,baseUrl,category){
  const source=String(html||''); let base;try{base=new URL(baseUrl)}catch{return null}
