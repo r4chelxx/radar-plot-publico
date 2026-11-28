@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-27T23:44:16.872Z",
-  "sourceQueueUpdatedAt": "2026-11-27T23:44:07.796Z",
+  "generatedAt": "2026-11-28T02:04:14.060Z",
+  "sourceQueueUpdatedAt": "2026-11-28T02:04:02.096Z",
   "policy": "Evidence-complete drafts only; the separate deterministic evidence gate must independently approve before publication.",
   "summary": {
-    "eligibleForDrafting": 5,
-    "drafts": 5,
+    "eligibleForDrafting": 4,
+    "drafts": 4,
     "byCategory": {
       "opportunities": 2,
       "datasets": 2,
-      "tools": 1
+      "tools": 0
     },
     "publicationReady": 0
   },
@@ -93,70 +93,6 @@
         "status": "aberta",
         "rules": "https://www.poynter.org/shop/",
         "apply": "https://www.poynter.org/shop/"
-      },
-      "missingFields": [],
-      "reviewDecision": "evidence_complete_for_record_draft",
-      "note": "Ficha preliminar baseada no conteúdo capturado da página. Campos sem evidência permanecem ausentes; a aprovação depende do gate independente de publicação."
-    },
-    {
-      "schemaVersion": 1,
-      "id": "c78ee8457c1f44c6b9d119ab136af1f4e1fb9e07f9067834d8370af8ff2c3b9e",
-      "category": "tools",
-      "status": "draft_only",
-      "publicationReady": false,
-      "source": {
-        "url": "https://faceseek.cc/",
-        "discoveryProviders": [
-          "Gmail Radar PLOT newsletter"
-        ],
-        "pageTitle": "FaceSeek",
-        "checkedAt": "2026-11-27T23:44:07.796Z",
-        "httpStatus": 200,
-        "contentType": "text/html; charset=utf-8"
-      },
-      "evidence": {
-        "checks": {
-          "productSignal": true,
-          "function": true,
-          "access": true,
-          "license": false,
-          "licenseStatus": "not stated in captured source"
-        },
-        "sourceExcerpt": "FaceSeek - AI Reverse Image Search 01 [ face search ] Find a face from one photo Upload a clear photo and we'll search across millions of sources. Social Media Sex Offenders Mugshots Scammers Videos News & Blogs Drop a face image here PNG or JPG up to 50MB. We host it on a fast CDN and run the same pipeline the app uses. Upload file Normal Credits 0 left Deep search Credits 0 left Top-up 02 pricing Pay for what you search Start free, then pick a credit pack that fits. No hidden fees, cancel anytime. Free Trial the core search flow before choosing a paid tier. $0 / forever normal 2 credits deep search No deep search 2 total credits No card required Top 2 results only No auto-refresh Start free Starter weekly access A sharper entry plan for occasional investigations. $5 / per week normal 5 Normal Credits / Week deep search 3 Deep Search Credits 5 Normal Credits / Week 3 Deep Search Credits All Source Link Unlocked Choose Starter Daily Pro most chosen Daily search capacity with priority help when it matters. $20 / per month normal 25 Normal Credits / Day deep search 15 Deep Search Credits 25 Normal Credits / Day 15 Deep Search Credits Premium Support All Source Link Unlocked Choose Daily Pro Business high volume Built for teams that need scale, support, and removal workflows. $50 / per month normal Unlimited Normal Searches deep search 50 Deep Search Credits Unlimited Normal Searches 50 Deep Search Credits Take Down Request 24/7 Premium Support All Source Link Unlocked Choose Business 03 faq Questions, answered 0 1 Do I need a credit card to start? No. Every new account gets 2 free credits on signup with no card required, so you can try a real face search before paying anything. 0 2 How do credits work? Most plans use one normal credit per face search. Business includes unlimited normal searches, while Deep Search always uses its separate credit pool. 0 3 What is Deep Search? Deep Search is a more thorough search that descends past the indexed web — crawling forums, archives and unindexed sources to surface matches a normal scan misses. It draws from a separate Deep Search credit pool, included in paid plans and toppable with packs that never expire. 0 4 What is the 20% referral reward? Every account gets a unique referral code. When someone you refer subscribes to a paid plan, you earn 20% of the price — on their first payment and every renewal after. 0 5 Can I cancel anytime? Yes. Cancelling moves you back to the Free plan immediately and keeps your account intact. You can resubscribe whenever you like. 0 6 Can I delete my data? Absolutely. A single action removes your account along with all subscriptions, credit history, uploads and referral data.",
-        "structuredData": [
-          {
-            "@type": "Organization",
-            "name": "FaceSeek",
-            "url": "https://faceseek.cc"
-          },
-          {
-            "@type": "WebSite",
-            "name": "FaceSeek",
-            "url": "https://faceseek.cc",
-            "publisher": {
-              "@type": "Organization",
-              "name": "FaceSeek",
-              "url": "https://faceseek.cc"
-            }
-          },
-          {
-            "@type": "FAQPage"
-          }
-        ],
-        "tabularData": [],
-        "resourceLinks": [
-          {
-            "url": "https://play.google.com/store/apps/details?id=com.humanityfounder.faceseek",
-            "label": "Download"
-          }
-        ]
-      },
-      "recordDraft": {
-        "id": "c78ee8457c1f44c6b9d119ab136af1f4e1fb9e07f9067834d8370af8ff2c3b9e",
-        "name": "FaceSeek",
-        "kind": "Pesquisa reversa de imagens",
-        "url": "https://faceseek.cc/",
-        "desc": "Find a face from one photo. FaceSeek is an AI reverse image search that scans millions of sources — social media, news, mugshots, and more — in seconds. Source note: detailed usage limitations are not fully stated in the captured page; consult official documentation and license before use."
       },
       "missingFields": [],
       "reviewDecision": "evidence_complete_for_record_draft",
