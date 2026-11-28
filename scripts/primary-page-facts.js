@@ -55,7 +55,7 @@ function explicitPageFacts(html,now=new Date()){
   ||text.match(/\b(?:jornalistas?|repórteres?|redações?|pesquisadores?)[^.]{0,240}\b(?:podem|poderão|são elegíveis|estão habilitados)\b[^.]{0,120}/i);
  const eligibilityMatch=text.match(/(?:eligib(?:ility|le)|who\s+(?:can|may)\s+apply|who\s+is\s+eligible\s+to\s+apply|eligible\s+applicants?|elegibilidade|quem\s+pod(?:e|em)\s+se\s+inscrever|open\s+to|available\s+to|for\s+(?:all\s+)?(?:journalists?|reporters?|newsrooms?|media\s+organizations?|researchers?))([^.]{0,320})/i);
  const eligibility=eligibilityContext|| (eligibilityMatch&&/\b(?:for|open to|available to|eligible|eligibility|who|jornalistas?|repórteres?|redações?|pesquisadores?)\b/i.test(eligibilityMatch[0])?eligibilityMatch[0]:null);
- const organizationMatch=text.match(/\b(?:organized|organised|administered|hosted|offered|provided|funded|run|held)\s+by\s+((?:the\s+)?[\p{L}][\p{L}\d&.'’\-]*(?:\s+[\p{L}][\p{L}\d&.'’\-]*){1,6})(?=\s+(?:annually|since|for|in|on|to|which|that)\b|[,.!?]|$)/iu);
+ const organizationMatch=text.match(/\b(?:organized|organised|administered|hosted|offered|provided|funded|run|held)\s+by\s+((?:the\s+)?[\p{L}][\p{L}\d&.'’\-]*(?:\s+[\p{L}][\p{L}\d&.'’\-]*){1,6}?)(?=\s+(?:annually|since|for|in|on|to|which|that)\b|[,.!?]|$)/iu);
  const organizationCandidate=organizationMatch?.[1]?.trim()||null;
  const organization=organizationCandidate&&/[A-Z]/.test(organizationCandidate.replace(/^the\s+/i,''))?organizationCandidate:null;
  const openMatch=text.match(/\b(?:applications?|submissions?|entries?|inscrições|inscricoes)\s+(?:are\s+)?(?:now\s+)?open\b|\b(?:call|fellowship|grant|award|edital|bolsa)\s+(?:is\s+)?open\b/i);
