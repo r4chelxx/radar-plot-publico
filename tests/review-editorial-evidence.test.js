@@ -10,6 +10,7 @@ try{
  item('sej-index','tools',{pageTitle:'Reporting Tools',pageDescription:'Library index of reporting resources.',evidenceText:'Reporting Tools; EPA Leaker guide; links to journalism and media resources.',structuredData:[]},'https://www.sej.org/library/reporting-tools/overview'),
  item('social-reel','tools',{pageTitle:'AI tool demo',pageDescription:'Software generates data visualizations. Free access and documentation available.',evidenceText:'Software generates data visualizations. Free access and documentation available.',structuredData:[]},'https://www.instagram.com/reels/De9n98vxTeU'),
  item('grant','opportunities',{evidenceText:'Grant applications close 2099-12-31. Eligibility: who can apply is limited to journalists.',structuredData:[]}),
+ item('taz-rest-resilience','opportunities',{pageTitle:'Call for Applications – The Rest & Resilience Fellowship 2027 | taz.de',pageDescription:'Journalists at risk from abroad can apply for the Rest & Resilience program. The fellowship has been held by the taz Panter Foundation.',evidenceText:'The Rest & Resilience Fellowship 2027. Journalists at risk from abroad can apply for the program. The call for applications is now open for 2027. Application deadline: December 6, 2026 at 11:59 p.m. (CET).',structuredData:[]},'https://taz.de/taz-panterstiftung/rest-resilience-fellowship/'),
  item('structured-deadline','opportunities',{pageTitle:'Global Data Journalism Award',evidenceText:'Applications are open to journalists worldwide. Eligibility is stated on this page.',structuredData:[{'@type':'Event',name:'Global Data Journalism Award',endDate:'2099-12-31'}]}),
  item('fake-grant','opportunities',{evidenceText:'Welcome to our news blog about awards.',structuredData:[]}),
  item('generic-application-page','opportunities',{pageTitle:'How To Apply',evidenceText:'The Pulitzer Center provides grants to cover the hard costs of reporting projects. Grants are open to all journalists. DEADLINE: ROLLING. Eligibility: open to journalists worldwide.',structuredData:[]}),
@@ -57,6 +58,9 @@ try{
  cp.execFileSync(process.execPath,[path.resolve('scripts/review-editorial-evidence.js'),queue,out],{encoding:'utf8'});
  const result=JSON.parse(fs.readFileSync(out));
  assert.equal(result.records.find(x=>x.id==='grant').decision,'evidence_complete_for_record_draft');
+ const taz=result.records.find(x=>x.id==='taz-rest-resilience');
+ assert.equal(taz.decision,'evidence_complete_for_record_draft');
+ assert.equal(taz.checks.eligibility,true);
  assert.equal(result.records.find(x=>x.id==='structured-deadline').decision,'evidence_complete_for_record_draft');
  assert.equal(result.records.find(x=>x.id==='structured-deadline').checks.deadline,'2099-12-31');
  assert.equal(result.records.find(x=>x.id==='fake-grant').decision,'pending_more_evidence');
