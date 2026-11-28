@@ -16,32 +16,7 @@ function editorialText(html){
  const match=source.match(/<(?:article|main)\b[^>]*>([\s\S]*?)<\/(?:article|main)>/i)||source.match(/<div[^>]+(?:entry-content|post-content|article-content|td-post-content)[^>]*>([\s\S]*?)<\/div>/i);
  return cleanText(match?match[1]:source,3000);
 }
-function isoDate(raw){
- const s=String(raw||'').trim();
- let m=s.match(/\b(20\d{2})[-\\/.](\d{1,2})[-\\/.](\d{1,2})\b/);
- if(m)return [m[1],String(m[2]).padStart(2,'0'),String(m[3]).padStart(2,'0')].join('-');
- m=s.match(/\b(\d{1,2})[-\\/.](\d{1,2})[-\\/.](20\d{2})\b/);
- if(m)return [m[3],String(m[2]).padStart(2,'0'),String(m[1]).padStart(2,'0')].join('-');
- const months={january:1,february:2,march:3,april:4,may:5,june:6,july:7,august:8,september:9,october:10,november:11,december:12,jan:1,feb:2,mar:3,apr:4,jun:6,jul:7,aug:8,sep:9,sept:9,oct:10,nov:11,dec:12,janeiro:1,fevereiro:2,março:3,marco:3,abril:4,maio:5,junho:6,julho:7,agosto:8,setembro:9,outubro:10,novembro:11,dezembro:12};
- m=s.match(/\b([a-zç]+)\s+(\d{1,2})(?:st|nd|rd|th)?[,]?\s+(20\d{2})\b/i)||s.match(/\b(\d{1,2})\s+de?\s+([a-zç]+)\s+de?\s+(20\d{2})\b/i);
- if(!m)return null;
- const month=months[String(m[1]).toLowerCase()]||months[String(m[2]).toLowerCase()];
- const day=Number(months[String(m[1]).toLowerCase()]?m[2]:m[1]),year=Number(m[3]);
- return month&&day>=1&&day<=31?[String(year),String(month).padStart(2,'0'),String(day).padStart(2,'0')].join('-'):null;
-}
-function explicitPageFacts(html){
- const text=decode(String(html||'').replace(/<script\b[\s\S]*?<\/script>/gi,' ').replace(/<style\b[\s\S]*?<\/style>/gi,' '));
- const deadlineMatch=text.match(/(?:application\s+deadline|deadline|apply\s+by|applications?\s+(?:close|end)|closing\s+date|submissions?\s+(?:close|end)|due\s+date|final\s+date|prazo(?:\s+final)?|inscri(?:ções|coes)\s+(?:vão|vao)\s+até|até\s+o\s+dia)(?:\s*[:\-–]\s*|\s+)([^.]{0,120})/i);
- const contextualDeadline=isoDate(deadlineMatch?.[1]||'');
- const futureContext=[...text.matchAll(/(?:apply|application|applications|submission|submissions|deadline|closing|close|due|prazo|inscri(?:ção|cao|ções|coes)|candidatura)[^\n.]{0,120}?((?:20\d{2}[-\/.]\d{1,2}[-\/.]\d{1,2})|(?:\d{1,2}[\s-]+(?:jan(?:uary|eiro)?|feb(?:ruary|ruary|eiro)?|mar(?:ch|ço|co)?|apr(?:il|abril)?|may|mai|jun(?:e|ho)?|jul(?:y|ho)?|aug(?:ust|osto)?|sep(?:tember|tembro)?|oct(?:ober|ubro)?|nov(?:ember|embro)?|dec(?:ember|embro)?)[\s,]+20\d{2}))/ig)].map(x=>isoDate(x[1])).filter(Boolean);
- const deadline=contextualDeadline||futureContext.find(x=>x>=new Date().toISOString().slice(0,10))||null;
- const eligibilityMatch=text.match(/(?:eligib(?:ility|le)|who\s+(?:can|may)\s+apply|who\s+is\s+eligible\s+to\s+apply|eligible\s+applicants?|elegibilidade|quem\s+pod(?:e|em)\s+se\s+inscrever|open\s+to|available\s+to|for\s+(?:all\s+)?(?:journalists?|reporters?|newsrooms?|media\s+organizations?|researchers?)|jornalistas?|repórteres?|redações?|pesquisadores?)([^.]{0,320})/i);
- const eligibility=eligibilityMatch?decode(eligibilityMatch[0]).slice(0,320):null;
- const openMatch=text.match(/\b(?:applications?|submissions?|entries?|inscrições|inscricoes)\s+(?:are\s+)?(?:now\s+)?open\b|\b(?:call|fellowship|grant|award|edital|bolsa)\s+(?:is\s+)?open\b/i);
- const closedMatch=text.match(/\b(?:applications?|submissions?|entries?|inscrições|inscricoes)\s+(?:are\s+)?closed\b|\b(?:call|fellowship|grant|award|edital|bolsa)\s+(?:is\s+)?closed\b/i);
- const status=openMatch?'aberta':closedMatch?'encerrada':deadline&&!closedMatch?'aberta':null;
- return {deadline:deadline||null,eligibility:eligibility||null,eligibilityExplicit:Boolean(eligibility),status};
-}
+const {isoDate,explicitPageFacts}=require('./primary-page-facts');
 function structuredPageFacts(html){
  const out={};
  const scripts=[...String(html||'').matchAll(/<script[^>]+type=["']application\/ld\+json["'][^>]*>([\s\S]*?)<\/script>/gi)];
@@ -116,8 +91,8 @@ async function inspect(lead,options={}){
  const description=cleanText(metadata?.description||metaDescription||editorialText(html),1200);
  const pageFacts=explicitPageFacts(html);
  const structuredFacts=structuredPageFacts(html);
- const facts={deadline:pageFacts.deadline||structuredFacts.deadline||null,eligibility:pageFacts.eligibility||structuredFacts.eligibility||null,eligibilityExplicit:Boolean(pageFacts.eligibility||structuredFacts.eligibility),status:pageFacts.status||structuredFacts.status||null};
- const structuredEvidence={...(metadata||{}),...structuredFacts,title:cleanTitle(metadata?.title||title,metadata?.organization||lead.source||''),description,...(facts.deadline?{deadline:facts.deadline}:{}),...(facts.eligibility?{eligibility:facts.eligibility,eligibilityExplicit:true}:{}),...(facts.status?{status:facts.status}:{})};
+ const facts={deadline:pageFacts.deadline||structuredFacts.deadline||null,eligibility:pageFacts.eligibility||structuredFacts.eligibility||null,eligibilityExplicit:Boolean(pageFacts.eligibility||structuredFacts.eligibility),organization:structuredFacts.organization||pageFacts.organization||metadata?.organization||null,status:pageFacts.status||structuredFacts.status||null};
+ const structuredEvidence={...(metadata||{}),...structuredFacts,title:cleanTitle(metadata?.title||title,metadata?.organization||lead.source||''),description,...(facts.deadline?{deadline:facts.deadline}:{}),...(facts.eligibility?{eligibility:facts.eligibility,eligibilityExplicit:true}:{}),...(facts.organization?{organization:facts.organization}:{}),...(facts.status?{status:facts.status}:{})};
  // Aggregator/listing pages are discovery surfaces, not sufficient evidence by
  // themselves. Follow one clearly labelled external official/application link
  // once, then use the primary page's facts for the draft.
