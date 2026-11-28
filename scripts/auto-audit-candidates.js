@@ -153,6 +153,20 @@ for(const lead of results){
  decisions.push({...base,status:'approved',officialUrl:url,publicationReviewV1,reason:record.id.startsWith('auto-')?'Fonte primária HTTPS, página HTML acessível, domínio preservado e metadados estruturados explícitos da própria fonte confirmam os campos publicados; o registro neutro não infere dados ausentes.':'Fonte primária HTTPS, página HTML acessível, domínio preservado, prazo/eligibilidade/status e duplicidade verificados automaticamente; ficha pública completa anexada.',record});
 }
 const uniqueDecisions=[...new Map(decisions.map(d=>[urlKey(d.url),d])).values()];
-const out={schemaVersion:1,generatedAt:new Date().toISOString(),policy:'Aprovação automática somente com ficha completa e comprovante individual Radar evidence gate v1 validado; demais itens permanecem em revisão.',decisions:uniqueDecisions,blockers,summary:{inspected:results.length,autoApproved:uniqueDecisions.length,blocked:blockers.length,byBlocker:blockers.reduce((a,x)=>{for(const b of x.blockers)a[b]=(a[b]||0)+1;return a},{}),today}};
+const categoryFunnel={};
+for(const item of results){
+ const category=item.category||'uncategorized';
+ const row=categoryFunnel[category]||(categoryFunnel[category]={inspected:0,htmlFetched:0,blocked:0,pageStatus:{},blockers:{}});
+ row.inspected++;row.pageStatus[item.pageStatus||'unknown']=(row.pageStatus[item.pageStatus||'unknown']||0)+1;
+ if(item.pageStatus==='html-fetched')row.htmlFetched++;
+}
+for(const item of blockers){
+ const category=item.category||'uncategorized';
+ const row=categoryFunnel[category]||(categoryFunnel[category]={inspected:0,htmlFetched:0,blocked:0,pageStatus:{},blockers:{}});
+ row.blocked++;
+ for(const reason of item.blockers||[])row.blockers[reason]=(row.blockers[reason]||0)+1;
+}
+for(const category of ['opportunities','datasets','tools','uncategorized'])if(!categoryFunnel[category])categoryFunnel[category]={inspected:0,htmlFetched:0,blocked:0,pageStatus:{},blockers:{}};
+const out={schemaVersion:1,generatedAt:new Date().toISOString(),policy:'Aprovação automática somente com ficha completa e comprovante individual Radar evidence gate v1 validado; demais itens permanecem em revisão.',decisions:uniqueDecisions,blockers,summary:{inspected:results.length,autoApproved:uniqueDecisions.length,blocked:blockers.length,byCategory:categoryFunnel,byBlocker:blockers.reduce((a,x)=>{for(const b of x.blockers)a[b]=(a[b]||0)+1;return a},{}),today}};
 fs.writeFileSync(process.argv[4]||'intake/auto-editorial-decisions.json',JSON.stringify(out,null,2)+'\n');
 console.log(JSON.stringify(out.summary));
