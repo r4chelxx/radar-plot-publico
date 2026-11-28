@@ -245,7 +245,7 @@ jobs:
             cp intake/gmail-backfill-cursor.json /tmp/radar-gmail-backfill-cursor.json
           fi
       - name: Report Gmail source diagnosis
-        if: always() && github.event_name != 'pull_request' && github.event_name != 'pull_request'
+        if: always() && github.event_name != 'pull_request'
         run: |
           node - <<'NODE'
           const fs=require('fs');
