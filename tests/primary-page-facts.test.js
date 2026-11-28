@@ -6,7 +6,7 @@ test('reads eligibility from explicit primary-page body wording',()=>{
  assert.equal(facts.eligibilityExplicit,true);
 });
 test('ignores navigation and footer text when extracting eligibility',()=>{
- const html='<nav><a>Eligibility: only registered members</a></nav><main><p>Applications open for reporters.</p></main><footer>Eligible applicants include staff only.</footer>';
+ const html='<nav><a>Eligibility: only registered members</a></nav><main><p>Applications open in May.</p></main><footer>Eligible applicants include staff only.</footer>';
  const facts=explicitPageFacts(html);
  assert.equal(facts.eligibility,null);
 });
