@@ -261,7 +261,7 @@ window.RADAR_PARTS.opportunities=[
     "deadline": "2026-11-27",
     "deadlineStatus": "Confirmado na página oficial; fuso horário não informado.",
     "eligibility": "parcial",
-    "status": "aberta",
+    "status": "encerrada",
     "rules": "https://www.generonumero.media/artigos/programa-de-bolsas-aborto-em-pilulas",
     "apply": "https://www.generonumero.media/artigos/programa-de-bolsas-aborto-em-pilulas",
     "desc": "A Gênero e Número oferece bolsas de R$ 5 mil para jornalistas e comunicadoras produzirem reportagens aprofundadas sobre aborto e direitos reprodutivos no Brasil. A chamada informa acompanhamento editorial e exige conferência do edital, cronograma, elegibilidade e documentação antes da inscrição."
