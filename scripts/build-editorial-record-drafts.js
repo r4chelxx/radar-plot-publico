@@ -243,8 +243,15 @@ function buildDrafts(queue,review,generatedAt=new Date().toISOString()){
   };
  });
  const byCategory={opportunities:0,datasets:0,tools:0};
- for(const item of drafts)if(Object.hasOwn(byCategory,item.category))byCategory[item.category]++;
- return {schemaVersion:1,generatedAt,sourceQueueUpdatedAt:queue.updatedAt||null,policy:'Evidence-complete drafts only; the separate deterministic evidence gate must independently approve before publication.',summary:{eligibleForDrafting:eligible.length,drafts:drafts.length,byCategory,publicationReady:0},drafts};
+ const missingFieldCounts={opportunities:{},datasets:{},tools:{}};
+ const draftsWithMissingFields={opportunities:0,datasets:0,tools:0};
+ for(const item of drafts){
+  if(Object.hasOwn(byCategory,item.category))byCategory[item.category]++;
+  if(!Object.hasOwn(missingFieldCounts,item.category))continue;
+  if(item.missingFields.length)draftsWithMissingFields[item.category]++;
+  for(const field of item.missingFields)missingFieldCounts[item.category][field]=(missingFieldCounts[item.category][field]||0)+1;
+ }
+ return {schemaVersion:1,generatedAt,sourceQueueUpdatedAt:queue.updatedAt||null,policy:'Evidence-complete drafts only; the separate deterministic evidence gate must independently approve before publication.',summary:{eligibleForDrafting:eligible.length,drafts:drafts.length,byCategory,publicationReady:0,draftsWithMissingFields,missingFieldCounts},drafts};
 }
 if(require.main===module){
  const queuePath=process.argv[2]||'intake/editorial-queue.json',reviewPath=process.argv[3]||'intake/editorial-evidence-review.json',outPath=process.argv[4]||'intake/publication-drafts.json';

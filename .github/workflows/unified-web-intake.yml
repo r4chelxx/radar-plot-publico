@@ -165,32 +165,40 @@ jobs:
         if: github.event_name != 'pull_request'
         run: node scripts/recheck-active-opportunities.js
       - name: Discover new public feed entries
+        if: github.event_name != 'pull_request'
         id: feeds
         continue-on-error: true
         run: node scripts/discover-public-feeds.mjs
       - name: Discover public Grants for Journalists and GFMD links
+        if: github.event_name != 'pull_request'
         run: node scripts/discover-public-funding-pages.js
       - name: Discover public datasets from official catalog APIs
+        if: github.event_name != 'pull_request'
         id: datasets
         continue-on-error: true
         run: node scripts/discover-public-datasets.js
       - name: Discover targeted journalism funding opportunities
+        if: github.event_name != 'pull_request'
         id: opportunity-search
         continue-on-error: true
         run: node scripts/discover-opportunity-web.js
       - name: Discover public DVS toolkit links
+        if: github.event_name != 'pull_request'
         id: dvs
         continue-on-error: true
         run: node scripts/discover-dvs-public.mjs
       - name: Require at least one live discovery source
+        if: github.event_name != 'pull_request'
         run: |
           if [ "${{ steps.feeds.outcome }}" != "success" ] && [ "${{ steps.dvs.outcome }}" != "success" ]; then
             echo 'All live discovery collectors failed'
             exit 1
           fi
       - name: Convert previously audited web candidates
+        if: github.event_name != 'pull_request'
         run: node scripts/collect-web-leads.js
       - name: Import reviewed public LinkedIn post URLs if provided
+        if: github.event_name != 'pull_request'
         run: |
           if [ -f intake/linkedin-public-posts.json ]; then
             node scripts/import-linkedin-public-posts.js intake/linkedin-public-posts.json intake/linkedin-public-candidates.json
@@ -228,6 +236,7 @@ jobs:
           RADAR_GMAIL_CLIENT_ID: ${{ secrets.RADAR_GMAIL_CLIENT_ID }}
           RADAR_GMAIL_CLIENT_SECRET: ${{ secrets.RADAR_GMAIL_CLIENT_SECRET }}
           RADAR_GMAIL_REFRESH_TOKEN: ${{ secrets.RADAR_GMAIL_REFRESH_TOKEN }}
+        if: github.event_name != 'pull_request'
         run: node scripts/discover-gmail-newsletters.js
       - name: Save historical Gmail cursor to persistent state
         if: github.event_name != 'pull_request'
@@ -249,8 +258,10 @@ jobs:
           fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY,line.join('\\n')+'\n');
           NODE
       - name: Discover indexed public LinkedIn posts (partial coverage)
+        if: github.event_name != 'pull_request'
         run: node scripts/discover-linkedin-indexed.js
       - name: Consolidate live and historical candidates
+        if: github.event_name != 'pull_request'
         run: |
           if [ ! -f intake/opportunity-web-discovery.json ]; then
             printf '{"source":"web","leads":[]}\n' > intake/opportunity-web-discovery.json
@@ -260,6 +271,7 @@ jobs:
           fi
           node scripts/unify-discovery.js intake/live-web-discovery.json intake/dvs-public-discovery.json intake/web-discovery-input.json intake/user-requested-candidates.json intake/linkedin-public-candidates.json intake/public-funding-pages.json intake/opportunity-web-discovery.json intake/public-dataset-discovery.json intake/gmail-discovery.json intake/linkedin-indexed-discovery.json
       - name: Classify duplicate and navigation candidates
+        if: github.event_name != 'pull_request'
         run: node scripts/quality-gate-discovery.js
       - name: Inspect rotating editorial backlog
         if: github.event_name != 'pull_request'
@@ -281,10 +293,13 @@ jobs:
           LEAD_PAGE_LIMIT=240 LEAD_INSPECTION_CONCURRENCY=12 node scripts/inspect-lead-pages.js
           node scripts/require-inspection-health.js intake/lead-evidence.json
       - name: Prepare editorial review sample
+        if: github.event_name != 'pull_request'
         run: node scripts/sample-editorial-review.js
       - name: Export readable editorial review
+        if: github.event_name != 'pull_request'
         run: node scripts/export-editorial-review.js
       - name: Load persisted editorial queue for operational reporting
+        if: github.event_name != 'pull_request'
         run: |
           if git ls-remote --exit-code --heads origin radar-state >/dev/null; then
             git fetch --depth=1 origin radar-state
@@ -292,6 +307,7 @@ jobs:
           fi
           node scripts/load-persisted-editorial-queue.js /tmp/radar-persisted-editorial-queue.json intake/editorial-queue-report.json
       - name: Snapshot prior editorial queue for delta reporting
+        if: github.event_name != 'pull_request'
         run: |
           if [ -f /tmp/radar-persisted-editorial-queue.json ]; then
             cp /tmp/radar-persisted-editorial-queue.json /tmp/radar-previous-editorial-queue.json
@@ -374,6 +390,7 @@ jobs:
           if(bad.length){console.error('Incorrect persisted categories:',bad.map(x=>x.title));process.exitCode=1;}
           NODE
       - name: Generate read-only backlog triage suggestions
+        if: github.event_name != 'pull_request'
         run: |
           if [ -f /tmp/radar-persisted-editorial-queue.json ]; then
             git show FETCH_HEAD:state/lead-history.json > /tmp/radar-persisted-lead-history.json || printf '{\"leads\":{}}\n' > /tmp/radar-persisted-lead-history.json
@@ -381,6 +398,7 @@ jobs:
             node -e 'const fs=require("fs");const r=require("./intake/backlog-triage-report.json");fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY,["### Editorial backlog triage",`Pending: ${r.pending}; uncategorized: ${r.uncategorized}`,`Suggestions: ${JSON.stringify(r.counts)}`,`Daily review shortlist: ${(r.dailyReview||[]).length}; editorial verification required`,`Inspected HTML review subset: ${(r.inspectedReview||[]).length}; not editorially approved`,`Pending age: >7d ${r.backlogAge.over7Days}; >14d ${r.backlogAge.over14Days}; >30d ${r.backlogAge.over30Days}; missing firstSeen ${r.backlogAge.missingFirstSeen}`,`Backlog delta: ${r.backlogChange?JSON.stringify(r.backlogChange):"baseline unavailable (PR or first run)"}`].join("\n")+"\n")'
           fi
       - name: Report category coverage of pending editorial candidates
+        if: github.event_name != 'pull_request'
         run: |
           node - <<'NODE'
           const fs=require('node:fs');
@@ -397,11 +415,13 @@ jobs:
           }
           NODE
       - name: Summarize collector reliability
+        if: github.event_name != 'pull_request'
         run: node scripts/report-discovery-operations.js
       - name: Show source failures in workflow summary
+        if: github.event_name != 'pull_request'
         run: node scripts/summarize-discovery.js
       - name: Upload non-publishing discovery queue
-        if: always()
+        if: always() && github.event_name != 'pull_request'
         uses: actions/upload-artifact@v4
         with:
           name: radar-unified-web-intake
