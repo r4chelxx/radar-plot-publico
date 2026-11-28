@@ -20,3 +20,8 @@ test('matches daily cutoff in Bahia local date',()=>{
  assert.equal(explicitPageFacts('<main><p>Apply by November 27, 2026.</p></main>',now).deadline,'2026-11-27');
 });
 test('rejects impossible ISO dates',()=>assert.equal(require('../scripts/primary-page-facts').isoDate('2026-02-31'),null));
+test('a topical mention alone does not count as eligibility',()=>{
+ const facts=explicitPageFacts('<main><p>The tool is used by journalists. Applications open next month.</p></main>');
+ assert.equal(facts.eligibility,null);
+ assert.equal(facts.eligibilityExplicit,false);
+});
