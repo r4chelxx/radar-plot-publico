@@ -151,7 +151,9 @@ function review(c){
   checks.callSignal=(!genericPage||!!namedCall)&&(verifiedOpportunityEvidence||actionableOpportunity(callTitle,text))&&!/newsletter|podcast|directory|portfolio/i.test(title);
   if(genericPage&&!namedCall)missing.push('nome específico da chamada ausente; página genérica de inscrição não pode ser publicada como oportunidade');
   checks.deadline=deadlineDates(text,checks.callSignal).find(d=>d>=today)||structuredDeadline(docs); if(checks.deadline&&checks.deadline<today)checks.deadline=null;
-  checks.eligibility=/\b(eligib|eligible|eligibility|who can apply|who may apply|who is eligible to apply|who can enter|who can participate|participants must|entry requirements|age(?:d)? 18 and up|18 years and older|globally may enter|open to|elegibilidade|elegível|podem se candidatar)\b/i.test(text);
+  const extractedEligibility=a.structuredEvidence?.eligibilityExplicit===true&&String(a.structuredEvidence.eligibility||'').trim().length>=20;
+  const applicantCanApply=/\b(?:journalists?|reporters?|newsrooms?|media organizations?|researchers?)[^.!?]{0,240}\b(?:can|may)\s+(?:apply|enter|participate|submit)\b|\b(?:jornalistas?|repórteres?|redações?|pesquisadores?)[^.!?]{0,240}\b(?:podem|poderão)\s+(?:se candidatar|se inscrever|participar|enviar)\b/i.test(text);
+  checks.eligibility=/\b(eligib|eligible|eligibility|who can apply|who may apply|who is eligible to apply|who can enter|who can participate|participants must|entry requirements|age(?:d)? 18 and up|18 years and older|globally may enter|open to|elegibilidade|elegível|podem se candidatar)\b/i.test(text)||applicantCanApply||extractedEligibility;
   if(/\b(?:applications?|submissions?|entries?)\b[^.!?]{0,120}\bclosed\b|inscri[cç][oõ]es\s+encerradas/i.test(text))missing.push('chamada explicitamente encerrada');
   if(!checks.callSignal)missing.push('chamada de financiamento/bolsa identificável');
   checks.rolling=!checks.deadline&&rollingApplicationEvidence(text);
