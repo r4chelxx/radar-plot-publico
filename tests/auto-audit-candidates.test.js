@@ -28,7 +28,7 @@ test('auto-audit blocks missing eligibility and duplicate evidence',()=>{
   fs.writeFileSync(path.join(d,'intake/editorial-review.json'),JSON.stringify({candidates:[]}));
   cp.execFileSync(process.execPath,['scripts/auto-audit-candidates.js'],{cwd:d});
   const out=JSON.parse(fs.readFileSync(path.join(d,'intake/auto-editorial-decisions.json')));
-  assert.equal(out.decisions.length,0);assert.ok(out.summary.blocked===1);
+  assert.equal(out.decisions.length,0);assert.ok(out.summary.blocked===1);assert.equal(out.summary.byCategory.opportunities.inspected,1);assert.equal(out.summary.byCategory.opportunities.blocked,1);assert.ok(out.summary.byCategory.opportunities.blockers['comprovante individual compatível com Radar evidence gate v1 ausente ou inválido']);
  }finally{fs.rmSync(d,{recursive:true,force:true})}
 });
 
